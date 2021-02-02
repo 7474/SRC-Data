@@ -1,0 +1,286 @@
+ＦＦ６
+ポイズン, Whiz.wav
+ポイズン(命中), Bubble.wav
+エンハンスソード, Swing.wav
+エンハンスソード(命中), Slash.wav
+ファイア, fire.wav
+ドレイン, Whiz.wav
+ドレイン(命中), Bubble.wav
+バイオ, Whiz.wav
+バイオ(命中), Bubble.wav
+ファイラ, LaserGun.wav
+メルトン, 5;MultipleRocketLauncher.wav;Explode(Nuclear).wav
+ライオットソード(準備), Glass.wav;1;White.bmp 480 480;Clear
+ライオットソード, 3;Whiz.wav;1;Glass.wav;1;Glass.wav;1;Glass.wav;Glass.wav
+ライオットソード(命中), 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;Slash.wav
+ファイガ, Warship.wav
+ファイガ(命中), Explode.wav
+フレア, 8;Charge.wav;Explode(Nuclear).wav
+アルテマ, Charge.wav;8;精神コマンド\gekirei[05-08].bmp 640 480 透過;Falir.wav;1;White.bmp 640 480;Clear
+アルテマ(命中), Explode.wav
+マインゴーシュ(命中), Saber.wav
+ホークアイ, Swing.wav
+ホークアイ(命中), Shock(low).wav
+グラディウス(命中), Slash.wav
+ナイフ二刀流, 1;Swing.wav;Swing.wav
+ナイフ二刀流(命中), 1;Slash.wav;Slash.wav
+二刀流乱れ撃ち, 1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;Swing.wav
+二刀流乱れ撃ち(命中), 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;Slash.wav
+ミラージュダイヴ(準備), Glass.wav;1;White.bmp 480 480;Clear
+ミラージュダイヴ, 3;Stairs(Run).wav;Swing.wav
+ミラージュダイヴ(命中), 1;Explode.wav;1;Slash.wav;Slash.wav
+ブラストボイス, Alarm.wav
+ウィークメーカー, -.wav
+ウィークメーカー(命中), Hittyuu.wav
+バイオブラスト, Fold.wav
+バイオブラスト(命中), -.wav
+バイオブラスト(クリティカル), Bubble.wav
+パルチザン, Swing.wav
+パルチザン(命中), Stab.wav
+ドリル, Engine.wav
+ドリル(命中), Drill.wav
+サンビーム, Beam.wav
+サンビーム(クリティカル), Explode.wav;1;White.bmp 480 480;Clear
+オートボウガン, 1;Bow.wav;1;Bow.wav;1;Bow.wav;Bow.wav
+オートボウガン(命中), Stab.wav
+回転のこぎり, Engine.wav
+回転のこぎり(命中), Drill.wav
+エアアンカー, 12;FlyBy.wav;Sword.wav
+ロイヤルショック(準備), Glass.wav;1;White.bmp 480 480;Clear
+ロイヤルショック, LaserGun.wav
+メタルナックル, Swing.wav
+メタルナックル(命中), Shock(low).wav
+オーラキャノン, Beam.wav
+爆裂拳(命中), Combo.wav
+鳳凰の舞, MultipleRocketLauncher(Light).wav
+真空波, LesarGun.wav
+メテオストライク, 2;Punch.wav;Swing.wav
+メテオストライク(命中), 2;Shock(low).wav;Explode.wav
+タイガーブレイク(準備), Glass.wav;1;White.bmp 480 480;Clear
+タイガーブレイク, 1;Stairs(Run).wav;Warship.wav
+タイガーブレイク(命中), Explode(Nuclear).wav
+夢幻闘舞(準備), Flair.wav;1;White.bmp 480 480;Clear
+夢幻闘舞, MicroMissile.wav
+夢幻闘舞(命中), 1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;Shock(low).wav
+サイレス, Whiz.wav
+サイレス(命中), -.wav
+サイレス(クリティカル), -.wav
+ストップ, Whiz.wav
+ストップ(命中), -.wav
+ストップ(クリティカル), Hittyu.wav
+ブリザド, Whiz.wav
+ブリザド(命中), Glass.wav
+バスタードソード, Swing.wav
+バスタードソード(命中), Slash.wav
+ブリザラ, Storm.wav
+ブリザラ(命中), Glass.wav
+ルーンブレイド(準備), Whiz.wav
+ルーンブレイド, Swing.wav
+ルーンブレイド(命中), Slash.wav
+ルーンブレイド(クリティカル), Slash.wav;1;White.bmp 480 480;Clear
+ブリザガ, 4;Storm.wav;1;Glass.wav;1;Glass.wav;Glass.wav
+ブリザガ(命中), 1;Glass.wav;2;Glass.wav;Explode.wav
+メテオ(準備), Fold.wav
+メテオ, 2;Bomb.wav;1;Bomb.wav;2;Bomb.wav;1;Bomb.wav;1;Bomb.wav;2;Bomb.wav;1;Bomb.wav;2;Bomb.wav;3;Explode.wav;1;Explode.wav;2;Explode.wav;1;Explode.wav;Explode(Nuclear).wav
+ホーリー, Whiz.wav
+スピニングエッジ(準備), Glass.wav;1;White.bmp 480 480;Clear
+スピニングエッジ, MultipleRocketLauncher.wav
+スピニングエッジ(命中), 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;Slash.wav
+煙玉, Explode.wav
+煙玉(命中), -.wav
+煙玉(クリティカル), -.wav
+手裏剣, 1;bow.wav;1;bow.wav;bow.wav
+手裏剣(命中), 1;Stab.wav;1;Stab.wav;Stab.wav
+小太刀, Swing.wav
+小太刀(命中), Slash.wav
+火遁, Fire.wav
+水遁, Splash.wav
+ハウンドタックル, Dog.wav
+ハウンドタックル(命中), Shock.wav
+雷迅, Thunder.wav
+シャドウファング(準備), Glass.wav;1;White.bmp 480 480;Clear
+シャドウファング, -.wav
+シャドウファング, 1:explode.wav;Slash.wav
+ジョーカーデス(準備), 1;hittyu.wav;1;hittyu.wav;hittyu.wav
+ジョーカーデス(命中), -.wav
+ジョーカーデス(クリティカル), Fold.wav;5;Black.bmp 480 480;Clear
+ダイス, 2;Swing.wav;Swing.wav
+チョコボラッシュ, 1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav
+カード, Bow.wav
+カード(命中), Stab.wav
+ダーツ, Bow.wav
+ダーツ(命中), Stab.wav
+セブンフラッシュ, Beam.wav
+いかさまダイス, 1;Swing.wav;1;Swing.wav;Swing.wav
+ブラッディカード(準備), Glass.wav;1;White.bmp 480 480;Clear
+ブラッディカード, Bow.wav
+ブラッディカード(命中), Fold.wav;5;Black.bmp 480 480;Clear
+スリプル, Whiz.wav
+スリプル(命中), -.wav
+スリプル(クリティカル), Bubble.wav
+コンフュ, Whiz.wav
+コンフュ(命中), -.wav
+コンフュ(クリティカル), PiyoPiyo.wav
+ブレイク, Whiz.wav
+ブレイク(命中), -.wav
+ブレイク(クリティカル), PiyoPiyo.wav
+マジカルブラシ, Swing.wav
+マジカルブラシ, Slap.wav
+グラビデ, Bazooka.wav
+グラビデ(命中), Shock(low).wav
+サンダー, Thunder.wav
+グラビガ, Bazooka.wav
+グラビガ(命中), Shock(low).wav
+サンダラ, Thunder.wav
+クエイク, 1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;Shock(low).wav
+デジョン(準備), Fold.wav;Black.bmp 480 480;Clear
+デジョン, Glass.wav;Clear
+サンダガ, Thunder.wav
+スタープリズム(準備), Glass.wav;1;White.bmp 480 480;Clear
+スタープリズム, PowerDown.wav
+スタープリズム(命中), Explode(nuclear).wav
+阿修羅, Swing.wav
+阿修羅(命中), Slash.wav
+必殺剣「牙」, 1;Stairs(Run).wav;Swing.wav
+必殺剣「牙」(命中), Slash.wav
+必殺剣「龍」, Whiz.wav
+必殺剣「龍」(命中), Slash.wav
+必殺剣「虎」, Swing.wav
+必殺剣「虎」(命中), Slash.wav
+必殺剣「舞」, 1;Slash.wav;1;Slash.wav;1;Slash.wav;Slash.wav
+必殺剣「空」, Swing.wav
+必殺剣「空」(命中), 1;Slash.wav;Slash.wav
+必殺剣「月」, LaserGun.wav
+必殺剣「断」, 1;Stairs(Run).wav;Cannon.wav
+必殺剣「断」(命中), 3;Swing.wav;1;Glass.wav
+燕返し(準備), Glass.wav;1;White.bmp 480 480;Clear
+燕返し, Swing.wav
+燕返し(命中), 1;Shock(low).wav;Slash.wav
+必殺剣「烈」, 1;Slash.wav;1;White.bmp 480 480;Clear;1;Slash.wav;1;White.bmp 480 480;Clear;1;Slash.wav;1;White.bmp 480 480;Clear;Slash.wav;1;White.bmp 480 480;Clear
+必殺剣「烈」(命中), 1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;Shock(low).wav
+飛びこむ, Shock(low).wav
+大旋風, Strom.wav
+砂嵐, Storm.wav
+メタルカッター, Swing.wav
+メタルカッター(命中), Slash.wav
+リベンジブラスト, Flair.wav
+リベンジブラスト(命中), 1;Shock(low).wav;1;Shock(low).wav;Shock(low).wav
+ネコキック, Swing.wav
+ネコキック(命中), Crash.wav
+衝撃波, Explode(Far).wav
+フレアスター, MicroMissile.wav
+臭い息, Hide.wav
+臭い息(命中), -.wav
+臭い息(クリティカル), Bubble.wav
+ミスリルロッド, Swing.wav
+ミスリルロッド(命中), Slap.wav
+針千本, bow.wav
+針千本, 1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;Stab.wav
+石飛礫, 1;bow.wav;1;bow.wav;bow.wav
+アクアブレス, Bubble.wav
+アクアブレス(命中), Splash.wav
+クェーサー, 2;Bomb.wav;1;Bomb.wav;2;Bomb.wav;1;Bomb.wav;1;Bomb.wav;2;Bomb.wav;1;Bomb.wav;2;Bomb.wav;3;Shock(low).wav;1;Shock(low).wav;2;Shock(low).wav;1;Shock(low).wav;Shock(low).wav
+グランドトライン, Fold.wav;Black.bmp 480 480
+グランドトライン, Glass.wav;12;Flash[01-06].bmp 480 480;1;White.bmp 480 480;Clear
+セバーソウル(準備), Glass.wav;1;White.bmp 480 480;Clear
+セバーソウル, Whiz.wav
+セバーソウル(命中), Shock(low).wav
+お仕置きメテオ(準備), Glass.wav;1;White.bmp 480 480;Clear
+お仕置きメテオ, 2;Bomb.wav;1;Bomb.wav;2;Bomb.wav;1;Bomb.wav;1;Bomb.wav;2;Bomb.wav;1;Bomb.wav;2;Bomb.wav;3;Explode.wav;1;Explode.wav;2;Explode.wav;1;Explode.wav;Explode(Nuclear).wav
+ボーンクラブ, Swing.wav
+ボーンクラブ(命中), Shock(low).wav
+吹雪, Storm.wav
+吹雪(命中), Glass.wav
+突撃(命中), Clash.wav
+愛のセレナーデ(準備), Sharara.wav;5;精神コマンド\captivation[01-05].bmp 64 64 透過;Clear
+愛のセレナーデ(命中), -.wav
+愛のセレナーデ(クリティカル), Bubble.wav
+森のノクターン(準備), Sharara.wav;5;精神コマンド\captivation[01-05].bmp 64 64 透過;Clear
+森のノクターン, Wind.wav
+ミスリルスピア, Swing.wav
+ミスリルスピア(命中), Stab.wav
+風のハーモニー(準備), Sharara.wav;5;精神コマンド\captivation[01-05].bmp 64 64 透過;Clear
+風のハーモニー, AntiShipMissile.wav
+砂漠のララバイ(準備), Sharara.wav;5;精神コマンド\captivation[01-05].bmp 64 64 透過;Clear
+砂漠のララバイ, Storm.wav
+闇のレクイエム(準備), Sharara.wav;5;精神コマンド\captivation[01-05].bmp 64 64 透過;Clear
+闇のレクイエム, Fire.wav
+雪だるまロンド(準備), Sharara.wav;5;精神コマンド\captivation[01-05].bmp 64 64 透過;Clear
+雪だるまロンド, 1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;Shock(low).wav
+水のハーモニー(準備), Sharara.wav;5;精神コマンド\captivation[01-05].bmp 64 64 透過;Clear
+水のハーモニー, Splash.wav
+モーグリ乱舞(準備), Glass.wav;1;White.bmp 480 480;Clear
+モーグリ乱舞, Combo.wav
+パニッシャー, Swing.wav
+パニッシャー(命中), Stab.wav
+モーニングスター, Swing.wav
+モーニングスター, Shock(low).wav
+心ない天使, Sharara.wav
+ミッシング, 1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;Shock(low).wav
+破壊の翼, Swing.wav
+破壊の翼(命中), Crash.wav
+磁場転換, Explode(Nuclear).wav
+フォースフィールド, Flair.wav
+ノーザンクロス, 1;Glass.wav;1;Glass.wav;1;Glass.wav;1;Glass.wav;Glass.wav
+魔神の怒り, 1;Shock(low).wav;1;Shock(low).wav;Shock(low).wav
+魔神の怒り(命中), Explode(Nuclear).wav
+絶対零度, 4;Storm.wav;Glass.wav
+クラウディヘブン, Sharara.wav;2;精神コマンド\Syukufuku01.bmp 128 128 208 1 透過;Clear;2;精神コマンド\Syukufuku02.bmp 128 128 208 65 透過;Clear;2;精神コマンド\Syukufuku03.bmp 128 128 208 130 透過;Clear;3;精神コマンド\Syukufuku04.bmp 128 128 208 176 透過;Clear;1;精神コマンド\Syukufuku05.bmp 128 128 208 176 透過;Clear;Flair.wav;2;精神コマンド\Syukufuku07.bmp 480 480 透過;2;精神コマンド\Syukufuku06.bmp 480 480 透過;Clear
+子守歌, Sharara.wav
+誘惑, Sharara.wav;5;精神コマンド\captivation[01-05].bmp 480 480 透過;Clear
+誘惑(命中), -.wav
+誘惑(クリティカル), Bubble.wav;1;White.bmp 480 480;Clear
+フラッシュレイン, Splash.wav;1;White.bmp 480 480;Clear
+サザンクロス, 2;Thunder.wav;2;精神コマンド\Gekitou01.bmp 960 480 透過;Clear;Explode(nuclear).wav;18;精神コマンド\Gekitou[02-10].bmp 960 480 透過;Clear
+波動砲(準備), 8;Charge.wav
+波動砲, 1;Shock(low).wav;LaserGun.wav
+テイルフィング, FlyBy.wav
+テイルフィング(命中), 1;Shock(low).wav;1;Shock(low).wav;Slash.wav
+メテオ(物理), 2;Bomb.wav;1;Bomb.wav;2;Bomb.wav;1;Bomb.wav;1;Bomb.wav;2;Bomb.wav;1;Bomb.wav;2;Bomb.wav;3;Explode.wav;1;Explode.wav;2;Explode.wav;1;Explode.wav;Explode(Nuclear).wav
+マインドブラスト, BeamShot.wav
+墨, Splash.wav
+タコ足, Whip.wav
+尻尾, Swing.wav
+尻尾(命中), Crash.wav
+ファイアーボール, Channon.wav
+ファイアーボール(命中), Explode.wav
+鼻息, Storm.wav
+鼻息(命中), 1;Shock(low).wav;1;Shock(low).wav;Shock(low).wav
+イレイサー, Hide.wav
+踏みつけ(命中), Shock(low).wav
+１００万ボルト, Thunder.wav
+雪崩, 1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;Shock(low).wav
+ランドスライド, 1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;Shock(low).wav
+マグニチュード８, 1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;Shock(low).wav
+木の葉乱舞, Storm.wav
+エアロガ, Storm.wav
+かまいたち, AntiAirMissile.wav
+骨の尻尾, Swing.wav
+骨の尻尾, Crash.wav
+鬼火, Fire.wav
+ディスアスター, 1;Explode(Far).wav;1;Explode(Far).wav;Shock(Low).wav
+酸性雨, Inori.wav
+大海瀟, 1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;Splash.wav
+バイオブラスター, Fold.wav
+バイオブラスター(命中), -.wav
+バイオブラスター(クリティカル), Bubble.wav
+コンフューザー, Whiz.wav
+コンフューザー(命中), -.wav
+コンフューザー(クリティカル), PiyoPiyo.wav
+フリザービーム, 3;Glass.wav;LaserGun.wav
+ファイアービーム, 3;Fire.wav;LaserGun.wav
+サンダービーム, 3;Thunder.wav;LaserGun.wav
+魔導ミサイル, AntiShipMissile.wav
+チャクラ, Charge.wav
+ケアル, Sharara.wav;6;精神コマンド\Syukufuku[12-14].bmp 透過;Clear
+ケアルラ, Sharara.wav;6;精神コマンド\Syukufuku[12-14].bmp 透過;Clear
+ケアルガ, Sharara.wav;6;精神コマンド\Syukufuku[12-14].bmp 透過;Clear
+エスナ, Sharara.wav;6;精神コマンド\Syukufuku[12-14].bmp 透過;Clear
+シェル, Whiz.wav;6;精神コマンド\Syukufuku[12-14].bmp 透過;Clear
+プロテス, Whiz.wav;6;精神コマンド\Syukufuku[12-14].bmp 透過;Clear
+ヘイスト, Whiz.wav;6;精神コマンド\Syukufuku[12-14].bmp 透過;Clear
+バニシュ, Falir.wav;1;White.bmp 480 480;Clear
+木の葉隠れ, Storm.wav
+影分身, BeamCoat.wav
+大地のブルース, Sharara.wav;5;精神コマンド\captivation[01-05].bmp 64 64 透過;Clear
+祈り, Sharara.wav

@@ -1,0 +1,613 @@
+## アレルヤの人格融合用インクルード
+## 必ずエピローグイベントを実行するか、クリア処理時に人格融合解除ラベルを呼び出すようにしてください。
+
+*ターン 全 全:
+*行動終了 全:
+*攻撃後 全 全:
+*破壊 全:
+*使用後 全 全:
+
+If Status(アレルヤ＝ハプティズム(2nd)) = "出撃" Then
+	If Morale(アレルヤ＝ハプティズム(2nd)) > 119 And Info(パイロット,アレルヤ＝ハプティズム(2nd),特殊能力所有,人格融合) Then
+		Call アレルヤ(2nd)人格融合
+	EndIf
+EndIf
+
+Exit
+
+
+アレルヤ(2nd)人格融合:
+If アレルヤ＝ハプティズム(2nd) Then
+	ReplacePilot アレルヤ＝ハプティズム(2nd) アレルヤ＝ハプティズム(2nd)(融合)
+
+	Set アレルヤ(2nd)人格融合 100
+EndIf
+Return
+
+アレルヤ(2nd)人格融合解除:
+If IsDefined(アレルヤ＝ハプティズム(2nd)(融合),パイロット) > 0 Then
+	ReplacePilot アレルヤ＝ハプティズム(2nd)(融合) アレルヤ＝ハプティズム(2nd)
+EndIf
+Return
+
+
+*エピローグ:
+
+If アレルヤ(2nd)人格融合 Then
+	Call アレルヤ(2nd)人格融合解除
+EndIf
+
+Exit
+
+
+
+## ダブルオーライザー、アーチャーアリオスの分離制御用インクルード
+ユニットコマンド 分離 刹那＝Ｆ＝セイエイ (Unit() = ダブルオーライザー And Info(ダブルオーライザー,サポート数) = 1 And IsDefined(オーライザー,ユニット) > 0):
+Confirm 分離しますか？
+If 選択 = 1 Then
+	Split 刹那＝Ｆ＝セイエイ
+EndIf
+Exit
+
+ユニットコマンド 分離 刹那＝Ｆ＝セイエイ(2nd) (Unit() = ダブルオーライザー And Info(ダブルオーライザー,サポート数) = 1 And IsDefined(オーライザー,ユニット) > 0):
+Confirm 分離しますか？
+If 選択 = 1 Then
+	Split 刹那＝Ｆ＝セイエイ(2nd)
+EndIf
+Exit
+
+
+ユニットコマンド 分離 刹那＝Ｆ＝セイエイ(劇場版) (Unit() = ダブルオーライザー And Info(ダブルオーライザー,サポート数) = 1 And IsDefined(オーライザー,ユニット) > 0):
+Confirm 分離しますか？
+If 選択 = 1 Then
+	Split 刹那＝Ｆ＝セイエイ(劇場版)
+EndIf
+Exit
+
+ユニットコマンド 分離 アレルヤ＝ハプティズム (Unit() = アーチャーアリオス And Info(アーチャーアリオス,サポート数) = 1 And IsDefined(ＧＮアーチャー,ユニット) > 0):
+Confirm 分離しますか？
+If 選択 = 1 Then
+	Split アレルヤ＝ハプティズム
+EndIf
+Exit
+
+ユニットコマンド 分離 アレルヤ＝ハプティズム(融合) (Unit() = アーチャーアリオス And Info(アーチャーアリオス,サポート数) = 1 And IsDefined(ＧＮアーチャー,ユニット) > 0):
+Confirm 分離しますか？
+If 選択 = 1 Then
+	Split アレルヤ＝ハプティズム(融合)
+EndIf
+Exit
+
+ユニットコマンド 分離 アレルヤ＝ハプティズム(2nd) (Unit() = アーチャーアリオス And Info(アーチャーアリオス,サポート数) = 1 And IsDefined(ＧＮアーチャー,ユニット) > 0):
+Confirm 分離しますか？
+If 選択 = 1 Then
+	Split アレルヤ＝ハプティズム(2nd)
+EndIf
+Exit
+
+ユニットコマンド 分離 アレルヤ＝ハプティズム(2nd)(融合) (Unit() = アーチャーアリオス And Info(アーチャーアリオス,サポート数) = 1 And IsDefined(ＧＮアーチャー,ユニット) > 0):
+Confirm 分離しますか？
+If 選択 = 1 Then
+	Split アレルヤ＝ハプティズム(2nd)(融合)
+EndIf
+Exit
+
+ユニットコマンド 分離 アレルヤ＝ハプティズム(劇場版) (Unit() = アーチャーアリオス And Info(アーチャーアリオス,サポート数) = 1 And IsDefined(ＧＮアーチャー,ユニット) > 0):
+Confirm 分離しますか？
+If 選択 = 1 Then
+	Split アレルヤ＝ハプティズム(劇場版)
+EndIf
+Exit
+
+
+### マスラオ用アニメ関数 ###
+
+戦闘アニメ_G00_ダリル準備:
+Call 戦闘アニメ_G00_マスラオ準備  中 "EFFECT_G00_GNBeamSaberDaryl" Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+Return "Keep"
+
+戦闘アニメ_G00_ダリルトランザム準備:
+Call 戦闘アニメ_G00_マスラオ準備  中 "EFFECT_G00_GNBeamSaberDaryl(TRANS-AM)" Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+Return "Keep"
+
+戦闘アニメ_G00_ハワード準備:
+Call 戦闘アニメ_G00_マスラオ準備  中 "EFFECT_G00_GNBeamSaberHoward" Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+Return "Keep"
+
+戦闘アニメ_G00_ハワードトランザム準備:
+Call 戦闘アニメ_G00_マスラオ準備  中 "EFFECT_G00_GNBeamSaberHoward(TRANS-AM)" Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+Return "Keep"
+
+
+
+戦闘アニメ_G00_マスラオ準備:
+
+Local X_P
+Local Y_P
+Local B_C
+Local 反転方向
+Local C_X
+Local C_Y
+Local C_X2
+Local W_F
+Local UID
+Local T_COL1 = _ColorTime(1)
+Local T_COL = _ColorTime()
+
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+_CenteringCheck UID
+Set C_X WX(UID)
+Set C_Y WY(UID)
+
+Set W_F Args(2)
+
+
+If (W_F = "EFFECT_G00_GNBeamSaberDaryl") Then
+  Set C_X2 (C_X - 16)
+  Set 反転方向 反転なし
+ElseIf (W_F = "EFFECT_G00_GNBeamSaberDaryl(TRANS-AM)") Then
+  Set C_X2 (C_X - 16)
+  Set 反転方向 反転なし
+Else
+  Set C_X2 (C_X + 16)
+  Set 反転方向 左右反転
+EndIf
+
+
+Wait Start
+_PaintCutin_Zahyou (W_F & "00.bmp") 反転方向 (C_X2 + 4) (C_Y + 4)
+Wait Until 1
+_PaintCutin_Zahyou (W_F & "00.bmp") 反転方向 (C_X2 - 4) (C_Y - 4)
+Wait Until 2
+_PaintCutin_Zahyou (W_F & "00.bmp") 反転方向 C_X2 C_Y
+Wait Until 3.5
+
+_SelectSound BeamSaber.wav _GetWavFromArgs()
+Wait Start
+_PaintCutin_Zahyou (W_F & "01.bmp") 反転方向 C_X2 C_Y
+Wait Until 3.5
+
+_PaintCutin_Zahyou (W_F & "02.bmp") 反転方向 C_X2 C_Y
+Wait Until 3
+
+_PaintCutin_Zahyou (W_F & "03.bmp") 反転方向 C_X2 C_Y
+Wait Until 4
+
+_PaintCutin_Zahyou (W_F & "04.bmp") 反転方向 C_X2 C_Y
+Wait Until 9
+
+
+Return "Keep"
+
+
+### スサノオ用アニメ関数 ###
+
+戦闘アニメ_G00_ウンリュウ準備:
+Call 戦闘アニメ_G00_スサノオ準備  中 "EFFECT_G00_Unryu" Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+Return "Keep"
+
+戦闘アニメ_G00_ウンリュウトランザム準備:
+Call 戦闘アニメ_G00_スサノオ準備  中 "EFFECT_G00_Unryu(TRANS-AM)" Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+Return "Keep"
+
+戦闘アニメ_G00_シラヌイ準備:
+Call 戦闘アニメ_G00_スサノオ準備  中 "EFFECT_G00_Shiranui" Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+Return "Keep"
+
+戦闘アニメ_G00_シラヌイトランザム準備:
+Call 戦闘アニメ_G00_スサノオ準備  中 "EFFECT_G00_Shiranui(TRANS-AM)" Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+Return "Keep"
+
+
+
+戦闘アニメ_G00_スサノオ準備:
+
+UpVar
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local WP_FILE = (Args(2) & ".bmp")
+Local G_S = _GetPicSizeFromArgs()
+Local X_P
+Local T_COL_F = _ColorTime(_IsLight())
+
+Set X_P (16 - (G_S \ 2))
+Incr C_Y (32 - G_S)
+
+_SelectSound "-.wav" _GetWavFromArgs()
+
+If (WP_FILE = "EFFECT_G00_Unryu.bmp") Then
+  Wait Start
+  ClearPicture
+  PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4) G_S G_S 透過 T_COL_F
+  Refresh
+  Wait Until 1
+  ClearPicture
+  PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4) G_S G_S 透過 T_COL_F
+  Refresh
+  Wait Until 2
+  ClearPicture
+  PaintPicture WP_FILE (C_X - 16 + X_P) C_Y G_S G_S 透過 T_COL_F
+  Refresh
+  Wait Until 3.5
+ElseIf (WP_FILE = "EFFECT_G00_Unryu(TRANS-AM).bmp") Then
+  Wait Start
+  ClearPicture
+  PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4) G_S G_S 透過 T_COL_F
+  Refresh
+  Wait Until 1
+  ClearPicture
+  PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4) G_S G_S 透過 T_COL_F
+  Refresh
+  Wait Until 2
+  ClearPicture
+  PaintPicture WP_FILE (C_X - 16 + X_P) C_Y G_S G_S 透過 T_COL_F
+  Refresh
+  Wait Until 3.5
+Else
+  Wait Start
+  ClearPicture
+  PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4) G_S G_S 透過 左右反転 T_COL_F
+  Refresh
+  Wait Until 1
+  ClearPicture
+  PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4) G_S G_S 透過 左右反転 T_COL_F
+  Refresh
+  Wait Until 2
+  ClearPicture
+  PaintPicture WP_FILE (C_X + 16 + X_P) C_Y G_S G_S 透過 左右反転 T_COL_F
+  Refresh
+  Wait Until 3.5
+EndIf
+
+
+Wait Until 8
+
+Return "Keep"
+
+
+#### 以下の戦闘アニメラベルは、勇者王ガオガイガーフォルダから流用したものです ####
+## 他との混同を防ぐため、識別子を変更しています。
+
+戦闘アニメ_G00_二丁ビームライフル準備:
+
+Local ARY Pict PictSz PrSE
+
+For i = 1 To ArgNum
+  Array ARY Args(i) "="
+  Switch ARY[1]
+  Case 画像ファイル
+    Set Pict[A] ARY[2]
+    Set Pict[B] ARY[3]
+  Case 画像サイズ
+    Set PictSz[A] ARY[2]
+    Set PictSz[B] ARY[3]
+  Case 色
+    Skip
+  Case Else
+    If InStr(ARY[1], ".wav") > 0 Then
+      Set PrSE ARY[1]
+    EndIf
+  EndSw
+Next
+
+Call 戦闘アニメ_G00_左右別武器共通準備 _GetName("Weapon\EFFECT_BeamRifle01.bmp",Pict[A]) _GetName(32,PictSz[A]) _
+                            _GetName("Weapon\EFFECT_BeamRifle01.bmp",Pict[B]) _GetName(32,PictSz[B]) PrSE
+
+UnSet ARY Pict PictSz PrSE
+Return Keep
+
+
+戦闘アニメ_G00_左右別武器共通準備:
+
+Local i T_X T_Y ANG DRCT W_P W_S H_C S_E S-I C-S LN
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Set T_X (WX(UID) + 16)
+Set T_Y (WY(UID) + 16)
+# +16してユニット画像の中心座標を得ておく。
+Set ANG Call(_GetAngle)
+Set DRCT _FlipVertical(ANG)
+# 目標までの角度と上下反転するかどうかの取得。汎用戦闘アニメ流用。
+
+Set W_P[1] Args(1)
+Set W_S[1] Args(2)
+Set W_P[2] Args(3)
+Set W_S[2] Args(4)
+Set S_E _GetName(Reload.wav,Args(5))
+
+Set H_C[1] (W_S[1] / 2)
+Set H_C[2] (W_S[2] / 2)
+#Set S-I[A] (Sin(3.141592 * (ANG + 90) / 180) * 16)
+#Set C-S[A] (Cos(3.141592 * (ANG + 90) / 180) * 16)
+Set S-I[A] (Sin(3.141592 * (ANG + 90) / 180) * 8)
+Set C-S[A] (Cos(3.141592 * (ANG + 90) / 180) * 8)
+# 画像表示用・修正値の計算など
+
+# ↓ここから画像の表示
+
+Wait Start
+PlaySound S_E
+For i = 1 To 3
+  ClearPicture
+  Switch i
+  Case 1
+    Set LN -4
+  Case 2
+    Set LN 2
+  Case 3
+    Set LN 0
+  EndSw
+  PaintPicture W_P[1] (T_X - H_C[1] - C-S[A] - LN) (T_Y - H_C[1] - S-I[A] - LN) W_S[1] W_S[1] 透過 DRCT 右回転 ANG _ColorTime()
+  PaintPicture W_P[2] (T_X - H_C[2] + C-S[A] - LN) (T_Y - H_C[2] + S-I[A] - LN) W_S[2] W_S[2] 透過 DRCT 右回転 ANG _ColorTime()
+  Refresh
+  Wait Until (0.6 * i)
+Next
+Wait Until 7
+
+UnSet i T_X T_Y ANG W_P W_S B_C H_C S-I C-S LN
+Return Keep
+# ローカル変数を削除してリターン
+
+#─────────────────────────────────────────────
+戦闘アニメ_G00_二丁ビームライフル攻撃:
+
+Local i m T_X T_Y ANG DRCT W_P W_S B_C B_S H_C S-I C-S LN ARY
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Set T_X (WX(UID) + 16)
+Set T_Y (WY(UID) + 16)
+Set ANG Call(_GetAngle)
+Set DRCT _FlipVertical(ANG)
+Set B_S Call(_GetSizeFromArgs)
+
+For i = 1 To ArgNum
+  Array ARY Args(i) "="
+  Switch ARY[1]
+  Case 画像ファイル
+    Set W_P[A] ARY[2]
+    Set W_P[B] ARY[3]
+  Case 画像サイズ
+    Set W_S[A] ARY[2]
+    Set W_S[B] ARY[3]
+  Case 色
+    Set B_C[A] ARY[2]
+    Set B_C[B] ARY[3]
+  Case Else
+    Skip
+  EndSw
+Next
+
+Set W_P[1] _GetName("Weapon\EFFECT_BeamRifle01.bmp",W_P[A])
+Set W_S[1] _GetName(32,W_S[A])
+Set W_P[2] _GetName("Weapon\EFFECT_BeamRifle01.bmp",W_P[B])
+Set W_S[2] _GetName(32,W_S[B])
+
+If B_S = "小" Then
+  Set B_C[1] ("Beam\EFFECT_Beam" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
+  Set B_C[2] ("Beam\EFFECT_Beam" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
+ElseIf B_S = "中" Then
+  Set B_C[1] ("Beam\EFFECT_MBeam" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
+  Set B_C[2] ("Beam\EFFECT_MBeam" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
+EndIf
+
+Set H_C[1] (W_S[1] / 2)
+Set H_C[2] (W_S[2] / 2)
+# 修正値の計算……画像サイズの半分＝画像回転時の半径
+
+#Set S-I[A] (Sin(3.141592 * (ANG + 90) / 180) * 16)
+#Set C-S[A] (Cos(3.141592 * (ANG + 90) / 180) * 16)
+Set S-I[A] (Sin(3.141592 * (ANG + 90) / 180) * 8)
+Set C-S[A] (Cos(3.141592 * (ANG + 90) / 180) * 8)
+# 武器画像の表示位置修正値
+# ユニット画像を半径16の円と仮定し、それぞれサインとコサインを求めます。
+#
+# 武器の画像は、対象ユニット～相手ユニット間の直線に対して垂直の位置に表示されます。
+# したがって、すでに求めた角度ANGに90を足して計算。
+
+Set S-I[1] (Sin(3.141592 * ANG / 180) * H_C[1])
+Set S-I[2] (Sin(3.141592 * ANG / 180) * H_C[2])
+Set C-S[1] (Cos(3.141592 * ANG / 180) * H_C[1])
+Set C-S[2] (Cos(3.141592 * ANG / 180) * H_C[2])
+# 画像の半径にそれぞれの角度のサイン・コサインをかける
+#               ＝画像回転時の砲口の位置を知るための修正値
+
+Set LN[X] _GetCircumference(ANG,Ｘ)
+Set LN[Y] _GetCircumference(ANG,Ｙ)
+# ビーム発射時の”反動”＝ビーム発射方向の逆ベクトルを求める。汎用戦闘アニメ流用。
+
+_UnSetBattleAnimeValue
+
+# ↓ここから画像の表示
+
+Wait Start
+PlaySound Charge.wav
+For i = 1 To 5
+  ClearPicture
+  Switch i
+  Case 3
+    _SelectSound Beam.wav _GetWavFromArgs()
+    If B_S = "小" Then
+      Set m -2
+    ElseIf B_S = "中" Then
+      Set m -4
+    EndIf
+  Case 4
+    If B_S = "小" Then
+      Set m -1
+    ElseIf B_S = "中" Then
+      Set m -2
+    EndIf
+  Case Else
+    Set m 0
+  EndSw
+  PaintPicture W_P[1] (T_X - H_C[1] - C-S[A] + (LN[X] * m)) (T_Y - H_C[1] - S-I[A] + (LN[Y] * m)) W_S[1] W_S[1] 透過 DRCT 右回転 ANG _ColorTime()
+  PaintPicture W_P[2] (T_X - H_C[2] + C-S[A] + (LN[X] * m)) (T_Y - H_C[2] + S-I[A] + (LN[Y] * m)) W_S[2] W_S[2] 透過 DRCT 右回転 ANG _ColorTime()
+  PaintPicture (B_C[1] & i & ".bmp") (T_X - 32 - C-S[A] - C-S[1]) (T_Y - 32 - S-I[A] - S-I[1]) 64 64 透過 右回転 ANG _ColorTime(1)
+  PaintPicture (B_C[2] & i & ".bmp") (T_X - 32 + C-S[A] - C-S[2]) (T_Y - 32 + S-I[A] - S-I[2]) 64 64 透過 右回転 ANG _ColorTime(1)
+  Refresh
+  Wait Until (0.8 * i)
+Next
+
+UnSet i m T_X T_Y ANG W_P W_S B_C B_S H_C S-I C-S S_E LN ARY PrSE
+Return
+
+#─────────────────────────────────────────────
+戦闘アニメ_G00_二丁ビームライフル命中:
+
+Local i m E_X E_Y ANG B_C B_CA B_CB X_F Y_F ARY B_S P_S
+Local UID = _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Set E_X (WX(UID) - 16)
+Set E_Y (WY(UID) - 16)
+Set ANG Call(_GetAngle)
+Set B_S Call(_GetSizeFromArgs)
+
+For i = 1 To ArgNum
+  Array ARY Args(i) "="
+  Switch ARY[1]
+  Case 画像ファイル 画像サイズ
+    Skip
+  Case 色
+    Set B_C[A] ARY[2]
+    Set B_C[B] ARY[3]
+  Case Else
+    Skip
+  EndSw
+Next
+
+Set B_CA[1] ("Beam\EFFECT_BeamDroplet" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
+Set B_CA[2] ("Beam\EFFECT_BeamDroplet" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
+
+If B_S = "小" Then
+  Set B_CB[1] ("Beam\EFFECT_BeamHit" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
+  Set B_CB[2] ("Beam\EFFECT_BeamHit" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
+  Set m 1
+  Set P_S[1] 26
+  Set P_S[2] 24
+ElseIf B_S = "中" Then
+  Set B_CB[1] ("Beam\EFFECT_MBeamHit" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
+  Set B_CB[2] ("Beam\EFFECT_MBeamHit" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
+  Set m 2
+  Set P_S[1] 20
+  Set P_S[2] 16
+EndIf
+
+Set X_F _GetCircumference((ANG + 90),Ｘ)
+Set Y_F _GetCircumference((ANG + 90),Ｙ)
+
+Wait Start
+For i = 1 To 6
+  ClearPicture
+  If (i = 2) Then
+    _SelectSound Explode.wav _GetWavFromArgs()
+  EndIf
+  Switch i
+  Case 2
+    PaintPicture (B_CA[1] & 1 & ".bmp") (E_X + P_S[1] + (X_F * 8)) (E_Y + P_S[1] + (Y_F * 8)) (12 * m) (12 * m) 右回転 ANG 透過 _ColorTime(1)
+    PaintPicture (B_CA[2] & 1 & ".bmp") (E_X + P_S[1] + (X_F * -8)) (E_Y + P_S[1] + (Y_F * -8)) (12 * m) (12 * m) 右回転 ANG 透過 _ColorTime(1)
+  Case 3 4
+    PaintPicture (B_CA[1] & 1 & ".bmp") (E_X + P_S[2] + (X_F * 8)) (E_Y + P_S[2] + (Y_F * 8)) (16 * m) (16 * m) 右回転 ANG 透過 _ColorTime(1)
+    PaintPicture (B_CA[2] & 1 & ".bmp") (E_X + P_S[2] + (X_F * -8)) (E_Y + P_S[2] + (Y_F * -8)) (16 * m) (16 * m) 右回転 ANG 透過 _ColorTime(1)
+  EndSw
+  PaintPicture (B_CB[1] & i & ".bmp") (E_X + (X_F * 8)) (E_Y + (Y_F * 8)) 64 64 透過 右回転 ANG _ColorTime(1)
+  PaintPicture (B_CB[2] & i & ".bmp") (E_X + (X_F * -8)) (E_Y + (Y_F * -8)) 64 64 透過 右回転 ANG _ColorTime(1)
+  Refresh
+  Wait Until (0.7 * i)
+Next
+
+UnSet i m E_X E_Y ANG B_C B_CA B_CB X_F Y_F ARY B_S P_S
+Return
+# ローカル変数を削除してリターン
+
+
+
+戦闘アニメ_G00_左右別武器突撃攻撃:
+
+Local i C_X C_Y W_X W_Y ANG DRCT DRCT2 W_P W_S H_C S-I C-S LN
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Set C_X WX(UID)
+Set C_Y WY(UID)
+Set ANG Call(_GetAngle)
+
+  If (X(UID) >= _Get_X(相手ユニットＩＤ)) Then
+    Set DRCT ""
+  Else
+    Set DRCT 左右反転
+  EndIf
+Set DRCT2 _FlipVertical(ANG)
+
+For i = 1 To ArgNum
+  Array ARY Args(i) "="
+  Switch ARY[1]
+  Case 画像ファイル
+    Set W_P[1] ARY[2]
+    Set W_P[2] ARY[3]
+  Case 画像サイズ
+    Set W_S[1] ARY[2]
+    Set W_S[2] ARY[3]
+  Case Else
+    Skip
+  EndSw
+Next
+
+Set H_C[1] (W_S[1] / 2)
+Set H_C[2] (W_S[2] / 2)
+Set S-I[A] (Sin(3.141592 * (ANG + 90) / 180) * 16)
+Set C-S[A] (Cos(3.141592 * (ANG + 90) / 180) * 16)
+# 画像表示用・修正値の計算など
+
+Local X_F = _GetCircumference(ANG,Ｘ)
+Local Y_F = _GetCircumference(ANG,Ｙ)
+Local BMP_FILE = _GetBMPName(UID)
+Local BMP_FILE2 = _GetTileName(UID)
+
+_UnSetBattleAnimeValue
+
+Set W_X[1] ((C_X + 16) - H_C[1] - C-S[A])
+Set W_Y[1] ((C_Y + 16) - H_C[1] - S-I[A])
+Set W_X[2] ((C_X + 16) - H_C[2] + C-S[A])
+Set W_Y[2] ((C_Y + 16) - H_C[2] + S-I[A])
+
+# ↓ここから画像の表示
+
+Wait Start
+_SelectSound Whiz.wav _GetWavFromArgs()
+
+ChangeUnitBitmap UID 非表示
+
+For i = 1 To 4
+  ClearPicture
+  _PaintTile BMP_FILE2 C_X C_Y
+  Switch i
+  Case 1 3
+    Set LN -16
+  Case 2
+    Set LN -24
+  Case 4
+    Set LN 0
+  Case 5
+  EndSw
+
+  PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 32 32 透過 DRCT _ColorTime()
+  PaintPicture W_P[1] (W_X[1] + (X_F * LN)) (W_Y[1] + (Y_F * LN)) W_S[1] W_S[1] 透過 DRCT2 右回転 ANG _ColorTime()
+  PaintPicture W_P[2] (W_X[2] + (X_F * LN)) (W_Y[2] + (Y_F * LN)) W_S[2] W_S[2] 透過 DRCT2 右回転 ANG _ColorTime()
+
+  Refresh
+  Wait Until (i * 0.7)
+Next
+
+_SetAnimeData_UnitPoint (X_F * LN) (Y_F * LN) 0 DRCT "" "" UID
+
+ChangeUnitBitmap UID 非表示解除
+
+UnSet i C_X C_Y W_X W_Y ANG DRCT DRCT2 W_P W_S H_C S-I C-S X_F Y_F LN
+Return "Keep"

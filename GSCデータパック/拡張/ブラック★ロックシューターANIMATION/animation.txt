@@ -1,0 +1,173 @@
+
+## ＴＶアニメ版 ###############################################################
+
+ブラック★ロックシューター(ＴＶＡ)
+ブラックブレード(準備), 振る武器 EFFECT_BRS-A_BlackBlade.bmp 32
+ブラックブレード(攻撃), 斬撃
+ブラックブレード(命中), 黒斬撃
+ロックカノン(準備), 射撃武器 EFFECT_BRS-A_RockCannon.bmp 40
+ロックカノン(攻撃), 手持ち連射 EFFECT_BRS-A_RockCannon.bmp 40 Bullet\EFFECT_STG_Bullet(Blue)02.bmp 16 Cannon.wav
+ロックカノン(命中), 超打 Explode.wav;1;超打 Explode.wav
+Ｒカノン・ガトリング<M>(準備), 射撃武器変形 EFFECT_BRS-A_RockCannon.bmp 40 EFFECT_BRS-A_RockCannon(Gatling).bmp 48 Transform.wav
+Ｒカノン・ガトリング<M>(攻撃), 銃撃武器乱射 EFFECT_BRS-A_RockCannon(Gatling).bmp 48 二丁拳銃 MachineGun.wav
+Ｒカノン・ガトリング<M>(命中), チェーンガン 水色 GunPod.wav
+ロックカノン・ガトリング(準備), 射撃武器変形 EFFECT_BRS-A_RockCannon.bmp 40 EFFECT_BRS-A_RockCannon(Gatling).bmp 48 Transform.wav
+ロックカノン・ガトリング(攻撃), チェーンガン EFFECT_BRS-A_RockCannon(Gatling).bmp 48 水色
+ロックカノン・ガトリング(命中), チェーンガン 水色 GunPod.wav;1;連続爆発
+ファイナルロックカノン(準備), 同時光噴出 色=青=緑=白=赤=黄 Whiz.wav;同時使用者集中 Common\EFFECT_BubbleSphere(White)01.bmp 32 Charge.wav
+ファイナルロックカノン(攻撃), @戦闘アニメ_射撃武器転送準備 EFFECT_BRS-A_RockCannon.bmp 80;巨大レインボービームランチャー  EFFECT_BRS-A_RockCannon.bmp 80 Cannon(Large).wav
+ファイナルロックカノン(命中), 巨大レインボービームランチャー Explode(Nuclear).wav
+
+インセイン・ブラック★ロックシューター(ＴＶＡ)
+インセイン･ブレードクロウ(準備), 振る武器 EFFECT_BRS-A_InsaneBladeClaw.bmp 32
+インセイン･ブレードクロウ(攻撃), 大斬撃 黒
+インセイン･ブレードクロウ(命中), 黒斬撃 Slash(4).wav
+カノンランス・仕込み銃(準備), 射撃武器 EFFECT_BRS-A_InsaneCannonLance.bmp 48
+カノンランス・仕込み銃(攻撃), シングルショット EFFECT_BRS-A_InsaneCannonLance.bmp 48
+カノンランス・仕込み銃(命中), 銃弾 Explode.wav
+カノンランス・砲撃(準備), 射撃武器 EFFECT_BRS-A_InsaneCannonLance.bmp 48
+カノンランス・砲撃(攻撃), 銃撃武器乱射 EFFECT_BRS-A_InsaneCannonLance.bmp 48 Gun(3).wav
+カノンランス・砲撃(命中), 連続爆発
+カノンランス・全開砲撃<M>(準備), 射撃武器 EFFECT_BRS-A_InsaneCannonLance.bmp 48
+カノンランス・全開砲撃<M>(攻撃), 実弾発射 EFFECT_BRS-A_InsaneCannonLance.bmp 48 AntiAirMissile.wav;2;ＭＡＰ爆発 Gun(3).wav
+カノンランス・全開砲撃<M>(命中), 連続爆発
+インセイン・カノンランス(準備), 射撃武器 EFFECT_BRS-A_InsaneCannonLance.bmp 48
+インセイン・カノンランス(攻撃), 実弾発射 EFFECT_BRS-A_InsaneCannonLance.bmp 48 AntiAirMissile.wav
+インセイン・カノンランス(命中), 大刺突;超打 Crash.wav
+カノンランス・全開砲撃(準備), 射撃武器 EFFECT_BRS-A_InsaneCannonLance.bmp 48
+カノンランス・全開砲撃(攻撃), 実弾発射 EFFECT_BRS-A_InsaneCannonLance.bmp 48 AntiAirMissile.wav
+カノンランス・全開砲撃(命中), 拡散ビーム 黒 Gun(3).wav ランダム方向;拡散ビーム 黒 Gun(3).wav ランダム方向;連続爆発
+
+
+デッドマスター(ＴＶＡ)(束縛)
+チェーン(準備), チェーン
+チェーン(攻撃), チェーン
+チェーン(命中), 打撃 Whip.wav
+デッドサイズ(準備), 振る武器 EFFECT_BRS-A_DeadScythe.bmp 32
+デッドサイズ(攻撃), 斬撃
+デッドサイズ(命中), 黒斬撃 Slash(3).wav
+
+デッドマスター(ＴＶＡ)
+デッドサイズ(準備), 振る武器 EFFECT_BRS-A_DeadScythe.bmp 32
+デッドサイズ(攻撃), 斬撃
+デッドサイズ(命中), 黒斬撃 Slash(3).wav
+スカルソルジャー(準備), 召喚 Bullet\EFFECT_EnergySkull(White)01.bmp 32 MoveUp.wav
+スカルソルジャー(攻撃), 実弾発射 Bullet\EFFECT_EnergySkull(White)01.bmp 32 Whiz.wav;実弾発射 Bullet\EFFECT_EnergySkull(White)01.bmp 32 Whiz.wav
+スカルソルジャー(命中), 連斬撃
+デッドサイズ・ウィップ(準備), 振る武器 EFFECT_BRS-A_DeadScythe.bmp 32
+デッドサイズ・ウィップ(攻撃), 振り回し EFFECT_BRS-A_DeadScythe(Long).bmp 80
+デッドサイズ・ウィップ(命中), 強打 Explode.wav
+スカルヘッド(準備), 召喚 Bullet\EFFECT_EnergySkull(Black)01.bmp 64 MoveUp.wav
+スカルヘッド(攻撃), 髑髏弾 Whiz.wav
+スカルヘッド(命中), ロケットパンチ Bullet\EFFECT_EnergySkull(Black)01.bmp 64 Crash.wav
+スカルジャイアント(準備), オーラ 黒
+スカルジャイアント(攻撃), 髑髏弾 Whiz.wav
+スカルジャイアント(命中), 超打 Explode.wav;2;swing(2).wav;2;爆撃 Crash.wav
+
+
+ストレングス(ＢＲＳ)(ＴＶＡ)
+テイルスピア(準備), -
+テイルスピア(攻撃), バックキック -.wav;刺突
+テイルスピア(命中), 刺突 Slash.wav
+オーガアーム・マシンガン(準備), Reload.wav
+オーガアーム・マシンガン(攻撃), 重機関砲
+オーガアーム・マシンガン(命中), 重機関砲
+オーガアーム(攻撃), タックル -.wav;打突 Bazooka.wav
+オーガアーム(命中), 超打 Crash.wav
+オーガアーム・ガトリング(準備), Reload.wav
+オーガアーム・ガトリング(攻撃), 5;Drill.wav;マシンキャノン GunPod.wav
+オーガアーム・ガトリング(命中), マシンキャノン GunPod.wav;連続爆発
+４連オーガアーム(準備), オーラ上昇 黒
+４連オーガアーム(攻撃), スーパーパンチ 黒
+４連オーガアーム(命中), 強打 Shock(Low).wav;1;強打 Shock(Low).wav;1;強打 Shock(Low).wav;3;超打 Crash.wav
+
+
+ブラック★ゴールドソー(ＴＶＡ)
+未完成の少女達(準備), 光噴出 水色 Shower.wav
+未完成の少女達(攻撃), 斬撃;なぎ払い
+未完成の少女達(命中), 連斬撃
+キングソー(準備), 振る武器 EFFECT_BRS-A_KingSaw.bmp 32
+キングソー(攻撃), 斬撃
+キングソー(命中), 斬撃
+キングソー・衝撃波(準備), 振る武器 EFFECT_BRS-A_KingSaw.bmp 32
+キングソー・衝撃波(攻撃), 斬撃;地表衝撃波 赤
+キングソー・衝撃波(命中), 超斬撃 赤
+キングソー・巨大刃(準備), 振る武器変形 EFFECT_BRS-A_KingSaw.bmp 32 EFFECT_BRS-A_KingSaw.bmp 48
+キングソー・巨大刃(攻撃), 大斬撃 赤 AntiShipMissile.wav
+キングソー・巨大刃(命中), 超斬撃
+
+
+チャリオット(ＢＲＳ)(ＴＶＡ)(メアリー)
+変形(降車), Transform.wav
+スパイク(準備), -
+スパイク(攻撃), タックル
+スパイク(命中), 点連打 Slash.wav
+マカロン弾(攻撃), 実弾連射 Bullet\EFFECT_STG_Bullet(Red)05.bmp 24
+マカロン弾(攻撃), 実弾連射 Bullet\EFFECT_STG_Bullet(Yellow)05.bmp 24
+マカロン弾(攻撃), 実弾連射 Bullet\EFFECT_STG_Bullet(Blue)05.bmp 24
+マカロン弾(攻撃), 実弾連射 Bullet\EFFECT_STG_Bullet(Green)05.bmp 24
+マカロン弾(攻撃), 実弾連射 Bullet\EFFECT_STG_Bullet(Purple)05.bmp 24
+マカロン弾(命中), 連続爆発
+突撃(攻撃), スーパータックル 黒 Earthquake.wav
+突撃(命中), スーパータックル 黒;連打 Crash.wav
+レッグハンマー(準備), -
+レッグハンマー(攻撃), スーパーキック 黒 Whiz.wav
+レッグハンマー(命中), スーパーキック 黒 Crash.wav
+
+チャリオット(ＢＲＳ)(ＴＶＡ)
+変形(メアリー騎乗), Transform.wav
+シールド防御, @戦闘アニメ_突く武器準備 EFFECT_BRS-A_ChariotShield.bmp 32 相手ユニットＩＤ
+#シールド防御 EFFECT_BRS-A_ChariotShield.bmp 32
+ホイールキック(攻撃), キック Drill.wav
+ホイールキック(命中), クリティカル斬撃 Saber.wav
+ブレード(準備), 振る武器  EFFECT_BRS-A_ChariotBlade.bmp 32
+ブレード(攻撃), 斬撃
+ブレード(命中), 黒斬撃
+シールドチャージ(攻撃), スーパータックル 黄
+シールドチャージ(命中), スーパータックル 黄;強打 Crash.wav
+
+
+## ＯＶＡ版 ###################################################################
+
+ブラック★ロックシューター(ＯＶＡ)
+ブラックブレード(準備), 振る武器 EFFECT_BRS_BlackBlade.bmp 32
+ブラックブレード(攻撃), 斬撃
+ブラックブレード(命中), 黒斬撃
+ロックカノン(準備), 射撃武器 EFFECT_BRS_RockCannon.bmp 40
+ロックカノン(攻撃), 手持ち連射 EFFECT_BRS_RockCannon.bmp 40 Bullet\EFFECT_STG_Bullet(Blue)02.bmp 16 Cannon.wav
+ロックカノン(命中), 超打 Explode.wav;1;超打 Explode.wav
+ロックカノン・ランス(準備), 突く武器変形 EFFECT_BRS_RockCannon.bmp 40 EFFECT_BRS_RockCannon(Lance).bmp 48 Transform.wav
+ロックカノン・ランス(攻撃), 大斬撃
+ロックカノン・ランス(命中), 大斬撃
+
+
+デッドマスター(ＯＶＡ)
+チェーン(準備), -
+チェーン(攻撃), 多触手 黒 Transform.wav
+チェーン(命中), 多触手 黒 Whip.wav;強打 Crash.wav
+デッドサイズ(準備), 振る武器 EFFECT_BRS_DeadScythe.bmp 32
+デッドサイズ(攻撃), 斬撃
+デッドサイズ(命中), 黒斬撃 Slash(3).wav
+デッドサイズ・衝撃波(準備), 振る武器 EFFECT_BRS_DeadScythe.bmp 32
+デッドサイズ・衝撃波(攻撃), 斬撃;地表衝撃波 緑
+デッドサイズ・衝撃波(命中), 大刺突 緑 Saber.wav
+スカルヘッド(準備), 召喚 Bullet\EFFECT_EnergySkull(Black)01.bmp 32 MoveUp.wav
+スカルヘッド(攻撃), 実弾発射 Bullet\EFFECT_EnergySkull(Black)01.bmp 32 Whiz.wav;実弾発射 Bullet\EFFECT_EnergySkull(Black)01.bmp 32 Whiz.wav
+スカルヘッド(命中), 強打 Crash.wav
+
+
+ストレングス(ＢＲＳ)(ＯＶＡ)
+テイルスピア(準備), -
+テイルスピア(攻撃), バックキック -.wav;刺突
+テイルスピア(命中), 刺突 Slash.wav
+オーガアーム(攻撃), タックル -.wav;打突 Bazooka.wav
+オーガアーム(命中), 超打 Crash.wav
+
+
+ブラック★ゴールドソー(ＯＶＡ)
+キングソー(準備), 振る武器 EFFECT_BRS_KingSaw.bmp 32
+キングソー(攻撃), 斬撃
+キングソー(命中), 斬撃
+キングソー・突撃(準備), 振る武器 EFFECT_BRS_KingSaw.bmp 32
+キングソー・突撃(攻撃), 振る武器突撃 EFFECT_BRS_KingSaw.bmp 32;1;刺突
+キングソー・突撃(命中), 大刺突 Slash(3).wav

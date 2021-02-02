@@ -1,0 +1,369 @@
+
+ＡＣ(Ｎ)
+CR-WR69R,　　　　　                ライフル Weapon\EFFECT_Rifle03.bmp
+CR-WR73R2,　　　 　                ライフル Weapon\EFFECT_Rifle03.bmp
+WR01R-SHADOW,　　　                ライフル Weapon\EFFECT_ShotGun02.bmp
+CR-YWH05R3,　　　　                ライフル Weapon\EFFECT_BullpupRifle02.bmp
+CR-YMR06R4,　　　　                ライフル Weapon\EFFECT_SniperRifle02.bmp
+WR10R-MOLD(準備),　                ライフル Weapon\EFFECT_BoltActionRifle01.bmp
+WR10R-MOLD(攻撃),　                ライフル Weapon\EFFECT_BoltActionRifle01.bmp;ライフル Weapon\EFFECT_BoltActionRifle01.bmp;ライフル Weapon\EFFECT_BoltActionRifle01.bmp
+WR10R-MOLD(命中),　                ダメージ;ダメージ;ダメージ
+CR-WR76RA(準備),　                 ライフル Weapon\EFFECT_NewAssaultRifle02.bmp
+CR-WR76RA(攻撃),　                 ライフル Weapon\EFFECT_NewAssaultRifle02.bmp;ライフル Weapon\EFFECT_NewAssaultRifle02.bmp;ライフル Weapon\EFFECT_NewAssaultRifle02.bmp
+CR-WR76RA(命中),　                 ダメージ;ダメージ;ダメージ
+CR-WR84RA2(準備),　                ライフル Weapon\EFFECT_BullpupRifle01.bmp
+CR-WR84RA2(攻撃),　                ライフル Weapon\EFFECT_BullpupRifle01.bmp;ライフル Weapon\EFFECT_BullpupRifle01.bmp;ライフル Weapon\EFFECT_BullpupRifle01.bmp
+CR-WR84RA2(命中),　                ダメージ;ダメージ;ダメージ
+WH01R-GAST(準備),　                ライフル Weapon\EFFECT_Rifle02.bmp
+WH01R-GAST(攻撃),　                ライフル Weapon\EFFECT_Rifle02.bmp;ライフル Weapon\EFFECT_Rifle02.bmp;ライフル Weapon\EFFECT_Rifle02.bmp
+WH01R-GAST(命中),　                ダメージ;ダメージ;ダメージ
+CR-WR88RB,　　                     銃撃武器連射 Weapon\EFFECT_BullpupRifle02.bmp
+WR14R-PHANTOM,　　　               銃撃武器連射 Weapon\EFFECT_Rifle03.bmp
+CR-WR93RL,　　                     対物ライフル Weapon\EFFECT_BullpupRifle02.bmp 40
+CR-WH05RLA(準備),　                対物ライフル Weapon\EFFECT_BullpupRifle02.bmp 40
+CR-WH05RLA(攻撃),　                対物ライフル Weapon\EFFECT_BullpupRifle02.bmp 40;対物ライフル Weapon\EFFECT_BullpupRifle02.bmp 40;対物ライフル Weapon\EFFECT_BullpupRifle02.bmp 40
+CR-WH05RLA(命中),　                ダメージ;ダメージ;ダメージ
+CR-WR73RS,　　　　           　    ライフル Weapon\EFFECT_SniperRifle02.bmp 40
+CR-WR81RS2,　　　　                ライフル Weapon\EFFECT_AntiMaterialRifle01.bmp 40
+CR-WR88RS3,　　　　              　ライフル Weapon\EFFECT_ShotGun02.bmp 40
+WH02RS-WYRM(準備),　               ライフル Weapon\EFFECT_SniperRifle02.bmp 40
+WH02RS-WYRM(攻撃),　               ライフル Weapon\EFFECT_SniperRifle02.bmp 40;2;ライフル Weapon\EFFECT_SniperRifle02.bmp 40
+WH02RS-WYRM(命中),　               ダメージ;2;ダメージ
+WR11RS-GARUM,　　　                レーザーガン ライトブルー Weapon\EFFECT_SniperRifle02.bmp 40
+WH08RS-FENRIR,　　                 レーザーガン 紫 Weapon\EFFECT_SniperRifle02.bmp 40
+YHW30RS-SKOLL,　　　               レーザーガン ライトブルー Weapon\EFFECT_HeavyMachineGun01.bmp 40
+WR02M-PIXIE,　　                   マシンガン
+CR-WR69M,　　                      マシンガン Weapon\EFFECT_NewSubMachineGun01.bmp
+WR04M-PIXIE2,　　                  マシンガン Weapon\EFFECT_LaserGun01.bmp
+WR07M-PIXIE3,　　                  マシンガン Weapon\EFFECT_BeamLauncher01.bmp
+CR-WH79M2,　　                     ガトリング Weapon\EFFECT_Gatling02.bmp 40
+WH03M-FINGER,　　                  ガトリング Hand\EFFECT_ShiningHand(Green)01.bmp
+WH03M-FINGER<左>,　　              ガトリング Hand\EFFECT_ShiningHand(Green)01.bmp
+WH05M-SYLPH,　　                   マシンガン Weapon\EFFECT_MilitaryPistol(S)02.bmp 32
+YWH13M-NIX,　　                    マシンガン Weapon\EFFECT_NewAssaultRifle02.bmp
+TMR28M-PUCK,　　                   マシンガン Weapon\EFFECT_SubMachineGun01.bmp
+WH10M-SILKY,　　                   スラッシュビームガン Weapon\EFFECT_FireLauncher01.bmp ピンク
+CR-WR88H,                          ピストル Weapon\EFFECT_MilitaryPistol02.bmp
+CR-WH69H,                          ピストル Weapon\EFFECT_MilitaryPistol02.bmp
+CR-WH79H3,                         ピストル Weapon\EFFECT_Rifle01.bmp
+WR06H-GHOST2,                      ピストル Weapon\EFFECT_LightBulletGun01.bmp
+CR-WH01HP,                         リボルバー
+WH09-WRAITH,                       ピストル Weapon\EFFECT_MilitaryPistol02.bmp
+CR-WH73H2,                         リボルバー Weapon\EFFECT_SubMachineGun01.bmp
+WR03H-GHOST,                       リボルバー Weapon\EFFECT_LightBulletGun01.bmp
+YWR26H-GEIST,                      リボルバー Weapon\EFFECT_NewAssaultRifle02.bmp
+CR-WR76B,　　　　                  バズーカ
+CR-WR81B2,　　　　                 バズーカ Weapon\EFFECT_BeamLauncher01.bmp
+CR-WR93B3,　　　　                 バズーカ
+CR-WH05BP,　　　　                 バズーカ Weapon\EFFECT_Bazooka02.bmp
+WR13B-GIANT(準備),　               バズーカ Weapon\EFFECT_BeamLauncher01.bmp 40
+WR13B-GIANT(攻撃),              　 ショットガン Weapon\EFFECT_BeamLauncher01.bmp 40 Bazooka.wav
+WR13B-GIANT(命中),　               連続爆発 3
+WR17B-GIANT2(準備),              　バズーカ Weapon\EFFECT_BeamLauncher01.bmp 40
+WR17B-GIANT2(攻撃),              　ショットガン Weapon\EFFECT_BeamLauncher01.bmp 40 Bazooka.wav
+WR17B-GIANT2(命中),           　   連続爆発 3
+CR-WR84S,　　　                    ショットガン
+CR-WH76S,　　　                    ショットガン
+CR-WH01SP,　　　                   ショットガン Weapon\EFFECT_ShotGun02.bmp
+WR15S-WYVERN,　　　                ビームショットガン ライトブルー Weapon\EFFECT_ShotGun02.bmp 32
+WR23S-WYVERN2,                     ビームショットガン 紫 Weapon\EFFECT_BeamLauncher01.bmp 32
+GACHIRIN,　　　　　                火炎放射器 Weapon\EFFECT_ElectricLauncher01.bmp
+NICHIRIN,　　　　　                火炎放射器 Weapon\EFFECT_FireLauncher01.bmp
+CR-WB84HNM,　                      小型ミサイル 1
+CR-WR84HNR,　                      グレネード
+CR-YWR03HNR,　                     グレネード
+CR-WR93HNRP,　                     グレネード
+CR-WR81G,                          対戦車ライフル
+CR-WR81G(命中),                    大爆発
+CR-WR88G2,                         対戦車ライフル Weapon\EFFECT_NewAssaultRifle02.bmp
+CR-WR88G2(命中),                   大爆発
+CR-YMR98GP,                        対戦車ライフル Weapon\EFFECT_BusterRifle01.bmp
+CR-YMR98GP(命中),                  大爆発
+CR-WH98GL,                         対戦車ライフル Weapon\EFFECT_Dellinger01.bmp 32
+CR-WH98GL(命中),                   大爆発
+WR08PU-ROC,　                      リングビームガン Weapon\EFFECT_LaserGun01.bmp ピンク
+WR12PU-ROC2,　                     リングビームガン Weapon\EFFECT_LightBulletGun01.bmp ライトブルー
+WR21PU-ROC3,　                     光弾銃 グリーン BeamGun.wav
+YWH14PU-ROC4,　                    リングビームガン Weapon\EFFECT_LaserMachineGun01.bmp グリーン
+YWR29PU-RUKH,　                    リングビームガン Weapon\EFFECT_LightBulletGun01.bmp ライトブルー
+WR18PU-DEMON,　                    ２連光弾銃 ピンク BeamGun.wav
+WR05L-SHADE,　　　           　    レーザーガン ピンク Weapon\EFFECT_BeamRifle01.bmp
+WR19L-HOLLOW,　　              　　ビームライフル イエロー Weapon\EFFECT_RailGun01.bmp
+CR-WR98L,　　　　                  ビームライフル 紫 Weapon\EFFECT_LightBulletGun01.bmp
+YWH07-DRAGON,　　　              　レーザーガン ブルー Weapon\EFFECT_NewSubMachineGun01.bmp
+WR24L-SHADE2,　　           　     レーザーガン ライトブルー Weapon\EFFECT_BeamRifle01.bmp
+WR16DL-SKULL,　　           　     ダブルビームライフル ブルー Weapon\EFFECT_NewAssaultRifle02.bmp
+WR25DL-SKULL2,　　               　ダブルビームライフル ピンク Weapon\EFFECT_LaserMachineGun01.bmp
+WH04HL-KRSW,　　　           　    ビームランチャー ライトブルー Weapon\EFFECT_BusterRifle01.bmp
+YMR27HL-KRSW2,　　           　    ビームランチャー ライトブルー Weapon\EFFECT_BusterRifle01.bmp
+WR09-SPIRIT,　　　              　 レーザーガン ライトブルー Weapon\EFFECT_BeamLauncher01.bmp 40
+WH11PU-PERYTON,　                  レールガン
+WR20PL-GRGE,　　　                 ビームランチャー ピンク Weapon\EFFECT_SFLauncher01.bmp
+WR22PL-ORGE2,　　　                ビームランチャー ピンク Weapon\EFFECT_LaserMachineGun01.bmp
+WH06PL-ORC,　　　                  ビームランチャー ライトブルー Weapon\EFFECT_SuperCannon01.bmp 32
+WH12PL-ETTIN,　　　                ダブルビームランチャー ブルー Weapon\EFFECT_ElectricLauncher01.bmp
+RASETSU,                           大刺突
+ENMA,                              大刺突
+NIOH,                              大刺突
+SYURA,                             エナジーカッター パープル 二刀流
+ブレード光波(SYURA)(攻撃),         横大斬撃 パープル;実弾連射 Wind\EFFECT_WindCutter(Purple)01.bmp;横大斬撃 パープル;実連発射 Wind\EFFECT_WindCutter(Purple)01.bmp
+ブレード光波(SYURA)(命中),         ダメージ パープル;ダメージ パープル
+CR-WA69MG,　　                     機関砲
+CR-WA69MS,　                       小型ミサイル 4
+WA03-TAURUS,　                     ミサイル 2
+CR-WA75MSP(攻撃),　                スーパーミサイル 4 遅
+CR-WA75MSP(命中),　                超爆発
+CR-WA77MS/V,　                     ホーミングミサイル
+CR-WA91MSM,　                      小型ミサイル 10
+CR-YMA98MSR,　                     ミサイル 4
+CR-WA69BZ,　　　　                 キャノン砲 4
+CR-WR81B2,　　　　                 キャノン砲 8
+CR-WA74GR(攻撃),　                 キャノン砲 2
+CR-WA74GR(命中),　               　大爆発
+CR-WA78GRL(攻撃),　                キャノン砲 2
+CR-WA78GRL(命中),　                大爆発
+WA02-CETUS,　　                    キャノン砲 2
+WA01-LEO,　                        ２連小ビーム ピンク
+WA04-ARIES,　                      拡散ビーム グリーン
+WA05-LUPUS,　                      ６ＷＡＹ射出
+WL02R-SPECTER,　　                 ライフル Weapon\EFFECT_BullpupRifle02.bmp
+CR-YWH05R3,　　　　                ライフル Weapon\EFFECT_BullpupRifle02.bmp
+HITEN(準備),　                     ライフル Weapon\EFFECT_Rifle03.bmp
+HITEN(攻撃),　                     ライフル Weapon\EFFECT_Rifle03.bmp;ライフル Weapon\EFFECT_Rifle03.bmp;ライフル Weapon\EFFECT_Rifle03.bmp
+HITEN(命中),　                     ダメージ;ダメージ;ダメージ
+WH01R-GAST(準備), 　               ライフル Weapon\EFFECT_Rifle02.bmp
+WH01R-GAST(攻撃),　                ライフル Weapon\EFFECT_Rifle02.bmp;ライフル Weapon\EFFECT_Rifle02.bmp;ライフル Weapon\EFFECT_Rifle02.bmp
+WH01R-GAST(命中),　                ダメージ;ダメージ;ダメージ
+CR-WH05RLA(準備),　                対物ライフル Weapon\EFFECT_BullpupRifle02.bmp 40
+CR-WH05RLA(攻撃),　                対物ライフル Weapon\EFFECT_BullpupRifle02.bmp 40;対物ライフル Weapon\EFFECT_BullpupRifle02.bmp 40;対物ライフル Weapon\EFFECT_BullpupRifle02.bmp 40
+CR-WH05RLA(命中),　                ダメージ;ダメージ;ダメージ
+WL05RS-GOLEM,　　　　              ライフル Weapon\EFFECT_SniperRifle02.bmp 40
+CR-WL85RS,　　　　 　              ライフル Weapon\EFFECT_AntiTankRifle01.bmp 40
+WH02RS-WYRM(準備),　               ライフル Weapon\EFFECT_SniperRifle02.bmp 40
+WH02RS-WYRM(攻撃),　               ライフル Weapon\EFFECT_SniperRifle02.bmp 40;2;ライフル Weapon\EFFECT_SniperRifle02.bmp 40
+WH02RS-WYRM(命中),　               ダメージ;2;ダメージ
+WR11RS-GARUM,　　           　     レーザーガン ライトブルー Weapon\EFFECT_SniperRifle01.bmp 40
+CR-WL74M,　　                      マシンガン Weapon\EFFECT_NewSubMachineGun01.bmp
+WL06M-FAIRY,　　                   マシンガン Weapon\EFFECT_SubMachineGun01.bmp
+CR-WH79M2,　　                     ガトリング Weapon\EFFECT_Gatling02.bmp 40
+WH03M-FINGER,　　                  ガトリング Hand\EFFECT_ShiningHand(Green)01.bmp
+WH05M-SYLPH,　　                   マシンガン Weapon\EFFECT_MilitaryPistol(S)02.bmp 32
+YWH13M-NIX,　　                    マシンガン Weapon\EFFECT_NewAssaultRifle02.bmp
+WH10M-SILKY,　　                   スラッシュビームガン Weapon\EFFECT_FireLauncher01.bmp ピンク
+CR-WH69H,                          ピストル Weapon\EFFECT_MilitaryPistol02.bmp
+CR-WH79H3,                         ピストル Weapon\EFFECT_Rifle01.bmp
+CR-WH01HP,                         リボルバー
+WH09-WRAITH,                       ピストル Weapon\EFFECT_MilitaryPistol02.bmp
+WL10H-MIST2,                       ピストル Weapon\EFFECT_MissileLauncher01.bmp
+CR-WH73H2,                         リボルバー Weapon\EFFECT_SubMachineGun01.bmp
+WL07H-MIST,                        リボルバー Weapon\EFFECT_Pistol01.bmp
+CR-WL95B,　　　　                  バズーカ
+CR-WH05BP,　　　　                 バズーカ Weapon\EFFECT_Bazooka02.bmp
+WL11B-TROLL(準備),　               バズーカ Weapon\EFFECT_BeamLauncher01.bmp 40
+WL11B-TROLL(攻撃),　               ショットガン Weapon\EFFECT_BeamLauncher01.bmp 40 Bazooka.wav
+WL11B-TROLL(命中),　               連続爆発 3
+CR-WL85S,　　　                    ショットガン Weapon\EFFECT_ShotGun02.bmp
+CR-WL88S2,　　                     ショットガン Weapon\EFFECT_ShockBeamGun01.bmp
+CR-WH76S,　　　                    ショットガン
+CR-WH01SP,　　　                   ショットガン Weapon\EFFECT_ShotGun02.bmp
+NICHIRIN,　　　　　                火炎放射器 Weapon\EFFECT_FireLauncher01.bmp
+CR-WL79HNM,　                      小型ミサイル 1
+CR-WL95G(攻撃),                    キャノン砲
+CR-WL95G(命中),                    大爆発
+CR-WH98GL,                         対戦車ライフル Weapon\EFFECT_Dellinger01.bmp 32
+CR-WH98GL(命中),                   大爆発
+CR-WL88HNR,　                      グレネード
+CR-WL95HNNR(攻撃),　               グレネード
+CR-WL95HNNR(命中),　               爆発;炎
+WL08PU-ARGOS,　                    リングビームガン Weapon\EFFECT_SuperCannon01.bmp ピンク
+WL12PU-ARGOS2,　                   光弾銃 グリーン Weapon\EFFECT_SuperCannon01.bmp ライトブルー
+WH11PU-PERYTON,　                  リングビームガン Weapon\EFFECT_LaserMachineGun01.bmp ピンク
+YWH14PU-ROC4,　                    リングビームガン Weapon\EFFECT_LaserMachineGun01.bmp グリーン
+YWH07-DRAGON,　　　           　   レーザーガン ブルー Weapon\EFFECT_NewSubMachineGun01.bmp
+WL13L-GORGON,　　　                レーザーガン ピンク Weapon\EFFECT_BusterRifle01.bmp
+WL15L-GRIFFON,　　                 ダブルビームライフル 緑 Shield\EFFECT_SFShield03.bmp
+WH04HL-KRSW,　　　                 ビームランチャー ライトブルー Weapon\EFFECT_BusterRifle01.bmp
+WH06PL-ORC,　　　                  ビームランチャー ライトブルー Weapon\EFFECT_SuperCannon01.bmp 32
+WH12PL-ETTIN,　　　           　   ダブルビームランチャー ブルー Weapon\EFFECT_ElectricLauncher01.bmp
+YWH16HR-PYTHON,　　                レールガン
+CR-WL69LB,                         エナジーブレード オレンジ
+ブレード光波(CR-WL69LB)(準備),     エナジーブレード オレンジ
+ブレード光波(CR-WL69LB)(攻撃),     横大斬撃 オレンジ;実弾発射 Wind\EFFECT_WindCutter(Orange)01.bmp
+ブレード光波(CR-WL69LB)(命中),     ダメージ オレンジ
+WL01LB-ELF,                        エナジーブレード ピンク
+ブレード光波(WL01LB-ELF)(準備),    エナジーブレード ピンク
+ブレード光波(WL01LB-ELF)(攻撃),    横大斬撃 ピンク;実弾連射 Wind\EFFECT_WindCutter(Pink)01.bmp
+ブレード光波(WL01LB-ELF)(命中),    ダメージ ピンク
+CR-WL79LB2,                        エナジーブレード グリーン
+ブレード光波(CR-WL79LB2)(準備),    エナジーブレード グリーン
+ブレード光波(CR-WL79LB2)(攻撃),    横大斬撃 グリーン;実弾発射 Wind\EFFECT_WindCutter(Green)01.bmp
+ブレード光波(CR-WL79LB2)(命中),    ダメージ グリーン
+CR-WL88LB3,                        エナジーカッター オレンジ
+ブレード光波(CR-WL88LB3)(準備),    エナジーカッター オレンジ
+ブレード光波(CR-WL88LB3)(攻撃),    横大斬撃 オレンジ;実弾発射 Wind\EFFECT_WindCutter(Orange)01.bmp
+ブレード光波(CR-WL88LB3)(命中),    ダメージ オレンジ
+YWL03LB-TAROS,                     エナジーブレード ブルー
+ブレード光波(YWL03LB-TAROS)(準備), エナジーブレード ブルー
+ブレード光波(YWL03LB-TAROS)(攻撃), 横大斬撃 ブルー;実弾発射 Wind\EFFECT_WindCutter(Blue)01.bmp 
+ブレード光波(YWL03LB-TAROS)(命中), ダメージ ブルー
+WL14LB-ELF2,                       エナジーブレード レッド
+ブレード光波(WL14LB-ELF2)(準備),   エナジーブレード レッド
+ブレード光波(WL14LB-ELF2)(攻撃),   横大斬撃 レッド;実弾発射 Wind\EFFECT_WindCutter(Red)01.bmp
+ブレード光波(WL14LB-ELF2)(命中),   ダメージ レッド
+WL-MOONLIGHT,                      エナジーブレード ライトブルー
+ブレード光波(WL-MOONLIGHT)(準備),  エナジーブレード ライトブルー
+ブレード光波(WL-MOONLIGHT)(攻撃),  横大斬撃 ライトブルー;実弾発射 Wind\EFFECT_WindCutter(LightBlue)01.bmp
+ブレード光波(WL-MOONLIGHT)(命中),  ダメージ ライトブルー
+FUHJIN(攻撃),                      横大斬撃 イエロー;実弾発射 Wind\EFFECT_WindCutter(Yellow)01.bmp
+FUHJIN(命中),                      ダメージ イエロー
+RAIJIN(攻撃),                      横大斬撃 ホワイト;実弾発射 Wind\EFFECT_WindCutter(White)01.bmp
+RAIJIN(命中),                      ダメージ ホワイト
+CR-WL06LB4,                        エナジーブレード ライトブルー
+ブレード光波(CR-WL06LB4)(準備),    エナジーブレード ライトブルー
+ブレード光波(CR-WL06LB4)(攻撃),    横大斬撃 ライトブルー;実弾発射 Wind\EFFECT_WindCutter(LightBlue)01.bmp
+ブレード光波(CR-WL06LB4)(命中),    ダメージ ライトブルー
+YWL16LB-ELF3,                      エナジーカッター オレンジ
+ブレード光波(YWL16LB-ELF3)(準備),  エナジーカッター オレンジ
+ブレード光波(YWL16LB-ELF3)(攻撃),  横大斬撃 オレンジ;実弾発射 Wind\EFFECT_WindCutter(Orange)01.bmp
+ブレード光波(YWL16LB-ELF3)(命中),  ダメージ オレンジ
+YWL17-ALP,                         エナジーカッター ピンク
+ブレード光波(YWL17-ALP)(準備),     エナジーカッター ピンク
+ブレード光波(YWL17-ALP)(攻撃),     横大斬撃 ピンク;実弾発射 Wind\EFFECT_WindCutter(Pink)01.bmp
+ブレード光波(YWL17-ALP)(命中),     ダメージ ピンク	
+CR-WB69M,　        　              小型ミサイル
+WB01M-NYMPHE,　   　               小型ミサイル 6
+CR-WB72M2,　                       小型ミサイル 10
+WB04M-NYMPHE2,　  　               小型ミサイル 12
+MAGORAGA,　                     　 小型ミサイル 5
+KINNARA,　       　                小型ミサイル 7
+KARURA,　       　                 小型ミサイル 9
+SYAKATSURA,　     　               小型ミサイル 3
+WB05M-SATYROS,　                   ミサイル 2
+CR-WB73MP,　                       ミサイル 4
+CR-WB73MV,　                       ホーミングミサイル
+CR-WB03MV,　                       ホーミングミサイル
+CR-YWB05MV2,　                     ホーミングミサイル
+WB06M-SPARTOI,                     ミサイル 2
+WB11M-HYDRA(攻撃),　               ミサイル;2;小型ミサイル 4
+WB11M-HYDRA(命中),　               連続爆発
+WB19M-HYDRA2(攻撃),                ミサイル;2;小型ミサイル 4;2;小型ミサイル 4
+WB19M-HYDRA2(命中),              　連続爆発
+CR-WB75MT,　                     　ミサイル 3
+CR-WB82MGT,　                      ミサイル
+WB12M-EMPUSA,　                    ホーミングミサイル
+WB20M-EMPUSA2,　                   ホーミングミサイル
+WB21M-DRYAD,　                     小型ミサイル
+WB22M-DRYAD2,　                    小型ミサイル 3
+CR-WB91MB(攻撃),　                 ミサイル
+CR-WB91MB(命中),　                 ベアリング
+CR-WB94MB2(攻撃),　                ミサイル
+CR-WB94MB2(命中),　                ベアリング
+CR-WB85MPX(攻撃),　                スーパーミサイル 1 遅
+CR-WB85MPX(命中),　                超爆発
+WB34M-ECHIDNA2(攻撃),              スーパーミサイル
+WB34M-ECHIDNA2(命中),              ホーミングミサイル
+CR-WB69RO,　       　              小型ミサイル
+CR-WB72RO2,　                      小型ミサイル
+CR-WB75RP,　                     　グレネード
+WB07RO-ORTHOS,　                 　グレネード
+CR-WB78RP2,　                      グレネード
+CR-WB82RP3,　                      グレネード
+WB13RO-SPHINX,　                   グレネード 3
+WB23RO-CACUS,　                    グレネード 3
+CR-WB85RPX,　                      グレネード
+CR-WB69CG,　                       内蔵チェーンガン 黄
+CR-WB72CGL,　                      重機関砲
+CR-WB03CGH,　                      内蔵チェーンガン 黄
+CR-WB75SG,　                     　ベアリング
+CR-WB82SG2,　                      ベアリング
+WB14RG-LADON,　                    レールキャノン ライトブルー
+WB24RG-LADON2,　                   レールキャノン ピンク
+CR-WB78GL(攻撃),　                 キャノン砲
+CR-WB78GL(命中),　 　              大爆発
+CR-WB87GLL(攻撃),　                キャノン砲
+CR-WB87GLL(命中),　                大爆発
+CR-WB87LG,　       　              キャノン砲
+CR-WB91LGL,　                      キャノン砲
+WB08PL-SKYLLA,　                   中ビーム ライトブルー
+WB33PL-SKYLLA2,　                  中ビーム　紫
+WB02L-GERYON,　                    中ビーム  オレンジ
+WB15L-GERYON2,　                   中ビーム  グリーン
+YWB35L-GERYON3,　                  中ビーム  ピンク
+WB32L-CERBERUS,　                  ２連中ビーム  イエロー
+WB09PU-LAMIA,　                    リングビーム ピンク
+WB16PU-LAMIA2,　                   リングビーム イエロー
+WB25PU-LAMIA3,　                   リングビーム ライトブルー
+YWB36PU-LAMIA4,　                  リングビーム イエロー
+WB26O-HARPY,　                     ３ＷＡＹ射出
+WB27O-HARPY2,　                    ３ＷＡＹ射出
+WB18M-CENTAUR,　                   ホーミングミサイル
+CR-WBW89M,　                     　ミサイル 4
+CR-WBW94M2,　                      ミサイル 4
+CR-YWBW06MT,　                     ミサイル 6
+WB29M-ECHIDNA(攻撃),               スーパーミサイル
+WB29M-ECHIDNA(命中),               ホーミングミサイル
+CR-WBW78R,　       　              グレネード 2
+CR-WBW91RT,　                      グレネード 2
+CR-WBW78C,　                       内蔵チェーンガン 黄
+CR-WBW98G(攻撃),　                 キャノン砲 2
+CR-WBW98G(命中),　                 大爆発
+CR-WBW98LX(攻撃),　                大ビーム ライトブルー
+CR-WBW98LX(命中),　                大爆発 ライトブルー
+WB30Q-CHIMERA,　                   大拡散ビーム ライトブルー
+YASYA(攻撃),                       ２ＷＡＹ射出;ニードルレーザー連射 ライトブルー
+YASYA(命中),                       ニードルレーザー連射 ライトブルー
+CR-E73RM,　                        小型ミサイル 2
+E02RM-GAR,　                       小型ミサイル 2
+CR-E84RM2,　                       小型ミサイル 2
+E06RM-GAR2,　                      小型ミサイル 2
+CR-E92RM3,　                       小型ミサイル 2
+CR-E96RMG,　                       小型ミサイル 2
+JIKYOH,　                          小型ミサイル 2
+FUNI,　                            小型ミサイル 4
+イクシードオービット(C01-GAEA)(攻撃),       ２ＷＡＹ射出;２連小ビーム 緑
+イクシードオービット(C01-GAEA)(命中),       ２連小ビーム 緑
+イクシードオービット(CR-C89E)(攻撃),        ２ＷＡＹ射出
+イクシードオービット(CR-C89E)(命中),        ダメージ;ダメージ
+イクシードオービット(C02-URANUS)(攻撃),     １ＷＡＹ射出;ニードルレーザー連射
+イクシードオービット(C02-URANUS)(命中),     ニードルレーザー連射
+イクシードオービット(CR-C98E2)(攻撃),　     １ＷＡＹ射出;バルカン
+イクシードオービット(CR-C98E2)(命中),　     バルカン
+イクシードオービット(C05-SELENA)(攻撃),     ２ＷＡＹ射出;２連光弾 ライトブルー
+イクシードオービット(C05-SELENA)(命中),     ダメージ ライトブルー;ダメージ ライトブルー
+オーバードブースト,                粒子集中 黄;Car(Pass).wav
+CR-I69BD,　      　                ベアリング
+CR-I80BD2,　      　               ベアリング
+CR-I75FM,　      　                グレネード 遅
+CR-I86FMM,　      　               グレネード 遅
+CR-I92FMM2,　                      グレネード 遅
+I01M-URCHIN,　                     投下爆弾
+CR-I69R,　       　                グレネード
+CR-I78R2,　        　              グレネード
+CR-I84RN(攻撃),　                  グレネード
+CR-I84RN(命中),　                  爆発;炎 
+I03RN-CORAL(攻撃),　               グレネード
+I03RN-CORAL(命中),　               爆発;炎 
+I04E-SQUID(攻撃),                  実弾発射 Weapon\EFFECT_Shuriken01.bmp
+HOJSHI(攻撃),                      実弾発射 Weapon\EFFECT_Shuriken01.bmp
+BIKUNI(攻撃),                      実弾発射 Weapon\EFFECT_Shuriken01.bmp
+SYAMANA(攻撃),                     実弾発射 Weapon\EFFECT_Shuriken01.bmp
+I06E-SQUID2(攻撃),                 実弾発射 Weapon\EFFECT_Shuriken01.bmp
+シールド防御(CR-WL85ES2),          ビームシールド ピンク			
+シールド防御(CR-WL74ES),           ビームシールド オレンジ
+シールド防御(WL04ES-GIGAS),        ビームシールド ライトブルー
+シールド防御(BONTEN),		   ビームシールド 紫
+シールド防御(WL09ES-GIGAS2),       ビームシールド 紫		
+シールド防御(FUTEN),		   ビームシールド 紫
+阻止(CR-E81AM),                    @戦闘アニメ_小型ミサイル攻撃 4 相手ユニットＩＤ;2;@戦闘アニメ_小爆発命中 相手ユニットＩＤ
+阻止(CR-E90AM2),                   @戦闘アニメ_小型ミサイル攻撃 4 相手ユニットＩＤ;2;@戦闘アニメ_小爆発命中 相手ユニットＩＤ
+阻止(E07AM-MORAY),                 @戦闘アニメ_小型ミサイル攻撃 4 相手ユニットＩＤ;2;@戦闘アニメ_小爆発命中 相手ユニットＩＤ
+阻止(SUIGETSU),                    迎撃
+阻止(迎撃機銃),                    迎撃
+阻止(RURI),                        光球放出 ライトブルー
+阻止(RENGA),                       光球放出 ライトブルー
+阻止(IO5D-MEDUSA),                 ダミー
+阻止(CR-I79DD),                    ダミー
+阻止(IO7D-MEDUSA2),                ダミー
+阻止(CR-I94DD2),                   ダミー
+阻止(HIJIRI),                      ダミー
+TX0-KAILS(使用),                   光球放出

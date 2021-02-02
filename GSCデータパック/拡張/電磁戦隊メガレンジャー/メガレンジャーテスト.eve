@@ -1,0 +1,236 @@
+@電磁戦隊メガレンジャー
+@汎用
+@汎用(等身大)
+
+プロローグ:
+Option 乗り換え
+Option アイテム交換
+Option デバッグ
+
+Exit
+
+
+スタート:
+If Not プレイ = 1 Then
+Global プレイ
+プレイ = 1
+
+ Ask どっちで戦う？
+ 等身大
+ ロボ
+ End
+　If 選択 = 1 Then
+　Call キャラ生成
+ Else
+　ClearEvent "ユニットコマンド みんな行くぞ！！ 伊達健太"
+　ClearEvent "ユニットコマンド みんな行くぞ！！ 遠藤耕一郎"
+　ClearEvent "ユニットコマンド みんな行くぞ！！ 並木瞬"
+　ClearEvent "ユニットコマンド みんな行くぞ！！ 城ヶ崎千里"
+　ClearEvent "ユニットコマンド みんな行くぞ！！ 今村みく"
+　ClearEvent "ユニットコマンド みんな行くぞ！！ 早川裕作"
+　Call ロボ生成
+　Endif
+Else
+プレイ = 0
+Endif
+
+Create 敵 ストロングユガンデ 0 ユガンデ (レベル + 5) 10 17
+Create 敵 サイネジレ 0 怪人 (レベル + 5) 10 17
+
+ For i = 1 to 2
+ Create 敵 クネクネ 0 人工知能 (レベル + 2) 10 10
+ Next
+Talk 伊達健太
+ようし！行くぜ、みんな！
+End
+#Launch 伊達健太 10 2
+#Launch 遠藤耕一郎 8 2
+#Launch 並木瞬 12 2
+#Launch 城ヶ崎千里 9 2
+#Launch 今村みく 11 2
+#Launch 早川裕作 10 5
+SetAbility メガレッド ガッツ -1 ０３モード
+
+Organize 6 10 5
+
+Exit
+
+キャラ生成:
+
+Input レベル まずはみんなのレベルを入力してくれ(1-99)！ 25
+If (レベル <= 0) Or (100 <= レベル) Then
+Talk システム
+数値が不正です。入力し直して下さい。
+End
+Goto キャラ生成
+Endif
+
+Input ランク よし、じゃあ次はランクだ(0-10)！ 0
+
+Unit 伊達健太 ランク
+Pilot メガレッド レベル
+Ride メガレッド
+
+Unit 遠藤耕一郎 ランク
+Pilot メガブラック レベル
+Ride メガブラック
+
+Unit 並木瞬 ランク
+Pilot メガブルー レベル
+Ride メガブルー
+
+Unit 城ヶ崎千里 ランク
+Pilot メガイエロー レベル
+Ride メガイエロー
+
+Unit 今村みく ランク
+Pilot メガピンク レベル
+Ride メガピンク
+
+Unit 早川裕作 ランク
+Pilot メガシルバー レベル
+Ride メガシルバー
+
+Equip 伊達健太 バトルライザー
+
+Ask メガテクターを装備しますか？
+はい
+いいえ
+End
+If 選択 = 1 Then
+Call メガテクター装備
+Endif
+
+Return
+
+メガテクター装備:
+Equip 伊達健太 メガテクター１
+Equip 遠藤耕一郎 メガテクター２
+Equip 並木瞬 メガテクター３
+Equip 城ヶ崎千里 メガテクター４
+Equip 今村みく メガテクター５
+Return
+
+
+ロボ生成:
+
+Input レベル まずはみんなのレベルを入力してくれ(1-99)！ 25
+If (レベル <= 0) Or (100 <= レベル) Then
+Talk システム
+数値が不正です。入力し直して下さい。
+End
+Goto ロボ生成
+Endif
+Input ランク よし、じゃあ次はランクだ(0-10)！ 0
+
+
+Ask どっちで戦う？
+ギャラクシーメガ
+メガボイジャー
+End
+ If 選択 = 1 Then
+
+ Unit メガシップ ランク
+ Pilot メガレッド レベル
+ Pilot メガブラック レベル
+ Pilot メガブルー レベル
+ Pilot メガイエロー レベル
+ Pilot メガピンク レベル
+ Ride メガレッド
+ Ride メガブラック
+ Ride メガブルー
+ Ride メガイエロー
+ Ride メガピンク
+
+ Unit スーパーギャラクシーメガ ランク
+
+ Unit メガウィンガー(Ｆ) ランク
+ Pilot メガシルバー レベル
+ Ride メガシルバー
+
+ Else
+ Unit ロボイジャー１ ランク
+ Pilot メガレッド レベル
+ Ride メガレッド
+
+ Unit シャトルボイジャー２ ランク
+ Pilot メガブラック レベル
+ Ride メガブラック
+
+ Unit ロケットボイジャー３ ランク
+ Pilot メガブルー レベル
+ Ride メガブルー
+
+ Unit ソーサーボイジャー４ ランク
+ Pilot メガイエロー レベル
+ Ride メガイエロー
+
+ Unit タンクボイジャー５ ランク
+ Pilot メガピンク レベル
+ Ride メガピンク
+
+ Unit メガウィンガー(Ｆ) ランク
+ Pilot メガシルバー レベル
+ Ride メガシルバー
+
+ Unit メガボイジャー ランク
+ Endif
+
+Return
+
+
+マップコマンド 特殊コマンド:
+Ask 特殊コマンド キャンセル可
+インターミッションへ
+全ユニット気力＋１０
+全ユニット全回復
+もどる
+End
+If 選択 = 1 Then
+Ask 中断するのか？
+Ｙｅｓ
+Ｎｏ
+End
+If 選択 = 1 Then
+Hide
+Escape 味方
+Continue メガレンジャーテスト.eve
+Endif
+Endif
+If 選択 = 2 Then
+	ForEach 味方
+	IncreaseMorale 10
+	Next
+	ForEach 敵
+	IncreaseMorale 10
+	Next
+Endif
+If 選択 = 3 Then
+	ForEach 味方
+	RecoverHP 100
+	RecoverEN 100
+	Next
+	ForEach 敵
+	RecoverHP 100
+	RecoverEN 100
+	Next
+Endif
+Exit
+
+
+全滅 敵:
+Hide
+Escape 味方
+Continue メガレンジャーテスト.eve
+Exit
+
+
+
+
+全滅 味方:
+GameOver
+Exit
+
+
+<メガレンジャー名乗り.eve>
+<メガウィンガー.eve>

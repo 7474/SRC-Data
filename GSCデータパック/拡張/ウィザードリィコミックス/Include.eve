@@ -1,0 +1,256 @@
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_パターン決定:
+
+Local i
+Local n
+
+If (戦闘アニメパターン != "") Then
+  If Skill(対象パイロット, 戦闘アニメパターン) Then
+    ClearSkill 対象パイロット 戦闘アニメパターン
+  EndIf
+  If Skill(相手パイロット, 戦闘アニメパターン) Then
+    ClearSkill 相手パイロット 戦闘アニメパターン
+  EndIf
+EndIf
+
+Set 戦闘アニメパターン
+
+Set n Args(1)
+
+If n = "" Then
+  n = 1
+EndIf
+
+Set i Random(n)
+
+戦闘アニメパターン =  ("パターン_" & i)
+
+SetSkill 相手パイロット 戦闘アニメパターン -1
+
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_パターン解除:
+
+ClearSkill 相手パイロット 戦闘アニメパターン
+
+Unset 戦闘アニメパターン
+
+Return
+
+*攻撃後 全 全:
+*破壊 全:
+
+If (戦闘アニメパターン != "") Then
+
+  If Skill(対象パイロット, 戦闘アニメパターン) Then
+    ClearSkill 対象パイロット 戦闘アニメパターン
+  EndIf
+  If Skill(相手パイロット, 戦闘アニメパターン) Then
+    ClearSkill 相手パイロット 戦闘アニメパターン
+  EndIf
+
+  Unset 戦闘アニメパターン
+
+EndIf
+
+Exit
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_鳳龍核撃斬準備:
+
+Local i
+Local BMP_FILE
+Local BMP_FILE2
+Local N_C
+Local N_S
+Local RNG
+Local WP_FILE
+Local C_X
+Local C_Y
+Local X_P
+Local DRCT
+
+_UnSetBattleAnimeValue
+
+Center 対象ユニットＩＤ
+
+Set BMP_FILE "Map\EFFECT_MapAura(White)"
+Set BMP_FILE2 _GetBMPName(対象ユニットＩＤ)
+Set N_S 16
+Set N_C 1
+Set WP_FILE "Weapon\EFFECT_JapaneseBlade01.bmp"
+Set C_X WX(対象ユニットＩＤ)
+Set C_Y WY(対象ユニットＩＤ)
+Set DRCT _MapDirectionCheck()
+
+If DRCT = "上" or DRCT = "右" Then
+  Set X_P 16
+  Set DRCT "左右反転"
+Else
+  Set X_P -16
+  Set DRCT ""
+EndIf
+
+
+PlaySound Args(2)
+
+Wait Start
+For i = 1 To 99
+  PaintPicture (BMP_FILE & "0" & N_C & ".bmp") - (240 - (N_S / 2) + 16) N_S N_S 透過 _ColorTime(1)
+  PaintPicture BMP_FILE2 - - 32 32 透過 _ColorTime(1)
+  PaintPicture WP_FILE (C_X + X_P) C_Y 32 32 透過 DRCT _ColorTime(1)
+  Refresh
+  If ((i Mod 2) = 0) Then
+    Incr N_C 1
+  EndIf
+  If (N_C = 4) Then
+    Set N_C 1
+  EndIf
+
+  Wait Until (i * 0.5)
+
+  If (N_S > 96) Then
+    Break
+  EndIf
+  Set N_S (N_S * 1.1)
+Next
+
+Wait Start
+For i = 1 To 12
+  PaintPicture (BMP_FILE & "0" & N_C & ".bmp") - (240 - (N_S / 2) + 16) N_S N_S 透過 _ColorTime(1)
+  PaintPicture BMP_FILE2 - - 32 32 透過 _ColorTime(1)
+  PaintPicture WP_FILE (C_X + X_P) C_Y 32 32 透過 DRCT _ColorTime(1)
+  Refresh
+  If ((i Mod 2) = 0) Then
+    Incr N_C 1
+  EndIf
+  If (N_C = 4) Then
+    Set N_C 1
+  EndIf
+  Wait Until (i * 0.5)
+Next
+
+Return "Keep"
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_鳳龍核撃斬攻撃:
+
+Local i
+Local BMP_FILE
+Local BMP_FILE2
+Local N_C
+Local N_S
+Local RNG
+Local WP_FILE
+Local C_X
+Local C_Y
+Local X_P
+Local DRCT
+
+_UnSetBattleAnimeValue
+
+Center 対象ユニットＩＤ
+
+Set BMP_FILE "Map\EFFECT_MapAura(White)"
+Set BMP_FILE2 _GetBMPName(対象ユニットＩＤ)
+Set N_S 96
+Set N_C 1
+Set WP_FILE "Weapon\EFFECT_JapaneseBlade01.bmp"
+Set C_X WX(対象ユニットＩＤ)
+Set C_Y WY(対象ユニットＩＤ)
+Set DRCT _MapDirectionCheck()
+
+If DRCT = "上" or DRCT = "右" Then
+  Set X_P 16
+  Set DRCT "左右反転"
+Else
+  Set X_P -16
+  Set DRCT ""
+EndIf
+
+PlaySound Charge.wav
+
+Wait Start
+For i = 1 To 99
+  ClearPicture
+  PaintPicture (BMP_FILE & "0" & N_C & ".bmp") - (240 - (N_S / 2) + 16) N_S N_S 透過 _ColorTime(1)
+  PaintPicture WP_FILE (C_X + X_P) C_Y 32 32 透過 DRCT _ColorTime(1)
+  Refresh
+  If ((i Mod 2) = 0) Then
+    Incr N_C -1
+  EndIf
+  If (N_C = 0) Then
+    Set N_C 3
+  EndIf
+
+  Wait Until (i * 0.3)
+
+  If (N_S > 1000) Then
+    Break
+  EndIf
+  Set N_S (N_S * 1.2)
+Next
+
+PaintPicture (BMP_FILE & "0" & N_C & ".bmp") - (240 - (N_S / 2) + 16) N_S N_S 透過 _ColorTime(1)
+
+Wait Start
+PlaySound Cannon.wav
+For i = 1 To 5
+  PaintPicture ("Attack\EFFECT_Swing0" & i & ".bmp") (C_X - 4) (C_Y - 4) 40 40 透過 DRCT _ColorTime(1)
+  Refresh
+  Wait Until (i * 0.4)
+Next
+
+Return "Keep"
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_鳳龍虚空斬命中:
+
+Local i
+Local BMP_FILE
+Local C_X
+Local C_Y
+Local 明度
+
+Set BMP_FILE _GetBMPName(相手ユニットＩＤ)
+Set 明度 ""
+Set C_X WX(相手ユニットＩＤ)
+Set C_Y WY(相手ユニットＩＤ)
+
+ChangeUnitBitmap 相手ユニットＩＤ 非表示
+
+_SelectSound "Saber.wav" _GetWavFromArgs()
+
+
+Wait Start
+For i = 0 To 16
+  ClearPicture
+
+  If (i = 6) Then
+    Set 明度 明
+  EndIf
+
+  If ( i < 15) Then
+    PaintPicture BMP_FILE (C_X + 1) (C_Y - i) 32 32 透過 明度 右半分
+    PaintPicture BMP_FILE (C_X - 1) (C_Y + i) 32 32 透過 明度 左半分
+  EndIf
+  Refresh
+  Wait Until (i * 0.3)
+Next
+
+WhiteOut 5
+
+ChangeUnitBitmap 相手ユニットＩＤ 非表示解除
+
+WhiteIn 5
+
+ClearPicture
+Refresh
+
+Return
+

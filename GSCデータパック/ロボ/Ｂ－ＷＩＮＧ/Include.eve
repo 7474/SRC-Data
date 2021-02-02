@@ -1,0 +1,236 @@
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_BWING_回転ゆらぎ投射攻撃:
+# 引数１　画像名
+# 引数２　画像サイズ
+# 引数３　効果音
+# 引数４  発光
+# 引数５  速度
+# 引数６　UID
+Local ANG = _GetAngle(UID)
+Local i
+Local posX
+Local posY
+Local DST
+Local A1
+Local G_S
+Local C_X
+Local C_Y
+Local DRCT
+Local FL
+Local UID
+Local SPD
+
+_UnSetBattleAnimeValue
+
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+Set C_X WX(UID)
+Set C_Y WY(UID)
+
+Set A1 Args(1)
+
+Set G_S _GetPicSizeFromArgs()
+If (G_S != 32) Then
+  Incr C_X (16 - (G_S \ 2))
+  Incr C_Y (16 - (G_S \ 2))
+EndIf
+
+If (X(UID) < _Get_X(相手ユニットＩＤ)) Then
+  Set DRCT 左右反転
+Else
+  Set DRCT ""
+EndIf
+
+If (_IsLight() = 1) Then
+  Set FL 1
+Else
+  Set FL ""
+EndIf
+
+If (_SearchOptionFromArgs("速") != "") Then
+  Set SPD 0.4
+ElseIf (_SearchOptionFromArgs("遅") != "") Then
+  Set SPD 1.2
+Else
+  Set SPD 0.8
+EndIf
+#
+#Wait Start
+#For i = 1 To 4
+#  ClearPicture
+#  PaintPicture (A1 & Random(4) & ".bmp") C_X C_Y G_S G_S 透過 DRCT _ColorTime(FL) 右回転 ANG
+#  Refresh
+#  Wait Until (i * 0.5)
+#Next
+
+Set posX ((X(UID) - _Get_X(相手ユニットＩＤ)) * 32)
+Set posY ((Y(UID) - _Get_Y(相手ユニットＩＤ)) * 32)
+
+Set DST (Abs(X(UID) - _Get_X(相手ユニットＩＤ)) + Abs(Y(UID) - _Get_Y(相手ユニットＩＤ)))
+
+PlaySound _GetName("-.wav",_GetWavFromArgs())
+
+Wait Start
+For i = 1 To (DST + 3)
+  ClearPicture
+  PaintPicture (A1 & Random(4) & ".bmp") (C_X - (posX / (DST + 4)) * i) (C_Y - (posY / (DST + 4)) * i) G_S G_S 透過 DRCT _ColorTime(FL) 右回転 ANG
+  Refresh
+  Wait Until (SPD * i)
+Next
+
+ClearPicture
+Refresh
+Return
+
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_BWING_実弾発射連続描画攻撃:
+# 引数１　画像名
+# 引数２　画像サイズ
+# 引数３　効果音
+# 引数４  発光
+# 引数５  速度
+# 引数６　UID
+# 引数７　コマ数
+Local ANG = _GetAngle(UID)
+Local i
+Local posX
+Local posY
+Local DST
+Local A1
+Local G_S
+Local C_X
+Local C_Y
+Local DRCT
+Local FL
+Local UID
+Local SPD
+
+_UnSetBattleAnimeValue
+
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+Set C_X WX(UID)
+Set C_Y WY(UID)
+
+Set A1 Args(1)
+Set A7 Args(7)
+
+Set G_S _GetPicSizeFromArgs()
+If (G_S != 32) Then
+  Incr C_X (16 - (G_S \ 2))
+  Incr C_Y (16 - (G_S \ 2))
+EndIf
+
+If (X(UID) < _Get_X(相手ユニットＩＤ)) Then
+  Set DRCT 左右反転
+Else
+  Set DRCT ""
+EndIf
+
+If (_IsLight() = 1) Then
+  Set FL 1
+Else
+  Set FL ""
+EndIf
+
+#
+#Wait Start
+#For i = 1 To 4
+#  ClearPicture
+#  PaintPicture (A1 & Random(4) & ".bmp") C_X C_Y G_S G_S 透過 DRCT _ColorTime(FL) 右回転 ANG
+#  Refresh
+#  Wait Until (i * 0.5)
+#Next
+
+Set posX ((X(UID) - _Get_X(相手ユニットＩＤ)) * 32)
+Set posY ((Y(UID) - _Get_Y(相手ユニットＩＤ)) * 32)
+
+Set DST (Abs(X(UID) - _Get_X(相手ユニットＩＤ)) + Abs(Y(UID) - _Get_Y(相手ユニットＩＤ)))
+
+If (_SearchOptionFromArgs("速") != "") Then
+  Set SPD (0.25 + 0.05 * DST)
+  If SPD > 0.4 Then
+  	Set SPD 0.4
+  EndIf
+ElseIf (_SearchOptionFromArgs("遅") != "") Then
+  Set SPD (0.2 + 0.2 * DST)
+  If SPD > 1 Then
+  	Set SPD 1
+  EndIf
+Else
+  Set SPD (0.3 + 0.1 * DST)
+  If SPD > 0.7 Then
+  	Set SPD 0.7
+  EndIf
+EndIf
+
+PlaySound _GetName("-.wav",_GetWavFromArgs())
+
+Wait Start
+For i = 1 To A7
+  ClearPicture
+  If i > 1 Then
+    PaintPicture (A1 & (i - 1) & ".bmp") (C_X - (posX / (A7 + 1)) * (i - 1)) (C_Y - (posY / (A7 + 1)) * (i - 1)) G_S G_S 透過 セピア 右回転 ANG
+  EndIf
+  PaintPicture (A1 & i & ".bmp") (C_X - (posX / (A7 + 1)) * i) (C_Y - (posY / (A7 + 1)) * i) G_S G_S 透過 DRCT _ColorTime(FL) 右回転 ANG
+  Refresh
+  Wait Until (SPD * i)
+Next
+
+ClearPicture
+Refresh
+Return
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_BWING_自己中心回転武器防御発動:
+
+_CenteringCheck 相手ユニットＩＤ
+Font 12pt
+Local G_S = _GetPicSizeFromArgs()
+Local C_X = (_Get_WX(相手ユニットＩＤ) + (32 - G_S) \ 2)
+Local C_Y = (_Get_WY(相手ユニットＩＤ) + (32 - G_S) \ 2)
+Local C_X2 = (_Get_WX(相手ユニットＩＤ))
+Local C_Y2 = (_Get_WY(相手ユニットＩＤ))
+Local WP_FILE =  _GetBmpFromArgs()
+Local FL ANG1 ANG2 DRCT
+Local i
+Local STR = _GN("",_GN(Args(1),_GetOptValueFromArgs("別名")))
+Local S_S = TextWidth(STR)
+
+If (_IsLight() = 1) Then
+  Set FL 1
+Else
+  Set FL ""
+EndIf
+
+_SelectSound "Swing.wav" _GetWavFromArgs()
+
+Wait Start
+Set ANG1 45
+For i = 1 To 36
+  Incr ANG1 60
+  ClearPicture
+  PaintPicture WP_FILE (C_X + X_P) C_Y G_S G_S 透過 右回転 ANG1 _ColorTime(FL)
+
+  Font RGB(i * 8,i * 8,i * 8)
+  PaintString (C_X2 + 1 + (16 - (S_S \ 2))) (C_Y2 + 33) STR
+  Font #000000
+  PaintString (C_X2 + (16 - (S_S \ 2))) (C_Y2 + 32) STR
+
+  Refresh
+  Wait Until (i * 0.6)
+
+Next
+
+ClearPicture
+Refresh
+
+Return
+
+

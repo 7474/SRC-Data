@@ -1,0 +1,153 @@
+鋼鉄巨神
+ロケットブロー(命中), Punch.wav
+アックスブロー, Missile.wav
+アックスブロー(命中), Saber.wav
+キカイオータックル(命中), Punch.wav
+メガトンボム, Swing.wav
+メガトンボム(命中), Explode(Far).wav
+
+特務機兵
+反射, BeamCoat.wav
+ハンドグレネード, Swing.wav
+ハンドグレネード(命中), Explode.wav
+レーザーライフル, Beam.wav
+スラッシュ＆シュート(命中), 2;Saber.wav;2;Saber.wav;2;Saber.wav;2;Punch.wav;2;Saber.wav
+スラッシュ＆シュート(クリティカル), 2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav
+エイミングサテライト, 2;Beam.wav;2;Beam.wav;Beam.wav
+フィクサーキャノン, 4;Reload.wav;Beam.wav
+ハイパーフィクサーキャノン, 4;Reload.wav;4;Thunder.wav;Beam.wav
+ファイナルシュート, Flair.wav
+ファイナルシュート(命中), 4;Punch.wav;Beam.wav
+スパークガン, Thunder.wav
+ブーストショット(命中), Punch.wav
+
+戦士の鎧
+パルスクリーン, BeamCoat.wav
+パルシオン光線, LaserGun.wav
+宇宙空手(命中), Punch(3).wav
+ボルティックスフィア, 4;Reload.wav;BeamSaber.wav
+宇宙空手・大乱舞(命中), 10;Punch(3).wav;Punch(2).wav
+オーバーザギャラクシー(命中), 1;Beam.wav;1;Beam.wav;1;Beam.wav
+
+重装甲陸戦兵器
+アイアンクロー(命中), Punch.wav
+ナパームポッド, Missile.wav
+ナパームポッド(命中), Explode.wav
+ネットミサイル(命中), -.wav
+フォトンスピア(命中), Saber.wav
+トラッピングボム, Explode.wav
+エクスプロージョンウォール, Explode(Far).wav
+オペレート・トライゴン, 3;Punch.wav;3;Saber.wav;3;Punch.wav
+ブルブレイカー(命中), 4;Saber.wav;Explode.wav
+フォトンキャノン, Beam.wav
+オペレート・ヘキサゴン, 3;Punch.wav;3;Saber.wav;3;Punch.wav;2;Drill.wav;Explode.wav
+フルメタルハンター(命中), 2;Punch.wav;3;Swing.wav;MicroMissile.wav
+火炎放射砲, -.wav
+
+機鋼天使
+シャボンランチャー, Bubble.wav
+ソニックエッジ, Saber.wav
+ハンティングスピア(命中), Saber.wav
+クリスタルエッジ(命中), 3;Saber.wav;Saber.wav
+アトラクティブシャワー, 3;BeamSaber.wav;Beam.wav
+エンジェルボウ, Bow.wav
+エンジェルボウ(命中), Saber.wav
+エンジェルスター, Swing.wav
+エンジェルスター(命中), Saber.wav
+エンジェルブレード, BeamSaber.wav
+エンジェルブレード(命中), 1;Saber.wav;1;Saber.wav;1;Saber.wav
+ダイヤモンドロード, Glass.wav
+エメラルドティアー, Bubble.wav
+ＤＡエボリューション(命中), Crash.wav
+
+戦術可変戦闘機
+ガンポッド, Beam.wav
+フロートシーカー, 2;Whiz.wav;Whiz.wav
+フロートシーカー(命中), 1;Explode.wav;Explode.wav
+マイクロミサイル, 1;Missile.wav;1;Missile.wav;Missile.wav
+マイクロミサイル(命中), 1;Explode.wav;1;Explode.wav;Explode.wav
+ガンポッドクラッシュ(命中), Punch.wav
+サイドワインダー, 1;Missile.wav;1;Missile.wav;1;Missile.wav;1;Missile.wav;1;Missile.wav;Missile.wav
+サイドワインダー(命中), 1;Explode.wav;1;Explode.wav;1;Explode.wav;1;Explode.wav;1;Explode.wav;1;Explode.wav
+ツイスターレイ, LaserGun.wav
+ピンポイントブレイクパンチ, BeamSaber.wav
+ピンポイントブレイクパンチ(命中), 4;Crash.wav;Thunder.wav
+トランスフォームタクティクス(命中), 1;Punch.wav;1;Punch.wav;1;Punch.wav;4;Punch.wav;MicroMissile.wav
+トランスフォームアタック(命中), 1;Explode.wav;1;Explode.wav;1;Explode.wav
+変形タックル(命中), Punch.wav
+クリティカルチャージアタック(命中), 2;Punch.wav;2;Punch.wav;2;Punch.wav;2;Punch.wav
+イーグルダイブ(命中), Punch.wav
+バーニアスラスター(命中), Punch.wav
+サクセションエアーアタック, 3;Bomb.wav;3;Bomb.wav;3;Bomb.wav
+サクセションエアーアタック(命中), 3;Explode(Far).wav;3;Explode(Far).wav;3;Explode(Far).wav
+ソリッドシューター, Cannon.wav
+ソニックブラスター, LaserGun.wav
+コロニークラッシュ, Explode(Nuclear).wav
+
+ツインザムＶ
+シューティングスターブロー, 1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav
+ファイヤーサンシャイン, Whiz.wav
+ファイヤーマグナム, BeamShot.wav
+ツインザムラッシュ(命中), 5;Punch.wav;3;Punch(2).wav;2;Saber.wav;2;Saber.wav
+チェンジクロス・ツインザム, Explode(Far).wav
+Ｆ・Ｓフォーメーション, LaserGun.wav
+ファイヤースラッシャー, 4;Saber.wav;Saber.wav
+ゼログラビティ・ホール, BeamSaber.wav
+プラズマミサイル, 1;Missile.wav;1;Missile.wav;1;Missile.wav;1;Missile.wav
+プラズマミサイル(命中), 1;Explode.wav;1;Explode.wav;1;Explode.wav;1;Explode.wav
+スピンドロップ(命中), Punch.wav
+ツインザムホームラン(命中), Punch.wav
+Ｐ・Ｓフォーメーション, BeamSaber.wav
+Ｐ・Ｓフォーメーション(命中), Saber.wav
+プラズマドリル・インパルス(命中), 10;Punch(3).wav;Drill.wav
+デルタフラッシュ, Beam.wav
+ホイールカッター(命中), Saber.wav
+ショックドライバー, -.wav
+ショックドライバー(命中), Shock(Low).wav
+攻撃無効化(ゼログラビティ・ホール), BeamSaber.wav
+変形(チェンジクロス), Explode(Far).wav
+合体(無幻合体), Explode(Far).wav
+
+魔法の国ロボ
+ピヨピヨハンマー(命中), PiyoPiyo.wav
+シャベルアッパー, Saber.wav
+鉄球ストレート(命中), Punch.wav
+逆噴射煙突, Storm.wav
+魔法の壷, Sharara.wav
+お祭り大江戸キャノン, 2;Cannon.wav;2;Cannon.wav;2;Cannon.wav
+巨大鉄球落とし(命中), Shock(Low).wav
+巨大鉄球転がし(命中), Punch.wav
+わくわくボロン劇場, Sharara.wav
+わくわくボロン劇場(命中), Crash.wav
+ぼーそーしんかんせん, Sharara.wav
+
+ぼーそーしんかんせん
+暴走(命中), Punch.wav
+
+魔霊将軍
+疾風狂波, Swing.wav
+雷電斬覇, Thunder.wav
+瘴気閃光, LaserGun.wav
+殲滅豪砲, Bazooka.wav
+旋風凶器(命中), 1;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav
+闇虚空弾, Cannon.wav
+冥界陣, BeamSaber.wav
+冥界陣(命中), Crash.wav
+
+異次元生命体
+思念波輪, LaserGun.wav
+クヴァール小型幼生体, MultipleRocketLauncher(Light).wav
+クヴァール大型幼生体, MultipleRocketLauncher.wav
+クヴァール幼生体群, MicroMissile.wav
+ブラズマトゥース, 4;Thunder.wav;Beam.wav
+
+巨人宮殿
+踏み潰し(命中), Punch.wav
+異界の門, BeamSaber.wav
+
+魔神大帝
+呪縛剣, Swing.wav
+波動弾, LaserGun.wav
+ホーミング弾, BeamShot.wav
+周囲誘導弾, Beam.wav
+劫火飛翔鳳撃(命中), Explode(Far).wav

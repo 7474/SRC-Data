@@ -1,0 +1,55 @@
+
+ＷＭ
+パンチ(準備), Engine.wav
+パンチ(命中), Punch.wav
+格闘(準備), Engine.wav
+格闘(命中), Punch.wav
+ザブングルフルパワー(準備), Engine.wav;Engine.wav
+ザブングルフルパワー(命中), 9;Combo.wav;5;Engine.wav;5;Engine.wav;3;Swing.wav;3;Punch.wav
+
+ザブングル・フル装備
+ザブングルフルパワー(準備), Engine.wav;Engine.wav
+ザブングルフルパワー(命中), 9;Combo.wav;5;Engine.wav;5;Engine.wav;3;Swing.wav;3;Punch.wav;_
+3;MultipleRocketLauncher.wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav
+
+ザブングルⅡ・フル装備
+ザブングルフルパワー(準備), Engine.wav;Engine.wav
+ザブングルフルパワー(命中), 9;Combo.wav;5;Engine.wav;5;Engine.wav;3;Swing.wav;3;Punch.wav;_
+3;MultipleRocketLauncher.wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav
+
+ウォーカーギャリア
+ブーメランランチャー, 3;MultipleRocketLauncher.wav
+ＷＧフルパワー(準備), Engine.wav;Engine.wav
+ＷＧフルパワー(命中), 9;Combo.wav;5;Engine.wav;5;Engine.wav;3;Swing.wav;3;Punch.wav;_
+3;MultipleRocketLauncher.wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav
+ＩＣＢＭ投げ(準備), 3;Bomb.wav;3;Engine.wav
+ＩＣＢＭ投げ, 4;Swing.wav
+ＩＣＢＭ投げ(命中), Explode(Nuclear).wav
+
+プロメウスタイプ
+ナパームガン, 3;Fire.wav
+ナパームガン(命中), 3;Fire.wav 
+
+センドビートタイプ(改)
+ビームスナッチャー, BreakOff.wav
+
+ドランタイプ
+7.62mmミニガン, FastGun.wav
+
+ブラッカリィタイプ
+ブラッカリィフルパワー(準備), Engine.wav;Engine.wav
+ブラッカリィフルパワー(命中), 9;Combo.wav;5;Engine.wav;5;Engine.wav;3;Swing.wav;3;Punch.wav
+
+
+ＬＳ
+格闘(準備), Engine.wav
+格闘(命中), Punch.wav
+ポタン砲, 3;Cannon.wav;4;Fire.wav 
+突撃, 3;Engine.wav;3;Engine.wav
+突撃(命中), 2;BreakOff.wav;2;BreakOff.wav;2;BreakOff.wav
+
+アイアン・ギアー(ＷＭ)
+ウルトラジャンプ(準備), 3;Engine.wav;3;Engine.wav
+ウルトラジャンプ, 5;Jet.wav
+ウルトラジャンプ(命中), 5;Bomb.wav;4;Explode.wav 
+

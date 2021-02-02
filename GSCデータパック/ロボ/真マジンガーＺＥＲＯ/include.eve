@@ -1,0 +1,17 @@
+*ƒvƒƒ[ƒO:
+If Level(Š•b™(‚y‚d‚q‚n)) <> 0 Then
+    Switch Unit(Š•b™(‚y‚d‚q‚n))
+    Case ‚s‚e‚nìˆê†‹@(‚y‚d‚q‚n) ‚s‚e‚nì“ñ†‹@(‚y‚d‚q‚n)
+    ReplacePilot Š•b™(‚y‚d‚q‚n) Š•b™(‚y‚d‚q‚n)(‚s‚e‚n)
+    Exit
+    EndSw
+Endif
+If Level(Š•b™(‚y‚d‚q‚n)(‚s‚e‚n)) <> 0 Then
+    Switch Unit(Š•b™(‚y‚d‚q‚n)(‚s‚e‚n))
+    Case ‚s‚e‚nìˆê†‹@(‚y‚d‚q‚n) ‚s‚e‚nì“ñ†‹@(‚y‚d‚q‚n)
+    Exit
+    Case else
+    ReplacePilot Š•b™(‚y‚d‚q‚n)(‚s‚e‚n) Š•b™(‚y‚d‚q‚n)
+    EndSw
+Endif
+Exit

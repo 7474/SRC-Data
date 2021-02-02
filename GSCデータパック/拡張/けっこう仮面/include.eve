@@ -1,0 +1,86 @@
+
+戦闘アニメ_KKMN_おっぴろげ処理:
+Switch Random(3)
+Case 1
+	SetMessage 相手パイロット ダメージ中 "<B><BIG>うわ～～っ！ けっこう！！</B></BIG>"
+Case 2
+	SetMessage 相手パイロット ダメージ中 "<B><BIG>ウワッ ス スゲエッ！！</B></BIG>"
+Case 3
+	SetMessage 相手パイロット ダメージ中 "<B><BIG>ひえ～っ けっこう～！！</B></BIG>"
+EndSw
+Return
+
+戦闘アニメ_KKMN_もろだし処理:
+Switch Random(3)
+Case 1
+	SetMessage 相手パイロット ダメージ中 "<B><BIG>きゃあああっ！？</B></BIG>"
+Case 2
+	SetMessage 相手パイロット ダメージ中 "<B><BIG>いやあああ～～っ！！</B></BIG>"
+Case 3
+	SetMessage 相手パイロット ダメージ中 "<B><BIG>キャ～～ッ！！ いやあ～～！！</B></BIG>"
+EndSw
+Return
+
+戦闘アニメ_KKMN_けっこうカラテ1:
+Set KKMN_けっこうカラテ
+KKMN_けっこうカラテ = KKMN_けっこうカラテ1
+SetSkill 相手パイロット KKMN_けっこうカラテ -1
+Return
+
+戦闘アニメ_KKMN_けっこうカラテ2:
+Set KKMN_けっこうカラテ
+KKMN_けっこうカラテ = KKMN_けっこうカラテ2
+SetSkill 相手パイロット KKMN_けっこうカラテ -1
+Return
+
+戦闘アニメ_KKMN_けっこうカラテ3:
+Set KKMN_けっこうカラテ
+KKMN_けっこうカラテ = KKMN_けっこうカラテ3
+SetSkill 相手パイロット KKMN_けっこうカラテ -1
+Return
+
+戦闘アニメ_KKMN_けっこうカラテ4:
+Set KKMN_けっこうカラテ
+KKMN_けっこうカラテ = KKMN_けっこうカラテ4
+SetSkill 相手パイロット KKMN_けっこうカラテ -1
+Return
+
+戦闘アニメ_KKMN_セクハラ柔道1:
+Set KKMN_セクハラ柔道
+KKMN_セクハラ柔道 = KKMN_セクハラ柔道1
+SetSkill 相手パイロット KKMN_セクハラ柔道 -1
+Return
+
+戦闘アニメ_KKMN_セクハラ柔道2:
+Set KKMN_セクハラ柔道
+KKMN_セクハラ柔道 = KKMN_セクハラ柔道2
+SetSkill 相手パイロット KKMN_セクハラ柔道 -1
+Return
+
+戦闘アニメ_KKMN_セクハラ柔道3:
+Set KKMN_セクハラ柔道
+KKMN_セクハラ柔道 = KKMN_セクハラ柔道3
+SetSkill 相手パイロット KKMN_セクハラ柔道 -1
+Return
+
+*攻撃後 全 全:
+*破壊 全:
+If (KKMN_けっこうカラテ != "") Then
+  If Skill(対象パイロット, KKMN_けっこうカラテ) Then
+    ClearSkill 対象パイロット KKMN_けっこうカラテ
+  EndIf
+  If Skill(相手パイロット, KKMN_けっこうカラテ) Then
+    ClearSkill 相手パイロット KKMN_けっこうカラテ
+  EndIf
+	UnSet KKMN_けっこうカラテ
+Endif
+If (KKMN_セクハラ柔道 != "") Then
+  If Skill(対象パイロット, KKMN_セクハラ柔道) Then
+    ClearSkill 対象パイロット KKMN_セクハラ柔道
+  EndIf
+  If Skill(相手パイロット, KKMN_セクハラ柔道) Then
+    ClearSkill 相手パイロット KKMN_セクハラ柔道
+  EndIf
+	UnSet KKMN_セクハラ柔道
+Endif
+Exit

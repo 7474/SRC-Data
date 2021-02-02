@@ -1,0 +1,1803 @@
+
+### Ｄ×Ｄ合体技メッセージ ------------------------------------------------------
+
+戦闘アニメ_Ｄ×Ｄメッセージ_かけ声:
+Local UID
+Set UID _GetName(対象ユニットＩＤ)
+	If Pilot(UID) = 大十字九郎 or Pilot(UID) = 大十字九郎(旧神) or Pilot(UID) = 大十字九朔 Then
+#	念の為に九郎or九朔じゃないと動かないように
+### 会話パイロット選定開始
+Local Krou Krou_1
+Local Al Al_1
+Local Kuzaku
+Local Benibara
+Local KrouAndAl WKuzaku TwoSword
+Set Kuzaku 大十字九朔
+If Pilot(UID,2) = 紅薔薇の九朔 or Pilot(Partner(1),2) = 紅薔薇の九朔 Then
+Set Benibara 紅薔薇の九朔
+ElseIf Pilot(UID,2) = ネクロノミコン血液言語版 or Pilot(Partner(1),2) = ネクロノミコン血液言語版 Then
+Set Benibara ネクロノミコン血液言語版
+EndIf
+If Pilot(UID) = 大十字九郎 or Pilot(Partner(1)) = 大十字九郎 Then
+Set Krou 大十字九郎
+Set Krou_1 (Krou & "(思考)")
+Set Al アル＝アジフ
+Set Al_1 (Al & "(怒り)")
+Set TwoSword 魔を断つ双剣(ＤＭＤ)
+ElseIf Pilot(UID) = 大十字九郎(旧神) or Pilot(Partner(1)) = 大十字九郎(旧神) Then
+Set Krou 大十字九郎(旧神)
+Set Krou_1 Krou
+Set Al アル＝アジフ(旧神)
+Set Al_1 Al
+Set TwoSword 魔を断つ双剣(ＤＭＤ)(旧神)
+EndIf
+Set KrouAndAl (Krou & "＆" & Al)
+Set WKuzaku (Kuzaku & "＆" & Benibara)
+### 会話パイロット選定終了
+
+Switch Random(6)
+Case 1
+AutoTalk Kuzaku 固定
+親父殿！
+AutoTalk Benibara 固定
+お母様！
+AutoTalk Krou_1 固定
+……ッ！？ そうか！
+AutoTalk Al_1 固定
+委細承知！
+Suspend
+
+Case 2
+AutoTalk KrouAndAl 固定
+どうだァァァァ！
+AutoTalk WKuzaku 固定
+これが正真正銘のォォォォ……！
+AutoTalk TwoSword
+<SIZE=8>デモンベイン・トゥーソード</SIZE>.魔を断つ双剣だッッッッ！
+Suspend
+
+Case 3
+AutoTalk KrouAndAl 固定
+来い！ 九朔！
+AutoTalk WKuzaku 固定
+了解！
+Suspend
+
+Case 4
+AutoTalk WKuzaku 固定
+デモンベイン！
+AutoTalk KrouAndAl 固定
+応ともよッ！
+Suspend
+
+Case 5
+#※無言枠
+Case 6
+#※無言枠
+EndSw
+	EndIf
+Return
+
+
+戦闘アニメ_Ｄ×Ｄメッセージ_ＡＷＳ攻撃:
+Local UID
+Set UID _GetName(対象ユニットＩＤ)
+	If Pilot(UID) = 大十字九郎 or Pilot(UID) = 大十字九郎(旧神) or Pilot(UID) = 大十字九朔 Then
+#	念の為に九郎or九朔じゃないと動かないように
+### 会話パイロット選定開始
+Local Krou Krou_1
+Local Al Al_1
+Local Kuzaku
+Local Benibara
+Local KrouAndKuzaku TwoSword
+Set Kuzaku 大十字九朔
+If Pilot(UID,2) = 紅薔薇の九朔 or Pilot(Partner(1),2) = 紅薔薇の九朔 Then
+Set Benibara 紅薔薇の九朔
+ElseIf Pilot(UID,2) = ネクロノミコン血液言語版 or Pilot(Partner(1),2) = ネクロノミコン血液言語版 Then
+Set Benibara ネクロノミコン血液言語版
+EndIf
+If Pilot(UID) = 大十字九郎 or Pilot(Partner(1)) = 大十字九郎 Then
+Set Krou 大十字九郎
+Set Krou_1 (Krou & "(怒り)")
+Set Al アル＝アジフ
+Set Al_1 (Al & "(怒り)")
+Set TwoSword 魔を断つ双剣(ＤＭＤ)
+ElseIf Pilot(UID) = 大十字九郎(旧神) or Pilot(Partner(1)) = 大十字九郎(旧神) Then
+Set Krou 大十字九郎(旧神)
+Set Krou_1 Krou
+Set Al アル＝アジフ(旧神)
+Set Al_1 Al
+Set TwoSword 魔を断つ双剣(ＤＭＤ)(旧神)
+EndIf
+Set KrouAndKuzaku (Krou & "＆" & Kuzaku)
+### 会話パイロット選定終了
+
+Switch Random(2)
+Case 1
+AutoTalk Al_1 固定
+断鎖術式ティマイオス、クリティアス解放！
+AutoTalk Benibara 固定
+時空間歪曲！
+AutoTalk Krou_1 固定
+アトランティス！
+AutoTalk Kuzaku 固定
+ダブル！
+AutoTalk KrouAndKuzaku 固定
+ストラァァァイクッッッッ！
+Suspend
+
+Case 2
+AutoTalk TwoSword 固定
+はああああああああ――――ッッ！
+Suspend
+
+EndSw
+	EndIf
+Return 
+
+
+戦闘アニメ_Ｄ×Ｄメッセージ_ＬＷＩ攻撃:
+Local UID
+Set UID _GetName(対象ユニットＩＤ)
+	If Pilot(UID) = 大十字九郎 or Pilot(UID) = 大十字九郎(旧神) or Pilot(UID) = 大十字九朔 Then
+#	念の為に九郎or九朔じゃないと動かないように
+### 会話パイロット選定開始
+Local Krou Krou_1
+Local Al
+Local Kuzaku
+Local Benibara
+Local KrouAndKuzaku AlAndBenibara TwoSword
+Set Kuzaku 大十字九朔
+If Pilot(UID,2) = 紅薔薇の九朔 or Pilot(Partner(1),2) = 紅薔薇の九朔 Then
+Set Benibara 紅薔薇の九朔
+ElseIf Pilot(UID,2) = ネクロノミコン血液言語版 or Pilot(Partner(1),2) = ネクロノミコン血液言語版 Then
+Set Benibara ネクロノミコン血液言語版
+EndIf
+If Pilot(UID) = 大十字九郎 or Pilot(Partner(1)) = 大十字九郎 Then
+Set Krou 大十字九郎
+Set Krou_1 (Krou & "(怒り)")
+Set Al アル＝アジフ
+Set TwoSword 魔を断つ双剣(ＤＭＤ)
+ElseIf Pilot(UID) = 大十字九郎(旧神) or Pilot(Partner(1)) = 大十字九郎(旧神) Then
+Set Krou 大十字九郎(旧神)
+Set Krou_1 Krou
+Set Al アル＝アジフ(旧神)
+Set TwoSword 魔を断つ双剣(ＤＭＤ)(旧神)
+EndIf
+Set KrouAndKuzaku (Krou & "＆" & Kuzaku)
+Set AlAndBenibara (Al & "＆" & Benibara)
+### 会話パイロット選定終了
+
+AutoTalk AlAndBenibara 固定
+我等魔を断つ二刀流！
+Suspend
+  Switch Random(2)
+  Case 1
+  AutoTalk KrouAndKuzaku 固定
+  斬魔の力、ここに見せる！
+  Suspend
+  Case 2
+  AutoTalk KrouAndKuzaku 固定
+  機神の咆哮、聞いて慄け！
+  Suspend
+  EndSw
+AutoTalk TwoSword 固定
+双撃昇華呪法！
+AutoTalk Krou_1 固定
+光射す世界に、汝ら闇黒、棲まう場所無し！
+AutoTalk Kuzaku 固定
+渇かず飢えず、無に還れ――！
+AutoTalk TwoSword 固定
+はあああ――！
+AutoTalk Krou_1 固定
+レムリア！
+AutoTalk Kuzaku 固定
+ダブル！
+AutoTalk KrouAndKuzaku 固定
+インパクトォォォ―――――――ッッッ！
+Suspend
+	EndIf
+Return 
+
+
+戦闘アニメ_Ｄ×Ｄメッセージ_ＬＷＩとどめ:
+Local UID
+Set UID _GetName(対象ユニットＩＤ)
+	If Pilot(UID) = 大十字九郎 or Pilot(UID) = 大十字九郎(旧神) or Pilot(UID) = 大十字九朔 Then
+#	念の為に九郎or九朔じゃないと動かないように
+### 会話パイロット選定開始
+Local Krou
+Local Al
+Local Kuzaku
+Local Benibara
+Local KrouAndKuzaku AlAndBenibara
+Set Kuzaku 大十字九朔
+If Pilot(UID,2) = 紅薔薇の九朔 or Pilot(Partner(1),2) = 紅薔薇の九朔 Then
+Set Benibara 紅薔薇の九朔
+ElseIf Pilot(UID,2) = ネクロノミコン血液言語版 or Pilot(Partner(1),2) = ネクロノミコン血液言語版 Then
+Set Benibara ネクロノミコン血液言語版
+EndIf
+If Pilot(UID) = 大十字九郎 or Pilot(Partner(1)) = 大十字九郎 Then
+Set Krou 大十字九郎
+Set Al アル＝アジフ
+ElseIf Pilot(UID) = 大十字九郎(旧神) or Pilot(Partner(1)) = 大十字九郎(旧神) Then
+Set Krou 大十字九郎(旧神)
+Set Al アル＝アジフ(旧神)
+EndIf
+Set KrouAndKuzaku (Krou & "＆" & Kuzaku)
+Set AlAndBenibara (Al & "＆" & Benibara)
+### 会話パイロット選定終了
+
+AutoTalk KrouAndKuzaku 固定
+はぁぁぁぁぁぁ…………ッ！
+AutoTalk AlAndBenibara 固定
+――昇華！
+Suspend
+	EndIf
+Return 
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_左右別武器突撃攻撃:
+#引数１ 武器画像ファイル
+#引数２ 画像サイズ
+#引数３ 武器画像ファイル２
+#引数４ 画像サイズ２
+#引数５ 効果音
+#引数６ 発光
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local W_BMP = _GetBmpFromArgs()
+Local G_S = _GetPicSizeFromArgs()
+Local W_BMP2 = _GetBmpFromArgs2()
+Local G_S2 = _GNUM_FA2()
+Local i
+Local ANG = _GetAngle(UID)
+Local X_F = _GetCircumference(ANG,Ｘ)
+Local Y_F = _GetCircumference(ANG,Ｙ)
+Local W_X W_Y X_P LN
+Local BMP_FILE = _GetBMPName(UID)
+Local BMP_FILE2 = _GetTileName(UID)
+Local DRCT = ""
+Local DRCT2 = ""
+Local T_COL_F = _ColorTime(_IsLight())
+Local T_COL = _ColorTime()
+
+_UnSetBattleAnimeValue
+
+Set ANG 0
+Set X_P (16 - (G_S \ 2))
+Set W_Y (C_Y + 32 - G_S)
+If (X(UID) >= _Get_X(相手ユニットＩＤ)) Then
+  Set W_X (C_X - G_S + 16)
+  Set DRCT ""
+Else
+  Set W_X (C_X + 16)
+  Set DRCT 左右反転
+EndIf
+
+Wait Start
+_SelectSound Whiz.wav _GetWavFromArgs()
+
+ChangeUnitBitmap UID 非表示
+
+For i = 1 To 4
+  ClearPicture
+  _PaintTile BMP_FILE2 C_X C_Y
+  Switch i
+  Case 1 3
+    Set LN -16
+  Case 2
+    Set LN -24
+  Case 4
+    Set LN 0
+  Case 5
+  EndSw
+
+  PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 32 32 透過 DRCT T_COL
+  PaintPicture W_BMP ((C_X + X_P - 16) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S G_S 透過 T_COL_F
+  PaintPicture W_BMP2 ((C_X + 16) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S2 G_S2 透過 左右反転 T_COL_F
+  Refresh
+  Wait Until (i * 0.7)
+Next
+
+_SetAnimeData_UnitPoint (X_F * LN) (Y_F * LN) 0 DRCT "" "" UID
+
+ChangeUnitBitmap UID 非表示解除
+
+Return "Keep"
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_別武器二丁拳銃準備:
+
+Local i j
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Local U_X = WX(UID)
+Local U_Y = WY(UID)
+Local C_X C_Y C_X2 C_Y2
+Local WP_FILE = _GBMP_FA()
+Local G_S = _GetPicSizeFromArgs()
+Local WP_FILE2 = _GBMP_FA2()
+Local G_S2 = _GNUM_FA2()
+Local ANG = _GetAngle(UID)
+Local X_F = _GetCircumference(ANG,Ｘ)
+Local Y_F = _GetCircumference(ANG,Ｙ)
+Local X_F2 = _GetCircumference((ANG + 90),Ｘ)
+Local Y_F2 = _GetCircumference((ANG + 90),Ｙ)
+Local DRCT = _FlipVertical(ANG)
+Local T_COL_F = _ColorTime(_IsLight())
+Local L_N
+Local W_FLG = _IsDoubleWeapon()
+
+  If (DRCT = "上下反転")  Then
+    Set C_X (U_X + 16 + (6 * X_F) - (6 * X_F2) - (G_S \ 2))
+    Set C_Y (U_Y + 16 + (6 * Y_F) - (6 * Y_F2) - (G_S \ 2))
+    Set C_X2 (U_X + 16 - (6 * X_F) + (6 * X_F2) - (G_S2 \ 2))
+    Set C_Y2 (U_Y + 16 - (6 * Y_F) + (6 * Y_F2) - (G_S2 \ 2))
+  Else
+    Set C_X (U_X + 16 + (6 * X_F) + (6 * X_F2) - (G_S \ 2))
+    Set C_Y (U_Y + 16 + (6 * Y_F) + (6 * Y_F2) - (G_S \ 2))
+    Set C_X2 (U_X + 16 - (6 * X_F) - (6 * X_F2) - (G_S2 \ 2))
+    Set C_Y2 (U_Y + 16 - (6 * Y_F) - (6 * Y_F2) - (G_S2 \ 2))
+  EndIf
+
+_SelectSound "Reload.wav" _GetWavFromArgs()
+
+
+Wait Start
+
+For i = 1 To 3
+  Switch i
+  Case 1
+    Set L_N -4
+  Case 2
+    Set L_N 2
+  Case 3
+    Set L_N 0
+  EndSw
+  ClearPicture
+  PaintPicture WP_FILE (C_X + (X_F * L_N)) (C_Y + (Y_F * L_N)) G_S G_S 透過 DRCT 右回転 ANG T_COL_F
+  PaintPicture WP_FILE2 (C_X2 + (X_F * L_N)) (C_Y2 + (Y_F * L_N)) G_S2 G_S2 透過 DRCT 右回転 ANG T_COL_F
+  Refresh
+  Wait Until (i * 0.6)
+Next
+
+Wait Until 7
+
+Return "Keep"
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_別武器二丁拳銃攻撃:
+Call 戦闘アニメ_別武器二丁拳銃攻撃共通 単発
+Return
+戦闘アニメ_別武器二丁拳銃連射攻撃:
+Call 戦闘アニメ_別武器二丁拳銃攻撃共通 連射
+Return
+戦闘アニメ_別武器二丁拳銃乱射攻撃:
+Call 戦闘アニメ_別武器二丁拳銃攻撃共通 乱射
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_別武器二丁拳銃攻撃共通:
+#引数１　画像ファイル=手持ち武器１のファイル名=手持ち武器２のファイル名=手持ち武器１の発射炎のファイル名=手持ち武器２の発射炎のファイル名
+#引数２　画像サイズ=手持ち武器１のサイズ=手持ち武器２のサイズ=手持ち武器１の発射炎のサイズ=手持ち武器２の発射炎のサイズ
+#引数３ 効果音１
+#引数４ 反動の幅(サイズ形式)
+#引数５　打ち下ろし
+UpVar
+
+_GBA_GetSomeBmpFromArgs
+
+Local TYPE = Args(1)
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+Local U_X = WX(UID)
+Local U_Y = WY(UID)
+Local i
+Local ANG = _GetAngle(UID)
+Local ANG2
+Local X_F = _GetCircumference(ANG,Ｘ)
+Local Y_F = _GetCircumference(ANG,Ｙ)
+Local X_F2 = _GetCircumference((ANG + 90),Ｘ)
+Local Y_F2 = _GetCircumference((ANG + 90),Ｙ)
+Local DRCT = _FlipVertical(ANG)
+Local U_DRCT
+Local LN1 LN2 LN_P
+Local BMP_FILE BMP_FILE2
+Local W_BMP = _GN(_SelectWPBN(リボルバー),_GBA_SB_NAME[1])
+Local G_S = _GN(_SelectWPBS(リボルバー),_GBA_SB_SIZE[1])
+Local W_BMP2 = _GN(_SelectWPBN(ピストル),_GBA_SB_NAME[2])
+Local G_S2 = _GN(_SelectWPBS(ピストル),_GBA_SB_SIZE[2])
+Local F_BMP = _GN("Fire\EFFECT_MuzzleFlash01.bmp",_GBA_SB_NAME[3])
+Local F_S = _GN(24,_GBA_SB_SIZE[3])
+Local F_BMP2 = _GN("Fire\EFFECT_MuzzleFlash01.bmp",_GBA_SB_NAME[4])
+Local F_S2 = _GN(24,_GBA_SB_SIZE[4])
+Local W_X W_Y W_X2 W_Y2
+Local F_X F_Y F_X2 F_Y2
+Local A_X A_Y
+Local FL1 FL2 LN_P
+Local UID
+Local T_COL = _ColorTime()
+Local T_COL1 = _ColorTime(1)
+Local W_F = _GN("Gun.wav",_GetWavFromArgs())
+Local L_NUM
+Local S_FLG1 = 0
+Local S_FLG2 = 0
+Local DWN_F = _S_OPT_FA("打ち下ろし")
+
+_UnSetBattleAnimeValue
+
+If (DWN_F = "打ち下ろし") Then
+  Call 戦闘アニメ_急降下攻撃共通
+  _CenteringCheck 相手ユニットＩＤ
+  If (X(UID) < _Get_X(相手ユニットＩＤ)) Then
+    Set U_X (WX(相手ユニットＩＤ) - 96)
+    Set U_DRCT 左右反転
+    Set DRCT "上下反転"
+    Set ANG 225
+    Set ANG2 45
+  Else
+    Set U_X (WX(相手ユニットＩＤ) + 96)
+    Set U_DRCT ""
+    Set ANG 315
+    Set ANG2 315
+  EndIf
+
+  Set BMP_FILE _GetBMPName(UID)
+  Set BMP_FILE2 _GetTileName(UID)
+  Set A_X WX(UID)
+  Set A_Y WY(UID)
+  Set U_Y (WY(相手ユニットＩＤ) - 96)
+  Set X_F _GetCircumference(ANG,Ｘ)
+  Set Y_F _GetCircumference(ANG,Ｙ)
+  Set X_F2 _GetCircumference((ANG + 90),Ｘ)
+  Set Y_F2 _GetCircumference((ANG + 90),Ｙ)
+  Set C_X (U_X - 16 + (X_F * 16))
+  Set C_Y (U_Y - 16 + (Y_F * 16))
+
+  ChangeUnitBitmap UID 非表示
+  _PaintTile BMP_FILE2 A_X A_Y 保持
+  PaintPicture BMP_FILE U_X U_Y 透過 U_DRCT 右回転 ANG2 T_COL 保持
+
+EndIf
+
+  If (DRCT = "上下反転")  Then
+    Set W_X (U_X + 16 + (6 * X_F) - (6 * X_F2) - (G_S \ 2))
+    Set W_Y (U_Y + 16 + (6 * Y_F) - (6 * Y_F2) - (G_S \ 2))
+    Set W_X2 (U_X + 16 - (6 * X_F) + (6 * X_F2) - (G_S2 \ 2))
+    Set W_Y2 (U_Y + 16 - (6 * Y_F) + (6 * Y_F2) - (G_S2 \ 2))
+  Else
+    Set W_X (U_X + 16 + (6 * X_F) + (6 * X_F2) - (G_S \ 2))
+    Set W_Y (U_Y + 16 + (6 * Y_F) + (6 * Y_F2) - (G_S \ 2))
+    Set W_X2 (U_X + 16 - (6 * X_F) - (6 * X_F2) - (G_S2 \ 2))
+    Set W_Y2 (U_Y + 16 - (6 * Y_F) - (6 * Y_F2) - (G_S2 \ 2))
+  EndIf
+
+  Set F_X (W_X + (G_S \ 2) + (X_F * G_S \ 2.5) - (F_S \ 2))
+  Set F_Y (W_Y + (G_S \ 2) + (Y_F * G_S \ 2.5) - (F_S \ 2))
+  Set F_X2 (W_X2 + (G_S2 \ 2) + (X_F * G_S2 \ 2.5) - (F_S2 \ 2))
+  Set F_Y2 (W_Y2 + (G_S2 \ 2) + (Y_F * G_S2 \ 2.5) - (F_S2 \ 2))
+
+Switch _GetSizeFromArgs()
+Case "大"
+  Set LN_P 2
+Case "小"
+  Set LN_P 0.5
+EndSw
+
+Switch TYPE
+Case "単発"
+  Set L_NUM 3
+Case "連射"
+  Set L_NUM 11
+Case "乱射"
+  Set L_NUM 24
+EndSw
+
+Wait Start
+For i = 1 To (L_NUM + 3)
+  ClearPicture
+
+  Switch TYPE 
+  Case "単発"
+    Switch i
+    Case 1
+      PlaySound W_F
+      Set LN1 (LN_P * -2)
+      Set FL1 1
+      Set S_FLG1 1
+    Case 2
+      Set LN1 (LN_P * -3)
+      Set S_FLG1 0
+    Case 3
+      Set LN1 0
+      Set FL1 ""
+    EndSw
+  Case "連射"
+    Switch i
+    Case 1 5 9
+      PlaySound W_F
+      Set LN1 (LN_P * -2)
+      Set FL1 1
+      Set S_FLG1 1
+    Case 2 6 10
+      Set LN1 (LN_P * -3)
+      Set S_FLG1 0
+    Case 3 7 11
+      Set LN1 0
+      Set FL1 ""
+    EndSw
+  Case "乱射"
+    Switch i
+    Case 1 4 7 10 13 16 19 22
+      PlaySound W_F
+      Set LN1 (LN_P * -2)
+      Set FL1 1
+      Set S_FLG1 1
+    Case 2 5 8 11 14 17 20 23
+      Set LN1 (LN_P * -3)
+      Set S_FLG1 0
+    Case 3 6 9 12 15 18 21 24
+      Set LN1 0
+      Set FL1 ""
+    EndSw
+  EndSw
+
+  PaintPicture W_BMP (W_X + (X_F * LN1)) (W_Y + (Y_F * LN1)) G_S G_S 透過 DRCT 右回転 ANG _ColorTime(FL1)
+  If (S_FLG1 = 1) Then
+    PaintPicture F_BMP F_X F_Y F_S F_S 透過 右回転 ANG T_COL1
+  EndIf
+
+    Switch TYPE 
+    Case "単発"
+      Switch i
+      Case 4
+        PlaySound W_F
+        Set LN2 (LN_P * -2)
+        Set FL2 1
+        Set S_FLG2 1
+      Case 5
+        Set LN2 (LN_P * -3)
+        Set S_FLG2 0
+      Case 6
+        Set LN2 0
+        Set FL2 ""
+      EndSw
+    Case "連射"
+      Switch i
+      Case 3 7 11
+        PlaySound W_F
+        Set LN2 (LN_P * -2)
+        Set FL2 1
+        Set S_FLG2 1
+      Case 4 8 12
+        Set LN2 (LN_P * -3)
+        Set S_FLG2 0
+      Case 5 9 13
+        Set LN2 0
+        Set FL2 ""
+      EndSw
+    Case "乱射"
+      Switch i
+      Case 2 5 8 11 14 17 20 23
+        PlaySound W_F
+        Set LN2 (LN_P * -2)
+        Set FL2 1
+        Set S_FLG2 1
+      Case 3 6 9 12 15 18 21 24
+        Set LN2 (LN_P * -3)
+        Set S_FLG2 0
+      Case 4 7 10 13 16 19 22 25
+        Set LN2 0
+        Set FL2 ""
+      EndSw
+    EndSw
+
+    PaintPicture W_BMP2 (W_X2 + (X_F * LN2)) (W_Y2 + (Y_F * LN2)) G_S2 G_S2 透過 DRCT 右回転 ANG _ColorTime(FL2)
+    If (S_FLG2 = 1) Then
+      PaintPicture F_BMP2 F_X2 F_Y2 F_S2 F_S2 透過 右回転 ANG T_COL1
+    EndIf
+
+  Refresh
+  Wait Until (i * 0.6)
+
+Next
+
+Wait 1.5
+
+If (DWN_F = "打ち下ろし") Then
+  UnSet 戦闘アニメ変数[非表示] 0
+  _SetAnimeData_UnitPoint "" "" "" "" "" "" ""
+  ChangeUnitBitmap UID 非表示解除
+EndIf
+
+Redraw 非同期
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_四刀流準備:
+#引数１ 武器画像ファイル
+#引数２ 画像サイズ
+#引数３ 効果音
+#引数４ 発光
+
+UpVar
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local WP_FILE = _SelectWPBN(野太刀)
+Local G_S = _SelectWPBS(野太刀)
+Local X_P
+Local T_COL_F = _ColorTime(_IsLight())
+
+Set X_P (16 - (G_S \ 2))
+Incr C_Y (32 - G_S)
+
+_SelectSound "-.wav" _GetWavFromArgs()
+
+  Wait Start
+  ClearPicture
+  PaintPicture WP_FILE (C_X - 18 + X_P) (C_Y + 4) G_S G_S 透過 T_COL_F
+  PaintPicture WP_FILE (C_X - 6 + X_P) (C_Y - 6) G_S G_S 透過 T_COL_F 右回転 30
+  PaintPicture WP_FILE (C_X + 18 + X_P) (C_Y + 4) G_S G_S 透過 左右反転 T_COL_F
+  PaintPicture WP_FILE (C_X + 6 + X_P) (C_Y - 6) G_S G_S 透過 左右反転 T_COL_F 左回転 30
+  Refresh
+  Wait Until 1
+  ClearPicture
+  PaintPicture WP_FILE (C_X - 26 + X_P) (C_Y - 4) G_S G_S 透過 T_COL_F
+  PaintPicture WP_FILE (C_X - 14 + X_P) (C_Y - 14) G_S G_S 透過 T_COL_F 右回転 30
+  PaintPicture WP_FILE (C_X + 26 + X_P) (C_Y - 4) G_S G_S 透過 左右反転 T_COL_F
+  PaintPicture WP_FILE (C_X + 14 + X_P) (C_Y - 14) G_S G_S 透過 左右反転 T_COL_F 左回転 30
+  Refresh
+  Wait Until 2
+  ClearPicture
+  PaintPicture WP_FILE (C_X - 22 + X_P) C_Y G_S G_S 透過 T_COL_F
+  PaintPicture WP_FILE (C_X - 10 + X_P) (C_Y - 10) G_S G_S 透過 T_COL_F 右回転 30
+  PaintPicture WP_FILE (C_X + 22 + X_P) C_Y G_S G_S 透過 左右反転 T_COL_F
+  PaintPicture WP_FILE (C_X + 10 + X_P) (C_Y - 10) G_S G_S 透過 左右反転 T_COL_F 左回転 30
+  Refresh
+  Wait Until 3.5
+
+Wait Until 8
+
+Return "Keep"
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_四刀流突撃攻撃:
+#引数１ 武器画像ファイル
+#引数２ 画像サイズ
+#引数３ 効果音
+#引数４ 発光
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local EFFECT_FILE = _SelectWPBN(野太刀)
+Local G_S = _SelectWPBS(野太刀)
+Local i
+Local ANG = _GetAngle(UID)
+Local X_F = _GetCircumference(ANG,Ｘ)
+Local Y_F = _GetCircumference(ANG,Ｙ)
+Local W_X W_Y X_P LN
+Local BMP_FILE = _GetBMPName(UID)
+Local BMP_FILE2 = _GetTileName(UID)
+Local DRCT = ""
+Local DRCT2 = ""
+Local T_COL_F = _ColorTime(_IsLight())
+Local T_COL = _ColorTime()
+
+_UnSetBattleAnimeValue
+
+  Set ANG 0
+  Set X_P (16 - (G_S \ 2))
+  Set W_Y (C_Y + 32 - G_S)
+  If (X(UID) >= _Get_X(相手ユニットＩＤ)) Then
+    Set W_X (C_X - G_S + 16)
+    Set DRCT ""
+  Else
+    Set W_X (C_X + 16)
+    Set DRCT 左右反転
+  EndIf
+
+Wait Start
+_SelectSound Whiz.wav _GetWavFromArgs()
+
+ChangeUnitBitmap UID 非表示
+
+For i = 1 To 4
+  ClearPicture
+  _PaintTile BMP_FILE2 C_X C_Y
+  Switch i
+  Case 1 3
+    Set LN -16
+  Case 2
+    Set LN -24
+  Case 4
+    Set LN 0
+  Case 5
+  EndSw
+
+  PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 32 32 透過 DRCT T_COL
+  PaintPicture EFFECT_FILE ((C_X + X_P - 22) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S G_S 透過 T_COL_F
+  PaintPicture EFFECT_FILE ((C_X + X_P - 10) + (X_F * LN)) (W_Y - 10 + (Y_F * LN)) G_S G_S 透過 T_COL_F 右回転 30
+  PaintPicture EFFECT_FILE ((C_X + 22) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S G_S 透過 左右反転 T_COL_F
+  PaintPicture EFFECT_FILE ((C_X + 10) + (X_F * LN)) (W_Y - 10 + (Y_F * LN)) G_S G_S 透過 左右反転 T_COL_F 左回転 30
+
+  Refresh
+  Wait Until (i * 0.7)
+Next
+
+_SetAnimeData_UnitPoint (X_F * LN) (Y_F * LN) 0 DRCT "" "" UID
+
+ChangeUnitBitmap UID 非表示解除
+
+Return "Keep"
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_ビームレイン命中:
+# 引数1 色
+# 引数2 効果音
+# 上方向から降り注ぐ大拡散ビーム
+
+_CenteringCheck 相手ユニットＩＤ
+
+Local i j
+Local B_C = _GetName("(Pink)",_G_BC_FA())
+Local C_X = (WX(相手ユニットＩＤ) - 16)
+Local C_Y = (WY(相手ユニットＩＤ) - 16)
+Local ANG = 270
+Local X_F = _GetCircumference(ANG,Ｘ)
+Local Y_F = _GetCircumference(ANG,Ｙ)
+Local BMP_FILE = _GetBMPName(相手ユニットＩＤ)
+Local T_X = WX(相手ユニットＩＤ)
+Local T_Y = WY(相手ユニットＩＤ)
+Local T_COL1 = _ColorTime(1)
+Local T_COL = _ColorTime()
+
+For j = 0 To 2
+  Wait Start
+  For i = 1 To 10
+    ClearPicture
+    Switch i
+    Case 1 4 7 10
+      PaintPicture BMP_FILE T_X T_Y 透過 T_COL
+    Case 2 5 8
+      _SelectSound "Explode(Small).wav" _GetWavFromArgs()
+      PaintPicture BMP_FILE (T_X + (X_F * 2)) (T_Y + (Y_F * 2)) 透過 明 T_COL
+    Case 3 6 9
+      PaintPicture BMP_FILE (T_X + (X_F * 4)) (T_Y + (Y_F * 4)) 透過 明 明 T_COL
+    EndSw
+    If (i < 9) Then
+      PaintPicture ("Beam\EFFECT_DBeamHit" & B_C & "0" & i & ".bmp") C_X C_Y 右回転 ANG 透過 T_COL1
+    EndIf
+    If (i > 2) Then
+      PaintPicture ("Beam\EFFECT_DBeamHit" & B_C & "0" & (i - 2) & ".bmp") C_X C_Y 右回転 ANG 上下反転 透過 T_COL1
+    EndIf
+    Refresh
+    Wait Until (i * 0.7)
+  Next
+Next
+ClearPicture
+Refresh
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_シュートカッター改命中:
+#引数１ 武器画像ファイル
+#引数２ 画像サイズ
+#引数３ 効果音
+#引数４ ランダム方向
+#引数５ 色(※画像指定しない場合)
+#引数６ 発光
+# シュートカッターに画像変更とランダム方向を追加
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck 相手ユニットＩＤ
+Local EFFECT_FILE = _SelectWPBN(_STC(シュートカッター))
+Local G_S = _SelectWPBS(シュートカッター)
+Local C_X = WX(相手ユニットＩＤ)
+Local C_Y = WY(相手ユニットＩＤ)
+Local ANG
+Local BMP_FILE = _GetBMPName(相手ユニットＩＤ)
+Local BMP_FILE2 = _GetTileName(相手ユニットＩＤ)
+Local i
+Local LN
+Local T_COL_F = _ColorTime(_IsLight())
+Local T_COL = _ColorTime()
+
+If (_SearchOptionFromArgs("ランダム方向") = "") Then
+  Set ANG _GetAngle(UID)
+Else
+  Set ANG Random(360)
+EndIf
+
+Local X_F = _GetCircumference(ANG,Ｘ)
+Local Y_F = _GetCircumference(ANG,Ｙ)
+Local DRCT = _FlipVertical(ANG)
+
+
+Wait Start
+ChangeUnitBitmap 相手ユニットＩＤ 非表示
+
+For i = 1 To 7
+  ClearPicture
+  _PaintTile BMP_FILE2 C_X C_Y
+
+  Switch i
+  Case 1
+    Set LN -24
+    PaintPicture BMP_FILE C_X C_Y 透過 T_COL
+  Case 2
+    Set LN -12
+    PaintPicture BMP_FILE C_X C_Y 透過 T_COL
+  Case 3
+    Set LN 0
+    PaintPicture BMP_FILE C_X C_Y 透過 T_COL
+    _SelectSound "Saber.wav" _GetWavFromArgs()
+  Case 4
+    Set LN 4
+    PaintPicture BMP_FILE (C_X + (X_F * 2)) (C_Y + (Y_F * 2)) 透過 T_COL
+  Case 5
+    Set LN 8
+    PaintPicture BMP_FILE (C_X + (X_F * 4)) (C_Y + (Y_F * 4)) 透過 T_COL
+  Case 6
+    Set LN 24
+    PaintPicture BMP_FILE (C_X + (X_F * 12)) (C_Y + (Y_F * 12)) 透過 T_COL
+  Case 7
+    Set LN 40
+    PaintPicture BMP_FILE (C_X + (X_F * 16)) (C_Y + (Y_F * 16)) 透過 T_COL
+  EndSw
+
+  PaintPicture EFFECT_FILE (C_X + (X_F * (LN + 8))) (C_Y + (Y_F * (LN + 8))) 透過 DRCT 右回転 ANG T_COL_F
+  Refresh
+  Wait Until (i * 0.6)
+Next
+ChangeUnitBitmap 相手ユニットＩＤ 非表示解除
+ClearPicture
+Refresh
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_自機連続爆発準備:
+# 引数１　爆発回数
+# 引数２　効果音
+
+_CenteringCheck 対象ユニットＩＤ
+Local i j X_P Y_P CNT
+Local C_X = WX(対象ユニットＩＤ)
+Local C_Y = WY(対象ユニットＩＤ)
+Local B_C = _G_BC_FA()
+
+Set CNT _GetName(3,_GetNumberFromArgs())
+If (CNT > 5) Then
+  Set CNT 5
+EndIf
+
+For j = 1 To CNT
+
+  Set X_P (C_X + Random(23) - 12)
+  Set Y_P (C_Y + Random(23) - 12)
+
+  _SelectSound Explode(Small).wav _GetWavFromArgs()
+
+  Wait Start
+  For i = 1 To 3
+    _PaintCutin_ZSL ("Explode\EFFECT_MiniExplode" & B_C & "01.bmp") 反転なし (X_P + 16 - (i * 4)) (Y_P + 16 - (i * 4)) (i * 8) (i * 8)
+    Wait Until (i * 0.7)
+  Next
+Next
+ClearPicture
+Refresh
+Return
+
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_振る武器粒子集中召喚準備:
+#引数１　手持ち武器のファイル名
+#引数２　手持ち武器の画像サイズ
+#引数３　(二刀流専用)手持ち武器２のファイル名(※指定しない場合は引数１が返却されます)
+#引数４　(二刀流専用)手持ち武器２の画像サイズ(※指定しない場合は引数２が返却されます)
+#引数５　色(※未指定時はピンク)
+#引数６　(二刀流専用)色(※指定しない場合は引数５が返却されます)
+#引数７　効果音
+#引数８　二刀流
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Local i j
+Local SIZE
+Local W_BMP = _GetBmpFromArgs()
+Local G_S = _GetPicSizeFromArgs()
+Local C_N = _GN(白,_GetColorFromArgs())
+Local RGB = _GetColorRGBFromArgs(C_N)
+Local B_C = _G_BC_FA(C_N)
+Local W_BMP2 = _GN(W_BMP,_GetBmpFromArgs2())
+Local G_S2 = _GN(G_S,_GNUM_FA2())
+Local C_N2 = _GN(C_N,_GetColorFromArgs2())
+Local RGB2 = _GetColorRGBFromArgs(C_N2)
+Local B_C2 = _G_BC_FA(C_N2)
+Local C_X = (_Get_WX(UID) + 16)
+Local C_Y = (_Get_WY(UID) + 16)
+Local C_X2 = (_Get_WX(UID) + 16 - (G_S \ 2))
+Local C_Y2 = (_Get_WY(UID) + 12 - (G_S \ 2))
+Local T_COL1 = _ColorTime(1)
+
+_UnSetBattleAnimeValue
+
+Wait Start
+_SelectSound "BeamSaber(2).wav" _GetWavFromArgs()
+
+For i = 1 To 11
+  ClearPicture
+  Set SIZE ((9 - i) * (9 - i))
+  Set j (i - 6)
+
+If (_IsDoubleWeapon() = 1) Then
+  Switch i
+  Case 1
+     PaintPicture ("Common\EFFECT_Particle" & B_C & "03.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 透過 T_COL1
+     PaintPicture ("Common\EFFECT_Particle" & B_C2 & "03.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 左右反転 透過 T_COL1
+  Case 2 3
+     PaintPicture ("Common\EFFECT_Particle" & B_C & "02.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 透過 T_COL1
+     PaintPicture ("Common\EFFECT_Particle" & B_C2 & "02.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 左右反転 透過 T_COL1
+  Case 4 5
+     PaintPicture ("Common\EFFECT_Particle" & B_C & "01.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 透過 T_COL1
+     PaintPicture ("Common\EFFECT_Particle" & B_C2 & "01.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 左右反転 透過 T_COL1
+     PaintPicture W_BMP (C_X2 - 24) C_Y2 G_S G_S フィルタ RGB 100% 透過 T_COL1
+     PaintPicture W_BMP2 (C_X2 + 24) C_Y2 G_S2 G_S2 左右反転 フィルタ RGB2 100% 透過 T_COL1
+  Case 6 7 8 9 10 11
+     PaintPicture W_BMP (C_X2 - 24) C_Y2 G_S G_S フィルタ RGB ((100 - (j * 20)) & "%") 透過 T_COL1
+     PaintPicture W_BMP2 (C_X2 + 24) C_Y2 G_S2 G_S2 左右反転 フィルタ RGB2 ((100 - (j * 20)) & "%") 透過 T_COL1
+  EndSw
+Else
+  If (X(UID) >= _Get_X(相手ユニットＩＤ)) Then
+   Switch i
+   Case 1
+      PaintPicture ("Common\EFFECT_Particle" & B_C & "03.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 透過 T_COL1
+   Case 2 3
+      PaintPicture ("Common\EFFECT_Particle" & B_C & "02.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 透過 T_COL1
+   Case 4 5
+      PaintPicture ("Common\EFFECT_Particle" & B_C & "01.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 透過 T_COL1
+      PaintPicture W_BMP (C_X2 - 24) C_Y2 G_S G_S フィルタ RGB 100% 透過 T_COL1
+   Case 6 7 8 9 10 11
+      PaintPicture W_BMP (C_X2 - 24) C_Y2 G_S G_S フィルタ RGB ((100 - (j * 20)) & "%") 透過 T_COL1
+   EndSw
+  Else
+   Switch i
+   Case 1
+      PaintPicture ("Common\EFFECT_Particle" & B_C2 & "03.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 左右反転 透過 T_COL1
+   Case 2 3
+      PaintPicture ("Common\EFFECT_Particle" & B_C2 & "02.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 左右反転 透過 T_COL1
+   Case 4 5
+      PaintPicture ("Common\EFFECT_Particle" & B_C2 & "01.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 左右反転 透過 T_COL1
+      PaintPicture W_BMP2 (C_X2 + 24) C_Y2 G_S2 G_S2 左右反転 フィルタ RGB2 100% 透過 T_COL1
+   Case 6 7 8 9 10 11
+      PaintPicture W_BMP2 (C_X2 + 24) C_Y2 G_S2 G_S2 左右反転 フィルタ RGB2 ((100 - (j * 20)) & "%") 透過 T_COL1
+   EndSw
+  EndIf
+EndIf
+  Refresh
+  Wait Until (i * 0.7)
+Next
+Wait 2
+
+Return "Keep"
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_射撃武器粒子集中召喚準備:
+#引数１　手持ち武器のファイル名
+#引数２　手持ち武器の画像サイズ
+#引数３　色(※未指定時はピンク)
+#引数４　効果音
+
+
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Local i j
+Local SIZE
+Local ANG = _GetAngle(UID)
+Local DRCT = _FlipVertical(ANG)
+Local W_BMP = _GetBmpFromArgs()
+Local G_S = _GetPicSizeFromArgs()
+Local C_N = _GN(白,_GetColorFromArgs())
+Local RGB = _GetColorRGBFromArgs(C_N)
+Local B_C = _G_BC_FA(C_N)
+Local C_X = (_Get_WX(UID) + 16)
+Local C_Y = (_Get_WY(UID) + 16)
+Local C_X2 = (_Get_WX(UID) + 16 - (G_S \ 2))
+Local C_Y2 = (_Get_WY(UID) + 16 - (G_S \ 2))
+Local T_COL1 = _ColorTime(1)
+
+_UnSetBattleAnimeValue
+
+Wait Start
+_SelectSound "BeamSaber(2).wav" _GetWavFromArgs()
+
+For i = 1 To 11
+  ClearPicture
+  Set SIZE ((9 - i) * (9 - i))
+  Set j (i - 6)
+
+  Switch i
+  Case 1
+     PaintPicture ("Common\EFFECT_Particle" & B_C & "03.bmp") (C_X - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 透過 T_COL1
+  Case 2 3
+     PaintPicture ("Common\EFFECT_Particle" & B_C & "02.bmp") (C_X - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 透過 T_COL1
+  Case 4 5
+     PaintPicture ("Common\EFFECT_Particle" & B_C & "01.bmp") (C_X - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE 透過 T_COL1
+     PaintPicture W_BMP C_X2 C_Y2 G_S G_S フィルタ RGB 100% 透過 DRCT 右回転 ANG T_COL1
+  Case 6 7 8 9 10 11
+     PaintPicture W_BMP C_X2 C_Y2 G_S G_S フィルタ RGB ((100 - (j * 20)) & "%") 透過 DRCT 右回転 ANG T_COL1
+  EndSw
+  Refresh
+  Wait Until (i * 0.7)
+Next
+Wait 2
+
+Return "Keep"
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_レムリア・インパクト命中:
+
+Center 相手ユニット
+
+Local UID = _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+Local i
+Local BMP_FILE = _GetBMPName(UID)
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local T_COL = _ColorTime()
+
+Playsound Charge(High).wav
+Wait Start
+For i = 1 To 60
+ClearPicture
+FillStyle 塗りつぶし
+Color #99FFCC
+FillColor #99FFCC
+Circle (C_X + 16) (C_Y + 16) (20 + (Random(4)))
+DrawWidth 2
+Color #00FF66
+FillColor #212222
+Circle (C_X + 16) (C_Y + 16) (16 + (Random(4)))
+PaintPicture BMP_FILE (C_X + (Random(5))) (C_Y + (Random(5))) 32 32 透過 フィルタ #212222 50% T_COL
+PaintPicture ("Anime\Common\EFFECT_ElectricDischarge0" & Random(6) & ".bmp") (C_X - 8) (C_Y - 8) 48 48 右回転 Random(360) 透過
+Refresh
+Wait Until (0.2 * i)
+Next
+Return "Keep"
+
+戦闘アニメ_レムリア・インパクトとどめ:
+
+Center 相手ユニット
+
+Local UID = _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+Local TYPE = Args(1)
+Local i
+Local BMP_FILE = _GetBMPName(UID)
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local T_COL = _ColorTime()
+Local T_COL1 = _ColorTime(1)
+Local N_C N_S
+
+戦闘アニメ_透明化命中
+
+Playsound BeamShot.wav
+Wait Start
+For i = 1 To 10
+ClearPicture
+FillStyle 塗りつぶし
+Color #99FFCC
+FillColor #99FFCC
+Circle (C_X + 16) (C_Y + 16) (20 - (2 * i))
+DrawWidth 2
+Color #00FF66
+FillColor #212222
+Circle (C_X + 16) (C_Y + 16) (16 - (1.6 * i))
+PaintPicture BMP_FILE (C_X + (1.6 * i)) (C_Y + (1.6 * i)) (32 - (3.2 * i)) (32 - (3.2 * i)) 透過 フィルタ #212222 50% T_COL
+PaintPicture ("Anime\Common\EFFECT_ElectricDischarge0" & Random(6) & ".bmp") (C_X - 8 + (2.4 * i)) (C_Y - 8 + (2.4 * i)) (48 - (4.8 * i)) (48 - (4.8 * i)) 右回転 Random(360) 透過
+Refresh
+Wait Until (0.2 * i)
+Next
+ClearPicture
+Refresh
+戦闘アニメ_発光命中 緑 -.wav
+Wait 3
+
+
+Playsound Explode(Nuclear).wav
+Wait Start
+For i = 1 To 30
+FillStyle 塗りつぶし
+DrawWidth (6 * i)
+Color #00FF66
+FillColor #99FFCC
+Circle (C_X + 16) (C_Y + 16) (i * i)
+Refresh
+Wait Until (0.4 * i)
+Next
+
+If TYPE = 結界なし Then
+
+WhiteOut 20
+Wait 5
+PaintPicture White.bmp - - 480 480
+Refresh
+ClearPicture
+WhiteIn 10
+
+Else
+
+WhiteOut 20
+Wait 5
+PaintPicture White.bmp - - 480 480
+Refresh
+ClearPicture
+PlaySound "Explode(Long).wav"
+Set N_S 96
+Set N_C 1
+PaintPicture ("Map\EFFECT_MapAura(Black)03.bmp") - (240 - (N_S / 2)) N_S N_S フィルタ #FFFFFF 70% 透過 T_COL1
+WhiteIn 13
+
+Wait Start
+For i = 1 To 15
+  PaintPicture ("Map\EFFECT_MapAura(Black)" & "0" & N_C & ".bmp") - (240 - (N_S / 2)) N_S N_S フィルタ #FFFFFF ((60 + Random(20)) & "%") 透過 T_COL1
+  Refresh
+  If ((i Mod 2) = 0) Then
+    Incr N_C 1
+  EndIf
+  If (N_C = 4) Then
+    Set N_C 1
+  EndIf
+  Wait Until (i * 0.9)
+Next
+
+Wait Start
+For i = 1 To 99
+  ClearPicture
+  PaintPicture ("Map\EFFECT_MapAura(Black)" & "0" & N_C & ".bmp") - (240 - (N_S / 2)) N_S N_S フィルタ #FFFFFF ((60 - (i * 10)) & "%") 透過 T_COL1
+  Refresh
+  If ((i Mod 2) = 0) Then
+    Incr N_C 1
+  EndIf
+  If (N_C = 4) Then
+    Set N_C 1
+  EndIf
+
+  Wait Until (i * 0.9)
+
+  If (N_S < 16) Then
+    Break
+  EndIf
+  Set N_S (N_S / 1.2)
+Next
+EndIf
+
+ClearPicture
+Return
+
+##############################################################################
+#◎ナアカル・コード送信インクル
+#
+#
+
+戦闘アニメ_ナアカル・コード送信準備:
+
+Local UID Main Main_1 Main_2 Main_3 Sub Sub_1 Sub_2 Sub_3
+
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+Set Main 対象パイロット
+Set Sub Pilot(UID,2)
+
+If (Unit(UID) = 鬼械神デモンベイン) _
+OR (Unit(UID) = 鬼械神デモンベイン(中期)) _
+OR (Unit(UID) = 鬼械神デモンベイン(前期)) Then
+#トゥーソード、プロトタイプには反応しないように制御
+
+#ないとは思うが一応旧神の可能性も考慮しとく。
+
+Switch 対象パイロット
+Case 大十字九郎 大十字九郎(通常) 大十字九郎(旧神)
+  If Pilot(UID) = 大十字九郎 Then
+	Set Main_1 (Main & "(叫び)")
+	Set Main_2 (Main & "(真剣)")
+	Set Main_3 (Main & "(思考)")
+  ElseIf Pilot(UID) = 大十字九郎(通常) Then
+	Set Main_1 (Main & "(攻撃)")
+	Set Main_2 (Main & "(回避)")
+	Set Main_3 (Main & "(微笑)")
+  ElseIf Pilot(UID) = 大十字九郎(旧神) Then
+	Set Main_1 対象パイロット
+	Set Main_2 対象パイロット
+	Set Main_3 対象パイロット
+  EndIf
+	If Pilot(UID,2) = アル＝アジフ Then
+	Set Sub_1 (Sub & "(怒り)")
+	Set Sub_2 (Sub & "(微笑)")
+	Set Sub_3 (Sub & "(微笑２)")
+	Else
+	Set Sub_1 Pilot(UID,2)
+	Set Sub_2 Pilot(UID,2)
+	Set Sub_3 Pilot(UID,2)
+	EndIf
+Case 覇道瑠璃(マギウス・スタイル) 覇道瑠璃(司令)
+  If Pilot(UID) = 覇道瑠璃(司令) Then
+	Set Main_1 (Main & "(怒り２)")
+	Set Main_2 (Main & "(ダメージ)")
+	Set Main_3 対象パイロット
+  ElseIf Pilot(UID) = 覇道瑠璃(マギウス・スタイル) Then
+	Set Main_1 対象パイロット
+	Set Main_2 対象パイロット
+	Set Main_3 対象パイロット
+  EndIf
+  If Pilot(UID,2) = アル＝アジフ Then
+	Set Sub_1 (Sub & "(怒り)")
+	Set Sub_2 (Sub & "(微笑)")
+	Set Sub_3 (Sub & "(微笑２)")
+	Else
+	Set Sub_1 Pilot(UID,2)
+	Set Sub_2 Pilot(UID,2)
+	Set Sub_3 Pilot(UID,2)
+  EndIf
+Case Else
+  Set Main_1 対象パイロット
+  Set Main_2 対象パイロット
+  Set Main_3 対象パイロット
+  Set Sub_1 Pilot(UID,2)
+EndSw
+
+If (Skill(対象パイロット,ＮＣ解除キー) <> 0) Then
+
+Switch Pilot(UID)
+Case 大十字九郎 大十字九郎(通常)
+If Pilot(UID,2) = アル＝アジフ or Pilot(UID,2) = アル＝アジフ(旧神) Then
+	Switch Random(6)
+	Case 1
+	Call LI_Kakegoe_Krou
+	Case 2
+	Call LI_Kakegoe_Al
+	Case 3
+	AutoTalk Main_2 固定 非表示
+	今だ……！ 征くぞ、アル！
+	AutoTalk Sub_2 固定 非表示
+	ああ！
+	Suspend
+	Case 4
+	AutoTalk Main_2 固定 非表示
+	よしッ！ 決めるぜ、アル！
+	AutoTalk Sub_3 固定 非表示
+	心得たッ！
+	Suspend
+	Case 5
+	AutoTalk Main_3 固定 非表示
+	――やれるな、アル？
+	AutoTalk Sub_3 固定 非表示
+	ああ……完璧だ！
+	AutoTalk Main_2 固定 非表示
+	ならば……！
+	Suspend
+	Case 6
+	AutoTalk Main_1 固定 非表示
+	征くぜぇぇぇ！ アルぅぅぅぅ！
+	AutoTalk Sub_1 固定 非表示
+	応！ ヒラニプラ・システム永久承認確認！
+	Suspend
+	EndSw
+ElseIf Pilot(UID,2) = 人造人間エルザ Then
+	Switch Random(4)
+	Case 1
+	Call LI_Kakegoe_Krou
+	Case 2
+	Call LI_Kakegoe_Elsa
+	Case 3
+	AutoTalk Main_1 固定 非表示
+	征くぜぇぇぇ！ エルザぁぁぁ！
+	AutoTalk Sub 固定 非表示
+	ロボ！ ヒラニプラ・システム永久承認確認ロボ！
+	Suspend
+	Case 4
+	AutoTalk Sub 固定 非表示
+	ダーリン、往くロボ！
+	AutoTalk Main_1 固定 非表示
+	応ッ！
+	Suspend
+	EndSw
+Else
+	Call LI_Kakegoe_Krou
+EndIf
+
+Case 覇道瑠璃(司令) 覇道瑠璃(マギウス・スタイル)
+If Pilot(UID,2) = アル＝アジフ or Pilot(UID,2) = アル＝アジフ(旧神) Then
+	Switch Random(4)
+	Case 1
+	Call LI_Kakegoe_Ruri
+	Case 2
+	Call LI_Kakegoe_Al
+	Case 3
+	AutoTalk Sub_1 固定 非表示
+	決めるぞ小娘！ レムリア・インパクトを使え！
+	AutoTalk Main 固定 非表示
+	はいッ！
+	Suspend
+	Case 4
+	AutoTalk Main_1 固定 非表示
+	アル！
+	AutoTalk Sub_1 固定 非表示
+	分かっている！ ヒラニプラ・システム永久承認確認！
+	Suspend
+	EndSw
+ElseIf Pilot(UID,2) = 人造人間エルザ Then
+	Switch Random(2)
+	Case 1
+	Call LI_Kakegoe_Ruri
+	Case 2
+	Call LI_Kakegoe_Elsa
+	EndSw
+Else
+	Call LI_Kakegoe_Ruri
+EndIf
+
+## ないとは思うが念のためにアル、エルザがメインになった場合
+Case アル＝アジフ アル＝アジフ(旧神)
+	Call LI_Kakegoe_Al
+
+Case 人造人間エルザ
+	Call LI_Kakegoe_Elsa
+Case Else
+Endsw
+
+Else
+Switch Pilot(UID)
+Case 大十字九郎 大十字九郎(通常)
+	Switch Random(14)
+	Case 1
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ヒラニプラ・システム発動。言霊を暗号化。.ナアカル・コードを構成せよ
+	AutoTalk 覇道家メイド・チアキ 固定 非表示
+	言霊のナアカル・コード変換、完了！ いつでも行けるでぇ！
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ナアカル・コード、送信！
+	Suspend
+
+	Case 2
+	AutoTalk 覇道瑠璃(司令)(思考) 固定 非表示
+	『レムリア・インパクト』承認します。後は任せますよ……！
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ナアカル・コード、送信！
+	Suspend
+
+	Case 3
+	AutoTalk Main_1 固定 非表示
+	こちらデモンベイン！.姫さん、レムリア・インパクトを撃つ！.承認してくれ！ ヒラニプラ・システム、アクセス！
+	Suspend
+		If Skill(対象パイロット,執事不在) <> 0 Then
+		AutoTalk 覇道瑠璃(司令) 固定 非表示
+		言霊暗号化……ナアカル・コード送信！
+		Suspend
+		Else
+		AutoTalk 執事ウィンフィールド 固定 非表示
+		司令！
+		AutoTalk 覇道瑠璃(司令)(怒り２) 固定 非表示
+		分かっていますっっ！.言霊暗号化……ナアカル・コード送信！
+		Suspend
+		EndIf
+
+	Case 4
+	AutoTalk Main_2 固定 非表示
+	姫さん！ ヒラニプラ・システムに接続する！.ナアカル・コードを！
+	AutoTalk 覇道瑠璃(司令)(不満３) 固定 非表示
+	――！ 分かりました！ 言霊転送！
+	AutoTalk 覇道家メイド・ソーニャ(真剣) 固定 非表示
+	術式解凍！
+	Suspend
+
+	Case 5
+	AutoTalk 覇道瑠璃(司令)(笑顔) 固定 非表示
+	大十字さん！ レムリア・インパクトの術式は.こちらで解凍しました。いつでもいけますわ！
+	AutoTalk Main_3 固定 非表示
+	――ありがたい！
+	Suspend
+
+	Case 6
+	AutoTalk Main_1 固定 非表示
+	姫さん！
+	AutoTalk 覇道瑠璃(司令)(笑顔) 固定 非表示
+	ええ！ レムリア・インパクト、いつでも撃てます！
+	AutoTalk Main_3 固定 非表示
+	……良し！
+	Suspend
+
+	Case 7
+		If Pilot(UID,2) = アル＝アジフ _
+		Or Pilot(UID,2) = アル＝アジフ(旧神) Then
+		AutoTalk Main_1 固定 非表示
+		アル！ ヒラニプラ・システムにアクセス！
+		AutoTalk Sub_1 固定 非表示
+		了解！ アクセス！
+		Suspend
+		ElseIf Pilot(UID,2) = 人造人間エルザ Then
+		AutoTalk Main_1 固定 非表示
+		エルザ！ ヒラニプラ・システムにアクセス！
+		AutoTalk Sub 固定 非表示
+		了解ロボ！ アクセス！
+		Suspend
+		EndIf
+	AutoTalk 覇道家メイド・マコト 固定 非表示
+	――デモンベイン・パイロットより.第一近接昇華呪法、解凍要請来ました
+	AutoTalk 覇道瑠璃(司令)(不満３) 固定 非表示
+	往きます……！.言霊暗号化――ナアカル・コード送信！
+	AutoTalk 覇道家メイド・ソーニャ(真剣) 固定 非表示
+	了解！ ナアカル・コード送信！.術式、解凍！
+	Suspend
+
+	Case 8
+	AutoTalk Main_2 固定 非表示
+	姫さん……ナアカル・コードの送信！ 出来るか――
+	Suspend
+		If Not Skill(対象パイロット,執事不在) <> 0 Then
+		AutoTalk 執事ウィンフィールド 固定 非表示
+		問題ありません！ いけます！
+		Suspend
+		EndIf
+	AutoTalk 覇道瑠璃(司令)(怒り) 固定 非表示
+	――！ はい、では行きます！ 言霊転送！
+	AutoTalk 覇道家メイド・ソーニャ(真剣) 固定 非表示
+	術式解凍！
+	Suspend
+
+	Case 9
+	AutoTalk 覇道瑠璃(司令)(笑顔) 固定 非表示
+	ナアカル・コード暗号化。.大十字さん、レムリア・インパクト、いつでも撃てます！
+	AutoTalk Main_1 固定 非表示
+	じゃあ征くぜぇぇぇぇ！.ヒラニプラ・システム……アクセス！
+	Suspend
+
+	Case 10
+	AutoTalk Main_1 固定 非表示
+	こちらデモンベイン！.姫さん、レムリア・インパクトを頼むぜ！.ヒラニプラ・システム、アクセス！
+	AutoTalk 覇道家メイド・マコト 固定 非表示
+	デモンベイン・パイロットより第一近接昇華呪法、解凍要請来ました
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ヒラニプラ・システム発動。言霊を暗号化。.ナアカル・コードを構成せよ！
+	AutoTalk 覇道家メイド・チアキ 固定 非表示
+	了解！
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ナアカル・コード、送信！ 術式解凍！
+	Suspend
+
+	Case 11
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ヒラニプラ・システム発動。言霊を暗号化。.ナアカル・コードを構成せよ！
+	AutoTalk 覇道家メイド・ソーニャ(真剣) 固定 非表示
+	了解！ 式文アル＝マンキブ、式文アル＝ディラ解錠！
+	AutoTalk 覇道家メイド・マコト 固定 非表示
+	式文アル＝ヤド・アル＝ヤマ、.式文イブト・アル＝ジャウザー解錠！
+	AutoTalk 覇道家メイド・チアキ 固定 非表示
+	言霊のナアカル・コード変換完了！ いつでもいけるで！
+	AutoTalk 覇道瑠璃(司令)(思考２) 固定 非表示
+	第一昇華呪法、錬成開始――
+	其はベテルギウスの浄化の炎。.解き放たれし巨人の右掌。.完全なる勝利の剣――
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ナアカル・コード、送信！ 術式解凍！
+	Suspend
+
+	Case 12
+	AutoTalk Main_2 固定 非表示
+	姫さん！ ヒラニプラ・システムにアクセスする。.ナアカル・コードを！
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	分かりました。言霊転送！
+	AutoTalk 覇道家メイド・ソーニャ(真剣) 固定 非表示
+	術式解凍！
+	Suspend
+
+	Case 13
+	AutoTalk Main_2 固定 非表示
+	姫さん！ ナアカル・コードを送信してくれ！
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	レムリア・インパクト、発動承認！
+	AutoTalk 覇道瑠璃(司令)(思考２) 固定 非表示
+	其はベテルギウスの浄化の炎。.解き放たれし巨人の右掌。.完全なる勝利の剣――
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ナアカル・コード、送信！
+	Suspend
+
+	Case 14
+	AutoTalk Main_2 固定 非表示
+	姫さん、見てるか！？ ――あれを使う！
+	AutoTalk 覇道瑠璃(司令)(思考) 固定 非表示
+	……いいでしょう。
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	……いいでしょう。.第一近接昇華呪法、使用を許可します
+	AutoTalk 覇道家メイド・マコト 固定 非表示
+	ヒラニプラ・システム発動！
+	AutoTalk 覇道家メイド・チアキ 固定 非表示
+	言霊を暗号化、ナアカル・コードを構成します
+	AutoTalk 覇道家メイド・ソーニャ(真剣) 固定 非表示
+	デモンベインの魔術制御系とアクセス！
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	――ナアカル・コード、送信！
+	Suspend
+	EndSw
+Switch Random(3)
+Case 1
+AutoTalk Main_1 固定 非表示
+うおおおおおおおおお…………！
+Suspend
+Case 2
+AutoTalk Main_1 固定 非表示
+うおおおおおおああぁ…………！
+Suspend
+Case 3
+AutoTalk Main_1 固定 非表示
+うぅぅぅおおおぉぉぉぉぉ…………！
+Suspend
+EndSw
+
+Case 覇道瑠璃(マギウス・スタイル) 覇道瑠璃(司令)
+	Switch Random(3)
+	Case 1
+		If Skill(対象パイロット,執事不在) <> 0 Then
+		AutoTalk Main_1 固定 非表示
+		ヒラニプラ・システム！ アクセス！
+		Suspend
+		Else
+		AutoTalk 執事ウィンフィールド 固定 非表示
+		こちらからも制御のサポートをします。いつでもどうぞ！
+		Suspend
+			If Pilot(UID,2) = アル＝アジフ _
+			Or Pilot(UID,2) = アル＝アジフ(旧神) Then
+			AutoTalk Sub_1 固定 非表示
+			良し……ならば参るぞ！
+			Suspend
+			EndIf
+		AutoTalk Main_1 固定 非表示
+		はい！ ヒラニプラ・システム！ アクセス！
+		Suspend
+		EndIf
+	AutoTalk 覇道家メイド・ソーニャ(真剣) 固定 非表示
+	術式、解凍！
+	Suspend
+
+	Case 2
+	AutoTalk Main_1 固定 非表示
+	いきますわよ、みんな！.レムリア・インパクトを使います！
+	AutoTalk 覇道家メイド・マコト 固定 非表示
+	了解です。サポートはお任せください、お嬢様
+	AutoTalk 覇道家メイド・チアキ 固定 非表示
+	よっしゃあ！ 言霊のナアカル・コード変換完了！
+	AutoTalk 覇道家メイド・ソーニャ(真剣) 固定 非表示
+	いきますよ～！.ナアカル・コード送信！ 術式、解凍！
+	Suspend
+
+	Case 3
+	AutoTalk 覇道家メイド・マコト 固定 非表示
+	お嬢様より第一近接昇華呪法、解凍要請来ました
+	AutoTalk 覇道家メイド・チアキ 固定 非表示
+	言霊のナアカル・コード変換完了！ いつでもいけるで！
+	AutoTalk 覇道家メイド・ソーニャ(真剣) 固定 非表示
+	ナアカル・コード送信！.術式、解凍！
+	Suspend
+	EndSw
+AutoTalk Main_2 固定 非表示
+うわああああああああああああああああああ――――ッ！
+Suspend
+
+
+Case Else
+	Switch Random(8)
+	Case 1
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ヒラニプラ・システム発動。言霊を暗号化。.ナアカル・コードを構成せよ
+	AutoTalk 覇道家メイド・チアキ 固定 非表示
+	言霊のナアカル・コード変換、完了！ いつでも行けるでぇ！
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ナアカル・コード、送信！
+	Suspend
+
+	Case 2
+	AutoTalk 覇道瑠璃(司令)(思考) 固定 非表示
+	『レムリア・インパクト』承認します。後は任せますよ……！
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ナアカル・コード、送信！
+	Suspend
+
+	Case 3
+	If Skill(対象パイロット,執事不在) <> 0 Then
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	言霊暗号化……ナアカル・コード送信！
+	Suspend
+	Else
+	AutoTalk 執事ウィンフィールド 固定 非表示
+	司令！
+	AutoTalk 覇道瑠璃(司令)(怒り２) 固定 非表示
+	分かっていますっっ！.言霊暗号化……ナアカル・コード送信！
+	Suspend
+	EndIf
+
+	Case 4
+	AutoTalk 覇道家メイド・マコト 固定 非表示
+	――デモンベイン・パイロットより第一近接昇華呪法、.解凍要請来ました
+	AutoTalk 覇道瑠璃(司令)(不満３) 固定 非表示
+	往きます……！.言霊暗号化――ナアカル・コード送信！
+	AutoTalk 覇道家メイド・ソーニャ(真剣) 固定 非表示
+	了解！ ナアカル・コード送信！.術式、解凍！
+	Suspend
+
+	Case 5
+	AutoTalk 覇道瑠璃(司令)(笑顔) 固定 非表示
+	ナアカル・コード暗号化。.レムリア・インパクト、いつでも撃てます！
+	Suspend
+
+	Case 6
+	AutoTalk 覇道家メイド・マコト 固定 非表示
+	デモンベイン・パイロットより第一近接昇華呪法、.解凍要請来ました
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ヒラニプラ・システム発動。言霊を暗号化。.ナアカル・コードを構成せよ！
+	AutoTalk 覇道家メイド・チアキ 固定 非表示
+	了解！
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ナアカル・コード、送信！ 術式解凍！
+	Suspend
+
+	Case 7
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ヒラニプラ・システム発動。言霊を暗号化。.ナアカル・コードを構成せよ！
+	AutoTalk 覇道家メイド・ソーニャ(真剣) 固定 非表示
+	了解！ 式文アル＝マンキブ、式文アル＝ディラ解錠！
+	AutoTalk 覇道家メイド・マコト 固定 非表示
+	式文アル＝ヤド・アル＝ヤマ、.式文イブト・アル＝ジャウザー解錠！
+	AutoTalk 覇道家メイド・チアキ 固定 非表示
+	言霊のナアカル・コード変換完了！ いつでもいけるで！
+	AutoTalk 覇道瑠璃(司令)(思考２) 固定 非表示
+	第一昇華呪法、錬成開始――
+	其はベテルギウスの浄化の炎。.解き放たれし巨人の右掌。.完全なる勝利の剣――
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ナアカル・コード、送信！ 術式解凍！
+	Suspend
+
+	Case 8
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	レムリア・インパクト、発動承認！
+	AutoTalk 覇道瑠璃(司令)(思考２) 固定 非表示
+	其はベテルギウスの浄化の炎。.解き放たれし巨人の右掌。.完全なる勝利の剣――
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	ナアカル・コード、送信！
+	Suspend
+
+	Case 9
+	AutoTalk Ruri 固定 非表示
+	第一近接昇華呪法、使用を許可します
+	AutoTalk 覇道家メイド・マコト 固定 非表示
+	ヒラニプラ・システム発動！
+	AutoTalk 覇道家メイド・チアキ 固定 非表示
+	言霊を暗号化、ナアカル・コードを構成します
+	AutoTalk 覇道家メイド・ソーニャ(真剣) 固定 非表示
+	デモンベインの魔術制御系とアクセス！
+	AutoTalk 覇道瑠璃(司令) 固定 非表示
+	――ナアカル・コード、送信！
+	Suspend
+	EndSw
+EndSw
+
+EndIf
+EndIf
+Return
+
+## かけ声
+
+LI_Kakegoe_Krou:
+Local Krou Krou_1
+Set Krou Pilot(UID)
+If Pilot(UID) = 大十字九郎 Then
+Set Krou_1 (Krou & "(叫び)")
+ElseIf Pilot(UID) = 大十字九郎(通常) Then
+Set Krou_1 (Krou & "(攻撃)")
+Else
+Set Krou_1 対象パイロット
+EndIf
+Switch Random(4)
+Case 1
+AutoTalk Krou_1 固定 非表示
+光射す世界に！ 涙を救わぬ正義無し！
+Suspend
+Case 2
+AutoTalk Krou_1 固定 非表示
+この鋼鉄、この魂！ お前を討ち滅ぼす破邪の力だ！
+Suspend
+Case 3
+AutoTalk Krou_1 固定 非表示
+奴をぶっちめて、奥歯ガタガタ言わせてやれぇ！.デモンベイン！
+Suspend
+Case 4
+#※無言枠
+EndSw
+Return
+
+LI_Kakegoe_Al:
+Local Al Al_1
+If Pilot(UID) = アル＝アジフ or Pilot(UID) = アル＝アジフ(旧神) Then
+Set Al Pilot(UID)
+Else
+Set Al Pilot(UID,2)
+EndIf
+If Pilot(UID) = アル＝アジフ or Pilot(UID,2) = アル＝アジフ Then
+Set Al_1 (Al & "(怒り)")
+Else
+Set Al_1 Al
+EndIf
+Switch Random(3)
+Case 1
+AutoTalk Al_1 固定 非表示
+唸れ、銀鍵守護神！
+Suspend
+Case 2
+AutoTalk Al_1 固定 非表示
+<SIZE=8>　 コル・レオニス　　　 フルドライブ</SIZE>.獅子の心臓、最大稼働！
+Suspend
+Case 3
+#※無言枠
+EndSw
+Return
+
+LI_Kakegoe_Ruri:
+Local Ruri Ruri_1 Ruri_2
+Set Ruri Pilot(UID)
+If Pilot(UID) = 覇道瑠璃(司令) Then
+Set Ruri_1 (Ruri & "(怒り)")
+Set Ruri_2 (Ruri & "(怒り２)")
+Else
+Set Ruri_1 対象パイロット
+Set Ruri_2 対象パイロット
+EndIf
+Switch Random(3)
+Case 1
+AutoTalk Ruri_2 固定 非表示
+――わたくしは覇道瑠璃！.覇道を冠する我々が、.お前のような邪悪に屈するものですか！
+Suspend
+Case 2
+AutoTalk Ruri_1 固定 非表示
+デモンベインの力、思い知りなさい！
+Suspend
+Case 3
+#※無言枠
+EndSw
+Return
+
+LI_Kakegoe_Elsa:
+Switch Random(3)
+Case 1
+AutoTalk 人造人間エルザ 固定 非表示
+愛故に戦うロボー！
+Suspend
+Case 2
+AutoTalk 人造人間エルザ 固定 非表示
+ギッタンギッタンにしてやるロボ！
+Suspend
+Case 3
+#※無言枠
+EndSw
+Return
+

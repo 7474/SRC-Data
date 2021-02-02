@@ -1,0 +1,298 @@
+#アリアンロッドBMP名一覧。
+ならび方
+○PC用キャラ
+　・＜のっとぎるてぃ＞の面々
+○敵用キャラ
+　・＜のっとぎるてぃ＞の敵
+○汎用
+　・サンプルキャラクター
+○ノンパイ
+　・＜のっとぎるてぃ＞関連
+　・その他
+#------------------------------------------------------------------------------
+//<のっとぎるてぃ>の面々
+
+エイジ(ＡＲＡ)
+パイロット：ARI_Eiji.bmp
+ユニット　：ARI_EijiU.bmp
+
+アム(ＡＲＡ)
+パイロット：ARI_Am.bmp
+ユニット　：ARI_AmU.bmp
+
+シグ(ＡＲＡ)
+パイロット：ARI_Sig.bmp
+ユニット　：ARI_SigU.bmp
+
+フェルシア(ＡＲＡ)
+パイロット：ARI_Felicia.bmp
+ユニット　：ARI_FeliciaU.bmp
+
+ベネット(ＡＲＡ)
+パイロット：ARI_Benet.bmp
+ユニット　：ARI_BenetU.bmp
+
+ウェルチ(ＡＲＡ)
+パイロット：ARI_Welch.bmp
+ユニット　：ARI_WelchU.bmp
+
+ブラックウエルチ(ＡＲＡ)
+パイロット：ARI_Welch(MC).bmp
+ユニット　：ARI_WelchMonkU.bmp
+
+#-----------------------------------------------------------------------------
+//<のっとぎるてぃ>の敵
+
+ヴァンデル(ＡＲＡ)
+パイロット：ARI_Vandel.bmp
+ユニット　：
+・ヴァンデル＆水の大精霊(ＡＲＡ)：ARI_VanDel&UndineU.bmp
+・ヴァンデル(ＡＲＡ)　　　　　　：ARI_VandelU.bmp
+
+ハゲンティ(ＡＲＡ)
+パイロット：ARI_Hagenti.bmp
+ユニット　：ARI_HagentiU.bmp
+
+メタルハゲンティ(ＡＲＡ)
+パイロット：ARI_MetalHagenti.bmp
+ユニット　：ARI_MetalHagentiU.bmp
+
+地の魔将ギガンドル
+パイロット：ARI_Gigandollar.bmp
+ユニット　：ARI_GigandollarU.bmp
+
+風の魔将ヴェルデュール
+パイロット：ARI_Verdure.bmp
+ユニット　：ARI_VerdureU.bmp
+
+グレンデル(ＡＲＡ)
+パイロット：ARI_Grendel.bmp
+ユニット　：ARI_GrendelU.bmp
+
+光の魔将ディアネッド
+パイロット：ARI_Dianed.bmp
+ユニット　：ARI_DianedU.bmp
+
+#--------------------------------------------------------------------------
+//汎用データ
+
+ポメロ(ＡＲＡ)
+パイロット：ARI_Pomelo.bmp
+ユニット　：ARI_PomeloU.bmp
+
+キラーカンガルー(ＡＲＡ)
+パイロット：ARI_KillerKangaroo.bmp
+ユニット　：ARI_KillerKangarooU.bmp
+
+マッスルーム(ＡＲＡ)
+パイロット：ARI_Muscloom.bmp
+ユニット　：ARI_MuscloomU.bmp
+
+ギルマン(ＡＲＡ)
+パイロット：ARI_Gillman.bmp
+ユニット　：ARI_GillmanU.bmp
+
+ギルマンアーチャー(ＡＲＡ)
+パイロット：ARI_Gillman.bmp
+ユニット　：ARI_GillmanArcherU.bmp
+
+ギルマンメイジ(ＡＲＡ)
+パイロット：ARI_Gillman.bmp
+ユニット　：ARI_GillmanMageU.bmp
+
+アーチャーフィッシュ(ＡＲＡ)
+パイロット：ARI_Archerfish.bmp
+ユニット　：ARI_ArcherfishU.bmp
+
+すごいアーチャーフィ(ＡＲＡ)
+パイロット：ARI_Archerfish.bmp
+ユニット　：ARI_ArcherfishU.bmp
+
+ゼラチナスウォール(ＡＲＡ)
+パイロット：ARI_GelatinasWall.bmp
+ユニット　：ARI_GelatinasWallU.bmp
+
+ブロンズゴーレム(ＡＲＡ)
+パイロット：ARI_BronzeGolem.bmp
+ユニット　：ARI_BronzeGolemU.bmp
+
+アイアンゴーレム(ＡＲＡ)
+パイロット：ARI_IronGolem.bmp
+ユニット　：ARI_IronGolemU.bmp
+
+ウォーターエレメンタル(ＡＲＡ)
+パイロット：ARI_WaterElemental.bmp
+ユニット　：ARI_WaterElementalU.bmp
+
+インプ(ＡＲＡ)
+パイロット：ARI_Imp.bmp
+ユニット　：ARI_ImpU.bmp
+
+サーペイオン(ＡＲＡ)
+パイロット：ARI_Serpeion.bmp
+ユニット　：ARI_SerpeionU.bmp
+
+スケルトンアーチャー(ＡＲＡ)
+パイロット：ARI_SkeletonArcher.bmp
+ユニット　：ARI_SkeletonArcherU.bmp
+
+ワイト兄弟(ＡＲＡ)
+パイロット：ARI_Wightbrother.bmp
+・ワイト兄(ＡＲＡ)：ARI_Wight(Elder).bmp
+・ワイト弟(ＡＲＡ)：ARI_Wight(Younger).bmp
+ユニット　：ARI_WightbrotherU.bmp
+
+ブラッディマーダー(ＡＲＡ)
+パイロット：ARI_BloodyMurder.bmp
+ユニット　：ARI_BloodyMurderU.bmp
+
+ヴァイオレント(ＡＲＡ)
+パイロット：ARI_Violent.bmp
+ユニット　：ARI_ViolentU.bmp
+
+デュラハン(ＡＲＡ)
+パイロット：ARI_Dullahan.bmp
+ユニット　：ARI_DullahanU.bmp
+
+#------------------------------------------------------------------------------
+//サンプルキャラクター
+
+未来の英雄(ＡＲＡ)
+パイロット：ARI_IntendingHero.bmp
+ユニット　：ARI_IntendingHeroU.bmp
+
+ウォーリア(ＡＲＡ)
+パイロット：ARI_Warrior.bmp
+ユニット　：ARI_WarriorU.bmp
+
+剣の伝承者(ＡＲＡ)
+パイロット：ARI_BladeSuccessor.bmp
+ユニット　：ARI_BladeSuccessorU.bmp
+
+鋼の拳士(ＡＲＡ)
+パイロット：ARI_SturdyBruiser.bmp
+ユニット　：ARI_SturdyBruiserU.bmp
+
+陽気な射手(ＡＲＡ)
+パイロット：ARI_CantyBowyer.bmp
+ユニット　：ARI_CantyBowyerU.bmp
+
+護りの聖者(ＡＲＡ)
+パイロット：ARI_TutelarySaint.bmp
+ユニット　：ARI_TutelarySaintU.bmp
+
+神々の使徒(ＡＲＡ)
+パイロット：ARI_WordOfGods.bmp
+ユニット　：ARI_WordOfGodsU.bmp
+
+精霊の具現者(ＡＲＡ)
+パイロット：ARI_PowerOfElemental.bmp
+ユニット　：ARI_PowerOfElementalU.bmp
+
+探求の錬金術師(ＡＲＡ)
+パイロット：ARI_CultivateAlchemist.bmp
+ユニット　：ARI_CultivateAlchemistU.bmp
+
+遺跡の探索者(ＡＲＡ)
+パイロット：ARI_SplendidSleight.bmp
+ユニット　：ARI_SplendidSleightU.bmp
+
+放浪の歌い手(ＡＲＡ)
+パイロット：ARI_VagrantSinger.bmp
+ユニット　：ARI_VagrantSingerU.bmp
+
+神速の銃弾(ＡＲＡ)
+パイロット：ARI_StylishGunslinger.bmp
+ユニット　：ARI_StylishGunslingerU.bmp
+
+知識の守護者(ＡＲＡ)
+パイロット：ARI_KeeperOfArcanelore.bmp
+ユニット　：ARI_KeeperOfArcaneloreU.bmp
+
+黒衣の影(ＡＲＡ)
+パイロット：ARI_ShadowRunner.bmp
+ユニット　：ARI_ShadowRunnerU.bmp
+
+鋭刃の舞踏(ＡＲＡ)
+パイロット：ARI_SwordDancer.bmp
+ユニット　：ARI_SwordDancerU.bmp
+
+汎用パイロット用
+パイロット：ARI_Adventurer.bmp
+
+#------------------------------------------------------------------------------
+//ノンパイ
+　・＜のっとぎるてぃ＞関連
+
+せせらぎの妖精(ＡＲＡ)　　　　：ARI_LittleStreamFairy.bmp
+
+湖の妖精(ＡＲＡ)　　　　　　　：ARI_LakeFairy.bmp
+
+湧水の妖精(ＡＲＡ)　　　　　　：ARI_SpringwaterFairy.bmp
+
+アリアンロッドの代行者(ＡＲＡ):ART_ProxyTheArianrhod.bmp
+
+#カナンの街関係
+シルヴァ(ＡＲＡ)　　　　　　　：ARI_Silva.bmp
+
+ロクサール(ＡＲＡ)　　　　　　：ARI_Roksalle.bmp
+
+ク＝バルカン　　　　　　　　　　　　　：ARI_KuBalkan.bmp
+
+モエラド(ＡＲＡ)　　　　　　　：ARI_Moelad.bmp
+
+シルフィ(ＡＲＡ)　　　　　　　：ARI_Sylphy.bmp
+
+カーサ(ＡＲＡ)　　　　　　　　：ARI_Casa.bmp
+
+#グラン＝ベル関係
+ヴァンデル神官長(ＡＲＡ)　　　：ARI_BishopVanDell.bmp
+
+トム(ＡＲＡ)　　　　　　　　　：ARI_Tom.bmp
+
+#魔族
+闇の魔将ガイア　　　　　　　　： ARI_Gaea.bmp
+
+ショコラ(ＡＲＡ)　　　　　　　：ARI_Chocolate.bmp
+
+ネフェトゥレス(ＡＲＡ)　　　　：ARI_Nefetouless.bmp
+
+ハーゲン(ＡＲＡ)　　　　　　　：ARI_Hagen.bmp
+
+#冗談ネタ
+きくたけ(ＡＲＡ)　　　　　　　：ARI_Kikutake.bmp
+
+#その他
+エンサイクロペディア(ＡＲＡ)　：ARI_Encyclopedia.bmp
+
+#カカシデータ用
+
+ショコラ(ＡＲＡ)
+パイロット：ARI_Chocolate.bmp
+ユニット
+通常　　　　　　： ARI_ChocolaU.bmpU.bmp
+温泉　　　　　　： ARI_Chocola(Bath)U.bmp
+　裸　　　　　　： ARI_Chocola(Bath2)U.bmp
+
+せせらぎの妖精(ＡＲＡ)
+パイロット　　　：ARI_LittleStreamFairy.bmp
+ユニット　　　　：ARI_LittleStreamFairyU.bmp
+
+湖の妖精(ＡＲＡ)
+パイロット　　　：ARI_LakeFairy.bmp
+ユニット　　　　：ARI_LakeFairyU.bmp
+
+湧水の妖精(ＡＲＡ)
+パイロット　　　：ARI_SpringwaterFairy.bmp
+ユニット　　　　：ARI_SpringwaterFairyU.bmp
+
+シルヴァ(ＡＲＡ)
+パイロット　　　：ARI_Silva.bmp
+ユニット　　　　：ARI_SilvaU.bmp
+
+シルフィ(ＡＲＡ)
+パイロット　　　：ARI_Sylphy.bmp
+ユニット
+シルフィ＆ＧＭ　：ARI_Sylphy&GMU.bmp
+シルフィ＆カーサ：ARI_SylphyU.bmp
+シルフィ　　　　：ARI_Sylphy(Solo)U.bmp

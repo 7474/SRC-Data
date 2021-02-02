@@ -1,0 +1,17 @@
+
+万能戦艦
+対潜誘導弾, 15;MultipleRocketLauncher.wav
+電子砲, 15;Charge(long).wav;5;Beam.wav
+バリアー体当たり, 15;Charge(long).wav;3;Crash.wav;3;Crash.wav;3;Crash.wav;5;Crash.wav
+
+戦艦
+新型浮遊機雷, 1;Bomb.wav;1;Bomb.wav;10;Bomb.wav
+重力子爆弾, 10;Bomb.wav
+
+グランディスタンク
+ドリル体当たり, 8;Drill.wav;3;Crash.wav;5;Crash.wav
+ドリル体当たり(MAP), 8;Drill.wav;3;Crash.wav;5;Crash.wav
+電子砲, 8;Charge.wav;5;Beam.wav
+
+神聖大要塞
+バベルの光, 15;Charge(long).wav;7;Beam.wav

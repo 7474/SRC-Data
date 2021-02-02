@@ -1,0 +1,186 @@
+## ゴスロリ少女探偵団 ----------------------------
+
+黒ロリ
+ブラックメルトリボン, BeamGun.wav
+ジャッジメント(攻撃), Slash.wav;5;Slash.wav
+ジャッジメント(命中), Slash(6).wav;5;Splash.wav
+ジャッジメント(解説), 黒ロリは$(相手パイロット)をジャッジメントした。
+ジャッジメント(許し)(攻撃), Slash(6).wav;5;Mist.wav
+ジャッジメント(許し)(命中), Splash.wav
+ジャッジメント(許し)(とどめ), Sharara.wav
+ジャッジメント(許し)(解説), 黒ロリは$(相手パイロット)をジャッジメントした。
+ジャッジメント<MAP>(攻撃), Charge(long).wav
+ジャッジメント<MAP>(命中), Inori.wav
+ジャッジメント<MAP>(解説), 黒ロリはジャッジメントの力を解放した。
+
+葉山小十乃
+パチンコ, Swing.wav;1;Bow.wav
+
+
+白ロリ
+シャボン玉, Bubble.wav
+液体窒素入りシャボン玉, Bubble.wav
+ツインホーリーロッド(攻撃), 3;Swing.wav;2;Swing.wav;1;Swing.wav
+ツインホーリーロッド(命中), Punch(2).wav
+ツインウッドЛ(攻撃), 3;Swing.wav;2;Swing.wav;1;Swing.wav
+ツインウッドЛ(命中), Punch(2).wav
+ホワイトブレスシュート, BeamGun.wav
+白藤家専属狙撃班(解説), 白ロリは白藤家専属狙撃班を呼び出し銃撃させた。
+白藤家専属狙撃班(準備), 15;Callsign.wav;3;WindowClose.wav
+白藤家専属狙撃班(攻撃), Hittyuu.wav
+白藤家専属狙撃班(命中), Gun(8Shot).wav
+
+白藤菜月
+シャボン玉, Bubble.wav
+液体窒素入りシャボン玉, Bubble.wav
+
+
+赤ロリ
+格闘(攻撃), Swing.wav
+格闘(命中), BreakOff.wav;2;BreakOff.wav;2;BreakOff.wav;3;Explode.wav
+閃光弓レッドグレイス, Bow.wav
+レッドブラッドアロー, BeamGun.wav
+ＲＢアロー【天ぷら油】(解説), 赤ロリはレッドブラッドアロー【天ぷら油】で攻撃をかけた。
+ＲＢアロー【天ぷら油】(攻撃), BeamGun.wav
+ＲＢアロー【天ぷら油】(命中), Tub.Wav;Acid.wav
+ＲＢアロー【小麦粉】(解説), 赤ロリはレッドブラッドアロー【小麦粉】で攻撃をかけた。
+ＲＢアロー【小麦粉】(攻撃), BeamGun.wav
+ＲＢアロー【網】(解説), 赤ロリはレッドブラッドアロー【網】で攻撃をかけた。
+ＲＢアロー【網】(攻撃), BeamGun.wav
+ＲＢアロー【網】(命中), Bow.wav
+ＲＢアロー【鳥かご】(解説), 赤ロリはレッドブラッドアロー【鳥かご】で攻撃をかけた。
+ＲＢアロー【鳥かご】(攻撃), BeamGun.wav
+ＲＢアロー【鳥かご】(命中), Bow.wav
+ＲＢアロー【洗濯機】(解説), 赤ロリはレッドブラッドアロー【洗濯機】で攻撃をかけた。
+ＲＢアロー【洗濯機】(攻撃), BeamGun.wav
+ＲＢアロー【洗濯機】(命中), 変形 DGoods\EFFECT_JapaneseCoffin01.bmp 相手ユニットＩＤ;2;強風;旋風;瞬間変形 -.wav 相手ユニットＩＤ
+ＲＢアロー【トンカチ】(解説), 赤ロリはレッドブラッドアロー【トンカチ】で攻撃をかけた。
+ＲＢアロー【トンカチ】(攻撃), BeamGun.wav
+ＲＢアロー【トンカチ】(命中), Bunt.wav
+
+赤ロリ(漫画)
+格闘(攻撃), Swing.wav
+格闘(命中), BreakOff.wav;2;BreakOff.wav;2;BreakOff.wav;3;Explode.wav
+ピースブレイカー∞, Gun.wav
+レッドブラッドアロー, BeamGun.wav
+ＲＢアロー【天ぷら油】(解説), 赤ロリはレッドブラッドアロー【天ぷら油】で攻撃をかけた。
+ＲＢアロー【天ぷら油】(攻撃), BeamGun.wav
+ＲＢアロー【天ぷら油】(命中), Tub.Wav;Acid.wav
+ＲＢアロー【小麦粉】(解説), 赤ロリはレッドブラッドアロー【小麦粉】で攻撃をかけた。
+ＲＢアロー【小麦粉】(攻撃), BeamGun.wav
+ＲＢアロー【網】(解説), 赤ロリはレッドブラッドアロー【網】で攻撃をかけた。
+ＲＢアロー【網】(攻撃), BeamGun.wav
+ＲＢアロー【網】(命中), Bow.wav
+ＲＢアロー【鳥かご】(解説), 赤ロリはレッドブラッドアロー【鳥かご】で攻撃をかけた。
+ＲＢアロー【鳥かご】(攻撃), BeamGun.wav
+ＲＢアロー【鳥かご】(命中), Bow.wav
+ＲＢアロー【洗濯機】(解説), 赤ロリはレッドブラッドアロー【洗濯機】で攻撃をかけた。
+ＲＢアロー【洗濯機】(攻撃), BeamGun.wav
+ＲＢアロー【洗濯機】(命中), 変形 DGoods\EFFECT_JapaneseCoffin01.bmp 相手ユニットＩＤ;2;強風;旋風;瞬間変形 -.wav 相手ユニットＩＤ
+ＲＢアロー【トンカチ】(解説), 赤ロリはレッドブラッドアロー【トンカチ】で攻撃をかけた。
+ＲＢアロー【トンカチ】(攻撃), BeamGun.wav
+ＲＢアロー【トンカチ】(命中), Bunt.wav
+
+聖三咲
+格闘(攻撃), Swing.wav
+格闘(命中), BreakOff.wav;2;BreakOff.wav;2;BreakOff.wav;3;Explode.wav
+
+
+慈愛の石版ユアン
+慈愛の石版, BeamSaber.wav;5;Missile.wav
+
+黒木功士朗
+ボウリング, Whiz.wav
+ボウリング(解説), $(パイロット)はボウリングの玉を放り投げた。
+
+ヒロシ＝ピロシキ＝ロマノフ
+新巻鮭, Punch.wav
+
+
+## リバース社 ----------------------------
+
+クルツ社長
+支配の石版, BeamSaber.wav;5;Missile.wav
+
+皇帝クルツ
+石版の矢, BeamSaber.wav;5;LaserGun.wav
+支配の石版, BeamSaber.wav;5;Missile.wav
+黒豹, Roar.wav
+黒豹(解説), 石版から召喚された黒豹が$(相手パイロット)に襲い掛かった。
+
+完璧クルツ
+石版の支配(命中), EvilEye.wav
+反射(解説), $(相手武器)は完璧クルツに支配され、$(相手パイロット)に跳ね返る！
+
+
+教皇アッシュ
+双頭蛇, Saber.wav
+双頭蛇(命中), Stab.wav
+
+
+女教皇ソフィア
+サイコキネシス, Whiz.wav
+
+ソフィア部長
+格闘(解説), $(パイロット)は相手に殴りかかった。
+
+ロボソフィア(セイント)
+街灯, Whiz.wav
+格闘, Bazooka(8Shot).wav
+
+
+吊るされた男カフカ
+腕, Whiz.wav
+枝, Whiz.wav
+根っこ, Whiz.wav
+吸血, Stab.wav
+
+黒カフカ(セイント)
+腕, Whiz.wav
+
+
+悪魔エスメラルダ
+リング, Whiz.wav
+おスズ・スズ吉アタック, 7;Bird.wav;5;Missile.wav;5;Missile.wav
+おスズ・スズ吉アタック(解説), おスズとスズ吉が相手に向かって飛んでいった。
+鉄の処女(攻撃), Missile.wav
+鉄の処女(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav
+
+
+太陽ヨシュア
+火炎竜, Fire.wav
+
+
+運命の輪アルティスタ
+トラウマフラッシュ, LaserGun.wav
+
+
+魔術師エルロック
+光弾, Cannon.wav
+幻覚攻撃, BeamShot.wav
+幻覚の霧, Charge.wav
+
+
+星の星蘭
+光弾, Cannon.wav
+格闘(攻撃), Swing.wav
+格闘(命中), BreakOff.wav;2;BreakOff.wav;2;BreakOff.wav;3;Explode.wav
+タイフーン拳法, Storm.wav
+
+星蘭(通常)
+格闘(攻撃), Swing.wav
+格闘(命中), BreakOff.wav;2;BreakOff.wav;2;BreakOff.wav;3;Explode.wav
+
+
+戦車スタルク
+鉄球, Missile.wav
+
+
+マリオネット椿
+ネバネバ絵の具責め, Bearing.wav
+チョーク投げ, Swing.wav
+アルコールランプ, 3;Swing;4;Glass.wav4;Fire.wav
+リコーダー, 2;Swing.wav;2;Swing.wav
+三角定規, 2;Swing.wav;2;Swing.wav
+
+

@@ -1,0 +1,20 @@
+
+鉄拳チンミ
+一指拳, Snap(E).wav
+一指拳(命中), Whip.wav
+一指拳(クリティカル), Shock(Low).wav
+突き(命中), Punch.wav
+蹴り(命中), Punch.wav
+蹴り(命中), 1.5;Swing.wav;Punch.wav
+通背拳(命中), 1;Punch.wav;1;Swing.wav;Bazooka.wav
+気功衝撃波(命中), 1;Punch.wav;1;Swing.wav;Shock(Low).wav
+雷神(準備), 3;Stab.wav;3;Stab.wav;Stab.wav
+雷神, Charge.wav
+雷神(命中), -.wav
+棍(命中), 1;Swing.wav;3;Punch.wav;1;Swing.wav;3;Punch.wav;2;Swing.wav;Combo.wav
+棍(命中), 2.5;Swing.wav;1;Punch.wav;1;Punch.wav;1;Punch.wav;1;Punch.wav;1;Punch.wav;1;Punch.wav;1;Punch.wav
+棍(命中), 1.5;Swing.wav;Punch.wav
+棍(命中), 0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;2;Swing.wav;1;Punch.wav;1;Punch.wav;1;Punch.wav
+捻糸棍(準備), Sword.wav
+捻糸棍, 2;Swing.wav;Drill.wav
+捻糸棍(命中), Bazooka.wav

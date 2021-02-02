@@ -1,0 +1,26 @@
+ゼノンズガーディアン
+フィンガーミサイル, MultipleRocketLauncher(Light).wav
+フィンガーミサイル(命中), 2;Explode.wav;2;Explode.wav;2;Explode.wav;2;Explode.wav;Explode.wav
+トライ手裏剣, 1;Bow.wav;1;Bow.wav;1;Bow.wav;Bow.wav
+トライ手裏剣(命中), 2;Explode.wav;2;Explode.wav;2;Explode.wav;Explode.wav
+やっこさんアタック, Jet.wav
+レッグカッター(命中), Drill.wav
+ジェットバズーカ, Beam.wav
+ジェットバズーカ乱れ撃ち, 2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;Beam.wav
+ジェットバズーカ乱れ撃ち(命中), 2;Explode.wav;2;Explode.wav;2;Explode.wav;2;Explode.wav;2;Explode.wav;2;Explode.wav;2;Explode.wav;2;Explode.wav;2;Explode.wav;Explode.wav
+ガイアストーム, 2;Beam.wav;Beam.wav
+ガイアストーム(命中), Explode.wav
+ガイアメガシュート, Beam.wav
+アルマイービルアイ, Beam.wav
+アルマソーサー, 2;Saber.wav;Saber.wav
+アルマソーサー(命中), 2;Explode(Small).wav;Explode(Small).wav
+アルマスティンガー, 2;Beam.wav;2;Beam.wav;Beam.wav
+アルマスティンガー(命中), 2;Explode.wav;2;Explode.wav;Explode.wav
+アルマスパーク, Beam.wav
+アルマサンシャイン, Beam.wav
+アルマプレッシャー, Charge.wav
+アルマヘキサフォース, 9;Charge.wav;Beam.wav
+ツルハシブーメラン, Swing.wav
+ツルハシブーメラン(命中), Stab.wav
+神威のツルハシ・竜(命中), 2;Swing.wav;Stab.wav
+

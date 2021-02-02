@@ -1,0 +1,30 @@
+
+ＥｏＥ
+ダガー, ナイフ
+B-84, ピストル EFFECT_RWG_BERETTA_M92.bmp
+45-AUTO, ピストル EFFECT_RWG_COLT_GOVERNMENT.bmp
+SG-226, ピストル EFFECT_RWG_SIG-SAUER_P226.bmp
+LP-08, ピストル EFFECT_RWG_LUGER_P08.bmp
+SMG-05, サブマシンガン EFFECT_RWG_H&K_MP5K.bmp
+PDW-XM_V2, サブマシンガン Weapon\EFFECT_NewSubMachineGun01.bmp
+ハンドグレネード, 手榴弾
+Ｉ・アクション, 光球放出 白 Charge(Silent).wav
+Ｉ・アクション(解説), $(ユニット)はインビンシブル・アクションを発動した。
+
+ゼファー(EoE)
+レゾナンスアタック(準備), サブマシンガン Weapon\EFFECT_NewSubMachineGun01.bmp;_
+                          ピストル EFFECT_RWG_COLT_GOVERNMENT.bmp partner(1);_
+                          ピストル EFFECT_RWG_BERETTA_M92.bmp partner(2)
+レゾナンスアタック(命中), サブマシンガン GunPod.wav;サブマシンガン GunPod.wav;ピストル Gun.wav;ピストル Gun.wav
+
+ヴァシュロン(EoE)
+レゾナンスアタック(準備), サブマシンガン Weapon\EFFECT_NewSubMachineGun01.bmp partner(1);_
+                          ピストル EFFECT_RWG_COLT_GOVERNMENT.bmp;_
+                          ピストル EFFECT_RWG_BERETTA_M92.bmp partner(2)
+レゾナンスアタック(命中), サブマシンガン GunPod.wav;サブマシンガン GunPod.wav;ピストル Gun.wav;ピストル Gun.wav
+
+リーンベル(EoE)
+レゾナンスアタック(準備), サブマシンガン Weapon\EFFECT_NewSubMachineGun01.bmp partner(1);_
+                          ピストル EFFECT_RWG_COLT_GOVERNMENT.bmp partner(2);_
+                          ピストル EFFECT_RWG_BERETTA_M92.bmp
+レゾナンスアタック(命中), サブマシンガン GunPod.wav;サブマシンガン GunPod.wav;ピストル Gun.wav;ピストル Gun.wav

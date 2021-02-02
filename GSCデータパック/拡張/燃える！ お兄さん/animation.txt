@@ -1,0 +1,341 @@
+# ローカルアニメを指定している場合は末尾にラベルを表示
+#
+# 汎用画像以外の使用画像
+# 早見姿郎　……　MO23_HayamiShirou(S).bmp
+#
+# 早見姿郎はアニメでノンパイロット「早見姿郎(スパット)」を指定
+
+
+汎用
+# アイテム用
+ツバ(攻撃), ライフル -.bmp
+ツバ(命中), ダメージ
+スーパー穴ほり手袋(攻撃), ショックビーム
+スーパー穴ほり手袋(命中), @戦闘アニメ_魔法放射攻撃 黒 BeamSaber(2).wav 相手ユニットＩＤ;透明化 相手ユニットＩＤ 反映;_
+	連続描画 Bullet\EFFECT_STG_Bullet(Black)[05-05].bmp 48 10 1 Bomb.wav
+
+
+おにーさん
+空手, 格闘
+連打(攻撃), 連打
+連打(攻撃), 発射連続描画 Bullet\EFFECT_MachineCannon(Orange)[01-06].bmp 52 1.5 3 前面 Swing.wav
+連打(命中), 連打
+おにーさんキック, キック
+おにーさんキック(命中), 打撃 Crash.wav
+クルクル波(攻撃), 中ビーム 黄 BeamGun.wav
+クルクル波(命中), 爆発
+突進(攻撃), 突く武器突撃 -.bmp Cannon.wav;地面衝撃 ライトブルー Bazooka.wav 対象ユニットＩＤ;透明化 対象ユニットＩＤ;_
+	MO23_倒れ実弾発射 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) 32 遅 -.wav
+突進(命中), 超打 Crash.wav;透明化 解除 対象ユニットＩＤ 反映
+ムジョルニア, 大金槌
+サンダーボルトアタック(準備), BeamSaber(5).wav;_
+	MO23_二重連続描画 ShockBeam\EFFECT_TwinShockBeam(Yellow)[03-08].bmp 52 _
+	ShockBeam\EFFECT_TwinShockBeam(Yellow)[03-08].bmp 52 2 4 背面 ランダム ランダム２ -.wav 対象ユニットＩＤ
+サンダーボルトアタック(攻撃), バスタービームランチャー 黄 Weapon\EFFECT_GreatHammer01.bmp 32
+サンダーボルトアタック(命中), MO23_二重連続描画 Beam\EFFECT_DBeam(Yellow)[01-05].bmp 64 _
+	Beam\EFFECT_DBeam(Yellow)[05-01].bmp 64 4 3 角度=90 角度２=-90 上下反転 Thunder.wav 相手ユニットＩＤ
+ムジョルニア突撃, 大金槌
+ムジョルニア突撃(攻撃), 地面衝撃 ライトブルー -.wav 対象ユニットＩＤ;_
+	突く武器急降下 Weapon\EFFECT_GreatHammer01.bmp 32 AntiAirMissile.wav
+ムジョルニア突撃(命中), スーパーダイブ Crash.wav 青
+ダブル延髄斬り, 同時キック
+二乗玄米拳(準備), 透明化 partner(1) 反映;_
+	振る武器 ("Unit\" & Info("ユニット",UnitID(partner(1)),"グラフィック")) 32
+二乗玄米拳(攻撃), @戦闘アニメ_中心回転武器攻撃 ("Unit\" & Info("ユニット",UnitID(partner(1)),"グラフィック")) 32;_
+	振る武器突撃 ("Unit\" & Info("ユニット",UnitID(partner(1)),"グラフィック")) 32
+二乗玄米拳(命中), 振る武器突撃 ("Unit\" & Info("ユニット",UnitID(partner(1)),"グラフィック")) 32;_
+	透明化 partner(1) 解除 反映
+
+# MO23_倒れ実弾発射、MO23_二重連続描画
+
+
+超金属スーパージャガー
+ジャガーファイト(攻撃), 格闘 Swing(2).wav
+ジャガーファイト(命中), 打撃
+ジャガー電光パンチ(攻撃), 連打 FastGun.wav
+ジャガー電光パンチ(命中), 連打
+トリプルファイト(攻撃),	格闘 Swing(2).wav
+トリプルファイト(命中)(対男性),	2;「目つぶし！！」;打撃 FightHit(3).wav;2;「目つぶし！！ 指折り！！」;_
+	点打 BreakOff.wav;2;「目つぶし！！ 指折り！！ 玉つぶし！！」;超アッパー Glass.wav
+トリプルファイト(命中)(対女性),	2;「目つぶし！！」;打撃 FightHit(3).wav;2;「目つぶし！！ 指折り！！」;_
+	点打 BreakOff.wav;2;「目つぶし！！ 指折り！！ かんちょ！！」;振り上げ大斬撃 Stab.wav
+トリプルファイト(命中),	2;「目つぶし！！」;打撃 FightHit(3).wav;2;「目つぶし！！ 指折り！！」;_
+	点打 BreakOff.wav;2;「目つぶし！！ 指折り！！ 爪はがし！！」;点打 FightHit(4).wav
+
+
+国宝憲吉
+格闘, 格闘
+必殺テクニック(攻撃), 振り上げ;煙噴射 オレンジ -.wav
+必殺テクニック(命中), 煙 オレンジ Autodoor(close).wav;_
+	MO23_高速準備 Shield\EFFECT_Mant(Black)01.bmp 待機=0 対象ユニットＩＤ;@戦闘アニメ_斬撃攻撃;点打 FightHit(3).wav
+トゲトゲバット, 振る武器 DGoods\EFFECT_NailButt01.bmp
+トゲトゲバット(攻撃), 大斬撃 Swing(3).wav
+トゲトゲバット(命中), 超打 Transform.wav
+大回転松葉づえアタック(攻撃), 発射連続描画 Beam2\EFFECT_GiantBeam(Yellow)[02-03].bmp 80 2 3 Flair.wav;_
+	突く武器突撃 DGoods\EFFECT_Tonbo01.bmp -.wav 二刀流;透明化 対象ユニットＩＤ 反映;旋風 オレンジ
+大回転松葉づえアタック(命中), ビームショットガン イエロー Flair.wav;旋風 オレンジ Bazooka(8Shot).wav;強打 -.wav
+
+# MO23_高速準備
+
+
+火堂害
+格闘, 格闘
+容赦のない攻撃(攻撃), 格闘 Swing(2).wav
+容赦のない攻撃(命中), 強打
+ダブル延髄斬り(前), 同時キック
+ダブル延髄斬り, 同時キック
+火堂・ロッキーダブル攻撃(攻撃), 同時キック
+火堂・ロッキーダブル攻撃(命中), 同時キック;「ダブルエルボーッ！！」;@戦闘アニメ_同時ヘッドバット攻撃;_
+	唐竹割り Shock(Low).wav イエロー;唐竹割り Shock(Low).wav レッド;「ダブルパーンチ！！」;_
+	@戦闘アニメ_同時タックル攻撃;同時打突
+シールド防御(そのへんの人), シールド防御 Creature\EFFECT_Doll01.bmp
+
+
+ロッキー羽田
+格闘, 格闘
+ワンダフルボンバー(攻撃), 乱打 FastGun.wav
+ワンダフルボンバー(命中), 連打 FightHit(1).wav
+ワンダフルボンバー(解説), $(ユニット)はスーパーグレートウルトラデリシャスワンダフルボンバーで攻撃をかけた。
+ダブル延髄斬り, 同時キック
+火堂・ロッキーダブル攻撃(攻撃), 同時キック
+火堂・ロッキーダブル攻撃(命中), 同時キック;「ダブルエルボーッ！！」;@戦闘アニメ_同時ヘッドバット攻撃;_
+	唐竹割り Shock(Low).wav イエロー;唐竹割り Shock(Low).wav レッド;「ダブルパーンチ！！」;_
+	@戦闘アニメ_同時タックル攻撃;同時打突
+
+
+玄米茶
+杖(準備), -
+杖(攻撃), 唐竹割り 茶 Swing(3).wav
+杖(命中), 唐竹割り 茶 Bazooka.wav
+当て身技(あちゃおちゃげんまいちゃ), 会話 対象パイロット あちゃ！！ 固定;_
+	@戦闘アニメ_打突攻撃;回避 Jump.wav;会話 対象パイロット あちゃ！！.おちゃ！！ 固定;_
+	@戦闘アニメ_刺突攻撃;回避 Jump.wav
+当て身技(あちゃおちゃげんまいちゃ)(解説), -
+げんまいちゃ！(命中), 0.1;会話 玄米茶 げんまいちゃ！！ 固定;MO23_背向け 1;_
+	MO23_高速準備 DGoods\EFFECT_MetalDrum01.bmp 待機=0;MO23_背向け 上下反転 6 相手ユニットＩＤ FallDown.wav
+玄米茶流空手(攻撃), 連打 Swing(2).wav
+玄米茶流空手(命中), 連打 Crash.wav
+悪い予感(攻撃), -
+悪い予感(命中), @戦闘アニメ_唐竹割り攻撃 茶 Swing(3).wav;唐竹割り 茶 Bazooka.wav;@戦闘アニメ_煙噴射攻撃 黄 Explode.wav
+悪い予感(解説), $(ユニット)は不吉なことを言った。
+へのバイブレーション(攻撃), 煙 黄 Explode.wav 対象ユニットＩＤ;斬撃
+へのバイブレーション(命中), 点打 Tub.wav;大放電 赤
+阻止(玄米茶流奥義「ぼくタコの赤ちゃん」), 回避 Jump.wav
+
+# MO23_高速準備、MO23_背向け
+
+
+ダック＝ニコルソン
+クチバシ(攻撃), 連突
+クチバシ(命中), 連打
+かつあげ, 殴打武器 DGoods\EFFECT_MetalButt01.bmp 32
+かつあげ, ハンマー
+鈍器, 殴打武器 DGoods\EFFECT_MetalButt01.bmp 32
+鈍器, ハンマー
+チェーンソー, チェーンソー
+アイアンダック速射砲(準備), MO23_高速準備 Weapon\EFFECT_MulchThrowingSword01.bmp 24 待機=1 Reload(5).wav
+アイアンダック速射砲(攻撃), MO23_バックジャンプ 正 速 高
+アイアンダック速射砲(命中), 肩乗り 1;透明化 対象ユニットＩＤ 反映;打撃 Rifle.wav;打撃 Rifle.wav;打撃 Rifle.wav;_
+	打撃 Rifle.wav;打撃 Rifle.wav;打撃 Rifle.wav;打撃 Rifle.wav;打撃 Rifle.wav
+アイアンダック速射砲(命中)(対男性), 肩乗り 1;透明化 対象ユニットＩＤ 反映;_
+	連続描画 Hit\EFFECT_StrikeHit(Red)[01-04].bmp 40 2 8 上辺 Glass.wav
+
+# MO23_高速準備、MO23_バックジャンプ
+
+
+ダック＝ダニエル
+クチバシ(攻撃), 連突
+クチバシ(命中), 連打
+鈍器, 殴打武器 DGoods\EFFECT_MetalButt01.bmp 32
+チェーンソー, チェーンソー
+スクリュードライバー(準備),	MO23_高速準備 Weapon\EFFECT_Drill01.bmp 32 待機=1 Reload(5).wav
+スクリュードライバー(攻撃), ドリル突撃;透明化 対象ユニットＩＤ 反映;旋風
+スクリュードライバー(命中), ドリル
+スクリュードライバー(解説), $(ユニット)はアイアンダニエルスクリュードライバーで攻撃をかけた。
+
+# MO23_高速準備
+
+
+早見姿郎
+マジックハンド(攻撃), 発射連続描画 Beam\EFFECT_2Beam(White)[04-05].bmp 60 2 1 前面 Jump.wav
+マジックハンド(命中), 打撃 BreakOff.wav
+格闘, 格闘
+ロケットパンチ, ロケットパンチ Hand\EFFECT_Punch(White)04.bmp 32
+ロケットパンチ(命中), 強打
+メガトンパンチ(準備), MO23_高速準備 Hand\EFFECT_Punch(White)03.bmp 32 待機=2 Reload(5).wav;_
+	MO23_高速準備 Hand\EFFECT_Punch(Black)03.bmp 48 待機=2 Transform.wav
+メガトンパンチ(攻撃), 振り上げ大斬撃 Swing(3).wav
+メガトンパンチ(命中), 超打 Bazooka.wav
+スパットアタック(攻撃), Reload.wav;「こうなったらやむをえまい！！.この手はつかいたくなかったが！！」;_
+	Charge(long).wav;「変身ベルトスイッチオオン！！」;「へん～～っ　しんっ！！.ダーーーッ！！」;_
+	MO23_逆回転 高速 3;瞬間変形 MO23_HayamiShirou(S).bmp 反映;Sword.wav;_
+	会話 早見姿郎(スパット) くァいけェつぅー！！.スパーット！！ 固定;_
+	会話 早見姿郎(スパット) スパットアッターーック！！ 固定;_
+	Storm.wav;MO23_逆回転 高速 正 2 -.wav;MO23_スーパーキック改
+スパットアタック(命中), MO23_踏みつけ Explode(Nuclear).wav
+ジャンプ(ロケット噴射), Jet.wav
+
+# MO23_高速準備、MO23_逆回転、MO23_スーパーキック改、MO23_踏みつけ
+
+
+再改造版早見
+メガトンパンチ(攻撃), 振り上げ大斬撃 Swing(3).wav
+メガトンパンチ(命中), 超打 Bazooka.wav
+メガトンラッシュ(攻撃),	打突 Swing(3).wav;打突 Swing(3).wav;サマーソルト
+メガトンラッシュ(命中),	強打 Bazooka.wav;強打 Bazooka.wav;超打 Crash.wav
+成層圏落とし(攻撃), スーパーパンチ
+成層圏落とし(命中), スーパーパンチ BreakOff.wav;透明化 相手ユニットＩＤ 反映;_
+	@戦闘アニメ_突く武器急降下攻撃 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) _
+	AntiShipMissile.wav;FlyBy.wav;透明化 対象ユニットＩＤ 反映;_
+	連続描画 Back\EFFECT_Space[01-01].bmp 580 5 1 保持;_
+	「よーっしゃーっ！！.こっからおっことせばいくらおまえでも.まいるだろう！！」;_
+	Swing(3).wav;「まいったしろーっ！！」;_
+	@戦闘アニメ_打ち下ろし攻撃 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) Storm.wav;_
+	透明化 相手ユニットＩＤ 解除 反映;超爆発
+
+
+オセロ兄弟
+オセロ攻撃(攻撃), 実弾発射 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) Whiz.wav
+オセロ攻撃(命中), 投げ飛ばし
+
+
+ロボット歩兵タイプビアだる試作第７号
+竹やり,	突く武器 Beam\EFFECT_MBeamHit(Green)03.bmp
+竹やり(攻撃), 刺突
+竹やり(命中), 刺突
+ミニロボットくん救助隊(攻撃), ベアリング Ambulance.wav
+ミニロボットくん救助隊(命中), 連打 BreakOff.wav;炎
+ロケット噴射(攻撃), 地面衝撃 赤 FlameThrower.wav 対象ユニットＩＤ;地面衝撃 赤 -.wav 対象ユニットＩＤ;_
+	急降下 AntiShipMissile.wav
+ロケット噴射(命中), 急降下;透明化 対象ユニットＩＤ 反映;大爆発;超爆発
+
+
+戦士スティング
+格闘, キック
+剣, 剣
+踏み込み(攻撃), MO23_バックジャンプ 正 速 AntiAirMissile.wav;透明化 対象ユニットＩＤ 反映
+踏み込み(命中), スーパーダイブ 黒 Sword.wav;透明化 対象ユニットＩＤ 解除 反映
+剣技(攻撃), スーパータックル 黒 Swing.wav
+剣技(命中), なぎ払い Slash(3).wav;@戦闘アニメ_キック攻撃 Swing(3).wav;強打 FightHit(1).wav;_
+	@戦闘アニメ_振り下ろし攻撃;唐竹割り Slash.wav
+
+
+管中杯
+杭打ち(攻撃), 斬撃
+杭打ち(命中), 唐竹割り Shock(Low).wav オレンジ;@戦闘アニメ_唐竹割り攻撃;唐竹割り Shock(Low).wav オレンジ
+ワシ爪拳(攻撃), 斬撃
+ワシ爪拳(命中), 爪撃
+ワシ爪拳(命中), 大刺突
+酔拳(攻撃),	格闘 -.wav;突く武器突撃 -.bmp -.wav
+酔拳(命中),	分身斬撃
+連続攻撃(攻撃),	刺突
+連続攻撃(命中),	刺突;2;立ち固め 1 速;@戦闘アニメ_キック攻撃;大刺突 Explode(Small).wav;爪撃 二刀流;_
+	@戦闘アニメ_ヘッドバット攻撃;強打 Shock(Low).wav;強打 Shock(Low).wav
+朧華衆指殺(攻撃), MO23_バックジャンプ 速 小移動 Cannon.wav;MO23_バックジャンプ 速 上下反転 Cannon.wav;_
+	スピンジャンプアタック オレンジ
+朧華衆指殺(命中), 透明化 対象ユニットＩＤ 反映;回転斬撃 Slash.wav;透明化 対象ユニットＩＤ 解除 反映
+円環朧華衆指殺(攻撃), MO23_バックジャンプ 速 小移動 Cannon.wav;MO23_バックジャンプ 速 上下反転 Cannon.wav;_
+	スピンジャンプアタック 赤 MultipleRocketLauncher(Light).wav
+円環朧華衆指殺(命中), 透明化 対象ユニットＩＤ 反映;回転斬撃 Slash.wav;回転斬撃 Slash.wav;透明化 対象ユニットＩＤ 解除 反映
+
+# MO23_バックジャンプ
+
+
+雪合戦おじさん
+スコップ, 振る武器 DGoods\EFFECT_Shovel01.bmp
+スコップ(攻撃), 刺突
+スコップ(命中), 刺突
+人間ピッチングマシーン(攻撃),	投擲武器 Bullet\EFFECT_ShotGunBullet03.bmp 48 速;_
+	投擲武器 Bullet\EFFECT_ShotGunBullet03.bmp 48 速
+人間ピッチングマシーン(命中), ショットガン
+ペンギンの舞(攻撃), MO23_二重連続描画 Attack\EFFECT_Swing[01-05].bmp 40 _
+	Attack\EFFECT_Swing[01-05].bmp 40 1.5 5 前面 上下反転 上下反転２ Swing.wav 左右反転２;_
+	実弾発射 Bullet\EFFECT_ShotGunBullet03.bmp 48 速 -.wav
+ペンギンの舞(命中), MO23_アッパー連打
+スコップの舞(攻撃),	MO23_高速準備 DGoods\EFFECT_Shovel01.bmp 待機=0;_
+	MO23_二重連続描画 Attack\EFFECT_Swing[01-05].bmp 40 _
+	Attack\EFFECT_Swing[01-05].bmp 40 2 4 前面 上下反転 上下反転２ Stab.wav 左右反転２;_
+	実弾発射 Bullet\EFFECT_ShotGunBullet03.bmp 48 速 -.wav
+スコップの舞(命中), MO23_アッパー連打
+ダイナマイト回転キック(準備), -
+ダイナマイト回転キック(攻撃), MO23_バックジャンプ 速 正 小移動 Cannon.wav;_
+	MO23_バックジャンプ 速 上下反転 正 Cannon.wav;MO23_スーパーキック改
+ダイナマイト回転キック(命中), スーパーキック
+
+# MO23_二重連続描画、MO23_バックジャンプ、MO23_アッパー連打、MO23_高速準備、MO23_スーパーキック改
+
+
+ポキール星人
+ポキールパンダ(攻撃), 猿
+ポキールパンダ(命中), 周囲回転 Animal\EFFECT_Monky01.bmp 1
+ポキールパンダ(解説), ポキールパンダはゴロゴロした。
+ポキリアンデビル(攻撃), 虎
+ポキリアンデビル(命中), MO23_二重連続描画  Hit\EFFECT_Damage(Red)[01-05].bmp 48 Animal\EFFECT_Tiger[01-01].bmp 32 _
+	4 1 中間 上辺 前面 BreakOff.wav;5;FallDown.wav
+ポキールガン, ショックビームガン Weapon\EFFECT_SFGun01.bmp 32
+ポキールガン(攻撃), Button3.wav;ショックビームガン Weapon\EFFECT_SFGun01.bmp 32 Button3.wav;Button3.wav
+ポキールガン(命中), Button3.wav;ショックビームガン Weapon\EFFECT_SFGun01.bmp 32 Button3.wav;Button3.wav
+インモーキングシリーズ,	怪ロボット
+
+# MO23_二重連続描画
+
+
+ビデー大帝
+軟体格闘(攻撃), MO23_背向け 2;なぎ払い Swing(2).wav
+軟体格闘(命中), 打撃 Whip.wav
+格闘, 格闘
+マシンカノン, 内蔵ガトリング
+艦砲援護射撃, 衛星ビーム Bullet\EFFECT_STG_Bullet(Black)05.bmp
+艦砲援護射撃(解説), ビデー艦から超ウルトラマグナムカノン波動フェーザー砲が発射された。
+
+# MO23_背向け
+
+
+死神マック
+隕石(攻撃), 隕石;隕石
+隕石(命中), 隕石
+格闘, 強打
+破壊ビーム(攻撃), 小ビーム 黄
+破壊ビーム(攻撃), 拡散ビーム 黄
+破壊ビーム(命中), 小ビーム 黄
+攻撃無効化(分身身代わり), シールド防御 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) 32 別名=分裂
+破壊ビーム(三つ首)(攻撃), MO23_二重連続描画 ShockBeam\EFFECT_ShockBeam(Yellow)[01-08].bmp 64 _
+	ShockBeam\EFFECT_ShockBeam(Yellow)[01-08].bmp 64 3 2 前面 ランダム ランダム２ BeamCoat.wav;２連ショックビーム 黄
+破壊ビーム(三つ首)(命中), ２連ショックビーム 黄
+
+# MO23_二重連続描画
+
+
+インビジブルブルーブル
+格闘, Bearing.wav;水流 -.wav
+格闘(命中), 飛沫 水色 Splash.wav
+水操作(攻撃), @戦闘アニメ_火柱命中 水色 Thunder(2).wav
+水操作(命中), 飛沫 水色 Splash.wav
+窒息(攻撃), Bearing.wav;大水流 水色 -.wav
+窒息(命中), Splash.wav;大水流 水色 -.wav;_
+	決め画像 Common\EFFECT_BubbleSphere(LightBlue)01.bmp 相手ユニットＩＤ 前面 Heartbeat(2).wav;Heartbeat(2).wav
+伸びる体(攻撃), 小ビーム 黒 AntiAirMissile.wav チャージなし
+伸びる体(命中), 強打
+格闘(プロテクター), 格闘
+ハナミズ, 液体噴射 紫
+自動反撃(反動カウンター), @戦闘アニメ_超打命中
+
+
+破壊不可能の男ヒム
+格闘(攻撃), 格闘
+格闘(命中), 打撃 MetalDrum.wav
+
+
+メガロ大王
+チビメガロ(攻撃), 実弾発射 Animal\EFFECT_Rats01.bmp 遅 UnitOn.wav;実弾発射 Animal\EFFECT_Rats01.bmp 遅 UnitOn.wav
+チビメガロ(命中), 連続描画 Animal\EFFECT_Rats[01-01].bmp 40 4 1 上辺 相手ユニットＩＤ BreakOff.wav;_
+	MO23_二重連続描画 Animal\EFFECT_Rats[01-01].bmp 40 Animal\EFFECT_Rats[01-01].bmp 40 _
+	4 1 BreakOff.wav 上辺 下辺２ 左右反転２ 相手ユニットＩＤ
+火炎, 火炎放射
+尻尾(攻撃), なぎ払い
+尻尾(命中), 強打
+踏みつけ(攻撃), タックル Cannon(8Shot).wav
+踏みつけ(命中), 踏み潰し
+阻止(爆弾の気球), シールド防御 Shield\EFFECT_SmallShield01.bmp 48 別名=爆弾の気球
+
+# MO23_二重連続描画

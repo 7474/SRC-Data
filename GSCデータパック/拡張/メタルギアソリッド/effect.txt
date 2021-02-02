@@ -1,0 +1,53 @@
+##１２月２７日修正
+#１、ピースメーカーのエフェクト指定を修正。
+
+
+メタルギアソリッド
+ホーミングミサイル, 3;Missile.wav;3;Missile.wav;3;Missile.wav
+ホーミングミサイル(命中), 3;Explode.wav;3;Explode.wav;3;Explode.wav
+踏み潰し(命中), Shock(Low).wav
+COLT_S.A.A., Gun.wav
+分身(リーディング), Flair.wav
+GAU8_30mmガトリング砲, MachineGun.wav
+マーシャルアーツ(命中), 6;Punch(2).wav
+マーシャルアーツ(クリティカル), 2;Swing.wav;5;Punch.wav
+マーシャルアーツ(命中), 6;Punch(2).wav
+蛇手突き, 2;Swing.wav
+蛇手突き(命中), Stab.wav
+蛇手ミサイル, Missile.wav
+首絞め(命中), BreakOff.wav
+炎ダッシュ, Jet.wav
+炎ダッシュ(命中), Fire.wav
+サイコキネシス(命中), Punch.wav
+阻止(銃弾切り払い), Slash(3).wav
+
+汎用
+MP5_SD5, 1;Bow.wav;1;Bow.wav;1;Bow.wav
+M9麻酔銃, Bow.wav
+USP, Gun.wav
+AKS-74U, MachineGun.wav
+AN94, MachineGun.wav
+PSG1-T, Bow.wav
+SOCOM, Bow.wav
+FA-MAS, MachineGun.wav
+M4, MachineGun.wav
+PSG-1, Rifle.wav
+グレネード, 2;Type.wav;5;Swing.wav;5;Explode.wav
+グレネード(命中), -.wav
+RGB6, Cannon.wav
+RGB6(命中), Explode.wav
+チャフグレネード, 2;Type.wav;5;Swing.wav;5;Chaff.wav
+スタングレネード, 2;Type.wav;5;Swing.wav;5;Crash.wav
+チャフグレネード(命中), -.wav
+スタングレネード(命中), -.wav
+C4プラスチック爆弾, 2;Type.wav
+C4プラスチック爆弾(命中), Explode.wav
+M18クレイモア地雷, 2;Type.wav
+M18クレイモア地雷(命中), Explode.wav
+NIKITA, Missile.wav
+P90P.D.W., MachineGun.wav
+GLOCK18, MachineGun.wav
+マカロフ, MachineGun.wav
+M203, Bazooka.wav
+M203(命中), Explode.wav
+ガトリング機関砲, GunPod.wav

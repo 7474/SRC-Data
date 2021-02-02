@@ -1,0 +1,792 @@
+ハービーＧ
+シールド防御, ＳＦシールド１
+スイングアーム, 打突
+ハードナックル, 打突
+25mmバルカン, マシンガン
+35mmショットガン, ショットガン Weapon\EFFECT_ShotGun02.bmp 40
+レーザーガン, ビームライフル Weapon\EFFECT_SFLauncher01.bmp 40 水色
+ナパームガン, 竜弾銃 Weapon\EFFECT_Bazooka01.bmp 40
+アッパーバルカン(準備), ガトリング
+アッパーバルカン(攻撃), ガトリング FastGun.wav
+アッパーバルカン(命中), 連続爆発
+アッパーバルカン<接射>(攻撃), タックル
+アッパーバルカン<接射>(命中), @戦闘アニメ_ガトリング攻撃 FastGun.wav;連続爆発
+グレネードランチャー(準備), 射撃武器 Weapon\EFFECT_LaserGun01.bmp
+グレネードランチャー(攻撃), 手持ち発射 Weapon\EFFECT_LaserGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Grenade01.bmp 32 Bazooka.wav
+グレネードランチャー(命中), 大爆発
+ミサイルポッド(準備), ミサイルランチャー
+ミサイルポッド(攻撃), ミサイルランチャー
+ミサイルポッド(命中), 連続爆発;爆発
+ホーミングミサイル(準備), 射撃武器 Weapon\EFFECT_MissileLauncher01.bmp
+ホーミングミサイル(攻撃), 手持ち発射 Weapon\EFFECT_MissileLauncher01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Missile01.bmp 32 Missile.wav
+ホーミングミサイル(命中), 爆発
+バズーカ, バズーカ
+バウンスショット(準備), バズーカ
+バウンスショット(攻撃), 手持ち発射 Weapon\EFFECT_Bazooka01.bmp 40 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(White)01.bmp 8 Bazooka.wav
+バウンスショット(命中), 小ビーム 白 ランダム方向
+マインスプリンクラー(準備), -
+マインスプリンクラー(攻撃), 実弾発射 Light\EFFECT_LightScreen(White)01.bmp 8 Bazooka.wav;ＭＡＰ大爆発
+ワイアレスガンポッド(攻撃), ２ＷＡＹ射出
+ワイアレスガンポッド(命中), オールレンジ
+グラウンドシーカー(準備), ミサイルランチャー
+グラウンドシーカー(攻撃), 手持ち発射 Weapon\EFFECT_MissileLauncher01.bmp 32 対象ユニットＩＤ DGoods\EFFECT_Umbrella(White)01.bmp 24 Bazooka.wav
+グラウンドシーカー(命中), 爆発
+ファイアーバーナーガン, 火炎放射器 青 Weapon\EFFECT_FireLauncher01.bmp
+スパークショット(準備), 電撃ランチャー 40
+スパークショット(攻撃), ショックビームガン _GetWPBN(電撃ランチャー) 40 白
+スパークショット(命中), ショックビームガン 白;電撃ランチャー 白
+パラライザー(準備), 射撃武器 Weapon\EFFECT_RailGun01.bmp 32
+パラライザー(攻撃), 手持ち発射 Weapon\EFFECT_RailGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(White)01.bmp 8 BeamShot.wav
+リペアフィールド(使用), 光球集中 白
+
+スティンガー(ガンハザード)
+シールド防御, ＳＦシールド３
+スイングアーム, 打突
+ハードナックル(準備), -
+ハードナックル(攻撃), エナジーカッター突撃 黄
+ハードナックル(命中), 強打
+25mmバルカン, マシンガン
+35mmショットガン, ショットガン Weapon\EFFECT_ShotGun02.bmp 40
+レーザーガン, ビームライフル Weapon\EFFECT_SFLauncher01.bmp 40 水色
+ナパームガン, 竜弾銃 Weapon\EFFECT_Bazooka01.bmp 40
+アッパーバルカン(準備), ガトリング
+アッパーバルカン(攻撃), ガトリング FastGun.wav
+アッパーバルカン(命中), 連続爆発
+アッパーバルカン<接射>(攻撃), タックル
+アッパーバルカン<接射>(命中), @戦闘アニメ_ガトリング攻撃 FastGun.wav;連続爆発
+グレネードランチャー(準備), 射撃武器 Weapon\EFFECT_LaserGun01.bmp
+グレネードランチャー(攻撃), 手持ち発射 Weapon\EFFECT_LaserGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Grenade01.bmp 32 Bazooka.wav
+グレネードランチャー(命中), 大爆発
+ミサイルポッド(準備), ミサイルランチャー
+ミサイルポッド(攻撃), ミサイルランチャー
+ミサイルポッド(命中), 連続爆発;爆発
+ホーミングミサイル(準備), 射撃武器 Weapon\EFFECT_MissileLauncher01.bmp
+ホーミングミサイル(攻撃), 手持ち発射 Weapon\EFFECT_MissileLauncher01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Missile01.bmp 32 Missile.wav
+ホーミングミサイル(命中), 爆発
+バズーカ, バズーカ
+バウンスショット(準備), バズーカ
+バウンスショット(攻撃), 手持ち発射 Weapon\EFFECT_Bazooka01.bmp 40 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(Yellow)01.bmp 8 Bazooka.wav
+バウンスショット(命中), 小ビーム 黄 ランダム方向
+マインスプリンクラー(準備), -
+マインスプリンクラー(攻撃), 実弾発射 Light\EFFECT_LightScreen(Yellow)01.bmp 12 Bazooka.wav;ＭＡＰ大爆発
+デコイ(使用), @戦闘アニメ_１ＷＡＹ射出攻撃
+ワイアレスガンポッド(攻撃), ２ＷＡＹ射出
+ワイアレスガンポッド(命中), オールレンジ
+グラウンドシーカー(準備), ミサイルランチャー
+グラウンドシーカー(攻撃), 手持ち発射 Weapon\EFFECT_MissileLauncher01.bmp 32 対象ユニットＩＤ DGoods\EFFECT_Umbrella(Yellow)01.bmp 24 Bazooka.wav
+グラウンドシーカー(命中), 爆発
+スパークショット(準備), 電撃ランチャー 40
+スパークショット(攻撃), ショックビームガン _GetWPBN(電撃ランチャー) 40 黄
+スパークショット(命中), ショックビームガン 黄;電撃ランチャー 黄
+パラライザー(準備), 射撃武器 Weapon\EFFECT_RailGun01.bmp 32
+パラライザー(攻撃), 手持ち発射 Weapon\EFFECT_RailGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(Yellow)01.bmp 8 BeamShot.wav
+リペアフィールド(使用), 光球集中 黄
+
+シルヴァファング
+シールド防御, ＳＦシールド３
+スイングアーム, 打突
+ハードナックル(準備), -
+ハードナックル(攻撃), エナジーカッター突撃 黄
+ハードナックル(命中), 強打
+25mmバルカン, マシンガン
+35mmショットガン, ショットガン Weapon\EFFECT_ShotGun02.bmp 40
+レーザーガン, ビームライフル Weapon\EFFECT_SFLauncher01.bmp 40 水色
+ナパームガン, 竜弾銃 Weapon\EFFECT_Bazooka01.bmp 40
+アッパーバルカン(準備), ガトリング
+アッパーバルカン(攻撃), ガトリング FastGun.wav
+アッパーバルカン(命中), 連続爆発
+アッパーバルカン<接射>(攻撃), タックル
+アッパーバルカン<接射>(命中), @戦闘アニメ_ガトリング攻撃 FastGun.wav;連続爆発
+グレネードランチャー(準備), 射撃武器 Weapon\EFFECT_LaserGun01.bmp
+グレネードランチャー(攻撃), 手持ち発射 Weapon\EFFECT_LaserGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Grenade01.bmp 32 Bazooka.wav
+グレネードランチャー(命中), 大爆発
+ミサイルポッド(準備), ミサイルランチャー
+ミサイルポッド(攻撃), ミサイルランチャー
+ミサイルポッド(命中), 連続爆発;爆発
+ホーミングミサイル(準備), 射撃武器 Weapon\EFFECT_MissileLauncher01.bmp
+ホーミングミサイル(攻撃), 手持ち発射 Weapon\EFFECT_MissileLauncher01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Missile01.bmp 32 Missile.wav
+ホーミングミサイル(命中), 爆発
+バズーカ, バズーカ
+バウンスショット(準備), バズーカ
+バウンスショット(攻撃), 手持ち発射 Weapon\EFFECT_Bazooka01.bmp 40 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(Green)01.bmp 10 Bazooka.wav
+バウンスショット(命中), 小ビーム 緑 ランダム方向
+マインスプリンクラー(準備), -
+マインスプリンクラー(攻撃), 実弾発射 Light\EFFECT_LightScreen(Green)01.bmp 12 Bazooka.wav;ＭＡＰ大爆発
+デコイ(使用), @戦闘アニメ_１ＷＡＹ射出攻撃
+ワイアレスガンポッド(攻撃), ３ＷＡＹ射出
+ワイアレスガンポッド(命中), オールレンジ
+グラウンドシーカー(準備), ミサイルランチャー
+グラウンドシーカー(攻撃), 手持ち発射 Weapon\EFFECT_MissileLauncher01.bmp 32 対象ユニットＩＤ DGoods\EFFECT_Umbrella(Green)01.bmp 24 Bazooka.wav
+グラウンドシーカー(命中), 爆発
+スパークショット(準備), 電撃ランチャー 40
+スパークショット(攻撃), ショックビームガン _GetWPBN(電撃ランチャー) 40 緑
+スパークショット(命中), ショックビームガン 緑;電撃ランチャー 緑
+パラライザー(準備), 射撃武器 Weapon\EFFECT_RailGun01.bmp 32
+パラライザー(攻撃), 手持ち発射 Weapon\EFFECT_RailGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(Green)01.bmp 8 BeamShot.wav
+リペアフィールド(使用), 光球集中 緑
+
+ナイトマスター
+シールド防御, ＳＦシールド３
+スイングアーム, 打突
+ハードナックル(準備), -
+ハードナックル(攻撃), エナジーブレード突撃 黄
+ハードナックル(命中), 強打
+25mmバルカン, マシンガン
+35mmショットガン, ショットガン Weapon\EFFECT_ShotGun02.bmp 40
+レーザーガン, ビームランチャー Weapon\EFFECT_SFLauncher01.bmp 40 水色
+ナパームガン, 竜弾銃 Weapon\EFFECT_Bazooka01.bmp 40
+アッパーバルカン(準備), ガトリング
+アッパーバルカン(攻撃), ガトリング FastGun.wav
+アッパーバルカン(命中), 連続爆発
+アッパーバルカン<接射>(攻撃), タックル
+アッパーバルカン<接射>(命中), @戦闘アニメ_ガトリング攻撃 FastGun.wav;連続爆発
+グレネードランチャー(準備), 射撃武器 Weapon\EFFECT_LaserGun01.bmp
+グレネードランチャー(攻撃), 手持ち発射 Weapon\EFFECT_LaserGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Grenade01.bmp 32 Bazooka.wav
+グレネードランチャー(命中), 大爆発
+ミサイルポッド(準備), ミサイルランチャー
+ミサイルポッド(攻撃), ミサイルランチャー
+ミサイルポッド(命中), 連続爆発;爆発
+ホーミングミサイル(準備), 射撃武器 Weapon\EFFECT_MissileLauncher01.bmp
+ホーミングミサイル(攻撃), 手持ち発射 Weapon\EFFECT_MissileLauncher01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Missile01.bmp 32 Missile.wav
+ホーミングミサイル(命中), 爆発
+バズーカ, バズーカ
+バウンスショット(準備), バズーカ
+バウンスショット(攻撃), 手持ち発射 Weapon\EFFECT_Bazooka01.bmp 40 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(Blue)01.bmp 10 Bazooka.wav
+バウンスショット(命中), 小ビーム 青 ランダム方向
+マインスプリンクラー(準備), -
+マインスプリンクラー(攻撃), 実弾発射 Light\EFFECT_LightScreen(Blue)01.bmp 16 Bazooka.wav;ＭＡＰ大爆発
+デコイ(使用), @戦闘アニメ_１ＷＡＹ射出攻撃
+ワイアレスガンポッド(攻撃), ４ＷＡＹ射出
+ワイアレスガンポッド(命中), オールレンジ
+グラウンドシーカー(準備), ミサイルランチャー
+グラウンドシーカー(攻撃), 手持ち発射 Weapon\EFFECT_MissileLauncher01.bmp 32 対象ユニットＩＤ DGoods\EFFECT_Umbrella(Blue)01.bmp 24 Bazooka.wav
+グラウンドシーカー(命中), 爆発
+スパークショット(準備), 電撃ランチャー 40
+スパークショット(攻撃), ショックビームガン _GetWPBN(電撃ランチャー) 40 青
+スパークショット(命中), ショックビームガン 青;電撃ランチャー 青
+パラライザー(準備), 射撃武器 Weapon\EFFECT_RailGun01.bmp 32
+パラライザー(攻撃), 手持ち発射 Weapon\EFFECT_RailGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(LightBlue)01.bmp 8 BeamShot.wav
+リペアフィールド(使用), 光球集中 青
+
+ドラグーン(ガンハザード)
+スイングアーム, 打突
+ハードナックル(準備), -
+ハードナックル(攻撃), エナジーブレード突撃 青
+ハードナックル(命中), 強打
+25mmバルカン, マシンガン
+35mmショットガン, ショットガン Weapon\EFFECT_ShotGun02.bmp 40
+レーザーガン, ビームランチャー Weapon\EFFECT_SFLauncher01.bmp 40 水色
+ナパームガン, 竜弾銃 Weapon\EFFECT_Bazooka01.bmp 40
+アッパーバルカン(準備), ガトリング
+アッパーバルカン(攻撃), ガトリング FastGun.wav
+アッパーバルカン(命中), 連続爆発
+アッパーバルカン<接射>(攻撃), タックル
+アッパーバルカン<接射>(命中), @戦闘アニメ_ガトリング攻撃 FastGun.wav;連続爆発
+グレネードランチャー(準備), 射撃武器 Weapon\EFFECT_LaserGun01.bmp
+グレネードランチャー(攻撃), 手持ち発射 Weapon\EFFECT_LaserGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Grenade01.bmp 32 Bazooka.wav
+グレネードランチャー(命中), 大爆発
+ミサイルポッド(準備), ミサイルランチャー
+ミサイルポッド(攻撃), ミサイルランチャー
+ミサイルポッド(命中), 連続爆発;爆発
+ホーミングミサイル(準備), 射撃武器 Weapon\EFFECT_MissileLauncher01.bmp
+ホーミングミサイル(攻撃), 手持ち発射 Weapon\EFFECT_MissileLauncher01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Missile01.bmp 32 Missile.wav
+ホーミングミサイル(命中), 爆発
+バズーカ, バズーカ
+バウンスショット(準備), バズーカ
+バウンスショット(攻撃), 手持ち発射 Weapon\EFFECT_Bazooka01.bmp 40 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(Red)01.bmp 12 Bazooka.wav
+バウンスショット(命中), 小ビーム 赤 ランダム方向
+マインスプリンクラー(準備), -
+マインスプリンクラー(攻撃), 実弾発射 Light\EFFECT_LightScreen(Red)01.bmp 16 Bazooka.wav;ＭＡＰ大爆発
+デコイ(使用), @戦闘アニメ_１ＷＡＹ射出攻撃
+ワイアレスガンポッド(攻撃), ４ＷＡＹ射出
+ワイアレスガンポッド(命中), オールレンジ
+グラウンドシーカー(準備), ミサイルランチャー
+グラウンドシーカー(攻撃), 手持ち発射 Weapon\EFFECT_MissileLauncher01.bmp 32 対象ユニットＩＤ DGoods\EFFECT_Umbrella(Red)01.bmp 24 Bazooka.wav
+グラウンドシーカー(命中), 爆発
+スパークショット(準備), 電撃ランチャー 40
+スパークショット(攻撃), ショックビームガン _GetWPBN(電撃ランチャー) 40 ピンク
+スパークショット(命中), ショックビームガン ピンク;電撃ランチャー ピンク
+パラライザー(準備), 射撃武器 Weapon\EFFECT_RailGun01.bmp 32
+パラライザー(攻撃), 手持ち発射 Weapon\EFFECT_RailGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(Purple)01.bmp 8 BeamShot.wav
+リペアフィールド, 光球集中 赤
+
+アルベルト＝グレイブナー(パイロットスーツ)
+ジャンプ(ジェットパック), 音再生 AntiShipMissile.wav
+ハンドガン, ピストル
+ハンドグレネード(準備), 白燐手榴弾
+ハンドグレネード(攻撃), 白燐手榴弾
+ハンドグレネード(命中), 小爆発
+
+ハービーＧ・Ｌ
+シールド防御, ＳＦシールド１
+スイングアーム, 打突
+20mmバルカン, サブマシンガン
+バウンスショット(準備), バズーカ
+バウンスショット(攻撃), 手持ち発射 Weapon\EFFECT_Bazooka01.bmp 40 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(White)01.bmp 8 Bazooka.wav
+バウンスショット(命中), 小ビーム 白 ランダム方向
+
+スティンガー・Ｌ
+シールド防御, ＳＦシールド１
+スイングアーム, 打突
+20mmバルカン, マシンガン
+ホーミングミサイル(準備), 射撃武器 Weapon\EFFECT_MissileLauncher01.bmp
+ホーミングミサイル(攻撃), 手持ち発射 Weapon\EFFECT_MissileLauncher01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Missile01.bmp 32 Missile.wav
+ホーミングミサイル(命中), 爆発
+バウンスショット(準備), バズーカ
+バウンスショット(攻撃), 手持ち発射 Weapon\EFFECT_Bazooka01.bmp 40 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(Yellow)01.bmp 8 Bazooka.wav
+バウンスショット(命中), 小ビーム 黄 ランダム方向
+
+シルヴァファング・Ｌ
+シールド防御, ＳＦシールド１
+スイングアーム, 打突
+20mmバルカン, マシンガン Weapon\EFFECT_BullpupRifle02.bmp
+グレネードランチャー(準備), 射撃武器 Weapon\EFFECT_LaserGun01.bmp
+グレネードランチャー(攻撃), 手持ち発射 Weapon\EFFECT_LaserGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Grenade01.bmp 32 Bazooka.wav
+グレネードランチャー(命中), 大爆発
+ホーミングミサイル(準備), 射撃武器 Weapon\EFFECT_MissileLauncher01.bmp
+ホーミングミサイル(攻撃), 手持ち発射 Weapon\EFFECT_MissileLauncher01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Missile01.bmp 32 Missile.wav
+ホーミングミサイル(命中), 爆発
+バウンスショット(準備), バズーカ
+バウンスショット(攻撃), 手持ち発射 Weapon\EFFECT_Bazooka01.bmp 40 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(Green)01.bmp 10 Bazooka.wav
+バウンスショット(命中), 小ビーム 緑 ランダム方向
+
+ナイトマスター・Ｌ
+シールド防御, ＳＦシールド１
+スイングアーム, 打突
+20mmバルカン, マシンガン Weapon\EFFECT_BullpupRifle01.bmp
+グレネードランチャー(準備), 射撃武器 Weapon\EFFECT_LaserGun01.bmp
+グレネードランチャー(攻撃), 手持ち発射 Weapon\EFFECT_LaserGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Grenade01.bmp 32 Bazooka.wav
+グレネードランチャー(命中), 大爆発
+ホーミングミサイル(準備), 射撃武器 Weapon\EFFECT_MissileLauncher01.bmp
+ホーミングミサイル(攻撃), 手持ち発射 Weapon\EFFECT_MissileLauncher01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Missile01.bmp 32 Missile.wav
+ホーミングミサイル(命中), 爆発
+バウンスショット(準備), バズーカ
+バウンスショット(攻撃), 手持ち発射 Weapon\EFFECT_Bazooka01.bmp 40 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(Blue)01.bmp 10 Bazooka.wav
+バウンスショット(命中), 小ビーム 青 ランダム方向
+デコイ, @戦闘アニメ_１ＷＡＹ射出攻撃
+
+ドラグーン・Ｌ
+シールド防御, ＳＦシールド１
+スイングアーム, 打突
+30mmバルカン, マシンガン Weapon\EFFECT_NewAssaultRifle02.bmp
+ナパームガン, 竜弾銃 Weapon\EFFECT_Bazooka01.bmp 40
+グレネードランチャー(準備), 射撃武器 Weapon\EFFECT_LaserGun01.bmp
+グレネードランチャー(攻撃), 手持ち発射 Weapon\EFFECT_LaserGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Grenade01.bmp 32 Bazooka.wav
+グレネードランチャー(命中), 大爆発
+ホーミングミサイル(準備), 射撃武器 Weapon\EFFECT_MissileLauncher01.bmp
+ホーミングミサイル(攻撃), 手持ち発射 Weapon\EFFECT_MissileLauncher01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Missile01.bmp 32 Missile.wav
+ホーミングミサイル(命中), 爆発
+バウンスショット(準備), バズーカ
+バウンスショット(攻撃), 手持ち発射 Weapon\EFFECT_Bazooka01.bmp 40 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(Red)01.bmp 12 Bazooka.wav
+バウンスショット(命中), 小ビーム 赤 ランダム方向
+デコイ, @戦闘アニメ_１ＷＡＹ射出攻撃
+
+ハービーＧⅡ
+シールド防御, ＳＦシールド１
+スイングアーム, 打突
+25mmバルカン, マシンガン
+ミサイルポッド(準備), ミサイルランチャー
+ミサイルポッド(攻撃), ミサイルランチャー
+ミサイルポッド(命中), 連続爆発;爆発
+
+ルィビンスク
+小砲座(準備), 音再生 Type(Digital).wav
+小砲座(攻撃), 音再生 MachineGun.wav
+小砲座(命中), マシンガン
+機動音感応型AT-A地雷(準備), 音再生 Type(Digital).wav
+機動音感応型AT-A地雷(攻撃), ＭＡＰ爆発
+小型砲台放出地雷(準備), 音再生 Type(Digital).wav
+小型砲台放出地雷(攻撃), 音再生 Bazooka.wav
+小型砲台放出地雷(命中), オールレンジ
+総合補給, 修理装置
+
+ジェスター(ガンハザード)
+スイングアーム, 打突
+10ポンドTNT爆薬(準備), 投擲武器 _GetWPBN(閃光手榴弾) 32
+10ポンドTNT爆薬(攻撃), 投擲武器 _GetWPBN(閃光手榴弾) 32 Whiz.wav
+10ポンドTNT爆薬(命中), 大爆発
+10ポンドTNT爆薬<MAP>(準備), 音再生 Type(Digital).wav
+10ポンドTNT爆薬<MAP>(攻撃), ＭＡＰ爆発;ＭＡＰ大爆発
+
+ジェスター(ガンハザード・後期)
+スイングアーム, 打突
+10ポンドTNT爆薬(準備), 投擲武器 _GetWPBN(閃光手榴弾) 32
+10ポンドTNT爆薬(攻撃), 投擲武器 _GetWPBN(閃光手榴弾) 32 Whiz.wav
+10ポンドTNT爆薬(命中), 大爆発
+10ポンドTNT爆薬<MAP>(準備), 音再生 Type(Digital).wav
+10ポンドTNT爆薬<MAP>(攻撃), ＭＡＰ爆発;ＭＡＰ大爆発
+
+スクワラル
+シールド防御, スモールシールド
+25mmバルカン(準備), 銃撃武器 Weapon\EFFECT_SubMachineGun01.bmp 二丁拳銃
+25mmバルカン(攻撃), 銃撃武器連射 Weapon\EFFECT_SubMachineGun01.bmp Fire\EFFECT_MuzzleFlash01.bmp 二丁拳銃 MachineGun.wav
+25mmバルカン(命中), ガトリング
+
+水月
+シールド展開, 音再生 Charge.wav
+攻撃無効化(斥力シールド波), バリア 黄 別名=斥力シールド波
+体当たり(準備), 変形 FMG_Suiigetsu(S).bmp Charge.wav
+体当たり(攻撃), スーパータックル 黄
+体当たり(命中), スーパータックル 黄 Crash.wav
+
+水月(シールド)
+体当たり(準備), -
+体当たり(攻撃), スーパータックル 黄
+体当たり(命中), スーパータックル 黄 Crash.wav
+
+エスパーダ
+爆雷, 投下爆弾
+追尾式ランチャー, ミサイル
+追尾式ランチャー(命中), 小爆発
+
+タッドポール型ベースキャリアー
+爆雷(準備), -
+爆雷(攻撃), 実弾投下 Bullet\EFFECT_Grenade01.bmp 32 Bomb.wav
+爆雷(命中), 大爆発
+
+バララット級ベースキャリアー
+爆雷(準備), -
+爆雷(攻撃), 実弾投下 Bullet\EFFECT_Grenade01.bmp 32 Bomb.wav
+爆雷(命中), 大爆発
+
+フェイドロス級ベースキャリアー
+爆雷(準備), -
+爆雷(攻撃), 実弾投下 Bullet\EFFECT_Grenade01.bmp 32 Bomb.wav
+爆雷(命中), 大爆発
+
+カプリコーン級ベースキャリアー
+爆雷(準備), -
+爆雷(攻撃), 実弾投下 Bullet\EFFECT_Grenade01.bmp 32 Bomb.wav
+爆雷(命中), 大爆発
+
+ルースター
+燃料ガス爆弾(攻撃), グレネード
+燃料ガス爆弾(命中), 炎の壁
+ミサイルポッド, 小型ミサイル 5;小型ミサイル 5
+ミサイルポッド(命中), 連続爆発
+
+スティンガー(ＡＲＳ軍仕様)
+シールド防御, ＳＦシールド１
+スイングアーム, 打突
+20mmバルカン, マシンガン
+
+シルヴァファング(ガーディアン仕様)
+シールド防御, ＳＦシールド１
+スイングアーム, 打突
+20mmバルカン, マシンガン
+
+ホイレンヴォルフ
+スイングアーム, 打突
+30mm速射砲, ヘビーマシンガン
+30mm速射砲<移動射撃>(準備), ヘビーマシンガン
+30mm速射砲<移動射撃>(攻撃), 射撃武器突撃 Weapon\EFFECT_HeavyMachineGun01.bmp 64;ヘビーマシンガン;_
+打ち下ろし手持ち連射 Weapon\EFFECT_HeavyMachineGun01.bmp 64 Bullet\EFFECT_STG_Bullet(Yellow)01.bmp 8 MachineGun.wav
+30mm速射砲<移動射撃>(命中), ガトリング
+外壁破壊爆弾(準備), 棘鉄球投擲
+外壁破壊爆弾(攻撃), 打突
+外壁破壊爆弾(命中), @戦闘アニメ_棘鉄球投擲準備 Type(Digital).wav 相手ユニットＩＤ;超爆発 
+
+フォイアツォーク
+スイングアーム, 打突
+50mm口径高粒子砲, 中ビーム 黄
+
+ブルートドゥフト
+シールド防御, ＳＦシールド３
+スイングアーム, 打突
+30mmショットガン, マシンガン Weapon\EFFECT_ShotGun02.bmp
+爆弾起爆(準備), 音再生 Type(Digital).wav
+爆弾起爆(攻撃), ＭＡＰ大爆発
+
+ウォームタン
+２連装機関砲, 重機関砲
+エネルギー弾, 実弾発射 Bullet\EFFECT_AuraBall(White)01.bmp BeamShot.wav
+エネルギー弾(命中), 爆発
+磁気フィールド, @戦闘アニメ_大電撃命中 水色 対象ユニットＩＤ
+
+ワグテイル
+スイングアーム, 打突
+30mm連装機関砲(準備), 銃撃武器 Weapon\EFFECT_SubMachineGun01.bmp 二丁拳銃
+30mm連装機関砲(攻撃), 銃撃武器連射 Weapon\EFFECT_SubMachineGun01.bmp Fire\EFFECT_MuzzleFlash01.bmp 二丁拳銃 MachineGun.wav
+30mm連装機関砲(命中), ガトリング
+
+ゼットタンク
+爆雷・マイン爆薬放出口(攻撃), 実弾発射 Weapon\EFFECT_IronBall01.bmp Bazooka.wav
+爆雷・マイン爆薬放出口(命中), 爆発
+120mm滑空砲, 大キャノン砲 2
+
+ヤクート政府軍新型ヘリ
+ゴールドバグ(準備), 銃撃武器 ("Unit\" & Info("ユニットデータ",ゴールドバグ(ガンハザード),"グラフィック")) 二丁拳銃 -.wav
+ゴールドバグ(攻撃), 銃撃武器連射 ("Unit\" & Info("ユニットデータ",ゴールドバグ(ガンハザード),"グラフィック")) Fire\EFFECT_MuzzleFlash01.bmp 二丁拳銃 MachineGun.wav
+ゴールドバグ(命中), ガトリング
+迫撃砲支援要請(攻撃), 発光 白 -.wav;キャノン砲長距離
+迫撃砲支援要請(命中), 爆発
+
+ツェルネンコ
+スイングアーム(攻撃), 打突
+スイングアーム(命中), 強打
+急降下キック, スーパーキック 黄
+
+ツェルネンコトップ
+スイングアーム, スーパーキック
+
+ツェルネンコボトム
+エネルギー砲(準備), -
+エネルギー砲(攻撃), 実弾発射 Bullet\EFFECT_STG_Bullet(Yellow)02.bmp 16 Cannon.wav
+エネルギー砲(命中), 爆発
+
+サンドラット(ガンハザード)
+攻撃無効化(プラズマフィールド), ビームシールド 白 - プラズマフィールド
+30mm６連装ガトリング砲, ガトリング
+プラズマフィールド(攻撃), スーパータックル 白
+プラズマフィールド(命中), スーパータックル 白 Crash.wav
+
+移動司令部ガレオン
+下部砲座, キャノン砲 2
+艦橋３連レーザー砲, ２連中ビーム 黄
+艦橋拡散粒子砲, 拡散ビーム 黄
+
+ヴァルチャー(ガンハザード)
+攻撃無効化(高周波防弾シールド), シールド防御 -.bmp BeamCoat.wav 別名=高周波防弾シールド
+20mm機関砲(準備), 銃撃武器 Weapon\EFFECT_SubMachineGun01.bmp 二丁拳銃
+20mm機関砲(攻撃), 銃撃武器連射 Weapon\EFFECT_SubMachineGun01.bmp Fire\EFFECT_MuzzleFlash01.bmp 二丁拳銃 MachineGun.wav
+20mm機関砲(命中), ガトリング
+グレネード弾連射ポッド, グレネード 4 Bazooka.wav;グレネード 3 Bazooka.wav
+
+ヴァルチャー(ガンハザード・飛行)
+攻撃無効化(高周波防弾シールド), シールド防御 -.bmp BeamCoat.wav 別名=高周波防弾シールド
+20mm機関砲(準備), 銃撃武器 Weapon\EFFECT_SubMachineGun01.bmp 二丁拳銃
+20mm機関砲(攻撃), 銃撃武器連射 Weapon\EFFECT_SubMachineGun01.bmp Fire\EFFECT_MuzzleFlash01.bmp 二丁拳銃 MachineGun.wav
+20mm機関砲(命中), ガトリング
+ローターブレード(準備),         -
+ローターブレード(攻撃),         連続描画 BeamWeapon\EFFECT_BeamRotor(White)[03-05].bmp 64 1 6 Swing.wav 方向判定
+ローターブレード(命中),         斬撃;斬撃;斬撃
+250kg空対地ロケット(準備), -
+250kg空対地ロケット(攻撃), スーパーミサイル 1
+250kg空対地ロケット(命中), 大爆発
+
+巨大荷電粒子砲(ガンハザード)
+巨大荷電粒子砲, 虹色超ビーム
+
+ヴァンダルチャリオット
+エネルギー弾, キャノン砲
+ロケット弾, ミサイル 3
+
+スレイプニル(ガンハザード)
+ホーミングミサイル, ミサイル 2 遅
+ナパーム弾(準備), -
+ナパーム弾(攻撃), 実弾発射 Fire\EFFECT_FlameThrowerHit(Red)07.bmp 32 Fire.wav
+ナパーム弾(命中), 大爆発
+
+サー・ガウェイン
+シールド防御, ＳＦシールド３
+ワイアレスビーム砲(攻撃), １ＷＡＹ射出
+ワイアレスビーム砲(命中), 小ビーム ランダム方向
+腕部ビームガン(準備), 射撃武器 Hand\EFFECT_RocketPunch(LightBlue)01.bmp 32 -.wav
+腕部ビームガン(攻撃), ビームランチャー Hand\EFFECT_RocketPunch(LightBlue)01.bmp 32
+腕部ビームガン(命中), ビームランチャー
+急降下キック, スーパーキック
+
+サー・ガウェイン(白)
+シールド防御, ＳＦシールド３
+ワイアレスビーム砲(攻撃), １ＷＡＹ射出
+ワイアレスビーム砲(命中), 小ビーム ランダム方向
+腕部ビームガン(準備), 射撃武器 Hand\EFFECT_RocketPunch(LightBlue)01.bmp 32 -.wav
+腕部ビームガン(攻撃), ビームランチャー Hand\EFFECT_RocketPunch(LightBlue)01.bmp 32
+腕部ビームガン(命中), ビームランチャー
+急降下キック, スーパーキック
+
+スキュラ(ガンハザード)
+エネルギー砲(準備), -
+エネルギー砲(攻撃), 実弾発射 Bullet\EFFECT_STG_Bullet(Yellow)02.bmp 16 Cannon.wav
+エネルギー砲(命中), 爆発
+機雷(準備), -
+機雷(攻撃), Type(Digital).wav;ＭＡＰ大爆発
+機雷(命中), ダメージ
+
+スキュラ(ガンハザード・青)
+エネルギー砲(準備), -
+エネルギー砲(攻撃), 実弾発射 Bullet\EFFECT_STG_Bullet(Yellow)02.bmp 16 Cannon.wav
+エネルギー砲(命中), 爆発
+ラバーダッキー(準備), しもべ Unit\FMG_RubberDucky.bmp 32
+ラバーダッキー(攻撃), 実弾発射 Unit\FMG_RubberDucky.bmp 32 -.wav
+ラバーダッキー(命中), 爆発
+
+ブロンテス(ガンハザード)
+腕部灼熱炎弾(準備), 射撃武器 Hand\EFFECT_RocketPunch(Blue)01.bmp 32 -.wav
+腕部灼熱炎弾(攻撃), 手持ち連射 Hand\EFFECT_RocketPunch(Blue)01.bmp 32 Bullet\EFFECT_STG_Bullet(Orange)04.bmp 16 Beam.wav
+腕部灼熱炎弾(命中), 連続爆発
+伸縮式スイングアーム(準備), -
+伸縮式スイングアーム(攻撃), 実弾発射 Hand\EFFECT_Punch(Blue)05.bmp 64 Swing.wav
+伸縮式スイングアーム(命中), 強打
+腹部拡散灼熱炎弾(準備), -
+腹部拡散灼熱炎弾(攻撃), 発射連続描画 Bullet\EFFECT_MachineCannon(orange)[01-06].bmp 192 2 3 前面 Beam(8Shot).wav 
+腹部拡散灼熱炎弾(命中), 連続爆発
+
+ミドガルズオルム(ガンハザード)
+マイクロウェーブ砲, 虹色巨大ビーム
+マイクロウェーブ砲<MAP>(準備), -
+マイクロウェーブ砲<MAP>(攻撃), 虹色巨大ビーム;ＭＡＰ爆発
+マイクロウェーブ砲<MAP>(命中), 連続大爆発
+
+ホセの輸送機
+中型砲塔, キャノン砲 3
+
+ナイトゴーント(ガンハザード)
+腕部プラズマビーム(準備), 球電
+腕部プラズマビーム(攻撃), 球電 BeamGun.wav
+腕部プラズマビーム(命中), 球電
+粒子砲, 中ビーム イエロー
+
+空中戦艦リオデサンボ
+中型砲塔, キャノン砲 3
+爆雷<MAP>, ＭＡＰグレネード
+爆雷(準備), -
+爆雷(攻撃), 実弾絨毯爆撃 Bullet\EFFECT_Grenade01.bmp 32 Bomb.wav
+爆雷(命中), 連続大爆発
+
+戦略爆撃機センチネル
+汎用攻撃システム, 大キャノン砲 4
+爆雷<MAP>, ＭＡＰグレネード
+爆雷(準備), -
+爆雷(攻撃), 実弾絨毯爆撃 Bullet\EFFECT_Grenade01.bmp 32 Bomb.wav
+爆雷(命中), 連続大爆発
+
+シェロブ(ガンハザード)
+マシンガン, 内蔵ガトリング
+ホーミングミサイル, ミサイル 4
+
+エーデルリッター(ガンハザード)
+シールド防御, ビームシールド 青
+モルゲンステルン(準備), 振る武器 Weapon\EFFECT_Maul01.bmp 48
+モルゲンステルン(攻撃), 白兵武器
+モルゲンステルン(命中), 強打
+モルゲンステルン<突撃>(準備), 中心回転武器 Weapon\EFFECT_Maul01.bmp 48
+モルゲンステルン<突撃>(攻撃), 振る武器突撃 Weapon\EFFECT_Maul01.bmp 48
+モルゲンステルン<突撃>(命中), @戦闘アニメ_中心回転武器攻撃 Weapon\EFFECT_Maul01.bmp 48 対象ユニットＩＤ;乱打;_
+@戦闘アニメ_トライデント急降下攻撃;トライデント急降下
+
+軌道エレベーターアトラス
+無人ヴァンツァー部隊(準備), 銃撃武器 ("Unit\" & Info("ユニットデータ",メタルジェイ,"グラフィック")) 二丁拳銃 -.wav
+無人ヴァンツァー部隊(攻撃), 銃撃武器連射 ("Unit\" & Info("ユニットデータ",メタルジェイ,"グラフィック")) Fire\EFFECT_MuzzleFlash01.bmp 二丁拳銃 MachineGun.wav;_
+実弾発射 ("Unit\" & Info("ユニットデータ",メタルジェイ,"グラフィック"));_
+実弾発射 ("Unit\" & Info("ユニットデータ",メタルジェイ,"グラフィック"))
+無人ヴァンツァー部隊(命中), オールレンジ
+対空砲, 全拡散ビーム 青
+マイクロウェーブ砲(準備), -
+マイクロウェーブ砲(攻撃), 虹色巨大ビーム;ＭＡＰフラッシュ 白 Explode(Nuclear).wav
+マイクロウェーブ砲(命中), 連続大爆発
+
+アトラスコア
+シールド防御, シールド防御 別名=防御パネル
+大型浮遊ビット(攻撃), ３ＷＡＹ射出
+大型浮遊ビット(命中), オールレンジ
+エネルギーアーム(準備), 伸縮武器振り下ろし SlideWeapon\EFFECT_SlideBeamSword(White)[01-03].bmp 32 BeamSaber.wav
+エネルギーアーム(攻撃), 多節武器連撃 SlideWeapon\EFFECT_SlideBeamSword(White)[01-03].bmp 32 BeamSaber.wav
+エネルギーアーム(命中), 強打
+電磁波(攻撃), 実弾発射 LightWeapon\EFFECT_LightAttack(White)01.bmp BeamGun.wav
+電磁波(命中), 電撃
+レーザー弾(準備), -
+レーザー弾(攻撃), 同時ホーミング弾 Bullet\EFFECT_STG_Bullet(Green)04.bmp 16 個数=4 Beam.wav;_
+同時ホーミング弾 Bullet\EFFECT_STG_Bullet(Green)04.bmp 16 個数=4 Beam.wav
+レーザー弾(命中), ビームショットキャノン 緑
+体当たり, スーパーダイブ
+
+ハービーＧ(敵仕様)
+シールド防御, ＳＦシールド１
+スイングアーム, 打突
+20mmバルカン, サブマシンガン
+
+ガンドッグ
+シールド防御, ＳＦシールド１
+スイングアーム, 打突
+20mm機関砲, マシンガン
+
+リトルジム
+12.7mmノーブル重機関銃(準備), サブマシンガン
+12.7mmノーブル重機関銃(攻撃), サブマシンガン MachineGun.wav
+12.7mmノーブル重機関銃(命中), サブマシンガン
+
+トクレセン
+205mmバウンス榴弾砲(攻撃), グレネード Bazooka.wav
+205mmバウンス榴弾砲(命中), 爆発
+
+スケアクロウ(ガンハザード)
+スイングアーム, 打突
+ショットガン, マシンガン Weapon\EFFECT_ShotGun02.bmp
+
+アラクニッド
+20ポンド迫撃爆雷(攻撃), グレネード Bazooka.wav
+20ポンド迫撃爆雷(命中), 小爆発
+
+グリーレ
+バルカン砲, 機関砲
+
+ファットバロン
+散弾レーザー(攻撃), 拡散弾幕 Bullet\EFFECT_STG_Bullet(Green)04.bmp 16 個数=3 回数=1 角度=45 角度範囲=15 Beam.wav
+散弾レーザー(命中), 小ビーム 緑
+
+ジークムント(ガンハザード)
+攻撃用レーザー発振機, 小ビーム 黄
+
+ハンティングハウンド
+12.7mmノーブル重機関銃(準備), 銃撃武器 Weapon\EFFECT_SubMachineGun01.bmp 二丁拳銃
+12.7mmノーブル重機関銃(攻撃), MachineGun.wav;銃撃武器連射 Weapon\EFFECT_SubMachineGun01.bmp Fire\EFFECT_MuzzleFlash01.bmp 二丁拳銃 MachineGun.wav
+12.7mmノーブル重機関銃(命中), ガトリング
+メテオストームアタック(準備), 同時射撃武器 画像ファイル=Weapon\EFFECT_SubMachineGun01.bmp=Weapon\EFFECT_SubMachineGun01.bmp=Weapon\EFFECT_SubMachineGun01.bmp
+メテオストームアタック(攻撃), 同時タックル Whiz.wav;マシンガン Weapon\EFFECT_SubMachineGun01.bmp partner(1);マシンガン Weapon\EFFECT_SubMachineGun01.bmp partner(2);マシンガン Weapon\EFFECT_SubMachineGun01.bmp
+メテオストームアタック(命中), マシンガン
+
+ニルプフェルト
+20ポンド迫撃爆雷(攻撃), グレネード Bazooka.wav
+20ポンド迫撃爆雷(命中), 小爆発
+機動音感応型AT-A地雷, Type(Digital).wav;ＭＡＰ爆発
+
+ゴールドバグ(ガンハザード)
+シールド防御, スモールシールド
+12.7mmノーブル重機関銃(準備), サブマシンガン
+12.7mmノーブル重機関銃(攻撃), サブマシンガン MachineGun.wav
+12.7mmノーブル重機関銃(命中), サブマシンガン
+スイングアーム, 打突
+50mm滑空ミサイル, ミサイル 1
+
+エイジス
+攻撃無効化(熱硬化性特殊樹脂盾), ＳＦシールド３ - 別名=熱硬化性特殊樹脂盾
+
+テムジン(ガンハザード)
+シールド防御, ＳＦシールド１
+スイングアーム, 打突
+バルカン砲, マシンガン
+
+ストームビーク
+12.7mmノーブル重機関銃(準備), サブマシンガン
+12.7mmノーブル重機関銃(攻撃), サブマシンガン MachineGun.wav
+12.7mmノーブル重機関銃(命中), サブマシンガン
+
+フーシェン
+赤外線ホーミングミサイル, ミサイル 1 遅
+
+ドゥードルバグ
+20ポンドグレネード砲(攻撃), グレネード Bazooka.wav
+20ポンドグレネード砲(命中), 小爆発
+
+スティンガー(敵仕様)
+スイングアーム, 打突
+20mmバルカン, マシンガン
+
+シュタールファウスト
+高速スイングアーム, 打突
+急降下キック, スーパーキック
+アースウインドアタック, 同時スーパータックル 赤
+アースウインドアタック, 同時スーパータックル 青
+
+ティフォン
+バルカン砲, 機関砲
+巨大砲, 大キャノン砲
+
+トリコガスター
+マシンガン, 機関砲
+グレネード発射台(攻撃), グレネード Bazooka.wav
+グレネード発射台(命中), 小爆発
+
+ナスカ(ガンハザード)
+グレネード砲(攻撃), グレネード Bazooka.wav
+グレネード砲(命中), 小爆発
+
+メタルジェイ
+バルカン砲, 機関砲
+
+メタルジェイ(巡航形態)
+バルカン砲, 機関砲
+
+トライデント(ガンハザード)
+ロケットランチャー(準備), -
+ロケットランチャー(攻撃), 実弾発射 Bullet\EFFECT_STG_Bullet(Yellow)02.bmp 16 Cannon.wav
+ロケットランチャー(命中), 爆発
+
+アルビオン(ガンハザード)
+ロケットランチャー(準備), -
+ロケットランチャー(攻撃), 実弾発射 Bullet\EFFECT_STG_Bullet(Yellow)02.bmp 16 Cannon.wav
+ロケットランチャー(命中), 爆発
+水中機雷, 音再生 Type(Digital).wav;ＭＡＰ爆発
+
+ＬＢ９０
+長距離ミサイル, ミサイル長距離
+
+ダンケルハイト
+固定式モーターガトリング, マシンガン
+大型無反動砲, キャノン砲
+
+エーデルシュペール
+シールド防御, ＳＦシールド２
+バルカン砲, マシンガン
+
+エグゼキューター
+シールド防御, ＳＦシールド３
+ランチャー(準備), -
+ランチャー(攻撃), 実弾発射 Bullet\EFFECT_STG_Bullet(Yellow)02.bmp 16 Cannon.wav
+ランチャー(命中), 爆発
+小型粒子砲, ビームライフル Weapon\EFFECT_SFLauncher01.bmp 40 水色
+
+兵士(ガンハザード)
+ハンドガン, ピストル
+
+バズーカ兵士(ガンハザード)
+対戦車ミサイル, ロケットランチャー
+
+工作兵士(ガンハザード)
+機動音感応型AT-A地雷, Type(Digital).wav;ＭＡＰ爆発
+
+ホバイク
+ハンドグレネード(準備), 白燐手榴弾
+ハンドグレネード(攻撃), 白燐手榴弾
+ハンドグレネード(命中), 小爆発
+
+重戦車ハンプ
+攻撃無効化(拡散型シールド), シールド防御 -.bmp BeamCoat.wav 別名=拡散型シールド
+素粒子ビーム放射砲, ２連小ビーム 黄
+
+自走砲Ｍ型
+50mmロケットランチャー(準備), -
+50mmロケットランチャー(攻撃), 実弾発射 Bullet\EFFECT_STG_Bullet(Yellow)02.bmp 16 Cannon.wav
+50mmロケットランチャー(命中), 爆発
+
+壁面砲Ｓ型
+50mmロケットランチャー(準備), -
+50mmロケットランチャー(攻撃), 実弾発射 Bullet\EFFECT_STG_Bullet(Yellow)02.bmp 16 Cannon.wav
+50mmロケットランチャー(命中), 爆発
+
+ロール(ガンハザード)
+迫撃砲支援要請(攻撃), ニードルレーザー 橙 -.wav
+迫撃砲支援要請(命中), Hittyuu.wav;連続描画 Action\EFFECT_Aiming[01-04].bmp 長方形サイズ=64=32 2 1 前面 保持 相手ユニットＩＤ;_
+@戦闘アニメ_キャノン砲長距離攻撃;爆発
+
+輸送ヘリ(ガンハザード・ザンボラ)
+ラバーダッキー(準備), しもべ Unit\FMG_RubberDucky.bmp 32
+ラバーダッキー(攻撃), 実弾発射 Unit\FMG_RubberDucky.bmp 32 -.wav
+ラバーダッキー(命中), 爆発
+
+キングフィッシャー
+バルカン砲, 機関砲
+
+マザーオーブ
+オーブ(準備), -
+オーブ(攻撃), ４ＷＡＹ射出
+オーブ(命中), 包囲ビーム 水色
+
+ハービーＴ寒冷地仕様
+シールド防御, ＳＦシールド１
+スイングアーム, 打突
+20mmバルカン, サブマシンガン
+
+暁(ガンハザード)
+攻撃無効化(斥力シールド波), バリア 黄 別名=斥力シールド波
+パラライザー(準備), 射撃武器 Weapon\EFFECT_RailGun01.bmp 32
+パラライザー(攻撃), 手持ち発射 Weapon\EFFECT_RailGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(Green)01.bmp 8 BeamShot.wav
+ミサイル, 小型ミサイル 4
+
+タッドポール型ベースキャリアー地上襲撃仕様
+対地ミサイルランチャー, 小型ミサイル, 4
+
+汎用
+阻止(デコイ), バリア 白 デコイ
+揚陸艇爆破, ＭＡＰ大爆発 Explode(Far).wav

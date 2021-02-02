@@ -1,0 +1,131 @@
+
+
+ＭＳ(ＳＥＥＤ)
+イーゲルシュテルン,		  バルカン 
+トーデスシュレッケン,	          バルカン
+ＣＩＷＳ,                         バルカン
+ピクウス,			  バルカン 
+アーマーシュナイダー,		  ナイフ
+フォールディングレイザー,         ナイフ
+ビームサーベル,			  ビームサーベル
+ヴァジュラ,                       ビームサーベル
+ビームライフル,                   ビームライフル 緑
+高ＥＮビームライフル,		  ビームライフル 緑
+スティレット(準備),               投剣
+スティレット(攻撃),               投剣
+スティレット(命中),               刺突;2;小爆発
+ビームカービン,		          ビームライフル 緑 Weapon\EFFECT_LaserGun01.bmp
+重斬刀,		                  ソード
+重突撃機銃,                       マシンガン Weapon\EFFECT_Rifle02.bmp
+キャニス,                         スーパーミサイル 2
+キャットゥス,                     バズーカ
+パルデュス,                       小型ミサイル 3
+機関砲ポッド,                     マシンガン
+量子コンピュータウィルス(攻撃),   放電
+量子コンピュータウィルス(命中),   放電
+分身(ミラージュコロイド),         緊急テレポート Charge(high).wav ミラージュコロイド
+分身(量子コンピュータウィルス),   緊急テレポート Charge(high).wav 量子コンピュータウィルス
+分身(量子コンピュータウィルス),   緊急テレポート Charge(high).wav 量子コンピュータウィルス
+デュートリオンビーム,             @戦闘アニメ_小ビーム攻撃 緑 相手ユニットＩＤ;3;粒子集中;3;@戦闘アニメ_補給装置発動
+
+
+#↓各種パック用アニメ
+ＭＳ(ＳＥＥＤ) 
+２連装リニアガン,                 ２連光弾 黄
+フラガラッハ３(準備),	          大斬撃武器 Weapon\EFFECT_GiantSword02.bmp 56 二刀流 黒
+フラガラッハ３(攻撃),	          大斬撃 黒;2;横大斬撃 黒
+フラガラッハ３(命中),	          大斬撃 ピンク;2;横大斬撃 ピンク
+対艦バルカン砲,                   内蔵ガトリング
+ガンランチャー,                   キャノン砲 2
+アグニ,				  バスタービームライフル 赤
+パンツァーアイゼン(準備),         ロケットパンチ Hand\EFFECT_Punch(Blue)10.bmp
+パンツァーアイゼン(攻撃),         ロケットパンチ Hand\EFFECT_Punch(Blue)10.bmp
+パンツァーアイゼン(命中),         ダメージ
+マイダスメッサー(準備),           回転投擲武器 Bullet\EFFECT_ShootingCutter(Pink)01.bmp
+マイダスメッサー(攻撃),           回転投擲武器 Bullet\EFFECT_ShootingCutter(Pink)01.bmp
+マイダスメッサー(命中),           回転斬撃
+シュベルトゲベール(準備),         大斬撃武器 Weapon\EFFECT_GiantSword02.bmp 56 青
+シュベルトゲベール(攻撃),         大斬撃武器 Weapon\EFFECT_GiantSword02.bmp 56 青
+シュベルトゲベール(命中),         大斬撃 ピンク
+ビーム砲(ケルベロス),             ２連小ビーム 緑
+ビームサーベル(ケルベロス)(準備), 連続描画 BeamWeapon\EFFECT_TwinBeamSaber(Pink)[00-02].bmp 112 5 1 前面 保持
+ビームサーベル(ケルベロス)(攻撃), 回転ビームサーベル
+ビームサーベル(ケルベロス)(命中), 回転ビームサーベル
+ビームファングシステム(ケルベロス)(攻撃), 噛み付き;2;噛み付き
+ビームファングシステム(ケルベロス)(命中), 噛み付き;2;噛み付き
+ビームファングシステム(ケルベロスバクゥ)(攻撃),     噛み付き;2;噛み付き;2;噛み付き
+ビームファングシステム(ケルベロスバクゥ)(命中),     噛み付き;2;噛み付き;2;噛み付き
+
+
+ストライクＥ
+アンカーランチャー,		  実弾発射 Bullet\EFFECT_Bullet(Black)01.bmp 12 有線
+ビームライフルショーティー(準備), 銃撃武器 Weapon\EFFECT_Pistol01.bmp 二丁拳銃
+ビームライフルショーティー(攻撃), 銃撃武器 Weapon\EFFECT_Pistol01.bmp Beam\EFFECT_Beam(Green)05.bmp 二丁拳銃 Beam.wav
+ビームライフルショーティー(命中), 小ビーム 緑;3;小ビーム 緑 
+
+
+ストライクノワール
+アンカーランチャー,		  実弾発射 Bullet\EFFECT_Bullet(Black)01.bmp 12 有線
+ビームライフルショーティー(準備), 銃撃武器 Weapon\EFFECT_Pistol01.bmp 二丁拳銃
+ビームライフルショーティー(攻撃), 銃撃武器 Weapon\EFFECT_Pistol01.bmp Beam\EFFECT_Beam(Green)05.bmp 二丁拳銃 Beam.wav
+ビームライフルショーティー(命中), 小ビーム 緑;3;小ビーム 緑 
+
+
+ブルデュエル
+スティレット(準備),               連投剣
+スティレット(攻撃),               連投剣
+スティレット(命中),               連突;2;小爆発
+リトラクタブルビームガン(準備),   銃撃武器 Weapon\EFFECT_Pistol01.bmp 二丁拳銃
+リトラクタブルビームガン(攻撃),   銃撃武器 Weapon\EFFECT_Pistol01.bmp Beam\EFFECT_Beam(Green)05.bmp 二丁拳銃 Beam.wav
+リトラクタブルビームガン(命中),   小ビーム 緑;3;小ビーム 緑 
+スコルピオン,                     レールガン 黄
+
+
+
+ヴェルデバスター
+ガンランチャー,                   光弾 黄
+高エネルギービーム砲,             小ビーム 緑
+６連装ミサイルポッド,	          小型ミサイル 6
+ビームライフル,                   ビームライフル 緑 Weapon\EFFECT_BusterRifle01.bmp
+ビームライフル連装モード,         ダブルビームランチャー 赤 Weapon\EFFECT_SFLauncher01.bmp 40
+
+
+１０５スローターダガー
+12.5mm対人機関砲,                 バルカン
+イーゲルシュテルンⅡ,	          バルカン
+ビームサーベル,	                  ビームサーベル 黄
+ビームライフル,                   ビームライフル 緑 Weapon\EFFECT_Rifle01.bmp     
+
+
+スターゲイザー
+ビームガン,                       ビームライフル 緑 Weapon\EFFECT_LaserGun01.bmp
+ヴォワチュールリュミエール(準備), BeamCoat.wav;連続描画 Barrier\EFFECT_BeamCoat(Green)[01-05].bmp 32 2 1 前面;連続描画 Barrier\EFFECT_BeamCoat(Green)[05-01].bmp 32 2 1 前面
+ヴォワチュールリュミエール(攻撃), 実弾発射 Bullet\EFFECT_BeamRingCutter(Green)01.bmp BeamCoat.wav;2;実弾発射 Bullet\EFFECT_BeamRingCutter(Green)01.bmp BeamCoat.wav
+ヴォワチュールリュミエール(命中), 回転ビームサーベル 緑
+オラージュ・ド・リューヌ(準備),   BeamCoat.wav;連続描画 Barrier\EFFECT_BeamCoat(Green)[01-05].bmp 32 2 1 前面;連続描画 Barrier\EFFECT_BeamCoat(Green)[05-01].bmp 32 2 1 前面
+オラージュ・ド・リューヌ(攻撃),   実弾発射 Wind\EFFECT_WindCutter(Green)01.bmp BeamCoat.wav
+オラージュ・ド・リューヌ(命中),   光なぎ払い 緑
+ボール・ド・リューヌ(準備),       BeamCoat.wav;連続描画 Barrier\EFFECT_BeamCoat(Green)[01-05].bmp 32 2 1 前面;連続描画 Barrier\EFFECT_BeamCoat(Green)[05-01].bmp 32 2 1 前面
+ボール・ド・リューヌ(攻撃),       スーパータックル 緑
+ボール・ド・リューヌ(命中),       光斬撃乱舞 緑
+フラッシュマイン(準備),           投擲武器 Common\EFFECT_LightningBall03.bmp 32 発光
+フラッシュマイン(攻撃),           投擲武器 Common\EFFECT_LightningBall03.bmp 32 発光;5;ＭＡＰフラッシュ
+ハイパーモード,                   BeamCoat.wav;連続描画 Barrier\EFFECT_BeamCoat(Green)[01-05].bmp 32 2 1 前面;連続描画 Barrier\EFFECT_BeamCoat(Green)[05-01].bmp 32 2 1 前面;2;フラッシュ 
+シールド防御,                     ビームシールド 青
+
+
+シビリアンアストレイＤＳＳＤカスタム
+レーザートーチ,           　　　　ビームサーベル
+ビームガン,                       ビームライフル 緑 Weapon\EFFECT_LaserGun01.bmp
+ 
+
+
+ジンタイプインサージェント
+重突撃機銃,                       マシンガン Weapon\EFFECT_Rifle02.bmp
+パルデュス,                       小型ミサイル 3
+キャットゥス,                     バズーカ
+
+
+
+バクゥハウンド
+ビームファングシステム,		          噛み付き

@@ -1,0 +1,200 @@
+#空白のヤツはいいものが思いつかないものです。
+
+火者
+無形の剣(命中), 2;Swing.wav;Slash.wav
+雷電(命中), 2;Swing.wav;Slash.wav
+ビッグジャイアント(命中), 2;Swing.wav;Slash.wav
+アルドベック(命中), 2;Swing.wav;Slash.wav
+ロングソード(命中), 2;Swing.wav;Slash.wav
+ヘビーソード(命中), 2;Swing.wav;1;Shock.wav;Slash.wav
+虎殺し(命中), 2;Swing.wav;Slash.wav
+ヤツカ(命中), 2;Swing.wav;Slash.wav
+オオハカリ(命中), 2;Swing.wav;Slash.wav
+アマテラス, FIre.wav
+アマテラス(命中), 2;Swing.wav;1;Shock.wav;Slash.wav
+飛燕(命中), 2;Swing.wav;Saber.wav
+シルフィード(命中), 2;Swing.wav;Saber.wav
+ボーモアー(命中), 2;Swing.wav;1;Saber.wav;Sword.wav
+ショートソード(命中), 2;Swing.wav;Saber.wav
+シャープソード(命中), 2;Swing.wav;Saber.wav
+薄氷(命中), 2;Swing.wav;1;Saber.wav;Sword.wav
+アメノムラクモ(命中), 2;Swing.wav;Saber.wav
+オロチカラサビ(命中), 2;Swing.wav;Saber.wav
+スサノオ, Storm.wav
+スサノオ(命中), 2;Swing.wav;1;Saber.wav;Sword.wav
+クナイ, Swing.wav
+クナイ(命中), Stab.wav
+時の剣(命中), 2;Swing.wav;Slash.wav
+ラフローグ, Thunder.wav
+ラフローグ(命中), Explode.wav
+コマンドナイフ(命中), 2;Swing.wav;Slash.wav
+スペツナズ, Swing.wav
+スペツナズ(命中), Stab.wav
+フォーディンソード, 1;Swing.wav;1;Swing.wav;Swing.wav
+フォーディンソード(命中), 2;Stab.wav;Slash.wav
+タケミカヅチ, Thunder.wav
+タケミカヅチ(命中), Explode.wav
+フツノミタマ, Thunder.wav
+フツノミタマ(命中), Explode.wav
+アメノオハバリ, MicroMissile.wav
+アメノオハバリ(命中), 1;Stab,wav;1;Stab,wav;1;Stab,wav;Stab,wav
+サイコブレード, BeamSaber.wav
+サイコブレード(命中), 2;Swing.wav;Slash.wav
+ダークブリング, Whiz.wav
+ダークブリング(命中), 1;Shock(low).wav;Slash.wav
+ブナハブーン, BeamSaber.wav
+ブナハブーン(命中), 2;Swing.wav;1;Saber.wav;Sword.wav
+シルバーダガー, BeamSaber.wav
+シルバーダガー(命中), 2;Swing.wav;Slash.wav
+シルバーソード, BeamSaber.wav
+シルバーソード(命中), 2;Swing.wav;Slash.wav
+エナジーエッジ, BeamSaber.wav
+エナジーエッジ(命中), 2;Swing.wav;1;Saber.wav;Sword.wav
+ツクヨミ, BeamSaber.wav
+ツクヨミ(命中), 2;Swing.wav;1;Saber.wav;Sword.wav
+オオマガツヒ, BeamSaber.wav
+オオマガツヒ(命中), 1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;inori.wav
+イザナミ, BeamSaber.wav
+イザナミ(命中), 6;Inori.wav;1;Black.bmp 480 480;1;Clear;Explode(Nuclear).wav
+追難, 1;Swing.wav;Swing.wav
+追難(命中), Slash.wav
+上弦, BeamSaber.wav
+上弦(命中), Slash.wav
+界離, 1;Swing.wav;Sword.wav
+界離(命中), Slash.wav
+月燐暁, Storm.wav
+月燐暁, Glass.wav
+下弦, Whiz.wav
+下弦(命中), Slash.wav
+月ノ輪, 1;Swing.wav;BeamSaber.wav
+月ノ輪, 1;Slash.wav;1;Slash.wav;1;Slash.wav
+草薙, 1;Black.bmp 480 480;inori.wav;Clear
+草薙(命中), 1;Shock(low).wav;Slash.wav
+静流, Sharara.wav
+漣, Sharara.wav
+眠りの翼, MultipleRocketLauncher(Light).wav
+眠りの翼(命中), BreakOff.wav
+眠りの翼(クリティカル), 2;BreakOff.wav;bubble.wav
+混乱の翼, MultipleRocketLauncher(Light).wav
+混乱の翼(命中), BreakOff.wav
+混乱の翼(クリティカル), 2;BreakOff.wav;PiyoPiyo.wav
+眠りの牙, AntiAirMissile.wav
+眠りの牙(命中), Stab.wav
+眠りの牙(クリティカル), 2;Stab.wav;bubble.wav
+混乱の牙, AntiAirMissile.wav
+混乱の牙(命中), Stab.wav
+混乱の牙(クリティカル), 2;Stab.wav;PiyoPiyo.wav
+蛇蛟・チロ, AntiAirMissile.wav
+蛇蛟・チロ(命中), Stab.wav
+蛇蛟・チロ(クリティカル), 2;Stab.wav;Fold.wav
+六翼の槍, 1;Shock(low).wav;AntiShipMissile.wav
+六翼の槍(命中), Stab.wav
+八翼の礫, MicroMissile.wav
+八翼の礫(命中), 1;BreakOff.wav;1;BreakOff.wav;BreakOff.wav
+二翼の弓, 1;Swing.wav;1;Swing.wav;Bow.wav
+二翼の弓(命中), 1;Stab.wav;stab.wav
+四翼の刃, 2;AntiAirMissile.wav;1;Sword.wav;Sword.wav
+四翼の刃(命中), 
+影の十翼, 8;Search.wav;1;Shock(Low).wav;Inori.wav
+光の十二翼, LaserGun.wav
+新開ロック(命中), BreakOff.wav
+新開カッター(命中), Shock(low).wav
+打撃技, Swing.wav
+打撃技(命中), Punch.wav
+打撃技(命中), Crash.wav
+サンダーファイヤー(命中), 16;Crash.wav;4;Swing.wav;Crash.wav
+新開ボトム(命中), 1;Shock(low).wav;Shock(low).wav
+ブレーンバスター(命中), 1;Shock(low).wav;Crash.wav
+新開スペシャル, 1;Shock(low).wav;Crash.wav
+デスバレーボム, 1;Shock(low).wav;Shock(low).wav
+地獄のこけら落とし, 6;Combo.wav;Crash.wav
+サン・テグジュペリ, Saber.wav
+サン・テグジュペリ(命中), 1;Slash.wav;Stab.wav
+レッド, BeamSaber.wav
+レッド(命中), 1;Slash.wav;Beam.wav
+ファントム, BeamSaber.wav
+ファントム(命中), 1;Slash.wav;Storm.wav
+シャインオン, BeamSaber.wav
+シャインオン(命中), 1;Slash.wav;Glass.wav
+リレイヤー, Saber.wav
+リレイヤー(命中), 1;Slash.wav;Stab.wav
+ナーサリークライム, Saber.wav
+ナーサリークライム(命中), 1;Shock(low).wav;Slash.wav
+ナーサリークライム(クリティカル), 1;Saber.wav;1;Saber.wav;1;Saber.wav;Shock(low).wav
+パルス, Whiz.wav
+パルス(命中), 2;Slash.wav;Glass.wav
+スラックアタック, Saber.wav
+スラックアタック(命中), 1;Saber.wav;2;Slash.wav;1;Saber,wav;2;Slash.wav;1;Saber.wav;2;Slash.wav;1;Saber,wav;Slash.wav
+真言美アーツ(命中), BreakOff.wav
+真言美アーツ(命中), Punch.wav
+真言美アーツ(命中), Punch(2).wav
+ファイアー, 6;Whiz.wav;Fire.wav
+フリーズ, 6;Whiz.wav;Glass.wav
+真言美ビーム, 6;Whiz.wav;Thunder.wav
+真言美スペシャル, 6;Whiz.wav;Thunder.wav
+マジックシュート, 6;Whiz.wav;Beam.wav
+ブリザード, 6;Whiz.wav;Storm.wav
+ナパーム, 6;Whiz.wav;1;Explode.wav;1;Explode.wav;1;Explode.wav;1;Explode.wav;Explode(Far).wav
+ドキドキレーザー, 6;Whiz.wav;1;Shock(low).wav;Thunder.wav
+マジカルボンバー, 6;Whiz.wav;LaserGun.wav
+カチカチキューブ, 6;Whiz.wav;Storm.wav
+カチカチキューブ(命中), Glass.wav
+インフェルノ, 6;Whiz.wav;AntiShipMissile.wav
+カラミティ(準備), Whiz.wav
+カラミティ, Explode(Nuclear).wav;1;White.bmp 480 480;Clear
+アイシクル, 6;Whiz.wav;inori.wav
+アイシクル(命中), 1;Glass.wav;1;Glass.wav;1;Glass.wav;Sword.wav
+ラブラブファイアー, 6;Whiz.wav;MultipleRocketLauncher.wav
+ビリビリサンダー, 6;Whiz.wav;Thunder.wav
+体術(命中), Punch.wav
+体術(命中), BreakOff.wav
+体術(命中), Crash.wav
+雷穿, Swing.wav
+雷穿(命中), Explode(Far).wav
+殺法・御剣, Swing.wav
+殺法・御剣(命中), 1;Stab.wav;Crash.wav
+空雷穿, Swing.wav
+空雷穿(命中), Explode(Far).wav
+雷穿・霞, Storm.wav
+雷穿・霞(命中), Glass.wav
+雷穿・違,
+雷穿・違(命中),
+雷穿・楔, 
+雷穿・楔(命中), 
+雷穿, Swing.wav
+雷穿(命中), Shock(low).wav
+殺法・終旋, 
+殺法・柳鳴陣, 
+殺法・牙扇陣, 
+火炎瓶, 5;Swing.wav;2;Glass.wav;Fire.wav
+スリングショット, 1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;Bow.wav
+特製爆竹, Swing.wav
+特製爆竹(命中), 
+電撃ロッド, Swing.wav
+電撃ロッド, 5;Thunder.wav;Whip.wav
+金属バット, Swing.wav
+金属バット(命中), Crash.wav
+
+光狩
+尾を振り回す, Swing.wav
+のしかかる, 1;Shock(low).wav;1;Shock(low).wav;1;Shock(low).wav;Shock(low).wav
+闇のタトゥー, BeamSaber.wav
+ギター掻き鳴らし, 1;BeamShot.wav;1;BeamCoat.wav;1;BeamShot.wav;1;BeamCoat.wav;1;BeamShot.wav;BeamCoat.wav
+破壊のリズム, 
+衝撃波, 
+クイックショット, Gun.wav
+バーストショット, MachineGun.wav
+跳弾, 1;Gun.wav;1;
+グレネード, 6;Bazooka;Explode(Far).wav
+白の刃,
+朱の刃,
+空間裂き, 
+暴風の翼, Storm.wav
+暴風の翼(命中), Slash.wav
+爪撃, Swing.wav
+爪撃(命中), Stab.wav
+凍える翼, Storm.wav
+凍える翼(命中), Slash.wav
+灼熱の翼, Storm.wav
+灼熱の翼(命中), Slash.wav
+力の解放, Inori.wav

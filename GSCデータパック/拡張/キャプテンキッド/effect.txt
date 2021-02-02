@@ -1,0 +1,54 @@
+
+海賊
+黒魔剣, 1;Swing.wav
+黒魔剣(命中), 1;Slash.wav
+黒い閃光, 2;Swing.wav;2;LaserGun.wav
+黒い閃光(命中), 5;Explode.wav
+黒い雷, 2;Swing.wav
+黒い雷(命中), 1;Slash.wav;8;Thunder.wav
+ブラックサンダー・ボルト, 15;Charge(long).wav;5;Swing.wav;8;Thunder.wav
+ブラックサンダー・ボルト(命中), 8;Explode(Nuclear).wav
+ハイパーモード(フランシス＝ドレイクＪｒ(発動)), 3;Thunder.wav
+黒魔剣復活, 5;Charge.wav
+ブーメラン剣, 5;Swing.wav
+ブーメラン剣(命中), 2;Slash.wav
+Ｗブーメラン, 2;Swing.wav;3;Swing.wav
+Ｗブーメラン(命中), 4;Slash.wav;2;Slash.wav
+ＷブーメランＸ攻撃, 2;Swing.wav;1;Swing.wav
+ＷブーメランＸ攻撃(命中), 1;Slash.wav;1;Slash.wav
+Ｗブーメラン・Ｊ・Ｓ, 2;Swing.wav;8;Swing.wav;Sword.wav
+Ｗブーメラン・Ｊ・Ｓ(命中), 1;Slash.wav;1;Slash.wav
+聖剣クルセイダーズ, 2;Saber.wav;1;Saber.wav
+聖剣クルセイダーズ(命中), 2;Slash.wav;2;Slash.wav
+血の十字架, 2;Saber.wav;1;Saber.wav
+血の十字架(命中), 2;Stab.wav;5;Slash.wav
+十字剣クルセイダーズ, 2;Saber.wav;1;Saber.wav
+十字剣クルセイダーズ(命中), 2;Slash.wav;5;Explode.wav
+催眠ガス弾, 3;Gun.wav
+催眠ガス弾(命中), 4;Fold.wav
+９粒散弾, 2;Gun.wav;2;Explode(Small).wav
+９粒散弾(命中), 1;Stab.wav;2;Stab.wav;1;Stab.wav;2;Stab.wav
+光竜剣, 2;Saber.wav
+光竜剣(命中), 1;Slash.wav
+ドラゴン・ライトニング, 3;Saber.wav;2;LaserGun.wav
+ドラゴン・ライトニング(命中), 5;Explode.wav
+黄金の牙, 3;Swing.wav
+黄金の牙(命中), 2;Slash.wav
+ゴールデン・タスク, 8;Charge.wav;3;Swing.wav
+ゴールデン・タスク(命中), 5;Explode.wav
+名剣ヴァルキリー, 3;Swing.wav
+名剣ヴァルキリー(命中), 2;Slash.wav
+雷神剣ヴァルキリー, 8;Charge.wav;2;Swing.wav
+雷神剣ヴァルキリー(命中), 8;Thunder.wav
+魔剣ルドラ, 3;Saber.wav
+魔剣ルドラ(命中), 2;Slash.wav
+カマイタチ, 2;Whiz.wav
+カマイタチ(命中), 2;Slash.wav
+アシュラの舞, 8;Shore.wav
+アシュラの舞(命中), 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav
+ルドラ・サイクロン, 15;Wind.wav
+ルドラ・サイクロン(命中), 8;Storm.wav;5;Explode.wav
+
+海賊船
+人魚砲, 15;Charge(long).wav;4;Beam.wav
+人魚砲(命中), 8;Explode(Nuclear).wav

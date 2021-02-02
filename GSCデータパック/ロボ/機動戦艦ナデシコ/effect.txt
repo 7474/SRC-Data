@@ -1,0 +1,32 @@
+
+ＩＦＳ
+ラピッドライフル, MachineGun.wav
+ワイヤードフィスト, 6;Reload.wav;Cannon.wav
+ワイヤードフィスト(命中), Shock(Low).wav
+ディストーションナックル(準備), Charge.wav
+ディストーションナックル, Swing.wav
+ディストーションナックル(命中), Shock(Low).wav
+火炎放射器, AntiShipMissile.wav
+火炎放射器(命中), Fire.wav
+リムーブドアーム, 6;Reload.wav;Swing.wav
+ミサイルポッド, 2;Missile.wav;2;Missile.wav;Missile.wav
+吸着地雷, Swing.wav
+吸着地雷(命中), 6;Reload.wav;Explode(Small).wav
+３連装ロケットランチャー,2;Bazooka.wav;2;Bazooka.wav;Bazooka.wav
+レールカノン,Beam.wav
+
+
+ＩＦＳ非対応
+ラピッドライフル, MachineGun.wav
+ディストーションナックル(準備), Charge.wav
+ディストーションナックル, Swing.wav
+ディストーションナックル(命中), Shock(Low).wav
+
+木連系機動兵器
+マルチＧブラストバスター(準備), Charge.wav
+
+
+
+機動戦艦
+相転移砲(準備), 12;Charge(Long).wav
+相転移砲, 1;BeamCoat.wav;Beam.wav

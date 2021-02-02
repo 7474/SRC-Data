@@ -1,0 +1,36 @@
+
+
+# 変身魔法ドルドルで敵を倒したときに相手にメッセージを喋らせないための処理です。
+
+戦闘アニメ_RSA_ドルドル処理:
+SetMessage 相手パイロット 破壊 "-"
+SetMessage 相手パイロット 脱出 "-"
+Return
+
+
+# 以下はレニフィルの合体技「増幅～」のアニメで味方から攻撃してもらうための処理です。
+
+戦闘アニメ_RSA_増幅フラム処理１:
+Set RSA_ターゲット保存 相手ユニットＩＤ
+SelectTarget 対象ユニットＩＤ
+Select 黒の森のシルカ
+Return
+
+戦闘アニメ_RSA_増幅フラム処理２:
+Select 相手ユニットＩＤ
+SelectTarget RSA_ターゲット保存
+UnSet RSA_ターゲット保存
+Return
+
+戦闘アニメ_RSA_増幅アム・ハ・ロワ処理１:
+Set RSA_ターゲット保存 相手ユニットＩＤ
+SelectTarget 対象ユニットＩＤ
+Select 西風の森のポーリン
+Return
+
+戦闘アニメ_RSA_増幅アム・ハ・ロワ処理２:
+Select 相手ユニットＩＤ
+SelectTarget RSA_ターゲット保存
+UnSet RSA_ターゲット保存
+Return
+

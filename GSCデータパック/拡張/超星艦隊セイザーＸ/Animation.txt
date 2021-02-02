@@ -1,0 +1,781 @@
+セイザーＸ
+格闘(攻撃), 打突
+格闘(攻撃), 格闘
+格闘(攻撃), 打撃突撃
+格闘(攻撃), キック
+格闘(攻撃), アッパー
+格闘(攻撃), 浴びせ蹴り
+格闘(命中), 打撃 BreakOff.wav
+格闘(命中), 打撃 Punch.wav
+格闘(命中), 打撃 FightHit(1).wav
+格闘(命中), 斬撃 FightHit(2).wav
+格闘(命中), 斬撃 Shock(Low).wav
+#　ライオ
+ライオブレイカー(準備), 振る武器変形 Fire\EFFECT_Fire(Red)03.bmp 32 Anime\EFFECT_SZX_LioBreaker.bmp 48 Fire.wav
+ライオブレイカー(準備), 振る武器転送 Anime\EFFECT_SZX_LioBreaker.bmp 48 Reload(4).wav
+ライオブレイカー(攻撃), 振る武器突撃 Anime\EFFECT_SZX_LioBreaker.bmp 48
+ライオブレイカー(命中), 振り下ろし
+ライオブレイカー(命中), なぎ払い
+ナックルヒート(準備), 炎 橙
+ナックルヒート(攻撃), スーパーパンチ 橙
+ナックルヒート(命中), 打撃 橙 Explode.wav
+ライオブレイカー二刀流(準備), 振る武器転送 Anime\EFFECT_SZX_LioBreaker.bmp 48 Reload(4).wav;_
+左右別武器 Anime\EFFECT_SZX_LioBreaker(3).bmp 48 - Anime\EFFECT_SZX_LioBreaker(2).bmp 32 - Reload.wav
+ライオブレイカー二刀流(攻撃), 斬撃 二刀流
+ライオブレイカー二刀流(命中), 連続なぎ払い
+ライオブレイカー二刀流(命中), 連斬撃
+スタッグサンダー(準備), 振る武器転送 Anime\EFFECT_SZX_LioBreaker.bmp 48 Reload(4).wav
+スタッグサンダー(攻撃), ショックビーム 青 Thunder.wav
+スタッグサンダー(命中), ショックビーム 青 ThunderBolt.wav
+ピジョンカッター(準備), 振る武器転送 Anime\EFFECT_SZX_LioBreaker.bmp 48 Reload(4).wav
+ピジョンカッター(攻撃), 実弾発射 Common\EFFECT_SonicBoom(Red)02.bmp 32 Storm.wav;実弾発射 Common\EFFECT_SonicBoom(Red)02.bmp 32 Storm.wav;_
+実弾発射 Common\EFFECT_SonicBoom(Red)02.bmp 32 Storm.wav
+ピジョンカッター(命中), 光なぎ払い 赤 Slash.wav 中;光振り下ろし 赤 Slash.wav 中;光斬撃 赤 Slash.wav 中
+ファイアクロス(攻撃), @戦闘アニメ_光噴出準備 オレンジ Bazooka.wav;フラッシュ オレンジ Breath.wav
+ファイアクロス(命中), 炎 オレンジ Explode.wav
+マグマスピアー(準備), 振る武器転送 Anime\EFFECT_SZX_LioBreaker.bmp 48 Reload(4).wav
+マグマスピアー(攻撃), 波動放射 青 Breath.wav
+マグマスピアー(命中), 中ビーム 青 Crash.wav
+ライオファイヤー(準備), 振る武器転送 Anime\EFFECT_SZX_LioBreaker.bmp 48 Reload(4).wav
+ライオファイヤー(攻撃), 波動放射 オレンジ Breath.wav
+ライオファイヤー(命中), 超爆発
+ダブル火炎攻撃(準備), 粒子集中 橙 対象ユニットＩＤ; 魔法集中 赤 Fire.wav partner(1)
+ダブル火炎攻撃(攻撃), 波動放射 オレンジ Breath.wav 対象ユニットＩＤ;波動放射 赤 Breath.wav partner(1)
+ダブル火炎攻撃(攻撃), 超爆発
+スワンフラップ(準備), 振る武器転送 Anime\EFFECT_SZX_LioBreaker.bmp 48 Reload(4).wav
+スワンフラップ(使用), -
+スワンフラップ(発動), @戦闘アニメ_翼準備 赤 二刀流 Whiz.wav;強風 Storm.wav
+超星神アタック(準備), 同時五芒星 白 中
+超星神アタック(攻撃), 同時魔法放射 白 大 Storm.wav;ＭＡＰブラックホール Explode(Nuclear).wav 白
+超星神アタック(命中), 飛沫 白;大爆発
+#　イーグル
+ジャンプ(ホエールリープ), @戦闘アニメ_スーパータックル攻撃 青 Storm.wav
+阻止(オックスシールド), 結界 赤 Block.wav オックスシールド
+スタッグミストラル(準備), 射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav
+スタッグミストラル(攻撃), ショックビーム 青 Hide.wav
+スタッグミストラル(命中), 放電 青 Noise.wav
+イーグルブラスター(準備), 竜巻 桃 Charge.wav;射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav
+イーグルブラスター(準備), 射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav
+イーグルブラスター, ライフル Anime\EFFECT_SZX_EgleBluster.bmp;ライフル Anime\EFFECT_SZX_EagleBluster.bmp;ライフル Anime\EFFECT_SZX_EagleBluster.bmp
+ナックルウインド(準備), 竜巻 赤
+ナックルウインド(攻撃), 振る武器突撃 Wing\EFFECT_BirdWing(Red)01.bmp
+ナックルウインド(命中), 打撃 赤 Shock(Low).wav
+ホエールリープ(キック)(準備), 射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav
+ホエールリープ(キック)(攻撃), スーパータックル 青 Storm.wav
+ホエールリープ(キック)(命中), スーパーキック FightHit(3).wav
+ウルフファイヤー(準備), 射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav
+ウルフファイヤー(攻撃), ビームランチャー 赤 Anime\EFFECT_SZX_EagleBluster.bmp Breath.wav
+ウルフファイヤー(命中), 中ビーム 赤 Fire.wav
+イーグルタイフーン(準備), 射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav
+イーグルタイフーン(攻撃), @戦闘アニメ_射撃武器変形準備 Anime\EFFECT_SZX_EagleBluster.bmp 32 Anime\EFFECT_SZX_EagleBluster(2).bmp 32 Reload.wav;@戦闘アニメ_翼準備 赤 二刀流 Whiz.wav;旋風 赤
+イーグルタイフーン(命中), 旋風 赤
+ヒーリングマンティス(準備), 射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav
+ヒーリングマンティス(使用), @戦闘アニメ_煙噴射攻撃 青 Sharara.wav
+ヒーリングマンティス(発動), 光噴出 青 Sharara.wav
+#　ビートル
+ジャンプ(ウルフダッシュ), @戦闘アニメ_スーパータックル攻撃 赤 Storm.wav
+阻止(スピアブロッカー), シールド防御 Common\EFFECT_SonicBoom(Blue)01.bmp 48 BeamCoat.wav 発光 スピアブロッカー
+ビートホーク(準備), 振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav
+ビートホーク(準備), 放電;振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav
+ビートホーク(攻撃), 振る武器突撃 Anime\EFFECT_SZX_BeetHawk.bmp
+ビートホーク(命中), 振り下ろし
+ビートホーク(命中), なぎ払い
+ホエールスコール(準備), 振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav
+ホエールスコール(攻撃), 波動放射 青 Storm.wav;ＭＡＰ津波
+ホエールスコール(命中), 津波
+スワントルネード(準備), 振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav
+スワントルネード(攻撃), 旋風 赤
+スワントルネード(命中), 旋風 赤
+ビートスラッシュ(準備), 振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav
+ビートスラッシュ(攻撃), @戦闘アニメ_振る武器変形準備 Anime\EFFECT_SZX_BeetHawk.bmp 32 Anime\EFFECT_SZX_BeetHawk(2).bmp 32 Reload.wav;波動放射 青 Thunder.wav
+ビートスラッシュ(命中), 超打 ThunderBolt.wav 
+#　シャーク
+阻止(ピジョンウォール), シールド防御 Common\EFFECT_SonicBoom(Red)01.bmp 48 BeamCoat.wav 発光 ピジョンウォール
+シャークバッシュ(準備), 粒子集中 青;振る武器転送 Anime\EFFECT_SZX_SharkBash.bmp 36 Splash.wav
+シャークバッシュ(準備), @戦闘アニメ_飛沫命中 青 Splash.wav 対象ユニットＩＤ;振る武器転送 Anime\EFFECT_SZX_SharkBash.bmp 36 -.wav
+シャークバッシュ(攻撃), 振る武器突撃 Anime\EFFECT_SZX_SharkBash.bmp 36
+シャークバッシュ(命中), 斬撃;なぎ払い
+シャークバッシュ(命中), なぎ払い;振り下ろし
+シャークバッシュ(命中), 連続なぎ払い
+ナックルスプラッシュ(準備), 粒子集中 青
+ナックルスプラッシュ(攻撃), スーパーパンチ 青 Swing.wav
+ナックルスプラッシュ(命中), 打撃 青 Splash.wav
+スワンブリザード(準備), 振る武器転送 Anime\EFFECT_SZX_SharkBash.bmp 36 Splash.wav
+スワンブリザード(攻撃), ショックビームガン Common\EFFECT_SonicBoom(Red)01.bmp 48 発光 白 Storm.wav
+スワンブリザード(命中), ショックビーム 白 Freeze.wav
+シャークラッシュ(準備), 振る武器転送 Anime\EFFECT_SZX_SharkBash.bmp Splash.wav
+シャークラッシュ(攻撃), 波動放射 青 Storm.wav
+シャークラッシュ(命中), 噛み付き Crash.wav;光噴出 青 Splash.wav
+スピアシェアー(準備), 振る武器転送 Anime\EFFECT_SZX_SharkBash.bmp 36 Splash.wav
+スピアシェアー(使用), @戦闘アニメ_波動放射攻撃 青 Storm.wav
+スピアシェアー(発動), 粒子集中 青 Sharara.wav
+#　ゴルド
+鉄球(準備), -
+鉄球, 格闘
+鉄球(命中), 強打 Crash.wav
+コンパスハリケーン(攻撃), スピンアタック 白
+コンパスハリケーン(命中), スピンアタック 白 Crash.wav
+#　アイン・ツバイン
+エクスガン(準備), 射撃武器 Weapon\EFFECT_LaserGun01.bmp
+エクスガン(攻撃), 光弾銃 黄 Weapon\EFFECT_LaserGun01.bmp Beam.wav
+エクスガン(命中), ダメージ 黄 Explode.wav
+エクスブレード, 白兵武器
+エクスブレード(命中), なぎ払い
+エクスブレード(命中), 振り下ろし
+
+ライオセイザー
+合体必殺技(準備), 振る武器転送 Anime\EFFECT_SZX_LioBreaker.bmp 48 Reload(4).wav 対象ユニットＩＤ;_
+射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav partner(1);_
+振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav partner(2)
+合体必殺技(攻撃), -
+合体必殺技(命中), 超爆発
+最終合体必殺技(準備), 振る武器転送 Anime\EFFECT_SZX_LioBreaker.bmp 48 Reload(4).wav 対象ユニットＩＤ;_
+射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav partner(1);_
+振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav partner(2);炎剣 partner(3)
+最終合体必殺技(攻撃), -
+最終合体必殺技(命中), 超爆発
+
+イーグルセイザー
+Ｘウェポン一斉射撃(準備), 射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav 対象ユニットＩＤ;_
+振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav partner(1);射撃武器 Weapon\EFFECT_LaserGun01.bmp partner(2) Reload.wav;_
+射撃武器 Weapon\EFFECT_LaserGun01.bmp partner(3) Reload.wav;射撃武器 Weapon\EFFECT_LaserGun01.bmp partner(4) Reload.wav
+Ｘウェポン一斉射撃(攻撃), 同時手持ち発射 Anime\EFFECT_SZX_EagleBluster.bmp=Anime\EFFECT_SZX_BeetHawk.bmp=Weapon\EFFECT_LaserGun01.bmp=Weapon\EFFECT_LaserGun01.bmp=Weapon\EFFECT_LaserGun01.bmp -.wav;_
+同時実弾発射 Bullet\EFFECT_LightBullet(Yellow)01.bmp 48 Beam.wav 発光 速
+Ｘウェポン一斉射撃(命中), 拡散ビーム 黄 LaserGun.wav;連続大爆発
+合体必殺技(準備), 振る武器転送 Anime\EFFECT_SZX_LioBreaker.bmp 48 Reload(4).wav partner(1);_
+射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav 対象ユニットＩＤ;_
+振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav partner(2)
+合体必殺技(攻撃), -
+合体必殺技(命中), 超爆発
+最終合体必殺技(準備), 振る武器転送 Anime\EFFECT_SZX_LioBreaker.bmp 48 Reload(4).wav partner(1);_
+射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav 対象ユニットＩＤ;_
+振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav partner(2);炎剣 partner(3)
+最終合体必殺技(攻撃), -
+最終合体必殺技(命中), 超爆発
+
+ビートルセイザー
+Ｘウェポン一斉射撃(準備), 射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav partner(1);_
+振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav 対象ユニットＩＤ;射撃武器 Weapon\EFFECT_LaserGun01.bmp partner(2) Reload.wav;_
+射撃武器 Weapon\EFFECT_LaserGun01.bmp partner(3) Reload.wav;射撃武器 Weapon\EFFECT_LaserGun01.bmp partner(4) Reload.wav
+Ｘウェポン一斉射撃(攻撃), 同時手持ち発射 Anime\EFFECT_SZX_BeetHawk.bmp=Anime\EFFECT_SZX_EagleBluster.bmp=Weapon\EFFECT_LaserGun01.bmp=Weapon\EFFECT_LaserGun01.bmp=Weapon\EFFECT_LaserGun01.bmp -.wav;_
+同時実弾発射 Bullet\EFFECT_LightBullet(Yellow)01.bmp 48 Beam.wav 発光 速
+Ｘウェポン一斉射撃(命中), 拡散ビーム 黄 LaserGun.wav;連続大爆発
+合体必殺技(準備), 振る武器転送 Anime\EFFECT_SZX_LioBreaker.bmp 48 Reload(4).wav partner(1);_
+射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav partner(2);_
+振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav 対象ユニットＩＤ
+合体必殺技(攻撃), -
+合体必殺技(命中), 超爆発
+最終合体必殺技(準備), 振る武器転送 Anime\EFFECT_SZX_LioBreaker.bmp 48 Reload(4).wav partner(1);_
+射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav partner(2);_
+振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav 対象ユニットＩＤ;炎剣 partner(3)
+最終合体必殺技(攻撃), -
+最終合体必殺技(命中), 超爆発
+
+セイザーゴルド
+Ｘウェポン一斉射撃(準備), 射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav partner(1);_
+振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav partner(2);射撃武器 Weapon\EFFECT_LaserGun01.bmp 対象ユニットＩＤ Reload.wav;_
+射撃武器 Weapon\EFFECT_LaserGun01.bmp partner(3) Reload.wav;射撃武器 Weapon\EFFECT_LaserGun01.bmp partner(4) Reload.wav
+Ｘウェポン一斉射撃(攻撃), 同時手持ち発射 Weapon\EFFECT_LaserGun01.bmp=Anime\EFFECT_SZX_EagleBluster.bmp=Anime\EFFECT_SZX_BeetHawk.bmp=Weapon\EFFECT_LaserGun01.bmp=Weapon\EFFECT_LaserGun01.bmp -.wav;_
+同時実弾発射 Bullet\EFFECT_LightBullet(Yellow)01.bmp 48 Beam.wav 発光 速
+Ｘウェポン一斉射撃(命中), 拡散ビーム 黄 LaserGun.wav;連続大爆発
+
+ツインセイザー・アイン
+テレポート(ガス化), 煙 赤 Chaff.wav
+ムーンサルトアタック, 同時スーパーダイブ 色=黒=白
+Ｘウェポン一斉射撃(準備), 射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav partner(1);_
+振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav partner(2);射撃武器 Weapon\EFFECT_LaserGun01.bmp partner(3) Reload.wav;_
+射撃武器 Weapon\EFFECT_LaserGun01.bmp 対象ユニットＩＤ Reload.wav;射撃武器 Weapon\EFFECT_LaserGun01.bmp partner(4) Reload.wav
+Ｘウェポン一斉射撃(攻撃), 同時手持ち発射 Weapon\EFFECT_LaserGun01.bmp=Anime\EFFECT_SZX_EagleBluster.bmp=Anime\EFFECT_SZX_BeetHawk.bmp=Weapon\EFFECT_LaserGun01.bmp=Weapon\EFFECT_LaserGun01.bmp -.wav;_
+同時実弾発射 Bullet\EFFECT_LightBullet(Yellow)01.bmp 48 Beam.wav 発光 速
+Ｘウェポン一斉射撃(命中), 拡散ビーム 黄 LaserGun.wav;連続大爆発
+
+ツインセイザー・ツバイン
+テレポート(ガス化), 煙 青 Chaff.wav
+ムーンサルトアタック, 同時スーパーダイブ 色=白=黒
+Ｘウェポン一斉射撃(準備), 射撃武器転送 Anime\EFFECT_SZX_EagleBluster.bmp Reload(4).wav partner(1);_
+振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav partner(2);射撃武器 Weapon\EFFECT_LaserGun01.bmp partner(3) Reload.wav;_
+射撃武器 Weapon\EFFECT_LaserGun01.bmp partner(4) Reload.wav;射撃武器 Weapon\EFFECT_LaserGun01.bmp 対象ユニットＩＤ Reload.wav
+Ｘウェポン一斉射撃(攻撃), 同時手持ち発射 Weapon\EFFECT_LaserGun01.bmp=Anime\EFFECT_SZX_EagleBluster.bmp=Anime\EFFECT_SZX_BeetHawk.bmp=Weapon\EFFECT_LaserGun01.bmp=Weapon\EFFECT_LaserGun01.bmp -.wav;_
+同時実弾発射 Bullet\EFFECT_LightBullet(Yellow)01.bmp 48 Beam.wav 発光 速
+Ｘウェポン一斉射撃(命中), 拡散ビーム 黄 LaserGun.wav;連続大爆発
+
+人間
+格闘(攻撃), 打突
+格闘(攻撃), 格闘
+格闘(攻撃), 打撃突撃
+格闘(攻撃), キック
+格闘(攻撃), アッパー
+格闘(攻撃), 浴びせ蹴り
+格闘(命中), 打撃 BreakOff.wav
+格闘(命中), 打撃 Punch.wav
+格闘(命中), 打撃 FightHit(1).wav
+格闘(命中), 斬撃 FightHit(2).wav
+格闘(命中), 斬撃 Shock(Low).wav
+エクスガン(準備), 射撃武器 Weapon\EFFECT_LaserGun01.bmp
+エクスガン(攻撃), 光弾銃 黄 Weapon\EFFECT_LaserGun01.bmp Beam.wav
+エクスガン(命中), ダメージ 黄 Explode.wav
+エクスブレード, 白兵武器
+エクスブレード(命中), なぎ払い
+エクスブレード(命中), 振り下ろし
+背負い投げ, 投げ飛ばし
+エクスガン精密射撃(準備), 射撃武器 Weapon\EFFECT_LaserGun01.bmp
+エクスガン精密射撃(攻撃), ロックオン;光弾銃 黄 Weapon\EFFECT_LaserGun01.bmp Beam.wav
+エクスガン精密射撃(命中), ダメージ 黄 Explode.wav
+
+安藤拓人
+Ｘ装着(発動), 発光 橙 Flair.wav
+
+アド(超星艦隊)
+Ｘ装着(発動), 発光 赤 Flair.wav
+
+ケイン＝ルカーノ
+Ｘ装着(発動), 発光 青 Flair.wav
+
+ガイ＝バスター
+Ｘ装着(発動), 発光 青 Flair.wav
+
+ゴルド(超星艦隊)
+装着(使用), Reload.wav
+
+流星神
+格闘(攻撃), 格闘
+格闘(命中), 強打 Bazooka.wav
+コアレーザー, ニードルレーザー連射 黄
+ブレイブショット, 小型ミサイル 6
+コアバスター, 特殊光線 橙
+ブレイバーキック, スーパーキック 赤
+変形(コアブレイバー), オーラ上昇 白 Transform.wav
+変形(コアキャリバー), 発光 白 Transform.wav
+#　ライオキャリアー＆グレートライオ
+攻撃無効化(ライオバリア), 結界 橙 BeamCoat.wav ライオバリア
+副砲ライオガン(準備), -
+副砲ライオガン(攻撃), ２連光弾 黄 Beam.wav;２連光弾 黄 Beam.wav
+副砲ライオガン(命中), ２連光弾 黄 Explode.wav
+ライオパルサー, ニードルレーザー連射 橙
+３連装主砲ライオキャノン(攻撃), ニードルレーザー連射 橙 MachineGun.wav; ニードルレーザー連射 橙 MachineGun.wav
+３連装主砲ライオキャノン(命中), ニードルレーザー連射 橙
+セイザー砲, 大ビーム 橙
+チャージ, 粒子集中 橙 Charge(Long).wav
+セイザー砲フルチャージ, 超ビーム 橙
+ライオガン(準備), -
+ライオガン(攻撃), ２連光弾 黄 Beam.wav;２連光弾 黄 Beam.wav
+ライオガン(命中), ２連光弾 黄 Explode.wav
+ライオカッター(準備), ソード 二刀流
+ライオカッター(攻撃), ソード突撃 二刀流
+ライオカッター(命中), 斬撃 二刀流 Crash.wav
+ライオカッター(命中), 連斬撃 Crash.wav
+ライオカッター(命中), 連続なぎ払い Crash.wav
+スクラッチ・タックル, スーパータックル 橙
+ライオジャベリン(準備), ソード 二刀流;ツインソード Transform.wav
+ライオジャベリン(攻撃), 振る武器突撃 Weapon\EFFECT_TwinSword01.bmp 64
+ライオジャベリン(命中), 大斬撃 Crash.wav
+ライオインパクト(攻撃), 気弾 橙
+ライオインパクト(命中), 大爆発
+ハウリングクラッシュ(準備), ツインソード Transform.wav;粒子集中 橙 Charge(2).wav
+ハウリングクラッシュ(攻撃), 波動放射 橙 Breath.wav;波動放射 橙 Breath.wav
+ハウリングクラッシュ(命中), 炎斬撃 橙 二刀流 Crash.wav;決め文字 Ｘ 橙 Explode(Nuclear).wav
+流星神合体必殺技(準備), -
+流星神合体必殺技(攻撃), -
+流星神合体必殺技(命中), 超爆発
+Ｈクラッシュギガマックス(準備), ツインソード Transform.wav
+Ｈクラッシュギガマックス(攻撃), 複数画像投下 Magic\EFFECT_MagicEmblem(Red)01.bmp=Magic\EFFECT_MagicEmblem(Pink)01.bmp=Magic\EFFECT_MagicEmblem(Yellow)01.bmp=Magic\EFFECT_MagicEmblem(Blue)01.bmp Charege(High).wav 発光;_
+複数画像投下 Magic\EFFECT_MagicEmblem(Red)01.bmp=Magic\EFFECT_MagicEmblem(Pink)01.bmp=Magic\EFFECT_MagicEmblem(Blue)01.bmp Charege(High).wav 発光;_
+円月殺法 白;波動放射 白 Breath.wav;波動放射 白 Breath.wav
+Ｈクラッシュギガマックス(命中), 炎斬撃 白 二刀流 Crash.wav;決め文字 Ｘ 白 Explode(Nuclear).wav
+変形(流星神グレートライオ), オーラ上昇 橙 Transform.wav
+変形(ライオキャリアー(コアキャリバー搭載)), 発光 橙 Transform.wav
+分離(ライオキャリアー(コアキャリバー搭載)), 煙 白 Jet.wav
+合体(流星神グレートライオ), オーラ上昇 橙 Transform.wav
+分離(流星神グレートライオ), 煙 白 Jet.wav
+#　アドルイーグル＆ウインドイーグル
+イーグルパルサー(攻撃), ニードルレーザー連射 赤
+主砲イーグルガン(命中), ニードルレーザー連射 赤
+イーグルミサイル, ミサイル 8
+主砲イーグルガン(攻撃), ニードルレーザー連射 赤 MachineGun.wav;ニードルレーザー連射 赤 MachineGun.wav
+主砲イーグルガン(命中), ニードルレーザー連射 赤;連続爆発
+スプリットキャノン, ２連小ビーム 赤;２連小ビーム 赤;２連小ビーム 赤
+スプリットキャノン【Ｃ】(攻撃), 光噴出 黄 Charge(2).wav 対象ユニットＩＤ;中ビーム 黄
+スプリットキャノン【Ｃ】(命中), 中ビーム 黄 Explode(2).wav
+タロンカッター(攻撃), 浴びせ蹴り
+タロンカッター(命中), 連打 白 Crash.wav
+ヘッドシューター, バルカン MachineGun.wav
+イーグルライフル(準備), -
+イーグルライフル(攻撃), ニードルレーザー連射 赤 MachineGun.wav;ニードルレーザー連射 赤 MachineGun.wav
+イーグルライフル(命中), ニードルレーザー連射 赤;連続爆発
+ツイスターシュート(攻撃), 旋風 白;ニードルレーザー連射 赤 MicroMissile.wav;ニードルレーザー連射 赤 MicroMissile.wav
+ツイスターシュート(命中), 旋風 白 EvilEye.wav;ニードルレーザー連射 赤 FastGun.wav;ニードルレーザー連射 赤 FastGun.wav;連続大爆発
+変形(流星神ウインドイーグル(後期)), オーラ上昇 赤 Transform.wav
+変形(アドルイーグル(後期)), 発光 赤 Transform.wav
+合体(流星神ウインドイーグル), オーラ上昇 赤 Transform.wav
+分離(流星神ウインドイーグル), 煙 白 Jet.wav
+#　ビートバイザー＆マグナビート
+ビートパルサー, ニードルレーザー連射 青
+５連装インパクトキャノン(攻撃), ニードルレーザー連射 青 MicroMissile.wav;ニードルレーザー連射 青 MicroMissile.wav
+５連装インパクトキャノン(命中), ニードルレーザー連射 青;連続爆発
+副砲ビートガン(攻撃), ２連光弾 青 Beam.wav;２連光弾 青 Beam.wav
+副砲ビートガン(命中), ２連光弾 青 Explode.wav
+６連ミサイルランチャー, 小型ミサイル 12
+ビートボム, 投下爆弾
+主砲ビートキャノン, ２連小ビーム 青;２連小ビーム 青
+メガロキャノン(攻撃), 気弾 速 Beam.wav
+メガロキャノン(命中), 爆発
+零距離メガロキャノン(攻撃), 格闘 Whiz.wav
+零距離メガロキャノン(命中), @戦闘アニメ_気弾攻撃 速 Beam.wav;大爆発
+格闘(マグナビート), スーパーパンチ 青 Swing.wav
+格闘(マグナビート)(命中), 打撃 青 Crash.wav
+ビートキャノン, ２連小ビーム 青;２連小ビーム 青
+ビートミサイル, グレネード 4
+一斉連射(攻撃), 拡散ビーム 青 MicroMissile.wav;小型ミサイル 12;拡散ビーム 青 Beam.wav
+一斉連射(命中), 拡散ビーム 青;拡散ビーム 青 LaserGun.wav;連続爆発
+ビートバスター(準備), 粒子集中 黄;放電 Noise.wav
+ビートバスター(攻撃), 中ビーム 青
+ビートバスター(命中), 中ビーム 青;大爆発
+消火弾(攻撃), 小型ミサイル 1
+消火弾(命中), 煙 白 Inori.wav
+変形(流星神マグナビート(後期)), オーラ上昇 青 Transform.wav
+変形(ビートバイザー(後期)), 発光 青 Transform.wav
+合体(流星神マグナビート), オーラ上昇 青 Transform.wav
+分離(流星神マグナビート), 煙 白 Jet.wav
+#　シャークベース＆シャークリーガー
+シャークパルサー, ニードルレーザー連射 青
+３連ミサイルランチャー, ミサイル 6
+主砲ベースキャノン, ２連小ビーム 青;２連小ビーム 青
+パルサーガン, ニードルレーザー連射 青
+カッターフィン(攻撃), タックル Jet.wav
+カッターフィン(命中), なぎ払い Crash.wav
+主砲シャークバスター, ２連小ビーム 青;２連小ビーム 青
+ソードプレッシャー(攻撃), タックル Jet.wav
+ソードプレッシャー(命中), 大刺突 Crash.wav
+スマッシュウェーブ(攻撃), スーパータックル 青 Jet.wav
+スマッシュウェーブ(命中), スーパータックル 青 Crash.wav
+カッターフィン(流星神)(攻撃), 格闘 Whiz.wav
+カッターフィン(流星神)(命中), 連斬撃 Crash.wav
+カッターフィン(流星神)(命中), 打突 Crash.wav;なぎ払い Crash.wav
+ユニッターショット(攻撃), 持続ビーム 橙
+ユニッターショット(命中), 爆発
+ソードプレッシャー(流星神)(準備), フランベルジュ
+ソードプレッシャー(流星神)(攻撃), フランベルジュ突撃
+ソードプレッシャー(流星神)(命中), 大斬撃 Crash.wav
+ソードプレッシャー(流星神)(命中), 唐竹割り Crash.wav
+クロスバスター(攻撃), 粒子集中 赤 対象ユニットＩＤ;文字ビーム Ｘ 赤 Beam.wav 3
+クロスバスター(命中), 大爆発
+ハイドロールスラッシュ(準備), フランベルジュ
+ハイドロールスラッシュ(攻撃), -
+ハイドロールスラッシュ(命中), 超斬撃 白 Crash.wav
+変形(シャークリーガー発進), 煙 白 Jet.wav
+変形(流星神シャークリーガー), オーラ上昇 青 Transform.wav
+変形(戦艦形態), 発光 青 Transform.wav
+ドッキング, 発光 青 Transform.wav
+#
+ビーム砲, ニードルレーザー連射 青
+#
+コアバスター(オレンジ), 特殊光線 赤
+変形(コアブレイバー(オレンジ)), オーラ上昇 橙 Transform.wav
+変形(コアキャリバー(オレンジ)), 発光 橙 Transform.wav
+コアバスター(レッド), 特殊光線 青
+変形(コアブレイバー(レッド)), オーラ上昇 赤 Transform.wav
+変形(コアキャリバー(レッド)), 発光 赤 Transform.wav
+コアバスター(ブルー), 特殊光線 橙
+変形(コアブレイバー(ブルー)), オーラ上昇 青 Transform.wav
+変形(コアキャリバー(ブルー)), 発光 青 Transform.wav
+
+コアブレイバー(オレンジ)
+合体コアバスター(準備), -
+合体コアバスター(攻撃), -
+合体コアバスター(命中), 同時必殺光線 赤=青=橙 小
+
+コアブレイバー(レッド)
+合体コアバスター(準備), -
+合体コアバスター(攻撃), -
+合体コアバスター(命中), 同時必殺光線 青=赤=橙 小
+
+コアブレイバー(ブルー)
+合体コアバスター(準備), -
+合体コアバスター(攻撃), -
+合体コアバスター(命中), 同時必殺光線 橙=赤=青 小
+
+デスカル
+シールド防御(ファンクリーダー), 鉄扇 Reload.wav
+シールド防御, ミドルシールド Reload.wav
+格闘(攻撃), 打突
+格闘(攻撃), 格闘
+格闘(攻撃), 打撃突撃
+格闘(攻撃), キック
+格闘(攻撃), アッパー
+格闘(攻撃), 浴びせ蹴り
+格闘(命中), 打撃 BreakOff.wav
+格闘(命中), 打撃 Punch.wav
+格闘(命中), 打撃 FightHit(1).wav
+格闘(命中), 斬撃 FightHit(2).wav
+格闘(命中), 斬撃 Shock(Low).wav
+火炎弾(準備), 魔法集中 赤 Fire.wav
+火炎弾(攻撃), 火炎弾 Breath.wav
+火炎弾(命中), 爆発
+ファイブレード, 炎剣突撃
+ファイブレード(命中), 光振り下ろし 赤 中
+ファイブレード(命中), 光なぎ払い 赤 中
+地走り火炎(準備), 炎剣
+地走り火炎(攻撃), ＭＡＰ地表衝撃波 赤 遅 残像 Fire.wav
+地走り火炎(命中), 炎
+ダブル火炎攻撃(準備), 粒子集中 橙 partner(1); 魔法集中 赤 Fire.wav 対象ユニットＩＤ
+ダブル火炎攻撃(攻撃), 波動放射 オレンジ Breath.wav partner(1);波動放射 赤 Breath.wav 対象ユニットＩＤ
+ダブル火炎攻撃(攻撃), 超爆発
+デスブレイバー(準備), 炎剣;魔法集中 赤 Fire.wav
+デスブレイバー(攻撃), 斬撃;波動放射 赤 Breath.wav
+デスブレイバー(命中), 大爆発
+最終合体必殺技(準備), 振る武器転送 Anime\EFFECT_SZX_LioBreaker.bmp 48 Reload(4).wav partner(1);_
+射撃武器転送 Anime\EFFECT_SZX_EgleBluster.bmp Reload(4).wav partner(2);_
+振る武器転送 Anime\EFFECT_SZX_BeetHawk.bmp Reload(4).wav partner(3);炎剣 対象ユニットＩＤ
+最終合体必殺技(攻撃), -
+最終合体必殺技(命中), 超爆発
+ファンクリーダー(準備), 振る武器 DGoods\EFFECT_IronFan01.bmp 32 Reload.wav
+ファンクリーダー(攻撃), 振る武器突撃 DGoods\EFFECT_IronFan01.bmp 32
+ファンクリーダー(命中), 打突 Sword.wav
+ファンクリーダー(クリティカル), 放電 Noise.wav
+高速攻撃(準備), 振る武器 DGoods\EFFECT_IronFan01.bmp 32 Reload.wav
+高速攻撃(攻撃), 振る武器突撃 DGoods\EFFECT_IronFan01.bmp 32 Storm.wav
+高速攻撃(命中), 打撃突撃
+突風(サイクリード)(準備), 振る武器 DGoods\EFFECT_IronFan01.bmp 32 Reload.wav
+突風(サイクリード)(攻撃), 斬撃;竜巻 桃
+突風(サイクリード)(命中), 竜巻 桃
+拡散水流(準備), 月牙
+拡散水流(攻撃), ＭＡＰ気斬 青 Beam.wav
+拡散水流(命中), 光なぎ払い 青 中 Explode.wav
+ラグバッシュ, 月牙突撃
+ラグバッシュ(命中), 光振り下ろし 黄 中
+ラグバッシュ(命中), 光なぎ払い 黄 中
+水流(準備), 月牙
+水流(攻撃), 気斬 青 Beam.wav
+水流(命中), 光なぎ払い 青 中 Explode.wav
+光線銃(準備), スーパーガン
+光線銃(攻撃), ビームライフル 赤 Weapon\EFFECT_SuperGun01.bmp Laser.wav
+光線銃(命中), ビームライフル 赤
+短剣, 鋼剣突撃
+地走り電撃(攻撃), ＭＡＰ地表衝撃波 青 遅 残像 Thunder.wav
+地走り電撃(命中), 放電 Noise.wav;飛沫 青 Explode.wav
+剣(ライデッグ), カトラス突撃
+剣(ライデッグ)(命中), 雷斬撃;放電 Noise.wav
+電撃(準備), 魔法集中 黄 Charge(Long).wav
+電撃(攻撃), ショックビーム Thunder.wav
+電撃(命中), ショックビーム Noise.wav;飛沫 青 Explode.wav
+水圧縮バズーカー砲(準備), バズーカ
+水圧縮バズーカー砲(攻撃), 手持ち発射 Weapon\EFFECT_Bazooka01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_AuraBall(Blue)01.bmp 32 Bazooka.wav
+水圧縮バズーカー砲(命中), 爆発
+鎌, ハルペー突撃
+回転攻撃, スクリュードライバー
+突風(レゼッカー), 竜巻 桃
+杖, 鋤突撃
+サンドブリッツ(準備), 魔法集中 白 Charge.wav
+サンドブリッツ(攻撃), 光球 白 Storm.wav
+サンドブリッツ(命中), 飛沫 白 Explode.wav
+サンドブラスター, 竜巻 白
+剣(バンケーン), 青龍刀突撃
+キューライ(攻撃), 音符 赤
+キューライ(命中), 放電
+キューライの音色(使用), 音符 赤 Sharara.wav
+キューライの音色(発動), 光噴出 赤 Sharara.wav
+
+
+火将軍ブレアード
+三将軍合体攻撃(準備), 炎剣 Reload.wav 対象ユニットＩＤ;振る武器 DGoods\EFFECT_IronFan01.bmp 32 Reload.wav partner(1);月牙 partner(2)
+三将軍合体攻撃(攻撃), 波動放射 赤 Breath.wav 対象ユニットＩＤ;竜巻 桃 partner(1);気斬 青 Beam.wav partner(2);波動放射 黒 Thunder.wav
+三将軍合体攻撃(命中), 大爆発
+
+風将軍サイクリード
+三将軍合体攻撃(準備), 炎剣 Reload.wav partner(1);振る武器 DGoods\EFFECT_IronFan01.bmp 32 Reload.wav 対象ユニットＩＤ;月牙 partner(2)
+三将軍合体攻撃(攻撃), 波動放射 赤 Breath.wav partner(1);竜巻 桃 対象ユニットＩＤ;気斬 青 Beam.wav partner(2);波動放射 黒 Thunder.wav
+三将軍合体攻撃(命中), 大爆発
+
+水将軍アクアル
+三将軍合体攻撃(準備), 炎剣 Reload.wav partner(1);振る武器 DGoods\EFFECT_IronFan01.bmp 32 Reload.wavv partner(2);月牙 対象ユニットＩＤ
+三将軍合体攻撃(攻撃), 波動放射 赤 Breath.wav partner(1);竜巻 桃 partner(2);気斬 青 Beam.wav 対象ユニットＩＤ;波動放射 黒 Thunder.wav
+三将軍合体攻撃(命中), 大爆発
+
+ネオデスカル
+阻止(肉体硬化), 結界 黒 Flair.wav 肉体硬化
+分身(残像発生), 分身 残像
+格闘(攻撃), 打突
+格闘(攻撃), 格闘
+格闘(攻撃), 打撃突撃
+格闘(攻撃), キック
+格闘(攻撃), アッパー
+格闘(攻撃), 浴びせ蹴り
+格闘(命中), 打撃 BreakOff.wav
+格闘(命中), 打撃 Punch.wav
+格闘(命中), 打撃 FightHit(1).wav
+格闘(命中), 斬撃 FightHit(2).wav
+格闘(命中), 斬撃 Shock(Low).wav
+シウスピア, 青龍偃月刀突撃
+パルスビームキャノン(準備), 青龍偃月刀(突)
+パルスビームキャノン(攻撃), 竜弾銃 赤 Weapon\EFFECT_SeiryuEngetsuTou_thrust01.bmp 64 Beam.wav
+パルスビームキャノン(命中), 爆発
+波動放射(準備), 粒子集中 桃
+波動放射(攻撃), フラッシュ 桃 Thunder.wav
+波動放射(命中), 飛沫 桃 Crash.wav
+シウスピア銃撃(準備), 青龍偃月刀(突)
+シウスピア銃撃(攻撃), ショットガン Weapon\EFFECT_SeiryuEngetsuTou_thrust01.bmp 64
+シウスピア銃撃(命中), ショットガン
+分身攻撃, 青龍偃月刀突撃
+分身攻撃(命中), 分身斬撃 Slash(4).wav
+ガレオアタック(準備), 竜巻 桃 Charge(High).wav
+ガレオアタック(攻撃), スピンアタック 桃
+ガレオアタック(命中), スピンアタック 桃 Crash.wav
+シウスピア投擲(準備), 青龍偃月刀(突)
+シウスピア投擲(攻撃), 投擲武器 Weapon\EFFECT_SeiryuEngetsuTou_thrust01.bmp 64
+シウスピア投擲(命中), 刺突
+ナイフ, ナイフ突撃
+剣(グローザ), 神剣突撃
+デスメード軍団(攻撃), 画像投射 Unit\SZX_DethmaidU.bmp Whiz.wav 8
+デスメード軍団(命中), 乱打
+ファング・ソー(準備), 鉈 二刀流
+ファング・ソー(攻撃), 鉈突撃 二刀流
+ファング・ソー(命中), 斬撃 二刀流
+ファング・ソー(命中), 連続なぎ払い
+ファング・ソー(命中), 斬撃乱舞
+ジャックスティンガー(準備), オーラ上昇 桃
+ジャックスティンガー(攻撃), 拡散ビーム MicroMissile.wav
+ジャックスティンガー(命中), 拡散ビーム FastGun.wav
+捕縛装置(攻撃), 小ビーム 橙
+捕縛装置(命中), 粒子集中 橙 BeamSaber.wav
+念力波動(準備), 粒子集中 青
+念力波動(攻撃), フラッシュ 青 Thunder.wav
+念力波動(命中), 飛沫 青 Explode(2).wav
+ダグカイン, ウォーハンマー突撃
+念動力殴打(攻撃), 発光 青 Flair.wav 対象ユニットＩＤ
+念動力殴打(命中), 連打 青
+念動力(攻撃), 発光 青 Flair.wav 対象ユニットＩＤ
+念動力(命中), 回転 3;落下 BreakOff.wav
+念動力(命中), 中ビーム 青 Crash.wav
+念動力(命中), 飛沫 青 Crash.wav
+ブラックライオブレイカー(準備), 振る武器変形 Fire\EFFECT_Fire(Blue)03.bmp 32 Anime\EFFECT_SZX_BlackLioBreaker.bmp 48 Fire.wav
+ブラックライオブレイカー(準備), 振る武器転送 Anime\EFFECT_SZX_BlackLioBreaker.bmp 48 Reload(4).wav
+ブラックライオブレイカー(攻撃), 振る武器突撃 Anime\EFFECT_SZX_BlackLioBreaker.bmp 48
+ブラックライオブレイカー(命中), 振り下ろし
+ブラックライオブレイカー(命中), なぎ払い
+剣(バレーダ), サーベル突撃
+光線銃, ビームライフル 緑 Weapon\EFFECT_LaserGun01.bmp
+息吹, 吹雪
+チェーン, チェーン
+チェーン(命中), 打突 Whip.wav
+電磁サーベル, 金剣突撃
+ビックロッド(準備), -
+ビックロッド, 光棒突撃 青
+超高熱格闘(攻撃), スーパーパンチ 赤 FlameThrower.wav
+超高熱格闘(命中), 乱打 赤 Explode.wav
+アムレヒト, 刺突 赤
+ボルトブリンガー, ククリ突撃
+電撃(リーボルト)(攻撃), ショックビーム 赤 Thunder.wav
+電撃(リーボルト)(命中), ショックビーム 赤 Noise.wav
+ゼオアックス, バイキングアクス突撃
+真空, 竜巻 白
+土煙(攻撃), 煙噴射 橙 Hide.wav
+土煙(命中), 煙 橙 Hide.wav
+エペアメント, ナギナタ突撃
+フリスバー, スタンロッド突撃
+高速攻撃(攻撃), 打撃突撃 Storm.wav
+高速攻撃(命中), 打撃突撃
+甲羅タックル(攻撃), タックル
+甲羅タックル(命中), 超打 Crash.wav
+連射火球(攻撃), ニードルレーザー連射 赤 MicroMissile.wav;ニードルレーザー連射 赤 MicroMissile.wav
+連射火球(命中), 連続大爆発
+エネルギー吸収(攻撃), 格闘 Whiz.wav
+エネルギー吸収(命中), 立ち固め 1;吸収 白
+電撃(アルティメット)(攻撃), ショックビーム Thunder.wav
+電撃(アルティメット)(命中), ショックビーム Noise.wav;爆発
+火炎, 火炎放射
+ディブスレイヤー, 剣突撃
+
+ジャッカル(超星艦隊)
+攻撃無効化, バリア
+
+首領ネオデスカル
+攻撃無効化, 結界 青 BeamCoat.wav バリア
+
+戦艦
+変形(ドリルアングラー(バトルフォーメーション)), オーラ上昇 桃 Transform.wav
+変形(ドリルアングラー), 発光 桃 Transform.wav
+変形(未来暴艦ガレオキング), 魔法集中 白 Transform.wav 中
+変形(ネオデスカル戦艦ガレオローグ), 魔法放射 白 Transform.wav 中
+爆雷(攻撃), ３ＷＡＹ射出
+爆雷(命中), 連続爆発
+レーザー砲(攻撃), 全拡散ビーム 赤 LaserGun.wav
+レーザー砲(命中), 全拡散ビーム 赤
+キャノン砲, ２連中ビーム 白 Bazooka.wav
+キャノン砲(命中), ２連中ビーム 白;大爆発
+三連パルスレーザー砲, ニードルレーザー連射 赤
+対空レーザー砲, ニードルレーザー連射 黄
+アングルバルカン, ニードルレーザー連射
+クリープスナイパー(攻撃), 格闘
+クリープスナイパー(命中), なぎ払い Crash.wav
+アングルブレイザー, ２連小ビーム
+ドリルターナー(攻撃), ドリル突撃 Drill.wav
+ドリルターナー(命中), ドリル FastGun.wav
+ドリルプロージョン(準備), 大放電 赤 Noise.wav
+ドリルプロージョン(攻撃), ドリル突撃 Drill.wav
+ドリルプロージョン(命中), ドリル FastGun.wav
+レーザー(攻撃), 小ビーム 青 Laser.wav
+レーザー(命中), 小ビーム 青
+アルティメイトクラッシュ(準備), 大放電 赤 Noise.wav
+アルティメイトクラッシュ(攻撃), スーパータックル 赤 Drill.wav
+アルティメイトクラッシュ(命中), ドリル FastGun.wav
+ミサイルランチャー, ミサイル 6
+ガレイド砲(攻撃), 大ビーム 白 Breath.wav
+ガレイド砲(命中), 大ビーム 白
+全方位射撃(攻撃), 全拡散ビーム 赤 LaserGun.wav
+全方位射撃(命中), 全拡散ビーム 赤
+スパイク(準備), -
+スパイク(攻撃), 格闘
+スパイク(命中), 強打 Crash.wav
+ガレオキャノン, ２連中ビーム 白;２連中ビーム 白
+ガレイド砲(ガレオキング)(攻撃), ２連中ビーム 白 Breath.wav;２連中ビーム 白 Breath.wav
+ガレイド砲(ガレオキング)(命中), ２連中ビーム 白;２連中ビーム 白;大爆発
+ランチャー, ２連中ビーム 白;２連中ビーム 白
+砲台, 大キャノン砲 4
+ネオデスカル砲, 超ビーム 赤
+
+恐獣
+ダミー(反射板ヴァイオミラー), 分身 BeamCoat.wav 反射板ヴァイオミラー
+テレポート(クワガタムシ化), 煙 黒 Chaff.wav;透明化 反映;竜巻 黒 Search.wav;透明化 解除
+空中(合成恐獣ビグスタッグ), @戦闘アニメ_翅準備 白 二刀流 Search.wav
+シールド防御(翼), 翼防御 黄 Whiz.wav 翼
+反射(エネルギー反射翼), 翼防御 黄 BeamCoat.wav エネルギー反射翼
+攻撃無効化(バリア), 結界 桃 Beam.wav バリア
+変形(未来恐獣ディロス), オーラ上昇 橙 Transform.wav
+変形(未来恐獣ディロス(円盤)), 発光 橙 Transform.wav
+シールド防御(頭部シャッター), 発光 白 Transform.wav
+分身(高速移動), 分身 Storm.wav
+攻撃無効化(闇の力), @戦闘アニメ_重力圧縮命中 相手ユニットＩＤ
+鋏, 白兵武器
+鋏(命中), 斬撃 二刀流 Crash.wav
+高熱火炎(準備), 発光 青 Thunder.wav;光噴出 青 Noise.wav
+高熱火炎(攻撃), 特殊光線 赤 FlameThrower.wav
+高熱火炎(命中), 特殊光線 赤 Fire.wav
+腕の棘(攻撃), 白兵武器
+腕の棘(命中), 刺突 BreakOff.wav
+念動光線(攻撃), 持続ビーム 赤 Laser.wav
+念動光線(命中), 爆発
+怪力(攻撃), 格闘
+怪力(命中), 強打 Bazooka.wav
+破壊光弾(攻撃), 拡散ビーム 赤 MicroMissile.wav
+破壊光弾(命中), 拡散ビーム 赤
+帯電鋏, 白兵武器
+帯電鋏(命中), 斬撃 二刀流 Crash.wav;放電 Noise.wav
+電流攻撃(攻撃), ショックビーム 青 Thunder.wav
+電流攻撃(命中), ショックビーム 青;放電 Noise.wav
+突風, 竜巻
+嘴, 刺突
+嘴(命中), 刺突 Crash.wav
+破壊光線, 中ビーム 橙;中ビーム 橙
+羽ミサイル, ２連光弾 白 Chaff.wav;２連光弾 白 Chaff.wav;２連光弾 白 Chaff.wav
+羽ミサイル(命中), 連続爆発
+毒の身体, -
+毒の身体(命中), 飛沫 緑 Inori.wav
+高圧電流(攻撃), ショックビーム 青 Thunder.wav
+高圧電流(命中), ショックビーム 青;放電 Noise.wav
+怪力(攻撃), 格闘
+怪力(命中), 強打 Explode.wav
+右腕連射光線, 小ビーム 緑;小ビーム 緑;小ビーム 緑
+左腕破壊光弾(攻撃), 気弾 緑 Beam.wav
+左腕破壊光弾(命中), 中ビーム 緑
+汚染攻撃(攻撃), ニードルレーザー連射 緑 Shower.wav
+汚染攻撃(命中), 飛沫 緑 Inori.wav
+毒の身体(ネオ), -
+毒の身体(ネオ)(命中), 飛沫 赤 Inori.wav
+伸腕(攻撃), 白兵武器 Whiz.wav
+伸腕(命中), 爪撃 Crash.wav 黄
+右腕連射光線(ネオ), 交差ビーム 赤 緑
+伸腕電流, ショックビーム 赤 Thunder.wav
+伸腕電流, ショックビーム 赤 Noise.wav
+格闘(攻撃), 格闘
+格闘(命中), 強打 Bazooka.wav
+ビーム攻撃, ニードルレーザー連射 青
+ディローザー(準備), 粒子集中 青
+ディローザー(攻撃), 中ビーム 青 Laser.wav
+ディローザー(命中), 中ビーム 青
+電磁ビーム(攻撃), 小ビーム 赤 LaserGun.wav
+電磁ビーム(命中), 小ビーム 赤
+熱光弾(攻撃), 拡散ビーム 赤 MicroMissile.wav
+熱光弾(命中), 拡散ビーム 赤
+闇の侵食, -
+闇の侵食(命中), オーラ上昇 黒 Noise.wav
+鋏(ダークゲラン)(攻撃), 白兵武器
+鋏(ダークゲラン)(命中), ビームサーベル 黒 二刀流 Crash.wav;オーラ上昇 黒 Noise.wav
+火炎攻撃(攻撃), ショックビーム 赤
+火炎攻撃(命中), ショックビーム 赤 FlameThrower.wav
+噛み付き(攻撃), 白兵武器 Whiz.wav
+噛み付き(命中), 噛み付き Crash.wav;オーラ上昇 黒 Noise.wav
+腹部の口(攻撃), 白兵武器 Whiz.wav
+腹部の口(命中), 立ち固め 4 Crash.wav;オーラ上昇 黒 Noise.wav
+胸部火炎攻撃(攻撃), メガショックビーム 赤
+胸部火炎攻撃(命中), メガショックビーム 赤 FlameThrower.wav
+ゴーディウス, 青銅剣突撃
+怪光線, 中ビーム 緑
+
+巨獣
+光線(攻撃), ２連小ビーム 青 Laser.wav;２連小ビーム 青 Laser.wav
+光線(命中), ２連小ビーム 青;２連小ビーム 青
+ミサイル砲(攻撃), ニードルレーザー連射 赤 MachineGun.wav
+ミサイル砲(命中), ニードルレーザー連射 赤;連続爆発
+メガスピンドリル, ドリル突撃
+メガスピンドリル(命中), ドリル
+メガスピンドリル射出(攻撃), ドリルミサイル MicroMissile.wav;ドリルミサイル MicroMissile.wav
+メガスピンドリル射出(命中), 連続大爆発 Crash.wav
+ミサイルランチャー, 小型ミサイル 6
+鉄拳(攻撃), 打突
+鉄拳(命中), 強打 Crash.wav
+大型キャノン砲, 大キャノン砲 2
+
+絶滅獣
+攻撃無効化(バリア), バリア Flair.wav
+エネルギー吸収(攻撃), 格闘 Whiz.wav
+エネルギー吸収(命中), 立ち固め 1;吸収 白
+格闘(攻撃), 打突
+格闘(攻撃), 格闘
+格闘(攻撃), 打撃突撃
+格闘(攻撃), キック
+格闘(攻撃), アッパー
+格闘(攻撃), 浴びせ蹴り
+格闘(命中), 打撃 BreakOff.wav
+格闘(命中), 打撃 Punch.wav
+格闘(命中), 打撃 FightHit(1).wav
+格闘(命中), 斬撃 FightHit(2).wav
+格闘(命中), 斬撃 Shock(Low).wav
+グレンソード, 野太刀突撃
+ガントスラッガー(攻撃), ２連光弾 桃 Gun.wav;２連光弾 桃 Gun.wav
+ガントスラッガー(命中), ２連光弾 桃 Explode.wav
+カゲリストライカー(攻撃), 光弾 桃 Swing(2).wav
+カゲリストライカー(命中), 爆発
+触手(攻撃), 多触手 黒
+触手(命中), 多触手 黒 BreakOff.wav;立ち固め 1;吸収 白
+ボスキート軍団(攻撃), 画像投射 Unit\SZX_NewBosquitoU.bmp Whiz.wav 8
+ボスキート軍団(命中), 乱打
+ライザーバーン(攻撃), ２連中ビーム 赤 FlameThrower.wav
+ライザーバーン(命中), ２連中ビーム 赤;爆発
+ライザーセイバー, 日本刀突撃 二刀流
+マグナグラスパー(攻撃), 打突
+マグナグラスパー(命中), 強打 Crash.wav
+ライザーキャノン, ２連中ビーム 黄
+ライザーストライカー(攻撃), 格闘 Whiz.wav
+ライザーストライカー(命中), 爪撃 Crash.wav 二刀流
+噛み付き(攻撃), 白兵武器 Whiz.wav 二刀流
+噛み付き(命中), 噛み付き 連続 Crash.wav
+突風, 竜巻
+鋏, 白兵武器
+鋏(命中), 斬撃 二刀流 Crash.wav
+破壊光線(攻撃), ２連ショックビーム 赤
+破壊光線(命中), ２連ショックビーム 赤 FlameThrower.wav
+
+支援機士
+変形(ユウヒ切り離し), 煙 白 Chaff.wav
+破壊時分離(ユウヒ切り離し), 煙 白 Chaff.wav
+120mm滑腔砲, キャノン砲 2
+６連装ミサイルランチャー, 小型ミサイル 12
+格闘(攻撃), 打突
+格闘(命中), 強打 Crash.wav
+
+迎撃戦艦
+主砲, キャノン砲 10
+冷線砲(攻撃), ショックビーム 白 Laser.wav
+冷線砲(命中), ショックビーム 白 Freeze.wav
+艦首ドリル(攻撃), タックル Jet.wav
+艦首ドリル(命中), ドリル FastGun.wav

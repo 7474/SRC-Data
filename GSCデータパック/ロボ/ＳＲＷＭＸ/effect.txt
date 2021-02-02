@@ -1,0 +1,94 @@
+
+ＴＥアブゾーバー
+コーティング・ソード, BeamSaber.wav
+ラディカル・レールガン, 4;Beam.wav;Beam.wav
+ラディカル・レールガン(命中), Explode.wav
+レイガン・ポッド, 2;Bow.wav;2;Bow.wav;5;LaserGun.wav
+レイガン・ポッド(命中), Explode.wav
+ブラッディ・レイ, Beam.wav
+ブラッディ・レイ(命中), Explode.wav
+ファング・ナックル, Missile.wav
+ファング・ナックル(命中), Drill.wav
+インラージメントＭＸ, 6;Charge.wav;MicroMissile.wav
+インラージメントＭＸ(命中), 3;Explode.wav;3;Explode.wav;3;Explode.wav;Explode(Nuclear).wav
+オーヴァル・ミサイル, MicroMissile.wav
+オーヴァル・ミサイル(命中), 1;Explode.wav;1;Explode.wav;1;Explode.wav;Explode.wav
+ブースト・ブラッキウム, Missile.wav
+ブースト・ブラッキウム(命中), BreakOff.wav
+
+サーベラス
+マシンガン・ポッド, 2;Bow.wav;2;Bow.wav;MachineGun.wav
+ターミナス・キャノン(準備), 3;Reload(5).wav;
+ターミナス・キャノン, 4;Charge.wav;AntiAirMissile.wav
+ターミナス・キャノン(命中), AntiShipMissile.wav
+
+サーベラス・イグナイトＧ
+Hoミサイル・ランチャー, 3;Missile.wav;Missile.wav
+Hoミサイル・ランチャー(命中), 2;Explode.wav;Explode.wav
+コーティング・ソードTeX, BeamSaber.wav
+イグナイト・パイク, 2;Reload(2).wav;Swing(2).wav
+イグナイト・パイク(命中), Crash.wav
+ケルベロス・ファング, 2;Reload(2).wav;3;Swing(2).wav;Swing(2).wav
+ケルベロス・ファング(命中), 4;Crash.wav;Crash.wav
+
+サーベラス・イグナイトＳ
+ターミナス・スマッシャー, 6;Charge.wav;MicroMissile.wav
+ターミナス・スマッシャー(命中), AntiShipMissile.wav
+ケルベレイド・バスター, 6;Charge.wav;4;AntiAirMissile.wav;MicroMissile.wav
+ケルベレイド・バスター(命中), 6;MicroMissile.wav;Explode(Nuclear).wav
+
+ガルムレイド
+サンダー・スピンエッジ, 5;Drill.wav;Swing.wav
+サンダー・スピンエッジ(命中), 6;Drill.wav;Crash.wav
+バーニング・ブレイカー, 4;Explode.wav;6;Fire.wav;Swing.wav
+バーニング・ブレイカー(命中), 4;Crash.wav;Explode(Nuclear).wav
+
+ガルムレイド・ブレイズＧ
+Ｌ・スピンエッジ, 5;Drill.wav;Swing.wav
+Ｌ・スピンエッジ(命中), 6;Drill.wav;Crash.wav
+ターミナス・ブラスター, 4;Charge.wav;MicroMissile.wav
+ターミナス・ブラスター(命中), AntiShipMissile.wav
+ロウガ・クラッシャー, 5;Drill.wav;Missile.wav
+ロウガ・クラッシャー(命中), 5;Drill.wav;Explode.wav
+エグゼキューション・Ｒ, 5;Drill.wav;Missile.wav
+エグゼキューション・Ｒ(命中), 5;Drill.wav;6;Crash.wav;4;Charge.wav;MicroMissile.wav
+
+ガルムレイド・ブレイズＳ
+ＴＥスフィア・ブレイザー, 4;Charge.wav;Whiz.wav
+Ｍ・アニマリュートレイド, 2;Reload(3).wav;3;Reload(3).wav
+Ｍ・アニマリュートレイド(命中), 6;Crash.wav;5;LaserGun.wav;Combo.wav
+トリニティ・デッドエンド, 2;Reload(3).wav;3;Reload(3).wav
+トリニティ・デッドエンド(命中), 6;Crash.wav;5;LaserGun.wav;6;Combo.wav;Missile.wav
+
+メディウス・ロクス
+ディバイデッド・ライフル, 4;Beam.wav;Beam.wav
+ディバイデッド・ライフル(命中), Explode.wav
+Ｓ・アクセレレイション, 5;Charge(high).wav;BeamSaber.wav
+Ｓ・アクセレレイション(命中), 3;Slash.wav;2;Slash.wav;1;Slash.wav;Combo.wav
+
+メディウス・ロクス(中期)
+ライアット・ブーメラン, 1;Bow.wav;1;Bow.wav;1;Bow.wav;1;Bow.wav;Bow.wav
+ライアット・ブーメラン(命中), 1;Slash.wav;1;Slash.wav;Slash.wav
+スパイラル・ファング(命中), 6;Drill.wav;Crash.wav
+ターミナス・ブレイザー, MicroMissile.wav
+Ｈ・アクセレレイション, 5;Charge(high).wav;BeamSaber.wav
+Ｈ・アクセレレイション(命中), 2;Crash.wav;2;Crash.wav;4;Crash.wav;Interference.wav
+
+メディウス・ロクス(後期)
+ランページＭＸ, Whiz.wav
+ランページＭＸ(命中), 2;Punch(2).wav;2;Punch(2).wav;AntiAirMissile.wav
+
+ＡｌｌＩｎ１
+Ｃ・メディウス・ロクス, 2;UnitOn.wav;2;UnitOn.wav;2;UnitOn.wav;2;UnitOn.wav;3;Beam.wav;3;Beam.wav;3;Beam.wav;3;Beam.wav
+Ｃ・メディウス・ロクス(命中), 2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav
+ＡｌｌＩｎ１, FlyBy.wav
+ＡｌｌＩｎ１(命中), 3;Thunder.wav;3;Thunder.wav;6;MicroMissile.wav;Explode(Far).wav
+
+フロンス
+ダヴィンレーザー, LaserGun.wav
+
+シニストラ
+ウメルス・フラッシャー, LaserGun.wav
+
+デクステラ
+カブト・ブラスター, Beam.wav

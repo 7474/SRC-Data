@@ -1,0 +1,57 @@
+ボルトマシン
+クルーアロー, Missile.wav
+クルーアロー(命中), Explode.wav
+
+鷹メカ
+超電磁加重砲, 5;Beamshot.wav;5;Beamshot.wav;
+
+獣士
+小型ミサイル, 3;Missile.wav;3;Missile.wav;3;Missile.wav;3;Missile.wav
+火炎放射, 3;Storm.wav
+ミサイル, 2;Missile.wav;3;Missile.wav
+ヘッドミサイル, 3;Missile.wav;3;Missile.wav;3;Missile.wav;3;Missile.wav
+鎖分銅, Swing.wav;5;Swing.wav;5;Swing.wav
+針, Swing.wav;2
+針(命中), Punch.wav
+翼カッター, Swing.wav;7;Swing.wav;7;Swing.wav
+手裏剣, Swing.wav
+フィンガーミサイル, MultipleRocketLauncher.wav
+爆雷, 2;Bazooka.wav;Bazooka.wav
+ステープル, 4;MultipleRocketLauncher(Light).wav
+大車輪アタック, 3;Bike.wav
+束縛翼, Swing.wav;4;Swing.wav
+コウモリ爆弾, 2;Missile.wav;3;Missile.wav
+アームサーベル, 2;Saber.wav;Saber.wav
+羽ミサイル, 2;AntiAirMissile.wav;4;AntiAirMissile.wav;3;AntiAirMissile.wav;4;AntiAirMissile.wav
+くさび弾, 3;Missile.wav;3;Missile.wav;3;Missile.wav;3;Missile.wav
+ヘッドギロチン, Swing.wav
+ヘッドギロチン(命中), Punch.wav
+羽手裏剣, 2;AntiAirMissile.wav;2;AntiAirMissile.wav;2;AntiAirMissile.wav;2;AntiAirMissile.wav;2;AntiAirMissile.wav
+突風, 3;Storm.wav
+甲羅弾,3;Missile.wav;3;Missile.wav;3;Missile.wav;3;Missile.wav
+電磁金縛り, 1;Bubble.wav;1;Bubble.wav;1;Bubble.wav;1;Bubble.wav;1;Bubble.wav
+レーザー, Beam.wav
+捕縛チェーン, 2;Swing.wav;2;Swing.wav
+灼熱タックル, Storm.wav
+拘束ミサイル, 3;Missile.wav;3;Missile.wav;3;Missile.wav;3;Missile.wav
+スパイクショット, 2;Missile.wav;1;Missile.wav;2;Missile.wav;1;Missile.wav;2;Missile.wav;1;Missile.wav;2;Missile.wav;1;Missile.wav
+蹄カッター, 2;saver.wav;2;saver.wav;2;saver.wav;2;saver.wav;2;saver.wav;2;saver.wav;2;saver.wav
+投げ槍,swing.wav;2;silent.wav
+投げ槍(命中),Punch.wav
+ねじ切り殺法(命中), Drill.wav
+銛, 2;AntiAirMissile.wav;2;AntiAirMissile.wav;2;AntiAirMissile.wav;2;AntiAirMissile.wav;2;AntiAirMissile.wav
+白熱トゲ(命中), 2;Stab.wav;2;Stab.wav;2;Stab.wav;2;Stab.wav;BeamSaber.wav
+阻止, sword.wav
+
+鎧獣士
+リモートフィン, 1;Swing.wav;2;Swing.wav;1;Swing.wav;2;Swing.wav
+回転ノコギリ, Charge.wav
+トマホークブーメラン,3;Swing.wav;2;Swing.wav;3;Swing.wav;Swing.wav
+鎖分銅, Swing.wav;Swing.wav;Swing.wav
+一斉射撃, FastGun.wav
+電磁ネット,LaserGun.wav
+鎖鎌, 2;Swing.wav;Swing.wav
+触角, Whip.wav;7;Whip.wav
+ドリルミサイル, MicroMissile.wav
+リモコンドリル, Missile.wav
+リモコンはさみ, Missile.wav

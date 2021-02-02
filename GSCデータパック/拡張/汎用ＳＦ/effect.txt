@@ -1,0 +1,172 @@
+
+汎用
+###警官###
+スタンロッド, Swing.wav
+スタンロッド(命中), Thunder.wav
+ソニックピストル, MicroMissile.wav
+ソニックピストル(命中), Explode.wav
+催涙弾, Storm.wav
+スタンサーベル, Swing.wav
+スタンサーベル(命中), Thunder.wav
+スタンショットガン, Gun.wav
+スタンショットガン(命中), Whip.wav
+###軍隊###
+単分子ナイフ, Swing.wav
+単分子ナイフ(命中), Slash.wav
+レーザーピストル, Beam.wav
+レーザーライフル,Beam.wav
+スナイパーライフル, Rifle.wav
+スナイピング, Rifle.wav
+サブマシンガン, MachineGun.wav
+ソリッドシューター, Cannon.wav
+単分子ワイヤー, -.wav
+単分子ワイヤー(命中), Slash.wav
+フレシェットガン, Bow.wav
+フレシェットガン(命中), Stab.wav
+レーザーブレード, BeamSaber.wav
+レーザーブレード(命中), Slash.wav
+パイルバンカー, Drill.wav
+パイルバンカー(命中), Drill.wav
+ミサイルポッド, MicroMissile.wav
+ミサイルポッド(命中), Explode(Far).wav
+対サイボーグライフル, Rifle.wav
+対サイボーグライフル(命中), Stab.wav
+高周波ナイフ, BeamSaber.wav
+高周波ナイフ(命中), Slash.wav
+チェインソード, BeamSaber.wav
+チェインソード(命中), Slash.wav
+レールガン, BeamSaber.wav
+レールガン, Rifle.wav
+ヘビーマシンガン, MachineGun.wav
+ショットピストル, Gun.wav
+爆破工作, Explode.wav;3;Explode.wav
+脳内爆弾, Explode(Nuclear).wav
+無反動砲, Cannon.wav
+###汎用アイテム###
+攻撃無効化(重力障壁), BeamCoat.wav
+攻撃無効化(電磁障壁), BeamSaber.wav
+攻撃無効化(精神障壁), BeamCoat.wav
+予備弾薬, Reload.wav
+リフレッシュタブ, Sharara.wav
+アイスマインドドリンク, Charge.wav
+イリュージョンドリンク, Charge.wav
+ハイテンションパウダー, Charge.wav
+興奮剤, ユニット変色 赤 Charge.wav
+神経加速剤, オーラ上昇 緑 Charge.wav
+ビームサーベル(汎用), BeamSaber.wav
+ビームサーベル(汎用)(命中), Slash.wav
+ビームライフル(汎用), Beam.wav
+ビームライフル(汎用)(命中), Beam.wav
+プラズマランチャー(汎用), Charge(High).wav
+プラズマランチャー(汎用)(命中), BeamSaber.wav
+ガンマレイ(汎用), Beam.wav
+ガンマレイ(汎用)(命中), Beam.wav
+ミサイルランチャー(汎用), MultipleRocketLauncher.wav
+ミサイルランチャー(汎用)(命中), Explode(Small).wav ; Explode(Small).wav ;Explode(Small).wav ; Explode(Small).wav ; Explode(Small).wav
+徹甲弾(汎用), Gun.wav
+徹甲弾(汎用)(命中), Stab.wav
+炸裂弾(汎用), Gun.wav
+炸裂弾(汎用), Explode(Small).wav
+ショック弾(汎用), Gun.wav
+ショック弾(汎用)(命中), BeamSaber.wav
+
+超能力者
+###共通###
+格闘, Punch.wav
+###火炎###
+火炎を纏った拳, Punch.wav
+火炎を纏った拳(命中), Fire.wav
+火炎放射, Fire.wav
+火炎放射(命中), Fire.wav
+###冷気###
+氷の矢, Saber.wav
+氷の矢(命中), BreakOff.wav
+冷凍捕縛, Flair.wav
+冷凍捕縛(命中), Flair.wav
+###電撃###
+雷撃, Thunder.wav
+雷撃(命中), Thunder.wav
+スタンナックル, Punch.wav
+スタンナックル(命中), Thunder.wav
+###地###
+石弾, Swing.wav
+石弾(命中), BreakOff.wav
+地形変化, Drill.wav
+地形変化(命中), Explode(Far).wav
+###風使い###
+風撃, Storm.wav
+風撃(命中), Storm.wav
+竜巻, Storm.wav
+竜巻(命中), Storm.wav
+###重力###
+攻撃無効化(重力障壁), BeamCoat.wav
+重力波, Swing(2).wav
+重力波(命中), Crash.wav
+###空間###
+空間切断, Slash.wav
+空間切断(命中), Slash.wav
+擬似ブラックホール, Hittyuu.wav
+擬似ブラックホール(命中), Crash.wav
+###時間###
+加速攻撃, Punch(4).wav
+加速攻撃(命中), FightHit(4).wav
+最高速度(準備), Stairs(Run).wav
+最高速度, Punch(4).wav
+最高速度(命中), Drill.wav
+###念動###
+阻止(念動防御), BeamCoat.wav
+念動弾, Cannon.wav
+念動弾(命中), Cannon.wav
+念動拳, Punch.wav
+念動拳(命中), Punch.wav
+###瞬間移動###
+テレポートアタック, Swing.wav
+テレポートアタック(命中), -
+テレポートアタック(クリティカル), Explode(Small).wav
+空中殺法, Punch(2).wav
+空中殺法(命中), FightHit(2).wav
+###対抗###
+フィールド発動(対抗能力), BeamCoat.wav
+攻撃無効化(能力防御), BeamCoat.wav
+###テレパシー###
+幻覚, Sharara.wav
+幻覚(クリティカル), Sharara.wav
+幻影, Inori.wav
+幻影(命中), Inori.wav
+###光###
+光線発射, Beam.wav
+光線発射(命中), Beam.wav
+###音波###
+共振音波(攻撃), BeamCoat.wav;BeamCoat.wav;BeamCoat.wav
+共振音波(命中), BeamCoat.wav;BeamCoat.wav;BeamCoat.wav
+音波粉砕(攻撃), Charge(High).wav
+音波粉砕(命中), Explode(Small).wav
+###水###
+水の槍, Snap.wav
+水の槍(命中), Splash.wav
+水の弾丸, Swing.wav
+水の弾丸(命中), Splash.wav
+
+サイボーグ
+怪力, Punch.wav
+怪力(命中), Punch.wav
+レーザーブレード(準備), BeamSaber.wav
+レーザーブレード(命中), Slash.wav
+ビームガン, BeamShot.wav
+ビームガン(命中), BeamShot.wav
+ガトリング, MachineGun.wav
+ガトリング(命中), MachineGun.wav
+グレネードランチャー, Cannon.wav
+グレネードランチャー(命中), Explode.wav
+
+ハッカー
+ハッキング, Computer.wav
+ハッキング(命中), Computer.wav
+
+宇宙人
+光線銃, Beam.wav
+八本の触手, Swing.wav;Swing.wav
+怪光線, Beam.wav
+
+ＵＦＯ
+トラクタービーム, Beam.wav

@@ -1,0 +1,52 @@
+#丸投げ画像パックの実在銃器画像を指定しています
+
+ファントム
+格闘, 格闘
+格闘, キック
+格闘, 振り下ろし Punch.wav
+暗殺術(準備), -
+暗殺術(攻撃), 打撃突撃
+暗殺術(攻撃), 飛びかかり
+暗殺術(命中), 立ち固め -.wav;刺突 -.wav
+暗殺術(命中), 刺突
+暗殺術(命中), 振り上げ
+暗殺術(命中), 振り下ろし
+スローイングナイフ, 投げナイフ
+二丁拳銃, リボルバー EFFECT_RWG_S&W_M5906.bmp 32;1;Gun.wav;3;Gun.wav;1;Gun.wav;3;Gun.wav
+
+汎用
+SIG/SAUER_P226, ピストル EFFECT_RWG_SIG-SAUER_P226.bmp 32
+DESERTEAGLE.50AE, ピストル EFFECT_RWG_DesartEagle50AE.bmp 32
+CHRIS_REEVE, ナイフ
+COLT_PYTHON, リボルバー EFFECT_RWG_COLT_PYTHON.bmp 32
+SOCOM_PISTOL, ピストル EFFECT_RWG_H&K_SOCOMPISTOL(FULL).bmp 36
+AK74, ライフル EFFECT_RWG_USSR_AK74.bmp 48
+VZ61, サブマシンガン EFFECT_RWG_CZ_Vz61.bmp 32
+AMT_BACKUP_II, ピストル EFFECT_RWG_AMT_BACKUP.bmp 32
+S&W_M5906, ピストル EFFECT_RWG_S&W_M5906.bmp 32
+STEYR_AUG, マシンガン EFFECT_RWG_STEYR_AUG.bmp 40
+RUGER_P08, ピストル EFFECT_RWG_LUGER_P08.bmp 32
+AMT_HARDBALLER, ピストル EFFECT_RWG_AMT_HARDBALLERLONGSLIDE.bmp 32
+BERETTA_M93R, ピストル EFFECT_RWG_BERETTA_M93R.bmp 32
+バースト射撃, サブマシンガン EFFECT_RWG_BERETTA_M93R.bmp 32
+H&K_P7M13, ピストル EFFECT_RWG_H&K_P7.bmp 32
+サバイバルナイフ, ナイフ
+GEPARD_M1, 対物ライフル
+SIG_BLASER_R93, ボルトアクションライフル EFFECT_RWG_SIG-BLASER_R93TACTICAL.bmp 48
+AMT_AUTOMAG_180, ピストル EFFECT_RWG_AMT_AUTOMAG.bmp 32
+MATEBA_2006M, リボルバー EFFECT_RWG_MATEBA_2006M.bmp 32
+S&W_M29, リボルバー EFFECT_RWG_S&W_M29.bmp 32
+BERETTA_M92FS, ピストル EFFECT_RWG_BERETTA_M92.bmp 32
+GLOCK_19, ピストル EFFECT_RWG_GLOCK_19.bmp 32
+H&K_USP, ピストル EFFECT_RWG_H&K_USP(FULL).bmp 36
+COLT_GOVERNMENT, ピストル EFFECT_RWG_COLT_GOVERNMENT.bmp 32
+INGRAM_M11, サブマシンガン
+IMI_UZI, サブマシンガン
+H&K_MP5, サブマシンガン EFFECT_RWG_H&K_MP5K.bmp 32
+M16A2, マシンガン EFFECT_RWG_COLT_M16A2.bmp 48
+BENELLI_M3, ショットガン EFFECT_RWG_BENELLI_M3SUPER90.bmp 48
+G3_SG/1, ボルトアクションライフル EFFECT_RWG_H&K_G3SG1.bmp 48
+
+
+
+

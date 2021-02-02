@@ -1,0 +1,89 @@
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_NBC_スープレックス命中:
+# 餓狼伝説フォルダから転載。被り防止のため、識別子のみ変更しています。
+#　『戦闘アニメ_ブレーンバスター』改変
+#　引数：効果音
+
+Local i
+Local BMP_FILE
+Local BMP_FILE2
+Local BMP_FILE3
+Local BMP_FILE4
+Local A_X
+Local A_Y
+Local C_X
+Local C_Y
+Local UID
+Set UID 対象ユニットＩＤ
+Center UID
+Set C_X WX(UID)
+Set C_Y WY(UID)
+
+Set BMP_FILE _GetBMPName(UID)
+Set BMP_FILE2 _GetTileName(UID)
+Set BMP_FILE3 _GetBMPName(相手ユニットＩＤ)
+Set BMP_FILE4 _GetTileName(相手ユニットＩＤ)
+Set A_X WX(相手ユニットＩＤ)
+Set A_Y WY(相手ユニットＩＤ)
+
+Wait Start
+
+PlaySound "Swing.wav"
+
+If (BMP_FILE2 = "") Then
+  ChangeUnitBitmap UID 非表示
+EndIf
+If (BMP_FILE4 = "") Then
+  ChangeUnitBitmap 相手ユニットＩＤ 非表示
+EndIf
+For i = 1 To 7
+  ClearPicture
+  If (BMP_FILE2 != "") Then
+    PaintPicture BMP_FILE2 C_X C_Y _ColorTime()
+  EndIf
+  If (BMP_FILE4 != "") Then
+    PaintPicture BMP_FILE4 A_X A_Y _ColorTime()
+  EndIf
+  Switch i
+  Case 1
+    PaintPicture BMP_FILE C_X C_Y 透過 _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 16) 透過 _ColorTime()
+  Case 2
+    PaintPicture BMP_FILE C_X C_Y 透過 _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 16) 透過 右回転 90 _ColorTime()
+  Case 3
+    PaintPicture BMP_FILE C_X C_Y 透過 右回転 90 _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 32) 透過 右回転 90 _ColorTime()
+  Case 4
+    PaintPicture BMP_FILE C_X C_Y 透過 上下反転 左回転 45 _ColorTime()
+    PaintPicture BMP_FILE3 (C_X + 18) (C_Y - 18) 透過 上下反転 左回転 45 _ColorTime()
+  Case 5
+    PaintPicture BMP_FILE C_X C_Y 透過 上下反転 _ColorTime()
+    PaintPicture BMP_FILE3 (C_X + 22) C_Y 透過 上下反転 _ColorTime()
+    PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 26) (C_Y + 4) 24 24 透過 上下反転 _ColorTime()
+    _SelectSound_HR "FallDown.wav" "Shock(Low).wav" _GetWavFromArgs()
+  Case 6
+    PaintPicture BMP_FILE C_X C_Y 透過 上下反転 _ColorTime()
+    PaintPicture BMP_FILE3 (C_X + 22) (C_Y - 8) 透過 上下反転 _ColorTime()
+    PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 22) C_Y 透過 上下反転 _ColorTime()
+  Case 7
+    PaintPicture BMP_FILE C_X C_Y 透過 上下反転 _ColorTime()
+    PaintPicture BMP_FILE3 (C_X + 22) (C_Y - 4) 透過 上下反転 _ColorTime()
+  Case 8
+    PaintPicture BMP_FILE C_X C_Y 透過 上下反転 _ColorTime()
+    PaintPicture BMP_FILE3 (C_X + 22) C_Y 透過 上下反転 _ColorTime()
+  EndSw
+  Refresh
+  Wait Until (i * 0.7)
+Next
+
+If (BMP_FILE2 = "") Then
+  ChangeUnitBitmap UID 非表示解除
+EndIf
+If (BMP_FILE4 = "") Then
+  ChangeUnitBitmap 相手ユニットＩＤ 非表示解除
+EndIf
+ClearPicture
+Refresh
+Return

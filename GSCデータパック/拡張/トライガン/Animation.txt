@@ -1,0 +1,119 @@
+トライガン
+格闘, 格闘
+AGLリボルバー(準備), 射撃武器 EFFECT_TRIGUN_AGLRevolver.bmp 32
+AGLリボルバー(攻撃), 銃撃武器 EFFECT_TRIGUN_AGLRevolver.bmp 32 Rifle.wav
+AGLリボルバー(命中), 銃弾
+9mm隠し銃(準備), 振る武器変形 EFFECT_TRIGUN_9mmSGun01.bmp 40 EFFECT_TRIGUN_9mmSGun02.bmp 40 Reload(5).wav
+9mm隠し銃(攻撃), 銃撃武器連射 EFFECT_TRIGUN_9mmSGun03.bmp 32
+9mm隠し銃(命中), 機関砲
+10mm隠し銃(準備), 振る武器変形 EFFECT_TRIGUN_10mmSGun01.bmp 48 EFFECT_TRIGUN_10mmSGun02.bmp 48 Reload(5).wav
+10mm隠し銃(攻撃), 銃撃武器連射 EFFECT_TRIGUN_10mmSGun02.bmp 48
+10mm隠し銃(命中), 機関砲
+尖翼, ホーミングレーザー 黄
+２丁拳銃(準備), 射撃武器 EFFECT_TRIGUN_10mmSGun03.bmp 48
+２丁拳銃(攻撃), 銃撃武器 EFFECT_TRIGUN_AGLRevolver.bmp 32 Rifle.wav;銃撃武器連射 EFFECT_TRIGUN_10mmSGun02.bmp 48
+２丁拳銃(命中), 銃弾;機関砲
+知覚外の抜撃(準備), -
+知覚外の抜撃(攻撃), 銃撃武器 EFFECT_TRIGUN_AGLRevolver.bmp 32 Rifle.wav
+知覚外の抜撃(命中), 銃弾
+エンジェルアーム弾(準備), -
+エンジェルアーム弾(攻撃), 銃撃武器 EFFECT_TRIGUN_AGLRevolver.bmp 32 Rifle.wav
+エンジェルアーム弾(命中), 重力圧縮
+エンジェルアーム, 巨大ビーム
+45口径ピストル, ピストル
+十字架, 殴打武器 EFFECT_TRIGUN_Punisher01.bmp 56
+パニッシャー(準備), 振る武器変形 EFFECT_TRIGUN_Punisher01.bmp 56 EFFECT_TRIGUN_Punisher02.bmp 56 Reload(5).wav
+パニッシャー(攻撃), 銃撃武器連射 EFFECT_TRIGUN_Punisher02.bmp 56
+パニッシャー(命中), 機関砲
+ロケットランチャー(準備), 振る武器変形 EFFECT_TRIGUN_Punisher03.bmp 64 EFFECT_TRIGUN_Punisher04.bmp 64 Reload(5).wav
+ロケットランチャー(攻撃), 手持ち発射 EFFECT_TRIGUN_Punisher04.bmp 64 対象ユニットＩＤ Bullet\EFFECT_RocketBullet01.bmp 40 Cannon.wav
+ロケットランチャー(命中), 爆発
+弾帯(攻撃), 触手 黒
+弾帯(命中), 連続爆発
+ダブルファング, 銃撃武器連射 EFFECT_TRIGUN_Doublefang.bmp 48 二丁拳銃
+『連携攻撃』, 銃撃武器連射 EFFECT_TRIGUN_Doublefang.bmp 48 二丁拳銃
+アメリカンデリンジャー, 護身銃
+アメリカンデリンジャー(解説), メリルはアメリカンデリンジャーで攻撃をかけた。
+スタンガン(準備), 射撃武器 EFFECT_TRIGUN_StunGun.bmp 48
+スタンガン(攻撃), 手持ち発射 EFFECT_TRIGUN_StunGun.bmp 48 対象ユニットＩＤ EFFECT_TRIGUN_StunBarrett.bmp 32 Cannon.wav
+スタンガン(命中), 超打
+スタンガン(解説), ミリィはスタンガンで攻撃をかけた。
+ミリィ＆メリル(準備), -
+ミリィ＆メリル(攻撃), -
+ミリィ＆メリル(命中), 銃弾;銃弾;超打
+ミリィ＆メリル(解説), ミリィとメリルは２人で暴れた。
+次元薄刃(準備), -
+次元薄刃(攻撃), スラッシュビーム 青
+次元薄刃(命中), 光斬撃乱舞 青
+ガンシザーズ(準備), 振る武器変形 EFFECT_TRIGUN_ScissorsGun02.bmp 48 EFFECT_TRIGUN_ScissorsGun03.bmp 48 Reload(5).wav
+ガンシザーズ(攻撃), 刺突
+ガンシザーズ(命中), 刺突
+シザーズガン(準備), 射撃武器 EFFECT_TRIGUN_ScissorsGun01.bmp 32
+シザーズガン(攻撃), 銃撃武器 EFFECT_TRIGUN_ScissorsGun01.bmp 32 Rifle.wav
+シザーズガン(命中), 銃弾
+自傷強要(準備), -
+自傷強要(攻撃), -
+自傷強要(命中), ダメージ;ダメージ;ダメージ
+奴隷(準備), しもべ EFFECT_TRIGUN_Slave.bmp 48
+奴隷(攻撃), 実弾発射 EFFECT_TRIGUN_Slave.bmp 48 AntiAirMissile.wav
+奴隷(命中), 斬撃乱舞
+ゲルニカ(準備), しもべ EFFECT_TRIGUN_Guernika.bmp 48
+ゲルニカ(攻撃), 実弾発射 EFFECT_TRIGUN_Guernika.bmp 48 AntiAirMissile.wav
+ゲルニカ(命中), 大爆発
+殺気(準備), -
+殺気(攻撃), -
+殺気(命中), 邪眼解放;乱突
+ネイルカノン(準備), -
+ネイルカノン(攻撃), ニードル連射
+ネイルカノン(命中), 乱突
+切り札(準備), -
+切り札(攻撃), -
+切り札(命中), 邪眼解放;乱突
+３つの十字架(準備), 振る武器 EFFECT_TRIGUN_Punisher01.bmp 60
+３つの十字架(攻撃), 振り上げ;振り下ろし;なぎ払い
+３つの十字架(命中), 乱打
+トライパニッシャー(準備), 振る武器変形 EFFECT_TRIGUN_TriPunisher01.bmp 60 EFFECT_TRIGUN_TriPunisher02.bmp 60 Reload(5).wav
+トライパニッシャー(攻撃), 銃撃武器連射 EFFECT_TRIGUN_TriPunisher03.bmp 56;銃撃武器連射 EFFECT_TRIGUN_TriPunisher03.bmp 56 ２丁拳銃
+トライパニッシャー(命中), 内蔵ガトリング
+トライロケットランチャー(準備), 振る武器変形 EFFECT_TRIGUN_TriPunisher04.bmp 68 EFFECT_TRIGUN_TriPunisher05.bmp 68 Reload(5).wav
+トライロケットランチャー(攻撃), 手持ち発射 EFFECT_TRIGUN_TriPunisher06.bmp 64 対象ユニットＩＤ Bullet\EFFECT_RocketBullet01.bmp 40 Cannon.wav;手持ち発射 EFFECT_TRIGUN_TriPunisher06.bmp 64 対象ユニットＩＤ Bullet\EFFECT_RocketBullet01.bmp 40 Cannon.wav;手持ち発射 EFFECT_TRIGUN_TriPunisher06.bmp 64 対象ユニットＩＤ Bullet\EFFECT_RocketBullet01.bmp 40 Cannon.wav
+トライロケットランチャー(命中), 連続爆発
+45口径ピストル, ピストル
+シルヴィア・仕込み銃(準備), 振る武器変形 EFFECT_TRIGUN_Silvia02.bmp 48 EFFECT_TRIGUN_Silvia03.bmp 48 Reload(5).wav
+シルヴィア・仕込み銃(攻撃), 銃撃武器連射 EFFECT_TRIGUN_Silvia03.bmp 48
+シルヴィア・仕込み銃(命中), 機関砲
+シルヴィア(準備), 楽器 EFFECT_TRIGUN_Silvia01.bmp 40
+シルヴィア(攻撃), リングビーム 青
+シルヴィア(命中), 飛沫 青 BeamCoat.wav
+ブーツガン(準備), 射撃武器 EFFECT_TRIGUN_BootsGun.bmp 32
+ブーツガン(攻撃), 銃撃武器 EFFECT_TRIGUN_BootsGun.bmp 32 Rifle.wav
+ブーツガン(命中), 銃弾
+グーデリア, スーパータックル 黒
+刀, 日本刀
+彗星突(準備), 日本刀
+彗星突(攻撃), 刺突
+彗星突(命中), 刺突
+二重星雲, 円弧斬撃
+ナックルグレネード, グレネード
+ナックル, 打突
+内骨格, 大錨
+ナックルスロー, 鉄球
+人形, 人形
+２７分殺, 怪ロボット
+9mmピストル, ピストル
+不意打ち(準備), -
+不意打ち(攻撃), -
+不意打ち(命中), 邪眼瞬き;銃弾
+スパイク, ニードル連射
+ガトリングガン, 内蔵ガトリング
+ロケットランチャー, ミサイル
+バルカン砲, 大型ガトリング
+パンチ, 格闘
+弾丸パンチ, ロケットパンチ
+息子投げ, 鉄球
+光り銃(準備), 射撃武器 EFFECT_TRIGUN_NeonGun.bmp 32
+光り銃(攻撃), 銃撃武器 EFFECT_TRIGUN_NeonGun.bmp 32 Rifle.wav
+光り銃(命中), 銃弾
+ダイナモガン, 機関砲
+ブーメラン, ブーメラン
+ダブルライフル, ボルトアクションライフル

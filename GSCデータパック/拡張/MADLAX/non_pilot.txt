@@ -1,0 +1,721 @@
+###データ順序
+#０．マドラックス
+#１．ナフレス：マーガレット、エリノア
+#２．ブックワルド：ヴァネッサ、カロッスア
+#３．ガザッソニカ：リメルダ
+#４．アンファン：フライデー
+#５．ドアイホ村：クアンジッタ、ナハル
+#６．聖都：レティシア、プゥペ
+#７．重要サブキャラ：マーガレットの両親、チャーリー、ＳＳＳ
+#８．サブキャラ
+#９．汎用・ザコ
+
+
+### マドラックス #######################################################
+マドラックス(通常)
+マドラックス, MDL_Madlax.bmp
+
+マドラックス(通常２)
+マドラックス, MDL_Madlax(N)(2).bmp
+
+マドラックス(攻撃)
+マドラックス, MDL_Madlax(A).bmp
+
+マドラックス(ダメージ)
+マドラックス, MDL_Madlax(D).bmp
+
+マドラックス(ドレス)
+マドラックス, MDL_Madlax(dress).bmp
+
+マドラックス(笑顔)
+マドラックス, MDL_Madlax(smile).bmp
+
+マドラックス(笑顔)(ドレス)
+マドラックス, MDL_Madlax(smile)(dress).bmp
+
+マドラックス(笑顔２)
+マドラックス, MDL_Madlax(smile2).bmp
+
+マドラックス(笑顔２)(ドレス)
+マドラックス, MDL_Madlax(smile2)(dress).bmp
+
+マドラックス(悲しみ)
+マドラックス, MDL_Madlax(sad).bmp
+
+マドラックス(悲しみ)(ドレス)
+マドラックス, MDL_Madlax(sad)(dress).bmp
+
+マドラックス(銃)
+マドラックス, MDL_Madlax(gun).bmp
+
+マドラックス(銃)(ドレス)
+マドラックス, MDL_Madlax(gun)(dress).bmp
+
+マドラックス(銃２)
+マドラックス, MDL_Madlax(gun)(nowhere).bmp
+
+マドラックス(真剣)
+マドラックス, MDL_Madlax(serious).bmp
+
+マドラックス(集中)
+マドラックス, MDL_Madlax(concentration).bmp
+
+マドラックス(思考)
+マドラックス, MDL_Madlax(thinking).bmp
+
+マドラックス(驚き)
+マドラックス, MDL_Madlax(surprise).bmp
+
+マドラックス(不安)
+マドラックス, MDL_Madlax(uneasiness).bmp
+
+マドラックス(涙)
+マドラックス, MDL_Madlax(tear).bmp
+
+マドラックス(電話)
+マドラックス, MDL_Madlax(tel).bmp
+
+マドラックス(狙撃)
+マドラックス, MDL_Madlax(shoot).bmp
+
+マドラックス(本質)
+マドラックス, MDL_Madlax(essence).bmp
+
+マドラックス(十二年前)
+マドラックス, MDL_Madlax(12year'sbefore).bmp
+
+マドラックス(十二年前)(銃)
+マドラックス, MDL_Madlax(12year'sbefore)(gun).bmp
+
+#主人公。武装抵抗組織ガルザに雇われたエージェント
+
+### マーガレット＝バートン #############################################
+マーガレット＝バートン(通常)
+マーガレット, MDL_MargaretBurton.bmp
+
+マーガレット＝バートン(悲しみ)
+マーガレット, MDL_MargaretBurton(sad).bmp
+
+マーガレット＝バートン(笑顔)
+マーガレット, MDL_MargaretBurton(smile).bmp
+
+マーガレット＝バートン(笑顔２)
+マーガレット, MDL_MargaretBurton(smile2).bmp
+
+マーガレット＝バートン(不安)
+マーガレット, MDL_MargaretBurton(uneasiness).bmp
+
+マーガレット＝バートン(涙)
+マーガレット, MDL_MargaretBurton(tear).bmp
+
+マーガレット＝バートン(驚き)
+マーガレット, MDL_MargaretBurton(surprise).bmp
+
+マーガレット＝バートン(真剣)
+マーガレット, MDL_MargaretBurton(serious).bmp
+
+マーガレット＝バートン(睡眠)
+マーガレット, MDL_MargaretBurton(sleep).bmp
+
+マーガレット＝バートン(銃)
+マーガレット, MDL_MargaretBurton(gun).bmp
+
+マーガレット＝バートン(銃２)
+マーガレット, MDL_MargaretBurton(gun)(nowhere).bmp
+
+マーガレット＝バートン(本質)
+マーガレット, MDL_MargaretBurton(essence).bmp
+
+マーガレット＝バートン(十二年前)
+マーガレット, MDL_MargaretBurton(12year'sbefore).bmp
+
+マーガレット＝バートン(十二年前)(恐怖)
+マーガレット, MDL_MargaretBurton(12year'sbefore)(fear).bmp
+
+マーガレット＝バートン(十二年前)(銃)
+マーガレット, MDL_MargaretBurton(12year'sbefore)(gun).bmp
+
+#もう一人の主人公。セカンダリの所有者
+
+### エリノア＝ベイカー #################################################
+エリノア＝ベイカー(通常)
+エリノア, MDL_ElinorBaker.bmp
+
+エリノア＝ベイカー(笑顔)
+エリノア, MDL_ElinorBaker(smile).bmp
+
+エリノア＝ベイカー(笑顔２)
+エリノア, MDL_ElinorBaker(smile2).bmp
+
+エリノア＝ベイカー(呆れ)
+エリノア, MDL_ElinorBaker(amazement).bmp
+
+エリノア＝ベイカー(不安)
+エリノア, MDL_ElinorBaker(uneasiness).bmp
+
+エリノア＝ベイカー(悲しみ)
+エリノア, MDL_ElinorBaker(sad).bmp
+
+エリノア＝ベイカー(怒り)
+エリノア, MDL_ElinorBaker(angry).bmp
+
+エリノア＝ベイカー(叫び)
+エリノア, MDL_ElinorBaker(shout).bmp
+
+エリノア＝ベイカー(恐怖)
+エリノア, MDL_ElinorBaker(fear).bmp
+
+エリノア＝ベイカー(真剣)
+エリノア, MDL_ElinorBaker(serious).bmp
+
+エリノア＝ベイカー(電話)
+エリノア, MDL_ElinorBaker(tel).bmp
+
+エリノア＝ベイカー(銃)
+エリノア, MDL_ElinorBaker(gun).bmp
+
+エリノア＝ベイカー(本質)
+エリノア, MDL_ElinorBaker(essence).bmp
+
+エリノア＝ベイカー(死亡)
+エリノア, MDL_ElinorBaker(death).bmp
+
+エリノア＝ベイカー(十二年前)
+エリノア, MDL_ElinorBaker(12year'sbefore).bmp
+
+#バートン家のメイド
+
+### ヴァネッサ＝レネ ###################################################
+ヴァネッサ＝レネ(通常)
+ヴァネッサ, MDL_VanessaRene.bmp
+
+ヴァネッサ＝レネ(笑顔)
+ヴァネッサ, MDL_VanessaRene(smile).bmp
+
+ヴァネッサ＝レネ(悲しみ)
+ヴァネッサ, MDL_VanessaRene(sad).bmp
+
+ヴァネッサ＝レネ(真剣)
+ヴァネッサ, MDL_VanessaRene(serious).bmp
+
+ヴァネッサ＝レネ(眼鏡)
+ヴァネッサ, MDL_VanessaRene(glasses).bmp
+
+ヴァネッサ＝レネ(サングラス)
+ヴァネッサ, MDL_VanessaRene(Sunglasses).bmp
+
+ヴァネッサ＝レネ(変装)
+ヴァネッサ, MDL_VanessaRene(disguise).bmp
+
+ヴァネッサ＝レネ(銃)
+ヴァネッサ, MDL_VanessaRene(gun).bmp
+
+ヴァネッサ＝レネ(本質)
+ヴァネッサ, MDL_VanessaRene(essence).bmp
+
+ヴァネッサ＝レネ(死亡)
+ヴァネッサ, MDL_VanessaRene(death).bmp
+
+ヴァネッサ＝レネ(学生)
+ヴァネッサ, MDL_VanessaRene(student).bmp
+
+#大手商社ブックワルドの国際部社員。マーガレットの元家庭教師
+
+### カロッスア＝ドゥーン ###############################################
+カロッスア＝ドゥーン(通常)
+カロッスア, MDL_CarossurDoone.bmp
+
+カロッスア＝ドゥーン(笑顔)
+カロッスア, MDL_CarossurDoone(smile).bmp
+
+カロッスア＝ドゥーン(笑み)
+カロッスア, MDL_CarossurDoone(Laugh).bmp
+
+カロッスア＝ドゥーン(驚き)
+カロッスア, MDL_CarossurDoone(surprise).bmp
+
+カロッスア＝ドゥーン(真剣)
+カロッスア, MDL_CarossurDoone(serious).bmp
+
+カロッスア＝ドゥーン(電話)
+カロッスア, MDL_CarossurDoone(tel).bmp
+
+カロッスア＝ドゥーン(銃)
+カロッスア, MDL_CarossurDoone(gun).bmp
+
+カロッスア＝ドゥーン(死亡)
+カロッスア, MDL_CarossurDoone(death).bmp
+
+カロッスア＝ドゥーン(十二年前)
+プゥペ, MDL_CarossurDoone(12year'sbefore).bmp
+
+カロッスア＝ドゥーン(十二年前)(傷)
+プゥペ, MDL_CarossurDoone(12year'sbefore)(W).bmp
+
+#大手商社ブックワルドの社員、アンファン幹部
+
+### リメルダ＝ユルグ ###################################################
+リメルダ＝ユルグ(通常)
+リメルダ, MDL_RimerdaJorg.bmp
+
+リメルダ＝ユルグ(攻撃)
+リメルダ, MDL_RimerdaJorg(attack).bmp
+
+リメルダ＝ユルグ(真剣)
+リメルダ, MDL_RimerdaJorg(serious).bmp
+
+リメルダ＝ユルグ(電話)
+リメルダ, MDL_RimerdaJorg(tel).bmp
+
+リメルダ＝ユルグ(銃)
+リメルダ, MDL_RimerdaJorg(gun).bmp
+
+リメルダ＝ユルグ(狙撃)
+リメルダ, MDL_RimerdaJorg(shoot).bmp
+
+リメルダ＝ユルグ(後半)
+リメルダ, MDL_RimerdaJorg(L).bmp
+
+リメルダ＝ユルグ(後半)(笑顔)
+リメルダ, MDL_RimerdaJorg(L)(smile).bmp
+
+リメルダ＝ユルグ(後半)(驚き)
+リメルダ, MDL_RimerdaJorg(L)(surprise).bmp
+
+#ガザッソニカ王国軍 親衛隊隊員。階級は中尉
+
+### フライデー＝マンデー ###############################################
+フライデー＝マンデー(通常)
+フライデー, MDL_FridayMonday.bmp
+
+フライデー＝マンデー(笑み)
+フライデー, MDL_FridayMonday(Laugh).bmp
+
+フライデー＝マンデー(嘲笑)
+フライデー, MDL_FridayMonday(sneer).bmp
+
+フライデー＝マンデー(驚き)
+フライデー, MDL_FridayMonday(surprise).bmp
+
+フライデー＝マンデー(真剣)
+フライデー, MDL_FridayMonday(serious).bmp
+
+フライデー＝マンデー(ファースタリ)
+フライデー, MDL_FridayMonday(firstari).bmp
+
+フライデー＝マンデー(素顔)
+フライデー, MDL_FridayMonday(TrueFace).bmp
+
+フライデー＝マンデー(傷)
+フライデー, MDL_FridayMonday(wounded).bmp
+
+フライデー＝マンデー(十二年前)
+フライデー, MDL_FridayMonday(12year'sbefore).bmp
+
+フライデー＝マンデー(十二年前)(傷)
+フライデー, MDL_FridayMonday(12year'sbefore)(W).bmp
+
+#犯罪組織アンファンの首領。ファースタリの所有者
+
+### クアンジッタ＝マリスン #############################################
+クアンジッタ＝マリスン
+クアンジッタ, MDL_KuanjittaMallison.bmp
+
+#“見据える者”。サースタリの所有者
+
+### ナハル #############################################################
+ナハル(ＭＡＤＬＡＸ)(通常)
+ナハル, MDL_Nahre.bmp
+
+ナハル(ＭＡＤＬＡＸ)(笑顔)
+ナハル, MDL_Nahre(smile).bmp
+
+ナハル(ＭＡＤＬＡＸ)(笑顔２)
+ナハル, MDL_Nahre(smile2).bmp
+
+#“見据える者”。クアンジッタの従者
+
+### レティシア #########################################################
+レティシア(ＭＡＤＬＡＸ)
+レティシア, MDL_Reticia.bmp
+
+レティシア(ＭＡＤＬＡＸ)(笑顔)
+レティシア, MDL_Reticia(smile).bmp
+
+レティシア(ＭＡＤＬＡＸ)(喜び)
+レティシア, MDL_Reticia(glad).bmp
+
+レティシア(ＭＡＤＬＡＸ)(安らぎ)
+レティシア, MDL_Reticia(peace).bmp
+
+レティシア(ＭＡＤＬＡＸ)(驚き)
+レティシア, MDL_Reticia(surprise).bmp
+
+レティシア(ＭＡＤＬＡＸ)(不安)
+レティシア, MDL_Reticia(uneasiness).bmp
+
+レティシア(ＭＡＤＬＡＸ)(恐怖)
+レティシア, MDL_Reticia(fear).bmp
+
+レティシア(ＭＡＤＬＡＸ)(悲しみ)
+レティシア, MDL_Reticia(sad).bmp
+
+レティシア(ＭＡＤＬＡＸ)(ラストシーン)
+レティシア, MDL_Reticia(LastScene).bmp
+
+#聖都にいる少女。常に人形を抱えている
+
+### プゥペ #############################################################
+プゥペ(ＭＡＤＬＡＸ)
+プゥペ, MDL_Poupee.bmp
+
+プゥペ(ＭＡＤＬＡＸ)(笑顔)
+プゥペ, MDL_Poupee(smile).bmp
+
+#聖都にいる少年
+
+
+### 重要サブキャラ #####################################################
+
+### マーガレットの両親
+マーガレットの父親
+バートン, MDL_Margaret'sFather.bmp
+
+マーガレットの父親(本質)
+バートン, MDL_Margaret'sFather(essence).bmp
+
+マーガレットの父親(銃)
+バートン, MDL_Margaret'sFather(gun).bmp
+
+マーガレットの父親(銃)(本質)
+バートン, MDL_Margaret'sFather(gun)(essence).bmp
+
+#バートン大佐。傭兵部隊の軍事顧問。コードネーム“マドラックス”
+#認識票にはRICHARD・K・BURTONと記されていた。(劇中では弾痕があり判読不能)
+
+マーガレットの母親
+マーガレットの母親, MDL_Margaret'sMother.bmp
+
+#１２年前の飛行機事故で死亡。ＣＶは特別出演の三石琴乃
+
+### チャーリー
+チャーリー＝ウィンストン
+チャーリー, MDL_CharryWinston.bmp
+
+チャーリー＝ウィンストン(苦笑)
+チャーリー, MDL_CharryWinston(bitter).bmp
+
+チャーリー＝ウィンストン(電話)
+チャーリー, MDL_CharryWinston(tel).bmp
+
+#ブックワルド国際部社員。ヴァネッサの部下
+
+### ＳＳＳ
+スリースピード
+ＳＳＳ, MDL_SSS.bmp
+
+#マドラックスに仕事を仲介するエージェント
+
+
+### サブキャラ #########################################################
+
+### 第01話
+ピート＝アニアン
+ピート, MDL_PeetAniane.bmp
+
+ピート＝アニアン(重傷)
+ピート, MDL_PeetAniane(wounded).bmp
+
+#武装抵抗組織ガルザの青年兵士
+
+ナイマン(ＭＡＤＬＡＸ)
+ナイマン, MDL_Nyman.bmp
+
+ナイマン(ＭＡＤＬＡＸ)(死亡)
+ナイマン, MDL_Nyman(death).bmp
+
+#武装抵抗組織ガルザの兵士。ピートにおやっさんと呼ばれ慕われている
+
+軍曹(ＭＡＤＬＡＸ)
+軍曹, MDL_Sergeant.bmp
+
+#ガザッソニカ王国軍の軍曹
+
+記者(ＭＡＤＬＡＸ)
+記者, MDL_Journalist.bmp
+
+#マドラックスが飛び降りたヘリに同乗していた記者
+
+### 第02話
+教師(ＭＡＤＬＡＸ)
+教師, MDL_Teacher.bmp
+
+#マーガレットのクラスの数学教師
+
+女学生Ａ(ＭＡＤＬＡＸ)
+女学生, MDL_SchoolGirlA.bmp
+
+女学生Ｂ(ＭＡＤＬＡＸ)
+女学生, MDL_SchoolGirlB.bmp
+
+#マーガレットのクラスメイト
+
+部長(ＭＡＤＬＡＸ)
+部長, MDL_Director.bmp
+
+部長(ＭＡＤＬＡＸ)(一部分)
+部長, MDL_Director(part).bmp
+
+#ブックワルド国際部の部長。ヴァネッサとチャーリーの上司
+
+### 第03話
+グエン＝マクニコル
+グエン, MDL_NguyenMcNichol.bmp
+
+グエン＝マクニコル(覚悟)
+グエン, MDL_NguyenMcNichol(preparedness).bmp
+
+#ガザッソニカ王国軍 陸軍司令官
+
+秘書官(ＭＡＤＬＡＸ)
+秘書官, MDL_Secretary.bmp
+
+#グエンの秘書官
+
+情報屋(ＭＡＤＬＡＸ)
+情報屋, MDL_Dopester.bmp
+
+#ガザッソニカの情報屋。普段は古物商を営んでいる
+
+ガザッソニカ親衛隊隊長
+親衛隊隊長, MDL_BodyguardsCaptain.bmp
+
+#ガザッソニカ王国軍親衛隊の隊長。リメルダの上官
+
+### 第04話
+ピエデリカ＝モレイ
+モレイ, MDL_PiedelicaMorey.bmp
+
+#ナフレスの地方議員
+
+アンヌ＝モレイ
+アンヌ, MDL_AnneMorey.bmp
+
+アンヌ＝モレイ(催眠)
+アンヌ, MDL_AnneMorey(trance).bmp
+
+#ピエデリカの娘
+
+マクレー＝マリーニ
+マクレー, MDL_McraeMarini.bmp
+
+マクレー＝マリーニ(真剣)
+マクレー, MDL_McraeMarini(serious).bmp
+
+マクレー＝マリーニ(放心)
+マクレー, MDL_McraeMarini(absent).bmp
+
+#ナフレス市警
+
+若手刑事(ＭＡＤＬＡＸ)
+刑事, MDL_YoungPolice.bmp
+
+#マクレーの部下
+
+鑑識(ＭＡＤＬＡＸ)
+鑑識, MDL_Identification.bmp
+
+#アンヌのＰＣを調べた鑑識官
+
+関係者(ＭＡＤＬＡＸ)
+関係者, MDL_PersonsConcerned.bmp
+
+#ピエデリカの関係者
+
+### 第05話
+クリス＝クラーナ
+クリス, MDL_ChrisClan.bmp
+
+クリス＝クラーナ(真剣)
+クリス, MDL_ChrisClan(serious).bmp
+
+クリス＝クラーナ(笑顔)
+クリス, MDL_ChrisClan(smile).bmp
+
+クリス＝クラーナ(悲しみ)
+クリス, MDL_ChrisClan(sad).bmp
+
+クリス＝クラーナ(十二年前)
+クリス, MDL_ChrisClan(12year'sbefor).bmp
+
+#ガルザの指導者ミン＝デュルク将軍の息子……ということになっていた
+#マーガレットと同じ飛行機に乗っていた、１２年前の事件で歪められた者
+
+### 第06話
+フェリック(ＭＡＤＬＡＸ)
+フェリック, MDL_Ferik.bmp
+
+#マーガレットの主治医
+
+キアラ(ＭＡＤＬＡＸ)
+キアラ, MDL_Chiara.bmp
+
+#マーガレットのクラスメイト
+
+モーリス＝ロペス
+ロペス, MDL_MorrisLopez.bmp
+
+モーリス＝ロペス(笑顔)
+ロペス, MDL_MorrisLopez(smile).bmp
+
+モーリス＝ロペス(本)
+ロペス, MDL_MorrisLopez(book).bmp
+
+モーリス＝ロペス(本)(催眠)
+ロペス, MDL_MorrisLopez(book)(trance).bmp
+
+モーリス＝ロペス(催眠)
+ロペス, MDL_MorrisLopez(trance).bmp
+
+モーリス＝ロペス(催眠)(攻撃)
+ロペス, MDL_MorrisLopez(trance)(A).bmp
+
+モーリス＝ロペス(催眠)(ダメージ)
+ロペス, MDL_MorrisLopez(trance)(D).bmp
+
+#バートン家の財産を狙う、マーガレットのクラスメイト
+
+モーリス＝ロペスの友人
+友人, MDL_FriendOfLopez.bmp
+
+#ロペスの友人。家柄は低い
+
+### 第07話
+エリック＝ジラン
+エリック, MDL_EricGillain.bmp
+
+エリック＝ジラン(笑顔)
+エリック, MDL_EricGillain(smile).bmp
+
+エリック＝ジラン(茫然)
+エリック, MDL_EricGillain(vacant).bmp
+
+エリック＝ジラン(サングラス)
+エリック, MDL_EricGillain(Sunglasses).bmp
+
+エリック＝ジラン(無精髭)
+エリック, MDL_EricGillain(stubble).bmp
+
+#ビブリオ・ディテクティヴ(書籍専門の探偵)
+
+ルシール(ＭＡＤＬＡＸ)
+ルシール, MDL_Lucir.bmp
+
+ルシール(ＭＡＤＬＡＸ)(電話)
+ルシール, MDL_Lucir(tel).bmp
+
+#言語学者。エリックの元恋人
+
+### 第09話
+ルチアーノ(ＭＡＤＬＡＸ)
+ルチアーノ, MDL_Luciano.bmp
+
+ルチアーノ(ＭＡＤＬＡＸ)(ヘルメット)
+ルチアーノ, MDL_Luciano(helmet).bmp
+
+ルチアーノ(ＭＡＤＬＡＸ)(狙撃)
+ルチアーノ, MDL_Luciano(shoot).bmp
+
+ルチアーノ(ＭＡＤＬＡＸ)(重傷)
+ルチアーノ, MDL_Luciano(wounded).bmp
+
+#かつてガザッソニカで活動していたエージェント。マドラックスの知人
+
+重役(ＭＡＤＬＡＸ)
+重役, MDL_Executive.bmp
+
+#大手商社ブックワルドの重役
+
+### 第10話
+バッジス(ＭＡＤＬＡＸ)
+バッジス, MDL_Burgess.bmp
+
+#ヴァネッサの大学時代の友人
+#市販パソコン2300台を繋げたスーパーコンピュータを所有する
+
+### 第11話
+アインス(ＭＡＤＬＡＸ)
+アインス, MDL_Eins.bmp
+
+#ガザッソニカに住む少年。アンファンのデータが偶然転送された端末の所有者
+
+現場責任者(ＭＡＤＬＡＸ)
+現場責任者, MDL_PersonInCharge.bmp
+
+#ブックワルドがガザッソニカに送った船便の責任者
+
+店主(ＭＡＤＬＡＸ)
+店主, MDL_StoreKeeper.bmp
+
+#ガザッソニカのコンピュータショップの店員
+
+### 第14話
+侍女(ＭＡＤＬＡＸ)
+侍女, MDL_lady'smaid.bmp
+
+#クアンジッタの侍女
+
+### 第17話
+保安局員(ＭＡＤＬＡＸ)
+保安局員, MDL_SecurityBureau.bmp
+
+#ナフレス国際保安局の局員
+
+### 第18話
+駐在員(ＭＡＤＬＡＸ)
+駐在員, MDL_Residence.bmp
+
+#ナフレスのガザッソニカ駐在員
+
+
+### 汎用・ザコ #########################################################
+
+### ガザッソニカ兵士
+ガザッソニカ兵士Ａ
+兵士, MDL_Soldier.bmp
+
+ガザッソニカ兵士Ａ(汎用)
+兵士, MDL_Soldier(general).bmp
+
+ガザッソニカ兵士Ｂ
+兵士, MDL_Soldier(B).bmp
+
+ガザッソニカ兵士Ｂ(汎用)
+兵士, MDL_Soldier(B)(general).bmp
+
+ガザッソニカ兵士Ｃ
+兵士, MDL_Soldier(C).bmp
+
+ガザッソニカ兵士(スコープ)
+兵士, MDL_Soldier(scope).bmp
+
+### ガザッソニカ親衛隊
+ガザッソニカ親衛隊
+親衛隊員, MDL_Bodyguards.bmp
+
+ガザッソニカ親衛隊(汎用)
+親衛隊員, MDL_Bodyguards(general).bmp
+
+### アンファンの者
+アンファンの者Ａ
+アンファンの者, MDL_EnfantPerson(A).bmp
+
+アンファンの者Ａ(汎用)
+アンファンの者, MDL_EnfantPerson(A)(general).bmp
+
+アンファンの者Ｂ
+アンファンの者, MDL_EnfantPerson(B).bmp
+
+アンファンの者Ｃ
+アンファンの者, MDL_EnfantPerson(C).bmp
+#黒服たちを指揮していた男。第11話に登場

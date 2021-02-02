@@ -1,0 +1,293 @@
+
+# ・使用している非汎用グラフィック画像
+# マシュー＝パテル……M_Vampire(S)U.bmp(非登録画像パック「上級吸血鬼」。Unitフォルダに格納してください)
+
+
+# アイテム
+汎用
+The Power of LOVE, 振る武器 Weapon\EFFECT_Youtou03.bmp
+The Power of LOVE(攻撃), 発射連続描画 Attack\EFFECT_Swing(Pink)[01-04].bmp 48 1.5 3 Swing(2).wav
+The Power of LOVE(命中), 唐竹割り ピンク Slash(3).wav;唐竹割り ピンク Slash(3).wav;唐竹割り ピンク Slash(3).wav
+The Power of Understanding, 振る武器 Weapon\EFFECT_GiantSword02.bmp 64
+The Power of Understanding(攻撃), 発射連続描画 Slash\EFFECT_SlashLine[01-04].bmp 120 3 1 Swing(3).wav
+The Power of Understanding(命中), 超斬撃 黒 Transform.wav
+
+
+スコット＝ピルグリム
+カウンターパンチ(命中), @戦闘アニメ_打突攻撃;超打 FightHit(4).wav
+Fight, 格闘
+Headbutt(攻撃), ヘッドバット
+Headbutt(命中), 強打
+Hayate(攻撃), スーパーパンチ オレンジ AntiAirMissile.wav
+Hayate(命中), スーパーパンチ オレンジ
+Fukiage(攻撃), デフォルト;_
+	SCOTT_二重連続描画 Fire\EFFECT_FlameThrowerHit(Red)[01-05].bmp 60 _
+	Impact\EFFECT_GrandEffect(Orange)[01-05].bmp 120 2 1 背面 角度=90 Swing(3).wav 下辺 下辺２ 保持
+Fukiage(命中), 強打
+Bakuma-Ryujin W Kick(攻撃), SCOTT_バックジャンプ 正 速 BeamGun.wav
+Bakuma-Ryujin W Kick(命中), 打撃;強打
+Awesome COMBO！(攻撃), アッパー
+Awesome COMBO！(命中), 超アッパー;透明化 相手ユニットＩＤ;SCOTT_バックジャンプ 正 速 高 アッパー;_
+	透明化 相手ユニットＩＤ 解除;SCOTT_コンボ
+Awesome COMBO！(解説), $(ユニット)は空中コンボをしかけた。
+当て身技(Reversal！), 発光 ピンク Flair.wav
+
+# SCOTT_コンボ、SCOTT_バックジャンプ、SCOTT_二重連続描画
+
+
+ラモーナ＝フラワーズ
+チタニウムバット, 殴打武器 DGoods\EFFECT_MetalButt01.bmp
+ラージハンマー, 大金槌
+旋円蹴, 浴びせ蹴り
+気功掌打(攻撃), デフォルト;実弾発射 Common\EFFECT_SonicBoom(Orange)01.bmp 48 Bazooka.wav
+気功掌打(命中), 強打
+テレポート(サブスペース・ハイウェイ), 変形 Map\Gate\gate2001.bmp Door(Close).wav;瞬間変形
+
+
+ナイブス＝チャウ
+ＬＯＶＥ煙(攻撃), デフォルト;文字発射 ＬＯＶＥ 白 Jump.wav 遅
+ＬＯＶＥ煙(命中), 煙
+ナイフ, 斬撃武器 Weapon\EFFECT_Chinquedea01.bmp 二刀流
+投剣(準備), -
+投剣(攻撃), 投擲武器 Weapon\EFFECT_Chinquedea(T)01.bmp
+投剣(命中), 刺突
+旋風脚(攻撃), スピンキック
+旋風脚(命中), 強打
+爆裂ナイフ(準備), -
+爆裂ナイフ(攻撃), SCOTT_高速準備 Weapon\EFFECT_Chinquedea01.bmp 二刀流;斬撃 二刀流;_
+	実弾発射 Weapon\EFFECT_MulchThrowingSword02.bmp 48 -.wav
+爆裂ナイフ(命中), 小爆発;爆発
+スーパーチャイニーズキック(攻撃), ジャンプ;透明化 対象ユニットＩＤ 反映
+スーパーチャイニーズキック(命中), スーパータックル ピンク FightHit(1).wav
+
+# SCOTT_高速準備
+
+
+マシュー＝パテル
+格闘, 格闘
+アグニフィスト(攻撃), 振る武器突撃 Fire\EFFECT_Fire(Red)01.bmp 二刀流 Fire.wav;打突;打突
+アグニフィスト(命中), 打撃;打撃;爆発
+チャージファイア(攻撃), 波動放射 赤
+チャージファイア(命中), 爆発
+デーモンガールズ(攻撃), 連続描画 Light\EFFECT_LightScreen(Yellow)[01-01].bmp 48 5 1 BeamCoat.wav 背面;_
+	周囲回転 M_Vampire(S)U.bmp 3 Explode(Small).wav 対象ユニットＩＤ
+ガールズファイヤーボール(攻撃), 対戦車ライフル M_Vampire(S)U.bmp 32 4;対戦車ライフル M_Vampire(S)U.bmp 32 4
+ガールズファイヤーボール(命中), 大爆発
+脱出, @戦闘アニメ_SCOTT_二重連続描画攻撃 Beam\EFFECT_DBeam(White)[01-05].bmp 64 Beam\EFFECT_DBeam(White)[05-01].bmp _
+	64 10 1 Charge(long).wav 角度=90 角度２=-90 上下反転 背面 背面２ 相手ユニットＩＤ;_
+	透明化 相手ユニットＩＤ 反映;@戦闘アニメ_光球放出攻撃 Explode(Far).wav 相手ユニットＩＤ
+
+# SCOTT_二重連続描画
+
+
+ルーカス＝リー
+打ち下ろしパンチ(攻撃), 打突
+打ち下ろしパンチ(命中), 打撃 FightHit(3).wav
+ボードクラッシュ(攻撃), 大斬撃 黒
+ボードクラッシュ(命中), 強打
+ジャイアントスイング, ジャイアントスイング
+プロのテク(攻撃), スーパータックル 黒
+プロのテク(命中), スーパータックル 黒 Explode.wav;スーパーキック 黒 Explode.wav
+脱出, 消滅脱出 BeamCannon.wav
+
+
+トッド＝イングラム
+放電(攻撃), 大放電 青 対象ユニットＩＤ
+放電(命中), 大電撃 青
+テレキネシス(攻撃), 発光 白 対象ユニットＩＤ Flair.wav
+テレキネシス(命中), 打撃 BreakOff.wav;_
+	SCOTT_バックジャンプ 高 垂直 遅 相手ユニットＩＤ -.wav
+とっどのじゅつ(攻撃), 連続描画 Common\EFFECT_RosePetal(Orange)[01-01].bmp 44 1 1 上辺 背面 保持 BeamSaber(4).wav;_
+	連続描画 Common\EFFECT_RosePetal(Orange)[01-01].bmp 44 1 1 背面 保持;_
+	連続描画 Common\EFFECT_RosePetal(Orange)[01-01].bmp 44 4 1 下辺 背面 保持;_
+	実弾発射 Common\EFFECT_RosePetal(Orange)01.bmp 44 -.wav
+とっどのじゅつ(命中), 連打
+Ｔ９９９９(準備), ガイドメッセージ ＷＡＲＮＩＮＧ 緑 Warning.wav
+Ｔ９９９９(攻撃), 変形 Anime\Creature\EFFECT_Demon01.bmp Fold.wav;_
+	SCOTT_二重連続描画 Attack\EFFECT_Tentacle(Blue)[01-06].bmp 80 Attack\EFFECT_Tentacle(Purple)[01-06].bmp 80 _
+	3 1 MultipleRocketLauncher(Light).wav 発射 上下反転;_
+	SCOTT_二重連続描画 Attack\EFFECT_Tentacle(Blue)[01-06].bmp 120 Attack\EFFECT_Tentacle(Purple)[01-06].bmp 120 _
+	2 1 -.wav 発射 上下反転;_
+	SCOTT_二重連続描画 Attack\EFFECT_Tentacle(Blue)[01-06].bmp 120 Attack\EFFECT_Tentacle(Purple)[01-06].bmp 160 _
+	2 2 -.wav 発射 上下反転
+Ｔ９９９９(命中), 強打
+インクレディブルベースソロ(攻撃), ＭＡＰフラッシュ 水色 Guitar.wav
+インクレディブルベースソロ(命中), 強打
+攻撃無効化(ＡＴフィールド), 網目バリア Sword.wav 別名=ＡＴフィールド 青
+攻撃無効化(超ベースパワー), バリア 別名=超ベースパワー Guitar.wav
+脱出, Fold.wav;@戦闘アニメ_連続描画攻撃 Common\EFFECT_Particle(Blue)[03-01].bmp 40 6 1 _
+	背面 保持 -.wav 相手ユニットＩＤ;_
+	@戦闘アニメ_連続描画攻撃 Common\EFFECT_Particle(Blue)[03-01].bmp 40 6 1 上辺 背面 -.wav 相手ユニットＩＤ;_
+	透明化 相手ユニットＩＤ;@戦闘アニメ_SCOTT_二重連続描画攻撃 Light\EFFECT_BurnOff(Blue)[01-09].gif 120 _
+	Light\EFFECT_BurnOff(Green)[01-09].gif 80 6 1 角度=90 Explode.wav 相手ユニットＩＤ
+ 
+
+# SCOTT_バックジャンプ、SCOTT_二重連続描画
+
+
+エンヴィ＝アダムス
+ジャガートゥース(攻撃), SCOTT_スーパーキック改
+ジャガートゥース(命中), スーパーキック
+ヘビーキック(攻撃), なぎ払い
+ヘビーキック(命中), 強打
+天空脚(攻撃), キック
+天空脚(命中), 超アッパー Crash.wav
+
+# SCOTT_スーパーキック改
+
+
+リネット＝ガイコット
+バイオニックアーム(攻撃), @戦闘アニメ_飛沫命中 対象ユニットＩＤ 白 -.wav;連打
+バイオニックアーム(命中), 連打
+ロングアーム(攻撃), デフォルト;SCOTT_回転連続描画 Beam\EFFECT_Beam(White)[04-05].bmp 60 1 1 発射 保持 Swing.wav
+ロングアーム(命中), 小ビーム 白 Punch.wav
+グランドアーム(攻撃), デフォルト;SCOTT_二重連続描画 Beam\EFFECT_Beam(White)[04-05].bmp 48 _
+	Impact\EFFECT_GrandEffect(Orange)[01-02].bmp 64 1 1 角度=270 保持 Bazooka.wav
+グランドアーム(命中), SCOTT_二重連続描画 Beam\EFFECT_BeamHit(White)[01-06].bmp 48 _
+	Impact\EFFECT_GrandEffect(Orange)[01-01].bmp 64 3 1 角度=90 相手ユニットＩＤ Bazooka.wav;強打 -.wav
+
+# SCOTT_二重連続描画
+
+
+ロクサーヌ＝リヒター
+レプリカアタック(攻撃), 煙 対象ユニットＩＤ Explode(Small).wav;瞬間変形 Anime\DGoods\EFFECT_NailButt01.bmp 反映
+レプリカアタック(命中), 瞬間変形 対象ユニットＩＤ;急降下 Slash.wav
+スラッシュコンボ(攻撃), 斬撃;振り上げ;唐竹割り;刺突
+スラッシュコンボ(命中), 斬撃;振り上げ;唐竹割り;刺突;SCOTT_背向け 1 上下反転;強打
+フラッシュソード(攻撃), SCOTT_高速準備 Weapon\EFFECT_SnakeBlade01.bmp Reload(5).wav;_
+	発射連続描画 Slash\EFFECT_SlashLine(White)[01-04].bmp 200 3 1 Swing(2).wav
+フラッシュソード(命中), 振り上げ大斬撃
+分身の術(攻撃), 煙 対象ユニットＩＤ Explode(Small).wav;透明化 対象ユニットＩＤ;_
+	ＭＡＰ実弾発射 ("Unit\" & Info("ユニット",対象ユニットＩＤ,"グラフィック")) Whiz.wav
+分身の術(命中), スーパータックル乱舞 Slash.wav
+当て身技(イミテイトレプリカ), 煙 相手ユニットＩＤ Explode(Small).wav;_
+	瞬間変形 Anime\DGoods\EFFECT_NailButt01.bmp 相手ユニットＩＤ 反映
+テレポート(サブスペース・ハイウェイ), 変形 Map\Gate\gate2001.bmp Door(Close).wav;瞬間変形
+脱出, @戦闘アニメ_縦分割とどめ;@戦闘アニメ_飛沫命中 白 UnitOn.wav;UnitOn.wav
+
+# SCOTT_高速準備、SCOTT_背向け
+
+
+Ｍｒ．チャウ
+サムライソード, 日本刀
+居合(攻撃), SCOTT_回転連続描画 Attack\EFFECT_Swing[01-04].bmp 80 1.5 1 発射 角度=45 Swing(2).wav
+居合(命中), 超斬撃 水色 Slash.wav
+一刀両断(攻撃), @戦闘アニメ_テレポート発動 Saber.wav "　";透明化 対象ユニットＩＤ 反映;_
+	決め文字 ｜｜｜ グレイ -.wav 相手ユニットＩＤ;_
+	連続描画 Hit\EFFECT_StrongSlashHit(Blue)[01-03].bmp 96 1 1 Slash(4).wav 相手ユニットＩＤ
+一刀両断(命中), SCOTT_回転連続描画 Hit\EFFECT_SuperSlashHit(LightBlue)[01-03].bmp 60 2 1 _
+	角度=90 Slash.wav 相手ユニットＩＤ
+十文字閃(攻撃), @戦闘アニメ_テレポート発動 Saber.wav "　";透明化 対象ユニットＩＤ 反映;_
+	決め文字 "┼┼┼" グレイ -.wav 相手ユニットＩＤ;_
+	連続描画 Hit\EFFECT_StrongSlashHit(Blue)[01-03].bmp 96 1 1 Slash(4).wav 相手ユニットＩＤ;_
+	SCOTT_回転連続描画 Hit\EFFECT_StrongSlashHit(Blue)[01-03].bmp 96 1 1 Slash(4).wav 角度=270 相手ユニットＩＤ
+十文字閃(命中), SCOTT_回転連続描画 Hit\EFFECT_SuperSlashHit(LightBlue)[01-03].bmp 60 2 1 _
+	角度=90 Slash.wav 相手ユニットＩＤ;_
+	連続描画 Hit\EFFECT_SuperSlashHit(LightBlue)[01-03].bmp 60 2 1 角度=90 Slash.wav 相手ユニットＩＤ
+
+# SCOTT_回転連続描画
+
+
+カイル＆ケン
+シンクロアタック(攻撃), デフォルト;実弾発射 Attack\EFFECT_Stick(H)06.bmp Swing.wav
+シンクロアタック(命中), 打撃
+ツインコンビネーション(攻撃), 透明化 対象ユニットＩＤ 反映;_
+	SCOTT_二重連続描画 Beam\EFFECT_MBeam(White)[04-05].bmp 60 Beam\EFFECT_MBeam(Black)[04-05].bmp 60 1 1 _
+	発射 角度２=30 Whiz.wav
+ツインコンビネーション(命中), 中ビーム 白 ランダム方向 FightHit(1).wav;中ビーム 黒 ランダム方向 FightHit(1).wav
+シミュルパンチ(攻撃), 連続描画 Hit\EFFECT_Hit(White)[01-01].bmp 24 1 1 Transform.wav;_
+	決め文字 TWIN-LINK -.wav 対象ユニットＩＤ;デフォルト;_
+	実弾発射 Common\EFFECT_SonicBoom(LightBlue)02.bmp 60 遅 AntiShipMissile.wav
+シミュルパンチ(命中), 超打 Explode(Nuclear).wav
+ダブルハリケーンキック(攻撃), 連続描画 Hit\EFFECT_Hit(White)[01-01].bmp 24 1 1 Transform.wav;_
+	決め文字 TWIN-LINK -.wav 対象ユニットＩＤ;_
+	地面衝撃 白 対象ユニットＩＤ -.wav;SCOTT_バックジャンプ 垂直 回転 旋回音 Swing(3).wav
+ダブルハリケーンキック(命中), 超打 Crash.wav
+脱出, @戦闘アニメ_SCOTT_二重連続描画攻撃 Beam\EFFECT_HBeamHit(black)[01-06].bmp 120 _
+	Beam\EFFECT_HBeamHit(White)[01-06].bmp 120 10 1 上下反転 下辺 下辺２ 角度=90 角度２=90 AntiShipMissile.wav
+
+# SCOTT_二重連続描画、SCOTT_バックジャンプ
+
+
+双子のスーパーファイティングロボット
+火炎放射(攻撃), 火炎弾;火炎弾;火炎弾
+火炎放射(命中), 炎
+リモコンハンド(攻撃), ロケットパンチ Hand\EFFECT_Punch(White)02.bmp 48
+リモコンハンド(命中), 打撃 BreakOff.wav;連続描画 CT\EFFECT_Shock[01-01].bmp 40 4 1
+ミサイルシャワー(攻撃), 打ち上げ Bullet\EFFECT_Missile05.bmp 64 Missile.wav;_
+	打ち上げ Bullet\EFFECT_Missile04.bmp 64 Missile.wav;打ち上げ Bullet\EFFECT_Missile05.bmp 64 Missile.wav
+ミサイルシャワー(命中), 連続爆発
+必殺ビーム(攻撃), 発射連続描画 Beam\EFFECT_LBeam(LightBlue)[01-03].bmp 120 5 1 Charge(high).wav;_
+	Laser.wav;発射連続描画 Beam\EFFECT_Beam(LightBlue)[05-06].bmp 360 0.6 10
+必殺ビーム(命中), ダメージ 水色 Explode.wav
+
+
+ロボット０１
+格闘, 格闘
+ビーム, ビームランチャー Hand\EFFECT_ShiningHand(White)01.bmp 40
+
+
+ネガスコット
+Fight, 格闘
+Headbutt(攻撃), ヘッドバット
+Headbutt(命中), 強打
+Nega Hado-Ken(攻撃), デフォルト;髑髏弾 紫 AntiAirMissile.wav
+Nega Hado-Ken(命中), 炎 紫 Fire(2).wav
+Bakuma-Ryujin W Kick(攻撃), SCOTT_バックジャンプ 正 速 BeamGun.wav
+Bakuma-Ryujin W Kick(命中), 打撃;強打
+Terrible COMBO！(攻撃), アッパー
+Terrible COMBO！(命中), 超アッパー;透明化 相手ユニットＩＤ;SCOTT_バックジャンプ 正 速 高 アッパー;_
+	透明化 相手ユニットＩＤ 解除;SCOTT_コンボ
+Terrible COMBO！(解説), $(ユニット)は空中コンボをしかけた。
+
+# SCOTT_バックジャンプ、SCOTT_コンボ
+
+
+ギデオン＝グレイブス
+エモーショナルウォーフェア(攻撃), ＭＡＰビーム 白
+エモーショナルウォーフェア(命中), ユニット変色 白
+ファストカット, なぎ払い
+スラッシュウェイブ(攻撃), 振り上げ Swing(2).wav;実弾発射 Bullet\EFFECT_BigGroundWave(Blue)01.gif 32 -.wav
+スラッシュウェイブ(命中), 斬撃 青
+クロススラッシュ(攻撃), SCOTT_二重連続描画 Attack\EFFECT_Swing(Yellow)[01-05].bmp 40 _
+	Attack\EFFECT_Swing(Yellow)[01-05].bmp 40 2 1 左右反転 角度=180 発射 Swing(2).wav
+クロススラッシュ(命中), クリティカル斬撃
+バックスタブ(攻撃), @戦闘アニメ_テレポート発動 Whiz.wav "　";透明化 対象ユニットＩＤ 反映
+バックスタブ(命中), SCOTT_バックスタブ
+当て身技(Counter！), 発光 黄 Flair.wav
+脱出, 消滅脱出 Mist.wav;@戦闘アニメ_SCOTT_回転連続描画攻撃 Beam\EFFECT_LBeam(Yellow)[03-01].bmp 96 3 1 _
+	角度=90 Callsign.wav 相手ユニットＩＤ
+
+# SCOTT_バックスタブ、SCOTT_回転連続描画、SCOTT_二重連続描画
+
+
+スーパーギデオン
+ヒールソード(攻撃), 振り上げ;斬撃 -.wav
+ヒールソード(命中), 打撃
+エンジェリックチャージ(攻撃), 翼突撃 二刀流 Swing.wav
+エンジェリックチャージ(命中), 強打
+メテオラッシュ(攻撃), 急降下;透明化 対象ユニットＩＤ 反映
+メテオラッシュ(命中), @戦闘アニメ_隕石攻撃;爆発
+ギガトンフォール(攻撃), 急降下;透明化 対象ユニットＩＤ 反映;打ち下ろし Rock\EFFECT_LargeRock01.bmp 120
+ギガトンフォール(命中), 大爆発
+インビンシブル, ユニット変色 白 Roar.wav
+インビンシブル(解説), $(ユニット)は無敵になった。
+攻撃無効化, -
+
+
+ギガデオン
+球雷(攻撃), 実弾発射 Common\EFFECT_LargeElectric(LightBlue)01.bmp BeamSaber(5).wav 遅
+球雷(命中), 電撃
+放電(攻撃), 大放電 水色 対象ユニットＩＤ
+放電(命中), 大電撃 水色
+地割れ(攻撃), 斬撃;地面衝撃 オレンジ Bazooka.wav;振動 Earthquake.wav
+地割れ(命中), 連続描画 Common\EFFECT_Thunder(Black)[01-05].bmp 80 3 1 背面 Earthquake.wav
+髑髏(攻撃), 髑髏弾 赤 Bearing.wav
+髑髏(命中), 飛沫 赤 Crash.wav
+落雷(攻撃), デフォルト
+落雷(命中), 落雷 水色
+巨大拳(攻撃), 実弾発射 Attack\EFFECT_Stick(R)01.bmp 64 Swing(3).wav
+巨大拳(命中), 超打
+大髑髏(攻撃), 平行弾幕 Bullet\EFFECT_EnergySkull(Red)01.bmp 96 個数=1 回数=3 速 Missile.wav
+大髑髏(命中), 連打;飛沫 赤 Crash.wav
+

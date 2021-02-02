@@ -1,0 +1,66 @@
+#
+#　データ作成：ＧＡＭＥＭＡＳＴＥＲ
+#
+#　原作：TAITO CORPORATION
+
+Ｒ－ＧＲＡＹシリーズ
+ショット(１), MachineCannon.wav
+ロックオンレーザー(１), Beam.wav
+ロックオンレーザー斉射(１), ;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav
+ハイパーレーザー(１), ;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav
+スペシャルアタック, MicroMissile.wav
+レーザー(２), Hittyuu.wav
+ロックオンレーザー(２), Thunder.wav
+ロックオンレーザー斉射(２), Thunder.wav
+ハイパーレーザー(２), ;8;Thunder.wav;8;Storm.wav
+ショット(０), MachineCannon.wav
+ロックオンレーザー(０), Beam.wav
+ロックオンレーザー斉射(０), ;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav
+集中ロックオンレーザー, ;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav
+
+セシリア連合軍兵器
+機銃, MachineGun.wav
+機雷, Cannon.wav
+誘導ミサイル, Missile.wav
+レーザー, BeamShot.wav
+連装レーザー砲, ;1;Beam.wav;1;Beam.wav
+誘導弾, BeamShot.wav
+ハンドガン, MachineGun.wav
+バスターランチャー, Beam.wav
+大型レーザー砲, ;10;Charge(High).wav;10;MicroMissile.wav
+光子魚雷, Cannon.wav
+多方向レーザー, Saber.wav
+大型レーザー砲斉射, ;10;Charge(High).wav;10;MicroMissile.wav
+ＭＬＳ(準備), ;10;Charge(High).wav
+ＭＬＳ, ;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav
+阻止(迎撃型回転翼機クラサス), ;8;Helicopter.wav;BeamShot.wav
+拡散弾, MultipleRocketLauncher(Light).wav
+速射弾, FastGun.wav
+大型誘導ミサイル(準備), Missile.wav
+大型誘導ミサイル, Explode(Far).wav
+クレイジービット(準備), Cannon.wav
+クレイジービット, LaserGun.wav
+阻止(汎用型高機動ビット), ;8;Missile.wav;BeamShot.wav
+汎用型高機動ビット(準備), Missile.wav
+汎用型高機動ビット, BeamShot.wav
+炸裂弾, Cannon.wav
+阻止(レーザーブレード弾), ;8;Cannon.wav;BeamSaber.wav
+レーザーブレード弾(準備), Cannon.wav
+レーザーブレード弾, BeamSaber.wav
+サーチレーザー砲, ;2;BeamSaber.wav;2;BeamSaber.wav;2;BeamSaber.wav;2;BeamSaber.wav
+
+セシリア連合軍戦艦
+誘導ミサイル, Missile.wav
+誘導レーザー砲, BeamShot.wav
+阻止(グランドゲイザー砲), GunPod.wav
+機銃, MachineGun.wav
+グランドゲイザー砲, GunPod.wav
+３連装レールガン, ;1;Cannon.wav;1;Cannon.wav;1;Cannon.wav
+機雷, Cannon.wav
+尾翼, FlyBy.wav
+翼部レーザー砲, Warship.wav
+レフレクタービット(準備), Cannon.wav
+レフレクタービット, Beam.wav
+８連装対艦ミサイル, MultipleRocketLauncher.wav
+全方向型誘導レーザー砲, ;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav
+

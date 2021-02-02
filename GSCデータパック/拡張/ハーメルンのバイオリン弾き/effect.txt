@@ -1,0 +1,21 @@
+
+
+
+
+勇者ハーメル
+魔曲, Sharara.wav
+魔曲(命中), $(Call(HAMELN_魔曲演奏,C_Khachaturian_SabreDance.mid));「ハチャトリアン作『剣の舞』！」
+魔曲(命中), $(Call(HAMELN_魔曲演奏,C_Weber_DerFreischutz.mid));「ウェバー作『魔弾の射手』！」
+魔曲(命中), $(Call(HAMELN_魔曲演奏,C_Falla_RitualFireDance.mid));「ファリア作『火祭りの踊り』！」
+魔曲(命中), $(Call(HAMELN_魔曲演奏,C_Mahler_Symphony-01.mid));「マーラー作『巨人』！」
+魔曲(命中)(対弱点=聖), $(Call(HAMELN_魔曲演奏,C_Mozart_K626_01_Requiem.mid));「モーツァルトの鎮魂歌(レクイエム)だぁ――！」
+ニューバイオリン, 「ああ！！ 俺様のぶぁいおりんがあ～～！」;Drill.wav
+ニューバイオリン, 「ぶぁいおりんが、こんな姿にぃぃ～～！」;MultipleRocketLauncher.wav
+ニューバイオリン, 「『ド』は『ドリル』のド！」;Drill.wav
+ニューバイオリン, 「『レ』は『ビーム』のレ！」;Beam.wav
+ニューバイオリン, 「『レ』は『ビーム』のレ！ ……ビームのレ？」;LaserGun.wav
+ニューバイオリン, 「『ミ』は『ミサイル』のミ！」;MultipleRocketLauncher(Light).wav
+ニューバイオリン, 「バイオリンビーム！」;Beam.wav
+ニューバイオリン, 「バイオリンミサイル！」;MultipleRocketLauncher(Light).wav
+ニューバイオリン, 「まじめに直す気あったんか、くそじじい！」;Beam.wav;2;MultipleRocketLauncher(Light).wav;3;LaserGun.wav
+ニューバイオリン(命中), Explode.wav

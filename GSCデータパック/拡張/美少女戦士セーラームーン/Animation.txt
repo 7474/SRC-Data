@@ -1,0 +1,540 @@
+
+セーラームーン
+セーラームーンキック(準備), スーパーキック
+セーラームーンキック(攻撃), スーパーキック
+セーラームーンキック(攻撃), スーパーキック 前転
+セーラームーンキック(命中), スーパーキック
+セーラームーンキック(命中), スーパーキック 前転
+セーラームーンキック(命中), スーパーダイブ
+セーラームーンキック(命中), スーパーダイブ 黄
+セーラームーンキック(命中), @戦闘アニメ_ヘッドバット攻撃 PiyoPiyo.wav;ダメージ -.wav
+ムーンティアラアクション(準備), 音再生 Sharara.wav
+ムーンティアラアクション(攻撃), 大斬撃 黄 AntiAirMissile.wav
+ムーンティアラアクション(攻撃), シュートカッター 黄色 AntiAirMissile.wav
+ムーンティアラアクション(命中), 超斬撃 黄
+ムーンティアラアクション(命中), 横大斬撃 黄
+Ｍプリンセスハレーション(準備), 振る武器 "Weapon\EFFECT_FancyMagicRod01.bmp" Scratch.wav;_
+								@戦闘アニメ_なぎ払い攻撃 Scratch.wav;_
+								@戦闘アニメ_振り上げ攻撃 Scratch.wav;_
+								フラッシュ 対象ユニットＩＤ Choras.wav
+Ｍプリンセスハレーション(攻撃), サマーソルト Scratch.wav;スピンキック Scratch.wav;@戦闘アニメ_左右別武器準備 _
+								 "-.bmp" 32 - "Weapon\EFFECT_FancyMagicRod01.bmp" 32 - Explode(High).wav;_
+								 連続描画 "MapBeam\EFFECT_360Beam(Pink)[01-09].bmp" 96 3 1 前面 Transform.wav
+Ｍプリンセスハレーション(命中), マシンキャノン 黄色 Sharara.wav
+Ｍプリンセスハレーション(とどめ), @戦闘アニメ_光柱命中 白 Inori.wav
+ＭＨエスカレーション(準備), 中心回転武器 "EFFECT_SM_MoonStick02.bmp" Swing(2).wav 反転;_
+									振る武器 "EFFECT_SM_MoonStick02.bmp" Snap.wav
+ＭＨエスカレーション(攻撃), 円月殺法 黄 Chimes.wav
+ＭＨエスカレーション(命中), 必殺光線 白 Glass(2).wav
+ＭＨエスカレーション(とどめ), 会話 相手パイロット <B><BIG>リフレ～～ッシュ！</BIG></B>;_
+										@戦闘アニメ_光大噴出命中 Inori.wav
+ＭＨエスカレーション(初期)(準備), 中心回転武器 "EFFECT_SM_MoonStick01.bmp" Swing(2).wav 反転;_
+									振る武器 "EFFECT_SM_MoonStick02.bmp" Snap.wav
+ＭＨエスカレーション(初期)(攻撃), 円月殺法 黄 Chimes.wav
+ＭＨエスカレーション(初期)(命中), 必殺光線 白 Glass(2).wav
+ＭＨエスカレーション(初期)(とどめ), 会話 相手パイロット <B><BIG>リフレ～～ッシュ！</BIG></B>;_
+										@戦闘アニメ_光大噴出命中 Inori.wav
+ＭＳハートアタック(準備), SM_スパイラル
+ＭＳハートアタック(攻撃), SM_スパイラル;拡散弾幕 Common\EFFECT_Heart01.bmp 角度範囲=30 角度固定 Sharara.wav
+ＭＳハートアタック(命中), 拡散ビーム Choras.wav
+ＭＳハートアタック(とどめ), SM_スパイラル
+Ｒムーンハートエイク(準備), 連続描画 MapBeam\EFFECT_360Beam(Yellow)[01-09].bmp 192 3 1 前面 Glass.wav 発光;SM_スパイラル
+Ｒムーンハートエイク(攻撃), SM_スパイラル;平行弾幕 Common\EFFECT_Heart01.bmp 個数=3 回数=4 Sharara.wav
+Ｒムーンハートエイク(命中), 虹色必殺光線
+Ｒムーンハートエイク(とどめ), SM_スパイラル
+カレイドムーンスコープ(準備), 突剣
+カレイドムーンスコープ(攻撃), 気弾 ピンク BeamCannon(2).wav
+カレイドムーンスコープ(命中), 大電撃 黒 Charge(high).wav
+ＭＧメディテイション(準備), 突剣
+ＭＧメディテイション(攻撃), 虹色必殺光線
+ＭＧメディテイション(命中), SM_ＭＧメディテイション SystemNoize.wav
+ＭＧメディテイション(とどめ), @戦闘アニメ_四方分離回避発動 Explode(Far).wav ステージアウト
+エターナルティアル, ２連小ビーム 白
+ＳＬＨセラピーキッス(準備), @戦闘アニメ_SM_画像回転 Light\EFFECT_AllLight01.bmp 64 Charge(Heaven).wav
+ＳＬＨセラピーキッス(攻撃), SM_スパイラル;光球放出 白 Glass(2).wav;拡散ビーム ピンク -.wav 発光
+ＳＬＨセラピーキッス(命中), 拡散ビーム BeamSaber(4).wav
+ＳＭＣパワーキッス(準備), 振る武器 Wing\EFFECT_BirdWing(White)01.bmp Choras.wav 二刀流
+ＳＭＣパワーキッス(攻撃), @戦闘アニメ_左右別武器準備 "-.bmp" 32 - "Weapon\EFFECT_FancyMagicRod01.bmp" 32 - Glass(3).wav;@戦闘アニメ_振る武器準備 Weapon\EFFECT_FancyMagicRod01.bmp Glass(3).wav;光球放出 白 Storm.wav;連続描画 MapBeam\EFFECT_360Beam(Yellow)[01-09].bmp 192 3 1 前面 Flash.wav 発光
+ＳＭＫパワーキッス(命中), 音再生 Warning.wav;拡散ビーム 黄色 -.wav
+ムーンヒーリング(使用), @戦闘アニメ_円月殺法攻撃 黄 縦 Sharara.wav;フラッシュ inori.wav 保持;会話 システム <B><BIG>　.　　　　「「「リフレ～～ッシュ！」」」</BIG></B>
+ムーンヒーリング(発動), -
+変形(幻の銀水晶), フラッシュ Inori.wav
+変形(聖杯), 発光 黄色 Glass.wav;光球放出 白 Glass(2).wav
+Ｓプラネットアタック(準備), 多重方陣 黄色 ピンク Charge(Heaven).wav
+Ｓプラネットアタック(攻撃), @戦闘アニメ_大光柱準備 白 Inori.wav
+Ｓプラネットアタック(命中), 虹色巨大ビーム
+
+
+
+セーラーマーキュリー
+攻撃無効化(水のバリア), バリア Mist.wav 水のバリア
+シャボンスプレー(準備), 音再生 Freeze.wav
+シャボンスプレー(攻撃), 回転発射 "Common\EFFECT_Pop05.bmp" 32 Bubble.wav 発光 遅
+シャボンスプレー(命中), 煙 mist.wav
+シャボンスプレーＦ(準備), 音再生 Freeze.wav
+シャボンスプレーＦ(攻撃), 回転発射 "Common\EFFECT_Pop05.bmp" 32 Bubble.wav 発光 遅
+シャボンスプレーＦ(命中), 吹雪 Glass(3).wav
+Ｓアクアイリュージョン(準備), @ＳＰアニメ_癒し - 対象ユニットＩＤ
+Ｓアクアイリュージョン(攻撃), 粒子集中 青 Glass(2).wav 対象ユニットＩＤ;ショックビーム 青 Splash.wav
+Ｓアクアイリュージョン(命中), ショックビーム 青 Mist.wav
+アクアラプソディー(準備), ハープ SeaShore.wav
+アクアラプソディー(攻撃), 拡散ビーム 青 Sharara.wav チャージなし
+アクアラプソディー(命中), 拡散ビーム 青 SeaShore.wav
+アクアミラージュ(準備), しもべ Common\EFFECT_BubbleSphere01.bmp 32 発光 Glass(2).wav;光大噴出 青 Splash.wav
+アクアミラージュ(攻撃), マシンキャノン 青 Beam(8Shot).wav
+アクアミラージュ(命中), 包囲ビーム 青 SeaShore.wav;_
+							瞬間変形 "../Anime/Common/EFFECT_BubbleSphere(Blue)01.bmp" 相手ユニットＩＤ 反映;_
+							ユニット変色 白 Splash.wav;旋風 青 Storm.wav;_
+							瞬間変形 相手ユニットＩＤ;煙 青 mist.wav
+アクアミラージュ(とどめ), @戦闘アニメ_連続爆発命中 白 Glass.wav;@戦闘アニメ_超爆発命中 青 Explode(Far).wav
+
+
+
+セーラーマーズ
+悪霊退散(準備), お札
+悪霊退散(攻撃), 実弾発射 "Card\EFFECT_MandaraCard01.bmp" 32 Whiz.wav
+悪霊退散(命中), 火柱 Explode(Far).wav
+ファイヤーソウルバード(準備), お札 Fire.wav;召喚 "Effect\EFFECT_FireBird(Red).bmp" 48 -.wav
+ファイヤーソウルバード(攻撃), 実弾発射 "Effect\EFFECT_FireBird(Red).bmp" 48 Storm.wav
+ファイヤーソウルバード(命中), 超斬撃 赤 Slash(5).wav
+ファイヤーソウル(準備), 音再生 BeamShot.wav
+ファイヤーソウル(攻撃), ２連ショックビーム 赤 Storm.wav
+ファイヤーソウル(命中), 旋風 赤 Explode(Long).wav
+バーニングマンダラー(準備), 音再生 Kabuki.wav
+バーニングマンダラー(攻撃), 円月殺法 赤 縦 -.wav;内蔵チェーンガン 黄 Warship(8Shot).wav
+バーニングマンダラー(命中), チェーンガン 黄 Rifle(8Shot).wav
+フレイムスナイパー(準備), しもべ LightWeapon\EFFECT_LightBow(Red)01.bmp 48 発光 Fire.wav
+フレイムスナイパー(攻撃), 超ビーム 赤 BeamCannon.wav
+フレイムスナイパー(命中), 超爆発
+
+セーラージュピター
+怪力, スーパーバックブリーカー
+シュープリームサンダー(準備), 音再生 Lasergun(80s).wav
+シュープリームサンダー(攻撃), 落雷 緑 対象ユニットＩＤ Thunder(2).wav;２連ショックビーム 緑 Thunderbolt.wav
+シュープリームサンダー(命中), 飛沫 緑 LaserGun.wav
+シュープリームサンダーＤ(準備), 落雷 緑 対象ユニットＩＤ Bearing.wav
+シュープリームサンダーＤ(攻撃), 大放電 緑 対象ユニットＩＤ LaserGun.wav;竜炎 緑 Explode(Long).wav
+シュープリームサンダーＤ(命中), 竜炎 緑 放電 Storm.wav
+Ｓワイドプレッシャー(準備), @戦闘アニメ_振り回し攻撃 "Light\EFFECT_LargeLightning(Green)03.bmp" 64 発光 LaserGun.wav;_
+							粒子集中 緑 Bearing.wav
+Ｓワイドプレッシャー(攻撃), 回転投擲武器 "Common\EFFECT_LargeElectric(Green)01.bmp" 32 発光 Thunderbolt.wav 下投げ
+Ｓワイドプレッシャー(命中), 大放電 緑 Thunder.wav
+オークエヴォリューション(準備), 音再生 Thunderbolt.wav;_
+								@戦闘アニメ_振り回し攻撃 Light\EFFECT_LargeLightning(Green)05.bmp 64 発光 -.wav
+オークエヴォリューション(攻撃), 連続描画 Light\EFFECT_BurnOff(Green)[01-04].gif 長方形サイズ=160=80 1.6 3 Lasergun(80s).wav 下辺
+オークエヴォリューション(命中), チェーンガン 緑 Rifle(8Shot).wav
+
+
+
+セーラーヴィーナス
+クレッセントビーム(準備), 音再生 Block.wav
+クレッセントビーム(攻撃), 粒子集中 白 対象ユニットＩＤ Scratch.wav;小ビーム オレンジ Machine.wav チャージなし
+クレッセントビーム(命中), 小ビーム オレンジ Gun(2).wav
+クレッセントビームＳ(準備), 粒子集中 オレンジ Charge(Slow).wav;大放電 -.wav 対象ユニットＩＤ オレンジ
+クレッセントビームＳ(攻撃), 大ビーム オレンジ BeamGun.wav チャージなし
+クレッセントビームＳ(命中), 拡散ビーム オレンジ Beam(4Shot).wav
+ラブミーチェーン(準備), バラ吹雪 オレンジ BeamCoat.wav
+ラブミーチェーン(攻撃), 振り上げ大斬撃 オレンジ Beam.wav
+ラブミーチェーン(攻撃), 横大斬撃 オレンジ Beam.wav
+ラブミーチェーン(命中), 飛沫 オレンジ Whip.wav
+ラブ＆ビューティショック(準備),  @ＳＰアニメ_幸運 対象ユニットＩＤ
+ラブ＆ビューティショック(攻撃), 周囲回転 "Common\EFFECT_Star01.bmp" Sharara.wav 3 対象ユニットＩＤ;_
+							実弾発射 "Common\EFFECT_Star01.bmp" 64 Cannon.wav 発光 速
+ラブ＆ビューティショック(命中), 光柱 オレンジ Inori.wav
+
+セーラーＶ
+クレッセントビーム(準備), 音再生 Block.wav
+クレッセントビーム(攻撃), 粒子集中 白 対象ユニットＩＤ Scratch.wav;小ビーム オレンジ Machine.wav チャージなし
+クレッセントビーム(命中), 小ビーム オレンジ Gun(2).wav
+愛のクレセントシャワー(準備), 粒子集中 オレンジ Charge(Slow).wav;大放電 -.wav 対象ユニットＩＤ オレンジ
+愛のクレセントシャワー(攻撃), 大ビーム オレンジ BeamGun.wav チャージなし
+愛のクレセントシャワー(命中), 拡散ビーム オレンジ Beam(4Shot).wav
+セーラーＶキック, スーパーキック
+クレセントスーパービーム(準備), 粒子集中 オレンジ Charge(Slow).wav;大放電 -.wav 対象ユニットＩＤ オレンジ
+クレセントスーパービーム(攻撃), 粒子集中 白 対象ユニットＩＤ Scratch.wav;小ビーム オレンジ Machine.wav チャージなし
+クレセントスーパービーム(命中), 小ビーム オレンジ Gun(2).wav
+
+
+タキシード仮面
+薔薇, バラ
+黒薔薇, バラ 黒
+ステッキ, 鉄パイプ
+スモーキング・ボンバー(準備), 鉄パイプ
+スモーキング・ボンバー(攻撃), なぎ払い
+スモーキング・ボンバー(命中), 煙 BeamCannon.wav
+ジャンプ, @戦闘アニメ_急降下攻撃共通
+
+月影の騎士
+白薔薇, バラ 白
+曲刀, シミター
+ジャンプ, @戦闘アニメ_急降下攻撃共通
+
+ダークキングダム指揮官エンディミオン
+黒薔薇, バラ 黒
+剣, 鋼剣
+
+セーラーちびムーン
+ルナＰボール(準備), しもべ EFFECT_SM_LunaPball.bmp UnitOn(2).wav
+ルナＰボール(攻撃), 実弾発射 EFFECT_SM_LunaPball.bmp Bomb.wav
+ルナＰボール(命中), ロケットパンチ EFFECT_SM_LunaPball.bmp Slap(2).wav
+ＰＳハートアタック(準備), 発光 ピンク Glass(3).wav
+ＰＳハートアタック(攻撃), SM_スパイラル;平行弾幕 Common\EFFECT_Heart01.bmp Type(Digital)(4).wav 個数=1 回数=4
+ＰＳハートアタック(命中), 連打 ピンク Tub.wav
+力の放出(準備), 連続描画 MapBeam\EFFECT_360Beam(Yellow)[01-09].bmp 192 3 1 前面 Flash.wav 発光
+力の放出(攻撃), 音再生 Explode(Far).wav;大光柱 黄 -.wav
+力の放出(命中), ダメージ Shock(Low).wav
+ルナＰ変化(使用), @戦闘アニメ_しもべ準備 EFFECT_SM_LunaPball.bmp UnitOn(2).wav;煙 ピンク Zapper.wav
+ルナＰ変化(発動), 回復魔法
+トゥインクルエール(使用), @戦闘アニメ_振る武器準備 EFFECT_SM_CrystalCarillon.bmp InterPhone(2).wav;変形 SM_PegasusU.bmp -.wav
+トゥインクルエール(発動), 回復魔法
+
+
+セーラーウラヌス
+ワールドシェイキング(準備), 連続描画 MapBeam\EFFECT_360Beam(Yellow)[09-01].bmp 192 3 1 前面 BeamShot.wav 発光
+ワールドシェイキング(攻撃), @戦闘アニメ_光大噴出準備 黄 Fire.wav;@戦闘アニメ_射撃武器準備 Bullet\EFFECT_RingLightBall(Yellow)01.bmp 発光 -.wav;白兵武器 Explode(Far).wav;実弾発射 Bullet\EFFECT_GroundCutter(Yellow)01.bmp 32 -.wav 遅
+ワールドシェイキング(命中), 旋風 黄 MicroMissile.wav
+スペースソードＢ(準備), 振る武器転送 Weapon\EFFECT_WindSword01.bmp 発光 Transform.wav
+スペースソードＢ(攻撃), 白兵武器 MultipleRocketLauncher(Light).wav;実弾発射 Common\EFFECT_SonicBoom(Yellow)02.bmp 32 -.wav 残像
+スペースソードＢ(命中), 斬撃乱舞
+スペースソード(準備), 振る武器転送 Weapon\EFFECT_WindSword01.bmp 発光 Transform.wav
+スペースソード, 風剣突撃
+
+セーラーネプチューン
+ディープアクアミラー(準備), @戦闘アニメ_召喚準備 EFFECT_SM_DeepAquaMirror01.bmp 発光 Glass(3).wav
+ディープアクアミラー(攻撃), @戦闘アニメ_振る武器準備 EFFECT_SM_DeepAquaMirror02.bmp Hittyuu.wav;ユニット変色 白 相手ユニットＩＤ -.wav
+ディープアクアミラー(命中), 飛沫 白 Inori.wav
+ディープサブマージ(準備), 津波
+ディープサブマージ(攻撃), @戦闘アニメ_射撃武器準備 Bullet\EFFECT_RingLightBall(Blue)01.bmp Splash.wav;実弾発射 Bullet\EFFECT_RingLightBall(Blue)01.bmp -.wav
+ディープサブマージ(命中), 旋風 青 MultipleRocketLauncher.wav
+サブマリンリフレクション(準備), @戦闘アニメ_召喚準備 EFFECT_SM_DeepAquaMirror02.bmp 発光 Glass(3).wav
+サブマリンリフレクション(攻撃), フラッシュ Flash.wav
+サブマリンリフレクション(命中), 光柱 Inori.wav
+
+セーラープルート
+ガーネット・ロッド(準備), -
+ガーネット・ロッド(攻撃), 白兵武器
+ガーネット・ロッド(命中), 打撃 紫
+デッドスクリーム(準備), 多重方陣 紫 黒
+デッドスクリーム(攻撃), @戦闘アニメ_周囲回転準備 Bullet\EFFECT_RingLightBall(Purple)01.bmp 発光 Ice.wav;実弾発射 Bullet\EFFECT_RingLightBall(Purple)01.bmp -.wav
+デッドスクリーム(命中), 旋風 紫 Storm.wav
+テレポート(時空の扉), テレポート１
+
+スーパーセーラーサターン
+攻撃無効化(サイレンスウォール), 暗黒バリア Hide.wav サイレンスウォール
+攻撃無効化(サイレントウォール), 暗黒バリア Hide.wav サイレントウォール
+サイレンスグレイブ(準備), -
+サイレンスグレイブ(攻撃), 大斬撃
+サイレンスグレイブ(命中), 大斬撃 黒
+サイレンスグレイブＳ(準備), 音再生 Charge(Heaven).wav;大放電 -.wav 白
+サイレンスグレイブＳ(攻撃), フラッシュ -.wav;SM_サイレンスグレイブＳ
+サイレンスグレイブＳ(命中), 超爆発 白 Explode(Nuclear).wav
+ＤＲレボリューション(準備), -
+ＤＲレボリューション(攻撃), 多重方陣 赤 ピンク Charge(Heaven).wav;フラッシュ flash.wav 黒
+ＤＲレボリューション(命中), 重力圧縮 電撃
+
+セーラースターファイター
+Ｓシリアスレイザー(準備), 周囲回転 Common\EFFECT_Star01.bmp Charge(Heaven).wav 3;粒子集中 黄 -.wav
+Ｓシリアスレイザー(攻撃), 拡散ビーム 白 Beam(4Shot).wav
+Ｓシリアスレイザー(命中), 拡散ビーム 白 Slash.wav
+セーラースターエール(星)(準備), 召喚 EFFECT_SM_SailorStarYell.bmp Punch(4).wav
+セーラースターエール(星)(攻撃), 拡散ビーム 白 Swing(2).wav
+セーラースターエール(星)(命中), 包囲ビーム 緑 Slash.wav
+
+
+セーラースターメイカー
+ジェントルユーテラス(準備), 召喚 Bullet\EFFECT_StarBullet(Yellow)02.bmp Bell.wav
+ジェントルユーテラス(攻撃), 回転発射 Common\EFFECT_Particle(Green)02.bmp 48 BeamShot(2).wav
+ジェントルユーテラス(命中), 拡散ビーム 緑 Beam.wav
+セーラースターエール(大)(準備), 召喚 EFFECT_SM_SailorStarYell.bmp Punch(4).wav
+セーラースターエール(大)(攻撃), 回転発射 Common\EFFECT_Particle(Green)01.bmp 48 BeamShot(2).wav
+セーラースターエール(大)(命中), 包囲ビーム 緑 Beam.wav
+
+
+セーラースターヒーラー
+ＳＳインフェルノ(準備), 画像落下 Bullet\EFFECT_StarBullet(Yellow)01.bmp 16 Sharara.wav;放電
+ＳＳインフェルノ(攻撃), 球電
+ＳＳインフェルノ(命中), ショックビーム
+セーラースターエール(夜)(準備), 召喚 EFFECT_SM_SailorStarYell.bmp Punch(4).wav
+セーラースターエール(夜)(攻撃), 落雷 白 対象ユニットＩＤ;@戦闘アニメ_急降下攻撃共通
+セーラースターエール(夜)(命中), @戦闘アニメ_急降下命中共通 Thunderbolt.wav
+
+スーパーベリル
+暗黒の波動, 大電撃 黒
+
+四天王ジェダイト
+魔力, 光球放出 紫
+念動力, 大電撃 桃
+
+四天王ネフライト
+スターライトアタック(準備), 粒子集中 青
+スターライトアタック(攻撃), ビームショットキャノン 青;地表衝撃波 青
+スターライトアタック(命中), 地表衝撃波 青
+魔力, ビームショットキャノン 青
+
+四天王ゾイサイト
+花吹雪, 桜吹雪
+結晶の剣, ビームソード 緑
+氷の礫, 氷弾
+
+四天王クンツァイト
+エネルギー弾, 光球 桃
+結晶の剣, ビームソード 緑
+爆炎, 投下爆弾
+
+
+妖魔
+#モルグ
+伸びる腕, 小ビーム 橙
+#バーム
+タロットカード(準備), タロット
+タロットカード(攻撃), タロット;ニードルレーザー連射 緑
+タロットカード(命中), 乱突 緑
+髪の毛(攻撃), 触手 黒
+髪の毛(命中), 爪撃 黄
+#フラウ
+爪, 爪撃
+可燃性ガス, 特殊光線 桃
+#イグアーラ
+尻尾, 尻尾
+#キュレネ
+蝙蝠の群れ, 蝙蝠召喚
+超音波粉砕砲, ２連中ビーム 黄
+#デレーラ
+ガラス状の液, 小ビーム 緑
+ガラス状の液(クリティカル), ユニット変色 緑
+#ガロベン
+必殺の天才ニュートン問題(攻撃), ニードルレーザー連射 白
+必殺の天才ニュートン問題(命中), 連突 白
+手の斧, 大斬撃
+#ラムア
+時間停止光線, 中ビーム 緑
+槍, 青龍偃月刀
+#キガーン
+#ムーリド
+赤い霧, 煙噴射 赤
+#テティス
+海水怪人(攻撃), 実弾発射 ../unit/SM_ThetisSeawaterMonster.bmp 32 splash.wav
+海水怪人(命中), 津波
+水柱(攻撃), 津波
+水柱(命中), 火柱 水色 splash.wav
+#海水怪人
+再生の渦(攻撃), 振り上げ大炎斬撃 青 splash.wav
+再生の渦(命中), 津波
+#テスニー
+ファイヤーボール, 竜弾銃 DGoods\EFFECT_Gridiron01.bmp
+ボール化, 竜弾銃 DGoods\EFFECT_Gridiron01.bmp 黒
+ボール化(クリティカル), 変形 DGoods\EFFECT_SoccerBall01.bmp
+#ぺタソス
+ハンドフラワー(準備), 甲殻鋏 白
+ハンドフラワー(攻撃), 火炎弾 緑
+ハンドフラワー(命中), 多触手 緑
+ぺタソスロープ, 触手乱舞 緑
+動物の群れ, 鼠召喚
+#ウィドー
+蜘蛛糸, 拡散ビーム 白
+#キャメラン
+パチパチ攻撃(準備), 邪眼解放 紫;エナジーカッター 白
+パチパチ攻撃(攻撃), 光弾 白
+パチパチ攻撃(命中), ユニット変色 白
+#ジュモー
+首絞め, 立ち固め
+人形, 人形召喚
+飛ぶ腕(準備), ロケットパンチ Hand\EFFECT_Punch(White)02.bmp Beamsaber.wav
+飛ぶ腕(攻撃), ロケットパンチ Hand\EFFECT_Punch(White)02.bmp
+飛ぶ腕(命中), 斬撃
+#カストルとポルックス
+シャボンスプレー(準備), 音再生 Freeze.wav
+シャボンスプレー(攻撃), 回転発射 "Common\EFFECT_Pop05.bmp" 32 Bubble.wav 発光 遅
+シャボンスプレー(命中), 煙 mist.wav
+ファイヤーソウル(準備), 音再生 BeamShot.wav
+ファイヤーソウル(攻撃), ２連ショックビーム 赤 Storm.wav
+ファイヤーソウル(命中), 旋風 赤 Explode(Long).wav
+#ネフライトの分身
+怨霊の黒い風, 特殊光線 黒
+#ヤシャ
+掴みかかり, 連打
+角ドリル, ドリル
+#ホウセンカ
+トゲ爆弾, ベアリング
+#スズラン
+超音波, 音波
+#グレープ
+ツタの槍, 多触手 黒
+#ゲーセーン
+モールハンマー(準備), ハンマー Computer.wav
+モールハンマー(攻撃), なぎ払い
+モールハンマー(命中), 強打
+クレーンバインド(準備), ロケットパンチ Computer.wav Hand\EFFECT_Punch(White)09.bmp
+クレーンバインド(攻撃), ロケットパンチ Hand\EFFECT_Punch(White)09.bmp
+クレーンバインド(命中), ダメージ
+#ボクシー
+ラブリーパンチ(攻撃), 実弾発射 Hand\EFFECT_Punch(Red)03.bmp
+ラブリーパンチ(命中), 大爆発
+トリプルパンチ(攻撃), 実弾発射 Hand\EFFECT_Punch(Red)03.bmp;実弾発射 Hand\EFFECT_Punch(Red)03.bmp;実弾発射 Hand\EFFECT_Punch(Red)03.bmp
+トリプルパンチ(命中), 大爆発
+#ブンボー
+文房具, 甲殻鋏 白
+三角定規(攻撃), ニードルレーザー連射 青
+三角定規(命中), 矢連刺
+文房具発射(準備), 甲殻鋏 白
+文房具発射(攻撃), 実弾発射 BodyParts\EFFECT_Pincers(White)01.bmp
+文房具発射(命中), 甲殻鋏 白
+#ビーナ
+イラスト立体化攻撃：石(準備), 羽
+イラスト立体化攻撃：石(攻撃), 羽 対象ユニットＩＤ;落盤 白
+イラスト立体化攻撃：石(命中), 落盤 白
+イラスト立体化攻撃：ヘビ(準備), 羽
+イラスト立体化攻撃：ヘビ(攻撃), 羽 対象ユニットＩＤ;交差ビーム 橙 橙;蛇
+イラスト立体化攻撃：ヘビ(命中), ダメージ
+#リコーケイダー
+反射(ビッグフラスコ), シールド防御 Weapon\EFFECT_Flask01.bmp
+原生生物, ポテトマッシャー
+原生生物(クリティカル), 石柱 緑 Beamsaber.wav
+#ジジ
+咆哮, 中ビーム 白
+#アカン
+観光協会無許可マリモ投げ(準備), 手榴弾
+観光協会無許可マリモ投げ(攻撃), 手榴弾
+観光協会無許可マリモ投げ(命中), 泡球 緑
+#ミツアーミ
+バリカンアーム, チェーンソー
+カミソリ, ククリ
+ドライヤー, 火炎放射器
+ハサミマシンガン(準備), マシンガン
+ハサミマシンガン(攻撃), マシンガン
+ハサミマシンガン(命中), 矢連刺
+#シャコーカイ
+ロウ人形化液, 拡散ビーム 緑
+阻止(ロウ人形化液), 液体噴射 緑
+#ブリザー
+雪原起伏, 氷山
+吹雪, 吹雪
+氷の槍, 投げ槍
+#ゾイリンゲラー
+エルボーブレード, ビームソード突撃 白 二刀流
+デススパイラル, アフリカ投げナイフ
+コンビネーション, スピンアタック 白
+#妖怪
+瘴気, 煙噴射 青
+#パピヨン
+鎌, 斬撃
+攻撃無効化(燐粉), 結界 緑
+蝶乱舞, 妖精
+#オニワバンダナ
+クナイ, 連投剣
+バンダナ, 小ビーム 橙
+忍者剣, 青龍刀
+
+
+ＤＤガールズ
+鋭い触手, ビームショットキャノン 黒
+電撃, 大電撃 白
+火炎, 火炎弾
+クレバス, 岩柱 白
+
+
+異星人・エイル
+回避, 緊急テレポート Swing.wav 回避
+白色衝撃波(準備), -
+白色衝撃波(攻撃), ビームショットキャノン 白 Bearing.wav
+白色衝撃波(命中), 地面衝撃 白 Shock(Low).wav
+攻撃無効化, 双眼球 青 Explode(High).wav
+
+異星人・アン
+回避, 緊急テレポート Swing.wav 回避
+眼力(準備), -
+眼力(攻撃), 双眼球 赤 Slash(6).wav 対象ユニットＩＤ
+眼力(命中), 打撃 Chaff.wav
+白色衝撃波(準備), -
+白色衝撃波(攻撃), ビームショットキャノン 白 Bearing.wav
+白色衝撃波(命中), 地面衝撃 白 Shock(Low).wav
+攻撃無効化, 双眼球 赤 Explode(High).wav
+
+
+
+ワイズマン(セーラームーン)
+邪視(準備), -
+邪視(攻撃), 双眼球 赤 Slash(6).wav 対象ユニットＩＤ
+邪視(命中), 打撃 Chaff.wav
+妖獣の手(準備), 振る武器転送 32 Hand\EFFECT_ShiningHand(Purple)01.bmp 発光 Fold.wav 二刀流
+妖獣の手(攻撃), 大斬撃 紫 Swing(3).wav;横大斬撃 紫 Swing(3).wav
+妖獣の手(命中), 大斬撃 紫 二刀流 Walk(Snow).wav
+マイナスエネルギー, 波動放射 黒
+暗黒ゲートの力(準備), 大放電 Beamcoat.wav
+暗黒ゲートの力(攻撃), 巨大ビーム MicroMissile.wav
+暗黒ゲートの力(命中), 巨大ビーム Thunderbolt.wav
+エネルギー波, 大ビーム 白
+
+ブラックレディ(セーラームーン)
+シールド防御(ルナＰボール), 洋傘防御 紫 Saber.wav シールド防御
+シールド防御(ルナＰボール), 鉄扇
+マイナスエネルギー, 波動放射 黒
+ルナＰボールギミック(準備), 煙 ピンク Cannon.wav
+ルナＰボールギミック(攻撃), ミサイルランチャー DGoods\EFFECT_Umbrella(Purple)01.bmp 32
+ルナＰボールギミック(攻撃), ビームランチャー 黒 Magic\EFFECT_AncientMirror01.bmp 32
+ルナＰボールギミック(攻撃), @戦闘アニメ_振る武器準備 DGoods\EFFECT_Gridiron01.bmp;白兵武器 Inori.wav
+ルナＰボールギミック(命中), 爆発 黒
+ルナＰボール(準備), しもべ EFFECT_SM_BlackLunaPball.bmp UnitOn(2).wav;煙 ピンク Cannon.wav
+ルナＰボール(攻撃), 振る武器突撃 DGoods\EFFECT_Umbrella(Purple)01.bmp 斬撃
+ルナＰボール(攻撃), @戦闘アニメ_突く武器準備 DGoods\EFFECT_Umbrella(Purple)01.bmp;ドリル突撃
+ルナＰボール(攻撃), 振る武器突撃 DGoods\EFFECT_IronFan01.bmp 斬撃 二刀流
+ルナＰボール(攻撃), 振る武器突撃 DGoods\EFFECT_Gridiron01.bmp 斬撃
+ルナＰボール(命中), 斬撃
+ルナＰボール(命中), 打撃
+邪黒水晶の力(準備), -
+邪黒水晶の力(攻撃), 落雷 黒
+邪黒水晶の力(命中), 大電撃 黒 Thunderbolt.wav
+
+
+プリンス・デマンド
+邪視(準備), -
+邪視(攻撃), 双眼球 赤 Slash(6).wav 対象ユニットＩＤ
+邪視(命中), 打撃 Chaff.wav
+怪光線, ニードルレーザー 黒
+エネルギー球(準備), -
+エネルギー球(攻撃), 光球放出 白 Gun(2).wav
+エネルギー球(命中), 光球集中 白 Gun(4Shot).wav
+マイナスエネルギー, 波動放射 黒
+
+
+蒼のサフィール
+邪黒水晶のかけら(準備), 投擲武器 Bullet\EFFECT_STG_Bullet(Black)06.bmp 16 Reload(2).wav
+邪黒水晶のかけら(攻撃), ニードルレーザー 黒 bomb.wav;ＭＡＰ大爆発 黒
+邪黒水晶のかけら(命中), ダメージ 黒 Shock(Low).wav
+妖獣の手(準備), 振る武器転送 32 Hand\EFFECT_ShiningHand(Purple)01.bmp 発光 Fold.wav 二刀流
+妖獣の手(攻撃), 大斬撃 紫 Swing(3).wav;横大斬撃 紫 Swing(3).wav
+妖獣の手(命中), 大斬撃 紫 二刀流 Walk(Snow).wav
+
+翠のエスメロード
+ダークパワー(準備), -
+ダークパワー(攻撃), 旋風 黒
+ダークパワー(命中), 旋風 黒
+妖獣の手(準備), 振る武器転送 32 Hand\EFFECT_ShiningHand(Purple)01.bmp 発光 Fold.wav 二刀流
+妖獣の手(攻撃), 大斬撃 紫 Swing(3).wav;横大斬撃 紫 Swing(3).wav
+妖獣の手(命中), 大斬撃 紫 二刀流 Walk(Snow).wav
+
+
+
+紅のルベウス
+暗黒球(準備), -
+暗黒球(攻撃), 光球放出 紫 Gun(2).wav
+暗黒球(命中), 光球集中 紫 Gun(4Shot).wav
+ダークパワー(準備), -
+ダークパワー(攻撃), 旋風 黒
+ダークパワー(命中), 大電撃 黒
+爆炎(準備), -
+爆炎(攻撃), 波動放射 赤
+爆炎(命中), 火柱
+重力操作(準備), -
+重力操作(攻撃), フラッシュ 黒 inori.wav
+重力操作(命中), 地面衝撃
+
+//以下アイテム用
+汎用
+邪黒水晶のかけら(準備), 投擲武器 Bullet\EFFECT_STG_Bullet(Black)06.bmp 16 Reload(2).wav
+邪黒水晶のかけら(攻撃), ニードルレーザー 黒 bomb.wav;ＭＡＰ大爆発 黒
+邪黒水晶のかけら(命中), ダメージ 黒 Shock(Low).wav
+時空爆弾(準備), -
+時空爆弾(攻撃), 光圧縮 黒 Flash.wav
+時空爆弾(命中), ダメージ Shock(Low).wav
+

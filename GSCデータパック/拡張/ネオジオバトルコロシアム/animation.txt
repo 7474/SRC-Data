@@ -1,0 +1,303 @@
+エージェント・ユウキ
+ビーストバスター(攻撃), 発光 白 Whiz.wav 対象ユニットＩＤ
+ビーストバスター(命中), ダメージ 白
+ファイヤースープレックス(準備), -
+ファイヤースープレックス(攻撃), タックル
+ファイヤースープレックス(命中), NBC_スープレックス
+爆裂拳(攻撃), スーパーパンチ 白, 
+爆裂拳(命中), スーパーパンチ 白;連続爆発 3 白 Thunder(2).wav
+ＳＥ・Ｎ・ＧＯ・ＫＵ伝承(攻撃), ジャンプ
+ＳＥ・Ｎ・ＧＯ・ＫＵ伝承(命中), 強打
+雷神拳(攻撃), @戦闘アニメ_テレポート発動 Swing.wav "　";透明化 対象ユニットＩＤ 反映
+雷神拳(命中), 急降下;放電
+サブマリンスクリュー(攻撃), 実弾発射 Common\EFFECT_Pop(LightBlue)05.bmp 32 Swing(3).wav 発光 遅 残像
+サブマリンスクリュー(命中), 飛沫 水色 BreakOff.wav
+超ド級100メガビーム, 中ビーム
+超ド級ネオジオ乱舞(命中), 連打;乱打;0.1;「<BIG><B>ラストショットじゃっ！！</B></BIG>」;@戦闘アニメ_中ビーム攻撃;中ビーム 
+超ド級ＭＡＸ330メガビーム, 大ビーム
+アトミックガイ・ネオス(攻撃), 透明化;透明化 Partner(1);浮上アップ NBC_AtomicGuyNeosU.bmp;_
+画像投下 Unit\NBC_AtomicGuyNeosU.bmp Shock(Low).wav - 1 対象ユニットＩＤ;瞬間変形 NBC_AtomicGuyNeosU.bmp;透明化 解除 反映;ディレイ 5;大放電 青 対象ユニットＩＤ
+アトミックガイ・ネオス(命中), 大電撃 青
+アトミックガイ・ネオス(解説), $(パイロット)はアイとアトミックガイ・ネオスに合体し、メガトンスパークで攻撃をかけた。
+
+アトミックガイ・ネオス(ＮＢＣ)
+アトミックアクション, 格闘
+アトミックアクション(命中), 強打
+メガトンスパーク(攻撃), 大放電 青 対象ユニットＩＤ
+メガトンスパーク(命中), 大電撃 青
+
+
+エージェント・アイ
+分身(分身拳), 分身 Swing.wav 分身拳
+阻止(２０２０スーパーキャッチ), シールド防御 Hand\EFFECT_ShiningHand(White)01.bmp 別名=２０２０スーパーキャッチ;魔法集中 白
+ジョイジョイトレジャー(攻撃), 瞬間変形 NBC_Ai(JoyjoyBalloon)U.bmp;実弾投下 DGoods\EFFECT_BaseBall01.bmp;瞬間変形 反映
+ジョイジョイトレジャー(攻撃), 瞬間変形 NBC_Ai(JoyjoyBalloon)U.bmp;実弾投下 DGoods\EFFECT_SilverCoin01.bmp;瞬間変形 反映
+ジョイジョイトレジャー(攻撃), 瞬間変形 NBC_Ai(JoyjoyBalloon)U.bmp;実弾投下 Weapon\EFFECT_Bomb01.bmp;瞬間変形 反映
+ジョイジョイトレジャー(攻撃), 瞬間変形 NBC_Ai(JoyjoyBalloon)U.bmp;実弾投下 Weapon\EFFECT_Dynamite01.bmp;瞬間変形 反映
+ジョイジョイトレジャー(命中), 爆発
+改造ネオジオポケット, 発光 青
+ジョイジョイブロック(攻撃), 画像投下 EFFECT_NBC_JoyjoyBlock(Blue).bmp
+ジョイジョイブロック(攻撃), 画像投下 EFFECT_NBC_JoyjoyBlock(Brown).bmp
+ジョイジョイブロック(攻撃), 画像投下 EFFECT_NBC_JoyjoyBlock(Green).bmp
+ジョイジョイブロック(攻撃), 画像投下 EFFECT_NBC_JoyjoyBlock(LightBlue).bmp
+ジョイジョイブロック(攻撃), 画像投下 EFFECT_NBC_JoyjoyBlock(Orange).bmp
+ジョイジョイブロック(攻撃), 画像投下 EFFECT_NBC_JoyjoyBlock(Purple).bmp
+ジョイジョイブロック(攻撃), 画像投下 EFFECT_NBC_JoyjoyBlock(Red).bmp
+ベースボールスターズ, 殴打武器 DGoods\EFFECT_Butt01.bmp
+ラストリゾート(攻撃), １ＷＡＹ発射;実弾連射 Bullet\EFFECT_STG_Bullet(Green)08.bmp Beam.wav
+ラストリゾート(命中), 飛沫 緑;飛沫 緑;飛沫 緑
+ジョイジョイバルーン(攻撃), 瞬間変形 NBC_Ai(JoyjoyBalloon)U.bmp;スーパーダイブ
+ジョイジョイバルーン(命中), 強打
+ジョイジョイパーティ(攻撃), 画像投下 EFFECT_NBC_JoyjoyBlock(Blue).bmp;画像投下 EFFECT_NBC_JoyjoyBlock(Brown).bmp;_
+画像投下 EFFECT_NBC_JoyjoyBlock(Green).bmp;画像投下 EFFECT_NBC_JoyjoyBlock(LightBlue).bmp;_
+画像投下 EFFECT_NBC_JoyjoyBlock(Orange).bmp;画像投下 EFFECT_NBC_JoyjoyBlock(Purple).bmp;画像投下 EFFECT_NBC_JoyjoyBlock(Red).bmp
+ためろパワーとばせユニット(攻撃), １ＷＡＹ発射;気弾 水色
+ためろパワーとばせユニット(命中), 爆発
+ＡＳＯ２ラストガーディアン(攻撃), @戦闘アニメ_バスタービームランチャー準備;手持ち発射 Weapon\EFFECT_BusterBeamLauncher01.bmp 64 対象ユニットＩＤ -.bmp 32 Beam.wav
+ＡＳＯ２ラストガーディアン(命中), @戦闘アニメ_ロックオン攻撃;落雷
+
+
+リョウ＝サカザキ(ＮＢＣ)
+雷神刹(攻撃), 飛びかかり Bow.wav
+雷神刹(命中), @戦闘アニメ_斬撃攻撃;唐竹割り Punch.wav
+虎咆疾風拳, タックル
+虎煌拳(攻撃), 波動放射 青 Beam.wav
+虎煌拳(命中), ダメージ 青 Shock(Low).wav
+虎咆, アッパー
+飛燕疾風脚(攻撃), タックル
+飛燕疾風脚(命中), 打撃;2;打撃
+暫烈拳(攻撃), 乱打
+暫烈拳(命中), 乱打;強打 Bazooka.wav
+天地覇煌拳(準備), オーラ上昇 Evileye.wav
+天地覇煌拳(攻撃), 打突 Inori.wav
+天地覇煌拳(命中), 強打 Shock(low).wav
+天地覇煌拳(クリティカル), 超打 Crash.wav;飛沫 Glass.wav
+覇王翔吼拳(準備), 粒子集中 青
+覇王翔吼拳(攻撃), 実弾発射 Common\EFFECT_SonicBoom(Blue)01.bmp 96 MultipleRocketLauncher.wav 残像
+覇王翔吼拳(命中), 超爆発
+天地上下の構え(準備), 粒子集中 青;オーラ上昇 Evileye.wav
+天地上下の構え(攻撃), 変形 NBC_RyoSakazaki(Tenchi)U.bmp Sword.wav;乱打
+天地上下の構え(命中), ダメージ BreakOff.wav;ディレイ 2;ダメージ BreakOff.wav;ディレイ 2;ダメージ BreakOff.wav;ディレイ 2;_
+ダメージ BreakOff.wav;ディレイ 2;ダメージ BreakOff.wav;ディレイ 2;強打 BreakOff.wav
+天地上下の構え(クリティカル), 粒子集中 青 対象ユニットＩＤ;@戦闘アニメ_実弾発射攻撃 Common\EFFECT_SonicBoom(Blue)01.bmp 96 MultipleRocketLauncher.wav 残像;ディレイ 4;@戦闘アニメ_超爆発命中
+天地上下の構え(解説), $(パイロット)は天地上下の構えをとり、武力乱舞で攻撃をかけた。
+龍虎乱舞(準備), 粒子集中 青;オーラ上昇 Evileye.wav
+龍虎乱舞(攻撃), @戦闘アニメ_テレポート発動 Charge(high).wav " "
+龍虎乱舞(命中), 0.1;「オラオラオラオラァ！」;連打 FightHit(1).wav;連打 FightHit(2).wav;乱打 Glass.wav;_
+0.1;「オラオラオラオラァ！ もらったぁ！！」;@戦闘アニメ_アッパー攻撃 Storm.wav;_
+振り上げ Crash.wav;「オラオラオラオラァ！ もらったぁ！！」
+
+
+ロバート＝ガルシア(ＮＢＣ)
+勾龍降脚蹴り, キック
+飛燕龍神脚, スーパーキック
+龍斬翔, サマーソルト 紫
+幻影脚(攻撃), 乱突 Saber.wav
+幻影脚(命中), 乱打;強打 Bazooka.wav
+龍撃閃(攻撃), なぎ払い;実弾発射 Bullet\EFFECT_STG_Bullet(Orange)05.bmp Beam.wav
+龍撃閃(攻撃), キック;実弾発射 Bullet\EFFECT_STG_Bullet(Orange)05.bmp Beam.wav
+龍撃閃(命中), ダメージ 紫 Shock(Low).wav
+飛燕旋風脚(攻撃), 連続なぎ払い
+飛燕旋風脚(命中), 連続なぎ払い Punch.wav;振り下ろし Punch.wav
+覇王翔吼拳(準備), 粒子集中 紫
+覇王翔吼拳(攻撃), 実弾発射 Common\EFFECT_SonicBoom(Purple)01.bmp 96 MultipleRocketLauncher.wav 残像
+覇王翔吼拳(命中), 超爆発
+九頭龍閃(攻撃), サマーソルト 紫 Saber.wav;サマーソルト 紫 Saber.wav;サマーソルト 紫 Saber.wav
+九頭龍閃(命中), サマーソルト 紫 Inori.wav;サマーソルト 紫 Inori.wav;サマーソルト 紫 Inori.wav
+龍虎乱舞(準備), 粒子集中 紫;オーラ上昇 Evileye.wav
+龍虎乱舞(攻撃), @戦闘アニメ_テレポート発動 Charge(high).wav " "
+龍虎乱舞(命中), 0.1;「そりゃそりゃそりゃそりゃ！」;連打 FightHit(1).wav;連打 FightHit(2).wav;乱打 Glass.wav;_
+0.1;「そりゃそりゃそりゃそりゃ！ そりゃぁっ！！」;@戦闘アニメ_サマーソルト攻撃 紫 Storm.wav;_
+サマーソルト 紫 Crash.wav;「そりゃそりゃそりゃそりゃ！ そりゃぁっ！！」
+
+
+キサラ＝ウェストフィールド(ＮＢＣ)
+ラウンド・ヒールキック, バックキック
+チアリーダー・キック, キック
+ヒップ・バズーカ(攻撃), ジャンプ
+ヒップ・バズーカ(命中), 打撃;強打
+ハーディ・ブランディッシュ(準備), 振る武器 EFFECT_GANGAN_Kisarah'sBag.bmp
+ハーディ・ブランディッシュ(攻撃), 斬撃
+ハーディ・ブランディッシュ(命中), 斬撃 FightHit(1).wav;振り上げ FightHit(1).wav
+キューティー・レインボー, 反転上昇
+スプラッシュ・エアダンス(攻撃), ジャンプ
+スプラッシュ・エアダンス(命中), 連打;連打;「とどめっ！！」;振り下ろし FightHit(1).wav
+ジェラシー・ボンバー(攻撃), 実弾発射 Common\EFFECT_Heart01.bmp 32
+ジェラシー・ボンバー(命中), @戦闘アニメ_魅了発動;ディレイ 2;大爆発;「イェスッ！」
+
+
+サイバー・ウー(ＮＢＣ)
+ハンマーパンチ(攻撃), 振り下ろし;地面衝撃
+ハンマーパンチ(命中), 地面衝撃
+ショルダータックル, タックル
+フライングパワーボム, ジャンプバスター
+フライングトルネード, スーパーバックブリーカー
+ロケットバズーカ, 格闘
+ロケットバズーカ(命中), 強打
+ミサイルアタック(攻撃), 打撃突撃
+ミサイルアタック(命中), 強打;@戦闘アニメ_ホーミングミサイル攻撃;ホーミングミサイル
+ガトリングレーザー(攻撃), 変形 NBC_CyberWoo(GL)U.bmp;ロックオン 相手ユニットＩＤ;ニードルレーザー連射 青
+ガトリングレーザー(命中), ニードルレーザー連射 青
+
+
+マルコ＝ロッシ(ＮＢＣ)
+コンバットコード(準備), ナイフ
+コンバットコード, 斬撃
+コンバットコード, なぎ払い
+コンバットコード, 振り上げ
+ハンドガン, ピストル
+ロケット・パック(攻撃), 打撃突撃 Jet.wav
+ロケット・パック(命中), 打撃突撃 Jet.wav
+百太郎・気弾(攻撃), 変形 Unit\MSLUG_HyakutarouU.bmp -.wav;気弾 水色
+百太郎・気弾(命中), 気弾 水色
+ブラック・グレネード, グレネード
+ヘヴィ・マシンガン, ヘビーマシンガン
+アイアン・リザード(準備), バズーカ
+アイアン・リザード(攻撃), 実弾発射 Bullet\EFFECT_SuperMissile01.bmp 32 Missile.wav;実弾発射 Bullet\EFFECT_SuperMissile01.bmp 32 Missile.wav
+アイアン・リザード(命中), 連続爆発 4
+エナジー・エミッション, 大水流 赤
+メタスラ・アタック(攻撃), 浮上アップ Unit\MSLUG_MetalSlugU.bmp;ディレイ 4;実弾発射 Unit\MSLUG_MetalSlugU.bmp 32 Engine.wav
+メタスラ・アタック(命中), ダメージ 連続 FightHit(3).wav
+メタスラ・キャノン(準備), -
+メタスラ・キャノン(攻撃), 浮上アップ Unit\MSLUG_MetalSlugU.bmp;ディレイ 4;大砲 Unit\MSLUG_MetalSlugU.bmp 32
+メタスラ・キャノン(命中), 大砲
+
+
+マーズピープル(ＮＢＣ)
+マーズショット(準備), スーパーガン
+マーズショット(攻撃), 手持ち発射 Weapon\EFFECT_SuperGun01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_STG_Bullet(Green)01.bmp 8 BeamShot.wav
+マーズショット(命中), 爆発
+ＡＲＥＡ８０１(攻撃), ジャンプ
+ＡＲＥＡ８０１(命中), 斬撃 FightHit(1).wav
+プラズマ・アブダクション(命中), ダメージ Whip.wav;落雷 白
+プラズマ・スピン, 急降下
+Ｎ・インディペンデンスデイ(準備), 降下アップ MSF_AdamskiUFOU.bmp
+Ｎ・インディペンデンスデイ(攻撃), 瞬間変形 MSF_AdamskiUFOU.bmp;実弾連続投下 Bullet\EFFECT_STG_Bullet(White)05.bmp BeamShot.wav;瞬間変形
+Ｎ・インディペンデンスデイ(命中), 連続爆発
+ボロネジ・アフター(攻撃), 実弾投下 Bullet\EFFECT_STG_Bullet(White)05.bmp BeamShot.wav
+ｍｐ１２(攻撃), 実弾連射 Unit\MSLUG_MarsPeopleU.bmp 20 Whiz.wav 遅;実弾連射 Unit\MSLUG_MarsPeopleU.bmp 20 Whiz.wav 遅;実弾連射 Unit\MSLUG_MarsPeopleU.bmp 20 Whiz.wav 遅
+ｍｐ１２(命中), ダメージ 連続 緑
+フラットウッズ・マーチ(攻撃), @戦闘アニメ_召喚準備 Unit\MSLUG_MarsPeopleU.bmp 16;@戦闘アニメ_召喚準備 Unit\MSLUG_MarsPeopleU.bmp 16;@戦闘アニメ_召喚準備 Unit\MSLUG_MarsPeopleU.bmp 16;@戦闘アニメ_召喚準備 Unit\MSLUG_MarsPeopleU.bmp 16;実弾連射 Unit\MSLUG_MarsPeopleU.bmp 16 Whiz.wav 遅
+フラットウッズ・マーチ(命中), ダメージ 連続 緑
+ツングース・インシデント(準備), 降下アップ Unit\MSF_AdamskiUFOU.bmp
+ツングース・インシデント(攻撃), 0.1;「※￡％＃§※！？」;画像投下 Unit\MSF_AdamskiUFOU.bmp;「※￡％＃§※！？」
+ツングース・インシデント(命中), 大爆発
+
+
+プリンセスアテナ(ＮＢＣ)
+シールド防御(盾), スモールシールド
+炎の杖, 炎
+風の杖, 竜巻
+ハマドリュアスバスター(準備), 弓矢
+ハマドリュアスバスター(攻撃), 手持ち発射 Weapon\EFFECT_Bow01.bmp 32 対象ユニットＩＤ LightWeapon\EFFECT_LightArrow(Orange)01.bmp 32 Bow.wav
+ハマドリュアスバスター(命中), 炎
+ネプチューンキラー(準備), 変形 ATHENA_PrincessAthena(Mermaid)U.bmp
+ネプチューンキラー, サマーソルト 青
+モーニングスターアタック(準備), スピンハンマー
+モーニングスターアタック(攻撃), ジャンプ
+モーニングスターアタック(命中), 斬撃 BreakOff.wav
+Ｌフラワー・ピュロポロス(攻撃), @戦闘アニメ_召喚準備 EFFECT_ATHENA_LifeFlower.bmp;自爆
+Ｌフラワー・ピュロポロス(命中), 大爆発
+フライングファイヤー, 炎投射
+ファイヤーストーム, 竜巻 橙
+フライングハリケーン, 竜巻
+ストームファイヤー, 竜巻 橙
+ヘブンズ・ゲイト(準備), 変形 ATHENA_PrincessAthena(Lion)U.bmp
+ヘブンズ・ゲイト, 炎弾
+ポセイドン・レイジ(準備), 変形 ATHENA_PrincessAthena(Mermaid)U.bmp
+ポセイドン・レイジ(攻撃), スーパータックル 青 Splash.wav
+ポセイドン・レイジ(命中), 連打 青;連打 青
+ペガサス☆ファンタジー(準備), 変形 ATHENA_PrincessAthena(Pegasus)U.bmp
+ペガサス☆ファンタジー, スーパータックル 白
+ユニコーンホーン, スーパーダイブ
+テュポーンスイング(攻撃), スーパーダイブ
+テュポーンスイング(命中), スーパーダイブ;ジャイアントスイング
+Ｌフラワー・コルプス, @戦闘アニメ_召喚準備 EFFECT_ATHENA_LifeFlower.bmp
+Ｌフラワー・プネウマ, @戦闘アニメ_召喚準備 EFFECT_ATHENA_LifeFlower.bmp
+
+
+ジェイク＝アボット(ＮＢＣ)
+当て身技(ナイトメアー), ユニット変色 黒 -.wav
+ボディ＆アッパー(攻撃), 連打
+ボディ＆アッパー(命中), 連打;アッパー
+ソード・オブ・レオ, 銀剣
+ナイトメアー(攻撃), 連打
+ナイトメアー(攻撃), 連打;@戦闘アニメ_打突;打突 
+サイレントストーム(攻撃), 横大斬撃
+サイレントストーム(命中), 強風
+ビーストブロウ, タックル
+ビーストブロウ(命中), スーパーパンチ 青
+アースチョッパー(準備), ソード
+アースチョッパー, 唐竹割り
+キングストレート(攻撃), 粒子集中 青 対象ユニットＩＤ;スーパーパンチ 青
+キングストレート(命中), 中ビーム 青 Crash.wav
+
+
+ミズチ(ＮＢＣ)
+当て身技(糺), Null.wav
+誓約(攻撃), 振り上げ Sword.wav
+誓約(命中), 振り上げ
+糺(攻撃), 発光 紫;気弾 紫
+糺(命中), 気弾 紫
+解除(攻撃), 実弾発射 Common\EFFECT_SonicBoom(Purple)01.bmp 48 Beamsaber.wav
+解除(命中), ダメージ 紫 連続;強打
+顕斎(攻撃), @戦闘アニメ_投擲武器準備 Bullet\EFFECT_STG_Bullet(White)03.bmp 32 発光 BeamSaber(4).wav
+顕斎(命中), 強打
+火闌降, 火柱 紫
+混(攻撃), 魔法放射 紫 大 相手ユニットＩＤ
+混(命中), 魔法放射 紫 FightHit(2).wav 大;魔法放射 紫 FightHit(2).wav 大;魔法放射 紫 FightHit(2).wav 大;魔法放射 紫 FightHit(2).wav 大
+大神(攻撃), 発光 白 対象ユニットＩＤ Sword.wav
+大神(命中), ダメージ 白;刺突;ディレイ 4;@戦闘アニメ_実弾発射攻撃 Bullet\EFFECT_STG_Bullet(White)01.bmp 8 発光 -.wav 相手ユニットＩＤ;_
+ディレイ 4;@戦闘アニメ_突く武器準備 Bullet\EFFECT_STG_Bullet(White)01.bmp 16 発光;「<BIG><B>フハハハハハハ！</BIG></B>」;_
+光球放出 白 Glass.wav 対象ユニットＩＤ;「<BIG><B>フハハハハハハ！</BIG></B>」
+
+
+アックス＝イーグル(ＮＢＣ)
+当て身技(ナイトメアー), ユニット変色 黒 -.wav
+ボディ＆アッパー(攻撃), 連打
+ボディ＆アッパー(命中), 連打;アッパー
+ゴッド・オブ・レオ, ソード
+ナイトメアー(攻撃), 連打
+ナイトメアー(攻撃), 連打;@戦闘アニメ_打突;打突 
+サイレントストーム(攻撃), 横大斬撃
+サイレントストーム(命中), 強風 黄
+ビーストブロウ, タックル
+ビーストブロウ(命中), スーパーパンチ 黄
+ハンターキラー, 浴びせ蹴り
+アースチョッパー(準備), ソード
+アースチョッパー, 唐竹割り 黄
+キングストレート(攻撃), 粒子集中 黄 対象ユニットＩＤ;スーパーパンチ 黄
+キングストレート(命中), 中ビーム 黄 Crash.wav
+キングアッパー, 振り上げ大斬撃 黄
+キングアッパー(命中), 超アッパー
+
+
+ＮＥＯ－ＤＩＯ(ＮＢＣ)
+這いよる敗北(攻撃), @戦闘アニメ_召喚準備 Unit\NBC_NEODIOU.bmp 相手ユニットＩＤ
+フリージングクロー, スーパーパンチ 白
+露骨な肋骨(攻撃), 多触手 青
+露骨な肋骨(命中), 連突
+ＤＩＯセイバー, 斬撃
+憎き肉片(攻撃), マシンキャノン 青 Swing.wav
+憎き肉片(命中), ダメージ 青
+メテオスマッシュ, スーパーダイブ 前転
+サンダーブロー, 放電
+バーニングクロー, スーパーパンチ 橙
+アルティメットキャノン(準備), 粒子集中 白
+アルティメットキャノン, 気弾 黒
+アルティメットビースト(攻撃), タックル
+アルティメットビースト(命中), 乱打;アッパー;「究極生物ッ！！！」;クリティカル斬撃
+Ｕイリュージョン(攻撃), BeamSaber.wav;タックル -.wav
+Ｕイリュージョン(命中), 斬撃乱舞;超斬撃
+
+
+グッドマン(ＮＢＣ)
+シールド防御(リフレクター), ビームシールド 黄色 BeamSaber(5).wav リフレクター
+炎の鞭, チェーン
+リフレクター(攻撃), @戦闘アニメ_射撃武器準備 Shield\EFFECT_BeamShield(Yellow)01.bmp BeamSaber(5).wav
+リフレクター(命中), 強打
+猿王(攻撃), 斬撃 Swing.wav;炎投射 青
+猿王(命中), 炎 青
+猿王・火柱(攻撃), 斬撃 Swing.wav
+猿王・火柱(命中), 火柱 青
+

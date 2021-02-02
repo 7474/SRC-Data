@@ -1,0 +1,140 @@
+
+# パイロット省略表記 -----------------------------------------------------------
+
+さやか(後期)
+さやか, MGZ_YumiSayaka(SE).bmp
+
+# パイロット表情集 -----------------------------------------------------------------------
+
+兜甲児(通常)
+甲児, MGZ_KabutoKouji(N)(2).bmp
+甲児(通常)
+甲児, MGZ_KabutoKouji(N)(2).bmp
+
+兜甲児(通常)(攻撃)
+甲児, MGZ_KabutoKouji(N)(A).bmp
+甲児(通常)(攻撃)
+甲児, MGZ_KabutoKouji(N)(A).bmp
+
+兜甲児(通常)(ダメージ)
+甲児, MGZ_KabutoKouji(N)(D).bmp
+甲児(通常)(ダメージ)
+甲児, MGZ_KabutoKouji(N)(D).bmp
+
+兜甲児(02)
+甲児, MGZ_KabutoKouji(02).bmp
+甲児(02)
+甲児, MGZ_KabutoKouji(02).bmp
+兜甲児(03)
+甲児, MGZ_KabutoKouji(03).bmp
+甲児(03)
+甲児, MGZ_KabutoKouji(03).bmp
+
+兜甲児(攻撃)(01)
+甲児, MGZ_KabutoKouji(A)(01).bmp
+甲児(攻撃)(01)
+甲児, MGZ_KabutoKouji(A)(01).bmp
+兜甲児(攻撃)(02)
+甲児, MGZ_KabutoKouji(A)(02).bmp
+甲児(攻撃)(02)
+甲児, MGZ_KabutoKouji(A)(02).bmp
+
+兜甲児(ダメージ)(01)
+甲児, MGZ_KabutoKouji(D)(01).bmp
+甲児(ダメージ)(01)
+甲児, MGZ_KabutoKouji(D)(01).bmp
+兜甲児(ダメージ)(02)
+甲児, MGZ_KabutoKouji(D)(02).bmp
+甲児(ダメージ)(02)
+甲児, MGZ_KabutoKouji(D)(02).bmp
+兜甲児(ダメージ)(03)
+甲児, MGZ_KabutoKouji(D)(03).bmp
+甲児(ダメージ)(03)
+甲児, MGZ_KabutoKouji(D)(03).bmp
+兜甲児(ダメージ)(04)
+甲児, MGZ_KabutoKouji(D)(04).bmp
+甲児(ダメージ)(04)
+甲児, MGZ_KabutoKouji(D)(04).bmp
+
+弓さやか(通常)
+さやか, MGZ_YumiSayaka(N).bmp
+さやか(通常)
+さやか, MGZ_YumiSayaka(N).bmp
+
+# シナリオ調整用ノンパイロット -------------------------------------------------
+# 使用することなかれ
+兜甲児(攻撃)
+甲児, MGZ_KabutoKouji(A)(02).bmp
+甲児(攻撃)
+甲児, MGZ_KabutoKouji(A)(02).bmp
+兜甲児(ダメージ)
+甲児, MGZ_KabutoKouji(D)(03).bmp
+甲児(ダメージ)
+甲児, MGZ_KabutoKouji(D)(03).bmp
+
+# ノンパイロット -------------------------------------------------------------------------
+
+兜十蔵
+兜博士, MGZ_KabutoJyuzo.bmp
+
+兜シロー
+シロー, MGZ_KabutoSiro.bmp
+
+鉄仮面軍団員
+鉄仮面, MGZ_IronMask.bmp
+
+鉄十字軍団員
+鉄十字, MGZ_IronCross.bmp
+
+せわし博士
+せわし博士, MGZ_PrSewashi.bmp
+
+のっそり博士
+のっそり博士, MGZ_PrNossori.bmp
+
+もりもり博士
+もりもり博士, MGZ_PrMorimori.bmp
+
+弓弦之助
+弓教授, MGZ_YumiGennosuke.bmp
+
+
+みさと(マジンガーＺ)
+みさと, MGZ_Misato.bmp
+
+#　光子力研究所の家政婦さんで、実はボスの親戚。
+
+不動明(マジンガーＺ)
+明, MGZ_FudouAkira.bmp
+
+円盤(マジンガーＺ)
+円盤, MGZ_UFO.bmp
+
+宇宙人(マジンガーＺ)
+宇宙人, MGZ_Alien.bmp
+
+# 合体技用 -----------------------------------------------------------------------
+
+剣鉄也
+鉄也, GMG_TurugiTetuya.bmp
+
+剣鉄也(攻撃)
+鉄也, GMG_TurugiTetuya(A).bmp
+鉄也(攻撃)
+鉄也, GMG_TurugiTetuya(A).bmp
+
+デューク＝フリード
+デューク, GDZ_DukeFreed.bmp
+
+デューク＝フリード(攻撃)
+デューク, GDZ_DukeFreed(A).bmp
+デューク(攻撃)
+デューク, GDZ_DukeFreed(A).bmp
+
+流竜馬
+リョウ, GET_NagareRyouma.bmp
+
+流竜馬(攻撃)
+リョウ, GET_NagareRyouma(A).bmp
+リョウ(攻撃)
+リョウ, GET_NagareRyouma(A).bmp

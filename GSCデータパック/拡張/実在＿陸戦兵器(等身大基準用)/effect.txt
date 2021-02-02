@@ -1,0 +1,21 @@
+戦車
+120mmライフル砲, Cannon.wav
+60mm軽迫撃砲, Bomb.wav;Explode.wav
+対人用散弾, Shock(Low).wav
+誘導砲弾, Cannon.wav
+近接防御兵器, Explode(Small).wav
+
+戦闘車両
+ロケット弾斉射, 15;MultipleRocketLauncher.wav;Explode(Far).wav
+スティンガー, AntiAirMissile.wav
+９６式多目的誘導弾, Missile.wav
+重ＭＡＴ, Missile.wav
+40mmボフォース砲, FastGun.wav
+
+ヘリコプター
+30mmチェーンガン, GunPod.wav
+ロケット弾ポッド, MultipleRocketLauncher(Light).wav
+スティンガー, AntiAirMissile.wav
+ヘルファイアＡＴＭ, Missile.wav
+ロングボウヘルファイア, Missile.wav
+

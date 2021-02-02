@@ -1,0 +1,721 @@
+#─────────────────────────────────────────────
+# パイロット省略表記
+
+マイク(ブームロボ)
+マイク, BKG_Mic13(B).bmp
+
+#─────────────────────────────────────────────
+# パイロット表情集
+#─────────────────────────────────────────────
+# ＧＧＧ機動部隊
+
+獅子王凱(素顔)
+ガイ, BKG_SisiouGuy(N).bmp
+ガイ(素顔)
+ガイ, BKG_SisiouGuy(N).bmp
+
+獅子王凱(攻撃)
+ガイ, BKG_SisiouGuy(A).bmp
+ガイ(攻撃)
+ガイ, BKG_SisiouGuy(A).bmp
+
+獅子王凱(ダメージ)
+ガイ, BKG_SisiouGuy(D).bmp
+ガイ(ダメージ)
+ガイ, BKG_SisiouGuy(D).bmp
+
+獅子王凱(ハイパーモード)
+ガイ, BKG_SisiouGuy(H).bmp
+ガイ(ハイパーモード)
+ガイ, BKG_SisiouGuy(H).bmp
+
+# 以下エヴォリュダー版 ──────────────────────────────────
+獅子王凱(エヴォリュダー)(素顔)
+ガイ, BKG_SisiouGuy(Final).bmp
+ガイ(エヴォリュダー)(素顔)
+ガイ, BKG_SisiouGuy(Final).bmp
+獅子王凱(ＧＧＧＦ)
+ガイ, BKG_SisiouGuy(Final).bmp
+ガイ(ＧＧＧＦ)
+ガイ, BKG_SisiouGuy(Final).bmp
+
+獅子王凱(エヴォリュダー)
+ガイ, BKG_EvoluderGuy.bmp
+ガイ(エヴォリュダー)
+ガイ, BKG_EvoluderGuy(A).bmp
+
+獅子王凱(エヴォリュダー)(攻撃)
+ガイ, BKG_EvoluderGuy(A).bmp
+ガイ(エヴォリュダー)(攻撃)
+ガイ, BKG_EvoluderGuy(A).bmp
+
+獅子王凱(エヴォリュダー)(ダメージ)
+ガイ, BKG_EvoluderGuy(D).bmp
+ガイ(エヴォリュダー)(ダメージ)
+ガイ, BKG_EvoluderGuy(D).bmp
+
+獅子王凱(エヴォリュダー)(ＧＳ)
+ガイ, BKG_EvoluderGuy(G).bmp
+ガイ(エヴォリュダー)(ＧＳ)
+ガイ, BKG_EvoluderGuy(G).bmp
+
+獅子王凱(エヴォリュダー)(ＧＳ攻撃)
+ガイ, BKG_EvoluderGuy(GA).bmp
+ガイ(エヴォリュダー)(ＧＳ攻撃)
+ガイ, BKG_EvoluderGuy(GA).bmp
+
+獅子王凱(エヴォリュダー)(ＧＳダメージ)
+ガイ, BKG_EvoluderGuy(GD).bmp
+ガイ(エヴォリュダー)(ＧＳダメージ)
+ガイ, BKG_EvoluderGuy(GD).bmp
+
+獅子王凱(エヴォリュダー)(ハイパーモード)
+ガイ, BKG_EvoluderGuy(H).bmp
+ガイ(エヴォリュダー)(ハイパーモード)
+ガイ, BKG_EvoluderGuy(H).bmp
+
+ガオガイガー
+ガイ, BKG_GaoGaigar(F)(2).bmp
+
+ガオガイガー(横)
+ガイ, BKG_GaoGaigar(F)(Side).bmp
+
+天海護
+護, BKG_AmamiMamoru(2).bmp
+# 浄解ダイアログ用
+
+天海護(喜び)
+護, BKG_AmamiMamoru(Glad).bmp
+護(喜び)
+護, BKG_AmamiMamoru(Glad).bmp
+
+天海護(驚き)
+護, BKG_AmamiMamoru(Surprised).bmp
+護(驚き)
+護, BKG_AmamiMamoru(Surprised).bmp
+
+天海護(泣き顔)
+護, BKG_AmamiMamoru(Cry).bmp
+護(泣き顔)
+護, BKG_AmamiMamoru(Cry).bmp
+
+天海護(照れ)
+護, BKG_AmamiMamoru(Embarass).bmp
+護(照れ)
+護, BKG_AmamiMamoru(Embarass).bmp
+
+天海護(真剣)
+護, BKG_AmamiMamoru(Serious).bmp
+護(真剣)
+護, BKG_AmamiMamoru(Serious).bmp
+
+天海護(浄解)
+護, BKG_AmamiMamoru(G).bmp
+護(浄解)
+護, BKG_AmamiMamoru(G).bmp
+
+ゴルディーマーグ(ハンマーモード)
+ゴルディーマーグ, BKG_Goldymarg(H).bmp
+
+氷竜(Ｒ)
+氷竜, BKG_Hyoryu.bmp
+
+氷竜(Ｖ)
+氷竜, BKG_HyoryuP(V).bmp
+
+炎竜(Ｒ)
+炎竜, BKG_Enryu.bmp
+
+炎竜(Ｖ)
+炎竜, BKG_EnryuP(V).bmp
+
+風龍(Ｒ)
+風龍, BKG_Furyu.bmp
+
+風龍(Ｖ)
+風龍, BKG_FuryuP(V).bmp
+
+雷龍(Ｒ)
+雷龍, BKG_Rairyu.bmp
+
+雷龍(Ｖ)
+雷龍, BKG_RairyuP(V).bmp
+
+氷竜＆炎竜
+氷竜＆炎竜, BKG_HyoryuAndEnryu.bmp
+
+風龍＆雷龍
+風龍＆雷龍, BKG_FuryuAndRairyu.bmp
+
+氷竜＆雷龍
+氷竜＆雷龍, BKG_HyoryuAndRairyu.bmp
+
+風龍＆炎竜
+風龍＆炎竜, BKG_EnryuAndFuryu.bmp
+炎竜＆風龍
+炎竜＆風龍, BKG_EnryuAndFuryu.bmp
+# 炎竜＆風龍は旧データとの互換性のために指定。
+
+幻竜神＆強龍神
+幻竜神＆強龍神, BKG_Genryujin&Goryujin.bmp
+
+ボルフォッグ(Ｒ)
+ボルフォッグ, BKG_Volfogg(2).bmp
+
+ボルフォッグ(Ｖ)
+ボルフォッグ, BKG_VolfoggP(V).bmp
+
+ビッグボルフォッグ
+ビッグボルフォッグ, BKG_BigVolfogg.bmp
+
+ガンドーベル
+ガンドーベル, BKG_Gundober.bmp
+
+ガングルー
+ガングルー, BKG_Gunglue.bmp
+
+マイクサウンダース１３世(キラキラ)
+マイク, BKG_Mic13(C)(K).bmp
+マイク(キラキラ)
+マイク, BKG_Mic13(C)(K).bmp
+
+マイクサウンダース１３世(眠り)
+マイク, BKG_Mic13(C)(S).bmp
+マイク(眠り)
+マイク, BKG_Mic13(C)(S).bmp
+
+#─────────────────────────────────────────────
+# シャッセール
+
+ルネ＝カーディフ(素顔)
+ルネ, BKG_RenaisKerdif.bmp
+ルネ(素顔)
+ルネ, BKG_RenaisKerdif.bmp
+
+ルネ＝カーディフ＝獅子王(攻撃)
+ルネ, BKG_RenaisKerdif(EA).bmp
+ルネ＝カーディフ(攻撃)
+ルネ, BKG_RenaisKerdif(EA).bmp
+ルネ(攻撃)
+ルネ, BKG_RenaisKerdif(EA).bmp
+
+ルネ＝カーディフ＝獅子王(怒り)
+ルネ, BKG_RenaisKerdif(EAngry).bmp
+ルネ＝カーディフ(怒り)
+ルネ, BKG_RenaisKerdif(EAngry).bmp
+ルネ(怒り)
+ルネ, BKG_RenaisKerdif(EAngry).bmp
+
+ルネ＝カーディフ＝獅子王(ダメージ)
+ルネ, BKG_RenaisKerdif(ED).bmp
+ルネ＝カーディフ(ダメージ)
+ルネ, BKG_RenaisKerdif(ED).bmp
+ルネ(ダメージ)
+ルネ, BKG_RenaisKerdif(ED).bmp
+
+ルネ＝カーディフ＝獅子王(叫び)
+ルネ, BKG_RenaisKerdif(ES).bmp
+ルネ＝カーディフ(叫び)
+ルネ, BKG_RenaisKerdif(ES).bmp
+ルネ(叫び)
+ルネ, BKG_RenaisKerdif(ES).bmp
+
+ルネ＝カーディフ＝獅子王(惚け)
+ルネ, BKG_RenaisKerdif(ESenile).bmp
+ルネ＝カーディフ(惚け)
+ルネ, BKG_RenaisKerdif(ESenile).bmp
+ルネ(惚け)
+ルネ, BKG_RenaisKerdif(ESenile).bmp
+
+ルネ＝カーディフ＝獅子王(嘲笑)
+ルネ, BKG_RenaisKerdif(ESmile).bmp
+ルネ＝カーディフ(嘲笑)
+ルネ, BKG_RenaisKerdif(ESmile).bmp
+ルネ(嘲笑)
+ルネ, BKG_RenaisKerdif(ESmile).bmp
+
+ルネ＝カーディフ＝獅子王(ハイパーモード)
+ルネ, BKG_RenaisKerdif(H).bmp
+ルネ(ハイパーモード)
+ルネ, BKG_RenaisKerdif(H).bmp
+
+光竜(Ｒ)
+光竜, BKG_Kouryu.bmp
+
+光竜(Ｖ)
+光竜, BKG_KouryuP(V).bmp
+
+闇竜(Ｒ)
+闇竜, BKG_Anryu.bmp
+
+闇竜(Ｖ)
+闇竜, BKG_AnryuP(V).bmp
+
+光竜＆闇竜
+光竜＆闇竜, BKG_KouryuAndAnnryu.bmp
+
+#─────────────────────────────────────────────
+# アベルの遺せし災い
+
+ソルダートＪ-002(攻撃)
+ソルダートＪ, BKG_SoldatoJ(A).bmp
+ソルダートＪ(攻撃)
+ソルダートＪ, BKG_SoldatoJ(A).bmp
+
+ソルダートＪ-002(ダメージ)
+ソルダートＪ, BKG_SoldatoJ(D).bmp
+ソルダートＪ(ダメージ)
+ソルダートＪ, BKG_SoldatoJ(D).bmp
+
+ソルダートＪ-002(ハイパーモード)
+ソルダートＪ, BKG_SoldatoJ(H).bmp
+ソルダートＪ(ハイパーモード)
+ソルダートＪ, BKG_SoldatoJ(H).bmp
+
+ソルダートＪ-002(ハイパーモード2)
+ソルダートＪ, BKG_SoldatoJ(H2).bmp
+ソルダートＪ(ハイパーモード2)
+ソルダートＪ, BKG_SoldatoJ(H2).bmp
+
+戒道幾巳
+戒道, BKG_KaidouIkumi.bmp
+# 護同様、浄解ダイアログ用
+
+戒道幾巳(浄解)
+戒道, BKG_KaidouIkumi(J).bmp
+戒道(浄解)
+戒道, BKG_KaidouIkumi(J).bmp
+
+キングジェイダー
+ソルダートＪ, BKG_KingJder(F).bmp
+
+ジェイダー
+ソルダートＪ, BKG_Jder(F).bmp
+
+#─────────────────────────────────────────────
+# ＧＧＧ・オーダールームスタッフ
+#
+# ダイアログ用
+# パイロットを生成していない場合、承認ダイアログが動作しないのを防止
+
+大河幸太郎
+大河長官, BKG_TaigaKoutarou.bmp
+
+火麻激
+火麻参謀, BKG_HyumaGeki.bmp
+
+獅子王雷牙
+雷牙博士, BKG_SisiouRaiga.bmp
+
+牛山一男
+牛山, BKG_UshiyamaKazuo.bmp
+
+卯都木命
+ミコト, BKG_UtsugiMikoto(2).bmp
+
+卯都木命(涙)
+ミコト, BKG_UtsugiMikoto(Cry).bmp
+ミコト(涙)
+ミコト, BKG_UtsugiMikoto(Cry).bmp
+
+卯都木命(プログラムドライブ)
+ミコト, BKG_UtsugiMikoto(PD).bmp
+ミコト(プログラムドライブ)
+ミコト, BKG_UtsugiMikoto(PD).bmp
+
+卯都木命(ＧＧＧＦ)
+ミコト, BKG_UtsugiMikoto(Final).bmp
+ミコト(ＧＧＧＦ)
+ミコト, BKG_UtsugiMikoto(Final).bmp
+
+卯都木命(ＧＧＧＦオペレーター)
+ミコト, BKG_UtsugiMikoto(FinalOP).bmp
+ミコト(ＧＧＧＦオペレーター)
+ミコト, BKG_UtsugiMikoto(FinalOP).bmp
+
+スタリオン＝ホワイト
+スタリオン, BKG_StalionWhite.bmp
+
+#─────────────────────────────────────────────
+# 機界生命体
+
+機界四天王・ピッツァ(人間形態)
+ピッツァ, BKG_Pizza(H).bmp
+ピッツァ(人間形態)
+ピッツァ, BKG_Pizza(H).bmp
+
+機界四天王・プリマーダ(人間形態)
+プリマーダ, BKG_Primada(H).bmp
+プリマーダ(人間形態)
+プリマーダ, BKG_Primada(H).bmp
+
+機界四天王・ペンチノン(人間形態)
+ペンチノン, BKG_Pinchernone(H).bmp
+ペンチノン(人間形態)
+ペンチノン, BKG_Pinchernone(H).bmp
+
+機界四天王・ポロネズ(人間形態)
+ポロネズ, BKG_Polonaise(H).bmp
+ポロネズ(人間形態)
+ポロネズ, BKG_Polonaise(H).bmp
+
+パリアッチョ
+パリアッチョ, BKG_Pagliaccio(2).bmp
+
+ゾヌーダ(命)
+ミコト, BKG_ZonudaAndMikoto.bmp
+# アイコンが存在しなくなっていますが、旧データとの互換性のために残しています。
+
+#─────────────────────────────────────────────
+# ソール１１遊星主
+
+ソール１１遊星主パルパレーパ(ドーピング)
+パルパレーパ, BKG_Palpalapa(Doping).bmp
+パルパレーパ(ドーピング)
+パルパレーパ, BKG_Palpalapa(Doping).bmp
+
+ソール１１遊星主パルス・アベル(浄解)
+アベル, BKG_PluseAbel(J).bmp
+パルス・アベル(浄解)
+アベル, BKG_PluseAbel(J).bmp
+アベル(浄解)
+アベル, BKG_PluseAbel(J).bmp
+
+#─────────────────────────────────────────────
+# ノンパイロット
+#─────────────────────────────────────────────
+# ＧＧＧ隊員
+
+アルエット(ＢＫＧ)
+アルエット, BKG_Allet.bmp
+
+# バイオネットにより、胎児の段階から遺伝子操作を施された超天才児。
+# ガイたちの手でバイオネットから救出され、ＧＧＧの一員となる。
+# わずか５歳にしてガオファイガーのファイナルフュージョンプログラムを開発するが、
+# 香港における初起動の際に負傷。天才的な頭脳とそれまでの記憶を失い、実母に引き取られた。
+
+犬吠崎実
+犬吠崎, BKG_InubouzakiMinoru.bmp
+
+# 元ＧＧＧ隊員だが、コンピュータシステム開発主任に選ばれなかったことで猿頭寺を逆恨み。
+# そこをつけ込まれてペンチノンにゾンダー化され、ＥＩ－１５となる。
+# 浄解後はＧＧＧに復帰、主にオービットベースのシステム開発を担当。
+# エンジニアとして優秀な人物だが、肝心なことを忘れる癖がある。
+
+猿頭寺耕助
+猿頭寺, BKG_EntoujiKousuke.bmp
+
+# ＧＧＧ諜報部担当オペレータにして、システム開発主任。
+# ＩＱ３００を誇る天才だが大の風呂嫌いで、きわめて不衛生。
+
+スワン＝ホワイト
+スワン, BKG_SwanWhite.bmp
+
+# ＧＧＧ研究部担当オペレータ。
+
+高之橋両輔
+高之橋博士, BKG_TakanohashiRyosuke.bmp
+
+# 世界十大頭脳の一人。雷牙博士のアメリカＧＧＧ転属に伴い、
+# オービットベースに配属された後任のＧＧＧスーパーバイザー。
+# 原種大戦のさなか、ゾンダーとは別の地球外知生体に精神を支配され、
+# 全世界の雄性体(つまり男)を根絶しようとしたことがある。
+# 本来はたいへん穏和な人物。
+#
+# 外見上のモデルはＴＶシリーズのプロデューサー・高橋良輔氏。
+
+野崎通
+野崎博士, BKG_PrNozaki.bmp
+
+# 北海道・苫小牧に設置された巨大粒子加速器『イゾルデ』の責任者。
+# ゾンダー化され、イゾルデの大出力を利用したゾンダーメタルプラントを育成していた。
+# 浄解後はＧＧＧに参加。
+#
+# 外見上のモデルはスペシャルコンセプターの野崎透氏。
+
+パピヨン＝ノワール
+パピヨン, BKG_PapillonNoir.bmp
+
+パピヨン＝ノワール(レプリジン)
+パピヨン, BKG_PapillonNoir(R).bmp
+パピヨン(レプリジン)
+パピヨン, BKG_PapillonNoir(R).bmp
+
+# スワンの転属に伴いオービットベースに配属された生体医工学者。
+# ルネの数少ない友人にして、猿頭寺耕助の恋人。
+# リンカージェル研究の第一人者ロリエ＝ノワールを母に持ち、
+# 『ベターマン』登場の都古麻御の後輩でもあるという、ガガガ世界のリンクを支える重要人物。
+#
+# 過去・現在・未来の事象を脳内で測量する「センシングマインド」という特殊能力の持ち主で、
+# その能力ゆえレプリジン・護のオービットベース襲撃の際に命を落とす。
+# しかし、そのとき複製されたレプリジンが三重連太陽系で生きていた。
+
+給仕ロボット・ピギーちゃん
+ピギーちゃん, BKG_Piggy.bmp
+
+# ビッグオーダールームに常駐するウェイトレスロボット。
+# ＡＩにPIGGY ver2.4を使用し、会話こそできないものの、勇者たちにきめ細やかなサービスを提供する。
+# 余談中の余談だが、攻撃兵装としてアームパンチの搭載が計画されたこともあったらしい。
+
+平田昭子
+平田博士, BKG_HirataAkiko.bmp
+
+# 物理学者。重力制御装置の公開実験が失敗、そのストレスからゾンダー化されＥＩ－２０に。
+# 浄解後はＧＧＧに参加し、オービットベースの重力制御装置開発に尽力。
+# また、ゴルディオンモーターの開発にも携わる。
+#
+# 外見上のモデルは某アニメ誌の担当編集者だとか。
+
+八木沼範行
+八木沼長官, BKG_YaginumaNoriyuki.bmp
+
+# 防衛庁から天下りしてきたＧＧＧ新長官。
+# 慎重派で承認に時間がかかる。
+
+#─────────────────────────────────────────────
+# ＧＧＧ関係者・重要人物など
+
+緑の星の指導者カイン
+カイン, BKG_PeiLaCain.bmp
+
+# 遊星主に非ず。本物ということで一応ノンパイ化。
+
+獅子王絆
+絆, BKG_ShishiouKizuna.bmp
+
+クスクス(ＢＫＧ)
+クスクス, BKG_Kusukusu.bmp
+
+ムカムカ(ＢＫＧ)
+ムカムカ, BKG_Mukamuka.bmp
+
+メソメソ(ＢＫＧ)
+メソメソ, BKG_Mesomeso.bmp
+
+ヤン＝ロンリー
+ヤン博士, BKG_YangRonLee.bmp
+
+# 中国におけるスーパーテクノロジーの総本山・科学院航空星際部に出向していた軍人。
+# 軍事目的で風龍・雷龍を開発したが、彼らが勇者の心に目覚め撃龍神に合体してのちは、
+# ＧＧＧのよき理解者となる。
+# ちなみに漢字表記は「楊龍里」
+#
+# 外見モデルはプロデューサー・小林真一郎氏。
+
+ロゼ＝アプロヴァール
+ロゼ総長, BKG_RoseApproval.bmp
+
+# 国連事務総長。大河長官を『幸太郎坊や』火麻参謀を『激坊主』と呼び捨てる女傑。
+
+#─────────────────────────────────────────────
+# 一般人
+
+天海愛
+愛, BKG_AmamiAi.bmp
+
+天海勇
+勇, BKG_AmamiIsamu.bmp
+
+磯貝桜
+桜, BKG_IsogaiSakura.bmp
+
+# 宇宙開発公団総裁秘書。
+# 妻子ある大河に対し、総裁と秘書との間を超えた感情を抱いているが、
+# それを内に秘めて職務に励む才女。
+# なお、物語当初はＧＧＧの存在について知らされていなかったようである。
+
+牛山末男
+ウッシー, BKG_UshiyamaSueo.bmp
+
+# 牛山家末弟。護のクラスメイト。
+# 兄たちの影響か、小学３年生にして立派なミリタリーマニア。
+
+牛山次男
+次男, BKG_UshiyamaTsuguo.bmp
+
+# 牛山家次兄。「じなん」ではなく「つぐお」
+# 蒼斧蛍汰のクラスメイトとして『ベターマン』にも登場しており、
+# ガガガ世界のリンクを影で支える一人。
+
+牛山三男
+三男, BKG_UshiyamaMitsuo.bmp
+
+# 牛山家三弟。「さんなん」ではなく「みつお」
+# 牛山兄弟のなかで唯一メガネをかけている。中学生。
+
+戒道の母
+戒道夫人, BKG_Kaidou'sMother.bmp
+
+# 戒道幾巳の養母。
+#
+# ガガガのキャラにしては珍しく、固有の名前が存在しないようです。
+# 作中で夫の存在が語られたことはなく、戒道家は母子家庭なのですが、
+# 便宜的に愛称は『夫人』に。
+# 作中でも、戒道の生い立ちを調査した猿頭寺が『戒道夫人』と言っていました。
+
+風祭スミレ
+スミレ, BKG_KazamatsuriSumire.bmp
+
+# 海洋遊園地『Ｇパークシー』に勤める飼育員。シャチのヴァルナーを担当している。
+# 高校時代はガイたちの後輩であり、ガイに想いを寄せていた。
+
+孤森レイコ
+レイコ, BKG_KomoriReiko.bmp
+
+孤森レイコ(勝ち誇り)
+レイコ, BKG_KomoriReiko(Triumph).bmp
+レイコ(勝ち誇り)
+レイコ, BKG_KomoriReiko(Triumph).bmp
+
+孤森レイコ(照れ)
+レイコ, BKG_KomoriReiko(Embarass).bmp
+レイコ(照れ)
+レイコ, BKG_KomoriReiko(Embarass).bmp
+
+# 護の同級生の一人。見るからに金持ちのお嬢様ふうの容姿だが、
+# 実は家の事業が倒産し、父親を亡くしているという裏設定がある。
+# 得意技(？)は火事場の馬鹿力。
+# 
+# 愛称はレイコになってますが、名字の狐森(こもり)で呼ばれることの方が多いです。
+# レイコと呼んでいるのは、主にウッシーでした。
+
+数納鷹泰
+数納, BKG_SunoTakayasu.bmp
+
+数納鷹泰(泣き)
+数納, BKG_SunoTakayasu(Cry).bmp
+数納(泣き)
+数納, BKG_SunoTakayasu(Cry).bmp
+
+数納鷹泰(泣き２)
+数納, BKG_SunoTakayasu(Cry2).bmp
+数納(泣き２)
+数納, BKG_SunoTakayasu(Cry2).bmp
+
+数納鷹泰(泣き３)
+数納, BKG_SunoTakayasu(Cry3).bmp
+数納(泣き３)
+数納, BKG_SunoTakayasu(Cry3).bmp
+
+# 護のクラスメイト。泣き＆メガネ担当。
+# 金持ちぶりをレイコと争うが、常に負ける。
+
+先生(ＢＫＧ)
+先生, BKG_Teacher.bmp
+
+# カモメ第一小学校の教師。
+# 護たちのクラス担任であるがゆえに、数々の事件に巻き込まれる不運の人。
+
+初野あやめ
+あやめ, BKG_HatsunoAyame.bmp
+
+# 華の従姉。１４歳の中学２先生。
+# プロレスやミリタリーといったマニアックな趣味を持つが、
+# 元々は好きだった先輩(のちに牛山次男であることが判明)と共通の話題を求めて、というのが
+# その動機だったらしい。
+# なお、携帯しているＰＨＳのデザインから、特撮にも造形が深いと思われる。
+
+初野華
+華, BKG_HatsunoHana.bmp
+
+初野華(笑顔)
+華, BKG_HatsunoHana(Smile).bmp
+華(笑顔)
+華, BKG_HatsunoHana(Smile).bmp
+
+初野華(照れ)
+華, BKG_HatsunoHana(Embarass).bmp
+華(照れ)
+華, BKG_HatsunoHana(Embarass).bmp
+
+初野華(不安)
+華, BKG_HatsunoHana(Anxiety).bmp
+華(不安)
+華, BKG_HatsunoHana(Anxiety).bmp
+
+初野華(ウエディングキッス)
+華, BKG_HatsunoHana(WeddingKiss).bmp
+華(ウエディングキッス)
+華, BKG_HatsunoHana(WeddingKiss).bmp
+
+初野華(ウエディング)
+華, BKG_HatsunoHana(Wedding).bmp
+華(ウエディング)
+華, BKG_HatsunoHana(Wedding).bmp
+
+# 護のクラスメイトで幼なじみ。
+# 行く先々でなぜか大事件に遭遇する星の下に生まれた少女。
+# ５歳のとき、護と将来を誓い合っている。口癖は「怖くない、怖くない」
+
+#─────────────────────────────────────────────
+# ゾンダー素体
+#
+# 浄解後もよく出てくる人をノンパイ化。
+
+ウッポくん(ＢＫＧ)
+ウッポくん, BKG_Uppokun.bmp
+
+# 沖縄ウォーターポリスのマスコットキャラ。
+# 着ぐるみに入っていたアルバイトが仕事のストレスからゾンダー化され、ＥＩ－１３に。
+# お世辞にもかわいいデザインとは言えず、護少年にも「だっさ～い」と言われていた。
+# 浄解後は強風で飛ばされた首を見かけることがある。
+#
+# なお、沖縄ウォーターポリスの資本は地下遊園地「ボトム・ザ・ワールド」と同じらしく、
+# 『ベターマン』にもこっそり登場している。
+
+お天気お姉さん(ＢＫＧ)
+お天気お姉さん, BKG_WeatherReporter.bmp
+
+# 予報がはずれて非難されたストレスからゾンダー化され、ＥＩ－２２気象衛星ゾンダーに。
+# 浄解後は天気予報のみならず、アナウンサーとしてＧＧＧ関連のニュースを読んでいたり、
+# 突撃レポーターをしていたりと、仕事の幅を広げたようである。
+# また、どこで知り合ったのか風祭スミレとはメールをやりとりする仲らしい。
+# 『ベターマン』にも討論番組の司会として出演。
+#
+# 外見上のモデルは色彩設計の柴田亜紀子氏。
+
+堀口五浪
+堀口, BKG_HoriguchiGorou.bmp
+
+# 浪人生。受験勉強のストレスからゾンダー化され、ＥＩ－１６列車砲ゾンダーに。
+# 浄解後はマイペースに勉強を続けているらしい。大学に合格したという話は聞かない。
+#
+# 外見上のモデルは文芸制作の堀口滋氏。そっくりらしい。
+
+山葉いすず
+いすず, BKG_YamahaIsuzu.bmp
+
+# 宅配ピザ屋の店員。
+# 渋滞で配達の時間に遅れたストレスからゾンダー化され、ＥＩ－１０バイクゾンダーに。
+# ゾンダーから人間に戻る珍しい性質を持つが、そのゾンダーとしての破壊活動が
+# さらに渋滞を引き起こすため、ストレスが増し続けていたのではないかと推測される。
+# 浄解後もピザ屋で働き続けており、配達中、水陸両用整備装甲車の上陸を目撃することも。
+# 『ベターマン』にもほんの一瞬だけ出演。
+
+#─────────────────────────────────────────────
+# その他
+
+アルマ(Ｊ-019)
+アルマ, BKG_Aruma(J-019).bmp
+
+# 赤の星の機界昇華後、とある惑星に逃げ延びていた女性型アルマ。
+# だが、ゾンダリアン化したソルダート戦士「Ｊ－０１９」に発見され、命を絶たれる。
+# その際、Ｊ－０１９の失われていた記憶を取り戻すことに成功するが、
+# 皮肉にも、それは『戦士の誇りを持ちながらも原種の指令に逆らえない』ことで、
+# 彼を精神的に苦しめる結果となる。
+#
+# Ｊ－０１９はこの女性型アルマを模した人形を作り、傍らに置いている。
+# それは、犯した罪を忘れぬために、彼が自らに科した十字架なのである。
+
+ガガガッチ
+ガガガッチ, BKG_Gagagatch.bmp
+
+ガガガッチ(攻撃)
+ガガガッチ, BKG_Gagagatch(A).bmp
+
+# ＴＶアニメ「熱血勇者マン ガガガッチ」の主人公。
+# ガガガのみどりぼしの王子で、ガガガカッターやガガガコレダーなどの必殺技を持つ。
+# お供はギャレボン。キングスノーというライバルがいる。
+#
+# 視聴率30%を誇る人気番組ですが、ゾンダーの怪電波によりプロレス中継がつぶれたため、
+# あやめちゃんには不評でした。

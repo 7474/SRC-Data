@@ -1,0 +1,116 @@
+ＧＧＧ勇者ロボ
+プラズマホールド(命中), BeamSaber.wav
+ブロウクンマグナム, Bazooka.wav
+ブロウクンマグナム(命中), 5;Drill.wav;Crash.wav
+ブロウクンファントム, Bazooka.wav
+ブロウクンファントム(命中), 5;Drill.wav;Crash.wav
+ゴルディオンマグナム, Bazooka.wav
+ゴルディオンマグナム(命中), Shock(Low).wav
+ガトリングドライバー(命中), Charge.wav
+ヘルアンドヘブン, Storm.wav
+ヘルアンドヘブン(命中), Crash.wav
+ゴルディオンハンマー, Swing.wav
+ゴルディオンハンマー(命中), Crash.wav
+ゴルディオンハンマー(とどめ), Interference.wav
+モレキュルプラーネ(準備), BeamSaber.wav
+モレキュルプラーネ(命中), -.wav
+モレキュルプラーネ(とどめ), Interference.wav
+ゴルディオンハンマー(合), Swing.wav
+ゴルディオンハンマー(合)(命中), Crash.wav
+ゴルディオンハンマー(合)(とどめ), Interference.wav
+ヘルアンドヘブン(ジェネシック), Storm.wav
+ヘルアンドヘブン(ジェネシック)(命中), Crash.wav
+ハイパーモード, Transform.wav
+# 氷竜 #
+パワークレーン, Whiz.wav
+パワークレーン(命中), Punch.wav
+クレーントンファー, Swing.wav
+クレーントンファー(命中), Punch.wav
+フリージングガン, MachineCannon.wav
+フリージングライフル, MachineGun.wav
+# 炎竜 #
+パワーラダー, Whiz.wav
+パワーラダー(命中), Punch.wav
+ラダートンファー, Swing.wav
+ラダートンファー(命中), Punch.wav
+メルティングガン, MachineCannon.wav
+メルティングライフル, MachineGun.wav
+# 超竜神 #
+ダブルガン, MachineCannon.wav
+ダブルトンファー(命中), 2;Punch.wav;2;Punch.wav
+ダブルライフル, MachineGun.wav
+# 風龍 #
+鶴拳(命中), Combo.wav
+ティガオ２・風道弾, Missile.wav
+# 雷龍 #
+鷹爪拳(命中), Combo.wav
+デンジャンホー(命中), Punch.wav
+# 撃龍神 #
+シャントウロン, Beam.wav
+シャントウロン(命中), Explode.wav
+# ボルフォッグ #
+メルティングサイレン, PatrolCar.wav
+シルバームーン, 2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav
+シルバームーン(命中), Saber.wav
+シルバークロス, 2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav
+シルバークロス(命中), Saber.wav
+4000マグナム, MachineGun.wav
+ムラサメソード, 1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav
+ムラサメソード(命中), Saber.wav
+超分身殺法(準備), Whiz.wav
+超分身殺法, Swing.wav
+超分身殺法(命中), Crash.wav
+大回転魔弾, 1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;Storm.wav
+大回転魔弾(命中), FastGun.wav
+大回転大魔弾, 1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;Storm.wav
+大回転大魔弾(命中), Slash.wav
+ハイパーモード, Transform.wav
+# 光竜 #
+ライトニングスプラッシュ, LaserGun.wav
+ライトニングランス, Beam.wav
+# 闇竜 #
+ナイトメアカーテン, MultipleRocketLauncher(Light).wav
+シャドウカーテン, MultipleRocketLauncher(Light).wav
+ナイトメアハードレイン, MultipleRocketLauncher(Light).wav
+携帯Ｎ爆弾(命中), Explode(Nuclear).wav
+#マイクサウンダース#
+ディスクＭ(命中), Whiz.wav
+ソリタリーウェーブ(命中), Beam.wav
+ソリタリーウェーブ<合>(命中), Beam.wav
+重力レンズ収束ウェーブ(命中), Beam.wav
+#グラビティショックウェーブ, 
+
+アベルの遺せし災い
+二連装反中間子砲, Beam.wav
+五連メーザー砲, Beam.wav
+メーザーミサイル, MultipleRocketLauncher.wav
+ジェイクォース, Whiz.wav
+ジェイクォース(命中), Beam.wav
+ジェイフェニックス, Fire.wav
+ジェイクォース(命中), Beam.wav
+ハイパーモード, Transform.wav
+
+ＧＧＧ艦
+リフレクタービーム, Beam.wav
+ミラー粒子砲, Beam.wav
+
+ゾンダーロボ
+格闘, Swing.wav
+ペットボトルロケット, Missile.wav
+電磁ムチ, Whip.wav
+電磁ムチ(命中), BreakOff.wav;Thunder.wav
+冷線砲, Beam.wav
+荷電粒子砲(準備), Transform.wav
+荷電粒子砲, Beam.wav
+チェーンソー, 1;Swing.wav;1;Swing.wav;Drill.wav
+チェーンソー(命中), Slash.wav
+ハンマーパンチ, 1;Swing.wav;1;Swing.wav;1;Swing.wav
+ハンマーパンチ(命中), Crash.wav
+石炭爆弾, GunPod.wav
+石炭爆弾(命中), 1;Explode.wav;1;Explode.wav;1;Explode.wav
+ビーム(０５), Beam.wav
+ビーム(０６), Beam.wav
+振動波, BeamCoat.wav;BeamCoat.wav
+ショベル, Whiz.wav
+ショベル(命中), Crash.wav
+ローラー, GunPod.wav

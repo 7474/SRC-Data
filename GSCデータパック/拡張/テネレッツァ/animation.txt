@@ -1,0 +1,114 @@
+
+テネレッツァ
+ハイパーモード(愛という名の魔法), 粒子集中 黄 Charge.wav;変形 TENE_Tenerezza(Eclair)U.bmp
+攻撃無効化(魔法障壁), バリア 黄 魔法障壁
+護身用ナイフ(攻撃), ナイフ突撃
+護身用ナイフ(命中), 斬撃
+ブロンズソード(攻撃), 剣突撃
+ブロンズソード(命中), 斬撃
+ウインドカッター(攻撃), 気斬 緑 Beam.wav;気斬 緑 Beam.wav
+ウインドカッター(命中), 風 Slash.wav
+ファイヤーボール(攻撃), 火炎弾 Beam.wav
+ファイヤーボール(命中), 大爆発
+二天一流の心得(攻撃), タックル
+二天一流の心得(命中), 超斬撃 Sword.wav
+アースハンマー(準備), 魔法集中 黄 Charge.wav;ハンマー Transform.wav
+アースハンマー(攻撃), ハンマー突撃
+アースハンマー(命中), ダメージ Crash.wav
+フレイムウォール(準備), 魔法集中 赤  Charge.wav
+フレイムウォール(攻撃), 光噴出 赤 対象ユニットＩＤ Interference.wav
+フレイムウォール(命中), 炎 赤 MicroMissile.wav
+バーニングブラスト(準備), 五芒星 赤 Charge(Long).wav
+バーニングブラスト(攻撃), 地表衝撃波 赤 MicroMissile.wav
+バーニングブラスト(命中), 超爆発 Explode(Nuclear).wav
+テンペスト(準備), 五芒星 緑 Charge(Long).wav
+テンペスト(攻撃), 大落雷 対象ユニットＩＤ Beam.wav
+テンペスト(命中), 大電撃
+クリムゾンフレア(準備), 魔法陣 ピンク Charge(High).wav
+クリムゾンフレア(攻撃), 大ビーム ピンク
+クリムゾンフレア(命中), 大ビーム ピンク
+エンジェルコール(準備), 魔法陣 黄 Charge(High).wav
+エンジェルコール(攻撃), 粒子集中 黄;魔法放射 黄
+フリーズランサー(攻撃), 2;氷弾 Beam.wav;2;氷弾 Beam.wav;氷弾 Beam.wav
+フリーズランサー(命中), 連突
+ロックボム(攻撃), 振り下ろし;爆弾
+ロックボム(命中), 爆発
+サイクロン(準備), 魔法集中 緑
+サイクロン(攻撃), 竜巻
+サイクロン(命中), ＭＡＰ竜巻
+グレシャークロス(準備), 魔法集中 青
+グレシャークロス(攻撃), 魔法放射 青
+グレシャークロス(命中), 氷柱 Sword.wav
+メテオ(準備), 五芒星 黄 Charge(Long).wav
+メテオ(攻撃), 隕石
+メテオ(命中), 超爆発
+アイスジャベリン(準備), 五芒星 青 Charge(Long).wav
+アイスジャベリン(攻撃), 2;氷弾 Beam.wav;2;氷弾 Beam.wav;波動放射 青
+アイスジャベリン(命中), 超打 Crash.wav
+メルトダウン(準備), 魔法陣 Charge(High).wav
+メルトダウン(攻撃), ＭＡＰダークネス Interference.wav
+メイルシュトローム(準備), 魔法陣 Charge(High).wav
+メイルシュトローム(攻撃), ＭＡＰ津波
+メイルシュトローム(命中), ダメージ Interference.wav
+チャージ, 魔法陣 Charge(2).wav
+突撃(攻撃), タックル
+突撃(命中), 刺突
+ジャマダハル(攻撃), カタール突撃
+ジャマダハル(命中), 斬撃 Sword.wav
+ジャマダハル(命中), 刺突  Sword.wav
+スピンラッシュ, スピンアタック 赤
+尾撃(攻撃), タックル;回転
+尾撃(命中), 超打 Warship.wav
+濃霧, 煙 Interference.wav
+招雷(攻撃), 3;落雷 Beam.wav;3;落雷 Beam.wav;落雷 Beam.wav
+招雷(命中), 大放電
+アイスレーザー, ニードルレーザー連射 白
+キック(攻撃), スーパーキック 白
+キック(命中), 超打 Warship.wav
+ジャンプ(縮地), テレポート Whiz.wav 縮地
+毒酒の霧(攻撃), 煙 Interference.wav
+居合抜き(攻撃), タックル;Swing(2).wav
+居合抜き(命中), 連斬撃 Slash(4).wav
+居合抜き(命中), なぎ払い Slash(4).wav
+居合抜き(命中), 横大斬撃 Slash(4).wav
+居合抜き(命中), 振り上げ Slash(4).wav
+居合抜き(命中), 分身斬撃 Slash(4).wav
+居合抜き(命中), 唐竹割り Sword.wav
+斬撃波(攻撃), なぎ払い Saber.wav;シュートカッター 白 Whiz.wav
+斬撃波(命中), 大斬撃 Slash(4).wav
+格闘術(攻撃), タックル
+格闘術(命中), 強打 Bazooka.wav
+ソニックブーム(攻撃), なぎ払い Saber.wav;シュートカッター 白 Whiz.wav
+ソニックブーム(命中), 大斬撃 Slash(4).wav
+斬馬剣(準備), 巨大剣
+斬馬剣(攻撃), 巨大剣突撃
+斬馬剣(命中), 大斬撃 Slash(4).wav
+斬馬剣(命中), 横大斬撃 Slash(4).wav
+斬馬剣(命中), 唐竹割り Sword.wav
+飛翔扇(攻撃), 投擲武器 DGoods\EFFECT_Fan01.bmp;投擲武器 DGoods\EFFECT_Fan01.bmp;投擲武器 DGoods\EFFECT_Fan01.bmp
+飛翔扇(命中), ダメージ Punch.wav;ダメージ Punch.wav;ダメージ Punch.wav
+ライトニングアロー(攻撃), 中ビーム 黄
+ライトニングアロー(命中), 中ビーム 黄
+サモンアーマー(準備), 振る武器 Transform.wav TENE_ArmorU.bmp;振る武器 Transform.wav TENE_ArmorU.bmp;振る武器 Transform.wav TENE_ArmorU.bmp
+サモンアーマー(攻撃), 粒子集中 青 Charge.wav;実弾発射 TENE_ArmorU.bmp Beam.wav;実弾発射 TENE_ArmorU.bmp Beam.wav;実弾発射 TENE_ArmorU.bmp Beam.wav
+サモンアーマー(命中), 大斬撃 Slash(4).wav
+サモンアーマー(命中), 横大斬撃 Slash(4).wav
+サモンアーマー(命中), 唐竹割り Sword.wav
+サモンデスサイズ(準備), 振る武器 Transform.wav TENE_DeathScytheU.bmp;振る武器 Transform.wav TENE_DeathScytheU.bmp;振る武器 Transform.wav TENE_DeathScytheU.bmp
+サモンデスサイズ(攻撃), 粒子集中 黒 Charge.wav;実弾発射 TENE_DeathScytheU.bmp Beam.wav;実弾発射 TENE_DeathScytheU.bmp Beam.wav;実弾発射 TENE_DeathScytheU.bmp Beam.wav
+サモンデスサイズ(命中), 斬り上げ Slash(4).wav
+サモンデスサイズ(命中), @戦闘アニメ_なぎ払い攻撃 相手ユニットＩＤ Slash(4).wav
+サモンデスサイズ(命中), @戦闘アニメ_振り下ろし攻撃 相手ユニットＩＤ Slash(4).wav
+分身突撃(準備), 振る武器 TENE_ShalomXPU.bmp BeamSaber.wav;振る武器 TENE_ShalomXPU.bmp BeamSaber.wav
+分身突撃(攻撃), 実弾発射 TENE_ShalomXPU.bmp Whiz.wav;実弾発射 TENE_ShalomXPU.bmp Whiz.wav;タックル
+分身突撃(命中), 超打 Warship.wav
+デビルアポカリプス(準備), 粒子集中 青
+デビルアポカリプス(攻撃), 大落雷 Beam.wav
+デビルアポカリプス(命中), 超爆発
+ギガンティックアーム(攻撃), なぎ払い Saber.wav;振り下ろし Saber.wav
+ギガンティックアーム(命中), 超打 Crash.wav
+ライトニング(準備), 粒子集中 青
+ライトニング(攻撃), 大落雷 Beam.wav
+ライトニング(命中), 大電撃
+ジャンプ(攻撃), 急降下
+ジャンプ(命中), 急降下;超爆発

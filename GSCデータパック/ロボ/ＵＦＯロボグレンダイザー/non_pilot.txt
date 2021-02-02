@@ -1,0 +1,111 @@
+
+# パイロット表情集 -----------------------------------------------------------------------
+
+デューク＝フリード(攻撃)
+デューク, GDZ_DukeFreed(A).bmp
+デューク(攻撃)
+デューク, GDZ_DukeFreed(A).bmp
+
+デューク＝フリード(ダメージ)
+デューク, GDZ_DukeFreed(D).bmp
+デューク(ダメージ)
+デューク, GDZ_DukeFreed(D).bmp
+
+宇門大介
+大介, GDZ_DukeFreed(N).bmp
+
+#普段の生活をしているとき、デューク＝フリードは大介さんと呼ばれています。
+#他のパイロットの(通常)顔がこれにあたります。
+
+兜甲児(ＴＦＯ)(ダメージ)
+甲児, GDZ_KabutoKouji(TFO)(D).bmp
+甲児(ＴＦＯ)(ダメージ)
+甲児, GDZ_KabutoKouji(TFO)(D).bmp
+
+兜甲児(ＴＦＯ)(回避)
+甲児, GDZ_KabutoKouji(TFO)(E).bmp
+甲児(ＴＦＯ)(回避)
+甲児, GDZ_KabutoKouji(TFO)(E).bmp
+
+牧葉ひかる(攻撃)
+ひかる, GDZ_MakibaHikaru(A).bmp
+ひかる(攻撃)
+ひかる, GDZ_MakibaHikaru(A).bmp
+
+牧葉ひかる(通常)
+ひかる, GDZ_MakibaHikaru(N).bmp
+ひかる(通常)
+ひかる, GDZ_MakibaHikaru(N).bmp
+
+グレース＝マリア＝フリード(攻撃)
+マリア, GDZ_MariaFreed(A).bmp
+マリア(攻撃)
+マリア, GDZ_MariaFreed(A).bmp
+
+グレース＝マリア＝フリード(通常)
+マリア, GDZ_MariaFreed(N).bmp
+マリア(通常)
+マリア, GDZ_MariaFreed(N).bmp
+
+# ノンパイロット -------------------------------------------------------------------------
+
+宇門源蔵
+宇門博士, GDZ_UmonGenzo.bmp
+
+#宇宙科学研究所所長。
+#地球に逃げおちたデュークを助け、大介の名を与えて息子として育てた。
+
+
+牧葉団兵衛
+団兵衛, GDZ_MakibaDanbe.bmp
+
+
+牧葉吾郎
+吾郎, GDZ_MakibaGoro.bmp
+
+
+荒野番太
+番太, GDZ_AranoBanta.bmp
+
+#　シラカバ牧場のとなりにある、荒野牧場の一人息子。
+#　派手な帽子をかぶっており、甲児に四色旗と呼ばれていた。
+#　マジンガーＺで言う所の、ボス的存在。
+#　ちなみにドリルスペイザーにはこいつが乗る予定だったのだが、ゲッターチームのイメージに被る
+#　という理由で外された不憫なキャラクターである。
+#　そして、ドリルスペイザーに乗るために急遽作られたキャラが、マリアである。
+
+
+荒野ハラ
+ハラ, GDZ_AranoHara.bmp
+
+#　番太の肝っ玉かあちゃん。
+
+
+
+# 合体技用 -----------------------------------------------------------------------
+
+兜甲児(03)
+甲児, MGZ_KabutoKouji(03).bmp
+甲児(03)
+甲児, MGZ_KabutoKouji(03).bmp
+
+兜甲児(攻撃)(02)
+甲児, MGZ_KabutoKouji(A)(02).bmp
+甲児(攻撃)(02)
+甲児, MGZ_KabutoKouji(A)(02).bmp
+
+剣鉄也
+鉄也, GMG_TurugiTetuya.bmp
+
+剣鉄也(攻撃)
+鉄也, GMG_TurugiTetuya(A).bmp
+鉄也(攻撃)
+鉄也, GMG_TurugiTetuya(A).bmp
+
+流竜馬
+リョウ, GET_NagareRyouma.bmp
+
+流竜馬(攻撃)
+リョウ, GET_NagareRyouma(A).bmp
+リョウ(攻撃)
+リョウ, GET_NagareRyouma(A).bmp

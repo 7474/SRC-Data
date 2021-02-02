@@ -1,0 +1,250 @@
+仮面ライダー
+シールド防御, BeamSaber.wav;5;Reload.wav;5;<B>『ガードベント』</B>
+ライダーアタック(命中), Punch.wav
+ライドセイバー(命中), 1;Swing.wav;Slash.wav
+ドラグクロー(命中), Crash.wav
+ドラグセイバー(命中), 1;Swing.wav;Slash.wav
+龍舞斬(命中), 1;Swing.wav;Slash.wav
+ドラグレッダー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+ドラグレッダー, Jet.wav
+ドラグレッダー(命中), 4;Punch.wav;2;Stab.wav;2;Stab.wav;5;Stab.wav;3;Bazooka.wav;5;Bazooka.wav;8;Fire.wav;Explode.wav
+ドラグクローファイヤー, Bazooka.wav
+ドラグクローファイヤー(命中), Explode.wav
+昇竜突破, Bazooka.wav
+昇竜突破(命中), Explode.wav
+ドラゴンライダーキック(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+ドラゴンライダーキック, 3;Bazooka.wav;3;Jet.wav
+ドラゴンライダーキック(命中), Explode(Far).wav
+ダブルライダーキック(命中), 5;Bazooka.wav;Explode(Far).wav
+阻止(竜巻防御), BeamSaber.wav;5;Reload.wav;5;<B>『ガードベント』</B>
+サバイブ『烈火』, BeamSaber.wav;5;Reload.wav;5;<B>『サバイブ』</B>;5;Fire.wav;Glass.wav
+ドラグブレード(命中), 1;Swing.wav;Slash.wav
+ドラグランザー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+ドラグランザー, 5;Glass.wav;Jet.wav
+ドラグランザー(命中), 4;Crash.wav;1;Stab.wav;1;Stab.wav;4;Stab.wav;2;Bazooka.wav;2;Bazooka.wav;4;Bazooka.wav;3;Fire.wav;3;Fire.wav;3;Explode.wav;3;Explode.wav;3;Explode.wav
+メテオバレット, Bazooka.wav
+メテオバレット(命中), Explode(Far).wav
+ドラゴンファイヤーストーム(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+ドラゴンファイヤーストーム, 22;Bike.wav;2;Bazooka.wav;2;Bazooka.wav;2;Bazooka.wav;2;Bazooka.wav;4;Bazooka.wav
+ドラゴンファイヤーストーム(命中), 2;Explode.wav;2;Explode.wav;2;Explode.wav;2;Explode.wav;4;Explode.wav;Explode(Nuclear).wav
+変形(ドラグランザー騎乗), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+ドラグテイル, Swing.wav
+ドラグテイル(命中), Slash.wav
+ドラグジャウ(命中), 2;Stab.wav;Stab.wav
+ドラグブレス, Bazooka.wav
+ドラグブレス(命中), Explode.wav
+ソニックブレイカー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ナスティベント』</B>
+ソニックブレイカー, LaserGun.wav
+ソニックブレイカー(クリティカル), Hide.wav
+ダークバイザー(命中), 1;Saber.wav;Stab.wav
+ウイングランサー(命中), 1;Swing.wav;Slash.wav
+シャドーイリュージョン(準備), BeamSaber.wav;5;Reload.wav;5;<B>『トリックベント』</B>
+シャドーイリュージョン, 3;BeamSaber.wav;BeamSaber.wav
+シャドーイリュージョン(命中), 1;Swing.wav;1;Slash.wav;1;Slash.wav;Slash.wav
+ダークウイング(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+ダークウイング, Saber.wav
+ダークウイング(命中), Crash.wav
+飛翔斬(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>;8;Stairs(Run).wav;Whiz.wav
+飛翔斬, Jet.wav
+飛翔斬(命中), 5;Stab.wav;Explode(Far).wav
+変形(ダークウイング装着), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+サバイブ『疾風』, BeamSaber.wav;5;Reload.wav;5;<B>『サバイブ』</B>;8;Wind.wav;Glass.wav
+ダークトルネード(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ブラストベント』</B>
+ダークトルネード, Storm.wav
+ダークアロー, 1;Bow.wav;1;Bow.wav;Bow.wav
+ダークアロー(命中), 1;Stab.wav;1;Stab.wav;Stab.wav
+ダークブレード(命中), 1;Swing.wav;Slash.wav
+ダークレイダー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+ダークレイダー, Saber.wav
+ダークレイダー(命中), 2;Crash.wav;2;Crash.wav;Crash.wav
+疾風断(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>;3;Saber.wav;3;Saber.wav
+疾風断, 20;Bike.wav;6;Beam.wav;3;Saber.wav;Jet.wav
+疾風断(命中), Explode(Nuclear).wav
+変形(ダークレイダー騎乗), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+ダークエッジ(命中), 1;Swing.wav;Slash.wav
+ダークスラッシャー, Saber.wav
+ダークスラッシャー(命中), Slash.wav
+ダーククロウ(命中), 4;Stab.wav;Thunder.wav
+シザースバイザー(命中), Saber.wav
+シザースピンチ(命中), Slash(2).wav
+ボルキャンサー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+ボルキャンサー, Swing.wav
+ボルキャンサー(命中), 3;Punch(2).wav;3;Slash(2).wav;Slash(2).wav
+シザースアタック(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+シザースアタック, 4;Glass.wav;5;Whiz.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav;Swing.wav
+シザースアタック(命中), Explode(Far).wav
+マグナバイザー, 3;Gun.wav;3;Gun.wav;3;Gun.wav;Gun.wav
+ギガホーン(命中), Crash.wav
+ギガランチャー, Bazooka.wav
+ギガランチャー(命中), Explode.wav
+ギガキャノン, 3;Cannon.wav;Cannon.wav
+ギガキャノン(命中), Explode.wav
+マグナギガ(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+マグナギガ, MicroMissile.wav
+マグナギガ(命中), Explode.wav
+エンドオブワールドMAP(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+エンドオブワールドMAP, 2;Reload(5).wav;5;Reload.wav;5;Charge(High).wav;5;Reload(5).wav;8;MultipleRocketLauncher(Light).wav;9;MicroMissile.wav;5;Explode(Far).wav;Explode(Nuclear).wav
+エンドオブワールド(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+エンドオブワールド, 2;Reload(5).wav;5;Reload.wav;5;Charge(High).wav;5;Reload(5).wav;8;MultipleRocketLauncher(Light).wav;9;MicroMissile.wav;5;Explode(Far).wav;Explode(Nuclear).wav
+ライアエンド, Saber.wav
+ライアエンド(命中), Stab.wav
+エビルウイップ, 1;Swing.wav;2;Swing.wav;Saber.wav
+エビルウイップ(命中), Whip.wav
+エビルダイバー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+エビルダイバー, Saber.wav
+エビルダイバー(命中), Punch.wav
+ハイドベノン(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+ハイドベノン, Jet.wav
+ハイドベノン(命中), Explode(Far).wav
+Ｗドラグクローファイヤー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『コピーベント』</B>
+Ｗドラグクローファイヤー, Breath.wav
+Ｗドラグクローファイヤー(命中), Explode.wav
+反射(コピーベント), BeamSaber.wav;5;Reload.wav;5;<B>『コピーベント』</B>
+シールド防御(エビルバイザー), -
+メタルバイザー(命中), Stab.wav
+メタルホーン(命中), Crash.wav
+メタルゲラス(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+メタルゲラス, Stairs(Run).wav
+メタルゲラス(命中), Crash.wav
+阻止(コンファインベント), BeamSaber.wav;5;Reload.wav;5;<B>『コンファインベント』</B>
+ヘビープレッシャー(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+ヘビープレッシャー, 4;Drill.wav;AntiAirMissile.wav
+ヘビープレッシャー(命中), Explode(Far).wav
+ベノサーベル(命中), Crash.wav
+ベノスネーカー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+ベノスネーカー, Swing.wav
+ベノスネーカー(命中), Crash.wav
+ベノクラッシュ(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+ベノクラッシュ, 5;Stairs(Run).wav;4;Whiz.wav;5;Swing.wav;Jet.wav
+ベノクラッシュ(命中), 5;Fastgun.wav;5;Fastgun.wav;5;Explode.wav;Explode(Far).wav
+ユナイトベント, BeamSaber.wav;5;Reload.wav;5;<B>『ユナイトベント』</B>
+ジェノサイダー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+ジェノサイダー, Beam.wav
+ジェノサイダー(命中), Explode(Far).wav
+ドゥームズデイ(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+ドゥームズデイ, Swing.wav
+ドゥームズデイ(命中), 5;Crash.wav;6;Jet.wav;Fold.wav
+フリーズベント(準備), BeamSaber.wav;5;Reload.wav;5;<B>『フリーズベント』</B>
+フリーズベント(クリティカル), Flair.wav
+デストバイザー, Swing.wav
+デストバイザー(命中), Slash.wav
+デストクロー(命中), 3;Slash.wav;Slash.wav
+デストワイルダー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+デストワイルダー, Swing.wav
+デストワイルダー(命中), Punch(3).wav
+クリスタルブレイク(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+クリスタルブレイク, Swing.wav
+クリスタルブレイク(命中), Explode(Far).wav
+ガゼルスタッブ(命中), Drill.wav
+ギガゼール(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+ギガゼール, Swing.wav
+ギガゼール(命中), Crash.wav
+ゼール軍団(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+ゼール軍団, MultipleRocketLauncher(Light).wav
+ゼール軍団(命中), 4;Crash.wav;4;Crash.wav;Crash.wav
+ドライブディバイダー(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+ドライブディバイダー, MultipleRocketLauncher(Light).wav
+ドライブディバイダー(命中), Explode(Far).wav
+バイオホールド, 3;Saber.wav;Saber.wav
+バイオホールド(クリティカル), Whip.wav
+バイオワインダー, 3;Swing.wav;Swing.wav
+バイオワインダー(命中), Punch(2).wav
+コピーベント(準備), BeamSaber.wav;5;Reload.wav;5;<B>『コピーベント』</B>
+コピーベント(命中), Crash.wav
+バイオグリーザ(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+バイオグリーザ, Saber.wav
+バイオグリーザ(命中), Crash.wav
+デスバニッシュ(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+デスバニッシュ, Swing.wav
+デスバニッシュ(命中), Explode(Far).wav
+分身(仮面ライダーベルデ), BeamSaber.wav;5;Reload.wav;5;<B>『クリアーベント』</B>
+ブランバイザー(命中), 1;Saber.wav;Stab.wav
+ウイングスラッシャー(命中), 1;Swing.wav;Slash.wav
+ブランウイング(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+ブランウイング, Saber.wav
+ブランウイング(命中), Slash.wav
+ミスティースラッシュMAP(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+ミスティースラッシュMAP, 5;Whiz.wav;5;Whiz.wav;Whiz.wav
+ミスティースラッシュMAP(命中), -.wav
+ミスティースラッシュ(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+ミスティースラッシュ, 5;Whiz.wav;5;Whiz.wav;Whiz.wav
+ミスティースラッシュ(命中), -.wav
+分身(仮面ライダーファム), BeamSaber.wav;5;Reload.wav;5;<B>『ガードベント』</B>
+ゴルトフェザー(命中), 3;Explode.wav;3;Explode.wav;3;Explode.wav;Explode.wav
+ゴルトセイバー(命中), 1;Swing.wav;1;Slash.wav;Slash.wav
+ゴルトフェニックス(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+ゴルトフェニックス, Saber.wav
+ゴルトフェニックス(命中), Slash.wav
+エターナルカオス(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+エターナルカオス(命中), Explode(Nuclear).wav
+
+# ライドセイバー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ソードベント』</B>
+# ドラグクロー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ストライクベント』</B>
+# 龍舞斬(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ソードベント』</B>
+# ドラグセイバー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ソードベント』</B>
+# ドラグクローファイヤー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ストライクベント』</B>
+# 昇竜突破, BeamSaber.wav;5;Reload.wav;5;<B>『ストライクベント』</B>
+# ドラグブレード(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ソードベント』</B>
+# メテオバレット(準備), BeamSaber.wav;5;Reload.wav;5;<B>『シュートベント』</B>
+# ウイングランサー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ソードベント』</B>
+# ダークアロー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『シュートベント』</B>
+# ダークブレード(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ソードベント』</B>
+# シザースピンチ(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ストライクベント』</B>
+# ギガホーン(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ストライクベント』</B>
+# ギガランチャー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『シュートベント』</B>
+# ギガキャノン(準備), BeamSaber.wav;5;Reload.wav;5;<B>『シュートベント』</B>
+# エビルウイップ(準備), BeamSaber.wav;5;Reload.wav;5;<B>『スイングベント』</B>
+# メタルホーン(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ストライクベント』</B>
+# ベノサーベル(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ソードベント』</B>
+# デストクロー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ストライクベント』</B>
+# ガゼルスタップ(準備), BeamSaber.wav;5;Reload.wav;5;<B>『スピンベント』</B>
+# バイオワインダー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ホールドベント』</B>
+# ウイングスラッシャー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ソードベント』</B>
+# ゴルトセイバー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ソードベント』</B>
+
+
+
+仮面ライダーリュウガ
+シールド防御, BeamSaber.wav;5;Reload.wav;5;<i><B>『ガードベント』</B></i>
+ライダーアタック(命中), Punch.wav
+ドラグクロー(命中), Crash.wav
+ドラグセイバー(命中), 1;Swing.wav;Slash.wav
+龍舞斬(命中), 1;Swing.wav;Slash.wav
+ドラグクローファイヤー, Bazooka.wav
+ドラグクローファイヤー(命中), Explode.wav
+昇竜突破, Bazooka.wav
+昇竜突破(命中), Explode.wav
+ドラグブラッカー(準備), BeamSaber.wav;5;Reload.wav;5;<i><B>『アドベント』</B></i>
+ドラグブラッカー, Jet.wav
+ドラグブラッカー(命中), 4;Punch.wav;2;Stab.wav;2;Stab.wav;5;Stab.wav;3;Bazooka.wav;5;Bazooka.wav;4;Fire.wav;Explode.wav
+ドラゴンライダーキック(準備), BeamSaber.wav;5;Reload.wav;5;<i><B>『ファイナルベント』</B></i>
+ドラゴンライダーキック, 3;Bazooka.wav;3;Jet.wav
+ドラゴンライダーキック(命中), Explode(Far).wav
+阻止(竜巻防御), BeamSaber.wav;5;Reload.wav;5;<i><B>『ガードベント』</B></i>
+
+# ドラグクロー(準備), BeamSaber.wav;5;Reload.wav;5;<i><B>『ストライクベント』</B></i>
+# ドラグセイバー(準備), BeamSaber.wav;5;Reload.wav;5;<i><B>『ソードベント』</B></i>
+# 龍舞斬(準備), BeamSaber.wav;5;Reload.wav;5;<i><B>『ソードベント』</B></i>
+# ドラグクローファイヤー(準備), BeamSaber.wav;5;Reload.wav;5;<i><B>『ストライクベント』</B></i>
+# 昇竜突破(準備), BeamSaber.wav;5;Reload.wav;5;<i><B>『ストライクベント』</B></i>
+
+
+
+擬似ライダー
+オルタナティブアタック(命中), Punch.wav
+スラッシュダガー(命中), 1;Swing.wav;Slash.wav
+スラッシュシュート, LaserGun.wav
+スラッシュシュート(命中), Fire.wav
+アクセルベント(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アクセルベント』</B>
+アクセルベント, Saber.wav
+アクセルベント(命中), Slash.wav
+サイコローグ(準備), BeamSaber.wav;5;Reload.wav;5;<B>『アドベント』</B>
+サイコローグ, MicroMissile.wav
+サイコローグ(命中), Explode.wav
+デッドエンド(準備), BeamSaber.wav;5;Reload.wav;8;<B>『ファイナルベント』</B>
+デッドエンド, 20;Bike.wav;Storm.wav
+デッドエンド(命中), Explode(Far).wav
+変形(ホイールベント), BeamSaber.wav;5;Reload.wav;5;<B>『ホイールベント』</B>
+サイコプレート(命中), Crash.wav
+
+# スラッシュダガー(準備), BeamSaber.wav;5;Reload.wav;5;<B>『ソードベント』</B>

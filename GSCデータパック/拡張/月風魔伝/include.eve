@@ -1,0 +1,1220 @@
+# ローカル戦闘アニメです。
+#
+# GFMD_拡散実弾
+# GFMD_平行実弾
+# GFMD_大文字発射
+# GFMD_真下伸縮武器
+# GFMD_複数回転武器
+# GFMD_回転連続描画
+# GFMD_二重連続描画
+# GFMD_逆回転
+# GFMD_実弾連なり
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_GFMD_拡散実弾準備:
+戦闘アニメ_GFMD_拡散実弾攻撃:
+戦闘アニメ_GFMD_拡散実弾命中:
+# 引数１  画像名(五種必須。左方向発射時の上から順に記述)
+# 引数２  画像サイズ
+# 引数３  効果音
+# 引数４  発光
+# 引数５  保持
+# 引数６  速度(速 or 遅)
+# 引数８  角度固定 (相手位置による弾の回転を行わない)
+# 引数９  左右反転
+# 引数10  間隔= (弾と弾の隙間を調整 マイナス数指定可)
+# 引数１１ 相手ユニットＩＤ (相手から対象へ撃たせる)
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Local posX posY
+Local ANG B_ANG
+Local DST
+Local i
+Local VRT
+
+Local UID2 = _GetName(相手ユニットＩＤ)
+If (UID = UID2) Then
+	UID2 = _GetName(対象ユニットＩＤ)
+Endif
+
+
+If Abs(X(UID) - X(UID2)) > Abs(Y(UID) - Y(UID2)) Then
+	set VRT 1
+	If X(UID) > X(UID2) Then
+	Else
+	Set B_ANG 180
+	Endif
+Else 
+	If Y(UID) > Y(UID2) Then
+	Set B_ANG 90
+	Else
+	Set B_ANG 270
+	Endif
+Endif
+
+#発射物に関する変数
+Local BMP_FILE = Args(1)
+Local BMP_FILE2 = Args(2)
+Local BMP_FILE3 = Args(3)
+Local BMP_FILE4 = Args(4)
+Local BMP_FILE5 = Args(5)
+Local G_S G_SC
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local UDR
+
+Local FL SLOW
+Local W_T
+
+
+  Set ANG _GetAngle(UID)
+  Set G_S _GetPicSizeFromArgs()
+  Set posX ((X(UID) - _Get_X(UID2)) * 32)
+  Set posY ((Y(UID) - _Get_Y(UID2)) * 32)
+  Set DST (Abs(X(UID) - _Get_X(UID2)) _
+         + Abs(Y(UID) - _Get_Y(UID2)))
+G_SC = G_S + _GetOptValueFromArgs("間隔")
+
+Incr C_X (16 - (G_S \ 2))
+Incr C_Y (16 - (G_S \ 2))
+
+If (_IsLight() = 1) Then
+  Set FL 1
+Else
+  Set FL ""
+EndIf
+
+
+#実弾の速度を遅くする？
+If (_SearchOptionFromArgs("遅") != "") Then
+  Set SLOW 1
+  Set DST (2 * DST)
+  Set W_T 0.5
+ElseIf (_SearchOptionFromArgs("速") != "") Then
+  Set SLOW 0
+  Set W_T 0.4
+Else
+  Set W_T 0.6
+  Set SLOW 0
+EndIf
+
+
+# 弾の傾き変更
+If (_SearchOptionFromArgs("角度固定") != "") Then
+  Set B_ANG 0
+EndIf
+
+# 左右反転
+Set UDR ""
+If (_SearchOptionFromArgs("左右反転") != "") Then
+  Set UDR 左右反転
+EndIf
+
+
+Wait Reset
+
+_SelectSound Missile.wav _GetWavFromArgs()
+
+
+For i = 1 To (DST + 1)
+
+ClearPicture
+
+If VRT = 1 Then
+
+  PaintPicture BMP_FILE3 _
+    (C_X - (posX / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 B_ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE2 _
+    (C_X - (posX / (DST + 2)) * i) (C_Y - ((posY + G_SC) / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 B_ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE4 _
+    (C_X - (posX / (DST + 2)) * i) (C_Y - ((posY - G_SC) / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 B_ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE _
+    (C_X - (posX / (DST + 2)) * i) (C_Y - ((posY + (G_SC * 2)) / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 B_ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE5 _
+    (C_X - (posX / (DST + 2)) * i) (C_Y - ((posY - (G_SC * 2)) / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 B_ANG UDR _ColorTime(FL)
+    
+Else
+    
+
+  PaintPicture BMP_FILE3 _
+    (C_X - (posX / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 B_ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE2 _
+    (C_X - ((posX + G_SC) / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 B_ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE4 _
+    (C_X - ((posX - G_SC) / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 B_ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE _
+    (C_X - ((posX + (G_SC * 2)) / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 B_ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE5 _
+    (C_X - ((posX - (G_SC * 2)) / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 B_ANG UDR _ColorTime(FL)
+EndIf
+
+  Refresh
+  Wait Until (W_T * i)
+Next
+
+
+
+If (_SearchOptionFromArgs("保持") != "") Then
+  Return "Keep"
+Else
+  ClearPicture
+  Refresh
+  Return "Keep"
+EndIf
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_GFMD_平行実弾準備:
+戦闘アニメ_GFMD_平行実弾攻撃:
+戦闘アニメ_GFMD_平行実弾命中:
+# 引数１  画像名(五種必須。左方向発射時の上から順に記述)
+# 引数２  画像サイズ
+# 引数３  効果音
+# 引数４  発光
+# 引数５  保持
+# 引数６  速度(速 or 遅)
+# 引数８  角度固定 (相手位置による弾の回転を行わない)
+# 引数９  左右反転
+# 引数10  間隔= (弾と弾の隙間を調整 マイナス数指定可)
+# 引数１１ 相手ユニットＩＤ (相手から対象へ撃たせる)
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Local posX posY
+Local ANG
+Local DST
+Local i
+Local VRT
+
+Local UID2 = _GetName(相手ユニットＩＤ)
+If (UID = UID2) Then
+	UID2 = _GetName(対象ユニットＩＤ)
+Endif
+
+
+
+#発射物に関する変数
+Local BMP_FILE = Args(1)
+Local BMP_FILE2 = Args(2)
+Local BMP_FILE3 = Args(3)
+Local BMP_FILE4 = Args(4)
+Local BMP_FILE5 = Args(5)
+Local G_S G_SC
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local UDR
+
+Local FL SLOW
+Local W_T
+
+
+  Set ANG _GetAngle(UID)
+  Set G_S _GetPicSizeFromArgs()
+  Set posX ((X(UID) - _Get_X(UID2)) * 32)
+  Set posY ((Y(UID) - _Get_Y(UID2)) * 32)
+  Set DST (Abs(X(UID) - _Get_X(UID2)) _
+         + Abs(Y(UID) - _Get_Y(UID2)))
+
+G_SC = G_S + _GetOptValueFromArgs("間隔")
+
+Incr C_X (16 - (G_S \ 2))
+Incr C_Y (16 - (G_S \ 2))
+
+If (_IsLight() = 1) Then
+  Set FL 1
+Else
+  Set FL ""
+EndIf
+
+
+#実弾の速度を遅くする？
+If (_SearchOptionFromArgs("遅") != "") Then
+  Set SLOW 1
+  Set DST (2 * DST)
+  Set W_T 0.5
+ElseIf (_SearchOptionFromArgs("速") != "") Then
+  Set SLOW 0
+  Set W_T 0.4
+Else
+  Set W_T 0.6
+  Set SLOW 0
+EndIf
+
+
+# 弾の傾き変更
+If (_SearchOptionFromArgs("角度固定") != "") Then
+  Set ANG 0
+EndIf
+
+# 左右反転
+Set UDR ""
+If (_SearchOptionFromArgs("左右反転") != "") Then
+  Set UDR 左右反転
+EndIf
+
+If Abs(X(UID) - X(UID2)) > Abs(Y(UID) - Y(UID2)) Then
+	set VRT 1
+Endif
+
+
+Wait Reset
+
+_SelectSound Missile.wav _GetWavFromArgs()
+
+
+For i = 1 To (DST + 1)
+
+ClearPicture
+
+If VRT = 1 Then
+
+  PaintPicture BMP_FILE3 _
+    (C_X - (posX / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE2 _
+    (C_X - (posX / (DST + 2)) * i) (C_Y + G_SC - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE4 _
+    (C_X - (posX / (DST + 2)) * i) (C_Y - G_SC - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE _
+    (C_X - (posX / (DST + 2)) * i) (C_Y + (G_SC * 2) - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE5 _
+    (C_X - (posX / (DST + 2)) * i) (C_Y - (G_SC * 2) - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 ANG UDR _ColorTime(FL)
+    
+Else
+    
+
+  PaintPicture BMP_FILE3 _
+    (C_X - (posX / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE2 _
+    (C_X + G_SC - (posX / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE4 _
+    (C_X - G_SC - (posX / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE _
+    (C_X + (G_SC * 2) - (posX / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 ANG UDR _ColorTime(FL)
+  PaintPicture BMP_FILE5 _
+    (C_X - (G_SC * 2) - (posX / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 ANG UDR _ColorTime(FL)
+EndIf
+
+  Refresh
+  Wait Until (W_T * i)
+Next
+
+
+
+If (_SearchOptionFromArgs("保持") != "") Then
+  Return "Keep"
+Else
+  ClearPicture
+  Refresh
+  Return "Keep"
+EndIf
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+
+戦闘アニメ_GFMD_大文字発射攻撃:
+
+# 引数１：文字
+# 引数２：文字のサイズ
+# 引数　：文字色 効果音 残像 速度(速 or 遅) 有線 ユニットＩＤ
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Local C_X = WX(UID)
+LOcal C_Y = WY(UID)
+Local posX = ((X(UID) - _Get_X(相手ユニットＩＤ)) * 32)
+Local posY = ((Y(UID) - _Get_Y(相手ユニットＩＤ)) * 32)
+Local ANG
+Local DST = (Abs(X(UID) - _Get_X(相手ユニットＩＤ)) _
+           + Abs(Y(UID) - _Get_Y(相手ユニットＩＤ)))
+Local i
+Local SLOW W_T WIRED AFTER_IMAGE
+Local WC_X WC_Y
+
+Font _GetName(#FF0000,_GetColor(_GetColorFromArgs())) Bold ゴシック (Args(2) & "pt")
+
+Incr C_X (4 - (Args(2) \ 4))
+Incr C_Y (4 - (Args(2) \ 4))
+
+#残像を表示する？
+If (_SearchOptionFromArgs("残像") != "") Then
+  Set AFTER_IMAGE 1
+Else
+  Set AFTER_IMAGE 0
+EndIf
+
+#実弾の速度を遅くする？
+If (_SearchOptionFromArgs("遅") != "") Then
+  Set SLOW 1
+  Set DST (2 * DST)
+  Set W_T 0.5
+ElseIf (_SearchOptionFromArgs("速") != "") Then
+  Set SLOW 0
+  Set W_T 0.4
+Else
+  Set W_T 0.6
+  Set SLOW 0
+EndIf
+
+#有線表示を行う？
+If (_SearchOptionFromArgs("有線") != "") Then
+  Set WIRED 1
+  Color RGB(180,180,180)
+  Set WC_X (WX(UID) + 16)
+  Set WC_Y (WY(UID) + 16)
+Else
+  Set WIRED 0
+EndIf
+
+Wait Reset
+
+_SelectSound Missile.wav _GetWavFromArgs()
+If (AFTER_IMAGE = 1) Then
+  ClearPicture
+EndIf
+
+For i = 1 To (DST + 1)
+
+  If (AFTER_IMAGE = 0) Then
+    ClearPicture
+    If (WIRED = 1) Then
+      Line WC_X WC_Y (WC_X - (posX / (DST + 2)) * i) (WC_Y - (posY / (DST + 2)) * i)
+    ElseIf (SLOW = 0 And i > 1) Then
+        PaintString (C_X - (posX / (DST + 2)) * (i - 1)) (C_Y - (posY / (DST + 2)) * (i - 1 ) ) Args(1)
+    EndIf
+
+  Else
+    If (WIRED = 1) Then
+      Line WC_X WC_Y (WC_X - (posX / (DST + 2)) * i) (WC_Y - (posY / (DST + 2)) * i)
+    EndIf
+  EndIf
+
+  PaintString (C_X - (posX / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) Args(1)
+  Refresh
+  Wait Until (W_T * i)
+Next
+
+ClearPicture
+Refresh
+
+#反動表示を行う？
+If (_SearchOptionFromArgs("反動") != "") Then
+  Call 戦闘アニメ_共通反動 UID
+  Return
+Else
+  Return "Keep"
+EndIf
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_GFMD_真下伸縮武器攻撃:
+
+
+Local UID = _GetName(対象ユニットＩＤ)
+Center 相手ユニットＩＤ
+Local BMP_FILE = _GetBMPName(UID)
+Local BMP_FILE2 = _GetTileName(UID)
+
+Local G_S = _GetName(32,Args(2))
+Local G_SH = (G_S \ 2)
+Local ANG = 270
+
+Set C_X WX(UID)
+Set C_Y WY(UID)
+
+Local W_Y
+Local ANG_F = 1
+Local DRCT = _FlipVertical(ANG)
+Local T_COL = _ColorTime(_IsLight())
+Local i j
+Local S_F = _GetWavFromArgs()
+Local G_DST G_DST_MAX
+Local X_F = _GetCircumference(ANG,Ｘ)
+Local Y_F = _GetCircumference(ANG,Ｙ)
+Local MAX_NUM
+
+
+Set G_DST_MAX Int(G_S * 0.95)
+
+Set MAX_NUM Int(_SetMinValue(((100 / G_DST_MAX) + 1),5))
+
+If (BMP_FILE2 = "") Then
+  ChangeUnitBitmap UID 非表示
+EndIf
+
+_GBA_GetBmpPatternInfo _G_APTN_FA() -.wav
+
+_SelectSound Swing.wav S_F
+
+Set W_Y[1] 116
+
+Wait Start
+For i = 1 To 6
+
+  ClearPicture
+
+  If (BMP_FILE2 != "") Then
+    PaintPicture BMP_FILE2 C_X C_Y _ColorTime()
+  EndIf
+
+    PaintPicture BMP_FILE - 100 透過 _ColorTime()
+
+  # 柄部分
+  Set G_DST _SetMaxValue((G_S * ((i - 1) * 0.2)),G_S)
+  For j = 2 To MAX_NUM
+    # 中間１
+    Set W_Y[j] (W_Y[(j - 1)] + G_DST)
+  Next
+
+  PaintPicture _SetBmpNum2(_GBA_P_NAME,3,_GBA_P_TYPE) - (W_Y[1] - G_SH) G_S G_S 右回転 ANG 透過 DRCT T_COL
+ For j = 2 To (MAX_NUM - 1)
+  PaintPicture _SetBmpNum2(_GBA_P_NAME,2,_GBA_P_TYPE) - (W_Y[j] - G_SH) G_S G_S 右回転 ANG 透過 DRCT T_COL
+ Next
+  PaintPicture _SetBmpNum2(_GBA_P_NAME,1,_GBA_P_TYPE) - (W_Y[MAX_NUM] - G_SH) G_S G_S 右回転 ANG 透過 DRCT T_COL
+  Refresh
+  Wait Until (i * 0.6)
+Next
+
+
+Return "Keep"
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+
+戦闘アニメ_GFMD_複数回転武器準備:
+戦闘アニメ_GFMD_複数回転武器攻撃:
+
+# 引数 ６(全角。六個回転)
+# 引数 ランダム(各々の回転開始角が不規則になる)
+# 引数 効果音
+# 引数 発光
+# 引数 回転数= (デフォルト16)
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Local WP_FILE = _GetBmpFromArgs()
+Local G_S = _GetPicSizeFromArgs()
+Local C_X = (WX(UID) + (16 - (G_S \ 2)))
+Local C_Y = (WY(UID) + (16 - (G_S \ 2)))
+Local ANG1 ANG2 ANG3 ANG4 ANG5 ANG6
+Local i m
+Local k = _GetOptValueFromArgs("回転数")
+Local T_COL_F = _ColorTime(_IsLight())
+
+
+Set ANG1 45
+Set ANG2 135
+Set ANG3 45
+Set ANG4 135
+Set ANG5 45
+Set ANG6 135
+
+
+If (_SearchOptionFromArgs("ランダム") != "") Then
+  Set ANG1 (30 * random(12))
+  Set ANG2 (30 * random(12))
+  Set ANG3 (30 * random(12))
+  Set ANG4 (30 * random(12))
+  Set ANG5 (30 * random(12))
+  Set ANG6 (30 * random(12))
+EndIf
+
+If k = 0 Then
+  Set k 16
+EndIf
+
+Wait Start
+
+For i = 1 To k
+	Incr m 1
+    Incr ANG1 55
+    Incr ANG2 -55
+    Incr ANG3 55
+    Incr ANG4 -55
+    Incr ANG5 55
+    Incr ANG6 -55
+    ClearPicture
+    PaintPicture WP_FILE (C_X - 20) (C_Y + 12) G_S G_S 透過 右回転 ANG1 T_COL_F
+    PaintPicture WP_FILE (C_X + 20) (C_Y + 12) G_S G_S 透過 上下反転 右回転 ANG2 T_COL_F
+    PaintPicture WP_FILE (C_X - 20) (C_Y - 12) G_S G_S 透過 右回転 ANG3 T_COL_F
+    PaintPicture WP_FILE (C_X + 20) (C_Y - 12) G_S G_S 透過 上下反転 右回転 ANG4 T_COL_F
+
+    If (_SearchOptionFromArgs("６") != "") Then
+        PaintPicture WP_FILE (C_X - 12) (C_Y - 28) G_S G_S 透過 右回転 ANG5 T_COL_F
+        PaintPicture WP_FILE (C_X + 12) (C_Y - 28) G_S G_S 透過 上下反転 右回転 ANG6 T_COL_F
+    Endif
+
+    Refresh
+    
+    If m > 1 Then
+    	_SelectSound "Swing.wav" _GetWavFromArgs()
+    	Set m 0
+    Endif
+    Wait Until (i * 0.4)
+Next
+
+ClearPicture
+Refresh
+
+Return
+
+
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+
+戦闘アニメ_GFMD_回転連続描画準備:
+戦闘アニメ_GFMD_回転連続描画攻撃:
+戦闘アニメ_GFMD_回転連続描画命中:
+戦闘アニメ_GFMD_回転連続描画使用:
+戦闘アニメ_GFMD_回転連続描画クリティカル:
+# 引数１ 画像ファイル(連続表示)
+# 引数２ 画像サイズ
+# 引数３ 表示時間
+# 引数４ 表示位置
+# 引数５ 効果音
+# 引数６ 発光
+# 引数７ 保持
+# 引数８ 方向判定
+# 引数９ ユニットＩＤ
+#
+# 引数 角度=(整数) (指定した角度に右周りで画像を回転させる。「発射」と組み合わせ可能)
+# 引数 ランダム (ランダム角度で画像を回転) or 発射(発射画像を相手方向に向けて描画)
+# 引数 中間or手前or奥 対象と相手ユニットの中間三箇所のどれかでアニメを再生する
+# 引数 ＭＡＰ (ＭＡＰ兵器用)
+# 引数 オプション=(その他描画オプション)
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Local GS_STR = _GetBoxSizeFromArgs(Args(2))
+Local G_SX = _GN(32,_SelectBmpSizeType(GS_STR,"Ｘ"))
+Local G_SY = _GN(32,_SelectBmpSizeType(GS_STR,"Ｙ"))
+Local i
+Local j
+Local C_X = WX(UID)
+LOcal C_Y = WY(UID)
+Local G_X = (WX(UID) + 16)
+LOcal G_Y = (WY(UID) + 16)
+Local BMP_FILE = _GetBMPName(UID)
+Local T_COL_F = _ColorTime(_IsLight())
+Local W_T
+Local B_FLG = _S_OPT_FA("背面")
+Local DRCT = ""
+Local POS = _GetDrawPosFromArgs()
+Local T_COL = _ColorTime()
+
+Local ANG = 0
+Local ANGP
+Local OPT
+
+If ((X(対象ユニットＩＤ) < _Get_X(相手ユニットＩＤ)) And (_S_OPT_FA("方向判定") = "方向判定")) Then
+  Set DRCT 左右反転
+EndIf
+Local UD_OPT = _S_OPT_FA("上下反転")
+Local LR_OPT = _S_OPT_FA("左右反転")
+If ((DRCT != "") And (LR_OPT != "")) Then
+  Set DRCT ""
+ElseIf (LR_OPT != "") Then
+  Set DRCT LR_OPT
+EndIf
+
+If (_SearchOptionFromArgs("中間") != "") Then
+  G_X = (((WX(対象ユニットＩＤ) + WX(相手ユニットＩＤ)) * 0.5) + 16)
+  G_Y = (((WY(対象ユニットＩＤ) + WY(相手ユニットＩＤ)) * 0.5) + 16)
+EndIf
+
+If (_SearchOptionFromArgs("手前") != "") Then
+  G_X = (((WX(相手ユニットＩＤ) - WX(対象ユニットＩＤ)) * 0.25) + WX(対象ユニットＩＤ) + 16)
+  G_Y = (((WY(相手ユニットＩＤ) - WY(対象ユニットＩＤ)) * 0.25) + WY(対象ユニットＩＤ) + 16)
+EndIf
+
+If (_SearchOptionFromArgs("奥") != "") Then
+  G_X = (((WX(相手ユニットＩＤ) - WX(対象ユニットＩＤ)) * 0.75) + WX(対象ユニットＩＤ) + 16)
+  G_Y = (((WY(相手ユニットＩＤ) - WY(対象ユニットＩＤ)) * 0.75) + WY(対象ユニットＩＤ) + 16)
+EndIf
+
+
+Incr G_X (G_SX * -0.5)
+
+Switch POS
+Case "上辺"
+  Incr G_Y -16
+Case "下辺"
+  Incr G_Y ((G_SY * -1) + 16)
+Case Else
+  Incr G_Y (G_SY * -0.5)
+EndSw
+
+If (_SearchOptionFromArgs("ＭＡＰ") != "") Then
+  Center X(目標地点) Y(目標地点)
+  G_X = -
+  G_Y = -
+  Switch POS
+	Case "上辺"
+  		G_Y = 224
+	Case "下辺"
+  		G_Y = (256 - G_SY)
+  EndSw
+EndIf
+
+# 角度設定
+
+If (_SearchOptionFromArgs("発射") != "") Then
+  ANG = _GetAngle(対象ユニットＩＤ)
+EndIf
+
+If (DRCT = "左右反転") Then
+	ANGP = (_GetOptValueFromArgs("角度") * -1)
+Else
+	ANGP = _GetOptValueFromArgs("角度")
+EndIf
+
+ANG = ANG + ANGP
+
+Set OPT _GetOptValueFromArgs("オプション")
+
+
+_GBA_GetBmpPatternInfo _G_APTN_FA() _GetName(_GetWavFromArgs(),_GetOptParamsFromArgs("連続効果音"))
+Set W_T (Args(3) / _GBA_P_TTL)
+
+#_GetNumberFromArgs(Args(4))
+
+For j = 1 To _GetNumberFromArgs(Args(4))
+
+If (_SearchOptionFromArgs("ランダム") != "") Then
+  ANG = random(360)
+EndIf
+
+Wait Start
+	For i = 1 To _GBA_P_TTL
+	  _CheckPlaySound _GBA_P_WAV[i]
+	  ClearPicture
+	  If (B_FLG = "背面") Then
+	    PaintPicture _SetBmpNum2(_GBA_P_NAME,(_GBA_P_STR + ((i - 1) * _GBA_P_FRC)),_GBA_P_TYPE) _
+	                 G_X G_Y G_SX G_SY DRCT 透過 T_COL_F UD_OPT LR_OPT 右回転 ANG OPT
+	    PaintPicture BMP_FILE C_X C_Y 32 32 透過 T_COL
+	  Else
+	    PaintPicture _SetBmpNum2(_GBA_P_NAME,(_GBA_P_STR + ((i - 1) * _GBA_P_FRC)),_GBA_P_TYPE) _
+	                 G_X G_Y G_SX G_SY DRCT 透過 T_COL_F UD_OPT LR_OPT 右回転 ANG OPT
+	  EndIf
+	  Refresh
+	  Wait Until (i * W_T)
+	Next
+Next
+
+_GBA_UnSetBmpPattern
+
+If (_S_OPT_FA("保持") = "保持") Then
+  Return "Keep"
+Else
+  Return
+EndIf
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+
+戦闘アニメ_GFMD_二重連続描画準備:
+戦闘アニメ_GFMD_二重連続描画攻撃:
+戦闘アニメ_GFMD_二重連続描画命中:
+戦闘アニメ_GFMD_二重連続描画使用:
+戦闘アニメ_GFMD_二重連続描画クリティカル:
+# 連番形式画像１ サイズ 連番形式画像２ サイズ 再生時間 回数
+# ファイル１と２は同ペースで再生される。速度と枚数は１枚目から得られる情報に倣う
+#
+# 引数１ 画像ファイル(連続表示)
+# 引数２ 画像サイズ
+# 引数３ 表示時間
+# 引数４ 表示位置
+# 引数５ 効果音
+# 引数６ 発光
+# 引数７ 保持
+# 引数８ 方向判定
+# 引数９ ユニットＩＤ
+#
+# 引数 角度=(整数) 角度２(指定した角度に右周りで画像を回転させる。「発射」と組み合わせ可能)
+# 引数 ランダム、ランダム２ (ランダム角度で画像を回転) or 発射(発射画像を相手方向に向けて描画)
+# 引数 中間or手前or奥 対象と相手ユニットの中間三箇所のどれかでアニメを再生する
+# 引数 ＭＡＰ (ＭＡＰ兵器用)
+# 引数 上辺、上辺２、下辺、下辺２
+# 引数 上下反転 上下反転２ 左右反転 左右反転２
+# 引数 オプション 、オプション２
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Local GS_STR = _GetBoxSizeFromArgs(Args(2))
+Local GS_STR2 = _GetBoxSizeFromArgs(Args(4))
+Local G_SX = _GN(32,_SelectBmpSizeType(GS_STR,"Ｘ"))
+Local G_SY = _GN(32,_SelectBmpSizeType(GS_STR,"Ｙ"))
+Local G_SX2 = _GN(32,_SelectBmpSizeType(GS_STR2,"Ｘ"))
+Local G_SY2 = _GN(32,_SelectBmpSizeType(GS_STR2,"Ｙ"))
+Local h i j k
+Local C_X = WX(UID)
+LOcal C_Y = WY(UID)
+Local G_X = (WX(UID) + 16)
+LOcal G_Y = (WY(UID) + 16)
+Local BMP_FILE = _GetBMPName(UID)
+Local T_COL_F = _ColorTime(_IsLight())
+Local W_T
+Local B_FLG = _S_OPT_FA("背面")
+Local DRCT = ""
+Local DRCT2 = ""
+Local POS = _GetDrawPosFromArgs()
+Local T_COL = _ColorTime()
+Local OPT = _GetOptValueFromArgs("オプション")
+Local OPT2 = _GetOptValueFromArgs("オプション２")
+
+Local ANG = 0
+
+# 画像反転判定
+
+If ((X(対象ユニットＩＤ) < _Get_X(相手ユニットＩＤ)) And (_S_OPT_FA("方向判定") = "方向判定")) Then
+  Set DRCT 左右反転
+  Set DRCT2 左右反転
+EndIf
+Local UD_OPT = _S_OPT_FA("上下反転")
+Local LR_OPT = _S_OPT_FA("左右反転")
+If ((DRCT != "") And (LR_OPT != "")) Then
+  Set DRCT ""
+ElseIf (LR_OPT != "") Then
+  Set DRCT LR_OPT
+EndIf
+Local UD_OPT2 = ""
+If (_SearchOptionFromArgs("上下反転２") != "") Then
+	UD_OPT2 = "上下反転"
+EndIf
+Local LR_OPT2 = ""
+If (_SearchOptionFromArgs("左右反転２") != "") Then
+	LR_OPT2 = "左右反転"
+Endif
+If ((DRCT2 != "") And (LR_OPT2 != "")) Then
+  Set DRCT2 ""
+ElseIf (LR_OPT != "") Then
+  Set DRCT2 LR_OPT2
+EndIf
+
+
+If (_SearchOptionFromArgs("中間") != "") Then
+  G_X = (((WX(対象ユニットＩＤ) + WX(相手ユニットＩＤ)) * 0.5) + 16)
+  G_Y = (((WY(対象ユニットＩＤ) + WY(相手ユニットＩＤ)) * 0.5) + 16)
+EndIf
+
+If (_SearchOptionFromArgs("手前") != "") Then
+  G_X = (((WX(相手ユニットＩＤ) - WX(対象ユニットＩＤ)) * 0.25) + WX(対象ユニットＩＤ) + 16)
+  G_Y = (((WY(相手ユニットＩＤ) - WY(対象ユニットＩＤ)) * 0.25) + WY(対象ユニットＩＤ) + 16)
+EndIf
+
+If (_SearchOptionFromArgs("奥") != "") Then
+  G_X = (((WX(相手ユニットＩＤ) - WX(対象ユニットＩＤ)) * 0.75) + WX(対象ユニットＩＤ) + 16)
+  G_Y = (((WY(相手ユニットＩＤ) - WY(対象ユニットＩＤ)) * 0.75) + WY(対象ユニットＩＤ) + 16)
+EndIf
+
+
+Local G_X2 = G_X
+LOcal G_Y2 = G_Y
+
+Incr G_X (G_SX * -0.5)
+Incr G_X2 (G_SX2 * -0.5)
+
+Switch POS
+Case "上辺"
+  Incr G_Y -16
+Case "下辺"
+  Incr G_Y ((G_SY * -1) + 16)
+Case Else
+  Incr G_Y (G_SY * -0.5)
+EndSw
+
+If (_SearchOptionFromArgs("上辺２") != "") Then
+  Incr G_Y2 -16
+elseIf (_SearchOptionFromArgs("下辺２") != "") Then
+  Incr G_Y2 ((G_SY2 * -1) + 16)
+Else
+  Incr G_Y2 (G_SY2 * -0.5)
+EndIf
+
+If (_SearchOptionFromArgs("ＭＡＰ") != "") Then
+  Center X(目標地点) Y(目標地点)
+  G_X = -
+  G_Y = -
+  G_X2 = -
+  G_Y2 = -
+  Switch POS
+	Case "上辺"
+  		G_Y = 224
+	Case "下辺"
+  		G_Y = (256 - G_SY)
+  EndSw
+  If (_SearchOptionFromArgs("上辺２") != "") Then
+	  G_Y2 = 224
+  elseIf (_SearchOptionFromArgs("下辺２") != "") Then
+	  G_Y2 = (256 - G_SY)
+  EndIf
+EndIf
+
+# 角度設定
+
+If (_SearchOptionFromArgs("発射") != "") Then
+  ANG = _GetAngle(対象ユニットＩＤ)
+EndIf
+
+Local ANG2 = ANG
+
+ANG = ANG + _GetOptValueFromArgs("角度")
+ANG2 = ANG2 + _GetOptValueFromArgs("角度２")
+
+If (DRCT = "左右反転") Then
+	ANG = ANG * -1
+	ANG2 = ANG2 * -1
+EndIf
+
+
+
+# 先に二枚目ファイル画像情報取得
+_GBA_GetBmpPatternInfo _G_APTN_FA(Args(3)) _GetName(_GetWavFromArgs(),_GetOptParamsFromArgs("連続効果音"))
+# ２枚目の情報を保存
+Local _GBA_P_NAME2 = _GBA_P_NAME
+Local _GBA_P_STR2 = _GBA_P_STR
+Local _GBA_P_END2 = _GBA_P_END
+Local _GBA_P_TYPE2 = _GBA_P_TYPE
+Local _GBA_P_FRC2 = _GBA_P_FRC
+Local _GBA_P_TTL2 = _GBA_P_TTL
+
+# 一枚目情報取得
+_GBA_GetBmpPatternInfo _G_APTN_FA(Args(1)) _GetName(_GetWavFromArgs(),_GetOptParamsFromArgs("連続効果音"))
+
+# 描画数を大きいほうに合わせる
+Local _GBA_P_TTL3 = _GBA_P_TTL
+If _GBA_P_TTL < _GBA_P_TTL2 Then
+	Set _GBA_P_TTL3 _GBA_P_TTL2
+Endif
+
+Set W_T (Args(5) / _GBA_P_TTL3)
+
+#_GetNumberFromArgs(Args(4))
+
+For j = 1 To _GetNumberFromArgs(Args(6))
+
+If (_SearchOptionFromArgs("ランダム") != "") Then
+  ANG = random(360)
+EndIf
+If (_SearchOptionFromArgs("ランダム２") != "") Then
+  ANG2 = random(360)
+EndIf
+
+Set h 0
+Set k 0
+
+Wait Start
+	For i = 1 To _GBA_P_TTL3
+	
+	if i > _GBA_P_TTL Then
+	Else
+		Incr h 1
+	Endif
+	
+	if i > _GBA_P_TTL2 Then
+	Else
+		Incr k 1
+	Endif
+	
+	  _CheckPlaySound _GBA_P_WAV[i]
+	  ClearPicture
+	  If (B_FLG = "背面") Then
+	    PaintPicture _SetBmpNum2(_GBA_P_NAME2,(_GBA_P_STR2 + ((k - 1) * _GBA_P_FRC2)),_GBA_P_TYPE2) _
+	                 G_X2 G_Y2 G_SX2 G_SY2 DRCT2 透過 T_COL_F UD_OPT2 LR_OPT2 右回転 ANG2 OPT2
+	    PaintPicture _SetBmpNum2(_GBA_P_NAME,(_GBA_P_STR + ((h - 1) * _GBA_P_FRC)),_GBA_P_TYPE) _
+	                 G_X G_Y G_SX G_SY DRCT 透過 T_COL_F UD_OPT LR_OPT 右回転 ANG OPT
+	    PaintPicture BMP_FILE C_X C_Y 32 32 透過 T_COL
+	  Else
+	    PaintPicture _SetBmpNum2(_GBA_P_NAME2,(_GBA_P_STR2 + ((k - 1) * _GBA_P_FRC2)),_GBA_P_TYPE2) _
+	                 G_X2 G_Y2 G_SX2 G_SY2 DRCT2 透過 T_COL_F UD_OPT2 LR_OPT2 右回転 ANG2 OPT2
+	    PaintPicture _SetBmpNum2(_GBA_P_NAME,(_GBA_P_STR + ((h - 1) * _GBA_P_FRC)),_GBA_P_TYPE) _
+	                 G_X G_Y G_SX G_SY DRCT 透過 T_COL_F UD_OPT LR_OPT 右回転 ANG OPT
+	  EndIf
+	  Refresh
+	  Wait Until (i * W_T)
+	Next
+Next
+
+_GBA_UnSetBmpPattern
+
+
+If (_S_OPT_FA("保持") = "保持") Then
+  Return "Keep"
+Else
+  Return
+EndIf
+
+
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_GFMD_逆回転準備:
+戦闘アニメ_GFMD_逆回転攻撃:
+戦闘アニメ_GFMD_逆回転命中:
+# 敵との位置関係で回転方向とアイコンの向きが変化するようにした。
+# 他引数は「回転」に準じる
+# 引数 高速
+# 引数 普通の回転と同方向に回転 (正)
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Local i j
+Local BMP_FILE = _GetBMPName(UID)
+Local TILE_FILE = _GetTileName(UID)
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local ANG = 0
+Local DRCT
+Local DRC
+Local S_F = _GetName("Swing.wav",_GetWavFromArgs())
+Local CNT = _GetNumberFromArgs()
+Local SPEED = 1
+
+If (_SearchOptionFromArgs("遅") != "") Then
+  Set SPEED 1.5
+ElseIf (_SearchOptionFromArgs("速") != "") Then
+  Set SPEED 0.7
+ElseIf (_SearchOptionFromArgs("高速") != "") Then
+  Set SPEED 0.3
+EndIf
+
+Set DRCT -60
+If (_SearchOptionFromArgs("正") != "") Then
+  Set DRCT 60
+EndIf
+
+
+Set DRC ""
+If (X(UID) < _Get_X(相手ユニットＩＤ)) Then
+  Set DRC 左右反転
+  Set DRCT (DRCT * -1)
+EndIf
+
+ChangeUnitBitmap UID 非表示
+
+If (CNT < 1) Then
+  For i = 1 To 12
+    If ((i Mod 3) = 0) Then
+      PlaySound S_F
+    EndIf
+    ClearPicture
+    _PaintTile TILE_FILE C_X C_Y
+    PaintPicture BMP_FILE C_X (C_Y - i) 透過 左回転 ANG DRC _ColorTime()
+    Refresh
+    Wait (((10 - (i \ 6)) * 0.1) * SPEED)
+    Incr ANG DRCT
+  Next
+
+  For j = 1 To 3
+    Wait Start
+    For i = 1 To 3
+      If ((i Mod 3) = 0) Then
+        PlaySound S_F
+      EndIf
+      ClearPicture
+      If (TILE_FILE != "") Then
+        PaintPicture TILE_FILE C_X C_Y _ColorTime()
+      EndIf
+      PaintPicture BMP_FILE C_X (C_Y - 12) 透過 左回転 ANG DRC _ColorTime()
+      Refresh
+      Wait Until ((i * (9 - j) * 0.1) * SPEED)
+      Incr ANG DRCT
+    Next
+  Next
+Else
+  For j = 1 To CNT
+    PlaySound S_F
+    Wait Start
+    For i = 1 To 6
+      ClearPicture
+      If (TILE_FILE != "") Then
+        PaintPicture TILE_FILE C_X C_Y _ColorTime()
+      EndIf
+      PaintPicture BMP_FILE C_X C_Y 透過 左回転 ANG DRC _ColorTime()
+      Refresh
+      Wait Until (i * SPEED)
+      Incr ANG DRCT
+    Next
+  Next
+EndIf
+
+ChangeUnitBitmap UID 非表示解除
+ClearPicture
+Refresh
+Return
+
+
+
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_GFMD_実弾連なり準備:
+戦闘アニメ_GFMD_実弾連なり攻撃:
+戦闘アニメ_GFMD_実弾連なり命中:
+# 引数１  画像名
+# 引数２  画像サイズ
+# 引数３  効果音
+# 引数４  発光
+# 引数５  保持
+# 引数６  速度(速 or 遅)
+# 引数８  角度固定 (相手位置による弾の回転を行わない)
+# 引数９  左右反転
+# 引数１１ 相手ユニットＩＤ (相手から対象へ撃たせる)
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Local posX posY
+Local ANG B_ANG
+Local DST
+Local i
+
+Local UID2 = _GetName(相手ユニットＩＤ)
+If (UID = UID2) Then
+	UID2 = _GetName(対象ユニットＩＤ)
+Endif
+
+
+#発射物に関する変数
+Local BMP_FILE = _GetBmpFromArgs()
+Local G_S
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local UDR
+
+Local DRCT FL SLOW
+Local W_T
+
+If ((IsNumeric(Args(1)) = 1) And (IsNumeric(Args(2)) = 1)) Then
+  Set ANG _GetAngle(X(UID),Y(UID),Args(1),Args(2))
+  Set G_S _GetPicSizeFromArgs(Args(3),Args(4),Args(5),Args(6),Args(7),Args(8))
+  Set posX ((X(UID) - Args(1)) * 32)
+  Set posY ((Y(UID) - Args(2)) * 32)
+  Set DST (Abs(X(UID) - Args(1)) + Abs(Y(UID) - Args(2)))
+Else
+  Set ANG _GetAngle(UID)
+  Set G_S _GetPicSizeFromArgs()
+  Set posX ((X(UID) - _Get_X(UID2)) * 32)
+  Set posY ((Y(UID) - _Get_Y(UID2)) * 32)
+  Set DST (Abs(X(UID) - _Get_X(UID2)) _
+         + Abs(Y(UID) - _Get_Y(UID2)))
+EndIf
+Set B_ANG _CheckAngleFix(ANG)
+Set DRCT _FlipVertical(ANG)
+
+
+Incr C_X (16 - (G_S \ 2))
+Incr C_Y (16 - (G_S \ 2))
+
+If (_IsLight() = 1) Then
+  Set FL 1
+Else
+  Set FL ""
+EndIf
+
+
+#実弾の速度を遅くする？
+If (_SearchOptionFromArgs("遅") != "") Then
+  Set SLOW 1
+  Set DST (2 * DST)
+  Set W_T 0.5
+ElseIf (_SearchOptionFromArgs("速") != "") Then
+  Set SLOW 0
+  Set W_T 0.4
+Else
+  Set W_T 0.6
+  Set SLOW 0
+EndIf
+
+
+# 弾の傾き変更
+If (_SearchOptionFromArgs("角度固定") != "") Then
+  Set B_ANG 0
+EndIf
+
+If DRCT = 上下反転 Then
+  Incr B_ANG 180
+EndIf
+
+
+# 左右反転
+Set UDR ""
+If (_SearchOptionFromArgs("左右反転") != "") Then
+  Set UDR 左右反転
+EndIf
+
+
+Wait Reset
+
+_SelectSound Missile.wav _GetWavFromArgs()
+
+
+For i = 1 To (DST + 1)
+
+    If (SLOW = 0 And i > 1) Then
+      PaintPicture BMP_FILE _
+        (C_X - (posX / (DST + 2)) * (i - 1)) (C_Y - (posY / (DST + 2)) * (i - 1 ) ) _
+        G_S G_S 透過 セピア 右回転 B_ANG DRCT UDR _ColorTime(FL)
+    EndIf
+
+  PaintPicture BMP_FILE _
+    (C_X - (posX / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
+    G_S G_S 透過 右回転 B_ANG DRCT UDR _ColorTime(FL)
+  Refresh
+  Wait Until (W_T * i)
+Next
+
+
+
+If (_SearchOptionFromArgs("保持") != "") Then
+  Return "Keep"
+Else
+  ClearPicture
+  Refresh
+  Return "Keep"
+EndIf
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/

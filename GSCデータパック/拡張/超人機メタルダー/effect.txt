@@ -1,0 +1,169 @@
+
+メタルダー
+Ｇキック(命中), Bazooka.wav
+メタルトルネード(命中), Punch(3).wav
+メタルホーネット(命中), 2;Saber.wav;2;Saber.wav;2;Saber.wav;2;Saber.wav;2;Saber.wav
+メタルボンバー(命中), Punch(4).wav
+千手観音拳, Wind.wav
+千手観音拳(命中), Punch.wav
+千手観音拳(命中), Punch(2).wav
+千手観音拳(命中), Punch(3).wav
+千手観音拳(命中), Punch(4).wav
+レーザーアーム(準備), NOT.wav
+レーザーアーム(命中), Saber.wav
+
+剣流星
+短剣, Swing.wav
+短剣(命中), Stab.wav
+千手観音拳, Wind.wav
+千手観音拳(命中), Punch.wav
+千手観音拳(命中), Punch(2).wav
+千手観音拳(命中), Punch(3).wav
+千手観音拳(命中), Punch(4).wav
+
+北八荒(バイク)
+バイクアクション(準備), Engine.wav
+バイクアクション(命中), Bike.wav
+
+凱聖クールギン
+円月殺法, Wind.wav
+円月殺法(命中), 7;Thunder.wav;AntiAirMissile.wav
+
+暴魂チューボ
+三日月, 3;Swing.wav;3;Swing.wav;3;Swing.wav
+三日月(命中), Saber.wav
+
+豪将タグスキー
+小太刀, Swing.wav
+小太刀(命中), Stab.wav
+
+豪将タグスロン
+小太刀, Swing.wav
+小太刀(命中), Stab.wav
+弩, Bow.wav
+弩(命中), Stab.wav
+
+暴魂ヒドーマン
+鎖鉄球, 3;Swing.wav;3;Swing.wav;3;Swing.wav;3;Swing.wav; Swing.wav
+鎖鉄球(命中), Punch.wav
+
+雄闘ウォッガー
+大嵐, Storm.wav
+大嵐(命中), Thunder.wav
+
+雄闘バーロック
+鎖分同, 3;Swing.wav;3;Swing.wav;3;Swing.wav;3;Swing.wav; Swing.wav
+鎖分同(命中), Thunder.wav
+鎖鎌, 3;Swing.wav;3;Swing.wav;3;Swing.wav;3;Swing.wav; Swing.wav
+
+爆闘士ロビンケン
+ロープトラップ, Swing.wav
+ロープトラップ(命中), Whip.wav
+アロートラップ, 2;Type.wav;2;Type.wav;2;Type.wav;2;Type.wav;1;Bow.wav;1;Bow.wav;1;Bow.wav;1;Bow.wav;Bow.wav
+アロートラップ(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav
+スタックトラップ, 2;Missile.wav;2;Missile.wav;2;Missile.wav;2;Missile.wav;Missile.wav
+
+爆闘士ガラドー
+火炎放射, Fire.wav
+発破手裏剣, 1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;Swing.wav
+発破手裏剣(命中), 3;Explode(Small).wav;3;Explode(Small).wav;3;Explode(Small).wav
+
+
+奇術師ガラド－
+マント, Swing.wav
+マント(命中), Whip.wav
+トランプ, 1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;Swing.wav
+トランプ(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav
+竜巻, Storm.wav
+
+激闘士ベンＫ
+投げ鎌, 3;Swing.wav;3;Swing.wav;3;Swing.wav
+尺杖, Swing.wav
+尺杖(命中), Punch.wav
+ハンマー, 3;Swing.wav;3;Swing.wav;3;Swing.wav;3;Swing.wav; Swing.wav
+ハンマー(命中), 3;Bazooka.wav
+
+激闘士ジャムネ
+ジェットグローブ, 2;Missile.wav;2;Missile.wav
+ジェットグローブ(命中), Punch(2).wav
+パンチ(命中), Punch.wav
+パンチ(命中), Punch(2).wav
+パンチ(命中), Punch(3).wav
+パンチ(命中), Punch(4).wav
+
+中闘士フーフーチュウ
+大噴火, Explode(Nuclear).wav
+
+軽闘士影
+仕込針, Bow.wav
+仕込針(命中), Stab.wav
+鎖鎌, 3;Swing.wav;3;Swing.wav;3;Swing.wav;3;Swing.wav; Swing.wav
+爆弾, Swing.wav
+発破手裏剣, 1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;Swing.wav
+発破手裏剣(命中), 3;Explode(Small).wav;3;Explode(Small).wav;3;Explode(Small).wav
+
+凱聖バルスキー
+格闘(命中), Bazooka.wav
+
+豪将ガルドス
+ハードパンチ(命中), Bazooka.wav
+
+暴魂クロスランダー
+レフトショット, 2;Gun.wav;2;Gun.wav;2;Gun.wav;2;Gun.wav;2;Gun.wav
+ライトショット, 2;Gun.wav;2;Gun.wav;2;Gun.wav;2;Gun.wav;2;Gun.wav
+隠し銃, Beam.wav
+
+雄闘ジャース
+腕部ビームキャノン, LaserGun.wav
+胸部ビームキャノン, 2;BeamShot.wav;2;BeamShot.wav;2;BeamShot.wav;BeamShot.wav
+背部ビームキャノン(準備), Charge.wav
+
+爆闘士ゴチャック
+ゴチャックロック(命中), 2;Sword.wav;2;Sword.wav;2;Sword.wav;2;Sword.wav
+ゴチャックロック(とどめ), Crash.wav
+
+爆闘士ゲバロース
+チェーン, 3;Swing.wav;3;Swing.wav;3;Swing.wav;3;Swing.wav; Swing.wav
+チェーン(命中), Whip.wav
+
+烈闘士ラプソディ
+バラ, Swing.wav
+バラ(命中), 5;Stab.wav;Explode(Small).wav
+
+烈闘士ザーゲン
+デスカッター(命中), Saber.wav
+デスサイズ(命中), AntiAirMissile.wav
+
+軽闘士ブルキッド
+鎖鎌, 3;Swing.wav;3;Swing.wav;3;Swing.wav;3;Swing.wav; Swing.wav
+
+凱聖ゲルドリング
+触手, Swing.wav
+火炎放射, Fire.wav
+
+豪将ブライデイ
+タランチュラネット(命中), 2;Whip.wav;2;Whip.wav;2;Whip.wav;2;Whip.wav;2;Whip.wav
+
+暴魂バンコーラ
+触手, Swing.wav
+
+雄闘ガマドーン
+蜘蛛の巣(命中), 2;Whip.wav;2;Whip.wav;2;Whip.wav;2;Whip.wav;2;Whip.wav
+溶解弾, Swing.wav
+触手, Swing.wav
+鋏(命中), 2;Saber.wav;2;Saber.wav
+火炎放射, Fire.wav
+
+激闘士ザケムボー
+音波, Sharara.wav
+
+軽闘士ヘドグロス
+ヘドグロスシャワー(命中), Bubble.wav
+
+凱聖ドランガー
+シールドショット, FastGun.wav
+
+烈闘士ブルチェック
+ガトリングガン, GunPod.wav
+二連装砲, FastGun.wav
+

@@ -1,0 +1,18 @@
+ジャレコキャラ
+トロッコ, Whiz.wav
+トロッコ(命中), BreakOff.wav
+忍法ガマパックン, Warship.wav
+忍法ガマパックン(命中), Heartbeat(2).wav
+氷剣, Bow.wav
+氷剣(命中), stab.wav
+ゲタ, Swing.wav
+ゲタ(命中), FightHit(1).wav
+目玉, Cannon.wav
+目玉(命中), FightHit(1).wav
+壁, Cannon.wav
+壁(命中), Crash.wav
+反射(飛び道具反射), Slash(4).wav
+反射(飛び道具反射)(解説), $(ユニット)は$(相手武器)を跳ね返した！
+攻撃無効化(飛び道具無効), BeamSaber(2).wav
+攻撃無効化(飛び道具無効)(解説), $(ユニット)には$(相手武器)が通用しなかった！
+ダミー, Whiz.wav

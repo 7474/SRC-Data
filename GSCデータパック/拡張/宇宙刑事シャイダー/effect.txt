@@ -1,0 +1,435 @@
+### 銀河連邦警察 --------------------------------------------------------
+
+宇宙刑事シャイダー
+ビデオビームガン, Beam.wav
+ブレードウィップ, Reload(2).wav;Swing(2).wav
+ブレードウィップ(命中), Slash(2).wav
+シャイダーブルーフラッシュ, Slash.wav
+シャイダーブルーフラッシュ(命中), Slash(6).wav
+ビッグマグナム, 「シューティング・フォーメーション！」;「ビッグ・マグナム！！」;Beam.wav
+ビッグマグナム(命中), Explode.wav
+宇宙刑事連続斬り, 「いくぞっ！！」;_
+	会話 宇宙刑事ギャバン(ＬＳ) ギャバンダイナミック！！;Slash.wav;_
+	会話 宇宙刑事シャリバン(ＳＳ) "シャリバンッ！！ クラァッシュッ！！";Fire.wav_
+	会話 宇宙刑事シャイダー "シャイダー！ ブルーフラァーッシュ！！";Slash(6).wav
+宇宙刑事連続斬り(命中), Sword(2).wav;2;Slash(4).wav;2;Slash(6).wav;Explode(Echo).wav
+
+
+宇宙刑事シャイダー(ブルホーク)
+ホークレーザー, Laser.wav
+ホークミサイル, GunPod.wav
+
+戦士シャイダーのマシン
+レーザー砲, Laser.wav
+ミサイル, GunPod.wav
+
+
+
+超次元戦闘母艦バビロス
+バビロスビーム, Laser.wav
+バビロスレーザー, BeamCannon.wav
+バビロスミサイル, Missile.wav
+バビロスファイヤー, Missile(4Shot).wav
+ビッグマグナム, 「シューティング・フォーメーション！」;「ビッグ・マグナム！！」;Beam.wav
+ビッグマグナム(命中), Explode.wav
+
+
+超次元戦闘車シャイアン
+シャイアンロケット, Missile.wav
+シャイアンビーム, BeamValcan.wav
+
+スカイシャイアン
+シャイアンビーム, BeamValcan.wav
+
+バトルシャイアン
+シャイアンロケット, Missile.wav
+
+
+
+女宇宙刑事アニー
+レーザーセンサーガン, Beam.wav
+電磁パルス, Charge(silent).wav
+
+
+スーパーアニー
+アニーブリザード, Slash.wav
+アニーブリザード(命中), Slash(6).wav
+
+
+### 不思議界フーマ -----------------------------------------------------
+
+大帝王クビライ
+火花, MachineCannon.wav
+ビーム, LaserGun.wav
+ミサイル, GunPod.wav
+
+
+胴体クビライ
+触手, Swing.wav
+触手(命中), Stab.wav
+ガス, Mist.wav
+火花, MachineCannon.wav
+
+
+メカ胴体クビライ
+触手, Swing.wav
+触手(命中), BeamSaber(4).wav
+ビーム, LaserGun.wav
+ミサイル, GunPod.wav
+
+
+神官ポー
+停止光線, Glass.wav
+金剛杵, Swing.wav
+飛行杖, Whiz.wav
+飛行杖(命中), Sword.wav;3;Sword.wav;3;Sword.wav
+怪光球, MultipleRocketLauncher.wav
+怪光球(命中), Explode.wav
+怪光線, Beam.wav
+精神波, SystemNoize.wav
+
+
+ヘスラー指揮官
+フーマ戦闘機部隊, Jet.wav;5;Beamvalcan.wav
+巨大化攻撃, Roar.wav
+巨大化攻撃(命中), Mist.wav;Explode().wav
+槍ミサイル, MachineGun.wav
+時間差攻撃, BeamSaber(3).wav
+時間差攻撃(命中), Slash.wav;3;Explode.wav
+
+
+ヒムリー(フーマ)
+ビーム, BeamSaber(3).wav
+黄金剣光線, BeamGun.wav
+時間差攻撃, BeamSaber(3).wav
+時間差攻撃(命中), Slash.wav;3;Explode.wav
+
+
+## ギャル軍団 -----------------------------------------
+
+ギャル軍団
+腕, Saber.wav
+腕(命中), Punch(3).wav
+光弾, Beam.wav
+
+
+戦士ギャル１
+ビームマシンガン, BeamValcan.wav
+
+
+夜叉ギャル１
+剣ミサイル, BeamValcan.wav
+ビーム, BeamGun.wav
+巨大化火炎放射, Roar.wav;5;Fire.wav
+
+
+## 戦闘員・戦闘母艦 -------------------------------------
+
+戦闘員ミラクラー
+斧槍, Sword.wav
+
+フーマ戦闘機
+ビーム砲, LaserGun.wav
+
+
+フーマ戦闘母艦
+次元衝撃波砲, Cannon.wav
+破壊ビーム, LaserGun.wav
+
+
+
+## 不思議獣 ----------------------------
+
+不思議獣バリバリ
+手槍, Swing.wav
+巨大化格闘, Roar.wav
+巨大化格闘(命中), Punch.wav
+
+
+不思議獣ペトペト
+ブーメラン爆弾, Swing.wav
+ブーメラン爆弾(命中), Explode.wav
+目玉爆弾, Missile.wav
+目玉爆弾(命中), Explode.wav
+巨大化ガス, Roar.wav
+巨大化ガス(命中), Mist.wav
+
+
+不思議獣ギルギル
+槍ミサイル, GunPod.wav
+槍投げ, Swing.wav
+槍投げ(命中), Stab.wav
+不思議花の花粉, Mist.wav
+
+
+不思議獣メロメロ
+杖投げ, Swing.wav
+マント, Jet.wav
+
+
+不思議獣ムジムジ
+繭, Mist.wav
+燃える杖, Swing.wav
+燃える杖(命中), Punch.wav;4;Fire.wav
+
+
+不思議獣ゴクゴク
+フォークミサイル, BeamValcan.wav
+透明化攻撃, Swing.wav
+透明化攻撃(命中), Slash.wav;3;Stab.wav
+
+
+不思議獣バラバラ
+槍ミサイル, BeamValcan.wav
+花びら, Swing.wav
+花びら(命中), Punch.wav
+巨大化ビーム, Roar.wav;5;LaserGun.wav
+
+
+不思議獣ケロケロ
+杖ミサイル, Explode.wav
+
+
+不思議獣タムタム
+サウンド攻撃, DrumRoll(long).wav
+サウンド攻撃(命中), WarShip.wav
+怪光, BeamShot.wav
+
+
+不思議獣パスパス
+羽ペン, Slash.wav
+羽ペンミサイル, MachineGun.wav
+巨大化格闘, Roar.wav
+巨大化格闘(命中), BeamSaber.wav
+
+
+不思議獣ゲトゲト
+槍ミサイル, MachineGun.wav
+プリズム攻撃, BeamShot.wav;2;BeamShot.wav
+プリズム攻撃(命中), Sword.wav
+巨大化ミサイル, Roar.wav;5;MachineGun.wav
+
+
+不思議獣ロボロボ
+スパナロッド, Punch.wav
+ミサイル, GunPod.wav
+巨大化火炎放射, Roar.wav;5;Fire.wav
+
+
+不思議獣コトコト
+砲丸投げ, Swing.wav
+砲丸投げ(命中), Punch.wav
+フープ, Punch.wav
+巨大化攻撃, Roar.wav;5;MachineGun.wav
+
+
+不思議獣グリグリ
+サーベル砲, MachineGun.wav
+透明化攻撃, BeamSaber.wav
+透明化攻撃(命中), Sword.wav;3;Sword.wav
+巨大化火炎放射, Roar.wav;4;Fire.wav
+
+
+不思議獣ガメガメ
+トライデント投げ, Swing.wav
+トライデントミサイル, MachineGun.wav
+巨大化ガス, Roar.wav4;Mist.wav
+
+
+不思議獣ボケボケ
+反射, 反射 BeamCoat.wav
+巨大化ガス, Roar.wav4;Mist.wav
+
+
+不思議獣ギリギリ
+モアイ像, Whiz.wav
+モアイ像(命中), Mist.wav
+スコップ, Punch.wav
+スコップミサイル, MachineGun.wav
+巨大化火炎放射, Roar.wav;4;Fire.wav
+
+
+不思議獣ムームー
+槍ミサイル, MachineGun.wav
+槍投げ, Swing.wav
+槍投げ(命中), Slash.wav;Slash.wav;Slash.wav
+蜘蛛の糸, Swing(2).wav
+巨大化糸, Roar.wav;2;Swing(2).wav
+
+
+不思議獣マグマグ
+磁気攻撃, LaserGun.wav
+
+
+不思議獣シギシギ
+格闘, Whip.wav
+火花, MachineCannon.wav
+ガス, Mist.wav
+不思議ソングフラワー, BeamValcan.wav
+巨大化火花, Roar.wav;4;MachineCannon.wav
+植物兵士, Slash(6).wav;5;Swing.wav;3;Swing.wav
+植物兵士(命中), Stab.wav
+火炎弾, Missile.wav;2;Missile.wav
+火炎弾(命中), Explode.wav
+
+
+不思議獣スリスリ
+反射, BeamCoat.wav
+ステッキ, Punch.wav
+フラッシュ, Shutter.wav
+爆破フラッシュ, Shutter.wav
+爆破フラッシュ(命中), Explode.wav
+巨大化フラッシュ, Roar.wav5;Shutter.wav
+
+
+不思議獣ウミウミ
+鮫, Stab.wav
+巨大化格闘, Roar.wav;4;Punch.wav
+
+
+不思議獣ガスガス
+攻撃無効化(バリアガス), Mist.wav
+目玉爆弾, Roar.wav;3;Missile.wav;Missile.wav
+目玉爆弾(命中), Explode.wav
+巨大化ガス, Roar.wav;4;Mist.wav
+火花, MicroMissile.wav
+
+
+不思議獣ラブラブ
+槍ミサイル, Laser.wav
+槍投げ, Swing.wav
+槍投げ(命中), Stab.wav
+
+
+不思議獣サイサイ
+電撃, Laser.wav
+サイコキネシス, Missile.wav
+サイコキネシス(命中), Punch.wav
+
+
+不思議獣カミカミ
+槍ミサイル, MachineCannon.wav
+槍投げ, Swing.wav
+槍投げ(命中), Slash(6).wav;2;Slash(3).wav;Slash(4).wav;Slash.wav
+
+
+不思議獣デスデス
+火球弾, Beam.wav
+巨大化格闘, Roar.wav
+巨大化格闘(命中), Swing.wav;5;Swing.wav
+
+
+不思議獣イトイト
+糸, Swing.wav
+ビーム, Beam.wav
+ハサミ投げ, Swing.wav
+ハサミ投げ(命中), Punch.wav
+ハサミ杖, Punch.wav
+巨大化火炎放射, Roar.wav;4;Fire.wav
+
+
+不思議獣ブヨブヨ
+槍投げ, Swing.wav
+槍投げ(命中), Sword.wav
+鼻, Swing.wav
+鼻(命中), Punch.wav
+電撃, LaserGun.wav
+巨大化鼻攻撃, Roar.wav;4;Swing.wav
+巨大化鼻攻撃(命中), Punch.wav
+
+
+不思議獣カリカリ
+槍投げ, Swing.wav
+槍投げ(命中), Sword.wav
+ミサイル弾, GunPod.wav
+
+
+不思議獣メリメリ
+人形化光線, Beam2.wav
+ビーム, Bearing.wav
+巨大化ガス, Roar.wav;4;Mist.wav
+
+
+不思議獣カゲカゲ
+分身, Charge.wav
+細胞体寄生, Charge(Silent).wav
+細胞体寄生(命中), Mist.wav
+巨大化ビーム, Roar.wav;3;BeamSaber(2).wav
+
+
+不思議獣ダリダリ
+剣ミサイル砲, BeamValcan.wav
+投げ矢, Swing.wav
+投げ矢(命中), Slash(4).wav
+巨大槍, Swing.wav
+巨大槍(命中), Stab.wav
+巨大化火炎放射, Roar.wav;5;Fire.wav
+
+
+不思議獣コンコン
+剣ミサイル砲, BeamValcan.wav
+巨大化攻撃, Roar.wav;4;BeamValcan.wav
+ユメコン攻撃, 10;Computer.wav;2;Slash.wav
+ユメコン攻撃, 10;Computer.wav;2;Punch.wav
+
+
+不思議獣グチグチ
+槍, Bow.wav
+フーマ兵士軍団, Beam.wav;2;Beam.wav
+巨大化火炎放射, Roar.wav;4;Fire.wav
+
+
+グチ将軍
+フーマ兵士軍団, Beam.wav;2;Beam.wav
+
+
+不思議獣ムビムビ
+分身, BeamSaber(5).wav
+杖ミサイル砲, BeamValcan.wav
+
+
+不思議獣サタサタ
+槍投げ, Swing.wav
+槍投げ(命中), Sword.wav;3;Explode.wav
+杖ミサイル砲, MachineGun.wav
+火炎杖, Swing.wav
+火炎杖(命中), Fire.wav
+巨大化ガス, Roar.wav;4;Whiz(2).wav
+
+
+不思議獣ペアペア
+ハートミラー, BeamShot(2).wav
+ハート円盤, Swimg(2).wav
+ハート円盤(命中), Slash(2).wav
+ハート円盤(命中), Explode.wav
+巨大化火花, Roar.wav;4;BeamValcan.wav
+
+
+不思議獣ヘビヘビ
+蛇杖, Punch.wav
+リボン, Swing.wav 
+リボン(命中), Sharara.wav
+火花, Roar.wav;4;MachineCannon.wav
+巨大化ビーム, Roar.wav;4;Laser.wav
+
+
+不思議獣ツタツタ
+ツタ, Swing.wav
+巨大化ビーム, Roar.wav;3;BeamSaber(3).wav
+
+
+不思議獣ムチムチ
+槍, Arrow.wav
+ビーム, BeamGun.wav
+巨大化火炎放射, Roar.wav;4;Fire.wav
+
+
+## その他 --------------------------------------------------------
+
+流れ星のガンマンオメガ
+格闘, Punch.wav
+格闘(命中), Punch.wav;Slash.wav
+ショットガン, Beam(4Shot).wav
+ロケット弾, Beam(4Shot).wav
+トンファーソード, Sword.wav
+

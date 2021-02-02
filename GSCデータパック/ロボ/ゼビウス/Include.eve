@@ -1,0 +1,41 @@
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_XEVIOUS_照準準備:
+Local i
+
+PlaySound Hittyuu.wav
+
+_CenteringCheck 相手ユニットＩＤ
+Font 12pt
+Local C_X = _Get_WX(相手ユニットＩＤ)
+Local C_Y = _Get_WY(相手ユニットＩＤ)
+Local i CNT
+Wait Start
+For i = 1 To 4
+	PaintPicture SpecialPowerBmp("hittyuu",i) (C_X - 16) (C_Y) 64 32 透過
+	Refresh
+	Wait Until (0.5 * i)
+	ClearPicture
+Next
+
+Wait Start
+For i = 1 To 3
+	PaintPicture SpecialPowerBmp("hittyuu",i + 1) (C_X - 8) (C_Y) 48 32 透過
+	Refresh
+	Wait Until (0.5 * i)
+	ClearPicture
+Next
+
+Wait Start
+For i = 1 To 4
+	PaintPicture SpecialPowerBmp("hittyuu",i + 4) (C_X) (C_Y) 32 32 透過
+	Refresh
+	Wait Until (0.5 * i)
+	ClearPicture
+Next
+
+Refresh
+
+Return
+

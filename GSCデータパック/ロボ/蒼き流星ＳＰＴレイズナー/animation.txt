@@ -1,0 +1,209 @@
+ＳＰＴ
+攻撃無効化(ＬＣＭパウダー粒子フィールド), ビームコート - ＬＣＭパウダー粒子フィールド
+火炎放射器, 火炎放射 赤
+グレネードランチャー, グレネードランチャー
+ナックルショット, 打突 BeamSaber.wav
+拡散型レーザードライフル(準備), ビームライフル
+拡散型レーザードライフル(攻撃), ２連ショックビームガン 黄 Weapon\EFFECT_BeamRifle01.bmp Beam.wav
+拡散型レーザードライフル(命中), ショックビーム 黄
+速射型レーザードライフル(準備), ビームライフル
+速射型レーザードライフル(攻撃), ショックビームガン Weapon\EFFECT_BeamRifle01.bmp Beam.wav
+速射型レーザードライフル(命中), ショックビーム 黄
+カーフミサイル, ミサイル
+レーザーカノン, ２連小ビーム 青
+ショルダーカノン, 中ビーム 緑
+ブレイカーナックル, 打突 BeamSaber.wav
+拡散型レーザードガン(準備), ビームライフル
+拡散型レーザードガン(攻撃), ２連ショックビームガン 黄 Weapon\EFFECT_BeamRifle01.bmp Beam.wav
+拡散型レーザードガン(命中), ２連ショックビーム 黄
+速射型レーザードガン(準備), ビームライフル
+速射型レーザードガン(攻撃), ショックビームガン 黄 Weapon\EFFECT_BeamRifle01.bmp Beam.wav
+速射型レーザードガン(命中), ショックビーム 黄
+連射型レーザードガン(準備), ビームライフル
+連射型レーザードガン(攻撃), ショックビームガン 黄 Weapon\EFFECT_BeamRifle01.bmp Beam.wav
+連射型レーザードガン(命中), ショックビーム 黄
+二連装式レーザードライフル(準備), ビームライフル
+二連装式レーザードライフル(攻撃), ショックビームガン 赤 Weapon\EFFECT_BeamRifle01.bmp Beam.wav
+二連装式レーザードライフル(命中), ショックビーム 赤
+二連装式レーザードガン(準備), ビームライフル
+二連装式レーザードガン(攻撃), ショックビームガン 黄 Weapon\EFFECT_BeamRifle01.bmp Beam.wav
+二連装式レーザードガン(命中), ショックビーム 黄
+二連装レーザーカノン, ２連小ビーム 青
+７連ミサイルポッド, 小型ミサイル 7
+バズーカ砲, バズーカ
+ハンドミサイルランチャー, ミサイル
+自動追尾ミサイル, ミサイル
+ミサイルポッド, ミサイル 4
+ニードルショット, ニードル
+ブロークンネイル(攻撃), クロー
+ブロークンネイル(命中), 噛み付き
+レーザードバズソー, エナジーブレード 青
+浮遊機雷, ＭＡＰ小型ミサイル
+パワーナックル(攻撃), 打突 BeamSaber.wav
+パワーナックル(命中), 超打
+Ｏ・Ｌ・アーティラリー, ２連中ビーム 緑
+スネークドリル(準備), -
+スネークドリル(攻撃), 触手 橙 Drill.wav
+スネークドリル(命中), 触手 橙 Drill.wav
+胸部バルカン, バルカン
+スクイーズアーム(攻撃), 打突
+スクイーズアーム(命中), ダメージ Gunpod.wav
+ハードコーン, ドリル
+V-MAX発動, 粒子集中 青;エネルギーフィールド展開 Charge(2).wav
+V-MAX･ATTACK(攻撃), 急降下
+V-MAX･ATTACK(命中)(ベイブル), @戦闘アニメ_飛来アップ LZN_Baybull(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+V-MAX･ATTACK(命中)(バルディ), @戦闘アニメ_飛来アップ LZN_Buldy(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+V-MAX･ATTACK(命中)(ドール(飛行形態)), @戦闘アニメ_飛来アップ LZN_Doll(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+V-MAX･ATTACK(命中)(グライムカイザル), @戦闘アニメ_飛来アップ LZN_GrimeKaisar(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+V-MAX･ATTACK(命中)(ディマージュ), @戦闘アニメ_飛来アップ LZN_Dimage(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+V-MAX･ATTACK(命中)(ドトール), @戦闘アニメ_飛来アップ LZN_Dtol(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+V-MAX･ATTACK(命中)(ドトール(陸)), @戦闘アニメ_飛来アップ LZN_Dtol(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+V-MAX･ATTACK(命中)(ブラッディカイザル), @戦闘アニメ_飛来アップ LZN_BloodyKaisar(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+V-MAX･ATTACK(命中)(ブルグレン), @戦闘アニメ_飛来アップ LZN_Bullgrenn(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+V-MAX･ATTACK(命中)(ブレイバー), @戦闘アニメ_飛来アップ LZN_Braver(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+V-MAX･ATTACK(命中)(ガンステイド(軽装)), @戦闘アニメ_飛来アップ LZN_Gunsteid(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+V-MAX･ATTACK(命中)(ソロムコ), @戦闘アニメ_飛来アップ LZN_Solomco(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+
+
+
+レイズナー
+拡散型レーザードライフル(準備), ビームライフル
+拡散型レーザードライフル(攻撃), ２連ショックビームガン Weapon\EFFECT_BeamRifle01.bmp Beam.wav
+拡散型レーザードライフル(命中), ２連ショックビーム
+速射型レーザードライフル(準備), ビームライフル
+速射型レーザードライフル(攻撃), ショックビームガン Weapon\EFFECT_BeamRifle01.bmp Beam.wav
+速射型レーザードライフル(命中), ショックビーム
+ハイパーモード(V-MAX発動), 粒子集中 青;エネルギーフィールド展開 Charge(2).wav
+V-MAX･ATTACK(攻撃), 急降下
+V-MAX･ATTACK(命中), @戦闘アニメ_飛来アップ Info(ユニットデータ,レイズナー(V-MAX),グラフィック) Flyby.wav 速;_
+                    スーパータックル乱舞 青 Crash.wav
+レイズナーフォーメーション(攻撃), スーパーパンチ 赤 Partner(1);中ビーム 緑 Partner(2);急降下;透明化
+レイズナーフォーメーション(命中), スーパーパンチ 赤 Partner(1);中ビーム 緑 Partner(2);_
+                    @戦闘アニメ_飛来アップ LZN_Layzner(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+レイズナーフォーメーション(強化)(攻撃), スーパーパンチ 赤 Partner(1);中ビーム 緑 Partner(2);急降下;透明化
+レイズナーフォーメーション(強化)(命中), スーパーパンチ 赤 Partner(1);中ビーム 緑 Partner(2);_
+                    @戦闘アニメ_飛来アップ LZN_Layzner(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+
+
+レイズナーMkⅡ
+拡散型レーザードライフル(準備), ビームライフル
+拡散型レーザードライフル(攻撃), ２連ショックビームガン Weapon\EFFECT_BeamRifle01.bmp Beam.wav
+拡散型レーザードライフル(命中), ２連ショックビーム
+速射型レーザードライフル(準備), ビームライフル
+速射型レーザードライフル(攻撃), ショックビームガン Weapon\EFFECT_BeamRifle01.bmp Beam.wav
+速射型レーザードライフル(命中), ショックビーム
+ハイパーモード(V-MAXIMUM発動), 粒子集中 青;エネルギーフィールド展開 Charge(2).wav
+
+
+レイズナーMkⅡ(飛行形態)
+ハイパーモード(V-MAXIMUM発動), 粒子集中 青;エネルギーフィールド展開 Charge(2).wav
+拡散型レーザードライフル(準備), -
+拡散型レーザードライフル(攻撃), ２連ショックビーム Beam.wav
+拡散型レーザードライフル(命中), ２連ショックビーム
+速射型レーザードライフル(準備), -
+速射型レーザードライフル(攻撃), ショックビーム Beam.wav
+速射型レーザードライフル(命中), ショックビーム
+V-MAXIMUM･ATTACK(攻撃), 急降下
+V-MAXIMUM･ATTACK(命中), @戦闘アニメ_飛来アップ Info(ユニットデータ,レイズナーMkⅡ(V-MAXIMUM),グラフィック) Flyby.wav 速;_
+                        スーパータックル乱舞 青 Crash.wav
+レイズナーフォーメーション(MkⅡ)(攻撃), スーパーパンチ 赤 Partner(1);中ビーム 緑 Partner(2);急降下;透明化
+レイズナーフォーメーション(MkⅡ)(命中), スーパーパンチ 赤 Partner(1);中ビーム 緑 Partner(2);_
+                    @戦闘アニメ_飛来アップ LZN_LayznerMark-II(V-MAXIMUM).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav
+
+
+ベイブル
+速射型レーザードライフル(準備), ビームライフル
+速射型レーザードライフル(攻撃), ショックビームガン Weapon\EFFECT_BeamRifle01.bmp Beam.wav
+速射型レーザードライフル(命中), ショックビーム
+レイズナーフォーメーション(攻撃), スーパーパンチ 赤;中ビーム 緑 Partner(2);急降下 Partner(1);透明化 Partner(1)
+レイズナーフォーメーション(命中), 透明化 Partner(1);スーパーパンチ 赤;中ビーム 緑 Partner(2);_
+                                  @戦闘アニメ_飛来アップ LZN_Layzner(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav Partner(1)
+レイズナーフォーメーション(強化)(攻撃), スーパーパンチ 赤;中ビーム 緑 Partner(2);急降下 Partner(1);透明化 Partner(1)
+レイズナーフォーメーション(強化)(命中), 透明化 Partner(1);スーパーパンチ 赤;中ビーム 緑 Partner(2);_
+                                  @戦闘アニメ_飛来アップ LZN_Layzner(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav Partner(1)
+レイズナーフォーメーション(MkⅡ)(攻撃), スーパーパンチ 赤;中ビーム 緑 Partner(2);急降下 Partner(1);透明化 Partner(1)
+レイズナーフォーメーション(MkⅡ)(命中), 透明化 Partner(1);スーパーパンチ 赤;中ビーム 緑 Partner(2);_
+                                  @戦闘アニメ_飛来アップ LZN_LayznerMark-II(V-MAXIMUM).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav Partner(1)
+
+
+バルディ
+連射型レーザードガン(準備), ビームライフル
+連射型レーザードガン(攻撃), ショックビームガン Weapon\EFFECT_BeamRifle01.bmp Beam.wav
+連射型レーザードガン(命中), ショックビーム
+レイズナーフォーメーション(攻撃), スーパーパンチ 赤 Partner(2);中ビーム 緑;急降下 Partner(1);透明化 Partner(1)
+レイズナーフォーメーション(命中), 透明化 Partner(1);スーパーパンチ 赤 Partner(2);中ビーム 緑;_
+                                  @戦闘アニメ_飛来アップ LZN_Layzner(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav Partner(1)
+レイズナーフォーメーション(強化)(攻撃), スーパーパンチ 赤 Partner(2);中ビーム 緑;急降下 Partner(1);透明化 Partner(1)
+レイズナーフォーメーション(強化)(命中), 透明化 Partner(1);スーパーパンチ 赤 Partner(2);中ビーム 緑;_
+                                  @戦闘アニメ_飛来アップ LZN_Layzner(V-MAX).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav Partner(1)
+レイズナーフォーメーション(MkⅡ)(攻撃), スーパーパンチ 赤 Partner(2);中ビーム 緑;急降下 Partner(1);透明化 Partner(1)
+レイズナーフォーメーション(MkⅡ)(命中), 透明化 Partner(1);スーパーパンチ 赤 Partner(2);中ビーム 緑;_
+                                  @戦闘アニメ_飛来アップ LZN_LayznerMark-II(V-MAXIMUM).bmp Flyby.wav 速;スーパータックル乱舞 青 Crash.wav Partner(1)
+
+
+ザカール
+ハイパーモード(V-MAX発動), 粒子集中 黄;エネルギーフィールド展開 黄 Charge(2).wav
+ハイパーモード(V-MAXレッドパワー全開), オーラ上昇 赤 Charge(high).wav
+腕部クロー(攻撃), クロー
+腕部クロー(命中), クロー
+V-MAX･ATTACK(攻撃), 急降下
+V-MAX･ATTACK(命中), @戦闘アニメ_飛来アップ Info(ユニットデータ,ザカール(V-MAX),グラフィック) Flyby.wav 速;_
+                    スーパータックル乱舞 黄 Crash.wav
+V-MAX-RedPower･ATTACK(攻撃), 急降下
+V-MAX-RedPower･ATTACK(命中), @戦闘アニメ_飛来アップ Info(ユニットデータ,ザカール(V-MAXレッドパワー),グラフィック) Flyby.wav 速;_
+                             スーパータックル乱舞 赤 Crash.wav
+
+
+ダルジャン
+ハイパーモード(V-MAX発動), 粒子集中 桃;エネルギーフィールド展開 黄 Charge(2).wav
+V-MAX･ATTACK(攻撃), 急降下
+V-MAX･ATTACK(命中), @戦闘アニメ_飛来アップ Info(ユニットデータ,ダルジャン(V-MAX),グラフィック) Flyby.wav 速;_
+                    スーパータックル乱舞 桃 Crash.wav
+
+
+ダンコフ
+ハイパーモード(V-MAX発動), 粒子集中 桃;エネルギーフィールド展開 黄 Charge(2).wav
+V-MAX･ATTACK(攻撃), 急降下
+V-MAX･ATTACK(命中), @戦闘アニメ_飛来アップ Info(ユニットデータ,ダンコフ(V-MAX),グラフィック) Flyby.wav 速;_
+                    スーパータックル乱舞 桃 Crash.wav
+
+
+エルダール
+ハイパーモード(V-MAX発動), 粒子集中 桃;エネルギーフィールド展開 黄 Charge(2).wav
+V-MAX･ATTACK(攻撃), 急降下
+V-MAX･ATTACK(命中), @戦闘アニメ_飛来アップ Info(ユニットデータ,エルダール(V-MAX),グラフィック) Flyby.wav 速;_
+                    スーパータックル乱舞 桃 Crash.wav
+
+
+ガッシュラン
+ハイパーモード(V-MAX発動), 粒子集中 桃;エネルギーフィールド展開 黄 Charge(2).wav
+V-MAX･ATTACK(攻撃), 急降下
+V-MAX･ATTACK(命中), @戦闘アニメ_飛来アップ Info(ユニットデータ,ガッシュラン(V-MAX),グラフィック) Flyby.wav 速;_
+                    スーパータックル乱舞 桃 Crash.wav
+
+
+ソロムコ(飛行形態)
+拡散型レーザードライフル(準備), -
+拡散型レーザードライフル(攻撃), ショックビーム 黄 Beam.wav
+拡散型レーザードライフル(命中), ショックビーム 黄
+速射型レーザードライフル(準備), -
+速射型レーザードライフル(攻撃), ショックビーム 黄 Beam.wav
+速射型レーザードライフル(命中), ショックビーム 黄
+
+
+テラーストライカー
+対生物用ザーマルビーム, 小ビーム 赤
+熱重粒子弾(攻撃), 球電
+熱重粒子弾(命中), 爆発
+腕部クロー(攻撃), クロー
+腕部クロー(命中), クロー
+
+
+トライポットキャリア
+機銃, バルカン
+レーザー砲, 小ビーム 緑
+
+戦艦
+攻撃無効化(ＬＣＭパウダー粒子フィールド), ビームコート - ＬＣＭパウダー粒子フィールド
+レーザー砲, 小ビーム 緑
+エネルギー砲, 中ビーム 緑

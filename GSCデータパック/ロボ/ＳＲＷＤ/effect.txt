@@ -1,0 +1,130 @@
+# 武装の共用が皆無なのでユニット毎に再分割
+# 各主人公機必殺技の一元化に従いエフェクトを整理
+
+エール・シュヴァリアー
+サイファーガン, MachineGun.wav
+サイファーガン(命中), 1.5;Explode(Small).wav;1.5;Explode(Small).wav;1.5;Explode(Small).wav;Explode(Small).wav
+サイファーソード, BeamSaber.wav
+インパルスキャノン, Cannon.wav
+バーストレイヴ, BeamSaber.wav
+バーストレイヴ(命中), 2.5;Slash.wav;2;Slash.wav;2.5;Slash.wav;2;Slash.wav;Slash.wav
+バーストレイヴ(とどめ), 4;Reload(2).wav;4;MachineGun.wav;MachineGun.wav
+
+ジェアン・シュヴァリアー
+クローアンカーバースト, Missile.wav
+クローアンカーバースト(命中), 4;Sword.wav;3;Swing.wav;7;Drill.wav;1;Crash.wav;1;Crash.wav;;1;Crash.wav;Crash.wav
+
+ブランシュネージュ
+ヴェクターガン, LaserGun.wav
+フォースバスター, 6;Charge.wav;Beam.wav
+ラインロックランチャーＭ, 8;Charge(2).wav;Beam.wav
+ナイトディメンジョン, 2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;Explode(Small).wav
+ナイトディメンジョン(命中), 2;Beam.wav;2;Beam.wav;2;Beam.wav;Beam.wav
+ラインロックランチャー, 8;Charge(2).wav;Beam.wav
+
+デア・ブランシュネージュ
+デルタキャノン, Beam.wav
+ニュートロンバスターＭ, 10;Charge(high).wav;Beam.wav
+ガーディアンブレード, BeamSaber.wav
+ガーディアンブレード(命中), Saber.wav
+ニュートロンバスター, 10;Charge(high).wav;Beam.wav
+
+ガナドゥール
+ジェノサイドクロー, BeamSaber.wav
+ジェノサイドクロー(命中), 2;Stab.wav;2;Stab.wav;Stab.wav
+ファルシオンセイバー, BeamSaber.wav
+アルティメットランサー, 3;BeamShot.wav;BeamShot.wav
+アルティメットランサー(命中), 4;Saber.wav;Saber.wav;
+ヒートダイヴ, 7;Transform.wav;GunPod.wav
+ヒートダイヴ(命中), Crash.wav
+
+ストレーガ
+スタンパンチ(クリティカル), Hide.wav
+ライトニングショット, Thunder.wav
+ライトニングショット(命中), Thunder.wav
+エレクトリックキューブ, 6;Charge(2).wav;Inori.wav
+サンダークラッシュ, Charge.wav
+サンダークラッシュ(命中), 6;Thunder.wav;Inori.wav
+ライトニングヴァイス, Charge(high).wav
+ライトニングヴァイス(命中), 3;Charge.wav;12;Thunder.wav;3;Swing.wav;Crash.wav
+
+フォルテギガス
+ムーンサークル, 4;BeamSaber.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav;Swing.wav
+ムーンサークル, Slash.wav
+ストームブレード, BeamSaber.wav
+ストームブレード(命中), Saber.wav
+ストームブレード(とどめ), 1;Swing.wav;1;Swing.wav;4;Swing.wav;Slash(4).wav
+ビームハンマー, 4;BeamCoat.wav;Swing.wav
+ビームハンマー(命中), Crash.wav
+ギガブラスター, 8;Charge(2).wav;Beam.wav
+ライアットバスター, 6;BeamSaber.wav;Charge(high).wav
+ライアットバスター(命中), Sword.wav;9;Breath.wav;4;Slash(4).wav;Inori.wav
+
+ストゥディウム
+ワイバーンショット, Beam.wav
+ワイバーンシザースＭ, 6;Transform.wav;3;Whiz.wav;3;Whiz.wav;Whiz.wav
+ワイバーンシザースＭ(命中), Sword.wav
+ワイバーンバンカー, 6;Transform.wav;7;BeamSaber.wav;9;Jet.wav
+ワイバーンバンカー(命中), Stab.wav
+ワイバーンシザース, 6;Transform.wav;3;Whiz.wav;3;Whiz.wav;Whiz.wav
+ワイバーンシザース(命中), 1.5;Sword.wav;1.5;Sword.wav;1.5;Sword.wav;1.5;Sword.wav;Sword.wav
+
+インペトゥス
+グラウェ・フランマ, Breath.wav
+エクスハラティオー, Breath.wav
+カオスラディウス, GunPod.wav
+フォルテアルム, Fire.wav
+フォルテアルム(命中), 2.5;Saber.wav;2.5;Saber.wav;2.5;Saber.wav;Saber.wav
+
+ファービュラリス
+ステルラ・プルウィア, 6;Charge(high).wav;MultipleRocketLauncher(Light).wav
+ウィリテグラディウス, Swing.wav
+コンゲラティオー, 6;Charge(high).wav;MultipleRocketLauncher(Light).wav
+コンゲラティオー(命中), 1.5;Explode(Small).wav;1.5;Explode(Small).wav;1.5;Explode(Small).wav;Explode(Small).wav
+
+フォルティス・アーラ
+ディールプティオー, 6;MultipleRocketLauncher.wav;6;MultipleRocketLauncher.wav;MultipleRocketLauncher.wav
+ウィリテグラディウス, BeamSaber.wav
+ウィリテグラディウス(命中), Saber.wav
+カリドゥムサギッタ, 6;MultipleRocketLauncher.wav;6;MultipleRocketLauncher.wav;MultipleRocketLauncher.wav
+カリドゥムサギッタ(命中), 3;Explode.wav;2.5;Explode.wav;2;Explode.wav;2.5;Explode.wav;Explode.wav
+
+ウィオラーケウム
+アキドゥス, 1.5;Swing(2).wav;1.5;Swing(2).wav;Swing(2).wav
+アキドゥス(命中), 2;Whip.wav;2;Whip.wav;Whip.wav
+ファタ・モルガナ, Charge.wav
+コルヌーテルム, Missile.wav
+アートルム・ネブラ, 3;Swing.wav;Swing(2).wav
+アートルム・ネブラ(命中), 8;Combo.wav;Crash.wav
+
+プリスクス・ノクス
+ウェルテクス, Charge(high).wav
+カオスラディウス, 4;Swing.wav;Swing.wav
+カオスラディウス(命中), Sword.wav;Sword.wav
+ウィースグランデ, Missile.wav
+フォルテアルム, Whiz.wav
+フォルテアルム(命中), 2;Saber.wav;2;Saber.wav;4;Saber.wav;2;Sword.wav
+
+ファートゥム
+テネブラエ, LaserGun.wav
+ウルティムムＭ, 8;Charge(2).wav;3;Beam.wav;3;Beam.wav;3;Beam.wav
+オルクステレブラー, Jet.wav
+オルクステレブラー(命中), Sword.wav
+ウルティムム, 8;Charge(2).wav;3;Beam.wav;3;Beam.wav;3;Beam.wav
+ウルティムム(命中), 3;Explode.wav;3;Explode.wav;Explode.wav
+エデッセサペレ, 4;Missile.wav;Missile.wav
+エデッセサペレ(命中), 3;Beam.wav;4;Beam.wav;3;Beam.wav;4;Beam.wav;8;MultipleRocketLauncher.wav;3;Crash.wav;3;Crash.wav;Crash.wav
+
+レース＝アルカーナ
+オルタネイトデュエル, 5;Transform.wav;4;GunPod.wav;Charge(high).wav
+オルタネイトデュエル(命中), 3;Charge.wav;12;Thunder.wav;8;Swing.wav;5;GunPod.wav;Crash.wav
+サギッタルーメン, Beam.wav
+ボールハンマー, Swing.wav
+ボールハンマー(命中), Crash.wav
+パルスアロー, Beam.wav
+レイアロー, Beam.wav
+テールシザース, Swing.wav
+テールシザース(命中), Slash(2).wav
+ミサイルピック, MachineGun.wav
+ミサイルピック(命中), 1.5;Explode(Small).wav;1.5;Explode(Small).wav;Explode(Small).wav
+ヘヴィークラッシュ(命中), Crash.wav

@@ -1,0 +1,207 @@
+
+##### ・ノンパイ
+
+赤い月
+赤い月, MOON_RedMOON.bmp
+
+#  敵としては正式データにはとても出来そうにないので放置。
+#  一応、不可視の壁の!精はこいつの精神攻撃を見越してのことなのですが…。
+#  パイロット、ユニット画像もないですしローカルでお願いします。
+
+
+# === 表情リスト === #
+
+#  郁未表情
+天沢郁未(笑顔)
+郁未, MOON_AmasawaIkumi(Smile).bmp
+郁未(笑顔)
+郁未, MOON_AmasawaIkumi(Smile).bmp
+天沢郁未(ドッペル)
+郁未, MOON_DoppelIkumi.bmp
+郁未(ドッペル)
+郁未, MOON_DoppelIkumi.bmp
+
+
+#  由依表情
+名倉由依(攻撃)
+由依, MOON_NakuraYui(Attack).bmp
+由依(攻撃)
+由依, MOON_NakuraYui(Attack).bmp
+
+名倉由依(ダメージ)
+由依, MOON_NakuraYui(Damage).bmp
+由依(ダメージ)
+由依, MOON_NakuraYui(Damage).bmp
+
+名倉由依(弱気)
+由依, MOON_NakuraYui(Faintly).bmp
+由依(弱気)
+由依, MOON_NakuraYui(Faintly).bmp
+
+名倉由依(驚き)
+由依, MOON_NakuraYui(Odoroki).bmp
+由依(驚き)
+由依, MOON_NakuraYui(Odoroki).bmp
+
+名倉由依(笑顔)
+由依, MOON_NakuraYui(Smile).bmp
+由依(笑顔)
+由依, MOON_NakuraYui(Smile).bmp
+
+名倉由依(涙)
+由依, MOON_NakuraYui(Tear).bmp
+由依(涙)
+由依, MOON_NakuraYui(Tear).bmp
+
+名倉由依(不安)
+由依, MOON_NakuraYui(Anxiety).bmp
+由依(不安)
+由依, MOON_NakuraYui(Anxiety).bmp
+
+名倉由依(不満)
+由依, MOON_NakuraYui(Discontent).bmp
+由依(不満)
+由依, MOON_NakuraYui(Discontent).bmp
+
+
+#  葉子表情
+鹿沼葉子(攻撃)
+葉子, MOON_KanumaYouko(Attack).bmp
+葉子(攻撃)
+葉子, MOON_KanumaYouko(Attack).bmp
+
+鹿沼葉子(唖然)
+葉子, MOON_KanumaYouko(Agape).bmp
+葉子(唖然)
+葉子, MOON_KanumaYouko(Agape).bmp
+
+鹿沼葉子(笑顔)
+葉子, MOON_KanumaYouko(Smile).bmp
+葉子(笑顔)
+葉子, MOON_KanumaYouko(Smile).bmp
+
+鹿沼葉子(目閉じ)
+葉子, MOON_KanumaYouko.bmp
+葉子(目閉じ)
+葉子, MOON_KanumaYouko.bmp
+
+
+#  友里表情
+名倉友里(笑顔)
+友里, MOON_NakuraYuri(smile).bmp
+友里(笑顔)
+友里, MOON_NakuraYuri(smile).bmp
+
+
+#  高槻表情
+高槻(嘲笑)
+高槻, MOON_Takatsuki(Ridicule).bmp
+
+
+
+# === dialog用 === #
+
+天沢郁未
+郁未, MOON_AmasawaIkumi.bmp
+巳間晴香
+晴香, MOON_MimaHaruka.bmp
+名倉由依
+由依, MOON_NakuraYui.bmp
+鹿沼葉子
+葉子, MOON_KanumaYouko.bmp
+高槻
+高槻, MOON_Takatsuki.bmp
+
+
+
+# === おまけＲＰＧ === #
+
+スライム(MOON.)
+スライム, MOON_Monster.bmp
+
+スライム(MOON.)
+スライム, MOON_Monster.bmp
+
+スライム(MOON.)
+スライム, MOON_Monster.bmp
+
+ケルベロス(MOON.)
+ケルベロス, MOON_Monster.bmp
+
+ニャー面スネイク(MOON.)
+ニャー面スネイク, MOON_Monster.bmp
+
+ハニーバタフライ(MOON.)
+ハニーバタフライ, MOON_Monster.bmp
+
+人食いベタ(MOON.)
+人食いベタ, MOON_Monster.bmp
+
+マンドラゴラストーカー(MOON.)
+マンドラゴラストーカー, MOON_Monster.bmp
+
+ハムスターもどき(MOON.)
+ハムスターもどき, MOON_Monster.bmp
+
+ユニコーン(MOON.)
+ユニコーン, MOON_Monster.bmp
+
+電撃使い(MOON.)
+電撃使い, MOON_Monster.bmp
+
+行列をなすハムスター(MOON.)
+行列をなすハムスター, MOON_Monster.bmp
+
+殺人鬼(MOON.)
+殺人鬼, MOON_Monster.bmp
+
+イヤな壁(MOON.)
+イヤな壁, MOON_Monster.bmp
+
+電撃倶楽部(MOON.)
+電撃倶楽部, MOON_Monster.bmp
+
+ＮＯＲＡ－２０３(MOON.)
+ＮＯＲＡ－２０３, MOON_Monster.bmp
+
+暴走ハムスター(MOON.)
+暴走ハムスター, MOON_Monster.bmp
+
+
+# === 開発スタッフ === #
+
+久弥直樹(MOON.)
+久弥, MOON_Staff.bmp
+
+折戸伸治(MOON.)
+折戸様, MOON_Staff.bmp
+
+まりさま(MOON.)
+まりさま, MOON_Staff.bmp
+
+グラフィッカーの方々(MOON.)
+グラフィッカーの方々, MOON_Staff.bmp
+
+だ～まえ(MOON.)
+だ～まえ, MOON_Staff.bmp
+
+しのり～(MOON.)
+しのり～, MOON_Staff.bmp
+
+ミラクル☆みきぽん(MOON.)
+みきぽん, MOON_Staff.bmp
+
+がんまん(MOON.)
+がんまん, MOON_Staff.bmp
+
+樋上いたる(MOON.)
+いたる, MOON_Staff.bmp
+
+ＹＥＴ１１(MOON.)
+ＹＥＴ１１, MOON_Staff.bmp
+
+
+
+
+
+

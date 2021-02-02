@@ -1,0 +1,30 @@
+#丸投げデータパックの汎用銃器アイコンに対応しています。
+#シナリオで使用する場合は、ローカルBitmapフォルダ内にAnimeフォルダを作成し、
+#さらにその内部にWeaponフォルダを作成後、本データで指定しているBitmapファイルを
+#Weaponフォルダに格納して下さい。
+
+ＪＥＳＵＳ
+ウージー, サブマシンガン
+パイソン357マグナム, リボルバー Weapon\EFFECT_RW_COLT_COMBATPYTHON.bmp 34
+M16-A2, マシンガン EFFECT_RW_COLT_M16A2.bmp 50
+M72対戦車ロケット(準備), バズーカ
+M72対戦車ロケット(攻撃), グレネード
+M72対戦車ロケット(命中), 爆発
+無音殺人術(準備), -
+無音殺人術(攻撃), 透明化 解除
+無音殺人術(命中), 立ち固め -.wav;刺突 -.wav
+グロック17, ピストル
+レミントンM700カスタム, ライフル
+イングラム, サブマシンガン
+モーゼルミリタリー, ピストル EFFECT_RW_MAUSER_C96.bmp 34
+二丁拳銃(準備), 振る武器 EFFECT_RW_MAUSER_C96.bmp 34 二刀流
+二丁拳銃(攻撃), 振る武器突撃 EFFECT_RW_MAUSER_C96.bmp 34 reload.wav 二刀流
+二丁拳銃(命中), ガトリング
+ベレッタ92F, ピストル EFFECT_RW_BERETTA_M92.bmp 34
+ルガーP08アーティラリー, ピストル EFFECT_RW_LUGER_P08(Gold).bmp 34
+トカレフ, ピストル EFFECT_RW_USSR_TOKAREV.bmp 34
+無声拳銃, ピストル cannon.wav
+ボウガン, クロスボウ
+マチェット, シミター
+MP5K, サブマシンガン EFFECT_RW_H&K_MP5K.bmp 34
+FA-MAS, マシンガン EFFECT_RW_GIAT_FA-MAS.bmp 46

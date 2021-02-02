@@ -1,0 +1,197 @@
+##### ルーチンスタート ##### 
+
+ユニットコマンド ？？？ 藤田浩之 (Unit() = "藤田浩之" And 味方数 > 1):
+
+自分 = 対象ユニット
+
+If Call(？？？メインルーチン) Then
+  Talk システム 
+  $(自分)は、;$(NickName(target))の;『$(？＿武器名)』:;…を真似した！
+  End
+Else
+  Talk システム
+  真似できなかった！
+  End 
+EndIf
+
+Exit
+
+##### ？？？メインルーチン ##### 
+
+？？？メインルーチン:
+
+Unset パイロットネーム
+X = 0
+ForEach 味方 出撃
+  If 対象ユニット = 自分 Then
+    Skip
+  EndIf
+  Incr X
+  パイロットネーム[X] = 対象ユニットＩＤ
+Next 
+
+Do While (X)
+
+  乱数１ = Random(X)
+  target = パイロットネーム[乱数１]
+  パイロットネーム[乱数１] = パイロットネーム[X]
+  Unset パイロットネーム[X]
+  Incr X -1
+  
+  Cnt = Info(target,武器数)
+  Y = 0
+  Unset 物真似候補
+  For i = 1 to Cnt
+    Incr Y
+    物真似候補[Y] = Info(ユニット,target,武器,i)
+  Next
+
+  Do While (Y)
+
+    乱数２ = Random(Y)
+    weapon = 物真似候補[乱数２]
+    物真似候補[乱数２] = 物真似候補[Y]
+    Unset 物真似候補[Y]
+    Incr Y -1
+
+    If Info(target,武器,weapon,消費ＥＮ) > EN(自分) _
+      Or IsDisable(Unit(target),weapon) _
+      Or 属性確認(反Ｑ合Ｃ斉変自尽) _
+    Then
+      Skip
+    EndIf
+
+    武器マネルーチン
+
+    Return 1
+
+  Loop
+
+Loop
+
+Return 0
+
+##### メインルーチン終了 #####
+
+##### 武器マネルーチン   #####
+
+武器マネルーチン:
+
+？＿武器名 = weapon
+？＿攻撃力 = Info(target,武器,weapon,攻撃力) - Info(UnitID(自分),ランク) * 100
+？＿最小射程 = Info(target,武器,weapon,最小射程)
+？＿最大射程 = Info(target,武器,weapon,最大射程)
+？＿命中率 = Info(target,武器,weapon,命中率)
+？＿消費ＥＮ = Info(target,武器,weapon,消費ＥＮ)
+？＿地形適応 = Info(target,武器,weapon,地形適応)
+？＿クリティカル率 = Info(target,武器,weapon,クリティカル率)
+？＿武器属性 = Info(target,武器,weapon,属性)
+？＿追加文章 = "変"
+
+ＭＩＤＩ？ = Info(パイロット,Pilot(target),ＭＩＤＩ)
+If IsAvailable(target,ＢＧＭ) Then
+  ＭＩＤＩ？ = Info(target,特殊能力データ,ＢＧＭ)
+EndIf
+If IsAvailable(target,武器ＢＧＭ) Then
+  Cnt = Info(target,特殊能力数)
+  For i = 1 to Cnt
+    If Info(target,特殊能力,i) = "武器ＢＧＭ" Then
+      If LIndex(Info(target,特殊能力データ,i),1) = weapon Then
+        ＭＩＤＩ？ = LIndex(Info(target,特殊能力データ,i),2)
+        Break
+      EndIf
+    EndIf
+  Next
+EndIf
+
+
+# クイックロード対策
+Number = 0
+Do
+  Incr Number
+  Name = 藤田浩之(？) & "(" & Number & ")"
+Loop While (Info(ユニット,Name,愛称) != "")
+
+
+Open Data\リーフファイト９７\？？？\Item.txt For 出力 As F
+Print F "？？？(AB)"
+Print F "？？？,固定,？？？"
+Print F "特殊能力"
+Print F "0,0,0,0,0"
+Print F "==="
+Print F "？？？発動,変身Lv1=$(Name),0,1,-,-,(アイテム)"
+
+Close F
+
+Open Data\リーフファイト９７\？？？\Unit.txt For 出力 As F
+
+Print F "$(Name)"
+Print F "藤田浩之,$(Info(target,機体クラス)),1,3"
+Print F "陸,4,M,3500,170"
+Print F "特殊能力"
+Print F "格闘武器=拳"
+Print F "性別=男性"
+Print F "解説=？？？ 他人の技を見様見真似するという浩之の技;１ターン過ぎるか、真似した技を撃つと元の状態に戻る"
+Print F "武器ＢＧＭ=$(？＿武器名) $(ＭＩＤＩ？)"
+Print F "パイロット能力付加=プラーナLv100=非表示"
+Print F "3600,140,800,80"
+Print F "BACB,LF_HujitaHiroyukiU.bmp"
+Print F "自己流パンチ,900,1,1,+20,-,-,-,AAAA,+0,突"
+Print F "真・主役の意地,2500,1,1,+20,1,-,120,AAAA,+0,合"
+Print F "真・主役の意地(鬼),2500,1,1,+20,1,-,120,AAAA,+0,合"
+Print F "$(？＿武器名),$(？＿攻撃力),$(？＿最小射程),$(？＿最大射程),$(？＿命中率),-,$(？＿消費ＥＮ),-,$(？＿地形適応),$(？＿クリティカル率),$(？＿武器属性)$(？＿追加文章)"
+
+Close F
+
+Load リーフファイト９７\？？？
+
+Select 自分
+
+Equip ？？？(AB)
+
+光れっ！
+
+UseAbility ？？？発動
+
+RecoverPlana 自分 100
+
+Forget リーフファイト９７\？？？ 
+
+RemoveFile Data\リーフファイト９７\？？？\Item.txt 
+RemoveFile Data\リーフファイト９７\？？？\Unit.txt 
+
+Return 
+
+##### 武器ルーチン終了 ##### 
+
+##### サブルーチン ####
+
+IsDisable:
+Return (Eval("Disable($(Args(1)),$(Args(2)))") Or Eval("Disable($(Args(2)))"))
+
+属性確認:
+Cnt = Len(Args(1))
+For i = 1 to Cnt
+  If Info(target,武器,weapon,属性所有,Mid(Args(1),i,1)) Then
+    Return 1
+  EndIf
+Next
+Return 0
+
+光れっ！:
+Center 自分
+PlaySound Glass.wav
+For i = -3 to 3
+  PaintPicture "AUnitOn0$(4 - Abs(i)).bmp" - - 32 32 透過
+  Refresh
+  Wait 0.5
+  If i = 0 Then
+    PaintPicture White.bmp - - 480 480
+    Refresh
+    Wait 0.5
+  EndIf
+  ClearPicture
+Next
+Redraw
+Wait 1
+Return

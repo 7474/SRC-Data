@@ -1,0 +1,919 @@
+
+## 仲間キャラクター ###########################################################
+
+ハーケン＝ブロウニング
+阻止(キャンフィールド), 周囲回転 Card\EFFECT_Card05.bmp Flair.wav 3
+ベスト・フラッシュ(準備), 射撃武器 EFFECT_SRWOGEF_NightFowl(2).bmp 48
+ベスト・フラッシュ(攻撃), 斬撃;なぎ払い
+ベスト・フラッシュ(命中), 斬撃;1;連続爆発
+ハイロー・ドロウ(準備), 射撃武器 EFFECT_SRWOGEF_LongTombSpecial.bmp 40
+ハイロー・ドロウ(攻撃), リボルバー EFFECT_SRWOGEF_LongTombSpecial.bmp 40 Gun(3).wav;リボルバー EFFECT_SRWOGEF_LongTombSpecial.bmp 40 Gun(3).wav;_
+                        リボルバー EFFECT_SRWOGEF_LongTombSpecial.bmp 40 Gun(3).wav
+ハイロー・ドロウ(命中), 連続爆発
+ジャック・ポット(準備), 射撃武器 EFFECT_SRWOGEF_NightFowl.bmp 40
+ジャック・ポット(攻撃), マシンガン EFFECT_SRWOGEF_NightFowl.bmp 40;リボルバー EFFECT_SRWOGEF_LongTombSpecial.bmp 40 Gun(3).wav;_
+                        リボルバー EFFECT_SRWOGEF_LongTombSpecial.bmp 40 Gun(3).wav;リボルバー EFFECT_SRWOGEF_LongTombSpecial.bmp 40 Gun(3).wav
+ジャック・ポット(命中), マシンガン;1;連続爆発
+テキサス・ホールデム(準備), 射撃武器  EFFECT_SRWOGEF_NightFowl(2).bmp 48
+テキサス・ホールデム(攻撃), 斬撃;斬り上げ;刺突
+テキサス・ホールデム(命中), 連斬撃;1;強打 Crash.wav
+ファイブ・スタッド(準備), 射撃武器 EFFECT_SRWOGEF_NightFowl.bmp 40
+ファイブ・スタッド(攻撃), 突く武器突撃 EFFECT_SRWOGEF_NightFowl.bmp 40
+ファイブ・スタッド(命中), 連打 Crash.wav;2;超打 Crash.wav
+ファイヤー・マウス(攻撃), 投擲武器 Card\EFFECT_Card02.bmp 24
+ファイヤー・マウス(命中), 周囲回転 Card\EFFECT_Card02.bmp Whiz.wav 2;連続爆発
+ベスト・フラッシュ２ｎｄ(準備), 射撃武器  EFFECT_SRWOGEF_NightFowl(2).bmp 48
+ベスト・フラッシュ２ｎｄ(攻撃), 斬撃;なぎ払い
+ベスト・フラッシュ２ｎｄ(命中), 斬撃;1;連続爆発
+ハイロー・ドロウ２ｎｄ(準備), 射撃武器 EFFECT_SRWOGEF_LongTombSpecial.bmp 40
+ハイロー・ドロウ２ｎｄ(攻撃), リボルバー EFFECT_SRWOGEF_LongTombSpecial.bmp 40 Gun(3).wav;リボルバー EFFECT_SRWOGEF_LongTombSpecial.bmp 40 Gun(3).wav;_
+                              リボルバー EFFECT_SRWOGEF_LongTombSpecial.bmp 40 Gun(3).wav;リボルバー EFFECT_SRWOGEF_LongTombSpecial.bmp 40 Gun(3).wav
+ハイロー・ドロウ２ｎｄ(命中), 連続爆発
+セブン・スタッド(準備), 射撃武器 EFFECT_SRWOGEF_NightFowl.bmp 40
+セブン・スタッド(攻撃), 突く武器突撃 EFFECT_SRWOGEF_NightFowl.bmp 40
+セブン・スタッド(命中), 強打 Crash.wav;1;連打 Crash.wav;2;超打 Crash.wav
+ラスト・ショウダウン(準備), 射撃武器 EFFECT_SRWOGEF_LongTombSpecial.bmp 40
+ラスト・ショウダウン(攻撃), -
+ラスト・ショウダウン(命中), -
+究極!ゲシュペンストキック(攻撃), @戦闘アニメ_ハイパービームサーベル準備 黄 Partner(1);1;_
+                                 回転投擲武器 LightWeapon\EFFECT_LightGiantSword(Black)02.bmp 48 Partner(1);_
+                                 「一網打尽だぜ！」;マシンガン EFFECT_SRWOGEF_NightFowl.bmp 40
+究極!ゲシュペンストキック(攻撃), @戦闘アニメ_ハイパービームサーベル準備 黄 Partner(1);1;_
+                                 回転投擲武器 LightWeapon\EFFECT_LightGiantSword(Black)02.bmp 48 Partner(1);_
+                                 「まとめて面倒見るぜ！」;マシンガン EFFECT_SRWOGEF_NightFowl.bmp 40
+究極!ゲシュペンストキック(命中), クリティカル斬撃 Slash(3).wav;1;連続爆発;「後はまかせたぜ、ブラック・ゴースト！」;_
+                                 @戦闘アニメ_スーパーキック攻撃 黒 Partner(1);スーパーキック 黒 Partner(1);2;_
+                                 @戦闘アニメ_超ビーム攻撃 桃 AntiShipMissile.wav Partner(1);2;超ビーム 桃 Partner(1)
+究極!ゲシュペンストキック(命中), クリティカル斬撃 Slash(3).wav;1;連続爆発;「コール・ゲシュペンスト！」;_
+                                 @戦闘アニメ_スーパーキック攻撃 黒 Partner(1);スーパーキック 黒 Partner(1);2;_
+                                 @戦闘アニメ_超ビーム攻撃 桃 AntiShipMissile.wav Partner(1);2;超ビーム 桃 Partner(1)
+究極!ゲシュペンストキック(命中), クリティカル斬撃 Slash(3).wav;1;連続爆発;「究極！ ゲシュペンストキック！」;_
+                                 @戦闘アニメ_スーパーキック攻撃 黒 Partner(1);スーパーキック 黒 Partner(1);2;_
+                                 @戦闘アニメ_超ビーム攻撃 桃 AntiShipMissile.wav Partner(1);2;超ビーム 桃 Partner(1)
+究極!ゲシュペンストキック(命中), クリティカル斬撃 Slash(3).wav;1;連続爆発;「さあ、お待ちかねだ！」;_
+                                 @戦闘アニメ_スーパーキック攻撃 黒 Partner(1);スーパーキック 黒 Partner(1);2;_
+                                 @戦闘アニメ_超ビーム攻撃 桃 AntiShipMissile.wav Partner(1);2;超ビーム 桃 Partner(1)
+ランページ・スペクター(攻撃), 内蔵ガトリング Partner(1);1;ベアリング FastGun.wav Partner(1)
+ランページ・スペクター(命中), 連続爆発 4;「ランページ・スペクター！！」;@戦闘アニメ_タックル攻撃 Partner(1);1;_
+                              超打 Shock(Low).wav Partner(1);超打 Shock(Low).wav Partner(1);超打 Shock(Low).wav Partner(1);1;_
+                              @戦闘アニメ_バスタービームランチャー攻撃 赤 Weapon\EFFECT_BeamShotGun01.bmp 64 AntiShipMissile.wav Partner(2);_
+                              2;超爆発
+ランページ・スペクター(命中), 連続爆発 4;「アルト！ ヴァイス！ 頼むぜ」;@戦闘アニメ_タックル攻撃 Partner(1);1;_
+                              超打 Shock(Low).wav Partner(1);超打 Shock(Low).wav Partner(1);超打 Shock(Low).wav Partner(1);1;_
+                              @戦闘アニメ_バスタービームランチャー攻撃 赤 Weapon\EFFECT_BeamShotGun01.bmp 64 AntiShipMissile.wav Partner(2);_
+                              2;超爆発
+ランページ・スペクター(命中), 連続爆発 4;「決めてやりな！」;@戦闘アニメ_タックル攻撃 Partner(1);1;_
+                              超打 Shock(Low).wav Partner(1);超打 Shock(Low).wav Partner(1);超打 Shock(Low).wav Partner(1);1;_
+                              @戦闘アニメ_バスタービームランチャー攻撃 赤 Weapon\EFFECT_BeamShotGun01.bmp 64 AntiShipMissile.wav Partner(2);_
+                              2;超爆発
+ランページ・スペクター(命中), 連続爆発 4;「派手に暴れな！」;@戦闘アニメ_タックル攻撃 Partner(1);1;_
+                              超打 Shock(Low).wav Partner(1);超打 Shock(Low).wav Partner(1);超打 Shock(Low).wav Partner(1);1;_
+                              @戦闘アニメ_バスタービームランチャー攻撃 赤 Weapon\EFFECT_BeamShotGun01.bmp 64 AntiShipMissile.wav Partner(2);_
+                              2;超爆発
+ファントム・ホールデム(攻撃), マシンガン EFFECT_SRWOGEF_NightFowl.bmp 40;_
+                              @戦闘アニメ_ハイパービームサーベル準備 黄 Partner(1);1;斬撃 Swing(2).wav Partner(1);_
+                              「好きにやっていいぜ！」;実弾発射 Card\EFFECT_Card02.bmp 24 Whiz.wav;1;_
+                              回転投擲武器 LightWeapon\EFFECT_LightGiantSword(Black)02.bmp 48 Partner(1)
+ファントム・ホールデム(攻撃), マシンガン EFFECT_SRWOGEF_NightFowl.bmp 40;_
+                              @戦闘アニメ_ハイパービームサーベル準備 黄 Partner(1);1;斬撃 Swing(2).wav Partner(1);_
+                              「俺にも残しとけよ！」;実弾発射 Card\EFFECT_Card02.bmp 24 Whiz.wav;1;_
+                              回転投擲武器 LightWeapon\EFFECT_LightGiantSword(Black)02.bmp 48 Partner(1)
+ファントム・ホールデム(攻撃), マシンガン EFFECT_SRWOGEF_NightFowl.bmp 40;_
+                              @戦闘アニメ_ハイパービームサーベル準備 黄 Partner(1);1;斬撃 Swing(2).wav Partner(1);_
+                              「派手に暴れな！」;実弾発射 Card\EFFECT_Card02.bmp 24 Whiz.wav;1;_
+                              回転投擲武器 LightWeapon\EFFECT_LightGiantSword(Black)02.bmp 48 Partner(1)
+ファントム・ホールデム(命中), 斬撃乱舞 Slash(3).wav;「ゲシュペンスト、来い！」;@戦闘アニメ_スーパーキック攻撃 黒 Partner(1);_
+                              スーパーキック 黒 Partner(1);「クロンダイク・モード、最大出力！」;「行けぇっ！！」;_
+                              @戦闘アニメ_バスタービームランチャー攻撃 青 EFFECT_SRWOGEF_LongTombSpecial(2).bmp 40 AntiShipMissile.wav;_
+                              2;超爆発
+ファントム・ホールデム(命中), 斬撃乱舞 Slash(3).wav;「ゲシュペンスト・キック！」;@戦闘アニメ_スーパーキック攻撃 黒 Partner(1);_
+                              スーパーキック 黒 Partner(1);「ロングトゥーム・スペシャル！」;「食らえぇっ！！」;_
+                              @戦闘アニメ_バスタービームランチャー攻撃 青 EFFECT_SRWOGEF_LongTombSpecial(2).bmp 40 AntiShipMissile.wav;_
+                              2;超爆発
+ファントム・ホールデム(命中), 斬撃乱舞 Slash(3).wav;「見せてやるぜ、とっておきを！」;@戦闘アニメ_スーパーキック攻撃 黒 Partner(1);_
+                              スーパーキック 黒 Partner(1);「銃身が焼き付くまで撃つぜ！」;「ショウダウンだ！！」;_
+                              @戦闘アニメ_バスタービームランチャー攻撃 青 EFFECT_SRWOGEF_LongTombSpecial(2).bmp 40 AntiShipMissile.wav;_
+                              2;超爆発
+ファントム・ホールデム(命中), 斬撃乱舞 Slash(3).wav;「まずはこいつからだ！」;@戦闘アニメ_スーパーキック攻撃 黒 Partner(1);_
+                              スーパーキック 黒 Partner(1);「クロンダイク・モード、最大出力！」;「これで終わりだ！！」;_
+                              @戦闘アニメ_バスタービームランチャー攻撃 青 EFFECT_SRWOGEF_LongTombSpecial(2).bmp 40 AntiShipMissile.wav;_
+                              2;超爆発
+ファントム・ホールデム(命中), 斬撃乱舞 Slash(3).wav;「ゲシュペンスト、来い！」;@戦闘アニメ_スーパーキック攻撃 黒 Partner(1);_
+                              スーパーキック 黒 Partner(1);「ロングトゥーム・スペシャル！」;「これがファイナル・ベットだ！！」;_
+                              @戦闘アニメ_バスタービームランチャー攻撃 青 EFFECT_SRWOGEF_LongTombSpecial(2).bmp 40 AntiShipMissile.wav;_
+                              2;超爆発
+ランページ・スペクターⅡ(攻撃), 「アルトアイゼン、行け！」;内蔵ガトリング Partner(1);1;ベアリング FastGun.wav Partner(1);_
+                                「ヴァイスリッター、シュート！」;対物ライフル Weapon\EFFECT_BeamShotGun01.bmp 64 Bazooka.wav Partner(2);_
+                                 ビームランチャー 白 Weapon\EFFECT_BeamShotGun01.bmp 64 BeamGun.wav Partner(2)
+ランページ・スペクターⅡ(攻撃), 「撃ち貫いてやりな！」;内蔵ガトリング Partner(1);1;ベアリング FastGun.wav Partner(1);_
+                                「アーベント、華麗にな？」;対物ライフル Weapon\EFFECT_BeamShotGun01.bmp 64 Bazooka.wav Partner(2);_
+                                 ビームランチャー 白 Weapon\EFFECT_BeamShotGun01.bmp 64 BeamGun.wav Partner(2)
+ランページ・スペクターⅡ(攻撃), 「レイヤード・クレイモア！」;内蔵ガトリング Partner(1);1;ベアリング FastGun.wav Partner(1);_
+                                「パルチザン・ランチャー！」;対物ライフル Weapon\EFFECT_BeamShotGun01.bmp 64 Bazooka.wav Partner(2);_
+                                 ビームランチャー 白 Weapon\EFFECT_BeamShotGun01.bmp 64 BeamGun.wav Partner(2)
+ランページ・スペクターⅡ(命中), 連続爆発 5;ビームランチャー 白 Partner(2);「ランページ・スペクター！！」;@戦闘アニメ_タックル攻撃 Partner(1);1;_
+                                超打 Shock(Low).wav Partner(1);超打 Shock(Low).wav Partner(1);超打 Shock(Low).wav Partner(1);1;_
+                                @戦闘アニメ_バスタービームランチャー攻撃 赤 Weapon\EFFECT_BeamShotGun01.bmp 64 AntiShipMissile.wav Partner(2);_
+                                2;超爆発
+ランページ・スペクターⅡ(命中), 連続爆発 5;ビームランチャー 白 Partner(2);「亡霊のダンスを味わいな！」;@戦闘アニメ_タックル攻撃 Partner(1);1;_
+                                超打 Shock(Low).wav Partner(1);超打 Shock(Low).wav Partner(1);超打 Shock(Low).wav Partner(1);1;_
+                                @戦闘アニメ_バスタービームランチャー攻撃 赤 Weapon\EFFECT_BeamShotGun01.bmp 64 AntiShipMissile.wav Partner(2);_
+                                2;超爆発
+ランページ・スペクターⅡ(命中), 連続爆発 5;ビームランチャー 白 Partner(2);「フィナーレは譲るぜ！」;@戦闘アニメ_タックル攻撃 Partner(1);1;_
+                                超打 Shock(Low).wav Partner(1);超打 Shock(Low).wav Partner(1);超打 Shock(Low).wav Partner(1);1;_
+                                @戦闘アニメ_バスタービームランチャー攻撃 赤 Weapon\EFFECT_BeamShotGun01.bmp 64 AntiShipMissile.wav Partner(2);_
+                                2;超爆発
+
+楠舞神夜
+逢菜の枝(準備), 振る武器 EFFECT_SRWOGEF_GoshikiZankantou.bmp 32
+逢菜の枝(攻撃), 連突
+逢菜の枝(命中), 連突
+如来の鉢(準備), 振る武器 EFFECT_SRWOGEF_GoshikiZankantou.bmp 32
+如来の鉢(攻撃), 回転発射 Wind\EFFECT_WindCutter(White)01.bmp 16 Whiz.wav;回転発射 Wind\EFFECT_WindCutter(White)01.bmp 16 Whiz.wav
+如来の鉢(命中), クリティカル斬撃
+楠舞霊術秘奥義・華美酒(攻撃), 魔法放射 桃 Whiz.wav
+楠舞霊術秘奥義・華美酒(命中), 桜吹雪
+火鼠の衣(準備), 振る武器 EFFECT_SRWOGEF_GoshikiZankantou.bmp 32
+火鼠の衣(攻撃), 振り上げ;回転発射 Wind\EFFECT_WindCutter(White)01.bmp 16 Whiz.wav;_
+                回転発射 Wind\EFFECT_WindCutter(White)01.bmp 16 Whiz.wav;回転発射 Wind\EFFECT_WindCutter(White)01.bmp 16 Whiz.wav
+火鼠の衣(命中), 斬撃乱舞
+燕の介(準備), 振る武器 EFFECT_SRWOGEF_GoshikiZankantou.bmp 32
+燕の介(攻撃), 斬撃;2;アッパー;アッパー
+燕の介(命中), 振り下ろし Slash(4).wav;2;振り上げ Slash(4).wav;振り上げ Slash(4).wav
+龍顎門の珠(準備), 振る武器 EFFECT_SRWOGEF_GoshikiZankantou.bmp 32
+龍顎門の珠(攻撃), なぎ払い Slash(4).wav;サマーソルト;斬撃
+龍顎門の珠(命中), 強風 Slash.wav
+逢菜の大枝(準備), 振る武器 EFFECT_SRWOGEF_GoshikiZankantou.bmp 32
+逢菜の大枝(攻撃), 連突
+逢菜の大枝(命中), 連突
+火鼠の大衣(準備), 振る武器 EFFECT_SRWOGEF_GoshikiZankantou.bmp 32
+火鼠の大衣(攻撃), なぎ払い;回転発射 Wind\EFFECT_WindCutter(White)01.bmp 16 Whiz.wav;_
+                  回転発射 Wind\EFFECT_WindCutter(White)01.bmp 16 Whiz.wav;回転発射 Wind\EFFECT_WindCutter(White)01.bmp 16 Whiz.wav
+火鼠の大衣(命中), 強風 Slash.wav;強風 Slash.wav
+猪刺花鳥(準備), 振る武器 EFFECT_SRWOGEF_GoshikiZankantou.bmp 32
+猪刺花鳥(攻撃), 振る武器突撃 EFFECT_SRWOGEF_GoshikiZankantou.bmp 32
+猪刺花鳥(命中), 刺突 Slash(4).wav;2;振り上げ Slash(4).wav;2;斬撃 Slash(4).wav
+雨刺鋼(準備), 振る武器 EFFECT_SRWOGEF_GoshikiZankantou.bmp 32
+雨刺鋼(攻撃), 乱突;2;振り上げ;1;振り下ろし
+雨刺鋼(命中), 乱突;2;振り上げ;1;円弧斬撃 Slash(4).wav
+楠舞一刀流秘奥義・徹砲(準備), 振る武器 EFFECT_SRWOGEF_GoshikiZankantou.bmp 32
+楠舞一刀流秘奥義・徹砲(攻撃), サマーソルト;斬撃
+楠舞一刀流秘奥義・徹砲(命中), -
+楠舞一刀流秘伝・阿羅刺(準備), 振る武器 EFFECT_SRWOGEF_GoshikiZankantou.bmp 32
+楠舞一刀流秘伝・阿羅刺(攻撃), -
+楠舞一刀流秘伝・阿羅刺(命中), -
+楠舞一刀流奥義・月架美刃(準備), 振る武器 EFFECT_SRWOGEF_GoshikiZankantou.bmp 32
+楠舞一刀流奥義・月架美刃(攻撃), 斬撃;1;強風 Storm.wav
+楠舞一刀流奥義・月架美刃(命中), -
+楠舞一刀流奥義・月架美刃(とどめ), 縦分割
+
+アレディ＝ナアシュ
+機神連拳(攻撃), 連打
+機神連拳(命中), 連打
+覇皇空円脚(攻撃), 浴びせ蹴り Swing(2).wav;サマーソルト Swing(2).wav
+覇皇空円脚(命中), 強打;アッパー
+機神剛鉄甲(攻撃), なぎ払い;1;打撃突撃
+機神剛鉄甲(命中), 打撃突撃
+轟覇機神拳(攻撃), 乱打
+轟覇機神拳(命中), 乱打;2;光柱 AntiShipMissile.wav
+覇皇剛衝殻(攻撃), タックル
+覇皇剛衝殻(命中), 超打;1;@戦闘アニメ_乱打攻撃;1;乱打;1;超打 Crash.wav
+機神乱獣撃(攻撃), 竜炎 白
+機神乱獣撃(命中), 竜炎 白
+真覇朧撃烈破(攻撃), 竜炎 黄
+真覇朧撃烈破(命中), -
+覇皇魔滅拳(攻撃), タックル;振り上げ Partner(1);キック;キック Partner(1)
+覇皇魔滅拳(命中), 連打 Shock(Low).wav;「奮い立てアルクオン！」;@戦闘アニメ_アッパー攻撃 Partner(1);_
+                  1;@戦闘アニメ_ジャンプ攻撃 Swing(2).wav Partner(1);2;強打 Crash.wav Partner(1);「この一撃で決しよう！」;_
+                  「覇皇……魔滅拳！！」;@戦闘アニメ_打突攻撃 AntiAirMissile.wav;3;超打 Crash.wav;2;大光柱 橙 Explode(Far).wav
+覇皇魔滅拳(命中), 連打 Shock(Low).wav;「信じるぞ、アルクオン！」;@戦闘アニメ_アッパー攻撃 Partner(1);_
+                  1;@戦闘アニメ_ジャンプ攻撃 Swing(2).wav Partner(1);2;強打 Crash.wav Partner(1);「覇王の名の下に、今！」;_
+                  「覇皇……魔滅拳！！」;@戦闘アニメ_打突攻撃 AntiAirMissile.wav;3;超打 Crash.wav;2;大光柱 橙 Explode(Far).wav
+覇皇魔滅拳(命中), 連打 Shock(Low).wav;「アルクオン、力を貸せ！」;@戦闘アニメ_アッパー攻撃 Partner(1);_
+                  1;@戦闘アニメ_ジャンプ攻撃 Swing(2).wav Partner(1);2;強打 Crash.wav Partner(1);「死凶星の彼方へ往け！」;_
+                  「覇皇……魔滅拳！！」;@戦闘アニメ_打突攻撃 AntiAirMissile.wav;3;超打 Crash.wav;2;大光柱 橙 Explode(Far).wav
+覇皇魔滅拳(命中), 連打 Shock(Low).wav;「漆黒の羅刹機よ！」;@戦闘アニメ_アッパー攻撃 Partner(1);_
+                  1;@戦闘アニメ_ジャンプ攻撃 Swing(2).wav Partner(1);2;強打 Crash.wav Partner(1);「魔を討ち、滅する拳！」;_
+                  「覇皇……魔滅拳！！」;@戦闘アニメ_打突攻撃 AntiAirMissile.wav;3;超打 Crash.wav;2;大光柱 橙 Explode(Far).wav
+
+ネージュ＝ハウゼン
+ベノム・コーム(準備), 振る武器 EFFECT_SRWOGEF_FeeSlayer.bmp 32
+ベノム・コーム(攻撃), 連突
+ベノム・コーム(命中), 連突 Slash.wav
+ハンターズ・マーシィ(準備), ビームランチャー 白 EFFECT_SRWOGEF_FeeSlayer(2).bmp 40
+ハンターズ・マーシィ(攻撃), ビームランチャー 白 EFFECT_SRWOGEF_FeeSlayer(2).bmp 40
+ハンターズ・マーシィ(命中), ビームランチャー 白
+ベノム・カーマイン(攻撃), 振り上げ;回転発射 Foods\EFFECT_Apple01.bmp 16;回転発射 Foods\EFFECT_Apple01.bmp 16
+ベノム・カーマイン(命中), 連続爆発
+レッドホット・パンプス(攻撃), キック;バックキック Fire.wav
+レッドホット・パンプス(命中), 大爆発
+ベレイシャス・ミラー(攻撃), ６ＷＡＹ射出;3;ビームライフル 白 EFFECT_SRWOGEF_FeeSlayer(2).bmp 40
+ベレイシャス・ミラー(命中), オールレンジ
+グラス・コフィン(攻撃), 魔法集中 白 Whiz.wav 相手ユニットＩＤ;3;ビームランチャー 白 EFFECT_SRWOGEF_FeeSlayer(2).bmp 40
+グラス・コフィン(命中), 氷柱 Transform.wav;1;ビームランチャー 白;2;飛沫 白
+キュートクラウンブレイカー(準備), 振る武器 EFFECT_SRWOGEF_FeeSlayer.bmp 32
+キュートクラウンブレイカー(攻撃), -
+キュートクラウンブレイカー(命中), -
+ロイヤルハート･ブラスター(攻撃), 振り上げ;「ド偉い連携、お見せします！」;連斬撃 Partner(1);連斬撃 Partner(1)
+ロイヤルハート･ブラスター(攻撃), 振り上げ;「私も参りましょう！」;連斬撃 Partner(1);連斬撃 Partner(1)
+ロイヤルハート･ブラスター(攻撃), 振り上げ;「フェイクライド、アクション！」;連斬撃 Partner(1);連斬撃 Partner(1)
+ロイヤルハート･ブラスター(命中), 斬撃乱舞;「フェイク、付いて来なさい！」;スピンアタック 赤;1;スピンアタック 白 Slash(3).wav Partner(1);_
+                                 「ロイヤルハート・ブラスター！！」;_
+                                 @戦闘アニメ_ビームランチャー攻撃 白 EFFECT_SRWOGEF_FeeSlayer(2).bmp 40;3;@戦闘アニメ_粒子集中準備 白 Partner(1);_
+                                 2;@戦闘アニメ_スーパータックル攻撃 白 Partner(1);スーパータックル 白 Partner(1) Transform.wav
+ロイヤルハート･ブラスター(命中), 斬撃乱舞;「フェイク、付いて来なさい！」;スピンアタック 赤;1;スピンアタック 白 Slash(3).wav Partner(1);_
+                                 「フィナーレを飾りましてよ！」;_
+                                 @戦闘アニメ_ビームランチャー攻撃 白 EFFECT_SRWOGEF_FeeSlayer(2).bmp 40;3;@戦闘アニメ_粒子集中準備 白 Partner(1);_
+                                 2;@戦闘アニメ_スーパータックル攻撃 白 Partner(1);スーパータックル 白 Partner(1) Transform.wav
+
+アシェン＝ブレイデル
+ゲンブ・スパイク(準備), -
+ゲンブ・スパイク(攻撃), ロケットパンチ Hand\EFFECT_Punch(Black)01.bmp 32 Swing.wav;ロケットパンチ Hand\EFFECT_Punch(Black)01.bmp 32 Swing.wav
+ゲンブ・スパイク(命中), 連打
+タイグレス・バイト(攻撃), 連打
+タイグレス・バイト(命中), 連打
+ドラゴン・スケイル(準備), 変形 SRWOGEF_AschenBrodel(DTD)U.bmp -.wav
+ドラゴン・スケイル(攻撃), 小型ミサイル 6
+ドラゴン・スケイル(命中), 連続爆発 6
+デモンズ・ランサー(準備), -
+デモンズ・ランサー(攻撃), キック;キック;サマーソルト
+デモンズ・ランサー(命中), 連打;2;超アッパー Bazooka.wav
+ディバイン・ランサー(準備), -
+ディバイン・ランサー(攻撃), 浴びせ蹴り;サマーソルト
+ディバイン・ランサー(命中), 強打;強打;@戦闘アニメ_キック攻撃;2;超打 Bazooka.wav
+タイグレス・バイト改(攻撃), 連打
+タイグレス・バイト改(命中), 連打;2;超打 Bazooka.wav
+スラッシュ・リッパー(準備), 変形 SRWOGEF_AschenBrodel(DTD)U.bmp -.wav
+スラッシュ・リッパー(攻撃), 実弾発射 Weapon\EFFECT_Chakram01.bmp Drill.wav 残像;実弾発射 Weapon\EFFECT_Chakram01.bmp Drill.wav 残像
+スラッシュ・リッパー(命中), クリティカル斬撃
+デモンズ・ランサー改(準備), -
+デモンズ・ランサー改(攻撃), キック;キック;サマーソルト
+デモンズ・ランサー改(命中), 連打;2;超アッパー Bazooka.wav
+ディバイン・ランサー改(準備), -
+ディバイン・ランサー改(攻撃), 浴びせ蹴り;サマーソルト
+ディバイン・ランサー改(命中), 強打;強打;@戦闘アニメ_キック攻撃;2;超打 Bazooka.wav
+グラヴィティ・ハウリング(攻撃), -
+グラヴィティ・ハウリング(命中), -
+ファンタズム･フェニックス(攻撃), 乱打
+ファンタズム･フェニックス(命中), -
+
+錫華姫
+シールド防御(邪鬼銃王), シールド防御 unit\SRWOGEF_Jyaki-GUN-OhU.bmp 32 - - 邪鬼銃王
+邪鬼銃・弾鎖(準備), 瞬間変形 unit\SRWOGEF_Jyaki-GUN-OhU.bmp
+邪鬼銃・弾鎖(攻撃), 内蔵ガトリング
+邪鬼銃・弾鎖(命中), ガトリング
+錫華・美糸(準備), 扇子 二刀流
+錫華・美糸(攻撃), 回転斬撃
+錫華・美糸(命中), 回転斬撃 Slash(3).wav
+邪鬼銃・冥土麗(準備), 瞬間変形 unit\SRWOGEF_Jyaki-GUN-OhU.bmp
+邪鬼銃・冥土麗(攻撃), 内蔵ガトリング;2;ビームショットキャノン 黄 Bazooka.wav;ビームショットキャノン 黄 Bazooka.wav
+邪鬼銃・冥土麗(命中), ガトリング;1;爆発;爆発
+邪鬼銃・封印破(準備), 瞬間変形 unit\SRWOGEF_Jyaki-GUN-OhU.bmp
+邪鬼銃・封印破(攻撃), 内蔵ガトリング;タックル
+邪鬼銃・封印破(命中), ガトリング;強打 Crash.wav;2;ガトリング
+邪鬼銃・梵破(準備), 瞬間変形 unit\SRWOGEF_Jyaki-GUN-OhU.bmp
+邪鬼銃・梵破(攻撃), 小型ミサイル 4
+邪鬼銃・梵破(命中), 連続爆発
+邪鬼銃・封印牙(攻撃), 斬撃;なぎ払い;瞬間変形 unit\SRWOGEF_Jyaki-GUN-OhU.bmp;スーパータックル 青
+邪鬼銃・封印牙(命中), スーパータックル 青 Crash.wav
+邪鬼銃・精霊舞(準備), 扇子 二刀流
+邪鬼銃・精霊舞(攻撃), 斬撃乱舞
+邪鬼銃・精霊舞(命中), 斬撃乱舞 Slash(3).wav;2;瞬間変形 unit\SRWOGEF_Jyaki-GUN-OhU.bmp 対象ユニットＩＤ;_
+                      飛沫 赤 Explode(small).wav;3;飛沫 黄 Explode(small).wav
+邪鬼銃・砲陣(準備), 瞬間変形 unit\SRWOGEF_Jyaki-GUN-OhU.bmp
+邪鬼銃・砲陣(攻撃), 重機関砲;2;ＭＡＰ爆発
+邪鬼銃・砲陣(命中), 重機関砲
+邪鬼銃・魔破邪(準備), 瞬間変形 unit\SRWOGEF_Jyaki-GUN-OhU.bmp
+邪鬼銃・魔破邪(攻撃), -
+邪鬼銃・魔破邪(命中), 重機関砲
+邪鬼銃・桃源郷(準備), 扇子 二刀流
+邪鬼銃・桃源郷(攻撃), -
+邪鬼銃・桃源郷(命中), -
+
+有栖零児(無限のフロンティア)
+二丁・樹金道(準備), 左右別武器 EFFECT_NxC_Gold.bmp 32 - EFFECT_NxC_Hollywood.bmp 36 - Reload.wav
+二丁・樹金道(攻撃), リボルバー EFFECT_NxC_Gold.bmp 32;リボルバー EFFECT_NxC_Gold.bmp 32;1;_
+                    ショットガン EFFECT_NxC_Hollywood.bmp 36 Gun(3).wav
+二丁・樹金道(命中), 連続爆発
+地禮・春雷の型(準備), 振る武器 EFFECT_NxC_Tirei.bmp 32
+地禮・春雷の型(攻撃), 連続なぎ払い
+地禮・春雷の型(命中), 連続なぎ払い;雷斬撃 Thunderbolt.wav
+火燐・壱の型(準備), 振る武器 EFFECT_NxC_Karin.bmp 40
+火燐・壱の型(攻撃), 振り上げ;1;振り上げ
+火燐・壱の型(命中), 爆発;1;爆発;2;炎
+二刀・電鋼刹火(準備), 左右別武器 EFFECT_NxC_Tirei.bmp 32 -  EFFECT_NxC_Karin.bmp 40
+二刀・電鋼刹火(攻撃), 振り上げ;振り上げ
+二刀・電鋼刹火(命中), 炎斬撃;1;雷斬撃;2;大爆発
+火燐・零の型(準備), 振る武器 EFFECT_NxC_Karin.bmp 40
+火燐・零の型(攻撃), 振り上げ
+火燐・零の型(命中), 振り上げ;1;@戦闘アニメ_ジャンプ攻撃 FightHit(1).wav;@戦闘アニメ_振り下ろし攻撃;2;炎斬撃
+二丁・樹金道・裏(準備), 左右別武器 EFFECT_NxC_Gold.bmp 32 - EFFECT_NxC_Hollywood.bmp 36 - Reload.wav
+二丁・樹金道・裏(攻撃), リボルバー EFFECT_NxC_Gold.bmp 32;リボルバー EFFECT_NxC_Gold.bmp 32;1;_
+                        ショットガン EFFECT_NxC_Hollywood.bmp 36 Gun(3).wav
+二丁・樹金道・裏(命中), 連続爆発
+地禮・疾雷の型(準備), 振る武器 EFFECT_NxC_Tirei.bmp 32
+地禮・疾雷の型(攻撃), 連続なぎ払い
+地禮・疾雷の型(命中), 連続なぎ払い;雷斬撃 Thunderbolt.wav
+火燐・弐の型(準備), 振る武器 EFFECT_NxC_Karin.bmp 40
+火燐・弐の型(攻撃), 振り上げ;1;振り上げ
+火燐・弐の型(命中), 爆発;1;爆発;2;炎
+二門・不知火の型(準備), 振る武器 EFFECT_NxC_Karin.bmp 40
+二門・不知火の型(攻撃), 振り上げ;1;ショットガン EFFECT_NxC_Hollywood.bmp 36 Gun(3).wav;2;振り下ろし
+二門・不知火の型(命中), 炎斬撃;2;連続爆発 Gun(3).wav;2;大爆発
+二門・四嗣噴陣(準備), ショットガン EFFECT_NxC_Hollywood.bmp 36
+二門・四嗣噴陣(攻撃), ショットガン EFFECT_NxC_Hollywood.bmp 36 Gun(3).wav;1;振り上げ;なぎ払い
+二門・四嗣噴陣(命中), 爆発;1;炎斬撃;雷斬撃;2;@戦闘アニメ_リボルバー攻撃 EFFECT_NxC_Gold.bmp 32;_
+                      @戦闘アニメ_リボルバー攻撃 EFFECT_NxC_Gold.bmp 32;3;飛沫 青 Explode.wav
+二丁・銃の型・極(準備), 左右別武器 EFFECT_NxC_Gold.bmp 32 - EFFECT_NxC_Hollywood.bmp 36 - Reload.wav;_
+                        振る武器 EFFECT_NxC_Silver.bmp 32 Reload.wav 二刀流 Partner(1)
+二丁・銃の型・極(攻撃), ＭＡＰ爆発 Gun(3).wav
+二丁・銃の型・極(命中), 爆発
+二丁・銃の型・巴(準備), 左右別武器 EFFECT_NxC_Gold.bmp 32 - EFFECT_NxC_Hollywood.bmp 36 - Reload.wav;_
+                        振る武器 EFFECT_NxC_Silver.bmp 32 Reload.wav 二刀流 Partner(1);ショットガン Partner(2)
+二丁・銃の型・巴(攻撃), ＭＡＰ爆発 Gun(3).wav
+二丁・銃の型・巴(命中), 爆発
+護業抜刀法奥義・真羅万象(攻撃), -
+護業抜刀法奥義・真羅万象(命中), -
+
+小牟(無限のフロンティア)
+二丁・刺鎧閃(準備), 振る武器 EFFECT_NxC_Silver.bmp 32 Reload.wav 二刀流
+二丁・刺鎧閃(攻撃), ピストル EFFECT_NxC_Silver.bmp 32;1;振り上げ;ピストル EFFECT_NxC_Silver.bmp 32
+二丁・刺鎧閃(命中), 連続爆発
+水憐・弐の型(準備), 振る武器 EFFECT_NxC_Suiren.bmp 36
+水憐・弐の型(攻撃), 斬撃
+水憐・弐の型(命中), 斬撃 Slash(4).wav
+小牟魔術(攻撃), 爆弾;実弾発射 Weapon\EFFECT_Bomb01.bmp 24
+小牟魔術(命中), 連続爆発;1;@戦闘アニメ_タックル攻撃;2;強打 FightHit(1).wav
+仙狐妖術・龍虎連砲(攻撃), ２連小ビーム 青;2;波動放射 白
+仙狐妖術・龍虎連砲(命中), ２連小ビーム 青;2;飛沫 白 Shock(Low).wav
+朱雀刀・波乗の型(攻撃), スーパータックル 青
+朱雀刀・波乗の型(命中), スーパータックル 青;2;飛沫 青 Splash.wav
+水憐・時雨の型(準備), 振る武器 EFFECT_NxC_Suiren.bmp 36
+水憐・時雨の型(攻撃), 連続なぎ払い
+水憐・時雨の型(命中), 連続なぎ払い Slash(4).wav
+仙狐妖術・龍虎乱砲(攻撃), ２連小ビーム 青;2;波動放射 白
+仙狐妖術・龍虎乱砲(命中), ２連小ビーム 青;2;飛沫 白 Shock(Low).wav
+鬼門封じ・破天光(攻撃), 大放電 青 Charge.wav
+鬼門封じ・破天光(命中), 大放電 青 Hide.wav;2;超爆発
+仙狐攻殺法奥義・狐主封霊(攻撃), 大放電 青 Hide.wav
+仙狐攻殺法奥義・狐主封霊(命中), -
+仙狐妖術奥義・四神争応(攻撃), -
+仙狐妖術奥義・四神争応(命中), -
+最終決戦奥義・嫁入の型, 回復魔法泡
+
+ＫＯＳ－ＭＯＳ(無限のフロンティア)
+Ｓ・ＳＡＵＬＴ(攻撃), 斬撃
+Ｓ・ＳＡＵＬＴ(命中), 斬撃;1;@戦闘アニメ_サマーソルト攻撃;2;強打
+Ｇ・ＳＨＯＴ, ガトリング
+ＶＡＬＫＹＲＩＥ(攻撃), 連斬撃;1;ビームショットキャノン 赤 Bazooka.wav
+ＶＡＬＫＹＲＩＥ(命中), 斬撃;1;爆発
+ＤＲＡＧＯＮ・ＴＯＯＴＨ(準備), ハイパービームサーベル 白
+ＤＲＡＧＯＮ・ＴＯＯＴＨ(攻撃), 円弧斬撃
+ＤＲＡＧＯＮ・ＴＯＯＴＨ(命中), クリティカル斬撃
+Ｘ・ＢＵＳＴＥＲ(攻撃), 超ビーム 白 BeamGun.wav
+Ｘ・ＢＵＳＴＥＲ(命中), 超ビーム 白
+ＳＴＯＲＭ・ＷＡＬＴＺ(準備), 護身銃
+ＳＴＯＲＭ・ＷＡＬＴＺ(攻撃), 護身銃;護身銃;護身銃
+ＳＴＯＲＭ・ＷＡＬＴＺ(命中), オールレンジ
+気孔掌(攻撃), 打突
+気孔掌(命中), 大放電 白 BeamCoat.wav;羽
+連舞迅雷刀八本(攻撃), 斬撃乱舞 Thunder.wav
+連舞迅雷刀八本(命中), 横大斬撃 Thunderbolt.wav;唐竹割り Thunderbolt.wav;振り上げ大斬撃 Thunderbolt.wav;大斬撃 Thunderbolt.wav;_
+                      唐竹割り Thunderbolt.wav;横大斬撃 Thunderbolt.wav;振り上げ大斬撃 Thunderbolt.wav;唐竹割り Thunderbolt.wav
+ＳＰＥＬＬ・ＢＬＡＤＥ(攻撃), -
+ＳＰＥＬＬ・ＢＬＡＤＥ(命中), 大斬撃 Transform.wav
+迦具夜機神剣(攻撃), -
+迦具夜機神剣(命中), -
+Ｄ・ＴＥＮＥＲＩＴＡＳ(準備), 粒子集中 白
+Ｄ・ＴＥＮＥＲＩＴＡＳ(攻撃), 発光 白 対象ユニットＩＤ
+Ｄ・ＴＥＮＥＲＩＴＡＳ(命中), -
+
+アクセル＝アルマー(無限のフロンティア)
+水流爪牙(準備), 振る武器 EFFECT_SRWOGEF_MizuchiBlade(2).bmp 32
+水流爪牙(攻撃), 白兵武器
+水流爪牙(命中), 爪撃 Slash(4).wav
+烈火青龍鱗(攻撃), クナイ;1;ショックビーム 青
+烈火青龍鱗(命中), 爆発;1;ショックビーム 青
+玄武剛弾(攻撃), 打突;旋風 白
+玄武剛弾(命中), 旋風 白 Explode.wav
+白虎咬(準備), 振る武器 EFFECT_SRWOGEF_MizuchiBlade.bmp 32
+白虎咬(攻撃), 白兵武器;連打
+白虎咬(命中), 連打
+舞朱雀(準備), 振る武器 EFFECT_SRWOGEF_MizuchiBlade(2).bmp 32
+舞朱雀(攻撃), 振る武器突撃 EFFECT_SRWOGEF_MizuchiBlade(2).bmp 32
+舞朱雀(命中), 振る武器突撃 EFFECT_SRWOGEF_MizuchiBlade(2).bmp 32 斬撃
+光刃閃(準備), 振る武器 EFFECT_SRWOGEF_MizuchiBlade(2).bmp 32
+光刃閃(攻撃), 斬撃乱舞
+光刃閃(命中), @戦闘アニメ_振り回し攻撃 Beam2\EFFECT_MultiBeamHit(White)03.bmp 64 Slash(4).wav 相手ユニットＩＤ
+麒麟(準備), 振る武器 EFFECT_SRWOGEF_MizuchiBlade(2).bmp 32
+麒麟(攻撃), 斬撃乱舞
+麒麟(命中), -
+麒麟(とどめ), 縦分割
+水流爪牙・連(準備), 振る武器 EFFECT_SRWOGEF_MizuchiBlade(2).bmp 32
+水流爪牙・連(攻撃), 白兵武器
+水流爪牙・連(命中), 爪撃 Slash(4).wav;斬撃 Slash(4).wav
+烈火青龍鱗・黄泉路(攻撃), クナイ;1;ショックビーム 青
+烈火青龍鱗・黄泉路(命中), 爆発;1;ショックビーム 青;2;２連中ビーム 黄
+玄武剛弾・鬼菩薩(攻撃), 打突;旋風 白
+玄武剛弾・鬼菩薩(命中), 強打;2;旋風 白 Explode.wav
+白虎咬・挟(準備), 振る武器 EFFECT_SRWOGEF_MizuchiBlade.bmp 32
+白虎咬・挟(攻撃), 白兵武器;連打
+白虎咬・挟(命中), 連打;1;魔法集中 白 Whiz.wav;2;飛沫 白 Explode.wav
+舞朱雀・交(準備), 振る武器 EFFECT_SRWOGEF_MizuchiBlade(2).bmp 32
+舞朱雀・交(攻撃), 振る武器突撃 EFFECT_SRWOGEF_MizuchiBlade(2).bmp 32
+舞朱雀・交(命中), 振る武器突撃 EFFECT_SRWOGEF_MizuchiBlade(2).bmp 32 斬撃;1;横大斬撃 Slash(4).wav
+光刃閃・魂斬(準備), 振る武器 EFFECT_SRWOGEF_MizuchiBlade(2).bmp 32
+光刃閃・魂斬(攻撃), 斬撃乱舞
+光刃閃・魂斬(命中), -
+麒麟・魂抉(準備), 振る武器 EFFECT_SRWOGEF_MizuchiBlade(2).bmp 32
+麒麟・魂抉(攻撃), -
+麒麟・魂抉(命中), -
+麒麟・魂抉(とどめ), 縦分割
+
+アルフィミィ(無限のフロンティア)
+魂断(準備), 日本刀
+魂断(攻撃), 投擲武器 Common\EFFECT_SonicBoom(White)01.bmp 48 Whiz.wav
+魂断(命中), 斬撃
+鬼菩薩(準備), 左右固定射撃武器 EFFECT_SRWOGEF_OniBosatsu.bmp 32 -.wav
+鬼菩薩(攻撃), 周囲回転 EFFECT_SRWOGEF_OniBosatsu(2).bmp Whiz.wav 2 対象ユニットＩＤ
+鬼菩薩(命中), 連打
+黄泉路(準備), 射撃武器 EFFECT_SRWOGEF_OniBosatsu.bmp 32 -.wav
+黄泉路(攻撃), ダブルビームランチャー EFFECT_SRWOGEF_OniBosatsu.bmp 32 黄 Whiz.wav
+黄泉路(命中), ２連中ビーム 黄
+魂喰(攻撃), 魔法集中 白 Whiz.wav 相手ユニットＩＤ
+魂喰(命中), 吸収 白 Inori.wav
+来迎会(準備), 射撃武器 EFFECT_SRWOGEF_OniBosatsu.bmp 32 -.wav
+来迎会(攻撃), 拡散ビームランチャー EFFECT_SRWOGEF_OniBosatsu.bmp 32 黄 AntiShipMissile.wav
+来迎会(命中), 拡散ビーム 黄
+魂抉(準備), 日本刀
+魂抉(攻撃), 刺突
+魂抉(命中), -
+魂護, 回復魔法泡 Charge(Silent).wav
+
+## 支援キャラクター ###########################################################
+
+エイゼル＝グラナータ
+ＤＸ・マックス・アックス(準備), ハルバード
+ＤＸ・マックス・アックス(攻撃), 白兵武器
+ＤＸ・マックス・アックス(命中), 斬撃;1;爆発
+アックススロー(準備), ハルバード
+アックススロー(攻撃), 回転投擲武器 Weapon\EFFECT_Halberd01.bmp 48
+アックススロー(命中), 爆発
+リアクティブ・アーマー(攻撃), 魔法放射 赤 Explode(Far).wav 中
+リアクティブ・アーマー(命中), 爆発
+パンツァー・ボンバー(準備), 粒子集中 赤
+パンツァー・ボンバー(攻撃), 超自爆 Explode(Nuclear).wav
+パンツァー・ボンバー(命中), 超打 Explode.wav
+
+カッツェ＝コトルノス
+ヘアー・ハンティング(攻撃), キック
+ヘアー・ハンティング(命中), 強打
+スクラップキック(攻撃), サマーソルト;連突
+スクラップキック(命中), 連打
+マウス・イーター(攻撃), 瞬間変形 -.bmp;振り回し Unit\SRWOGEF_KatzeKotolnosU.bmp 32;瞬間変形;スーパータックル 白 Drill.wav
+マウス・イーター(命中), スーパータックル 白 Crash.wav
+ラウンド・エイティ(攻撃), サマーソルト
+ラウンド・エイティ(命中), -
+
+キュオン＝フーリオン
+ブロンテ・ブルーム(準備), 突く武器 EFFECT_SRWOGEF_BronteKraft(2).bmp 40
+ブロンテ・ブルーム(攻撃), 振り上げ Broom.wav;煙噴射 青 Broom.wav
+ブロンテ・ブルーム(命中), 飛沫 青
+ブロンテ・ブリザード(準備), 射撃武器 EFFECT_SRWOGEF_BronteKraft.bmp 40
+ブロンテ・ブリザード(攻撃), 手持ち発射連続描画 EFFECT_SRWOGEF_BronteKraft.bmp 40 Spin\EFFECT_WhirlWind(Blue)[01-06].bmp 64 4 1 Storm.wav
+ブロンテ・ブリザード(命中), 旋風 青
+ブロンテ・サンダー(準備), 射撃武器 EFFECT_SRWOGEF_BronteKraft.bmp 40
+ブロンテ・サンダー(攻撃), ショックビームガン EFFECT_SRWOGEF_BronteKraft.bmp 40 青 BeamCannon.wav
+ブロンテ・サンダー(命中), ショックビーム 青 Explode.wav
+ブロンテ・マジック(準備), 射撃武器 EFFECT_SRWOGEF_BronteKraft.bmp 40
+ブロンテ・マジック(攻撃), レーザーマシンガン EFFECT_SRWOGEF_BronteKraft.bmp 40 桃;1;ＭＡＰ爆発
+ブロンテ・マジック(命中), ショックビーム 青 BeamCannon.wav
+ブロンテ・ソード(準備), 射撃武器 EFFECT_SRWOGEF_BronteKraft.bmp 40
+ブロンテ・ソード(攻撃), スーパータックル 橙
+ブロンテ・ソード(命中), -
+
+ヘンネ＝ヴァルキュリア
+フェーダー・ショット, ニードルレーザー連射 紫
+シュナーベル・セイバー(準備), ビームサーベル 紫
+シュナーベル・セイバー(攻撃), 斬撃;なぎ払い
+シュナーベル・セイバー(命中), ビームサーベル 紫 Slash.wav
+フリューゲル・ショット(攻撃), ニードルレーザー連射 紫 Beamvalcan.wav
+フリューゲル・ショット(命中), ビームショットキャノン 紫
+フェーダー・レイ(攻撃), スーパータックル 赤 Drill.wav
+フェーダー・レイ(命中), -
+
+琥魔(無限のフロンティア)
+異聞・猫にカツブシ(攻撃), 投擲武器 Bullet\EFFECT_STG_Bullet(Black)07.bmp 16
+異聞・猫にカツブシ(命中), 打撃
+猫の手も借りたい(攻撃), 中心回転武器 Weapon\EFFECT_Dosu01.bmp
+猫の手も借りたい(命中), 回転斬撃
+秘伝・猫の手も借りたい(準備), ドス
+秘伝・猫の手も借りたい(攻撃), 振り上げ;振り下ろし
+秘伝・猫の手も借りたい(命中), 連斬撃
+豪快・猫まんま(攻撃), 連突;2;投擲武器 Bullet\EFFECT_STG_Bullet(Black)07.bmp 16;投擲武器 Bullet\EFFECT_STG_Bullet(Black)07.bmp 16
+豪快・猫まんま(命中), 連打;2;@戦闘アニメ_振り回し攻撃 Weapon\EFFECT_Dosu01.bmp 32 Slash(3).wav
+真説・猫に小判(攻撃), 投擲武器 DGoods\EFFECT_Koban01.bmp Glass(2).wav;実弾発射 DGoods\EFFECT_Ohban01.bmp Glass(2).wav;_
+                      実弾発射 DGoods\EFFECT_Koban01.bmp Glass(2).wav
+真説・猫に小判(命中), 飛沫 黄 Glass(3).wav;飛沫 黄 Glass(3).wav;飛沫 黄 Glass(3).wav;飛沫 黄 Glass(3).wav
+極限・招き猫(準備), ドス
+極限・招き猫(攻撃), 連斬撃;連突
+極限・招き猫(命中), -
+
+アン＝シレーナ
+バブル・カノン(準備), 大筒
+バブル・カノン(攻撃), 大筒 Bazooka.wav
+バブル・カノン(命中), 爆発
+バブル・カノン２ｎｄ(準備), 大筒
+バブル・カノン２ｎｄ(攻撃), 大筒 Bazooka.wav;大筒 Bazooka.wav
+バブル・カノン２ｎｄ(命中), 連続爆発
+バブル･カノン･アラウンド(準備), 大筒
+バブル･カノン･アラウンド(攻撃), 浴びせ蹴り
+バブル･カノン･アラウンド(命中), 強打;1;@戦闘アニメ_大筒攻撃 Bazooka.wav;2;爆発
+セイレーン・ダガー(準備), 大筒
+セイレーン・ダガー(攻撃), 大筒 Bazooka.wav;大筒 Bazooka.wav
+セイレーン・ダガー(命中), -
+
+ドロシー＝ミストラル
+ウィッチ・ボンバー(攻撃), 回転発射 Weapon\EFFECT_Bomb01.bmp 32
+ウィッチ・ボンバー(命中), 爆発
+ポッピー・タイフーン, 旋風 赤
+リターン・トゥ・ホーム(攻撃), 回転発射 Weapon\EFFECT_Bomb01.bmp 32;回転発射 Weapon\EFFECT_ChicagoPineapple01.bmp 32;_
+                              回転発射 Weapon\EFFECT_Dynamite01.bmp 32;回転発射 Weapon\EFFECT_PotatoMasher01.bmp 32
+リターン・トゥ・ホーム(命中), -
+スカートの秘密道具, 光噴出 Sharara.wav
+
+沙夜(無限のフロンティア)
+妖狐の囁き(攻撃), -
+妖狐の囁き(命中), 飛沫 緑 Bubble.wav
+盧(準備), グレネードランチャー
+盧(攻撃), ライフル Weapon\EFFECT_GrenadeLouncher01.bmp 40 Cannon.wav
+盧(命中), 爆発
+鎬三連(攻撃), 刺突;振り上げ
+鎬三連(命中), 黒斬撃;2;@戦闘アニメ_ライフル攻撃 Weapon\EFFECT_GrenadeLouncher01.bmp 40 Cannon.wav;2;爆発
+居合い五連(攻撃), 連続なぎ払い
+居合い五連(命中), 凍斬撃;炎斬撃;雷斬撃
+妖狐霊術・奪氣の型(攻撃), 魔法放射 桃
+妖狐霊術・奪氣の型(命中), 吸収 桃 Charge.wav
+瞬華終刀(攻撃), 周囲回転 Common\EFFECT_Heart01.bmp Sharara.wav 3
+瞬華終刀(命中), -
+
+Ｍ．Ｏ．Ｍ．Ｏ．(無限のフロンティア)
+レアハンター(準備), 変形 XESG_M.O.M.O.(StarWind)U.bmp Sharara.wav
+レアハンター(攻撃), 斬撃;実弾発射 -.bmp Whiz.wav 有線
+レアハンター(命中), 振り上げ Swing(2).wav
+コンパウンドボウ(準備), アーチェリーボウ
+コンパウンドボウ(攻撃), アーチェリーボウ
+コンパウンドボウ(命中), 小ビーム 白
+ウインドミキサー(準備), 振る武器 Weapon\EFFECT_FancyMagicRod01.bmp
+ウインドミキサー(攻撃), 振り上げ;竜巻 白
+ウインドミキサー(命中), 竜巻 白
+フリーズショック(準備), アーチェリーボウ
+フリーズショック(攻撃), アーチェリーボウ
+フリーズショック(命中), 小ビーム 白;1;氷柱 Ice.wav;1;飛沫 白
+スターアクション(準備), 変形 XESG_M.O.M.O.(StarWind)U.bmp Sharara.wav;振る武器 Weapon\EFFECT_FancyMagicRod01.bmp
+スターアクション(発動), 光柱 Charge(high).wav
+
+Ｔ－ｅｌｏｓ(無限のフロンティア)
+Ｌ・ＢＬＡＤＥ(攻撃), 斬撃;なぎ払い
+Ｌ・ＢＬＡＤＥ(命中), 連斬撃
+Ｇ・ＳＨＯＴ, ガトリング
+ＭＡＧＤＡＬＥＮ１６(準備), 護身銃
+ＭＡＧＤＡＬＥＮ１６(攻撃), 護身銃 Gun(3).wav;護身銃 Gun(3).wav;護身銃 Gun(3).wav
+ＭＡＧＤＡＬＥＮ１６(命中), 連続爆発
+Ｔ・ＳＫＹＬＬＡ(攻撃), 浴びせ蹴り
+Ｔ・ＳＫＹＬＬＡ(命中), 立ち足固め FightHit(1).wav 1;3;@戦闘アニメ_ピストル攻撃 Gun(3).wav;3;銃弾 Explode.wav
+Ｕ・ＴＥＮＥＲＩＴＡＳ(準備), 粒子集中 赤
+Ｕ・ＴＥＮＥＲＩＴＡＳ(攻撃), 発光 赤 対象ユニットＩＤ
+Ｕ・ＴＥＮＥＲＩＴＡＳ(命中), -
+
+ファイター・ロア(無限のフロンティア)
+鉄球ファイト(準備), 棘鉄球
+鉄球ファイト(攻撃), 棘鉄球
+鉄球ファイト(命中), 強打 Explode.wav
+ホワイト・ファング(攻撃), ２連光弾 白 Whiz.wav;光弾 白 Whiz.wav;２連光弾 白 Whiz.wav
+ホワイト・ファング(命中), ホーミングレーザー 白
+ファイヤー・ドラゴン(攻撃), 竜炎 赤
+ファイヤー・ドラゴン(命中), 竜炎 赤
+グレイト・ラッシュ(準備), 棘鉄球
+グレイト・ラッシュ(攻撃), 棘鉄球
+グレイト・ラッシュ(命中), -
+
+マークハンター(無限のフロンティア)
+リボルバーライフル(準備), 射撃武器 Weapon\EFFECT_NewAssaultRifle02.bmp 40
+リボルバーライフル(攻撃), チェーンガン Weapon\EFFECT_NewAssaultRifle02.bmp 40 黄 FastGun.wav
+リボルバーライフル(命中), 連続爆発
+パワースラッシュ(準備), ビームサーベル 赤
+パワースラッシュ(攻撃), タックル;斬撃
+パワースラッシュ(命中), ビームサーベル 赤
+フレイム・ブリット(準備), 射撃武器 Weapon\EFFECT_NewAssaultRifle02.bmp 40
+フレイム・ブリット(攻撃), チェーンガン Weapon\EFFECT_NewAssaultRifle02.bmp 40 黄 FastGun.wav;2;ＭＡＰ爆発
+フレイム・ブリット(命中), 連続爆発
+ファイナルエンド(準備), ビームサーベル 赤 二刀流
+ファイナルエンド(攻撃), 振り上げ;振り回し Beam\EFFECT_BeamSaber(Red)02.bmp 32;なぎ払い
+ファイナルエンド(命中), 回転斬撃 Slash.wav
+カオティックシューター(準備), 射撃武器 Weapon\EFFECT_NewAssaultRifle02.bmp 40
+カオティックシューター(攻撃), チェーンガン Weapon\EFFECT_NewAssaultRifle02.bmp 40 黄 FastGun.wav
+カオティックシューター(命中), -
+
+## ロボット ###################################################################
+
+ゲシュペンスト・ハーケン(無限のフロンティア)
+グラン・プラズマカッター(準備), ハイパービームサーベル 黄
+グラン・プラズマカッター(攻撃), 振り回し BeamWeapon\EFFECT_TwinBeamSaber(Yellow)02.bmp 112;斬撃
+グラン・プラズマカッター(命中), 回転ハイパービームサーベル 黄 Slash(3).wav
+プラズマサイズ(攻撃), 回転投擲武器 LightWeapon\EFFECT_LightScithe(Black)01.bmp 32;回転発射 LightWeapon\EFFECT_LightScithe(Black)01.bmp 32
+プラズマサイズ(命中), 連斬撃
+グラン･スラッシュリッパー(攻撃), 回転投擲武器 LightWeapon\EFFECT_LightGiantSword(Black)02.bmp 48;_
+                                 回転発射 LightWeapon\EFFECT_LightGiantSword(Black)02.bmp 48
+グラン･スラッシュリッパー(命中), クリティカル斬撃 Slash(3).wav
+ニュートロン・ブラスター(攻撃), 超ビーム 桃 AntiShipMissile.wav
+ニュートロン・ブラスター(命中), 超ビーム 桃
+
+アルトアイゼン・ナハト(無限のフロンティア)
+５連チェーンガン, 内蔵ガトリング
+ダレイズ・ホーン(攻撃), ジャンプ
+ダレイズ・ホーン(命中), 振り下ろし
+シールド・クレイモア(準備), Reload.wav
+シールド・クレイモア(攻撃), ベアリング FastGun.wav
+シールド・クレイモア(命中), ベアリング
+リボルビング・ブレイカー(攻撃), 打突
+リボルビング・ブレイカー(命中), 刺突 Crash.wav;3;超打 Shock(Low).wav
+レイヤード・クレイモア(準備), Reload.wav
+レイヤード・クレイモア(攻撃), ベアリング FastGun.wav;ベアリング FastGun.wav
+レイヤード・クレイモア(命中), ベアリング;連続爆発
+『切り札』(準備), -
+『切り札』(攻撃), 内蔵ガトリング;ベアリング FastGun.wav
+『切り札』(命中), 連続爆発;1;@戦闘アニメ_タックル攻撃;1;刺突 Crash.wav;3;超打 Shock(Low).wav;_
+                  超打 Shock(Low).wav;超打 Shock(Low).wav;超打 Shock(Low).wav
+
+ヴァイスリッター・アーベント(無限のフロンティア)
+３連ビームキャノン(攻撃), 内蔵チェーンガン 青 Beam(8Shot).wav
+３連ビームキャノン(命中), 小ビーム 青;小ビーム 青;小ビーム 青
+パルチザン・ランチャーＥ(準備), 射撃武器 Weapon\EFFECT_BeamShotGun01.bmp 64
+パルチザン・ランチャーＥ(攻撃), ビームランチャー 黄 Weapon\EFFECT_BeamShotGun01.bmp 64 BeamGun.wav
+パルチザン・ランチャーＥ(命中), ビームランチャー 黄
+パルチザン・ランチャーＢ(準備), 射撃武器 Weapon\EFFECT_BeamShotGun01.bmp 64
+パルチザン・ランチャーＢ(攻撃), 対物ライフル Weapon\EFFECT_BeamShotGun01.bmp 64 Bazooka.wav;対物ライフル Weapon\EFFECT_BeamShotGun01.bmp 64 Bazooka.wav
+パルチザン・ランチャーＢ(命中), 爆発;爆発
+パルチザン・ランチャーＸ(準備), 射撃武器 Weapon\EFFECT_BeamShotGun01.bmp 64
+パルチザン・ランチャーＸ(攻撃), バスタービームランチャー 赤 Weapon\EFFECT_BeamShotGun01.bmp 64 AntiShipMissile.wav
+パルチザン・ランチャーＸ(命中), バスタービームランチャー 赤
+
+アークゲイン(無限のフロンティア)
+白虎咬・連(攻撃), 連打
+白虎咬・連(命中), 連打 FightHit(1).wav;2;超打 Bazooka.wav
+舞朱雀・断(攻撃), 振り上げ;アッパー
+舞朱雀・断(命中), クリティカル斬撃 Slash(4).wav
+乱黄龍(攻撃), アッパー Swing(2).wav
+乱黄龍(命中), 振り上げ大斬撃 Transform.wav
+麒麟・暁(攻撃), 乱打
+麒麟・暁(命中), 乱打 FightHit(1).wav;2;超打 Bazooka.wav;2;@戦闘アニメ_アッパー攻撃 Swing(2).wav;3;_
+                @戦闘アニメ_振り上げ大斬撃命中 Transform.wav
+
+羅刹機アルクオン(無限のフロンティア)
+羅刹連拳(攻撃), 連突;2;なぎ払い
+羅刹連拳(命中), 連打;1;強打 Crash.wav
+羅刹幻殺甲(攻撃), 振り上げ;1;乱打 Swing(2).wav
+羅刹幻殺甲(命中), 乱打;1;強打 Crash.wav
+羅刹剛鉄甲(攻撃), 斬撃;1;なぎ払い
+羅刹剛鉄甲(命中), 強打 Crash.wav;2;光柱 黄 AntiShipMissile.wav
+羅刹覇龍吼(攻撃), 竜炎 赤
+羅刹覇龍吼(命中), 竜炎 赤
+羅刹断撃拳(攻撃), 乱打
+羅刹断撃拳(命中), 乱打;2;光柱 黄 AntiShipMissile.wav;@戦闘アニメ_スーパーキック攻撃 黄;1;_
+                  スーパーキック 黄 Explode.wav;@戦闘アニメ_決め文字命中 羅刹　断撃拳 黄 Inori.wav
+
+妖精機フェイクライド(無限のフロンティア)
+ツイステッド・レーザー, 中ビーム 黄
+ジェネラス・ブレード(攻撃), スピンアタック 白
+ジェネラス・ブレード(命中), 回転斬撃 Slash(4).wav
+リファインド･スウェイヤー(攻撃), 斬撃;なぎ払い
+リファインド･スウェイヤー(命中), 連斬撃;2;飛沫 白
+ダンシング・ドライバー(攻撃), 斬撃乱舞
+ダンシング・ドライバー(命中), 斬撃乱舞 Slash(4).wav;2;@戦闘アニメ_スーパータックル攻撃 白;スーパータックル 白 Transform.wav
+
+## サブキャラクター ###########################################################
+
+乙音(無限のフロンティア)
+鋼線(攻撃), 斬撃 Saber.wav
+鋼線(命中), 斬撃
+火鼠の衣(攻撃), 連続なぎ払い Saber.wav
+火鼠の衣(命中), 連続なぎ払い Slash(3).wav
+龍顎門の珠(攻撃), サマーソルト Whiz.wav;なぎ払い;斬撃
+龍顎門の珠(命中), クリティカル斬撃 Saber.wav
+奥義・鳳閃火(攻撃), クナイ Swing(2).wav;実弾発射 Weapon\EFFECT_Kunai01.bmp Swing(2).wav;実弾発射 Weapon\EFFECT_Kunai01.bmp Swing(2).wav
+奥義・鳳閃火(命中), -
+
+守天(無限のフロンティア)
+雉落とし(準備), 青龍偃月刀
+雉落とし(攻撃), 振り下ろし;振り上げ
+雉落とし(命中), 振り下ろし;振り上げ
+猿回し(準備), 青龍偃月刀
+猿回し(攻撃), 中心回転武器 Weapon\EFFECT_SeiryuEngetsuTou01.bmp 48;斬撃
+猿回し(命中), 回転斬撃
+犬雷電(準備), 青龍偃月刀
+犬雷電(攻撃), 青龍偃月刀急降下(突)
+犬雷電(命中), 青龍偃月刀急降下(突);雷斬撃 Thunderbolt.wav
+粉砕星兜(準備), 粒子集中 赤
+粉砕星兜(攻撃), 急降下
+粉砕星兜(命中), 急降下 Crash.wav;2;超爆発
+
+ボニー＝マクシマド
+パーシューター(準備), 振る武器 Weapon\EFFECT_FlintlockGun01.bmp 32 Reload.wav 二刀流
+パーシューター(攻撃), ピストル Weapon\EFFECT_FlintlockGun01.bmp 32 Gun(3).wav;ピストル Weapon\EFFECT_FlintlockGun01.bmp 32 Gun(3).wav
+パーシューター(命中), 爆発
+ライトニング・ドゥーム(準備), 射撃武器 Weapon\EFFECT_Revolver01.bmp 32 Reload.wav
+ライトニング・ドゥーム(攻撃), ピストル Weapon\EFFECT_FlintlockGun01.bmp 32 Gun(3).wav;ピストル Weapon\EFFECT_FlintlockGun01.bmp 32 Gun(3).wav;_
+                              ピストル Weapon\EFFECT_FlintlockGun01.bmp 32 Gun(3).wav;ピストル Weapon\EFFECT_FlintlockGun01.bmp 32 Gun(3).wav
+ライトニング・ドゥーム(命中), 連続爆発 4
+一斉攻撃(攻撃), ピラニア;ピラニア
+一斉攻撃(命中), 乱打 Explode(Small).wav
+
+ルボール＝ククルス
+ニードル・ロード(準備), 突く武器 Weapon\EFFECT_KnightLance01.bmp 48
+ニードル・ロード(攻撃), 連突
+ニードル・ロード(命中), 連突 Slash.wav
+ニードル・キャノン(準備), ビームショットガン Weapon\EFFECT_KnightLance01.bmp 48
+ニードル・キャノン(攻撃), ビームショットガン Weapon\EFFECT_KnightLance01.bmp 48 Gun(3).wav;ビームショットガン Weapon\EFFECT_KnightLance01.bmp 48 Gun(3).wav;_
+                          ビームショットガン Weapon\EFFECT_KnightLance01.bmp 48 Gun(3).wav
+ニードル・キャノン(命中), 連続爆発
+ニードル・インパクト(準備), 突く武器 Weapon\EFFECT_KnightLance01.bmp 48
+ニードル・インパクト(攻撃), 連突;2;ビームショットガン Weapon\EFFECT_KnightLance01.bmp 48 Gun(3).wav;_
+                            ビームショットガン Weapon\EFFECT_KnightLance01.bmp 48 Gun(3).wav;_
+                            ビームショットガン Weapon\EFFECT_KnightLance01.bmp 48 Gun(3).wav
+ニードル・インパクト(命中), -
+
+クレオ＝グレーテル
+パンくず散らし(攻撃), 白兵武器;1;連突
+パンくず散らし(命中), 連打
+爆裂氷砂糖(攻撃), ビームショットキャノン 白;ビームショットキャノン 白
+爆裂氷砂糖(命中), 煙 白;飛沫 白 Ice.wav
+魔女のかまど・強火(攻撃), 魔法放射 黄 大
+魔女のかまど・強火(命中), @戦闘アニメ_光打ち下ろし攻撃 白 Bomb(4Shot).wav;@戦闘アニメ_光打ち下ろし攻撃 黄 -.wav;連続爆発 黄
+魔女のかまど(攻撃), 光打ち下ろし 白 Bomb(4Shot).wav;光打ち下ろし 黄 -.wav
+魔女のかまど(命中), -
+弾けるキャンディ, 回復魔法泡
+毒リンゴグラッセ, 回復魔法
+ＭＡＸクッキー, オーラ上昇 赤
+
+毒牛頭(無限のフロンティア)
+毒牛頭烈破(準備), 片刃斧
+毒牛頭烈破(攻撃), 振り下ろし;振り下ろし;1;タックル
+毒牛頭烈破(命中), 連打
+牛毒煙(攻撃), 煙噴射 紫
+牛毒煙(命中), 煙 紫
+
+毒馬頭(無限のフロンティア)
+毒馬頭烈破(準備), モール
+毒馬頭烈破(攻撃), 振り下ろし;振り下ろし;1;タックル
+毒馬頭烈破(命中), 連打
+馬毒煙(攻撃), 煙噴射 紫
+馬毒煙(命中), 煙 紫
+
+## 敵キャラクター #############################################################
+
+カルディア＝バシリッサ
+スザク・ブレード, 連斬撃
+スラッシュ・リッパー(攻撃), 実弾発射 Weapon\EFFECT_Chakram01.bmp Drill.wav 残像;実弾発射 Weapon\EFFECT_Chakram01.bmp Drill.wav 残像
+スラッシュ・リッパー(命中), クリティカル斬撃
+ピアレス・アックス(準備), -
+ピアレス・アックス(攻撃), サマーソルト
+ピアレス・アックス(命中), 振り上げ大斬撃
+キリン・アサルト(攻撃), 斬撃;サマーソルト
+キリン・アサルト(命中), -
+
+ピート＝ペイン
+カリング・ブレード(準備), カトラス 二刀流
+カリング・ブレード(攻撃), 連斬撃
+カリング・ブレード(命中), 連斬撃 Slash(3).wav
+カリング・シューター(準備), カトラス 二刀流
+カリング・シューター(攻撃), 実弾発射 Weapon\EFFECT_Cutlas(T)01.bmp 32 Bazooka.wav;_
+                            実弾発射 Weapon\EFFECT_Cutlas(T)01.bmp 32 Bazooka.wav
+カリング・シューター(命中), 刺突 Explode.wav;刺突 Explode.wav
+フェアリー・ガスト, 音波
+ロストボーイ・シューター(準備), 粒子集中 桃
+ロストボーイ・シューター(攻撃), 音波
+ロストボーイ・シューター(命中), 光大噴出 Inori.wav
+ロストボーイ・スローター(準備), カトラス 二刀流
+ロストボーイ・スローター(攻撃), 連斬撃;1;音波
+ロストボーイ・スローター(命中), -
+
+ヴァールシャイン・リヒカイト
+ハーデス・ウェイ(攻撃), 中ビーム 黄 AntiAirMissile.wav
+ハーデス・ウェイ(命中), 中ビーム 黄
+グリート・ディエティ(攻撃), ２ＷＡＹ射出
+グリート・ディエティ(命中), オールレンジ
+ハーデス・ライン(攻撃), 拡散ビーム 黄 AntiShipMissile.wav
+ハーデス・ライン(命中), 拡散ビーム 黄
+ソウル・ボア(攻撃), ２ＷＡＹ射出
+ソウル・ボア(命中), 斬撃乱舞 Slash(3).wav
+
+ヘイムレン＝シルバート
+窮鼠轟襲脚(攻撃), @戦闘アニメ_音符準備 白
+窮鼠轟襲脚(命中), 連打;2;超打
+魔斑猛旋脚, スピンアタック 白
+覇滅の旋律(攻撃), 音符 白
+覇滅の旋律(命中), 飛沫 白 Inori.wav
+死技・魔斑導獄拳(攻撃), 音符 白
+死技・魔斑導獄拳(命中), -
+
+ゲルダ＝ミロワール
+血風冷爪斬(攻撃), 連続なぎ払い
+血風冷爪斬(命中), 爪撃 赤 Slash(3).wav;爪撃 赤 Slash(3).wav;爪撃 赤 Slash(3).wav
+凍鏡絢爛陣(攻撃), 実弾発射 Wind\EFFECT_WindCutter(White)01.bmp 48 Storm.wav
+凍鏡絢爛陣(命中), クリティカル斬撃
+轟嵐冷爪斬(攻撃), 吹雪
+轟嵐冷爪斬(命中), 竜巻 白
+奥義・凍鏡微塵散華(攻撃), 吹雪
+奥義・凍鏡微塵散華(命中), -
+
+百夜(無限のフロンティア)
+連雷(攻撃), ショックビーム 青 Thunderbolt.wav
+連雷(命中), ショックビーム 青
+豪炎(攻撃), 振り上げ大炎斬撃 Fire.wav
+豪炎(命中), 連続爆発;炎 FlameThrower.wav
+獄炎(攻撃), ショックビーム 青 Thunderbolt.wav;1;振り上げ大炎斬撃 Fire.wav
+獄炎(命中), ショックビーム 青;1;連続爆発;炎 FlameThrower.wav
+
+ヴァナー＝ガンド
+グレイプ・ウィップ(準備), 鞭
+グレイプ・ウィップ(攻撃), 振り下ろし
+グレイプ・ウィップ(命中), 連打 Whip.wav;2;放電
+ヴォーン・ストリーム(攻撃), スーパータックル乱舞 赤
+ヴォーン・ストリーム(命中), スーパータックル乱舞 赤 FightHit(1).wav
+アンチェイン・ストライド(準備), 鞭
+アンチェイン・ストライド(攻撃), 振り下ろし;白兵武器
+アンチェイン・ストライド(命中), 連打 Whip.wav;1;@戦闘アニメ_タックル攻撃;1;_
+                                スーパータックル乱舞 赤 FightHit(1).wav;2;大爆発
+
+ヘラ＝ガンド
+デッド・ソウル(準備), 光球集中 Charge.wav
+デッド・ソウル(攻撃), 実弾発射 Magic\EFFECT_MCircle(orange)01.bmp 48 Whiz.wav;2;ＭＡＰ爆発
+デッド・ソウル(命中), 飛沫 橙 Explode.wav
+ヘル・スペル(攻撃), 火炎弾;1;氷弾;1;旋風
+ヘル・スペル(命中), 炎;飛沫 白;1;旋風
+ナグルファー・ボヤージ(攻撃), 魔法放射 白 中
+ナグルファー・ボヤージ(命中), 大光柱 Charge.wav;1;超爆発
+
+ジョーム＝ガンド
+グレイキャット・スラップ(準備), 大錨
+グレイキャット・スラップ(攻撃), 大錨
+グレイキャット・スラップ(命中), 石柱 Explode.wav;2;強打 Crash.wav
+ポイズン・ブレス(攻撃), 煙噴射 紫 Mist.wav
+ポイズン・ブレス(命中), 煙 紫
+ゴッド・マーダー(攻撃), アッパー;タックル
+ゴッド・マーダー(命中), 岩柱;1;超打 Crash.wav;3;@戦闘アニメ_煙噴射攻撃 紫 Mist.wav;煙 紫
+
+リグ＝ザ＝ガード
+ガーディアン・ナックル(攻撃), 連打;振り上げ
+ガーディアン・ナックル(命中), 連打
+グルトップ・フォワード(攻撃), 中ビーム 赤 AntiAirMissile.wav
+グルトップ・フォワード(命中), 中ビーム 赤
+シュラ・ナックル(攻撃), 振り上げ;1;打撃突撃
+シュラ・ナックル(命中), 打撃突撃
+ギャラー・ホーン(攻撃), 連打
+ギャラー・ホーン(命中), -
+
+ヒルド＝ブラン
+フィンダル・ファイア(攻撃), 小ビーム 白
+フィンダル・ファイア(命中), 小ビーム 白 Whiz.wav;オーラ上昇 白
+シュナーベル・ソード(準備), ビームサーベル 白
+シュナーベル・ソード(攻撃), 斬撃;アッパー
+シュナーベル・ソード(命中), ビームサーベル 白 Slash.wav
+アンドヴァラー・ブラスト(攻撃), 中ビーム 白 BeamGun.wav
+アンドヴァラー・ブラスト(命中), 中ビーム 白
+フェーダー・ストーム(攻撃), 中ビーム 白 BeamGun.wav
+フェーダー・ストーム(命中), -
+
+ロック＝アイ
+トリック・スターズ(攻撃), ニードルレーザー連射 白
+トリック・スターズ(命中), ニードルレーザー連射 白
+スライ・ツイスター, 旋風
+ダーティ・インサルト(攻撃), 魔法陣 赤 BeamSaber.wav
+ダーティ・インサルト(命中), 連続爆発 赤 5
+ラグナ・ロック(攻撃), ＭＡＰフラッシュ AntiShipMissile.wav
+ラグナ・ロック(命中), 光大噴出 BeamGun.wav
+プリズナーズ・ベノム(攻撃), 光圧縮 黄 BeamCoat.wav
+プリズナーズ・ベノム(命中), -
+
+ガグン＝ラウズ
+リニアミサイルランチャー, ホーミングミサイル MicroMissile.wav
+ヘビー・マシンキャノン, 重機関砲
+ヴェセル・スライサー(準備), 中心回転武器 Weapon\EFFECT_TwinBlade01.bmp 64
+ヴェセル・スライサー(攻撃), 振り回し Weapon\EFFECT_TwinBlade01.bmp 64;なぎ払い
+ヴェセル・スライサー(命中), クリティカル斬撃 Slash(4).wav
+シャイニング・クラウズ(準備), 中心回転武器 Weapon\EFFECT_TwinBlade01.bmp 64
+シャイニング・クラウズ(攻撃), 振り回し Weapon\EFFECT_TwinBlade01.bmp 64
+シャイニング・クラウズ(命中), -
+
+スヴァイサー(無限のフロンティア)
+ゴールド・バングル(攻撃), マシンキャノン 青 FastGun.wav
+ゴールド・バングル(命中), マシンキャノン 青 FastGun.wav;連続爆発
+ブレード・インフェルノ(攻撃), ヘッドバット;大炎斬撃 白 Swing(2).wav
+ブレード・インフェルノ(命中), クリティカル斬撃 Slash(4).wav
+ディバイン・ドリラー(準備), 突く武器転送 Weapon\EFFECT_DrillSpear01.bmp 64
+ディバイン・ドリラー(攻撃), ドリルスピア
+ディバイン・ドリラー(命中), ドリルスピア Crash.wav
+星穿の神槍(準備), 突く武器転送 Weapon\EFFECT_DrillSpear01.bmp 64
+星穿の神槍(攻撃), ドリルスピア突撃 Roar.wav
+星穿の神槍(命中), ドリルスピア Crash.wav;1;旋風 Drill.wav;旋風

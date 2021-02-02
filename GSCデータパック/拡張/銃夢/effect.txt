@@ -1,0 +1,30 @@
+
+銃夢
+ロケットハンマー, 1;Missile.wav
+ロケットハンマー(命中), 2;Explode(Small).wav
+ドックラッシュ, Dog.wav
+ドックラッシュ(命中), Stab.wav;2;Slash.wav
+水圧コンバーター, BeamSaber.wav
+機甲術(命中), 2;Combo.wav
+周破衝拳(命中), 2;FallDown.wav
+衛星旋破(命中), 2;Punch.wav
+飛角跳蹴(命中), 2;Punch.wav
+プラズマ, 2;BeamShot.wav
+プラズマ(命中), 2;Slash.wav
+ミサイルビー, BeamSaber.wav
+ミサイルビー(命中), 2;Explode.wav
+スパイディ(命中), 2;Explode.wav
+炎螻蛄, 2;BeamCoat.wav
+超伝導相転移砲, 2;Charge.wav;10;Rifle.wav
+アクセラレーター, Charge.wav
+ソニックブーム, Bow.wav
+ソニックブーム(命中), 2;Punch.wav
+白熱掌(命中), Fire.wav
+球電, BeamSaber.wav
+球電(命中), 2;Thunder.wav
+機関拳(命中), 2;Drill.wav
+アリゲータースナッパー(命中), Drill.wav;4;Cannon.wav
+サイドワインダー(命中), Drill.wav
+徹し(命中), FallDown.wav
+グラインドカッター(命中), Drill.wav
+

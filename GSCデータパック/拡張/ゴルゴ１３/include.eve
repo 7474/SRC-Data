@@ -1,0 +1,44 @@
+
+戦闘アニメ_G13_奇跡の狙撃:
+Center 相手ユニット
+Local BMP_FILE
+Local BMP_FILE2
+Local BMP_FILE3
+Set BMP_FILE Info(パイロット, 相手パイロット, グラフィック)
+Set BMP_FILE2 _GetBMPName(相手ユニットＩＤ)
+Set BMP_FILE3 _GetTileName(相手ユニットＩＤ)
+
+PaintPicture BMP_FILE - 190 128 128
+Refresh
+Wait 6
+PlaySound Explode(Small).wav
+PaintPicture BMP_FILE - 190 128 128 白黒
+FillStyle 塗りつぶし
+Color RGB(0,0,0)
+FillColor RGB(60,30,30)
+Circle 240 232 8 RGB(0,0,0)
+PaintPicture Hit\EFFECT_StrikeHit(Red)02.bmp - 220 32 32 透過
+Refresh
+Wait 1
+ClearPicture
+If BMP_FILE3 = "" then
+Else
+	PaintPicture BMP_FILE3 - - - -
+Endif
+PaintPicture BMP_FILE2 219 - 透過
+PaintPicture BMP_FILE 171 190 128 128 白黒
+FillColor RGB(120,30,30)
+Circle 235 232 8 RGB(0,0,0)
+PaintPicture Hit\EFFECT_StrikeHit(Red)03.bmp 214 202 48 48 透過
+Refresh
+Wait 1
+ClearPicture
+PaintPicture BMP_FILE - 190 128 128 白黒
+FillColor RGB(200,30,30)
+Circle 240 232 8 RGB(0,0,0)
+Refresh
+Wait 8
+ClearPicture
+Refresh
+Return
+

@@ -1,0 +1,288 @@
+
+スペースチャンネル５
+#
+## 共通
+#
+分身(踊り),                      分身 別名=踊り
+ダンス(攻撃),                    「UP！」;振り上げ
+ダンス(攻撃),                    「RIGHT！」;なぎ払い
+ダンス(攻撃),                    「LEFT！」;なぎ払い
+ダンス(攻撃),                    「DOWN！」;振り下ろし
+ダンス(攻撃),                    振り上げ
+ダンス(攻撃),                    なぎ払い
+ダンス(攻撃),                    振り下ろし
+ダンス(命中),                    音符
+ビーム(準備),                    銃撃武器 Weapon\EFFECT_SuperGun01.bmp 32
+ビーム(準備),                    銃撃武器 Weapon\EFFECT_SuperGun01.bmp 32 二丁拳銃
+ビーム(攻撃),                    「CHU！」;光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+ビーム(攻撃),                    「CHU！」;２連光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+ビーム(攻撃),                    光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+ビーム(攻撃),                    ２連光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+ビーム(命中),                    ダメージ 緑 Beam.wav
+#
+## 味方
+#
+攻撃ビーム(準備),                銃撃武器 Weapon\EFFECT_SuperGun01.bmp 32
+攻撃ビーム(準備),                銃撃武器 Weapon\EFFECT_SuperGun01.bmp 32 二丁拳銃
+攻撃ビーム(攻撃),                「CHU！」;光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+攻撃ビーム(攻撃),                「CHU！」;２連光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+攻撃ビーム(攻撃),                光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+攻撃ビーム(攻撃),                ２連光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+攻撃ビーム(命中),                ダメージ 緑 Beam.wav
+デラックス攻撃ビーム(準備),      銃撃武器 Weapon\EFFECT_SuperGun01.bmp 32
+デラックス攻撃ビーム(準備),      銃撃武器 Weapon\EFFECT_SuperGun01.bmp 32 二丁拳銃
+デラックス攻撃ビーム(攻撃),      「CHU！」;リングビームガン AI.wav 緑
+デラックス攻撃ビーム(攻撃),      「CHU！」;２連リングビームガン AI.wav 緑
+デラックス攻撃ビーム(攻撃),      リングビームガン AI.wav 緑
+デラックス攻撃ビーム(攻撃),      ２連リングビームガン AI.wav 緑
+デラックス攻撃ビーム(命中),      光噴出 緑 AI.wav
+チャージ攻撃ビーム(準備),        粒子集中 桃
+チャージ攻撃ビーム(攻撃),        「CHU！」;光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+チャージ攻撃ビーム(攻撃),        「CHU！」;光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav;光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+チャージ攻撃ビーム(攻撃),        光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+チャージ攻撃ビーム(攻撃),        光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav;光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+チャージ攻撃ビーム(攻撃),        ２連光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+チャージ攻撃ビーム(命中),        ダメージ 緑 Beam.wav
+うららダンス(準備),              -
+うららダンス(攻撃),              1;「UP！」;振り上げ;1;「UP！ RIGHT！」;なぎ払い;1;「UP！ RIGHT！ LEFT！」;なぎ払い;1;「UP！ RIGHT！ LEFT！ DOWN！」;振り下ろし;_
+                                 1;「UP！ RIGHT！ LEFT！ DOWN！ CHU！」;光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav;1;「UP！ RIGHT！ LEFT！ DOWN！ CHU！ CHU！」;光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav;_
+                                 1;「UP！ RIGHT！ LEFT！ DOWN！ CHU！ CHU！ CHU！」;光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+うららダンス(命中),              音符
+楽器バトル(攻撃),                楽器 Music\EFFECT_ElekiGuitar(LightBlue)02.bmp 32 Guitar.wav 対象ユニットＩＤ 音波
+楽器バトル(攻撃),                楽器 Music\EFFECT_DrumSet01.bmp 64 DrumRoll.wav 対象ユニットＩＤ 音波
+楽器バトル(攻撃),                楽器 Music\EFFECT_ShoulderKeyBoard(Pink)01.bmp 32 Sharara.wav 対象ユニットＩＤ 音波
+楽器バトル(命中),                音符
+黄金のスター(準備),              粒子集中 黄
+黄金のスター(攻撃),              1;「UP！」;振り上げ;1;「UP！ RIGHT！」;なぎ払い;1;「UP！ RIGHT！ LEFT！」;なぎ払い;1;「UP！ RIGHT！ LEFT！ DOWN！」;振り下ろし;_
+                                 1;「UP！ RIGHT！ LEFT！ DOWN！ CHU！」;光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav;1;「UP！ RIGHT！ LEFT！ DOWN！ CHU！ CHU！」;光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav;_
+                                 1;「UP！ RIGHT！ LEFT！ DOWN！ CHU！ CHU！ CHU！」;光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+黄金のスター(命中),              光圧縮 黄 Sharara.wav
+みんなの踊りエネルギー(準備),    光大噴出 青
+みんなの踊りエネルギー(攻撃),    「CHU！」;「CHU！ CHU！」;「CHU！ CHU！ CHU！」;巨大ビーム 青
+みんなの踊りエネルギー(命中),    巨大ビーム 青
+みんなの踊りエネルギー(とどめ),  決め文字 ⑤ 青 前面 相手ユニットＩＤ
+救出ビーム,                      光球集中 桃 AI.wav 対象ユニットＩＤ
+ムーンウォーク(攻撃),            スーパータックル
+ムーンウォーク(命中),            音符
+シャウト,                        音波
+ポゥ！(準備),                    楽器 Music\EFFECT_Microphone01.bmp 12
+ポゥ！(攻撃),                    楽器 Music\EFFECT_Microphone01.bmp 12 Bomb.wav 対象ユニットＩＤ 音波
+ポゥ！(命中),                    飛沫 青
+ビーム(Ｍ)(準備),                銃撃武器 Weapon\EFFECT_SFGun01.bmp 32
+ビーム(Ｍ)(準備),                銃撃武器 Weapon\EFFECT_SFGun01.bmp 32 二丁拳銃
+ビーム(Ｍ)(攻撃),                光弾銃 緑 Weapon\EFFECT_SFGun01.bmp 32 Beam.wav
+ビーム(Ｍ)(攻撃),                光弾銃 緑 Weapon\EFFECT_SFGun01.bmp 32 Beam.wav;光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+ビーム(Ｍ)(攻撃),                ２連光弾銃 緑 Weapon\EFFECT_SFGun01.bmp 32 Beam.wav
+ビーム(Ｍ)(命中),                ダメージ 緑 Beam.wav
+ビーム(ＡＢ)(攻撃),              光弾 青 Beam.wav
+ビーム(ＡＢ)(命中),              ダメージ 青 Beam.wav
+踊りエネルギー砲(準備),          光大噴出 青 partner(1);光大噴出 青 partner(2);粒子集中 青 partner(3)
+踊りエネルギー砲(攻撃),          実弾発射 Bullet\EFFECT_AuraBall01.bmp 32 BeamGun.wav 発光
+踊りエネルギー砲(命中),          強打 Crash.wav
+Ｊビーム(準備),                  銃撃武器 Weapon\EFFECT_SuperGun01.bmp 32
+Ｊビーム(攻撃),                  「CHU！」;光弾銃 橙 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+Ｊビーム(攻撃),                  光弾銃 橙 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+Ｊビーム(命中),                  決め文字 Ｊ 橙 Explode.wav 前面 相手ユニットＩＤ
+ジャガーダンス(攻撃),            1;「UP！」;振り上げ;1;「UP！　CHU！」;光弾銃 橙 Weapon\EFFECT_SFGun01.bmp 32 Beam.wav;2;「UP！ CHU！ CHUCHU！」;光弾銃 橙 Weapon\EFFECT_SFGun01.bmp 32 Beam.wav;1;光弾銃 橙 Weapon\EFFECT_SFGun01.bmp 32 Beam.wav;_
+                                 1;「UP！ CHU！ CHUCHU！ RIGHT！」;なぎ払い;3;「UP！ CHU！ CHUCHU！ RIGHT！ LEFT！」;なぎ払い;3;「UP！ CHU！ CHUCHU！ RIGHT！ LEFT！ DOWN！」;振り下ろし;_
+                                 5;「UP！ CHU！ CHUCHU！ RIGHT！ LEFT！ DOWN！ DADA」;振り下ろし;振り下ろし;2;「UP！ CHU！ CHUCHU！ RIGHT！ LEFT！ DOWN！ DADADOWN！」;振り下ろし
+ジャガーダンス(命中),            光圧縮 黒 Inori.wav
+ビーム(ＢＴ),                    ホーミングレーザー 青
+ギター(準備),                    楽器 Music\EFFECT_ElekiGuitar(Purple)02.bmp 32 対象ユニットＩＤ
+ギター(攻撃),                    楽器 Music\EFFECT_ElekiGuitar(Purple)02.bmp 32 Guitar.wav 対象ユニットＩＤ 音波
+ギター(命中),                    音符
+ドラム(準備),                    楽器 Music\EFFECT_DrumSet01.bmp 64 対象ユニットＩＤ
+ドラム(攻撃),                    楽器 Music\EFFECT_DrumSet01.bmp 64 DrumRoll.wav 対象ユニットＩＤ 音波
+ドラム(命中),                    音符
+ミサイル,                        小型ミサイル 4 遅
+パインミサイル,                  ミサイル 2 遅
+ビーム(ＰＧ)(準備),              -
+ビーム(ＰＧ)(攻撃),              「CHU！」;魔法放射 赤 Charge.wav 中
+ビーム(ＰＧ)(攻撃),              「ヘイ！」;魔法放射 青 Charge.wav 中
+ビーム(ＰＧ)(攻撃),              魔法放射 赤 Charge.wav 中
+ビーム(ＰＧ)(攻撃),              魔法放射 青 Charge.wav 中
+ビーム(ＰＧ)(命中),              大ビーム 青
+巨大パインミサイル,              スーパーミサイル 遅
+#
+## 敵
+#
+躍らせビーム(準備),              銃撃武器 Weapon\EFFECT_SuperGun01.bmp 32
+躍らせビーム(攻撃),              「CHU！」;リングビームガン Weapon\EFFECT_SuperGun01.bmp 32 緑
+躍らせビーム(攻撃),              「CHU！」;リングビームガン Weapon\EFFECT_SuperGun01.bmp 32 黄
+躍らせビーム(攻撃),              リングビームガン Weapon\EFFECT_SuperGun01.bmp 32 緑
+躍らせビーム(攻撃),              リングビームガン Weapon\EFFECT_SuperGun01.bmp 32 黄
+躍らせビーム(命中),              リングビーム 緑
+躍らせビーム(命中),              リングビーム 黄
+デラックス躍らせビーム(準備),    銃撃武器 Weapon\EFFECT_SuperGun01.bmp 32 二丁拳銃
+デラックス躍らせビーム(攻撃),    「CHU！」;２連リングビームガン Weapon\EFFECT_SuperGun01.bmp 32 緑;２連リングビームガン Weapon\EFFECT_SuperGun01.bmp 32 黄
+デラックス躍らせビーム(攻撃),    ２連リングビームガン Weapon\EFFECT_SuperGun01.bmp 32 緑;２連リングビームガン Weapon\EFFECT_SuperGun01.bmp 32 黄
+デラックス躍らせビーム(命中),    ２連リングビーム 緑;２連リングビーム 黄
+パンチ(攻撃),                    打突
+パンチ(命中),                    超打
+隕石型躍らせミサイル,            隕石
+洗脳放送(準備),                  -
+洗脳放送(攻撃),                  「UP！」;振り上げ;「UP！ CHU！」;フラッシュ 黒 Beam.wav 対象ユニットＩＤ
+洗脳放送(攻撃),                  「RIGHT！」;なぎ払い;「RIGHT！ CHU！」;フラッシュ 黒 Beam.wav 対象ユニットＩＤ
+洗脳放送(攻撃),                  「LEFT！」;なぎ払い;「LEFT！ CHU！」;フラッシュ 黒 Beam.wav 対象ユニットＩＤ
+洗脳放送(攻撃),                  「DOWN！」;振り下ろし;「DOWN！ CHU！」;フラッシュ 黒 Beam.wav 対象ユニットＩＤ
+洗脳放送(命中),                  重力圧縮
+
+
+
+モロ星人
+#
+## 共通
+#
+分身(踊り),                      分身 別名=踊り
+ダンス(攻撃),                    「<I>UP！</I>」;振り上げ
+ダンス(攻撃),                    「<I>RIGHT！</I>」;なぎ払い
+ダンス(攻撃),                    「<I>LEFT！</I>」;なぎ払い
+ダンス(攻撃),                    「<I>DOWN！</I>」;振り下ろし
+ダンス(攻撃),                    振り上げ
+ダンス(攻撃),                    なぎ払い
+ダンス(攻撃),                    振り下ろし
+ダンス(命中),                    音符
+躍らせビーム(準備),              ショックビームガン
+躍らせビーム(攻撃),              「<I>CHU！</I>」;リングビームガン Weapon\EFFECT_ShockBeamGun01.bmp 32 緑
+躍らせビーム(攻撃),              「<I>CHU！</I>」;リングビームガン Weapon\EFFECT_ShockBeamGun01.bmp 32 黄
+躍らせビーム(攻撃),              リングビームガン Weapon\EFFECT_ShockBeamGun01.bmp 32 緑
+躍らせビーム(攻撃),              リングビームガン Weapon\EFFECT_ShockBeamGun01.bmp 32 黄
+躍らせビーム(命中),              リングビーム 緑
+躍らせビーム(命中),              リングビーム 黄
+#
+## ボスモロ星人
+#
+ビーム(準備),                    銃撃武器 Weapon\EFFECT_SuperGun01.bmp 32
+ビーム(準備),                    銃撃武器 Weapon\EFFECT_SuperGun01.bmp 32 二丁拳銃
+ビーム(攻撃),                    「<I>CHU！</I>」;光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+ビーム(攻撃),                    「<I>CHU！</I>」;２連光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+ビーム(攻撃),                    光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+ビーム(攻撃),                    ２連光弾銃 緑 Weapon\EFFECT_SuperGun01.bmp 32 Beam.wav
+ビーム(命中),                    ダメージ 緑 Beam.wav
+歌(攻撃),                        音波 Bubble.wav 対象ユニットＩＤ
+歌(命中),                        音符
+楽器ビト『タイコマン』,          変形 Unit\SC5_TaikoManU.bmp Whiz.wav 対象ユニットＩＤ;@ＳＰアニメ_鼓舞 対象パイロット
+#
+## 侵略舞踏メカ
+#
+躍らせビーム(Ｂ),                大リングビーム 緑
+イエローサブモロン(準備),        しもべ Unit\SC5_YellowSubmoronU.bmp 32
+イエローサブモロン(攻撃),        実弾発射 Unit\SC5_YellowSubmoronU.bmp 32 Whiz.wav;実弾発射 Unit\SC5_YellowSubmoronU.bmp 32 Whiz.wav;実弾発射 Unit\SC5_YellowSubmoronU.bmp 32 Whiz.wav
+イエローサブモロン(命中),        拡散ビーム 黄
+巨大ビーム,                      大ビーム 黄
+ビーム(Ｙ),                      ビーム 黄
+舌,                              舌
+触手,                            多触手 桃
+洗脳ＴＶ,                        妖精
+
+
+
+踊り団
+#
+## 共通
+#
+分身(踊り),                      分身 別名=踊り
+ダンス(攻撃),                    「<B><I>UP！</I></B>」;振り上げ
+ダンス(攻撃),                    「<B><I>RIGHT！</I></B>」;なぎ払い
+ダンス(攻撃),                    「<B><I>LEFT！</I></B>」;なぎ払い
+ダンス(攻撃),                    「<B><I>DOWN！</I></B>」;振り下ろし
+ダンス(攻撃),                    振り上げ
+ダンス(攻撃),                    なぎ払い
+ダンス(攻撃),                    振り下ろし
+ダンス(命中),                    音符
+ダンス(Ｎ)(攻撃),                「UP！」;振り上げ
+ダンス(Ｎ)(攻撃),                「RIGHT！」;なぎ払い
+ダンス(Ｎ)(攻撃),                「LEFT！」;なぎ払い
+ダンス(Ｎ)(攻撃),                「DOWN！」;振り下ろし
+ダンス(Ｎ)(攻撃),                振り上げ
+ダンス(Ｎ)(攻撃),                なぎ払い
+ダンス(Ｎ)(攻撃),                振り下ろし
+ダンス(Ｎ)(命中),                音符
+踊り電波ビーム,                  「<B><I>CHU！</I></B>」;ショックビーム
+踊り電波ビーム,                  ショックビーム
+体当たり,                        タックル
+楽器演奏(準備),                  楽器 Music\EFFECT_ElekiBass(Black)02.bmp 32 対象ユニットＩＤ
+楽器演奏(攻撃),                  楽器 Music\EFFECT_ElekiBass(Black)02.bmp 32 Guitar.wav 対象ユニットＩＤ 音波
+楽器演奏(命中),                  飛沫 赤
+踊り電波ビーム(Ｐ),              ２連リングビーム
+#
+## ボス
+#
+歌謡ダンス(準備),                楽器 Music\EFFECT_MicStand01.bmp 36
+歌謡ダンス(攻撃),                「「「<B><I>UP！</I></B>」」」;振り上げ
+歌謡ダンス(攻撃),                「「「<B><I>RIGHT！</I></B>」」」;なぎ払い
+歌謡ダンス(攻撃),                「「「<B><I>LEFT！</I></B>」」」;なぎ払い
+歌謡ダンス(攻撃),                「「「<B><I>DOWN！</I></B>」」」;振り下ろし
+歌謡ダンス(攻撃),                振り上げ
+歌謡ダンス(攻撃),                なぎ払い
+歌謡ダンス(攻撃),                振り下ろし
+歌謡ダンス(命中),                音符
+ビーム(攻撃),                    光弾 緑
+ビーム(命中),                    飛沫 緑
+暴れビーム(攻撃),                1;「LEFT LEFT LEFT！」;なぎ払い;なぎ払い;なぎ払い;1;「LEFT LEFT LEFT！」「RIGHT RIGHT RIGHT！」;なぎ払い;なぎ払い;なぎ払い;_
+                                 1;「LEFT LEFT LEFT！」「RIGHT RIGHT RIGHT！」「UPUPUP！」;振り上げ;振り上げ;振り上げ;1;「「「CHU！！！」」」;ビームショットキャノン 緑
+暴れビーム(攻撃),                白兵乱舞;ビームショットキャノン 緑
+暴れビーム(命中),                ビームショットキャノン 緑
+ツタ,                            触手
+木の実爆弾,                      気弾 緑
+花手裏剣(攻撃),                  手裏剣
+花手裏剣(攻撃),                  「<B>シュリケン　シュシュシュ！</B>」;手裏剣
+花手裏剣(命中),                  刺突
+ワルツ(攻撃),                    バック転
+ワルツ(攻撃),                    スピンキック
+ワルツ(攻撃),                    回転斬撃
+ワルツ(命中),                    音符
+シャドービーム(攻撃),            光弾 青 Beam.wav
+シャドービーム(命中),            ダメージ 青 Beam.wav
+シャドーダンス(攻撃),            「UP！」;振り上げ;1;「UP！　CHU！」;光弾銃 橙 Weapon\EFFECT_SFGun01.bmp 32 Beam.wav;2;「UP！ CHU！ CHUCHU！」;光弾銃 橙 Weapon\EFFECT_SFGun01.bmp 32 Beam.wav;1;光弾銃 橙 Weapon\EFFECT_SFGun01.bmp 32 Beam.wav;1;_
+                                 「UP！ CHU！ CHUCHU！ RIGHT！」;なぎ払い;3;「UP！ CHU！ CHUCHU！ RIGHT！ LEFT！」;なぎ払い;3;「UP！ CHU！ CHUCHU！ RIGHT！ LEFT！ DOWN！」;振り下ろし;5;_
+                                 「UP！ CHU！ CHUCHU！ RIGHT！ LEFT！ DOWN！ DADA」;振り下ろし;振り下ろし;2;「UP！ CHU！ CHUCHU！ RIGHT！ LEFT！ DOWN！ DADADOWN！」;振り下ろし
+シャドーダンス(命中),            光圧縮 黒 Inori.wav
+歌(準備),                        楽器 Music\EFFECT_Microphone01.bmp 12
+歌(攻撃),                        楽器 Music\EFFECT_Microphone01.bmp 12 Bubble.wav 対象ユニットＩＤ 音波
+歌(命中),                        音符
+ドラム(準備),                    楽器 Music\EFFECT_DrumSet01.bmp 64 対象ユニットＩＤ
+ドラム(攻撃),                    楽器 Music\EFFECT_DrumSet01.bmp 64 DrumRoll.wav 対象ユニットＩＤ 音波
+ドラム(命中),                    音符
+シャウト,                        音波
+ギター(準備),                    楽器 Music\EFFECT_ElekiGuitar(Black)02.bmp 32 対象ユニットＩＤ
+ギター(攻撃),                    楽器 Music\EFFECT_ElekiGuitar(Black)02.bmp 32 Guitar.wav 対象ユニットＩＤ 音波
+ギター(命中),                    音符
+ピアノ(準備),                    楽器 Music\EFFECT_ShoulderKeyBoard(Black)01.bmp 32 対象ユニットＩＤ
+ピアノ(攻撃),                    楽器 Music\EFFECT_ShoulderKeyBoard(Black)01.bmp 32 Sharara.wav対象ユニットＩＤ 音波
+ピアノ(命中),                    音符
+バンド対決(準備),                楽器 Music\EFFECT_Microphone01.bmp 12;楽器 Music\EFFECT_DrumSet01.bmp 64 対象ユニットＩＤ;楽器 Music\EFFECT_ElekiGuitar(Black)02.bmp 32 対象ユニットＩＤ;楽器 Music\EFFECT_ShoulderKeyBoard(Black)01.bmp 32 対象ユニットＩＤ
+バンド対決(攻撃),                音波 AntiAirMissile.wav
+バンド対決(攻撃),                楽器 Music\EFFECT_DrumSet01.bmp 64 DrumRoll.wav 対象ユニットＩＤ 音波
+バンド対決(攻撃),                楽器 Music\EFFECT_Microphone01.bmp 12 Inori.wav 対象ユニットＩＤ 音波
+バンド対決(攻撃),                楽器 Music\EFFECT_ElekiGuitar(Black).bmp 32 Guitar.wav 対象ユニットＩＤ 音波
+バンド対決(攻撃),                楽器 Music\EFFECT_ShoulderKeyBoard(Black)01.bmp 32 Sharara.wav 対象ユニットＩＤ 音波
+バンド対決(命中),                飛沫 黒;飛沫 黒;飛沫 黒
+ダンスソング(攻撃),             「UP！」;振り上げ;２連リングビーム 緑
+ダンスソング(攻撃),             「RIGHT！」;なぎ払い;２連リングビーム 緑
+ダンスソング(攻撃),             「LEFT！」;なぎ払い;２連リングビーム 緑
+ダンスソング(攻撃),             「DOWN！」;振り下ろし;２連リングビーム 緑
+ダンスソング(攻撃),              振り上げ;２連リングビーム 緑
+ダンスソング(攻撃),              なぎ払い;２連リングビーム 緑
+ダンスソング(攻撃),              振り下ろし;２連リングビーム 緑
+ダンスソング(命中),              ２連リングビーム Sharara.wav
+エネルギー弾(攻撃),              光弾 青 Beam.wav
+エネルギー弾(命中),              ダメージ 青 Beam.wav
+踊り＆歌謡エネルギー(準備),      発光 桃
+踊り＆歌謡エネルギー(攻撃),      「ラ～ラ～ララ～！」;フラッシュ 桃 Sharara.wav
+踊り＆歌謡エネルギー(攻撃),      「ラ～ラ～ラララ～！」;フラッシュ 桃 Sharara.wav
+踊り＆歌謡エネルギー(攻撃),      「ララララララ～！」;フラッシュ 桃 Sharara.wav
+踊り＆歌謡エネルギー(攻撃),      「ラ～ララララ～！」;フラッシュ 桃 Sharara.wav
+踊り＆歌謡エネルギー(攻撃),      「ラ！ ラ！ ラ！」;フラッシュ 桃 Sharara.wav
+踊り＆歌謡エネルギー(命中),      光圧縮 桃 Sharara.wav
+踊り電波砲試射(攻撃),            「CHU！」;超ビーム 紫 チャージなし;ＭＡＰフラッシュ 紫 Explode(High).wav
+踊り電波砲試射(命中),            大爆発
+踊り電波砲(準備),                光球集中 紫
+踊り電波砲(攻撃),                「CHU！ CHU！！ CHU！！！」;巨大ビーム 紫 チャージなし;ＭＡＰフラッシュ 紫 Explode(High).wav
+踊り電波砲(命中),                超爆発
+
+
+
+汎用
+分身(踊り),                  分身 別名=踊り
+救出ビーム,                  光球集中 桃 AI.wav 対象ユニットＩＤ

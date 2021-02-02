@@ -1,0 +1,49 @@
+#丸投げデータパックの汎用銃器アイコンに対応しています。
+#シナリオで使用する場合は、ローカルBitmapフォルダ内にAnimeフォルダを作成し、
+#さらにその内部にWeaponフォルダを作成後、本データで指定しているBitmapファイルを
+#Weaponフォルダに格納して下さい。
+
+十字傷の戦士
+中国拳法(準備), -
+中国拳法(攻撃), 連打;突く武器突撃 Hand\EFFECT_Punch(Black)01.bmp 32
+中国拳法(命中), 連打;強打 Bazooka.wav
+クロムウェル(準備), 振る武器 Hand\EFFECT_Punch(Black)01.bmp 32 wind(2).wav
+クロムウェル(攻撃), 旋風
+クロムウェル(命中), 円弧斬撃 ライトブルー drill(2).wav
+ミネルヴァ最大出力(準備), 振る武器 Hand\EFFECT_Punch(White)01.bmp 32 Thunderbolt.wav;放電 Thunderbolt.wav
+ミネルヴァ最大出力(攻撃), スーパーパンチ 白
+ミネルヴァ最大出力(命中), スーパーパンチ 白 Bazooka.wav
+Vz61スコーピオン, サブマシンガン Weapon\EFFECT_RWG_CZ_Vz61.bmp 32
+パイソン357マグナム, リボルバー Weapon\EFFECT_RWG_COLT_COMBATPYTHON.bmp 34
+M16-A2, マシンガン Weapon\EFFECT_RWG_COLT_M16A2.bmp 50
+無音殺人術(準備), -
+無音殺人術(攻撃), 透明化 解除
+無音殺人術(命中), 立ち固め -.wav;刺突 -.wav
+M72対戦車ロケット(準備), バズーカ
+M72対戦車ロケット(攻撃), グレネード
+M72対戦車ロケット(命中), 爆発
+トラップ起爆(MAP), ＭＡＰ大爆発
+トラップ起爆(準備), -
+トラップ起爆(攻撃), 連続爆発
+トラップ起爆(命中), 炎の壁
+レイブン部隊(準備), -
+レイブン部隊(攻撃), スーパータックル乱舞 緑
+レイブン部隊(命中), スーパータックル乱舞 緑 Swing(2).wav
+狙撃部隊(準備), -
+狙撃部隊(攻撃), -
+狙撃部隊(準備), 銃弾
+カラシニコフAK47, マシンガン Weapon\EFFECT_RWG_AK47.bmp 40
+グルカナイフ, ククリ
+曲刀, シミター
+USSRドラグノフ, スナイパーライフル２
+レミントンM700, スナイパーライフル２
+ショーテル, ショーテル突撃 二刀流
+
+闇のイージス
+COLT Mk-Ⅳ/SERIES70, ピストル Weapon\EFFECT_RWG_COLT_GOVERNMENT.bmp 32
+グロック17, ピストル Weapon\EFFECT_RWG_Glock17.bmp 32
+FN P90, マシンガン Weapon\EFFECT_RWG_FN_P90.bmp 40
+STEYR AUG, マシンガン Weapon\EFFECT_RWG_STEYR_AUG.bmp 40
+FIM92スティンガー(準備), バズーカ Weapon\EFFECT_RWG_FIM92Stinger.bmp 48
+FIM92スティンガー(攻撃), ミサイル
+FIM92スティンガー(命中), 爆発

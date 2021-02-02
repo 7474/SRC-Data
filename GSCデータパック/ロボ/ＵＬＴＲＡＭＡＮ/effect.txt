@@ -1,0 +1,31 @@
+
+ウルトラマン
+ラムダスラッシャー(攻撃), Beam.wav
+ラムダスラッシャー(命中), Slash.wav
+ラムダスラッシャー(Ｊ)(攻撃), Beam.wav;Beam.wav
+ラムダスラッシャー(Ｊ)(命中), Slash.wav;Slash.wav
+エルボーブレード(攻撃), Swing.wav
+エルボーブレード(命中), Slash.wav
+ストラトスエッジ(攻撃), Swing.wav
+ストラトスエッジ(命中), Slash.wav
+ウルトラファイト, BreakOff.wav
+ウルトラファイト(命中), Explode(Small).wav
+エボルレイシュトローム(準備), Thunder.wav
+エボルレイシュトローム(攻撃), LaserGun.wav
+エボルレイシュトローム(命中), LaserGun.wav;Shore.wav
+
+怪獣
+爪(命中), Slash.wav
+尻尾(攻撃), Swing.wav
+尻尾(命中), Whip.wav
+噛み付き(命中), UnitOn.wav
+超絶火炎光弾(準備), Charge.wav
+超絶火炎光弾(攻撃), Bazooka.wav
+超絶火炎光弾(命中), Explode.wav
+伸腕(攻撃), Beam.wav
+
+防衛チーム
+格闘(攻撃), Swing.wav
+20mmバルカン(攻撃), Machingun.wav
+空対空赤外線ミサイル(攻撃), Missile.wav
+空対空赤外線ミサイル(命中), Explode.wav

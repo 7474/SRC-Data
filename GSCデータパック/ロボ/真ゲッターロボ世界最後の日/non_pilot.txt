@@ -1,0 +1,183 @@
+
+##新ゲッターチーム
+
+ゴウ(チェンジ)(攻撃)
+ゴウ, GETCH_Go(A).bmp
+
+ゴウ(チェンジ)(カプセル)
+ゴウ, GETCH_Go(Capsle).bmp
+
+ゴウ(チェンジ)(笑い)
+ゴウ, GETCH_Go(S).bmp
+
+
+ケイ(チェンジ)(攻撃)
+ケイ, GETCH_Kei(A).bmp
+
+
+ガイ(チェンジ)(攻撃)
+ガイ, GETCH_Gai(A).bmp
+
+ガイ(チェンジ)(キレ)
+ガイ, GETCH_Gai(C).bmp
+
+ガイ(チェンジ)(ダメージ)
+ガイ, GETCH_Gai(D).bmp
+
+
+##旧ゲッターチーム
+
+流竜馬(チェンジ)(攻撃)
+竜馬, GETCH_NagareRyoma(A).bmp
+竜馬(チェンジ)(攻撃)
+竜馬, GETCH_NagareRyoma(A).bmp
+
+流竜馬(チェンジ)(ダメージ)
+竜馬, GETCH_NagareRyoma(D).bmp
+竜馬(チェンジ)(ダメージ)
+竜馬, GETCH_NagareRyoma(D).bmp
+
+流竜馬(チェンジ)(ストナー)
+竜馬, GETCH_NagareRyoma(ST).bmp
+竜馬(チェンジ)(ストナー)
+竜馬, GETCH_NagareRyoma(ST).bmp
+
+
+神隼人(チェンジ)
+隼人, GETCH_JinHayato.bmp
+隼人(チェンジ)
+隼人, GETCH_JinHayato.bmp
+
+神隼人(チェンジ)(攻撃)
+隼人, GETCH_JinHayato(A).bmp
+隼人(チェンジ)(攻撃)
+隼人, GETCH_JinHayato(A).bmp
+
+神隼人(チェンジ)(笑い)
+隼人, GETCH_JinHayato(C).bmp
+隼人(チェンジ)(笑い)
+隼人, GETCH_JinHayato(C).bmp
+
+神隼人(チェンジ)(若)(攻撃)
+隼人, GETCH_JinHayato(A)(2).bmp
+隼人(チェンジ)(若)(攻撃)
+隼人, GETCH_JinHayato(A)(2).bmp
+
+
+車弁慶(チェンジ)(攻撃)
+弁慶, GETCH_KurumaBenkei(A).bmp
+弁慶(チェンジ)(攻撃)
+弁慶, GETCH_KurumaBenkei(A).bmp
+
+車弁慶(チェンジ)(笑い)
+弁慶, GETCH_KurumaBenkei(S).bmp
+弁慶(チェンジ)(笑い)
+弁慶, GETCH_KurumaBenkei(S).bmp
+
+
+巴武蔵(チェンジ)(攻撃)
+武蔵, GETCH_TomoeMusashi(A).bmp
+武蔵(チェンジ)(攻撃)
+武蔵, GETCH_TomoeMusashi(A).bmp
+
+巴武蔵(チェンジ)(笑い)
+武蔵, GETCH_TomoeMusashi(S).bmp
+武蔵(チェンジ)(笑い)
+武蔵, GETCH_TomoeMusashi(S).bmp
+
+
+##チーム同時
+
+ゲッターチーム(チェンジ)(竜馬・隼人・弁慶)
+ゲッターチーム, GETCH_GetterTeam(1).bmp
+
+ゲッターチーム(チェンジ)(竜馬・ゴウ・隼人)
+ゲッターチーム, GETCH_GetterTeam(2).bmp
+
+ゲッターチーム(チェンジ)(ゴウ・ケイ・ガイ)
+ゲッターチーム, GETCH_GetterTeam(3).bmp
+
+
+##タワー隊員
+
+神隼人(チェンジ)
+隼人, GETCH_JinHayato.bmp
+隼人(チェンジ)
+隼人, GETCH_JinHayato.bmp
+
+
+ヤマザキ(チェンジ)
+ヤマザキ, GETCH_Yamazaki.bmp
+
+
+敷島博士(チェンジ)
+敷島博士, PrShikishima.bmp
+
+
+チバ隊員(チェンジ)
+チバ, GETCH_Tiba.bmp
+
+
+##その他
+
+古田(チェンジ)
+古田, GETCH_Furuta.bmp
+
+古田(チェンジ)(笑い)
+古田, GETCH_Furuta(S).bmp
+
+
+団六(チェンジ)
+団六, GETCH_Danroku.bmp
+
+
+##民間人
+
+早乙女元気(チェンジ)
+元気, GETCH_SaotomeGenki.bmp
+元気(チェンジ)
+元気, GETCH_SaotomeGenki.bmp
+
+早乙女元気(チェンジ)(攻撃)
+元気, GETCH_SaotomeGenki(A).bmp
+元気(チェンジ)(攻撃)
+元気, GETCH_SaotomeGenki(A).bmp
+
+
+早乙女ミチル(チェンジ)
+ミチル, GETCH_SaotomeMichiru.bmp
+ミチル(チェンジ)
+ミチル, GETCH_SaotomeMichiru.bmp
+
+早乙女ミチル(チェンジ)(狂気)
+ミチル, GETCH_SaotomeMichiru(C).bmp
+ミチル(チェンジ)(狂気)
+ミチル, GETCH_SaotomeMichiru(C).bmp
+
+
+###インベーダー
+
+##開発チーム
+
+早乙女博士(チェンジ)(攻撃)
+早乙女, GETCH_PrSaotome(A).bmp
+早乙女(チェンジ)(攻撃)
+早乙女, GETCH_PrSaotome(A).bmp
+
+
+ゴール(チェンジ)
+ゴール, GETCH_Goal.bmp
+
+ブライ(チェンジ)
+ブライ, GETCH_Bligh.bmp
+
+
+# 合体攻撃用
+
+兜甲児(カイザー)
+甲児, MZK_KabutoKouji.bmp
+
+
+剣鉄也(カイザー)
+鉄也, MZK_TurugiTetuya.bmp
+

@@ -1,0 +1,163 @@
+################################ 解説 ################################
+
+リムサリアの封印
+招魔の護符(解説), $(ユニット)は招魔の護符で攻撃をかけた。
+デビルアックス<投射>(解説), $(ユニット)はデビルアックスを天にかかげた。
+
+################################ ＳＥ ################################
+
+リムサリアの封印
+分身(霧のカード), 「霧よ、出でよ」;5;Swing.wav;Inori.wav
+分身(霧のカード), 「ちょっと、小細工させてもらうよ」;5;Swing.wav;Inori.wav
+分身(霧のカード), 「これで煙に巻けたらいいんだけど……」;5;Swing.wav;Inori.wav
+剛力虚脱, Charge(Silent).wav
+剛力虚脱(クリティカル), 3;Reload.wav;3;Reload.wav;3;Reload.wav;Reload.wav
+痛覚倍増, Charge(Silent).wav
+痛覚倍増(クリティカル), PowerDown.wav
+ドラゴンキラー(命中), 2;Swing.wav;Saber.wav
+水のカード, 3;Swing.wav;3;Acid.wav;3;Acid.wav;3;Acid.wav;Acid.wav
+水のカード(命中), 3;Splash.wav;3;Splash.wav;3;Splash.wav;Splash.wav
+火のカード, 3;Swing.wav;Fire.wav
+火のカード(命中), 8;Fire.wav;Fire.wav
+風のカード, 3;Swing.wav;Thunder.wav
+風のカード(命中), Thunder.wav
+土のカード, 3;Swing.wav;4;Cannon.wav;4;Cannon.wav;Cannon.wav
+土のカード(命中), 0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;_
+		0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;_
+		0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;Explode(Small).wav
+血のカード, 3;Swing.wav;Charge(Silent).wav
+血のカード(とどめ), Fire.wav
+招魔の護符, 4;Swing.wav;「降臨せよ、火炎魔人！！ 全ての災いを焼き尽くせ！！」;Fire(2).wav
+招魔の護符(対高回避率), 4;Swing.wav;3;Bird(2).wav;「え！ 誰だ？」;4;Charge.wav;Charge.wav
+招魔の護符(対高回避率), 4;Swing.wav;3;Bird(2).wav;「駄目だ！ こんな大事な時に！」;4;Charge.wav;Charge.wav
+招魔の護符(対弱点=火), 4;Swing.wav;「降臨せよ、火炎魔人！！ 全ての災いを焼き尽くせ！！」;Breath.wav
+招魔の護符(対弱点=風), 4;Swing.wav;「舞い降りよ、風の魔人！！ 天の雄叫びを走らせろ！！」;Thunder.wav
+招魔の護符(対弱点=雷), 4;Swing.wav;「舞い降りよ、風の魔人！！ 天の雄叫びを走らせろ！！」;Thunder.wav
+招魔の護符(対弱点=水), 4;Swing.wav;「水の魔女を今ここに召し抱えん！！.全ての災いを押し流したまえ！！」;3;Acid.wav;3;Acid.wav;3;Acid.wav;Acid.wav
+招魔の護符(対弱点=冷), 4;Swing.wav;「水の魔女を今ここに召し抱えん！！.全ての災いを押し流したまえ！！」;3;Acid.wav;3;Acid.wav;3;Acid.wav;Acid.wav
+招魔の護符(対弱点=地), 4;Swing.wav;「地の底より出でよ！ 土の魔人！！.大地の涙を敵に飛ばせ！！」;3;Cannon.wav;3;Cannon.wav;3;Cannon.wav;3;Cannon.wav;Cannon.wav
+招魔, 「降臨せよ、火炎魔人！！ 全ての災いを焼き尽くせ！！」;Breath.wav
+招魔(対弱点=火), 「降臨せよ、火炎魔人！！ 全ての災いを焼き尽くせ！！」;Breath.wav
+招魔(対弱点=風), 「舞い降りよ、風の魔人！！ 天の雄叫びを走らせろ！！」;Thunder.wav
+招魔(対弱点=雷), 「舞い降りよ、風の魔人！！ 天の雄叫びを走らせろ！！」;Thunder.wav
+招魔(対弱点=水), 「水の魔女を今ここに召し抱えん！！.全ての災いを押し流したまえ！！」;3;Acid.wav;3;Acid.wav;3;Acid.wav;Acid.wav
+招魔(対弱点=冷), 「水の魔女を今ここに召し抱えん！！.全ての災いを押し流したまえ！！」;3;Acid.wav;3;Acid.wav;3;Acid.wav;Acid.wav
+招魔(対弱点=地), 「地の底より出でよ！ 土の魔人！！.大地の涙を敵に飛ばせ！！」;3;Cannon.wav;3;Cannon.wav;3;Cannon.wav;3;Cannon.wav;Cannon.wav
+最強の剣(命中), 2;Swing.wav;Thunder.wav
+# 参考扱いでラストバトルのとどめ再現エフェクト。
+#最強の剣(とどめ), 「東に風、南に火、西に水、北に土、天地の全ての門よ」;「東に風、南に火、西に水、北に土、天地の全ての門よ、.閉じよ、闇の門！ 封印！！！」;_
+#		3;Swing.wav;10;Sword.wav;Interference.wav
+石呪破砕, 	10;Charge(Silent).wav;Glass.wav
+#プロテクション発動(旋風壁), Charge(Silent).wav
+感電縛, 4;Charge(Silent).wav;BeamSaber.wav
+#感電縛(クリティカル), BeamSaber.wav
+疾風陣, 1;Storm.wav;1;Storm.wav;1;Storm.wav;1;Storm.wav;1;Storm.wav;1;Storm.wav;1;Storm.wav;Storm.wav
+疾風陣(命中), 0.5;Storm.wav;0.5;Storm.wav;0.5;Storm.wav;Storm.wav
+真空かまいたち, Whiz.wav
+真空かまいたち(命中), Saber.wav
+雷撃, Charge.wav
+雷撃(命中), 10;Thunder.wav;BeamSaber.wav
+雷撃波, Charge.wav
+雷撃波(命中), 5;Thunder.wav;BeamSaber.wav
+雷断撃波, Thunder.wav
+雷断撃波(命中), Thunder.wav
+爆散死守, 8;Cannon.wav;8;Cannon.wav;8;Cannon.wav;10;Charge.wav;Explode(Far).wav
+軽身空, 5;Charge(Silent).wav;Wind.wav
+#プロテクション発動(炎熱壁), Charge(Silent).wav
+幻炎惑, 4;Charge(Silent).wav;Fire.wav
+#幻炎惑(クリティカル), Bubble.wav
+炎撃, Cannon.wav
+炎撃(命中), Fire.wav
+炎撃波, Cannon.wav
+炎撃波(命中), Fire.wav
+炎断撃波, Fire.wav
+炎断撃波(命中), 8;Fire.wav;Fire.wav
+死, Charge(Silent).wav
+死(とどめ), Fire.wav
+命炎活, 5;Charge(Silent).wav;1.2;Sharara.wav;1.2;Sharara.wav;1.2;Sharara.wav;Sharara.wav
+炎熱力, Charge(Silent).wav
+#プロテクション発動(水流壁), Charge(Silent).wav
+幻霧催眠, Charge(Silent).wav
+#幻霧催眠(クリティカル), 3;Bubble.wav;3;Bubble.wav;Bubble.wav
+#髪, Swing.wav
+#髪(命中), Saber.wav
+水撃, 5;Bubble.wav;Whiz.wav
+水撃(命中), Splash.wav
+水撃波, 3;Acid.wav;3;Acid.wav;3;Acid.wav;Acid.wav
+水撃波(命中), 3;Splash.wav;3;Splash.wav;3;Splash.wav;Splash.wav
+水断撃波, 3;Acid.wav;3;Acid.wav;3;Acid.wav;Acid.wav
+水断撃波(命中), 3;Splash.wav;3;Splash.wav;3;Splash.wav;Splash.wav
+活巡療癒, 5;Charge(Silent).wav;1.2;Sharara.wav;1.2;Sharara.wav;1.2;Sharara.wav;Sharara.wav
+水霧清浄, 5;Charge(Silent).wav;Sharara.wav
+麗流手, Charge(Silent).wav
+#プロテクション発動(水流壁), Charge(Silent).wav
+石質硬化, Charge(Silent).wav
+#石質硬化(クリティカル), Bubble.wav
+砕撃, Whiz.wav
+砕撃波, Cannon.wav
+砕撃波(命中), Explode.wav
+砕断撃波, 4;Cannon.wav;4;Cannon.wav;Cannon.wav
+砕断撃波(命中), 0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;_
+		0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;_
+		0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;Explode(Small).wav
+地裂割, 3;Bazooka.wav;FastGun.wav
+地裂割(命中), FastGun.wav
+鋼化防御, 5;Charge(Silent).wav;10;Charge.wav
+感電, Charge(Silent).wav;放電
+スタッフ(命中), 2;Swing.wav;Punch.wav
+空刃爆砕, 5;Thunder.wav;Whiz.wav
+空刃爆砕(命中), Explode(Small).wav
+真空氷斬, 5;Thunder.wav;5;Bubble.wav;Whiz.wav
+真空氷斬(命中), 4;Saber.wav;Saber.wav
+溶岩地獄, 3;Cannon.wav;3;Whiz.wav;5;Bubble.wav;Whiz.wav
+溶岩地獄(命中), Breath.wav
+氷炎竜巻, 3;Acid.wav;3;Acid.wav;3;Acid.wav;3;Acid.wav;3;Cannon.wav;3;Thunder.wav;8;Storm.wav;Breath.wav
+氷炎竜巻(命中), 8;Storm.wav;Breath.wav
+熱核爆裂, 3;Cannon.wav;3;Acid.wav;3;Acid.wav;3;Acid.wav;3;Acid.wav;Cannon.wav
+熱核爆裂(命中), 5;Charge.wav;Explode(Far).wav
+天地爆裂, 5;Thunder.wav;3;Acid.wav;3;Acid.wav;3;Acid.wav;3;Acid.wav;3;Cannon.wav;Fire.wav
+天地爆裂(命中), HyperExplode.wav
+残像幻惑, 0.5;Charge(Silent).wav;0.5;Charge(Silent).wav;0.5;Charge(Silent).wav;0.5;Charge(Silent).wav;0.5;Charge(Silent).wav;0.5;Charge(Silent).wav;Charge(Silent).wav
+#残像幻惑(クリティカル), Sharara.wav
+#メイス, Swing.wav
+#メイス(命中), Punch.wav
+火炎風車, 5;Thunder.wav;Cannon.wav
+火炎風車(命中), 0.5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;Breath.wav
+土龍水龍, 5;Whiz.wav;5;Bubble.wav;Whiz.wav
+土龍水龍(命中),	3;Splash.wav;3;Splash.wav;3;Splash.wav;Splash.wav
+氷炎斬, 5;Bubble.wav;3;Whiz.wav;Cannon.wav
+氷炎斬(命中), 3;Splash.wav;3;Slash.wav;Fire.wav
+溶岩嵐撃, 8;Thunder.wav;3;Cannon.wav;Cannon.wav
+溶岩嵐撃(命中), 5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;0.5;Breath.wav;Breath.wav
+治癒, 5;Charge(Silent).wav;1.2;Sharara.wav;1.2;Sharara.wav;1.2;Sharara.wav;Sharara.wav
+快癒, 5;Charge(Silent).wav;1.2;Sharara.wav;1.2;Sharara.wav;1.2;Sharara.wav;Sharara.wav
+治癒波光, 5;Charge(Silent).wav;1.2;Sharara.wav;1.2;Sharara.wav;1.2;Sharara.wav;Sharara.wav
+虚脱波光, Charge(Silent).wav
+虚脱波光(クリティカル), 3;Reload.wav;3;Reload.wav;3;Reload.wav;Reload.wav
+体質軟化, Charge(Silent).wav
+体質軟化(クリティカル), PowerDown.wav
+氷砕嵐撃, 5;Thunder.wav;3;Cannon.wav;3;Acid.wav;3;Acid.wav;3;Acid.wav;Acid.wav
+氷砕嵐撃(命中), Storm.wav
+ラグナロック(命中), 2;Swing.wav;Saber.wav
+硬直鈍化, Charge(Silent).wav
+#硬直鈍化(クリティカル), PowerDown.wav
+デビルアックス<投射>, 4;Cannon.wav;4;Cannon.wav;Cannon.wav
+デビルアックス<投射>(命中), 0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;_
+		0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;_
+		0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;0.5;Explode(Small).wav;Explode(Small).wav
+クロー, 2;Slash(4).wav;Slash(4).wav
+両腕, 1;Swing.wav;1;Swing.wav;Swing.wav
+両腕(命中), 1;BreakOff.wav;1;BreakOff.wav;BreakOff.wav
+四龍の牙, Whiz.wav
+四龍の牙(命中), 2;Whip.wav;Whip.wav
+死龍の牙, 	5;Swing.wav;5;Swing.wav;5;Swing.wav;5;Swing.wav
+死龍の牙(命中), 10;Combo.wav
+炎惑, 4;Charge(Silent).wav;Fire.wav
+#炎惑(クリティカル), Bubble.wav
+絶対治癒, 5;Charge(Silent).wav;1.2;Sharara.wav;1.2;Sharara.wav;1.2;Sharara.wav;Sharara.wav
+快癒波光, 5;Charge(Silent).wav;1.2;Sharara.wav;1.2;Sharara.wav;1.2;Sharara.wav;Sharara.wav
+眼光硬直, Charge(Silent).wav
+幻眠, Charge(Silent).wav
+#幻眠(クリティカル), 3;Bubble.wav;3;Bubble.wav;Bubble.wav
+視覚偽造, Charge(Silent).wav
+#視覚偽造(クリティカル), Sharara.wav

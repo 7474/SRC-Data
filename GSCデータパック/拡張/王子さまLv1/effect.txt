@@ -1,0 +1,27 @@
+
+王子さまＬｖ１
+炎の矢, Bow.wav
+炎の矢(命中), Fire.wav
+氷の矢, Bow.wav
+氷の矢(命中), Slash.wav
+雷撃, Thunder.wav
+氷雪吹雪, Storm.wav
+氷雪吹雪(命中), Glass.wav
+火爆破, Explode.wav
+火爆破(命中), Fire.wav
+ライト(命中), Inori.wav
+ファイヤーレーザー, Beam.wav
+ファイヤーレーザー(命中), Fire.wav
+スノーレーザー, Beam.wav
+スノーレーザー(命中), Glass.wav
+白色破壊光線, Beam.wav
+大蛇の紋(命中), Whip.wav
+神風, 4;Charge.wav;Beam.wav
+神風(命中), Saber.wav
+神風, 4;Charge.wav;Beam.wav
+神風(命中), Saber.wav
+オーディン, Swing.wav
+オーディン(命中), Crash.wav
+神風(解説), $(ユニット)の従える神風が矢を放った。
+オーディン(解説), $(ユニット)の従えるオーディンが$(相手ユニット)に殴りかかった。
+お医者さん(解説), お医者さんが$(ユニット)を治療した。

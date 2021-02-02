@@ -1,0 +1,255 @@
+################################ 解説 ################################
+
+ヴァンツァー(ＧＨ)
+アッパーバルカン<接射>(解説), $(ユニット)は相手に密着し、アッパーバルカンで.攻撃をかけた。
+10ポンドTNT爆薬<MAP>(解説), $(ユニット)は仕掛けておいた10ポンドTNT爆薬を爆発させた。
+爆弾起爆(解説), $(ユニット)は仕掛けておいた爆弾を爆発させた。
+小砲座(解説), $(ユニット)が仕掛けておいた小砲座が攻撃をかけた。
+機動音感応型AT-A地雷(解説), $(ユニット)が仕掛けておいた.機動音感応型AT-A地雷が爆発した。
+小型砲台放出地雷(解説), $(ユニット)が仕掛けておいた小型砲台放出地雷が攻撃をかけた。
+水中機雷(解説), $(ユニット)が仕掛けておいた水中機雷が爆発した。
+
+################################ ＳＥ ################################
+
+ヴァンツァー(ＧＨ)
+スイングアーム, Swing.wav
+スイングアーム(命中), Explode(Small).wav
+25mmバルカン, MachineGun.wav
+25mmバルカン(命中), 2.5;Explode(Small).wav;2.5;Explode(Small).wav;2.5;Explode(Small).wav;2.5;Explode(Small).wav
+レーザーガン, Beam.wav
+35mmショットガン, Gun.wav
+ナパームガン, Fire.wav
+ナパームガン(命中), Explode(Small).wav
+ハードナックル, Swing.wav
+ハードナックル(命中), Explode(Small).wav
+アッパーバルカン, FastGun.wav
+アッパーバルカン<接射>, Swing.wav
+アッパーバルカン<接射>(命中), 5;FastGun.wav;2.5;Explode(Small).wav;2.5;Explode(Small).wav;2.5;Explode(Small).wav;Explode(Small).wav
+グレネードランチャー, Bazooka.wav
+グレネードランチャー(命中), Explode(Small).wav
+バウンスショット, Bazooka.wav
+バウンスショット(命中), Explode(Small).wav
+マインスプリンクラー, 2;Bazooka.wav;Explode(Small).wav
+デコイ, Whiz.wav
+ワイアレスガンポッド, Whiz.wav
+ワイアレスガンポッド(命中), 1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;_
+			1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;Explode(Small).wav
+グラウンドシーカー, Bazooka.wav
+グラウンドシーカー(命中), Explode(Small).wav
+ファイアーバーナーガン, Fire.wav
+ファイアーバーナーガン(命中), Fire.wav
+スパークショット, BeamGun.wav
+スパークショット(命中), 6;BeamCoat.wav;Thunder.wav
+パラライザー, BeamShot.wav
+リペアフィールド, 6;BeamCoat.wav;Charge.wav
+20mmバルカン, MachineGun.wav
+30mmバルカン, MachineGun.wav
+小砲座, 4;Type(Digital).wav;MachineGun.wav
+機動音感応型AT-A地雷, 4;Type(Digital).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;_
+			1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;Explode(Small).wav
+小型砲台放出地雷, 4;Type(Digital).wav;Bazooka.wav
+小型砲台放出地雷(命中), 1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;_
+			1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;Explode(Small).wav
+総合補給, Charge.wav
+10ポンドTNT爆薬, 2;Swing.wav;Whiz.wav
+10ポンドTNT爆薬(命中), 1;Explode.wav
+10ポンドTNT爆薬<MAP>, 4;Type(Digital).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;_
+			1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;Explode.wav
+シールド展開, Charge.wav
+攻撃無効化(斥力シールド波), BeamSaber.wav
+追尾式ランチャー(命中), Explode(Small).wav
+爆雷, Bomb.wav
+爆雷(命中), Explode.wav
+迫撃砲, Cannon.wav
+バルカン砲, MachineGun.wav
+燃料ガス爆弾, Whiz.wav
+燃料ガス爆弾(命中), Fire.wav
+30mm速射砲, MachineGun.wav
+30mm速射砲<移動射撃>, 4;MachineGun.wav;2;Whiz.wav;MachineGun.wav
+30mm速射砲<移動射撃>(命中), 2.5;Explode(Small).wav;2.5;Explode(Small).wav;2.5;Explode(Small).wav;Explode(Small).wav
+外壁破壊爆弾, Swing.wav
+外壁破壊爆弾(命中), 8;Type(Digital).wav;Explode(Far).wav
+30mmショットガン, MachineGun.wav
+爆弾起爆, 4;Type(Digital).wav;Explode.wav
+２連装機関砲, MachineGun.wav
+エネルギー弾, BeamShot.wav
+エネルギー弾(命中), Explode.wav
+磁気フィールド, 8;Thunder.wav;Thunder.wav
+磁気フィールド(命中), Thunder.wav
+30mm連装機関砲, MachineGun.wav
+爆雷・マイン爆薬放出口, Bazooka.wav
+爆雷・マイン爆薬放出口(命中), Explode.wav
+エネルギー砲, Cannon.wav
+攻撃無効化(プラズマフィールド), BeamSaber.wav
+30mm６連装ガトリング砲, MachineGun.wav
+プラズマフィールド, Whiz.wav
+プラズマフィールド(命中), Crash.wav
+20mm機関砲, MachineGun.wav
+グレネード弾連射ポッド, 3;Bazooka.wav;Bazooka.wav
+グレネード弾連射ポッド(命中), 2.5;Explode(Small).wav;2.5;Explode(Small).wav;2.5;Explode(Small).wav;2.5;Explode(Small).wav;_
+			2.5;Explode(Small).wav;2.5;Explode(Small).wav;Explode(Small).wav
+ローターブレード, 1.3;Swing.wav;1.3;Swing.wav;1.3;Swing.wav;1.3;Swing.wav;1.3;Swing.wav;Swing.wav
+ローターブレード(命中), 2;Saber.wav;2;Saber.wav;Saber.wav
+ワイアレスビーム砲, Whiz.wav
+急降下キック, 5;Whiz.wav;BeamCoat.wav
+急降下キック(命中), Explode.wav
+腕部灼熱炎弾, 2;Beam.wav;2;Beam.wav;Beam.wav
+腕部灼熱炎弾(命中), 2.5;Explode(Small).wav;2.5;Explode(Small).wav;Explode(Small).wav
+伸縮式スイングアーム, Swing.wav
+伸縮式スイングアーム(命中), Explode.wav
+腹部拡散灼熱炎弾, Beam(8Shot).wav
+腹部拡散灼熱炎弾(命中), 2.5;Explode(Small).wav;2.5;Explode(Small).wav;Explode(Small).wav
+マイクロウェーブ砲, 7;Charge.wav;Beam.wav
+マイクロウェーブ砲<MAP>, 7;Charge.wav;Beam.wav
+腕部プラズマビーム, BeamGun.wav
+腕部プラズマビーム(命中), Thunder.wav
+モルゲンステルン, Swing.wav
+モルゲンステルン(命中), Explode.wav
+モルゲンステルン<突撃>, 1.5;Swing.wav;1.5;Swing.wav;1.5;Swing.wav;Whiz.wav
+モルゲンステルン<突撃>(命中), 0.6;Swing.wav;0.6;Swing.wav;0.6;Swing.wav;0.6;Swing.wav;_
+			0.6;Swing.wav;0.6;Swing.wav;0.6;Swing.wav;0.6;Swing.wav;_
+			0.6;Swing.wav;0.6;Swing.wav;0.6;Swing.wav;0.6;Swing.wav;_
+			0.6;Swing.wav;0.6;Swing.wav;0.6;Swing.wav;0.6;Swing.wav;_
+			1.5;BreakOff.wav;1.5;BreakOff.wav;1.5;BreakOff.wav;1.5;BreakOff.wav;1.5;BreakOff.wav;1.5;BreakOff.wav;_
+			1.5;BreakOff.wav;1.5;BreakOff.wav;1.5;BreakOff.wav;1.5;BreakOff.wav;1.5;BreakOff.wav;1.5;BreakOff.wav;_
+			6;Whiz.wav;Explode.wav
+205mmバウンス榴弾砲, Bazooka.wav
+20ポンド迫撃爆雷, Bazooka.wav
+20ポンド迫撃爆雷(命中), Explode(Small).wav
+散弾レーザー, Beam.wav
+攻撃用レーザー発振機, Beam.wav
+メテオストームアタック, 3;Whiz.wav;5;MachineGun.wav;5;MachineGun.wav;MachineGun.wav
+20ポンドグレネード砲, Bazooka.wav
+20ポンドグレネード砲(命中), Explode(Small).wav
+高速スイングアーム, Swing.wav
+高速スイングアーム(命中), Explode(Small).wav
+グレネード発射台, Bazooka.wav
+グレネード発射台(命中), Explode(Small).wav
+グレネード砲, Bazooka.wav
+グレネード砲(命中), Explode(Small).wav
+ロケットランチャー, Cannon.wav
+ロケットランチャー(命中), Explode.wav
+長距離ミサイル, 5;Missile.wav;Missile.wav
+固定式モーターガトリング, MachineGun.wav
+ランチャー, Cannon.wav
+
+汎用
+10.5mm自動機関砲, MachineGun.wav
+50mmロケットランチャー, Cannon.wav
+50mmロケットランチャー(命中), Explode.wav
+ＭＧ－８_20mm機関砲, MachineGun.wav
+揚陸艇爆破, Explode(Far).wav
+
+アルベルト＝グレイブナー(パイロットスーツ)
+ジャンプ(ジェットパック), AntiShipMissile.wav
+
+水月
+体当たり, 10;Charge.wav;Whiz.wav
+体当たり(命中), Crash.wav
+
+水月(シールド)
+体当たり, Whiz.wav
+体当たり(命中), Crash.wav
+
+タッドポール型ベースキャリアー
+爆雷, Bomb.wav
+爆雷(命中), Explode.wav
+
+バララット級ベースキャリアー
+迫撃砲, Cannon.wav
+爆雷, Bomb.wav
+爆雷(命中), Explode.wav
+
+フェイドロス級ベースキャリアー
+迫撃砲, Cannon.wav
+爆雷, Bomb.wav
+爆雷(命中), Explode.wav
+
+カプリコーン級ベースキャリアー
+迫撃砲, Cannon.wav
+爆雷, Bomb.wav
+爆雷(命中), Explode.wav
+
+ヤクート政府軍新型ヘリ
+ゴールドバグ, MachineGun.wav
+迫撃砲支援要請, 5;Cannon.wav;Whiz.wav
+迫撃砲支援要請(命中), Explode.wav
+
+移動司令部ガレオン
+艦橋３連レーザー砲, Beam.wav
+艦橋拡散粒子砲, 5;LaserGun.wav;LaserGun.wav
+
+巨大荷電粒子砲(ガンハザード)
+巨大荷電粒子砲, 7;Charge.wav;Beam.wav
+
+ヴァンダルチャリオット
+エネルギー弾, Cannon.wav
+ロケット弾, MultipleRocketLauncher(Light).wav
+ロケット弾(命中), 2.5;Explode(Small).wav;2.5;Explode(Small).wav;Explode(Small).wav
+
+スレイプニル(ガンハザード)
+ホーミングミサイル(命中), 2.5;Explode(Small).wav;Explode(Small).wav
+ナパーム弾, Fire.wav
+ナパーム弾(命中), Explode.wav
+
+戦略爆撃機センチネル
+汎用攻撃システム, Cannon.wav
+汎用攻撃システム(命中), Explode.wav
+
+シェロブ(ガンハザード)
+ホーミングミサイル, MultipleRocketLauncher(Light).wav
+ホーミングミサイル(命中), 2.5;Explode(Small).wav;2.5;Explode(Small).wav;2.5;Explode(Small).wav;Explode(Small).wav
+
+軌道エレベーターアトラス
+無人ヴァンツァー部隊, 8;MachineGun.wav;2;Missile.wav;Missile.wav
+無人ヴァンツァー部隊(命中), 1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;_
+			1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;Explode(Small).wav
+対空砲, Charge.wav
+対空砲(命中), 2;Explode(Small).wav;2;Explode(Small).wav;3;Explode(Small).wav;_
+		2;Explode(Small).wav;2;Explode(Small).wav;3;Explode(Small).wav;_
+		2;Explode(Small).wav;2;Explode(Small).wav;Explode(Small).wav
+マイクロウェーブ砲, 7;Charge.wav;12;Beam.wav;Explode(Nuclear).wav
+
+アトラスコア
+大型浮遊ビット, 2;Whiz.wav;1;Whiz.wav;Whiz.wav
+大型浮遊ビット(命中), 1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;_
+			1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;Explode(Small).wav
+エネルギーアーム, 6;BeamSaber.wav;2.5;BeamSaber.wav;2.5;BeamSaber.wav;BeamSaber.wav
+エネルギーアーム(命中), Explode.wav
+電磁波, BeamGun.wav
+電磁波(命中), 10;Thunder.wav;BeamSaber.wav
+レーザー弾, Beam.wav
+体当たり, 5;Whiz.wav;BeamCoat.wav
+体当たり(命中), Explode.wav
+
+バズーカ兵士(ガンハザード)
+対戦車ミサイル, Bazooka.wav
+
+ビントクリル
+バルカン砲, MachineGun.wav
+
+ホバイク
+ハンドグレネード, 2;Swing.wav;1;Swing.wav;1;Swing.wav;Swing.wav
+
+テラ(ガンハザード)
+爆弾, Bomb.wav
+爆弾(命中), Explode.wav
+
+ロール(ガンハザード)
+迫撃砲支援要請, -.wav
+迫撃砲支援要請(命中), 2;Hittyuu.wav;5;Cannon.wav;5;Whiz.wav;Explode.wav
+
+キングフィッシャー
+バルカン砲, MachineGun.wav
+
+マザーオーブ
+オーブ, Whiz.wav
+オーブ(命中), 1.2;Beam.wav;1.2;Beam.wav;Beam.wav
+
+タッドポール型ベースキャリアー地上襲撃仕様
+対地ミサイルランチャー, MultipleRocketLauncher(Light).wav
+対地ミサイルランチャー(命中), 2.5;Explode(Small).wav;2.5;Explode(Small).wav;2.5;Explode(Small).wav;Explode(Small).wav
+
+暁(ガンハザード)
+ミサイル, MultipleRocketLauncher(Light).wav
+ミサイル(命中), 2.5;Explode(Small).wav;2.5;Explode(Small).wav;2.5;Explode(Small).wav;Explode(Small).wav

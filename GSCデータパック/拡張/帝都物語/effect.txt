@@ -1,0 +1,224 @@
+
+
+# item.txtの分
+
+汎用
+#★銀の銃弾(帝都物語)
+銀の弾丸(帝都物語)(準備), Reload.wav
+銀の弾丸(帝都物語), gun.wav
+銀の弾丸(帝都物語)(命中), Glass.wav
+しりこ弾(帝都物語)(準備), Reload(3).wav
+しりこ弾(帝都物語), rifle.wav
+しりこ弾(帝都物語)(命中), Glass.wav
+#★ドーマンセーマン(帝都物語)
+ドーマンセーマン(解説), $(ユニット)はドーマンセーマンを放った。
+ドーマンセーマン, whiz.wav
+ドーマンセーマン(命中), inori.wav
+晴明判(解説), $(ユニット)は晴明判を放った。
+晴明判, whiz.wav
+晴明判(命中), inori.wav
+妖刀関孫六(準備), beamsaber.wav
+妖刀関孫六(命中), 2;swing.wav;slash(4).wav
+華光(帝都物語), 2;swing.wav;bow.wav
+華光(帝都物語)(命中), 3;whiz.wav;inori.wav
+スパナ(帝都物語)(命中), 2;swing.wav;punch.wav
+Ｔ字型ハンマー(帝都物語)(命中), 2;swing.wav;punch.wav
+旗竿(帝都物語)(命中), 2;swing.wav;stab.wav
+旗竿投げ(帝都物語), swing.wav
+旗竿投げ(帝都物語)(命中), 3;bomb.wav;stab.wav
+
+
+
+#////////////////////////////////////////////////////
+# ・魔人加藤保憲をはじめとする生ける怨霊たち
+#////////////////////////////////////////////////////
+
+生ける怨霊
+#★魔人加藤保憲
+腕, Shock(low).wav
+腕(命中), crash.wav
+鎌鼬, beam.wav
+鎌鼬(命中), 1;slash.wav;slash.wav
+鎌鼬(命中), 1.5;slash.wav;1;slash.wav;slash.wav
+十二神将(解説), $(ユニット)は十二神将を放った。
+十二神将, 3;inori.wav;beam.wav
+十二神将(命中), 2;whiz.wav;crash.wav
+十二神将(命中), 2;slash(2).wav;slash.wav
+変形(空中歩行), 3;gunpod.wav
+変形(減速), Stairs.wav
+#☆以下参考武装
+ドーマンセーマンの光, Evileye.wav
+ドーマンセーマンの光(命中), glass.wav
+ドーマンセーマンの光(クリティカル), inori.wav
+水虎, 3;bubble.wav;cannon.wav
+水虎, 3;splash.wav;cannon.wav
+水虎(命中), 2;slash.wav;crash.wav
+水虎(命中), 1;slash.wav;2;slash.wav;1;slash.wav;sword.wav
+地竜の金縛り, Beamsaber.wav
+地竜の金縛り(命中), inori.wav
+地竜の金縛り(クリティカル), 2;inori.wav; _
+	1;reload.wav;1;reload.wav;0.7;reload.wav;0.5;reload.wav;reload.wav
+#★地霊平将門
+剣(準備), beamsaber.wav
+剣(命中), 2;Shock(low).wav;crash.wav
+青く燃える剣(準備), storm.wav
+青く燃える剣, AntiAirMissile.wav
+青く燃える剣(命中), 3;Storm.wav;Slash(4).wav
+青い蛍光の旋風, 3;storm.wav;swing.wav;thunderbolt.wav
+青い蛍光の旋風(命中), 3;whiz.wav;storm.wav
+変形(巨大霊馬), 変形 TTM_TairanoMasakado(ES)(Horse)U.bmp Gunpod.wav
+変形(下馬), Warship.wav
+#★ドルジェフ
+迎撃(邪視), 2;evileye.wav;3;inori.wav
+邪視, evileye.wav
+邪視(命中), Crash.wav
+邪視(命中), 1;Crash.wav;1;Crash.wav;Crash.wav
+#★トマーゾ
+攻撃無効化(髪の層), 1;saber.wav;1;saber.wav;saber.wav
+生きている白髪, whiz.wav
+生きている白髪(命中), 1;whip.wav;1;whip.wav;2;whip.wav;whip.wav
+電撃, Thunder.wav
+電撃(命中), 3;inori.wav;inori.wav;4;Thunder.wav
+#★北一輝
+経, 2;storm.wav;1.7;storm.wav;1.5;storm.wav;1.2;storm.wav;storm.wav
+経(命中), 2;storm.wav;crash.wav
+
+
+#////////////////////////////////////////////////////
+# ・将門の巫女目方恵子とその後継者たち
+#////////////////////////////////////////////////////
+
+将門の巫女
+#★俤神社の目方恵子
+自動反撃(月の鳥), 1;Whiz.wav;1.5;Whiz.wav;1;Whiz.wav;1;Whiz.wav;Whiz.wav
+シールド防御(月の鳥), Whiz.wav
+小刀(命中), 2;swing.wav;slash.wav
+踏みつけ(命中), 2;swing.wav;2;breakoff.wav;1;breakoff.wav;1;breakoff.wav;breakoff.wav
+金の槍の五行旗(命中), 2;swing.wav;stab.wav
+月の鳥(解説), $(ユニット)は月の鳥の群れを放った。
+月の鳥, jet.wav
+月の鳥(命中), 2;slash.wav;1.7;slash.wav;1.5;slash.wav;1.2;slash.wav;slash.wav
+霊馬の顎(命中), 2;swing.wav;3;crash.wav;3;crash.wav;2;crash.wav;crash.wav
+#★大沢美千代
+テレポート(銀の絃), beam.wav
+攻撃無効化(銀の絃), evileye.wav
+攻撃無効化(銀の絃)(解説), 銀の絃が$(ユニット)を守った。
+銀の絃, 2;swing.wav;whiz.wav
+銀の絃(命中), 1;slash(2).wav;0.7;slash(2).wav;slash(2).wav
+銀の絃(クリティカル), 1;slash(2).wav;0.7;slash(2).wav;2;slash(2).wav; _
+	1;reload.wav;1;reload.wav;0.7;reload.wav;0.5;reload.wav;reload.wav
+電子籠目(準備), Signal.wav
+電子籠目, Whiz.wav
+電子籠目(命中), Computer.wav
+#★辰宮由佳里の亡霊
+召雷, Whiz.wav
+召雷(命中), thunder.wav
+
+
+
+#////////////////////////////////////////////////////
+# ・帝都霊的防衛の担い手たち
+#////////////////////////////////////////////////////
+
+霊的防衛の担い手
+#★土師金凰
+黄金色の炎(準備), whiz.wav
+黄金色の炎, inori.wav
+黄金色の炎(命中), explode(small).wav
+小刀(命中), 2;swing.wav;slash.wav
+土遁, snap(e).wav
+土遁, 1;Swing.wav;snap(e).wav
+土遁(命中), Explode.wav
+大弓(準備), Swing.wav
+大弓, bow.wav
+大弓(命中), stab.wav
+霊気の宝輪, 1.5;Swing.wav;Beam.wav
+霊気の宝輪(命中), Stab.wav
+#★政所姉妹
+金剛索, 2;swing.wav;whiz.wav
+金剛索(命中), 1;slash(2).wav;0.7;slash(2).wav;slash(2).wav
+金剛索(クリティカル), 1;slash(2).wav;0.7;slash(2).wav;2;slash(2).wav; _
+	1;reload.wav;1;reload.wav;0.7;reload.wav;0.5;reload.wav;reload.wav
+#★角川春樹
+古代の宝刀(命中), 2;Swing.wav;Slash(4).wav
+#★三島由紀夫
+日本刀(命中), 2;swing.wav;slash.wav
+#★地相占術家黒田茂丸
+百魔を払う燈明, Evileye.wav
+百魔を払う燈明(命中), glass.wav
+百魔を払う燈明(クリティカル), inori.wav
+霊剣竜切丸(命中), 2;swing.wav;slash.wav
+#★幸田成行
+#★平井保昌
+小さ刀(命中), 2;swing.wav;slash.wav
+式神, 3;search.wav;2;Whiz.wav;1.5;Whiz.wav;Whiz.wav
+式神(命中), 1.5;Whiz.wav;1.1;Explode.wav;0.8;Explode.wav;1.2;Explode.wav;1;Explode.wav;Explode.wav
+#★かかしさんたち
+切り出しナイフ(命中), 2;swing.wav;slash.wav
+
+
+#////////////////////////////////////////////////////
+# ・帝都に蠢く鬼たち
+#////////////////////////////////////////////////////
+
+帝都に蠢く鬼たち
+#★大川周明の父
+攻撃無効化(脂汗), fold.wav
+#★地底の鬼
+腕, Shock(low).wav
+腕(命中), crash.wav
+咆吼, beamsaber.wav;growl.wav
+咆吼(命中), whiz.wav
+#★十二神将
+舌, 1;swing.wav;swing.wav
+舌(命中), 2;whip.wav;1;whip.wav;whip.wav
+牙, swing.wav
+牙, swing.wav;Roar.wav
+牙(命中), 2;whiz.wav;crash.wav
+#★水虎
+爪(命中), 2;swing.wav;slash.wav
+爪(命中), 1;slash.wav;3;slash.wav;2;slash.wav;sword.wav
+引きずり込み, Whiz.wav
+引きずり込み(命中), fold.wav
+#★護法童子
+金剛索, 2;swing.wav;whiz.wav
+金剛索(命中), 1;slash(2).wav;0.7;slash(2).wav;slash(2).wav
+金剛索(クリティカル), 1;slash(2).wav;0.7;slash(2).wav;2;slash(2).wav; _
+	1;reload.wav;1;reload.wav;0.7;reload.wav;0.5;reload.wav;reload.wav
+#★小型式神
+#★能装束の鬼
+青く光る三叉槍(準備), beamcoat.wav
+青く光る三叉槍, 1;swing.wav;1;swing.wav;swing.wav
+青く光る三叉槍(命中), 2;swing.wav;1;Stab.wav;Stab.wav
+青く光る三叉槍(命中), 1;swing.wav;1;swing.wav;3;inori.wav;2;Swing.wav;Sword.wav
+#★サイクラー
+ターン(命中), 3;whiz.wav;crash.wav
+突撃(準備), jet.wav
+突撃, Whiz.wav
+突撃(命中), 2;AntiAirMissile.wav;1.2;crash.wav;1;crash.wav;crash.wav
+突撃(命中), 2;AntiAirMissile.wav;2;crash.wav;explode.wav
+バンパー・カッター(準備), jet.wav
+バンパー・カッター, Whiz.wav
+バンパー・カッター(命中), 2;AntiAirMissile.wav;1.2;slash.wav;Crash.wav
+#★暴走トラック
+轢き潰し, gunpod.wav
+轢き潰し(命中), 2;gunpod.wav;1.5;gunpod.wav;gunpod.wav
+轢き潰し(命中), 1;gunpod.wav;1;gunpod.wav;1;gunpod.wav;1;gunpod.wav;1;gunpod.wav;gunpod.wav
+
+
+
+#Roar.wav,Thunderbolt.wavはGSC配布の効果音ですが、
+#プレイヤーが所持していなくてもほかの音がなるように設定してあります
+
+
+#腕(解説), 怪力にものをいわせ、$(ユニット)は腕で攻撃した！
+#腕(解説), $(ユニット)の腕が空を斬り、.$(相手ユニット)に襲いかかった！
+
+
+#ドーマンセーマン(解説), $(ユニット)が手斤を投げ放った！
+#ドーマンセーマン(命中)(解説), $(ユニット)の放った手巾に、黒く染め抜かれた;ドーマンセーマンがひるがえり、爆裂した！
+#ドーマンセーマン(命中)(解説), $(ユニット)の放った手巾に、黒く染め抜かれた;ドーマンセーマンがひるがえり、青く光る雷が空を切り裂いた！
+
+#十二神将(解説), $(ユニット)が手斤を地面に叩き付けると、;地の裂け目から式神が這い出てきた！
+
+# くどいので削除。

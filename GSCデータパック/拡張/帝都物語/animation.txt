@@ -1,0 +1,368 @@
+
+# item.txtの分
+
+
+汎用
+#★銀の銃弾(帝都物語)
+銀の弾丸(帝都物語), ピストル
+銀の弾丸(帝都物語)(命中), 銃弾 Glass.wav
+しりこ弾(帝都物語), ライフル
+しりこ弾(帝都物語)(命中), 銃弾 Glass.wav
+#★ドーマンセーマン(帝都物語)
+ドーマンセーマン(解説), $(ユニット)はドーマンセーマンを放った。
+ドーマンセーマン(攻撃), なぎ払い Whiz.wav;実弾発射 "shield\EFFECT_Cloak(White)01.bmp" -.wav
+ドーマンセーマン(命中), 打撃 inori.wav;飛沫 橙 -.wav
+晴明判(解説), $(ユニット)は晴明判を放った。
+晴明判(攻撃), なぎ払い Whiz.wav;実弾発射 "shield\EFFECT_Cloak(White)01.bmp" -.wav
+晴明判(命中), 打撃 inori.wav;飛沫 橙 -.wav
+妖刀関孫六(準備), 振る武器 Weapon\EFFECT_Youtou01.bmp 発光 Beamsaber.wav
+妖刀関孫六(攻撃), 斬撃
+妖刀関孫六(命中), 斬撃 Slash(4).wav
+華光(帝都物語)(攻撃), 手投げ武器 "Common\EFFECT_Blizzard01.bmp" bow.wav
+華光(帝都物語)(命中), @戦闘アニメ_周囲回転 "Common\EFFECT_Blizzard01.bmp" jet.wav;飛沫 白 inori.wav
+スパナ(帝都物語), スパナ
+Ｔ字型ハンマー(帝都物語), ハンマー
+旗竿(帝都物語), 槍
+旗竿投げ(帝都物語), 投げ槍
+天石笛(準備), オカリナ
+天石笛(攻撃), オカリナ Houring.wav 音波
+天石笛(命中), 光噴出
+化けもの槌, 木槌
+七支刀, 斬撃武器 Weapon\EFFECT_Sichisitou02.bmp 32
+
+# ドーマンセーマンでペンタグラムマを出すのは断念。だってテンポわるいし。
+#ドーマンセーマン(命中), @../Anime/Magic/EFFECT_Pentagram(Orange)08.bmp;打撃 inori.wav;飛沫 橙 -.wav
+#ドーマンセーマン(命中), 打撃 inori.wav;決め画像 "Magic\EFFECT_Pentagram(Orange)08.bmp" -.wav;飛沫 橙 Explode(small).wav
+#ドーマンセーマン(命中), 打撃 inori.wav;五芒星 橙 -.wav;飛沫 橙 Explode(small).wav
+
+
+
+#////////////////////////////////////////////////////
+# ・魔人加藤保憲をはじめとする生ける怨霊たち
+#////////////////////////////////////////////////////
+
+生ける怨霊
+#★魔人加藤保憲
+腕(攻撃), なぎ払い Shock(low).wav
+腕(攻撃), 振り下ろし Shock(low).wav
+腕(命中), 強打 Crash.wav
+軍刀, サーベル
+鎌鼬(攻撃), なぎ払い beam.wav
+鎌鼬(攻撃), 振り上げ beam.wav
+鎌鼬(命中), ニードルレーザー 白 Slash.wav ランダム方向;ニードルレーザー 白 Slash.wav ランダム方向
+十二神将(解説), $(ユニット)は十二神将を放った。
+十二神将(準備), 五芒星 橙 inori.wav
+十二神将(攻撃), 黒豹 beam.wav
+十二神将(攻撃), 怨霊 beam.wav
+十二神将(攻撃), 怨霊 beam.wav
+十二神将(命中), 2;whiz.wav;噛み付き crash.wav
+十二神将(命中), 横大斬撃 slash(2).wav;大斬撃 slash.wav
+変形(空中歩行), 透明化;竜巻 gunpod.wav;透明化 解除;オーラ上昇 黒 gunpod.wav
+変形(減速), 飛沫 黒 Stairs.wav
+#☆以下参考武装
+ドーマンセーマンの光(攻撃), 発光 対象ユニットＩＤ 青 Evileye.wav
+ドーマンセーマンの光(命中), 飛沫 青 glass.wav
+ドーマンセーマンの光(クリティカル), ショック inori.wav
+水虎(準備), 五芒星 橙 bubble.wav
+水虎(準備), 五芒星 橙 splash.wav
+水虎(攻撃), ８ＷＡＹ射出 cannon.wav
+水虎(命中), 爪撃 Slash.wav;噛み付き crash.wav
+水虎(命中), 斬撃乱舞 Slash.wav;大斬撃 Slash.wav
+地竜の金縛り(攻撃), 発光 橙 Beamsaber.wav 対象ユニットＩＤ
+地竜の金縛り(命中), 飛沫 橙 inori.wav
+地竜の金縛り(クリティカル), 捕縛
+#※金剛索は護法童子の項に記述
+#☆参考アビリティ
+召喚[十二神将](使用), 五芒星 橙 inori.wav
+召喚[水虎](使用), 五芒星 橙 splash.wav
+召喚[水虎](使用), 五芒星 橙 bubble.wav
+召喚[護法童子](使用), 五芒星 橙 Interference.wav
+#★加藤自転車
+ターン(攻撃), タックル whiz.wav
+ターン(命中), 強打 crash.wav
+突撃(準備), jet.wav
+突撃(攻撃), Whiz.wav;タックル AntiAirMissile.wav
+突撃(命中), 連打 crash.wav
+突撃(命中), 強打 crash.wav;投げ飛ばし Explode.wav
+#★魔人加藤重兵衛
+刀, 日本刀
+車剣(準備), -
+車剣(攻撃), 回転投擲武器 Common\EFFECT_Star01.bmp 32 速
+車剣(命中), 斬撃
+洋式銃, リボルバー
+式神(解説), $(ユニット)は式神を打った。
+式神(準備), 五芒星 黄 inori.wav
+式神(攻撃), 黒豹 beam.wav 発光
+式神(攻撃), 烏 beam.wav 発光
+式神(攻撃), 蛇 beam.wav 発光
+式神(攻撃), 怨霊 beam.wav 発光
+式神(命中), 大電撃 Thunder(2).wav
+毒霧(準備), 粒子集中 白 Whiz.wav
+毒霧(攻撃), 煙 白 Mist.wav
+毒霧(命中), 飛沫 白 Chaff.wav
+#☆参考武装
+気合術(準備), -
+気合術(攻撃), 振り上げ beam.wav
+気合術(命中), 投げ飛ばし
+#★地霊平将門
+剣(準備), 振る武器 Weapon\EFFECT_Youtou01.bmp 発光 Thunder.wav
+剣(攻撃), 斬撃 Shock(low).wav
+剣(命中), 大斬撃 Crash.wav
+青い蛍光の旋風, ハイパービームサーベル 青 storm.wav
+青い蛍光の旋風(攻撃), swing.wav;thunderbolt.wav;斬撃 -.wav; _
+	実弾発射 "Bullet\EFFECT_GroundCutter(Blue)01.bmp" 32 発光 速 whiz.wav
+青い蛍光の旋風(命中), 大斬撃 storm.wav;超斬撃 -.wav
+変形(巨大霊馬), 変形 TTM_TairanoMasakado(ES)(Horse)U.bmp Gunpod.wav
+変形(下馬), Warship.wav
+#★ドルジェフ
+迎撃(邪視), 発光 黄 相手ユニットＩＤ Evileye.wav;迎撃
+邪視(攻撃), 発光 黄 対象ユニットＩＤ Evileye.wav
+邪視(命中), 拡散ビーム 白 crash.wav;強打 Crash.wav
+邪視(命中), Explode(long).wav;怪光線 Crash.wav
+#★トマーゾ
+攻撃無効化(髪の層), ビームコート saber.wav "髪の層"
+生きている白髪(攻撃), whiz.wav;６ＷＡＹ射出 -.wav
+生きている白髪(攻撃), ８ＷＡＹ射出 whiz.wav
+生きている白髪(命中), 連打 Whip.wav
+電撃(攻撃), 怪光線 inori.wav
+電撃(命中), 飛沫 黄 Thunder.wav
+電撃(命中), Thunder.wav;怪光線 inori.wav
+#★北一輝
+経(攻撃), ＭＡＰ発光 黒 storm.wav
+経(命中), 魔法集中 黒 中 storm.wav;強打 crash.wav
+#★江戸の氏神
+青い閃光, 持続ビーム 青
+#★平賀源内
+短筒, フリントロック銃
+#★山ン本五郎左衛門
+カラスの大群(準備), 烏召喚
+カラスの大群(攻撃), ８ＷＡＹ射出;刺突突撃
+カラスの大群(命中), 刺突突撃
+無数の黒羽(準備), 羽 黒
+無数の黒羽(攻撃), ニードル連射
+無数の黒羽(命中), ニードル連射
+#★宮木野
+小柄, 小柄
+
+
+
+#////////////////////////////////////////////////////
+# ・将門の巫女目方恵子とその後継者たち
+#////////////////////////////////////////////////////
+
+将門の巫女
+#★俤神社の目方恵子
+自動反撃(月の鳥), 風 Whiz.wav
+シールド防御(月の鳥), シールド防御 Animal\EFFECT_Bird01.bmp 32 Whiz.wav - "月の鳥"
+小刀, ドス
+踏みつけ(攻撃), 格闘
+踏みつけ(命中), 踏み潰し breakoff.wav
+金の槍の五行旗, 和槍
+月の鳥(解説), $(ユニット)は月の鳥の群れを放った。
+月の鳥(攻撃), 周囲回転 対象ユニットＩＤ Animal\EFFECT_Bird01.bmp 32 flyby.wav 3;実弾発射 Animal\EFFECT_Bird01.bmp 残像 -.wav
+月の鳥(攻撃), 実弾発射 Animal\EFFECT_Bird01.bmp 残像 flyby.wav
+月の鳥(命中), 連打 Stab.wav
+月の鳥(命中), 連突 slash.wav;連突 Stab.wav
+霊馬の顎(攻撃), 格闘
+霊馬の顎(命中), 立ち固め crash.wav
+霊馬の顎(命中), 連打 crash.wav
+#★大沢美千代
+テレポート(銀の絃), beam.wav
+#テレポート(銀の絃), 透明化;@戦闘アニメ_対象指定発射 対象ユニットＩＤ 目標地点  beam\EFFECT_BeamHit(White)06.bmp 32 速 残像 beam.wav;透明化 解除
+#重すぎる
+攻撃無効化(銀の絃), ビームコート evileye.wav "銀の絃"
+攻撃無効化(銀の絃)(解説), 銀の絃が$(ユニット)を守った。
+銀の絃(攻撃), 斬撃 reload(2).wav;実弾発射 -.bmp beam.wav 有線 速
+銀の絃(命中), 連打 saber.wav
+銀の絃(クリティカル), 捕縛 Whip.wav
+電子籠目(準備), 六芒星 赤 Signal.wav
+電子籠目(攻撃), Whiz.wav;ＭＡＰ発光 黒 -.wav
+電子籠目(命中), 飛沫 黒 Computer.wav
+電子籠目(クリティカル), 麻痺 -.wav
+#単体版としては、以下のように
+#電子籠目(攻撃), 画像前面発射 "Magic\EFFECT_Hexagram(Red)05.bmp" "Magic\EFFECT_Hexagram(Black)05.bmp" Whiz.wav 1
+#★辰宮由佳里の亡霊
+召雷, 落雷
+#★平田おちょう
+死人の手(準備), -
+死人の手(攻撃), なぎ払い Shock(low).wav
+死人の手(攻撃), 振り下ろし Shock(low).wav
+死人の手(命中), 強打 Crash.wav
+黄泉の風, 旋風 黄 発光
+
+辰宮雪子
+ドーマンセーマン(命中), 打撃 inori.wav;飛沫 青 -.wav
+
+# 彼女のドーマンセーマンは青く光る……らしいです。
+# 汎用で指定した物と、飛沫の色がちがいます。
+
+
+#////////////////////////////////////////////////////
+# ・帝都霊的防衛の担い手たち
+#////////////////////////////////////////////////////
+
+霊的防衛の担い手
+#★土師金凰
+黄金色の炎(準備), whiz.wav
+黄金色の炎(攻撃), ニードルレーザー 黄 inori.wav
+黄金色の炎(命中), ニードルレーザー 黄 explode(small).wav
+小刀, ドス
+土遁(攻撃), なぎ払い snap(e).wav
+土遁(攻撃), なぎ払い;振り上げ snap(e).wav
+土遁(攻撃), 振り下ろし;なぎ払い snap(e).wav
+土遁(命中), アッパー Explode.wav;石柱 -.wav
+大弓, 和弓
+霊気の宝輪(攻撃), 斬撃;実弾発射 Common\EFFECT_Circle(Pink)01.bmp 16 速 beam.wav
+霊気の宝輪(命中), ビームサーベル 赤 Stab.wav
+#★政所姉妹
+金剛索(攻撃), 斬撃 reload.wav;実弾発射 -.bmp whiz.wav 有線 速
+金剛索(命中), 連打 slash(2).wav
+金剛索(クリティカル), 捕縛
+#★角川春樹
+古代の宝刀, 脇差
+古代の宝刀(命中), 斬撃 Slash(4).wav
+#★三島由紀夫
+日本刀, 日本刀
+#★地相占術家黒田茂丸
+百魔を払う燈明(攻撃), 発光 対象ユニットＩＤ 白 Evileye.wav
+百魔を払う燈明(命中), 飛沫 白 glass.wav
+百魔を払う燈明(クリティカル), 攻撃不能 inori.wav
+霊剣竜切丸, 日本刀
+#★幸田成行
+#★平井保昌
+小さ刀, ドス
+式神(攻撃), @戦闘アニメ_周囲回転 対象ユニットＩＤ Card\EFFECT_MandaraCard01.bmp 32 search.wav 3;６ＷＡＹ射出 Whiz.wav
+式神(命中), オールレンジ Whiz.wav
+#★カカシさんたち
+切り出しナイフ, ナイフ
+#★平田篤胤
+天石笛(準備), オカリナ
+天石笛(攻撃), オカリナ Houring.wav 音波
+天石笛(命中), 光噴出
+#★平田銕胤
+脇差, 脇差
+#★遠山景元
+大刀, 日本刀
+もろ肌を脱ぐ(解説), $(パイロット)は、やにわに片手を袖口に仕舞いこむと、.襟のあいだを割って大きく外へ突きだした。
+アブラサダブラ(準備), -
+アブラサダブラ(攻撃), 決め文字 "abracadabra" 桃 EvilEye.wav 前面 対象ユニットＩＤ_
+;決め文字 "abracadab" 桃 EvilEye.wav 前面 対象ユニットＩＤ_
+;決め文字 "abracad" 桃 EvilEye.wav 前面 対象ユニットＩＤ_
+;決め文字 "abrac" 桃 EvilEye.wav 前面 対象ユニットＩＤ_
+;決め文字 "abr" 桃 EvilEye.wav 前面 対象ユニットＩＤ_
+;決め文字 "a" 桃 EvilEye.wav 前面 対象ユニットＩＤ_
+;決め文字 "" 桃 EvilEye.wav 前面 対象ユニットＩＤ
+アブラサダブラ(命中), -
+北斗の呪(解説), $(パイロット)は天台僧に呪文を唱えるよう命じた。
+北斗の呪, 音波
+武士団(解説), $(パイロット)は武士団に攻撃を命じた。
+武士団(準備), -
+武士団(攻撃), 乱突
+武士団(命中), 斬撃乱舞
+鉄砲隊(解説), $(パイロット)は鉄砲隊に攻撃を命じた。
+鉄砲隊, 長筒
+#★藤田東湖
+#★田中久重
+#★土御門晴雄
+気炮, リボルバー
+万年時圭(準備), 時間;ディレイ 5
+万年時圭(攻撃), ＭＡＰビーム 白 Gun(8Shot).wav
+万年時圭(命中), 銃弾
+#★田村幸四郎
+#★豊間源之進
+備前長船, 日本刀
+七支刀, 斬撃武器 Weapon\EFFECT_Sichisitou02.bmp 32
+連弩(準備), クロスボウ
+連弩(攻撃), 手持ち発射 Weapon\EFFECT_CrossBow01.bmp 32 対象ユニットＩＤ Bullet\EFFECT_Arrow04.bmp 32 Bow.wav
+連弩(命中), 弓矢連射
+鉤爪(準備), -
+鉤爪(攻撃), なぎ払い Scratch.wav
+鉤爪(攻撃), 振り下ろし Scratch.wav
+鉤爪(命中), 爪撃 FightHit(3).wav
+#★土方歳三
+和泉守兼定, 日本刀
+短銃, リボルバー
+抜刀隊(解説), $(パイロット)は抜刀隊に攻撃を命じた。
+抜刀隊(準備), -
+抜刀隊(攻撃), 乱突
+抜刀隊(命中), 斬撃乱舞
+#★斎藤一
+#★市村鉄之助
+懐剣, 脇差
+鞭, 鞭
+
+
+#////////////////////////////////////////////////////
+# ・帝都に蠢く鬼たち
+#////////////////////////////////////////////////////
+
+帝都に蠢く鬼たち
+#★大川周明の父
+攻撃無効化(脂汗), 反射 fold.wav "脂汗"
+#★地底の鬼
+腕(攻撃), なぎ払い Shock(low).wav
+腕(攻撃), 振り下ろし Shock(low).wav
+腕(命中), 強打 Crash.wav
+咆吼(攻撃), charge(2).wav;growl.wav;実弾発射 Bullet\EFFECT_GroundCutter(Black)01.bmp 遅 残像 -.wav
+咆吼(命中), 飛沫 黒 Whiz.wav
+#★十二神将
+舌(準備), 舌
+舌(攻撃), 連斬撃
+舌(命中), 連打 Whip.wav
+牙(攻撃), タックル
+牙(攻撃), Swing.wav;Roar.wav;タックル -.wav
+牙(命中), 2;whiz.wav;噛み付き crash.wav
+#★水虎
+爪, 爪撃
+引きずり込み(攻撃), タックル Whiz.wav
+引きずり込み(命中), 打撃 fold.wav
+#★護法童子
+金剛索(攻撃), 斬撃 reload.wav;実弾発射 -.bmp whiz.wav 有線 速
+金剛索(命中), 連打 slash(2).wav
+金剛索(クリティカル), 捕縛
+#★小型式神
+#★能装束の鬼
+青く光る三叉槍, トライデント beamcoat.wav
+青く光る三叉槍(攻撃), 刺突
+青く光る三叉槍(命中), 斬撃 inori.wav
+青く光る三叉槍(命中), 刺突 inori.wav
+#★サイクラー
+ターン(攻撃), タックル whiz.wav
+ターン(命中), 強打 crash.wav
+突撃(準備), jet.wav
+突撃(攻撃), Whiz.wav;タックル AntiAirMissile.wav
+突撃(命中), 連打 crash.wav
+突撃(命中), 強打 crash.wav;投げ飛ばし Explode.wav
+バンパー・カッター(準備), jet.wav
+バンパー・カッター(攻撃), Whiz.wav;タックル AntiAirMissile.wav
+バンパー・カッター(命中), 強打 slash.wav;投げ飛ばし -.wav;飛沫 赤 Crash.wav
+#★暴走トラック
+轢き潰し(攻撃), gunpod.wav;タックル -.wav
+轢き潰し(命中), 連打 gunpod.wav
+轢き潰し(命中), 踏み潰し gunpod.wav
+#★犬神
+鉤爪, 爪撃
+蟲毒, 爪撃
+
+#Roar.wav,Thunderbolt.wavはGSC配布の効果音ですが、
+#プレイヤーが所持していなくてもほかの音がなるように設定してあります
+
+
+蝦夷の怨霊
+#★アテルイ
+牙, 噛み付き
+#★ツキノイ
+#★アヤカシ
+毒霧(準備), 粒子集中 黒 Whiz.wav
+毒霧(攻撃), 煙 黒 Mist.wav
+毒霧(命中), 飛沫 黒 Chaff.wav
+#★ミンツチ
+伸びる腕(準備), -
+伸びる腕(攻撃), タックル Whiz.wav
+伸びる腕(命中), 打撃 FightHit(1).wav
+#★亡霊兵
+直剣, 斬撃武器 Weapon\EFFECT_AncientBronzeSword01.bmp 32 発光
+#★貫胸
+禹歩, 踏み潰し
+
+

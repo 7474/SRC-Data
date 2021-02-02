@@ -1,0 +1,82 @@
+鬼哭街
+臥龍尾, タックル
+轟雷功, ＭＡＰ放電 Thunder.wav
+戴天流剣技, 振り上げ
+戴天流剣技, 振り下ろし
+戴天流剣技, なぎ払い
+戴天流剣技, 刺突
+連環套路(攻撃), 斬撃乱舞
+黒手烈震破(攻撃), 打突
+黒手烈震破(命中), 強打 Explode(Small).wav
+紫電掌(攻撃), 打突
+紫電掌(命中), 放電 Thunder.wav
+双撃紫電掌(攻撃), 打突;打突
+双撃紫電掌(命中), 放電 Thunder.wav
+六塵散魂無縫剣(準備), -
+六塵散魂無縫剣(攻撃), なぎ払い -.wav;Saber.wav;0.5;Saber.wav;0.5;Saber.wav;0.5;Saber.wav;0.5;Saber.wav;0.5;Saber.wav;0.5;Saber.wav;0.5;Saber.wav;0.5;Saber.wav;Saber.wav
+六塵散魂無縫剣(命中), 超斬撃 -.wav;Stab.wav;0.5;Stab.wav;0.5;Stab.wav;0.5;Stab.wav;0.5;Stab.wav;0.5;Stab.wav;0.5;Stab.wav;0.5;Stab.wav;0.5;Stab.wav;Stab.wav
+阻止(六塵散魂無縫剣), @戦闘アニメ_なぎ払い攻撃 -.wav;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav
+神速刺突(準備), レイピア
+神速刺突(攻撃), レイピア突撃 Whiz.wav;Explode.wav;@戦闘アニメ_瞬間変形 KIKOKU_LiuHoujun(NonCoat)U.bmp
+神速刺突(命中), 分身刺突;分身刺突
+丹鳳朝陽(攻撃), 打突 AntiAirMissile.wav
+丹鳳朝陽(命中), 強打 Explode(Far).wav
+左穿花手, 打突 Cannon.wav
+左穿花手(命中), 打撃 Explode(Small).wav
+闖少林(攻撃), 連打 AntiShipMissile.wav
+闖少林(命中), 連打 Bazooka.wav
+阿修羅憤怒弾(準備), Chaff.wav;Transform.wav
+阿修羅憤怒弾(攻撃), 乱打 Cannon.wav
+阿修羅憤怒弾(命中), 乱打 Bazooka.wav;MicroMissile.wav
+急落鷹爪(攻撃), 打突 Saber.wav
+急落鷹爪(命中), 刺突
+早天鷹翔, 打突 Whiz.wav;打突 Whiz.wav
+早天鷹翔(命中), 連突 Slash.wav
+鷹爪連撃(攻撃), 連打 Saber.wav
+鷹爪連撃(命中), 斬り上げ;斬撃;1;刺突 Slash.wav
+一嘴双爪繚乱舞(攻撃), 乱打 Saber.wav
+一嘴双爪繚乱舞(命中), 斬撃乱舞
+ワイヤーロッド(準備), 鞭 BeamSaber.wav
+ワイヤーロッド(攻撃), 白兵乱撃 Swing.wav
+ワイヤーロッド(命中), 乱打 Slash.wav
+鴛鴦脚(攻撃), スーパーキック ピンク
+鴛鴦脚(命中), 乱打 Bazooka.wav
+クラッキング(準備), WindowOpen.wav
+クラッキング(攻撃), 球電 Computer.wav
+クラッキング(クリティカル), 憑依 Chaff.wav
+網絡蠱毒(準備), WindowOpen.wav
+網絡蠱毒(攻撃), 球電 Computer.wav
+網絡蠱毒(命中), 放電 Chaff.wav
+チューニング, WindowOpen.wav;5;放電 Computer.wav;Drill.wav
+GLOCK_19, ピストル
+外家拳法, 打突
+護手鉤, 斬撃 二刀流
+護手鉤(命中), 連斬撃
+浮萍拐(準備), トンファー 二刀流
+浮萍拐(攻撃), 白兵武器 二刀流
+浮萍拐(命中), 連打
+折り受け, @戦闘アニメ_白兵武器攻撃 Glass.wav
+護手鉤＆浮萍拐, 連打
+阿吽覆滅陣(攻撃), 同時乱打
+阿吽覆滅陣(命中), 決め文字 阿 水色 AntiShipMissile.wav;決め文字 吽 水色 AntiShipMissile.wav;決め文字 覆滅 水色 Explode(Nuclear).wav
+暗器, クナイ
+影縫八卦(準備), クナイ
+影縫八卦(攻撃), 0.3;実弾発射 Bitmap\Anime\Weapon\EFFECT_Kunai01.bmp;0.2;実弾発射 Bitmap\Anime\Weapon\EFFECT_Kunai01.bmp;0.1;実弾発射 Bitmap\Anime\Weapon\EFFECT_Kunai01.bmp;0.1;実弾発射 Bitmap\Anime\Weapon\EFFECT_Kunai01.bmp;0.2;実弾発射 Bitmap\Anime\Weapon\EFFECT_Kunai01.bmp;0.3;実弾発射 Bitmap\Anime\Weapon\EFFECT_Kunai01.bmp;0.1;実弾発射 Bitmap\Anime\Weapon\EFFECT_Kunai01.bmp;0.2;実弾発射 Bitmap\Anime\Weapon\EFFECT_Kunai01.bmp
+影縫八卦(命中), 連突;0.5;連突
+幻影錯綜刺(準備), クナイ
+幻影錯綜刺(攻撃), 0.1;実弾発射 Bitmap\Anime\Weapon\EFFECT_Kunai01.bmp;0.5;トマホーク投擲;0.2;実弾発射 Bitmap\Anime\Weapon\EFFECT_Kunai01.bmp;0.1;実弾発射 Bitmap\Anime\Weapon\EFFECT_Kunai01.bmp;0.5;トマホーク投擲;0.1;実弾発射 Bitmap\Anime\Weapon\EFFECT_Kunai01.bmp;0.3;実弾発射 Bitmap\Anime\Weapon\EFFECT_Kunai01.bmp;0.5;トマホーク投擲;0.1;実弾発射 Bitmap\Anime\Weapon\EFFECT_Kunai01.bmp
+幻影錯綜刺(命中), 乱突
+飛爪・飛鐃, 回転斬撃
+腕部大鎌, 斬撃
+機銃, 機関砲
+ＦＡＥ榴散弾, ＭＡＰグレネード
+高周波振動バイス, ドリル
+5.56mm多連装チェーンガン, 機関砲
+20mm携行レールガン, 対物ライフル
+GLOCK_19, ピストル Weapon\EF_RW_GLOCK_19.bmp 32
+
+元兄弟
+阿吽覆滅陣(攻撃), 乱打
+
+汎用
+Ｐ９０, サブマシンガン Weapon\EF_RW_FN_P90.bmp 40

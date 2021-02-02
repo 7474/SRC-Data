@@ -1,0 +1,48 @@
+白き狩人
+格闘, Punch.wav
+紫苑, Swing.wav
+一閃, Saber.wav
+閃光斬, 10;BeamSaber.wav;10;Beam.wav
+ベレッタＭ92, Gun.wav
+掌底コンビネーション, 3;Punch.wav;5;Swing.wav
+バグナグ,	5;Sword.wav;15;Punch.wav
+バグナグ(命中), Crash.wav
+バグナグブロー, 5;Sword.wav;5;Combo.wav
+バグナグブロー(命中), 1;Crash.wav;1;Crash.wav;1;Crash.wav
+S&W-M10, Gun.wav
+ダーツ, 10;Swing.wav;1;Bow.wav
+ダーツ(命中), Stab.wav
+ダーツレイン, 10;Swing.wav;1;Bow.wav;1;Bow.wav;1;Bow.wav
+ダーツレイン(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav
+ボウガン, Bow.wav
+ボウガン(命中), Stab.wav
+プラスティック爆弾, Explode.wav
+爆弾設置, Reload.wav 
+裁きの矢, 10;Reload.wav;5;Bow.wav
+裁きの矢(命中), Stab.wav
+ブローニング・ベビー, Gun.wav
+ワイヤーウェブ, Flair.wav
+ワイヤーウェブ(命中), Whip.wav
+ブレードワイヤー, Bow.wav
+ブレードワイヤー(命中), Slash.wav
+バインドワイヤー, Bow.wav
+バインドワイヤー(クリティカル), Whip.wav
+ストリングギャローズ, Hittyuu.wav
+ストリングギャローズ(とどめ), 10;Snap(E).wav
+グラップルチョーク(命中), BreakOff.wav
+コルトガバメント, Gun.wav
+日本刀, Swing.wav
+
+
+黒き獣
+コンビネーションブロー, Combo.wav
+ワルサーＰＰＫ, Gun.wav
+マインドハッキング, 10;Flair.wav
+キリングヴァンダル, 10;Flair.wav;5;Crash.wav
+ＰＫウェイブ, Shock(Low).wav
+ＰＫバスターウェイブ, 1;Charge.wav;5;Bazooka.wav
+オーバードライブパワー, 10;Charge.wav;5;Explode.wav;5;Explode.wav;5;Explode.wav;5;Explode.wav;5;Explode.wav
+硫酸かけ, Splash.wav
+ボーラー<剣>, Slash.wav
+ボーラー投げ, Swing.wav
+ボーラー投げ(命中), Stab.wav

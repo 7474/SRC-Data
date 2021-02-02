@@ -1,0 +1,105 @@
+# パイロット表情集 -----------------------------------------------------------------------
+
+車弁慶(攻撃)
+ベンケイ, GET_KurumaBenkei(A).bmp
+ベンケイ(攻撃)
+ベンケイ, GET_KurumaBenkei(A).bmp
+
+車弁慶(通常)
+ベンケイ, GET_KurumaBenkei(N).bmp
+ベンケイ(通常)
+ベンケイ, GET_KurumaBenkei(N).bmp
+
+早乙女ミチル(通常)
+ミチル, GET_SaotomeMichiru(N).bmp
+ミチル(通常)
+ミチル, GET_SaotomeMichiru(N).bmp
+
+神隼人(攻撃)
+ハヤト, GET_JinHayato(A).bmp
+ハヤト(攻撃)
+ハヤト, GET_JinHayato(A).bmp
+
+神隼人(通常)
+ハヤト, GET_JinHayato(N).bmp
+ハヤト(通常)
+ハヤト, GET_JinHayato(N).bmp
+
+巴武蔵(通常)
+ムサシ, GET_TomoeMusasi(N).bmp
+ムサシ(通常)
+ムサシ, GET_TomoeMusasi(N).bmp
+
+流竜馬(攻撃)
+リョウ, GET_NagareRyouma(A).bmp
+リョウ(攻撃)
+リョウ, GET_NagareRyouma(A).bmp
+
+流竜馬(通常)
+リョウ, GET_NagareRyouma(N).bmp
+リョウ(通常)
+リョウ, GET_NagareRyouma(N).bmp
+
+# ノンパイロット -------------------------------------------------------------------------
+
+早乙女博士
+早乙女博士, GET_PrSaotome.bmp
+
+
+早乙女元気
+元気, GET_SaotomeGenki.bmp
+
+#　早乙女家の次男で、ミチルの弟。
+#　マジンガーＺにおけるシローのような存在。
+#　ロボットに乗ったりはしなかった。
+
+
+ジョーホー
+ジョーホー, GET_Joho.bmp
+
+#　ムサシの柔道部の後輩。体力ゼロだが、頭脳明晰のためムサシの知恵袋と
+#　なっている。
+#　ムサシを「しぇんぱぁ～い」と呼ぶのが印象的。
+
+
+大枯紋次
+紋次, GET_OgarashiMonji.bmp
+
+#　自称天才発明家で、世界発明研究所の所長。
+#　研究所の場所がゲットマシン発進ルートの真下にあるため、常に騒音に
+#　悩まされ、早乙女研究所を恨んでいたが、ミチルに惚れたためあっさり和解。
+#　以降、ミチルをミチル姫と呼び、ゲッターナバロン砲の砲手となる。
+
+
+真・ゲッター１
+真・ゲッター１, GET_ShinGetter1(F).bmp
+
+
+
+# 合体技用 -----------------------------------------------------------------------
+
+兜甲児(03)
+甲児, MGZ_KabutoKouji(03).bmp
+甲児(03)
+甲児, MGZ_KabutoKouji(03).bmp
+
+兜甲児(攻撃)(02)
+甲児, MGZ_KabutoKouji(A)(02).bmp
+甲児(攻撃)(02)
+甲児, MGZ_KabutoKouji(A)(02).bmp
+
+剣鉄也
+鉄也, GMG_TurugiTetuya.bmp
+
+剣鉄也(攻撃)
+鉄也, GMG_TurugiTetuya(A).bmp
+鉄也(攻撃)
+鉄也, GMG_TurugiTetuya(A).bmp
+
+デューク＝フリード
+デューク, GDZ_DukeFreed.bmp
+
+デューク＝フリード(攻撃)
+デューク, GDZ_DukeFreed(A).bmp
+デューク(攻撃)
+デューク, GDZ_DukeFreed(A).bmp

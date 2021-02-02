@@ -1,0 +1,27 @@
+*ターン 全 敵:
+If エキドナ(ＳＷ) Then
+	Set エキドナ形態 Random(4)
+
+	If エキドナ形態 = 1 Then
+		Transform エキドナ(ＳＷ) エキドナ(ＳＷ)(翼)
+		AutoTalk システム
+		エキドナはコウモリの翼を生やした
+		End
+	ElseIf エキドナ形態 = 2 Then
+		Transform エキドナ(ＳＷ) エキドナ(ＳＷ)(口)
+		AutoTalk システム
+		エキドナの頭がドラゴンに変わった
+		End
+	ElseIf エキドナ形態 = 3 Then
+		Transform エキドナ(ＳＷ) エキドナ(ＳＷ)(腕)
+		AutoTalk システム
+		エキドナの腕がオーガーのように太くなった
+		End
+	Else
+		Transform エキドナ(ＳＷ) エキドナ(ＳＷ)(尾)
+		AutoTalk システム
+		エキドナはドラゴンの尾を生やした
+		End
+	EndIf
+EndIf
+Exit

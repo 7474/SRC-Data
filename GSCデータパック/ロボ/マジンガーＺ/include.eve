@@ -1,0 +1,18 @@
+*プロローグ:
+If Level(兜甲児) <> 0 Then
+    Switch Unit(兜甲児)
+    Case ダブルスペイザー ドリルスペイザー マリンスペイザー ＴＦＯ
+    ReplacePilot 兜甲児 兜甲児(ＴＦＯ)
+    Exit
+    EndSw
+Endif
+If Level(兜甲児(ＴＦＯ)) <> 0 Then
+    Switch Unit(兜甲児(ＴＦＯ))
+    Case ダブルスペイザー ドリルスペイザー マリンスペイザー ＴＦＯ
+    Exit
+    Case else
+    ReplacePilot 兜甲児(ＴＦＯ) 兜甲児
+    EndSw
+Endif
+Exit
+

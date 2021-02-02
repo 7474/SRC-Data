@@ -1,0 +1,77 @@
+
+六条ひとま
+格闘, 格闘
+心眼(準備), 会話 六条ひとま "心眼よ……開け心眼よ！！";_
+邪眼解放 ピンク ピンク 小 Flair.wav;会話 六条ひとま "見えた！！";振る武器 Common\EFFECT_Heart01.bmp 16 BreakOff.wav
+心眼(準備), 会話 六条ひとま "心眼っ！！";邪眼解放 ピンク ピンク 小 Flair.wav;_
+振る武器 Common\EFFECT_Heart01.bmp 16 BreakOff.wav
+心眼(攻撃), 投擲武器 Common\EFFECT_Heart01.bmp 16
+心眼(命中), 強打
+不意討ち(攻撃), スーパータックル;透明化 対象ユニットＩＤ 反映
+不意討ち(命中), スーパーキック Crash.wav
+不意討ち(命中), スーパーキック FightHit(1).wav;@戦闘アニメ_乱打攻撃;乱打
+不意討ち(命中), 透明化 対象ユニットＩＤ 解除;@戦闘アニメ_回転投擲武器攻撃 DGoods\EFFECT_Kinjirou01.bmp;強打 Crash.wav
+袋叩き, 同時乱打
+
+
+ツーバイ＝フォウ
+格闘, 格闘
+カナディアン背面キック(攻撃), スーパータックル ホワイト Cannon(4Shot).wav;透明化 対象ユニットＩＤ 反映
+カナディアン背面キック(命中), -
+袋叩き, 同時乱打
+
+
+アナボリック
+#
+## 理事長、力動山共通 ##
+#
+格闘(攻撃), 打突
+格闘(攻撃), 格闘
+格闘(攻撃), なぎ払い
+格闘(攻撃), スーパータックル
+格闘(命中), 強打
+#
+## 力動山 ##
+#
+アナボリックウェイブ(準備), -
+アナボリックウェイブ(攻撃), 斬撃 AntiAirMissile.wav;実弾発射 Bullet\EFFECT_ShootingCutter(Green)01.bmp 発光 速 AntiAirMissile.wav;_
+振り上げ AntiAirMissile.wav;斬撃 AntiAirMissile.wav;実弾発射 Bullet\EFFECT_ShootingCutter(Green)01.bmp 発光 速 AntiAirMissile.wav
+アナボリックウェイブ(命中), 唐竹割り Bazooka.wav;振り上げ大斬撃 Bazooka.wav
+大心眼(準備), 会話 力動山 "大心眼！！";邪眼解放 レッド レッド Flair.wav;決め画像 Common\EFFECT_Heart01.bmp Warship.wav 前面
+大心眼(攻撃), 実弾発射 Common\EFFECT_Heart01.bmp Warship(8Shot).wav
+大心眼(命中), 超打 Crash.wav
+攻撃無効化(大心眼), 会話 力動山 "大心眼！！";決め画像 Common\EFFECT_Heart01.bmp Warship.wav 前面
+
+
+ブレイザー(シュートフェンシング)
+シュートフェンシング, ピストル Weapon\EFFECT_Rapier(T)01.bmp 32
+連射, ピストル Weapon\EFFECT_Rapier(T)01.bmp 32
+連射(攻撃), ピストル Weapon\EFFECT_Rapier(T)01.bmp 32;ピストル Weapon\EFFECT_Rapier(T)01.bmp 32;ピストル Weapon\EFFECT_Rapier(T)01.bmp 32
+連射(命中), ピストル;ピストル;ピストル
+
+
+ブレイザー(ヌードフェンシング)
+ヌードフェンシング, 巨大剣
+ヌードフェンシング(攻撃), 連斬撃
+ヌードフェンシング(命中), 連打
+音速の腰, 巨大剣
+音速の腰(攻撃), 乱突
+音速の腰(命中), 乱突 Punch.wav
+電撃二段突き, 巨大剣
+電撃二段突き(攻撃), 刺突 Bazooka.wav;タックル Bazooka.wav
+電撃二段突き(命中), 点打 Bazooka.wav;点打 Bazooka.wav
+光速の腰, 巨大剣
+光速の腰(攻撃), タックル AntiAirMissile.wav;@戦闘アニメ_ビームショットキャノン命中 イエロー FastGun.wav
+光速の腰(命中), 乱打
+
+
+アドニオン諸本
+格闘, 格闘
+阻止(心眼カウンター), 会話 アドニオン諸本 "心眼っ！！";邪眼解放 ホワイト ホワイト 小 Flair.wav;_
+会話 アドニオン諸本 "心眼カウンター！";シールド防御 Common\EFFECT_Heart01.bmp 16 FightHit(1).wav 心眼カウンター
+心眼(準備), 会話 アドニオン諸本 "心眼っ！！";邪眼解放 ホワイト ホワイト 小 Flair.wav;_
+振る武器 Common\EFFECT_Heart01.bmp 16 BreakOff.wav
+心眼(攻撃), 投擲武器 Common\EFFECT_Heart01.bmp 16
+心眼(命中), 強打
+延髄キック(攻撃), キック
+延髄キック(命中), スーパーキック FightHit(1).wav

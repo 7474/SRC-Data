@@ -1,0 +1,875 @@
+#_GetBMPName(相手ユニットＩＤ)　ユニット画像呼び出し
+#_ColorTime()　PaintPitureオプション。時間によって明度変わる
+#_ColorTime(1)　上記の１形態。夜のみ発光
+#WX()　WY()　ユニットの現在位置をピクセルで返す。
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+#				武器簡易指定
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+
+戦闘アニメ_鉄の剣準備:
+Call 戦闘アニメ_振る武器準備 "EFFECT_FE_IronSword.bmp" - Args(1) Args(2) Args(3) Args(4) Args(5)
+Return "Keep"
+
+戦闘アニメ_鋼の剣準備:
+Call 戦闘アニメ_振る武器準備 "EFFECT_FE_SteelSword.bmp" - Args(1) Args(2) Args(3) Args(4) Args(5)
+Return "Keep"
+
+戦闘アニメ_銀の剣準備:
+Call 戦闘アニメ_振る武器準備 "EFFECT_FE_SilverSword.bmp" - Args(1) Args(2) Args(3) Args(4) Args(5)
+Return "Keep"
+
+戦闘アニメ_鉄の大剣準備:
+Call 戦闘アニメ_振る武器準備 "EFFECT_FE_GreatIronSword.bmp" 48 Args(1) Args(2) Args(3) Args(4) Args(5)
+Return "Keep"
+
+戦闘アニメ_鋼の大剣準備:
+Call 戦闘アニメ_振る武器準備 "EFFECT_FE_GreatSteelSword.bmp" 48 Args(1) Args(2) Args(3) Args(4) Args(5)
+Return "Keep"
+
+戦闘アニメ_銀の大剣準備:
+Call 戦闘アニメ_振る武器準備 "EFFECT_FE_GreatSilverSword.bmp" 48 Args(1) Args(2) Args(3) Args(4) Args(5)
+Return "Keep"
+
+戦闘アニメ_ドラゴンキラー準備:
+Call 戦闘アニメ_振る武器準備 "EFFECT_FE_DragonSword.bmp" - Args(1) Args(2) Args(3) Args(4) Args(5)
+Return "Keep"
+
+
+戦闘アニメ_鉄の槍準備:
+Call 戦闘アニメ_振る武器準備 "EFFECT_FE_IronSpear.bmp" 40 Args(1) Args(2) Args(3) Args(4) Args(5)
+Return "Keep"
+
+戦闘アニメ_鋼の槍準備:
+Call 戦闘アニメ_振る武器準備 "EFFECT_FE_SteelSpear.bmp" 40 Args(1) Args(2) Args(3) Args(4) Args(5)
+Return "Keep"
+
+戦闘アニメ_銀の槍準備:
+Call 戦闘アニメ_振る武器準備 "EFFECT_FE_SilverSpear.bmp" 40 Args(1) Args(2) Args(3) Args(4) Args(5)
+Return "Keep"
+
+戦闘アニメ_聖なる槍準備:
+Call 戦闘アニメ_振る武器準備 "EFFECT_FE_CrossSpear.bmp" 40 Args(1) Args(2) Args(3) Args(4) Args(5)
+Return "Keep"
+
+
+戦闘アニメ_キラーアクス準備:
+Call 戦闘アニメ_振る武器準備 "EFFECT_FE_KillerAx.bmp" - Args(1) Args(2) Args(3) Args(4) Args(5)
+Return "Keep"
+
+
+戦闘アニメ_ＭＡＰ回復使用:
+	Center X(目標地点) Y(目標地点)
+Return "Keep"
+
+
+
+#各剣の攻撃定義。内容は一緒。
+
+
+戦闘アニメ_鉄の剣攻撃:
+戦闘アニメ_鋼の剣攻撃:
+戦闘アニメ_銀の剣攻撃:
+戦闘アニメ_鉄の大剣攻撃:
+戦闘アニメ_鋼の大剣攻撃:
+戦闘アニメ_銀の大剣攻撃:
+戦闘アニメ_ドラゴンキラー攻撃:
+戦闘アニメ_キラーアクス攻撃:
+Call 戦闘アニメ_白兵武器攻撃 Args(1) Args(2) Args(3) Args(4)
+Return
+
+
+戦闘アニメ_鉄の槍攻撃:
+戦闘アニメ_鋼の槍攻撃:
+戦闘アニメ_銀の槍攻撃:
+戦闘アニメ_聖なる槍攻撃:
+Call 戦闘アニメ_刺突攻撃 _GetIDFromArgs()
+Return
+
+
+
+#各剣の攻撃定義。内容は一緒。
+
+
+戦闘アニメ_鉄の剣命中:
+戦闘アニメ_鋼の剣命中:
+戦闘アニメ_銀の剣命中:
+戦闘アニメ_鉄の大剣命中:
+戦闘アニメ_鋼の大剣命中:
+戦闘アニメ_銀の大剣命中:
+戦闘アニメ_ドラゴンキラー命中:
+戦闘アニメ_キラーアクス命中:
+戦闘アニメ_斬撃武器命中:
+Call 戦闘アニメ_斬撃命中 _SearchOptionFromArgs(二刀流) _GetIDFromArgs()
+Return
+
+戦闘アニメ_鉄の槍命中:
+戦闘アニメ_鋼の槍命中:
+戦闘アニメ_銀の槍命中:
+戦闘アニメ_聖なる槍命中:
+Call 戦闘アニメ_刺突命中 _GetIDFromArgs()
+Return
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+#				武器大回転
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+#現状、画像を必ず設定しないといけません
+戦闘アニメ_FE武器大回転攻撃:
+Local C_X
+Local C_Y
+local i
+local j
+Local ANG
+
+Set C_X WX(対象ユニット)
+Set C_Y WY(対象ユニット)
+
+
+ #Center 対象パイロット
+ For j = 1 to 3
+ PlaySOund Swing.wav
+ FOr i = 1 to 8
+ ClearPicture
+  If (_Get_X(対象ユニットＩＤ) < _Get_X(相手ユニットＩＤ)) Then
+	Set ANG (3.141592 * ((i + 4) * 45) / 180)
+	Set ANG2 (3.141592 * ((i + 3) * 45) / 180)
+	Set ANG3 (3.141592 * ((i + 2) * 45) / 180)
+	 PaintPicture Args(1) (C_X + (cos(ANG) * -32)) (C_Y + (sin(ANG) * -32)) 32 32 透過 左回転 (i * -45 + 225) _ColorTime()
+	 PaintPicture Args(1) (C_X + (cos(ANG2) * -32)) (C_Y + (sin(ANG2) * -32)) 32 32 透過 左回転 (i * -45 + 270) 暗
+	 PaintPicture Args(1) (C_X + (cos(ANG3) * -32)) (C_Y + (sin(ANG3) * -32)) 32 32 透過 左回転 (i * -45 + 315) シルエット
+  ElseIf (_Get_X(対象ユニットＩＤ) > _Get_X(相手ユニットＩＤ)) Then
+	Set ANG (3.141592 * ((8 - i) * 45) / 180)
+	Set ANG2 (3.141592 * ((9 - i) * 45) / 180)
+	Set ANG3 (3.141592 * ((10 - i) * 45) / 180)
+	 PaintPicture Args(1) (C_X + (cos(ANG) * -32)) (C_Y + (sin(ANG) * -32)) 32 32 透過 右回転 (i * -45 - 45) _ColorTime()
+	 PaintPicture Args(1) (C_X + (cos(ANG2) * -32)) (C_Y + (sin(ANG2) * -32)) 32 32 透過 右回転 (i * -45) 暗
+	 PaintPicture Args(1) (C_X + (cos(ANG3) * -32)) (C_Y + (sin(ANG3) * -32)) 32 32 透過 右回転 (i * -45 + 45) シルエット
+  Else
+	If (_Get_Y(対象ユニットＩＤ) > _Get_Y(相手ユニットＩＤ)) Then
+		Set ANG (3.141592 * ((2 - i) * 45) / 180)
+		Set ANG2 (3.141592 * ((3 - i) * 45) / 180)
+		Set ANG3 (3.141592 * ((4 - i) * 45) / 180)
+		PaintPicture Args(1) (C_X + (cos(ANG) * -32)) (C_Y + (sin(ANG) * -32)) 32 32 透過 右回転 (i * -45 + 45) _ColorTime()
+		PaintPicture Args(1) (C_X + (cos(ANG2) * -32)) (C_Y + (sin(ANG2) * -32)) 32 32 透過 右回転 (i * -45 + 90) 暗
+		PaintPicture Args(1) (C_X + (cos(ANG3) * -32)) (C_Y + (sin(ANG3) * -32)) 32 32 透過 右回転 (i * -45 + 135) シルエット
+	
+	Else
+		Set ANG (3.141592 * ((6 - i) * 45) / 180)
+		Set ANG2 (3.141592 * ((7 - i) * 45) / 180)
+		Set ANG3 (3.141592 * ((8 - i) * 45) / 180)
+		PaintPicture Args(1) (C_X + (cos(ANG) * -32)) (C_Y + (sin(ANG) * -32)) 32 32 透過 右回転 (i * -45 + 225) _ColorTime()
+		PaintPicture Args(1) (C_X + (cos(ANG2) * -32)) (C_Y + (sin(ANG2) * -32)) 32 32 透過 右回転 (i * -45 + 270) 暗
+		PaintPicture Args(1) (C_X + (cos(ANG3) * -32)) (C_Y + (sin(ANG3) * -32)) 32 32 透過 右回転 (i * -45 + 315) シルエット
+	
+	EndIf
+  EndIf
+ Refresh
+ Wait 0.2
+ Next
+ Next
+Return
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+#				ＦＥ用必殺エフェクト
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+
+戦闘アニメ_FEデフォルト必殺クリティカル:
+ Call 戦闘アニメ_ダメージ命中 Crash.wav
+ Call 戦闘アニメ_デフォルトクリティカル
+Return
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+#				槍クリティカル
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+#現状、画像を必ず設定しないといけません
+
+戦闘アニメ_FE斜め槍必殺クリティカル:
+
+Local G_S
+Local X_P
+Local Y_P
+Local C_X
+Local C_Y
+Local WP_FILE
+Local FL
+Local ANG1
+Local ANG2
+Local i
+Local DRCT
+Local UID
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+_CenteringCheck UID
+Set C_X WX(UID)
+Set C_Y WY(UID)
+
+Set WP_FILE _GetBmpFromArgs()
+Set G_S _GetPicSizeFromArgs()
+
+If (_IsLight() = 1) Then
+  Set FL 1
+Else
+  Set FL ""
+EndIf
+
+Set X_P (16 - (G_S \ 2))
+Set Y_P (16 - (G_S \ 2))
+Incr C_Y (32 - G_S)
+
+
+If (_SearchOptionFromArgs(反転) != "") Then
+  Set DRCT -1
+Else
+  Set DRCT 1
+EndIf
+_SelectSound "MultipleRocketLauncher(Light).wav" _GetWavFromArgs()
+
+  If (X(UID) > _Get_X(相手ユニットＩＤ)) Then
+    Wait Start
+    Set ANG1 45
+
+    For i = 1 To 14
+      Incr ANG1 (45 * DRCT)
+      ClearPicture
+      PaintPicture WP_FILE (C_X - 16 + X_P) C_Y G_S G_S 透過 右回転 ANG1 _ColorTime(FL)
+      Refresh
+      Wait Until (i * 0.3)
+    Next
+
+  ElseIf (X(UID) < _Get_X(相手ユニットＩＤ)) Then
+    Wait Start
+    Set ANG1 135
+    
+    For i = 1 To 14
+      Incr ANG1 (-45 * DRCT)
+      ClearPicture
+      PaintPicture WP_FILE (C_X + 16 + X_P) C_Y G_S G_S 透過 上下反転 右回転 ANG1 _ColorTime(FL)
+      Refresh
+      Wait Until (i * 0.3)
+    Next
+
+  Else
+      If (Y(UID) > _Get_Y(相手ユニットＩＤ)) Then
+        Wait Start
+        Set ANG1 -45
+        
+        For i = 1 To 14
+          Incr ANG1 (-45 * DRCT)
+          ClearPicture
+          PaintPicture WP_FILE (C_X - 4) (C_Y - 12 + Y_P) G_S G_S 透過 右回転 ANG1 _ColorTime(FL)
+          Refresh
+          Wait Until (i * 0.3)
+        Next
+      Else
+        Wait Start
+        Set ANG1 135
+        
+        For i = 1 To 14
+          Incr ANG1 (-45 * DRCT)
+          ClearPicture
+          PaintPicture WP_FILE (C_X - 4) (C_Y + 20 + Y_P) G_S G_S 透過 右回転 ANG1 _ColorTime(FL)
+          Refresh
+          Wait Until (i * 0.3)
+        Next
+      EndIf
+  EndIf
+
+Wait 1
+ Return "Keep"
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+#				画面外ビーム
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_FE画面外ビーム攻撃:
+# 引数１  人工衛星画像名//不要
+# 引数２  対象ユニット
+# 引数３　色
+# 引数４　効果音
+
+Local i
+Local S_X
+Local B_C
+Local ANG
+Local X_F
+Local Y_F
+Local UID
+Local SIZE
+
+UnSet 戦闘アニメ変数
+
+
+Set UID _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+Set BMP_FILE _GetName("Common\EFFECT_ArtificialSatellite01.bmp",_GetBmpFromArgs())
+Set B_C _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs()))
+
+
+If (UID != "") Then
+  Center UID
+Else
+  Center X(目標地点) Y(目標地点)
+EndIf
+
+Set S_X (((X(対象ユニットＩＤ) + _Get_Y(相手ユニットＩＤ) + ターン数) Mod 9) * 60)
+
+
+Set ANG _GetAngle(S_X,0,208,208)
+
+Set X_F _GetCircumference(ANG,Ｘ)
+Set Y_F _GetCircumference(ANG,Ｙ)
+
+Set X_F (X_F * (24 / Y_F))
+Set Y_F 24
+
+Wait Until 15
+
+Wait Start
+_SelectSound "Beam.wav" _GetWavFromArgs()
+For i = -1 To 8  
+  PaintPicture ("MapBeam\EFFECT_LineBeam" & B_C & "01.bmp") (S_X + (X_F * i)) (Y_F * i) 64 64 透過 右回転 ANG _ColorTime(1)
+  Refresh
+  Wait Until ((i + 2) * 0.3)
+Next
+
+Wait 5
+
+ClearPicture
+Refresh
+Set 戦闘アニメ変数[色] B_C
+Return
+
+
+戦闘アニメ_FE２連画面外ビーム攻撃:
+# 引数１  人工衛星画像名//不要
+# 引数２  対象ユニット
+# 引数３　色
+# 引数４　効果音
+
+Local i
+Local S_X
+Local B_C
+Local ANG
+Local X_F
+Local Y_F
+Local UID
+Local SIZE
+
+UnSet 戦闘アニメ変数
+
+
+Set UID _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+Set BMP_FILE _GetName("Common\EFFECT_ArtificialSatellite01.bmp",_GetBmpFromArgs())
+Set B_C _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs()))
+
+
+If (UID != "") Then
+  Center UID
+Else
+  Center X(目標地点) Y(目標地点)
+EndIf
+
+Set S_X (((X(対象ユニットＩＤ) + _Get_Y(相手ユニットＩＤ) + ターン数) Mod 9) * 60)
+
+
+Set ANG _GetAngle(S_X,0,208,208)
+
+Set X_F _GetCircumference(ANG,Ｘ)
+Set Y_F _GetCircumference(ANG,Ｙ)
+
+Set X_F (X_F * (24 / Y_F))
+Set Y_F 24
+
+Wait Until 15
+
+Wait Start
+_SelectSound "Beam.wav" _GetWavFromArgs()
+For i = -1 To 8  
+  PaintPicture ("Beam\EFFECT_2Beam" & B_C & "05.bmp") (S_X + (X_F * i)) (Y_F * i) 64 64 4 16 32 32 左右反転 透過 右回転 ANG _ColorTime(1)
+  Refresh
+  Wait Until ((i + 2) * 0.3)
+Next
+
+Wait 5
+
+ClearPicture
+Refresh
+Set 戦闘アニメ変数[色] B_C
+Return
+
+
+
+
+
+
+
+
+
+戦闘アニメ_FE_流星剣攻撃:
+local i
+local k
+ Playsound BeamSaber.wav
+  Wait Start
+ For i = 2 to 5
+ k = i * 5
+ ClearPicture
+ PaintPicture _GetBMPName(対象ユニットＩＤ) (WX()) (WY() + k) 32 32 透過 暗
+ PaintPicture _GetBMPName(対象ユニットＩＤ) (WX() + k) (WY()) 32 32 透過 暗
+ PaintPicture _GetBMPName(対象ユニットＩＤ) (WX() - k) (WY()) 32 32 透過 暗
+ PaintPicture _GetBMPName(対象ユニットＩＤ) (WX()) (WY() - k) 32 32 透過 暗
+ PaintPicture _GetBMPName(対象ユニットＩＤ) WX() WY() 32 32 透過
+ Refresh
+ Wait Until (i * 0.5 - 0.5)
+ Next
+ ClearPicture
+ Refresh
+
+Return
+
+
+
+戦闘アニメ_FE_多重召還攻撃:
+local i
+local k
+ Playsound BeamSaber.wav
+ PaintPicture _GetBMPName(対象ユニットＩＤ) WX() WY() 32 32 透過 シルエット
+ Refresh
+ Wait 0.5
+  Wait Start
+ For i = 2 to 5
+ k = i * 5
+ ClearPicture
+ PaintPicture ("Unit\" & Args(1)) (WX()) (WY() + k) 32 32 透過 暗
+ PaintPicture ("Unit\" & Args(1)) (WX() + k) (WY()) 32 32 透過 暗
+ PaintPicture ("Unit\" & Args(1)) (WX() - k) (WY()) 32 32 透過 暗
+ PaintPicture ("Unit\" & Args(1)) (WX()) (WY() - k) 32 32 透過 暗
+ PaintPicture _GetBMPName(対象ユニットＩＤ) WX() WY() 32 32 透過
+ Refresh
+ Wait Until (i * 0.5 - 0.5)
+ Next
+ k = i * 5
+ ClearPicture
+ PaintPicture ("Unit\" & Args(1)) (WX()) (WY() + k) 32 32 透過
+ PaintPicture ("Unit\" & Args(1)) (WX() + k) (WY()) 32 32 透過
+ PaintPicture ("Unit\" & Args(1)) (WX() - k) (WY()) 32 32 透過
+ PaintPicture ("Unit\" & Args(1)) (WX()) (WY() - k) 32 32 透過
+ PaintPicture _GetBMPName(対象ユニットＩＤ) WX() WY() 32 32 透過
+ Refresh
+ Wait Until (i * 0.5)
+ ClearPicture
+ Refresh
+
+Return
+
+
+
+
+戦闘アニメ_FE_フォルセティ攻撃:
+local i
+local k
+ Playsound Storm.wav
+ Wait Start
+ For i = 2 to 9
+ k = i * 8
+ #ClearPicture
+ PaintPicture Back\EFFECT_BACK_XS(Green)08.bmp (WX(相手ユニット) - k + 16) (WY(相手ユニット) - k + 16) (2 * k) (2 * k) 透過 _ColorTime()
+ PaintPicture _GetBMPName(相手ユニットＩＤ) WX(相手ユニット) WY(相手ユニット) 32 32 透過 _ColorTime()
+ PaintPicture _GetBMPName(対象ユニットＩＤ) WX(対象ユニット) WY(対象ユニット) 32 32 透過 _ColorTime()
+ Refresh
+ Wait Until (i * 0.2)
+ Next
+ k = 80
+ PaintPicture Back\EFFECT_BACK_XS(Green)08.bmp (WX(相手ユニット) - k + 16) (WY(相手ユニット) - k + 16) (2 * k) (2 * k) 透過 _ColorTime() 保持
+ PaintPicture _GetBMPName(相手ユニットＩＤ) WX(相手ユニット) WY(相手ユニット) 32 32 透過 _ColorTime() 保持
+ PaintPicture _GetBMPName(対象ユニットＩＤ) WX(対象ユニット) WY(対象ユニット) 32 32 透過 _ColorTime() 保持
+ Wait Until 2
+
+Return
+
+ PaintPicture Back\EFFECT_BACK_XS(Green)08.bmp (WX(相手ユニット) - k + 16) (WY(相手ユニット) - k + 16) (2 * k) (2 * k) 透過 _ColorTime() 保持
+ PaintPicture _GetBMPName(相手ユニットＩＤ) WX(相手ユニット) WY(相手ユニット) 32 32 透過 _ColorTime() 保持
+ PaintPicture _GetBMPName(対象ユニットＩＤ) WX(対象ユニット) WY(対象ユニット) 32 32 透過 _ColorTime() 保持
+
+
+
+
+
+
+戦闘アニメ_FE_フォルセティ命中:
+
+local i
+local k
+ Playsound MicroMissile.wav
+ Wait Start
+ For k = 0 to 2
+ For i = 1 to 8
+ ClearPicture
+  PaintPicture ("Back\EFFECT_BACK_XS(Green)0" & i & ".bmp") (WX(相手ユニット) - 64) (WY(相手ユニット) - 64)
+  PaintPicture _GetBMPName(対象ユニットＩＤ) WX(対象ユニット) WY(対象ユニット) 32 32 透過 _ColorTime()
+ Switch k
+  Case 0
+   PaintPicture _GetBMPName(相手ユニットＩＤ) (WX(相手ユニット) + Random(3) - 1) (WY(相手ユニット) + Random(3) - 1) 32 32 透過 _ColorTime()
+  Case 1
+   PaintPicture _GetBMPName(相手ユニットＩＤ) (WX(相手ユニット) + Random(3) - 1) (WY(相手ユニット) + Random(3) - 1) 32 32 透過 暗 _ColorTime()
+  Case 2
+   PaintPicture _GetBMPName(相手ユニットＩＤ) (WX(相手ユニット) + Random(3) - 1) (WY(相手ユニット) + Random(3) - 1) 32 32 透過 シルエット _ColorTime()
+ EndSW
+ Refresh
+ Wait Until (i * 0.2 + k * 1.6)
+ Next
+ Next
+ ClearPicture
+ Refresh
+ Redraw
+
+Return
+
+
+
+
+
+
+
+
+
+戦闘アニメ_FE_オーラ準備:
+
+local i
+local k
+Local ANG
+Local C_X
+Local C_Y
+Local EFFECT_FILE
+#Set ANG 0
+Set ANG 90
+Set C_X WX(対象ユニット)
+Set C_Y WY(対象ユニット)
+Set EFFECT_FILE "Beam\EFFECT_SuperBeamHit(Pink)0"
+ Playsound Whiz.wav
+Wait Start
+For i = 1 To 9
+  PaintPicture (EFFECT_FILE & i & ".bmp") (C_X - 8) (C_Y - 56) 48 96 透過 _ColorTime(1) 右回転 ANG
+  Wait Until (i * 0.3)
+    Refresh
+Next
+Return
+
+
+
+戦闘アニメ_FE_オーラ攻撃:
+
+local i
+local k
+Local ANG
+Local C_X
+Local C_Y
+Local EFFECT_FILE
+#Set ANG 0
+Set ANG 90
+Set C_X WX(相手ユニット)
+Set C_Y WY(相手ユニット)
+Set EFFECT_FILE "Beam\EFFECT_SuperBeamHit(Pink)0"
+ Playsound Jet.wav
+Wait Start
+For i = 1 To 9
+  PaintPicture (EFFECT_FILE & i & ".bmp") (C_X - 8) (C_Y - 56) 48 96 透過 _ColorTime(1) 右回転 ANG
+  Wait Until (i * 0.3)
+    Refresh
+Next
+Wait Start
+For i = 5 To 9
+  PaintPicture (EFFECT_FILE & i & ".bmp") (C_X - 8) (C_Y - 56) 48 96 透過 _ColorTime(1) 保持 右回転 ANG
+  Wait Until (i * 0.3)
+    Refresh
+Next
+
+Return
+
+
+
+戦闘アニメ_FE_オーラ命中:
+
+local i
+local k
+Local ANG
+Local C_X
+Local C_Y
+Local EFFECT_FILE
+#Set ANG 0
+Set ANG 90
+Set C_X WX(相手ユニット)
+Set C_Y WY(相手ユニット)
+Set EFFECT_FILE "Beam\EFFECT_SuperBeamHit(Pink)0"
+ Playsound Crash.wav
+Wait Start
+For i = 5 To 9
+  PaintPicture (EFFECT_FILE & i & ".bmp") (C_X - 8) (C_Y - 56) 48 96 透過 _ColorTime(1) 右回転 ANG
+  Wait Until (i * 0.3)
+    Refresh
+Next
+ ClearPicture
+ Refresh
+ Redraw
+
+Return
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+#現状、画像を必ず設定しないといけません
+
+戦闘アニメ_FEデフォルト必殺クリティカル:
+ Call 戦闘アニメ_ダメージ命中 Crash.wav
+ Call 戦闘アニメ_デフォルトクリティカル
+Return
+
+
+戦闘アニメ_FE槍必殺クリティカル:
+
+Local G_S
+Local X_P
+Local Y_P
+Local C_X
+Local C_Y
+Local WP_FILE
+Local FL
+Local ANG1
+Local ANG2
+Local i
+Local DRCT
+Local UID
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+_CenteringCheck UID
+Set C_X WX(UID)
+Set C_Y WY(UID)
+
+Set WP_FILE _GetBmpFromArgs()
+Set G_S _GetPicSizeFromArgs()
+
+If (_IsLight() = 1) Then
+  Set FL 1
+Else
+  Set FL ""
+EndIf
+
+Set X_P (16 - (G_S \ 2))
+Set Y_P (16 - (G_S \ 2))
+Incr C_Y (32 - G_S)
+
+
+If (_SearchOptionFromArgs(反転) != "") Then
+  Set DRCT -1
+Else
+  Set DRCT 1
+EndIf
+_SelectSound "MultipleRocketLauncher(Light).wav" _GetWavFromArgs()
+
+  If (X(UID) >= _Get_X(相手ユニットＩＤ)) Then
+    Wait Start
+    Set ANG1 45
+
+    For i = 1 To 15
+      Incr ANG1 (45 * DRCT)
+      ClearPicture
+      PaintPicture WP_FILE (C_X - 16 + X_P) C_Y G_S G_S 透過 右回転 ANG1 _ColorTime(FL)
+      Refresh
+      Wait Until (i * 0.3)
+    Next
+
+  Else
+    Wait Start
+    Set ANG1 135
+    
+    For i = 1 To 15
+      Incr ANG1 (-45 * DRCT)
+      ClearPicture
+      PaintPicture WP_FILE (C_X + 16 + X_P) C_Y G_S G_S 透過 上下反転 右回転 ANG1 _ColorTime(FL)
+      Refresh
+      Wait Until (i * 0.3)
+    Next
+  EndIf
+
+Wait 1
+ Return "Keep"
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_FE剣必殺クリティカル:
+
+#引数省略不可ラベル
+
+#引数１ 武器ファイル名１
+#引数２ 画像サイズ１
+#引数３ 武器ファイル名２
+#引数４ 画像サイズ２
+#引数５ 種別(突きかそれ以外か)
+#引数６ 攻撃タイプ(打撃、斬撃、刺突)
+#引数７ 発光
+#引数８ 対象ユニットＩＤ
+
+Local i
+Local BMP_FILE
+Local BMP_FILE2
+Local G_S1
+Local G_S2
+Local ANG
+Local ANG2
+Local DRCT
+Local DRCT2
+Local F_X1
+Local F_Y1
+Local F_X2
+Local F_Y2
+Local A_X
+Local A_Y
+Local X_F
+Local Y_F
+Local X_P
+Local W_X
+Local W_Y1
+Local W_Y2
+
+Local LN
+Local C_X
+Local C_Y
+Local FL
+Local UID
+Set UID _GetName(対象ユニットＩＤ,Args(8))
+
+_CenteringCheck 相手ユニットＩＤ
+Set C_X WX(相手ユニットＩＤ)
+Set C_Y WY(相手ユニットＩＤ)
+
+Set A_X WX(UID)
+Set A_Y WY(UID)
+
+Set BMP_FILE _GetBMPName(UID)
+Set BMP_FILE2 _GetTileName(UID)
+
+Set G_S1 _GetName(32,Args(2))
+Set G_S2 _GetName(32,Args(4))
+
+Set W_Y1 (C_Y + 32 - G_S1)
+Set W_Y2 (C_Y + 32 - G_S2)
+
+Set ANG _GetAngle(UID)
+
+  Set X_P (16 - (G_S1 \ 2))
+  Set W_Y (C_Y + 32 - G_S1)
+  Set DRCT2 ""
+  If (X(UID) >= X(相手ユニットＩＤ)) Then
+    Set W_X (C_X - X_P - 16)
+    Set DRCT ""
+  Else
+    Set W_X (C_X + 16)
+    Set DRCT 左右反転
+  EndIf
+
+Set X_F _GetCircumference(ANG,Ｘ)
+Set Y_F _GetCircumference(ANG,Ｙ)
+
+If (Args(7) = 発光) Then
+  Set FL 1
+EndIf
+
+# 相手に突撃していくところ
+
+Wait Start
+If (BMP_FILE2 = "") Then
+  ChangeUnitBitmap UID 非表示
+EndIf
+
+For i = 1 To 17
+  ClearPicture
+
+  If (BMP_FILE2 != "") Then
+    PaintPicture BMP_FILE2 A_X A_Y _ColorTime()
+  EndIf
+
+  Switch i
+  Case 1
+    PlaySound "Beam.wav"
+    Set LN -32
+  Case 2
+    PaintPicture BMP_FILE (C_X + (X_F * -32)) (C_Y + (Y_F * -32)) 透過 シルエット _ColorTime()
+    Set LN 99
+  Case 3
+    PaintPicture BMP_FILE (C_X + (X_F * -32)) (C_Y + (Y_F * -32)) 透過 シルエット _ColorTime()
+    PaintPicture "Common\EFFECT_AccidentalImage01.bmp" (C_X + (X_F * -32)) (C_Y + (Y_F * -32)) 透過 _ColorTime()
+  Case 4
+    PaintPicture "Common\EFFECT_AccidentalImage01.bmp" (C_X + (X_F * -32)) (C_Y + (Y_F * -32)) 透過 _ColorTime()
+    PaintPicture "Hit\EFFECT_SuperChargeHit01.bmp" (C_X - 16) (C_Y - 16) 64 64 透過 右回転 ANG _ColorTime(1)
+  Case 5
+    PlaySound "Slash.wav"
+    PaintPicture "Hit\EFFECT_SuperChargeHit02.bmp" (C_X - 16) (C_Y - 16) 64 64 透過 右回転 ANG _ColorTime(1)
+    PaintPicture "Common\EFFECT_Shine(Blue)01.bmp" (C_X + 4) (C_Y + 4) 24 24 透過 _ColorTime(1)
+  Case 6
+    PaintPicture "Hit\EFFECT_SuperChargeHit02.bmp" (C_X - 16) (C_Y - 16) 64 64 透過 右回転 ANG _ColorTime(1)
+    PaintPicture "Common\EFFECT_Shine(Blue)02.bmp" (C_X + 4) (C_Y + 4) 24 24 透過 _ColorTime(1)
+  Case 7
+    PaintPicture "Hit\EFFECT_SuperChargeHit02.bmp" (C_X - 16) (C_Y - 16) 64 64 透過 右回転 ANG _ColorTime(1)
+    PaintPicture "Common\EFFECT_Shine(Blue)03.bmp" (C_X + 4) (C_Y + 4) 24 24 透過 _ColorTime(1)
+  Case 8
+    PaintPicture "Common\EFFECT_AccidentalImage01.bmp" (C_X + (X_F * 32)) (C_Y + (Y_F * 32)) 透過 _ColorTime()
+    PaintPicture "Common\EFFECT_SuperChargeHit01.bmp" (C_X - 16) (C_Y - 16) 64 64 透過 左右反転 右回転 ANG _ColorTime(1)
+  Case 9
+    PaintPicture "Common\EFFECT_AccidentalImage01.bmp" (C_X + (X_F * 32)) (C_Y + (Y_F * 32)) 透過 _ColorTime()
+  #Case 10
+    #PaintPicture BMP_FILE (C_X + (X_F * 32)) (C_Y + (Y_F * 32)) 透過 シルエット _ColorTime()
+  Case 14
+    Set LN 32
+  EndSw
+
+  If (LN != 99) Then
+    If (((ANG Mod 360) > 90) And ((ANG Mod 360) < 270) ) Then
+      PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 透過 左右反転 _ColorTime()
+    Else
+      PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 透過 _ColorTime()
+    EndIf
+
+    If ((Args(1) != "") And (Args(1) != "-")) Then
+      If ((Args(3) = "") Or (Args(3) = "-")) Then
+        PaintPicture Args(1) (W_X + (X_F * LN)) (W_Y1 + (Y_F * LN)) 透過 DRCT DRCT2 _ColorTime(FL)
+      Else
+        PaintPicture Args(1) ((C_X - X_P - 16) + (X_F * LN)) (W_Y1 + (Y_F * LN)) 透過 _ColorTime(FL)
+        PaintPicture Args(3) ((C_X + 16) + (X_F * LN)) (W_Y2  + (Y_F * LN)) 透過 左右反転 _ColorTime(FL)
+      EndIf
+    EndIf
+  EndIf
+  Refresh
+  Wait Until (i * 0.7)
+Next
+ Return "Keep"
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_FE五連斬命中:
+
+
+Local ANG
+Set ANG _GetAngle(UID)
+
+Call 戦闘アニメ_スーパータックル命中 Args(1) Args(2) Args(3) ANG
+Call 戦闘アニメ_スーパータックル命中 Args(1) Args(2) Args(3) ((ANG + 288) Mod 360)
+Call 戦闘アニメ_スーパータックル命中 Args(1) Args(2) Args(3) ((ANG + 144) Mod 360)
+Call 戦闘アニメ_スーパータックル命中 Args(1) Args(2) Args(3) ((ANG + 72) Mod 360)
+Call 戦闘アニメ_スーパータックル命中 Args(1) Args(2) Args(3) ((ANG + 216) Mod 360)
+
+ClearPicture
+Refresh
+Return

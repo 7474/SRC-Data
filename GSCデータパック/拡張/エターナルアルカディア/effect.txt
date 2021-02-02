@@ -1,0 +1,51 @@
+空賊
+衝撃波, Whiz.wav
+衝撃波(命中), 1;Slash.wav;Slash.wav
+ダブルカトラス(命中), 2;Slash.wav;Slash.wav
+リヴェンジ(命中), Slash.wav
+カトラスダンス(命中), 2;Stab.wav;2;Stab.wav;Slash.wav
+エアロスマッシュ, Whiz.wav
+エアロスマッシュ(命中), Thunder.wav
+ジョリーロジャー, Thunder.wav
+ジョリーロジャー(命中), 4;BeamSaber.wav;2;Slash.wav;Crash.wav
+ブーメラン, 2;Swing.wav;2;Swing.wav;Swing.wav
+ブーメラン(命中), Punch(2).wav
+アルファストーム, MultipleRocketLauncher(Light).wav
+アルファストーム(命中), Fire.wav
+ラムダバースト, Breath.wav
+ラムダバースト(命中), Explode.wav
+オメガサイクロン, Storm.wav
+オメガサイクロン(命中), Explode(Nuclear).wav
+月の封印, Whiz.wav
+月の封印(命中), Shock(Low).wav
+月の封印(クリティカル), BeamCoat.wav
+キュピル(命中), Slash.wav
+月の波動, Whiz.wav
+月の波動(クリティカル), Splash.wav
+義手, Missile.wav
+義手(命中), Bazooka.wav
+噴！(命中), Explode.wav
+滅！(命中), Thunder.wav
+俺様の拳銃, Gun.wav
+派手にやろうぜ, Gun.wav;1;Gun.wav;1;Gun.wav;1;Gun.wav;1;Gun.wav;Gun.wav
+レイピア(命中), Stab.wav
+ミル・エスパーダ(命中), Crash.wav
+ラ・コロナシオン, Charge.wav
+ラ・コロナシオン(命中), Explode(Long).wav
+ネグローラ, Whiz.wav
+ネグローラ(クリティカル), Splash.wav
+ボルドーラ(命中), Thunder.wav
+テルミナール, 2;Bow.wav;Whiz.wav
+テルミナール(命中), Bazooka.wav
+キャノンスイング(命中), Crash.wav
+乱射キャノン, MicroMissile.wav
+乱射キャノン(命中), Explode(Long).wav
+大艦巨砲キャノン, Warship.wav
+大艦巨砲キャノン(命中), Explode(Long).wav
+銀世界の破滅, Glass.wav
+銀世界の破滅(命中), Crash.wav
+銀色の光と闇(命中), 4;Stab.wav;4;Stab.wav;Slash.wav
+銀の永久凍土(命中), Glass.wav
+
+
+

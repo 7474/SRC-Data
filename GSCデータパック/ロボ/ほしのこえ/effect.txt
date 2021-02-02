@@ -1,0 +1,18 @@
+トレーサー
+レーザーガン(準備), Reload.wav
+レーザーガン, 1;Beam.wav;1;Beam.wav;1;Beam.wav
+ミサイル斉射, 1;Missile.wav;1;Missile.wav;1;Missile.wav;1;Missile.wav;1;Missile.wav;1;Missile.wav;1_
+Missile.wav;1;Missile.wav;6;Missile.wav;2;Explode(far).wav;2;Explode(far).wav;2;Explode(far).wav;2
+多連装ミサイル, 2;Missile.wav;2;Missile.wav;2;Missile.wav;2
+アームバルカン, MachineCannon.wav
+突撃(準備), 5;BeamSaber.wav;5;Jet.wav
+突撃(命中), 1;Drill.wav;1;Drill.wav;1;Drill.wav;1;Drill.wav;1;Drill.wav;1;Drill.wav;1;Drill.wav;1;Drill.wav;1_
+Drill.wav;1;Drill.wav;1;Drill.wav;1;BeamSaber.wav
+
+
+タルシアン
+自爆, 1;Inori.wav;1;Inori.wav;1;Inori.wav;1;Inori.wav;1;Inori.wav
+精神侵食, 5;fold.wav;5;glass.wav
+生体レーザー, Beam.wav
+
+

@@ -1,0 +1,654 @@
+
+################################################################################
+### レーザーランスの攻撃アニメーション。
+戦闘アニメ_EDF4_レーザーランス攻撃:
+
+Center 相手ユニットＩＤ
+
+Local L_UnitBmp = _GetBMPName(_GetName(対象ユニットＩＤ,_GetIDFromArgs()))
+Local L_Color   = _GetBC(_GetName("緑",_GetColorFromArgs()))
+
+Local  L_i L_BmpNo L_SoundPlayed L_TimeColor
+
+L_SoundPlayed = 0
+L_TimeColor = _ColorTime() //時間帯に応じたPaintPictureオプション
+
+For L_i = 1 To 10
+	ClearPicture
+	
+	If (L_i > 1) Then
+		PaintPicture L_UnitBmp L_X L_Y 左右反転 右回転 30 透過 セピア L_TimeColor
+	EndIf
+	
+	L_X = (240 - 16) + (32 * (L_i - 5))
+	L_Y = (240 - 16) + 16 - Int(2 * ((10 - L_i) ^ 2))
+	
+	PaintPicture L_UnitBmp L_X L_Y 左右反転 右回転 30 透過 L_TimeColor
+	
+	L_BmpNo = Min(3, Min(L_i - 1, 9 - L_i))
+	If (L_BmpNo > 0) Then
+		If L_SoundPlayed = 0 Then
+			PlaySound _GetName("Beam.wav",_GetWavFromArgs())
+			L_SoundPlayed = 1
+		EndIf
+		PaintPicture ("Laser\EFFECT_EnergyBlade" & L_Color & "0" & L_BmpNo & ".bmp") (L_X + 16) (L_Y + 16) 透過 左右反転 上下反転
+	EndIf
+	
+	Refresh
+	Wait 0.5
+Next
+
+Return
+
+################################################################################
+### レイピアの攻撃アニメーション。
+戦闘アニメ_EDF4_レイピア攻撃:
+
+Center 相手ユニットＩＤ
+
+Local L_UnitBmp = _GetBMPName(_GetName(対象ユニットＩＤ,_GetIDFromArgs()))
+Local L_Color   = _GetBC(_GetName("赤",_GetColorFromArgs()))
+
+Local  L_i L_j L_TimeColor
+
+L_TimeColor = _ColorTime() //時間帯に応じたPaintPictureオプション
+
+PlaySound _GetName("Search.wav",_GetWavFromArgs())
+For L_i = 1 To 10
+	ClearPicture
+	
+	If (L_i > 1) Then
+		PaintPicture L_UnitBmp L_X L_Y 左右反転 右回転 30 透過 セピア L_TimeColor
+	EndIf
+	
+	L_X = (240 - 16) + (32 * (L_i - 5))
+	L_Y = (240 - 16) + 16 - Int(2 * ((10 - L_i) ^ 2))
+	
+	PaintPicture L_UnitBmp L_X L_Y 左右反転 右回転 30 透過 L_TimeColor
+	
+	For L_j = 1 To 5
+		PaintPicture ("Laser\EFFECT_EnergyBlade" & L_Color & "0" & (1 + Random(2)) & ".bmp") (L_X + 24 - (5 * L_j)) (L_Y - 8 + (5 * L_j)) 透過 右回転 (120 + L_j * 20)
+	Next
+	
+	Refresh
+	Wait 0.75
+Next
+
+Return
+
+################################################################################
+### ＭＡＰ兵器用の煙描画アニメーション。
+
+戦闘アニメ_EDF4_ＭＡＰ煙描画準備:
+
+Local ANG G_S EXPAN
+Local i j C_X C_Y W_X W_Y W_X2 W_Y2 X_F Y_F
+Local B_C = _GetName("(White)",_G_BC_FA())
+Local BMP_FILE
+Local T_COL = _ColorTime()
+
+C_X = WX(目標地点)
+C_Y = WY(目標地点)
+
+For i = 1 To 3
+  Set ANG (45 + Random(90))
+  Set W_X[i] C_X
+  Set W_Y[i] (C_Y + 8)
+  Set EXPAN[i] (1.2 - (i * 0.03))
+  Set G_S[i] 28
+  Set X_F[i] (_GetCircumference(ANG,Ｘ) * (i + 1))
+  Set Y_F[i] (_GetCircumference(ANG,Ｙ) * (i + 1))
+  Switch Random(3)
+  Case 1
+    Set BMP_FILE[i] ("Smoke\EFFECT_SmokeA" & B_C & "0")
+  Case 2
+    Set BMP_FILE[i] ("Smoke\EFFECT_SmokeB" & B_C & "0")
+  Case 3
+    Set BMP_FILE[i] ("Smoke\EFFECT_SmokeC" & B_C & "0")
+  EndSw
+Next
+
+Wait Start
+
+_SelectSound "-.wav" _GetWavFromArgs()
+
+For i = 1 To 7
+  ClearPicture
+  For j = 1 To 3
+    Incr W_X[j] X_F[j]
+    Incr W_Y[j] Y_F[j]
+    Set G_S[j] (G_S[j] * EXPAN[j])
+    Set W_X2 (W_X[j] + (16 - (G_S[j] \ 2)))
+    Set W_Y2 (W_Y[j] + (16 - (G_S[j] \ 2)))
+    Switch i
+    Case 1 2 3 4
+      PaintPicture (BMP_FILE[j] & "1.bmp") W_X2 W_Y2 G_S[j] G_S[j] 透過 T_COL
+    Case 5
+      PaintPicture (BMP_FILE[j] & "2.bmp") W_X2 W_Y2 G_S[j] G_S[j] 透過 T_COL
+    Case 6
+      PaintPicture (BMP_FILE[j] & "3.bmp") W_X2 W_Y2 G_S[j] G_S[j] 透過 T_COL
+    Case 7
+      PaintPicture (BMP_FILE[j] & "4.bmp") W_X2 W_Y2 G_S[j] G_S[j] 透過 T_COL
+    EndSw
+  Next
+  Refresh
+  Wait Until (0.6 * i)
+Next
+
+Return
+
+################################################################################
+### 画面外から砲弾が飛ぶ攻撃アニメーション。
+
+戦闘アニメ_EDF4_画面外砲弾攻撃:
+
+Call 戦闘アニメ_EDF4_画面外砲弾攻撃共通 WX(相手ユニットＩＤ) WY(相手ユニットＩＤ) _GetWavFromArgs()
+
+Return
+
+戦闘アニメ_EDF4_ＭＡＰ画面外砲弾攻撃:
+
+Center X(目標地点) Y(目標地点)
+Call 戦闘アニメ_EDF4_画面外砲弾攻撃共通 WX(目標地点) WY(目標地点) _GetWavFromArgs()
+
+Return
+
+戦闘アニメ_EDF4_画面外砲弾攻撃共通:
+
+Local L_TargetPosX = Args(1) + 16
+Local L_TargetPosY = Args(2) + 16
+
+Local  L_i L_j L_DelayTable L_VecTable L_AngleTable L_MaxDelay
+
+L_MaxDelay = 0
+For L_i = 1 To 18
+	L_DelayTable[L_i] = Random(5) - 1
+	If L_MaxDelay < L_DelayTable[L_i] Then
+		L_MaxDelay = L_DelayTable[L_i]
+	EndIf
+	
+	L_VecTable[L_i]   = Random(5)
+	L_AngleTable[L_i] = Random(12)
+Next
+
+PlaySound _GetName("MultipleRocketLauncher.wav",_GetWavFromArgs())
+
+L_MaxDelay = L_MaxDelay + 10
+
+For L_i = 1 To L_MaxDelay
+	ClearPicture
+	
+	For L_j = 1 To 18
+		If (L_i >= L_DelayTable[L_j] And (11 - L_i + L_DelayTable[L_j]) >= 0) Then
+			Call 戦闘アニメ_EDF4_極座標砲弾描画 (20 * L_j + L_AngleTable[L_j]) (L_VecTable[L_j] * (11 - L_i + L_DelayTable[L_j]) ^ 2 + 16) L_TargetPosX L_TargetPosY セピア
+			Call 戦闘アニメ_EDF4_極座標砲弾描画 (20 * L_j + L_AngleTable[L_j]) (L_VecTable[L_j] * (11 - L_i + L_DelayTable[L_j]) ^ 2)      L_TargetPosX L_TargetPosY
+		EndIf
+	Next
+	
+	Refresh
+	Wait 0.75
+Next
+
+Return
+
+戦闘アニメ_EDF4_極座標砲弾描画:
+
+If Args(2) < 30 Then
+	Return
+EndIf
+
+Local L_Angle    = Args(1)
+Local L_AngleR   = 3.141592 * L_Angle / 180
+Local L_Distance = Args(2)
+Local L_CenterX  = Args(3)
+Local L_CenterY  = Args(4)
+
+PaintPicture "Bullet\EFFECT_SmallCannon01.bmp" _
+             (L_CenterX + (L_Distance * Cos(L_AngleR)) - 16) _
+             (L_CenterY + (L_Distance * Sin(L_AngleR)) - 16) _
+             透過 右回転 L_Angle _S_OPT_FA("セピア")
+
+Return
+
+################################################################################
+### 上空から命中するアニメーション。
+
+戦闘アニメ_EDF4_上空チェーンガン命中:
+
+_CenteringCheck 相手ユニットＩＤ
+
+Local i j
+Local ANG = _GetAngle(Random(5), 0, 3, 5)
+Local C_X = (WX(相手ユニットＩＤ) - 16)
+Local C_Y = (WY(相手ユニットＩＤ) - 16)
+Local B_C = _GN("(Blue)",_G_BC_FA())
+
+
+_SelectSound "MachineGun.wav" _GetWavFromArgs()
+For j = 1 To 3
+  Wait Start
+  For i = 1 To 6
+    _PaintCutin_KZ _SetBMPNum(("ShootAnime\EFFECT_ChainGunHit" & B_C),i) ANG C_X C_Y
+    Wait Until (i * 0.3)
+  Next
+Next
+
+ClearPicture
+Refresh
+
+Return
+
+戦闘アニメ_EDF4_上空レールガン命中:
+
+_CenteringCheck 相手ユニットＩＤ
+
+Local i j
+Local ANG = _GetAngle(Random(5), 0, 3, 5)
+Local C_X = (WX(相手ユニットＩＤ) - 16)
+Local C_Y = (WY(相手ユニットＩＤ) - 16)
+Local B_C = _GN("(Blue)",_G_BC_FA())
+
+Wait Start
+For i = 1 To 6
+  If (i = 3) Then
+    _SelectSound "Explode.wav" _GetWavFromArgs()
+  EndIf
+  _PaintCutin_KZ _SetBMPNum(("ShootAnime\EFFECT_RailGunHit" & B_C),i) ANG C_X C_Y
+  Wait Until (i * 0.7)
+Next
+
+ClearPicture
+Refresh
+
+Return
+
+################################################################################
+### 爆撃機が通過するアニメーション(Ｍ直、Ｍ拡のみ)。
+
+戦闘アニメ_EDF4_ＭＡＰ爆撃機通過攻撃:
+
+Local UID L_i L_angle L_distanceX L_distanceY L_startX L_startY L_deltaX L_deltaY L_TimeColor
+
+Local L_ImgSize   = 64
+Local L_DrawCount = 20
+
+UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+L_distanceX = X(目標地点) - X(UID)
+L_distanceY = Y(目標地点) - Y(UID)
+
+If (Abs(L_distanceX) < Abs(L_distanceY)) Then
+#   縦
+	L_startX = 240 - (L_ImgSize / 2)
+	L_deltaX = 0
+	
+	If (L_distanceY < 0) Then
+	// 上向き
+		L_angle  = 90
+		L_startY = 480
+		L_deltaY = (480 / L_DrawCount) * -1
+	Else
+	// 下向き
+		L_angle  = 270
+		L_startY = 0
+		L_deltaY = (480 / L_DrawCount)
+	EndIf
+Else
+#   横
+	L_startY = 240 - L_ImgSize
+	L_deltaY = 0
+	
+	If (L_distanceX < 0) Then
+	// 左向き
+		L_angle  = 0
+		L_startX = 480
+		L_deltaX = (480 / L_DrawCount) * -1
+	Else
+	// 右向き
+		L_angle  = 180
+		L_startX = 0
+		L_deltaX = (480 / L_DrawCount)
+	EndIf
+EndIf
+
+L_TimeColor = _ColorTime() //時間帯に応じたPaintPictureオプション
+
+Center UID
+
+PlaySound "FlyBy.wav"
+For L_i = 1 To L_DrawCount
+	ClearPicture
+	PaintPicture "EFFECT_EDF4_Charon.bmp" (L_startX + (L_deltaX * (L_i - 1))) (L_startY + (L_deltaY * (L_i - 1))) L_ImgSize L_ImgSize 透過 右回転 L_angle L_TimeColor
+	
+	Refresh
+	
+	If (L_i = (L_DrawCount \ 2)) Then
+		_SelectSound "Bomb.wav" _GetWavFromArgs()
+	EndIf
+	
+	Wait 0.5
+Next
+
+Return
+
+################################################################################
+### 光線がふりそそぐアニメーション(Ｍ線のみ)。
+
+戦闘アニメ_EDF4_ＭＡＰ光線降り注ぎ攻撃:
+
+Local UID L_ColorName L_i L_Colors L_X1 L_Y1 L_X2 L_Y2 L_X L_Y L_LineColor
+
+L_ColorName = _GetName("(Blue)",_GetBeamColorFromArgs())
+L_Colors[1] = _GetBeamLineColor(L_ColorName)
+L_Colors[2] = _GetBeamLineColor(L_ColorName, "明")
+
+UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+Center UID
+
+L_X1 = WX(UID) + 16
+L_Y1 = WY(UID) + 8
+
+L_X2 = WX(目標地点) + 16
+L_Y2 = WY(目標地点) + 8
+
+Local L_DrawCount = 40
+
+_SelectSound "Interference.wav" _GetWavFromArgs()
+
+For L_i = (L_DrawCount \ 5) To L_DrawCount
+	L_LineColor = IIF(Random(3) = 1, L_Colors[1], L_Colors[2])
+	L_X = (L_X1 * (L_DrawCount - L_i) + L_X2 * L_i) \ L_DrawCount
+	L_Y = (L_Y1 * (L_DrawCount - L_i) + L_Y2 * L_i) \ L_DrawCount
+	
+	DrawWidth IIF(L_i Mod 2 = 1, 8, 6)
+	Line  (L_X + 8) 0 L_X L_Y L_LineColor
+	
+	DrawWidth IIF(L_i Mod 4 = 1, 5, 4)
+	Line  (L_X + 8) 0 L_X L_Y #FFFFFF
+	
+	PaintPicture ("Light\EFFECT_LightGeyser" & L_ColorName & "0" & ((L_i Mod 2) + 1) & ".bmp") (L_X - 68) (L_Y - 120) 透過
+	
+	Refresh
+	
+	Wait 0.5
+	ClearPicture
+Next
+
+Refresh
+
+Return
+
+################################################################################
+### ミサイルが落ちてくるアニメーション。
+
+戦闘アニメ_EDF4_ＩＣＢＭ２落下攻撃:
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+Call 戦闘アニメ_打ち上げ下ろし共通 打ち下ろし _GetWPBN(ＩＣＢＭ(２)) _GetWPBS(ＩＣＢＭ(２)) _GetName("Missile.wav",_GetWavFromArgs()) 相手ユニットＩＤ
+
+Return
+
+################################################################################
+### レーザー誘導のアニメーション。
+
+戦闘アニメ_EDF4_レーザー誘導装置攻撃:
+
+Call 戦闘アニメ_EDF4_レーザー誘導装置共通 WX(相手ユニットＩＤ) WY(相手ユニットＩＤ) _GetIDFromArgs() _GetBeamColorFromArgs() _GetWavFromArgs()
+
+Return
+
+戦闘アニメ_EDF4_ＭＡＰレーザー誘導装置攻撃:
+
+Call 戦闘アニメ_EDF4_レーザー誘導装置共通 WX(目標地点) WY(目標地点) _GetIDFromArgs() _GetBeamColorFromArgs() _GetWavFromArgs()
+
+Return
+
+戦闘アニメ_EDF4_レーザー誘導装置共通:
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local G_S = 32
+Local W_X = (C_X + 16 - (G_S \ 2))
+Local W_Y = (C_Y + 16 - (G_S \ 2))
+Local LN = 2
+Local ANG = _GetAngle(UID)
+Local X_F = _GetCircumference(ANG,Ｘ)
+Local Y_F = _GetCircumference(ANG,Ｙ)
+Local DRCT = _FlipVertical(ANG)
+Local T_COL1 = _ColorTime(1)
+
+Local L_i L_Colors L_X1 L_Y1 L_X2 L_Y2 L_LineColor
+
+L_Colors[1] = _GetBeamLineColor(_GetName("(Red)",_GetBeamColorFromArgs()))
+L_Colors[2] = _GetBeamLineColor(_GetName("(Red)",_GetBeamColorFromArgs()), "明")
+
+L_X1 = WX(UID) + 16
+L_Y1 = WY(UID) + 16
+
+_SelectSound "Hittyuu.wav" _GetWavFromArgs()
+
+For L_i = 1 To 16
+	ClearPicture
+
+	L_X2 = Args(1) + 14 + Random(3)
+	L_Y2 = Args(2) + 14 + Random(3)
+
+	DrawWidth IIF(L_i Mod 2 = 1, 2, 3)
+	L_LineColor = IIF(Random(3) = 1, L_Colors[1], L_Colors[2])
+	
+	Line  L_X1 L_Y1 L_X2 L_Y2 L_LineColor
+	FillStyle 塗りつぶし
+	FillColor L_Colors[2]
+	Circle L_X2 L_Y2 4 L_LineColor
+	FillStyle 透明
+	
+	DrawWidth 2
+	Circle L_X2 L_Y2 (24 - L_i) L_Colors[1]
+
+	PaintPicture "Weapon\EFFECT_LaserGun01.bmp" (W_X + (X_F * LN)) (W_Y + (Y_F * LN)) G_S G_S 透過 DRCT 右回転 ANG T_COL1
+	
+	Refresh
+	Wait 1
+Next
+
+Return
+
+################################################################################
+### 輸送機が来るアニメーション。
+
+戦闘アニメ_EDF4_輸送機使用:
+
+Local L_MsgA L_MsgB L_MsgC
+
+L_MsgA = List("こちらポーターズ。ビークル投下地点に向かいます", _
+              "輸送部隊よりエアレイダー、要請を受諾。.目標地点に向かいます", _
+              "投下地点を確認。目標地点上空に到着。.ビークル投下用意！")
+
+L_MsgB = List("ビークル、投下！", _
+              "コンテナ、投下！", _
+              "コンテナ分離、投下！")
+
+L_MsgC = List("幸運を", _
+              "任務完了。戦場を離脱します", _
+              "このビークルが勝利に貢献することを祈ります", _
+              "その子は私のお気に入りです。壊さないように", _
+              "娘を嫁に出す気分です。大切に扱ってください", _
+              "軍の備品です。大事に使ってください", _
+              "確かにお渡ししました。後で書類に署名を")
+
+Call 戦闘アニメ_EDF4_輸送機共通 L_MsgA L_MsgB L_MsgC "ポーターズ(EDF4)" 1
+
+Return
+
+戦闘アニメ_EDF4_デプスクロウラー輸送機使用:
+
+Local L_MsgA L_MsgB L_MsgC
+
+L_MsgA = List("こちら輸送チーム。デプスクロウラーを輸送中", _
+              "デプスクロウラーを輸送している。.もうすぐ作戦エリアに着く")
+
+L_MsgB = List("デプスクロウラー、投下！")
+
+L_MsgC = List("新型のタンクだ。使い方は…って良くわからない", _
+              "蜘蛛みたいなやつだ。悪路どころか壁だって登れる。.役に立つぞ", _
+              "地底での戦闘を想定して作られた高性能タンクだ。.健闘を祈る")
+
+Call 戦闘アニメ_EDF4_輸送機共通 L_MsgA L_MsgB L_MsgC "ヒドラ１(EDF4)" 1
+
+Return
+
+戦闘アニメ_EDF4_バラム輸送機使用:
+
+Local L_MsgA L_MsgB L_MsgC
+
+L_MsgA = List("こちら輸送チーム。歩行要塞バラムを輸送中だ", _
+              "現在、歩行要塞バラムを輸送中。.まもなく、作戦エリアに入る")
+
+L_MsgB = List("歩行要塞バラム、投下！")
+
+L_MsgC = List("一旦は開発中止になった兵器だ。本当に役に立つのか…？", _
+              "こんな物を本当に使うことになるとはね…", _
+              "そいつを運ぶのにどれだけ苦労したと思ってる….大事に使えよ…", _
+              "バラムは人類の切り札だ。健闘を祈る")
+
+Call 戦闘アニメ_EDF4_輸送機共通 L_MsgA L_MsgB L_MsgC "ヒドラ１(EDF4)" 4
+
+Return
+
+戦闘アニメ_EDF4_輸送機共通:
+
+# 地上要請がない場合何も起こらないようにする
+If Skill(ストームエアレイダー(EDF4), 地上要請) = 0 Then
+	Return
+EndIf
+
+Local UID L_MsgA L_MsgB L_MsgC L_i L_X1 L_Y1 L_X2 L_Y2 L_X L_Y L_TimeColor
+
+UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+Center UID
+
+L_MsgA = LIndex(Args(1), Random(LLength(Args(1))))
+L_MsgB = LIndex(Args(2), Random(LLength(Args(2))))
+L_MsgC = LIndex(Args(3), Random(LLength(Args(3))))
+
+L_Y1 = 120 + Random(60)
+L_Y2 = 240 + Random(120)
+
+L_TimeColor = _ColorTime() //時間帯に応じたPaintPictureオプション
+
+_SelectSound "Helicopter.wav" _GetWavFromArgs()
+
+AutoTalk Args(4)
+	1;$(L_MsgA)
+Suspend
+
+For L_i = 1 To 24
+	ClearPicture
+
+	L_X = (240 / (23 ^ 2) * (24 - L_i) ^ 2) + 240 - 16
+	L_Y = ((L_Y1 * (24 - L_i)) + (240 * L_i)) \ 24 - 16
+
+	Call 戦闘アニメ_EDF4_輸送機描画  L_X L_Y L_TimeColor Args(5)
+	
+	Refresh
+	Wait 1
+Next
+
+AutoTalk Args(4)
+	1;$(L_MsgB).$(L_MsgC)
+Suspend
+
+_SelectSound "Helicopter.wav" _GetWavFromArgs()
+
+For L_i = 1 To 24
+	ClearPicture
+
+	L_X = 240 - (240 / (23 ^ 2) * L_i ^ 2) - 16
+	L_Y = ((L_Y2 * L_i) + (240 * (24 - L_i))) \ 24 - 16
+
+	Call 戦闘アニメ_EDF4_輸送機描画  L_X L_Y L_TimeColor Args(5)
+	
+	Refresh
+	Wait 1
+Next
+
+ClearPicture
+
+Return
+
+戦闘アニメ_EDF4_輸送機描画:
+If Args(4) = 4 Then
+	PaintPicture "EFFECT_EDF4_Hydra.bmp" (Args(1) - 24) (Args(2) - 24) 透過 Args(3)
+	PaintPicture "EFFECT_EDF4_Hydra.bmp" (Args(1) + 24) (Args(2) - 24) 透過 Args(3)
+	PaintPicture "EFFECT_EDF4_Hydra.bmp" Args(1) (Args(2) - 48) 透過 Args(3)
+	PaintPicture "EFFECT_EDF4_Hydra.bmp" Args(1) Args(2) 透過 Args(3)
+Else
+	PaintPicture "EFFECT_EDF4_Hydra.bmp" Args(1) (Args(2) - 48) 透過 Args(3)
+EndIf
+
+Return
+
+################################################################################
+### EDF讃歌の使用アニメーション。
+### 歌詞をカスタマイズする場合、EDF4変数_讃歌歌詞を配列変数として、長さ4のリストを設定してください。
+### 設定例：
+### EDF4変数_讃歌歌詞[1] = List("あ","い","う","え")
+戦闘アニメ_EDF4_讃歌使用:
+
+Local L_MainID L_CenterX L_CenterY L_Party L_Distance L_TargetPilots L_i L_Lyrics L_lrc L_LyricCount
+
+L_MainID  = 対象パイロット
+L_CenterX = X(対象ユニットＩＤ)
+L_CenterY = Y(対象ユニットＩＤ)
+L_Party   = Party(対象ユニットＩＤ)
+
+L_i = 0
+
+# 効果範囲内(M全2マス)にいる味方ユニットから3体選ぶ
+ForEach L_Party 出撃
+	L_Distance = Abs(X() - L_CenterX) + Abs(Y() - L_CenterY)
+	
+	If ((L_Distance > 0) And (L_Distance < 3)) Then
+		Incr L_i
+		L_TargetPilots[L_i] = PilotID()
+		If L_i = 3 Then
+			Break
+		EndIf
+	EndIf
+Next
+
+# 最後の締めは使用者
+L_TargetPilots[L_i + 1] = L_MainID
+
+# カスタム歌詞がある場合
+If Count(EDF4変数_讃歌歌詞) > 0 Then
+	L_i = 0
+	ForEach L_lrc In EDF4変数_讃歌歌詞
+		If LLength(EDF4変数_讃歌歌詞[L_lrc]) = 4 Then
+			Incr L_i
+			L_Lyrics[L_i] = EDF4変数_讃歌歌詞[L_lrc]
+		EndIf
+	Next
+	L_LyricCount = L_i
+EndIf
+
+# カスタム歌詞がないか、または内容が無効の場合
+If L_LyricCount = 0 Then
+	L_LyricCount = 2
+	L_Lyrics[1] = List("青い地球を守るため","EDFの出動だ","煌めく勝利の稲光","宇宙人ども撃滅だ")
+	L_Lyrics[2] = List("緑の地球が危ないぞ","EDFの出動だ","地球を守護する戦士達","宇宙人どもやっつけろ")
+EndIf
+
+L_Lrc = L_Lyrics[Random(L_LyricCount)]
+
+# メッセージ表示の実行
+For L_i = 1 To 4
+	AutoTalk L_TargetPilots[(L_i - 1) Mod 4 + 1]
+		20;$(LIndex(L_Lrc, L_i))
+	Suspend
+Next
+
+Return

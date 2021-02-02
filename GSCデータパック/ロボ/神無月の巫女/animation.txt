@@ -1,0 +1,164 @@
+武夜御鳴神
+剣(準備), 粒子集中 グリーン Beamshot.wav 対象ユニットＩＤ;振る武器 Weapon\EFFECT_GreatSword02.bmp 48 Sword(2).wav
+剣(攻撃), 振る武器突撃 Weapon\EFFECT_GreatSword02.bmp 48 Walk(Robot).wav;大斬撃 白 Swing(2).wav
+剣(命中), 大斬撃 白 Slash(2).wav
+射魔破弾(攻撃), 中ビーム 水色 BeamGun.wav
+射魔破弾(命中), 中ビーム 水色
+飛光斬盤(準備), -
+飛光斬盤(攻撃), ディレイ Slash(2).wav 4;実弾発射 Bullet\EFFECT_STG_Bullet(Orange)05.bmp BeamSaber(2).wav
+飛光斬盤(命中), 大爆発 オレンジ
+日輪烈光飛天鳳凰脚(準備), Sword.wav;2;放電 BeamSaber(2).wav;召喚 Bullet\EFFECT_STG_Bullet(Green)03.bmp -.wav
+日輪烈光飛天鳳凰脚(攻撃), 打ち下ろし投擲武器 Bullet\EFFECT_STG_Bullet(Green)03.bmp Whiz.wav
+日輪烈光飛天鳳凰脚(命中), 大気吸収 緑 -.wav;連続描画 Lightning\EFFECT_CU_HyperElectric(Green)[01-03].bmp 64 4 1 前面 BeamGun.wav;_
+　　　　　　　　　　　　　スーパーキック グリーン;光大噴出 グリーン Explode(Long).wav;光柱 グリーン -.wav
+日輪光烈大激破(準備), 召喚 Bullet\EFFECT_STG_Bullet(Green)03.bmp BeamSaber(2).wav;フェイスアップ
+日輪光烈大激破(攻撃), 実弾発射 Bullet\EFFECT_STG_Bullet(Green)03.bmp Flyby.wav 遅;スーパーパンチ 赤 Walk(Snow).wav
+日輪光烈大激破(命中), スーパーパンチ 赤 Warship.wav;光大噴出 グリーン Explode(Long).wav;光柱 グリーン -.wav
+日輪光烈絶激破(準備), 召喚 Common\EFFECT_LightBall01.bmp charge.wav;フェイスアップ
+日輪光烈絶激破(攻撃), @戦闘アニメ_大放電準備;投擲武器 Common\EFFECT_LargeElectric(Green)01.bmp 64 Breath.wav
+日輪光烈絶激破(命中), 巨大ビーム 黄 電撃;光大噴出 イエロー Explode(Long).wav;光柱 イエロー -.wav
+
+武夜御鳴神(翼)
+日輪光烈大激破(準備), @ＳＰアニメ_魂 対象ユニット;召喚 Bullet\EFFECT_STG_Bullet(Blue)03.bmp BeamSaber(2).wav;フェイスアップ
+日輪光烈大激破(攻撃), 実弾発射 Bullet\EFFECT_STG_Bullet(LightBlue)03.bmp Flyby.wav 遅;スーパーパンチ 赤
+日輪光烈大激破(命中), スーパーパンチ 赤 Warship.wav;光大噴出 水色 Explode(Long).wav;超爆発 水色 -.wav;フラッシュ 水色 Charge(Silent).wav
+
+
+剣神天叢雲剣
+封印(攻撃), 光圧縮 黄色
+封印(命中), -
+封印(クリティカル), @戦闘アニメ_バリア発動 BeamCoat.wav " ";捕縛
+光芒(攻撃), ２連中ビーム イエロー BeamGun.wav
+光芒(命中), ２連中ビーム イエロー
+剣(準備), 振る武器 Laser\EFFECT_EnergyBlade(Purple)03.bmp Reload(4).wav 二刀流
+剣(攻撃), 振る武器突撃 Laser\EFFECT_EnergyBlade(Purple)03.bmp Whiz.wav 二刀流;振り上げ 黒;なぎ払い 黒
+剣(命中), 大斬撃 黒 Slash(2).wav;横大斬撃 黒 Slash(2).wav
+月光蹴り(準備), 1;Map\moon0.bmp 240 240 背面
+月光蹴り(攻撃), 浮上アップ ("Unit\" & Info(ユニット,対象ユニットＩＤ,グラフィック));スーパーキック 紫
+月光蹴り(命中), スーパーキック 紫 Sword.wav;大爆発
+光の剣(準備), 連続描画 Bullet\EFFECT_BeamRingCutter(Yellow)[01-04].bmp 48 6 1 背面 Charge(high).wav
+光の剣(攻撃), 光大噴出 イエロー Fire(2).wav 対象ユニットＩＤ;_
+　　　　　　　振る武器突撃 BeamWeapon\EFFECT_LBeamSword(Yellow)03.bmp 128 Dynamite.wav
+光の剣(命中), 超斬撃 イエロー Slash(4).wav
+天叢雲剣(準備), 連続描画 Bullet\EFFECT_BeamRingCutter(Yellow)[01-04].bmp 48 6 1 背面 Charge(high).wav
+天叢雲剣(攻撃), 光大噴出 イエロー Fire(2).wav 対象ユニットＩＤ;_
+　　　　　　　　振る武器突撃 BeamWeapon\EFFECT_LBeamSword(Yellow)03.bmp 128 Dynamite.wav
+天叢雲剣(命中), 超斬撃 イエロー Slash(4).wav
+
+
+武夜御鳴神(千歌音)
+射魔破弾(攻撃), 中ビーム 水色 BeamGun.wav
+射魔破弾(命中), 中ビーム 水色
+飛光斬盤(準備), -
+飛光斬盤(攻撃), ディレイ Slash(2).wav 4;実弾発射 Bullet\EFFECT_STG_Bullet(Orange)05.bmp BeamSaber(2).wav
+飛光斬盤(命中), 大爆発 オレンジ
+噛み付き(攻撃), ジャンプ Beast.wav
+噛み付き(命中), 超斬撃 ホワイト Crash.wav;超斬撃 ホワイト Crash.wav
+弓矢(準備), -
+弓矢(攻撃), 銃撃武器 Weapon\EFFECT_JapaneseBow00.bmp 32 Beam\EFFECT_Beam(Green)05.bmp 64 BeamGun.wav
+弓矢(命中), 小ビーム グリーン;大爆発 イエロー
+弓矢連射(準備), フェイスアップ 姫宮千歌
+弓矢連射(攻撃), 銃撃武器 Weapon\EFFECT_JapaneseBow00.bmp 32 Beam\EFFECT_Beam(Green)05.bmp 64 BeamGun.wav;_
+　　　　　　　　実弾連射 LightWeapon\EFFECT_LightArrow(Green)04.bmp Slash(4).wav
+弓矢・連射(命中), 超爆発
+
+
+嶽鑓御太刀神
+破壊光線(攻撃), 大電撃 紫 AntiAirMissile.wav
+破壊光線(命中), 大電撃 紫 Explode.wav
+剣(準備), 振る武器 Weapon\EFFECT_GreatSword02.bmp 48 Walk(Snow).wav
+剣(攻撃), 振る武器突撃 Weapon\EFFECT_GreatSword02.bmp 48 Whiz.wav;大斬撃 白 Swing(2).wav
+剣(命中), 大斬撃 白 Slash(2).wav
+胸部熱線砲(準備), -
+胸部熱線砲(攻撃), 粒子集中 赤 charge.wav 対象ユニットＩＤ;大ビーム 赤 BeamGun.wav
+胸部熱線砲(命中), 大ビーム 赤 BeamGun.wav;大爆発 赤
+斬撃(準備), 振る武器 Weapon\EFFECT_GreatSword02.bmp 48 Walk(Snow).wav
+斬撃(攻撃), @戦闘アニメ_光の翼準備 ピンク BeamSaber(3).wav 二刀流;_
+　　　　　　振る武器突撃 Weapon\EFFECT_GreatSword02.bmp 48 Whiz.wav;大斬撃 白 Swing(2).wav
+斬撃(命中), 大斬撃 白 Slash(2).wav;_
+　　　　　　@戦闘アニメ_突く武器突撃攻撃 Weapon\EFFECT_GreatSword(T)02.bmp 48 Whiz.wav;_
+　　　　　　突く武器突撃 Weapon\EFFECT_GreatSword(T)02.bmp 48 刺突;大爆発
+斬撃(とどめ), 横分割
+斬撃(とどめ), 縦分割
+
+
+八雄炬御鎚神
+隠し腕(攻撃), 変形 KM_YatsunoOnokoshizuchi(Hand).bmp Transform.wav;斬撃 二刀流
+隠し腕(命中), ダメージ;立ち固め 1
+ドリル触手(準備), ドリル Drill.wav
+ドリル触手(攻撃), 多触手 黒
+ドリル触手(命中), ドリル;連続大爆発 2
+破壊光線(攻撃), ショックビーム 紫 Cannon(Large).wav
+破壊光線(命中), ショックビーム 紫 Explode(Small).wav
+雷撃(準備), 放電 Acid.wav
+雷撃(攻撃), ２連ショックビーム 紫 Chaff.wav
+雷撃(命中), ２連ショックビーム 紫 Explode(Small).wav
+
+
+飛埜御脚神
+鎖(準備), -
+鎖(攻撃), ４ＷＡＹ射出 Sword.wav;実弾発射 Weapon\EFFECT_Hundou01.bmp Whiz.wav 有線
+鎖(命中), 分銅吊り上げ Shock(low).wav
+巨腕, スーパーパンチ ホワイト
+メガトンナックル(攻撃), 射撃武器突撃 Hand\EFFECT_RocketPunch(Yellow)01.bmp Flyby.wav
+メガトンナックル(命中), ダメージ オレンジ Warship.wav;超打 -.wav
+全開メガトンナックル(準備), 光噴出
+全開メガトンナックル(攻撃), スーパータックル イエロー Flyby.wav
+全開メガトンナックル(命中), 瞬間変形 Anime\Hand\EFFECT_RocketPunch(Yellow)01.bmp Transform.wav 対象ユニットＩＤ;_
+　　　　　　　　　　　　　　スーパータックル乱舞 イエロー Crash.wav;変形
+
+
+大宇邊御蟲神
+小型ビーム砲, ２連中ビーム イエロー
+破壊光線(攻撃), ショックビーム グリーン Cannon(Large).wav
+破壊光線(命中), ショックビーム グリーン Explode(Small).wav
+溶解液(攻撃), ２連水流 グリーン Acid.wav
+溶解液(命中), ダメージ グリーン Acid.wav
+ファイナルステージ(攻撃), スピンアタック 赤
+ファイナルステージ(命中), スピンアタック 赤
+
+
+火殊羅御雹神
+破壊光線(攻撃), ショックビーム レッド Cannon(Large).wav
+破壊光線(命中), ショックビーム レッド Explode(Small).wav
+突進, タックル
+吹雪(攻撃), 特殊光線 白 Mist.wav
+吹雪(命中), 特殊光線 白 Mist.wav;凍結 Freeze.wav
+業火(攻撃), 火炎放射 AntiShipMissile.wav
+業火(命中), 火炎放射 AntiShipMissile.wav
+吹雪＆業火(攻撃), 特殊光線 白 Mist.wav;火炎放射 AntiShipMissile.wav
+吹雪＆業火(命中), 凍結 Freeze.wav;火炎放射 AntiShipMissile.wav
+
+
+鋳都祓御霊神
+ビーム弾(攻撃), @戦闘アニメ_召喚準備 Common\EFFECT_Circle(Green)01.bmp WindowOpen(2).wav;_
+　　　　　　　　実弾連射 Bullet\EFFECT_AuraBall(Green)01.bmp 32 BeamShot.wav
+ビーム弾(命中), 拡散ビーム グリーン Beam.wav
+ビーム触手(準備), ビームソード 紫 BeamSaber(2).wav
+ビーム触手(攻撃), 伸縮武器連撃 SlideWeapon\EFFECT_BeamWhip(Purple)[01-03].bmp - - Swing(2).wav - -
+ビーム触手(命中), 点連打 紫 Saber.wav
+ビーム砲(攻撃), 拡散ビーム イエロー Chaff.wav
+ビーム砲(命中), 拡散ビーム イエロー Explode(Small).wav
+一斉射撃(攻撃), 超ビーム イエロー Cannon(Large).wav
+一斉射撃(命中), 大拡散ビーム イエローー Explode(Small).wav
+
+
+翼脊深御観神
+破壊光線(攻撃), ショックビーム 紫 Cannon(Large).wav
+破壊光線(命中), ショックビーム 紫 Explode(Small).wav
+突撃, 斬撃突撃
+高速突撃(攻撃), スーパータックル 水色 Drill.wav
+高速突撃(命中), ダメージ オレンジ Drill.wav.wav;超打 -.wav
+
+
+邪神八岐大蛇
+腕, 格闘
+噛み付き(攻撃), 噛み付き接近
+噛み付き(命中), 噛み付き
+破壊光線(攻撃), 中ビーム オレンジ Dynamite.wav;大ビーム ホワイト -.wav
+破壊光線(命中), 中ビーム オレンジ Dynamite.wav;大ビーム ホワイト -.wav
+巨大剣(準備), エネルギーフィールド展開 Ghost.wav 紫 対象ユニットＩＤ;振る武器 Weapon\EFFECT_GreatSword02.bmp 64 Walk(Snow).wav
+巨大剣(攻撃), 円月殺法 水色 斜め Sword(2).wav 対象ユニットＩＤ
+巨大剣(命中), 超斬撃 水色 Slash(4).wav
+邪光(攻撃), フラッシュ ホワイト Charge(Silent).wav 対象ユニットＩＤ
+邪光(命中), 光圧縮 ホワイト Fold.wav 相手ユニットＩＤ

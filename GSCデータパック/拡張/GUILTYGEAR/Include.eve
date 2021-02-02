@@ -1,0 +1,708 @@
+
+戦闘アニメ_GUILTY_暗転演出:
+# 引数 演出時間　ユニットＩＤ　効果音
+Local TIME
+_CenteringCheck UID
+_SelectSound "-.wav" _GetWavFromArgs()
+
+If (_SearchOptionFromArgs("演出時間") != "") Then
+  Set TIME 演出時間
+Else
+  Set TIME ""
+EndIf
+
+If TIME Then
+  Fadeout TIME
+Else
+  Fadeout
+EndIf
+
+Unset TIME
+
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_GUILTY_ウィンガー準備:
+## 戦闘アニメ_振る武器系準備共通　を改変して作成
+UpVar
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local G_S = _GetPicSizeFromArgs()
+Local X_P
+Local T_COL_F = _ColorTime(_IsLight())
+
+Set X_P (16 - (G_S \ 2))
+Incr C_Y (32 - G_S)
+
+_SelectSound "Swing(3).wav" _GetWavFromArgs()
+
+Wait Start
+ClearPicture
+PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X - 16 + X_P) (C_Y - 8) G_S G_S 透過 T_COL_F
+PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X + 16 + X_P) (C_Y - 8) G_S G_S 透過 左右反転 T_COL_F
+Refresh
+Wait Until 1
+ClearPicture
+PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X - 24 + X_P) (C_Y - 12) G_S G_S 透過 T_COL_F
+PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X + 24 + X_P) (C_Y - 12) G_S G_S 透過 左右反転 T_COL_F
+Refresh
+Wait Until 2
+ClearPicture
+PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X - 20 + X_P) (C_Y - 8) G_S G_S 透過 T_COL_F
+PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X + 20 + X_P) (C_Y - 8) G_S G_S 透過 左右反転 T_COL_F
+Refresh
+Wait Until 3.5
+
+Wait Until 8
+
+Return "Keep"
+
+
+
+戦闘アニメ_GUILTY_オールデッド命中:
+
+Local オールデッド上の句
+Local オールデッド中の句
+Local オールデッド下の句
+
+# 上の句
+
+Switch Random(41)
+Case 1
+	Set オールデッド上の句 人生は
+Case 2
+	Set オールデッド上の句 人の世に
+Case 3
+	Set オールデッド上の句 朝起きて
+Case 4
+	Set オールデッド上の句 さすらいの
+Case 5
+	Set オールデッド上の句 生意気に
+Case 6
+	Set オールデッド上の句 今年こそ
+Case 7
+	Set オールデッド上の句 駅前の
+Case 8
+	Set オールデッド上の句 木枯らしの
+Case 9
+	Set オールデッド上の句 桃園の
+Case 10
+	Set オールデッド上の句 相次いで
+Case 11
+	Set オールデッド上の句 野良犬も
+Case 12
+	Set オールデッド上の句 私なら
+Case 13
+	Set オールデッド上の句 薮医者が
+Case 14
+	Set オールデッド上の句 流れ星
+Case 15
+	Set オールデッド上の句 暗闇で
+Case 16
+	Set オールデッド上の句 人として、
+Case 17
+	Set オールデッド上の句 うたた寝に
+Case 18
+	Set オールデッド上の句 旅先で
+Case 19
+	Set オールデッド上の句 そこそこの
+Case 20
+	Set オールデッド上の句 はりきって
+Case 21
+	Set オールデッド上の句 棺おけで
+Case 22
+	Set オールデッド上の句 泣き叫び
+Case 23
+	Set オールデッド上の句 星空に
+Case 24
+	Set オールデッド上の句 必殺の
+Case 25
+	Set オールデッド上の句 魂が
+Case 26
+	Set オールデッド上の句 旨のうち
+Case 27
+	Set オールデッド上の句 ショッキング！
+Case 28
+	Set オールデッド上の句 悩殺か？
+Case 29
+	Set オールデッド上の句 邪魔するな
+Case 30
+	Set オールデッド上の句 風立ちぬ
+Case 31
+	Set オールデッド上の句 鉄壁の
+Case 32
+	Set オールデッド上の句 ちょっと待て
+Case 33
+	Set オールデッド上の句 やるがいい
+Case 34
+	Set オールデッド上の句 手裏剣で
+Case 35
+	Set オールデッド上の句 流石だね
+Case 36
+	Set オールデッド上の句 株買って
+Case 37
+	Set オールデッド上の句 おとっつぁん
+Case 38
+	Set オールデッド上の句 服脱いで
+Case 39
+	Set オールデッド上の句 振り向けば
+Case 40
+	Set オールデッド上の句 少年期
+Case 41
+	Set オールデッド上の句 暇なのに
+EndSw
+
+# 中の句
+Switch Random(41)
+Case 1
+	Set オールデッド中の句 日がな一日
+Case 2
+	Set オールデッド中の句 気遣い無用の
+Case 3
+	Set オールデッド中の句 右も左も
+Case 4
+	Set オールデッド中の句 散々送って
+Case 5
+	Set オールデッド中の句 後生大事に
+Case 6
+	Set オールデッド中の句 汚職議員と
+Case 7
+	Set オールデッド中の句 熱い血潮の
+Case 8
+	Set オールデッド中の句 プラス思考の
+Case 9
+	Set オールデッド中の句 寝ても覚めても
+Case 10
+	Set オールデッド中の句 心ゆくまで
+Case 11
+	Set オールデッド中の句 涙こらえて
+Case 12
+	Set オールデッド中の句 一足違いで
+Case 13
+	Set オールデッド中の句 鼻持ならない
+Case 14
+	Set オールデッド中の句 馳せる思いで
+Case 15
+	Set オールデッド中の句 輝くアイツも
+Case 16
+	Set オールデッド中の句 身の毛もよだつ
+Case 17
+	Set オールデッド中の句 どのみち結局
+Case 18
+	Set オールデッド中の句 今か今かと
+Case 19
+	Set オールデッド中の句 私好みの
+Case 20
+	Set オールデッド中の句 夜の帝王
+Case 21
+	Set オールデッド中の句 一人寂しく
+Case 22
+	Set オールデッド中の句 枕濡らして
+Case 23
+	Set オールデッド中の句 一子相伝
+Case 24
+	Set オールデッド中の句 理想の狭間に
+Case 25
+	Set オールデッド中の句 正直歯がゆい
+Case 26
+	Set オールデッド中の句 国境越えて
+Case 27
+	Set オールデッド中の句 血で血を洗う
+Case 28
+	Set オールデッド中の句 恥じらいながら
+Case 29
+	Set オールデッド中の句 私を称える
+Case 30
+	Set オールデッド中の句 一か八かの
+Case 31
+	Set オールデッド中の句 頭の中だけ
+Case 32
+	Set オールデッド中の句 フランス仕込みの
+Case 33
+	Set オールデッド中の句 光の速さで
+Case 34
+	Set オールデッド中の句 あれだけ言っても
+Case 35
+	Set オールデッド中の句 親友なのに
+Case 36
+	Set オールデッド中の句 浮気現場で
+Case 37
+	Set オールデッド中の句 高飛びしてでも
+Case 38
+	Set オールデッド中の句 もう年なのに
+Case 39
+	Set オールデッド中の句 チャック全開
+Case 40
+	Set オールデッド中の句 マッスルボディで
+Case 41
+	Set オールデッド中の句 他人の金で
+EndSw
+
+
+
+# 下の句
+Switch Random(41)
+Case 1
+	Set オールデッド下の句 Ｕターン
+Case 2
+	Set オールデッド下の句 全米Ｎｏ．１
+Case 3
+	Set オールデッド下の句 汗まみれ
+Case 4
+	Set オールデッド下の句 崖っぷち
+Case 5
+	Set オールデッド下の句 連コイン
+Case 6
+	Set オールデッド下の句 一人旅
+Case 7
+	Set オールデッド下の句 ああ慕情
+Case 8
+	Set オールデッド下の句 トランクス
+Case 9
+	Set オールデッド下の句 死語連発
+Case 10
+	Set オールデッド下の句 夢見がち
+Case 11
+	Set オールデッド下の句 島流し
+Case 12
+	Set オールデッド下の句 全裸でＧＯ
+Case 13
+	Set オールデッド下の句 劇画タッチ
+Case 14
+	Set オールデッド下の句 プチ旅行
+Case 15
+	Set オールデッド下の句 横恋慕
+Case 16
+	Set オールデッド下の句 団地妻
+Case 17
+	Set オールデッド下の句 紙一重
+Case 18
+	Set オールデッド下の句 一人酒
+Case 19
+	Set オールデッド下の句 褒め殺し
+Case 20
+	Set オールデッド下の句 流れ弾
+Case 21
+	Set オールデッド下の句 人間失格
+Case 22
+	Set オールデッド下の句 なべ奉行
+Case 23
+	Set オールデッド下の句 返り討ち
+Case 24
+	Set オールデッド下の句 チラリズム
+Case 25
+	Set オールデッド下の句 禅問答
+Case 26
+	Set オールデッド下の句 豆知識
+Case 27
+	Set オールデッド下の句 宇宙人
+Case 28
+	Set オールデッド下の句 銀河かな
+Case 29
+	Set オールデッド下の句 よっ社長
+Case 30
+	Set オールデッド下の句 不幸自慢
+Case 31
+	Set オールデッド下の句 風まかせ
+Case 32
+	Set オールデッド下の句 原始人
+Case 33
+	Set オールデッド下の句 自己破産
+Case 34
+	Set オールデッド下の句 放置プレイ
+Case 35
+	Set オールデッド下の句 自爆した
+Case 36
+	Set オールデッド下の句 着信拒否
+Case 37
+	Set オールデッド下の句 引きこもり
+Case 38
+	Set オールデッド下の句 苦笑い
+Case 39
+	Set オールデッド下の句 非常識
+Case 40
+	Set オールデッド下の句 うちのオカン
+Case 41
+	Set オールデッド下の句 ラリアット
+EndSw
+
+
+PlaySound Sword.wav
+AutoTalk スレイヤー(ＧＵＩＬＴＹ) 固定
+8;<BIG><COLOR=Red>$(オールデッド上の句)</COLOR></BIG>
+Suspend
+
+PlaySound Sword.wav
+AutoTalk スレイヤー(ＧＵＩＬＴＹ) 固定
+8;<BIG><COLOR=Red>$(オールデッド上の句)　$(オールデッド中の句)</COLOR></BIG>
+Suspend
+
+PlaySound Sword.wav
+AutoTalk スレイヤー(ＧＵＩＬＴＹ) 固定
+8;<BIG><COLOR=Red>$(オールデッド上の句)　$(オールデッド中の句)　$(オールデッド下の句)</COLOR></BIG>
+Suspend
+
+Unset オールデッド上の句
+Unset オールデッド中の句
+Unset オールデッド下の句
+
+
+Return
+
+
+
+戦闘アニメ_GUILTY_シュートザムーンとどめ:
+If (相手ユニットＩＤ = "") Then
+  Return
+EndIf
+
+Local i j k
+Local BMP_FILE
+Local ANG
+Local X_F
+Local Y_F
+Local C_X
+Local C_Y
+Local UID
+Local T_COL = _ColorTime()
+
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck 相手ユニットＩＤ
+Set C_X WX(相手ユニットＩＤ)
+Set C_Y WY(相手ユニットＩＤ)
+
+Set BMP_FILE _GetBMPName(相手ユニットＩＤ)
+Set ANG _GetAngle(UID)
+Set ANG (ANG + 180)
+Set X_F _GetCircumference(ANG,Ｘ)
+Set Y_F _GetCircumference(ANG,Ｙ)
+
+Wait Start
+ChangeUnitBitmap 相手ユニットＩＤ 非表示
+
+PlaySound Bomb.wav
+
+For i = 1 To 40
+  ClearPicture
+  
+  ## 背景描画部分
+  PaintPicture Black.bmp 0 0 480 480 透過 T_COL
+  
+  For j = 0 To 7
+    For k = 0 To 7
+      PaintPicture Map\space\space0001.bmp (64 * j) (64 * k) 64 64 透過 T_COL
+    Next
+  Next
+  
+  PaintPicture Map\earth\earth0000.bmp 192 160 64 64 透過 T_COL
+  PaintPicture Map\earth\earth0001.bmp 256 160 64 64 透過 T_COL
+  PaintPicture Map\earth\earth0002.bmp 192 224 64 64 透過 T_COL
+  PaintPicture Map\earth\earth0003.bmp 256 224 64 64 透過 T_COL
+  
+  For j = 0 To 14
+    For k = 9 To 14
+      PaintPicture Map\moon_ground\moon_ground0000.bmp (32 * j) (32 * k) 32 32 透過 T_COL
+    Next
+  Next
+  ## ユニット描画部分
+  If i = 23 Then
+    PlaySound FightHit(1).wav
+  EndIf
+  
+  If (i < 23) Then
+    PaintPicture BMP_FILE 224 (-32 - 24 + (16 * i)) 64 64 透過 上下反転 T_COL
+  ElseIf (i > 32) Then
+    PaintPicture BMP_FILE 224 296 64 64 透過 上下反転 T_COL
+  Else
+    PaintPicture BMP_FILE (224 + Random(5)) (296 + Random(5)) 64 64 透過 上下反転 T_COL
+  EndIf
+  
+  # 前面画像描画部分
+  For j = 0 To 14
+    For k = 11 To 14
+      PaintPicture Map\moon_ground\moon_ground0000.bmp (32 * j) (32 * k) 32 32 透過 T_COL
+      # y = 352から
+    Next
+  Next
+  
+  
+  Refresh
+  Wait Until (i * 0.5)
+Next
+
+ChangeUnitBitmap 相手ユニットＩＤ 非表示解除
+ClearPicture
+Refresh
+
+Return
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_GUILTY_火柱改発動:
+# 『戦闘アニメ_火柱』改変。上下反転オプションを追加
+#　引数：ユニットＩＤ、効果音、上下反転
+
+Local i j C_X C_Y
+Local UID = _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+Local B_C = _G_BC_FA()
+Local T_COL1 = _ColorTime(1)
+
+If (Args(1) = "座標指定") Then
+  Center Args(2) Args(3)
+  Set C_X 220
+  Set C_Y 220
+Else
+  _CenteringCheck UID
+  Set C_X (_Get_WX(UID) - 4)
+  Set C_Y (_Get_WY(UID) - 4)
+EndIf
+
+
+_SelectSound "Fire.wav" _GetWavFromArgs()
+
+Wait Start
+
+For i = 1 To 11
+  If i < 10 Then
+    Set j ("0" & i)
+  EndIf
+  ClearPicture
+  If (_SearchOptionFromArgs("上下反転") != "") Then
+    PaintPicture ("Action\EFFECT_Burn" & B_C & j & ".bmp") C_X C_Y 40 40 透過 上下反転 T_COL1
+  Else
+    PaintPicture ("Action\EFFECT_Burn" & B_C & j & ".bmp") C_X C_Y 40 40 透過 T_COL1
+  EndIf
+  Refresh
+  Wait Until (i * 0.4)
+Next
+ClearPicture
+Refresh
+Return
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_GUILTY_強打改命中:
+## 相手の後ろから殴る。ファウスト用。
+If (相手ユニットＩＤ = "") Then
+  Return
+EndIf
+
+Local i
+Local BMP_FILE
+Local BMP_FILE2
+Local ANG
+Local X_F
+Local Y_F
+Local C_X
+Local C_Y
+Local UID
+Local T_COL = _ColorTime()
+
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck 相手ユニットＩＤ
+Set C_X WX(相手ユニットＩＤ)
+Set C_Y WY(相手ユニットＩＤ)
+
+Set BMP_FILE _GetBMPName(相手ユニットＩＤ)
+Set BMP_FILE2 _GetTileName(相手ユニットＩＤ)
+Set ANG _GetAngle(UID)
+Set ANG (ANG + 180)
+Set X_F _GetCircumference(ANG,Ｘ)
+Set Y_F _GetCircumference(ANG,Ｙ)
+
+Wait Start
+_SelectSound_HR "BreakOff.wav" "Explode.wav" _GetWavFromArgs()
+ChangeUnitBitmap 相手ユニットＩＤ 非表示
+
+For i = 1 To 4
+  ClearPicture
+  _PaintTile BMP_FILE2 C_X C_Y 
+  Switch i
+  Case 1
+    PaintPicture BMP_FILE C_X C_Y 透過 T_COL
+    PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 4) (C_Y + 4) 24 24 透過 T_COL
+  Case 2
+    PaintPicture BMP_FILE (C_X + (X_F * 10)) (C_Y + (Y_F * 10)) 透過 T_COL
+    PaintPicture "Hit\EFFECT_HIT01.bmp" C_X C_Y 透過 T_COL
+  Case 3
+    PaintPicture BMP_FILE (C_X + (X_F * 15)) (C_Y + (Y_F * 15)) 透過 T_COL
+  Case 4
+    PaintPicture BMP_FILE (C_X + (X_F * 18)) (C_Y + (Y_F * 18)) 透過 T_COL
+  EndSw
+  Refresh
+  Wait Until (i * 0.7)
+Next
+ChangeUnitBitmap 相手ユニットＩＤ 非表示解除
+ClearPicture
+Refresh
+Return
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_GUILTY_高度叩きつけ命中:
+#　「ストリートファイター」の「高度叩きつけ」を転用させていただきました。
+#　被り防止のため、識別子のみ変更しています。
+#　引数：効果音、上下反転、スロー上昇
+
+Local i
+Local j
+Local BMP_FILE
+Local BMP_FILE2
+Local BMP_FILE3
+Local BMP_FILE4
+Local UDCH
+Local A_X
+Local A_Y
+Local C_X
+Local C_Y
+Local UID
+Local SLOWJ
+Set UID 対象ユニットＩＤ
+Center UID
+Set C_X WX(UID)
+Set C_Y WY(UID)
+
+If (_SearchOptionFromArgs("上下反転") != "") Then
+  Set UDCH "上下反転"
+Else
+  Set UDCH ""
+EndIf
+
+If (_SearchOptionFromArgs("スロー上昇") != "") Then
+  Set SLOWJ 3
+Else
+  Set SLOWJ 1
+EndIf
+
+Set BMP_FILE _GetBMPName(UID)
+Set BMP_FILE2 _GetTileName(UID)
+Set BMP_FILE3 _GetBMPName(相手ユニットＩＤ)
+Set BMP_FILE4 _GetTileName(相手ユニットＩＤ)
+
+Set A_X WX(相手ユニットＩＤ)
+Set A_Y WY(相手ユニットＩＤ)
+
+Wait Start
+
+If (BMP_FILE2 = "") Then
+  ChangeUnitBitmap UID 非表示
+EndIf
+If (BMP_FILE4 = "") Then
+  ChangeUnitBitmap 相手ユニットＩＤ 非表示
+EndIf
+
+For i = 1 To 6
+  ClearPicture
+  If (BMP_FILE2 != "") Then
+    PaintPicture BMP_FILE2 C_X C_Y _ColorTime()
+  EndIf
+  If (BMP_FILE4 != "") Then
+    PaintPicture BMP_FILE4 A_X A_Y _ColorTime()
+  EndIf
+
+  Switch i
+  Case 1
+    Set LN 2
+  Case 2
+    Set LN 4
+  Case 3
+    Set LN 6
+  Case 4
+    Set LN -24
+  Case 5
+    Set LN -54
+  Case 6
+    Set LN -84
+  EndSw
+
+  PaintPicture BMP_FILE (C_X + 16) (C_Y + LN) 透過 _ColorTime()
+  PaintPicture BMP_FILE3 C_X (C_Y + LN) 透過 右回転 180 _ColorTime()
+
+  Refresh
+  Wait Until (i * 0.5 * SLOWJ)
+Next
+
+ClearPicture
+If (BMP_FILE2 != "") Then
+  PaintPicture BMP_FILE2 C_X C_Y _ColorTime()
+EndIf
+If (BMP_FILE4 != "") Then
+  PaintPicture BMP_FILE4 A_X A_Y _ColorTime()
+EndIf
+
+PaintPicture "Common\EFFECT_AccidentalImage01.bmp" W_X (W_Y - 110) 透過 右回転 90 _ColorTime()
+Refresh
+Wait Until 4.2
+
+Wait Start
+For i = 1 To 8
+  ClearPicture
+  If (BMP_FILE2 != "") Then
+    PaintPicture BMP_FILE2 C_X C_Y _ColorTime()
+  EndIf
+  If (BMP_FILE4 != "") Then
+    PaintPicture BMP_FILE4 A_X A_Y _ColorTime()
+  EndIf
+  Switch i
+  Case 1
+    PaintPicture BMP_FILE (C_X + 16) (C_Y - 140) 透過 UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 140) 透過 右回転 180 _ColorTime()
+  Case 2
+    PaintPicture BMP_FILE (C_X + 16) (C_Y - 100) 透過 UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 100) 透過 右回転 180 _ColorTime()
+  Case 3
+    PaintPicture BMP_FILE (C_X + 16) (C_Y - 60) 透過 UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_Y (C_Y - 60) 透過 右回転 180 _ColorTime()
+  Case 4
+    PaintPicture BMP_FILE (C_X + 16) (C_Y - 24) 透過 UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 24) 透過 右回転 180 _ColorTime()
+  Case 5
+    PaintPicture BMP_FILE (C_X + 16) (C_Y - 8) 透過 UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 8) 透過 右回転 180 _ColorTime()
+  Case 6
+    PaintPicture BMP_FILE (C_X + 16) C_Y 透過 UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X C_Y 透過 右回転 180 _ColorTime()
+  Case 7
+    PaintPicture BMP_FILE (C_X + 16) (C_Y + 4) 透過 UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y + 4) 透過 右回転 180 _ColorTime()
+  Case 8
+    _SelectSound_HR "BreakOff.wav" "Explode.wav" _GetWavFromArgs()
+    PaintPicture BMP_FILE (C_X + 16) (C_Y - 1) 透過 UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y + 2) 透過 右回転 180 _ColorTime()
+    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" (C_X + 4) (C_Y + 4) 24 24 透過 右回転 270 _ColorTime(1)
+  Case 10
+    _SelectSound "Explode.wav" _GetWavFromArgs()
+    PaintPicture BMP_FILE (C_X + 16) (C_Y - 1) 透過 UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y + 2) 透過 右回転 180 _ColorTime()
+    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" C_X C_Y 32 32 透過 右回転 270 _ColorTime(1)
+  Case 11
+    PaintPicture BMP_FILE (C_X + 16) C_Y 透過 UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 7) 透過 右回転 180 _ColorTime()
+    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" (C_X - 8) (C_Y - 8) 48 48 透過 右回転 270 _ColorTime(1)
+  Case 12
+    PaintPicture BMP_FILE (C_X + 16) C_Y 透過 UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 4) 透過 右回転 180 _ColorTime()
+  Case 13
+    PaintPicture BMP_FILE (C_X + 16) C_Y 透過 UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X C_Y 透過 右回転 180 _ColorTime()
+  EndSw
+  Refresh
+  Wait Until (i * 0.5)
+Next
+
+If (BMP_FILE2 = "") Then
+  ChangeUnitBitmap UID 非表示解除
+EndIf
+If (BMP_FILE4 = "") Then
+  ChangeUnitBitmap 相手ユニットＩＤ 非表示解除
+EndIf
+
+ClearPicture
+Refresh
+Return
+

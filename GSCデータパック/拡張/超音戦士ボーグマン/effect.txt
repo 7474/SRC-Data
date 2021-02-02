@@ -1,0 +1,38 @@
+ボーグマン
+ソニックガン(リョウ), Beam.wav
+ソニックガン(チャック), Beam.wav
+ソニックガン(アニス), Beam.wav
+スコープガン, BeamShot.wav
+ソニックウェーブ, LaserGun.wav
+ソニックナックル,BeamSaber.wav
+ソニックナックル(命中), 6;Inori.wav
+ソニックナックル(クリティカル), 5;Bazooka.wav
+ダブルソニックナックル, 2;BeamSaber.wav;2;BeamSaber.wav
+ダブルソニックナックル(命中), 3;Inori.wav;3;Inori.wav
+ダブルソニックナックル(クリティカル), 3;Bazooka.wav;3;Bazooka.wav
+バトル・ショット(準備), 5;Charge.wav
+バトル・ショット, 5;Charge(high).wav
+バトル・ショット(命中), 5;Explode(Far).wav
+バトル・ランチャー(準備), 5;Charge.wav
+バトル・ランチャー, 5;Charge(high).wav
+バトル・ランチャー(命中), 5;Explode(Far).wav
+バトル・ソーサー(準備), 5;Charge.wav
+バトル・ソーサー, 5;Charge(high).wav
+バトル・ソーサー(命中), 5;Explode(Far).wav
+トリプル・ショット(準備), 5;Charge.wav;5;Charge.wav;5;Charge.wav
+トリプル・ショット, 5;Charge(high).wav;5;Charge(high).wav;5;Charge(high).wav
+トリプル・ショット(命中), 5;Explode(Nuclear).wav
+ビームガン, 3;Beam.wav;3;Beam.wav
+ツインキャノン砲, 3;Shock(Low).wav;3;Shock(Low).wav
+サンダーソニックアタック, 5;Thunder.wav
+サンダーソニックアタック(命中), Crash.wav
+ウイングブレード, Sword.wav
+ソニックブースター(準備), 3;Sword.wav;3;Sword.wav;3;Sword.wav
+ソニックブースター, 5;Charge(high).wav
+ソニックバズーカ, Bazooka.wav
+バインドネット, Whiz.wav
+クローハンド, Bazooka.wav
+クローハンド(命中), Punch.wav
+
+ファントムスワット
+Ｎ・Ｒ・Ｂ, Shock(Low).wav

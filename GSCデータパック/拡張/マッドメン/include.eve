@@ -1,0 +1,91 @@
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_MUDMEN_敵影突き刺し攻撃:
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck 相手ユニットＩＤ
+Local ANG = _GetAngle(UID)
+Local C_X = (WX(対象ユニットＩＤ) - 4)
+Local C_Y = (WY(対象ユニットＩＤ) - 4)
+Local B_C = _G_BC_FA()
+Local Ebitmap = Info(ユニット, Unit(相手ユニットＩＤ), グラフィック)
+
+#画像が存在していなければ、なにかダミーを出せないか……
+#If Ebitmap =  Then
+#	Set Ebitmap unit\MUDMEN_MudmenU.bmp
+#Endif
+
+
+Playsound Hide.wav
+ClearPicture
+Wait Start
+For i = 1 to 8
+ClearPicture
+PaintPicture Ebitmap (C_X + 4) (C_Y + 32) 32 (4 * i) シルエット 上下反転 透過
+Refresh
+Wait Until (i * 0.3)
+Next
+Wait 1
+Playsound Stab.wav
+
+Wait Start
+ClearPicture
+PaintPicture Ebitmap (C_X + 4) (C_Y + 32) 32 32 シルエット 上下反転 透過
+PaintPicture ("Hit\EFFECT_StabHit" & B_C & "01.bmp") C_X (C_Y + 16) 40 32 透過 右回転 270 _ColorTime()
+Refresh
+Wait Until 0.7
+ClearPicture
+PaintPicture Ebitmap (C_X + 4) (C_Y + 32) 32 32 シルエット 上下反転 透過
+PaintPicture ("Hit\EFFECT_StabHit" & B_C & "00.bmp") C_X (C_Y + 16) 40 32 透過 右回転 270 _ColorTime()
+Refresh
+Wait Until 1.5
+
+ClearPicture
+Refresh
+Return
+
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_MUDMEN_敵影破壊命中:
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck 相手ユニットＩＤ
+Local ANG = _GetAngle(UID)
+Local C_X = (WX(対象ユニットＩＤ) - 4)
+Local C_Y = (WY(対象ユニットＩＤ) - 4)
+Local B_C = _G_BC_FA()
+Local Ebitmap = Info(ユニット, Unit(相手ユニットＩＤ), グラフィック)
+
+#画像が存在していなければ、なにかダミーを出せないか……
+#If Ebitmap =  Then
+#	Set Ebitmap unit\MUDMEN_MudmenU.bmp
+#Endif
+
+
+Playsound Reload.wav
+ClearPicture
+Wait Start
+For i = 1 to 5
+ClearPicture
+PaintPicture Ebitmap (C_X + 4) (C_Y + 32 - (i * 4)) 32 16 シルエット 透過
+Refresh
+Wait Until (i * 0.5)
+Next
+Wait 3
+Playsound Crash.wav
+
+Wait Start
+For i = 1 to 8
+ClearPicture
+PaintPicture Ebitmap (C_X - (i * 2)) (C_Y + 12 + (i * 1)) 32 16 シルエット 左半分 透過
+PaintPicture Ebitmap (C_X + 8 + (i * 2)) (C_Y + 12 + (i * 1)) 32 16 シルエット 右半分 透過
+Refresh
+Wait Until (i * 0.5)
+Next
+
+ClearPicture
+Refresh
+Return

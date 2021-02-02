@@ -1,0 +1,62 @@
+
+戦闘アニメ_KARATE_ランダム蹴り攻撃:
+
+Switch Random(3)
+Case 1
+ Set KARATE_Kick KARATE_Karateka(HighKick).bmp
+Case 2
+ Set KARATE_Kick KARATE_Karateka(LowKick).bmp
+Case 3
+ Set KARATE_Kick KARATE_Karateka(MiddleKick).bmp
+EndSw
+
+Call 戦闘アニメ_瞬間変形攻撃 KARATE_Kick 対象ユニットＩＤ 反映
+
+Return
+
+
+
+戦闘アニメ_KARATE_ターゲット変更命中:
+# 書式「KARATE_ターゲット変更 (攻撃する側パイロット名) (される側パイロット名)」
+
+Select Args(1)
+SelectTarget Args(2)
+Return
+
+
+戦闘アニメ_KARATE_礼処理命中:
+SetMessage 相手パイロット ダメージ小 "-"
+SetMessage 相手パイロット 射程外 "-"
+Return
+
+
+戦闘アニメ_KARATE_技能文字発動:
+# 引数１ 表示文字
+# 引数２ 効果音
+_CenteringCheck 相手ユニットＩＤ
+Local C_X = _Get_WX(相手ユニットＩＤ)
+Local C_Y = _Get_WY(相手ユニットＩＤ)
+
+Font 12pt
+
+Local i = 0
+Local STR = _GN(Args(1))
+Local S_S = TextWidth(STR)
+
+
+_SelectSound "-.wav" _GetWavFromArgs()
+Wait Start
+For i = 1 To 8
+  ClearPicture
+  Font RGB(i * 32,i * 32,i * 32)
+  PaintString (C_X + 1 + (16 - (S_S \ 2))) (C_Y + 33) STR
+  Font #000000
+  PaintString (C_X + (16 - (S_S \ 2))) (C_Y + 32) STR
+
+  Refresh
+  Wait Until (0.5 * i)
+Next
+
+ClearPicture
+Refresh
+Return

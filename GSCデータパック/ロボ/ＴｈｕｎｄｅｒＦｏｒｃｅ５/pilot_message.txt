@@ -1,0 +1,13 @@
+
+Reffi
+回避, $(Call(TF5_Reffi回避))
+攻撃無効化, $(Call(TF5_Reffi攻撃無効化))
+シールド防御, $(Call(TF5_Reffiシールド防御))
+ダメージ小, $(Call(TF5_Reffiダメージ小))
+ダメージ中, $(Call(TF5_Reffiダメージ中,$(損傷率)))
+ダメージ大, $(Call(TF5_Reffiダメージ大))
+破壊, $(Call(TF5_Reffi破壊))
+射程外, $(Call(TF5_Reffi射程外,$(相手ユニット),$(相手武器)))
+攻撃, $(Call(TF5_Reffi攻撃,$(武器),$(相手ユニット)))
+
+

@@ -1,0 +1,301 @@
+
+### 制御用 ###############################################################################
+
+チェスター＝バークライト
+チェスター, TOFP_ChesterBarklight.bmp
+
+スタン＝エルロン
+スタン, TOD_StanAileron.bmp
+
+ルーティ＝カトレット
+ルーティ, TOD_RuteeKartret.bmp
+
+リオン＝マグナス
+リオン, TOD_LionMagnus.bmp
+
+ウッドロウ＝ケルヴィン
+ウッドロウ, TOD_WoodrowKelvin.bmp
+
+フィリア＝フィリス
+フィリア, TOD_PhiliaPhilis.bmp
+
+リッド＝ハーシェル(船員)
+リッド, TOE_RidHershel.bmp
+
+ファラ＝エルステッド(船員)
+ファラ, TOE_FarahOersted.bmp
+
+キール＝ツァイベル(船員)
+キール, TOE_KeelZeibel.bmp
+
+メルディ(ＴＯＥ)(船員)
+メルディ, TOE_Meredy.bmp
+
+レイシス＝ルエイン
+レイシス, TOE_RassisFomalhaut.bmp
+
+コハク＝ハーツ
+コハク, TOH_KohakHearts.bmp
+
+アスベル＝ラント
+アスベル, TOG_AsbelLhant.bmp
+
+ジュード＝マティス
+ジュード, TOX_JudeMathis.bmp
+
+ジュード＝マティス(ＴＯＸ２)
+ジュード, TOX2_JudeMathis.bmp
+
+### 表情 #################################################################################
+
+大海賊の子孫チャット(ムキになる)
+チャット, TOE_Chat(Angry).bmp
+
+大海賊の子孫チャット(不機嫌)
+チャット, TOE_Chat(Bad).bmp
+
+大海賊の子孫チャット(えっへん)
+チャット, TOE_Chat(Boast).bmp
+
+大海賊の子孫チャット(泣く)
+チャット, TOE_Chat(Cry).bmp
+
+大海賊の子孫チャット(笑う)
+チャット, TOE_Chat(Laugh).bmp
+
+大海賊の子孫チャット(悲しむ)
+チャット, TOE_Chat(Sad).bmp
+
+大海賊の子孫チャット(喋る)
+チャット, TOE_Chat(Talk).bmp
+
+### ノンパイロット #######################################################################
+
+リッド＝ハーシェル(少年)
+リッド, TOE_RidHershel(Child).bmp
+
+ファラ＝エルステッド(少女)
+ファラ, TOE_FarahOersted(Child).bmp
+
+キール＝ツァイベル(少年)
+キール, TOE_KeelZeibel(Child).bmp
+
+メルディ(少女)
+メルディ, TOE_Meredy(Child).bmp
+
+クィッキー(ＴＯＥ)
+クィッキー, TOE_Quickie.bmp
+
+ビッツ＝ハーシェル
+ビッツ, TOE_BitHershel.bmp
+
+ノリス＝エルステッド
+ノリス, TOE_NorisuOersted.bmp
+
+ギズロ＝ツァイベル
+ギズロ, TOE_GizuroZeibel.bmp
+
+ラミナ＝ツァイベル
+ラミナ, TOE_RaminaZeibel.bmp
+
+カムラン(ＴＯＥ)
+カムラン, TOE_Cameron.bmp
+
+フランコ＝メディウス
+フランコ, TOE_FrancoMedeiusu.bmp
+
+パオロ(ＴＯＥ)
+パオロ, TOE_Paolo.bmp
+
+ミンツ大学受付嬢ジーナ
+ジーナ, TOE_Gina.bmp
+
+ピエール(ＴＯＥ)
+ピエール, TOE_Pierre.bmp
+
+カトリーヌ(ＴＯＥ)
+カトリーヌ, TOE_Catherine.bmp
+
+プリムラ＝ロッソ(変装)
+プリムラ, TOE_PrimulaRosso(Disguise).bmp
+プリムラ(変装)
+プリムラ, TOE_PrimulaRosso(Disguise).bmp
+
+#ルーティ風味に変装したプリムラです。
+
+ヒューラ＝ヴェルミオン
+ヒューラ, TOE_HulaVelmion.bmp
+
+ルナリア＝バーンズ
+ルナリア, TOE_LunariaBarns.bmp
+
+サンク＝リサジュー
+サンク, TOE_SankLisajhu.bmp
+
+ジャッコ＝リベラ
+ジャッコ, TOE_JakkoLibera.bmp
+
+アルサー＝リトルトン
+アルサー, TOE_AlusarLitleton.bmp
+
+キーファ＝バッカード
+キーファ, TOE_KirfaBackard.bmp
+
+ミンツ大学教授アルジェント
+アルジェント, TOE_Aljent.bmp
+
+ニコラ＝マゼット
+マゼット, TOE_NicolaMazet.bmp
+
+ロエン＝ラーモア
+ロエン, TOE_RowenLamore.bmp
+
+インフェリア王女アレンデ
+アレンデ, TOE_Alend.bmp
+
+インフェリア国王グルノーレⅡ世
+インフェリア王, TOE_Gurunore.bmp
+
+インフェリア王妃セルディア
+セルディア, TOE_Serudea.bmp
+
+クラウディオ＝ゾシモス
+ゾシモス, TOE_ClaudioZosimous.bmp
+
+インフェリア教会司教ガルヴァーニ
+ガルヴァーニ, TOE_Galvani.bmp
+
+ベッポ(ＴＯＥ)
+ベッポ, TOE_Beppo.bmp
+
+味マスター１号(ＴＯＥ)
+味マスター１号, TOE_AjiMaster.bmp
+
+ビストロシャンバール司会者
+司会者, TOE_BistrotChambardChairman.bmp
+
+味マスター(ＴＯＥ)
+味マスター, TOD_LyrisAileron.bmp
+
+サグラ(ＴＯＥ)
+サグラ, TOE_Sagura.bmp
+
+ブレンダ(ＴＯＥ)
+ブレンダ, TOE_Brenda.bmp
+
+ボンズ(ＴＯＥ)
+ボンズ, TOE_Bonds.bmp
+
+ロッテ(ＴＯＥ)
+ロッテ, TOE_Lotte.bmp
+
+ククロル(ＴＯＥ)
+ククロル, TOE_Kukuroru.bmp
+
+ハミルト(ＴＯＥ)
+ハミルト, TOE_Hamiruto.bmp
+
+晶霊技師ガレノス
+ガレノス, TOE_Galenos.bmp
+
+ガストン(ＴＯＥ)
+ガストン, TOE_Gaston.bmp
+
+シルエシカ副司令アイラ
+アイラ, TOE_Aila.bmp
+
+フォッグのミアキス・デデちゃん
+デデちゃん, TOE_Miakis.bmp
+
+シゼル(ＴＯＥ)(基本)
+シゼル, TOE_Shizel.bmp
+シゼル(基本)
+シゼル, TOE_Shizel.bmp
+
+シゼル(ネレイド)
+シゼル, TOE_Shizel(Nereid).bmp
+
+ヒアデス(ＴＯＥ)(基本)
+ヒアデス, TOE_Hiadeth.bmp
+ヒアデス(基本)
+ヒアデス, TOE_Hiadeth.bmp
+
+ヒアデス(ネレイド)
+ヒアデス, TOE_Hiadeth(Nereid).bmp
+
+破壊神ネレイド
+ネレイド, TOE_Nereid.bmp
+
+トランソム＝バリル
+バリル, TOE_ToransomBaliru.bmp
+
+セレスティア総領主ビリアル
+ビリアル, TOE_Virial.bmp
+
+黒竜王グリッド
+グリッド, TOD_Grid.bmp
+
+黒バラのミリー
+ミリー, TOD_Mily.bmp
+
+黒豹のジョン
+ジョン, TOD_John.bmp
+
+コリーナ＝ソルジェンテ
+コリーナ, TOE_CorinaSorujente.bmp
+
+バロッサ(ＴＯＥ)
+バロッサ, TOE_Barossa.bmp
+
+ベルカーニュ島領主エクスシア(基本)
+エクスシア, TOE_Excia.bmp
+エクスシア(基本)
+エクスシア, TOE_Excia.bmp
+
+ベルカーニュ島領主エクスシア(仮面)
+トゥエスク・キル, TOE_Excia(Mask).bmp
+エクスシア(仮面)
+トゥエスク・キル, TOE_Excia(Mask).bmp
+
+ベルカーニュ島領主エクスシア(変身)
+エクスシア, TOE_Excia(Trans).bmp
+エクスシア(変身)
+エクスシア, TOE_Excia(Trans).bmp
+
+ベルカーニュ島領主エクスシア(少女)
+エクスシア, TOE_Excia(Girl).bmp
+エクスシア(少女)
+エクスシア, TOE_Excia(Girl).bmp
+
+プラティア(ＴＯＥ)
+プラティア, TOE_Puratia.bmp
+
+プラティア(ＴＯＥ)(仮面)
+トゥエスク・リン, TOE_Puratia(Mask).bmp
+
+ミニマ(ＴＯＥ)
+ミニマ, TOE_Minima.bmp
+
+ミニマ(ＴＯＥ)(仮面)
+トゥエスク・アル, TOE_Minima(Mask).bmp
+
+ワンダーシェフ(ＴＯＥ)
+ワンダーシェフ, TOE_WonderChef.bmp
+
+ミンツ大学男子生徒
+男子生徒, TOE_MintcheUniversityBoy.bmp
+
+ミンツ大学女子生徒
+女子生徒, TOE_MintcheUniversityGirl.bmp
+
+警備隊長(ＴＯＥ)
+警備隊長, TOE_GarrisonChief.bmp
+
+エッグトレーダー(ＴＯＥ)
+エッグトレーダー, TOE_EggTrader.bmp
+
+ミアキス(ＴＯＥ)
+ミアキス, TOE_Miakis.bmp
+
+シルエシカ兵(ＴＯＥ)
+シルエシカ兵, TOE_ShirueshikaSoldier.bmp

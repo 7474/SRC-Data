@@ -1,0 +1,102 @@
+
+## 星雲仮面マシンマン -----------------------------------------------------
+
+星雲仮面マシンマン
+マシンファイト, Punch.wav
+ファイティングボール(攻撃), Swing.wav;4;Missile.wav
+ファイティングボール(命中), Punch.wav
+イクシードパンチ(攻撃), Whiz.wav
+イクシードパンチ(命中), Explode.wav
+スロットルガン, Beam.wav
+スロットルガン・タイプゼロ, Beam.wav
+レーザーサーベル, BeamSaber.wav;Swing.wav
+マシンサンダー(準備), BeamSaber.wav
+マシンサンダー(攻撃), Slash(4).wav;3;Slash(4).wav
+カタルシスウェーブ(準備), BeamSaber.wav
+カタルシスウェーブ(攻撃), Slash.wav
+カタルシスウェーブ(解説), マシンマンはレーザーサーベルで$(相手パイロット)を攻撃した。
+カタルシスウェーブ(クリティカル), Charge(Silent).wav;9;Snap.wav
+
+
+マシンドルフィン
+ドルフィンクラッシュ(攻撃), Engine.wav;4;Engine.wav;4;Engine.wav;9
+ドルフィンクラッシュ(命中), Crash.wav
+ドルフィンフルパワー(攻撃), Whiz.wav
+ドルフィンフルパワー(命中), Crash.wav
+
+ドルフィンジェット
+ドルフィンクラッシュ(攻撃), Jet.wav
+ドルフィンクラッシュ(命中), Crash.wav
+
+
+ボールボーイ(マシンマン)
+ファイティングボール, Punch.wav
+
+
+星雲仮面・亀太(マシンマン)
+マシンファイト, Punch.wav
+レーザーサーベル, Swing.wav
+
+## テンタクル -----------------------------------------------------------
+
+鉄人モンス
+モンスーバリヤー, BeamGun.wav
+モンスースパーク, Whiz.wav
+
+パワーアップモンス
+モンスーバリヤー, BeamGun.wav
+モンスースパーク, Whiz.wav
+
+ゴールデンモンス
+モンスーバリヤー, BeamGun.wav
+モンスースパーク, Whiz.wav
+ゴールデンドラゴン, BeamSaber.wav;5;Explode(small).wav;2;Explode(small).wav;2;Explode(small).wav
+
+
+マジック男(マシンマン)
+マジック攻撃, Explode.wav
+マジックダイヤ＆ハート, Punch(2).wav
+
+ボウトウ男(マシンマン)
+ボール, Swing.wav;4;Missile.wav
+ボール爆弾, Bazooka.wav
+
+カマ男(マシンマン)
+カマ砲, Gun.wav
+
+ジシャク男(マシンマン)
+引き寄せ, BeamGun.wav
+
+## オクトパス -----------------------------------------------------------
+
+レディーＭ(マシンマン)
+格闘, Combo.wav
+爆弾(攻撃), Swing.wav
+爆弾(命中), Explode.wav
+電磁ロッド, Swing.wav
+
+トンチンカン(マシンマン)
+イヤリング爆弾(攻撃), Swing.wav
+イヤリング爆弾(命中), Explode.wav
+帽子(攻撃), Swing.wav
+帽子(命中), Explode.wav
+
+怪盗ソルトマ(マシンマン)
+ソルトマ大砲, Fire.wav
+
+怪盗マリオン(マシンマン)
+風船爆弾(攻撃), Swing.wav
+風船爆弾(命中), Explode.wav
+マリオネットミサイル, GunPod.wav
+
+孫悟空(マシンマン)
+如意棒砲, MachineGun.wav
+芭蕉扇, Storm.wav
+
+サル男(マシンマン)
+如意棒砲, MachineGun.wav
+
+カセット男(マシンマン)
+低周波テープ, Bird.wav;7;Houring(2).wav
+
+

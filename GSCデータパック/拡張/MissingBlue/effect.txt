@@ -1,0 +1,35 @@
+
+幻想世界の住人たち
+ショートスピア, Bow.wav
+ショートスピア(命中), Stab.wav
+ハルバード, Swing.wav
+ハルバード(命中), Stab.wav
+ハルバード(命中), Slash.wav
+ランス, Bow.wav
+ランス(命中), Stab.wav
+霞三連, 2;Bow.wav;2;Bow.wav;Bow.wav
+霞三連(命中), 2;Swing.wav;2;Stab.wav;Crash.wav
+霞三連(雷), 2;Bow.wav;2;Bow.wav;Bow.wav
+霞三連(雷)(命中), 2;Swing.wav;2;Punch.wav;Crash.wav
+霞三連(雷)(クリティカル), Explode(Small).wav
+雷の法術, Thunder.wav
+雷の法術(命中), Inori.wav
+トールハンマー, Swing.wav
+トールハンマー(命中), Explode(Small).wav
+木刀(命中), Punch.wav
+夢食い(命中), Hide.wav
+衝撃波, Bazooka.wav
+衝撃波(命中), Crash.wav
+光弾, Beam.wav
+光弾(命中), Explode.wav
+雷撃(準備), Charge.wav
+雷撃, Thunder.wav
+雷撃(命中), MicroMissile.wav
+絶望の雲, Interference.wav
+絶望の雲(命中), Search.wav
+チェーン, Swing(2).wav
+チェーン(命中), Whip.wav
+火弾, Cannon.wav
+火弾(命中), Explode.wav
+火柱, Breath.wav
+火柱(命中), Fire.wav

@@ -1,0 +1,78 @@
+
+朱雀の巫女
+体術(命中), FightHit(4).wav
+神剣(命中), 1;Swing.wav;Slash.wav
+腕輪の力, Charge.wav
+腕輪の力(命中), Crash.wav
+阻止(神剣の力), BeamCoat.wav
+
+朱雀七星士
+拳法(命中), 3;FightHit(4).wav;3;FightHit(4).wav;3;FightHit(2).wav;FightHit(3).wav
+気功術, 8;Charge.wav;Bazooka.wav
+気功術(命中), Explode.wav
+気功拳, Charge.wav
+気功拳(命中), Crash.wav
+剣(命中), 1;Swing.wav;Slash.wav
+神剣(命中), 1;Swing.wav;Slash.wav
+阻止(神剣の力), BeamCoat.wav
+怪力(命中), Crash.wav
+腕輪の力, Charge.wav
+腕輪の力(命中), Crash.wav
+呪縛(クリティカル), Whip.wav
+杖(命中), Punch.wav
+法術, Beam.wav
+鉄扇(命中), Punch.wav
+呪符『狼』, Dog.wav
+烈火神焔, Fire.wav
+烈火砕竜陣, MicroMissile.wav;
+治癒力・投射, 8;Charge.wav;Glass.wav
+巻物(クリティカル), Whip.wav
+
+青龍七星士
+体術(命中), Punch.wav
+拳法(命中), 3;FightHit(4).wav;3;FightHit(4).wav;3;FightHit(2).wav;FightHit(3).wav
+気功術, 8;Charge.wav;Bazooka.wav
+気功術(命中), Explode.wav
+鞭(命中), Whip.wav
+念動力(命中), Whip.wav
+気功全開, 8;Charge.wav;Ekplode(Far).wav
+破空迅雷砲, 3;Thunder.wav;3;Thunder.wav;Thunder.wav
+雷撃, Thunder.wav
+蜃気楼の世界, Hide.wav
+蜃気楼の世界(クリティカル), Glass.wav
+幻覚のツタ, Swing(2).wav
+幻覚のツタ(クリティカル), Whip.wav
+羽飾り(命中), Stab.wab
+幻覚攻撃, Beam.wav
+流星錘, Swing(2).wav
+流星錘(命中), Crash.wav
+流星錘・操, Jet.wav
+流星錘・操(命中), Crash.wav
+眠りの曲(クリティカル), Hide.wav
+笛(命中), Punch.wav
+音波, Bazooka.wav
+別魂の曲, Bazooka.wav
+別魂の曲(命中), Crash.wav
+獣の力(命中), 2;Stab.wav;2;Stab.wav;5;Stab.wav;5;Slash.wav;Crash.wav
+沈黙の術(クリティカル), Hide.wav
+マニ車(命中), Stab.wav
+魔物召喚, 3;Whiz.wav;3;Whiz.wav;Whiz.wav
+
+白虎七星士
+体術(命中), Punch.wav
+植物のツタ, Swing(2).wav
+植物のツタ(クリティカル), Whip.wav
+拳法(命中), 3;FightHit(4).wav;3;FightHit(4).wav;3;FightHit(2).wav;FightHit(3).wav
+転移攻撃, Hide.wav
+転移攻撃(命中), Crash.wav
+
+玄武七星士
+体術(命中), Punch.wav
+氷壁, 3:Glass.wav;3;Glass.wav;Glass.wav
+氷獣, Whiz.wav
+氷獣(クリティカル), Glass.wav
+氷の矢, 2;Bow.wav;2;Bow.wav;Bow.wav
+氷の矢(命中), 2;Stab.wav;2;Stab.wav;Stab.wav
+氷の矢(クリティカル), Glass.wav
+氷輪, 4;Swing.wav;Swing.wav
+氷輪(命中), 4;Slash.wav;Slash.wav

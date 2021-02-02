@@ -1,0 +1,56 @@
+月姫
+七夜の短刀, Swing.wav
+七夜の短刀(命中), Slash.wav
+死点突き, Fold.wav;1;Black.bmp 480 480;Clear
+死点突き(命中), 1;Shock(low).wav;Inori.wav
+死線切り, Fold.wav;1;Black.bmp 480 480;Clear
+死線切り(命中), 1;Inori.wav;1;Inori.wav;1;Inori.wav;Inori.wav
+七夜の体術, Swing.wav
+七夜の体術(命中), Slash.wav
+極死・七夜, <color=red>「―――――極死」</color>;Bow.wav
+極死・七夜(命中), BreakOff.wav;<color=red>「―――――七夜」</color>
+爪, Swing.wav
+爪(命中), Slash.wav
+空想具現化, MicroMissile.wav
+空想具現化(命中), 1;Shock(low).wav;Inori.wav
+影縫い, Swing.wav
+影縫い(命中), Slash.wav
+黒鍵, 1;Swing.wav;1;Swing.wav;Swing.wav
+黒鍵(命中), 1;Sword.wav;1;Sword.wav;Sword.wav
+黒鍵・火葬式典, 1;Swing.wav;1;Swing.wav;Swing.wav
+黒鍵・火葬式典(命中), 1;Sword.wav;1;Sword.wav;1;Sword.wav;Fire.wav
+第七聖典, 8;Charge.wav;Cannon.wav
+第七聖典, Explode(Nuclear).wav
+略奪, 6;Search.wav;1;Swing.wav;1;Swing.wav;Swing.wav
+略奪, 1;Swing.wav;1;Swing.wav;Swing.wav
+略奪, 1;Swing.wav;1;Whip.wav;Whip.wav
+略奪(命中), 1;Shock(low).wav;Glass.wav
+檻髪, 6;Search.wav;1;Swing.wav;1;Swing.wav;Swing.wav
+檻髪, 1;Swing.wav;1;Swing.wav;Swing.wav
+檻髪, 1;Swing.wav;1;Whip.wav;Whip.wav
+檻髪(命中), 1;Shock(low).wav;Glass.wav
+檻髪(とどめ), Fire.wav
+真紅の楔, 6;Search.wav;1;Swing.wav;1;Swing.wav;Swing.wav
+真紅の楔(クリティカル), 1;Whip.wav;1;Whip.wav;Whip.wav
+力任せの一撃(命中), Crash.wav
+エーテライト, Swing.wav
+エーテライト(命中), Stab.wav
+ブラックバレル・レプリカ, Gun.wav
+槍鍵の弾丸, AntiShipMissile.wav
+捕食, Swing.wav
+捕食(命中), 2;stab.wav;1;stab.wav;1;stab.wav;stab.wav
+武装６６６, MicroMissile.wav
+武装６６６(命中), 2;stab.wav;1;stab.wav;1;stab.wav;stab.wav
+創世の土, 6;Search.wav;Swing.wav
+創世の土(命中), Crash.wav
+創世の土(クリティカル), 4;Crash.wav;Shock(low).wav
+血刀, 1;Swing.wav;1;Swing.wav;Swing.wav
+血刀(命中), 1;stab.wav;1;stab.wav;stab.wav
+赤き剣, Swing.wav
+赤き剣(命中), Slash.wav
+血のトラップ(命中), 1;Shock(low).wav;1;Shock(low).wav;1;stab.wav;1;stab.wav;stab.wav
+阻止, Sword.wav
+マント, Swing.wav
+マント(命中), Slash.wav
+圧壊の腕, Shock(low).wav
+

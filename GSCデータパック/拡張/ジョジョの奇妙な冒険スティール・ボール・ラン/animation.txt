@@ -1,0 +1,322 @@
+
+汎用
+ゾンビ馬の糸, オーラ上昇 白
+
+スティールボールラン
+変形(騎乗), Horse.wav
+格闘, 格闘
+拳銃(準備), リボルバー
+拳銃(攻撃), リボルバー Gun(3).wav
+拳銃(命中), 銃弾 Explode.wav
+ナイフ, ナイフ
+
+## 主人公 =====================================================================
+
+ジャイロ＝ツェペリ
+シールド防御(硬質化), 中心回転武器防御 硬質化 Weapon\EFFECT_IronBall01.bmp 16 Drill(2).wav
+身体操作(準備), 中心回転武器 Weapon\EFFECT_IronBall01.bmp 16 Drill(2).wav
+身体操作(攻撃), 回転投擲武器 Weapon\EFFECT_IronBall01.bmp 16
+身体操作(命中), 風 Drill.wav;3;ダメージ Explode.wav
+鉄球(準備), 投擲武器 Weapon\EFFECT_IronBall01.bmp 16
+鉄球(攻撃), 投擲武器 Weapon\EFFECT_IronBall01.bmp 16
+鉄球(命中), 強打 Explode.wav
+鉄球の回転(準備), 中心回転武器 Weapon\EFFECT_IronBall01.bmp 16 Drill(2).wav
+鉄球の回転(攻撃), 回転投擲武器 Weapon\EFFECT_IronBall01.bmp 16
+鉄球の回転(命中), 超打 Explode.wav
+黄金の回転(準備), @戦闘アニメ_振り回し攻撃 Barrier\EFFECT_MoveKekkai(Yellow)01.gif 80 Charge.wav;中心回転武器 Weapon\EFFECT_IronBall01.bmp 16 -.wav
+黄金の回転(攻撃), 回転投擲武器 Weapon\EFFECT_IronBall01.bmp 16 AntiAirMissile.wav
+黄金の回転(命中), 超打 Explode.wav
+黄金の回転(クリティカル), @戦闘アニメ_回転投擲武器攻撃 Weapon\EFFECT_IronBall01.bmp 16 AntiAirMissile.wav;2;@戦闘アニメ_超打命中 Explode(High).wav;@戦闘アニメ_デフォルトクリティカル
+ボール・ブレイカー(準備), 方陣 黄;@戦闘アニメ_振り回し攻撃 Barrier\EFFECT_MoveKekkai(Yellow)01.gif 140 -.wav;中心回転武器 Weapon\EFFECT_IronBall01.bmp 16 -.wav;振る武器転送 Unit\JOJO-SBR_BallBreakerU.bmp 32
+ボール・ブレイカー(攻撃), 投擲武器 Unit\JOJO-SBR_BallBreakerU.bmp 32 AntiShipMissile.wav
+ボール・ブレイカー(命中), メガショックビーム 黄 BeamCoat.wav;飛沫 黄 Cannon(Large).wav
+ボール・ブレイカー(とどめ), センタリング;Explode(Far).wav;0.5;Cutin\EFFECT_JOJO_doon.bmp 32 32 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_doon.bmp 48 48 透過;Clear;0.5;Cutin\EFFECT_JOJO_doon.bmp 64 64 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_doon.bmp 72 72 透過;Clear;0.5;Cutin\EFFECT_JOJO_doon.bmp 96 96 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_doon.bmp 112 112 透過;Clear;8;Cutin\EFFECT_JOJO_doon.bmp 128 128 透過
+ボール・ブレイカー(とどめ), センタリング;Explode(Far).wav;0.5;Cutin\EFFECT_JOJO_baan.bmp 32 32 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_baan.bmp 48 48 透過;Clear;0.5;Cutin\EFFECT_JOJO_baan.bmp 64 64 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_baan.bmp 72 72 透過;Clear;0.5;Cutin\EFFECT_JOJO_baan.bmp 96 96 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_baan.bmp 112 112 透過;Clear;8;Cutin\EFFECT_JOJO_baan.bmp 128 128 透過
+ボール・ブレイカー(とどめ), センタリング;Explode(Far).wav;0.5;Cutin\EFFECT_JOJO_gyaan.bmp 32 32 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_gyaan.bmp 48 48 透過;Clear;0.5;Cutin\EFFECT_JOJO_gyaan.bmp 64 64 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_gyaan.bmp 72 72 透過;Clear;0.5;Cutin\EFFECT_JOJO_gyaan.bmp 96 96 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_gyaan.bmp 112 112 透過;Clear;8;Cutin\EFFECT_JOJO_gyaan.bmp 128 128 透過
+
+ジョニィ＝ジョースター
+タスク(準備), 強風 Drill.wav
+タスク(攻撃), 光弾 白 Gun.wav
+タスク(命中), 小爆発
+タスク・切断(準備), 強風 Drill.wav
+タスク・切断(攻撃), 振り上げ;地表衝撃波
+タスク・切断(命中), クリティカル斬撃
+タスクＡＣＴ２(準備), @戦闘アニメ_振り回し攻撃 Barrier\EFFECT_MoveKekkai(Yellow)01.gif 80 Charge.wav
+タスクＡＣＴ２(攻撃), 光弾 白 Gun.wav
+タスクＡＣＴ２(命中), 旋回光弾 黒 Fold.wav;爆発
+タスクＡＣＴ３(攻撃), 回転発射 Effect\EFFECT_TelePort(Black)01.bmp Whiz.wav 32
+タスクＡＣＴ３(命中), 小ビーム 白 Gun.wav ランダム方向;小ビーム 白 Gun.wav ランダム方向;2;連続爆発
+タスクＡＣＴ４(準備), 方陣 黄;@戦闘アニメ_振り回し攻撃 Barrier\EFFECT_MoveKekkai(Yellow)01.gif 140 -.wav;召喚 Unit\JOJO-SBR_TuskAct4U.bmp 32 Beamcoat.wav
+タスクＡＣＴ４(攻撃), 実弾発射 Unit\JOJO-SBR_TuskAct4U.bmp 32 AntiShipMissile.wav
+タスクＡＣＴ４(命中), 2;超打
+タスクＡＣＴ４(とどめ), @戦闘アニメ_回転命中 速 Drill(2).wav;透明化;大気放出 黒 -.wav
+ハーブ, オーラ上昇 緑
+
+ジョニィ＝ジョースター(通常)
+タスクＡＣＴ３(準備), 変形 JOJO-SBR_JohnnyJoester(Act3)U.bmp Whiz.wav;大気吸収 黒 Storm.wav
+
+ジョニィ＝ジョースター(騎乗)
+タスクＡＣＴ３(準備), 大気吸収 黒 Storm.wav
+
+## サブキャラクター ===========================================================
+
+ルーシー＝スティール
+チケット・ゥ・ライド(準備), エナジーカッター 水色 splash.wav
+チケット・ゥ・ライド(攻撃), 斬撃
+チケット・ゥ・ライド(命中), 斬撃;3;点打;2;強打;2;超打 FightHit(1).wav;2;超斬撃 Crash.wav
+
+マウンテン＝ティム
+オー！ロンサム・ミー(攻撃), フックロープ;実弾発射 Hand\EFFECT_ShiningHand(Orange)01.bmp 32 有線 Swing.wav
+オー！ロンサム・ミー(命中), 爪撃 橙 Whip.wav
+ロープ＆リボルバー(準備), リボルバー
+ロープ＆リボルバー(攻撃), フックロープ;実弾発射 Weapon\EFFECT_Revolver01.bmp 32 有線 Whiz.wav
+ロープ＆リボルバー(命中), 点打 Gun(3).wav;2;小爆発
+
+ホット＝パンツ
+クリーム・スターター(準備), 消火器 Weapon\EFFECT_ApparatusDigestorius01.bmp 16
+クリーム・スターター(攻撃), 水流砲 Weapon\EFFECT_ApparatusDigestorius01.bmp 16 Fold.wav 橙
+クリーム・スターター(命中), 飛沫 橙 splash.wav
+遠隔攻撃(準備), 消火器 Weapon\EFFECT_ApparatusDigestorius01.bmp 16
+遠隔攻撃(攻撃), 水流砲 Weapon\EFFECT_ApparatusDigestorius01.bmp 16 Fold.wav 橙
+遠隔攻撃(命中), 水流砲 Weapon\EFFECT_ApparatusDigestorius01.bmp 16 Fold.wav 橙;@戦闘アニメ_召喚準備 Hand\EFFECT_ShiningHand(Orange)01.bmp 32 Whiz.wav 相手ユニットＩＤ;ダメージ 橙 Whip.wav
+窒息攻撃(準備), 消火器 Weapon\EFFECT_ApparatusDigestorius01.bmp 16
+窒息攻撃(攻撃), 水流砲 Weapon\EFFECT_ApparatusDigestorius01.bmp 16 Fold.wav 橙
+窒息攻撃(命中), 水流砲 Weapon\EFFECT_ApparatusDigestorius01.bmp 16 Fold.wav 橙;粒子集中 橙
+肉体補修, 粒子集中 橙
+
+ウェカピポ
+シールド防御(硬質化), 中心回転武器防御 硬質化 Weapon\EFFECT_IronBall01.bmp 16 Drill(2).wav
+鉄球(準備), 投擲武器 Weapon\EFFECT_IronBall01.bmp 16
+鉄球(攻撃), 投擲武器 Weapon\EFFECT_IronBall01.bmp 16
+鉄球(命中), 強打 Explode.wav
+衛星(攻撃), -
+衛星(命中), ベアリング Bearing.wav
+レッキング・ボール(準備), 中心回転武器 Weapon\EFFECT_IronBall01.bmp 16 Drill(2).wav
+レッキング・ボール(攻撃), 回転投擲武器 Weapon\EFFECT_IronBall01.bmp 16
+レッキング・ボール(命中), 超打 Explode.wav
+
+## 敵キャラクター =============================================================
+
+ファニー＝ヴァレンタイン
+ダミー(別次元の自分), 瞬間変形 Unit\JOJO-SBR_FunnyValentine(N)U.bmp;脱出;瞬間変形 反映
+阻止(別次元退避), 瞬間変形 -.bmp;マント 赤 Inori.wav 別次元退避
+Ｄ４Ｃ, 連打
+一斉攻撃(準備), 瞬間変形 JOJO-SBR_FunnyValentine(N)U.bmp;振る武器転送 Unit\JOJO-SBR_FunnyValentine(N)U.bmp 32 BeamCoat.wav 二刀流
+一斉攻撃(攻撃), 実弾発射 Unit\JOJO-SBR_FunnyValentine(N)U.bmp 32 Whiz.wav;実弾発射 Unit\JOJO-SBR_FunnyValentine(N)U.bmp 32 Whiz.wav;2;リボルバー Gun(3).wav
+一斉攻撃(命中), 連打;連打;1;小爆発
+禁断の対面(攻撃), @戦闘アニメ_召喚準備 Info(ユニット,相手ユニットＩＤ,グラフィック) Beamcoat.wav;1;実弾発射 Info(ユニット,相手ユニットＩＤ,グラフィック) swing.wav
+禁断の対面(命中), @戦闘アニメ_しもべ準備 Info(ユニット,相手ユニットＩＤ,グラフィック) 32 相手ユニットＩＤ whiz.wav;1;点乱打 赤 Bazooka.wav;2;超爆発 赤 Mist.wav
+禁断の対面(とどめ), 透明化;光球放出 赤 Inori.wav
+本体入れ替え, -
+攻撃無効化(ラブトレイン), 結界 黄 Charge(Silent).wav ラブトレイン
+死に至る傷(攻撃), 白兵武器
+死に至る傷(命中), クリティカル斬撃;2;光圧縮 Mist.wav;1;ダメージ 赤 Slash(3).wav;1;出血
+
+ディエゴ＝ブランドー
+スケアリーモンスターズ(攻撃), 実弾発射 Animal\EFFECT_Gator01.bmp 16 Whiz.wav;実弾発射 Animal\EFFECT_Gator01.bmp 16 Whiz.wav
+スケアリーモンスターズ(命中), 爪撃;噛み付き
+噛みつき(攻撃), 格闘
+噛みつき(命中), 噛み付き Slash.wav
+尾(攻撃), 横大斬撃 
+尾(命中), 強打 Crash.wav
+爪(攻撃), 白兵武器 二刀流
+爪(命中), 大斬撃 二刀流
+切り裂き(準備), センタリング;FlameThrower.wav;2;Cutin\EFFECT_JOJO_gogogo01.bmp 64 64 透過;Clear;1;_
+  Cutin\EFFECT_JOJO_gogogo02.bmp 64 64 透過;Clear;1;Cutin\EFFECT_JOJO_gogogo01.bmp 64 64 透過;Clear;2;_
+  Cutin\EFFECT_JOJO_gogogo03.bmp 64 64 透過;Clear;2;Cutin\EFFECT_JOJO_gogogo02.bmp 64 64 透過;Clear;2;_
+  Cutin\EFFECT_JOJO_gogogo01.bmp 64 64 透過;Clear;変形 JOJO-SBR_DiegoBrando(ScaryMonsters)U.bmp 32 -.wav
+切り裂き(準備), センタリング;FlameThrower.wav;2;Cutin\EFFECT_JOJO_dododo01.bmp 64 64 透過;Clear;1;_
+  Cutin\EFFECT_JOJO_dododo02.bmp 64 64 透過;Clear;1;Cutin\EFFECT_JOJO_dododo01.bmp 64 64 透過;Clear;2;_
+  Cutin\EFFECT_JOJO_dododo03.bmp 64 64 透過;Clear;2;Cutin\EFFECT_JOJO_dododo02.bmp 64 64 透過;Clear;2;_
+  Cutin\EFFECT_JOJO_dododo01.bmp 64 64 透過;Clear;変形 JOJO-SBR_DiegoBrando(ScaryMonsters)U.bmp 32 -.wav
+切り裂き(攻撃), 乱突;1;なぎ払い Swing(2).wav
+切り裂き(命中), 横大斬撃 Slash.wav;1;@戦闘アニメ_唐竹割り攻撃 Scratch.wav;3;斬撃 Slash(3).wav;2;出血
+小型恐竜(攻撃), 実弾発射 Creature\EFFECT_SuspectBird01.bmp 16 Whiz.wav;実弾発射 Animal\EFFECT_Gator01.bmp 16 Whiz.wav
+小型恐竜(命中), 爪撃;噛み付き
+感染する爪(攻撃), 白兵武器
+感染する爪(命中), 爪撃;1;オーラ上昇 緑
+阻止(時間停止), BeamCoat.wav;4;White.bmp 480 480;1;Clear
+ナイフ＆ザ・ワールド(準備), 連投剣 二刀流
+ナイフ＆ザ・ワールド(攻撃), BeamCoat.wav;4;White.bmp 480 480;1;Clear;連投剣 Swing(2).wav;_
+  実弾発射 Weapon\EFFECT_MulchThrowingSword02.bmp Swing(2).wav 速;実弾発射 Weapon\EFFECT_MulchThrowingSword02.bmp Swing(2).wav 速
+ナイフ＆ザ・ワールド(命中), BeamCoat.wav;4;White.bmp 480 480;1;Clear;乱突
+ザ・ワールド, 連打
+トラップ＆ザ・ワールド(攻撃), BeamCoat.wav;4;White.bmp 480 480;1;Clear
+トラップ＆ザ・ワールド(命中), @戦闘アニメ_回転投擲攻撃 SlideWeapon\EFFECT_LongYoYo02.bmp Whiz.wav;@戦闘アニメ_回転発射攻撃 SlideWeapon\EFFECT_LongYoYo02.bmp Whiz.wav;BeamCoat.wav;4;White.bmp 480 480;1;Clear;2;クリティカル斬撃
+トラップ＆ザ・ワールド(命中), @戦闘アニメ_回転投擲攻撃 DGoods\EFFECT_TinCan01.bmp 32;BeamCoat.wav;4;White.bmp 480 480;1;Clear;2;飛沫 白 Splash.wav;3;炎
+時よ止まれ！(準備), センタリング;FlameThrower.wav;2;Cutin\EFFECT_JOJO_gogogo01.bmp 64 64 透過;Clear;1;_
+  Cutin\EFFECT_JOJO_gogogo02.bmp 64 64 透過;Clear;1;Cutin\EFFECT_JOJO_gogogo01.bmp 64 64 透過;Clear;2;_
+  Cutin\EFFECT_JOJO_gogogo03.bmp 64 64 透過;Clear;2;Cutin\EFFECT_JOJO_gogogo02.bmp 64 64 透過;Clear;2;_
+  Cutin\EFFECT_JOJO_gogogo01.bmp 64 64 透過;Clear
+時よ止まれ！(準備), センタリング;FlameThrower.wav;2;Cutin\EFFECT_JOJO_dododo01.bmp 64 64 透過;Clear;1;_
+  Cutin\EFFECT_JOJO_dododo02.bmp 64 64 透過;Clear;1;Cutin\EFFECT_JOJO_dododo01.bmp 64 64 透過;Clear;2;_
+  Cutin\EFFECT_JOJO_dododo03.bmp 64 64 透過;Clear;2;Cutin\EFFECT_JOJO_dododo02.bmp 64 64 透過;Clear;2;_
+  Cutin\EFFECT_JOJO_dododo01.bmp 64 64 透過;Clear
+時よ止まれ！(攻撃), BeamCoat.wav;4;White.bmp 480 480;1;Clear;リボルバー Gun(3).wav;リボルバー Gun(3).wav;2;連打
+時よ止まれ！(命中), BeamCoat.wav;4;White.bmp 480 480;1;Clear;銃弾 Explode.wav;2;連打 FightHit(1).wav;2;超打 Crash.wav
+
+ディエゴ＝ブランドー(通常)
+噛みつき(準備), 変形 JOJO-SBR_DiegoBrando(ScaryMonsters)U.bmp 32 Roar.wav
+尾(準備), 変形 JOJO-SBR_DiegoBrando(ScaryMonsters)U.bmp 32 Roar.wav
+爪(準備), 変形 JOJO-SBR_DiegoBrando(ScaryMonsters)U.bmp 32 Roar.wav
+
+インディアン砂男
+シールド防御(音の防壁), @戦闘アニメ_斬撃攻撃 相手ユニットＩＤ;決め文字 ヒュン 緑
+イン･ア･サイレント･ウェイ(攻撃), 文字投下 ザグゥ 青緑 Whiz.wav
+イン･ア･サイレント･ウェイ(命中), 点乱打 赤 Slash(3).wav
+燃焼音(攻撃), 文字投下 メラメラ 赤 Whiz.wav
+燃焼音(命中), 炎
+音の拳(攻撃), 急降下
+音の拳(命中), 急降下;点乱打 Bearing.wav
+共鳴増幅(攻撃), 大リングビーム 水色 BeamCoat.wav
+共鳴増幅(命中), 大リングビーム 水色 BeamCoat.wav;２連リングビーム 水色 BeamCoat.wav;1;飛沫 水色 Inori.wav
+
+ベンジャミン＝ブンブーン
+シールド防御(鉄の防壁), 氷の翼防御 黒 Transform.wav 鉄の防壁
+攻撃無効化(磁力反発), 反射 磁力反発
+磁力相乗(準備), 同時粒子集中 黒 BeamSaber.wav
+磁力相乗(攻撃), 魔法放射 黒 BeamCoat.wav 大
+磁力相乗(命中), 重力圧縮 Slash(3).wav;2;ダメージ 赤 Crash.wav;液体噴射 -.wav
+
+アンドレ＝ブンブーン
+磁力の毒血(攻撃), 出血
+磁力の毒血(命中), 液体噴射 Splash.wav
+磁力増幅(攻撃), 魔法集中 黒 BeamCoat.wav 相手ユニットＩＤ
+磁力増幅(命中), 飛沫 黒 Acid.wav
+磁力相乗(準備), 同時粒子集中 黒 BeamSaber.wav
+磁力相乗(攻撃), 魔法放射 黒 BeamCoat.wav 大
+磁力相乗(命中), 重力圧縮 Slash(3).wav;2;ダメージ 赤 Crash.wav;液体噴射 -.wav
+
+Ｌ．Ａ．＝ブンブーン
+凝結砂鉄(攻撃), 地表衝撃波 黒
+凝結砂鉄(命中), オーラ上昇 黒 Ice.wav
+磁力相乗(準備), 同時粒子集中 黒 BeamSaber.wav
+磁力相乗(攻撃), 魔法放射 黒 BeamCoat.wav 大
+磁力相乗(命中), 重力圧縮 Slash(3).wav;2;ダメージ 赤 Crash.wav;液体噴射 -.wav
+
+オエコモバ
+皮膚爆弾(攻撃), 時間
+皮膚爆弾(命中), 大爆発
+煙爆弾(攻撃), 煙噴射
+煙爆弾(命中), 煙;2;連続爆発
+蜂爆弾(準備), 蜂
+蜂爆弾(攻撃), 蜂 BeamSaber(5).wav
+蜂爆弾(命中), 連続爆発
+ネズミ爆弾(準備), 鼠
+ネズミ爆弾(攻撃), 鼠
+ネズミ爆弾(命中), 連続爆発
+水爆弾(攻撃), ＭＡＰ光噴出 水色 Shower.wav
+水爆弾(命中), 大爆発
+ボクのリズムを聴いてくれ(攻撃), 打突
+ボクのリズムを聴いてくれ(命中), 打撃 Punch.wav;1;時間;3;超爆発
+
+ポーク＝パイ＝ハット
+ワイアード(攻撃), 触手 黒 Transform.wav
+ワイアード(命中), 触手 黒 Slash.wav;ダメージ Crash.wav
+疑似餌(準備), 羽 黒
+疑似餌(攻撃), 触手 黒 Transform.wav
+疑似餌(命中), 羽 黒;触手 黒 Slash.wav;ダメージ Crash.wav
+
+フェルディナンド博士
+シールド防御(恐竜の護衛), @戦闘アニメ_召喚準備 unit\JOJO-SBR_ScaryMonstersU.bmp 32 Roar.wav 相手ユニットＩＤ
+小型恐竜(攻撃), 実弾発射 Creature\EFFECT_SuspectBird01.bmp 16 Whiz.wav;実弾発射 Animal\EFFECT_Gator01.bmp 16 Whiz.wav
+小型恐竜(命中), 爪撃;噛み付き
+小型恐竜(攻撃), 実弾発射 Creature\EFFECT_SuspectBird01.bmp 16 Whiz.wav;実弾発射 Animal\EFFECT_Gator01.bmp 16 Whiz.wav
+小型恐竜(命中), 爪撃;噛み付き
+スケアリーモンスターズ(攻撃), スーパータックル 緑 Roar.wav
+スケアリーモンスターズ(命中), スーパータックル 緑 FightHit(1).wav;2;噛み付き;爪撃;爪撃
+
+フェルディナンド博士のスタンド
+噛みつき(攻撃), 格闘
+噛みつき(命中), 噛み付き Slash.wav
+尾(攻撃), 横大斬撃 
+尾(命中), 強打 Crash.wav
+
+リンゴォ＝ロードアゲイン
+阻止(マンダム), 時間逆行;3;フラッシュ Charge.wav;1;光圧縮 -.wav
+急所撃ち(準備), リボルバー
+急所撃ち(攻撃), ロックオン;リボルバー Gun(3).wav
+急所撃ち(命中), 銃弾 Explode.wav;2;出血
+
+側近ブラックモア
+ジャンプ(雨渡り), Splash.wav
+阻止(雨水同化), 飛沫 水色 Splash.wav
+阻止(雨粒固定), 光球放出 水色 Shower.wav;1;ビームコート Block.wav 雨粒固定
+分離攻撃(攻撃), ２ＷＡＹ射出
+分離攻撃(命中), 噛み付き;連打
+キャッチ・ザ・レインボー(準備), 光噴出 水色 Shower.wav 対象ユニットＩＤ
+キャッチ・ザ・レインボー(攻撃), 気斬 水色
+キャッチ・ザ・レインボー(命中), クリティカル斬撃
+
+１１人の男たち
+ＴＡＴＯＯ_ＹＯＵ！(準備), 変形 JOJO-SBR_TotooYouU.bmp Fold.wav;振る武器 Unit\JOJO-SBR_11MenU.bmp 32 Whiz.wav
+ＴＡＴＯＯ_ＹＯＵ！(攻撃), 銃撃武器 Unit\JOJO-SBR_11MenU.bmp 32 Gun(3).wav
+ＴＡＴＯＯ_ＹＯＵ！(命中), 銃弾 Explode.wav
+一斉射撃(準備), 変形 JOJO-SBR_TotooYouU.bmp Fold.wav;振る武器 Unit\JOJO-SBR_11MenU.bmp 32 Whiz.wav 二刀流
+一斉射撃(攻撃), 銃撃武器乱射 Unit\JOJO-SBR_11MenU.bmp 32 二丁拳銃 Gun(3).wav
+一斉射撃(命中), 連続爆発
+
+１１人の男たち(ステルス)
+格闘(準備), 変形 JOJO-SBR_11MenU.bmp Whiz.wav
+拳銃(準備), 変形 JOJO-SBR_11MenU.bmp Whiz.wav;1;リボルバー
+
+マイク＝Ｏ
+シールド防御(金属シャッター), シールド防御 Shield\EFFECT_Shield01.bmp 金属シャッター
+チューブラー・ベルズ(攻撃), ベアリング MultipleRocketLauncher(Light).wav
+チューブラー・ベルズ(命中), ベアリング -.wav;点乱打 Stab.wav
+バブル犬(準備), 投擲武器変形 Bullet\EFFECT_Nail01.bmp 16 Unit\JOJO-SBR_TubularBellsU.bmp 32 Storm.wav
+バブル犬(攻撃), 実弾発射 Unit\JOJO-SBR_TubularBellsU.bmp 32 Dog(2).wav;実弾発射 Unit\JOJO-SBR_TubularBellsU.bmp 32 Dog(2).wav
+バブル犬(命中), 噛み付き;噛み付き;1;球体破裂 Explode(High).wav
+バブル鳥(準備), 投擲武器変形 Shield\EFFECT_Shield01.bmp 24 Animal\EFFECT_Pigeon01.bmp 24 Storm.wav
+バブル鳥(攻撃), 実弾発射 Animal\EFFECT_Pigeon01.bmp 24 Swing(2).wav;実弾発射 Animal\EFFECT_Pigeon01.bmp 24 Swing(2).wav
+バブル鳥(命中), 唐竹割り Crash.wav;大斬撃 Crash.wav
+
+マジェント＝マジェント
+攻撃無効化(20thセンチュリーボーイ), 変形 JOJO-SBR_MagentMagent(20thCenturyBoy)U.bmp Block.wav;1;ビームコート Flash.wav 20thセンチュリーボーイ
+ショットガン, ショットガン
+ダイナマイト(準備), 変形 JOJO-SBR_MagentMagent(20thCenturyBoy)U.bmp Block.wav;ダイナマイト Reload.wav
+ダイナマイト(攻撃), 超自爆
+ダイナマイト(命中), 超打 Crash.wav
+
+アクセル＝ＲＯ
+シールド防御(無数の亡霊), シールド防御 Creature\EFFECT_Ghost01.bmp Roar.wav 無数の亡霊
+破壊時分離(罪の転嫁), @戦闘アニメ_脱出発動;1;@戦闘アニメ_オーラ上昇準備 黒 Inori.wav 相手ユニットＩＤ
+シビル・ウォー(攻撃), @戦闘アニメ_召喚準備 Foods\EFFECT_BananaSkin01.bmp Beamsaber.wav;実弾発射 Foods\EFFECT_BananaSkin01.bmp Whiz.wav
+シビル・ウォー(攻撃), @戦闘アニメ_召喚準備 DGoods\EFFECT_BaseBall01.bmp 16 Beamsaber.wav;実弾発射 DGoods\EFFECT_BaseBall01.bmp 16 Whiz.wav
+シビル・ウォー(攻撃), @戦闘アニメ_召喚準備 DGoods\EFFECT_Book01.bmp 16 Beamsaber.wav;実弾発射 DGoods\EFFECT_Book01.bmp 24 Whiz.wav
+シビル・ウォー(攻撃), @戦闘アニメ_召喚準備 DGoods\EFFECT_TinCan01.bmp 16 Beamsaber.wav;実弾発射 DGoods\EFFECT_TinCan01.bmp 24 Whiz.wav
+シビル・ウォー(攻撃), @戦闘アニメ_召喚準備 Creature\EFFECT_Doll01.bmp 24 Beamsaber.wav;実弾発射 Creature\EFFECT_Doll01.bmp 24 Whiz.wav
+シビル・ウォー(命中), ダメージ 赤 Slap.wav
+ゲティスバーグの亡霊(準備), 召喚 Creature\EFFECT_Ghost01.bmp Beamsaber.wav
+ゲティスバーグの亡霊(攻撃), 実弾発射 Creature\EFFECT_Ghost01.bmp Roar.wav
+ゲティスバーグの亡霊(命中), 爪撃
+
+ディ＝ス＝コ
+反射(座標操作), @戦闘アニメ_飛沫命中 Type(Digital).wav 相手ユニットＩＤ;1;反射 Whiz.wav 座標操作
+チョコレート・ディスコ(準備), 振る武器 Bullet\EFFECT_Nail01.bmp 32 Swing.wav
+チョコレート・ディスコ(攻撃), @戦闘アニメ_飛沫命中 Type(Digital).wav 対象ユニットＩＤ;2;画像投下 Bullet\EFFECT_Nail01.bmp
+チョコレート・ディスコ(命中), 点打 赤 Slash.wav
+
+## その他レース参加者・非能力者 ===============================================
+
+ウルムド＝アブドゥル
+体当たり(攻撃), タックル
+体当たり(命中), 強打 Crash.wav
+
+ミセス＝ロビンスン
+チョヤッ(攻撃), ３ＷＡＹ射出 BeamSaber(5).wav
+チョヤッ(命中), ニードル連射
+
+フリッツ＝フォン＝シュトロハイム
+仕込み銃(準備), リボルバー Hand\EFFECT_Punch(Black)01.bmp 32
+仕込み銃(攻撃), リボルバー Hand\EFFECT_Punch(Black)01.bmp 32;リボルバー Hand\EFFECT_Punch(Black)01.bmp 32
+仕込み銃(命中), 銃弾 Explode.wav

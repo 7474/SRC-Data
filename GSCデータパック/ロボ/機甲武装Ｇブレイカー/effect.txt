@@ -1,0 +1,50 @@
+ＦＴ
+ＣＳライフル, Beam.wav
+ＣＳランチャー, Beam.wav
+ＣＳメガランチャー, Beam.wav
+ダブルＣＳランチャー(準備), Charge.wav
+ダブルＣＳランチャー, Beam.wav
+ＣＳアーマーアタック(命中), Slash.wav
+ＣＳアーマーアタック, Whiz.wav;2;Whiz.wav;3;Whiz.wav
+小型ＣＳライフル, BeamShot.wav
+拡散型ＣＳライフル, GunPod.wav
+９連マルチランチャー, MultipleRocketLauncher.wav
+実弾アサルトライフル, MachineGun.wav
+ツインスラッシュパイル(命中), Stab.wav
+ショルダーブラスター, Beam.wav
+ＣＳキャノン(準備), Charge.wav
+ＣＳキャノン, Explode(Nuclear).wav
+ブレードウィプスター, Swing.wav
+Ｄ・ブレードウィプスター, Swing.wav;1;Swing.wav
+ブレードウィプスター(命中), Whip.wav
+Ｄ・ブレードウィプスター(命中), Whip.wav;1;Swing.wav;2;Whip.wav
+エアークロー, FlyBy.wav
+エアークロー(命中), Slash.wav;2;Slash.wav
+ナックルショット(命中), Punch.wav
+ＣＳファイヤ(準備), Charge(High).wav
+ＣＳファイヤ, FlyBy.wav;3;Fire.wav
+ＣＳファイヤ(命中), Explode.wav 
+ＣＳアタック(準備), Charge(long).wav
+ＣＳアタック, BeamCoat.wav
+ＣＳアタック(命中), Clash.wav;1;Clash.wav;2;Clash.wav  
+
+
+
+ＭＴ
+マルチショルダーコンテナ, MultipleRocketLauncher(Light).wav
+実弾バスターライフル, Bazooka,wav
+ショルダーキャノン, Cannon.wav
+腕部ブラスターランチャー, GunPod.wav
+スラッシュパイル(命中), Stab.wav
+実弾アサルトライフル, MachineGun.wav
+パイルバンカーキック, Swing.wav
+パイルバンカーキック(命中), 1;Punch.wav;3;Crash.wav
+
+クラウドシップ
+ＣＳキャノン, Beam.wav
+クラウドスパーク, LaserGun.wav
+クラウドバースト(準備), Charge(Long).wav 
+クラウドバースト, Explode(Far).wav 
+ヘビーボム, Explode(Far).wav
+オーバーロード(準備), Charge(Long).wav
+オーバーロード, Explode(Nuclear).wav

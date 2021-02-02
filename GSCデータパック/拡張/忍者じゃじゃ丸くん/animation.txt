@@ -1,0 +1,31 @@
+ジャレコキャラ
+トロッコ(攻撃), 瞬間変形 JYAJYA0_JyajyaMaru(truck)U.bmp;スーパータックル
+トロッコ(命中), スーパータックル
+トロッコ(命中)(対瀕死), スーパータックル乱舞
+忍法ガマパックン(攻撃), 飛来アップ JYAJYA0_JyajyaMaru(G)U.bmp Warship.wav 残像 遅;瞬間変形 JYAJYA0_JyajyaMaru(G)U.bmp
+忍法ガマパックン(命中), @戦闘アニメ_タックル攻撃 Heartbeat(2).wav
+氷剣(準備), -
+氷剣(攻撃), 投擲武器 Anime\Laser\EFFECT_EnergyBlade(Blue)02.bmp 32 Bow.wav 下投げ
+氷剣(命中), 凍斬撃
+お皿, ソーサー
+カマ, 鎌投擲
+ゲタ(攻撃), 蹴り飛ばし武器 Anime\DGoods\EFFECT_Geta01.bmp
+ゲタ(命中), 強打
+骨(攻撃), 投擲武器 Anime\Weapon\EFFECT_Femur01.bmp
+骨(命中), 打撃
+目玉(攻撃), 実弾発射 Anime\BodyParts\EFFECT_EyeBall(Red)01.bmp
+目玉(命中), 強打
+壁(攻撃), 実弾発射 Anime\DGoods\EFFECT_Brick01.bmp Cannon.wav
+壁(命中), 爆発
+炎(攻撃), 炎打ち下ろし bomb.wav
+炎(命中), 大爆発
+爆弾(攻撃), 鉄球
+爆弾(命中), 連続爆発
+反射(飛び道具反射), 反射 Slash(4).wav 飛び道具反射
+反射(飛び道具反射)(解説), $(ユニット)は$(相手武器)を跳ね返した！
+攻撃無効化(飛び道具無効), バリア BeamSaber(2).wav 飛び道具無効
+攻撃無効化(飛び道具無効)(解説), $(ユニット)には$(相手武器)が通用しなかった！
+
+
+さくら姫(じゃじゃ丸くん)
+さくらの花びら(発動), 桜吹雪

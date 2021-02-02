@@ -1,0 +1,331 @@
+
+# 変身アビリティで変身したユニットからはハイパーモード及びノーマルモードが動作しません。
+# そのＳＲＣ本体仕様を回避するのが目的です。
+
+# 転載・改変自由です。
+
+
+### 書式 ###
+# Call 響鬼変身_アップグレード処理 (変身先ユニット名) (変身元ユニットＩＤ(省略可))
+
+
+響鬼変身_アップグレード処理:
+
+# 変数宣言
+Local _変身元 _パイロット _変身後 _ＨＰ _ＥＮ _武器数 _武器名 _最大弾数 _弾数 _アビリティ数 _アビリティ名 _最大使用回数 _使用回数 i
+
+# 変身元の取得
+_変身元 = IIf(Args(2) = "", 対象ユニットＩＤ, Args(2))
+_パイロット = PilotID(_変身元)
+
+# HP・EN保存
+_ＨＰ = HP(_変身元)
+_ＥＮ = EN(_変身元)
+RecoverHP _変身元 100
+RecoverEN _変身元 100
+_ＨＰ割合 = (_ＨＰ - HP(_変身元)) * 100 / HP()
+_ＥＮ割合 = (_ＥＮ - EN(_変身元)) * 100 / EN()
+
+# 武器弾数保存
+_武器数 = Info(ユニット, _変身元, 武器数)
+For i = 1 To _武器数
+  _武器名 = Info(ユニット, _変身元, 武器, i)
+  _最大弾数[_武器名] = Info(ユニット, _変身元, 武器, i, 最大弾数)
+  _弾数[_武器名] = Info(ユニット, _変身元, 武器, i, 弾数)
+Next
+
+# アビリティ使用回数保存
+_アビリティ数 = Info(ユニット, _変身元, アビリティ数)
+For i = 1 To _アビリティ数
+  _アビリティ名 = Info(ユニット, _変身元, アビリティ, i)
+  _最大使用回数[_アビリティ名] = Info(ユニット, _変身元, アビリティ, i, 最大使用回数)
+  _使用回数[_アビリティ名] = Info(ユニット, _変身元, アビリティ, i, 使用回数)
+Next
+
+# アップグレード
+Upgrade _変身元 Args(1)
+_変身後 = UnitID(_パイロット)
+
+# HP・EN復旧
+RecoverHP _変身後 _ＨＰ割合
+RecoverEN _変身後 _ＥＮ割合
+
+# 武器弾数復旧
+_武器数 = Info(ユニット, _変身後, 武器数)
+For i = 1 To _武器数
+  _武器名 = Info(ユニット, _変身後, 武器, i)
+  If _最大弾数[_武器名] * Info(ユニット, _変身後, 武器, i, 最大弾数) > 0 Then
+    SetBullet _変身後 i (_弾数[_武器名] * Info(ユニット, _変身後, 武器, i, 最大弾数) / _最大弾数[_武器名])
+  EndIf
+Next
+
+# アビリティ使用回数復旧
+_アビリティ数 = Info(ユニット, _変身後, アビリティ数)
+For i = 1 To _アビリティ数
+  _アビリティ名 = Info(ユニット, _変身後, アビリティ, i)
+  If _最大使用回数[_アビリティ名] * Info(ユニット, _変身後, アビリティ, i, 最大使用回数) > 0 Then
+    SetStock _変身後 i (_使用回数[_アビリティ名] * Info(ユニット, _変身後, アビリティ, i, 最大使用回数) / _最大使用回数[_アビリティ名])
+  EndIf
+Next
+
+Return
+
+
+
+##############################################################################################
+
+
+使用後 全 変身音叉・音角(響鬼):
+Call 戦闘アニメ_振る武器変形準備 EFFECT_RHK_OnkakuC.bmp 32 EFFECT_RHK_Onkaku.bmp 32 Sword.wav
+Call 戦闘アニメ_魔法集中発動 紫 Houring.wav
+Call 戦闘アニメ_魔法集中発動 紫 -.wav;魔法集中 紫 -.wav
+Autotalk 日高仁志
+「<B><BIG>ハァァァアアアアアア！！</B></BIG>」
+Suspend
+Call 戦闘アニメ_炎発動 青
+Autotalk 日高仁志
+「<B><BIG>ハアァッ！！</B></BIG>」
+End
+If Unit() = 日高仁志 Then
+ Call 戦闘アニメ_変形 RHK_MaskedRiderHibikiU.bmp Shock(Low).wav
+ Call 響鬼変身_アップグレード処理 仮面ライダー響鬼
+Elseif  Unit() = 日高仁志(後期) Then
+ Call 戦闘アニメ_変形 RHK_MaskedRiderHibikiU.bmp Shock(Low).wav
+ Call 響鬼変身_アップグレード処理 仮面ライダー響鬼(後期)
+Endif
+Exit
+
+
+使用後 全 変身音叉・音角(響鬼戦国):
+Call 戦闘アニメ_振る武器変形準備 EFFECT_RHK_OnkakuC.bmp 32 EFFECT_RHK_Onkaku.bmp 32 Sword.wav
+Call 戦闘アニメ_魔法集中発動 紫 Houring.wav
+Call 戦闘アニメ_魔法集中発動 紫 -.wav;魔法集中 紫 -.wav
+Autotalk 戦鬼ヒビキ
+「<B><BIG>ハァァァアアアアアア！！</B></BIG>」
+Suspend
+Call 戦闘アニメ_炎発動 青
+Autotalk 戦鬼ヒビキ
+「<B><BIG>ハアァッ！！</B></BIG>」
+End
+If  Unit() = 戦鬼ヒビキ Then
+ Call 戦闘アニメ_変形 RHK_MaskedRiderHibikiU.bmp Shock(Low).wav
+ Call 響鬼変身_アップグレード処理 仮面ライダー響鬼(戦国)
+Elseif Unit() = 戦鬼ヒビキ(乗馬) Then
+ Call 戦闘アニメ_変形 RHK_MaskedRiderHibiki(Horse)U.bmp Shock(Low).wav
+ Call 響鬼変身_アップグレード処理 仮面ライダー響鬼(乗馬)
+Endif
+Exit
+
+
+使用後 全 変身鬼笛・音笛(威吹鬼):
+Call 戦闘アニメ_魔法集中発動 青 Whitsle.wav
+Call 戦闘アニメ_魔法集中発動 青 -.wav
+Call 戦闘アニメ_魔法集中発動 青 -.wav
+Call 戦闘アニメ_スピン開始 青 相手ユニットＩＤ Storm.wav
+If Unit() = 和泉伊織 Then
+ Autotalk 和泉伊織
+ <B><BIG>ハアァッ！！</B></BIG>」
+ End
+Elseif Unit() = 戦鬼イブキ Then
+ Autotalk 戦鬼イブキ
+ <B><BIG>ハアァッ！！</B></BIG>」
+ End
+Endif
+Call 戦闘アニメ_変形 RHK_MaskedRiderIbukiU.bmp Shock(Low).wav
+If Unit() = 和泉伊織 Then
+ Call 響鬼変身_アップグレード処理 仮面ライダー威吹鬼
+Elseif Unit() = 戦鬼イブキ Then
+ Call 響鬼変身_アップグレード処理 仮面ライダー威吹鬼(戦国)
+Endif
+Exit
+
+
+使用後 全 変身鬼弦・音錠(轟鬼):
+Call 戦闘アニメ_魔法集中発動 橙 GuiterHarmonix.wav
+Call 戦闘アニメ_魔法集中発動 橙 -.wav
+Call 戦闘アニメ_魔法集中発動 橙 -.wav
+If Unit() = 戸田山登己蔵 Then
+ Autotalk 戸田山登己蔵
+ <B><BIG>ハアァッ！！</B></BIG>
+ End
+Elseif Unit() = 戦鬼トドロキ Then
+ Autotalk 戦鬼トドロキ
+ <B><BIG>ハアァッ！！</B></BIG>
+ End
+Endif
+Call 戦闘アニメ_落雷発動
+Call 戦闘アニメ_変形 RHK_MaskedRiderTodorokiU.bmp Shock(Low).wav
+If Unit() = 戸田山登己蔵 Then
+ Call 響鬼変身_アップグレード処理 仮面ライダー轟鬼
+Elseif Unit() = 戦鬼トドロキ Then
+ Call 響鬼変身_アップグレード処理 仮面ライダー轟鬼(戦国)
+Endif
+Exit
+
+
+使用後 全 変身鬼弦・音錠(戸田山):
+Call 戦闘アニメ_魔法集中発動 橙 GuiterHarmonix.wav
+Call 戦闘アニメ_魔法集中発動 橙 -.wav
+Call 戦闘アニメ_魔法集中発動 橙 -.wav
+Autotalk 戸田山登己蔵
+<B><BIG>ハアァッ！！</B></BIG>
+End
+Call 戦闘アニメ_落雷発動
+Call 戦闘アニメ_変形 RHK_TodayamaTransformationU.bmp Shock(Low).wav
+Call 響鬼変身_アップグレード処理 戸田山登己蔵変身
+Exit
+
+
+使用後 全 変身鬼弦・音枷(斬鬼):
+Call 戦闘アニメ_魔法集中発動 橙 GuiterHarmonix.wav
+Call 戦闘アニメ_魔法集中発動 橙 -.wav
+Call 戦闘アニメ_魔法集中発動 橙 -.wav
+Autotalk 財津原蔵王丸
+<B><BIG>ハアァッ！！</B></BIG>
+End
+Call 戦闘アニメ_落雷発動
+Call 戦闘アニメ_変形 RHK_MaskedRiderZankiU.bmp Shock(Low).wav
+Call 響鬼変身_アップグレード処理 仮面ライダー斬鬼
+Exit
+
+
+使用後 全 変身鬼弦・音枷(斬鬼真弦):
+Call 戦闘アニメ_魔法集中発動 橙 GuiterHarmonix.wav
+Call 戦闘アニメ_魔法集中発動 橙 -.wav
+Call 戦闘アニメ_魔法集中発動 橙 -.wav
+Autotalk 財津原蔵王丸
+<B><BIG>ハアァッ！！</B></BIG>
+End
+Call 戦闘アニメ_落雷発動
+Call 戦闘アニメ_変形 RHK_MaskedRiderZankiU.bmp Shock(Low).wav
+Call 響鬼変身_アップグレード処理 仮面ライダー斬鬼(真弦)
+Exit
+
+
+使用後 全 変身音叉・音角(京介):
+Call 戦闘アニメ_振る武器変形準備 EFFECT_RHK_OnkakuC.bmp 32 EFFECT_RHK_Onkaku.bmp 32 Sword.wav
+Call 戦闘アニメ_魔法集中発動 紫 Houring.wav
+Call 戦闘アニメ_魔法集中発動 紫 -.wav;魔法集中 紫 -.wav
+Autotalk 桐谷京介
+「<B><BIG>ハァァァアアアアアア！！</B></BIG>」
+Suspend
+Call 戦闘アニメ_炎発動 青
+Autotalk 桐谷京介
+「<B><BIG>ハアァッ！！</B></BIG>」
+End
+Call 戦闘アニメ_変形 RHK_KyosukeTransformationU.bmp Shock(Low).wav
+Call 響鬼変身_アップグレード処理 桐谷京介変身体
+Exit
+
+
+使用後 全 変身鬼弦・音錠(朱鬼):
+Call 戦闘アニメ_魔法集中発動 橙 GuiterHarmonix.wav
+Call 戦闘アニメ_魔法集中発動 橙 -.wav
+Call 戦闘アニメ_魔法集中発動 橙 -.wav
+Autotalk シュキ(響鬼)
+<B><BIG>ハアァッ！！</B></BIG>
+End
+Call 戦闘アニメ_落雷発動
+Call 戦闘アニメ_変形 RHK_MaskedRiderSyukiU.bmp Shock(Low).wav
+Call 響鬼変身_アップグレード処理 仮面ライダー朱鬼
+Exit
+
+
+使用後 全 変身音叉・音角(弾鬼):
+Call 戦闘アニメ_振る武器変形準備 EFFECT_RHK_OnkakuC.bmp 32 EFFECT_RHK_Onkaku.bmp 32 Sword.wav
+Call 戦闘アニメ_魔法集中発動 紫 Houring.wav
+Call 戦闘アニメ_魔法集中発動 紫 -.wav;魔法集中 紫 -.wav
+Autotalk 段田大輔
+「<B><BIG>ハァァァアアアアアア！！</B></BIG>」
+Suspend
+Call 戦闘アニメ_炎発動 青
+Autotalk 段田大輔
+「<B><BIG>ハアァッ！！</B></BIG>」
+End
+Call 戦闘アニメ_変形 RHK_MaskedRiderDankiU.bmp Shock(Low).wav
+Call 響鬼変身_アップグレード処理 仮面ライダー弾鬼
+Exit
+
+
+使用後 全 変身鬼弦・音枷(裁鬼):
+Call 戦闘アニメ_魔法集中発動 橙 GuiterHarmonix.wav
+Call 戦闘アニメ_魔法集中発動 橙 -.wav
+Call 戦闘アニメ_魔法集中発動 橙 -.wav
+Autotalk 佐伯栄
+<B><BIG>ハアァッ！！</B></BIG>
+End
+Call 戦闘アニメ_落雷発動
+Call 戦闘アニメ_変形 RHK_MaskedRiderSabakiU.bmp Shock(Low).wav
+Call 響鬼変身_アップグレード処理 仮面ライダー裁鬼
+Exit
+
+
+使用後 全 変身鬼笛・音笛(勝鬼):
+Call 戦闘アニメ_魔法集中発動 青 Whitsle.wav
+Call 戦闘アニメ_魔法集中発動 青 -.wav
+Call 戦闘アニメ_魔法集中発動 青 -.wav
+Call 戦闘アニメ_スピン開始 青 相手ユニットＩＤ Storm.wav
+Autotalk 関東１１鬼・ショウキ
+<B><BIG>ハアァッ！！</B></BIG>」
+End
+Call 戦闘アニメ_変形 RHK_MaskedRiderSyoukiU.bmp Shock(Low).wav
+Call 響鬼変身_アップグレード処理 仮面ライダー勝鬼
+Exit
+
+
+使用後 全 変身音叉・音角(歌舞鬼):
+Call 戦闘アニメ_振る武器変形準備 EFFECT_RHK_OnkakuC.bmp 32 EFFECT_RHK_Onkaku.bmp 32 Sword.wav
+Call 戦闘アニメ_魔法集中発動 紫 Houring.wav
+Call 戦闘アニメ_魔法集中発動 紫 -.wav
+Call 戦闘アニメ_魔法集中発動 紫 -.wav
+Call 戦闘アニメ_桜吹雪発動
+Call 戦闘アニメ_変形 RHKM_MaskedRiderKabukiU.bmp
+Call 響鬼変身_アップグレード処理 仮面ライダー歌舞鬼
+Exit
+
+
+使用後 全 変身音叉・音角(凍鬼):
+Call 戦闘アニメ_振る武器変形準備 EFFECT_RHK_OnkakuC.bmp 32 EFFECT_RHK_Onkaku.bmp 32 Sword.wav
+Call 戦闘アニメ_魔法集中発動 紫 Houring.wav
+Call 戦闘アニメ_魔法集中発動 紫 -.wav
+Call 戦闘アニメ_魔法集中発動 紫 -.wav
+Call 戦闘アニメ_吹雪発動
+Call 戦闘アニメ_変形 RHKM_MaskedRiderToukiU.bmp 
+Call 響鬼変身_アップグレード処理 仮面ライダー凍鬼
+Exit
+
+
+使用後 全 変身音叉・音角(煌鬼):
+Call 戦闘アニメ_振る武器変形準備 EFFECT_RHK_OnkakuC.bmp 32 EFFECT_RHK_Onkaku.bmp 32 Sword.wav
+Call 戦闘アニメ_魔法集中発動 紫 Houring.wav
+Call 戦闘アニメ_魔法集中発動 紫 -.wav
+Call 戦闘アニメ_魔法集中発動 紫 -.wav
+Call 戦闘アニメ_魔法放射発動 黄
+Call 戦闘アニメ_変形 RHKM_MaskedRiderKiramekiU.bmp 
+Call 響鬼変身_アップグレード処理 仮面ライダー煌鬼
+Exit
+
+
+使用後 全 変身音叉・音角(西鬼):
+Call 戦闘アニメ_振る武器変形準備 EFFECT_RHK_OnkakuC.bmp 32 EFFECT_RHK_Onkaku.bmp 32 Sword.wav
+Call 戦闘アニメ_魔法集中発動 紫 Houring.wav;
+Call 戦闘アニメ_魔法集中発動 紫 -.wav
+Call 戦闘アニメ_魔法集中発動 紫 -.wav
+Call 戦闘アニメ_光噴出発動 黄
+Call 戦闘アニメ_変形 RRHKM_MaskedRiderNishikiU.bmp
+Call 響鬼変身_アップグレード処理 仮面ライダー西鬼
+Exit
+
+
+使用後 全 変身音叉・音角(羽撃鬼):
+Call 戦闘アニメ_振る武器変形準備 EFFECT_RHK_OnkakuC.bmp 32 EFFECT_RHK_Onkaku.bmp 32 Sword.wav
+Call 戦闘アニメ_魔法集中発動 紫 Houring.wav
+Call 戦闘アニメ_魔法集中発動 紫 -.wav
+Call 戦闘アニメ_魔法集中発動 紫 -.wav
+Call 戦闘アニメ_バラ吹雪発動 白
+Call 戦闘アニメ_変形 RHKM_MaskedRiderHabatakiU.bmp
+Call 響鬼変身_アップグレード処理 仮面ライダー羽撃鬼
+Exit
+
+
+

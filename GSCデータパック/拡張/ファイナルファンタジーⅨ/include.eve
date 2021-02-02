@@ -1,0 +1,83 @@
+
+################################################################################
+### 目標地点に光線がふりそそぐアニメーション(ＭＡＰのみ)。
+
+戦闘アニメ_FF9_ＭＡＰ光線垂直降り注ぎ攻撃:
+
+Local UID L_ColorName L_i L_Colors L_X L_Y L_LineColor
+
+L_ColorName = _GetName("(Blue)",_GetBeamColorFromArgs())
+L_Colors[1] = _GetBeamLineColor(L_ColorName)
+L_Colors[2] = _GetBeamLineColor(L_ColorName, "明")
+
+UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+Center UID
+
+L_X = WX(目標地点) + 16
+L_Y = WY(目標地点) + 8
+
+Local L_DrawCount = 40
+
+_SelectSound "Interference.wav" _GetWavFromArgs()
+
+For L_i = (L_DrawCount \ 5) To L_DrawCount
+	L_LineColor = IIF(Random(3) = 1, L_Colors[1], L_Colors[2])
+	
+	DrawWidth IIF(L_i Mod 2 = 1, 16, 12)
+	Line  L_X 0 L_X L_Y L_LineColor
+	
+	DrawWidth IIF(L_i Mod 4 = 1, 10, 8)
+	Line  L_X 0 L_X L_Y #FFFFFF
+	
+	PaintPicture ("Light\EFFECT_LightGeyser" & L_ColorName & "0" & ((L_i Mod 2) + 1) & ".bmp") (L_X - 68) (L_Y - 120) 透過
+	
+	Refresh
+	
+	Wait 0.5
+	ClearPicture
+Next
+
+Refresh
+
+Return
+
+戦闘アニメ_FF9_ＭＡＰ光線斜め降り注ぎ攻撃:
+
+Local UID L_ColorName L_i L_Colors L_X L_Y L_XD L_LineColor
+
+L_ColorName = _GetName("(Yellow)",_GetBeamColorFromArgs())
+L_Colors[1] = _GetBeamLineColor(L_ColorName)
+L_Colors[2] = _GetBeamLineColor(L_ColorName, "明")
+
+UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+Center UID
+
+L_X = WX(目標地点) + 16
+L_Y = WY(目標地点) + 4 + Random(7)
+
+L_XD = Random(31) - 16
+
+Local L_DrawCount = 4
+
+_SelectSound "Beam.wav" _GetWavFromArgs()
+
+For L_i = (L_DrawCount \ 5) To L_DrawCount
+	L_LineColor = IIF(Random(3) = 1, L_Colors[1], L_Colors[2])
+	
+	DrawWidth IIF(L_i Mod 2 = 1, 4, 2)
+	Line  (L_X + L_XD * 2) 0 (L_X + L_XD) L_Y L_LineColor
+	
+	DrawWidth IIF(L_i Mod 4 = 1, 2, 1)
+	Line  (L_X + L_XD * 2) 0 (L_X + L_XD) L_Y #FFFFFF
+	
+	Refresh
+	
+	Wait 0.5
+	ClearPicture
+Next
+
+Refresh
+
+Return

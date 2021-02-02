@@ -1,0 +1,141 @@
+御剣咲耶
+捧剣バルムンク(準備), 振る武器 Weapon\EFFECT_SaintGreatSword01.bmp 48 48
+捧剣バルムンク(攻撃), 大斬撃
+捧剣バルムンク(命中), 円弧斬撃
+剣の殴打(準備), 振る武器 Weapon\EFFECT_SaintGreatSword01.bmp 48 48
+剣の殴打(攻撃), 横大斬撃
+剣の殴打(命中), アッパー Shock(Low).wav
+チェーンスイング(準備), 振る武器 Weapon\EFFECT_SaintGreatSword01.bmp 48 48
+チェーンスイング(攻撃), チェーン
+チェーンスイング(命中), 円弧斬撃
+突進(準備), 振る武器 Weapon\EFFECT_SaintGreatSword01.bmp 48 48
+突進(攻撃), 振る武器突撃 Weapon\EFFECT_SaintGreatSword01.bmp 48 48 斬撃
+突進(命中), 振る武器突撃 Weapon\EFFECT_SaintGreatSword01.bmp 48 48 斬撃
+浅葱色の約束(準備), 振る武器 Weapon\EFFECT_SaintGreatSword01.bmp 48 48;光噴出 青;振る武器 LightWeapon\EFFECT_LightGiantSword(Blue)01.bmp 56 56
+浅葱色の約束(攻撃), 大斬撃 青
+浅葱色の約束(命中), 光斬撃 青 Glass.wav;振る武器突撃 Weapon\EFFECT_SaintGreatSword01.bmp 48 48 斬撃;5;Swing.wav;5;Reload(5).wav
+ラッシュ(準備), 振る武器 Weapon\EFFECT_SaintGreatSword01.bmp 48 48
+ラッシュ(攻撃), 振る武器突撃 Weapon\EFFECT_SaintGreatSword01.bmp 48 48 斬撃
+ラッシュ(命中), 斬撃乱舞;振る武器突撃 Weapon\EFFECT_SaintGreatSword01.bmp 48 48 斬撃
+シールド防御(捧剣バルムンク), シールド防御 Weapon\EFFECT_GiantSword01.bmp 56 56 捧剣防御
+広域阻止(浅葱色の約束), 光斬撃 青 Glass.wav;5;Swing.wav;5;Reload(5).wav
+阻止(消失する黒玉色), 光噴出 黒;決め文字 ＋ 黒 Glass.wav
+
+御剣咲耶・魔剣躍進
+捧剣グラム(準備), 振る武器 LightWeapon\EFFECT_LightGiantSword(Black)01.bmp 56 56
+捧剣グラム(攻撃), 大斬撃
+捧剣グラム(命中), 大炎斬撃 黒 Slash(4).wav
+剣の殴打(準備), 振る武器 LightWeapon\EFFECT_LightGiantSword(Black)01.bmp 56 56
+剣の殴打(攻撃), 横大斬撃
+剣の殴打(命中), アッパー Shock(Low).wav
+チェーンスイング(準備), 振る武器 LightWeapon\EFFECT_LightGiantSword(Black)01.bmp 56 56
+チェーンスイング(攻撃), チェーン
+チェーンスイング(命中), 振り上げ大炎斬撃 黒 Slash(4).wav
+突進(準備), 振る武器 LightWeapon\EFFECT_LightGiantSword(Black)01.bmp 56 56
+突進(攻撃), 振る武器突撃 LightWeapon\EFFECT_LightGiantSword(Black)01.bmp 56 56 斬撃
+突進(命中), 振る武器突撃 LightWeapon\EFFECT_LightGiantSword(Black)01.bmp 56 56 斬撃
+浅葱色の約束(準備), 振る武器 LightWeapon\EFFECT_LightGiantSword(Black)01.bmp 56 56;光噴出 青;振る武器 LightWeapon\EFFECT_LightGiantSword(Blue)01.bmp 56 56
+浅葱色の約束(攻撃), 大斬撃 青
+浅葱色の約束(命中), 光斬撃 青 Glass.wav;振る武器突撃 LightWeapon\EFFECT_LightGiantSword(Black)01.bmp 56 56 斬撃;5;Swing.wav;5;Reload(5).wav
+ラッシュ(準備), 振る武器 LightWeapon\EFFECT_LightGiantSword(Black)01.bmp 56 56
+ラッシュ(攻撃), 振る武器突撃 LightWeapon\EFFECT_LightGiantSword(Black)01.bmp 56 56
+ラッシュ(命中), 大炎斬撃 黒 Slash(4).wav;振り上げ大炎斬撃 黒 Slash(4).wav;なぎ払い大炎斬撃 黒 Slash(4).wav;振る武器突撃 LightWeapon\EFFECT_LightGiantSword(Black)01.bmp 56 56 斬撃
+白金色の聖憚曲(準備), 振る武器 LightWeapon\EFFECT_LightGiantSword(Black)01.bmp 56 56;光噴出 黒;光大噴出 白;振る武器 LightWeapon\EFFECT_LightGiantSword(White)01.bmp 56 56
+白金色の聖憚曲(攻撃), 大斬撃 白;波動放射 白 Transform.wav
+白金色の聖憚曲(命中), 波動放射 白 Inori.wav
+シールド防御(捧剣グラム), シールド防御 LightWeapon\EFFECT_LightGiantSword(Black)01.bmp 56 56 捧剣防御
+広域阻止(浅葱色の約束), 光斬撃 青 Glass.wav;5;Swing.wav;5;Reload(5).wav
+阻止(消失する黒玉色), 光噴出 黒;決め文字 ＋ 黒 Glass.wav
+
+愛染理緒
+捧剣青龍偃月刀(準備), 振る武器 Weapon\EFFECT_TwinBlade01.bmp 64 64
+捧剣青龍偃月刀(攻撃), 大斬撃
+捧剣青龍偃月刀(命中), 円弧斬撃
+飛剣(準備), 振る武器 Weapon\EFFECT_TwinBlade01.bmp 64 64;青龍刀 二刀流 Slash(4).wav
+飛剣(攻撃), 回転投擲武器 Weapon\EFFECT_SeiryuTou01.bmp
+飛剣(攻撃), 回転投擲武器 Weapon\EFFECT_SeiryuTou01.bmp 速
+飛剣(攻撃), 回転投擲武器 Weapon\EFFECT_SeiryuTou01.bmp 下投げ
+飛剣(攻撃), 回転投擲武器 Weapon\EFFECT_SeiryuTou01.bmp 下投げ 速
+飛剣(攻撃), 蹴り飛ばし武器 Weapon\EFFECT_SeiryuTou01.bmp
+飛剣(攻撃), 蹴り飛ばし武器 Weapon\EFFECT_SeiryuTou01.bmp 速
+飛剣(命中), 回転斬撃
+回龍背尾(準備), 中心回転武器 Weapon\EFFECT_TwinBlade01.bmp 64 64 反転
+回龍背尾(準備), 中心回転武器 Weapon\EFFECT_TwinBlade01.bmp 64 64 反転;Slash(4).wav;中心回転武器 Weapon\EFFECT_SeiryuTou01.bmp 二刀流
+回龍背尾(準備), 中心回転武器 Weapon\EFFECT_SeiryuTou01.bmp 二刀流
+回龍背尾(準備), 中心回転武器 Weapon\EFFECT_SeiryuTou01.bmp 二刀流;Slash(4).wav;中心回転武器 Weapon\EFFECT_TwinBlade01.bmp 64 64 反転
+回龍背尾(攻撃), 振る武器突撃 Weapon\EFFECT_TwinBlade01.bmp 64 64 斬撃
+回龍背尾(攻撃), 振る武器突撃 Weapon\EFFECT_SeiryuTou01.bmp 斬撃 二刀流
+回龍背尾(命中), 斬撃乱舞
+龍闘演義の型(準備), 中心回転武器 Weapon\EFFECT_TwinBlade01.bmp 64 64 反転
+龍闘演義の型(攻撃), 振る武器突撃 Weapon\EFFECT_TwinBlade01.bmp 64 64 斬撃
+龍闘演義の型(攻撃), 振る武器突撃 Weapon\EFFECT_SeiryuTou01.bmp 斬撃 二刀流
+龍闘演義の型(命中), 斬撃乱舞;斬撃乱舞
+双龍交叉(準備), 中心回転武器 Weapon\EFFECT_TwinBlade01.bmp 64 64 反転;Slash(4).wav;中心回転武器 Weapon\EFFECT_SeiryuTou01.bmp 二刀流
+双龍交叉(準備), 中心回転武器 Weapon\EFFECT_SeiryuTou01.bmp 二刀流
+双龍交叉(攻撃), 振る武器突撃 Weapon\EFFECT_SeiryuTou01.bmp 斬撃 二刀流
+双龍交叉(命中), 斬撃 二刀流
+暴風の連撃(攻撃), スーパータックル
+暴風の連撃(命中), 回転斬撃;斬撃乱舞;大斬撃;クリティカル斬撃;振る武器突撃 Weapon\EFFECT_TwinBlade01.bmp 64 64 斬撃
+暴風の連撃(命中), 回転斬撃;斬撃乱舞;大斬撃;クリティカル斬撃;振る武器突撃 Weapon\EFFECT_SeiryuTou01.bmp 斬撃 二刀流
+赤兎の型・駈歩(準備), 地面衝撃
+赤兎の型・駈歩(攻撃), Swing.wav;透明化
+赤兎の型・駈歩(命中), 超斬撃
+赤兎の型・速歩(準備), 地面衝撃
+赤兎の型・速歩(攻撃), Swing.wav;透明化
+赤兎の型・速歩(命中), 振る武器突撃 Weapon\EFFECT_TwinBlade01.bmp 64 64 斬撃
+赤兎の型・速歩(命中), 振る武器突撃 Weapon\EFFECT_SeiryuTou01.bmp 斬撃 二刀流
+赤兎の型・常歩(準備), 地面衝撃
+赤兎の型・常歩(攻撃), 斬撃
+赤兎の型・常歩(命中), 大炎斬撃 白 Slash(3).wav
+赤兎の型・襲歩(準備), 地面衝撃
+赤兎の型・襲歩(攻撃), Swing.wav;透明化
+赤兎の型・襲歩(命中), 振る武器突撃 Weapon\EFFECT_TwinBlade01.bmp 64 64 斬撃;超斬撃;大炎斬撃 白 Slash(3).wav
+赤兎の型・襲歩(命中), 振る武器突撃 Weapon\EFFECT_SeiryuTou01.bmp 斬撃 二刀流;超斬撃;大炎斬撃 白 Slash(3).wav
+双龍烈火閃(準備), オーラ上昇 黄;振る武器 Weapon\EFFECT_SeiryuTou01.bmp 二刀流
+双龍烈火閃(攻撃), 斬撃 二刀流;ＭＡＰ光噴出 黄;ＭＡＰ超爆発 黄
+双龍烈火閃(命中), 竜炎 黄 爆発;連続大爆発 黄;超爆発 黄
+シールド防御(捧剣青龍偃月刀), 中心回転武器防御 捧剣防御 Weapon\EFFECT_TwinBlade01.bmp 64 64
+
+行葉棗
+捧剣備前長船長光(準備), 振る武器 Weapon\EFFECT_GiantSword02.bmp 56 56
+捧剣備前長船長光(攻撃), 大斬撃
+捧剣備前長船長光(命中), 円弧斬撃
+背面風車(準備), 中心回転武器 Weapon\EFFECT_GiantSword02.bmp 56 56
+背面風車(攻撃), 振る武器突撃 Weapon\EFFECT_GiantSword02.bmp 56 56
+背面風車(命中), 円弧斬撃
+連ね斬り(準備), 振る武器 Weapon\EFFECT_GiantSword02.bmp 56 56
+連ね斬り(攻撃), 振る武器突撃 Weapon\EFFECT_GiantSword02.bmp 56 56 斬撃
+連ね斬り(命中), 斬撃乱舞;振る武器突撃 Weapon\EFFECT_GiantSword02.bmp 56 56 斬撃
+燕返し(準備), 振る武器 Weapon\EFFECT_GiantSword02.bmp 56 56
+燕返し(攻撃), 大斬撃;振り上げ大斬撃
+燕返し(命中), 円弧斬撃 青 Slash(3).wav;振り上げ大炎斬撃 青 Slash(3).wav
+燕返し・違(準備), 振る武器 Weapon\EFFECT_GiantSword02.bmp 56 56
+燕返し・違(攻撃), 振り上げ大斬撃;大斬撃
+燕返し・違(命中), 振り上げ大炎斬撃 青 Slash(3).wav;円弧斬撃 青 Slash(3).wav
+五輪燕(準備), 振る武器 Weapon\EFFECT_GiantSword02.bmp 56 56;オーラ上昇 青;決め文字 地 茶 Warship.wav;決め文字 水 群青 Warship.wav;決め文字 火 赤 Warship.wav;決め文字 風 青 Warship.wav;決め文字 空 水色 Warship.wav
+五輪燕(攻撃), Chaff.wav;透明化
+五輪燕(命中), 振り上げ大炎斬撃 黒 Slash(3).wav;凍斬撃 青 Slash(3).wav;大炎斬撃 赤 Slash(3).wav;横大斬撃 青 Slash(3).wav;超斬撃 白 Slash(3).wav
+五輪燕(クリティカル), Warship.wav;Warship.wav;Warship.wav;決め文字 五輪燕 赤
+シールド防御(捧剣備前長船長光), シールド防御 Weapon\EFFECT_GiantSword02.bmp 56 56 捧剣防御
+
+環零那
+捧剣カラドボルグ(準備), 突く武器 Weapon\EFFECT_Flamberge(T)01.bmp 64 64
+捧剣カラドボルグ(攻撃), 大斬撃
+捧剣カラドボルグ(命中), 円弧斬撃
+ツー・オブ・ソード・Ｒ(準備), 射撃武器 Weapon\EFFECT_Flamberge(T)01.bmp 64 64
+ツー・オブ・ソード・Ｒ(攻撃), チェーンガン Weapon\EFFECT_Flamberge(T)01.bmp 64 64 赤
+ツー・オブ・ソード・Ｒ(命中), チェーンガン 赤
+ファーントラッシュ(準備), 突く武器 Weapon\EFFECT_Flamberge(T)01.bmp 64 64
+ファーントラッシュ(攻撃), 連突
+ファーントラッシュ(命中), 連突
+ビスクドールスタイル(準備), 突く武器 Weapon\EFFECT_Flamberge(T)01.bmp 64 64
+ビスクドールスタイル(攻撃), Swing.wav;透明化
+ビスクドールスタイル(命中), チェーンガン 赤;突く武器突撃 Weapon\EFFECT_Flamberge01.bmp 48 48 刺突
+ビスクドールスタイル(命中), 突く武器突撃 Weapon\EFFECT_Flamberge01.bmp 48 48 刺突;チェーンガン 赤
+ナイン・オブ・ワンズ(準備), 振る武器 Weapon\EFFECT_Flamberge01.bmp 48 48;粒子集中 黄
+ナイン・オブ・ワンズ(攻撃), 大斬撃
+ナイン・オブ・ワンズ(命中), 円弧斬撃;超爆発
+セブン・オブ・ペンタクルス(準備), 振る武器 Weapon\EFFECT_Flamberge01.bmp 48 48
+セブン・オブ・ペンタクルス(攻撃), スーパーダイブ 白
+セブン・オブ・ペンタクルス(命中), スーパーダイブ 白;大爆発
+シールド防御(捧剣カラドボルグ), シールド防御 Weapon\EFFECT_Flamberge01.bmp 48 48 捧剣防御

@@ -1,0 +1,174 @@
+
+ウィザードリィ・モンスターズ
+首斬, Swing.wav
+首斬(命中), 2;Stab.wav;2;Glass.wav
+連撃, 2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav;Swing.wav
+連撃(命中), 2;Stab.wav;2;Stab.wav;2;Stab.wav;2;Stab.wav;Stab.wav
+十連撃, 1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;Swing.wav
+十連撃(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;Stab.wav
+接触, Swing.wav
+接触(命中), Search.wav
+石化接触, Swing.wav
+石化接触(命中), Search.wav
+石化接触(クリティカル), 2;Walk(Snow).wav;4;Walk(Snow).wav;2;Walk(Snow).wav;4;Walk(Snow).wav;2;Walk(Snow).wav;Walk(Snow).wav
+カティノ, Whiz.wav
+カティノ(命中), -
+カティノ(クリティカル), Bubble.wav
+マモーリス, Whiz.wav
+マモーリス(命中), -
+マモーリス(クリティカル), Shock(Low).wav
+ハリト, Cannon.wav
+ハリト(命中), Fire.wav
+マハリト, Fire.wav
+モリト, 5;BreakOff.wav;BreakOff.wav
+ダルト, Cannon.wav
+ダルト(命中), Glass.wav
+ラハリト, Fire.wav
+マカニト, Interference.wav
+マダルト, Storm.wav
+ラカニト, Interference.wav
+ラカニト(命中), Whiz.wav
+ラダルト, Storm.wav
+ジルワン(準備), Whiz.wav
+ジルワン, Flair.wav
+ジルワン(命中), Glass.wav
+ティルトウェイト, Explode(Nuclear).wav
+ラツモフィス, Sharara.wav
+ディアルコ, Sharara.wav
+ディオス, Sharara.wav
+ディアル, Sharara.wav
+ディアルマ, Sharara.wav
+マディ, Sharara.wav
+ディアルコ, Sharara.wav
+ラツモフィス, Sharara.wav
+モンティノ(準備), Whiz.wav
+モンティノ, -
+モンティノ(クリティカル), Chaff.wav
+マニフォ(準備), Whiz.wav
+マニフォ, -
+マニフォ(クリティカル), Search.wav
+ハカニド, Whiz.wav
+ハカニド(命中), -
+ハカニド(クリティカル), Glass.wav
+バディオス, Whiz.wav
+バディアル, Whiz.wav
+リトカン, Fire.wav
+バディアルマ, Whiz.wav
+バディ, Whiz.wav
+ロルト, 3;Swing(2).wav;3;Swing(2).wav;3;Swing(2).wav;Swing(2).wav
+ロルト(命中), Storm.wav
+マバディ, Whiz.wav
+マリクト, Inori.wav
+マウジウツ, 3;Bubble.wav;3;Bubble.wav;3;Bubble.wav;3;Bubble.wav;Bubble.wav
+ディスペル, Whiz.wav
+エナジードレイン, Search.wav
+エナジードレイン(♀), Whiz.wav
+エナジードレイン(♂), Whiz.wav
+ブレス, Breath.wav
+ブレス(命中), Explode(Small).wav
+アシッドブレス, Breath.wav
+アシッドブレス(命中), Explode(Small).wav
+アイスブレス, Breath.wav
+アイスブレス(命中), Glass.wav
+ファイアブレス, Breath.wav
+ファイアブレス(命中), Fire.wav
+ポイズンブレス, Breath.wav
+ポイズンブレス(命中), Explode(Small).wav
+雲霞のブレス, Breath.wav
+雲霞のブレス(命中), Hide.wav
+ゲイズ(命中), -
+ゲイズ(クリティカル), Inori.wav
+聖光, BeamCoat.wav
+聖光(命中), Glass.wav
+締め付け, -
+締め付け(命中), 4;BreakOff.wav;4;BreakOff.wav;BreakOff.wav
+蔦(命中), Whip.wav
+挟み込み(命中), 4;Stab.wav;Shock(Low).wav
+群体攻撃, Hide.wav
+群体攻撃(命中), Hide.wav
+石化波, LaserGun.wav
+石化波, Shock(Low).wav
+石化波(クリティカル), 2;Walk(Snow).wav;4;Walk(Snow).wav;2;Walk(Snow).wav;4;Walk(Snow).wav;2;Walk(Snow).wav;Walk(Snow).wav
+噛み付き(クリティカル)(アーマーイーター(ＷＩＺ)), Transform.wav
+カツ, -
+カツ(命中), -
+カツ(クリティカル), Sharara.wav
+バリコ, 3;Swing(2).wav;3;Swing(2).wav;3;Swing(2).wav;Swing(2).wav
+バリコ(命中), Storm.wav
+一文字則常, Swing.wav
+備前長船兼光, Swing.wav
+連撃(解説), $(Info(ユニット, 対象ユニットＩＤ, 愛称))は 5 回 切りかかった。
+連撃(解説), $(Info(ユニット, 対象ユニットＩＤ, 愛称))は 5 回 突き刺した。
+十連撃(解説), $(Info(ユニット, 対象ユニットＩＤ, 愛称))は 10 回 切りかかった。
+十連撃(解説), $(Info(ユニット, 対象ユニットＩＤ, 愛称))は 10 回 突き刺した。
+仲間を呼ぶ(解説), $(Info(ユニット, 対象ユニットＩＤ, 愛称))は 仲間を呼んだ。
+逃走(解説), $(Info(ユニット, 対象ユニットＩＤ, 愛称))は 逃げ出した。
+阻止(呪文無効化), BeamCoat.wav
+阻止(呪文無効化)(解説), $(Info(ユニット, 相手ユニットＩＤ, 愛称))は $(相手武器)を無効化した。
+
+
+
+汎用
+破壊(解説)(対首斬), $(Info(ユニット, 相手ユニットＩＤ, 愛称))は 首を刎ねられた。
+破壊(解説)(対首斬(手裏剣)), $(Info(ユニット, 相手ユニットＩＤ, 愛称))は 首を刎ねられた。
+破壊(解説)(対噛み付き(首斬)), $(Info(ユニット, 相手ユニットＩＤ, 愛称))は 首を刎ねられた。
+破壊(解説)(対マカニト), $(Info(ユニット, 相手ユニットＩＤ, 愛称))は 塵になった。
+破壊(解説)(対ラカニト), $(Info(ユニット, 相手ユニットＩＤ, 愛称))は 窒息した。
+阻止(呪文無効化)(解説), $(Info(ユニット, 相手ユニットＩＤ, 愛称))は $(相手武器)を無効化した。
+ダミー(ルビーのスリッパ)(解説), $(Info(ユニット, 相手ユニットＩＤ, 愛称))はロクトフェイトを唱えて、$(武器)を回避した。ルビーのスリッパは壊れてしまった。
+カティノ, Whiz.wav
+カティノ(命中), -
+カティノ(クリティカル), Bubble.wav
+マモーリス, Whiz.wav
+マモーリス(命中), -
+マモーリス(クリティカル), Shock(Low).wav
+ハリト, Cannon.wav
+ハリト(命中), Fire.wav
+マハリト, Fire.wav
+モリト, 5;BreakOff.wav;BreakOff.wav
+ダルト, Cannon.wav
+ダルト(命中), Glass.wav
+ラハリト, Fire.wav
+マカニト, Interference.wav
+マダルト, Storm.wav
+ラカニト, Interference.wav
+ラダルト, Storm.wav
+ジルワン(準備), Whiz.wav
+ジルワン, Flair.wav
+ジルワン(命中), Glass.wav
+ティルトウェイト, Explode(Nuclear).wav
+ラツモフィス, Sharara.wav
+ディアルコ, Sharara.wav
+ディオス, Sharara.wav
+ディアル, Sharara.wav
+ディアルマ, Sharara.wav
+マディ, Sharara.wav
+ディアルコ, Sharara.wav
+ラツモフィス, Sharara.wav
+モンティノ(準備), Whiz.wav
+モンティノ, -
+モンティノ(クリティカル), Chaff.wav
+マニフォ(準備), Whiz.wav
+マニフォ, -
+マニフォ(クリティカル), Search.wav
+バディオス, Whiz.wav
+バディアル, Whiz.wav
+リトカン, Fire.wav
+バディアルマ, Whiz.wav
+バディ, Whiz.wav
+ロルト, 3;Swing(2).wav;3;Swing(2).wav;3;Swing(2).wav;Swing(2).wav
+ロルト(命中), Storm.wav
+マバディ, Whiz.wav
+マリクト, Inori.wav
+マウジウツ, 3;Bubble.wav;3;Bubble.wav;3;Bubble.wav;3;Bubble.wav;Bubble.wav
+ロカラ, 3;Shock(Low).wav;3;Shock(Low).wav;3;Shock(Low).wav;3;Shock(Low).wav;Shock(Low).wav
+ハカニド, Whiz.wav
+ハカニド(命中), -
+ハカニド(クリティカル), Glass.wav
+ハースニール, Swing.wav
+ハースニール(命中), Grass.wav
+ベイキングブレード(命中), 4;Slash.wav;Fire.wav
+大地のフレイル(命中), 6;Crash.wav;Shock(Low).wav
+木霊の弓, 3;Bow.wav;Beam.wav
+アイシングダガー, 6;Swing.wav;MicroMissile.wav
+アイシングダガー(命中), 3;Stab.wav;3;Stab.wav;3;Stab.wav;3;Stab.wav;Stab.wav

@@ -1,0 +1,53 @@
+騎士ガンダム物語
+阻止(聖剣キングキャリバー)(解説), $(ユニット)は聖剣で$(相手武器)を切り払った。
+アース(解説), $(ユニット)はアックスブレードを地面に叩き付け地震を起こした。
+精神攻撃(解説), $(ユニット)は恐怖を投げかけた。
+サイドワインダー, Swing.wav
+サイドワインダー(命中), Slash.wav
+雷神の剣, Thunder.wav
+スプラッシュゴールド, Swing.wav
+スプラッシュゴールド(命中), 2;Slash.wav;3;Stab.wav
+ウインドスラッシャー, Swing.wav
+ウインドスラッシャー(命中), Stab.wav
+トルネードストリーム, Storm.wav
+トルネードストリーム(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav
+ローズソーン, Swing.wav
+ローズソーン(命中), Stab.wav
+スカーレットスワロー, Swing.wav
+スカーレットスワロー(命中), Slash.wav
+ダンシングローズ, 2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav
+ダンシングローズ(命中), 2;Slash.wav;2;Stab.wav;2;Slash.wav;2;Stab.wav
+アックスブレード, Swing.wav
+アックスブレード(命中), Bazooka.wav
+プレッシャーバースト, AntiShipMissile.wav
+プレッシャーバースト(命中), Crash.wav
+クロスファイアー, Swing.wav
+クロスファイアー(命中), Slash.wav
+バーニングノヴァ, Swing.wav
+バーニングノヴァ(命中), Explode.wav
+爆走猛牛殺(命中), Crash.wav
+フリーズ(命中), Glass.wav
+ライトニング, Thunder.wav
+ブラスト, Whiz.wav
+ブラスト(命中), Explode.wav
+メガブラスト, Whiz.wav
+メガブラスト(命中), Explode.wav
+風神の剣, Storm.wav
+岩石ラリアート(命中), Crash.wav
+十字剣, Bow.wav
+十字剣(命中), 1;Stab.wav;Explode.wav
+暗黒天地, Storm.wav
+暗黒天地(命中), Inori.wav
+超新星大爆発(命中), Charge(High).wav
+超新星大爆発(とどめ), Explode.wav
+魔法樹海(命中), Whip.wav
+メガフレア, Charge.wav
+メガフレア(命中), Explode.wav
+邪獣幽牙弾, Whiz.wav
+邪獣幽牙弾(命中), Bazooka.wav
+ギガブラスト, Charge(High).wav
+ギガブラスト(命中), Explode.wav
+
+白金卿(円卓の騎士)
+ライトニング(解説), 剣に空中の静電気を集めて放った。
+

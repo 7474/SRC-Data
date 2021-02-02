@@ -1,0 +1,84 @@
+汎用
+人面魚のヤリ, 蛇矛突撃(突)
+人面魚のヤリ(命中), 刺突
+
+寓話探偵
+銃底(準備), ピストル
+銃底(攻撃), 白兵武器
+銃底(命中), 打撃
+格闘(攻撃), 打突
+格闘(攻撃), 浴びせ蹴り
+格闘(攻撃), アッパー
+格闘(命中), 打撃 BreakOff.wav
+拳銃, ピストル
+噛み付き, 噛み付き
+触手腕(攻撃), 多触手 黒 Swing(2).wav
+触手腕(命中), 多触手 黒 Stab.wav
+現実歪曲, 光噴出 黒 Charge.wav
+ダミー, オーラ上昇 黒 Fold.wav
+破壊時分離, 粒子集中 黒 Charge.wav;10;光噴出 黒 Fold.wav
+
+
+寓話
+Visualizedown【Ｍ】(攻撃), 衛星ビーム 緑 M_Helicopter.bmp LaserGun.wav
+Visualizedown【Ｍ】(命中), 小ビーム 緑
+#　適当にヘリコプターの画像をぶち込んでやってください
+Visualizedown(攻撃), 小ビーム 緑 LaserGun.wav
+Visualizedown(命中), 小ビーム 緑
+VisualizeSurface, 発光 緑 Ice.wav
+斧(準備), トマホーク
+斧(攻撃), トマホーク突撃
+斧(命中), 振り下ろし Slash(3).wav
+唇(攻撃), 触手 赤
+唇(命中), 触手 赤 Slash.wav
+衝撃波(攻撃), 白兵武器 Bazooka.wav;ＭＡＰ地表衝撃波 オレンジ FastGun.wav
+衝撃波(命中), 飛沫 オレンジ Crash.wav
+ヤリ, 蛇矛突撃(突)
+ヤリ(命中), 刺突
+滅多刺し(1)(準備), 同時突く武器 Weapon\EFFECT_Dabou_thrust01.bmp 64
+滅多刺し(1)(攻撃), 同時連突
+滅多刺し(1)(命中), 同時連突 Stab.wav
+滅多刺し(2)(準備), 同時突く武器 Weapon\EFFECT_Dabou_thrust01.bmp 64
+滅多刺し(2)(攻撃), 同時連突
+滅多刺し(2)(命中), 同時連突 Stab.wav
+滅多刺し(3)(準備), 同時突く武器 Weapon\EFFECT_Dabou_thrust01.bmp 64
+滅多刺し(3)(攻撃), 同時連突
+滅多刺し(3)(命中), 同時連突 Stab.wav
+ツメ, 爪撃
+鎌, 鎌突撃
+鎌(命中), なぎ払い Slash(3).wav
+ハサミ(準備), 鋏
+ハサミ(攻撃), 振る武器突撃 DGoods\EFFECT_Scissors02.bmp 
+ハサミ(命中), 斬撃 Slash(3).wav
+格闘(攻撃), 格闘 Whiz.wav
+格闘(命中), 打撃 BreakOff.wav
+格闘(命中), 立ち固め
+格闘(命中), 爪撃 Stab.wav
+包丁, 出刃包丁突撃
+包丁(命中), なぎ払い Slash(3).wav
+包丁(命中), 刺突
+赤く切り殺す(攻撃), 触手 赤
+赤く切り殺す(命中), 触手 赤 Stab.wav
+青く締め殺す(攻撃), 触手 青
+青く締め殺す(命中), 触手 青;立ち固め
+拳銃, ピストル
+メリーさん軍団(準備), しもべ Unit\H&TOA_MarySan(Group)U.bmp 32
+メリーさん軍団(攻撃), 画像投射 Unit\H&TOA_MarySan(Group)U.bmp Whiz.wav 3
+メリーさん軍団(命中), 連突 Stab.wav
+分身(攻撃予測), 回避 Whiz.wav
+攻撃無効化(メリーさんの壁), シールド防御 Unit\H&TOA_MarySan(Group)U.bmp 32 BeamCoat.wav - メリーさんの壁
+
+寓話「隙間女」
+滅多刺し(準備), 出刃包丁
+滅多刺し(攻撃), 出刃包丁突撃
+滅多刺し(命中), 連突 Stab.wav
+
+寓話「メリーさん」
+滅多刺し(準備), 同時振る武器 Weapon\EFFECT_DebaBohchou01.bmp
+滅多刺し(攻撃), 同時連突
+滅多刺し(命中), 同時連突 Stab.wav
+
+寓話「メリーさん」(集合)
+滅多刺し(準備), 出刃包丁
+滅多刺し(攻撃), 出刃包丁突撃
+滅多刺し(命中), 連突 Stab.wav

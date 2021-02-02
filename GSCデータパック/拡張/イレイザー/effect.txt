@@ -1,0 +1,56 @@
+################################ 解説 ################################
+
+イレイザー(映画)
+Glock_17&Beretta_M92FS(解説), $(ユニット)はGlock_17とBeretta_M92FSの二丁で攻撃をかけた。
+秘密の握手(解説), $(ユニット)は握手をする振りをしてS&W_M36で相手の足を狙った。
+Benelli_M3投棄(解説), $(ユニット)は動作しなくなったBenelli_M3を投げ捨てた。
+ワニの水槽(解説), $(ユニット)はDesertEagle_MarkXIXでワニの水槽を破壊した。.中のワニ達が解放される。
+サイレス社警備員＆手榴弾(解説), $(ユニット)は警備員の装備している手榴弾のピンを抜き、警備員ごと蹴り飛ばした。
+足場コンテナ落とし(解説), $(ユニット)は足場のコンテナを落下させた。
+お前達は消去された(解説), $(ユニット)の乗った車が謎の爆発を起こした。
+
+################################ ＳＥ ################################
+
+イレイザー(映画)
+HiStandard_SharpshooterM, BeamShot.wav
+H&K_P7M13, BeamShot.wav
+近接格闘術(ジョン), Swing.wav
+近接格闘術(ジョン)(命中), Punch.wav
+近接格闘術(ジョン)(命中), BreakOff.wav
+近接格闘術(ジョン)(命中), Combo.wav
+死体偽装, Acid.wav
+Glock_17, Gun.wav
+スローイングナイフ, Swing.wav
+スローイングナイフ(命中), Stab.wav
+DesertEagle_MarkXIX, Gun.wav
+RockyMountain_Stakeout, Rifle.wav
+Benelli_M3, Rifle.wav
+Glock_17&Beretta_M92FS, Gun(8Shot).wav
+Cyrez_EM-1(MAP), Beam(8Shot).wav
+S&W_M36, Gun.wav
+秘密の握手(命中), Gun.wav
+S&W_6906, Gun.wav
+IMI_UZI, MachineGun.wav
+一斉射撃, MachineGun.wav
+Beretta_92FS, Gun.wav
+ケンカ殺法, Swing.wav
+ケンカ殺法(命中), Punch.wav
+近接格闘術, Swing.wav
+近接格闘術(命中), Punch.wav
+H&K_MP5A3, MachineGun.wav
+Winchester_M70, Rifle.wav
+Walther_PPK/S, Gun.wav
+Remington_M870_Sawedoff, Rifle.wav
+近接格闘術, Swing.wav
+近接格闘術(命中), Punch.wav
+ラフファイト, Swing.wav
+ラフファイト(命中), 3;BreakOff.wav;3;Swing.wav;3;BreakOff.wav;3;Swing.wav;3;BreakOff.wav
+実戦の採点(命中), 2;Gun.wav;2;Gun.wav
+Cyrez_EM-1, Beam.wav
+Walther_PPK, Gun.wav
+OlympicArms_OA-93, MachineGun.wav
+Calico_M951, MachineGun.wav
+手榴弾, Swing.wav;4;Explode.wav
+H&K_MP5K, MachineGun.wav
+ドリルビットランチャー, Bazooka.wav;Cannon.wav
+AKM, MachineGun.wav

@@ -1,0 +1,285 @@
+
+#ＧＰＭでほとんど出番が無く、今後他作品で登場する可能性があるキャラは
+#識別子を暫定的に Alfa_ にしてあります
+
+#--表情--
+
+速水厚志(攻撃)
+速水, GPM_HayamiAtsushi(A).bmp
+速水(攻撃)
+速水, GPM_HayamiAtsushi(A).bmp
+
+速水厚志(ダメージ)
+速水, GPM_HayamiAtsushi(D).bmp
+速水(ダメージ)
+速水, GPM_HayamiAtsushi(D).bmp
+
+速水厚志(笑顔)
+速水, GPM_HayamiAtsushi(S).bmp
+速水(笑顔)
+速水, GPM_HayamiAtsushi(S).bmp
+
+
+速水厚志(青)
+速水, GPM_HayamiAtsushi(B).bmp
+速水(青)
+速水, GPM_HayamiAtsushi(B).bmp
+
+速水厚志(青)(攻撃)
+速水, GPM_HayamiAtsushi(B)(A).bmp
+速水(青髪)(攻撃)
+速水, GPM_HayamiAtsushi(B)(A).bmp
+
+速水厚志(青)(ダメージ)
+速水, GPM_HayamiAtsushi(B)(D).bmp
+速水(青)(ダメージ)
+速水, GPM_HayamiAtsushi(B)(D).bmp
+
+速水厚志(青)(笑顔)
+速水, GPM_HayamiAtsushi(B)(S).bmp
+速水(青)(笑顔)
+速水, GPM_HayamiAtsushi(B)(S).bmp
+
+
+青の厚志(真剣)
+厚志, GPM_AtsushiOfBlue.bmp
+厚志(真剣)
+厚志, GPM_AtsushiOfBlue.bmp
+
+青の厚志(攻撃)
+厚志, GPM_AtsushiOfBlue(A).bmp
+厚志(攻撃)
+厚志, GPM_AtsushiOfBlue(A).bmp
+
+青の厚志(笑顔)
+厚志, GPM_AtsushiOfBlue(S).bmp
+厚志(笑顔)
+厚志, GPM_AtsushiOfBlue(S).bmp
+
+
+芝村舞(攻撃)
+舞, GPM_ShibamuraMai(Attack).bmp
+舞(攻撃)
+舞, GPM_ShibamuraMai(Attack).bmp
+
+芝村舞(笑顔)
+舞, GPM_ShibamuraMai(Smile).bmp
+舞(笑顔)
+舞, GPM_ShibamuraMai(Smile).bmp
+
+芝村舞(照れ)
+舞, GPM_ShibamuraMai(Embarrass).bmp
+舞(照れ)
+舞, GPM_ShibamuraMai(Embarrass).bmp
+
+
+ニーギ＝ゴージャスブルー(攻撃)
+ニーギ, SKG_NiigiGorgeousBlue(Attack).bmp
+ニーギ(攻撃)
+ニーギ, SKG_NiigiGorgeousBlue(Attack).bmp
+
+ニーギ＝ゴージャスブルー(精霊回路)
+ニーギ, SKG_NiigiGorgeousBlue(ES).bmp
+ニーギ＝(精霊回路)
+ニーギ, SKG_NiigiGorgeousBlue(ES).bmp
+
+#「式神の城」のアイコンです
+
+
+祇園童子(鬼)
+祇園童子, GPM_SetoguchiTakayuki(o).bmp
+瀬戸口隆之(鬼)
+瀬戸口, GPM_SetoguchiTakayuki(o).bmp
+デク(ＧＰＭ)
+デク, GPM_SetoguchiTakayuki(o).bmp
+
+来須銀河(帽子無し)
+来須, GPM_KurusuGinga(NoCap).bmp
+来須(帽子無し)
+来須, GPM_KurusuGinga(NoCap).bmp
+
+岩田裕(素顔)
+岩田, GPM_IwataHiromu(NoMakeup).bmp
+岩田(素顔)
+岩田, GPM_IwataHiromu(NoMakeup).bmp
+
+田辺真紀(眼鏡無し)
+田辺, GPM_TanabeMaki(NoGlass).bmp
+田辺(眼鏡無し)
+田辺, GPM_TanabeMaki(NoGlass).bmp
+
+
+
+#--５１２１小隊 指導教官--
+
+芳野春香
+芳野, GPM_YosinoHaruka.bmp
+
+
+#--軍令部--
+
+芝村勝吏
+芝村準竜師, GPM_SibamuraSyouri.bmp
+
+ウイチタ＝更紗
+副官, GPM_UichitaSarasa.bmp
+
+林凛子
+凛子, GPM_HayashiRinko.bmp
+
+#熊本城攻防戦に出てくる九州軍司令
+#芝村準竜師とは公私ともに良いパートナーで、
+#準竜師は好きこのんで彼女の下についている
+
+
+
+#--その他の軍関係者ー--
+
+東原恵
+ののみタイプ, GPM_HigashiharaMegumi.bmp
+
+フランソワーズ＝茜
+フランソワーズ, GPM_FrancoiseAkane.bmp
+
+#茜の母親にして士魂号の開発者。
+
+
+友軍兵士(ＧＰＭ)
+友軍兵士, -.bmp
+
+#指揮車ダイアログ用
+
+
+#--街の人々--
+
+松田正則
+味のれんの親父, GPM_MatsudaMasanori.bmp
+
+ブラック(ＧＰＭ)
+裏マーケットの親父, GPM_Black.bmp
+
+女子高教師(ＧＰＭ)
+女子高教師, GPM_Teacher.bmp
+
+熊本県知事(ＧＰＭ)
+熊本県知事, GPM_KumamotoPrefGovernor.bmp
+
+
+
+#--神族--
+
+巫女神イトリ
+イトリ, GPM_Itori.bmp
+
+#速水に憑いている三姉妹の長女
+
+
+巫女神ミトリ
+ミトリ, GPM_Mitori.bmp
+
+#若宮に憑いている三姉妹の次女
+
+
+巫女神コトリ
+コトリ, GPM_Kotori.bmp
+
+#田辺に憑いている３姉妹の三女
+
+
+シオネ＝アラダ
+シオネ, GPM_ShioneArada.bmp
+
+冬の人(ＧＰＭ)
+冬の人, GPM_Winter.bmp
+
+雨の人(ＧＰＭ)
+雨の人, GPM_Rain.bmp
+
+
+#--幻獣軍--
+
+女王シーナ(ＧＰＭ)
+シーナ, EGB_Sheena.bmp
+
+# 「幻想虚構・精霊機導弾」の２Ｐキャラ、シーナのクローンにして幻獣軍の傀儡の女神。
+# しかし和平工作を秘密裏に進めており、降下作戦時ののみタイプが接触していたのは彼女である。
+
+
+#--介入者--
+
+介入者アリアン(岩田)
+アリアン, GPM_IwataHiromu.bmp
+
+介入者アリアン(本田)
+アリアン, GPM_HondaSetsuko.bmp
+
+
+白のブランカ
+白, Alfa_Blanca.bmp
+
+
+ユーリ＝アルトバランス＝田神
+ユーリ, Alfa_YuuriAltbalanceTagami.bmp
+
+# 舞・田代・ののみの育ての父親。Ａ、芝村裕吏など、他の名前も多々ある。
+# 娘達を救うために複数世界に干渉する史上最大の愉快犯。
+
+Ａ(ＧＰＭ)
+Ａ, GPM_A.bmp
+
+# 第５世界でのＡ。舞の父親としての姿がこれ。
+# この時はアニメ脚本家エヅタカヒロの身体に憑依していた。
+
+Ａ(ＧＰＭ外伝)
+Ａ, GPM_A(GPMOS).bmp
+
+# 「ガンパレード・マーチ外伝」で善行の前に現れた時のＡ。
+# 石津萌の肉体に精神寄生している。
+
+Ｓ＝田神
+田神, SKG_Tagami.bmp
+Ｓ＝田神(帽子)
+田神, EGB_Tagami.bmp
+
+# ユーリ＝アルトバランス＝田神の妻にして、舞の育ての母親。
+# それぞれ「式神の城」「幻世虚構 精霊機導弾」のアイコン
+
+ＯＶＥＲＳ・ＳＹＳＴＥＭ
+ＯＶＥＲＳ, GPM_OversSystem.bmp
+
+# 希望号の中に現出した“ヒーロー”にして２３番目のクラスメイト
+
+
+#--ゲーム会社兼多世界間通信社アルファシステム--
+
+矢上総一郎
+矢上, Alfa_YagamiSouichirou.bmp
+介入者アリアン
+アリアン, Alfa_YagamiSouichirou.bmp
+
+# アリアンの本体
+
+尾上恭輔
+尾上, Alfa_OnoueKyousuke.bmp
+
+櫻井たけし
+櫻井, Alfa_SakuraiTakeshi.bmp
+
+須田直樹
+須田, Alfa_SudaNaoki.bmp
+
+芝村庸吏
+庸吏, Alfa_ShibamuraYouri.bmp
+
+芝村起吏
+起吏, Alfa_ShibamuraKiiri.bmp
+
+萩ふみこ
+ふみこ, SKG_FumikoOsetVanstain.bmp
+
+# アルファシステム第６世界現地社員。『式神の城』のふみこと同一人物
+
+大木妹人
+妹人, HONKAI_OhkiMaito.bmp
+
+# アルファシステム社員見習い。『男子の本懐』の主人公

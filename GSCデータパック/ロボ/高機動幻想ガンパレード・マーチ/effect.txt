@@ -1,0 +1,59 @@
+
+汎用
+格闘, Punch(2).wav
+神の拳(準備), 10;Whiz.wav;Fire.wav
+神の拳(命中), 3;Crash.wav;8;Crash.wav;Crash.wav
+闇を払う銀の剣, Swing.wav
+闇を払う銀の剣(命中), Saber.wav
+火の国の宝剣(準備), 10;Whiz.wav;Fire.wav
+火の国の宝剣, Swing.wav
+火の国の宝剣(命中), ;Fire.wav
+可逆結界－陽－(準備), 10;Whiz.wav;Fire.wav
+可逆結界－陽－(命中), Interference.wav
+精霊脚(準備), 10;Whiz.wav;Fire.wav
+精霊脚(命中), 3;Crash.wav;8;Crash.wav;Crash.wav
+
+
+人型戦車
+移動射撃, MachineCannon.wav
+ジャイアントアサルト, MachineCannon.wav
+Ｓレーザーカービン, Beam.wav
+超硬度大太刀, Swing.wav
+超硬度大太刀(命中), Explode(Small).wav
+剣鈴, Swing.wav;Sharara.wav
+剣鈴(命中), Saber.wav
+Ｎ・Ｅ・Ｐ式超硬度剣鈴, Swing.wav;Sharara.wav
+Ｎ・Ｅ・Ｐ式超硬度剣鈴(命中), Saber.wav
+返し刃, 2;Swing.wav;2;Sharara.wav;Saber.wav
+返し刃(命中), 2;Sharara.wav;Saber.wav
+精霊手(準備), Whiz.wav
+精霊手, Storm.wav
+ミサイルランチャー, MicroMissile.wav
+Ｎ・Ｅ・Ｐ(準備), 8;Reload.wav;Charge(long).wav
+Ｎ・Ｅ・Ｐ, LaserGun.wav
+
+
+ウォードレス
+ロケットポッド, MicroMissile.wav
+アサルトライフル, MachineCannon.wav
+ヘビーマシンガン, GunPod.wav
+超硬度カトラス, Swing.wav
+超硬度カトラス(命中), Explode(Small).wav
+可憐用カトラス, Swing.wav
+可憐用カトラス(命中), Explode(Small).wav
+120mm短砲身, 10;Bazooka.wav;Bazooka.wav
+120mm短砲身(命中), 10;Explode(Small).wav;Explode(Small).wav
+レーザーライフル, Beam.wav
+40mm高射機関砲, Bazooka.wav
+零式55mm機関砲, Bazooka.wav
+精霊手(準備), 10;Whiz.wav;Fire.wav
+精霊手(命中), 3;Crash.wav;8;Crash.wav;Crash.wav
+
+
+幻獣
+ミサイルランチャー, 4;Missile.wav;Missile.wav
+ロケットランチャー, 4;Missile.wav;4;Missile.wav;Missile.wav
+拡散レーザー(準備), Charge.wav
+拡散レーザー, 1;LaserGun.wav;1;LaserGun.wav;1;LaserGun.wav;1;LaserGun.wav;1;LaserGun.wav;LaserGun.wav
+精霊リング・プレス, Charge(long).wav
+精霊リング・プレス(命中), Crash.wav

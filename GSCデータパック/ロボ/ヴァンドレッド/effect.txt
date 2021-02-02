@@ -1,0 +1,93 @@
+
+汎用
+拡散ビーム, LaserGun.wav
+
+ヴァンガード
+十徳鎖鎌, Swing.wav
+十徳鎖鎌(命中), Whip.wav
+ニードルガン, 2;Gun.wav;2;Gun.wav;Gun.wav
+十徳チェーンソー, Drill.wav
+ミサイル, 2;Missile.wav;2;Missile.wav;2;Missile.wav;Missile.wav
+ミサイル(命中), 2;Explode(Small).wav;2;Explode(Small).wav;Explode(Small).wav
+全弾発射, MicroMissile.wav;LaserGun.wav;FastGun.wav;3;Cannon.wav;Cannon.wav
+十徳刀剣型盾, Cannon.wav
+十徳刀剣型盾(命中), Stab.wav
+百壱式撲撃, Charge.wav
+百壱式撲撃(命中), Crash.wav
+二十徳刀剣型盾, Cannon.wav
+二十徳刀剣型盾(命中), Stab.wav
+
+ドレッドノート
+ビームガン, 4;BeamShot.wav;BeamShot.wav
+ビームガン(命中), 2;Explode(Small).wav;Explode(Small).wav
+アサルトラム, Jet.wav
+アサルトラム(命中), Crash.wav
+ホーミングミサイル, 4;Missile.wav;Missile.wav
+ホーミングミサイル(命中), 3;Explode(Small).wav;Explode(Small).wav
+３連装回転砲, 2;LaserGun.wav;LaserGun.wav
+３連装回転砲(命中), 2;Explode(Small).wav;Explode(Small).wav
+５連装回転砲, 2;LaserGun.wav;2;LaserGun.wav;2;LaserGun.wav;LaserGun.wav
+５連装回転砲(命中), 2;Explode(Small).wav;2;Explode(Small).wav;Explode(Small).wav
+格闘戦用クロー, Jet.wav
+格闘戦用クロー(命中), Crash.wav
+反陽子爆弾, Jet.wav
+反陽子爆弾, Explode(Nuclear).wav
+４連装レーザー, 2;LaserGun.wav;2;LaserGun.wav;LaserGun.wav
+４連装レーザー(命中), 2;Explode(Small).wav;2;Explode(Small).wav;Explode(Small).wav
+ミサイルポッド, 2;Missile.wav;2;Missile.wav;Missile.wav
+ミサイルポッド(命中), 2;Explode(Small).wav;2;Explode(Small).wav;Explode(Small).wav
+パニっくん, Charge.wav;3;Missile.wav;3;BeamCoat.wav
+
+ヴァンドレッド
+ペークシス・ブレード, Swing.wav
+ペークシス・ブレード(命中), Crash.wav
+拡散ペークシス・キャノン(準備), Charge.wav
+拡散ペークシス・キャノン, MicroMissile.wav
+ペークシス・キャノン(準備), 3;Reload.wav;Door(Open).wav;Charge.wav
+ペークシス・キャノン, AntiAirMissile.wav
+ペークシス・キャノン(命中), Explode.wav
+ペークシス・ランサー(準備), Reload.wav;Charge.wav
+ペークシス・ランサー, Swing.wav;3;Jet.wav;Whiz.wav
+ペークシス・ランサー(命中), 3;Crash.wav;Explode(Nuclear).wav
+ファイナル・ブレーク(準備), Charge.wav
+ファイナル・ブレーク, Jet.wav
+ファイナル・ブレーク(命中), Slash.wav
+ハンギング・アーム, Saber.wav
+ハンギング・アーム(命中), BreakOff.wav
+収束反射ビーム, BeamCoat.wav;Beam.wav
+Ｃ型フォーメーション, BeamCoat.wav;3;Jet.wav;Crash.wav
+拡散ビームシールド, Search.wav;BeamCoat.wav
+ペークシス・ソード(準備), 3;Charge(High).wav;2;Swing.wav;Saber.wav
+ペークシス・ソード, 3;Missile.wav;Jet.wav
+ペークシス・ソード(命中), 5;Swing.wav;Inori.wav
+ツインペークシス・ソード(準備), 3;Charge(High).wav;2;Swing.wav;Saber.wav
+ツインペークシス・ソード, 3;Missile.wav;Jet.wav
+ツインペークシス・ソード(命中), 3;Swing.wav;5;Swing.wav;Inori.wav
+収束ビーム(準備), Charge(High).wav
+収束ビーム, MicroMissile.wav
+
+戦艦
+防御型ドレッド隊, LaserGun.wav
+防御型ドレッド隊(命中), Explode(Small).wav
+突撃型ドレッド隊, Jet.wav
+突撃型ドレッド隊(命中), Crash.wav
+長距離型ドレッド隊, 2;Beam.wav;2;Beam.wav;Beam.wav
+長距離型ドレッド隊(命中), 2;Explode(Small).wav;Explode(Small).wav
+宙航魚雷ムラマサ(準備), Charge.wav
+宙航魚雷ムラマサ, AntiShipMissile.wav
+宙航魚雷ムラマサ(命中), Explode.wav
+
+刈り取りメカ
+オールレンジ拡散ビーム砲, LaserGun.wav
+セパレイションビーム, 2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;3;Whiz.wav
+キューブの群れ, Combo.wav
+側部ピロシキ群, 3;LaserGun.wav;LaserGun.wav
+テンタクルアーム, Saber.wav
+テンタクルアーム(命中), BreakOff.wav
+回転式レーザー, LaserGun.wav
+スネークキャノン, GunPod.wav
+クラッシュバイト, Crash.wav
+カッターラム, 4;Swing.wav;3;Whip.wav
+吸引, FlyBy.wav
+エネルギーネット, Charge(High).wav
+ビームバリア, BeamCoat.wav

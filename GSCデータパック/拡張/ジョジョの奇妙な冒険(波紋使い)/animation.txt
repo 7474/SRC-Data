@@ -1,0 +1,248 @@
+
+ジョナサン＝ジョースター
+山吹き色の波紋疾走(準備), オーラ上昇 黄 Charge.wav
+山吹き色の波紋疾走(攻撃), 乱打 FastGun.wav
+山吹き色の波紋疾走(命中), 大気吸収 黄 inori.wav;2;飛沫 黄 BeamGun.wav
+山吹き色の波紋疾走(とどめ), センタリング;Explode(Far).wav;0.5;Cutin\EFFECT_JOJO_doon.bmp 32 32 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_doon.bmp 48 48 透過;Clear;0.5;Cutin\EFFECT_JOJO_doon.bmp 64 64 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_doon.bmp 72 72 透過;Clear;0.5;Cutin\EFFECT_JOJO_doon.bmp 96 96 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_doon.bmp 112 112 透過;Clear;8;Cutin\EFFECT_JOJO_doon.bmp 128 128 透過
+山吹き色の波紋疾走(とどめ), センタリング;Explode(Far).wav;0.5;Cutin\EFFECT_JOJO_baan.bmp 32 32 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_baan.bmp 48 48 透過;Clear;0.5;Cutin\EFFECT_JOJO_baan.bmp 64 64 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_baan.bmp 72 72 透過;Clear;0.5;Cutin\EFFECT_JOJO_baan.bmp 96 96 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_baan.bmp 112 112 透過;Clear;8;Cutin\EFFECT_JOJO_baan.bmp 128 128 透過
+山吹き色の波紋疾走(とどめ), センタリング;Explode(Far).wav;0.5;Cutin\EFFECT_JOJO_gyaan.bmp 32 32 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_gyaan.bmp 48 48 透過;Clear;0.5;Cutin\EFFECT_JOJO_gyaan.bmp 64 64 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_gyaan.bmp 72 72 透過;Clear;0.5;Cutin\EFFECT_JOJO_gyaan.bmp 96 96 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_gyaan.bmp 112 112 透過;Clear;8;Cutin\EFFECT_JOJO_gyaan.bmp 128 128 透過
+
+ウィル＝アントニオ＝ツェペリ
+山吹き色の波紋疾走(準備), オーラ上昇 黄 Charge.wav
+山吹き色の波紋疾走(攻撃), スーパーパンチ 黄 Whiz.wav
+山吹き色の波紋疾走(命中), 大気吸収 黄 inori.wav;2;飛沫 黄 BeamGun.wav
+
+ジョジョの奇妙な冒険
+シールド防御(波紋防御), ビームコート BeamCoat.wav 波紋防御
+格闘, 格闘
+波紋疾走(攻撃), 格闘
+波紋疾走(命中), 大電撃 Charge(High).wav;2;飛沫 黄 Explode(High).wav
+合体波紋(準備), 同時魔法集中 黄 Charge.wav
+合体波紋(攻撃), 同時格闘
+合体波紋(命中), 大気吸収 黄 inori.wav;2;飛沫 黄 BeamGun.wav
+##
+## 第一部 ###############################################################################
+槍, スピア
+銀色の波紋疾走(命中), 大電撃 白 Charge(High).wav;2;飛沫 白 Explode(High).wav
+波紋伝導(攻撃), 大電撃 Beamcoat.wav
+波紋伝導(命中), 飛沫 黄 Explode(High).wav
+青緑の波紋疾走(攻撃), ショックビーム 水色 LaserGun.wav
+青緑の波紋疾走(命中), ショックビーム 水色 -.wav;2;飛沫 水色 Inori.wav
+緋色の波紋疾走(準備), 粒子集中 赤 Charge.wav
+緋色の波紋疾走(攻撃), 格闘
+緋色の波紋疾走(命中), 大電撃 赤 Charge(High).wav;2;飛沫 赤 Fire.wav
+幸運と勇気の剣(準備), 剣;BeamSaber.wav
+幸運と勇気の剣(攻撃), 唐竹割り 白 AntiAirMissile.wav
+幸運と勇気の剣(命中), 唐竹割り;2;超斬撃 黄 BeamGun.wav
+波紋カッター(攻撃), 回転発射 Bullet\EFFECT_BeamRingCutter(Pink)01.bmp 16 Beam.wav;回転発射 Bullet\EFFECT_BeamRingCutter(Pink)01.bmp 16 Beam.wav
+波紋カッター(命中), 連斬撃 saber.wav
+仙道波蹴(攻撃), キック
+仙道波蹴(命中), 強打;飛沫 黄 Explode(High).wav
+波紋乱渦疾走(攻撃), スーパーキック 反転
+波紋乱渦疾走(命中), スーパーキック;強風 Storm.wav
+拳銃, ピストル
+ハットブレード(攻撃), 投擲武器 DGoods\EFFECT_SilkHat01.bmp 20
+ハットブレード(命中), クリティカル斬撃
+ハンマー, ハンマー
+波紋入りの薔薇(攻撃), 実弾発射 DGoods\EFFECT_Rose(Red)02.bmp 32 Swing.wav
+波紋入りの薔薇(命中), 刺突;1;放電
+稲妻空烈刃(攻撃), キック Whiz.wav
+稲妻空烈刃(命中), @戦闘アニメ_振り下ろし攻撃;1;唐竹割り
+稲妻十字空烈刃(攻撃), キック Whiz.wav
+稲妻十字空烈刃(命中), @戦闘アニメ_白兵武器攻撃 二刀流;1;大斬撃 二刀流
+癒しの波紋, 回復魔法
+吸血(攻撃), 格闘
+吸血(命中), 刺突;2;液体噴射 赤
+瞬間凍結(命中), ユニット変色 白 相手ユニットＩＤ storm.wav;飛沫 白 Ice.wav
+怪力(攻撃), 格闘
+怪力(命中), 超打
+空裂眼刺驚(攻撃), 持続ビーム 桃
+空裂眼刺驚(命中), ２連小ビーム 桃
+気化冷凍法(攻撃), スーパーパンチ 白
+気化冷凍法(命中), ユニット変色 白 相手ユニットＩＤ storm.wav;亀裂発生 Ice.wav;装甲破壊 白 Crash.wav
+死髪踊縛(攻撃), 伸縮武器 SlideWeapon\EFFECT_SlideBeamSword(Black)[01-03].bmp 32 Whiz.wav
+死髪踊縛(命中), 乱打 Whip.wav
+幸運の剣, 剣
+死髪踊剣(攻撃), 振り上げ;なぎ払い;投擲武器 Weapon\EFFECT_Sword(T)01.bmp
+死髪踊剣(命中), 連斬撃
+真空波(準備), 大剣
+真空波(攻撃), 斬撃;旋風
+真空波(命中), 旋風
+大剣, 大剣
+天地来蛇殺(攻撃), 分銅;本体落下 Storm.wav
+天地来蛇殺(命中), 超打
+天地来蛇殺(とどめ), 横分割 Warship.wav
+刃物, 仕込み刃
+拷問器具(準備), チャークー Reload.wav
+拷問器具(攻撃), チャークー突撃
+拷問器具(命中), チャークー突撃
+全身からのメス(準備), 出血
+全身からのメス(攻撃), ＭＡＰニードル Swing.wav
+全身からのメス(命中), 連突 Slash.wav
+毒蛇(攻撃), 多触手
+毒蛇(命中), 多触手;噛み付き;噛み付き
+鉄の爪, 爪 二刀流
+斧, 両刃斧
+大地振動(準備), 両刃斧
+大地振動(攻撃), 振り下ろし
+大地振動(命中), 大斬撃;1;石柱 Explode.wav
+獅子王乱舞(準備), 両刃斧
+獅子王乱舞(攻撃), 振り下ろし
+獅子王乱舞(命中), 斬撃乱舞
+極大地振動(準備), 両刃斧 
+極大地振動(攻撃), 振り下ろし
+極大地振動(命中), 超斬撃;1;石柱 Explode.wav;石柱 Explode.wav
+旋風突き(準備), スピア
+旋風突き(攻撃), スピア
+旋風突き(命中), 竜巻
+電撃稲妻突き(準備), スピア
+電撃稲妻突き(攻撃), スピア
+電撃稲妻突き(命中), 竜巻;電撃
+落雷稲妻突き(準備), スピア
+落雷稲妻突き(攻撃), 振り上げ
+落雷稲妻突き(命中), 電撃;竜巻
+ハルペー, ハルペー
+ソニックスタッブ(準備), ハルペー
+ソニックスタッブ(攻撃), ハルペー突撃
+ソニックスタッブ(命中), スピア
+ソニックカッター(準備), ハルペー
+ソニックカッター(攻撃), 回転斬撃
+ソニックカッター(命中), 回転斬撃
+ラピッドスタッブ(準備), ハルペー
+ラピッドスタッブ(攻撃), ハルペー突撃
+ラピッドスタッブ(命中), 乱突
+##
+## 第二部 ###############################################################################
+トンプソン機関銃, サブマシンガン
+手榴弾トラップ(攻撃), タックル Reload.wav
+手榴弾トラップ(命中), @戦闘アニメ_突く武器準備 Weapon\EFFECT_ChicagoPineapple01.bmp 20 Reload(2).wav 相手ユニットＩＤ;超爆発
+大型スレッジハンマー(準備), ハンマー BeamSaber.wav
+大型スレッジハンマー(攻撃), 振り下ろし
+大型スレッジハンマー(命中), 強打 Crash.wav
+大型鋼鉄球ボーガン(準備), クロスボウ BeamSaber.wav
+大型鋼鉄球ボーガン(攻撃), 大筒 Weapon\EFFECT_CrossBow01.bmp
+大型鋼鉄球ボーガン(命中), 超打 Crash.wav
+小型鋼鉄球ボーガン(準備), クロスボウ
+小型鋼鉄球ボーガン(攻撃), 大筒 Weapon\EFFECT_CrossBow01.bmp
+小型鋼鉄球ボーガン(命中), 強打 Crash.wav
+小型鋼鉄球ボーガン(波紋)(準備), クロスボウ BeamSaber.wav
+小型鋼鉄球ボーガン(波紋)(攻撃), 大筒 Weapon\EFFECT_CrossBow01.bmp
+小型鋼鉄球ボーガン(波紋)(命中), 強打 Crash.wav
+クラッカーヴォレイ(準備), 放電
+クラッカーヴォレイ(攻撃), ヨーヨー;白兵武器
+クラッカーヴォレイ(命中), 連打 Explode.wav
+クラッカーブーメラン(準備), 放電
+クラッカーブーメラン(攻撃), 回転投擲武器 Weapon\EFFECT_YoYo04.bmp 64
+クラッカーブーメラン(命中), ロケットパンチ Weapon\EFFECT_YoYo04.bmp 64  Explode.wav
+波紋肘支疾走(攻撃), タックル
+波紋肘支疾走(命中), 強打 FightHit(1).wav;1;大電撃 Charge(High).wav;2;飛沫 黄 Explode(High).wav
+波紋トラップ(攻撃), 伸縮武器 SlideWeapon\EFFECT_BeamChain(White)[01-03].bmp 32 Whiz.wav
+波紋トラップ(命中), オールレンジ -.wav;2;大放電 Inori.wav
+波紋トラップ(とどめ), センタリング;Explode(Far).wav;0.5;Cutin\EFFECT_JOJO_doon.bmp 32 32 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_doon.bmp 48 48 透過;Clear;0.5;Cutin\EFFECT_JOJO_doon.bmp 64 64 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_doon.bmp 72 72 透過;Clear;0.5;Cutin\EFFECT_JOJO_doon.bmp 96 96 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_doon.bmp 112 112 透過;Clear;8;Cutin\EFFECT_JOJO_doon.bmp 128 128 透過
+波紋トラップ(とどめ), センタリング;Explode(Far).wav;0.5;Cutin\EFFECT_JOJO_baan.bmp 32 32 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_baan.bmp 48 48 透過;Clear;0.5;Cutin\EFFECT_JOJO_baan.bmp 64 64 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_baan.bmp 72 72 透過;Clear;0.5;Cutin\EFFECT_JOJO_baan.bmp 96 96 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_baan.bmp 112 112 透過;Clear;8;Cutin\EFFECT_JOJO_baan.bmp 128 128 透過
+波紋トラップ(とどめ), センタリング;Explode(Far).wav;0.5;Cutin\EFFECT_JOJO_gyaan.bmp 32 32 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_gyaan.bmp 48 48 透過;Clear;0.5;Cutin\EFFECT_JOJO_gyaan.bmp 64 64 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_gyaan.bmp 72 72 透過;Clear;0.5;Cutin\EFFECT_JOJO_gyaan.bmp 96 96 透過;Clear;0.5;_
+  Cutin\EFFECT_JOJO_gyaan.bmp 112 112 透過;Clear;8;Cutin\EFFECT_JOJO_gyaan.bmp 128 128 透過
+シャボンランチャー(準備), 泡
+シャボンランチャー(攻撃), 実弾発射 Common\EFFECT_Pop(White)05.bmp Whiz.wav
+シャボンランチャー(命中), 点連打 白 Inori.wav
+シャボンバリアー(準備), 泡
+シャボンバリアー(攻撃), 泡球
+シャボンバリアー(命中), 球体圧縮 白
+ＳＣグライディン(解説), $(パイロット)はシャボンカッターグライディンで攻撃をかけた。
+ＳＣグライディン(準備), 泡
+ＳＣグライディン(攻撃), 旋回光弾 白 Beam.wav;４ＷＡＹ射出 Whiz.wav
+ＳＣグライディン(命中), 連続なぎ払い
+シャボンカッター(準備), 泡
+シャボンカッター(攻撃), 旋回光弾 白 Beam.wav;６ＷＡＹ射出 Whiz.wav
+シャボンカッター(命中), 光球集中 白 MultipleRocketLauncher(Light).wav;2;斬撃乱舞
+シャボンレンズ(準備), 泡
+シャボンレンズ(攻撃), 旋回光弾 白 Beam.wav;８ＷＡＹ射出 Whiz.wav
+シャボンレンズ(命中), 虹色光線 BeamCoat.wav;2;フラッシュ Inori.wav
+波紋マフラー(準備), 突く武器 Shield\EFFECT_Mant(Red)01.bmp 32
+波紋マフラー(攻撃), なぎ払い
+波紋マフラー(命中), 打撃;大電撃 Beamcoat.wav
+蛇首立帯(準備), 突く武器 Shield\EFFECT_Mant(Red)01.bmp 32
+蛇首立帯(攻撃), バックキック
+蛇首立帯(命中), 強打 Explode.wav;1;大電撃 Charge(High).wav;2;飛沫 黄 BeamGun.wav
+マシンガン, マシンガン
+手榴弾, ポテトマッシャー
+ロケットパンチ(準備), -
+ロケットパンチ(攻撃), ロケットパンチ Hand\EFFECT_Punch(Black)01.bmp 24
+ロケットパンチ(命中), ロケットパンチ Hand\EFFECT_Punch(Black)01.bmp 24 Crash.wav
+紫外線照射装置(攻撃), 小ビーム 紫 Inori.wav
+紫外線照射装置(命中), 飛沫 紫 Explode.wav
+広域紫外線照射装置(攻撃), ＭＡＰビーム 紫 Inori.wav
+広域紫外線照射装置(命中), 飛沫 紫 Explode.wav
+重機関砲(準備), Reload.wav
+重機関砲(攻撃), マシンキャノン Gunpod.wav
+重機関砲(命中), マシンキャノン Gunpod.wav;連続爆発
+阻止(輝彩滑刀), 切り払い
+捕食(攻撃), 格闘
+捕食(命中), 立ち固め Fold.wav 1
+エッジ(準備), 突く武器 Attack\EFFECT_Swing02.bmp
+エッジ(攻撃), 白兵武器
+エッジ(命中), 斬撃
+輝彩滑刀(準備), 発光 黄;2;突く武器変形 Attack\EFFECT_Swing02.bmp 32 Attack\EFFECT_Swing(Yellow)02.bmp 32 Charge(Silent).wav
+輝彩滑刀(攻撃), 大斬撃 黄 BeamSaber(5).wav
+輝彩滑刀(命中), クリティカル斬撃 Slash(4).wav
+生物の弾丸(攻撃), ３連スラッシュビーム 黒 FastGun.wav
+生物の弾丸(命中), ３連スラッシュビーム 黒;@戦闘アニメ_蛇召喚準備 Fold.wav 相手ユニットＩＤ;噛み付き Crash.wav
+生物の弾丸(命中), ３連スラッシュビーム 黒;@戦闘アニメ_ピラニア召喚準備 Fold.wav 相手ユニットＩＤ;噛み付き Crash.wav
+生物の弾丸(命中), ３連スラッシュビーム 黒;@戦闘アニメ_蜂召喚準備 Fold.wav 相手ユニットＩＤ;刺突 Crash.wav
+生物の弾丸(命中), ３連スラッシュビーム 黒;@戦闘アニメ_蜘蛛召喚準備 Fold.wav 相手ユニットＩＤ;噛み付き Crash.wav
+生物の弾丸(命中), ３連スラッシュビーム 黒;@戦闘アニメ_鼠召喚準備 Fold.wav 相手ユニットＩＤ;噛み付き Crash.wav
+生物の弾丸(命中), ３連スラッシュビーム 黒;@戦闘アニメ_蠍召喚準備 Fold.wav 相手ユニットＩＤ;刺突 Crash.wav
+数百倍の波紋疾走(準備), 光大噴出 黄 Charge.wav
+数百倍の波紋疾走(攻撃), スーパーパンチ 黄
+数百倍の波紋疾走(命中), 大気吸収 黄 Beamcoat.wav;2;超大爆発 黄 BeamGun.wav
+変形(飛翔), 羽 黒 FlyBy(High).wav
+変形(降下), 地面衝撃 Mist.wav
+真空竜巻(攻撃), 竜巻
+真空竜巻(命中), 竜巻 Saber.wav
+体術(攻撃), 浴びせ蹴り
+体術(命中), 強打
+神砂嵐(準備), 強風 Wind.wav
+神砂嵐(攻撃), 中心回転武器 Hand\EFFECT_Punch(White)16.bmp 32 二刀流;旋風
+神砂嵐(命中), 旋風 MultipleRocketLauncher.wav;2;大気放出 Crash.wav
+渾楔颯(準備), 大気吸収
+渾楔颯(攻撃), 持続ビーム 白 Storm.wav
+渾楔颯(命中), 大刺突 白 MultipleRocketLauncher(Light).wav;超打 -.wav
+怪焔王(攻撃), 触手 赤
+怪焔王(命中), 触手 赤 Stab.wav;1;炎
+怪焔王大車獄(攻撃), タックル;多触手 赤
+怪焔王大車獄(命中), 多触手 赤 Stab.wav;1;液体噴射 赤;炎
+銃弾返し(攻撃), リボルバー -.bmp
+銃弾返し(命中), 銃弾 Explode.wav
+憎き肉片(攻撃), ６ＷＡＹ射出 Fold.wav;６ＷＡＹ射出 Fold.wav
+憎き肉片(命中), 乱打 オレンジ Stab.wav
+露骨な肋骨(準備), 骨の翼 二刀流 Fold.wav
+露骨な肋骨(攻撃), 連突
+露骨な肋骨(命中), 連突 Slash.wav
+ナイフ, ナイフ
+蛇腹ナイフ(準備), 振る武器変形 Weapon\EFFECT_Dagger01.bmp 32 Weapon\EFFECT_Chain01.bmp 32 Saber.wav
+蛇腹ナイフ(攻撃), 振り上げ;なぎ払い
+蛇腹ナイフ(命中), 斬撃
+剛針線(攻撃), タックル
+剛針線(命中), 立ち固め Stab.wav
+##
+## 雑魚 ###############################################################################
+血管針, 触手
+突撃(攻撃), タックル
+突撃(命中), 強打 Crash.wav

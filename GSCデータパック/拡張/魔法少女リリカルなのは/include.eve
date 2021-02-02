@@ -1,0 +1,1497 @@
+# 汎用部分
+
+戦闘アニメ_縦旋風命中:
+# 引数１　色
+# 引数２　効果音
+# 引数３  発光
+
+Local G_S
+Local B_C
+Local i
+Local j
+Local C_X
+Local C_Y
+Local X_F
+Local Y_F
+Local ANG
+Local FL
+Local UID
+
+
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+_CenteringCheck 相手ユニットＩＤ
+Set C_X (_Get_WX(相手ユニットＩＤ) - 16)
+Set C_Y (_Get_WY(相手ユニットＩＤ) - 32)
+Set ANG 90
+Set X_F _GetCircumference(ANG,Ｘ)
+Set Y_F _GetCircumference(ANG,Ｙ)
+Set B_C _GetName("(White)",_GetBeamColor(_GetColorFromArgs()))
+
+If (_IsLight() = 1) Then
+  Set FL 1
+Else
+  Set FL ""
+EndIf
+
+Wait Start
+
+_SelectSound "Storm.wav" _GetWavFromArgs()
+
+For i = 1 To 20
+  ClearPicture
+  Switch i
+  Case 1
+    PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "06.bmp") C_X C_Y 64 64 透過 右回転 ANG 上下反転 _ColorTime(FL) 
+  Case 16
+    PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (i - 15) & ".bmp") C_X C_Y 64 64 透過 右回転 ANG 上下反転 _ColorTime(FL) 
+  Case Else
+    If (Random(2) = 1) Then
+      PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (Random(3) + 1) & ".bmp") C_X C_Y 64 64 透過 右回転 ANG 上下反転 _ColorTime(FL) 
+    Else
+      PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (Random(3) + 1) & ".bmp") C_X C_Y 64 64 透過 右回転 ANG 上下反転 _ColorTime(FL) 
+    EndIf
+  EndSw
+  Refresh
+  Wait Until (0.5 * i)
+Next
+
+Return "Keep"
+
+戦闘アニメ_巨大剣斬撃攻撃:
+
+Local i
+Local DRCT
+Local C_X
+Local C_Y
+Local UID
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+_UnSetBattleAnimeValue
+
+_CenteringCheck UID
+Set C_X WX(UID)
+Set C_Y WY(UID)
+
+If (X(UID) >= _Get_X(相手ユニットＩＤ)) Then
+  Set DRCT 反転なし
+Else
+  Set DRCT 左右反転
+EndIf
+
+Wait Start
+_SelectSound AntiAirMissile.wav _GetWavFromArgs()
+For i = 1 To 5
+  _PaintCutin_ZS ("Attack\EFFECT_Swing0" & i & ".bmp") DRCT (C_X - 12) (C_Y - 12) 64 64
+  Wait Until (i * 0.4)
+Next
+
+ClearPicture
+Refresh
+Return
+
+戦闘アニメ_ホワイトイン準備:
+戦闘アニメ_ホワイトイン攻撃:
+戦闘アニメ_ホワイトイン命中:
+
+If Args(1) = "" then
+ Set WTime 10
+Else
+ Set WTime Args(1)
+Endif
+ 
+Whitein WTime
+
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_ミッド式魔方陣準備:
+戦闘アニメ_ミッド式魔法陣準備:
+Call 戦闘アニメ_ミッド式魔方陣 _GetName(対象ユニットＩＤ,_GetIDFromArgs()) Args(1) Args(2) Args(3) Args(4)
+Return "Keep"
+
+戦闘アニメ_ミッド式魔法陣攻撃:
+戦闘アニメ_ミッド式魔方陣攻撃:
+Set B_C _GetColorFromArgs()
+Call 戦闘アニメ_ミッド式魔方陣 Args(1) Args(2) Args(3) Args(4) Args(5) Args(6)
+Return 
+
+戦闘アニメ_ミッド式魔法陣命中:
+戦闘アニメ_ミッド式魔方陣命中:
+Set B_C _GetColorFromArgs()
+Call 戦闘アニメ_ミッド式魔方陣 Args(1) Args(2) Args(3) Args(4) Args(5) Args(6)
+Return
+
+戦闘アニメ_ミッド式魔方陣発動:
+戦闘アニメ_ミッド式魔法陣発動:
+Call 戦闘アニメ_ミッド式魔方陣 Args(1) Args(2) Args(3) Args(4) _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+Return "Keep"
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+
+戦闘アニメ_ミッド式魔方陣:
+戦闘アニメ_ミッド式魔法陣:
+# 引数１ 色
+# 引数２ 効果音
+# 引数３ 前面背面
+# 引数４ ユニットＩＤ
+
+Local EFFECT_FILE = "Magic\EFFECT_NANOHA_MidChildaMagicEmblem"
+Local COL = _GetName(赤,_GetColorFromArgs())
+Local C_N = _GetBeamColor2(COL)
+Local UID = _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+Local S_F = _GetName(_GetMagicSound(COL),_GetWavFromArgs())
+Local i FRT G_S BMP_FILE
+
+Set EFFECT_FILE (EFFECT_FILE & C_N & "01.bmp")
+
+_UnSetBattleAnimeValue
+
+If (Args(1) = "座標指定") Then
+  Center Args(2) Args(3)
+Else
+  Center UID
+  Set BMP_FILE _GetBMPName(UID)
+  If (_SearchOptionFromArgs(背面) != "") Then
+    Set FRT 背面
+  Else
+    Set FRT 前面
+  EndIf
+EndIf
+
+Set G_S 12
+
+Wait Start 
+For i = 1 To 6
+  ClearPicture
+  PaintPicture EFFECT_FILE - - G_S G_S 透過 _ColorTime()
+  If (FRT = 背面) Then
+    PaintPicture BMP_FILE - - 透過 _ColorTime()
+  EndIf
+  Refresh
+  Set G_S (G_S * 1.3)
+  Wait Until (i * 0.4)
+Next
+
+PlaySound S_F
+Wait Until 8
+Return "Keep"
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_ベルカ式魔方陣準備:
+戦闘アニメ_ベルカ式魔法陣準備:
+Call 戦闘アニメ_ベルカ式魔方陣 _GetName(対象ユニットＩＤ,_GetIDFromArgs()) Args(1) Args(2) Args(3) Args(4)
+Return "Keep"
+
+戦闘アニメ_ベルカ式魔法陣攻撃:
+戦闘アニメ_ベルカ式魔方陣攻撃:
+Set B_C _GetColorFromArgs()
+Call 戦闘アニメ_ベルカ式魔方陣 Args(1) Args(2) Args(3) Args(4) Args(5) Args(6)
+Return 
+
+戦闘アニメ_ベルカ式魔法陣命中:
+戦闘アニメ_ベルカ式魔方陣命中:
+Set B_C _GetColorFromArgs()
+Call 戦闘アニメ_ベルカ式魔方陣 Args(1) Args(2) Args(3) Args(4) Args(5) Args(6)
+Return
+
+戦闘アニメ_ベルカ式魔方陣発動:
+戦闘アニメ_ベルカ式魔法陣発動:
+Call 戦闘アニメ_ベルカ式魔方陣 Args(1) Args(2) Args(3) Args(4) _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+Return "Keep"
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_ベルカ式魔方陣:
+戦闘アニメ_ベルカ式魔法陣:
+# 引数１ 色
+# 引数２ 効果音
+# 引数３ 前面背面
+# 引数４ ユニットＩＤ
+
+Local EFFECT_FILE = "Magic\EFFECT_NANOHA_BerkaMagicEmblem"
+Local COL = _GetName(赤,_GetColorFromArgs())
+Local C_N = _GetBeamColor2(COL)
+Local UID = _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+Local S_F = _GetName(_GetMagicSound(COL),_GetWavFromArgs())
+Local i FRT G_S BMP_FILE ANG
+
+Set ANG _GetAngle(UID)
+
+Set EFFECT_FILE (EFFECT_FILE & C_N & "01.bmp")
+
+_UnSetBattleAnimeValue
+
+If (Args(1) = "座標指定") Then
+  Center Args(2) Args(3)
+Else
+  Center UID
+  Set BMP_FILE _GetBMPName(UID)
+  If (_SearchOptionFromArgs(背面) != "") Then
+    Set FRT 背面
+  Else
+    Set FRT 前面
+  EndIf
+EndIf
+
+Set G_S 12
+
+Wait Start 
+For i = 1 To 6
+  ClearPicture
+  PaintPicture EFFECT_FILE - - G_S G_S 透過 右回転 ANG _ColorTime()
+  If (FRT = 背面) Then
+    PaintPicture BMP_FILE - - 透過 _ColorTime()
+  EndIf
+  Refresh
+  Set G_S (G_S * 1.35)
+  Wait Until (i * 0.4)
+Next
+
+  ClearPicture
+  PaintPicture EFFECT_FILE - - 80 80 透過 右回転 ANG _ColorTime()
+  If (FRT = 背面) Then
+    PaintPicture BMP_FILE - - 透過 _ColorTime()
+  EndIf
+  Refresh
+
+PlaySound S_F
+Wait Until 8
+Return "Keep"
+
+アニメ自動会話:
+AutoTalk Args(1) 固定
+$(Args(3));$(Args(2))
+Suspend
+Return
+
+戦闘アニメ_レストリクトロック攻撃:
+Center X(目標地点) Y(目標地点)
+Call レストリクトロック_表示
+Redraw
+
+Return
+
+レストリクトロック_表示:
+PlaySound Thunder.wav
+For i = 1 to 9
+    ClearPicture 0 0 479 479
+    Wait Start
+    PaintPicture ("Anime\MapBeam\EFFECT_360Beam(Pink)0" & i & ".bmp") - - 192 192 透過
+    Refresh
+    Wait Until 1
+Next
+
+PlaySound Noise.wav
+For j = 1 to 3
+    For i = 1 to 3
+        ClearPicture 0 0 479 479
+        Wait Start
+        PaintPicture ("Anime\Map\EFFECT_MapAura(Pink)0" & i & ".bmp") - - 192 192 透過
+        Refresh
+        Wait Until 1
+    Next
+Next
+Return
+
+戦闘アニメ_シューティングモード変形:
+
+PaintPicture NANOHA_RaisingHeart(W).bmp - - 128 128
+Refresh
+Wait 1
+
+For i = 1 to 5
+    ClearPicture 0 0 479 479
+    PaintPicture ("NANOHA_RaisingHeart(WtoS_" & i & ").bmp") - - 128 128
+    Refresh
+    Wait 0.5
+Next
+
+ClearPicture 0 0 479 479
+PaintPicture NANOHA_RaisingHeart(S).bmp - - 128 128 透過
+Refresh
+Wait 2
+
+Return
+
+戦闘アニメ_レイジングハート_チャージ:
+PlaySound Charge(2).wav
+For j = 1 to 10
+    For i = 1 to 2
+        ClearPicture 0 0 479 479
+        PaintPicture ("NANOHA_RaisingHeart(S" & i & ").bmp") - - 128 128
+        Refresh
+        Wait 0.5
+    Next
+Next
+Wait 1
+Return
+
+足元巨大魔法陣_なのは:
+Call 戦闘アニメ_巨大魔方陣 _GetName(対象ユニットＩＤ,_GetIDFromArgs()) _GetName(桃,_GetColorFromArgs()) _SelectSound Sharara.wav _GetWavFromArgs() 背景
+Return "Keep"
+
+足元巨大魔法陣_フェイト:
+Call 戦闘アニメ_巨大魔方陣 _GetName(対象ユニットＩＤ,_GetIDFromArgs()) _GetName(黄,_GetColorFromArgs()) _SelectSound Sharara.wav _GetWavFromArgs() 背景
+Return "Keep"
+
+戦闘アニメ_巨大魔方陣:
+戦闘アニメ_巨大魔法陣:
+# 引数１ 色
+# 引数２ 効果音
+# 引数３ 前面背面
+# 引数４ ユニットＩＤ
+
+Local EFFECT_FILE = "Magic\EFFECT_MidChildaMagicEmblem"
+Local COL = _GetName(赤,_GetColorFromArgs())
+Local C_N = _GetBeamColor(COL)
+Local UID = _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+Local S_F = _SelectSound Sharara.wav _GetWavFromArgs()
+Local i FRT G_S BMP_FILE
+
+
+Set EFFECT_FILE (EFFECT_FILE & C_N & "01.bmp")
+
+_UnSetBattleAnimeValue
+
+If (Args(1) = "座標指定") Then
+  Center Args(2) Args(3)
+Else
+  Center UID
+  Set BMP_FILE _GetBMPName(UID)
+  If (_SearchOptionFromArgs(背面) != "") Then
+    Set FRT 背面
+  Else
+    Set FRT 前面
+  EndIf
+EndIf
+
+Set G_S 9.6
+
+
+PlaySound S_F
+
+Wait Start 
+For i = 1 To 10
+  ClearPicture
+  PaintPicture EFFECT_FILE - - (G_S * i) (G_S * i) 透過 明 右回転 (i * 45) _ColorTime()
+  If (FRT = 背面) Then
+    PaintPicture BMP_FILE - - 透過 _ColorTime()
+  EndIf
+  Refresh
+  Wait Until (i * 0.18)
+Next
+
+For i = 1 To 100
+  ClearPicture
+  PaintPicture EFFECT_FILE - - 96 96 透過 明 右回転 (i * 1) _ColorTime()
+  If (FRT = 背面) Then
+    PaintPicture BMP_FILE - - 透過 _ColorTime()
+  EndIf
+  Refresh
+  Wait Until (i * 0.05)
+Next
+
+Return "Keep"
+
+
+
+戦闘アニメ_サンダーフォール_スフィア:
+PlaySound BeamSaber.wav
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 32 192 64 64 保持 透過
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 32 258 64 64 保持 透過
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 128 160 64 64 保持 透過
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 128 288 64 64 保持 透過
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 288 160 64 64 保持 透過
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 288 288 64 64 保持 透過
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 384 192 64 64 保持 透過
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 384 258 64 64 保持 透過
+Refresh
+Return
+
+戦闘アニメ_サンダーフォール_発動:
+PlaySound Sword.wav
+Wait 10
+
+PlaySound Storm.wav
+WhiteOut 30
+Return
+
+戦闘アニメ_ファランクスシフト攻撃:
+
+Center 対象ユニットＩＤ
+
+Local ANG i
+
+Set ANG _GetAngle(UID)
+
+PlaySound Charge(Long).wav
+Wait Start
+
+for j = 1 to 4
+	ClearPicture
+	for i = 0 to 7
+		PaintPicture ("Anime\Beam\EFFECT_LBeam(Yellow)0" & j & ".bmp") (216 - 40 * Sin(i / 1.272)) (216 - 40 * Cos(i / 1.272)) 48 48 透過
+	next
+	Wait Until (i * 0.4)
+	Refresh
+next
+
+
+
+Wait Start
+Wait Until 10
+
+For i = 1 to 5
+
+	for j = 1 to 4
+	    PlaySound Beam.wav
+		Wait Start
+		for k = 1 to 2
+        	Set Psize Random(5)
+		    ClearPicture
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(0 / 1.272)) - Psize) ((219 - 40 * Cos(0 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) 透過
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(1 / 1.272)) - Psize) ((219 - 40 * Cos(1 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) 透過
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(2 / 1.272)) - Psize) ((219 - 40 * Cos(2 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) 透過
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(3 / 1.272)) - Psize) ((219 - 40 * Cos(3 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) 透過
+
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(4 / 1.272)) - Psize) ((219 - 40 * Cos(4 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) 透過
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(5 / 1.272)) - Psize) ((219 - 40 * Cos(5 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) 透過
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(6 / 1.272)) - Psize) ((219 - 40 * Cos(6 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) 透過
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(7 / 1.272)) - Psize) ((219 - 40 * Cos(7 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) 透過
+
+			PaintPicture ("Anime\Beam\EFFECT_Beam(Yellow)0" & (k + 3) & ".bmp") (207 - 40 * Sin((5 - j) / 1.272)) (207 - 40 * Cos((5 - j) / 1.272)) 64 64 透過 右回転 ANG
+			PaintPicture ("Anime\Beam\EFFECT_Beam(Yellow)0" & (k + 3) & ".bmp") (207 - 40 * Sin((9 - j) / 1.272)) (207 - 40 * Cos((9 - j) / 1.272)) 64 64 透過 右回転 ANG
+			Refresh
+		    Wait Until (0.4 * k)
+		Next
+	Next
+Next
+
+ClearPicture
+Refresh
+
+Return
+
+
+#戦闘アニメ_ファランクスシフト攻撃:
+
+#Center 対象ユニットＩＤ
+
+#Local ANG i
+
+#Set ANG _GetAngle(UID)
+
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 184 48 48 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 206 48 48 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 227 48 48 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 248 48 48 透過 右回転 ANG
+
+
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 184 48 48 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 206 48 48 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 227 48 48 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 248 48 48 透過 右回転 ANG
+
+
+
+#PlaySound Charge(Long).wav
+#Wait Start
+
+#for i = 1 to 8
+#    ClearPicture
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (184 + 24 - (3 * i)) (184 + 24 - (3 * i)) (6 * i) (6 * i) 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (168 + 24 - (3 * i)) (206 + 24 - (3 * i)) (6 * i) (6 * i) 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (168 + 24 - (3 * i)) (227 + 24 - (3 * i)) (6 * i) (6 * i) 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (184 + 24 - (3 * i)) (248 + 24 - (3 * i)) (6 * i) (6 * i) 透過 右回転 ANG
+
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (248 + 24 - (3 * i)) (184 + 24 - (3 * i)) (6 * i) (6 * i) 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (264 + 24 - (3 * i)) (206 + 24 - (3 * i)) (6 * i) (6 * i) 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (264 + 24 - (3 * i)) (227 + 24 - (3 * i)) (6 * i) (6 * i) 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (248 + 24 - (3 * i)) (248 + 24 - (3 * i)) (6 * i) (6 * i) 透過 右回転 ANG
+#Refresh
+#Wait Until (i * 0.4)
+
+
+
+#next
+
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 184 48 48 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 206 48 48 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 227 48 48 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 248 48 48 透過 右回転 ANG
+
+
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 184 48 48 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 206 48 48 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 227 48 48 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 248 48 48 透過 右回転 ANG
+#Refresh
+
+#Wait Start
+
+
+#Wait Until 10
+
+#For i = 1 to 5
+
+#    Wait Start
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 185 185 46 46 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 167 207 46 46 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 169 228 46 46 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 185 249 46 46 透過 右回転 ANG
+
+
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 249 185 46 46 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 265 207 46 46 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 265 228 46 46 透過 右回転 ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 249 249 46 46 透過 右回転 ANG
+
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 176 176 64 64 透過 右回転 ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 240 240 64 64 透過 右回転 ANG
+#    Refresh
+#    Wait Until 0.5
+
+#    Wait Start
+#    ClearPicture 0 0 479 479
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 182 182 52 52 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 166 204 52 52 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 166 225 52 52 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 182 246 52 52 透過 右回転 ANG
+
+
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 246 182 52 52 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 262 204 52 52 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 262 225 52 52 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 246 246 52 52 透過 右回転 ANG
+
+#    PlaySound Beam.wav
+
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 176 176 64 64 透過 右回転 ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 240 240 64 64 透過 右回転 ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 160 198 64 64 透過 右回転 ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 256 219 64 64 透過 右回転 ANG
+#    Refresh
+#    Wait Until 0.5
+
+
+
+#    ClearPicture 0 0 479 479
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 186 186 44 44 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 167 208 44 44 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 170 229 44 44 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 186 250 44 44 透過 右回転 ANG
+
+
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 250 186 44 44 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 266 208 44 44 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 266 229 44 44 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 250 250 44 44 透過 右回転 ANG
+
+#    Wait Start
+#    PlaySound Beam.wav
+
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 160 198 64 64 透過 右回転 ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 256 198 64 64 透過 右回転 ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 160 219 64 64 透過 右回転 ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 256 198 64 64 透過 右回転 ANG
+#    Refresh
+#    Wait Until 0.5
+
+
+#    ClearPicture 0 0 479 479
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 184 48 48 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 206 48 48 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 227 48 48 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 248 48 48 透過 右回転 ANG
+
+
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 184 48 48 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 206 48 48 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 227 48 48 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 248 48 48 透過 右回転 ANG
+
+
+#    Wait Start
+#    PlaySound Beam.wav
+
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 160 219 64 64 透過 右回転 ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 256 198 64 64 透過 右回転 ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 176 240 64 64 透過 右回転 ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 240 176 64 64 透過 右回転 ANG
+#    Refresh
+#    Wait Until 0.5
+
+#   ClearPicture 0 0 479 479
+
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 183 183 50 50 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 167 205 50 50 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 167 226 50 50 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 183 247 50 50 透過 右回転 ANG
+
+
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 247 183 50 50 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 263 205 50 50 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 263 226 50 50 透過 右回転 ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 247 247 50 50 透過 右回転 ANG
+    
+#    Wait Start
+#    PlaySound Beam.wav
+
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 176 240 64 64 透過 右回転 ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 240 176 64 64 透過 右回転 ANG
+#    Refresh
+#    Wait Until 0.5
+
+#Next
+
+#Redraw
+
+#Return
+
+
+
+戦闘アニメ_サンダーレイジＯＤＪ攻撃:
+Center X(目標地点) Y(目標地点)
+Call 戦闘アニメ_サンダーレイジＯＤＪ_表示
+PlaySound Explode(Far).wav
+Redraw
+
+Return
+
+戦闘アニメ_サンダーレイジＯＤＪ_表示:
+
+For j = 1 to 5
+    PlaySound Thunderbolt.wav
+        Wait Start
+    For i = 1 to 20
+
+        Color RGB(11.7 * i,8.7 * i,3.5 * i)
+        Line 0 0 479 479 BF
+        Refresh
+        Wait Until (0.07 * i)
+    Next
+	ClearPicture
+    Refresh
+    Wait 0.8
+Next
+Return
+
+
+戦闘アニメ_レヴァンティン_リロード:
+PlaySound TransForm.wav
+For i = 0 to 6
+    If i = 6 Then
+        PlaySound Inori.wav
+    Endif
+    ClearPicture 0 0 479 479
+    PaintPicture ("NANOHA_Laevatain(Reload" & i & ").bmp") - - 128 128
+    Refresh
+    Wait 1
+Next
+Wait 1
+
+Return
+
+戦闘アニメ_シュツルムファルケンカットイン:
+PlaySound Sword.wav
+For i = 1 to 10
+    Wait Start
+    ClearPicture 0 0 479 479
+    PaintPicture Anime\Back\EFFECT_Back(Pink)01.bmp - - 480 480
+    PaintPicture Cutin\NANOHA_Signum(SturmFalken)(Cutin).gif (-1 * 48 * (10 - i)) 0 480 360 透過
+    Refresh
+    Wait Until 0.01
+Next
+Wait 5
+Return
+
+For i = 1 to 10
+    ClearPicture 0 0 479 479
+    Wait Start
+    If i = 4 Then
+        PlaySound Sword.wav
+    Endif
+    PaintPicture Anime\Back\EFFECT_Back(Pink)01.bmp - - 480 480
+    PaintPicture Cutin\NANOHA_Signum(SturmFalken)(Cutin).gif (-1 * 24 * (10 - i)) 0 480 320
+    Refresh
+    Wait Until 0.1
+Next
+
+Return
+
+戦闘アニメ_シュツルムファルケンチャージ:
+
+PlaySound Charge(2).wav
+For i = 1 to 19
+    Wait Start
+    ClearPicture 0 0 479 479
+    If i < 10 Then
+        PaintPicture ("NANOHA_Laevatein(SturmFalke)(Charge)0" & i & ".bmp") - - 128 128
+    Else
+        PaintPicture ("NANOHA_Laevatein(SturmFalke)(Charge)" & i & ".bmp") - - 128 128
+    Endif
+    Refresh
+    Wait Until 0.5
+Next
+Wait 1
+
+Return 
+
+戦闘アニメ_ミストルティン攻撃:
+Local i
+Local j
+Local ANG
+Local UID
+Local B_C
+Local BMP_FILE
+Local G_S
+Local X_F
+Local Y_F
+Local X_C
+Local Y_C
+Local W_X
+Local W_Y
+Local C_X
+Local C_Y
+Local DRCT
+Local UID
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+_CenteringCheck UID
+Set C_X WX(UID)
+Set C_Y WY(UID)
+Set ANG _GetAngle(UID)
+
+Set BMP_FILE _GetName("EFFECT_NANOHA_CaneOfReinforce2.bmp",_GetBmpFromArgs())
+Set B_C _GetName("(White)",_GetBeamColor(_GetColorFromArgs()))
+
+Set G_S _GetName(48,_GetNumberFromArgs())
+Set W_X (C_X + 16 - (G_S \ 2))
+Set W_Y (C_Y + 16 - (G_S \ 2))
+
+Set X_F _GetCircumference(ANG,Ｘ)
+Set Y_F _GetCircumference(ANG,Ｙ)
+Set DRCT _FlipVertical(ANG)
+
+
+Wait Start
+PlaySound Charage.wav
+For i = 0 to 17
+  Switch i
+  Case 4 6 8 10 12 14 16
+    _SelectSound "Beam.wav" _GetWavFromArgs()
+  endsw
+ClearPicture
+  PaintPicture BMP_FILE (W_X + X_F) (W_Y + Y_F) G_S G_S 透過 DRCT 右回転 ANG _ColorTime(1)
+
+PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & i & ".bmp") (208 - 20 * Sin(0 / 0.954)) (208 - 20 * Cos(0 / 0.954)) 透過 右回転 ANG
+PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 2) & ".bmp") (208 - 20 * Sin(1 / 0.954)) (208 - 20 * Cos(1 / 0.954)) 透過 右回転 ANG
+PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 4) & ".bmp") (208 - 20 * Sin(4 / 0.954)) (208 - 20 * Cos(4 / 0.954)) 透過 右回転 ANG
+PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 6) & ".bmp") (208 - 20 * Sin(2 / 0.954)) (208 - 20 * Cos(2 / 0.954)) 透過 右回転 ANG
+PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 8) & ".bmp") 208 208 透過 右回転 ANG
+PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 10) & ".bmp") (208 - 20 * Sin(3 / 0.954)) (208 - 20 * Cos(3 / 0.954)) 透過 右回転 ANG
+PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 12) & ".bmp") (208 - 20 * Sin(5 / 0.954)) (208 - 20 * Cos(5 / 0.954)) 透過 右回転 ANG
+
+Refresh
+Wait Until (0.6 * i)
+Next
+
+ClearPicture
+Refresh
+
+Return
+
+戦闘アニメ_同時バスタービームライフル攻撃:
+# 引数１ 武器画像
+# 引数２ 画像サイズ
+# 引数３ ビームの色
+# 引数４ 効果音
+
+#ビームに関する変数
+Local BMP_FILE
+Local G_S
+Local C_X
+Local C_Y
+
+#手持ち武器に関する変数
+Local BMP_FILE2
+Local G_S2
+Local C_X2
+Local C_Y2
+
+# 複数引き渡し型引数関連
+Local P_NUM
+Local WF_ALL
+Local GS_ALL
+Local NUM
+
+Local i
+Local ANG
+Local X_F
+Local Y_F
+Local LN
+Local B_C
+Local W_X
+Local W_Y
+Local DRCT
+Local UID
+
+Local CL
+Local CL_ALL
+Local SIZE_ALL
+Local NUM
+Local P_NUM
+
+
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+_UnSetBattleAnimeValue
+_CenteringCheck UID
+
+
+Set CL_ALL _GetOptParamsFromArgs("ビーム色")
+Set P_NUM (CountPartner() + 1)
+Set WF_ALL _GetOptParamsFromArgs("画像ファイル")
+Set GS_ALL _GetOptParamsFromArgs("画像サイズ")
+
+For i = 1 To P_NUM
+
+  Set UID[i] Partner(i - 1) 
+
+#　ビームに関する変数
+
+  Set C_X[i] WX(UID[i])
+  Set C_Y[i] WY(UID[i])
+
+#　手持ち武器に関する変数
+
+  Set C_X2[i] WX(UID[i])
+  Set C_Y2[i] WY(UID[i])
+
+#　対象ユニットと相手ユニットの角度
+
+  Set ANG[i] _GetAngle(UID[i])
+  Set X_F[i] _GetCircumference(ANG[i],Ｘ)
+  Set Y_F[i] _GetCircumference(ANG[i],Ｙ)
+  Set DRCT[i] _FlipVertical(ANG[i])
+
+#　手持ち武器画像
+
+  If (WF_ALL != "") Then
+    Set BMP_FILE[i] _GetOptParamsValue(WF_ALL,i)
+  Else
+    Set BMP_FILE[i] _GetBmpFromArgs()
+  EndIf
+
+#　画像サイズ
+
+  If (GS_ALL != "") Then
+    Set G_S[i] _GetOptParamsValue(GS_ALL,i)
+  Else
+    Set G_S[i] _GetPicSizeFromArgs()
+  EndIf
+
+#　ビーム色
+
+  If (CL_ALL != "") Then
+    Set CL[i] _GetName("(Pink)",_GetBeamColor(_GetOptParamsValue(CL_ALL,i)))
+  Else
+    Set CL[i] _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs()))
+  EndIf
+
+#　手持ち武器位置
+
+  Set W_X[i] (C_X2[i] + 16 - (G_S[i] \ 2))
+  Set W_Y[i] (C_Y2[i] + 16 - (G_S[i] \ 2))
+
+Next
+
+Set LN 3
+
+Wait Start
+PlaySound Charge.wav
+For i = 1 To 6
+  ClearPicture
+  Switch i
+  Case 4
+    _SelectSound "Beam.wav" _GetWavFromArgs()
+    Set LN -8
+  Case 5
+    Set LN -4
+  Case 6
+       If ((Abs(X(UID) - _Get_X(相手ユニットＩＤ)) + Abs(Y(UID) - _Get_Y(相手ユニットＩＤ))) < 3) Then
+         Skip
+       EndIf
+  EndSw
+    For k = 1 To P_NUM
+       Set NUM (P_NUM - k + 1)
+       PaintPicture BMP_FILE[NUM] (W_X[NUM] + (X_F[NUM] * LN)) (W_Y[NUM] + (Y_F[NUM] * LN)) G_S[NUM] G_S[NUM] 透過 DRCT[NUM] 右回転 ANG[NUM] _ColorTime(1)
+       PaintPicture ("Beam\EFFECT_LBeam" & CL[NUM] & "0" & i & ".bmp") ((C_X[NUM] - 16) + (X_F[NUM] * G_S[NUM] \ 2)) ((C_Y[NUM] - 16) + (Y_F[NUM] * G_S[NUM] \ 2)) 透過 右回転 ANG[NUM] _ColorTime(1)
+    Next
+    Refresh
+    Wait Until (i * 0.8)
+Next
+
+ClearPicture
+Refresh
+
+Return
+
+戦闘アニメ_同時大ビーム命中:
+戦闘アニメ_同時バスタービームライフル命中:
+
+
+
+#ビームに関する変数
+Local BMP_FILE
+Local G_S
+
+
+# 複数引き渡し型引数関連
+Local P_NUM
+Local WF_ALL
+Local GS_ALL
+Local NUM
+
+Local i
+Local ANG
+Local UID
+Local CL
+Local CL_ALL
+Local NUM
+Local P_NUM
+
+_CenteringCheck 相手ユニットＩＤ
+
+Local C_X
+Set C_X (WX(相手ユニットＩＤ) - 16)
+Local C_Y
+Set C_Y (WY(相手ユニットＩＤ) - 16)
+
+Set P_NUM (CountPartner() + 1)
+Set CL_ALL _GetOptParamsFromArgs("ビーム色")
+For i = 1 To P_NUM
+
+#　ビーム色
+
+  If (CL_ALL != "") Then
+    Set CL[i] _GetName("(Pink)",_GetBeamColor(_GetOptParamsValue(CL_ALL,i)))
+  Else
+    Set CL[i] _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs()))
+  EndIf
+
+#　角度
+
+  If (_SearchOptionFromArgs("ランダム方向") = "") Then
+    Set ANG[i] _GetAngle(Partner((i - 1)))
+  Else
+    Set ANG[i] Random(360)
+  EndIf
+
+Next
+
+
+
+Wait Start
+For i = 1 To 5
+  ClearPicture
+  Switch i
+  Case 2
+    _SelectSound "Explode(Small).wav" _GetWavFromArgs()
+
+  For j = 1 To P_NUM
+    Set NUM (P_NUM - j + 1)
+    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") (C_X + 8) (C_Y + 8) 48 48 右回転 ANG[NUM] 透過 _ColorTime(1)
+  next
+
+  Case 3 4
+    _SelectSound "Explode.wav" _GetWavFromArgs()
+
+  For j = 1 To P_NUM
+    Set NUM (P_NUM - j + 1)
+    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") C_X C_Y 64 64 右回転 ANG[NUM] 透過 _ColorTime(1)
+  next
+
+  EndSw
+
+  For j = 1 To P_NUM
+
+    Set NUM (P_NUM - j + 1)
+    PaintPicture ("Beam\EFFECT_LBeamHit" & CL[NUM] & "0" & i & ".bmp") C_X C_Y 右回転 ANG[NUM] 透過 _ColorTime(1)
+  next
+  Refresh
+  Wait Until (i * 0.9)
+Next
+
+For i = 4 To 5
+
+  ClearPicture
+  For j = 1 To P_NUM
+    Set NUM (P_NUM - j + 1)
+    PaintPicture ("Beam\EFFECT_MBeamHit" & CL[NUM] & "0" & i & ".bmp") C_X C_Y 右回転 ANG[NUM] 透過 _ColorTime(1)
+  next
+  Refresh
+  Wait Until ((i + 2) * 0.7 + 0.9)
+Next
+
+For i = 4 To 6
+  ClearPicture
+
+  For j = 1 To P_NUM
+    Set NUM (P_NUM - j + 1)
+    PaintPicture ("Beam\EFFECT_BeamHit" & CL[NUM] & "0" & i & ".bmp") C_X C_Y 右回転 ANG[NUM] 透過 _ColorTime(1)
+  next
+  Refresh
+  Wait Until ((i + 4) * 0.7 + 1)
+Next
+
+ClearPicture
+Refresh
+Return
+
+
+戦闘アニメ_同時巨大ビームランチャー攻撃:
+# 引数１ 武器画像
+# 引数２ 画像サイズ
+# 引数３ ビームの色
+# 引数４ 効果音
+
+#ビームに関する変数
+Local BMP_FILE
+Local G_S
+Local C_X
+Local C_Y
+
+#手持ち武器に関する変数
+Local BMP_FILE2
+Local G_S2
+Local C_X2
+Local C_Y2
+
+# 複数引き渡し型引数関連
+Local P_NUM
+Local WF_ALL
+Local GS_ALL
+Local NUM
+
+Local i
+Local ANG
+Local X_F
+Local Y_F
+Local LN
+Local B_C
+Local W_X
+Local W_Y
+Local DRCT
+Local UID
+
+Local CL
+Local CL2
+Local CL_ALL
+Local SIZE_ALL
+Local NUM
+Local P_NUM
+
+
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+_UnSetBattleAnimeValue
+_CenteringCheck UID
+
+
+Set CL_ALL _GetOptParamsFromArgs("ビーム色")
+Set P_NUM (CountPartner() + 1)
+Set WF_ALL _GetOptParamsFromArgs("画像ファイル")
+Set GS_ALL _GetOptParamsFromArgs("画像サイズ")
+
+For i = 1 To P_NUM
+
+  Set UID[i] Partner(i - 1)
+
+#　対象ユニットと相手ユニットの角度
+
+  Set ANG[i] _GetAngle(UID[i])
+  Set X_F[i] _GetCircumference(ANG[i],Ｘ)
+  Set Y_F[i] _GetCircumference(ANG[i],Ｙ)
+  Set DRCT[i] _FlipVertical(ANG[i])
+
+#　手持ち武器に関する変数
+
+  Set C_X2[i] WX(UID[i])
+  Set C_Y2[i] WY(UID[i])
+
+#　画像サイズ
+
+  If (GS_ALL != "") Then
+    Set G_S[i] _GetOptParamsValue(GS_ALL,i)
+  Else
+    Set G_S[i] _GetPicSizeFromArgs()
+  EndIf
+
+#　手持ち武器位置
+
+  Set W_X[i] (C_X2[i] + 16 - (G_S[i] \ 2))
+  Set W_Y[i] (C_Y2[i] + 16 - (G_S[i] \ 2))
+
+#　手持ち武器画像
+
+  If (WF_ALL != "") Then
+    Set BMP_FILE[i] _GetOptParamsValue(WF_ALL,i)
+  Else
+    Set BMP_FILE[i] _GetBmpFromArgs()
+  EndIf
+
+#　ビームに関する変数
+
+  Set C_X[i] (WX(UID[i]) - 16 + (X_F[i] * 16) + (X_F[i] * G_S[i] * 0.4))
+  Set C_Y[i] (WY(UID[i]) - 16 + (Y_F[i] * 16) + (Y_F[i] * G_S[i] * 0.4))
+
+#　ビーム色
+
+  If (CL_ALL != "") Then
+    Set CL[i] _GetName("(Pink)",_GetBeamColor(_GetOptParamsValue(CL_ALL,i)))
+#    Set CL2[i] GetName_(GetLightningColorInBeam(B_C),_GetLightningColorInBeam(_GetOptParamsValue(CL_ALL,i)))
+  Else
+    Set CL[i] _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs()))
+#    Set CL2[i] _GetName(_GetLightningColorInBeam(B_C),_GetLightningColorInBeam(_GetColorFromArgs()))
+  EndIf
+
+
+
+Next
+
+Set LN 0
+
+
+Wait Start
+PlaySound Charge.wav
+
+For i = 1 To 4
+  ClearPicture
+    For k = 1 To P_NUM
+    Set NUM (P_NUM - k + 1)
+       PaintPicture BMP_FILE[NUM] (W_X[NUM] + (X_F[NUM] * LN)) (W_Y[NUM] + (Y_F[NUM] * LN)) G_S[NUM] G_S[NUM] 透過 DRCT[NUM] 右回転 ANG[NUM] _ColorTime(1)
+ 	     PaintPicture ("Beam\EFFECT_LBeam" & CL[NUM] & "0" & i & ".bmp") C_X[NUM] C_Y[NUM] 64 64 透過 右回転 ANG[NUM] _ColorTime(1)
+    Next
+    Refresh
+    Wait Until (i * 0.8)
+Next
+
+_SelectSound "Beam.wav" _GetWavFromArgs()
+Wait Start
+For i = 1 To 27
+
+  Switch i
+  Case 1 2 3 4 5 6 7 8
+    Set LN (i * -1)
+  EndSw
+
+  ClearPicture
+
+    For k = 1 To P_NUM
+    Set NUM (P_NUM - k + 1)
+  PaintPicture BMP_FILE[NUM] (W_X[NUM] + (X_F[NUM] * LN)) (W_Y[NUM] + (Y_F[NUM] * LN)) G_S[NUM] G_S[NUM] 透過 DRCT[NUM] 右回転 ANG[NUM] _ColorTime(1)
+  PaintPicture ("Beam2\EFFECT_GiantBeam" & CL[NUM] & "0" & j & ".bmp") C_X[NUM] C_Y[NUM] 64 64 右回転 ANG[NUM] 透過 _ColorTime(1)
+  PaintPicture ("Fire\EFFECT_BackFire" & CL[NUM] & "0" & ((i Mod 9) + 1) & ".bmp") (C_X[NUM] - (X_F[NUM] * 48) - 16) (C_Y[NUM] - (Y_F[NUM] * 48) - 16) 96 96 右回転 ANG[NUM] 透過 _ColorTime(1)
+  If (_SearchOptionFromArgs(電撃) != "") Then
+    Switch i
+    Case 1 2 3 4
+      PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & i & ".bmp") _
+                   (C_X[NUM] + (X_F[NUM] * 8) + 8) (C_Y[NUM] + (Y_F[NUM] * 8) + 8) 48 48 透過 右回転 ANG[NUM] _ColorTime(1) 
+    Case Else
+      If (Random(2) = 1) Then
+        PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (Random(3) + 4) & ".bmp") _
+                     (C_X[NUM] + (X_F[NUM] * 8) + 8) (C_Y[NUM] + (Y_F[NUM] * 8) + 8) 48 48 透過 右回転 ANG[NUM] _ColorTime(1) 
+      Else
+        PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (Random(3) + 4) & ".bmp") _
+                     (C_X[NUM] + (X_F[NUM] * 8) + 8) (C_Y[NUM] + (Y_F[NUM] * 8) + 8) 48 48 透過 上下反転 右回転 ANG[NUM] _ColorTime(1) 
+      EndIf
+    EndSw
+  EndIf
+  Next
+  Refresh
+  Wait Until (i * 0.5)
+  Switch i
+  Case 3
+    Set j 2
+  Case 5
+    Set j 3
+  Case Else
+    Set j ((i mod 2) + 2)
+
+  EndSw
+Next
+Set 戦闘アニメ変数[色] B_C
+
+Return
+
+
+戦闘アニメ_同時巨大ビーム命中:
+戦闘アニメ_同時巨大ビームランチャー命中:
+
+
+
+#ビームに関する変数
+Local BMP_FILE
+Local G_S
+
+
+# 複数引き渡し型引数関連
+Local P_NUM
+Local WF_ALL
+Local GS_ALL
+Local NUM
+
+Local i
+Local ANG
+Local CL
+Local CL2
+Local CL_ALL
+Local NUM
+Local P_NUM
+Local X_F
+Local Y_F
+
+_CenteringCheck 相手ユニットＩＤ
+
+
+Set P_NUM (CountPartner() + 1)
+Set CL_ALL _GetOptParamsFromArgs("ビーム色")
+
+
+For i = 1 To P_NUM
+
+#　角度
+
+  If (_SearchOptionFromArgs("ランダム方向") = "") Then
+    Set ANG[i] _GetAngle(Partner((i - 1)))
+  Else
+    Set ANG[i] Random(360)
+  EndIf
+
+
+Local C_X
+Set C_X[i] (WX(相手ユニットＩＤ) - 48)
+Local C_Y
+Set C_Y[i] (WY(相手ユニットＩＤ) - 48)
+
+#　ビーム色
+
+  If (CL_ALL != "") Then
+    Set CL[i] _GetName("(Pink)",_GetBeamColor(_GetOptParamsValue(CL_ALL,i)))
+  Else
+    Set CL[i] _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs()))
+  EndIf
+
+ set CL2[i] _GetLightningColorInBeam(CL[i])
+
+Set X_F[i] _GetCircumference(ANG[i],Ｘ)
+Set Y_F[i] _GetCircumference(ANG[i],Ｙ)
+
+Next
+
+Wait Start
+For i = 1 To 10
+
+  If (i < 6) Then
+    Set j i
+  Endif
+
+
+  ClearPicture
+  Switch i
+
+  Case 2 5 8
+    _SelectSound "Explode(Small).wav" _GetWavFromArgs()
+  For k = 1 To P_NUM
+    Set NUM (P_NUM - k + 1)
+    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") (C_X[NUM] + 12) (C_Y[NUM] + 12) 104 104 右回転 ANG[NUM] 透過 _ColorTime(1)
+  Next
+
+  Case 3 6 9
+    _SelectSound "Explode.wav" _GetWavFromArgs()
+  For k = 1 To P_NUM
+    Set NUM (P_NUM - k + 1)
+    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") (C_X[NUM] + 8) (C_Y[NUM] + 8) 116 116 右回転 ANG[NUM] 透過 _ColorTime(1)
+  Next
+
+  Case 4 7 10
+    _SelectSound "Explode.wav" _GetWavFromArgs()
+  For k = 1 To P_NUM
+    Set NUM (P_NUM - k + 1)
+    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") C_X[NUM] C_Y[NUM] 128 128 右回転 ANG[NUM] 透過 _ColorTime(1)
+  Next
+
+  EndSw
+
+  For k = 1 To P_NUM
+    Set NUM (P_NUM - k + 1)
+    PaintPicture ("Beam\EFFECT_LBeamHit" & CL[NUM] & "0" & j & ".bmp") C_X[NUM] C_Y[NUM] 128 128 右回転 ANG[NUM] 透過 _ColorTime(1)
+  Next
+
+  If (_SearchOptionFromArgs(電撃) != "") Then
+    Switch i
+    Case 1 
+
+      For k = 1 To P_NUM
+      Set NUM (P_NUM - k + 1)
+      PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (Random(3) + 4) & ".bmp") _
+                   (C_X[NUM] + 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32 + (Y_F[NUM] * -32)) 64 64 透過 右回転 ANG[NUM] _ColorTime(1) 
+     Next
+
+    Case Else
+      If (Random(2) = 1) Then
+
+      For k = 1 To P_NUM
+      Set NUM (P_NUM - k + 1)
+        PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (Random(3) + 4) & ".bmp") _
+                     (C_X[NUM] + 32 + (X_F[NUM] * 32)) (C_Y[NUM] + 32 + (Y_F[NUM] * 32)) 64 64 透過 右回転 ANG[NUM] _ColorTime(1) 
+        PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (Random(3) + 4) & ".bmp") _
+                     (C_X[NUM] + 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32 + (Y_F[NUM] * -32)) 64 64 透過 右回転 ANG[NUM] _ColorTime(1) 
+     Next
+
+      Else
+
+      For k = 1 To P_NUM
+      Set NUM (P_NUM - k + 1)
+        PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (Random(3) + 4) & ".bmp") _
+                     (C_X[NUM] + 32 + (X_F[NUM] * 32)) (C_Y[NUM] + 32 + (Y_F[NUM] * 32)) 64 64 透過 右回転 ANG[NUM] 上下反転 _ColorTime(1) 
+        PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (Random(3) + 4) & ".bmp") _
+                     (C_X[NUM] + 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32 + (Y_F[NUM] * -32)) 64 64 透過 右回転 ANG[NUM] 上下反転 _ColorTime(1) 
+     Next
+
+      EndIf
+    EndSw
+  EndIf
+
+  Refresh
+  Wait Until (i * 0.9)
+
+Next
+
+
+Wait Start
+For i = 4 To 5
+  ClearPicture
+      For k = 1 To P_NUM
+      Set NUM (P_NUM - k + 1)
+ 		 PaintPicture ("Beam\EFFECT_MBeamHit" & CL[NUM] & "0" & i & ".bmp") C_X[NUM] C_Y[NUM] 128 128 右回転 ANG[NUM] 透過 _ColorTime(1)
+ 		 If (_SearchOptionFromArgs(電撃) != "") Then
+ 		     PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (8 - i) & ".bmp") _
+ 		                  (C_X [NUM]+ 32 + (X_F[NUM] * 32)) (C_Y[NUM] + 32 + (Y_F[NUM] * 32)) 64 64 透過 右回転 ANG[NUM] _ColorTime(1) 
+  		     PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (8 - i) & ".bmp") _
+ 		                  (C_X [NUM]+ 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32 + (Y_F[NUM] * -32)) 64 64 透過 右回転 ANG[NUM] _ColorTime(1) 
+  EndIf
+     Next
+  Refresh
+  Wait Until ((i - 3) * 0.7)
+Next
+
+Wait Start
+For i = 4 To 6
+  ClearPicture
+      For k = 1 To P_NUM
+      Set NUM (P_NUM - k + 1)
+  PaintPicture ("Beam\EFFECT_BeamHit" & CL[NUM] & "0" & i & ".bmp") C_X[NUM] C_Y[NUM] 128 128 右回転 ANG[NUM] 透過 _ColorTime(1)
+  If (_SearchOptionFromArgs(電撃) != "") Then
+      PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (6 - i) & ".bmp") _
+                   (C_X[NUM] + 32 + (X_F[NUM] * 32)) (C_Y[NUM] + 32 + (Y_F[NUM] * 32)) 64 64 透過 右回転 ANG[NUM] _ColorTime(1) 
+      PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (6 - i) & ".bmp") _
+                   (C_X[NUM] + 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32[NUM] + (Y_F[NUM] * -32)) 64 64 透過 右回転 ANG[NUM] _ColorTime(1) 
+  EndIf
+     Next
+  Refresh
+  Wait Until ((i - 4) * 0.7)
+Next
+
+ClearPicture
+Refresh
+Return
+
+
+#以下有翼蛇氏作インクルード(出展元ウィザードリィ)
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_パターン決定準備:
+
+##　引数：パターン最大数
+##　戦闘アニメその他の準備シチュで呼び出して、とどめシチュまで相手パイロットに「パターン_x」を付加します。
+##　付加した制御用スキルは自動で消去されるはずです。消去されなかった場合、ご報告ください。
+##　ＭＡＰ兵器には非対応です。動作テストもしてません。
+
+Local i
+Local n
+
+If 戦闘アニメパターン Then
+  If Skill(対象パイロット, 戦闘アニメパターン) Then
+    ClearSkill 対象パイロット 戦闘アニメパターン
+  EndIf
+  If Skill(相手パイロット, 戦闘アニメパターン) Then
+    ClearSkill 相手パイロット 戦闘アニメパターン
+  EndIf
+EndIf
+
+Set 戦闘アニメパターン
+
+Set n Args(1)
+
+If n = "" Then
+  n = 1
+EndIf
+
+Set i Random(n)
+
+戦闘アニメパターン =  ("パターン_" & i)
+
+SetSkill 相手パイロット 戦闘アニメパターン -1
+SpecialPower 対象パイロット 戦闘アニメ_パターン解除
+
+Set 戦闘アニメパターンＰ 相手パイロット
+
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_パターン解除:
+
+ClearSkill 戦闘アニメパターンＰ 戦闘アニメパターン
+UnSet 戦闘アニメパターンＰ
+Unset 戦闘アニメパターン
+
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+# 指定された色のビーム用の色を示す文字列を返却する。
+# 規定されていない色が指定された場合は空文字列を返却する。
+# 引数１ 色の名前
+# 返り値 "(Red)" "(Blue)" "(Yellow)" "(Green)" "(Pink)" 
+#        "(Orange)" "(Black)" "(White)" ""
+# ちょい機能拡張。LightBlueとPurple追加
+
+_GetBeamColor2:
+
+Switch Args(1)
+Case レッド 赤 赤色 Red red RED Ｒｅｄ ｒｅｄ ＲＥＤ
+  Return "(Red)"
+Case ブルー 青 青色 Blue blue BLUE Ｂｌｕｅ ｂｌｕｅ ＢＬＵＥ
+  Return "(Blue)"
+Case イエロー 黄 黄色 Yellow yellow YELLOW Ｙｅｌｌｏｗ ｙｅｌｌｏｗ ＹＥＬＬＯＷ
+  Return "(Yellow)"
+Case グリーン 緑 緑色 Green green GREEN Ｇｒｅｅｎ ｇｒｅｅｎ ＧＲＥＥＮ
+  Return "(Green)"
+Case ホワイト 白 白色 White white WHITE Ｗｈｉｔｅ ｗｈｉｔｅ ＷＨＩＴＥ
+  Return "(White)"
+Case ブラック 黒 Black black BLACK Ｂｌａｃｋ ｂｌａｃｋ ＢＬＡＣＫ
+  Return "(Black)"
+Case オレンジ 橙 橙色 だいだい だいだい色 Orange orange ORANGE Ｏｒａｎｇｅ ｏｒａｎｇｅ ＯＲＡＮＧＥ
+  Return "(Orange)"
+Case ピンク 桃 桃色 Pink pink PINK Ｐｉｎｋ ｐｉｎｋ ＰＩＮＫ
+  Return "(Pink)"
+Case パープル 紫 紫色 Purple purple PURPLE Ｐｕｒｐｌｅ　ｐｕｒｐｌｅ　ＰＵＲＰＬＥ
+  Return "(Purple)"
+Case ライトブルー 水 水色 LightBlue Lightblue lightBlue lightblue LIGHTBLUE ＬｉｇｈｔＢｌｕｅ　Ｌｉｇｈｔｂｌｕｅ　ｌｉｇｈｔＢｌｕｅ　ｌｉｇｈｔｂｌｕｅ　ＬＩＧＨＴＢＬＵＥ
+  Return "(LightBlue)"
+EndSw
+Return

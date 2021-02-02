@@ -1,0 +1,108 @@
+# ・ネームド
+# ・花盗人／魔獣
+
+# 敵を味方として使用する場合、味方使用をSetSkillで付加してください。
+# SetSkill 対象パイロット 味方使用 -1 非表示
+
+# 味方を敵として使用する場合は、敵使用をSetSkillで付加してください。
+# SetSkill 対象パイロット 敵使用 -1 非表示
+
+### ネームド #############################################################################
+
+マキシ＝レミントン
+マキシ, 男性, ＷＡ花盗人, AAAA, 180
+特殊能力
+底力, 1, 不屈, 1
+ＳＰ消費減少Lv5=ガッツ 努力 根性 ド根性, 1
+136, 142, 123, 146, 157, 163, 普通
+ＳＰ, 60, 努力, 1, 熱血, 3, 根性, 7, 堅牢, 12, 心眼, 23, 決意, 34
+WAH_MaxiRemington.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle.mid WA3_GunmetalAction.mid WA_Battle.mid WA_CriticalHit!.mid
+
+#356/379+底力
+
+花の守護獣エスメラルダ
+お花ちゃん, おはなちゃん, -, ＷＡ花盗人(マキシ＝レミントン専属サポート), DDDD, 0
+特殊能力なし
+1, 1, 1, 1, 1, 1, 強気
+ＳＰ, 20, ひらめき, 1, 必中, 6, 幸運, 13, 気合, 18, 狙撃, 21, 覚醒, 40
+WAH_GurdianOfFlower.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle.mid WA3_GunmetalAction.mid WA_Battle.mid WA_CriticalHit!.mid
+
+花盗人ギィ
+ギィ, 男性, ＷＡ花盗人, AAAA, 170
+特殊能力
+切り払いLv2, 1, Lv3, 20, Lv4, 36, Lv5, 48
+135, 151, 154, 157, 176, 159, 普通
+ＳＰ, 55, てかげん, 1, 集中, 2, 狙撃, 5, 助言, 9, 信頼, 14, 熱血, 21
+WAH_Gyi.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle.mid WA3_GunmetalAction.mid WA_Battle.mid WA_CriticalHit!.mid
+
+#393/396+集中
+
+花盗人ジェチカ
+ジェチカ, 女性, ＷＡ花盗人, AAAA, 170
+特殊能力
+魔力所有, 1
+143, 138, 146, 151, 167, 161, 強気
+ＳＰ, 55, 加速, 1, 隠れ身, 4, 集中, 7, ひらめき, 16, かく乱, 19, 挑発, 22
+WAH_Jechica.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle.mid WA3_GunmetalAction.mid WA_Battle.mid WA_CriticalHit!.mid
+===
+特殊効果発動率強化Lv4=全 (敵使用)
+
+#392/397S+集中
+
+エイジ＝エリックスン
+エイジ, 男性, ＷＡ花盗人, AAAA, 160
+特殊能力
+迎撃Lv1, 1, Lv2, 14, Lv3, 25, Lv4, 36, Lv5, 49, Lv6, 64
+140, 148, 145, 155, 170, 162, 超強気
+ＳＰ, 50, 挑発, 1, 機先, 3, てかげん, 8, 熱血, 11, 加速, 15, 必中, 26
+WAH_EijiEricsun.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle2.mid WA3_WhirlwindOfDeathBlowing.mid WA_Battle.mid WA_CriticalHit!.mid
+===
+特殊効果発動率強化Lv4=全 (敵使用)
+
+#397/407
+
+モニカ＝アルグレー
+モニカ, 女性, ＷＡ花盗人, AAAA, 150
+特殊能力
+迎撃Lv1, 1, Lv2, 16, Lv3, 27, Lv4, 39
+131, 138, 143, 145, 166, 158, 強気
+ＳＰ, 50, 信頼, 1, てかげん, 4, 魅惑, 10, ひらめき, 15, 激怒, 17, 痛撃, 20
+WAH_MonicaArugure.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle2.mid WA3_WhirlwindOfDeathBlowing.mid WA_Battle.mid WA_CriticalHit!.mid
+===
+特殊効果発動率強化Lv4=全 (敵使用)
+
+#381/383
+
+### 花盗人／魔獣 #########################################################################
+
+ＷＡ花盗人魔獣(ザコ)
+魔獣, モンスター, ＷＡ花盗人, AAAA, 70
+特殊能力なし
+135, 135, 135, 130, 140, 150, 普通
+ＳＰなし
+WA2_monster.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle2.mid WA3_WhirlwindOfDeathBlowing.mid WA_Battle.mid WA_CriticalHit!.mid
+===
+愛称依存設定
+特殊効果発動率強化Lv4=全 (!味方使用)
+
+ＷＡ花盗人魔獣(汎用)
+魔獣, モンスター, ＷＡ花盗人, AAAA, 100
+特殊能力
+メッセージ=ＷＡ花盗人魔獣(ザコ), 1
+140, 140, 140, 135, 150, 150, 普通
+ＳＰなし
+WA2_monster.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle2.mid WA3_WhirlwindOfDeathBlowing.mid WA_Battle.mid WA_CriticalHit!.mid
+===
+愛称依存設定
+特殊効果発動率強化Lv4=全 (!味方使用)
+
+ＷＡ花盗人強豪魔獣(汎用)
+魔獣, モンスター, ＷＡ花盗人, AAAA, 130
+特殊能力
+メッセージ=ＷＡ花盗人魔獣(ザコ), 1
+145, 145, 145, 140, 160, 155, 強気
+ＳＰなし
+WA2_monster.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle2.mid WA3_WhirlwindOfDeathBlowing.mid WA_Battle.mid WA_CriticalHit!.mid
+===
+愛称依存設定
+特殊効果発動率強化Lv4=全 (!味方使用)

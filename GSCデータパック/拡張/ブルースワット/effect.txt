@@ -1,0 +1,22 @@
+ブルースワット
+プラグローダ(準備), Reload.wav
+プラグローダ, Gun.wav
+ミサイルランチャー, 18;Missile.wav;MultipleRocketLauncher(Light).wav
+ディクテイター, 2;Beam.wav;2;Beam.wav;Beam.wav
+フレームスロワー, 8;Whiz.wav;Fire.wav
+レーザーライフル, Beam.wav
+ドラムガンナー, BeamCoat.wav
+ドラムガンファイヤー(準備), Reload.wav
+ドラムガンファイヤー, 6;Beam.wav;BeamCoat.wav
+レーザーキャノン,1;Beam.wav;Beam.wav
+反射, BeamCoat.wav
+
+ゴールドプラチナム
+グラビオン, Beam.wav
+
+エイリアン
+インベード, 8;Whiz.wav;Fold.wav
+怪光線, LaserGun.wav
+火球(準備), Fire.wav
+火球, Whiz.wav
+重力波, 10;Charge(long).wav;12;Charge(long).wav;Charge(long).wav

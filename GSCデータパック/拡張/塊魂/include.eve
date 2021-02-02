@@ -1,0 +1,500 @@
+
+# 本インクルードファイルは以下の変数を使用しています。
+# シナリオ内で同名の変数を定義した場合、予期せぬ動作をする場合があります。
+
+# KTM_VAR_Ohji_X
+# KTM_VAR_Ohji_Y
+# KTM_VAR_Dash
+
+################################################################################
+### 常時イベントラベル #########################################################
+################################################################################
+
+*ターン 全 味方:
+	Call 塊魂サブルーチン_王子位置更新
+Exit
+
+*使用後 大コスモの王子 王子ダッシュ:
+	Call 塊魂サブルーチン_王子ダッシュフラグ更新
+Exit
+
+*行動終了 大コスモの王子:
+	Call 塊魂サブルーチン_王子気力上昇判定
+Exit
+
+################################################################################
+### 移動後気力上昇処理 #########################################################
+################################################################################
+
+塊魂サブルーチン_王子位置更新:
+	KTM_VAR_Ohji_X = X(大コスモの王子)
+	KTM_VAR_Ohji_Y = Y(大コスモの王子)
+Return
+
+塊魂サブルーチン_王子ダッシュフラグ更新:
+	KTM_VAR_Dash = 1
+Return
+
+塊魂サブルーチン_王子気力上昇判定:
+	Local UID l_distance l_num l_morale l_monoList l_monoName
+	Local l_i l_wx1 l_wy1 l_wx2 l_wy2 l_wxd1 l_wyd1 l_wxd2 l_wyd2
+	
+	UID = 対象ユニットＩＤ
+	
+	l_distance = Abs(X(UID) - KTM_VAR_Ohji_X) + Abs(Y(UID) - KTM_VAR_Ohji_Y)
+	l_wx1 = WX(KTM_VAR_Ohji_X) + 16
+	l_wy1 = WY(KTM_VAR_Ohji_Y) + 16
+	l_wx2 = WX(UID)            + 16
+	l_wy2 = WY(UID)            + 16
+	
+	Call 塊魂サブルーチン_王子位置更新
+	
+	If Unit(UID) = 大コスモの王子(塊なし) Then
+		Return
+	EndIf
+	
+	If Unit(UID) = 大コスモの王子(単) Then
+		Return
+	EndIf
+
+	//巻き込み個数の決定
+	l_num = Random(l_distance)
+	If (KTM_VAR_Dash = 1) Then
+		KTM_VAR_Dash = 0
+		l_num = Int(l_num * 1.5) + 3
+	EndIf
+	
+	If l_num = 0 Then
+		Return
+	EndIf
+	
+	l_morale = Int(l_num / 2)
+	
+	If l_morale > 0 Then
+		IncreaseMorale UID l_morale
+		Line (l_wx2 - 16) (l_wy2 - 36) (l_wx2 + 16) (l_wy2 - 20) #333333 BF
+		Font 9pt #EE6633 Ｐゴシック
+		PaintString (l_wx2 - 14) (l_wy2 - 34) 気+$(l_morale)
+	EndIf
+	
+	l_monoList = Call(塊魂サブルーチン_巻き込み対象物リスト取得, Info(ユニットデータ, Unit(UID), サイズ))
+	
+	For l_i = 1 To l_num
+		l_monoName = LIndex(l_monoList, Random(LLength(l_monoList)))
+		
+		//表示位置の計算
+		l_wxd1 = Int(((l_wx1 * (1 + l_num - l_i)) + (l_wx2 * l_i)) / (l_num + 1))
+		l_wyd1 = Int(((l_wy1 * (1 + l_num - l_i)) + (l_wy2 * l_i)) / (l_num + 1))
+		l_wxd2 = 100 * (Int((l_i - 1) / 5) + 1) - 40
+		l_wyd2 = 96 * (((l_i - 1) mod 5) + 1) - 64
+		
+		Call 戦闘アニメ_塊魂_巻き込み物表示 塊魂サブルーチン_名称取得(l_monoName) 塊魂サブルーチン_画像ファイル名取得(l_monoName) _
+		                                    塊魂サブルーチン_画像サイズ取得(l_monoName) l_wxd1 l_wyd1 l_wxd2 l_wyd2
+		
+		Wait 1
+	Next
+	
+	Wait 5
+Return
+
+塊魂サブルーチン_巻き込み対象物リスト取得:
+	Local l_Size l_ResultList
+	l_Size = Args(1)
+
+	l_ResultList = ""
+
+	Switch l_Size
+		Case "SS" // ~45cm
+			l_ResultList = List("ダイス５", "消しゴム", "鉛筆", "５インチフロッピー", "イチゴ", "小判", "バラ", "フォーク", "ウニ", "妖精")
+		Case "S"  // ~1m
+			l_ResultList = List("ハープ", "トランペット", "ペットボトル", "大根", "コーン", "ピラニア", "中華包丁", "鳩", "消火器", "雪だるま")
+		Case "M"  // ~2m
+			l_ResultList = List("白いギター", "銅像", "マグロ", "対戦車ライフル", "モップ", "ヒマワリ", "妖刀", "豚")
+		Case "L"  // ~10m
+			l_ResultList = List("ピアノ", "ドラムセット", "電信柱", "ワニ", "馬", "虎", "ドラム缶", "パワーショベル")
+		Case "LL" // ~100m
+			l_ResultList = List("象", "怪ロボット", "岩", "ドリル", "ＩＣＢＭ", "１００ｔ分銅", "ロケットパンチ", "バスタービームライフル")
+		Case "XL" // 100m~
+			l_ResultList = List("龍", "天使(赤子)", "巨岩", "氷塊", "竜巻", "隕石", "流星")
+	EndSw
+
+Return l_ResultList
+
+塊魂サブルーチン_画像ファイル名取得:
+	Local l_Name
+	l_Name = _GetWeaponBitmapName(Args(1))
+	If l_Name = "-.bmp" Then
+		l_Name = _GetEFFECTBitmapName(Args(1))
+	EndIf
+Return l_Name
+
+塊魂サブルーチン_画像サイズ取得:
+	Local l_Name l_Size
+	l_Name = _GetWeaponBitmapName(Args(1))
+	If l_Name = "-.bmp" Then
+		l_Size = _GetEffectBitmapSize(Args(1))
+	Else
+		l_Size = _GetWeaponBitmapSize(Args(1))
+	EndIf
+Return l_Size
+
+塊魂サブルーチン_名称取得:
+	Local l_Name l_BracketIdx
+
+	l_Name = Args(1)
+
+	//特別に名称を変更する場合ここに記述
+
+	//基本的に括弧を除いた名称を返す
+	l_BracketIdx = InStr(l_Name, "(")
+
+	If (l_BracketIdx > 1) Then
+		Return Left(l_Name, l_BracketIdx - 1)
+	EndIf
+Return l_Name
+
+################################################################################
+### 戦闘アニメラベル ###########################################################
+################################################################################
+
+戦闘アニメ_塊魂_巻き込みとどめ:
+	Call 戦闘アニメ_塊魂_巻き込み物表示 NickName(Unit(相手ユニットＩＤ)) _GetBMPName(相手ユニットＩＤ) 32 _
+	                                    WX(相手ユニットＩＤ) WY(相手ユニットＩＤ) 120 120 回転
+Return
+
+戦闘アニメ_塊魂_星とどめ:
+	Call 戦闘アニメ_塊魂_巻き込み物表示 NickName(Unit(相手ユニットＩＤ)) _GetBMPName(相手ユニットＩＤ) 32 _
+	                                    WX(相手ユニットＩＤ) WY(相手ユニットＩＤ) 120 120 回転 _
+	                                    -.wav
+	Call 戦闘アニメ_塊魂_塊完成レインボー共通
+	Call 戦闘アニメ_塊魂_塊打ち上げ共通
+	Call 戦闘アニメ_塊魂_塊星完成 Call(戦闘アニメ_塊魂_ランダム色取得)
+	
+	ClearPicture
+	Refresh
+Return
+
+戦闘アニメ_塊魂_ビッグバンとどめ:
+	Call 戦闘アニメ_塊魂_巻き込み物表示 NickName(Unit(相手ユニットＩＤ)) _GetBMPName(相手ユニットＩＤ) 32 _
+	                                    WX(相手ユニットＩＤ) WY(相手ユニットＩＤ) 120 120 回転 _
+	                                    -.wav
+	Call 戦闘アニメ_塊魂_塊完成レインボー共通
+	Call 戦闘アニメ_塊魂_塊打ち上げ共通
+	Call 戦闘アニメ_塊魂_塊ビッグバン完成 Random(8)
+	
+	ClearPicture
+	Refresh
+Return
+
+戦闘アニメ_塊魂_巻き込み物表示:
+	Local l_i l_text l_bmpName l_bmpSizeHalf l_x1 l_y1 l_x2 l_y2 l_roll l_angleStart l_boxWidthHalf
+	
+	l_text        = Args(1)
+	l_bmpName     = Args(2)
+	l_bmpSize     = Args(3)
+	l_bmpSizeHalf = Args(3) \ 2
+	l_x1          = Args(4)
+	l_y1          = Args(5)
+	l_x2          = Args(6)
+	l_y2          = Args(7)
+	l_roll        = Args(8)
+
+	_SelectSound "Type(Digital)(" & (Random(3) + 1) & ").wav" _GetWavFromArgs()
+
+	FillStyle 塗りつぶし
+	FillColor #EEEEEE
+
+	For l_i = 1 to 6
+		Circle (((l_x1 * l_i) + (l_x2 * (7 - l_i))) / 7) (((l_y1 * l_i) + (l_y2 * (7 - l_i))) / 7) 2 #EEEEEE
+	Next
+
+	Font 9pt #EEEEEE Ｐゴシック
+	l_boxWidthHalf = Max(48, TextWidth(l_text) \ 2 + 2)
+	Line (l_x2 - l_boxWidthHalf) (l_y2 + 32) (l_x2 + l_boxWidthHalf) (l_y2 + 48) #333333 BF
+	
+	PaintString (l_x2 - TextWidth(l_text) \ 2) (l_y2 + 40 - TextHeight(l_text) \ 2) l_text
+
+	FillColor #333333
+
+	If l_roll = "回転" Then
+		l_angleStart = Random(180)
+		For l_i = 1 to 20
+			Circle l_x2 l_y2 24 #333333
+			PaintPicture l_bmpName (l_x2 - l_bmpSizeHalf) (l_y2 - l_bmpSizeHalf) l_bmpSize l_bmpSize 透過 右回転 (l_angleStart + l_i * 24)
+			Refresh
+			Wait 1
+		Next
+	Else
+		Circle l_x2 l_y2 24 #333333
+		PaintPicture l_bmpName (l_x2 - l_bmpSizeHalf) (l_y2 - l_bmpSizeHalf) l_bmpSize l_bmpSize 透過 右回転 l_angle
+	EndIf
+	
+	Refresh
+Return
+
+戦闘アニメ_塊魂_塊完成レインボー共通:
+
+	Local l_i l_j l_colorsList l_colors l_yStart
+	
+	l_colorsList[1] = List(252,  0, 15)
+	l_colorsList[2] = List(246,145, 37)
+	l_colorsList[3] = List(255,255, 22)
+	l_colorsList[4] = List( 51,254, 15)
+	l_colorsList[5] = List(  0,  0,254)
+	l_colorsList[6] = List(101, 38,142)
+	l_colorsList[7] = List(252,  0,252)
+
+	For l_i = 1 to 7
+		l_colors[l_i] = RGB(LIndex(l_colorsList[l_i], 1), LIndex(l_colorsList[l_i], 2), LIndex(l_colorsList[l_i], 3))
+		l_yStart[l_i] = Random(8) + (l_i Mod 2) * 24
+	Next
+
+	For l_i = 1 to 6
+		For l_j = 1 to 7
+			Line ((l_j - 1) * 69 + 1) (0) ((l_j - 1) * 69 + 69) (l_i * 80 + l_yStart[l_j]) l_colors[l_j] BF
+		Next
+		Refresh
+		Wait 1
+	Next
+
+	For l_i = 1 to 6
+		For l_j = 1 to 7
+			Line ((l_j - 1) * 69 + 1) (0) ((l_j - 1) * 69 + 69) (480) Call(戦闘アニメ_塊魂_レインボー色取得, l_colorsList[l_j], l_i) BF
+		Next
+		Refresh
+		Wait 1
+	Next
+	
+	Line 0 0 480 480 #112233 BF
+	Refresh
+
+Return
+
+戦闘アニメ_塊魂_レインボー色取得:
+Return RGB(Int(LIndex(Args(1), 1) * (7 - Args(2)) / 7), _
+           Int(LIndex(Args(1), 2) * (7 - Args(2)) / 7), _
+           Int(LIndex(Args(1), 3) * (7 - Args(2)) / 7))
+
+戦闘アニメ_塊魂_塊打ち上げ共通:
+
+	Local UID l_i l_j l_rad l_x l_y l_bmpName l_bmpX l_bmpY l_monoList l_monoName l_drawList
+	
+	UID = 対象ユニットＩＤ
+	
+	//描画対象の画像情報をリストに定義
+	
+	l_monoList = Call(塊魂サブルーチン_巻き込み対象物リスト取得, Info(ユニットデータ, Unit(UID), サイズ))
+	
+	For l_i = 1 to 24
+		l_monoName = LIndex(l_monoList, Random(LLength(l_monoList)))
+		
+		l_drawList[l_i] = List(塊魂サブルーチン_画像ファイル名取得(l_monoName), _
+		                       l_i + Random(8), _
+		                       塊魂サブルーチン_画像サイズ取得(l_monoName) \ 2)
+	Next
+	
+	l_i = Count(l_drawList) + 1
+	
+	l_drawList[l_i] = List(Info(ユニットデータ, Unit(相手ユニットＩＤ), グラフィック), 16 + Random(8), 32 \ 2)
+	
+	//描画しながら浮かべる
+	
+	PlaySound Charge.wav
+	
+	FillStyle 塗りつぶし
+	For l_i = 1 to 16
+		Line 0 0 480 480 #112233 BF
+		l_x = 240
+		l_y = 320 - (12 * l_i)
+	
+		FillColor #004400
+		Circle l_x (l_y + 24) 16 #004400
+		FillColor #008800
+		Circle l_x l_y 24 #008800
+		
+		For l_j = 1 to Count(l_drawList)
+			l_rad = (l_i * 30 + l_j * 30) * 3.141592 / 180
+			l_bmpName = LIndex(l_drawList[l_j], 1)
+			
+			l_bmpX = (l_x + LIndex(l_drawList[l_j], 2) * Cos(l_rad) - LIndex(l_drawList[l_j], 3))
+			l_bmpY = (l_y + LIndex(l_drawList[l_j], 2) * Sin(l_rad) - LIndex(l_drawList[l_j], 3))
+ 			PaintPicture l_bmpName l_bmpX l_bmpY 透過 右回転 (l_i * 30 + l_j * 30)
+		Next
+	
+		Refresh
+		Wait 0.5
+	Next
+
+Return
+
+戦闘アニメ_塊魂_ランダム色取得:
+	Local l_colorNames
+	l_colorNames = "赤青黄緑桃橙紫"
+Return Mid(l_colorNames, Random(Len(l_colorNames)), 1)
+
+戦闘アニメ_塊魂_調整色取得:
+	Local l_rgb l_modifier
+	l_rgb = 戦闘アニメ_塊魂_RGBリスト取得(Args(1))
+	l_modifier = Args(2)
+Return RGB(戦闘アニメ_塊魂_調整色成分取得(LIndex(l_rgb, 1), l_modifier), _
+           戦闘アニメ_塊魂_調整色成分取得(LIndex(l_rgb, 2), l_modifier), _
+           戦闘アニメ_塊魂_調整色成分取得(LIndex(l_rgb, 3), l_modifier))
+
+戦闘アニメ_塊魂_調整色成分取得:
+	Local l_value l_modifier
+	l_value    = Args(1)
+	l_modifier = Args(2)
+Return Min(255, Int(l_value * l_modifier))
+ 
+戦闘アニメ_塊魂_RGBリスト取得:
+Return List(戦闘アニメ_塊魂_10進数取得(Mid(Args(1), 2, 2)), _
+            戦闘アニメ_塊魂_10進数取得(Mid(Args(1), 4, 2)), _
+            戦闘アニメ_塊魂_10進数取得(Mid(Args(1), 6, 2)))
+
+戦闘アニメ_塊魂_10進数取得:
+	Local l_hex l_dec l_hexBase l_decBase l_i
+	l_hex = Args(1)
+	
+	l_hexBase = "0123456789ABCDEF"
+	l_decBase = "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15"
+	
+	l_dec = 0
+	For l_i = 1 to Len(l_hex)
+		l_dec = l_dec * 16
+		Incr l_dec LIndex(l_decBase, InStr(l_hexBase, Mid(l_hex, l_i, 1)))
+	Next
+Return l_dec
+
+戦闘アニメ_塊魂_塊星完成:
+	Local UID l_nickName l_beamColor l_backColor l_lightColor l_lightColor1 l_lightColor2
+
+	UID = 相手ユニットＩＤ
+	
+	l_nickName = NickName(Unit(UID))
+	
+	l_beamColor = _GetBeamColor(Args(1))
+	l_lightColor1 = 戦闘アニメ_塊魂_調整色取得(_GetColor(Args(1)), 0.36)
+	l_lightColor2 = 戦闘アニメ_塊魂_調整色取得(_GetColor(Args(1)), 0.25)
+	
+	FillStyle 塗りつぶし
+	Font 9pt Ｐゴシック Bold #eeeeee
+	
+	PlaySound Glass(2).wav
+	
+	For l_i = 1 to 8
+		l_backColor  = RGB(17 + (8 - l_i) * 24, 34 + (8 - l_i) * 24, 51 + (8 - l_i) * 24)
+		l_lightColor = IIF((l_i Mod 2) = 1, l_lightColor1, l_lightColor2)
+		
+		FillColor l_backColor
+		Line 0 0 480 480 l_backColor BF
+		FillColor l_lightColor
+		Circle 240 128 24 l_lightColor
+		PaintPicture ("Impact\EFFECT_ImpactBallHit" & l_beamColor & "02.gif") (240 - 128) (128 - 128) 透過
+	
+		PaintString - (240 - 48) $(l_nickName)星
+	
+		Refresh
+		Wait 1
+	Next
+	
+	For l_i = 1 to 24
+		FillColor #112233
+		Line 0 0 480 480 #112233 BF
+		FillColor IIF((l_i Mod 2) = 1, l_lightColor1, l_lightColor2)
+		Circle 240 128 24 #112233
+		PaintPicture ("Impact\EFFECT_ImpactBallHit" & l_beamColor & "02.gif") (240 - 128) (128 - 128) 透過
+	
+		PaintString - (240 - 48) $(l_nickName)星
+		
+		Refresh
+		Wait 1
+	Next
+Return
+
+戦闘アニメ_塊魂_塊ビッグバン完成:
+	Local UID l_i l_fr l_fg l_fb l_br l_bg l_bb l_nickName
+
+	UID = 相手ユニットＩＤ
+	
+	l_nickName = NickName(Unit(UID))
+	
+	FillStyle 塗りつぶし
+	Font 9pt Ｐゴシック Bold #eeeeee
+	
+	PlaySound Flash.wav
+	
+	l_fr = 192 + 63 * IIF((Args(1) Mod 2) < 1, 0, 1)
+	l_fg = 192 + 63 * IIF((Args(1) Mod 4) < 2, 0, 1)
+	l_fb = 192 + 63 * IIF(Args(1)         < 5, 0, 1)
+	
+	For l_i = 1 to 8
+		l_br = 17 + (8 - l_i) * 24
+		l_bg = 34 + (8 - l_i) * 24
+		l_bb = 51 + (8 - l_i) * 24
+		
+		Call 戦闘アニメ_塊魂_塊ビッグバン描画 l_i l_fr l_fg l_fb l_br l_bg l_bb
+		
+		PaintString - (240 - 48) $(l_nickName)ビッグバン
+		
+		Refresh
+		Wait 1
+	Next
+	
+	For l_i = 1 to 24
+		l_br = 17
+		l_bg = 34
+		l_bb = 51
+		
+		Call 戦闘アニメ_塊魂_塊ビッグバン描画 l_i l_fr l_fg l_fb l_br l_bg l_bb
+		
+		PaintString - (240 - 48) $(l_nickName)ビッグバン
+		
+		Refresh
+		Wait 1
+	Next
+Return
+
+戦闘アニメ_塊魂_塊ビッグバン描画:
+	Local l_i l_m l_fr l_fg l_fb l_br l_bg l_bb l_backColor l_foreColor
+	
+	l_m = Args(1)
+	l_fr = Args(2)
+	l_fg = Args(3)
+	l_fb = Args(4)
+	
+	If (l_m Mod 2) = 1 Then
+		l_fr = Int(l_fr * 0.8)
+		l_fg = Int(l_fg * 0.8)
+		l_fb = Int(l_fb * 0.8)
+	EndIf
+	
+	l_br = Args(5)
+	l_bg = Args(6)
+	l_bb = Args(7)
+	
+	l_backColor = RGB(l_br, l_bg, l_bb)
+	
+	FillStyle 塗りつぶし
+	Line 0 0 480 480 l_backColor BF
+	
+	For l_i = 1 to 6
+		l_foreColor = RGB(Int((l_fr * l_i / 7) + (l_br * (7 - l_i) / 7)), _
+		                  Int((l_fg * l_i / 7) + (l_bg * (7 - l_i) / 7)), _
+		                  Int((l_fb * l_i / 7) + (l_bb * (7 - l_i) / 7)))
+	
+		FillColor l_foreColor
+		Circle 240 128 ((7 - l_i) * 48) l_foreColor
+	Next
+	
+	FillColor l_backColor
+	For l_i = 1 to 6
+		Arc 240 128 360 ((l_i * 60 - 30 + l_m * 6) Mod 360) ((l_i * 60 + l_m * 6) Mod 360) l_backColor
+	Next
+	
+	l_foreColor = RGB(l_fr, l_fg, l_fb)
+	FillColor l_foreColor
+	Circle 240 128 48 l_foreColor
+	FillColor #ffffff
+	Circle 240 128 32 #ffffff
+Return
+

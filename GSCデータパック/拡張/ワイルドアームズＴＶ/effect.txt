@@ -1,0 +1,25 @@
+ＷＡＴＶ
+クレストカード, -.wav
+レアクレストカード, -.wav
+プロテクタソード(命中), 1;Swing.wav;Slash.wav
+体術(命中), Punch.wav
+ガングリップ(命中), Punch.wav
+吸血(命中), Hide.wav
+怪力(命中), Crash.wav
+格闘術(命中), Punch.wav
+催眠波, LaserGun.wav
+催眠波(クリティカル), Hide.wav
+ブドゥール, Gun.wav
+バドゥール, 6;Reload.wav;6;Charge.wav;Beam.wav
+バドゥール(単体), Beam.wav
+アブドゥール, 8;Warship.wav;AntiAirMissile.wav
+アブドゥール(命中), Explode(Nuclear).wav
+ＡＲＭＳ(ハンドガン型), Gun.wav
+ＡＲＭＳ(ボウガン型), 6;Reload.wav;Bow.wav
+ＡＲＭＳ(バズーカ型), 6;Charge.wav;Bazooka.wav
+ＡＲＭＳ(ガトリング型), 6;Charge.wav;MachineCannon.wav
+ＡＲＭＳ(リボルバー型), Gun.wav
+オートライフル, MachineCannon.wav
+ビームキャノン, 6;Charge.wav;Beam.wav
+トワイライト・ヴェノム, 8;Jet.wav;AntiShipMissile.wav
+トワイライト・ヴェノム(命中), Explode(Nuclear).wav

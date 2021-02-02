@@ -1,0 +1,13 @@
+メガデウス
+モビーディックアンカー, Cannon.wav
+アークライン, Beam.wav
+ミサイルパーティ(準備), 2;Reload.wav;2;Reload.wav;Reload.wav
+ミサイルパーティ, MultipleRocketLauncher(Light).wav
+ミサイルパーティ(命中), 2;Explode.wav;2;Explode.wav;2;Explode.wav
+キャノンパーティ(準備), Reload.wav
+キャノンパーティ, FastGun.wav
+キャノンパーティ(命中), 2;Explode.wav;2;Explode.wav;2;Explode.wav
+サドンインパクト, Bazooka.wav
+サドンインパクト(命中), 5;Punch.wav;Shock(Low).wav
+クロムバスター, 8;Charge.wav;Beam.wav
+

@@ -1,0 +1,51 @@
+ガイキング
+カウンタークロス,          2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav
+カウンタークロス(命中),    Slash.wav
+デスパーサイト,            1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;2;BeamShot.wav;2;BeamShot.wav
+ザウルガイザー,            3;Charge.wav;3;Charge.wav;3;Charge.wav;3;Charge.wav;3;Charge.wav;8;Charge.wav
+パライザー(命中),          Thunder.wav
+ミラクルドリル,            Drill.wav
+アブショックライト,        Flair.wav
+デスライト,                Beam.wav
+デスファイヤー,            Breath.wav
+リングトラッパー,          LaserGun.wav
+バックシュエッダー,        3;BeamShot.wav;3;Whiz.wav
+バックシュエッダー(命中),  Drill.wav
+エレクトリックガン,        LaserGun.wav
+デスアイ,                  3;BeamShot.wav;3;BeamShot.wav
+ガイキングミサイル,        MachineGun.wav
+
+
+
+大空魔竜
+速射ミサイル,              MachineGun.wav
+パライザー(命中),          Thunder.wav
+ザウルガイザー,            3;Charge.wav;3;Charge.wav;3;Charge.wav;3;Charge.wav;3;Charge.wav;8;Charge.wav
+ドラゴンカッター,          2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav
+ドラゴンカッター(命中),    Slash.wav
+ミラクルドリル,            4;GunPod.wav;4;GunPod.wav;4;GunPod.wav;3;BreakOff.wav;3;BreakOff.wav;10;AntiShipMissile.wav
+大型ミサイル砲,            10;Warship.wav;10;Storm.wav
+大型ミサイル砲(命中),      Explode(Far).wav
+カイザープロテクトアタック,3;Beam.wav;3;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav
+シーアイス,                Missile.wav
+シーアイス(命中),          Explode.wav
+フィッシャーウェーブ,      3;Charge(high).wav
+ノックアタッカー,          Whiz.wav
+ノックアタッカー(命中),    Crash.wav
+サンダーアイ,              LaserGun.wav
+
+
+
+大空魔竜メカ
+火炎砲,                    Breath.wav
+ネッサーファイヤー,        Breath.wav
+バゾラーホーン(命中),      Crash.wav
+バゾラー砲,                Missile.wav
+バゾラードリル,            Drill.wav
+
+
+
+魚竜ネッサー
+攻撃無効化,                BeamCoat.wav
+ビーム無効化,              BeamCoat.wav
+

@@ -1,0 +1,458 @@
+
+ルーク＝フォン＝ファブレ
+レイディアント・ハウル(準備), 「やってやる！」;発光 白 Flair.wav
+レイディアント・ハウル(攻撃), @戦闘アニメ_オーラ上昇準備 白 Charge(High).wav
+レイディアント・ハウル(命中), 飛沫 白 MicroMissile.wav;飛沫 白 -.wav;_
+飛沫 白 -.wav;飛沫 白 -.wav;飛沫 白 -.wav;飛沫 白 -.wav;_
+「これでも、くらえぇぇぇっ！！」;光圧縮 白 -.wav;魔法放射 白 Inori.wav
+ロスト・フォン・ドライブ(準備), 「やってやる！」;発光 白 Flair.wav
+ロスト・フォン・ドライブ(攻撃), @戦闘アニメ_オーラ上昇準備 白 Charge(High).wav
+ロスト・フォン・ドライブ(命中), ;_
+光斬撃 白 中 Saber.wav;斬撃 Saber.wav;光斬撃 白 中 Saber.wav;斬撃 Saber.wav;_
+光斬撃 白 中 Saber.wav;斬撃 Saber.wav;光斬撃 白 中 Saber.wav;斬撃 Saber.wav;_
+「ロスト・フォン・ドライブ！！」;@戦闘アニメ_魔法放射攻撃 白 -.wav;超ビーム 白 Explode(Long).wav;超斬撃 -.wav
+
+ティア＝グランツ
+イノセント・シャイン(準備), 発光 白 Flair.wav
+イノセント・シャイン(攻撃), 魔法集中 白 -.wav 相手ユニットＩＤ
+イノセント・シャイン(命中), オーラ上昇 白 Storm.wav;発光 白 -.wav;「イノセント・シャイン！！」;光噴出 白 MicroMissile.wav
+フォーチューン・アーク(準備), 発光 白 Flair.wav
+フォーチューン・アーク(攻撃), 急降下;_
+「天地に散りし白き光華よ、運命に従いて敵を滅せよ……」;_
+浮上アップ Anime\Common\EFFECT_LightBall01.bmp 黒 Hittyuu.wav;_
+「フォーチューン・アーク！！」;_
+浮上アップ終了 Anime\Common\EFFECT_LightBall01.bmp 黒 Inferference.wav
+フォーチューン・アーク(命中), オーラ上昇 白 Inori.wav
+フォーチューン・アーク・ＥＸ(準備), 発光 白 Flair.wav
+フォーチューン・アーク・ＥＸ(攻撃), 急降下;_
+「天地に散りし白き光華よ、運命に従いて敵を滅せよ……」;_
+浮上アップ Anime\Common\EFFECT_LightBall01.bmp 黒 Hittyuu.wav;_
+「フォーチューン・アーク！！」;_
+浮上アップ終了 Anime\Common\EFFECT_LightBall01.bmp 黒 Inferference.wav;_
+@戦闘アニメ_魔法集中準備 白 -.wav;ＭＡＰフラッシュ Explode(Nuclear).wav
+フォーチューン・アーク・ＥＸ(命中), オーラ上昇 白 Inori.wav
+
+ジェイド＝カーティス
+ミスティック・ケージ(準備), 「消えなさい！」;発光 白 Flair.wav
+ミスティック・ケージ(攻撃), ＭＡＰオーラ 白;「ミスティック・ケージ！！」;音再生 Explode(Far).wav;1;White.bmp 480 480;Clear
+ミスティック・ケージ(命中), ダメージ 白 Inori.wav
+インディグネイション(準備), 発光 白 Flair.wav
+インディグネイション(攻撃), 魔法陣 白 Whiz.wav;_
+「天光満つる所我は在り、」;オーラ上昇 白 Gunpod.wav;_
+「天光満つる所我は在り、.黄泉の門開く所に汝在り……」;粒子集中 白;3;粒子集中 白;粒子集中 白;_
+「天光満つる所我は在り、.黄泉の門開く所に汝在り……出でよ、神の雷！」;@戦闘アニメ_光柱命中 Charge(High).wav;_
+「これで終わりです！ インディグネイション！」;音再生 Explode(Far).wav;1;White.bmp 480 480;Clear
+インディグネイション(命中), @戦闘アニメ_大落雷攻撃 相手ユニットＩＤ
+
+アニス＝タトリン
+殺劇舞荒拳(準備), 発光 白 Flair.wav
+殺劇舞荒拳(攻撃), @戦闘アニメ_光噴出準備 桃 -.wav;振る武器突撃 -.bmp
+殺劇舞荒拳(命中), 乱打 Punch.wav;アッパー Punch.wav;強打 Punch.wav;「とどめぇっ！！」;@戦闘アニメ_振り下ろし攻撃;爆撃 Shock(low).wav
+殺劇舞荒拳(クリティカル), ;_
+@戦闘アニメ_急降下攻撃;@戦闘アニメ_急降下命中 橙 Punch.wav;_
+@戦闘アニメ_光噴出準備 橙 Charge(High).wav;「十六夜天舞！」;_
+@戦闘アニメ_乱打命中 Bazooka.wav
+フィーバータイム(準備), 発光 白 Flair.wav
+フィーバータイム(攻撃), フラッシュ 白 Sword.wav;Sword.wav;Sword.wav;Sword.wav;Sword.wav
+フィーバータイム(命中), @戦闘アニメ_急降下攻撃;@戦闘アニメ_浮上アップ攻撃 青 Unit\TOFTA_AniseTatlinU.bmp;@戦闘アニメ_浮上アップ終了攻撃 青 Unit\TOFTA_AniseTatlinU.bmp Explode(Nuclear).wav
+
+ガイ＝セシル
+鳳凰天翔駆(準備), 発光 白 Flair.wav
+鳳凰天翔駆(攻撃), スーパーダイブ 橙 AntiAirMissile.wav
+鳳凰天翔駆(命中), スーパーダイブ 橙 Breath.wav;@戦闘アニメ_光噴出準備 橙 -.wav;「鳳凰天翔駆！」;スーパータックル 橙 -.wav 90;炎 赤 Breath.wav
+閃覇瞬連刃(準備), 発光 白 Flair.wav
+閃覇瞬連刃(攻撃), @戦闘アニメ_魔法集中準備 青 大 Reload(3).wav
+閃覇瞬連刃(命中), ;_
+@戦闘アニメ_実弾発射攻撃 Anime\Common\EFFECT_SonicBoom(White)01.bmp 40 AntiAirMissile.wav;_
+@戦闘アニメ_実弾発射攻撃 Anime\Common\EFFECT_SonicBoom(White)01.bmp 40 AntiAirMissile.wav;_
+@戦闘アニメ_実弾発射攻撃 Anime\Common\EFFECT_SonicBoom(White)01.bmp 40 AntiAirMissile.wav;_
+@戦闘アニメ_実弾発射攻撃 Anime\Common\EFFECT_SonicBoom(White)01.bmp 40 AntiAirMissile.wav;_
+クリティカル斬撃;粒子集中 青;大放電 青;_
+効果音 Reload(3).wav 3;光圧縮 白 -.wav;超斬撃 白 Slash.wav
+
+ナタリア＝Ｌ＝Ｋ＝ランバルディア
+アストラル・レイン(準備), 発光 白 Flair.wav
+アストラル・レイン(攻撃), 魔法放射 白 -.wav
+アストラル・レイン(命中), ;_
+魔法陣 白 Stab.wav;@戦闘アニメ_オーラ上昇準備 白 Charge(High).wav;_
+「降り注げ星光！　アストラル・レイン！！」;_
+@戦闘アニメ_拡散ビームライフル攻撃 白 Anime\Weapon\EFFECT_Bow00.bmp 32;_
+拡散ビーム 白 Beam.wav;中ビーム 白 Beam.wav
+ノーブル・ロアー(準備), 発光 白 Flair.wav
+ノーブル・ロアー(攻撃), @戦闘アニメ_魔法陣準備 黄 -.wav 背面
+ノーブル・ロアー(命中), ;_
+中ビーム 黄 Beam.wav ランダム方向;中ビーム 黄 Beam.wav ランダム方向;_
+中ビーム 黄 Beam.wav ランダム方向;中ビーム 黄 Beam.wav ランダム方向;_
+@戦闘アニメ_オーラ上昇準備 黄 Charge(High).wav;@戦闘アニメ_魔法陣準備 黄 -.wav;_
+「これで決めますわ……ノーブル・ロアー！！」;魔法集中 黄 -.wav;超ビーム 黄 Explode(Far).wav
+
+ヴァン＝グランツ
+星皇蒼破陣(準備), 発光 白 Flair.wav
+星皇蒼破陣(攻撃), @戦闘アニメ_オーラ上昇準備 青 Charge(High).wav
+星皇蒼破陣(命中), @戦闘アニメ_魔法陣準備 青 -.wav 背面;@戦闘アニメ_オーラ準備 青 MicroMissile.wav
+エンシェント・レクイエム(準備), 発光 白 Flair.wav
+エンシェント・レクイエム(攻撃), @戦闘アニメ_オーラ上昇準備 青 Charge(High).wav
+エンシェント・レクイエム(命中), 飛沫 白 MicroMissile.wav;飛沫 白 -.wav;_
+飛沫 白 -.wav;飛沫 白 -.wav;飛沫 白 -.wav;飛沫 白 -.wav;_
+「さらばだ、エンシェント・レクイエム！」;光圧縮 白 -.wav;魔法放射 白 Inori.wav
+
+鮮血のアッシュ
+絞牙鳴衝斬(準備), 発光 白 Flair.wav
+絞牙鳴衝斬(攻撃), @戦闘アニメ_オーラ上昇準備 青 Charge(High).wav
+絞牙鳴衝斬(命中), @戦闘アニメ_魔法陣準備 青 -.wav 背面;@戦闘アニメ_オーラ準備 青 MicroMissile.wav
+
+魔弾のリグレット
+プリズムバレット(準備), 発光 白 Flair.wav
+プリズムバレット(攻撃), @戦闘アニメ_魔法陣準備 青 背面 BeamSaber.wav;@戦闘アニメ_オーラ上昇準備 青 FlyBy(High).wav
+プリズムバレット(命中), ;_
+連打 Gun.wav;@戦闘アニメ_なぎ払い攻撃;連打 Gun.wav;@戦闘アニメ_なぎ払い攻撃;_
+連打 Gun.wav;連続爆発 4 Gun.wav;_
+「プリズムバレット！」;@戦闘アニメ_ピストル準備;_
+「終わりだ！」;中ビーム 青 Explode(long).wav
+
+妖獣のアリエッタ
+イービルライト(準備), 発光 白 Flair.wav
+イービルライト(攻撃), @戦闘アニメ_オーラ上昇準備 桃;_
+「終わり！　イービルライト！！」;ＭＡＰビーム 桃 FlyBy(High).wav
+イービルライト(命中), -
+ビッグバン(準備), 発光 白 Flair.wav
+ビッグバン(攻撃), @戦闘アニメ_魔法集中準備 白 大 Interference.wav;_
+「倒れて、ビッグバン！」;ＭＡＰフラッシュ Explode(Nuclear).wav
+ビッグバン(命中), -
+ビッグバン(クリティカル), 発光 白 Explode.wav
+
+烈風のシンク
+疾風雷閃舞(準備), 発光 白 Flair.wav
+疾風雷閃舞(攻撃), @戦闘アニメ_光噴出準備 緑 -.wav;スーパータックル 緑
+疾風雷閃舞(命中), 打撃 Bazooka.wav;アッパー Bazooka.wav;強打 Bazooka.wav;_
+連打 Punch.wav;強打 Bazooka.wav;@戦闘アニメ_光噴出準備 緑 -.wav;_
+「これでとどめだーっ！！」;スーパータックル 緑 Bazooka.wav
+アカシック・トーメント(準備), 発光 白 Flair.wav
+アカシック・トーメント(攻撃), @戦闘アニメ_魔法陣準備 白;_
+「はぁぁぁぁぁぁ……っ！」;@戦闘アニメ_オーラ上昇準備 白 Charge(High).wav;_
+「アカシック・トーメント！！」;ＭＡＰオーラ 白 MicroMissile.wav
+アカシック・トーメント(命中), 飛沫 白 Inori.wav
+
+黒獅子ラルゴ
+紅蓮旋衝嵐(準備), 「本気で行くぞ！」;発光 白 Flair.wav
+紅蓮旋衝嵐(攻撃), @戦闘アニメ_魔法陣準備 赤 -.wav 背面;2;なぎ払い;2;斬撃
+紅蓮旋衝嵐(命中), 炎斬撃 Breath.wav;炎斬撃 二刀流 Breath.wav;「紅蓮旋衝嵐！」;@戦闘アニメ_振り上げ攻撃;炎 Breath.wav;超爆発 -.wav
+
+ネビリム
+ビッグバン(準備), 発光 白 Flair.wav
+ビッグバン(攻撃), @戦闘アニメ_魔法集中準備 白 大 Interference.wav;_
+「死ぬかもねぇ？」;ＭＡＰフラッシュ Explode(Nuclear).wav
+ビッグバン(命中), -
+ビッグバン(クリティカル), 発光 白 Explode.wav
+絞牙鳴衝斬(準備), 発光 白 Flair.wav
+絞牙鳴衝斬(攻撃), @戦闘アニメ_オーラ上昇準備 青 Charge(High).wav
+絞牙鳴衝斬(命中), @戦闘アニメ_魔法陣準備 青 -.wav 背面;@戦闘アニメ_オーラ準備 青 MicroMissile.wav
+イノセント・シャイン(準備), 発光 白 Flair.wav
+イノセント・シャイン(攻撃), 魔法集中 白 -.wav 相手ユニットＩＤ
+イノセント・シャイン(命中), オーラ上昇 白 Storm.wav;発光 白 -.wav;光噴出 白 MicroMissile.wav
+フォーチューン・アーク(準備), 発光 白 Flair.wav
+フォーチューン・アーク(攻撃), 急降下;_
+浮上アップ Anime\Common\EFFECT_LightBall01.bmp 黒 Hittyuu.wav;_
+浮上アップ終了 Anime\Common\EFFECT_LightBall01.bmp 黒 Inferference.wav
+フォーチューン・アーク(命中), オーラ上昇 白 Inori.wav
+ミスティック・ケージ(準備), 発光 白 Flair.wav
+ミスティック・ケージ(攻撃), ＭＡＰオーラ 白;音再生 Explode(Far).wav;1;White.bmp 480 480;Clear
+ミスティック・ケージ(命中), -
+インディグネイション(準備), 発光 白 Flair.wav
+インディグネイション(攻撃), 魔法陣 白 Whiz.wav;粒子集中 白;3;粒子集中 白;_
+粒子集中 白;光柱 Charge(High).wav;音再生 Thunder.wav;1;White.bmp 480 480;Clear
+インディグネイション(命中), @戦闘アニメ_大落雷攻撃 相手ユニットＩＤ
+エンド・オブ・フラグメント(準備), 発光 白 Flair.wav
+エンド・オブ・フラグメント(攻撃), 周囲回転 EFFECT_Shine(White)01.bmp 2 FlyBy(High).wav;拡散ビーム 白 Beam.wav
+エンド・オブ・フラグメント(命中), 中ビーム;２連中ビーム;２連中ビーム;中ビーム;_
+「エンド・オブ・フラグメント！！」;巨大ビーム 白 Explode(Nuclear).wav
+
+ローレライ教団導師イオン
+アカシック・トーメント(準備), 発光 白 Flair.wav
+アカシック・トーメント(攻撃), @戦闘アニメ_魔法陣準備 白;_
+@戦闘アニメ_オーラ上昇準備 白 Charge(High).wav;ＭＡＰオーラ 白 MicroMissile.wav
+アカシック・トーメント(命中), 飛沫 白 Inori.wav
+
+ＴＯＡ
+## 共通 ##
+# プロテクションはアニメシチュエーションが無いので暫定
+プロテクション(粋護陣), 魔法陣 青 BeamCoat.wav
+## ルーク・アッシュ ##
+カトラス, カトラス
+マイティセイバー, 剣
+ローレライの鍵, 銀剣
+ローレライ教団詠師剣, ソード
+ローレライ教団謡将剣, ソード
+双牙斬(攻撃), 振り下ろし;振り上げ
+双牙斬(命中), 振り下ろし;振り上げ Saber.wav
+崩襲脚(攻撃), ジャンプ
+崩襲脚(命中), 強打 Punch.wav
+穿衝破(攻撃), 振る武器突撃 -.bmp
+穿衝破(命中), ダメージ 白 Stab.wav;@戦闘アニメ_振り上げ攻撃;光噴出 白 Punch.wav;1;Punch.wav;1;Punch.wav
+烈破掌(攻撃), 振る武器突撃 -.bmp
+烈破掌(命中), 粒子集中 赤 -.wav;強打 Punch.wav
+襲爪雷斬(攻撃), 振り上げ
+襲爪雷斬(命中), @戦闘アニメ_落雷攻撃 相手ユニットＩＤ;@戦闘アニメ_振り下ろし攻撃;振り下ろし;飛沫 桃 Thunder.wav;放電 -.wav
+紅蓮襲撃(攻撃), スーパーキック 赤
+紅蓮襲撃(命中), スーパーキック 赤;大爆発
+烈震天衝(攻撃), 振る武器突撃 -.bmp
+烈震天衝(命中), ダメージ 白 Stab.wav;@戦闘アニメ_振り上げ攻撃;オーラ上昇 橙 Gunpod.wav;ダメージ -.wav;ダメージ -.wav;ダメージ -.wav
+閃光墜刃牙(攻撃), なぎ払い
+閃光墜刃牙(命中), なぎ払い Saber.wav;大刺突 Swing.wav;クリティカル斬撃
+守護方陣(攻撃), なぎ払い;@戦闘アニメ_光噴出準備 青 -.wav
+守護方陣(命中), 飛沫 青 Inori.wav
+魔王絶炎煌(攻撃), なぎ払い AntiAirMissile.wav
+魔王絶炎煌(命中), 光なぎ払い 赤 中 AntiAirMissile.wav;3;@戦闘アニメ_振り下ろし攻撃;光噴出 橙 Gunpod.wav
+飛燕瞬連斬(攻撃), 振る武器突撃 -.bmp
+飛燕瞬連斬(命中), 透明化 対象ユニットＩＤ;斬撃;3;透明化 対象ユニットＩＤ 解除;振り上げ;斬撃;横大斬撃
+翔破裂光閃(攻撃), なぎ払い
+翔破裂光閃(命中), 光なぎ払い 黄 中;@戦闘アニメ_なぎ払い攻撃 -.wav;@戦闘アニメ_刺突攻撃;拡散ビーム 黄 Slash.wav;中ビーム 黄 Slash(2).wav
+守護氷槍陣(攻撃), 振り下ろし;ＭＡＰ氷柱 Hittyuu.wav
+守護氷槍陣(命中), 飛沫 白 Glass.wav
+魔神拳(攻撃), 振り上げ;実弾発射 Anime\Bullet\EFFECT_GroundCutter(White)01.bmp Whiz.wav 遅
+魔神拳(命中), ダメージ 白 Punch.wav
+瞬迅剣(準備), -
+瞬迅剣(攻撃), 振る武器突撃 -.bmp
+瞬迅剣(命中), 刺突 -.wav;ダメージ Slash.wav
+雷神剣(準備), -
+雷神剣(攻撃), 振る武器突撃 -.bmp
+雷神剣(命中), ダメージ Slash.wav;@戦闘アニメ_落雷攻撃
+空破絶風撃(攻撃), 振る武器突撃 -.bmp AntiAirMissile.wav
+空破絶風撃(命中), 大刺突 Slash.wav
+岩斬滅砕陣(準備), -
+岩斬滅砕陣(攻撃), ジャンプ;音再生 Bazooka.wav
+岩斬滅砕陣(命中), ダメージ;ダメージ;ダメージ
+通牙連破斬(攻撃), 振る武器突撃 -.bmp
+通牙連破斬(命中), 粒子集中 赤 -.wav;強打 Punch.wav;振り下ろし;振り上げ Saber.wav
+牙連崩襲顎(攻撃), 振り下ろし;振り上げ
+牙連崩襲顎(命中), 振り下ろし;振り上げ;@戦闘アニメ_ジャンプ攻撃;強打 Punch.wav
+## ティア ##
+フォニム, 白兵武器
+フォニム(命中), 飛沫 黄 Inori.wav
+ピコハン(攻撃), 打ち下ろし Anime\DGoods\EFFECT_PicopicoHammer01.bmp 32 Bomb.wav
+ピコハン(命中), ダメージ UnitOn.wav
+ノクターナルライト(攻撃), なぎ払い
+ノクターナルライト(命中), 連突 Stab.wav
+セヴァードフェイト(攻撃), ジャンプ;斬撃
+セヴァードフェイト(命中), 光噴出 黄 Slash.wav
+バニシングソロゥ(攻撃), 斬撃;粒子集中 黄 Whiz.wav
+バニシングソロゥ(命中), 魔法放射 黄 Punch.wav
+インリィノクターン(準備), 召喚 Anime\Common\EFFECT_StonePiller04.bmp Whiz.wav
+インリィノクターン(攻撃), なぎ払い;ベアリング Glass.wav
+インリィノクターン(命中), ベアリング FastGun.wav
+シアリングソロゥ(準備), 炎 Fire.wav
+シアリングソロゥ(攻撃), 実弾発射 Anime\Fire\EFFECT_FlameThrowerHit(Red)06.bmp 40 速 Bazooka.wav
+シアリングソロゥ(命中), 炎 Bearth.wav
+エクレールラルム(攻撃), @戦闘アニメ_発光準備 白 Whiz.wav
+エクレールラルム(命中), 魔法陣 白 -.wav 背面;光噴出 黄 MicroMissile.wav
+ホーリーランス(攻撃), @戦闘アニメ_発光準備 白 Whiz.wav
+ホーリーランス(命中), 魔法陣 白 FlyBy(High).wav 背面;魔法集中 黄 -.wav;中ビーム 白 Glass.wav ランダム方向;中ビーム 白 Glass.wav ランダム方向;中ビーム 白 Glass.wav ランダム方向;中ビーム 白 Glass.wav ランダム方向
+フラムルージュ(攻撃), @戦闘アニメ_発光準備 白 Whiz.wav
+フラムルージュ(命中), 魔法放射 赤;炎 Breath.wav
+ナイトメア(攻撃), @戦闘アニメ_発光準備 白 Whiz.wav
+ナイトメア(命中), オーラ上昇 黒 Bubble.wav
+ジャッジメント(攻撃), @戦闘アニメ_発光準備 白 Whiz.wav;ＭＡＰ発光 白
+ジャッジメント(命中), 大爆発
+グランドクロス(攻撃), @戦闘アニメ_発光準備 白 Whiz.wav
+グランドクロス(命中), ダメージ 黄 Slash.wav;超斬撃 黄 Inori.wav
+ファーストエイド(使用), @戦闘アニメ_発光準備 白 Whiz.wav
+ファーストエイド(発動), 回復魔法
+ハートレスサークル(使用), @戦闘アニメ_発光準備 緑 Whiz.wav
+ハートレスサークル(発動), 魔法陣 緑 背面 Bubble.wav;オーラ上昇 緑 -.wav
+リザレクション(使用), @戦闘アニメ_発光準備 青 Whiz.wav
+リザレクション(発動), 魔法陣 青 背面 Charge(High).wav;光噴出 青 -.wav
+ホーリーソング(使用), @戦闘アニメ_発光準備 青 Whiz.wav;羽 Sharara.wav
+ホーリーソング(発動), オーラ上昇 青 Inori.wav
+阻止(フォースフィールド), バリア
+## ジェイド ##
+グレイブ, ナギナタ
+イフリート, 十字槍
+ペネトレイター, 蛇矛
+天雷槍(準備), -
+天雷槍(攻撃), 振り上げ
+天雷槍(命中), 斬撃;@戦闘アニメ_落雷攻撃
+瞬迅槍(準備), -
+瞬迅槍(攻撃), 振る武器突撃 -.bmp
+瞬迅槍(命中), 刺突;斬撃 -.wav
+エナジーブラスト(攻撃), @戦闘アニメ_発光準備 白 Whiz.wav;粒子集中 白 -.wav
+エナジーブラスト(命中), 発光 白 Explode.wav
+ロックブレイク(攻撃), @戦闘アニメ_発光準備 橙 Whiz.wav
+ロックブレイク(命中), 石柱 Gunpod.wav;ダメージ -.wav
+スプラッシュ(攻撃), @戦闘アニメ_発光準備 青 Whiz.wav
+スプラッシュ(命中), 津波 Splash.wav
+タービュランス(攻撃), @戦闘アニメ_発光準備 緑 Whiz.wav
+タービュランス(命中), 竜巻 緑 Storm.wav
+フレイムバースト(攻撃), @戦闘アニメ_発光準備 赤 Whiz.wav
+フレイムバースト(命中), 魔法集中 赤 -.wav;連続爆発 3;大爆発
+エクスプロード(攻撃), @戦闘アニメ_発光準備 赤
+エクスプロード(命中), 魔法集中 赤;オーラ 赤 Explode(Far).wav
+グランドダッシャー(攻撃), @戦闘アニメ_発光準備 橙 Whiz.wav;ゆらぎ投射 "Anime\Common\EFFECT_StonePiller0" 48 Earthquake.wav 発光
+グランドダッシャー(命中), ダメージ Crash.wav;ダメージ Crash.wav;ダメージ Crash.wav;ダメージ Crash.wav
+セイントバブル(攻撃), @戦闘アニメ_発光準備 青 Whiz.wav
+セイントバブル(命中), オーラ上昇 青 Bubble.wav;魔法集中 青 -.wav;3;飛沫 青 Splash.wav;飛沫 青 Splash.wav;飛沫 青 Splash.wav
+サンダーブレード(攻撃), @戦闘アニメ_発光準備 緑 Whiz.wav;魔法陣 緑 Whiz.wav 背面
+サンダーブレード(命中), @戦闘アニメ_斜め落ち共通 Anime\Hit\EFFECT_ThunderSlashHit01.bmp 40 Thunderbolt.wav;大放電 黄 Thunder.wav
+イグニートプリズン(攻撃), @戦闘アニメ_発光準備 赤 Whiz.wav;魔法陣 赤 Whiz.wav 背面
+イグニートプリズン(命中), ;_
+中ビーム 赤 Breath.wav ランダム方向;中ビーム 赤 Breath.wav ランダム方向;_
+中ビーム 赤 Breath.wav ランダム方向;魔法集中 赤 大 -.wav;超爆発
+アブソリュート(攻撃), @戦闘アニメ_発光準備 青 Whiz.wav
+アブソリュート(命中), 光噴出 白 -.wav;氷柱 Ice.wav;飛沫 白 Glass.wav
+プリズムソード(攻撃), @戦闘アニメ_発光準備 白 Whiz.wav;魔法陣 白 背面
+プリズムソード(命中), 光柱 Charge(High).wav;飛沫 白 Glass.wav
+メテオスォーム(攻撃), @戦闘アニメ_発光準備 白 Whiz.wav
+メテオスォーム(命中), @戦闘アニメ_斜め落ち共通 Anime\Bullet\EFFECT_Meteor01.bmp 40 Jet.wav;連続大爆発 4
+## アニス ##
+トクナガパンチ, 格闘
+臥龍撃(攻撃), アッパー
+臥龍撃(命中), アッパー Punch.wav
+双旋牙(攻撃), 振る武器突撃 -.bmp Drill.wav
+双旋牙(命中), 連打 Punch.wav
+流影打(攻撃), 連打
+流影打(命中), 打撃 Punch.wav;打撃 Punch.wav;打撃 Punch.wav;強打 Punch.wav
+昂龍礫破(準備), -
+昂龍礫破(攻撃), @戦闘アニメ_光噴出準備 橙 -.wav;@戦闘アニメ_スピン開始 橙
+昂龍礫破(命中), 連打 橙 Punch.wav;アッパー Punch.wav
+連涛雷光弾(攻撃), 振り下ろし
+連涛雷光弾(命中), 魔法集中 黄 -.wav;落雷 黄
+空破爆炎弾(攻撃), スーパータックル 赤 Explode.wav
+空破爆炎弾(命中), スーパータックル 赤 Explode.wav;連続大爆発 2
+爪連龍牙昇(攻撃), 振る武器突撃 -.bmp Drill.wav
+爪連龍牙昇(命中), 連打 Punch.wav;@戦闘アニメ_アッパー攻撃;アッパー Bazooka.wav
+爪竜烈涛打(攻撃), 振る武器突撃 -.bmp
+爪竜烈涛打(命中), 打撃 Punch.wav;打撃 Punch.wav;打撃 Punch.wav;@戦闘アニメ_振る武器突撃攻撃 -.bmp Drill.wav;連打 Punch.wav;強打 Bazooka.wav;ダメージ -.wav
+リミテッド(攻撃), @戦闘アニメ_発光準備 白 Whiz.wav;魔法陣 黄 -.wav 背面
+リミテッド(命中), @戦闘アニメ_打ち下ろし攻撃 Anime\Common\EFFECT_LightBall01.bmp 32 Beam.wav 相手ユニットＩＤ;飛沫 黄 Explode(small).wav
+ネガティブゲイト(攻撃), @戦闘アニメ_発光準備 黒 Whiz.wav;魔法放射 黒 相手ユニットＩＤ
+ネガティブゲイト(命中), 大放電 黒 BeamSaber.wav
+ブラッディハウリング(攻撃), @戦闘アニメ_発光準備 黒 Whiz.wav;魔法放射 黒 相手ユニットＩＤ
+ブラッディハウリング(命中), 光噴出 黒 Roar.wav;オーラ上昇 黒 Breath.wav
+ミラクルハンマー(準備), -
+ミラクルハンマー(攻撃), @戦闘アニメ_発光準備 白 Whiz.wav
+ミラクルハンマー(命中), @戦闘アニメ_斜め落ち共通 Anime\DGoods\EFFECT_PicopicoHammer01.bmp 36 Bomb.wav;ダメージ Warship.wav
+## ガイ ##
+ブレード, 脇差
+カタナ, 日本刀
+宝剣ガルディオス, 胡蝶刀
+魔神剣(準備), -
+魔神剣(攻撃), なぎ払い;実弾発射 Anime\Bullet\EFFECT_GroundCutter(White)01.bmp Whiz.wav 遅
+魔神剣(命中), ダメージ 白 Punch.wav
+孤月閃(攻撃), 振り上げ;斬撃
+孤月閃(命中), 振り上げ -.wav;斬撃 Sword.wav;振り下ろし -.wav;斬撃 Sword.wav
+真空破斬(攻撃), Reload(3).wav
+真空破斬(命中), @戦闘アニメ_なぎ払い攻撃;連続なぎ払い
+虎牙破斬(攻撃), 振り上げ
+虎牙破斬(命中), 振り上げ;打撃 Punch.wav;@戦闘アニメ_振り下ろし攻撃;振り下ろし
+断空剣(準備), -
+断空剣(攻撃), @戦闘アニメ_スピン開始 緑
+断空剣(命中), クリティカル斬撃
+獅子戦吼(攻撃), 振る武器突撃 -.bmp
+獅子戦吼(命中), 強打 Punch.wav;「獅子戦吼！」;@戦闘アニメ_実弾発射攻撃 Anime\Common\EFFECT_SonicBoom(White)01.bmp 56 AntiAirMissile.wav;3;ダメージ 白 Crash.wav
+秋沙雨(攻撃), 乱突;バック転
+秋沙雨(命中), 乱突 Slash.wav;打撃 Punch.wav
+絶破十字衝(攻撃), 斬撃;なぎ払い
+絶破十字衝(命中), 連斬撃;光噴出 白 MicroMissile.wav
+魔神月詠華(攻撃), 振り上げ;斬撃
+魔神月詠華(命中), 振り上げ -.wav;斬撃 Sword.wav;振り下ろし -.wav;斬撃 Sword.wav;@戦闘アニメ_なぎ払い攻撃;ダメージ 白 Punch.wav
+虚空連衝刃(攻撃), 振り上げ
+虚空連衝刃(命中), 振り上げ;打撃 Punch.wav;振り下ろし;Reload(3).wav;1;@戦闘アニメ_なぎ払い攻撃;連続なぎ払い
+## ナタリア ##
+コンポジットボウ, 弓矢
+ソウルスティール, 弓矢
+エルヴンボウ, 弓矢
+ピアシスライン(攻撃), 弓矢 Bow.wav
+ピアシスライン(命中), 刺突 Saber.wav
+シュトルムエッジ(準備), 弓矢
+シュトルムエッジ(攻撃), 矢連射 Bow.wav
+シュトルムエッジ(命中), 連突 Stab.wav
+エリアルレイザー(攻撃), なぎ払い
+エリアルレイザー(命中), なぎ払い Saber.wav;@戦闘アニメ_弓矢準備;刺突 Saber.wav
+スターストローク(攻撃), @戦闘アニメ_弓矢準備;飛びかかり
+スターストローク(命中), 連突 Stab.wav;ダメージ -.wav
+スケアベイン(攻撃), @戦闘アニメ_発光準備 青 Whiz.wav
+スケアベイン(命中), -
+ヒール(使用), @戦闘アニメ_発光準備 白 Whiz.wav
+ヒール(発動), 回復魔法
+キュア(使用), @戦闘アニメ_発光準備 白 Whiz.wav
+キュア(発動), 粒子集中 白;回復魔法
+リカバー(使用), @戦闘アニメ_発光準備 白 Whiz.wav
+リカバー(発動), 回復魔法泡
+シャープネス(使用), @戦闘アニメ_発光準備 白 Whiz.wav
+シャープネス(発動), オーラ上昇 赤
+バリアー(使用), @戦闘アニメ_発光準備 白 Whiz.wav
+バリアー(発動), 結界 青
+## ヴァン ##
+光龍槍(準備), Reload(3).wav
+光龍槍(攻撃), 中ビーム 黄
+光龍槍(命中), 中ビーム 黄
+## リグレット ##
+譜銃, ピストル
+水平射撃(準備), ピストル
+水平射撃(攻撃), -
+水平射撃(命中), 連続爆発 4 Gun.wav;「喰らえっ！」;@戦闘アニメ_なぎ払い攻撃;銃弾 Gun.wav
+レイジレーザー(攻撃), ＭＡＰバスタービームライフル 青 Anime\Weapon\EFFECT_Pistol01.bmp 32 LaserGun.wav
+レイジレーザー(命中), 中ビーム 青
+## アリエッタ ##
+## シンク ##
+双撞掌底破(攻撃), 振る武器突撃 -.bmp
+双撞掌底破(命中), 強打 Punch.wav;打撃 Punch.wav
+臥龍空破(攻撃), @戦闘アニメ_スピン開始 緑
+臥龍空破(命中), 連打 Punch.wav
+## ラルゴ ##
+大鎌, 巨大鎌
+火竜爪, 炎斬撃
+地龍吼破(攻撃), 振り下ろし;@戦闘アニメ_光噴出準備 橙 Gunpod.wav
+地龍吼破(命中), ダメージ Shock(low).wav;ダメージ Shock(low).wav;ダメージ Shock(low).wav
+炎牙爆砕吼(攻撃), 打突
+炎牙爆砕吼(命中), 立ち固め BreakOff.wav 1 速;大爆発
+紫光雷牙閃(準備), オーラ上昇 桃 BeamSaber.wav;放電
+紫光雷牙閃(攻撃), なぎ払い;中ビーム 桃 Thunderbolt.wav
+紫光雷牙閃(命中), 中ビーム 桃 Thunderbolt.wav
+烈火衝閃(準備), オーラ上昇 赤 Breath.wav
+烈火衝閃(攻撃), なぎ払い;拡散ビーム 赤 AntiShipMissile.wav
+烈火衝閃(命中), ２連中ビーム 赤 Breath.wav;中ビーム 赤 Breath.wav
+## その他 ##
+タイムストップ(攻撃), @戦闘アニメ_発光準備 白 Whiz.wav;ＭＡＰフラッシュ
+タイムストップ(命中), -
+ブレス, 火炎放射 緑 AntiShipMissile.wav
+雷のブレス, 怪光線 Thunder.wav
+氷のブレス, 火炎放射 白 Storm.wav
+突撃, タックル
+回転突撃(攻撃), 振る武器突撃 -.bmp Swing.wav;Swing.wav;Swing.wav
+回転突撃(命中), スーパーダイブ
+咆哮(攻撃), 画像投射 Anime\Common\EFFECT_SoundWave01.bmp Howl.wav 1;ディレイ 2;ＭＡＰ落雷
+咆哮(命中), 落雷
+突進, スーパーダイブ
+衝撃波, 旋風 白 AntiAirMissile.wav
+羽根飛ばし(攻撃), 斬撃 二刀流
+羽根飛ばし(命中), 連突 白
+アーム(攻撃), 振る武器突撃 -.bmp
+アーム(命中), ダメージ
+ドリル, ドリル突撃
+ドリル(命中), ドリル
+ヘッドスライディング(攻撃), 振る武器突撃 -.bmp
+ヘッドスライディング(命中), 強打 Crash.wav;ダメージ -.wav
+暴れる(攻撃), 斬撃;振り下ろし;斬撃 二刀流
+暴れる(命中), 強打 Crash.wav;強打 Crash.wav;ダメージ Crash.wav
+チェンソーアーム, チェンソー突撃
+チェンソーアーム(命中), チェンソー
+ツインレーザー, ２連小ビーム 青
+爆撃(攻撃), 投下爆弾;ＭＡＰ爆発
+爆撃(命中), 連続大爆発 3
+バルカン, 重機関砲
+回転攻撃(攻撃), 白兵回転
+回転攻撃(命中), ダメージ Crash.wav;ダメージ Crash.wav;ダメージ Crash.wav
+レーザー, 中ビーム 青
+### アニスの人形 ###
+ピコハン(チャット)(攻撃), 回転投擲武器 Anime\Weapon\EFFECT_PicopicoHammer01.bmp 32
+ピコハン(チャット)(命中), ダメージ UnitOn.wav
+ディバインセイバー(準備), オーラ上昇 白 FlyBy(High).wav
+ディバインセイバー(攻撃), @戦闘アニメ_発光準備 白 EvilEye.wav
+ディバインセイバー(命中), 大放電 白;粒子集中 白 -.wav;落雷 白
+獅吼滅龍閃(攻撃), なぎ払い;実弾発射 Anime\Common\EFFECT_SonicBoom(Blue)01.bmp 56 AntiAirMissile.wav
+獅吼滅龍閃(命中), ダメージ 青 Shock(low).wav
+超ぱちき(攻撃), タックル
+超ぱちき(命中), 打撃
+剛掌破(攻撃), 振る武器突撃 -.bmp
+剛掌破(命中), ダメージ
+Ｘバスター, 超ビーム

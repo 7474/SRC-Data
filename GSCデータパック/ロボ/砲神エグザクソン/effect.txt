@@ -1,0 +1,24 @@
+
+エグザクソン
+ナックル, Swing.wav
+ナックル(命中), Punch.wav
+無限力キック, Swing.wav
+無限力キック(命中), Crash.wav
+エグザキャノン, AntiShipMissile.wav
+エグザキャノン(命中), Crash.wav
+フルバレルエグザキャノン(準備), Reload.wav
+フルバレルエグザキャノン, AntiShipMissile.wav
+フルバレルエグザキャノン(命中), Crash.wav
+対消滅弾, 10;AntiShipMissile.wav;Explode(Nuclear).wav
+反物質砲(準備), Reload.wav
+反物質砲, AntiShipMissile.wav
+反物質砲(命中), Explode(Nuclear).wav
+
+カスール
+破砕ユニット, Drill.wav
+破砕ユニット(命中), 4;Drill.wav;Crash.wav
+
+ダグノフ１
+主砲(準備), Reload.wav
+主砲, AntiShipMissile.wav
+主砲(命中), Crash.wav

@@ -1,0 +1,326 @@
+# 共通
+# ＯＶＡ
+# ＴＶ
+# コミックス
+# の順番に並んでいます
+
+#-------------------------------------------------------------------------------
+# 共通
+
+吸血姫美夕(怒り)
+美夕, PVM_Miyu(Angry).bmp
+美夕(怒り)
+美夕, PVM_Miyu(Angry).bmp
+
+吸血姫美夕(驚き)
+美夕, PVM_Miyu(Surprised).bmp
+美夕(驚き)
+美夕, PVM_Miyu(Surprised).bmp
+
+吸血姫美夕(悲しみ)
+美夕, PVM_Miyu(Sad).bmp
+美夕(悲しみ)
+美夕, PVM_Miyu(Sad).bmp
+
+吸血姫美夕(笑み)
+美夕, PVM_Miyu(Smile).bmp
+美夕(笑み)
+美夕, PVM_Miyu(Smile).bmp
+
+吸血姫美夕(叫び)
+美夕, PVM_Miyu(Shout).bmp
+美夕(叫び)
+美夕, PVM_Miyu(Shout).bmp
+
+吸血姫美夕(安堵)
+美夕, PVM_Miyu(Relief).bmp
+美夕(安堵)
+美夕, PVM_Miyu(Relief).bmp
+
+吸血姫美夕(通常)
+美夕, PVM_Miyu(N).bmp
+美夕(通常)
+美夕, PVM_Miyu(N).bmp
+
+
+# 以下、イベント用
+
+美夕(回想)
+美夕, PVM_MiyuE.bmp
+美夕(回想)(幼女)
+美夕, PVM_MiyuE(Little).bmp
+美夕(回想)(不安)
+美夕, PVM_MiyuE(Uneasy).bmp
+美夕(回想)(海１)
+美夕, PVM_MiyuE(Sea1).bmp
+美夕(回想)(海２)
+美夕, PVM_MiyuE(Sea2).bmp
+美夕(回想)(叫び１)
+美夕, PVM_MiyuE(Shout1).bmp
+美夕(回想)(叫び２)
+美夕, PVM_MiyuE(Shout2).bmp
+美夕(回想)(口)
+美夕, PVM_MiyuE(Mouth).bmp
+美夕(回想)(涙)
+美夕, PVM_MiyuE(Tear).bmp
+美夕(回想)(モノクロ)
+美夕, PVM_MiyuE(Mono).bmp
+
+# ここまでイベント用
+
+西洋神魔・ラヴァ(OVA版素顔)
+ラヴァ, PVM_LarvaeOVA(F).bmp
+西洋神魔・ラヴァ(OVA版素顔)(驚き)
+ラヴァ, PVM_LarvaeOVA(F)(Surprised).bmp
+
+西洋神魔・ラヴァの仮面
+仮面, PVM_Larvae'sMask.bmp
+
+
+神魔・死無(開眼)
+死無, PVM_Shiina(Eye).bmp
+
+# 目をギョロギョロさせている死無
+
+神魔の長
+神魔の長, PVM_ChiefShinma.bmp
+
+#-------------------------------------------------------------------------------
+# ＯＶＡ
+
+瀬一三子
+一三子, PVM_SeHimiko.bmp
+瀬一三子(怒り)
+一三子, PVM_SeHimiko(Angry).bmp
+瀬一三子(驚き)
+一三子, PVM_SeHimiko(Surprised).bmp
+瀬一三子(悲しみ)
+一三子, PVM_SeHimiko(Sad).bmp
+瀬一三子(サングラス)
+一三子, PVM_SeHimiko(SG).bmp
+# ＯＶＡにおける語り手
+
+瀬一三子(幼女)
+一三子, PVM_SeHimiko(Little).bmp
+# 鎌倉で過ごした少女時代の一三子。回想でしか出てこないのでモノクロ。
+
+
+# 第一話『妖の都』より
+
+都人(美夕)
+都人, PVM_Miyahito.bmp
+
+梁子(美夕)
+梁子, PVM_Lyoko.bmp
+
+女学生(美夕)
+女学生, PVM_CollegeStudent.bmp
+
+寝沢藍子
+藍子, PVM_Aiko.bmp
+寝沢藍子(覚醒)
+藍子, PVM_Aiko(Rise).bmp
+
+寝沢藍子の父
+藍子の父, PVM_Aiko'sFather.bmp
+
+寝沢藍子の母
+藍子の母, PVM_Aiko'sMother.bmp
+
+医師(美夕)
+医師, PVM_Doctor.bmp
+
+女生徒１(美夕)
+女生徒, PVM_SchoolMates1.bmp
+
+女生徒２(美夕)
+女生徒, PVM_SchoolMates2.bmp
+
+女生徒３(美夕)
+女生徒, PVM_SchoolMates3.bmp
+
+# 桂に告白してふられた女生徒。
+
+女生徒４(美夕)
+女生徒, PVM_SchoolMates4.bmp
+
+# 美夕に良く似た生徒。
+
+# 第二話『操の宴』より
+
+神魔・爛佳(人形)
+爛佳, PVM_Ranka(Puppet).bmp
+
+柚樹桂
+桂, PVM_YuzukiKei.bmp
+
+柚樹桂(人形)
+桂, PVM_YuzukiKei(Puppet).bmp
+
+柴(美夕)
+柴, PVM_Siba.bmp
+# 娘が学校で失踪し、謎の人形を目撃したと言う情報から一三子に依頼する。
+# ＣＶ＝上田敏也
+
+人形のスケッチ(美夕)
+スケッチ, PVM_Sketch(Puppet).bmp
+# 柴が一三子に渡した目撃情報のスケッチ。
+
+美術部の少女(美夕)
+美術部員, PVM_ArtClubMember.bmp
+# 奇妙な人形のスケッチを残した少女。
+
+# 第三話『脆き鎧』より
+
+鎧の写真
+写真, PVM_Picture(Armour).bmp
+警官(美夕)
+警官, PVM_Policeman.bmp
+
+# 第四話『凍る刻』より
+
+美夕の母
+美夕の母, PVM_Miyu'sMother.bmp
+美夕の母(悲しみ)
+美夕の母, PVM_Miyu'sMother(Grief).bmp
+美夕の父
+美夕の父, PVM_Miyu'sFather.bmp
+
+亜紀子(美夕)
+亜紀子, PVM_Akiko.bmp
+# 美夕が目覚める前の中学生でのクラスメイト。美夕の秘密に気付き
+# 接近を試みるが･･･
+# ＣＶ＝高田由美
+
+#-------------------------------------------------------------------------------
+# ＴＶ
+
+井上千里
+千里, PVM_InoueChisato.bmp
+
+# 美夕の親友
+
+青木久絵
+久絵, PVM_AokiHisae.bmp
+
+# 美夕の友達の一人
+
+鹿島由香利
+由香利, PVM_KashimaYukari.bmp
+
+# 美夕の友達の一人
+
+# 以下、神魔人間時シリーズ（？）
+
+神魔・梁(人間)
+梁, PVM_Ryou(H).bmp
+
+# 人間時の神魔・梁
+
+神魔・那海(人間)
+那海, PVM_Nami(H).bmp
+
+# 人間時の神魔・那海
+
+高梨真弓
+真弓, PVM_Ayu(H).bmp
+
+# 人間時の神魔・亜癒
+
+神魔・傀儡(人形)
+人形, PVM_Kairai(Doll).bmp
+
+# 人形時の神魔・傀儡
+
+井上時哉
+時哉, PVM_Hiyoku(H).bmp
+
+# 人間時の神魔・比翼
+
+神魔・嘴貪(人間)
+露天商, PVM_Shidon(H).bmp
+
+# 人間時の神魔・嘴貪
+
+# 以下、TV版ゲスト連中
+
+敏宏(美夕)
+敏宏, PVM_Toshihiro.bmp
+
+志津子(美夕)
+志津子, PVM_Shizuko.bmp
+
+水族館館長(美夕)
+館長, PVM_AquariumDirector.bmp
+
+谷口恭一
+谷口, PVM_YaguchiKyouiti.bmp
+
+谷口紀江
+紀江, PVM_YaguchiNorie.bmp
+
+君原霞
+霞, PVM_KimiharaKasumi.bmp
+
+藤村優希
+優希, PVM_FujimuraYuuki.bmp
+
+曽根璃莉
+璃莉, PVM_SoneRiri.bmp
+
+曽根浩志
+浩志, PVM_SoneHiroshi.bmp
+
+モル(美夕)
+モル, PVM_Mol.bmp
+
+# スペル適当です。
+
+村長(守護神魔)
+村長, PVM_Mayor.bmp
+
+里(守護神魔)
+里, PVM_Sato.bmp
+
+怪力男(守護神魔)
+怪力男, PVM_Superhuman.bmp
+
+神魔・鬼術師
+鬼術師, PVM_Kijutsushi.bmp
+
+白粉学生
+学生, PVM_PowderStudent.bmp
+
+#-------------------------------------------------------------------------------
+# 小説
+
+三嶋飛鳥
+飛鳥, PVM_MishimaAsuka.bmp
+# 美夕がねらっていた神魔。しかし、神魔を絵に封じ込める妖怪に魂を奪われていた。
+# 神魔達の魂を開放するために美夕と妖怪の対決へ。
+
+
+壬生洋介
+洋介, PVM_MibuYohsuke.bmp
+# 美夕の幼なじみ、香(コミックに登場)に似た少年。老舗の呉服屋の長男。
+
+石橋英輔
+英輔, PVM_IshibashiEisuke.bmp
+# 洋介の親友。たが、洋介に近づく人間を排除するために無意識のうちに獣の姿に変身していた
+# 神魔。
+
+田宮露香
+露香, PVM_TamiyaTsuyuka.bmp
+# 一家を何者かに殺害された過去を持つ少女。たが、事件の犯人は神魔であり、過ちを悔いていた
+# 神魔によって生命を与えられ生き長らえていた。
+
+水谷文江
+文江, PVM_MizutaniFumie.bmp
+# 全寮制の学園の美夕のルームメイト。美夕は友達の関係を続けようとしていたが、
+# 吸血事件に巻込まれる。その真相はラヴァの過去を知る神魔(ミラルカ)の復讐だった。
+
+#################### ダイアログ用 ####################
+
+吸血姫夕維
+夕維, PVY_Yui.bmp
+

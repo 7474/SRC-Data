@@ -1,0 +1,343 @@
+
+クレス＝アルベイン
+魔神剣, 2;Swing.wav;3;Beam.wav
+魔神剣(命中), Explode(Small).wav
+飛燕連脚(命中), 6;Punch(2).wav;3;Slash.wav
+襲爪雷斬(命中), Thunder.wav
+秋沙雨(命中), 0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;Sword.wav
+虎牙破斬(命中), 2;Saber.wav;Saber.wav
+柔招来, Charge.wav
+鳳凰天駆, 6;Fire.wav;Whiz.wav
+鳳凰天駆(命中), Explode(Far).wav
+守護方陣, Whiz.wav
+守護方陣(命中), MachineCannon.wav
+真空破斬(準備), Charge(high).wav
+真空破斬, Swing.wav
+真空破斬(命中), Crash.wav
+集気法, Sharara.wav
+獅子戦吼, Whiz.wav
+獅子戦吼(命中), 8;Punch(2).wav;2;Bazooka.wav
+剛招来, Charge.wav
+閃空裂破, Bazooka.wav
+閃空裂破(命中), FastGun.wav
+紅蓮剣, 3;Swing.wav;4;Fire.wav
+紅蓮剣(命中), Explode.wav
+虚空蒼破斬, 2;Swing.wav;3;BeamCoat.wav
+虚空蒼破斬(命中), Explode(Small).wav
+空間翔転移, Whiz.wav
+空間翔転移(命中), 2;Saber.wav;2;Saber.wav;2;Saber.wav
+次元斬, Whiz.wav
+次元斬(命中), 2;Swing.wav;Explode(Nuclear).wav
+猛虎連撃破(命中), 3;Saber.wav;3;Saber.wav;3;Saber.wav;3;Saber.wav;3;Saber.wav;3;Saber.wav;4;Saber.wav;Saber.wav
+魔神飛燕脚, 2;Swing.wav;3;Beam.wav
+魔神飛燕脚(命中), 6;Punch(2).wav;3;Slash.wav
+魔神双破斬, 2;Swing.wav;3;Beam.wav
+魔神双破斬(命中), 2;Saber.wav;Saber.wav
+魔神千裂破, 2;Swing.wav;3;Beam.wav
+魔神千裂破(命中), 0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;Sword.wav
+魔神閃空破, 2;Swing.wav;3;Beam.wav
+魔神閃空破(命中), FastGun.wav
+獅子飛燕脚, Whiz.wav
+獅子飛燕脚(命中), 6;Punch(2).wav;3;Slash.wav
+獅子吼破斬, Whiz.wav
+獅子吼破斬(命中), 2;Saber.wav;Saber.wav
+獅子千裂破, Whiz.wav
+獅子千裂破(命中), 0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;Sword.wav
+獅子閃空破, Whiz.wav
+獅子閃空破(命中), FastGun.wav
+襲爪飛燕脚, Thunder.wav
+襲爪飛燕脚(命中), 6;Punch(2).wav;3;Slash.wav
+襲爪雷斬破, Thunder.wav
+襲爪雷斬破(命中), 2;Saber.wav;Saber.wav
+襲爪千裂破, Thunder.wav
+襲爪千裂破(命中), 0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;Sword.wav
+襲爪閃空破, Thunder.wav
+襲爪閃空破(命中), FastGun.wav
+鳳凰天翔脚, 6;Fire.wav;Whiz.wav
+鳳凰天翔脚(命中), 6;Punch(2).wav;3;Slash.wav
+鳳凰翔破斬, 6;Fire.wav;Whiz.wav
+鳳凰翔破斬(命中), 2;Saber.wav;Saber.wav
+鳳凰千裂破, 6;Fire.wav;Whiz.wav
+鳳凰千裂破(命中), 0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;Sword.wav
+鳳凰天空破, 6;Fire.wav;Whiz.wav
+鳳凰天空破(命中), FastGun.wav
+時空蒼破斬, Whiz.wav
+時空蒼破斬(命中), Explode(Small).wav
+転移蒼破斬, Whiz.wav
+転移蒼破斬(命中), Explode(Small).wav
+冥空斬翔剣(準備), Flair.wav
+冥空斬翔剣(命中), Explode(Small).wav
+
+
+ミント＝アドネード
+ロッド, Swing.wav
+ロッド(命中), Punch.wav
+ユニコーンホーン, Swing.wav
+ユニコーンホーン(命中), Punch.wav
+ファーストエイド, Sharara.wav
+ピコハン, Swing.wav
+ピコハン(命中), Punch.wav
+チャージ, Charge.wav
+ディープミスト, Whiz.wav
+ディープミスト(クリティカル), PowerDown.wav
+ヒール, Sharara.wav
+アシッドレイン, Shower.wav
+アシッドレイン(クリティカル), PowerDown.wav
+アンチドート, Sharara.wav
+サイレンス, Whiz.wav
+サイレンス(命中), PowerDown.wav
+ナース, Sharara.wav
+ヒール, Sharara.wav
+シャープネス, Charge.wav
+リカバー, Sharara.wav
+ディスペル, Hittyuu.wav
+キュア, Sharara.wav
+ピコピコハンマー, Swing.wav
+ピコピコハンマー(命中), Punch(3).wav
+バリアー, BeamCoat.wav
+レイズデット, Sharara.wav
+リザレクション, Sharara.wav
+タイムストップ, Glass.wav
+タイムストップ(命中), Crash.wav
+
+
+チェスター＝バークライト
+紅蓮, Bow.wav
+紅蓮(命中), Fire.wav
+凍牙, Bow.wav
+凍牙(命中), Glass.wav
+轟天, Bow.wav
+轟天(命中), Thunder.wav
+衝破, Bow.wav
+衝破(命中), Bazooka.wav
+震天, Bow.wav
+震天(命中), FastGun.wav
+鷲羽, 5;Whiz.wav;1;Bow.wav;1;Bow.wav;1;Bow.wav
+鷲羽(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav
+疾風, 1;Bow.wav;1;Bow.wav;1;Bow.wav;1;Bow.wav;1;Bow.wav;1;Bow.wav;1;Bow.wav
+疾風(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav
+大牙(準備), Charge.wav
+大牙, Cannon.wav
+大牙(命中), Bazooka.wav
+屠龍, Charge(high).wav
+屠龍(命中), 5;Gun.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav
+
+
+アーチェ＝クライン
+ファイアボール, 5;Whiz.wav;2;Punch.wav;2;Punch.wav;2;Punch.wav
+ファイアボール(命中), Explode(Small).wav
+アイスニードル, Whiz.wav
+アイスニードル(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav
+ストーンブラスト, 5;Whiz.wav;MachineCannon.wav
+ライトニング, Whiz.wav
+ライトニング(命中), Thunder.wav
+ストーム, Storm.wav
+グレイブ, 5;Whiz.wav;Punch(3).wav
+アイストーネード, Whiz.wav
+アイストーネード(命中), Glass.wav
+イラプション, Whiz.wav
+イラプション(命中), Explode.wav
+トラクタービーム, Charge.wav
+トラクタービーム(命中), Crash.wav
+サンダーブレード, Whiz.wav
+サンダーブレード(命中), 5;Thunder.wav;Explode(Small).wav
+サイクロン, 5;Whiz.wav;8;Storm.wav;3;Slash.wav;4;Slash.wav;Slash.wav
+サイクロン(命中), Slash.wav
+レイ, 5;Whiz.wav;LaserGun.wav
+レイ(命中), Explode(Small).wav
+ファイアストーム, 5;Whiz.wav;Storm.wav
+ファイアストーム(命中), Fire.wav
+ロックマウンテン, 
+テンペスト, 5;Whiz.wav;8;Storm.wav;3;Slash.wav;4;Slash.wav;Slash.wav
+テンペスト(命中), Slash.wav
+メイルストローム, 5;Whiz.wav;Bubble.wav
+メイルストローム(命中), Crash.wav
+アースクェイク, 
+ゴッドブレス, 5;Whiz.wav;MultipleRocketLauncher.wav
+ゴッドブレス(命中), Bazooka.wav
+エクスプロード, Whiz.wav
+エクスプロード(命中), Explode(Nuclear).wav
+インデグニション, 5;Whiz.wav;5;LaserGun.wav
+インデグニション(命中), Thunder.wav
+タイダルウェーブ, Whiz.wav
+タイダルウェーブ(命中), Splash.wav
+ブラックホール, Whiz.wav
+ブラックホール(命中), Explode(Long).wav
+メテオスォーム, Whiz.wav
+メテオスォーム(命中), 3;Explode(Far).wav;3;Explode(Far).wav;3;Explode(Far).wav;3;Explode(Far).wav;Explode(Far).wav
+ビッグバン, Explode(Nuclear).wav
+
+
+クラース＝Ｆ＝レスター
+シルフ(解説), $(パイロット)は$(武器)を召還した。
+ウンディーネ(解説),$(パイロット)は$(武器)を召還した。
+ノーム(解説), $(パイロット)は$(武器)を召還した。
+イフリート(解説), $(パイロット)は$(武器)を召還した。
+マクスウェル(解説), $(パイロット)は$(武器)を召還した。
+ルナ(解説), $(パイロット)は$(武器)を召還した。
+シャドウ(解説), $(パイロット)は$(武器)を召還した。
+アスカ(解説), $(パイロット)は$(武器)を召還した。
+ヴォルト(解説), $(パイロット)は$(武器)を召還した。
+オリジン(解説), $(パイロット)は$(武器)を召還した。
+グレムリンレアー(解説), $(パイロット)は$(武器)を召還した。
+プルート(解説), $(パイロット)は$(武器)を召還した。
+カメレオン(解説), $(パイロット)は$(武器)を召還した。
+シルフ, Whiz.wav
+シルフ(命中), 2;Slash.wav;2;Slash.wav;2;Slash.wav
+ウンディーネ, 5;Whiz.wav;Slash(4).wav
+ノーム, MultipleRocketLauncher(Light).wav
+イフリート, Fire.wav
+イフリート(命中), 2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav
+マクスウェル(準備), Charge(long).wav
+マクスウェル, 2;Explode(Far).wav;2;Explode(Far).wav;2;Explode(Far).wav;2;Explode(Far).wav;2;Explode(Far).wav;Explode(Far).wav
+ルナ, 5;Whiz.wav;LaserGun.wav
+ルナ(命中), Explode(Small).wav
+シャドウ, Whiz.wav
+シャドウ(命中), Charge.wav
+アスカ, Charge(high).wav
+ヴォルト, Thunder.wav
+オリジン, Whiz.wav
+オリジン(命中), 2;Saber.wav;Saber.wav
+グレムリンレアー, Whiz.wav
+グレムリンレアー(命中), Combo.wav
+プルート, Fire.wav
+プルート(命中), 3;Explode(Far).wav;3;Explode(Far).wav;3;Explode(Far).wav;3;Explode(Far).wav;Explode(Far).wav
+カメレオン, Whiz.wav
+カメレオン(命中), Fold.wav
+
+
+藤林すず
+忍刀血桜, Swing.wav
+忍刀血桜(命中), Slash.wav
+飯綱落とし, Whiz.wav
+飯綱落とし(命中), Slash.wav
+曼珠沙華, 2;Swing.wav;2;Swing.wav;2;Swing.wav
+曼珠沙華(命中), Explode(Small).wav
+雷電, Bow.wav
+雷電(命中), Thunder.wav
+鎌鼬(命中), 0.5;Slash.wav;0.5;Slash.wav;0.5;Slash.wav;0.5;Slash.wav;0.5;Slash.wav;0.5;Slash.wav;0.5;Slash.wav;0.5;Slash.wav;Slash.wav
+五月雨, 2;Saber.wav;2;Saber.wav;2;Saber.wav;2;Saber.wav
+児雷也, Whiz.wav
+児雷也(命中), Breath.wav
+
+
+魔人ダオス
+テトラスペル, Whiz.wav
+テトラスペル(命中), 2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav
+テトラアサルト, Combo.wav
+テトラアサルト(命中), Crash.wav
+ダオスレーザー, 10;Charge(2).wav;MultipleRocketLauncher(Light).wav
+ダオスコレダー(準備), Charge(2).wav
+ダオスコレダー, Explode(Nuclear).wav
+ダオスアーム, Crash.wav
+ケイオス, 2;Cannon.wav;2;Cannon.wav;2;Cannon.wav;2;Cannon.wav
+ケイオス(命中), Explode(Small).wav
+サーキュラー, Whiz.wav
+サーキュラー(命中), 2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav
+ダオスバリアー, BeamCoat.wav
+光槍, BeamSaber.wav
+
+
+古代神オーディン(ＴＯＰ)
+グーングニル, Swing.wav
+グーングニル(命中), Slash.wav
+ゴッドブレス, 5;Whiz.wav;MultipleRocketLauncher.wav
+ゴッドブレス(命中), Bazooka.wav
+インデグニション, 5;Whiz.wav;5;LaserGun.wav
+インデグニション(命中), Thunder.wav
+
+
+風の精霊シルフ(ＴＯＰ)
+カマイタチ, Whiz.wav
+カマイタチ(命中), Slash.wav
+ストーム, Storm.wav
+
+
+ブルー＆レッドシルフ(ＴＯＰ)
+カマイタチ, Whiz.wav
+カマイタチ(命中), Slash.wav
+ストーム, Storm.wav
+
+
+地の精霊ノーム(ＴＯＰ)
+核ミサイル？, MultipleRocketLauncher(Light).wav
+
+
+水の精霊ウンディーネ(ＴＯＰ)
+アイスニードル, Whiz.wav
+アイスニードル(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav
+アイストーネード, Whiz.wav
+アイストーネード(命中), Glass.wav
+ヒール, Sharara.wav
+
+
+火の精霊イフリート(ＴＯＰ)
+ファイアボール, 5;Whiz.wav;2;Punch.wav;2;Punch.wav;2;Punch.wav
+ファイアボール(命中), Explode(Small).wav
+フレイムアッパー, Fire.wav
+フレイムアッパー(命中), Punch.wav
+フレイムウェイブ, Fire.wav
+
+
+雷の精霊ヴォルト(ＴＯＰ)
+電撃, Thunder.wav
+サンダーブレード, Whiz.wav
+サンダーブレード(命中), 5;Thunder.wav;Explode(Small).wav
+
+
+元素の精霊マクスウェル(ＴＯＰ)
+バリアークラッシュ, Charge.wav
+バリアークラッシュ(命中), Crash.wav
+サンダーブレード, Whiz.wav
+サンダーブレード(命中), 5;Thunder.wav;Explode(Small).wav
+モレキュラーアタック, Charge.wav
+モレキュラーアタック(命中), Crash.wav
+
+
+根源の精霊オリジン(ＴＯＰ)
+二段斬り(命中), 2;Saber.wav;Saber.wav
+カラップス, Thunder.wav
+
+
+魔界の王プルート(ＴＯＰ)
+阻止(魔界の炎), Fire.wav
+魔界の炎, Fire.wav
+亡者の手, Whiz.wav
+亡者の手(命中), Punch(3).wav
+ブラックホール, Whiz.wav
+ブラックホール(命中), Explode(Long).wav
+ヘルファイア, Fire.wav
+
+
+剣の守護者フェンビースト
+アイシクル, Whiz.wav
+アイシクル(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav
+ビーストコンボ, Combo.wav
+ビーストコンボ(命中), Crash.wav
+フリージングダスト, 5;Whiz.wav;Storm.wav
+フリージングダスト(命中), Glass.wav
+
+
+剣の守護者フラムベルク
+フランヴェルジュ, Swing.wav
+フランヴェルジュ(命中), Slash.wav
+ファイアストーム, 5;Whiz.wav;Storm.wav
+ファイアストーム(命中), Fire.wav
+
+
+ダオスの配下デミテル
+ヘルジェム, Swing.wav
+ヘルジェム(命中), Explode(Small).wav
+ファイアビュート, 2;Whip.wav;Fire.wav
+フレイムダッシャー, Fire.wav
+サモンデーモン, 5;Whiz.wav;4;BeamSaber.wav;1;BeamShot.wav
+サモンデーモン(命中), Crash.wav
+
+
+ダオスの配下ジャミル
+翼, Bow.wav
+翼(命中), Explode(Small).wav
+グレイブ, 5;Whiz.wav;Punch(3).wav
+サモンデーモン, 5;Whiz.wav;4;BeamSaber.wav;1;BeamShot.wav
+サモンデーモン(命中), Crash.wav
+

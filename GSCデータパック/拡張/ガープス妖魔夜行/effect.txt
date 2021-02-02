@@ -1,0 +1,66 @@
+妖怪 
+激流, Storm.wav
+雷撃, Thunder.wav
+激風, Whiz.wav
+つむじ風, Storm.wav
+風斬, Whiz.wav
+風斬(命中), Saber.wav
+鞭の手, Swing.wav
+鞭の手(命中), Whip.wav
+葉刃, Whiz.wav
+葉刃(命中), Saber.wav
+蔦縛り, MultipleRocketLauncher.wav
+蔦縛り(クリティカル), 2;Swing.wav;2;Swing.wav;Reload.wav
+地斬波, GunPod.wav
+地斬波(命中), Shock(Low).wav
+妖刀村正, Swing.wav
+妖刀村正(命中), Slash.wav
+烈風斬, Whiz.wav
+烈風斬(命中), Saber.wav
+柔道(命中), Shock(Low).wav
+切断糸, Bow.wav
+絡みつき, Bow.wav
+針飛ばし(命中), Stab.wav
+乱れ髪(命中), 1;Slash.wav;1;Slash.wav;Slash.wav 
+髪縛り(クリティカル), 2;Swing.wav;2;Swing.wav;Sword.wav
+吸血(命中), Stab.wav
+バリア貫通(つむじ風), Glass.wav 
+バリア貫通(大地変形), Explode(Small).wav 
+攻撃無効化(つむじ風), Storm.wav
+攻撃無効化(大地変形), 3;GunPod.wav;Shock(Low).wav
+攻撃無効化(水使い), Splash.wav
+バリア貫通(水使い), 3;Splash.wav;Slash.wav
+閃光, Glass.wav;1;White.bmp 480 480
+光角槍, Beam.wav
+角(命中), Stab.wav
+激風(準備), Wind.wav
+激風, Storm.wav
+激風(命中), Storm.wav
+羽隠れ, Applause.wav
+#羽隠れ(命中), Applause.wav
+石つぶて, MachineCannon.wav
+石つぶて(命中), Combo.wav
+マリオネットⅠ, 1;Bow.wav;1;Bow.wav;Bow.wav
+マリオネットⅠ(クリティカル), PiyoPiyo.wav
+マリオネットⅠ(クリティカル), Stairs(Run).wav
+マリオネットⅡ, 1;Bow.wav;1;Bow.wav;Bow.wav
+マリオネットⅡ(クリティカル), PiyoPiyo.wav
+マリオネットⅡ(クリティカル), Stairs(Run).wav
+絡みつき(クリティカル), 2;Swing.wav;2;Swing.wav;Sword.wav
+破壊音波, 2;BeamCoat.wav;Storm.wav
+破壊音波(命中), Shock(Low).wav
+悲鳴, 1;Drill.wav;Hittyuu.wav
+悲鳴(命中), Shock(Low).wav
+歌声, Callsign.wav
+歌声(命中), Shock(Low).wav
+歌声(ＭＡＰ), 1;Callsign.wav;1;Callsign.wav
+歌声(ＭＡＰ)(命中), Shock(Low).wav
+冷気, Hide.wav
+冷気(クリティカル), Glass.wav
+尻尾, Engine.wav
+尻尾(命中), Crash.wav
+
+
+
+
+

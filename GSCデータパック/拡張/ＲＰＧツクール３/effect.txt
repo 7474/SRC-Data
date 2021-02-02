@@ -1,0 +1,78 @@
+################################ 解説 ################################
+
+ＲＰＧツクール３
+果汁１００％(解説), $(ユニット)は果汁１００％を取り出した！
+青ジル１００％(解説), $(ユニット)は青ジル１００％を唱えた！
+カチカチやま(解説), $(ユニット)はカチカチやまを投げた！
+ながれ星(解説), $(ユニット)はながれ星を呼び寄せた！
+あやしい花粉(解説), $(ユニット)はあやしい花粉を放った！
+ゆうき１００倍(解説), $(ユニット)はゆうき１００倍を唱えた！
+オコッタデスヨ(解説), $(ユニット)はオコッタデスヨをした！
+ヤルデスヨ(解説), $(ユニット)はヤルデスヨをした！
+ブッチ～ン！(解説), $(ユニット)はブッチ～ン！を投げた！
+ガッチ～ン！(解説), $(ユニット)はガッチ～ン！を放った！
+ゲンキダスデスヨ(解説), $(ユニット)はゲンキダスデスヨを踊った！
+モットダスデスヨ(解説), $(ユニット)はモットダスデスヨを踊った！
+ドクドクナオ～ル(解説), $(ユニット)はドクドクナオ～ルを踊った！
+オキテクダサイ！(解説), $(ユニット)はオキテクダサイ！を踊った！
+モシモ～シ？(解説), $(ユニット)はモシモ～シ？を吹いた！
+ネンネンネンネン(解説), $(ユニット)はネンネンネンネンをした！
+ダルダルダル～♪(解説), $(ユニット)はダルダルダル～♪を歌った！
+ランラランララン(解説), $(ユニット)はランラランラランを歌った！
+ネコだまし(解説), $(ユニット)はネコだましを放った！
+ネコまっしぐら！(解説), $(ユニット)はネコまっしぐら！を放った！
+マタタビ～(解説), $(ユニット)はマタタビ～を吐き出した！
+ド～ン(解説), $(ユニット)はド～ンを唱えた！
+ドド～ン！(解説), $(ユニット)はドド～ン！を唱えた！
+ドッゴ～ン！！(解説), $(ユニット)はドッゴ～ン！！を唱えた！
+ススーヤ(解説), $(ユニット)はススーヤを放った！
+
+
+################################ ＳＥ ################################
+
+ＲＰＧツクール３
+木のこん棒, Swing.wav
+鉄のこん棒, Swing.wav
+伝説のこん棒, 3;Swing.wav;Swing.wav
+最後なこん棒, 3;Swing.wav;Swing.wav
+伝説のこん棒<追加攻撃>, Swing.wav
+あやしい花粉, Whiz.wav
+あやしい花粉(クリティカル), 3;Bubble.wav;3;Bubble.wav;Bubble.wav
+カチカチやま, 3;Swing.wav;Missile.wav
+カチカチやま(命中), Fire.wav
+ながれ星, Bomb.wav
+ながれ星(命中), Glass.wav
+ネンネンネンネン, 「ネンネンネンネン」;Choras.wav
+ネンネンネンネン(クリティカル), 3;Bubble.wav;3;Bubble.wav;Bubble.wav
+ランラランララン, 「ランラランララン」;4;Slap(2).wav;4;Slap(2).wav;Slap(2).wav
+ランラランララン(クリティカル), Bubble.wav
+ダルダルダル～♪, 「ダルダルダル～♪」;4;Slap(2).wav;4;Slap(2).wav;Slap(2).wav
+吹き矢, Bow.wav
+オコッタデスヨ, 「オコッタデスヨ」;Car(Pass).wav
+オコッタデスヨ(命中), Saber.wav
+ヤルデスヨ, 「ヤルデスヨ」;3;Whiz.wav;Whiz.wav
+ヤルデスヨ(命中), 3;Saber.wav;Saber.wav
+ブッチ～ン！, 「ブッチ～ン！」;Swing.wav
+ブッチ～ン！(命中), 5;Bomb.wav;Crash.wav
+ガッチ～ン！, 「ガッチ～ン！」;Swing.wav
+ガッチ～ン！(命中), 5;Bomb.wav;Crash.wav
+ゲンキダスデスヨ, 「ゲンキダスデスヨ」;5;Swing.wav;Sharara.wav
+モットダスデスヨ, 「モットダスデスヨ」;5;Swing.wav;Sharara.wav
+ドクドクナオ～ル, 「ドクドクナオ～ル」;5;Swing.wav;4;Flash.wav;4;Flash.wav;Flash.wav
+オキテクダサイ！, 「オキテクダサイ！」;5;Swing.wav;Sharara.wav
+ネコだまし, Glass.wav
+ネコだまし(クリティカル), Bubble.wav
+アイアンクロー, 2;Slash(4).wav;5;Slash(4).wav;Swing.wav
+乱舞の爪, 2;Slash(4).wav;5;Slash(4).wav;2;Swing.wav;2;Swing.wav;2;Swing.wav;Swing.wav
+乱舞の爪(命中), 2;Saber.wav;2;Saber.wav;2;Saber.wav;Saber.wav
+必殺の爪, 2;Slash(4).wav;5;Slash(4).wav;Swing.wav
+ネコまっしぐら！, Cat.wav
+ネコまっしぐら！(命中), Saber.wav
+ススーヤ, -.wav
+ススーヤ(クリティカル), 3;Bubble.wav;3;Bubble.wav;Bubble.wav
+ドド～ン！, Cannon.wav
+ドッゴ～ン！！, Cannon.wav
+四本の腕, 1;Swing.wav;1;Swing.wav;Swing.wav
+四本の腕(命中), 1;BreakOff.wav;1;BreakOff.wav;BreakOff.wav
+総攻撃, 1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;Swing.wav
+総攻撃(命中), 1;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;Saber.wav

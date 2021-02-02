@@ -1,0 +1,193 @@
+# ローカル戦闘アニメです。
+#
+# SPLK_点滅
+# SPLK_フラッシュ
+# SPLK_ガン
+# SPLK_爆弾
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_SPLK_点滅命中:
+Local i
+Local C_X = WX(相手ユニットＩＤ)
+LOcal C_Y = WY(相手ユニットＩＤ)
+Local BMP_FILE = _GetBMPName(相手ユニットＩＤ)
+Local BMP_FILE2 = _GetTileName(相手ユニットＩＤ,1)
+
+PlaySound SPLK_Miss.wav
+
+For i = 1 to 5
+	PaintPicture BMP_FILE2 C_X C_Y 32 32
+	Refresh
+	Wait 2
+	PaintPicture BMP_FILE C_X C_Y 32 32 透過
+	Refresh
+	Wait 2
+Next
+ClearPicture
+Refresh
+
+Return
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+
+戦闘アニメ_SPLK_フラッシュ攻撃:
+
+Local i j
+Local A2
+Local ST_P
+Local Y_F
+Local G_S
+
+Set G_S 48
+  Set ST_P (0 - G_S)
+  Set Y_F 7
+
+
+set j 1
+
+Wait Start
+For i = 0 To 19
+  ClearPicture
+  PaintPicture ("Hit\EFFECT_StrikeHit(Red)0" & j & ".bmp") - (ST_P + (Y_F * i)) G_S G_S 透過
+  Incr j 1
+	  If j > 3 Then
+		  set j 1
+	  Endif
+  Refresh
+  Wait Until (i * 0.7)
+Next
+Return "Keep"
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+
+戦闘アニメ_SPLK_ガン攻撃:
+Local i j
+Local C_X = WX(対象ユニットＩＤ)
+LOcal C_Y = WY(対象ユニットＩＤ)
+Local BMP_FILE = _GetBMPName(対象ユニットＩＤ)
+Local BMP_FILE2 = _GetTileName(対象ユニットＩＤ,1)
+
+
+
+
+For J = 1 to 2
+PlaySound MachineGun(2).wav
+Wait Reset
+	For i = 1 to 4
+		ClearPicture
+	    PaintPicture ("ShootAnime\EFFECT_ChainGunShot(Orange)0" & i & ".bmp") _
+	                 (C_X - 16) (C_Y - 16) 64 64 透過
+	    PaintPicture Weapon\EFFECT_LaserMachineGun01.bmp (C_X + Random(4) - 2) C_Y 32 32 透過
+		Refresh
+		Wait Until (0.8 * i)
+	Next
+Next
+
+For J = 1 to 2
+PlaySound MachineGun(2).wav
+Wait Reset
+	For i = 1 to 4
+		ClearPicture
+		PaintPicture BMP_FILE2 C_X C_Y 32 32
+	    PaintPicture BMP_FILE C_X C_Y 32 32 左右反転 透過
+	    PaintPicture ("ShootAnime\EFFECT_ChainGunShot(Orange)0" & i & ".bmp") _
+	                 (C_X - 16) (C_Y - 16) 64 64 左右反転 透過
+	    PaintPicture Weapon\EFFECT_LaserMachineGun01.bmp (C_X + Random(4) - 2) C_Y 32 32 透過 左右反転
+		Refresh
+		Wait Until (0.8 * i)
+	Next
+Next
+
+Return "Keep"
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+
+戦闘アニメ_SPLK_爆弾攻撃:
+
+Local UID = _GetName(対象ユニットＩＤ)
+_CenteringCheck UID
+
+Local posX posY
+Local ANG B_ANG
+Local DST
+Local i
+
+Local UID2 = _GetName(相手ユニットＩＤ)
+
+
+Local BMP_FILE = _GetBMPName(対象ユニットＩＤ)
+Local BMP_FILE2 = _GetTileName(対象ユニットＩＤ,1)
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+
+Local DRCT DRCT2
+Local W_T WC_X WC_Y
+
+  Set posX ((X(UID) - _Get_X(UID2)) * 32)
+  Set posY ((Y(UID) - _Get_Y(UID2)) * 32)
+  Set DST (Abs(X(UID) - _Get_X(UID2)) _
+         + Abs(Y(UID) - _Get_Y(UID2)))
+
+If (X(UID) < _Get_X(UID2)) Then
+	Set DRCT 左右反転
+	Set DRCT2 ""
+Else
+	Set DRCT ""
+	Set DRCT2 左右反転
+Endif
+
+Set DST (3 * DST)
+Set W_T 0.5
+
+
+
+Wait Reset
+
+
+For i = 1 To (DST + 1)
+    ClearPicture
+    PaintPicture BMP_FILE2 C_X C_Y 32 32
+      PaintPicture BMP_FILE _
+    (C_X - (posX / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
+    32 32 透過 DRCT
+    Refresh
+  Wait Until (W_T * i)
+Next
+
+Wait Reset
+PlaySound Hide.wav
+    PaintPicture BMP_FILE2 C_X C_Y 32 32
+    PaintPicture BMP_FILE (C_X - posX) (C_Y - posY) 32 32 透過 DRCT
+    PaintPicture Weapon\EFFECT_Bomb01.bmp (C_X - posX) (C_Y - posY) 32 32 透過
+Refresh
+Wait 5
+Wait Reset
+PlaySound Hide.wav
+For i = 1 To (DST + 1)
+    ClearPicture
+    PaintPicture BMP_FILE2 C_X C_Y 32 32
+    PaintPicture BMP_FILE _
+    (C_X - (posX / (DST + 2)) * (DST - i)) (C_Y - (posY / (DST + 2)) * (DST - i)) _
+    32 32 透過 DRCT2
+    PaintPicture Weapon\EFFECT_Bomb01.bmp (C_X - posX) (C_Y - posY) 32 32 透過
+    Refresh
+  Wait Until (W_T * i)
+Next
+
+ClearPicture
+Refresh
+
+
+Return
+
+
+
+

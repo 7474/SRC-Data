@@ -1,0 +1,605 @@
+
+
+人間
+変身音叉・音角(響鬼)(発動), -
+変身音叉・音角(響鬼戦国)(発動), -
+変身音叉・音角(京介)(発動), -
+変身音叉・音角(弾鬼)(発動), -
+#
+変身鬼笛・音笛(威吹鬼)(発動), -
+変身鬼笛・音笛(勝鬼)(発動), -
+#
+変身鬼弦・音錠(轟鬼)(発動), -
+変身鬼弦・音錠(戸田山)(発動), -
+変身鬼弦・音枷(斬鬼)(発動), -
+変身鬼弦・音枷(斬鬼真弦)(発動), -
+変身鬼弦・音錠(朱鬼)(発動), -
+変身鬼弦・音枷(裁鬼)(発動), -
+#
+変身音叉・音角(歌舞鬼)(発動), -
+変身音叉・音角(凍鬼)(発動), -
+変身音叉・音角(煌鬼)(発動), -
+変身音叉・音角(西鬼)(発動), -
+変身音叉・音角(羽撃鬼)(発動), -
+#
+音式神(準備), -
+音式神(攻撃)(対空中), 実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅;実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅;実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対地上), 実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅;実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅;実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対地上), 実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅;実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅;実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対地上), 実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅;実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅;実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対地上), 実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対地上), 実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対地上), 実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対水中), 実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対水中), 実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対水中), 実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対水中), 実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅;実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅;実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅;実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅;実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅;実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅;実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅;実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅;実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅
+#音式神(攻撃), 実弾発射 RHK_AsagiwashiU.bmp 32 Saber.wav 遅
+#音式神(攻撃), 実弾発射 RHK_KiakashishiU.bmp 32 Saber.wav 遅
+#音式神(攻撃), 実弾発射 RHK_KoganeOkamiU.bmp 32 Saber.wav 遅
+音式神(命中), ダメージ Punch.wav;ダメージ Punch.wav;ダメージ Punch.wav
+#
+鳴刀音叉剣(準備), -
+鳴刀音叉剣(攻撃), 斬撃
+鳴刀音叉剣(命中), 斬撃
+音撃棒・烈火(準備), 振る武器 EFFECT_RHK_Rekka.bmp 二刀流
+音撃棒・烈火(攻撃), 斬撃 二刀流
+音撃棒・烈火(命中), ダメージ Punch.wav;ダメージ Punch.wav
+鬼棒術・烈火剣(準備), 振る武器変形 EFFECT_RHK_Rekka.bmp 32 EFFECT_RHK_RekkaKen.bmp 52 Fire.wav
+鬼棒術・烈火剣(攻撃), 大炎斬撃
+鬼棒術・烈火剣(命中), 大炎斬撃 Slash.wav
+鬼棒術・烈火剣二刀(準備), 振る武器変形 EFFECT_RHK_Rekka.bmp 32 EFFECT_RHK_RekkaKen.bmp 52 二刀流 Fire.wav
+鬼棒術・烈火剣二刀(攻撃), 大炎斬撃;振り上げ大炎斬撃
+鬼棒術・烈火剣二刀(命中), 大炎斬撃 Slash.wav;振り上げ大炎斬撃 Slash.wav
+鬼棒術・烈火弾(片手)(準備), 振る武器変形 EFFECT_RHK_Rekka.bmp 32 EFFECT_RHK_RekkaDan.bmp 40 Fire.wav
+鬼棒術・烈火弾(片手)(攻撃), 斬撃 ;大キャノン砲 1 Bazooka.wav
+鬼棒術・烈火弾(片手)(命中), 大爆発
+音撃管・烈風, ヘビーマシンガン EFFECT_RHK_Reppuu.bmp 32
+音撃弦・烈雷(準備), 振る武器 EFFECT_RHK_Returai.bmp
+音撃弦・烈雷(攻撃), 大斬撃
+音撃弦・烈雷(命中), 大斬撃
+音撃弦・烈雷(斬鬼)(準備), 振る武器 EFFECT_RHK_ReturaiZ.bmp
+音撃弦・烈雷(斬鬼)(攻撃), 大斬撃
+音撃弦・烈雷(斬鬼)(命中), 大斬撃
+音撃弦・烈斬(準備), -
+# 音撃弦・烈斬(準備), 振る武器 EFFECT_RHK_Retuzan.bmp
+音撃弦・烈斬(攻撃), 大斬撃
+音撃弦・烈斬(命中), 大斬撃
+音撃棒(準備), -
+音撃棒(攻撃), 斬撃 二刀流
+音撃棒(命中), ダメージ Punch.wav;ダメージ Punch.wav
+音撃棒・那智黒(準備), 振る武器 EFFECT_RHK_Nachiguro.bmp 二刀流
+音撃棒・那智黒(攻撃), 斬撃 二刀流
+音撃棒・那智黒(命中), ダメージ Punch.wav;ダメージ Punch.wav
+音撃弦・閻魔(準備), 振る武器 EFFECT_RHK_Enma.bmp
+音撃弦・閻魔(攻撃), 大斬撃
+音撃弦・閻魔(命中), 大斬撃
+式神(準備), -
+式神(攻撃), 火炎弾
+式神(命中), 爆発
+
+
+
+
+
+音撃戦士
+格闘, 格闘
+体当たり, タックル
+鬼闘術・鬼爪(準備), -
+鬼闘術・鬼爪(攻撃), 打突
+鬼闘術・鬼爪(命中), 刺突
+音式神(準備), -
+音式神(攻撃)(対空中), 実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅;実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅;実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対地上), 実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅;実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅;実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対地上), 実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅;実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅;実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対地上), 実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅;実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅;実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対地上), 実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対地上), 実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対地上), 実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対水中), 実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対水中), 実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対水中), 実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対水中), 実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅;実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅;実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_AkanetakaU.bmp 32 Saber.wav 遅;実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅;実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅;実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅;実弾発射 RHK_RuriokamiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅;実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅;実弾発射 RHK_RyokuozaruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅;実弾発射 RHK_KihadaganiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅;実弾発射 RHK_NibiirohebiU.bmp 32 Saber.wav 遅
+音式神(攻撃)(対宇宙), 実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅;実弾発射 RHK_SejigaeruU.bmp 32 Saber.wav 遅
+音式神(命中), ダメージ Punch.wav;ダメージ Punch.wav;ダメージ Punch.wav
+音式神(戦国)(準備), -
+音式神(戦国)(攻撃), 実弾発射 RHK_KeshizumikarasuU.bmp 32 Saber.wav 遅
+音式神(戦国)(攻撃), 実弾発射 RHK_ShironeriozaruU.bmp 32 Saber.wav 遅
+音式神(戦国)(攻撃), 実弾発射 RHK_IwabenishishiU.bmp 32 Saber.wav 遅
+音式神(戦国)(命中), 強打 Crash.wav
+鳴刀音叉剣(準備), -
+鳴刀音叉剣(攻撃), 斬撃
+鳴刀音叉剣(命中), 斬撃
+#
+#
+## 響鬼 ##################################################################
+#
+音撃棒・烈火(準備), 振る武器 EFFECT_RHK_Rekka.bmp 二刀流
+音撃棒・烈火(攻撃), 斬撃 二刀流
+音撃棒・烈火(命中), ダメージ Punch.wav;ダメージ Punch.wav
+鬼法術・鬼火, 火炎放射 青
+鬼棒術・烈火剣(準備), 振る武器変形 EFFECT_RHK_Rekka.bmp 32 EFFECT_RHK_RekkaKen.bmp 52 Fire.wav
+鬼棒術・烈火剣(攻撃), 大炎斬撃
+鬼棒術・烈火剣(命中), 大炎斬撃 Slash.wav
+鬼棒術・烈火弾(準備), 振る武器変形 EFFECT_RHK_Rekka.bmp 32 EFFECT_RHK_RekkaDan.bmp 40 二刀流 Fire.wav
+鬼棒術・烈火弾(攻撃), 斬撃 二刀流;大キャノン砲 2 Bazooka.wav
+鬼棒術・烈火弾(命中), 爆発;大爆発
+音撃打・火炎連打(準備), 投擲武器 EFFECT_RHK_Kaentudumi.bmp
+音撃打・火炎連打(攻撃), 打突
+音撃打・火炎連打(命中), 決め画像 EFFECT_RHK_KaentudumiS.bmp Beamsaber.wav;@戦闘アニメ_振る武器準備 EFFECT_RHK_Rekka.bmp 二刀流;@戦闘アニメ_斬撃乱舞攻撃;斬撃乱舞 Crash.wav;大炎斬撃 Crash.wav;魔法集中 赤 Beamsaber.wav;魔法集中 赤 -.wav;魔法集中 赤 -.wav;魔法集中 赤 -.wav;大爆発
+音撃打・爆裂強打(準備), 投擲武器 EFFECT_RHK_Kaentudumi.bmp
+音撃打・爆裂強打(攻撃), 打突
+音撃打・爆裂強打(命中), 決め画像 EFFECT_RHK_KaentudumiS.bmp Beamsaber.wav;@戦闘アニメ_振る武器準備 EFFECT_RHK_Rekka.bmp 二刀流;@戦闘アニメ_大斬撃攻撃;@戦闘アニメ_振り上げ大斬撃攻撃;大炎斬撃 Crash.wav;振り上げ大炎斬撃 Crash.wav;超爆発
+音撃打・紅(準備), 振る武器 EFFECT_RHK_Rekka.bmp 二刀流
+音撃打・紅(攻撃), 斬撃 二刀流
+音撃打・紅(命中), 強打 Crash.wav;強打 Crash.wav;大爆発
+音撃打・灼熱真紅(準備), 振る武器 EFFECT_RHK_Rekka.bmp 二刀流
+音撃打・灼熱真紅(攻撃), 大斬撃;振り上げ大斬撃
+音撃打・灼熱真紅(命中), 魔法放射 赤 Storm.wav;大炎斬撃 Crash.wav;振り上げ大炎斬撃 Crash.wav;魔法集中 赤 Beamsaber.wav;魔法集中 赤 -.wav;魔法集中 赤 -.wav;魔法集中 赤 -.wav;超爆発
+音撃打・爆裂真紅(準備), 投擲武器 EFFECT_RHK_Kaentudumi.bmp
+音撃打・爆裂真紅(攻撃), 打突
+音撃打・爆裂真紅(命中), 決め画像 EFFECT_RHK_KaentudumiS.bmp Beamsaber.wav;@戦闘アニメ_振る武器準備 EFFECT_RHK_Rekka.bmp 二刀流;@戦闘アニメ_大斬撃攻撃;@戦闘アニメ_振り上げ大斬撃攻撃;大炎斬撃 Crash.wav;振り上げ大炎斬撃 Crash.wav;連続大爆発;超爆発
+装甲音式神(準備), -
+装甲音式神(攻撃), 実弾発射 RHK_HaganetakaU.bmp 32 Saber.wav;実弾発射 RHK_KabutoozatuU.bmp 32 Saber.wav;実弾発射 RHK_YoroiganiU.bmp 32 Saber.wav
+装甲音式神(命中), ダメージ Punch.wav;ダメージ Punch.wav;ダメージ Punch.wav
+音撃増幅剣・装甲声刃(準備), -
+音撃増幅剣・装甲声刃(攻撃), 斬撃
+音撃増幅剣・装甲声刃(命中), 斬撃
+装甲声刃・音撃斬(準備), 粒子集中 黄;エナジーブレード 黄
+装甲声刃・音撃斬(攻撃), 振り上げ大斬撃 黄
+装甲声刃・音撃斬(命中), 振り上げ大斬撃 黄
+装甲声刃・音撃射(準備), 粒子集中 黄
+装甲声刃・音撃射(攻撃), 魔法放射 黄 Breath.wav
+装甲声刃・音撃射(命中), 飛沫 黄
+音撃刃・鬼神覚声(準備), オーラ上昇 黄
+音撃刃・鬼神覚声(攻撃), 旋風 黄 Storm.wav
+音撃刃・鬼神覚声(命中), 旋風 黄 Storm.wav;超爆発
+音撃刃・鬼神覚声「斬」(準備), オーラ上昇 黄
+音撃刃・鬼神覚声「斬」(攻撃), 決め文字 鬼 黄 bazooka.wav 対象ユニットＩＤ;「<B><BIG>トリャアァァァッ！！！</B></BIG>」;大斬撃;実弾発射 Common\EFFECT_SonicBoom(Yellow)01.bmp 64 Saber.wav
+音撃刃・鬼神覚声「斬」(命中), 超斬撃;超爆発
+紅(発動), 炎 青;変形 RHK_MaskedRiderHibikiKurenaiU.bmp BeamCoat.wav
+装甲(発動), オーラ上昇 赤;変形 RHK_MaskedRiderArmedHibikiU.bmp BeamCoat.wav
+猛士の剣(準備), -
+猛士の剣(攻撃), 斬撃
+猛士の剣(命中), 斬撃
+鬼棒術・烈火弾(片手)(準備), 振る武器変形 EFFECT_RHK_Rekka.bmp 32 EFFECT_RHK_RekkaDan.bmp 40 Fire.wav
+鬼棒術・烈火弾(片手)(攻撃), 斬撃 ;大キャノン砲 1 Bazooka.wav
+鬼棒術・烈火弾(片手)(命中), 大爆発
+装甲声刃(戦国)(準備), -
+装甲声刃(戦国)(攻撃), 大斬撃
+装甲声刃(戦国)(命中), 大斬撃
+#
+#
+## 威吹鬼 ##################################################################
+#
+音撃管・烈風, ヘビーマシンガン EFFECT_RHK_Reppuu.bmp 32
+鬼闘術・旋風刃(準備), 強風 対象ユニットＩＤ Storm.wav
+鬼闘術・旋風刃(攻撃), なぎ払い;斬撃;振り上げ
+鬼闘術・旋風刃(命中), なぎ払い;斬撃;振り上げ
+鬼石弾(威吹鬼)(準備), 射撃武器 EFFECT_RHK_Reppuu.bmp
+鬼石弾(威吹鬼)(攻撃), 光弾銃 EFFECT_RHK_Reppuu.bmp 赤
+鬼石弾(威吹鬼)(命中), 爆発
+音撃射・疾風一閃(準備), 射撃武器 EFFECT_RHK_Reppuu.bmp
+音撃射・疾風一閃(攻撃), 光弾銃 EFFECT_RHK_Reppuu.bmp 赤;光弾銃 EFFECT_RHK_Reppuu.bmp 赤;光弾銃 EFFECT_RHK_Reppuu.bmp 赤
+音撃射・疾風一閃(命中), 爆発;爆発;爆発;@戦闘アニメ_射撃武器変形準備 EFFECT_RHK_Reppuu.bmp 32 EFFECT_RHK_ReppuuS.bmp 40 Reload.wav;「<B><BIG><Color=Blue>音撃射・疾風一閃！！</Color></B></BIG>」;@戦闘アニメ_旋風攻撃 青;旋風 青;大爆発
+音撃棒・山背風(準備), 振る武器 EFFECT_RHK_IbukiBachi.bmp 二刀流
+音撃棒・山背風(攻撃), 斬撃 二刀流
+音撃棒・山背風(命中), ダメージ Punch.wav;ダメージ Punch.wav
+音撃打(威吹鬼)(準備), 投擲武器 EFFECT_RHK_Mikageban.bmp
+音撃打(威吹鬼)(攻撃), 打突
+音撃打(威吹鬼)(命中), 決め画像 EFFECT_RHK_MikagebanS.bmp Beamsaber.wav;@戦闘アニメ_振る武器準備 EFFECT_RHK_IbukiBachi.bmp 二刀流;@戦闘アニメ_斬撃乱舞攻撃;斬撃乱舞 Crash.wav;大炎斬撃 青 Crash.wav;魔法集中 青 Beamsaber.wav;魔法集中 青 -.wav;魔法集中 青 -.wav;魔法集中 青 -.wav;大爆発
+音撃打(威吹鬼・烈火)(準備), 投擲武器 EFFECT_RHK_Kaentudumi.bmp
+音撃打(威吹鬼・烈火)(攻撃), 打突
+音撃打(威吹鬼・烈火)(命中), 決め画像 EFFECT_RHK_KaentudumiS.bmp Beamsaber.wav;@戦闘アニメ_振る武器準備 EFFECT_RHK_Rekka.bmp 二刀流;@戦闘アニメ_斬撃乱舞攻撃;斬撃乱舞 Crash.wav;大炎斬撃 Crash.wav;魔法集中 赤 Beamsaber.wav;魔法集中 赤 -.wav;魔法集中 赤 -.wav;魔法集中 赤 -.wav;大爆発
+#
+#
+## 轟鬼 ##################################################################
+#
+音撃弦・烈雷(準備), 振る武器 EFFECT_RHK_Returai.bmp
+音撃弦・烈雷(攻撃), 大斬撃
+音撃弦・烈雷(命中), 大斬撃
+烈雷投擲(準備), 振る武器 EFFECT_RHK_Returai.bmp
+烈雷投擲(攻撃), 斬撃;火炎弾 橙 Bazooka.wav
+烈雷投擲(命中), 刺突;爆発
+鬼闘術・雷撃拳(準備), 放電
+鬼闘術・雷撃拳(攻撃), 打突
+鬼闘術・雷撃拳(命中), 強打 Crash.wav
+鬼闘術・雷撃蹴(準備), 放電
+鬼闘術・雷撃蹴(攻撃), スーパーキック 黄
+鬼闘術・雷撃蹴(命中), スーパーキック 黄
+音撃斬・雷電激震(準備), 振る武器 EFFECT_RHK_Returai.bmp
+音撃斬・雷電激震(攻撃), 刺突
+音撃斬・雷電激震(命中), 刺突;5;@戦闘アニメ_射撃武器準備 EFFECT_RHK_ReturaiS.bmp Sword.wav;「<B><BIG><Color=Green>音撃斬・雷電激震！！</Color></B></BIG>」;魔法集中 緑 Guitar.wav;魔法集中 緑 -.wav;魔法集中 緑 -.wav;魔法集中 緑 -.wav;大爆発
+烈雷・烈斬二刀流(準備), 左右別武器 EFFECT_RHK_Returai.bmp 48 - EFFECT_RHK_ReturaiZ.bmp 48
+# 烈雷・烈斬二刀流(準備), 左右別武器 EFFECT_RHK_Returai.bmp 48 - EFFECT_RHK_Retuzan.bmp 48
+烈雷・烈斬二刀流(攻撃), 斬撃 二刀流
+烈雷・烈斬二刀流(命中), 大斬撃;振り上げ大斬撃
+音撃棒・落雷(準備), 振る武器 EFFECT_RHK_Ressui.bmp 二刀流
+音撃棒・落雷(攻撃), 斬撃 二刀流
+音撃棒・落雷(命中), ダメージ Punch.wav;ダメージ Punch.wav
+音撃打(轟鬼)(準備), 投擲武器 EFFECT_RHK_TodorokiTaiko.bmp
+音撃打(轟鬼)(攻撃), 打突
+音撃打(轟鬼)(命中), 決め画像 EFFECT_RHK_TodorokiTaikoS.bmp Beamsaber.wav;@戦闘アニメ_振る武器準備 EFFECT_RHK_Ressui.bmp 二刀流;@戦闘アニメ_斬撃乱舞攻撃;斬撃乱舞 Crash.wav;大炎斬撃 緑 Crash.wav;魔法集中 緑 Beamsaber.wav;魔法集中 緑 -.wav;魔法集中 緑 -.wav;魔法集中 緑 -.wav;大爆発
+#
+#
+## 斬鬼 ##################################################################
+#
+音撃弦・烈雷(斬鬼)(準備), 振る武器 EFFECT_RHK_ReturaiZ.bmp
+音撃弦・烈雷(斬鬼)(攻撃), 大斬撃
+音撃弦・烈雷(斬鬼)(命中), 大斬撃
+烈雷投擲(斬鬼)(準備), 振る武器 EFFECT_RHK_ReturaiZ.bmp
+烈雷投擲(斬鬼)(攻撃), 斬撃;火炎弾 橙 Bazooka.wav
+烈雷投擲(斬鬼)(命中), 刺突;爆発
+音撃斬・雷電激震(斬鬼)(準備), 振る武器 EFFECT_RHK_ReturaiZ.bmp
+音撃斬・雷電激震(斬鬼)(攻撃), 刺突
+音撃斬・雷電激震(斬鬼)(命中), 刺突;5;@戦闘アニメ_射撃武器準備 EFFECT_RHK_ReturaiZS.bmp Sword.wav;「<B><BIG><COLOR=RGB(255,128,0)>音撃斬・雷電激震！！</Color></B></BIG>」;魔法集中 橙 Guitar.wav;魔法集中 橙 -.wav;魔法集中 橙 -.wav;魔法集中 橙-.wav;大爆発
+音撃弦・烈斬(準備), -
+# 音撃弦・烈斬(準備), 振る武器 EFFECT_RHK_Retuzan.bmp
+音撃弦・烈斬(攻撃), 大斬撃
+音撃弦・烈斬(命中), 大斬撃
+烈斬投擲(準備), -
+# 烈斬投擲(準備), 振る武器 EFFECT_RHK_Retuzan.bmp
+烈斬投擲(攻撃), 斬撃;火炎弾 橙 Bazooka.wav
+烈斬投擲(命中), 刺突;爆発
+音撃斬・雷電斬震(準備), -
+# 音撃斬・雷電斬震(準備), 振る武器 EFFECT_RHK_Retuzan.bmp
+音撃斬・雷電斬震(攻撃), 刺突
+音撃斬・雷電斬震(命中), 刺突;5;Sword.wav;「<B><BIG><COLOR=RGB(255,128,0)>音撃斬・雷電斬震！！</Color></B></BIG>」;魔法集中 橙 Guitar.wav;魔法集中 橙 -.wav;魔法集中 橙 -.wav;魔法集中 橙 -.wav;大爆発
+# 音撃斬・雷電斬震(命中), 5;@戦闘アニメ_射撃武器準備 EFFECT_RHK_RetuzanS.bmp Sword.wav;「<B><BIG><COLOR=RGB(255,128,0)>音撃斬・雷電激震！！</Color></B></BIG>」;魔法集中 橙 Guitar.wav;魔法集中 橙 -.wav;魔法集中 橙 -.wav;魔法集中 橙 -.wav;大爆発
+#
+#
+## 朱鬼 ##################################################################
+#
+刀, 日本刀
+式神(準備), -
+式神(攻撃), 火炎弾
+式神(命中), 爆発
+音撃奏・震天動地(準備), 竪琴
+音撃奏・震天動地, 特殊光線
+#
+#
+## 京介変身体 #############################################################
+#
+音撃棒(準備), -
+音撃棒(攻撃), 斬撃 二刀流
+音撃棒(命中), ダメージ Punch.wav;ダメージ Punch.wav
+音撃打(京介)(準備), -
+音撃打(京介)(攻撃), 打突
+音撃打(京介)(命中), 魔法放射 白 Beamsaber.wav;魔法放射 白 -.wav;@戦闘アニメ_斬撃乱舞攻撃;斬撃乱舞 Crash.wav;大炎斬撃 白 Crash.wav;魔法集中 白 Beamsaber.wav;魔法集中 白 -.wav;魔法集中 白 -.wav;魔法集中 白 -.wav;大爆発
+#
+#
+## 弾鬼 ##################################################################
+#
+音撃棒・那智黒(準備), 振る武器 EFFECT_RHK_Nachiguro.bmp 二刀流
+音撃棒・那智黒(攻撃), 斬撃 二刀流
+音撃棒・那智黒(命中), ダメージ Punch.wav;ダメージ Punch.wav
+加速攻撃(準備), -
+加速攻撃(攻撃), 突く武器突撃 -.bmp Drill.wav
+加速攻撃(命中), スーパーパンチ Crash.wav
+加速攻撃(命中), スーパーキック Crash.wav
+加速攻撃(命中), 急降下 Crash.wav
+加速攻撃(命中), アッパー Crash.wav
+音撃打・破砕細石(準備), 投擲武器 EFFECT_RHK_Mikageban.bmp
+音撃打・破砕細石(攻撃), 打突
+音撃打・破砕細石(命中), 決め画像 EFFECT_RHK_MikagebanS.bmp Beamsaber.wav;@戦闘アニメ_振る武器準備 EFFECT_RHK_Nachiguro.bmp 二刀流;@戦闘アニメ_斬撃乱舞攻撃;斬撃乱舞 Crash.wav;大炎斬撃 青 Crash.wav;魔法集中 青 Beamsaber.wav;魔法集中 青 -.wav;魔法集中 青 -.wav;魔法集中 青 -.wav;大爆発
+#
+#
+## 鋭鬼 ##################################################################
+#
+音撃棒・緑勝(準備), -
+音撃棒・緑勝(攻撃), 斬撃 二刀流
+音撃棒・緑勝(命中), ダメージ Punch.wav;ダメージ Punch.wav
+鬼棒術(準備), -
+鬼棒術(攻撃), 大炎斬撃 緑
+鬼棒術(命中), 大炎斬撃 緑 Crash.wav
+音撃打・必殺必中(準備), -
+音撃打・必殺必中(攻撃), 打突
+音撃打・必殺必中(命中), 魔法放射 緑 Beamsaber.wav;魔法放射 緑 -.wav;@戦闘アニメ_斬撃乱舞攻撃;斬撃乱舞 Crash.wav;大炎斬撃 緑 Crash.wav;魔法集中 緑 Beamsaber.wav;魔法集中 緑 -.wav;魔法集中 緑 -.wav;魔法集中 緑 -.wav;大爆発
+#
+#
+## 裁鬼 ##################################################################
+#
+音撃弦・閻魔(準備), 振る武器 EFFECT_RHK_Enma.bmp
+音撃弦・閻魔(攻撃), 大斬撃
+音撃弦・閻魔(命中), 大斬撃
+音撃斬・閻魔裁き(準備), 振る武器 EFFECT_RHK_Enma.bmp
+音撃斬・閻魔裁き(攻撃), 刺突
+音撃斬・閻魔裁き(命中), 刺突;5;@戦闘アニメ_射撃武器準備 EFFECT_RHK_EnmaS.bmp Sword.wav;「<B><BIG>音撃斬・閻魔裁き！！</B></BIG>」;魔法集中 黒 Guitar.wav;魔法集中 黒 -.wav;魔法集中 黒 -.wav;魔法集中 黒 -.wav;大爆発
+音撃弦二刀流(準備), -
+音撃弦二刀流(攻撃), 斬撃 二刀流
+音撃弦二刀流(命中), 斬撃 二刀流
+音撃斬・閻魔裁き(小型)(準備), -
+音撃斬・閻魔裁き(小型)(攻撃), 刺突;刺突
+音撃斬・閻魔裁き(小型)(命中), 刺突;刺突;5;Sword.wav;「<B><BIG>音撃斬・閻魔裁き！！</B></BIG>」;魔法集中 黒 Guitar.wav;魔法集中 黒 -.wav;魔法集中 黒 -.wav;魔法集中 黒 -.wav;大爆発
+音撃棒・笏拍子(準備), 振る武器 EFFECT_RHK_SabakiBachi.bmp 二刀流
+音撃棒・笏拍子(攻撃), 斬撃 二刀流
+音撃棒・笏拍子(命中), ダメージ Punch.wav;ダメージ Punch.wav
+音撃打(裁鬼)(準備), 投擲武器 EFFECT_RHK_SabakiTaiko.bmp
+音撃打(裁鬼)(攻撃), 打突
+音撃打(裁鬼)(命中), 決め画像 EFFECT_RHK_SabakiTaikoS.bmp Beamsaber.wav;@戦闘アニメ_振る武器準備 EFFECT_RHK_SabakiBachi.bmp 二刀流;@戦闘アニメ_斬撃乱舞攻撃;斬撃乱舞 Crash.wav;大炎斬撃 黒 Crash.wav;魔法集中 黒 Beamsaber.wav;魔法集中 黒 -.wav;魔法集中 黒 -.wav;魔法集中 黒 -.wav;大爆発
+旧式音撃管, ヘビーマシンガン -.bmp
+鬼石弾(準備), -
+鬼石弾(攻撃), 光弾銃 -.bmp 赤
+鬼石弾(命中), 爆発
+音撃射(裁鬼)(準備), -
+音撃射(裁鬼)(攻撃), 光弾銃 -.bmp 赤;光弾銃 -.bmp 赤;光弾銃 -.bmp 赤
+音撃射(裁鬼)(命中), 爆発;爆発;爆発;@戦闘アニメ_旋風攻撃 黒;旋風 黒;大爆発
+#
+#
+## 剛鬼 ##################################################################
+#
+音撃棒・剛力(準備), -
+音撃棒・剛力(攻撃), 斬撃 二刀流
+音撃棒・剛力(命中), ダメージ Punch.wav;ダメージ Punch.wav
+音撃打・豪腕無双(準備), -
+音撃打・豪腕無双(攻撃), 打突
+音撃打・豪腕無双(命中), 魔法放射 橙 Beamsaber.wav;魔法放射 橙 -.wav;@戦闘アニメ_斬撃乱舞攻撃;斬撃乱舞 Crash.wav;大炎斬撃 橙 Crash.wav;魔法集中 橙 Beamsaber.wav;魔法集中 橙 -.wav;魔法集中 橙 -.wav;魔法集中 橙 -.wav;大爆発
+音撃打・爆裂乱打(準備), -
+音撃打・爆裂乱打(攻撃), 打突
+音撃打・爆裂乱打(命中), 魔法放射 橙 Beamsaber.wav;魔法放射 橙 -.wav;@戦闘アニメ_大斬撃攻撃 橙;@戦闘アニメ_振り上げ大斬撃攻撃 橙;大炎斬撃 橙 Crash.wav;振り上げ大炎斬撃 橙 Crash.wav;超爆発
+#
+#
+## 闘鬼 ##################################################################
+#
+音撃管・嵐, ヘビーマシンガン -.bmp
+音撃射・風神怒髪(準備), -
+音撃射・風神怒髪(攻撃), 光弾銃 -.bmp 赤;光弾銃 -.bmp 赤;光弾銃 -.bmp 赤
+音撃射・風神怒髪(命中), 爆発;爆発;爆発;@戦闘アニメ_旋風攻撃 橙;旋風 橙;大爆発
+短刀(準備), -
+短刀(攻撃), 斬撃
+短刀(命中), 斬撃
+#
+#
+## 勝鬼 ##################################################################
+#
+音撃管・台風, ヘビーマシンガン -.bmp
+鬼闘術・風牙(準備), -
+鬼闘術・風牙(攻撃), 斬撃 二刀流
+鬼闘術・風牙(命中), 爪撃 二刀流
+音撃射・暴風一気(準備), -
+音撃射・暴風一気(攻撃), 光弾銃 -.bmp 赤;光弾銃 -.bmp 赤;光弾銃 -.bmp 赤
+音撃射・暴風一気(命中), 爆発;爆発;爆発;@戦闘アニメ_旋風攻撃 紫;旋風 紫;大爆発
+#
+#
+## 蛮鬼 ##################################################################
+#
+音撃弦・刀弦響(準備), -
+音撃弦・刀弦響(攻撃), 大斬撃
+音撃弦・刀弦響(命中), 大斬撃
+音撃斬・冥府魔道(準備), -
+音撃斬・冥府魔道(攻撃), 刺突
+音撃斬・冥府魔道(命中), 刺突;5;Sword.wav;「<B><BIG>音撃斬・冥府魔道！！</B></BIG>」;魔法集中 黄 Guitar.wav;魔法集中 黄 -.wav;魔法集中 黄 -.wav;魔法集中 黄 -.wav;大爆発
+十の弦(準備), -
+十の弦(攻撃), 斬撃 二刀流
+十の弦(命中), 大斬撃;振り上げ大斬撃
+#
+#
+## 歌舞鬼 ################################################################
+#
+音撃棒・烈翠(準備), 振る武器 EFFECT_RHK_Ressui.bmp 二刀流
+音撃棒・烈翠(攻撃), 斬撃 二刀流
+音撃棒・烈翠(命中), ダメージ Punch.wav;ダメージ Punch.wav
+鬼鞭術(準備), -
+鬼鞭術(攻撃), 実弾発射 -.bmp 有線 残像 遅 Bow.wav
+鬼鞭術(命中), ダメージ whip.wav;斬撃
+鬼傘術(準備), -
+鬼傘術(攻撃), 刺突
+鬼傘術(命中), 刺突
+音撃打・業火絢爛(準備), -
+音撃打・業火絢爛(攻撃), 打突
+音撃打・業火絢爛(命中), 魔法放射 緑 Beamsaber.wav;魔法放射 緑 -.wav;@戦闘アニメ_振る武器準備 EFFECT_RHK_Ressui.bmp 二刀流;@戦闘アニメ_斬撃乱舞攻撃;斬撃乱舞 Crash.wav;大炎斬撃 緑 Crash.wav;魔法集中 緑 Beamsaber.wav;魔法集中 緑 -.wav;魔法集中 緑 -.wav;魔法集中 緑 -.wav;大爆発
+#
+#
+## 凍鬼 ##################################################################
+#
+音撃金棒・烈凍(準備), -
+音撃金棒・烈凍(攻撃), 斬撃
+音撃金棒・烈凍(命中), 強打 Crash.wav
+鬼幻術・吹雪(準備), -
+鬼幻術・吹雪(攻撃), 吹雪
+鬼幻術・吹雪(命中), 吹雪
+音撃殴(準備), -
+音撃殴(攻撃), 打突
+音撃殴(命中), 魔法放射 青 Beamsaber.wav;魔法放射 青 -.wav;魔法放射 青 -.wav;5;「<B><BIG>セェイッ！！</B></BIG>」;@戦闘アニメ_大斬撃攻撃 青;強打 Crash.wav;大爆発
+音撃殴・一撃怒涛(準備), 魔法放射 青 Beamsaber.wav;魔法放射 青 -.wav
+音撃殴・一撃怒涛(攻撃), 5;「<B><BIG>セイッ！</B></BIG>」;魔法放射 青 Bazooka.wav;5;「<B><BIG>セイッ！ セイッ！</B></BIG>」;魔法放射 青 Bazooka.wav;5;「<B><BIG>セイッ！ セイッ！ ハァ～、セェイッ！！</B></BIG>」;魔法放射 青 Bazooka.wav
+音撃殴・一撃怒涛(命中), 魔法集中 青 Beamsaber.wav;魔法集中 青 -.wav;魔法集中 青 -.wav;魔法集中 青 -.wav;大爆発
+#
+#
+## 煌鬼 ##################################################################
+#
+音撃振張・烈盤(準備), -
+音撃振張・烈盤(攻撃), 斬撃
+音撃振張・烈盤(命中), 斬撃
+烈盤投げ, チャクラム
+鬼闘術(海)(準備), -
+鬼闘術(海)(攻撃), スピンアタック 黄
+鬼闘術(海)(命中), スピンアタック 黄
+音撃拍・軽佻訃爆(準備), -
+音撃拍・軽佻訃爆(攻撃), 5;「<B><BIG>ぬりゃあ！</B></BIG>」;魔法放射 黄色 Acid.wav;5;「<B><BIG>ぬりゃあ！ ぬりゃあ！</B></BIG>」;魔法放射 黄色 Acid.wav;5;「<B><BIG>ぬりゃあ！ ぬりゃあ！ ぬりゃあ！</B></BIG>」;魔法放射 黄色 Acid.wav
+音撃拍・軽佻訃爆(命中), 魔法集中 黄 Beamsaber.wav;魔法集中 黄 -.wav;魔法集中 黄 -.wav;魔法集中 黄 -.wav;大爆発
+#
+#
+## 西鬼 ##################################################################
+#
+音撃三角・烈節(準備), -
+音撃三角・烈節(攻撃), 斬撃
+音撃三角・烈節(命中), ダメージ Punch.wav
+鬼闘術(陸)(準備), -
+鬼闘術(陸)(攻撃), タックル;打突
+鬼闘術(陸)(命中), 地獄車
+音撃響・偉鑼射威(準備), -
+音撃響・偉鑼射威(攻撃), 5;「<B><BIG>いーらっしゃいっ！</B></BIG>」;文字発射 △ 黄色 残像 遅 Acid.wav;5;「<B><BIG>いーらっしゃいっ！ いらっしゃい！</B></BIG>」;文字発射 △ 黄色 残像 遅 Acid.wav;5;「<B><BIG>いーらっしゃいっ！ いらっしゃい！ いらっしゃい！</B></BIG>」;文字発射 △ 黄色 残像 遅 Acid.wav
+音撃響・偉鑼射威(命中), 魔法集中 黄 Beamsaber.wav;魔法集中 黄 -.wav;魔法集中 黄 -.wav;魔法集中 黄 -.wav;大爆発
+#
+#
+## 羽撃鬼 ################################################################
+#
+音撃吹道・烈空(準備), -
+音撃吹道・烈空(攻撃), 刺突
+音撃吹道・烈空(命中), 刺突
+鬼闘術(空)(準備), -
+鬼闘術(空)(攻撃), タックル;なぎ払い
+鬼闘術(空)(命中), なぎ払い;なぎ払い;なぎ払い
+音撃奏・旋風一閃(準備), -
+音撃奏・旋風一閃(攻撃), 光弾銃 -.bmp 赤;光弾銃 -.bmp 赤;光弾銃 -.bmp 赤
+音撃奏・旋風一閃(命中), 爆発;爆発;爆発;「<B><BIG><COLOR=RGB(255,128,0)>音撃奏・旋風一閃！！</Color></B></BIG>」;@戦闘アニメ_旋風攻撃 白;旋風 白;大爆発
+
+
+仮面ライダー響鬼(凱火)
+紅(発動), 炎 青;変形 RHK_MaskedRiderHibikiKurenai(Gaika)U.bmp BeamCoat.wav
+
+
+魔化魍
+格闘, 格闘
+### ツチグモ
+粘着糸(準備), -
+粘着糸(攻撃), 実弾発射 -.bmp 有線 残像 遅 Bow.wav
+粘着糸(命中), ダメージ whip.wav
+体足(準備), -
+体足(攻撃), 斬撃
+体足(命中), ダメージ whip.wav
+### ヤマビコ
+鳴き声, 音波
+### バケガニ
+ハサミ, 甲殻鋏 赤
+溶解泡(攻撃), 泡
+溶解泡(命中), 泡
+### イッタンモメン
+風圧, 強風
+尻尾(準備), -
+尻尾(攻撃), 斬撃
+尻尾(命中), ダメージ whip.wav
+### オオアリ
+蟻酸(攻撃), 火炎弾 白 Bazooka.wav
+蟻酸(命中), 煙 白 Hide.wav
+大アゴ, 噛み付き 連続
+### オトロシ(岩)
+体当たり, タックル
+### オトロシ
+踏み潰し, 急降下
+### ヌリカベ
+### ウブメ
+牙, 噛み付き 連続
+### ヤマアラシ
+全身針(攻撃), タックル
+全身針(命中), 刺突
+針, ニードル連射
+### オオナマズの胃袋
+触手, 触手 橙
+消化液(攻撃), 火炎弾 黄 Bazooka.wav
+消化液(命中), 煙 黄 Hide.wav
+### オオナマズ
+突進, タックル
+地殻変動, 魔法放射 黒 Shock(Low).wav
+局地地震, ＭＡＰ地震
+### アミキリ
+### ナナシ
+### ドロタボウ
+泥(攻撃), 火炎弾 黒 Bazooka.wav
+泥(命中), 煙 黒 Hide.wav
+### カッパ
+凝固液(攻撃), 火炎弾 白 Bazooka.wav
+凝固液(命中), 煙 白 Hide.wav
+### ヨロイツチグモ
+突撃, タックル
+### カシャ
+火炎弾, 火炎弾
+火車(攻撃), 瞬間変形 EFFECT_FlameThrowerHit(Red)07.bmp;タックル
+火車(命中), 炎
+### カマイタチ
+竜巻, 竜巻
+大鎌, 大斬撃
+### ウワン
+毒液(攻撃), 火炎弾 橙 Bazooka.wav
+毒液(命中), 煙 橙 Hide.wav
+くちばし(攻撃), 刺突
+くちばし(命中), 吸収
+### ノツゴ
+大針, ニードル連射
+大鋏, 大斬撃
+捕食, 噛み付き 連続
+### ヨブコ
+舌, 舌
+### コダマ
+樹木, 触手 橙
+### カエングモ
+高熱火炎, 火炎弾;火炎弾;火炎弾
+### サトリ
+刀, 日本刀
+### ロクロクビ
+突撃, タックル
+噛み付き, 噛み付き
+### 白狐・紅狐
+鎌, 鎌
+### 火焔大将
+豪炎魔剣, 妖刀
+### ヒトツミ
+盾投げ, ソーサー
+大槍, ランス
+毒霧, 火炎放射 緑
+巨大化(攻撃), タックル
+巨大化(命中), 超打
+### オロチ
+火球, 火炎弾
+
+
+クグツ
+杖(攻撃), 斬撃
+杖(命中), ダメージ Punch.wav
+念動力, 特殊光線 黄
+
+
+童子と姫
+粘着糸(準備), -
+粘着糸(攻撃), 実弾発射 -.bmp 有線 残像 遅 Bow.wav
+粘着糸(命中), ダメージ whip.wav
+爪状腕(攻撃), 斬撃
+爪状腕(命中), ダメージ Punch.wav
+ひっかき, 爪
+ハサミ, 甲殻鋏 赤
+溶解液(攻撃), 打突
+溶解液(命中), 泡
+伸足, 触手 白
+突進, タックル
+棍棒, 棍棒
+捕食, 噛み付き 連続
+双剣, 樹剣 二刀流
+針, ニードル
+水流, 津波
+地殻変動, 魔法放射 黒 Shock(Low).wav
+泥(攻撃), 火炎弾 黒 Bazooka.wav
+泥(命中), 煙 黒 Hide.wav
+大槍, 呪槍
+剣, 樹剣
+念動波, ショックビーム 黄
+扇(攻撃), 斬撃
+扇(命中), 強打 Crash.wav
+刀, 日本刀
+噴炎, 火柱
+
+
+謎の男女
+念動波, メガショックビーム 黄
+

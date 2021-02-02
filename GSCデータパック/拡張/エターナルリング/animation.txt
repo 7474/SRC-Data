@@ -1,0 +1,51 @@
+エターナルリング
+スティレット, 刺突武器 Weapon\EFFECT_SteelSword(T)01.bmp 16
+ファイアボール, 火炎弾
+アイスソード(攻撃), 実弾発射 Common\EFFECT_Icicle04.bmp 32 Glass.wav 遅 残像
+アイスソード(命中), 氷柱
+トルネード, 竜巻
+キュアウォーター, 泡 青;回復魔法
+阻止(アバドン), 妖精 -.wav;バリア 桃 Bubble.wav 別名=アバドン
+ハンティングソード, エストック
+ダークサンダー(攻撃), 落雷 紫
+ダークサンダー(命中), 放電
+アクス(準備), 召喚 Weapon\EFFECT_GiantAx01.bmp 48
+アクス(攻撃), 回転発射 Weapon\EFFECT_GiantAx01.bmp 48 Swing.wav 速
+アクス(命中), 大斬撃 橙;横大斬撃 橙
+ヘヴン(攻撃), 回転発射 Light\EFFECT_LargeLightning(Yellow)01.bmp 32 BeamCoat.wav 遅
+ヘヴン(命中), -
+ヘヴン(とどめ), 決め画像 Barrier\EFFECT_Barrier(Yellow)04.bmp BeamCoat.wav;@戦闘アニメ_大爆発命中 黄
+ホワイトドラゴン, 竜炎 白
+エターナルソード, 青銅剣
+カイザーナックル, 連打
+バリア発動(光の守護壁), -
+ヒールウォーター, 泡 青;回復魔法
+クリア, 泡 青;回復魔法
+ブレス, 煙噴射 黄
+ウェーブ(攻撃), 地表衝撃波 緑
+ウェーブ(命中), 光斬撃 緑
+ボンバー(攻撃), 実弾発射 Fire\EFFECT_FlameThrowerHit(Red)06.bmp 32 Bazooka(4Shot).wav 遅 残像
+ボンバー(命中), 連続爆発
+エナジーボール(準備), しもべ Impact\EFFECT_ImpactBall(Red)01.bmp 16
+エナジーボール(攻撃), 実弾発射 Impact\EFFECT_ImpactBall(Red)01.bmp 16 -.wav
+エナジーボール(命中), 小ビーム 黄 ランダム方向
+プラズマ(準備), 粒子集中 水色 Charge(high).wav
+プラズマ(攻撃), 光球 水色
+プラズマ(命中), 飛沫 水色
+サンダー, ＭＡＰ落雷 黄 Thunder.wav
+突進, タックル
+
+風竜(エターナルリング)
+羽ばたき(攻撃), 強風 Storm.wav
+羽ばたき(命中), 強風 Storm.wav
+突撃, 急降下
+ブレス, 竜巻
+
+火竜(エターナルリング)
+ブレス, 火炎放射
+
+土竜(エターナルリング)
+ブレス, 火炎放射 緑
+
+汎用
+攻撃無効化(光の守護壁), バリア 白 別名=光の守護壁

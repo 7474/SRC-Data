@@ -1,0 +1,192 @@
+
+TF5_Reffi回避:
+	Local i
+
+	AutoTalk Reffi(ＴＦ５) 固定
+	0.1;　
+	Suspend
+	Playsound Cannon.wav
+	For i = 17 to 33
+	
+		AutoTalk
+		0.1;Speed 0$(i * 3)％
+		Suspend
+	
+	Next
+	AutoTalk
+	0.1;Speed 100％
+	Suspend
+	
+	Call 戦闘アニメ_回避発動
+	AutoTalk
+	0.2;Speed 100％
+	Suspend
+	
+
+Return
+
+
+
+TF5_Reffi射程外:
+
+	AutoTalk Reffi(ＴＦ５) 固定
+	0.1;　
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!.Code　　　 ：$(Args(1))
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.4;<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!.Code　　　 ：$(Args(1)).Weapon　　：$(Args(2))
+	Suspend
+
+Return
+
+TF5_Reffi攻撃:
+
+	AutoTalk Reffi(ＴＦ５) 固定
+	0.1;　
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;Main/system/Reffi<GT>
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;Main/system/Reffi<GT>.Main/system/Reffi<GT>Sub System Load
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;Main/system/Reffi<GT>.Main/system/Reffi<GT>Sub System Load.Main/system/Reffi<GT>$(Args(1))
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;Main/system/Reffi<GT>.Main/system/Reffi<GT>Sub System Load.Main/system/Reffi<GT>$(Args(1)).Main/system/Reffi<GT>$(Args(1))<GT>$(Args(2))
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;Main/system/Reffi<GT>Sub System Load.Main/system/Reffi<GT>$(Args(1)).Main/system/Reffi<GT>$(Args(1))<GT>$(Args(2)).Main/system/Reffi<GT>Get Ready
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;Main/system/Reffi<GT>$(Args(1)).Main/system/Reffi<GT>$(Args(1))<GT>$(Args(2)).Main/system/Reffi<GT>Get Ready
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;Main/system/Reffi<GT>$(Args(1))<GT>$(Args(2)).Main/system/Reffi<GT>Get Ready
+	Suspend
+
+Return
+
+TF5_Reffiシールド防御:
+TF5_Reffi攻撃無効化:
+	AutoTalk Reffi(ＴＦ５) 固定
+	0.1;　
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;Main/system/Reffi<GT>
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;Main/system/Reffi<GT>.Main/system/Reffi<GT>Sub System Load
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;Main/system/Reffi<GT>.Main/system/Reffi<GT>Sub System Load.Main/system/Reffi<GT>Craw
+	Suspend
+Return
+
+
+TF5_Reffi破壊:
+	AutoTalk Reffi(ＴＦ５) 固定
+	0.1;　
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;Main/system/Reffi<GT>
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.2;Main/system/Reffi<GT>.Main/system/Reffi<GT>Sub System Close
+	Suspend
+	Playsound Type(Digital)(4).wav
+	AutoTalk
+	0.4;Main/system/Reffi<GT>.Main/system/Reffi<GT>Sub System Close.Main/system/Reffi<GT>ConectOff Reffi
+	Suspend
+Return
+
+
+
+TF5_Reffiダメージ小:
+
+	Local i
+	Local j
+
+	AutoTalk Reffi(ＴＦ５) 固定
+	0.1;　
+	AutoTalk
+	<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!
+	Suspend
+	
+
+Return
+
+TF5_Reffiダメージ中:
+	Local i
+	Local j
+
+	AutoTalk Reffi(ＴＦ５) 固定
+	0.1;　
+	Suspend
+	Playsound Alarm.wav
+	For i = 1 to 10
+		
+		Set j (Random(Args(1)) + 10)
+	
+		AutoTalk
+		0.1;<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!.Damage Rate 0$(j)％
+		Suspend
+	
+	Next
+	
+	AutoTalk
+	0.1;<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!.Damage Rate 0$(Args(1))％
+	Suspend
+	
+
+Return
+
+
+
+TF5_Reffiダメージ大:
+	Local i
+
+	AutoTalk Reffi(ＴＦ５) 固定
+	0.1;　
+	Suspend
+	Playsound Alarm.wav
+	For i = 1 to 10
+	
+		AutoTalk
+		0.1;<COLOR=RGB(255,0,0)>ALERT!　ALERT!　ALERT!　ALERT!　ALERT!.　.ALERT!　ALERT!　ALERT!　ALERT!　ALERT!<COLOR=RGB(0,0,0)>
+		0.1;<COLOR=RGB(255,0,0)>　.ALERT!　ALERT!　ALERT!　ALERT!　ALERT!.　.ALERT!　ALERT!　ALERT!　ALERT!　ALERT!<COLOR=RGB(0,0,0)>
+		Suspend
+	
+	Next
+	
+	AutoTalk
+	0.1;<COLOR=RGB(255,0,0)>ALERT!　ALERT!　ALERT!　ALERT!　ALERT!.　.ALERT!　ALERT!　ALERT!　ALERT!　ALERT!<COLOR=RGB(0,0,0)>
+	Suspend
+
+Return
+

@@ -1,0 +1,60 @@
+
+# パイロット表情集 -------------------------------------------------------------
+
+葵豹馬(通常)
+豹馬, COMV_AoiHyouma(N).bmp
+豹馬(通常)
+豹馬, COMV_AoiHyouma(N).bmp
+
+浪花十三(通常)
+十三, COMV_NaniwaJyuzou(N).bmp
+十三(通常)
+十三, COMV_NaniwaJyuzou(N).bmp
+
+西川大作(通常)
+大作, COMV_NisikawaDaisaku(N).bmp
+大作(通常)
+大作, COMV_NisikawaDaisaku(N).bmp
+
+南原ちずる(通常)
+ちずる, COMV_NanbaraChizuru(N).bmp
+ちずる(通常)
+ちずる, COMV_NanbaraChizuru(N).bmp
+
+北小介(通常)
+小介, COMV_KitaKosuke(N).bmp
+小介(通常)
+小介, COMV_KitaKosuke(N).bmp
+
+# ノンパイロット ---------------------------------------------------------------
+
+南原猛
+南原博士, COMV_NanbaraTakeshi.bmp
+
+南原ちずる(偽)
+ちずる, COMV_NanbaraChizuru(F).bmp
+ちずる(偽)
+ちずる, COMV_NanbaraChizuru(F).bmp
+
+四谷博士
+四谷博士, COMV_PrYotuya.bmp
+
+ロペット
+ロペット, COMV_Ropet.bmp
+
+豹馬・十三・大作・ちずる・小介
+豹馬・十三・大作・ちずる・小介, COMV_ComVTeam.bmp
+
+
+ピカデリー教授
+ピカデリー, COMV_PrPiccadilly.bmp
+
+#追加データ
+#第18話「出撃！ガルガンチュワ」に登場。ガルガンチュワの設計者。
+#「決定力に欠ける」というガルガンチュワの弱点を隠すため援助要請を拒否したり、超電磁の
+#技術を盗もうとしたりしたが、最後には自らガルガンチュワで出撃、絶体絶命のピンチから
+#コンＶを救うも、どれい獣にガルガンチュワを破壊されて戦死。
+
+#ダイアログエラー防止用
+剛健一
+健一, VTSV_GouKenichi.bmp

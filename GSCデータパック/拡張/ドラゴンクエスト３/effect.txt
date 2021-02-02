@@ -1,0 +1,88 @@
+
+ドラゴンクエスト３
+メラ(準備), Fire.wav
+メラ, Bazooka.wav
+メラ(命中), Explode(Small).wav
+メラミ(準備), Fire.wav
+メラミ, Bazooka.wav
+メラミ(命中), Explode(Small).wav
+メラゾーマ(準備), MultipleRocketLauncher.wav
+メラゾーマ, Warship.wav
+メラゾーマ(命中), Explode(Far).wav
+バギ, 3;Saber.wav;Saber.wav
+バギマ, Storm.wav
+バギマ(命中), 1;Slash.wav;1;Slash.wav;1;Slash.wav
+バギクロス, 3;Saber.wav;3;Saber.wav;Storm.wav
+バギクロス(命中), 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav
+ギラ, Beam.wav
+ベギラマ, AntiAirMissile.wav
+ベギラゴン(準備), AntiShipMissile.wav
+ベギラゴン, MicroMissile.wav
+ヒャド(準備), Sword.wav
+ヒャド, Bow.wav
+ヒャド(命中), 2;Stab.wav
+ヒャド(クリティカル), Glass.wav
+ヒャダルコ(準備), 1;Sword.wav;1;Sword.wav;Sword.wav
+ヒャダルコ, MultipleRocketLauncher(Light).wav
+ヒャダルコ(クリティカル), Glass.wav
+ヒャダイン(準備), Wind.wav
+ヒャダイン, Storm.wav
+ヒャダイン(命中), Sword.wav
+ヒャダイン(命中), Glass.wav
+ヒャダイン(命中), Saber.wav
+マヒャド(準備), Wind.wav
+マヒャド, 2;Storm.wav;2;Storm.wav;Storm.wav
+マヒャド(命中), 2;Glass.wav;2;Glass.wav;Glass.wav
+イオ(準備), BeamShot.wav
+イオ, Explode.wav
+イオラ(準備), 1;BeamShot.wav;BeamShot.wav
+イオラ, Explode(Far).wav
+イオナズン(準備), Charge.wav
+イオナズン, Explode(Nuclear).wav
+ライデイン(準備), Charge.wav
+ライデイン, Thunder.wav
+ギガデイン(準備), Charge(long).wav
+ギガデイン, 3;Thunder.wav;3;Thunder.wav;Thunder.wav
+ギガデイン(命中), Explode(Far).wav
+ザキ, Search.wav
+ザキ(クリティカル), Inori.wav;1;Black.bmp 480 480;Clear
+ザラキ, Search.wav
+ザラキ(クリティカル), Inori.wav;1;Black.bmp 480 480;Clear
+バシルーラ, Search.wav
+バシルーラ(命中), Bomb.wav
+ニフラム, BeamShot.wav
+ニフラム(クリティカル), Inori.wav;1;White.bmp 480 480;Clear
+ドラゴラム(準備), Fire.wav
+ドラゴラム, MicroMissile.wav
+凍てつく波動(準備), Charge.wav;1;Black.bmp 480 480;Clear
+凍てつく波動, MicroMissile.wav
+凍てつく波動(ＭＡＰ)(準備), LaserGun.wav;1;Black.bmp 480 480;Clear
+凍てつく波動(ＭＡＰ), MicroMissile.wav
+凍える吹雪, 2;Storm.wav;2;Storm.wav;Storm.wav
+大魔王の一撃, Swing.wav
+大魔王の一撃(命中), Crash.wav
+魔王の一撃, Swing.wav
+魔王の一撃(命中), Crash.wav
+激しい炎(準備), Fire.wav
+激しい炎, AntiAirMissile.wav
+会心の一撃(命中), 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;Crash.wav
+ホイミ, Sharara.wav;1;White.bmp 480 480;Clear
+ベホイミ, Sharara.wav;1;White.bmp 480 480;Clear
+ベホマ, Sharara.wav;1;White.bmp 480 480;Clear
+ベホマラー, Sharara.wav;1;White.bmp 480 480;Clear;Sharara.wav
+ベホマズン, 10;Charge(long).wav;Sharara.wav;1;White.bmp 480 480;Clear
+マホトーン, BeamShot.wav
+マホトーン(クリティカル), BreakOff.wav
+ラリホー, BeamShot.wav
+ラリホー(クリティカル), Bubble.wav
+マヌーサ, BeamShot.wav
+マヌーサ(クリティカル), Applause.wav;1;White.bmp 480 480
+シールド防御(勇者の盾), Sword.wav
+雷神の剣(準備), Thunder.wav
+攻撃無効化(スカラ), BeamCoat.wav
+反射(マホカンタ), BeamCoat.wav
+遊ぶ(解説), あそびにんは遊んでいる……。
+オンステージ(解説), $(パイロット)は敵味方の前に踊りだし、舞台に上ってショーをはじめた！
+
+大魔王ゾーマ
+攻撃無効化, BeamShot.wav

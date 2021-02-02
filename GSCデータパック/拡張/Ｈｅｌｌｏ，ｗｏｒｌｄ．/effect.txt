@@ -1,0 +1,44 @@
+粛清計画支援擬体
+機能掌握(準備), 5;WindowOpen.wav;Computer.wav
+機能掌握, Signal.wav
+機能掌握(クリティカル), Chaff.wav
+クラスタディティクター(準備), 5;WindowOpen.wav;1;Computer.wav
+クラスタディティクター, Signal.wav
+クラスタディティクター(命中), Crash.wav
+戦闘用エージェント(準備), 5;WindowOpen.wav;1;Computer.wav
+戦闘用エージェント, Signal.wav
+戦闘用エージェント(命中), Crash.wav
+格闘(クリティカル), Combo.wav
+紫電掌(準備), 5;WindowOpen.wav;1;Computer.wav
+紫電掌, Swing.wav
+紫電掌(命中), Thunder.wav
+ジャングルキングⅠ, Swing.wav
+ジャングルキングⅠ(命中), Stab.wav
+チタン合金製日本刀, Swing(2).wav
+チタン合金製日本刀(命中), Slash.wav
+雷閃, MachineGun.wav
+40mmグレネード, Bazooka.wav
+40mmグレネード(命中), Explode.wav
+Ｆ２０００Ａ, MachineGun.wav
+Ｍ８２Ａ１, 1;Explode(Nuclear).wav;Rifle.wav
+Ｍ８２Ａ１(命中), 1;Shock(low).wav;Explode.wav
+エテコウ遠隔操作, Drill.wav
+エテコウ遠隔操作(命中), Punch.wav
+周辺情報収集, 5;WindowOpen.wav;1;Computer.wav
+攻撃無効化(ファイヤーウォール), BeamCoat.wav
+阻止(クラスタディティクター), 2;BeamShot.wav;1;Signal.wav
+阻止(防御用エージェント), 2;BeamShot;1;Signal.wav
+
+エージェント
+逮捕術, Swing.wav
+逮捕術(命中), Punch.wav
+ディティクター(準備), 2;WindowOpen.wav;Computer.wav
+ディティクター, Signal.wav
+ディティクター(命中), Crash.wav
+雷閃, MachineGun.wav
+40mmグレネード, Bazooka.wav
+40mmグレネード(命中), Explode.wav
+Ｆ２０００Ａ, MachineGun.wav
+Ｍ８２Ａ１, 1;Explode(Nuclear).wav;Rifle.wav
+Ｍ８２Ａ１(命中), 1;Shock(low).wav;Explode.wav
+阻止(ディティクター), Signal.wav

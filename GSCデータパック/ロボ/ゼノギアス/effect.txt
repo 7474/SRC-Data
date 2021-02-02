@@ -1,0 +1,111 @@
+ギア
+フレームＨＰ, 10;Sharara.wav
+内装式チェーンガン, MachineCannon.wav
+指弾, 14;Sharara.wav;1;Warship.wav
+超指弾, 9;Whiz.wav;9;Whiz.wav;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;9;Whiz.wav
+武技雷撃(命中), Punch.wav
+武技烈風(命中), Punch.wav
+武技雷轟(命中), Punch.wav
+武技破山(命中), Punch.wav
+武技竜天(命中), Punch.wav
+武技十字(命中), Punch.wav
+武技雷舞(命中), Punch.wav
+武技龍舞(命中), Punch.wav
+武技震雷(命中), Punch.wav
+超武技光掌(命中), Combo.wav
+超武技轟天(命中), Combo.wav
+機神黒掌(命中), 5;Punch(2).wav;12;Combo.wav
+炎獄殺, Shock(Low).wav
+炎獄殺(命中), Fire.wav
+千光, Whiz.wav
+千光(命中), Explode(Far).wav
+ヒートナイフ(命中), Drill.wav
+ライフル, Rifle.wav
+肩部フレイムボマー, Bazooka.wav
+無音ガン, Bow.wav
+ブリキアーム＆キック, 3;Swing.wav;3;Swing.wav;6;FallDown.wav
+ブリキアーム＆キック(命中), Crash.wav
+ブリキスイング, Swing.wav
+ブリキスイング(命中), Combo.wav
+ロングブレード, BeamSaber.wav
+盃(命中), Punch.wav
+火炎放射(命中), Fire.wav
+刻印, Whiz.wav
+刻印(命中), Glass.wav
+スイングクロー(命中), Sword.wav
+カップソーサー, Whiz.wav
+カップソーサー(命中), Punch.wav
+カップスマッシュ(命中), Punch.wav
+４ＴＨスイングクロー(命中), 4;Sword.wav;4;Sword.wav;4;Sword.wav;10;Sword.wav
+パイルバンカー(命中), Stab.wav
+シールドミサイル, MultipleRocketLauncher(Light).wav
+シールドクラッシュ(命中), 6;Crash.wav;9;Crash.wav
+シールドラッシュ(命中), 3;Crash.wav;3;Crash.wav;3;Crash.wav
+ガトリングガン, FastGun.wav
+チェーンソード(命中), Slash.wav
+ソードスイング(命中), 4;Slash.wav;4;Slash.wav;4;Slash.wav
+ショートレンジスラッシュ(命中), 5;Swing.wav;3;Slash.wav;5;Swing.wav;3;Slash.wav;5;Swing.wav;3;Slash.wav
+シャープランサー(命中), Stab.wav
+ランスチャージ(命中), Crash.wav
+スウィープスライサー(命中), 5;Slash.wav;5;Stab.wav
+バトルワンド(命中), Punch.wav
+ビームガン, Beam.wav
+ショットライフル, 3;Rifle.wav;3;Rifle.wav
+パワービーム, Beam.wav
+ハイパーゴッデス(命中), 5;Punch.wav;6;Combo.wav
+イナズマフレイル(命中), 9;Thunder.wav;7;Whiz.wav;7;Whiz.wav;7;Whiz.wav
+レッドブラスト(命中), 3;Stab.wav;3;Stab.wav;3;Stab.wav;3;Stab.wav;6;Sharara.wav
+ダークゴッデス(命中), 9;Crash.wav;9;Crash.wav;9;Crash.wav
+エアッド(命中), 4;BeamShot.wav;4;BeamShot.wav;4;BeamShot.wav;9;Explode(Far).wav
+サウザンド, 6;Storm.wav;6;FastGun.wav
+ゴッドクライム, 6;Storm.wav;3;MachineCannon.wav;5;BeamShot.wav;2;BeamShot.wav;2;BeamShot.wav;2;BeamShot.wav
+ソウルオブゴッド, 6;Sharara.wav;4;Cannon.wav
+メテオフォール(命中), 4;Whip.wav;4;Whip.wav;4;Whip.wav;7;Explode(Far).wav
+デッドダンス(命中), 6;Whiz.wav;8;FastGun.wav
+ドリルカイザー(命中), Storm.wav
+ドライブカイザー(命中), 9;Punch(4).wav;5;Crash.wav
+アイアンカイザー(命中), 9;Combo.wav;7;Explode(Far).wav
+落葉(命中), 5;Whiz.wav;2;Stab.wav;2;Stab.wav;2;Stab.wav;2;Stab.wav;2;Stab.wav
+斬裂(命中), 2;Slash.wav;2;Slash.wav;2;Slash.wav;2;Slash.wav;2;Slash.wav
+炎剣(命中), 6;Slash.wav;6;Slash.wav;6;Whiz.wav
+ロケットアーム, 7;Cannon.wav;10;Storm.wav
+フィンガーミサイル, MultipleRocketLauncher(Light).wav
+シールド内蔵式刻印砲, Whiz.wav
+シールド内蔵式刻印砲(命中), Glass.wav
+刻印砲, Whiz.wav
+刻印砲(命中), Glass.wav
+
+
+特殊ギア
+フレームＨＰ, 10;Sharara.wav
+フィンガーミサイル, MultipleRocketLauncher(Light).wav
+トルネードハンマー, 7;Cannon.wav;10;Storm.wav
+ダークウェイブ(命中), 9;Punch(4).wav;6;Sharara.wav
+ダークフォース(命中), Fold.wav
+ダークワールド(命中), Punch(4).wav
+サンダードライブ(命中), 7;Punch(2).wav;3;FastGun.wav
+マグニートブレス(命中), 5;Punch.wav;9;Punch(4).wav;6;Fire.wav
+マリアビート(命中), 9;Combo.wav;7;Storm.wav;7;PiyoPiyo.wav
+
+アイオーン
+フレームＨＰ, 10;Sharara.wav
+フェザーブリッド, LaserGun.wav
+刺突(命中), 5;Slash.wav;5;Stab.wav
+天使の輪, 9;Whiz.wav;3;Sharara.wav;3;Sharara.wav;3;Sharara.wav;6;Sharara.wav
+天使の輪(命中), Glass.wav
+
+ゼノギアス(Ｈ)
+光の翼, BeamSaber.wav
+光の翼(命中), 3;Saber.wav;5;Saber.wav;7;Saber.wav
+超武技光掌, BeamSaber.wav
+超武技轟天, BeamSaber.wav
+機神黒掌, BeamSaber.wav
+機神黒掌(命中), 5;Punch(2).wav;12;Combo.wav;14;Sharara.wav;22;Explode(Far).wav
+
+ゼノギアス・イド
+超武技光掌, BeamSaber.wav
+超武技轟天, BeamSaber.wav
+機神黒掌, BeamSaber.wav
+機神黒掌(命中), 5;Punch(2).wav;12;Combo.wav;14;Sharara.wav;22;Explode(Far).wav
+
+

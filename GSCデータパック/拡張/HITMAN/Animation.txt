@@ -1,0 +1,33 @@
+ＨＩＴＭＡＮ
+麻酔注射(準備), 振る武器 Weapon\EFFECT_Potion(White)01.bmp 32 32
+麻酔注射(攻撃), タックル
+麻酔注射(命中), 刺突
+毒剤注射(準備), 振る武器 Weapon\EFFECT_PoisonBottle01.bmp 32 32
+毒剤注射(攻撃), タックル
+毒剤注射(命中), 刺突
+格闘, 格闘
+TWINBLADE, 脇差 二刀流
+SILVERBALLER<Silencer>, ピストル Bow.wav
+SILVERBALLER<Silencer>(命中), 銃弾
+SILVERBALLER<DUAL>, ピストル;ピストル
+WA2000_Sniper, ボルトアクションライフル Weapon\EFFECT_SniperRifle01.bmp 32 32
+WA2000_Sniper(命中), 銃弾
+RU-AP地雷, 爆弾
+SP12_Shotgun, ショットガン
+SMG_Tactical, サブマシンガン
+SAWED-OFF_Shotgun, ショットガン
+Barrett_M95, 対物ライフル
+Minigun, ガトリング
+静かなる暗殺者(攻撃), Swing.wav;透明化
+静かなる暗殺者(命中), 巨岩落下
+静かなる暗殺者(命中), 火柱
+静かなる暗殺者(命中), 液体噴射
+ネイルガン, ピストル
+ネイルガン(命中), ニードル
+ハンマー, 木槌
+ハンマー<投擲>, 投擲武器 Weapon\EFFECT_WoodHammer01.bmp 32 32
+Glock17, ピストル
+Beretta_M92, ピストル
+SAMURAI_Sword, 日本刀
+MP5SD_Submachinegun, サブマシンガン Weapon\EFFECT_Rifle01.bmp 32 32
+M4A1_Assaultcarbine, マシンガン Weapon\EFFECT_NewAssaultRifle01.bmp 32 32

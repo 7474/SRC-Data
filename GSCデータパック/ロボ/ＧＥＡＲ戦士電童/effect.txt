@@ -1,0 +1,38 @@
+ＧＥＡＲ
+タービンダッシュ, 9;Drill.wav;4;Swing.wav
+タービンダッシュ(命中), Punch.wav
+ノーマルプログラム, 9;Drill.wav;4;Swing.wav;4;Swing.wav
+ノーマルプログラム(命中), Punch(2).wav
+スペシャルプログラム, 9;Drill.wav;4;Swing.wav;4;Swing.wav
+スペシャルプログラム(命中), Explode(Small).wav
+ライトニングウィップ, 4;Swing.wav
+ライトニングウィップ(命中), Crash.wav
+ヒートスライサー, 1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav
+サークルカッター(命中), Drill.wav
+クロックマネージャー, 16;Search.wav;7;Whiz.wav
+クロックマネージャー(命中), Thunder.wav
+フェニックスウィング, 18;FlyBy.wav
+ユニコーンドリルＦＡ, 8;Crash.wav;9;Drill.wav;5;LaserGun.wav
+ドラゴンフレアＦＡ, 8;Crash.wav;9;Drill.wav;8;AntiShipMissile.wav
+バイパーウィップＦＡ, 8;Crash.wav;9;Drill.wav;5;Swing.wav;4;Swing.wav;4;Swing.wav;3;Swing.wav;3;Swing.wav;3;Swing.wav;2;Swing.wav
+レオサークルＦＡ, 8;Crash.wav;9;Drill.wav;3;Swing.wav
+レオサークルＦＡ(命中), Drill.wav
+ガトリングボアＦＡ, 8;Crash.wav;9;Drill.wav;4;Gunpod.wav
+ブルホーンＦＡ, 8;Crash.wav;9;Drill.wav;3;Warship.wav
+ブルホーンＦＡ(命中), Crash.wav
+輝刃ストライカーＦＡ, 8;Crash.wav;9;Drill.wav;2;Storm.wav
+輝刃ブレイカーＦＡ, 8;Crash.wav;9;Drill.wav;2;Storm.wav
+フェニックスエールＦＡ, 8;Crash.wav;9;Drill.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav
+データウェポンＳＡ, 8;Crash.wav;9;Drill.wav;3;LaserGun.wav;3;LaserGun.wav;3;LaserGun.wav
+超電童ヨーヨー, 4;Swing.wav;4;Swing.wav
+
+戦艦
+クェーサーキャノン, 18;Charge(long).wav;2;Beam.wav
+
+ＧＥＡＲ支援機
+硬質メジャー, 4;Swing.wav
+硬質メジャー(命中), Whip.wav
+ベーゴマ, 3;Bow.wav
+ベーゴマ(命中), Explode.wav
+
+

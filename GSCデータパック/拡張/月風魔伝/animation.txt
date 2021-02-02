@@ -1,0 +1,188 @@
+# ・指定されている汎用でない画像
+# 龍骨鬼……独眼独頭、龍頭鬼尾のユニットアイコン(ユニットデータよりアイコン名取得)
+
+
+月風魔
+守り太鼓(攻撃), GFMD_大文字発射 力 24 白 Bazooka.wav
+守り太鼓(命中), 飛沫 黄 Punch.wav
+魔性のコマ(準備), -
+魔性のコマ(攻撃), 瞬間変形 Anime\Common\EFFECT_Shine(Red)04.bmp 反映;GFMD_逆回転 正 高速;瞬間変形 反映
+魔性のコマ(命中), クリティカル斬撃
+刀,	日本刀
+呪いの爆薬(攻撃), 実弾発射 Bullet\EFFECT_STG_Bullet(Orange)03.bmp 24 Button3.wav 遅
+呪いの爆薬(命中), GFMD_回転連続描画 Light\EFFECT_BurnOff(Orange)[01-09].gif 80 5 1 Explode.wav _
+	オプション=下半分 相手ユニットＩＤ 上下反転
+手裏剣(攻撃), GFMD_拡散実弾 -.bmp Weapon\EFFECT_Shuriken01.bmp Weapon\EFFECT_Shuriken01.bmp _
+	Weapon\EFFECT_Shuriken01.bmp -.bmp Bow.wav 間隔=-8
+手裏剣(命中), 連突
+岩の剣, 鋼剣
+岩の剣(命中), 飛沫 黒 FightHit(3).wav
+波動剣, 妖刀
+波動剣(攻撃), 斬撃 Swing(3).wav;GFMD_拡散実弾 Common\EFFECT_SonicBoom(Orange)02.bmp Common\EFFECT_SonicBoom(Orange)02.bmp _
+	Common\EFFECT_SonicBoom(Orange)02.bmp -.bmp -.bmp -.wav 間隔=16
+波動剣(命中), 爆発 オレンジ FightHit(1).wav
+分身(魔性のコマ), 瞬間変形 Anime\Common\EFFECT_Shine(Red)04.bmp 反映 相手ユニットＩＤ;_
+	@戦闘アニメ_GFMD_逆回転攻撃 正 高速 相手ユニットＩＤ;瞬間変形 反映 相手ユニットＩＤ
+
+# GFMD_大文字発射、GFMD_逆回転、GFMD_拡散実弾
+
+
+月風魔(ＨＤ)
+念動波(攻撃),GFMD_拡散実弾 Common\EFFECT_SonicBoom(Orange)02.bmp Common\EFFECT_SonicBoom(Orange)02.bmp _
+	Common\EFFECT_SonicBoom(Orange)02.bmp -.bmp -.bmp Swing(3).wav
+念動波(命中), 爆発 オレンジ FightHit(1).wav
+波動剣(ＨＤ), 妖刀
+波動剣(ＨＤ)(命中), 斬撃
+月氏手裏剣(攻撃), GFMD_拡散実弾 Weapon\EFFECT_Shuriken01.bmp Weapon\EFFECT_Shuriken01.bmp Weapon\EFFECT_Shuriken01.bmp _
+	Weapon\EFFECT_Shuriken01.bmp Weapon\EFFECT_Shuriken01.bmp Bow.wav 間隔=-12
+月氏手裏剣(命中), 連突
+呪いの爆薬(ＨＤ), 実弾発射 Bullet\EFFECT_STG_Bullet(Orange)03.bmp 24 Button3.wav 遅
+呪いの爆薬(ＨＤ)(命中), GFMD_回転連続描画 Light\EFFECT_BurnOff(Orange)[01-09].gif 80 5 1 Explode.wav _
+	オプション=下半分 相手ユニットＩＤ 上下反転
+守り太鼓(ＨＤ)(攻撃), GFMD_大文字発射 力 36 白 Bazooka.wav
+守り太鼓(ＨＤ)(命中), 飛沫 黄 Punch.wav
+
+# GFMD_大文字発射、GFMD_拡散実弾
+
+
+河豚腹
+体当たり, 格闘
+腹転がし(攻撃), 実弾発射 Explode\EFFECT_BigExplodeA(White)03.bmp 32 Bow.wav
+腹転がし(命中), 格闘
+
+
+飛翔花
+体当たり, ジャンプ
+
+
+死門
+骨の鞭(攻撃), 伸縮武器 SlideWeapon\EFFECT_BeamChain(White)[01-03].bmp
+骨の鞭(命中), 鞭
+
+
+鬼面般若
+回転体当たり(攻撃), スピンアタック オレンジ
+回転体当たり(命中), 強打
+
+
+毛細血眼
+管(攻撃), GFMD_真下伸縮武器 SlideWeapon\EFFECT_BeamChain(Red)[01-03].bmp
+管(命中), 打撃
+
+# GFMD_真下伸縮武器
+
+
+火車(月風魔伝)
+暴走, スーパータックル オレンジ
+
+
+独眼独頭
+炎(攻撃), 炎投射
+炎(命中), 小爆発
+炎爆撃,	ＭＡＰ移動タックル 赤
+炎爆撃(命中), 5;Bomb.wav;炎
+火柱, 火炎弾
+火柱(命中), GFMD_二重連続描画 Action\EFFECT_Burn[01-09].bmp 32 Light\EFFECT_BurnOff(Orange)[01-09].gif 80 3 1 _
+	Breath.wav オプション２=上半分 相手ユニットＩＤ
+蛇行体当たり, タックル
+
+# GFMD_二重連続描画
+
+
+凶骨牛骸
+巨大剣(攻撃), GFMD_複数回転武器 Weapon\EFFECT_Sword(T)02.bmp 24 回転数=10 ランダム;_
+	GFMD_平行実弾 -.bmp Weapon\EFFECT_Sword(T)02.bmp Weapon\EFFECT_Sword(T)02.bmp -.bmp -.bmp;_
+	GFMD_平行実弾 -.bmp -.bmp Weapon\EFFECT_Sword(T)02.bmp Weapon\EFFECT_Sword(T)02.bmp -.bmp 
+巨大剣(命中), 大刺突
+投下剣(攻撃), 打ち下ろし Weapon\EFFECT_MulchThrowingSword02.bmp 96 -.wav
+投下剣(命中), 唐竹割り
+回転剣(準備), -
+回転剣(攻撃), GFMD_複数回転武器 Weapon\EFFECT_Sword(T)02.bmp 24 ランダム 
+回転剣(命中), 回転斬撃
+
+凶骨牛骸(六刀流)
+巨大剣(攻撃), GFMD_複数回転武器 Weapon\EFFECT_Sword(T)02.bmp 24 回転数=10 ６ ランダム;_
+	GFMD_平行実弾 -.bmp Weapon\EFFECT_Sword(T)02.bmp Weapon\EFFECT_Sword(T)02.bmp -.bmp -.bmp;_
+	GFMD_平行実弾 -.bmp -.bmp Weapon\EFFECT_Sword(T)02.bmp Weapon\EFFECT_Sword(T)02.bmp -.bmp;_
+	GFMD_平行実弾 -.bmp Weapon\EFFECT_Sword(T)02.bmp Weapon\EFFECT_Sword(T)02.bmp -.bmp -.bmp
+巨大剣(命中), 大刺突
+投下剣(攻撃), 打ち下ろし Weapon\EFFECT_MulchThrowingSword02.bmp 80 -.wav
+投下剣(命中), 唐竹割り
+回転剣(準備), -
+回転剣(攻撃), GFMD_複数回転武器 Weapon\EFFECT_Sword(T)02.bmp 24 ６ ランダム 
+回転剣(命中), 回転斬撃
+
+# GFMD_複数回転武器、GFMD_平行実弾
+
+
+竜頭鬼尾
+炎(攻撃), GFMD_平行実弾 -.bmp Bullet\EFFECT_STG_Bullet(Orange)02.bmp -.bmp _
+	Bullet\EFFECT_STG_Bullet(Orange)02.bmp -.bmp 24 間隔=-8
+炎(命中), 炎
+突進, タックル
+掃射(攻撃), GFMD_拡散実弾 Bullet\EFFECT_STG_Bullet(Orange)02.bmp -.bmp -.bmp -.bmp _
+	Bullet\EFFECT_STG_Bullet(Orange)02.bmp 24 速 -.wav;_
+	GFMD_拡散実弾 -.bmp Bullet\EFFECT_STG_Bullet(Orange)02.bmp -.bmp _
+	Bullet\EFFECT_STG_Bullet(Orange)02.bmp -.bmp 24 速 -.wav;_
+	GFMD_平行実弾 -.bmp Bullet\EFFECT_STG_Bullet(Orange)02.bmp -.bmp _
+	Bullet\EFFECT_STG_Bullet(Orange)02.bmp -.bmp 24 間隔=-8 速 -.wav;_
+	GFMD_拡散実弾 -.bmp Bullet\EFFECT_STG_Bullet(Orange)02.bmp -.bmp _
+	Bullet\EFFECT_STG_Bullet(Orange)02.bmp -.bmp 24 速 -.wav;_
+	GFMD_拡散実弾 Bullet\EFFECT_STG_Bullet(Orange)02.bmp -.bmp -.bmp -.bmp _
+	Bullet\EFFECT_STG_Bullet(Orange)02.bmp 24 速 -.wav
+掃射(命中), 点乱打 オレンジ
+
+# GFMD_平行実弾、GFMD_拡散実弾
+
+
+忍者(月風魔伝)
+刀,	脇差
+回転斬り(攻撃), 瞬間変形 Anime\Common\EFFECT_Shine(Pink)04.bmp 反映;GFMD_逆回転 正 高速;瞬間変形 反映
+回転斬り(命中), クリティカル斬撃
+
+# GFMD_逆回転
+
+
+龍骨鬼(魔道士)
+火炎弾, 火炎弾 オレンジ
+跳びかかり, ジャンプ
+
+龍骨鬼(鎧)
+小柄, 小柄
+阻止(反射盾), ＳＦシールド１ Flair.wav
+
+龍骨鬼
+拡散小弾(攻撃),	GFMD_二重連続描画 Light\EFFECT_BurnOff(Orange)[01-09].gif 100 _
+	Light\EFFECT_BurnOff(Orange)[01-09].gif 100 8 1 Cannon.wav オプション=上半分 オプション２=上半分 左右反転
+拡散小弾(命中),	連続爆発
+怨霊凶骨牛骸(攻撃), 打ち下ろし Weapon\EFFECT_MulchThrowingSword02.bmp 80 -.wav
+怨霊凶骨牛骸(命中), 唐竹割り
+怨霊竜頭鬼尾(準備), 召喚 ("Unit\" & Info("ユニットデータ",竜頭鬼尾,"グラフィック"))
+怨霊竜頭鬼尾(攻撃), GFMD_平行実弾 -.bmp Bullet\EFFECT_STG_Bullet(Orange)02.bmp -.bmp _
+	Bullet\EFFECT_STG_Bullet(Orange)02.bmp -.bmp 24 間隔=-8;_
+	GFMD_平行実弾 -.bmp Bullet\EFFECT_STG_Bullet(Orange)02.bmp -.bmp _
+	Bullet\EFFECT_STG_Bullet(Orange)02.bmp -.bmp 24 間隔=-8
+怨霊龍頭鬼尾(命中), 炎
+怨霊独眼独頭(準備), 召喚 ("Unit\" & Info("ユニットデータ",独眼独頭,"グラフィック"))
+怨霊独眼独頭(攻撃),火炎弾
+怨霊独眼独頭(命中), GFMD_二重連続描画 Action\EFFECT_Burn[01-09].bmp 32 Light\EFFECT_BurnOff(Orange)[01-09].gif 80 3 1 _
+	Breath.wav オプション２=上半分 相手ユニットＩＤ
+魔王の息吹(攻撃), GFMD_拡散実弾 -.bmp Impact\EFFECT_ImpactBall(Orange)02.bmp Impact\EFFECT_ImpactBall(Orange)02.bmp _
+	Impact\EFFECT_ImpactBall(Orange)02.bmp -.bmp 16 Explode(Small).wav 間隔=16
+魔王の息吹(命中), ダメージ オレンジ
+爪,	爪
+脱出, @戦闘アニメ_連続爆発命中;@戦闘アニメ_連続爆発命中
+
+# GFMD_二重連続描画、GFMD_平行実弾
+
+
+迎途荒威
+骨の障壁(攻撃), GFMD_実弾連なり Common\EFFECT_Skull02.bmp MoveUp.wav 遅 保持 角度固定
+骨の障壁(命中), 連打
+散弾(攻撃), GFMD_拡散実弾 Impact\EFFECT_ImpactBall(Orange)02.bmp Impact\EFFECT_ImpactBall(Orange)02.bmp _
+	Impact\EFFECT_ImpactBall(Orange)02.bmp Impact\EFFECT_ImpactBall(Orange)02.bmp _
+	Impact\EFFECT_ImpactBall(Orange)02.bmp Explode(Small).wav 16 間隔=24
+散弾(命中), 強打
+圧殺, 肩乗り 遅 Warship.wav
+
+# GFMD_実弾連なり、GFMD_拡散実弾

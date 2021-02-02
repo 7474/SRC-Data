@@ -1,0 +1,184 @@
+
+パイロット能力補正
+ＨＰ強化Lv-1=非表示 (レナ＝シャルロット＝タイクーン)
+ＥＮ強化Lv1=非表示 (レナ＝シャルロット＝タイクーン)
+運動性強化Lv1=非表示 (ファリス＝シェルヴィッツ)
+ＨＰ強化Lv1=非表示 (ガラフ＝ハルム＝バルデシオン)
+ＨＰ強化Lv-1=非表示 (クルル＝マイア＝バルデシオン)
+ＥＮ強化Lv1=非表示 (クルル＝マイア＝バルデシオン)
+装甲強化Lv-1=非表示 (クルル＝マイア＝バルデシオン)
+運動性強化Lv1=非表示 (クルル＝マイア＝バルデシオン)
+
+#　　ジョブユニットに載せた際に、パイロットによってパラメータが変動します。
+
+ジョブチェンジ
+換装=光の戦士【すっぴん】 光の戦士【ナイト】 光の戦士【モンク】 光の戦士【シーフ】 光の戦士【黒魔道士】 光の戦士【白魔道士】 光の戦士【青魔道士】 光の戦士【バーサーカー】 光の戦士【魔法剣士】 光の戦士【時魔道士】 光の戦士【召喚士】 光の戦士【赤魔道士】 光の戦士【忍者】 光の戦士【魔獣使い】 光の戦士【風水士】 光の戦士【狩人】 光の戦士【吟遊詩人】 光の戦士【侍】 光の戦士【竜騎士】 光の戦士【薬師】 光の戦士【踊り子】 光の戦士【物真似士】 光の戦士【剣闘士】 光の戦士【砲撃士】 光の戦士【予言士】 光の戦士【ネクロマンサー】 (光の戦士)
+
+バッツ画像変更
+ユニット画像=FF05_ButzKlauserU.bmp (光の戦士【すっぴん】)
+ユニット画像=FF05_ButzKlauser(Knight)U.bmp (光の戦士【ナイト】)
+ユニット画像=FF05_ButzKlauser(Monk)U.bmp (光の戦士【モンク】)
+ユニット画像=FF05_ButzKlauser(Thief)U.bmp (光の戦士【シーフ】)
+ユニット画像=FF05_ButzKlauser(BlackWizard)U.bmp (光の戦士【黒魔道士】)
+ユニット画像=FF05_ButzKlauser(WhiteWizard)U.bmp (光の戦士【白魔道士】)
+ユニット画像=FF05_ButzKlauser(BlueWizard)U.bmp (光の戦士【青魔道士】)
+ユニット画像=FF05_ButzKlauser(Berserker)U.bmp (光の戦士【バーサーカー】)
+ユニット画像=FF05_ButzKlauser(MagicFencer)U.bmp (光の戦士【魔法剣士】)
+ユニット画像=FF05_ButzKlauser(TimeWizard)U.bmp (光の戦士【時魔道士】)
+ユニット画像=FF05_ButzKlauser(Summoner)U.bmp (光の戦士【召喚士】)
+ユニット画像=FF05_ButzKlauser(RedWizard)U.bmp (光の戦士【赤魔道士】)
+ユニット画像=FF05_ButzKlauser(Hunter)U.bmp (光の戦士【狩人】)
+ユニット画像=FF05_ButzKlauser(Ninja)U.bmp (光の戦士【忍者】)
+ユニット画像=FF05_ButzKlauser(BeastTamer)U.bmp (光の戦士【魔獣使い】)
+ユニット画像=FF05_ButzKlauser(ElementalUser)U.bmp (光の戦士【風水士】)
+ユニット画像=FF05_ButzKlauser(Bard)U.bmp (光の戦士【吟遊詩人】)
+ユニット画像=FF05_ButzKlauser(Samurai)U.bmp (光の戦士【侍】)
+ユニット画像=FF05_ButzKlauser(DragonKnight)U.bmp (光の戦士【竜騎士】)
+ユニット画像=FF05_ButzKlauser(Chemist)U.bmp (光の戦士【薬師】)
+ユニット画像=FF05_ButzKlauser(Dancer)U.bmp (光の戦士【踊り子】)
+ユニット画像=FF05_ButzKlauser(Gradiater)U.bmp (光の戦士【剣闘士】)
+ユニット画像=FF05_ButzKlauser(Bombard)U.bmp (光の戦士【砲撃士】)
+ユニット画像=FF05_ButzKlauser(Prophet)U.bmp (光の戦士【予言士】)
+ユニット画像=FF05_ButzKlauser(Necromancer)U.bmp (光の戦士【ネクロマンサー】)
+
+レナ画像変更
+ユニット画像=FF05_LennaCharlotteTycoonU.bmp (光の戦士【すっぴん】)
+ユニット画像=FF05_LennaCharlotteTycoon(Knight)U.bmp (光の戦士【ナイト】)
+ユニット画像=FF05_LennaCharlotteTycoon(Monk)U.bmp (光の戦士【モンク】)
+ユニット画像=FF05_LennaCharlotteTycoon(Thief)U.bmp (光の戦士【シーフ】)
+ユニット画像=FF05_LennaCharlotteTycoon(BlackWizard)U.bmp (光の戦士【黒魔道士】)
+ユニット画像=FF05_LennaCharlotteTycoon(WhiteWizard)U.bmp (光の戦士【白魔道士】)
+ユニット画像=FF05_LennaCharlotteTycoon(BlueWizard)U.bmp (光の戦士【青魔道士】)
+ユニット画像=FF05_LennaCharlotteTycoon(Berserker)U.bmp (光の戦士【バーサーカー】)
+ユニット画像=FF05_LennaCharlotteTycoon(MagicFencer)U.bmp (光の戦士【魔法剣士】)
+ユニット画像=FF05_LennaCharlotteTycoon(TimeWizard)U.bmp (光の戦士【時魔道士】)
+ユニット画像=FF05_LennaCharlotteTycoon(Summoner)U.bmp (光の戦士【召喚士】)
+ユニット画像=FF05_LennaCharlotteTycoon(RedWizard)U.bmp (光の戦士【赤魔道士】)
+ユニット画像=FF05_LennaCharlotteTycoon(Hunter)U.bmp (光の戦士【狩人】)
+ユニット画像=FF05_LennaCharlotteTycoon(Ninja)U.bmp (光の戦士【忍者】)
+ユニット画像=FF05_LennaCharlotteTycoon(BeastTamer)U.bmp (光の戦士【魔獣使い】)
+ユニット画像=FF05_LennaCharlotteTycoon(ElementalUser)U.bmp (光の戦士【風水士】)
+ユニット画像=FF05_LennaCharlotteTycoon(Bard)U.bmp (光の戦士【吟遊詩人】)
+ユニット画像=FF05_LennaCharlotteTycoon(Samurai)U.bmp (光の戦士【侍】)
+ユニット画像=FF05_LennaCharlotteTycoon(DragonKnight)U.bmp (光の戦士【竜騎士】)
+ユニット画像=FF05_LennaCharlotteTycoon(Chemist)U.bmp (光の戦士【薬師】)
+ユニット画像=FF05_LennaCharlotteTycoon(Dancer)U.bmp (光の戦士【踊り子】)
+ユニット画像=FF05_LennaCharlotteTycoon(Gradiater)U.bmp (光の戦士【剣闘士】)
+ユニット画像=FF05_LennaCharlotteTycoon(Bombard)U.bmp (光の戦士【砲撃士】)
+ユニット画像=FF05_LennaCharlotteTycoon(Prophet)U.bmp (光の戦士【予言士】)
+ユニット画像=FF05_LennaCharlotteTycoon(Necromancer)U.bmp (光の戦士【ネクロマンサー】)
+
+ファリス画像変更
+ユニット画像=FF05_FarisScherwizU.bmp (光の戦士【すっぴん】)
+ユニット画像=FF05_FarisScherwiz(Knight)U.bmp (光の戦士【ナイト】)
+ユニット画像=FF05_FarisScherwiz(Monk)U.bmp (光の戦士【モンク】)
+ユニット画像=FF05_FarisScherwiz(Thief)U.bmp (光の戦士【シーフ】)
+ユニット画像=FF05_FarisScherwiz(BlackWizard)U.bmp (光の戦士【黒魔道士】)
+ユニット画像=FF05_FarisScherwiz(WhiteWizard)U.bmp (光の戦士【白魔道士】)
+ユニット画像=FF05_FarisScherwiz(BlueWizard)U.bmp (光の戦士【青魔道士】)
+ユニット画像=FF05_FarisScherwiz(Berserker)U.bmp (光の戦士【バーサーカー】)
+ユニット画像=FF05_FarisScherwiz(MagicFencer)U.bmp (光の戦士【魔法剣士】)
+ユニット画像=FF05_FarisScherwiz(TimeWizard)U.bmp (光の戦士【時魔道士】)
+ユニット画像=FF05_FarisScherwiz(Summoner)U.bmp (光の戦士【召喚士】)
+ユニット画像=FF05_FarisScherwiz(RedWizard)U.bmp (光の戦士【赤魔道士】)
+ユニット画像=FF05_FarisScherwiz(Hunter)U.bmp (光の戦士【狩人】)
+ユニット画像=FF05_FarisScherwiz(Ninja)U.bmp (光の戦士【忍者】)
+ユニット画像=FF05_FarisScherwiz(BeastTamer)U.bmp (光の戦士【魔獣使い】)
+ユニット画像=FF05_FarisScherwiz(ElementalUser)U.bmp (光の戦士【風水士】)
+ユニット画像=FF05_FarisScherwiz(Bard)U.bmp (光の戦士【吟遊詩人】)
+ユニット画像=FF05_FarisScherwiz(Samurai)U.bmp (光の戦士【侍】)
+ユニット画像=FF05_FarisScherwiz(DragonKnight)U.bmp (光の戦士【竜騎士】)
+ユニット画像=FF05_FarisScherwiz(Chemist)U.bmp (光の戦士【薬師】)
+ユニット画像=FF05_FarisScherwiz(Dancer)U.bmp (光の戦士【踊り子】)
+ユニット画像=FF05_FarisScherwiz(Gradiater)U.bmp (光の戦士【剣闘士】)
+ユニット画像=FF05_FarisScherwiz(Bombard)U.bmp (光の戦士【砲撃士】)
+ユニット画像=FF05_FarisScherwiz(Prophet)U.bmp (光の戦士【予言士】)
+ユニット画像=FF05_FarisScherwiz(Necromancer)U.bmp (光の戦士【ネクロマンサー】)
+
+ガラフ画像変更
+ユニット画像=FF05_GalufHalmBaldesionU.bmp (光の戦士【すっぴん】)
+ユニット画像=FF05_GalufHalmBaldesion(Knight)U.bmp (光の戦士【ナイト】)
+ユニット画像=FF05_GalufHalmBaldesion(Monk)U.bmp (光の戦士【モンク】)
+ユニット画像=FF05_GalufHalmBaldesion(Thief)U.bmp (光の戦士【シーフ】)
+ユニット画像=FF05_GalufHalmBaldesion(BlackWizard)U.bmp (光の戦士【黒魔道士】)
+ユニット画像=FF05_GalufHalmBaldesion(WhiteWizard)U.bmp (光の戦士【白魔道士】)
+ユニット画像=FF05_GalufHalmBaldesion(BlueWizard)U.bmp (光の戦士【青魔道士】)
+ユニット画像=FF05_GalufHalmBaldesion(Berserker)U.bmp (光の戦士【バーサーカー】)
+ユニット画像=FF05_GalufHalmBaldesion(MagicFencer)U.bmp (光の戦士【魔法剣士】)
+ユニット画像=FF05_GalufHalmBaldesion(TimeWizard)U.bmp (光の戦士【時魔道士】)
+ユニット画像=FF05_GalufHalmBaldesion(Summoner)U.bmp (光の戦士【召喚士】)
+ユニット画像=FF05_GalufHalmBaldesion(RedWizard)U.bmp (光の戦士【赤魔道士】)
+ユニット画像=FF05_GalufHalmBaldesion(Hunter)U.bmp (光の戦士【狩人】)
+ユニット画像=FF05_GalufHalmBaldesion(Ninja)U.bmp (光の戦士【忍者】)
+ユニット画像=FF05_GalufHalmBaldesion(BeastTamer)U.bmp (光の戦士【魔獣使い】)
+ユニット画像=FF05_GalufHalmBaldesion(ElementalUser)U.bmp (光の戦士【風水士】)
+ユニット画像=FF05_GalufHalmBaldesion(Bard)U.bmp (光の戦士【吟遊詩人】)
+ユニット画像=FF05_GalufHalmBaldesion(Samurai)U.bmp (光の戦士【侍】)
+ユニット画像=FF05_GalufHalmBaldesion(DragonKnight)U.bmp (光の戦士【竜騎士】)
+ユニット画像=FF05_GalufHalmBaldesion(Chemist)U.bmp (光の戦士【薬師】)
+ユニット画像=FF05_GalufHalmBaldesion(Dancer)U.bmp (光の戦士【踊り子】)
+ユニット画像=FF05_GalufHalmBaldesion(Gradiater)U.bmp (光の戦士【剣闘士】)
+ユニット画像=FF05_GalufHalmBaldesion(Bombard)U.bmp (光の戦士【砲撃士】)
+ユニット画像=FF05_GalufHalmBaldesion(Prophet)U.bmp (光の戦士【予言士】)
+ユニット画像=FF05_GalufHalmBaldesion(Necromancer)U.bmp (光の戦士【ネクロマンサー】)
+
+クルル画像変更
+ユニット画像=FF05_KrileMayerBaldesionU.bmp (光の戦士【すっぴん】)
+ユニット画像=FF05_KrileMayerBaldesion(Knight)U.bmp (光の戦士【ナイト】)
+ユニット画像=FF05_KrileMayerBaldesion(Monk)U.bmp (光の戦士【モンク】)
+ユニット画像=FF05_KrileMayerBaldesion(Thief)U.bmp (光の戦士【シーフ】)
+ユニット画像=FF05_KrileMayerBaldesion(BlackWizard)U.bmp (光の戦士【黒魔道士】)
+ユニット画像=FF05_KrileMayerBaldesion(WhiteWizard)U.bmp (光の戦士【白魔道士】)
+ユニット画像=FF05_KrileMayerBaldesion(BlueWizard)U.bmp (光の戦士【青魔道士】)
+ユニット画像=FF05_KrileMayerBaldesion(Berserker)U.bmp (光の戦士【バーサーカー】)
+ユニット画像=FF05_KrileMayerBaldesion(MagicFencer)U.bmp (光の戦士【魔法剣士】)
+ユニット画像=FF05_KrileMayerBaldesion(TimeWizard)U.bmp (光の戦士【時魔道士】)
+ユニット画像=FF05_KrileMayerBaldesion(Summoner)U.bmp (光の戦士【召喚士】)
+ユニット画像=FF05_KrileMayerBaldesion(RedWizard)U.bmp (光の戦士【赤魔道士】)
+ユニット画像=FF05_KrileMayerBaldesion(Hunter)U.bmp (光の戦士【狩人】)
+ユニット画像=FF05_KrileMayerBaldesion(Ninja)U.bmp (光の戦士【忍者】)
+ユニット画像=FF05_KrileMayerBaldesion(BeastTamer)U.bmp (光の戦士【魔獣使い】)
+ユニット画像=FF05_KrileMayerBaldesion(ElementalUser)U.bmp (光の戦士【風水士】)
+ユニット画像=FF05_KrileMayerBaldesion(Bard)U.bmp (光の戦士【吟遊詩人】)
+ユニット画像=FF05_KrileMayerBaldesion(Samurai)U.bmp (光の戦士【侍】)
+ユニット画像=FF05_KrileMayerBaldesion(DragonKnight)U.bmp (光の戦士【竜騎士】)
+ユニット画像=FF05_KrileMayerBaldesion(Chemist)U.bmp (光の戦士【薬師】)
+ユニット画像=FF05_KrileMayerBaldesion(Dancer)U.bmp (光の戦士【踊り子】)
+ユニット画像=FF05_KrileMayerBaldesion(Gradiater)U.bmp (光の戦士【剣闘士】)
+ユニット画像=FF05_KrileMayerBaldesion(Bombard)U.bmp (光の戦士【砲撃士】)
+ユニット画像=FF05_KrileMayerBaldesion(Prophet)U.bmp (光の戦士【予言士】)
+ユニット画像=FF05_KrileMayerBaldesion(Necromancer)U.bmp (光の戦士【ネクロマンサー】)
+
+###############################################################################
+
+#　　改定したユニットは、以下のエリアスを使用していません。
+#　　未改定ユニット用に残っています。
+
+プロテス
+プロテクションLv3=プロテス 物
+
+シェル
+プロテクションLv3=シェル 魔
+
+ヘイスト
+命中強化Lv3=非表示
+回避強化Lv3=非表示
+ダミー特殊能力名=ヘイスト 命中回避+15
+
+リフレク
+反射Lv6=リフレク 魔 100
+
+ブリンク
+攻撃回避Lv3=ブリンク 物
+
+レビテト
+空中移動=レビテト
+地形適応変更=-1 0 0 0
+
+リジェネ
+ＨＰ回復Lv1=ＨＰ回復Lv1／リジェネ
+
+マイティガード
+プロテクションLv3=マイティガード 物魔 15 115
+空中移動=マイティガード <気力Lv1.5>
+マイティガード=解説 気力115以上で発動、物理攻撃と魔法攻撃のダメージを30%軽減。発動時にＥＮを15消費。

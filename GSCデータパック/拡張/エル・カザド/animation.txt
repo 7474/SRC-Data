@@ -1,0 +1,43 @@
+エル・カザド
+格闘, 格闘
+加熱(準備), -
+加熱(攻撃), 粒子集中 橙 相手ユニットＩＤ Charge(Silent).wav
+加熱(命中), 火柱
+凍結(準備), -
+凍結(攻撃), ＭＡＰ凍結 Glass(3).wav
+凍結(命中), 凍結 Freeze.wav
+波動(準備), ユニット変色 紫 Charge(Silent).wav
+波動(攻撃), 波動放射 紫 BeamGun.wav
+波動(命中), 打撃 紫 Explode(Small).wav
+治療, ユニット変色 紫 対象ユニットＩＤ -.wav;回復魔法泡 Charge(Silent).wav
+プロテクション発動(鎮火), 地面衝撃 白 Whiz.wav
+阻止(マクスウェルの悪魔), 魔法放射 紫 EvilEye.wav
+催眠スプレー(準備), -
+催眠スプレー(攻撃), 煙 Broom.wav
+催眠スプレー(命中), -
+ヒートワイヤー(準備), -
+ヒートワイヤー(攻撃), 白兵武器
+ヒートワイヤー(命中), ダメージ 白 Whip.wav
+阻止(銃弾切断), 切り払い
+インカローズの力(準備), 魔法放射 紫 Charge(Silent).wav
+インカローズの力(攻撃), 実弾発射 Rock\EFFECT_LargeRock01.bmp 24 Bow.wav
+インカローズの力(命中), 打撃 Crash.wav
+手榴弾(準備), 閃光手榴弾
+手榴弾(攻撃), 白兵武器;実弾発射 Weapon\EFFECT_WilliePeter01.bmp 16 Swing.wav;ＭＡＰ大爆発
+手榴弾(命中), 爆発
+自爆, 自爆
+投槍, 投げ槍
+COLT_GOVERNMENT, ピストル EFFECT_RWG_COLT_GOVERNMENT.bmp 32
+SIG_SAUER_R226, ピストル EFFECT_RWG_SIG-SAUER_P226.bmp 32
+DESERT_EAGLE, ピストル EFFECT_RWG_IMI_DESERTEAGLE.bmp 32
+BERETTA_M92F, ピストル EFFECT_RWG_BERETTA_M92.bmp 32
+COLT_KINGCOBRA, リボルバー
+S&W_M60, リボルバー
+COLT_M1917, リボルバー
+MOSSBERG_M500, ショットガン
+FN_MINIMI, マシンガン
+UZI,マシンガン
+M4A1, マシンガン
+AK74, マシンガン EFFECT_RWG_USSR_AK74.bmp 48
+M24_CUSTOM, ライフル
+予備弾倉, 音再生 Reload(3).wav;10;音再生 Reload(5).wav

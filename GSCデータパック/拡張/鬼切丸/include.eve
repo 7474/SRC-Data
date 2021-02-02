@@ -1,0 +1,22 @@
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_ONK_地面突き刺し準備:
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+Local ANG = _GetAngle(UID)
+Local C_X = (WX(対象ユニットＩＤ) - 4)
+Local C_Y = (WY(対象ユニットＩＤ) - 4)
+Local B_C = _G_BC_FA()
+
+Playsound Slash(2).wav
+
+Wait Start
+_PaintCutin_KZS ("Hit\EFFECT_StabHit" & B_C & "01.bmp") 270 C_X (C_Y + 16) 40 32
+Wait Until 0.7
+_PaintCutin_KZS ("Hit\EFFECT_StabHit" & B_C & "00.bmp") 270 C_X (C_Y + 16) 40 32
+Wait Until 1.5
+
+ClearPicture
+Refresh
+Return

@@ -1,0 +1,409 @@
+戦闘アニメ_裁きの矢命中:
+
+_CenteringCheck 相手ユニットＩＤ
+
+Local i
+Local j
+Local ANG
+Local B_C = _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs()))
+Local C_X = (WX(相手ユニットＩＤ) - 16)
+Local C_Y = (WY(相手ユニットＩＤ) - 16)
+Local X_F Y_F
+
+If (_SearchOptionFromArgs("ランダム方向") = "") Then
+  Set ANG 270
+Else
+  Set ANG Random(360)
+EndIf
+
+Set X_F _GetCircumference((ANG + 90),Ｘ)
+Set Y_F _GetCircumference((ANG + 90),Ｙ)
+
+For j = 0 To 1
+  Wait Start
+  For i = 1 To 8
+    ClearPicture
+    If ((i > 1) And (i < 6)) Then
+      _SelectSound "Explode(Small).wav" _GetWavFromArgs()
+    EndIf
+    Switch i
+    Case 2
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * -9)) (C_Y + 26 + (Y_F * -9)) 12 12 右回転 ANG 透過 _ColorTime(1)
+    Case 3
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -9)) (C_Y + 24 + (Y_F * -9)) 16 16 右回転 ANG 透過 _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * 8)) (C_Y + 26 + (Y_F * 8)) 12 12 右回転 ANG 透過 _ColorTime(1)
+    Case 4
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -9)) (C_Y + 24 + (Y_F * -9)) 16 16 右回転 ANG 透過 _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 8)) (C_Y + 24 + (Y_F * 8)) 16 16 右回転 ANG 透過 _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * -3)) (C_Y + 26 + (Y_F * -3)) 12 12 右回転 ANG 透過 _ColorTime(1)
+    Case 5
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 8)) (C_Y + 24 + (Y_F * 8)) 16 16 右回転 ANG 透過 _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -3)) (C_Y + 24 + (Y_F * -3)) 16 16 右回転 ANG 透過 _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * 5)) (C_Y + 26 + (Y_F * 5)) 12 12 右回転 ANG 透過 _ColorTime(1)
+    Case 6
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -3)) (C_Y + 24 + (Y_F * -3)) 16 16 右回転 ANG 透過 _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 5)) (C_Y + 24 + (Y_F * 5)) 16 16 右回転 ANG 透過 _ColorTime(1)
+    Case 7
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 5)) (C_Y + 24 + (Y_F * 5)) 16 16 右回転 ANG 透過 _ColorTime(1)
+    EndSw
+    PaintPicture ("Beam\EFFECT_DBeamHit" & B_C & "0" & i & ".bmp") C_X C_Y 右回転 ANG 透過 _ColorTime(1)
+    Refresh
+    Wait Until (i * 0.7)
+  Next
+Next
+ClearPicture
+Refresh
+Return
+
+戦闘アニメ_矢連射改命中:
+
+Local i
+Local j
+Local ANG
+Local C_X
+Local C_Y
+Local R_X
+Local R_Y
+Local CNT
+Local BOW
+_CenteringCheck 相手ユニットＩＤ
+Set BOW 1
+Set C_X (WX(相手ユニットＩＤ) - 8)
+Set C_Y (WY(相手ユニットＩＤ) - 8)
+
+Set CNT _GetName(5,_GetNumberFromArgs())
+If (CNT > 10) Then
+  Set CNT 10
+EndIf
+
+Set i 1
+
+  Set ANG _GetAngle(_GetName(対象ユニットＩＤ,_GetIDFromArgs() ))
+  Wait Start
+
+  For j = 1 To 2
+    ClearPicture
+
+      Switch j
+
+      Case 1
+       _SelectSound "Stab.wav" _GetWavFromArgs()
+
+        Set R_X[i] Random(16)
+        Set R_Y[i] Random(16)
+        PaintPicture "Bullet\EFFECT_Arrow02.bmp" (C_X + R_X[i]) (C_Y + R_Y[i]) 透過 右回転 ANG _ColorTime()
+      Case 2
+        PaintPicture "Bullet\EFFECT_Arrow03.bmp" (C_X + R_X[i]) (C_Y + R_Y[i]) 透過 右回転 ANG _ColorTime()
+
+      EndSw
+
+    Refresh
+
+    Wait Until (i * 0.5)
+
+  Next
+
+  For i = 1 To (CNT - 1)
+    For j = 1 to 2
+    ClearPicture
+
+      Switch j
+      Case 1
+        
+########1
+        PaintPicture "Bullet\EFFECT_Arrow03.bmp" (C_X + R_X[i]) (C_Y + R_Y[i]) 透過 上下反転 右回転 ANG _ColorTime()
+########2 
+        _SelectSound "Stab.wav" _GetWavFromArgs()
+
+        Set R_X[(i + 1)] Random(16)
+        Set R_Y[(i + 1)] Random(16)
+        PaintPicture "Bullet\EFFECT_Arrow02.bmp" (C_X + R_X[(i + 1)]) (C_Y + R_Y[(i + 1)]) 透過 右回転 ANG _ColorTime()
+     Case 2
+########1
+        PaintPicture "Bullet\EFFECT_Arrow02.bmp" (C_X + R_X[i]) (C_Y + R_Y[i]) 透過 右回転 ANG _ColorTime()
+########2
+        PaintPicture "Bullet\EFFECT_Arrow03.bmp" (C_X + R_X[(i + 1)]) (C_Y + R_Y[(i + 1)]) 透過 右回転 ANG _ColorTime()
+
+      EndSw
+
+    Refresh
+    Wait Until (i * 0.5)
+  Next
+Next
+
+  For i = 1 To 2
+    ClearPicture
+
+      Switch i
+
+      Case 1
+        PaintPicture "Bullet\EFFECT_Arrow03.bmp" (C_X + R_X[CNT]) (C_Y + R_Y[CNT]) 透過 上下反転 右回転 ANG _ColorTime()
+      Case 2
+        PaintPicture "Bullet\EFFECT_Arrow02.bmp" (C_X + R_X[CNT]) (C_Y + R_Y[CNT]) 透過 右回転 ANG _ColorTime()
+
+      EndSw
+
+    Refresh
+    Wait Until (i * 0.6)
+  Next
+
+Return
+
+戦闘アニメ_クリティカル大刺突命中:
+Local i
+Local ANG
+Local C_X
+Local C_Y
+Local X_F
+Local Y_F
+Local BMP_FILE
+Local BMP_FILE2
+Local HIT_FILE
+Local LN
+Local UID
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+_CenteringCheck 相手ユニットＩＤ
+Set C_X WX(相手ユニットＩＤ)
+Set C_Y WY(相手ユニットＩＤ)
+
+Set ANG _GetAngle(UID)
+
+Set X_F _GetCircumference(ANG,Ｘ)
+Set Y_F _GetCircumference(ANG,Ｙ)
+
+Set BMP_FILE _GetBMPName(相手ユニットＩＤ)
+Set BMP_FILE2 _GetTileName(相手ユニットＩＤ)
+
+Incr C_X -2
+Incr C_Y -2
+
+If (X(_GetName(対象ユニットＩＤ,_GetIDFromArgs())) >= X(相手ユニットＩＤ)) Then
+  Set DRCT ""
+Else
+  Set DRCT 左右反転
+EndIf
+
+_SelectSound_HR "Slash.wav" "Saber.wav" _GetWavFromArgs()
+
+For i = 1 To 8
+  ClearPicture
+  If (BMP_FILE2 != "") Then
+    PaintPicture BMP_FILE2 C_X C_Y _ColorTime()
+  EndIf
+  Switch i
+  Case 1
+    Set HIT_FILE Hit\EFFECT_StrongSlashHit01.bmp
+  Case 2
+    Set LN 8
+    Set HIT_FILE Hit\EFFECT_StrongSlashHit01.bmp
+  Case 3
+    Set HIT_FILE Hit\EFFECT_StrongSlashHit02.bmp
+  Case 4
+    Set LN 12
+    Set HIT_FILE Hit\EFFECT_StrongSlashHit02.bmp
+  Case 5
+    Set HIT_FILE Hit\EFFECT_StrongSlashHit03.bmp
+  Case 6
+    Set LN 14
+    Set HIT_FILE Hit\EFFECT_StrongSlashHit03.bmp
+  Case 7
+    Set HIT_FILE Hit\EFFECT_StrongSlashHit04.bmp
+  Case 8
+    Set LN 7
+    Set HIT_FILE Hit\EFFECT_StrongSlashHit04.bmp
+  EndSw
+  PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 透過 _ColorTime()
+  PaintPicture HIT_FILE (C_X - 8) (C_Y - 8) 右回転 (ANG + 90) 透過 _ColorTime()
+  _SelectSound_HR "Slash.wav" "Saber.wav" _GetWavFromArgs()
+  Refresh
+  Wait Until (i * 0.5)
+Next
+If (BMP_FILE2 = "") Then
+  ChangeUnitBitmap 相手ユニットＩＤ 非表示解除
+EndIf
+ClearPicture
+Refresh
+Return
+
+ClearPicture
+Refresh
+Return
+
+戦闘アニメ_打ち上げ命中:
+
+Local i
+Local BMP_FILE
+Local BMP_FILE2
+Local X_F
+Local Y_F
+Local C_X
+Local C_Y
+Local UID
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck 相手ユニットＩＤ
+Set C_X WX(相手ユニットＩＤ)
+Set C_Y WY(相手ユニットＩＤ)
+
+Set BMP_FILE _GetBMPName(相手ユニットＩＤ)
+Set BMP_FILE2 _GetTileName(相手ユニットＩＤ)
+Set X_F _GetCircumference(90,Ｘ)
+Set Y_F _GetCircumference(90,Ｙ)
+
+Wait Start
+_SelectSound "Cannon.wav" _GetWavFromArgs()
+If (BMP_FILE2 = "") Then
+  ChangeUnitBitmap 相手ユニットＩＤ 非表示
+EndIf
+
+For i = 1 To 4
+  ClearPicture
+  If (BMP_FILE2 != "") Then
+    PaintPicture BMP_FILE2 C_X C_Y _ColorTime()
+  EndIf
+  Switch i
+  Case 1
+    PaintPicture BMP_FILE C_X C_Y 透過 _ColorTime()
+    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" (C_X + 4) (C_Y + 4) 24 24 透過 右回転 90 _ColorTime(1)
+  Case 2
+    PaintPicture BMP_FILE (C_X + (X_F * 14)) (C_Y + (Y_F * 14)) 透過 _ColorTime()
+    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" (C_X - 8) (C_Y - 8) 48 48 透過 右回転 90 _ColorTime(1)
+  Case 3
+    PaintPicture BMP_FILE (C_X + (X_F * 21)) (C_Y + (Y_F * 21)) 透過 _ColorTime()
+  Case 4
+    PaintPicture BMP_FILE (C_X + (X_F * 25)) (C_Y + (Y_F * 25)) 透過 _ColorTime()
+  EndSw
+  Refresh
+  Wait Until (i * 0.7)
+Next
+If (BMP_FILE2 = "") Then
+  ChangeUnitBitmap 相手ユニットＩＤ 非表示解除
+EndIf
+ClearPicture
+Refresh
+Return
+
+戦闘アニメ_叩き潰し命中:
+
+Local i
+Local BMP_FILE
+Local BMP_FILE2
+Local X_F
+Local Y_F
+Local C_X
+Local C_Y
+Local UID
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck 相手ユニットＩＤ
+Set C_X WX(相手ユニットＩＤ)
+Set C_Y WY(相手ユニットＩＤ)
+
+Set BMP_FILE _GetBMPName(相手ユニットＩＤ)
+Set BMP_FILE2 _GetTileName(相手ユニットＩＤ)
+Set X_F _GetCircumference(180,Ｘ)
+Set Y_F _GetCircumference(180,Ｙ)
+
+Wait Start
+_SelectSound "Cannon.wav" _GetWavFromArgs()
+If (BMP_FILE2 = "") Then
+  ChangeUnitBitmap 相手ユニットＩＤ 非表示
+EndIf
+
+For i = 1 To 2
+  ClearPicture
+  Switch i
+  Case 1
+    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" (C_X + 4) (C_Y + 4) 24 24 透過 左回転 90 _ColorTime(1)
+  Case 2
+    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" (C_X - 8) (C_Y - 8) 48 48 透過 左回転 9	0 _ColorTime(1)
+  EndSw
+  Refresh
+  Wait Until (i * 0.6)
+Next
+If (BMP_FILE2 = "") Then
+  ChangeUnitBitmap 相手ユニットＩＤ 非表示解除
+EndIf
+ClearPicture
+Refresh
+Return
+
+#以下有翼蛇氏作インクルード
+#及びそれを改変したものです
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_パターン決定改準備:
+
+Local i
+Local n
+
+If (戦闘アニメパターン != "") Then
+  If Skill(対象パイロット, 戦闘アニメパターン) Then
+    ClearSkill 対象パイロット 戦闘アニメパターン
+  EndIf
+  If Skill(相手パイロット, 戦闘アニメパターン) Then
+    ClearSkill 相手パイロット 戦闘アニメパターン
+  EndIf
+EndIf
+
+Set 戦闘アニメパターン
+
+Set n Args(1)
+
+戦闘アニメパターン =  ("パターン_" & n)
+
+SetSkill 相手パイロット 戦闘アニメパターン -1
+SpecialPower 対象パイロット 戦闘アニメ_パターン解除
+
+Set 戦闘アニメパターンＰ 相手パイロット
+
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_パターン決定準備:
+
+##　引数：パターン最大数
+##　戦闘アニメその他の準備シチュで呼び出して、とどめシチュまで相手パイロットに「パターン_x」を付加します。
+##　付加した制御用スキルは自動で消去されるはずです。消去されなかった場合、ご報告ください。
+##　ＭＡＰ兵器には非対応です。動作テストもしてません。
+
+Local i
+Local n
+
+If 戦闘アニメパターン Then
+  If Skill(対象パイロット, 戦闘アニメパターン) Then
+    ClearSkill 対象パイロット 戦闘アニメパターン
+  EndIf
+  If Skill(相手パイロット, 戦闘アニメパターン) Then
+    ClearSkill 相手パイロット 戦闘アニメパターン
+  EndIf
+EndIf
+
+Set 戦闘アニメパターン
+
+Set n Args(1)
+
+If n = "" Then
+  n = 1
+EndIf
+
+Set i Random(n)
+
+戦闘アニメパターン =  ("パターン_" & i)
+
+SetSkill 相手パイロット 戦闘アニメパターン -1
+SpecialPower 対象パイロット 戦闘アニメ_パターン解除
+
+Set 戦闘アニメパターンＰ 相手パイロット
+
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_パターン解除:
+
+ClearSkill 戦闘アニメパターンＰ 戦闘アニメパターン
+UnSet 戦闘アニメパターンＰ
+Unset 戦闘アニメパターン
+
+Return
+

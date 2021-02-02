@@ -1,0 +1,69 @@
+ドラゴンクエスト
+ギラ(準備), Fire.wav
+ギラ, Beam.wav
+ベギラマ(準備), Thunder.wav
+ベギラマ, MultipleRocketLauncher.wav
+ベギラゴン(準備), AntiShipMissile.wav
+ベギラゴン, MicroMissile.wav
+マホトーン, BeamShot.wav
+マホトーン(クリティカル), BreakOff.wav
+ラリホー, BeamShot.wav
+ラリホー(クリティカル), Bubble.wav
+灼熱の炎(準備), Fire.wav
+灼熱の炎, MicroMissile.wav
+竜王の顎, Storm.wav
+竜王の顎(命中), 3;Crash.wav;3;Crash.wav;Crash.wav
+ホイミ, Sharara.wav;1;White.bmp 480 480;Clear
+ベホイミ, Sharara.wav;1;White.bmp 480 480;Clear
+炎の剣(準備), Fire.wav
+シールド防御(ロトの盾), Sword.wav
+ドラゴンの杖, Swing.wav
+ドラゴンの杖(命中), Shock(Low).wav
+大鷲, Dolphin.wav
+大鷲(命中), Slash.wav
+
+ドラゴンクエスト２
+ギラ(準備), Fire.wav
+ギラ, Beam.wav
+魔道士の杖(準備), Fire.wav
+魔道士の杖, Beam.wav
+ベギラマ(準備), Thunder.wav
+ベギラマ, MultipleRocketLauncher.wav
+いかずちの杖(準備), Thunder.wav
+いかずちの杖, MultipleRocketLauncher.wav
+バギ, 3;Saber.wav;Saber.wav
+バギクロス, 3;Saber.wav;3;Saber.wav;Storm.wav
+バギクロス(命中), 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav
+イオナズン(準備), Charge.wav
+イオナズン, Explode(Nuclear).wav
+ホイミ, Sharara.wav;1;White.bmp 480 480;Clear
+ベホイミ, Sharara.wav;1;White.bmp 480 480;Clear
+ベホマ, Sharara.wav;1;White.bmp 480 480;Clear
+ザオリク, 5;Charge(long).wav;1;White.bmp 480 480;Clear;2;Sharara.wav;2;Sharara.wav;2;Sharara.wav
+マホトーン, BeamShot.wav
+マホトーン(クリティカル), BreakOff.wav
+ラリホー, BeamShot.wav
+ラリホー(クリティカル), Bubble.wav
+マヌーサ, BeamShot.wav
+マヌーサ(クリティカル), Applause.wav;1;White.bmp 480 480
+ルカナン, BeamShot.wav
+ルカナン(クリティカル), PowerDown.wav
+ザラキ(準備), Search.wav
+ザラキ, -.wav
+ザラキ(クリティカル), Inori.wav;1;Black.bmp 480 480;Clear
+破壊神の一撃, 1;Swing.wav;1;Swing.wav;1;Swing.wav;Swing.wav
+破壊神の一撃(命中), 1;Crash.wav;1;Crash.wav;1;Crash.wav;Crash.wav
+破壊の剣(準備), Search.wav
+破壊の剣, Swing.wav
+破壊の剣(命中), 1;Shock(Low).wav;1;Shock(Low).wav;1;Shock(Low).wav;1;Shock(Low).wav;Explode(Far).wav
+灼熱の炎(準備), Fire.wav
+灼熱の炎, MicroMissile.wav
+攻撃無効化(スカラ), BeamCoat.wav
+攻撃無効化(スクルト), BeamCoat.wav
+隼の剣, 1;Swing.wav;Swing.wav
+隼の剣(命中), 1;Saber.wav;Saber.wav
+シールド防御(ロトの盾), Sword.wav
+怪傑大ねずみの一撃, Swing.wav
+怪傑大ねずみの一撃(命中), 1;Shock(Low).wav;Shock(Low).wav
+大神官の杖, Swing.wav
+大神官の杖(命中), Shock(Low).wav

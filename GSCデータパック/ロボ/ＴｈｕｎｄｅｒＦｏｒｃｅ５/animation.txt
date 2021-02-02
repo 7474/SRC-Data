@@ -1,0 +1,129 @@
+
+VasteelTechnology
+回避, -
+Hunter(攻撃), @戦闘アニメ_飛沫使用 白 Cannon(4Shot).wav
+Hunter(命中), 粒子集中 白 Cannon(4Shot).wav
+BackShot(攻撃), 光弾 白 MachineGun(2).wav
+BackShot(命中), 小ビーム 白
+TwinShot(攻撃), ２連光弾 白 Gun(4Shot).wav
+TwinShot(命中), ２連小ビーム 白
+Wave(攻撃), 音波 Shindenzu.wav
+Wave(命中), 連続爆発
+FreeRange(攻撃), 大拡散ビーム 緑 BeamCoat.wav
+FreeRange(命中), ２連小ビーム 緑
+OverWeapon(準備)(RVR-02Vanbrace), @戦闘アニメ_光の翼攻撃 青 Charge(high).wav 二刀流;変形 TF5_RVR-02Vanbrace(OWM).bmp -.wav
+OverWeapon, メガショックビーム
+RailGun(攻撃), ニードルレーザー連射 白 Beam.wav
+RailGun(命中), ２連小ビーム 白
+Blade(攻撃), 気斬 黄 速 残像 Beam(4Shot).wav
+Blade(命中), 横大斬撃 黄 Slash(5).wav
+ＯＷRailGun(攻撃), 拡散ビーム 白 LaserGun.wav
+ＯＷRailGun(命中), ２連小ビーム 白
+ＯＷBlade(攻撃), 大ビーム 青 BeamGun.wav
+ＯＷBlade(命中), 大ビーム 青
+シールド防御(Crow), @戦闘アニメ_周囲回転使用 Barrier\EFFECT_Barrier04.bmp Tone.wav 3 相手ユニットＩＤ
+シールド防御(Shield), @戦闘アニメ_回復魔法使用 Block.wav 相手ユニットＩＤ
+オーバーウェポンLv1, 回復魔法 BeamShot.wav
+オーバーウェポンLv2, 粒子集中 青 BeamCoat.wav
+オーバーウェポンLv3, 粒子集中 白 Charge.wav;粒子集中 青 -.wav
+オーバーウェポンLv3(RVR-02), @戦闘アニメ_光の翼攻撃 青 Charge(high).wav 二刀流
+
+VasteelTechnologyOW
+回避, -
+Hunter(攻撃), マシンキャノン 白 Beam.wav
+Hunter(命中), 光斬撃乱舞 白 Slash(5).wav
+BackShot(攻撃), ２連ショックビーム 青 LaserGun.wav
+BackShot(命中), ２連ショックビーム 青 LaserGun.wav
+TwinShot(攻撃), ２連中ビーム 青 BeamGun.wav
+TwinShot(命中), ２連中ビーム 青
+Wave(攻撃), 必殺光線 パープル Shindenzu.wav
+Wave(命中), 連続爆発
+FreeRange(攻撃), メガショックビーム
+FreeRange(命中), メガショックビーム
+OverWeapon(攻撃), 超ビーム 白
+OverWeapon(命中), 超爆発
+RailGun(攻撃), ２連ショックビーム 青 LaserGun.wav
+RailGun(命中), ２連ショックビーム 青 LaserGun.wav
+Blade(攻撃), 大ビーム 青 BeamGun.wav
+Blade(命中), 大ビーム 青
+シールド防御(Crow), @戦闘アニメ_周囲回転使用 Barrier\EFFECT_Barrier04.bmp Tone.wav 3 相手ユニットＩＤ
+シールド防御(Shield), @戦闘アニメ_回復魔法使用 Block.wav 相手ユニットＩＤ
+
+
+
+
+
+E1_F036_55DeepPurple
+LaserTrackingCanon(準備), -
+LaserTrackingCanon(攻撃), ホーミングレーザー 青 BeamCoat.wav
+LaserTrackingCanon(命中), ２連中ビーム 青
+ActiveLaserCanon(準備), -
+ActiveLaserCanon(攻撃), 全拡散ビーム
+ActiveLaserCanon(命中), 包囲ビーム
+LPC-Canon(準備), -
+LPC-Canon(攻撃), 必殺光線 青 BeamSaber(5).wav
+LPC-Canon(命中), 爆発
+LaserValcan(準備), -
+LaserValcan(攻撃), マシンキャノン 赤 MachineGun(2).wav
+LaserValcan(命中), チェーンガン 赤
+WingArmCanon(準備), -
+WingArmCanon(攻撃), 唐竹割り Whiz.wav;キャノン砲 3 Cannon(4Shot).wav
+WingArmCanon(命中), 爆発
+拡散弾幕(準備), -
+拡散弾幕(攻撃), @戦闘アニメ_飛沫使用 赤 Gun.wav
+拡散弾幕(命中), ベアリング
+
+E2_R056_55IronMaiden
+EggChamber(準備), 変形 Unit\TF5_IronMaiden(A).bmp Swing.wav
+EggChamber(攻撃), ベアリング;変形 Swing.wav
+EggChamber(命中), ベアリング
+跳躍, 急降下
+LTMC-Canon(準備), 粒子集中 赤 charge.wav
+LTMC-Canon, ２連ショックビーム 赤
+Bomb-DILD(準備), @戦闘アニメ_実弾発射攻撃 Anime\BodyParts\EFFECT_CellWall(Purple)01.bmp 32 Whiz.wav
+Bomb-DILD(攻撃), 周囲回転 Anime\BodyParts\EFFECT_CellWall(Purple)01.bmp Whiz.wav 2 相手ユニットＩＤ;@戦闘アニメ_飛沫命中 赤 Gun.wav
+Bomb-DILD(命中), ベアリング
+扇状弾幕(準備), -
+扇状弾幕(攻撃), マシンキャノン 白 MachineGun.wav
+扇状弾幕(命中), チェーンガン 白
+岩石(準備), 変形 Unit\TF5_IronMaiden(A).bmp Swing.wav
+岩石(攻撃), 小型ミサイル 20 Crash.wav;変形 Swing.wav
+岩石(命中), 小型ミサイル 4
+シールド防御(頭部装甲／盾), 外殻防御 緑 Sword.wav 別名=頭部装甲
+
+Area7Gurdian-Unknown
+BrokenPiece(準備), 粒子集中 緑
+BrokenPiece(攻撃), 音再生 Glass.wav;@戦闘アニメ_飛沫使用 緑 -.wav;@戦闘アニメ_飛沫使用 白 -.wav
+BrokenPiece(命中), 吹雪 Explode(Small).wav
+HomingThing(準備), -
+HomingThing(攻撃), 実弾発射 Anime\BodyParts\EFFECT_EvilEye(Red)01.bmp 32 Beam(4Shot).wav
+HomingThing(命中), ダメージ
+BeamCanon(準備), -
+BeamCanon(攻撃), 波動放射 速 BeamCannon.wav
+BeamCanon(命中), 飛沫 青 Glass.wav
+ThrowingBullet(準備), -
+ThrowingBullet(攻撃), 白兵連撃
+ThrowingBullet(命中), ベアリング
+polygon(Red)(準備), -
+polygon(Red)(攻撃), 周囲回転 Anime\Barrier\EFFECT_MagicShield(Red)01.bmp Chaff.wav 3 相手ユニットＩＤ
+polygon(Red)(命中), 連続爆発
+polygon(Green)(準備), -
+polygon(Green)(攻撃), 回転発射 Anime\Barrier\EFFECT_MagicShield(Green)01.bmp Sword.wav
+polygon(Green)(命中), 大斬撃 緑
+LaserTrackingCanon(準備), -
+LaserTrackingCanon(攻撃), 大拡散ビーム 青 BeamCoat.wav
+LaserTrackingCanon(命中), ホーミングレーザー 青
+Biting, 噛み付き 連続
+SwordEdge(準備), -
+SwordEdge(攻撃), 全拡散ビーム 緑 Sword.wav
+SwordEdge(命中), 大刺突 緑
+Sword(準備), -
+Sword(攻撃), 大斬撃
+Sword(命中), 超斬撃
+ThunderSword(準備), ハイパービームサーベル 緑
+ThunderSword(攻撃), 超ビーム 緑
+ThunderSword(命中), 爆発
+分離(Area7Gurdian-Unknown), @戦闘アニメ_落盤命中 Reload.wav 緑;@戦闘アニメ_飛沫命中 白 Scream(Woman).wav
+分離(Area7Gurdian-Unknown(翼)), @戦闘アニメ_落盤命中 Reload.wav 緑;@戦闘アニメ_飛沫命中 白 Scream(Woman).wav
+破壊時分離(Area7Gurdian-Unknown), @戦闘アニメ_落盤命中 Reload.wav 緑;@戦闘アニメ_飛沫命中 白 Scream(Woman).wav
+破壊時分離(Area7Gurdian-Unknown(翼)), @戦闘アニメ_落盤命中 Reload.wav 緑;@戦闘アニメ_飛沫命中 白 Scream(Woman).wav

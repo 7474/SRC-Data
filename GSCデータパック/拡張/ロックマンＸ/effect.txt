@@ -1,0 +1,301 @@
+
+レプリロイド
+格闘(命中), Punch.wav
+Ｘバスター, Beam.wav
+ハイパーＸブラスター, 5;Charge.wav;10;Beam.wav
+クラッシュブラスター, 2;Beam.wav;10;Beam.wav
+スパイラルクラッシュバスター, 7;Charge.wav;10;Beam.wav
+ダブルバスター, 7;Charge.wav;6;Beam.wav;10;Beam.wav
+クロスチャージショット, 7;Charge.wav;10;Beam.wav
+ストックチャージショット, 7;Charge.wav;3;Beam.wav;3;Beam.wav;3;Beam.wav;3;Beam.wav
+プラズマチャージショット, 7;Charge.wav;10;Beam.wav
+ゼロバスター, Beam.wav
+バスター, Beam.wav
+リングショット, Beam.wav
+ギガクラッシュ, 5;Charge.wav;8;Explode.wav
+ハイパーギガクラッシュ, 7;Charge.wav;8;Explode(Nuclear).wav
+ノヴァストライク, 5;Charge.wav
+ホーミングトーピード, Missile.wav
+ブーメランカッター(命中), Slash.wav
+ストームトルネード, Storm.wav
+ショットガンアイス, Swing.wav
+ファイアーウェーブ, Breath.wav
+エレクトリックスパ－ク, Swing.wav
+ローリングシールド, BeamCoat.wav
+カメレオンスティング, Hide.wav
+ラッシングバーナー, Breath.wav
+クリスタルハンター, Swing.wav
+バブルスプラッシュ, Bubble.wav
+ソニックスライサー, Swing.wav
+ソニックスライサー(命中), Slash.wav
+ストライクチェーン, Swing.wav
+ストライクチェーン(命中), Punch.wav
+マグネットマイン, Swing.wav
+スクラップシュート, Swing.wav
+スピンホイール, Swing.wav
+スピンホイール(命中), Drill.wav
+パラスティックボム, Swing.wav
+アシッドラッシュ, Swing.wav
+バグホール, Storm.wav
+フロストシールド, Sword.wav
+スピニングブレード(命中), Slash.wav
+トライアードサンダー, Thunder.wav
+レイスプレッシャー, Beam.wav
+トルネードファンク(命中), Drill.wav
+グランドハンター, Swing.wav
+ライトニングウェブ, Swing.wav
+フロストタワー(命中), 2;Stab.wav;2;Stab.wav;2;Stab.wav
+エイミングレーザー, 4;Search.wav
+ダブルサイクロン,   Storm.wav
+ツインスラッシャー(命中), Slash.wav
+ソウルボディ, 2;Beam.wav
+ライジングファイア(命中), Punch.wav
+空円舞, 2;Bow.wav;2;Bow.wav;2;Bow.wav;2;Bow.wav
+落鳳破, Explode(Small).wav
+疾風牙, Saber.wav
+龍炎刃, Saber.wav
+氷烈斬, Saber.wav
+雷神撃, 2;Thunder.wav;2;Thunder.wav;2;Thunder.wav;8;Saber.wav
+アースクラッシュ, Explode.wav
+アースクラッシュ(射撃), Beam.wav
+大地を切り裂く龍, 2;Thunder.wav;2;Thunder.wav;2;Thunder.wav;8;Shock(Low).wav
+ダブルアースクラッシュ, 6;Beam.wav;10;Beam.wav
+刀, Swing.wav
+尾撃, Swing.wav
+ヴァヴァストライク(命中), Punch(3).wav
+鬼(命中), Combo.wav
+パラライスショット, Swing.wav
+ショルダーキャノン, Swing.wav
+火炎放射, Breath.wav
+ホーミングミサイル, Missile.wav
+阻止(天空覇), Saber.wav
+阻止(ビームサーバー), Sword.wav
+居合切り(命中), Slash.wav
+三段攻撃, 6;Beam.wav;6;Beam.wav;6;Saber.wav
+ビームサーヴァー(射撃), Saber.wav
+ビームサーヴァー, Saber.wav
+ビームカッター, Saber.wav
+ビームサーバー, Saber.wav
+カウンターコンビネーション(命中), 3;Slash.wav;3;Slash.wav;6;Slash.wav;4;Punch.wav;3;Explode(Small).wav;3;Explode(Small).wav;6;Explode(Small).wav
+パンチ(命中), Punch.wav
+ハンマー(命中), Punch.wav
+ローリングアタック(命中), Punch.wav
+キラー衛星, Beam.wav
+地雷, 3;Explode(Small).wav;3;Explode(Small).wav;6;Explode(Small).wav
+地雷(Ｍ), 3;Explode(Small).wav;3;Explode(Small).wav;6;Explode(Small).wav
+グラビィティボール, Storm.wav
+フィンガーランチャー, 3;Missile.wav;3;Missile.wav;3;Missile.wav;3;Missile.wav;6;Missile.wav
+電撃, Thunder.wav
+火炎, Breath.wav
+クロー(命中), Slash.wav
+五連光弾, 2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;10;Beam.wav
+サンダーボール, Saber.wav
+クローダイブ(命中), Slash.wav
+レーザー, Beam.wav
+六連光弾, 2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;10;Beam.wav
+シールド(命中), Punch.wav
+ナックル(命中), Punch(3).wav
+ミサイル, Missile.wav
+体当たり(命中), Punch.wav
+電気メス(命中), Stab.wav
+スクラップ, Swing.wav
+チュバルバスター, Beam.wav
+ロングレンジミサイル, Missile.wav
+ニードルパンチ(命中), Punch.wav
+スパイラルクロー(命中), Punch.wav
+ドリルパンチ(命中), Drill.wav
+魚雷, Missile.wav
+イーグルバスター, Beam.wav
+超出力バズーカ, 5;Charge.wav;8;Explode.wav
+エックスストライク(命中), Punch.wav
+阻止(メットガード), Type.wav
+阻止(バリアー), BeamCoat.wav
+バスター, Beam.wav
+修理光線, Beam.wav
+ゼリー(命中), Punch.wav
+電撃, Thunder.wav
+チェーンクロー(命中), Punch.wav
+リフレクザー, Beam.wav
+魔剣(命中), Slash.wav
+機雷(命中), Explode(Small).wav
+鉄球(命中), Punch.wav
+
+アイシーペンギーゴ・Ｃ
+阻止(氷の彫刻), 8;Wind.wav
+阻止(氷の鎧), 8;Wind.wav
+体当たり(命中), Punch.wav
+ショットガンアイス, Swing.wav
+アイスブレス, 4;Storm.wav
+氷の彫刻, 8;Wind.wav
+
+スティングカメリーオ・Ｃ
+カメレオンスティング, Beam.wav
+鋼鉄舌(命中), Punch.wav
+鎮魂曲(命中), Combo.wav
+
+アーマーアルマージ・Ｃ
+バスター, Beam.wav
+紫苑, Swing.wav
+超速回転装甲(命中), Punch.wav
+
+スパークマンドリラ・Ｃ
+豪速拳(命中), Punch.wav
+エレクトリックスパーク, Swing.wav
+
+バーニンナウマンダー・Ｃ
+地震, Shock(Low).wav
+ジャンププレス(命中), Shock(Low).wav
+ファイアーウェーブ, Breath.wav
+オイリングファイアーウェーブ, Breath.wav
+
+ストームイグリード・Ｃ
+突撃(命中), Punch.wav
+ストームトルネ－ド, Storm.wav
+サイクロン, Storm.wav
+
+ランチャーオクトパルド・Ｃ
+ホーミングトーピード, MicroMissile.wav
+Ｅドレイントルネード, Storm.wav
+エネルギードレイン, Swing.wav
+
+ブーメルクワンガー・Ｃ
+ブーメランカッター(命中), Slash.wav
+デッドリフト(命中), Punch.wav
+
+ワイヤーヘチマール・Ｃ
+触手, Swing.wav
+ストライクチェーン(命中), Punch.wav
+ヒステリックサンダー, Thunder.wav
+
+フレイムスタッガー・Ｃ
+スタッガーストライク(命中), Punch.wav
+ラッシングバーナー, Swing.wav
+バーニングストライク(命中), Combo.wav
+
+クリスタルマイマイン・Ｃ
+体当たり(命中), Punch.wav
+クリスタルハンター, Swing.wav
+時間コントロール(命中), Punch(4).wav
+
+ソニックオストリーグ・Ｃ
+オストリーグストライク(命中), Punch.wav
+ソニックスライサー, Swing.wav
+ソニックスライサー(命中), Slash.wav
+ソニックカッター, Swing.wav
+ソニックカッター(命中), Slash.wav
+
+マグネヒャクレッガー・Ｃ
+ウイルス, Search.wav
+マグネットマイン, Swing.wav
+ストライクテール, Swing.wav
+
+バブリークラブロス・Ｃ
+子クラブロス, Swing.wav
+バブルスプラッシュ, Bubble.wav
+ビームシザーズ(命中), Stab.wav
+
+メタモルモスミーノスさなぎ・Ｃ
+リン粉, 6;Interference.wav
+スクラップシュート, Swing.wav
+
+メタモルモスミーノス・Ｃ
+ピンポイントバリア(リン粉), 6;Interference.wav
+リン粉, 6;Interference.wav
+バスター, Beam.wav
+
+ホイールアリゲイツ・Ｃ
+牙(命中), Stab.wav
+スピンホイール(命中), Drill.wav
+スピンアタック(命中), Drill.wav
+
+フローズンバッファリオ・Ｃ
+フロストシールド(命中), Sword.wav
+バッファリオストライク(命中), Punch.wav
+フロストレーザー(命中), Sword.wav
+
+スクリューマサイダー・Ｃ
+トルネードファング(命中), Drill.wav
+ドリルファング(命中), Drill.wav
+
+エクスプローズホーネック・Ｃ
+ポイゾンニードル(命中), Stab.wav
+パラスティックボム, Swing.wav
+
+フルアーマーエクスプローズホーネック・Ｃ
+腕部２連装バスター, Beam.wav
+６連装バスター, Beam.wav
+１２連装バスター, Beam.wav
+肩部バスター, Beam.wav
+ショルダーキャノン, Beam.wav
+一斉射撃, 3;Beam.wav;3;Beam.wav;3;Beam.wav;3;Beam.wav;3;Beam.wav;6;Beam.wav
+
+エクスプローズホーネック・Ｃベーシック
+ポイゾンニードル(命中), Stab.wav
+パラスティックボム, Swing.wav
+
+シャイニングタイガード・Ｃ
+阻止(ビームクロー), Sword.wav
+レイスプレッシャー, Beam.wav
+ビームクロー, Saber.wav
+
+シザーズシュリンプァー・Ｃ
+パラライスショット, Beam.wav
+ブレードパンチ, Missile.wav
+ブレードパンチ(命中), Slash.wav
+スピニングブレード(命中), Slash.wav
+
+エレキテルマズロス・Ｃ
+阻止(ドクロハリセン), Sword.wav
+ドクロハリセン, Swing.wav
+ドクロハリセン(命中), Slap.wav
+トライアードサンダー, Thunder.wav
+強化トライアードサンダー, Charge.wav
+強化トライアードサンダー(命中), Thunder.wav
+充電, Charge.wav
+
+アシッドシーフォース・Ｃ
+超回避(液化), 6;Shower.wav
+シーフォースストライク(命中), Punch.wav
+アシッドラッシュ, Swing.wav
+液化攻撃(命中), Punch.wav
+
+グラビティビートブート・Ｃ
+小型バグホール, Storm.wav
+バグホール, Storm.wav
+大型バグホール, Storm.wav
+特大バグホール, Storm.wav
+
+
+寄生チップ
+寄生(命中), Punch.wav
+
+
+戦艦
+機銃, Vulcan.wav
+主砲, Shock(Low).wav
+ツバメール・Ｓ, MicroMissile.wav
+バスター, Beam.wav
+主砲, Beam.wav
+地ならし, Warship.wav
+
+
+戦闘機
+バルカン, Vulcan.wav
+ミサイル, Missile.wav
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

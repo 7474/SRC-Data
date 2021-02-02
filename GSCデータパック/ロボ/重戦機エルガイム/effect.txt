@@ -1,0 +1,59 @@
+#重戦機エルガイムエフェクトデータVer0.9(2000/11作成)
+#これはおかしいと言うものがあればご一報ください(^^;)。byたくま老(QYQ01077@nifty.ne.jp)
+
+
+ＨＭ
+２連装ロングランチャー, 1;Beam.wav;1;Beam.wav
+Ｓマインチャージャー, 2;Type.wav;5;Swing.wav
+エネルギーボンバー, GunPod.wav
+エネルギーボンバー(命中), Thunder.wav
+エネルギーサッシュ, GunPod.wav
+エネルギーサッシュ(命中), Thunder.wav
+スモークディスチャージャー, 2;Type.wav;5;Swing.wav
+サイズ(準備), BeamSaber.wav
+スロウスピア, Bow.wav
+スロウランサー, Bow.wav
+スロウランサー(MAP), MultipleRocketLauncher(Light).wav
+スロウランサー(MAP)(命中), 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav
+セイバーアーム, BeamSaber.wav
+セイバーフロッガー(準備), BeamSaber.wav
+セイバーフロッガー, Whiz.wav
+セイバーフロッガー(命中), Whip.wav
+ソードセイバー(準備), BeamSaber.wav
+ツインバスターランチャー(準備), Charge(Long).wav
+ツインバスターランチャー, Explode(Nuclear).wav
+トリプルフロッガー(準備), BeamSaber.wav
+トリプルフロッガー, Whiz.wav
+トリプルフロッガー(命中), Whip.wav
+バインダーパワーランチャー, 1;Beam.wav;1;Beam.wav
+ハンドランチャー, Beam.wav
+ハンドランチャー(MAP), 1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav
+バスターランチャー(準備), Charge.wav
+バスターランチャー, Explode(Nuclear).wav
+バスターランチャー(Full)(準備), Charge(Long).wav
+バスターランチャー(Full), Explode(Nuclear).wav
+フレイル, Swing.wav
+フレイル(命中), Punch.wav
+ブレイクセイバー(準備), BeamSaber.wav
+ボンバーユニット, MultipleRocketLauncher.wav
+フレームランチャー, Fire.wav
+ミサイル, Micromissile.wav
+リバースボマー, GunPod.wav
+リバースボマー(命中), 1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav
+リモートバインダー, 3;Beam.wav;3;Beam.wav
+レーザー, BeamShot.wav
+レーザーガン, BeamShot.wav
+レーザーランチャー, BeamShot.wav
+大型セイバー, BeamSaber.wav
+子パードナー, 3;Beam.wav;3;Beam.wav;3;Beam.wav
+対人レーザー, BeamShot.wav
+多弾頭ミサイル, Micromissile.wav
+太刀セイバー, BeamSaber.wav
+
+ＳＳ
+対空レーザー, 1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav
+ミサイル, MultipleRocketLauncher.wav
+ボンバーユニット(準備), Type.wav
+ボンバーユニット, MultipleRocketLauncher.wav
+バスターランチャー(準備), Charge(Long).wav
+バスターランチャー, Explode(Nuclear).wav

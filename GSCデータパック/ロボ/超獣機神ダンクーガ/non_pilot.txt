@@ -1,0 +1,91 @@
+###########################################
+##########                        #########
+##########    ムゲ・ゾルバドス    #########
+##########                        #########
+###########################################
+
+ムゲ・ゾルバドス帝王
+ムゲ, DCG_EmperorMuge.bmp
+
+#仮面をつけたムゲ帝王です。
+#素顔のバージョンはパイロットで。
+
+ルーナ＝ロッサ
+ルーナ, DCG_LuunaRossa.bmp
+
+ゲル(ムゲ)
+ゲル, DCG_Gell.bmp
+
+ヘカテ(ムゲ)
+ヘカテ,DCG_Hekate.bmp
+
+##########################################
+##########                       #########
+##########        獣戦機隊       #########
+##########                       #########
+##########################################
+
+ロス＝イゴール
+イゴール, DCG_RosEgole.bmp
+
+ロス＝イゴール(現行対応)
+イゴール長官, DCG_RosEgole.bmp
+#パイロットにもいますが、互換として一応設置。
+
+ローラ＝サリバン
+ローラ, DCG_LoraSaliban.bmp
+
+マルテ(ダンクーガ)
+マルテ, DCG_Marute.bmp
+
+##########################################
+##########                       #########
+##########        獣戦機隊       #########
+##########       表情対応用      #########
+##########                       #########
+##########################################
+
+藤原忍(攻撃)
+忍, DCG_FujiwaraShinobu(A).bmp
+忍(攻撃)
+忍, DCG_FujiwaraShinobu(A).bmp
+
+藤原忍(ダメージ)
+忍, DCG_FujiwaraShinobu(D).bmp
+忍(ダメージ)
+忍, DCG_FujiwaraShinobu(D).bmp
+
+藤原忍(やりやがったな)
+忍, DCG_FujiwaraShinobu(Y).bmp
+忍(やりやがったな)
+忍, DCG_FujiwaraShinobu(Y).bmp
+
+結城沙羅(攻撃)
+沙羅, DCG_YuukiSara(A).bmp
+沙羅(攻撃)
+沙羅, DCG_YuukiSara(A).bmp
+
+結城沙羅(ダメージ)
+沙羅, DCG_YuukiSara(D).bmp
+沙羅(ダメージ)
+沙羅, DCG_YuukiSara(D).bmp
+
+式部雅人(攻撃)
+雅人, DCG_SikibuMasato(A).bmp
+雅人(攻撃)
+雅人, DCG_SikibuMasato(A).bmp
+
+式部雅人(ダメージ)
+雅人, DCG_SikibuMasato(D).bmp
+雅人(ダメージ)
+雅人, DCG_SikibuMasato(D).bmp
+
+司馬亮(攻撃)
+亮, DCG_SibaRyou(A).bmp
+亮(攻撃)
+亮, DCG_SibaRyou(A).bmp
+
+司馬亮(ダメージ)
+亮, DCG_SibaRyou(D).bmp
+亮(ダメージ)
+亮, DCG_SibaRyou(D).bmp

@@ -1,0 +1,283 @@
+### 銀河連邦警察 --------------------------------------------------------
+
+宇宙刑事ギャバン
+シルバービーム, LaserGun.wav
+ディメンションボンバー, Punch.wav
+レーザーＺビーム, Swing.wav;3;LaserGun.wav
+ギャバンダイナミック, Slash.wav
+ギャバンダイナミック(命中), Sword(2).wav
+宇宙刑事連続斬り, -
+
+
+宇宙刑事ギャバン(サイバリアン)
+サイバリアンレーザー, ニードルレーザー連射 青
+サイバリアンロケッター(攻撃), 重機関砲
+サイバリアンロケッター(命中), 爆発
+サイバリアンスピン(攻撃), タックル Bike.wav
+サイバリアンスピン(命中), 強打
+
+
+超次元高速機ドルギラン
+ドルギランレーザー, Laser.wav
+
+電子星獣ドル
+ドルレーザー, BeamGun.wav
+ギャバンダイナミック, Slash.wav
+ギャバンダイナミック(命中), Sword(2).wav
+
+
+高次元戦闘車ギャビオン
+ギャビオンミサイル, Missile(4Shot).wav
+ギャビオンレーザー, LaserGun(80s).wav
+スクーパー, GunPod.wav
+スクーパー(命中), Drill.wav
+
+スクーパー(ギャバン)
+スクーパーディック, Drill.wav
+スクーパーレーザー, Beamvalcan.wav
+
+
+
+宇宙刑事アラン
+炸裂弾, Swing.wav
+炸裂弾(命中), Explode.wav
+フラッシュ・イン・ゴー, 「フラァッシュ！！ イン・ゴーッ！！」;Charge(High).wav
+フラッシュ・イン・ゴー(命中), Explode.wav
+
+
+### 宇宙犯罪組織マクー --------------------------------------------------------
+
+ドン・ホラー
+レーザーハンド, BeamSaber(4).wav
+レーザーハンド(命中), Explode.wav;3;Explode.wav
+
+
+ドン・ホラーの首
+火炎弾, Cannon(8Shot).wav
+突撃, Breath.wav
+突撃(命中), Explode.wav
+
+
+サン・ドルバ
+怪光線, BeamCoat.wav
+怪光線(命中), Explode.wav
+
+
+魔女キバ
+妖術, Houring.wav
+念動力, BeamSaber(3).wav
+念動力(命中), Explode.wav
+
+
+マクー戦闘円盤
+ビーム砲, Beam2.wav
+
+## 銃星人ダブルマン --------------------------------
+
+獣星人ダブルマン(ゾンビＣ)
+改造腕, Slash.wav
+
+
+## ベム怪獣 -------------------------------------
+
+シャコモンスター
+怪光線, LaserGun.wav
+
+ガマラモンスター
+怪光線, LaserGun.wav
+ローリングアタック, Punch.wav
+
+コンドルモンスター
+怪光線, Laser.wav
+電撃, BeamSaber.wav
+
+サソリモンスター
+毒爪, Saber.wav
+怪光線, LaserGun.wav
+念力, Whiz.wav
+念力(命中), Explode.wav
+
+ドクジャモンスター
+怪光線, LaserGun.wav
+
+オオマダコモンスター
+怪球, Bubble.wav;3;Punch.wav
+怪光線, Laser.wav
+電撃触手ムチ(命中), Whip.wav;2;Beam2.wav
+
+ニジチョウモンスター
+鱗粉, Glass(3).wav
+怪光線, Beam.wav
+
+アルマジロモンスター
+ロケット弾, MachineCannon.wav
+ロケット弾(命中), Explode.wav
+組み付き, Punch.wav
+
+ゴートモンスター
+泡, Mist.wav
+泡(命中), Explode.wav
+
+
+## ダブルモンスター -------------------------------------
+
+サイダブラー
+怪力, Punch.wav
+骨, Punch.wav
+
+シャモダブラー
+串, Saber.wav
+串投げ, Swing.wav
+
+ヒョウダブラー
+罠付き杖, Punch.wav
+
+アオガメダブラー
+大貝挟み, Missile.wav
+大貝挟み(命中), Punch.wav
+亀甲パワー, Missile.wav;3;Missile.wav
+亀甲パワー(命中), MetalDrum.wav;3;MetalDrum.wav
+法螺貝, Houring.wav
+
+キョウリュウダブラー
+キョウリュウアロー, Missile.wav
+キョウリュウアロー(命中), Explode.wav
+
+ケラダブラー
+爪, Punch.wav
+土煙, Mist.wav
+ミサイル, Reload(3).wav;2;Reload(3).wav;4;Reload(3).wav;MachineCannon.wav
+ミサイル(命中), Explode.wav
+ショルダーバズーカ, Cannon.wav
+
+ミツバチダブラー
+麻酔針, Saber.wav
+ミツバチ毒針, Missile.wav
+ミツバチ毒針(命中), Explode.wav
+
+クモダブラー
+蜘蛛, BeamCoat.wav;3;Missile.wav
+蜘蛛(命中), Explode.wav
+
+サーベルダブラー
+手榴弾, Reload(4).wav;4;Swing.wav
+手榴弾(命中), Explode.wav
+
+ゴシキダブラー
+ロケット砲, MachineCannon.wav
+ロケット砲(命中), Explode.wav
+夜叉変化, Saber.wav;2;Saber.wav
+
+ガスダブラー
+毒ガス, Mist.wav
+鋏杖, Saber.wav
+剣, Saber.wav;2;Saber.wav
+
+ハッコツダブラー
+白骨棒, Swing.wav
+白骨棒(命中), Punch.wav
+骸骨爆弾, Swing.wav
+骸骨爆弾(命中), Explode.wav
+白骨化, Bubble.wav;4;Saber.wav
+白骨化(命中), Crash.wav
+
+マジックダブラー
+火炎弾, -
+火炎弾(命中), Explode.wav
+ギロチン, Swing.wav
+ギロチン(命中), Slash.wav
+
+ケイビダブラー
+ローリングアタック, Punch.wav
+ヘッドアタック, Swing.wav
+ヘッドアタック(命中), Explode.wav
+ヘッドアタック(命中), Punch.wav
+
+ワーラ(ギャバン)
+怪光線, BeamSaber(4).wav
+怪光線(命中), Explode.wav
+
+サイミンダブラー
+怪光線, BeamSaber(4).wav
+怪光線(命中), Explode.wav
+ローリングアタック, Punch.wav
+
+トツゲキダブラー
+火炎弾, -
+火炎弾(命中), Explode.wav
+鉄骨化, Bubble.wav;4;Saber.wav
+鉄骨化(命中), Crash.wav
+
+カイブツダブラー
+火炎弾, -
+火炎弾(命中), Explode.wav
+
+ウラミダブラー
+錫杖, Punch.wav
+恨みの五寸釘, Slash(4).wav;4;Slash(4).wav
+恨みの五寸釘(命中), Stab.wav;4;Stab.wav;4;Stab.wav
+
+アナホリダブラー
+握り潰し, Whiz.wav
+握り潰し(命中), Punch.wav
+
+ギャングダブラー
+火炎弾, -
+火炎弾(命中), Punch.wav
+磁石固め, Whiz.wav
+磁石固め(命中), Punch.wav
+磁石爆弾, Swing.wav
+磁石爆弾(命中), Punch.wav
+磁力光線, Laser(80s).wav
+
+ノットリダブラー
+熱線銃, LaserGun.wav
+
+ヨウカイダブラー
+念力, Boot.wav
+念力(命中), Crash.wav
+念力槍, FlyBy(High).wav
+念力槍(命中), Stab.wav
+糸, Mist.wav
+念力火炎弾, Swing.wav
+念力火炎弾(命中), Explode.wav
+
+ジゴクダブラー
+念力, Boot.wav
+念力(命中), Crash.wav
+
+バファローダブラー
+火炎弾, -
+火炎弾(命中), Explode.wav
+大震動, Warship.wav
+岩石化, Saber.wav
+岩石化(命中), Crash.wav
+
+
+### その他 --------------------------------------------------------
+
+暗黒銀河女王
+鎌, Slash(4).wav
+光弾, Gun(2).wav
+ダークレーザー, Beam.wav
+ダークレーザー(命中), HyperBazooka.wav
+ゲルファンタジア, Explode(Long).wav
+
+バリオゼクター
+ハンターボンバー, Swing.wav
+ハンターボンバー(命中), Explode.wav
+キラービーム, Swing.wav;3;LaserGun.wav
+キラービーム(命中), Explode.wav
+エネルギー放出, Charge(2).wav;6;Cannon(8Shot).wav
+エネルギー放出(命中), Explode.wav
+
+
+暗黒サイダブラー
+怪力, Punch.wav
+骨, Punch.wav
+
+暗黒サーベルダブラー
+手榴弾, Reload(4).wav;4;Swing.wav
+手榴弾(命中), Explode.wav
+
+

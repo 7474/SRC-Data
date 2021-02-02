@@ -1,0 +1,322 @@
+
+魔弾戦士
+マダンナックル, 打突
+マダンナックル, 連打
+ナックルスパーク(準備), -
+ナックルスパーク(攻撃), なぎ払い;実弾発射 Bullet\EFFECT_AuraBall01.bmp Thunder.wav
+ナックルスパーク(命中), 爆発
+#魔弾剣士
+撃龍剣, 斬撃
+ツインエッジ撃龍剣, 連斬撃
+ゴッド撃龍剣, 斬撃
+アルティメット撃龍剣, 斬撃
+ダガースパイラルチェーン(攻撃), ホーミングレーザー 黄
+ダガースパイラルチェーン(命中), ホーミングレーザー 黄 Sword.wav
+撃龍剣・魔弾斬り(攻撃), スーパーパンチ 青
+撃龍剣・魔弾斬り(命中), 光斬撃 青 大
+撃龍剣・超魔弾斬り(攻撃), スーパーパンチ 青
+撃龍剣・超魔弾斬り(命中), 光連斬撃 青 大
+三位一体・魔弾斬り(攻撃), スーパータックル 青
+三位一体・魔弾斬り(命中), スーパータックル 青;光なぎ払い 青 -.wav
+ファイヤーキャノン(準備), 魔法陣 赤 Charge.wav;召喚 RKD_FireKongU.bmp Shock(Low).wav
+ファイヤーキャノン(攻撃), 大キャノン砲 2
+ファイヤーキャノン(命中), 連続大爆発
+撃龍剣・火炎斬り(攻撃), スーパーパンチ 赤
+撃龍剣・火炎斬り(命中), 炎斬撃
+撃龍剣・超火炎斬り(攻撃), スーパーパンチ 赤
+撃龍剣・超火炎斬り(命中), 炎斬撃
+マダンスラッシュ火炎斬り(攻撃), スーパーパンチ 赤
+マダンスラッシュ火炎斬り(命中), 炎斬撃
+三位一体・火炎斬り(準備), 魔法陣 赤 Charge.wav;召喚 RKD_FireKongU.bmp Shock(Low).wav
+三位一体・火炎斬り(攻撃), スーパーパンチ 赤
+三位一体・火炎斬り(命中), 連続大爆発;炎斬撃
+撃龍剣・氷結斬り(攻撃), 持続ビーム 青 Storm.wav
+撃龍剣・氷結斬り(命中), 凍結 Flair.wav
+撃龍剣・超氷結斬り(攻撃), 持続ビーム 青 Storm.wav
+撃龍剣・超氷結斬り(命中), 凍結 Flair.wav
+三位一体・氷結斬り(攻撃), ２連中ビーム 青 Storm.wav
+三位一体・氷結斬り(命中), ２連中ビーム 青 Storm.wav;凍結 Flair.wav;スーパータックル 白 -.wav;凍斬撃 Glass.wav
+撃龍剣・雷鳴斬り(攻撃), スーパーパンチ 黄
+撃龍剣・雷鳴斬り(命中), 雷斬撃
+撃龍剣・超雷鳴斬り(攻撃), スーパーパンチ 黄
+撃龍剣・超雷鳴斬り(命中), 雷斬撃
+三位一体・雷鳴斬り(攻撃), スーパーダイブ 黄 Thunder.wav
+三位一体・雷鳴斬り(命中), スーパーダイブ 黄 Crash.wav
+撃龍剣・龍王魔弾斬り(攻撃), 斬撃;竜炎 青 AntiShipMissile.wav
+撃龍剣・龍王魔弾斬り(命中), 竜炎 青 斬撃 大
+三位一体・龍王魔弾斬り(攻撃), スーパータックル 青
+三位一体・龍王魔弾斬り(命中), スーパータックル 青 Crash.wav;光振り下ろし 青 大 -.wav
+バーニングキャノン(準備), 魔法陣 赤 Charge.wav;召喚 RKD_BurningKongU.bmp Shock(Low).wav
+バーニングキャノン(攻撃), 大キャノン砲 2
+バーニングキャノン(命中), 連続大爆発
+撃龍剣・爆炎斬り(攻撃), スーパーパンチ 赤
+撃龍剣・爆炎斬り(命中), 炎斬撃
+三位一体・爆炎斬り(準備), 魔法陣 赤 Charge.wav;召喚 RKD_FireKongU.bmp Shock(Low).wav
+三位一体・爆炎斬り(攻撃), スーパータックル 赤;飛来アップ Fire\EFFECT_FlameThrowerHit(Red)06.bmp 黒 Fire.wav;透明化
+三位一体・爆炎斬り(命中), 連続大爆発;スーパータックル 赤 Explode(Far).wav
+撃龍剣・爆氷斬り(攻撃), 持続ビーム 青 Storm.wav
+撃龍剣・爆氷斬り(命中), 凍結 Flair.wav
+三位一体・爆氷斬り(攻撃), ２連中ビーム 青 Storm.wav
+三位一体・爆氷斬り(命中), ２連中ビーム 青 Storm.wav;凍結 Flair.wav;スーパータックル 白 -.wav;凍斬撃 Glass.wav
+撃龍剣・爆雷斬り(攻撃), スーパーパンチ 黄
+撃龍剣・爆雷斬り(命中), 雷斬撃
+三位一体・爆雷斬り(攻撃), 浮上アップ RKD_LightningRyukendo(LightningWing)U.bmp 黒 Thunder.wav 速;透明化
+三位一体・爆雷斬り(命中), スーパーダイブ 黄 Crash.wav
+撃龍剣・究極魔弾斬り(攻撃), 斬撃;竜炎 黄 AntiShipMissile.wav
+撃龍剣・究極魔弾斬り(命中), 竜炎 黄 斬撃 大
+三位一体・究極魔弾斬り(攻撃), 透明化;竜炎 黄 AntiShipMissile.wav
+三位一体・究極魔弾斬り(命中), 竜炎 黄 斬撃 大;飛沫 黄 -.wav
+九位一体・究極魔弾斬り(準備), 透明化 partner(1);透明化 partner(2);変形 RKD_UltimateBike(Fusion)U.bmp
+九位一体・究極魔弾斬り(攻撃), 中ビーム 黄 Beam.wav partner(1);気斬 赤 partner(2);発光 黄;透明化;竜炎 黄 AntiShipMissile.wav
+九位一体・究極魔弾斬り(命中), 竜巻 黄 発光 AntiShipMissile.wav;_
+                              「くらえっ！ 九位一体、究極魔弾斬り！！ うぉぉぉぉぉぉぉぉっ！！！！」;発光 黄 Crash.wav;_
+                              「でぇぇぇぇぇぇぇぇいっっっ！！！！」;_
+                              @戦闘アニメ_フェイスアップ準備 RKD_UltimateRyukendo.bmp 黄 Charge.wav;唐竹割り 黄
+九位一体・究極魔弾斬り(とどめ), 縦分割;@戦闘アニメ_飛沫命中 黄 -.wav
+ファイヤーキー(発動), 瞬間変形 RKD_FireRyukendoU.bmp;飛沫 赤 Fire.wav
+アクアキー(発動), 瞬間変形 RKD_AquaRyukendoU.bmp;飛沫 白 Glass.wav
+サンダーキー(発動), 瞬間変形 RKD_ThunderRyukendoU.bmp;飛沫 黄 Thunder.wav
+変形(レオンキー), -
+変形(レオンキー), -
+変形(レオンキー), -
+変形(レオンキー), -
+変形(レオンキー), 魔法陣 青 Charge.wav;@戦闘アニメ_召喚準備 RKD_BraveReonU.bmp Shock(Low).wav;変形 RKD_Ryukendo(ReonTrike)U.bmp
+変形(シャークキー), -
+変形(シャークキー), -
+変形(シャークキー), -
+変形(シャークキー), -
+変形(シャークキー), 魔法陣 白 Charge.wav;@戦闘アニメ_召喚準備 RKD_AquaSharkU.bmp Shock(Low).wav;変形 RKD_AquaRyukendo(AquaBoard)U.bmp
+変形(イーグルキー), -
+変形(イーグルキー), -
+変形(イーグルキー), -
+変形(イーグルキー), -
+変形(イーグルキー), 魔法陣 黄 Charge.wav;@戦闘アニメ_召喚準備 RKD_ThunderEagleU.bmp Shock(Low).wav;変形 RKD_ThunderRyukendo(ThunderWing)U.bmp
+バーニングキー(発動), 瞬間変形 RKD_BurningRyukendoU.bmp;飛沫 赤 Fire.wav
+ブリザードキー(発動), 瞬間変形 RKD_BlizzardRyukendoU.bmp;飛沫 白 Glass.wav
+ライトニングキー(発動), 瞬間変形 RKD_LightningRyukendoU.bmp;飛沫 黄 Thunder.wav
+アルティメットキー(発動), 飛沫 黄 Charge.wav;変形 RKD_UltimateRyukendoU.bmp -.wav
+変形(ゴッドレオンキー), -
+変形(ゴッドレオンキー), -
+変形(ゴッドレオンキー), -
+変形(ゴッドレオンキー), -
+変形(ゴッドレオンキー), 魔法陣 青 Charge.wav;@戦闘アニメ_召喚準備 RKD_GodReonU.bmp Shock(Low).wav;変形 RKD_GodRyukendo(GodTrike)U.bmp
+変形(ブリザードシャークキー), -
+変形(ブリザードシャークキー), -
+変形(ブリザードシャークキー), -
+変形(ブリザードシャークキー), -
+変形(ブリザードシャークキー), 魔法陣 白 Charge.wav;@戦闘アニメ_召喚準備 RKD_BlizzardSharkU.bmp Shock(Low).wav;変形 RKD_BlizzardRyukendo(BlizzardBoard)U.bmp
+変形(ライトニングイーグルキー), -
+変形(ライトニングイーグルキー), -
+変形(ライトニングイーグルキー), -
+変形(ライトニングイーグルキー), -
+変形(ライトニングイーグルキー), 魔法陣 黄 Charge.wav;@戦闘アニメ_召喚準備 RKD_LightningEagleU.bmp Shock(Low).wav;変形 RKD_LightningRyukendo(LightningWing)U.bmp
+変形(ライジンリュウ召喚), -
+変形(ライジンリュウ召喚), -
+変形(ライジンリュウ召喚), -
+変形(ライジンリュウ召喚), -
+変形(ライジンリュウ召喚), 魔法陣 黄 Charge.wav;@戦闘アニメ_召喚準備 RKD_RisinRyuU.bmp Shock(Low).wav;竜降臨 黄 AntiShipMissile.wav 対象ユニットＩＤ;変形 RKD_UltimateRyukendo(RisinTrike)U.bmp
+変形(ライジンリュウ召喚), 竜降臨 黄 AntiShipMissile.wav 対象ユニットＩＤ;変形 RKD_UltimateRyukendo(RisinTrike)U.bmp
+#魔弾銃士
+ゴウリュウガン・ソード, 斬撃
+ダブルソードモード, ダブル斬撃
+ゴウリュウガン(準備), ピストル EFFECT_RKD_Gouryuugan.bmp
+ゴウリュウガン(攻撃), ピストル EFFECT_RKD_Gouryuugan.bmp
+ゴウリュウガン(命中), 銃弾
+ドラゴンショット(準備), ピストル EFFECT_RKD_Gouryuugan.bmp
+ドラゴンショット(攻撃), マシンガン EFFECT_RKD_Gouryuugan.bmp
+ドラゴンショット(命中), マシンガン
+ドラゴンキャノン(攻撃), 粒子集中 赤 Charge.wav 対象ユニットＩＤ;竜炎 赤 Beam.wav
+ドラゴンキャノン(命中), 竜炎 赤 爆発 大
+三位一体ドラゴンキャノン(攻撃), 粒子集中 赤 Charge.wav 対象ユニットＩＤ;竜炎 色=赤=赤=赤 Beam.wav
+三位一体ドラゴンキャノン(命中), 竜炎 色=赤=赤=赤 爆発 大
+マグナゴウリュウガン(準備), ピストル EFFECT_RKD_MagnaGouryuugan.bmp
+マグナゴウリュウガン(攻撃), ピストル EFFECT_RKD_MagnaGouryuugan.bmp
+マグナゴウリュウガン(命中), 銃弾
+ダブルショット(準備), ピストル EFFECT_RKD_MagnaGouryuugan.bmp;ピストル EFFECT_RKD_MadanMagnum.bmp
+ダブルショット(攻撃), マシンガン EFFECT_RKD_MagnaGouryuugan.bmp
+ダブルショット(命中), マシンガン
+マグナドラゴンキャノン(攻撃), 粒子集中 赤 Charge.wav 対象ユニットＩＤ;竜炎 赤 Beam.wav
+マグナドラゴンキャノン(命中), 竜炎 赤 爆発 大
+三位一体Mドラゴンキャノン(攻撃), 飛来アップ RKD_MagnaRyugunoh(MagnaBike)U.bmp 黒 Whiz.wav;粒子集中 赤 Charge.wav 対象ユニットＩＤ;竜炎 色=赤=赤=赤=赤=赤 Beam.wav
+三位一体Mドラゴンキャノン(命中), 竜炎 赤 爆発 大
+三位一体Mドラゴンキャノン(命中), 竜炎 色=赤=赤=赤=赤=赤 爆発 大
+Ｕドラゴンキャノン(攻撃), 粒子集中 赤 Charge.wav 対象ユニットＩＤ;竜炎 赤 Beam.wav
+Ｕドラゴンキャノン(命中), 竜炎 赤 爆発 大
+三位一体Uドラゴンキャノン(攻撃), 飛来アップ RKD_UltimateRyugundo(UltimateBike)U.bmp 黒 Whiz.wav;粒子集中 赤 Charge.wav 対象ユニットＩＤ;竜炎 色=赤=赤=赤=赤=赤 Beam.wav
+三位一体Uドラゴンキャノン(命中), 竜炎 赤 爆発 大
+三位一体Uドラゴンキャノン(命中), 竜炎 色=赤=赤=赤=赤=赤 爆発 大
+変形(変形(ウルフキー), -
+変形(ウルフキー), -
+変形(ウルフキー), -
+変形(ウルフキー), -
+変形(ウルフキー), 魔法陣 赤 Charge.wav;@戦闘アニメ_召喚準備 RKD_BusterWolfU.bmp Shock(Low).wav;変形 RKD_Ryugunoh(WolfBike)U.bmp
+変形(マグナウルフキー), -
+変形(マグナウルフキー), -
+変形(マグナウルフキー), -
+変形(マグナウルフキー), -
+変形(マグナウルフキー), 魔法陣 赤 Charge.wav;@戦闘アニメ_召喚準備 RKD_MagnaWolfU.bmp Shock(Low).wav;変形 RKD_MagnaRyugunoh(MagnaBike)U.bmp
+変形(アルティメットウルフ召喚), -
+変形(アルティメットウルフ召喚), -
+変形(アルティメットウルフ召喚), -
+変形(アルティメットウルフ召喚), -
+変形(アルティメットウルフ召喚), 魔法陣 黄 Charge.wav;@戦闘アニメ_召喚準備 RKD_UltimateWolfU.bmp Shock(Low).wav;変形 RKD_UltimateRyugunoh(UltimateBike)U.bmp
+#魔弾闘士
+斬龍刃, 斬撃
+斬龍刃・アーチェリー, 光矢
+斬龍刃・アーチェリー, 光矢連射
+烈風(攻撃), @戦闘アニメ_転移 Whiz.wav
+烈風(命中), 斬撃突撃
+斬龍刃・乱撃(攻撃), 振り下ろし;振り上げ
+斬龍刃・乱撃(命中), 光振り下ろし 大 Saber.wav;光振り上げ 大 Crash.wav
+三位一体・乱撃(攻撃), 浮上アップ RKD_Ryujinoh(ShadowWing)U.bmp 黒 Jet.wav;振り下ろし;振り上げ
+三位一体・乱撃(命中), 光振り下ろし 大 Saber.wav;光振り上げ 大 Crash.wav
+斬龍刃・乱舞(攻撃), 気斬 赤 AntiAirMissile.wav
+斬龍刃・乱舞(命中), シュートカッター 赤
+三位一体・乱舞(攻撃), 気斬 赤 AntiAirMissile.wav;瞬間変形 Common\EFFECT_SonicBoom(Red)02.bmp;振る武器突撃 -.bmp
+三位一体・乱舞(命中), 瞬間変形 Common\EFFECT_SonicBoom(Red)02.bmp;@戦闘アニメ_飛来アップ攻撃 Common\EFFECT_SonicBoom(Red)02.bmp 黒 Whiz.wav;スーパーパンチ 赤
+三位一体・乱舞(とどめ), 貫通穴
+斬龍刃・究極乱撃(攻撃), 振り下ろし;振り上げ
+斬龍刃・究極乱撃(命中), 光振り下ろし 大 Saber.wav;光振り上げ 大 Crash.wav
+三位一体・究極乱撃(攻撃), 浮上アップ RKD_UltimateRyujinoh(UltimateShadowWing)U.bmp 黒 Jet.wav;振り下ろし;振り上げ
+三位一体・究極乱撃(命中), 光振り下ろし 大 Saber.wav;光振り上げ 大 Crash.wav
+斬龍刃・究極乱舞(攻撃), 気斬 赤 AntiAirMissile.wav
+斬龍刃・究極乱舞(命中), シュートカッター 赤
+三位一体・究極乱舞(攻撃), 気斬 赤 AntiAirMissile.wav;瞬間変形 Common\EFFECT_SonicBoom(Red)02.bmp;振る武器突撃 -.bmp
+三位一体・究極乱舞(命中), 瞬間変形 Common\EFFECT_SonicBoom(Red)02.bmp;飛来アップ Common\EFFECT_SonicBoom(Red)02.bmp 黒 Whiz.wav;瞬間変形 Common\EFFECT_SonicBoom(Red)02.bmp;スーパーパンチ 赤
+三位一体・究極乱舞(とどめ), 貫通穴
+変形(シャドウキー), -
+変形(シャドウキー), -
+変形(シャドウキー), -
+変形(シャドウキー), -
+変形(シャドウキー), 魔法陣 黄 Charge.wav;@戦闘アニメ_召喚準備 RKD_ShadowWingU.bmp Shock(Low).wav
+変形(アルティメットシャドウ召喚), -
+変形(アルティメットシャドウ召喚), -
+変形(アルティメットシャドウ召喚), -
+変形(アルティメットシャドウ召喚), -
+変形(アルティメットシャドウ召喚), 魔法陣 黄 Charge.wav;@戦闘アニメ_召喚準備 RKD_UltimateWingU.bmp Shock(Low).wav
+#マスター
+魔力波動(攻撃), 実弾発射 Magic\EFFECT_MagicEmblem(Orange)01.bmp
+魔力波動(命中), 飛沫 黄
+究極魔弾斬り(攻撃), 魔法陣 黄 背面;@突く武器転送準備 Common\EFFECT_Shine(Blue)04.bmp;決め文字 ∞ 黄 AntiAirMissile.wav 背面;なぎ払い;光投射 青 Whiz.wav
+究極魔弾斬り(命中), 超斬撃 -.wav;大爆発
+
+人間
+チョーク棒(準備), ナギナタ
+チョーク棒(攻撃), 斬撃
+チョーク棒(命中), 打撃
+拳銃, ニューナンブ
+ライフル, ボルトアクションライフル
+対物ライフル, 対物ライフル
+バズーカ, バズーカ
+友情キック, 同時キック
+木刀, 木刀
+鳴神龍神流剣技, 木刀突撃
+
+ジャマンガ
+光線, 小ビーム 緑
+月触剣, 斬撃
+三日月の太刀(準備), -
+三日月の太刀(攻撃), 斬撃;実弾発射 Common\EFFECT_SonicBoom(Gleen)02.bmp
+三日月の太刀(命中), 気斬 緑
+半月の太刀, 波動放射 緑
+満月の太刀(準備), -
+満月の太刀(攻撃), 斬撃;光投射 緑 Beam.wav
+満月の太刀(命中), 気斬 緑
+新月の太刀(準備), -
+新月の太刀(攻撃), 円月殺法 黒;重力弾
+新月の太刀(命中), 大爆発
+サーベル, サーベル
+ゴールドラッシュ(攻撃), @戦闘アニメ_転移 Whiz.wav
+ゴールドラッシュ(命中), 斬撃突撃
+幻覚分身, 分身斬撃
+クリムゾンキャノン, キャノン砲
+岩石ボール(準備), -
+岩石ボール(攻撃), タックル
+岩石ボール(命中), 強打
+ドリルスピア, ドリルスピア
+スピアランチャー(準備), ドリルスピア
+スピアランチャー(攻撃), ライフル Weapon\EFFECT_DrillSpear01.bmp
+スピアランチャー(命中), 銃弾
+連撃, 連打
+腕(攻撃), 斬撃
+腕(命中), 強打
+グレンゴースト魔光波, 小ビーム 緑
+暗黒の瘴気, ＭＡＰ煙 黒
+遣い魔(攻撃), 斬撃
+遣い魔(命中), 連突
+月蝕メガキャノン砲, 落雷
+ビーム, 小ビーム 緑
+高出力ビーム, 中ビーム 緑
+火炎弾, 火炎弾 赤
+突進, タックル
+蔦(攻撃), 触手
+蔦(命中), 噛み付き
+ローラー, タックル
+気体膨脹光線, 小ビーム 緑
+殴打(命中), 打突
+重し(命中), ダメージ Shock(Low).wav
+爪, 爪撃
+エドノイド液(攻撃), 実弾発射 Bullet\EFFECT_WaterShot01.bmp
+エドノイド液(命中), 飛沫 緑 Inori.wav
+怪音波, 音波
+破壊音波, 音波
+電撃, 破壊光線
+電柱(攻撃), 斬撃
+電柱(命中), 打撃
+火球, 火炎弾
+刺又, さす又
+舌(命中), ダメージ Whip.wav
+鎖分銅, 分銅
+鎖鎌, 鎌
+アストロブラスター, 小ビーム 赤
+体液噴射(攻撃), 実弾発射 Bullet\EFFECT_WaterShot01.bmp
+体液噴射(命中), 飛沫 青 Inori.wav
+念力(命中), 落下
+撃龍剣, 斬撃
+火球, 火炎弾
+魔龍斬り(攻撃), 斬撃;竜炎 黒 AntiShipMissile.wav
+魔龍斬り(命中), 竜炎 黒 斬撃 大
+恐怖のビーム, 小ビーム 青
+ハッピービーム, 小ビーム 黄
+悲しみのビーム, 小ビーム 緑
+怒りのビーム, 小ビーム 赤
+破壊光線, 交差ビーム 青 黄
+破壊光線, 交差ビーム 緑 赤
+ブーメラン, スーパーブーメラン 黒
+ジェラシズク攻撃(命中), 飛沫 青 Splash.wav
+風圧(命中), 強風 Storm.wav
+捕獲光線, 小ビーム 緑
+硬質化, 斬撃
+ジャマンガビーム, 中ビーム 青
+ジャマンガ砲, 大ビーム 赤
+モノマネ(命中), 発光 黒 Fold.wav
+ダブル十手舞攻撃, ダブル斬撃
+脚(命中), 強打
+マジューキメガキャノン, 小ビーム 赤
+ツカイマワーム砲(攻撃), ４ＷＡＹ射出
+ツカイマワーム砲(命中), 小ビーム 赤 ランダム方向;小ビーム 赤 ランダム方向
+ガンナーハンドグレネード, キャノン砲
+ガンナーショルダーマシンガン, 機関砲
+ビーム(橙), ビーム 橙
+ジューマロイドビーム, ２連小ビーム 橙
+防護フィールド(攻撃), ショックビーム 桃
+防護フィールド(命中), 必殺光線 桃
+油(攻撃), 全拡散ビーム 赤
+油(命中), ニードルレーザー 赤
+崩壊(攻撃), 光噴出 赤;炎
+崩壊(命中), 炎
+魔力のブーメラン(準備), ビームソード 黄
+魔力のブーメラン(攻撃), スーパーブーメラン 黄
+魔力のブーメラン(命中), スーパーブーメラン 黄
+シールド防御(魔力の防御壁), 魔法陣 緑
+アームバルカン, バルカン
+ツカイマ二刀流(準備), ショートソード 二刀流
+ツカイマ二刀流(準備), 左右別武器 Weapon\EFFECT_Sword02.bmp - - Weapon\EFFECT_ShortSword01.bmp -
+ツカイマ二刀流(攻撃), 斬撃 二刀流
+ツカイマ二刀流(命中), 斬撃 二刀流
+絞め落とし, 立ち固め
+遣い魔ソード, ショートソード
+遣い魔ソード(ロング), ソード
+遣い魔ソード(火炎), 炎剣 発光
+遣い魔軍団, 画像前面発射 RKD_FamiliarU.bmp
+黒い煙, 旋風 黒

@@ -1,0 +1,990 @@
+
+マッシュ＝レネ＝フィガロ
+夢幻闘舞(準備), 発光 黄色 対象ユニットＩＤ Flair.wav
+夢幻闘舞(攻撃), タックル
+夢幻闘舞(命中), 透明化 対象ユニットＩＤ 反映;周囲回転 FF06_MashReneFigaroU.bmp FastGun.wav 3
+
+ダンカン＝ハーコート
+夢幻闘舞(準備), 発光 黄色 対象ユニットＩＤ Flair.wav
+夢幻闘舞(攻撃), タックル
+夢幻闘舞(命中), 透明化 対象ユニットＩＤ 反映;周囲回転 FF06_DuncanHarcourtU.bmp FastGun.wav 3
+
+レーヴ(ＦＦ６)
+デルタアタック(攻撃), 音再生 Charge(High).wav;同時光噴出 色=赤=青=黄; _
+同時決め画像 画像ファイル=Barrier\EFFECT_MagicShield(Red)04.bmp=Barrier\EFFECT_MagicShield(Blue)04.bmp=Barrier\EFFECT_MagicShield(Yellow)04.bmp Inori.wav; _
+同時使用者集中 画像ファイル=Barrier\EFFECT_MagicShield(Blue)04.bmp=Barrier\EFFECT_MagicShield(Yellow)04.bmp 48 Whiz.wav 遅 発光; _
+@戦闘アニメ_ＭＡＰ連続表示共通 Barrier\EFFECT_MagicShield(Red) 48 Transform.wav
+デルタアタック(命中), -
+
+ソーニョ(ＦＦ６)
+デルタアタック(攻撃), 音再生 Charge(High).wav;同時光噴出 色=青=黄=赤; _
+同時決め画像 画像ファイル=Barrier\EFFECT_MagicShield(Blue)04.bmp=Barrier\EFFECT_MagicShield(Yellow)04.bmp=Barrier\EFFECT_MagicShield(Red)04.bmp Inori.wav; _
+同時使用者集中 画像ファイル=Barrier\EFFECT_MagicShield(Yellow)04.bmp=Barrier\EFFECT_MagicShield(Red)04.bmp 48 Whiz.wav 遅 発光; _
+@戦闘アニメ_ＭＡＰ連続表示共通 Barrier\EFFECT_MagicShield(Blue) 48 Transform.wav
+デルタアタック(命中), -
+
+スエーニョ(ＦＦ６)
+デルタアタック(攻撃), 音再生 Charge(High).wav;同時光噴出 色=黄=赤=青; _
+同時決め画像 画像ファイル=Barrier\EFFECT_MagicShield(Yellow)04.bmp=Barrier\EFFECT_MagicShield(Red)04.bmp=Barrier\EFFECT_MagicShield(Blue)04.bmp Inori.wav; _
+同時使用者集中 画像ファイル=Barrier\EFFECT_MagicShield(Red)04.bmp=Barrier\EFFECT_MagicShield(Blue)04.bmp 48 Whiz.wav 遅 発光; _
+@戦闘アニメ_ＭＡＰ連続表示共通 Barrier\EFFECT_MagicShield(Yellow) 48 Transform.wav
+デルタアタック(命中), -
+
+# 以下共通アニメ
+# 区切りごとに###で仕切ってあるので目安にしてください。
+
+ＦＦ６
+### ティナ
+ミスリルソード, 剣
+ファイア, 炎投射
+ドレイン, 吸収 赤
+バイオ, 泡球 緑
+ファイラ, 火炎放射 Breath.wav
+メルトン(攻撃), 連続描画 Bullet\EFFECT_BeamRingCutter(Red)[01-04].bmp 128 2 1 前面 発光 保持 Storm.wav; _
+連続描画 Bullet\EFFECT_BeamRingCutter(Red)[01-04].bmp 128 2 6 前面 発光
+メルトン(命中), 火柱
+ファイガ(攻撃), 火炎弾 Bazooka.wav
+ファイガ(命中), 連続描画 Explode\EFFECT_Explode[01-12].bmp 128 3 1 前面 Explode.wav
+ホーリー(攻撃), 光投射 白 Beam.wav
+ホーリー(命中), 大放電 白 Inori.wav
+アルテマ(攻撃), 光噴出 青 BeamShot.wav
+アルテマ(命中), 連続描画 Map\EFFECT_MapHole(Blue)[01-02].bmp 32 1 1 前面 発光 保持 Charge(long).wav; _
+連続描画 Map\EFFECT_MapHole(Blue)[02-03].bmp 36 1 1 前面 発光 保持; _
+連続描画 Map\EFFECT_MapHole(Blue)[01-02].bmp 40 1 1 前面 発光 保持; _
+連続描画 Map\EFFECT_MapHole(Blue)[02-03].bmp 44 1 1 前面 発光 保持; _
+連続描画 Map\EFFECT_MapHole(Blue)[01-02].bmp 48 1 1 前面 発光 保持; _
+連続描画 Map\EFFECT_MapHole(Blue)[02-03].bmp 52 1 1 前面 発光 保持; _
+連続描画 Map\EFFECT_MapHole(Blue)[01-02].bmp 56 1 1 前面 発光 保持; _
+連続描画 Map\EFFECT_MapHole(Blue)[02-03].bmp 60 1 1 前面 発光 保持; _
+連続描画 Map\EFFECT_MapHole(Blue)[01-02].bmp 64 1 1 前面 発光 保持; _
+連続描画 Map\EFFECT_MapHole(Blue)[02-03].bmp 68 1 1 前面 発光 保持; _
+連続描画 Map\EFFECT_MapHole(Blue)[01-02].bmp 72 1 1 前面 発光 保持; _
+連続描画 Explode\EFFECT_SuperExplode(Blue)[08-12].gif 160 3 1 前面 発光 Explode(Far).wav
+格闘, 格闘
+### ロック
+盗む(攻撃), 飛びかかり
+盗む(命中), -
+マインゴーシュ, ナイフ
+ブーメラン, ブーメラン
+ホークアイ(攻撃), 回転投擲武器 Weapon\EFFECT_TribalBoomerang01.bmp 32
+ホークアイ(命中), ダメージ
+ウイングエッジ, スーパーブーメラン
+バリアントナイフ(命中), 大斬撃 赤
+### セリス
+阻止(魔封剣), 瞬間変形 FF06_CelesChere(Sword)U.bmp 反映;魔法集中 青
+カッパー(攻撃), @戦闘アニメ_連続爆発命中 白
+カッパー(クリティカル), 光圧縮 Beam.wav
+ブリザド, 吹雪
+ルーンブレイド, サーベル
+メテオ(攻撃), 隕石;ＭＡＰ大爆発
+メテオ(命中), 爆発
+ブリザラ(攻撃), @戦闘アニメ_飛沫命中 対象ユニットＩＤ 青 Whiz.wav
+ブリザラ(命中), 粒子集中 青 Chaff.wav;決め画像 Ice\EFFECT_FallingIceRock01.bmp Transform.wav
+ブリザガ, 大氷柱
+フレア(攻撃), @戦闘アニメ_飛沫命中 対象ユニットＩＤ 橙 Whiz.wav
+フレア(命中), 粒子集中 橙 Charge(high).wav;連続大爆発 橙
+ケアル, 回復魔法
+ケアルラ, 回復魔法泡
+### エドガー
+ブラストボイス(準備), ミサイルランチャー Reload.wav
+ブラストボイス(攻撃), 振動
+ブラストボイス(命中), -
+ウィークメーカー(攻撃), 音再生 Computer.wav
+ウィークメーカー(命中), 連続描画 Action\EFFECT_Aiming[01-08].bmp 48 8 1 前面 発光
+バイオブラスト(攻撃), ＭＡＰ実弾発射 Common\EFFECT_Particle(Green)01.bmp 48 Bubble.wav
+バイオブラスト(命中), -
+サンビーム, ＭＡＰフラッシュ 黄
+エアアンカー, レールガン 白
+ミスリルスピア, スピア
+オートボウガン(準備), ガトリング Reload.wav
+オートボウガン(攻撃), 手持ち発射 Weapon\EFFECT_Gatling01.bmp 48 対象ユニットＩＤ Bullet\EFFECT_Arrow04.bmp 32 Machinegun.wav
+オートボウガン(命中), 矢連射
+ドリル, ドリル
+回転のこぎり, チェンソー
+### マッシュ
+メタルナックル, クロー
+オーラキャノン, 中ビーム 白
+爆裂拳, 乱打
+鳳凰の舞, スーパータックル乱舞 赤
+メテオストライク, ジャンプバスター
+真空波, 気斬 緑
+### シャドウ
+シールド防御(インターセプター), シールド防御 Animal\EFFECT_BlackPanther01.bmp 別名=インターセプター
+煙玉(攻撃), 石
+煙玉(命中), 煙
+手裏剣, 手裏剣
+小太刀, 脇差
+ハウンドタックル, 黒豹
+忍術(攻撃), 投擲武器 Magic\EFFECT_JapaneseScroll01.bmp 32 発光 残像
+忍術(命中), 火炎放射
+忍術(命中), ショックビーム
+忍術(命中), 津波
+一撃の刃, 忍者刀急降下
+風魔手裏剣, 手裏剣
+かざぐるま, 投擲武器 Weapon\EFFECT_BigShuriken01.bmp 速 残像
+木の葉隠れ(使用), 木の葉乱舞 Wind.wav
+ハウンドタックル(犬), タックル
+ワイルドファング, 噛み付き
+### カイエン
+阿修羅, 日本刀
+必殺剣「牙」(準備), 日本刀
+必殺剣「牙」(攻撃), 日本刀突撃
+必殺剣「牙」(命中), 斬撃
+必殺剣「虎」(準備), 日本刀
+必殺剣「虎」(攻撃), 黒斬撃
+必殺剣「虎」(命中), 重力圧縮
+必殺剣「龍」(準備), 日本刀
+必殺剣「龍」(攻撃), 斬撃;竜炎 色=青
+必殺剣「龍」(命中), 炎 青
+必殺剣「空」(準備), 日本刀
+必殺剣「空」(攻撃), 斬撃
+必殺剣「空」(命中), 斬撃
+必殺剣「月」(準備), 日本刀
+必殺剣「月」(攻撃), 斬撃;２連小ビーム 青 Whiz.wav
+必殺剣「月」(命中), 爪撃 青 Chaff.wav
+必殺剣「舞」(準備), 日本刀
+必殺剣「舞」(攻撃), 連斬撃
+必殺剣「舞」(命中), 連斬撃
+必殺剣「烈」(準備), 日本刀
+必殺剣「烈」(攻撃), 斬撃乱舞
+必殺剣「烈」(命中), 斬撃乱舞
+必殺剣「断」(準備), 日本刀
+必殺剣「断」(攻撃), ＭＡＰ移動タックル 黒 Wind.wav
+必殺剣「断」(命中), @戦闘アニメ_横分割とどめ
+### ガウ
+飛びこむ(攻撃), 飛びかかり
+飛びこむ(命中), -
+あばれる, タックル
+あばれる, 噛み付き
+あばれる, 連打
+あばれる, サマーソルト
+あばれる, バックキック
+あばれる, 投げ飛ばし
+あばれる, ブレーンバスター
+あばれる, 爪撃
+### セッツァー
+スロット, -
+スロット(クリティカル), -
+ダイス(初撃)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)01.bmp
+ダイス(初撃)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)02.bmp
+ダイス(初撃)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)03.bmp
+ダイス(初撃)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)04.bmp
+ダイス(初撃)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)05.bmp
+ダイス(初撃)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)06.bmp
+ダイス(初撃)(命中), 連続描画 DGoods\EFFECT_Dice(White)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(White)01.bmp Punch.wav
+ダイス(初撃)(命中), 連続描画 DGoods\EFFECT_Dice(White)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(White)02.bmp Punch.wav
+ダイス(初撃)(命中), 連続描画 DGoods\EFFECT_Dice(White)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(White)03.bmp Punch.wav
+イカサマのダイス(初撃)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)01.bmp
+イカサマのダイス(初撃)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)02.bmp
+イカサマのダイス(初撃)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)03.bmp
+イカサマのダイス(初撃)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)04.bmp
+イカサマのダイス(初撃)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)05.bmp
+イカサマのダイス(初撃)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)06.bmp
+イカサマのダイス(初撃)(命中), 連続描画 DGoods\EFFECT_Dice(Black)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(Black)01.bmp Punch.wav
+イカサマのダイス(初撃)(命中), 連続描画 DGoods\EFFECT_Dice(Black)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(Black)02.bmp Punch.wav
+イカサマのダイス(初撃)(命中), 連続描画 DGoods\EFFECT_Dice(Black)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(Black)03.bmp Punch.wav
+カード, トランプ
+カード, トランプ(スペード)
+カード, トランプ(ダイヤ)
+カード, トランプ(ハート)
+カード, トランプ(クラブ)
+ダーツ(攻撃), 投擲武器 Weapon\EFFECT_Dart02.bmp
+ダーツ(命中), 連突
+死神のカード(攻撃), タロット
+死神のカード(とどめ), 死神
+ダイス(追撃Ａ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)01.bmp
+ダイス(追撃Ａ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)02.bmp
+ダイス(追撃Ａ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)03.bmp
+ダイス(追撃Ａ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)04.bmp
+ダイス(追撃Ａ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)05.bmp
+ダイス(追撃Ａ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)06.bmp
+ダイス(追撃Ａ)(命中), 連続描画 DGoods\EFFECT_Dice(White)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(White)02.bmp Punch.wav
+ダイス(追撃Ａ)(命中), 連続描画 DGoods\EFFECT_Dice(White)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(White)03.bmp Punch.wav
+ダイス(追撃Ａ)(命中), 連続描画 DGoods\EFFECT_Dice(White)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(White)04.bmp Punch.wav
+ダイス(追撃Ａ)(命中), 連続描画 DGoods\EFFECT_Dice(White)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(White)05.bmp Punch.wav
+ダイス(追撃Ｂ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)01.bmp
+ダイス(追撃Ｂ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)02.bmp
+ダイス(追撃Ｂ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)03.bmp
+ダイス(追撃Ｂ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)04.bmp
+ダイス(追撃Ｂ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)05.bmp
+ダイス(追撃Ｂ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(White)06.bmp
+ダイス(追撃Ｂ)(命中), 連続描画 DGoods\EFFECT_Dice(White)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(White)04.bmp Punch.wav
+ダイス(追撃Ｂ)(命中), 連続描画 DGoods\EFFECT_Dice(White)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(White)05.bmp Punch.wav
+ダイス(追撃Ｂ)(命中), 連続描画 DGoods\EFFECT_Dice(White)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(White)06.bmp Punch.wav
+ダイス(追撃Ｂ)(命中), 連続描画 DGoods\EFFECT_Dice(White)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(White)06.bmp Punch.wav
+イカサマのダイス(追撃Ａ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)01.bmp
+イカサマのダイス(追撃Ａ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)02.bmp
+イカサマのダイス(追撃Ａ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)03.bmp
+イカサマのダイス(追撃Ａ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)04.bmp
+イカサマのダイス(追撃Ａ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)05.bmp
+イカサマのダイス(追撃Ａ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)06.bmp
+イカサマのダイス(追撃Ａ)(命中), 連続描画 DGoods\EFFECT_Dice(Black)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(Black)02.bmp Punch.wav
+イカサマのダイス(追撃Ａ)(命中), 連続描画 DGoods\EFFECT_Dice(Black)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(Black)03.bmp Punch.wav
+イカサマのダイス(追撃Ａ)(命中), 連続描画 DGoods\EFFECT_Dice(Black)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(Black)04.bmp Punch.wav
+イカサマのダイス(追撃Ｂ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)01.bmp
+イカサマのダイス(追撃Ｂ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)02.bmp
+イカサマのダイス(追撃Ｂ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)03.bmp
+イカサマのダイス(追撃Ｂ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)04.bmp
+イカサマのダイス(追撃Ｂ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)05.bmp
+イカサマのダイス(追撃Ｂ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)06.bmp
+イカサマのダイス(追撃Ｂ)(命中), 連続描画 DGoods\EFFECT_Dice(Black)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(Black)03.bmp Punch.wav
+イカサマのダイス(追撃Ｂ)(命中), 連続描画 DGoods\EFFECT_Dice(Black)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(Black)04.bmp Punch.wav
+イカサマのダイス(追撃Ｂ)(命中), 連続描画 DGoods\EFFECT_Dice(Black)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(Black)05.bmp Punch.wav
+イカサマのダイス(追撃Ｃ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)01.bmp
+イカサマのダイス(追撃Ｃ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)02.bmp
+イカサマのダイス(追撃Ｃ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)03.bmp
+イカサマのダイス(追撃Ｃ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)04.bmp
+イカサマのダイス(追撃Ｃ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)05.bmp
+イカサマのダイス(追撃Ｃ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)06.bmp
+イカサマのダイス(追撃Ｃ)(命中), 連続描画 DGoods\EFFECT_Dice(Black)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(Black)04.bmp Punch.wav
+イカサマのダイス(追撃Ｃ)(命中), 連続描画 DGoods\EFFECT_Dice(Black)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(Black)05.bmp Punch.wav
+イカサマのダイス(追撃Ｃ)(命中), 連続描画 DGoods\EFFECT_Dice(Black)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(Black)06.bmp Punch.wav
+イカサマのダイス(追撃Ｄ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)01.bmp
+イカサマのダイス(追撃Ｄ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)02.bmp
+イカサマのダイス(追撃Ｄ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)03.bmp
+イカサマのダイス(追撃Ｄ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)04.bmp
+イカサマのダイス(追撃Ｄ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)05.bmp
+イカサマのダイス(追撃Ｄ)(攻撃), 投擲武器 DGoods\EFFECT_Dice(Black)06.bmp
+イカサマのダイス(追撃Ｄ)(命中), 連続描画 DGoods\EFFECT_Dice(Black)[01-06].bmp 32 1 3 前面 発光; _
+決め画像 DGoods\EFFECT_Dice(Black)06.bmp Punch.wav
+ミシディアうさぎ(攻撃), @戦闘アニメ_回復魔法発動 対象ユニットＩＤ
+ミシディアうさぎ(命中), -
+セブンフラッシュ(攻撃), 虹色光線 Whiz.wav
+セブンフラッシュ(命中), 虹色光線 ランダム方向
+チョコボラッシュ(攻撃), 実弾発射 Common\EFFECT_GroundCharge(Orange)01.bmp 32 Gunpod.wav 残像
+チョコボラッシュ(命中), ダメージ 連続
+ダイビング・ボム(攻撃), ディレイ Bomb.wav 5
+ダイビング・ボム(命中), 連続爆発
+ジョーカーデス(７７Ｂ)(攻撃), 連続描画 Action\EFFECT_Bloodcurdling[01-03].bmp 96 5 1 前面 発光 Thunder.wav
+ジョーカーデス(７７Ｂ)(命中), -
+ジョーカーデス(攻撃), -
+ジョーカーデス(命中), -
+### ストラゴス
+フォースフィルド, ＭＡＰフラッシュ 赤
+フォースフィルド, ＭＡＰフラッシュ 青
+フォースフィルド, ＭＡＰフラッシュ 黄
+くさい息, 煙噴射 橙
+ミスリルロッド, 殴打武器 Weapon\EFFECT_JewelRod(White)01.bmp
+針千本, ニードル連射
+石つぶて(攻撃), 石
+石つぶて(命中), ダメージ 白 連続
+アクアブレス, 泡
+クェーサー(攻撃), 火炎弾 白;火炎弾 白;火炎弾 白
+クェーサー(命中), 爆発
+リベンジブラスト(攻撃), 光噴出 赤
+リベンジブラスト(命中), ダメージ 赤 連続
+グランドトライン(攻撃), 画像前面発射 Barrier\EFFECT_MagicShield(Black)04.bmp BeamSaber.wav 発光 3
+グランドトライン(命中), 連続描画 MapBeam\EFFECT_360Beam(Black)[01-09].bmp 192 4 1 前面 発光 Explode(Far).wav
+### リルム
+デス(攻撃), 魔方陣 黒 相手ユニットＩＤ
+デス(命中), -
+バニシュデス(攻撃), ４ＷＡＹ射出 WindowOpen.wav 相手ユニットＩＤ
+バニシュデス(命中), 決め文字 ？ 白 Flair.wav;瞬間変形 -.bmp;魔方陣 黒
+デジョン(攻撃), ＭＡＰ重力弾
+チョコボの筆(準備), 振る武器 DGoods\EFFECT_PaintBrush(Black)01.bmp
+チョコボの筆(準備), 振る武器 DGoods\EFFECT_PaintBrush(Blue)01.bmp
+チョコボの筆(準備), 振る武器 DGoods\EFFECT_PaintBrush(Green)01.bmp
+チョコボの筆(準備), 振る武器 DGoods\EFFECT_PaintBrush(Orange)01.bmp
+チョコボの筆(準備), 振る武器 DGoods\EFFECT_PaintBrush(Pink)01.bmp
+チョコボの筆(準備), 振る武器 DGoods\EFFECT_PaintBrush(Purple)01.bmp
+チョコボの筆(準備), 振る武器 DGoods\EFFECT_PaintBrush(Red)01.bmp
+チョコボの筆(準備), 振る武器 DGoods\EFFECT_PaintBrush(White)01.bmp
+チョコボの筆(準備), 振る武器 DGoods\EFFECT_PaintBrush(Yellow)01.bmp
+チョコボの筆(攻撃), 斬撃
+チョコボの筆(命中), ダメージ
+サンダー, 落雷 黄
+スケッチ(準備), 振る武器 DGoods\EFFECT_PaintBrush(Black)01.bmp
+スケッチ(準備), 振る武器 DGoods\EFFECT_PaintBrush(Blue)01.bmp
+スケッチ(準備), 振る武器 DGoods\EFFECT_PaintBrush(Green)01.bmp
+スケッチ(準備), 振る武器 DGoods\EFFECT_PaintBrush(Orange)01.bmp
+スケッチ(準備), 振る武器 DGoods\EFFECT_PaintBrush(Pink)01.bmp
+スケッチ(準備), 振る武器 DGoods\EFFECT_PaintBrush(Purple)01.bmp
+スケッチ(準備), 振る武器 DGoods\EFFECT_PaintBrush(Red)01.bmp
+スケッチ(準備), 振る武器 DGoods\EFFECT_PaintBrush(White)01.bmp
+スケッチ(準備), 振る武器 DGoods\EFFECT_PaintBrush(Yellow)01.bmp
+スケッチ(攻撃), 斬撃;実弾発射 Info(ユニットデータ, Unit(相手ユニットＩＤ), グラフィック) Whiz.wav 発光 残像
+スケッチ(命中), ダメージ
+サンダラ, 電撃
+サンダガ, 大落雷
+バニシュ, @戦闘アニメ_４ＷＡＹ射出攻撃 WindowOpen.wav;決め文字 ？ 白 Flair.wav
+### モグ
+愛のセレナーデ(攻撃), スピンキック
+愛のセレナーデ(命中), 炎 青
+闇のレクイエム(攻撃), スピンキック
+闇のレクイエム(命中), 落盤 黒
+砂漠のララバイ(攻撃), スピンキック;ＭＡＰ吹雪 黄 Storm.wav
+砂漠のララバイ(命中), 粒子噴射 黄 Hide.wav
+森のノクターン(攻撃), スピンキック
+森のノクターン(命中), 木の葉乱舞 Wind.wav
+水のハーモニー(攻撃), スピンキック
+水のハーモニー(命中), 泡球;電撃
+水のハーモニー(命中), 電撃;泡球
+雪だるまロンド(攻撃), スピンキック;ＭＡＰ吹雪 Storm.wav
+雪だるまロンド(命中), 吹雪 Storm.wav
+大地のブルース(攻撃), スピンキック
+大地のブルース(命中), 岩柱
+モグ投げ(攻撃), 斬撃 Partner(1);音再生 Jet.wav
+モグ投げ(命中), ダメージ
+風のラプソディ(使用), @戦闘アニメ_スピンキック攻撃;風
+風のラプソディ(発動), 発光 黄色 Sharara.wav
+### ウーマロ
+雪崩(攻撃), ＭＡＰ吹雪 Storm.wav
+雪崩(命中), 吹雪 Storm.wav
+吹雪(攻撃), 吹雪 Storm.wav
+吹雪(命中), 吹雪 Storm.wav
+ボーンクラブ, 殴打武器 Weapon\EFFECT_StoneAx01.bmp
+タックル, タックル
+イエローチェリー(使用), 発光 黄
+### ゴゴ
+モーニングスター, モーニングスター
+ものまね, -
+### ＮＰＣ
+パニッシャー, 殴打武器 Weapon\EFFECT_JewelRod(White)01.bmp
+祈り, 回復魔法
+チェインフレイル, モーニングスター
+ミスリルクロー, クロー
+円月輪, チャクラム
+ゴーストタッチ(攻撃), デフォルト
+ゴーストタッチ(命中), ダメージ 紫 -.wav
+ファイアウォール, 火柱
+とりつく(攻撃), 炎 青
+とりつく(命中), 炎 青
+吸収, 吸収
+イナズマ, 落雷 黄
+### 帝国
+クリスタルソード, 鋼剣
+ショック(攻撃), オーラ上昇 赤 対象ユニットＩＤ;振り上げ
+ショック(命中), 音再生 Explode(Nuclear).wav;超ビーム 赤 -.wav
+乱れ撃ち, 斬撃乱舞
+コンフュ(攻撃), 実弾発射 Common\EFFECT_Star01.bmp 32 Beam.wav 残像
+コンフュ(命中), 周囲回転 Animal\EFFECT_Hiyoko02.bmp Piyopiyo.wav 3
+グラビデ, 重力弾
+ポイズン, 泡 緑
+ミスリルスパナ, 回転投擲武器 Weapon\EFFECT_Spanner01.bmp
+整備, -
+サイレス(攻撃), 煙噴射 黒
+サイレス(命中), 決め文字 黙 黒 Whip.wav
+グレートソード, 大剣
+アックス, 片刃斧
+磁場転換, ＭＡＰフラッシュ 白
+毒霧, 煙 緑
+シルバーランス, ランス
+牙, 噛み付き
+とびつく, タックル
+閃光弾, ＭＡＰフラッシュ
+魔導レーザー, 小ビーム 青
+バイオブラスター(攻撃), ＭＡＰ実弾発射 Common\EFFECT_Particle(Green)01.bmp 48 Bubble.wav
+バイオブラスター(命中), -
+メタルキック, タックル
+魔導ランチャー, ＭＡＰミサイル
+サンダービーム, 中ビーム 白
+ブリザービーム, 中ビーム 青
+ファイアビーム, 中ビーム 橙
+魔導ミサイル, ミサイル
+ヒールフォース(使用), 回復魔法
+コンフューザー, 音波
+メタルカッター, 回転投擲武器 Weapon\EFFECT_TwinArcBlade01.bmp
+激突, タックル
+デジョネーター(攻撃), オーラ上昇 黒 Hide.wav
+デジョネーター(命中), オーラ上昇 黒 Hide.wav
+メガショック(攻撃), オーラ上昇 赤 対象ユニットＩＤ
+メガショック(命中), 音再生 Explode(Nuclear).wav;超ビーム 赤 -.wav
+レベル４フレア(攻撃), 気弾 赤
+レベル４フレア(命中), 粒子集中 橙 Charge(high).wav;連続大爆発 橙
+ダブルアーム(準備), 振る武器 Hand\EFFECT_Punch(Black)09.bmp Transform.wav
+ダブルアーム(攻撃), 連斬撃
+ダブルアーム(命中), ダメージ 黒 連続
+メタルパンチ, 打突武器 Hand\EFFECT_Punch(White)09.bmp 32
+拡散レーザー, ６ＷＡＹ射出
+絶対零度(攻撃), ユニット変色 青 Whiz.wav;連続描画 ScrollBack\EFFECT_ScrollBack(Blue)[01-01].bmp 128 15 1 前面 Whip.wav
+絶対零度(命中), 決め画像 Ice\EFFECT_FallingIceRock01.bmp Transform.wav
+ノーザンクロス(攻撃), @戦闘アニメ_飛沫命中 対象ユニットＩＤ 青 Whiz.wav
+ノーザンクロス(命中), 粒子集中 青 Chaff.wav;決め画像 Ice\EFFECT_FallingIceRock01.bmp Transform.wav
+サザンクロス(攻撃), 光球 白
+サザンクロス(命中), 大放電 青
+レベル５デス, 髑髏弾 白
+マインドストップ, 泡
+ブラスター, 気弾 赤 残像
+メガバーサク(攻撃), 音波;ＭＡＰ音符 赤 Alarm.wav
+メガバーサク(命中), 音符 赤 Alarm.wav
+怪音波, 音波
+プラズマ, 球電
+ブレインブラスト, 泡
+フリジングダスト(攻撃), 吹雪 Whiz.wav
+フリジングダスト(命中), 凍結
+波動砲, ＭＡＰビーム 青
+ガンマ線(攻撃), ニードルレーザー連射 青
+ガンマ線(命中), 連続爆発 青
+グラビディーボム(攻撃), グレネード
+グラビディーボム(命中), 爆発 黒
+アトミックレイ, ニードルレーザー連射 橙
+プログラム５５(攻撃), -
+プログラム５５(命中), ダメージ 緑 Tone.wav
+自爆, 自爆
+ソード, ショートソード
+デストロイド, 斬撃
+レベル３コンフュ(攻撃), 実弾発射 Common\EFFECT_Star01.bmp 32 Beam.wav 残像
+レベル３コンフュ(命中), 周囲回転 Animal\EFFECT_Hiyoko02.bmp Piyopiyo.wav 3
+アーム(準備), 突く武器 Hand\EFFECT_Punch(Black)09.bmp 32
+アーム(攻撃), 白兵武器
+アーム(命中), ダメージ
+狂った信号(攻撃), 連続描画 Common\EFFECT_Shine(Green)[01-04].bmp 32 1 1 前面 保持 EvilEye.wav; _
+連続描画 Common\EFFECT_Shine(Yellow)[01-04].bmp 32 1 1 前面 保持 EvilEye.wav; _
+連続描画 Common\EFFECT_Shine(Red)[01-04].bmp 32 1 1 前面 保持 EvilEye.wav; _
+連続描画 Common\EFFECT_Shine(Green)[01-04].bmp 32 1 1 前面 保持 EvilEye.wav; _
+連続描画 Common\EFFECT_Shine(Yellow)[01-04].bmp 32 1 1 前面 保持 EvilEye.wav; _
+連続描画 Common\EFFECT_Shine(Red)[01-04].bmp 32 1 1 前面 EvilEye.wav
+狂った信号(命中), 連続描画 Common\EFFECT_Shine(Green)[01-04].bmp 32 1 1 前面 保持 EvilEye.wav; _
+連続描画 Common\EFFECT_Shine(Yellow)[01-04].bmp 32 1 1 前面 保持 EvilEye.wav; _
+連続描画 Common\EFFECT_Shine(Red)[01-04].bmp 32 1 1 前面 保持 EvilEye.wav; _
+連続描画 Common\EFFECT_Shine(Green)[01-04].bmp 32 1 1 前面 保持 EvilEye.wav; _
+連続描画 Common\EFFECT_Shine(Yellow)[01-04].bmp 32 1 1 前面 保持 EvilEye.wav; _
+連続描画 Common\EFFECT_Shine(Red)[01-04].bmp 32 1 1 前面 EvilEye.wav
+融合(使用), 自爆;透明化
+融合(発動), 回復魔法
+ホイール, 蹴り飛ばし武器 DGoods\EFFECT_Wheel(Bicycle)02.bmp
+オーバーフロー(攻撃), デフォルト
+オーバーフロー(命中), ダメージ 赤
+腕部固定型ブレード, 斬撃
+ネット(攻撃), 実弾発射 Weapon\EFFECT_Net01.bmp 32 Swing(2).wav 遅
+ネット(命中), -
+吸血(攻撃), 噛み付き
+吸血(命中), 噛み付き;出血
+レフトブレード, 斬撃
+ライトブレード, 大斬撃
+烈風殺(攻撃), 旋風 緑
+烈風殺(命中), 強風
+鉄球(攻撃), 鎖鉄球
+鉄球(命中), 強打 Crash.wav
+１００万ボルト, メガショックビーム
+クレーン(攻撃), 実弾発射 Hand\EFFECT_Punch(Black)10.bmp 64 Cannon.wav 有線
+クレーン(命中), 落下
+大型魔導レーザー砲, 大ビーム 青
+魔導ミサイルポッド, 小型ミサイル 4
+ミスリルカッター射出機構(攻撃), 実弾発射 Weapon\EFFECT_Estoc01.bmp 32
+ミスリルカッター射出機構(命中), 刺突
+蛸足型打撃機構(攻撃), 振り上げ
+蛸足型打撃機構(攻撃), 斬撃
+蛸足型打撃機構(命中), ダメージ 紫
+### ネームド
+終死拳, 打突 黒
+連続拳, 連打
+連風燕略拳(攻撃), 音再生 Storm.wav;連続描画 ScrollBack\EFFECT_SlidFront(White)[01-04].bmp 80 2 5 背面
+連風燕略拳(命中), 音再生 Storm.wav;連続描画 ScrollBack\EFFECT_SlidFront(White)[01-04].bmp 32 2 4 前面
+鉄拳, 打突
+足払い, バックキック
+ジャンプ(攻撃), 突く武器急降下 -.bmp
+ジャンプ(命中), 突く武器急降下 -.bmp
+衝撃波, 地表衝撃波 白
+連続短剣投げ(攻撃), 連投剣
+連続短剣投げ(命中), 連突
+ハイポーション(使用), 回復魔法泡
+タコ印の墨, 煙噴射 黒
+タコ足(攻撃), 斬撃
+タコ足(命中), ダメージ 白
+タコ足<MAP>(攻撃), 斬撃乱舞
+タコ足<MAP>(命中), ダメージ 白
+鼻息<MAP>(攻撃), ＭＡＰ実弾発射 Action\EFFECT_LightBubble04.bmp 32 Whiz.wav
+鼻息<MAP>(命中), -
+鼻息<MAP>(クリティカル), -
+鼻息(攻撃), 実弾発射 Action\EFFECT_LightBubble04.bmp 32 Whiz.wav
+鼻息(命中), -
+鼻息(クリティカル), -
+かぎづめ, 爪撃
+ファイアーボール, キャノン砲 5
+カタナ, 日本刀
+ハイパードライブ(攻撃), 地表衝撃波 黄 残像
+ハイパードライブ(命中), 連続描画 Explode\EFFECT_Explode(Yellow)[01-12].bmp 64 3 1 前面 Explode.wav
+### ボス
+魔界の汽笛(攻撃), ＭＡＰ音符 赤 Alarm.wav
+魔界の汽笛(命中), 音符 赤 Alarm.wav
+車輪(攻撃), 実弾発射 DGoods\EFFECT_Wheel(Bicycle)01.bmp 32
+車輪(命中), ダメージ
+セイントビーム, 大拡散ビーム 黄
+乗客, 怨霊
+つめ, 爪撃
+噛み付き, 噛み付き
+エルニーニョ(攻撃), @戦闘アニメ_ＭＡＰ連続表示共通 Action\EFFECT_LightBubble 32 Bubble.wav
+エルニーニョ(命中), 泡球
+のどわ, 立ち固め
+マインドブラスト(攻撃), ＭＡＰビーム 白 Breath.wav
+マインドブラスト(命中), 拡散ビーム 白
+火炎, 炎 青
+パワー全開！, スーパータックル
+フレアスター(攻撃), ＭＡＰビーム 赤 AntiAirMissile.wav
+フレアスター(命中), 大爆発 赤
+クエイク, ＭＡＰ地震
+沈黙(攻撃), @戦闘アニメ_連続爆発命中 黒
+沈黙(命中), 点打 黒
+なぐる, 打突
+死のルーレット(外)(攻撃), 連続描画 Common\EFFECT_Skull[01-01].bmp 24 2 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 2 1 前面 発光 保持; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 3 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 3 1 前面 発光 保持; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 4 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 4 1 前面 発光 保持; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 5 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 5 1 前面 発光
+死のルーレット(外)(攻撃), 連続描画 Common\EFFECT_Skull[01-01].bmp 24 2 1 前面 発光 保持; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 2 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 3 1 前面 発光 保持; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 3 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 4 1 前面 発光 保持; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 4 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 5 1 前面 発光 保持; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 5 1 前面 発光 相手ユニットＩＤ
+死のルーレット(外)(命中), 連続描画 Common\EFFECT_Skull[01-01].bmp 48 5 1 前面 発光 対象ユニットＩＤ
+死のルーレット(当)(攻撃), 連続描画 Common\EFFECT_Skull[01-01].bmp 24 2 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 2 1 前面 発光 保持; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 3 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 3 1 前面 発光 保持; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 4 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 4 1 前面 発光 保持; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 5 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 5 1 前面 発光
+死のルーレット(当)(攻撃), 連続描画 Common\EFFECT_Skull[01-01].bmp 24 2 1 前面 発光 保持; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 2 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 3 1 前面 発光 保持; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 3 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 4 1 前面 発光 保持; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 4 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 5 1 前面 発光 保持; _
+連続描画 Common\EFFECT_Skull[01-01].bmp 24 5 1 前面 発光 相手ユニットＩＤ
+死のルーレット(当)(命中), 連続描画 Common\EFFECT_Skull[01-01].bmp 48 5 1 前面 発光
+死の宣告<MAP>, ＭＡＰ発光 赤
+捕獲準備, 触手 黄
+捕獲, 多触手 黄
+投げ捨てる(攻撃), 斬撃
+投げ捨てる(命中), 強打
+石化の一撃(準備), -
+石化の一撃(攻撃), タックル
+石化の一撃(命中), ダメージ 白
+プレゼント, 殴打武器 Common\EFFECT_Chest01.bmp
+レベル？ホーリー(攻撃), ＭＡＰ光球 白
+レベル？ホーリー(命中), 爆発 白
+フンババブレス(攻撃), ディレイ Storm.wav 10
+フンババブレス(命中), 旋風
+みぞおち, スーパーパンチ 白
+死の宣告, 発光 赤
+魔性の爪, 爪撃 青
+睡眠ガス, 煙 青
+４連打！, 乱打
+子守唄, 音符 白
+ポイズンキッス(攻撃), デフォルト
+ポイズンキッス(命中), ダメージ 紫 連続 Bow.wav
+フラッシュレイン(攻撃), 大電撃 緑
+フラッシュレイン(命中), 泡球;電撃
+フラッシュレイン(命中), 電撃;泡球
+誘惑(攻撃), 実弾発射 Common\EFFECT_Heart01.bmp 32 BeamShot.wav 遅 残像 発光
+誘惑(命中), -
+ポルターガイスト(攻撃), ユニット変色 黒 Thunder.wav; _
+ユニット変色 白 Thunder.wav; _
+ユニット変色 黒 Thunder.wav
+ポルターガイスト(命中), ユニット変色 黒 Thunder.wav; _
+ユニット変色 白 Thunder.wav; _
+ユニット変色 黒 Thunder.wav
+死のくちづけ(攻撃), -
+死のくちづけ(命中), ダメージ 黒 Bow.wav
+包丁, 出刃包丁突撃
+レベル５デス<MAP>(攻撃), ＭＡＰ実弾発射 Bullet\EFFECT_EnergySkull(White)01.bmp 64 Cannon.wav
+レベル５デス<MAP>(命中), 髑髏弾
+エアロガ, 竜巻 白
+ガストスモーク, 煙 紫
+ポイズンクロー, 爪撃 緑
+コンフュクロー, 爪撃 緑
+アンデッドクロー, 爪撃 紫
+メガクロー, 爪撃 赤
+ホワイトウィンド, @戦闘アニメ_ＭＡＰ竜巻攻撃 Wind.wav
+マジックドレイン, 吸収
+暗殺剣(攻撃), 円月殺法 黒 縦
+暗殺剣(命中), 唐竹割り
+暗殺剣(とどめ), 縦分割
+アルテマ<MAP>(攻撃), ＭＡＰ光球 青 BeamShot.wav
+アルテマ<MAP>(命中), 連続描画 Explode\EFFECT_SuperExplode(Blue)[08-12].gif 160 3 1 前面 発光 Explode(Far).wav
+### 八竜
+重力５０, 重力弾
+重力１００, 重力弾
+鋭い牙, 噛み付き 連続
+ランドスライド(攻撃), 音再生 Breath.wav;ＭＡＰ実弾発射 Weapon\EFFECT_Rock01.bmp 32 -.wav
+ランドスライド(命中), ダメージ
+会心の一撃(攻撃), 大斬撃
+会心の一撃(命中), 大炎斬撃 青 Crash.wav
+首(攻撃), 斬撃
+首(命中), 打撃
+強烈な爪, 爪撃 赤
+フィアー(攻撃), 地表衝撃波 黒
+フィアー(命中), 炎 黒
+ディスアスター(攻撃), ＭＡＰ実弾発射 Bullet\EFFECT_EnergySkull(White)01.bmp 64 Cannon.wav 
+ディスアスター(命中), 髑髏弾 白
+亡霊, 怨霊
+鬼火, 炎 青
+大旋風, ＭＡＰ竜巻 青
+かまいたち, 気斬 青
+木の葉乱舞(攻撃), ＭＡＰ実弾発射 Common\EFFECT_Leaf01.bmp 32 Whiz.wav
+木の葉乱舞(命中), 爪撃 緑 連続
+ウイングセーバー, 爪撃
+イカロスウイング, 爪撃
+凍結, 小ビーム 青
+波紋, 音波
+酸性雨(攻撃), 音再生 Shower.wav
+酸性雨(命中), 粒子噴射 白 Shower.wav
+青い牙, 噛み付き
+大海嘯, ＭＡＰ津波
+デスペル(攻撃), 光投射 黒
+デスペル(命中), 光投射 黒
+心ない天使(攻撃), 実弾発射 Creature\EFFECT_Angel02.bmp 32 EvilEye.wav
+心ない天使(命中), 発光 黄色 -.wav
+ヘブンズドライブ, 爪撃 白
+イレイサー, 光弾 黒
+赤い牙, 噛み付き
+### ラストダンジョン
+ラフ, 斬撃
+ケトゥ, 斬撃
+ソバット, スピンキック
+ティルフィング, 呪槍
+ターゲッティング(攻撃), 音再生 Hittyuu.wav
+ターゲッティング(命中), 連続描画 Action\EFFECT_Aiming[01-08].bmp 48 8 1 前面 発光
+魔神の怒り(攻撃), オーラ上昇 赤 対象ユニットＩＤ;大炎斬撃 青
+魔神の怒り(命中), 大炎斬撃 青;超打 Shock(Low).wav
+クラウディヘブン, ＭＡＰフラッシュ
+愛の宣告(攻撃), 花びら 赤 Beam.wav
+愛の宣告(命中), -
+心ない天使(MAP)(攻撃), ＭＡＰ実弾発射 Creature\EFFECT_Angel02.bmp 32 EvilEye.wav
+心ない天使(MAP)(命中), 発光 黄色 -.wav
+ミッシング(攻撃), ユニット変色 赤 AntiShipMissile.wav;ユニット変色 青 -.wav;ユニット変色 赤 -.wav; _
+音再生 Interference.wav;連続描画 ScrollBack\EFFECT_ScrollBack(White)[01-08].bmp 480 3 6 背面 発光 保持; _
+連続描画 ScrollBack\EFFECT_ScrollBack(Red)[08-01].bmp 480 3 6 前面 発光; _
+ＭＡＰ爆発 赤
+ミッシング(命中), 音再生 Breath.wav;連続描画 ScrollBack\EFFECT_ScrollBack(Red)[01-08].bmp 32 2 2 背面 発光
+破壊の翼(準備), 翼
+破壊の翼(攻撃), 大斬撃 白
+破壊の翼(命中), 大刺突 白
+恐怖の視線(攻撃), 邪眼瞬き 黒 赤
+恐怖の視線(命中), 炎 黒
+スリップ殴る, 打突 紫
+死者の牙, 噛み付き
+殴る, 打突
+１０連打(初撃), 格闘
+１０連打(追撃１), 格闘
+１０連打(追撃２), 格闘
+１０連打(追撃３), 格闘
+１０連打(追撃４), 格闘
+１０連打(追撃５), 格闘
+１０連打(追撃６), 格闘
+１０連打(追撃７), 格闘
+１０連打(追撃８), 格闘
+１０連打(追撃９), 格闘
+やすらぎ(攻撃), 羽
+やすらぎ(命中), 羽
+### 所属ザコ
+シックル, 鎌
+長銃, ボルトアクションライフル
+突撃, タックル
+熊の手, 爪撃
+ブリザード, 吹雪
+粘液, 泡
+１万ボルト, ショックビーム
+### ＧＢＡ
+すってんころりん, 踏み潰し
+エクスカリパー, 銀剣
+剣, 剣
+剣の舞, 斬撃乱舞
+斬鉄剣投げ, 投擲武器 Weapon\EFFECT_JapaneseBlade(T)01.bmp
+陸奥守投げ, 投擲武器 Weapon\EFFECT_JapaneseBlade(T)01.bmp
+ラグナロク投げ, 投擲武器 Weapon\EFFECT_BlackSword(T)01.bmp
+ライトブリンガー投げ, 投擲武器 Weapon\Weapon\EFFECT_Sword(T)03.bmp
+最終幻想(準備), しもべ FF05_EnkiduU.bmp 32
+最終幻想(攻撃), 実弾発射 FF05_EnkiduU.bmp 32 Whiz.wav;日本刀突撃 二刀流
+最終幻想(命中), 竜巻;大斬撃;旋風;超斬撃 黄
+巻き付き, 立ち固め
+フラッド, ＭＡＰ津波
+タイダルウェイブ, ＭＡＰ津波
+エターナルブレス(攻撃), タックル
+エターナルブレス(命中), ダメージ 黒 連続
+オメガドライブ, 地表衝撃波 黒 残像
+### ザコ
+前歯, 噛み付き
+ばい菌前歯, 噛み付き
+マヒ前歯, 噛み付き
+ネコキック, サマーソルト
+落とし穴(攻撃), 連続描画 Common\EFFECT_GravityBall[01-01].bmp 16 2 1 背面 保持 BeamSaber.wav 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_GravityBall[01-01].bmp 32 2 1 背面 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_GravityBall[01-01].bmp 44 2 1 背面 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_GravityBall[01-01].bmp 52 2 1 背面 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_GravityBall[01-01].bmp 60 2 1 背面 保持 相手ユニットＩＤ; _
+連続描画 Common\EFFECT_GravityBall[01-01].bmp 64 2 1 背面  相手ユニットＩＤ
+落とし穴(命中), ダメージ 黒 連続
+しっぽ(攻撃), スピンキック
+しっぽ(命中), ダメージ
+眠くなれ, 泡球
+毒針, ニードル
+まとわりつく(攻撃), 連続描画 Barrier\EFFECT_BeamCoat(Blue)[01-05].bmp 32 2 1 前面 保持 相手ユニットＩＤ Fold.wav; _
+連続描画 Barrier\EFFECT_BeamCoat(Blue)[01-05].bmp 32 2 6 前面 相手ユニットＩＤ
+まとわりつく(命中), 連続描画 Barrier\EFFECT_BeamCoat(Blue)[01-05].bmp 32 2 1 前面 保持 相手ユニットＩＤ Fold.wav; _
+連続描画 Barrier\EFFECT_BeamCoat(Blue)[01-05].bmp 32 2 6 前面 相手ユニットＩＤ
+マインドショック, 泡
+鉄の針, ニードル連射
+眠りの針, ニードル連射
+ストーンニードル, ニードル連射
+急降下, スーパーダイブ
+くちばし(攻撃), タックル
+くちばし(命中), ダメージ 白
+羽の粉(攻撃), 粒子噴射 赤 Hide.wav
+羽の粉(命中), 粒子噴射 赤 Hide.wav
+つっつく(攻撃), デフォルト
+つっつく(命中), ダメージ 黄
+アスピルビーク(攻撃), デフォルト
+アスピルビーク(命中), ダメージ 青
+しびれとげ, ニードル
+砂嵐, ＭＡＰ竜巻 黄
+押しつぶす, 踏み潰し
+マグニチュード８, ＭＡＰ地震
+ヘールストーン, 落盤 青
+圧搾, 踏み潰し
+ジャンプ盗む(攻撃), 飛びかかり
+ジャンプ盗む(命中), -
+カウンタージャンプ盗む, 飛びかかり
+逃走, -
+サイレントタッチ(攻撃), デフォルト
+サイレントタッチ(命中), ダメージ 白 -.wav
+ポイズンテール(攻撃), 斬撃
+ポイズンテール(命中), 刺突
+スパナ, 回転投擲武器 Weapon\EFFECT_Spanner01.bmp
+ニッケルスパナ, 回転投擲武器 Weapon\EFFECT_Spanner01.bmp
+ゴールデンスパナ, 回転投擲武器 Weapon\EFFECT_Spanner01.bmp
+死者の足音(攻撃), 地表衝撃波 黒 遅 残像 -.wav
+死者の足音(命中), 光噴出 黒 AntiShipMissile.wav
+アスピル, 吸収 青
+黒く塗りつぶす(攻撃), 連斬撃
+黒く塗りつぶす(命中), 飛沫 黒 FightHit(3).wav;連続描画 Common\EFFECT_GravityBall[01-01].bmp 32 6 1 前面 Whip.wav
+平手打ち(攻撃), 斬撃
+平手打ち(命中), ダメージ Slap.wav
+ブラインドタッチ(攻撃), デフォルト
+ブラインドタッチ(命中), ダメージ 黒
+ケアルガ, 周囲回転 Common\EFFECT_Shine(White)03.bmp Sharara.wav 3; _
+連続描画 Ice\EFFECT_Blizzard(Purple)[01-02].bmp 32 0.5 1 前面 発光 保持; _
+連続描画 Ice\EFFECT_Blizzard(Blue)[02-03].bmp 32 0.5 1 前面 発光 保持; _
+連続描画 Ice\EFFECT_Blizzard(Green)[03-04].bmp 32 0.5 1 前面 発光 保持; _
+連続描画 Ice\EFFECT_Blizzard(Yellow)[04-05].bmp 32 0.5 1 前面 発光 保持; _
+連続描画 Ice\EFFECT_Blizzard(Orange)[05-06].bmp 32 0.5 1 前面 発光 保持; _
+連続描画 Ice\EFFECT_Blizzard(Red)[06-07].bmp 32 0.5 1 前面 発光 保持; _
+連続描画 Ice\EFFECT_Blizzard(Pink)[07-08].bmp 32 0.5 1 前面 発光
+頭突き, ヘッドバット
+右アッパー(攻撃), 振り上げ
+右アッパー(命中), 強打
+火遁(攻撃), ＭＡＰ火炎弾
+火遁(命中), 爆発 赤
+水遁, ＭＡＰ津波
+雷迅(攻撃), ＭＡＰ落雷 青
+雷迅(命中), 放電
+殴り倒す, 打突 赤
+メテオ(単)(攻撃), 隕石;隕石;隕石;隕石
+メテオ(単)(命中), 大爆発
+突き上げる, 超アッパー
+ウイング, 爪撃
+ベロベロなめる, 舌
+ディスアスター(単), 髑髏弾 白
+前足(攻撃), 振り上げ
+前足(命中), 爪撃
+灰にする(攻撃), 火炎放射 黒 Breath.wav
+灰にする(命中), 火炎放射 黒 Breath.wav
+毒の爪, 爪撃 緑
+しゃくりあげる, 超アッパー
+ライフシェイバー(攻撃), 強風 Drill.wav
+ライフシェイバー(命中), 回転 Drill.wav 4 速
+ボーン, 回転投擲武器 Weapon\EFFECT_Femur01.bmp
+骨, 殴打武器 Weapon\EFFECT_Femur01.bmp
+骨の粉, 粒子噴射 黒
+カッパソング, 音符 緑
+スリップタッチ, 打突 紫
+錯乱タッチ(攻撃), タックル
+錯乱タッチ(命中), ダメージ 赤
+グラビガ(攻撃), 重力弾
+グラビガ(命中), 重力圧縮 電撃
+ゾンビスティック, 杖
+見えない一撃(攻撃), ディレイ Swing.wav 5
+見えない一撃(命中), 点打
+吸い込み(攻撃), 音再生 Storm.wav
+吸い込み(命中), -
+眠りにつく, -
+ぶん回す, アッパー
+スロウ(攻撃), 連続描画 Action\EFFECT_Suplly[01-04].bmp 32 2 1 前面 発光 保持 相手ユニットＩＤ PowerDown.wav; _
+連続描画 Action\EFFECT_Suplly[01-04].bmp 32 4 1 前面 発光 保持 相手ユニットＩＤ; _
+連続描画 Action\EFFECT_Suplly[01-04].bmp 32 8 1 前面 発光 相手ユニットＩＤ
+スロウ(命中), -
+ストップ(攻撃), 連続描画 Action\EFFECT_Remove[01-06].bmp 32 2 1 前面 発光 保持 相手ユニットＩＤ Hide.wav; _
+連続描画 Action\EFFECT_Aiming[05-08].bmp 32 2 1 前面 発光 相手ユニットＩＤ EvilEye.wav
+ストップ(命中), -
+ブレイク(攻撃), 周囲回転 Common\EFFECT_Shine(Yellow)04.bmp Whiz.wav 3
+ブレイク(命中), @戦闘アニメ_結界発動 赤 Reload.wav "　"
+バーサク(攻撃), 炎投射 桃
+バーサク(命中), オーラ上昇 桃
+トルネド, ＭＡＰ竜巻
+デスペルフレア(攻撃), 光投射 黒
+デスペルフレア(命中), 光投射 黒;飛沫 対象ユニットＩＤ 橙 Whiz.wav;粒子集中 橙 Charge(high).wav;連続大爆発 橙
+### アイテム
+ぶん取る, 飛びかかり
+銭投げ(攻撃), ＭＡＰ実弾発射 DGoods\EFFECT_Zeni01.bmp 32 Bow.wav
+銭投げ(命中), 打撃
+あやつる(攻撃), ジャンプ
+あやつる(命中), 回転 Piyopiyo.wav 1
+沙悟浄の槍, 月牙(突)
+カッパー(ア), 光圧縮
+スーパーボール, 投擲武器 Bullet\EFFECT_Bearing01.bmp
+干し肉(使用), 決め画像 Foods\EFFECT_TheMeat01.bmp
+干し肉(発動), 発光 青
+魚(使用), 決め画像 Animal\EFFECT_Tuna01.bmp
+魚(発動), 発光 赤
+アルテマウェポン, ライトセイバー 青
+ラグナロク(準備), 黒剣
+ラグナロク(攻撃), 黒斬撃
+ラグナロク(命中), 黒斬撃
+ラグナロク(クリティカル), 粒子集中 橙 Charge(high).wav;@戦闘アニメ_連続大爆発命中 橙
+ライトブリンガー(準備), 神剣
+ライトブリンガー(攻撃), 大斬撃 白
+ライトブリンガー(命中), 円弧斬撃 白
+ライトブリンガー(クリティカル), 大放電 白 Inori.wav
+ソウルセイバー, 呪剣
+オーガニクス, レイピア
+炎のロッド(攻撃), 発光 赤 対象ユニットＩＤ
+炎のロッド(命中), 爆発 赤
+氷のロッド(攻撃), 発光 青 対象ユニットＩＤ
+氷のロッド(命中), 爆発 青
+雷のロッド(攻撃), 発光 黄 対象ユニットＩＤ
+雷のロッド(命中), 爆発 黄
+ホーリーロッド(攻撃), 発光 白 対象ユニットＩＤ
+ホーリーロッド(命中), 爆発 白
+### 幻獣
+ロッド, 杖
+パンチ, 打突
+氷(攻撃), 斬撃
+氷(命中), 決め画像 Ice\EFFECT_FallingIceRock01.bmp Transform.wav
+ラスピル(攻撃), 光弾 桃 BeamSaber.wav
+ラスピル(命中), 飛沫 桃 Bubble.wav
+裁きの雷(攻撃), ＭＡＰビーム 白;ＭＡＰ放電
+裁きの雷(命中), 放電
+地獄の火炎(攻撃), 実弾発射 Magic\EFFECT_MCircle(Red)01.bmp 32 Cannon.wav 遅;ＭＡＰ大爆発 赤
+地獄の火炎(命中), 爆発 赤
+ダイヤモンドダスト, ＭＡＰ吹雪
+ケイオスウェイヴ(攻撃), ＭＡＰビーム 紫 MicroMissile.wav
+ケイオスウェイヴ(命中), 拡散ビーム 紫
+ホーリーブライトン(使用), 魔法放射 白
+ホーリーブライトン(発動), 回復魔法泡
+ルナティックボイス, ＭＡＰ音符 緑
+キャットレイン, ＭＡＰ発光 黒 Cat.wav
+ヒールホーン(使用), @戦闘アニメ_ＭＡＰ連続表示共通 ScrollBack\EFFECT_SlidFront(Blue) 48 EvilEye.wav
+ヒールホーン(発動), 発光 青 Sharara.wav
+悪魔の瞳(攻撃), フラッシュ 黒 Fold.wav
+悪魔の瞳(命中), -
+バニシングボディー(使用), 音再生 Wind.wav;連続描画 Creature\EFFECT_Ghost[01-01].bmp 32 1 1 前面 発光 保持; _
+連続描画 Creature\EFFECT_Ghost[01-01].bmp 36 1 1 前面 発光 保持; _
+連続描画 Creature\EFFECT_Ghost[01-01].bmp 44 1 1 前面 発光 保持; _
+連続描画 Creature\EFFECT_Ghost[01-01].bmp 54 1 1 前面 発光 保持; _
+連続描画 Creature\EFFECT_Ghost[01-01].bmp 68 1 1 前面 発光 保持; _
+連続描画 Creature\EFFECT_Ghost[01-01].bmp 84 1 1 前面 発光
+バニシングボディー(発動), 決め文字 ？ 白 Flair.wav
+ルビーの光(使用), 音再生 BeamCoat.wav;連続描画 Light\EFFECT_AllLight(Blue)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持; _
+連続描画 Light\EFFECT_AllLight(Blue)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持 左右反転; _
+連続描画 Light\EFFECT_AllLight(Blue)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持; _
+連続描画 Light\EFFECT_AllLight(Blue)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持 左右反転; _
+連続描画 Light\EFFECT_AllLight(Blue)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持; _
+連続描画 Light\EFFECT_AllLight(Blue)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持 左右反転; _
+連続描画 Light\EFFECT_AllLight(Blue)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持; _
+連続描画 Light\EFFECT_AllLight(Blue)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 左右反転
+ルビーの光(発動), 音再生 EvilEye.wav;連続描画 Light\EFFECT_CrossLight(Blue)[01-07].bmp 64 3 1 前面 発光
+バブルブロウ(攻撃), ＭＡＰ実弾発射 Common\EFFECT_BubbleSphere(Blue)01.bmp 32 Bubble.wav
+バブルブロウ(命中), 泡球 青
+アースウォール(使用), 決め画像 Creature\EFFECT_SuspectRobot01.bmp Bazooka.wav
+アースウォール(発動), 音再生 Transform.wav;連続描画 Rock\EFFECT_RockPiller[01-05].bmp 48 3 1 前面
+マジックシールド(使用), -
+マジックシールド(発動), 連続描画 Barrier\EFFECT_BeamCoat(Green)[01-05].bmp 32 1 4 前面 発光; _
+音再生 EvilEye.wav;連続描画 Light\EFFECT_CrossLight(Green)[01-07].bmp 64 2 1 前面 発光
+エンジェルフェザー(使用), 画像投射 Creature\EFFECT_Angel01.bmp Whiz.wav 発光 1
+エンジェルフェザー(発動), 羽 Sharara.wav
+ソニックダイブ(攻撃), @戦闘アニメ_Ｍ移共通 Whiz.wav Creature\EFFECT_SuspectBird01.bmp -.bmp 32
+ソニックダイブ(命中), 爆発 赤
+ハウリングムーン(使用), 決め画像 Animal\EFFECT_Wolf01.bmp Whiz.wav;連続描画 Barrier\EFFECT_Barrier[01-04].bmp 32 4 1 前面 発光
+ハウリングムーン(発動), -
+トライディザスター(攻撃), 音再生 Search.wav;連続描画 Lightning\EFFECT_CU_HyperElectric(Yellow)[01-03].bmp 長方形サイズ=128=80 3 4 前面 発光; _
+@戦闘アニメ_ＭＡＰ連続表示共通 Beam2\EFFECT_HyperBeam(Blue) 32 Explode.wav
+トライディザスター(命中), 爆発 青
+アースサラウンド(攻撃), 音再生 Charge(High).wav;連続描画 Light\EFFECT_LBeamPillarEffect(Orange)[01-03].bmp 64 3 4 前面 発光; _
+@戦闘アニメ_ＭＡＰ連続表示共通 Rock\EFFECT_RockPiller 48 WarShip.wav
+アースサラウンド(命中), 岩柱
+魅惑の抱擁(使用), 音再生 BeamCoat.wav;連続描画 Light\EFFECT_AllLight(Yellow)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持; _
+連続描画 Light\EFFECT_AllLight(Yellow)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持 左右反転; _
+連続描画 Light\EFFECT_AllLight(Yellow)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持; _
+連続描画 Light\EFFECT_AllLight(Yellow)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持 左右反転; _
+連続描画 Light\EFFECT_AllLight(Yellow)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持; _
+連続描画 Light\EFFECT_AllLight(Yellow)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持 左右反転; _
+連続描画 Light\EFFECT_AllLight(Yellow)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持; _
+連続描画 Light\EFFECT_AllLight(Yellow)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 左右反転
+魅惑の抱擁(発動), 花びら Sharara.wav
+聖なる審判(攻撃), ＭＡＰ持続ビーム 黄
+聖なる審判(命中), 爆発
+転生の炎(使用), 画像投射 Effect\EFFECT_Firebird(Red).bmp Whiz.wav 発光 1
+転生の炎(発動), 炎
+転生の炎(ロック)(使用), 画像投射 Effect\EFFECT_Firebird(Red).bmp Whiz.wav 発光 1
+転生の炎(ロック)(発動), 炎
+斬鉄剣(攻撃), 大斬撃;@戦闘アニメ_ＭＡＰ連続表示共通 Action\EFFECT_Flair 32 Slash(4).wav
+斬鉄剣(命中), @戦闘アニメ_横分割とどめ
+真・斬鉄剣(攻撃), 落雷 対象ユニットＩＤ;大斬撃;@戦闘アニメ_ＭＡＰ連続表示共通 Action\EFFECT_Flair 32 Slash(4).wav
+真・斬鉄剣(命中), @戦闘アニメ_横分割とどめ
+メガフレア(攻撃), 巨大ビーム 青 電撃 Explode(Nuclear).wav;ＭＡＰ爆発 青
+メガフレア(命中), 爆発 青
+メタモルフォース(準備), 黒剣 
+メタモルフォース(攻撃), 音再生 BeamCoat.wav;連続描画 Light\EFFECT_AllLight(Red)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持; _
+連続描画 Light\EFFECT_AllLight(Orange)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持 左右反転; _
+連続描画 Light\EFFECT_AllLight(Yellow)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持; _
+連続描画 Light\EFFECT_AllLight(Green)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持 左右反転; _
+連続描画 Light\EFFECT_AllLight(Blue)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持; _
+連続描画 Light\EFFECT_AllLight(Purple)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持 左右反転; _
+連続描画 Light\EFFECT_AllLight(Red)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 保持; _
+連続描画 Light\EFFECT_AllLight(Orange)[01-01].bmp 長方形サイズ=256=240 1 1 前面 発光 左右反転 
+天地崩壊(攻撃), ＭＡＰ発光 青;ＭＡＰビーム 白;ＭＡＰ超爆発 赤
+天地崩壊(命中), 連続大爆発 青
+天地崩壊(命中), 連続大爆発 白
+天地崩壊(命中), 連続大爆発 赤
+針千本(召喚), ニードル連射
+針万本？(召喚)(攻撃), 画像前面発射 Common\EFFECT_ParticleSwooth(White)01.bmp Bow.wav
+針万本？(召喚)(命中), オールレンジ Stab.wav
+闇よりの使者(攻撃), @戦闘アニメ_ＭＡＰ連続表示共通 Bullet\EFFECT_HyperGravity 32 BeamSaber.wav
+闇よりの使者(命中), 重力圧縮 電撃
+剣の選択(攻撃), 複数画像前面発射
+剣の選択(命中), -
+エクスカリパー(召喚)(準備), しもべ FF05_GilgameshU.bmp 32
+エクスカリパー(召喚)(攻撃), 実弾発射 FF05_GilgameshU.bmp 32 Whiz.wav;斬撃 相手ユニットＩＤ
+エクスカリパー(召喚)(命中), 超斬撃 紫
+エクスカリバー(召喚)(準備), しもべ FF05_GilgameshU.bmp 32
+エクスカリバー(召喚)(攻撃), 実弾発射 FF05_GilgameshU.bmp 32 Whiz.wav;斬撃 相手ユニットＩＤ
+エクスカリバー(召喚)(命中), 超斬撃 緑
+マサムネ(召喚)(準備), しもべ FF05_GilgameshU.bmp 32
+マサムネ(召喚)(攻撃), 実弾発射 FF05_GilgameshU.bmp 32 Whiz.wav;斬撃 相手ユニットＩＤ
+マサムネ(召喚)(命中), 超斬撃 橙
+最終幻想(召喚)(準備), しもべ FF05_GilgameshU.bmp 32
+最終幻想(召喚)(攻撃), 実弾発射 FF05_GilgameshU.bmp 32 Whiz.wav;実弾発射 FF05_EnkiduU.bmp 32 Whiz.wav
+最終幻想(召喚)(命中), 竜巻;大斬撃;旋風;超斬撃 黄
+

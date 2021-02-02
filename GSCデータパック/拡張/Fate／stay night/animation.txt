@@ -1,0 +1,571 @@
+
+#下記のアイコンはＳＲＣマイナーデータ掲示板のものを使用しています。
+#EFFECT_FATE_AirTheEstrangedSword.bmp
+#EFFECT_FATE_Avaron.bmp
+#EFFECT_FATE_AzothDagger.bmp
+#EFFECT_FATE_Bellerophon(2).bmp
+#EFFECT_FATE_Bellerophon(3).bmp
+#EFFECT_FATE_Bellerophon(4).bmp
+#EFFECT_FATE_Bellerophon.bmp
+#EFFECT_FATE_Berserker'sAx.bmp
+#EFFECT_FATE_Caliburn.bmp
+#EFFECT_FATE_Dark.bmp
+#EFFECT_FATE_Excalibur(Black).bmp
+#EFFECT_FATE_Excalibur(Shine).bmp
+#EFFECT_FATE_Excalibur.bmp
+#EFFECT_FATE_Geiborugu.bmp 64
+#EFFECT_FATE_Kaladbolg2.bmp
+#EFFECT_FATE_Monohosizao.bmp 64
+#EFFECT_FATE_OnsyouBakuya.bmp
+#EFFECT_FATE_Rider'sDagger(Pre).bmp
+#EFFECT_FATE_Rider'sDagger.bmp
+#EFFECT_FATE_RuleBreaker.bmp
+#EFFECT_FATE_YoukenKansho.bmp
+#EFFECT_FATE_ZealrechTheJeweledSword.bmp
+#TKHM_SharpsAndFlats03.bmp
+
+
+汎用
+アゾット剣(準備), 振る武器 EFFECT_FATE_AzothDagger.bmp
+アゾット剣(攻撃), 刺突
+アゾット剣(命中), 刺突;「“laβt”――――！」;飛沫 青 Inori.wav
+
+
+衛宮士郎
+強化木刀(準備), 木刀
+強化木刀(準備), 木刀
+強化木刀(準備), 木刀
+強化木刀(準備), 木刀
+強化木刀(準備), 木刀
+強化木刀(準備), 「――――同調、開始」.<color=white>「――――</color><small>(トレース、オン)</small><color=white>」;木刀
+強化木刀(準備), 「――――同調、開始」.<color=white>「――――</color><small>(トレース、オン)</small><color=white>」;_
+「────構成材質、解明.────構成材質、補強」;「────全工程、完了」.<color=white>「――――</color><small>(トレース、オフ)</small><color=white>」;木刀
+強化木刀(命中), 斬撃
+弓, 和弓
+干将・莫耶(準備), 左右別武器 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -
+干将・莫耶(準備), 左右別武器 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -
+干将・莫耶(準備), 左右別武器 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -
+干将・莫耶(準備), 左右別武器 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -
+干将・莫耶(準備), 左右別武器 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -
+干将・莫耶(準備), 「――――投影、開始」.<color=white>「――――</color><small>(トレース、オン)</small><color=white>」;_
+左右別武器 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -
+干将・莫耶(準備), 「俺は、そもそも剣を振るう人間じゃない。.衛宮士郎が戦う武器は、始めから魔術と決まっている」;_
+左右別武器 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -
+干将・莫耶(準備), 左右別武器 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -
+干将・莫耶(攻撃), 斬撃 二刀流
+干将・莫耶(攻撃), ダブル斬撃
+干将・莫耶(攻撃), 振り下ろし;なぎ払い
+干将・莫耶(攻撃), 振り上げ;なぎ払い
+干将・莫耶(命中), 斬撃 二刀流
+干将・莫耶(命中), ダブル斬撃
+干将・莫耶(命中), 斬撃;なぎ払い
+干将・莫耶(命中), 振り上げ;なぎ払い
+鶴翼二連(準備), 左右別武器 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -
+鶴翼二連(攻撃), 回転投擲武器 EFFECT_FATE_YoukenKansho.bmp 32 -;回転発射 EFFECT_FATE_OnsyouBakuya.bmp 32 -
+鶴翼二連(命中), なぎ払い;なぎ払い
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 EFFECT_FATE_Kaladbolg2.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 EFFECT_FATE_Berserker'sAx.bmp 64
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 EFFECT_FATE_Monohosizao.bmp 64
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 EFFECT_FATE_Caliburn.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Dagger01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Sword01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Sword02.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_GreatSword01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_GiantSword01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_BlackSword01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_FireSword01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Sword03.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_DevilSword01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_ShortSword01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Saber01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Cutlas01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Rapier01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Scimitar01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Shotel01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Shamshir01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Flamberge01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_SwordBreaker01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_SnakeBlade01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_JapaneseBlade01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Nodachi01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Wakizashi01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Youtou01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Seiryutou01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Sichisitou01.bmp
+投影(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;振る武器 Anime\Weapon\EFFECT_Chaqu01.bmp
+投影(攻撃), 斬撃
+投影(攻撃), 振り下ろし
+投影(攻撃), 振り上げ
+投影(攻撃), なぎ払い
+投影(攻撃), 連斬撃
+投影(攻撃), 刺突
+投影(命中), 斬撃
+投影(命中), なぎ払い
+投影(命中), 振り上げ
+投影(命中), 連斬撃
+投影(命中), 刺突
+黄金の剣(単体)(準備), -
+黄金の剣(単体)(攻撃), 発光 ホワイト 対象ユニットＩＤ;@戦闘アニメ_振る武器転送準備 EFFECT_FATE_Caliburn.bmp;斬撃
+勝利すべき黄金の剣(準備), -
+勝利すべき黄金の剣(攻撃), 発光 ホワイト partner(1);@戦闘アニメ_振る武器転送準備 EFFECT_FATE_Caliburn.bmp;気斬 イエロー
+分身(全て遠き理想郷), 発光 ホワイト;@戦闘アニメ_瞬間変形 相手ユニットＩＤ Anime\EFFECT_FATE_Avaron.bmp;バリア - "全て遠き理想郷"
+無数の剣(準備), 「“────投影、開始”」.<color=white>「“――――</color><small>(トレース、オン)</small><color=white>」
+無数の剣(攻撃), 拡散ビーム ブルー
+無数の剣(命中), 乱突
+無限の剣製, 斬撃乱舞
+偽・螺旋剣(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav
+偽・螺旋剣(攻撃), 発光 ホワイト 対象ユニットＩＤ;@突く武器準備 EFFECT_FATE_Kaladbolg2.bmp;手投げ武器 EFFECT_FATE_Kaladbolg2.bmp
+偽・螺旋剣(命中), 刺突
+鶴翼三連(準備), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;_
+「―――鶴翼、欠落ヲ不ラズ」.<color=white>―――</color><small>(しんぎ、むけつにしてばんじゃく)</small><color=white>;_
+左右別武器 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -
+鶴翼三連(攻撃), 回転投擲武器 EFFECT_FATE_YoukenKansho.bmp Swing.wav;_
+回転投擲武器 EFFECT_FATE_OnsyouBakuya.bmp Swing.wav;「―――凍結、解除」.<color=white>―――</color><small>(フリーズアウト)</small><color=white>;_
+@戦闘アニメ_左右別武器準備 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -;_
+「―――心技　泰山ニ至リ」.<color=white>―――</color><small>(ちから　やまをぬき)</small><color=white>;_
+回転投擲武器 EFFECT_FATE_YoukenKansho.bmp Swing.wav;_
+「―――心技　黄河ヲ渡ル」.<color=white>―――</color><small>(つるぎ　みずをわかつ)</small>;_
+回転投擲武器 EFFECT_FATE_OnsyouBakuya.bmp Swing.wav
+鶴翼三連(命中), @戦闘アニメ_左右別武器準備 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -;_
+「―――唯名　別天ニ納メ」.<color=white>―――</color><small>(せいめい　りきゅうにとどき)</small>;_
+「―――両雄、共ニ命ヲ別ツ……！」.<color=white>―――</color><small>(われら、ともにてんをいだかず)</small><color=white>;ダブル大斬撃
+射殺す百頭(準備), -
+射殺す百頭(攻撃), @戦闘アニメ_振る武器準備 EFFECT_FATE_Berserker'sAx.bmp;連斬撃;なぎ払い;振り下ろし;振り上げ;振り下ろし;連斬撃
+射殺す百頭(命中), 連斬撃;なぎ払い;斬撃;斬り上げ;斬撃;連斬撃;Glass.wav
+攻撃無効化(熾天覆う七つの円環), @戦闘アニメ_変形 FATE_EmiyaShirou(seigaii-s)U.bmp Glass.wav;発光 レッド 対象ユニットＩＤ;中心回転武器防御 熾天覆う七つの円環 Common\EFFECT_Shine(Red)04.bmp Glass.wav
+
+
+英霊アルトリア
+風王結界(攻撃), 斬撃
+風王結界(攻撃), 振り下ろし
+風王結界(攻撃), 振り上げ
+風王結界(攻撃), なぎ払い
+風王結界(命中), 斬撃
+風王結界(命中), なぎ払い
+風王結界(命中), 振り上げ
+風王鉄槌(準備), オーラ上昇 緑 Storm.wav
+風王鉄槌(攻撃), 気斬 緑 Whiz.wav
+風王鉄槌(命中), 飛沫 緑 Slash.wav
+魔力放出(準備), -
+魔力放出(攻撃), 振る武器突撃 -.bmp Storm.wav
+魔力放出(命中), 大斬撃
+約束された勝利の剣(準備), 振る武器 EFFECT_FATE_Excalibur(Shine).bmp 48
+約束された勝利の剣(攻撃), @戦闘アニメ_光噴出準備 黄 Charge(High).wav;2;斬撃 -.wav;実弾発射 Anime\Common\EFFECT_SonicBoom(Yellow)01.bmp 64 Explode(long).wav
+約束された勝利の剣(命中), 魔法集中 黄 -.wav;@戦闘アニメ_ＭＡＰフラッシュ攻撃 相手ユニットＩＤ Explode(Nuclear).wav
+約束された勝利の剣<突撃>(準備), 振る武器 EFFECT_FATE_Excalibur(Shine).bmp 48
+約束された勝利の剣<突撃>(攻撃), @戦闘アニメ_光噴出準備 黄 Charge(High).wav;2;振る武器突撃 EFFECT_FATE_Excalibur(Shine).bmp 48
+約束された勝利の剣<突撃>(命中), @戦闘アニメ_斬撃攻撃 -.wav;魔法集中 黄 -.wav;@戦闘アニメ_ＭＡＰフラッシュ攻撃 相手ユニットＩＤ Explode(Nuclear).wav
+分身(全て遠き理想郷), 発光 ホワイト;@戦闘アニメ_瞬間変形 相手ユニットＩＤ Anime\EFFECT_FATE_Avaron.bmp;バリア - "全て遠き理想郷"
+星の聖剣(準備), 振る武器 EFFECT_FATE_Excalibur.bmp
+星の聖剣(攻撃), 斬撃
+星の聖剣(攻撃), 振り下ろし
+星の聖剣(攻撃), 振り上げ
+星の聖剣(攻撃), なぎ払い
+星の聖剣(命中), 斬撃
+星の聖剣(命中), なぎ払い
+星の聖剣(命中), 振り上げ
+
+
+遠坂凛
+ガンド撃ち(準備), -
+ガンド撃ち(攻撃), 火炎弾 ブラック Gun.wav
+ガンド撃ち(クリティカル), Bubble.wav
+崩拳, 打突 ホワイト
+宝石魔術(準備), -
+宝石魔術(攻撃), キャノン砲 Whiz.wav
+宝石魔術(命中), Explode(Small).wav
+功程四拍(攻撃), 連打
+功程四拍(命中), 連打;@戦闘アニメ_打突攻撃;強打
+アゾット剣(準備), 振る武器 EFFECT_FATE_AzothDagger.bmp
+アゾット剣(攻撃), 刺突
+アゾット剣(命中), 刺突;「“laβt”――――！」;飛沫 青 Inori.wav
+Ｃ・セブンカラーズ(準備), -
+Ｃ・セブンカラーズ(攻撃), キャノン砲 3 Whiz.wav
+Ｃ・セブンカラーズ(命中), Explode(Small).wav
+宝石剣ゼルレッチ(準備), 振る武器 EFFECT_FATE_ZealrechTheJeweledSword.bmp
+宝石剣ゼルレッチ(攻撃), 発光 ホワイト 対象ユニットＩＤ;斬撃;大ビーム イエロー
+宝石剣ゼルレッチ(命中), 大ビーム イエロー
+
+
+英霊エミヤ
+弓(準備), 和弓
+弓(攻撃), 矢連射
+干将・莫耶(準備), 左右別武器 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -
+干将・莫耶(攻撃), 斬撃 二刀流
+干将・莫耶(攻撃), ダブル斬撃
+干将・莫耶(攻撃), 振り下ろし;なぎ払い
+干将・莫耶(攻撃), 振り上げ;なぎ払い
+干将・莫耶(命中), 斬撃 二刀流
+干将・莫耶(命中), ダブル斬撃
+干将・莫耶(命中), 斬撃;なぎ払い
+干将・莫耶(命中), 振り上げ;なぎ払い
+鶴翼二連(準備), 左右別武器 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -
+鶴翼二連(攻撃), 回転投擲武器 EFFECT_FATE_YoukenKansho.bmp 32 -;回転発射 EFFECT_FATE_OnsyouBakuya.bmp 32 -
+鶴翼二連(命中), なぎ払い;なぎ払い
+無限の剣製, 斬撃乱舞
+名剣(準備), 振る武器 EFFECT_FATE_Kaladbolg2.bmp
+名剣(準備), 振る武器 EFFECT_FATE_Berserker'sAx.bmp 64
+名剣(準備), 振る武器 EFFECT_FATE_Monohosizao.bmp 64
+名剣(準備), 振る武器 EFFECT_FATE_Caliburn.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Dagger01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Sword01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Sword02.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_GreatSword01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_GiantSword01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_BlackSword01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_FireSword01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Sword03.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_DevilSword01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_ShortSword01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Saber01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Cutlas01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Rapier01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Scimitar01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Shotel01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Shamshir01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Flamberge01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_SwordBreaker01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_SnakeBlade01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_JapaneseBlade01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Nodachi01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Wakizashi01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Youtou01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Seiryutou01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Sichisitou01.bmp
+名剣(準備), 振る武器 Anime\Weapon\EFFECT_Chaqu01.bmp
+名剣(攻撃), 斬撃
+名剣(攻撃), 振り下ろし
+名剣(攻撃), 振り上げ
+名剣(攻撃), なぎ払い
+名剣(攻撃), 連斬撃
+名剣(攻撃), 刺突
+名剣(命中), 斬撃
+名剣(命中), なぎ払い
+名剣(命中), 振り上げ
+名剣(命中), 連斬撃
+名剣(命中), 刺突
+赤原猟犬(準備), 弓
+赤原猟犬(攻撃), ビームランチャー 武器画像=弓 赤 Explode(Far).wav
+赤原猟犬(命中), 中ビーム 赤 ランダム方向
+壊れた幻想(準備), 弓
+壊れた幻想(攻撃), 実弾発射 EFFECT_FATE_Kaladbolg2.bmp
+壊れた幻想(命中), 大爆発
+鶴翼三連(準備), 左右別武器 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -
+鶴翼三連(攻撃), 回転投擲武器 EFFECT_FATE_YoukenKansho.bmp Swing.wav;回転投擲武器 EFFECT_FATE_OnsyouBakuya.bmp Swing.wav;_
+@戦闘アニメ_左右別武器準備 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -;_
+回転投擲武器 EFFECT_FATE_YoukenKansho.bmp Swing.wav;回転投擲武器 EFFECT_FATE_OnsyouBakuya.bmp Swing.wav
+鶴翼三連(命中), @戦闘アニメ_左右別武器準備 EFFECT_FATE_YoukenKansho.bmp 32 - EFFECT_FATE_OnsyouBakuya.bmp 32 -;_
+「―――心技　泰山ニ至リ」.<color=white>―――</color><small>(ちから　やまをぬき)</small><color=white>;_
+「―――心技　黄河ヲ渡ル」.<color=white>―――</color><small>(つるぎ　みずをわかつ)</small>;_
+「ぬおおおおおお…………！！！！」;ダブル大斬撃
+投影(準備), 振る武器 EFFECT_FATE_Kaladbolg2.bmp
+投影(準備), 振る武器 EFFECT_FATE_Berserker'sAx.bmp 64
+投影(準備), 振る武器 EFFECT_FATE_Monohosizao.bmp 64
+投影(準備), 振る武器 EFFECT_FATE_Caliburn.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Dagger01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Sword01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Sword02.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_GreatSword01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_GiantSword01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_BlackSword01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_FireSword01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Sword03.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_DevilSword01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_ShortSword01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Saber01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Cutlas01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Rapier01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Scimitar01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Shotel01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Shamshir01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Flamberge01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_SwordBreaker01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_SnakeBlade01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_JapaneseBlade01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Nodachi01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Wakizashi01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Youtou01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Seiryutou01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Sichisitou01.bmp
+投影(準備), 振る武器 Anime\Weapon\EFFECT_Chaqu01.bmp
+投影(攻撃), 斬撃
+投影(攻撃), 振り下ろし
+投影(攻撃), 振り上げ
+投影(攻撃), なぎ払い
+投影(攻撃), 連斬撃
+投影(攻撃), 刺突
+投影(命中), 斬撃
+投影(命中), なぎ払い
+投影(命中), 振り上げ
+投影(命中), 連斬撃
+投影(命中), 刺突
+無数の剣(準備), 「“────投影、開始”」.<color=white>「“――――</color><small>(トレース、オン)</small><color=white>」
+無数の剣(攻撃), 拡散ビーム ブルー
+無数の剣(命中), 乱突
+無限の剣製, 斬撃乱舞
+攻撃無効化(熾天覆う七つの円環), 発光 レッド 対象ユニットＩＤ;中心回転武器防御 熾天覆う七つの円環 Common\EFFECT_Shine(Red)04.bmp Glass.wav
+偽・螺旋剣, 実弾発射 EFFECT_FATE_Kaladbolg2.bmp
+偽・螺旋剣(命中), 大爆発
+
+
+間桐慎二
+黒の刃(準備), -
+黒の刃(攻撃), 地表衝撃波 ブラック
+黒の刃(命中), ダメージ ブラック
+
+
+間桐桜
+虚数魔術(攻撃), 魔法放射 ブラック Whiz.wav
+虚数魔術(命中), ダメージ ブラック
+
+
+英霊メドゥーサ
+魔眼キュベレイ(準備), -
+魔眼キュベレイ(攻撃), 発光 紫 Hittyuu.wav 対象ユニットＩＤ
+魔眼キュベレイ(命中), 発光 紫 Hittyuu.wav
+格闘, 格闘
+格闘, キック
+短剣投擲(準備), 振る武器 EFFECT_FATE_Rider'sDagger(Pre).bmp
+短剣投擲(攻撃), 手投げ武器 EFFECT_FATE_Rider'sDagger.bmp 64
+短剣投擲(命中), 刺突
+釘状短剣(準備), 振る武器 EFFECT_FATE_Rider'sDagger(Pre).bmp
+釘状短剣(攻撃), 斬撃
+釘状短剣(攻撃), 刺突
+釘状短剣(攻撃), 振る武器突撃 EFFECT_FATE_Rider'sDagger(Pre).bmp
+怪力(準備), 振る武器 EFFECT_FATE_Rider'sDagger(Pre).bmp
+怪力(攻撃), 手投げ武器 EFFECT_FATE_Rider'sDagger.bmp 64
+怪力(命中), 刺突;ジャイアントスイング
+騎英の手綱(準備), Charge(high).wav;_
+　　　　　　　　　3;EFFECT_FATE_Bellerophon.bmp 32 32 $(WX()) $(WY()) 透過;_
+　　　　　　　　　3;EFFECT_FATE_Bellerophon(2).bmp 32 32 $(WX()) $(WY()) 透過;_
+　　　　　　　　　3;EFFECT_FATE_Bellerophon(3).bmp 32 32 $(WX()) $(WY()) 透過;_
+　　　　　　　　　3;EFFECT_FATE_Bellerophon(4).bmp 32 32 $(WX()) $(WY()) 透過 保持;_
+　　　　　　　　　オーラ上昇 白 -.wav;放電 -.wav;4;発光 ブルー
+騎英の手綱(攻撃), @戦闘アニメ_エネルギーフィールド展開準備 Breath.wav;_
+　　　　　　　　　@戦闘アニメ_瞬間変形 Anime\Barrier\EFFECT_Barrier04.bmp;光噴出 青 対象ユニットＩＤ;_
+　　　　　　　　　4;@戦闘アニメ_飛来アップ Anime\Barrier\EFFECT_Barrier04.bmp Storm.wav 残像 速 黒;0.5;_
+　　　　　　　　　@戦闘アニメ_瞬間変形 -
+騎英の手綱(命中), 超爆発 Explode(Nuclear).wav
+天馬の飛翔(攻撃), スーパータックル 白
+天馬の飛翔(命中), 打撃 白 Whiz.wav
+
+
+イリヤスフィール＝フォン＝アインツベルン
+魔力の塊(準備), -
+魔力の塊(攻撃), 魔法放射 ホワイト Beam.wav
+魔力の塊(命中), Explode(Small).wav
+
+
+英霊ヘラクレス
+蹂躙(攻撃), 振動 SHock(Low).wav
+蹂躙(命中), ダメージ Explode.wav
+豪腕, 打突
+豪腕(命中), 超打
+衝撃波, 地表衝撃波 白
+斧剣(準備), 振る武器 EFFECT_FATE_Berserker'sAx.bmp 64
+斧剣(攻撃), 振り上げ
+斧剣(攻撃), 振り下ろし
+斧剣(攻撃), なぎ払い
+斧剣(命中), 大斬撃
+斧剣(命中), 横大斬撃
+
+
+葛木宗一郎
+蛇(準備), -
+蛇(攻撃), 打突;斬撃
+蛇(攻撃), 斬撃;打突
+蛇(攻撃), 打突;アッパー
+蛇(攻撃), 打突;振り上げ
+蛇(攻撃), 振り上げ;打突
+蛇(攻撃), 打突;振り下ろし
+蛇(攻撃), 振り下ろし;打突
+蛇(攻撃), 振り上げ;振り下ろし
+蛇(攻撃), 振り下ろし;振り上げ
+魔術師殺し, 打突
+右拳, スーパーパンチ
+
+
+英霊メディア
+アトラス(準備), -
+アトラス(攻撃), 魔法放射 ホワイト Beam.wav
+アトラス(クリティカル), Glass.wav
+コルキス(準備), 召喚 ../unit\FATE_DragonToothWarriorU.bmp
+コルキス(攻撃), 実弾発射 ../unit\FATE_DragonToothWarriorU.bmp
+コルキス(命中), 斬撃
+ユピテル・ロッド(攻撃), 拡散ビーム パープル Thunder.wav
+ユピテル・ロッド(命中), ダメージ パープル 連続
+アエロー(攻撃), 魔法放射 ホワイト -.wav 小
+アエロー(命中), 魔法陣 背面;ダメージ 赤
+ヘカティック・グライアー(準備), 魔法陣 背面 パープル
+ヘカティック・グライアー(攻撃), 拡散ビーム パープル;ＭＡＰビーム ライトブルー
+ヘカティック・グライアー(命中), 拡散ビーム パープル;超ビーム ライトブルー
+攻撃無効化(アルゴス), シールド防御 Magic\EFFECT_MagicEmblem(Red)01.bmp 48 Beamcoat.wav 発光 アルゴス
+
+
+英霊佐々木小次郎
+物干し竿(準備), 斬撃武器 EFFECT_FATE_Monohosizao.bmp 64
+物干し竿(攻撃), 斬撃
+物干し竿(攻撃), 振り下ろし
+物干し竿(攻撃), 振り上げ
+物干し竿(攻撃), なぎ払い
+物干し竿(命中), 斬撃
+物干し竿(命中), なぎ払い
+物干し竿(命中), 振り上げ
+燕返し(準備), 振る武器 EFFECT_FATE_Monohosizao.bmp 64
+燕返し(攻撃), Clear;_
+　　　　　　　Saber.wav;_
+　　　　　　　2;Attack\EFFECT_Swing[01-05].bmp 56 20 $(WX() - 12) $(WY() + 6) $(LIndex("左右反転 反転なし",1 + (X(対象ユニットＩＤ) >= X(相手ユニットＩＤ)))) 透過;_
+　　　　　　　Saber.wav;_
+　　　　　　　2;Attack\EFFECT_Swing[01-05].bmp 20 56 $(WX() + 6) $(WY() - 12) $(LIndex("左右反転 反転なし",1 + (X(対象ユニットＩＤ) >= X(相手ユニットＩＤ)))) 透過;_
+　　　　　　　Keep
+燕返し(命中), 超斬撃 Slash.wav
+
+
+言峰綺礼
+黒鍵投擲(準備), -
+黒鍵投擲(攻撃), 投擲武器 TKHM_SharpsAndFlats03.bmp
+黒鍵投擲(命中), 連突
+崩拳, 打突 ホワイト
+黒蛇現照, 触手 ブラック
+絶拳(攻撃), 地面衝撃 対象ユニットＩＤ;2;スーパーパンチ ブラック
+絶拳(命中), 強打 Crash.wav;4;@戦闘アニメ_なぎ払い攻撃 Swing.wav;なぎ払い Crash.wav;_
+@戦闘アニメ_格闘攻撃;ダメージ Crash.wav;_
+@戦闘アニメ_打突攻撃;超打
+洗礼詠唱(攻撃), 魔法放射 ホワイト Whiz.wav
+洗礼詠唱(命中), Inori.wav
+この世、全ての悪, 魔法放射 ブラック Whiz.wav
+
+
+英霊クー＝フーリン
+真紅の槍, 斬撃武器 EFFECT_FATE_Geiborugu.bmp 64
+真紅の槍, 刺突武器 EFFECT_FATE_Geiborugu.bmp 64
+刺し穿つ死棘の槍(準備), 突く武器 EFFECT_FATE_Geiborugu.bmp 64;オーラ上昇 赤
+刺し穿つ死棘の槍(攻撃), 刺突
+刺し穿つ死棘の槍(命中), 刺突
+突き穿つ死翔の槍(準備), 突く武器 EFFECT_FATE_Geiborugu.bmp 64;オーラ上昇 赤
+突き穿つ死翔の槍(攻撃), 打ち下ろし実弾発射 EFFECT_FATE_Geiborugu.bmp 64 Swing.wav - 速
+突き穿つ死翔の槍(命中), 超爆発
+
+
+英霊ギルガメッシュ
+天の鎖(準備), チェーン
+天の鎖(攻撃), 手投げ武器 Weapon\EFFECT_Chain02.bmp Whiz.wav
+天の鎖(クリティカル), 捕縛 Whip.wav
+原典宝具(準備), 「────“王の財宝”」.<color=white>「──</color><small>(ゲート・オブ・バビロン)</small><color=white>」; 斬撃武器 EFFECT_FATE_Monohosizao.bmp 64
+原典宝具(準備), 「────“王の財宝”」.<color=white>「──</color><small>(ゲート・オブ・バビロン)</small><color=white>」;斬撃武器 EFFECT_FATE_Geiborugu.bmp 64
+原典宝具(準備), 「────“王の財宝”」.<color=white>「──</color><small>(ゲート・オブ・バビロン)</small><color=white>」;振る武器 EFFECT_FATE_Kaladbolg2.bmp
+原典宝具(準備), 「────“王の財宝”」.<color=white>「──</color><small>(ゲート・オブ・バビロン)</small><color=white>」;振る武器 EFFECT_FATE_Excalibur.bmp
+原典宝具(準備), 「────“王の財宝”」.<color=white>「──</color><small>(ゲート・オブ・バビロン)</small><color=white>」;振る武器 EFFECT_FATE_Caliburn.bmp
+原典宝具(攻撃), 斬撃
+原典宝具(攻撃), 振り下ろし
+原典宝具(攻撃), 振り上げ
+原典宝具(攻撃), なぎ払い
+原典宝具(命中), 斬撃
+原典宝具(命中), なぎ払い
+原典宝具(命中), 振り上げ
+王の財宝(準備), 「────“王の財宝”」.<color=white>「──</color><small>(ゲート・オブ・バビロン)</small><color=white>」
+王の財宝(攻撃), 拡散ビーム レッド
+王の財宝(命中), 乱突
+王の財宝・無限の宝具(準備), 「────“王の財宝”」.<color=white>「──</color><small>(ゲート・オブ・バビロン)</small><color=white>」
+王の財宝・無限の宝具(攻撃), 拡散ビーム レッド
+王の財宝・無限の宝具(命中), 乱突
+天地乖離す開闢の星(準備), 振る武器転送 EFFECT_FATE_AirTheEstrangedSword.bmp 32
+天地乖離す開闢の星(攻撃), 旋風 白
+天地乖離す開闢の星(命中), 旋風 白
+天地乖離す開闢の星<MAP>(準備), 振る武器転送 EFFECT_FATE_AirTheEstrangedSword.bmp 32
+天地乖離す開闢の星<MAP>(攻撃), ＭＡＰビーム 白 Storm.wav
+天地乖離す開闢の星<MAP>(命中), 大爆発
+
+
+間桐臓硯
+淫虫(準備), -
+淫虫(攻撃), ニードル連射 1;Bow.wav;1;Bow.wav;1;Bow.wav;1;Bow.wav;1;Bow.wav
+淫虫(命中), 噛み付き
+
+
+英霊ハサン＝サッバーハ
+ダーク(攻撃), 投擲武器 EFFECT_FATE_Dark.bmp 32
+ダーク(命中), 刺突
+#命中なかったので
+三連投擲(準備), -
+三連投擲(攻撃), 連斬撃;なぎ払い;実弾連射 EFFECT_FATE_Dark.bmp 32
+三連投擲(命中), 連突
+妄想心音(準備), -
+妄想心音(攻撃), 魔法放射 ブラック Whiz.wav
+妄想心音(命中), 打突
+
+
+間桐桜(マキリの杯)
+呪層界・胎蔵曼荼羅(攻撃), ＭＡＰブラックホール Splash.wav
+呪層界, 触手 ブラック
+呪層界・悪心祝祭(攻撃), @戦闘アニメ_召喚準備 ../unit\FATE_BlackGiantU.bmp;斬撃乱舞 ブラック Swing.wav
+呪層界・悪心祝祭(命中), 乱打 ブラック Crash.wav
+
+
+英霊アルトリア(黒化)
+星の聖剣(準備), 振る武器 EFFECT_FATE_Excalibur(Black).bmp 32
+星の聖剣(命中), 黒斬撃
+魔力放出(準備), -
+魔力放出(攻撃), 振る武器突撃 -.bmp Storm.wav
+魔力放出(命中), 大斬撃
+約束された勝利の剣(準備), 振る武器 EFFECT_FATE_Excalibur(Black).bmp 32
+約束された勝利の剣(攻撃), 波動放射 ブラック Transform.wav
+約束された勝利の剣(命中), 波動放射 ブラック Inori.wav
+
+
+英霊ヘラクレス(黒化)
+蹂躙(攻撃), 振動 SHock(Low).wav
+蹂躙(命中), ダメージ Explode.wav
+豪腕, 打突
+豪腕(命中), 超打
+衝撃波, 地表衝撃波 白
+斧剣(準備), 振る武器 EFFECT_FATE_Berserker'sAx.bmp 64
+斧剣(攻撃), 振り上げ
+斧剣(攻撃), 振り下ろし
+斧剣(攻撃), なぎ払い
+斧剣(命中), 大斬撃
+斧剣(命中), 横大斬撃
+
+
+黒い影(Ｆａｔｅ)
+影(攻撃), 触手 ブラック
+影の爆発, -
+
+
+黒い巨人(Ｆａｔｅ)
+影の触手(攻撃), 触手 ブラック
+
+
+衛宮士郎(ｈｏｌｌｏｗ)
+左歯噛咬・右歯噛咬(準備), 振る武器 "Weapon\EFFECT_AfricanThrowingKnife01.bmp" 二刀流
+左歯噛咬・右歯噛咬, 連斬撃
+短剣投擲, 回転投擲武器 "Weapon\EFFECT_AfricanThrowingKnife01.bmp"
+短剣投擲(命中), 斬撃
+獣のような連撃(準備), 振る武器 "Weapon\EFFECT_AfricanThrowingKnife01.bmp" 二刀流
+獣のような連撃(攻撃), 振動 Roar.wav;斬撃乱舞
+獣のような連撃(命中), 斬撃乱舞
+阻止(受け折り), ダミー FightHit(1).wav 受け折り
+攻撃無効化(熾天覆う七つの円環), @戦闘アニメ_変形 FATE_EmiyaShirouU.bmp Glass.wav;_
+発光 レッド 対象ユニットＩＤ;中心回転武器防御 熾天覆う七つの円環 Common\EFFECT_Shine(Red)04.bmp Glass.wav
+
+
+バゼット＝フラガ＝マクレミッツ
+コンビネーション, 連打
+斬り抉る戦神の剣(準備), 発光 黒;振る武器 "Bullet\EFFECT_STG_Bullet(Black)02.bmp" 16
+斬り抉る戦神の剣(攻撃), 打突;実弾発射 "Bullet\EFFECT_STG_Bullet(Black)02.bmp" 16 速
+斬り抉る戦神の剣(命中), 爆発
+後より出でて先に立つもの(準備), 発光 黒;振る武器 "Bullet\EFFECT_STG_Bullet(Black)02.bmp" 16
+後より出でて先に立つもの(攻撃), 打突;実弾発射 "EFFECT_Fate_FlagaLuck.bmp" 32 速
+後より出でて先に立つもの(命中), @戦闘アニメ_貫通穴とどめ
+
+
+英霊アンリマユ
+左歯噛咬・右歯噛咬(準備), 振る武器 "Weapon\EFFECT_AfricanThrowingKnife01.bmp" 二刀流
+左歯噛咬・右歯噛咬, 連斬撃
+短剣投擲, 回転投擲武器 "Weapon\EFFECT_AfricanThrowingKnife01.bmp"
+短剣投擲(命中), 斬撃
+獣のような連撃(準備), 振る武器 "Weapon\EFFECT_AfricanThrowingKnife01.bmp" 二刀流
+獣のような連撃(攻撃), 振動 Roar.wav;斬撃乱舞
+獣のような連撃(命中), 斬撃乱舞
+阻止(受け折り), ダミー FightHit(1).wav 受け折り
+

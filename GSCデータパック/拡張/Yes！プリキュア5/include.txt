@@ -1,0 +1,33 @@
+# 捕縛クリティカルアニメから「捕縛」表示抜き
+戦闘アニメ_鎖縛:
+_CenteringCheck 相手ユニットＩＤ
+Font 12pt
+Local C_X = _Get_WX(相手ユニットＩＤ)
+Local C_Y = _Get_WY(相手ユニットＩＤ)
+Local i
+
+Wait Start
+_SelectSound "Reload.wav" Args(1)
+For i = 1 To 16
+
+  If ((i mod 4) = 1) Then
+    _SelectSound "Reload.wav" Args(1)
+  EndIf
+
+Switch i
+Case 1
+PaintPicture "CT\EFFECT_Bind01.bmp" (C_X - 8) (C_Y - 8) 透過 右回転 0 _ColorTime()
+Case 5
+PaintPicture "CT\EFFECT_Bind01.bmp" (C_X - 8) (C_Y - 8) 透過 右回転 135 _ColorTime()
+Case 9
+PaintPicture "CT\EFFECT_Bind01.bmp" (C_X - 8) (C_Y - 8) 透過 右回転 45 _ColorTime()
+Case 13
+PaintPicture "CT\EFFECT_Bind01.bmp" (C_X - 8) (C_Y - 8) 透過 右回転 90 _ColorTime()
+EndSw
+
+  Refresh
+  Wait Until (i * 0.6)
+Next
+ClearPicture
+Refresh
+Return

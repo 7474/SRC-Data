@@ -1,0 +1,54 @@
+空の境界
+当て身, Swing.wav
+当て身(命中), BreakOff.wav
+九字兼定, Swing.wav
+九字兼定(命中), Slash.wav
+ナイフ投擲(攻撃), Swing.wav
+ナイフ投擲(命中), Stab.wav
+死点突き, Fold.wav;1;Black.bmp 480 480;Clear
+死点突き(命中), 1;Shock(low).wav;Inori.wav
+死点突き(刀), Fold.wav;1;Black.bmp 480 480;Clear
+死点突き(刀)(命中), 1;Shock(low).wav;Inori.wav
+死線切り, Fold.wav;1;Black.bmp 480 480;Clear
+死線切り(命中), 1;Inori.wav;1;Inori.wav;1;Inori.wav;Inori.wav
+死線切り(刀), Fold.wav;1;Black.bmp 480 480;Clear
+死線切り(刀)(命中), 1;Inori.wav;1;Inori.wav;1;Inori.wav;Inori.wav
+死線切り(追加), Fold.wav;1;Black.bmp 480 480;Clear
+死線切り(追加)(命中), 1;Inori.wav;1;Inori.wav;1;Inori.wav;Inori.wav
+アンサズのルーン, BeamSaber.wav;8;Fire.wav
+アンサズのルーン(命中), Fire.wav
+幻燈機械, AntiAirMissile.wav
+幻燈機械, Stab.wav
+封印の匣(準備), Reload.wav
+封印の匣, AntiAirMissile.wav;2;AntiAirMissile.wav;2;AntiAirMissile.wav
+封印の匣(命中), Stab.wav;2;Stab.wav;2;Stab.wav;2;Stab.wav;2;Stab.wav
+AzoLto, Swing.wav
+AzoLto(命中), 3;Punch.wav;Fire.wav
+結界・六道境界(攻撃), Whiz.wav
+結界・六道境界(命中), BeamSaber.wav
+堕獄, Swing.wav
+堕獄(命中), FightHit(3).wav
+金剛訳・粛, BreakOff.wav
+金剛訳・粛(命中), Crash.wav
+金剛訳・粛【MAP】, Gunpod.wav
+金剛訳・粛【MAP】(命中), Crash.wav
+魔術弾, Beam.wav
+魔術弾(命中), Grass.wav
+火炎術,	Swing.wav;Swing(2).wav
+火炎術(命中), Fire.wav
+火炎術(解説), $(ユニット)から飛び散った血がガソリンのように燃え上がる
+捕食, Swing.wav
+捕食(命中), Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;3;Inori.wav
+思念波(命中), Glass.wav
+歪曲の視線, Search.wav
+歪曲の視線(命中), Crash.wav
+歪曲の視線【MAP】, Search.wav
+歪曲の視線【MAP】(命中), Crash.wav
+妖精, Hittyuu.wav
+妖精(命中), -
+妖精(クリティカル), PowerDown.wav
+妖精の弾丸, FastGun.wav
+妖精の弾丸(命中), 1;Explode.wav;1;Explode.wav;1;Explode.wav;1;Explode.wav;Explode.wav
+
+
+

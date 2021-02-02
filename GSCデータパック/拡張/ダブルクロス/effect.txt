@@ -1,0 +1,183 @@
+###解説
+
+オーヴァード
+攻撃無効化(赤河の支配者)(解説), $(パイロット)は血液の流れをコントロールし、血の流出を抑えた
+攻撃無効化(ショックアブソーブ)(解説), $(パイロット)はショックアブソーブを使った。;$(パイロット)の傷が瞬時に再生していく。
+阻止(ニンバス)(解説), $(パイロット)はニンバスを使った。;圧倒的な存在感を前に$(相手パイロット)の敵意が消えていく。
+
+###効果音
+
+檜山ケイト
+ブレインシェイク(命中), Shock(Low).wav
+一閃(命中), Stab.wav
+一角鬼(命中), Slash.wav
+浸透撃(命中), Drill.wav
+神獣撃(命中), Crash.wav
+
+
+上月永斗
+ヴィークルモーフィング, 10;Engine.wav;Bike.wav
+ヴィークルモーフィング(命中), Crash.wav
+ギガンティックモード, 3;Cannon.wav;3;Cannon.wav;3;Cannon.wav;3;Cannon.wav;3;Cannon.wav
+クリスタライズ, 5;Sharara.wav;1;Gun.wav;1;Gun.wav;1;Gun.wav;1;Gun.wav;1;Gun.wav;1;Gun.wav
+クリスタライズ(命中), 1;Explode(small).wav;1;Explode(small).wav;1;Explode(small).wav;1;Explode(small).wav;1;Explode(small).wav;1;Explode(small).wav
+兄弟のコンビネーション, 5;Sharara.wav;1;Gun.wav;1;Gun.wav;1;Gun.wav;1;Gun.wav;1;Gun.wav;1;Gun.wav
+兄弟のコンビネーション(命中), 3;Glass.wav;3;Glass.wav;3;Glass.wav
+
+
+上月司
+氷の牙(命中), 3;Stab.wav;Glass.wav
+完全なる世界(命中), 3;Glass.wav;3;Glass.wav;3;Glass.wav
+コキュートス, Storm.wav
+兄弟のコンビネーション, 5;Sharara.wav;1;Gun.wav;1;Gun.wav;1;Gun.wav;1;Gun.wav;1;Gun.wav;1;Gun.wav
+兄弟のコンビネーション(命中), 3;Glass.wav;3;Glass.wav;3;Glass.wav
+
+
+加賀十也
+一閃(命中), Saber.wav
+嘆きの一撃(命中), Crash.wav
+
+
+黒須左京
+ロンギヌス, 5;Charge.wav;Thunder.wav
+
+
+鈴木和美
+かりそめの狩人, Whiz.wav
+かりそめの狩人(命中), Inori.wav
+
+
+明神リョーマ
+一閃(命中), Punch.wav
+炎の拳(命中), 3;Punch.wav;Fire.wav
+浸透撃, AntiAirMissile.wav
+浸透撃(命中), Bazooka.wav
+ヒートスマッシュ, AntiAirMissile.wav
+ヒートスマッシュ(命中), 3;Bazooka.wav;Explode(Far).wav
+
+
+レオン＝サンジェルマン
+光の弓, Beam.wav
+完全な光輝なる一撃, LaserGun.wav
+
+
+英田言海
+リプレイコマンド, Search.wav
+リプレイコマンド・Ｍ, Search.wav
+
+
+蓮見咲
+一角鬼(命中), Slash.wav
+神獣撃(命中), Crash.wav
+
+
+松永史朗
+炎の爪(命中), 3;Slash.wav;Fire.wav
+フルパワーアタック(命中), Crash.wav
+終末の炎(命中), 3;Bazooka.wav;Explode(Far).wav
+
+
+八坂十字
+疾風, Saber.wav
+サイレンの魔女, Storm.wav
+
+
+水原マキ
+雷の加護, 3;Gun.wav;Thunder.wav
+リニアキャノン, 3;Beam.wav;Thunder.wav
+
+
+長瀬明
+光の弓, LaserGun.wav
+光速の剣(準備), BeamSaber.wav
+光速の剣(命中), Saber.wav
+
+
+神崎葵
+レネゲイド活性化, Charge(high).wav
+振動球, Storm.wav
+氷の牙(命中), 3;Stab.wav;Glass.wav
+
+
+世界の支配者(ダブルクロス)
+燃える世界, Charge(long).wav
+燃える世界(命中), Fire.wav
+
+
+神崎灰枝
+ノーブル・グレイ, Fold.wav
+
+
+佐久間彰人
+クリスタライズ(命中), Glass.wav
+
+
+日下部仁
+静かなる霧, Fold.wav
+蝕む氷の茨, Whiz.wav
+蝕む氷の茨(命中), Glass.wav
+
+
+春日恭二
+器官爆弾, 5;Missile.wav;Explode(Far).wav
+貪欲なる拳, 2;Swing.wav;2;Swing.wav;2;Swing.wav;Swing.wav
+貪欲なる拳(命中), 2;Slash.wav;2;Slash.wav;2;Slash.wav;Slash.wav
+
+
+神崎真白
+惑いの一撃(命中), Crash.wav
+
+
+疾風の一撃(ダブルクロス)
+一閃(命中), Stab.wav
+ソニックストライク(命中), Punch.wav
+
+
+白き閃光(ダブルクロス)
+雷獣の咆哮, LaserGun.wav
+雷獣の咆哮(命中), Thunder.wav
+
+
+完全なる使徒(ダブルクロス)
+雷の牙, Gun.wav
+雷の牙(命中), Thunder.wav
+
+
+紫紺の花(ダブルクロス)
+浸透撃, 2;Swing.wav;2;Swing.wav
+浸透撃(命中), 2;Drill.wav;2;Drill.wav
+妖髪乱舞, 2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav
+妖髪乱舞(命中), 2;Whip.wav;2;Whip.wav;2;Whip.wav;2;Whip.wav
+
+
+幻の造り手(ダブルクロス)
+血鎖封縛, Whiz.wav
+血鎖封縛(命中), Slash.wav
+
+
+オーヴァード
+阻止(守りの弾), 3;Gun.wav;Explode(small).wav
+氷の戒め(命中), Glass.wav
+氷の塔(命中), Crash.wav
+光の剣(準備), BeamSaber.wav
+光の剣(命中), Saber.wav
+焦熱の弾丸, Cannon.wav
+焦熱の弾丸(命中), Fire.wav
+プラズマカノン, Beam.wav
+スターダストレイン, LaserGun.wav
+痛みの水, Splash.wav
+痛みの水(命中), Inori.wav
+ポイズンフォッグ, Fold.wav
+伸縮腕(命中), Whip.wav
+自在槍(命中), Stab.wav
+眠りの粉, Sharara.wav
+ピンポイントレーザー, LaserGun.wav
+雷の槍, Thunder.wav
+踊る髪, 2;Swing.wav;2;Swing.wav
+踊る髪(命中), 2;Whip.wav;2;Whip.wav
+暗黒の網, Whiz.wav
+暗黒の網(命中), Whip.wav
+阻止(灼熱の結界), Fire.wav
+白熱(命中), 3;Punch.wav;Fire.wav
+
+

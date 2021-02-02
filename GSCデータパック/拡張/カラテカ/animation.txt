@@ -1,0 +1,92 @@
+# ローカル戦闘アニメを使用しているキャラは末尾に使用ラベルをコメントしてあります。
+
+# ・使用画像
+# 全て丸投げ画像パックより (Unitフォルダに格納してください)
+#
+# カラテカ
+# 
+# KARATE_Karateka(Bow).bmp
+# KARATE_Karateka(Dead).bmp
+# KARATE_Karateka(HighKick).bmp
+# KARATE_Karateka(LowKick).bmp
+# KARATE_Karateka(MiddleKick).bmp
+#
+# アクマ
+# KARATE_Hawk.bmp 32 Whiz.wav
+#
+# ギロチン門(カラテカ)
+# KARATE_Hawk.bmp 32 Whiz.wav
+
+カラテカ
+礼(攻撃), 瞬間変形 KARATE_Karateka(Bow).bmp 対象ユニットＩＤ 反映;7;瞬間変形 対象ユニットＩＤ 反映;2
+礼(命中), KARATE_礼処理;KARATE_ターゲット変更 相手ユニットＩＤ 対象ユニットＩＤ;@戦闘アニメ_ヘッドバット攻撃 -.wav
+礼(クリティカル), -
+礼(解説), $(ユニット)たちは戦前の礼を交わした。
+突き, 打突
+手裏剣,	手裏剣
+上段蹴り(攻撃), 変形 KARATE_Karateka(HighKick).bmp 対象ユニットＩＤ Swing.wav;1;瞬間変形 対象ユニットＩＤ 反映
+中段蹴り(攻撃), 変形 KARATE_Karateka(MiddleKick).bmp 対象ユニットＩＤ Swing.wav;1;瞬間変形 対象ユニットＩＤ 反映
+下段蹴り(攻撃), 変形 KARATE_Karateka(LowKick).bmp 対象ユニットＩＤ Swing.wav;1;瞬間変形 対象ユニットＩＤ 反映
+三連蹴り(攻撃), Swing.wav;KARATE_ランダム蹴り;4;瞬間変形 対象ユニットＩＤ 反映;1;_
+	Swing.wav;KARATE_ランダム蹴り;4;瞬間変形 対象ユニットＩＤ 反映;1;_
+	Swing.wav;KARATE_ランダム蹴り;4;瞬間変形 対象ユニットＩＤ 反映;1
+三連蹴り(命中), 打撃;2;打撃;2;打撃
+踏み込み連拳(攻撃), 突く武器突撃 -.bmp -.wav;連打;連打
+踏み込み連拳(命中), 連打;連打
+奥義(準備), 振る武器 Magic\EFFECT_JapaneseScroll01.bmp Sword.wav
+奥義(攻撃), Swing(2).wav;KARATE_ランダム蹴り;1.2;瞬間変形 対象ユニットＩＤ 反映;0.5;_
+	Swing(2).wav;KARATE_ランダム蹴り;1.2;瞬間変形 対象ユニットＩＤ 反映;0.5;_
+	Swing(2).wav;KARATE_ランダム蹴り;1.2;瞬間変形 対象ユニットＩＤ 反映;0.5;_
+	Swing(2).wav;KARATE_ランダム蹴り;1.2;瞬間変形 対象ユニットＩＤ 反映;0.5;_
+	Swing(2).wav;KARATE_ランダム蹴り;1.2;瞬間変形 対象ユニットＩＤ 反映;0.5;_
+	Swing(2).wav;KARATE_ランダム蹴り;1.2;瞬間変形 対象ユニットＩＤ 反映;0.5;_
+	Swing(2).wav;KARATE_ランダム蹴り;1.2;瞬間変形 対象ユニットＩＤ 反映;0.5;_
+	Swing(2).wav;KARATE_ランダム蹴り;1.2;瞬間変形 対象ユニットＩＤ 反映;0.5;_
+	Swing(2).wav;KARATE_ランダム蹴り;1.2;瞬間変形 対象ユニットＩＤ 反映;0.5;_
+	Swing(2).wav;KARATE_ランダム蹴り;1.2;瞬間変形 対象ユニットＩＤ 反映;0.5;_
+	Swing(2).wav;KARATE_ランダム蹴り;1.2;瞬間変形 対象ユニットＩＤ 反映;0.5;_
+	Swing(2).wav;KARATE_ランダム蹴り;1.2;瞬間変形 対象ユニットＩＤ 反映
+奥義(命中), 乱打
+脱出, @戦闘アニメ_変形発動 KARATE_Karateka(Dead).bmp FallDown.wav;脱出 -.wav
+切り払い, @戦闘アニメ_変形発動 KARATE_Karateka(HighKick).bmp 相手ユニットＩＤ Transform.wav;KARATE_技能文字 切り払い
+切り払い, @戦闘アニメ_変形発動 KARATE_Karateka(MiddleKick).bmp 相手ユニットＩＤ Transform.wav;KARATE_技能文字 切り払い
+切り払い, @戦闘アニメ_変形発動 KARATE_Karateka(LowKick).bmp 相手ユニットＩＤ Transform.wav;KARATE_技能文字 切り払い
+変形(カラテカ=>カラテカ(構え)), @戦闘アニメ_変形発動 KARATE_Karateka(Fight).bmp -.wav
+変形(カラテカ(構え)=>カラテカ), @戦闘アニメ_変形発動 KARATE_Karateka.bmp -.wav
+
+# KARATE_ランダム蹴り、KARATE_ターゲット変更、KARATE_礼処理、KARATE_技能文字 (include.eve内のラベル全部)
+
+
+
+アクマ(カラテカ)
+タカ, 実弾発射 Unit\KARATE_Hawk.bmp 32 Whiz.wav
+タカ(命中), 爪 二刀流;連突 Stab.wav
+待ち正拳, 連打
+四連蹴り, なぎ払い;1;なぎ払い;1;なぎ払い;1;なぎ払い
+四連蹴り(命中), 打撃;2;打撃;2;打撃;2;打撃
+
+
+
+アクマ門下生
+突き, 打突
+蹴り, キック
+
+
+
+アクマ幹部
+突き, 打突
+四連蹴り, なぎ払い;1;なぎ払い;1;なぎ払い;1;なぎ払い
+四連蹴り(命中), 打撃;2;打撃;2;打撃;2;打撃
+
+
+
+タカ(カラテカ)
+嘴と爪(攻撃), スーパータックル
+嘴と爪(命中), 爪 二刀流;連突 Stab.wav
+
+
+ギロチン門(カラテカ)
+ギロチン(攻撃), 連続描画 Hit\EFFECT_StrongSlashHit(Orange)[01-03].bmp 64 1 1 対象ユニットＩＤ 下辺 Bazooka.wav;_
+	瞬間変形 KARATE_Gate(Close)U.bmp 対象ユニットＩＤ 反映
+ギロチン(命中), 唐竹割り 赤 Stab.wav
+

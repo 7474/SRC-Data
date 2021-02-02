@@ -1,0 +1,112 @@
+破裏拳ポリマー(攻撃)
+ポリマー, PLMN_Polymer(A).bmp
+# OVAのものを使用
+
+破裏拳マーク
+？？？？, PLM_PolymerEmblem.bmp
+# 名乗り用
+
+鎧武士
+武士, PLM_YoroiTakeshi.bmp
+鎧武士(ポリメット)
+武士, PLM_YoroiTakeshi(Polymet).bmp
+# ＣＶ：曽我部和行
+# 一見冴えない探偵助手だが、破裏拳流の使い手。
+# ポリメットを被り「転身！ ポリマー！！」のかけ声でポリマーへと変身する
+# 本名は鬼河原猛。鬼河原虎五郎の一人息子である。
+# 父のスパルタ教育に嫌気が差し、家を飛び出したのである。
+
+車錠
+車探偵長, PLM_KurumaJoe.bmp
+# ＣＶ：青野武
+# 自称「20世紀のシャーロック＝ホームズ」
+# 武、テルからは「探偵長」と呼ばれる。
+# 口の上手さと、事件を悪化させる事に関しては天才的。
+# ちなみに名称の由来は「シャー ＋ ロック →  車 ＋ 錠」
+
+南波テル
+テル, PLM_NambaTeru.bmp
+# ＣＶ：落合美穂
+# 事務所の家主。なんのかんのと武たちと行動を共にし、トラブルに巻き込まれていく
+# 毎回衣装を変えていたのも特徴。
+
+男爵(ポリマー)
+男爵, PLM_Danshaku.bmp
+# ＣＶ：立壁和也
+# 「車探偵事務所」の老犬。
+# 武がポリマーであることを知る唯一のキャラクター
+
+敵
+敵, -.bmp
+
+
+鬼河原虎五郎
+鬼虎局長, PLM_OnigawaraKogoro.bmp
+# ＣＶ：雨森雅司
+# 国際警察局長。
+# 「鬼虎」として恐れられている。武の実父
+
+オレガー＝スッテル
+オレガー博士, PLM_Oreger.bmp
+# ポリメットの開発者
+
+タイフーンホラマー
+ホラマー, PLM_Horamer.bmp
+# 探偵長のもう一つの姿
+
+ポリマールックのテル
+テル, PLM_NambaTeru(Polymer).bmp
+
+カメレオン党アストラルカメレオン
+アストラルカメレオン, PLM_AstralChameleon.bmp
+
+### 新破裏拳ポリマー #################################################
+#OVA作品
+#舞台は海上に作られた人口都市「トキオプラス」
+鬼河原武
+武, PLMN_OnigawaraTakeshi.bmp
+鬼河原武(ポリメット)
+武, PLMN_OnigawaraTakeshi(Polymet).bmp
+
+冥王党バルサー
+バルサー, PLMN_Balser.bmp
+
+### 連携攻撃用ノンパイロット #########################################
+
+大鷲の健
+大鷲の健, SNG_KenofBigEagle.bmp
+
+新造人間キャシャーン
+キャシャーン, CSHN_Casshern.bmp
+
+宇宙の騎士テッカマン
+テッカマン, TKM_Tekkaman.bmp
+
+電光石火ヴォルター
+ヴォルター, VLT_Volter.bmp
+
+ＪＪ(ジリオン)
+ＪＪ, ZLN_JJ.bmp
+
+日高秋亜人
+シュラト, TSS_HidakaShurato.bmp
+
+テッカマンブレード
+ブレード, TKMB_TekkamanBlade.bmp
+テッカマンブレード(攻撃)
+ブレード, TKMB_TekkamanBlade(A).bmp
+テッカマンブレード(眼光)
+ブレード, TKMB_TekkamanBlade(Eye).bmp
+
+ブラスターテッカマンブレード
+ブレード, TKMB_BlasterTekkamanBlade.bmp
+ブラスターテッカマンブレード(攻撃)
+ブレード, TKMB_BlasterTekkamanBlade(A).bmp
+ブラスターテッカマンブレード(眼光)
+ブレード, TKMB_BlasterTekkamanBlade(Eye).bmp
+
+テッカマンイーベル
+イーベル, TKMB2_TekkamanIhvel.bmp
+
+ジェネレイターガウル
+ガウル, GWL_Gawl.bmp

@@ -1,0 +1,33 @@
+オーバビスマシン
+重力場スティック(準備), Reload(2).wav 
+重力場スティック(命中), Whiz.wav
+反重力スティック(準備), Reload(2).wav 
+反重力スティック(命中), FightHit(1).wav
+アストロボール(準備), Reload(2).wav 
+アストロボール, BeamShot.wav
+アストロボール(命中), Punch.wav
+ブレード(準備), Reload(4).wav
+フィールドジェネレーター, Cannon.wav
+
+ＧＡＳ
+ギガンティックブロウ(準備), Charge(High).wav
+ギガンティックブロウ, Swing.wav
+ギガンティックブロウ(命中), Shock(Low).wav
+ビームブラスター(準備), Walk(Robot).wav
+ビームブラスター, 60;Charge(2).wav;Beam.wav
+ビームブラスター(命中), Explode(Long).wav
+Ｗギガンティックブロウ(準備), 3;Charge(High).wav;Charge(High).wav
+Ｗギガンティックブロウ, Swing.wav
+Ｗギガンティックブロウ(命中), Shock(Low).wav
+阻止, 10;Rifle.wav;5;Rifle.wav;5;Rifle.wav;10;Rifle.wav
+
+未確認飛行物体(ステルヴィア)
+重力球, BeamShot.wav
+重力球(命中), Shock(Low).wav
+破壊, Charge.wav 
+分身, Walk(Snow).wav
+
+大型未確認飛行物体(ステルヴィア)
+捕獲(準備), EvilEye.wav
+捕獲(命中), Thunderbolt.wav
+分身, EvilEye.wav

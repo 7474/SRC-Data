@@ -1,0 +1,36 @@
+ヴァイタル・ガーダー
+バルジキャノン, 4;Thunder.wav;Cannon.wav
+ツインバルジ, 4;Thunder.wav;3;Cannon.wav;4;Thunder.wav;Cannon.wav
+１４連装バルジキャノン, 4;Thunder.wav;FastGun.wav
+重力球, Charge.wav
+エイスフィナー, Charge(long).wav
+攻撃無効化, Charge.wav
+格闘(命中), Charge.wav
+体当たり(命中), Charge.wav
+必中投石(命中), 2;Explode.wav;2;Explode.wav
+絶対必中投石(命中), 2;Explode.wav;2;Explode.wav;2;Explode.wav
+必中吶喊(命中), Charge.wav
+全力必中吶喊(命中), Charge.wav
+絶対撃滅投石(命中), 2;Explode.wav;2;Explode.wav;2;Explode.wav;2;Explode.wav
+最終突撃吶喊(命中), Charge.wav
+
+ヴァイア艦
+バルジキャノン, 4;Thunder.wav;Cannon.wav
+ツインバルジ, 4;Thunder.wav;3;Cannon.wav;4;Thunder.wav;Cannon.wav
+１４連装バルジキャノン, 4;Thunder.wav;FastGun.wav
+重力球, Charge.wav
+エイスフィナー, Charge(long).wav
+攻撃無効化, Charge.wav
+格闘(命中), Charge.wav
+体当たり(命中), Charge.wav
+必中投石(命中), 2;Explode.wav;2;Explode.wav
+絶対必中投石(命中), 2;Explode.wav;2;Explode.wav;2;Explode.wav
+必中吶喊(命中), Charge.wav
+全力必中吶喊(命中), Charge.wav
+絶対撃滅投石(命中), 2;Explode.wav;2;Explode.wav;2;Explode.wav;2;Explode.wav
+最終突撃吶喊(命中), Charge.wav
+
+ヴァイア
+攻撃無効化, Charge.wav
+格闘(命中), Charge.wav
+体当たり(命中), Charge.wav

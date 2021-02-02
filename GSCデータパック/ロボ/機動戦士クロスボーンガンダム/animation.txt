@@ -1,0 +1,607 @@
+
+# ・主役クラスの機体は、抜き出しやすいように機体個別でアニメーションを用意。
+# ・共用アニメーションはおとなしめに、機体個別アニメーションは多少動きます。
+# ・丸投げの武器アイコンの一部は、きちんと連番になってなかったり、連続する画像でサイズが違ったりするので、組み込んでいません。
+
+## Ｃ．Ｖ．
+
+クロスボーンガンダムＸ１
+シザーアンカー, 実弾発射 EFFECT_G0133_ScissorAnchor(X-1).bmp 32 Missile.wav 有線
+シザーアンカー(命中), ダメージ BreakOff.wav
+60mmバルカン砲, 振る武器突撃 -.bmp
+60mmバルカン砲(命中), バルカン MachineGun.wav連続爆発 3
+ビームガン, 小ビーム 桃 チャージなし
+ヒートダガー, 振る武器 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(攻撃), 振る武器突撃 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(命中), 斬撃
+バスターガン, ビームライフル EFFECT_G0133_BusterGun(X-1).bmp 48 桃 チャージなし
+バスターガン(命中), ビームライフル 桃 -.wav;連続爆発 2
+ビームサーベル(準備), @戦闘アニメ_円弧斬撃攻撃 桃 BeamSaber.wav;振る武器 Anime\Beam\EFFECT_BeamSaber(Pink)02.bmp
+ビームサーベル(攻撃), ビームサーベル突撃 桃
+ビームサーベル(命中), 光斬撃 桃 中
+ビームサーベル(命中), 光なぎ払い 桃 中
+ビームサーベル(命中), ダメージ 桃 Saber.wav
+ザンバスター(準備), _
+左右別武器 EFFECT_G0133_Zambuster(X-1)(1).bmp 32 - EFFECT_G0133_Zambuster(X-1)(2).bmp 32;_
+射撃武器 EFFECT_G0133_Zambuster(X-1)(4).bmp 64 Reload(2).wav
+ザンバスター(攻撃), ビームライフル EFFECT_G0133_Zambuster(X-1)(4).bmp 64 桃
+ザンバスター(命中), ビームライフル 桃 -.wav;大爆発
+ブランドマーカー, 突く武器突撃 EFFECT_G0133_BrandMarker(X-1)(5).bmp 48
+ブランドマーカー(命中), _
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav;_
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav
+ビームザンバー(準備), 振る武器 EFFECT_G0133_BeamZambur(X-1)(3).bmp 64 BeamSaber.wav
+ビームザンバー(攻撃), 振る武器突撃 EFFECT_G0133_BeamZambur(X-1)(3).bmp 64 Jet.wav
+ビームザンバー(命中), 円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav;円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav
+ビームザンバー(命中), 大刺突 桃 -.wav;ダメージ 桃 Saber.wav;@戦闘アニメ_キック攻撃;超打 Explode.wav
+ビームザンバー(命中), 円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav;@戦闘アニメ_転移;透明化 対象ユニットＩＤ 反映;超斬撃 Saber.wav
+ビームザンバー(命中)(対瀕死), _
+円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav;円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav;_
+ディレイ 3;@戦闘アニメ_射撃武器準備 EFFECT_G0133_BusterGun(X-1).bmp 48 Reload(2).wav;小ビーム Beam.wav;連続爆発 2;大爆発
+ビームザンバー(命中)(対瀕死), _
+大刺突 桃 -.wav;ダメージ 桃 Saber.wav;@戦闘アニメ_キック攻撃;超打 Explode.wav;_
+ディレイ 3;@戦闘アニメ_射撃武器準備 EFFECT_G0133_BusterGun(X-1).bmp 48 Reload(2).wav;小ビーム Beam.wav;連続爆発 2;大爆発
+ビームザンバー(命中)(対瀕死), _
+円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav;@戦闘アニメ_転移;透明化 対象ユニットＩＤ 反映;超斬撃 Saber.wav;_
+ディレイ 3;@戦闘アニメ_射撃武器準備 EFFECT_G0133_BusterGun(X-1).bmp 48 Reload(2).wav;小ビーム Beam.wav;連続爆発 2;大爆発
+
+
+クロスボーンガンダムＸ１改
+60mmバルカン砲, 振る武器突撃 -.bmp
+60mmバルカン砲(命中), バルカン MachineGun.wav;連続爆発 3
+ビームガン, 小ビーム 桃 チャージなし
+ヒートダガー, 振る武器 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(攻撃), 振る武器突撃 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(命中), 斬撃
+バスターガン, ビームライフル EFFECT_G0133_BusterGun(X-1).bmp 48 桃 チャージなし
+バスターガン(命中), ビームライフル 桃 -.wav;連続爆発 2
+ビームサーベル(準備), @戦闘アニメ_円弧斬撃攻撃 桃 BeamSaber.wav;振る武器 Anime\Beam\EFFECT_BeamSaber(Pink)02.bmp
+ビームサーベル(攻撃), ビームサーベル突撃 桃
+ビームサーベル(命中), 光斬撃 桃 中
+ビームサーベル(命中), 光なぎ払い 桃 中
+ビームサーベル(命中), ダメージ 桃 Saber.wav
+ザンバスター(準備), _
+左右別武器 EFFECT_G0133_Zambuster(X-1)(1).bmp 32 - EFFECT_G0133_Zambuster(X-1)(2).bmp 32;_
+射撃武器 EFFECT_G0133_Zambuster(X-1)(4).bmp 64 Reload(2).wav
+ザンバスター(攻撃), ビームライフル EFFECT_G0133_Zambuster(X-1)(4).bmp 64 桃
+ザンバスター(命中), ビームライフル 桃 -.wav;大爆発
+スクリューウェッブ(準備), Reload.wav
+スクリューウェッブ(攻撃), 斬撃;振り上げ
+スクリューウェッブ(命中), _
+ダメージ Explode.wav;ダメージ Explode.wav;ディレイ 3;_
+連続描画 Anime\Hit\EFFECT_StrikeHit(Red)[01-04].bmp 64 2.4 4 Drill.wav;ディレイ 3;大爆発
+ブランドマーカー, 突く武器突撃 EFFECT_G0133_BrandMarker(X-1)(5).bmp 48
+ブランドマーカー(命中), _
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav;_
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav
+ビームザンバー(準備), 振る武器 EFFECT_G0133_BeamZambur(X-1)(3).bmp 64 BeamSaber.wav
+ビームザンバー(攻撃), 振る武器突撃 EFFECT_G0133_BeamZambur(X-1)(3).bmp 64 Jet.wav
+ビームザンバー(命中), 円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav;円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav
+ビームザンバー(命中), 大刺突 桃 -.wav;ダメージ 桃 Saber.wav;@戦闘アニメ_キック攻撃;超打 Explode.wav
+ビームザンバー(命中), 円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav;@戦闘アニメ_転移;透明化 対象ユニットＩＤ 反映;超斬撃 Saber.wav
+ビームザンバー(命中)(対瀕死), _
+円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav;円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav;_
+ディレイ 3;@戦闘アニメ_射撃武器準備 EFFECT_G0133_BusterGun(X-1).bmp 48 Reload(2).wav;小ビーム Beam.wav;連続爆発 2;大爆発
+ビームザンバー(命中)(対瀕死), _
+大刺突 桃 -.wav;ダメージ 桃 Saber.wav;@戦闘アニメ_キック攻撃;超打 Explode.wav;_
+ディレイ 3;@戦闘アニメ_射撃武器準備 EFFECT_G0133_BusterGun(X-1).bmp 48 Reload(2).wav;小ビーム Beam.wav;連続爆発 2;大爆発
+ビームザンバー(命中)(対瀕死), _
+円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav;@戦闘アニメ_転移;透明化 対象ユニットＩＤ 反映;超斬撃 Saber.wav;_
+ディレイ 3;@戦闘アニメ_射撃武器準備 EFFECT_G0133_BusterGun(X-1).bmp 48 Reload(2).wav;小ビーム Beam.wav;連続爆発 2;大爆発
+
+クロスボーンガンダムＸ２
+シザーアンカー, 実弾発射 Hand\EFFECT_Punch(Black)09.bmp 32 Missile.wav 有線
+シザーアンカー(命中), ダメージ BreakOff.wav
+60mmバルカン砲, バルカン
+60mmバルカン砲(命中), バルカン MachineGun.wav;連続爆発 3
+ビームガン, 小ビーム 桃 チャージなし
+ヒートダガー, Reload(2).wav
+ヒートダガー(攻撃), 振る武器突撃 -.bmp Jet.wav
+ヒートダガー(命中), ダメージ Slash(2).wav
+バスターガン, ビームライフル 桃 チャージなし
+バスターガン(命中), ビームライフル 桃 -.wav;連続爆発 2
+４連ヘビーマシンガン, チェーンガン -.bmp 32 橙 MachineCannon.wav
+ビームサーベル, ビームサーベル突撃 桃
+ビームサーベル(命中), 光斬撃 桃 中
+ビームサーベル(命中), 光なぎ払い 桃 中
+ビームサーベル(命中), ダメージ 桃 Saber.wav
+ザンバスター, ビームライフル 桃
+ザンバスター(命中), ビームライフル 桃 -.wav;大爆発
+ブランドマーカー, エナジーブレード突撃 桃 二刀流
+ブランドマーカー(命中), _
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav;_
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav
+ロングライフル<実体弾>(準備), 射撃武器 Anime\Weapon\EFFECT_BusterRifle01.bmp 40
+ロングライフル<実体弾>(攻撃), ビームショットキャノン Anime\Weapon\EFFECT_BusterRifle01.bmp 40 橙 Rifle.wav
+ロングライフル<実体弾>(命中), 大爆発
+ロングライフル<ビーム>(準備), 射撃武器 Anime\Weapon\EFFECT_BusterRifle01.bmp 40
+ロングライフル<ビーム>(攻撃), ビームランチャー Anime\Weapon\EFFECT_BusterRifle01.bmp 40 Rifle.wav
+ロングライフル<ビーム>(命中), 中ビーム
+ランスチャージ, 振る武器突撃 -.bmp
+ランスチャージ(命中), 大刺突 Drill.wav
+ランスチャージ(クリティカル), Reload(2).wav;ディレイ 3;ダメージ Explode.wav;連続大爆発 2;大爆発
+ショットランサー(準備), Reload.wav
+ショットランサー, 実弾発射 Anime\Weapon\EFFECT_KnightLance01.bmp 48 Missile.wav
+ショットランサー(命中), ダメージ Drill.wav;ディレイ 3;大爆発
+ビームザンバー(準備), 振る武器連続描画 BeamWeapon\EFFECT_BeamSword(Pink)[01-06].bmp 48 2.4 1 BeamSaber.wav
+ビームザンバー(攻撃), 振る武器突撃 BeamWeapon\EFFECT_BeamSword(Pink)06.bmp Jet.wav
+ビームザンバー(命中), 円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav
+ビームザンバー(命中), 円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav
+
+クロスボーンガンダムＸ２改
+シザーアンカー, 実弾発射 Hand\EFFECT_Punch(Black)09.bmp 32 Missile.wav 有線
+シザーアンカー(命中), ダメージ BreakOff.wav
+60mmバルカン砲, バルカン
+60mmバルカン砲(命中), バルカン MachineGun.wav;連続爆発 3
+ビームガン, 小ビーム 桃 チャージなし
+ヒートダガー, Reload(2).wav
+ヒートダガー(攻撃), 振る武器突撃 -.bmp Jet.wav
+ヒートダガー(命中), ダメージ Slash(2).wav
+バスターガン, ビームライフル 桃 チャージなし
+バスターガン(命中), ビームライフル 桃 -.wav;連続爆発 2
+４連ヘビーマシンガン, チェーンガン -.bmp 32 橙 MachineCannon.wav
+ビームサーベル, ビームサーベル突撃 桃
+ビームサーベル(命中), 光斬撃 桃 中
+ビームサーベル(命中), 光なぎ払い 桃 中
+ビームサーベル(命中), ダメージ 桃 Saber.wav
+ザンバスター, ビームライフル 桃
+ザンバスター(命中), ビームライフル 桃 -.wav;大爆発
+ブランドマーカー, エナジーブレード突撃 桃 二刀流
+ブランドマーカー(命中), _
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav;_
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav
+ランスチャージ, 振る武器突撃 -.bmp
+ランスチャージ(命中), 大刺突 Drill.wav
+ランスチャージ(クリティカル), Reload(2).wav;ディレイ 3;ダメージ Explode.wav;連続大爆発 2;大爆発
+ショットランサー(準備), Reload.wav
+ショットランサー, 実弾発射 Anime\Weapon\EFFECT_KnightLance01.bmp 48 Missile.wav
+ショットランサー(命中), ダメージ Drill.wav;ディレイ 3;大爆発
+ビームザンバー(準備), 振る武器連続描画 BeamWeapon\EFFECT_BeamSword(Pink)[01-06].bmp 48 2.4 1 BeamSaber.wav
+ビームザンバー(攻撃), 振る武器突撃 BeamWeapon\EFFECT_BeamSword(Pink)06.bmp Jet.wav
+ビームザンバー(命中), 円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav
+ビームザンバー(命中), 円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav
+バスターランチャー(準備), 射撃武器 Anime\Weapon\EFFECT_BusterRifle01.bmp 40
+バスターランチャー(攻撃), ビームランチャー Anime\Weapon\EFFECT_BusterRifle01.bmp 40 Rifle.wav
+バスターランチャー(命中), 中ビーム -.wav;連続大爆発 3
+
+クロスボーンガンダムＸ３
+シザーアンカー, 実弾発射 Hand\EFFECT_Punch(White)09.bmp 32 Missile.wav 有線
+シザーアンカー(命中), ダメージ BreakOff.wav
+60mmバルカン砲, バルカン
+60mmバルカン砲(命中), バルカン MachineGun.wav;連続爆発 3
+ビームガン, 小ビーム 桃 チャージなし
+メガマシンキャノン, 内蔵ガトリング
+ヒートダガー, 振る武器 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(攻撃), 振る武器突撃 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(命中), 斬撃
+バスターガン, ビームライフル 桃 チャージなし
+バスターガン(命中), ビームライフル 桃 -.wav;連続爆発 2
+ブラスターガン, ビームライフル -.bmp 48 桃
+ブラスターガン(命中), ビームライフル 桃 -.wav;大爆発
+ビームサーベル(準備), @戦闘アニメ_円弧斬撃攻撃 桃 BeamSaber.wav;振る武器 Anime\Beam\EFFECT_BeamSaber(Pink)02.bmp
+ビームサーベル(攻撃), ビームサーベル突撃 桃
+ビームサーベル(命中), 光斬撃 桃 中
+ビームサーベル(命中), 光なぎ払い 桃 中
+ビームサーベル(命中), ダメージ 桃 Saber.wav
+ザンバスター, ビームライフル 桃
+ザンバスター(命中), ビームライフル 桃 -.wav;大爆発
+ビームザンバー(準備), 振る武器連続描画 BeamWeapon\EFFECT_BeamSword(Pink)[01-06].bmp 48 2.4 1 BeamSaber.wav
+ビームザンバー(攻撃), 振る武器突撃 BeamWeapon\EFFECT_BeamSword(Pink)06.bmp Jet.wav
+ビームザンバー(命中), 円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav;大刺突 桃 Saber.wav
+ビームザンバー(命中), ダメージ Explode.wav;円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav
+ビームザンバー(命中), 円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav;@戦闘アニメ_キック攻撃;超打 Explode.wav
+ムラマサブラスター, 振る武器 EFFECT_G0133_MuramasaBlaster(4).bmp 96 BeamSaber.wav
+ムラマサブラスター(攻撃), 振る武器突撃 EFFECT_G0133_MuramasaBlaster(4).bmp Jet.wav
+ムラマサブラスター(命中), 大炎斬撃 桃 Saber.wav;大炎斬撃なぎ払い 桃 Saber.wav;超斬撃 桃 Saber.wav;ディレイ 4;連続大爆発 3;大爆発
+腕部Ｉフィールド起動(使用), BeamSaber.wav;ディレイ 4
+腕部Ｉフィールド起動(発動), ビームコート FlyBy(High).wav "　"
+
+クロスボーンガンダムＸ１改・改
+シザーアンカー, 実弾発射 EFFECT_G0133_ScissorAnchor(X-1).bmp 32 Missile.wav 有線
+シザーアンカー(命中), ダメージ BreakOff.wav
+60mmバルカン砲, バルカン
+60mmバルカン砲(命中), バルカン MachineGun.wav;連続爆発 3
+ビームガン, 小ビーム 桃 チャージなし
+ヒートダガー, 振る武器 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(攻撃), 振る武器突撃 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(命中), 斬撃
+バスターガン, ビームライフル EFFECT_G0133_BusterGun(X-1).bmp 48 桃 チャージなし
+バスターガン(命中), ビームライフル 桃 -.wav;連続爆発 2
+ビームサーベル(準備), @戦闘アニメ_円弧斬撃攻撃 桃 BeamSaber.wav;振る武器 Anime\Beam\EFFECT_BeamSaber(Pink)02.bmp
+ビームサーベル(攻撃), ビームサーベル突撃 桃
+ビームサーベル(命中), 光斬撃 桃 中
+ビームサーベル(命中), 光なぎ払い 桃 中
+ビームサーベル(命中), ダメージ 桃 Saber.wav
+ザンバスター(準備), _
+左右別武器 EFFECT_G0133_Zambuster(X-1)(1).bmp 32 - EFFECT_G0133_Zambuster(X-1)(2).bmp 32;_
+射撃武器 EFFECT_G0133_Zambuster(X-1)(4).bmp 64 Reload(2).wav
+ザンバスター(攻撃), ビームライフル EFFECT_G0133_Zambuster(X-1)(4).bmp 64 桃
+ザンバスター(命中), ビームライフル 桃 -.wav;大爆発
+ピーコックスマッシャー, 拡散ビームライフル Weapon\EFFECT_BeamShotGun01.bmp 64 桃
+ピーコックスマッシャー<MAP>, ＭＡＰバスタービームライフル Weapon\EFFECT_BeamShotGun01.bmp 64 桃
+スクリューウェッブ(準備), Reload.wav
+スクリューウェッブ(攻撃), 斬撃;振り上げ
+スクリューウェッブ(命中), _
+ダメージ Explode.wav;ダメージ Explode.wav;ディレイ 3;_
+連続描画 Anime\Hit\EFFECT_StrikeHit(Red)[01-04].bmp 64 2.4 4 Drill.wav;ディレイ 3;大爆発
+ブランドマーカー, 突く武器突撃 EFFECT_G0133_BrandMarker(X-1)(5).bmp 48
+ブランドマーカー(命中), _
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav;_
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav
+ビームザンバー(準備), 振る武器 EFFECT_G0133_BeamZambur(X-1)(3).bmp 64 BeamSaber.wav
+ビームザンバー(攻撃), 振る武器突撃 EFFECT_G0133_BeamZambur(X-1)(3).bmp 64 Jet.wav
+ビームザンバー(命中), 円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav;大刺突 桃 Saber.wav
+ビームザンバー(命中), ダメージ Explode.wav;円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav
+ビームザンバー(命中), 円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav;@戦闘アニメ_キック攻撃;超打 Explode.wav
+
+クロスボーンガンダムＸ１パッチワーク
+フックシールド, 実弾発射 -.bmp Swing(2).wav 有線
+フックシールド(命中), -
+シザーアンカー, 実弾発射 EFFECT_G0133_ScissorAnchor(X-1).bmp 32 Missile.wav 有線
+シザーアンカー(命中), ダメージ BreakOff.wav
+60mmバルカン砲, バルカン
+60mmバルカン砲(命中), バルカン MachineGun.wav;連続爆発 3
+メガマシンキャノン, 内蔵ガトリング
+ビームガン, 小ビーム 桃 チャージなし
+ヒートダガー, 振る武器 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(攻撃), 振る武器突撃 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(命中), 斬撃
+バスターガン, ビームライフル EFFECT_G0133_BusterGun(X-1).bmp 48 桃 チャージなし
+バスターガン(命中), ビームライフル 桃 -.wav;連続爆発 2
+ビームサーベル(準備), @戦闘アニメ_円弧斬撃攻撃 桃 BeamSaber.wav;振る武器 Anime\Beam\EFFECT_BeamSaber(Pink)02.bmp
+ビームサーベル(攻撃), ビームサーベル突撃 桃
+ビームサーベル(命中), 光斬撃 桃 中
+ビームサーベル(命中), 光なぎ払い 桃 中
+ビームサーベル(命中), ダメージ 桃 Saber.wav
+ザンバスター(準備), _
+左右別武器 EFFECT_G0133_Zambuster(X-1)(1).bmp 32 - EFFECT_G0133_Zambuster(X-1)(2).bmp 32;_
+射撃武器 EFFECT_G0133_Zambuster(X-1)(4).bmp 64 Reload(2).wav
+ザンバスター(攻撃), ビームライフル EFFECT_G0133_Zambuster(X-1)(4).bmp 64 桃
+ザンバスター(命中), ビームライフル 桃 -.wav;大爆発
+スクリューウェッブ(準備), Reload.wav
+スクリューウェッブ(攻撃), 斬撃;振り上げ
+スクリューウェッブ(命中), _
+ダメージ Explode.wav;ダメージ Explode.wav;ディレイ 3;_
+連続描画 Anime\Hit\EFFECT_StrikeHit(Red)[01-04].bmp 64 2.4 4 Drill.wav;ディレイ 3;大爆発
+ビームザンバー(準備), 振る武器 EFFECT_G0133_BeamZambur(X-1)(3).bmp 64 BeamSaber.wav
+ビームザンバー(攻撃), 振る武器突撃 EFFECT_G0133_BeamZambur(X-1)(3).bmp 64 Jet.wav
+ビームザンバー(命中), 円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav;大刺突 桃 Saber.wav
+ビームザンバー(命中), ダメージ Explode.wav;円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav
+ビームザンバー(命中), 円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav;@戦闘アニメ_キック攻撃;超打 Explode.wav
+腕部Ｉフィールド起動(使用), BeamSaber.wav;ディレイ 4
+腕部Ｉフィールド起動(発動), ビームコート FlyBy(High).wav "　"
+
+クロスボーン・ガンダムＸ１フルクロス
+シザーアンカー, 実弾発射 EFFECT_G0133_ScissorAnchor(X-1).bmp 32 Missile.wav 有線
+シザーアンカー(命中), ダメージ BreakOff.wav
+60mmバルカン砲, バルカン
+60mmバルカン砲(命中), バルカン MachineGun.wav;連続爆発 3
+メガマシンキャノン, 内蔵ガトリング
+ビームガン, 小ビーム 桃 チャージなし
+ヒートダガー, 振る武器 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(攻撃), 振る武器突撃 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(命中), 斬撃
+バスターガン, ビームライフル EFFECT_G0133_BusterGun(X-1).bmp 48 桃 チャージなし
+バスターガン(命中), ビームライフル 桃 -.wav;連続爆発 2
+ブラスターガン, ビームライフル 桃
+ブラスターガン(命中), ビームライフル 桃 -.wav;大爆発
+ビームサーベル(準備), @戦闘アニメ_円弧斬撃攻撃 桃 BeamSaber.wav;振る武器 Anime\Beam\EFFECT_BeamSaber(Pink)02.bmp
+ビームサーベル(攻撃), ビームサーベル突撃 桃
+ビームサーベル(命中), ダメージ 桃 Saber.wav;ディレイ 3;ダメージ Crash.wav
+ザンバスター(準備), _
+左右別武器 EFFECT_G0133_Zambuster(X-1)(1).bmp 32 - EFFECT_G0133_Zambuster(X-1)(2).bmp 32;_
+射撃武器 EFFECT_G0133_Zambuster(X-1)(4).bmp 64 Reload(2).wav
+ザンバスター(攻撃), ビームライフル EFFECT_G0133_Zambuster(X-1)(4).bmp 64 桃
+ザンバスター(命中), ビームライフル 桃 -.wav;大爆発
+ピーコックスマッシャー, 拡散ビームライフル Weapon\EFFECT_BeamShotGun01.bmp 64 桃
+ピーコックスマッシャー<MAP>, ＭＡＰバスタービームライフル Weapon\EFFECT_BeamShotGun01.bmp 64 桃
+スクリューウェッブ(準備), Reload.wav
+スクリューウェッブ(攻撃), 斬撃;振り上げ
+スクリューウェッブ(命中), _
+ダメージ Explode.wav;ダメージ Explode.wav;ディレイ 3;_
+連続描画 Anime\Hit\EFFECT_StrikeHit(Red)[01-04].bmp 64 2.4 4 Drill.wav;ディレイ 3;大爆発
+ブランドマーカー, 突く武器突撃 EFFECT_G0133_BrandMarker(X-1)(5).bmp 48
+ブランドマーカー(命中), _
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav;_
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav
+ビームザンバー(準備), 振る武器 EFFECT_G0133_BeamZambur(X-1)(3).bmp 64 BeamSaber.wav
+ビームザンバー(攻撃), 振る武器突撃 EFFECT_G0133_BeamZambur(X-1)(3).bmp 64 Jet.wav
+ビームザンバー(命中), 円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav;大刺突 桃 Saber.wav
+ビームザンバー(命中), ダメージ Explode.wav;円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav
+ビームザンバー(命中), 円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav;@戦闘アニメ_キック攻撃;超打 Explode.wav
+ムラマサブラスター, 振る武器 EFFECT_G0133_MuramasaBlaster(4).bmp 96 BeamSaber.wav
+ムラマサブラスター(攻撃), 振る武器突撃 G0133_MuramasaBlaster(4).bmp 
+ムラマサブラスター(命中), 大炎斬撃 桃 Saber.wav;大炎斬撃なぎ払い 桃 Saber.wav;超斬撃 桃 Saber.wav;ディレイ 4;連続大爆発 3;大爆発
+
+
+クロスボーンガンダムフルアーマー
+増設バルカン砲, バルカン
+増設バルカン砲(命中), バルカン MachineGun.wav;連続爆発 3
+メガマシンキャノン, 内蔵ガトリング
+ビームガン, 小ビーム 桃 チャージなし
+ヒートダガー, 振る武器 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(攻撃), 振る武器突撃 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(命中), 斬撃
+バスターガン, ビームライフル EFFECT_G0133_BusterGun(X-1).bmp 48 桃 チャージなし
+バスターガン(命中), ビームライフル 桃 -.wav;連続爆発 2
+ビームサーベル(準備), @戦闘アニメ_円弧斬撃攻撃 桃 BeamSaber.wav;振る武器 Anime\Beam\EFFECT_BeamSaber(Pink)02.bmp
+ビームサーベル(攻撃), ビームサーベル突撃 桃
+ビームサーベル(命中), 光斬撃 桃 中
+ビームサーベル(命中), 光なぎ払い 桃 中
+ビームサーベル(命中), ダメージ 桃 Saber.wav
+ザンバスター(準備), _
+左右別武器 EFFECT_G0133_Zambuster(X-1)(1).bmp 32 - EFFECT_G0133_Zambuster(X-1)(2).bmp 32;_
+射撃武器 EFFECT_G0133_Zambuster(X-1)(4).bmp 64 Reload(2).wav
+ザンバスター(攻撃), ビームライフル EFFECT_G0133_Zambuster(X-1)(4).bmp 64 桃
+ザンバスター(命中), ビームライフル 桃 -.wav;大爆発
+ピーコックスマッシャー, 拡散ビームライフル Weapon\EFFECT_BeamShotGun01.bmp 64 桃
+ピーコックスマッシャー<MAP>, ＭＡＰバスタービームライフル Weapon\EFFECT_BeamShotGun01.bmp 64 桃
+ニーパイルバンカー, 振る武器突撃 -.bmp
+ニーパイルバンカー(命中), ダメージ Explode.wav;ディレイ 3 Reload.wav;ダメージ Explode.wav
+ハイバスター, ビームランチャー -.bmp 32 桃 チャージなし
+ブランドマーカー, 突く武器突撃 EFFECT_G0133_BrandMarker(X-1)(5).bmp 48
+ブランドマーカー(命中), _
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav;_
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav
+パイルバンカー, 振る武器突撃 -.bmp
+パイルバンカー(命中), ディレイ 3 Reload.wav;ダメージ Explode.wav;連続大爆発 3;大爆発
+ビームザンバー(準備), 振る武器 EFFECT_G0133_BeamZambur(X-1)(3).bmp 64 BeamSaber.wav
+ビームザンバー(攻撃), 振る武器突撃 EFFECT_G0133_BeamZambur(X-1)(3).bmp 64 Jet.wav
+ビームザンバー(命中), 円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav;大刺突 桃 Saber.wav
+ビームザンバー(命中), ダメージ Explode.wav;円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav
+ビームザンバー(命中), 円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav;@戦闘アニメ_キック攻撃;超打 Explode.wav
+ムラマサ・ハイバスター, ハイパービームサーベル突撃
+ムラマサ・ハイバスター(命中), 大炎斬撃 桃 Saber.wav;大炎斬撃なぎ払い 桃 Saber.wav;超斬撃 桃 Saber.wav;ディレイ 4;連続大爆発 3;大爆発
+
+クロスボーンガンダムＸ１改・改ベーシック(ＦＡ)
+シザーアンカー, 実弾発射 EFFECT_G0133_ScissorAnchor(X-1).bmp 32 Missile.wav 有線
+シザーアンカー(命中), ダメージ BreakOff.wav
+60mmバルカン砲, バルカン
+60mmバルカン砲(命中), バルカン MachineGun.wav;連続爆発 3
+ビームガン, 小ビーム 桃 チャージなし
+ヒートダガー, 振る武器 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(攻撃), 振る武器突撃 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(命中), 斬撃
+バスターガン, ビームライフル EFFECT_G0133_BusterGun(X-1).bmp 48 桃 チャージなし
+バスターガン(命中), ビームライフル 桃 -.wav;連続爆発 2
+ビームサーベル(準備), @戦闘アニメ_円弧斬撃攻撃 桃 BeamSaber.wav;振る武器 Anime\Beam\EFFECT_BeamSaber(Pink)02.bmp
+ビームサーベル(攻撃), ビームサーベル突撃 桃
+ビームサーベル(命中), 光斬撃 桃 中
+ビームサーベル(命中), 光なぎ払い 桃 中
+ビームサーベル(命中), ダメージ 桃 Saber.wav
+ザンバスター(準備), _
+左右別武器 EFFECT_G0133_Zambuster(X-1)(1).bmp 32 - EFFECT_G0133_Zambuster(X-1)(2).bmp 32;_
+射撃武器 EFFECT_G0133_Zambuster(X-1)(4).bmp 64 Reload(2).wav
+ザンバスター(攻撃), ビームライフル EFFECT_G0133_Zambuster(X-1)(4).bmp 64 桃
+ザンバスター(命中), ビームライフル 桃 -.wav;大爆発
+ピーコックスマッシャー, 拡散ビームライフル Weapon\EFFECT_BeamShotGun01.bmp 64 桃
+ピーコックスマッシャー<MAP>, ＭＡＰバスタービームライフル Weapon\EFFECT_BeamShotGun01.bmp 64 桃
+スクリューウェッブ(準備), Reload.wav
+スクリューウェッブ(攻撃), 斬撃;振り上げ
+スクリューウェッブ(命中), _
+ダメージ Explode.wav;ダメージ Explode.wav;ディレイ 3;_
+連続描画 Anime\Hit\EFFECT_StrikeHit(Red)[01-04].bmp 64 2.4 4 Drill.wav;ディレイ 3;大爆発
+ブランドマーカー, 突く武器突撃 EFFECT_G0133_BrandMarker(X-1)(5).bmp 48
+ブランドマーカー(命中), _
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav;_
+連続描画 Anime\Light\EFFECT_CrossLight(Pink)[01-07].bmp 96 2.1 1 Slash(2).wav
+ビームザンバー(準備), 振る武器 EFFECT_G0133_BeamZambur(X-1)(3).bmp 64 BeamSaber.wav
+ビームザンバー(攻撃), 振る武器突撃 EFFECT_G0133_BeamZambur(X-1)(3).bmp 64 Jet.wav
+ビームザンバー(命中), 円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav;大刺突 桃 Saber.wav
+ビームザンバー(命中), ダメージ Explode.wav;円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav
+ビームザンバー(命中), 円弧斬撃なぎ払い 桃 -.wav;ダメージ 桃 Saber.wav;@戦闘アニメ_キック攻撃;超打 Explode.wav
+
+ベズ・バタラ(クロスボーン・バンガード仕様)
+ビームアックス(準備), 変形 Unit\G0133_PezBatallaCV(BeamAxe).bmp BeamSaber.wav
+ビームアックス(攻撃), 瞬間変形 Unit\G0133_PezBatallaCV(BeamAxe)(Charge).bmp -.wav 反映;振る武器突撃 -.bmp
+ビームアックス(命中), スーパータックル 黄
+
+マザー・バンガード
+機関砲, 機関砲
+ミサイルランチャー, ミサイル 4
+マスト・メガ粒子砲, ２連小ビーム 緑;２連小ビーム 緑 チャージなし;２連小ビーム 緑 チャージなし
+メイン・メガ粒子砲, 拡散ビーム砲 緑
+
+## 木星
+
+ディビニダド
+フェザーファンネル(攻撃), ４ＷＡＹ射出;４ＷＡＹ射出;ＭＡＰオールレンジ
+フェザーファンネル(命中), 包囲ビーム 黄;連続大爆発 3
+巨大クローアーム, 振る武器突撃 -.bmp
+巨大クローアーム(命中), 爆撃 Crash.wav;超打 Crash.wav
+中型ビーム砲, 中ビーム
+中型ビーム砲(命中), 中ビーム 黄 Beam.wav;連続大爆発 4
+超大型ビーム砲(準備), Transform.wav
+超大型ビーム砲, 巨大ビーム 黄 Explode(long).wav
+核ミサイル, 実弾発射 EFFECT_G0133_AtomicMissile.bmp;ＭＡＰフラッシュ Explode(Nuclear).wav
+核ミサイル(命中), -
+
+ユーリディス・シニストラ・ディキトゥス
+攻撃無効化(変形防御), 瞬間変形 G0133_JustitiaSinistraDigitus(MA).bmp;ビームコート BeamCoat.wav Ｉフィールド
+ビームガン, ダブルビームランチャー -.bmp 32 黄
+ビームクロー, エナジーカッター 黄
+ビームクロー(攻撃), エナジーカッター突撃 黄
+ビームクロー(命中), 爪撃 黄
+ビームアックス, ビームアックス突撃 黄
+ビームアックス(命中), 唐竹割り 黄
+メガ粒子砲, 大ビーム 黄
+フェザーファンネル(攻撃), ４ＷＡＹ射出
+フェザーファンネル(命中), 包囲ビーム 黄;包囲ビーム 黄;連続大爆発 3
+正義さす左指(準備), 変形 G0133_JustitiaSinistraDigitus(MA).bmp Transform.wav
+正義さす左指(攻撃), スーパータックル 黄
+正義さす左指(命中), 透明化 対象ユニットＩＤ 反映;ダメージ Crash.wav;ディレイ 3;ダメージ Crash.wav;ディレイ 3;超斬撃;透明化 対象ユニットＩＤ 解除
+
+リーベルダス・デクストラ・ディキトゥス
+攻撃無効化(変形防御), 瞬間変形 G0133_LiberDexteraDigitus(MA).bmp;ビームコート BeamCoat.wav Ｉフィールド
+ビームガン, ダブルビームランチャー -.bmp 32 黄
+ビームクロー, エナジーカッター 黄
+ビームクロー(攻撃), エナジーカッター突撃 黄
+ビームクロー(命中), 爪撃 黄
+ビームアックス, ビームアックス突撃 黄
+ビームアックス(命中), 唐竹割り 黄
+メガ粒子砲, 大ビーム 黄
+フェザーファンネル(攻撃), ４ＷＡＹ射出
+フェザーファンネル(命中), 包囲ビーム 黄;包囲ビーム 黄;連続大爆発 3
+自由なる右指(準備), 変形 G0133_LiberDexteraDigitus(MA).bmp Transform.wav
+自由なる右指(攻撃), スーパータックル 黄
+自由なる右指(命中), 透明化 対象ユニットＩＤ 反映;ダメージ Crash.wav;ディレイ 3;ダメージ Crash.wav;ディレイ 3;超斬撃;透明化 対象ユニットＩＤ 解除
+
+ベズ・バタラ
+ビームアックス(準備), 変形 Unit\G0133_PezBatalla(BeamAxe).bmp BeamSaber.wav
+ビームアックス(攻撃), 瞬間変形 Unit\G0133_PezBatalla(BeamAxe)(Charge).bmp -.wav 反映;振る武器突撃 -.bmp
+ビームアックス(命中), スーパータックル 黄
+
+## 共通
+
+ＭＳ
+60mmバルカン砲, バルカン
+60mmバルカン砲(命中), バルカン MachineGun.wav;連続爆発 3
+90mmメガマシンキャノン, 内蔵ガトリング
+ビームサーベル, ビームサーベル 桃
+ビームライフル, ビームライフル 桃 チャージなし
+ビームガン, 小ビーム 桃 チャージなし
+メガ粒子砲, 中ビーム 黄
+腕部Ｉフィールド起動(使用), BeamSaber.wav;ディレイ 4
+腕部Ｉフィールド起動(発動), ビームコート FlyBy(High).wav "　"
+シザーアンカー, 実弾発射 Hand\EFFECT_Punch(White)09.bmp 32 Missile.wav 有線
+シザーアンカー(命中), ダメージ BreakOff.wav
+メガマシンキャノン, 内蔵ガトリング
+ヒートダガー, 振る武器 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(攻撃), 振る武器突撃 EFFECT_G0133_HeatKnife(4).bmp
+ヒートダガー(命中), 斬撃
+バスターガン, ビームライフル 桃 チャージなし
+バスターガン(命中), ビームライフル 桃 -.wav;連続爆発 2
+ザンバスター, ビームライフル 桃
+ザンバスター(命中), ビームライフル 桃 -.wav;大爆発
+ブランドマーカー, エナジーブレード突撃 桃 二刀流
+ブランドマーカー(命中), ダメージ 桃 Saber.wav;ダメージ 桃 Saber.wav
+ビームザンバー(準備), 振る武器連続描画 BeamWeapon\EFFECT_BeamSword(Pink)[01-06].bmp 48 2.4 1 BeamSaber.wav
+ビームザンバー(攻撃), 円弧斬撃
+ビームザンバー(命中), 円弧斬撃 桃 -.wav;ダメージ 桃 Saber.wav
+スクリューウェッブ(準備), Reload.wav
+スクリューウェッブ(攻撃), 斬撃
+スクリューウェッブ(命中), 連続描画 Anime\Hit\EFFECT_StrikeHit(Red)[01-04].bmp 64 2.4 4 Drill.wav;ディレイ 3;大爆発
+４連ヘビーマシンガン, チェーンガン -.bmp 32 橙 MachineCannon.wav
+ロングライフル<実体弾>(準備), 射撃武器 Anime\Weapon\EFFECT_BusterRifle01.bmp 48
+ロングライフル<実体弾>(攻撃), ビームショットキャノン Anime\Weapon\EFFECT_BusterRifle01.bmp 48 橙 Rifle.wav
+ロングライフル<実体弾>(命中), 大爆発
+ロングライフル<ビーム>(準備), 射撃武器 Anime\Weapon\EFFECT_BusterRifle01.bmp 48
+ロングライフル<ビーム>(攻撃), ビームランチャー Anime\Weapon\EFFECT_BusterRifle01.bmp 48
+ロングライフル<ビーム>(命中), 中ビーム
+ランスチャージ, 振る武器突撃 -.bmp
+ランスチャージ(命中), 大刺突
+ランスチャージ(クリティカル), Reload(2).wav;ディレイ 3;ダメージ Explode.wav;連続大爆発 2;大爆発
+ショットランサー(準備), Reload.wav
+ショットランサー, 実弾発射 Anime\Weapon\EFFECT_KnightLance01.bmp 48 Missile.wav
+ショットランサー(命中), ダメージ;大爆発
+バスターランチャー(準備), 射撃武器 Anime\Weapon\EFFECT_BusterRifle01.bmp 48
+バスターランチャー(攻撃), ビームランチャー Anime\Weapon\EFFECT_BusterRifle01.bmp 48
+バスターランチャー(命中), 中ビーム
+ブラスターガン, ビームライフル -.bmp 48 桃
+ブラスターガン(命中), ビームライフル 桃 -.wav;大爆発
+ムラマサブラスター, 振る武器 EFFECT_G0133_MuramasaBlaster(4).bmp 96 BeamSaber.wav
+ムラマサブラスター(攻撃), 大炎斬撃 桃
+ムラマサブラスター(命中), 超斬撃 桃 Saber.wav
+４連ヘビーマシンガン, チェーンガン -.bmp 32 橙 MachineCannon.wav
+120mmマシンガン, マシンガン
+改良型ザンバスター, ビームライフル 桃
+改良型ザンバスター(命中), ビームライフル 桃 -.wav;大爆発
+増設バルカン砲, バルカン
+増設バルカン砲(命中), バルカン MachineGun.wav;連続爆発 3
+フックシールド, 実弾発射 -.bmp Swing(2).wav 有線
+フックシールド(命中), -
+ピーコックスマッシャー, 拡散ビームライフル Weapon\EFFECT_BeamShotGun01.bmp 64 桃
+ピーコックスマッシャー<MAP>, ＭＡＰバスタービームライフル Weapon\EFFECT_BeamShotGun01.bmp 64 桃
+ニーパイルバンカー, 振る武器突撃 -.bmp
+ニーパイルバンカー(命中), ダメージ Explode.wav;ディレイ 3 Reload.wav;ダメージ Explode.wav
+ハイバスター, ビームランチャー -.bmp 32 桃 チャージなし
+パイルバンカー, 振る武器突撃 -.bmp
+パイルバンカー(命中), ディレイ 3 Reload.wav;ダメージ Explode.wav;連続大爆発 3;大爆発
+ムラマサ・ハイバスター, ハイパービームサーベル
+イカロスアタック(攻撃), 実弾発射 -.bmp 32
+イカロスアタック(命中), 連続大爆発 4
+ビームランチャー, ビームランチャー(２) 黄
+ヴェスバー(準備), Reload.wav
+ヴェスバー, ２連中ビーム 黄
+30mmバルカン砲, バルカン
+120mm三連装キャノン, キャノン砲 3
+##
+ビームカッター, シュートカッター 黄
+ビームカッター(命中), 大爆発
+スネークハンド, なぎ払い
+スネークハンド(命中), 横大斬撃 黄
+ニードルガン, ニードル連射
+高速硬化ガス, 煙噴射 白
+高速硬化ガス(命中), -
+背部ビーム砲, 中ビーム 黄
+ハンマーハンド, 白兵武器
+ハンマーハンド(命中), 爆撃
+５連核弾頭ミサイル, ミサイル 2;ミサイル 3
+５連核弾頭ミサイル(命中), フラッシュ Explode(Nuclear).wav
+ビームキャノン, 中ビーム 黄
+マシンキャノン, 内蔵ガトリング
+二連装ビームキャノン, ２連中ビーム 黄
+##
+ビームアックス, 振る武器突撃 -.bmp
+ビームアックス(命中), 超斬撃 黄 Slash.wav
+クロー, 爪撃
+ヘビーマシンガン, チェーンガン -.bmp 32 橙 MachineCannon.wav
+大型ビームサーベル, ハイパービームサーベル 桃
+ミサイルランチャー, ミサイル 3
+ローラーアタック(攻撃), 瞬間変形 Bullet\EFFECT_BeamRingCutter(Orange)01.bmp;振る武器突撃 -.bmp Drill.wav
+ローラーアタック(命中), 瞬間変形 Bullet\EFFECT_BeamRingCutter(Orange)01.bmp;振る武器突撃 -.bmp Drill.wav 打撃
+機関砲, 機関砲
+テールクロー, 振る武器突撃 -.bmp
+テールクロー(命中), ダメージ Crash.wav
+Ｆテールキャノン, 中ビーム 黄
+巨大ナギナタ, 振る武器突撃 Weapon\EFFECT_Halberd02.bmp
+巨大ナギナタ(命中), 
+ノーズクロー, 振る武器突撃 -.bmp
+ノーズクロー(命中), ダメージ Crash.wav
+Ｆビームキャノン, 中ビーム 黄
+ビット(攻撃), ４ＷＡＹ射出
+ビット(命中), 包囲ビーム 黄;連続大爆発 3
+ビームクロー, エナジーカッター突撃 黄
+ワイヤーカッター, ニードルレーザー連射 白 Swing(2).wav
+ワイヤーカッター(命中), ニードルレーザー連射 白 Swing(2).wav;連続大爆発 3
+フェザーファンネル(攻撃), ４ＷＡＹ射出
+フェザーファンネル(命中), 包囲ビーム 黄;連続大爆発 3
+巨大クローアーム, 振る武器突撃 -.bmp
+巨大クローアーム(命中), 爆撃 Crash.wav;超打 Crash.wav
+中型ビーム砲, 中ビーム
+中型ビーム砲(命中), 中ビーム 黄 Beam.wav;連続大爆発 4
+超大型ビーム砲, 巨大ビーム 黄 Explode(long).wav
+核ミサイル, 実弾発射 EFFECT_G0133_AtomicMissile.bmp;ＭＡＰフラッシュ Explode(Nuclear).wav
+核ミサイル(命中), -
+##
+ストリング・ガン, ニードルレーザー連射 白 Swing(2).wav
+ストリング・ガン(命中), -
+背部４連ビーム砲, ダブルビームランチャー 黄 -.bmp 32;ダブルビームランチャー 黄 -.bmp 16 チャージなし
+モゾー・ブラスター, ハイパービームサーベル
+シールドクロー, 斬撃
+アマクサハンマー, モーニングスター
+##
+小型メガビーム砲, 小ビーム チャージなし;小ビーム チャージなし
+ビーム砲, 中ビーム
+##
+マニピュレーター, 振る武器突撃 -.bmp
+マニピュレーター(命中), 連打 Explode.wav
+装甲緊急排除, 自爆
+装甲緊急排除(命中), 乱打 Explode.wav
+120mm低反動キャノン, キャノン砲
+##
+グレネードランチャー, グレネード 3 Missile.wav
+粉砕プライヤー, 振る武器突撃 -.bmp
+粉砕プライヤー(命中), ダメージ Crash.wav
+ダブルビームライフル, ダブルビームランチャー 桃 Weapon\EFFECT_BusterRifle01.bmp 48
+４連ビームライフル, ダブルビームライフル;ダブルビームライフル
+
+戦艦
+機関砲, 機関砲
+ミサイルランチャー, ミサイル 4
+マスト・メガ粒子砲, ２連小ビーム 緑;２連小ビーム 緑 チャージなし;２連小ビーム 緑 チャージなし
+サブ・メガ粒子砲, ２連小ビーム
+メイン・メガ粒子砲, ２連中ビーム
+メガ粒子砲, 中ビーム 黄
+突撃, スーパータックル 青
+

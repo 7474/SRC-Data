@@ -1,0 +1,64 @@
+西郷大樹(通常)
+タイキ, CE_SaigouTaiki(N).bmp
+
+アナ＝ホーキンズ(通常)
+アナ, CE_AnaHawkins(N).bmp
+
+クレオ＝アトランティカ(通常)
+クレオ, CE_CreoAtlantika(N).bmp
+
+エルザ(アイズ)(通常)
+エルザ, CE_Elza(N).bmp
+
+日暮退屈丸(通常)
+退屈丸, CE_HigurashiTaikutumaru(N).bmp
+
+
+ペル１４(初期)
+ペル, CE_Pel14(Fisrt).bmp
+
+# 第９話までの髪型の違うペル。
+# ダイアログデータが多くなるため、パイロットデータは作ってません。
+# 使いたい方はローカルで対応して下さい。
+
+
+山本かおる
+かおる, CE_YamamotoKaoru.bmp
+
+金子良雄
+金子, DS_Kaneko.bmp
+
+# ダイソード時代と顔が変わっていないので、データ流用
+
+
+ルーダ＝ミリオ
+クロノス, CE_Chronos.bmp
+
+# リィダ＝ミリオも共用で。
+
+
+キャサリン＝キンネアド
+キャサリン, CE_CatherineKinnead.bmp
+
+ディーナ＝キンネアド
+ディーナ, CE_DeenaKinnead.bmp
+
+
+冥王ハデス(仮面)
+ハデス, CE_Hades(M).bmp
+
+
+偽アナ
+アナ, CE_AnaHawkins(F).bmp
+
+偽クレオ
+クレオ, CE_CEoAtlantika(F).bmp
+
+偽エルザ
+エルザ, CE_Elza(F).bmp
+
+偽退屈丸
+退屈丸, CE_HigurashiTaikutumaru(F).bmp
+
+ダ・イスォウドインティグラル
+ダイ・ソード, DS_DaiswordIntegral.bmp

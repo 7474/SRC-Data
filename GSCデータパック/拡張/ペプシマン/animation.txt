@@ -1,0 +1,81 @@
+
+# わざと演出過剰ぎみにつくっています。
+# 一部改良。またコーラによって色を区別しました。
+
+# 使用しているアイコン
+# (Unit\)PEPSI_Pepsikan.bmp
+
+ペプシマン
+格闘(攻撃),             格闘
+格闘(命中),             打撃 Breakoff.wav
+ペプシダッシュ(準備),   光噴出 青 Interference.wav
+ペプシダッシュ(攻撃),   スーパータックル 青
+ペプシダッシュ(命中),   スーパータックル 青 Explode.wav;@戦闘アニメ_透明化準備 - 反映;_
+                        3;ダメージ Crash.wav;ダメージ Crash.wav;ダメージ Crash.wav;_
+                        @戦闘アニメ_スーパーダイブ攻撃 青;@戦闘アニメ_透明化準備 - 反映;_
+                        スーパーダイブ 青 Explode.wav;@戦闘アニメ_透明化準備 - 反映;_
+                        ロケットパンチ Info(ユニット, UnitID(対象パイロット), グラフィック) Breakoff.wav;_
+                        @戦闘アニメ_透明化準備 - 解除;飛沫 青 Cannon.wav
+ペプシダッシュ(とどめ), @戦闘アニメ_透明化準備 - 解除;_
+                        @戦闘アニメ_光噴出攻撃 青 相手ユニットＩＤ Interference.wav;_
+                        瞬間変形 PEPSI_Pepsikan.bmp 相手ユニットＩＤ;_
+                        @戦闘アニメ_決め文字準備 "ＰＥＰＳＩ" 青 相手ユニットＩＤ
+ペプシコーラ(準備),     Type(Digital).wav
+ペプシコーラ(使用),     @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシコーラ(発動),     光噴出 青 Interference.wav;修理装置
+ペプシツイスト(準備),   Type(Digital).wav
+ペプシツイスト(使用),   @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシツイスト(発動),   光噴出 黄 Interference.wav;補給装置
+
+
+ペプシツイストウーマン
+格闘(攻撃),             格闘
+格闘(命中),             打撃 Breakoff.wav
+ペプシダッシュ(準備),   光噴出 黄 Interference.wav
+ペプシダッシュ(攻撃),   スーパータックル 黄
+ペプシダッシュ(命中),   スーパータックル 黄 Explode.wav;@戦闘アニメ_透明化準備 - 反映;_
+                        3;ダメージ Crash.wav;ダメージ Crash.wav;ダメージ Crash.wav;_
+                        @戦闘アニメ_スーパーダイブ攻撃 黄;@戦闘アニメ_透明化準備 - 反映;_
+                        スーパーダイブ 黄 Explode.wav;@戦闘アニメ_透明化準備 - 反映;_
+                        ロケットパンチ Info(ユニット, UnitID(対象パイロット), グラフィック) Breakoff.wav;_
+                        @戦闘アニメ_透明化準備 - 解除;飛沫 黄 Cannon.wav
+ペプシダッシュ(とどめ), @戦闘アニメ_透明化準備 - 解除;_
+                        @戦闘アニメ_光噴出攻撃 黄 相手ユニットＩＤ Interference.wav;_
+                        瞬間変形 PEPSI_Pepsikan.bmp 相手ユニットＩＤ;_
+                        @戦闘アニメ_決め文字準備 "ＰＥＰＳＩ" 黄 相手ユニットＩＤ
+ペプシコーラ(準備),     Type(Digital).wav
+ペプシコーラ(使用),     @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシコーラ(発動),     光噴出 黄 Interference.wav;修理装置
+ペプシツイスト(準備),   Type(Digital).wav
+ペプシツイスト(使用),   @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシツイスト(発動),   光噴出 黄 Interference.wav;補給装置
+
+# 色が違うだけです。
+
+
+汎用
+ペプシコーラ(アイテム)(使用),     @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシコーラ(アイテム)(発動),     光噴出 青 Interference.wav;修理装置
+ペプシツイスト(アイテム)(使用),   @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシツイスト(アイテム)(発動),   光噴出 黄 Interference.wav;補給装置
+ダイエットペプシ(使用),           @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ダイエットペプシ(発動),           光噴出 青 Interference.wav;修理装置;補給装置
+ペプシネックス(使用),             @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシネックス(発動),             光噴出 青 Interference.wav;修理装置;補給装置
+ペプシブルー(使用),               @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシブルー(発動),               光噴出 青 Interference.wav;修理装置;補給装置
+ペプシエックス(使用),             @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシエックス(発動),             光噴出 青 Interference.wav;修理装置;補給装置
+ペプシレッド(使用),               @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシレッド(発動),               光噴出 赤 Interference.wav;修理装置;補給装置
+ペプシカーニバル(使用),           @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシカーニバル(発動),           光噴出 黄 Interference.wav;修理装置;補給装置
+ペプシゴールド(使用),             @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシゴールド(発動),             光噴出 黄 Interference.wav;修理装置;補給装置
+ペプシキューカンバー(使用),       @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシキューカンバー(発動),       光噴出 緑 Interference.wav;修理装置;補給装置
+ペプシブルーハワイ(使用),         @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシブルーハワイ(発動),         光噴出 青 Interference.wav;修理装置;補給装置
+ペプシホワイト(使用),             @戦闘アニメ_振る武器準備 "unit\PEPSI_Pepsikan.bmp" 32 Sword.wav
+ペプシホワイト(発動),             光噴出 白 Interference.wav;修理装置;補給装置
+

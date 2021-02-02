@@ -1,0 +1,253 @@
+
+閃乱カグラ_日影狂乱モード処理:
+
+## 日影が忍転身した時の狂乱モードの処理を行う。
+
+## 既に狂乱モードになっていた場合、モードが解除される。
+If 閃乱カグラ_日影狂乱モード発動 Then
+
+	If Unit(悪忍・日影) = 悪忍・日影(忍転身)(狂乱モード) Then
+		Transform 悪忍・日影 悪忍・日影(忍転身)
+	
+	ElseIf Unit(悪忍・日影) = 悪忍・日影(閃乱)(忍転身)(狂乱モード) Then
+		Transform 悪忍・日影 悪忍・日影(閃乱)(忍転身)
+	
+	EndIf
+	
+	ClearStatus 悪忍・日影 残り時間
+	
+	#Talk システム
+	#モード解除
+	#End
+	
+	
+EndIf
+
+Return
+
+
+## 日影　狂乱モード発動制御用インクルード
+
+*損傷率 悪忍・日影 75:
+
+If Not 閃乱カグラ_日影狂乱モード発動 Then
+	Set 閃乱カグラ_日影狂乱モード発動 100
+	
+	If Unit(悪忍・日影) = 悪忍・日影 Then
+		Transform 悪忍・日影 悪忍・日影(狂乱モード)
+		
+	ElseIf Unit(悪忍・日影) = 悪忍・日影(忍転身) Then
+		Transform 悪忍・日影 悪忍・日影(忍転身)(狂乱モード)
+	
+	ElseIf Unit(悪忍・日影) = 悪忍・日影(閃乱) Then
+		Transform 悪忍・日影 悪忍・日影(閃乱)(狂乱モード)
+	
+	ElseIf Unit(悪忍・日影) = 悪忍・日影(閃乱)(忍転身) Then
+		Transform 悪忍・日影 悪忍・日影(閃乱)(忍転身)(狂乱モード)
+	
+	EndIf
+	
+	Select 悪忍・日影
+	戦闘アニメ_センタリング 悪忍・日影
+	戦闘アニメ_光噴出準備 パープル -.wav
+
+EndIf
+	
+Exit
+
+
+戦闘アニメ_閃乱カグラ_日本刀三刀流準備:
+
+UpVar
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local WP_FILE = Weapon\EFFECT_JapaneseBlade01.bmp
+Local WP_FILE2 = Weapon\EFFECT_JapaneseBlade(T)01.bmp
+Local G_S = _GetPicSizeFromArgs()
+Local X_P
+Local T_COL_F = _ColorTime(_IsLight())
+
+Set X_P (16 - (G_S \ 2))
+Incr C_Y (32 - G_S)
+
+_SelectSound "-.wav" _GetWavFromArgs()
+
+If (_IsDoubleWeapon() = 1) Then
+  Wait Start
+  ClearPicture
+  PaintPicture WP_FILE2 (C_X - 12 + X_P - 4) (C_Y + 4 + 2) G_S G_S 透過 T_COL_F
+  PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4 + 12) G_S G_S 透過 T_COL_F 左回転 90
+  PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4 - 8) G_S G_S 透過 T_COL_F
+
+  PaintPicture WP_FILE2 (C_X + 12 + X_P + 4) (C_Y + 4 - 0) G_S G_S 透過 左右反転 T_COL_F
+  PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4 + 12) G_S G_S 透過 左右反転 T_COL_F 右回転 90
+  PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4 - 8) G_S G_S 透過 左右反転 T_COL_F
+  Refresh
+	#Wait Click
+  Wait Until 1
+  ClearPicture
+  PaintPicture WP_FILE2 (C_X - 20 + X_P - 4) (C_Y - 4 + 2) G_S G_S 透過 T_COL_F
+  PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4 + 12) G_S G_S 透過 T_COL_F 左回転 90
+  PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4 - 8) G_S G_S 透過 T_COL_F
+
+  PaintPicture WP_FILE2 (C_X + 20 + X_P + 4) (C_Y - 4 + 2) G_S G_S 透過 左右反転 T_COL_F
+  PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4 + 12) G_S G_S 透過 左右反転 T_COL_F 右回転 90
+  PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4 - 8) G_S G_S 透過 左右反転 T_COL_F
+  Refresh
+	#Wait Click
+  Wait Until 2
+  ClearPicture
+  PaintPicture WP_FILE2 (C_X - 16 + X_P - 4) (C_Y + 2) G_S G_S 透過 T_COL_F
+  PaintPicture WP_FILE (C_X - 16 + X_P) (C_Y + 12) G_S G_S 透過 T_COL_F 左回転 90
+  PaintPicture WP_FILE (C_X - 16 + X_P) (C_Y - 8) G_S G_S 透過 T_COL_F
+
+  PaintPicture WP_FILE2 (C_X + 16 + X_P + 4) (C_Y + 2) G_S G_S 透過 左右反転 T_COL_F
+  PaintPicture WP_FILE (C_X + 16 + X_P) (C_Y + 12) G_S G_S 透過 左右反転 T_COL_F 右回転 90
+  PaintPicture WP_FILE (C_X + 16 + X_P) (C_Y - 8) G_S G_S 透過 左右反転 T_COL_F
+  Refresh
+	#Wait Click
+  Wait Until 3.5
+Else
+  If (X(UID) >= _Get_X(相手ユニットＩＤ)) Then
+    Wait Start
+    ClearPicture
+    PaintPicture WP_FILE2 (C_X - 12 + X_P - 4) (C_Y + 4 + 2) G_S G_S 透過 T_COL_F
+    PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4 + 12) G_S G_S 透過 T_COL_F 左回転 90
+    PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4 - 8) G_S G_S 透過 T_COL_F
+    Refresh
+    Wait Until 1
+    ClearPicture
+    PaintPicture WP_FILE2 (C_X - 20 + X_P - 4) (C_Y - 4 + 2) G_S G_S 透過 T_COL_F
+    PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4 + 12) G_S G_S 透過 T_COL_F 左回転 90
+    PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4 - 8) G_S G_S 透過 T_COL_F
+    Refresh
+    Wait Until 2
+    ClearPicture
+    PaintPicture WP_FILE2 (C_X - 16 + X_P - 4) (C_Y + 2) G_S G_S 透過 T_COL_F
+    PaintPicture WP_FILE (C_X - 16 + X_P) (C_Y + 12) G_S G_S 透過 T_COL_F 左回転 90
+    PaintPicture WP_FILE (C_X - 16 + X_P) (C_Y - 8) G_S G_S 透過 T_COL_F
+    Refresh
+    Wait Until 3.5
+  Else
+    Wait Start
+    ClearPicture
+    PaintPicture WP_FILE2 (C_X + 12 + X_P + 4) (C_Y + 4 - 0) G_S G_S 透過 左右反転 T_COL_F
+    PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4 + 12) G_S G_S 透過 左右反転 T_COL_F 右回転 90
+    PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4 - 8) G_S G_S 透過 左右反転 T_COL_F
+    Refresh
+    Wait Until 1
+    ClearPicture
+    PaintPicture WP_FILE2 (C_X + 20 + X_P + 4) (C_Y - 4 + 2) G_S G_S 透過 左右反転 T_COL_F
+    PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4 + 12) G_S G_S 透過 左右反転 T_COL_F 右回転 90
+    PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4 - 8) G_S G_S 透過 左右反転 T_COL_F
+    Refresh
+    Wait Until 2
+    ClearPicture
+    PaintPicture WP_FILE2 (C_X + 16 + X_P + 4) (C_Y + 2) G_S G_S 透過 左右反転 T_COL_F
+    PaintPicture WP_FILE (C_X + 16 + X_P) (C_Y + 12) G_S G_S 透過 左右反転 T_COL_F 右回転 90
+    PaintPicture WP_FILE (C_X + 16 + X_P) (C_Y - 8) G_S G_S 透過 左右反転 T_COL_F
+    Refresh
+    Wait Until 3.5
+  EndIf
+EndIf
+
+Wait Until 8
+
+Return "Keep"
+
+
+
+## 以下ストリートファイターフォルダのローカル戦闘アニメを転載させていただきました。
+## 被り防止のため、識別子のみ変更しています。
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+戦闘アニメ_閃乱カグラ_頭上攻撃命中:
+# 引数 効果音
+# 引数 浮き
+# 引数 相手タイル
+# 引数 速 遅
+# 引数 角度 (対象ユニットを右回転させる角度)
+
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local C_X2 = WX(UID)
+Local C_Y2 = WY(UID)
+
+Local BMP_FILE = _GetBMPName(UID)
+Local BMP_FILE2 = _GetTileName(UID)
+Local BMP_FILE3 = _GetBMPName(相手ユニットＩＤ)
+Local BMP_FILE4 = _GetTileName(相手ユニットＩＤ)
+Local A_X = WX(相手ユニットＩＤ)
+Local A_Y = WY(相手ユニットＩＤ)
+Local HITH
+Local ANGC = _GetName(0,_GetNumberFromArgs())
+
+# 相手の浮き
+If (_SearchOptionFromArgs("浮き") != "") Then
+  Set HITH 2
+Else
+  Set HITH 1
+EndIf
+
+If (_SearchOptionFromArgs("相手タイル") != "") Then
+  Set C_X A_X
+  Set C_Y A_Y
+EndIf
+
+Local SPEED = 1
+
+If (_SearchOptionFromArgs("遅") != "") Then
+  Set SPEED 1.5
+ElseIf (_SearchOptionFromArgs("速") != "") Then
+  Set SPEED 0.5
+EndIf
+
+Wait Start
+
+ChangeUnitBitmap UID 非表示
+ChangeUnitBitmap 相手ユニットＩＤ 非表示
+
+
+    ClearPicture
+    _PaintTile BMP_FILE2 C_X2 C_Y2
+    _PaintTile BMP_FILE4 A_X A_Y
+
+      Wait Start
+      PaintPicture BMP_FILE C_X C_Y 透過 右回転 ANGC _ColorTime()
+      PaintPicture BMP_FILE3 C_X (C_Y - 16) 透過 右回転 90 _ColorTime()
+      Refresh
+      Wait Until 0.8
+     ClearPicture
+    _PaintTile BMP_FILE2 C_X2 C_Y2
+    _PaintTile BMP_FILE4 A_X A_Y
+
+      Wait Start
+      PaintPicture BMP_FILE C_X (C_Y - 4) 透過 右回転 ANGC _ColorTime()
+      PaintPicture BMP_FILE3 C_X (C_Y - 24) 透過 右回転 90 _ColorTime()
+      PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 4) (C_Y - 16) 24 24 透過 _ColorTime()
+      _SelectSound "BreakOff.wav" _GetWavFromArgs()
+      Refresh
+      Wait Until SPEED
+     ClearPicture
+    _PaintTile BMP_FILE2 C_X2 C_Y2
+    _PaintTile BMP_FILE4 A_X A_Y
+      
+      Wait Start
+      PaintPicture BMP_FILE C_X C_Y 透過 右回転 ANGC _ColorTime()
+      PaintPicture BMP_FILE3 C_X (C_Y - (16 * HITH)) 透過 右回転 90 _ColorTime()
+      PaintPicture "Hit\EFFECT_HIT01.bmp" C_X (C_Y - 16) 透過 _ColorTime()
+      Refresh
+      Wait Until SPEED
+
+ChangeUnitBitmap UID 非表示解除
+ChangeUnitBitmap 相手ユニットＩＤ 非表示解除
+
+ClearPicture
+Refresh
+Return

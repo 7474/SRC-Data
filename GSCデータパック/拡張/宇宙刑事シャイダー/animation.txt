@@ -1,0 +1,940 @@
+## ＧＳＣ丸投げ画像パックの武器・戦闘アニメアイコンを指定しています。
+
+### 銀河連邦警察 --------------------------------------------------------
+
+沢村大
+格闘, 格闘
+焼結(発動), ;_
+センタリング;会話 沢村大 "焼結！！" 固定;_
+瞬間変形 "unit\SDR_ShaiderU(2).bmp" 反映;Sword(2).wav;_
+会話 シャイダー・焼結 "宇宙刑事！ シャイダー！！" 固定;_
+pilot\SDR_Shaider.bmp 128 128 保持;12;_
+会話 解説 "宇宙刑事シャイダーは、わずか１ミリ秒で焼結を完了する" 固定;_
+12;会話 解説 "ではその原理を説明しよう" 固定;_
+7;瞬間変形 "SDR_SawamuraDaiU.bmp" 反映;_
+Swing.wav;会話 沢村大 "焼結！！" 固定;_
+会話 解説 "宇宙刑事シャイダーは、バビロス号から発射される.プラズマブルーエネルギーを浴びて、.わずか１ミリ秒で焼結を完了するのだ" 固定;_
+フラッシュ 白 BeamSaber(2).wav;光圧縮 白 -.wav;フラッシュ 白 -.wav;_
+Swing(3).wav;2;Swing(2).wav;大光柱 青 Charge(Silent).wav;_
+ユニット変色 青 -.wav;変形 Unit\SDR_ShaiderU(2).bmp -.wav;ユニット変色解除 青
+
+
+
+宇宙刑事シャイダー(ユニット)
+##武装
+シャイダーキック, キック
+シャイダーパンチ(攻撃), 飛びかかり
+シャイダーパンチ(命中), ダメージ
+ビデオビームガン, ビームライフル 青 "EFFECT_SDR_VideoBeamGun.bmp" 32
+ブレードウィップ(準備), ソード;Reload(2).wav
+ブレードウィップ(攻撃), 多節武器 "SlideWeapon\EFFECT_Tasetukon[01-03].bmp"
+##Swing(2).wav
+ブレードウィップ(命中), 刺突 Slash(2).wav
+レーザーブレード, ソード
+##アビリティ
+ジャンプ(光球化移動), 瞬間変形 "Anime\Common\EFFECT_BubbleSphere(Blue)01.bmp" 反映;テレポート１ Charge(High).wav 青;瞬間変形
+バビロス(使用), 飛来アップ SDR_VavilosF.bmp 黒 遅;会話 宇宙刑事シャイダー "しょうっ！！" 固定
+シャイアン(使用), 飛来アップ SDR_Shaian.bmp 黒 遅;会話 宇宙刑事シャイダー "しょうっ！！" 固定
+
+宇宙刑事シャイダーＬＢ
+## 武装
+シャイダーキック(準備), 瞬間変形 "SDR_ShaiderU(2).bmp"
+シャイダーキック(攻撃), キック
+シャイダーキック(命中), キック
+シャイダーパンチ(準備), 瞬間変形 "SDR_ShaiderU(2).bmp"
+シャイダーパンチ(攻撃), 飛びかかり
+シャイダーパンチ(命中), ダメージ
+ビデオビームガン, ビームライフル 青 "EFFECT_SDR_VideoBeamGun.bmp" 32
+ブレードウィップ(準備), 瞬間変形 "SDR_ShaiderU(2).bmp";投擲武器 "BeamWeapon\EFFECT_BeamSword(Blue)04.bmp" 48 発光 Reload(2).wav
+ブレードウィップ(攻撃), 多節武器連撃 "SlideWeapon\EFFECT_BeamWhip(Blue)[01-03].bmp" 32 発光
+ブレードウィップ(命中), ダメージ 青 Whip.wav;ダメージ 青 Whip.wav;刺突 青 Slash(2).wav
+レーザーブレード(準備), _
+	瞬間変形 "SDR_ShaiderU(2).bmp";発光 青 対象ユニットＩＤ;_
+	振る武器 "EFFECT_SDR_LaserBlade.bmp" 32 発光 BeamSaber.wav;_
+	会話 宇宙刑事シャイダー "レーザー・ブレード！！" 固定
+レーザーブレード(準備), _
+	瞬間変形 "SDR_ShaiderU(2).bmp";発光 青 対象ユニットＩＤ;_
+	振る武器 "EFFECT_SDR_LaserBlade.bmp" 32 発光 BeamSaber.wav;_
+	会話 宇宙刑事シャイダー "レーザー・ブレード！！" 固定
+レーザーブレード(攻撃), 斬撃 青
+レーザーブレード(命中), 斬撃 青
+シャイダーブルーフラッシュ(準備), _
+	瞬間変形 "SDR_ShaiderU(2).bmp";発光 青 対象ユニットＩＤ;_
+	落雷 青 Thunder.wav 対象ユニットＩＤ;_
+	振る武器 "EFFECT_SDR_LaserBlade.bmp" 32 発光 BeamSaber.wav;_
+	会話 宇宙刑事シャイダー "レーザー・ブレード！！" 固定
+シャイダーブルーフラッシュ(攻撃), _
+	なぎ払い;3;なぎ払い;3;なぎ払い;5;pilot\SDR_Shaider.bmp 160 160;_
+	会話 宇宙刑事シャイダー "シャイダーブルーフラッシュ！！" 固定;なぎ払い大炎斬撃 青;Clear
+シャイダーブルーフラッシュ(攻撃), _
+	なぎ払い;3;なぎ払い;3;なぎ払い;5;pilot\SDR_Shaider.bmp 160 160;_
+	会話 宇宙刑事シャイダー "シャイダーブルーフラァーッシュ！！" 固定;なぎ払い大炎斬撃 青;Clear
+シャイダーブルーフラッシュ(攻撃), _
+	なぎ払い;3;なぎ払い;3;なぎ払い;5;pilot\SDR_Shaider.bmp 160 160;_
+	会話 宇宙刑事シャイダー "シャイダーブルーフラァァァッシュ！！" 固定;なぎ払い大炎斬撃 青;Clear
+シャイダーブルーフラッシュ(攻撃), _
+	なぎ払い;3;なぎ払い;3;なぎ払い;5;pilot\SDR_Shaider.bmp 160 160;_
+	会話 宇宙刑事シャイダー "シャイダー！ ブルーフラッシュ！！" 固定;なぎ払い大炎斬撃 青;Clear
+シャイダーブルーフラッシュ(命中), _
+	超斬撃 青 Slash(6).wav
+シャイダーブルーフラッシュ(とどめ), _
+	@戦闘アニメ_光圧縮攻撃 白 -.wav;@戦闘アニメ_超大爆発命中 青
+ビッグマグナム(準備), _
+	会話 宇宙刑事シャイダー "バビロォォォォス！！" 固定;飛来アップ "SDR_VavilosF.bmp" 黒 遅;_
+	会話 宇宙刑事シャイダー "シューティング・フォーメーション！" 固定;_
+	unit\SDR_VavilosF.bmp 128 128 保持;12;_
+	Charge.wav;unit\SDR_VavilosS.bmp 128 128 保持;12;_
+	射撃武器 unit\SDR_VavilosS.bmp 32 発光 -.wav
+ビッグマグナム(攻撃), _
+	会話 宇宙刑事シャイダー "ビッグ・マグナム！！" 固定;_
+	バスタービームライフル 青 "unit\SDR_VavilosS.bmp" 32 発光
+ビッグマグナム(命中), 超ビーム 青;超爆発 青
+#ブルーフラッシュスパーク, 光大噴出 青;フラッシュ 青
+##アビリティ
+ジャンプ(光球化移動), 瞬間変形 "Anime\Common\EFFECT_BubbleSphere(Blue)01.bmp" 反映;テレポート１ Charge(High).wav 青;瞬間変形
+バビロス(使用), 飛来アップ SDR_VavilosF.bmp 黒 遅;会話 宇宙刑事シャイダー "しょうっ！！" 固定
+シャイアン(使用), 飛来アップ SDR_Shaian.bmp 黒 遅;会話 宇宙刑事シャイダー "しょうっ！！" 固定
+## 合体技
+宇宙刑事連続斬り(準備), _
+	瞬間変形 "GVN_GavanU(2).bmp" partner(1);瞬間変形 "SVN_SharivanU(2).bmp" partner(2);瞬間変形 "SDR_ShaiderU(2).bmp";_
+	同時振る武器 画像ファイル="EFFECT_SDR_LaserBlade.bmp"="EFFECT_GVN_LaserBlade.bmp"="Laser\EFFECT_LightSaber(White)02.bmp";9
+宇宙刑事連続斬り(攻撃), _
+　　　　センタリング;会話 宇宙刑事シャイダー "いくぞっ！！" 固定;3;_
+　　　　瞬間変形 "GVN_GavanU(LB).bmp" partner(1);センタリング partner(1);_
+　　　　pilot\GVN_GavanLS.bmp 160 160;_
+　　　　会話 宇宙刑事ギャバン(ＬＳ) "ギャバンダイナミック！！" 固定;唐竹割り 白 Slash.wav partner(1);8;_
+　　　　瞬間変形 "SVN_SharivanU(LB).bmp" partner(2);センタリング partner(2);_
+　　　　pilot\SVN_SharivanSS.bmp 160 160;_
+　　　　会話 宇宙刑事シャリバン(ＳＳ) "シャリバンッ！！ クラァッシュッ！！" 固定;大炎斬撃 黄 partner(2);8;_
+　　　　センタリング;なぎ払い;2;なぎ払い;2;なぎ払い;4;_
+　　　　瞬間変形 "SDR_ShaiderU(LB).bmp";pilot\SDR_Shaider.bmp 160 160;_
+　　　　会話 宇宙刑事シャイダー "シャイダー！ ブルーフラァーッシュ！！" 固定;横大斬撃 青
+宇宙刑事連続斬り(命中), _
+	唐竹割り 白 Sword(2).wav;2;大炎斬撃 黄 Slash(4).wav;2;超斬撃 青 Slash(6).wav;連続大爆発 3 青;超爆発 黄
+宇宙刑事連続斬り(とどめ), _
+	@戦闘アニメ_光圧縮攻撃 白 -.wav;@戦闘アニメ_超大爆発命中 青
+
+
+
+宇宙刑事シャイダー(ブルホーク)
+体当たり(準備), Engine.wav
+体当たり(攻撃), タックル
+体当たり(命中), 強打
+ホークレーザー(攻撃), ２連小ビーム 青 Laser.wav
+ホークレーザー(命中), ２連小ビーム 青 Laser.wav;爆発
+ホークミサイル, 機関砲
+
+戦士シャイダーのマシン
+体当たり(準備), Engine.wav
+体当たり(攻撃), タックル
+体当たり(命中), 強打
+レーザー砲(攻撃), ２連小ビーム 青 Laser.wav
+レーザー砲(命中), ２連小ビーム 青 Laser.wav;爆発
+ミサイル, 機関砲
+
+
+
+
+超次元戦闘母艦バビロス
+バビロスビーム, ２連小ビーム 黄 Laser.wav
+バビロスレーザー, 大電撃 黄 BeamCannon.wav
+バビロスミサイル, ミサイル 2 遅
+バビロスファイヤー, 必殺光線 赤 Missile(4Shot).wav
+ビッグマグナム(準備), _
+	会話 宇宙刑事シャイダー "シューティング・フォーメーション！" 固定;_
+	unit\SDR_VavilosF.bmp 128 128 保持;12;_
+	Charge.wav;unit\SDR_VavilosS.bmp 128 128 保持;12;_
+	瞬間変形 "unit\SDR_ShaiderU(2).bmp" 反映;_
+	射撃武器 unit\SDR_VavilosS.bmp 32 発光 -.wav
+ビッグマグナム(攻撃), _
+	会話 宇宙刑事シャイダー "ビッグ・マグナム！！" 固定;_
+	バスタービームライフル 青 "Unit\SDR_VavilosS.bmp" 32 発光
+ビッグマグナム(命中), 超ビーム 青;超爆発 青
+
+
+超次元戦闘車シャイアン
+シャイアンロケット, ミサイル 2
+シャイアンビーム(攻撃), ２連小ビーム 黄色 BeamValcan.wav
+シャイアンビーム(命中), ２連小ビーム 黄色 BeamValcan.wav
+
+スカイシャイアン
+シャイアンビーム(準備), -
+シャイアンビーム(準備), -
+シャイアンビーム(準備), -
+シャイアンビーム(準備), ロックオン
+シャイアンビーム(攻撃), ２連小ビーム 黄色 BeamValcan.wav
+シャイアンビーム(命中), ２連小ビーム 黄色 BeamValcan.wav
+
+バトルシャイアン
+シャイアンドリル, ドリル
+シャイアンロケット, ミサイル 2
+
+
+
+女宇宙刑事アニー
+格闘, 格闘
+格闘, キック
+レーザーセンサーガン, ビームライフル 黄
+電磁パルス(攻撃), 音波 黄 Charge(silent).wav
+電磁パルス(命中), 音波 黄 Charge(silent).wav
+ハイパーモード(スーパーアニー), ;発光 黄;_
+光大噴出 黄 Charge(High).wav;フラッシュ 白 BeamSaber(2).wav;光圧縮 白 -.wav
+
+
+
+スーパーアニー
+電子キック, スピンキック
+レーザーブレード(準備), ライトセイバー 青
+レーザーブレード(攻撃), 斬撃 青
+レーザーブレード(命中), 斬撃 青
+アニーブリザード(準備), _
+	瞬間変形 "SDR_SuperAnnieU.bmp";発光 青 対象ユニットＩＤ;_
+	落雷 青 Thunder.wav 対象ユニットＩＤ;_
+	振る武器 "EFFECT_SDR_LaserBlade.bmp" 32 発光 BeamSaber.wav;_
+	会話 スーパーアニー "レーザーブレード！！" 固定
+アニーブリザード(攻撃), _
+	なぎ払い大炎斬撃 黄
+アニーブリザード(命中), _
+	超斬撃 黄 Slash(6).wav
+アニーブリザード(とどめ), _
+	@戦闘アニメ_光圧縮攻撃 白 -.wav;@戦闘アニメ_超大爆発命中 黄
+
+スーパーアニー(マリンスクーター)
+マリンミサイル, ミサイル 2
+
+
+### 不思議界フーマ -----------------------------------------------------
+
+大帝王クビライ
+火花(攻撃), マシンキャノン 赤
+火花(命中), マシンキャノン 赤
+ビーム(攻撃), ２連ショックビーム 赤 LaserGun.wav
+ビーム(命中), ２連ショックビーム 赤 LaserGun.wav;爆発
+ミサイル, 重機関砲
+頭部ビーム(攻撃), 大ビーム 赤
+頭部ビーム(命中), 大ビーム 赤
+
+
+
+胴体クビライ
+触手(準備), 蛇
+触手(攻撃), 触手乱舞 黄
+触手(命中), 噛み付き
+火炎放射(準備), 蛇
+火炎放射(攻撃), 触手乱舞 黄;火炎放射
+火炎放射(命中), 火炎放射
+ガス(準備), 蛇
+ガス(攻撃), 触手乱舞 黄
+ガス(命中), 煙噴射 白 Mist.wav
+ミサイル(準備), 蛇
+ミサイル(攻撃), 触手乱舞 黄;重機関砲
+ミサイル(命中), 爆発
+火花(準備), 蛇
+火花(攻撃), 触手乱舞 黄;マシンキャノン 赤
+火花(命中), マシンキャノン 赤
+
+
+
+メカ胴体クビライ
+触手(攻撃), 触手 黄
+触手(命中), 触手 黄;電撃 ピンク BeamSaber(4).wav
+ビーム(攻撃), ２連ショックビーム 赤 LaserGun.wav
+ビーム(命中), ２連ショックビーム 赤 LaserGun.wav;爆発
+ミサイル, 重機関砲
+
+
+
+神官ポー
+停止光線(攻撃), 発光 赤 対象ユニットＩＤ
+停止光線(命中), 発光 赤
+金剛杵, 殴打武器 "EFFECT_SDR_Po'sCane.bmp" 32
+飛行杖(準備), 殴打武器 "EFFECT_SDR_Po'sCane.bmp" 32
+飛行杖(攻撃), 投擲武器 "EFFECT_SDR_Po'sCane.bmp" 32
+飛行杖(命中), 小ビーム 黄 ランダム方向;ダメージ;3;小ビーム 黄 ランダム方向;ダメージ;3;小ビーム 黄 ランダム方向;ダメージ
+怪光球(準備), 殴打武器 "EFFECT_SDR_Po'sCane.bmp" 32
+怪光球(攻撃), 振り下ろし;泡球 MultipleRocketLauncher.wav
+怪光球(命中), 連続爆発
+怪光球(命中), 炎
+怪光線, ショックビームガン "EFFECT_SDR_Po'sCane.bmp" 32 発光 青
+精神波(準備), 殴打武器 "EFFECT_SDR_Po'sCane.bmp" 32
+精神波(攻撃), SystemNoize.wav
+精神波(命中), 落下;地面衝撃 Bazooka.wav
+
+
+
+ヘスラー指揮官
+フーマ戦闘機部隊(準備), -
+フーマ戦闘機部隊(攻撃), 飛来アップ SDR_FumaFighter.bmp 青 速 背景なし
+フーマ戦闘機部隊(命中), ショックビーム 青 Beamvalcan.wav;爆発
+剣, 斬撃武器 "Weapon\EFFECT_SteelSword01.bmp" 32
+衝撃波(準備), 斬撃武器 "Weapon\EFFECT_SteelSword01.bmp" 32
+衝撃波(攻撃), 振り下ろし;地表衝撃波 白
+衝撃波(命中), 爆発
+巨大化攻撃(準備), 透明化 BeamSaber.wav
+巨大化攻撃(攻撃), 不思議獣全身巨大化 "SDR_HeslerU.bmp"
+巨大化攻撃(命中), 煙噴射 白 Mist.wav;連続爆発 白;大爆発
+火炎弾(攻撃), 火炎弾 赤;火炎弾 赤
+火炎弾(命中), 爆発
+槍ミサイル, マシンガン "Weapon\EFFECT_SteelSword01.bmp" 32
+時間差攻撃(攻撃), 小ビーム ピンク BeamSaber(3).wav partner(1)
+時間差攻撃(命中), ２連小ビーム ピンク BeamSaber(3).wav partner(1);_
+		@戦闘アニメ_金剣攻撃 partner(1);斬撃;3;_
+		会話 ヘスラー指揮官 "はああっ！！" 固定;_
+		@戦闘アニメ_鋼剣突撃攻撃;鋼剣突撃;大爆発
+
+
+
+ヒムリー(フーマ)
+毒蜘蛛タランチ, 蜘蛛
+二刀流, 剣 二刀流
+三叉槍, トライデント
+ビーム(攻撃), ２連小ビーム ピンク BeamSaber(3).wav
+ビーム(命中), ２連小ビーム ピンク BeamSaber(3).wav;爆発
+黄金剣光線(準備), ビームライフル "Weapon\EFFECT_GoldSword01.bmp" 32 Sword.wav
+黄金剣光線(攻撃), 拡散ビームライフル ピンク "Weapon\EFFECT_GoldSword01.bmp" 32 BeamGun.wav
+黄金剣光線(命中), 拡散ビーム ピンク;爆発
+黄金の剣, 金剣
+時間差攻撃(攻撃), 小ビーム ピンク BeamSaber(3).wav
+時間差攻撃(命中), ２連小ビーム ピンク BeamSaber(3).wav;_
+		@戦闘アニメ_金剣攻撃 対象ユニットＩＤ;斬撃;3;_
+		センタリング partner(1);会話 ヘスラー指揮官 "はああっ！！" 固定;_
+		@戦闘アニメ_鋼剣突撃攻撃 partner(1);鋼剣突撃 partner(1);大爆発
+
+
+
+## ギャル軍団 -----------------------------------------
+
+ギャル軍団
+ロープ, チェーン
+短剣, 斬撃武器 "Weapon\EFFECT_Dagger01.bmp" 32
+短剣投げ, 投剣
+腕(１)(準備), 投擲武器 "Hand\EFFECT_Punch(Black)01.bmp" 32 -.wav
+腕(１)(攻撃), 実弾発射 "Hand\EFFECT_Punch(Black)01.bmp" 32 Saber.wav
+腕(１)(命中), 連打 黒
+腕(２)(準備), 投擲武器 "Hand\EFFECT_Punch(Purple)01.bmp" 32 -.wav
+腕(２)(攻撃), 実弾発射 "Hand\EFFECT_Punch(Purple)01.bmp" 32 Saber.wav
+腕(２)(命中), 連打 紫
+腕(３)(準備), 投擲武器 "Hand\EFFECT_Punch(Red)01.bmp" 32 -.wav
+腕(３)(攻撃), 実弾発射 "Hand\EFFECT_Punch(Red)01.bmp" 32 Saber.wav
+腕(３)(命中), 連打 赤
+腕(４)(準備), 投擲武器 "Hand\EFFECT_Punch(Green)01.bmp" 32 -.wav
+腕(４)(攻撃), 実弾発射 "Hand\EFFECT_Punch(Green)01.bmp" 32 Saber.wav
+腕(４)(命中), 連打 緑
+腕(５)(準備), 投擲武器 "Hand\EFFECT_Punch(Pink)01.bmp" 32 -.wav
+腕(５)(攻撃), 実弾発射 "Hand\EFFECT_Punch(Pink)01.bmp" 32 Saber.wav
+腕(５)(命中), 連打 ピンク
+衝撃波(準備), チェーン
+衝撃波(攻撃), 振り下ろし;地表衝撃波 白
+衝撃波(命中), 爆発
+光弾(１)(攻撃), 打ち下ろし実弾発射 "Bullet\EFFECT_AuraBall(Black)01.bmp" 32 Beam.wav 発光
+光弾(２)(攻撃), 打ち下ろし実弾発射 "Bullet\EFFECT_AuraBall(Purple)01.bmp" 32 Beam.wav 発光
+光弾(３)(攻撃), 打ち下ろし実弾発射 "Bullet\EFFECT_AuraBall(Red)01.bmp" 32 Beam.wav 発光
+光弾(４)(攻撃), 打ち下ろし実弾発射 "Bullet\EFFECT_AuraBall(Green)01.bmp" 32 Beam.wav 発光
+光弾(５)(攻撃), 打ち下ろし実弾発射 "Bullet\EFFECT_AuraBall(Pink)01.bmp" 32 Beam.wav 発光
+光弾(１)(命中), 爆発
+光弾(２)(命中), 爆発
+光弾(３)(命中), 爆発
+光弾(４)(命中), 爆発
+光弾(５)(命中), 爆発
+剣, 斬撃武器 "Weapon\EFFECT_Scimitar01.bmp" 32
+自爆(ギャル３), ＭＡＰ大爆発
+
+
+
+戦士ギャル１
+剣, 斬撃武器 "Weapon\EFFECT_Scimitar01.bmp" 32
+ビームマシンガン, ニードルレーザー連射 白 BeamValcan.wav
+
+
+夜叉ギャル１
+剣, 斬撃武器 "Weapon\EFFECT_Scimitar01.bmp" 32
+剣ミサイル, レーザーマシンガン 黄 "Weapon\EFFECT_Scimitar01.bmp" 32 BeamValcan.wav
+火炎放射(準備), 光大噴出 黒 Ghost.wav
+火炎放射(攻撃), 火炎放射
+火炎放射(命中), 火炎放射
+衝撃波(準備), 斬撃武器 "Weapon\EFFECT_Scimitar01.bmp" 32
+衝撃波(攻撃), 振り下ろし;地表衝撃波 白
+衝撃波(命中), 爆発 黒
+ビーム, ２連ショックビーム 白 BeamGun.wav
+巨大化火炎放射(準備), 透明化 BeamSaber.wav
+巨大化火炎放射(攻撃), 不思議獣全身巨大化 "SDR_Gal1(G)U.bmp"
+巨大化火炎放射(命中), 超火炎放射
+
+
+## 戦闘員・戦闘母艦 -------------------------------------
+
+戦闘員ミラクラー
+斧槍, 斬撃武器 "EFFECT_SDR_AxeSpear.bmp" 32
+マシンガン, マシンガン
+バズーカ, バズーカ
+
+
+フーマ戦闘機
+ビーム砲, ショックビーム 青 LaserGun.wav
+
+
+フーマ戦闘母艦
+次元衝撃波砲, 大キャノン砲
+キバミサイル, ミサイル 2 遅
+破壊ビーム, ２連ショックビーム 青 LaserGun.wav
+
+
+
+## 不思議獣 ----------------------------
+
+不思議獣バリバリ
+剣, 斬撃武器 "Weapon\EFFECT_SeiryuTou01.bmp" 32
+手槍, 連投剣
+体当たり(攻撃), 変形 "Anime\BodyParts\EFFECT_CellWall(Red)01.bmp";飛びかかり
+体当たり(命中), 強打
+巨大化格闘(準備), 透明化 BeamSaber.wav 反映
+巨大化格闘(攻撃), 不思議獣全身巨大化 "SDR_BariBariU.bmp"
+巨大化格闘(命中), 強打
+
+
+不思議獣ペトペト
+槍, 斬撃武器 "Weapon\EFFECT_Bardiche01.bmp" 32
+ブーメラン爆弾(攻撃), スーパーブーメラン 白
+ブーメラン爆弾(命中), 爆発
+舌, 舌
+目玉爆弾(攻撃), 実弾発射 "BodyParts\EFFECT_EyeBall(Black)01.bmp" 32 Missile.wav
+目玉爆弾(命中), 爆発
+巨大化ガス(準備), 透明化 BeamSaber.wav
+巨大化ガス(攻撃), 不思議獣全身巨大化 "SDR_PetoPetoU.bmp"
+巨大化ガス(命中), 煙噴射 白 Mist.wav
+
+
+不思議獣ギルギル
+槍, 突く武器 "Weapon\EFFECT_DragoonLance01.bmp" 56
+槍ミサイル, マシンガン "Weapon\EFFECT_DragoonLance01.bmp" 56
+ガス, 煙噴射 白
+槍投げ(準備), 刺突武器 "Weapon\EFFECT_DragoonLance01.bmp" 56
+槍投げ(攻撃), 投擲武器 "Weapon\EFFECT_DragoonLance01.bmp" 56
+槍投げ(命中), 刺突;放電
+不思議花の花粉, 煙噴射 白
+
+
+不思議獣メロメロ
+杖, 殴打武器 "Weapon\EFFECT_JewelRod(Purple)01.bmp" 32
+杖投げ, 投擲武器 "Weapon\EFFECT_JewelRod(Purple)01.bmp" 32
+マント(準備), 透明化;連続描画 "Shield\EFFECT_Mant(Black)[01-04].bmp" 32 2 1 前面 保持
+マント(攻撃), 投擲武器 "Shield\EFFECT_Mant(Black)04.bmp" 32 Jet.wav
+マント(命中), ロケットパンチ "Shield\EFFECT_Mant(Black)04.bmp" 32 Jet.wav
+
+
+不思議獣ムジムジ
+繭(攻撃), 粒子噴射 白 Mist.wav
+繭(命中), 粒子噴射 白 Mist.wav
+杖, モール
+#不思議時空
+燃える杖(準備), 振る武器 "Weapon\EFFECT_Maul01.bmp" 32;炎
+燃える杖(攻撃), 白兵武器 赤
+燃える杖(命中), 打撃 赤;炎
+剣, 斬撃武器 "Weapon\EFFECT_SeiryuTou01.bmp" 32
+
+
+不思議獣ゴクゴク
+フォーク, 斬撃武器 "Weapon\EFFECT_Harrow01.bmp" 32
+ナイフ, 鉈
+フォークミサイル, マシンガン "Weapon\EFFECT_Harrow01.bmp" 32 BeamValcan.wav
+フォーク投げ(準備), 斬撃武器 "Weapon\EFFECT_Harrow01.bmp" 32
+フォーク投げ(攻撃), 投擲武器 "Weapon\EFFECT_Harrow01.bmp" 32
+フォーク投げ(命中), 刺突
+フォーク＆ナイフ(準備), 左右別武器 "Weapon\EFFECT_Harrow01.bmp" 32 "Weapon\EFFECT_Hatchet01.bmp" 32
+フォーク＆ナイフ(攻撃), 斬撃;斬撃
+フォーク＆ナイフ(命中), 斬撃;斬撃
+透明化攻撃(準備), _
+	透明化 対象ユニットＩＤ 反映;@戦闘アニメ_テレポート発動 Swing.wav "　" - 対象ユニットＩＤ;透明化 対象ユニットＩＤ 反映
+透明化攻撃(攻撃), 分身刺突;分身斬撃
+透明化攻撃(命中), 分身刺突;分身斬撃
+
+
+不思議獣バラバラ
+槍, スピア
+槍ミサイル, マシンガン "Weapon\EFFECT_Spear01.bmp" 32 BeamValcan.wav
+花びら(攻撃), 回転投擲武器 "BeamWeapon\EFFECT_BeamSword(Red)04.bmp" 48 Swing.wav
+花びら(命中), ダメージ
+巨大化ビーム(準備), 透明化 BeamSaber.wav
+巨大化ビーム(攻撃), 不思議獣全身巨大化 "SDR_BaraBaraU.bmp"
+巨大化ビーム(命中), ２連ショックビーム ピンク LaserGun.wav;爆発
+
+
+不思議獣ケロケロ
+杖, 殴打武器 "Weapon\EFFECT_MagicRod03.bmp" 32
+杖ミサイル, ショットガン "Weapon\EFFECT_MagicRod03.bmp" 32 Explode.wav
+爆発(攻撃), ベアリング
+爆発(命中), 連続爆発
+
+
+不思議獣タムタム
+サウンド攻撃(準備), @ＳＰアニメ_鼓舞 対象ユニット
+サウンド攻撃(攻撃), DrumRoll(long).wav
+サウンド攻撃(命中), 重機関砲;大爆発
+サウンド攻撃(命中), @ＳＰアニメ_鼓舞 相手パイロット;落下 WarShip.wav;地面衝撃
+怪光(攻撃), 発光 ピンク BeamShot.wav 対象ユニットＩＤ
+怪光(命中), 落下;地面衝撃
+杖, 殴打武器 "Weapon\EFFECT_Torch01.bmp" 32
+剣, 斬撃武器 "Weapon\EFFECT_SeiryuTou01.bmp" 32 二刀流
+
+
+不思議獣パスパス
+羽ペン, 斬撃武器 "Weapon\EFFECT_Kukri01.bmp" 32
+羽ペンミサイル, マシンガン "Weapon\EFFECT_Kukri01.bmp" 32
+巨大化格闘(準備), 透明化 BeamSaber.wav
+巨大化格闘(攻撃), 不思議獣全身巨大化 "SDR_PassPassU.bmp"
+巨大化格闘(命中), 爪撃 連続
+
+
+不思議獣ゲトゲト
+槍ミサイル, マシンガン "Weapon\EFFECT_FireSpear01.bmp" 64
+槍, 刺突武器 "Weapon\EFFECT_FireSpear01.bmp" 64
+衝撃波(攻撃), 振り下ろし Sword.wav;地表衝撃波 青
+衝撃波(命中), 連続爆発;爆発
+プリズム攻撃(準備), 透明化
+プリズム攻撃(攻撃), ロケットパンチ "Bullet\EFFECT_STG_Bullet(LightBlue)07.bmp" 16 BeamShot.wav;_
+	ロケットパンチ "Bullet\EFFECT_STG_Bullet(LightBlue)07.bmp" 16 -.wav;_
+	ロケットパンチ "Bullet\EFFECT_STG_Bullet(LightBlue)07.bmp" 16 -.wav;_
+	ロケットパンチ "Bullet\EFFECT_STG_Bullet(LightBlue)07.bmp" 16 BeamShot.wav;_
+	ロケットパンチ "Bullet\EFFECT_STG_Bullet(LightBlue)07.bmp" 16 -.wav;_
+	ロケットパンチ "Bullet\EFFECT_STG_Bullet(LightBlue)07.bmp" 16 -.wav
+プリズム攻撃(命中), 10;瞬間変形 "Anime\Common\EFFECT_BubbleSphere(LightBlue)01.bmp" 相手ユニットＩＤ 反映;Sword(2).wav;_
+	透明化 解除;分身刺突 緑 Sword.wav;5;分身刺突 緑 Sword.wav
+巨大化ミサイル(準備), 透明化 BeamSaber.wav
+巨大化ミサイル(攻撃), 不思議獣全身巨大化 "SDR_GetoGetoU.bmp"
+巨大化ミサイル(命中), マシンガン ランダム方向
+## 槍は、先端が五叉に分かれた風車のような形。
+
+
+不思議獣ロボロボ
+スパナロッド, 殴打武器 "Weapon\EFFECT_Spanner01.bmp" 32
+ミサイル, 内蔵ガトリング
+巨大化火炎放射(準備), 透明化 BeamSaber.wav
+巨大化火炎放射(攻撃), 不思議獣全身巨大化 "SDR_RoboRoboU.bmp"
+巨大化火炎放射(命中), 超火炎放射
+
+
+不思議獣コトコト
+剣, 斬撃武器 "Weapon\EFFECT_Scimitar01.bmp" 32
+砲丸投げ, 鉄球
+高飛び棒, ロッド
+フープ, 殴打武器 "DGoods\EFFECT_Hoop01.bmp" 32
+巨大化攻撃(準備), 透明化 BeamSaber.wav
+巨大化攻撃(攻撃), 不思議獣全身巨大化 "SDR_KotoKotoU.bmp"
+巨大化攻撃(命中), マシンガン
+巨大化攻撃(命中), 画像落下 "DGoods\EFFECT_Hoop01.bmp" 32 Walk(Snow).wav;炎;爆発
+
+
+不思議獣グリグリ
+サーベル, 斬撃武器 "Weapon\EFFECT_Cutlas01.bmp" 32
+サーベルミサイル, マシンガン "Weapon\EFFECT_Cutlas01.bmp" 32
+透明化攻撃(準備), 透明化 BeamSaber.wav
+透明化攻撃(攻撃), 斬撃突撃 白 -.wav
+透明化攻撃(命中), 斬撃突撃 Sword.wav
+巨大化火炎放射(準備), 透明化 BeamSaber.wav
+巨大化火炎放射(攻撃), 不思議獣全身巨大化 "SDR_GuriGuriU.bmp"
+巨大化火炎放射(命中), 超火炎放射;爆発
+//巨大化攻撃(命中), 斬撃
+//巨大化攻撃(命中), マシンガン
+
+
+不思議獣ガメガメ
+トライデント, トライデント
+トライデント投げ, 投擲武器 "Weapon\EFFECT_Trident01.bmp" 32
+トライデントミサイル, マシンガン "Weapon\EFFECT_Trident01.bmp" 32
+火炎放射(準備), 透明化 BeamSaber.wav
+火炎放射(攻撃), 画像落下 "Common\EFFECT_Container01.bmp" 32 相手ユニットＩＤ Bazooka.wav
+火炎放射(命中), 火炎放射
+巨大化ガス(準備), 透明化 BeamSaber.wav
+巨大化ガス(攻撃), 不思議獣全身巨大化 "SDR_GameGameU.bmp"
+巨大化ガス(命中), 煙噴射 白 Mist.wav
+
+
+
+不思議獣ボケボケ
+ビーム反射(発動), 反射 BeamCoat.wav
+爪, 爪撃
+投げ飛ばし, 投げ飛ばし
+ビーム(攻撃), ２連光弾 赤 Beam.wav
+ビーム(命中), 爆発
+巨大化ガス(準備), 透明化 BeamSaber.wav
+巨大化ガス(攻撃), 不思議獣全身巨大化 "SDR_BokeBokeU.bmp"
+巨大化ガス(命中), 煙噴射 白 Mist.wav
+
+
+
+不思議獣ギリギリ
+モアイ像(準備), 召喚 "Rock\EFFECT_LargeRock01.bmp" 48 Reload.wav
+モアイ像(攻撃), 投擲武器 "Rock\EFFECT_LargeRock01.bmp" 48 Whiz.wav
+モアイ像(命中), 周囲回転 "Rock\EFFECT_LargeRock01.bmp" 48;煙噴射 赤 Mist.wav
+スコップ, 殴打武器 "DGoods\EFFECT_Shovel01.bmp" 32
+スコップミサイル, マシンガン "DGoods\EFFECT_Shovel01.bmp" 32
+巨大化火炎放射(準備), 透明化 BeamSaber.wav
+巨大化火炎放射(攻撃), 不思議獣全身巨大化 "SDR_GiriGiriU.bmp"
+巨大化火炎放射(命中), 強打;超火炎放射
+
+#巨大化攻撃　殴り→火炎放射
+##モアイの汎用画像がないので、巨岩で代用。
+
+
+
+不思議獣ムームー
+槍, 斬撃武器 "Weapon\EFFECT_LongDoubleAx01.bmp" 48
+槍ミサイル, マシンガン "Weapon\EFFECT_LongDoubleAx01.bmp" 48
+槍投げ(準備), 投擲武器 "Weapon\EFFECT_LongDoubleAx01.bmp" 48 -.wav
+槍投げ(攻撃), 投擲武器 "Weapon\EFFECT_LongDoubleAx01.bmp" 48
+槍投げ(命中), 小ビーム 黒 Swing.wav ランダム方向;斬撃;小ビーム 黒 Swing.wav ランダム方向;斬撃;小ビーム 黒 Swing.wav ランダム方向;斬撃
+蜘蛛の糸(攻撃), 水流 緑 Swing(2).wav
+蜘蛛の糸(命中), 水流 緑 Swing(2).wav
+巨大化糸(準備), 透明化 BeamSaber.wav
+巨大化糸(攻撃), 不思議獣全身巨大化 "SDR_MooMooU.bmp"
+巨大化糸(命中), 触手乱舞 白 Swing(2).wav;爆発
+
+## 斧の刃は「Ｗ」のような形をしている。
+
+
+
+不思議獣マグマグ
+磁気攻撃(準備), -
+磁気攻撃(攻撃), ニードルレーザー連射 ピンク LaserGun.wav
+磁気攻撃(命中), ニードルレーザー連射 ピンク LaserGun.wav
+槍, 刺突武器 "Weapon\EFFECT_FireSpear01.bmp" 64
+
+
+
+不思議獣シギシギ
+格闘, 鞭
+槍, 竜槍
+火花, マシンキャノン 赤
+ガス, 煙噴射 白 Mist.wav
+不思議ソングフラワー(準備), バラ 桃 -.wav
+不思議ソングフラワー(攻撃), 粒子噴射 BeamValcan.wav 白
+不思議ソングフラワー(命中), 粒子噴射 BeamValcan.wav 白
+巨大化火花(準備), 透明化 BeamSaber.wav
+巨大化火花(攻撃), 不思議獣全身巨大化 "SDR_ShigiShigiU.bmp"
+巨大化火花(命中), マシンキャノン 赤;爆発
+植物兵士(準備), 変形 "Anime\DGoods\EFFECT_Rose(Pink)01.bmp" Slash(6).wav
+植物兵士(攻撃), 投げ槍;投げ槍;投げ槍
+植物兵士(命中), 投げ槍;投げ槍;投げ槍
+火炎弾(準備), 変形 "Anime\DGoods\EFFECT_Rose(Pink)01.bmp" Slash(6).wav
+火炎弾(攻撃), 火炎弾 赤 Missile.wav;火炎弾 赤 Missile.wav
+火炎弾(命中), 爆発
+
+
+
+不思議獣スリスリ
+反射(ビーム反射鏡), 瞬間変形 "Anime\Action\EFFECT_LightScreen01.bmp";反射 BeamCoat.wav ビーム反射鏡
+ステッキ, 殴打武器 "Weapon\EFFECT_WalkingStick01.bmp" 32
+フラッシュ(攻撃), ＭＡＰフラッシュ 黄 Shutter.wav 相手ユニットＩＤ
+フラッシュ(命中), 発光 黄 -.wav
+爆破フラッシュ(攻撃), 発光 黄 Shutter.wav 対象ユニットＩＤ
+爆破フラッシュ(命中), 爆発
+巨大化フラッシュ(準備), 透明化 BeamSaber.wav
+巨大化フラッシュ(攻撃), 不思議獣全身巨大化 "SDR_SuriSuriU.bmp"
+巨大化フラッシュ(命中), 発光 青 Shutter.wav;爆発
+
+
+
+不思議獣ウミウミ
+剣, 斬撃武器 "Weapon\EFFECT_Bardiche01.bmp" 32
+鮫, マグロ召喚
+巨大化格闘(準備), 透明化 BeamSaber.wav
+巨大化格闘(攻撃), 不思議獣全身巨大化 "SDR_UmiUmiU.bmp"
+巨大化格闘(命中), 打突
+## マグロは当然ながら、鮫の画像の代用です。
+## マイナー画像パックに「シャーク」のアイコンがあります。
+
+
+不思議獣ガスガス
+攻撃無効化(バリアガス), 煙噴射 白 Mist.wav
+金棒, 棍棒
+巨大化目玉爆弾(準備), 透明化 BeamSaber.wav
+巨大化目玉爆弾(攻撃), 不思議獣全身巨大化 "SDR_SuriSuriU.bmp";_
+	実弾発射 "BodyParts\EFFECT_EvilEye(Black)01.bmp" Missile.wav;_
+	実弾発射 "BodyParts\EFFECT_EvilEye(Black)01.bmp" Missile.wav
+巨大化目玉爆弾(命中), 爆発
+巨大化ガス(準備), 透明化 BeamSaber.wav
+巨大化ガス(攻撃), 不思議獣全身巨大化 "SDR_UmiUmiU.bmp"
+巨大化ガス(命中), 煙噴射 白 Mist.wav
+剣, 剣
+火花(準備), 射撃武器 "Weapon\EFFECT_Sword(T)01.bmp"
+火花(攻撃), チェーンガン "Weapon\EFFECT_Sword(T)01.bmp" 赤 MicroMissile.wav
+火花(命中), チェーンガン 赤
+
+
+不思議獣ラブラブ
+槍ミサイル(準備), 射撃武器 "Weapon\EFFECT_LongArcBlade01.bmp" 40
+槍ミサイル(攻撃), Laser.wav
+槍ミサイル(命中), 爆発
+槍投げ(準備), 投擲武器 "Weapon\EFFECT_LongArcBlade01.bmp" 40
+槍投げ(攻撃), 投擲武器 "Weapon\EFFECT_LongArcBlade01.bmp" 40
+槍投げ(命中), 刺突
+槍, 殴打武器 "Weapon\EFFECT_LongArcBlade01.bmp" 40
+
+
+
+不思議獣サイサイ
+杖, モール
+電撃(準備), 射撃武器 "Weapon\EFFECT_Maul01.bmp" 32
+電撃(攻撃), ショックビームガン "Weapon\EFFECT_Maul01.bmp" 32 紫 Laser.wav
+電撃(命中), ショックビーム 紫 Laser.wav;爆発
+サイコキネシス(攻撃), 実弾発射 "DGoods\EFFECT_ElectricPole01.bmp" Missile.wav
+サイコキネシス(命中), ロケットパンチ "DGoods\EFFECT_ElectricPole01.bmp"
+
+
+
+不思議獣カミカミ
+槍ミサイル(準備), 射撃武器 "Weapon\EFFECT_FireSpear01.bmp" 64
+槍ミサイル(攻撃), マシンガン "Weapon\EFFECT_FireSpear01.bmp" 64 MachineCannon.wav
+槍ミサイル(命中), 爆発
+槍投げ(準備), 刺突武器 "Weapon\EFFECT_FireSpear01.bmp" 64
+槍投げ(攻撃), 投擲武器 "Weapon\EFFECT_FireSpear01.bmp" 64 Swing.wav
+槍投げ(命中), 小ビーム オレンジ Slash(6).wav ランダム方向;_
+				小ビーム オレンジ Slash(3).wav ランダム方向;_
+				小ビーム オレンジ Slash(4).wav ランダム方向;_
+				小ビーム オレンジ Slash.wav ランダム方向
+三叉槍, 刺突武器 "Weapon\EFFECT_FireSpear01.bmp" 64
+
+
+
+不思議獣デスデス
+#ギロチン投げ
+突進, タックル
+青龍刀, 青龍刀
+火球弾(攻撃), 振り下ろし;光球 赤 Beam.wav
+火球弾(命中), 爆発
+巨大化格闘(準備), 透明化 BeamSaber.wav
+巨大化格闘(攻撃), 不思議獣全身巨大化 "SDR_DeathDeathU.bmp"
+巨大化格闘(命中), 爪撃 黄 Swing.wav;5;爪撃 黄 Swing.wav
+
+
+
+不思議獣イトイト
+糸, 触手乱舞 白
+## 糸, 触手乱舞 青
+ビーム, 小ビーム ピンク
+ハサミ投げ(準備), 投擲武器 "DGoods\EFFECT_Scissors02.bmp"
+ハサミ投げ(攻撃), 回転投擲武器 "DGoods\EFFECT_Scissors02.bmp"
+ハサミ投げ(命中), ロケットパンチ "DGoods\EFFECT_Scissors02.bmp"
+ハサミ杖, 殴打武器 "DGoods\EFFECT_Scissors02.bmp"
+巨大化火炎放射(準備), 透明化 BeamSaber.wav
+巨大化火炎放射(攻撃), 不思議獣全身巨大化 "SDR_ItoItoU.bmp"
+巨大化火炎放射(命中), 踏み潰し Bazooka.wav;超火炎放射
+
+
+
+不思議獣ブヨブヨ
+槍, 刺突武器 "Weapon\EFFECT_FireSpear01.bmp" 64
+槍投げ(準備), 刺突武器 "Weapon\EFFECT_FireSpear01.bmp" 64
+槍投げ(攻撃), 投擲武器 "Weapon\EFFECT_FireSpear01.bmp" 64 Swing.wav
+槍投げ(命中), ロケットパンチ "Weapon\EFFECT_FireSpear01.bmp" 64 Sword.wav
+鼻(攻撃), 振り下ろし 白
+鼻(命中), 打撃 白
+電撃(攻撃), ショックビーム 赤 LaserGun.wav
+電撃(命中), ショックビーム 赤 LaserGun.wav;爆発
+巨大化鼻攻撃(準備), 透明化 BeamSaber.wav
+巨大化鼻攻撃(攻撃), 不思議獣全身巨大化 "SDR_BuyoBuyoU.bmp"
+巨大化鼻攻撃(命中), 打撃 白
+## 杖は、不思議獣ゲトゲトが使っていたものを白く塗ったもの。
+
+
+不思議獣フマフマ
+杖, 刺突武器 "Weapon\EFFECT_FireSpear01.bmp" 64
+電撃(準備), 射撃武器 "Weapon\EFFECT_FireSpear01.bmp" 64
+電撃(攻撃), ショックビームガン "Weapon\EFFECT_FireSpear01.bmp" 64 赤 Beam.wav
+電撃(命中), ショックビーム 赤 Beam.wav
+
+
+珍獣フマフマ
+噛みつき, 噛み付き
+
+
+不思議獣カリカリ
+槍, 竜騎槍
+槍投げ(準備), 刺突武器 "Weapon\EFFECT_DragoonLance01.bmp" 64
+槍投げ(攻撃), 投擲武器 "Weapon\EFFECT_DragoonLance01.bmp" 64 Swing.wav
+槍投げ(命中), ロケットパンチ "Weapon\EFFECT_DragoonLance01.bmp" 64 Sword.wav
+ミサイル弾, 機関砲
+
+
+不思議獣メリメリ
+シールド防御, 呪盾
+人形化光線(準備), 人形
+人形化光線(攻撃), 発光 黄 Beam2.wav 対象ユニットＩＤ
+人形化光線(命中), 発光 黄 Beam2.wav
+ビーム(準備), 人形
+ビーム(攻撃), ビームライフル 黄 "Creature\EFFECT_Doll01.bmp" 32 Bearing.wav
+ビーム(命中), 小ビーム 黄 Bearing.wav
+剣, 青龍刀
+巨大化ガス(準備), 透明化 BeamSaber.wav
+巨大化ガス(攻撃), 不思議獣全身巨大化 "SDR_MeriMeriU.bmp"
+巨大化ガス(命中), 煙噴射 白 Mist.wav
+
+
+
+不思議獣カゲカゲ
+分身(細胞体回避), 透明化 反映;光球放出 緑 Charge.wav;
+腕, 格闘
+蔦触手, 触手 緑
+杖, 殴打武器 "Weapon\EFFECT_Torch01.bmp" 32
+細胞体寄生(準備), -
+細胞体寄生(攻撃), 透明化;光球放出 緑 Charge.wav;7;小ビーム 緑 Charge(Silent).wav チャージなし
+細胞体寄生(命中), 小ビーム 緑 Charge(Silent).wav;ユニット変色 緑 相手ユニットＩＤ Mist.wav
+巨大化ビーム(準備), 透明化 BeamSaber.wav
+巨大化ビーム(攻撃), 不思議獣全身巨大化 "SDR_KageKageU.bmp"
+巨大化ビーム(命中), ショックビーム 緑 BeamSaber(2).wav
+## 杖は不思議獣タムタムの流用。
+
+
+
+不思議獣ダリダリ
+剣, 斬撃武器 "Weapon\EFFECT_BlackSword01.bmp" 32
+剣ミサイル砲, マシンガン "Weapon\EFFECT_BlackSword01.bmp" 32 BeamValcan.wav
+投げ矢(準備), 振る武器 "LightWeapon\EFFECT_LightSpear(White)01.bmp" 48 二刀流
+投げ矢(攻撃), 投擲武器 "LightWeapon\EFFECT_LightSpear(White)01.bmp" 48;4;_
+				投擲武器 "LightWeapon\EFFECT_LightSpear(White)01.bmp" 48
+投げ矢(命中), ロケットパンチ "LightWeapon\EFFECT_LightSpear(White)01.bmp" 48 Slash(4).wav;_
+				ロケットパンチ "LightWeapon\EFFECT_LightSpear(White)01.bmp" 48 Slash(4).wav
+巨大矢(準備), 振る武器 "LightWeapon\EFFECT_LightSpear(Yellow)01.bmp" 48 二刀流
+巨大矢(攻撃), 瞬間変形 -.bmp;分身刺突 黄
+巨大矢(命中), 分身刺突 黄
+巨大化火炎放射(準備), 透明化 BeamSaber.wav
+巨大化火炎放射(攻撃), 不思議獣全身巨大化 "SDR_DariDariU.bmp"
+巨大化火炎放射(命中), 超火炎放射
+
+## 巨大矢：二本の大きな矢を出し、銀色の全身タイツの兵士２人が１本ずつ持って突撃する。
+
+
+
+不思議獣コンコン
+剣, 青龍刀
+剣ミサイル砲, マシンガン "Weapon\EFFECT_SeiryuTou01.bmp" 32 BeamValcan.wav
+巨大化火花(準備), 透明化 BeamSaber.wav
+巨大化火花(攻撃), 不思議獣全身巨大化 "SDR_ComComU.bmp"
+巨大化火花(命中), マシンキャノン 赤
+ユメコン攻撃(準備), 10;Computer.wav;Type.wav;ユメコン召喚
+ユメコン攻撃(攻撃), 白兵武器
+ユメコン攻撃(攻撃), 斬撃
+ユメコン攻撃(攻撃), 連斬撃
+ユメコン攻撃(命中), ダメージ 黒
+
+ユメコンシャイダー
+レーザーブレード, 中心回転斬撃武器 "BeamWeapon\EFFECT_BeamRotor(LightBlue)02.bmp" 64
+
+
+
+不思議獣グチグチ
+シールド防御, ミドルシールド
+槍, 矢連射
+剣, 斬撃武器 "Weapon\EFFECT_Sichisitou02.bmp" 32
+二刀流(準備), 左右別武器 "Weapon\EFFECT_Sichisitou02.bmp" 32 "Weapon\EFFECT_SeiryuTou01.bmp" 32
+二刀流(攻撃), 連斬撃
+二刀流(命中), 連斬撃
+## フーマ兵士軍団(準備), 召喚 迷彩服の兵士.bmp 32
+フーマ兵士軍団(攻撃), ビームライフル ピンク;ビームライフル ピンク
+フーマ兵士軍団(攻撃), 小ビーム ピンク;小ビーム ピンク
+巨大化火炎放射(準備), 透明化 BeamSaber.wav
+巨大化火炎放射(攻撃), 不思議獣全身巨大化 "SDR_GuchiGuchiU.bmp"
+巨大化火炎放射(命中), 超火炎放射
+
+
+グチ将軍
+剣, 斬撃武器 "Weapon\EFFECT_Sword02.bmp" 32
+火炎放射, 火炎放射
+## フーマ兵士軍団(準備), 召喚 迷彩服の兵士.bmp 32
+フーマ兵士軍団(攻撃), ビームライフル ピンク;ビームライフル ピンク
+フーマ兵士軍団(攻撃), 小ビーム ピンク;小ビーム ピンク
+
+
+不思議獣ムビムビ
+分身(分身投影), 分身 BeamSaber(5).wav
+杖, 殴打武器 "DGoods\EFFECT_TitanHeadDriver01.bmp" 32
+杖ミサイル砲, マシンガン "DGoods\EFFECT_TitanHeadDriver01.bmp" 32 BeamValcan.wav
+衝撃波(準備), 振る武器 "DGoods\EFFECT_TitanHeadDriver01.bmp" 32
+衝撃波(攻撃), 振り下ろし;地表衝撃波 赤
+衝撃波(命中), 爆発 赤
+
+
+不思議獣サタサタ
+ロウソク杖, 刺突武器 "Weapon\EFFECT_Dabou_thrust01.bmp" 64
+槍投げ(準備), 刺突武器 "Weapon\EFFECT_Dabou_thrust01.bmp" 64
+槍投げ(攻撃), 投擲武器 "Weapon\EFFECT_Dabou_thrust01.bmp" 64 Swing.wav
+槍投げ(命中), ロケットパンチ "Weapon\EFFECT_Dabou_thrust01.bmp" 64 Sword.wav;爆発
+杖ミサイル砲, マシンガン "Weapon\EFFECT_Dabou_thrust01.bmp" 64
+火炎杖(準備), 刺突武器 "Weapon\EFFECT_Dabou_thrust01.bmp" 64;炎
+火炎杖(攻撃), 刺突
+火炎杖(命中), 刺突 赤;炎
+巨大化ガス(準備), 透明化 BeamSaber.wav
+巨大化ガス(攻撃), 不思議獣全身巨大化 "SDR_SataSataU.bmp"
+巨大化ガス(命中), 煙噴射 白 Whiz(2).wav
+
+
+不思議獣テロテロ
+ドリル, ドリル
+ハンマー杖, ウォーハンマー
+鉄球, 鎖鉄球
+
+
+不思議獣ペアペア
+ハートミラー(準備), 投擲武器 "Common\EFFECT_Heart01.bmp" 32
+ハートミラー(攻撃), 発光 白 BeamShot(2).wav 対象ユニットＩＤ
+ハートミラー(命中), -
+ハート杖, 殴打武器 "Weapon\EFFECT_FancyMagicRod01.bmp" 32
+ハート円盤(準備), 射撃武器 "Weapon\EFFECT_FancyMagicRod01.bmp" 32
+ハート円盤(攻撃), 実弾発射 "Bullet\EFFECT_HeartBullet(Pink)01.bmp" 32 Swimg(2).wav
+ハート円盤(命中), ロケットパンチ "Bullet\EFFECT_HeartBullet(Pink)01.bmp" 32 Slash(2).wav
+ハート円盤(命中), 爆発
+巨大化火花(準備), 透明化 BeamSaber.wav
+巨大化火花(攻撃), 不思議獣全身巨大化 "SDR_PairPairU.bmp"
+巨大化火花(命中), レーザーマシンガン 黄 BeamValcan.wav
+
+
+不思議獣ヘビヘビ
+蛇杖, 突く武器 "Weapon\EFFECT_Getsuga_thrust01.bmp" 64
+リボン(準備), 突く武器 "Weapon\EFFECT_Getsuga_thrust01.bmp" 64
+リボン(攻撃), リボン
+リボン(命中), リボン
+巨大化火花(準備), 透明化 BeamSaber.wav
+巨大化火花(攻撃), 不思議獣全身巨大化 "SDR_HebiHebiU.bmp"
+巨大化火花(命中), チェーンガン 赤
+巨大化ビーム(準備), 透明化 BeamSaber.wav
+巨大化ビーム(攻撃), 不思議獣全身巨大化 "SDR_HebiHebiU.bmp"
+巨大化ビーム(命中), ショックビーム 赤
+
+
+不思議獣ツタツタ
+ツタ, 触手乱舞 緑
+杖, 殴打武器 "Weapon\EFFECT_BronzeSword01.bmp" 32
+ツタ衝撃波(攻撃), 触手乱舞 緑
+ツタ衝撃波(命中), 触手乱舞 緑;地表衝撃波 白;爆発
+巨大化ビーム(準備), 透明化 BeamSaber.wav
+巨大化ビーム(攻撃), 不思議獣全身巨大化 "SDR_HebiHebiU.bmp"
+巨大化ビーム(命中), ２連ショックビーム 赤 BeamSaber(3).wav;爆発
+
+
+不思議獣ムチムチ
+ムチ, 多触手 ピンク
+触手(攻撃), 触手乱舞 黒
+触手(命中), 爆発
+槍, 矢連射
+ビーム, ２連ショックビーム 緑
+ビーム, ショックビーム 緑;ショックビーム 緑
+巨大化火炎放射(準備), 透明化 BeamSaber.wav
+巨大化火炎放射(攻撃), 不思議獣全身巨大化 "SDR_MuchiMuchiU.bmp"
+巨大化火炎放射(命中), 超火炎放射
+
+
+## その他 --------------------------------------------------------
+
+流れ星のガンマンオメガ
+格闘(攻撃), 打突
+格闘(命中), 打撃;爪撃 黒
+ショットガン(準備), Reload(4).wav
+ショットガン(攻撃), 光弾 赤 速 Beam(4Shot).wav;光弾 赤 速 -.wav;光弾 赤 速 -.wav
+ショットガン(命中), 爆発 紫;爆発 紫
+ロケット弾(攻撃), ２連光弾 ピンク 速 Beam(4Shot).wav;２連光弾 ピンク 速 -.wav;２連光弾 ピンク 速 -.wav
+ロケット弾(命中), 大爆発 紫
+トンファーソード(準備), 中心回転武器 "Weapon\EFFECT_Sword01.bmp" 32 前転 二刀流
+トンファーソード(攻撃), 連斬撃
+トンファーソード(命中), 連斬撃
+
+

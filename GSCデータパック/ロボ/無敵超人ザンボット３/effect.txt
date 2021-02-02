@@ -1,0 +1,87 @@
+ザンボットメカ
+バスターミサイル,               2;Missile.wav;2;Missile.wav;2;Missile.wav;10;Missile.wav
+バスターミサイル(命中),         2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;10;Explode(Small).wav
+ザンボットバスター,             3;Swing.wav;3;Swing.wav
+ザンボットバスター(命中),       3;Punch.wav;3;Punch.wav
+ザンボットグラップ(命中),       2;Slash.wav;2;Slash.wav
+ザンボットブロー,               Swing.wav
+ザンボットブロー(命中),         Stab.wav
+ムーンアタック,                 15;Charge(long).wav;10;Beam.wav
+ムーンアタック(命中),           2;Charge.wav;2;Charge.wav;2;Charge.wav;2;Charge.wav;2;Charge.wav;2;Charge.wav;8;Charge.wav;1;Sword.wav
+イオン砲,                       15;Charge(long).wav;3;Charge(long).wav;4;Charge(long).wav;10;Beam.wav
+ザンボマグナム,                 Gun.wav
+バードガン,                     MachineGun.wav
+トレンブルホーン,               3;Charge(high).wav
+
+
+ビアル号
+速射ミサイル(Ⅱ),               MultipleRocketLauncher.wav
+バリア砲,                       LaserGun.wav
+イオン砲,                       15;Charge(long).wav;3;Charge(long).wav;4;Charge(long).wav;10;Beam.wav
+速射ミサイル(Ⅲ),               MultipleRocketLauncher.wav
+
+
+
+
+
+バンドック
+攻撃無効化,                     BeamCoat.wav
+ビーム無効化,                   BeamCoat.wav
+レッドビーム,                   LaserGun.wav
+スペースミサイル,               3;Missile.wav;3;Missile.wav;3;Missile.wav;10;Missile.wav
+バンドック砲,                   15;Charge(long).wav;3;Charge(long).wav;4;Charge(long).wav;10;Beam.wav
+
+
+メカブースト
+シールドビーム,                 LaserGun.wav
+ランサー,                       Swing.wav
+ランサー(命中),                 Stab.wav
+二体同時攻撃,                   8;BeamCoat.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav
+二体同時攻撃(命中),             5;Punch.wav;5;Stab.wav;5;Slash.wav
+触手,                           2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;3;Whiz.wav
+火炎弾,                         3;Cannon.wav;3;Cannon.wav;3;Cannon.wav
+冷凍光線(クリティカル),         Glass.wav
+スピンソーサー,                 2;Swing.wav;2;Swing.wav
+スピンソーサー(命中),           Drill.wav
+対地ミサイル,                   MultipleRocketLauncher(Light).wav
+羽根手裏剣,                     2;Swing.wav;2;Swing.wav;2;Swing.wav
+羽根手裏剣(命中),               2;Slash.wav;2;Slash.wav;2;Slash.wav
+熱風,                           Storm.wav
+有棘鉄線,                       2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;3;Whiz.wav
+突風,                           Storm.wav
+凍結ガス,                       Breath.wav
+凍結ガス(クリティカル),         Glass.wav
+円盤形ミニ水爆,                 3;Explode(Nuclear).wav;3;Explode(Nuclear).wav;15;Explode(Nuclear).wav
+水爆,                           Explode(Nuclear).wav
+振動ベルト,                     3;Whiz.wav;3;Whiz.wav
+振動ベルト(命中),               Drill.wav
+副砲,                           2;Cannon.wav;4;Cannon.wav
+銛,                             Whiz.wav
+ニードル,                       1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav
+ニードル(命中),                 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;2;Slash.wav
+ニードル(MAP1),                 1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav
+ニードル(MAP1)(命中),           1;Slash.wav;1;Slash.wav;2;Slash.wav
+ニードル(MAP2),                 1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav
+ニードル(MAP2)(命中),           1;Slash.wav;1;Slash.wav;2;Slash.wav
+レーザーハリケーン,             10;Storm.wav;10;LaserGun.wav
+レーザーハリケーン(命中),       Explode.wav
+ニードルミサイル,               3;Missile.wav;3;Missile.wav;3;Missile.wav
+ニードルミサイル(命中),         3;Explode.wav;3;Explode.wav;3;Explode.wav
+メカ鮫(命中),                   Explode(Small).wav
+鉄球,                           2;Bomb.wav;2;Bomb.wav;2;Bomb.wav;2;Bomb.wav
+電撃触手,                       6;BeamSaber.wav;2;Whiz.wav;2;Whiz.wav;3;Whiz.wav
+超電撃スピン,                   Drill.wav
+超電撃スピン(命中),             Drill.wav
+閃光,                           Flair.wav
+ジャイロアタック,               Drill.wav
+ジャイロアタック(命中),         Drill.wav
+電磁ワイヤー,                   10;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav
+素粒子レーザー,                 15;Charge(high).wav;10;Beam.wav
+曼荼羅刀４刀流,                 2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav
+曼荼羅刀４刀流(命中),           2;Slash.wav;2;Slash.wav;2;Slash.wav;2;Slash.wav
+
+
+メカブースト・ガルチャック
+攻撃無効化,                     BeamCoat.wav
+ビーム無効化,                   BeamCoat.wav
+バリア貫通,                     Glass.wav

@@ -1,0 +1,114 @@
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_魔法陣召喚発動:
+#引数１．画像ファイル名(二つ指定の場合は"()"と" "を使う)
+#　　２．魔方陣の色(省略時、黄。二つ指定の場合は"()"と" "を使う)
+#　　３．画像サイズ(省略時、32)
+#　　４．表示角度(省略時、0)
+#　　５．画像を上昇させる距離(省略時、引数３の半分)
+#　　６．誰を中央に表示するか？(攻撃の場合は「対象パイロット」指定を推奨)
+
+Local i j BMP_FILE x y ANG COL COL2
+
+If Args(6) != "" Then
+ Center Args(6)
+Endif
+If IsNumeric(Args(3)) Then
+ x = Args(3)
+Else
+ x = 32
+Endif
+y = x \ 2
+If IsNumeric(Args(4)) Then
+ ANG = Args(4)
+Else
+ ANG = 0
+Endif
+If IsNumeric(Args(5)) Then
+ j = Args(5)
+Else
+ j = y
+Endif
+
+If LLength(Args(1)) = 2 Then
+
+ Set COL ("Anime\Magic\EFFECT_MagicEmblem" & _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs(LIndex(Args(2),1),黄))) & "01.bmp")
+ Set COL2 ("Anime\Magic\EFFECT_MagicEmblem" & _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs(LIndex(Args(2),2),黄))) & "01.bmp")
+
+ Wait Start
+ For i = 1 To 8
+  PaintPicture COL 184 (i * 4 + 212) 48 ((16 - i) * 3) 右回転 ((i Mod 18) * 20) 透過
+  PaintPicture COL2 248 (i * 4 + 212) 48 ((16 - i) * 3) 右回転 ((i Mod 18) * 20) 透過
+  Refresh
+  Wait Until (i * 0.6)
+  ClearPicture
+ Next
+ PlaySound Jet.wav
+ For i = 1 To 54
+  PaintPicture COL 184 244 48 24 右回転 ((i Mod 18) * 20) 透過
+  PaintPicture COL2 248 244 48 24 左回転 ((i Mod 18) * 20) 透過
+  Line 190 (261 - i * 5) 226 256 BF #32C8FF
+  Line 254 (261 - i * 5) 290 256 BF #32C8FF
+  Line 192 (263 - i * 5) 224 258 BF #82D7FF
+  Line 256 (263 - i * 5) 288 258 BF #82D7FF
+  Line 194 (265 - i * 5) 222 260 BF #B4E6FF
+  Line 258 (265 - i * 5) 286 260 BF #B4E6FF
+  Refresh
+  Wait Until (i * 0.2 + 4.8)
+  ClearPicture
+ Next
+ For i = 1 To j
+  ClearPicture
+  PaintPicture COL 184 244 48 24 右回転 ((i Mod 18) * 20) 透過
+  PaintPicture COL2 248 244 48 24 左回転 ((i Mod 18) * 20) 透過
+  Line 190 1 226 256 BF #32C8FF
+  Line 254 1 290 256 BF #32C8FF
+  Line 192 1 224 258 BF #82D7FF
+  Line 256 1 288 258 BF #82D7FF
+  Line 194 1 222 260 BF #B4E6FF
+  Line 258 1 286 260 BF #B4E6FF
+  PaintPicture LIndex(Args(1),1) (209 - y) (241 - i - y) x x 右回転 ANG シルエット 透過
+  PaintPicture LIndex(Args(1),1) (208 - y) (240 - i - y) x x 右回転 ANG 透過
+  PaintPicture LIndex(Args(1),2) (273 - y) (241 - i - y) x x 右回転 ANG シルエット 透過
+  PaintPicture LIndex(Args(1),2) (272 - y) (240 - i - y) x x 右回転 ANG 透過
+  Refresh
+  Wait Until (i * 0.3 + 14.8)
+ Next
+
+Else
+
+ Set COL ("Anime\Magic\EFFECT_MagicEmblem" & _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs(Args(2),黄))) & "01.bmp")
+
+ Wait Start
+ For i = 1 To 8
+  PaintPicture COL - (i * 4 + 212) 48 ((16 - i) * 3) 右回転 ((i Mod 18) * 20) 透過
+  Refresh
+  Wait Until (i * 0.6)
+  ClearPicture
+ Next
+ PlaySound Jet.wav
+ For i = 1 To 54
+  PaintPicture COL - 244 48 24 右回転 ((i Mod 18) * 20) 透過
+  Line 222 (261 - i * 5) 258 256 BF #32C8FF
+  Line 224 (263 - i * 5) 256 258 BF #82D7FF
+  Line 226 (265 - i * 5) 254 260 BF #B4E6FF
+  Refresh
+  Wait Until (i * 0.2 + 4.8)
+  ClearPicture
+ Next
+ For i = 1 To j
+  ClearPicture
+  PaintPicture COL - 244 48 24 右回転 ((i Mod 18) * 20) 透過
+  Line 222 1 258 256 BF #32C8FF
+  Line 224 1 256 258 BF #82D7FF
+  Line 226 1 254 260 BF #B4E6FF
+  PaintPicture Args(1) (241 - y) (241 - i - y) x x 右回転 ANG シルエット 透過
+  PaintPicture Args(1) (240 - y) (240 - i - y) x x 右回転 ANG 透過
+  Refresh
+  Wait Until (i * 0.3 + 14.8)
+ Next
+
+Endif
+ Wait Until (j * 0.3 + 19.8)
+
+Return "Keep"
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/

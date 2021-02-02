@@ -1,0 +1,220 @@
+*使用後 木之本桜 クロウカード交換:
+If 木之本桜カード交換後 Then
+    AutoTalk システム
+    カードは交換済みです
+    End
+    Exit
+Endif
+Call カード交換作業 木之本桜 クロウカード
+Set 木之本桜カード交換後
+Exit
+
+*使用後 木之本桜Ｓ さくらカード交換:
+If 木之本桜Ｓカード交換後 Then
+    AutoTalk システム
+    カードは交換済みです
+    End
+    Exit
+Endif
+Call カード交換作業 木之本桜Ｓ さくらカード
+Set 木之本桜Ｓカード交換後
+Exit
+
+*使用後 李小狼 クロウカード交換:
+If 李小狼カード交換後 Then
+    AutoTalk システム
+    カードは交換済みです
+    End
+    Exit
+Endif
+Call カード交換作業 李小狼 小狼のクロウ
+Set 李小狼カード交換後
+Exit
+
+カード交換作業変数初期化:
+Unset 装備カード
+Unset 未装備カード
+Unset 他アイテム
+Unset 装備愛称
+Unset 未装備愛称
+Unset 雑用
+Return
+
+カード交換作業:
+Confirm カードは１シナリオに１回しか交換できませんが実行しますか？
+If 選択 = 0 Exit
+AutoTalk システム
+0.1;持っているカードをチェック中…
+Suspend
+Local 雑用 装備カード 未装備カード 装備愛称 未装備愛称 他アイテム
+
+Set j 0
+For i = 1 To CountItem(未装備)
+    Switch Left(Item(未装備, i), 6)
+    Case Args(2)
+        Incr j
+        Set 未装備カード[j] Item(未装備, i)
+    EndSw
+Next
+Switch j
+    Case 0
+    AutoTalk システム
+    交換できるカードがありません.カード交換をしたとはみなさずに終了します
+    End
+    Exit
+EndSw
+
+
+For i = 1 To CountItem(Args(1))
+    Switch Left(Item(Args(1), i), 6)
+    Case Args(2)
+        Incr j
+        Set 装備カード[j] Item(Args(1), i)
+    Case else
+        Set 他アイテム[i] Item(Args(1), i)
+    EndSw
+Next
+
+For i = 1 To (Info(ユニットデータ, Unit(Args(1)), 特殊能力レベル, ハードポイント) - Count(装備カード))
+    Equip Args(1) 未装備カード[i]
+    Set 装備カード[i] 未装備カード[i]
+    Unset 未装備カード[i]
+Next
+
+If Count(未装備カード) = 0 Then
+    Call カード交換作業変数初期化
+    AutoTalk システム
+    持っていたカードを全部装備しました.カード交換をしたとはみなさずに終了します
+    End
+    Exit
+Else
+    AutoTalk システム
+    装備可能なカードを全部装備しました
+    End
+Endif
+
+UnSet j
+ForEach i IN 未装備カード
+Set 未装備愛称[i] (Info(アイテム, 未装備カード[i], 愛称) & "：" & Info(アイテム, 未装備カード[i], コメント))
+Next
+
+ForEach i IN 装備カード
+    Switch 装備カード[i]
+        Case クロウカード「翔」 さくらカード「翔」
+        Switch Right(Unit(Args(1)), 3)
+            Case 「翔」
+            Set 装備愛称[i] (Info(アイテム, 装備カード[i], 愛称) & "：使用中のため交換不可")
+            Set j i
+            Skip
+        EndSw
+    EndSw
+    Set 装備愛称[i] (Info(アイテム, 装備カード[i], 愛称) & "：" & Info(アイテム, 装備カード[i], コメント))
+Next
+Do
+  Ask 未装備愛称 どのカードを装備しますか？ 拡大 連続表示 キャンセル可
+    Set 雑用[1] 選択
+    Switch 雑用[1]
+    Case ""
+        Switch 雑用[3]
+            Case ""
+            Confirm "カード交換を終了しますか？ 今ならばカードは交換したとみなされません"
+            Switch 選択
+                Case 1
+                Call カード交換作業変数初期化
+                Ask 終了
+                Exit
+                Case else
+                Skip
+            EndSw
+            Case else
+            Confirm カード交換を終了しますか？
+            Switch 選択
+                Case 1
+                Break
+                Case else
+                Skip
+            EndSw
+        EndSw
+     EndSw
+
+PlaySound Type.wav
+Do
+  Ask 装備愛称 "$(未装備愛称[雑用[1]])を装備するため、どのカードを外しますか？" 拡大 連続表示 キャンセル可
+    PlaySound Type.wav
+    Set 雑用[2] 選択
+    Switch 雑用[2]
+    Case j
+        Skip
+    Case ""
+        Break
+    Case Else
+    PlaySound Type.wav
+    Set 雑用[3] 装備カード[雑用[2]]
+    Set 雑用[4] 装備愛称[雑用[2]]
+    Set 装備カード[雑用[2]] 未装備カード[雑用[1]]
+    Set 装備愛称[雑用[2]] 未装備愛称[雑用[1]]
+    Set 未装備カード[雑用[1]] 雑用[3]
+    Set 未装備愛称[雑用[1]] 雑用[4]
+        Break
+    EndSw
+Loop
+Loop
+Ask 終了
+AutoTalk システム
+0.1;カード装備中…
+Suspend
+Select Args(1)
+RemoveItem
+ForEach i In 装備カード
+    Equip 装備カード[i]
+Next
+ForEach i In 他アイテム
+    Equip 他アイテム[i]
+Next
+Call カード交換作業変数初期化
+AutoTalk システム
+カード装備中… 終了しました
+End
+Return
+
+## --クロウカード「替」インクル--
+## クロウカード「替」＜＊＞は、合体技だとエラーが出るため、このような処理をしています。
+
+*使用 木之本桜 クロウカード『替』＜小狼＞:
+*使用 李小狼 クロウカード『替』＜さくら＞:
+UnSet 距離[さくら・小狼]
+Set 距離[さくら・小狼] ((X(木之本桜) + Y(木之本桜)) - (X(李小狼) + Y(李小狼)))
+Switch 距離[さくら・小狼]
+Case -1 1
+　Exit
+Case Else
+　Talk システム
+　さくらと小狼が隣接していないと使用できません
+　End
+　Mind 覚醒
+　Cancel
+EndSw
+Exit
+
+
+
+*使用後 木之本桜(チェンジ小狼) クロウカード『替』＜小狼＞:
+Item クロウカード「替」(インクル用)
+Equip 李小狼 クロウカード「替」(インクル用)
+
+UseAbility 李小狼 クロウカード『替』＜さくら＞(インクル用)
+
+RemoveItem 李小狼 クロウカード「替」(インクル用)
+Exit
+
+*使用後 李小狼(チェンジさくら) クロウカード『替』＜さくら＞:
+Item クロウカード「替」(インクル用)
+Equip 木之本桜 クロウカード「替」(インクル用)
+
+UseAbility 木之本桜 クロウカード『替』＜小狼＞(インクル用)
+
+RemoveItem 木之本桜 クロウカード「替」(インクル用)
+Exit
+
+# すべてに「～(インクル用)」と付けているのは、元の「替」との誤作動防止と、
+# メッセを表示させないためです。

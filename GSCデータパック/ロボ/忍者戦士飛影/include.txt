@@ -1,0 +1,198 @@
+# 飛影合体イベントインクルードファイル
+# 
+# 飛影がNPCである場合に強制合体イベントを再現する為の
+# インクルードファイルです。
+# 合体対象は気力が110を超えたマシンからランダムに選択されます。
+# 
+# 厳密には合体ではなくUnitのUpgradeを行っています。
+# そのため合体御のUnitがあらかじめ生成されていると誤動作をする
+# おそれがあります。
+# シナリオ側で合体後ユニットを生成しないようにして下さい。
+# 
+# 利用例：
+# 
+# ターン 5 味方:
+# Create ＮＰＣ 飛影 0 飛影 40 10 10 
+# Exit
+# 
+# ターン 全 味方:
+# Call 飛影合体
+# Exit
+#
+## 原作ライクに最もダメージの大きな(=損傷率の高い)機体と
+## 合体させる場合は次のようにして下さい。
+## 
+## ターン 全 味方:
+## Call 飛影合体 損傷率
+## Exit
+## 
+## 気力110を超えたマシンの内最も損傷率が高いマシンと合体します。
+## 損傷率が同一の場合は 獣魔＞空魔＞海魔 の順に合体対象となります。
+## ただし対象マシン全ての損傷率が0の場合はランダムで対象を選びます。
+## 
+# 
+# 全滅 敵:
+# If IsDefined(飛影) Then
+# Call 飛影分離
+# 
+
+飛影合体:
+Local i, ID, total
+If Status(飛影) = "出撃" And Unit(飛影) = "飛影" Then
+_合体対象数 = 0
+Call 飛影合体チェック 爆竜(合体)
+Call 飛影合体チェック 鳳雷鷹(合体)
+Call 飛影合体チェック 黒獅子(合体)
+If _合体対象数 Then
+ID = 0
+total = 0
+If Args(1) = "損傷率" Then
+_合体対象損傷率[0] = 0
+For i = 1 to _合体対象数
+Incr total _合体対象損傷率[i]
+If _合体対象損傷率[ID] < _合体対象損傷率[i] Then
+ID = i
+EndIf
+Next
+EndIf
+If total = 0 Then
+ID = Random(_合体対象数)
+EndIf
+Call 飛影合体_実行 _飛影合体対象[ID]
+EndIf
+EndIf
+Return
+
+飛影合体チェック:
+Local p
+p = Pilot(Args(1))
+If Status(p) = 出撃 Then
+Incr _合体対象数
+_飛影合体対象[_合体対象数] = Args(1)
+_合体対象損傷率[_合体対象数] = Damage(p)
+EndIf
+Return
+
+飛影合体_実行:
+Local p
+StartBGM TobikageKenzan.mid
+p = Pilot(Args(1))
+Call 飛影合体前台詞 p
+Move 飛影 X(p) Y(p) アニメ表示
+Escape 飛影
+Switch Args(1)
+Case 黒獅子(合体)
+Upgrade 黒獅子(合体) 獣魔黒獅子
+Case 鳳雷鷹(合体)
+Upgrade 鳳雷鷹(合体) 空魔鳳雷鷹
+Case 爆竜(合体)
+Upgrade 爆竜(合体) 海魔爆竜
+EndSW
+Disable Unit(p) 分離
+Call 飛影合体後台詞 p
+Return
+
+飛影分離:
+Local u
+If IsDefined(獣魔黒獅子) Then
+u = 獣魔黒獅子
+ElseIf IsDefined(空魔鳳雷鷹) Then
+u = 空魔鳳雷鷹
+ElseIf IsDefined(海魔爆竜) Then
+u = 海魔爆竜
+Else
+Call 飛影撤退
+Return
+EndIf
+Call 飛影分離台詞 Pilot(u)
+Upgrade u LIndex(Info(ユニットデータ,u,特殊能力データ,分離),3)
+Enable u 分離
+Return
+
+飛影撤退:
+Talk レニー＝アイ
+あ！
+Talk マイク＝コイル
+飛影が……！
+End
+Center 飛影
+Talk 飛影
+…………
+End
+Wait 5
+Escape 飛影
+Wait 5
+Talk ジョウ＝マヤ
+いつもいつも合体してくれる訳じゃねぇってことか……あばよ、飛影！
+End
+RemovePilot 飛影
+Return
+
+飛影合体前台詞:
+Talk 飛影
+…………
+Suspend
+Switch Args(1)
+Case ジョウ＝マヤ
+Talk ジョウ＝マヤ
+飛影……来たか！ 合体だぜ！
+End
+Case ダミアン(飛影)
+Talk ダミアン(飛影)
+飛影！ ありがてぇ！
+End
+Case レニー＝アイ
+Talk レニー＝アイ
+飛影が！
+End
+Case マイク＝コイル
+Talk マイク＝コイル
+あっ！ 飛影がっ！
+End
+EndSw
+Return
+
+飛影合体後台詞:
+Switch Args(1)
+Case ジョウ＝マヤ
+Talk ジョウ＝マヤ
+合体すりゃぁこっちのもんだ！ 覚悟しやがれ！
+End
+Case ダミアン(飛影)
+Talk ダミアン(飛影)
+……よぅし、ガンガンいくぜぇっ！！
+End
+Case レニー＝アイ
+Talk レニー＝アイ
+よぉしっ！ 行くわよっ！！
+End
+Case マイク＝コイル
+Talk マイク＝コイル
+こうなりゃこっちのもんだ！ いくぜ、爆竜！！
+End
+EndSw
+Return
+
+飛影分離台詞:
+Talk 飛影
+…………
+Suspend
+Switch Args(1)
+Case ジョウ＝マヤ
+Talk ジョウ＝マヤ
+へっ、さっさと帰っちまいやがって。相変わらず愛想のない奴だぜ！
+End
+Case ダミアン(飛影)
+Talk ダミアン(飛影)
+いつもながら不思議な奴だぜ、まったく
+End
+Case レニー＝アイ
+Talk レニー＝アイ
+飛影、ありがとね
+End
+Case マイク＝コイル
+Talk マイク＝コイル
+飛影、またよろしく頼むぜ！
+End
+EndSw
+Return

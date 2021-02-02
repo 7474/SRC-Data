@@ -1,0 +1,137 @@
+
+## 等身大用
+
+Ｅシリーズ
+雷閃,                     マシンガン M_Type-0[Raisen].bmp 32
+# 雷閃,                     マシンガン
+4砲身30mm機関砲,          大型ガトリング
+回復,                     回復魔法
+チャージ,                 エネルギーフィールド展開 相手ユニットＩＤ
+キャタピラ,               タックル
+小型砲塔,                 キャノン砲
+重機関銃,                 重機関砲
+輸送車,                   風
+神威,                     サブマシンガン M_M92F-CUSTOM[Kamui].bmp 32
+# 神威,                     サブマシンガン
+自走砲,                   キャノン砲長距離
+集中砲火(攻撃),           キャノン砲長距離;キャノン砲長距離;キャノン砲長距離
+集中砲火(命中),           キャノン砲長距離
+ロケット砲,               ミサイル長距離
+スーパーＭＬＲＳ(攻撃),   ミサイル 8
+スーパーＭＬＲＳ(命中),   ミサイル長距離
+対空砲,                   マシンキャノン
+地対空誘導弾,             ミサイル 2
+機関銃,                   機関砲
+高速ＡＡＭ,               ミサイル
+歩兵用銃機関銃,           重機関砲
+輸送ヘリ,                 風
+機銃,                     バルカン
+多目的大型誘導爆弾,       投下爆弾
+突撃(攻撃),               タックル
+突撃(命中),               超打
+小型電子熱砲,             大キャノン砲
+一斉発射,                 大キャノン砲 4;大キャノン砲 4;大キャノン砲 4
+高速魚雷,                 ミサイル 1
+小型ＳＬＣＭ,             ミサイル長距離
+重機関砲,                 重機関砲
+輸送艦,                   風
+攻撃衛星,                 衛星ビーム 白
+
+戦艦
+対空機銃,                 機関砲
+副砲,                     キャノン砲
+50サンチ砲,               大キャノン砲
+
+
+## 巨大用
+
+EPN-001GF-IZEN
+シールド防御(歩兵部隊),    シールド防御 32 Unit\GATR_IZEN(I)U.bmp
+歩兵(準備),                召喚 Unit\GATR_IZEN(I)U.bmp Walk(Robot).wav
+歩兵(攻撃),                瞬間変形 Unit\GATR_IZEN(I)U.bmp;マシンガン M_Type-0[Raisen].bmp 32
+歩兵(命中),                マシンガン
+#歩兵(準備),                召喚 Unit\GATR_IZEN(I)U.bmp Walk(Robot).wav
+#歩兵(攻撃),                瞬間変形 Unit\GATR_IZEN(I)U.bmp;マシンガン
+#歩兵(攻撃),                マシンガン
+重装歩兵(準備),            召喚 Unit\GATR_IZEN(H)U.bmp Walk(Robot).wav
+重装歩兵(攻撃),            瞬間変形 Unit\GATR_IZEN(H)U.bmp;大型ガトリング
+重装歩兵(命中),            大型ガトリング
+一斉攻撃(アイゼン)(準備),  召喚 Unit\GATR_IZEN(I)U.bmp Walk(Robot).wav;召喚 Unit\GATR_IZEN(H)U.bmp Walk(Robot).wav;Unit\GATR_IZEN(I)U.bmp Walk(Robot).wav
+一斉攻撃(アイゼン)(攻撃),  瞬間変形 Unit\GATR_IZEN(I)U.bmp;マシンガン M_Type-0[Raisen].bmp 32;瞬間変形 Unit\GATR_IZEN(H)U.bmp;大型ガトリング;瞬間変形 Unit\GATR_IZEN(I)U.bmp;マシンガン M_Type-0[Raisen].bmp 32
+一斉攻撃(アイゼン)(命中),  連続爆発;大爆発
+#一斉攻撃(アイゼン)(準備),  召喚 Unit\GATR_IZEN(I)U.bmp Walk(Robot).wav;召喚 Unit\GATR_IZEN(H)U.bmp Walk(Robot).wav;Unit\GATR_IZEN(I)U.bmp Walk(Robot).wav
+#一斉攻撃(アイゼン)(攻撃),  瞬間変形 Unit\GATR_IZEN(I)U.bmp;マシンガン;瞬間変形 Unit\GATR_IZEN(H)U.bmp;大型ガトリング;瞬間変形 Unit\GATR_IZEN(I)U.bmp;マシンガン
+#一斉攻撃(アイゼン)(命中),  連続爆発;大爆発
+回復,                      変形 Unit\GATR_IZEN(M)U.bmp Walk(Robot).wav 対象ユニットＩＤ;回復魔法 相手ユニットＩＤ
+一斉回復,                  変形 Unit\GATR_IZEN(M)U.bmp Walk(Robot).wav 相手ユニットＩＤ;回復魔法泡 相手ユニットＩＤ;瞬間変形 反映
+チャージ,                  変形 Unit\GATR_IZEN(M)U.bmp Walk(Robot).wav;エネルギーフィールド展開 相手ユニットＩＤ
+
+
+EPN-000GF-NEI
+輸送車(準備),              召喚 Unit\GATR_NEI(V)U.bmp Engine.wav
+輸送車(攻撃),              瞬間変形 Unit\GATR_NEI(V)U.bmp;ヘビーマシンガン
+輸送車(命中),              ヘビーマシンガン
+偵察車(準備),              召喚 Unit\GATR_NEI(S)U.bmp Engine.wav
+偵察車(攻撃),              瞬間変形 Unit\GATR_NEI(S)U.bmp;サブマシンガン M_M92F-CUSTOM[Kamui].bmp 32
+偵察車(命中),              サブマシンガン
+#偵察車(準備),              召喚 Unit\GATR_NEI(S)U.bmp Engine.wav
+#偵察車(攻撃),              瞬間変形 Unit\GATR_NEI(S)U.bmp;サブマシンガン
+#偵察車(命中),              サブマシンガン
+戦車(準備),                召喚 Unit\GATR_NEI(T)U.bmp Engine.wav
+戦車(攻撃),                瞬間変形 Unit\GATR_NEI(T)U.bmp;キャノン砲
+戦車(命中),                キャノン砲
+一斉攻撃(ネイ)(準備),      召喚 Unit\GATR_NEI(V)U.bmp Engine.wav;召喚 Unit\GATR_NEI(S)U.bmp Engine.wav;召喚 Unit\GATR_NEI(T)U.bmp Engine.wav
+一斉攻撃(ネイ)(攻撃),      瞬間変形 Unit\GATR_NEI(V)U.bmp;ヘビーマシンガン;瞬間変形 Unit\GATR_NEI(S)U.bmp;サブマシンガン M_M92F-CUSTOM[Kamui].bmp 32;キャノン砲
+一斉攻撃(ネイ)(命中),      連続爆発;大爆発
+#一斉攻撃(ネイ)(準備),      召喚 Unit\GATR_NEI(V)U.bmp Engine.wav;召喚 Unit\GATR_NEI(S)U.bmp Engine.wav;召喚 Unit\GATR_NEI(T)U.bmp Engine.wav
+#一斉攻撃(ネイ)(攻撃),      瞬間変形 Unit\GATR_NEI(V)U.bmp;ヘビーマシンガン;瞬間変形 Unit\GATR_NEI(S)U.bmp;サブマシンガン;キャノン砲
+#一斉攻撃(ネイ)(命中),      連続爆発;大爆発
+移動補助【輸送車】,        風
+
+
+EPN-003GF-YU-RI
+対空砲(準備),              召喚 Unit\GATR_NEI(A)U.bmp Walk(Robot).wav
+対空砲(攻撃),              瞬間変形 Unit\GATR_YU-RI(A)U.bmp;マシンキャノン;ホーミングミサイル
+対空砲(命中),              マシンキャノン;ホーミングミサイル
+自走砲(準備),              召喚 Unit\GATR_NEI(V)U.bmp Walk(Robot).wav
+自走砲(攻撃),              瞬間変形 Unit\GATR_YU-RI(S)U.bmp;キャノン砲長距離
+自走砲(命中),              キャノン砲長距離
+ロケット砲(準備),          召喚 Unit\GATR_NEI(R)U.bmp Walk(Robot).wav
+ロケット砲(攻撃),          瞬間変形 Unit\GATR_YU-RI(R)U.bmp;ミサイル長距離
+ロケット砲(命中),          ミサイル長距離
+一斉攻撃(ユーリ)(準備),    召喚 Unit\GATR_NEI(A)U.bmp Walk(Robot).wav;召喚 Unit\GATR_NEI(V)U.bmp Walk(Robot).wav;召喚 Unit\GATR_NEI(R)U.bmp Walk(Robot).wav
+一斉攻撃(ユーリ)(攻撃),    瞬間変形 Unit\GATR_YU-RI(A)U.bmp;マシンキャノン;ホーミングミサイル;瞬間変形 Unit\GATR_YU-RI(S)U.bmp;キャノン砲長距離;瞬間変形 Unit\GATR_YU-RI(R)U.bmp;ミサイル長距離
+一斉攻撃(ユーリ)(命中),    連続大爆発
+
+
+EPN-002AF-SOUKA
+輸送ヘリ(準備),            召喚 Unit\GATR_SOUKA(H)U.bmp Helicopter(2).wav
+輸送ヘリ(攻撃),            瞬間変形 Unit\GATR_SOUKA(H)U.bmp;バルカン
+輸送ヘリ(命中),            バルカン
+戦闘機(準備),              召喚 Unit\GATR_SOUKA(F)U.bmp Jet.wav
+戦闘機(攻撃),              瞬間変形 Unit\GATR_SOUKA(F)U.bmp;機関砲;ミサイル
+戦闘機(命中),              機関砲;ミサイル
+爆撃機(準備),              召喚 Unit\GATR_SOUKA(B)U.bmp Jet.wav
+爆撃機(攻撃),              瞬間変形 Unit\GATR_SOUKA(B)U.bmp;投下爆弾
+爆撃機(命中),              爆撃
+一斉攻撃(ソウカ)(準備),    召喚 Unit\GATR_SOUKA(H)U.bmp Helicopter(2).wav;召喚 Unit\GATR_SOUKA(F)U.bmp Jet.wav;召喚 Unit\GATR_SOUKA(B)U.bmp Jet.wav
+一斉攻撃(ソウカ)(攻撃),    瞬間変形 Unit\GATR_SOUKA(H)U.bmp;バルカン;瞬間変形 Unit\GATR_SOUKA(F)U.bmp;機関砲;ミサイル;瞬間変形 Unit\GATR_SOUKA(B)U.bmp;投下爆弾
+一斉攻撃(ソウカ)(命中),    連続大爆発;超爆発
+移動補助【輸送ヘリ】,      風
+
+
+EPN-004MF-HISOKA
+輸送艦(準備),              召喚 Unit\GATR_HISOKA(T)U.bmp Mist.wav
+輸送艦(攻撃),              瞬間変形 Unit\GATR_HISOKA(T)U.bmp;機関砲
+輸送艦(命中),              機関砲
+潜水艦(準備),              召喚 Unit\GATR_HISOKA(S)U.bmp Mist.wav
+潜水艦(攻撃),              瞬間変形 Unit\GATR_HISOKA(S)U.bmp;ミサイル 3
+潜水艦(命中),              ミサイル 3
+戦艦(準備),                召喚 Unit\GATR_HISOKA(B)U.bmp Mist.wav
+戦艦(攻撃),                瞬間変形 Unit\GATR_HISOKA(B)U.bmp;大キャノン砲 4
+戦艦(命中),                大キャノン砲 4
+一斉攻撃(ヒソカ)(準備),    召喚 Unit\GATR_HISOKA(T)U.bmp Mist.wav;召喚 Unit\GATR_HISOKA(S)U.bmp Mist.wav;召喚 Unit\GATR_HISOKA(B)U.bmp Mist.wav
+一斉攻撃(ヒソカ)(攻撃),    瞬間変形 Unit\GATR_HISOKA(T)U.bmp;機関砲;瞬間変形 Unit\GATR_HISOKA(S)U.bmp;ミサイル 3;瞬間変形 Unit\GATR_HISOKA(B)U.bmp;大キャノン砲 4
+一斉攻撃(ヒソカ)(命中),    連続大爆発;超爆発
+移動補助【輸送艦】,        風
+

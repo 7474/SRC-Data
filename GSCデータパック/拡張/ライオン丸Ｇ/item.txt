@@ -1,0 +1,201 @@
+#スカル・アイ関連
+
+スカルアイ
+スカルアイ, 汎用, アイテム
+特殊能力
+性格変更=超強気
+ＨＰ消費Lv1
+格闘強化Lv1
+0, 0, 0, 0, 0
+*麻薬のようなコンタクトレンズ
+
+
+アカＸアオ
+アカＸアオ, 汎用, アイテム
+特殊能力
+性格変更=超強気
+ＨＰ消費Lv2
+格闘強化Lv1
+回避強化Lv1
+0, 0, 0, 0, 0 
+
+
+#ジュニアさんのコスプレ(自分探し)
+
+和服姿の華道の師匠
+和服姿の華道の師匠, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Kadou).bmp
+ユニット画像=LIONG_JuniorG(Kadou)U.bmp
+0, 0, 0, 0, 0
+
+ボンテージの女王様
+ボンテージの女王様, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Queen).bmp
+ユニット画像=LIONG_JuniorG(Queen)U.bmp
+0, 0, 0, 0, 0
+女王様の鞭,      600,  1,  1,  +10,   -,   -,   -, AAAA,   +0, 武
+
+マジシャン
+マジシャン, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Magician).bmp
+ユニット画像=LIONG_JuniorG(Magician)U.bmp
+0, 0, 0, 0, 0
+
+大工
+大工, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Carpenter).bmp
+ユニット画像=LIONG_JuniorG(Carpenter)U.bmp
+0, 0, 0, 0, 0
+
+日本兵
+日本兵, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(JapaneseArmy).bmp
+ユニット画像=LIONG_JuniorG(JapaneseArmy)U.bmp
+0, 0, 0, 0, 0
+銃剣(剣),       700,  1,  1,  +10,    -,   -,   -, AAAA,   +0, 武
+銃剣(銃),      1100,  1,  3,  +10,   10,   -,   -, AAAA,   +0, 武銃
+ 　　　　　　　　　　　　 
+スチュワーデス
+スチュワーデス, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(FlightAttendant).bmp
+ユニット画像=LIONG_JuniorG(FlightAttendant)U.bmp
+0, 0, 0, 0, 0
+
+メイド
+メイド, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Maid).bmp
+ユニット画像=LIONG_JuniorG(Maid)U.bmp
+0, 0, 0, 0, 0
+
+寿司屋
+寿司屋, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Sushi).bmp
+ユニット画像=LIONG_JuniorG(Sushi)U.bmp
+0, 0, 0, 0, 0
+ゴキ握り,     0,  1,  1,  +10,    -,   -,   -, AAAA,   +0, 恐
+
+小学生
+小学生, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Boy).bmp
+ユニット画像=LIONG_JuniorG(Boy)U.bmp
+0, 0, 0, 0, 0　　　　　　　　　　　
+
+ブルース・リー
+ブルース・リー, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(KungFu).bmp
+ユニット画像=LIONG_JuniorG(KungFu)U.bmp
+0, 0, 0, 0, 0
+カンフー殺法,    900,  1,  1,  +10,    -,   -,   -, AAAA,   +0, 突
+
+整体師　　　　　　　　　　　　　
+整体師, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Seitai).bmp
+ユニット画像=LIONG_JuniorG(Seitai)U.bmp
+修理装置=整体
+0, 0, 0, 0, 0
+
+車掌
+車掌, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Conductor).bmp
+ユニット画像=LIONG_JuniorG(Conductor)U.bmp
+0, 0, 0, 0, 0
+
+カウボーイ
+カウボーイ, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(CowBoy).bmp
+ユニット画像=LIONG_JuniorG(CowBoy)U.bmp
+0, 0, 0, 0, 0
+
+中国人のアマチュアレスラー
+アマチュアレスラー, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Wrestler).bmp
+ユニット画像=LIONG_JuniorG(Wrestler)U.bmp
+0, 0, 0, 0, 0
+
+ミニスカポリス
+ミニスカポリス, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(MiniSkaPolice).bmp
+ユニット画像=LIONG_JuniorG(MiniSkaPolice)U.bmp
+0, 0, 0, 0, 0
+
+シャラポア 
+シャラポア, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Tennis).bmp
+ユニット画像=LIONG_JuniorG(Tennis)U.bmp
+0, 0, 0, 0, 0
+　　　　　　　　　　
+牧師 　　
+牧師,  固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Pastor).bmp
+ユニット画像=LIONG_JuniorG(Pastor)U.bmp
+0, 0, 0, 0, 0
+
+ライダー
+ライダー, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Rider).bmp
+ユニット画像=LIONG_JuniorG(Rider)U.bmp
+0, 0, 0, 0, 0
+
+フレンチカンカン 
+フレンチカンカン, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Dancer).bmp
+ユニット画像=LIONG_JuniorG(Dancer)U.bmp
+0, 0, 0, 0, 0
+
+　　　　　　 
+マタドール
+マタドール, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(TouGyu).bmp
+ユニット画像=LIONG_JuniorG(Tougyu)U.bmp
+0, 0, 0, 0, 0
+
+ハートマン軍曹  　
+ハートマン軍曹, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Sergeant).bmp
+ユニット画像=LIONG_JuniorG(Sergeant)U.bmp
+0, 0, 0, 0, 0
+　　　　　　　　　　 　
+鉄人豪山セブン 
+鉄人豪山セブン, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Gosan7).bmp
+ユニット画像=LIONG_JuniorG(Gosan7)U.bmp
+0, 0, 0, 0, 0
+　　
+勉三さん 
+勉三さん, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Student).bmp
+ユニット画像=LIONG_JuniorG(Student)U.bmp
+0, 0, 0, 0, 0
+　
+新郎 
+新郎, 固定, 非表示
+特殊能力
+パイロット画像=LIONG_JuniorG(Bridegroom).bmp
+ユニット画像=LIONG_JuniorG(Bridegroom)U.bmp
+0, 0, 0, 0, 0　　　　　　
+ 
+　　　　　　　　　　　
+ 　 

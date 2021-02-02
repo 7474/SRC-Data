@@ -1,0 +1,57 @@
+シャドウミラー
+青龍鱗, 4;Charge.wav;LaserGun.wav
+白虎咬(命中), Punch(2).wav
+玄武剛弾, 3;Storm.wav;1;Storm.wav;Storm.wav
+玄武剛弾(命中), Punch.wav
+舞朱雀, Whiz.wav
+舞朱雀(命中), 6;Saber.wav;Saber.wav
+麒麟, ;5;Whiz.wav;Combo.wav
+麒麟(命中), Crash.wav
+ミラージュソード, Whiz.wav
+ミラージュソード(命中), 0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;Sword.wav
+シャドゥランサー, 2;Beam.wav;2;Beam.wav;1;Beam.wav;1;Beam.wav;Beam.wav
+シャドゥランサー(命中), 0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;0.5;Sword.wav;1;Sword.wav;Explode(Small).wav
+ミラージュサイン, Whiz.wav
+ミラージュサイン(命中), 1.5;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;4;Slash.wav;Inori.wav
+イリュージョンアロー, 2;BeamCoat.wav;Beam.wav
+イリュージョンアロー(命中), 2;Stab.wav;Explode.wav
+ファントムフェニックス, 2;BeamCoat.wav;5;Beam.wav;5;_.wav;6;Charge(high).wav;AntiShipMissile.wav
+ファントムフェニックス(命中), Crash.wav
+烈火刃, 1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;Beam.wav
+烈火刃(命中), ;1;Sword.wav;1;Sword.wav;7;Fire.wav;1;Stab.wav;Explode(Small).wav
+水流爪牙, 3;Saber.wav;Saber.wav
+地斬疾空刀, Swing.wav
+風刃閃, Whiz.wav
+風刃閃(命中), Inori.wav
+奥義・光刃閃, Whiz.wav
+奥義・光刃閃(命中), ;5;Slash.wav;Inori.wav
+奥義・光刃閃(とどめ), ;1;Swing.wav;1;Swing.wav;1;Swing.wav;Sword.wav
+重虎咬, 2;BeamCoat.wav;2;BeamCoat.wav;2;Jet.wav;2;Jet.wav;Jet.wav
+重虎咬(命中), 3;Explode.wav;3;Explode.wav;Combo.wav
+邪龍鱗,2;BeamCoat.wav;2;BeamCoat.wav;3;_.wav;Beam.wav
+邪龍鱗(命中), 2;Explode.wav;2;Explode.wav;Explode.wav
+残影玄武弾, 2;BeamCoat.wav;2;BeamCoat.wav;8;Punch(3).wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav
+残影玄武弾(命中), 3;Beam.wav;3;Beam.wav;2;Beam.wav;3;Beam.wav;5;_.wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;8;Crash.wav;Explode.wav
+闇刃閃, 8;Sword.wav;2;BeamCoat.wav;1;BeamCoat.wav;1;BeamCoat.wav;1;BeamCoat.wav;2;Jet.wav;1;Jet.wav;1;Jet.wav;1;Jet.wav;Jet.wav
+闇刃閃(命中), 2;Sword.wav;1;Sword.wav;1;Sword.wav;1;Sword.wav;3;_.wav;Slash.wav;1;Slash.wav;1;Slash.wav;0.9;Slash.wav;0.9;Slash.wav;0.9;Slash.wav;0.8;Slash.wav;0.7;Slash.wav;6;Slash.wav;Inori.wav
+麒麟・極, 2;BeamCoat.wav;2;BeamCoat.wav;10;Fire.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav;0.5;Swing.wav
+麒麟・極(命中), 3;Explode(Far).wav;2;Explode(Far).wav;2;Explode(Far).wav;2;Explode(Far).wav;2;Explode(Far).wav;3;Explode(Far).wav;Explode(Far).wav
+
+ＰＴ
+レーザーブレード(命中), Saber.wav
+ファイアダガー, GunPod.wav
+ファイアダガー(命中), GunPod.wav
+ガンレイピア, 1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav
+ガンレイピア(命中), 1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;Explode(Small).wav
+ハルバードランチャー, 3;Charge.wav;LaserGun.wav
+ハルバードランチャー(命中), 1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav
+ソードブレイカー, 3;Beam.wav;3;Beam.wav;2;Beam.wav;3;Beam.wav
+ソードブレイカー(命中), 1;Explode(Small).wav;1;Explode(Small).wav;5;Explode(Small).wav;Crash.wav
+ファランクスミサイル, FastGun.wav
+ファランクスミサイル(命中), MicroMissile.wav
+Ｆソリッドカノン, 5;Computer.wav;8;Charge.wav;AntiShipMissile.wav
+Ｆソリッドカノン(命中), Explode(Nuclear).wav
+Ｏ.Ｏ.ライフル, 1;Cannon.wav;1;Cannon.wav;1;Cannon.wav;1;Cannon.wav;2;LaserGun.wav
+Ｏ.Ｏ.ライフル(命中), 1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;1;Explode(Small).wav;Explode(Small).wav
+ソリッド・ソードブレイカー, 3;Beam.wav;3;Beam.wav;2;Beam.wav;3;Beam.wav
+ソリッド・ソードブレイカー(命中), 1;Explode(Small).wav;1;Explode(Small).wav;5;Explode(Small).wav;Crash.wav

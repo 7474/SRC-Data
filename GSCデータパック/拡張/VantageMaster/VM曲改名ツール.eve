@@ -1,0 +1,82 @@
+#使用方法はmidiに関して.txtを参照してください。
+
+
+プロローグ:
+
+
+AutoTalk
+0.1;MIDI名変更中～
+Suspend
+### ここから削除するデータを指定します ##########
+
+Set i 0
+Set 変換数 0
+
+Call リネーム２ VANMAS_Vantage.mid
+Call リネーム２ VANMAS_WorldMap.mid
+Call リネーム２ VANMAS_Win.mid
+Call リネーム２ VANMAS_Lose.mid
+Call リネーム２ VANMAS_Ending.mid
+Call リネーム２ VANMAS_NewStage.mid
+Call リネーム２ VANMAS_Charamake.mid
+Call リネーム２ VANMAS_Visual.mid
+Call リネーム２ VANMAS_Title.mid
+Call リネーム２ VANMAS_AnotherDimension.mid
+Call リネーム２ VANMAS_Highlands.mid
+Call リネーム２ VANMAS_Snowfield.mid
+Call リネーム２ VANMAS_Cave.mid
+Call リネーム２ VANMAS_Forest.mid
+Call リネーム２ VANMAS_limestoneCave.mid
+Call リネーム２ VANMAS_Sanctuary.mid
+Call リネーム２ VANMAS_Volcano.mid
+Call リネーム２ VANMAS_Maze.mid
+Call リネーム２ VANMAS_Desert.mid
+
+Quit
+
+スタート:
+Quit
+
+エピローグ:
+Exit
+
+リネーム２:
+IF i > 9 Then
+ Set 元曲名 ("Cr0" & i & "gm.mid")
+ElseIF i = 9 Then
+Incr i
+ Set 元曲名 ("Cr0" & i & "gm.mid")
+Else
+ Set 元曲名 ("Cr00" & i & "gm.mid")
+EndIf
+If (Dir(元曲名) <> "") And (Dir(Args(1)) = "") Then
+CopyFile 元曲名 Args(1)
+Incr 変換数
+EndIf
+
+
+IF i > 10 Then
+ Set 元曲名 ("vm" & i & ".mid")
+ElseIF i = 9 Then
+Incr i
+ Set 元曲名 ("vm" & i & ".mid")
+Else
+ Set 元曲名 ("vm0" & i & ".mid")
+EndIf
+If (Dir(元曲名) <> "") And (Dir(Args(1)) = "") Then
+CopyFile 元曲名 Args(1)
+Incr 変換数
+EndIf
+
+Incr i
+
+If 変換数 > 0 Then
+AutoTalk システム
+0.1;MIDI名変更中～ $(変換数)曲変更しました
+Suspend
+Else
+AutoTalk システム
+該当するMIDIがありません。フォルダ構造を確認してください
+End
+Endif
+Return

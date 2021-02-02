@@ -1,0 +1,28 @@
+
+*変形 Unit(デカレッド) 特捜戦隊デカレンジャー・ＳＷＡＴモード:
+Set デカレンＳＷＡＴ中ですよ 1
+ReplacePilot デカレッド デカレッド・ＳＷＡＴモード
+ReplacePilot デカブルー デカブルー・ＳＷＡＴモード
+ReplacePilot デカグリーン デカグリーン・ＳＷＡＴモード
+ReplacePilot デカイエロー デカイエロー・ＳＷＡＴモード
+ReplacePilot デカピンク デカピンク・ＳＷＡＴモード
+Exit
+
+*変形 Unit(デカレッド・ＳＷＡＴモード) 特捜戦隊デカレンジャー:
+Set デカレンＳＷＡＴ中ですよ 0
+ReplacePilot デカレッド・ＳＷＡＴモード デカレッド
+ReplacePilot デカブルー・ＳＷＡＴモード デカブルー
+ReplacePilot デカグリーン・ＳＷＡＴモード デカグリーン
+ReplacePilot デカイエロー・ＳＷＡＴモード デカイエロー
+ReplacePilot デカピンク・ＳＷＡＴモード デカピンク
+Exit
+
+*エピローグ:
+If デカレンＳＷＡＴ中ですよ = 1 Then
+ ReplacePilot デカレッド・ＳＷＡＴモード デカレッド
+ ReplacePilot デカブルー・ＳＷＡＴモード デカブルー
+ ReplacePilot デカグリーン・ＳＷＡＴモード デカグリーン
+ ReplacePilot デカイエロー・ＳＷＡＴモード デカイエロー
+ ReplacePilot デカピンク・ＳＷＡＴモード デカピンク
+Endif
+Exit

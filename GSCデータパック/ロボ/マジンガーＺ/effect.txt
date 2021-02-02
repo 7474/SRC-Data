@@ -1,0 +1,236 @@
+マジンロボ
+冷凍光線,                       Beam.wav
+冷凍光線(クリティカル),         Glass.wav
+ドリルミサイル,                 5;Reload.wav;10;MultipleRocketLauncher(Light).wav
+ドリルミサイル(命中),           2;Drill.wav;2;Drill.wav;5;Drill.wav
+ミサイルパンチ(命中),           Explode.wav
+サザンクロスナイフ,             2;Sword.wav;2;Sword.wav;2;Sword.wav
+サザンクロスナイフ(命中),       2;Slash.wav;2;Slash.wav;2;Slash.wav
+スクランダーカッター,           Jet.wav
+ロケットパンチ,                 Missile.wav
+アイアンカッター,               10;Missile.wav;3;Sword.wav
+アイアンカッター(命中),         Slash.wav
+大車輪ロケットパンチ,           5;Swing.wav;5;Swing.wav;5;Swing.wav;4;Swing.wav;3;Swing.wav;2;Swing.wav;1;Swing.wav;Missile.wav
+全開ブレストファイヤー,         2;Charge.wav;2;Charge.wav;12;Charge(long).wav
+ブレストファイヤー,             2;Charge.wav;2;Charge.wav;12;Charge(long).wav
+スペシャルボロットパンチ,       5;Swing.wav;4;Swing.wav;3;Swing.wav;2;Swing.wav;1;Swing.wav
+スペシャルDXボロットパンチ,     5;Swing.wav;5;Swing.wav;5;Swing.wav;4;Swing.wav;3;Swing.wav;2;Swing.wav;1;Swing.wav
+
+
+
+ピグマン子爵
+分身,                         6;Charge(long).wav
+妖術(命中),                   Inori.wav
+大風,                         Storm.wav
+槍投げ,                       Whiz.wav
+槍投げ(命中),                 Stab.wav
+
+
+
+機械獣
+イオン光線(クリティカル),     Shower.wav
+ウルトラマグネチックパワー,   LaserGun.wav
+ウルトラマグネチックパワー(クリティカル),         Hide.wav
+怪力,                         3;Swing.wav;2;Swing.wav;1;Swing.wav
+怪力(命中),                   Punch(2).wav
+ハンドミサイル,               MultipleRocketLauncher.wav
+回転角,                       Drill.wav
+回転角(命中),                 Drill.wav
+火炎光線(命中),               Fire.wav
+手裏剣,                       2;Sword.wav;2;Sword.wav;2;Sword.wav
+手裏剣(命中),                 2;Slash.wav;2;Slash.wav;2;Slash.wav
+分銅,                         5;Swing.wav;4;Swing.wav;3;Swing.wav;2;Swing.wav;1;Swing.wav;5;Whiz.wav
+分銅(命中),                   Crash.wav
+イカルスファイヤー,           Breath.wav
+イカルスファイヤー(命中),     Fire.wav
+スピア(命中),                 Stab.wav
+ドリル,                       Drill.wav
+火炎ミサイル(命中),           Fire.wav
+熱線,                         Charge.wav
+胸部隠しドリル,               Drill.wav
+膝部隠しドリル,               Drill.wav
+頭部ドリル,                   Drill.wav
+煙幕,                         Hide.wav
+煙幕(命中),                   NonSound.wav
+脚部隠しミサイル(命中),       Explode.wav
+電撃,                         Thunder.wav
+電撃ニードル,                 Swing.wav
+電撃ニードル(命中),           Stab.wav
+電撃ニードル(クリティカル),   Thunder.wav
+核爆弾,                       Explode(Nuclear).wav
+核爆弾(命中),                 Explode.wav
+マニュピレータ回転攻撃,       Drill.wav
+マニュピレータ回転攻撃(命中), Drill.wav
+頭部カッター(命中),           Slash.wav
+超音波砲,                     3;Charge(high).wav
+津波誘発光線,                 10;LaserGun.wav;10;Splash.wav
+津波誘発光線(命中),           Splash.wav
+頭部高熱板,                   10;BeamSaber.wav;5;Swing.wav
+電撃触手,                     NonSound.wav
+電撃触手(命中),               Whip.wav
+電撃触手(クリティカル),       Thunder.wav
+溶解光線(クリティカル),       Shower.wav
+超音波,                       3;Charge(high).wav
+ニードル,                     Swing.wav
+ニードル回転キック,           Drill.wav
+ニードル回転キック(命中),     Drill.wav
+電磁舌,                       NonSound.wav
+電磁舌(命中),                 Whip.wav
+伸縮腕,                       Swing.wav
+伸縮腕(命中),                 Punch.wav
+電磁網,                       Whiz.wav
+ナパーム弾,                   2;Bomb.wav;2;Bomb.wav;2;Bomb.wav
+ライジングサン,               2;Swing.wav;2;Swing.wav;3;Swing.wav
+ライジングサン(命中),         Saber.wav
+大型ドリル,                   Drill.wav
+音波光線,                     3;Charge(high).wav
+妨害電波,                     Hide.wav
+ミラー光線(クリティカル),     Glass.wav
+酸化風,                       Storm.wav
+小型水爆,                     10;Missile.wav;20;Explode(Nuclear).wav
+小型水爆(命中),               Explode.wav
+ろくろ首,                     3;Swing.wav;3;Swing.wav;3;Swing.wav
+舌(命中),                     Whip.wav
+隠し腕,                       5;Whiz.wav;5;Whiz.wav
+太陽エネルギー光線,           Charge.wav
+磁力板,                       3;Swing.wav;3;Swing.wav;3;Swing.wav
+磁力板(クリティカル),         Hide.wav
+ギロチン(命中),               Slash.wav
+ミサイルシャワー,             MicroMissile.wav
+ミサイルシャワー(命中),       Explode.wav
+催眠光線(クリティカル),       Inori.wav
+回転ノコギリ,                 7;Drill.wav;2;Swing.wav;2;Swing.wav
+回転ノコギリ(命中),           Drill.wav
+円盤,                         7;BeamSaber.wav;5;Swing.wav
+翼カッター,                   Jet.wav
+翼カッター(命中),             Slash.wav
+目眩まし光線,                 Flair.wav
+巨大ローター,                 Drill.wav
+巨大ローター(命中),           2;Drill.wav;2;Drill.wav;7;Drill.wav
+ブラックレーザービーム,       5;BeamSaber.wav;5;BeamSaber.wav;5;BeamSaber.wav;10;LaserGun.wav
+雪車カッター,                 Jet.wav
+電撃ヘルメット,               Swing.wav
+電撃ヘルメット(命中),         Thunder.wav
+大型回転カッター,             2;Drill.wav;2;Drill.wav;7;Drill.wav
+大型回転カッター(命中),       2;Slash.wav;2;Slash.wav;2;Slash.wav
+槍(命中),                     Stab.wav
+巨大アーム,                   Whiz.wav
+巨大アーム(命中),             Punch.wav
+マリオンＰ１,                 Missile.wav
+マリオンＰ１(命中),           Punch.wav
+マリオンＰ２,                 Missile.wav
+マリオンＰ２(命中),           Punch.wav
+頭部触手,                     2;Whiz.wav;2;Whiz.wav;3;Whiz.wav
+頭部触手(命中),               2;Stab.wav;2;Stab.wav;3;Stab.wav
+腐食光線(クリティカル),       Shower.wav
+一角,                         BeamSaber.wav
+一角(命中),                   Stab.wav
+羽根爆弾,                     2;Swing.wav;2;Swing.wav;2;Swing.wav
+羽根爆弾(命中),               2;Stab.wav;2;Stab.wav;5;Stab.wav;12;LaserGun.wav;3;Explode.wav;3;Explode.wav;10;Explode.wav
+コバルト爆弾,                 Explode(Nuclear).wav
+スーパー爆薬,                 Explode(Nuclear).wav
+３本の腕(命中),               Punch(3).wav
+火炎体当たり,                 Fire.wav
+小型ポセス,                   5;AntiShipMissile.wav;5;AntiShipMissile.wav;10;AntiShipMissile.wav
+小型ポセス(命中),             3;Explode.wav;3;Explode.wav;10;Explode.wav
+シェル(命中),                 Sword.wav
+鉄十字手裏剣,                 2;Sword.wav;2;Sword.wav;2;Sword.wav
+鉄十字手裏剣(命中),           2;Slash.wav;2;Slash.wav;2;Slash.wav
+火炎弾(命中),                 Fire.wav
+吸収筒,                       Storm.wav
+吸収筒(命中),                 NonSound.wav
+鎖アンカー(命中),             Stab.wav
+キック(命中),                 Punch(3).wav
+尻尾(命中),                   Whip.wav
+
+
+機械獣デイモスＦ３
+分身,                         Shock(Low).wav
+
+機械獣ベルガスＶ５
+分身,                         Shock(Low).wav
+分離攻撃,                     5;Shock(Low).wav;2;Missile.wav;2;Missile.wav;2;Missile.wav;10;Missile.wav
+分離攻撃(命中),               6;Punch(2).wav;7;Drill.wav
+
+機械獣ダムダムＬ２
+分身,                         Shock(Low).wav
+分離攻撃,                     5;Shock(Low).wav;3;Swing.wav;3;Swing.wav
+分離攻撃(命中),               5;Drill.wav;5;Drill.wav;5;Charge.wav
+体当たり,                     20;Engine.wav
+
+機械獣エアロスＢ２
+攻撃無効化,                   Storm.wav
+ビーム無効化,                 Storm.wav
+
+機械獣ヘッドホークＭ３
+翼部カッター,                 Jet.wav
+翼部カッター(命中),           Slash.wav
+頭部カッター,                 Missile.wav
+頭部カッター(命中),           Slash.wav
+
+機械獣デスマＡ１
+攻撃無効化,                   Glass.wav
+ビーム無効化,                 Glass.wav
+
+機械獣ブリーバーＡ３
+分身,                         Shock(Low).wav
+攻撃無効化,                   BeamCoat.wav
+ビーム無効化,                 BeamCoat.wav
+
+機械獣ジェイサーＪ１
+攻撃無効化,                   Drill.wav
+ビーム無効化,                 Drill.wav
+
+機械獣ナイターンＯ３
+頭部カッター,                 Swing.wav
+
+機械獣スケルトンＯ７
+分身,                         Shock(Low).wav
+
+妖機械獣ミノスΜ７
+分身,                         6;Charge(long).wav
+
+妖機械獣ユニコーン∑２
+阻止,                         LaserGun.wav
+
+妖機械獣アポロンΑ１
+攻撃無効化,                   Fire.wav
+ビーム無効化,                 Fire.wav
+
+妖機械獣サーペンターΙ６
+阻止,                         Slash.wav
+
+妖機械獣ドラゴΩ１
+分身,                         Shock(Low).wav
+
+機械獣キケロスＮ９
+攻撃無効化,                   Storm.wav
+ビーム無効化,                 Storm.wav
+
+機械獣クラバスＰ９
+攻撃無効化,                   Storm.wav
+ビーム無効化,                 Storm.wav
+
+ラインＸ１
+反射,                         Storm.wav
+速射式ミサイル,               MicroMissile.wav
+
+
+
+司令メカ
+フィンガーバリヤー,           Thunder.wav
+ゴードンファイアー,           Breath.wav
+ゴードンファイアー(命中),     Fire.wav
+フィンガーショック,           Beam.wav
+ゴードンサイクロンファイアー(命中),   Fire.wav
+
+
+
+結合獣ボング
+ハンドドリル,                 Drill.wav
+
+
+
+大海獣ドラゴノザウルス
+マリンヴォルテクス,           3;Charge(high).wav
+触手,                         2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;3;Whiz.wav

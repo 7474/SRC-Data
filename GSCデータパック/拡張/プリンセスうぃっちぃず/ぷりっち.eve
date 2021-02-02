@@ -1,0 +1,72 @@
+@プリンセスうぃっちぃず
+
+ターン 1 味方:
+
+
+If 委員長(魔女っ子) Then
+ 
+Switch Random(3)
+
+
+
+Case 1
+Wait 5
+Transform 委員長(魔女っ子) 委員長＆ハムチュウ(魔女っ子・火)
+
+
+
+Case 2
+Wait 5
+Transform 委員長(魔女っ子) 委員長＆ハムチュウ(魔女っ子・水)
+
+
+Case 3
+Wait 5
+Transform 委員長(魔女っ子) 委員長＆ハムチュウ(魔女っ子・雷)
+
+Case Else
+	
+EndSw
+
+Else
+  exit
+EndIf
+ClearEvent
+exit
+ClearEvent
+
+ターン 全 味方:
+
+
+If 委員長(魔女っ子) Then
+ 
+Switch Random(3)
+
+
+
+Case 1
+Wait 5
+Transform 委員長(魔女っ子) 委員長＆ハムチュウ(魔女っ子・火)
+
+
+
+Case 2
+Wait 5
+Transform 委員長(魔女っ子) 委員長＆ハムチュウ(魔女っ子・水)
+
+
+Case 3
+Wait 5
+Transform 委員長(魔女っ子) 委員長＆ハムチュウ(魔女っ子・雷)
+
+Case Else
+	
+EndSw
+
+Else
+  exit
+EndIf
+
+exit
+
+

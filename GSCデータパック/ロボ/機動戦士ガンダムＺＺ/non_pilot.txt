@@ -1,0 +1,214 @@
+#パイロット省略表記---------------------------------------------------------------------
+
+ヤザン(壊)
+ヤザン, G0088_YazzanGable(B).bmp
+
+#パイロット表情集-----------------------------------------------------------------------
+
+#ジュドー#
+ジュドー＝アーシタ(攻撃)
+ジュドー, G0088_JudoAshita(A).bmp
+ジュドー(攻撃)
+ジュドー, G0088_JudoAshita(A).bmp
+
+ジュドー＝アーシタ(ダメージ)
+ジュドー, G0088_JudoAshita(D).bmp
+ジュドー(ダメージ)
+ジュドー, G0088_JudoAshita(D).bmp
+
+ジュドー＝アーシタ(通常)
+ジュドー, G0088_JudoAshita(N)(4).bmp
+ジュドー(通常)
+ジュドー, G0088_JudoAshita(N)(4).bmp
+
+ジュドー＝アーシタ(通常)(攻撃)
+ジュドー, G0088_JudoAshita(N)(A)(2).bmp
+ジュドー(通常)(攻撃)
+ジュドー, G0088_JudoAshita(N)(A)(2).bmp
+
+#ルー#
+ルー＝ルカ(通常)
+ルー, G0088_RouxRouka(N).bmp
+
+#イーノ#
+イーノ＝アッバーブ(通常)
+イーノ, G0088_InoAbbav(N)(2).bmp
+イーノ(通常)
+イーノ, G0088_InoAbbav(N)(2).bmp
+
+#エル#
+エル＝ビアンノ(通常)
+エル, G0088_ElleVianno(N)(3).bmp
+エル(通常)
+エル, G0088_ElleVianno(N)(3).bmp
+
+エル＝ビアンノ(通常)(攻撃)
+エル, G0088_ElleVianno(N)(Atack).bmp
+
+エル＝ビアンノ(通常)(ダメージ)
+エル, G0088_ElleVianno(N)(Damage).bmp
+
+エル＝ビアンノ(通常)(回避)
+エル, G0088_ElleVianno(N)(Escape).bmp
+
+#ビーチャ#
+ビーチャ＝オーレグ(通常)
+ビーチャ, G0088_BeachaOleag(N)(4).bmp
+ビーチャ(通常)
+ビーチャ, G0088_BeachaOleag(N)(4).bmp
+
+#モンド#
+モンド＝アガケ(通常)
+モンド, G0088_MondoAgake(N)(3).bmp
+モンド(通常)
+モンド, G0088_MondoAgake(N)(3).bmp
+
+#プル#
+エルピー＝プル(攻撃)
+プル, G0088_ElpeoPle(A).bmp
+プル(攻撃)
+プル, G0088_ElpeoPle(A).bmp
+
+エルピー＝プル(ダメージ)
+プル, G0088_ElpeoPle(D).bmp
+プル(ダメージ)
+プル, G0088_ElpeoPle(D).bmp
+
+エルピー＝プル(回避)
+プル, G0088_ElpeoPle(E).bmp
+プル(回避)
+プル, G0088_ElpeoPle(E).bmp
+
+エルピー＝プル(怒り)
+プル, G0088_ElpeoPle(Angry).bmp
+
+エルピー＝プル(チョコパフェ)
+プル, G0088_ElpeoPle(Eat).bmp
+
+エルピー＝プル(ときめき)
+プル, G0088_ElpeoPle(Heart).bmp
+
+エルピー＝プル(キス)
+プル, G0088_ElpeoPle(Kiss).bmp
+
+エルピー＝プル(喜び)
+プル, G0088_ElpeoPle(Pleasure).bmp
+
+エルピー＝プル(サイコミュ)
+プル, G0088_ElpeoPle(Psy).bmp
+
+エルピー＝プル(激怒)
+プル, G0088_ElpeoPle(Rage).bmp
+
+エルピー＝プル(すねる)
+プル, G0088_ElpeoPle(Sulky).bmp
+
+エルピー＝プル(思案)
+プル, G0088_ElpeoPle(Think).bmp
+
+#プルツー#
+プルツー(攻撃)
+プルツー, G0088_PleTwo(A).bmp
+
+プルツー(ダメージ)
+プルツー, G0088_PleTwo(D).bmp
+
+プルツー(回避)
+プルツー, G0088_PleTwo(E).bmp
+
+#ハマーン様#
+ハマーン＝カーン(冠)
+ハマーン, G0088_HamaanKhan(C).bmp
+ハマーン(冠)
+ハマーン, G0088_HamaanKhan(C).bmp
+
+ハマーン＝カーン(幼少)
+ハマーン, G0088_HamaanKhan(Y).bmp
+ハマーン(幼少)
+ハマーン, G0088_HamaanKhan(Y).bmp
+
+#マシュマー#
+マシュマー(強化)
+マシュマー, G0088_MashmaSerro(2).bmp
+
+マシュマー＝セロ(攻撃)
+マシュマー, G0088_MashmaSerro(A).bmp
+マシュマー(攻撃)
+マシュマー, G0088_MashmaSerro(A).bmp
+
+マシュマー＝セロ(笑い)
+マシュマー, G0088_MashmaSerro(L).bmp
+マシュマー(笑い)
+マシュマー, G0088_MashmaSerro(L).bmp
+
+#キャラ#
+キャラ＝スーン(メイク無し)
+キャラ, G0088_CharaSoon(NonMake).bmp
+
+キャラ＝スーン(再強化)
+キャラ, G0088_CharaSoon(Reinforced).bmp
+
+#ヤザン#
+ヤザン＝ゲーブル(壊)(攻撃)
+ヤザン, G0088_YazzanGable(BA).bmp
+ヤザン(壊)(攻撃)
+ヤザン, G0088_YazzanGable(BA).bmp
+
+ヤザン＝ゲーブル(壊)(ダメージ)
+ヤザン, G0088_YazzanGable(BD).bmp
+ヤザン(壊)(ダメージ)
+ヤザン, G0088_YazzanGable(BD).bmp
+
+#ノンパイロット-------------------------------------------------------------------------
+
+エマリー＝オンス
+エマリー, G0088_EmilyOunce.bmp
+
+ハマーン様のバラ
+ハマーン様のバラ, G0088_Hamaan'sRose.bmp
+
+ミネバ＝ラオ＝ザビ
+ミネバ, G0088_MinevaLaoZabi.bmp
+ミネバ＝ザビ
+ミネバ, G0088_MinevaLaoZabi.bmp
+
+ミリィ＝チルダー
+ミリィ, G0088_MillieChilder.bmp
+
+アマサ＝ポーラ
+アマサ, G0088_AmasaPaula.bmp
+
+セシリア(ＺＺ)(涙)
+セシリア, G0088_Cecilia(Tear).bmp
+
+ディドー＝カルトハ
+ディドー, G0088_DidoKartkha.bmp
+
+カラハン(ＺＺ)
+カラハン, G0088_Karakhan.bmp
+
+ラサラ(ＺＺ)
+ラサラ, G0088_Lasala.bmp
+
+メッチャー＝ムチャ
+メッチャー, G0088_MetcharMucha.bmp
+
+ニキ(ＺＺ)
+ニキ, G0088_Niki.bmp
+
+サラサ(ＺＺ)
+サラサ, G0088_Salasa.bmp
+
+サトウ(ＺＺ)
+サトウ, G0088_Satou.bmp
+
+スタンパ＝ハロイ
+スタンパ, G0088_StampaHalloi.bmp
+
+#パイロット化予定-----------------------------------------------------------------------
+
+エロ＝メロエ
+メロエ, G0088_EloMeloe.bmp
+
+マサイ＝ンガバ
+マサイ, G0088_MasaieNggaba.bmp

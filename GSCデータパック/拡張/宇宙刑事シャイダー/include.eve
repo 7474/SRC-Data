@@ -1,0 +1,106 @@
+## 不思議時空で巨大化する不思議獣のアニメ。
+## 降下アップの改変。
+
+戦闘アニメ_不思議獣全身巨大化攻撃:
+Local i
+Local BMP_FILE
+
+Set BMP_FILE _GetBmpFromArgs()
+Set G_S _GetName(192,_GetNumberFromArgs())
+Set N_Y (48 - G_S)
+Set Y_F (((192 - (G_S \ 2)) - N_Y) \ 6)
+
+Center x(相手ユニットＩＤ) (y(相手ユニットＩＤ) - 3)
+wait 4
+PlaySound Roar.wav
+
+Wait Start
+For i = 1 To 7
+  PaintPicture BMP_FILE - N_Y 192 192 透過
+  Refresh
+  Wait Until (0.8 * i)
+  If ((A_F != 1) And (i < 7) And (S_FLG != 1)) Then
+    Set T_Y N_Y
+    If ((N_Y + G_S) > 380) Then
+      Set T_GS (380 - N_Y)
+    Else
+      Set T_GS G_S
+    EndIf
+  EndIf
+  Incr N_Y Y_F
+Next
+
+ClearPicture
+
+PaintPicture BMP_FILE (240 - (192 \ 2)) (192 - (192 \ 2)) 192 192 透過 保持
+Refresh
+
+Return
+
+
+
+## 召喚で、相手ユニットの画像を呼び出すためのラベル。
+## 不思議獣コンコンのユメコン攻撃用。
+
+戦闘アニメ_ユメコン召喚準備:
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Local i
+Local BMP_FILE = Info(相手ユニットＩＤ,グラフィック)
+Local UNIT_FILE = _GetBMPName(UID)
+Local G_S = _GetPicSizeFromArgs()
+Local C_X = (_Get_WX(UID) + 16 - (G_S \ 2))
+Local C_Y = (_Get_WY(UID) + 16 - (G_S \ 2))
+Local DRCT
+Local C_S
+Local X_F
+Local T_COL1 = _ColorTime(1)
+
+
+If (_Get_X(UID) > _Get_X(相手ユニットＩＤ)) Then
+  Set DRCT ""
+Else
+  Set DRCT "左右反転"
+EndIf
+Wait Start
+_SelectSound "-.wav" _GetWavFromArgs()
+
+For i = 1 To 12
+  ClearPicture
+
+  Switch i
+  Case 1
+    PaintPicture BMP_FILE (C_X - G_S) (C_Y + (G_S * 0.666)) (G_S * 3) (G_S \ 3) _
+                 透過 DRCT 暗 暗 暗 暗 暗 T_COL1
+  Case 2
+    PaintPicture BMP_FILE (C_X - (G_S \ 2)) (C_Y + (G_S \ 2)) (G_S * 2) (G_S \ 2) _
+                 透過 DRCT 暗 暗 暗 暗 T_COL1
+  Case 3
+    PaintPicture BMP_FILE (C_X - (G_S \ 4)) (C_Y + (G_S * 0.33)) (G_S * 1.5) (G_S \ 1.5) _
+                 透過 DRCT 暗 暗 暗 T_COL1
+  Case 4
+    PaintPicture BMP_FILE C_X C_Y G_S G_S 透過 DRCT 暗 暗 T_COL1
+  Case 5
+    PaintPicture BMP_FILE C_X C_Y G_S G_S 透過 DRCT 暗 T_COL1
+  Case 6
+    PaintPicture BMP_FILE C_X C_Y G_S G_S 透過 DRCT 明 T_COL1
+  Case 7
+    PaintPicture BMP_FILE C_X C_Y G_S G_S 透過 DRCT 明 明 明 T_COL1
+  Case 8 9
+    PaintPicture BMP_FILE C_X C_Y G_S G_S 透過 DRCT 明 明 明 明 明 T_COL1
+  Case 10
+    PaintPicture BMP_FILE C_X C_Y G_S G_S 透過 DRCT 明 明 明 T_COL1
+  Case 11
+    PaintPicture BMP_FILE C_X C_Y G_S G_S 透過 DRCT 明 T_COL1
+  Case 12
+    PaintPicture BMP_FILE C_X C_Y G_S G_S 透過 DRCT T_COL1
+  EndSw
+  Refresh
+  Wait Until (i * 0.5)
+Next
+Wait 2
+Return "Keep"
+
+

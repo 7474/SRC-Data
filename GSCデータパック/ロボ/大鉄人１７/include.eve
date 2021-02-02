@@ -1,0 +1,173 @@
+# ワンセブン・レッドマフラー隊 ###################################################
+
+戦闘アニメ_グラビトン(ワンセブン)とどめ:
+
+	Local i
+
+	Center 相手ユニットＩＤ
+
+	For j = 1 To 2
+		_SelectSound "Explode(Far).wav" _GetWavFromArgs()
+		Wait Start
+		For i = 1 To 2
+			_PaintCutinL ("Explode\EFFECT_BigExplode0" & i & ".bmp") 反転なし
+			Wait Until (i * 0.7)
+		Next
+		Wait 3
+
+		Wait Start
+		For i = 1 To 1
+			_PaintCutinL ("Explode\EFFECT_BigExplode0" & i & ".bmp") 反転なし
+			Wait Until (i * 0.7)
+		Next
+		ClearPicture
+		Refresh
+		Wait 5
+	Next
+
+	_SelectSound "Explode(Far).wav" _GetWavFromArgs()
+	Wait Start
+	For i = 1 To 6
+		_PaintCutinL ("Explode\EFFECT_BigExplode0" & i & ".bmp") 反転なし
+		Wait Until (i * 0.7)
+	Next
+
+	_PaintCutin_SL "Explode\EFFECT_BigExplode06.bmp" 反転なし 120 64
+	Wait Until 4.8
+	_PaintCutin_SL "Explode\EFFECT_BigExplode06.bmp" 反転なし 160 48
+	Wait Until 5.4
+
+	ClearPicture
+	Refresh
+Return
+
+
+#-----------------------------------------------------------#
+#   使用方法                                                #
+#   Call ワンセブン_グラビトン攻撃 メッセージ Ｘ座標 Ｙ座標 #
+#-----------------------------------------------------------#
+ワンセブン_グラビトン攻撃:
+	AutoTalk 大鉄人１７(グラビトン01) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン02) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン03) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン04) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン05) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン06) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン07) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン08) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン09) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン10) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン11) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン12) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン13) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン14) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン10) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(グラビトン09) Args(2) Args(3)
+	1;$(Args(1))
+	End
+Return
+
+
+
+#-----------------------------------------------------------#
+#   使用方法                                                #
+#   Call ワンセブン_Ｙｅｓ メッセージ Ｘ座標 Ｙ座標         #
+#-----------------------------------------------------------#
+ワンセブン_Ｙｅｓ:
+	AutoTalk 大鉄人１７(Yes01) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes02) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes03) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes04) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes05) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes06) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes07) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes08) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes09) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes07) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes08) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes09) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes07) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes08) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes09) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(Yes06) Args(2) Args(3)
+	1;$(Args(1))
+	End
+Return
+
+
+
+#-----------------------------------------------------------#
+#   使用方法                                                #
+#   Call ワンセブン_Ｎｏ メッセージ Ｘ座標 Ｙ座標           #
+#-----------------------------------------------------------#
+ワンセブン_Ｎｏ:
+	AutoTalk 大鉄人１７(No01) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No02) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No03) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No04) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No05) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No06) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No07) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No08) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No09) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No10) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No11) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No12) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No10) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No11) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No12) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No10) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No11) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No12) Args(2) Args(3)
+	1;$(Args(1))
+	AutoTalk 大鉄人１７(No09) Args(2) Args(3)
+	1;$(Args(1))
+	End
+Return

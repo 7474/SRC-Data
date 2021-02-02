@@ -1,0 +1,784 @@
+
+#以下のアイコンは丸投げ画像パックに収録されているものを使用しています
+#EFFECT_DMD_Aeon'sGun.bmp
+#EFFECT_DMD_BowOfSirius.bmp
+#EFFECT_DMD_Cthugha.bmp
+#EFFECT_DMD_Ithaqua.bmp
+#EFFECT_DMD_Liogor&Zhar.bmp
+#EFFECT_DMD_LordByakhee'sRifle.bmp
+#EFFECT_DMD_ScimitarOfBarzai(Open).bmp
+#EFFECT_DMD_ScimitarOfBarzai(Spin).bmp
+#EFFECT_DMD_ScimitarOfBarzai.bmp
+#EFFECT_DMD_ShiningTrapezohedron.bmp
+#EFFECT_DMD_SwordOfGoldCross(Extend).bmp
+#EFFECT_DMD_SwordOfGoldCross.bmp
+
+鬼械神
+分身(ニトクリスの鏡), ダミー Glass.wav ニトクリスの鏡
+分身(疫病の黒風), 画像指定分離回避 疫病の黒風 分離画像="Common\EFFECT_ParticleSwooth(Black)01.bmp"="Common\EFFECT_ParticleSwooth(Black)01.bmp"="Common\EFFECT_ParticleSwooth(Black)01.bmp" Zapper.wav
+分身(血の水面に魅入る、写せ), 粒子集中 赤 Splash.wav;画像指定分離回避 血の水面に魅入る、写せ 分離画像=Info(ユニットデータ,鬼械神デモンベイン・ブラッド,グラフィック)=Info(ユニットデータ,鬼械神デモンベイン・ブラッド,グラフィック)=Info(ユニットデータ,鬼械神デモンベイン・ブラッド,グラフィック)=Info(ユニットデータ,鬼械神デモンベイン・ブラッド,グラフィック) -.wav
+## デモンベイン＆デモンベイン・トゥーソード
+アトランティスストライク(準備), 光噴出 緑 Charge.wav
+アトランティスストライク(攻撃), スーパーキック 緑
+アトランティスストライク(命中), スーパーキック 緑 Explode(High).wav
+アトランティスストライク(解説), $(ユニット)はアトランティス・ストライクで攻撃をかけた。
+レムリア・インパクト(準備), 粒子集中 緑;魔法陣 緑 背面
+レムリア・インパクト(攻撃), スーパーパンチ 緑
+レムリア・インパクト(命中), スーパーパンチ 緑 Crash.wav;3;レムリア・インパクト
+レムリア・インパクト(とどめ), レムリア・インパクト 結界なし
+レムリア・Ｄ・インパクト(準備), 粒子集中 緑;魔法陣 緑 背面
+レムリア・Ｄ・インパクト(攻撃), ＭＡＰ移動タックル 緑 Whiz(2).wav
+レムリア・Ｄ・インパクト(命中), レムリア・インパクト;超大爆発 緑 Explode(Nuclear).wav
+レムリア・Ｄ・インパクト(解説), $(ユニット)はレムリア・ディレイ・インパクトで攻撃をかけた。
+アトラック＝ナチャ(準備), 粒子集中 ピンク
+アトラック＝ナチャ(攻撃), ヘッドバット;多触手 ピンク
+アトラック＝ナチャ(命中), 多触手 ピンク;魔法陣 ピンク BeamSaber.wav
+バルザイの偃月刀(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 赤 Breath.wav;2;振る武器 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 Reload(2).wav
+バルザイの偃月刀(攻撃), 振る武器突撃 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 -.wav;斬撃 赤 Swing(2).wav
+バルザイの偃月刀(命中), 炎斬撃 MultipleRocketLauncher(Light).wav
+偃月刀投擲(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 赤 Breath.wav;2;振る武器 "Weapon\EFFECT_DMD_ScimitarOfBarzai(Open).bmp" 48 Reload.wav
+偃月刀投擲(攻撃), 回転投擲武器 "Weapon\EFFECT_DMD_ScimitarOfBarzai(Spin).bmp" 速
+偃月刀投擲(命中), 光回転斬撃 中 赤 Drill.wav
+二挺魔銃(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 赤 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 青 二刀流;別武器二丁拳銃 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32
+二挺魔銃(攻撃), 別武器二丁拳銃連射 画像ファイル="Weapon\EFFECT_DMD_Cthugha.bmp"="Weapon\EFFECT_DMD_Ithaqua.bmp"="ShootAnime\EFFECT_ChainGunShot(Red)01.bmp"="ShootAnime\EFFECT_ChainGunShot(Blue)01.bmp" 画像サイズ=32=32=64=64
+二挺魔銃(命中), 点連打 黄 Explode.wav
+クトゥグア爆裂弾(準備), 射撃武器粒子集中召喚 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 赤;射撃武器 "Weapon\EFFECT_DMD_Cthugha.bmp" 32
+クトゥグア爆裂弾(攻撃), 手持ち発射 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 対象ユニットＩＤ "Fire\EFFECT_FlameThrowerHit(Red)06.bmp" 32 Bazooka.wav
+クトゥグア爆裂弾(命中), 超爆発 赤 Explode(Nuclear).wav
+イタクァ追尾弾(準備), 射撃武器粒子集中召喚 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 青;射撃武器 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32
+イタクァ追尾弾(攻撃), 拡散ビームライフル "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 青
+イタクァ追尾弾(命中), ホーミングレーザー 青 Glass.wav
+クトゥグア神獣弾(準備), 射撃武器粒子集中召喚 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 赤;発光 赤;@戦闘アニメ_デフォルト攻撃 Reload.wav;3;射撃武器 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 Flair.wav
+クトゥグア神獣弾(攻撃), 銃撃武器 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 "Beam2\EFFECT_BeamShotGun(Red)03.bmp" 64 Bazooka.wav 大;1;実弾発射 "Animal\EFFECT_Tiger(Red)01.bmp" 40 Roar.wav 発光 遅 残像
+#クトゥグア神獣弾(攻撃), 銃撃武器 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 "Beam2\EFFECT_BeamShotGun(Red)03.bmp" 64 Bazooka.wav 大;1;実弾発射 Info(ユニットデータ,ページモンスター・クトゥグア,グラフィック) 32 Roar.wav 発光 遅 残像
+クトゥグア神獣弾(命中), Breath.wav;超ビーム 赤 -.wav;超大爆発 赤 HyperExplode.wav
+イタクァ神獣弾(準備),射撃武器粒子集中召喚 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 青;発光 青;@戦闘アニメ_デフォルト攻撃 Reload.wav;3;射撃武器 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 Flair.wav
+イタクァ神獣弾(攻撃), 銃撃武器 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 "Beam2\EFFECT_BeamShotGun(Blue)03.bmp" 64 Bazooka.wav 大;1;実弾発射 "Creature\EFFECT_ChineseDragon(White)01.bmp" 40 Flash.wav 発光 遅 残像
+#イタクァ神獣弾(攻撃), 銃撃武器 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 "Beam2\EFFECT_BeamShotGun(Blue)03.bmp" 64 Bazooka.wav 大;1;実弾発射 Info(ユニットデータ,ページモンスター・イタクァ,グラフィック) 32 Flash.wav 発光 遅 残像
+#MultipleRocketLauncher(Light).wav
+イタクァ神獣弾(命中), 超ビーム 白 Freeze.wav;魔法集中 白 Ice.wav;凍結 -.wav
+神獣弾同時撃ち(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 赤 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 青 二刀流;発光 赤;@戦闘アニメ_デフォルト攻撃 Reload.wav;2;発光 青;@戦闘アニメ_デフォルト攻撃 Reload.wav;2;別武器二丁拳銃 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 Flair.wav
+神獣弾同時撃ち(攻撃), 銃撃武器 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 "Beam2\EFFECT_BeamShotGun(Blue)03.bmp" 64 Bazooka.wav 大;1;実弾発射 "Creature\EFFECT_ChineseDragon(White)01.bmp" 40 Flash.wav 発光 遅 残像;銃撃武器 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 "Beam2\EFFECT_BeamShotGun(Red)03.bmp" 64 Bazooka.wav 大;1;実弾発射 "Animal\EFFECT_Tiger(Red)01.bmp" 40 Roar.wav 発光 遅 残像
+神獣弾同時撃ち(命中), 超ビーム 白 Freeze.wav;魔法集中 白 Ice.wav;凍結 -.wav;2;音再生 Breath.wav;超ビーム 赤 -.wav;超大爆発 赤 HyperExplode.wav
+魔銃融合砲(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 赤 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 青 二刀流;光球放出 白 Glass.wav;射撃武器粒子集中召喚 "Weapon\EFFECT_BusterBeamLauncher01.bmp" 64 白 Charge(High).wav
+魔銃融合砲(攻撃), 巨大ビームランチャー 黄 "Weapon\EFFECT_BusterBeamLauncher01.bmp" 64 電撃 BeamCannon(2).wav
+魔銃融合砲(命中), HyperExplode.wav;巨大ビーム 黄 電撃 -.wav
+#魔銃融合砲(攻撃), 巨大ビームランチャー 黄 "Weapon\EFFECT_DMD_CthughaIthaquaCombineCannon.bmp" 64 電撃 BeamCannon(2).wav
+零距離銃舞(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 赤 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 青 二刀流;2;光噴出 緑 Charge.wav
+零距離銃舞(攻撃), 急降下 Bazooka.wav
+零距離銃舞(命中), 急降下 Shock(Low).wav;@戦闘アニメ_別武器二丁拳銃準備 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32;2;@戦闘アニメ_別武器二丁拳銃乱射攻撃 画像ファイル="Weapon\EFFECT_DMD_Cthugha.bmp"="Weapon\EFFECT_DMD_Ithaqua.bmp"="ShootAnime\EFFECT_ChainGunShot(Red)01.bmp"="ShootAnime\EFFECT_ChainGunShot(Blue)01.bmp" 画像サイズ=32=32=64=64;点乱打 黄 Crash.wav;@戦闘アニメ_スーパーキック攻撃 緑;スーパーキック 緑 Explode(High).wav
+輝くトラペゾヘドロン(未制御)(準備), オーラ上昇 白 Charge(High).wav;魔法陣 白 発光 -.wav;2;音再生 Walk(Snow).wav;振る武器変形 "LightWeapon\EFFECT_WeaponBase(Black)01.bmp" 32 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光 Glass.wav;光大噴出 黄
+輝くトラペゾヘドロン(未制御)(攻撃), 振る武器突撃 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光 -.wav;大炎斬撃 白 AntiAirMissile.wav
+輝くトラペゾヘドロン(未制御)(命中), センタリング;唐竹割り 黒 Crash.wav;超斬撃 黒 -.wav
+輝くトラペゾヘドロン(未制御)(とどめ), 縦分割;重力圧縮
+輝くトラペゾヘドロン(準備), オーラ上昇 白 Charge(High).wav;魔法陣 白 発光 -.wav;2;音再生 Walk(Snow).wav;振る武器変形 "LightWeapon\EFFECT_WeaponBase(Black)01.bmp" 32 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光 Glass.wav
+輝くトラペゾヘドロン(攻撃), 回転斬撃;@戦闘アニメ_振る武器準備 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光 Swing.wav;なぎ払い;振り下ろし;なぎ払い;1;@戦闘アニメ_振る武器準備 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光 Slash(4).wav;2;@戦闘アニメ_ユニット変色準備 イエロー Flash.wav;振る武器突撃 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光
+輝くトラペゾヘドロン(命中), センタリング;超斬撃 黒 Crash.wav;2;オーラ 黒
+輝くトラペゾヘドロン(とどめ), 透明化 反映 相手ユニットＩＤ;@戦闘アニメ_フラッシュ命中 黒 Interference.wav
+真・輝くトラペゾヘドロン(準備), オーラ上昇 黄;@戦闘アニメ_光打ち上げ攻撃 黄;@戦闘アニメ_光打ち上げ攻撃 黄;2;大光柱 黄;五芒星 BeamCoat.wav 黄 発光
+真・輝くトラペゾヘドロン(攻撃), 伸縮武器振り下ろし "SlideWeapon\EFFECT_SlideBeamSaber(Yellow)[01-03].bmp" 32 無限 MicroMissile.wav
+真・輝くトラペゾヘドロン(命中), MicroMissile.wav;巨大ビーム 黄 -.wav
+真・輝くトラペゾヘドロン(とどめ), 透明化 反映 相手ユニットＩＤ;@戦闘アニメ_フラッシュ命中 黄 Interference.wav
+ロイガー＆ツァール(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_Dagger01.bmp" 32 "Weapon\EFFECT_Sword01.bmp" 32 二刀流 白;左右別武器 "Weapon\EFFECT_Dagger01.bmp" 32 - "Weapon\EFFECT_Sword01.bmp" 32 - Reload(2).wav
+ロイガー＆ツァール(攻撃), なぎ払い;斬撃
+ロイガー＆ツァール(命中), なぎ払い;斬撃;@戦闘アニメ_左右別武器突撃攻撃 "Weapon\EFFECT_Dagger01.bmp" 32 "Weapon\EFFECT_Sword01.bmp" 32 Swing.wav;斬撃 二刀流
+ロイガー＆ツァール投擲(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_Dagger01.bmp" 32 "Weapon\EFFECT_Sword01.bmp" 32 二刀流 白;振る武器 "Weapon\EFFECT_DMD_Liogor&Zhar.bmp" 44 Sword.wav
+ロイガー＆ツァール投擲(攻撃), 回転投擲武器 "Weapon\EFFECT_DMD_Liogor&Zhar.bmp" 44 速
+ロイガー＆ツァール投擲(命中), 光回転斬撃 大 黄 Drill.wav
+銃声の鎮魂歌(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 赤 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 青 二刀流;左右別武器 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 - "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 - Reload.wav
+銃声の鎮魂歌(攻撃), 斬撃乱舞 Gun.wav
+銃声の鎮魂歌(命中), 小ビーム 青 Glass.wav ランダム方向;小ビーム 青 Glass.wav ランダム方向;1;大爆発 赤 Explode(Nuclear).wav
+銃鳴葬送曲(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 赤 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 青 二刀流;別武器二丁拳銃 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32
+銃鳴葬送曲(攻撃), 別武器二丁拳銃 画像ファイル="Weapon\EFFECT_DMD_Cthugha.bmp"="Weapon\EFFECT_DMD_Ithaqua.bmp"="ShootAnime\EFFECT_ChainGunShot(Red)01.bmp"="ShootAnime\EFFECT_ChainGunShot(Blue)01.bmp" 画像サイズ=32=32=64=64;_
+2;拡散ビームライフル 青 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32;_
+2;別武器二丁拳銃連射 画像ファイル="Weapon\EFFECT_DMD_Cthugha.bmp"="Weapon\EFFECT_DMD_Ithaqua.bmp"="ShootAnime\EFFECT_ChainGunShot(Red)01.bmp"="ShootAnime\EFFECT_ChainGunShot(Blue)01.bmp" 画像サイズ=32=32=64=64
+銃鳴葬送曲(命中), 点乱打 黄 Explode.wav;ビームレイン 青 Glass.wav;_
+3;@戦闘アニメ_別武器二丁拳銃乱射攻撃 画像ファイル="Weapon\EFFECT_DMD_Cthugha.bmp"="Weapon\EFFECT_DMD_Ithaqua.bmp"="ShootAnime\EFFECT_ChainGunShot(Red)01.bmp"="ShootAnime\EFFECT_ChainGunShot(Blue)01.bmp" 画像サイズ=32=32=64=64;連続大爆発 4 黄 Explode(High).wav;大爆発 黄 Explode(High).wav
+剣聖銃神騎行曲(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 赤 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 青 二刀流;別武器二丁拳銃 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32
+剣聖銃神騎行曲(攻撃), 別武器二丁拳銃乱射 画像ファイル="Weapon\EFFECT_DMD_Cthugha.bmp"="Weapon\EFFECT_DMD_Ithaqua.bmp"="ShootAnime\EFFECT_ChainGunShot(Red)01.bmp"="ShootAnime\EFFECT_ChainGunShot(Blue)01.bmp" 画像サイズ=32=32=64=64
+剣聖銃神騎行曲(命中), 点乱打 黄 Crash.wav;_
+3;@戦闘アニメ_振る武器粒子集中召喚準備 "Weapon\EFFECT_Dagger01.bmp" 32 "Weapon\EFFECT_Sword01.bmp" 32 二刀流 白;_
+3;@戦闘アニメ_左右別武器突撃攻撃 "Weapon\EFFECT_Dagger01.bmp" 32 "Weapon\EFFECT_Sword01.bmp" 32 Swing(2).wav;横大斬撃 Slash(4).wav;_
+3;@戦闘アニメ_左右別武器突撃攻撃 "Weapon\EFFECT_Dagger01.bmp" 32 "Weapon\EFFECT_Sword01.bmp" 32 Swing(2).wav;唐竹割り Slash(4).wav;_
+3;二種突撃 "Weapon\EFFECT_Dagger01.bmp" 32 "Weapon\EFFECT_Sword01.bmp" 32 振り 斬撃
+Ａ・Ｗ・ストライク(準備), 同時魔法集中 緑 Charge.wav
+Ａ・Ｗ・ストライク(攻撃), 同時スーパーキック 緑
+Ａ・Ｗ・ストライク(命中), 同時スーパーキック 緑 Explode(High).wav
+Ａ・Ｗ・ストライク(解説), 二機のデモンベインはアトランティス・ダブル・ストライクで攻撃を攻撃をかけた。
+レムリア・Ｗ・インパクト(準備), 同時粒子集中 緑;同時五芒星 緑
+レムリア・Ｗ・インパクト(攻撃), 同時スーパーパンチ 緑 MultipleRocketLauncher(Light).wav
+レムリア・Ｗ・インパクト(命中), 同時スーパーパンチ 緑 Crash.wav;3;レムリア・インパクト
+レムリア・Ｗ・インパクト(とどめ), レムリア・インパクト 結界なし
+レムリア・Ｗ・インパクト(解説), 二機のデモンベインはレムリア・ダブル・インパクトで攻撃をかけた。
+プラズマ・ガン(準備), 射撃武器 "Weapon\EFFECT_MilitaryPistol01.bmp" 32
+プラズマ・ガン(攻撃), 手持ち発射 "Weapon\EFFECT_MilitaryPistol01.bmp" 32 対象ユニットＩＤ "Bullet\EFFECT_AuraBall(Orange)01.bmp" 32 Bazooka.wav
+プラズマ・ガン(命中), 大爆発 橙 Explode(High).wav
+クトゥグア(未制御)(準備), 粒子集中 赤 Charge(High).wav;粒子集中 赤 -.wav;粒子集中 赤 -.wav;炎の壁
+クトゥグア(未制御)(攻撃), 実弾発射 "Animal\EFFECT_Tiger(Red)01.bmp" 40 Roar.wav 発光 遅 残像
+#クトゥグア(未制御)(攻撃), 実弾発射 Info(ユニットデータ,ページモンスター・クトゥグア,グラフィック) 32 Roar.wav 発光 遅 残像
+クトゥグア(未制御)(命中), Breath.wav;超ビーム 赤 -.wav;超大爆発 赤 HyperExplode.wav
+クトゥグア(準備), 粒子集中 橙 Charge(High).wav
+クトゥグア(攻撃), 光球 橙 MultipleRocketLauncher(Light).wav
+クトゥグア(命中), 大爆発 橙 Explode(High).wav
+Ａ・Ｓ・ヴォーテックス(準備), 粒子集中 緑 Charge(High).wav;粒子集中 緑 -.wav;オーラ上昇 緑 -.wav;
+Ａ・Ｓ・ヴォーテックス(攻撃), スーパータックル 緑
+Ａ・Ｓ・ヴォーテックス(命中), Storm.wav;@戦闘アニメ_キック攻撃 -.wav;@戦闘アニメ_浴びせ蹴り攻撃 -.wav;@戦闘アニメ_バックキック攻撃 Swing(2).wav;点乱打 緑 Crash.wav;3;@戦闘アニメ_スーパーキック攻撃 緑;スーパーキック 緑 Explode(High).wav
+Ａ・Ｓ・ヴォーテックス(解説), $(ユニット)はアトランティス・ストライク・ヴォーテックスで攻撃をかけた。
+Ｌ・デュアル・インパクト(準備), 粒子集中 緑 Charge(High).wav;粒子集中 緑 -.wav;粒子集中 緑 -.wav;魔法陣 緑 背面;自機連続爆発 緑 3;光大噴出 緑
+Ｌ・デュアル・インパクト(攻撃), スーパーパンチ 緑
+Ｌ・デュアル・インパクト(命中), スーパーパンチ 緑 Crash.wav;3;レムリア・インパクト;1;@戦闘アニメ_スーパーパンチ攻撃 緑;スーパーパンチ 緑 Crash.wav;3;レムリア・インパクト
+Ｌ・デュアル・インパクト(とどめ), レムリア・インパクト 結界なし
+Ｌ・デュアル・インパクト(解説), $(ユニット)はレムリア・デュアル・インパクトで攻撃をかけた。
+## アイオーン
+神銃(準備), 射撃武器粒子集中召喚 "Weapon\EFFECT_DMD_Aeon'sGun.bmp" 32 青;射撃武器 "Weapon\EFFECT_DMD_Aeon'sGun.bmp" 32
+神銃(攻撃), ビームランチャー "Weapon\EFFECT_DMD_Aeon'sGun.bmp" 32 青 BeamGun.wav
+神銃(命中), 中ビーム 青 BeamGun.wav;大爆発 青 -.wav
+焼滅呪法(準備), 粒子集中 橙 Breath.wav;オーラ上昇 橙 -.wav;ユニット変色 オレンジ
+焼滅呪法(攻撃), スーパータックル 橙 MultipleRocketLauncher(Light).wav
+焼滅呪法(命中), ダメージ 橙 Crash.wav;2;@戦闘アニメ_光球集中準備 橙 Charge(high).wav;@戦闘アニメ_光大噴出準備 橙 -.wav;2;超大爆発 オレンジ HyperExplode.wav
+対霊狙撃砲(準備), 射撃武器粒子集中召喚 "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64 Breath.wav 赤;2;射撃武器 "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64
+対霊狙撃砲(攻撃), ＭＡＰバスタービームライフル "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64 橙 MicroMissile.wav
+対霊狙撃砲(命中), MicroMissile.wav;超ビーム オレンジ -.wav
+必滅の掌打(準備), 球体圧縮 緑 Charge(High).wav;粒子集中 緑 -.wav
+必滅の掌打(攻撃), スーパーパンチ 緑
+必滅の掌打(命中), スーパーパンチ 緑 Crash.wav;3;魔法集中 緑 Charge(High).wav;2;超大爆発 緑
+魔銃鍛造(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_Revolver01.bmp" 32 白 二刀流;銃撃武器 "Weapon\EFFECT_Revolver01.bmp" 32 二丁拳銃
+魔銃鍛造(攻撃), 銃撃武器連射 "Weapon\EFFECT_Revolver01.bmp" 32 二丁拳銃
+魔銃鍛造(命中), 点連打 青 Explode.wav
+二刀偃月刀(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 赤 二刀流 Breath.wav;2;@戦闘アニメ_斬撃攻撃 二刀流;振る武器 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 二刀流 Reload(2).wav
+二刀偃月刀(攻撃), 振る武器突撃 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 二刀流
+二刀偃月刀(命中), 大斬撃 赤 二刀流 Crash.wav
+偃月刀投擲剣舞(準備), 光球集中 赤 Breath.wav;四刀流 "Weapon\EFFECT_DMD_ScimitarOfBarzai(Spin).bmp" 32
+偃月刀投擲剣舞(攻撃), 実弾連射 "Weapon\EFFECT_DMD_ScimitarOfBarzai(Spin).bmp" 前転;実弾連射 "Weapon\EFFECT_DMD_ScimitarOfBarzai(Spin).bmp" 前転
+偃月刀投擲剣舞(命中), 光斬撃乱舞 中 赤 Drill.wav
+魔刃結界(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 赤 Breath.wav;1;発光 黄;多数射撃武器突き立て "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 突き刺し;羽
+魔刃結界(攻撃), なぎ払い;1;実弾乱射 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32
+魔刃結界(命中), 乱突 Slash(4).wav;1;放電;_
+会話 魔術師アズラッド "──久遠の虚無へと還れ！" 固定;@戦闘アニメ_振る武器突撃攻撃 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 二刀流;振る武器突撃 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 二刀流 斬撃
+## アイオーン＝エドガー
+偃月刀二重螺旋(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 赤 青 二刀流 Breath.wav;4;@戦闘アニメ_斬撃攻撃 二刀流;振る武器 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 二刀流 Reload(2).wav
+偃月刀二重螺旋(攻撃), 斬撃 二刀流;交差ビーム 赤 青 チャージなし Drill.wav
+偃月刀二重螺旋(命中), 交差ビーム 赤 青 Drill.wav
+呪文螺旋・神銃形態(準備), 射撃武器粒子集中召喚 "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64 Breath.wav 赤;2;射撃武器 "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64
+呪文螺旋・神銃形態(攻撃), 手持ち発射 "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64 対象ユニットＩＤ "Impact\EFFECT_ImpactBall(Orange)02.bmp" 28 Shock(Low).wav;2;発光 橙 -.wav;ＭＡＰオーラ 橙 Explode(Long).wav
+呪文螺旋・神銃形態(命中), 大爆発 橙 Explode(Nuclear).wav
+## 超鬼械神デモンベイン
+六挺拳銃(準備), 粒子集中 白;2;銃撃武器 "Weapon\EFFECT_Revolver01.bmp" 32 二丁拳銃;銃撃武器 "Weapon\EFFECT_Revolver01.bmp" 32 二丁拳銃;銃撃武器 "Weapon\EFFECT_Revolver01.bmp" 32 二丁拳銃
+六挺拳銃(攻撃), 銃撃武器乱射 "Weapon\EFFECT_Revolver01.bmp" 32 二丁拳銃
+六挺拳銃(命中), MultipleRocketLauncher.wav;交差ビーム 黒 黒 -.wav
+#六発の呪力弾が六重螺旋を描きひとつの流れとなる
+呪文螺旋同時撃ち(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64 赤 青 二刀流 Breath.wav;2;銃撃武器 "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64 二丁拳銃
+呪文螺旋同時撃ち(攻撃), 手持ち発射 "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64 対象ユニットＩＤ "Impact\EFFECT_ImpactBall(Blue)02.bmp" 28 Shock(Low).wav;手持ち発射 "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64 対象ユニットＩＤ "Impact\EFFECT_ImpactBall(Orange)02.bmp" 28 Shock(Low).wav
+呪文螺旋同時撃ち(命中), センタリング;球体圧縮 青 Ice.wav;凍結 -.wav;1;オーラ 橙 Explode(Long).wav
+呪文螺旋・神槍形態(準備), 射撃武器粒子集中召喚 "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64 Breath.wav 赤;射撃武器変形 "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64 "Weapon\EFFECT_Houtengeki_thrust01.bmp" 64;振る武器 "Weapon\EFFECT_Houtengeki01.bmp" 48 Reload(2).wav
+呪文螺旋・神槍形態(攻撃), なぎ払い大炎斬撃 赤 AntiShipMissile.wav
+呪文螺旋・神槍形態(命中), 超斬撃 赤 Crash.wav
+呪文螺旋・神槍形態(とどめ), 横分割
+## リベル・レギス
+手刀(準備), -
+手刀(攻撃), なぎ払い;刺突
+手刀(命中), なぎ払い Slash.wav;刺突 Stab.wav
+乱撃(準備), 
+乱撃(攻撃), 乱突;打撃突撃 -.wav;刺突
+乱撃(命中), 乱突 Stab.wav;大刺突 Crash.wav
+金色の十字架(準備), 粒子集中 黄 BeamCoat.wav;決め文字 † 黄 -.wav 前面;振る武器 "Weapon\EFFECT_DMD_SwordOfGoldCross.bmp" 32 Reload(2).wav
+金色の十字架(攻撃), 振る武器突撃 "Weapon\EFFECT_DMD_SwordOfGoldCross.bmp" 32 -.wav;斬撃 黄
+金色の十字架(命中), 光斬撃 中 黄
+罪人の十字架(準備), 粒子集中 黄 BeamCoat.wav;決め文字 † 黄 -.wav 前面;振る武器 "Weapon\EFFECT_DMD_SwordOfGoldCross.bmp" 32 Reload(2).wav;振る武器 "Weapon\EFFECT_DMD_SwordOfGoldCross(Extend).bmp" 64 BeamSaber.wav
+罪人の十字架(攻撃), 大斬撃 ピンク Swing(2).wav
+罪人の十字架(命中), 光斬撃 大 ピンク
+天狼星の弓(準備), 射撃武器粒子集中召喚 "Weapon\EFFECT_DMD_BowOfSirius.bmp" 48 黄;射撃武器 "Weapon\EFFECT_DMD_BowOfSirius.bmp" 48
+天狼星の弓(攻撃), ビームライフル 黄 "Weapon\EFFECT_DMD_BowOfSirius.bmp" 48
+天狼星の弓(命中), 小ビーム 黄 Beam.wav
+天狼星の弓(クリティカル), @戦闘アニメ_粒子集中 黄 対象ユニットＩＤ;@戦闘アニメ_手持ち発射攻撃 "Weapon\EFFECT_DMD_BowOfSirius.bmp" 48 対象ユニットＩＤ "LightWeapon\EFFECT_LightAttack(Yellow)01.bmp" 40 Cannon.wav;1;@戦闘アニメ_大電撃命中 Thunderbolt.wav;@戦闘アニメ_放電命中 -.wav
+光の雨(準備), 射撃武器粒子集中召喚 "Weapon\EFFECT_DMD_BowOfSirius.bmp" 48 黄;射撃武器 "Weapon\EFFECT_DMD_BowOfSirius.bmp" 48
+光の雨(攻撃), 光打ち上げ 黄 Beam.wav
+光の雨(命中), ビームレイン 黄 Beam.wav
+黄金の剣(準備), 射撃武器粒子集中召喚 "LightWeapon\EFFECT_LightSword(Yellow)02.bmp" 48 黄
+黄金の剣(攻撃), 0.2;実弾乱射 "LightWeapon\EFFECT_LightSword(Yellow)02.bmp" 48 Beam.wav
+黄金の剣(命中), 乱突 Stab.wav
+重力結界(準備), 粒子集中 ピンク
+重力結界(攻撃), オーラ ピンク
+重力結界(命中), 地面衝撃 ピンク Crash.wav;1;乱打 ピンク Shock(Low).wav
+餓鬼結界(準備), 粒子集中 黒;魔法陣 黒
+餓鬼結界(攻撃), ＭＡＰオーラ 黒 Roar.wav
+餓鬼結界(命中), 噛み付き Crash.wav;爪撃 FightHit(3).wav;噛み付き Crash.wav
+ン・カイの闇(準備), 粒子集中 ピンク;オーラ上昇 ピンク -.wav;射撃武器 "Common\EFFECT_RosePetal(Black)01.bmp" 32 Whiz.wav
+ン・カイの闇(攻撃), 実弾発射 "Common\EFFECT_RosePetal(Black)01.bmp" 32 速 AntiAirMissile.wav
+ン・カイの闇(命中), 連続着弾 黒 Shock(Low).wav
+ＡＢＲＡＨＡＤＡＢＲＡ(準備), -
+ＡＢＲＡＨＡＤＡＢＲＡ(攻撃), 打撃突撃 -.wav;打突
+ＡＢＲＡＨＡＤＡＢＲＡ(命中), 打撃 FightHit(3).wav;2;粒子集中 ピンク Charge(High).wav;粒子集中 ピンク -.wav;粒子集中 ピンク -.wav;魔法陣 ピンク Flair.wav;2;大爆発 ピンク Thunderbolt.wav;放電 -.wav
+メテオ(準備), 魔法陣 ピンク
+メテオ(攻撃), @戦闘アニメ_斜め落ち共通 "Bullet\EFFECT_Meteor01.bmp" 48 AntiShipMissile.wav
+メテオ(命中), 超大爆発 オレンジ
+グランドクロス(準備), 粒子集中 黄 BeamCoat.wav;決め文字 † 黄 -.wav 前面;振る武器 "Weapon\EFFECT_DMD_SwordOfGoldCross.bmp" 32  Reload(2).wav;振る武器 "Weapon\EFFECT_DMD_SwordOfGoldCross(Extend).bmp" 64 BeamSaber.wav;オーラ上昇 ピンク
+グランドクロス(攻撃), 振る武器突撃 "Weapon\EFFECT_DMD_SwordOfGoldCross(Extend).bmp" 64
+グランドクロス(命中), 唐竹割り ピンク Slash(4).wav;横大斬撃 ピンク Slash(4).wav;2;@戦闘アニメ_粒子集中準備;@戦闘アニメ_突く武器急降下攻撃 "Weapon\EFFECT_DMD_SwordOfGoldCross(Extend).bmp" 64 AntiShipMissile.wav;突く武器急降下 "Weapon\EFFECT_DMD_SwordOfGoldCross(Extend).bmp" 64 -.wav;超斬撃 ピンク Crash.wav
+グランドクロス(とどめ), @戦闘アニメ_大爆発命中 ピンク Whiz(2).wav;@戦闘アニメ_光球放出命中 ピンク -.wav
+天狼星の弓・セト(準備), 射撃武器粒子集中召喚 "Weapon\EFFECT_DMD_BowOfSirius.bmp" 48 黄;射撃武器 "Weapon\EFFECT_DMD_BowOfSirius.bmp" 48
+天狼星の弓・セト(攻撃), 拡散ビームランチャー 黄 "Weapon\EFFECT_DMD_BowOfSirius.bmp" 48
+天狼星の弓・セト(命中), 魔法陣 黄 BeamSaber.wav;2;@戦闘アニメ_オーラ上昇準備 黒;@戦闘アニメ_射撃武器変形準備 "Weapon\EFFECT_DMD_BowOfSirius.bmp" 48 "Fire\EFFECT_DragonFire_S(Black)01.bmp" 48 Shock(Low).wav;@戦闘アニメ_火炎放射器攻撃 "Fire\EFFECT_DragonFire_S(Black)01.bmp" 48 オレンジ Breath.wav;火炎放射器 オレンジ -.wav;2;@戦闘アニメ_伸縮武器攻撃 "Fire\EFFECT_DragonFire_S(Black)[01-03].bmp" 48 MicroMissile.wav;超ビーム 黒 -.wav
+Ｈ・ゼロドライブ(準備), 大気吸収 白 Interference.wav;粒子集中 白 -.wav;粒子集中 白 -.wav;オーラ上昇 白 -.wav
+Ｈ・ゼロドライブ(攻撃), スーパーパンチ 白
+Ｈ・ゼロドライブ(命中), スーパーパンチ 白 Glass.wav;2;発光 白 -.wav;超大爆発 白 Explode(Nuclear).wav
+Ｈ・ゼロドライブ(解説), $(ユニット)はハイパーボリア・ゼロドライブで攻撃をかけた。
+## 超鬼械神リベル・レギス
+神槍レムリア・インパクト(準備), 射撃武器粒子集中召喚 "Weapon\EFFECT_Houtengeki_thrust01.bmp" 64 赤 Breath.wav;2;魔法陣 緑 背面
+神槍レムリア・インパクト(攻撃), 突く武器突撃 "Weapon\EFFECT_Houtengeki_thrust01.bmp" 64 AntiShipMissile.wav
+神槍レムリア・インパクト(命中), 大刺突 緑 Charge(High).wav;魔法集中 緑 -.wav;3;旋風 緑 MicroMissile.wav;超大爆発 緑 -.wav
+時間停止(準備), -
+時間停止(攻撃), 魔法放射 白
+時間停止(命中), 決め画像 "Action\EFFECT_Remove01.bmp" 32 前面 EvilEye.wav
+百撃必滅Ｈ・ゼロドライブ(準備), 大気吸収 白 Interference.wav;粒子集中 白 -.wav;粒子集中 白 -.wav;光大噴出 白 -.wav
+百撃必滅Ｈ・ゼロドライブ(攻撃), スーパーパンチ 白;スーパーパンチ 白;スーパーパンチ 白
+百撃必滅Ｈ・ゼロドライブ(命中), センタリング;点乱打 白 Glass.wav;大刺突 白 Glass.wav;2;発光 白 -.wav;球体破裂 白 Explode(Nuclear).wav;フラッシュ 白
+百撃必滅Ｈ・ゼロドライブ(解説), $(ユニット)は百撃必滅ハイパーボリア・ゼロドライブで攻撃をかけた。
+## 皇餓
+鎌居太刀(準備), 野太刀 二刀流 Reload(2).wav;四刀流 "Weapon\EFFECT_Nodachi01.bmp" 40 Transform.wav
+鎌居太刀(攻撃), 連続なぎ払い;旋風
+鎌居太刀(命中), 旋風;クリティカル斬撃 Slash.wav
+秘剣・飛竜(準備), 野太刀 二刀流 Reload(2).wav;@戦闘アニメ_振り下ろし攻撃;@戦闘アニメ_なぎ払い攻撃;@戦闘アニメ_振り下ろし攻撃;@戦闘アニメ_なぎ払い攻撃;オーラ上昇 黄 Charge(High).wav;粒子集中 黄 -.wav;振る武器 "LightWeapon\EFFECT_LightGiantSword(Yellow)01.bmp" 56 BeamSaber(5).wav
+秘剣・飛竜(攻撃), 大炎斬撃 黄 Bazooka.wav;2;ＭＡＰ地表衝撃波 黄 速 残像 MultipleRocketLauncher(Light).wav
+秘剣・飛竜(命中), 唐竹割り 黄 Crash.wav
+二刀流(準備), 野太刀 二刀流 Reload(2).wav
+二刀流(攻撃), 連斬撃
+二刀流(命中), 連斬撃
+四連斬(準備), 四刀流 Transform.wav
+四連斬(攻撃), 連斬撃;なぎ払い;振り下ろし
+四連斬(命中), 連斬撃;なぎ払い;振り下ろし
+紅桜(準備), 野太刀 二刀流 Reload(2).wav;四刀流 "Weapon\EFFECT_Nodachi01.bmp" 40 Transform.wav
+紅桜(攻撃), 斬撃乱舞 Swing(2).wav
+紅桜(命中), 斬撃乱舞 Slash(4).wav
+兜割り(準備), 野太刀 二刀流 Reload(2).wav
+兜割り(攻撃), 野太刀突撃 二刀流 -.wav;大炎斬撃 白 AntiAirMissile.wav
+兜割り(命中), 唐竹割り Bazooka.wav;地面衝撃 -.wav
+必殺剣・羅刹(準備), 発光 白 Slash(4).wav;野太刀 二刀流 Reload(2).wav
+必殺剣・羅刹(攻撃), なぎ払い Swing(2).wav
+必殺剣・羅刹(命中), なぎ払い Slash(4).wav;@戦闘アニメ_斬撃攻撃 二刀流;唐竹割り Shock(Low).wav;地面衝撃 -.wav;@戦闘アニメ_オーラ上昇準備 黄 Charge(High).wav;@戦闘アニメ_粒子集中準備 黄 -.wav;@戦闘アニメ_振る武器準備 "LightWeapon\EFFECT_LightGiantSword(Yellow)01.bmp" 56 BeamSaber(5).wav;@戦闘アニメ_突く武器急降下攻撃 "LightWeapon\EFFECT_LightGiantSword(Yellow)02.bmp" 80 AntiAirMissile.wav;突く武器急降下 "LightWeapon\EFFECT_LightGiantSword(Yellow)01.bmp" 56 Glass.wav;超大爆発 黄 Explode(Nuclear).wav
+剣舞・阿修羅(準備), 発光 白 Slash(4).wav;野太刀 二刀流 Reload(2).wav
+剣舞・阿修羅(攻撃), 突く武器突撃 "Weapon\EFFECT_Nodachi(T)01.bmp" 48 -.wav;刺突 AntiAirMissile.wav
+剣舞・阿修羅(命中), 刺突 Slash(4).wav;@戦闘アニメ_四刀流準備 "Weapon\EFFECT_Nodachi01.bmp" 40 Transform.wav;MicroMissile.wav;@戦闘アニメ_斬撃乱舞攻撃 -.wav;@戦闘アニメ_乱突攻撃 -.wav;斬撃乱舞 Slash(4).wav;乱突 Stab.wav;@戦闘アニメ_四刀流突撃攻撃 "Weapon\EFFECT_Nodachi01.bmp" 40 AntiAirMissile.wav;大斬撃 二刀流 -.wav;超斬撃 Crash.wav
+## サイクラノーシュ
+ガルバ, 噛み付き
+オトー, ロケットパンチ
+ウィテリウス, 火炎放射
+無形落胤(準備), 魔法陣 黒;光噴出 黒 Zapper.wav;泡 黒 -.wav
+無形落胤(攻撃), 実弾発射 "Common\EFFECT_Pop(Black)05.bmp" 32 Whiz.wav 遅
+無形落胤(命中), 泡 黒 Zapper.wav;@戦闘アニメ_泡球準備 黒 相手ユニットＩＤ -.wav
+機械の触手, 多触手 赤
+神魂藝術(準備), 射撃武器粒子集中召喚 "Hand\EFFECT_Punch(Red)03.bmp" 48 赤 Fold.wav
+神魂藝術(攻撃), 実弾発射 "Hand\EFFECT_Punch(Red)03.bmp" 48 AntiAirMissile.wav
+神魂藝術(命中), 超打 Crash.wav
+魔力弾(準備), 粒子集中 黒
+魔力弾(攻撃), 実弾連射 "Bullet\EFFECT_AuraBall(Black)01.bmp" 32 Whiz.wav
+魔力弾(命中), 連続爆発 3 黒 Shock(Low).wav
+Ｉ・Ｄ・オドフクロンク(準備), -
+Ｉ・Ｄ・オドフクロンク(攻撃), 髑髏弾 白 Roar.wav
+Ｉ・Ｄ・オドフクロンク(命中), 超打 Crash.wav
+巨人結界(準備), 魔法陣 白;怪ロボット召喚 Shock(Low).wav;怪ロボット召喚 Shock(Low).wav;怪ロボット召喚 Shock(Low).wav
+巨人結界(攻撃), 実弾連射 "Creature\EFFECT_SuspectRobot01.bmp" 48  Walk(Robot).wav;急降下;透明化 反映
+巨人結界(命中), @戦闘アニメ_結界 発動 青 Glass.wav 　;包囲ビーム 青 Slash(6).wav;包囲ビーム 青 Slash(6).wav;旋風 青 Roar.wav;放電 -.wav 青;球体破裂 青
+## レガシー・オブ・ゴールド
+フレイザー砲<近距離>(準備), -
+フレイザー砲<近距離>(攻撃), ２連小ビーム 黄
+フレイザー砲<近距離>(命中), ２連小ビーム 黄;爆発 黄 -.wav
+フレイザー砲<収束>, 中ビーム 黄
+フレイザー砲<弾幕>, 拡散ビーム 黄
+フレイザー砲<全砲門解放>(準備), 光球集中 黄 Charge(high).wav;旋回光弾 黄 -.wav
+フレイザー砲<全砲門解放>(攻撃), ＭＡＰビーム 黄 MicroMissile.wav
+フレイザー砲<全砲門解放>(命中), 大拡散ビーム 黄
+フレイザー砲<最大出力>(準備), 球体圧縮 黄 Interference.wav;粒子集中 黄 -.wav;粒子集中 黄 -.wav;発光 黄 -.wav;放電 -.wav
+フレイザー砲<最大出力>(攻撃), 超ビーム 黄 BeamCannon(2).wav
+フレイザー砲<最大出力>(命中), MicroMissile.wav;超ビーム 黄 -.wav
+## クラーケン
+剛腕(準備), -
+剛腕(攻撃), 打撃突撃 -.wav;打突 Walk(Snow).wav
+剛腕(命中), 打撃 BreakOff.wav;2;@戦闘アニメ_連打攻撃;連打;@戦闘アニメ_タックル攻撃 Shock(Low).wav;2;超打 Crash.wav
+アナコンダアーム(準備), ロケットパンチ "Hand\EFFECT_RocketPunch(Blue)03.bmp" 32
+アナコンダアーム(攻撃), ロケットパンチ "Hand\EFFECT_RocketPunch(Blue)03.bmp" 32 Bazooka.wav
+アナコンダアーム(命中), ダメージ FightHit(3).wav;3;爪撃 二刀流 Crash.wav
+氷撃(準備), 光球集中 水色 Wind.wav;粒子集中 水色 -.wav;粒子集中 水色 -.wav;投擲武器 "Ice\EFFECT_FallingIceRock01.bmp" 48 Ice.wav
+氷撃(攻撃), 斬撃 二刀流 Walk(Snow).wav;氷塊落下 -.wav;Bazooka.wav
+氷撃(命中), 氷塊落下 Shock(Low).wav;大爆発 水色 Glass.wav;飛沫 水色 -.wav
+九頭龍撃(準備), 粒子集中 水色 Splash.wav;光噴出 水色 -.wav;ロケットパンチ "Hand\EFFECT_RocketPunch(Blue)03.bmp" 32
+九頭龍撃(攻撃), ロケットパンチ "Hand\EFFECT_RocketPunch(Blue)03.bmp" 32 Bazooka.wav
+九頭龍撃(命中), 周囲回転 "Hand\EFFECT_RocketPunch(Blue)03.bmp" 32 Whip.wav;ダメージ FightHit(3).wav;3;投げ飛ばし Splash.wav;地面衝撃 水色 -.wav
+## ロードビヤーキー
+風刃(準備), 強風;ドリル Storm.wav
+風刃(攻撃), ドリル突撃 -.wav;刺突 AntiAirMissile.wav
+風刃(命中), ドリル Storm.wav
+フーン機関加速(準備), オーラ上昇 緑
+フーン機関加速(攻撃), スーパータックル 緑 AntiAirMissile.wav
+フーン機関加速(命中), スーパータックル 緑 Shock(Low).wav
+スペル・ライフル(準備), 射撃武器 "Weapon\EFFECT_DMD_LordByakhee'sRifle.bmp" 48
+スペル・ライフル(攻撃), チェーンガン "Weapon\EFFECT_DMD_LordByakhee'sRifle.bmp" 48 緑
+スペル・ライフル(命中), Cannon(8Shot).wav;チェーンガン 緑 -.wav;大爆発 緑 -.wav
+スクリーミング・バード(準備), 大気吸収;竜巻
+スクリーミング・バード(攻撃), スーパータックル 黄 MultipleRocketLauncher(Light).wav
+スクリーミング・バード(命中), 透明化 対象ユニットＩＤ 反映;Storm.wav;超ビーム 黄 -.wav;大爆発 Crash.wav
+## ベルゼビュート
+酸(準備), -
+酸(攻撃), 液体噴射 黒
+酸(命中), 液体噴射 黒 Acid.wav;煙 黒 -.wav
+呪弾(準備), 粒子集中 黒
+呪弾(攻撃), 光球 黒
+呪弾(命中), 大爆発 黒 Shock(Low).wav
+スター・ヴァンパイア(準備), 周囲回転 "Shield\EFFECT_ThrowingShield(Black)01.bmp" 32 BeamSaber(3).wav
+スター・ヴァンパイア(攻撃), 実弾連射 "Shield\EFFECT_ThrowingShield(Black)01.bmp" 32 BeamSaber(3).wav
+スター・ヴァンパイア(命中), 点連打 黒 FightHit(4).wav;放電;3;連続大爆発 3 Explode(High).wav
+暴食大罪(準備), 周囲回転 "Shield\EFFECT_ThrowingShield(Black)01.bmp" 32 BeamSaber(3).wav;オーラ上昇 桃 
+暴食大罪(攻撃), 全拡散ビーム 桃 MultipleRocketLauncher(Light).wav
+暴食大罪(命中), @戦闘アニメ_落雷準備 桃 Thunderbolt.wav 相手ユニットＩＤ;@戦闘アニメ_落雷準備 Thunderbolt.wav 桃 相手ユニットＩＤ;大放電 桃;2;大爆発 桃 Explode(High).wav
+バッド・トリップ・ワイン(準備), 放電
+バッド・トリップ・ワイン(攻撃), 打撃突撃 Shock(Low).wav
+バッド・トリップ・ワイン(命中), 刺突 Stab.wav;2;立ち固め Thunder.wav 1 遅;放電 -.wav
+怨霊呪弾(準備), 大気吸収 黒 Breath.wav;エネルギー集束 "Impact\EFFECT_ImpactBall(Black)02.bmp" 28 黒 Breath.wav
+怨霊呪弾(攻撃), 実弾発射 "Impact\EFFECT_ImpactBall(Black)02.bmp" 28 Roar.wav
+怨霊呪弾(命中), 重力圧縮 Acid.wav;──死にたくない;1;──熱い;1;──苦しい;1;──冷たい;1;──痛い;1;──寂しい;1;──寒い;1;──暗い;1;──怖い;1;──死にたくない──痛──死にたくない──怖──死にたくない寒死にたくない苦し死にたくない痛い死にたくない痛い痛死にたくない死にたくない死にたくない死にたくない死にたくない死にたくない死にたくない死にたくない;1;死にたくない死にたくない死にたくない死にたくない死にたくない死にたくない死にたくない死にたくない死にたくない死にたくない死にたくない死にたくない死にたくない死にたくない死にたくない死にたくない……！;球体破裂 黒 Roar.wav
+怨霊呪弾(とどめ), @戦闘アニメ_炎の壁命中 黒 Roar.wav;@戦闘アニメ_吸収命中 黒 -.wav
+## ネームレス・ワン
+カウンター・スペル(発動), 反射 BeamCoat.wav カウンター・スペル
+バインド・スペル(準備), 粒子集中 緑;発光 緑
+バインド・スペル(攻撃), 光子魚雷 緑 
+バインド・スペル(命中), 発光 緑 Glass.wav;1;魔法陣 桃 BeamSaber(3).wav 前面
+ブリット・スペル(準備), 魔法陣 緑
+ブリット・スペル(攻撃), 内蔵チェーンガン 緑 Beam(8Shot).wav
+ブリット・スペル(命中), 拡散ビーム 緑
+ソード・スペル(準備), 魔法陣 黄;ビームソード 黄
+ソード・スペル(攻撃), 大斬撃 黄 BeamSaber(5).wav
+ソード・スペル(命中), 光斬撃 大 黄 BeamSaber(5).wav
+ライトブリンガー・スペル(準備), 魔法陣 緑;ビームソード 緑 二刀流
+ライトブリンガー・スペル(攻撃), 大斬撃 緑 BeamSaber(5).wav;横大斬撃 緑 BeamSaber(5).wav
+ライトブリンガー・スペル(命中), 光斬撃 大 緑 二刀流 MultipleRocketLauncher(Light).wav
+カノン・スペル(準備), 魔法陣 緑
+カノン・スペル(攻撃), 光球 緑 BeamGun.wav
+カノン・スペル(命中), 球体破裂 緑
+Ｓスター・スペル(準備), 多重方陣 黄 BeamCoat.wav
+Ｓスター・スペル(攻撃), 光打ち上げ 黄;MultipleRocketLauncher.wav;ＭＡＰ落盤 黄 -.wav 
+Ｓスター・スペル(命中), ビームレイン 黄
+Ｓスター・スペル(解説), $(ユニット)はシューティングスター・スペルで攻撃をかけた。
+ガンスリンガー(準備), 魔法陣 緑
+ガンスリンガー(攻撃), Bazooka(8Shot).wav;内蔵チェーンガン 緑 -.wav
+ガンスリンガー(命中), 魔法陣 緑 EvilEye.wav;2;点乱打 緑 Warship.wav;超大爆発 緑
+ソードダンサー(準備), 魔法陣 青;ビームソード 青
+ソードダンサー(攻撃), 横大斬撃 青 BeamSaber(5).wav
+ソードダンサー(命中), 発光 青 EvilEye.wav;2;超斬撃 Slash.wav
+存在消去(準備), 多重方陣 白 BeamCoat.wav
+存在消去(攻撃), @戦闘アニメ_魔法陣準備 白 前面;フラッシュ Charge(high).wav
+存在消去(命中), 光圧縮 Whiz.wav;@戦闘アニメ_分身準備 Noise(2).wav 相手ユニットＩＤ
+存在消去(とどめ), @戦闘アニメ_分身準備 Noise.wav 相手ユニットＩＤ;透明化 反映;@戦闘アニメ_転移 Slap.wav 相手ユニットＩＤ
+## アンブロシウス
+賢者の鎌(準備), 大鎌 Reload(2).wav
+賢者の鎌(攻撃), 大鎌突撃 -.wav;斬撃
+賢者の鎌(命中), 斬撃 Slash(4).wav;@戦闘アニメ_大鎌突撃攻撃 Swing.wav;なぎ払い Slash(4).wav;@戦闘アニメ_スピンアタック攻撃;1;スピンアタック Slash.wav
+賢者の鎌(クリティカル), @戦闘アニメ_斬撃乱舞攻撃;五芒星 白 Slash(4).wav;魔法放射 白 Glass.wav
+ハスターの爪(準備), 大鎌 Reload(2).wav
+ハスターの爪(攻撃), なぎ払い;シュートカッター 白
+ハスターの爪(命中), シュートカッター 白 Glass.wav
+気象攻撃(準備), 粒子集中 白
+気象攻撃(攻撃), 竜巻
+気象攻撃(命中), 竜巻;大電撃;飛沫 黄 -.wav
+気象攻撃(クリティカル), @戦闘アニメ_大鎌突撃攻撃 Swing(2).wav;@戦闘アニメ_大斬撃命中 Crash.wav
+エーテルランチャー(準備), 
+エーテルランチャー(攻撃), タックル Whiz.wav;光子魚雷 青 Beam.wav;光子魚雷 青 Beam.wav;タックル Whiz.wav;光子魚雷 青 Beam.wav;光子魚雷 青 Beam.wav
+エーテルランチャー(命中), 連続大爆発 青 4 BeamGun.wav
+ハスターの翼(準備), 
+ハスターの翼(攻撃), スーパータックル 白 AntiAirMissile.wav
+ハスターの翼(命中), スーパータックル 白 Slash(4).wav
+鏖殺の魔翼(準備), 粒子集中 赤 Charge(high).wav;オーラ上昇 赤 -.wav
+鏖殺の魔翼(攻撃), スーパータックル 赤 MultipleRocketLauncher(Light).wav
+鏖殺の魔翼(命中), 大刺突 赤 FastGun.wav;大刺突 赤 -.wav;大刺突 赤 -.wav;大刺突 赤 -.wav;@戦闘アニメ_変形準備 Info(ユニットデータ,鬼械神アンブロシウス,グラフィック);@戦闘アニメ_エネルギー集束準備 "Impact\EFFECT_ImpactBall(Pink)02.bmp" 28 ピンク;1;@戦闘アニメ_実弾発射攻撃 "Impact\EFFECT_ImpactBall(Pink)02.bmp" 28 Bazooka.wav;1;大爆発 ピンク Glass.wav
+凶殺の魔爪(準備), @戦闘アニメ_回転斬撃攻撃;大鎌 Reload(2).wav
+凶殺の魔爪(攻撃), 大鎌突撃 -.wav;斬撃 AntiAirMissile.wav
+凶殺の魔爪(命中), センタリング;大斬撃 Slash(4).wav;2;スーパータックル 青 Slash(4).wav;2;スーパータックル 青 Slash(4).wav;2;スーパータックル乱舞 青 Slash(4).wav;2;@戦闘アニメ_大斬撃攻撃 AntiAirMissile.wav;1;超斬撃 Crash.wav
+## デモンベイン・ブラッド
+血風を纏う、抱け(準備), 発光 赤
+血風を纏う、抱け(攻撃), 粒子集中 赤 Splash.wav
+血風を纏う、抱け(命中), @戦闘アニメ_泡球準備 赤 相手ユニットＩＤ Splash.wav;4;大爆発 赤 BeamGun.wav
+血刃を放つ、断て(準備), 粒子集中 赤 Splash.wav;ビームソード 赤 -.wav
+血刃を放つ、断て(攻撃), 光なぎ払い 赤
+血刃を放つ、断て(命中), 光なぎ払い 中 赤 Slash.wav
+血刃を放つ、刎ねよ(準備), 粒子集中 赤 Splash.wav;ビームソード 赤 -.wav
+血刃を放つ、刎ねよ(攻撃), 光なぎ払い 赤 Swing(2).wav;シュートカッター 赤 AntiAirMissile.wav
+血刃を放つ、刎ねよ(命中), シュートカッター 赤 Slash.wav
+灼熱の血を孕む、爆ぜよ(準備), 粒子集中 レッド Charge(High).wav;オーラ上昇 レッド -.wav
+灼熱の血を孕む、爆ぜよ(攻撃), スーパーキック レッド
+灼熱の血を孕む、爆ぜよ(命中), スーパーキック レッド Crash.wav;粒子集中 レッド Charge(High).wav;粒子集中 レッド -.wav;発光 レッド -.wav;大爆発 レッド Explode(High).wav
+禁忌の血を解放つ、侵せ(準備), 粒子集中 赤 Splash.wav;粒子集中 赤 Splash.wav;球体圧縮 赤;射撃武器 "Fire\EFFECT_DragonFire_S(Red)01.bmp" 48 -.wav
+禁忌の血を解放つ、侵せ(攻撃), 伸縮武器 "Fire\EFFECT_DragonFire_S(Red)[01-03].bmp" 48 AntiShipMissile.wav
+禁忌の血を解放つ、侵せ(命中), MicroMissile.wav;超ビーム 赤 -.wav
+禁忌の血を解放つ、侵せ(とどめ), @戦闘アニメ_スーパーパンチ攻撃 赤;@戦闘アニメ_スーパーパンチ命中 赤 Slash.wav;@戦闘アニメ_魔法集中命中 赤 -.wav;出血
+## クロックワーク・ファントム
+マグネットビーム(準備), -
+マグネットビーム(攻撃), リングビーム 黄
+マグネットビーム(命中), リングビーム 黄;放電
+巨腕(準備), ロケットパンチ "Hand\EFFECT_RocketPunch(Yellow)03.bmp" 44
+巨腕(攻撃), ロケットパンチ "Hand\EFFECT_RocketPunch(Yellow)03.bmp" 44 AntiShipMissile.wav
+巨腕(命中), 超打 Crash.wav;超打 Crash.wav;3;重力圧縮 FightHit(3).wav;投げ飛ばし Bomb.wav
+オルフィレウスの歯車(準備), 光球集中 黄;四刀流 "Bullet\EFFECT_BeamRingCutter(Yellow)01.bmp" 32 Reload.wav
+オルフィレウスの歯車(攻撃), ４ＷＡＹ射出 Drill.wav
+オルフィレウスの歯車(命中), シュートカッター改 "Bullet\EFFECT_BeamRingCutter(Yellow)01.bmp" 32 Crash.wav ランダム方向;シュートカッター改 "Bullet\EFFECT_BeamRingCutter(Yellow)01.bmp" 32 Crash.wav ランダム方向;シュートカッター改 "Bullet\EFFECT_BeamRingCutter(Yellow)01.bmp" 32 Crash.wav ランダム方向;シュートカッター改 "Bullet\EFFECT_BeamRingCutter(Yellow)01.bmp" 32 Crash.wav ランダム方向
+鋼の竜巻(準備), ロケットパンチ "Hand\EFFECT_RocketPunch(Yellow)03.bmp" 44;@戦闘アニメ_デフォルト攻撃 Chaff.wav;3;竜巻
+鋼の竜巻(攻撃), 竜巻
+鋼の竜巻(命中), 竜巻 Crash.wav;超打 -.wav
+エレクトリックブラスト(準備)(鬼械神クロックワーク・ファントム), 粒子集中 黄;発光 黄 -.wav
+エレクトリックブラスト(攻撃)(鬼械神クロックワーク・ファントム), ２連ショックビーム 黄
+エレクトリックブラスト(命中)(鬼械神クロックワーク・ファントム), ２連ショックビーム 黄
+火星人襲来(準備), 光球集中 白 Flash.wav;周囲回転 "Shield\EFFECT_ThrowingShield(White)01.bmp" 32 -.wav;四刀流 "Shield\EFFECT_ThrowingShield(White)01.bmp" 32 Flair.wav
+火星人襲来(攻撃), ８ＷＡＹ射出 Flash.wav
+火星人襲来(命中), 周囲回転 "Shield\EFFECT_ThrowingShield(White)01.bmp" 32 Flash.wav;2;小ビーム 赤 ランダム方向 Beam.wav;小ビーム 赤 ランダム方向 Beam.wav;小ビーム 赤 ランダム方向 Beam.wav;Beam(8Shot).wav;包囲ビーム 赤 -.wav;包囲ビーム 赤 -.wav;大爆発 赤
+鋼鉄の嵐(準備), ロケットパンチ "Hand\EFFECT_RocketPunch(Yellow)03.bmp" 44;@戦闘アニメ_斬撃攻撃 二刀流;大気吸収 白 Storm.wav 
+鋼鉄の嵐(攻撃), 旋風 白
+鋼鉄の嵐(命中), 旋風 白;光斬撃乱舞 大 白 Crash.wav;大気放出 Explode(Far).wav
+工具の嵐(準備), 光球集中 白;四刀流 "DGoods\EFFECT_ScrewDriver(Black)01.bmp" 40 Reload.wav;四刀流 "DGoods\EFFECT_Pliers(Blue)01.bmp" 40 Reload.wav
+工具の嵐(攻撃), ８ＷＡＹ射出
+工具の嵐(命中), シュートカッター改 "DGoods\EFFECT_ScrewDriver(Black)01.bmp" 40 Crash.wav ランダム方向;シュートカッター改 "DGoods\EFFECT_Pliers(Blue)01.bmp" 40 Crash.wav ランダム方向;シュートカッター改 "DGoods\EFFECT_ScrewDriver(Black)01.bmp" 40 Crash.wav ランダム方向;シュートカッター改 "DGoods\EFFECT_Pliers(Blue)01.bmp" 40 Crash.wav ランダム方向;1;点乱打 白 Crash.wav
+ワイヤー(準備), -
+ワイヤー(攻撃), 旋回光弾 黄 Drill(2).wav 対象ユニットＩＤ;全拡散ビーム 黄 Snap(E).wav チャージなし
+ワイヤー(命中), ホーミングレーザー 黄 Slash.wav
+ワイヤー(クリティカル), @戦闘アニメ_大拡散ビーム攻撃 黄 Swing(2).wav チャージなし;3;@戦闘アニメ_大拡散ビーム命中 黄 Slash.wav
+エレクトリックブラスト(準備)(鬼械神クロックワーク・ファントム最終ロット), 旋回光弾 黄 Drill(2).wav;発光 黄 -.wav
+エレクトリックブラスト(攻撃)(鬼械神クロックワーク・ファントム最終ロット), 全拡散ビーム 黄 Beam.wav チャージなし;2;メガショックビーム 黄
+エレクトリックブラスト(命中)(鬼械神クロックワーク・ファントム最終ロット), ホーミングレーザー 黄 Slash.wav;メガショックビーム 黄 Thunderbolt.wav
+電撃の嵐(準備), 粒子集中 黄 Charge(high).wav;発光 黄 -.wav;放電 -.wav
+電撃の嵐(攻撃), 球体破裂 黄 Thunderbolt.wav 対象ユニットＩＤ
+電撃の嵐(命中), 大電撃;2;光斬撃乱舞 大 黄 Thunderbolt.wav;放電 -.wav
+核ミサイル(準備), 粒子集中 黄 Charge(high).wav;光噴出 黄 -.wav;2;射撃武器転送 "Bullet\EFFECT_ICBM01.bmp" 64
+核ミサイル(攻撃),  AntiShipMissile.wav;ＩＣＢＭ長距離 -.wav;ＭＡＰフラッシュ 白 EvilEye.wav;2;ＭＡＰ超爆発 HyperExplode.wav
+核ミサイル(命中), -
+這い寄る混沌(準備), 大気吸収 黒 Interference.wav;粒子集中 黒 -.wav;粒子集中 黒 -.wav;球体圧縮 黒 -.wav
+這い寄る混沌(攻撃), 重力弾
+這い寄る混沌(命中), フラッシュ 黒 EvilEye.wav;大気吸収 黒 -.wav;球体破裂 赤 Laugh.wav;フラッシュ 黒
+這い寄る混沌(とどめ), 重力圧縮 Zapper.wav
+
+
+破壊ロボ
+冷凍ビーム(攻撃), 小ビーム ブルー
+冷凍ビーム(命中), 小ビーム ブルー;凍結 Glass.wav
+破壊ロボ砲(攻撃), 大キャノン砲 Bazooka.wav;大キャノン砲 Bazooka.wav
+破壊ロボ砲(命中), 連続大爆発 2
+ゴツイ腕, 打突
+熱光線, 特殊光線 赤
+ドリル, ドリル
+ミサイル, ミサイル 8 遅
+砲塔, キャノン砲 3
+Ｇ・クロスファイア(準備), @戦闘アニメ_デフォルト攻撃 Reload.wav;2;@戦闘アニメ_デフォルト攻撃 Reload.wav;2;@戦闘アニメ_デフォルト攻撃 Reload.wav;2;@戦闘アニメ_デフォルト攻撃 Reload.wav;2;発光 白 Sword.wav
+Ｇ・クロスファイア(攻撃), キャノン砲 8 Bazooka.wav;ミサイル 8
+Ｇ・クロスファイア(命中), MicroMissile.wav;連続大爆発 4 -.wav;連続大爆発 4 -.wav;@戦闘アニメ_持続ビーム攻撃 青;大爆発 BeamCannon.wav
+Ｇ・クロスファイア(解説), $(ユニット)はジェノサイド・クロスファイアで攻撃をかけた。
+Ｄトルネードクラッシャー(準備), ドリル;粒子集中 赤 Drill.wav;粒子集中 赤 Drill.wav;3;ドリル Storm.wav
+Ｄトルネードクラッシャー(攻撃), 刺突 Storm.wav;旋風 -.wav
+Ｄトルネードクラッシャー(命中), 超打 Storm.wav;旋風 -.wav
+Ｄトルネードクラッシャー(解説), $(ユニット)はドリル・トルネード・クラッシャーで攻撃をかけた。
+ＤＴクラッシュアッパー(準備), ドリル;粒子集中 赤 Drill.wav;粒子集中 赤 Drill.wav;3;ドリル Storm.wav
+ＤＴクラッシュアッパー(攻撃), アッパー Storm.wav
+ＤＴクラッシュアッパー(命中), アッパー Crash.wav;竜巻 Crash.wav
+ＤＴクラッシュアッパー(解説), $(ユニット)はドリル・トルネード・クラッシュ・アッパーで攻撃をかけた。
+アトランティスストライク(準備), 光噴出 黄 Charge.wav
+アトランティスストライク(攻撃), スーパーキック 黄
+アトランティスストライク(命中), スーパーキック 黄 Explode(High).wav
+アトランティスストライク(解説), $(ユニット)はアトランティス・ストライクで攻撃をかけた。
+我、埋葬にあたわず<拡散>(準備), 粒子集中 緑
+我、埋葬にあたわず<拡散>(攻撃), 拡散ビーム 緑
+我、埋葬にあたわず<拡散>(命中), 拡散ビーム 緑 Beam.wav
+我、埋葬にあたわず(準備), 粒子集中 緑
+我、埋葬にあたわず(攻撃), 中ビーム 緑
+我、埋葬にあたわず(命中), 中ビーム 緑
+破壊ビーム(攻撃), 持続ビーム 青
+破壊ビーム(命中), 光噴出 青 Slash.wav;大爆発 BeamCannon.wav
+Ｈ・Ｄ・Ｌ・Ｏ・Ｄ(準備), 光球放出 赤 Warning(2).wav;光球放出 赤 -.wav;光球放出 赤 -.wav
+#Ｈ・Ｄ・Ｌ・Ｏ・Ｄ(準備), 変形 DMD_SuperWestRobo28SP(DrillHead)(NoArm).bmp Drill.wav;光球放出 赤 Warning(2).wav;光球放出 赤 -.wav;光球放出 赤 -.wav
+Ｈ・Ｄ・Ｌ・Ｏ・Ｄ(攻撃), 地面衝撃 -.wav 対象ユニットＩＤ;スーパーダイブ 赤 Bazooka.wav
+Ｈ・Ｄ・Ｌ・Ｏ・Ｄ(命中), スーパーダイブ 赤 Crash.wav;透明化 対象ユニットＩＤ 反映;フラッシュ Flair.wav;5;超大爆発 赤 Explode(Nuclear).wav
+Ｈ・Ｄ・Ｌ・Ｏ・Ｄ(解説), $(ユニット)はハイパー・ドリル・ロケット・オーバードライブで攻撃をかけた。
+スレッジハンマー, ハンマー
+巨腕, 打突
+呪縛の魔法陣(準備), @戦闘アニメ_デフォルト攻撃 Reload.wav
+呪縛の魔法陣(攻撃), @戦闘アニメ_発光準備 青
+呪縛の魔法陣(命中), ホーミングレーザー 青 Whip.wav;魔法陣 青 BeamSaber.wav
+
+
+旧支配者
+触腕(黒), 触手 黒
+邪神の吐息, ＭＡＰフラッシュ
+触腕, 触手 白
+大海嘯, 津波
+魔眼(準備), -
+魔眼(攻撃), @戦闘アニメ_邪眼解放準備 EvilEye.wav;フラッシュ 白
+魔眼(命中), 発光 白 Glass.wav;超打 -.wav
+瘴気(準備), -
+瘴気(攻撃), 火炎弾 紫 Breath.wav
+瘴気(命中), 煙 紫 Breath.wav
+ヨグ＝ソトース招喚(準備), 粒子集中 赤 Splash.wav;光噴出 赤 -.wav
+ヨグ＝ソトース招喚(攻撃), 回転斬撃;@戦闘アニメ_魔法陣準備 白;光打ち上げ 白 Glass.wav
+ヨグ＝ソトース招喚(命中), @戦闘アニメ_光打ち下ろし攻撃 白 Whiz.wav;邪眼解放 大 Flash.wav;フラッシュ 黒 Breath.wav
+ヨグ＝ソトース招喚(とどめ), 重力圧縮;邪眼閉塞 大
+#原作だと門が開かれた時点で終了のため半ば捏造。扉に吸い込まれるイメージ。
+翼竜の群れ(準備), 周囲回転 "Creature\EFFECT_SuspectBird01.bmp" 32 Whiz.wav;四刀流 "Creature\EFFECT_SuspectBird01.bmp" 32
+#翼竜の群れ(準備), 周囲回転 Info(ユニットデータ,ズアウィアの眷属,グラフィック) 32 Whiz.wav;四刀流 Info(ユニットデータ,ズアウィアの眷属,グラフィック) 32
+翼竜の群れ(攻撃), 実弾連射 "Creature\EFFECT_SuspectBird01.bmp" 32 Whiz.wav
+#翼竜の群れ(攻撃), 実弾連射 Info(ユニットデータ,ズアウィアの眷属,グラフィック) 32 Whiz.wav
+翼竜の群れ(命中), 乱突 Crash.wav
+鉤爪(準備), 
+鉤爪(攻撃), 打撃突撃 -.wav;斬撃 赤 AntiAirMissile.wav
+鉤爪(命中), 爪撃 赤 Crash.wav
+
+魔物
+ブリザード, 吹雪
+氷の抱擁, スーパータックル 白
+プラズマ, スーパータックル 赤
+脚部スパイク(攻撃), 触手 赤
+脚部スパイク(命中), 触手 赤 Stab.wav
+熱線砲, 中ビーム ピンク
+触手, 多触手 赤
+呪力弾(準備), 魔法陣 白
+呪力弾(攻撃), 気弾 黒 Bazooka.wav
+呪力弾(命中), 大爆発 黒 Shock(Low).wav
+くちばし(攻撃), タックル
+くちばし(命中), 刺突 Crash.wav
+
+移動要塞『夢幻心母』
+破壊ロボ軍団(準備), -
+破壊ロボ軍団(攻撃), サブマシンガン Info(ユニットデータ,量産型破壊ロボ,グラフィック)
+破壊ロボ軍団(命中), 機関砲
+触腕, 多触手 黒
+
+魔術師
+ガトリングガン(準備), 発光 白 Transform.wav
+ガトリングガン(攻撃), 内蔵チェーンガン 白 Beam(8Shot).wav
+ガトリングガン(命中), 内蔵チェーンガン 白 Beam(8Shot).wav;大爆発 白 -.wav
+ヘヴンズ・セイバー(準備), ビームソード 白 二刀流
+ヘヴンズ・セイバー(攻撃), ビームソード突撃 白 二刀流 FlyBy(High).wav
+ヘヴンズ・セイバー(命中), 光斬撃 中 白 二刀流 Glass.wav
+ビームカノン(準備), 発光 白 Transform.wav;1;粒子集中 白
+ビームカノン(攻撃), 中ビーム 白 BeamGun.wav
+ビームカノン(命中), 中ビーム 白 BeamGun.wav
+スラッシュ・クロス(準備), ビームソード 白 二刀流;発光 白 Sword.wav
+スラッシュ・クロス(攻撃), スーパータックル 白 Storm.wav
+スラッシュ・クロス(命中), スーパータックル 白 Slash(4).wav;2;大斬撃 白 二刀流 Crash.wav
+スラッシュ・クロス(とどめ), 決め文字 † 白 BeamSaber.wav 前面;1;@戦闘アニメ_炎命中 白
+クロス・ファイア(準備), @戦闘アニメ_デフォルト攻撃 Transform.wav;2;@戦闘アニメ_デフォルト攻撃 Transform.wav;2;@戦闘アニメ_デフォルト攻撃 Transform.wav;2;@戦闘アニメ_デフォルト攻撃 Transform.wav;4;粒子集中 白 Charge(High).wav;粒子集中 白 -.wav;発光 白 -.wav
+クロス・ファイア(攻撃), ＭＡＰビーム 白 MicroMissile.wav
+クロス・ファイア(命中), 大拡散ビーム 白 Beam.wav
+ヴァニッシュ・クロス(準備), ビームソード 白 二刀流;粒子集中 白 Charge(High).wav;オーラ上昇 白 -.wav
+ヴァニッシュ・クロス(攻撃), 瞬間変形 Anime\Bullet\EFFECT_BeamRingCutter(White)01.bmp 対象ユニットＩＤ 反映;スーパーダイブ 白 Drill.wav
+ヴァニッシュ・クロス(命中), 透明化 対象ユニットＩＤ 反映;スーパーダイブ 白 Storm.wav;瞬間変形 対象ユニットＩＤ;透明化 対象ユニットＩＤ 反映;フラッシュ 白 -.wav;4;大斬撃 白 二刀流 Crash.wav;超斬撃 白 -.wav
+ヴァニッシュ・クロス(とどめ), 透明化 対象ユニットＩＤ 解除;決め文字 † 白 BeamSaber.wav 前面;1;@戦闘アニメ_炎の壁命中 白  FlameThrower.wav
+格闘(準備), オーラ上昇 黒 Charge(High).wav
+格闘(攻撃), スーパータックル 黒 Shock(Low).wav
+格闘(命中), MultipleRocketLauncher(Light).wav;@戦闘アニメ_連打攻撃 -.wav;@戦闘アニメ_連打攻撃 -.wav;点乱打 黒 Bazooka.wav;超打 Bazooka.wav
+#乱打
+格闘(命中), @戦闘アニメ_打撃突撃攻撃 Walk(Snow).wav;@戦闘アニメ_打突攻撃 Shock(Low).wav;2;超打 Crash.wav
+#正拳突き
+格闘(命中), @戦闘アニメ_打撃突撃攻撃 Walk(Snow).wav;@戦闘アニメ_刺突攻撃 Swing(2).wav;2;大刺突 黒 Glass.wav
+#貫手
+格闘(クリティカル), @戦闘アニメ_粒子集中準備 黒 Roar.wav;@戦闘アニメ_光噴出準備 黒 -.wav;2;@戦闘アニメ_転移 Swing(2).wav;透明化 対象ユニットＩＤ 反映;@戦闘アニメ_旋風命中 黒 Bazooka(8Shot).wav;@戦闘アニメ_超打命中 -.wav
+#黒い暴風、黒い嵐と例えられた連続攻撃
+気弾(準備), 粒子集中 黒
+気弾(攻撃), 打撃突撃 -.wav;打突 Walk(Snow).wav;1;実弾発射 "Bullet\EFFECT_AuraBall(Black)01.bmp" 32 Bazooka.wav 発光
+気弾(命中), 点打 黒 Shock(Low).wav
+気弾(クリティカル), @戦闘アニメ_オーラ上昇準備 黒;1;@戦闘アニメ_実弾乱射攻撃 "Bullet\EFFECT_AuraBall(Black)02.bmp" 40 Bazooka.wav 発光;2;@戦闘アニメ_点乱打命中 黒 Shock(Low).wav
+突撃(準備), @戦闘アニメ_デフォルト攻撃 Engine.wav;3;@戦闘アニメ_デフォルト攻撃 -.wav;3;@戦闘アニメ_デフォルト攻撃 -.wav
+突撃(攻撃), スーパータックル 白 AntiShipMissile.wav
+突撃(命中), スーパータックル 白 Crash.wav
+忌まわしき狩人(準備), 粒子集中 白 Charge(High).wav;粒子集中 白 -.wav;発光 白 -.wav
+忌まわしき狩人(攻撃), スーパータックル 白 MicroMissile.wav
+忌まわしき狩人(命中), 透明化 対象ユニットＩＤ 反映;Warship(8Shot).wav;超ビーム 白 -.wav;大爆発 白 Crash.wav
+忌まわしき狩人(とどめ), 貫通穴 Shock(Low).wav
+
+サンダルフォンｏｎハンティング・ホラー
+忌まわしき狩人(準備), 粒子集中 黒 Interference.wav;粒子集中 黒 -.wav;粒子集中 黒 -.wav;光大噴出 黒 -.wav
+忌まわしき狩人(攻撃), スーパータックル 黒 Roar.wav
+忌まわしき狩人(命中), 透明化 対象ユニットＩＤ 反映;Warship(8Shot).wav;超ビーム 黒 -.wav;超大爆発 黒 HyperExplode.wav
+
+
+#### 専用指定
+
+九郎＆アル専用鬼械神デモンベイン
+零距離銃舞(準備), -
+零距離銃舞(攻撃), @戦闘アニメ_振る武器粒子集中召喚準備 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 赤 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 青 二刀流;会話 アル＝アジフ(怒り) "断鎖術式壱号ティマイオス！ 弐号クリティアス！" 固定;@戦闘アニメ_光噴出準備 緑 Charge.wav;1;急降下 Bazooka.wav
+零距離銃舞(命中), 急降下 Shock(Low).wav;@戦闘アニメ_別武器二丁拳銃準備 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32;会話 大十字九郎(真剣) "――散華しろ" 固定;@戦闘アニメ_別武器二丁拳銃乱射攻撃 画像ファイル="Weapon\EFFECT_DMD_Cthugha.bmp"="Weapon\EFFECT_DMD_Ithaqua.bmp"="ShootAnime\EFFECT_ChainGunShot(Red)01.bmp"="ShootAnime\EFFECT_ChainGunShot(Blue)01.bmp" 画像サイズ=32=32=64=64;点乱打 黄 Crash.wav;会話 大十字九郎(思考) "アトランティス――" 固定;@戦闘アニメ_スーパーキック攻撃 緑;会話 大十字九郎＆アル＝アジフ "ストラァァァァイク！" 固定;スーパーキック 緑 Explode(High).wav
+零距離銃舞(攻撃), @戦闘アニメ_振る武器粒子集中召喚準備 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 赤 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 青 二刀流;会話 大十字九郎(回避) "断鎖術式壱号ティマイオス、弐号クリティアス！" 固定;@戦闘アニメ_光噴出準備 緑 Charge.wav;1;急降下 Bazooka.wav
+零距離銃舞(命中), 急降下 Shock(Low).wav;@戦闘アニメ_別武器二丁拳銃準備 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32;会話 大十字九郎(真剣) "――散華しろ" 固定;@戦闘アニメ_別武器二丁拳銃乱射攻撃 画像ファイル="Weapon\EFFECT_DMD_Cthugha.bmp"="Weapon\EFFECT_DMD_Ithaqua.bmp"="ShootAnime\EFFECT_ChainGunShot(Red)01.bmp"="ShootAnime\EFFECT_ChainGunShot(Blue)01.bmp" 画像サイズ=32=32=64=64;点乱打 黄 Crash.wav;会話 大十字九郎(思考) "アトランティス……" 固定;@戦闘アニメ_スーパーキック攻撃 緑;会話 大十字九郎(叫び) "ストライクッ！" 固定;スーパーキック 緑 Explode(High).wav
+輝くトラペゾヘドロン(攻撃), 会話 アル＝アジフ(怒り) "我は光　夜道を這う旅人に灯す　命の煌き" 固定;回転斬撃;@戦闘アニメ_振る武器準備 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光 Swing.wav;会話 大十字九郎(真剣) "我は闇　染まらぬ揺らがぬ迷わぬ　不変と愛" 固定;なぎ払い;振り下ろし;なぎ払い;1;@戦闘アニメ_振る武器準備 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光 Slash(4).wav;会話 大十字九郎＆アル＝アジフ "その切実なる命の叫びを胸に" 固定;会話 大十字九郎＆アル＝アジフ "祝福の華に誓って" 固定;会話 大十字九郎＆アル＝アジフ "――我は世界を紡ぐ者なり！" 固定;@戦闘アニメ_ユニット変色準備 イエロー Flash.wav;振る武器突撃 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光
+
+
+旧神九郎＆旧神アル専用鬼械神デモンベイン
+零距離銃舞(準備), -
+零距離銃舞(攻撃), @戦闘アニメ_振る武器粒子集中召喚準備 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 赤 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 青 二刀流;会話 アル＝アジフ(旧神) "断鎖術式壱号ティマイオス！ 弐号クリティアス！" 固定;@戦闘アニメ_光噴出準備 緑 Charge.wav;1;急降下 Bazooka.wav
+零距離銃舞(命中), 急降下 Shock(Low).wav;@戦闘アニメ_別武器二丁拳銃準備 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32;会話 大十字九郎(旧神) "――散華しろ" 固定;@戦闘アニメ_別武器二丁拳銃乱射攻撃 画像ファイル="Weapon\EFFECT_DMD_Cthugha.bmp"="Weapon\EFFECT_DMD_Ithaqua.bmp"="ShootAnime\EFFECT_ChainGunShot(Red)01.bmp"="ShootAnime\EFFECT_ChainGunShot(Blue)01.bmp" 画像サイズ=32=32=64=64;点乱打 黄 Crash.wav;会話 大十字九郎(旧神) "アトランティス――" 固定;@戦闘アニメ_スーパーキック攻撃 緑;会話 大十字九郎(旧神)＆アル＝アジフ(旧神) "ストラァァァァイク！" 固定;スーパーキック 緑 Explode(High).wav
+零距離銃舞(攻撃), @戦闘アニメ_振る武器粒子集中召喚準備 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 赤 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32 青 二刀流;会話 大十字九郎(旧神) "断鎖術式壱号ティマイオス、弐号クリティアス！" 固定;@戦闘アニメ_光噴出準備 緑 Charge.wav;1;急降下 Bazooka.wav
+零距離銃舞(命中), 急降下 Shock(Low).wav;@戦闘アニメ_別武器二丁拳銃準備 "Weapon\EFFECT_DMD_Cthugha.bmp" 32 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32;会話 大十字九郎(旧神) "――散華しろ" 固定;@戦闘アニメ_別武器二丁拳銃乱射攻撃 画像ファイル="Weapon\EFFECT_DMD_Cthugha.bmp"="Weapon\EFFECT_DMD_Ithaqua.bmp"="ShootAnime\EFFECT_ChainGunShot(Red)01.bmp"="ShootAnime\EFFECT_ChainGunShot(Blue)01.bmp" 画像サイズ=32=32=64=64;点乱打 黄 Crash.wav;会話 大十字九郎(旧神) "アトランティス……" 固定;@戦闘アニメ_スーパーキック攻撃 緑;会話 大十字九郎(旧神) "ストライクッ！" 固定;スーパーキック 緑 Explode(High).wav
+輝くトラペゾヘドロン(攻撃), 会話 アル＝アジフ(旧神) "我は光　夜道を這う旅人に灯す　命の煌き" 固定;回転斬撃;@戦闘アニメ_振る武器準備 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光 Swing.wav;会話 大十字九郎(旧神) "我は闇　染まらぬ揺らがぬ迷わぬ　不変と愛" 固定;なぎ払い;振り下ろし;なぎ払い;1;@戦闘アニメ_振る武器準備 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光 Slash(4).wav;会話 大十字九郎(旧神)＆アル＝アジフ(旧神) "その切実なる命の叫びを胸に" 固定;会話 大十字九郎(旧神)＆アル＝アジフ(旧神) "祝福の華に誓って" 固定;会話 大十字九郎(旧神)＆アル＝アジフ(旧神) "――我は世界を紡ぐ者なり！" 固定;@戦闘アニメ_ユニット変色準備 イエロー Flash.wav;振る武器突撃 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光
+
+マスターテリオン専用鬼械神リベル・レギス
+天狼星の弓・セト(命中), 魔法陣 黄 BeamSaber.wav;_
+会話 マスターテリオン "悪神セト、蹂躙せよ" 固定;@戦闘アニメ_オーラ上昇準備 黒;@戦闘アニメ_射撃武器変形準備 "Weapon\EFFECT_DMD_BowOfSirius.bmp" 48 "Fire\EFFECT_DragonFire_S(Black)01.bmp" 48 Shock(Low).wav;_
+会話 マスターテリオン(攻撃) "……侵せ。" 固定;@戦闘アニメ_火炎放射器攻撃 "Fire\EFFECT_DragonFire_S(Black)01.bmp" 48 オレンジ Breath.wav;_
+会話 マスターテリオン(攻撃) "……侵せ。 犯せ！" 固定;火炎放射器 オレンジ Breath.wav;_
+会話 マスターテリオン(攻撃) "……侵せ。 犯せ！ 冒せぇぇぇ！" 固定;@戦闘アニメ_伸縮武器攻撃 "Fire\EFFECT_DragonFire_S(Black)[01-03].bmp" 48 MicroMissile.wav;超ビーム 黒 -.wav
+
+テリオン＆エセル専用鬼械神リベル・レギス
+天狼星の弓・セト(命中), 魔法陣 黄 BeamSaber.wav;_
+会話 ナコト写本の精霊エセルドレーダ(攻撃) "我は狗、我は蛇、我は弓、我は星……" 固定;会話 マスターテリオン "悪神セト、蹂躙せよ" 固定;@戦闘アニメ_オーラ上昇準備 黒;@戦闘アニメ_射撃武器変形準備 "Weapon\EFFECT_DMD_BowOfSirius.bmp" 48 "Fire\EFFECT_DragonFire_S(Black)01.bmp" 48 Shock(Low).wav;_
+会話 マスターテリオン(攻撃) "……侵せ。" 固定;@戦闘アニメ_火炎放射器攻撃 "Fire\EFFECT_DragonFire_S(Black)01.bmp" 48 オレンジ Breath.wav;_
+会話 マスターテリオン(攻撃) "……侵せ。 犯せ！" 固定;火炎放射器 オレンジ Breath.wav;_
+会話 マスターテリオン(攻撃) "……侵せ。 犯せ！ 冒せぇぇぇ！" 固定;@戦闘アニメ_伸縮武器攻撃 "Fire\EFFECT_DragonFire_S(Black)[01-03].bmp" 48 MicroMissile.wav;超ビーム 黒 -.wav
+輝くトラペゾヘドロン(攻撃), 会話 ナコト写本の精霊エセルドレーダ(攻撃) "我は闇　重き枷となりて路を奪う　死の漆黒" 固定;回転斬撃;@戦闘アニメ_振る武器準備 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光 Swing.wav;会話 マスターテリオン "我は光　眸を灼く己を灼く世界を灼く　熾列と憎悪" 固定;なぎ払い;振り下ろし;なぎ払い;1;@戦闘アニメ_振る武器準備 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光 Slash(4).wav;会話 マスターテリオン＆エセルドレーダ "その深き昏き怨讐を胸に" 固定;会話 マスターテリオン＆エセルドレーダ "埋葬の華に誓って" 固定;会話 マスターテリオン＆エセルドレーダ "――我は世界を紡ぐ者なり！" 固定;@戦闘アニメ_オーラ上昇準備 黄 Flash.wav;2;振る武器突撃 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光
+#捏造気味ですがリベル・レギス側もトラペゾ詠唱追加。気に入らない場合は削除してやってください。
+
+鬼械神皇餓(二刀流)
+鎌居太刀(準備), 野太刀 二刀流 Reload(2).wav
+鎌居太刀(攻撃), なぎ払い;シュートカッター 白 AntiAirMissile.wav
+鎌居太刀(命中), シュートカッター 白 Slash(4).wav
+紅桜(準備), 野太刀 二刀流 Reload(2).wav
+紅桜(攻撃), 連続なぎ払い Swing(2).wav
+紅桜(命中), 連続なぎ払い Slash(4).wav
+
+ティトゥス専用鬼械神皇餓
+必殺剣・羅刹(命中), なぎ払い Slash(4).wav;@戦闘アニメ_斬撃攻撃 二刀流;唐竹割り Shock(Low).wav;地面衝撃 -.wav;@戦闘アニメ_オーラ上昇準備 黄 Charge(High).wav;@戦闘アニメ_粒子集中準備 黄 -.wav;@戦闘アニメ_振る武器準備 "LightWeapon\EFFECT_LightGiantSword(Yellow)01.bmp" 56 BeamSaber(5).wav;@戦闘アニメ_突く武器急降下攻撃 "LightWeapon\EFFECT_LightGiantSword(Yellow)02.bmp" 80 AntiAirMissile.wav;0;会話 アンチクロス・ティトゥス "必殺剣――羅刹！" 固定;突く武器急降下 "LightWeapon\EFFECT_LightGiantSword(Yellow)01.bmp" 56 Glass.wav;超大爆発 黄 Explode(Nuclear).wav
+剣舞・阿修羅(命中), 刺突 Slash(4).wav;@戦闘アニメ_四刀流準備 "Weapon\EFFECT_Nodachi01.bmp" 40 Transform.wav;MicroMissile.wav;@戦闘アニメ_斬撃乱舞攻撃 -.wav;@戦闘アニメ_乱突攻撃 -.wav;斬撃乱舞 Slash(4).wav;乱突 Stab.wav;_
+会話 アンチクロス・ティトゥス "――ハァッ！ 御命頂戴！" 固定;@戦闘アニメ_四刀流突撃攻撃 "Weapon\EFFECT_Nodachi01.bmp" 40 AntiAirMissile.wav;大斬撃 二刀流 -.wav;超斬撃 Crash.wav
+剣舞・阿修羅(命中), 刺突 Slash(4).wav;@戦闘アニメ_四刀流準備 "Weapon\EFFECT_Nodachi01.bmp" 40 Transform.wav;MicroMissile.wav;@戦闘アニメ_斬撃乱舞攻撃 -.wav;@戦闘アニメ_乱突攻撃 -.wav;斬撃乱舞 Slash(4).wav;乱突 Stab.wav;_
+会話 アンチクロス・ティトゥス "その首、もらったァッ！" 固定;@戦闘アニメ_四刀流突撃攻撃 "Weapon\EFFECT_Nodachi01.bmp" 40 AntiAirMissile.wav;大斬撃 二刀流 -.wav;超斬撃 Crash.wav
+
+ティトゥス専用鬼械神皇餓(二刀流)
+鎌居太刀(準備), 野太刀 二刀流 Reload(2).wav
+鎌居太刀(攻撃), なぎ払い;シュートカッター 白 AntiAirMissile.wav
+鎌居太刀(命中), シュートカッター 白 Slash(4).wav
+紅桜(準備), 野太刀 二刀流 Reload(2).wav
+紅桜(攻撃), 連続なぎ払い Swing(2).wav
+紅桜(命中), 連続なぎ払い Slash(4).wav
+必殺剣・羅刹(命中), なぎ払い Slash(4).wav;@戦闘アニメ_斬撃攻撃 二刀流;唐竹割り Shock(Low).wav;地面衝撃 -.wav;@戦闘アニメ_オーラ上昇準備 黄 Charge(High).wav;@戦闘アニメ_粒子集中準備 黄 -.wav;@戦闘アニメ_振る武器準備 "LightWeapon\EFFECT_LightGiantSword(Yellow)01.bmp" 56 BeamSaber(5).wav;@戦闘アニメ_突く武器急降下攻撃 "LightWeapon\EFFECT_LightGiantSword(Yellow)02.bmp" 80 AntiAirMissile.wav;0;会話 アンチクロス・ティトゥス "必殺剣――羅刹！" 固定;突く武器急降下 "LightWeapon\EFFECT_LightGiantSword(Yellow)01.bmp" 56 Glass.wav;超大爆発 黄 Explode(Nuclear).wav
+剣舞・阿修羅(命中), 刺突 Slash(4).wav;@戦闘アニメ_四刀流準備 "Weapon\EFFECT_Nodachi01.bmp" 40 Transform.wav;MicroMissile.wav;@戦闘アニメ_斬撃乱舞攻撃 -.wav;@戦闘アニメ_乱突攻撃 -.wav;斬撃乱舞 Slash(4).wav;乱突 Stab.wav;_
+会話 アンチクロス・ティトゥス "――ハァッ！ 御命頂戴！" 固定;@戦闘アニメ_四刀流突撃攻撃 "Weapon\EFFECT_Nodachi01.bmp" 40 AntiAirMissile.wav;大斬撃 二刀流 -.wav;超斬撃 Crash.wav
+剣舞・阿修羅(命中), 刺突 Slash(4).wav;@戦闘アニメ_四刀流準備 "Weapon\EFFECT_Nodachi01.bmp" 40 Transform.wav;MicroMissile.wav;@戦闘アニメ_斬撃乱舞攻撃 -.wav;@戦闘アニメ_乱突攻撃 -.wav;斬撃乱舞 Slash(4).wav;乱突 Stab.wav;_
+会話 アンチクロス・ティトゥス "その首、もらったァッ！" 固定;@戦闘アニメ_四刀流突撃攻撃 "Weapon\EFFECT_Nodachi01.bmp" 40 AntiAirMissile.wav;大斬撃 二刀流 -.wav;超斬撃 Crash.wav
+
+
+スーパーウェスト無敵ロボ２８號スペシャル
+Ｇ・クロスファイア, 小ビーム ブルー;キャノン砲 3;特殊光線 赤;機関砲
+
+九朔専用鬼械神デモンベイン・トゥーソード
+銃鳴葬送曲(攻撃), 別武器二丁拳銃 画像ファイル="Weapon\EFFECT_DMD_Cthugha.bmp"="Weapon\EFFECT_DMD_Ithaqua.bmp"="ShootAnime\EFFECT_ChainGunShot(Red)01.bmp"="ShootAnime\EFFECT_ChainGunShot(Blue)01.bmp" 画像サイズ=32=32=64=64;_
+会話 大十字九朔 "我、視線は敵を射抜き、.殺意は引き金を絞り" 固定;拡散ビームライフル 青 "Weapon\EFFECT_DMD_Ithaqua.bmp" 32;_
+会話 大十字九朔 "我、視線は敵を射抜き、.殺意は引き金を絞り、魂は弾丸に宿る！" 固定;別武器二丁拳銃連射 画像ファイル="Weapon\EFFECT_DMD_Cthugha.bmp"="Weapon\EFFECT_DMD_Ithaqua.bmp"="ShootAnime\EFFECT_ChainGunShot(Red)01.bmp"="ShootAnime\EFFECT_ChainGunShot(Blue)01.bmp" 画像サイズ=32=32=64=64
+銃鳴葬送曲(命中), 点乱打 黄 Explode.wav;ビームレイン 青 Glass.wav;_
+会話 大十字九朔 "<SIZE=8>　　　　　ブラストブリッツ・クライ×３</SIZE>.歌え、銃声の鎮魂歌！" 固定;_
+@戦闘アニメ_別武器二丁拳銃乱射攻撃 画像ファイル="Weapon\EFFECT_DMD_Cthugha.bmp"="Weapon\EFFECT_DMD_Ithaqua.bmp"="ShootAnime\EFFECT_ChainGunShot(Red)01.bmp"="ShootAnime\EFFECT_ChainGunShot(Blue)01.bmp" 画像サイズ=32=32=64=64;連続大爆発 4 黄 Explode(High).wav;大爆発 黄 Explode(High).wav
+#;点乱打 黄 Crash.wav;大爆発 黄 Explode(High).wav
+剣聖銃神騎行曲(命中), 点乱打 黄 Crash.wav;_
+会話 大十字九朔 "受けよ、剣聖の舞！" 固定;@戦闘アニメ_振る武器粒子集中召喚準備 "Weapon\EFFECT_Dagger01.bmp" 32 "Weapon\EFFECT_Sword01.bmp" 32 二刀流 白;_
+会話 大十字九朔 "斬魔！" 固定;@戦闘アニメ_左右別武器突撃攻撃 "Weapon\EFFECT_Dagger01.bmp" 32 "Weapon\EFFECT_Sword01.bmp" 32 Swing(2).wav;横大斬撃 Slash(4).wav;_
+会話 大十字九朔 "斬魔！ 破邪！" 固定;@戦闘アニメ_左右別武器突撃攻撃 "Weapon\EFFECT_Dagger01.bmp" 32 "Weapon\EFFECT_Sword01.bmp" 32 Swing(2).wav;唐竹割り Slash(4).wav;_
+会話 大十字九朔 "――天魔覆滅ッ！" 固定;二種突撃 "Weapon\EFFECT_Dagger01.bmp" 32 "Weapon\EFFECT_Sword01.bmp" 32 振り 斬撃
+
+シュリュズベリイ＆ハヅキ専用鬼械神アンブロシウス
+鏖殺の魔翼(命中), 大刺突 赤 FastGun.wav;大刺突 赤 -.wav;大刺突 赤 -.wav;大刺突 赤 -.wav;@戦闘アニメ_変形準備 Info(ユニットデータ,鬼械神アンブロシウス,グラフィック);@戦闘アニメ_エネルギー集束準備 "Impact\EFFECT_ImpactBall(Pink)02.bmp" 28 ピンク;_
+会話 セラエノ断章の精霊ハヅキ "<SIZE=8>　　　　　　 マキーナ</SIZE>.木っ端機械風情が……。消えろ！" 固定;@戦闘アニメ_実弾発射攻撃 "Impact\EFFECT_ImpactBall(Pink)02.bmp" 28 Bazooka.wav;1;大爆発 ピンク Glass.wav
+鏖殺の魔翼(命中), 大刺突 赤 FastGun.wav;大刺突 赤 -.wav;大刺突 赤 -.wav;大刺突 赤 -.wav;@戦闘アニメ_変形準備 Info(ユニットデータ,鬼械神アンブロシウス,グラフィック);@戦闘アニメ_エネルギー集束準備 "Impact\EFFECT_ImpactBall(Pink)02.bmp" 28 ピンク;_
+会話 ラバン＝シュリュズベリイ(ＤＭＤ) "ホラーハンターの真髄、教授する！" 固定;_
+会話 セラエノ断章の精霊ハヅキ "微塵と化して砕け散れ！" 固定;@戦闘アニメ_実弾発射攻撃 "Impact\EFFECT_ImpactBall(Pink)02.bmp" 28 Bazooka.wav;1;大爆発 ピンク Glass.wav
+凶殺の魔爪(命中), センタリング;大斬撃 Slash(4).wav;_
+会話 ラバン＝シュリュズベリイ(ＤＭＤ) "<SIZE=8>　　　　　 ウツロ</SIZE>.風は空虚な空を往く――" 固定;スーパータックル 青 Slash(4).wav;_
+会話 セラエノ断章の精霊ハヅキ "声は絶えよ" 固定;スーパータックル 青 Slash(4).wav;_
+会話 セラエノ断章の精霊ハヅキ "声は絶えよ、歌は消えよ！" 固定;スーパータックル乱舞 青 Slash(4).wav;_
+会話 セラエノ断章の精霊ハヅキ "──涙は！" 固定;会話 ラバン＝シュリュズベリイ(ＤＭＤ) "流れぬまま枯れ果てよ！" 固定;@戦闘アニメ_大斬撃攻撃  Swing(2).wav;1;超斬撃 Crash.wav
+
+鬼械神デモンベイン・ブラッド
+攻撃無効化(防禦陣), 網目バリア 防禦陣 赤 BeamCoat.wav
+格闘(命中), 爪撃 赤 二刀流 Slash.wav
+
+鬼械神アイオーン(エドガー)
+二刀偃月刀(準備), 振る武器粒子集中召喚 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 赤 青 二刀流 Breath.wav;2;@戦闘アニメ_斬撃攻撃 二刀流;振る武器 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 二刀流 Reload(2).wav
+二刀偃月刀(命中), @戦闘アニメ_振る武器突撃攻撃 "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 二刀流 Swing.wav;凍斬撃 Ice.wav;1;@戦闘アニメ_振る武器突撃攻撃  "Weapon\EFFECT_DMD_ScimitarOfBarzai.bmp" 32 二刀流 Swing.wav;炎斬撃 Breath.wav
+
+プロトタイプデモンベイン
+レムリア・インパクト(準備), 粒子集中 緑;煙 黒;魔法陣 緑 背面
+レムリア・インパクト(攻撃), スーパーパンチ 緑
+レムリア・インパクト(命中), スーパーパンチ 緑 Crash.wav;3;レムリア・インパクト
+レムリア・インパクト(とどめ), レムリア・インパクト 結界なし
+
+超鬼械神デモンベイン
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_Pentagram(White)08.bmp" 32 BeamCoat.wav 発光 防禦陣
+呪文螺旋・神銃形態(準備), 射撃武器粒子集中召喚 "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64 Breath.wav 赤;2;射撃武器 "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64
+呪文螺旋・神銃形態(攻撃), 手持ち発射 "Weapon\EFFECT_AntiMaterialRifle01.bmp" 64 対象ユニットＩＤ "Impact\EFFECT_ImpactBall(Orange)02.bmp" 28 Shock(Low).wav
+呪文螺旋・神銃形態(命中), オーラ 橙 Explode(Long).wav
+
+邪神ズアウィア
+触手(攻撃), 多触手 赤;多触手 赤
+触手(命中), 多触手 赤;多触手 赤;@戦闘アニメ_タックル攻撃 Shock(Low).wav;1;噛み付き Crash.wav
+
+ダンウィッチの怪異
+触腕(準備), -
+触腕(攻撃), 連斬撃
+触腕(命中), 連打 Whip.wav
+触腕(クリティカル), @戦闘アニメ_スピンアタック攻撃;@戦闘アニメ_超打命中 Crash.wav
+
+#### 防禦陣
+
+汎用
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_MagicEmblem(White)01.bmp" 48 BeamCoat.wav 発光 防禦陣
+
+鬼械神デモンベイン(前期)
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_Pentagram(White)08.bmp" 32 BeamCoat.wav 発光 防禦陣
+格闘(攻撃), 振る武器突撃 -.bmp 32 Whiz.wav
+格闘(命中), @戦闘アニメ_打撃突撃攻撃 -.wav;@戦闘アニメ_打突攻撃 Punch(Metal).wav;強打 -.wav;1;@戦闘アニメ_打撃突撃攻撃 -.wav;@戦闘アニメ_打突攻撃 Punch(Metal).wav;強打 -.wav
+格闘(クリティカル), @戦闘アニメ_スーパーパンチ攻撃 黄 Shock(Low).wav;1;@戦闘アニメ_超打命中 Crash.wav
+
+鬼械神デモンベイン(中期)
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_Pentagram(White)08.bmp" 32 BeamCoat.wav 発光 防禦陣
+格闘(攻撃), 振る武器突撃 -.bmp 32 Whiz.wav
+格闘(命中), @戦闘アニメ_打撃突撃攻撃 -.wav;@戦闘アニメ_打突攻撃 Punch(Metal).wav;強打 -.wav;1;@戦闘アニメ_打撃突撃攻撃 -.wav;@戦闘アニメ_打突攻撃 Punch(Metal).wav;強打 -.wav
+格闘(クリティカル), @戦闘アニメ_スーパーパンチ攻撃 黄 Shock(Low).wav;1;@戦闘アニメ_超打命中 Crash.wav
+
+鬼械神デモンベイン
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_Pentagram(White)08.bmp" 32 BeamCoat.wav 発光 防禦陣
+格闘(攻撃), 振る武器突撃 -.bmp 32 Whiz.wav
+格闘(命中), @戦闘アニメ_打撃突撃攻撃 -.wav;@戦闘アニメ_打突攻撃 Punch(Metal).wav;強打 -.wav;1;@戦闘アニメ_打撃突撃攻撃 -.wav;@戦闘アニメ_打突攻撃 Punch(Metal).wav;強打 -.wav
+格闘(クリティカル), @戦闘アニメ_スーパーパンチ攻撃 黄 Shock(Low).wav;1;@戦闘アニメ_超打命中 Crash.wav
+
+鬼械神リベル・レギス
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_MagicEmblem(Red)01.bmp" 48 BeamCoat.wav 発光 防禦陣
+
+鬼械神リベル・レギス(開放)
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_MagicEmblem(Red)01.bmp" 48 BeamCoat.wav 発光 防禦陣
+輝くトラペゾヘドロン(攻撃), 回転斬撃;@戦闘アニメ_振る武器準備 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光 Swing.wav;なぎ払い;振り下ろし;なぎ払い;1;@戦闘アニメ_振る武器準備 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光 Slash(4).wav;2;@戦闘アニメ_オーラ上昇準備 黄 Flash.wav;2;振る武器突撃 "Weapon\EFFECT_DMD_ShiningTrapezohedron.bmp" 56 発光
+
+鬼械神クラーケン
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_MagicEmblem(LightBlue)01.bmp"  48 BeamCoat.wav 発光 防禦陣
+
+鬼械神ロードビヤーキー
+攻撃無効化(防禦陣), 防御連続描画 防禦陣 "Common\EFFECT_Tornado[01-04].bmp" 48 - 3 前面 保持 Storm.wav
+
+鬼械神サイクラノーシュ
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_MagicEmblem(Blue)01.bmp" 48 Roar.wav 発光 防禦陣
+
+鬼械神デモンベイン・トゥーソード(前期)
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_Pentagram(White)08.bmp" 32 BeamCoat.wav 発光 防禦陣
+格闘(攻撃), 振る武器突撃 -.bmp 32 Whiz.wav
+格闘(命中), @戦闘アニメ_打撃突撃攻撃 -.wav;@戦闘アニメ_打突攻撃 Punch(Metal).wav;強打 -.wav;1;@戦闘アニメ_キック攻撃 Punch(Metal).wav;強打 -.wav
+格闘(クリティカル), @戦闘アニメ_浴びせ蹴り攻撃 Swing(2).wav;@戦闘アニメ_唐竹割り命中 Shock(Low).wav;@戦闘アニメ_地面衝撃命中 -.wav
+
+鬼械神デモンベイン・トゥーソード
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_Pentagram(White)08.bmp" 32 BeamCoat.wav 発光 防禦陣
+格闘(攻撃), 振る武器突撃 -.bmp 32 Whiz.wav
+格闘(命中), @戦闘アニメ_打撃突撃攻撃 -.wav;@戦闘アニメ_打突攻撃 Punch(Metal).wav;強打 -.wav;1;@戦闘アニメ_キック攻撃 Punch(Metal).wav;強打 -.wav
+格闘(クリティカル), @戦闘アニメ_浴びせ蹴り攻撃 Swing(2).wav;@戦闘アニメ_唐竹割り命中 Shock(Low).wav;@戦闘アニメ_地面衝撃命中 -.wav
+
+鬼械神アンブロシウス
+攻撃無効化(防禦陣), 防御連続描画 防禦陣 "Common\EFFECT_Tornado[01-04].bmp" 48 - 3 前面 保持 Storm.wav
+
+鬼械神アイオーン
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_Pentagram(White)08.bmp" 32 BeamCoat.wav 発光 防禦陣
+
+鬼械神アイオーン(エドガー)
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_Pentagram(White)08.bmp" 32 BeamCoat.wav 発光 防禦陣
+
+万能自走蒸気機関ゴリアテ
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_Pentagram(White)08.bmp" 32 BeamCoat.wav 発光 防禦陣
+
+超鬼械神リベル・レギス
+攻撃無効化(防禦陣), シールド防御 "Magic\EFFECT_MagicEmblem(Red)01.bmp" 48 BeamCoat.wav 発光 防禦陣
+

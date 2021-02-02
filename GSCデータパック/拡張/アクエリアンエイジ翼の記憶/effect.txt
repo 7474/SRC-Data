@@ -1,0 +1,41 @@
+汎用
+格闘(命中), Punch(3).wav
+格闘(命中), Punch(4).wav
+
+マインドブレイカー
+護身木刀(命中), FightHit(2).wav
+マインドブレイク, Sharara.wav
+異空間追放, Sharara.wav
+異空間追放(命中), Charge(Long).wav
+
+斎木財閥
+魔力解放, Charge(high).wav
+
+阿羅耶識
+パンチ(命中), FightHit(1).wav
+イヅナ, Whiz.wav
+イヅナ・霊気吸収, Whiz.wav
+イヅナ・霊気吸収(命中), Glass.wav;5;Glass.wav
+九尾の狐, Whiz.wav
+九尾の狐(命中), ;2;Glass.wav;5;Glass.wav;6;Glass.wav
+
+
+ＷＩＺＤＯＭ
+ファイア, Whiz.wav
+ファイア(命中), Fire.wav
+ファイアーボール, Whiz.wav
+ファイアーボール(命中), Fire.wav
+サンダーボルト, Thunder.wav
+
+ダークロア
+ひっかき(命中), Slash.wav
+吸血コウモリ, Whiz.wav
+吸血コウモリの群れ, 3;Whiz.wav;3;Whiz.wav;3;Whiz.wav;3;Whiz.wav;3;MultipleRocketLauncher.wav
+ペトライズタッチ(命中), Slap.wav
+ペトライズタッチ(クリティカル), Glass.wav
+
+イレイザー
+衝撃波, Cannon.wav
+衝撃波(命中), Explode.wav
+重力攻撃, Charge(Long).wav
+重力攻撃(命中), Bazooka.wav

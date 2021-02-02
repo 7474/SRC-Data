@@ -1,0 +1,173 @@
+
+######１１月１０日付改訂
+##１、ゼロとイオスのエフェクト修正。
+##２、一部エフェクトの追加
+
+
+#効果音は、チーム別で分けています。
+
+
+#スバルチーム
+
+スバル＝シンジョウ
+地獄門(命中), 3;Stairs(Run).wav;7;Saber.wav;2;Saber.wav;2;Saber.wav;2;Saber.wav;2;Saber.wav;2;Saber.wav;4;Crush.wav
+地獄門, Whiz.wav
+裂空斬, Saber.wav
+裂空斬(命中), Saber.wav
+空刃螺旋絶刀, 2;Saber.wav;2;Saber.wav
+空刃螺旋絶刀(命中), Fire.wav
+百鬼猛襲剣(命中), 2;Saber.wav;2;Punch.wav;2;Saber.wav;2;Saber.wav;Punch.wav;2;Slash.wav;2;Slash.wav;2;Slash.wav
+骸割り(命中), Punch.wav
+飛昇斬, 2;Swing.wav;2;Swing.wav;2;Swing.wav
+飛昇斬(命中), 2;Slash.wav;2;Slash.wav;2;Slash.wav
+
+
+ナル＝アモウ(闘神伝昴)
+レインボー・スプラッシュ(命中), 2;Punch.wav;2;Punch.wav;2;Punch.wav;2;Punch.wav;Punch.wav;2;Punch.wav;2;Punch.wav
+ヘルズ・ゲート(命中), 2;Punch.wav;2;Punch.wav;2;Punch.wav;2;Punch.wav;Punch.wav;2;Punch.wav
+ヘルズ・インフェルノ(命中), 2;Punch(3).wav;9;Punch.wav;2;Punch(2).wav;7;Punch(2).wav;6;Punch.wav;2;Slash.wav;2;Slash.wav
+ソニック・スラッシュ, Saber.wav
+デッドリー・レイズ, 2;Swing.wav;2;Swing.wav;2;Swing.wav
+デッドリー・レイズ(命中), 2;Slash.wav;2;Slash.wav;2;Slash.wav
+ショルダー・クラッシュ, Swing.wav
+ショルダー・クラッシュ(命中), Punch.wav
+
+
+ルーク＝キャッスル
+キャノン・ウェイブ, 2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav
+キャノン・ウェイブ(命中), Punch(4).wav
+アルティメイト・マグナム, Punch.wav
+アルティメイト・マグナム(命中), Explode.wav
+コンセクティブ・ギア, 2;Swing.wav;2;Swing.wav;2;Swing.wav
+コンセクティブ・ギア(命中), Punch(3).wav
+スラント・シュート(命中), Explode.wav
+ボイステレス・ダンシング(命中), 3;Punch.wav;3;Punch.wav;3;Punch.wav;3;Punch.wav;3;Punch.wav;3;Punch.wav;3;Punch.wav;3;Punch.wav;3;Punch.wav;3;Punch.wav;3;Punch.wav;3;Punch.wav
+サンダー・クラッカー(命中), 2;Punch.wav;3;Punch.wav;3;Punch.wav;6;Swing.wav;4;Explode.wav
+スカイハイ・デストロイヤー(命中), 2;Punch.wav;3;Punch.wav;3;Punch.wav;6;Swing.wav;2;Punch.wav;2;Punch.wav;2;Punch.wav;2;Punch.wav;2;Punch.wav;2;Punch.wav;2;Punch.wav;2;Punch.wav;2;Punch.wav
+
+
+#プエラチーム
+
+プエラ＝マリオネット
+朱雀の弓, Swing.wav
+朱雀の弓(命中), Punch.wav
+イーグル・レイジ, Bow.wav
+イーグル・レイジ, Bow.wav;2;Bow.wav
+スワニー・スワップ(命中), Slash.wav
+コカトリス, Whiz.wav
+コカトリス(命中), Combo.wav
+デスティニー・アロー, Whiz.wav
+デスティニー・アロー(命中), 2;BeamSaber.wav;6;Bow.wav;10;Glass.wav
+エンジェル・ソング, Sharara.wav
+
+フェン＝ベアフット
+ファイアレス・シャーク, FastGun.wav
+キャプテン・シルバー, 2;Saber.wav;2;Saber.wav
+キャプテン・シルバー(命中), 2;Slash.wav;2;Slash.wav
+ファイア・ボヘミアン, Whiz.wav
+ロングバケーション, 2;Swing.wav;2;Swing.wav;2;Swing.wav
+ウルフィー・クラッシュ(命中), 2;Saber.wav;2;Saber.wav;2;Saber.wav;2;Saber.wav;2;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav
+スカイ・ボヘミアン(命中), Shock(Low).wav
+
+ランスロット＝レイクナイト
+ローザ・シネンシス, Whiz.wav
+クレセント・ムーン, Beam.wav
+ローズ・ハリケーン, 2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav
+フラワー・レボリューション, Sharara.wav
+ローズ・タイフーン(命中), Stab.wav;2;Stab.wav;3;Stab.wav;3;Stab.wav;2;Stab.wav;3;Sharara.wav
+フラワー・ガーデン, Swing.wav
+フラワー・ガーデン(命中), Sharara.wav
+ローズ・レボリューション(命中), Saber.wav;2;Saber.wav;3;Saber.wav;3;Punch.wav;7;Sharara.wav
+
+
+#幻魔チーム
+
+幻魔(闘神伝昴)
+冷氷鬼, Whiz.wav
+冷氷鬼(クリティカル), Glass.wav
+火炎鬼, Fire.wav
+式神, Page.wav
+鬼車, 2;Whiz.wav;2;Whiz.wav;2;Whiz.wav
+鬼車(命中), Fire.wav
+真月発光, Charge(Long).wav
+奈落鬼(命中), 2;Swing.wav;5;BreakOff.wav
+
+バン＝ブー(闘神伝昴)
+ビースト・シュート, FastGun.wav
+サイバリット・キャノン, Missile.wav
+ディバイディング・キャノン, MachineGun.wav
+ギガ・ファントム, 3;Sword.wav;7;Charge(High).wav
+ジェノサイド・キャノン, MachineGun.wav
+ファイナル・キャノン, Charge(High).wav
+セット・レディ, Jet.wav
+セット・レディ(命中), 3;Punch(2).wav;7;Punch(2).wav
+
+みやび(闘神伝昴)
+飛燕脚(命中), Punch.wav;2;Punch.wav
+飛燕脚, Swing.wav;2;Swing.wav
+卍丸, Swing.wav
+卍丸(命中), Slash.wav
+月雫, Bomb.wav
+月雫(命中), Explode(Nuclear).wav
+月下白百合(命中), 3;Stab.wav;8;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav;12;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Swing.wav;2;Bazooka.wav
+無双抜刀(命中), Saber.wav;8;Saber.wav;2;Saber.wav;2;Saber.wav;2;Slash.wav;2;Slash.wav;2;Saber.wav;2;Saber.wav
+
+
+#エイジチーム
+
+エイジ＝シンジョウ(闘神伝昴)
+真・地獄門(命中), Saber.wav;2;Saber.wav;2;Saber.wav;2;Saber.wav;2;Saber.wav;2;Saber.wav;4;Crush.wav
+真・地獄門, Whiz.wav
+裂空斬, Whiz.wav
+裂空斬, Saber.wav;4;Saber.wav
+裂空斬(命中), Fire.wav
+真・炎刃修羅破, 2;Saber.wav;7;Saber.wav
+真・炎刃修羅破(命中), Fire.wav
+真・百鬼猛襲剣(命中), 2;Saber.wav;2;Punch.wav;2;Saber.wav;2;Saber.wav;Punch.wav;2;Slash.wav;2;Slash.wav;2;Slash.wav
+骸割り(命中), Punch.wav;2;Fire.wav
+死昇斬, 2;Swing.wav;2;Swing.wav;2;Swing.wav
+死昇斬(命中), 2;Slash.wav;2;Slash.wav;2;Slash.wav;3;Fire.wav
+業火の紅, Swing.wav
+業火の紅(命中), Fire.wav
+
+ゼロ(闘神伝昴)
+カロン, Whiz.wav
+カロン(命中), Bazooka.wav;6;Fire.wav
+テレストー, BeamShot.wav
+セレストー, BeamShot.wav
+エンセラダス, Whiz.wav
+エンセラダス, Punch(3).wav
+プロテウス, Whiz.wav
+プロテウス(命中), Punch.wav
+トライトン, Whiz.wav
+トライトン(命中), 2;Punch.wav;2;Punch.wav;2;Punch.wav;2;Punch.wav;2;Punch.wav
+アスクレピオス, Whiz.wav
+アスクレピオス(命中), 2;Saber.wav;2;Punch.wav;2;Saber.wav;2;Saber.wav;2;Punch.wav;2;Slash.wav;2;Slash.wav;2;Slash.wav;2;Slash.wav;2;Punch.wav;2;Punch.wav
+
+
+イオス(闘神伝昴)
+ナルキッソス(命中), Punch.wav
+ナルキッソス, Swing.wav
+ハイピリオン, Chage(Long).wav;5;Whiz.wav;3;Whiz.wav;3;Whiz.wav
+アドラスティア, Whiz.wav
+アドラスティア(命中), Bazooka.wav
+シリテア, Beam.wav
+ギラティア(命中), Fire.wav
+ギラティア, Jet.wav
+アストライア(命中), Crush.wav
+アストライア, Jet.wav
+デュオニッソス(命中), 2;Saber.wav;2;Punch.wav;2;Saber.wav;2;Saber.wav;2;Punch.wav;2;Slash.wav;2;Slash.wav;2;Slash.wav
+
+#単独参戦
+
+ヴァーミリオン(闘神伝昴)
+アッパー４５, Gun.wav
+デリンジャー, Gun.wav
+バイナリーアタック, Gun.wav;4;Gun.wav
+ヴァームザリッパー, Gun.wav;4;MachineGun.wav;4;Gun.wav;4;MachineGun.wav;4;Gun.wav;4;MachineGun.wav
+硫酸グレネードランチャー, Cannon.wav
+硫酸グレネードランチャー(命中), Glass.wav
+空中射撃, Gun.wav
+デスマリオネット, MachineGun.wav
+フラッシュバック(命中), 5;Gun.wav;4;Gun.wav
+

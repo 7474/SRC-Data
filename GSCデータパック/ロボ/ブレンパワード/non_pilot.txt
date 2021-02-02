@@ -1,0 +1,206 @@
+# # # # # 表情他 # # # # # # # # # # # # # # # # # # # #
+
+伊佐未勇(攻撃)
+勇, BP_IsamiYuu(A).bmp
+
+伊佐未勇(ダメージ)
+勇, BP_IsamiYuu(D).bmp
+
+伊佐未勇(悲しみ)
+勇, BP_IsamiYuu(Cry).bmp
+
+伊佐未勇(叫び)
+勇, BP_IsamiYuu(S).bmp
+
+伊佐未勇(笑顔)
+勇, BP_IsamiYuu(Smile).bmp
+
+伊佐未勇(寝顔)
+勇, BP_IsamiYuu(Sleep).bmp
+
+伊佐未勇(少年)
+勇, BP_IsamiYuu(C).bmp
+
+
+宇都宮比瑪(攻撃)
+比瑪, BP_UtsumiyaHime(A)(3).bmp
+
+宇都宮比瑪(笑顔)
+比瑪, BP_UtsumiyaHime(Smile).bmp
+
+宇都宮比瑪(怒り)
+比瑪, BP_UtsumiyaHime(G).bmp
+
+宇都宮比瑪(叫び)
+比瑪, BP_UtsumiyaHime(S).bmp
+
+
+伊佐未勇(キス)
+勇, BP_IsamiYuu&UtsumiyaHime(Kiss).bmp
+
+宇都宮比瑪(キス)
+比瑪, BP_IsamiYuu&UtsumiyaHime(Kiss).bmp
+
+伊佐未勇(キス２)
+勇, BP_IsamiYuu&UtsumiyaHime(Kiss2).bmp
+
+宇都宮比瑪(キス２)
+比瑪, BP_IsamiYuu&UtsumiyaHime(Kiss2).bmp
+
+伊佐未勇(キス３)
+勇, BP_IsamiYuu&UtsumiyaHime(Kiss3).bmp
+
+宇都宮比瑪(キス３)
+比瑪, BP_IsamiYuu&UtsumiyaHime(Kiss3).bmp
+
+伊佐未勇(キス４)
+勇, BP_IsamiYuu&UtsumiyaHime(Kiss4).bmp
+
+宇都宮比瑪(キス４)
+比瑪, BP_IsamiYuu&UtsumiyaHime(Kiss4).bmp
+
+
+カナン＝ギモス(笑顔)
+カナン, BP_CannanGhimoss(Smile).bmp
+
+カナン＝ギモス(着物)
+カナン, BP_CannanGhimoss(Kimono).bmp
+
+ヒギンズ＝サス(タトゥー)
+ヒギンズ, BP_HiginzSass(Tatoo).bmp
+
+ラッセ＝ルンベルク(赤バンダナ)
+ラッセ, BP_LasseLumberg(Red).bmp
+
+アノーア＝マコーミック(ロングヘア)
+アノーア, BP_AnoaMcomic(LongHair).bmp
+
+クインシィ＝イッサー(攻撃)
+クインシィ, BP_QueencyItthor(A).bmp
+
+伊佐未依衣子(攻撃)
+依衣子, BP_QueencyItthor(A).bmp
+
+伊佐未依衣子(少女)
+勇, BP_IsamiIiko(C).bmp
+
+ジョナサン＝グレーン(攻撃)
+ジョナサン, BP_JonathanGrenn(A).bmp
+
+ジョナサン＝グレーン(ダメージ)
+ジョナサン, BP_JonathanGrenn(D).bmp
+
+ジョナサン＝グレーン(笑顔)
+ジョナサン, BP_JonathanGrenn(Smile).bmp
+
+ジョナサン＝グレーン(少年)
+ジョナサン, BP_JonathanGrenn(C)(2).bmp
+
+ケイディ＝ディン(ドーナツ)
+ケイディ, BP_KaidieDin(D).bmp
+
+# # # # # ブレン＆グランチャー # # # # # # # # # # # # # # # # # # # #
+
+ユウ・ブレン
+ユウ・ブレン, BP_YouBrain(P).bmp
+
+ヒメ・ブレン
+ヒメ・ブレン, BP_HimeBrain(P).bmp
+
+ネリー・ブレン
+ネリー・ブレン, BP_NerryBrain(P).bmp
+
+セカンド・ネリー・ブレン
+ネリー・ブレン, BP_NerryBrainY(P).bmp
+
+カナン・ブレン
+カナン・ブレン, BP_CannanBrain(P).bmp
+
+ヒギンズ・ブレン
+ヒギンズ・ブレン, BP_HiginzBrain(P).bmp
+
+ラッセ・ブレン
+ラッセ・ブレン, BP_LasseBrain(P).bmp
+
+ニュー・ラッセ・ブレン
+ラッセ・ブレン, BP_LasseBrain2(P).bmp
+
+ナンガ・ブレン
+ナンガ・ブレン, BP_NangaBrain(P).bmp
+
+ブレン・シルバレー
+ブレン・シルバレー, BP_NangaBrain(P).bmp
+
+ナッキィ・グラン
+ナッキィ・グラン, BP_NackyGrand(P).bmp
+
+ナッキィ・ブレン
+ナッキィ・ブレン, BP_NackyBrain(P).bmp
+
+カント・ブレン
+カント・ブレン, BP_QuantBrain(P).bmp
+
+クインシィ・グラン
+クインシィ・グラン, BP_QueencyGrand(P).bmp
+
+クインシィ・バロンズゥ
+クインシィ・バロンズゥ, BP_QueencyValonthe(P).bmp
+
+ジョナサン・グラン
+ジョナサン・グラン, BP_JonathanGrand.bmp
+
+バロンズゥ
+バロンズゥ, BP_Valonthe(P).bmp
+
+エッガ・グラン
+エッガ・グラン, BP_EggaGrand(P).bmp
+
+# # # # # 非戦闘員他 # # # # # # # # # # # # # # # # # # # #
+
+ユキオ(ブレン)
+ユキオ, BP_Yukio.bmp
+
+アカリ(ブレン)
+アカリ, BP_Akari.bmp
+
+クマゾー(ブレン)
+クマゾー, BP_Kumazo.bmp
+
+伊佐未直子
+直子, BP_IsamiNaoko(2).bmp
+
+伊佐未直子(若年)
+直子, BP_IsamiNaoko(Y).bmp
+
+ウィンストン＝ゲイブリッジ
+ゲイブリッジ, BP_WinstonGaybridge.bmp
+
+ガバナー(ブレン)
+ガバナー, BP_WinstonGaybridge.bmp
+
+ウィンストン＝ゲイブリッジ(若年)
+ゲイブリッジ, BP_WinstonGaybridge(Y).bmp
+
+桑原(ブレン)
+桑原, BP_Kuwabara.bmp
+
+源野三尾
+三尾, BP_MinamotonoMitsuo.bmp
+
+かえで(ブレン)
+かえで, BP_Kaede.bmp
+
+モハマド(ブレン)
+モハマド, BP_Muhammad.bmp
+
+伊佐未研作
+研作, BP_IsamiKensaku(2).bmp
+
+伊佐未翠
+翠, BP_IsamiMidori(2).bmp
+
+伊佐未翠(眼鏡無し)
+翠, BP_IsamiMidori(NoGlasses).bmp
+
+オルファン(少女)
+オルファン, BP_Orphan(G).bmp

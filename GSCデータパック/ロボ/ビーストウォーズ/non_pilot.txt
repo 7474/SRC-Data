@@ -1,0 +1,240 @@
+
+########## 非戦闘要員データ ##########
+
+
+こばんざ＝めたろう
+めたろう, BW1_KobanzaMetarou.bmp
+
+# デプスチャージの持っているセンサー兼銃。「悪い子はいねが～」
+
+砂漠戦指揮官クイックストライク(コブラ)
+コブラ, BW1_Quickstrike(Cobra).bmp
+
+# クイックストライクのコブラ部分は別人格です。「虫歯ありましぇーん！」
+
+
+アクサロンコンピュータ
+コンピュータ, BW1_Computer.bmp
+
+
+ナビ子
+ナビ子, BW1_Naviko.bmp
+
+
+トランスミューテイト
+トランスミューテイト, BW1_Transmutate.bmp
+
+
+チャック(ＢＷ)
+チャック, BW1_Chack.bmp
+
+ウナ(ＢＷ)
+ウナ, BW1_Una.bmp
+
+エイリアンＶｏｋ
+エイリアン, BW1_Alien.bmp
+
+
+#以下トリプティコン評議会の三人
+
+ラムホーン(ＢＷ)
+ラムホーン, BW1_RamHorn.bmp
+
+シカタゴン(ＢＷ)
+シカタゴン, BW1_Cicadacon.bmp
+
+シークランプ(ＢＷ)
+シークランプ, BW1_SeaClamp.bmp
+
+
+# 以下はビーストモードの顔
+
+
+########## サイバトロン ##########
+# Ｂ＝ビーストモード
+
+ビーストコンボイ(Ｂ)
+コンボイ, BW1_Convoy(B).bmp
+
+メタルスコンボイ(Ｂ)
+コンボイ, BW1_MetalsConvoy(B).bmp
+
+パワードコンボイ(Ｂ)
+パワードコンボイ, BW1_PoweredConvoy(B).bmp
+
+陸上防衛戦士ライノックス(Ｂ)
+ライノックス, BW1_Rhinox(B).bmp
+
+密林巡視員チータス(Ｂ)
+チータス, BW1_Cheetas(B).bmp
+
+メタルスチータス(Ｂ)
+チータス, BW1_MetalsCheetas(B).bmp
+
+メタルスチータス２(Ｂ)
+チータス, BW1_MetalsCheetas2(B).bmp
+
+諜報員ラットル(Ｂ)
+ラットル, BW1_Rattle(B).bmp
+
+メタルスラットル(Ｂ)
+ラットル, BW1_MetalsRattle(B).bmp
+
+極地偵察員タイガトロン(Ｂ)
+タイガトロン, BW1_Tigatron(B).bmp
+
+空中偵察員エアラザー(Ｂ)
+エアラザー, BW1_Airazor(B).bmp
+
+追跡員シルバーボルト(Ｂ)
+シルバーボルト, BW1_Silverbort(B).bmp
+
+海軍司令官デプスチャージ(Ｂ)
+デプスチャージ, BW1_Depthcharge(B).bmp
+
+調停特使タイガーファルコン(Ｂ)
+タイガーファルコン, BW1_TigerFalcon(B).bmp
+
+########## 陣営不確定 ##########
+
+特殊戦闘員ダイノボット(Ｂ)
+ダイノボット, BW1_Dinobot(B).bmp
+
+メタルスダイノボット(Ｂ)
+ダイノボット, BW1_MetalsDinobot(B).bmp
+
+諜報工作兵ブラックウィドー(Ｂ)
+ブラックウィドー, BW1_BlackWidow(B).bmp
+
+メタルスブラックウィドー(Ｂ)
+ブラックウィドー, BW1_MetalsBlackWidow(B).bmp
+
+戦将ランページ(Ｂ)
+ランページ, BW1_Rampage(B).bmp
+
+########## デストロン ##########
+
+ビーストメガトロン(Ｂ)
+メガトロン, BW1_Megatron(B).bmp
+
+メタルスメガトロン(Ｂ)
+メガトロン, BW1_MetalsMegatron(B).bmp
+
+ドラゴンメガトロン(Ｂ)
+メガトロン, BW1_DragonMegatron(B).bmp
+
+砂漠戦指揮官スコルポス(Ｂ)
+スコルポス, BW1_Scorpos(B).bmp
+
+空中攻撃兵ワスピーター(Ｂ)
+ワスピーター, BW1_Waspitor(B).bmp
+
+忍者兵タランス(Ｂ)
+タランス, BW1_Tarans(B).bmp
+
+メタルスタランス(Ｂ)
+タランス, BW1_MetalsTarans(B).bmp
+
+空中戦闘兵テラザウラー(Ｂ)
+テラザウラー, BW1_Terrorsaur(B).bmp
+
+地上攻撃指揮官インフェルノ(Ｂ)
+インフェルノ, BW1_Inferno(B).bmp
+
+砂漠戦指揮官クイックストライク(Ｂ)
+クイックストライク, BW1_Quickstrike(B).bmp
+
+# 以下は変形ダイアログ用のデータです
+########## サイバトロン ##########
+# Ｒ＝ロボットモード
+
+ビーストコンボイ(Ｒ)
+コンボイ, BW1_Convoy.bmp
+
+メタルスコンボイ(Ｒ)
+コンボイ, BW1_MetalsConvoy.bmp
+
+パワードコンボイ(Ｒ)
+パワードコンボイ, BW1_PoweredConvoy.bmp
+
+陸上防衛戦士ライノックス(Ｒ)
+ライノックス, BW1_Rhinox.bmp
+
+密林巡視員チータス(Ｒ)
+チータス, BW1_Cheetas.bmp
+
+メタルスチータス(Ｒ)
+チータス, BW1_MetalsCheetas.bmp
+
+メタルスチータス２(Ｒ)
+チータス, BW1_MetalsCheetas2.bmp
+
+諜報員ラットル(Ｒ)
+ラットル, BW1_Rattle.bmp
+
+メタルスラットル(Ｒ)
+ラットル, BW1_MetalsRattle.bmp
+
+極地偵察員タイガトロン(Ｒ)
+タイガトロン, BW1_Tigatron.bmp
+
+空中偵察員エアラザー(Ｒ)
+エアラザー, BW1_Airazor.bmp
+
+追跡員シルバーボルト(Ｒ)
+シルバーボルト, BW1_Silverbort.bmp
+
+海軍司令官デプスチャージ(Ｒ)
+デプスチャージ, BW1_Depthcharge.bmp
+
+調停特使タイガーファルコン(Ｒ)
+タイガーファルコン, BW1_TigerFalcon.bmp
+
+########## 陣営不確定 ##########
+
+特殊戦闘員ダイノボット(Ｒ)
+ダイノボット, BW1_Dinobot.bmp
+
+メタルスダイノボット(Ｒ)
+ダイノボット, BW1_MetalsDinobot.bmp
+
+諜報工作兵ブラックウィドー(Ｒ)
+ブラックウィドー, BW1_BlackWidow.bmp
+
+メタルスブラックウィドー(Ｒ)
+ブラックウィドー, BW1_MetalsBlackWidow.bmp
+
+戦将ランページ(Ｒ)
+ランページ, BW1_Rampage.bmp
+
+########## デストロン ##########
+
+ビーストメガトロン(Ｒ)
+メガトロン, BW1_Megatron.bmp
+
+メタルスメガトロン(Ｒ)
+メガトロン, BW1_MetalsMegatron.bmp
+
+ドラゴンメガトロン(Ｒ)
+メガトロン, BW1_DragonMegatron.bmp
+
+砂漠戦指揮官スコルポス(Ｒ)
+スコルポス, BW1_Scorpos.bmp
+
+空中攻撃兵ワスピーター(Ｒ)
+ワスピーター, BW1_Waspitor.bmp
+
+忍者兵タランス(Ｒ)
+タランス, BW1_Tarans.bmp
+
+メタルスタランス(Ｒ)
+タランス, BW1_MetalsTarans.bmp
+
+空中戦闘兵テラザウラー(Ｒ)
+テラザウラー, BW1_Terrorsaur.bmp
+
+地上攻撃指揮官インフェルノ(Ｒ)
+インフェルノ, BW1_Inferno.bmp
+
+砂漠戦指揮官クイックストライク(Ｒ)
+クイックストライク, BW1_Quickstrike.bmp

@@ -1,0 +1,505 @@
+# ゲーム性を重視した、まどかとほむらのハイパーモード対応データです。
+# ダンジョン系シナリオで出す際にでもお使いください。
+
+## 鹿目まどか ##
+
+鹿目まどか
+鹿目まどか, かなめまどか, (まどか☆マギカ(鹿目まどか専用)), 1, 2
+陸, 3, S, 4000, 180
+特殊能力
+性別=女性
+迎撃武器=マジカルアロー
+3300, 150, 800, 65
+CACA, MAGICA_KanameMadokaU.bmp
+マジカルスタッフ,          800,  1,  1,  +25,   -,   -,   -, AAAA,   +0, 武
+マジカルアロー,           1200,  1,  4,  +10,   -,   5,   -, AABA,   +0, 実魔
+トゥインクルアロー,       1400,  1,  4,   +0,   -,  10,   -, AABA,   +5, 実魔
+スターライトアロー,       1600,  1,  4,  -10,   -,  20,   -, AABA,  +10, 実魔
+スプレットアロー,         1600,  1,  3,  +15,   -,  20, 105, AABA,   +0, 実魔散
+マジカルスコール,         1800,  3,  5,   +0,   -,  40, 110, AABA,  -10, 実魔連L8
+パニエロケット,           1900,  1,  1,  -30,   -,  30, 110, AACA,  +20, 突ＪL2
+===
+癒しの光,                         回復Lv3,  1,  -,  20,   -, 魔術
+
+鹿目まどか(救済の願い)
+鹿目まどか, かなめまどか, (まどか☆マギカ(鹿目まどか専用)), 1, 2
+陸, 3, S, 7000, 200
+特殊能力
+性別=女性
+迎撃武器=マジカルアロー
+ハイパーモードLv5=円環の理 アルティメットまどか 気力発動
+円環の理=解説 気力が150以上で<B>アルティメットまどか</B>に変身可能。3ターン経過で元に戻る。1マップ1回限り。
+3500, 180, 1000, 65
+CACA, MadokaMagica_KanameMadokaU.bmp
+救済する白き光,              0,  1,  3,  +30,   -,  50, 120, AAAA,  +10, 魔術Ｍ全識不即浄限光
+マジカルスタッフ,          800,  1,  1,  +25,   -,   -,   -, AAAA,   +0, 武
+マジカルアロー,           1200,  1,  4,  +10,   -,   5,   -, AABA,   +0, 実魔
+トゥインクルアロー,       1400,  1,  4,   +0,   -,  10,   -, AABA,   +5, 実魔
+スターライトアロー,       1600,  1,  4,  -10,   -,  20,   -, AABA,  +10, 実魔
+スプレットアロー,         1600,  1,  3,  +15,   -,  20, 105, AABA,   +0, 実魔散
+マジカルスコール,         1800,  3,  5,   +0,   -,  40, 110, AABA,  -10, 実魔連L8
+パニエロケット,           1900,  1,  1,  -30,   -,  30, 110, AACA,  +20, 突ＪL2
+===
+癒しの光,                         回復Lv3,  1,  -,  20,   -, 魔術
+天上の祈り,                       補給Lv1,  3,  -,  60, 110, 魔援
+
+アルティメットまどか
+鹿目まどか, かなめまどか, (まどか☆マギカ(鹿目まどか専用)), 1, 2
+空陸, 3, S, 7000, 200
+特殊能力
+性別=女性
+迎撃武器=マジカルアロー
+耐性=時
+抵抗力Lv2
+追加パイロット=アルティメットまどか
+ノーマルモード=鹿目まどか(救済の願い) 3 消耗なし 回数制限
+3700, 210, 1200, 65
+AACA, MAGICA_KanameMadoka(Last)U.bmp
+救済する白き光,              0,  1,  3,  +30,   -,  50, 120, AAAA,  +10, 魔術Ｍ全識不即浄限光
+マジカルスタッフ,         1100,  1,  1,  +25,   -,   -,   -, AAAA,   +0, 武
+マジカルアロー,           1200,  1,  4,  +10,   -,   5,   -, AABA,   +0, 実魔
+トゥインクルアロー,       1400,  1,  4,   +0,   -,  10,   -, AABA,   +5, 実魔
+スターライトアロー,       1600,  1,  4,  -10,   -,  20,   -, AABA,  +10, 実魔
+スプレットアロー,         1600,  1,  3,  +15,   -,  20, 105, AABA,   +0, 実魔散
+マジカルスコール,         1800,  3,  5,   +0,   -,  40, 110, AABA,  -10, 実魔連L8
+シューティングスター,     2600,  1,  5,  +20,   -, 120, 150, AAAA,  +10, 魔光浄変
+===
+癒しの光,                         回復Lv3,  1,  -,  20,   -, 魔術
+天上の祈り,                       補給Lv1,  3,  -,  60, 110, 魔援
+
+# 前期・救済の願い版の武装にパニエロケットが追加されたデータです。
+# スペシャルパワー等を併用したシューティングスター＋奇跡連発コンボの抑制の為、
+# シューティングスターはアルティメットにならないと使えない上、
+# 使うと変形技で元に戻る仕様となってます。
+
+
+## 暁美ほむら ##
+
+暁美ほむら(前期)
+暁美ほむら, あけみほむら, (まどか☆マギカ(暁美ほむら専用)), 1, 2
+陸, 4, M, 4000, 180
+特殊能力
+性別=女性
+迎撃武器=ベレッタM92F
+耐性=時 (!魔法封印)
+小型シールド=バックラー
+阻止Lv1=時間停止 !時 20 5 100 <!魔法封印>
+時間停止=解説 「時」属性を持たない攻撃を20%の確率で阻止。発動時にＥＮを5消費。気力100以上で発動。「時」「魔」「術」属性使用不能状態の時は使用不可。
+すり抜け移動=空間跳躍 <!魔法封印>
+空間跳躍=解説 敵ユニットがいるマスを通過可能。;「時」「魔」「術」属性使用不能状態の時は使用不可。
+パイロット能力付加="魔法封印=非表示" (時属性使用不能状態 or 魔属性使用不能状態 or 術属性使用不能状態)
+ユニット画像=MAGICA_AkemiHomura(G)U.bmp (暁美ほむら(眼鏡))
+3200, 160, 600, 80
+BACA, MAGICA_AkemiHomuraU.bmp
+閃光手榴弾,                  0,  1,  3,  +10,   2,   -,   -, AAAA,  +20, Ｍ投L1盲視
+ゴルフクラブ,              800,  1,  1,  +15,   -,   -,   -, AAAA,  -10, 武
+ベレッタM92F,             1100,  1,  2,  -10,  15,   -,   -, AABA,   +0, 銃Ｐ
+分隊支援火器,             1300,  1,  4,  -10,  10,   -,   -, AABA,  +10, 銃連L5
+ゴルフクラブ乱打,         1400,  1,  1,  +20,   -,  20,   -, AAAA,  +10, 接先時
+パイプ爆弾,               1500,  1,  2,  -10,   4,   -,   -, AABA,  -10, 実Ｐ
+
+暁美ほむら
+暁美ほむら, あけみほむら, (まどか☆マギカ(暁美ほむら専用)), 1, 2
+陸, 4, M, 5000, 190
+特殊能力
+性別=女性
+迎撃武器=ベレッタM92F
+耐性=時 (!魔法封印)
+ハイパーモードLv3=黒き翼 暁美ほむら(黒き翼) 気力発動
+黒き翼=解説 気力が130以上で黒き翼を発動可能。
+小型シールド=バックラー
+阻止Lv1=時間停止 !時 20 5 100 <!魔法封印>
+時間停止=解説 「時」属性を持たない攻撃を20%の確率で阻止。発動時にＥＮを5消費。気力100以上で発動。「時」「魔」「術」属性使用不能状態の時は使用不可。
+すり抜け移動=空間跳躍 <!魔法封印>
+空間跳躍=解説 敵ユニットがいるマスを通過可能。;「時」「魔」「術」属性使用不能状態の時は使用不可。
+パイロット能力付加="魔法封印=非表示" (時属性使用不能状態 or 魔属性使用不能状態 or 術属性使用不能状態)
+ユニット画像=MadokaMagica_AkemiHomura(Past)U.bmp (暁美ほむら(眼鏡))
+3400, 200, 700, 90
+BACA, MadokaMagica_AkemiHomuraU.bmp
+閃光手榴弾,                  0,  1,  3,  +10,   2,   -,   -, AAAA,  +20, Ｍ投L1盲視
+ゴルフクラブ,              800,  1,  1,  +15,   -,   -,   -, AAAA,  -10, 武
+ベレッタM92F,             1100,  1,  2,  -10,  15,   -,   -, AABA,   +0, 銃Ｐ
+分隊支援火器,             1300,  1,  4,  -10,  10,   -,   -, AABA,  +10, 銃連L5
+ゴルフクラブ乱打,         1400,  1,  1,  +20,   -,  20,   -, AAAA,  +10, 接先時
+パイプ爆弾,               1500,  1,  2,  -10,   4,   -,   -, AABA,  -10, 実Ｐ
+ディレイマイン,           1600,  1,  1,   +0,   2,  10,   -, -ABA,  +10, 射爆浸先反時
+ロケットランチャー,       1900,  2,  4,   +0,   2,  40, 110, AABA,   +0, 先時連L6
+タンクローリー,           2000,  1,  1,   +5,   1,  50, 120, AABA,  +20, 実
+対艦ミサイル,             2200,  3,  4,  -20,   1,  60, 120, AAAA,  -10, 実Ｈ
+
+暁美ほむら(黒き翼)
+暁美ほむら, あけみほむら, (まどか☆マギカ(暁美ほむら専用)), 1, 2
+空陸, 4, M, 5000, 190
+特殊能力
+性別=女性
+迎撃武器=マジカルアロー
+耐性=時 (!魔法封印)
+小型シールド=バックラー
+阻止Lv1=時間停止 !時 20 5 100 <!魔法封印>
+時間停止=解説 「時」属性を持たない攻撃を20%の確率で阻止。発動時にＥＮを5消費。気力100以上で発動。「時」「魔」「術」属性使用不能状態の時は使用不可。
+すり抜け移動=空間跳躍 <!魔法封印>
+空間跳躍=解説 敵ユニットがいるマスを通過可能。;「時」「魔」「術」属性使用不能状態の時は使用不可。
+パイロット能力付加="魔法封印=非表示" (時属性使用不能状態 or 魔属性使用不能状態 or 術属性使用不能状態)
+ユニット画像=MadokaMagica_AkemiHomura(Past)U.bmp (暁美ほむら(眼鏡))
+ノーマルモード=暁美ほむら 消耗なし
+3400, 200, 700, 90
+AACA, MadokaMagica_AkemiHomuraU.bmp
+閃光手榴弾,                  0,  1,  3,  +10,   2,   -,   -, AAAA,  +20, Ｍ投L1盲視
+ゴルフクラブ,              800,  1,  1,  +15,   -,   -,   -, AAAA,  -10, 武
+マジカルアロー,           1200,  1,  4,  +10,   -,   5,   -, AABA,   +0, 実魔
+ゴルフクラブ乱打,         1400,  1,  1,  +20,   -,  20,   -, AAAA,  +10, 接先時
+パイプ爆弾,               1500,  1,  2,  -10,   4,   -,   -, AABA,  -10, 実Ｐ
+ディレイマイン,           1600,  1,  1,   +0,   2,  10,   -, -ABA,  +10, 射爆浸先反時
+ロケットランチャー,       1900,  2,  4,   +0,   2,  40, 110, AABA,   +0, 先時連L6
+タンクローリー,           2000,  1,  1,   +5,   1,  50, 120, AABA,  +20, 実
+侵食する黒き翼,           2200,  1,  1,  +10,   -,  60, 120, AAAA,  +10, 魔接
+対艦ミサイル,             2200,  3,  4,  -20,   1,  60, 120, AAAA,  -10, 実Ｈ
+
+# PSP版基準のフル武装バージョン。武器クラスは無し。
+# 通常→黒き翼への変化はハイパーモードで制御する形に。
+# 無印の能力値はほむら(リボン)と同数値にまで引き上げてます。
+
+
+## マイナーパック対応戦闘アニメ ##
+
+鹿目まどか
+マジカルスタッフ, 殴打武器 Anime\EFFECT_MadokaMagica_Madoka'sBow(N).bmp 32
+トゥインクルスタッフ(準備), 振る武器 Anime\EFFECT_MadokaMagica_Madoka'sBow(N).bmp 32
+トゥインクルスタッフ(攻撃), なぎ払い
+トゥインクルスタッフ(命中), ダメージ 桃
+マジカルアロー(準備), 振る武器 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64;_
+　　　　　　　　　　　振る武器連続描画 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
+　　　　　　　　　　　振る武器連続描画 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
+マジカルアロー(攻撃), @戦闘アニメ_射撃武器連続描画準備 Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[01-09].bmp 64 9 1 -.wav;_
+　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[10-29].bmp 64 20 1 AntiAirMissile.wav;_
+　　　　　　　　　　　ディレイ 1;_
+　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[30-34].bmp 64 5 1 Beam.wav
+マジカルアロー(命中), 光矢 桃
+スーパーマジカルスタッフ, 殴打武器 Anime\EFFECT_MadokaMagica_Madoka'sBow(N).bmp 32
+スーパーマジカルスタッフ(命中), ダメージ 桃
+トゥインクルアロー(準備), 振る武器 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64;_
+　　　　　　　　　　　　　振る武器連続描画 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
+　　　　　　　　　　　　　振る武器連続描画 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
+トゥインクルアロー(攻撃), @戦闘アニメ_射撃武器連続描画準備 Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[01-09].bmp 64 9 1 -.wav;_
+　　　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[10-29].bmp 64 20 1 AntiAirMissile.wav;_
+　　　　　　　　　　　　　ディレイ 1;_
+　　　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[30-34].bmp 64 5 1 Beam.wav
+トゥインクルアロー(命中), 小ビーム 桃
+スプレットアロー(準備), オーラ上昇 桃;振る武器 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64;_
+　　　　　　　　　　　　振る武器連続描画 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
+　　　　　　　　　　　　振る武器連続描画 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
+スプレットアロー(攻撃), @戦闘アニメ_射撃武器連続描画準備 Anime\MadokaMagica_Madoka'sBow(B)[01-11].bmp 64 11 1 -.wav;_
+　　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Anime\MadokaMagica_Madoka'sBow(B)[12-15].bmp 64 4 1 Beam.wav
+スプレットアロー(命中), ビームショットガン 桃
+スターライトアロー(準備), 振る武器 Weapon\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64 -.wav;_
+　　　　　　　　　　　　　振る武器連続描画 Weapon\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
+　　　　　　　　　　　　　振る武器連続描画 Weapon\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
+スターライトアロー(攻撃), @戦闘アニメ_射撃武器連続描画準備 Weapon\EFFECT_MadokaMagica_Madoka'sBow(A)[01-09].bmp 64 9 1 -.wav;_
+　　　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Weapon\EFFECT_MadokaMagica_Madoka'sBow(A)[10-29].bmp 64 20 1 AntiAirMissile.wav;_
+　　　　　　　　　　　　　ディレイ 1;_
+　　　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Weapon\EFFECT_MadokaMagica_Madoka'sBow(A)[30-34].bmp 64 5 1 Beam.wav
+スターライトアロー(命中), 中ビーム 桃
+マジカルスコール(準備), オーラ上昇 桃;振る武器 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64;_
+　　　　　　　　　　　　振る武器連続描画 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
+　　　　　　　　　　　　振る武器連続描画 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
+マジカルスコール(攻撃), @戦闘アニメ_射撃武器連続描画準備 Anime\MadokaMagica_Madoka'sBow(B)[01-11].bmp 64 11 1 -.wav;_
+　　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Anime\MadokaMagica_Madoka'sBow(B)[12-15].bmp 64 4 1 Beam(4Shot).wav
+マジカルスコール(命中), 拡散ビーム 桃
+シューティングスター(準備), オーラ上昇 桃;変形 Info(ユニットデータ,アルティメットまどか,グラフィック) -.wav;_
+　　　　　　　　　　　　　　振る武器 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64 -.wav;_
+　　　　　　　　　　　　　　振る武器連続描画 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
+　　　　　　　　　　　　　　振る武器連続描画 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
+シューティングスター(攻撃), @戦闘アニメ_射撃武器連続描画準備 Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[01-09].bmp 64 9 1 -.wav;_
+　　　　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[10-29].bmp 64 20 1 AntiAirMissile.wav;_
+　　　　　　　　　　　　　　ディレイ 1;_
+　　　　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[30-34].bmp 64 5 1 Beam(8Shot).wav
+シューティングスター(命中), 大拡散ビーム 桃;大拡散ビーム 桃;超爆発
+
+アルティメットまどか
+シューティングスター(準備), オーラ上昇 桃;_
+　　　　　　　　　　　　　　振る武器 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64 -.wav;_
+　　　　　　　　　　　　　　振る武器連続描画 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
+　　　　　　　　　　　　　　振る武器連続描画 Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
+
+暁美ほむら
+シールド防御(バックラー), シールド防御 Anime\EFFECT_MadokaMagica_Homura'sShield01.bmp 32
+阻止(時間停止), 連続描画 Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 前面 Reload(4).wav 保持;_
+　　　　　　　　3;BeamCoat.wav;4;White.bmp 480 480;1;Clear
+クロックアップ(準備), 連続描画 Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 前面 Reload(4).wav 保持
+クロックアップ(発動), 時間
+クロックダウン(準備), 連続描画 Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 前面 Reload(4).wav 保持
+クロックダウン(攻撃), @戦闘アニメ_発光準備 紫
+クロックダウン(命中), 時間逆行
+ゴルフクラブ, 殴打武器 _GetWPBN(ゴルフドライバー) 32
+銃弾乱射(準備), 射撃武器 Anime\EFFECT_RWG_BERETTA_M92.bmp 32
+銃弾乱射(攻撃), 連続描画 Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 前面 Reload(4).wav 保持;_
+　　　　　　　　3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;_
+　　　　　　　　銃撃武器乱射 Anime\EFFECT_RWG_BERETTA_M92.bmp 32 _GetWPBN(拳銃弾(黄)) 12 Gun.wav
+銃弾乱射(命中), 連続爆発 5
+全銃弾発射(準備), 射撃武器 Anime\EFFECT_RWG_BERETTA_M92.bmp 32
+全銃弾発射(攻撃), 連続描画 Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 前面 Reload(4).wav 保持;_
+　　　　　　　　　3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;_
+　　　　　　　　　銃撃武器乱射 Anime\EFFECT_RWG_BERETTA_M92.bmp 32 _GetWPBN(拳銃弾(黄)) 12 Gun.wav;_
+　　　　　　　　　銃撃武器乱射 Anime\EFFECT_RWG_BERETTA_M92.bmp 32 _GetWPBN(拳銃弾(黄)) 12 Gun.wav
+全銃弾発射(命中), 連続着弾;連続爆発 5
+ゴルフクラブ乱打(準備), 殴打武器 _GetWPBN(ゴルフドライバー) 32
+ゴルフクラブ乱打(攻撃), 連続描画 Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 前面 Reload(4).wav 保持;_
+　　　　　　　　　　　　3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;斬撃乱舞
+ゴルフクラブ乱打(命中), 乱打
+ディレイマイン(攻撃), 連続描画 Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 前面 Reload(4).wav 保持;_
+　　　　　　　　　　　3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;発光 赤 -.wav
+ディレイマイン(命中), 大爆発
+ロケットランチャー(準備), オーラ上昇 紫;多数射撃武器突き立て _GetWPBN(バズーカ) 40 Reload.wav
+ロケットランチャー(攻撃), 連続描画 Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 前面 Reload(4).wav 保持;_
+　　　　　　　　　　　　　3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;_
+　　　　　　　　　　　　　多数武器突き立て銃撃 _GetWPBN(バズーカ) 40 _GetWPBN(バズーカ弾) 32 大 Bazooka.wav
+ロケットランチャー(命中), 連続大爆発 6
+タンクローリー(準備), オーラ上昇 紫;しもべ Anime\EFFECT_MadokaMagica_Tankrolly(2).bmp 32
+タンクローリー(攻撃), 実弾発射 Anime\EFFECT_MadokaMagica_Tankrolly.bmp 32 Car(Pass).wav 遅
+タンクローリー(命中), 超爆発
+マジカルアロー(準備), 射撃武器 Anime\MadokaMagica_Homura'sBow01.bmp 64 -.wav
+マジカルアロー(攻撃), @戦闘アニメ_射撃武器連続描画準備 Anime\MadokaMagica_Homura'sBow[01-13].bmp 64 12 1 Charge(Silent).wav 保持;_
+　　　　　　　　　　　ディレイ 8;_
+　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Anime\MadokaMagica_Homura'sBow[14-28].bmp 64 15 1 AntiAirMissile.wav 保持;_
+　　　　　　　　　　　ディレイ 1;_
+　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Anime\MadokaMagica_Homura'sBow[29-33].bmp 64 5 1 Beam.wav
+マジカルアロー(命中), 光矢 紫
+トゥインクルアロー(準備), 射撃武器 Anime\MadokaMagica_Homura'sBow01.bmp 64 -.wav
+トゥインクルアロー(攻撃), @戦闘アニメ_射撃武器連続描画準備 Anime\MadokaMagica_Homura'sBow[01-13].bmp 64 12 1 Charge(Silent).wav 保持;_
+　　　　　　　　　　　　　ディレイ 8;_
+　　　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Anime\MadokaMagica_Homura'sBow[14-28].bmp 64 15 1 AntiAirMissile.wav 保持;_
+　　　　　　　　　　　　　ディレイ 1;_
+　　　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Anime\MadokaMagica_Homura'sBow[29-33].bmp 64 5 1 Beam.wav
+トゥインクルアロー(命中), 小ビーム 紫
+スターライトアロー(準備), 射撃武器 Anime\MadokaMagica_Homura'sBow01.bmp 64 -.wav
+スターライトアロー(攻撃), @戦闘アニメ_射撃武器連続描画準備 Anime\MadokaMagica_Homura'sBow[01-13].bmp 64 12 1 Charge(Silent).wav 保持;_
+　　　　　　　　　　　　　ディレイ 8;_
+　　　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Anime\MadokaMagica_Homura'sBow[14-28].bmp 64 15 1 AntiAirMissile.wav 保持;_
+　　　　　　　　　　　　　ディレイ 1;_
+　　　　　　　　　　　　　@戦闘アニメ_射撃武器連続描画準備 Anime\MadokaMagica_Homura'sBow[29-33].bmp 64 5 1 Beam.wav
+スターライトアロー(命中), 中ビーム 紫
+
+美樹さやか
+スティンガー, 突く武器突撃 Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52 斬撃
+エッジ, 斬撃武器 Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+Ｓスティンガー(準備), 振る武器 Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+Ｓスティンガー(攻撃), 投擲武器 Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52
+Ｓスティンガー(命中), 刺突
+スクワルタトーレ(準備), 振る武器 Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+スクワルタトーレ(攻撃), 斬撃乱舞
+スクワルタトーレ(命中), クリティカル斬撃
+ハードエッジ(準備), 斬撃武器 Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+ハードエッジ, 連斬撃
+スプラッシュスティンガー(準備), オーラ上昇 水色;多数武器突き立て Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52 突き刺し 同時 上昇
+スプラッシュスティンガー(攻撃), 多数武器突き立て投擲 Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52 突き刺し
+スプラッシュスティンガー(命中), 乱突
+タイフーン(準備), オーラ上昇 水色;振る武器 Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+タイフーン(攻撃), @戦闘アニメ_スピン開始 水色 Storm.wav
+タイフーン(命中), クリティカル斬撃
+コラテラルエッジ(準備), 斬撃武器 Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+コラテラルエッジ(攻撃), 振り下ろし
+コラテラルエッジ(命中), 唐竹割り
+スパークエッジ(準備), オーラ上昇 水色;振る武器 Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+スパークエッジ(攻撃), 突く武器急降下 Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52
+スパークエッジ(命中), 突く武器急降下 Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52;超斬撃 Inori.wav
+狂想曲(準備), オーラ上昇 水色;光噴出 水色;振る武器 Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+狂想曲(攻撃), 振る武器突撃 Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+狂想曲(命中), 斬撃乱舞;振る武器突撃 Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40 斬撃
+変身, 発光 水色;ディレイ 5;オーラ上昇 水色;変形 Info(ユニットデータ,美樹さやか,グラフィック) -.wav;_
+　　　@戦闘アニメ_振る武器準備 Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40 Sword.wav
+
+美樹さやか(劇場版)
+変身, 発光 水色;ディレイ 5;オーラ上昇 水色;変形 LIndex(Info(ユニット,特殊能力データ,さやか変身後画像,グラフィック),2) -.wav;_
+　　　@戦闘アニメ_振る武器準備 Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40 Sword.wav
+
+巴マミ
+レガーレ(攻撃), 発光 橙 Whiz.wav
+レガーレ(命中), 連続描画 Anime\EFFECT_MadokaMagica_Mami'sRibon[01-08].bmp 40 10 1 前面 Saber.wav
+レガーレ・ヴァスタアリア(準備), オーラ上昇 橙
+レガーレ・ヴァスタアリア(攻撃), 発光 橙 Whiz.wav
+レガーレ・ヴァスタアリア(命中), 連続描画 Anime\EFFECT_MadokaMagica_Mami'sRibon[01-08].bmp 40 10 1 前面 Saber.wav
+
+佐倉杏子
+飛槍(準備), 突く武器 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+飛槍(攻撃), 投擲武器 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+飛槍(命中), 刺突
+紅蓮の槍, 刺突武器 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+鉄砕鞭(準備), 連続描画 Anime\EFFECT_MadokaMagica_Kyoko'sLance(R)[01-05].bmp 48 7 Whiz.wav
+鉄砕鞭(攻撃), 多節武器連撃 Anime\EFFECT_MadokaMagica_Kyoko'sLance(R)(E)[01-03].bmp 32
+鉄砕鞭(命中), 連打
+打突(準備), 突く武器 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+打突(攻撃), 突く武器突撃 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+打突(命中), 大刺突
+連続突き(準備), 突く武器 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+連続突き(攻撃), 連突
+連続突き(命中), 刺突;刺突
+三段突き(準備), 突く武器 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+三段突き, 連突
+疾風迅雷(準備), 中心回転武器 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
+　　　　　　　　突く武器 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
+　　　　　　　　オーラ上昇 赤
+疾風迅雷(攻撃), 突く武器突撃 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+疾風迅雷(命中), 斬撃乱舞
+疾風迅雷(命中), 乱突
+魔女に与える鉄槌(準備), 中心回転武器 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
+　　　　　　　　　　　　突く武器 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+魔女に与える鉄槌(攻撃), 突く武器急降下 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+魔女に与える鉄槌(命中), 突く武器急降下 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;唐竹割り
+最後の審判(準備), オーラ上昇 赤
+最後の審判(攻撃), 伸縮武器 Anime\EFFECT_MadokaMagica_Kyoko'sLance(E)[01-03].bmp 28 Whiz.wav
+最後の審判(命中), 大刺突 赤
+浄解の大炎(準備), 中心回転武器 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
+　　　　　　　　　突く武器 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
+　　　　　　　　　オーラ上昇 赤
+浄解の大炎(攻撃), @戦闘アニメ_光大噴出準備 赤 Breath.wav;スーパータックル 赤 -.wav
+浄解の大炎(命中), スーパータックル 赤;ディレイ 5;オーラ 赤 Explode(Far).wav
+縛鎖結界(発動), 光噴出 赤 Whiz.wav
+ロッソ・ファンタズマ(準備), オーラ上昇 赤
+ロッソ・ファンタズマ(発動), 分身 Charge(Silent).wav ロッソ・ファンタズマ
+食うかい？(準備), オーラ上昇 赤
+変身, 発光 赤;ディレイ 5;オーラ上昇 赤;変形 Info(ユニットデータ,佐倉杏子,グラフィック) -.wav;_
+　　　@戦闘アニメ_中心回転武器準備 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
+　　　@戦闘アニメ_突く武器準備 Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64 Sword.wav
+
+
+## まどか・ほむらの弓アニメ ##
+# アニメ・アイコン提供：齊藤萌美
+# ナンバリングを外す場合は適宜に改変してください。
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_まどかの弓準備:
+戦闘アニメ_まどかの弓連射攻撃:
+Call 戦闘アニメ_射撃武器準備 _SelectWPBN("Anime\EFFECT_MadokaMagica_Madoka'sBow00(2).bmp") _SelectWPBS(32) _GetName("Swing.wav",_GetWavFromArgs()) _SearchOptionFromArgs(発光) _GetIDFromArgs()
+Return "Keep"
+戦闘アニメ_まどかの弓攻撃:
+Call 戦闘アニメ_まどマギ弓系武器攻撃 "Anime\EFFECT_MadokaMagica_Madoka'sBow0" "光矢" 発光 桃 Args(1) Args(2) Args(3)
+Return
+戦闘アニメ_まどかの弓命中:
+Call 戦闘アニメ_光矢命中共通 桃 Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+Return
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_まどかの弓連射攻撃:
+Call 戦闘アニメ_手持ち発射攻撃 _SelectWPBN("Anime\EFFECT_MadokaMagica_Madoka'sBow00(2).bmp") _SelectWPBS(32) _GetName(対象ユニットＩＤ,_GetIDFromArgs()) _
+_GetWPBN(光矢連射(桃)) _GetWPBS(光矢連射) _GetName("Bow.wav",_GetWavFromArgs())
+Return
+戦闘アニメ_まどかの弓連射命中:
+Call 戦闘アニメ_光矢命中共通 "連続" 桃 Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_ほむらの弓準備:
+戦闘アニメ_ほむらの弓連射攻撃:
+Call 戦闘アニメ_射撃武器準備 _SelectWPBN("Anime\EFFECT_MadokaMagica_Homura'sBow00(2).bmp") _SelectWPBS(32) _GetName("Swing.wav",_GetWavFromArgs()) _SearchOptionFromArgs(発光) _GetIDFromArgs()
+Return "Keep"
+戦闘アニメ_ほむらの弓攻撃:
+Call 戦闘アニメ_まどマギ弓系武器攻撃 "Anime\EFFECT_MadokaMagica_Homura'sBow0" "光矢" 発光 紫 Args(1) Args(2) Args(3)
+Return
+戦闘アニメ_ほむらの弓命中:
+Call 戦闘アニメ_光矢命中共通 紫 Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+Return
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_ほむらの弓連射攻撃:
+Call 戦闘アニメ_手持ち発射攻撃 _SelectWPBN("Anime\EFFECT_M3_Homura'sBow00.bmp") _SelectWPBS(32) _GetName(対象ユニットＩＤ,_GetIDFromArgs()) _
+_GetWPBN(光矢連射(紫)) _GetWPBS(光矢連射) _GetName("Bow.wav",_GetWavFromArgs())
+Return
+戦闘アニメ_ほむらの弓連射命中:
+Call 戦闘アニメ_光矢命中共通 "連続" 紫 Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_まどマギ弓系武器攻撃:
+
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+Local i j
+Local ANG = _GetAngle(UID)
+Local X_F = _GetCircumference(ANG,Ｘ)
+Local Y_F = _GetCircumference(ANG,Ｙ)
+Local DRCT = _FlipVertical(ANG)
+Local C_X = WX(UID)
+Local C_Y = WY(UID)
+Local A1 = Args(1)
+Local T_COL_F = _ColorTime(_IsLight())
+
+_UnSetBattleAnimeValue
+
+Wait Start
+For i = 1 To 5
+  ClearPicture
+  Switch i
+  Case 1
+    PaintPicture (A1 & "0(2).bmp") (C_X + X_F) (C_Y + Y_F) 透過 右回転 ANG DRCT T_COL_F
+  Case 2
+    PaintPicture (A1 & "1(2).bmp") (C_X + (X_F * 2)) (C_Y + (Y_F * 2)) 透過 右回転 ANG DRCT T_COL_F
+  Case 3
+    PaintPicture (A1 & "2(2).bmp") (C_X + (X_F * 3)) (C_Y + (Y_F * 3)) 透過 右回転 ANG DRCT T_COL_F
+  Case 4
+    _SelectSound "Bow.wav" _GetWavFromArgs()
+    PaintPicture (A1 & "3(2).bmp") (C_X + (X_F * -2)) (C_Y + (Y_F * -2)) 透過 右回転 ANG DRCT T_COL_F
+  Case 5
+    PaintPicture (A1 & "0(2).bmp") (C_X + (X_F * -3)) (C_Y + (Y_F * -3)) 透過 右回転 ANG DRCT T_COL_F
+  EndSw
+
+  Refresh
+
+  Wait Until (i * 0.5)
+Next
+
+If (_SearchOptionFromArgs(発光) = 発光) Then
+  Call 戦闘アニメ_実弾発射攻撃 _GetWPBN(_STC(光矢)) _GetWPBS(光矢) "-.wav" 発光
+Else
+  Call 戦闘アニメ_実弾発射攻撃 _GetWPBN(矢) _GetWPBS(矢) "-.wav"
+EndIf
+
+ClearPicture
+Refresh
+Return
+
+
+## ネタ ##
+
+暁美ほむら(変態)
+ほむら, MAGICA_AkemiHomura(HENTAI).bmp
+ほむら(変態)
+ほむら, MAGICA_AkemiHomura(HENTAI).bmp
+
+暁美ほむら(変態)(性的興奮)
+ほむら, MAGICA_AkemiHomura(HENTAI)(SexualExcitation).bmp
+ほむら(変態)(性的興奮)
+ほむら, MAGICA_AkemiHomura(HENTAI)(SexualExcitation).bmp
+
+暁美ほむら(変態)(下着)
+ほむら, MAGICA_AkemiHomura(HENTAI)(Underwear).bmp
+ほむら(変態)(下着)
+ほむら, MAGICA_AkemiHomura(HENTAI)(Underwear).bmp
+
+暁美ほむら(変態)(下着２)
+ほむら, MAGICA_AkemiHomura(HENTAI)(Underwear2).bmp
+ほむら(変態)(下着２)
+ほむら, MAGICA_AkemiHomura(HENTAI)(Underwear2).bmp
+
+
+美樹さやか(404)
+さやか, MAGICA_MikiSayaka(404).bmp
+さやか(404)
+さやか, MAGICA_MikiSayaka(404).bmp
+
+
+キュゥべえ(ゲッタードラゴン)
+キュゥべえ, MAGICA_Kyubee(PS).bmp
+
+キュゥべえ(ゲッタードラゴン)(見下す)
+キュゥべえ, MAGICA_Kyubee(PS)(Deprecate).bmp
+
+キュゥべえ(ゲッタードラゴン)(爆笑)
+キュゥべえ, MAGICA_Kyubee(PS)(EvilLaugh).bmp
+
+キュゥべえ(ゲッタードラゴン)(笑う)
+キュゥべえ, MAGICA_Kyubee(PS)(Smile).bmp
+
+キュゥべえ(ゲッタードラゴン)(喋る)
+キュゥべえ, MAGICA_Kyubee(PS)(Talk).bmp
+
+キュゥべえ(ゲッタードラゴン)(勝ち誇る)
+キュゥべえ, MAGICA_Kyubee(PS)(Triumph).bmp
+

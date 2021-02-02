@@ -1,0 +1,17 @@
+
+転移直後(ターミネーター)
+転移直後, すっぱだか, 固定, 非表示
+特殊能力
+パイロット画像=TERM_TerminatorT800(N).bmp (Ｔ－８００ or Ｔ－８５０)
+ユニット画像=TERM_TerminatorT800(Nude)U.bmp (Ｔ－８００)
+ユニット画像=TERM_TerminatorT850(Nude)U.bmp (Ｔ－８５０)
+パイロット画像=TERM_TerminatorT1000(N).bmp (Ｔ－１０００)
+ユニット画像=TERM_TerminatorT1000(Nude)U.bmp (Ｔ－１０００)
+パイロット画像=TERM_TerminatorTX(N).bmp (Ｔ－Ｘ)
+ユニット画像=TERM_TerminatorTX(Nude)U.bmp (Ｔ－Ｘ)
+ユニット画像=TERM_KyleReese(Nude)U.bmp (カイル＝リース)
+0, 0, 0, 0, 0
+
+# ターミネーターの伝統、全裸でのタイムワープ再現用のアイテム。
+# イベント以外で使用する場合は武装を適宜Disableしてください。
+

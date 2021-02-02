@@ -1,0 +1,38 @@
+
+
+不気味な泡
+ワイヤー, Bow.wav
+ワイヤー(命中), Saber.wav
+格闘(命中), Punch.wav
+格闘(命中), Punch(2).wav
+格闘(命中), Punch(3).wav
+バット(命中), Punch.wav
+衝撃波, BeamShot.wav
+衝撃波(命中), Crash.wav
+
+人間
+投げナイフ(命中), Stab.wav
+スタンロッド(命中), Shock(Low).wav
+
+ＭＰＬＳ
+抜き手(命中), 4;Stab.wav
+抜き手(クリティカル), Slash.wav
+鉄棒(命中), Punch.wav
+真空波, Saber.wav
+空間破砕, Glass.wav
+モービィ・ディック, 5;Gun.wav;Explode(Far).wav
+モービィ・ディック(Ｍ), 5;Gun.wav;Explode(Nuclear).wav
+
+合成人間
+触手(命中), Whip.wav
+電撃掌(命中), Shock(Low).wav
+リキッド(命中), Stab.wav
+リキッド(とどめ), 5;Explode(Small).wav
+高速振動ナイフ(命中), Drill.wav
+振動波(命中), Shock(Low).wav
+爪(命中), Stab.wav
+ワイバーン, Bow.wav
+ワイバーン(命中), Explode(Small).wav
+催眠眼, BeamCoat.wav
+巻きつき(命中), Whip.wav
+

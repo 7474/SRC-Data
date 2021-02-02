@@ -1,0 +1,554 @@
+# 使用素材　非登録式画像パックより
+# EFFECT_SZS_GloriousBreak.bmp.bmp
+# 　　　　　丸投げ画像パックより
+# EFFECT_SZSGX_CarbonRod.bmp
+# EFFECT_SZSGX_CarbonRod(2).bmp
+# SZSGX_ArmedGear(Gungnir)(H).bmp
+# SZSGX_IgniteModule.bmp
+
+立花響
+イグナイトモジュール抜剣(発動), 変形 ("Unit\" & Info("ユニットデータ", 立花響(イグナイト),"グラフィック")) Slash(6).wav
+攻撃(解説), $(パイロット)は$(武器)で攻撃をかけた。
+格闘, 格闘
+格闘, 打突
+格闘, キック
+格闘, タックル
+格闘, 投げ飛ばし
+衝撃波(準備), 5;Reload(5).wav
+衝撃波(攻撃), ビームショットキャノン オレンジ 対象ユニットＩＤ whiz.wav
+衝撃波(命中), 強打
+正拳(準備), 5;Reload(5).wav
+正拳(攻撃), 3;Reload(5).wav;3;打撃突撃
+正拳(命中), 強打
+超正拳(準備), 光球集中 オレンジ Charge(high).wav;5;Chaff.wav
+超正拳(攻撃), 3;Reload(5).wav;3;スーパーパンチ オレンジ Breath.wav 対象ユニットＩＤ
+超正拳(命中), スーパーパンチ オレンジ Shock(Low).wav;超打
+超正拳(とどめ), 貫通穴 Cannon.wav
+ジャンプ(パワージャッキ), 地面衝撃 whiz.wav
+デュランダル(準備), ユニット変色 黒 Flair.wav;光大噴出 イエロー Charge(high).wav;5;伸縮武器振り下ろし SlideWeapon\EFFECT_SlideBeamSaber(Yellow)[01-03].bmp 48 Charge(Long).wav
+デュランダル(攻撃), 伸縮武器振り下ろし SlideWeapon\EFFECT_SlideBeamSaber(Yellow)[01-03].bmp 48
+デュランダル(命中), 巨大ビーム イエロー Explode.wav;大爆発
+# 丸投げアイコンパック画像使用、参考として記載
+# 衝撃波(攻撃), 瞬間変形 "SZS_TachibanaHibiki(S)(A)U.bmp" 反映;ビームショットキャノン オレンジ 対象ユニットＩＤ whiz.wav
+# 正拳(攻撃), 瞬間変形 "SZS_TachibanaHibiki(S)(A)U.bmp" 反映;3;Reload(5).wav;3;スーパーパンチ オレンジ jet.wav 対象ユニットＩＤ
+# 超正拳(攻撃), 瞬間変形 "SZS_TachibanaHibiki(S)(A)U.bmp" 反映;3;急降下 whiz.wav 対象ユニットＩＤ;5;地面衝撃 Shock(Low).wav 対象ユニットＩＤ;5;実弾発射 Bullet\EFFECT_GroundCutter(Orange)01.bmp 32 FastGun.wav
+
+
+立花響(暴走)
+格闘, 格闘
+格闘, 打突
+格闘, キック
+格闘, タックル
+格闘, 投げ飛ばし
+抑え切れない破壊衝動, スーパータックル ブラック
+抑え切れない破壊衝動(命中), 超斬撃 ブラック
+抑え切れない破壊衝動(とどめ), 縦分割
+
+立花響(イグナイト)
+衝撃波(準備), 5;Reload(5).wav
+衝撃波(攻撃), ビームショットキャノン ブラック 対象ユニットＩＤ whiz.wav
+衝撃波(命中), 強打
+超正拳(準備), 光球集中 オレンジ Charge(high).wav;5;Chaff.wav
+超正拳(攻撃), 3;Reload(5).wav;3;スーパーパンチ ブラック Breath.wav 対象ユニットＩＤ
+超正拳(命中), スーパーパンチ ブラック Shock(Low).wav;超打
+
+立花響(ＸＤ)
+格闘, 格闘
+格闘, 打突
+格闘, キック
+格闘, タックル
+格闘, 投げ飛ばし
+乱れ撃ち(準備),  5;Reload(5).wav;3;Reload(5).wav
+乱れ撃ち(攻撃), 拡散ビーム オレンジ BeamGun.wav チャージなし
+乱れ撃ち(命中), 拡散ビーム オレンジ
+正拳(準備), 5;Reload(5).wav
+正拳(攻撃), スーパーパンチ オレンジ
+正拳(命中), スーパーパンチ オレンジ;大爆発
+正拳(とどめ), 貫通穴 Cannon.wav
+絶唱ガングニール(準備), 5;Sword.wav;3;Slash(4).wav;3;Slash(4).wav
+絶唱ガングニール(攻撃), スーパーダイブ オレンジ
+絶唱ガングニール(命中), スーパーダイブ オレンジ;ダメージ オレンジ 連続 crash.wav;超爆発
+ガングニールの籠手(準備), 5;Reload(5).wav;3;Reload(5).wav
+ガングニールの籠手(攻撃), スーパータックル 黄
+ガングニールの籠手(命中), 超打;大爆発
+Synchrogazer(準備), 発光 イエロー Flair.wav;光大噴出 イエロー Charge(high).wav;5;伸縮武器振り下ろし SlideWeapon\EFFECT_SlideBeamSaber(Yellow)[01-03].bmp 48 Charge(Long).wav
+Synchrogazer(攻撃), 伸縮武器振り下ろし SlideWeapon\EFFECT_SlideBeamSaber(Yellow)[01-03].bmp 48;会話 システム "<SIZE=18><B>『<I>Synchrogazer</I>』</B></SIZE>" 固定
+Synchrogazer(命中), 巨大ビーム イエロー Explode.wav;@戦闘アニメ_縦分割とどめ;超大爆発
+Vi†alization(準備), -
+Vi†alization(攻撃), 急降下 Partner(0);透明化 Partner(0) 反映;急降下 Partner(1);透明化 Partner(1) 反映;急降下 Partner(2);透明化 Partner(2) 反映;_
+	急降下 Partner(3);透明化 Partner(3) 反映;急降下 Partner(4);透明化 Partner(4) 反映;急降下 Partner(5);透明化 Partner(5) 反映
+Vi†alization(命中), @戦闘アニメ_飛来アップ攻撃 Barrier\EFFECT_Barrier(White)04.bmp イエロー 速;旋風 白 Crash.wav;_
+	会話 システム "<SIZE=18><B>『<I>Vi†alization</I>』</B></SIZE>" 固定;超爆発 白
+Glorious_Break(準備), 射撃武器 SZSGX_ArmedGear(Gungnir)(H).bmp 64 Reload(2).wav
+Glorious_Break(攻撃), Reload(5).wav;3;@戦闘アニメ_８ＷＡＹ射出攻撃 Sword.wav;透明化 対象ユニットＩＤ 反映;_
+	@戦闘アニメ_射撃武器準備 Anime\EFFECT_SZS_GloriousBreak.bmp 64;_
+	会話 立花響(ＸＤ)(ＧＸ) "うおおおおぉぉぉぉぉッ！！！" 固定;_
+	実弾発射 Anime\EFFECT_SZS_GloriousBreak.bmp 64 AntiAirMissile.wav
+Glorious_Break(命中), _
+	@戦闘アニメ_飛来アップ ("Unit\" & Info("ユニットデータ", 立花響(ＸＤ)(ＧＸ),"グラフィック")) Charge(High).wav 速 白;0.5;_
+	会話 立花響(ＸＤ)(ＧＸ) "<SIZE=18><B>ガングニィィィルッ！！！</B></SIZE>" 固定;_
+	大ビーム 黄 Crash.wav;会話 システム "<SIZE=18><B>『<I>Glorious Break</I>』</B></SIZE>" 固定;亀裂発生;超爆発 白
+
+
+風鳴翼
+イグナイトモジュール抜剣(発動), 変形 ("Unit\" & Info("ユニットデータ", 風鳴翼(イグナイト),"グラフィック")) Slash(6).wav
+攻撃(解説), $(パイロット)は$(武器)で攻撃をかけた。
+格闘, キック
+格闘, スピンキック 2
+影縫い(準備), 小柄 
+影縫い(攻撃), 小柄 Bow.wav
+影縫い(命中), 発光 黒 stab.wav
+影縫い(クリティカル), 会話 システム "<SIZE=18><B>『影縫い』</B></SIZE>" 固定
+天羽々斬, 日本刀
+千ノ落涙(準備), 振る武器 Weapon\EFFECT_JapaneseBlade01.bmp
+千ノ落涙(攻撃), 打ち下ろし手持ち連射 Weapon\EFFECT_JapaneseBlade01.bmp 32 LightWeapon\EFFECT_LightSword(LightBlue)02.bmp 32 発光 速;_
+	透明化 対象ユニットＩＤ 反映;会話 システム "<SIZE=18><B>『千ノ落涙』</B></SIZE>" 固定
+千ノ落涙(命中), 透明化 対象ユニットＩＤ 解除 反映;点連打 ライトブルー Slash(4).wav
+逆羅刹(準備), -
+逆羅刹(攻撃), 反転上昇 Drill.wav;斬撃乱舞;会話 システム "<SIZE=24><B>『逆羅刹』</B></SIZE>" 固定
+逆羅刹(命中), 斬撃乱舞
+蒼ノ一閃(準備), 振る武器変形 Weapon\EFFECT_JapaneseBlade01.bmp 32 Weapon\EFFECT_GiantSword02.bmp 32 Transform.wav
+蒼ノ一閃(攻撃), 大斬撃;気斬 ライトブルー 速 Thunderbolt.wav;会話 システム "<SIZE=18><B>『蒼ノ一閃』</B></SIZE>" 固定
+蒼ノ一閃(命中), 光斬撃 ライトブルー Slash.wav 中
+蒼ノ一閃(とどめ), 縦分割 Sword.wav
+天ノ逆鱗(準備), 振る武器 Weapon\EFFECT_JapaneseBlade01.bmp
+天ノ逆鱗(攻撃), 打ち下ろし投擲武器 Weapon\EFFECT_JapaneseBlade01.bmp Swing.wav 速;Transform.wav;スーパーキック ライトブルー jet.wav;_
+	会話 システム "<SIZE=18><B>『天ノ逆鱗』</B></SIZE>" 固定
+天ノ逆鱗(命中), スーパーキック ライトブルー;超斬撃 ライトブルー Sword.wav
+天ノ逆鱗(とどめ), 横分割 slash.wav
+炎鳥極翔斬(準備), 振る武器変形 Weapon\EFFECT_JapaneseBlade01.bmp 32 Weapon\EFFECT_FireSword01.bmp 32 Swing.wav 二刀流
+炎鳥極翔斬(攻撃), スーパーダイブ ライトブルー;飛来アップ Effect\EFFECT_FireBird(LightBlue).bmp ブラック whiz.wav;_
+	会話 システム "<SIZE=18><B>『炎鳥極翔斬』</B></SIZE>" 固定
+炎鳥極翔斬(命中), スーパーダイブ ライトブルー;超爆発
+風輪火斬(準備), 中心回転武器 BeamWeapon\EFFECT_TwinBeamSaber(Red)02.bmp Swing.wav
+風輪火斬(攻撃), 振る武器突撃 BeamWeapon\EFFECT_TwinBeamSaber(Red)02.bmp 112 Whiz.wav
+風輪火斬(命中), なぎ払い大炎斬撃;会話 システム "<SIZE=18><B>『風輪火斬』</B></SIZE>" 固定
+風輪火斬(とどめ), 横分割 Sword.wav
+騎馬ノ一閃(準備), -
+騎馬ノ一閃(攻撃), ＭＡＰ移動タックル;会話 システム "<SIZE=18><B>『騎馬ノ一閃』</B></SIZE>" 固定
+騎馬ノ一閃(命中), 斬撃
+騎馬ノ一閃(命中), 横大斬撃
+風輪火斬・月煌(準備), 中心回転武器 BeamWeapon\EFFECT_TwinBeamSaber(Red)02.bmp Swing.wav
+風輪火斬・月煌(攻撃), 振る武器突撃 BeamWeapon\EFFECT_TwinBeamSaber(Red)02.bmp 112 Whiz.wav
+風輪火斬・月煌(命中), なぎ払い大炎斬撃 青;会話 システム "<SIZE=18><B>『風輪火斬・月煌』</B></SIZE>" 固定
+風輪火斬・月煌(とどめ), 横分割 Sword.wav
+蒼刃罰光斬(準備), -
+蒼刃罰光斬(攻撃), なぎ払い Sword.wav;地表衝撃波 -.wav;会話 システム "<SIZE=18><B>『蒼刃罰光斬』</B></SIZE>" 固定
+蒼刃罰光斬(命中), クリティカル斬撃
+羅刹零ノ型(準備), 振る武器変形 Weapon\EFFECT_JapaneseBlade01.bmp 32 BeamWeapon\EFFECT_BeamSword(Red)06.bmp 48 Explode.wav 二刀流
+羅刹零ノ型(攻撃), スーパーダイブ 赤 前転 Fire(2).wav
+羅刹零ノ型(命中), 回転大炎斬撃;会話 システム "<SIZE=18><B>『羅刹零ノ型』</B></SIZE>" 固定
+羅刹零ノ型(とどめ), 横分割 Sword.wav
+蒼ノ一閃滅破(準備), 振る武器変形 Weapon\EFFECT_GiantSword02.bmp 32 Weapon\EFFECT_GiantSword02.bmp 48 Transform.wav
+蒼ノ一閃滅破(攻撃), 波動放射 ライトブルー 速 Thunderbolt.wav3;Flair.wav;_
+	会話 システム "<SIZE=18><B>『蒼ノ一閃』</B></SIZE>" 固定;会話 システム "<SIZE=18><B>『蒼ノ一閃<COLOR=#FFD700>滅破</COLOR>』</B></SIZE>" 固定
+蒼ノ一閃滅破(命中), 光斬撃 ライトブルー Explode.wav 大
+蒼ノ一閃滅破(とどめ), 縦分割 Sword.wav
+絶唱天羽々斬(準備), 振る武器変形 Weapon\EFFECT_GiantSword02.bmp 32 Weapon\EFFECT_GiantSword02.bmp 48 Transform.wav;振る武器変形 Weapon\EFFECT_GiantSword02.bmp 48 Weapon\EFFECT_GiantSword02.bmp 64 Transform.wav;振る武器変形 Weapon\EFFECT_GiantSword02.bmp 64 Weapon\EFFECT_GiantSword02.bmp 96 Transform.wav
+絶唱天羽々斬(攻撃), 振る武器突撃 Weapon\EFFECT_GiantSword02.bmp 96 斬撃
+絶唱天羽々斬(命中), 超斬撃 crash.wav
+絶唱天羽々斬(とどめ), 亀裂発生 Crash.wav 遅;縦分割 Explode(Nuclear).wav
+
+
+雪音クリス
+イグナイトモジュール抜剣(発動), 変形 ("Unit\" & Info("ユニットデータ", 雪音クリス(イグナイト),"グラフィック")) Slash(6).wav
+攻撃(解説), $(パイロット)は$(武器)で攻撃をかけた。
+格闘, 格闘
+格闘(とどめ), @戦闘アニメ_銃撃武器準備 Weapon\EFFECT_Gatling02.bmp 48 Transform.wav;@戦闘アニメ_ガトリング攻撃;連続着弾
+イチイバル, ビームショットガン ピンク Weapon\EFFECT_CrossBow01.bmp 32
+イチイバル(銃), 光弾銃 ピンク Weapon\EFFECT_ShockBeamGun01.bmp 32
+BILLION_MAIDEN(準備), 5;Transform.wav;銃撃武器 Weapon\EFFECT_Gatling02.bmp 48 二丁拳銃
+BILLION_MAIDEN(攻撃), 銃撃武器乱射 Weapon\EFFECT_Gatling02.bmp 48 Fire\EFFECT_MuzzleFlash02.bmp 48 二丁拳銃 小 MachineGun.wav;会話 システム "<SIZE=18><B>『<I>BILLION MAIDEN</I>』</B></SIZE>" 固定
+BILLION_MAIDEN(攻撃), 打ち下ろし銃撃武器乱射 Weapon\EFFECT_Gatling02.bmp 48 Fire\EFFECT_MuzzleFlash02.bmp 48 二丁拳銃 小 MachineGun.wav;会話 システム "<SIZE=18><B>『<I>BILLION MAIDEN</I>』</B></SIZE>" 固定
+BILLION_MAIDEN(命中), ガトリング
+CUT_IN_CUT_OUT(準備), -
+CUT_IN_CUT_OUT(攻撃), 5;Transform.wav;ホーミングミサイル;会話 システム "<SIZE=18><B>『<I>CUT IN CUT OUT</I>』</B></SIZE>" 固定
+CUT_IN_CUT_OUT(命中), ホーミングミサイル
+MEGA_DETH_PARTY(準備), 5;Transform.wav;3;Reload.wav;3;Reload.wav;銃撃武器 Weapon\EFFECT_Gatling02.bmp 48 二丁拳銃
+MEGA_DETH_PARTY(攻撃), 銃撃武器乱射 Weapon\EFFECT_Gatling02.bmp 48 Fire\EFFECT_MuzzleFlash02.bmp 48 二丁拳銃 小 MachineGun.wav;ホーミングミサイル;会話 システム "<SIZE=18><B>『<I>MEGA DETH PARTY</I>』</B></SIZE>" 固定
+MEGA_DETH_PARTY(命中), ガトリング;ホーミングミサイル;大爆発
+MEGA_DETH_QUARTET(準備), 5;Transform.wav;3;Reload.wav;3;Reload.wav;3;Transform.wav;3;Transform.wav;銃撃武器 Weapon\EFFECT_Gatling02.bmp 48 二丁拳銃
+MEGA_DETH_QUARTET(攻撃), ＭＡＰミサイル;銃撃武器乱射 Weapon\EFFECT_Gatling02.bmp 48 Fire\EFFECT_MuzzleFlash02.bmp 48 二丁拳銃 小 MachineGun.wav;ＭＡＰホーミングミサイル;会話 システム "<SIZE=18><B>『<I>MEGA DETH QUARTET</I>』</B></SIZE>" 固定
+絶唱イチイバル(準備), 浮上アップ SZS_YukineChris(S)U.bmp FlyBy(High).wav 背景なし
+絶唱イチイバル(攻撃), 衛星ビーム ピンク SZS_YukineChris(S)U.bmp
+絶唱イチイバル(命中), 超ビーム ピンク
+GIGA_ZEPPERIN(準備), ビームショットガン ピンク Weapon\EFFECT_CrossBow01.bmp 32
+GIGA_ZEPPERIN(攻撃), 光打ち上げ Whiz.wav;会話 システム "<SIZE=18><B>『<I>GIGA ZEPPERIN</I>』</B></SIZE>" 固定
+GIGA_ZEPPERIN(命中), 拡散ビーム
+QUEEN's_INFEAND, 銃撃武器 Weapon\EFFECT_CrossBow01.bmp 32 Beam\EFFECT_SpecialBeam(Pink)03.bmp 64 二丁拳銃 Beam.wav
+QUEEN's_INFEAND(命中), ビームショットガン
+MEGA_DETH_FUGA(準備), 5;Transform.wav;3;Reload.wav;3;Reload.wav;3;Transform.wav;3;銃撃武器 Bullet\EFFECT_SuperMissile01.bmp 40 二丁拳銃 Transform.wav
+MEGA_DETH_FUGA(攻撃), スーパーミサイル 2;会話 システム "<SIZE=18><B>『<I>MEGA DETH QUARTET</I>』</B></SIZE>" 固定
+MEGA_DETH_FUGA(命中), 大爆発
+RED_HOT_BLAZE(準備), 対戦車ライフル
+RED_HOT_BLAZE(攻撃), 大斬撃
+RED_HOT_BLAZE(命中), 大斬撃 Crash.wav;会話 システム "<SIZE=18><B>『<I>RED HOT BLAZE</I>』</B></SIZE>" 固定
+ARTHEMIS_SPIRAL(準備), 弓矢 Weapon\EFFECT_Bow00.bmp 48
+ARTHEMIS_SPIRAL(攻撃), 弓矢 Missile.wav;会話 システム "<SIZE=18><B>『<I>ARTHEMIS SPIRAL</I>』</B></SIZE>" 固定
+ARTHEMIS_SPIRAL(命中), 中ビーム 黒 Explode(High).wav
+BILLION_MAIDEN(XD)(準備), -
+BILLION_MAIDEN(XD)(攻撃), 拡散ビーム レッド チャージなし;会話 システム "<SIZE=18><B>『<I>BILLION MAIDEN</I>』</B></SIZE>" 固定
+BILLION_MAIDEN(XD)(命中), ビームショットガン レッド
+CUT_IN_CUT_OUT(XD)(準備), -
+CUT_IN_CUT_OUT(XD)(攻撃), ２連小ビーム ピンク;会話 システム "<SIZE=18><B>『<I>CUT IN CUT OUT</I>』</B></SIZE>" 固定
+CUT_IN_CUT_OUT(XD)(命中), ビームショットキャノン ピンク LaserGun.wav
+MEGA_DETH_PARTY(XD)(準備), -
+MEGA_DETH_PARTY(XD)(攻撃), ホーミングレーザー ピンク チャージなし;会話 システム "<SIZE=18><B>『<I>MEGA DETH PARTY</I>』</B></SIZE>" 固定
+MEGA_DETH_PARTY(XD)(命中), 包囲ビーム ピンク
+# 参考武装
+# MEGA_DETH_QUARTET(単)(準備), 5;Transform.wav;3;Reload.wav;3;Reload.wav;3;Transform.wav;3;Transform.wav;会話 システム "<SIZE=18><B>『<I>MEGA DETH QUARTET</I>』</B></SIZE>" 固定
+# MEGA_DETH_QUARTET(単)(攻撃), スーパーミサイル 2
+# 絶唱イチイバル(準備), 浮上アップ SZS_YukineChris(S)U.bmp FlyBy(High).wav 背景なし
+# 絶唱イチイバル(攻撃), 衛星ビーム ピンク SZS_YukineChris(S)U.bmp
+# 絶唱イチイバル(命中), 超ビーム ピンク
+# RED_HOT_BLAZE(射)(準備), 対戦車ライフル
+# RED_HOT_BLAZE(射)(攻撃), ロックオン;会話 システム "<SIZE=18><B>『<I>RED HOT BLAZE</I>』</B></SIZE>" 固定;対戦車ライフル
+# RED_HOT_BLAZE(射)(命中), 対戦車ライフル
+
+雪音クリス(ＸＤ)
+絶唱イチイバル(準備), 5;Transform.wav;3;Transform.wav;1;Reload.wav;1;Reload.wav;1;Reload.wav;1;Reload.wav;1;Reload.wav;1;Reload.wav
+絶唱イチイバル(攻撃), 平行弾幕 Bullet\EFFECT_Missile01.bmp 32 個数=6 回数=2 - - 速 - MicroMissile.wav
+絶唱イチイバル(命中), 連続大爆発 4
+
+
+マリア＝カデンツァヴナ＝イヴ(ガングニール)
+シールド防御(マント), マント 黒
+マント, 黒斬撃
+ガングニール, 竜騎槍
+ガングニール, 斬撃武器 Weapon\EFFECT_DragoonLance01.bmp 48
+HORIZON†SPEAR, バスタービームライフル 桃 Weapon\EFFECT_DragoonLance01.bmp 48
+HORIZON†SPEAR(攻撃), バスタービームライフル 桃 Weapon\EFFECT_DragoonLance01.bmp 48;会話 システム "<SIZE=18><B>『<I>HORIZON†SPEAR</I>』</B></SIZE>" 固定
+
+マリア＝カデンツァヴナ＝イヴ
+イグナイトモジュール抜剣(発動), 変形 ("Unit\" & Info("ユニットデータ", マリア＝カデンツァヴナ＝イヴ(イグナイト),"グラフィック")) Slash(6).wav
+攻撃(解説), $(パイロット)は$(武器)で攻撃をかけた。
+シールド防御, @戦闘アニメ_３ＷＡＹ射出攻撃 相手ユニットＩＤ;ビームシールド
+アガートラーム, ショートソード
+INFINITE†CRIME(準備), -
+INFINITE†CRIME(攻撃), 斬撃;実弾連射 Weapon\EFFECT_Dart02.bmp 32 速;会話 システム "<SIZE=18><B>『<I>INFINITE†CRIME</I>』</B></SIZE>" 固定
+INFINITE†CRIME(命中), 点連打 白 Stab.wav
+EMPRESS†REVELLION(準備), ショートソード
+EMPRESS†REVELLION(攻撃), 多節武器伸撃 SlideWeapon\EFFECT_AccordionSword[01-03].bmp;会話 システム "<SIZE=18><B>『<I>EMPRESS†REVELLION</I>』</B></SIZE>" 固定
+EMPRESS†REVELLION(命中), なぎ払い;回転斬撃
+SERE†NADE(準備), 5;Reload(5).wav;3;Reload(5).wav
+SERE†NADE(攻撃), スーパーダイブ
+SERE†NADE(命中), スーパーダイブ;超斬撃;会話 システム "<SIZE=18><B>『<I>SERE†NADE</I>』</B></SIZE>" 固定
+INFINITE†CRIME(XD)(準備), -
+INFINITE†CRIME(XD)(攻撃), 斬撃;実弾連射 Weapon\EFFECT_Dart02.bmp 32 速;会話 システム "<SIZE=18><B>『<I>INFINITE†CRIME</I>』</B></SIZE>" 固定
+INFINITE†CRIME(XD)(命中), 包囲ビーム 緑
+Vi†alization(準備), -
+Vi†alization(攻撃), 急降下 Partner(0);透明化 Partner(0) 反映;急降下 Partner(1);透明化 Partner(1) 反映;急降下 Partner(2);透明化 Partner(2) 反映;_
+	急降下 Partner(3);透明化 Partner(3) 反映;急降下 Partner(4);透明化 Partner(4) 反映;急降下 Partner(5);透明化 Partner(5) 反映
+Vi†alization(命中), @戦闘アニメ_飛来アップ攻撃 Barrier\EFFECT_Barrier(White)04.bmp イエロー 速;旋風 白 Crash.wav;_
+	会話 システム "<SIZE=18><B>『<I>Vi†alization</I>』</B></SIZE>" 固定;超爆発 白
+
+
+暁切歌
+イグナイトモジュール抜剣(発動), 変形 ("Unit\" & Info("ユニットデータ", 暁切歌(イグナイト),"グラフィック")) Slash(6).wav
+攻撃(解説), $(パイロット)は$(武器)で攻撃をかけた。
+イガリマ, 大鎌
+切・呪りeッTぉ(準備), 大鎌
+切・呪りeッTぉ(攻撃), 回転投擲武器 Bullet\EFFECT_ShootingCutter(Green)01.bmp 32;会話 システム "<SIZE=18><B>『<I>切・呪りeッTぉ</I>』</B></SIZE>" 固定;Laugh(Child).wav
+切・呪りeッTぉ(命中), ライトセイバー 緑 二刀流 Slash(3).wav
+封伐・PィNo奇ぉ(準備), 5;Reload(5).wav;3;Reload(5).wav
+封伐・PィNo奇ぉ(攻撃), 連突;会話 システム "<SIZE=18><B>『<I>封伐・PィNo奇ぉ</I>』</B></SIZE>" 固定;Laugh(Child).wav
+封伐・PィNo奇ぉ(命中), 連突
+双斬・死nデRぇラ(準備), 振る武器変形 Weapon\EFFECT_Scithe01.bmp 32 Weapon\EFFECT_Getsuga01.bmp 48
+双斬・死nデRぇラ(攻撃), 会話 システム "<SIZE=18><B>『<I>双斬・死nデRぇラ</I>』</B></SIZE>" 固定;Laugh(Child).wav;月牙突撃
+双斬・死nデRぇラ(命中), 月牙突撃
+断殺・邪刃ウォttKKK(準備), -
+断殺・邪刃ウォttKKK(攻撃), チェーン 二刀流
+断殺・邪刃ウォttKKK(命中), 多触手;@戦闘アニメ_スーパーダイブ攻撃;会話 システム "<SIZE=18><B>『<I>断殺・邪刃ウォttKKK</I>』</B></SIZE>" 固定;Laugh(Child).wav;スーパーダイブ Slash.wav
+断殺・邪刃ウォttKKK(とどめ), 縦分割
+災輪・TぃN渦ぁBェル(準備), 大鎌
+災輪・TぃN渦ぁBェル(攻撃), スピンアタック 緑;会話 システム "<SIZE=18><B>『<I>災輪・TぃN渦ぁBェル</I>』</B></SIZE>" 固定;Laugh(Child).wav
+災輪・TぃN渦ぁBェル(命中), スピンアタック 緑
+対鎌・螺Pうn痛ｴる(準備), 振る武器変形 Weapon\EFFECT_Scithe01.bmp 32 Weapon\EFFECT_LongDoubleAx01.bmp 48
+対鎌・螺Pうn痛ｴる(攻撃), 会話 システム "<SIZE=18><B>『<I>対鎌・螺Pうn痛ｴる</I>』</B></SIZE>" 固定;Laugh(Child).wav;振る武器突撃 Weapon\EFFECT_LongDoubleAx01.bmp 48
+対鎌・螺Pうn痛ｴる(命中), 連斬撃
+禁殺邪輪Zあ破刃エクLィプS(準備), 大鎌;ヨーヨー $(Partner(1))
+禁殺邪輪Zあ破刃エクLィプS(攻撃), 大鎌突撃;ヨーヨー $(Partner(1))
+禁殺邪輪Zあ破刃エクLィプS(命中), 連斬撃;ダメージ 連続;多触手;@戦闘アニメ_同時スーパータックル攻撃 黒;会話 システム "<SIZE=18><B>『<I>禁殺邪輪・Zあ破刃エクLィプssSS</I>』</B></SIZE>" 固定;Laugh(Child).wav;同時スーパータックル 黒 Slash.wav
+禁殺邪輪Zあ破刃エクLィプS(とどめ), 縦分割
+終虐・Ne破aァ乱怒(準備), 光巨大鎌 緑 Sword.wav
+終虐・Ne破aァ乱怒(攻撃), 光巨大鎌突撃 緑;会話 システム "<SIZE=18><B>『<I>終虐・Ne破aァ乱怒</I>』</B></SIZE>" 固定;Laugh(Child).wav
+終虐・Ne破aァ乱怒(命中), 連続描画 Hit\EFFECT_ClawSlashHit(Green)[01-05].bmp 長方形サイズ=48=48 2 1 前面 Slash.wav
+
+
+月読調
+イグナイトモジュール抜剣(発動), 変形 ("Unit\" & Info("ユニットデータ", 月読調(イグナイト),"グラフィック")) Slash(6).wav
+攻撃(解説), $(パイロット)は$(武器)で攻撃をかけた。
+シュルシャガナ(準備), 中心回転武器 Bullet\EFFECT_STG_Bullet(Black)02.bmp 16 Drill.wav 二刀流
+シュルシャガナ(攻撃), 白兵武器 二刀流
+シュルシャガナ(命中), 斬撃 二刀流 Drill.wav
+α式・百輪廻(準備), -
+α式・百輪廻(攻撃), 実弾連射 Bullet\EFFECT_STG_Bullet(Black)02.bmp 16;会話 システム "<SIZE=18><B>『<I>α式・百輪廻</I>』</B></SIZE>" 固定
+α式・百輪廻(攻撃), 打ち下ろし実弾連射 Bullet\EFFECT_STG_Bullet(Black)02.bmp 16;会話 システム "<SIZE=18><B>『<I>α式・百輪廻</I>』</B></SIZE>" 固定
+α式・百輪廻(命中), 連突 Slash.wav
+γ式・卍火車(準備), 中心回転武器 Bullet\EFFECT_STG_Bullet(Black)03.bmp 32 Drill.wav 二刀流
+γ式・卍火車(攻撃), 白兵武器 二刀流;実弾連射 Bullet\EFFECT_STG_Bullet(Black)03.bmp 32 Drill.wav;会話 システム "<SIZE=18><B>『<I>γ式・卍火車</I>』</B></SIZE>" 固定
+γ式・卍火車(命中), 連続なぎ払い Drill.wav
+非常Σ式・禁月輪(攻撃),スーパータックル 黒; 会話 システム "<SIZE=18><B>『<I>非常Σ式・禁月輪</I>』</B></SIZE>" 固定
+非常Σ式・禁月輪(命中), 振る武器突撃 -.bmp 斬撃
+裏γ式・滅多卍切(準備), 中心回転武器 Bullet\EFFECT_STG_Bullet(Black)03.bmp 32 Drill.wav 二刀流
+裏γ式・滅多卍切(攻撃), 斬撃乱舞;会話 システム "<SIZE=18><B>『<I>裏γ式・滅多卍切</I>』</B></SIZE>" 固定
+裏γ式・滅多卍切(命中), 斬撃乱舞  Drill.wav
+ヨーヨー, ヨーヨー 二刀流
+β式・巨円断(準備), ヨーヨー 二刀流;中心回転武器 Bullet\EFFECT_STG_Bullet(Black)03.bmp 32 Drill.wav
+β式・巨円断(攻撃), 唐竹割り;回転発射 Bullet\EFFECT_STG_Bullet(Black)03.bmp 32 Drill.wav;会話 システム "<SIZE=18><B>『<I>β式・巨円断</I>』</B></SIZE>" 固定
+β式・巨円断(命中), 回転斬撃
+Δ式・艶殺アクセル(準備), -
+Δ式・艶殺アクセル(攻撃), スピンアタック ピンク;会話 システム "<SIZE=18><B>『<I>Δ式・艶殺アクセル</I>』</B></SIZE>" 固定
+Δ式・艶殺アクセル(命中), スピンアタック ピンク
+終Ω式・ディストピア(準備), 変形 Creature\EFFECT_SuspectRobot01.bmp
+終Ω式・ディストピア(攻撃), 大斬撃 二刀流 ピンク;会話 システム "<SIZE=18><B>『<I>終Ω式・ディストピア</I>』</B></SIZE>" 固定
+終Ω式・ディストピア(命中), 大斬撃 二刀流 ピンク
+ジャンプ, 会話 システム "<SIZE=18><B>『<I>緊急φ式・双月カルマ</I>』</B></SIZE>" 固定;強風 Whiz.wav;@戦闘アニメ_急降下攻撃
+
+
+天羽奏
+攻撃(解説), $(パイロット)は$(武器)で攻撃をかけた。
+ガングニール, 竜騎槍
+ガングニール, 斬撃武器 Weapon\EFFECT_DragoonLance01.bmp 48
+STARDUST∞FOTON(準備), 突く武器 Weapon\EFFECT_DragoonLance01.bmp 48
+STARDUST∞FOTON(攻撃), 打ち下ろし手持ち連射 Weapon\EFFECT_DragoonLance01.bmp 48 LightWeapon\EFFECT_LightSpear(Orange)01.bmp 32 発光 速;会話 システム "<SIZE=18><B>『<COLOR=Purple>STARDUST∞FOTON</color>』</B></SIZE>" 固定
+STARDUST∞FOTON(命中), ニードルレーザー連射 オレンジ Slash(4).wav
+LAST∞METEOR(準備), 振る武器変形 Weapon\EFFECT_DragoonLance01.bmp 48 Weapon\EFFECT_DrillSpear01.bmp 48 Drill.wav;竜巻
+LAST∞METEOR(攻撃), ドリルスピア;旋風;会話 システム "<SIZE=18><B>『<COLOR=#FFA500>LAST∞METEOR</color>』</B></SIZE>" 固定
+LAST∞METEOR(命中), 旋風
+
+
+風鳴弦十朗
+阻止(震脚返し), 地面衝撃 Shock(Low).wav;シールド防御 Rock\EFFECT_RockPiller05.bmp 48 Explode(Small).wav - 震脚返し
+震脚・蹴り飛ばし(準備), 地面衝撃 Shock(Low).wav
+震脚・蹴り飛ばし(攻撃), キック;岩弾
+震脚・蹴り飛ばし(命中), ダメージ
+正拳突き, 超アッパー
+
+
+緒川慎次
+影縫い(準備), ニューナンブ
+影縫い(攻撃), ニューナンブ
+影縫い(命中), 発光 黒 stab.wav
+影縫い(クリティカル), 1;Flair.wav;会話 システム "<SIZE=18><B>『影縫い』</B></SIZE>" 固定
+拳銃, ニューナンブ
+
+
+完全聖遺物ネフィリム
+捕食, 噛み付き
+
+
+完全聖遺物ネフィリム(フロンティア融合)
+ミサイル, ホーミングミサイル
+触腕, 触手乱舞 黒
+ビーム, ２連小ビーム 黄
+赤色黎明砲, 火炎弾
+
+
+完全聖遺物ネフィリム・ノヴァ
+自動反撃(飢餓衝動), @戦闘アニメ_魔法放射命中 オレンジ 中
+飢餓衝動(命中), 光球放出 オレンジ Inori.wav
+触手, 触手乱舞 オレンジ
+巨腕, 光斬撃 オレンジ Swing.wav 大
+光線, 大ビーム オレンジ
+一兆度の熱量(準備), -
+一兆度の熱量(攻撃), ユニット変色 白 対象ユニットＩＤ Charge(Long).wav;ＭＡＰフラッシュ 白 Explode(Nuclear).wav
+
+
+小日向未来(神獣鏡)
+触手ユニット, 触手 紫
+光弾, 光弾 白
+閃光(準備), ビームランチャー Shield\EFFECT_ThrowingShield(White)01.bmp 32 Sword(2).wav
+閃光(攻撃), 拡散ビーム 白;会話 システム "<SIZE=18><B>『<I>閃光</I>』</B></SIZE>" 固定
+閃光(命中), 拡散ビーム
+流星(攻撃), 大ビーム 白;会話 システム "<SIZE=18><B>『<I>流星</I>』</B></SIZE>" 固定
+流星, 大ビーム 白
+
+
+キャロル＝マールス＝ディーンハイム
+攻撃無効化(ヘルメス・トリスメギストス), バリア Sword.wav "ヘルメス・トリスメギストス" 黄
+突風, 旋風 緑
+アリストテレス(準備), 魔法陣 赤 対象ユニットＩＤ 背面
+アリストテレス(準備), 魔法陣 青 対象ユニットＩＤ 背面
+アリストテレス(攻撃), SZS_二丁ビームライフル 画像=-.bmp=-bmp 色=赤=青 中
+アリストテレス(命中), 火炎放射器
+アリストテレス(命中), 大水流
+鋼糸魔弦(準備), -
+鋼糸魔弦(攻撃), 白兵武器;持続ビーム 白 -.wav チャージなし
+鋼糸魔弦(命中), 爪撃
+世界を壊す歌(準備), 魔法陣 黄 対象ユニットＩＤ 背面
+世界を壊す歌(攻撃), 超ビーム 黄
+世界を壊す歌(命中), 超ビーム 黄
+
+碧の獅子機(シンフォギア)
+ホーミングレーザー, 大拡散ビーム 黄
+火炎, 超火炎放射
+咆哮, 巨大ビーム 黄 電撃
+
+
+レイア＝ダラーヒム
+棒銭トンファー, トンファー 二刀流
+銭投げ(準備), 投擲武器 DGoods\EFFECT_GoldCoin01.bmp Reload(4).wav 二刀流
+銭投げ(攻撃), 振り上げ;ニードルレーザー連射 黄 Bow.wav
+銭投げ(命中), 点連打 黄
+金属棘(準備), 投擲武器 DGoods\EFFECT_GoldCoin01.bmp Reload(4).wav 二刀流
+金属棘(攻撃), 振り上げ;ニードルレーザー連射 黄 Bow.wav
+金属棘(命中), 岩柱 Slash(4).wav 黄
+挟み撃ち(準備), 投擲武器 DGoods\EFFECT_GoldCoin01.bmp Reload(4).wav 二刀流
+挟み撃ち(攻撃), 斬撃 二刀流;
+
+
+ガリィ＝トゥーマーン
+攻撃無効化(防壁), バリア Sword.wav "防壁" 青
+ダミー(水鏡), 泡 青 Bubble.wav
+水柱, 大水流
+水柱(命中), 大水流;凍結
+氷剣(準備), 振る武器 BeamWeapon\EFFECT_BeamSword(Blue)06.bmp Freeze.wav
+氷剣(攻撃), 斬撃 青
+氷剣(命中), 凍斬撃
+
+
+ミカ＝ジャウカーン
+火炎, 火炎放射
+鉤爪, 爪撃
+カーボンロッド, 殴打武器 EFFECT_SZSGX_CarbonRod.bmp 48 48
+カーボンロッド射出(準備), -
+カーボンロッド射出(攻撃), 実弾発射 EFFECT_SZSGX_CarbonRod(2).bmp 48 Missile.wav
+カーボンロッド射出(命中), 爆発
+カーボンロッド連射(準備), -
+カーボンロッド連射(攻撃), 実弾連射 EFFECT_SZSGX_CarbonRod(2).bmp 48 Missile.wav
+カーボンロッド連射(命中), 連続爆発 4
+
+ファラ＝スユーフ
+攻撃無効化(哲学兵装ソードブレイカー), 切り払い Sword.wav
+反射(突風の防壁), 強風
+哲学兵装ソードブレイカー, 銀剣
+突進, スピンアタック 緑 Swing(2).wav 
+竜巻, 竜巻 緑
+
+
+
+
+鳥型ノイズ
+回転攻撃, スピンアタック パープル
+急降下攻撃, 急降下
+# 急降下攻撃,  瞬間変形 "SZS_Noise3(A)U.bmp" 反映;スーパーキック パープル
+
+
+蛙型ノイズ
+飛びかかり, 飛びかかり
+弾丸突撃(準備), -
+弾丸突撃(攻撃), 伸縮武器 Hand\EFFECT_GumArm(Blue)[01-03].bmp 32 whiz.wav
+
+
+人型ノイズ
+飛びかかり, 飛びかかり
+弾丸突撃(準備), -
+弾丸突撃(攻撃), 伸縮武器 Hand\EFFECT_GumArm(Orange)[01-03].bmp 32 whiz.wav
+
+
+捕縛型ノイズ
+捕縛液, 液体噴射 ホワイト
+
+
+両刃型ノイズ
+両刃の腕, 連斬撃
+
+
+触手型ノイズ
+飛びかかり, 飛びかかり
+触手, 触手 ピンク
+
+
+芋虫型ノイズ
+体液放射, 水流 グリーン
+
+
+巨人型ノイズ
+巨大腕(攻撃), 格闘
+巨大腕(命中), ダメージ Crash.wav
+
+
+融合型ノイズ
+回転羽(攻撃), ６ＷＡＹ射出
+回転羽(命中), 斬撃乱舞
+
+
+葡萄型ノイズ
+ノイズ爆弾(攻撃), 実弾乱射 Impact\EFFECT_ImpactBall(Purple)01.bmp 24 Bomb.wav 速
+ノイズ爆弾(命中), 連続爆発 4
+
+
+多脚型ノイズ
+触手, 触手 オレンジ
+ジャンプアタック, 急降下
+
+
+要塞型ノイズ
+ノイズ砲弾, キャノン砲 2
+
+
+飛行型ノイズ
+ノイズ爆撃(攻撃), 投下爆弾
+ノイズ爆撃(命中), 連打 Explode(Small).wav
+# ノイズ爆撃(攻撃), 実弾絨毯爆撃 SZS_Noise1U.bmp
+# ノイズ爆撃(攻撃), 実弾絨毯爆撃 SZS_Noise2U.bmp
+# ノイズ爆撃(攻撃), 実弾絨毯爆撃 SZS_Noise2(2)U.bmp
+
+
+鳥型アルカ・ノイズ
+回転攻撃, スピンアタック パープル
+急降下攻撃, 急降下
+
+蛙型アルカ・ノイズ
+飛びかかり, 飛びかかり
+弾丸突撃(準備), -
+弾丸突撃(攻撃), 伸縮武器 Hand\EFFECT_GumArm(Orange)[01-03].bmp 32 whiz.wav
+
+人型アルカ・ノイズ
+飛びかかり, 飛びかかり
+触腕(準備), -
+触腕(攻撃), 伸縮武器 Hand\EFFECT_GumArm(White)[01-03].bmp 32 whiz.wav
+
+砲台型アルカ・ノイズ
+体液放射, 水流 グリーン
+
+武士型アルカ・ノイズ
+剣腕, 斬撃
+
+飛行型アルカ・ノイズ
+アルカ・ノイズ爆撃(攻撃), 投下爆弾
+アルカ・ノイズ爆撃(命中), 連打 Explode(Small).wav
+
+巨人型アルカ・ノイズ
+巨碗, 振り下ろし
+
+戦姫絶唱シンフォギア
+イグナイトモジュール抜剣(使用),  @戦闘アニメ_投擲武器準備 SZSGX_IgniteModule.bmp 16 Inori.wav;会話 システム "<SIZE=18><B>『<I>Dainslaif</I>』</B></SIZE>" 固定;_
+	変形 Anime\Barrier\EFFECT_Barrier(Black)04.bmp Charge.wav;5
+合体アームドギア(準備), @戦闘アニメ_急降下攻撃;透明化 対象ユニットＩＤ 反映;@戦闘アニメ_急降下攻撃 $(Partner(1));透明化 $(Partner(1)) 反映;浮上アップ Unit\SZSGX_UnisonArmedGear(IS)U.bmp
+合体アームドギア(攻撃), 瞬間変形 SZSGX_UnisonArmedGear(IS)U.bmp;振る武器突撃 -.bmp Dril.wav
+合体アームドギア(命中), 振る武器突撃 -.bmp Dril.wav
+ソロモンの杖, ビームライフル グリーン Shield\EFFECT_SFShield02.bmp
+ソロモンの杖(命中), 3;Fold.wav;打撃
+クリスタルの鞭(準備), 振る武器 SlideWeapon\EFFECT_BeamWhip(Pink)00.bmp 32
+クリスタルの鞭(攻撃), 多節武器 SlideWeapon\EFFECT_BeamChain(Pink)[01-03].bmp 32 Whip.wav
+クリスタルの鞭(命中), 刺突 ピンク
+クリスタルの剣(準備), 振る武器変形 SlideWeapon\EFFECT_BeamWhip(Pink)00.bmp 32 LightWeapon\EFFECT_LightBar(Pink)01.bmp 32 BeamSaber.wav
+クリスタルの剣(攻撃), なぎ払い ピンク
+クリスタルの剣(命中), 円弧斬撃 ピンク
+NIRVANA_GEDON(準備), -
+NIRVANA_GEDON(攻撃), 打ち下ろし手持ち発射 SlideWeapon\EFFECT_BeamWhip(Pink)00.bmp 32 Common\EFFECT_LargeElectric(Black)01.bmp 32 BeamCannon(2).wav 遅 中
+NIRVANA_GEDON(命中), 超爆発
+NIRVANA_GEDON(とどめ), 会話 雪音クリス(ネフシュタンの鎧) "もってけダブルだッ！" 固定;@戦闘アニメ_打ち下ろし手持ち発射攻撃 SlideWeapon\EFFECT_BeamWhip(Pink)00.bmp 32 Common\EFFECT_LargeElectric(Black)01.bmp 32 BeamCannon(2).wav 遅 中;5;超爆発
+触手, 触手乱舞 レッド
+拡散ホーミングレーザー, ホーミングレーザー レッド
+集束レーザー, 超ビーム レッド
+# ソロモンの杖(命中), @戦闘アニメ_召喚準備 SZS_Noise1U.bmp Fold.wav 相手ユニットＩＤ;打撃
+# ソロモンの杖(命中), @戦闘アニメ_召喚準備 SZS_Noise2U.bmp Fold.wav 相手ユニットＩＤ;打撃
+# ソロモンの杖(命中), @戦闘アニメ_召喚準備 SZS_Noise2(2)U.bmp Fold.wav 相手ユニットＩＤ;打撃
+# NIRVANA_GEDON(攻撃), 打ち下ろし手持ち発射 SlideWeapon\EFFECT_BeamWhip(Pink)00.bmp 32 Anime\SZS_NIRVANAGEDON.bmp 32 BeamCannon(2).wav 遅 中
+# NIRVANA_GEDON(とどめ), 会話 雪音クリス(ネフシュタンの鎧) "もってけダブルだッ！" 固定;@戦闘アニメ_打ち下ろし手持ち発射攻撃 SlideWeapon\EFFECT_BeamWhip(Pink)00.bmp 32 Anime\SZS_NIRVANAGEDON.bmp 32 BeamCannon(2).wav 遅 中;5;超爆発
+# 参考武装
+# ソロモンの杖【捕縛】, ビームライフル グリーン Shield\EFFECT_SFShield02.bmp
+# ソロモンの杖【捕縛】(命中), @戦闘アニメ_召喚準備 SZS_Noise(H)U.bmp Fold.wav 相手ユニットＩＤ;液体噴射 ホワイト

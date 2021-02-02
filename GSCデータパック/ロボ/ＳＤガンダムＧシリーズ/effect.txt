@@ -1,0 +1,16 @@
+
+ガーダーシステム
+ツインブラスター, 2;Beam.wav;Beam.wav
+メガハイスコア, Beam.wav
+ファイナルギガンティック, 7;Charge.wav;Beam.wav
+連装ミサイル, 2;Missile.wav;Missile.wav
+ガーダーラッカー, Swing.wav
+ガーダーラッカー(命中), 8;Crash.wav;Explode.wav
+
+ＭＳ
+Ｉフィールドランチャー, Beam.wav
+オフェンスモード２(準備), 4;BeamSaber.wav;5;Ready.wav
+オフェンスモード２, 4;Charge(High).wav;5;Storm.wav
+オフェンスモード２(命中), 2;Sword.wav;2;Sword.wav;2;Sword.wav;2;Sword.wav;2;Crash.wav;4;Charge.wav;5;Beam.wav
+サイ・ロッド, Whip.wav
+サイ・ロッド(命中), 2;Whip.wav;2;Whip.wav;4;Drill.wav

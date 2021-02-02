@@ -1,0 +1,77 @@
+吸血殲鬼
+鉤爪, 爪撃
+レイジングブル銃剣, 刺突武器 Weapon\EF_VJED_RagingBullMaxicustom(byonet).bmp 44
+サド侯爵の愉悦, 斬撃武器 Weapon\EF_VJED_MarquisDeSade'sPleasure.bmp
+旋風の暴帝(準備), 振る武器 Weapon\EF_VJED_CycloneCaligula.bmp 44
+旋風の暴帝(攻撃), 回転斬撃
+旋風の暴帝(命中), 回転斬撃
+RagingBullmaxicustom, リボルバー Weapon\EF_VJED_RagingBullMaxicustom.bmp 32
+『挽肉屋』柄斧, 斬撃武器 Weapon\EF_VJED_MinceMaker(2).bmp 44
+SPAS12改『挽肉屋』(準備), 射撃武器 Weapon\EF_VJED_MinceMaker.bmp 48
+SPAS12改『挽肉屋』(攻撃), 対物ライフル Weapon\EF_VJED_MinceMaker.bmp 48
+SPAS12改『挽肉屋』(命中), 対物ライフル
+旋風の暴帝投擲, 回転投擲武器 Weapon\EF_VJED_CycloneCaligula.bmp 44
+聖者の絶叫, 斬撃武器 Weapon\EF_VJED_EliEliLemaShebakthani.bmp 56
+バンパークロー, タックル
+スローイングナイフ, 投げナイフ
+モーラハンマー, ウォーハンマー
+白木の杭(準備), ウォーハンマー
+白木の杭(攻撃), ウォーハンマー突撃
+白木の杭(命中), 大刺突
+鋼の嵐(準備), ウォーハンマー
+鋼の嵐(攻撃), ウォーハンマー突撃
+鋼の嵐(命中), 乱打
+M4-WitchHunter, マシンガン Weapon\EF_VJED_M4WitchHunter.bmp 48
+銀の矢, クロスボウ  Weapon\EF_VJED_M4WitchHunter.bmp 48
+MAC11, サブマシンガン
+RPG7, バズーカ
+M134-MiniGun, ガトリング
+
+ヴァンパイア
+鉤爪, 爪撃
+触手, 触手
+催眠術(準備), 魔法放射 小 黒
+催眠術(攻撃), 魔法集中 黒 小 相手ユニットＩＤ
+催眠術(命中), -
+スローイングナイフ, 投げナイフ
+貫手(準備), 打突
+貫手(攻撃), 打突
+貫手(命中), 刺突
+SCREAMING-BANSHEE銃剣(準備), 突く武器 Weapon\EF_VJED_ScreamingBanshee.bmp 48
+SCREAMING-BANSHEE銃剣(攻撃), 刺突
+SCREAMING-BANSHEE銃剣(命中), 刺突
+SCREAMING-BANSHEE, マシンガン Weapon\EF_VJED_ScreamingBanshee.bmp 48
+ArtisticShooting(準備), 射撃武器 Weapon\EF_VJED_ScreamingBanshee.bmp 48
+ArtisticShooting(攻撃), ロックオン;マシンガン Weapon\EF_VJED_ScreamingBanshee.bmp 48
+ArtisticShooting(命中), マシンガン Weapon\EF_VJED_ScreamingBanshee.bmp 48
+念動衝撃波, 気斬 ホワイト
+ヒルドルヴ・フォーク, 斬撃武器 Weapon\EF_VJED_HildervFork.bmp 48
+念動波, 波動放射
+
+キメラヴァンプ
+鉤爪, 爪撃
+触手, 触手
+顎ギロチン, 噛み付き
+サブマシンガン集中砲火, サブマシンガン;サブマシンガン Weapon\EF_RW_CZ_Vz61.bmp 32;サブマシンガン;サブマシンガン Weapon\EF_RW_BERETTA_M93R.bmp 32
+スカイハイキック, キック
+H&K-MP5斉射, サブマシンガン Weapon\EF_RW_H&K_MP5A5.bmp 40;サブマシンガン Weapon\EF_RW_H&K_MP5K.bmp 32
+超音波放射, 音波
+三刀流居合斬り, 日本刀 二刀流
+三刀流居合斬り, 日本刀突撃 二刀流
+三刀流居合斬り, 連斬撃;斬撃
+蜘蛛糸縛り斬撃(準備), 泡
+蜘蛛糸縛り斬撃(攻撃), 泡
+蜘蛛糸縛り斬撃(命中), 連斬撃;斬撃
+剛槍一旋(準備), スピア
+剛槍一旋(攻撃), なぎ払い
+剛槍一旋(命中), なぎ払い
+Ak74, マシンガン Weapon\EF_RW_USSR_AK74.bmp 48
+双鋏連撃, 乱打
+毒針, 刺突
+焼夷手榴弾, 焼夷手榴弾
+
+戦闘車両
+M4-WitchHunter, マシンガン
+7.62mm機関銃PKT, 機関砲
+14.5mm重機関銃KPVT, 重機関砲
+AT-5スパンドレル, ミサイル 1

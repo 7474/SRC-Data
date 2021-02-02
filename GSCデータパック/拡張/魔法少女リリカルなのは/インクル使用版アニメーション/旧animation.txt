@@ -1,0 +1,759 @@
+
+リリカルなのは
+##なのは##
+攻撃無効化(プロテクション), バリア Flair.wav プロテクション
+攻撃無効化(プロテクション・パワード), バリア Flair.wav プロテクション・パワード
+レストリクトロック(準備), ミッド式魔法陣 Hittyuu.wav 桃 背面
+レストリクトロック(攻撃), レストリクトロック
+レストリクトロック(命中), 飛沫 桃 BeamCoat.wav
+レイジングハート(準備), 振る武器 EFFECT_NANOHA_RaisingHeart32.bmp Reload(4).wav
+レイジングハート(攻撃), 振る武器突撃 EFFECT_NANOHA_RaisingHeart32.bmp
+レイジングハート(命中), @戦闘アニメ_白兵武器攻撃;ダメージ FightHit(2).wav
+フラッシュインパクト(準備), ミッド式魔法陣 Hittyuu.wav 桃 背面
+フラッシュインパクト(攻撃), @戦闘アニメ_急降下攻撃共通 Anime\EFFECT_NANOHA_RaisingHeart32.bmp
+フラッシュインパクト(命中), @戦闘アニメ_急降下命中共通 Anime\EFFECT_NANOHA_RaisingHeart32.bmp
+ディバインバスター(準備), 粒子集中 Hittyuu.wav 桃;_
+射撃武器 Anime\EFFECT_NANOHA_RaisingHeart248.bmp 48 Reload(5).wav
+ディバインバスター(攻撃), ビームライフル 桃 Anime\EFFECT_NANOHA_RaisingHeart2(ShootingMode)(CeilingMode)48.bmp 48
+ディバインバスター(命中), 小ビーム 桃
+ディバインシューター(準備), ミッド式魔法陣 桃 Hittyuu.wav 背面
+ディバインシューター(攻撃), 拡散ビームライフル 桃 EFFECT_NANOHA_RaisingHeart248.bmp 48
+ディバインシューター(命中), ビームショットキャノン 桃 Explode.wav
+ディバインバスター・ＦＰ(準備), Hittyuu.wav;@足元巨大魔法陣_なのは 背面
+ディバインバスター・ＦＰ(攻撃), 10;粒子集中 桃 Charge(High).wav 対象ユニットＩＤ;_
+ビームランチャー EFFECT_NANOHA_RaisingHeart2(ShootingMode)(CeilingMode)48.bmp 桃 48
+ディバインバスター・ＦＰ(命中), 中ビーム 桃
+ディバインバスター・ＦＢ(準備), Hittyuu.wav;@足元巨大魔法陣_なのは 背面
+ディバインバスター・ＦＢ(攻撃), 10;粒子集中 桃 Charge(High).wav 対象ユニットＩＤ;_
+拡散ビームライフル EFFECT_NANOHA_RaisingHeart2(ShootingMode)(CeilingMode)48.bmp 桃 48
+ディバインバスター・ＦＢ(命中), 拡散ビーム 桃
+ディバインシューターＦＰ(準備), Hittyuu.wav;@足元巨大魔法陣_なのは 背面
+ディバインシューターＦＰ(攻撃), 拡散ビームライフル EFFECT_NANOHA_RaisingHeart2(ShootingMode)(CeilingMode)48.bmp 桃 48
+ディバインシューターＦＰ(命中), 包囲ビーム 桃 Explode.wav;包囲ビーム 桃 Explode.wav
+スターライトブレイカー(準備), Hittyuu.wav;@足元巨大魔法陣_なのは 背面;_
+射撃武器 EFFECT_NANOHA_RaisingHeart2(ShootingMode)48.bmp 48 Reload(4).wav
+スターライトブレイカー(攻撃), 10;粒子集中 桃 Charge(2).wav 対象ユニットＩＤ;_
+バスタービームライフル EFFECT_NANOHA_RaisingHeart2(ShootingMode)(CeilingMode)48.bmp 桃 48 Explode(Far).wav
+スターライトブレイカー(命中), 大ビーム 桃 Explode(Far).wav
+スターライトブレイカー＋(準備), Hittyuu.wav;@足元巨大魔法陣_なのは 背面;_
+射撃武器 EFFECT_NANOHA_RaisingHeart2(ShootingMode)48.bmp 48 Reload(4).wav
+スターライトブレイカー＋(攻撃), 巨大ビームランチャー Anime\EFFECT_NANOHA_RaisingHeart2(ShootingMode)(CeilingMode)48.bmp 48 MicroMissile.wav
+スターライトブレイカー＋(命中), 巨大ビーム 桃 Explode(Far).wav;超爆発 Explode(Nuclear).wav
+レイジングハート・ＥＸ(準備), 振る武器 EFFECT_NANOHA_RaisingHeartExcellion.bmp Reload(4).wav
+レイジングハート・ＥＸ(攻撃), 振る武器突撃 EFFECT_NANOHA_RaisingHeartExcellion.bmp
+レイジングハート・ＥＸ(命中), @戦闘アニメ_白兵武器攻撃;ダメージ FightHit(2).wav
+フラッシュインパクト(ＥＸ)(準備), ミッド式魔法陣 Hittyuu.wav 桃 背面
+フラッシュインパクト(ＥＸ)(攻撃), @戦闘アニメ_急降下攻撃共通 Anime\EFFECT_NANOHA_RaisingHeartExcellion.bmp
+フラッシュインパクト(ＥＸ)(命中), @戦闘アニメ_急降下命中共通 Anime\EFFECT_NANOHA_RaisingHeartExcellion.bmp
+当て身技(バリアバースト), @戦闘アニメ_バリア発動 Flair.wav バリアバースト;@戦闘アニメ_大爆発命中
+バリアバースト(命中), ダメージ Crash.wav
+アクセルシューター(準備), ミッド式魔法陣 桃 Hittyuu.wav 背面
+アクセルシューター(攻撃), 拡散ビームライフル 桃 EFFECT_NANOHA_RaisingHeartExcellion2.bmp
+アクセルシューター(命中), 包囲ビーム 桃 Explode.wav;包囲ビーム 桃 Explode.wav
+ディバインバスター(ＥＸ)(準備), 粒子集中 Hittyuu.wav 桃;_
+射撃武器 Anime\EFFECT_NANOHA_RaisingHeartExcellion(BasterMode).bmp 64 Reload(5).wav
+ディバインバスター(ＥＸ)(攻撃), ビームライフル 桃 Anime\EFFECT_NANOHA_RaisingHeartExcellion(BasterMode)(Fin).bmp 64.bmp 48
+ディバインバスター(ＥＸ)(命中), 小ビーム 桃
+ディバインバスター・ＥＸ(準備), -
+ディバインバスター・ＥＸ(攻撃), -
+ディバインバスター・ＥＸ(命中), 中ビーム 桃
+エクセリオンバスター(準備), ミッド式魔法陣 桃 Hittyuu.wav 背面
+エクセリオンバスター(攻撃), バスタービームライフル 桃 EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode).bmp 64
+エクセリオンバスター(命中), 大ビーム 桃
+エクセリオンバスターＦＢ(準備), -
+エクセリオンバスターＦＢ(攻撃), -
+エクセリオンバスターＦＢ(命中), 大ビーム 桃;連続大爆発 6 Explode(Far).wav;超爆発 Explode(Nuclear).wav
+ＥＸバスターＡ．Ｃ．Ｓ(準備), 射撃武器 EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode).bmp Reload(4).wav
+ＥＸバスターＡ．Ｃ．Ｓ(攻撃), -
+ＥＸバスターＡ．Ｃ．Ｓ(命中), 大ビーム 桃;超爆発 Explode(Nuclear).wav
+スターライトブレイカーex(準備), ミッド式魔法陣 桃 背面 Hittyuu.wav;_
+EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp Reload(4).wav 64
+スターライトブレイカーex(攻撃), -
+スターライトブレイカーex(命中), 巨大ビーム 桃 Explode(Far).wav;_
+連続大爆発 6 Explode(Far).wav;超爆発 Explode(Nuclear).wav
+##フェイト##
+攻撃無効化(ディフェンサー), バリア Flair.wav ディフェンサー
+ライトニングバインド(準備), 粒子集中 Hittyuu.wav 黄
+ライトニングバインド(攻撃), 魔法放射 黄
+ライトニングバインド(命中), ミッド式魔法陣 黄 Hittyuu.wav;球電 Boot.wav
+バルディッシュ(準備), 振る武器 EFFECT_NANOHA_Bardiche32.bmp Reload(4).wav
+バルディッシュ(攻撃), 振る武器突撃 EFFECT_NANOHA_Bardiche32.bmp;斬撃
+バルディッシュ(攻撃), 振る武器突撃 EFFECT_NANOHA_Bardiche32.bmp;なぎ払い
+バルディッシュ(攻撃), 振る武器突撃 EFFECT_NANOHA_Bardiche32.bmp;振り上げ
+バルディッシュ(攻撃), 振る武器突撃 EFFECT_NANOHA_Bardiche32.bmp;振り下ろし
+バルディッシュ(命中), ダメージ Slash.wav
+サイズスラッシュ(準備), 振る武器 EFFECT_NANOHA_Bardiche32.bmp Reload(4).wav;_
+振る武器 EFFECT_NANOHA_Bardiche(ScytheForm)32.bmp TransForm.wav
+サイズスラッシュ(攻撃), 振る武器突撃 EFFECT_NANOHA_Bardiche(ScytheForm)32.bmp FlyBy(High).wav
+サイズスラッシュ(命中), @戦闘アニメ_斬撃攻撃;光斬撃 黄 中
+サイズスラッシュ(命中), @戦闘アニメ_なぎ払い攻撃;光なぎ払い 黄 中
+サイズスラッシュ(命中), @戦闘アニメ_振り上げ攻撃;光振り上げ 黄 中
+サイズスラッシュ(命中), @戦闘アニメ_振り下ろし攻撃;光振り下ろし 黄 中
+アークセイバー(準備), 振る武器 EFFECT_NANOHA_Bardiche32.bmp Reload(4).wav;_
+振る武器 EFFECT_NANOHA_Bardiche(ScytheForm)32.bmp TransForm.wav
+アークセイバー(攻撃), 回転投擲武器 Bullet\EFFECT_ShootingCutter(Yellow)01.bmp 発光 Swing(2).wav
+アークセイバー(命中), シュートカッター 黄
+サンダーフォール(準備), Hittyuu.wav;@足元巨大魔法陣_フェイト 背面
+サンダーフォール(攻撃), -
+サンダーフォール(命中), 大電撃
+ＰＬ・ファランクスシフト(準備), Hittyuu.wav;@足元巨大魔法陣_フェイト 背面
+ＰＬ・ファランクスシフト(攻撃), ファランクスシフト
+ＰＬ・ファランクスシフト(命中), 拡散ビーム 黄 Thunder.wav;拡散ビーム 黄 Thunder.wav;超爆発 Explode(Far).wav
+攻撃無効化(ディフェンサー・プラス), バリア Flair.wav ディフェンサー・プラス
+バルディッシュ・アサルト(準備), 振る武器 EFFECT_NANOHA_BardicheAssult.bmp Reload(4).wav
+バルディッシュ・アサルト(攻撃), 振る武器突撃 EFFECT_NANOHA_BardicheAssult.bmp;斬撃
+バルディッシュ・アサルト(攻撃), 振る武器突撃 EFFECT_NANOHA_BardicheAssult.bmp;なぎ払い
+バルディッシュ・アサルト(攻撃), 振る武器突撃 EFFECT_NANOHA_BardicheAssult.bmp;振り上げ
+バルディッシュ・アサルト(攻撃), 振る武器突撃 EFFECT_NANOHA_BardicheAssult.bmp;振り下ろし
+バルディッシュ・アサルト(命中), ダメージ Slash.wav
+ハーケンスラッシュ(準備), 振る武器 EFFECT_NANOHA_BardicheAssult.bmp Reload(5).wav
+ハーケンスラッシュ(攻撃), 振る武器突撃 EFFECT_NANOHA_BardicheAssult(HakenForm).bmp FlyBy(High).wav
+ハーケンスラッシュ(命中), @戦闘アニメ_斬撃攻撃;光斬撃 黄 中
+ハーケンスラッシュ(命中), @戦闘アニメ_なぎ払い攻撃;光なぎ払い 黄 中
+ハーケンスラッシュ(命中), @戦闘アニメ_振り下ろし攻撃;光振り下ろし 黄 中
+ハーケンスラッシュ(命中), @戦闘アニメ_振り上げ攻撃;光振り上げ 黄 中
+ハーケンセイバー(準備), -
+ハーケンセイバー(攻撃), 回転投擲武器 Bullet\EFFECT_ShootingCutter(Yellow)01.bmp 発光 Swing(2).wav
+ハーケンセイバー(命中), シュートカッター 黄
+プラズマランサー(準備), 粒子集中 Hittyuu.wav 黄
+プラズマランサー(攻撃), 拡散ビームライフル 黄 EFFECT_NANOHA_BardicheAssult2.bmp 48
+プラズマランサー(命中), 拡散ビーム 黄
+プラズマランサー(Ｓ)(準備), 粒子集中 Hittyuu.wav 黄
+プラズマランサー(Ｓ)(攻撃), ビームライフル 黄 EFFECT_NANOHA_BardicheAssult2.bmp 48
+プラズマランサー(Ｓ)(命中), 中ビーム 黄
+サンダーブレイド(準備), ミッド式魔法陣 Hittyuu.wav 黄 背面
+サンダーブレイド(攻撃), 大電撃
+サンダーブレイド(命中), 大電撃
+プラズマスマッシャー(準備), -
+プラズマスマッシャー(攻撃), -
+プラズマスマッシャー(命中), 大ビーム 黄
+スプライトザンバー(準備), 振る武器 EFFECT_NANOHA_BardicheAssult.bmp Reload(4).wav
+スプライトザンバー(攻撃), 巨大剣斬撃
+スプライトザンバー(命中), ハイパービームサーベル 黄 Explode(Far).wav
+ジェットザンバー(準備), -
+ジェットザンバー(攻撃), -
+ジェットザンバー(命中), -
+プラズマザンバーＢ(準備), ミッド式魔法陣 黄 背面 Hittyuu.wav;_
+振る武器 EFFECT_NANOHA_BardicheAssult(ZamberForm).bmp Reload(4).wav 64
+プラズマザンバーＢ(攻撃), -
+プラズマザンバーＢ(命中), 巨大ビーム 黄 Explode(Far).wav;_
+連続大爆発 6 Explode(Far).wav;超爆発 Explode(Nuclear).wav
+バルディッシュ・ザンバー(準備), 振る武器 EFFECT_NANOHA_BardicheAssult(ZamberForm).bmp Reload(4).wav 64
+バルディッシュ・ザンバー(攻撃), 振る武器突撃 EFFECT_NANOHA_BardicheAssult(ZamberForm).bmp 64;斬撃
+バルディッシュ・ザンバー(命中), 斬撃;光斬撃 Crash.wav 黄 大
+バルディッシュ・ザンバー(命中), なぎ払い;光なぎ払い Crash.awv 大
+バルディッシュ・ザンバー(命中), 振り下ろし;光振り下ろし Crash.wav 大
+##ユーノ##
+ラウンドガーダー・ＥＸ(発動), ミッド式魔法陣 背面 緑 Sharara.wav
+##アルフ##
+リングバインド(準備), ミッド式魔法陣 背面 橙 Hittyuu.wav
+リングバインド(攻撃), 魔法放射 橙
+リングバインド(命中), 魔法集中 橙;粒子噴射 橙 Noise.wav
+バリアブレイク(準備), ミッド式魔法陣 Hittyuu.wav 橙 背面
+バリアブレイク(攻撃), スーパーパンチ 橙
+バリアブレイク(命中), スーパーパンチ 橙 Explode(Far).wav
+ＰＬ・マルチショット(準備), ミッド式魔法陣 Hittyuu.wav 橙 背面
+ＰＬ・マルチショット(攻撃), 拡散ビーム 橙
+ＰＬ・マルチショット(命中), 拡散ビーム 橙
+噛み付き(攻撃), 振る武器突撃 -.bmp FlyBy(High).wav
+噛み付き(命中), 噛み付き
+##プレシア##
+杖の鞭(準備), 振る武器 EFFECT_NANOHA_PreciaCane(Whip).bmp
+杖の鞭(攻撃), 斬撃
+杖の鞭(攻撃), なぎ払い
+杖の鞭(攻撃), 振り下ろし
+杖の鞭(命中), ダメージ Whip.wav
+フォトンバレット(準備), ミッド式魔法陣 紫 Hittyuu.wav 背面
+フォトンバレット(攻撃), 小ビーム 桃
+フォトンバレット(命中), 小ビーム 桃 Explode.wav
+フォトンバースト(準備), ミッド式魔法陣 紫 Hittyuu.wav 背面
+フォトンバースト(攻撃), ＭＡＰオーラ 桃 Explode(Far).wav
+フォトンバースト(命中), 飛沫 桃 Glass.wav
+サンダーレイジＯ．Ｄ．Ｊ(準備), ミッド式魔法陣 紫 Hittyuu.wav 背面
+サンダーレイジＯ．Ｄ．Ｊ(攻撃), サンダーレイジＯＤＪ;Explode(Far).wav;ホワイトイン
+サンダーレイジＯ．Ｄ．Ｊ(命中), 大落雷 Thunder.wav
+##仮面ズ##
+変身魔法(準備), ミッド式魔法陣 背面 青 Hittyuu.wav
+変身魔法(攻撃), 魔法放射 青
+変身魔法(命中), 吸収 青
+格闘術(攻撃), 振る武器突撃 -.bmp FlyBy(High).wav
+格闘術(命中), @戦闘アニメ_打突攻撃;打撃 FightHit(1).wav
+格闘術(命中), @戦闘アニメ_打突攻撃;打撃 FightHit(2).wav
+格闘術(命中), @戦闘アニメ_打突攻撃;打撃 FightHit(3).wav
+格闘術(命中), @戦闘アニメ_打突攻撃;打撃 FightHit(4).wav
+格闘術(命中), @戦闘アニメ_連打攻撃;連打 FightHit(1).wav
+格闘術(命中), @戦闘アニメ_連打攻撃;連打 FightHit(2).wav
+格闘術(命中), @戦闘アニメ_連打攻撃;連打 FightHit(3).wav
+格闘術(命中), @戦闘アニメ_連打攻撃;連打 FightHit(4).wav
+格闘術(命中), @戦闘アニメ_乱打攻撃;乱打 FightHit(1).wav
+格闘術(命中), @戦闘アニメ_乱打攻撃;乱打 FightHit(2).wav
+格闘術(命中), @戦闘アニメ_乱打攻撃;乱打 FightHit(3).wav
+格闘術(命中), @戦闘アニメ_乱打攻撃;乱打 FightHit(4).wav
+飛び蹴り(攻撃), 浴びせ蹴り
+飛び蹴り(攻撃), 飛びかかり
+飛び蹴り(攻撃), スピンキック
+飛び蹴り(攻撃), サマーソルト
+飛び蹴り(攻撃), バックキック
+飛び蹴り(命中), 超打 Bazooka.wav
+ロングレンジバインド(準備), ミッド式魔法陣 青 背面 Hittyuu.wav
+ロングレンジバインド(攻撃), 魔法放射 青
+ロングレンジバインド(命中), 魔法集中 青;粒子噴射 青
+フープバインド(準備), ミッド式魔法陣 青 背面 Hittyuu.wav
+フープバインド(攻撃), 魔法放射 青
+フープバインド(命中), ホーミングレーザー 青 BeamCoat.wav ランダム方向;粒子噴射 青
+クリスタルケージ(準備), ミッド式魔法陣 青 背面 Hittyuu.wav
+クリスタルケージ(攻撃), 粒子集中 青
+クリスタルケージ(命中), -
+クリスタルケージ(クリティカル), @戦闘アニメ_結界発動 Ice.wav 相手ユニットＩＤ "クリスタルケージ"
+##はやて##
+剣十字の杖(準備), 振る武器 EFFECT_NANOHA_CaneOfReinforce.bmp Reload(5).wav 32
+剣十字の杖(攻撃), 振る武器突撃 EFFECT_NANOHA_CaneOfReinforce.bmp 32
+剣十字の杖(命中), @戦闘アニメ_白兵武器攻撃;ダメージ FightHit(2).wav
+シュベルトクロイツ(準備), 振る武器 EFFECT_NANOHA_CaneOfReinforce.bmp Reload(5).wav 32
+シュベルトクロイツ(攻撃), 振る武器突撃 EFFECT_NANOHA_CaneOfReinforce.bmp 32
+シュベルトクロイツ(命中), @戦闘アニメ_白兵武器攻撃;ダメージ FightHit(2).wav
+ミストルティン(準備), 振る武器 EFFECT_NANOHA_CaneOfReinforce.bmp 32 Reload(4).wav
+ミストルティン(攻撃), ミストルティン
+ミストルティン(命中), 拡散ビーム 白
+ラグナロク(準備), 振る武器 EFFECT_NANOHA_CaneOfReinforce.bmp 32 Reload(4).wav;粒子集中 黒 Charge(2).wav
+ラグナロク(攻撃), -
+ラグナロク(命中), 巨大ビーム 白 Explode(Far).wav;_
+連続大爆発 6 Explode(Far).wav;超爆発 Explode(Nuclear).wav
+##シグ##
+攻撃無効化(パンツァーガイスト), バリア BeamCoat.wav バンツァーガイスト
+陣風(準備), 振る武器 Reload(5).wav EFFECT_NANOHA_Laevatein.bmp
+陣風(攻撃), 白兵武器;波動放射 赤 Whiz.wav
+陣風(命中), 飛沫 赤 Glass.wav
+レヴァンティン(準備), 振る武器 Reload(5).wav EFFECT_NANOHA_Laevatein.bmp
+レヴァンティン(攻撃), 振る武器突撃 EFFECT_NANOHA_Laevatein.bmp;
+レヴァンティン(命中), @戦闘アニメ_斬撃攻撃;斬撃
+レヴァンティン(命中), @戦闘アニメ_なぎ払い攻撃;なぎ払い
+レヴァンティン(命中), @戦闘アニメ_振り上げ攻撃;斬り上げ
+レヴァンティン(命中), @戦闘アニメ_振り下ろし攻撃;唐竹割り
+シュランゲバイセン(準備), -
+シュランゲバイセン(攻撃), なぎ払い Swing(2).wav
+シュランゲバイセン(命中), ダメージ Whip.wav
+シュランゲバイセン・Ａ(準備), -
+シュランゲバイセン・Ａ(攻撃), 連続なぎ払い Swing(2).wav
+シュランゲバイセン・Ａ(命中), 連続なぎ払い Whip.wav
+飛竜一閃(準備), -
+飛竜一閃(攻撃), -
+飛竜一閃(命中), 大爆発 Explode(Far).wav
+紫電一閃(準備), -
+紫電一閃(攻撃), 振る武器突撃 Jet.wav EFFECT_NANOHA_Laevatein(Explosion)04.bmp
+紫電一閃(命中), @戦闘アニメ_白兵武器攻撃;炎斬撃 Slash.wav;大爆発 Explode(Far).wav
+シュツルムファルケン(準備), ベルカ式魔法陣 紫 背面 Hittyuu.wav
+シュツルムファルケン(攻撃), -
+シュツルムファルケン(命中), 超爆発 Explode(Nuclear).wav
+##ゲボ##
+阻止(パンツァーヒンダネス), 結界 赤 Glass.wav パンツァーヒンダネス
+アイゼンゲホイル(準備), ベルカ式魔法陣 赤 Hittyuu.wav 背面;_
+振る武器 Anime\Beam\EFFECT_MBeam(Red)03.bmp Charge.wav
+アイゼンゲホイル(攻撃), 振り下ろし;ＭＡＰオーラ 赤 Explode(Far).wav
+アイゼンゲホイル(命中), 飛沫 赤 Noise.wav
+グラーフアイゼン(準備), 振る武器 Reload(4).wav EFFECT_NANOHA_GrafEisen.bmp 32
+グラーフアイゼン(攻撃), 振る武器突撃 FlyBy(High).wav EFFECT_NANOHA_GrafEisen.bmp 32
+グラーフアイゼン(命中), @戦闘アニメ_白兵武器攻撃;ダメージ Shock(Low).wav
+グラーフアイゼン(命中), @戦闘アニメ_なぎ払い攻撃;ダメージ Shock(Low).wav
+テートリヒ・シュラーク(準備), 振る武器 Reload(4).wav EFFECT_NANOHA_GrafEisen.bmp
+テートリヒ・シュラーク(攻撃), 振る武器突撃 FlyBy(High).wav EFFECT_NANOHA_GrafEisen.bmp
+テートリヒ・シュラーク(命中), @戦闘アニメ_白兵武器攻撃;強打 Shock(Low).wav
+テートリヒ・シュラーク(命中), @戦闘アニメ_なぎ払い攻撃;強打 Shock(Low).wav
+シュワルベフリーゲン(準備), 振る武器 Anime\Beam\EFFECT_MBeam(White)03.bmp;_
+振る武器 Anime\Beam\EFFECT_MBeam(Red)03.bmp Charge.wav
+シュワルベフリーゲン(攻撃), 白兵武器 Sword.wav;_
+実弾発射 Anime\Beam\EFFECT_MBeam(Red)03.bmp 速 Beam.wav
+シュワルベフリーゲン(命中), 大爆発
+フランメシュラーク(攻撃), 振る武器突撃 FlyBy(High).wav EFFECT_NANOHA_GrafEisen.bmp
+フランメシュラーク(命中), @戦闘アニメ_白兵武器攻撃;強打 Shock(Low).wav;煙 赤 Explode(Far).wav
+フランメシュラーク(命中), @戦闘アニメ_なぎ払い攻撃;強打 Shock(Low).wav;煙 赤 Explode(Far).wav
+ラケーテンハンマー(準備), -
+ラケーテンハンマー(攻撃), -
+ラケーテンハンマー(命中), -
+ラケーテンハンマー(クリティカル), 10;Drill.wav;@戦闘アニメ_超爆発命中 Explode(Far).wav
+ラケーテンハンマー(とどめ), 貫通穴
+ギガント・シュラーク(準備), -
+ギガント・シュラーク(攻撃), -
+ギガント・シュラーク(命中), 超打 Crash,wav;超爆発 Explode(Nuclear).wav
+##犬##
+鋼の軛(攻撃), 持続ビームライフル 白 Beam.wav Anime\Magic\EFFECT_NANOHA_BerkaMagicEmblem(White)01.bmp 48
+鋼の軛(命中), 飛沫 白 Explode.wav
+爪(攻撃), 振る武器突撃 -.bmp FlyBy(High).wav
+爪(命中), @戦闘アニメ_白兵武器攻撃;爪撃 Walk(Robot).wav
+##リイン##
+ブラッディ・ダガー(準備), 振る武器 EFFECT_NANOHA_IllegalWriting(Open).bmp Page.wav;オーラ上昇 赤 Hittyuu.wav
+ブラッディ・ダガー(攻撃), 拡散ビームライフル 赤Glass.wav -.bmp
+ブラッディ・ダガー(命中), 包囲ビーム 赤 ランダム方向 Stab.wav
+シュワルツ・ヴィルクング(攻撃), スーパーパンチ 黒 FlyBy(High).wav
+シュワルツ・ヴィルクング(命中), スーパーパンチ 黒
+蒐集(準備), ベルカ式魔法陣 黒 背面 Hittyuu.wav
+蒐集(攻撃), 魔法放射 黒
+蒐集(命中), 吸収 黒 Fold.wav
+赤竜召喚(準備), ベルカ式魔法陣 黒 背面 Hittyuu.wav
+赤竜召喚(攻撃), 多触手 赤 AntiAirMissile.wav
+赤竜召喚(命中), 多触手 赤
+デアボリックエミッション(準備), 振る武器 EFFECT_NANOHA_IllegalWriting(Open).bmp Page.wav;_
+ベルカ式魔法陣 黒 背面 Hittyuu.wav
+デアボリックエミッション(攻撃), 粒子集中 黒 BeamSaber.wav 対象ユニットＩＤ;_
+ＭＡＰオーラ 黒 Interference.wav
+デアボリックエミッション(命中), 粒子噴射 黒 Interference.wav
+ＰＬ・ジェノサイドシフト(準備), ベルカ式魔法陣 背面 黒 Hittyuu.wav
+ＰＬ・ジェノサイドシフト(攻撃), 拡散ビームライフル -.bmp 黄 MicroMissile.wav;_
+拡散ビームライフル -.bmp 黄 MicroMissile.wav
+ＰＬ・ジェノサイドシフト(命中), 拡散ビーム 黄;拡散ビーム 黄
+##闇闇##
+触手, 触手 黒
+触手召喚, 多触手 黒
+触手召喚・魔力砲撃(攻撃), 粒子集中 黒 Charge(2).wav 対象ユニットＩＤ;拡散ビーム 黒
+触手召喚・魔力砲撃(命中), 拡散ビーム 黒 Explode(Far).wav
+締め付け, 触手 黒
+魔力砲撃(攻撃), 粒子集中 黒 Charge(2).wav 対象ユニットＩＤ;中ビーム 黒
+魔力砲撃(命中), 中ビーム 黒 Explode(Far).wav
+締め付け・群体, 多触手 黒
+魔力砲撃・群体(攻撃), 粒子集中 黒 Charge(2).wav 対象ユニットＩＤ;拡散ビーム 黒
+魔力砲撃・群体(命中), 拡散ビーム 黒 Explode(Far).wav
+##武装局員##
+ストレージデバイス, 振る武器 EFFECT_NANOHA_ArmedMemberCane.bmp
+射撃魔法(直), ビームライフル EFFECT_NANOHA_ArmedMemberCane2.bmp 48 青
+砲撃魔法, ビームランチャー EFFECT_NANOHA_ArmedMemberCane2.bmp 48 青
+射撃魔法(誘), 拡散ビームライフル EFFECT_NANOHA_ArmedMemberCane2.bmp 48 青
+射撃魔法(誘)(命中), ホーミングレーザー  赤 ランダム方向
+##ＪＳ、傀儡兵##
+体当たり(攻撃), 振る武器突撃 -.bmp
+体当たり(命中), 強打 Explode.wav
+ツタ(攻撃), 斬撃
+ツタ(攻撃), 斬撃 二刀流
+ツタ(攻撃), 連斬撃
+ツタ(攻撃), 連突
+ツタ(攻撃), 刺突
+ツタ(命中), ダメージ Whip.wav
+鉤爪, 爪撃
+クチバシ, 刺突
+スパイクハンマー, モール
+スピア, 方天戟
+アックス, バイキングアクス
+
+シリアルⅩⅩⅠ
+触手, 触手 桃
+
+シリアルⅩⅦ
+触手, 触手 青
+
+砲撃型傀儡兵
+魔力砲撃(攻撃), 粒子集中 黄;二連中ビーム 黄 Warship.wav
+魔力砲撃(命中), 二連中ビーム 黄 Explode(Far).wav
+
+
+高町なのは
+攻撃無効化(ラウンドシールド(強)), シールド防御 Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Pink)01.bmp 32 Flair.wav 発光 ラウンドシールド
+チャージ, 粒子集中 桃 Charge(high).wav
+## ディバスマ ##
+ディバインスマッシャー(準備), ミッド式魔法陣 黄 背面 Hittyuu.wav UnitID(フェイト＝テスタロッサ);_
+ミッド式魔法陣 桃 背面 Hittyuu.wav UnitID(高町なのは)
+ディバインスマッシャー(攻撃), _
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) いくよ、バルディッシュ;_
+@アニメ自動会話 バルディッシュ "<i>Get Set．</i>";_
+@戦闘アニメ_射撃武器準備 EFFECT_NANOHA_Bardiche248.bmp 48 Transform.wav UnitID(フェイト＝テスタロッサ);_
+@アニメ自動会話 高町なのは(攻撃) こっちもだよ！;音再生 Transform.wav;5;音再生 Sharara.wav;_
+@アニメ自動会話 レイジングハート(文字) "<i>Stand by ready．</i>";_
+@戦闘アニメ_シューティングモード変形;@戦闘アニメ_射撃武器準備 EFFECT_NANOHA_RaisingHeart2(ShootingMode)(CeilingMode)48.bmp 48 Reload(4).wav UnitID(高町なのは);_
+@アニメ自動会話 フェイト＝テスタロッサ "サンダーーー！ スマッシャーーーーーー！！";_
+@戦闘アニメ_ビームランチャー攻撃 黄 EFFECT_NANOHA_Bardiche248.bmp 48 Thunder.wav UnitID(フェイト＝テスタロッサ);_
+@アニメ自動会話 高町なのは(攻撃) "ディバイーーーーーーン！ バスターーーーーーー！！";_
+@戦闘アニメ_ビームランチャー攻撃 桃 EFFECT_NANOHA_RaisingHeart2(ShootingMode)(CeilingMode)48.bmp 48 UnitID(高町なのは)
+ディバインスマッシャー(命中), _
+@アニメ自動会話 高町なのは(攻撃) せーの！ 3;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) せーの！ 3;_
+@戦闘アニメ_同時大ビーム命中 ビーム色=桃=黄
+## ブラカミ ##
+ブラストカラミティ(準備), -
+ブラストカラミティ(攻撃), Sharara.wav;_
+@アニメ自動会話 レイジングハート・エクセリオン "<i>Stand by Ready<i>" "<i>Charge Set．<i>";_
+@戦闘アニメ_ミッド式魔法陣準備 桃 背面 Hittyuu.wav;_
+@戦闘アニメ_突く武器準備 EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp Reload(4).wav 64 UnitID(高町なのは);_
+@アニメ自動会話 高町なのは(攻撃) "フィールド形成！ 発動準備完了！" "お待たせしました。おっきいのいきますっ！";_
+@戦闘アニメ_ミッド式魔法陣準備 黄 背面 Hittyuu.wav UnitID(フェイト＝テスタロッサ);_
+@戦闘アニメ_突く武器準備 EFFECT_NANOHA_BardicheAssult(ZamberForm)2.bmp Reload(4).wav 88 UnitID(フェイト＝テスタロッサ);_
+10;Charge(2).wav;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) Ｎ＆Ｆ中距離殲滅コンビネーション.<B>空間攻撃ブラストカラミティッ！</B>;_
+@アニメ自動会話 高町なのは(攻撃) "全力全開";_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "疾風迅雷！";_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@戦闘アニメ_同時巨大ビームランチャー攻撃 _
+画像ファイル=EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp=EFFECT_NANOHA_BardicheAssult(ZamberForm)2.bmp _
+画像サイズ=64=88 ビーム色=桃=黄 Explode(Far).wav;ＭＡＰ大爆発 Explode(Nuclear).wav
+ブラストカラミティ(命中), 連続大爆発 7 Explode(Far).wav
+## ブラカミ ##
+ブラストカラミティ(S)(準備), -
+ブラストカラミティ(S)(攻撃), Sharara.wav;_
+@アニメ自動会話 レイジングハート・エクセリオン "<i>Stand by Ready<i>" "<i>Charge Set．<i>";_
+@戦闘アニメ_ミッド式魔法陣準備 桃 背面 Hittyuu.wav;_
+@戦闘アニメ_突く武器準備 EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp Reload(4).wav 64 UnitID(高町なのは);_
+@アニメ自動会話 高町なのは(攻撃) "フィールド形成！ 発動準備完了！" "お待たせしました。おっきいのいきますっ！";_
+@戦闘アニメ_ミッド式魔法陣準備 黄 背面 Hittyuu.wav UnitID(フェイト＝テスタロッサ);_
+@戦闘アニメ_突く武器準備 EFFECT_NANOHA_BardicheAssult(ZamberForm)2.bmp Reload(4).wav 88 UnitID(フェイト＝テスタロッサ);_
+10;Charge(2).wav;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) Ｎ＆Ｆ中距離殲滅コンビネーション.<B>空間攻撃ブラストカラミティッ！</B>;_
+@アニメ自動会話 高町なのは(攻撃) "全力全開";_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "疾風迅雷！";_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@戦闘アニメ_同時巨大ビームランチャー攻撃 _
+画像ファイル=EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp=EFFECT_NANOHA_BardicheAssult(ZamberForm)2.bmp _
+画像サイズ=64=88 ビーム色=桃=黄 Explode(Far).wav;ＭＡＰ大爆発 Explode(Nuclear).wav
+ブラストカラミティ(S)(命中), 連続大爆発 7 Explode(Far).wav
+## トリブレ ##
+トリプルブレイカー(準備), -
+トリプルブレイカー(攻撃), @アニメ自動会話 高町なのは(攻撃) "行くよ！ フェイトちゃんっ、はやてちゃん！" ;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "うん…っ！" ;_
+@アニメ自動会話 八神はやて(ユニゾンイン) "うん！" ;_
+Sharara.wav;@アニメ自動会話 レイジングハート・エクセリオン(エクセリオンモード)(ストライクフレーム・フィン) "<i>Starlight Breaker．</i>" ;15;Charge(2).wav;_
+@戦闘アニメ_ミッド式魔法陣準備 桃 背面 Hittyuu.wav UnitID(高町なのは);_
+@戦闘アニメ_突く武器準備 EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp Reload(4).wav 64 UnitID(高町なのは);_
+@アニメ自動会話 高町なのは(攻撃) "全力全開！　スターライトーーッ！" ;_
+@戦闘アニメ_ミッド式魔法陣準備 黄 背面 Hittyuu.wav UnitID(フェイト＝テスタロッサ);_
+@戦闘アニメ_振る武器準備 EFFECT_NANOHA_BardicheAssult(ZamberForm).bmp Reload(4).wav 64 UnitID(フェイト＝テスタロッサ);_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "雷光一閃！ プラズマザンバーーーーーッ！" ;_
+@戦闘アニメ_落雷準備 Thunder.wav UnitID(フェイト＝テスタロッサ);_
+@戦闘アニメ_振る武器準備 EFFECT_NANOHA_CaneOfReinforce.bmp 32 Reload(4).wav UnitID(八神はやて(ユニゾンイン));_
+@戦闘アニメ_粒子集中準備 黒 Charge(2).wav UnitID(八神はやて(ユニゾンイン));_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃２) "響け、終焉の笛！ ラグナロクッ！！";_
+@戦闘アニメ_ミッド式魔法陣準備 白 Hittyuu.wav UnitID(八神はやて(ユニゾンイン)) 背面;_
+@アニメ自動会話 高町なのは(攻撃) "ブ" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレ" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイ" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカ" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカー" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーー" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーー" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカーーーー" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーーーーー" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーーーーー" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカーーーーーーー" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーーーーーーーッ" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーーーーーーッ！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカーーーーーーーッ！！" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@戦闘アニメ_同時巨大ビームランチャー攻撃 _
+画像ファイル=EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp=EFFECT_NANOHA_BardicheAssult(ZamberForm)2.bmp=EFFECT_NANOHA_CaneOfReinforce2.bmp _
+画像サイズ=64=88=48 _
+ビーム色=桃=黄=白 MicroMissile.wav
+トリプルブレイカー(命中), @戦闘アニメ_同時巨大ビーム命中 ビーム色=桃=黄=白 Explode(Far).wav;_
+連続大爆発 7 Explode(Far).wav;@戦闘アニメ_ＭＡＰフラッシュ攻撃 Explode(Nuclear).wav 相手ユニットＩＤ
+
+フェイト＝テスタロッサ
+攻撃無効化(ラウンドシールド), シールド防御 Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Yellow)01.bmp 32 Flair.wav 発光 ラウンドシールド
+フォトンランサー(準備), 粒子集中 Hittyuu.wav 黄
+フォトンランサー(攻撃), 拡散ビームライフル 黄 EFFECT_NANOHA_Bardiche248.bmp 48
+フォトンランサー(命中), 拡散ビーム 黄
+サンダーレイジ(準備), Hittyuu.wav;@足元巨大魔法陣_フェイト 背面
+サンダーレイジ(攻撃), 大電撃
+サンダーレイジ(命中), 大電撃
+サンダースマッシャー(準備), 射撃武器 Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Yellow)01.bmp Hittyuu.wav
+サンダースマッシャー(攻撃), ビームランチャー 黄 EFFECT_NANOHA_Bardiche248.bmp 48 Thunder.wav
+サンダースマッシャー(命中), 中ビーム 黄
+## ディバスマ ##
+ディバインスマッシャー(準備), ミッド式魔法陣 黄 背面 Hittyuu.wav UnitID(フェイト＝テスタロッサ);_
+ミッド式魔法陣 桃 背面 Hittyuu.wav UnitID(高町なのは)
+ディバインスマッシャー(攻撃), _
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) いくよ、バルディッシュ;_
+@アニメ自動会話 バルディッシュ "<i>Get Set．</i>";_
+@戦闘アニメ_射撃武器準備 EFFECT_NANOHA_Bardiche248.bmp 48 Transform.wav UnitID(フェイト＝テスタロッサ);_
+@アニメ自動会話 高町なのは(攻撃) こっちもだよ！;音再生 Transform.wav;5;音再生 Sharara.wav;_
+@アニメ自動会話 レイジングハート(文字) "<i>Stand by ready．</i>";_
+@戦闘アニメ_シューティングモード変形;@戦闘アニメ_射撃武器準備 EFFECT_NANOHA_RaisingHeart2(ShootingMode)(CeilingMode)48.bmp 48 Reload(4).wav UnitID(高町なのは);_
+@アニメ自動会話 フェイト＝テスタロッサ "サンダーーー！ スマッシャーーーーーー！！";_
+@戦闘アニメ_ビームランチャー攻撃 黄 EFFECT_NANOHA_Bardiche248.bmp 48 Thunder.wav UnitID(フェイト＝テスタロッサ);_
+@アニメ自動会話 高町なのは(攻撃) "ディバイーーーーーーン！ バスターーーーーーー！！";_
+@戦闘アニメ_ビームランチャー攻撃 桃 EFFECT_NANOHA_RaisingHeart2(ShootingMode)(CeilingMode)48.bmp 48 UnitID(高町なのは)
+ディバインスマッシャー(命中), _
+@アニメ自動会話 高町なのは(攻撃) せーの！ 3;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) せーの！ 3;_
+@戦闘アニメ_同時大ビーム命中 ビーム色=黄=桃
+## ブラカミ ##
+ブラストカラミティ(準備), -
+ブラストカラミティ(攻撃), Sharara.wav;_
+@アニメ自動会話 レイジングハート・エクセリオン "<i>Stand by Ready<i>" "<i>Charge Set．<i>";_
+@戦闘アニメ_ミッド式魔法陣準備 桃 背面 Hittyuu.wav UnitID(高町なのは);_
+@戦闘アニメ_突く武器準備 EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp Reload(4).wav 64 UnitID(高町なのは);_
+@アニメ自動会話 高町なのは(攻撃) "フィールド形成！ 発動準備完了！" "お待たせしました。おっきいのいきますっ！";_
+@戦闘アニメ_ミッド式魔法陣準備 黄 背面 Hittyuu.wav UnitID(フェイト＝テスタロッサ);_
+@戦闘アニメ_突く武器準備 EFFECT_NANOHA_BardicheAssult(ZamberForm)2.bmp Reload(4).wav 88 UnitID(フェイト＝テスタロッサ);_
+10;Charge(2).wav;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) Ｎ＆Ｆ中距離殲滅コンビネーション.<B>空間攻撃ブラストカラミティッ！</B>;_
+@アニメ自動会話 高町なのは(攻撃) "全力全開";_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "疾風迅雷！";_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@戦闘アニメ_同時巨大ビームランチャー攻撃 _
+画像ファイル=EFFECT_NANOHA_BardicheAssult(ZamberForm)2.bmp=EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp _
+画像サイズ=88=64 ビーム色=黄=桃 Explode(Far).wav;ＭＡＰ大爆発 Explode(Nuclear).wav
+ブラストカラミティ(命中), 連続大爆発 7 Explode(Far).wav
+## ブラカミ ##
+ブラストカラミティ(S)(準備), -
+ブラストカラミティ(S)(攻撃), Sharara.wav;_
+@アニメ自動会話 レイジングハート・エクセリオン "<i>Stand by Ready<i>" "<i>Charge Set．<i>";_
+@戦闘アニメ_ミッド式魔法陣準備 桃 背面 Hittyuu.wav UnitID(高町なのは);_
+@戦闘アニメ_突く武器準備 EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp Reload(4).wav 64 UnitID(高町なのは);_
+@アニメ自動会話 高町なのは(攻撃) "フィールド形成！ 発動準備完了！" "お待たせしました。おっきいのいきますっ！";_
+@戦闘アニメ_ミッド式魔法陣準備 黄 背面 Hittyuu.wav UnitID(フェイト＝テスタロッサ);_
+@戦闘アニメ_突く武器準備 EFFECT_NANOHA_BardicheAssult(ZamberForm)2.bmp Reload(4).wav 88 UnitID(フェイト＝テスタロッサ);_
+10;Charge(2).wav;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) Ｎ＆Ｆ中距離殲滅コンビネーション.<B>空間攻撃ブラストカラミティッ！</B>;_
+@アニメ自動会話 高町なのは(攻撃) "全力全開";_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "疾風迅雷！";_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブラストシューートッッ！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブラストシューートッッ！！" 1;_
+@戦闘アニメ_同時巨大ビームランチャー攻撃 _
+画像ファイル=EFFECT_NANOHA_BardicheAssult(ZamberForm)2.bmp=EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp _
+画像サイズ=88=64 ビーム色=黄=桃 Explode(Far).wav;ＭＡＰ大爆発 Explode(Nuclear).wav
+ブラストカラミティ(S)(命中), 連続大爆発 7 Explode(Far).wav
+## トリブレ ##
+トリプルブレイカー(準備), -
+トリプルブレイカー(攻撃), @アニメ自動会話 高町なのは(攻撃) "行くよ！ フェイトちゃんっ、はやてちゃん！" ;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "うん…っ！" ;_
+@アニメ自動会話 八神はやて(ユニゾンイン) "うん！" ;_
+Sharara.wav;@アニメ自動会話 レイジングハート・エクセリオン(エクセリオンモード)(ストライクフレーム・フィン) "<i>Starlight Breaker．</i>" ;15;Charge(2).wav;_
+@戦闘アニメ_ミッド式魔法陣準備 桃 背面 Hittyuu.wav UnitID(高町なのは);_
+@戦闘アニメ_突く武器準備 EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp Reload(4).wav 64 UnitID(高町なのは);_
+@アニメ自動会話 高町なのは(攻撃) "全力全開！　スターライトーーッ！" ;_
+@戦闘アニメ_ミッド式魔法陣準備 黄 背面 Hittyuu.wav UnitID(フェイト＝テスタロッサ);_
+@戦闘アニメ_振る武器準備 EFFECT_NANOHA_BardicheAssult(ZamberForm).bmp Reload(4).wav 64 UnitID(フェイト＝テスタロッサ);_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "雷光一閃！ プラズマザンバーーーーーッ！" ;_
+@戦闘アニメ_落雷準備 Thunder.wav UnitID(フェイト＝テスタロッサ);_
+@戦闘アニメ_振る武器準備 EFFECT_NANOHA_CaneOfReinforce.bmp 32 Reload(4).wav UnitID(八神はやて(ユニゾンイン));_
+@戦闘アニメ_粒子集中準備 黒 Charge(2).wav UnitID(八神はやて(ユニゾンイン));_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃２) "響け、終焉の笛！ ラグナロクッ！！";_
+@戦闘アニメ_ミッド式魔法陣準備 白 Hittyuu.wav UnitID(八神はやて(ユニゾンイン)) 背面;_
+@アニメ自動会話 高町なのは(攻撃) "ブ" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレ" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイ" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカ" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカー" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーー" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーー" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカーーーー" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーーーーー" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーーーーー" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカーーーーーーー" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーーーーーーーッ" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーーーーーーッ！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカーーーーーーーッ！！" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@戦闘アニメ_同時巨大ビームランチャー攻撃 _
+画像ファイル=EFFECT_NANOHA_BardicheAssult(ZamberForm)2.bmp=EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp=EFFECT_NANOHA_CaneOfReinforce2.bmp _
+画像サイズ=88=64=48 _
+ビーム色=黄=桃=白 MicroMissile.wav
+トリプルブレイカー(命中), @戦闘アニメ_同時巨大ビーム命中 ビーム色=黄=桃=白 Explode(Far).wav;_
+連続大爆発 7 Explode(Far).wav;@戦闘アニメ_ＭＡＰフラッシュ攻撃 Explode(Nuclear).wav 相手ユニットＩＤ
+
+八神はやて
+## トリブレ ##
+トリプルブレイカー(準備), -
+トリプルブレイカー(攻撃), @アニメ自動会話 高町なのは(攻撃) "行くよ！ フェイトちゃんっ、はやてちゃん！" ;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "うん…っ！" ;_
+@アニメ自動会話 八神はやて(ユニゾンイン) "うん！" ;_
+Sharara.wav;@アニメ自動会話 レイジングハート・エクセリオン(エクセリオンモード)(ストライクフレーム・フィン) "<i>Starlight Breaker．</i>" ;15;Charge(2).wav;_
+@戦闘アニメ_ミッド式魔法陣準備 桃 背面 Hittyuu.wav UnitID(高町なのは);_
+@戦闘アニメ_突く武器準備 EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp Reload(4).wav 64 UnitID(高町なのは);_
+@アニメ自動会話 高町なのは(攻撃) "全力全開！　スターライトーーッ！" ;_
+@戦闘アニメ_ミッド式魔法陣準備 黄 背面 Hittyuu.wav UnitID(フェイト＝テスタロッサ);_
+@戦闘アニメ_振る武器準備 EFFECT_NANOHA_BardicheAssult(ZamberForm).bmp Reload(4).wav 64 UnitID(フェイト＝テスタロッサ);_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "雷光一閃！ プラズマザンバーーーーーッ！" ;_
+@戦闘アニメ_落雷準備 Thunder.wav UnitID(フェイト＝テスタロッサ);_
+@戦闘アニメ_振る武器準備 EFFECT_NANOHA_CaneOfReinforce.bmp 32 Reload(4).wav UnitID(八神はやて(ユニゾンイン));_
+@戦闘アニメ_粒子集中準備 黒 Charge(2).wav UnitID(八神はやて(ユニゾンイン));_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃２) "響け、終焉の笛！ ラグナロクッ！！";_
+@戦闘アニメ_ミッド式魔法陣準備 白 Hittyuu.wav UnitID(八神はやて(ユニゾンイン)) 背面;_
+@アニメ自動会話 高町なのは(攻撃) "ブ" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレ" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイ" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカ" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカー" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーー" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーー" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカーーーー" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーーーーー" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーーーーー" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカーーーーーーー" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーーーーーーーッ" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーーーーーーッ！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカーーーーーーーッ！！" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@アニメ自動会話 フェイト＝テスタロッサ(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@アニメ自動会話 八神はやて(ユニゾンイン)(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@アニメ自動会話 高町なのは(攻撃) "ブレイカーーーーーーーッ！！！" 1;_
+@戦闘アニメ_同時巨大ビームランチャー攻撃 _
+画像ファイル=EFFECT_NANOHA_CaneOfReinforce2.bmp=EFFECT_NANOHA_RaisingHeartExcellion(ExcellionMode)(StrikeFrame)(Fin)2.bmp=EFFECT_NANOHA_BardicheAssult(ZamberForm)2.bmp _
+画像サイズ=48=64=88 _
+ビーム色=白=桃=黄 MicroMissile.wav
+トリプルブレイカー(命中), @戦闘アニメ_同時巨大ビーム命中 ビーム色=白=桃=黄 Explode(Far).wav;_
+連続大爆発 7 Explode(Far).wav;@戦闘アニメ_ＭＡＰフラッシュ攻撃 Explode(Nuclear).wav 相手ユニットＩＤ
+
+
+ユーノ＝スクライア
+攻撃無効化(ラウンドシールド(強)), シールド防御 Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Green)01.bmp 32 Flair.wav 発光 ラウンドシールド
+フィールド発動(サークルプロテクション), @戦闘アニメ_ミッド式魔法陣準備 Flair.wav 緑 UnitID(ユーノ＝スクライア) 背面
+チェーンバインド(準備), ミッド式魔法陣 Hittyuu.wav 緑 背面
+チェーンバインド(攻撃), 拡散ビームライフル Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Green)01.bmp 32 緑 Whiz.wav
+チェーンバインド(命中), ホーミングレーザー 緑 BeamCoat.wav
+ストラグルバインド(準備), ミッド式魔法陣 Hittyuu.wav 緑 背面
+ストラグルバインド(攻撃), 拡散ビームライフル Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Green)01.bmp 32 緑 Whiz.wav
+ストラグルバインド(命中), ホーミングレーザー 緑 BeamCoat.wav;粒子噴射 Interference.wav 緑
+
+
+クロノ＝ハラオウン
+攻撃無効化(ラウンドシールド), シールド防御 Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Blue)01.bmp 32 Flair.wav 発光 ラウンドシールド
+ストラグルバインド(準備), ミッド式魔法陣 Hittyuu.wav 青 背面
+ストラグルバインド(攻撃), 拡散ビームライフル Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Blue)01.bmp 32 青 Whiz.wav
+ストラグルバインド(命中), ホーミングレーザー 青 BeamCoat.wav;粒子噴射 Interference.wav 青
+ディレイドバインド(準備), ミッド式魔法陣 Hittyuu.wav 青 背面
+ディレイドバインド(攻撃), 拡散ビームライフル Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Blue)01.bmp 32 青 Whiz.wav
+ディレイドバインド(命中), ホーミングレーザー 青 BeamCoat.wav
+Ｓ２Ｕ(準備), 振る武器 EFFECT_NANOHA_S2U(WaitMode).bmp 32 Page.wav;_
+振る武器 EFFECT_NANOHA_S2U.bmp 32 Reload(4).wav
+Ｓ２Ｕ(攻撃), 振る武器突撃 EFFECT_NANOHA_S2U.bmp 32
+Ｓ２Ｕ(命中), @戦闘アニメ_白兵武器攻撃;ダメージ FightHit(2).wav
+スティンガーレイ(準備), ミッド式魔法陣 青 Hittyuu.wav 背面
+スティンガーレイ(攻撃), レーザーマシンガン 青 EFFECT_NANOHA_S2U2.bmp 48
+スティンガーレイ(命中), ニードルレーザー連射 青
+スティンガースナイプ(準備), ミッド式魔法陣 青 Hittyuu.wav 背面
+スティンガースナイプ(攻撃), 拡散ビームライフル 青 EFFECT_NANOHA_S2U2.bmp 48
+スティンガースナイプ(命中), ホーミングレーザー 青
+ブレイクインパルス(準備), ミッド式魔法陣 青 Hittyuu.wav 背面
+ブレイクインパルス(攻撃), @戦闘アニメ_急降下攻撃共通 EFFECT_NANOHA_S2U.bmp
+ブレイクインパルス(命中), @戦闘アニメ_急降下命中共通 EFFECT_NANOHA_S2U.bmp;連続爆発 (Random(3) + 3)
+ブレイズキャノン(準備), ミッド式魔法陣 青 Hittyuu.wav 背面
+ブレイズキャノン(攻撃), 10;粒子集中 青 Charge(2).wav 対象ユニットＩＤ;_
+バスタービームランチャー 青 EFFECT_NANOHA_S2U2.bmp 48
+ブレイズキャノン(命中), 超ビーム 青
+スティンガーブレイドＥＳ(準備), ミッド式魔法陣 青 Hittyuu.wav 背面
+スティンガーブレイドＥＳ(攻撃), 拡散ビームライフル 青 BeamShot.wav EFFECT_NANOHA_S2U2.bmp 48;_
+拡散ビームライフル 青 BeamShot.wav EFFECT_NANOHA_S2U2.bmp 48
+スティンガーブレイドＥＳ(命中), 拡散ビーム 青 Slash.wav;超爆発 Explode(Far).wav
+
+クロノ＝ハラオウン・デュランダル装備
+攻撃無効化(ラウンドシールド), シールド防御 Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Blue)01.bmp 32 Flair.wav 発光 ラウンドシールド
+ストラグルバインド(準備), ミッド式魔法陣 Hittyuu.wav 青 背面
+ストラグルバインド(攻撃), 拡散ビームライフル Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Blue)01.bmp 32 青 Whiz.wav
+ストラグルバインド(命中), ホーミングレーザー 青 BeamCoat.wav;粒子噴射 Interference.wav 青
+ディレイドバインド(準備), ミッド式魔法陣 Hittyuu.wav 青 背面
+ディレイドバインド(攻撃), 拡散ビームライフル Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Blue)01.bmp 32 青 Whiz.wav
+ディレイドバインド(命中), ホーミングレーザー 青 BeamCoat.wav
+スティンガーレイ(準備), ミッド式魔法陣 青 Hittyuu.wav 背面
+スティンガーレイ(攻撃), レーザーマシンガン 青 EFFECT_NANOHA_Durandal2.bmp 48
+スティンガーレイ(命中), ニードルレーザー連射 青
+スティンガースナイプ(準備), ミッド式魔法陣 青 Hittyuu.wav 背面
+スティンガースナイプ(攻撃), 拡散ビームライフル 青 EFFECT_NANOHA_Durandal2.bmp 48
+スティンガースナイプ(命中), ホーミングレーザー 青 ランダム方向
+ブレイクインパルス(準備), ミッド式魔法陣 青 Hittyuu.wav 背面
+ブレイクインパルス(攻撃), @戦闘アニメ_急降下攻撃共通 EFFECT_NANOHA_Durandal.bmp
+ブレイクインパルス(命中), @戦闘アニメ_急降下命中共通 EFFECT_NANOHA_Durandal.bmp;連続爆発 (Random(3) + 3)
+ブレイズキャノン(準備), ミッド式魔法陣 青 Hittyuu.wav 背面
+ブレイズキャノン(攻撃), 10;粒子集中 青 Charge(2).wav 対象ユニットＩＤ;_
+バスタービームランチャー 青 EFFECT_NANOHA_Durandal2.bmp 48
+ブレイズキャノン(命中), 超ビーム 青
+スティンガーブレイドＥＳ(準備), ミッド式魔法陣 青 Hittyuu.wav 背面
+スティンガーブレイドＥＳ(攻撃), 拡散ビームライフル 青 BeamShot.wav EFFECT_NANOHA_Durandal2.bmp 48;_
+拡散ビームライフル 青 BeamShot.wav EFFECT_NANOHA_Durandal2.bmp 48
+スティンガーブレイドＥＳ(命中), 拡散ビーム 青 Slash.wav;超爆発 Explode(Far).wav
+エターナルコフィン(攻撃), -
+
+使い魔アルフ
+攻撃無効化(ラウンドシールド), シールド防御 Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Orange)01.bmp 32 Flair.wav 発光 ラウンドシールド
+チェーンバインド(準備), ミッド式魔法陣 Hittyuu.wav 橙 背面
+チェーンバインド(攻撃), 拡散ビームライフル Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Orange)01.bmp 32 橙 Whiz.wav
+チェーンバインド(命中), ホーミングレーザー 橙 BeamCoat.wav
+フォトンランサー(準備), ミッド式魔法陣 Hittyuu.wav 橙 背面
+フォトンランサー(攻撃), 中ビーム 橙 Thunder.wav
+フォトンランサー(命中), 中ビーム 橙
+
+使い魔リニス
+攻撃無効化(ラウンドシールド), シールド防御 Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Yellow)01.bmp 32 Flair.wav 発光 ラウンドシールド
+フォトンランサー(準備), 粒子集中 Hittyuu.wav 黄
+フォトンランサー(攻撃), 拡散ビーム 黄 
+フォトンランサー(命中), 拡散ビーム 黄
+サンダースマッシャー(準備), 射撃武器 Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Yellow)01.bmp Hittyuu.wav
+サンダースマッシャー(攻撃), ビームランチャー 黄 Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Yellow)01.bmp 48 Thunder.wav
+サンダースマッシャー(命中), 中ビーム 黄
+
+剣の騎士シグナム
+攻撃無効化(パンツァーシルト), シールド防御 Anime\Magic\EFFECT_NANOHA_BerkaMagicEmblem(Purple)01.bmp 48 Flair.wav 発光 パンツァーシルト
+
+鉄槌の騎士ヴィータ
+攻撃無効化(パンツァーシルト), シールド防御 Anime\Magic\EFFECT_NANOHA_BerkaMagicEmblem(Red)01.bmp 48 Flair.wav 発光 パンツァーシルト
+
+盾の守護獣ザフィーラ
+攻撃無効化(障壁魔法), シールド防御 Anime\Magic\EFFECT_NANOHA_BerkaMagicEmblem(White)01.bmp 48 Flair.wav 発光 防御魔法
+
+闇の書の意志
+攻撃無効化(パンツァーシルト), シールド防御 Anime\Magic\EFFECT_NANOHA_BerkaMagicEmblem(Black)01.bmp 48 Flair.wav 発光 パンツァーシルト
+スターライトブレイカー(準備), 振る武器 EFFECT_NANOHA_IllegalWriting(Open).bmp Page.wav
+スターライトブレイカー(攻撃), -
+スターライトブレイカー(命中), 巨大ビーム Explode(Far).wav;連続大爆発 6
+
+闇の書の闇
+噛み付き, 噛み付き
+
+武装局員
+攻撃無効化(ラウンドシールド), シールド防御 Anime\Magic\EFFECT_NANOHA_MidChildaMagicEmblem(Blue)01.bmp 32 Flair.wav 発光 ラウンドシールド
+チェーンバインド(準備), ミッド式魔法陣 Hittyuu.wav 青 背面
+チェーンバインド(攻撃), 拡散ビームライフル EFFECT_NANOHA_ArmedMemberCane.bmp 32 青 Whiz.wav
+チェーンバインド(命中), ホーミングレーザー 青 BeamCoat.wav
+
+汎用
+攻撃無効化(サークルプロテクション), バリア BeamCoat.wav サークルプロテクション
+デュランダル(準備), 振る武器 EFFECT_NANOHA_Durandal(WaitMode).bmp 32 Page.wav;_
+振る武器 EFFECT_NANOHA_Durandal.bmp Reload(4).wav 32
+デュランダル(攻撃), 振る武器突撃 EFFECT_NANOHA_Durandal.bmp 32
+デュランダル(命中), @戦闘アニメ_白兵武器攻撃;ダメージ FightHit(2).wav
+エターナルコフィン(準備), 振る武器 EFFECT_NANOHA_Durandal.bmp Reload(4).wav 32
+エターナルコフィン(攻撃), @戦闘アニメ_ミッド式魔法陣準備 白 背面 Hittyuu.wav;ＭＡＰ吹雪
+エターナルコフィン(命中), 吹雪 Glass.wav
+エターナルコフィン(クリティカル), @戦闘アニメ_発光命中 青 Glass.wav;凍結

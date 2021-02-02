@@ -1,0 +1,356 @@
+
+人間
+オルフェノク化, Fold.wav
+変身(デルタ)(準備), -
+変身(デルタ)(使用), -
+変身(デルタ)(発動), <B>『ＳｔａｎｄｉｎｇＢｙ』</B>;5;Reload.wav;<B>『Ｃｏｍｐｌｅｔｅ』</B>:.<B><Color=Blue>『Ｄｅｌｔａ』</B></Color>
+
+
+特殊強化スーツ
+格闘(命中), Punch.wav
+格闘(命中), Punch(2).wav
+格闘(命中), Crash.wav
+ファイズエッジ(命中), Slash.wav
+Ｅ・ファイズエッジ(準備), Charge(High).wav;<B>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B>
+Ｅ・ファイズエッジ(命中), Drill.wav
+Ｅ・ファイズエッジ(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+スパークルカット(準備), Charge(High).wav;<B>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B>
+スパークルカット, Whiz.wav
+スパークルカット(命中), 3;Slash.wav;Slash.wav
+スパークルカット(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+クリムゾンスマッシュ(準備), 3;Reload.wav;<B>『Ｒｅａｄｙ』</B>;Charge(High).wav;<B>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B>
+クリムゾンスマッシュ, 4;Beam.wav;Bazooka.wav
+クリムゾンスマッシュ(命中), Explode(Far).wav
+クリムゾンスマッシュ(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+ファイズサウンダー(準備), 3;Reload.wav;<B>『Ｒｅａｄｙ』</B>;Charge(High).wav;<B>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B>
+ファイズサウンダー, LaserGun.wav
+ファイズサウンダー(命中), Explode.wav
+ファイズサウンダー(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+ファイズアクセル, 3;Reload.wav;<B>『Ｃｏｍｐｌｅｔｅ』</B>
+グランインパクト<MAP>(準備), UnitOn.wav;<B>『ＳｔａｒｔＵｐ』</B>
+グランインパクト<MAP>, 5;Drill.wav;5;Saber.wav;5;Whiz.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;Bazooka.wav
+グランインパクト<MAP>(命中), Explode(Far).wav
+グランインパクト<MAP>(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+スパークルカット<MAP>(準備), UnitOn.wav;<B>『ＳｔａｒｔＵｐ』</B>
+スパークルカット<MAP>, 5;Drill.wav;5;Saber.wav;5;Whiz.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;Bazooka.wav
+スパークルカット<MAP>(命中), Explode(Far).wav
+スパークルカット<MAP>(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+クリムゾンスマッシュ<MAP>(準備), UnitOn.wav;<B>『ＳｔａｒｔＵｐ』</B>
+クリムゾンスマッシュ<MAP>, 5;Drill.wav;5;Saber.wav;5;Whiz.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;Bazooka.wav
+クリムゾンスマッシュ<MAP>(命中), Explode(Far).wav
+クリムゾンスマッシュ<MAP>(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+Ａ・グランインパクト(準備), UnitOn.wav;<B>『ＳｔａｒｔＵｐ』</B>
+Ａ・グランインパクト, 5;Drill.wav;5;Saber.wav;Whiz.wav
+Ａ・グランインパクト(命中), 5;Combo.wav;Explode.wav
+Ａ・グランインパクト(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+Ａ・スパークルカット(準備), UnitOn.wav;<B>『ＳｔａｒｔＵｐ』</B>
+Ａ・スパークルカット, 5;Drill.wav;5;Saber.wav;Whiz.wav
+Ａ・スパークルカット(命中), 3;Slash.wav;Slash.wav
+Ａ・スパークルカット(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+Ａ・クリムゾンスマッシュ(準備), UnitOn.wav;<B>『ＳｔａｒｔＵｐ』</B>
+Ａ・クリムゾンスマッシュ, 5;Drill.wav;5;Saber.wav;5;Whiz.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;Bazooka.wav
+Ａ・クリムゾンスマッシュ(命中), Explode(Far).wav
+Ａ・クリムゾンスマッシュ(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+ノーマルモード(仮面ライダーファイズ(アクセルフォーム)=>仮面ライダーファイズ), <B>『３…』</B>;<B>『３…２…』</B>;<B>『３…２…１…』</B>;<B>『３…２…１…』.『ＴｉｍｅＯｕｔ』</B>;<B>『Ｒｅｆｏｒｍａｔｉｏｎ』</B>
+ファイズブラスター, 3;Reload.wav;<B>『Ａｗａｋｅｎｉｎｇ』</B>;UnitOn.wav;2;<B>『５』</B>;UnitOn.wav;2;<B>『５』『５』</B>;UnitOn.wav;2;<B>『５』『５』『５』</B>;UnitOn.wav;2;<B>『５』『５』『５』『Ｅｎｔｅｒ』</B>;<B><Color=Red>『Ｃｏｍｐｌｅｔｅ』</B></Color>
+ブラッディキャノン(準備), UnitOn.wav;2;<B>『５』</B>;UnitOn.wav;2;<B>『５』『２』</B>;UnitOn.wav;2;<B>『５』『２』『１』</B>;UnitOn.wav;2;<B>『５』『２』『１』『４』</B>;UnitOn.wav;2;<B>『５』『２』『１』『４』『Ｅｎｔｅｒ』</B>;Charge(High).wav;<B>『ＦａｉｚＢｌａｓｔｅｒＤｉｓＣｈａｒｇｅ』</B>
+ブラッディキャノン, 1;Beam.wav;1;Beam.wav;1;Beam.wav;Beam.wav
+ブラッディキャノン(命中), Explode(Far).wav
+フォトンブレイカー(準備)(仮面ライダーファイズ・ブラスターフォーム), UnitOn.wav;2;<B>『１』</B>;UnitOn.wav;2;<B>『１』『４』</B>;UnitOn.wav;2;<B>『１』『４』『３』</B>;<B>『Ｂｌａｄｅ Ｍｏｄｅ』</B>
+フォトンバスター(準備), UnitOn.wav;2;<B>『１』</B>;UnitOn.wav;2;<B>『１』『０』</B>;UnitOn.wav;2;<B>『１』『０』『３』</B>;<B>『Ｂａｓｔｅｒ Ｍｏｄｅ』</B>
+Ｂ・グランインパクト(準備), UnitOn.wav;2;<B>『５』</B>;UnitOn.wav;2;<B>『５』『２』</B>;UnitOn.wav;2;<B>『５』『２』『３』</B>;UnitOn.wav;2;<B>『５』『２』『３』『２』</B>;UnitOn.wav;2;<B>『５』『２』『３』『２』『Ｅｎｔｅｒ』</B>;Charge(High).wav;<B>『ＦａｉｚＳｈｏｔＥｘｃｅｅｄＣｈａｒｇｅ』</B>
+Ｂ・グランインパクト, Swing.wav
+Ｂ・グランインパクト(命中), Explode(Far).wav
+Ｂ・グランインパクト(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+Ｅ・フォトンブレイカー(準備), UnitOn.wav;2;<B>『Ｅｎｔｅｒ』</B>;Charge(High).wav;<B>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B>
+Ｅ・フォトンブレイカー, Jet.wav
+Ｅ・フォトンブレイカー(命中), 3;Slash.wav;Explode(Far).wav
+Ｅ・フォトンブレイカー(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+Ｅ・フォトンバスター(準備), UnitOn.wav;2;<B>『Ｅｎｔｅｒ』</B>;Charge(High).wav;<B>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B>
+Ｅ・フォトンバスター, Bazooka.wav
+Ｅ・フォトンバスター(命中), Explode(Far).wav
+Ｅ・フォトンバスター(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+Ｂ・クリムゾンスマッシュ(準備), UnitOn.wav;2;<B>『５』</B>;UnitOn.wav;2;<B>『５』『５』</B>;UnitOn.wav;2;<B>『５』『５』『３』</B>;UnitOn.wav;2;<B>『５』『５』『３』『２』</B>;UnitOn.wav;2;<B>『５』『５』『３』『２』『Ｅｎｔｅｒ』</B>;Charge(High).wav;<B>『ＦａｉｚＰｏｉｎｔｅｒＥｘｃｅｅｄＣｈａｒｇｅ』</B>
+Ｂ・クリムゾンスマッシュ, 4;Beam.wav;Bazooka.wav
+Ｂ・クリムゾンスマッシュ(命中), Explode(Nuclear).wav
+Ｂ・クリムゾンスマッシュ(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+体当たり(命中), Crash.wav
+フォトンミサイル, MicroMissile.wav
+フォトンミサイル(命中), Explode(Far).wav
+カイザブレイガン・シングル, Gun.wav
+カイザブレイガン・ブレード(命中), Slash.wav
+カイザブレイガン(準備), Reload.wav;<B><I>『ＢｕｒｓｔＭｏｄｅ』</B></I>
+カイザブレイガン, FastGun.wav
+カイザブレイガン(命中), Explode.wav
+Ｅ・カイザブレイガン(準備), Charge(High).wav;<B><I>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></I>
+Ｅ・カイザブレイガン(命中), 5;Slash.wav;Explode(Far).wav
+Ｅ・カイザブレイガン(とどめ), BeamCoat.wav;<SIZE=48><B><Color=RGB(200,200,0)>　　　×　　　</Color></B></SIZE>
+カイザスラッシュ(準備), Charge(High).wav;<B><I>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></I>
+カイザスラッシュ, BeamShot.wav
+カイザスラッシュ(命中), 5;Slash.wav;Explode(Far).wav
+カイザスラッシュ(とどめ), BeamCoat.wav;<SIZE=48><B><Color=RGB(200,200,0)>　　　×　　　</Color></B></SIZE>
+ゴルドスマッシュ(準備), 3;Reload.wav;<B><I>『Ｒｅａｄｙ』</B></I>;Charge(High).wav;<B><I>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></I>
+ゴルドスマッシュ, 4;Beam.wav;Bazooka.wav
+ゴルドスマッシュ(命中), Explode(Far).wav
+ゴルドスマッシュ(とどめ), BeamCoat.wav;<SIZE=48><B><Color=RGB(200,200,0)>　　　×　　　</Color></B></SIZE>
+ローラーダッシュ, Bike.wav
+フォトンバルカン, FastGun.wav
+グランドマニュピレータ(命中), Crash.wav
+エグザップバスター, MicroMissile.wav
+エグザップバスター(命中), Explode(Far).wav
+デルタムーバー, <B>『ＢｕｒｓｔＭｏｄｅ』</B>;2;Beam.wav;2;Beam.wav;Beam.wav
+デルタムーバー(命中), Explode.wav
+デルタムーバー・ポインター(準備), 3;Reload.wav;<B>『Ｒｅａｄｙ』</B>
+デルタムーバー・ポインター, Charge(High).wav;<B>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B>;Bazooka.wav
+デルタムーバー・ポインター(命中), Drill.wav
+ルシファーズハンマー(準備), 3;Reload.wav;<B>『Ｒｅａｄｙ』</B>
+ルシファーズハンマー, Charge(High).wav;<B>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B>;Bazooka.wav
+ルシファーズハンマー(命中), Explode(Far).wav
+ルシファーズハンマー(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Blue>　　　△　　　</Color></B></SIZE>
+トンファーエッジ(命中), Slash.wav
+Ｅ・トンファーエッジ(準備), Charge(High).wav;<B>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B>
+Ｅ・トンファーエッジ(命中), Drill.wav
+Ｅ・トンファーエッジ(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Blue>　　　Ψ　　　</Color></B></SIZE>
+ブースターライフル, LaserGun.wav
+スカイインパクト(準備), Charge(High).wav;<B>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B>
+スカイインパクト, Swing.wav
+スカイインパクト(命中), Explode.wav
+スカイインパクト(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Blue>　　　Ψ　　　</Color></B></SIZE>
+コバルトスマッシュ(準備), 3;Reload.wav;<B>『Ｒｅａｄｙ』</B>;Charge(High).wav;<B>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B>
+コバルトスマッシュ, 4;Beam.wav;Bazooka.wav
+コバルトスマッシュ(命中), Explode(Far).wav
+コバルトスマッシュ(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Blue>　　　Ψ　　　</Color></B></SIZE>
+オーガストランザー･ガン, Beam.wav
+オーガストランザー(命中), 4;Shock(Low).wav;Slash.wav
+オーガストラッシュ(準備), Charge(High).wav;<B>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B>
+オーガストラッシュ(命中), Explode(Far).wav
+オーガストラッシュ(とどめ), BeamCoat.wav;<SIZE=48><B><Color=RGB(200,200,0)>　　　Ω　　　</Color></B></SIZE>
+アクセレイガン(準備), Reload.wav;<B>『ＢｕｒｓｔＭｏｄｅ』</B>
+アクセレイガン, FastGun.wav
+アクセレイガン(命中), Explode.wav
+アクセレイガン・ブレード(命中), Drill.wav
+ダブルグランインパクト(準備), 1;Reload.wav;3;Reload.wav;<B><Color=Red>『Ｒｅａｄｙ』</B></Color>.<B><I><Color=RGB(200,200,0)>『Ｒｅａｄｙ』</B></I></Color>;Charge(High).wav;<B><Color=Red>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></Color>.<B><I><Color=RGB(200,200,0)>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></I></Color>
+ダブルグランインパクト, 1;Swing.wav;Swing.wav
+ダブルグランインパクト(命中), Explode(Far).wav
+ダブルグランインパクト(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　φ　<Color=RGB(200,200,0)>×　　</Color></B></SIZE>
+ダブルフォトンスマッシュ(FK)(準備), 1;Reload.wav;3;Reload.wav;<B><Color=Red>『Ｒｅａｄｙ』</B></Color>.<B><I><Color=RGB(200,200,0)>『Ｒｅａｄｙ』</B></I></Color>;Charge(High).wav;<B><Color=Red>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></Color>.<B><I><Color=RGB(200,200,0)>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></I></Color>
+ダブルフォトンスマッシュ(FK), 1;Beam.wav;4;Beam.wav;1;Bazooka.wav;Bazooka.wav
+ダブルフォトンスマッシュ(FK)(命中), Explode(Far).wav
+ダブルフォトンスマッシュ(FK)(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　φ　<Color=RGB(200,200,0)>×　　</Color></B></SIZE>
+ダブルフォトンスマッシュ(FD)(準備), 1;Reload.wav;3;Reload.wav;<B><Color=Red>『Ｒｅａｄｙ』</B></Color>.<B><Color=Blue>『Ｒｅａｄｙ』</B></Color>;Charge(High).wav;<B><Color=Red>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></Color>.<B><Color=Blue>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></Color>
+ダブルフォトンスマッシュ(FD), 1;Beam.wav;4;Beam.wav;1;Bazooka.wav;Bazooka.wav
+ダブルフォトンスマッシュ(FD)(命中), Explode(Far).wav
+ダブルフォトンスマッシュ(FD)(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　φ　<Color=Blue>△　　</Color></B></SIZE>
+ダブルフォトンスマッシュ(KD)(準備), 1;Reload.wav;3;Reload.wav;<B><I><Color=RGB(200,200,0)>『Ｒｅａｄｙ』</B></I></Color>.<B><Color=Blue>『Ｒｅａｄｙ』</B></Color>;Charge(High).wav;<B><I><Color=RGB(200,200,0)>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></I></Color>.<B><Color=Blue>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></Color>
+ダブルフォトンスマッシュ(KD), 1;Beam.wav;4;Beam.wav;1;Bazooka.wav;Bazooka.wav
+ダブルフォトンスマッシュ(KD)(命中), Explode(Far).wav
+ダブルフォトンスマッシュ(KD)(とどめ), BeamCoat.wav;<SIZE=48><B><Color=RGB(200,200,0)>　　×　<Color=Blue>△　　</Color></B></SIZE>
+トリプルフォトンスマッシュ(準備), 1;Reload.wav;1;Reload.wav;3;Reload.wav;<B><Color=Red>『Ｒｅａｄｙ』</B></Color>.<B><I><Color=RGB(200,200,0)>『Ｒｅａｄｙ』</B></I></Color>.<B><Color=Blue>『Ｒｅａｄｙ』</B></Color>;Charge(High).wav;<B><Color=Red>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></Color>.<B><I><Color=RGB(200,200,0)>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></I></Color>.<B><Color=Blue>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></Color>
+トリプルフォトンスマッシュ, 1;Beam.wav;1;Beam.wav;4;Beam.wav;1;Bazooka.wav;1;Bazooka.wav;Bazooka.wav
+トリプルフォトンスマッシュ(命中), Explode(Nuclear).wav
+トリプルフォトンスマッシュ(とどめ), BeamCoat.wav;<SIZE=48><B><Color=RGB(200,200,0)>　×　<Color=Red>φ　<Color=Blue>△　</Color></B></SIZE>
+
+
+仮面ライダーファイズ
+フォンブラスター・シングル(準備), UnitOn.wav;2;<B>『１』</B>;UnitOn.wav;2;<B>『１』『０』</B>;UnitOn.wav;2;<B>『１』『０』『３』</B>;UnitOn.wav;2;<B>『１』『０』『３』『Ｅｎｔｅｒ』</B>:.<B>『ＳｉｎｇｌｅＭｏｄｅ』</B>
+フォンブラスター・シングル, Beam.wav
+フォンブラスター(準備), UnitOn.wav;2;<B>『１』</B>;UnitOn.wav;2;<B>『１』『０』</B>;UnitOn.wav;2;<B>『１』『０』『６』</B>;UnitOn.wav;2;<B>『１』『０』『６』『Ｅｎｔｅｒ』</B>:.<B>『ＢｕｒｓｔＭｏｄｅ』</B>
+フォンブラスター, 2;Beam.wav;2;Beam.wav;Beam.wav
+フォンブラスター(命中), Explode.wav
+フォンブラスター・チャージ, UnitOn.wav;2;<B>『２』</B>;UnitOn.wav;2;<B>『２』『７』</B>;UnitOn.wav;2;<B>『２』『７』『９』</B>;UnitOn.wav;2;<B>『２』『７』『９』『Ｅｎｔｅｒ』</B>:.<B>『Ｃｈａｒｇｅ』</B>
+グランインパクト(準備), 3;Reload.wav;<B>『Ｒｅａｄｙ』</B>;Charge(High).wav;<B>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B>
+グランインパクト, Swing.wav
+グランインパクト(命中), Explode.wav
+グランインパクト(とどめ), BeamCoat.wav;<SIZE=48><B><Color=Red>　　　φ　　　</Color></B></SIZE>
+ジェットスライガー(ファイズ),  UnitOn.wav;2;<B>『３』</B>;UnitOn.wav;2;<B>『３』『８』</B>;UnitOn.wav;2;<B>『３』『８』『２』</B>;UnitOn.wav;2;<B>『３』『８』『２』『１』</B>;UnitOn.wav;2;<B>『３』『８』『２』『１』『Ｅｎｔｅｒ』</B>;<B>『ＪｅｔＳｌｉｇｅｒ ＣｏｍｅＣｌｏｓｅｒ』</B>
+
+
+仮面ライダーファイズ・アクセルフォーム
+格闘(準備), UnitOn.wav;<B>『ＳｔａｒｔＵｐ』</B>
+格闘, 5;Drill.wav;5;Saber.wav;Whiz.wav
+格闘(命中), Combo.wav
+
+
+仮面ライダーカイザ
+フォンブラスター・シングル(準備), UnitOn.wav;2;<B>『１』</B>;UnitOn.wav;2;<B>『１』『０』</B>;UnitOn.wav;2;<B>『１』『０』『３』</B>;UnitOn.wav;2;<B>『１』『０』『３』『Ｅｎｔｅｒ』</B>:.<B><I>『ＳｉｎｇｌｅＭｏｄｅ』</B></I>
+フォンブラスター・シングル, Beam.wav
+フォンブラスター(準備), UnitOn.wav;2;<B>『１』</B>;UnitOn.wav;2;<B>『１』『０』</B>;UnitOn.wav;2;<B>『１』『０』『６』</B>;UnitOn.wav;2;<B>『１』『０』『６』『Ｅｎｔｅｒ』</B>:.<B><I>『ＢｕｒｓｔＭｏｄｅ』</B></I>
+フォンブラスター, 2;Beam.wav;2;Beam.wav;Beam.wav
+フォンブラスター(命中), Explode.wav
+フォンブラスター・チャージ, UnitOn.wav;2;<B>『２』</B>;UnitOn.wav;2;<B>『２』『７』</B>;UnitOn.wav;2;<B>『２』『７』『９』</B>;UnitOn.wav;2;<B>『２』『７』『９』『Ｅｎｔｅｒ』</B>:.<B>『Ｃｈａｒｇｅ』</B>
+グランインパクト(準備), 3;Reload.wav;<B><I>『Ｒｅａｄｙ』</B></I>;Charge(High).wav;<B><I>『ＥｘｃｅｅｄＣｈａｒｇｅ』</B></I>
+グランインパクト, Swing.wav
+グランインパクト(命中), Explode.wav
+グランインパクト(とどめ), BeamCoat.wav;<SIZE=48><B><Color=RGB(200,200,0)>　　　×　　　</Color></B></SIZE>
+
+
+仮面ライダーサイガ
+フォンブラスター・シングル(準備), UnitOn.wav;2;<B>『１』</B>;UnitOn.wav;2;<B>『１』『０』</B>;UnitOn.wav;2;<B>『１』『０』『３』</B>;UnitOn.wav;2;<B>『１』『０』『３』『Ｅｎｔｅｒ』</B>:.<B>『ＳｉｎｇｌｅＭｏｄｅ』</B>
+フォンブラスター・シングル, Beam.wav
+フォンブラスター(準備), UnitOn.wav;2;<B>『１』</B>;UnitOn.wav;2;<B>『１』『０』</B>;UnitOn.wav;2;<B>『１』『０』『６』</B>;UnitOn.wav;2;<B>『１』『０』『６』『Ｅｎｔｅｒ』</B>:.<B>『ＢｕｒｓｔＭｏｄｅ』</B>
+フォンブラスター, 2;Beam.wav;2;Beam.wav;Beam.wav
+フォンブラスター(命中), Explode.wav
+フォンブラスター・チャージ, UnitOn.wav;2;<B>『２』</B>;UnitOn.wav;2;<B>『２』『７』</B>;UnitOn.wav;2;<B>『２』『７』『９』</B>;UnitOn.wav;2;<B>『２』『７』『９』『Ｅｎｔｅｒ』</B>:.<B>『Ｃｈａｒｇｅ』</B>
+
+
+仮面ライダーオーガ
+フォンブラスター・シングル(準備), UnitOn.wav;2;<B>『１』</B>;UnitOn.wav;2;<B>『１』『０』</B>;UnitOn.wav;2;<B>『１』『０』『３』</B>;UnitOn.wav;2;<B>『１』『０』『３』『Ｅｎｔｅｒ』</B>:.<B><I>『ＳｉｎｇｌｅＭｏｄｅ』</B></I>
+フォンブラスター・シングル, Beam.wav
+フォンブラスター(準備), UnitOn.wav;2;<B>『１』</B>;UnitOn.wav;2;<B>『１』『０』</B>;UnitOn.wav;2;<B>『１』『０』『６』</B>;UnitOn.wav;2;<B>『１』『０』『６』『Ｅｎｔｅｒ』</B>:.<B><I>『ＢｕｒｓｔＭｏｄｅ』</B></I>
+フォンブラスター, 2;Beam.wav;2;Beam.wav;Beam.wav
+フォンブラスター(命中), Explode.wav
+フォンブラスター・チャージ, UnitOn.wav;2;<B>『２』</B>;UnitOn.wav;2;<B>『２』『７』</B>;UnitOn.wav;2;<B>『２』『７』『９』</B>;UnitOn.wav;2;<B>『２』『７』『９』『Ｅｎｔｅｒ』</B>:.<B>『Ｃｈａｒｇｅ』</B>
+
+
+可変型バリアブルビークル
+体当たり(命中), Crash.wav
+パワーマニュピレータ(命中), Crash.wav
+バスターホイール, MachineGun.wav
+
+
+オルフェノク
+格闘(命中), Punch.wav
+メリケンサック(命中), Slash.wav
+ウルフキック(命中), Crash.wav
+魔剣(命中), Slash.wav
+翼(命中), Slash.wav
+超高周波, Beam.wav
+光の翼(準備), Charge.wav
+光の翼, Whiz.wav
+妖弓, Bow.wav
+妖弓(命中), Stab.wav
+妖弓(クリティカル), Hide.wav
+スネーカム(命中), Punch.wav
+スネーカム(クリティカル), BreakOff.wav
+スネークル(命中), Stab.wav
+スネークル(クリティカル), Hide.wav
+スネークダガー(命中), 2;Slash.wav;Slash.wav
+バックラー(命中), 3;Crash.wav;Crash.wav
+ファキールスホーン(命中), Crash.wav
+クロコダイルソード(命中), 4;Shock(Low).wav;Slash.wav
+エネルギースラッシュ(準備), BeamSaber.wav
+エネルギースラッシュ(命中), 4;Shock(Low).wav;Explode(Far).wav
+エネルギーアタック(準備), BeamSaber.wav
+エネルギーアタック(命中), 4;Shock(Low).wav;Explode(Far).wav
+光弾, Bazooka.wav
+光弾(命中), Explode.wav
+センチピードビュート, Saber.wav
+センチピードビュート(命中), Whip.wav
+センチピードビュート(クリティカル), Hide.wav
+シャンパン, Sharara.wav
+シャンパン(命中), Inori.wav
+シャンパン・投擲, Swing.wav
+シャンパン・投擲(命中), Explode.wav
+シェルグラブ(命中), Crash.wav
+ロブスターサーベル(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;Stab.wav
+八方手裏剣(命中), Slash.wav
+灰化(命中), Hide.wav
+灰化・投射, 3;AntiShipMissile;3;AntiShipMissile;AntiShipMissile
+灰化・投射(命中), Hide.wav
+竜頭装甲, Jet.wav
+竜頭装甲(命中), Crash.wav
+デモリッシュファング(命中), Crash.wav
+アシュフット(命中), 5;Crash.wav;Drill.wav
+破壊光弾, 3;Thunder.wav;Bazooka.wav
+破壊光弾(命中), Explode(Far).wav
+デビルクロー(命中), 3;Thunder.wav;Crash.wav
+巨大光弾(準備), Charge.wav
+巨大光弾, Bazooka.wav
+巨大光弾(命中), Explode(Far).wav
+蔦状鞭, Saber.wav
+蔦状鞭(命中), Whip.wav
+薔薇霞, Storm.wav
+薔薇霞(命中), Explode(Far).wav
+ゴートスタッブ(命中), Crash.wav
+共鳴振動波, Interference.wav
+三又の槍(命中), Slash.wav
+突撃(命中), Crash.wav
+豪腕(命中), Crash.wav
+象牙(命中), Crash.wav
+大砲, Bazooka.wav
+大砲(命中), Explode(Far).wav
+牛角(命中), Crash.wav
+拳骨状鉄球, Swing.wav
+拳骨状鉄球(命中), Crash.wav
+棘, 1;Bow.wav;1;Bow.wav;Bow.wav
+棘(命中), 1;Stab.wav;1;Stab.wav;Stab.wav
+棘(クリティカル), Hide.wav
+鎌(命中), Slash.wav
+棍棒(命中), Crash.wav
+墨, Whiz.wav
+墨(命中), Hide.wav
+神経系毒ガス, Inori.wav
+神経系毒ガス(クリティカル), Hide.wav
+鉤爪(命中), Slash.wav
+スカラーベル(命中), 3;Stab.wav;3;Stab.wav;Stab.wav
+鈍器状左腕(命中), Crash.wav
+毒性胞子, Inori.wav
+毒性胞子(クリティカル), Hide.wav
+鉄棍(命中), Crash.wav
+巨大水中銃, Bow.wav
+巨大水中銃(命中), Crash.wav
+巨大剣(命中), Slash.wav
+毒胞子, Inori.wav
+毒胞子(クリティカル), Hide.wav
+スコーピオンニードル(命中), Stab.wav
+スコーピオンニードル(クリティカル), Hide.wav
+スコーピオンフレイル(命中), Crash.wav
+ヒレ状の剣(命中), Slash.wav
+触手, Saber.wav
+触手(命中), Hide.wav
+三日月刃(命中), Slash.wav
+ゲル状溶解液, Swing.wav
+ゲル状溶解液(命中), Explode.wav
+ブーメラン斬り(命中), Slash.wav
+ブーメラン, 2;Swing.wav;2;Swing.wav;Swing.wav
+ブーメラン(命中), Slash.wav
+ウォーターガン, Beam.wav
+ガス弾, 4;Swing.wav;Explode(Small).wav
+ガス弾(クリティカル), Hide.wav
+二刀流(命中), 1;Slash.wav;Slash.wav
+薙刀(命中), Stab.wav
+刺股(命中), Crash.wav
+煙幕墨, Inori.wav
+煙幕墨(クリティカル), Hide.wav
+伸腕ストレートパンチ(命中), Punch.wav
+羽手裏剣, 1;Bow.wav;1;Bow.wav;Bow.wav
+羽手裏剣(命中), 1;Stab.wav;1;Stab.wav;Stab.wav
+羽手裏剣(クリティカル), Hide.wav
+タックル(命中), Crash.wav
+ガス爆弾, Swing.wav
+ガス爆弾(命中), Explode.wav
+粘性ネット, Swing.wav
+粘性ネット(クリティカル), Hide.wav
+ハードメット(命中), Crash.wav
+ニーブロッカー(命中), Punch.wav
+シャープアックス(命中), Slash.wav
+クロー(命中), Slash.wav
+リザードボイス, LaserGun.wav
+リザードソード(命中), Slash.wav
+右腕(命中), Punch.wav
+マシーンクロー(命中), Crash.wav
+ボーンサイス, 2;Swing.wav;2;Swing.wav;Swing.wav
+ボーンサイス(命中), Slash.wav
+リボルバー, 1;Gun.wav;Gun.wav
+ダブルリボルバー, 1;Gun.wav;3;Gun.wav;1;Gun.wav;Gun.wav
+ビーストホーン(命中), Crash.wav
+ビーストニードル, 1;Bow.wav;1;Bow.wav;1;Bow.wav;1;Bow.wav;Bow.wav
+ビーストニードル(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;Stab.wav
+ビーストフット(命中), 3;Crash.wav;3;Crash.wav;Crash.wav
+捕食(命中), 4;Stab.wav;3;Stab.wav;2;Stab.wav;5;Stab.wav;Crash.wav
+ショルダースパイク(命中), Crash.wav
+魔の槍(命中), Stab.wav
+高熱火炎, Fire.wav
+顎(命中), Crash.wav
+クチバシ(命中), Crash.wav
+突進(命中), Crash.wav
+クラブ(命中), Crash.wav
+触腕, Saber.wav
+触腕(命中), Whip.wav
+毒針, Bow.wav
+毒針(命中), Stab.wav
+草矢, 1;Bow.wav;1;Bow.wav;1;Bow.wav
+草矢(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav
+舌, Saber.wav
+舌(命中), Whip.wav
+ツタ(命中), Whip.wav

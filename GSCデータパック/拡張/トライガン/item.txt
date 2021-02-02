@@ -1,0 +1,81 @@
+##画像変更
+
+ヴァッシュ画像(前期)
+ヴァッシュ画像, 固定, 非表示
+特殊能力
+パイロット画像=TRIGUN_VashTheStampede(3).bmp
+0, 0, 0, 0, 0
+
+ヴァッシュ画像(前期)(サングラス)
+ヴァッシュ画像, 固定, 非表示
+特殊能力
+パイロット画像=TRIGUN_VashTheStampede(SG)(4).bmp
+0, 0, 0, 0, 0
+
+ヴァッシュ画像(エリクス)
+ヴァッシュ画像, 固定, 非表示
+特殊能力
+パイロット画像=TRIGUN_Erix.bmp
+ユニット画像=TRIGUN_ErixU.bmp
+0, 0, 0, 0, 0
+
+ヴァッシュ画像(髪下ろし)
+ヴァッシュ画像, 固定, 非表示
+特殊能力
+パイロット画像=TRIGUN_VashTheStampede(HairDown).bmp
+0, 0, 0, 0, 0
+
+ヴァッシュ画像(サングラス)
+ヴァッシュ画像, 固定, 非表示
+特殊能力
+パイロット画像=TRIGUN_VashTheStampede(Serious)(SG).bmp
+0, 0, 0, 0, 0
+
+ヴァッシュ画像(ブラック)
+ヴァッシュ画像, 固定, 非表示
+特殊能力
+パイロット画像=TRIGUN_VashTheStampedeB.bmp
+ユニット画像=TRIGUN_VashTheStampedeBU.bmp
+0, 0, 0, 0, 0
+
+ヴァッシュ画像(ブラック)(サングラス)
+ヴァッシュ画像, 固定, 非表示
+特殊能力
+パイロット画像=TRIGUN_VashTheStampedeB(SG).bmp
+ユニット画像=TRIGUN_VashTheStampedeBU.bmp
+0, 0, 0, 0, 0
+
+ヴァッシュ画像(マキシマム)
+ヴァッシュ画像, 固定, 非表示
+特殊能力
+パイロット画像=TRIGUN_VashTheStampedeM.bmp
+0, 0, 0, 0, 0
+
+ヴァッシュ画像(マキシマム)(サングラス)
+ヴァッシュ画像, 固定, 非表示
+特殊能力
+パイロット画像=TRIGUN_VashTheStampedeM(SG).bmp
+0, 0, 0, 0, 0
+
+ウルフウッド画像(サングラス)
+ウルフウッド画像, 固定, 非表示
+特殊能力
+パイロット画像=TRIGUN_NicholasDWolfwood(SG)(3).bmp
+0, 0, 0, 0, 0
+
+レガート画像(マキシマム)
+レガート画像, 固定, 非表示
+特殊能力
+パイロット画像=TRIGUN_LegatoBluesummersM.bmp
+0, 0, 0, 0, 0
+
+###メッセージ変更###
+
+
+ヴァッシュ台詞(コミカル)
+ヴァッシュ台詞, 固定, 非表示
+特殊能力
+パイロット能力付加="メッセージ=ヴァッシュ＝ザ＝スタンピード(コミカル)"
+0, 0, 0, 0, 0
+
+

@@ -1,0 +1,44 @@
+ゲッターロボ
+分身,                           6;Charge(long).wav
+ゲッタービーム,                 Beam.wav
+ドリルストーム,                 8;Drill.wav;7;Storm.wav
+ドリルストーム(命中),           Storm.wav
+ゲッタードリル,                 Drill.wav
+チェーンアタック,               Whiz.wav
+チェーンアタック(命中),         Crash.wav
+フィンガーネット,               Whiz.wav
+スピンカッター,                 Drill.wav
+スピンカッター(命中),           Drill.wav
+シャインスパーク,               30;FlyBy.wav;5;Beam.wav
+ドリルアーム,                   Drill.wav
+真・シャインスパーク,           30;FlyBy.wav;5;Beam.wav
+ストナーサンシャイン,           5;Charge(long).wav;5;Charge(long).wav;15;Charge(long).wav;10;Beam.wav
+ストナーサンシャイン(命中),     Explode(Nuclear).wav
+ミラージュドリル,               2;Drill.wav;2;Drill.wav;2;Drill.wav;5;Drill.wav
+ドリルテンペスト,               8;Drill.wav;3;Storm.wav;3;Storm.wav;7;Storm.wav
+ハンマーパンチ(命中),           3;Punch.wav;3;Punch.wav
+大雪山おろし二段返し(命中),     5;Swing.wav;5;Swing.wav;5;Swing.wav;4;Swing.wav;3;Swing.wav;2;Swing.wav;1;Swing.wav;10;Shock(Low).wav;30;Bike.wav;10;Crash.wav
+サイクロンマキシマム,           6;Storm.wav;6;Storm.wav;10;Storm.wav
+
+百鬼メカ
+衝撃波,                         3;Charge(high).wav
+角ホーミングミサイル(命中),     Explode.wav
+火炎,                           Breath.wav
+火炎(命中),                     Fire.wav
+パーツアタック,                 5;Shock(Low).wav;2;Missile.wav;2;Missile.wav;2;Missile.wav;10;Missile.wav
+パーツアタック(命中),           Punch(4).wav
+串刺し(命中),                   Stab.wav
+誘導円盤カッター,               Swing.wav
+誘導円盤カッター(命中),         Drill.wav
+回転巨大ノコギリ,               Drill.wav
+回転巨大ノコギリ(命中),         Drill.wav
+十方剣,                         2;Swing.wav;2;Swing.wav
+十方剣(命中),                   2;Stab.wav;2;Stab.wav
+熱,                             Charge.wav
+
+
+百鬼司令メカ
+火炎,                           Breath.wav
+火炎(命中),                     Fire.wav
+集中砲火,                       10;MultipleRocketLauncher.wav;8;MachineGun.wav;4;AntiAirMissile.wav;4;AntiAirMissile.wav;4;AntiAirMissile.wav
+集中砲火(命中),                 2;Explode(Small).wav;2;Explode(Small).wav;7;Explode(Small).wav

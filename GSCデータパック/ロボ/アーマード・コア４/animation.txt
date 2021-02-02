@@ -1,0 +1,268 @@
+ネクストシュープリス
+051ANNR,                    ライフル Weapon\EFFECT_NewAssaultRifle02.bmp
+04-MARVE,                   銃撃武器連射 Weapon\EFFECT_LightBulletGun01.bmp
+04-MARVE(とどめ),           @戦闘アニメ_銃撃武器準備 Weapon\EFFECT_LightBulletGun01.bmp;2;@戦闘アニメ_突く武器突撃攻撃 Weapon\EFFECT_LightBulletGun01.bmp 32 刺突;2;@戦闘アニメ_刺突命中;4;@戦闘アニメ_銃撃武器準備 Weapon\EFFECT_LightBulletGun01.bmp
+OGOTO(攻撃),　              キャノン砲
+OGOTO(命中),　 　           大爆発
+阻止(051ANAM),              @戦闘アニメ_キャノン砲攻撃 4 相手ユニットＩＤ AntiAirMissile.wav
+
+ＡＣネクスト
+GAN02-NSS-WR,               ライフル Weapon\EFFECT_HeavyMachineGun01.bmp
+047ANNR,                    ライフル Weapon\EFFECT_BullpupRifle02.bmp
+051ANNR,                    ライフル Weapon\EFFECT_NewAssaultRifle02.bmp
+RF-R100,                    ライフル Weapon\EFFECT_Rifle02.bmp
+MR-R100R,                   ライフル Weapon\EFFECT_Rifle02.bmp
+LABIATA,                    ライフル Weapon\EFFECT_Rifle03.bmp
+063ANAR,                    銃撃武器連射 Weapon\EFFECT_LaserMachineGun01.bmp
+MR-R102,                    銃撃武器連射 Weapon\EFFECT_BullpupRifle01.bmp
+AR-0700,                    銃撃武器連射 Weapon\EFFECT_LightBulletGun01.bmp
+ACACIA,                     銃撃武器連射 Weapon\EFFECT_Rifle01.bmp
+04-MARVE,                   銃撃武器連射 Weapon\EFFECT_LightBulletGun01.bmp
+047ANSR,                    ライフル Weapon\EFFECT_SniperRifle02.bmp 40
+050ANSR,                    ライフル Weapon\EFFECT_SniperRifle02.bmp 40
+061ABSR,                    ライフル Weapon\EFFECT_SniperRifle01.bmp 40
+VANDA,                      マシンガン Weapon\EFFECT_BullpupRifle01.bmp
+CANTUTA,                    マシンガン Weapon\EFFECT_SubMachineGun01.bmp
+XMG-A030,                   マシンガン Weapon\EFFECT_SubMachineGun01.bmp
+01-HITMAN,                  マシンガン Weapon\EFFECT_LightBulletGun01.bmp
+03-MOTORCOBRA,              マシンガン Weapon\EFFECT_LightBulletGun01.bmp
+GAN01-SS-WG,                ガトリング Weapon\EFFECT_Gatling02.bmp
+GAN01-SS-WGP,               ガトリング Weapon\EFFECT_Gatling02.bmp
+SG-O700,                    ショットガン Weapon\EFFECT_ShotGun02.bmp"
+MBUTUCUYA,                  ショットガン Weapon\EFFECT_ShotGun02.bmp"
+SAMPAGUITA,                 ショットガン Weapon\EFFECT_ShotGun02.bmp"
+GAN01-SS-WH.E,              リボルバー Weapon\EFFECT_NewNanbu01.bmp
+GAEN01-SL-WH,               リボルバー Weapon\EFFECT_Revolver01.bmp
+LARE,                       ピストル
+GAN01-SS-WB,                バズーカ Weapon\EFFECT_Bazooka02.bmp
+GAN01-SS-WBP,               バズーカ Weapon\EFFECT_Bazooka02.bmp
+BZ-BROCKEN,                 バズーカ Weapon\EFFECT_Bazooka01.bmp
+GAN02-NSS-WBS(準備),　      バズーカ Weapon\EFFECT_BeamLauncher01.bmp 40
+GAN02-NSS-WBS(攻撃),        ショットガン Weapon\EFFECT_BeamLauncher01.bmp 40 Bazooka.wav
+GAN02-NSS-WBS(命中),　      連続爆発 3
+SAKUNAMI,                   対戦車ライフル Weapon\EFFECT_NewAssaultRifle02.bmp
+SAKUNAMI(命中),             大爆発
+WADOU,                      対戦車ライフル Weapon\EFFECT_NewAssaultRifle02.bmp
+WADOU(命中),                大爆発
+SAKUNAMI(命中),             大爆発
+NUKABIRA,                   対戦車ライフル Weapon\EFFECT_NewAssaultRifle02.bmp
+NUKABIRA(命中),             大爆発
+GRA-TRAVERS,                対戦車ライフル Weapon\EFFECT_BeamLauncher01.bmp
+GRA-TRAVERS(命中),          大爆発
+RG-01-PITONE,               レールガン Weapon\EFFECT_AntiTankRifle01.bmp
+RG-03-KAPTEYN,              レールガン
+067ANLR,                    レーザーガン レッド Weapon\EFFECT_SniperRifle02.bmp
+LR01-ANTARES,               レーザーガン ライトブルー Weapon\EFFECT_LightBulletGun01.bmp
+LR02-ALTAIR,                レーザーガン ライトブルー Weapon\EFFECT_BeamRifle01.bmp
+LR04-AVIOR,                 レーザーガン ライトブルー Weapon\EFFECT_SniperRifle02.bmp
+ER-R500,                    レーザーガン オレンジ Weapon\EFFECT_Estoc01.bmp
+ER-O200,                    レーザーガン オレンジ Weapon\EFFECT_Lance01.bmp
+ER-O705,                    ビームライフル オレンジ Weapon\EFFECT_RailGun01.bmp 40
+HLR01-CANOPUS,              ビームランチャー ライトブルー Weapon\EFFECT_BusterRifle01.bmp 40
+HLR71-VEGA,                 ビームランチャー ライトブルー Weapon\EFFECT_BusterBeamLauncher01.bmp 40
+HLR09-BECRUX,               ダブルビームランチャー ライトブルー Weapon\EFFECT_FireLauncher01.bmp 40
+PG02-DENEB,                 スラッシュビームガン ライトブルー Weapon\EFFECT_SuperCannon01.bmp 32
+PG03-SPICA,                 スラッシュビームガン ライトブルー Weapon\EFFECT_LightBulletGun01.bmp 32
+EG-O703,                    ビームショットガン オレンジ Weapon\EFFECT_SFLauncher01.bmp 32
+FLUORITE,                   ビームライフル ホワイト
+FLUORITE(命中),              大電撃 ホワイト
+SAMSARA,                    ビームライフル ホワイト Weapon\EFFECT_RailGun01.bmp
+SAMSARA(命中),              大電撃 ライトブルー
+SOLO,                       ビームライフル ホワイト Weapon\EFFECT_SuperCannon01.bmp
+SOLO(命中),                 大電撃 ライトブルー
+ARSENIC,                    バスタービームライフル 緑 Weapon\EFFECT_SFLauncher01.bmp 32
+ARSENIC(命中),              超爆発 緑
+ARSINE,                     ビームライフル 緑 Weapon\EFFECT_SuperCannon01.bmp
+ARSINE(命中),               爆発  緑
+AXIS,                       バスタービームライフル 緑 Weapon\EFFECT_FireLauncher01.bmp
+AXIS(命中),                 超爆発 緑
+MUDAN,                      大刺突
+KIKU,                       大刺突
+GAN01-SS-WD,                打突
+LB-ELTANIN,                 エナジーブレード ライトブルー
+EB-R500,                    エナジーブレード オレンジ
+EB-O305,                    エナジーブレード オレンジ
+EB-O600,                    エナジーカッター オレンジ
+EB-O700,                    エナジーカッター オレンジ
+02-DRAGONSLAYER,            エナジーカッター パープル
+07-MOONLIGHT,               エナジーブレード パープル      
+KB-O004(攻撃),              打突
+KB-O004(命中),              超爆発 緑
+NIOBRARAO03,                小型ミサイル 4
+ALLEGHENY01,                小型ミサイル 8
+CPH-48,                     グレネード
+GAN01-SS-AW,                キャノン砲 2
+RAIDEN-AW,                  大キャノン砲 2
+RAIDEN-AW(命中),            超爆発
+SAUTEES-ARMS,               ベアリング
+EKLALH-ARMS,                機関砲
+A12-OPS,                    ２連中ビーム ライトブルー
+ARGYROS/XA,                 ２連中ビーム 緑
+ARGYROS/XA(命中),           超爆発 緑
+MADNESS/XA,                 ２連中ビーム 緑
+MADNESS/XA(命中),           超爆発 緑
+A06-AURORA,                 ミサイル 8
+PLATTE01,                   ミサイル 8
+MUSSELSHELL,                ミサイル 4
+WHEELING01,                 ミサイル 8
+VERMILLION01,               ミサイル 4 速
+POPLAR01,                   ミサイル 4 遅
+063ANPM,                    ミサイル 3 遅
+OSAGE03,                    ホーミングミサイル 3
+WHEELING03,                 ホーミングミサイル8
+CHEYENNE01(攻撃),           ミサイル;小型ミサイル 2
+CHEYENNE01(命中),           連続爆発
+CHEYENNE02(攻撃),           ミサイル;小型ミサイル 4
+CHEYENNE02(命中),           連続爆発
+SALINE05(攻撃),             ミサイル;小型ミサイル 4
+SALINE05(命中),             連続爆発
+061ANCM(攻撃),              ミサイル;小型ミサイル 4
+061ANCM(命中),              連続爆発
+DEARBORN02,                 ミサイル 4
+DEARBORN03,                 ミサイル 6
+BIGSIOUX(攻撃),　           スーパーミサイル 1 遅
+BIGSIOUX(命中),　           超爆発
+BISMUTH(攻撃),　            スーパーミサイル 1 遅
+BISMUTH(命中),　            超爆発 緑
+ZINC(攻撃),                 ＩＣＢＭ 1 遅
+ZINC(命中),                 超爆発 緑
+MP-O200,                    小型ミサイル 4
+MP-O200I,                   小型ミサイル 4
+MP-O203,                    小型ミサイル 4
+MP-O700,                    小型ミサイル 4
+MP-O601JC,                  ミサイル 2
+MP-O901,                    ホーミングミサイル
+BM03-MEDUSA,                ミサイル
+BM05-LAMIA,                 ミサイル 16
+CP-48,                      グレネード
+CP-49,                      グレネード 3
+CP-51,                      グレネード 5
+BVS-50,                     グレネード
+049ANSC,                    キャノン砲
+050ANSC,                    キャノン砲
+061ANSC,                    キャノン砲
+CG-R500,                    内蔵チェーンガン 黄
+XCG-B050,                   内蔵チェーンガン 黄
+GAN01-SS-GC,                マシンキャノン
+KAMAL,                      ベアリング
+OGOTO(攻撃),　              キャノン砲
+OGOTO(命中),　 　           大爆発
+YAMAGA(攻撃),　             大キャノン砲
+YAMAGA(命中),　 　          超爆発 
+GRB-TRAVERS(攻撃),　        キャノン砲
+GRB-TRAVERS(命中),　 　     大爆発
+SAPLA(攻撃),　              キャノン砲
+SAPLA(命中),　 　           大爆発
+OIGAMI(攻撃),　             大キャノン砲;ＭＡＰ超爆発
+RC01-O300,                  レールキャノン
+EC-O300,                    小ビーム オレンジ
+EC-O307AB,                  拡散ビーム オレンジ
+HLC02-SIRIUS,               中ビーム ライトブルー
+HLC09-ACRUX,                ２連中ビーム ライトブルー
+PC01-GEMMA,                 スラッシュビーム ライトブルー
+SULTAN,                     中ビーム ホワイト
+SULTAN(命中),               大電撃 ライトブルー
+TRESOR,                     中ビーム ホワイト
+TRESOR(命中),               大電撃 ライトブルー
+ARENKON(攻撃),              超ビーム 緑
+ARENKON(命中),              超爆発 緑
+INSOLENCE(攻撃),            超ビーム 緑
+INSOLENCE(命中),            超爆発 緑
+LETHALDOSE,                 ＭＡＰビーム 緑
+BELTCREEK03,                ミサイル 4
+NEMAHA01,                   ミサイル 3
+MUSSELSHELL<肩>,            ミサイル 8
+MUSKINGUM02(攻撃),          ミサイル 4;ミサイル 4;ミサイル 4;ミサイル 4
+MUSKINGUM02(命中),          連続爆発;連続爆発;連続爆発;連続爆発
+061ANRM(攻撃),              ミサイル;小型ミサイル 2
+061ANRM(命中),              連続爆発
+LALIGURAS,                  ベアリング
+SM01-SCYLLA,                ミサイル 4
+FSS-53,                     グレネード
+09-FLICKER(攻撃),           グレネード
+09-FLICKER(命中),           フラッシュ
+阻止(GALLATIO02),           @戦闘アニメ_キャノン砲攻撃 4 相手ユニットＩＤ AntiAirMissile.wav
+阻止(GUYANDOTTE04),         @戦闘アニメ_キャノン砲攻撃 4 相手ユニットＩＤ AntiAirMissile.wav
+阻止(051ANAM),              @戦闘アニメ_キャノン砲攻撃 4 相手ユニットＩＤ AntiAirMissile.wav
+阻止(YASMIN),               @戦闘アニメ_キャノン砲攻撃 4 相手ユニットＩＤ AntiAirMissile.wav
+047ANEM(攻撃),              実弾発射 Weapon\EFFECT_Shuriken01.bmp
+051ANEM(攻撃),              実弾発射 Weapon\EFFECT_Shuriken01.bmp
+AR-O401(攻撃),              実弾発射 Weapon\EFFECT_Shuriken01.bmp
+ADDICT,                     光球放出 緑
+回避,                       緊急テレポート Swing.wav " "
+回避,                       回避 速
+チャージ,                   粒子集中 緑
+ＯＢ,                       粒子集中 緑;Car(Pass).wav
+ＯＢ(ＷＧ),                 粒子集中 緑;@戦闘アニメ_光の翼攻撃 白 Car(Pass).wav 二刀流
+アサルトアーマー(準備),     地面衝撃
+アサルトアーマー(攻撃),     ＭＡＰフラッシュ 緑 HyperExplode.wav
+アサルトアーマー(命中),     ダメージ 緑
+
+００２－Ｂ
+コジマ粒子砲,               レーザーマシンガン Weapon\EFFECT_RailGun01.bmp ライトブルー
+コジマ粒子砲<Ｃ>,           ビームランチャー Weapon\EFFECT_RailGun01.bmp ライトブルー
+ロングブレード(準備),       エナジーブレード ライトブルー
+ロングブレード(攻撃),       エナジーブレード突撃 ライトブルー
+ロングブレード(命中),       エナジーブレード突撃 ライトブルー
+脱出,                       @戦闘アニメ_エナジーブレード突撃攻撃 ライトブルー 相手ユニットＩＤ;3;@戦闘アニメ_大爆発命中
+回避,                       回避 速
+		
+００－ＡＲＥＴＨＡ
+ガトリングガン,             大型ガトリング
+アサルトアーマー(準備),     地面衝撃
+アサルトアーマー(攻撃),     ＭＡＰフラッシュ 白 HyperExplode.wav
+アサルトアーマー(命中),     ダメージ 白
+コジマ粒子砲,               レーザーマシンガン Weapon\EFFECT_RailGun01.bmp ライトブルー
+コジマ粒子砲<Ｃ>,           ビームランチャー Weapon\EFFECT_RailGun01.bmp ライトブルー
+破壊,                       光球放出 緑
+脱出,                       @戦闘アニメ_ＭＡＰフラッシュ攻撃 白 HyperExplode.wav
+
+
+マッスル・トレーサー
+マシンガン,	          バルカン
+垂直ミサイル,             ホーミングミサイル
+ロングレンジハイレーザー, 中ビーム ライトブルー
+ライトガトリングガン,     内蔵ガトリング
+レーザーキャノン,         ２連中ビーム ライトブルー
+ミサイル,                 ミサイル 2
+ショットガン,             ベアリング
+ライトマシンガン,         バルカン
+小型ミサイル,             小型ミサイル 4
+ロケット,                 グレネード 4
+ヘビーマシンガン,         重機関砲
+キャノン,                 キャノン砲
+ガトリングガン,           内蔵ガトリング
+ロングレンジキャノン,     大キャノン砲
+旧式ライフル,             キャノン砲
+旧式ロケット,             グレネード 2
+スナイパーキャノン,       キャノン砲
+自動追尾ミサイル,         ホーミングミサイル
+ハイレーザー,             中ビーム ライトブルー
+ヘビーキャノン,           キャノン砲 3
+レーザー,                 中ビーム ライトブルー
+大型コジマ粒子砲,         大ビーム 緑
+
+   
+
+
+ＡＣ(４)
+スナイパーライフル,       ライフル Weapon\EFFECT_SniperRifle02.bmp
+スナイパーキャノン,       キャノン砲
+ライフル,                 ライフル
+マシンガン,               機関砲
+キャノン,                 キャノン砲 2
+ガトリングキャノン,       ガトリング
+ミサイル,                 小型ミサイル 4
+キャノン,                 対戦車ライフル Weapon\EFFECT_Bazooka01.bmp
+垂直ミサイル,             ホーミングミサイル
+グレネード,               ロケットランチャー Weapon\EFFECT_Bazooka01.bmp
+レーザーライフル,         レーザーガン ライトブルー Weapon\EFFECT_Rifle02.bmp
+ショットガン,             ショットガン
+パイルバンカー,           刺突
+ロケット,                 グレネード 2
+ハイレーザー,             ビームライフル オレンジ
+アサルトライフル(準備),   ライフル
+アサルトライフル(攻撃),   ライフル;2;ライフル
+アサルトライフル(命中),   ダメージ
+ブレード,                 エナジーブレード オレンジ
+

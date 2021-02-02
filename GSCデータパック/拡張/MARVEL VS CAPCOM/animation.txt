@@ -1,0 +1,1721 @@
+# ローカル戦闘アニメを使用しているキャラは末尾に使用ラベルをコメントしてあります。
+
+# 汎用画像以外を使用しているキャラ
+#
+# ウルヴァリン二種共通 …… EFFECT_XMEN_WolverinesClaw(Ready).bmp
+# ウルヴァリン(MVC) …… EFFECT_XMEN_WolverinesClaw.bmp
+# アダマンチウムを失ったウルヴァリン(MVC) …… EFFECT_XMEN_WolverinesClaw(Bone).bmp
+# マロウ(MVC) …… EFFECT_XMEN_BoneDagger.bmp
+# キャプテンアメリカ(MVC) …… EFFECT_MSH_CaptainsShield.bmp (非登録画像パック)
+# マイティ・ソー(MVC) …… EFFECT_MSH_Mjolnir.bmp (非登録画像パック)
+# シーハルク(MVC) …… M_SportsCar.bmp (非登録画像パック「汎用」ユニット)
+# キャプテンコマンドー(MVC) …… CCM_ShoU.bmp CCM_JennetyU.bmp CCM_HooverU.bmp (Unitフォルダに入れてください)
+# ジン＝サオトメ(MVC) ブロディアバルカン …… CBOTS_Brodia.bmp (サイバーボッツより。Unitフォルダに入れてください)
+# ソンソン(MVC) …… EFFECT_STF_KozarumaiU.bmp EFFECT_STF_SonSon(E)U.bmp (丸投げ画像パック「ストリートファイターシリーズ」)
+
+
+
+サイクロップス(MVC)
+オプティックボルト(攻撃), 実弾発射 Effect\EFFECT_Boost(Pink)01.bmp Missile.wav
+オプティックボルト(命中), 気弾 ピンク Whip.wav
+ラピッドパンチ(攻撃), 格闘 -.wav;打突;打突;なぎ払い
+ラピッドパンチ(命中), ダメージ 連続;@戦闘アニメ_格闘攻撃 Explode(Small).wav;打撃;打撃;_
+	@戦闘アニメ_実弾発射攻撃 Effect\EFFECT_Boost(Pink)01.bmp Missile.wav 発光;気弾 ピンク Whip.wav
+サイクロンキック(攻撃), MVC_バックジャンプ 正 速;MVC_背向け 1 -.wav;なぎ払い
+サイクロンキック(命中), 打撃;打撃
+ライジングアッパーカット(攻撃), MVC_バックジャンプ アッパー 正 昇龍 速;MVC_バックジャンプ アッパー 正 高 速 小移動
+ライジングアッパーカット(命中), アッパー;アッパー;アッパー;_
+	@戦闘アニメ_実弾発射攻撃 Effect\EFFECT_Boost(Pink)01.bmp Missile.wav 発光;気弾 ピンク Whip.wav
+ＲネックブリーカーＤ(攻撃), タックル
+ＲネックブリーカーＤ(命中), スーパーパンチ BreakOff.wav;透明化 相手ユニットＩＤ;_
+	MVC_バックジャンプ 正 速 FlyBy(High).wav;MVC_踏みつけ ネックブリーカー Warship.wav;_
+	透明化 相手ユニットＩＤ 解除 反映
+ＲネックブリーカーＤ(解説), $(ユニット)はライジングネックブリーカードロップで攻撃をかけた。
+オプティックブラスト, 中ビーム チャージなし
+Ｓオプティックブラスト(攻撃), 発射連続描画 Beam\EFFECT_MBeam(Pink)[01-03].bmp 64 2 1 発光 Charge.wav;_
+	LaserGun.wav;MVC_回転連続描画 Beam\EFFECT_MBeam(Pink)[03-05].bmp 64 0.9 1 前面 角度=45 発射;_
+	MVC_回転連続描画 Beam\EFFECT_MBeam(Pink)[03-05].bmp 64 0.9 1 前面 発光 角度=30 発射;_
+	MVC_回転連続描画 Beam\EFFECT_MBeam(Pink)[03-05].bmp 64 0.9 1 前面 発光 角度=15 発射;_
+	MVC_回転連続描画 Beam\EFFECT_MBeam(Pink)[03-05].bmp 64 0.9 1 前面 発光 発射;_
+	MVC_回転連続描画 Beam\EFFECT_MBeam(Pink)[03-05].bmp 64 0.9 3 前面 発光 角度=-30 発射 保持
+Ｓオプティックブラスト(命中), 中ビーム LaserGun.wav ランダム方向;中ビーム LaserGun.wav ランダム方向;_
+	中ビーム LaserGun.wav ランダム方向;中ビーム LaserGun.wav ランダム方向
+Ｓオプティックブラスト(解説), $(ユニット)はスーパーオプティックブラストで攻撃をかけた。
+メガオプティックブラスト, 巨大ビーム
+
+# MVC_バックジャンプ、MVC_背向け、MVC_踏みつけ、MVC_回転連続描画
+
+
+ウルヴァリン(MVC)
+ドリルクロー(準備), -
+ドリルクロー(攻撃), 0.1;「ドリルクロー！」;透明化 対象ユニットＩＤ;発射連続描画 Spin\EFFECT_WhirlWind(Yellow)[01-03].bmp 64 1 1 Swing.wav;_
+	MVC_倒れ実弾発射 ("Unit\" & Info("ユニット",対象ユニットＩＤ,"グラフィック")) 左右反転 速 Swing.wav;Swing.wav
+ドリルクロー(命中), ロケットパンチ ("Unit\" & Info("ユニット",対象ユニットＩＤ,"グラフィック")) Stab.wav;_
+	透明化 対象ユニットＩＤ 解除 反映
+バーサーカースラッシュ(攻撃), 0.1;「バーサーカースラッシュ！」;突く武器突撃 -.bmp -.wav;振り上げ大斬撃
+バーサーカースラッシュ(命中), 振り上げ
+トルネードクロー(攻撃), 0.1;「トルネードクロー！」;MVC_バックジャンプ アッパー 正 回転 旋回音 Swing(2).wav
+トルネードクロー(命中), 連続なぎ払い Slash.wav
+バーサーカーバレッジ(攻撃), 0.1;「バーサーカーバレッジ！」;斬撃突撃
+バーサーカーバレッジ(命中), 瞬間変形 Anime\Common\EFFECT_AccidentalImage01.bmp 対象ユニットＩＤ;爪撃 二刀流;_
+	爪撃 二刀流;瞬間変形 対象ユニットＩＤ;爪撃 二刀流
+バーサーカーバレッジＸ(攻撃), 斬撃突撃
+バーサーカーバレッジＸ(命中), 瞬間変形 Anime\Common\EFFECT_AccidentalImage01.bmp 対象ユニットＩＤ;_
+	MVC_二重連続描画 Hit\EFFECT_ClawSlashHit[01-04].bmp 40 Hit\EFFECT_ClawSlashHit[01-04].bmp 40 2 4 _
+	左右反転２ Slash.wav 保持 相手ユニットＩＤ;瞬間変形 対象ユニットＩＤ;超打
+フェイタルクロー(攻撃), 0.1;「フェイタルクロー！」;MVC_バックジャンプ 垂直 速 -.wav;_
+	連続描画 \Action\EFFECT_Flair[02-07].bmp 60 2 4 背面 Slash.wav 発光 保持
+フェイタルクロー(命中), ビームサーベル ブルー
+ウェポンＸ(準備), 振る武器変形 EFFECT_XMEN_WolverinesClaw(Ready).bmp 32 EFFECT_XMEN_WolverinesClaw.bmp 32 Reload(5).wav 二刀流
+ウェポンＸ(攻撃), 斬撃突撃
+ウェポンＸ(命中), 連打;爪撃;ダメージ;爪撃;ダメージ 連続;MVC_逆回転 高速 1 正 -.wav;_
+	唐竹割り;スーパータックル イエロー -.wav;透明化 対象ユニットＩＤ 反映;_
+	Slash.wav;連続描画 Action\EFFECT_Flair[01-04].bmp 48 2 1 -.wav 相手ユニットＩＤ 前面 保持;_
+	5;透明化 対象ユニットＩＤ 解除 反映
+バーサーカーチャージ, 分身 Sword.wav バーサーカーチャージ
+
+# MVC_バックジャンプ、MVC_逆回転、MVC_倒れ実弾発射、MVC_二重連続描画
+
+
+アダマンチウムを失ったウルヴァリン(MVC)
+クロー, 振る武器 EFFECT_XMEN_WolverinesClaw(Bone).bmp
+クロー(命中), 爪撃 オレンジ
+ドリルクロー(準備), -
+ドリルクロー(攻撃), 0.1;「ドリルクロー！」;透明化 対象ユニットＩＤ;発射連続描画 Spin\EFFECT_WhirlWind(Yellow)[01-03].bmp 64 1 1 Swing.wav;_
+	MVC_倒れ実弾発射 ("Unit\" & Info("ユニット",対象ユニットＩＤ,"グラフィック")) 左右反転 速 Swing.wav;Swing.wav
+ドリルクロー(命中), ロケットパンチ ("Unit\" & Info("ユニット",対象ユニットＩＤ,"グラフィック")) Stab.wav;_
+	透明化 対象ユニットＩＤ 解除 反映
+トルネードクロー(攻撃), 0.1;「トルネードクロー！」;MVC_バックジャンプ アッパー 正 回転 旋回音 Swing(2).wav
+トルネードクロー(命中), 連続なぎ払い Slash.wav
+バーサーカーバレッジ(攻撃), 0.1;「バーサーカーバレッジ！」;斬撃突撃
+バーサーカーバレッジ(命中), 瞬間変形 Anime\Common\EFFECT_AccidentalImage01.bmp 対象ユニットＩＤ;_
+	爪撃 オレンジ 二刀流;瞬間変形 対象ユニットＩＤ;爪撃 オレンジ 二刀流
+バーサーカーバレッジＸ(攻撃), 斬撃突撃
+バーサーカーバレッジＸ(命中), 瞬間変形 Anime\Common\EFFECT_AccidentalImage01.bmp 対象ユニットＩＤ;_
+	MVC_二重連続描画 Hit\EFFECT_ClawSlashHit(Orange)[01-04].bmp 40 Hit\EFFECT_ClawSlashHit(Orange)[01-04].bmp 40 2 4 _
+	左右反転２ Slash.wav 保持 相手ユニットＩＤ;瞬間変形 対象ユニットＩＤ;超打
+ウェポンＸ(準備), 振る武器変形 EFFECT_XMEN_WolverinesClaw(Ready).bmp 32 _
+	EFFECT_XMEN_WolverinesClaw(Bone).bmp 32 Reload(5).wav 二刀流
+ウェポンＸ(攻撃), 斬撃突撃
+ウェポンＸ(命中), 連打;爪撃 オレンジ;ダメージ;爪撃 オレンジ;MVC_逆回転 高速 1 正 -.wav;_
+	唐竹割り オレンジ;スーパータックル イエロー -.wav;透明化 対象ユニットＩＤ 反映;_
+	Slash.wav;連続描画 Action\EFFECT_Flair[01-04].bmp 48 2 1 -.wav 相手ユニットＩＤ 前面 保持;_
+	5;透明化 対象ユニットＩＤ 解除 反映
+
+
+ジーン＝グレイ(MVC)
+サイブラスト(攻撃), 気斬 ピンク Missile.wav
+サイブラスト(命中), 飛沫 Glass.wav
+テレキネシスグリップ(攻撃), ショックビーム ピンク BeamSaber.wav
+テレキネシスグリップ(命中), BeamSaber.wav;_
+	連続描画 Explode\EFFECT_BigExplodeA(Pink)[02-03].bmp 60 2 2 前面 発光 相手ユニットＩＤ
+テレキネシスショット(攻撃), 火炎放射 ピンク BeamSaber.wav
+テレキネシスショット(命中), 超打
+サイフィールド, BeamSaber.wav;_
+	連続描画 Explode\EFFECT_BigExplodeA(Pink)[02-03].bmp 60 2 2 前面 発光 相手ユニットＩＤ
+
+汎用
+攻撃無効化(サイシールド), 決め画像 Bullet\EFFECT_STG_Bullet(Pink)03.bmp 前面 BeamSaber.wav;シールド防御 -.bmp 別名=サイシールド
+
+
+フェニックス(MVC)
+サイブラスト(攻撃), 気斬 ピンク Missile.wav
+サイブラスト(命中), 飛沫 Glass.wav
+ＴＫトラップ(準備), 決め画像 Magic\EFFECT_MagicEmblem(Orange)01.bmp BeamCoat.wav 前面 対象ユニットＩＤ
+ＴＫトラップ(攻撃), 手持ち発射 Magic\EFFECT_MagicEmblem(Orange)01.bmp 28 対象ユニットＩＤ _
+	Effect\EFFECT_FireBird(Orange).bmp 24
+ＴＫトラップ(命中), 炎
+ＴＫショット(攻撃), 実弾発射 Impact\EFFECT_ImpactBall(Orange)02.bmp 28 Beam2.wav 発光
+ＴＫショット(命中), 炎
+ＴＫオーバードライブ(攻撃), 突く武器突撃 Effect\EFFECT_Boost(Orange)01.bmp 48
+ＴＫオーバードライブ(命中), 透明化 対象ユニットＩＤ 反映;_
+	MVC_実弾貫通 Effect\EFFECT_Boost(Orange)01.bmp 48 Explode(Small).wav;炎 -.wav
+フェニックスレイジ(攻撃), 決め画像 Effect\EFFECT_FireBird(Orange).bmp 128 Breath.wav 対象ユニットＩＤ;_
+	0.1;「フェニックス インフェルノ！」;実弾発射 Effect\EFFECT_FireBird(Orange).bmp 128 反動 AntiAirMissile.wav
+フェニックスレイジ(命中), MVC_実弾貫通 Effect\EFFECT_FireBird(Orange).bmp 128 Breath.wav;炎 -.wav
+ヒーリングフィールド, 決め画像 Barrier\EFFECT_Barrier(Orange)04.bmp 64 背面 BeamSaber(4).wav
+
+# MVC_実弾貫通
+
+
+ダークフェニックス(MVC)
+フェニックスフェザー(攻撃), MVC_拡散実弾 -.bmp _
+	Bullet\EFFECT_STG_Bullet(Orange)06.bmp Bullet\EFFECT_STG_Bullet(Orange)06.bmp _
+	Bullet\EFFECT_STG_Bullet(Orange)06.bmp -.bmp 24 Swing(2).wav
+フェニックスフェザー(命中), Fire.wav;連打 赤 -.wav
+サイブラスト(攻撃), 気斬 ピンク Missile.wav
+サイブラスト(命中), 飛沫 Glass.wav
+ＴＫトラップ(準備), 決め画像 Magic\EFFECT_MagicEmblem(Orange)01.bmp BeamCoat.wav 前面 対象ユニットＩＤ
+ＴＫトラップ(攻撃), 手持ち発射 Magic\EFFECT_MagicEmblem(Orange)01.bmp 28 対象ユニットＩＤ _
+	Effect\EFFECT_FireBird(Orange).bmp 32
+ＴＫトラップ(命中), 炎
+ＴＫショット(攻撃), 同時ホーミング弾 _
+	Impact\EFFECT_ImpactBall(Orange)02.bmp 28 個数=2 Beam2.wav 速 発光
+ＴＫショット(命中), 炎
+ＴＫオーバードライブ(攻撃), 突く武器突撃 Effect\EFFECT_Boost(Orange)03.bmp 64
+ＴＫオーバードライブ(命中), 強打;炎 -.wav
+フェニックスレイジ(攻撃), 決め画像 Effect\EFFECT_FireBird(Orange).bmp 128 Breath.wav 対象ユニットＩＤ;_
+	0.1;「死ね！！」;実弾発射 Effect\EFFECT_FireBird(Orange).bmp 128 反動 AntiAirMissile.wav
+フェニックスレイジ(命中), MVC_実弾貫通 Effect\EFFECT_FireBird(Orange).bmp 128 Breath.wav;炎 -.wav
+ヒーリングフィールド, 決め画像 Barrier\EFFECT_Barrier(Orange)04.bmp 64 背面 BeamSaber(4).wav
+
+# MVC_実弾貫通、MVC_拡散実弾
+
+
+ストーム(MVC)
+ライトニングスフィア, 球電
+ライトニングアタック(攻撃), 突く武器突撃 Common\EFFECT_LightningBall03.bmp Whiz.wav
+ライトニングアタック(命中), 強打;@戦闘アニメ_突く武器突撃攻撃 Common\EFFECT_LightningBall03.bmp Whiz.wav;強打
+ワールウインド(準備), -
+ワールウインド, 竜巻
+ダブルタイフーン(攻撃), Storm.wav;連続描画 Wind\EFFECT_CU_Tornado(White)[02-03].bmp 60 1 6 前面 相手ユニットＩＤ
+ダブルタイフーン(命中), MVC_バックジャンプ 垂直 相手ユニットＩＤ 上下反転 高 遅 回転 Storm.wav;打撃 -.wav
+ライトニングストーム(攻撃), MVC_背向け 2 -.wav;2;_
+	連続描画 Lightning\EFFECT_CU_HyperElectric(Yellow)[01-03].bmp 160 2 3 背面 Thunder.wav 発光
+ライトニングストーム(命中), 大電撃
+アイスストーム(攻撃), MVC_バックジャンプ 小移動 遅 -.wav;2;ＭＡＰ吹雪
+アイスストーム(命中), 吹雪 Punch(4).wav
+エレメンタルレイジ(攻撃), 大氷柱 Ice.wav
+エレメンタルレイジ(命中), 0.1;「ガイアの力において……」;変形 Anime\Common\EFFECT_Icicle04.bmp 相手ユニットＩＤ;_
+	周囲回転 Common\EFFECT_Tornado(White)01.bmp 3 対象ユニットＩＤ Storm.wav;_
+	0.1;「ガイアの力において……風の力において！！」;_
+	MVC_回転連続描画 Spin\EFFECT_WhirlWind(White)[04-06].bmp 64 1 6 相手ユニットＩＤ 角度=90 FightHit(1).wav;_
+	瞬間変形 相手ユニットＩＤ;飛沫 白
+
+# MVC_バックジャンプ、MVC_背向け、MVC_回転連続描画
+
+
+アイスマン(MVC)
+フリーズ(攻撃), 格闘
+フリーズ(命中), 立ち固め 1;ユニット変色 白 Block.wav
+アイスフィスト, 殴打武器 Effect\EFFECT_TelePort(White)01.bmp
+アイスビーム, 中ビーム ホワイト Charge(Silent).wav
+アイスビーム(命中), 中ビーム ホワイト Charge(Silent).wav;_
+	MVC_二重連続描画 Requid\EFFECT_BloodHit(White)[01-03].bmp 36 Requid\EFFECT_BloodHit(White)[01-03].bmp 36 1 1 _
+	相手ユニットＩＤ 左右反転 上辺 下辺２ 保持;3
+アイスアバランチ(攻撃), 氷塊落下 白
+アイスアバランチ(命中), 強打
+アークティックアタック, ベアリング FastGun.wav
+シールド防御(アイスシールド), マント ホワイト BeamCoat.wav アイスシールド
+ジャンプ(アイススライド), @戦闘アニメ_突く武器突撃攻撃 Bullet\EFFECT_GroundCutter(White)01.bmp Whiz.wav
+
+# MVC_二重連続描画
+
+
+サイロック(MVC)
+体術, 格闘
+サイブラスト(攻撃), 気斬 ピンク Missile.wav
+サイブラスト(命中), 飛沫 Glass.wav
+サイキックナイフ(準備), エナジーカッター
+サイキックナイフ(攻撃), 打突
+サイキックナイフ(命中), 大放電 ピンク Glass.wav
+サイブレイドスピン(攻撃), タックル -.wav;連続なぎ払い
+サイブレイドスピン(命中), 横大斬撃
+胡蝶隠れ(攻撃), 桜吹雪 対象ユニットＩＤ;８ＷＡＹ射出;吹雪 Sharara.wav ピンク
+胡蝶隠れ(命中), ダメージ 連続
+サイメールシュトルム(攻撃), 連続描画 Impact\EFFECT_GrandEffect(Pink)[01-03].bmp 80 1 1;_
+	MVC_バックジャンプ 垂直 高 遅 回転 旋回音 Swing(2).wav
+サイメールシュトルム(命中), MVC_アッパー連打 Slash.wav
+サイスラスト(攻撃), スーパーパンチ ピンク
+サイスラスト(命中), スーパーパンチ ピンク FightHit(1).wav;打撃 FightHit(1).wav;_
+	スーパーパンチ ピンク FightHit(1).wav;打撃 FightHit(1).wav
+分身(ニンジュツ), 防御テレポート１ ニンジュツ ピンク BeamShot.wav 
+
+# MVC_バックジャンプ、MVC_アッパー連打
+
+
+コロッサス(MVC)
+パワータックル, タックル
+ジャイアントスイング(攻撃), 突く武器突撃 Hand\EFFECT_Punch(White)01.bmp Cannon.wav
+ジャイアントスイング(命中), ジャイアントスイング
+スーパーダイブ, スーパーダイブ
+スーパーアーマー, ユニット変色 白 Glass.wav
+ファストボールスペシャル(攻撃),  透明化 UnitID(ウルヴァリン(MVC)) 反映;_
+	@戦闘アニメ_振る武器準備 ("Unit\" & Info("ユニット",UnitID(ウルヴァリン(MVC)),"グラフィック"));_
+	大斬撃;MVC_倒れ実弾発射 ("Unit\" & Info("ユニット",UnitID(ウルヴァリン(MVC)),"グラフィック"))
+ファストボールスペシャル(命中), 斬撃 二刀流
+
+# MVC_倒れ実弾発射
+
+
+ガンビット(MVC)
+チャージ(攻撃), 格闘
+チャージ(命中), @必殺光線命中共通
+ケイジャンスラッシュ, 棒
+ケイジャンスラッシュ(攻撃), 棒
+ケイジャンスラッシュ(攻撃), 振り上げ;振り下ろし;なぎ払い
+ケイジャンスラッシュ(命中), 打撃
+ケイジャンスラッシュ(命中), 振り上げ Punch.wav;振り下ろし Punch.wav;なぎ払い Punch.wav
+ケイジャンストライク(攻撃), MVC_スーパーキック改 オレンジ
+ケイジャンストライク(攻撃), MVC_バックジャンプ;急降下
+ケイジャンストライク(命中), 強打
+キネティックカード(攻撃), 斬撃;MVC_倒れ実弾発射 Card\EFFECT_Card02.bmp bow.wav
+キネティックカード(攻撃), 振り上げ;MVC_倒れ実弾発射 Card\EFFECT_Card03.bmp bow.wav
+キネティックカード(攻撃), なぎ払い;MVC_倒れ実弾発射 Card\EFFECT_Card04.bmp bow.wav
+キネティックカード(攻撃), 斬撃;MVC_倒れ実弾発射 Card\EFFECT_Card05.bmp bow.wav
+キネティックカード(命中), 刺突 -.wav;小爆発
+Ｃエクスプロージョン(攻撃), MVC_バックジャンプ;MVC_逆回転 高速 1 -.wav;_
+	MVC_回転連続描画 Beam\EFFECT_MBeamHit(Pink)[01-03].bmp 100 2 1 _
+	下辺 方向判定 AntiAirMissile.wav 角度=60;_
+	MVC_回転連続描画 Beam\EFFECT_MBeamHit(Pink)[01-03].bmp 100 2 1 _
+	下辺 方向判定 AntiAirMissile.wav 角度=60 中間;_
+		MVC_回転連続描画 Beam\EFFECT_MBeamHit(Pink)[01-03].bmp 100 2 1 _
+	下辺 方向判定 AntiAirMissile.wav 角度=60 相手ユニットＩＤ
+Ｃエクスプロージョン(命中), 強打 Explode(Nuclear).wav;_
+	MVC_回転連続描画 Beam\EFFECT_MBeamHit(Pink)[01-03].bmp 100 2 1 _
+	下辺 方向判定 -.wav 角度=60 相手ユニットＩＤ;強打 Explode(Nuclear).wav
+Ｃエクスプロージョン(解説), $(ユニット)はケイジャンエクスプロージョンで攻撃をかけた。
+ロイヤルフラッシュ(準備), 振る武器 Card\EFFECT_Card01.bmp Charge(high).wav 二刀流
+ロイヤルフラッシュ(攻撃), MVC_二重連続描画 Attack\EFFECT_Swing[01-05].bmp 48 _
+	Attack\EFFECT_Swing[01-05].bmp 48 1.5 3 前面 ランダム ランダム２ Swing.wav 左右反転;_
+	実弾発射 LightWeapon\EFFECT_LightArrow(Pink)04.bmp Swing.wav 発光 速 残像;_
+	実弾発射 LightWeapon\EFFECT_LightArrow(Pink)04.bmp Swing.wav 発光 速 残像;_
+	実弾発射 LightWeapon\EFFECT_LightArrow(Pink)04.bmp Swing.wav 発光 速 残像;_
+	実弾発射 LightWeapon\EFFECT_LightArrow(Pink)04.bmp Swing.wav 発光 速 残像
+ロイヤルフラッシュ(命中), 光矢連射 ピンク Explode.wav;連続爆発
+ロイヤルフラッシュ(とどめ), @戦闘アニメ_小爆発命中
+
+# MVC_バックジャンプ、MVC_逆回転、MVC_倒れ実弾発射、MVC_スーパーキック改、MVC_回転連続描画、MVC_二重連続描画
+
+
+ローグ(MVC)
+パワードレイン(攻撃), 格闘
+パワードレイン(命中), 立ち固め 1 Charge.wav;吸収
+パワードレイン(解説), $(ユニット)は相手のパワーを吸収しようとした。
+リピーディングパンチ(攻撃), 突く武器突撃 -.bmp -.wav;連打
+リピーディングパンチ(命中), 連打;アッパー
+パワーダイブパンチ(攻撃), スーパーダイブ
+パワーダイブパンチ(命中), 連打
+グッドナイトシュガー(攻撃), 格闘 -.wav;連打
+グッドナイトシュガー(命中), 連打;超アッパー;透明化 相手ユニットＩＤ;MVC_バックジャンプ 正 速 -.wav;_
+	0.1;「Good night、sugar！」;立ち固め 1 Charge.wav
+グッドナイトシュガー(解説), $(ユニット)はグッドナイトシュガーで攻撃をかけた。
+
+# MVC_バックジャンプ
+
+
+ジュビレーション＝リー(MVC)
+格闘, 格闘
+「花火」(攻撃), 同時ホーミング弾 画像ファイル=Hit\EFFECT_Damage(Yellow)02.bmp=Hit\EFFECT_Damage(Blue)03.bmp=_
+	Hit\EFFECT_Damage(Green)02.bmp=Hit\EFFECT_Damage(Pink)03.bmp 48 個数=4 速 発光 Glass(3).wav 前転
+「花火」(命中), 発光 ホワイト Glass(3).wav
+プラズマボルト(攻撃), 同時ホーミング弾 画像ファイル=Hit\EFFECT_Damage(Yellow)02.bmp=Hit\EFFECT_Damage(Blue)03.bmp=_
+	Hit\EFFECT_Damage(Green)02.bmp=Hit\EFFECT_Damage(Pink)03.bmp 48 個数=4 速 発光 Glass(3).wav 前転
+プラズマボルト(命中), 光球放出 Glass(3).wav;光球放出 白 Glass(3).wav
+プラズマボム(攻撃), 連気弾 グリーン Glass(3).wav
+プラズマボム(攻撃), 連気弾 イエロー Glass(3).wav
+プラズマボム(攻撃), 連気弾 オレンジ Glass(3).wav
+プラズマボム(命中), 連続爆発
+
+
+ケーブル(MVC)
+エレクトラップ(攻撃), 振り上げ;回転発射 Bullet\EFFECT_STG_Bullet(Black)05.bmp 24
+エレクトラップ(命中), 大放電 青 Thunderbolt.wav 発光
+クラックダウン(攻撃), スーパータックル 青 Swing.wav
+クラックダウン(命中), 強打
+ハンドガン, ピストル
+ハンドガン(攻撃), ピストル;ピストル;ピストル;ピストル
+ハンドガン(命中), ピストル;ピストル;ピストル;ピストル
+シミター(準備), -
+シミター(攻撃), MVC_バックジャンプ 垂直 アッパー 速;実弾発射 LightWeapon\EFFECT_LightSpear(Yellow)01.bmp
+シミター(命中), 振り上げ大斬撃
+サイチャージ(攻撃), 打突
+サイチャージ(命中), 立ち固め 1 -.wav 速;_
+	連続描画 Common\EFFECT_LightningBall[01-03].bmp 32 1 4 Thunderbolt.wav 相手ユニットＩＤ;強打
+バイパービーム(攻撃), BeamShot(2).wav;_
+	手持ち発射連続描画 Weapon\EFFECT_SFLauncher01.bmp 32 Beam\EFFECT_MBeam(Red)[03-05].bmp 32 1 3 -.wav
+バイパービーム(命中), 中ビーム 赤;中ビーム 赤
+タイムフリップ(攻撃), 実弾発射 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) 残像 遅
+タイムフリップ(命中), 分身打撃;@戦闘アニメ_ピストル攻撃;@戦闘アニメ_ピストル攻撃;ピストル;ピストル
+ハイパーバイパー, 交差ビームライフル Weapon\EFFECT_SFLauncher01.bmp ピンク
+
+# MVC_バックジャンプ
+
+
+デッドプール(MVC)
+クイックワーク(攻撃), スーパータックル 桃
+クイックワーク(命中), スーパータックル 桃 Slash.wav
+トリガーハッピー, 銃撃武器連射 Weapon\EFFECT_Pistol01.bmp 二丁拳銃
+カタナラマ！(攻撃), 0.1;「カターナラマッ！」;発射連続描画 Attack\EFFECT_Swing(Red)[01-04].bmp 48 1.5 1 Swing(2).wav
+カタナラマ！(命中), 斬撃
+カタナラマ！(クリティカル), 0.1;「チミチャンガス！」;@戦闘アニメ_斬撃攻撃 二刀流;@戦闘アニメ_斬撃命中 二刀流;デフォルト
+ニンジャギフト(準備), MVC_ルート 3
+ニンジャギフト(攻撃)(対MVC_ルート1), 0.1;「プレゼンフォーヤァ！」;MVC_バックジャンプ 速 -.wav;斬撃;_
+	MVC_拡散実弾 Weapon\EFFECT_Shuriken01.bmp -.bmp _
+	Weapon\EFFECT_Shuriken01.bmp -.bmp Weapon\EFFECT_Shuriken01.bmp 48 Bow.wav
+ニンジャギフト(攻撃)(対MVC_ルート2), 0.1;「パイナッポーサプラーーイズ！」;打ち下ろし投擲武器 Weapon\EFFECT_ChicagoPineapple01.bmp 28
+ニンジャギフト(攻撃)(対MVC_ルート3), 0.1;「ゲッロングリトルドギー！」;MVC_バックジャンプ 速 -.wav;回転投擲武器 Weapon\EFFECT_Bola01.bmp
+ニンジャギフト(命中)(対MVC_ルート1), 刺突;@戦闘アニメ_MVC_ルート後処理
+ニンジャギフト(命中)(対MVC_ルート2), 爆発;@戦闘アニメ_MVC_ルート後処理
+ニンジャギフト(命中)(対MVC_ルート3), ダメージ Whip.wav;@戦闘アニメ_MVC_ルート後処理
+ニンジャギフト(回避),	@戦闘アニメ_MVC_ルート後処理
+ニンジャギフト(攻撃無効化), @戦闘アニメ_MVC_ルート後処理
+ニンジャギフト(切り払い), @戦闘アニメ_MVC_ルート後処理
+ニンジャギフト(迎撃), @戦闘アニメ_MVC_ルート後処理
+ニンジャギフト(阻止), @戦闘アニメ_MVC_ルート後処理
+ニンジャギフト(反射), @戦闘アニメ_MVC_ルート後処理
+スーサイドボム(準備), 振る武器 Weapon\EFFECT_ChicagoPineapple01.bmp 二刀流
+スーサイドボム(攻撃), ＭＡＰ大爆発
+スーサイドボム(命中), 強打
+ハッピーハッピートリガー, 銃撃武器乱射 Weapon\EFFECT_Pistol01.bmp 二丁拳銃
+カッティングタイム(攻撃), スーパータックル レッド
+カッティングタイム(命中), スーパータックル レッド Sword.wav;透明化 対象ユニットＩＤ 反映;_
+	MVC_二重連続描画 Hit\EFFECT_SuperSlashHit(Red)[02-03].bmp 48 Slash\EFFECT_SlashLine(Red)[01-02].bmp 48 _
+	1 1 -.wav 相手ユニットＩＤ 保持 ランダム ランダム２;_
+	スーパータックル レッド Sword.wav (_GetAngle(対象ユニットＩＤ) + 180);透明化 対象ユニットＩＤ 反映;_
+	MVC_二重連続描画 Hit\EFFECT_SuperSlashHit(Red)[02-04].bmp 48 Slash\EFFECT_SlashLine(Red)[01-03].bmp 32 _
+	2 1 -.wav 相手ユニットＩＤ 保持 ランダム ランダム２;_
+	MVC_二重連続描画 Hit\EFFECT_SuperSlashHit(Red)[02-04].bmp 48 Slash\EFFECT_SlashLine(Red)[01-03].bmp 48 _
+	2 1 Sword.wav 相手ユニットＩＤ 保持 ランダム ランダム２;_
+	MVC_二重連続描画 Hit\EFFECT_SuperSlashHit(Red)[02-04].bmp 48 Slash\EFFECT_SlashLine(Red)[01-03].bmp 64 _
+	2 1 Sword.wav 相手ユニットＩＤ 保持 ランダム ランダム２;2;透明化 対象ユニットＩＤ 解除 反映;_
+	MVC_二重連続描画 Hit\EFFECT_SuperSlashHit(Red)[02-03].bmp 64 _
+	Hit\EFFECT_SuperSlashHit(Red)[02-03].bmp 80 1 1 Slash(4).wav 相手ユニットＩＤ 保持 ランダム ランダム２;5
+４．Ｗ．Ｃ(攻撃), MVC_背向け 2;周囲回転 Common\EFFECT_Heart01.bmp 対象ユニットＩＤ
+４．Ｗ．Ｃ(解説), $(ユニット)はダイナマイツなポーズを取った。
+４．Ｗ．Ｃ(命中), @戦闘アニメ_デフォルト攻撃 相手ユニットＩＤ;_
+	@戦闘アニメ_連続描画攻撃 Hit\EFFECT_Damage(Red)[01-05].bmp 64 3 1 Punch.wav 対象ユニットＩＤ;_
+	@戦闘アニメ_MVC_高速準備命中 Weapon\EFFECT_WilliePeter01.bmp 対象ユニットＩＤ;_
+	フラッシュ 対象ユニットＩＤ Autodoor(close).wav;透明化 対象ユニットＩＤ 反映;_
+	会話 システム "(ユニット)はフラッシュグレネードを炸裂させて攻撃を回避した。";_
+	@戦闘アニメ_画像投射攻撃 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック"));_
+	MVC_画像表示 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) - 200 128 128;0.5;_
+	MVC_画像表示 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) - 230 128 128 クリア;0.5;_
+	MVC_画像表示 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) - 260 128 128 クリア;0.5;_
+	MVC_画像表示 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) - 290 128 128 クリア;_
+	BreakOff.wav;会話 システム "$(ユニット)はメッセージウインドウを掴み、もぎ取っ――";_
+	MVC_画像表示 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) - 360 128 128 クリア;0.2;_
+	Crash.wav;MVC_メッセージウインドウ消去;_
+	MVC_画像表示 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) - 420 128 128 クリア;_
+	会話 システム "$(ユニット)はメッセージウインドウを掴み、もぎ取っ――.うわわわわっ！？" 枠外;2;_
+	MVC_メッセージウインドウ消去;_
+	MVC_画像表示 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) - 300 128 128 クリア;0.4;_
+	MVC_画像表示 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) - 240 128 128 クリア;0.4;_
+	MVC_画像表示 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) - 200 128 128 クリア;0.4;_
+	@戦闘アニメ_画像投下 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック"));_
+	透明化 対象ユニットＩＤ 反映 解除;@戦闘アニメ_大斬撃攻撃;唐竹割り Crash.wav;_
+	周囲回転 Animal\EFFECT_Hiyoko02.bmp PiyoPiyo.wav;_
+	@戦闘アニメ_大斬撃攻撃;強打;8;@戦闘アニメ_振り上げ大斬撃攻撃;超爆発;_
+	MVC_バックジャンプ 相手ユニットＩＤ 垂直 回転 上下反転 高 遅 -.wav;_
+	MVC_メッセージウインドウ表示
+	
+# デッドプール専用、MVC_ルート、MVC_バックジャンプ、MVC_高速準備、MVC_二重連続描画、MVC_背向け、MVC_拡散実弾
+
+
+マロウ(MVC)
+ボーンダガー, 斬撃武器 EFFECT_XMEN_BoneDagger.bmp 二刀流
+ボーンメラン, 回転投擲武器 Weapon\EFFECT_Femur01.bmp
+リコシェスラッシュ(攻撃), スーパーダイブ
+リコシェスラッシュ(命中), 透明化 対象ユニットＩＤ;大斬撃;透明化 対象ユニットＩＤ 解除 反映
+ライド＆スラッシュ(攻撃), ジャンプ;透明化 対象ユニットＩＤ 反映
+ライド＆スラッシュ(命中), 肩乗り 3 速 Stab.wav;強打
+タワーリングスパイン(攻撃), 連続描画 Rock\EFFECT_RockPiller(Yellow)[01-05].bmp 52 2 1 背面 下辺 Warship.wav 保持
+タワーリングスパイン(命中), MVC_回転連続描画 Hit\EFFECT_StrongSlashHit(Orange)[01-03].bmp 32 2 2 下辺 _
+	相手ユニットＩＤ 角度=180 Stab.wav
+ボーンバースト(攻撃), 同時ホーミング弾 Common\EFFECT_Boulder01.bmp 32 個数=4 速;_
+	同時ホーミング弾 Common\EFFECT_Boulder01.bmp 32 個数=4 速
+ボーンバースト(命中), 刺突 オレンジ;刺突 オレンジ;刺突 オレンジ;刺突 オレンジ
+スティンガーボーンズ(攻撃), 触手乱舞 オレンジ AntiAirMissile.wav
+スティンガーボーンズ(命中), 乱突 Bazooka.wav
+
+# MVC_回転連続描画
+
+
+Ｘ-２３(MVC)
+ホーネットニードル(準備), -
+ホーネットニードル(攻撃), MVC_スーパーキック改 赤 Saber.wav
+ホーネットニードル(命中), スーパーキック 赤 Stab.wav
+ネックスライサー(攻撃), MVC_バックジャンプ 速 -.wav;スーパータックル 赤
+ネックスライサー(命中), スーパータックル 赤
+クレセントサイズ(準備), -
+クレセントサイズ(攻撃), MVC_バックジャンプ 垂直 アッパー 上下反転
+クレセントサイズ(命中), 振り上げ
+レイジングトリガー(攻撃), 浴びせ蹴り Swing(2).wav;透明化 対象ユニットＩＤ 反映;_
+	MVC_二重連続描画 Slash\EFFECT_HyperSlashLine(Black)[01-04].bmp 40 _
+	Slash\EFFECT_HyperSlashLine(Black)[01-04].bmp 40 2 1 上下反転 左右反転 Swing(2).wav 方向判定 手前;_
+	MVC_二重連続描画 Slash\EFFECT_HyperSlashLine(Black)[01-04].bmp 40 _
+	Slash\EFFECT_HyperSlashLine(Black)[01-04].bmp 40 2 1 上下反転 左右反転 Swing(2).wav 方向判定 中間 保持
+レイジングトリガー(命中), MVC_二重連続描画 Slash\EFFECT_HyperSlashLine(Black)[01-04].bmp 40 _
+	Slash\EFFECT_HyperSlashLine(Black)[01-04].bmp 40 2 5 上下反転 左右反転 Slash.wav 方向判定 奥;_
+	透明化 対象ユニットＩＤ 解除 反映;MVC_バックジャンプ 垂直 アッパー 上下反転 Slash.wav;振り上げ
+ウェポンＸ'(準備), クロー 二刀流
+ウェポンＸ'(攻撃), クロー突撃 二刀流
+ウェポンＸ'(命中), 連続なぎ払い;斬撃乱舞;スーパーキック 赤 Slash(6).wav;_
+	MVC_二重連続描画 Hit\EFFECT_SuperSlashHit(Red)[01-03].bmp 64 _
+	Hit\EFFECT_SuperSlashHit(Red)[03-03].bmp 64 2 1 角度=45 角度２=140 相手ユニットＩＤ 方向判定 Slash(6).wav
+サイレントキリング(準備), 透明化 対象ユニットＩＤ 反映
+サイレントキリング(攻撃), 実弾発射 Anime\Common\EFFECT_AccidentalImage01.bmp -.wav
+サイレントキリング(命中), MVC_実弾貫通 Anime\Common\EFFECT_AccidentalImage01.bmp 32 Whiz.wav;0.1;_
+	「Ｂｙｅ-Ｂｙｅ！」;肩乗り 1 Slash(4).wav;唐竹割り -.wav
+アサシネート, @戦闘アニメ_テレポート発動 -.wav " ";透明化 対象ユニットＩＤ 反映
+
+# MVC_バックジャンプ、MVC_スーパーキック改、MVC_二重連続描画、MVC_実弾貫通
+
+
+親愛なる隣人
+# スパイダーマン、アーマースパイダーマン共通
+ウェブボール(攻撃), 0.1;「ウェブボール！」;２連光弾銃 Hand\EFFECT_Punch(Red)04.bmp 32 白 Bow.wav
+ウェブボール(命中), 連続描画 MapBeam\EFFECT_360Beam(White)[01-04].bmp 48 1.5 1 前面 BreakOff.wav 保持;4
+スパイダースティング(攻撃), 0.1;「スパイダースティング！」;MVC_バックジャンプ 小移動 正 速 アッパー;MVC_バックジャンプ 垂直 速 高 振り下ろし
+スパイダースティング(命中), 超アッパー;強打
+ウェブスイング(攻撃), 0.1;「ウェッブスイーングッ！」;_
+	MVC_回転連続描画 Laser\EFFECT_NeedleLaser(White)[01-02].bmp 48 1 1 発射 角度=45 Bow.wav 方向判定;_
+	スーパーパンチ 赤
+ウェブスイング(命中), 強打
+ウェブスロー(攻撃), 0.1;「ウェブスロー！」;レーザーガン Hand\EFFECT_Punch(Red)01.bmp 28 ホワイト Bow.wav
+ウェブスロー(命中), ニードルレーザー ホワイト BreakOff.wav;透明化 相手ユニットＩＤ;_
+	@戦闘アニメ_MVC_倒れ実弾発射攻撃 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) Swing.wav _
+	相手ユニットＩＤ 速;@戦闘アニメ_振り回し攻撃 Weapon\EFFECT_ChainBall02.bmp 60;@戦闘アニメ_なぎ払い攻撃;_
+	@戦闘アニメ_MVC_倒れ実弾発射攻撃 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) -.wav 有線;_
+	透明化 解除;投げ飛ばし
+クローラーアサルト(攻撃), 0.1;「クローラーアサルト！！」;突く武器突撃 -.bmp -.wav;斬撃乱舞
+クローラーアサルト(命中), 連打;連打;@戦闘アニメ_キック攻撃;超打 Explode(Small).wav
+アルティメットウェブスロー(攻撃), 0.1;「アルティメット……」;MVC_バックジャンプ 垂直 速;_
+	0.1;「アルティメット……ウェブ！！」;発射連続描画 ShockBeam\EFFECT_TwinShockBeam(White)[01-03].bmp 80 2 1 Bow.wav;_
+	MVC_回転連続描画 ShockBeam\EFFECT_TwinShockBeam(White)[03-03].bmp 100 1 2 -.wav 発射 保持
+アルティメットウェブスロー(命中), 連続描画 MapBeam\EFFECT_360Beam(White)[01-04].bmp 48 1.5 1 前面 BreakOff.wav 保持;4;_
+	透明化 相手ユニットＩＤ 反映;@戦闘アニメ_振り回し攻撃 Weapon\EFFECT_ChainBall02.bmp 60;_
+	MVC_バックジャンプ 正 速 振り下ろし -.wav;透明化 解除;投げ飛ばし
+マキシマムスパイダー(攻撃), スーパーキック レッド
+マキシマムスパイダー(命中), スーパーキック 赤 FightHit(1).wav;スーパータックル乱舞 レッド FightHit(1).wav;_
+	スーパーパンチ 赤 Bazooka.wav 270
+シールド防御, シールド防御 Explode\EFFECT_SuperExplode(White)02.gif 32 -.wav 別名=ウェブシールド
+分身(スパイダーセンス), Hittyuu.wav;連続描画 Common\EFFECT_LargeLightning[01-02].bmp 48 1 3 背面 下辺 -.wav;回避
+分身(スパイダーセンス)(解説), $(ユニット)は直前に危険を察知して攻撃を回避した。
+ジャンプ(ウェブグライド), _
+	@戦闘アニメ_MVC_回転連続描画攻撃 Laser\EFFECT_NeedleLaser(White)[01-02].bmp 48 1 1 発射 角度=15 Bow.wav;_
+	@戦闘アニメ_MVC_バックジャンプ攻撃 正 速
+
+
+アーマースパイダーマン(MVC)
+ウェブボール(攻撃), 0.1;「ウェブボール！」;２連光弾銃 Hand\EFFECT_Punch(Black)04.bmp 32 白 Bow.wav
+ウェブボール(命中), 連続描画 MapBeam\EFFECT_360Beam(White)[01-04].bmp 48 1.5 1 前面 BreakOff.wav 保持;4
+ウェブスロー(攻撃), 0.1;「ウェブスロー！」;レーザーガン Hand\EFFECT_Punch(Black)01.bmp 28 ホワイト Bow.wav
+ウェブスロー(命中), ニードルレーザー ホワイト BreakOff.wav;透明化 相手ユニットＩＤ;_
+	@戦闘アニメ_MVC_倒れ実弾発射攻撃 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) Swing.wav _
+	相手ユニットＩＤ 速;@戦闘アニメ_振り回し攻撃 Weapon\EFFECT_ChainBall02.bmp 60;@戦闘アニメ_なぎ払い攻撃;_
+	@戦闘アニメ_MVC_倒れ実弾発射攻撃 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) -.wav 有線;_
+	透明化 解除;投げ飛ばし
+	
+# MVC_回転連続描画、MVC_バックジャンプ、MVC_倒れ実弾発射、MVC_踏みつけ
+
+
+
+キャプテンアメリカ(MVC)
+シールド, 殴打武器 EFFECT_MSH_CaptainsShield.bmp 32
+シールドスラッシュ(攻撃), 0.1;「シールドスラッシュ！」;回転投擲武器 EFFECT_MSH_CaptainsShield.bmp 32
+シールドスラッシュ(命中), MVC_実弾貫通 EFFECT_MSH_CaptainsShield.bmp 32 FightHit(1).wav
+シールドスラッシュ(クリティカル), _
+	@戦闘アニメ_MVC_実弾貫通命中 EFFECT_MSH_CaptainsShield.bmp 32 角度=180 FightHit(1).wav;_
+	@戦闘アニメ_MVC_高速準備準備 EFFECT_MSH_CaptainsShield.bmp 32 BreakOff.wav 待機=0;デフォルト
+スターズ＆ストライプス(攻撃), 0.1;「スターズ＆ストライプス！」;MVC_バックジャンプ 正 小移動 アッパー 昇龍
+スターズ＆ストライプス(命中), 超アッパー
+チャージングスター(攻撃), 0.1;「チャージングスター！」;突く武器突撃 EFFECT_MSH_CaptainsShield.bmp 32
+チャージングスター(命中), タックル
+Ｈチャージングスター(攻撃), 0.1;「ハイパァァァ！！ チャージングスター！」;スーパータックル 青
+Ｈチャージングスター(命中), FightHit(1).wav;スーパータックル 青 FightHit(1).wav;FightHit(1).wav
+Ｈチャージングスター(解説), $(ユニット)はハイパーチャージングスターで攻撃をかけた。
+Ｈスターズ＆ストライプス(攻撃), 0.1;「スターズ！ アンド！ ストライプス！！」;アッパー;アッパー;MVC_バックジャンプ 正 小移動 アッパー 昇龍 速
+Ｈスターズ＆ストライプス(命中), 打撃 FightHit(1).wav;打撃 FightHit(1).wav;打撃 FightHit(1).wav;2;_
+	打撃 FightHit(1).wav;打撃 FightHit(1).wav;打撃 FightHit(1).wav;2;MVC_アッパー連打 FightHit(1).wav
+Ｈスターズ＆ストライプス(解説), $(ユニット)はハイパースターズ＆ストライプスで攻撃をかけた。
+ファイナルジャスティス(攻撃), スーパータックル レッド
+ファイナルジャスティス(命中), スーパータックル レッド FightHit(1).wav;_
+	MVC_バックジャンプ 垂直 回転 高 上下反転 -.wav 相手ユニットＩＤ;@戦闘アニメ_連打攻撃;連打;_
+	透明化 相手ユニットＩＤ;@戦闘アニメ_振り上げ大斬撃攻撃 青;_
+	@戦闘アニメ_打ち上げ攻撃 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) -.wav;_
+	@戦闘アニメ_急降下攻撃 Cannon.wav;透明化 相手ユニットＩＤ 解除;BreakOff.wav;_
+	MVC_高度叩きつけ 上下反転 上昇キャンセル Explode.wav;大爆発 -.wav
+シールド防御(シールド), シールド防御 EFFECT_MSH_CaptainsShield.bmp 32
+
+# MVC_バックジャンプ、MVC_アッパー連打、MVC_高度叩きつけ、MVC_回転連続描画、MVC_高速準備、MVC_実弾貫通
+
+
+
+ＵＳエージェント(MVC)
+シールド, 殴打武器 Bullet\EFFECT_STG_Bullet(Blue)03.bmp 28
+シールドスラッシュ(攻撃), 回転投擲武器 Bullet\EFFECT_STG_Bullet(Blue)03.bmp 28
+シールドスラッシュ(命中),  MVC_実弾貫通 Bullet\EFFECT_STG_Bullet(Blue)03.bmp 28 FightHit(1).wav
+シールドスラッシュ(クリティカル), _
+	@戦闘アニメ_MVC_実弾貫通命中 Bullet\EFFECT_STG_Bullet(Blue)03.bmp 28 角度=180 FightHit(1).wav;_
+	@戦闘アニメ_MVC_高速準備準備 Bullet\EFFECT_STG_Bullet(Blue)03.bmp 28 BreakOff.wav 待機=0;デフォルト
+スターズ＆ストライプス(攻撃), MVC_バックジャンプ 正 小移動 アッパー 昇龍
+スターズ＆ストライプス(命中), 超アッパー
+スタンスティック, 振る武器 Laser\EFFECT_LightSaber(LightBlue)02.bmp
+スタンスティック(命中), 強打;MVC_踏みつけ FightHit(3).wav;MVC_踏みつけ FightHit(3).wav;MVC_踏みつけ FightHit(3).wav
+チャージングスター(攻撃), 突く武器突撃 Bullet\EFFECT_STG_Bullet(Blue)03.bmp 28
+チャージングスター(命中), タックル
+Ｈチャージングスター(攻撃), スーパータックル 青
+Ｈチャージングスター(命中), FightHit(1).wav;スーパータックル 青 FightHit(1).wav;FightHit(1).wav
+Ｈチャージングスター(解説), $(ユニット)はハイパーチャージングスターで攻撃をかけた。
+Ｈスターズ＆ストライプス(攻撃), アッパー;アッパー;MVC_バックジャンプ 正 小移動 アッパー 昇龍 速
+Ｈスターズ＆ストライプス(命中), 打撃 FightHit(1).wav;打撃 FightHit(1).wav;打撃 FightHit(1).wav;2;_
+	打撃 FightHit(1).wav;打撃 FightHit(1).wav;打撃 FightHit(1).wav;2;MVC_アッパー連打 FightHit(1).wav
+Ｈスターズ＆ストライプス(解説), $(ユニット)はハイパースターズ＆ストライプスで攻撃をかけた。
+ファイナルジャスティス(攻撃), スーパータックル レッド
+ファイナルジャスティス(命中), スーパータックル レッド FightHit(1).wav;_
+	MVC_バックジャンプ 垂直 回転 高 上下反転 -.wav 相手ユニットＩＤ;@戦闘アニメ_連打攻撃;連打;_
+	透明化 相手ユニットＩＤ;@戦闘アニメ_振り上げ大斬撃攻撃 青;_
+	@戦闘アニメ_打ち上げ攻撃 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) -.wav;_
+	@戦闘アニメ_急降下攻撃 Cannon.wav;透明化 相手ユニットＩＤ 解除;BreakOff.wav;_
+	MVC_高度叩きつけ 上下反転 上昇キャンセル Explode.wav
+シールド防御(シールド), シールド防御 Bullet\EFFECT_STG_Bullet(Blue)03.bmp 28
+
+# MVC_バックジャンプ、MVC_アッパー連打、MVC_高度叩きつけ、MVC_回転連続描画
+
+
+
+アイアンマン(MVC)
+#トラクタービーム(攻撃), ショックビーム ピンク BeamSaber.wav
+#トラクタービーム(命中), -
+ミサイル, 小型ミサイル
+リパルサーレイ(攻撃), 光弾銃 ブルー Hand\EFFECT_Punch(Orange)15.bmp 24 Beam.wav
+リパルサーレイ(命中), 爆発 ブルー Punch.wav;強打 -.wav
+スマートボム, グレネード 2
+スマートボム(攻撃),  0.1;「スマートボム！」;グレネード 2
+リパルサーブラスト(攻撃), 0.1;「リパルサーブラスト！」;MVC_二重連続描画 Beam\EFFECT_DBeam(Pink)[01-05].bmp 64 Beam\EFFECT_DBeam(Pink)[05-01].bmp _
+	64 4 2 Beamvalcan.wav 角度=90 角度２=-90 上下反転 下辺 下辺２
+リパルサーブラスト(命中), 拡散ビーム
+リパルサーブラスト(クリティカル), 0.1;「スプレッド！！」;@戦闘アニメ_連続描画攻撃 Hit\EFFECT_Damage(Pink)[01-05].bmp 64 2 1 _
+	下辺 対象ユニットＩＤ BeamCoat.wav;@戦闘アニメ_強打命中;デフォルト
+ユニビーム, 中ビーム ブルー
+ユニビーム(攻撃), 0.1;「ユニビーム！」;中ビーム ブルー
+プロトンキャノン(準備), 射撃武器転送 Weapon\EFFECT_Gatling01.bmp 80
+プロトンキャノン(攻撃), 0.1;「プロトン……キャノン！！」;手持ち発射連続描画 Weapon\EFFECT_Gatling01.bmp 80 _
+	Beam\EFFECT_LBeam(Pink)[01-03].bmp 80 2 1 Charge.wav 発光;_
+	手持ち発射連続描画 Weapon\EFFECT_Gatling01.bmp 80 _
+	Beam\EFFECT_2MBeam(Pink)[05-06].bmp 80 0.6 8 MultipleRocketLauncher.wav 連射 発光
+プロトンキャノン(命中), 発射連続描画 Beam\EFFECT_2MBeamHit(Pink)[02-05].bmp 64 1.2 5 Explode(Small).wav;２連中ビーム
+アイアンアヴェンジャー(攻撃), スーパータックル 水色
+アイアンアヴェンジャー(命中), 0.1;「アイアン・アヴェンジャー！！」;_
+	FastGun.wav;スーパーパンチ 水色 -.wav;スーパーパンチ 水色 -.wav;_
+	透明化 相手ユニットＩＤ 反映;_
+	@戦闘アニメ_突く武器急降下攻撃 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック"));_
+	透明化 対象ユニットＩＤ 反映;_
+	@戦闘アニメ_打ち下ろし攻撃 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) -.wav;_
+	0.1;<I>.　　　　　　　　LOCKED　AND　LOADED</I>;_
+	@戦闘アニメ_飛来アップ攻撃 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) Jet.wav;_
+	0.1;　;_
+	@戦闘アニメ_打ち下ろし超ビーム攻撃 水色;透明化 解除 相手ユニットＩＤ 反映;打ち下ろし超ビーム 水色
+シールド防御(ビームシールド), ビームシールド ブルー
+
+# MVC_二重連続描画
+
+
+ウォーマシン(MVC)
+ビームキャノン, 小ビーム
+リパルサーレイ(攻撃), 光弾銃 ピンク Hand\EFFECT_Punch(Black)15.bmp 24 Beam.wav
+リパルサーレイ(命中), 爆発 ピンク Punch.wav;強打 -.wav
+スマートボム, グレネード 2
+リパルサーブラスト(攻撃), MVC_二重連続描画 Beam\EFFECT_DBeam(Pink)[01-05].bmp 64 Beam\EFFECT_DBeam(Pink)[05-01].bmp _
+	64 4 2 Beamvalcan.wav 角度=90 角度２=-90 上下反転 下辺 下辺２
+リパルサーブラスト(命中), 拡散ビーム
+ショルダーキャノン, 小型ミサイル;小型ミサイル
+ウォーデストロイ(攻撃), @戦闘アニメ_打ち上げ攻撃 Bullet\EFFECT_Missile04.bmp 48 MultipleRocketLauncher(Light).wav;_
+	@戦闘アニメ_打ち上げ攻撃 Bullet\EFFECT_Missile05.bmp 48 MultipleRocketLauncher(Light).wav;_
+	@戦闘アニメ_打ち下ろし攻撃 Bullet\EFFECT_Missile04.bmp 48 -.wav;_
+	@戦闘アニメ_打ち下ろし攻撃 Bullet\EFFECT_Missile05.bmp 48 -.wav
+ウォーデストロイ(命中), 連続大爆発
+プロトンキャノン(準備), 射撃武器転送 Weapon\EFFECT_Gatling01.bmp 80
+プロトンキャノン(攻撃), ミサイルランチャー Weapon\EFFECT_Gatling01.bmp 80 MultipleRocketLauncher.wav;_
+ミサイルランチャー Weapon\EFFECT_Gatling01.bmp 80 MultipleRocketLauncher.wav;_
+	ミサイルランチャー Weapon\EFFECT_Gatling01.bmp 80 MultipleRocketLauncher.wav
+プロトンキャノン(命中), 連続爆発;連続爆発
+シールド防御(ビームシールド), ビームシールド ピンク
+
+# MVC_二重連続描画
+
+
+マイティ・ソー(MVC)
+マイティストーム(攻撃), MVC_回転連続描画 Weapon\EFFECT_GreatHammer[01-01].bmp 36 1 4 下辺 角度=45 保持;MetalDrum.wav;_
+	MVC_回転連続描画 Weapon\EFFECT_GreatHammer[01-01].bmp 36 1 2 上辺 角度=45 保持;_
+	MVC_回転連続描画 Weapon\EFFECT_GreatHammer[01-01].bmp 36 1 2 下辺 角度=45 保持;_
+	MetalDrum.wav;MVC_回転連続描画 Weapon\EFFECT_GreatHammer[01-01].bmp 36 1 2 上辺 保持 角度=45
+マイティストーム(命中), 吹雪 ブルー
+マイティスパーク, ショックビームガン EFFECT_MSH_Mjolnir.bmp
+マイティスパーク(攻撃),  0.1;「マイティスパーク！」;ショックビームガン EFFECT_MSH_Mjolnir.bmp 黄 Thunder.wav
+マイティスパーク(命中), ショックビーム 黄 Thunder.wav
+マイティハリケーン(攻撃), 振る武器突撃 -.bmp
+マイティハリケーン(命中), 立ち固め 1 速;透明化 相手ユニットＩＤ 反映;0.1;「マイティハリケーン！」;_
+	MVC_バックジャンプ 正 回転 旋回音;MVC_踏みつけ Shock(Low).wav;透明化 相手ユニットＩＤ 解除 反映;_
+	MVC_二重連続描画 Common\EFFECT_Thunder(Yellow)[02-04].bmp 80 Light\EFFECT_LightGeyser(Yellow)[03-01].bmp 120 1 1 _
+	下辺 下辺２ 相手ユニットＩＤ
+マイティストライク(攻撃),  0.1;「マイティストライク！」;スーパータックル 赤
+マイティストライク(命中), スーパータックル 赤 FightHit(3).wav
+マイティスマッシュ(攻撃), 0.1;「マイティスマッシュ！」;スーパーパンチ 黄
+マイティスマッシュ(命中), スーパーパンチ 黄;MVC_バックジャンプ 正 小移動 速 振り下ろし;強打
+マイティサンダー(攻撃), 0.1;「マイティサンダー！！」;斬撃;MVC_二重連続描画 Light\EFFECT_LightGeyser(Yellow)[01-03].bmp 120 _
+	Beam2\EFFECT_HyperBeamHit(Yellow)[03-05].bmp 80 2 1 前面 Thunderbolt.wav 角度２=270 下辺 下辺２;_
+	MVC_二重連続描画 Light\EFFECT_LightGeyser(Yellow)[01-03].bmp 120 _
+	Beam2\EFFECT_HyperBeamHit(Yellow)[03-05].bmp 80 2 1 前面 Thunderbolt.wav 角度２=270 下辺 下辺２ 中間;_
+	MVC_二重連続描画 Light\EFFECT_LightGeyser(Yellow)[01-03].bmp 120 Beam2\EFFECT_HyperBeamHit(Yellow)[03-05].bmp _
+	80 2 1 前面 Thunderbolt.wav 角度２=270 下辺 下辺２ 相手ユニットＩＤ
+マイティサンダー(命中), 強打 Thunderbolt.wav;_
+	MVC_二重連続描画 Light\EFFECT_LightGeyser(Yellow)[01-03].bmp 120 Beam2\EFFECT_HyperBeamHit(Yellow)[03-05].bmp _
+	80 2 1 前面 Thunderbolt.wav 角度２=270 下辺 下辺２ 相手ユニットＩＤ;_
+	強打 Thunderbolt.wav;_
+	MVC_二重連続描画 Light\EFFECT_LightGeyser(Yellow)[01-03].bmp 120 Beam2\EFFECT_HyperBeamHit(Yellow)[03-05].bmp _
+	80 2 1 前面 Thunderbolt.wav 角度２=270 下辺 下辺２ 相手ユニットＩＤ
+マイティトルネード(攻撃), 0.1;「マイティトルネード！！」;MVC_高速準備 EFFECT_MSH_Mjolnir.bmp;_
+	MVC_二重連続描画 Spin\EFFECT_WhirlWind(Yellow)[01-03].bmp 52 _
+	Lightning\EFFECT_CU_HyperElectric(Yellow)[01-03].bmp 80 1 2 角度=90 保持 Storm.wav;_
+	MVC_二重連続描画 Spin\EFFECT_WhirlWind(Yellow)[01-06].bmp 72 _
+	Lightning\EFFECT_CU_HyperElectric(Yellow)[01-03].bmp 80 1 4 角度=90 保持 Storm.wav
+マイティトルネード(命中), Storm.wav;連打 黄 -.wav;連打 黄 -.wav;超打 -.wav
+マイティパニッシュ(攻撃), 打突
+マイティパニッシュ(命中), 立ち固め 1;透明化 相手ユニットＩＤ 反映;@戦闘アニメ_振り上げ大斬撃攻撃;_
+	@戦闘アニメ_打ち上げ攻撃 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) FightHit(1).wav;_
+	MVC_マイティパニッシュＭ;1;「$(MVC_MPM)」;_
+	@戦闘アニメ_振り上げ攻撃 Swing(2).wav;@戦闘アニメ_打ち上げ攻撃 EFFECT_MSH_Mjolnir.bmp -.wav;_
+	Flair.wav;White.bmp 480 480;5;_
+	連続描画 Common\EFFECT_Thunder(Yellow)[01-05].bmp 240 1.5 1 相手ユニットＩＤ 下辺 Warship.wav;_
+	透明化 解除 相手ユニットＩＤ 反映;地面衝撃 相手ユニットＩＤ -.wav
+阻止(マイティローター), @戦闘アニメ_中心回転武器攻撃 EFFECT_MSH_Mjolnir.bmp 相手ユニットＩＤ
+
+# MVC_回転連続描画、MVC_二重連続描画、MVC_踏みつけ、MVC_バックジャンプ、MVC_マイティパニッシュＭ
+
+
+ハルク(MVC)
+ガンマクラップ(攻撃), 斬撃 二刀流;連続描画 Hit\EFFECT_StrikeHit(White)[01-04].bmp 120 3 1 Whip.wav 保持
+ガンマクラップ(命中), 打撃
+#ガンマスラム(準備), 振る武器 Rock\EFFECT_RockPiller03.bmp 40 Explode.wav
+#ガンマスラム, 投擲武器 Rock\EFFECT_RockPiller03.bmp 40
+ガンマウェイブ(攻撃), 0.1;「ガンマウェイブ！！」;振り上げ Explode.wav;MVC_実弾連なり Rock\EFFECT_RockPiller03.bmp 40 角度固定 Explode.wav
+ガンマウェイブ(命中), 強打
+ガンマチャージ(攻撃), 0.1;「ガンマチャージ！！」;スーパータックル グリーン
+ガンマチャージ(命中), スーパーパンチ グリーン Bazooka.wav;0.1;「ワンモア！！」;スーパータックル グリーン Bazooka.wav
+ガンマトルネード(攻撃), 打突
+ガンマトルネード(命中), ジャイアントスイング 
+ガンマツナミ(攻撃), 0.1;「ガンマツナミ！！」;振り上げ Explode.wav;MVC_実弾連なり Rock\EFFECT_RockPiller03.bmp 60 Earthquake.wav 角度固定 遅
+ガンマツナミ(命中), 強打;強打;超打 Explode.wav
+ハルクスマッシュ(攻撃), 大斬撃 緑
+ハルクスマッシュ(命中), 超打 Bazooka.wav
+ガンマクエイク(攻撃), 0.1;「ガンマクエイク！！」;斬撃;地面衝撃 オレンジ Warship.wav 対象ユニットＩＤ;_
+	連続描画 Rock\EFFECT_FallingRock(Orange)[01-09].bmp 60 4 2 相手ユニットＩＤ Earthquake.wav 下辺
+ガンマクエイク(命中), 強打 Crash.wav;強打 Crash.wav
+ガンマクラッシュ(攻撃), 0.1;「ガンマクラッシュ！！」;急降下 Bazooka.wav
+ガンマクラッシュ(命中), 突く武器急降下 Rock\EFFECT_LargeRock01.bmp;_
+	MVC_二重連続描画 Light\EFFECT_BurnOff(Orange)[02-06].gif 80 _
+	Light\EFFECT_CU_Perticle(Orange)[01-05].bmp 80 3 1 Explode(Nuclear).wav 相手ユニットＩＤ;超爆発 -.wav
+阻止(ガンマクラップ), @戦闘アニメ_手持ち発射攻撃 DGoods\EFFECT_Kettleholder01.bmp 32 -.bmp 32 Whip.wav _
+	相手ユニットＩＤ;@戦闘アニメ_地面衝撃攻撃 白 相手ユニットＩＤ
+ジャンプ(スーパージャンプ), 地面衝撃 Bazooka.wav 対象ユニットＩＤ
+
+# MVC_実弾連なり、MVC_二重連続描画
+
+
+シーハルク(MVC)
+へヴィストライク(攻撃), 打突
+へヴィストライク(命中), 0.1;「ヘヴィストライク！」;立ち固め 1;強打
+へヴィストライク(クリティカル), @戦闘アニメ_周囲回転命中 Animal\EFFECT_Hiyoko02.bmp PiyoPiyo.wav
+サマーソルトキック(攻撃), MVC_逆回転 1 高速 Swing(3).wav;_
+	MVC_回転連続描画 Wind\EFFECT_WindCutter(Green)[03-01].bmp 48 1 1 中間 発射
+サマーソルトキック(命中), 強打
+チャリオット(攻撃), 突く武器突撃 -.bmp
+チャリオット(命中), 0.1;「クローズライン！」;スーパーパンチ 緑
+チャリオット(命中), 0.1;「ダッシャアァァ！」;スーパータックル 緑 FightHit(1).wav
+カタパルト(攻撃), MVC_バックジャンプ 高 Cannon.wav
+カタパルト(命中), 急降下
+エメラルドキャノン(攻撃), 0.1;「ハイヤァ！」;キック
+エメラルドキャノン(命中), 超アッパー Explode(Small).wav;0.1;「ゴーッ！」;@戦闘アニメ_ジャンプ攻撃;超打 FightHit(1).wav;_
+	0.1;「ゴーッ！ ストレーイトッ！！」;急降下 Shock(Low).wav
+クリミナルランドリー(攻撃), 0.1;「ハグしてみる？」;MVC_バックジャンプ 正 高 アッパー
+クリミナルランドリー(命中), 背負い固め 1;透明化 相手ユニットＩＤ 反映;0.1;「どーお？」;_
+	@戦闘アニメ_連続描画攻撃 Wind\EFFECT_CU_Tornado(White)[01-04].bmp 64 1.5 4 Swing.wav 背面 対象ユニットＩＤ 下辺;_
+	0.1;「どーお？.クリミナルランドリー！！」;@戦闘アニメ_なぎ払い攻撃;投げ飛ばし
+テリブルアクシデント(攻撃), 飛来アップ Unit\M_SportsCar.bmp Car.wav;0.1;「サンデードライバー……」;_
+	@戦闘アニメ_斜め落ち共通 Unit\M_SportsCar.bmp Horn.wav
+テリブルアクシデント(命中), @戦闘アニメ_タックル攻撃;超打 FightHit(4).wav;_
+	0.1;「クッ……！.ハァァァァァ……」;_
+	@戦闘アニメ_突く武器準備 Unit\M_SportsCar.bmp Transform.wav;_
+	2;「クッ……！.ハァァァァァ……イヤァ！！」;@戦闘アニメ_振り上げ大斬撃攻撃;_
+	@戦闘アニメ_打ち上げ攻撃 Unit\M_SportsCar.bmp -.wav;「フゥ……」;_
+	@戦闘アニメ_打ち下ろし攻撃 Unit\M_SportsCar.bmp Bomb.wav;_
+	大爆発 Crash.wav;0.1;「フゥ…….……あっちゃぁ！」;強打 -.wav
+
+# MVC_逆回転、MVC_バックジャンプ
+
+
+セイバートゥース(MVC)
+バーサーカークロー(攻撃), スーパータックル オレンジ
+バーサーカークロー(命中), スーパータックル オレンジ -.wav;透明化 対象ユニットＩＤ;_
+	連続描画 Hit\EFFECT_ClawSlashHit(Orange)[01-03].bmp 32 1 1 前面 保持 Stab.wav;4;透明化 対象ユニットＩＤ 解除
+ワイルドファング(攻撃), ジャンプ
+ワイルドファング(命中), MVC_首狩り投げ
+ウェポンＸダッシュ(攻撃), ジャンプ
+ウェポンＸダッシュ(命中), 斬撃;連打;超斬撃 Slash.wav;スーパータックル オレンジ -.wav;Crash.wav;クリティカル斬撃 -.wav
+バーサーカークローＸ(攻撃), 斬撃突撃
+バーサーカークローＸ(命中), スーパータックル オレンジ Stab.wav;透明化 対象ユニットＩＤ 反映;4;_
+	スーパータックル オレンジ -.wav;透明化 対象ユニットＩＤ 反映;_
+	連続描画 Hit\EFFECT_ClawSlashHit(Orange)[01-03].bmp 40 1 1 前面 保持 Stab.wav;3;_
+	スーパータックル オレンジ -.wav;透明化 対象ユニットＩＤ 反映;_
+	連続描画 Hit\EFFECT_ClawSlashHit(Orange)[01-03].bmp 40 1 1 前面 保持 左右反転 Stab.wav;3;_
+	スーパータックル オレンジ -.wav;0.1;「<B><BIG>Die !!</B></BIG>」;Slash.wav;透明化 対象ユニットＩＤ 反映;_
+	Slash.wav;MVC_二重連続描画 Hit\EFFECT_ClawSlashHit(Orange)[01-03].bmp 48 _
+	Hit\EFFECT_ClawSlashHit(Orange)[01-03].bmp 48 1 1 -.wav 相手ユニットＩＤ 保持 左右反転;_
+	5;透明化 対象ユニットＩＤ 解除 反映
+
+# MVC_バックジャンプ、MVC_首狩り投げ、MVC_二重連続描画
+
+
+バーディー(MVC)
+格闘, 格闘
+サイブラスト(攻撃), 気斬 ピンク
+サイブラスト(命中), 飛沫 Glass.wav
+ヘビーアーム, ヘビーマシンガン Weapon\EFFECT_Gatling01.bmp
+
+
+オメガレッド(MVC)
+オメガストライク(攻撃), 透明化 対象ユニットＩＤ;_
+	MVC_倒れ実弾発射 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) 32 遅 逆 有線 Bow.wav
+オメガストライク(命中), 強打
+カーボナディウムコイル, 触手 ホワイト
+オメガスマッシャー(攻撃), MVC_バックジャンプ 速;タックル -.wav
+オメガスマッシャー(命中), 連打 FightHit(1).wav;連打 FightHit(1).wav;_
+	@戦闘アニメ_発射連続描画攻撃 Beam\EFFECT_Beam(White)[03-05].bmp 48 1 1 Bow.wav;_
+	小ビーム ホワイト BreakOff.wav;MVC_背負い投げ
+オメガデストロイヤー(準備), Bow.wav;MVC_二重連続描画 Beam\EFFECT_Beam(White)[03-05].bmp 40 _
+	Beam\EFFECT_Beam(White)[03-05].bmp 40 2 1 保持 背面 左右反転
+オメガデストロイヤー(攻撃), MVC_二重連続描画 Attack\EFFECT_Swing[01-05].bmp 60 _
+	Attack\EFFECT_Swing[01-05].bmp 40 1.5 7 前面 ランダム ランダム２ Swing(2).wav 左右反転２;_
+	斬撃 二刀流 Swing(2).wav
+オメガデストロイヤー(命中), 乱打 Whip.wav
+
+# MVC_バックジャンプ、MVC_倒れ実弾発射、MVC_二重連続描画、MVC_背負い投げ
+
+
+シルバーサムライ(MVC)
+手裏剣(準備), -
+手裏剣, 回転投擲武器 MapBeam\EFFECT_360Beam(Orange)01.bmp 120
+手裏剣(命中), 連打 オレンジ Stab.wav
+タキオンブレード, 日本刀
+百裂刀(攻撃), 発射連続描画 Bullet\EFFECT_MachineCannon(orange)[01-06].bmp 48 2 3 前面 Swing(2).wav
+百裂刀(命中), 連突 Slash.wav
+超手裏剣手裏剣(準備), -
+超手裏剣(攻撃), 回転投擲武器 MapBeam\EFFECT_360Beam(Orange)01.bmp 120 速;_
+	回転発射 MapBeam\EFFECT_360Beam(Orange)01.bmp 120 速;回転発射 MapBeam\EFFECT_360Beam(Orange)01.bmp 120 速
+超手裏剣(命中), 連打 オレンジ Stab.wav;連打 オレンジ Stab.wav
+雷鳴剣(準備), MVC_回転連続描画 LightWeapon\EFFECT_LightSword(Orange)[02-02].bmp 48 5 1 下辺 角度=90 Reload(2).wav 保持
+雷鳴剣(攻撃), MVC_二重連続描画 Lightning\EFFECT_CU_HyperElectric(Yellow)[01-03].bmp 120 _
+	LightWeapon\EFFECT_LightSword(Orange)[02-02].bmp 48 2 3 BeamGun.wav 発光 角度２=90
+雷鳴剣(命中), 大電撃
+氷牙陣(攻撃), MVC_バックジャンプ 垂直 速 振り下ろし;_
+	MVC_二重連続描画 Ice\EFFECT_IceRockPiller[01-02].bmp 48 _
+	LightWeapon\EFFECT_LightSword(White)[02-02].bmp 48 1.5 1 Stab.wav 保持 角度２=-90;_
+	連続描画 Ice\EFFECT_IceRockPiller[01-02].bmp 48 3 1 相手ユニットＩＤ Ice.wav 保持
+氷牙陣(命中), 連打 Stab.wav
+紅蓮陣(攻撃), MVC_回転連続描画 Attack\EFFECT_StabRush[01-02].bmp 48 2 1 前面 Swing(2).wav 保持 角度=90;_
+	MVC_二重連続描画 Action\EFFECT_Burn[01-11].bmp 48 _
+	LightWeapon\EFFECT_LightSword(Red)[02-02].bmp 48 3.3 1 Breath.wav 角度２=90
+紅蓮陣(命中), 火柱
+闘気, オーラ上昇 オレンジ
+
+# MVC_バックジャンプ、MVC_回転連続描画、MVC_二重連続描画
+
+
+モジョー(MVC)
+マニピュレイター(攻撃), ロケットパンチ Hand\EFFECT_Punch(White)09.bmp Whiz.wav
+マニピュレイター(命中), 斬撃
+怪力, 投げ飛ばし
+電撃, 大電撃
+マジカルブラスト, 虹色光線
+
+
+スパイラル(MVC)
+ダンス(攻撃), MVC_背向け 1 -.wav;1;MVC_背向け 1 -.wav;1
+ダンス(命中), -
+ダンシングソード(準備), 周囲回転 Weapon\EFFECT_ShortSword01.bmp 3 Sword.wav 対象ユニットＩＤ
+ダンシングソード(攻撃), 同時ホーミング弾 Weapon\EFFECT_ThrowingDagger01.bmp 48 個数=3 速
+ダンシングソード(命中), 連突
+シックスハンド(攻撃), 多触手 ホワイト
+シックスハンド(命中), 多触手 ホワイト FightHit(2).wav;FightHit(2).wav
+シックスハンドグラップ(攻撃), MVC_バックジャンプ 正 遅 小移動
+シックスハンドグラップ(命中), 背負い固め 1 遅;MVC_バックジャンプ 垂直 高 遅 上下反転 相手ユニットＩＤ;強打
+スタンピートソード(準備), -
+スタンピートソード(攻撃), 平行弾幕 画像ファイル=Weapon\EFFECT_ThrowingSword01.bmp=_
+	Weapon\EFFECT_ThrowingSword01.bmp=Weapon\EFFECT_ThrowingSword01.bmp=Weapon\EFFECT_ThrowingSword01.bmp=_
+	Weapon\EFFECT_ThrowingSword01.bmp 32 回数=3 個数=5 速
+スタンピートソード(命中), 連投剣;連投剣
+メタモルフォーゼ(準備), ユニット変色 イエロー Sword.wav
+メタモルフォーゼ(攻撃), 打突
+メタモルフォーゼ(命中), MVC_メタモルフォーゼ;瞬間変形 MVC_メタモル候補[1] 対象ユニットＩＤ 反映;打撃;_
+	瞬間変形 MVC_メタモル候補[2] 対象ユニットＩＤ 反映;ダメージ;_
+	瞬間変形 MVC_メタモル候補[3] 対象ユニットＩＤ 反映;斬撃;_
+	瞬間変形 MVC_メタモル候補[4] 対象ユニットＩＤ 反映;打撃;_
+	瞬間変形 MVC_メタモル候補[5] 対象ユニットＩＤ 反映;強打;_
+	瞬間変形 MVC_メタモル候補[6] 対象ユニットＩＤ 反映;爪撃;_
+	瞬間変形 MVC_メタモル候補[7] 対象ユニットＩＤ 反映;ダメージ;_
+	瞬間変形 MVC_メタモル候補[8] 対象ユニットＩＤ 反映;ダメージ;_
+	瞬間変形 MVC_メタモル候補[9] 対象ユニットＩＤ 反映;打撃;_
+	瞬間変形 MVC_メタモル候補[10] 対象ユニットＩＤ 反映;ダメージ;_
+	瞬間変形 MVC_メタモル候補[11] 対象ユニットＩＤ 反映;打撃;_
+	瞬間変形 MVC_メタモル候補[12] 対象ユニットＩＤ 反映;強打;_
+	瞬間変形 MVC_メタモル候補[13] 対象ユニットＩＤ 反映;斬撃;MVC_メタモルフォーゼ後処理
+テレポート(ダンス・テレポート), @戦闘アニメ_MVC_背向け攻撃 1 -.wav;1;テレポート
+
+# MVC_メタモルフォーゼ、MVC_メタモルフォーゼ後処理、MVC_バックジャンプ、MVC_背向け
+
+# ゲーム通りの変身パターンはこちら
+#メタモルフォーゼ(命中), 瞬間変形 XMEN_ColossusU.bmp 対象ユニットＩＤ 反映;打撃;_
+#	瞬間変形 XMEN_IcemanU.bmp 対象ユニットＩＤ 反映;ダメージ;_
+#	瞬間変形 XMEN_SilverSamuraiU.bmp 対象ユニットＩＤ 反映;斬撃;_
+#	瞬間変形 XMEN_OmegaRedU.bmp 対象ユニットＩＤ 反映;打撃;_
+#	瞬間変形 XMEN_JuggernautU.bmp 対象ユニットＩＤ 反映;強打;_
+#	瞬間変形 XMEN_WolverineU.bmp 対象ユニットＩＤ 反映;爪撃;_
+#	瞬間変形 XMEN_SpiralU.bmp 対象ユニットＩＤ 反映;ダメージ;_
+#	瞬間変形 XMEN_CycropsU.bmp 対象ユニットＩＤ 反映;ダメージ;_
+#	瞬間変形 XMEN_MagnetoU.bmp 対象ユニットＩＤ 反映;打撃;_
+#	瞬間変形 XMEN_StormU.bmp 対象ユニットＩＤ 反映;ダメージ;_
+#	瞬間変形 XMEN_PsylockeU.bmp 対象ユニットＩＤ 反映;打撃;_
+#	瞬間変形 XMEN_SentinelU.bmp 対象ユニットＩＤ 反映;強打;_
+#	瞬間変形 XMEN_WolverineU.bmp 対象ユニットＩＤ 反映;斬撃
+
+
+センチネル(MVC)
+キャプチャーバブル(攻撃), 光弾銃 Hand\EFFECT_Punch(Purple)15.bmp 32 ブルー Autodoor(open).wav
+キャプチャーバブル(命中), -
+キャプチャーバブル(クリティカル), 決め画像 Common\EFFECT_BubbleSphere01.bmp BeamSaber.wav
+ミサイル, ミサイル 2
+内蔵武器(攻撃), 触手 紫
+内蔵武器(攻撃), Drill.wav;中心回転斬撃武器 Bullet\EFFECT_BeamRingCutter(White)01.bmp 32 -.wav
+内蔵武器(命中), 打撃
+口部レーザー, 中ビーム レッド
+ロケットパンチ(攻撃), 0.1;「<I>ロケット・パンチ</I>」;実弾発射 Hand\EFFECT_Punch(Purple)05.bmp 80 有線 
+ロケットパンチ(命中), 強打
+ハードドライブ(攻撃), 0.1;「<I>ハード・ドライブ</I>」;スーパーパンチ ピンク
+ハードドライブ(命中), Crash.wav;スーパーパンチ ピンク Crash.wav;Crash.wav
+プラズマストーム(攻撃), BeamSaber(3).wav;MVC_回転連続描画 Common\EFFECT_LightningBall[01-03].bmp 64 1 5 手前 保持
+プラズマストーム(命中), 連打;放電
+ハイパーセンチネルフォース(攻撃), 0.1;「<I>ハイパー・センチネル・フォース。.ＤＥＳＴＲＯＹ</I>」;透明化 partner(1);_
+	平行弾幕 ("Unit\" & Info("ユニット",UnitID(partner(1)),"グラフィック")) 個数=3 回数=3 AntiAirMissile.wav
+ハイパーセンチネルフォース(命中), 強打 Punch(Metal).wav;強打 Punch(Metal).wav;強打 Punch(Metal).wav
+
+# MVC_回転連続描画
+
+センチネルフォース(MVC)
+体当たり, タックル
+爆撃(攻撃), 実弾投下 Hit\EFFECT_VulcanHit01.bmp
+爆撃(命中), 連続爆発
+
+
+ジャガーノート(MVC)
+アースクエイクパンチ(攻撃), 大斬撃 オレンジ;地面衝撃 オレンジ Explode(Far).wav 対象ユニットＩＤ;_
+	実弾発射 Rock\EFFECT_GroundRise01.bmp -.wav
+アースクエイクパンチ(命中), 打撃
+ジャガーノートボディプレス(攻撃), ジャンプ;透明化 対象ユニットＩＤ 反映
+ジャガーノートボディプレス(命中), MVC_踏みつけ プレス Shock(Low).wav;透明化 対象ユニットＩＤ 解除 反映
+ネイルスラム(攻撃), 打突
+ネイルスラム(命中), 立ち固め 1 遅;@戦闘アニメ_ヘッドバット攻撃;唐竹割り オレンジ Warship.wav;踏み潰し Warship.wav 2 遅
+ジャガーノートパンチ(攻撃), ヘッドバット
+ジャガーノートパンチ(命中), 超打
+ヘッドクラッシュ(攻撃), ＭＡＰ移動タックル オレンジ Bazooka(8Shot).wav
+ヘッドクラッシュ(命中), 打撃 Crash.wav;打撃 Crash.wav;超打 Crash.wav
+ヘッドクラッシュ(解説), $(ユニット)はジャガーノートヘッドクラッシュで攻撃をかけた。
+
+# MVC_踏みつけ
+
+
+マグニートー(MVC)
+ハイパーグラビテーション(準備), 召喚 Bullet\EFFECT_HyperGravity01.bmp 32 BeamSaber.wav
+ハイパーグラビテーション(攻撃), 0.1;「ハイパーグラブ！」;同時ホーミング弾 Bullet\EFFECT_HyperGravity01.bmp 32 _
+	角度範囲=15 個数=2 BeamSaber.wav
+ハイパーグラビテーション(命中), 飛沫 パープル BeamSaber.wav
+ハイパーグラビテーション(クリティカル), BreakOff.wav;_
+	連続描画 Bullet\EFFECT_HyperGravity[01-04].bmp 32 2 1 前面 相手ユニットＩＤ 保持;_
+	連続描画 Bullet\EFFECT_HyperGravity[01-04].bmp 28 2 1 前面 相手ユニットＩＤ 保持;_
+	連続描画 Bullet\EFFECT_HyperGravity[01-04].bmp 32 2 1 前面 相手ユニットＩＤ 保持
+マグネティックブラスト(攻撃), 0.1;「マグネティックブラスト！」;斬撃 二刀流 Swing(2).wav;実弾発射 Wind\EFFECT_WindCutter(Pink)01.bmp 32 速 発光 -.wav
+マグネティックブラスト(命中), 飛沫 ピンク Whip.wav
+Ｅ・Ｍパルス(攻撃), 0.1;「Ｅ・Ｍパルス！」;ホーミングレーザー ブルー Beamvalcan.wav
+Ｅ・Ｍパルス(命中), ホーミングレーザー ブルー BeamSaber(4).wav
+Ｅ・Ｍパルス(解説), $(ユニット)はエレクトロマグネティックパルスで攻撃をかけた。
+Ｅ・Ｍディスラプター(攻撃), 0.1;「ディスラプター！」;中ビーム パープル BeamShot.wav
+Ｅ・Ｍディスラプター(命中), 中ビーム パープル
+Ｅ・Ｍディスラプター(解説), $(ユニット)はエレクトロマグネティックディスラプターで攻撃をかけた。
+マグネティックテンペスト(準備), 召喚 Common\EFFECT_RosePetal(White)01.bmp BeamSaber(3).wav
+マグネティックテンペスト(攻撃), 0.1;「マグネティック……テンペスト！」;発射連続描画 Bullet\EFFECT_ShotGunBullet[01-06].bmp 120 3 1 BeamSaber(3).wav
+マグネティックテンペスト(命中), 連続描画 Hit\EFFECT_ShotGunHit[01-07].bmp 60 3 1 前面 相手ユニットＩＤ Punch(4).wav;_
+	MVC_二重連続描画 Requid\EFFECT_BloodHit(White)[03-03].bmp 36 Requid\EFFECT_BloodHit(White)[03-03].bmp 36 1 1 _
+	相手ユニットＩＤ 左右反転 上辺 下辺２ 保持;5
+Ｍショックウェイブ(準備), Charge(high).wav;連続描画 Light\EFFECT_BurnOff(Blue)[05-01].gif 48 1.5 2 前面 保持
+Ｍショックウェイブ(攻撃), 0.1;「マグネティック！ ショックウェイブ！！」;MVC_二重連続描画 Beam\EFFECT_MBeamHit(Blue)[01-03].bmp 80 _
+	Impact\EFFECT_GrandEffect(Blue)[01-03].bmp 80 2 1 前面 Bazooka.wav 角度=90 下辺 手前;_
+	MVC_二重連続描画 Beam\EFFECT_MBeamHit(Blue)[01-03].bmp 80 _
+	Impact\EFFECT_GrandEffect(Blue)[01-03].bmp 80 2 1 前面 Bazooka.wav 角度=90 下辺 中間;_
+	MVC_二重連続描画 Beam\EFFECT_MBeamHit(Blue)[01-03].bmp 80 Impact\EFFECT_GrandEffect(Blue)[01-03].bmp 80 2 1 _
+	前面 Bazooka.wav 角度=90 下辺 奥
+Ｍショックウェイブ(命中), 強打 Bazooka.wav;_
+	MVC_回転連続描画 Beam\EFFECT_MBeamHit(Blue)[01-03].bmp 80 2 1 前面 Bazooka.wav 相手ユニットＩＤ 角度=90 下辺;_
+	強打 Bazooka.wav;_
+	MVC_回転連続描画 Beam\EFFECT_MBeamHit(Blue)[01-03].bmp 80 2 1 前面 Bazooka.wav 相手ユニットＩＤ 角度=90 下辺;_
+	強打 Bazooka.wav
+Ｍショックウェイブ(解説), $(ユニット)はマグネティックショックウェイブで攻撃をかけた。
+攻撃無効化(マグネティックフォースフィールド), BeamCoat.wav;_
+	連続描画 Barrier\EFFECT_BeamCoat(Pink)[01-05].bmp 32 1.5 2 前面;ビームコート -.wav フォースフィールド
+グラビティスクイーズ(準備), 振る武器 Bullet\EFFECT_HyperGravity01.bmp 二刀流 BeamSaber(3).wav
+グラビティスクイーズ(攻撃), 0.1;「グラビティスクイーズ！！」;フラッシュ 紫 Glass.wav
+グラビティスクイーズ(命中), 0.1;「フハハハハハ！」;重力圧縮 電撃;「フハハハハハ！.貴様は敗れたのだ！」;超爆発
+
+
+# MVC_回転連続描画　MVC_二重連続描画
+
+
+
+ベノム(MVC)
+ウェブ(準備), -
+ウェブ(攻撃), 光弾銃 Hand\EFFECT_Punch(Black)01.bmp 32 白 Bow.wav
+ウェブ(命中), 連続描画 MapBeam\EFFECT_360Beam(White)[01-04].bmp 48 1.5 1 前面 BreakOff.wav 保持;4
+ベノムファング(攻撃), 瞬間変形 Anime\Bullet\EFFECT_STG_Bullet(Black)05.bmp;MVC_バックジャンプ 正 Cannon.wav
+ベノムファング(命中), 透明化 対象ユニットＩＤ 反映;スーパーダイブ Stab.wav;瞬間変形 対象ユニットＩＤ;_
+	透明化 対象ユニットＩＤ 解除 反映
+ベノムラッシュ(攻撃), 実弾発射 Rock\EFFECT_RockPiller(Black)02.bmp 24 -.wav
+ベノムラッシュ(命中), Combo.wav;_
+	MVC_回転連続描画 Hand\EFFECT_Tentacle(Black)[01-04].bmp 32 4 2 相手ユニットＩＤ 下辺 角度=90;打撃 -.wav
+ウェブスロー(攻撃), レーザーガン Hand\EFFECT_Punch(Black)01.bmp 32 ホワイト Bow.wav
+ウェブスロー(命中), ニードルレーザー ホワイト BreakOff.wav;透明化 相手ユニットＩＤ 反映;_
+	@戦闘アニメ_振り上げ大斬撃攻撃 黒;透明化 解除;投げ飛ばし;2;透明化 相手ユニットＩＤ 反映;_
+	@戦闘アニメ_大斬撃攻撃 黒;投げ飛ばし;2;透明化 相手ユニットＩＤ 反映;@戦闘アニメ_横大斬撃攻撃 黒;_
+	MVC_倒れ実弾発射 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) 有線 速 -.wav;_
+	透明化 相手ユニットＩＤ 解除;投げ飛ばし
+デスバイト(攻撃), 地表衝撃波 ブラック -.wab
+デスバイト(命中), _
+	MVC_回転連続描画 Hand\EFFECT_Tentacle(Black)[01-04].bmp 24 1.5 2 相手ユニットＩＤ 下辺 角度=90 FightHit(1).wav;_
+	MVC_回転連続描画 Hand\EFFECT_Tentacle(Black)[01-04].bmp 32 1.5 2 相手ユニットＩＤ 下辺 角度=90 FightHit(2).wav;_
+	MVC_回転連続描画 Hand\EFFECT_Tentacle(Black)[01-04].bmp 40 1.5 2 相手ユニットＩＤ 下辺 角度=90 FightHit(1).wav;_
+	MVC_回転連続描画 Hand\EFFECT_Tentacle(Black)[01-04].bmp 48 1.5 2 相手ユニットＩＤ 下辺 角度=90 FightHit(2).wav;_
+	超打 -.wav
+ベノムウェブ(攻撃), MVC_バックジャンプ 垂直 速;_
+	連続描画 MapBeam\EFFECT_360Beam(White)[01-05].bmp 160 2 1 背面 保持 Bow.wav;4
+ベノムウェブ(命中), 連続描画 MapBeam\EFFECT_360Beam(White)[01-04].bmp 48 1.5 1 前面 BreakOff.wav 保持;4;_
+	MVC_バックジャンプ 正 速;打撃;打撃;Combo.wav;_
+	MVC_回転連続描画 Hand\EFFECT_Tentacle(Black)[01-04].bmp 48 4 1 対象ユニットＩＤ 発射;連打 Whip.wav;_
+	瞬間変形 Anime\Bullet\EFFECT_STG_Bullet(Black)05.bmp 対象ユニットＩＤ;MVC_バックジャンプ 正 速 -.wav;_
+	透明化 対象ユニットＩＤ 反映;スーパーダイブ Explode.wav;瞬間変形 対象ユニットＩＤ;_
+	透明化 対象ユニットＩＤ 解除 反映
+分身(スパイダーセンス), Hittyuu.wav;連続描画 Common\EFFECT_LargeLightning[01-02].bmp 48 1 3 背面 下辺 -.wav;回避
+分身(スパイダーセンス)(解説), $(ユニット)は直前に危険を察知して攻撃を回避した。
+シールド防御(ウェブシールド), 呪盾
+ジャンプ(ウェブスイング), _
+	@戦闘アニメ_MVC_回転連続描画攻撃 Laser\EFFECT_NeedleLaser(White)[01-02].bmp 48 1 1 発射 角度=15 Bow.wav;_
+	@戦闘アニメ_MVC_バックジャンプ攻撃 正 速
+
+# MVC_バックジャンプ、MVC_回転連続描画、MVC_倒れ実弾発射
+
+
+
+ブラックハート(MVC)
+マインドゲーム, フラッシュ ブラック
+亡者(攻撃), 投擲武器 Animal\EFFECT_Tiger(Green)01.bmp 遅
+亡者(命中), 飛沫 グリーン Punch.wav
+小悪魔(攻撃), 実弾発射 Creature\EFFECT_SuspectBird01.bmp 遅 反動
+小悪魔(命中), 飛沫 赤 BeamSaber.wav
+ダークサンダー(攻撃), ショックビーム 黒 Thunder.wav
+ダークサンダー(命中), ショックビーム 黒 Thunder.wav
+インフェルノ(攻撃), 回転発射 Magic\EFFECT_MagicEmblem(Black)01.bmp 32 -.wav 速
+インフェルノ(命中), 火柱
+インフェルノ(命中), MVC_回転連続描画 ShockBeam\EFFECT_TwinShockBeamHit(Blue)[01-10].bmp 60 3 1 Thunderbolt.wav _
+	相手ユニットＩＤ 角度=90;MVC_高速変色 青 相手ユニットＩＤ -.wav
+インフェルノ(命中), MVC_回転連続描画 Ice\EFFECT_Blizzard(White)[01-08].bmp 60 2 1 Storm.wav _
+	相手ユニットＩＤ 角度=90;MVC_高速変色 白 相手ユニットＩＤ -.wav
+ジャッジメントデイ(攻撃), 拡散弾幕 Creature\EFFECT_SuspectBird01.bmp 24 個数=4 回数=3 速 角度範囲=10
+ジャッジメントデイ(命中), 乱打
+ハートオブダークネス(攻撃), -
+ハートオブダークネス(命中), 魔方陣 ブラック -.wav;Cannon.wav;_
+	連続描画 Magic\EFFECT_Fairy[01-02].bmp 20 1 1 前面 下辺 相手ユニットＩＤ 保持;_
+	MVC_二重連続描画 Magic\EFFECT_Fairy[01-04].bmp 20 Magic\EFFECT_Fairy[01-04].bmp 20 1 1 _
+	下辺２ 左右反転２ 相手ユニットＩＤ 保持;_
+	MVC_二重連続描画 Magic\EFFECT_Fairy[01-04].bmp 20 Magic\EFFECT_Fairy[01-04].bmp 20 1 1 _
+	上辺 左右反転２ 相手ユニットＩＤ 保持;_
+	MVC_アッパー連打;MVC_アッパー連打;Warship.wav;_
+	MVC_回転連続描画 Beam2\EFFECT_BeamShotGunHit(White)[01-05].bmp 80 1.5 2 保持 相手ユニットＩＤ 下辺 角度=90
+アーマゲドン(攻撃), Earthquake.wav;隕石 -.wav;隕石 -.wav
+アーマゲドン(命中), 強打;強打;強打
+
+# MVC_回転連続描画、MVC_二重連続描画、MVC_アッパー連打、MVC_高速変色
+
+
+
+マーヴルズ
+# シュマゴラス、スプリットシュマゴラス
+眼光(攻撃), 小ビーム ブルー
+眼光(命中), 打撃
+吸収(攻撃), 格闘
+吸収(命中), 立ち固め 2 Charge.wav;吸収 黄
+ミスティックステア(攻撃), 0.1;「(ミスティックステア！)」;回転発射 BodyParts\EFFECT_EvilEye(Green)01.bmp 残像
+ミスティックステア(命中), _
+	連続描画 BodyParts\EFFECT_EvilEye(Green)[01-01].bmp 24 4 1 BreakOff.wav 保持 相手ユニットＩＤ;_
+	連続描画 BodyParts\EFFECT_EvilEye(Yellow)[01-01].bmp 24 2 1 Charge(high).wav 相手ユニットＩＤ;連続爆発
+ミスティックスマッシュ(攻撃), 0.1;「(ミスティックスマッシュ！)」;瞬間変形 Anime\BodyParts\EFFECT_CellWall(Green)01.bmp 対象ユニットＩＤ;_
+	MVC_バックジャンプ 正 速;透明化 対象ユニットＩＤ 反映
+ミスティックスマッシュ(命中), スーパーダイブ;透明化 解除 対象ユニットＩＤ 反映
+ミスティックレイ(攻撃), 0.1;「(ミスティックレイ！)」;_
+	伸縮武器振り下ろし SlideWeapon\EFFECT_SlideBeamSaber(Purple)[01-03].bmp 28 Laser.wav
+ミスティックレイ(命中), 強打
+ディバイタリゼーション(攻撃), 発光 黄 対象ユニットＩＤ -.wav
+ディバイタリゼーション(命中), MVC_高度叩きつけ
+ハイパーミスティックレイ(攻撃), 0.1;「(ハイパー！ ミスティックレイ！)」;_
+	伸縮武器回転 SlideWeapon\EFFECT_SlideBeamSaber(Purple)[01-03].bmp 32 Laser.wav 無限
+ハイパーミスティックレイ(命中), 強打;強打
+Ｈミスティックスマッシュ(攻撃), 0.1;「(ハイパーミスティックスマァァァァッシュ！！)」;_
+	実弾乱射 BodyParts\EFFECT_CellWall(Green)01.bmp 32 Cannon(8Shot).wav
+Ｈミスティックスマッシュ(命中), 連打;連打
+Ｈミスティックスマッシュ(解説), $(ユニット)はハイパーミスティックスマッシュで攻撃をかけた。
+カオスディメンション(攻撃), 打突
+カオスディメンション(命中), 立ち固め 1 速;透明化 対象ユニットＩＤ 反映;_
+	変形 Anime\Common\EFFECT_BubbleSphere(Green)01.bmp Charge(2).wav 相手ユニットＩＤ;透明化 相手ユニットＩＤ 反映;_
+	MVC_バックジャンプ 相手ユニットＩＤ 垂直 高 遅 -.wav;0.1;「(カオスディメンション！！)」;_
+	瞬間変形 相手ユニットＩＤ;Explode(Nuclear).wav;_
+	MVC_回転連続描画 Spin\EFFECT_WhirlWind(Green)[02-05].bmp 60 2 2 前面 相手ユニットＩＤ 角度=90;_
+	MVC_バックジャンプ 相手ユニットＩＤ 垂直 回転 上下反転 高 遅 -.wav;透明化 対象ユニットＩＤ 解除 反映
+	
+# MVC_回転連続描画、MVC_バックジャンプ、MVC_高度叩き付け
+
+
+ドクター・ドゥーム(MVC)
+フットダイブ(攻撃), 0.1;「フットダイブ！」;MVC_スーパーキック改
+フットダイブ(命中), 打撃
+ヒドゥンミサイル(攻撃), 0.1;「ヒドゥンミサイル！」;打ち上げ Bullet\EFFECT_Missile05.bmp Missile(8Shot).wav;_
+	打ち下ろし Bullet\EFFECT_Missile05.bmp -.wav
+ヒドゥンミサイル(命中), 連続爆発
+レイガン, ビームライフル イエロー Weapon\EFFECT_SuperGun01.bmp
+フォトンショット(攻撃), 0.1;「フォトン・ショット！」;実弾発射 Beam2\EFFECT_BeamShotGunHit(Pink)01.bmp 32 BeamShot.wav
+フォトンショット(命中), _
+	MVC_回転連続描画 Beam2\EFFECT_BeamShotGunHit(Pink)[01-03].bmp 36 1 1 発射 相手ユニットＩＤ Explode(Small).wav;_
+	打撃 -.wav
+モレキュラーシールド(準備), 周囲回転 Common\EFFECT_Particle(Orange)01.bmp 3 BeamSaber.wav
+モレキュラーシールド(攻撃), 0.1;「モレキュラーシールド！」;実弾発射 Common\EFFECT_Particle(Orange)01.bmp -.wav
+モレキュラーシールド(命中), 連打
+プラズマビーム, 中ビーム イエロー
+プラズマビーム(攻撃), 0.1;「プラズマビーム！」;中ビーム イエロー
+エレクトリックケイジ(攻撃), 球電
+エレクトリックケイジ(命中), 大放電
+スフィアフレイム(攻撃), 0.1;「スフィアフレイム！」;超アッパー;打ち上げ Fire\EFFECT_FlameThrowerHit(Red)06.bmp 48;_
+	MVC_回転連続描画 MapBeam\EFFECT_SectorBeam(Red)[01-09].bmp 360 3 1 BeamGun.wav 角度=180
+スフィアフレイム(命中), MVC_回転連続描画 Beam\EFFECT_DBeamHit(Red)[01-08].bmp 64 3 1 _
+	角度=270 相手ユニットＩＤ Cannon(4Shot).wav;打撃 赤 -.wav
+フォトンアレイ(攻撃), 0.1;「フォトンアレイ！」;_
+	MVC_回転連続描画 MapBeam\EFFECT_360Beam(Pink)[01-07].bmp 100 2 4 背面 ランダム BeamShot.wav
+フォトンアレイ(命中), ビームショットガン 桃;ビームショットガン 桃;ビームショットガン 桃
+ドゥームズタイム(攻撃), なぎ払い;実弾発射 DGoods\EFFECT_CompactDisk01.bmp -.wav
+ドゥームズタイム(命中), 連続描画 Light\EFFECT_LightScreen(Green)[01-01].bmp 52 8 1 相手ユニットＩＤ 背面 保持 BeamSaber(2).wav;_
+	0.1;「フハハハハハハ……」;_
+	MVC_二重連続描画 Common\EFFECT_ElectricDisCharge[01-06].bmp 60 _
+	Light\EFFECT_LightScreen(Green)[01-01].bmp 52 2 5 相手ユニットＩＤ 背面 ランダム Thunder.wav;_
+	0.1;「フハハハハハハ…….この戯れも幕よ！」;大爆発
+
+# MVC_回転連続描画、MVC_二重連続描画、MVC_スーパーキック改
+
+
+スーパースクラル(MVC)
+ヒュプノタイズ(攻撃), 双眼球 赤 Laugh(OldMan).wav 対象ユニットＩＤ
+ヒュプノタイズ(命中), -
+テンダライザー(攻撃), 0.1;「テンダライザー！」;_
+	MVC_回転連続描画 Attack\EFFECT_Stick(H)[04-07].bmp 40 1.5 3 中間 発射 Swing(2).wav
+テンダライザー(命中), 連打;超打 Explode(Small).wav
+オービタルグラッジ(攻撃), デフォルト;瞬間変形 Anime\Common\EFFECT_Tornado(Orange)01.bmp 対象ユニットＩＤ;Fire.wav;_
+	0.1;「燃えろ！！」;MVC_二重連続描画 Slash\EFFECT_HyperSlashLine(Red)[01-04].bmp 48 _
+	Slash\EFFECT_HyperSlashLine(Red)[01-04].bmp 48 2 1 上下反転 左右反転;_
+	瞬間変形 Anime\Common\EFFECT_Tornado(Orange)02.bmp 対象ユニットＩＤ;_
+	MVC_二重連続描画 Slash\EFFECT_HyperSlashLine(Red)[01-03].bmp 48 _
+	Slash\EFFECT_HyperSlashLine(Red)[01-03].bmp 48 2 1 上下反転 左右反転 保持
+オービタルグラッジ(命中), 連打
+オービタルグラッジ(クリティカル), 瞬間変形 対象ユニットＩＤ;0.1;「フェイタルバスター！」;_
+	@戦闘アニメ_振り上げ大炎斬撃攻撃;@戦闘アニメ_強打命中;デフォルト
+メテオスマッシュ(攻撃),  0.1;「メテオスマッシュ！」;連続描画 Effect\EFFECT_TelePort(Blue)[01-03].bmp 64 1.5 1 Beam2.wav;_
+	透明化 対象ユニットＩＤ 反映
+メテオスマッシュ(命中), 突く武器急降下 Attack\EFFECT_Stick(H)01.bmp 32 -.wav;_
+	MVC_二重連続描画 Light\EFFECT_LightGeyser(Orange)[01-03].bmp 80 _
+	Impact\EFFECT_GrandEffect(Orange)[01-03].bmp 80 2 1 下辺 Warship.wav 相手ユニットＩＤ;打撃 -.wav
+エラスティックスラム(攻撃), 伸縮武器 Hand\EFFECT_GumArm(Purple)[01-03].bmp 28 Bow.wav
+エラスティックスラム(命中), 0.1;「エラスティックスラム！」;ダメージ 紫 BreakOff.wav;MVC_首狩り投げ 非回転;_
+	ブレーンバスター;MVC_首狩り投げ 非回転;ブレーンバスター;0.1;「エラスティックスラム！.フハハハハ！」;_
+	背負い固め 1 Door(Open)(2).wav;投げ飛ばし Shock(Low).wav
+スクラルトーチ(準備), 変形 Anime\Common\EFFECT_Tornado(Purple)01.bmp Door(Open)(2).wav
+スクラルトーチ(攻撃), 0.1;「ハーッハハハハハ！！」;透明化 対象ユニットＩＤ 反映;旋風 赤 Breath.wav
+スクラルトーチ(命中), 旋風 赤 Breath.wav
+インフェルノ(攻撃), 0.1;「インフェルノォォォ！！」;MVC_二重連続描画 Explode\EFFECT_Explode(Orange)[06-11].bmp 80 _
+	Explode\EFFECT_Explode(Red)[07-12].bmp 120 5 1 背面 保持 対象ユニットＩＤ Breath.wav
+インフェルノ(命中), 炎の壁
+デスペナルティ(攻撃), 0.1;「デスペナルティ！！」;_
+	連続描画 Effect\EFFECT_TelePort(Blue)[01-03].bmp 64 1.5 1 Beam2.wav;透明化 対象ユニットＩＤ 反映
+デスペナルティ(命中), 突く武器急降下 Attack\EFFECT_Stick(H)01.bmp 32 -.wav;透明化 対象ユニットＩＤ 反映;_
+	MVC_二重連続描画 Light\EFFECT_LightGeyser(Orange)[01-03].bmp 80 _
+	Impact\EFFECT_GrandEffect(Orange)[01-03].bmp 80 2 1 下辺 Warship.wav 相手ユニットＩＤ;_
+	MVC_踏みつけ Door(Open)(2).wav 保持;「退屈か？」;0.1;_
+	「Ｄｉｅ！　Ｄｉｅ！　Ｄｉｅ！　Ｄｉｅ！」;_
+	踏み潰し FightHit(1).wav;@戦闘アニメ_大斬撃攻撃 紫;_
+	MVC_二重連続描画 Light\EFFECT_LightGeyser(Orange)[01-03].bmp 80 _
+	Impact\EFFECT_GrandEffect(Orange)[01-03].bmp 80 2 1 下辺 Warship.wav 相手ユニットＩＤ;_
+	@戦闘アニメ_大斬撃攻撃 紫;_
+	MVC_二重連続描画 Light\EFFECT_LightGeyser(Orange)[01-03].bmp 80 _
+	Impact\EFFECT_GrandEffect(Orange)[01-03].bmp 80 2 3 下辺 Warship.wav 相手ユニットＩＤ;_
+	@戦闘アニメ_伸縮武器攻撃 Hand\EFFECT_GumArm(Purple)[01-03].bmp 28 BreakOff.wav;0.1;_
+	「Ｎｏｗ！ Ｄｉｅｅｅｅｅ！！」;立ち固め 1;超打 Transform.wav
+
+# MVC_回転連続描画、MVC_二重連続描画、MVC_首狩り投げ
+
+
+ドーマムゥ(MVC)
+フレイムカーペット(攻撃), Fire.wav;MVC_回転連続描画 Fire\EFFECT_FlameWall(Orange)[01-04].bmp 16 2 2 中間 保持 下辺
+フレイムカーペット(命中), 炎の壁
+ダークホール(攻撃), Storm.wav;MVC_二重連続描画 Bullet\EFFECT_BeamRingCutter(Black)[01-04].bmp 32 _
+	Bullet\EFFECT_HyperGravity[01-04].bmp 32 2 2 相手ユニットＩＤ 保持
+ダークホール(命中), MVC_二重連続描画 Bullet\EFFECT_BeamRingCutter(Black)[01-04].bmp 32 _
+	Bullet\EFFECT_HyperGravity[01-04].bmp 32 1.2 4 相手ユニットＩＤ 背面 FightHit(2).wav
+ピュリフィケイション(攻撃), MVC_回転連続描画 Beam2\EFFECT_HyperBeamHit(Black)[08-05].bmp 96 2 1 _
+	下辺 BeamCannon(2).wav 保持 角度=90 奥
+ピュリフィケイション(命中), 超アッパー Explode.wav
+ダークスペル(攻撃), MVC_回転連続描画 Bullet\EFFECT_MachineCannon(Red)[01-06].bmp 240 2 4 Bomb.wav _
+	ＭＡＰ 角度=270 下辺
+ダークスペル(命中), 連打 赤 Fire(2).wav;炎 -.wav
+ストークファイア(準備), 召喚 Impact\EFFECT_ImpactBall(Red)02.bmp Fire.wav
+ストークファイア(攻撃), 0.1;「逃げろ……逃げ惑え！」;ホーミング弾 Impact\EFFECT_ImpactBall(Red)02.bmp 32 遅 前転 発光 -.wav
+ストークファイア(命中), 乱打 赤 Fire(2).wav;炎 -.wav
+カオティックフレイム(攻撃), 0.1;「カオティックフレイム！」;MVC_回転連続描画 Fire\EFFECT_HyperFire(Red)[01-07].bmp 96 4 1 _
+	発射 角度=180 保持 発光 FlameThrower.wav
+カオティックフレイム(命中), 発射連続描画 Fire\EFFECT_FlameThrowerHit(Red)[01-09].bmp 80 3 1 FlameThrower.wav
+ダークディメンション(攻撃), 0.1;「ダークディメンション」;振り上げ -.wav;実弾発射 Bullet\EFFECT_GroundCutter(Purple)01.bmp -.wav
+ダークディメンション(命中), 飛沫 紫 Splash.wav;粒子集中 紫 -.wav;_
+	変形 Anime\Common\EFFECT_BubbleSphere(Purple)01.bmp -.wav 相手ユニットＩＤ;_
+	連続描画 Event\BlackOut[01-06].bmp 680 10 1 相手ユニットＩＤ 背面 保持;_
+	「ようこそ、私の領域へ」;MVC_二重連続描画 Hit\EFFECT_Fang[05-03].bmp 64 _
+	Break\EFFECT_Crack[01-03].gif 680 10 1 BreakOff.wav 保持 背面 相手ユニットＩＤ;_
+	瞬間変形 相手ユニットＩＤ;装甲破壊 紫 Glass.wav
+	
+# MVC_二重連続描画、MVC_回転連続描画
+
+
+モードック(MVC)
+アナライズキューブ(攻撃), 0.1;「アナライズキューブ！」;MVC_二重連続描画 Impact\EFFECT_ImpactBallHit(Blue)[01-05].gif 48 _
+	DGoods\EFFECT_Dice(Blue)[01-01].bmp 32 2 1 奥 保持 Button3.wav
+アナライズキューブ(命中), 吸収 WindowOpen.wav
+フルブースト(攻撃), スーパータックル オレンジ
+フルブースト(命中), スーパータックル オレンジ FightHit(1).wav
+Ｂ．ボム(攻撃), Explode(Small).wav;MVC_回転連続描画 Weapon\EFFECT_IronBall[02-02].bmp 28 1 1 対象ユニットＩＤ 保持;_
+	MVC_回転連続描画 Weapon\EFFECT_IronBall[02-02].bmp 28 1 1 手前 角度=15 保持;_
+	MVC_回転連続描画 Weapon\EFFECT_IronBall[02-02].bmp 28 1 1 中間 角度=30 保持
+Ｂ．ボム(命中), 爆発
+Ｐ．ブラスター, 中ビーム
+Ｐ．ブラスター(攻撃), 0.1;「サイオニックブラスター！」;中ビーム
+Ｋ．イルミネーション(攻撃), 0.1;「キラーイルミネーション！」;触手 黄
+Ｋ．イルミネーション(命中), 0.1;「動くなよォ！」;MVC_回転連続描画 Hit\EFFECT_TentacleHit(Yellow)[01-04].bmp 64 2 1 発射 保持 _
+	相手ユニットＩＤ Reload.wav;0.1;「動くなよォ！.俺様のために泣き叫べェ！！」;_
+	MVC_二重連続描画 Hit\EFFECT_TentacleHit(Yellow)[04-04].bmp 64 Common\EFFECT_ElectricDisCharge[01-06].bmp 64 _
+	2 4 ランダム２ 発射 相手ユニットＩＤ Thunderbolt.wav;背負い固め 1 -.wav;投げ飛ばし
+ハイパーＰブラスター, 超ビーム
+ハイパーＰブラスター(攻撃), 0.1;「ハイパーサイオニックブラスター！」;超ビーム
+リミットバースト(攻撃), 0.1;「リミットバースト！」;スーパータックル ピンク
+リミットバースト(命中), 0.1;「ニャッハハハハハハハハァ！！」;_
+	スーパーパンチ ピンク;スーパーパンチ ピンク;スーパーパンチ ピンク 90;スーパーパンチ ピンク 90;_
+	スーパーパンチ ピンク 90
+
+# MVC_二重連続描画、MVC_回転連続描画
+
+
+タスクマスター(MVC)
+ウェブスウィング, ジャンプ
+ウェブスウィング(攻撃), 0.1;「スパイディスウィング！」;ジャンプ
+チャージングスター(攻撃), 0.1;「シールドスキル！」;スーパータックル ピンク
+チャージングスター(命中), スーパータックル ピンク FightHit(1).wav
+エイムマスター, 弓
+エイムマスター(攻撃), 0.1;「エイム オブ ホークアイ！」;手持ち連射 Weapon\EFFECT_Bow00.bmp 32 対象ユニットＩＤ _
+	LightWeapon\EFFECT_LightArrow(Pink)01.bmp 32 Bow.wav
+エイムマスター(命中), ダメージ ピンク Stab.wav;ダメージ ピンク Stab.wav;ダメージ ピンク Stab.wav
+ガードマスター(攻撃), @戦闘アニメ_突く武器準備 Shield\EFFECT_FireShield01.bmp Reload(2).wav
+ガードマスター(命中), MVC_二重連続描画 Hit\EFFECT_Damage(Blue)[01-05].bmp 64 Shield\EFFECT_FireShield[01-01].bmp 32 _
+	2 1 Sword.wav;@戦闘アニメ_刺突攻撃;@戦闘アニメ_刺突命中;@戦闘アニメ_ピストル攻撃;強打 -.wav
+ソードマスター(攻撃), 突く武器突撃 -.bmp -.wav;大斬撃
+ソードマスター(命中), 大斬撃
+ソードマスター(クリティカル), @戦闘アニメ_ヘッドバット攻撃;@戦闘アニメ_強打命中;_
+	@戦闘アニメ_刺突命中;@戦闘アニメ_ピストル攻撃;@戦闘アニメ_強打命中 -.wav;デフォルト
+レギオンアロー(攻撃), 手持ち乱射 Weapon\EFFECT_Bow00.bmp 32 対象ユニットＩＤ _
+	LightWeapon\EFFECT_LightArrow(Pink)01.bmp 32 Bow.wav Beamvalcan.wav
+レギオンアロー(命中), 点乱打 ピンク Stab.wav
+イージスカウンター(攻撃), 0.1;「シークレットムーブ！」;@戦闘アニメ_突く武器準備 Shield\EFFECT_FireShield01.bmp Reload(2).wav
+イージスカウンター(命中),  0.1;「見切ったのである！」;MVC_二重連続描画 Hit\EFFECT_Damage(Blue)[01-05].bmp 64 _
+	Shield\EFFECT_FireShield[01-01].bmp 32 2 1 Sword.wav;0.1;「見切ったのである！.ソード オブ ブラックナイト！！」;_
+	連斬撃;@戦闘アニメ_斬撃乱舞攻撃;斬撃乱舞;スーパータックル 黒;大刺突;_
+	「見切ったのである！.ソード オブ ブラックナイト！！.こんなところであるか？」;@戦闘アニメ_ピストル攻撃;超打 -.wav
+シールド防御, 炎盾
+
+# MVC_二重連続描画
+
+
+サノス(MVC)
+ガントレットマインド(攻撃), MVC_高速変色 ブルー;フラッシュ
+ガントレットマインド(命中), -
+ガントレットマインド(クリティカル), 回転 3
+ガントレットタイム(攻撃), MVC_高速変色 レッド;_
+	平行弾幕 Action\EFFECT_LightScreen01.bmp 48 個数=1 回数=1 角度固定 遅 Interference.wav
+ガントレットタイム(命中), -
+ガントレットタイム(クリティカル), ユニット変色 ブラック BeamSaber.wav
+デススフィア(攻撃), なぎ払い;実弾発射 Common\EFFECT_BubbleSphere01.bmp 24 -.wav
+デススフィア(命中), 決め画像 Common\EFFECT_BubbleSphere01.bmp Bubble.wav
+タイタンクラッシュ(攻撃), スーパーパンチ 紫
+タイタンクラッシュ(命中), 大刺突 FightHit(3).wav
+ガントレットスペース(準備), MVC_高速変色 パープル;召喚 Bullet\EFFECT_HyperGravity02.bmp 24 BeamShot.wav
+ガントレットスペース(攻撃), 連続描画 Bullet\EFFECT_HyperGravity[02-02].bmp 24 1 1 保持;_
+	連続描画 Explode\EFFECT_BigExplodeA(Black)[02-02].bmp 48 1 1 下辺 保持;_
+	連続描画 Explode\EFFECT_BigExplodeA(Black)[01-01].bmp 64 3 1 下辺 保持;Charge(2).wav;_
+	MVC_二重連続描画 Bullet\EFFECT_ShotGunBullet[06-01].bmp 60 _
+	Explode\EFFECT_BigExplodeA(Black)[01-06].bmp 64 2 4 下辺 下辺２ 角度=-90;BeamCoat.wav;_
+	連続描画 Explode\EFFECT_BigExplodeA(Purple)[01-01].bmp 64 3 1 下辺 相手ユニットＩＤ 保持;_
+	連続描画 Explode\EFFECT_BigExplodeA(Black)[01-01].bmp 64 3 1 下辺 相手ユニットＩＤ 保持;Breath.wav;_
+	MVC_二重連続描画 Bullet\EFFECT_ShotGunBullet[01-06].bmp 60 _
+	Explode\EFFECT_BigExplodeA(Black)[01-06].bmp 64 2 5 前面 下辺 下辺２ 相手ユニットＩＤ 角度=-90
+ガントレットスペース(命中), 乱打
+ガントレットソウル(攻撃), MVC_高速変色 グリーン;_
+	MVC_回転連続描画 ShockBeam\EFFECT_ShockBeam(Green)[01-06].bmp 60 3 1 発射 下辺 保持 BeamSaber(3).wav
+ガントレットソウル(命中), BeamCoat.wav;_
+	MVC_回転連続描画 ShockBeam\EFFECT_ShockBeam(Green)[02-07].bmp 60 3 3 相手ユニットＩＤ 発射 保持 角度=180;_
+	吸収 緑 -.wav
+ガントレットリアリティ(攻撃), MVC_高速変色 オレンジ;_
+	連続描画 Barrier\EFFECT_MoveKekkai(Purple)[01-03].gif 120 5 2 Earthquake.wav 保持 相手ユニットＩＤ;_
+	連続描画 Barrier\EFFECT_MoveKekkai(Purple)[01-03].gif 100 1 1 FastGun.wav 保持 相手ユニットＩＤ;_
+	連続描画 Barrier\EFFECT_MoveKekkai(Purple)[01-03].gif 80 1 1 保持 相手ユニットＩＤ;_
+	連続描画 Barrier\EFFECT_MoveKekkai(Purple)[01-03].gif 60 1 1 保持 相手ユニットＩＤ
+ガントレットリアリティ(命中),ダメージ Crash.wav
+ガントレットパワー(攻撃), MVC_高速変色 ピンク;なぎ払い;実弾発射 Explode\EFFECT_BigExplodeA(Orange)03.bmp 60
+ガントレットパワー(命中), 連続爆発
+
+# MVC_回転連続描画 MVC_二重連続描画 MVC_高速変色
+
+
+巨大アポカリプス(MVC)
+拡散ファイヤーボール(攻撃), 実弾発射 Bullet\EFFECT_Cannon04.bmp 28
+拡散ファイヤーボール(命中), 炎
+ファイヤーボール(準備), @戦闘アニメ_ロックオン攻撃 相手ユニットＩＤ
+ファイヤーボール(攻撃), ホーミング弾 Fire\EFFECT_FlameThrowerHit(Red)07.bmp 24 個数=3 速 Cannon.wav
+ファイヤーボール(命中), 炎
+リフレクトレーザー(攻撃), MVC_回転連続描画 Beam\EFFECT_Beam(Blue)[01-05].bmp 56 3 1 ランダム Beam.wav;_
+	MVC_回転連続描画 Beam\EFFECT_Beam(Blue)[01-05].bmp 56 3 1 ランダム Beam.wav
+リフレクトレーザー(命中), 小ビーム ブルー ランダム方向;小ビーム ブルー ランダム方向
+衝撃波(攻撃), 斬撃;地面衝撃 オレンジ Explode(Far).wav 対象ユニットＩＤ;_
+	実弾発射 Bullet\EFFECT_GroundCutter(Yellow)01.bmp -.wav
+衝撃波(命中), 打撃;強打
+ハンマー, 殴打武器 Weapon\EFFECT_IronBall02.bmp
+アイレーザー(攻撃), 格闘 -.wav;_
+	MVC_回転連続描画 Beam\EFFECT_2MBeam(Yellow)[03-05].bmp 48 1 4 LaserGun.wav 保持 発射 角度=-30
+アイレーザー(命中), 超打 Explode.wav
+ドリル(攻撃), ドリル突撃
+ドリル(命中), ドリル
+
+# MVC_回転連続描画 
+
+
+
+マーヴルズ
+# オンスロート
+サイブラスト, ＭＡＰ波動放射 ピンク
+ハイパーグラビテーション(準備), 召喚 Bullet\EFFECT_AuraBall(Green)02.bmp 32 BeamSaber.wav
+ハイパーグラビテーション(攻撃), 同時ホーミング弾 Explode\EFFECT_BigExplodeA(Green)02.bmp 48 _
+	角度範囲=15 個数=2 BeamSaber.wav
+ハイパーグラビテーション(命中), 飛沫 グリーン BeamSaber.wav
+ハイパーグラビテーション(クリティカル), BreakOff.wav;_
+	連続描画 Explode\EFFECT_BigExplodeA(Green)[01-02].bmp 48 1 2 前面 相手ユニットＩＤ 保持;_
+	連続描画 Explode\EFFECT_BigExplodeA(Green)[02-03].bmp 48 1 2 前面 相手ユニットＩＤ 保持;_
+	連続描画 Explode\EFFECT_BigExplodeA(Green)[01-02].bmp 48 1 2 前面 相手ユニットＩＤ 保持
+マグネティックテンペスト(準備), 召喚 Common\EFFECT_RosePetal(White)01.bmp BeamSaber(3).wav
+マグネティックテンペスト(攻撃), 発射連続描画 Bullet\EFFECT_ShotGunBullet[01-06].bmp 120 3 1 BeamSaber(3).wav
+マグネティックテンペスト(命中), 連続描画 Hit\EFFECT_ShotGunHit[01-07].bmp 60 3 1 前面 相手ユニットＩＤ Punch(4).wav;_
+	MVC_二重連続描画 Requid\EFFECT_BloodHit(White)[03-03].bmp 36 Requid\EFFECT_BloodHit(White)[03-03].bmp 36 1 1 _
+	相手ユニットＩＤ 左右反転 上辺 下辺２ 保持;5
+ヘッドクラッシュ(オンスロート)(攻撃), スーパータックル オレンジ
+ヘッドクラッシュ(オンスロート)(命中), Crash.wav;スーパーパンチ オレンジ Crash.wav;Crash.wav
+メガオプティックブラスト, 巨大ビーム ブルー
+Ｍショックウェイブ(攻撃), MVC_二重連続描画 Beam\EFFECT_MBeamHit(Yellow)[01-03].bmp 80 _
+	Impact\EFFECT_GrandEffect(Yellow)[01-03].bmp 80 2 1 前面 Bazooka.wav 角度=90 下辺;_
+	MVC_二重連続描画 Beam\EFFECT_MBeamHit(Yellow)[01-03].bmp 80 _
+	Impact\EFFECT_GrandEffect(Yellow)[01-03].bmp 80 2 1 前面 Bazooka.wav 角度=90 下辺 中間;_
+	MVC_二重連続描画 Beam\EFFECT_MBeamHit(Yellow)[01-03].bmp 80 Impact\EFFECT_GrandEffect(Yellow)[01-03].bmp 80 2 1 _
+	前面 Bazooka.wav 角度=90 下辺 相手ユニットＩＤ
+Ｍショックウェイブ(命中), 強打 Bazooka.wav;_
+	MVC_回転連続描画 Beam\EFFECT_MBeamHit(Yellow)[01-03].bmp 80 2 1 前面 Bazooka.wav 相手ユニットＩＤ 角度=90 下辺;_
+	強打 Bazooka.wav;_
+	MVC_回転連続描画 Beam\EFFECT_MBeamHit(Yellow)[01-03].bmp 80 2 1 前面 Bazooka.wav 相手ユニットＩＤ 角度=90 下辺;_
+	強打 Bazooka.wav
+Ｍショックウェイブ(解説), $(ユニット)はマグネティックショックウェイブで攻撃をかけた。
+クロー(攻撃), 格闘
+クロー(命中), 打撃;強打
+ビーム(攻撃), MVC_回転連続描画 Beam2\EFFECT_BeamShotGun(White)[01-05].bmp 48 2 1 BeamShot.wav 方向判定 角度=-135;_
+	MVC_回転連続描画 Beam2\EFFECT_BeamShotGun(White)[01-05].bmp 48 2 1 BeamShot.wav 角度=-90;_
+	MVC_回転連続描画 Beam2\EFFECT_BeamShotGun(White)[01-05].bmp 48 2 1 BeamShot.wav 方向判定 角度=-45;_
+	MVC_回転連続描画 Beam\EFFECT_LBeamHit(LightBlue)[01-03].bmp 80 2 1 前面 AntiAirMissile.wav 角度=90 下辺;_
+	MVC_回転連続描画 Beam\EFFECT_LBeamHit(LightBlue)[01-03].bmp 80 2 1 前面 AntiAirMissile.wav 中間 角度=90 下辺;_
+	MVC_回転連続描画 Beam\EFFECT_LBeamHit(LightBlue)[01-03].bmp 80 2 1 前面 AntiAirMissile.wav _
+	相手ユニットＩＤ 角度=90 下辺
+ビーム(命中), 大光柱 Explode(Long).wav
+緊急テレポート(精神虚像)(解説), $(ユニット)はそこにはいなかった。
+
+# MVC_回転連続描画 MVC_二重連続描画
+
+
+キャプテンコマンドー(MVC)
+キャプテンキック(攻撃), キック;透明化 対象ユニットＩＤ;_
+	MVC_倒れ実弾発射 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) 32 遅 逆 左右反転 Swing.wav
+キャプテンキック(命中), 強打;炎 -.wav
+コマンドーストライク(準備), MVC_ルート 3
+コマンドーストライク(攻撃)(対MVC_ルート1]), 画像投下 Unit\CCM_ShoU.bmp Swing.wav
+コマンドーストライク(命中)(対MVC_ルート1), 斬撃;@戦闘アニメ_MVC_ルート後処理
+コマンドーストライク(攻撃)(対MVC_ルート2), 実弾発射 Unit\CCM_JennetyU.bmp Drill(2).wav 遅
+コマンドーストライク(命中)(対MVC_ルート2), 連続なぎ払い Stab.wav;@戦闘アニメ_MVC_ルート後処理
+コマンドーストライク(攻撃)(対MVC_ルート3), 手持ち発射 CCM_HooverU.bmp 32 対象ユニットＩＤ Bullet\EFFECT_ICBM02.bmp 64 Missile.wav
+コマンドーストライク(命中)(対MVC_ルート3), 爆発;@戦闘アニメ_MVC_ルート後処理
+コマンドーストライク(回避),	@戦闘アニメ_MVC_ルート後処理
+コマンドーストライク(攻撃無効化), @戦闘アニメ_MVC_ルート後処理
+コマンドーストライク(切り払い), @戦闘アニメ_MVC_ルート後処理
+コマンドーストライク(迎撃), @戦闘アニメ_MVC_ルート後処理
+コマンドーストライク(阻止), @戦闘アニメ_MVC_ルート後処理
+コマンドーストライク(反射), @戦闘アニメ_MVC_ルート後処理
+キャプテンファイアー, 火炎放射
+キャプテンコレダー(攻撃), 斬撃;Warship.wav;_
+	MVC_回転連続描画 Light\EFFECT_LightGeyser(LightBlue)[01-03].bmp 120 1 2 下辺 中間
+キャプテンコレダー(命中), 超打 Crash.wav;放電
+キャプテンストーム(準備), Chaff.wav;_
+	MVC_回転連続描画 Bullet\EFFECT_MachineCannon(Purple)[03-01].bmp 120 3 1 背面 角度=90;_
+	MVC_コマンドーチーム集結;3
+キャプテンストーム(攻撃), 超アッパー
+キャプテンストーム(命中), MVC_アッパー連打 FightHit(1).wav;_
+	MVC_実弾貫通 Unit\CCM_HooverU.bmp 32 FightHit(3).wav 角度=120 絶対角;_
+	MVC_実弾貫通 Unit\CCM_JennetyU.bmp 32 Stab.wav 角度=90 絶対角;_
+	MVC_実弾貫通 Unit\CCM_ShoU.bmp 32 Slash.wav 角度=60 絶対角;_
+	MVC_実弾貫通 Unit\CCM_HooverU.bmp 32 FightHit(3).wav 角度=120 絶対角;_
+	MVC_実弾貫通 Unit\CCM_JennetyU.bmp 32 Stab.wav 角度=90 絶対角;_
+	MVC_実弾貫通 Unit\CCM_ShoU.bmp 32 Slash.wav 角度=60 絶対角;_
+	@戦闘アニメ_斬撃攻撃 -.wav;.1;「<I><B><BIG>チェストォー！！</BIG></B></I>」;_
+	光大噴出 Warship.wav 相手ユニットＩＤ;超打 Crash.wav
+キャプテンストーム(とどめ), _
+	@戦闘アニメ_MVC_回転連続描画攻撃 Explode\EFFECT_Explode(Orange)[01-10].bmp 100 3 1 背面 保持 Explode.wav;_
+	MVC_コマンドーチーム集結;7
+キャプテンソード(準備), Chaff.wav;_
+	MVC_回転連続描画 Bullet\EFFECT_MachineCannon(Purple)[03-01].bmp 120 3 1 背面 角度=90;_
+	MVC_コマンドーチーム集結;3
+キャプテンソード(攻撃), 0.1;「<I><B><BIG>キャプテン！</BIG></B></I>」;地面衝撃 ライトブルー -.wav 対象ユニットＩＤ;_
+	MVC_回転連続描画 Beam\EFFECT_MBeam(LightBlue)[01-05].bmp 100 5 1 保持 AntiAirMissile.wav 角度=90;5;_
+	「<I><B><BIG>キャプテン！ ソォォォォド！！</BIG></B></I>」;AntiShipMissile.wav;_
+	MVC_回転連続描画 Beam\EFFECT_MBeam(LightBlue)[05-06].bmp 100 0.3 2 保持 方向判定 角度=75;_
+	MVC_回転連続描画 Beam\EFFECT_MBeam(LightBlue)[05-06].bmp 100 0.3 2 保持 方向判定 角度=55;_
+	MVC_回転連続描画 Beam\EFFECT_MBeam(LightBlue)[05-06].bmp 100 0.3 2 保持 方向判定 角度=35;_
+	MVC_回転連続描画 Beam\EFFECT_MBeam(LightBlue)[05-06].bmp 100 0.3 2 保持 方向判定 角度=15;_
+	MVC_回転連続描画 Beam\EFFECT_MBeam(LightBlue)[05-06].bmp 100 0.3 4 保持 方向判定 角度=-5
+キャプテンソード(命中), 唐竹割り Crash.wav
+キャプテンソード(とどめ), _
+	@戦闘アニメ_MVC_回転連続描画攻撃 Explode\EFFECT_Explode(Orange)[01-10].bmp 100 3 1 背面 保持 Explode.wav;_
+	MVC_コマンドーチーム集結;7
+
+# コマンドー専用一連、MVC_ルート、MVC_回転連続描画、MVC_倒れ実弾発射、MVC_実弾貫通
+
+
+ジン＝サオトメ(MVC)
+サオトメファイヤー(攻撃), ユニット変色 レッド 対象ユニットＩＤ FastGun.wav;炎 対象ユニットＩＤ
+サオトメファイヤー(命中), 炎
+サオトメドリルキック(準備), -
+サオトメドリルキック(攻撃), MVC_バックジャンプ 正 速;透明化 対象ユニットＩＤ 反映;_
+	発射連続描画 Spin\EFFECT_WhirlWind(Yellow)[01-03].bmp 64 1 1 Drill.wav
+サオトメドリルキック(命中), スピンジャンプアタック イエロー;透明化 対象ユニットＩＤ 解除 反映
+サオトメストレート(攻撃), スーパーパンチ イエロー
+サオトメストレート(命中), 強打;炎 黄 -.wav
+サオトメダイナマイト(準備), -
+サオトメダイナマイト(攻撃), MVC_高速変色 イエロー -.wav;瞬間変形 -.bmp 対象ユニットＩＤ;_
+	連続描画 Light\EFFECT_BurnOff(Orange)[01-09].gif 80 3 1 Explode.wav 前面 保持
+サオトメダイナマイト(命中), 瞬間変形 対象ユニットＩＤ;強打
+サオトメタイフーン(攻撃), スピンアタック イエロー
+サオトメタイフーン(命中), スピンアタック イエロー Punch.wav
+サオトメクラッシュ(攻撃), 格闘
+サオトメクラッシュ(命中), 立ち固め 1;透明化 対象ユニットＩＤ 反映;超打 Crash.wav;超アッパー Crash.wav;_
+	超打 Crash.wav;超アッパー Crash.wav;透明化 対象ユニットＩＤ 解除
+サオトメサイクロン(攻撃), 透明化 対象ユニットＩＤ 反映;Storm.wav;_
+	連続描画 Wind\EFFECT_CU_Tornado(Orange)[01-04].bmp 100 2 4 前面 下辺
+サオトメサイクロン(命中), _
+	連続描画 Wind\EFFECT_CU_Tornado(Orange)[01-04].bmp 100 2 4 相手ユニットＩＤ 前面 下辺 Storm.wav;_
+	透明化 対象ユニットＩＤ 解除 反映;MVC_バックジャンプ 垂直 遅 高 回転 相手ユニットＩＤ 上下反転 -.wav
+ブロディアバルカン(攻撃), 手持ち発射連続描画 Hand\EFFECT_RocketPunch(Red)01.bmp 80 _
+	Bullet\EFFECT_MachineCannon(Red)[01-06].bmp 100 3 3 Bazooka(8Shot).wav
+ブロディアバルカン(命中), MVC_回転連続描画 ShootAnime\EFFECT_ChainGunHit(Red)[01-07].bmp 100 3 3 _
+	相手ユニットＩＤ 発射 Bazooka(8Shot).wav;変形 CBOTS_Brodia.bmp Bazooka(8Shot).wav 対象ユニットＩＤ;_
+	@戦闘アニメ_ロックオン攻撃 Bazooka(8Shot).wav;@戦闘アニメ_手持ち発射連続描画攻撃 _
+	Hand\EFFECT_RocketPunch(Red)01.bmp 40 ShootAnime\EFFECT_ChainGunShot(Red)[01-04].bmp 80 2 4 Bazooka(8Shot).wav;_
+	MVC_回転連続描画 ShootAnime\EFFECT_ChainGunHit(Red)[01-07].bmp 100 3 3 相手ユニットＩＤ 発射 _
+	Bazooka(8Shot).wav;変形 対象ユニットＩＤ
+ブロディアパンチ(攻撃), スーパータックル 赤 Warship.wav;実弾発射 Hand\EFFECT_Punch(Red)01.bmp 80 -.wav
+ブロディアパンチ(命中), 強打;超打 Crash.wav
+
+# MVC_回転連続描画、MVC_高速変色、MVC_バックジャンプ
+
+
+ストライダー飛竜(MVC)
+オプション(攻撃), _
+	手持ち発射 Shield\EFFECT_SmallShield01.bmp 24 対象ユニットＩＤ Hit\EFFECT_Damage(Blue)01.bmp BeamShot.wav;_
+	手持ち発射 Shield\EFFECT_SmallShield01.bmp 24 対象ユニットＩＤ Hit\EFFECT_Damage(Blue)01.bmp BeamShot.wav
+オプション(命中), ダメージ;打撃
+ヴァジュラ(攻撃), @戦闘アニメ_転移 Whiz.wav -;透明化 対象ユニットＩＤ 反映; Swing.wav;_
+	MVC_回転連続描画 Bullet\EFFECT_MachineCannon(Purple)[03-02].bmp 120 1.5 1 角度=90 背面 保持 相手ユニットＩＤ
+ヴァジュラ(命中), 透明化 対象ユニットＩＤ 解除;スーパーキック
+エクスカリバー(攻撃), スーパーパンチ 白
+エクスカリバー(命中), スーパーパンチ 白 Slash.wav
+アメノムラクモ(攻撃), 大斬撃 白 Slash(4).wav
+アメノムラクモ(命中), 大斬撃 Slash.wav
+グラム(攻撃), なぎ払い Slash(4).wav;_
+	MVC_回転連続描画 Wind\EFFECT_WindCutter(LightBlue)[04-01].bmp 64 1.5 1 保持 発射 中間
+グラム(命中), 横大斬撃 白 Slash.wav
+レギオン(攻撃),拡散弾幕 画像ファイル=Creature\EFFECT_SuspectBird01.bmp=Creature\EFFECT_SuspectBird01.bmp=_
+	Animal\EFFECT_Tiger(White)01.bmp=Animal\EFFECT_Tiger(White)01.bmp 32 個数=4 回数=3 速 Bazooka(8Shot).wav
+レギオン(命中), 乱打
+ラグナロク(攻撃), タックル
+ラグナロク(命中), 立ち固め 1 速;透明化 相手ユニットＩＤ 反映;_
+	@戦闘アニメ_突く武器急降下攻撃 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) Cannon.wav;_
+	透明化 相手ユニットＩＤ 解除 反映;透明化 対象ユニットＩＤ 反映;_
+	MVC_二重連続描画 Beam\EFFECT_2BeamHit(Orange)[01-03].bmp 60 Beam\EFFECT_2BeamHit(Orange)[01-03].bmp 60 _
+	3 1 Slash.wav 角度=30 角度２=150 相手ユニットＩＤ 保持;2;打撃 -.wav;_
+	MVC_二重連続描画 Beam\EFFECT_2BeamHit(Orange)[01-03].bmp 60 Beam\EFFECT_2BeamHit(Orange)[01-03].bmp 60 _
+	3 1 Slash.wav 角度=-45 角度２=-135 相手ユニットＩＤ 保持;2;打撃 -.wav;_
+	MVC_二重連続描画 Beam\EFFECT_2BeamHit(Orange)[01-03].bmp 60 Beam\EFFECT_2BeamHit(Orange)[01-03].bmp 60 _
+	3 1 Slash.wav 角度=60 角度２=180 相手ユニットＩＤ 保持;2;打撃 -.wav;_
+	MVC_回転連続描画 Bullet\EFFECT_MachineCannon(Purple)[03-02].bmp 120 1 1 角度=90 背面 相手ユニットＩＤ;_
+	スーパーキック;透明化 対象ユニットＩＤ 解除 反映
+ウロボロス, 周囲回転 Shield\EFFECT_SmallShield01.bmp UnitOn.wav 2
+ウロボロス(解説), オプションが$(ユニット)の周囲を回転し始めた。
+脱出, @戦闘アニメ_飛沫命中 白 BeamSaber(4).wav
+
+# MVC_回転連続描画 MVC_二重連続描画
+
+
+ロール(MVC)
+ロールバスター(攻撃), 実弾発射 Bullet\EFFECT_AuraBall(LightBlue)01.bmp
+ロールバスター(命中), 飛沫 ライトブルー Explode(Small).wav
+ロックボール, 蹴り飛ばし武器 DGoods\EFFECT_SoccerBall01.bmp
+花束爆弾(攻撃), 投擲武器 DGoods\EFFECT_Rose(Red)01.bmp 遅
+花束爆弾(命中), 小爆発
+格闘, 打突
+格闘, 格闘
+格闘, 投げ飛ばし
+格闘, キック
+トルネードホールド(攻撃), 実弾発射 Bullet\EFFECT_STG_Bullet(White)01.bmp 8 -.wav;Storm.wav;_
+	MVC_回転連続描画 Spin\EFFECT_WhirlWind(White)[01-06].bmp 56 3 2 相手ユニットＩＤ 保持 下辺 角度=90
+トルネードホールド(命中), MVC_アッパー連打
+#ビートプレーン(準備), しもべ RM_BeatU.bmp
+ビートプレーン(準備), しもべ Bullet\EFFECT_STG_Bullet(LightBlue)01.bmp 12
+ビートプレーン(攻撃), 変形 Anime\BodyParts\EFFECT_CellWall(LightBlue)01.bmp;_
+	キャノン砲 Bow.wav;キャノン砲 Bow.wav;キャノン砲 Bow.wav;投下爆弾
+ビートプレーン(命中), キャノン砲;キャノン砲;小爆発
+#ラッシュドリル(準備), しもべ RM_RushU.bmp
+ラッシュドリル(準備), しもべ Animal\EFFECT_Tiger(Pink)01.bmp
+ラッシュドリル(攻撃), 変形 Anime\Rock\EFFECT_LargeBoulder(Red)01.bmp;ドリル突撃
+ラッシュドリル(命中), ドリル
+ハイパーロール(準備), 左右別武器 Animal\EFFECT_Tiger(Pink)01.bmp 24 -.wav Bullet\EFFECT_STG_Bullet(LightBlue)01.bmp 12 
+ハイパーロール(攻撃), 変形 Anime\Creature\EFFECT_SuspectRobot01.bmp;_
+	MVC_二重連続描画 ShockBeam\EFFECT_ShockBeam(Blue)[02-07].bmp 60 Bullet\EFFECT_MachineCannon(Orange)[01-06].bmp 80 _
+	4 1 MultipleRocketLauncher(Light).wav 発射;スーパーミサイル 2 速 -.wav;_
+	MVC_二重連続描画 ShockBeam\EFFECT_ShockBeam(Blue)[02-07].bmp 60 Bullet\EFFECT_MachineCannon(Orange)[01-06].bmp 80 _
+	4 1 MultipleRocketLauncher(Light).wav 発射;スーパーミサイル 2 速 -.wav
+ハイパーロール(命中), ショックビーム;連打;大爆発
+リーフシールド, 木の葉乱舞
+ダミー(リーフシールド), 木の葉乱舞
+脱出, 2;BeamShot.wav;2;BeamShot.wav;光球放出 白 BeamShot.wav
+
+# MVC_回転連続描画 MVC_二重連続描画 MVC_アッパー連打
+
+
+ルースターズ
+# ルー
+ボウガン, クロスボウ Weapon\EFFECT_FLintlockGun01.bmp
+テイルショット, クロスボウ Weapon\EFFECT_FLintlockGun01.bmp
+テイルショット(攻撃), 手持ち発射 Weapon\EFFECT_FLintlockGun01.bmp 32 - Weapon\EFFECT_Chakram01.bmp 速 Swing.wav;_
+	MVC_倒れ実弾発射 Weapon\EFFECT_Chakram01.bmp 相手ユニットＩＤ Swing.wav
+テイルショット(命中), 打撃
+バウンドショット, 手持ち発射 Weapon\EFFECT_FLintlockGun01.bmp 32 - LightWeapon\EFFECT_LightArrow(Blue)01.bmp
+バウンドショット(命中), 小ビーム ブルー ランダム方向
+アカビー, しもべ Fire\EFFECT_FlameThrowerHit(Pink)06.bmp
+アカビー(攻撃), 火炎放射器 Fire\EFFECT_FlameThrowerHit(Pink)06.bmp
+アカビー(命中), 火炎放射器
+スーパーボム(攻撃), 投擲武器 Light\EFFECT_Flash(White)01.bmp 32
+スーパーボム(命中), 爆発
+尾(攻撃), 斬撃
+尾(命中), 打撃
+ボム, 投下爆弾
+ジェノス(攻撃), 実弾発射 Beam2\EFFECT_BeamShotGunHit(Pink)01.bmp 32 BeamShot.wav 速;_
+	実弾発射 Beam2\EFFECT_BeamShotGunHit(Pink)01.bmp 32 BeamShot.wav 速
+ジェノス(命中), ビームショットキャノン レッド
+フラッシュ・フラッド(攻撃), 実弾発射 Bullet\EFFECT_LightBullet(Blue)01.bmp 80 AntiAirMissile.wav
+フラッシュ・フラッド(命中), 飛沫 ブルー Explode.wav
+# シバ
+ダガー, 小柄
+シプン, しもべ Common\EFFECT_BubbleSphere(Orange)01.bmp
+シプン(攻撃), 瞬間変形 Anime\Common\EFFECT_BubbleSphere(Orange)01.bmp 対象ユニットＩＤ;_
+	同時ホーミング弾 Bullet\EFFECT_STG_Bullet(Green)02.bmp 18 個数=4 速;瞬間変形 対象ユニットＩＤ
+シプン(命中), 放電
+コリーン, しもべ Bullet\EFFECT_HeartBullet(White)01.bmp
+コリーン(攻撃), 手持ち発射 Bullet\EFFECT_HeartBullet(White)01.bmp 24 - Ice\EFFECT_IceGroundRise01.bmp 32 残像 Ice.wav
+コリーン(命中), 氷柱 Ice.wav
+ハイパーショット(攻撃), 小柄;回転投擲武器 Bullet\EFFECT_ShootingCutter(Orange)01.bmp 速
+ハイパーショット(命中), 刺突;打撃
+スラッシャー, 内蔵チェーンガン グリーン
+タイデルウェイブ(攻撃), 発射連続描画 Bullet\EFFECT_MachineCannon(Orange)[01-06].bmp 100 2 1 AntiAirMissile.wav
+タイデルウェイブ(命中), 連続爆発
+
+
+地球防衛軍
+# サキ
+パンチ, 打突
+対怪獣光線銃, ショックビームガン Weapon\EFFECT_AntiMaterialRifle01.bmp 64
+ジャンプキック, スーパーキック
+
+
+憲磨呂(MVC)
+学生鞄(攻撃), なぎ払い
+学生鞄(命中), 打撃
+バナナの皮(準備), -
+バナナの皮(攻撃), 実弾発射 Foods\EFFECT_BananaSkin01.bmp Jump.wav
+バナナの皮(命中), 打撃;MVC_背向け 倒れ 相手ユニットＩＤ Shock(Low).wav 5
+ｽｰﾊﾟｰﾌｧﾝﾀｽﾃｨｯｸﾄﾚｼﾞｬｰ(準備), -
+ｽｰﾊﾟｰﾌｧﾝﾀｽﾃｨｯｸﾄﾚｼﾞｬｰ, 回転投擲武器 DGoods\EFFECT_Book01.bmp
+ｽｰﾊﾟｰﾌｧﾝﾀｽﾃｨｯｸﾄﾚｼﾞｬｰ, 回転投擲武器 DGoods\EFFECT_PETBottle01.bmp
+ｽｰﾊﾟｰﾌｧﾝﾀｽﾃｨｯｸﾄﾚｼﾞｬｰ, 回転投擲武器 DGoods\EFFECT_Kinjirou01.bmp
+ｽｰﾊﾟｰﾌｧﾝﾀｽﾃｨｯｸﾄﾚｼﾞｬｰ, 回転投擲武器 DGoods\EFFECT_Pencil01.bmp
+ｽｰﾊﾟｰﾌｧﾝﾀｽﾃｨｯｸﾄﾚｼﾞｬｰ, 回転投擲武器 Foods\EFFECT_BananaSkin01.bmp
+ｽｰﾊﾟｰﾌｧﾝﾀｽﾃｨｯｸﾄﾚｼﾞｬｰ, 回転投擲武器 Creature\EFFECT_Doll01.bmp
+ｽｰﾊﾟｰﾌｧﾝﾀｽﾃｨｯｸﾄﾚｼﾞｬｰ, 回転投擲武器 DGoods\EFFECT_Kompas01.bmp
+ｽｰﾊﾟｰﾌｧﾝﾀｽﾃｨｯｸﾄﾚｼﾞｬｰ, 回転投擲武器 Animal\EFFECT_Monky01.bmp
+ｽｰﾊﾟｰﾌｧﾝﾀｽﾃｨｯｸﾄﾚｼﾞｬｰ(解説), $(ユニット)はスーパーファンタスティックトレジャーで攻撃をかけた。
+ｸﾞﾚｰﾄﾌｧｲﾃｨﾝｸﾞｼﾞｬﾝﾌﾟ(攻撃), MVC_バックジャンプ 小移動 正 Cannon.wav
+ｸﾞﾚｰﾄﾌｧｲﾃｨﾝｸﾞｼﾞｬﾝﾌﾟ(命中), アッパー
+ｸﾞﾚｰﾄﾌｧｲﾃｨﾝｸﾞｼﾞｬﾝﾌﾟ(解説), $(ユニット)はグレートファイティングジャンプで攻撃をかけた。
+ﾛｰﾘﾝｸﾞﾊﾟﾜﾌﾙｱｰﾑｽﾞ(攻撃), 突く武器突撃 -.bmp -.wav;回転斬撃
+ﾛｰﾘﾝｸﾞﾊﾟﾜﾌﾙｱｰﾑｽﾞ(命中), 連打
+ﾛｰﾘﾝｸﾞﾊﾟﾜﾌﾙｱｰﾑｽﾞ(解説), $(ユニット)はローリングパワフルアームズで攻撃をかけた。
+ﾊｲﾊﾟｰｽﾄﾛﾝｸﾞﾐﾗｸﾙﾄﾚｼﾞｬｰ(攻撃), 回転投擲武器 DGoods\EFFECT_Book01.bmp 速;_
+回転投擲武器 DGoods\EFFECT_PETBottle01.bmp 速;回転投擲武器 DGoods\EFFECT_Kinjirou01.bmp 速;_
+回転投擲武器 DGoods\EFFECT_Pencil01.bmp 速
+ﾊｲﾊﾟｰｽﾄﾛﾝｸﾞﾐﾗｸﾙﾄﾚｼﾞｬｰ(攻撃), 回転投擲武器 Foods\EFFECT_BananaSkin01.bmp 速;_
+回転投擲武器 Creature\EFFECT_Doll01.bmp 速;回転投擲武器 DGoods\EFFECT_Kompas01.bmp 速;_
+回転投擲武器 Animal\EFFECT_Monky01.bmp 速
+ﾊｲﾊﾟｰｽﾄﾛﾝｸﾞﾐﾗｸﾙﾄﾚｼﾞｬｰ(命中), 連打
+ﾊｲﾊﾟｰｽﾄﾛﾝｸﾞﾐﾗｸﾙﾄﾚｼﾞｬｰ(解説), $(ユニット)はハイパーストロングミラクルトレジャーで攻撃をかけた。
+ｱﾙﾃｨﾒｯﾄｸﾞﾗﾝﾄﾞﾁｬﾝﾋﾟｵﾝｼﾞｬﾝﾌﾟ(攻撃), 地面衝撃 -.wav 対象ユニットＩＤ;MVC_バックジャンプ 小移動 正 高 AntiAirMissile.wav
+ｱﾙﾃｨﾒｯﾄｸﾞﾗﾝﾄﾞﾁｬﾝﾋﾟｵﾝｼﾞｬﾝﾌﾟ(命中), MVC_アッパー連打 BreakOff.wav
+ｱﾙﾃｨﾒｯﾄｸﾞﾗﾝﾄﾞﾁｬﾝﾋﾟｵﾝｼﾞｬﾝﾌﾟ(解説), $(ユニット)はアルティメットグランドチャンピオンジャンプで攻撃をかけた。
+ｳﾙﾄﾗﾊﾞﾗｴﾃｨﾌﾟﾗｲﾍﾞｰﾄﾒﾓﾘｰｽﾞ(攻撃), スーパータックル レッド
+ｳﾙﾄﾗﾊﾞﾗｴﾃｨﾌﾟﾗｲﾍﾞｰﾄﾒﾓﾘｰｽﾞ(命中), 瞬間変形 Anime\Common\EFFECT_AccidentalImage01.bmp 対象ユニットＩＤ;_
+	ダメージ 連続 青;ダメージ 連続 青;ダメージ 連続 青;_
+	瞬間変形 対象ユニットＩＤ;超アッパー Transform.wav
+ｳﾙﾄﾗﾊﾞﾗｴﾃｨﾌﾟﾗｲﾍﾞｰﾄﾒﾓﾘｰｽﾞ(とどめ), 決め文字 だから言っただろー！ 赤 Explode(Small).wav 対象ユニットＩＤ
+ｳﾙﾄﾗﾊﾞﾗｴﾃｨﾌﾟﾗｲﾍﾞｰﾄﾒﾓﾘｰｽﾞ(解説), $(ユニット)はウルトラバラエティプライベートメモリーズで攻撃をかけた。
+シールド防御(学生鞄), シールド防御 DGoods\EFFECT_5inchFloppyDisk01.bmp 別名=学生鞄
+自動反撃(バナナの皮)(解説), 転んだ拍子に$(ユニット)は偶然落ちていたバナナの皮を蹴り飛ばした。
+
+# MVC_バックジャンプ、MVC_アッパー連打、MVC_背向け
+
+
+ルビィハート(MVC)
+ファントゥーム(攻撃), 怨霊
+ファントゥーム(命中), 周囲回転 Creature\EFFECT_Ghost01.bmp 1
+ラファールカノン(攻撃), 大錨;実弾発射 Weapon\EFFECT_LargeAnchor02.bmp
+ラファールカノン(命中), 打撃
+シュバルツェール(攻撃), スーパータックル ブルー
+シュバルツェール(命中), スーパータックル ブルー;スーパータックル ブルー
+シュプリマシオン(攻撃), 連続描画 Action\EFFECT_Burn(LightBlue)[01-07].bmp 36 4 1 相手ユニットＩＤ 保持 Splash.wav
+シュプリマシオン(命中), 超アッパー
+ミルファントゥーム(攻撃), 怨霊;怨霊;怨霊
+ミルファントゥーム(命中), 連打
+フランメール, スーパータックル乱舞 オレンジ
+トゥール・ド・マジ(攻撃), 画像投下 DGoods\EFFECT_Bowie01.bmp
+トゥール・ド・マジ(命中), 変形 Anime\DGoods\EFFECT_Bowie01.bmp BreakOff.wav 相手ユニットＩＤ;_
+透明化 対象ユニットＩＤ 解除;@戦闘アニメ_投げナイフ攻撃;投げナイフ;@戦闘アニメ_投げナイフ攻撃;_
+投げナイフ;@戦闘アニメ_投げナイフ攻撃;投げナイフ;_
+@戦闘アニメ_投げナイフ攻撃;投げナイフ;瞬間変形 相手ユニットＩＤ;大爆発
+パルトネール(攻撃), 実弾発射 Weapon\EFFECT_GiantSword(T)02.bmp 80 Warship.wav
+パルトネール(命中), 超斬撃;@戦闘アニメ_大砲攻撃;@戦闘アニメ_大砲攻撃;連続爆発
+
+
+ソンソン(MVC)
+子猿舞(攻撃), 実弾発射 EFFECT_STF_KozarumaiU.bmp Bow.wav 遅
+子猿舞(命中), 打撃;打撃
+風切斬(攻撃), 乱突
+風切斬(命中), 連打
+斎天連撃(準備), -
+斎天連撃, 回転棍
+金銀乃葫蘆(攻撃), 手持ち発射連続描画 DGoods\EFFECT_Gourd01.bmp 32 _
+	Bullet\EFFECT_MachineCannon(White)[06-01].bmp 80 3 3 Storm.wav
+金銀乃葫蘆(命中), 透明化 相手ユニットＩＤ 反映;_
+	@戦闘アニメ_MVC_倒れ実弾発射攻撃 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) 24 _
+	Storm.wav 相手ユニットＩＤ 遅;@戦闘アニメ_振る武器準備 DGoods\EFFECT_Gourd01.bmp Button3.wav;_
+	透明化 相手ユニットＩＤ 解除 反映;_
+	瞬間変形 Anime\DGoods\EFFECT_Gourd01.bmp 相手ユニットＩＤ;_
+	連続描画 Fire\EFFECT_Fire(Red)[01-04].bmp 16 4 3 前面 下辺 Fire.wav;_
+	ユニット変色 赤 相手ユニットＩＤ Fire.wav;大爆発;瞬間変形 相手ユニットＩＤ;MVC_高速変色 黒 瞬間;5
+ＰＯＷ(攻撃), 文字発射 ＰＯＷ 遅
+ＰＯＷ(命中), 瞬間変形 Anime\Foods\EFFECT_Tomato01.bmp 相手ユニットＩＤ;煙 Explode(Small).wav;_
+	MVC_バックジャンプ 正 速;透明化 対象ユニットＩＤ 反映;噛み付き 連続;透明化 対象ユニットＩＤ 解除 反映;_
+	瞬間変形 相手ユニットＩＤ;透明化 相手ユニットＩＤ 反映;4;_
+	@戦闘アニメ_MVC_倒れ実弾発射攻撃 ("Unit\" & Info("ユニット",UnitID(相手ユニット),"グラフィック")) 24 Bow.wav;_
+	透明化 相手ユニットＩＤ 解除 反映
+天地通貫(攻撃), 振り上げ;@戦闘アニメ_打ち上げ攻撃 Weapon\EFFECT_Bar01.bmp 48 -.wav;斬撃;_
+	MVC_回転連続描画 Beam\EFFECT_MBeamHit(Red)[01-03].bmp 100 3 1 下辺 相手ユニットＩＤ _
+	角度=-75 方向判定 保持 Shock(Low).wav
+天地通貫(命中), 唐竹割り Crash.wav
+猿王(攻撃), 変形 Anime\EFFECT_STF_SonSon(E)U.bmp Roar.wav;火炎放射 -.wav
+猿王(命中), 火炎放射
+
+# MVC_回転連続描画、MVC_倒れ実弾発射、MVC_アッパー連打、MVC_高速変色
+
+
+アミンゴ(MVC)
+ツタ, 触手 グリーン
+大地の子供(攻撃), 実弾発射 ("Unit\" & Info("ユニット",UnitID(対象ユニット),"グラフィック")) 24 Jump.wav 遅
+大地の子供(命中), 打撃
+風の叫び(攻撃), 透明化;実弾発射 BodyParts\EFFECT_CellWall(Orange)01.bmp Drill.wav
+風の叫び(命中), 瞬間変形 Anime\BodyParts\EFFECT_CellWall(Orange)01.bmp 対象ユニットＩＤ;_
+スーパータックル オレンジ Drill.wav;瞬間変形 対象ユニットＩＤ
+緑の歓喜(攻撃), 透明化;回転発射 BodyParts\EFFECT_CellWall(Green)01.bmp AntiAirMissile.wav
+緑の歓喜(命中), ロケットパンチ BodyParts\EFFECT_CellWall(Green)01.bmp
+植物の掟(攻撃), 触手乱舞 グリーン
+植物の掟(命中), 触手乱舞 グリーン Punch(3).wav
+太陽の恵み(攻撃), 透明化;岩柱 グリーン Earthquake.wav
+太陽の恵み(命中), 連打
+
+
+波蝕の鎧アビス(第１形態)
+闇より生まれし雷光(攻撃), 同時ホーミング弾 Bullet\EFFECT_STG_Bullet(Blue)03.bmp 24 個数=3 遅 発光
+闇より生まれし雷光(命中), 放電
+命を貫く槍投(準備), -
+命を貫く槍投(攻撃), 投擲武器 LightWeapon\EFFECT_LightSpear(Green)01.bmp
+命を貫く槍投(命中), 飛沫 グリーン Crash.wav
+振り下ろす蒼き掌(攻撃), 斬撃
+振り下ろす蒼き掌(命中), 強打
+波蝕の突進, スーパータックル ブルー
+蝕みし奔流, 大ビーム ブルー
+降り頻る槍の雨(攻撃), -
+降り頻る槍の雨(命中), マシンキャノン グリーン Warship(8Shot).wav
+
+
+波蝕の鎧アビス(第２形態)
+停止の様な無邪気さ(攻撃), 実弾発射 Common\EFFECT_BubbleSphere(Green)01.bmp 32 Bubble.wav 遅;_
+透明化 対象ユニットＩＤ;ホーミング弾 Common\EFFECT_BubbleSphere(Green)01.bmp 32 Bubble.wav 遅
+停止の様な無邪気さ(命中), 決め画像 Common\EFFECT_BubbleSphere(Green)01.bmp 32 Bubble.wav 前面 相手ユニットＩＤ
+何もかも尊き陽炎, 火炎放射 ブルー
+指差す如きの光, 小ビーム ブルー
+蔑みの意味を持つ光(攻撃), 発射連続描画 Beam\EFFECT_MBeam(Blue)[01-03].bmp 64 2 1 発射 発光;Laser.wav;_
+	発射連続描画 Beam\EFFECT_MBeam(Blue)[03-05].bmp 64 0.9 6 前面 発光
+蔑みの意味を持つ光(命中), 中ビーム 青;中ビーム 青
+終末を想わせる渦(攻撃), MVC_二重連続描画 MapBeam\EFFECT_360Beam(Blue)[01-07].bmp 100 _
+	MapBeam\EFFECT_360Beam(Blue)[01-07].bmp 80 2 4 背面 ランダム ランダム２ BeamShot.wav
+終末を想わせる渦(命中), 全拡散ビーム ブルー
+テレポート(液化移動), @戦闘アニメ_透明化攻撃 対象ユニットＩＤ 反映;_
+	@戦闘アニメ_小ビーム攻撃 緑 -.wav
+
+# MVC_二重連続描画
+
+
+波蝕の鎧アビス(第３形態)
+蛇がのたうつ如くの灼熱(攻撃), キャノン砲 3 Fire.wav;キャノン砲 4 Fire.wav
+蛇がのたうつ如くの灼熱(命中), 炎
+全てを薙ぎ払う炎, 火炎放射
+地獄を思わせる業火, 火柱
+果て無き貪欲の飛び付き, ジャンプ
+死を連想される腕(攻撃), 斬撃
+死を連想される腕(命中), 大爆発
+奈落の名に相応しい爆炎(攻撃), 大キャノン砲 3 Breath.wav;大キャノン砲 4 Breath.wav
+奈落の名に相応しい爆炎(命中), 炎;炎
+緊急テレポート(液化回避), _
+	@連続描画命中 BodyParts\EFFECT_CellWall(Orange)[06-01].bmp 32 2 1 保持 Interference.wav;_
+	緊急テレポート - 液化回避

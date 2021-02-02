@@ -1,0 +1,104 @@
+ゲッターロボ
+分身,                           6;Charge(long).wav
+ゲッタービーム,                 Beam.wav
+ドリルストーム,                 8;Drill.wav;7;Storm.wav
+ドリルストーム(命中),           Storm.wav
+ゲッタードリル,                 Drill.wav
+チェーンアタック,               Whiz.wav
+チェーンアタック(命中),         Crash.wav
+フィンガーネット,               Whiz.wav
+スピンカッター,                 Drill.wav
+スピンカッター(命中),           Drill.wav
+シャインスパーク,               30;FlyBy.wav;5;Beam.wav
+ドリルアーム,                   Drill.wav
+真・シャインスパーク,           30;FlyBy.wav;5;Beam.wav
+ストナーサンシャイン,           5;Charge(long).wav;5;Charge(long).wav;15;Charge(long).wav;10;Beam.wav
+ストナーサンシャイン(命中),     Explode(Nuclear).wav
+ミラージュドリル,               2;Drill.wav;2;Drill.wav;2;Drill.wav;5;Drill.wav
+ドリルテンペスト,               8;Drill.wav;3;Storm.wav;3;Storm.wav;7;Storm.wav
+ハンマーパンチ(命中),           3;Punch.wav;3;Punch.wav
+大雪山おろし二段返し(命中),     5;Swing.wav;5;Swing.wav;5;Swing.wav;4;Swing.wav;3;Swing.wav;2;Swing.wav;1;Swing.wav;10;Shock(Low).wav;30;Bike.wav;10;Crash.wav
+サイクロンマキシマム,           6;Storm.wav;6;Storm.wav;10;Storm.wav
+#分離,                           Shock(Low).wav
+#変形,                           6;Shock(Low).wav;10;Charge.wav;6;Shock(Low).wav
+
+
+#ゲットマシン
+#合体,                           6;Shock(Low).wav;10;Charge.wav;6;Shock(Low).wav
+
+
+テキサスマック
+マックリボルバー,               Gun.wav
+マックリボルバー(MAP),          4;Gun.wav;4;Gun.wav;4;Gun.wav;10;Gun.wav;
+テキサスビーム,                 Beam.wav
+テキサスハンマー,               5;Swing.wav;4;Swing.wav;3;Swing.wav;2;Swing.wav
+テキサスハンマー(命中),         Crash.wav
+
+
+
+百鬼メカ
+突風,                           Storm.wav
+シザーハンド(命中),             Saber.wav
+火炎放射(命中),                 Fire.wav
+ロッド式アンカー(命中),         Stab.wav
+スピンアタック,                 Drill.wav
+スピンアタック(命中),           Drill.wav
+角ミサイル(命中),               Explode.wav
+マグネット光線(クリティカル),   Hide.wav
+三頭鬼ドリル,                   Drill.wav
+触手,                           2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;3;Whiz.wav
+渦潮,                           Storm.wav
+爆撃ミサイル,                   AntiShipMissile.wav
+ドリル,                         Drill.wav
+一角(命中),                     Stab.wav
+チェーンアタック,               Whiz.wav
+チェーンアタック(命中),         Crash.wav
+爆撃機,                         12;Jet.wav;2;Bomb.wav;2;Bomb.wav;2;Bomb.wav;2;Bomb.wav;7;Bomb.wav
+大輪投げ,                       10;Drill.wav;3;AntiAirMissile.wav
+大輪投げ(命中),                 Drill.wav
+タコ足,                         2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;3;Whiz.wav
+タコ足(命中),                   3;Whip.wav;3;Whip.wav;4;Whip.wav
+万力角(命中),                   Punch(3).wav
+収束ビーム,                     2;Beam.wav;2;Beam.wav;2;Beam.wav;2;Beam.wav;7;Beam.wav
+ドライスノー,                   Storm.wav
+ドライスノー(命中),             NonSound.wav
+ドライスノー(クリティカル),     Glass.wav
+反射レーザー,                   10;LaserGun.wav;6;BeamCoat.wav;10;LaserGun.wav
+銛(命中),                       Stab.wav
+ランスショット,                 3;AntiAirMissile.wav;3;AntiAirMissile.wav;6;AntiAirMissile.wav
+ランスショット(命中),           2;Stab.wav;2;Stab.wav;2;Stab.wav
+アースクエイク,                 3;Shock(Low).wav;3;Shock(Low).wav;3;Shock(Low).wav
+アースクエイク(命中),           Crash.wav
+炎の槍,                         Swing.wav
+炎の槍(命中),                   3;Stab.wav;10;Fire.wav
+石つぶて,                       Bazooka.wav
+石つぶて(命中),                 2;Punch.wav;2;Punch.wav;2;Punch.wav
+
+
+メカ紫電鬼
+攻撃無効化,                     BeamCoat.wav
+ビーム無効化,                   BeamCoat.wav
+
+メカ地虫鬼
+鉄球,                           5;Swing.wav;4;Swing.wav;3;Swing.wav;5;Whiz.wav
+鉄球(命中),                     Crash.wav
+
+メカ闇竜鬼
+阻止,                           BreakOff.wav
+
+メカ妖剣鬼
+反射,                           BeamCoat.wav
+
+メカ半月鬼
+鉄球,                           3;Bazooka.wav;3;Bazooka.wav;3;Bazooka.wav
+
+メカ鉄丸鬼
+鉄球,                           5;Swing.wav;4;Swing.wav;3;Swing.wav;2;Swing.wav;1;Swing.wav;5;Whiz.wav
+
+
+
+百鬼司令メカ
+火炎,                           Breath.wav
+火炎(命中),                     Fire.wav
+集中砲火,                       10;MultipleRocketLauncher.wav;8;MachineGun.wav;4;AntiAirMissile.wav;4;AntiAirMissile.wav;4;AntiAirMissile.wav
+集中砲火(命中),                 2;Explode(Small).wav;2;Explode(Small).wav;7;Explode(Small).wav

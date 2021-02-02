@@ -1,0 +1,26 @@
+使用 対象パイロット 無限生命のかけら:
+SpecialPowerAnime 復活 対象パイロット
+SpecialPower 対象パイロット 復活
+Exit
+
+使用 対象パイロット 温泉召喚:
+Talk システム
+$(NickName(対象パイロット))は高々と温泉看板を振りかざした。
+End
+PlaySound DrumRoll(Long).wav
+Wait 10
+Switch Random(6)
+Case 1
+UseAbility 癒しの湯
+Case 2
+MapAbility スカ 0 0
+Case 3
+UseAbility 溶岩の湯
+Case 4
+UseAbility 暗黒の湯
+Case 5
+UseAbility 瘴気の湯
+Case 6
+UseAbility 和みの湯
+Endsw
+Exit

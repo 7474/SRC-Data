@@ -1,0 +1,127 @@
+
+ドラゴンクエスト４
+メラ(準備), Fire.wav
+メラ, Bazooka.wav
+メラ(命中), Explode(Small).wav
+メラミ(準備), Fire.wav
+メラミ, Bazooka.wav
+メラミ(命中), Explode(Small).wav
+メラゾーマ(準備), MultipleRocketLauncher.wav
+メラゾーマ, Warship.wav
+メラゾーマ(命中), Explode(Far).wav
+バギ, 3;Saber.wav;Saber.wav
+バギマ, Storm.wav
+バギマ(命中), 1;Slash.wav;1;Slash.wav;1;Slash.wav
+バギクロス, 3;Saber.wav;3;Saber.wav;Storm.wav
+バギクロス(命中), 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav
+ギラ, Beam.wav
+ベギラマ, AntiAirMissile.wav
+ベギラゴン(準備), AntiShipMissile.wav
+ベギラゴン, MicroMissile.wav
+ヒャド(準備), Sword.wav
+ヒャド, Bow.wav
+ヒャド(命中), 2;Stab.wav
+ヒャド(クリティカル), Glass.wav
+ヒャダルコ(準備), 1;Sword.wav;1;Sword.wav;Sword.wav
+ヒャダルコ, MultipleRocketLauncher(Light).wav
+ヒャダルコ(クリティカル), Glass.wav
+ヒャダイン(準備), Wind.wav
+ヒャダイン, Storm.wav
+ヒャダイン(命中), Sword.wav
+ヒャダイン(命中), Glass.wav
+ヒャダイン(命中), Saber.wav
+マヒャド(準備), Wind.wav
+マヒャド, 2;Storm.wav;2;Storm.wav;Storm.wav
+マヒャド(命中), 2;Glass.wav;2;Glass.wav;Glass.wav
+イオ(準備), BeamShot.wav
+イオ, Explode.wav
+イオラ(準備), 1;BeamShot.wav;BeamShot.wav
+イオラ, Explode(Far).wav
+イオナズン(準備), Charge.wav
+イオナズン, Explode(Nuclear).wav
+ライデイン(準備), Charge.wav
+ライデイン, Thunder.wav
+ギガデイン(準備), Charge(long).wav
+ギガデイン, 3;Thunder.wav;3;Thunder.wav;Thunder.wav
+ギガデイン(命中), Explode(Far).wav
+ミナデイン, LaserGun.wav
+ミナデイン(命中), 3;Thunder.wav;3;Thunder.wav;3;Thunder.wav;Explode(Nuclear).wav
+ザキ, Search.wav
+ザキ(命中), Inori.wav;1;Black.bmp 480 480;Clear
+ザラキ, Search.wav
+ザラキ(命中), Inori.wav;1;Black.bmp 480 480;Clear
+ニフラム, BeamShot.wav
+ニフラム(クリティカル), Inori.wav;1;White.bmp 480 480;Clear
+ドラゴラム(準備), Fire.wav
+ドラゴラム, MicroMissile.wav
+凍てつく波動(準備), Charge.wav;1;Black.bmp 480 480;Clear
+凍てつく波動, MicroMissile.wav
+凍てつく波動(命中), Inori.wav
+凍える吹雪, 2;Storm.wav;2;Storm.wav;Storm.wav
+激しい炎(準備), Fire.wav
+激しい炎, AntiAirMissile.wav
+正義のそろばん, Swing.wav
+正義のそろばん(命中), Shock(Low).wav
+魔神の金槌, AntiAirMissile.wav
+魔神の金槌(命中), Explode(Nuclear).wav
+正義のそろばん(命中), Shock(Low).wav
+会心の一撃, Swing.wav
+会心の一撃(命中), 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;Crash.wav
+ホイミ, Sharara.wav;1;White.bmp 480 480;Clear
+ベホイミ, Sharara.wav;1;White.bmp 480 480;Clear
+ベホマ, Sharara.wav;1;White.bmp 480 480;Clear
+ベホマラー, Sharara.wav;1;White.bmp 480 480;Clear;Sharara.wav
+ベホマズン, 10;Charge(long).wav;Sharara.wav;1;White.bmp 480 480;Clear
+マホトーン, BeamShot.wav
+マホトーン(クリティカル), BreakOff.wav
+ラリホー, BeamShot.wav
+ラリホー(クリティカル), Bubble.wav
+マヌーサ, BeamShot.wav
+マヌーサ(クリティカル), Applause.wav;1;White.bmp 480 480
+攻撃無効化(スカラ), BeamCoat.wav
+反射(マホカンタ), BeamCoat.wav
+高熱のガス, Breath.wav
+冷たく輝く息, Interference.wav
+甘い息, Whiz.wav
+甘い息(クリティカル), Bubble.wav
+二回攻撃, 2;Swing.wav;Swing.wav
+二回攻撃(命中), 2;Crash.wav;Crash.wav
+連続攻撃, 1;Swing.wav;1;Swing.wav;1;Swing.wav;Swing.wav
+連続攻撃(命中), 1;Crash.wav;1;Crash.wav;1;Crash.wav;Crash.wav
+巨大な腕, Charge.wav
+巨大な腕(命中), Crash.wav
+反射(光の壁), Glass.wav
+攻撃無効化(天空の鎧), Interference.wav
+マホカンタ, BeamCoat.wav;1;White.bmp 480 480
+跳び蹴り, Beam.wav
+跳び蹴り(命中), Crash.wav
+鉄の爪, Swing.wav
+鉄の爪(命中), Slash.wav
+鉄の爪(クリティカル), 1;Slash.wav;1;Slash.wav;1;Slash.wav
+炎の爪, AntiAirMissile.wav
+キラーピアス, 2;Swing.wav;Swing.wav
+キラーピアス(命中), 2;Slash.wav;Slash.wav
+キラーピアス(クリティカル), 1;Slash.wav;1;Slash.wav;1;Slash.wav
+モーニングスター(準備), Swing.wav
+モーニングスター, 3;Swing.wav;Swing.wav
+モーニングスター(命中), Crash.wav
+鎖鎌(準備), Swing.wav
+鎖鎌, 3;Swing.wav;Swing.wav
+鎖鎌(命中), Slash.wav
+シールド防御(四本の腕), 2;Swing.wav;3;Swing.wav;Shock(Low).wav
+商人軍団, GunPod.wav
+商人軍団(命中), MicroMissile.wav
+銀のタロット, Bow.wav
+銀のタロット(命中), Slash.wav
+塔のカード, Thunder.wav
+悪魔のカード, Hide.wav
+死神のカード, Hide.wav
+正義のカード, Glass.wav
+正義のカード(クリティカル), Inori.wav
+太陽のカード, Sharara.wav
+月のカード, Sharara.wav
+星のカード, Sharara.wav
+力のカード, Glass.wav
+力のカード(命中), 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;Crash.wav
+ひいてはいけないカード, Explode(Nuclear).wav
+

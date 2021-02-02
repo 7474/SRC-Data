@@ -1,0 +1,13 @@
+マジンロボ
+ニーインパルスキック(命中),     Stab.wav
+スクランブルカッター,           Jet.wav
+バックスピンキック,             Sword.wav
+ドリルプレッシャーパンチ,       5;Sword.wav;7;Drill.wav;10;Missile.wav
+全開ブレストバーン,             2;Charge.wav;2;Charge.wav;12;Charge(long).wav
+ブレストバーン,                 2;Charge.wav;2;Charge.wav;12;Charge(long).wav
+グレートブースター,             10;Jet.wav
+グレートブースター(命中),       Crash.wav
+フィンガーミサイル,             MultipleRocketLauncher(Light).wav
+スクランダーカッター,           Jet.wav
+ジュニアミサイル,               MultipleRocketLauncher(Light).wav
+アイアンバット(命中),           Punch.wav

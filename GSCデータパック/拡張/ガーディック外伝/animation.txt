@@ -1,0 +1,67 @@
+
+システムＤ．Ｐ．
+エネミー・イレーサー(攻撃), ＭＡＰフラッシュ BeamCoat.wav
+エネミー・イレーサー(命中), 爆発
+バック・サイド, 音波 白
+ウェーブ(攻撃), 実弾発射 Common\EFFECT_SonicBoom(White)01.bmp 48 Whiz.wav 発光 速 残像
+ウェーブ(命中), 飛沫 白
+手榴弾(準備), 手榴弾
+手榴弾(攻撃), 手榴弾;ＭＡＰ爆発
+手榴弾(命中), 爆発
+エリア・ブラスト, 交差ビーム 赤 青
+サーベル(準備), ビームサーベル 橙 Drill.wav
+サーベル(攻撃), ビームサーベル 橙
+サーベル(命中), クリティカル斬撃
+カッター(準備), 中心回転武器連続描画 BeamWeapon\EFFECT_TwinBeamSaber(LightBlue)[00-02].bmp 112 3 Drill.wav 発光
+カッター(攻撃), 中心回転武器 BeamWeapon\EFFECT_TwinBeamSaber(LightBlue)02.bmp 112 発光
+カッター(命中), 大斬撃
+ファイヤ・ボール(攻撃), 実弾発射 Fire\EFFECT_FlameThrowerHit(Orange)06.bmp 32 AntiShipMissile.wav 発光
+ファイヤ・ボール(命中), 大爆発 橙
+
+システムＤ．Ｐ．(戦闘機型形態)
+レーザー, ２連中ビーム 赤
+リピール(攻撃), 旋回光弾 橙
+リピール(命中), 旋回光弾 橙
+サーベル(準備), 突く武器連続描画 BeamWeapon\EFFECT_BeamSaberT(Orange)[00-02].bmp 48 3 Drill.wav 発光
+サーベル(攻撃), 突く武器突撃 BeamWeapon\EFFECT_BeamSaberT(Orange)02.bmp 48 発光
+サーベル(命中), 突く武器突撃 BeamWeapon\EFFECT_BeamSaberT(Orange)02.bmp 48 発光 斬撃
+カッター(準備), 射撃武器連続描画 BeamWeapon\EFFECT_TwinBeamSaber(LightBlue)[00-02].bmp 112 3 Drill.wav 発光
+カッター(攻撃), 射撃武器突撃 BeamWeapon\EFFECT_TwinBeamSaber(LightBlue)02.bmp 112 発光
+カッター(命中), 射撃武器突撃 BeamWeapon\EFFECT_TwinBeamSaber(LightBlue)02.bmp 112 発光 斬撃
+
+
+ガーディック外伝
+体当たり, 格闘
+小イカ(攻撃), １ＷＡＹ射出
+小イカ(命中), 爆発
+ハサミ(攻撃), 実弾発射 BodyParts\EFFECT_Pincers(Red)01.bmp
+ハサミ(命中), 甲殻鋏 赤
+追撃ミサイル, 小型ミサイル 12
+追撃ミサイル(２連装), 小型ミサイル 2
+レーザー(大型), 大ビーム 赤
+レーザー乱射, 大拡散ビーム 赤
+レーザー乱射(解説), $(ユニット)はレーザーを乱射した。
+ラム, 格闘
+ラム分離, ロケットパンチ Weapon\EFFECT_Drill01.bmp
+火の息, 火炎放射
+追撃ミサイル(３連装), 小型ミサイル 3
+赤目玉(攻撃), 実弾発射 BodyParts\EFFECT_EyeBall(Red)01.bmp
+赤目玉(命中), 爆発
+青目玉(攻撃), 実弾発射 BodyParts\EFFECT_EyeBall(Blue)01.bmp
+青目玉(命中), 爆発
+小弾(攻撃), 実弾発射 Bullet\EFFECT_STG_Bullet(White)08.bmp 16
+小弾(命中), 小爆発
+体毛, 触手乱舞 橙
+薙ぎ払い, 触手 橙
+目玉ばら撒き, ＭＡＰ光球 赤
+トゲ, 岩弾
+骸骨(攻撃), 回転発射 Common\EFFECT_Skull02.bmp 遅
+骸骨(命中), 爆発
+レーザー(小型), ニードルレーザー連射 赤
+大弾(攻撃), 実弾発射 Bullet\EFFECT_STG_Bullet(Red)02.bmp 16
+大弾(命中), 爆発
+爪, 爪 水色
+ミサイル, ミサイル
+ミサイル乱射, ＭＡＰホーミングミサイル
+ミサイル乱射(解説), $(ユニット)はミサイルを乱射した。
+

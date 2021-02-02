@@ -1,0 +1,273 @@
+ユニットコマンド みんな行くぞ！！ 伊達健太: 
+Talk 伊達健太
+よっしゃあ、行くぜみんな！！
+インストール！ メガレンジャー！！
+End
+メガ名乗り発動者 = 1
+Goto "決めポーズ"
+
+ユニットコマンド みんな行くぞ！！ 遠藤耕一郎: 
+Talk 遠藤耕一郎
+よし、みんな行くぞ！！
+インストール！ メガレンジャー！！
+End
+メガ名乗り発動者 = 2
+Goto "決めポーズ"
+
+ユニットコマンド みんな行くぞ！！ 並木瞬: 
+Talk 並木瞬
+よし、みんな…行くぜ！！
+インストール！ メガレンジャー！！
+End
+メガ名乗り発動者 = 3
+Goto "決めポーズ"
+
+ユニットコマンド みんな行くぞ！！ 城ヶ崎千里: 
+Talk 城ヶ崎千里
+みんな、行くわよっ！！
+インストール！ メガレンジャー！！
+End
+メガ名乗り発動者 = 4
+Goto "決めポーズ"
+
+ユニットコマンド みんな行くぞ！！ 今村みく: 
+Talk 今村みく
+みんな、行くよぉっ！！
+インストール！ メガレンジャー！！
+End
+メガ名乗り発動者 = 5
+Goto "決めポーズ"
+
+ユニットコマンド みんな行くぞ！！ 早川裕作: 
+Talk 早川裕作
+よ～し、みんな準備はいいな！！一丁キメるぜ！！
+インストール！ メガレンジャー！！
+End
+メガ名乗り発動者 = 6
+Goto "決めポーズ"
+
+
+決めポーズ:
+StartBGM Megaranger.mid 
+
+If メガレッド Then
+Font 50pt
+For i = 1 To 12
+　Cls
+  c = (12 - i) * 40
+  Font RGB(255, 0, 0) Ｐゴシック Bold 通常
+  PaintString - c MEGARED
+  Refresh
+Next
+Refresh
+Endif
+
+If メガブラック Then
+Font 50pt
+For i = 1 To 12
+　Cls
+  c = (12 - i) * 40
+  Font RGB(100, 100, 100) Ｐゴシック Bold 通常
+  PaintString - c MEGABLACK
+  Refresh
+Next
+Refresh
+Endif
+
+If メガブルー Then
+Font 50pt
+For i = 1 To 12
+　Cls
+  c = (12 - i) * 40
+  Font RGB(0, 0, 255) Ｐゴシック Bold 通常
+  PaintString - c MEGABLUE
+  Refresh
+Next
+Refresh
+Endif
+
+If メガイエロー Then
+Font 50pt
+For i = 1 To 12
+　Cls
+  c = (12 - i) * 40
+  Font RGB(255, 255, 0) Ｐゴシック Bold 通常
+  PaintString - c MEGAYELLOW
+  Refresh
+Next
+Refresh
+Endif
+
+If メガピンク Then
+Font 50pt
+For i = 1 To 12
+　Cls
+  c = (12 - i) * 40
+  Font RGB(255, 100, 255) Ｐゴシック Bold 通常
+  PaintString - c MEGAPINK
+  Refresh
+Next
+Refresh
+Endif
+
+If メガシルバー Then
+Font 50pt
+For i = 1 To 12
+　Cls
+  c = (12 - i) * 40
+  Font RGB(240, 240, 240) Ｐゴシック Bold 通常
+  PaintString - c MEGASILVER
+  Refresh
+Next
+Refresh
+Endif
+
+For i = 1 To 6
+　Cls
+  c = (6 - i) * 40 + 180
+  Font RGB(255, 255, 255) Ｐゴシック Bold 通常
+  PaintString - c MEGARANGER
+  Refresh
+Next
+Refresh
+
+
+For i = 1 To 3
+　Cls
+　PaintString - - MEGARANGER
+　Refresh
+　PaintPicture White.bmp - - 480 480
+　Refresh
+  Wait 1
+Next
+
+Cls
+PaintString - - MEGARANGER
+Refresh
+
+Redraw
+
+
+## まだ変身してないキャラを全員変身させます ## 
+If 伊達健太 Then 
+Transform 伊達健太 メガレッド 
+Endif 
+If 遠藤耕一郎 Then 
+Transform 遠藤耕一郎 メガブラック 
+Endif 
+If 並木瞬 Then 
+Transform 並木瞬 メガブルー 
+Endif 
+If 城ヶ崎千里 Then 
+Transform 城ヶ崎千里 メガイエロー
+Endif 
+If 今村みく Then 
+Transform 今村みく メガピンク
+Endif 
+If 早川裕作 Then
+Transform 早川裕作 メガシルバー
+Endif
+
+
+# 出撃しているキャラに順番に名乗らせます ## 
+メガレンジャー変身 = 0 
+メガシルバー変身 = 0
+If メガレッド Then 
+AutoTalk メガレッド X(メガレッド) Y(メガレッド)
+メガレッド！！ 
+End 
+Incr メガレンジャー変身 
+Endif 
+If メガブラック Then 
+AutoTalk メガブラック X(メガブラック) Y(メガブラック)
+メガブラック！！ 
+End 
+Incr メガレンジャー変身 
+Endif 
+If メガブルー Then 
+AutoTalk メガブルー X(メガブルー) Y(メガブルー)
+メガブルー！！ 
+End 
+Incr メガレンジャー変身 
+Endif 
+If メガイエロー Then 
+AutoTalk メガイエロー X(メガイエロー) Y(メガイエロー)
+メガイエロー！！ 
+End 
+Incr メガレンジャー変身 
+Endif 
+If メガピンク Then 
+AutoTalk メガピンク X(メガピンク) Y(メガピンク)
+メガピンク！！ 
+End 
+Incr メガレンジャー変身 
+Endif
+If メガシルバー Then
+If (1 <= メガレンジャー変身) Then
+AutoTalk メガシルバー X(メガシルバー) Y(メガシルバー)
+そしてご存知、メガシルバー！！
+End
+Else
+AutoTalk メガシルバー X(メガシルバー) Y(メガシルバー)
+メガシルバー！！
+End
+Endif
+Incr メガレンジャー変身
+メガシルバー変身 = 1
+Endif 
+
+## 揃った時のみ決めぜりふ ##
+
+If メガレンジャー変身 = 6 Then
+Call 電磁戦隊かけ声
+AutoTalk 電磁戦隊メガレンジャー(６人)
+メガレンジャー！！
+End
+ElseIf (メガレンジャー変身 = 5) And (メガシルバー変身 = 0) Then
+Call 電磁戦隊かけ声
+AutoTalk 電磁戦隊メガレンジャー 
+メガレンジャー！！ 
+End 
+Endif 
+
+Exit 
+
+電磁戦隊かけ声:
+
+If メガ名乗り発動者 = 1 Then
+　AutoTalk メガレッド
+　電磁戦隊！！ 
+　End
+Endif
+
+If メガ名乗り発動者 = 2 Then
+　AutoTalk メガブラック
+　電磁戦隊！！ 
+　End
+Endif
+
+If メガ名乗り発動者 = 3 Then
+　AutoTalk メガブルー
+　電磁戦隊！！ 
+　End
+Endif
+
+If メガ名乗り発動者 = 4 Then
+　AutoTalk メガイエロー
+　電磁戦隊！！ 
+　End
+Endif
+
+If メガ名乗り発動者 = 5 Then
+　AutoTalk メガピンク
+　電磁戦隊！！ 
+　End
+Endif
+
+If メガ名乗り発動者 = 6 Then
+　AutoTalk メガシルバー
+　電磁戦隊！！ 
+　End
+Endif
+
+Return

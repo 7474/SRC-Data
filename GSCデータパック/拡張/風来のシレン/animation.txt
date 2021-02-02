@@ -1,0 +1,581 @@
+
+風来人シレン
+木の矢,        クロスボウ
+鉄の矢,        クロスボウ
+銀の矢,        クロスボウ
+とどめの矢,    クロスボウ
+毒矢,          クロスボウ
+生気の矢,      クロスボウ
+吹き飛ばしの矢,クロスボウ
+必中の矢,      クロスボウ
+ダーツの矢,    クロスボウ
+会心の矢,      クロスボウ
+
+子供風来人シレン
+木の矢,        クロスボウ
+鉄の矢,        クロスボウ
+銀の矢,        クロスボウ
+とどめの矢,    クロスボウ
+毒矢,          クロスボウ
+生気の矢,      クロスボウ
+吹き飛ばしの矢,クロスボウ
+必中の矢,      クロスボウ
+ダーツの矢,    クロスボウ
+会心の矢,      クロスボウ
+
+技の風来人シレン
+おいでよ混乱破(攻撃),       ＭＡＰフラッシュ
+ルームやりすごし閃光(攻撃), ＭＡＰ光噴出
+松明,                       松明
+ルームサイクロン(攻撃),     ＭＡＰ強風
+ルームサイクロン(命中),     強風
+ナンドモウテウテ破,         ショックビーム Beam.wav
+ぐわ！カタマッタ弾,         気弾
+感電破,                     電撃
+ダダーン弾,                 波動放射
+回復アップアップ(使用),     発光 青 Flair.wav
+自動ナオッテルー(使用),     オーラ上昇 黄色
+
+ワナ師の風来人シレン
+一方通行(攻撃),         音再生 Swing(2).wav
+一方通行(命中),         音再生 UnitOn(2).wav
+バネ(攻撃),             音再生 Swing(2).wav
+バネ(命中),             音再生 BeamCoat.wav
+デロデロの湯(攻撃),     音再生 Swing(2).wav
+デロデロの湯(命中),     光噴出 緑 Acid.wav
+ケロケロの雨(攻撃),     音再生 Swing(2).wav
+ケロケロの雨(命中),     飛沫 Mist.wav
+眠りガス(攻撃),         音再生 Swing(2).wav
+眠りガス(命中),         煙 Inori.wav
+回転板(攻撃),           音再生 Swing(2).wav
+回転板(命中),           回転 Flash.wav - 速
+落し穴(攻撃),           音再生 Swing(2).wav
+落し穴(命中),           落下 PowerDown.wav
+引きよせの杖(準備),     杖
+引きよせの杖(攻撃),     杖;光投射 青
+引きよせの杖(命中),     煙 Inori.wav
+つるはし,               ピック
+毒矢,                   クロスボウ
+イガイガボトボト(攻撃), 音再生 Swing(2).wav
+イガイガボトボト(命中), 点乱打 黄 BreakOff.wav
+落石(準備),             -
+落石(攻撃),             音再生 Swing(2).wav
+落石(命中),             巨岩落下 Shock(Low).wav
+地雷(攻撃),             3;音再生 Reload.wav;ＭＡＰ大爆発
+地雷(命中),             大爆発
+
+秘技の女剣士アスカ
+四股(準備),　　　　発光 青
+四股,　　　　　　　ＭＡＰ地震
+居合斬り(準備),　　発光 青
+居合斬り,　　　　　斬撃突撃
+気功裂波(準備),　　発光 青
+気功裂波,　　　　　気弾 黄色
+鬼火(準備),　　　　発光 青
+鬼火,　　　　　　　炎投射
+四方剣(準備),　　　発光 青
+四方剣,　　　　　　連続なぎ払い
+鬼月(準備),　　　　発光 青
+鬼月,　　　　　　　日本刀突撃
+黄泉送り(準備),　　発光 青
+黄泉送り,　　　　　円弧斬撃 黄色
+
+ゾウリ頭のペケジ
+格闘(準備), -
+格闘(攻撃), 格闘
+格闘(命中), 強打 Shock(Low).wav
+
+目潰しお竜
+格闘(準備), -
+格闘(攻撃), 格闘
+格闘(命中), 斬撃 Saber.wav
+
+ジロきち(風来のシレン)
+格闘(準備), -
+格闘(攻撃), 格闘
+格闘(命中), 強打 Crash.wav
+
+案内人のタオ
+爪(準備),   爪 黒 二刀流
+爪(攻撃),   爪 黒 二刀流
+爪(命中),   爪 黒 二刀流
+
+大リーバ像
+剣,        金剣 二刀流
+
+魔物キュラス
+衝撃波, 気弾 青
+
+風来のシレン
+格闘, 格闘
+目潰し(攻撃), 光投射 黒
+目潰し(命中), ダメージ Inori.wav
+仕込み杖(準備), 杖
+仕込み杖(攻撃), 仕込み刃突撃
+仕込み杖(命中), 仕込み刃突撃
+体当たり, タックル
+パチンコ, パチンコ
+爪(準備),   -
+爪(攻撃),   振る武器 -.bmp
+爪(命中),   爪撃
+火炎(攻撃), 火炎放射 AntiShipMissile.wav
+火炎(命中), 火炎放射 Fire.wav
+キック,    キック
+拳銃,      リボルバー
+２丁拳銃,  銃撃武器連射 Weapon\EFFECT_Revolver01.bmp 二丁拳銃
+杖,                 杖
+光の矢(準備),       杖
+光の矢(攻撃),       杖;光投射 青
+光の矢(命中),       小ビーム 青
+攻撃の魔法(準備),   @戦闘アニメ_杖準備
+攻撃の魔法(発動),   攻撃力ＵＰ Charge.wav
+防御の魔法(準備),   @戦闘アニメ_杖準備
+防御の魔法(発動),   防御力ＵＰ Charge.wav
+素早さの魔法(準備), @戦闘アニメ_杖準備
+素早さの魔法(発動), 移動力ＵＰ Charge.wav
+ラムジュース, ビン
+海賊刀,       カトラス
+おたけび(準備), オーラ上昇 黄色 Charge.wav
+おたけび(攻撃), 地面衝撃 Punch(Metal).wav
+おたけび(命中), -
+催眠術(準備),         オーラ上昇 黄色 Charge.wav
+催眠術(攻撃),         発光 黄色 Sharara.wav 対象ユニットＩＤ
+催眠術(命中),         発光 黄色 Sharara.wav
+スミ吹き(準備),       オーラ上昇 黄色 Charge.wav
+スミ吹き(攻撃),       水流 黒
+スミ吹き(命中),       水流 黒
+特攻(準備),           オーラ上昇 黄色 Charge.wav
+特攻(攻撃),           ヘッドバット
+特攻(命中),           ヘッドバット
+ドロップキック(攻撃), キック
+ドロップキック(命中), 打撃 UnitOn(2).wav
+バナナ落とし(準備),   オーラ上昇 黄色 Charge.wav
+バナナ落とし(攻撃),   キック
+バナナ落とし(命中),   打撃 UnitOn(2).wav;煙 Explode.wav
+バリ返し(準備),       オーラ上昇 黄色 Charge.wav
+バリ返し(攻撃),       大電撃
+バリ返し(命中),       大電撃
+回復の光(準備),       オーラ上昇 黄色 Charge.wav
+回復の光(使用),       フラッシュ 黄色 Sharara.wav
+ブーメラン, 回転投擲武器 Weapon\EFFECT_WoodBoomerang01.bmp
+変化ゲイズ(準備),           煙 Explode(Small).wav
+変化ゲイズ(攻撃),           発光 黄色 Sharara.wav 対象ユニットＩＤ
+変化ゲイズ(命中),           発光 黄色 Sharara.wav
+変化ガラ魔道士(準備),       煙 Explode(Small).wav
+変化ガラ魔道士(攻撃),       光投射 青
+変化ガラ魔道士(命中),       煙 Inori.wav
+変化ノロージョ(準備),       煙 Explode(Small).wav
+変化ノロージョ(攻撃),       音再生 Glass.wav
+変化ノロージョ(命中),       -
+変化スコッピー(準備),       煙 Explode(Small).wav
+変化スコッピー(攻撃),       火炎弾 Bomb.wav
+変化スコッピー(命中),       飛沫 黒 UnitOn(2).wav
+変化草子どり(準備),         煙 Explode(Small).wav;投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+変化草子どり(攻撃),         投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+変化草子どり(命中),         -
+変化すいだすゾウ(準備),     煙 Explode(Small).wav
+変化すいだすゾウ(攻撃),     音再生 Charge(High).wav
+変化すいだすゾウ(命中),     吸収
+変化うたたねバク(準備),     煙 Explode(Small).wav
+変化うたたねバク(攻撃),     泡 Bubble.wav
+変化うたたねバク(命中),     音再生 Bubble.wav
+変化コガタナバチ(準備),     煙 Explode(Small).wav
+変化コガタナバチ(攻撃),     刺突
+変化コガタナバチ(命中),     ダメージ Stab.wav
+変化もざらし(準備),         煙 Explode(Small).wav
+変化もざらし(攻撃),         スピンアタック
+変化もざらし(命中),         スピンアタック
+格闘(武器),                 格闘
+変化フラッシュバード(準備), 煙 Explode(Small).wav
+変化フラッシュバード(使用), フラッシュ 黄色 Sharara.wav
+狐の剣(準備),           煙 Explode(Small).wav;変形 Anime\Weapon\EFFECT_Sword03.bmp
+狐の剣(攻撃),           斬撃武器 Weapon\EFFECT_Sword03.bmp
+狐の剣(命中),           斬撃武器 Weapon\EFFECT_Sword03.bmp
+コハルの剣(準備),       煙 Explode(Small).wav;変形 Anime\Weapon\EFFECT_Sword03.bmp
+コハルの剣(攻撃),       斬撃
+コハルの剣(命中),       超斬撃 赤
+コハルモエモエー(準備), 煙 Explode(Small).wav;変形 Anime\Weapon\EFFECT_Sword03.bmp
+コハルモエモエー(攻撃), 斬撃
+コハルモエモエー(命中), 円弧斬撃 赤 Slash.wav
+鉄砲, 長筒
+牙, 噛み付き
+クチバシ, 連突
+ジャンガリガン(準備), 光噴出 黄色 Sharara.wav
+ジャンガリガン(攻撃), 音再生 Swing(2).wav
+ジャンガリガン(命中), 音再生 UnitOn.wav
+コクワガッター(準備), 光噴出 黄色 Sharara.wav
+コクワガッター(攻撃), 打撃突撃
+コクワガッター(命中), ブレーンバスター
+イカキング(準備),     光噴出 黄色 Sharara.wav
+イカキング(攻撃),     水流 黒
+イカキング(命中),     飛沫 黒 Splash.wav
+ヒャクメ魔人(準備),   光噴出 黄色 Sharara.wav
+ヒャクメ魔人(攻撃),   @SpecialPowerAnime 友情
+ヒャクメ魔人(命中),   発光 黄色 Sharara.wav
+パオパ王(準備),       光噴出 黄色 Sharara.wav;杖
+パオパ王(攻撃),       杖;光投射 青
+パオパ王(命中),       煙 Explode(Small).wav
+死の使い(準備),       光噴出 黄色 Sharara.wav;鎌
+死の使い(攻撃),       なぎ払い
+死の使い(命中),       なぎ払い Slash.wav
+ミノタウロス(準備),   光噴出 黄色 Sharara.wav;鋼の斧
+ミノタウロス(攻撃),   白兵武器 Swing.wav
+ミノタウロス(命中),   大斬撃
+スカイドラゴン(準備), 光噴出 黄色 Sharara.wav
+スカイドラゴン(攻撃), 火炎放射 Breath.wav;炎投射
+スカイドラゴン(命中), 炎
+デブーチョ(準備),     光噴出 黄色 Sharara.wav;投擲武器 Weapon\EFFECT_Stone01.bmp 64 下投げ
+デブーチョ(攻撃),     投擲武器 Weapon\EFFECT_Stone01.bmp 64 下投げ 遅
+デブーチョ(命中),     ダメージ
+爆弾ウニ(準備),       光噴出 黄色 Sharara.wav
+爆弾ウニ(攻撃),       ＭＡＰ大爆発
+爆弾ウニ(命中),       大爆発
+クナイ駆け(準備), 刺突武器 Weapon\EFFECT_Kunai01.bmp
+クナイ駆け(攻撃), 突く武器突撃 Weapon\EFFECT_Kunai01.bmp 斬撃
+クナイ駆け(命中), 斬撃
+クナイ斬り,       斬撃武器 Weapon\EFFECT_Kunai01.bmp
+クナイ投げ,       クナイ
+けり,             キック
+鉄の矢投げ(準備), 投擲武器 Bullet\EFFECT_Arrow01.bmp
+鉄の矢投げ(攻撃), 投擲武器 Bullet\EFFECT_Arrow01.bmp
+鉄の矢投げ(命中), 矢
+ベロよせ,           舌
+追加攻撃(体当たり), タックル
+三方剣,　なぎ払い
+鬼月,　　剣突撃
+忍書刀,　日本刀
+鬼月,　　日本刀突撃
+糸(攻撃), 音再生 Whiz.wav
+糸(命中), -
+触手,  多触手
+手足,  多触手
+三又槍,           さす又
+火炎草投げ(準備), 投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+火炎草投げ(攻撃), 投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+火炎草投げ(命中), 炎
+大地震(準備)，-
+大地震(攻撃)，地面衝撃
+大地震(命中)，@戦闘アニメ_振動準備 相手ユニットＩＤ;ダメージ
+大火炎(準備),  -
+大火炎(攻撃), 火炎放射 AntiShipMissile.wav
+大火炎(命中), 炎の壁 Fire.wav
+金棒,         棍棒
+突進,               タックル
+ジャガーの眼(攻撃), 発光 緑 Glass.wav
+ジャガーの眼(命中), -
+いかずち,           落雷
+不思議な踊り(準備), -
+不思議な踊り(攻撃), 音再生 Sharara.wav
+不思議な踊り(命中), 音再生 Glass.wav
+吹き矢,             吹き矢
+ラリアット(準備), -
+ラリアット(攻撃), 白兵回転
+ラリアット(命中), 強打 Explode.wav
+パンチ,           格闘
+岩石投げ,         岩
+レーザー,     ２連小ビーム 黄色
+体当たり,     タックル
+エネルギー波, 気弾 黄色
+衝撃波(準備), -
+衝撃波(攻撃), 地面衝撃
+衝撃波(命中), ダメージ
+なぎ払い,   なぎ払い
+突き飛ばし, なぎ払い
+蹴り,       キック
+炎を纏った拳, 炎
+パワー吸収,   吸収
+光る爪(準備), -
+光る爪(攻撃), 振る武器 -.bmp
+光る爪(命中), 爪撃
+闇かむろ・妖魔かむろ, 炎投射
+手裏剣投げ,       手裏剣
+巨大手裏剣(準備), 投擲武器 Weapon\EFFECT_BigShuriken01.bmp
+巨大手裏剣(攻撃), 投擲武器 Weapon\EFFECT_BigShuriken01.bmp
+巨大手裏剣(命中), 斬撃
+おしべ, 粒子噴射 黄色
+つた,   多触手
+変な踊り(準備), -
+変な踊り(攻撃), 音再生 Sharara.wav
+変な踊り(命中), -
+貫通光線【ＭＡＰ】, ＭＡＰビーム 白
+貫通光線, 中ビーム 白
+放り投げ, 投げ飛ばし
+叩き潰し, -
+叩き潰し, 格闘
+叩き潰し, ジャンプバスター
+黄金の盗み技(準備), -
+黄金の盗み技(攻撃), 音再生 Swing(2).wav
+黄金の盗み技(命中), -
+分身攻撃, 分身打撃
+ひっかき, 爪撃
+つむじ風, 竜巻
+蹴飛ばし, キック
+運命のサイコロ・オカメの目,       ＭＡＰ落雷
+運命のサイコロ・炎の目,           ＭＡＰ炎
+頭突き,                           ヘッドバット
+運命のサイコロ・鬼の目,           乱打
+運命のサイコロ・ヒョットコ(準備), -
+運命のサイコロ・ヒョットコ(攻撃), ８ＷＡＹ射出
+運命のサイコロ・ヒョットコ(命中), 点乱打
+いかずち, 落雷
+睡眠ガス, ＭＡＰ煙
+実体化したシャーガ(反撃), 連斬撃
+実体化したシャーガ,       連斬撃
+地面揺らし, ＭＡＰ地震
+###
+木の矢,        弓矢
+鉄の矢,        弓矢
+銀の矢,        弓矢
+###
+とどめの矢,    弓矢
+毒矢,          弓矢
+生気の矢,      弓矢
+吹き飛ばしの矢,弓矢
+必中の矢,      弓矢
+ダーツの矢,    弓矢
+会心の矢,      弓矢
+###
+投石,               石
+車輪のやいば(準備), 投擲武器 Weapon\EFFECT_BigShuriken01.bmp
+車輪のやいば(攻撃), 投擲武器 Weapon\EFFECT_BigShuriken01.bmp
+車輪のやいば(命中), 斬撃
+デブータの石,       投擲武器 Weapon\EFFECT_Stone01.bmp 64 下投げ 遅
+大砲の弾,           回転投擲武器 Weapon\EFFECT_IronBall01.bmp 下投げ
+大砲の弾(命中),     爆発
+###
+ギタン投げ(準備),   投擲武器 DGoods\EFFECT_Koban01.bmp Reload(2).wav
+ギタン投げ(攻撃),   投擲武器 DGoods\EFFECT_Koban01.bmp
+ギタン投げ(命中),   ダメージ Glass(3).wav
+###
+毒草(準備),       投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+毒草(攻撃),       投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+毒草(命中),       -
+混乱草(準備),     投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+混乱草(攻撃),     投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+混乱草(命中),     -
+睡眠草(準備),     投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+睡眠草(攻撃),     投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+睡眠草(命中),     -
+狂戦士の種(準備), 投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+狂戦士の種(攻撃), 投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+狂戦士の種(命中), -
+高とび草(準備),   投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+高とび草(攻撃),   投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+高とび草(命中),   -
+ドラゴン草(準備), 投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+ドラゴン草(攻撃), 火炎放射 AntiShipMissile.wav
+ドラゴン草(命中), 火炎放射 Fire.wav
+火炎草(準備),     投擲武器 Bullet\EFFECT_GroundCutter(Green)01.bmp
+火炎草(攻撃),     火炎放射 AntiShipMissile.wav
+火炎草(命中),     火炎放射 Fire.wav
+###
+かなしばりの杖(準備), 杖
+かなしばりの杖(攻撃), 杖;光投射 青
+かなしばりの杖(命中), 煙 Inori.wav
+吹き飛ばしの杖(準備), 杖
+吹き飛ばしの杖(攻撃), 杖;光投射 青
+吹き飛ばしの杖(命中), 煙 Inori.wav
+引きよせの杖(準備),   杖
+引きよせの杖(攻撃),   杖;光投射 青
+引きよせの杖(命中),   煙 Inori.wav
+魔道の杖(準備),       杖
+魔道の杖(攻撃),       杖;光投射 青
+魔道の杖(命中),       煙 Inori.wav
+鈍足の杖(準備),       杖
+鈍足の杖(攻撃),       杖;光投射 青
+鈍足の杖(命中),       煙 Inori.wav
+封印の杖(準備),       杖
+封印の杖(攻撃),       杖;光投射 青
+封印の杖(命中),       煙 Inori.wav
+空振りの杖(準備),     杖
+空振りの杖(攻撃),     杖;光投射 青
+空振りの杖(命中),     煙 Inori.wav
+一時しのぎの杖(準備), 杖
+一時しのぎの杖(攻撃), 杖;光投射 青
+一時しのぎの杖(命中), 煙 Inori.wav
+クオーターの杖(準備), 杖
+クオーターの杖(攻撃), 杖;光投射 青
+クオーターの杖(命中), 煙 Inori.wav
+いかずちの杖(準備),   杖
+いかずちの杖(攻撃),   杖;光投射 青
+いかずちの杖(命中),   放電
+火柱の杖(準備),       杖
+火柱の杖(攻撃),       杖;光投射 青
+火柱の杖(命中),       火柱
+雷光の杖(準備),       杖
+雷光の杖(攻撃),       杖;光投射 青
+雷光の杖(命中),       電撃
+###
+混乱の札,   お札
+睡眠の札,   お札
+鈍足の札,   お札
+封印の札,   お札
+影縫いの札, お札
+空振りの札, お札
+狂戦士の札, お札
+###
+混乱の巻物(準備), 	振る武器 Magic\EFFECT_JapaneseScroll01.bmp
+混乱の巻物(攻撃), 	連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3;_
+			@SpecialPowerAnime 友情
+混乱の巻物(命中), 	-
+バクスイの巻物(準備), 	振る武器 Magic\EFFECT_JapaneseScroll01.bmp
+バクスイの巻物(攻撃), 	連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3;_
+			ＭＡＰ煙 Storm.wav
+バクスイの巻物(命中), 	-
+分身の巻物(準備),     	振る武器 Magic\EFFECT_JapaneseScroll01.bmp
+分身の巻物(攻撃),     	連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3;_
+			分身 Charge.wav
+分身の巻物(命中),     	-
+ゾワゾワの巻物(準備), 	振る武器 Magic\EFFECT_JapaneseScroll01.bmp
+ゾワゾワの巻物(攻撃), 	連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3;_
+			ユニット変色 緑 対象ユニットＩＤ
+ゾワゾワの巻物(命中), 	-
+はりつけの巻物(準備), 	振る武器 Magic\EFFECT_JapaneseScroll01.bmp
+はりつけの巻物(攻撃), 	連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3;_
+			ＭＡＰオールレンジ
+はりつけの巻物(命中), 	-
+飛ばずの巻物(準備),   	振る武器 Magic\EFFECT_JapaneseScroll01.bmp
+飛ばずの巻物(攻撃),   	連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3;_
+			地面衝撃
+飛ばずの巻物(命中),   	-
+集合の巻物(準備),     	振る武器 Magic\EFFECT_JapaneseScroll01.bmp
+集合の巻物(攻撃),     	連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3;_
+			ＭＡＰフラッシュ Sharara.wav
+集合の巻物(命中),     	-
+ねだやしの巻物(準備), 	投擲武器 Magic\EFFECT_JapaneseScroll01.bmp
+ねだやしの巻物(攻撃), 	投擲武器 Magic\EFFECT_JapaneseScroll01.bmp
+ねだやしの巻物(命中), 	-
+いかずちの巻物(準備), 	振る武器 Magic\EFFECT_JapaneseScroll01.bmp
+いかずちの巻物(攻撃), 	連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3;_
+			ＭＡＰ落雷
+いかずちの巻物(命中), 	落雷
+落石の巻物(準備),     	振る武器 Magic\EFFECT_JapaneseScroll01.bmp
+落石の巻物(攻撃),     	連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3;_
+			ＭＡＰ落盤
+落石の巻物(命中),     	落盤
+真空切りの巻物(準備), 	振る武器 Magic\EFFECT_JapaneseScroll01.bmp
+真空切りの巻物(攻撃), 	連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3;_
+			ＭＡＰ強風 Storm.wav
+真空切りの巻物(命中), 	強風
+炎上の巻物(準備),     	振る武器 Magic\EFFECT_JapaneseScroll01.bmp
+炎上の巻物(攻撃),     	連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3;_
+			ＭＡＰ炎
+炎上の巻物(命中),     	火柱
+自爆の巻物(準備),     	振る武器 Magic\EFFECT_JapaneseScroll01.bmp
+自爆の巻物(攻撃),     	連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3;_
+			ＭＡＰ大爆発
+自爆の巻物(命中),     	大爆発
+他人回復の巻物(準備), 	@戦闘アニメ_振る武器準備 Magic\EFFECT_JapaneseScroll01.bmp
+他人回復の巻物(使用),   連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3
+ファイトの巻物(準備), 	@戦闘アニメ_振る武器準備 Magic\EFFECT_JapaneseScroll01.bmp
+ファイトの巻物(使用),   連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3
+予防の巻物(準備), 	@戦闘アニメ_振る武器準備 Magic\EFFECT_JapaneseScroll01.bmp
+予防の巻物(使用),     	連続描画 Magic\EFFECT_JapaneseScroll[01-02].bmp 32 3 1 前面 対象ユニットＩＤ Sharara.wav 方向判定無効 下辺;_
+			魔法陣 黄色 前面 対象ユニットＩＤ Charge.wav;3
+###
+水をかける(攻撃),         音再生 Swing(2).wav
+水をかける(命中),         飛沫 青 Splash.wav
+ぬすっトド(攻撃),         音再生 Swing(2).wav
+ぬすっトド(命中),         -
+冷えびえ香の壷,           ＭＡＰ煙 青
+身かわし香の壷,           ＭＡＰ煙 緑
+目配り香の壷,             ＭＡＰ煙 黄色
+山彦香の壷,               ＭＡＰ煙 赤
+油をかける(攻撃),         音再生 Swing(2).wav
+油をかける(命中),         飛沫 黒 Splash.wav
+やりすごしの壷,           投擲武器 -.bmp
+うっぷんばらしの壷(攻撃), 投擲武器 -.bmp;ＭＡＰ大爆発
+うっぷんばらしの壷(命中), 超爆発
+###
+砂鉄, ＭＡＰオーラ 黒
+岩,   ＭＡＰ落盤
+木,   投擲武器 DGoods\EFFECT_Timber01.bmp
+
+
+汎用
+###
+棍棒,              棍棒
+長巻,              脇差
+カタナ,            日本刀
+獣の牙,            ソードブレイカー
+どうたぬき,        野太刀
+隕石の剣,          剣
+象牙の剣,          斬撃武器 Weapon\EFFECT_AncientBronzeSword01.bmp
+朱剛石の剣,        銅剣
+###
+剛剣マンジカブラ,  金剣
+大三元の剣,        斬撃武器 Weapon\EFFECT_GreatSword02.bmp
+マムルの剣,        剣
+カミナの剣,        銀剣
+火迅風魔刀,        斬撃武器 LightWeapon\EFFECT_LightSword(Red)01.bmp
+天神楽ノ剣,        斬撃武器 LightWeapon\EFFECT_LightSword(Yellow)01.bmp
+宝剣ミジンハ,      斬撃武器 LightWeapon\EFFECT_LightSword(Yellow)01.bmp
+秘剣カブラステギ,  斬撃武器 LightWeapon\EFFECT_LightSword(LightBlue)01.bmp
+###
+黄泉水底ノ鎖,      スピンハンマー
+###
+松明,               松明
+かつおぶし,         殴打武器 DGoods\EFFECT_LidofPan01.bmp
+火の刃<炎>(準備),   斬撃武器 Weapon\EFFECT_Dagger01.bmp
+火の刃<炎>(攻撃),   斬撃武器 Weapon\EFFECT_Dagger01.bmp;炎投射
+火の刃<炎>(命中),   炎投射
+火の刃,             斬撃武器 Weapon\EFFECT_Dagger01.bmp
+火の刃(満タン)(準備), 斬撃武器 Weapon\EFFECT_Dagger01.bmp
+火の刃(満タン)(攻撃), 斬撃武器 Weapon\EFFECT_Dagger01.bmp;炎投射
+火の刃(満タン)(命中), 斬撃武器 Weapon\EFFECT_Dagger01.bmp;炎投射
+木づち,             木槌
+根性の竹刀(準備),   竹刀
+根性の竹刀(攻撃),   竹刀
+根性の竹刀(命中),   打撃 BreakOff.wav
+つるはし(準備),     ピック
+つるはし(攻撃),     ピック
+つるはし(命中),     打撃 Sword.wav
+金の剣,             金剣
+必中の剣,           金剣
+おねむガラガラ(準備), -
+おねむガラガラ(攻撃), 殴打武器 -.bmp
+おねむガラガラ(命中), ダメージ Sharara.wav
+真っ暗棒(準備),     殴打武器 DGoods\EFFECT_Broom01.bmp
+真っ暗棒(攻撃),     殴打武器 DGoods\EFFECT_Broom01.bmp
+真っ暗棒(命中),     ダメージ Inori.wav
+封印棒,             殴打武器 DGoods\EFFECT_IronFan02.bmp
+しびれ刀,           斬撃武器 Weapon\EFFECT_ShortSword01.bmp
+混乱の手斧,         斬撃武器 Weapon\EFFECT_SingleAx01.bmp
+回復の剣,           樹剣
+ガマラのムチ,       鞭
+妖刀かまいたち,     妖刀
+背水の剣,           日本刀
+背水の剣(瀕死)(準備), 日本刀
+背水の剣(瀕死)(攻撃), 日本刀
+背水の剣(瀕死)(命中), クリティカル斬撃
+アイアンヘッドの頭, 鎖鉄球
+モーニングスター,   モーニングスター
+鉄扇,               斬撃武器 DGoods\EFFECT_IronFan01.bmp
+スパークソード,     斬撃武器 LightWeapon\EFFECT_LightSword(LightBlue)01.bmp
+キョクタンソード,   斬撃武器 Weapon\EFFECT_SteelSword01.bmp
+成仏のカマ,         斬撃武器 Weapon\EFFECT_Scithe01.bmp
+草かりのカマ,       斬撃武器 Weapon\EFFECT_Scicle01.bmp
+ドラゴンキラー,     斬撃武器 LightWeapon\EFFECT_LightSword(Green)01.bmp
+ヤリ,               刺突武器 Weapon\EFFECT_JapaneseSpear01.bmp
+オトトスピア,       刺突武器 Weapon\EFFECT_CrossSpear01.bmp
+かねきりの太刀,     斬撃武器 Weapon\EFFECT_Saber01.bmp
+ぶっとびハンマー,   殴打武器 Weapon\EFFECT_GreatHammer01.bmp
+三日月刀,           斬撃武器 Weapon\EFFECT_Getsuga01.bmp
+戦神の斧,           斬撃武器 Weapon\EFFECT_SteelAx01.bmp
+龍神剣,             斬撃武器 Weapon\EFFECT_DragonSword01.bmp
+
+

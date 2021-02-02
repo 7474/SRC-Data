@@ -1,0 +1,252 @@
+冒険者
+格闘, 格闘
+ロングソード, 剣
+カシナートの剣, ソード
+真っ二つの剣, 剣
+ハースニール, ソード
+エクスカリバー, 大剣
+黒の魔剣, 黒剣
+刀, 日本刀
+達人の刀, 日本刀
+村正, 妖刀
+達人の刀, 日本刀
+短刀, ナイフ
+ショートソード, ショートソード
+最強の短剣, ショートソード
+忍者刀, 脇差
+苦無, 黒斬撃
+手刀, 斬撃
+メイス, メイス
+フレイル, フレイル
+力のメイス, メイス
+粉砕のメイス, メイス
+蛇のメイス, メイス
+杖, 杖
+炎の杖(準備), 杖
+炎の杖(攻撃), 火炎弾
+炎の杖(命中), 火柱
+錫杖, 棒
+鋼の戦斧, 両刃斧
+邪悪の戦斧, 両刃斧突撃
+ショートボウ, 弓
+盗賊の弓, クロスボウ
+飛針, 小柄
+苦無＜投擲＞, クナイ
+隠れる, 煙 Hide.wav
+攻撃無効化(コルツ), ビームコート BeamCoat.wav 障壁
+攻撃無効化(ポーフィック), ビームコート BeamCoat.wav 小盾
+攻撃無効化(マポーフィック), ビームコート BeamCoat.wav 大盾
+攻撃無効化(マモグレフ), バリア BeamCoat.wav 防壁
+攻撃無効化(防御障壁), 光バリア BeamCoat.wav 防御障壁
+攻撃無効化(触手), 魔法放射 黒 Whip.wav
+バリア貫通(マモグレフ), 魔法放射 黄 大 Glass.wav
+バリア貫通(防御障壁), 魔法放射 青 中 Glass.wav
+阻止(呪文無効化), 光バリア BeamCoat.wav 呪文無効化
+反射(反射力場), 反射 BeamCoat.wav
+ダミー, 光柱
+ディスペル(準備), 魔法集中 白 小 Inori.wav
+ディスペル(攻撃), 波動放射 白 Flair.wav
+ディスペル(命中), 六芒星 白 BeamCoat.wav
+ジー・ベイル(準備), 魔法集中 赤 小 Inori.wav
+ジー・ベイル, 地表衝撃波 赤 Flair.wav
+ジー・ベイル(命中), 六芒星 赤 BeamCoat.wav
+居合(準備), Reload(2).wav; オーラ上昇 白 Hittyuu.wav
+居合(攻撃), 気斬 ホワイト Glass.wav
+居合(命中), 超斬撃
+気斬(準備), オーラ上昇 青 BeamSaber.wav
+気斬(攻撃), 気斬 ブルー Saber.wav
+気斬(命中), クリティカル斬撃 Slash.wav
+首斬(攻撃), 斬撃 Saber.wav
+首斬(命中), クリティカル斬撃 Slash(4).wav
+奇襲攻撃, ショートソード突撃
+分身, 分身 Whiz.wav
+みじん斬り, 斬撃乱舞
+みじん斬り(カ), 斬撃乱舞
+死点突き(攻撃), 刺突 Bow.wav
+死点突き(命中), 大刺突 Shock(Low).wav
+真空波(準備), 風 Wind.wav
+真空波(攻撃), 強風 Storm.wav
+真空波(命中), ダブル斬撃
+空刃真空波(準備), -
+空刃真空波(攻撃), 竜巻
+空刃真空波(命中), 斬撃乱舞
+剣圧(攻撃), 地表衝撃波 ブルー GunPod.wav
+剣圧(命中), 強打 Crash.wav
+大剣圧(攻撃), 地表衝撃波 ブルー 残像 GunPod.wav
+大剣圧(命中), 超打 Explode.wav
+聖撃(準備), Hittyuu.wav
+聖撃(攻撃), 気斬 イエロー Glass.wav
+聖撃(命中), 雷斬撃 Slash.wav
+カティノ(準備), -
+カティノ(攻撃), Whiz.wav; -
+カティノ(命中), 煙
+ハリト, 火炎弾 Bow.wav
+モグレフ, 五芒星 黒 Flair.wav
+ディルト(準備), -
+ディルト(攻撃), PowerDown.wav; -
+ディルト(命中), 魔法集中 黒 小 Search.wav
+ソピック, 五芒星 白 Hide.wav
+メリト, 火炎弾 Bow.wav
+ポンチ, 五芒星 青 Hittyuu.wav
+ボラツ, 光球 緑 Whiz.wav
+ボラツ(命中), 発光 緑
+モリト(攻撃), 球電 Bow.wav
+モリト(命中), 放電
+マハリト(攻撃), キャノン砲 Cannon.wav
+マハリト(命中), 炎 Fire.wav
+コルツ, 五芒星 青 Hittyuu.wav
+カンティオス(攻撃), 特殊光線 ブルー Whiz.wav
+カンティオス(命中), 五芒星 青 Chaff.wav
+モーリス(準備), -
+モーリス(攻撃), PowerDown.wav; -
+モーリス(命中), 魔法集中 黒 中 Search.wav
+ラハリト(攻撃), キャノン砲 Cannon.wav
+ラハリト(命中), 火柱 Fire.wav
+ダルト(攻撃), 氷弾 Cannon.wav
+ダルト(命中), 凍結 EvilEye.wav; つらら
+ツザリク(攻撃), @戦闘アニメ_中ビーム命中 グリーン BeamShot.wav
+ツザリク(命中), 爆発 Explode(Small).wav
+ロクド(攻撃), 光球 緑 Whiz.wav
+ロクド(命中), 発光 緑
+リトフェイト, 五芒星 黄 Hittyuu.wav
+パリオス, 五芒星 赤 Hittyuu.wav
+マモーリス(準備), -
+マモーリス(攻撃), PowerDown.wav; -
+マモーリス(命中), 魔法集中 黒 大 Search.wav
+マカニト(準備), -
+マカニト(攻撃), Interference.wav; -
+マカニト(命中), 煙 黒 Transform.wav
+マダルト(攻撃), 氷弾 Cannon.wav
+マダルト(命中), 凍結 EvilEye.wav; 吹雪
+バコルツ, 五芒星 緑 Hittyuu.wav
+バスカイヤ(攻撃), 小ビーム レッド;小ビーム ブルー;小ビーム イエロー;小ビーム グリーン;小ビーム ホワイト;小ビーム オレンジ;小ビーム 黒
+バスカイヤ(命中), 小ビーム レッド;小ビーム ブルー;小ビーム イエロー;小ビーム グリーン;小ビーム ホワイト;小ビーム オレンジ;小ビーム 黒
+ソコルディ, 魔法陣 BeamSaber.wav;@戦闘アニメ_ＭＡＰフラッシュ攻撃 BeamCoat.wav
+ソコルディ(解説), 無数の魔物が召還された！
+魔物の群れ(攻撃), デフォルト Roar.wav
+魔物の群れ(解説), 召還された魔物達が、.相手目掛けて襲いかかった！
+魔物の群れ(解説), 召還者の号令と共に、.魔物達が一斉に襲いかかった！
+魔物の群れ(解説), 魔物達が咆哮をあげ、一斉に襲いかかった！
+魔物の群れ(命中), 乱打 Crash.wav
+マソピック, 五芒星 白 Hide.wav
+ラカニト(攻撃), 強風 Interference.wav
+ラカニト(命中), 光噴出 白 Shock(Low).wav
+ジルワン(攻撃), 中ビーム ホワイト LaserGun.wav
+ジルワン(命中), 発光 ホワイト Glass.wav
+ロカラ(攻撃), 光球 緑 Whiz.wav
+ロカラ(命中), 発光 緑
+ラダルト(攻撃), 氷弾 Warship.wav
+ラダルト(命中), 凍結 EvilEye.wav; 吹雪; 氷柱
+マモグレフ, 五芒星 桃 Hittyuu.wav
+ティルトウェイト(準備), オーラ上昇 Hittyuu.wav
+ティルトウェイト(攻撃), 波動放射 オレンジ AntiShipMissile.wav
+ティルトウェイト(命中), 超爆発 Explode(Nuclear).wav
+ティルトウェイト(M)(準備), オーラ上昇 Hittyuu.wav
+ティルトウェイト(M)(攻撃), 波動放射 オレンジ AntiShipMissile.wav;ＭＡＰオーラ オレンジ Explode(Nuclear).wav
+ティルトウェイト(M)(命中), ダメージ Explode.wav
+マロール, 五芒星 青 BeamCoat.wav
+マウジウツ, 中ビーム レッド;中ビーム ブルー;中ビーム イエロー;中ビーム グリーン;中ビーム ホワイト;中ビーム オレンジ;中ビーム 黒
+マウジウツ(命中), 中ビーム レッド;中ビーム ブルー;中ビーム イエロー;中ビーム グリーン;中ビーム ホワイト;中ビーム オレンジ;中ビーム 黒
+ティルトウェイザ(準備), 魔法集中 赤 大 Charge(Long).wav
+ティルトウェイザ(攻撃), 大ビーム ピンク Beam.wav
+ティルトウェイザ(命中), 大ビーム ピンク
+Ｍ・Ｍ・デイロマト(準備), 魔法集中 青 大 Charge(Long).wav
+Ｍ・Ｍ・デイロマト(攻撃), ＭＡＰ発光 青 Glass.wav
+Ｍ・Ｍ・デイロマト(命中), 光噴出 Explode(Long).wav
+Ｗマダルト(攻撃), 氷弾 Warship.wav; 氷弾 Warship.wav
+Ｗマダルト(命中), 凍結 EvilEye.wav; 吹雪; 氷柱
+カルキ, 六芒星 白 Hittyuu.wav
+ポーフィック, エネルギーフィールド展開
+ディオス, 回復魔法 Sharara.wav
+バディオス, 光球 青 BeamSaber.wav
+バディオス(命中), 刺突
+マツ, 六芒星 白 Hittyuu.wav
+マニフォ(攻撃), 光球 青 Whiz.wav
+マニフォ(命中), 六芒星 緑 Hittyuu.wav
+モンティノ(攻撃), ＭＡＰ発光 白 Whiz.wav
+モンティノ(命中), 六芒星 緑 Hittyuu.wav
+カツ(攻撃), 光球 桃 Whiz.wav
+カツ(命中), 六芒星 桃 Hittyuu.wav
+ディアルコ, 回復魔法 Chaff.wav
+バマツ, 六芒星 白 Hittyuu.wav
+ハカニド(攻撃), 光投射 赤 Whiz.wav
+ハカニド(命中), 光噴出 赤 Interference.wav
+ラテュマピック, 六芒星 青 Search.wav
+ディアル, 回復魔法 Sharara.wav
+ラツモフィス, 回復魔法 Chaff.wav
+マポーフィック, エネルギーフィールド展開
+バディアル(攻撃), 光球 青 BeamSaber.wav
+バディアル(命中), 斬撃
+バリコ(攻撃), 岩弾
+バリコ(命中), 連打
+カンディ, 六芒星 青 Search.wav
+ディアルマ, 回復魔法 Sharara.wav
+バディ(攻撃), ニードル Fold.wav
+バディ(命中), 魔法放射 白 EvilEye.wav
+バディアルマ(攻撃), 光球 青 BeamSaber.wav
+バディアルマ(命中), ダブル斬撃
+リトカン(攻撃), 火炎弾 Bomb.wav
+リトカン(命中), 火柱 Fire.wav
+モガト, Hittyuu.wav; 光投射 青 Glass.wav
+バモルディ(準備), 六芒星 Charge.wav;@戦闘アニメ_ＭＡＰフラッシュ攻撃 BeamCoat.wav
+バモルディ(解説), 異世界の獣が召還された！
+召還獣(攻撃), デフォルト Roar.wav
+召還獣(解説), 召還された獣が、.相手目掛けて襲いかかった！
+召還獣(解説), 召還者の号令と共に、.異世界の獣は相手に襲いかかった！
+召還獣(解説), 召還獣は咆哮と共に襲いかかった！
+召還獣(解説), 召還された魔獣が、目標めがけて襲いかかる！
+召還獣(命中), 超打  Crash.wav
+ロクトフェイト, 六芒星 赤 Hittyuu.wav
+マディ, 六芒星 白 Hittyuu.wav ;回復魔法 Sharara.wav
+ロルト(準備), 1;Swing.wav;10;Swing.wav;8;Swing.wav;4;Swing.wav;2;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav
+ロルト(攻撃), 強風
+ロルト(命中), 連斬撃
+バマディ(攻撃), ニードル Fold.wav
+バマディ(命中), 発光 黒 AntiShipMissile.wav
+ラバディ(攻撃), ニードル Fold.wav
+ラバディ(命中), 粒子噴射 黒 AntiShipMissile.wav
+カカメン(攻撃), キャノン砲 Cannon.wav
+カカメン, 炎 Fire.wav
+マリクト(準備), 魔法放射 青 Charge.wav
+マリクト(攻撃), 音波 MicroMissile.wav
+マリクト(命中), 乱打
+バカディ(攻撃), ニードル Fold.wav
+バカディ(命中), 魔法放射 白 EvilEye.wav
+マバリコ(準備), 魔法放射 緑 Charge.wav
+マバリコ(攻撃), ＭＡＰ地震
+マバリコ(命中), 石柱 Explode(Nuclear).wav
+マディアル, 六芒星 白 Hittyuu.wav ;回復魔法 Sharara.wav
+風刃(準備), 1;Swing.wav;10;Swing.wav;8;Swing.wav;4;Swing.wav;2;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav
+風刃(攻撃), 強風
+風刃(命中), 連斬撃
+風刃＜Ｍ＞(準備), 1;Swing.wav;10;Swing.wav;8;Swing.wav;4;Swing.wav;2;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav
+風刃＜Ｍ＞(攻撃), ＭＡＰ竜巻 Storm.wav
+風刃＜Ｍ＞(命中), 連斬撃
+突撃(攻撃), タックル Stairs(Run).wav
+突撃(命中), 刺突 Stab.wav
+触手, 触手 レッド
+触手の槍, 多触手 レッド
+捕食(攻撃), 多触手 レッド
+捕食(命中), ダメージ Sword.wav
+捕食(とどめ), 重力圧縮 Fold.wav
+分裂(準備), Fold.wav
+分裂(攻撃), 光球 黒 Bow.wav
+分裂(命中), 刺突
+分裂(クリティカル), 飛沫 赤 Interference.wav; 憑依
+エナジードレイン(攻撃), 格闘 Swing.wav
+エナジードレイン(命中), 吸収 赤 Search.wav
+爪, 爪撃
+鉤爪, 爪撃
+牙, 噛み付き
+亡者支配, ＭＡＰダークネス EvilEye.wav
+亡者支配(命中), -
+亡者支配(クリティカル), 逆五芒星 黒 Snap(E).wav; 憑依
+魔爪(攻撃), 刺突
+魔爪(命中), 吸収 赤 Search.wav
+解放(準備), 魔法集中 白 Hittyuu.wav
+解放(攻撃), ＭＡＰフラッシュ Charge(High).wav
+解放(命中), 逆五芒星 白 BeamCoat.wav
+障壁展開, 魔法集中 大 Charge(2).wav
+ブレス＜Ｍ＞, 火炎放射
+ブレス, 火炎放射
+シールド防御(錫杖), 中心回転武器防御 錫杖 Weapon\EFFECT_EFFECT_Rod01.bmp Whiz.wav

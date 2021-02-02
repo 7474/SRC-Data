@@ -1,0 +1,45 @@
+エルドランロボ
+ザウラーバンカー,                     Whiz.wav
+ザウラーボンバー,                     Bomb.wav
+ザウラーボンバー(命中),               Explode.wav
+トリプルボンバー,                     2;Bomb.wav;2;Bomb.wav;2;Bomb.wav
+トリプルボンバー(命中),               Explode.wav
+ザウラーマグマフィニッシュ(命中),     Slash.wav
+ザウラービッグバスター,               Beam.wav
+スクラムアタック(命中),               5;Explode.wav;5;Slash.wav;5;Slash.wav;
+ザウラージェットアタック,             Jet.wav
+ザウラージェットアタック(命中),       Crash.wav
+トライアンカー(命中),                 Crash.wav
+テールアパッチ,                       Cannon.wav
+スピンカッター,                       2;Swing.wav;2;Swing.wav
+スピンカッター(命中),                 2;Punch.wav;2;Punch.wav
+ブラキオニードル,                     2;Swing.wav;3;Swing.wav
+ブラキオニードル(命中),               2;Stab.wav;2;Stab.wav
+ティラノファイヤー,                   Breath.wav
+マグナボンバー,                       Bomb.wav
+マグナボンバー(命中),                 Explode.wav
+マグナショット,                       1;Cannon.wav;4;Cannon.wav;1;Cannon.wav;4;Cannon.wav
+トリケラホーン,                       Whiz.wav
+トリケラアロー,                       Beam.wav
+トリケラアロー(命中),                 Explode(Small).wav
+トリケラファイヤー,                   Breath.wav
+トリケラアタック(命中),               Crash.wav
+グランフラッシュ,                     Beam.wav
+グランボンバー,                       Bomb.wav
+グランボンバー(命中),                 Explode.wav
+グランショット,                       MultipleRocketLauncher(Light).wav
+ザウラーグランドスラッシュ(命中),     Slash.wav
+キングショット,                       Cannon.wav
+キングランチャー,                     MultipleRocketLauncher(Light).wav
+キングファイヤー,                     Breath.wav
+キングタイタン,                       10;Charge(long).wav;5;Beam.wav
+キングスパルタン,                     MicroMissile.wav
+ザウラーキングフィニッシュ(命中),     2;Slash.wav;2;Slash.wav
+
+マッハプテラ
+プテラフライト,                       Jet.wav
+プテラフライト(命中),                 Crash.wav
+体当たり,                             Jet.wav
+
+
+

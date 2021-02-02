@@ -1,0 +1,20 @@
+人造人間
+変形(キカイダー・サイドマシン), Engine.wav
+変形(ハカイダー・白いカラス), Engine.wav
+キカイダースパーク, LaserGun.wav
+サイドマシンアタック(命中), Crash.wav
+サイドマシンアタック, Bike.wav
+タイヤ粉砕用スクリュー, Drill.wav
+ダブルブラザーアタック, BeamSaber.Wav;LaserGun.wav
+デンジエンド(命中), Glass.wav
+デンジエンド, LaserGun.wav
+トリプルサークライン(命中), 2;Glass.wav;2;Glass.wav;2;Glass.wav;2;Glass.wav;2;Glass.wav
+トリプルサークライン, BeamSaber.Wav;2;LaserGun.wav;2;LaserGun.wav;2;LaserGun.wav;2;LaserGun.wav;2;LaserGun.wav
+ハカイダーショット, 1;Rifle.wav;1;Rifle.wav;1;Rifle.wav;1;Rifle.wav
+ブラストレザー, LaserGun.wav
+回転アタック(命中), FightHit(1).wav
+銀河ハリケーン(命中), 2;FightHit(1).wav;2;FightHit(1).wav;2;FightHit(1).wav;2;FightHit(1).wav;2;FightHit(1).wav
+月面飛行蹴り(命中), FightHit(1).wav
+
+汎用
+アンドロイドマン軍団(命中),Combo.wav

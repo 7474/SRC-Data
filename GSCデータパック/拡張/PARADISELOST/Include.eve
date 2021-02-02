@@ -1,0 +1,91 @@
+
+
+í“¬ƒAƒjƒ_ŠgŽUƒr[ƒ€¶ã‹ó–½’†:
+
+_CenteringCheck ‘ŠŽèƒ†ƒjƒbƒg‚h‚c
+
+Local i
+Local j
+Local 225
+Local B_C = _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs()))
+Local C_X = (WX(‘ŠŽèƒ†ƒjƒbƒg‚h‚c) - 16)
+Local C_Y = (WY(‘ŠŽèƒ†ƒjƒbƒg‚h‚c) - 16)
+Local X_F Y_F
+
+Set X_F _GetCircumference((225 + 90),‚w)
+Set Y_F _GetCircumference((225 + 90),‚x)
+
+For j = 0 To 1
+  Wait Start
+  For i = 1 To 8
+    ClearPicture
+    If ((i > 1) And (i < 6)) Then
+      _SelectSound "Explode(Small).wav" _GetWavFromArgs()
+    EndIf
+    Switch i
+    Case 2
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * -9)) (C_Y + 26 + (Y_F * -9)) 12 12 ‰E‰ñ“] 225 “§‰ß _ColorTime(1)
+    Case 3
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -9)) (C_Y + 24 + (Y_F * -9)) 16 16 ‰E‰ñ“] 3150 “§‰ß _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * 8)) (C_Y + 26 + (Y_F * 8)) 12 12 ‰E‰ñ“] 225 “§‰ß _ColorTime(1)
+    Case 4
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -9)) (C_Y + 24 + (Y_F * -9)) 16 16 ‰E‰ñ“] 225 “§‰ß _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 8)) (C_Y + 24 + (Y_F * 8)) 16 16 ‰E‰ñ“] 225 “§‰ß _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * -3)) (C_Y + 26 + (Y_F * -3)) 12 12 ‰E‰ñ“] 225 “§‰ß _ColorTime(1)
+    Case 5
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 8)) (C_Y + 24 + (Y_F * 8)) 16 16 ‰E‰ñ“] 225 “§‰ß _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -3)) (C_Y + 24 + (Y_F * -3)) 16 16 ‰E‰ñ“] 225 “§‰ß _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * 5)) (C_Y + 26 + (Y_F * 5)) 12 12 ‰E‰ñ“] 225 “§‰ß _ColorTime(1)
+    Case 6
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -3)) (C_Y + 24 + (Y_F * -3)) 16 16 ‰E‰ñ“] 225 “§‰ß _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 5)) (C_Y + 24 + (Y_F * 5)) 16 16 ‰E‰ñ“] 225 “§‰ß _ColorTime(1)
+    Case 7
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 5)) (C_Y + 24 + (Y_F * 5)) 16 16 ‰E‰ñ“] 225 “§‰ß _ColorTime(1)
+    EndSw
+    PaintPicture ("Beam\EFFECT_DBeamHit" & B_C & "0" & i & ".bmp") C_X C_Y ‰E‰ñ“] 225 “§‰ß _ColorTime(1)
+    Refresh
+    Wait Until (i * 0.7)
+  Next
+Next
+ClearPicture
+Refresh
+Return
+
+
+í“¬ƒAƒjƒ_ƒ`ƒƒ[ƒW‰¹‚È‚µ’†ƒr[ƒ€UŒ‚:
+Local B_C = _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs()))
+Local BMP_FILE = ("Beam\EFFECT_MBeam" & B_C)
+Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Call í“¬ƒAƒjƒ_ƒ`ƒƒ[ƒW‰¹‚È‚µƒr[ƒ€UŒ‚‹¤’Ê BMP_FILE _GetWavFromArgs() UID
+Set í“¬ƒAƒjƒ•Ï”[F] B_C
+Return
+
+í“¬ƒAƒjƒ_ƒ`ƒƒ[ƒW‰¹‚È‚µƒr[ƒ€UŒ‚‹¤’Ê:
+
+Local UID = _GetIdFromArgs()
+_CenteringCheck UID
+
+Local i
+Local ANG = _GetAngle(UID)
+Local A1 = Args(1)
+Local C_X = (WX(UID) - 16)
+Local C_Y = (WY(UID) - 16)
+
+_UnSetBattleAnimeValue
+
+Wait Start
+For i = 1 To 5
+  Switch i
+  Case 3
+    _SelectSound "Beam.wav" _GetWavFromArgs()
+  EndSw
+  _PaintCutin_KZL (A1 & "0" & i & ".bmp") ANG C_X C_Y
+  Wait Until (i * 0.8)
+Next
+
+ClearPicture
+Refresh
+
+Set í“¬ƒAƒjƒ•Ï”[F] A1
+
+Return

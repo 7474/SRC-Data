@@ -1,0 +1,1162 @@
+#─────────────────────────────────────────────
+# ◆ファイナルフュージョン承認ダイアログ
+# pilot_message.txtまたはpilot_dialog.txtとの併用が前提。
+
+_FinalFusion-ProgramDrive:
+
+Local Mi-Koto
+
+Switch 対象パイロット
+Case 獅子王凱(エヴォリュダー) 獅子王凱(ＧＳ)
+  Set Mi-Koto 卯都木命(ＧＧＧＦオペレーター)
+Case Else
+  Set Mi-Koto 卯都木命(プログラムドライブ)
+EndSw
+# エヴォリュダーか否かでミコトの表情を分化させておく。
+# ドライブ役が変更されている場合は使いませんが、先に設定しています。
+
+If Skill(対象パイロット, 八木沼承認) Then
+  AutoTalk 八木沼範行 固定 非表示
+  ファイナルフュージョン、承認……っと
+  Suspend
+  If Skill(対象パイロット, スワンドライブ) Then
+    AutoTalk 火麻激 固定 非表示
+    スワァァァン！！
+    Suspend
+  ElseIf Skill(対象パイロット, パピヨンドライブ) Then
+    AutoTalk 火麻激 固定 非表示
+    パピヨォォォン！！
+    Suspend
+  Else
+    AutoTalk 火麻激 固定 非表示
+    卯都木ぃぃぃっ！！
+    Suspend
+  EndIf
+ElseIf Skill(対象パイロット, ロゼ承認) Then
+  AutoTalk ロゼ＝アプロヴァール
+  ファイナルフュージョン！ 承ーーー認ッ！！
+  Suspend
+Else
+  AutoTalk 大河幸太郎 固定 非表示
+  ファイナルフュージョン！！: しょおぉぉぉ認っ！！
+  Suspend
+EndIf
+
+If Skill(対象パイロット, スワンドライブ) Then
+  AutoTalk スワン＝ホワイト 固定 非表示
+  ラジャー！;Final Fusion！.Program……
+  AutoTalk スワン＝ホワイト 固定 非表示
+  3;Final Fusion！.Program……DRIVE！！
+  Suspend
+ElseIf Skill(対象パイロット, パピヨンドライブ) Then
+  AutoTalk パピヨン＝ノワール 固定 非表示
+  了解;ファイナルフュージョン、.プログラム……
+  AutoTalk パピヨン＝ノワール 固定 非表示
+  3;ファイナルフュージョン、.プログラム……ドライブ！！
+  Suspend
+Else
+  AutoTalk Mi-Koto 固定 非表示
+  了解っ！！;ファイナルフュージョン！.プログラム……
+  AutoTalk Mi-Koto 固定 非表示
+  3;ファイナルフュージョン！.プログラム……ドラァァァァイブッ！！
+  Suspend
+EndIf
+Wait Start
+PlaySound Glass.wav
+Wait 5
+
+UnSet Mi-Koto
+Return
+
+#─────────────────────────────────────────────
+# ◆ゴルディオンハンマー承認ダイアログ       ※ ガオガイゴー未対応
+# Args(1) ガオガイガー(前期型)／ガオガイガー／ガオファイガーの指定。
+#         ゴルディ側からは合体先も合体相手もわからないため、個別に指定しておく必要があります。
+#         ガイから合体する場合は『対象パイロット』を基準に参照できるため、指定不要。
+
+_GH-SaftyDeviceRelieve:
+
+Local GUY_S GUY_SA GAO_N Mi-Koto
+
+Switch Args(1)
+Case "-" ""
+  Set GUY_S 対象パイロット
+Case Else
+  Set GUY_S Pilot(Args(1))
+EndSw
+
+Switch GUY_S
+Case 獅子王凱(ＧＳ)
+  Set GUY_SA GUY_S
+  Set Mi-Koto 卯都木命(ＧＧＧＦオペレーター)
+Case 獅子王凱(エヴォリュダー)
+  Set GUY_SA (GUY_S & "(攻撃)")
+  Set Mi-Koto 卯都木命(ＧＧＧＦオペレーター)
+Case Else
+  Set GUY_SA (GUY_S & "(攻撃)")
+  Set Mi-Koto 卯都木命(プログラムドライブ)
+EndSw
+
+Switch Unit(GUY_S)
+Case ガオガイガー(前期型) ガオガイガー
+  Set GAO_N ガオガイガー
+Case ガオファイガー
+  Set GAO_N ガオファイガー
+EndSw
+# 合体相手によってゴルディーの呼びかけ対象を決定。
+
+Switch Random(4)
+Case 1
+# 何もしない
+Case 2
+  AutoTalk ゴルディーマーグ 固定 非表示
+  $(GAO_N)ッ！ 俺を使えっ！！
+  AutoTalk GUY_SA 固定 非表示
+  おおっ！！
+  Suspend
+Case 3
+  AutoTalk ゴルディーマーグ 固定 非表示
+  俺様の出番が来たようだな、$(GAO_N)ッ！！
+  AutoTalk GUY_SA 固定 非表示
+  おおっ！！
+  Suspend
+Case 4
+  AutoTalk GUY_SA 固定 非表示
+  ゴルディーマーグ！！
+  AutoTalk ゴルディーマーグ 固定 非表示
+  おおっ！！ 待ちくたびれたぜ！！
+  Suspend
+EndSw
+
+If Skill(GUY_S, 八木沼承認) Then
+  AutoTalk 八木沼範行 固定 非表示
+  勇者の判断を信じましょう……
+  ゴルディオンハンマー、発動承認……っと
+  Suspend
+  If Skill(対象パイロット, スワンドライブ) Then
+    AutoTalk 火麻激 固定 非表示
+    スワァァァン！！
+    Suspend
+  ElseIf Skill(対象パイロット, パピヨンドライブ) Then
+    AutoTalk 火麻激 固定 非表示
+    パピヨォォォン！！
+    Suspend
+  Else
+    AutoTalk 火麻激 固定 非表示
+    卯都木ぃぃぃっ！！
+    Suspend
+  EndIf
+ElseIf Skill(GUY_S, ロゼ承認) Then
+  AutoTalk ロゼ＝アプロヴァール
+  聞き分けのない悪い子は、光にでもしておしまい！:.それが運命なら、ね……
+  ゴルディオンハンマー！.発動承ーーーーー認ッ！！
+  Suspend
+Else
+  AutoTalk 大河幸太郎 固定 非表示
+  ゴルディオンハンマァァァァァァッ！！:.発動っ！！ しょおおぉぉぉぉ認っ！！
+  Suspend
+EndIf
+
+If Skill(GUY_S, スワンドライブ) Then
+  AutoTalk スワン＝ホワイト 固定 非表示
+  ラジャー！;Goldion Hammer！.Safty Device……
+  AutoTalk スワン＝ホワイト 固定 非表示
+  3;Goldion Hammer！.Safty Device……RELIEVE！！
+  Suspend
+ElseIf Skill(GUY_S, パピヨンドライブ) Then
+  AutoTalk パピヨン＝ノワール 固定 非表示
+  了解;ゴルディオンハンマー、.セーフティ・ディバイス……
+  AutoTalk パピヨン＝ノワール 固定 非表示
+  3;ゴルディオンハンマー、.セーフティ・ディバイス……リリーブ！！
+  Suspend
+Else
+  AutoTalk Mi-Koto 固定 非表示
+  了解っ！！;ゴルディオンハンマー！.セーフティ・ディバイスゥゥゥ……
+  AutoTalk Mi-Koto 固定 非表示
+  3;ゴルディオンハンマー！.セーフティ・ディバイスゥゥゥ……リリィィィィィブッ！！
+  Suspend
+EndIf
+Wait Start
+PlaySound InterPhone(3).wav
+Wait 5
+
+AutoTalk ゴルディーマーグ(ハンマーモード) 固定 非表示
+システムチェーンジッ！！
+AutoTalk GUY_SA 固定 非表示
+Bazooka.wav;ハンマァァァッ！ コネクトォッ！！！
+ゴルディオンッ！ ハンマァァァァァッ！！
+Suspend
+
+UnSet GUY_S GUY_SA GAO_N
+Return
+
+#─────────────────────────────────────────────
+# ◆ゴルディオンハンマー使用時・強制合体インクルード
+# ハンマー使用ユニットにゴルディーマーグが乗っていない場合、
+# 承認ダイアログを呼び出しその場で合体させる。
+
+*使用 獅子王凱 ゴルディオンハンマー:
+*使用 獅子王凱(エヴォリュダー) ゴルディオンハンマー:
+*使用 獅子王凱(ＧＳ) ゴルディオンハンマー:
+
+Local i ConnectedG-Hammer
+Set ConnectedG-Hammer 0
+For i = 1 To CountPilot(対象ユニットＩＤ)
+  If Pilot(対象ユニットＩＤ,i) = ゴルディーマーグ Then
+    Set ConnectedG-Hammer 1
+  EndIf
+Next
+
+If ConnectedG-Hammer = 0 Then
+  Call _GH-SaftyDeviceRelieve
+
+  AutoTalk システム
+  End
+  # 何も言わない。メッセージウィンドウの消去。
+
+  Switch Unit(対象ユニットＩＤ)
+  Case ガオガイガー(前期型)
+    Combine 対象ユニットＩＤ ガオガイガー(Ｇ)(前期型)
+  Case ガオガイガー
+    Combine 対象ユニットＩＤ ガオガイガー(Ｇ)
+  Case ガオファイガー
+    Combine 対象ユニットＩＤ ガオファイガー(Ｇ)
+  EndSw
+EndIf
+UnSet ConnectedG-Hammer
+Exit
+
+#─────────────────────────────────────────────
+# ◆クラッシャーコネクトダイアログ
+# ゴルディー側から合体相手を判別させるためのもの。ガイでは使いません。
+
+_GC-CrusherConnect:
+
+Local GUY_S GUY_SA GAO_N
+
+Set GUY_S Pilot(Args(1))
+
+Switch GUY_S
+Case 獅子王凱(ＧＳ)
+  Set GUY_SA GUY_S
+  Set GUY_SH GUY_S
+Case Else
+  Set GUY_SA (GUY_S & "(攻撃)")
+  Set GUY_SH (GUY_S & "(ハイパーモード)")
+EndSw
+
+Switch Random(2)
+Case 1
+  AutoTalk ゴルディーマーグ 固定 非表示
+  がっはははは！！.やっぱり真打ちは最後に登場するってかぁっ！！
+  Suspend
+Case 2
+  AutoTalk ゴルディーマーグ 固定 非表示
+  どうやら最後は俺様の出番のようだなぁっ！！
+  Suspend
+EndSw
+
+AutoTalk GUY_SA 固定 非表示
+クラッシャァァァァァッ！ コネクトォッ！！！
+Suspend
+Wait Start
+PlaySound Crash.wav
+Wait Until 3
+AutoTalk GUY_SH 固定 非表示
+ゴルディオンッ！ クラッシャァァァァァァッ！！
+End
+
+UnSet GUY_S GUY_SA GAO_N
+Return
+
+#─────────────────────────────────────────────
+# ◆ジェイアーク分離時の強制乗り換えインクルード
+# 分離後に１号機のパイロット数を確認し、２人以上いる場合は乗り換えを実行。
+# 特殊能力「浄解」を持つパイロットをジェイキャリアーに、それ以外を１号機に乗せる。
+
+分離 ジェイバード ジェイアーク:
+分離 ジェイダー ジェイライダー:
+分離 ジェイダー キングジェイダー:
+ジェイアーク分離:
+
+If CountPilot(対象ユニットＩＤ) > 1 Then
+  Local i V J_P
+  For i = 1 to CountPilot(対象ユニットＩＤ)
+    Set J_P[i] Pilot(対象ユニットＩＤ, i)
+  Next
+  GetOff
+  ForEach V In J_P
+   If Skill(J_P[V], 浄解) > 0 Then
+      Ride J_P[V] ジェイキャリアー
+    Else
+      Ride J_P[V] 対象ユニットＩＤ
+    EndIf
+  Next
+  UnSet i V J_P
+EndIf
+
+Exit
+
+#───────────────────────────────────────────────────────
+# 以下の戦闘アニメ用ルーチンは、必要なら他のデータやシナリオに流用していただいてかまいません。
+# ラベルの頭の識別子「BKG_」は、万一、他フォルダに同名の戦闘アニメがあった場合に混同をさけるための処置。
+# これは、削除するなり別の識別子に変更するなりしてくださって結構です。
+#───────────────────────────────────────────────────────
+# ◆書式例         ダブルガン、ダブルライフル等
+# BKG_二丁ビームライフル 画像ファイル=file1=file2 画像サイズ=size1=size2 色=color1=color2 効果音 小or中 UnitID
+#
+# 省略した場合、デフォルトのビームライフル画像が表示され、色はピンクになる。
+# 小or中はビームの大きさの指定。通常は小。大ビームには未対応。
+#───────────────────────────────────────────────────────
+# ◆戦闘アニメ_BKG_二丁ビームライフル準備
+# 引数を配列に格納し、さらに分類・格納し直す作業。
+# ここで整理した内容を実際の描画用ルーチンに引数として渡す。
+
+戦闘アニメ_BKG_二丁ビームライフル準備:
+
+Local ARY Pict PictSz PrSE
+
+For i = 1 To ArgNum
+  Array ARY Args(i) "="
+  Switch ARY[1]
+  Case 画像ファイル
+    Set Pict[A] ARY[2]
+    Set Pict[B] ARY[3]
+  Case 画像サイズ
+    Set PictSz[A] ARY[2]
+    Set PictSz[B] ARY[3]
+  Case 色
+    Skip
+  Case Else
+    If InStr(ARY[1], ".wav") > 0 Then
+      Set PrSE ARY[1]
+    EndIf
+  EndSw
+Next
+
+Call 戦闘アニメ_BKG_左右別武器共通準備 _GetName("Weapon\EFFECT_BeamRifle01.bmp",Pict[A]) _GetName(32,PictSz[A]) _
+                            _GetName("Weapon\EFFECT_BeamRifle01.bmp",Pict[B]) _GetName(32,PictSz[B]) PrSE
+
+UnSet ARY Pict PictSz PrSE
+Return Keep
+
+#─────────────────────────────────────────────
+# ◆戦闘アニメ_BKG_左右別武器共通準備
+# 武器アイコンの表示ルーチンは汎用的に使えそうなため分離。
+# このルーチンを呼び出す前に、画像の選択は終わっているのが前提。
+#
+# Args(1)～(2)…右手武器の画像ファイルとサイズ
+# Args(3)～(4)…左手武器の画像ファイルとサイズ
+# Args(5)………効果音
+
+戦闘アニメ_BKG_左右別武器共通準備:
+
+Local i T_X T_Y ANG DRCT W_P W_S H_C S_E S-I C-S LN
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Set T_X (WX(UID) + 16)
+Set T_Y (WY(UID) + 16)
+# +16してユニット画像の中心座標を得ておく。
+Set ANG Call(_GetAngle)
+Set DRCT _FlipVertical(ANG)
+# 目標までの角度と上下反転するかどうかの取得。汎用戦闘アニメ流用。
+
+Set W_P[1] Args(1)
+Set W_S[1] Args(2)
+Set W_P[2] Args(3)
+Set W_S[2] Args(4)
+Set S_E _GetName(Reload.wav,Args(5))
+
+Set H_C[1] (W_S[1] / 2)
+Set H_C[2] (W_S[2] / 2)
+Set S-I[A] (Sin(3.141592 * (ANG + 90) / 180) * 16)
+Set C-S[A] (Cos(3.141592 * (ANG + 90) / 180) * 16)
+# 画像表示用・修正値の計算など
+
+# ↓ここから画像の表示
+
+Wait Start
+PlaySound S_E
+For i = 1 To 3
+  ClearPicture
+  Switch i
+  Case 1
+    Set LN -4
+  Case 2
+    Set LN 2
+  Case 3
+    Set LN 0
+  EndSw
+  PaintPicture W_P[1] (T_X - H_C[1] - C-S[A] - LN) (T_Y - H_C[1] - S-I[A] - LN) W_S[1] W_S[1] 透過 DRCT 右回転 ANG _ColorTime()
+  PaintPicture W_P[2] (T_X - H_C[2] + C-S[A] - LN) (T_Y - H_C[2] + S-I[A] - LN) W_S[2] W_S[2] 透過 DRCT 右回転 ANG _ColorTime()
+  Refresh
+  Wait Until (0.6 * i)
+Next
+Wait Until 7
+
+UnSet i T_X T_Y ANG W_P W_S B_C H_C S-I C-S LN
+Return Keep
+# ローカル変数を削除してリターン
+
+#─────────────────────────────────────────────
+戦闘アニメ_BKG_二丁ビームライフル攻撃:
+
+Local i m T_X T_Y ANG DRCT W_P W_S B_C B_S H_C S-I C-S LN ARY
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Set T_X (WX(UID) + 16)
+Set T_Y (WY(UID) + 16)
+Set ANG Call(_GetAngle)
+Set DRCT _FlipVertical(ANG)
+Set B_S Call(_GetSizeFromArgs)
+
+For i = 1 To ArgNum
+  Array ARY Args(i) "="
+  Switch ARY[1]
+  Case 画像ファイル
+    Set W_P[A] ARY[2]
+    Set W_P[B] ARY[3]
+  Case 画像サイズ
+    Set W_S[A] ARY[2]
+    Set W_S[B] ARY[3]
+  Case 色
+    Set B_C[A] ARY[2]
+    Set B_C[B] ARY[3]
+  Case Else
+    Skip
+  EndSw
+Next
+
+Set W_P[1] _GetName("Weapon\EFFECT_BeamRifle01.bmp",W_P[A])
+Set W_S[1] _GetName(32,W_S[A])
+Set W_P[2] _GetName("Weapon\EFFECT_BeamRifle01.bmp",W_P[B])
+Set W_S[2] _GetName(32,W_S[B])
+
+If B_S = "小" Then
+  Set B_C[1] ("Beam\EFFECT_Beam" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
+  Set B_C[2] ("Beam\EFFECT_Beam" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
+ElseIf B_S = "中" Then
+  Set B_C[1] ("Beam\EFFECT_MBeam" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
+  Set B_C[2] ("Beam\EFFECT_MBeam" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
+EndIf
+
+Set H_C[1] (W_S[1] / 2)
+Set H_C[2] (W_S[2] / 2)
+# 修正値の計算……画像サイズの半分＝画像回転時の半径
+
+Set S-I[A] (Sin(3.141592 * (ANG + 90) / 180) * 16)
+Set C-S[A] (Cos(3.141592 * (ANG + 90) / 180) * 16)
+# 武器画像の表示位置修正値
+# ユニット画像を半径16の円と仮定し、それぞれサインとコサインを求めます。
+#
+# 武器の画像は、対象ユニット～相手ユニット間の直線に対して垂直の位置に表示されます。
+# したがって、すでに求めた角度ANGに90を足して計算。
+
+Set S-I[1] (Sin(3.141592 * ANG / 180) * H_C[1])
+Set S-I[2] (Sin(3.141592 * ANG / 180) * H_C[2])
+Set C-S[1] (Cos(3.141592 * ANG / 180) * H_C[1])
+Set C-S[2] (Cos(3.141592 * ANG / 180) * H_C[2])
+# 画像の半径にそれぞれの角度のサイン・コサインをかける
+#               ＝画像回転時の砲口の位置を知るための修正値
+
+Set LN[X] _GetCircumference(ANG,Ｘ)
+Set LN[Y] _GetCircumference(ANG,Ｙ)
+# ビーム発射時の”反動”＝ビーム発射方向の逆ベクトルを求める。汎用戦闘アニメ流用。
+
+_UnSetBattleAnimeValue
+
+# ↓ここから画像の表示
+
+Wait Start
+PlaySound Charge.wav
+For i = 1 To 5
+  ClearPicture
+  Switch i
+  Case 3
+    _SelectSound Beam.wav _GetWavFromArgs()
+    If B_S = "小" Then
+      Set m -2
+    ElseIf B_S = "中" Then
+      Set m -4
+    EndIf
+  Case 4
+    If B_S = "小" Then
+      Set m -1
+    ElseIf B_S = "中" Then
+      Set m -2
+    EndIf
+  Case Else
+    Set m 0
+  EndSw
+  PaintPicture W_P[1] (T_X - H_C[1] - C-S[A] + (LN[X] * m)) (T_Y - H_C[1] - S-I[A] + (LN[Y] * m)) W_S[1] W_S[1] 透過 DRCT 右回転 ANG _ColorTime()
+  PaintPicture W_P[2] (T_X - H_C[2] + C-S[A] + (LN[X] * m)) (T_Y - H_C[2] + S-I[A] + (LN[Y] * m)) W_S[2] W_S[2] 透過 DRCT 右回転 ANG _ColorTime()
+  PaintPicture (B_C[1] & i & ".bmp") (T_X - 32 - C-S[A] - C-S[1]) (T_Y - 32 - S-I[A] - S-I[1]) 64 64 透過 右回転 ANG _ColorTime(1)
+  PaintPicture (B_C[2] & i & ".bmp") (T_X - 32 + C-S[A] - C-S[2]) (T_Y - 32 + S-I[A] - S-I[2]) 64 64 透過 右回転 ANG _ColorTime(1)
+  Refresh
+  Wait Until (0.8 * i)
+Next
+
+UnSet i m T_X T_Y ANG W_P W_S B_C B_S H_C S-I C-S S_E LN ARY PrSE
+Return
+
+#─────────────────────────────────────────────
+戦闘アニメ_BKG_二丁ビームライフル命中:
+
+Local i m E_X E_Y ANG B_C B_CA B_CB X_F Y_F ARY B_S P_S
+Local UID = _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Set E_X (WX(UID) - 16)
+Set E_Y (WY(UID) - 16)
+Set ANG Call(_GetAngle)
+Set B_S Call(_GetSizeFromArgs)
+
+For i = 1 To ArgNum
+  Array ARY Args(i) "="
+  Switch ARY[1]
+  Case 画像ファイル 画像サイズ
+    Skip
+  Case 色
+    Set B_C[A] ARY[2]
+    Set B_C[B] ARY[3]
+  Case Else
+    Skip
+  EndSw
+Next
+
+Set B_CA[1] ("Beam\EFFECT_BeamDroplet" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
+Set B_CA[2] ("Beam\EFFECT_BeamDroplet" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
+
+If B_S = "小" Then
+  Set B_CB[1] ("Beam\EFFECT_BeamHit" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
+  Set B_CB[2] ("Beam\EFFECT_BeamHit" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
+  Set m 1
+  Set P_S[1] 26
+  Set P_S[2] 24
+ElseIf B_S = "中" Then
+  Set B_CB[1] ("Beam\EFFECT_MBeamHit" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
+  Set B_CB[2] ("Beam\EFFECT_MBeamHit" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
+  Set m 2
+  Set P_S[1] 20
+  Set P_S[2] 16
+EndIf
+
+Set X_F _GetCircumference((ANG + 90),Ｘ)
+Set Y_F _GetCircumference((ANG + 90),Ｙ)
+
+Wait Start
+For i = 1 To 6
+  ClearPicture
+  If (i = 2) Then
+    _SelectSound Explode.wav _GetWavFromArgs()
+  EndIf
+  Switch i
+  Case 2
+    PaintPicture (B_CA[1] & 1 & ".bmp") (E_X + P_S[1] + (X_F * 8)) (E_Y + P_S[1] + (Y_F * 8)) (12 * m) (12 * m) 右回転 ANG 透過 _ColorTime(1)
+    PaintPicture (B_CA[2] & 1 & ".bmp") (E_X + P_S[1] + (X_F * -8)) (E_Y + P_S[1] + (Y_F * -8)) (12 * m) (12 * m) 右回転 ANG 透過 _ColorTime(1)
+  Case 3 4
+    PaintPicture (B_CA[1] & 1 & ".bmp") (E_X + P_S[2] + (X_F * 8)) (E_Y + P_S[2] + (Y_F * 8)) (16 * m) (16 * m) 右回転 ANG 透過 _ColorTime(1)
+    PaintPicture (B_CA[2] & 1 & ".bmp") (E_X + P_S[2] + (X_F * -8)) (E_Y + P_S[2] + (Y_F * -8)) (16 * m) (16 * m) 右回転 ANG 透過 _ColorTime(1)
+  EndSw
+  PaintPicture (B_CB[1] & i & ".bmp") (E_X + (X_F * 8)) (E_Y + (Y_F * 8)) 64 64 透過 右回転 ANG _ColorTime(1)
+  PaintPicture (B_CB[2] & i & ".bmp") (E_X + (X_F * -8)) (E_Y + (Y_F * -8)) 64 64 透過 右回転 ANG _ColorTime(1)
+  Refresh
+  Wait Until (0.7 * i)
+Next
+
+UnSet i m E_X E_Y ANG B_C B_CA B_CB X_F Y_F ARY B_S P_S
+Return
+# ローカル変数を削除してリターン
+
+#───────────────────────────────────────────────────────
+# ◆書式例                                超竜神のパワークレーン＆ラダー再現用
+# BKG_左右別武器突撃 画像ファイル=file1=file2 画像サイズ=size1=size2 効果音 UnitID
+#
+# 『～突撃』系の汎用戦闘アニメに、二丁ビームライフルのルーチンを一部移植することで実現。
+# 両手に槍を持って突撃するような動きになります。
+# なお、準備アニメや命中アニメは作成していないため、別個に指定してください。
+#───────────────────────────────────────────────────────
+戦闘アニメ_BKG_左右別武器突撃攻撃:
+
+Local i C_X C_Y W_X W_Y ANG DRCT DRCT2 W_P W_S H_C S-I C-S LN
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Set C_X WX(UID)
+Set C_Y WY(UID)
+Set ANG Call(_GetAngle)
+
+  If (X(UID) >= _Get_X(相手ユニットＩＤ)) Then
+    Set DRCT ""
+  Else
+    Set DRCT 左右反転
+  EndIf
+Set DRCT2 _FlipVertical(ANG)
+
+For i = 1 To ArgNum
+  Array ARY Args(i) "="
+  Switch ARY[1]
+  Case 画像ファイル
+    Set W_P[1] ARY[2]
+    Set W_P[2] ARY[3]
+  Case 画像サイズ
+    Set W_S[1] ARY[2]
+    Set W_S[2] ARY[3]
+  Case Else
+    Skip
+  EndSw
+Next
+
+Set H_C[1] (W_S[1] / 2)
+Set H_C[2] (W_S[2] / 2)
+Set S-I[A] (Sin(3.141592 * (ANG + 90) / 180) * 16)
+Set C-S[A] (Cos(3.141592 * (ANG + 90) / 180) * 16)
+# 画像表示用・修正値の計算など
+
+Local X_F = _GetCircumference(ANG,Ｘ)
+Local Y_F = _GetCircumference(ANG,Ｙ)
+Local BMP_FILE = _GetBMPName(UID)
+Local BMP_FILE2 = _GetTileName(UID)
+
+_UnSetBattleAnimeValue
+
+Set W_X[1] ((C_X + 16) - H_C[1] - C-S[A])
+Set W_Y[1] ((C_Y + 16) - H_C[1] - S-I[A])
+Set W_X[2] ((C_X + 16) - H_C[2] + C-S[A])
+Set W_Y[2] ((C_Y + 16) - H_C[2] + S-I[A])
+
+# ↓ここから画像の表示
+
+Wait Start
+_SelectSound Whiz.wav _GetWavFromArgs()
+
+ChangeUnitBitmap UID 非表示
+
+For i = 1 To 4
+  ClearPicture
+  _PaintTile BMP_FILE2 C_X C_Y
+  Switch i
+  Case 1 3
+    Set LN -16
+  Case 2
+    Set LN -24
+  Case 4
+    Set LN 0
+  Case 5
+  EndSw
+
+  PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 32 32 透過 DRCT _ColorTime()
+  PaintPicture W_P[1] (W_X[1] + (X_F * LN)) (W_Y[1] + (Y_F * LN)) W_S[1] W_S[1] 透過 DRCT2 右回転 ANG _ColorTime()
+  PaintPicture W_P[2] (W_X[2] + (X_F * LN)) (W_Y[2] + (Y_F * LN)) W_S[2] W_S[2] 透過 DRCT2 右回転 ANG _ColorTime()
+
+  Refresh
+  Wait Until (i * 0.7)
+Next
+
+_SetAnimeData_UnitPoint (X_F * LN) (Y_F * LN) 0 DRCT "" "" UID
+
+ChangeUnitBitmap UID 非表示解除
+
+UnSet i C_X C_Y W_X W_Y ANG DRCT DRCT2 W_P W_S H_C S-I C-S X_F Y_F LN
+Return "Keep"
+
+#───────────────────────────────────────────────────────
+# 以下の左右粒子集中アニメについては、有翼蛇さんからご提供いただいたものを改変使用しています。
+# この場を借りてお礼申し上げます。
+#───────────────────────────────────────────────────────
+# ◆書式例
+# BKG_左右粒子集中 色=color1=color2 効果音=sound1=sound2 台詞=massage1=massage2 表情=face1=face2 UnitID
+#
+# 引数の順番はどうなっていてもかまわない。省略も可。
+#
+# 表情は(攻撃)や(ダメージ)等だけでなく、フルネームで。
+# なお、face2以降がない場合は、すべてface1を表示するため、台詞ごとに表情を変化させるのでなければ複数設定不要。
+# そもそも表情のないパイロットについては、指定しても意味がない。
+#
+# 同様に、効果音もsound2以降がなければ、すべてsound1を再生する。
+#───────────────────────────────────────────────────────
+戦闘アニメ_BKG_左右粒子集中準備:
+戦闘アニメ_BKG_左右粒子集中攻撃:
+戦闘アニメ_BKG_左右粒子集中発動:
+戦闘アニメ_BKG_左右粒子集中使用:
+
+Local i ARY C_X C_Y SIZE B_C S_E M_S P_G
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+For i = 1 To ArgNum
+  Array ARY Args(i) "="
+  Switch ARY[1]
+  Case 色
+    Set B_C[A] ARY[2]
+    Set B_C[B] ARY[3]
+  Case 効果音
+    Set S_E[1] ARY[2]
+    Set S_E[2] _GetName(ARY[2],ARY[3])
+  Case 台詞
+    Set M_S[A] ARY[2]
+    Set M_S[B] ARY[3]
+  Case 表情
+    Set P_G[A] ARY[2]
+    Set P_G[B] _GetName(ARY[2],ARY[3])
+  EndSw
+Next
+
+B_C[1] = _GetName("(Pink)",_G_BC_FA(B_C[A]))
+B_C[2] = _GetName("(Pink)",_G_BC_FA(B_C[B]))
+M_S[1] = _GetName("-",M_S[A])
+M_S[2] = _GetName("-",M_S[B])
+P_G[1] = _GetName(対象パイロット,P_G[A])
+P_G[2] = _GetName(対象パイロット,P_G[B])
+
+_UnSetBattleAnimeValue
+
+_CenteringCheck UID
+Set C_X (_Get_WX(UID))
+Set C_Y (_Get_WY(UID) + 16)
+
+## 右手～
+
+If M_S[1] <> "-" Then
+  AutoTalk P_G[1]
+  1;$(M_S[1])
+  Suspend
+EndIf
+
+Wait Start
+_SelectSound "Charge.wav" S_E[1]
+
+For i = 1 To 5
+  Set SIZE ((9 - i) * (9 - i))
+  Switch i
+  Case 4 5
+    _PaintCutin_ZSL ("Common\EFFECT_Particle" & B_C[1] & "01.bmp") 反転なし (C_X - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE
+  Case 2 3
+    _PaintCutin_ZSL ("Common\EFFECT_Particle" & B_C[1] & "02.bmp") 反転なし (C_X - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE
+  Case 1
+    _PaintCutin_ZSL ("Common\EFFECT_Particle" & B_C[1] & "03.bmp") 反転なし (C_X - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE
+  EndSw
+  Wait Until (i * 0.6)
+Next
+
+PaintPicture ("Common\EFFECT_LargeElectric" & B_C[1] & "01.bmp") (C_X - 8) (C_Y - 8) 16 16 透過 _ColorTime(1)
+Refresh
+
+## 左手～
+
+If M_S[2] <> "-" Then
+  AutoTalk P_G[2]
+  1;$(M_S[1]) $(M_S[2])
+  Suspend
+EndIf
+
+Wait Start
+_SelectSound "Charge.wav" S_E[2]
+
+For i = 1 To 5
+  Set SIZE ((9 - i) * (9 - i))
+  Switch i
+  Case 4 5
+    _PaintCutin_ZSL ("Common\EFFECT_Particle" & B_C[2] & "01.bmp") 反転なし (C_X + 32 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE
+  Case 2 3
+    _PaintCutin_ZSL ("Common\EFFECT_Particle" & B_C[2] & "02.bmp") 反転なし (C_X + 32 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE
+  Case 1
+    _PaintCutin_ZSL ("Common\EFFECT_Particle" & B_C[2] & "03.bmp") 反転なし (C_X + 32 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE
+  EndSw
+  PaintPicture ("Common\EFFECT_LargeElectric" & B_C[1] & "01.bmp") (C_X - 8) (C_Y - 8) 16 16 透過 _ColorTime(1)
+  Refresh
+  Wait Until (i * 0.6)
+Next
+
+PaintPicture ("Common\EFFECT_LargeElectric" & B_C[2] & "01.bmp") (C_X + 24) (C_Y - 8) 16 16 透過 _ColorTime(1)
+Refresh
+
+Wait Until 5
+Return Keep
+
+#───────────────────────────────────────────────────────
+# ◆書式例
+# BKG_左右粒子集中融合 色=color1=color2=color3 効果音=sound1=sound2 台詞=massgae1=massge2 表情=face1=face2 速or遅 UnitID
+#
+# BKG_左右粒子集中で表示した色を中央で融合させる。
+# color1、color2は先に表示させたものと同じ色でなければ妙なことになるので注意。color3が融合後の色。
+# 速or遅は融合速度の調整に利用。
+#
+# なお、BKG_左右粒子集中と同様に、引数はどんな順番でも動作可能。
+#───────────────────────────────────────────────────────
+戦闘アニメ_BKG_左右粒子集中融合準備:
+戦闘アニメ_BKG_左右粒子集中融合攻撃:
+戦闘アニメ_BKG_左右粒子集中融合発動:
+戦闘アニメ_BKG_左右粒子集中融合使用:
+
+Local i ARY C_X C_Y B_C S_E M_S P_G LN
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+For i = 1 To ArgNum
+  Array ARY Args(i) "="
+  Switch ARY[1]
+  Case 色
+    Set B_C[A] ARY[2]
+    Set B_C[B] ARY[3]
+    Set B_C[C] ARY[4]
+  Case 効果音
+    Set S_E[1] ARY[2]
+    Set S_E[2] _GetName(ARY[2],ARY[3])
+  Case 台詞
+    Set M_S[A] ARY[2]
+    Set M_S[B] ARY[3]
+  Case 表情
+    Set P_G[A] ARY[2]
+    Set P_G[B] _GetName(ARY[2],ARY[3])
+  EndSw
+Next
+
+B_C[1] = _GetName("(Pink)",_G_BC_FA(B_C[A]))
+B_C[2] = _GetName("(Pink)",_G_BC_FA(B_C[B]))
+B_C[3] = _GetName("(Pink)",_G_BC_FA(B_C[C]))
+M_S[1] = _GetName("-",M_S[A])
+M_S[2] = _GetName("-",M_S[B])
+P_G[1] = _GetName(対象パイロット,P_G[A])
+P_G[2] = _GetName(対象パイロット,P_G[B])
+
+_UnSetBattleAnimeValue
+
+_CenteringCheck UID
+Set C_X (_Get_WX(UID))
+Set C_Y (_Get_WY(UID) + 16)
+
+Switch Call(_GetSpeedFromArgs)
+Case 速
+  Set LN 0.5
+Case 遅
+  Set LN 2
+Case Else
+  Set LN 1
+EndSw
+
+PaintPicture ("Common\EFFECT_LargeElectric" & B_C[1] & "01.bmp") (C_X - 8) (C_Y - 8) 16 16 透過 _ColorTime(1)
+PaintPicture ("Common\EFFECT_LargeElectric" & B_C[2] & "01.bmp") (C_X + 24) (C_Y - 8) 16 16 透過 _ColorTime(1)
+Refresh
+
+If M_S[1] <> "-" Then
+  Set Mes Args(3)
+  AutoTalk P_G[1]
+  1;$(M_S[1])
+  Suspend
+EndIf
+
+Wait Start
+_SelectSound "Fold.wav" S_E[1]
+For i = 0 To 8
+  ClearPicture
+  If (i Mod 2) > 0 Then
+    PaintPicture ("Common\EFFECT_LargeElectric" & B_C[1] & "01.bmp") (C_X - 8 + (i * 1.5)) (C_Y - 8) 16 16 透過 _ColorTime(1)
+    PaintPicture ("Common\EFFECT_LargeElectric" & B_C[2] & "01.bmp") (C_X + 24 - (i * 1.5)) (C_Y - 8) 16 16 透過 _ColorTime(1)
+  ElseIf (i Mod 2) = 0 Then
+    PaintPicture ("Common\EFFECT_LargeElectric" & B_C[1] & "01.bmp") (C_X - 8 + (i * 1.5)) (C_Y - 8) 16 16 透過 左右反転 _ColorTime(1)
+    PaintPicture ("Common\EFFECT_LargeElectric" & B_C[2] & "01.bmp") (C_X + 24 - (i * 1.5)) (C_Y - 8) 16 16 透過 左右反転 _ColorTime(1)
+  EndIf
+  Refresh
+  Wait Until (i * LN)
+Next
+
+If M_S[2] <> "-" Then
+  AutoTalk P_G[2]
+  1;$(M_S[2])
+  Suspend
+EndIf
+
+Wait Start
+_SelectSound "Charge.wav" S_E[2]
+For i = 1 To 8
+  ClearPicture
+  If (i Mod 2) > 0 Then
+    PaintPicture ("Common\EFFECT_LargeElectric" & B_C[3] & "01.bmp") (C_X + 4) (C_Y - 12) 24 24 透過 _ColorTime(1)
+  ElseIf (i Mod 2) = 0 Then
+    PaintPicture ("Common\EFFECT_LargeElectric" & B_C[3] & "01.bmp") (C_X + 4) (C_Y - 12) 24 24 透過 左右反転 _ColorTime(1)
+  EndIf
+  Refresh
+  Wait Until (i * 0.6)
+  Refresh
+Next
+
+Return Keep
+
+#───────────────────────────────────────────────────────
+# ◆書式例                                ほぼ、ゴルディオンハンマーとどめ演出のみ
+# BKG_収束光放射 色 効果音 UnitID
+#───────────────────────────────────────────────────────
+戦闘アニメ_BKG_収束光放射攻撃:
+戦闘アニメ_BKG_収束光放射命中:
+戦闘アニメ_BKG_収束光放射とどめ:
+
+Local i j C_X C_Y B_C Pict
+Local UID = _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+
+Set B_C ("Light\EFFECT_LineLight" & _GetName("(Yellow)",_G_BC_FA()) & "0")
+
+_UnSetBattleAnimeValue
+
+_CenteringCheck UID
+Set C_X (_Get_WX(UID) + 16)
+Set C_Y (_Get_WY(UID) + 16)
+
+_SelectSound Charge(2).wav _GetWavFromArgs()
+For i = 1 To 10
+  Wait Start
+  For j = 1 To 3
+    ClearPicture
+    PaintPicture (B_C & j & ".bmp") (C_X - 86) (C_Y - 158) 172 172 透過 左回転 90 _ColorTime(1)
+    Refresh
+    Wait Until (j * 0.6)
+  Next
+Next
+
+ClearPicture
+Refresh
+Return
+
+#───────────────────────────────────────────────────────
+# ◆書式例                                超分身殺法のほか、ＺＸ－１０や機雷艦載機などでも使用
+# 書式１ BKG_画像指定散開 画像ファイル=file1=file2 画像サイズ=size1=size2 角度=ang1=ang2 効果音 UnitID
+# 書式２ BKG_画像指定散開 画像ファイル=file1 画像サイズ=size1 個数=num 角度=ang1=ang2 効果音 UnitID
+#
+# 相手ユニットとの位置関係にかかわらず、指定した角度で画像が飛び離れる。角度の指定は省略も可。
+# 書式２の場合は同一の画像がnumの数だけ飛ぶ。
+#
+# このほか、以下のオプション設定が可能。
+# ・集合…………通常とは逆に、中心に向かって画像が飛んでくる。命中アニメで使うといい感じ。
+# ・遅or速………画像が飛ぶ速度を調整
+#───────────────────────────────────────────────────────
+戦闘アニメ_BKG_画像指定散開攻撃:
+戦闘アニメ_BKG_画像指定散開命中:
+
+Local i j T_X T_Y W_P W_S H_S A_G LN S-I C-S ARY DRCT
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+_CenteringCheck UID
+
+Set T_X (WX(UID) + 16)
+Set T_Y (WY(UID) + 16)
+
+For i = 1 To ArgNum
+  Array ARY Args(i) "="
+  Switch ARY[1]
+  Case 画像ファイル
+    For j = 1 To (Count(ARY) - 1)
+      Set W_P[j] ARY[j + 1]
+    Next
+  Case 画像サイズ
+    For j = 1 To (Count(ARY) - 1)
+      Set W_S[j] ARY[j + 1]
+      Set H_S[j] (W_S[j] / 2)
+    Next
+  Case 角度
+    For j = 1 To (Count(ARY) - 1)
+      Set A_G[j] ARY[j + 1]
+    Next
+  Case 個数
+    Local NUM = ARY[2]
+  Case 集合
+    Local M_V = 1
+  Case Else
+    Skip
+  EndSw
+Next
+
+If NUM > 0 Then
+  For i = 2 To NUM
+    Set W_P[i] W_P[1]
+    Set W_S[i] W_S[1]
+    Set H_S[i] H_S[1]
+  Next
+EndIf
+
+If Count(A_G) = 0 Then
+  For i = 1 To Count(W_P)
+    Set A_G[i] (((360 / Count(W_P)) * (i - 1)) + 90)
+# 90を足すのは１枚目の画像が真上に来るようにするための処置。
+  Next
+EndIf
+
+If M_V = 1 Then
+  For i = 1 To Count(A_G)
+    If A_G[i] >= 90 And A_G[i] <= 270 Then
+      Set DRCT[i] ""
+    Else
+      Set DRCT[i] 左右反転
+    EndIf
+  Next
+Else
+  For i = 1 To Count(A_G)
+    If A_G[i] > 90 And A_G[i] < 270 Then
+      Set DRCT[i] 左右反転
+    Else
+      Set DRCT[i] ""
+    EndIf
+  Next
+EndIf
+
+For i = 1 To Count(W_P)
+  Set S-I[i] (Sin(3.141592 * (A_G[i]) / 180) * 25)
+  Set C-S[i] (Cos(3.141592 * (A_G[i]) / 180) * 25)
+Next
+
+Switch Call(_GetSpeedFromArgs)
+Case 速
+  Set LN 0.5
+Case 遅
+  Set LN 2
+Case Else
+  Set LN 1
+EndSw
+
+Wait Start
+_SelectSound Whiz.wav _GetWavFromArgs()
+If M_V = 1 Then
+  For i = 1 To 5
+    ClearPicture
+    For j = 1 To Count(W_P)
+      PaintPicture W_P[j] (T_X - H_S[j] - (C-S[j] * (6 - i))) (T_Y - H_S[j] - (S-I[j] * (6 - i))) W_S[j] W_S[j] 透過 DRCT[j] _ColorTime()
+    Next
+    Refresh
+    Wait Until (LN * i)
+  Next
+Else
+  For i = 1 To 5
+    ClearPicture
+    For j = 1 To Count(W_P)
+      PaintPicture W_P[j] (T_X - H_S[j] - (C-S[j] * (i + 1))) (T_Y - H_S[j] - (S-I[j] * (i + 1))) W_S[j] W_S[j] 透過 DRCT[j] _ColorTime()
+    Next
+    Refresh
+    Wait Until (LN * i)
+  Next
+EndIf
+
+UnSet i j T_X T_Y W_P W_S H_S A_G LN S-I C-S ARY DRCT NUM M_V
+Return
+
+#───────────────────────────────────────────────────────
+# ◆書式例                                目に見えないタイプの衝撃波  代表例：パイルドライバー
+# BKG_不可視衝撃波 色 効果音 UnitID
+#
+# 命中アニメは「爆発なし」のオプション設定が可能。
+#───────────────────────────────────────────────────────
+戦闘アニメ_BKG_不可視衝撃波攻撃:
+
+Local i ANG C_X C_Y B_C W_P
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+
+Set B_C ("Impact\EFFECT_CircleImpact" & _GetName("(White)",_G_BC_FA()) & "0")
+Set ANG Call(_GetAngle)
+
+_CenteringCheck UID
+Set C_X (_Get_WX(UID))
+Set C_Y (_Get_WY(UID))
+
+_SelectSound Whiz.wav _GetWavFromArgs()
+Wait Start
+For i = 1 To 3
+  ClearPicture
+  PaintPicture (B_C & i & ".bmp") (C_X - 32) (C_Y - 32) 96 96 透過 右回転 (ANG) _ColorTime(1)
+  Refresh
+  Wait Until (i * 0.7)
+Next
+
+ClearPicture
+Refresh
+Return
+
+#───────────────────────────────────────────────────────
+戦闘アニメ_BKG_不可視衝撃波命中:
+
+Local i BMP_FILE BMP_FILE2 ANG C_X C_Y B_C X_F Y_F Ex_Pl
+Local UID = _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+
+Set B_C ("Impact\EFFECT_CircleImpact" & _GetName("(White)",_G_BC_FA()) & "0")
+Set ANG Call(_GetAngle)
+
+_CenteringCheck UID
+Set C_X WX(UID)
+Set C_Y WY(UID)
+Set BMP_FILE _GetBMPName(UID)
+Set BMP_FILE2 _GetTileName(UID)
+Set X_F _GetCircumference(ANG,Ｘ)
+Set Y_F _GetCircumference(ANG,Ｙ)
+
+For i = 1 To ArgNum
+  Switch Args(i)
+  Case 爆発なし
+    Set Ex_Pl 1
+  Case Else
+    Skip
+  EndSw
+Next
+
+Wait Start
+_SelectSound_HR "BreakOff.wav" "Explode.wav" _GetWavFromArgs()
+ChangeUnitBitmap 相手ユニットＩＤ 非表示
+
+For i = 1 To 4
+  ClearPicture
+  _PaintTile BMP_FILE2 C_X C_Y 
+  Switch i
+  Case 1
+    PaintPicture BMP_FILE C_X C_Y 透過 _ColorTime()
+    If Not Ex_Pl = 1 Then
+      PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 4) (C_Y + 4) 24 24 透過 _ColorTime()
+    EndIf
+    PaintPicture (B_C & i & ".bmp") (C_X - 32) (C_Y - 32) 96 96 透過 右回転 (180 + ANG) _ColorTime(1)
+  Case 2
+    PaintPicture BMP_FILE (C_X + (X_F * 10)) (C_Y + (Y_F * 10)) 透過 _ColorTime()
+    If Not Ex_Pl = 1 Then
+      PaintPicture "Hit\EFFECT_HIT01.bmp" C_X C_Y 透過 _ColorTime()
+    EndIf
+    PaintPicture (B_C & i & ".bmp") (C_X - 32) (C_Y - 32) 96 96 透過 右回転 (180 + ANG) _ColorTime(1)
+  Case 3
+    PaintPicture BMP_FILE (C_X + (X_F * 15)) (C_Y + (Y_F * 15)) 透過 _ColorTime()
+    PaintPicture (B_C & i & ".bmp") (C_X - 32) (C_Y - 32) 96 96 透過 右回転 (180 + ANG) _ColorTime(1)
+  Case 4
+    PaintPicture BMP_FILE (C_X + (X_F * 18)) (C_Y + (Y_F * 18)) 透過 _ColorTime()
+  EndSw
+  Refresh
+  Wait Until (i * 0.7)
+Next
+ChangeUnitBitmap 相手ユニットＩＤ 非表示解除
+ClearPicture
+Refresh
+
+Local i BMP_FILE BMP_FILE2 ANG C_X C_Y B_C X_F Y_F Ex_Pl UID
+Return
+
+#───────────────────────────────────────────────────────
+# ◆書式例                                ＥＩ－２０重力制御装置ゾンダー用
+# BKG_エナジー大上昇 色
+#───────────────────────────────────────────────────────
+戦闘アニメ_BKG_エナジー大上昇命中:
+
+Local i j C_X C_Y B_C P_N
+Local UID = _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+
+Set B_C[1] ("Common\EFFECT_Circle" & _GetName("(Yellow)",_G_BC_FA()) & "01.bmp")
+Set B_C[2] ("Light\EFFECT_LBeamPillarEffect" & _GetName("(Yellow)",_G_BC_FA()) & "0")
+
+_UnSetBattleAnimeValue
+
+_CenteringCheck UID
+Set C_X _Get_WX(UID)
+Set C_Y _Get_WY(UID)
+
+For i = 1 To 2
+  Wait Start
+  For j = 1 To 3
+    ClearPicture
+    PaintPicture B_C[1] (C_X - 16) (C_Y - 16) 64 64 透過 _ColorTime(1)
+    PaintPicture (B_C[2] & j & ".bmp") (C_X - 32) (C_Y - 232) 96 280 透過 _ColorTime(1)
+    Refresh
+    Wait Until (j * 1)
+  Next
+Next
+
+Return
+

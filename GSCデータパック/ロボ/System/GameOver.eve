@@ -1,0 +1,73 @@
+<Data\_基本データ終了処理\終了処理.eve>
+<Data\_拡張データ終了処理\終了処理.eve>
+
+
+プロローグ:
+PlayMIDI GameOver.mid
+
+Set i 0
+
+For j = 1 To 4
+  If GSC_GameOverA Then
+    Break
+  EndIf
+  Switch j
+  Case 1
+    Call GSC_GameOverS 基本 ScenarioPath
+  Case 2
+    Call GSC_GameOverS 基本 AppPath
+  Case 3
+    Call GSC_GameOverS 基本 ExtDataPath
+  Case 4
+    Call GSC_GameOverS 基本 ExtDataPath2
+  EndSw
+Next
+
+For j = 1 To 4
+  If GSC_GameOverB Then
+    Break
+  EndIf
+  Switch j
+  Case 1
+    Call GSC_GameOverS 拡張 ScenarioPath
+  Case 2
+    Call GSC_GameOverS 拡張 AppPath
+  Case 3
+    Call GSC_GameOverS 拡張 ExtDataPath
+  Case 4
+    Call GSC_GameOverS 拡張 ExtDataPath2
+  EndSw
+Next
+
+Switch i
+Case 0
+  Talk システム
+  フォルダ構造が壊れとるんとちゃいますか？
+  End
+  Quit
+EndSw
+
+Call GameOverパターン[Random(i)]
+
+Quit
+
+
+GSC_GameOverS:
+Switch Args(1)
+Case 基本
+  If (Dir(Args(2) & "\Data\_基本データ終了処理", フォルダ) <> "") And (Dir(Args(2) & "\Data\_基本データ終了処理\終了処理.eve", ファイル) <> "") Then
+    Incr i
+    Load "_基本データ終了処理"
+    Set GameOverパターン[i] 基本GameOver
+    Set GSC_GameOverA
+  EndIf
+Case 拡張
+  If (Dir(Args(2) & "\Data\_拡張データ終了処理", フォルダ) <> "") And (Dir(Args(2) & "\Data\_拡張データ終了処理\終了処理.eve", ファイル) <> "") Then
+    Incr i
+    Load "_拡張データ終了処理"
+    Set GameOverパターン[i] 拡張GameOver
+    Set GSC_GameOverB
+  EndIf
+EndSw
+Return
+

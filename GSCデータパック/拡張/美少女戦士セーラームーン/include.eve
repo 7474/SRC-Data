@@ -1,0 +1,285 @@
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_SM_スパイラル準備:
+
+#引数１  対象ユニットＩＤ
+#引数２  画像名
+Local UID
+Local BMP_FILE
+Local BMP_FILE2
+Local TILE_FILE
+Local i j R
+Local C_X
+Local C_Y
+Local I_X
+Local I_Y
+Local T_COL1 = _ColorTime(1)
+Local RAD
+
+_UnSetBattleAnimeValue
+
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+Set BMP_FILE "Weapon\EFFECT_FancyMagicRod01.bmp"
+Set TILE_FILE _GetTileName(UID)
+_CenteringCheck UID
+
+Set C_X WX(UID)
+Set C_Y WY(UID)
+Set RAD (3.141592 / 180)
+Set R 24
+
+#For j = 1 To 4
+	
+	Wait Start
+	Playsound MultipleRocketLauncher(Light).wav
+	For i = -9 To 24
+	  Set I_X (R * Cos(RAD * (i * 10)))
+	  Set I_Y (R * Sin(RAD * (i * 10)) * 0.8)
+	  ClearPicture
+	   PaintPicture BMP_FILE (C_X + I_X) (C_Y + I_Y) 右回転 (i * 45) 透過 _ColorTime()
+	  Refresh
+	  Wait Until (i * 0.3)
+	  Incr R -0.5
+	Next
+#Next
+
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_SM_スパイラル攻撃:
+
+#引数１  対象ユニットＩＤ
+#引数２  画像名
+
+Local UID
+Local BMP_FILE
+Local BMP_FILE2
+Local TILE_FILE
+Local i j
+Local C_X
+Local C_Y
+Local T_COL1 = _ColorTime(1)
+
+_UnSetBattleAnimeValue
+
+Set UID _GetName(対象ユニットＩＤ,_GetIDFromArgs())
+Set BMP_FILE _GetBMPName(UID)
+Set TILE_FILE _GetTileName(UID)
+_CenteringCheck UID
+
+Set C_X WX(UID)
+Set C_Y WY(UID)
+
+
+ChangeUnitBitmap UID _GetName("-",_GetBmpFromArgs())
+Set BMP_FILE _GetBMPName(UID)
+For j = 1 To 3
+	Wait Start
+	For i = 1 To 10
+	  ClearPicture
+	  _PaintTile TILE_FILE C_X C_Y 
+	  Switch i
+	  Case 1
+		Playsound Swing.wav
+	    PaintPicture BMP_FILE C_X C_Y 透過 _ColorTime()
+	  Case 2 10
+	    PaintPicture BMP_FILE (C_X + 4) C_Y 24 32 透過 _ColorTime()
+	  Case 3 9
+	    PaintPicture BMP_FILE (C_X + 8) C_Y 16 32 透過 _ColorTime()
+	  Case 4 8
+	    PaintPicture BMP_FILE (C_X + 8) C_Y 16 32 透過 左右反転 シルエット _ColorTime()
+	  Case 5 7
+	    PaintPicture BMP_FILE (C_X + 4) C_Y 24 32 透過 _ColorTime() 左右反転 シルエット _ColorTime()
+	  Case 6
+		Playsound Swing.wav
+	    PaintPicture BMP_FILE C_X C_Y 透過 左右反転 シルエット _ColorTime()
+	  Endsw
+	  Refresh
+	  Wait Until (i * 0.3)
+	Next
+Next
+
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_SM_スパイラル命中:
+
+#引数１  対象ユニットＩＤ
+#引数２  画像名
+#引数３  効果音
+Return
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_SM_スパイラルとどめ:
+
+UpVar
+
+# 引数１ サイズ
+# 引数２ 色
+# 引数３ 効果音
+# 引数４ 接近
+Local UID = _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+Local A_SIZE A_Y
+Local ImpTime = 16
+Local Hsize
+
+Set BMP_FILE _GetBMPName(UID)
+Set BMP_FILE2 "Anime\Ice\EFFECT_CU_Blizzard(Pink)01.bmp"
+
+	Line 0 0 480 480 BF #000000
+	PaintPicture BMP_FILE - - 64 64 透過
+	
+	Wait 2
+	Wait Start
+	For i = 1 To ImpTime
+		PaintPicture Anime\Common\EFFECT_Heart01.bmp - - (i * 8) (i * 8) 透過
+		PaintPicture BMP_FILE - - 64 64 透過
+	  Refresh
+	  Wait Until (i * 0.3)
+	Next
+	Playsound Explode.wav
+	Incr ImpTime
+	Wait Start
+	For i = 1 To 48
+		Set Hsize (i * 10 + (8 * ImpTime))
+		PaintPicture Anime\Common\EFFECT_Heart01.bmp - - Hsize Hsize 透過
+		PaintPicture BMP_FILE - - (Hsize * 0.5) (Hsize * 0.5) シルエット 透過
+		PaintPicture BMP_FILE2 (208 - (i \ 2)) (208 + (i \ 2)) (64 - i) (64 - i) 透過 右回転 (i * 140)
+		PaintPicture BMP_FILE (216 - (i \ 2)) (216 + (i \ 2)) (48 - i) (48 - i) 明 透過 右回転 (i * -4)
+	  Refresh
+	  Wait Until (i * 0.3)
+	Next
+	
+
+Return "Keep"
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_SM_サイレンスグレイブＳ攻撃:
+
+	#Local KP_FLG = _S_OPT_FA("保持")
+	Local FILENAME
+	If X(対象ユニットＩＤ) < X(相手ユニットＩＤ) Then
+		Local LR = 左右反転
+	Else
+		Local LR = ""
+	EndIf
+	PaintPicture White.bmp - - 480 480
+	Refresh
+	Wait 2
+	Wait Start
+	For i = 1 to 4
+		PaintPicture White.bmp - - 480 480
+		Set FILENAME ("Anime\Slash\EFFECT_SlashLine(Black)0" & i & ".bmp")
+		PaintPicture FILENAME - - 240 240 LR
+		Refresh
+		Wait Until (i * 0.5)
+	Next
+	PaintPicture White.bmp - - 480 480
+	Refresh
+	Wait 2
+	
+Return "Keep"
+
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_SM_ＭＧメディテイション命中:
+//戦闘アニメ_オーラの改変
+# 引数１　画像名
+# 引数１　効果音
+
+Local UID = _GetName(相手ユニットＩＤ,_GetIDFromArgs())
+Local i
+Local B_C BMP_FILE BMP_FILE1 BMP_FILE2 SOUND
+Local N_C N_S
+Local RNG
+Local T_COL1 = _ColorTime(1)
+
+_UnSetBattleAnimeValue
+
+  Set BMP_FILE _GetBMPName(UID)
+
+  BMP_FILE1 = (Map\EFFECT_MapHole)
+  Center UID
+  PlaySound Args(1)
+
+
+Set N_S 64
+Set N_C 1
+
+Set RNG 1
+
+
+Wait Start
+For i = 1 To 32
+  Set BMP_FILE2 BMP_FILE1
+  #(BMP_FILE1 & _GetRainbowColor(k) & "0" & N_C & ".bmp")
+  
+  
+  PaintPicture (BMP_FILE1 & _GetRainbowColor(i) & "0" & N_C & ".bmp") - (240 - (N_S / 2)) N_S N_S 透過 T_COL1
+  PaintPicture BMP_FILE - - 透過 T_COL1 シルエット
+  Refresh
+  If ((i Mod 2) = 0) Then
+    Incr N_C 1
+  EndIf
+  If (N_C = 4) Then
+    Set N_C 1
+  EndIf
+
+  Wait Until (i * 0.3)
+
+  #If (N_S > ((RNG + 1) * 32 + 32)) Then
+  #  Break
+  #EndIf
+  Set N_S (N_S + 1)
+Next
+
+
+ClearPicture
+Return
+
+
+#_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+戦闘アニメ_SM_画像回転:
+
+_CenteringCheck 対象ユニットＩＤ
+Local G_S = _GetPicSizeFromArgs()
+Local C_X = (_Get_WX(対象ユニットＩＤ) + (32 - G_S) \ 2)
+Local C_Y = (_Get_WY(対象ユニットＩＤ) + (32 - G_S) \ 2)
+Local C_X2 = (_Get_WX(対象ユニットＩＤ))
+Local C_Y2 = (_Get_WY(対象ユニットＩＤ))
+Local WP_FILE =  _GetBmpFromArgs()
+Local FL ANG1 ANG2 DRCT
+Local i
+
+If (_IsLight() = 1) Then
+  Set FL 1
+Else
+  Set FL ""
+EndIf
+
+_SelectSound "Swing.wav" _GetWavFromArgs()
+
+Wait Start
+Set ANG1 45
+For i = 1 To 24
+  Incr ANG1 60
+  ClearPicture
+  PaintPicture WP_FILE (C_X + X_P) C_Y G_S G_S 透過 右回転 ANG1 _ColorTime(FL)
+
+#  Font RGB(i * 8,i * 8,i * 8)
+#  PaintString (C_X2 + 1 + (16 - (S_S \ 2))) (C_Y2 + 33) STR
+#  Font #000000
+#  PaintString (C_X2 + (16 - (S_S \ 2))) (C_Y2 + 32) STR
+
+  Refresh
+  Wait Until (i * 0.6)
+
+Next
+
+ClearPicture
+Refresh
+
+Return
+
+

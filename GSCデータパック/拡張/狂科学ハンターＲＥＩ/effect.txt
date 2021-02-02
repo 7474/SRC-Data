@@ -1,0 +1,343 @@
+#狂科学ハンターＲＥＩ・ｆｏｒ・ＳＲＣデータ
+#エフェクトデータ
+#----------------------------------------------------------------------------
+
+汎用
+ナイフ, Swing.wav
+ナイフ(命中), Slash.wav
+拳銃, Gun.wav
+マシンガン, MachineGun.wav
+格闘, Punch.wav
+格闘(命中), FightHit(1).wav
+生体衝撃波, GunPod.wav
+生体衝撃波(命中), Crash.wav
+生体電撃, Thunderbolt.wav
+八十九式小銃, MachineCannon.wav
+単分子ワイヤー, Swing.wav
+単分子ワイヤー(命中), Slash(3).wav
+爪, Swing.wav
+爪(命中), Slash.wav
+噛みつき, Swing.wav
+噛みつき(命中), Stab.wav
+地上掃射, MachineCannon.wav
+30mmバルカン砲, MachineCannon.wav
+野獣の群れ, GunPod.wav
+野獣の群れ, 2;Stab.wav;3;Stab.wav;3;Stab.wav;3;Stab.wav
+贖罪の球, LaserGun.wav
+贖罪の球(命中), Explode(Far).wav
+ライヒ・ガン, Beam.wav
+ライヒ・ガン, Explode.wav
+ＰＳジャマー, Hide.wav
+ＰＳジャマー(命中), -
+ＰＳジャマー(クリティカル), Computer.wav
+
+
+狂科学ハンター
+冷気, Whiz.wav
+魔玉(準備), Reload(4).wav
+魔玉, Swing.wav
+魔玉(命中), BreakOff.wav
+魔玉操・冷扇衝(準備), 2;Reload(4).wav;4;Snap(E).wav
+魔玉操・冷扇衝, 2;Stab.wav;3;Thunder.wav
+魔玉操・冷扇衝(命中), Thunder.wav
+魔玉操・冷扇衝(クリティカル), Thunderbolt.wav
+魔玉操(準備), Reload(4).wav
+魔玉操, Swing.wav
+魔玉操(解説), 玲は魔玉操を繰り出した
+魔玉操(解説), 玲は魔玉操を放った
+魔玉操(解説), 放たれた魔玉が、目標めがけて飛来する
+魔玉操(解説), 放たれた魔玉同士が干渉し合い、相手を打ち砕く力となる
+魔玉操(解説), 放たれた魔玉が、千差万別の変化をみせる
+魔玉操(氷雪)(準備), Reload(4).wav
+魔玉操(氷雪), Swing.wav
+魔玉操(氷雪)(解説), 玲は魔玉操を繰り出した
+魔玉操(氷雪)(解説), 玲は魔玉操を放った
+魔玉操(氷雪)(解説), 放たれた魔玉が、目標めがけて飛来する
+魔玉操(氷雪)(解説), 放たれた魔玉同士が干渉し合い、相手を打ち砕く力となる
+魔玉操(氷雪)(解説), 放たれた魔玉が、千差万別の変化をみせる
+魔玉操(命中), 「魔玉操・火焔葬輪っ！」;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;8;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;「魔玉操・火焔葬輪っ！」
+魔玉操(命中), 「魔玉操――」;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;8;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;;「魔玉操――火焔葬輪！」
+魔玉操(氷雪)(命中), 「<I>魔玉操・火焔葬輪</I>」;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;8;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;「<I>魔玉操・火焔葬輪</I>」
+魔玉操(氷雪)(命中), 「<I>魔玉操――</I>」;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;2;Whiz.wav;8;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;「<I>魔玉操――火焔葬輪</I>」
+魔玉操(命中), 「魔玉操――」;3;Beam.wav;5;Explode.wav;「魔玉操――獄炎衝！」
+魔玉操(命中), 「魔玉操・獄炎衝！」;3;Beam.wav;5;Explode.wav;「魔玉操・獄炎衝！」
+魔玉操(氷雪)(命中), 「<I>魔玉操――</I>」;3;Beam.wav;5;Explode.wav;「<I>魔玉操――獄炎衝</I>」
+魔玉操(氷雪)(命中), 「<I>魔玉操・獄炎衝</I>」;3;Beam.wav;5;Explode.wav;「<I>魔玉操・獄炎衝</I>」
+魔玉操(命中), 「魔玉操――」;1;Jet.wav;5;Explode.wav;「魔玉操――爆龍砕っ！」
+魔玉操(命中), 「魔玉操・爆龍砕！」;1;Jet.wav;5;Explode.wav;「魔玉操・爆龍砕っ！」
+魔玉操(氷雪)(命中), 「<I>魔玉操――</I>」;1;Jet.wav;5;Explode.wav;「魔玉操――爆龍砕</I>」
+魔玉操(氷雪)(命中), 「<I>魔玉操・爆龍砕</I>」;1;Jet.wav;5;Explode.wav;「魔玉操・爆龍砕</I>」
+魔玉操(命中), 「魔玉操――」;2;Missile.wav;2;Missile.wav;2;Missile.wav;5;Crash.wav;2;Crash.wav;2;Crash.wav;2;Crash.wav;2;Crash.wav;2;Crash.wav;「魔玉操――反龍震！！」
+魔玉操(命中), 「魔玉操・反龍震！！」;2;Missile.wav;2;Missile.wav;2;Missile.wav;5;Crash.wav;2;Crash.wav;2;Crash.wav;2;Crash.wav;2;Crash.wav;2;Crash.wav;「魔玉操・反龍震！！」
+魔玉操(氷雪)(命中), 「<I>魔玉操――</I>」;2;Missile.wav;2;Missile.wav;2;Missile.wav;5;Crash.wav;2;Crash.wav;2;Crash.wav;2;Crash.wav;2;Crash.wav;2;Crash.wav;「魔玉操――反龍震</I>」
+魔玉操(氷雪)(命中), 「<I>魔玉操・反龍震</I>」;2;Missile.wav;2;Missile.wav;2;Missile.wav;5;Crash.wav;2;Crash.wav;2;Crash.wav;2;Crash.wav;2;Crash.wav;2;Crash.wav;「魔玉操・反龍震</I>」
+魔玉操(命中), 「魔玉操――」;2;Breath.wav;2;Breath.wav;8;Explode(Long).wav;「魔玉操――微塵双龍っ！！」
+魔玉操(命中), 「魔玉操・微塵双龍っ！！」;2;Breath.wav;2;Breath.wav;8;Explode(Long).wav;「魔玉操・微塵双龍っ！！」
+魔玉操(氷雪)(命中), 「<I>魔玉操――</I>」;2;Breath.wav;2;Breath.wav;8;Explode(Long).wav;「<I>魔玉操――微塵双龍</I>」
+魔玉操(氷雪)(命中), 「<I>魔玉操・微塵双龍</I>」;2;Breath.wav;2;Breath.wav;8;Explode(Long).wav;「<I>魔玉操・微塵双龍</I>」
+魔玉操(命中), 「魔玉操――」;2;Storm.wav;5;Storm.wav;「魔玉操――螺旋砕環っ！！」
+魔玉操(命中), 「魔玉操・螺旋砕環っ！！」;2;Storm.wav;5;Storm.wav;「魔玉操・螺旋砕環っ！！」
+魔玉操(氷雪)(命中), 「<I>魔玉操――</I>」;2;Storm.wav;5;Storm.wav;「<I>魔玉操――螺旋砕環</I>」
+魔玉操(氷雪)(命中), 「<I>魔玉操・螺旋砕環</I>」;2;Storm.wav;5;Storm.wav;「<I>魔玉操・螺旋砕環</I>」
+魔玉操(命中), 「魔玉操――」;2;Cannon.wav;8;Explode(Far).wav;「魔玉操――天神華っ！」
+魔玉操(命中), 「魔玉操・天神華っ！」;2;Cannon.wav;8;Explode(Far).wav;「魔玉操・天神華っ！」
+魔玉操(氷雪)(命中), 「<I>魔玉操――</I>」;2;Cannon.wav;8;Explode(Far).wav;「<I>魔玉操――天神華</I>」
+魔玉操(氷雪)(命中), 「<I>魔玉操・天神華</I>」;2;Cannon.wav;8;Explode(Far).wav;「<I>魔玉操・天神華</I>」
+魔玉操・天龍槌(準備), 2;Reload(4).wav;5;Swing.wav
+魔玉操・天龍槌, Storm.wav
+魔玉操・天龍槌(命中), Storm.wav
+魔玉操・天龍槌(クリティカル), Shock(Low).wav
+魔玉操・龍震波(準備), 2;Reload(4).wav;5;Swing.wav
+魔玉操・龍震波, GunPod.wav
+魔玉操・龍震波(命中), 2;Shock(Low).wav;2;Shock(Low).wav;2;Shock(Low).wav
+絶対零度, Storm.wav
+絶対零度(命中), EvilEye.wav
+魔玉操・空間断裂(準備), 2;Reload(4).wav;5;Swing.wav
+魔玉操・空間断裂, Hittyuu.wav
+魔玉操・空間断裂(命中), Slash(4).wav
+魔玉操・火龍葬輪(準備), 2;Reload(4).wav;5;Swing.wav
+魔玉操・火龍葬輪, 2;Whiz.wav;2;Whiz.wav;2;Whiz.wav
+魔玉操・火龍葬輪(命中), Explode.wav
+魔玉操・紅蓮地獄(準備), 2;Reload(4).wav;5;Swing.wav
+魔玉操・紅蓮地獄, Charge(High).wav
+魔玉操・紅蓮地獄(命中), Explode(Long).wav
+魔玉操・菩薩翔(準備), 2;Reload(4).wav;5;Swing.wav
+魔玉操・菩薩翔, -
+魔玉操・菩薩翔(命中), Explode(Nuclear).wav
+魔玉操・弥勒翔(準備), Reload(4).wav
+魔玉操・弥勒翔, -
+魔玉操・弥勒翔, 2;Charge(2).wav;5;Explode(Long).wav
+阻止(魔玉操・華炎玉), Fire.wav
+阻止(魔玉操・断線刃), Glass.wav
+阻止(魔玉操・次元障壁), BeamCoat.wav
+攻撃無効化(極低温の力場), Wind.wav
+攻撃無効化(絶対零度の力場), Wind.wav
+攻撃無効化(氷神の領域), Wind.wav
+
+
+人造人間
+怪力, Swing.wav
+怪力(命中), FightHit(1).wav
+ジャイアントスイング, Swing.wav
+ジャイアントスイング(命中), FightHit(4).wav;3;Swing.wav;6;Swing.wav;4;Swing.wav;2;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;1;Swing.wav;4;Crash.wav
+ヴィクトルの血, Hittyuu.wav
+レールガン(準備), BeamSaber.wav
+レールガン, Rifle.wav
+レールガン(命中), Explode.wav
+重力子, BeamSaber.wav
+重力子(命中), Charge(High).wav
+反物質弾(準備), BeamSaber.wav
+反物質弾, Rifle.wav
+反物質弾(命中), Explode(Nuclear).wav
+攻撃無効化(重力子), BeamSaber.wav
+反射(ケルブラン・ジェネレーター), 0;BeamSaber.wav;5;BeamCoat.wav
+
+
+戦史研メンバー
+穏行霧, Swing.wav
+穏行霧(命中), -
+穏行霧(クリティカル), Hide.wav
+死告剣, Swing.wav
+死告剣(命中), Stab.wav
+死告剣(クリティカル), Interference.wav
+飛剣, Swing.wav
+飛剣(命中), Stab.wav
+五行相克(準備), Reload(4).wav
+五行相克, BeamSaber.wav
+五行相克(解説), 飛剣に五行を打ち消す相克の力が宿るっ！
+五行相克(解説), 桜は五行相克の力を放った！
+五行相克(解説), 桜は相克の技を解き放ったっ！
+五行相克(命中), 「はっ！！」;2;Glass.wav;2;「はっ！！」
+五行相克(命中), 「五行相克っ！」;2;Glass.wav;2;「五行相克っ！」
+五行相克(命中), 「疾っ！！」;2;Glass.wav;2;「疾っ！！」
+五行相克(命中), 「五行相克――:疾っ！！」;2;Glass.wav;2;「五行相克――疾っ！！」
+五行相克(命中), 「飛剣に宿りしは相克の理っ！」;2;Glass.wav;2;「飛剣に宿りしは相克の理っ！」
+五行相克(命中), 「桜さんの風水具現法、タップリと味わいなさい！」;2;Glass.wav;2;「桜さんの風水具現法、タップリと味わいなさい！」
+五行相克(命中), 「どんな産物も、.自然を織りなす五行の理には逆らえないの」;2;Glass.wav;2;「どんな産物も、.自然を織りなす五行の理には逆らえないの」
+五行相克(命中), 「死を司る玄武の土を、.龍穴の西たる白虎の力をかりて、火の性にて援護する！」;「白虎の精気を受けて、五行相克の理を成せ！ :疾っ！｣;2;Glass.wav;2;「白虎の精気を受けて、五行相克の理を成せ！ 疾っ！｣
+五行相克(命中), 「東の極み、西の果て。.地に流れる龍脈は、祖に打たれ水の性をもつ」;「よって火の気を重ね合い、水の気による木気を強め、.本貫たる龍穴に呼ぶ！」;2;Glass.wav;2;「よって火の気を重ね合い、水の気による木気を強め、.本貫たる龍穴に呼ぶ！」
+五行相克(命中), 「地に渦巻く龍脈を、螺旋に描いて再び流す！」;「祖は龍脈を隆起に導く白虎の雄叫び、.白銀の毛並みが導く五行の道は、.彼の地に沸き立つ鉄の剣！」;「疾っ！」;2;Glass.wav;2;「疾っ！」
+五行相克(命中)(対宝部麗奈)(対瀕死), 「麗奈ぁーっ！」;2;Glass.wav;2;「麗奈ぁーっ！」
+五行相克(命中)(対弱点=銃), 「木気は火気を孕み、火気は金気を剋す！ :疾っ！」;2;Glass.wav;2;「木気は火気を孕み、火気は金気を剋す！ 疾っ！」
+五行相克(命中)(対弱点=金), 「木気は火気を孕み、火気は金気を剋す！ :疾っ！」;2;Glass.wav;2;「木気は火気を孕み、火気は金気を剋す！ 疾っ！」
+五行相克(命中)(対弱点=水), 「火気は土気を孕み、土気は水気を剋す！ :疾っ！」;2;Glass.wav;2;「金気は木気を孕み、木気は土気を剋す！ 疾っ！」
+五行相克(命中)(対弱点=冷), 「火気は土気を孕み、土気は水気を剋す！ :疾っ！」;2;Glass.wav;2;「金気は木気を孕み、木気は土気を剋す！ 疾っ！」
+五行相克(命中)(対弱点=木), 「土気は金気を孕み、金気は木気を剋す！ :疾っ！」;2;Glass.wav;2;「金気は木気を孕み、木気は土気を剋す！ 疾っ！」
+五行相克(命中)(対弱点=雷), 「土気は金気を孕み、金気は木気を剋す！ :疾っ！」;2;Glass.wav;2;「金気は木気を孕み、木気は土気を剋す！ 疾っ！」
+五行相克(命中)(対弱点=火), 「金気は水気を孕み、水気は火気を剋す！ :疾っ！」;2;Glass.wav;2;「金気は木気を孕み、木気は土気を剋す！ 疾っ！」
+五行相克(命中)(対弱点=Ｂ), 「金気は水気を孕み、水気は火気を剋す！ :疾っ！」;2;Glass.wav;2;「金気は木気を孕み、木気は土気を剋す！ 疾っ！」
+五行相克(命中)(対弱点=地), 「水気は木気を孕み、木気は土気を剋す！ :疾っ！」;2;Glass.wav;2;「金気は木気を孕み、木気は土気を剋す！ 疾っ！」
+五行相克(命中)(対弱点=重), 「水気は木気を孕み、木気は土気を剋す！ :疾っ！」;2;Glass.wav;2;「金気は木気を孕み、木気は土気を剋す！ 疾っ！」
+五行相克(命中)(対弱点=火), 「地を統べるは東の青龍、.地脈を導く伏流水は、五行を通じて火を剋す」;「疾っ！」;2;Glass.wav;2;「疾っ！」
+五行相克(命中)(対弱点=Ｂ), 「地を統べるは東の青龍、.地脈を導く伏流水は、五行を通じて火を剋す」;「疾っ！」;2;Glass.wav;2;「疾っ！」
+五行相克(命中)(対弱点=獣), 「鷲は火のもの、獅子は地のもの！.火は水により、その実体を崩されん！」;「疾っ！」;2;Glass.wav;2;「疾っ！」
+五行相生(準備), Reload(2).wav
+五行相生, BeamSaber.wav
+五行相生(解説), 飛剣に五行を生み出す相生の力が宿るっ！
+五行相生(解説), 桜は五行相生の力を放った！
+五行相生(解説), 桜は相生の技を解き放ったっ！
+五行相生(命中), 「疾っ！」;2;Swing.wav;3;Explode.wav;3;「疾っ！」
+五行相生(命中), 「五行相生っ！」;2;Swing.wav;3;Explode.wav;3;「五行相生っ！」
+五行相生(命中), 「五行相克――:疾っ！！」;2;Swing.wav;3;Explode.wav;3;「五行相克――疾っ！！」
+五行相生(命中), 「飛剣に宿りしは相生の理っ！」;2;Swing.wav;3;Explode.wav;3;「飛剣に宿りしは相生の理っ！」
+五行相生(命中), 「桜さんの風水具現法、タップリと味わいなさい！」;2;Swing.wav;3;Explode.wav;3;「桜さんの風水具現法、タップリと味わいなさい！」
+五行相生(命中), 「都を統べるは東の四神」;「龍穴を巡る渦動は精気をあつめ、.この台地に北の精を為すっ！」;「疾っ！」;2;Swing.wav;3;Explode.wav;3;「疾っ！」
+五行相生(命中)(対宝部麗奈)(対瀕死), 「麗奈ぁーっ！」;2;Swing.wav;3;Explode.wav;3;「麗奈ぁーっ！」
+五行相生(命中), 「炎は金を克し、金は水を生む。.よって五行の理は、龍穴の水に相乗す！」;「疾っ！」;2;Splash.wav;3;「疾っ！」
+五行相生(命中), 「金は木を克し、木は火を生む。.よって五行の理は、龍穴の火に相乗す！」;「疾っ！」;2;火柱 Fire.wav;3;「疾っ！」
+五行相生(命中), 「木は土を克し、火は土を生む。.よって五行の理は、龍穴の土に相乗す！」;「疾っ！」;2Crash.wav;3;「疾っ！」
+五行相生(命中), 「炎は金を克し、土は金を生む。.よって五行の理は、龍穴の金に相乗す！」;「疾っ！」;2;Slash(4).wav;3;「疾っ！」
+五行相生(命中), 「金は木を克し、水は木を生む。.よって五行の理は、龍穴の木に相乗す！」;「疾っ！」;2;Thunder.wav;3;「疾っ！」
+五行相生(命中)(対瀕死), 「地に眠るは武の魂、小なる泰山は青梅の山並み」;「猛る龍脈は魂の流れを下り、.もって大龍脈の西方に、白虎が統べる風の槍と為す！」;2;Shock(Low).wav;5;「猛る龍脈は魂の流れを下り、.もって大龍脈の西方に、白虎が統べる風の槍と為す！」
+五行相生(命中)(対瀕死), 「地に眠るは武の魂、小なる泰山は青梅の山並み」;「猛る龍脈は魂の流れを下り、.もって大龍脈の東方に、青龍が統べる雷の槍と為す！」;2;Shock(Low).wav;5;「猛る龍脈は魂の流れを下り、.もって大龍脈の東方に、青龍が統べる雷の槍と為す！」
+五行相生(命中)(対瀕死), 「地に眠るは武の魂、小なる泰山は青梅の山並み」;「猛る龍脈は魂の流れを下り、.もって大龍脈の南方に、朱雀が統べる炎の槍と為す！」;2;Shock(Low).wav;5;「猛る龍脈は魂の流れを下り、.もって大龍脈の南方に、朱雀が統べる炎の槍と為す！」
+五行相生(命中)(対瀕死), 「地に眠るは武の魂、小なる泰山は青梅の山並み」;「猛る龍脈は魂の流れを下り、.もって大龍脈の中央に、人祖が統べる地の槍と為す！」;2;Shock(Low).wav;5;「猛る龍脈は魂の流れを下り、.もって大龍脈の中央に、人祖が統べる地の槍と為す！」
+五行相生(命中)(対瀕死), 「地に眠るは武の魂、小なる泰山は青梅の山並み」;「猛る龍脈は魂の流れを下り、.もって大龍脈の北方に、玄武が統べる水の槍と為す！」;2;Shock(Low).wav;5;「猛る龍脈は魂の流れを下り、.もって大龍脈の北方に、玄武が統べる水槍と為す！」
+五行相生(命中)(対弱点=水), 「炎は金を克し、金は水を生む。.よって五行の理は、龍穴の水に相乗す！」;「疾っ！」;2;Splash.wav;3;「疾っ！」
+五行相生(命中)(対弱点=火), 「金は木を克し、木は火を生む。.よって五行の理は、龍穴の火に相乗す！」;「疾っ！」;2;Fire.wav;3;「疾っ！」
+五行相生(命中)(対弱点=地), 「木は土を克し、火は土を生む。.よって五行の理は、龍穴の土に相乗す！」;「疾っ！」;2;Crash.wav;3;「疾っ！」
+五行相生(命中)(対弱点=風), 「炎は金を克し、土は金を生む。.よって五行の理は、龍穴の金に相乗す！」;「疾っ！」;2;Slash(4).wav;3;「疾っ！」
+五行相生(命中)(対弱点=雷), 「金は木を克し、水は木を生む。.よって五行の理は、龍穴の木に相乗す！」;「疾っ！」;2;Thunder.wav;3;「疾っ！」
+五行相生(命中)(対弱点=風)(対瀕死), 「地に眠るは武の魂、小なる泰山は青梅の山並み」;「猛る龍脈は魂の流れを下り、.もって大龍脈の西方に、白虎が統べる風の槍と為す！」;2;Shock(Low).wav;5;「猛る龍脈は魂の流れを下り、.もって大龍脈の西方に、白虎が統べる風の槍と為す！」
+五行相生(命中)(対弱点=雷)(対瀕死), 「地に眠るは武の魂、小なる泰山は青梅の山並み」;「猛る龍脈は魂の流れを下り、.もって大龍脈の東方に、青龍が統べる雷の槍と為す！」;2;Shock(Low).wav;5;「猛る龍脈は魂の流れを下り、.もって大龍脈の東方に、青龍が統べる雷の槍と為す！」
+五行相生(命中)(対弱点=火)(対瀕死), 「地に眠るは武の魂、小なる泰山は青梅の山並み」;「猛る龍脈は魂の流れを下り、.もって大龍脈の南方に、朱雀が統べる炎の槍と為す！」;2;Shock(Low).wav;5;「猛る龍脈は魂の流れを下り、.もって大龍脈の南方に、朱雀が統べる炎の槍と為す！」
+五行相生(命中)(対弱点=地)(対瀕死), 「地に眠るは武の魂、小なる泰山は青梅の山並み」;「猛る龍脈は魂の流れを下り、.もって大龍脈の中央に、人祖が統べる地の槍と為す！」;2;Shock(Low).wav;5;「猛る龍脈は魂の流れを下り、.もって大龍脈の中央に、人祖が統べる地の槍と為す！」
+五行相生(命中)(対弱点=水)(対瀕死), 「地に眠るは武の魂、小なる泰山は青梅の山並み」;「猛る龍脈は魂の流れを下り、.もって大龍脈の北方に、玄武が統べる水の槍と為す！」;2;Shock(Low).wav;5;「猛る龍脈は魂の流れを下り、.もって大龍脈の北方に、玄武が統べる水の槍と為す！」
+四神混沌(準備), Reload(2).wav
+四神混沌, 0;Cannon.wav;2;Cannon.wav;2;Cannon.wav;2;Cannon.wav
+四神混沌(命中), 0;Warship.wav;2;Warship.wav;2;Warship.wav;2;Warship.wav
+攻撃無効化(五行相克), Hittyuu.wav
+念動拳, Jet.wav
+念動拳(命中), Crash.wav
+念動剛拳, Jet.wav
+念動剛拳(命中), Shock(Low).wav
+阻止(念動剛拳), Shock(Low).wav
+
+
+薔薇十字軍
+格闘術, Swing.wav
+格闘術(命中), Slash.wav
+空気爆弾, FlyBy.wav
+空気爆弾(命中), Explode.wav
+真空牙, Whiz.wav
+真空牙(命中), Slash(3).wav
+大気の錐(準備), Drill.wav
+大気の錐, Storm.wav
+大気の錐(命中), Stab.wav
+真空レンズ(準備), Charge.wav
+真空レンズ, Beam.wav
+真空レンズ(命中), Explode.wav
+キセノン・ドリル(準備), Charge(2).wav
+キセノン・ドリル, Drill.wav
+キセノン・ドリル(命中), Explode(Long).wav
+ホイールアタック, Bike.wav
+ホイールアタック(命中), Crash.wav
+攻撃無効化(気圧の壁), Storm.wav
+豪刀そぼろ助広, Swing.wav
+豪刀そぼろ助広(命中), Slash.wav
+一閃, Swing.wav
+一閃(命中), Slash.wav
+グラヴィトン, BeamSaber.wav
+グラヴィトン(命中), Shock(Low).wav
+
+
+黄金の薔薇
+妖飛仙, AntiShipMissile.wav
+妖飛仙(命中), Stab.wav
+掌打, Swing.wav
+掌打(命中), FightHit(4).wav
+食肉毒虫, Missile.wav
+食肉毒虫(命中), Stab.wav
+漆黒の腕, Swing.wav
+漆黒の腕(命中), Stab.wav
+瘴気の渦, Storm.wav
+瘴気の渦(命中), 0;Stab.wav;2;Stab.wav;2;Stab.wav;2;Stab.wav;2;Stab.wav
+分身(妖飛仙), Hide.wav
+次元槌, Shock(Low).wav
+次元槌(命中), Crash.wav
+零距離次元槌, Shock(Low).wav
+零距離次元槌(命中), Crash.wav
+攻撃無効化(次元力場), Shock(Low).wav
+火精流入, Swing.wav
+火精流入(命中), 0;BreakOff.wav;8;Fire.wav
+飛翔火精, Snap.wav
+飛翔火精(命中), Fire.wav
+火精狂宴(準備), Charge(Long).wav
+火精狂宴, Breath.wav
+火精狂宴(命中), Explode(Long).wav
+阻止(飛翔火精), 0;Snap.wav;5;Fire.wav
+カーンの誘惑, Hittyuu.wav
+カーンの誘惑(命中), -
+カーンの誘惑(クリティカル), Sharara.wav
+Ｈ・ジェノサイド, Fold.wav
+Ｈ・ジェノサイド(命中), Hide.wav
+アニマ・アニムス, 0;Missile.wav;5;Missile.wav
+アニマ・アニムス(命中), Stab.wav
+インコシ・カーン, Swing.wav
+インコシ・カーン(命中), Slash.wav
+スカルクラッシュ, Swing.wav
+スカルクラッシュ(命中), Slash.wav
+カーン・ジェノサイド, Jet.wav
+カーン・ジェノサイド(命中), 0;Crash.wav;5;Hide.wav
+異形の魔獣群, MultipleRocketLauncher.wav
+異形の魔獣群, 0;Stab.wav;3;Stab.wav;3;Stab.wav;3;Stab.wav;3;Stab.wav;3;Stab.wav
+Ｌフィールド, Hittyuu.wav
+Ｌフィールド(命中), Interference.wav
+ヒエロニムスの閃光, BeamCoat.wav
+ヒエロニムスの閃光(命中), Explode.wav
+螺旋を為す暴風, Storm.wav
+螺旋を為す暴風(命中), Shock(Low).wav
+攻撃無効化(Ｌフィールド), IHittyuu.wav
+神の拳, Punch.wav
+神の拳(命中), Crash.wav
+神の雷, 0;Thunder.wav;3;Thunder.wav;3;Thunder.wav;3;Thunder.wav
+神の雷(命中), Explode.wav
+割れる大地, GunPod.wav
+割れる大地(命中), Shock(Low).wav
+寄せ来る波濤, Search.wav
+寄せ来る波濤(命中), Crash.wav
+太陽の槍, Beam.wav
+太陽の槍(命中), Explode.wav
+降魔の雷, Thunder.wav
+降魔の雷(命中), Explode(Far).wav
+天変地異(準備), Charge(2).wav
+天変地異, 0;Shock(Low).wav;3;Shock(Low).wav;3;Shock(Low).wav;3;Shock(Low).wav;3;Shock(Low).wav
+天変地異(命中), Explode(Long).wav
+
+
+ＳＰＥＣＴＲＡＭ
+分子振動拳, BeamSaber.wav
+分子振動拳(命中), MultipleRocketLauncher(Light).wav
+広域分子振動波(準備), BeamSaber.wav
+広域分子振動波, 0;MultipleRocketLauncher(Light).wav;4;MultipleRocketLauncher(Light).wav;4;MultipleRocketLauncher(Light).wav
+広域分子振動波(命中), MultipleRocketLauncher(Light).wav
+分子振動波(準備), BeamSaber.wav
+分子振動波, MultipleRocketLauncher.wav
+分子振動波(命中), MultipleRocketLauncher.wav
+阻止(分子振動波), 0;BeamSaber.wav;5;MultipleRocketLauncher.wav
+ダウンバースト, Storm.wav
+ダウンバースト(命中), Crash.wav
+軍隊格闘技, Swing.wav
+軍隊格闘技, FightHit(1).wav
+エアエッジ, Whiz.wav
+エアエッジ(命中), Slash.wav
+トルネード, Storm.wav
+トルネード(命中), 0;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav
+攻撃無効化(ウィンド), Storm.wav
+ライトニングナックル, Punch.wav
+ライトニングナックル(命中), BreakOff.wav
+ライトニング, Thunder.wav
+ライトニング(命中), Explode.wav
+ライトニングダイブ, FlyBy.wav
+ライトニングダイブ(命中), Thunder.wav
+プラズマナックル, Punch(2).wav
+プラズマナックル(命中), 0;BreakOff.wav;3;BreakOff.wav
+ライトニングプラズマ, Thunder.wav
+ライトニングプラズマ(命中), Thunder.wav
+サンダーボルト, Thunder.wav
+サンダーボルト(命中), Explode(Long).wav
+ミリオンダイブ, Jet.wav
+ミリオンダイブ(命中), Thunder.wav
+攻撃無効化(プラズマシールド), BeamCoat.wav
+ＰＳＹグラップル, Punch(4).wav
+ＰＳＹグラップル(命中), Crash.wav

@@ -1,0 +1,531 @@
+
+########## ########## ########## ########## ########## ########## ########## ########## ########## ##########
+# トゥスクル勢だけ切り売りしやすいようにばらばらにしておきます。
+
+トゥスクル皇ハクオロ
+シールド防御(仕込み鉄扇), 鉄扇 Saber.wav
+脳震盪誘発打撃(準備), 振る武器 DGoods\EFFECT_IronFan01.bmp Reload(4).wav
+脳震盪誘発打撃(準備), 振る武器 DGoods\EFFECT_IronFan02.bmp Reload(4).wav
+脳震盪誘発打撃(攻撃), タックル Whiz.wav;斬撃 Saber.wav
+脳震盪誘発打撃(命中), 打撃 BreakOff.wav
+仕込み鉄扇(準備), 振る武器 DGoods\EFFECT_IronFan01.bmp Reload(4).wav
+仕込み鉄扇(準備), 振る武器 DGoods\EFFECT_IronFan02.bmp Reload(4).wav
+仕込み鉄扇(攻撃), タックル Whiz.wav;斬撃 Saber.wav
+仕込み鉄扇(命中), 斬撃 Slash.wav
+仕込み鉄扇(命中), 刺突 Slash.wav
+仕込み鉄扇(命中), 打撃 Whip.wav
+仕込み鉄扇毒撃(準備), 振る武器 DGoods\EFFECT_IronFan01.bmp Reload(4).wav
+仕込み鉄扇毒撃(準備), 振る武器 DGoods\EFFECT_IronFan02.bmp Reload(4).wav
+仕込み鉄扇毒撃(攻撃), タックル Whiz.wav;斬撃 Saber.wav
+仕込み鉄扇毒撃(命中), 斬撃 Slash.wav
+仕込み鉄扇毒撃(命中), 刺突 Slash.wav
+仕込み鉄扇毒撃(命中), 打撃 Whip.wav
+仕込み鉄扇連撃(準備), 振る武器 DGoods\EFFECT_IronFan01.bmp Reload(4).wav
+仕込み鉄扇連撃(準備), 振る武器 DGoods\EFFECT_IronFan02.bmp Reload(4).wav
+仕込み鉄扇連撃(攻撃), タックル Whiz.wav;斬撃 Saber.wav
+仕込み鉄扇連撃(命中), 打撃 Whip.wav;打撃 Whip.wav;刺突 Slash.wav;連斬撃 Slash.wav
+仕込み鉄扇乱撃(準備), 振る武器 DGoods\EFFECT_IronFan01.bmp Reload(4).wav
+仕込み鉄扇乱撃(準備), 振る武器 DGoods\EFFECT_IronFan02.bmp Reload(4).wav
+仕込み鉄扇乱撃(攻撃), タックル Whiz.wav;斬撃 Saber.wav
+仕込み鉄扇乱撃(命中), 打撃 Whip.wav;打撃 Whip.wav;連斬撃 Slash.wav;連斬撃 Slash.wav;連突 Slash.wav;円弧斬撃 Saber.wav
+仕込み鉄扇魔撃(準備), 振る武器 DGoods\EFFECT_IronFan01.bmp Reload(4).wav
+仕込み鉄扇魔撃(準備), 振る武器 DGoods\EFFECT_IronFan02.bmp Reload(4).wav
+仕込み鉄扇魔撃(攻撃), タックル Whiz.wav;@戦闘アニメ_フェイスアップ準備 トゥスクル皇ハクオロ -.wav;斬撃 Saber.wav
+仕込み鉄扇魔撃(命中), 打撃 Whip.wav;打撃 Whip.wav;連斬撃 Slash.wav;連斬撃 Slash.wav;連突 Slash.wav;円弧斬撃 Saber.wav;@戦闘アニメ_オーラ上昇準備 白 Charge.wav 対象ユニットＩＤ;超爆発 Explode(Nuclear).wav
+仕込み鉄扇魔撃(命中), 打撃 Whip.wav;打撃 Whip.wav;連斬撃 Slash.wav;連斬撃 Slash.wav;連突 Slash.wav;円弧斬撃 Saber.wav;@戦闘アニメ_オーラ上昇準備 白 Charge.wav 対象ユニットＩＤ;旋風 Storm.wav
+仕込み鉄扇魔撃(命中), 打撃 Whip.wav;打撃 Whip.wav;連斬撃 Slash.wav;連斬撃 Slash.wav;連突 Slash.wav;円弧斬撃 Saber.wav;@戦闘アニメ_オーラ上昇準備 白 Charge.wav 対象ユニットＩＤ;大落雷 相手ユニットＩＤ
+仕込み鉄扇魔撃(命中), 打撃 Whip.wav;打撃 Whip.wav;連斬撃 Slash.wav;連斬撃 Slash.wav;連突 Slash.wav;円弧斬撃 Saber.wav;@戦闘アニメ_オーラ上昇準備 白 Charge.wav 対象ユニットＩＤ;@戦闘アニメ_隕石攻撃 Beam.wav;ダメージ Crash.wav
+風牙の陣(準備), オーラ上昇 青 Charge.wav;@戦闘アニメ_フェイスアップ準備 トゥスクル皇ハクオロ Charge.wav;@戦闘アニメ_フェイスアップ準備 歩兵衆オボロ Charge.wav
+風牙の陣(攻撃), 旋風 Storm.wav;タックル Partner(1) Whiz.wav;タックル Partner(1) Whiz.wav;タックル Partner(1) Whiz.wav;タックル Partner(1) Whiz.wav
+風牙の陣(命中), 旋風 Storm.wav;振り上げ Slash.wav;振り下ろし Slash.wav;連斬撃 Slash.wav;連斬撃 Slash.wav;連突 Slash.wav;円弧斬撃 Saber.wav
+
+
+トゥスクル皇ハクオロ(白き神)
+テレポート, 連続描画 Anime\Effect\EFFECT_TelePort(Black)[01-03].bmp 80 3.6 1 LaserGun.wav
+灼熱の炎(準備), 粒子集中 赤 Charge.wav
+灼熱の炎(攻撃), 火炎放射 赤 Breath.wav
+灼熱の炎(命中), 火炎放射 赤 Explode(1).wav
+分子分解(準備), 粒子集中 黒 Charge.wav
+分子分解(攻撃), 円弧斬撃 Saber.wav
+分子分解(命中), 大炎斬撃 黒 Sword.wav;フラッシュ 黒 Charge(High).wav
+分子分解(とどめ), @戦闘アニメ_光圧縮命中 黒 Charge(High).wav;音再生 Inori.wav
+巨大な爪(攻撃), 円弧斬撃 Saber.wav
+巨大な爪(命中), 大炎斬撃 黒 Sword.wav
+巨大な爪(とどめ), 縦分割 Inori.wav
+巨大な爪(とどめ), 横分割 Inori.wav
+光を飲み乾す咆哮(準備), 光圧縮 黒 Roar.wav
+光を飲み乾す咆哮(攻撃), 粒子集中 黒 Charge.wav 対象ユニットＩＤ;@戦闘アニメ_フェイスアップ準備 トゥスクル皇ハクオロ(空蝉) -.wav;@戦闘アニメ_光大噴出準備 黒 Breath.wav
+光を飲み乾す咆哮(命中), 大光柱 黒 Explode(1).wav
+空間爆砕(準備), 光圧縮 黒 Roar.wav
+空間爆砕(攻撃), 粒子集中 黒 Charge(High).wav 対象ユニットＩＤ;@戦闘アニメ_降下アップ準備 LFUM_Hakuoro(TrueFigure).bmp -.wav;@戦闘アニメ_降下アップ終了準備 LFUM_Hakuoro(TrueFigure).bmp -.wav;@戦闘アニメ_光圧縮命中 黒 Beam.wav
+空間爆砕(命中), 連続描画 Anime\Explode\EFFECT_SuperExplode[01-12].gif 160 3.6 5 HyperExplode.wav
+
+
+薬師エルルゥ
+トゥスクルの薬術(発動), 回復魔法泡
+ヤーナゥン・カミの恵み(発動), 粒子集中 白 Charge.wav;@戦闘アニメ_フェイスアップ準備 薬師エルルゥ -.wav;@戦闘アニメ_フラッシュ攻撃 白 -.wav;@戦闘アニメ_光圧縮命中 白 Sharara.wav
+ヤツモロロの薬湯(発動), 飛沫 白 Bubble.wav
+フミルィルの蜜(発動), 粒子集中 白 Sharara.wav
+カプマゥの煎薬(発動), 回復魔法
+薬湯撒布(準備), @戦闘アニメ_フェイスアップ準備 薬師エルルゥ Charge.wav;@戦闘アニメ_フェイスアップ準備 森の母アルルゥ Charge.wav;@戦闘アニメ_急降下攻撃 Whiz.wav Partner(1)
+薬湯撒布(発動), 飛沫 白 Sharara.wav
+
+
+森の母アルルゥと森の主ムックル
+咆哮(攻撃), フラッシュ 黒 Roar.wav
+咆哮(命中), 光圧縮 黒 Roar.wav
+ガチャタラの雷光(準備), しもべ LFUM_GatyataraU.bmp 32 発光 効果音
+ガチャタラの雷光(攻撃), @戦闘アニメ_フェイスアップ準備 聖獣ガチャタラ -.wav;実弾発射 LFUM_GatyataraU.bmp 32 Beam.wav
+ガチャタラの雷光(命中), 大電撃 青
+爪撃(攻撃), タックル Whiz.wav
+爪撃(命中), 爪撃 白 連続 Slash.wav
+咬み付き(攻撃), タックル Whiz.wav
+咬み付き(命中), 噛み付き Sword.wav
+咬み付き(命中), 超打 Crash.wav
+聖獣の鳴動(準備), しもべ LFUM_GatyataraU.bmp 32 発光 -.wav
+聖獣の鳴動(攻撃), 実弾発射 LFUM_GatyataraU.bmp 32 Beam.wav;@戦闘アニメ_フェイスアップ準備 森の母アルルゥ -.wav;旋風 Storm.wav
+聖獣の鳴動(命中), 旋風 Storm.wav;@戦闘アニメ_タックル攻撃 Whiz.wav;超打 Crash.wav;@戦闘アニメ_タックル攻撃 Whiz.wav;超打 Crash.wav;@戦闘アニメ_フェイスアップ準備 森の主ムックル Roar.wav;@戦闘アニメ_急降下攻撃 Whiz.wav;急降下 Crash.wav
+ムックル悶絶爆炎弾(準備), 粒子集中 Partner(1) Charge.wav;炎 赤 Fire.wav
+ムックル悶絶爆炎弾(攻撃), @戦闘アニメ_フェイスアップ準備 森の母アルルゥ Charge.wav;@戦闘アニメ_フェイスアップ準備 オンカミヤムカイ皇女カミュ Charge.wav;スーパータックル 赤 MicroMissile.wav
+ムックル悶絶爆炎弾(命中), 超ビーム 赤 MicroMissile.wav
+
+
+ヤマユラの民テオロ
+大斧(攻撃), タックル Whiz.wav;振り下ろし
+大斧(命中), 斬撃
+会心の技(斧)(攻撃), タックル Whiz.wav
+会心の技(斧)(命中), 大斬撃 Crash.wav
+会心の技(斧)(命中), 横大斬撃 Crash.wav
+会心の技(斧)(命中), 唐竹割り Crash.wav
+会心の技(斧)(命中), 振り上げ大斬撃 Crash.wav
+大旋風(攻撃), 斬撃乱舞 Saber.wav;@戦闘アニメ_フェイスアップ準備 ヤマユラの民テオロ -.wav;旋風 Storm.wav 黒
+大旋風(命中), 超斬撃 Crash.wav
+
+
+歩兵衆オボロ
+ジャンプ, @戦闘アニメ_急降下攻撃 Whiz.wav
+弐刀流(攻撃), 脇差 Whiz.wav 二刀流;連斬撃
+弐刀流(命中), 連斬撃
+弐刀流連撃(攻撃), 脇差 Whiz.wav 二刀流;連斬撃
+弐刀流連撃(命中), 連斬撃;連斬撃
+火神連撃(準備), 脇差 二刀流 Reload(4).wav;粒子集中 赤 Fire.wav
+火神連撃(攻撃), 脇差 Whiz.wav 二刀流;連斬撃
+火神連撃(命中), @戦闘アニメ_フェイスアップ準備 歩兵衆オボロ -.wav;斬撃乱舞;@戦闘アニメ_アッパー攻撃;振り上げ;超アッパー Explode.wav;超爆発 HyperExplode.wav
+影縫い発破(準備), 同時粒子集中 "色=赤=青=青" Charge.wav
+影縫い発破(攻撃), 矢連射 Partner(1) Swing(2).wav;矢連射 Partner(2) Swing(2).wav;矢連射 Partner(1) Swing(2).wav;矢連射 Partner(2) Swing(2).wav;透明化 対象ユニット ＩＤ;急降下 Beam.wav
+影縫い発破(命中), ディレイ Bow.wav 5;@戦闘アニメ_打ち下ろし攻撃 Anime\Bullet\EFFECT_Arrow04.bmp FastGun.wav;@戦闘アニメ_打ち下ろし攻撃 Anime\Bullet\EFFECT_Arrow04.bmp FastGun.wav;急降下 -.wav;光大噴出 赤 HyperExplode.wav;@戦闘アニメ_透明化攻撃 解除
+
+
+弓衆ドリィ
+影縫いの雨(準備), 和弓 Reload(5).wav;和弓 Partner(1) Reload(5).wav
+影縫いの雨(攻撃), 矢連射 Swing(2).wav;矢連射 Partner(1) Swing(2).wav;矢連射 Swing(2).wav;矢連射 Partner(1) Swing(2).wav
+影縫いの雨(命中), @戦闘アニメ_打ち下ろし攻撃 Anime\Bullet\EFFECT_Arrow04.bmp FastGun.wav;@戦闘アニメ_打ち下ろし攻撃 Anime\Bullet\EFFECT_Arrow04.bmp FastGun.wav;乱打 FastGun.wav
+和弓(準備), 和弓 Reload(5).wav
+和弓(攻撃), 和弓 Bow.wav
+和弓(命中), 刺突 Stab.wav
+弐連狙撃(準備), 和弓 Reload(5).wav
+弐連狙撃(攻撃), 和弓 Bow.wav;和弓 Bow.wav
+弐連狙撃(命中), 刺突 Stab.wav;刺突 Stab.wav
+内に眠りし風神(準備), 和弓 Reload(5).wav
+内に眠りし風神(攻撃), @戦闘アニメ_フェイスアップ準備 弓衆ドリィ -.wav;和弓 Swing(2).wav
+内に眠りし風神(命中), 刺突 Slash.wav;Slash.wav;Slash.wav;Slash.wav;Slash.wav;乱突 Slash.wav;Slash.wav;Slash.wav;Slash.wav;Slash.wav;乱突 Slash.wav
+無限の愛(準備), 和弓 Reload(5).wav;和弓 Partner(1) Reload(5).wav
+無限の愛(攻撃), @戦闘アニメ_フェイスアップ準備 弓衆ドリィ -.wav;Swing(2).wav;Swing(2).wav;Swing(2).wav;和弓連射 Swing(2).wav;@戦闘アニメ_フェイスアップ準備 弓衆グラァ -.wav;Swing(2).wav;Swing(2).wav;Swing(2).wav;和弓連射 Swing(2).wav Partner(1) Swing(2).wav
+無限の愛(命中), Slash.wav;Slash.wav;Slash.wav;乱突 Slash.wav
+
+
+弓衆グラァ
+影縫いの雨(準備), 和弓 Reload(5).wav;和弓 Partner(1) Reload(5).wav
+影縫いの雨(攻撃), 矢連射 Swing(2).wav;矢連射 Partner(1) Swing(2).wav;矢連射 Swing(2).wav;矢連射 Partner(1) Swing(2).wav
+影縫いの雨(命中), @戦闘アニメ_打ち下ろし攻撃 Anime\Bullet\EFFECT_Arrow04.bmp FastGun.wav;@戦闘アニメ_打ち下ろし攻撃 Anime\Bullet\EFFECT_Arrow04.bmp FastGun.wav;乱打 FastGun.wav
+和弓(攻撃), 和弓 Reload(4).wav
+和弓(命中), 刺突 Stab.wav
+曲撃ち(攻撃), 和弓 Reload(4).wav
+曲撃ち(命中), 刺突 Stab.wav
+赤く染まりし雨(準備), 和弓 Reload(4).wav
+赤く染まりし雨(攻撃), 矢連射 Swing(2).wav;矢連射 Swing(2).wav
+赤く染まりし雨(命中), @戦闘アニメ_フェイスアップ準備 弓衆グラァ -.wav;@戦闘アニメ_打ち下ろし攻撃 Anime\Bullet\EFFECT_Arrow04.bmp FastGun.wav;@戦闘アニメ_打ち下ろし攻撃 Anime\Bullet\EFFECT_Arrow04.bmp FastGun.wav;乱打 FastGun.wav
+天駆ける流星(準備), 和弓 Reload(5).wav;和弓 Partner(1) Reload(5).wav
+天駆ける流星(攻撃), 矢連射 Swing(2).wav;矢連射 Partner(1) Swing(2).wav;矢連射 Swing(2).wav;矢連射 Partner(1) Swing(2).wav
+天駆ける流星(命中), @戦闘アニメ_打ち下ろし攻撃 Anime\Bullet\EFFECT_Arrow04.bmp FastGun.wav;@戦闘アニメ_打ち下ろし攻撃 Anime\Bullet\EFFECT_Arrow04.bmp FastGun.wav;@戦闘アニメ_打ち下ろし攻撃 Anime\Bullet\EFFECT_Arrow04.bmp FastGun.wav;乱打 FastGun.wav
+
+
+騎兵衆ベナウィ
+槍術(ベナウィ)(準備), 十字槍 Reload(5).wav
+槍術(ベナウィ)(攻撃), 白兵連撃
+槍術(ベナウィ)(命中), 連斬撃 Slash.wav;連突 Slash.wav
+突撃(ベナウィ)(準備), 十字槍 Reload(5).wav
+突撃(ベナウィ)(攻撃), 十字槍突撃
+突撃(ベナウィ)(命中), 連斬撃 Slash.wav;連突 Slash.wav
+貫通の技(ベナウィ)(準備), 十字槍 Reload(5).wav
+貫通の技(ベナウィ)(攻撃), 十字槍突撃
+貫通の技(ベナウィ)(命中), 連斬撃 Slash.wav;連突 Slash.wav
+会心の技(ベナウィ)(準備), 十字槍 Reload(5).wav
+会心の技(ベナウィ)(攻撃), 十字槍突撃
+会心の技(ベナウィ)(命中), 急降下 -.wav;大刺突 Crash.wav
+会心の技(ベナウィ)(命中), 連斬撃 Slash.wav;連突 Slash.wav;刺突突撃 Saber.wav
+会心の技(ベナウィ)(命中), 連斬撃 Slash.wav;連突 Slash.wav;Saber.wav;@戦闘アニメ_投げ飛ばし命中 Crash.wav
+会心の技(ベナウィ)(命中), Swing.wav;Swing.wavSwing.wav;@戦闘アニメ_振り回し攻撃 Weapon\EFFECT_CrossSpear01.bmp 48 Swing.wav;唐竹割り Crash.wav
+奥義・雷獣槍(準備), 光圧縮 白 Charge(High).wav;十字槍 Reload(5).wav
+奥義・雷獣槍(攻撃), 十字槍突撃
+奥義・雷獣槍(命中), 連斬撃 Slash.wav;連突 Slash.wav;@戦闘アニメ_フェイスアップ準備 騎兵衆ベナウィ Charge.wav;@戦闘アニメ_タックル攻撃 Saber.wav;超打 Crash.wav;@戦闘アニメ_タックル攻撃 Saber.wav;超打 Crash.wav;@戦闘アニメ_タックル攻撃 Saber.wav;超打 Crash.wav;Swing.wav;Swing.wavSwing.wav;@戦闘アニメ_振り回し攻撃 Weapon\EFFECT_CrossSpear01.bmp 48 Swing.wav;大落雷 相手ユニットＩＤ;超爆発 HyperExplode.wav
+我らが心に曇りなし(準備), -
+我らが心に曇りなし(攻撃), スーパータックル 青 Beam.wav;スーパータックル Partner(1) 青 Beam.wav
+我らが心に曇りなし(命中), @戦闘アニメ_フェイスアップ準備 騎兵衆ベナウィ Charge.wav;@戦闘アニメ_フェイスアップ準備 騎兵衆クロウ Charge.wav;同時スーパータックル 青 Explode.wav;同時スーパータックル 青 Explode.wav;同時スーパータックル 青 Explode.wav;連続描画 Anime\Explode\EFFECT_Explode[01-12].bmp 160 10 1 HyperExplode.wav
+
+
+騎兵衆クロウ
+野太刀(準備), 野太刀 Reload(5).wav
+野太刀(攻撃), 野太刀突撃
+野太刀(命中), 連斬撃 Slash.wav;大斬撃 Saber.wav
+突撃(クロウ)(準備), 野太刀 Reload(5).wav
+突撃(クロウ)(攻撃), 野太刀突撃
+突撃(クロウ)(命中), 連斬撃 Slash.wav;大斬撃 Saber.wav
+烈火の技(クロウ)(準備), 野太刀 Reload(5).wav
+烈火の技(クロウ)(攻撃), 野太刀突撃
+烈火の技(クロウ)(命中), 超打 Crash.wav
+烈火の技(クロウ)(命中), 連斬撃 Slash.wav;大斬撃 Saber.wav;斬撃突撃 Saber.wav
+奥義・龍神斬(準備), 光圧縮 橙 Charge(High).wav;野太刀 Reload(5).wav
+奥義・龍神斬(攻撃), 野太刀突撃
+奥義・龍神斬(命中), @戦闘アニメ_フェイスアップ準備 騎兵衆クロウ Charge.wav;刺突 Slash.wav;連突 Slash.wav;大刺突 Crash.wav;大刺突 Crash.wav;刺突突撃 Saber.wav;連続描画 Anime\Explode\EFFECT_Explode[01-12].bmp 160 10 1 HyperExplode.wav
+漢の花道(準備), 同時粒子集中 "色=橙=赤" Charge.wav
+漢の花道(攻撃), 同時スーパータックル "色=橙=赤"
+漢の花道(命中), @戦闘アニメ_フェイスアップ準備 騎兵衆クロウ Charge.wav;@戦闘アニメ_フェイスアップ準備 歩兵衆オボロ Charge.wav;同時スーパータックル "色=橙=赤";同時斬撃乱舞
+
+
+剣奴カルラゥアツゥレイ
+格闘(攻撃), タックル Whiz.wav
+格闘(命中), 超打 WarShip.wav
+石飛礫(攻撃), 石
+石飛礫(命中), 超打 WarShip.wav
+超重量太刀(準備), 振る武器 "Weapon\EFFECT_GiantSword02.bmp" 56 Reload(5).wav
+超重量太刀(攻撃), 振る武器突撃 "Weapon\EFFECT_GiantSword02.bmp" 56 Whiz.wav
+超重量太刀(命中), 大斬撃 Crash.wav
+超重量太刀(命中), 横大斬撃 Crash.wav
+超重量太刀(命中), 唐竹割り Crash.wav
+超重量太刀(命中), 振り上げ大斬撃 Crash.wav
+超重量太刀(命中), 超斬撃 Crash.wav
+会心の技(カルラ)(準備), 振る武器 "Weapon\EFFECT_GiantSword02.bmp" 56 Reload(5).wav
+会心の技(カルラ)(攻撃), 振る武器突撃 "Weapon\EFFECT_GiantSword02.bmp" 56 Whiz.wav;円弧斬撃 Saber.wav
+会心の技(カルラ)(命中), 大炎斬撃 黒 Crash.wav
+会心の技(カルラ)(命中), 振り上げ大炎斬撃 黒 Crash.wav
+会心の技(カルラ)(命中), 回転大炎斬撃 黒 Crash.wav
+会心の技(カルラ)(命中), なぎ払い大炎斬撃 黒 Crash.wav
+爆熱の太刀(準備), 振る武器 "Weapon\EFFECT_GiantSword02.bmp" 56 Reload(5).wav
+爆熱の太刀(攻撃), 粒子集中 赤 Charge(High).wav 対象ユニットＩＤ;@戦闘アニメ_フェイスアップ準備 剣奴カルラゥアツゥレイ Charge.wav;@戦闘アニメ_大炎斬撃命中 Saber.wav
+爆熱の太刀(命中), 8;光大噴出 赤 HyperExplode.wav 相手ユニットＩＤ
+力と技(準備), 同時粒子集中 "色=赤=白" Charge.wav
+力と技(攻撃), @戦闘アニメ_フェイスアップ準備 剣奴カルラゥアツゥレイ Charge.wav;@戦闘アニメ_フェイスアップ準備 エヴェンクルガの戦士トウカ Charge.wav;Clear;急降下
+力と技(命中), 急降下;地面衝撃 -.wav;超爆発;スーパータックル 白 Partner(1) Whiz.wav;なぎ払い Sword.wav;振り上げ Sword.wav;振り下ろし Sword.wav;斬撃 Sword.wav;ディレイ 5;超打 WarShip.wav
+
+
+エヴェンクルガの戦士トウカ
+居合抜き(攻撃), タックル Whiz.wav;斬撃
+居合抜き(命中), 斬撃 Slash.wav
+弐連抜刀術(攻撃), タックル Whiz.wav;なぎ払い;振り上げ;振り下ろし;斬撃
+弐連抜刀術(命中), なぎ払い;振り上げ;振り下ろし;斬撃
+会心の技(トウカ)(攻撃), タックル Whiz.wav;なぎ払い;振り上げ;振り下ろし;斬撃
+会心の技(トウカ)(命中), 横大斬撃;振り上げ大斬撃;唐竹割り;大斬撃
+疾風殺(準備), 粒子集中 青 Charge.wav
+疾風殺(攻撃), @戦闘アニメ_フェイスアップ準備 エヴェンクルガの戦士トウカ Charge.wav;@戦闘アニメ_転移 白 Beam.wav;透明化
+疾風殺(命中), White.bmp 480 480 - -;Slash(4).wav;ディレイ 0.2;Clear;ディレイ 5;White.bmp 480 480 - -;Slash(4).wav;ディレイ 0.2;Clear;ディレイ 1;White.bmp 480 480 - -;Slash(4).wav;ディレイ 0.2;Clear;ディレイ 3;White.bmp 480 480 - -;Slash(4).wav;ディレイ 0.2;Clear;ディレイ 3;@戦闘アニメ_透明化攻撃 解除;ディレイ 3;地面衝撃 黒 WarShip.wav
+迅雷殺(準備), 同時粒子集中 "色=青=白" Charge(Long).wav
+迅雷殺(攻撃), スーパータックル 白 Beam.wav;透明化
+迅雷殺(命中), White.bmp 480 480 - -;Slash(4).wav;ディレイ 0.2;Clear;ディレイ 5;White.bmp 480 480 - -;Slash(4).wav;ディレイ 0.2;Clear;ディレイ 1;White.bmp 480 480 - -;Slash(4).wav;ディレイ 0.2;Clear;ディレイ 1;White.bmp 480 480 - -;Slash(4).wav;ディレイ 0.2;Clear;ディレイ 1;White.bmp 480 480 - -;Slash(4).wav;ディレイ 0.2;Clear;ディレイ 1;White.bmp 480 480 - -;Slash(4).wav;ディレイ 0.2;Clear;ディレイ 1;@戦闘アニメ_透明化 解除;@戦闘アニメ_フェイスアップ準備 森の母アルルゥ Charge.wav;大落雷 Beam.wav;超爆発 Explode(Nuclear).wav
+
+
+オンカミヤムカイ皇女ウルトリィ
+刃の術法(準備), エナジーカッター BeamSaber.wav
+刃の術法(攻撃), エナジーカッター突撃 赤
+刃の術法(命中), ビームナイフ Stab.wav
+風の術法(攻撃), 魔法陣 緑 Charge(Long).wav 対象ユニットＩＤ
+風の術法(命中), 旋風
+水の術法(攻撃), 魔法陣 青 Charge(Long).wav 対象ユニットＩＤ
+水の術法(命中), 大落雷
+光の術法(準備), 粒子集中 白 Charge.wav
+光の術法(攻撃), 魔法陣 白 Roar.wav;超ビーム 白 電撃 Breath.wav
+光の術法(命中), 超ビーム 白 Explode(1).wav
+常世に誘う花の舞(準備), 振る武器 Partner(1) "Weapon\EFFECT_GiantSword02.bmp" 56 Reload(5).wav
+常世に誘う花の舞(攻撃), 大落雷 Partner(1) Beam.wav;大炎斬撃 青 Saber.wav Partner(1)
+常世に誘う花の舞(命中), 光圧縮 白 Beam.wav;超爆発 Explode(Nuclear).wav;光大噴出 青 HyperExplode.wav
+
+オンカミヤムカイ皇女カミュ
+爪の術法(準備), エナジーカッター 赤 BeamSaber.wav
+爪の術法(攻撃), エナジーカッター突撃 赤
+刃の術法(命中), ビームナイフ Slash.wav
+土の術法(攻撃), 魔法陣 橙 Charge(Long).wav 対象ユニットＩＤ
+土の術法(命中), @戦闘アニメ_隕石攻撃 Beam.wav;爆発
+炎の術法(攻撃), 魔法陣 赤 Charge(Long).wav 対象ユニットＩＤ
+炎の術法(命中), 大爆発
+闇の術法(準備), 粒子集中 黒 Charge.wav
+闇の術法(攻撃), 魔法陣 黒 Roar.wav;超ビーム 黒 電撃 Breath.wav
+闇の術法(命中), 超ビーム 黒 Explode(1).wav
+光と闇の術法(準備), 粒子集中 白 Charge.wav Partner(1);粒子集中 黒 Charge.wav
+光と闇の術法(攻撃), 魔法陣 白 Roar.wav Partner(1);魔法陣 黒 Roar.wav;超ビーム 白 電撃 Breath.wav Partner(1);超ビーム 黒 電撃 Breath.wav
+光と闇の術法(命中), 超ビーム 白 Explode(1).wav;超ビーム 黒 Explode(1).wav
+
+
+########## ########## ########## ########## ########## ########## ########## ########## ########## ##########
+
+
+うたわれるもの
+隠し刃(攻撃), タックル;斬撃
+隠し刃(命中), 爪撃 Slash.wav;爪撃 Slash.wav
+滅多斬り(ササンテ)(攻撃), タックル;連斬撃 Saber.wav
+滅多斬り(ササンテ)(命中), 斬撃乱舞 Slash.wav
+大回転爆破(準備), 粒子集中 赤
+大回転爆破(攻撃), @戦闘アニメ_フェイスアップ準備 ケナシコウルペ皇族ササンテ Charge(High).wav;Clear;スピンアタック 赤;光大噴出 赤 Explode(Nuclear).wav
+大回転爆破(命中), 大爆発
+鉈(準備), 大鉈
+鉈(攻撃), 大鉈突撃;斬撃
+鉈(命中), 斬撃
+滅多斬り(ヌワンギ)(準備), 大鉈
+滅多斬り(ヌワンギ)(攻撃), 大鉈突撃;斬撃
+滅多斬り(ヌワンギ)(命中), 斬撃乱舞
+鞭(準備), 鞭
+鞭(攻撃), 鞭突撃;斬撃
+鞭(命中), 打撃 Whip.wav;打撃 Whip.wav;打撃 Whip.wav
+刃の術法(準備), エナジーカッター BeamSaber.wav
+刃の術法(攻撃), エナジーカッター突撃 赤
+刃の術法(命中), ビームナイフ Stab.wav
+水の術法(攻撃), 魔法陣 青 Charge(Long).wav 対象ユニットＩＤ
+水の術法(命中), 大落雷
+汚物(攻撃), 斬撃;光弾 橙 Whiz.wav
+汚物(命中), 飛沫 橙 Scream(Man).wav
+跳び蹴り(攻撃), タックル
+跳び蹴り(命中), 打撃 Punch.wav
+引っかき(攻撃), タックル
+引っかき(命中), 爪撃 Slash.wav
+跳躍斬り(準備), 青龍偃月刀(２) Reload(5).wav
+跳躍斬り(攻撃), 青龍偃月刀突撃(２)
+跳躍斬り(命中), @戦闘アニメ_急降下攻撃;唐竹割り Crash.wav
+薙刀(準備), 青龍偃月刀(２) Reload(5).wav
+薙刀(攻撃), 青龍偃月刀突撃(２);斬撃
+薙刀(命中), 大斬撃
+豪風斬(準備), 青龍偃月刀(２) Reload(5).wav
+豪風斬(攻撃), 斬撃乱舞 Saber.wav;@戦闘アニメ_フェイスアップ準備 シケリペチム皇ニウェ Charge(High).wav;Clear;旋風 Storm.wav
+豪風斬(命中), 旋風 Storm.wav
+突撃(オリカカン)(準備), メイス Reload(5).wav
+突撃(オリカカン)(攻撃), メイス突撃
+突撃(オリカカン)(命中), 連打 Bazooka.wav
+鉄棍(準備), メイス Reload(5).wav
+鉄棍(攻撃), メイス突撃
+鉄棍(命中), 連打 Bazooka.wav
+紫雷陣(準備), 粒子集中 黄 Charge.wav
+紫雷陣(攻撃), 大落雷 Beam.wav;@戦闘アニメ_フェイスアップ準備 クッチャ・ケッチャ皇オリカカン Charge(High).wav;Clear
+紫雷陣(命中), 光大噴出 青 Explode(Nuclear).wav
+苦無(準備), クナイ
+苦無(攻撃), 連斬撃;斬撃
+苦無(命中), 連突 Slash.wav
+雷神の鉄槌(準備), @戦闘アニメ_オーラ上昇準備 黄 Fire.wav
+雷神の鉄槌(攻撃), 連斬撃;斬撃;@戦闘アニメ_フェイスアップ準備 ナ・トゥンク皇スオンカス Charge(High).wav;Clear
+雷神の鉄槌(命中), 大放電 MicroMissile.wav
+体術(攻撃), タックル
+体術(命中), 打撃 Bazooka.wav;ディレイ 2;打撃 Whip.wav;ディレイ 1;打撃 WarShip.wav
+体術(命中), @戦闘アニメ_急降下攻撃;打撃 Sword.wav
+鉤棍(準備), トンファー 二刀流 Reload(4).wav
+鉤棍(攻撃), トンファー突撃 二刀流;なぎ払い
+鉤棍(命中), 超打 Crash.wav
+鉤棍(命中), 打撃 Bazooka.wav;ディレイ 2;打撃 Bazooka.wav;ディレイ 1;打撃 Bazooka.wav
+灼熱の拳(準備), 粒子集中 赤 EvilEye.wav;トンファー 二刀流 Reload(4).wav
+灼熱の拳(攻撃), トンファー突撃 二刀流;@戦闘アニメ_フェイスアップ準備 カルラゥアツゥレイ皇デリホウライ Charge(High).wav;Clear;連続なぎ払い
+灼熱の拳(命中), 打撃 Bazooka.wav;ディレイ 2;打撃 Bazooka.wav;ディレイ 1;打撃 Bazooka.wav;連打 Bazooka.wav;連打 Bazooka.wav;連打 Bazooka.wav;超打 Crash.wav;ディレイ 10;連続描画 Anime\Explode\EFFECT_SuperExplode[01-12].gif 120 3.6 1 HyperExplode.wav
+灼熱の加護(発動), 炎 Fire.wav;ディレイ 5;@戦闘アニメ_光大噴出命中 赤 Explode(Nuclear).wav
+大剣(準備), 巨大剣 Reload(5).wav
+大剣(攻撃), 巨大剣突撃;斬撃
+大剣(命中), 大斬撃
+烈火の技(準備), 巨大剣 Reload(5).wav
+烈火の技(攻撃), 巨大剣突撃;円弧斬撃 黒 Saber.wav
+烈火の技(命中), 超打 Crash.wav
+大地を駆ける爆炎(準備), 巨大剣 Reload(5).wav;粒子集中 赤 Fire.wav
+大地を駆ける爆炎(攻撃), なぎ払い Swing.wav;@戦闘アニメ_フェイスアップ準備 ノセシェチカ皇カンホルダリ Charge(High).wav;Clear;ＭＡＰ地表衝撃波 赤 MicroMissile.wav
+大地を駆ける爆炎(命中), 超爆発 赤 HyperExplode.wav
+
+
+########## ########## ########## ########## ########## ########## ########## ########## ########## ##########
+# 弐連と四連のアニメが同じなのは仕様です。
+# 抜き出して使いやすいようにゲンジマルのところにもトウカと同じアニメを入れておきます。
+
+
+うたわれるもの
+巨剣(準備), 巨大剣 Reload(5).wav
+巨剣(攻撃), 斬撃 Saber.wav
+巨剣(命中), 超打 Crash.wav
+光を放つ斬撃(準備), 巨大剣 Reload(5).wav;粒子集中 白 Charge.wav
+光を放つ斬撃(攻撃), @戦闘アニメ_フェイスアップ準備 アムルリネウルカ＝クーヤ Charge(High).wav;Clear;ディレイ 2;円弧斬撃 白 Saber.wav;ディレイ 2;超火炎放射 白 MicroMissile.wav
+光を放つ斬撃(命中), 超火炎放射 白 MicroMissile.wav
+居合抜き(攻撃), タックル Whiz.wav;斬撃
+居合抜き(命中), 斬撃 Slash.wav
+弐連抜刀術(攻撃), タックル Whiz.wav;なぎ払い;振り上げ;振り下ろし;斬撃
+弐連抜刀術(命中), なぎ払い;振り上げ;振り下ろし;斬撃
+四連抜刀術(攻撃), タックル Whiz.wav;なぎ払い;振り上げ;振り下ろし;斬撃
+四連抜刀術(命中), なぎ払い;振り上げ;振り下ろし;斬撃
+滅の波陣(準備), 粒子集中 黒 Charge.wav
+滅の波陣(攻撃), @戦闘アニメ_フェイスアップ準備 エヴェンクルガの戦士ゲンジマル Charge(High).wav;Clear
+滅の波陣(命中), Black.bmp 480 480 - - BeamShot.wav;ディレイ 10;ディレイ Sword.wav 4;ディレイ Sword.wav 1;ディレイ Sword.wav 1;ディレイ Sword.wav 1;ディレイ 5;Clear;ディレイ 5;地面衝撃 黒 WarShip.wav;超打 -.wav
+巨刀(準備), 振る武器 "Weapon\EFFECT_GiantSword02.bmp" 56 Reload(5).wav
+巨刀(攻撃), 斬撃 Saber.wav
+巨刀(命中), 超打 Sword.wav
+会心の技(ヒエン)(準備), 振る武器 "Weapon\EFFECT_GiantSword02.bmp" 56 Reload(5).wav
+会心の技(ヒエン)(攻撃), 振る武器突撃 "Weapon\EFFECT_GiantSword02.bmp" 56 Whiz.wav;円弧斬撃 Saber.wav
+会心の技(ヒエン)(命中), 大炎斬撃 黒 Sword.wav
+会心の技(ヒエン)(命中), 振り上げ大炎斬撃 黒 Sword.wav
+会心の技(ヒエン)(命中), 回転大炎斬撃 黒 Sword.wav
+会心の技(ヒエン)(命中), なぎ払い大炎斬撃 黒 Sword.wav
+砕の波陣(準備), 粒子集中 黒 Charge.wav
+砕の波陣(攻撃), @戦闘アニメ_フェイスアップ準備 左大将ヒエン Charge(High).wav;Clear;Black.bmp 480 480 - - BeamShot.wav;ディレイ 10;ディレイ Sword.wav 4;ディレイ Sword.wav 1;ディレイ Sword.wav 1;ディレイ Sword.wav 1;ディレイ 5;Clear;ディレイ 5
+砕の波陣(命中), 地面衝撃 黒 WarShip.wav;超打 -.wav
+巨爪(攻撃), 円弧斬撃 Saber.wav
+巨爪(命中), 大炎斬撃 赤 Crash.wav
+巨爪(命中), 振り上げ大炎斬撃 赤 Crash.wav
+巨爪(命中), 回転大炎斬撃 赤 Crash.wav
+巨爪(命中), なぎ払い大炎斬撃 赤 Crash.wav
+朱に輝く巨爪(準備), 粒子集中 赤 Fire.wav
+朱に輝く巨爪(攻撃), @戦闘アニメ_フェイスアップ準備 右大将ハウエンクア Charge(High).wav;Clear;ディレイ 2;円弧斬撃 赤 Saber.wav;ディレイ 2;波動放射 赤 MicroMissile.wav
+朱に輝く巨爪(命中), 大爆発 Explode(Far).wav
+両の巨爪(攻撃), 円弧斬撃 Saber.wav;円弧斬撃 Saber.wav
+両の巨爪(命中), 大炎斬撃 赤 Crash.wav;振り上げ大炎斬撃 赤 Crash.wav
+両の巨爪(命中), 回転大炎斬撃 赤 Crash.wav;なぎ払い大炎斬撃 赤 Crash.wav
+豪腕(攻撃), 斬撃 Saber.wav
+豪腕(命中), 強打 Crash.wav
+
+
+########## ########## ########## ########## ########## ########## ########## ########## ########## ##########
+# こちらにもいくつか被りがありますが意図的なものです。
+
+
+うたわれるもの
+巨腕(攻撃), 円弧斬撃 Saber.wav
+巨腕(命中), 大炎斬撃 黒 Sword.wav
+巨腕(命中), 超打 WarShip.wav
+巨腕(とどめ), 縦分割 Inori.wav
+巨腕(とどめ), 横分割 Inori.wav
+全てを無に帰す光(攻撃), 魔法陣 白 Roar.wav;巨大ビーム 白 Breath.wav
+全てを無に帰す光(命中), 巨大ビーム 白 Breath.wav
+バリアシールド(蒼光の障壁), バリア BeamCoat.wav 蒼光の障壁
+黒き枷(準備), 粒子集中 黒 -.wav
+黒き枷(攻撃), -.wav
+黒き枷(命中), 光圧縮 黒 -.wav;音再生 WarShip.wav;
+長剣(準備), 日本刀 Reload(4).wav
+長剣(攻撃), 日本刀突撃
+長剣(命中), 斬撃 Slash.wav
+剣閃(攻撃), スーパーダイブ
+剣閃(命中), 超斬撃 Sword.wav
+天より堕ちる閃光(準備), -
+天より堕ちる閃光(攻撃), 魔法陣 白 Roar.wav;全拡散ビーム 白 Breath.wav
+天より堕ちる閃光(命中), バスタービームランチャー 白 Explode(1).wav
+テレポート(空間転移), テレポート Whiz.wav 空間転移
+灼熱の炎(準備), 粒子集中 赤 Charge.wav
+灼熱の炎(攻撃), 火炎放射 赤 Breath.wav
+灼熱の炎(命中), 火炎放射 赤 Explode(1).wav
+分子分解(準備), 粒子集中 黒 Charge.wav
+分子分解(攻撃), 円弧斬撃 Saber.wav
+分子分解(命中), 大炎斬撃 黒 Sword.wav;フラッシュ 白 Charge(High).wav
+分子分解(とどめ), @戦闘アニメ_光圧縮命中 Charge(High).wav;音再生 Inori.wav
+巨大な爪(攻撃), 円弧斬撃 Saber.wav
+巨大な爪(命中), 大炎斬撃 黒 Sword.wav
+巨大な爪(とどめ), 縦分割 Inori.wav
+巨大な爪(とどめ), 横分割 Inori.wav
+朱尾を帯びた飛翔(準備), 光圧縮 黒 Roar.wav
+朱尾を帯びた飛翔(攻撃), @戦闘アニメ_オーラ上昇準備 黒 Charge.wav;@戦闘アニメ_フェイスアップ準備 哲学士ディー(黒き神) -.wav;急降下;スーパータックル 赤 MicroMissile.wav
+朱尾を帯びた飛翔(命中), バスタービームランチャー 赤 MicroMissile.wav
+空間爆砕(準備), 光圧縮 黒 Roar.wav
+空間爆砕(攻撃), 粒子集中 黒 Charge(High).wav 対象ユニットＩＤ;@戦闘アニメ_降下アップ準備 LFUM_Dhi(TrueFigure).bmp -.wav;@戦闘アニメ_降下アップ終了準備 LFUM_Dhi(TrueFigure).bmp -.wav;@戦闘アニメ_光圧縮命中 黒 Beam.wav
+空間爆砕(命中), 連続描画 Anime\Explode\EFFECT_SuperExplode[01-12].gif 160 3.6 5 HyperExplode.wav
+バリアシールド(蒼光の障壁), バリア BeamCoat.wav 蒼光の障壁
+光の剣(準備), ビームソード
+光の剣(攻撃), ビームソード突撃
+光の剣(命中), ビームソード突撃
+影の術法(準備), 振る武器 LFUM_MutsumiU.bmp BeamSaber.wav
+影の術法(攻撃), 実弾発射 LFUM_MutsumiU.bmp Whiz.wav;実弾発射 LFUM_MutsumiU.bmp Whiz.wav;実弾発射 LFUM_MutsumiU.bmp Whiz.wav;実弾発射 LFUM_MutsumiU.bmp Whiz.wav
+影の術法(命中), ライトセイバー
+分身攻撃(準備), 振る武器 LFUM_MutsumiU.bmp BeamSaber.wav
+分身攻撃(攻撃), 実弾発射 LFUM_MutsumiU.bmp Whiz.wav;実弾発射 LFUM_MutsumiU.bmp Whiz.wav;実弾発射 LFUM_MutsumiU.bmp Whiz.wav;実弾発射 LFUM_MutsumiU.bmp Whiz.wav
+分身攻撃(命中), ライトセイバー
+闇の術法(準備), 粒子集中 黒 Charge.wav
+闇の術法(攻撃), 魔法陣 黒 Roar.wav;超ビーム 黒 電撃 Breath.wav
+闇の術法(命中), 超ビーム 黒 Explode(1).wav
+薙撃(攻撃), 斬撃
+薙撃(攻撃), 振り上げ
+薙撃(攻撃), 振り下ろし
+薙撃(攻撃), なぎ払い
+薙撃(命中), 爪撃 Slash.wav
+死者の吐息(攻撃), 火炎放射 黒 Breath.wav
+死者の吐息(命中), 火炎放射 黒 Breath.wav
+粘体(攻撃), タックル
+粘体(命中), 飛沫 赤
+
+
+########## ########## ########## ########## ########## ########## ########## ########## ########## ##########
+
+
+うたわれるもの
+跳び蹴り(攻撃), タックル
+跳び蹴り(命中), 打撃 Punch.wav
+引っかき(攻撃), タックル
+引っかき(命中), 爪撃 Slash.wav
+咆哮(攻撃), フラッシュ Roar.wav
+咆哮(命中), 光圧縮 Roar.wav
+爪撃(攻撃), タックル Whiz.wav
+爪撃(命中), 爪撃 白 連続 Slash.wav
+咬み付き(攻撃), タックル Whiz.wav
+咬み付き(命中), 噛み付き 連続 Stab.wav
+超音波, 音波
+ミキュームの雷光(準備), しもべ LFUM_GatyataraU.bmp 32 発光 効果音
+ミキュームの雷光(攻撃), 実弾発射 LFUM_GatyataraU.bmp 32 Beam.wav
+ミキュームの雷光(命中), 大電撃 青
+太刀(準備), 日本刀 Reload(4).wav
+太刀(攻撃), 日本刀突撃
+太刀(命中), 斬撃 Slash.wav
+連続斬り(準備), 日本刀 Reload(4).wav
+連続斬り(攻撃), 日本刀突撃
+連続斬り(命中), 連斬撃 Slash.wav
+みね打ち(準備), 日本刀 Reload(4).wav
+みね打ち(攻撃), 日本刀突撃
+みね打ち(命中), ダメージ Punch.wav
+会心の技(太刀)(準備), 日本刀 Reload(4).wav
+会心の技(太刀)(攻撃), 日本刀突撃
+会心の技(太刀)(命中), 大斬撃 Saber.wav
+会心の技(太刀)(命中), 横大斬撃 Saber.wav
+会心の技(太刀)(命中), 唐竹割り Saber.wav
+会心の技(太刀)(命中), 振り上げ大斬撃 Saber.wav
+突撃(長槍)(準備), 和槍 Reload(4).wav
+突撃(長槍)(攻撃), 和槍突撃
+突撃(長槍)(命中), 刺突突撃
+長槍(準備), 和槍 Reload(4).wav
+長槍(攻撃), 和槍突撃
+長槍(命中), 刺突 Slash.wav
+長槍(命中), 刺突 Stab.wav
+長槍(命中), @戦闘アニメ_斬撃攻撃 Swing.wav;ダメージ Shock(Low).wav
+貫通の技(長槍)(準備), 和槍 Reload(4).wav
+貫通の技(長槍)(攻撃), 和槍突撃
+貫通の技(長槍)(命中), 大刺突 Sword.wav
+会心の技(長槍)(準備), 和槍 Reload(4).wav
+会心の技(長槍)(攻撃), 和槍突撃
+会心の技(長槍)(命中), 大刺突 Sword.wav
+毒矢(準備), 和弓 Reload(4).wav
+毒矢(攻撃), 和弓 Bow.wav
+毒矢(命中), 刺突 Stab.wav
+和弓(準備), 和弓 Reload(4).wav
+和弓(攻撃), 和弓 Bow.wav
+和弓(命中), 刺突 Stab.wav
+弐連狙撃(準備), 和弓 Reload(4).wav
+弐連狙撃(攻撃), 和弓 Bow.wav;和弓 Bow.wav
+弐連狙撃(命中), 刺突 Stab.wav;刺突 Stab.wav
+魔の術法(攻撃), 魔法陣 黄 Charge.wav 対象ユニットＩＤ
+魔の術法(命中), ダメージ BeamCoat.wav
+風の術法(攻撃), 魔法陣 緑 Charge(Long).wav 対象ユニットＩＤ
+風の術法(命中), 旋風
+水の術法(攻撃), 魔法陣 青 Charge(Long).wav 対象ユニットＩＤ
+水の術法(命中), 大落雷
+土の術法(攻撃), 魔法陣 橙 Charge(Long).wav 対象ユニットＩＤ
+土の術法(命中), @戦闘アニメ_隕石攻撃 Beam.wav;爆発
+炎の術法(攻撃), 魔法陣 赤 Charge(Long).wav 対象ユニットＩＤ
+炎の術法(命中), 大爆発
+飛矢(攻撃), 矢
+飛矢(命中), 刺突 Stab.wav
+闇の波動(攻撃), 魔法陣 黒 Charge(Long).wav 対象ユニットＩＤ;火炎放射 黒 Breath.wav
+闇の波動(命中), 火炎放射 黒 Breath.wav
+火炎放射(攻撃), 火炎放射 赤 Breath.wav
+火炎放射(命中), 火炎放射 赤 Breath.wav
+ハイパーモード(ハイパーデグカパ), オーラ上昇 青 Charge.wav

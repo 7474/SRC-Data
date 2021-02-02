@@ -1,0 +1,361 @@
+
+
+テムジン
+パワーボム(攻撃),                 石
+パワーボム(命中),                 超爆発 ライトブルー Explode.wav
+ソードウェーブ(準備),             射撃武器 Weapon\EFFECT_KnightLance01.bmp 48
+ソードウェーブ(攻撃),             横大斬撃 ライトブルー;実弾発射 Wind\EFFECT_WindCutter(LightBlue)01.bmp
+ソードウェーブ(命中),             ダメージ ライトブルー
+ニュートラル・ランチャー(準備),   射撃武器 Weapon\EFFECT_KnightLance01.bmp 48
+ニュートラル・ランチャー(攻撃),   射撃武器突撃 Weapon\EFFECT_KnightLance01.bmp 48 Drill.wav;光弾銃 ライトブルー Weapon\EFFECT_KnightLance01.bmp 48;光弾銃 ライトブルー Weapon\EFFECT_KnightLance01.bmp 48
+ニュートラル・ランチャー(命中),   ダメージ ライトブルー;ダメージ ライトブルー
+ニュートラル・ランチャー(３連)(準備),   突く武器 Weapon\EFFECT_KnightLance01.bmp 48
+ニュートラル・ランチャー(３連)(攻撃),   突く武器突撃 Weapon\EFFECT_KnightLance01.bmp 48 Drill.wav;光弾銃 ライトブルー Weapon\EFFECT_KnightLance01.bmp 48;光弾銃 ライトブルー Weapon\EFFECT_KnightLance01.bmp 48;光弾銃 ライトブルー Weapon\EFFECT_KnightLance01.bmp 48
+ニュートラル・ランチャー(３連)(命中),   ダメージ ライトブルー;ダメージ ライトブルー;ダメージ ライトブルー
+ブリッツ・セイバー(準備),         射撃武器 Weapon\EFFECT_KnightLance01.bmp 48
+ブリッツ・セイバー(攻撃),         射撃武器突撃 Weapon\EFFECT_KnightLance01.bmp 48 Drill.wav
+ブリッツ・セイバー(命中),         斬撃突撃 
+ブリッツ・セイバー(クリティカル), 2;@戦闘アニメ_飛びかかり攻撃 Type(Digital).wav 対象ユニットＩＤ;2;@戦闘アニメ_大刺突命中 ライトブルー;3;@戦闘アニメ_円弧斬撃命中 ライトブルー
+ＳＷ・フリーケンシー(準備),       射撃武器 Weapon\EFFECT_KnightLance01.bmp 48
+ＳＷ・フリーケンシー(攻撃),       横大斬撃 ライトブルー;2;大斬撃 ライトブルー;気斬
+ＳＷ・フリーケンシー(命中),       シュートカッター ライトブルー
+ブルー・スライダー(攻撃),         タックル Drill.wav;@戦闘アニメ_ジャンプ攻撃 Type(Digital).wav 対象ユニットＩＤ;2;スーパータックル ライトブルー
+ブルー・スライダー(命中),         スーパータックル ライトブルー
+ラジカル・ザッパー(準備),         射撃武器 Weapon\EFFECT_KnightLance01.bmp 48;レールガン
+ラジカル・ザッパー(攻撃),         ビームランチャー ライトブルー Weapon\EFFECT_RailGun01.bmp 64
+ラジカル・ザッパー(命中),         ビームランチャー ライトブルー
+
+
+
+テムジン７４７Ｈ
+ダスターボム(攻撃),               石
+ダスターボム(命中),               火柱 ライトブルー Explode.wav
+ブリッツ・セイバー,               斬撃武器 Weapon\EFFECT_KnightLance01.bmp 48 二刀流 ライトブルー
+ショルダーランチャー,             ミサイル
+ブリッツ・トーネード(準備),       銃撃武器 Weapon\EFFECT_KnightLance01.bmp 48 二丁拳銃
+ブリッツ・トーネード(攻撃),       回転斬撃
+ブリッツ・トーネード(命中),       回転斬撃 
+クラウド・スラップ(準備),         ２連光弾銃 Weapon\EFFECT_RailGun01.bmp 64
+クラウド・スラップ(攻撃),         ２連光弾銃 ライトブルー Weapon\EFFECT_RailGun01.bmp 64
+クラウド・スラップ(命中),         発光 ライトブルー Explode.wav
+
+
+アファームド・ザ・ハッター
+シュート・ザ・トンファー(準備),   振る武器 Weapon\EFFECT_Tonfer01.bmp 二刀流
+シュート・ザ・トンファー(攻撃),   回転投擲武器 Bullet\EFFECT_BeamRingCutter(LightBlue)01.bmp;回転投擲武器 Bullet\EFFECT_BeamRingCutter(LightBlue)01.bmp
+シュート・ザ・トンファー(命中),   ダメージ ライトブルー;ダメージ ライトブルー
+スーパー・ボム(攻撃),             石
+スーパー・ボム(命中),             火柱 ライトブルー Explode.wav
+ドラマティック・トンファー(準備), トンファー 二刀流 
+ドラマティック・トンファー(攻撃), トンファー突撃 二刀流  Drill.wav
+ドラマティック・トンファー(命中), 横大斬撃 ライトブルー Punch.wav;2;振り上げ大斬撃 ライトブルー  Punch.wav
+ドラマティック・トンファー(クリティカル),    2;@戦闘アニメ_飛びかかり攻撃 Type(Digital).wav 対象ユニットＩＤ;2;@戦闘アニメ_アッパー攻撃;@戦闘アニメ_超アッパー命中
+Ｓソニック・テンガロン(攻撃),     ソーサー
+Ｓソニック・テンガロン(命中),     ダメージ
+キック・ザ・ドラマティック(準備), @戦闘アニメ_回避発動 上空ジャンプ;光大噴出 ライトブルー
+キック・ザ・ドラマティック(攻撃), スーパーキック ライトブルー 前転
+キック・ザ・ドラマティック(命中), スーパーキック ライトブルー
+
+アファームド・ザ・ハッター(敵)
+シュート・ザ・トンファー(準備),   振る武器 Weapon\EFFECT_Tonfer01.bmp 二刀流
+シュート・ザ・トンファー(攻撃),   回転投擲武器 Bullet\EFFECT_BeamRingCutter(LightBlue)01.bmp;回転投擲武器 Bullet\EFFECT_BeamRingCutter(LightBlue)01.bmp
+シュート・ザ・トンファー(命中),   ダメージ ライトブルー;ダメージ 赤
+スーパー・ボム(攻撃),             石
+スーパー・ボム(命中),             火柱 赤 Explode.wav
+ドラマティック・トンファー(準備), トンファー 二刀流 
+ドラマティック・トンファー(攻撃), トンファー突撃 二刀流  Drill.wav
+ドラマティック・トンファー(命中), 横大斬撃 赤 Punch.wav;2;振り上げ大斬撃 赤  Punch.wav
+ドラマティック・トンファー(クリティカル),    2;@戦闘アニメ_飛びかかり攻撃 Type(Digital).wav 対象ユニットＩＤ;2;@戦闘アニメ_アッパー攻撃;@戦闘アニメ_超アッパー命中
+Ｓソニック・テンガロン(攻撃),     ソーサー
+Ｓソニック・テンガロン(命中),     ダメージ
+キック・ザ・ドラマティック(準備), @戦闘アニメ_ジャンプ攻撃;光大噴出 赤
+キック・ザ・ドラマティック(攻撃), スーパーキック 赤 前転
+キック・ザ・ドラマティック(命中), スーパーキック 赤
+
+
+テムジン(敵)
+パワーボム(攻撃),                 石
+パワーボム(命中),                 超爆発 赤 Explode.wav
+ソードウェーブ(準備),             射撃武器 Weapon\EFFECT_KnightLance01.bmp 48
+ソードウェーブ(攻撃),             横大斬撃 赤;実弾発射 Wind\EFFECT_WindCutter(LightBlue)01.bmp
+ソードウェーブ(命中),             ダメージ 赤
+ニュートラル・ランチャー(準備),   射撃武器 Weapon\EFFECT_KnightLance01.bmp 48
+ニュートラル・ランチャー(攻撃),   射撃武器突撃 Weapon\EFFECT_KnightLance01.bmp 48 Drill.wav;光弾銃 赤 Weapon\EFFECT_KnightLance01.bmp 48;光弾銃 赤 Weapon\EFFECT_KnightLance01.bmp 48
+ニュートラル・ランチャー(命中),   ダメージ 赤;ダメージ 赤
+ブリッツ・セイバー(準備),         射撃武器 Weapon\EFFECT_KnightLance01.bmp 48
+ブリッツ・セイバー(攻撃),         射撃武器突撃 Weapon\EFFECT_KnightLance01.bmp 48 Drill.wav
+ブリッツ・セイバー(命中),         斬撃突撃 
+ブリッツ・セイバー(クリティカル), 2;@戦闘アニメ_飛びかかり攻撃 Type(Digital).wav 対象ユニットＩＤ;2;@戦闘アニメ_大刺突命中 赤;3;@戦闘アニメ_円弧斬撃命中 赤
+ブルー・スライダー(攻撃),         タックル Drill.wav;@戦闘アニメ_ジャンプ攻撃 Type(Digital).wav 対象ユニットＩＤ;2;スーパータックル 赤
+ブルー・スライダー(命中),         スーパータックル 赤
+ラジカル・ザッパー(準備),         射撃武器 Weapon\EFFECT_KnightLance01.bmp 48;レールガン
+ラジカル・ザッパー(攻撃),         ビームランチャー オレンジ Weapon\EFFECT_RailGun01.bmp 64
+ラジカル・ザッパー(命中),         ビームランチャー オレンジ
+ＳＷ・フリーケンシー(準備),       射撃武器 Weapon\EFFECT_KnightLance01.bmp 48
+ＳＷ・フリーケンシー(攻撃),       横大斬撃 赤;2;大斬撃 赤;気斬 赤
+ＳＷ・フリーケンシー(命中),       ダメージ 赤
+ブルー・スライダー(攻撃),         タックル Drill.wav;@戦闘アニメ_ジャンプ攻撃 Type(Digital).wav 対象ユニットＩＤ;2;スーパータックル オレンジ
+ブルー・スライダー(命中),         スーパータックル オレンジ
+
+
+ライデン(敵)
+Ｇボム(攻撃),                     タックル Drill.wav;2;ソーサー
+Ｇボム(命中),                     魔法放射 レッド Explode.wav
+バズーカ・ランチャー(準備),       バズーカ
+バズーカ・ランチャー(攻撃),       射撃武器突撃 Weapon\EFFECT_Bazooka01.bmp 40 Drill.wav;バズーカ;バズーカ
+バズーカ・ランチャー(命中),       ダメージ 赤;ダメージ 赤
+格闘(５１２Ｅ２),                 殴打武器 Weapon\EFFECT_Bazooka01.bmp 40
+バイナリー・ロータス,             ２連中ビーム オレンジ
+一般攻撃モード,                   ＭＡＰビーム オレンジ
+格闘(５１２Ｅ１),                 殴打武器 Weapon\EFFECT_RailGun01.bmp 64
+フラット・ランチャー(準備),       ２連光弾銃 Weapon\EFFECT_RailGun01.bmp 64
+フラット・ランチャー(攻撃),       射撃武器突撃 eapon\EFFECT_RailGun01.bmp 64 Drill.wav;２連光弾銃 赤 Weapon\EFFECT_RailGun01.bmp 64
+フラット・ランチャー(命中),       発光 赤 Explode.wav
+
+
+
+マイザー・デルタ(敵)
+コールド・ダガー(準備),           連投剣
+コールド・ダガー(攻撃),           連投剣
+コールド・ダガー(命中),           ダメージ 黄 Charge(High).wav
+ビームソード(準備),               射撃武器  Weapon\EFFECT_LightBulletGun01.bmp
+ビームソード(攻撃),               射撃武器突撃 Weapon\EFFECT_LightBulletGun01.bmp Drill.wav;横大斬撃 オレンジ
+ビームソード(命中),               横大斬撃 オレンジ
+レブナント３(準備),               光弾銃
+レブナント３(攻撃),               射撃武器突撃 Weapon\EFFECT_LightBulletGun01.bmp Drill.wav;２連スラッシュビームガン 赤 Weapon\EFFECT_LightBulletGun01.bmp;回転 1
+レブナント３(命中),               ２連スラッシュビーム 赤
+レブナント３(クリティカル),       2;@戦闘アニメ_ビームランチャー攻撃 赤 Weapon\EFFECT_LightBulletGun01.bmp 32;@戦闘アニメ_ビームランチャー命中 赤
+ドロップ・ビーム(攻撃),           気弾 赤
+ドロップ・ビーム(命中),           超爆発 赤
+フォースビーム(攻撃),             拡散ビーム 赤
+フォースビーム(命中),             ホーミングレーザー 赤
+
+
+マイザー・デルタⅠ「シャルロッテ」
+ＳＬＣダイブ(準備),               変形 VOMARZ_MyzerDelta1CL(MS).bmp
+ＳＬＣダイブ(攻撃),               タックル Drill.wav;2;スーパータックル オレンジ
+ＳＬＣダイブ(命中),               スーパータックル オレンジ
+
+
+マイザー・デルタⅠ「エヴリン」
+ＳＬＣダイブ(準備),               変形 VOMARZ_MyzerDelta1EV(MS).bmp
+ＳＬＣダイブ(攻撃),               タックル Drill.wav;2;スーパータックル オレンジ
+ＳＬＣダイブ(命中),               スーパータックル オレンジ
+
+マイザー・デルタⅣタイプＲ「フェアービアンカ」
+ＳＬＣダイブ(準備),               変形 VOMARZ_MyzerDelta4FB(MS).bmp
+ＳＬＣダイブ(攻撃),               タックル Drill.wav;2;スーパータックル オレンジ
+ＳＬＣダイブ(命中),               スーパータックル オレンジ
+
+
+マイザー・デルタ(ＭＳ)(敵)
+ＳＬＣダイブ(攻撃),               タックル Drill.wav;2;スーパータックル オレンジ
+ＳＬＣダイブ(命中),               スーパータックル オレンジ
+レブナント３,                    ２連スラッシュビーム 赤
+ドロップ・ビーム(攻撃),           気弾 赤
+ドロップ・ビーム(命中),           超爆発 赤
+フォースビーム(攻撃),             拡散ビーム 赤
+フォースビーム(命中),             ホーミングレーザー 赤
+
+
+
+
+
+アファームドＪタイプＣ
+シュート・ザ・トンファー(準備),    振る武器 Weapon\EFFECT_Tonfer01.bmp
+シュート・ザ・トンファー(攻撃),    回転投擲武器 Bullet\EFFECT_BeamRingCutter(LightBlue)01.bmp
+シュート・ザ・トンファー(命中),    ダメージ ライトブルー
+ダキアス・ガン・システム,          レーザーマシンガン ライトブルー
+スーパー・ボム(攻撃),              石
+スーパー・ボム(命中),              火柱 ライトブルー Explode.wav
+ダイナミック・トンファー(準備),    トンファー
+ダイナミック・トンファー(攻撃),    振る武器突撃 Weapon\EFFECT_Tonfer01.bmp 32 打撃 Drill.wav
+ダイナミック・トンファー(命中),    横大斬撃 ライトブルー FightHit(1).wav
+キック・ザ・ダイナミック,          スーパーキック 前転
+
+
+アファームドＴタイプＦ
+スーパー・ボム(攻撃),              石
+スーパー・ボム(命中),              火柱 ライトブルー Explode.wav
+格闘(準備),                        振る武器 Weapon\EFFECT_Bazooka01.bmp 40
+格闘(攻撃),                        振る武器突撃 Weapon\EFFECT_Bazooka01.bmp 40 Drill.wav
+格闘(命中),                        打撃
+タイガー・キャノン,                ミサイル
+マックス・ランチャー,              バズーカ
+
+
+フェイ・イェン
+ファンシー・ブラスト(攻撃),        実弾発射 Bullet\EFFECT_STG_Bullet(Pink)02.bmp 16 Beam.wav;実弾発射 Bullet\EFFECT_STG_Bullet(Pink)02.bmp 16 Beam.wav
+ファンシー・ブラスト(命中),        ダメージ ピンク;ダメージ ピンク
+レイピアウェーブ(準備),            振る武器 Weapon\EFFECT_Rapier01.bmp 32
+レイピアウェーブ(攻撃),            横大斬撃 ピンク;実弾発射 Wind\EFFECT_WindCutter(Pink)01.bmp
+レイピアウェーブ(命中),            ダメージ ピンク
+レイピア「愚者の慈愛」(準備),      レイピア
+レイピア「愚者の慈愛」(攻撃),      振る武器突撃 Weapon\EFFECT_Rapier01.bmp 32 Drill.wav;横大斬撃 ピンク
+レイピア「愚者の慈愛」(命中),      横大斬撃 ピンク
+ビビッド・ハート(攻撃),            画像投射 Bullet\EFFECT_HeartBullet(Pink)01.bmp Sharara.wav;画像投下 Bullet\EFFECT_HeartBullet(Pink)01.bmp Sharara.wav
+ビビッド・ハート(命中),            魔法放射 ピンク Explode.wav;周囲回転 Common\EFFECT_Heart01.bmp 32 4 Sharara.wav
+ハイパーモード,                    光噴出 黄
+
+
+
+フェイ・イェン(ＥＭ)
+ファンシー・ブラスト(攻撃),        実弾発射 Bullet\EFFECT_STG_Bullet(Yellow)02.bmp 16;実弾発射 Bullet\EFFECT_STG_Bullet(Yellow)02.bmp 16;投擲武器 Bullet\EFFECT_STG_Bullet(Yellow)03.bmp 32 下投げ
+ファンシー・ブラスト(命中),        ダメージ ピンク;ダメージ ピンク;魔法放射 ピンク Explode.wav
+レイピアウェーブ(準備),            振る武器 Weapon\EFFECT_Rapier01.bmp 32
+レイピアウェーブ(攻撃),            横大斬撃 ピンク;実弾発射 Wind\EFFECT_WindCutter(Pink)01.bmp;大斬撃 ピンク;実弾発射 Common\EFFECT_SonicBoom(Pink)02.bmp
+レイピアウェーブ(命中),            ダメージ ピンク;ダメージ ピンク
+レイピア「愚者の慈愛」(準備),      レイピア
+レイピア「愚者の慈愛」(攻撃),      振る武器突撃 Weapon\EFFECT_Rapier01.bmp Drill.wav;横大斬撃 ピンク
+レイピア「愚者の慈愛」(命中),      横大斬撃 ピンク;大斬撃 ピンク
+ビビッド・ハート(攻撃),            画像投射 Bullet\EFFECT_HeartBullet(Pink)01.bmp Sharara.wav;画像投下 Bullet\EFFECT_HeartBullet(Pink)01.bmp Sharara.wav
+ビビッド・ハート(命中),            魔法放射 ピンク Explode.wav;周囲回転 Common\EFFECT_Heart01.bmp 32 4 Sharara.wav
+
+
+
+ＶＯＸＤ－１０１”Ｄａｎ”
+ミーロフ・ガンシステム,            サブマシンガン
+Ａボックス・ランチャーM32,         ミサイル 3
+Ａボックス・ランチャーB27(攻撃),   石
+Ａボックス・ランチャーB27(命中),   火柱 ライトブルー Explode.wav
+Ｓボックス・ランチャー(攻撃),      スーパーミサイル 2;スーパーミサイル 2   
+Ｓボックス・ランチャー(命中),      連続大爆発 ライトブルー
+
+
+ＶＯＸＪ－５００”Ｊｏｅ”
+ミーロフ・ガンシステム,            サブマシンガン
+Ｅクロー・ランチャー<射出>,        ロケットパンチ Hand\EFFECT_Punch(Green)09.bmp 32
+Ｅクロー・ランチャー<射出>(命中),  ダメージ
+Ｅクロー・ランチャー<射撃>,        竜弾銃 Hand\EFFECT_Punch(Green)09.bmp 32 青
+Ｓボックス・ランチャー,            ＭＡＰグレネード
+ダイビング・ヘッド・バット,        スーパータックル 青
+ダイビング・ヘッド・バット(攻撃),  タックル Drill.wav;2;スーパータックル ライトブルー
+ダイビング・ヘッド・バット(命中),  スーパータックル ライトブルー
+ＭＡＬＳ－Ｈ０９<射出>,            ロケットパンチ Weapon\EFFECT_ChainBall02.bmp 72
+ＭＡＬＳ－Ｈ０９<格闘>(準備),      振る武器 Weapon\EFFECT_SpinHummer01.bmp 32
+ＭＡＬＳ－Ｈ０９<格闘>(攻撃),      振る武器突撃 Weapon\EFFECT_SpinHummer01.bmp 32 Drill.wav
+ＭＡＬＳ－Ｈ０９<格闘>(命中),      強打
+ＭＡＬＳ－Ｃ２２<射出>(準備),      チェンソー
+ＭＡＬＳ－Ｃ２２<射出>(攻撃),      回転発射 Weapon\EFFECT_ChainSaw01.bmp 32
+ＭＡＬＳ－Ｃ２２<射出>(命中),      回転エナジーカッター ライトブルー
+ＭＡＬＳ－Ｃ２２<格闘>(準備),      チェンソー
+ＭＡＬＳ－Ｃ２２<格闘>(攻撃),      振る武器突撃 Weapon\EFFECT_ChainSaw01.bmp 32 Drill.wav
+ＭＡＬＳ－Ｃ２２<格闘>(命中),      チェンソー
+
+
+
+ＶＯＸＬ－４８”Ｌｅｅ”
+ミーロフ・ガンシステム(準備),      射撃武器 Weapon\EFFECT_BullpupRifle02.bmp 40
+ミーロフ・ガンシステム(攻撃),      射撃武器突撃 Weapon\EFFECT_BullpupRifle02.bmp 40 Drill.wav;ライフル  Weapon\EFFECT_BullpupRifle02.bmp 40;ライフル  Weapon\EFFECT_BullpupRifle02.bmp 40
+ミーロフ・ガンシステム(命中),      銃弾;銃弾
+
+
+ＶＯＸＬ－４３”Ｌｏｏ”
+ミーロフ・ガンシステム,            サブマシンガン
+Ｓボックス・ランチャー,            スーパーミサイル 2
+
+
+
+
+ライデン
+Ｇボム(攻撃),                     タックル Drill.wav;2;ソーサー
+Ｇボム(命中),                     魔法放射 ライトブルー Explode.wav
+バズーカ・ランチャー(準備),       バズーカ
+バズーカ・ランチャー(攻撃),       射撃武器突撃 Weapon\EFFECT_Bazooka01.bmp 40 Drill.wav;バズーカ;バズーカ
+バズーカ・ランチャー(命中),       ダメージ ライトブルー;ダメージ ライトブルー
+格闘(５１２Ｅ２),                 殴打武器 Weapon\EFFECT_Bazooka01.bmp 40
+バイナリー・ロータス,             大ビーム ライトブルー
+バイナリー・ロータス<MAP>,        ＭＡＰビーム ライトブルー
+格闘(５１２Ｅ１),                 殴打武器 Weapon\EFFECT_RailGun01.bmp 64
+フラット・ランチャー(準備),       ２連光弾銃 Weapon\EFFECT_RailGun01.bmp 64
+フラット・ランチャー(攻撃),       射撃武器突撃 eapon\EFFECT_RailGun01.bmp 64 Drill.wav;２連光弾銃 ライトブルー Weapon\EFFECT_RailGun01.bmp 64
+フラット・ランチャー(命中),       発光 ライトブルー Explode.wav
+
+
+
+
+エンジェラン「化鳥」
+プレート・ディフェンダー(準備),    振る武器 Weapon\EFFECT_JewelRod(LightBlue)01.bmp 32
+プレート・ディフェンダー(攻撃),    振る武器 Weapon\EFFECT_JewelRod(LightBlue)01.bmp 32;実弾発射 Shield\EFFECT_BeamShield(LightBlue)01.bmp 32
+プレート・ディフェンダー(命中),    ダメージ ライトブルー
+対偶の法杖「化鳥」<格闘>(準備),    振る武器 Weapon\EFFECT_JewelRod(LightBlue)01.bmp 32
+対偶の法杖「化鳥」<格闘>(攻撃),    振る武器突撃 Weapon\EFFECT_JewelRod(LightBlue)01.bmp 32 Drill.wav
+対偶の法杖「化鳥」<格闘>(命中),    横大斬撃 ライトブルー FightHit(1).wav
+対偶の法杖「化鳥」<格闘>(クリティカル),  2;氷柱
+対偶の法杖「化鳥」<射撃>(準備),    射撃武器 Weapon\EFFECT_JewelRod(LightBlue)01.bmp 32
+対偶の法杖「化鳥」<射撃>(攻撃),    手持ち発射 Weapon\EFFECT_JewelRod(LightBlue)01.bmp 32 対象ユニットＩＤ Common\EFFECT_Freeze08.bmp 32;手持ち発射 Weapon\EFFECT_JewelRod(LightBlue)01.bmp 32 対象ユニットＩＤ Common\EFFECT_Freeze08.bmp 32;手持ち発射 Weapon\EFFECT_JewelRod(LightBlue)01.bmp 32 対象ユニットＩＤ Common\EFFECT_Freeze08.bmp 32
+対偶の法杖「化鳥」<射撃>(命中),    ダメージ ライトブルー;ダメージ ライトブルー;ダメージ ライトブルー
+対偶の法杖「化鳥」<射撃>(クリティカル),    2;@戦闘アニメ_ビームランチャー攻撃 ライトブルー Weapon\EFFECT_JewelRod(LightBlue)01.bmp 32;2;@戦闘アニメ_ビームランチャー命中 ライトブルー
+空音の竜(準備),                    龍召喚 ライトブルー
+空音の竜(攻撃),                    Beast.wav;5;龍 ライトブルー
+空音の竜(命中),                    龍 ライトブルー
+ハイパーモード,                    @戦闘アニメ_翼準備 二刀流
+
+
+
+
+
+
+
+
+ダイモン・オーブ
+ダイモン・レーザー(攻撃),          発射連続描画 Beam\EFFECT_DBeam(Pink)[01-03].bmp 64 4 1 Beam(4Shot).wav
+ダイモン・レーザー(命中),          ダメージ 紫
+
+
+
+ダイモン・アーム
+ダイモン・レーザー,                大拡散ビーム
+ダイモン・ビーム,                  拡散ビーム Beam(4Shot).wav
+
+
+ダイモン・ワーム
+ダイモン・バウンド弾(攻撃),        実弾投下 Weapon\EFFECT_IronBall01.bmp;実弾投下 Weapon\EFFECT_IronBall01.bmp;実弾投下 Weapon\EFFECT_IronBall01.bmp
+ダイモン・バウンド弾(命中),        連続爆発
+ダイモン・ビーム,                  拡散ビーム Beam(4Shot).wav
+
+
+ミルトン
+拡散レーザー,                      拡散ビーム
+ナパーム,                          グレネード 6
+ミサイル,                          ミサイル 10 速
+２連レーザー砲,                    ２連中ビーム オレンジ
+リングレーザー(攻撃),              ２連リングビーム 赤
+リングレーザー(命中),              発光 赤 Charge(High).wav
+浮遊弾(準備),                      ユニット変色 黄
+浮遊弾(攻撃),                      実弾発射 Bullet\EFFECT_STG_Bullet(Purple)03.bmp 32 遅
+浮遊弾(命中),                      ダメージ 紫
+多連装レーザー砲,                  拡散ビーム オレンジ
+
+
+ミトン
+２連レーザー砲,                   ２連中ビーム オレンジ
+リングレーザー(攻撃),             ２連リングビーム 赤
+リングレーザー(命中),             発光 赤 Charge(High).wav
+浮遊弾(準備),                     ユニット変色 黄
+浮遊弾(攻撃),                     実弾発射 Bullet\EFFECT_STG_Bullet(Purple)03.bmp 32 遅
+浮遊弾(命中),                     ダメージ 紫
+多連装レーザー砲,                 拡散ビーム オレンジ
+
+
+
+ストラトス
+ディスク(攻撃),                   実弾発射 DGoods\EFFECT_CompactDisk01.bmp 32;実弾発射 DGoods\EFFECT_CompactDisk01.bmp 32;実弾発射 DGoods\EFFECT_CompactDisk01.bmp 32
+ディスク(命中),                   ダメージ 連続
+電磁ネット(攻撃),                 実弾発射 Beam\EFFECT_MBeam(Pink)[01-05].bmp 64;実弾発射 Beam\EFFECT_MBeam(Pink)[01-05].bmp 64;実弾発射 Beam\EFFECT_MBeam(Pink)[01-05].bmp 64;
+電磁ネット(命中),                 ダメージ 連続 ピンク
+レーザー,                         ＭＡＰ持続ビーム
+ポッドレーザー,                   ニードルレーザー連射
+拡散レーザー<ＭＡＰ>(準備),       変形 VOMARZ_Strts(C1)(Open).bmp
+拡散レーザー<ＭＡＰ>,             ＭＡＰビーム
+拡散レーザー,                     拡散ビーム
+
+
+
+
+
+タングラム(ＭＡＲＺ)
+リングレーザー(攻撃),            大リングビーム 赤
+リングレーザー(命中),            発光 赤 Charge(High).wav
+ヒートウェーブ(攻撃),            地面衝撃 黄;ＭＡＰフラッシュ 紫
+大口径レーザー,                  超ビーム 紫

@@ -1,0 +1,82 @@
+
+アカイイト
+贄の血・少々(使用), 魔法放射 赤 小 Hittyuu.wav;ディレイ -.wav 3
+贄の血・少々(発動), 魔法集中 赤 小 Hittyuu.wav
+贄の血(使用), 魔法放射 赤 Hittyuu.wav;ディレイ -.wav 3
+贄の血(発動), 魔法集中 赤 Hittyuu.wav;2;オーラ上昇 赤 -.wav
+魔よけの札(準備), お札
+魔よけの札(攻撃), 打突
+魔よけの札(命中), 1;Inori.wav;White.bmp 480 480;Clear;放電
+月光蝶(準備), 妖精 Wind.wav
+月光蝶(攻撃), 妖精 Wind.wav
+月光蝶(命中), 妖精 Hittyuu.wav;飛沫 青 -.wav
+月光蝶の群れ(準備), 妖精 Wind.wav
+月光蝶の群れ(攻撃), ＭＡＰ発光 青 Wind.wav
+月光蝶の群れ(命中), 妖精 Hittyuu.wav;飛沫 青 -.wav
+蝶の化身(準備), 周囲回転 Anime\Common\EFFECT_Particle(Blue)01.bmp 32 Charge(High).wav;粒子集中 青 -.wav
+蝶の化身(攻撃), @戦闘アニメ_光噴出準備 青 -.wav;スーパータックル 青 Jet.wav
+蝶の化身(命中), スーパータックル 青 -.wav;魔法集中 青 大 Hittyuu.wav;発光 青 -.wav
+古流体術(攻撃), 振る武器突撃 -.bmp
+古流体術(命中), 打撃 Punch.wav
+古流体術(命中), アッパー Punch.wav
+古流体術(命中), 投げ飛ばし
+維斗(準備), 音再生 Reload(5).wav
+維斗(攻撃), 斬撃
+維斗(命中), 斬撃
+千羽妙見流(準備), 音再生 Reload(5).wav
+千羽妙見流(攻撃), 振る武器突撃 -.bmp
+千羽妙見流(命中), @戦闘アニメ_斬撃攻撃;斬撃
+千羽妙見流(命中), @戦闘アニメ_なぎ払い攻撃;なぎ払い
+千羽妙見流(命中), @戦闘アニメ_振り上げ攻撃;振り上げ
+千羽妙見流(命中), @戦闘アニメ_振り下ろし攻撃;振り下ろし
+魂削り(準備), 音再生 Reload(5).wav;3;魔法集中 青 BeamSaber.wav
+魂削り(攻撃), 斬撃
+魂削り(命中), 大斬撃 Slash.wav
+鬼切り(準備), 音再生 Reload(5).wav;3;魔法集中 青 BeamSaber.wav;光噴出 青 -.wav
+鬼切り(攻撃), 斬撃;1;White.bmp 480 480;Clear
+鬼切り(命中), エナジーブレード 青;超斬撃 Slash(2).wav
+観月の力(攻撃), 振る武器突撃 -.bmp
+観月の力(命中), 爪撃
+観月の力(命中), 強打 Bazooka.wav
+羅喉の力(準備), 魔法集中 緑 -.wav;オーラ上昇 緑 Charge(High).wav
+羅喉の力(攻撃), @戦闘アニメ_光噴出準備 緑 -.wav;2;スーパータックル 緑 Jet.wav
+羅喉の力(命中), 爪撃 Swing.wav;2;黒斬撃 Boot.wav;1;粒子噴射 黒 -.wav;飛沫 黒 Inori.wav
+阻止(羅喉の力), バリア Boot.wav 羅喉の力
+暗示(攻撃), 発光 赤 Hittyuu.wav
+暗示(命中), -
+言霊(攻撃), 魔法放射 白 BeamSaber.wav;2;センタリング 相手ユニットＩＤ Storm.wav 5
+言霊(攻撃), 魔法放射 白 BeamSaber.wav;2;センタリング 相手ユニットＩＤ Shower.wav 5
+言霊(攻撃), 魔法放射 白 BeamSaber.wav;2;センタリング 相手ユニットＩＤ AnitShipMissile.wav 5
+言霊(命中), 魔法集中 白 BeamSaber.wav;飛沫 白 Inori.wav
+空中殺法(攻撃), 振る武器突撃 -.bmp
+空中殺法(命中), 振る武器突撃 -.bmp 刺突 Slash.wav
+真言(攻撃), 魔法放射 白 BeamSaber.wav
+真言(命中), 粒子集中 白 BeamSaber.wav
+##
+邪視(攻撃), 発光 赤 Hittyuu.wav
+邪視(命中), -
+赤い蜘蛛の巣(攻撃), ＭＡＰビーム 赤 BeamSaber.wav
+赤い蜘蛛の巣(命中), -
+赤い霧(攻撃), 魔法放射 赤
+赤い霧(命中), 魔法集中 赤;飛沫 赤 Inori.wav
+赤い大蛇(準備), 魔法集中 赤 Boot.wav;決め画像 Unit\AKIT_RedSnakeU.bmp -.wav
+赤い大蛇(攻撃), 実弾発射 Unit\AKIT_RedSnakeU.bmp Swing(2).wav
+赤い大蛇(命中), 噛み付き
+赤い大蛇(命中), ダメージ BreakOff.wav
+多頭の大蛇(準備), 魔法集中 赤 Boot.wav;2;決め画像 Anime\Common\EFFECT_LargeElectric(Red)01.bmp 背面 BeamSaber.wav
+多頭の大蛇(攻撃), 拡散ビーム 赤 AntiAirMissile.wav
+多頭の大蛇(命中), 噛み付き;強打 Crash.wav;ダメージ BreakOff.wav;_
+ダメージ BreakOff.wav;超打 Bazooka.wav;飛沫 赤 Inori.wav
+鏡面結界(準備), エネルギーフィールド展開
+鏡面結界(攻撃), Glass.wav;1;White.bmp 480 480;Clear
+鏡面結界(命中), -
+剛力(攻撃), 白兵武器
+剛力(命中), 超打 Crash.wav
+赤雷の矢(攻撃), 魔法放射 赤 大 ThunderBolt.wav
+赤雷の矢(命中), 中ビーム 赤 ThunderBolt.wav;放電 -.wav
+雷霆の蛇(準備), 魔法集中 赤;光噴出 赤 Fold.wav
+雷霆の蛇(攻撃), 拡散ビーム 赤 ThunderBolt.wav
+雷霆の蛇(命中), ;_
+中ビーム 赤 Stab.wav ランダム方向;中ビーム 赤 Slash.wav ランダム方向;_
+中ビーム 赤 Crash.wav ランダム方向;中ビーム 赤 Stab.wav ランダム方向;_
+中ビーム 赤 Stab.wav ランダム方向;飛沫 赤 Inori.wav

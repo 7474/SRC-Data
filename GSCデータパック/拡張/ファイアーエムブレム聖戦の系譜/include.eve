@@ -1,0 +1,51 @@
+
+
+FEG_恋人効果:
+Local i
+PlaySound Sharara.wav
+Center 対象ユニット
+	For i = 1 to 4
+	Wait Start
+	
+		PaintPicture ("精神コマンド\resurgent0" & i & ".bmp") - - 48 48 透過
+		Refresh
+		Wait Until (0.5 * i)
+		ClearPicture
+		
+	Next
+	
+	For i = 1 to 3
+	Wait Start
+
+		PaintPicture ("精神コマンド\resurgent0" & (4 - i) & ".bmp") - - 48 48 透過
+		Refresh
+		Wait Until (0.5 * i)
+		ClearPicture
+		
+	Next
+
+		ClearPicture
+		Refresh
+Return
+
+
+FEG_兄弟効果:
+PlaySound Sharara.wav
+Center 対象ユニット
+
+	For i = 1 to 3
+	Wait Start
+		ClearPicture
+		PaintPicture 精神コマンド\yuujou01.bmp - - 32 32 透過
+		Refresh
+		Wait Until ((2 * i) - 1)
+		PaintPicture 精神コマンド\yuujou02.bmp - - 32 32 透過
+		Refresh
+		Wait Until (2 * i)
+	Next
+		ClearPicture
+		Refresh
+
+
+Return
+

@@ -1,0 +1,48 @@
+
+ＥＧＯ
+インパルスビーム, 5;Charge.wav;6;Beam.wav;2;Beam.wav
+バレルロール, MultipleRocketLauncher(Light).wav
+エヴァブラック, Charge(Long).wav
+パレットガン, MachineCannon.wav
+攻撃無効化(ヴェイパーシールド), BeamCoat.wav
+
+阿羅耶識
+式神召喚・土蜘蛛, Whiz.wav
+式神召喚・土蜘蛛(命中), 2;Glass.wav;5;Glass.wav;6;Combo.wav
+火神被殺炎(準備), Charge.wav
+火神被殺炎, Beam.wav
+火神被殺炎(命中), 2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav;2;Explode(Small).wav
+夜芸速迦具殺炎舞, MultipleRocketLauncher.wav
+火神被殺炎断, Fire.wav
+火神被殺炎断(命中), Combo.wav
+シールド防御, BeamCoat.wav
+
+ＷＩＺＤＯＭ
+サラマンデルアロー, Bow.wav
+サラマンデルアロー(命中), Fire.wav
+ヴィルベルヴィンド, Storm.wav
+ヴィルベルヴィンド(命中), 3;Glass.wav;2;Glass.wav;2;Glass.wav
+
+ダークロア
+シュトル・モビック(命中), 5;Slash.wav;10;Sword.wav
+
+イレイザー
+サンダーボルト, Thunder.wav
+ＭＧ－３４, MachineGun.wav
+
+マインドブレイカー
+アルバコア, Saber.wav
+アルバコア(命中), Slash.wav
+マインドブレイク(攻撃用), Hide.wav
+ラハティエル, Charge(Long).wav
+ラハティエル(命中), 3;Explode.wav;2;Explode.wav;2;Explode.wav
+マインドブレイク, Hide.wav
+攻撃無効化(ヴェイパーシールド), BeamCoat.wav
+
+汎用
+パンツァーファウスト, Swing.wav
+パンツァーファウスト(命中), Explode.wav
+手榴弾, Swing.wav
+手榴弾(命中), Explode.wav
+ロケットランチャー, Bazooka.wav
+ロケットランチャー(命中), Explode.wav

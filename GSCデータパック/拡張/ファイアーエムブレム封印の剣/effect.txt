@@ -1,0 +1,129 @@
+
+ファイアーエムブレム
+封印の剣(準備), Sword.wav
+封印の剣, Saber.wav
+封印の剣(命中), 2;Swing.wav;Slash.wav
+封印の剣(クリティカル), Explode(Far).wav
+封印の剣・投射(準備), 3;Sword.wav;Fire.wav
+封印の剣・投射, 4;Saber.wav;Swing.wav
+封印の剣・投射(命中), Explode.wav
+封印の剣・投射(クリティカル), Explode(Far).wav
+エッケザックス(準備), Sword.wav
+エッケザックス, MultipleRocketLauncher(Light).wav
+エッケザックス(命中), Slash.wav
+エッケザックス・剣圧(準備), Sword.wav
+エッケザックス・剣圧, AntiAirMissile.wav
+エッケザックス・剣圧(命中), Slash.wav
+アーマーキラー(命中), 2;Swing.wav;Slash.wav
+ドラゴンキラー(命中), 2;Swing.wav;Slash.wav
+火竜石, Breath.wav
+神竜石, Breath.wav
+攻撃無効化(古代竜族の力), BeamCoat.wav
+鉄の剣(クリティカル), Combo.wav
+鋼の剣(クリティカル), Combo.wav
+銀の剣(クリティカル), Combo.wav
+レイピア, Bow.wav
+レイピア(命中), Slash.wav
+レイピア(クリティカル), 1;Slash.wav;1;Slash.wav;1;Slash.wav
+キルソード(クリティカル), 1;Slash.wav;1;Slash.wav;1;Slash.wav
+鉄の槍(準備)(対瀕死), MultipleRocketLauncher(Light).wav
+鉄の槍(クリティカル), Combo.wav
+細身の槍(準備)(対瀕死), MultipleRocketLauncher(Light).wav
+細身の槍(クリティカル), Combo.wav
+キラーランス(準備)(対瀕死), MultipleRocketLauncher(Light).wav
+キラーランス(クリティカル), 2;Drill.wav;Combo.wav
+鋼の槍(準備)(対瀕死), MultipleRocketLauncher(Light).wav
+鋼の槍(クリティカル), Combo.wav
+銀の槍(準備)(対瀕死), MultipleRocketLauncher(Light).wav
+銀の槍(クリティカル), Combo.wav
+手槍, Bomb.wav
+手槍(命中), Stab.wav
+手槍(クリティカル), Combo.wav
+鉄の斧(クリティカル), Combo.wav
+鋼の斧(クリティカル), Combo.wav
+銀の斧(クリティカル), Combo.wav
+手斧, Swing.wav
+手斧(命中), Slash.wav
+手斧(クリティカル), Combo.wav
+キラーボウ, Bow.wav
+キラーボウ(命中), Stab.wav
+キラーボウ(クリティカル), 2;Drill.wav;Combo.wav
+鉄の弓(クリティカル), Combo.wav
+鋼の弓(クリティカル), Combo.wav
+銀の弓(クリティカル), Combo.wav
+ファイアー(準備)(対瀕死), EvilEye.wav
+ファイアー, 2;Bazooka.wav;Cannon.wav
+ファイアー(命中), Explode.wav
+ファイアー(クリティカル), Explode(Far).wav
+サンダー(準備)(対瀕死), EvilEye.wav
+サンダー, LaserGun.wav
+サンダー(命中), Thunder.wav
+サンダー(クリティカル), 2;Thunder.wav;2;Thunder.wav;Thunder.wav
+エルファイアー(準備)(対瀕死), EvilEye.wav
+エルファイアー, 2;Bazooka.wav;Cannon.wav
+エルファイアー(命中), Explode(Far).wav
+エルファイアー(クリティカル), Explode(Nuclear).wav
+サンダーストーム(準備), Wind.wav
+サンダーストーム, Thunder.wav
+エイルカリバー(準備)(対瀕死), 3;EvilEye.wav;AntiAirMissile.wav
+エイルカリバー(準備), AntiAirMissile.wav
+エイルカリバー, Beam.wav
+エイルカリバー(命中), 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav
+エイルカリバー(クリティカル), 1;Slash.wav;1;Slash.wav
+シャイン, Glass.wav
+シャイン(命中), 2;BeamShot.wav;Chaff.wav
+ライトニング, BeamShot.wav
+ライトニング(命中), 3;Glass.wav;Glass.wav
+ディヴァイン, Beam.wav
+ディヴァイン(命中), BeamCoat.wav
+アルジローレ, Interference.wav
+パージ(準備), 3;BeamCoat.wav;BeamCoat.wav
+パージ, Charge.wav
+パージ(命中), Crash.wav
+ミィル(準備)(対瀕死), EvilEye.wav
+ミィル(準備), BeamSaber.wav
+ミィル, Charge(high).wav
+ミィル(命中), Drill.wav
+イクリプス(準備), Hide.wav
+イクリプス, Charge(high).wav
+イクリプス(命中), Crash.wav
+リザイア(準備)(対瀕死), EvilEye.wav
+リザイア, BeamSaber.wav
+リザイア(命中), 3;BeamShot.wav;BeamCoat.wav
+ノスフェラート(準備), Fire.wav
+ノスフェラート, MultipleRocketLauncher(Light).wav
+ノスフェラート(命中), Crash.wav
+ライブの杖, Sharara.wav;3;精神コマンド\kakuran[01-04].bmp 32 32 - - 透過;Clear
+リライブの杖, Sharara.wav;3;精神コマンド\kakuran[01-04].bmp 48 48 - - 透過;Clear
+リカバーの杖, Sharara.wav;3;精神コマンド\kakuran[01-04].bmp 64 64 - - 透過;Clear
+リブローの杖, Sharara.wav
+聖女の杖, Inori.wav;1;White.bmp 480 480;Clear
+おどる, Sharara.wav
+奏でる, Sharara.wav
+瞬殺の技(クリティカル), White.bmp 480 480;2;Slash(3).wav;2;Slash(3).wav;2;Slash.wav;Clear
+
+
+汎用
+デュランダル(準備), Glass.wav;1;White.bmp 480 480;Clear
+デュランダル, -.wav
+デュランダル(命中), 2;Swing.wav;Slash.wav
+マルテ(準備), Glass.wav;1;White.bmp 480 480;Clear
+マルテ, -.wav
+マルテ(命中), 2;Swing.wav;Stab.wav
+アルマーズ(準備), Glass.wav;1;White.bmp 480 480;Clear
+アルマーズ, -.wav
+アルマーズ(命中), 2;Swing.wav;Stab.wav
+ミュルグレ(準備), Glass.wav;1;White.bmp 480 480;Clear
+ミュルグレ, Bow.wav
+ミュルグレ(命中), 2;Beam.wav;Stab.wav
+フォルブレイズ(準備)(対瀕死), EvilEye.wav;1;White.bmp 480 480;Clear;AntiShipMissile.wav
+フォルブレイズ(準備), Glass.wav;1;White.bmp 480 480;Clear;AntiShipMissile.wav
+フォルブレイズ, MultipleRocketLauncher(Light).wav
+フォルブレイズ(命中), MicroMissile.wav
+アーリアル(準備), Glass.wav;1;White.bmp 480 480;Clear
+アーリアル, Hittyuu.wav
+アーリアル(命中), 3;Flair.wav;MicroMissile.wav
+アポカリプス(準備), Glass.wav;1;White.bmp 480 480;Clear;Charge(long).wav
+アポカリプス, Storm.wav
+アポカリプス(命中), MicroMissile.wav
+

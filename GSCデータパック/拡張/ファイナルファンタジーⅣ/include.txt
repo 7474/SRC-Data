@@ -1,0 +1,47 @@
+
+*プロローグ:
+
+#　　ここに、アズリエル、ハニエルなどの分裂を無効化する属性を列記する。
+
+Set FF03_分裂無効化属性[1] 魔
+Set FF03_分裂無効化属性[2] 闇
+
+#　　ここに、分裂するモンスターのリストを書く。
+
+Set FF03_分裂モンスター[1] アズリエル
+Set FF03_分裂モンスター[2] ハニエル
+
+Exit
+
+*攻撃後 全 全:
+
+
+For i = 1 To Count(FF03_分裂モンスター)
+
+	If Unit(対象ユニットＩＤ) = FF03_分裂モンスター[i] Then
+		If (Call(FF03_分裂判定, 相手ユニットＩＤ, 相手ユニット使用武器) = 1 Then
+			Create Party(対象ユニットＩＤ) Unit(対象ユニットＩＤ) Rank(対象ユニットＩＤ) Pilot(対象ユニットＩＤ) Level(対象ユニットＩＤ) X(対象ユニットＩＤ) Y(対象ユニットＩＤ)
+		Endif
+	Endif
+
+	If Unit(相手ユニットＩＤ) = FF03_分裂モンスター[i] Then
+		If (Call(FF03_分裂判定, 対象ユニットＩＤ, 対象ユニット使用武器) = 1 Then
+			Create Party(相手ユニットＩＤ) Unit(相手ユニットＩＤ) Rank(相手ユニットＩＤ) Pilot(相手ユニットＩＤ) Level(相手ユニットＩＤ) X(相手ユニットＩＤ) Y(相手ユニットＩＤ)
+		Endif
+	Endif
+
+Next
+
+Exit
+
+FF03_分裂判定:
+
+For i = 1 To Count(FF03_分裂無効化属性)
+
+	If Info(ユニット, Args(1), 武器, Args(2), 属性所有, FF03_分裂無効化属性[i]) = Then
+		Return 0
+	Endif
+
+Next
+
+Return 1

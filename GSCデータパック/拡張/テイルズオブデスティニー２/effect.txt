@@ -1,0 +1,294 @@
+
+カイル＝デュナミス
+蒼破刃, Saber.wav
+蒼破刃(命中), Explode(Small).wav
+空翔斬(命中), 2;Saber.wav;Saber.wav
+散葉塵(命中), 1;Saber.wav;1;Saber.wav;Saber.wav
+爆炎剣, 1;Saber.wav;Fire.wav
+爆炎剣(命中), Explode(Small)
+閃光衝, Whiz.wav
+閃光衝(命中), Saber.wav
+牙連蒼破塵(命中), 3;Saber.wav;3;Saber.wav;3;Saber.wav;3;Explode(Small).wav
+牙連蒼破塵(クリティカル), ;1;Saber.wav;1;Saber.wav;1;Saber.wav;_
+「それですむかよっ！」;1;Saber.wav;Saber.wav;_
+「裂衝！」;0.8;Slash.wav;0.8;Slash.wav;0.8;Slash.wav;3;Slash.wav;_
+「裂衝！ 蒼破塵！！」
+空破絶風撃, 1;Saber.wav;3;Saber.wav;10;Storm.wav
+空破絶風撃(命中), 6;Crash.wav
+空破絶風撃(クリティカル), 1;Hittyuu.wav;_
+「空を断つ……！」;「喰らえ！」;7;Slash.wav;_
+「絶破！」;1;Fire.wav;_
+「絶破！ 滅焼撃！！;8;Explode(Nuclear).wav
+屠龍連撃破(命中), 2;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;2;Saber.wav;6;Slash.wav
+屠龍連撃破(クリティカル), 2;Slash.wav;_
+「見切った！」;3;Slash.wav;3;Slash.wav;3;Slash.wav;_
+「トドメだ！　蒼龍！」;12;Saber.wav;0.7;Shock(Low).wav;0.7;Shock(Low).wav;0.7;Shock(Low).wav;0.7;Shock(Low).wav;0.7;Shock(Low).wav;0.7;Shock(Low).wav;0.7;Shock(Low).wav;0.7;Shock(Low).wav;0.7;Shock(Low).wav;0.7;Shock(Low).wav;2;Shock(Low).wav;_
+「トドメだ！　蒼龍！ 滅牙斬！！」
+疾空連殺剣(命中), 1;Saber.wav;2;Saber.wav;1;Saber.wav;1;Saber.wav;1;Saber.wav;2;Saber.wav;3;Slash(2).wav
+疾空連殺剣(クリティカル), ;_
+「見せてやる……」;Slash.wav;_
+「貫け！」;Slash(3).wav;_
+「斬！」;Slash(3).wav;_
+「斬！　空！」;Slash(3).wav;_
+「斬！　空！　天！」;Slash(3).wav;_
+「斬！　空！　天！　翔！」;10;Slash(3).wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;10;Slash.wav;_
+「斬！　空！　天！　翔！　けぇぇぇぇぇん！！」
+岩斬滅砕陣, 8;Swing.wav;4.3;Combo.wav;10;MicroMissile.wav
+岩斬滅砕陣(命中), 6;Crash.wav
+岩斬滅破陣(クリティカル), 4;Slash.wav;4;Slash.wav;_
+「飛翔せよ、疾空の刃！」;6;Whiz.wav;6;Whiz.wav;_
+「奥義！」;1;Shock(Low).wav;1;Shock(Low).wav;1;Shock(Low).wav;2;Shock(Low).wav;1;Slash(4).wav;1;Slash(4).wav;8;Slash(4).wav;_
+「奥義！ 翔王絶燐衝！！」
+
+リアラ
+空翔弾, 1;Punch.wav;3;Whiz.wav;BeamShot.wav
+空翔弾(命中), Explode(Small).wav
+風神招(命中), Whiz.wav
+護法蓮, Bubble.wav
+流蓮弾, 3;BeamShot.wav;3;BeamShot.wav;BeamShot.wav
+インブレイスエンド(クリティカル), 8;Sharara.wav;_
+「我が呼びかけに応えよ！」;1.5;Bazooka.wav;1.5;Bazooka.wav;1.5;Bazooka.wav;10;Splash.wav;_
+「静かなる意思、粛正の力に換えて！」;8;Bubble.wav;_
+「正義の心、我等に！！」
+フィアフルストーム(クリティカル), 8;Sharara.wav;_
+「我が呼びかけに応えよ！」;Whiz.wav;_
+「舞い降りし疾風の巫女よ！」1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;_
+「我らに仇なす、意思を切り裂かん！！」;1;Storm.wav;1;Storm.wav;1;Storm.wav;Storm.wav
+グランヴァニッシュ(クリティカル), 8;Sharara.wav;_
+「我が呼びかけに応えよ！」;6;MicroMissile.wav;_
+「荘厳なる意思は今ここに！」;1;Bazooka.wav;1;Bazooka.wav;1;Bazooka.wav;1;Bazooka.wav;_
+「荘厳なる意思は今ここに！ 来たれ、大地の煌き！！」;8;Earthquake.wav
+
+ロニ＝デュナミス
+双打鐘(命中), Punch(2).wav
+雷神招(命中), 2;Saber.wav;Thunder.wav
+霧氷翔, Swing.wav
+霧氷翔(命中), Flair.wav
+放墜鐘, Saber.wav
+放墜鐘(命中), Whiz.wav
+爆灰鐘(命中), FightHit(3).wav
+割破爆走撃, Stairs(Run).wav
+割破爆走撃(命中), 5;Punch(4).wav
+割破爆走撃(クリティカル), 20;Fire.wav;_
+「貴様を屠る……」;4;Slash.wav;4;Slash.wav;_
+「貴様を屠る……この俺の一撃！」;Explode(Nuclear).wav;_
+「クリティカルブレード！！」
+空破特攻弾(命中), 10;Jet.wav
+空破特攻弾(クリティカル), 13;Stairs(Run).wav;_
+「我が道突き進む！」;9;Swing.wav;1;Drill.wav;1;Drill.wav;1;Drill.wav;1;Drill.wav;1;Drill.wav;6;Drill.wav;_
+「スパイラルドライバー！！」
+戦吼爆ッ破(命中), 4;Punch.wav;7;Crash.wav
+戦吼爆ッ破(クリティカル), 5;Punch.wav;_
+「叩きのめす！」;7;Punch(2).wav;_
+「まだのめす！！」;Punch(3).wav;10;_
+「さらにのめす！！！」;9;Charge.wav;_
+「それが！」;1;MicroMissile.wav;_
+「それが！ ファイナルプレイヤー！！」
+神空割砕人, 2;FightHit(3).wav;Swing.wav
+神空割砕人(命中), 2;FightHit(4).wav;3;Crash.wav
+神空割砕人(クリティカル), 3;Hittyuu.wav;_
+「続けて喰らえ！」;1;Slash(2).wav;_
+「震天」;1;Whiz.wav;_
+「震天裂空」;1;Glass.wav;_
+「震天裂空斬光」;1;Storm.wav;_
+「震天裂空斬光旋風」;1;Bazooka.wav;_
+「震天裂空斬光旋風滅砕」;1;Saber.wav;_
+「震天裂空斬光旋風滅砕神罰」;8;Explode(Nuclear).wav;_
+「震天裂空斬光旋風滅砕神罰割殺撃！！」;_
+神空割砕人(失敗), 2;FightHit(3).wav;Swing.wav
+神空割砕人(失敗)(命中), 2;FightHit(4).wav;3;Crash.wav
+
+ジューダス
+飛連斬(命中), Saber.wav
+双連撃(命中), 3;Saber.wav;3;Saber.wav;3;Saber.wav;Saber.wav
+幻影刃, Saber.wav
+幻影刃(命中), 3;Saber.wav;2;Whiz.wav;Slash(3).wav
+月閃光, Slash(4).wav
+月閃光(命中), Slash(4).wav
+千裂虚光閃, Saber.wav
+千裂虚光閃(命中), 1;Stab.wav;1;Stab.wav;1;Stab.wav;1;Stab.wav;6;Stab.wav
+千裂虚光閃(クリティカル), 2;Slash(3).wav;2;Slash(3).wav;_
+「切り刻む！」;2;Slash(3).wav;2;Slash(3).wav;_
+「遅い！」;2;Slash(3).wav;2;Slash(3).wav;2;Slash(3).wav;8;Slash(3).wav;5;Slash(2).wav;_
+「魔人千裂衝！！」;10;AntiAirMissile.wav;_
+「二度と会う事も無いだろう」
+粉塵裂破衝, 1;Reload(2).wav;7;Explode.wav
+粉塵裂破衝(命中), 5;Explode.wav
+粉塵裂破衝(命中), 7;Explode(Small).wav;_
+「チリも残さん！ 行くぞ！」;2;Fire.wav;0.6;Shock(Low).wav;0.6;Shock(Low).wav;8;Shock(Low).wav;_
+「浄破滅焼闇！！」;10;_
+「闇の炎に抱かれて消えろ！」
+崩龍斬光剣, 1.2;Saber.wav;1.2;Saber.wav;1.2;Saber.wav
+崩龍斬光剣(命中), 1.2;Saber.wav;1.2;Saber.wav;3.5;Saber.wav;5;Walk(Snow).wav
+崩龍斬光剣(クリティカル), ;_
+「見切れるか？」;2;Slash(2).wav;2;Slash(2).wav;2;Slash(2).wav;_
+「見切れるか？　遅い！」;Slash(2).wav;0.5;Slash(2).wav;0.5;Slash(2).wav;0.5;Slash(2).wav;0.5;Slash(2).wav;0.5;Slash(2).wav;0.5;Slash(2).wav;0.5;Slash(2).wav;0.5;Slash(2).wav;0.5;Slash(2).wav;10;Slash(4).wav;_
+「翔破裂光閃！！」;10;_
+「貴様に見切れる筋も無い」
+魔人滅殺闇(失敗), Saber.wav
+魔人滅殺闇(失敗)(命中), 1;Shock(Low).wav;1;Shock(Low).wav;6;Shock(Low).wav;5;BeamSaber.wav
+魔人滅殺闇(失敗)(クリティカル), ;_
+「交わらざれし命に」;2.5;Saber.wav;2.5;Saber.wav;2;Saber.wav;2.5;Slash.wav;_
+「今もたらされん刹那の奇跡」;5;Hittyuu.wav;_
+「時を経て……」;2;Saber.wav;1.5;Saber.wav;1.5;Saber.wav;2;Saber.wav;3;Saber.wav;2;Slash.wav;_
+「時を経て……ここに融合せし未来への胎動！」;15;Charge(High).wav;_
+「義聖剣！！」;10;「僕には……無理だ……」
+魔人滅殺闇, Saber.wav
+魔人滅殺闇(命中), 1;Shock(Low).wav;1;Shock(Low).wav;6;Shock(Low).wav;5;BeamSaber.wav
+魔人滅殺闇(クリティカル), ;_
+「交わらざれし命に」;2.5;Saber.wav;2.5;Saber.wav;2;Saber.wav;2.5;Slash.wav;_
+「今もたらされん刹那の奇跡」;5;Hittyuu.wav;_
+「時を経て……」;2;Saber.wav;1.5;Saber.wav;1.5;Saber.wav;2;Saber.wav;3;Saber.wav;2;Slash.wav;_
+「時を経て……ここに融合せし未来への胎動！」;15;Charge(High).wav;_
+「義聖剣！！」;7;Glass.wav;5;Slash(4).wav;6;Fire.wav;_
+@TOD2_Judas(N).bmp;「僕は、過去を断ち切る……！」;2;Walk(Snow).wav;3;Walk(Snow).wav;_
+「散れ！」;4;Charge(High).wav;_
+「散れ！ 真神煉獄刹！！」;Explode(long).wav
+
+ナナリー＝フレッチ
+烈火閃, 6;Fire.wav;Bow.wav
+烈火閃(命中), Explode.wav
+扇氷閃, 6;EvilEye.wav;Bow.wav
+扇氷閃(命中), Flair.wav
+牙連閃, 1;Bow.wav;1;Bow.wav;Bow.wav
+牙連閃(命中), 1;Stab.wav;1;Stab.wav;Stab.wav
+墜陽閃, Bow.wav
+墜陽閃, 2;Stab.wav;Stab.wav
+虚空閃, 2;Swing.wav;Bow.wav
+虚空閃(命中), Whiz.wav
+龍炎閃, Fire.wav
+龍炎閃(命中), Beam.wav
+ワイルド・ギース(準備), Flair.wav
+ワイルド・ギース(攻撃), 5;Reload(3).wav;Beam.wav
+ワイルド・ギース(命中), Breath.wav;_
+「炎よ……」;6;Charge.wav;_
+「炎よ……潰す！！」;6;Breath.wav;Explode(Nuclear).wav
+
+ハロルド＝ベルセリオス
+雷牙衝(命中), Thunder.wav
+華連撃(命中), Punch(3).wav
+影閃剣(命中), Slash(2).wav
+鏡影槍(命中), Flair.wav
+エンシェントノヴァ(クリティカル), 8;Sharara.wav;_
+「具現せよ、精霊の結晶！」;5;Warship.wav;10;Fire.wav;_
+「具現せよ、精霊の結晶！ フランブレイブ！！」;_
+「灼熱と、業火の意志よ！」;1;Shock(Low).wav;1;Shock(Low).wav;7;Shock(Low).wav;1;Shock(Low).wav;1;Shock(Low).wav;7;Shock(Low).wav;7;Charge(2).wav;_
+「灼熱と、業火の意志よ！　焼き尽くせッ！！」;4;Breath.wav;15;Explode(Nuclear).wav
+ディバインセイバー(クリティカル), 8;Sharara.wav;_
+「具現せよ、精霊の結晶！」;6;Hittyuu.wav;Whip.wav;_
+「具現せよ、精霊の結晶！ ソルブライト！！」;3;Saber.wav;3;Saber.wav;_
+「至高の意思よ、我らに力を！」;10;MicroMissile.wav;1.5;Explode.wav;1.5;Explode.wav;1.5;Explode.wav;1.5;Explode.wav;1.5;Explode.wav;5;Explode.wav;_
+「願わくば浄化の光、彼らを救わん！！」;10;Charge(High).wav
+エクセキューション(クリティカル), 8;Sharara.wav;_
+「具現せよ、精霊の結晶！」;BeamSaber.wav;_
+「具現せよ、精霊の結晶！ ルナシェイド！！」;5;Storm.wav;_
+「汚れ無き断罪の意思！.思い知れ！」;0.5;Slash(4).wav;_
+「汚れ無き断罪の意思！.思い知れ！ 刻み込め！」;0.5;Slash(4).wav;_
+「汚れ無き断罪の意思！.思い知れ！ 刻み込め！　ここに散れッ！！」;Sword.wav
+
+バルバトス＝ゲーティア
+三連殺, Whiz.wav
+三連殺(命中), 「死ぬか！」;Explode.wav;「消えるか！」;Storm.wav;「土下座してでも生き延びるのかッ！！」;WarShip.wav
+三連殺(命中), 「貴様の死に場所は……ここだ！」;Explode.wav;「ここだッ！」;Storm.wav;「ここだァ！！」;WarShip.wav
+
+封じられし者マグナディウエス
+Ｉ・ジャッジメント(命中), 6;Glass.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;7;BeamShot.wav;8;Slash(4).wav;「一撃で葬ろう……」;Glass.wav;「耐えられるか？ 耐えられまい……」
+
+ＴＯＤ２
+アクアスパイク, Bubble.wav
+アクアスパイク(命中), Splash.wav
+スプラッシュ, Bubble.wav
+スプラッシュ(命中), 4.5;Splash.wav;4.5;Splash.wav;Splash.wav
+インブレイスエンド, 9;Flair.wav;4;Bomb.wav
+インブレイスエンド(命中), Slash(4).wav
+ヒール, Sharara.wav
+キュア, Bubble.wav
+リザレクション, Sharara.wav
+リザレクション(命中), 3;Bubble.wav;3;Bubble.wav;Bubble.wav
+レイズデッド, Sharara.wav
+レイズデッド(命中), Hittyuu.wav
+ウインドスラッシュ(命中), 2;Slash.wav;Slash.wav
+スラストファング, Whiz.wav
+スラストファング(命中), 2;Slash.wav;2;Slash.wav;2;Slash.wav;Slash.wav
+フィアフルストーム, Storm.wav
+フィアフルストーム(命中), 2;Slash.wav;2;Slash.wav;2;Slash.wav;2;Slash.wav;2;Slash.wav;3;Slash.wav;Slash.wav
+フレイムドライブ, Warship.wav
+フレイムドライブ(命中), Fire.wav
+バーンストライク, 3;Bomb.wav;3;Bomb.wav;Bomb.wav
+バーンストライク(命中), 3;Explode.wav;7;Explode.wav;Explode.wav
+エンシェントノヴァ, 21;Wind.wav;1;Bomb.wav;8;Explode(Nuclear).wav;Explode(Nuclear).wav
+ストーンザッパー, Bomb.wav
+ストーンザッパー(命中), Punch.wav
+エアプレッシャー(命中), 1;Bazooka.wav;1;Bazooka.wav;1;Bazooka.wav;10;Bazooka.wav;Bazooka.wav
+グランヴァニッシュ, 5;Sword.wav;FastGun.wav
+デルタレイ, BeamShot.wav
+プリズムフラッシャ, Sharara.wav
+プリズムフラッシャ(命中), 1.5;Glass.wav;1.5;Glass.wav;1.5;Glass.wav;Glass.wav
+ディバインセイバー, Sharara.wav
+ディバインセイバー(命中), 2;Thunder.wav;2;Thunder.wav;2;Thunder.wav;2;Thunder.wav;1;Thunder.wav;1;Thunder.wav;1;Thunder.wav;1;Thunder.wav;1;Thunder.wav;6;Thunder.wav;BeamCoat.wav
+シャドウエッジ, Saber.wav
+シャドウエッジ(命中), Slash(2).wav
+ネガティブゲイト, Fold.wav
+ネガティブゲイト(命中), 0.7;Shock(Low).wav;0.7;Shock(Low).wav;0.7;Shock(Low).wav;0.7;Shock(Low).wav;0.7;Shock(Low).wav;Shock(Low).wav
+エクセキューション, Fold.wav
+エクセキューション(命中), 2;Shock(Low).wav;2;Shock(Low).wav;2;Shock(Low).wav;2;Shock(Low).wav;2;Shock(Low).wav;2;Shock(Low).wav;2;Shock(Low).wav;6;Shock(Low).wav;Explode.wav
+クレイジーコメット, 6;Bomb.wav;2;Bazooka.wav;2;Bazooka.wav;2;Bazooka.wav;2;Bazooka.wav;2;Bazooka.wav;2;Bazooka.wav
+クレイジーコメット(命中), 20;Fold.wav;2;Glass.wav;Explode(Nuclear).wav
+Ｉ・ジャッジメント, Thunder.wav
+Ｉ・ジャッジメント(命中), 6;Glass.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;7;BeamShot.wav;8;Slash(4).wav;「インディグネイト・ジャッジメント！！」;Glass.wav
+Ｉ・ジャッジメント(解説), $(ユニット)はインディグネイト・ジャッジメントの呪文を唱えた。
+ラストヴァニッシャー, 5;AntiShipMissile.wav;5;AntiShipMissile.wav;5;AntiShipMissile.wav;AntiShipMissile.wav
+ラストヴァニッシャー(命中), MicroMissile.wav
+時を頂く！, EvilEye.wav
+時を頂く！(クリティカル), Glass.wav
+スピリッツリバース, Whiz.wav
+スネークバイト(命中), 4;Stab.wav;4;Stab.wav;4;Stab.wav;Stab.wav
+スネークバイト(クリティカル), 4;Stab.wav;Stab.wav
+ドラゴンキャノン, Interference.wav
+ドラゴンキャノン(命中), Explode(Long).wav
+ビーストロアー, Breath.wav
+ストラグネイト, Glass.wav
+ストラグネイト(命中), Flair.wav
+フリーズハンター, 1.1;EvilEye.wav;1.1;EvilEye.wav;EvilEye.wav
+ヴォルテックヒート, 6;Hittyuu.wav;2.5;Slash(3).wav;Slash(3).wav
+シャイニングスピア, Sharara.wav
+シャイニングスピア(命中), 7;Glass.wav;0.9;Stab.wav;0.9;Stab.wav;0.9;Stab.wav;0.9;Stab.wav;0.9;Stab.wav;3;Stab.wav;Glass.wav
+マッドプール, EvilEye.wav
+マッドプール(クリティカル), Splash.wav
+アイスバーン, EvilEye.wav
+アイスバーン(クリティカル), Flair.wav
+ジェノサイドブレイバー, Bazooka.wav
+ジェノサイドブレイバー(命中), LaserGun.wav
+ポイゾニックフィールド, EvilEye.wav
+ポイゾニックフィールド(クリティカル), Fold.wav
+瞬雷刃, 1;Wind.wav;Thunder.wav
+雷破斬, 2;Slash(2).wav;Thunder.wav
+雷斬轟天撃, 4;Thunder.wav;1;Sword.wav;1;Sword.wav;Sword.wav
+抜刀・裂衝牙, Whiz.wav
+
+
+#蒼破刃(クリティカル), 2;Saber.wav;Saber.wav
+#空翔斬(クリティカル), 5;Slash(2).wav;Whiz.wav
+#散葉塵(クリティカル), 5;Stab.wav;Slash(2).wav
+#爆炎剣(クリティカル), 3;Fire.wav;Fire.wav
+#閃光衝(クリティカル), 2;BeamSaber.wav;Saber.wav
+#双打鐘(クリティカル), Punch(2).wav
+#雷神招(クリティカル), Thunder.wav
+#霧氷翔(クリティカル), FightHit(2).wav
+#放墜鐘(クリティカル), Beam.wav
+#爆灰鐘(クリティカル), FightHit(3).wav
+#飛連斬(クリティカル), Saber.wav
+#双連撃(クリティカル), 2;Swing.wav;Saber.wav
+#幻影刃(クリティカル), 2;Whiz.wav;Saber.wav
+#月閃光(クリティカル), Slash(4).wav
+#アクアスパイク(クリティカル), 1.1;EvilEye.wav;1.1;EvilEye.wav;EvilEye.wav
+#スプラッシュ(クリティカル), 1;Reload(2).wav;1;Reload(2).wav;1;Reload(2).wav;1;Reload(2).wav;1;Reload(2).wav;1;Reload(2).wav;1;Reload(2).wav;Reload(2).wav
+#ウインドスラッシュ(クリティカル), 5;Storm.wav;Slash(3).wav
+#スラストファング(クリティカル), 6;Hittyuu.wav;2.5;Slash(3).wav;Slash(3).wav
+#フレイムドライブ(クリティカル), 20;Explode.wav;Explode.wav
+#ストーンザッパー(クリティカル), 2;Reload(3).wav;2;Reload(3).wav;Reload(3).wav
+#エアプレッシャー(クリティカル), 1;Shock(Low).wav;1;Shock(Low).wav;1;Shock(Low).wav;1;Shock(Low).wav;1;Shock(Low).wav;1;Shock(Low).wav;1;Shock(Low).wav;Shock(Low).wav
+#プリズムフラッシャ(クリティカル), 7;Glass.wav;0.9;Stab.wav;0.9;Stab.wav;0.9;Stab.wav;0.9;Stab.wav;0.9;Stab.wav;3;Stab.wav;Glass.wav
+#シャドウエッジ(クリティカル), 11;Slash(2).wav;Shock(Low).wav
+#ネガティブゲイト(クリティカル), 1;Swing(2).wav;1;Swing(2).wav;1;Swing(2).wav;Swing(2).wav
+
