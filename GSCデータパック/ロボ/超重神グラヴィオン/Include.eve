@@ -1,29 +1,29 @@
-## ”Ä—pí“¬ƒAƒjƒ‚ğ‰ü•Ï‚µ‚Ä§ìBu“®‚¯‚Î‚¢‚¢v‚ÌS‚Åì‚Á‚½‚½‚ß‚©‚È‚è–³‘Ê‚È‹Lq‚ª‘½‚¢‚Å‚·cc
+## æ±ç”¨æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ã‚’æ”¹å¤‰ã—ã¦åˆ¶ä½œã€‚ã€Œå‹•ã‘ã°ã„ã„ã€ã®å¿ƒã§ä½œã£ãŸãŸã‚ã‹ãªã‚Šç„¡é§„ãªè¨˜è¿°ãŒå¤šã„ã§ã™â€¦â€¦
 
-#### ’´dŒ•(ƒ\ƒ‹ƒOƒ‰ƒ”ƒBƒIƒ“—p)í“¬ƒAƒjƒ
+#### è¶…é‡å‰£(ã‚½ãƒ«ã‚°ãƒ©ãƒ´ã‚£ã‚ªãƒ³ç”¨)æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_’´dŒ•ƒ\ƒ‹•ÏŒ`€”õ:
-#ˆø”‚P •ÏŒ`‘O‚Ì•Ší‰æ‘œ
-#ˆø”‚Q •ÏŒ`‘O‚Ì•ŠíƒTƒCƒY
-#ˆø”‚R •ÏŒ`‘O‚Ì•Ší‰æ‘œ
-#ˆø”‚S •ÏŒ`‘O‚Ì•ŠíƒTƒCƒY
-#ˆø”‚T Œø‰Ê‰¹
-#ˆø”‚U ”­Œõ
-#ˆø”‚V ƒ†ƒjƒbƒg‚h‚c
-#ˆø”‚W “ñ“—¬
-Call í“¬ƒAƒjƒ_’´dŒ•ƒ\ƒ‹€”õ Args(1) Args(2) _GetIDFromArgs() "-.wav" _
-                             _SearchOptionFromArgs("”­Œõ") _SearchOptionFromArgs("“ñ“—¬")
-Call í“¬ƒAƒjƒ_’´dŒ•ƒ\ƒ‹€”õ Args(3) Args(4) _GetIDFromArgs() _GetName("BeamCoat.wav",_GetWavFromArgs()) _
-                             _SearchOptionFromArgs("”­Œõ") _SearchOptionFromArgs("“ñ“—¬")
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è¶…é‡å‰£ã‚½ãƒ«å¤‰å½¢æº–å‚™:
+#å¼•æ•°ï¼‘ å¤‰å½¢å‰ã®æ­¦å™¨ç”»åƒ
+#å¼•æ•°ï¼’ å¤‰å½¢å‰ã®æ­¦å™¨ã‚µã‚¤ã‚º
+#å¼•æ•°ï¼“ å¤‰å½¢å‰ã®æ­¦å™¨ç”»åƒ
+#å¼•æ•°ï¼” å¤‰å½¢å‰ã®æ­¦å™¨ã‚µã‚¤ã‚º
+#å¼•æ•°ï¼• åŠ¹æœéŸ³
+#å¼•æ•°ï¼– ç™ºå…‰
+#å¼•æ•°ï¼— ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+#å¼•æ•°ï¼˜ äºŒåˆ€æµ
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è¶…é‡å‰£ã‚½ãƒ«æº–å‚™ Args(1) Args(2) _GetIDFromArgs() "-.wav" _
+                             _SearchOptionFromArgs("ç™ºå…‰") _SearchOptionFromArgs("äºŒåˆ€æµ")
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è¶…é‡å‰£ã‚½ãƒ«æº–å‚™ Args(3) Args(4) _GetIDFromArgs() _GetName("BeamCoat.wav",_GetWavFromArgs()) _
+                             _SearchOptionFromArgs("ç™ºå…‰") _SearchOptionFromArgs("äºŒåˆ€æµ")
 Return "Keep"
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_’´dŒ•ƒ\ƒ‹€”õ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è¶…é‡å‰£ã‚½ãƒ«æº–å‚™:
 
 UpVar
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Local C_X = WX(UID)
 Local C_Y = WY(UID)
@@ -40,48 +40,48 @@ _SelectSound "-.wav" _GetWavFromArgs()
 If (_IsDoubleWeapon() = 1) Then
   Wait Start
   ClearPicture
-  PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4) G_S G_S “§‰ß T_COL_F
-  PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+  PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4) G_S G_S é€é T_COL_F
+  PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4) G_S G_S é€é å·¦å³åè»¢ T_COL_F
   Refresh
   Wait Until 1
   ClearPicture
-  PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4) G_S G_S “§‰ß T_COL_F
-  PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+  PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4) G_S G_S é€é T_COL_F
+  PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4) G_S G_S é€é å·¦å³åè»¢ T_COL_F
   Refresh
   Wait Until 2
   ClearPicture
-  PaintPicture WP_FILE (C_X - 16 + X_P) C_Y G_S G_S “§‰ß T_COL_F
-  PaintPicture WP_FILE (C_X + 16 + X_P) C_Y G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+  PaintPicture WP_FILE (C_X - 16 + X_P) C_Y G_S G_S é€é T_COL_F
+  PaintPicture WP_FILE (C_X + 16 + X_P) C_Y G_S G_S é€é å·¦å³åè»¢ T_COL_F
   Refresh
   Wait Until 3.5
 Else
-  If (X(UID) >= _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
+  If (X(UID) >= _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
 # -8, -8
     Wait Start
     ClearPicture
-    PaintPicture WP_FILE (C_X - 4 + X_P) (C_Y - 4) G_S G_S “§‰ß T_COL_F
+    PaintPicture WP_FILE (C_X - 4 + X_P) (C_Y - 4) G_S G_S é€é T_COL_F
     Refresh
     Wait Until 1
     ClearPicture
-    PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y - 12) G_S G_S “§‰ß T_COL_F
+    PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y - 12) G_S G_S é€é T_COL_F
     Refresh
     Wait Until 2
     ClearPicture
-    PaintPicture WP_FILE (C_X - 8 + X_P) (C_Y - 10) G_S G_S “§‰ß T_COL_F
+    PaintPicture WP_FILE (C_X - 8 + X_P) (C_Y - 10) G_S G_S é€é T_COL_F
     Refresh
     Wait Until 3.5
   Else
     Wait Start
     ClearPicture
-    PaintPicture WP_FILE (C_X + 4 + X_P) (C_Y - 4) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+    PaintPicture WP_FILE (C_X + 4 + X_P) (C_Y - 4) G_S G_S é€é å·¦å³åè»¢ T_COL_F
     Refresh
     Wait Until 1
     ClearPicture
-    PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y - 12) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+    PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y - 12) G_S G_S é€é å·¦å³åè»¢ T_COL_F
     Refresh
     Wait Until 2
     ClearPicture
-    PaintPicture WP_FILE (C_X + 8 + X_P) (C_Y - 10) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+    PaintPicture WP_FILE (C_X + 8 + X_P) (C_Y - 10) G_S G_S é€é å·¦å³åè»¢ T_COL_F
     Refresh
     Wait Until 3.5
   EndIf
@@ -93,30 +93,30 @@ Return "Keep"
 
 
 ########
-# “ËŒ‚ #
+# çªæ’ƒ #
 ########
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_’´dŒ•ƒ\ƒ‹“ËŒ‚UŒ‚:
-#ˆø”‚P •Ší‰æ‘œƒtƒ@ƒCƒ‹
-#ˆø”‚Q ‰æ‘œƒTƒCƒY
-#ˆø”‚R Œø‰Ê‰¹
-#ˆø”‚S “ñ“—¬
-#ˆø”‚T ”­Œõ
-Call í“¬ƒAƒjƒ_’´dŒ•ƒ\ƒ‹“ËŒ‚UŒ‚‹¤’Ê Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7) U‚è
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è¶…é‡å‰£ã‚½ãƒ«çªæ’ƒæ”»æ’ƒ:
+#å¼•æ•°ï¼‘ æ­¦å™¨ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«
+#å¼•æ•°ï¼’ ç”»åƒã‚µã‚¤ã‚º
+#å¼•æ•°ï¼“ åŠ¹æœéŸ³
+#å¼•æ•°ï¼” äºŒåˆ€æµ
+#å¼•æ•°ï¼• ç™ºå…‰
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è¶…é‡å‰£ã‚½ãƒ«çªæ’ƒæ”»æ’ƒå…±é€š Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7) æŒ¯ã‚Š
 Return "Keep"
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_’´dŒ•ƒ\ƒ‹“ËŒ‚UŒ‚‹¤’Ê:
-#ˆø”‚P •Ší‰æ‘œƒtƒ@ƒCƒ‹
-#ˆø”‚Q ‰æ‘œƒTƒCƒY
-#ˆø”‚R Œø‰Ê‰¹
-#ˆø”‚S U‚èA“Ë‚«AËŒ‚‚Ì‚Ç‚ê‚©
-#ˆø”‚T “ñ“—¬
-#ˆø”‚U ”­Œõ
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è¶…é‡å‰£ã‚½ãƒ«çªæ’ƒæ”»æ’ƒå…±é€š:
+#å¼•æ•°ï¼‘ æ­¦å™¨ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«
+#å¼•æ•°ï¼’ ç”»åƒã‚µã‚¤ã‚º
+#å¼•æ•°ï¼“ åŠ¹æœéŸ³
+#å¼•æ•°ï¼” æŒ¯ã‚Šã€çªãã€å°„æ’ƒã®ã©ã‚Œã‹
+#å¼•æ•°ï¼• äºŒåˆ€æµ
+#å¼•æ•°ï¼– ç™ºå…‰
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Local C_X = WX(UID)
@@ -125,8 +125,8 @@ Local G_S = _GetPicSizeFromArgs()
 Local EFFECT_FILE = _GetBmpFromArgs()
 Local i
 Local ANG = _GetAngle(UID)
-Local X_F = _GetCircumference(ANG,‚w)
-Local Y_F = _GetCircumference(ANG,‚x)
+Local X_F = _GetCircumference(ANG,ï¼¸)
+Local Y_F = _GetCircumference(ANG,ï¼¹)
 Local W_X W_Y X_P LN
 Local BMP_FILE = _GetBMPName(UID)
 Local BMP_FILE2 = _GetTileName(UID)
@@ -139,16 +139,16 @@ _UnSetBattleAnimeValue
 
 Switch _GetMotionFromArgs()
 # -8, -8
-Case "U‚è"
+Case "æŒ¯ã‚Š"
   Set ANG 0
   Set X_P (8 - (G_S \ 2))
   Set W_Y (C_Y + 24 - G_S)
-  If (X(UID) >= _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
+  If (X(UID) >= _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
     Set W_X (C_X - G_S + 0)
     Set DRCT ""
   Else
     Set W_X (C_X + 0)
-    Set DRCT ¶‰E”½“]
+    Set DRCT å·¦å³åè»¢
   EndIf
 
 EndSw
@@ -156,7 +156,7 @@ EndSw
 Wait Start
 _SelectSound Whiz.wav _GetWavFromArgs()
 
-ChangeUnitBitmap UID ”ñ•\¦
+ChangeUnitBitmap UID éè¡¨ç¤º
 
 For i = 1 To 4
   ClearPicture
@@ -171,23 +171,23 @@ For i = 1 To 4
   Case 5
   EndSw
 
-  PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 32 32 “§‰ß DRCT T_COL
+  PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 32 32 é€é DRCT T_COL
 
   If (_IsDoubleWeapon() != 1) Then
-		If (Y(UID) > _Get_Y(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
-    	PaintPicture EFFECT_FILE ((W_X + 48) + (X_F * LN)) ((W_Y + 0) + (Y_F * LN)) G_S G_S “§‰ß DRCT DRCT2 ‰E‰ñ“] ANG T_COL_F
-		ElseIf (Y(UID) < _Get_Y(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
-			PaintPicture EFFECT_FILE ((W_X + 48) + (X_F * LN)) ((W_Y + 40) + (Y_F * LN)) G_S G_S “§‰ß DRCT DRCT2 ‰E‰ñ“] (ANG + 180) T_COL_F
+		If (Y(UID) > _Get_Y(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
+    	PaintPicture EFFECT_FILE ((W_X + 48) + (X_F * LN)) ((W_Y + 0) + (Y_F * LN)) G_S G_S é€é DRCT DRCT2 å³å›è»¢ ANG T_COL_F
+		ElseIf (Y(UID) < _Get_Y(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
+			PaintPicture EFFECT_FILE ((W_X + 48) + (X_F * LN)) ((W_Y + 40) + (Y_F * LN)) G_S G_S é€é DRCT DRCT2 å³å›è»¢ (ANG + 180) T_COL_F
 			
-  	ElseIf (X(UID) >= _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
-    	PaintPicture EFFECT_FILE ((W_X + 16) + (X_F * LN)) ((W_Y + 20) + (Y_F * LN)) G_S G_S “§‰ß DRCT DRCT2 ‰E‰ñ“] (ANG - 90) T_COL_F
+  	ElseIf (X(UID) >= _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
+    	PaintPicture EFFECT_FILE ((W_X + 16) + (X_F * LN)) ((W_Y + 20) + (Y_F * LN)) G_S G_S é€é DRCT DRCT2 å³å›è»¢ (ANG - 90) T_COL_F
 		Else
-			PaintPicture EFFECT_FILE ((W_X + 16) + (X_F * LN)) ((W_Y + 20) + (Y_F * LN)) G_S G_S “§‰ß DRCT DRCT2 ‰E‰ñ“] (ANG + 90) T_COL_F
+			PaintPicture EFFECT_FILE ((W_X + 16) + (X_F * LN)) ((W_Y + 20) + (Y_F * LN)) G_S G_S é€é DRCT DRCT2 å³å›è»¢ (ANG + 90) T_COL_F
 		EndIf
-#    PaintPicture EFFECT_FILE (W_X + (X_F * LN)) (W_Y + (Y_F * LN)) G_S G_S “§‰ß DRCT DRCT2 ‰E‰ñ“] ANG T_COL_F
+#    PaintPicture EFFECT_FILE (W_X + (X_F * LN)) (W_Y + (Y_F * LN)) G_S G_S é€é DRCT DRCT2 å³å›è»¢ ANG T_COL_F
   Else
-    PaintPicture EFFECT_FILE ((C_X + X_P - 16) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S G_S “§‰ß T_COL_F
-    PaintPicture EFFECT_FILE ((C_X + 16) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+    PaintPicture EFFECT_FILE ((C_X + X_P - 16) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S G_S é€é T_COL_F
+    PaintPicture EFFECT_FILE ((C_X + 16) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S G_S é€é å·¦å³åè»¢ T_COL_F
    EndIf
 
   Refresh
@@ -196,30 +196,30 @@ Next
 
 _SetAnimeData_UnitPoint (X_F * LN) (Y_F * LN) 0 DRCT "" "" UID
 
-ChangeUnitBitmap UID ”ñ•\¦‰ğœ
+ChangeUnitBitmap UID éè¡¨ç¤ºè§£é™¤
 
 Return "Keep"
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_’´dŒ•ƒ\ƒ‹“ËŒ‚–½’†:
-# ˆø”‚P ‰æ‘œƒtƒ@ƒCƒ‹–¼
-# ˆø”‚Q ‰æ‘œƒTƒCƒY
-# ˆø”‚R “ñ“—¬‚©”Û‚©
-# ˆø”‚S ‘ÅŒ‚ƒ^ƒCƒv
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è¶…é‡å‰£ã‚½ãƒ«çªæ’ƒå‘½ä¸­:
+# å¼•æ•°ï¼‘ ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«å
+# å¼•æ•°ï¼’ ç”»åƒã‚µã‚¤ã‚º
+# å¼•æ•°ï¼“ äºŒåˆ€æµã‹å¦ã‹
+# å¼•æ•°ï¼” æ‰“æ’ƒã‚¿ã‚¤ãƒ—
 
-Call í“¬ƒAƒjƒ_’´dŒ•ƒ\ƒ‹“ñí“ËŒ‚–½’† _GetBmpFromArgs() _GetPicSizeFromArgs() - - U‚è _GetATypeFromArgs() _IsLight() _GN(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è¶…é‡å‰£ã‚½ãƒ«äºŒç¨®çªæ’ƒå‘½ä¸­ _GetBmpFromArgs() _GetPicSizeFromArgs() - - æŒ¯ã‚Š _GetATypeFromArgs() _IsLight() _GN(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_’´dŒ•ƒ\ƒ‹“ñí“ËŒ‚–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è¶…é‡å‰£ã‚½ãƒ«äºŒç¨®çªæ’ƒå‘½ä¸­:
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,Args(8))
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,Args(8))
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
-Local C_X = WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local C_Y = WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Local C_X = WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local C_Y = WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Local A_X = WX(UID)
 Local A_Y = WY(UID)
 
@@ -230,8 +230,8 @@ Local G_S2 = _GetName(32,Args(4))
 Local W_Y1 = (C_Y + 32 - G_S1)
 Local W_Y2 = (C_Y + 32 - G_S2)
 Local ANG = _GetAngle(UID)
-Local X_F = _GetCircumference(ANG,‚w)
-Local Y_F = _GetCircumference(ANG,‚x)
+Local X_F = _GetCircumference(ANG,ï¼¸)
+Local Y_F = _GetCircumference(ANG,ï¼¹)
 
 Local i LN
 Local ANG2
@@ -246,21 +246,21 @@ Set X_P (16 - (G_S1 \ 2))
 //Set W_Y (C_Y + 32 - G_S1)
 Set W_Y1 (C_Y + 24 - G_S1)
 Set DRCT2 ""
-If (X(UID) >= X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
+If (X(UID) >= X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
 //  Set W_X (C_X - G_S1 + 16)
   Set W_X (C_X - G_S1 + 36)
   Set DRCT ""
 Else
 //  Set W_X (C_X + 16)
   Set W_X (C_X - 4)
-  Set DRCT ¶‰E”½“]
+  Set DRCT å·¦å³åè»¢
 EndIf
 
-# ‘Šè‚É“ËŒ‚‚µ‚Ä‚¢‚­‚Æ‚±‚ë
+# ç›¸æ‰‹ã«çªæ’ƒã—ã¦ã„ãã¨ã“ã‚
 
 Wait Start
 
-ChangeUnitBitmap UID ”ñ•\¦
+ChangeUnitBitmap UID éè¡¨ç¤º
 
 For i = 1 To 17
   ClearPicture
@@ -272,43 +272,43 @@ For i = 1 To 17
     Set LN -32
   Case 2
     PlaySound "Swing.wav"
-    PaintPicture "Common\EFFECT_AccidentalImage01.bmp" (C_X + (X_F * -32)) (C_Y + (Y_F * -32)) “§‰ß T_COL
+    PaintPicture "Common\EFFECT_AccidentalImage01.bmp" (C_X + (X_F * -32)) (C_Y + (Y_F * -32)) é€é T_COL
     Set LN 99
   Case 3
-    PaintPicture "Common\EFFECT_AccidentalImage01.bmp" (C_X + (X_F * -32)) (C_Y + (Y_F * -32)) “§‰ß T_COL
+    PaintPicture "Common\EFFECT_AccidentalImage01.bmp" (C_X + (X_F * -32)) (C_Y + (Y_F * -32)) é€é T_COL
   Case 4
-    PaintPicture "Hit\EFFECT_SuperChargeHit01.bmp" (C_X - 16) (C_Y - 16) 64 64 “§‰ß ‰E‰ñ“] ANG T_COL1
+    PaintPicture "Hit\EFFECT_SuperChargeHit01.bmp" (C_X - 16) (C_Y - 16) 64 64 é€é å³å›è»¢ ANG T_COL1
   Case 5
-    PaintPicture "Hit\EFFECT_SuperChargeHit02.bmp" (C_X - 16) (C_Y - 16) 64 64 “§‰ß ‰E‰ñ“] ANG T_COL1
-    PaintPicture "Common\EFFECT_Shine(Blue)01.bmp" (C_X + 4) (C_Y + 4) 24 24 “§‰ß T_COL1
+    PaintPicture "Hit\EFFECT_SuperChargeHit02.bmp" (C_X - 16) (C_Y - 16) 64 64 é€é å³å›è»¢ ANG T_COL1
+    PaintPicture "Common\EFFECT_Shine(Blue)01.bmp" (C_X + 4) (C_Y + 4) 24 24 é€é T_COL1
   Case 6
-    PaintPicture "Hit\EFFECT_SuperChargeHit02.bmp" (C_X - 16) (C_Y - 16) 64 64 “§‰ß ‰E‰ñ“] ANG T_COL1
-    PaintPicture "Common\EFFECT_Shine(Blue)02.bmp" (C_X + 4) (C_Y + 4) 24 24 “§‰ß T_COL1
+    PaintPicture "Hit\EFFECT_SuperChargeHit02.bmp" (C_X - 16) (C_Y - 16) 64 64 é€é å³å›è»¢ ANG T_COL1
+    PaintPicture "Common\EFFECT_Shine(Blue)02.bmp" (C_X + 4) (C_Y + 4) 24 24 é€é T_COL1
   Case 7
-    PaintPicture "Hit\EFFECT_SuperChargeHit02.bmp" (C_X - 16) (C_Y - 16) 64 64 “§‰ß ‰E‰ñ“] ANG T_COL1
-    PaintPicture "Common\EFFECT_Shine(Blue)03.bmp" (C_X + 4) (C_Y + 4) 24 24 “§‰ß T_COL1
+    PaintPicture "Hit\EFFECT_SuperChargeHit02.bmp" (C_X - 16) (C_Y - 16) 64 64 é€é å³å›è»¢ ANG T_COL1
+    PaintPicture "Common\EFFECT_Shine(Blue)03.bmp" (C_X + 4) (C_Y + 4) 24 24 é€é T_COL1
   Case 8
-    PaintPicture "Common\EFFECT_AccidentalImage01.bmp" (C_X + (X_F * 32)) (C_Y + (Y_F * 32)) “§‰ß T_COL
-    PaintPicture "Common\EFFECT_SuperChargeHit01.bmp" (C_X - 16) (C_Y - 16) 64 64 “§‰ß ¶‰E”½“] ‰E‰ñ“] ANG T_COL1
+    PaintPicture "Common\EFFECT_AccidentalImage01.bmp" (C_X + (X_F * 32)) (C_Y + (Y_F * 32)) é€é T_COL
+    PaintPicture "Common\EFFECT_SuperChargeHit01.bmp" (C_X - 16) (C_Y - 16) 64 64 é€é å·¦å³åè»¢ å³å›è»¢ ANG T_COL1
   Case 9
-    PaintPicture "Common\EFFECT_AccidentalImage01.bmp" (C_X + (X_F * 32)) (C_Y + (Y_F * 32)) “§‰ß T_COL
+    PaintPicture "Common\EFFECT_AccidentalImage01.bmp" (C_X + (X_F * 32)) (C_Y + (Y_F * 32)) é€é T_COL
   Case 14
     Set LN 32
   EndSw
 
   If (LN != 99) Then
     If (((ANG Mod 360) > 90) And ((ANG Mod 360) < 270) ) Then
-      PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) “§‰ß ¶‰E”½“] T_COL
+      PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) é€é å·¦å³åè»¢ T_COL
     Else
-      PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) “§‰ß T_COL
+      PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) é€é T_COL
     EndIf
 
     If ((Args(1) != "") And (Args(1) != "-")) Then
       If ((Args(3) = "") Or (Args(3) = "-")) Then
-        PaintPicture Args(1) (W_X + (X_F * LN)) (W_Y1 + (Y_F * LN)) G_S1 G_S1 “§‰ß DRCT DRCT2 T_COL_F
+        PaintPicture Args(1) (W_X + (X_F * LN)) (W_Y1 + (Y_F * LN)) G_S1 G_S1 é€é DRCT DRCT2 T_COL_F
       Else
-        PaintPicture Args(1) ((C_X + X_P - 16) + (X_F * LN)) (W_Y1 + (Y_F * LN)) G_S1 G_S1 “§‰ß T_COL_F
-        PaintPicture Args(3) ((C_X + 16) + (X_F * LN)) (W_Y2  + (Y_F * LN)) G_S2 G_S2 “§‰ß ¶‰E”½“] T_COL_F
+        PaintPicture Args(1) ((C_X + X_P - 16) + (X_F * LN)) (W_Y1 + (Y_F * LN)) G_S1 G_S1 é€é T_COL_F
+        PaintPicture Args(3) ((C_X + 16) + (X_F * LN)) (W_Y2  + (Y_F * LN)) G_S2 G_S2 é€é å·¦å³åè»¢ T_COL_F
       EndIf
     EndIf
   EndIf
@@ -318,7 +318,7 @@ For i = 1 To 17
 Next
 
 
-# UŒ‚ƒGƒtƒFƒNƒg”­“®
+# æ”»æ’ƒã‚¨ãƒ•ã‚§ã‚¯ãƒˆç™ºå‹•
 
 If (((ANG Mod 360) > 90) And ((ANG Mod 360) < 270) ) Then
   Set ANG2 (ANG - 45)
@@ -334,25 +334,25 @@ For i = 1 To 4
 
   Switch i
   Case 1
-    PaintPicture "Hit\EFFECT_StrongSlashHit01.bmp" (C_X - 8) (C_Y - 8) 48 48 “§‰ß DRCT ‰E‰ñ“] ANG2 T_COL
+    PaintPicture "Hit\EFFECT_StrongSlashHit01.bmp" (C_X - 8) (C_Y - 8) 48 48 é€é DRCT å³å›è»¢ ANG2 T_COL
   Case 2
-    PaintPicture "Hit\EFFECT_StrongSlashHit02.bmp" (C_X - 8) (C_Y - 8) 48 48 “§‰ß DRCT ‰E‰ñ“] ANG2 T_COL
+    PaintPicture "Hit\EFFECT_StrongSlashHit02.bmp" (C_X - 8) (C_Y - 8) 48 48 é€é DRCT å³å›è»¢ ANG2 T_COL
   Case 3
-    PaintPicture "Hit\EFFECT_StrongSlashHit03.bmp" (C_X - 8) (C_Y - 8) 48 48 “§‰ß DRCT ‰E‰ñ“] ANG2 T_COL
+    PaintPicture "Hit\EFFECT_StrongSlashHit03.bmp" (C_X - 8) (C_Y - 8) 48 48 é€é DRCT å³å›è»¢ ANG2 T_COL
   EndSw
 
   If (((ANG Mod 360) > 90) And ((ANG Mod 360) < 270) ) Then
-    PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) “§‰ß ¶‰E”½“] T_COL
+    PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) é€é å·¦å³åè»¢ T_COL
   Else
-    PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) “§‰ß T_COL
+    PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) é€é T_COL
   EndIf
 
   If ((Args(1) != "") And (Args(1) != "-")) Then
     If ((Args(3) = "") Or (Args(3) = "-")) Then
-      PaintPicture Args(1) (W_X + (X_F * LN)) (W_Y1 + (Y_F * LN)) G_S1 G_S1 “§‰ß DRCT DRCT2 T_COL_F
+      PaintPicture Args(1) (W_X + (X_F * LN)) (W_Y1 + (Y_F * LN)) G_S1 G_S1 é€é DRCT DRCT2 T_COL_F
     Else
-      PaintPicture Args(1) ((C_X + X_P - 16) + (X_F * LN)) (W_Y1 + (Y_F * LN)) G_S1 G_S1 “§‰ß T_COL_F
-      PaintPicture Args(3) ((C_X + 16) + (X_F * LN)) (W_Y2  + (Y_F * LN)) G_S2 G_S2 “§‰ß ¶‰E”½“] T_COL_F
+      PaintPicture Args(1) ((C_X + X_P - 16) + (X_F * LN)) (W_Y1 + (Y_F * LN)) G_S1 G_S1 é€é T_COL_F
+      PaintPicture Args(3) ((C_X + 16) + (X_F * LN)) (W_Y2  + (Y_F * LN)) G_S2 G_S2 é€é å·¦å³åè»¢ T_COL_F
     EndIf
   EndIf
 
@@ -371,7 +371,7 @@ Next
 
 Wait Until 10
 
-ChangeUnitBitmap UID ”ñ•\¦‰ğœ
+ChangeUnitBitmap UID éè¡¨ç¤ºè§£é™¤
 
 ClearPicture
 Refresh

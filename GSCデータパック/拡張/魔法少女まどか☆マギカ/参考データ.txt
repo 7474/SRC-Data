@@ -1,420 +1,420 @@
-# ƒQ[ƒ€«‚ðdŽ‹‚µ‚½A‚Ü‚Ç‚©‚Æ‚Ù‚Þ‚ç‚ÌƒnƒCƒp[ƒ‚[ƒh‘Î‰žƒf[ƒ^‚Å‚·B
-# ƒ_ƒ“ƒWƒ‡ƒ“ŒnƒVƒiƒŠƒI‚Åo‚·Û‚É‚Å‚à‚¨Žg‚¢‚­‚¾‚³‚¢B
+# ã‚²ãƒ¼ãƒ æ€§ã‚’é‡è¦–ã—ãŸã€ã¾ã©ã‹ã¨ã»ã‚€ã‚‰ã®ãƒã‚¤ãƒ‘ãƒ¼ãƒ¢ãƒ¼ãƒ‰å¯¾å¿œãƒ‡ãƒ¼ã‚¿ã§ã™ã€‚
+# ãƒ€ãƒ³ã‚¸ãƒ§ãƒ³ç³»ã‚·ãƒŠãƒªã‚ªã§å‡ºã™éš›ã«ã§ã‚‚ãŠä½¿ã„ãã ã•ã„ã€‚
 
-## Ž­–Ú‚Ü‚Ç‚© ##
+## é¹¿ç›®ã¾ã©ã‹ ##
 
-Ž­–Ú‚Ü‚Ç‚©
-Ž­–Ú‚Ü‚Ç‚©, ‚©‚È‚ß‚Ü‚Ç‚©, (‚Ü‚Ç‚©™ƒ}ƒMƒJ(Ž­–Ú‚Ü‚Ç‚©ê—p)), 1, 2
-—¤, 3, S, 4000, 180
-“ÁŽê”\—Í
-«•Ê=—«
-Œ}Œ‚•Ší=ƒ}ƒWƒJƒ‹ƒAƒ[
+é¹¿ç›®ã¾ã©ã‹
+é¹¿ç›®ã¾ã©ã‹, ã‹ãªã‚ã¾ã©ã‹, (ã¾ã©ã‹â˜†ãƒžã‚®ã‚«(é¹¿ç›®ã¾ã©ã‹å°‚ç”¨)), 1, 2
+é™¸, 3, S, 4000, 180
+ç‰¹æ®Šèƒ½åŠ›
+æ€§åˆ¥=å¥³æ€§
+è¿Žæ’ƒæ­¦å™¨=ãƒžã‚¸ã‚«ãƒ«ã‚¢ãƒ­ãƒ¼
 3300, 150, 800, 65
 CACA, MAGICA_KanameMadokaU.bmp
-ƒ}ƒWƒJƒ‹ƒXƒ^ƒbƒt,          800,  1,  1,  +25,   -,   -,   -, AAAA,   +0, •
-ƒ}ƒWƒJƒ‹ƒAƒ[,           1200,  1,  4,  +10,   -,   5,   -, AABA,   +0, ŽÀ–‚
-ƒgƒDƒCƒ“ƒNƒ‹ƒAƒ[,       1400,  1,  4,   +0,   -,  10,   -, AABA,   +5, ŽÀ–‚
-ƒXƒ^[ƒ‰ƒCƒgƒAƒ[,       1600,  1,  4,  -10,   -,  20,   -, AABA,  +10, ŽÀ–‚
-ƒXƒvƒŒƒbƒgƒAƒ[,         1600,  1,  3,  +15,   -,  20, 105, AABA,   +0, ŽÀ–‚ŽU
-ƒ}ƒWƒJƒ‹ƒXƒR[ƒ‹,         1800,  3,  5,   +0,   -,  40, 110, AABA,  -10, ŽÀ–‚˜AL8
-ƒpƒjƒGƒƒPƒbƒg,           1900,  1,  1,  -30,   -,  30, 110, AACA,  +20, “Ë‚iL2
+ãƒžã‚¸ã‚«ãƒ«ã‚¹ã‚¿ãƒƒãƒ•,          800,  1,  1,  +25,   -,   -,   -, AAAA,   +0, æ­¦
+ãƒžã‚¸ã‚«ãƒ«ã‚¢ãƒ­ãƒ¼,           1200,  1,  4,  +10,   -,   5,   -, AABA,   +0, å®Ÿé­”
+ãƒˆã‚¥ã‚¤ãƒ³ã‚¯ãƒ«ã‚¢ãƒ­ãƒ¼,       1400,  1,  4,   +0,   -,  10,   -, AABA,   +5, å®Ÿé­”
+ã‚¹ã‚¿ãƒ¼ãƒ©ã‚¤ãƒˆã‚¢ãƒ­ãƒ¼,       1600,  1,  4,  -10,   -,  20,   -, AABA,  +10, å®Ÿé­”
+ã‚¹ãƒ—ãƒ¬ãƒƒãƒˆã‚¢ãƒ­ãƒ¼,         1600,  1,  3,  +15,   -,  20, 105, AABA,   +0, å®Ÿé­”æ•£
+ãƒžã‚¸ã‚«ãƒ«ã‚¹ã‚³ãƒ¼ãƒ«,         1800,  3,  5,   +0,   -,  40, 110, AABA,  -10, å®Ÿé­”é€£L8
+ãƒ‘ãƒ‹ã‚¨ãƒ­ã‚±ãƒƒãƒˆ,           1900,  1,  1,  -30,   -,  30, 110, AACA,  +20, çªï¼ªL2
 ===
-–ü‚µ‚ÌŒõ,                         ‰ñ•œLv3,  1,  -,  20,   -, –‚p
+ç™’ã—ã®å…‰,                         å›žå¾©Lv3,  1,  -,  20,   -, é­”è¡“
 
-Ž­–Ú‚Ü‚Ç‚©(‹~Ï‚ÌŠè‚¢)
-Ž­–Ú‚Ü‚Ç‚©, ‚©‚È‚ß‚Ü‚Ç‚©, (‚Ü‚Ç‚©™ƒ}ƒMƒJ(Ž­–Ú‚Ü‚Ç‚©ê—p)), 1, 2
-—¤, 3, S, 7000, 200
-“ÁŽê”\—Í
-«•Ê=—«
-Œ}Œ‚•Ší=ƒ}ƒWƒJƒ‹ƒAƒ[
-ƒnƒCƒp[ƒ‚[ƒhLv5=‰~ŠÂ‚Ì— ƒAƒ‹ƒeƒBƒƒbƒg‚Ü‚Ç‚© ‹C—Í”­“®
-‰~ŠÂ‚Ì—=‰ðà ‹C—Í‚ª150ˆÈã‚Å<B>ƒAƒ‹ƒeƒBƒƒbƒg‚Ü‚Ç‚©</B>‚É•Ïg‰Â”\B3ƒ^[ƒ“Œo‰ß‚ÅŒ³‚É–ß‚éB1ƒ}ƒbƒv1‰ñŒÀ‚èB
+é¹¿ç›®ã¾ã©ã‹(æ•‘æ¸ˆã®é¡˜ã„)
+é¹¿ç›®ã¾ã©ã‹, ã‹ãªã‚ã¾ã©ã‹, (ã¾ã©ã‹â˜†ãƒžã‚®ã‚«(é¹¿ç›®ã¾ã©ã‹å°‚ç”¨)), 1, 2
+é™¸, 3, S, 7000, 200
+ç‰¹æ®Šèƒ½åŠ›
+æ€§åˆ¥=å¥³æ€§
+è¿Žæ’ƒæ­¦å™¨=ãƒžã‚¸ã‚«ãƒ«ã‚¢ãƒ­ãƒ¼
+ãƒã‚¤ãƒ‘ãƒ¼ãƒ¢ãƒ¼ãƒ‰Lv5=å††ç’°ã®ç† ã‚¢ãƒ«ãƒ†ã‚£ãƒ¡ãƒƒãƒˆã¾ã©ã‹ æ°—åŠ›ç™ºå‹•
+å††ç’°ã®ç†=è§£èª¬ æ°—åŠ›ãŒ150ä»¥ä¸Šã§<B>ã‚¢ãƒ«ãƒ†ã‚£ãƒ¡ãƒƒãƒˆã¾ã©ã‹</B>ã«å¤‰èº«å¯èƒ½ã€‚3ã‚¿ãƒ¼ãƒ³çµŒéŽã§å…ƒã«æˆ»ã‚‹ã€‚1ãƒžãƒƒãƒ—1å›žé™ã‚Šã€‚
 3500, 180, 1000, 65
 CACA, MadokaMagica_KanameMadokaU.bmp
-‹~Ï‚·‚é”’‚«Œõ,              0,  1,  3,  +30,   -,  50, 120, AAAA,  +10, –‚p‚l‘SŽ¯•s‘¦òŒÀŒõ
-ƒ}ƒWƒJƒ‹ƒXƒ^ƒbƒt,          800,  1,  1,  +25,   -,   -,   -, AAAA,   +0, •
-ƒ}ƒWƒJƒ‹ƒAƒ[,           1200,  1,  4,  +10,   -,   5,   -, AABA,   +0, ŽÀ–‚
-ƒgƒDƒCƒ“ƒNƒ‹ƒAƒ[,       1400,  1,  4,   +0,   -,  10,   -, AABA,   +5, ŽÀ–‚
-ƒXƒ^[ƒ‰ƒCƒgƒAƒ[,       1600,  1,  4,  -10,   -,  20,   -, AABA,  +10, ŽÀ–‚
-ƒXƒvƒŒƒbƒgƒAƒ[,         1600,  1,  3,  +15,   -,  20, 105, AABA,   +0, ŽÀ–‚ŽU
-ƒ}ƒWƒJƒ‹ƒXƒR[ƒ‹,         1800,  3,  5,   +0,   -,  40, 110, AABA,  -10, ŽÀ–‚˜AL8
-ƒpƒjƒGƒƒPƒbƒg,           1900,  1,  1,  -30,   -,  30, 110, AACA,  +20, “Ë‚iL2
+æ•‘æ¸ˆã™ã‚‹ç™½ãå…‰,              0,  1,  3,  +30,   -,  50, 120, AAAA,  +10, é­”è¡“ï¼­å…¨è­˜ä¸å³æµ„é™å…‰
+ãƒžã‚¸ã‚«ãƒ«ã‚¹ã‚¿ãƒƒãƒ•,          800,  1,  1,  +25,   -,   -,   -, AAAA,   +0, æ­¦
+ãƒžã‚¸ã‚«ãƒ«ã‚¢ãƒ­ãƒ¼,           1200,  1,  4,  +10,   -,   5,   -, AABA,   +0, å®Ÿé­”
+ãƒˆã‚¥ã‚¤ãƒ³ã‚¯ãƒ«ã‚¢ãƒ­ãƒ¼,       1400,  1,  4,   +0,   -,  10,   -, AABA,   +5, å®Ÿé­”
+ã‚¹ã‚¿ãƒ¼ãƒ©ã‚¤ãƒˆã‚¢ãƒ­ãƒ¼,       1600,  1,  4,  -10,   -,  20,   -, AABA,  +10, å®Ÿé­”
+ã‚¹ãƒ—ãƒ¬ãƒƒãƒˆã‚¢ãƒ­ãƒ¼,         1600,  1,  3,  +15,   -,  20, 105, AABA,   +0, å®Ÿé­”æ•£
+ãƒžã‚¸ã‚«ãƒ«ã‚¹ã‚³ãƒ¼ãƒ«,         1800,  3,  5,   +0,   -,  40, 110, AABA,  -10, å®Ÿé­”é€£L8
+ãƒ‘ãƒ‹ã‚¨ãƒ­ã‚±ãƒƒãƒˆ,           1900,  1,  1,  -30,   -,  30, 110, AACA,  +20, çªï¼ªL2
 ===
-–ü‚µ‚ÌŒõ,                         ‰ñ•œLv3,  1,  -,  20,   -, –‚p
-“Vã‚Ì‹F‚è,                       •â‹‹Lv1,  3,  -,  60, 110, –‚‰‡
+ç™’ã—ã®å…‰,                         å›žå¾©Lv3,  1,  -,  20,   -, é­”è¡“
+å¤©ä¸Šã®ç¥ˆã‚Š,                       è£œçµ¦Lv1,  3,  -,  60, 110, é­”æ´
 
-ƒAƒ‹ƒeƒBƒƒbƒg‚Ü‚Ç‚©
-Ž­–Ú‚Ü‚Ç‚©, ‚©‚È‚ß‚Ü‚Ç‚©, (‚Ü‚Ç‚©™ƒ}ƒMƒJ(Ž­–Ú‚Ü‚Ç‚©ê—p)), 1, 2
-‹ó—¤, 3, S, 7000, 200
-“ÁŽê”\—Í
-«•Ê=—«
-Œ}Œ‚•Ší=ƒ}ƒWƒJƒ‹ƒAƒ[
-‘Ï«=Žž
-’ïR—ÍLv2
-’Ç‰ÁƒpƒCƒƒbƒg=ƒAƒ‹ƒeƒBƒƒbƒg‚Ü‚Ç‚©
-ƒm[ƒ}ƒ‹ƒ‚[ƒh=Ž­–Ú‚Ü‚Ç‚©(‹~Ï‚ÌŠè‚¢) 3 Á–Õ‚È‚µ ‰ñ”§ŒÀ
+ã‚¢ãƒ«ãƒ†ã‚£ãƒ¡ãƒƒãƒˆã¾ã©ã‹
+é¹¿ç›®ã¾ã©ã‹, ã‹ãªã‚ã¾ã©ã‹, (ã¾ã©ã‹â˜†ãƒžã‚®ã‚«(é¹¿ç›®ã¾ã©ã‹å°‚ç”¨)), 1, 2
+ç©ºé™¸, 3, S, 7000, 200
+ç‰¹æ®Šèƒ½åŠ›
+æ€§åˆ¥=å¥³æ€§
+è¿Žæ’ƒæ­¦å™¨=ãƒžã‚¸ã‚«ãƒ«ã‚¢ãƒ­ãƒ¼
+è€æ€§=æ™‚
+æŠµæŠ—åŠ›Lv2
+è¿½åŠ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ=ã‚¢ãƒ«ãƒ†ã‚£ãƒ¡ãƒƒãƒˆã¾ã©ã‹
+ãƒŽãƒ¼ãƒžãƒ«ãƒ¢ãƒ¼ãƒ‰=é¹¿ç›®ã¾ã©ã‹(æ•‘æ¸ˆã®é¡˜ã„) 3 æ¶ˆè€—ãªã— å›žæ•°åˆ¶é™
 3700, 210, 1200, 65
 AACA, MAGICA_KanameMadoka(Last)U.bmp
-‹~Ï‚·‚é”’‚«Œõ,              0,  1,  3,  +30,   -,  50, 120, AAAA,  +10, –‚p‚l‘SŽ¯•s‘¦òŒÀŒõ
-ƒ}ƒWƒJƒ‹ƒXƒ^ƒbƒt,         1100,  1,  1,  +25,   -,   -,   -, AAAA,   +0, •
-ƒ}ƒWƒJƒ‹ƒAƒ[,           1200,  1,  4,  +10,   -,   5,   -, AABA,   +0, ŽÀ–‚
-ƒgƒDƒCƒ“ƒNƒ‹ƒAƒ[,       1400,  1,  4,   +0,   -,  10,   -, AABA,   +5, ŽÀ–‚
-ƒXƒ^[ƒ‰ƒCƒgƒAƒ[,       1600,  1,  4,  -10,   -,  20,   -, AABA,  +10, ŽÀ–‚
-ƒXƒvƒŒƒbƒgƒAƒ[,         1600,  1,  3,  +15,   -,  20, 105, AABA,   +0, ŽÀ–‚ŽU
-ƒ}ƒWƒJƒ‹ƒXƒR[ƒ‹,         1800,  3,  5,   +0,   -,  40, 110, AABA,  -10, ŽÀ–‚˜AL8
-ƒVƒ…[ƒeƒBƒ“ƒOƒXƒ^[,     2600,  1,  5,  +20,   -, 120, 150, AAAA,  +10, –‚Œõò•Ï
+æ•‘æ¸ˆã™ã‚‹ç™½ãå…‰,              0,  1,  3,  +30,   -,  50, 120, AAAA,  +10, é­”è¡“ï¼­å…¨è­˜ä¸å³æµ„é™å…‰
+ãƒžã‚¸ã‚«ãƒ«ã‚¹ã‚¿ãƒƒãƒ•,         1100,  1,  1,  +25,   -,   -,   -, AAAA,   +0, æ­¦
+ãƒžã‚¸ã‚«ãƒ«ã‚¢ãƒ­ãƒ¼,           1200,  1,  4,  +10,   -,   5,   -, AABA,   +0, å®Ÿé­”
+ãƒˆã‚¥ã‚¤ãƒ³ã‚¯ãƒ«ã‚¢ãƒ­ãƒ¼,       1400,  1,  4,   +0,   -,  10,   -, AABA,   +5, å®Ÿé­”
+ã‚¹ã‚¿ãƒ¼ãƒ©ã‚¤ãƒˆã‚¢ãƒ­ãƒ¼,       1600,  1,  4,  -10,   -,  20,   -, AABA,  +10, å®Ÿé­”
+ã‚¹ãƒ—ãƒ¬ãƒƒãƒˆã‚¢ãƒ­ãƒ¼,         1600,  1,  3,  +15,   -,  20, 105, AABA,   +0, å®Ÿé­”æ•£
+ãƒžã‚¸ã‚«ãƒ«ã‚¹ã‚³ãƒ¼ãƒ«,         1800,  3,  5,   +0,   -,  40, 110, AABA,  -10, å®Ÿé­”é€£L8
+ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ã‚¹ã‚¿ãƒ¼,     2600,  1,  5,  +20,   -, 120, 150, AAAA,  +10, é­”å…‰æµ„å¤‰
 ===
-–ü‚µ‚ÌŒõ,                         ‰ñ•œLv3,  1,  -,  20,   -, –‚p
-“Vã‚Ì‹F‚è,                       •â‹‹Lv1,  3,  -,  60, 110, –‚‰‡
+ç™’ã—ã®å…‰,                         å›žå¾©Lv3,  1,  -,  20,   -, é­”è¡“
+å¤©ä¸Šã®ç¥ˆã‚Š,                       è£œçµ¦Lv1,  3,  -,  60, 110, é­”æ´
 
-# ‘OŠúE‹~Ï‚ÌŠè‚¢”Å‚Ì•‘•‚ÉƒpƒjƒGƒƒPƒbƒg‚ª’Ç‰Á‚³‚ê‚½ƒf[ƒ^‚Å‚·B
-# ƒXƒyƒVƒƒƒ‹ƒpƒ[“™‚ð•¹—p‚µ‚½ƒVƒ…[ƒeƒBƒ“ƒOƒXƒ^[{ŠïÕ˜A”­ƒRƒ“ƒ{‚Ì—}§‚Ìˆ×A
-# ƒVƒ…[ƒeƒBƒ“ƒOƒXƒ^[‚ÍƒAƒ‹ƒeƒBƒƒbƒg‚É‚È‚ç‚È‚¢‚ÆŽg‚¦‚È‚¢ãA
-# Žg‚¤‚Æ•ÏŒ`‹Z‚ÅŒ³‚É–ß‚éŽd—l‚Æ‚È‚Á‚Ä‚Ü‚·B
+# å‰æœŸãƒ»æ•‘æ¸ˆã®é¡˜ã„ç‰ˆã®æ­¦è£…ã«ãƒ‘ãƒ‹ã‚¨ãƒ­ã‚±ãƒƒãƒˆãŒè¿½åŠ ã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿ã§ã™ã€‚
+# ã‚¹ãƒšã‚·ãƒ£ãƒ«ãƒ‘ãƒ¯ãƒ¼ç­‰ã‚’ä½µç”¨ã—ãŸã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ã‚¹ã‚¿ãƒ¼ï¼‹å¥‡è·¡é€£ç™ºã‚³ãƒ³ãƒœã®æŠ‘åˆ¶ã®ç‚ºã€
+# ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ã‚¹ã‚¿ãƒ¼ã¯ã‚¢ãƒ«ãƒ†ã‚£ãƒ¡ãƒƒãƒˆã«ãªã‚‰ãªã„ã¨ä½¿ãˆãªã„ä¸Šã€
+# ä½¿ã†ã¨å¤‰å½¢æŠ€ã§å…ƒã«æˆ»ã‚‹ä»•æ§˜ã¨ãªã£ã¦ã¾ã™ã€‚
 
 
-## ‹Å”ü‚Ù‚Þ‚ç ##
+## æšç¾Žã»ã‚€ã‚‰ ##
 
-‹Å”ü‚Ù‚Þ‚ç(‘OŠú)
-‹Å”ü‚Ù‚Þ‚ç, ‚ ‚¯‚Ý‚Ù‚Þ‚ç, (‚Ü‚Ç‚©™ƒ}ƒMƒJ(‹Å”ü‚Ù‚Þ‚çê—p)), 1, 2
-—¤, 4, M, 4000, 180
-“ÁŽê”\—Í
-«•Ê=—«
-Œ}Œ‚•Ší=ƒxƒŒƒbƒ^M92F
-‘Ï«=Žž (!–‚–@••ˆó)
-¬Œ^ƒV[ƒ‹ƒh=ƒoƒbƒNƒ‰[
-‘jŽ~Lv1=ŽžŠÔ’âŽ~ !Žž 20 5 100 <!–‚–@••ˆó>
-ŽžŠÔ’âŽ~=‰ðà uŽžv‘®«‚ðŽ‚½‚È‚¢UŒ‚‚ð20%‚ÌŠm—¦‚Å‘jŽ~B”­“®Žž‚É‚d‚m‚ð5Á”ïB‹C—Í100ˆÈã‚Å”­“®BuŽžvu–‚vupv‘®«Žg—p•s”\ó‘Ô‚ÌŽž‚ÍŽg—p•s‰ÂB
-‚·‚è”²‚¯ˆÚ“®=‹óŠÔ’µ–ô <!–‚–@••ˆó>
-‹óŠÔ’µ–ô=‰ðà “Gƒ†ƒjƒbƒg‚ª‚¢‚éƒ}ƒX‚ð’Ê‰ß‰Â”\B;uŽžvu–‚vupv‘®«Žg—p•s”\ó‘Ô‚ÌŽž‚ÍŽg—p•s‰ÂB
-ƒpƒCƒƒbƒg”\—Í•t‰Á="–‚–@••ˆó=”ñ•\Ž¦" (Žž‘®«Žg—p•s”\ó‘Ô or –‚‘®«Žg—p•s”\ó‘Ô or p‘®«Žg—p•s”\ó‘Ô)
-ƒ†ƒjƒbƒg‰æ‘œ=MAGICA_AkemiHomura(G)U.bmp (‹Å”ü‚Ù‚Þ‚ç(Šá‹¾))
+æšç¾Žã»ã‚€ã‚‰(å‰æœŸ)
+æšç¾Žã»ã‚€ã‚‰, ã‚ã‘ã¿ã»ã‚€ã‚‰, (ã¾ã©ã‹â˜†ãƒžã‚®ã‚«(æšç¾Žã»ã‚€ã‚‰å°‚ç”¨)), 1, 2
+é™¸, 4, M, 4000, 180
+ç‰¹æ®Šèƒ½åŠ›
+æ€§åˆ¥=å¥³æ€§
+è¿Žæ’ƒæ­¦å™¨=ãƒ™ãƒ¬ãƒƒã‚¿M92F
+è€æ€§=æ™‚ (!é­”æ³•å°å°)
+å°åž‹ã‚·ãƒ¼ãƒ«ãƒ‰=ãƒãƒƒã‚¯ãƒ©ãƒ¼
+é˜»æ­¢Lv1=æ™‚é–“åœæ­¢ !æ™‚ 20 5 100 <!é­”æ³•å°å°>
+æ™‚é–“åœæ­¢=è§£èª¬ ã€Œæ™‚ã€å±žæ€§ã‚’æŒãŸãªã„æ”»æ’ƒã‚’20%ã®ç¢ºçŽ‡ã§é˜»æ­¢ã€‚ç™ºå‹•æ™‚ã«ï¼¥ï¼®ã‚’5æ¶ˆè²»ã€‚æ°—åŠ›100ä»¥ä¸Šã§ç™ºå‹•ã€‚ã€Œæ™‚ã€ã€Œé­”ã€ã€Œè¡“ã€å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹ã®æ™‚ã¯ä½¿ç”¨ä¸å¯ã€‚
+ã™ã‚ŠæŠœã‘ç§»å‹•=ç©ºé–“è·³èº <!é­”æ³•å°å°>
+ç©ºé–“è·³èº=è§£èª¬ æ•µãƒ¦ãƒ‹ãƒƒãƒˆãŒã„ã‚‹ãƒžã‚¹ã‚’é€šéŽå¯èƒ½ã€‚;ã€Œæ™‚ã€ã€Œé­”ã€ã€Œè¡“ã€å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹ã®æ™‚ã¯ä½¿ç”¨ä¸å¯ã€‚
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆèƒ½åŠ›ä»˜åŠ ="é­”æ³•å°å°=éžè¡¨ç¤º" (æ™‚å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹ or é­”å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹ or è¡“å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹)
+ãƒ¦ãƒ‹ãƒƒãƒˆç”»åƒ=MAGICA_AkemiHomura(G)U.bmp (æšç¾Žã»ã‚€ã‚‰(çœ¼é¡))
 3200, 160, 600, 80
 BACA, MAGICA_AkemiHomuraU.bmp
-‘MŒõŽèžÖ’e,                  0,  1,  3,  +10,   2,   -,   -, AAAA,  +20, ‚l“ŠL1–ÓŽ‹
-ƒSƒ‹ƒtƒNƒ‰ƒu,              800,  1,  1,  +15,   -,   -,   -, AAAA,  -10, •
-ƒxƒŒƒbƒ^M92F,             1100,  1,  2,  -10,  15,   -,   -, AABA,   +0, e‚o
-•ª‘àŽx‰‡‰ÎŠí,             1300,  1,  4,  -10,  10,   -,   -, AABA,  +10, e˜AL5
-ƒSƒ‹ƒtƒNƒ‰ƒu—‘Å,         1400,  1,  1,  +20,   -,  20,   -, AAAA,  +10, ÚæŽž
-ƒpƒCƒv”š’e,               1500,  1,  2,  -10,   4,   -,   -, AABA,  -10, ŽÀ‚o
+é–ƒå…‰æ‰‹æ¦´å¼¾,                  0,  1,  3,  +10,   2,   -,   -, AAAA,  +20, ï¼­æŠ•L1ç›²è¦–
+ã‚´ãƒ«ãƒ•ã‚¯ãƒ©ãƒ–,              800,  1,  1,  +15,   -,   -,   -, AAAA,  -10, æ­¦
+ãƒ™ãƒ¬ãƒƒã‚¿M92F,             1100,  1,  2,  -10,  15,   -,   -, AABA,   +0, éŠƒï¼°
+åˆ†éšŠæ”¯æ´ç«å™¨,             1300,  1,  4,  -10,  10,   -,   -, AABA,  +10, éŠƒé€£L5
+ã‚´ãƒ«ãƒ•ã‚¯ãƒ©ãƒ–ä¹±æ‰“,         1400,  1,  1,  +20,   -,  20,   -, AAAA,  +10, æŽ¥å…ˆæ™‚
+ãƒ‘ã‚¤ãƒ—çˆ†å¼¾,               1500,  1,  2,  -10,   4,   -,   -, AABA,  -10, å®Ÿï¼°
 
-‹Å”ü‚Ù‚Þ‚ç
-‹Å”ü‚Ù‚Þ‚ç, ‚ ‚¯‚Ý‚Ù‚Þ‚ç, (‚Ü‚Ç‚©™ƒ}ƒMƒJ(‹Å”ü‚Ù‚Þ‚çê—p)), 1, 2
-—¤, 4, M, 5000, 190
-“ÁŽê”\—Í
-«•Ê=—«
-Œ}Œ‚•Ší=ƒxƒŒƒbƒ^M92F
-‘Ï«=Žž (!–‚–@••ˆó)
-ƒnƒCƒp[ƒ‚[ƒhLv3=•‚«—ƒ ‹Å”ü‚Ù‚Þ‚ç(•‚«—ƒ) ‹C—Í”­“®
-•‚«—ƒ=‰ðà ‹C—Í‚ª130ˆÈã‚Å•‚«—ƒ‚ð”­“®‰Â”\B
-¬Œ^ƒV[ƒ‹ƒh=ƒoƒbƒNƒ‰[
-‘jŽ~Lv1=ŽžŠÔ’âŽ~ !Žž 20 5 100 <!–‚–@••ˆó>
-ŽžŠÔ’âŽ~=‰ðà uŽžv‘®«‚ðŽ‚½‚È‚¢UŒ‚‚ð20%‚ÌŠm—¦‚Å‘jŽ~B”­“®Žž‚É‚d‚m‚ð5Á”ïB‹C—Í100ˆÈã‚Å”­“®BuŽžvu–‚vupv‘®«Žg—p•s”\ó‘Ô‚ÌŽž‚ÍŽg—p•s‰ÂB
-‚·‚è”²‚¯ˆÚ“®=‹óŠÔ’µ–ô <!–‚–@••ˆó>
-‹óŠÔ’µ–ô=‰ðà “Gƒ†ƒjƒbƒg‚ª‚¢‚éƒ}ƒX‚ð’Ê‰ß‰Â”\B;uŽžvu–‚vupv‘®«Žg—p•s”\ó‘Ô‚ÌŽž‚ÍŽg—p•s‰ÂB
-ƒpƒCƒƒbƒg”\—Í•t‰Á="–‚–@••ˆó=”ñ•\Ž¦" (Žž‘®«Žg—p•s”\ó‘Ô or –‚‘®«Žg—p•s”\ó‘Ô or p‘®«Žg—p•s”\ó‘Ô)
-ƒ†ƒjƒbƒg‰æ‘œ=MadokaMagica_AkemiHomura(Past)U.bmp (‹Å”ü‚Ù‚Þ‚ç(Šá‹¾))
+æšç¾Žã»ã‚€ã‚‰
+æšç¾Žã»ã‚€ã‚‰, ã‚ã‘ã¿ã»ã‚€ã‚‰, (ã¾ã©ã‹â˜†ãƒžã‚®ã‚«(æšç¾Žã»ã‚€ã‚‰å°‚ç”¨)), 1, 2
+é™¸, 4, M, 5000, 190
+ç‰¹æ®Šèƒ½åŠ›
+æ€§åˆ¥=å¥³æ€§
+è¿Žæ’ƒæ­¦å™¨=ãƒ™ãƒ¬ãƒƒã‚¿M92F
+è€æ€§=æ™‚ (!é­”æ³•å°å°)
+ãƒã‚¤ãƒ‘ãƒ¼ãƒ¢ãƒ¼ãƒ‰Lv3=é»’ãç¿¼ æšç¾Žã»ã‚€ã‚‰(é»’ãç¿¼) æ°—åŠ›ç™ºå‹•
+é»’ãç¿¼=è§£èª¬ æ°—åŠ›ãŒ130ä»¥ä¸Šã§é»’ãç¿¼ã‚’ç™ºå‹•å¯èƒ½ã€‚
+å°åž‹ã‚·ãƒ¼ãƒ«ãƒ‰=ãƒãƒƒã‚¯ãƒ©ãƒ¼
+é˜»æ­¢Lv1=æ™‚é–“åœæ­¢ !æ™‚ 20 5 100 <!é­”æ³•å°å°>
+æ™‚é–“åœæ­¢=è§£èª¬ ã€Œæ™‚ã€å±žæ€§ã‚’æŒãŸãªã„æ”»æ’ƒã‚’20%ã®ç¢ºçŽ‡ã§é˜»æ­¢ã€‚ç™ºå‹•æ™‚ã«ï¼¥ï¼®ã‚’5æ¶ˆè²»ã€‚æ°—åŠ›100ä»¥ä¸Šã§ç™ºå‹•ã€‚ã€Œæ™‚ã€ã€Œé­”ã€ã€Œè¡“ã€å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹ã®æ™‚ã¯ä½¿ç”¨ä¸å¯ã€‚
+ã™ã‚ŠæŠœã‘ç§»å‹•=ç©ºé–“è·³èº <!é­”æ³•å°å°>
+ç©ºé–“è·³èº=è§£èª¬ æ•µãƒ¦ãƒ‹ãƒƒãƒˆãŒã„ã‚‹ãƒžã‚¹ã‚’é€šéŽå¯èƒ½ã€‚;ã€Œæ™‚ã€ã€Œé­”ã€ã€Œè¡“ã€å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹ã®æ™‚ã¯ä½¿ç”¨ä¸å¯ã€‚
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆèƒ½åŠ›ä»˜åŠ ="é­”æ³•å°å°=éžè¡¨ç¤º" (æ™‚å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹ or é­”å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹ or è¡“å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹)
+ãƒ¦ãƒ‹ãƒƒãƒˆç”»åƒ=MadokaMagica_AkemiHomura(Past)U.bmp (æšç¾Žã»ã‚€ã‚‰(çœ¼é¡))
 3400, 200, 700, 90
 BACA, MadokaMagica_AkemiHomuraU.bmp
-‘MŒõŽèžÖ’e,                  0,  1,  3,  +10,   2,   -,   -, AAAA,  +20, ‚l“ŠL1–ÓŽ‹
-ƒSƒ‹ƒtƒNƒ‰ƒu,              800,  1,  1,  +15,   -,   -,   -, AAAA,  -10, •
-ƒxƒŒƒbƒ^M92F,             1100,  1,  2,  -10,  15,   -,   -, AABA,   +0, e‚o
-•ª‘àŽx‰‡‰ÎŠí,             1300,  1,  4,  -10,  10,   -,   -, AABA,  +10, e˜AL5
-ƒSƒ‹ƒtƒNƒ‰ƒu—‘Å,         1400,  1,  1,  +20,   -,  20,   -, AAAA,  +10, ÚæŽž
-ƒpƒCƒv”š’e,               1500,  1,  2,  -10,   4,   -,   -, AABA,  -10, ŽÀ‚o
-ƒfƒBƒŒƒCƒ}ƒCƒ“,           1600,  1,  1,   +0,   2,  10,   -, -ABA,  +10, ŽË”šZæ”½Žž
-ƒƒPƒbƒgƒ‰ƒ“ƒ`ƒƒ[,       1900,  2,  4,   +0,   2,  40, 110, AABA,   +0, æŽž˜AL6
-ƒ^ƒ“ƒNƒ[ƒŠ[,           2000,  1,  1,   +5,   1,  50, 120, AABA,  +20, ŽÀ
-‘ÎŠÍƒ~ƒTƒCƒ‹,             2200,  3,  4,  -20,   1,  60, 120, AAAA,  -10, ŽÀ‚g
+é–ƒå…‰æ‰‹æ¦´å¼¾,                  0,  1,  3,  +10,   2,   -,   -, AAAA,  +20, ï¼­æŠ•L1ç›²è¦–
+ã‚´ãƒ«ãƒ•ã‚¯ãƒ©ãƒ–,              800,  1,  1,  +15,   -,   -,   -, AAAA,  -10, æ­¦
+ãƒ™ãƒ¬ãƒƒã‚¿M92F,             1100,  1,  2,  -10,  15,   -,   -, AABA,   +0, éŠƒï¼°
+åˆ†éšŠæ”¯æ´ç«å™¨,             1300,  1,  4,  -10,  10,   -,   -, AABA,  +10, éŠƒé€£L5
+ã‚´ãƒ«ãƒ•ã‚¯ãƒ©ãƒ–ä¹±æ‰“,         1400,  1,  1,  +20,   -,  20,   -, AAAA,  +10, æŽ¥å…ˆæ™‚
+ãƒ‘ã‚¤ãƒ—çˆ†å¼¾,               1500,  1,  2,  -10,   4,   -,   -, AABA,  -10, å®Ÿï¼°
+ãƒ‡ã‚£ãƒ¬ã‚¤ãƒžã‚¤ãƒ³,           1600,  1,  1,   +0,   2,  10,   -, -ABA,  +10, å°„çˆ†æµ¸å…ˆåæ™‚
+ãƒ­ã‚±ãƒƒãƒˆãƒ©ãƒ³ãƒãƒ£ãƒ¼,       1900,  2,  4,   +0,   2,  40, 110, AABA,   +0, å…ˆæ™‚é€£L6
+ã‚¿ãƒ³ã‚¯ãƒ­ãƒ¼ãƒªãƒ¼,           2000,  1,  1,   +5,   1,  50, 120, AABA,  +20, å®Ÿ
+å¯¾è‰¦ãƒŸã‚µã‚¤ãƒ«,             2200,  3,  4,  -20,   1,  60, 120, AAAA,  -10, å®Ÿï¼¨
 
-‹Å”ü‚Ù‚Þ‚ç(•‚«—ƒ)
-‹Å”ü‚Ù‚Þ‚ç, ‚ ‚¯‚Ý‚Ù‚Þ‚ç, (‚Ü‚Ç‚©™ƒ}ƒMƒJ(‹Å”ü‚Ù‚Þ‚çê—p)), 1, 2
-‹ó—¤, 4, M, 5000, 190
-“ÁŽê”\—Í
-«•Ê=—«
-Œ}Œ‚•Ší=ƒ}ƒWƒJƒ‹ƒAƒ[
-‘Ï«=Žž (!–‚–@••ˆó)
-¬Œ^ƒV[ƒ‹ƒh=ƒoƒbƒNƒ‰[
-‘jŽ~Lv1=ŽžŠÔ’âŽ~ !Žž 20 5 100 <!–‚–@••ˆó>
-ŽžŠÔ’âŽ~=‰ðà uŽžv‘®«‚ðŽ‚½‚È‚¢UŒ‚‚ð20%‚ÌŠm—¦‚Å‘jŽ~B”­“®Žž‚É‚d‚m‚ð5Á”ïB‹C—Í100ˆÈã‚Å”­“®BuŽžvu–‚vupv‘®«Žg—p•s”\ó‘Ô‚ÌŽž‚ÍŽg—p•s‰ÂB
-‚·‚è”²‚¯ˆÚ“®=‹óŠÔ’µ–ô <!–‚–@••ˆó>
-‹óŠÔ’µ–ô=‰ðà “Gƒ†ƒjƒbƒg‚ª‚¢‚éƒ}ƒX‚ð’Ê‰ß‰Â”\B;uŽžvu–‚vupv‘®«Žg—p•s”\ó‘Ô‚ÌŽž‚ÍŽg—p•s‰ÂB
-ƒpƒCƒƒbƒg”\—Í•t‰Á="–‚–@••ˆó=”ñ•\Ž¦" (Žž‘®«Žg—p•s”\ó‘Ô or –‚‘®«Žg—p•s”\ó‘Ô or p‘®«Žg—p•s”\ó‘Ô)
-ƒ†ƒjƒbƒg‰æ‘œ=MadokaMagica_AkemiHomura(Past)U.bmp (‹Å”ü‚Ù‚Þ‚ç(Šá‹¾))
-ƒm[ƒ}ƒ‹ƒ‚[ƒh=‹Å”ü‚Ù‚Þ‚ç Á–Õ‚È‚µ
+æšç¾Žã»ã‚€ã‚‰(é»’ãç¿¼)
+æšç¾Žã»ã‚€ã‚‰, ã‚ã‘ã¿ã»ã‚€ã‚‰, (ã¾ã©ã‹â˜†ãƒžã‚®ã‚«(æšç¾Žã»ã‚€ã‚‰å°‚ç”¨)), 1, 2
+ç©ºé™¸, 4, M, 5000, 190
+ç‰¹æ®Šèƒ½åŠ›
+æ€§åˆ¥=å¥³æ€§
+è¿Žæ’ƒæ­¦å™¨=ãƒžã‚¸ã‚«ãƒ«ã‚¢ãƒ­ãƒ¼
+è€æ€§=æ™‚ (!é­”æ³•å°å°)
+å°åž‹ã‚·ãƒ¼ãƒ«ãƒ‰=ãƒãƒƒã‚¯ãƒ©ãƒ¼
+é˜»æ­¢Lv1=æ™‚é–“åœæ­¢ !æ™‚ 20 5 100 <!é­”æ³•å°å°>
+æ™‚é–“åœæ­¢=è§£èª¬ ã€Œæ™‚ã€å±žæ€§ã‚’æŒãŸãªã„æ”»æ’ƒã‚’20%ã®ç¢ºçŽ‡ã§é˜»æ­¢ã€‚ç™ºå‹•æ™‚ã«ï¼¥ï¼®ã‚’5æ¶ˆè²»ã€‚æ°—åŠ›100ä»¥ä¸Šã§ç™ºå‹•ã€‚ã€Œæ™‚ã€ã€Œé­”ã€ã€Œè¡“ã€å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹ã®æ™‚ã¯ä½¿ç”¨ä¸å¯ã€‚
+ã™ã‚ŠæŠœã‘ç§»å‹•=ç©ºé–“è·³èº <!é­”æ³•å°å°>
+ç©ºé–“è·³èº=è§£èª¬ æ•µãƒ¦ãƒ‹ãƒƒãƒˆãŒã„ã‚‹ãƒžã‚¹ã‚’é€šéŽå¯èƒ½ã€‚;ã€Œæ™‚ã€ã€Œé­”ã€ã€Œè¡“ã€å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹ã®æ™‚ã¯ä½¿ç”¨ä¸å¯ã€‚
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆèƒ½åŠ›ä»˜åŠ ="é­”æ³•å°å°=éžè¡¨ç¤º" (æ™‚å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹ or é­”å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹ or è¡“å±žæ€§ä½¿ç”¨ä¸èƒ½çŠ¶æ…‹)
+ãƒ¦ãƒ‹ãƒƒãƒˆç”»åƒ=MadokaMagica_AkemiHomura(Past)U.bmp (æšç¾Žã»ã‚€ã‚‰(çœ¼é¡))
+ãƒŽãƒ¼ãƒžãƒ«ãƒ¢ãƒ¼ãƒ‰=æšç¾Žã»ã‚€ã‚‰ æ¶ˆè€—ãªã—
 3400, 200, 700, 90
 AACA, MadokaMagica_AkemiHomuraU.bmp
-‘MŒõŽèžÖ’e,                  0,  1,  3,  +10,   2,   -,   -, AAAA,  +20, ‚l“ŠL1–ÓŽ‹
-ƒSƒ‹ƒtƒNƒ‰ƒu,              800,  1,  1,  +15,   -,   -,   -, AAAA,  -10, •
-ƒ}ƒWƒJƒ‹ƒAƒ[,           1200,  1,  4,  +10,   -,   5,   -, AABA,   +0, ŽÀ–‚
-ƒSƒ‹ƒtƒNƒ‰ƒu—‘Å,         1400,  1,  1,  +20,   -,  20,   -, AAAA,  +10, ÚæŽž
-ƒpƒCƒv”š’e,               1500,  1,  2,  -10,   4,   -,   -, AABA,  -10, ŽÀ‚o
-ƒfƒBƒŒƒCƒ}ƒCƒ“,           1600,  1,  1,   +0,   2,  10,   -, -ABA,  +10, ŽË”šZæ”½Žž
-ƒƒPƒbƒgƒ‰ƒ“ƒ`ƒƒ[,       1900,  2,  4,   +0,   2,  40, 110, AABA,   +0, æŽž˜AL6
-ƒ^ƒ“ƒNƒ[ƒŠ[,           2000,  1,  1,   +5,   1,  50, 120, AABA,  +20, ŽÀ
-NH‚·‚é•‚«—ƒ,           2200,  1,  1,  +10,   -,  60, 120, AAAA,  +10, –‚Ú
-‘ÎŠÍƒ~ƒTƒCƒ‹,             2200,  3,  4,  -20,   1,  60, 120, AAAA,  -10, ŽÀ‚g
+é–ƒå…‰æ‰‹æ¦´å¼¾,                  0,  1,  3,  +10,   2,   -,   -, AAAA,  +20, ï¼­æŠ•L1ç›²è¦–
+ã‚´ãƒ«ãƒ•ã‚¯ãƒ©ãƒ–,              800,  1,  1,  +15,   -,   -,   -, AAAA,  -10, æ­¦
+ãƒžã‚¸ã‚«ãƒ«ã‚¢ãƒ­ãƒ¼,           1200,  1,  4,  +10,   -,   5,   -, AABA,   +0, å®Ÿé­”
+ã‚´ãƒ«ãƒ•ã‚¯ãƒ©ãƒ–ä¹±æ‰“,         1400,  1,  1,  +20,   -,  20,   -, AAAA,  +10, æŽ¥å…ˆæ™‚
+ãƒ‘ã‚¤ãƒ—çˆ†å¼¾,               1500,  1,  2,  -10,   4,   -,   -, AABA,  -10, å®Ÿï¼°
+ãƒ‡ã‚£ãƒ¬ã‚¤ãƒžã‚¤ãƒ³,           1600,  1,  1,   +0,   2,  10,   -, -ABA,  +10, å°„çˆ†æµ¸å…ˆåæ™‚
+ãƒ­ã‚±ãƒƒãƒˆãƒ©ãƒ³ãƒãƒ£ãƒ¼,       1900,  2,  4,   +0,   2,  40, 110, AABA,   +0, å…ˆæ™‚é€£L6
+ã‚¿ãƒ³ã‚¯ãƒ­ãƒ¼ãƒªãƒ¼,           2000,  1,  1,   +5,   1,  50, 120, AABA,  +20, å®Ÿ
+ä¾µé£Ÿã™ã‚‹é»’ãç¿¼,           2200,  1,  1,  +10,   -,  60, 120, AAAA,  +10, é­”æŽ¥
+å¯¾è‰¦ãƒŸã‚µã‚¤ãƒ«,             2200,  3,  4,  -20,   1,  60, 120, AAAA,  -10, å®Ÿï¼¨
 
-# PSP”ÅŠî€‚Ìƒtƒ‹•‘•ƒo[ƒWƒ‡ƒ“B•ŠíƒNƒ‰ƒX‚Í–³‚µB
-# ’Êí¨•‚«—ƒ‚Ö‚Ì•Ï‰»‚ÍƒnƒCƒp[ƒ‚[ƒh‚Å§Œä‚·‚éŒ`‚ÉB
-# –³ˆó‚Ì”\—Í’l‚Í‚Ù‚Þ‚ç(ƒŠƒ{ƒ“)‚Æ“¯”’l‚É‚Ü‚Åˆø‚«ã‚°‚Ä‚Ü‚·B
-
-
-## ƒ}ƒCƒi[ƒpƒbƒN‘Î‰ží“¬ƒAƒjƒ ##
-
-Ž­–Ú‚Ü‚Ç‚©
-ƒ}ƒWƒJƒ‹ƒXƒ^ƒbƒt, ‰£‘Å•Ší Anime\EFFECT_MadokaMagica_Madoka'sBow(N).bmp 32
-ƒgƒDƒCƒ“ƒNƒ‹ƒXƒ^ƒbƒt(€”õ), U‚é•Ší Anime\EFFECT_MadokaMagica_Madoka'sBow(N).bmp 32
-ƒgƒDƒCƒ“ƒNƒ‹ƒXƒ^ƒbƒt(UŒ‚), ‚È‚¬•¥‚¢
-ƒgƒDƒCƒ“ƒNƒ‹ƒXƒ^ƒbƒt(–½’†), ƒ_ƒ[ƒW “
-ƒ}ƒWƒJƒ‹ƒAƒ[(€”õ), U‚é•Ší Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64;_
-@@@@@@@@@@@U‚é•Ší˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
-@@@@@@@@@@@U‚é•Ší˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
-ƒ}ƒWƒJƒ‹ƒAƒ[(UŒ‚), @í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[01-09].bmp 64 9 1 -.wav;_
-@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[10-29].bmp 64 20 1 AntiAirMissile.wav;_
-@@@@@@@@@@@ƒfƒBƒŒƒC 1;_
-@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[30-34].bmp 64 5 1 Beam.wav
-ƒ}ƒWƒJƒ‹ƒAƒ[(–½’†), Œõ–î “
-ƒX[ƒp[ƒ}ƒWƒJƒ‹ƒXƒ^ƒbƒt, ‰£‘Å•Ší Anime\EFFECT_MadokaMagica_Madoka'sBow(N).bmp 32
-ƒX[ƒp[ƒ}ƒWƒJƒ‹ƒXƒ^ƒbƒt(–½’†), ƒ_ƒ[ƒW “
-ƒgƒDƒCƒ“ƒNƒ‹ƒAƒ[(€”õ), U‚é•Ší Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64;_
-@@@@@@@@@@@@@U‚é•Ší˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
-@@@@@@@@@@@@@U‚é•Ší˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
-ƒgƒDƒCƒ“ƒNƒ‹ƒAƒ[(UŒ‚), @í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[01-09].bmp 64 9 1 -.wav;_
-@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[10-29].bmp 64 20 1 AntiAirMissile.wav;_
-@@@@@@@@@@@@@ƒfƒBƒŒƒC 1;_
-@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[30-34].bmp 64 5 1 Beam.wav
-ƒgƒDƒCƒ“ƒNƒ‹ƒAƒ[(–½’†), ¬ƒr[ƒ€ “
-ƒXƒvƒŒƒbƒgƒAƒ[(€”õ), ƒI[ƒ‰ã¸ “;U‚é•Ší Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64;_
-@@@@@@@@@@@@U‚é•Ší˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
-@@@@@@@@@@@@U‚é•Ší˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
-ƒXƒvƒŒƒbƒgƒAƒ[(UŒ‚), @í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\MadokaMagica_Madoka'sBow(B)[01-11].bmp 64 11 1 -.wav;_
-@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\MadokaMagica_Madoka'sBow(B)[12-15].bmp 64 4 1 Beam.wav
-ƒXƒvƒŒƒbƒgƒAƒ[(–½’†), ƒr[ƒ€ƒVƒ‡ƒbƒgƒKƒ“ “
-ƒXƒ^[ƒ‰ƒCƒgƒAƒ[(€”õ), U‚é•Ší Weapon\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64 -.wav;_
-@@@@@@@@@@@@@U‚é•Ší˜A‘±•`‰æ Weapon\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
-@@@@@@@@@@@@@U‚é•Ší˜A‘±•`‰æ Weapon\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
-ƒXƒ^[ƒ‰ƒCƒgƒAƒ[(UŒ‚), @í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Weapon\EFFECT_MadokaMagica_Madoka'sBow(A)[01-09].bmp 64 9 1 -.wav;_
-@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Weapon\EFFECT_MadokaMagica_Madoka'sBow(A)[10-29].bmp 64 20 1 AntiAirMissile.wav;_
-@@@@@@@@@@@@@ƒfƒBƒŒƒC 1;_
-@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Weapon\EFFECT_MadokaMagica_Madoka'sBow(A)[30-34].bmp 64 5 1 Beam.wav
-ƒXƒ^[ƒ‰ƒCƒgƒAƒ[(–½’†), ’†ƒr[ƒ€ “
-ƒ}ƒWƒJƒ‹ƒXƒR[ƒ‹(€”õ), ƒI[ƒ‰ã¸ “;U‚é•Ší Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64;_
-@@@@@@@@@@@@U‚é•Ší˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
-@@@@@@@@@@@@U‚é•Ší˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
-ƒ}ƒWƒJƒ‹ƒXƒR[ƒ‹(UŒ‚), @í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\MadokaMagica_Madoka'sBow(B)[01-11].bmp 64 11 1 -.wav;_
-@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\MadokaMagica_Madoka'sBow(B)[12-15].bmp 64 4 1 Beam(4Shot).wav
-ƒ}ƒWƒJƒ‹ƒXƒR[ƒ‹(–½’†), ŠgŽUƒr[ƒ€ “
-ƒVƒ…[ƒeƒBƒ“ƒOƒXƒ^[(€”õ), ƒI[ƒ‰ã¸ “;•ÏŒ` Info(ƒ†ƒjƒbƒgƒf[ƒ^,ƒAƒ‹ƒeƒBƒƒbƒg‚Ü‚Ç‚©,ƒOƒ‰ƒtƒBƒbƒN) -.wav;_
-@@@@@@@@@@@@@@U‚é•Ší Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64 -.wav;_
-@@@@@@@@@@@@@@U‚é•Ší˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
-@@@@@@@@@@@@@@U‚é•Ší˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
-ƒVƒ…[ƒeƒBƒ“ƒOƒXƒ^[(UŒ‚), @í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[01-09].bmp 64 9 1 -.wav;_
-@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[10-29].bmp 64 20 1 AntiAirMissile.wav;_
-@@@@@@@@@@@@@@ƒfƒBƒŒƒC 1;_
-@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[30-34].bmp 64 5 1 Beam(8Shot).wav
-ƒVƒ…[ƒeƒBƒ“ƒOƒXƒ^[(–½’†), ‘åŠgŽUƒr[ƒ€ “;‘åŠgŽUƒr[ƒ€ “;’´”š”­
-
-ƒAƒ‹ƒeƒBƒƒbƒg‚Ü‚Ç‚©
-ƒVƒ…[ƒeƒBƒ“ƒOƒXƒ^[(€”õ), ƒI[ƒ‰ã¸ “;_
-@@@@@@@@@@@@@@U‚é•Ší Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64 -.wav;_
-@@@@@@@@@@@@@@U‚é•Ší˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
-@@@@@@@@@@@@@@U‚é•Ší˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
-
-‹Å”ü‚Ù‚Þ‚ç
-ƒV[ƒ‹ƒh–hŒä(ƒoƒbƒNƒ‰[), ƒV[ƒ‹ƒh–hŒä Anime\EFFECT_MadokaMagica_Homura'sShield01.bmp 32
-‘jŽ~(ŽžŠÔ’âŽ~), ˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 ‘O–Ê Reload(4).wav •ÛŽ;_
-@@@@@@@@3;BeamCoat.wav;4;White.bmp 480 480;1;Clear
-ƒNƒƒbƒNƒAƒbƒv(€”õ), ˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 ‘O–Ê Reload(4).wav •ÛŽ
-ƒNƒƒbƒNƒAƒbƒv(”­“®), ŽžŠÔ
-ƒNƒƒbƒNƒ_ƒEƒ“(€”õ), ˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 ‘O–Ê Reload(4).wav •ÛŽ
-ƒNƒƒbƒNƒ_ƒEƒ“(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ž‡
-ƒNƒƒbƒNƒ_ƒEƒ“(–½’†), ŽžŠÔ‹ts
-ƒSƒ‹ƒtƒNƒ‰ƒu, ‰£‘Å•Ší _GetWPBN(ƒSƒ‹ƒtƒhƒ‰ƒCƒo[) 32
-e’e—ŽË(€”õ), ŽËŒ‚•Ší Anime\EFFECT_RWG_BERETTA_M92.bmp 32
-e’e—ŽË(UŒ‚), ˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 ‘O–Ê Reload(4).wav •ÛŽ;_
-@@@@@@@@3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;_
-@@@@@@@@eŒ‚•Ší—ŽË Anime\EFFECT_RWG_BERETTA_M92.bmp 32 _GetWPBN(Œe’e(‰©)) 12 Gun.wav
-e’e—ŽË(–½’†), ˜A‘±”š”­ 5
-‘Se’e”­ŽË(€”õ), ŽËŒ‚•Ší Anime\EFFECT_RWG_BERETTA_M92.bmp 32
-‘Se’e”­ŽË(UŒ‚), ˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 ‘O–Ê Reload(4).wav •ÛŽ;_
-@@@@@@@@@3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;_
-@@@@@@@@@eŒ‚•Ší—ŽË Anime\EFFECT_RWG_BERETTA_M92.bmp 32 _GetWPBN(Œe’e(‰©)) 12 Gun.wav;_
-@@@@@@@@@eŒ‚•Ší—ŽË Anime\EFFECT_RWG_BERETTA_M92.bmp 32 _GetWPBN(Œe’e(‰©)) 12 Gun.wav
-‘Se’e”­ŽË(–½’†), ˜A‘±’…’e;˜A‘±”š”­ 5
-ƒSƒ‹ƒtƒNƒ‰ƒu—‘Å(€”õ), ‰£‘Å•Ší _GetWPBN(ƒSƒ‹ƒtƒhƒ‰ƒCƒo[) 32
-ƒSƒ‹ƒtƒNƒ‰ƒu—‘Å(UŒ‚), ˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 ‘O–Ê Reload(4).wav •ÛŽ;_
-@@@@@@@@@@@@3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;ŽaŒ‚—•‘
-ƒSƒ‹ƒtƒNƒ‰ƒu—‘Å(–½’†), —‘Å
-ƒfƒBƒŒƒCƒ}ƒCƒ“(UŒ‚), ˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 ‘O–Ê Reload(4).wav •ÛŽ;_
-@@@@@@@@@@@3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;”­Œõ Ô -.wav
-ƒfƒBƒŒƒCƒ}ƒCƒ“(–½’†), ‘å”š”­
-ƒƒPƒbƒgƒ‰ƒ“ƒ`ƒƒ[(€”õ), ƒI[ƒ‰ã¸ Ž‡;‘½”ŽËŒ‚•Ší“Ë‚«—§‚Ä _GetWPBN(ƒoƒY[ƒJ) 40 Reload.wav
-ƒƒPƒbƒgƒ‰ƒ“ƒ`ƒƒ[(UŒ‚), ˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 ‘O–Ê Reload(4).wav •ÛŽ;_
-@@@@@@@@@@@@@3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;_
-@@@@@@@@@@@@@‘½”•Ší“Ë‚«—§‚ÄeŒ‚ _GetWPBN(ƒoƒY[ƒJ) 40 _GetWPBN(ƒoƒY[ƒJ’e) 32 ‘å Bazooka.wav
-ƒƒPƒbƒgƒ‰ƒ“ƒ`ƒƒ[(–½’†), ˜A‘±‘å”š”­ 6
-ƒ^ƒ“ƒNƒ[ƒŠ[(€”õ), ƒI[ƒ‰ã¸ Ž‡;‚µ‚à‚× Anime\EFFECT_MadokaMagica_Tankrolly(2).bmp 32
-ƒ^ƒ“ƒNƒ[ƒŠ[(UŒ‚), ŽÀ’e”­ŽË Anime\EFFECT_MadokaMagica_Tankrolly.bmp 32 Car(Pass).wav ’x
-ƒ^ƒ“ƒNƒ[ƒŠ[(–½’†), ’´”š”­
-ƒ}ƒWƒJƒ‹ƒAƒ[(€”õ), ŽËŒ‚•Ší Anime\MadokaMagica_Homura'sBow01.bmp 64 -.wav
-ƒ}ƒWƒJƒ‹ƒAƒ[(UŒ‚), @í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\MadokaMagica_Homura'sBow[01-13].bmp 64 12 1 Charge(Silent).wav •ÛŽ;_
-@@@@@@@@@@@ƒfƒBƒŒƒC 8;_
-@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\MadokaMagica_Homura'sBow[14-28].bmp 64 15 1 AntiAirMissile.wav •ÛŽ;_
-@@@@@@@@@@@ƒfƒBƒŒƒC 1;_
-@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\MadokaMagica_Homura'sBow[29-33].bmp 64 5 1 Beam.wav
-ƒ}ƒWƒJƒ‹ƒAƒ[(–½’†), Œõ–î Ž‡
-ƒgƒDƒCƒ“ƒNƒ‹ƒAƒ[(€”õ), ŽËŒ‚•Ší Anime\MadokaMagica_Homura'sBow01.bmp 64 -.wav
-ƒgƒDƒCƒ“ƒNƒ‹ƒAƒ[(UŒ‚), @í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\MadokaMagica_Homura'sBow[01-13].bmp 64 12 1 Charge(Silent).wav •ÛŽ;_
-@@@@@@@@@@@@@ƒfƒBƒŒƒC 8;_
-@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\MadokaMagica_Homura'sBow[14-28].bmp 64 15 1 AntiAirMissile.wav •ÛŽ;_
-@@@@@@@@@@@@@ƒfƒBƒŒƒC 1;_
-@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\MadokaMagica_Homura'sBow[29-33].bmp 64 5 1 Beam.wav
-ƒgƒDƒCƒ“ƒNƒ‹ƒAƒ[(–½’†), ¬ƒr[ƒ€ Ž‡
-ƒXƒ^[ƒ‰ƒCƒgƒAƒ[(€”õ), ŽËŒ‚•Ší Anime\MadokaMagica_Homura'sBow01.bmp 64 -.wav
-ƒXƒ^[ƒ‰ƒCƒgƒAƒ[(UŒ‚), @í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\MadokaMagica_Homura'sBow[01-13].bmp 64 12 1 Charge(Silent).wav •ÛŽ;_
-@@@@@@@@@@@@@ƒfƒBƒŒƒC 8;_
-@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\MadokaMagica_Homura'sBow[14-28].bmp 64 15 1 AntiAirMissile.wav •ÛŽ;_
-@@@@@@@@@@@@@ƒfƒBƒŒƒC 1;_
-@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽËŒ‚•Ší˜A‘±•`‰æ€”õ Anime\MadokaMagica_Homura'sBow[29-33].bmp 64 5 1 Beam.wav
-ƒXƒ^[ƒ‰ƒCƒgƒAƒ[(–½’†), ’†ƒr[ƒ€ Ž‡
-
-”üŽ÷‚³‚â‚©
-ƒXƒeƒBƒ“ƒK[, “Ë‚­•Ší“ËŒ‚ Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52 ŽaŒ‚
-ƒGƒbƒW, ŽaŒ‚•Ší Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
-‚rƒXƒeƒBƒ“ƒK[(€”õ), U‚é•Ší Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
-‚rƒXƒeƒBƒ“ƒK[(UŒ‚), “Š±•Ší Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52
-‚rƒXƒeƒBƒ“ƒK[(–½’†), Žh“Ë
-ƒXƒNƒƒ‹ƒ^ƒg[ƒŒ(€”õ), U‚é•Ší Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
-ƒXƒNƒƒ‹ƒ^ƒg[ƒŒ(UŒ‚), ŽaŒ‚—•‘
-ƒXƒNƒƒ‹ƒ^ƒg[ƒŒ(–½’†), ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚
-ƒn[ƒhƒGƒbƒW(€”õ), ŽaŒ‚•Ší Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
-ƒn[ƒhƒGƒbƒW, ˜AŽaŒ‚
-ƒXƒvƒ‰ƒbƒVƒ…ƒXƒeƒBƒ“ƒK[(€”õ), ƒI[ƒ‰ã¸ …F;‘½”•Ší“Ë‚«—§‚Ä Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52 “Ë‚«Žh‚µ “¯Žž ã¸
-ƒXƒvƒ‰ƒbƒVƒ…ƒXƒeƒBƒ“ƒK[(UŒ‚), ‘½”•Ší“Ë‚«—§‚Ä“Š± Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52 “Ë‚«Žh‚µ
-ƒXƒvƒ‰ƒbƒVƒ…ƒXƒeƒBƒ“ƒK[(–½’†), —“Ë
-ƒ^ƒCƒt[ƒ“(€”õ), ƒI[ƒ‰ã¸ …F;U‚é•Ší Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
-ƒ^ƒCƒt[ƒ“(UŒ‚), @í“¬ƒAƒjƒ_ƒXƒsƒ“ŠJŽn …F Storm.wav
-ƒ^ƒCƒt[ƒ“(–½’†), ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚
-ƒRƒ‰ƒeƒ‰ƒ‹ƒGƒbƒW(€”õ), ŽaŒ‚•Ší Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
-ƒRƒ‰ƒeƒ‰ƒ‹ƒGƒbƒW(UŒ‚), U‚è‰º‚ë‚µ
-ƒRƒ‰ƒeƒ‰ƒ‹ƒGƒbƒW(–½’†), “‚’|Š„‚è
-ƒXƒp[ƒNƒGƒbƒW(€”õ), ƒI[ƒ‰ã¸ …F;U‚é•Ší Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
-ƒXƒp[ƒNƒGƒbƒW(UŒ‚), “Ë‚­•Ší‹}~‰º Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52
-ƒXƒp[ƒNƒGƒbƒW(–½’†), “Ë‚­•Ší‹}~‰º Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52;’´ŽaŒ‚ Inori.wav
-‹¶‘z‹È(€”õ), ƒI[ƒ‰ã¸ …F;Œõ•¬o …F;U‚é•Ší Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
-‹¶‘z‹È(UŒ‚), U‚é•Ší“ËŒ‚ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
-‹¶‘z‹È(–½’†), ŽaŒ‚—•‘;U‚é•Ší“ËŒ‚ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40 ŽaŒ‚
-•Ïg, ”­Œõ …F;ƒfƒBƒŒƒC 5;ƒI[ƒ‰ã¸ …F;•ÏŒ` Info(ƒ†ƒjƒbƒgƒf[ƒ^,”üŽ÷‚³‚â‚©,ƒOƒ‰ƒtƒBƒbƒN) -.wav;_
-@@@@í“¬ƒAƒjƒ_U‚é•Ší€”õ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40 Sword.wav
-
-”üŽ÷‚³‚â‚©(Œ€ê”Å)
-•Ïg, ”­Œõ …F;ƒfƒBƒŒƒC 5;ƒI[ƒ‰ã¸ …F;•ÏŒ` LIndex(Info(ƒ†ƒjƒbƒg,“ÁŽê”\—Íƒf[ƒ^,‚³‚â‚©•ÏgŒã‰æ‘œ,ƒOƒ‰ƒtƒBƒbƒN),2) -.wav;_
-@@@@í“¬ƒAƒjƒ_U‚é•Ší€”õ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40 Sword.wav
-
-”bƒ}ƒ~
-ƒŒƒK[ƒŒ(UŒ‚), ”­Œõ žò Whiz.wav
-ƒŒƒK[ƒŒ(–½’†), ˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Mami'sRibon[01-08].bmp 40 10 1 ‘O–Ê Saber.wav
-ƒŒƒK[ƒŒEƒ”ƒ@ƒXƒ^ƒAƒŠƒA(€”õ), ƒI[ƒ‰ã¸ žò
-ƒŒƒK[ƒŒEƒ”ƒ@ƒXƒ^ƒAƒŠƒA(UŒ‚), ”­Œõ žò Whiz.wav
-ƒŒƒK[ƒŒEƒ”ƒ@ƒXƒ^ƒAƒŠƒA(–½’†), ˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Mami'sRibon[01-08].bmp 40 10 1 ‘O–Ê Saber.wav
-
-²‘qˆÇŽq
-”ò‘„(€”õ), “Ë‚­•Ší Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
-”ò‘„(UŒ‚), “Š±•Ší Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
-”ò‘„(–½’†), Žh“Ë
-g˜@‚Ì‘„, Žh“Ë•Ší Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
-“SÓ•Ú(€”õ), ˜A‘±•`‰æ Anime\EFFECT_MadokaMagica_Kyoko'sLance(R)[01-05].bmp 48 7 Whiz.wav
-“SÓ•Ú(UŒ‚), ‘½ß•Ší˜AŒ‚ Anime\EFFECT_MadokaMagica_Kyoko'sLance(R)(E)[01-03].bmp 32
-“SÓ•Ú(–½’†), ˜A‘Å
-‘Å“Ë(€”õ), “Ë‚­•Ší Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
-‘Å“Ë(UŒ‚), “Ë‚­•Ší“ËŒ‚ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
-‘Å“Ë(–½’†), ‘åŽh“Ë
-˜A‘±“Ë‚«(€”õ), “Ë‚­•Ší Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
-˜A‘±“Ë‚«(UŒ‚), ˜A“Ë
-˜A‘±“Ë‚«(–½’†), Žh“Ë;Žh“Ë
-ŽO’i“Ë‚«(€”õ), “Ë‚­•Ší Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
-ŽO’i“Ë‚«, ˜A“Ë
-Ž¾•—v—‹(€”õ), ’†S‰ñ“]•Ší Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
-@@@@@@@@“Ë‚­•Ší Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
-@@@@@@@@ƒI[ƒ‰ã¸ Ô
-Ž¾•—v—‹(UŒ‚), “Ë‚­•Ší“ËŒ‚ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
-Ž¾•—v—‹(–½’†), ŽaŒ‚—•‘
-Ž¾•—v—‹(–½’†), —“Ë
-–‚—‚É—^‚¦‚é“S’Æ(€”õ), ’†S‰ñ“]•Ší Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
-@@@@@@@@@@@@“Ë‚­•Ší Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
-–‚—‚É—^‚¦‚é“S’Æ(UŒ‚), “Ë‚­•Ší‹}~‰º Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
-–‚—‚É—^‚¦‚é“S’Æ(–½’†), “Ë‚­•Ší‹}~‰º Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;“‚’|Š„‚è
-ÅŒã‚ÌR”»(€”õ), ƒI[ƒ‰ã¸ Ô
-ÅŒã‚ÌR”»(UŒ‚), Lk•Ší Anime\EFFECT_MadokaMagica_Kyoko'sLance(E)[01-03].bmp 28 Whiz.wav
-ÅŒã‚ÌR”»(–½’†), ‘åŽh“Ë Ô
-ò‰ð‚Ì‘å‰Š(€”õ), ’†S‰ñ“]•Ší Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
-@@@@@@@@@“Ë‚­•Ší Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
-@@@@@@@@@ƒI[ƒ‰ã¸ Ô
-ò‰ð‚Ì‘å‰Š(UŒ‚), @í“¬ƒAƒjƒ_Œõ‘å•¬o€”õ Ô Breath.wav;ƒX[ƒp[ƒ^ƒbƒNƒ‹ Ô -.wav
-ò‰ð‚Ì‘å‰Š(–½’†), ƒX[ƒp[ƒ^ƒbƒNƒ‹ Ô;ƒfƒBƒŒƒC 5;ƒI[ƒ‰ Ô Explode(Far).wav
-”›½Œ‹ŠE(”­“®), Œõ•¬o Ô Whiz.wav
-ƒƒbƒ\Eƒtƒ@ƒ“ƒ^ƒYƒ}(€”õ), ƒI[ƒ‰ã¸ Ô
-ƒƒbƒ\Eƒtƒ@ƒ“ƒ^ƒYƒ}(”­“®), •ªg Charge(Silent).wav ƒƒbƒ\Eƒtƒ@ƒ“ƒ^ƒYƒ}
-H‚¤‚©‚¢H(€”õ), ƒI[ƒ‰ã¸ Ô
-•Ïg, ”­Œõ Ô;ƒfƒBƒŒƒC 5;ƒI[ƒ‰ã¸ Ô;•ÏŒ` Info(ƒ†ƒjƒbƒgƒf[ƒ^,²‘qˆÇŽq,ƒOƒ‰ƒtƒBƒbƒN) -.wav;_
-@@@@í“¬ƒAƒjƒ_’†S‰ñ“]•Ší€”õ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
-@@@@í“¬ƒAƒjƒ_“Ë‚­•Ší€”õ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64 Sword.wav
+# PSPç‰ˆåŸºæº–ã®ãƒ•ãƒ«æ­¦è£…ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã€‚æ­¦å™¨ã‚¯ãƒ©ã‚¹ã¯ç„¡ã—ã€‚
+# é€šå¸¸â†’é»’ãç¿¼ã¸ã®å¤‰åŒ–ã¯ãƒã‚¤ãƒ‘ãƒ¼ãƒ¢ãƒ¼ãƒ‰ã§åˆ¶å¾¡ã™ã‚‹å½¢ã«ã€‚
+# ç„¡å°ã®èƒ½åŠ›å€¤ã¯ã»ã‚€ã‚‰(ãƒªãƒœãƒ³)ã¨åŒæ•°å€¤ã«ã¾ã§å¼•ãä¸Šã’ã¦ã¾ã™ã€‚
 
 
-## ‚Ü‚Ç‚©E‚Ù‚Þ‚ç‚Ì‹|ƒAƒjƒ ##
-# ƒAƒjƒEƒAƒCƒRƒ“’ñ‹ŸFêŽ“¡–G”ü
-# ƒiƒ“ƒoƒŠƒ“ƒO‚ðŠO‚·ê‡‚Í“K‹X‚É‰ü•Ï‚µ‚Ä‚­‚¾‚³‚¢B
+## ãƒžã‚¤ãƒŠãƒ¼ãƒ‘ãƒƒã‚¯å¯¾å¿œæˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ ##
+
+é¹¿ç›®ã¾ã©ã‹
+ãƒžã‚¸ã‚«ãƒ«ã‚¹ã‚¿ãƒƒãƒ•, æ®´æ‰“æ­¦å™¨ Anime\EFFECT_MadokaMagica_Madoka'sBow(N).bmp 32
+ãƒˆã‚¥ã‚¤ãƒ³ã‚¯ãƒ«ã‚¹ã‚¿ãƒƒãƒ•(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_MadokaMagica_Madoka'sBow(N).bmp 32
+ãƒˆã‚¥ã‚¤ãƒ³ã‚¯ãƒ«ã‚¹ã‚¿ãƒƒãƒ•(æ”»æ’ƒ), ãªãŽæ‰•ã„
+ãƒˆã‚¥ã‚¤ãƒ³ã‚¯ãƒ«ã‚¹ã‚¿ãƒƒãƒ•(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ æ¡ƒ
+ãƒžã‚¸ã‚«ãƒ«ã‚¢ãƒ­ãƒ¼(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
+ãƒžã‚¸ã‚«ãƒ«ã‚¢ãƒ­ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[01-09].bmp 64 9 1 -.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[10-29].bmp 64 20 1 AntiAirMissile.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ‡ã‚£ãƒ¬ã‚¤ 1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[30-34].bmp 64 5 1 Beam.wav
+ãƒžã‚¸ã‚«ãƒ«ã‚¢ãƒ­ãƒ¼(å‘½ä¸­), å…‰çŸ¢ æ¡ƒ
+ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒžã‚¸ã‚«ãƒ«ã‚¹ã‚¿ãƒƒãƒ•, æ®´æ‰“æ­¦å™¨ Anime\EFFECT_MadokaMagica_Madoka'sBow(N).bmp 32
+ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒžã‚¸ã‚«ãƒ«ã‚¹ã‚¿ãƒƒãƒ•(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ æ¡ƒ
+ãƒˆã‚¥ã‚¤ãƒ³ã‚¯ãƒ«ã‚¢ãƒ­ãƒ¼(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
+ãƒˆã‚¥ã‚¤ãƒ³ã‚¯ãƒ«ã‚¢ãƒ­ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[01-09].bmp 64 9 1 -.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[10-29].bmp 64 20 1 AntiAirMissile.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ‡ã‚£ãƒ¬ã‚¤ 1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[30-34].bmp 64 5 1 Beam.wav
+ãƒˆã‚¥ã‚¤ãƒ³ã‚¯ãƒ«ã‚¢ãƒ­ãƒ¼(å‘½ä¸­), å°ãƒ“ãƒ¼ãƒ  æ¡ƒ
+ã‚¹ãƒ—ãƒ¬ãƒƒãƒˆã‚¢ãƒ­ãƒ¼(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ æ¡ƒ;æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
+ã‚¹ãƒ—ãƒ¬ãƒƒãƒˆã‚¢ãƒ­ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\MadokaMagica_Madoka'sBow(B)[01-11].bmp 64 11 1 -.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\MadokaMagica_Madoka'sBow(B)[12-15].bmp 64 4 1 Beam.wav
+ã‚¹ãƒ—ãƒ¬ãƒƒãƒˆã‚¢ãƒ­ãƒ¼(å‘½ä¸­), ãƒ“ãƒ¼ãƒ ã‚·ãƒ§ãƒƒãƒˆã‚¬ãƒ³ æ¡ƒ
+ã‚¹ã‚¿ãƒ¼ãƒ©ã‚¤ãƒˆã‚¢ãƒ­ãƒ¼(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Weapon\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64 -.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨é€£ç¶šæç”» Weapon\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨é€£ç¶šæç”» Weapon\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
+ã‚¹ã‚¿ãƒ¼ãƒ©ã‚¤ãƒˆã‚¢ãƒ­ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Weapon\EFFECT_MadokaMagica_Madoka'sBow(A)[01-09].bmp 64 9 1 -.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Weapon\EFFECT_MadokaMagica_Madoka'sBow(A)[10-29].bmp 64 20 1 AntiAirMissile.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ‡ã‚£ãƒ¬ã‚¤ 1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Weapon\EFFECT_MadokaMagica_Madoka'sBow(A)[30-34].bmp 64 5 1 Beam.wav
+ã‚¹ã‚¿ãƒ¼ãƒ©ã‚¤ãƒˆã‚¢ãƒ­ãƒ¼(å‘½ä¸­), ä¸­ãƒ“ãƒ¼ãƒ  æ¡ƒ
+ãƒžã‚¸ã‚«ãƒ«ã‚¹ã‚³ãƒ¼ãƒ«(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ æ¡ƒ;æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
+ãƒžã‚¸ã‚«ãƒ«ã‚¹ã‚³ãƒ¼ãƒ«(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\MadokaMagica_Madoka'sBow(B)[01-11].bmp 64 11 1 -.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\MadokaMagica_Madoka'sBow(B)[12-15].bmp 64 4 1 Beam(4Shot).wav
+ãƒžã‚¸ã‚«ãƒ«ã‚¹ã‚³ãƒ¼ãƒ«(å‘½ä¸­), æ‹¡æ•£ãƒ“ãƒ¼ãƒ  æ¡ƒ
+ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ã‚¹ã‚¿ãƒ¼(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ æ¡ƒ;å¤‰å½¢ Info(ãƒ¦ãƒ‹ãƒƒãƒˆãƒ‡ãƒ¼ã‚¿,ã‚¢ãƒ«ãƒ†ã‚£ãƒ¡ãƒƒãƒˆã¾ã©ã‹,ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯) -.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64 -.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
+ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ã‚¹ã‚¿ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[01-09].bmp 64 9 1 -.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[10-29].bmp 64 20 1 AntiAirMissile.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ‡ã‚£ãƒ¬ã‚¤ 1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\EFFECT_MadokaMagica_Madoka'sBow(A)[30-34].bmp 64 5 1 Beam(8Shot).wav
+ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ã‚¹ã‚¿ãƒ¼(å‘½ä¸­), å¤§æ‹¡æ•£ãƒ“ãƒ¼ãƒ  æ¡ƒ;å¤§æ‹¡æ•£ãƒ“ãƒ¼ãƒ  æ¡ƒ;è¶…çˆ†ç™º
+
+ã‚¢ãƒ«ãƒ†ã‚£ãƒ¡ãƒƒãƒˆã¾ã©ã‹
+ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ã‚¹ã‚¿ãƒ¼(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ æ¡ƒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_MadokaMagica_Madoka'sBow(S)01.bmp 64 -.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[01-06].bmp 64 6 Charge(Silent).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚‹æ­¦å™¨é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Madoka'sBow(S)[06-15].bmp 64 8 EvilEye.wav
+
+æšç¾Žã»ã‚€ã‚‰
+ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡(ãƒãƒƒã‚¯ãƒ©ãƒ¼), ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡ Anime\EFFECT_MadokaMagica_Homura'sShield01.bmp 32
+é˜»æ­¢(æ™‚é–“åœæ­¢), é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 å‰é¢ Reload(4).wav ä¿æŒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€3;BeamCoat.wav;4;White.bmp 480 480;1;Clear
+ã‚¯ãƒ­ãƒƒã‚¯ã‚¢ãƒƒãƒ—(æº–å‚™), é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 å‰é¢ Reload(4).wav ä¿æŒ
+ã‚¯ãƒ­ãƒƒã‚¯ã‚¢ãƒƒãƒ—(ç™ºå‹•), æ™‚é–“
+ã‚¯ãƒ­ãƒƒã‚¯ãƒ€ã‚¦ãƒ³(æº–å‚™), é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 å‰é¢ Reload(4).wav ä¿æŒ
+ã‚¯ãƒ­ãƒƒã‚¯ãƒ€ã‚¦ãƒ³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç´«
+ã‚¯ãƒ­ãƒƒã‚¯ãƒ€ã‚¦ãƒ³(å‘½ä¸­), æ™‚é–“é€†è¡Œ
+ã‚´ãƒ«ãƒ•ã‚¯ãƒ©ãƒ–, æ®´æ‰“æ­¦å™¨ _GetWPBN(ã‚´ãƒ«ãƒ•ãƒ‰ãƒ©ã‚¤ãƒãƒ¼) 32
+éŠƒå¼¾ä¹±å°„(æº–å‚™), å°„æ’ƒæ­¦å™¨ Anime\EFFECT_RWG_BERETTA_M92.bmp 32
+éŠƒå¼¾ä¹±å°„(æ”»æ’ƒ), é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 å‰é¢ Reload(4).wav ä¿æŒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€éŠƒæ’ƒæ­¦å™¨ä¹±å°„ Anime\EFFECT_RWG_BERETTA_M92.bmp 32 _GetWPBN(æ‹³éŠƒå¼¾(é»„)) 12 Gun.wav
+éŠƒå¼¾ä¹±å°„(å‘½ä¸­), é€£ç¶šçˆ†ç™º 5
+å…¨éŠƒå¼¾ç™ºå°„(æº–å‚™), å°„æ’ƒæ­¦å™¨ Anime\EFFECT_RWG_BERETTA_M92.bmp 32
+å…¨éŠƒå¼¾ç™ºå°„(æ”»æ’ƒ), é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 å‰é¢ Reload(4).wav ä¿æŒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€éŠƒæ’ƒæ­¦å™¨ä¹±å°„ Anime\EFFECT_RWG_BERETTA_M92.bmp 32 _GetWPBN(æ‹³éŠƒå¼¾(é»„)) 12 Gun.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€éŠƒæ’ƒæ­¦å™¨ä¹±å°„ Anime\EFFECT_RWG_BERETTA_M92.bmp 32 _GetWPBN(æ‹³éŠƒå¼¾(é»„)) 12 Gun.wav
+å…¨éŠƒå¼¾ç™ºå°„(å‘½ä¸­), é€£ç¶šç€å¼¾;é€£ç¶šçˆ†ç™º 5
+ã‚´ãƒ«ãƒ•ã‚¯ãƒ©ãƒ–ä¹±æ‰“(æº–å‚™), æ®´æ‰“æ­¦å™¨ _GetWPBN(ã‚´ãƒ«ãƒ•ãƒ‰ãƒ©ã‚¤ãƒãƒ¼) 32
+ã‚´ãƒ«ãƒ•ã‚¯ãƒ©ãƒ–ä¹±æ‰“(æ”»æ’ƒ), é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 å‰é¢ Reload(4).wav ä¿æŒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;æ–¬æ’ƒä¹±èˆž
+ã‚´ãƒ«ãƒ•ã‚¯ãƒ©ãƒ–ä¹±æ‰“(å‘½ä¸­), ä¹±æ‰“
+ãƒ‡ã‚£ãƒ¬ã‚¤ãƒžã‚¤ãƒ³(æ”»æ’ƒ), é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 å‰é¢ Reload(4).wav ä¿æŒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;ç™ºå…‰ èµ¤ -.wav
+ãƒ‡ã‚£ãƒ¬ã‚¤ãƒžã‚¤ãƒ³(å‘½ä¸­), å¤§çˆ†ç™º
+ãƒ­ã‚±ãƒƒãƒˆãƒ©ãƒ³ãƒãƒ£ãƒ¼(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç´«;å¤šæ•°å°„æ’ƒæ­¦å™¨çªãç«‹ã¦ _GetWPBN(ãƒã‚ºãƒ¼ã‚«) 40 Reload.wav
+ãƒ­ã‚±ãƒƒãƒˆãƒ©ãƒ³ãƒãƒ£ãƒ¼(æ”»æ’ƒ), é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Homura'sShield[01-03].bmp 32 4 å‰é¢ Reload(4).wav ä¿æŒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€3;BeamCoat.wav;4;White.bmp 480 480;1;Clear;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€å¤šæ•°æ­¦å™¨çªãç«‹ã¦éŠƒæ’ƒ _GetWPBN(ãƒã‚ºãƒ¼ã‚«) 40 _GetWPBN(ãƒã‚ºãƒ¼ã‚«å¼¾) 32 å¤§ Bazooka.wav
+ãƒ­ã‚±ãƒƒãƒˆãƒ©ãƒ³ãƒãƒ£ãƒ¼(å‘½ä¸­), é€£ç¶šå¤§çˆ†ç™º 6
+ã‚¿ãƒ³ã‚¯ãƒ­ãƒ¼ãƒªãƒ¼(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç´«;ã—ã‚‚ã¹ Anime\EFFECT_MadokaMagica_Tankrolly(2).bmp 32
+ã‚¿ãƒ³ã‚¯ãƒ­ãƒ¼ãƒªãƒ¼(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Anime\EFFECT_MadokaMagica_Tankrolly.bmp 32 Car(Pass).wav é…
+ã‚¿ãƒ³ã‚¯ãƒ­ãƒ¼ãƒªãƒ¼(å‘½ä¸­), è¶…çˆ†ç™º
+ãƒžã‚¸ã‚«ãƒ«ã‚¢ãƒ­ãƒ¼(æº–å‚™), å°„æ’ƒæ­¦å™¨ Anime\MadokaMagica_Homura'sBow01.bmp 64 -.wav
+ãƒžã‚¸ã‚«ãƒ«ã‚¢ãƒ­ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\MadokaMagica_Homura'sBow[01-13].bmp 64 12 1 Charge(Silent).wav ä¿æŒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ‡ã‚£ãƒ¬ã‚¤ 8;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\MadokaMagica_Homura'sBow[14-28].bmp 64 15 1 AntiAirMissile.wav ä¿æŒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ‡ã‚£ãƒ¬ã‚¤ 1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\MadokaMagica_Homura'sBow[29-33].bmp 64 5 1 Beam.wav
+ãƒžã‚¸ã‚«ãƒ«ã‚¢ãƒ­ãƒ¼(å‘½ä¸­), å…‰çŸ¢ ç´«
+ãƒˆã‚¥ã‚¤ãƒ³ã‚¯ãƒ«ã‚¢ãƒ­ãƒ¼(æº–å‚™), å°„æ’ƒæ­¦å™¨ Anime\MadokaMagica_Homura'sBow01.bmp 64 -.wav
+ãƒˆã‚¥ã‚¤ãƒ³ã‚¯ãƒ«ã‚¢ãƒ­ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\MadokaMagica_Homura'sBow[01-13].bmp 64 12 1 Charge(Silent).wav ä¿æŒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ‡ã‚£ãƒ¬ã‚¤ 8;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\MadokaMagica_Homura'sBow[14-28].bmp 64 15 1 AntiAirMissile.wav ä¿æŒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ‡ã‚£ãƒ¬ã‚¤ 1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\MadokaMagica_Homura'sBow[29-33].bmp 64 5 1 Beam.wav
+ãƒˆã‚¥ã‚¤ãƒ³ã‚¯ãƒ«ã‚¢ãƒ­ãƒ¼(å‘½ä¸­), å°ãƒ“ãƒ¼ãƒ  ç´«
+ã‚¹ã‚¿ãƒ¼ãƒ©ã‚¤ãƒˆã‚¢ãƒ­ãƒ¼(æº–å‚™), å°„æ’ƒæ­¦å™¨ Anime\MadokaMagica_Homura'sBow01.bmp 64 -.wav
+ã‚¹ã‚¿ãƒ¼ãƒ©ã‚¤ãƒˆã‚¢ãƒ­ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\MadokaMagica_Homura'sBow[01-13].bmp 64 12 1 Charge(Silent).wav ä¿æŒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ‡ã‚£ãƒ¬ã‚¤ 8;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\MadokaMagica_Homura'sBow[14-28].bmp 64 15 1 AntiAirMissile.wav ä¿æŒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ‡ã‚£ãƒ¬ã‚¤ 1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨é€£ç¶šæç”»æº–å‚™ Anime\MadokaMagica_Homura'sBow[29-33].bmp 64 5 1 Beam.wav
+ã‚¹ã‚¿ãƒ¼ãƒ©ã‚¤ãƒˆã‚¢ãƒ­ãƒ¼(å‘½ä¸­), ä¸­ãƒ“ãƒ¼ãƒ  ç´«
+
+ç¾Žæ¨¹ã•ã‚„ã‹
+ã‚¹ãƒ†ã‚£ãƒ³ã‚¬ãƒ¼, çªãæ­¦å™¨çªæ’ƒ Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52 æ–¬æ’ƒ
+ã‚¨ãƒƒã‚¸, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+ï¼³ã‚¹ãƒ†ã‚£ãƒ³ã‚¬ãƒ¼(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+ï¼³ã‚¹ãƒ†ã‚£ãƒ³ã‚¬ãƒ¼(æ”»æ’ƒ), æŠ•æ“²æ­¦å™¨ Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52
+ï¼³ã‚¹ãƒ†ã‚£ãƒ³ã‚¬ãƒ¼(å‘½ä¸­), åˆºçª
+ã‚¹ã‚¯ãƒ¯ãƒ«ã‚¿ãƒˆãƒ¼ãƒ¬(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+ã‚¹ã‚¯ãƒ¯ãƒ«ã‚¿ãƒˆãƒ¼ãƒ¬(æ”»æ’ƒ), æ–¬æ’ƒä¹±èˆž
+ã‚¹ã‚¯ãƒ¯ãƒ«ã‚¿ãƒˆãƒ¼ãƒ¬(å‘½ä¸­), ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ
+ãƒãƒ¼ãƒ‰ã‚¨ãƒƒã‚¸(æº–å‚™), æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+ãƒãƒ¼ãƒ‰ã‚¨ãƒƒã‚¸, é€£æ–¬æ’ƒ
+ã‚¹ãƒ—ãƒ©ãƒƒã‚·ãƒ¥ã‚¹ãƒ†ã‚£ãƒ³ã‚¬ãƒ¼(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ æ°´è‰²;å¤šæ•°æ­¦å™¨çªãç«‹ã¦ Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52 çªãåˆºã— åŒæ™‚ ä¸Šæ˜‡
+ã‚¹ãƒ—ãƒ©ãƒƒã‚·ãƒ¥ã‚¹ãƒ†ã‚£ãƒ³ã‚¬ãƒ¼(æ”»æ’ƒ), å¤šæ•°æ­¦å™¨çªãç«‹ã¦æŠ•æ“² Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52 çªãåˆºã—
+ã‚¹ãƒ—ãƒ©ãƒƒã‚·ãƒ¥ã‚¹ãƒ†ã‚£ãƒ³ã‚¬ãƒ¼(å‘½ä¸­), ä¹±çª
+ã‚¿ã‚¤ãƒ•ãƒ¼ãƒ³(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ æ°´è‰²;æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+ã‚¿ã‚¤ãƒ•ãƒ¼ãƒ³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¹ãƒ”ãƒ³é–‹å§‹ æ°´è‰² Storm.wav
+ã‚¿ã‚¤ãƒ•ãƒ¼ãƒ³(å‘½ä¸­), ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ
+ã‚³ãƒ©ãƒ†ãƒ©ãƒ«ã‚¨ãƒƒã‚¸(æº–å‚™), æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+ã‚³ãƒ©ãƒ†ãƒ©ãƒ«ã‚¨ãƒƒã‚¸(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—
+ã‚³ãƒ©ãƒ†ãƒ©ãƒ«ã‚¨ãƒƒã‚¸(å‘½ä¸­), å”ç«¹å‰²ã‚Š
+ã‚¹ãƒ‘ãƒ¼ã‚¯ã‚¨ãƒƒã‚¸(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ æ°´è‰²;æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+ã‚¹ãƒ‘ãƒ¼ã‚¯ã‚¨ãƒƒã‚¸(æ”»æ’ƒ), çªãæ­¦å™¨æ€¥é™ä¸‹ Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52
+ã‚¹ãƒ‘ãƒ¼ã‚¯ã‚¨ãƒƒã‚¸(å‘½ä¸­), çªãæ­¦å™¨æ€¥é™ä¸‹ Anime\EFFECT_MadokaMagica_Sayaka'sSaber(2).bmp 52;è¶…æ–¬æ’ƒ Inori.wav
+ç‹‚æƒ³æ›²(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ æ°´è‰²;å…‰å™´å‡º æ°´è‰²;æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+ç‹‚æƒ³æ›²(æ”»æ’ƒ), æŒ¯ã‚‹æ­¦å™¨çªæ’ƒ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40
+ç‹‚æƒ³æ›²(å‘½ä¸­), æ–¬æ’ƒä¹±èˆž;æŒ¯ã‚‹æ­¦å™¨çªæ’ƒ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40 æ–¬æ’ƒ
+å¤‰èº«, ç™ºå…‰ æ°´è‰²;ãƒ‡ã‚£ãƒ¬ã‚¤ 5;ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ æ°´è‰²;å¤‰å½¢ Info(ãƒ¦ãƒ‹ãƒƒãƒˆãƒ‡ãƒ¼ã‚¿,ç¾Žæ¨¹ã•ã‚„ã‹,ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯) -.wav;_
+ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚‹æ­¦å™¨æº–å‚™ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40 Sword.wav
+
+ç¾Žæ¨¹ã•ã‚„ã‹(åŠ‡å ´ç‰ˆ)
+å¤‰èº«, ç™ºå…‰ æ°´è‰²;ãƒ‡ã‚£ãƒ¬ã‚¤ 5;ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ æ°´è‰²;å¤‰å½¢ LIndex(Info(ãƒ¦ãƒ‹ãƒƒãƒˆ,ç‰¹æ®Šèƒ½åŠ›ãƒ‡ãƒ¼ã‚¿,ã•ã‚„ã‹å¤‰èº«å¾Œç”»åƒ,ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯),2) -.wav;_
+ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚‹æ­¦å™¨æº–å‚™ Anime\EFFECT_MadokaMagica_Sayaka'sSaber.bmp 40 Sword.wav
+
+å·´ãƒžãƒŸ
+ãƒ¬ã‚¬ãƒ¼ãƒ¬(æ”»æ’ƒ), ç™ºå…‰ æ©™ Whiz.wav
+ãƒ¬ã‚¬ãƒ¼ãƒ¬(å‘½ä¸­), é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Mami'sRibon[01-08].bmp 40 10 1 å‰é¢ Saber.wav
+ãƒ¬ã‚¬ãƒ¼ãƒ¬ãƒ»ãƒ´ã‚¡ã‚¹ã‚¿ã‚¢ãƒªã‚¢(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ æ©™
+ãƒ¬ã‚¬ãƒ¼ãƒ¬ãƒ»ãƒ´ã‚¡ã‚¹ã‚¿ã‚¢ãƒªã‚¢(æ”»æ’ƒ), ç™ºå…‰ æ©™ Whiz.wav
+ãƒ¬ã‚¬ãƒ¼ãƒ¬ãƒ»ãƒ´ã‚¡ã‚¹ã‚¿ã‚¢ãƒªã‚¢(å‘½ä¸­), é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Mami'sRibon[01-08].bmp 40 10 1 å‰é¢ Saber.wav
+
+ä½å€‰æå­
+é£›æ§(æº–å‚™), çªãæ­¦å™¨ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+é£›æ§(æ”»æ’ƒ), æŠ•æ“²æ­¦å™¨ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+é£›æ§(å‘½ä¸­), åˆºçª
+ç´…è“®ã®æ§, åˆºçªæ­¦å™¨ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+é‰„ç •éž­(æº–å‚™), é€£ç¶šæç”» Anime\EFFECT_MadokaMagica_Kyoko'sLance(R)[01-05].bmp 48 7 Whiz.wav
+é‰„ç •éž­(æ”»æ’ƒ), å¤šç¯€æ­¦å™¨é€£æ’ƒ Anime\EFFECT_MadokaMagica_Kyoko'sLance(R)(E)[01-03].bmp 32
+é‰„ç •éž­(å‘½ä¸­), é€£æ‰“
+æ‰“çª(æº–å‚™), çªãæ­¦å™¨ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+æ‰“çª(æ”»æ’ƒ), çªãæ­¦å™¨çªæ’ƒ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+æ‰“çª(å‘½ä¸­), å¤§åˆºçª
+é€£ç¶šçªã(æº–å‚™), çªãæ­¦å™¨ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+é€£ç¶šçªã(æ”»æ’ƒ), é€£çª
+é€£ç¶šçªã(å‘½ä¸­), åˆºçª;åˆºçª
+ä¸‰æ®µçªã(æº–å‚™), çªãæ­¦å™¨ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+ä¸‰æ®µçªã, é€£çª
+ç–¾é¢¨è¿…é›·(æº–å‚™), ä¸­å¿ƒå›žè»¢æ­¦å™¨ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€çªãæ­¦å™¨ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ èµ¤
+ç–¾é¢¨è¿…é›·(æ”»æ’ƒ), çªãæ­¦å™¨çªæ’ƒ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+ç–¾é¢¨è¿…é›·(å‘½ä¸­), æ–¬æ’ƒä¹±èˆž
+ç–¾é¢¨è¿…é›·(å‘½ä¸­), ä¹±çª
+é­”å¥³ã«ä¸Žãˆã‚‹é‰„æ§Œ(æº–å‚™), ä¸­å¿ƒå›žè»¢æ­¦å™¨ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€çªãæ­¦å™¨ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+é­”å¥³ã«ä¸Žãˆã‚‹é‰„æ§Œ(æ”»æ’ƒ), çªãæ­¦å™¨æ€¥é™ä¸‹ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64
+é­”å¥³ã«ä¸Žãˆã‚‹é‰„æ§Œ(å‘½ä¸­), çªãæ­¦å™¨æ€¥é™ä¸‹ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;å”ç«¹å‰²ã‚Š
+æœ€å¾Œã®å¯©åˆ¤(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ èµ¤
+æœ€å¾Œã®å¯©åˆ¤(æ”»æ’ƒ), ä¼¸ç¸®æ­¦å™¨ Anime\EFFECT_MadokaMagica_Kyoko'sLance(E)[01-03].bmp 28 Whiz.wav
+æœ€å¾Œã®å¯©åˆ¤(å‘½ä¸­), å¤§åˆºçª èµ¤
+æµ„è§£ã®å¤§ç‚Ž(æº–å‚™), ä¸­å¿ƒå›žè»¢æ­¦å™¨ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€çªãæ­¦å™¨ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ èµ¤
+æµ„è§£ã®å¤§ç‚Ž(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å¤§å™´å‡ºæº–å‚™ èµ¤ Breath.wav;ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« èµ¤ -.wav
+æµ„è§£ã®å¤§ç‚Ž(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« èµ¤;ãƒ‡ã‚£ãƒ¬ã‚¤ 5;ã‚ªãƒ¼ãƒ© èµ¤ Explode(Far).wav
+ç¸›éŽ–çµç•Œ(ç™ºå‹•), å…‰å™´å‡º èµ¤ Whiz.wav
+ãƒ­ãƒƒã‚½ãƒ»ãƒ•ã‚¡ãƒ³ã‚¿ã‚ºãƒž(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ èµ¤
+ãƒ­ãƒƒã‚½ãƒ»ãƒ•ã‚¡ãƒ³ã‚¿ã‚ºãƒž(ç™ºå‹•), åˆ†èº« Charge(Silent).wav ãƒ­ãƒƒã‚½ãƒ»ãƒ•ã‚¡ãƒ³ã‚¿ã‚ºãƒž
+é£Ÿã†ã‹ã„ï¼Ÿ(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ èµ¤
+å¤‰èº«, ç™ºå…‰ èµ¤;ãƒ‡ã‚£ãƒ¬ã‚¤ 5;ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ èµ¤;å¤‰å½¢ Info(ãƒ¦ãƒ‹ãƒƒãƒˆãƒ‡ãƒ¼ã‚¿,ä½å€‰æå­,ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯) -.wav;_
+ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ä¸­å¿ƒå›žè»¢æ­¦å™¨æº–å‚™ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64;_
+ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_çªãæ­¦å™¨æº–å‚™ Anime\EFFECT_MadokaMagica_Kyoko'sLance.bmp 64 Sword.wav
+
+
+## ã¾ã©ã‹ãƒ»ã»ã‚€ã‚‰ã®å¼“ã‚¢ãƒ‹ãƒ¡ ##
+# ã‚¢ãƒ‹ãƒ¡ãƒ»ã‚¢ã‚¤ã‚³ãƒ³æä¾›ï¼šé½Šè—¤èŒç¾Ž
+# ãƒŠãƒ³ãƒãƒªãƒ³ã‚°ã‚’å¤–ã™å ´åˆã¯é©å®œã«æ”¹å¤‰ã—ã¦ãã ã•ã„ã€‚
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_‚Ü‚Ç‚©‚Ì‹|€”õ:
-í“¬ƒAƒjƒ_‚Ü‚Ç‚©‚Ì‹|˜AŽËUŒ‚:
-Call í“¬ƒAƒjƒ_ŽËŒ‚•Ší€”õ _SelectWPBN("Anime\EFFECT_MadokaMagica_Madoka'sBow00(2).bmp") _SelectWPBS(32) _GetName("Swing.wav",_GetWavFromArgs()) _SearchOptionFromArgs(”­Œõ) _GetIDFromArgs()
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã¾ã©ã‹ã®å¼“æº–å‚™:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã¾ã©ã‹ã®å¼“é€£å°„æ”»æ’ƒ:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨æº–å‚™ _SelectWPBN("Anime\EFFECT_MadokaMagica_Madoka'sBow00(2).bmp") _SelectWPBS(32) _GetName("Swing.wav",_GetWavFromArgs()) _SearchOptionFromArgs(ç™ºå…‰) _GetIDFromArgs()
 Return "Keep"
-í“¬ƒAƒjƒ_‚Ü‚Ç‚©‚Ì‹|UŒ‚:
-Call í“¬ƒAƒjƒ_‚Ü‚Çƒ}ƒM‹|Œn•ŠíUŒ‚ "Anime\EFFECT_MadokaMagica_Madoka'sBow0" "Œõ–î" ”­Œõ “ Args(1) Args(2) Args(3)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã¾ã©ã‹ã®å¼“æ”»æ’ƒ:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã¾ã©ãƒžã‚®å¼“ç³»æ­¦å™¨æ”»æ’ƒ "Anime\EFFECT_MadokaMagica_Madoka'sBow0" "å…‰çŸ¢" ç™ºå…‰ æ¡ƒ Args(1) Args(2) Args(3)
 Return
-í“¬ƒAƒjƒ_‚Ü‚Ç‚©‚Ì‹|–½’†:
-Call í“¬ƒAƒjƒ_Œõ–î–½’†‹¤’Ê “ Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã¾ã©ã‹ã®å¼“å‘½ä¸­:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰çŸ¢å‘½ä¸­å…±é€š æ¡ƒ Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
 Return
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_‚Ü‚Ç‚©‚Ì‹|˜AŽËUŒ‚:
-Call í“¬ƒAƒjƒ_ŽèŽ‚¿”­ŽËUŒ‚ _SelectWPBN("Anime\EFFECT_MadokaMagica_Madoka'sBow00(2).bmp") _SelectWPBS(32) _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs()) _
-_GetWPBN(Œõ–î˜AŽË(“)) _GetWPBS(Œõ–î˜AŽË) _GetName("Bow.wav",_GetWavFromArgs())
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã¾ã©ã‹ã®å¼“é€£å°„æ”»æ’ƒ:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ‰‹æŒã¡ç™ºå°„æ”»æ’ƒ _SelectWPBN("Anime\EFFECT_MadokaMagica_Madoka'sBow00(2).bmp") _SelectWPBS(32) _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs()) _
+_GetWPBN(å…‰çŸ¢é€£å°„(æ¡ƒ)) _GetWPBS(å…‰çŸ¢é€£å°„) _GetName("Bow.wav",_GetWavFromArgs())
 Return
-í“¬ƒAƒjƒ_‚Ü‚Ç‚©‚Ì‹|˜AŽË–½’†:
-Call í“¬ƒAƒjƒ_Œõ–î–½’†‹¤’Ê "˜A‘±" “ Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã¾ã©ã‹ã®å¼“é€£å°„å‘½ä¸­:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰çŸ¢å‘½ä¸­å…±é€š "é€£ç¶š" æ¡ƒ Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_‚Ù‚Þ‚ç‚Ì‹|€”õ:
-í“¬ƒAƒjƒ_‚Ù‚Þ‚ç‚Ì‹|˜AŽËUŒ‚:
-Call í“¬ƒAƒjƒ_ŽËŒ‚•Ší€”õ _SelectWPBN("Anime\EFFECT_MadokaMagica_Homura'sBow00(2).bmp") _SelectWPBS(32) _GetName("Swing.wav",_GetWavFromArgs()) _SearchOptionFromArgs(”­Œõ) _GetIDFromArgs()
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã»ã‚€ã‚‰ã®å¼“æº–å‚™:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã»ã‚€ã‚‰ã®å¼“é€£å°„æ”»æ’ƒ:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨æº–å‚™ _SelectWPBN("Anime\EFFECT_MadokaMagica_Homura'sBow00(2).bmp") _SelectWPBS(32) _GetName("Swing.wav",_GetWavFromArgs()) _SearchOptionFromArgs(ç™ºå…‰) _GetIDFromArgs()
 Return "Keep"
-í“¬ƒAƒjƒ_‚Ù‚Þ‚ç‚Ì‹|UŒ‚:
-Call í“¬ƒAƒjƒ_‚Ü‚Çƒ}ƒM‹|Œn•ŠíUŒ‚ "Anime\EFFECT_MadokaMagica_Homura'sBow0" "Œõ–î" ”­Œõ Ž‡ Args(1) Args(2) Args(3)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã»ã‚€ã‚‰ã®å¼“æ”»æ’ƒ:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã¾ã©ãƒžã‚®å¼“ç³»æ­¦å™¨æ”»æ’ƒ "Anime\EFFECT_MadokaMagica_Homura'sBow0" "å…‰çŸ¢" ç™ºå…‰ ç´« Args(1) Args(2) Args(3)
 Return
-í“¬ƒAƒjƒ_‚Ù‚Þ‚ç‚Ì‹|–½’†:
-Call í“¬ƒAƒjƒ_Œõ–î–½’†‹¤’Ê Ž‡ Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã»ã‚€ã‚‰ã®å¼“å‘½ä¸­:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰çŸ¢å‘½ä¸­å…±é€š ç´« Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
 Return
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_‚Ù‚Þ‚ç‚Ì‹|˜AŽËUŒ‚:
-Call í“¬ƒAƒjƒ_ŽèŽ‚¿”­ŽËUŒ‚ _SelectWPBN("Anime\EFFECT_M3_Homura'sBow00.bmp") _SelectWPBS(32) _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs()) _
-_GetWPBN(Œõ–î˜AŽË(Ž‡)) _GetWPBS(Œõ–î˜AŽË) _GetName("Bow.wav",_GetWavFromArgs())
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã»ã‚€ã‚‰ã®å¼“é€£å°„æ”»æ’ƒ:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ‰‹æŒã¡ç™ºå°„æ”»æ’ƒ _SelectWPBN("Anime\EFFECT_M3_Homura'sBow00.bmp") _SelectWPBS(32) _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs()) _
+_GetWPBN(å…‰çŸ¢é€£å°„(ç´«)) _GetWPBS(å…‰çŸ¢é€£å°„) _GetName("Bow.wav",_GetWavFromArgs())
 Return
-í“¬ƒAƒjƒ_‚Ù‚Þ‚ç‚Ì‹|˜AŽË–½’†:
-Call í“¬ƒAƒjƒ_Œõ–î–½’†‹¤’Ê "˜A‘±" Ž‡ Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã»ã‚€ã‚‰ã®å¼“é€£å°„å‘½ä¸­:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰çŸ¢å‘½ä¸­å…±é€š "é€£ç¶š" ç´« Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(7)
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_‚Ü‚Çƒ}ƒM‹|Œn•ŠíUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã¾ã©ãƒžã‚®å¼“ç³»æ­¦å™¨æ”»æ’ƒ:
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Local i j
 Local ANG = _GetAngle(UID)
-Local X_F = _GetCircumference(ANG,‚w)
-Local Y_F = _GetCircumference(ANG,‚x)
+Local X_F = _GetCircumference(ANG,ï¼¸)
+Local Y_F = _GetCircumference(ANG,ï¼¹)
 Local DRCT = _FlipVertical(ANG)
 Local C_X = WX(UID)
 Local C_Y = WY(UID)
@@ -428,16 +428,16 @@ For i = 1 To 5
   ClearPicture
   Switch i
   Case 1
-    PaintPicture (A1 & "0(2).bmp") (C_X + X_F) (C_Y + Y_F) “§‰ß ‰E‰ñ“] ANG DRCT T_COL_F
+    PaintPicture (A1 & "0(2).bmp") (C_X + X_F) (C_Y + Y_F) é€éŽ å³å›žè»¢ ANG DRCT T_COL_F
   Case 2
-    PaintPicture (A1 & "1(2).bmp") (C_X + (X_F * 2)) (C_Y + (Y_F * 2)) “§‰ß ‰E‰ñ“] ANG DRCT T_COL_F
+    PaintPicture (A1 & "1(2).bmp") (C_X + (X_F * 2)) (C_Y + (Y_F * 2)) é€éŽ å³å›žè»¢ ANG DRCT T_COL_F
   Case 3
-    PaintPicture (A1 & "2(2).bmp") (C_X + (X_F * 3)) (C_Y + (Y_F * 3)) “§‰ß ‰E‰ñ“] ANG DRCT T_COL_F
+    PaintPicture (A1 & "2(2).bmp") (C_X + (X_F * 3)) (C_Y + (Y_F * 3)) é€éŽ å³å›žè»¢ ANG DRCT T_COL_F
   Case 4
     _SelectSound "Bow.wav" _GetWavFromArgs()
-    PaintPicture (A1 & "3(2).bmp") (C_X + (X_F * -2)) (C_Y + (Y_F * -2)) “§‰ß ‰E‰ñ“] ANG DRCT T_COL_F
+    PaintPicture (A1 & "3(2).bmp") (C_X + (X_F * -2)) (C_Y + (Y_F * -2)) é€éŽ å³å›žè»¢ ANG DRCT T_COL_F
   Case 5
-    PaintPicture (A1 & "0(2).bmp") (C_X + (X_F * -3)) (C_Y + (Y_F * -3)) “§‰ß ‰E‰ñ“] ANG DRCT T_COL_F
+    PaintPicture (A1 & "0(2).bmp") (C_X + (X_F * -3)) (C_Y + (Y_F * -3)) é€éŽ å³å›žè»¢ ANG DRCT T_COL_F
   EndSw
 
   Refresh
@@ -445,10 +445,10 @@ For i = 1 To 5
   Wait Until (i * 0.5)
 Next
 
-If (_SearchOptionFromArgs(”­Œõ) = ”­Œõ) Then
-  Call í“¬ƒAƒjƒ_ŽÀ’e”­ŽËUŒ‚ _GetWPBN(_STC(Œõ–î)) _GetWPBS(Œõ–î) "-.wav" ”­Œõ
+If (_SearchOptionFromArgs(ç™ºå…‰) = ç™ºå…‰) Then
+  Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å®Ÿå¼¾ç™ºå°„æ”»æ’ƒ _GetWPBN(_STC(å…‰çŸ¢)) _GetWPBS(å…‰çŸ¢) "-.wav" ç™ºå…‰
 Else
-  Call í“¬ƒAƒjƒ_ŽÀ’e”­ŽËUŒ‚ _GetWPBN(–î) _GetWPBS(–î) "-.wav"
+  Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å®Ÿå¼¾ç™ºå°„æ”»æ’ƒ _GetWPBN(çŸ¢) _GetWPBS(çŸ¢) "-.wav"
 EndIf
 
 ClearPicture
@@ -456,50 +456,50 @@ Refresh
 Return
 
 
-## ƒlƒ^ ##
+## ãƒã‚¿ ##
 
-‹Å”ü‚Ù‚Þ‚ç(•Ï‘Ô)
-‚Ù‚Þ‚ç, MAGICA_AkemiHomura(HENTAI).bmp
-‚Ù‚Þ‚ç(•Ï‘Ô)
-‚Ù‚Þ‚ç, MAGICA_AkemiHomura(HENTAI).bmp
+æšç¾Žã»ã‚€ã‚‰(å¤‰æ…‹)
+ã»ã‚€ã‚‰, MAGICA_AkemiHomura(HENTAI).bmp
+ã»ã‚€ã‚‰(å¤‰æ…‹)
+ã»ã‚€ã‚‰, MAGICA_AkemiHomura(HENTAI).bmp
 
-‹Å”ü‚Ù‚Þ‚ç(•Ï‘Ô)(«“I‹»•±)
-‚Ù‚Þ‚ç, MAGICA_AkemiHomura(HENTAI)(SexualExcitation).bmp
-‚Ù‚Þ‚ç(•Ï‘Ô)(«“I‹»•±)
-‚Ù‚Þ‚ç, MAGICA_AkemiHomura(HENTAI)(SexualExcitation).bmp
+æšç¾Žã»ã‚€ã‚‰(å¤‰æ…‹)(æ€§çš„èˆˆå¥®)
+ã»ã‚€ã‚‰, MAGICA_AkemiHomura(HENTAI)(SexualExcitation).bmp
+ã»ã‚€ã‚‰(å¤‰æ…‹)(æ€§çš„èˆˆå¥®)
+ã»ã‚€ã‚‰, MAGICA_AkemiHomura(HENTAI)(SexualExcitation).bmp
 
-‹Å”ü‚Ù‚Þ‚ç(•Ï‘Ô)(‰º’…)
-‚Ù‚Þ‚ç, MAGICA_AkemiHomura(HENTAI)(Underwear).bmp
-‚Ù‚Þ‚ç(•Ï‘Ô)(‰º’…)
-‚Ù‚Þ‚ç, MAGICA_AkemiHomura(HENTAI)(Underwear).bmp
+æšç¾Žã»ã‚€ã‚‰(å¤‰æ…‹)(ä¸‹ç€)
+ã»ã‚€ã‚‰, MAGICA_AkemiHomura(HENTAI)(Underwear).bmp
+ã»ã‚€ã‚‰(å¤‰æ…‹)(ä¸‹ç€)
+ã»ã‚€ã‚‰, MAGICA_AkemiHomura(HENTAI)(Underwear).bmp
 
-‹Å”ü‚Ù‚Þ‚ç(•Ï‘Ô)(‰º’…‚Q)
-‚Ù‚Þ‚ç, MAGICA_AkemiHomura(HENTAI)(Underwear2).bmp
-‚Ù‚Þ‚ç(•Ï‘Ô)(‰º’…‚Q)
-‚Ù‚Þ‚ç, MAGICA_AkemiHomura(HENTAI)(Underwear2).bmp
-
-
-”üŽ÷‚³‚â‚©(404)
-‚³‚â‚©, MAGICA_MikiSayaka(404).bmp
-‚³‚â‚©(404)
-‚³‚â‚©, MAGICA_MikiSayaka(404).bmp
+æšç¾Žã»ã‚€ã‚‰(å¤‰æ…‹)(ä¸‹ç€ï¼’)
+ã»ã‚€ã‚‰, MAGICA_AkemiHomura(HENTAI)(Underwear2).bmp
+ã»ã‚€ã‚‰(å¤‰æ…‹)(ä¸‹ç€ï¼’)
+ã»ã‚€ã‚‰, MAGICA_AkemiHomura(HENTAI)(Underwear2).bmp
 
 
-ƒLƒ…ƒD‚×‚¦(ƒQƒbƒ^[ƒhƒ‰ƒSƒ“)
-ƒLƒ…ƒD‚×‚¦, MAGICA_Kyubee(PS).bmp
+ç¾Žæ¨¹ã•ã‚„ã‹(404)
+ã•ã‚„ã‹, MAGICA_MikiSayaka(404).bmp
+ã•ã‚„ã‹(404)
+ã•ã‚„ã‹, MAGICA_MikiSayaka(404).bmp
 
-ƒLƒ…ƒD‚×‚¦(ƒQƒbƒ^[ƒhƒ‰ƒSƒ“)(Œ©‰º‚·)
-ƒLƒ…ƒD‚×‚¦, MAGICA_Kyubee(PS)(Deprecate).bmp
 
-ƒLƒ…ƒD‚×‚¦(ƒQƒbƒ^[ƒhƒ‰ƒSƒ“)(”šÎ)
-ƒLƒ…ƒD‚×‚¦, MAGICA_Kyubee(PS)(EvilLaugh).bmp
+ã‚­ãƒ¥ã‚¥ã¹ãˆ(ã‚²ãƒƒã‚¿ãƒ¼ãƒ‰ãƒ©ã‚´ãƒ³)
+ã‚­ãƒ¥ã‚¥ã¹ãˆ, MAGICA_Kyubee(PS).bmp
 
-ƒLƒ…ƒD‚×‚¦(ƒQƒbƒ^[ƒhƒ‰ƒSƒ“)(Î‚¤)
-ƒLƒ…ƒD‚×‚¦, MAGICA_Kyubee(PS)(Smile).bmp
+ã‚­ãƒ¥ã‚¥ã¹ãˆ(ã‚²ãƒƒã‚¿ãƒ¼ãƒ‰ãƒ©ã‚´ãƒ³)(è¦‹ä¸‹ã™)
+ã‚­ãƒ¥ã‚¥ã¹ãˆ, MAGICA_Kyubee(PS)(Deprecate).bmp
 
-ƒLƒ…ƒD‚×‚¦(ƒQƒbƒ^[ƒhƒ‰ƒSƒ“)(’‚é)
-ƒLƒ…ƒD‚×‚¦, MAGICA_Kyubee(PS)(Talk).bmp
+ã‚­ãƒ¥ã‚¥ã¹ãˆ(ã‚²ãƒƒã‚¿ãƒ¼ãƒ‰ãƒ©ã‚´ãƒ³)(çˆ†ç¬‘)
+ã‚­ãƒ¥ã‚¥ã¹ãˆ, MAGICA_Kyubee(PS)(EvilLaugh).bmp
 
-ƒLƒ…ƒD‚×‚¦(ƒQƒbƒ^[ƒhƒ‰ƒSƒ“)(Ÿ‚¿ŒÖ‚é)
-ƒLƒ…ƒD‚×‚¦, MAGICA_Kyubee(PS)(Triumph).bmp
+ã‚­ãƒ¥ã‚¥ã¹ãˆ(ã‚²ãƒƒã‚¿ãƒ¼ãƒ‰ãƒ©ã‚´ãƒ³)(ç¬‘ã†)
+ã‚­ãƒ¥ã‚¥ã¹ãˆ, MAGICA_Kyubee(PS)(Smile).bmp
+
+ã‚­ãƒ¥ã‚¥ã¹ãˆ(ã‚²ãƒƒã‚¿ãƒ¼ãƒ‰ãƒ©ã‚´ãƒ³)(å–‹ã‚‹)
+ã‚­ãƒ¥ã‚¥ã¹ãˆ, MAGICA_Kyubee(PS)(Talk).bmp
+
+ã‚­ãƒ¥ã‚¥ã¹ãˆ(ã‚²ãƒƒã‚¿ãƒ¼ãƒ‰ãƒ©ã‚´ãƒ³)(å‹ã¡èª‡ã‚‹)
+ã‚­ãƒ¥ã‚¥ã¹ãˆ, MAGICA_Kyubee(PS)(Triumph).bmp
 

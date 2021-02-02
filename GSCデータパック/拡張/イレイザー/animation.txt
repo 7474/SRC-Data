@@ -1,150 +1,150 @@
-#ŠÛ“Š‚°ƒf[ƒ^ƒpƒbƒN‚Ì”Ä—peŠíƒAƒCƒRƒ“‚É‘Î‰ž‚µ‚Ä‚¢‚Ü‚·B
-#ƒVƒiƒŠƒI‚ÅŽg—p‚·‚éê‡‚ÍAƒ[ƒJƒ‹BitmapƒtƒHƒ‹ƒ_“à‚ÉAnimeƒtƒHƒ‹ƒ_‚ðì¬‚µ
-#‚³‚ç‚É‚»‚Ì“à•”‚ÉWeaponƒtƒHƒ‹ƒ_‚ðì¬ŒãA–{ƒf[ƒ^‚ÅŽw’è‚µ‚Ä‚¢‚éBitmapƒtƒ@ƒCƒ‹‚ð
-#WeaponƒtƒHƒ‹ƒ_‚ÉŠi”[‚µ‚Ä‰º‚³‚¢B
+#ä¸¸æŠ•ã’ãƒ‡ãƒ¼ã‚¿ãƒ‘ãƒƒã‚¯ã®æ±Žç”¨éŠƒå™¨ã‚¢ã‚¤ã‚³ãƒ³ã«å¯¾å¿œã—ã¦ã„ã¾ã™ã€‚
+#ã‚·ãƒŠãƒªã‚ªã§ä½¿ç”¨ã™ã‚‹å ´åˆã¯ã€ãƒ­ãƒ¼ã‚«ãƒ«Bitmapãƒ•ã‚©ãƒ«ãƒ€å†…ã«Animeãƒ•ã‚©ãƒ«ãƒ€ã‚’ä½œæˆã—
+#ã•ã‚‰ã«ãã®å†…éƒ¨ã«Weaponãƒ•ã‚©ãƒ«ãƒ€ã‚’ä½œæˆå¾Œã€æœ¬ãƒ‡ãƒ¼ã‚¿ã§æŒ‡å®šã—ã¦ã„ã‚‹Bitmapãƒ•ã‚¡ã‚¤ãƒ«ã‚’
+#Weaponãƒ•ã‚©ãƒ«ãƒ€ã«æ ¼ç´ã—ã¦ä¸‹ã•ã„ã€‚
 
-ƒCƒŒƒCƒU[(‰f‰æ)
-HiStandard_SharpshooterM(€”õ), ƒsƒXƒgƒ‹
-HiStandard_SharpshooterM(UŒ‚), ƒsƒXƒgƒ‹ BeamShot.wav
-HiStandard_SharpshooterM(–½’†), e’e
-H&K_P7M13(€”õ), ƒsƒXƒgƒ‹ EFFECT_RWG_H&K_P7.bmp 32
-H&K_P7M13(UŒ‚), ƒsƒXƒgƒ‹ EFFECT_RWG_H&K_P7.bmp 32 BeamShot.wav
-H&K_P7M13(–½’†), e’e
-# ŽÀÛ‚É‚ÍƒTƒvƒŒƒbƒT[•t‚«‚Ì•¨‚ðŽg—p‚µ‚Ä‚¢‚½‚Ì‚ÅŽb’èŽw’èB
-‹ßÚŠi“¬p(ƒWƒ‡ƒ“), ‘Å“Ë
-‹ßÚŠi“¬p(ƒWƒ‡ƒ“), ƒAƒbƒp[
-‹ßÚŠi“¬p(ƒWƒ‡ƒ“), ƒLƒbƒN
-‹ßÚŠi“¬p(ƒWƒ‡ƒ“), —§‚¿ŒÅ‚ß
-‹ßÚŠi“¬p(ƒWƒ‡ƒ“), ƒtƒH[ƒ‹
-‹ßÚŠi“¬p(ƒWƒ‡ƒ“), “Š‚°”ò‚Î‚µ
-‹ßÚŠi“¬p(ƒWƒ‡ƒ“), ƒƒCƒ„[
-‹ßÚŠi“¬p(ƒWƒ‡ƒ“), ƒiƒCƒt
-Ž€‘Ì‹U‘•(”­“®), ‰t‘Ì•¬ŽË Ô
-ƒXƒ[ƒCƒ“ƒOƒiƒCƒt(€”õ), “Š‚°ƒiƒCƒt
-ƒXƒ[ƒCƒ“ƒOƒiƒCƒt(UŒ‚), “Š‚°ƒiƒCƒt Whiz.wav
-ƒXƒ[ƒCƒ“ƒOƒiƒCƒt(–½’†), Žh“Ë
-Glock_17, ƒsƒXƒgƒ‹ EFFECT_RWG_Glock17.bmp 32
-DesertEagle_MarkXIX, ƒsƒXƒgƒ‹ EFFECT_RWG_IMI_DESERTEAGLE.bmp 32
-RockyMountain_Stakeout, ƒVƒ‡ƒbƒgƒKƒ“
-Benelli_M3, ƒVƒ‡ƒbƒgƒKƒ“ EFFECT_RWG_BENELLI_M3SUPER90.bmp 48
-Glock_17&Beretta_M92FS(€”õ), ¶‰E•Ê•Ší EFFECT_RWG_Glock17.bmp - - EFFECT_RWG_BERETTA_M92.bmp - - Reload.wav
-Glock_17&Beretta_M92FS(UŒ‚), eŒ‚•Ší˜AŽË EFFECT_RWG_Glock17.bmp Fire\EFFECT_MuzzleFlash01.bmp Gun.wav;_
-eŒ‚•Ší˜AŽË EFFECT_RWG_BERETTA_M92.bmp Fire\EFFECT_MuzzleFlash01.bmp Gun.wav
-Glock_17&Beretta_M92FS(–½’†), e’e;e’e;e’e
-Cyrez_EM-1(MAP)(€”õ), eŒ‚•Ší Weapon\EFFECT_AntiMaterialRifle01.bmp 64 “ñ’šŒe
-Cyrez_EM-1(MAP)(UŒ‚), eŒ‚•Ší˜AŽË Weapon\EFFECT_AntiMaterialRifle01.bmp 64 ShootAnime\EFFECT_RailGun(White)05.bmp 32 “ñ’šŒe Beam.wav
-Cyrez_EM-1(MAP)(–½’†), ƒŒ[ƒ‹ƒLƒƒƒmƒ“ ”’;’´‘Å -.wav
-Benelli_M3“ŠŠü(€”õ), ƒVƒ‡ƒbƒgƒKƒ“ EFFECT_RWG_BENELLI_M3SUPER90.bmp 48
-Benelli_M3“ŠŠü(UŒ‚), “Š±•Ší EFFECT_RWG_BENELLI_M3SUPER90.bmp 48 Whiz.wav
-Benelli_M3“ŠŠü(–½’†), @í“¬ƒAƒjƒ_ƒVƒ‡ƒbƒgƒKƒ“€”õ EFFECT_RWG_BENELLI_M3SUPER90.bmp 48 ‘ŠŽèƒ†ƒjƒbƒg‚h‚c -.wav;_
-˜A‘±•`‰æ Action\EFFECT_Aiming[01-04].bmp ’·•ûŒ`ƒTƒCƒY=64=32 2 1 ‘O–Ê •ÛŽ Type(Digital).wav;_
-‰ï˜b ŽE‚µ‰®(ƒCƒŒƒCƒU[)(ƒUƒR) ‚¢‚¢e‚¾‚ÈAƒ}ƒkƒP ŒÅ’è;2;Beam.wav;¬ƒr[ƒ€ ”’ ƒ‰ƒ“ƒ_ƒ€•ûŒü;’´‘Å -.wav
-ƒV[ƒ‹ƒh–hŒä(ƒTƒCƒŒƒXŽÐŒx”õˆõ), ƒV[ƒ‹ƒh–hŒä Unit\ERASER_CyrezGuardU.bmp 32 ƒTƒCƒŒƒXŽÐŒx”õˆõ
-ƒTƒCƒŒƒXŽÐŒx”õˆõ•ŽèžÖ’e(€”õ), ¶‰E•Ê•Ší Unit\ERASER_CyrezGuardU.bmp - - Weapon\EFFECT_ChicagoPineapple01.bmp - - -.wav
-ƒTƒCƒŒƒXŽÐŒx”õˆõ•ŽèžÖ’e(UŒ‚), @í“¬ƒAƒjƒ_‘ÅŒ‚–½’† FightHit(4).wav;ŽÀ’e”­ŽË Unit\ERASER_CyrezGuardU.bmp -.wav;‚l‚`‚o‘å”š”­
-ƒƒj‚Ì…‘…(€”õ), ƒsƒXƒgƒ‹ EFFECT_RWG_IMI_DESERTEAGLE.bmp 32
-ƒƒj‚Ì…‘…(UŒ‚), ƒsƒXƒgƒ‹ EFFECT_RWG_IMI_DESERTEAGLE.bmp 32;‘•b”j‰ó ”’ ‘ÎÛƒ†ƒjƒbƒg‚h‚c Glass.wav;‚l‚`‚o’Ã”g Splash.wav;ŽüˆÍ‰ñ“] Unit\M_CrocodileU.bmp -.wav 3
-ƒƒj‚Ì…‘…(–½’†), ŽüˆÍ‰ñ“] Unit\M_CrocodileU.bmp Splash.wav 3;Šš‚Ý•t‚« ˜A‘±;oŒŒ
-‘«êƒRƒ“ƒeƒi—Ž‚Æ‚µ(€”õ), ƒo[ƒ‹
-‘«êƒRƒ“ƒeƒi—Ž‚Æ‚µ(UŒ‚), ƒo[ƒ‹;Slash(2).wav;‰ï˜b ƒWƒ‡ƒ“ƒNƒ‹[ƒK[˜A–M•ÛˆÀŠ¯ ‚¶‚á‚ ‚ÈII ŒÅ’è;Slash(4).wav;“§–¾‰»;_
-@í“¬ƒAƒjƒ_‰æ‘œ—Ž‰º–½’† DGoods\EFFECT_Brick01.bmp 64 Crash.wav
-‘«êƒRƒ“ƒeƒi—Ž‚Æ‚µ(–½’†), ’n–ÊÕŒ‚
-‚¨‘O’B‚ÍÁ‹Ž‚³‚ê‚½(€”õ), -
-‚¨‘O’B‚ÍÁ‹Ž‚³‚ê‚½(UŒ‚), •ÏŒ` M_Truck.bmp -.wav;“§–¾‰» ‘ÎÛƒ†ƒjƒbƒg‚h‚c;˜A‘±•`‰æ Anime\Explode\EFFECT_SuperExplode[01-12].gif 100 8 1 Explode(Far).wav
-‚¨‘O’B‚ÍÁ‹Ž‚³‚ê‚½(–½’†), •ÏŒ` Unit\M_limo.bmp Reload.wav;‰ï˜b ƒVƒXƒeƒ€ $(‘ŠŽèƒ†ƒjƒbƒg)‚ÍŽ~‚ß‚Ä‚ ‚Á‚½ƒŠƒ€ƒWƒ“‚Éæ‚èž‚ñ‚¾B;1;Reload.wav;_
-@í“¬ƒAƒjƒ_U‚é•Ší€”õ Unit\ERASER_JohnnyCasteleoneU.bmp ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;‰ï˜b ƒWƒ‡ƒj[ƒLƒƒƒXƒeƒŒƒI[ƒl ccc ŒÅ’è;_
-@í“¬ƒAƒjƒ_‘Å‚¿ã‚°UŒ‚ Unit\ERASER_JohnnyCasteleoneU.bmp ‘ŠŽèƒ†ƒjƒbƒg‚h‚c -.wav;Phone.wav;15;•ÏŒ` -.wav ‘ÎÛƒ†ƒjƒbƒg‚h‚c;“§–¾‰» ‰ðœ ‘ÎÛƒ†ƒjƒbƒg‚h‚c;‰ï˜b ƒWƒ‡ƒ“ƒNƒ‹[ƒK[˜A–M•ÛˆÀŠ¯ ‚¨‘O’B‚ÍÁ‹Ž‚³‚ê‚½ccI ŒÅ’è;_
-5;Bell.wav;5;Bell.wav;5;Bell.wav;5;Bell.wav;5;Bell.wav;5;Train.wav;‰ï˜b ƒVƒXƒeƒ€ ƒŠƒ€ƒWƒ“‚É•Â‚¶ž‚ß‚ç‚ê‚½$(‘ŠŽèƒ†ƒjƒbƒg)‚É—ñŽÔ‚ª”—‚éB;_
-20;‘åƒr[ƒ€ žò ƒ‰ƒ“ƒ_ƒ€ Crash.wav;˜A‘±•`‰æ Anime\Explode\EFFECT_SuperExplode[01-12].gif 100 8 1 Explode(Far).wav
-S&W_M36, ƒŠƒ{ƒ‹ƒo[
-”é–§‚Ìˆ¬Žè(€”õ), -
-”é–§‚Ìˆ¬Žè(UŒ‚), -
-”é–§‚Ìˆ¬Žè(–½’†), @í“¬ƒAƒjƒ_ƒŠƒ{ƒ‹ƒo[UŒ‚;e’e
-S&W_6906, ƒsƒXƒgƒ‹
-IMI_UZI, ƒ}ƒVƒ“ƒKƒ“ _GetWPBN(ƒTƒuƒ}ƒVƒ“ƒKƒ“)
-Beretta_92FS, ƒsƒXƒgƒ‹ EFFECT_RWG_BERETTA_M92.bmp 32
-DesertEagle_MarkXIX, ƒsƒXƒgƒ‹ EFFECT_RWG_IMI_DESERTEAGLE.bmp 32
-H&K_MP5A3, ƒ}ƒVƒ“ƒKƒ“ EFFECT_RWG_H&K_MP5A5.bmp 40
-Winchester_M70, ƒ{ƒ‹ƒgƒAƒNƒVƒ‡ƒ“ƒ‰ƒCƒtƒ‹
-Walther_PPK, ƒsƒXƒgƒ‹
-Walther_PPK/S, ƒsƒXƒgƒ‹
-OlympicArms_OA-93, ƒ}ƒVƒ“ƒKƒ“ Weapon\EFFECT_Pistol01.bmp 32
-Remington_M870_Sawedoff, ƒVƒ‡ƒbƒgƒKƒ“
-‹ßÚŠi“¬p, ‘Å“Ë
-‹ßÚŠi“¬p, ƒiƒCƒt
-Cyrez_EM-1(€”õ), ŽËŒ‚•Ší Weapon\EFFECT_AntiMaterialRifle01.bmp 64;Hittyuu.wav;_
-˜A‘±•`‰æ Action\EFFECT_Aiming[01-04].bmp ’·•ûŒ`ƒTƒCƒY=64=32 2 1 ‘O–Ê •ÛŽ ‘ŠŽèƒ†ƒjƒbƒg‚h‚c
-Cyrez_EM-1(UŒ‚), ƒŒ[ƒ‹ƒKƒ“ Weapon\EFFECT_AntiMaterialRifle01.bmp 64 ”’
-Cyrez_EM-1(–½’†), ƒŒ[ƒ‹ƒLƒƒƒmƒ“ ”’;’´‘Å .wav
-Calico_M951, ƒ}ƒVƒ“ƒKƒ“ Weapon\EFFECT_Rifle02.bmp
-ŽèžÖ’e(€”õ), ŽèžÖ’e
-ŽèžÖ’e(UŒ‚), ”’•º•Ší;ŽÀ’e”­ŽË _GetWPBN(ŽèžÖ’e) 32 Swing.wav;‚l‚`‚o‘å”š”­
-H&K_MP5K, ƒ}ƒVƒ“ƒKƒ“ EFFECT_RWG_H&K_MP5A5.bmp 32
-ƒhƒŠƒ‹ƒrƒbƒgƒ‰ƒ“ƒ`ƒƒ[(€”õ), ƒoƒY[ƒJ
-ƒhƒŠƒ‹ƒrƒbƒgƒ‰ƒ“ƒ`ƒƒ[(UŒ‚), ƒoƒY[ƒJ;‚l‚`‚oƒI[ƒ‹ƒŒƒ“ƒW Cannon.wav
-ƒhƒŠƒ‹ƒrƒbƒgƒ‰ƒ“ƒ`ƒƒ[(–½’†), —“Ë
-AKM, ƒ}ƒVƒ“ƒKƒ“ EFFECT_RWG_AK47.bmp
-
-
-ƒWƒ‡ƒ“ƒNƒ‹[ƒK[˜A–M•ÛˆÀŠ¯(ƒ\ƒtƒg”Å)
-‘«êƒRƒ“ƒeƒi—Ž‚Æ‚µ(€”õ), ƒo[ƒ‹
-‘«êƒRƒ“ƒeƒi—Ž‚Æ‚µ(UŒ‚), ƒo[ƒ‹;Slash(2).wav;‰ï˜b ƒWƒ‡ƒ“ƒNƒ‹[ƒK[˜A–M•ÛˆÀŠ¯ ‚¨•Ê‚ê‚¾II ŒÅ’è;Slash(4).wav;“§–¾‰»;_
-@í“¬ƒAƒjƒ_‰æ‘œ—Ž‰º–½’† DGoods\EFFECT_Brick01.bmp 64 Crash.wav
-‘«êƒRƒ“ƒeƒi—Ž‚Æ‚µ(–½’†), ’n–ÊÕŒ‚
+ã‚¤ãƒ¬ã‚¤ã‚¶ãƒ¼(æ˜ ç”»)
+HiStandard_SharpshooterM(æº–å‚™), ãƒ”ã‚¹ãƒˆãƒ«
+HiStandard_SharpshooterM(æ”»æ’ƒ), ãƒ”ã‚¹ãƒˆãƒ« BeamShot.wav
+HiStandard_SharpshooterM(å‘½ä¸­), éŠƒå¼¾
+H&K_P7M13(æº–å‚™), ãƒ”ã‚¹ãƒˆãƒ« EFFECT_RWG_H&K_P7.bmp 32
+H&K_P7M13(æ”»æ’ƒ), ãƒ”ã‚¹ãƒˆãƒ« EFFECT_RWG_H&K_P7.bmp 32 BeamShot.wav
+H&K_P7M13(å‘½ä¸­), éŠƒå¼¾
+# å®Ÿéš›ã«ã¯ã‚µãƒ—ãƒ¬ãƒƒã‚µãƒ¼ä»˜ãã®ç‰©ã‚’ä½¿ç”¨ã—ã¦ã„ãŸã®ã§æš«å®šæŒ‡å®šã€‚
+è¿‘æŽ¥æ ¼é—˜è¡“(ã‚¸ãƒ§ãƒ³), æ‰“çª
+è¿‘æŽ¥æ ¼é—˜è¡“(ã‚¸ãƒ§ãƒ³), ã‚¢ãƒƒãƒ‘ãƒ¼
+è¿‘æŽ¥æ ¼é—˜è¡“(ã‚¸ãƒ§ãƒ³), ã‚­ãƒƒã‚¯
+è¿‘æŽ¥æ ¼é—˜è¡“(ã‚¸ãƒ§ãƒ³), ç«‹ã¡å›ºã‚
+è¿‘æŽ¥æ ¼é—˜è¡“(ã‚¸ãƒ§ãƒ³), ãƒ•ã‚©ãƒ¼ãƒ«
+è¿‘æŽ¥æ ¼é—˜è¡“(ã‚¸ãƒ§ãƒ³), æŠ•ã’é£›ã°ã—
+è¿‘æŽ¥æ ¼é—˜è¡“(ã‚¸ãƒ§ãƒ³), ãƒ¯ã‚¤ãƒ¤ãƒ¼
+è¿‘æŽ¥æ ¼é—˜è¡“(ã‚¸ãƒ§ãƒ³), ãƒŠã‚¤ãƒ•
+æ­»ä½“å½è£…(ç™ºå‹•), æ¶²ä½“å™´å°„ èµ¤
+ã‚¹ãƒ­ãƒ¼ã‚¤ãƒ³ã‚°ãƒŠã‚¤ãƒ•(æº–å‚™), æŠ•ã’ãƒŠã‚¤ãƒ•
+ã‚¹ãƒ­ãƒ¼ã‚¤ãƒ³ã‚°ãƒŠã‚¤ãƒ•(æ”»æ’ƒ), æŠ•ã’ãƒŠã‚¤ãƒ• Whiz.wav
+ã‚¹ãƒ­ãƒ¼ã‚¤ãƒ³ã‚°ãƒŠã‚¤ãƒ•(å‘½ä¸­), åˆºçª
+Glock_17, ãƒ”ã‚¹ãƒˆãƒ« EFFECT_RWG_Glock17.bmp 32
+DesertEagle_MarkXIX, ãƒ”ã‚¹ãƒˆãƒ« EFFECT_RWG_IMI_DESERTEAGLE.bmp 32
+RockyMountain_Stakeout, ã‚·ãƒ§ãƒƒãƒˆã‚¬ãƒ³
+Benelli_M3, ã‚·ãƒ§ãƒƒãƒˆã‚¬ãƒ³ EFFECT_RWG_BENELLI_M3SUPER90.bmp 48
+Glock_17&Beretta_M92FS(æº–å‚™), å·¦å³åˆ¥æ­¦å™¨ EFFECT_RWG_Glock17.bmp - - EFFECT_RWG_BERETTA_M92.bmp - - Reload.wav
+Glock_17&Beretta_M92FS(æ”»æ’ƒ), éŠƒæ’ƒæ­¦å™¨é€£å°„ EFFECT_RWG_Glock17.bmp Fire\EFFECT_MuzzleFlash01.bmp Gun.wav;_
+éŠƒæ’ƒæ­¦å™¨é€£å°„ EFFECT_RWG_BERETTA_M92.bmp Fire\EFFECT_MuzzleFlash01.bmp Gun.wav
+Glock_17&Beretta_M92FS(å‘½ä¸­), éŠƒå¼¾;éŠƒå¼¾;éŠƒå¼¾
+Cyrez_EM-1(MAP)(æº–å‚™), éŠƒæ’ƒæ­¦å™¨ Weapon\EFFECT_AntiMaterialRifle01.bmp 64 äºŒä¸æ‹³éŠƒ
+Cyrez_EM-1(MAP)(æ”»æ’ƒ), éŠƒæ’ƒæ­¦å™¨é€£å°„ Weapon\EFFECT_AntiMaterialRifle01.bmp 64 ShootAnime\EFFECT_RailGun(White)05.bmp 32 äºŒä¸æ‹³éŠƒ Beam.wav
+Cyrez_EM-1(MAP)(å‘½ä¸­), ãƒ¬ãƒ¼ãƒ«ã‚­ãƒ£ãƒŽãƒ³ ç™½;è¶…æ‰“ -.wav
+Benelli_M3æŠ•æ£„(æº–å‚™), ã‚·ãƒ§ãƒƒãƒˆã‚¬ãƒ³ EFFECT_RWG_BENELLI_M3SUPER90.bmp 48
+Benelli_M3æŠ•æ£„(æ”»æ’ƒ), æŠ•æ“²æ­¦å™¨ EFFECT_RWG_BENELLI_M3SUPER90.bmp 48 Whiz.wav
+Benelli_M3æŠ•æ£„(å‘½ä¸­), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚·ãƒ§ãƒƒãƒˆã‚¬ãƒ³æº–å‚™ EFFECT_RWG_BENELLI_M3SUPER90.bmp 48 ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ -.wav;_
+é€£ç¶šæç”» Action\EFFECT_Aiming[01-04].bmp é•·æ–¹å½¢ã‚µã‚¤ã‚º=64=32 2 1 å‰é¢ ä¿æŒ Type(Digital).wav;_
+ä¼šè©± æ®ºã—å±‹(ã‚¤ãƒ¬ã‚¤ã‚¶ãƒ¼)(ã‚¶ã‚³) ã„ã„éŠƒã ãªã€ãƒžãƒŒã‚± å›ºå®š;2;Beam.wav;å°ãƒ“ãƒ¼ãƒ  ç™½ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘;è¶…æ‰“ -.wav
+ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡(ã‚µã‚¤ãƒ¬ã‚¹ç¤¾è­¦å‚™å“¡), ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡ Unit\ERASER_CyrezGuardU.bmp 32 ã‚µã‚¤ãƒ¬ã‚¹ç¤¾è­¦å‚™å“¡
+ã‚µã‚¤ãƒ¬ã‚¹ç¤¾è­¦å‚™å“¡ï¼†æ‰‹æ¦´å¼¾(æº–å‚™), å·¦å³åˆ¥æ­¦å™¨ Unit\ERASER_CyrezGuardU.bmp - - Weapon\EFFECT_ChicagoPineapple01.bmp - - -.wav
+ã‚µã‚¤ãƒ¬ã‚¹ç¤¾è­¦å‚™å“¡ï¼†æ‰‹æ¦´å¼¾(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ‰“æ’ƒå‘½ä¸­ FightHit(4).wav;å®Ÿå¼¾ç™ºå°„ Unit\ERASER_CyrezGuardU.bmp -.wav;ï¼­ï¼¡ï¼°å¤§çˆ†ç™º
+ãƒ¯ãƒ‹ã®æ°´æ§½(æº–å‚™), ãƒ”ã‚¹ãƒˆãƒ« EFFECT_RWG_IMI_DESERTEAGLE.bmp 32
+ãƒ¯ãƒ‹ã®æ°´æ§½(æ”»æ’ƒ), ãƒ”ã‚¹ãƒˆãƒ« EFFECT_RWG_IMI_DESERTEAGLE.bmp 32;è£…ç”²ç ´å£Š ç™½ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ Glass.wav;ï¼­ï¼¡ï¼°æ´¥æ³¢ Splash.wav;å‘¨å›²å›žè»¢ Unit\M_CrocodileU.bmp -.wav 3
+ãƒ¯ãƒ‹ã®æ°´æ§½(å‘½ä¸­), å‘¨å›²å›žè»¢ Unit\M_CrocodileU.bmp Splash.wav 3;å™›ã¿ä»˜ã é€£ç¶š;å‡ºè¡€
+è¶³å ´ã‚³ãƒ³ãƒ†ãƒŠè½ã¨ã—(æº–å‚™), ãƒãƒ¼ãƒ«
+è¶³å ´ã‚³ãƒ³ãƒ†ãƒŠè½ã¨ã—(æ”»æ’ƒ), ãƒãƒ¼ãƒ«;Slash(2).wav;ä¼šè©± ã‚¸ãƒ§ãƒ³ï¼ã‚¯ãƒ«ãƒ¼ã‚¬ãƒ¼é€£é‚¦ä¿å®‰å®˜ ã˜ã‚ƒã‚ãªï¼ï¼ å›ºå®š;Slash(4).wav;é€æ˜ŽåŒ–;_
+@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç”»åƒè½ä¸‹å‘½ä¸­ DGoods\EFFECT_Brick01.bmp 64 Crash.wav
+è¶³å ´ã‚³ãƒ³ãƒ†ãƒŠè½ã¨ã—(å‘½ä¸­), åœ°é¢è¡æ’ƒ
+ãŠå‰é”ã¯æ¶ˆåŽ»ã•ã‚ŒãŸ(æº–å‚™), -
+ãŠå‰é”ã¯æ¶ˆåŽ»ã•ã‚ŒãŸ(æ”»æ’ƒ), å¤‰å½¢ M_Truck.bmp -.wav;é€æ˜ŽåŒ– å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;é€£ç¶šæç”» Anime\Explode\EFFECT_SuperExplode[01-12].gif 100 8 1 Explode(Far).wav
+ãŠå‰é”ã¯æ¶ˆåŽ»ã•ã‚ŒãŸ(å‘½ä¸­), å¤‰å½¢ Unit\M_limo.bmp Reload.wav;ä¼šè©± ã‚·ã‚¹ãƒ†ãƒ  $(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯æ­¢ã‚ã¦ã‚ã£ãŸãƒªãƒ ã‚¸ãƒ³ã«ä¹—ã‚Šè¾¼ã‚“ã ã€‚;1;Reload.wav;_
+@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚‹æ­¦å™¨æº–å‚™ Unit\ERASER_JohnnyCasteleoneU.bmp ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;ä¼šè©± ã‚¸ãƒ§ãƒ‹ãƒ¼ï¼ã‚­ãƒ£ã‚¹ãƒ†ãƒ¬ã‚ªãƒ¼ãƒ â€¦â€¦â€¦ å›ºå®š;_
+@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ‰“ã¡ä¸Šã’æ”»æ’ƒ Unit\ERASER_JohnnyCasteleoneU.bmp ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ -.wav;Phone.wav;15;å¤‰å½¢ -.wav å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;é€æ˜ŽåŒ– è§£é™¤ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;ä¼šè©± ã‚¸ãƒ§ãƒ³ï¼ã‚¯ãƒ«ãƒ¼ã‚¬ãƒ¼é€£é‚¦ä¿å®‰å®˜ ãŠå‰é”ã¯æ¶ˆåŽ»ã•ã‚ŒãŸâ€¦â€¦ï¼ å›ºå®š;_
+5;Bell.wav;5;Bell.wav;5;Bell.wav;5;Bell.wav;5;Bell.wav;5;Train.wav;ä¼šè©± ã‚·ã‚¹ãƒ†ãƒ  ãƒªãƒ ã‚¸ãƒ³ã«é–‰ã˜è¾¼ã‚ã‚‰ã‚ŒãŸ$(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆ)ã«åˆ—è»ŠãŒè¿«ã‚‹ã€‚;_
+20;å¤§ãƒ“ãƒ¼ãƒ  æ©™ ãƒ©ãƒ³ãƒ€ãƒ  Crash.wav;é€£ç¶šæç”» Anime\Explode\EFFECT_SuperExplode[01-12].gif 100 8 1 Explode(Far).wav
+S&W_M36, ãƒªãƒœãƒ«ãƒãƒ¼
+ç§˜å¯†ã®æ¡æ‰‹(æº–å‚™), -
+ç§˜å¯†ã®æ¡æ‰‹(æ”»æ’ƒ), -
+ç§˜å¯†ã®æ¡æ‰‹(å‘½ä¸­), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒªãƒœãƒ«ãƒãƒ¼æ”»æ’ƒ;éŠƒå¼¾
+S&W_6906, ãƒ”ã‚¹ãƒˆãƒ«
+IMI_UZI, ãƒžã‚·ãƒ³ã‚¬ãƒ³ _GetWPBN(ã‚µãƒ–ãƒžã‚·ãƒ³ã‚¬ãƒ³)
+Beretta_92FS, ãƒ”ã‚¹ãƒˆãƒ« EFFECT_RWG_BERETTA_M92.bmp 32
+DesertEagle_MarkXIX, ãƒ”ã‚¹ãƒˆãƒ« EFFECT_RWG_IMI_DESERTEAGLE.bmp 32
+H&K_MP5A3, ãƒžã‚·ãƒ³ã‚¬ãƒ³ EFFECT_RWG_H&K_MP5A5.bmp 40
+Winchester_M70, ãƒœãƒ«ãƒˆã‚¢ã‚¯ã‚·ãƒ§ãƒ³ãƒ©ã‚¤ãƒ•ãƒ«
+Walther_PPK, ãƒ”ã‚¹ãƒˆãƒ«
+Walther_PPK/S, ãƒ”ã‚¹ãƒˆãƒ«
+OlympicArms_OA-93, ãƒžã‚·ãƒ³ã‚¬ãƒ³ Weapon\EFFECT_Pistol01.bmp 32
+Remington_M870_Sawedoff, ã‚·ãƒ§ãƒƒãƒˆã‚¬ãƒ³
+è¿‘æŽ¥æ ¼é—˜è¡“, æ‰“çª
+è¿‘æŽ¥æ ¼é—˜è¡“, ãƒŠã‚¤ãƒ•
+Cyrez_EM-1(æº–å‚™), å°„æ’ƒæ­¦å™¨ Weapon\EFFECT_AntiMaterialRifle01.bmp 64;Hittyuu.wav;_
+é€£ç¶šæç”» Action\EFFECT_Aiming[01-04].bmp é•·æ–¹å½¢ã‚µã‚¤ã‚º=64=32 2 1 å‰é¢ ä¿æŒ ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+Cyrez_EM-1(æ”»æ’ƒ), ãƒ¬ãƒ¼ãƒ«ã‚¬ãƒ³ Weapon\EFFECT_AntiMaterialRifle01.bmp 64 ç™½
+Cyrez_EM-1(å‘½ä¸­), ãƒ¬ãƒ¼ãƒ«ã‚­ãƒ£ãƒŽãƒ³ ç™½;è¶…æ‰“ .wav
+Calico_M951, ãƒžã‚·ãƒ³ã‚¬ãƒ³ Weapon\EFFECT_Rifle02.bmp
+æ‰‹æ¦´å¼¾(æº–å‚™), æ‰‹æ¦´å¼¾
+æ‰‹æ¦´å¼¾(æ”»æ’ƒ), ç™½å…µæ­¦å™¨;å®Ÿå¼¾ç™ºå°„ _GetWPBN(æ‰‹æ¦´å¼¾) 32 Swing.wav;ï¼­ï¼¡ï¼°å¤§çˆ†ç™º
+H&K_MP5K, ãƒžã‚·ãƒ³ã‚¬ãƒ³ EFFECT_RWG_H&K_MP5A5.bmp 32
+ãƒ‰ãƒªãƒ«ãƒ“ãƒƒãƒˆãƒ©ãƒ³ãƒãƒ£ãƒ¼(æº–å‚™), ãƒã‚ºãƒ¼ã‚«
+ãƒ‰ãƒªãƒ«ãƒ“ãƒƒãƒˆãƒ©ãƒ³ãƒãƒ£ãƒ¼(æ”»æ’ƒ), ãƒã‚ºãƒ¼ã‚«;ï¼­ï¼¡ï¼°ã‚ªãƒ¼ãƒ«ãƒ¬ãƒ³ã‚¸ Cannon.wav
+ãƒ‰ãƒªãƒ«ãƒ“ãƒƒãƒˆãƒ©ãƒ³ãƒãƒ£ãƒ¼(å‘½ä¸­), ä¹±çª
+AKM, ãƒžã‚·ãƒ³ã‚¬ãƒ³ EFFECT_RWG_AK47.bmp
 
 
-ƒWƒ‡ƒj[ƒLƒƒƒXƒeƒŒƒI[ƒl
-ˆêÄŽËŒ‚(€”õ), “¯ŽžŽËŒ‚•Ší ‰æ‘œƒtƒ@ƒCƒ‹=Weapon\EFFECT_SubMachineGun01.bmp=EFFECT_RWG_H&K_MP5A5.bmp=EFFECT_RWG_H&K_MP5A5.bmp
-ˆêÄŽËŒ‚(UŒ‚), ƒ}ƒVƒ“ƒKƒ“ EFFECT_RWG_H&K_MP5A5.bmp 40 partner(1);ƒ}ƒVƒ“ƒKƒ“ EFFECT_RWG_H&K_MP5A5.bmp 40 partner(2);ƒ}ƒVƒ“ƒKƒ“ Weapon\EFFECT_SubMachineGun01.bmp
-ˆêÄŽËŒ‚(–½’†), ƒ}ƒVƒ“ƒKƒ“
+ã‚¸ãƒ§ãƒ³ï¼ã‚¯ãƒ«ãƒ¼ã‚¬ãƒ¼é€£é‚¦ä¿å®‰å®˜(ã‚½ãƒ•ãƒˆç‰ˆ)
+è¶³å ´ã‚³ãƒ³ãƒ†ãƒŠè½ã¨ã—(æº–å‚™), ãƒãƒ¼ãƒ«
+è¶³å ´ã‚³ãƒ³ãƒ†ãƒŠè½ã¨ã—(æ”»æ’ƒ), ãƒãƒ¼ãƒ«;Slash(2).wav;ä¼šè©± ã‚¸ãƒ§ãƒ³ï¼ã‚¯ãƒ«ãƒ¼ã‚¬ãƒ¼é€£é‚¦ä¿å®‰å®˜ ãŠåˆ¥ã‚Œã ï¼ï¼ å›ºå®š;Slash(4).wav;é€æ˜ŽåŒ–;_
+@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç”»åƒè½ä¸‹å‘½ä¸­ DGoods\EFFECT_Brick01.bmp 64 Crash.wav
+è¶³å ´ã‚³ãƒ³ãƒ†ãƒŠè½ã¨ã—(å‘½ä¸­), åœ°é¢è¡æ’ƒ
 
 
-ƒgƒj[ƒgƒD[ƒg[ƒY
-ƒPƒ“ƒJŽE–@, ‘Å“Ë
-ˆêÄŽËŒ‚(€”õ), “¯ŽžŽËŒ‚•Ší ‰æ‘œƒtƒ@ƒCƒ‹=EFFECT_RWG_H&K_MP5A5.bmp=Weapon\EFFECT_SubMachineGun01.bmp=EFFECT_RWG_H&K_MP5A5.bmp
-ˆêÄŽËŒ‚(UŒ‚), ƒ}ƒVƒ“ƒKƒ“ Weapon\EFFECT_SubMachineGun01.bmp partner(1);ƒ}ƒVƒ“ƒKƒ“ EFFECT_RWG_H&K_MP5A5.bmp 40 partner(2);ƒ}ƒVƒ“ƒKƒ“ EFFECT_RWG_H&K_MP5A5.bmp 40
-ˆêÄŽËŒ‚(–½’†), ƒ}ƒVƒ“ƒKƒ“
+ã‚¸ãƒ§ãƒ‹ãƒ¼ï¼ã‚­ãƒ£ã‚¹ãƒ†ãƒ¬ã‚ªãƒ¼ãƒ
+ä¸€æ–‰å°„æ’ƒ(æº–å‚™), åŒæ™‚å°„æ’ƒæ­¦å™¨ ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«=Weapon\EFFECT_SubMachineGun01.bmp=EFFECT_RWG_H&K_MP5A5.bmp=EFFECT_RWG_H&K_MP5A5.bmp
+ä¸€æ–‰å°„æ’ƒ(æ”»æ’ƒ), ãƒžã‚·ãƒ³ã‚¬ãƒ³ EFFECT_RWG_H&K_MP5A5.bmp 40 partner(1);ãƒžã‚·ãƒ³ã‚¬ãƒ³ EFFECT_RWG_H&K_MP5A5.bmp 40 partner(2);ãƒžã‚·ãƒ³ã‚¬ãƒ³ Weapon\EFFECT_SubMachineGun01.bmp
+ä¸€æ–‰å°„æ’ƒ(å‘½ä¸­), ãƒžã‚·ãƒ³ã‚¬ãƒ³
 
 
-`˜p˜J“­ŽÒ‘g‡ˆõƒŠƒgƒ‹Eƒ}ƒCƒN
-ƒPƒ“ƒJŽE–@, ‰£‘Å•Ší DGoods\EFFECT_MetalButt01.bmp
-ˆêÄŽËŒ‚(€”õ), “¯ŽžŽËŒ‚•Ší ‰æ‘œƒtƒ@ƒCƒ‹=EFFECT_RWG_H&K_MP5A5.bmp=Weapon\EFFECT_SubMachineGun01.bmp=EFFECT_RWG_H&K_MP5A5.bmp
-ˆêÄŽËŒ‚(UŒ‚), ƒ}ƒVƒ“ƒKƒ“ Weapon\EFFECT_SubMachineGun01.bmp partner(1);ƒ}ƒVƒ“ƒKƒ“ EFFECT_RWG_H&K_MP5A5.bmp 40 partner(2);ƒ}ƒVƒ“ƒKƒ“ EFFECT_RWG_H&K_MP5A5.bmp 40
-ˆêÄŽËŒ‚(–½’†), ƒ}ƒVƒ“ƒKƒ“
+ãƒˆãƒ‹ãƒ¼ï¼ãƒˆã‚¥ãƒ¼ãƒˆãƒ¼ã‚º
+ã‚±ãƒ³ã‚«æ®ºæ³•, æ‰“çª
+ä¸€æ–‰å°„æ’ƒ(æº–å‚™), åŒæ™‚å°„æ’ƒæ­¦å™¨ ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«=EFFECT_RWG_H&K_MP5A5.bmp=Weapon\EFFECT_SubMachineGun01.bmp=EFFECT_RWG_H&K_MP5A5.bmp
+ä¸€æ–‰å°„æ’ƒ(æ”»æ’ƒ), ãƒžã‚·ãƒ³ã‚¬ãƒ³ Weapon\EFFECT_SubMachineGun01.bmp partner(1);ãƒžã‚·ãƒ³ã‚¬ãƒ³ EFFECT_RWG_H&K_MP5A5.bmp 40 partner(2);ãƒžã‚·ãƒ³ã‚¬ãƒ³ EFFECT_RWG_H&K_MP5A5.bmp 40
+ä¸€æ–‰å°„æ’ƒ(å‘½ä¸­), ãƒžã‚·ãƒ³ã‚¬ãƒ³
 
 
-`˜p˜J“­ŽÒ‘g‡ˆõƒTƒ‹
-ƒPƒ“ƒJŽE–@, ‰£‘Å•Ší Weapon\EFFECT_BoltActionRifle01.bmp
+æ¸¯æ¹¾åŠ´åƒè€…çµ„åˆå“¡ãƒªãƒˆãƒ«ãƒ»ãƒžã‚¤ã‚¯
+ã‚±ãƒ³ã‚«æ®ºæ³•, æ®´æ‰“æ­¦å™¨ DGoods\EFFECT_MetalButt01.bmp
+ä¸€æ–‰å°„æ’ƒ(æº–å‚™), åŒæ™‚å°„æ’ƒæ­¦å™¨ ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«=EFFECT_RWG_H&K_MP5A5.bmp=Weapon\EFFECT_SubMachineGun01.bmp=EFFECT_RWG_H&K_MP5A5.bmp
+ä¸€æ–‰å°„æ’ƒ(æ”»æ’ƒ), ãƒžã‚·ãƒ³ã‚¬ãƒ³ Weapon\EFFECT_SubMachineGun01.bmp partner(1);ãƒžã‚·ãƒ³ã‚¬ãƒ³ EFFECT_RWG_H&K_MP5A5.bmp 40 partner(2);ãƒžã‚·ãƒ³ã‚¬ãƒ³ EFFECT_RWG_H&K_MP5A5.bmp 40
+ä¸€æ–‰å°„æ’ƒ(å‘½ä¸­), ãƒžã‚·ãƒ³ã‚¬ãƒ³
 
 
-ƒƒo[ƒgƒhƒDƒQƒ‰ƒ“˜A–M•ÛˆÀŠ¯
-‹ßÚŠi“¬p, —§‚¿ŒÅ‚ß
-ƒ‰ƒtƒtƒ@ƒCƒg(€”õ), ƒo[ƒ‹
-ƒ‰ƒtƒtƒ@ƒCƒg(UŒ‚), ƒo[ƒ‹“ËŒ‚
-ƒ‰ƒtƒtƒ@ƒCƒg(–½’†), @í“¬ƒAƒjƒ_”’•º•ŠíUŒ‚;‹­‘Å;‰ï˜b ƒƒo[ƒgƒhƒDƒQƒ‰ƒ“˜A–M•ÛˆÀŠ¯ "‚±‚§‚Ì–ì˜YII" ŒÅ’è;_
-@í“¬ƒAƒjƒ_”’•º•ŠíUŒ‚;‹­‘Å;‰ï˜b ƒƒo[ƒgƒhƒDƒQƒ‰ƒ“˜A–M•ÛˆÀŠ¯ "‚±‚§‚Ì–ì˜YII ‚±‚§‚¢‚Â‚£II" ŒÅ’è;@í“¬ƒAƒjƒ_”’•º•ŠíUŒ‚;‹­‘Å
-ŽÀí‚ÌÌ“_(€”õ), -
-ŽÀí‚ÌÌ“_(UŒ‚), -
-ŽÀí‚ÌÌ“_(–½’†), ‰ï˜b ƒƒo[ƒgƒhƒDƒQƒ‰ƒ“˜A–M•ÛˆÀŠ¯ ‰‚ß‚Ä‚ÌŽÀí‚ðÌ“_‚µ‚Ä‚â‚ë‚¤‚©cc ŒÅ’è;_
-@í“¬ƒAƒjƒ_ƒsƒXƒgƒ‹UŒ‚ EFFECT_RWG_Glock17.bmp;@í“¬ƒAƒjƒ_ƒsƒXƒgƒ‹UŒ‚ EFFECT_RWG_Glock17.bmp;_
-e’e;e’e;‰ï˜b ƒƒo[ƒgƒhƒDƒQƒ‰ƒ“˜A–M•ÛˆÀŠ¯ "‰‚ß‚Ä‚ÌŽÀí‚ðÌ“_‚µ‚Ä‚â‚ë‚¤‚©cc ‚ ‚ A•S“_‚¾‚æ" ŒÅ’è
+æ¸¯æ¹¾åŠ´åƒè€…çµ„åˆå“¡ã‚µãƒ«
+ã‚±ãƒ³ã‚«æ®ºæ³•, æ®´æ‰“æ­¦å™¨ Weapon\EFFECT_BoltActionRifle01.bmp
 
 
-ƒƒo[ƒgƒhƒDƒQƒ‰ƒ“˜A–M•ÛˆÀŠ¯(ƒ\ƒtƒg”Å)
-‹ßÚŠi“¬p, —§‚¿ŒÅ‚ß
-ƒ‰ƒtƒtƒ@ƒCƒg(€”õ), ƒo[ƒ‹
-ƒ‰ƒtƒtƒ@ƒCƒg(UŒ‚), ƒo[ƒ‹“ËŒ‚
-ƒ‰ƒtƒtƒ@ƒCƒg(–½’†), ‰ï˜b ƒƒo[ƒgƒhƒDƒQƒ‰ƒ“˜A–M•ÛˆÀŠ¯ "‚Í‚ ‚ÁI" ŒÅ’è;_
-@í“¬ƒAƒjƒ_”’•º•ŠíUŒ‚;‹­‘Å;‰ï˜b ƒƒo[ƒgƒhƒDƒQƒ‰ƒ“˜A–M•ÛˆÀŠ¯ "‚Í‚ ‚ÁI ‚ñ‚ª‚ŸI" ŒÅ’è;_
-@í“¬ƒAƒjƒ_”’•º•ŠíUŒ‚;‹­‘Å;‰ï˜b ƒƒo[ƒgƒhƒDƒQƒ‰ƒ“˜A–M•ÛˆÀŠ¯ "‚Í‚ ‚ÁI ‚ñ‚ª‚ŸI ‚±‚ñ‚Ì‚§II" ŒÅ’è;@í“¬ƒAƒjƒ_”’•º•ŠíUŒ‚;‹­‘Å
-ŽÀí‚ÌÌ“_(€”õ), -
-ŽÀí‚ÌÌ“_(UŒ‚), -
-ŽÀí‚ÌÌ“_(–½’†), ‰ï˜b ƒƒo[ƒgƒhƒDƒQƒ‰ƒ“˜A–M•ÛˆÀŠ¯ ŒN‚É‚Í‚Ü‚¾¬Ñ‚ðŒ¾‚Á‚Ä‚È‚©‚Á‚½‚È‚ŸH ŒÅ’è;_
-@í“¬ƒAƒjƒ_ƒsƒXƒgƒ‹UŒ‚ EFFECT_RWG_Glock17.bmp;@í“¬ƒAƒjƒ_ƒsƒXƒgƒ‹UŒ‚ EFFECT_RWG_Glock17.bmp;_
-e’e;e’e;‰ï˜b ƒƒo[ƒgƒhƒDƒQƒ‰ƒ“˜A–M•ÛˆÀŠ¯ "ŒN‚É‚Í‚Ü‚¾¬Ñ‚ðŒ¾‚Á‚Ä‚È‚©‚Á‚½‚È‚ŸH cc‚ ‚ŸA–ž“_‚¾‚æ" ŒÅ’è
+ãƒ­ãƒãƒ¼ãƒˆï¼ãƒ‰ã‚¥ã‚²ãƒ©ãƒ³é€£é‚¦ä¿å®‰å®˜
+è¿‘æŽ¥æ ¼é—˜è¡“, ç«‹ã¡å›ºã‚
+ãƒ©ãƒ•ãƒ•ã‚¡ã‚¤ãƒˆ(æº–å‚™), ãƒãƒ¼ãƒ«
+ãƒ©ãƒ•ãƒ•ã‚¡ã‚¤ãƒˆ(æ”»æ’ƒ), ãƒãƒ¼ãƒ«çªæ’ƒ
+ãƒ©ãƒ•ãƒ•ã‚¡ã‚¤ãƒˆ(å‘½ä¸­), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™½å…µæ­¦å™¨æ”»æ’ƒ;å¼·æ‰“;ä¼šè©± ãƒ­ãƒãƒ¼ãƒˆï¼ãƒ‰ã‚¥ã‚²ãƒ©ãƒ³é€£é‚¦ä¿å®‰å®˜ "ã“ã‰ã®é‡ŽéƒŽï¼ï¼" å›ºå®š;_
+@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™½å…µæ­¦å™¨æ”»æ’ƒ;å¼·æ‰“;ä¼šè©± ãƒ­ãƒãƒ¼ãƒˆï¼ãƒ‰ã‚¥ã‚²ãƒ©ãƒ³é€£é‚¦ä¿å®‰å®˜ "ã“ã‰ã®é‡ŽéƒŽï¼ï¼ ã“ã‰ã„ã¤ã…ï¼ï¼" å›ºå®š;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™½å…µæ­¦å™¨æ”»æ’ƒ;å¼·æ‰“
+å®Ÿæˆ¦ã®æŽ¡ç‚¹(æº–å‚™), -
+å®Ÿæˆ¦ã®æŽ¡ç‚¹(æ”»æ’ƒ), -
+å®Ÿæˆ¦ã®æŽ¡ç‚¹(å‘½ä¸­), ä¼šè©± ãƒ­ãƒãƒ¼ãƒˆï¼ãƒ‰ã‚¥ã‚²ãƒ©ãƒ³é€£é‚¦ä¿å®‰å®˜ åˆã‚ã¦ã®å®Ÿæˆ¦ã‚’æŽ¡ç‚¹ã—ã¦ã‚„ã‚ã†ã‹â€¦â€¦ å›ºå®š;_
+@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ”ã‚¹ãƒˆãƒ«æ”»æ’ƒ EFFECT_RWG_Glock17.bmp;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ”ã‚¹ãƒˆãƒ«æ”»æ’ƒ EFFECT_RWG_Glock17.bmp;_
+éŠƒå¼¾;éŠƒå¼¾;ä¼šè©± ãƒ­ãƒãƒ¼ãƒˆï¼ãƒ‰ã‚¥ã‚²ãƒ©ãƒ³é€£é‚¦ä¿å®‰å®˜ "åˆã‚ã¦ã®å®Ÿæˆ¦ã‚’æŽ¡ç‚¹ã—ã¦ã‚„ã‚ã†ã‹â€¦â€¦ ã‚ã‚ã€ç™¾ç‚¹ã ã‚ˆ" å›ºå®š
 
 
-ŽE‚µ‰®(ƒWƒ‡ƒj[‚Ì‰Æ)(ƒCƒŒƒCƒU[)
-‹ßÚŠi“¬p, ‘Å“Ë
-‹ßÚŠi“¬p, ƒiƒCƒt
-‹ßÚŠi“¬p, ‘Å“Ë•Ší DGoods\EFFECT_Pliers(Blue)01.bmp
+ãƒ­ãƒãƒ¼ãƒˆï¼ãƒ‰ã‚¥ã‚²ãƒ©ãƒ³é€£é‚¦ä¿å®‰å®˜(ã‚½ãƒ•ãƒˆç‰ˆ)
+è¿‘æŽ¥æ ¼é—˜è¡“, ç«‹ã¡å›ºã‚
+ãƒ©ãƒ•ãƒ•ã‚¡ã‚¤ãƒˆ(æº–å‚™), ãƒãƒ¼ãƒ«
+ãƒ©ãƒ•ãƒ•ã‚¡ã‚¤ãƒˆ(æ”»æ’ƒ), ãƒãƒ¼ãƒ«çªæ’ƒ
+ãƒ©ãƒ•ãƒ•ã‚¡ã‚¤ãƒˆ(å‘½ä¸­), ä¼šè©± ãƒ­ãƒãƒ¼ãƒˆï¼ãƒ‰ã‚¥ã‚²ãƒ©ãƒ³é€£é‚¦ä¿å®‰å®˜ "ã¯ã‚ã£ï¼" å›ºå®š;_
+@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™½å…µæ­¦å™¨æ”»æ’ƒ;å¼·æ‰“;ä¼šè©± ãƒ­ãƒãƒ¼ãƒˆï¼ãƒ‰ã‚¥ã‚²ãƒ©ãƒ³é€£é‚¦ä¿å®‰å®˜ "ã¯ã‚ã£ï¼ ã‚“ãŒãï¼" å›ºå®š;_
+@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™½å…µæ­¦å™¨æ”»æ’ƒ;å¼·æ‰“;ä¼šè©± ãƒ­ãƒãƒ¼ãƒˆï¼ãƒ‰ã‚¥ã‚²ãƒ©ãƒ³é€£é‚¦ä¿å®‰å®˜ "ã¯ã‚ã£ï¼ ã‚“ãŒãï¼ ã“ã‚“ã®ã‰ï¼ï¼" å›ºå®š;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™½å…µæ­¦å™¨æ”»æ’ƒ;å¼·æ‰“
+å®Ÿæˆ¦ã®æŽ¡ç‚¹(æº–å‚™), -
+å®Ÿæˆ¦ã®æŽ¡ç‚¹(æ”»æ’ƒ), -
+å®Ÿæˆ¦ã®æŽ¡ç‚¹(å‘½ä¸­), ä¼šè©± ãƒ­ãƒãƒ¼ãƒˆï¼ãƒ‰ã‚¥ã‚²ãƒ©ãƒ³é€£é‚¦ä¿å®‰å®˜ å›ã«ã¯ã¾ã æˆç¸¾ã‚’è¨€ã£ã¦ãªã‹ã£ãŸãªãï¼Ÿ å›ºå®š;_
+@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ”ã‚¹ãƒˆãƒ«æ”»æ’ƒ EFFECT_RWG_Glock17.bmp;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ”ã‚¹ãƒˆãƒ«æ”»æ’ƒ EFFECT_RWG_Glock17.bmp;_
+éŠƒå¼¾;éŠƒå¼¾;ä¼šè©± ãƒ­ãƒãƒ¼ãƒˆï¼ãƒ‰ã‚¥ã‚²ãƒ©ãƒ³é€£é‚¦ä¿å®‰å®˜ "å›ã«ã¯ã¾ã æˆç¸¾ã‚’è¨€ã£ã¦ãªã‹ã£ãŸãªãï¼Ÿ â€¦â€¦ã‚ãã€æº€ç‚¹ã ã‚ˆ" å›ºå®š
+
+
+æ®ºã—å±‹(ã‚¸ãƒ§ãƒ‹ãƒ¼ã®å®¶)(ã‚¤ãƒ¬ã‚¤ã‚¶ãƒ¼)
+è¿‘æŽ¥æ ¼é—˜è¡“, æ‰“çª
+è¿‘æŽ¥æ ¼é—˜è¡“, ãƒŠã‚¤ãƒ•
+è¿‘æŽ¥æ ¼é—˜è¡“, æ‰“çªæ­¦å™¨ DGoods\EFFECT_Pliers(Blue)01.bmp

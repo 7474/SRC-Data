@@ -1,13 +1,13 @@
 
 
-FEG_—ölŒø‰Ê:
+FEG_æ‹äººåŠ¹æœ:
 Local i
 PlaySound Sharara.wav
-Center ‘ÎÛƒ†ƒjƒbƒg
+Center å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ
 	For i = 1 to 4
 	Wait Start
 	
-		PaintPicture ("¸_ƒRƒ}ƒ“ƒh\resurgent0" & i & ".bmp") - - 48 48 “§‰ß
+		PaintPicture ("ç²¾ç¥ã‚³ãƒãƒ³ãƒ‰\resurgent0" & i & ".bmp") - - 48 48 é€é
 		Refresh
 		Wait Until (0.5 * i)
 		ClearPicture
@@ -17,7 +17,7 @@ Center ‘ÎÛƒ†ƒjƒbƒg
 	For i = 1 to 3
 	Wait Start
 
-		PaintPicture ("¸_ƒRƒ}ƒ“ƒh\resurgent0" & (4 - i) & ".bmp") - - 48 48 “§‰ß
+		PaintPicture ("ç²¾ç¥ã‚³ãƒãƒ³ãƒ‰\resurgent0" & (4 - i) & ".bmp") - - 48 48 é€é
 		Refresh
 		Wait Until (0.5 * i)
 		ClearPicture
@@ -29,17 +29,17 @@ Center ‘ÎÛƒ†ƒjƒbƒg
 Return
 
 
-FEG_ŒZ’íŒø‰Ê:
+FEG_å…„å¼ŸåŠ¹æœ:
 PlaySound Sharara.wav
-Center ‘ÎÛƒ†ƒjƒbƒg
+Center å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ
 
 	For i = 1 to 3
 	Wait Start
 		ClearPicture
-		PaintPicture ¸_ƒRƒ}ƒ“ƒh\yuujou01.bmp - - 32 32 “§‰ß
+		PaintPicture ç²¾ç¥ã‚³ãƒãƒ³ãƒ‰\yuujou01.bmp - - 32 32 é€é
 		Refresh
 		Wait Until ((2 * i) - 1)
-		PaintPicture ¸_ƒRƒ}ƒ“ƒh\yuujou02.bmp - - 32 32 “§‰ß
+		PaintPicture ç²¾ç¥ã‚³ãƒãƒ³ãƒ‰\yuujou02.bmp - - 32 32 é€é
 		Refresh
 		Wait Until (2 * i)
 	Next

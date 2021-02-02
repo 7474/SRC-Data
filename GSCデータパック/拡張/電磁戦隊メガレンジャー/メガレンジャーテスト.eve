@@ -1,216 +1,216 @@
-@“dŽ¥í‘àƒƒKƒŒƒ“ƒWƒƒ[
-@”Ä—p
-@”Ä—p(“™g‘å)
+@é›»ç£æˆ¦éšŠãƒ¡ã‚¬ãƒ¬ãƒ³ã‚¸ãƒ£ãƒ¼
+@æ±Žç”¨
+@æ±Žç”¨(ç­‰èº«å¤§)
 
-ƒvƒƒ[ƒO:
-Option æ‚èŠ·‚¦
-Option ƒAƒCƒeƒ€ŒðŠ·
-Option ƒfƒoƒbƒO
+ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°:
+Option ä¹—ã‚Šæ›ãˆ
+Option ã‚¢ã‚¤ãƒ†ãƒ äº¤æ›
+Option ãƒ‡ãƒãƒƒã‚°
 
 Exit
 
 
-ƒXƒ^[ƒg:
-If Not ƒvƒŒƒC = 1 Then
-Global ƒvƒŒƒC
-ƒvƒŒƒC = 1
+ã‚¹ã‚¿ãƒ¼ãƒˆ:
+If Not ãƒ—ãƒ¬ã‚¤ = 1 Then
+Global ãƒ—ãƒ¬ã‚¤
+ãƒ—ãƒ¬ã‚¤ = 1
 
- Ask ‚Ç‚Á‚¿‚Åí‚¤H
- “™g‘å
- ƒƒ{
+ Ask ã©ã£ã¡ã§æˆ¦ã†ï¼Ÿ
+ ç­‰èº«å¤§
+ ãƒ­ãƒœ
  End
-@If ‘I‘ð = 1 Then
-@Call ƒLƒƒƒ‰¶¬
+ã€€If é¸æŠž = 1 Then
+ã€€Call ã‚­ãƒ£ãƒ©ç”Ÿæˆ
  Else
-@ClearEvent "ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ‚Ý‚ñ‚Ès‚­‚¼II ˆÉ’BŒ’‘¾"
-@ClearEvent "ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ‚Ý‚ñ‚Ès‚­‚¼II ‰““¡kˆê˜Y"
-@ClearEvent "ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ‚Ý‚ñ‚Ès‚­‚¼II •À–Øu"
-@ClearEvent "ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ‚Ý‚ñ‚Ès‚­‚¼II éƒ–èç—¢"
-@ClearEvent "ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ‚Ý‚ñ‚Ès‚­‚¼II ¡‘º‚Ý‚­"
-@ClearEvent "ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ‚Ý‚ñ‚Ès‚­‚¼II ‘ì—Tì"
-@Call ƒƒ{¶¬
-@Endif
+ã€€ClearEvent "ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ã¿ã‚“ãªè¡Œããžï¼ï¼ ä¼Šé”å¥å¤ª"
+ã€€ClearEvent "ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ã¿ã‚“ãªè¡Œããžï¼ï¼ é è—¤è€•ä¸€éƒŽ"
+ã€€ClearEvent "ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ã¿ã‚“ãªè¡Œããžï¼ï¼ ä¸¦æœ¨çž¬"
+ã€€ClearEvent "ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ã¿ã‚“ãªè¡Œããžï¼ï¼ åŸŽãƒ¶å´Žåƒé‡Œ"
+ã€€ClearEvent "ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ã¿ã‚“ãªè¡Œããžï¼ï¼ ä»Šæ‘ã¿ã"
+ã€€ClearEvent "ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ã¿ã‚“ãªè¡Œããžï¼ï¼ æ—©å·è£•ä½œ"
+ã€€Call ãƒ­ãƒœç”Ÿæˆ
+ã€€Endif
 Else
-ƒvƒŒƒC = 0
+ãƒ—ãƒ¬ã‚¤ = 0
 Endif
 
-Create “G ƒXƒgƒƒ“ƒOƒ†ƒKƒ“ƒf 0 ƒ†ƒKƒ“ƒf (ƒŒƒxƒ‹ + 5) 10 17
-Create “G ƒTƒCƒlƒWƒŒ 0 ‰öl (ƒŒƒxƒ‹ + 5) 10 17
+Create æ•µ ã‚¹ãƒˆãƒ­ãƒ³ã‚°ãƒ¦ã‚¬ãƒ³ãƒ‡ 0 ãƒ¦ã‚¬ãƒ³ãƒ‡ (ãƒ¬ãƒ™ãƒ« + 5) 10 17
+Create æ•µ ã‚µã‚¤ãƒã‚¸ãƒ¬ 0 æ€ªäºº (ãƒ¬ãƒ™ãƒ« + 5) 10 17
 
  For i = 1 to 2
- Create “G ƒNƒlƒNƒl 0 lH’m”\ (ƒŒƒxƒ‹ + 2) 10 10
+ Create æ•µ ã‚¯ãƒã‚¯ãƒ 0 äººå·¥çŸ¥èƒ½ (ãƒ¬ãƒ™ãƒ« + 2) 10 10
  Next
-Talk ˆÉ’BŒ’‘¾
-‚æ‚¤‚µIs‚­‚ºA‚Ý‚ñ‚ÈI
+Talk ä¼Šé”å¥å¤ª
+ã‚ˆã†ã—ï¼è¡Œããœã€ã¿ã‚“ãªï¼
 End
-#Launch ˆÉ’BŒ’‘¾ 10 2
-#Launch ‰““¡kˆê˜Y 8 2
-#Launch •À–Øu 12 2
-#Launch éƒ–èç—¢ 9 2
-#Launch ¡‘º‚Ý‚­ 11 2
-#Launch ‘ì—Tì 10 5
-SetAbility ƒƒKƒŒƒbƒh ƒKƒbƒc -1 ‚O‚Rƒ‚[ƒh
+#Launch ä¼Šé”å¥å¤ª 10 2
+#Launch é è—¤è€•ä¸€éƒŽ 8 2
+#Launch ä¸¦æœ¨çž¬ 12 2
+#Launch åŸŽãƒ¶å´Žåƒé‡Œ 9 2
+#Launch ä»Šæ‘ã¿ã 11 2
+#Launch æ—©å·è£•ä½œ 10 5
+SetAbility ãƒ¡ã‚¬ãƒ¬ãƒƒãƒ‰ ã‚¬ãƒƒãƒ„ -1 ï¼ï¼“ãƒ¢ãƒ¼ãƒ‰
 
 Organize 6 10 5
 
 Exit
 
-ƒLƒƒƒ‰¶¬:
+ã‚­ãƒ£ãƒ©ç”Ÿæˆ:
 
-Input ƒŒƒxƒ‹ ‚Ü‚¸‚Í‚Ý‚ñ‚È‚ÌƒŒƒxƒ‹‚ð“ü—Í‚µ‚Ä‚­‚ê(1-99)I 25
-If (ƒŒƒxƒ‹ <= 0) Or (100 <= ƒŒƒxƒ‹) Then
-Talk ƒVƒXƒeƒ€
-”’l‚ª•s³‚Å‚·B“ü—Í‚µ’¼‚µ‚Ä‰º‚³‚¢B
+Input ãƒ¬ãƒ™ãƒ« ã¾ãšã¯ã¿ã‚“ãªã®ãƒ¬ãƒ™ãƒ«ã‚’å…¥åŠ›ã—ã¦ãã‚Œ(1-99)ï¼ 25
+If (ãƒ¬ãƒ™ãƒ« <= 0) Or (100 <= ãƒ¬ãƒ™ãƒ«) Then
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+æ•°å€¤ãŒä¸æ­£ã§ã™ã€‚å…¥åŠ›ã—ç›´ã—ã¦ä¸‹ã•ã„ã€‚
 End
-Goto ƒLƒƒƒ‰¶¬
+Goto ã‚­ãƒ£ãƒ©ç”Ÿæˆ
 Endif
 
-Input ƒ‰ƒ“ƒN ‚æ‚µA‚¶‚á‚ ŽŸ‚Íƒ‰ƒ“ƒN‚¾(0-10)I 0
+Input ãƒ©ãƒ³ã‚¯ ã‚ˆã—ã€ã˜ã‚ƒã‚æ¬¡ã¯ãƒ©ãƒ³ã‚¯ã (0-10)ï¼ 0
 
-Unit ˆÉ’BŒ’‘¾ ƒ‰ƒ“ƒN
-Pilot ƒƒKƒŒƒbƒh ƒŒƒxƒ‹
-Ride ƒƒKƒŒƒbƒh
+Unit ä¼Šé”å¥å¤ª ãƒ©ãƒ³ã‚¯
+Pilot ãƒ¡ã‚¬ãƒ¬ãƒƒãƒ‰ ãƒ¬ãƒ™ãƒ«
+Ride ãƒ¡ã‚¬ãƒ¬ãƒƒãƒ‰
 
-Unit ‰““¡kˆê˜Y ƒ‰ƒ“ƒN
-Pilot ƒƒKƒuƒ‰ƒbƒN ƒŒƒxƒ‹
-Ride ƒƒKƒuƒ‰ƒbƒN
+Unit é è—¤è€•ä¸€éƒŽ ãƒ©ãƒ³ã‚¯
+Pilot ãƒ¡ã‚¬ãƒ–ãƒ©ãƒƒã‚¯ ãƒ¬ãƒ™ãƒ«
+Ride ãƒ¡ã‚¬ãƒ–ãƒ©ãƒƒã‚¯
 
-Unit •À–Øu ƒ‰ƒ“ƒN
-Pilot ƒƒKƒuƒ‹[ ƒŒƒxƒ‹
-Ride ƒƒKƒuƒ‹[
+Unit ä¸¦æœ¨çž¬ ãƒ©ãƒ³ã‚¯
+Pilot ãƒ¡ã‚¬ãƒ–ãƒ«ãƒ¼ ãƒ¬ãƒ™ãƒ«
+Ride ãƒ¡ã‚¬ãƒ–ãƒ«ãƒ¼
 
-Unit éƒ–èç—¢ ƒ‰ƒ“ƒN
-Pilot ƒƒKƒCƒGƒ[ ƒŒƒxƒ‹
-Ride ƒƒKƒCƒGƒ[
+Unit åŸŽãƒ¶å´Žåƒé‡Œ ãƒ©ãƒ³ã‚¯
+Pilot ãƒ¡ã‚¬ã‚¤ã‚¨ãƒ­ãƒ¼ ãƒ¬ãƒ™ãƒ«
+Ride ãƒ¡ã‚¬ã‚¤ã‚¨ãƒ­ãƒ¼
 
-Unit ¡‘º‚Ý‚­ ƒ‰ƒ“ƒN
-Pilot ƒƒKƒsƒ“ƒN ƒŒƒxƒ‹
-Ride ƒƒKƒsƒ“ƒN
+Unit ä»Šæ‘ã¿ã ãƒ©ãƒ³ã‚¯
+Pilot ãƒ¡ã‚¬ãƒ”ãƒ³ã‚¯ ãƒ¬ãƒ™ãƒ«
+Ride ãƒ¡ã‚¬ãƒ”ãƒ³ã‚¯
 
-Unit ‘ì—Tì ƒ‰ƒ“ƒN
-Pilot ƒƒKƒVƒ‹ƒo[ ƒŒƒxƒ‹
-Ride ƒƒKƒVƒ‹ƒo[
+Unit æ—©å·è£•ä½œ ãƒ©ãƒ³ã‚¯
+Pilot ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼ ãƒ¬ãƒ™ãƒ«
+Ride ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼
 
-Equip ˆÉ’BŒ’‘¾ ƒoƒgƒ‹ƒ‰ƒCƒU[
+Equip ä¼Šé”å¥å¤ª ãƒãƒˆãƒ«ãƒ©ã‚¤ã‚¶ãƒ¼
 
-Ask ƒƒKƒeƒNƒ^[‚ð‘•”õ‚µ‚Ü‚·‚©H
-‚Í‚¢
-‚¢‚¢‚¦
+Ask ãƒ¡ã‚¬ãƒ†ã‚¯ã‚¿ãƒ¼ã‚’è£…å‚™ã—ã¾ã™ã‹ï¼Ÿ
+ã¯ã„
+ã„ã„ãˆ
 End
-If ‘I‘ð = 1 Then
-Call ƒƒKƒeƒNƒ^[‘•”õ
+If é¸æŠž = 1 Then
+Call ãƒ¡ã‚¬ãƒ†ã‚¯ã‚¿ãƒ¼è£…å‚™
 Endif
 
 Return
 
-ƒƒKƒeƒNƒ^[‘•”õ:
-Equip ˆÉ’BŒ’‘¾ ƒƒKƒeƒNƒ^[‚P
-Equip ‰““¡kˆê˜Y ƒƒKƒeƒNƒ^[‚Q
-Equip •À–Øu ƒƒKƒeƒNƒ^[‚R
-Equip éƒ–èç—¢ ƒƒKƒeƒNƒ^[‚S
-Equip ¡‘º‚Ý‚­ ƒƒKƒeƒNƒ^[‚T
+ãƒ¡ã‚¬ãƒ†ã‚¯ã‚¿ãƒ¼è£…å‚™:
+Equip ä¼Šé”å¥å¤ª ãƒ¡ã‚¬ãƒ†ã‚¯ã‚¿ãƒ¼ï¼‘
+Equip é è—¤è€•ä¸€éƒŽ ãƒ¡ã‚¬ãƒ†ã‚¯ã‚¿ãƒ¼ï¼’
+Equip ä¸¦æœ¨çž¬ ãƒ¡ã‚¬ãƒ†ã‚¯ã‚¿ãƒ¼ï¼“
+Equip åŸŽãƒ¶å´Žåƒé‡Œ ãƒ¡ã‚¬ãƒ†ã‚¯ã‚¿ãƒ¼ï¼”
+Equip ä»Šæ‘ã¿ã ãƒ¡ã‚¬ãƒ†ã‚¯ã‚¿ãƒ¼ï¼•
 Return
 
 
-ƒƒ{¶¬:
+ãƒ­ãƒœç”Ÿæˆ:
 
-Input ƒŒƒxƒ‹ ‚Ü‚¸‚Í‚Ý‚ñ‚È‚ÌƒŒƒxƒ‹‚ð“ü—Í‚µ‚Ä‚­‚ê(1-99)I 25
-If (ƒŒƒxƒ‹ <= 0) Or (100 <= ƒŒƒxƒ‹) Then
-Talk ƒVƒXƒeƒ€
-”’l‚ª•s³‚Å‚·B“ü—Í‚µ’¼‚µ‚Ä‰º‚³‚¢B
+Input ãƒ¬ãƒ™ãƒ« ã¾ãšã¯ã¿ã‚“ãªã®ãƒ¬ãƒ™ãƒ«ã‚’å…¥åŠ›ã—ã¦ãã‚Œ(1-99)ï¼ 25
+If (ãƒ¬ãƒ™ãƒ« <= 0) Or (100 <= ãƒ¬ãƒ™ãƒ«) Then
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+æ•°å€¤ãŒä¸æ­£ã§ã™ã€‚å…¥åŠ›ã—ç›´ã—ã¦ä¸‹ã•ã„ã€‚
 End
-Goto ƒƒ{¶¬
+Goto ãƒ­ãƒœç”Ÿæˆ
 Endif
-Input ƒ‰ƒ“ƒN ‚æ‚µA‚¶‚á‚ ŽŸ‚Íƒ‰ƒ“ƒN‚¾(0-10)I 0
+Input ãƒ©ãƒ³ã‚¯ ã‚ˆã—ã€ã˜ã‚ƒã‚æ¬¡ã¯ãƒ©ãƒ³ã‚¯ã (0-10)ï¼ 0
 
 
-Ask ‚Ç‚Á‚¿‚Åí‚¤H
-ƒMƒƒƒ‰ƒNƒV[ƒƒK
-ƒƒKƒ{ƒCƒWƒƒ[
+Ask ã©ã£ã¡ã§æˆ¦ã†ï¼Ÿ
+ã‚®ãƒ£ãƒ©ã‚¯ã‚·ãƒ¼ãƒ¡ã‚¬
+ãƒ¡ã‚¬ãƒœã‚¤ã‚¸ãƒ£ãƒ¼
 End
- If ‘I‘ð = 1 Then
+ If é¸æŠž = 1 Then
 
- Unit ƒƒKƒVƒbƒv ƒ‰ƒ“ƒN
- Pilot ƒƒKƒŒƒbƒh ƒŒƒxƒ‹
- Pilot ƒƒKƒuƒ‰ƒbƒN ƒŒƒxƒ‹
- Pilot ƒƒKƒuƒ‹[ ƒŒƒxƒ‹
- Pilot ƒƒKƒCƒGƒ[ ƒŒƒxƒ‹
- Pilot ƒƒKƒsƒ“ƒN ƒŒƒxƒ‹
- Ride ƒƒKƒŒƒbƒh
- Ride ƒƒKƒuƒ‰ƒbƒN
- Ride ƒƒKƒuƒ‹[
- Ride ƒƒKƒCƒGƒ[
- Ride ƒƒKƒsƒ“ƒN
+ Unit ãƒ¡ã‚¬ã‚·ãƒƒãƒ— ãƒ©ãƒ³ã‚¯
+ Pilot ãƒ¡ã‚¬ãƒ¬ãƒƒãƒ‰ ãƒ¬ãƒ™ãƒ«
+ Pilot ãƒ¡ã‚¬ãƒ–ãƒ©ãƒƒã‚¯ ãƒ¬ãƒ™ãƒ«
+ Pilot ãƒ¡ã‚¬ãƒ–ãƒ«ãƒ¼ ãƒ¬ãƒ™ãƒ«
+ Pilot ãƒ¡ã‚¬ã‚¤ã‚¨ãƒ­ãƒ¼ ãƒ¬ãƒ™ãƒ«
+ Pilot ãƒ¡ã‚¬ãƒ”ãƒ³ã‚¯ ãƒ¬ãƒ™ãƒ«
+ Ride ãƒ¡ã‚¬ãƒ¬ãƒƒãƒ‰
+ Ride ãƒ¡ã‚¬ãƒ–ãƒ©ãƒƒã‚¯
+ Ride ãƒ¡ã‚¬ãƒ–ãƒ«ãƒ¼
+ Ride ãƒ¡ã‚¬ã‚¤ã‚¨ãƒ­ãƒ¼
+ Ride ãƒ¡ã‚¬ãƒ”ãƒ³ã‚¯
 
- Unit ƒX[ƒp[ƒMƒƒƒ‰ƒNƒV[ƒƒK ƒ‰ƒ“ƒN
+ Unit ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚®ãƒ£ãƒ©ã‚¯ã‚·ãƒ¼ãƒ¡ã‚¬ ãƒ©ãƒ³ã‚¯
 
- Unit ƒƒKƒEƒBƒ“ƒK[(‚e) ƒ‰ƒ“ƒN
- Pilot ƒƒKƒVƒ‹ƒo[ ƒŒƒxƒ‹
- Ride ƒƒKƒVƒ‹ƒo[
+ Unit ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚¬ãƒ¼(ï¼¦) ãƒ©ãƒ³ã‚¯
+ Pilot ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼ ãƒ¬ãƒ™ãƒ«
+ Ride ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼
 
  Else
- Unit ƒƒ{ƒCƒWƒƒ[‚P ƒ‰ƒ“ƒN
- Pilot ƒƒKƒŒƒbƒh ƒŒƒxƒ‹
- Ride ƒƒKƒŒƒbƒh
+ Unit ãƒ­ãƒœã‚¤ã‚¸ãƒ£ãƒ¼ï¼‘ ãƒ©ãƒ³ã‚¯
+ Pilot ãƒ¡ã‚¬ãƒ¬ãƒƒãƒ‰ ãƒ¬ãƒ™ãƒ«
+ Ride ãƒ¡ã‚¬ãƒ¬ãƒƒãƒ‰
 
- Unit ƒVƒƒƒgƒ‹ƒ{ƒCƒWƒƒ[‚Q ƒ‰ƒ“ƒN
- Pilot ƒƒKƒuƒ‰ƒbƒN ƒŒƒxƒ‹
- Ride ƒƒKƒuƒ‰ƒbƒN
+ Unit ã‚·ãƒ£ãƒˆãƒ«ãƒœã‚¤ã‚¸ãƒ£ãƒ¼ï¼’ ãƒ©ãƒ³ã‚¯
+ Pilot ãƒ¡ã‚¬ãƒ–ãƒ©ãƒƒã‚¯ ãƒ¬ãƒ™ãƒ«
+ Ride ãƒ¡ã‚¬ãƒ–ãƒ©ãƒƒã‚¯
 
- Unit ƒƒPƒbƒgƒ{ƒCƒWƒƒ[‚R ƒ‰ƒ“ƒN
- Pilot ƒƒKƒuƒ‹[ ƒŒƒxƒ‹
- Ride ƒƒKƒuƒ‹[
+ Unit ãƒ­ã‚±ãƒƒãƒˆãƒœã‚¤ã‚¸ãƒ£ãƒ¼ï¼“ ãƒ©ãƒ³ã‚¯
+ Pilot ãƒ¡ã‚¬ãƒ–ãƒ«ãƒ¼ ãƒ¬ãƒ™ãƒ«
+ Ride ãƒ¡ã‚¬ãƒ–ãƒ«ãƒ¼
 
- Unit ƒ\[ƒT[ƒ{ƒCƒWƒƒ[‚S ƒ‰ƒ“ƒN
- Pilot ƒƒKƒCƒGƒ[ ƒŒƒxƒ‹
- Ride ƒƒKƒCƒGƒ[
+ Unit ã‚½ãƒ¼ã‚µãƒ¼ãƒœã‚¤ã‚¸ãƒ£ãƒ¼ï¼” ãƒ©ãƒ³ã‚¯
+ Pilot ãƒ¡ã‚¬ã‚¤ã‚¨ãƒ­ãƒ¼ ãƒ¬ãƒ™ãƒ«
+ Ride ãƒ¡ã‚¬ã‚¤ã‚¨ãƒ­ãƒ¼
 
- Unit ƒ^ƒ“ƒNƒ{ƒCƒWƒƒ[‚T ƒ‰ƒ“ƒN
- Pilot ƒƒKƒsƒ“ƒN ƒŒƒxƒ‹
- Ride ƒƒKƒsƒ“ƒN
+ Unit ã‚¿ãƒ³ã‚¯ãƒœã‚¤ã‚¸ãƒ£ãƒ¼ï¼• ãƒ©ãƒ³ã‚¯
+ Pilot ãƒ¡ã‚¬ãƒ”ãƒ³ã‚¯ ãƒ¬ãƒ™ãƒ«
+ Ride ãƒ¡ã‚¬ãƒ”ãƒ³ã‚¯
 
- Unit ƒƒKƒEƒBƒ“ƒK[(‚e) ƒ‰ƒ“ƒN
- Pilot ƒƒKƒVƒ‹ƒo[ ƒŒƒxƒ‹
- Ride ƒƒKƒVƒ‹ƒo[
+ Unit ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚¬ãƒ¼(ï¼¦) ãƒ©ãƒ³ã‚¯
+ Pilot ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼ ãƒ¬ãƒ™ãƒ«
+ Ride ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼
 
- Unit ƒƒKƒ{ƒCƒWƒƒ[ ƒ‰ƒ“ƒN
+ Unit ãƒ¡ã‚¬ãƒœã‚¤ã‚¸ãƒ£ãƒ¼ ãƒ©ãƒ³ã‚¯
  Endif
 
 Return
 
 
-ƒ}ƒbƒvƒRƒ}ƒ“ƒh “ÁŽêƒRƒ}ƒ“ƒh:
-Ask “ÁŽêƒRƒ}ƒ“ƒh ƒLƒƒƒ“ƒZƒ‹‰Â
-ƒCƒ“ƒ^[ƒ~ƒbƒVƒ‡ƒ“‚Ö
-‘Sƒ†ƒjƒbƒg‹C—Í{‚P‚O
-‘Sƒ†ƒjƒbƒg‘S‰ñ•œ
-‚à‚Ç‚é
+ãƒžãƒƒãƒ—ã‚³ãƒžãƒ³ãƒ‰ ç‰¹æ®Šã‚³ãƒžãƒ³ãƒ‰:
+Ask ç‰¹æ®Šã‚³ãƒžãƒ³ãƒ‰ ã‚­ãƒ£ãƒ³ã‚»ãƒ«å¯
+ã‚¤ãƒ³ã‚¿ãƒ¼ãƒŸãƒƒã‚·ãƒ§ãƒ³ã¸
+å…¨ãƒ¦ãƒ‹ãƒƒãƒˆæ°—åŠ›ï¼‹ï¼‘ï¼
+å…¨ãƒ¦ãƒ‹ãƒƒãƒˆå…¨å›žå¾©
+ã‚‚ã©ã‚‹
 End
-If ‘I‘ð = 1 Then
-Ask ’†’f‚·‚é‚Ì‚©H
-‚x‚…‚“
-‚m‚
+If é¸æŠž = 1 Then
+Ask ä¸­æ–­ã™ã‚‹ã®ã‹ï¼Ÿ
+ï¼¹ï½…ï½“
+ï¼®ï½
 End
-If ‘I‘ð = 1 Then
+If é¸æŠž = 1 Then
 Hide
-Escape –¡•û
-Continue ƒƒKƒŒƒ“ƒWƒƒ[ƒeƒXƒg.eve
+Escape å‘³æ–¹
+Continue ãƒ¡ã‚¬ãƒ¬ãƒ³ã‚¸ãƒ£ãƒ¼ãƒ†ã‚¹ãƒˆ.eve
 Endif
 Endif
-If ‘I‘ð = 2 Then
-	ForEach –¡•û
+If é¸æŠž = 2 Then
+	ForEach å‘³æ–¹
 	IncreaseMorale 10
 	Next
-	ForEach “G
+	ForEach æ•µ
 	IncreaseMorale 10
 	Next
 Endif
-If ‘I‘ð = 3 Then
-	ForEach –¡•û
+If é¸æŠž = 3 Then
+	ForEach å‘³æ–¹
 	RecoverHP 100
 	RecoverEN 100
 	Next
-	ForEach “G
+	ForEach æ•µ
 	RecoverHP 100
 	RecoverEN 100
 	Next
@@ -218,19 +218,19 @@ Endif
 Exit
 
 
-‘S–Å “G:
+å…¨æ»… æ•µ:
 Hide
-Escape –¡•û
-Continue ƒƒKƒŒƒ“ƒWƒƒ[ƒeƒXƒg.eve
+Escape å‘³æ–¹
+Continue ãƒ¡ã‚¬ãƒ¬ãƒ³ã‚¸ãƒ£ãƒ¼ãƒ†ã‚¹ãƒˆ.eve
 Exit
 
 
 
 
-‘S–Å –¡•û:
+å…¨æ»… å‘³æ–¹:
 GameOver
 Exit
 
 
-<ƒƒKƒŒƒ“ƒWƒƒ[–¼æ‚è.eve>
-<ƒƒKƒEƒBƒ“ƒK[.eve>
+<ãƒ¡ã‚¬ãƒ¬ãƒ³ã‚¸ãƒ£ãƒ¼åä¹—ã‚Š.eve>
+<ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚¬ãƒ¼.eve>

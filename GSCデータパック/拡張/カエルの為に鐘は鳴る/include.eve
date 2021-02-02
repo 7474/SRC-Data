@@ -1,22 +1,22 @@
 
 
-# ƒ[ƒJƒ‹í“¬ƒAƒjƒ‚Å‚·B
-# KTKN_‹à‚Å‰ðŒˆˆ—
-# KTKN_ƒ^[ƒQƒbƒg•ÏX
-# KTKN_‰ñ“]˜A‘±•`‰æ
+# ãƒ­ãƒ¼ã‚«ãƒ«æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ã§ã™ã€‚
+# KTKN_é‡‘ã§è§£æ±ºå‡¦ç†
+# KTKN_ã‚¿ãƒ¼ã‚²ãƒƒãƒˆå¤‰æ›´
+# KTKN_å›žè»¢é€£ç¶šæç”»
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
-í“¬ƒAƒjƒ_KTKN_‹à‚Å‰ðŒˆˆ—ƒNƒŠƒeƒBƒJƒ‹:
-SetMessage ‘ŠŽèƒpƒCƒƒbƒg ”j‰ó "-"
-SetMessage ‘ŠŽèƒpƒCƒƒbƒg ’Eo "-"
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KTKN_é‡‘ã§è§£æ±ºå‡¦ç†ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«:
+SetMessage ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ ç ´å£Š "-"
+SetMessage ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ è„±å‡º "-"
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_KTKN_ƒ^[ƒQƒbƒg•ÏX–½’†:
-# ‘Ž®uKTKN_ƒ^[ƒQƒbƒg•ÏX (UŒ‚‚·‚é‘¤ƒpƒCƒƒbƒg–¼) (‚³‚ê‚é‘¤ƒpƒCƒƒbƒg–¼)v
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KTKN_ã‚¿ãƒ¼ã‚²ãƒƒãƒˆå¤‰æ›´å‘½ä¸­:
+# æ›¸å¼ã€ŒKTKN_ã‚¿ãƒ¼ã‚²ãƒƒãƒˆå¤‰æ›´ (æ”»æ’ƒã™ã‚‹å´ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆå) (ã•ã‚Œã‚‹å´ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆå)ã€
 
 Select Args(1)
 SelectTarget Args(2)
@@ -26,29 +26,29 @@ Return
 
 
 
-í“¬ƒAƒjƒ_KTKN_‰ñ“]˜A‘±•`‰æ–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KTKN_å›žè»¢é€£ç¶šæç”»å‘½ä¸­:
 
-# ˆø”‚P ‰æ‘œƒtƒ@ƒCƒ‹(˜A‘±•\Ž¦)
-# ˆø”‚Q ‰æ‘œƒTƒCƒY
-# ˆø”‚R •\Ž¦ŽžŠÔ
-# ˆø”‚S •\Ž¦ˆÊ’u
-# ˆø”‚T Œø‰Ê‰¹
-# ˆø”‚U ”­Œõ
-# ˆø”‚V •ÛŽ
-# ˆø”‚W •ûŒü”»’è
-# ˆø”‚X ƒ†ƒjƒbƒg‚h‚c
+# å¼•æ•°ï¼‘ ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«(é€£ç¶šè¡¨ç¤º)
+# å¼•æ•°ï¼’ ç”»åƒã‚µã‚¤ã‚º
+# å¼•æ•°ï¼“ è¡¨ç¤ºæ™‚é–“
+# å¼•æ•°ï¼” è¡¨ç¤ºä½ç½®
+# å¼•æ•°ï¼• åŠ¹æžœéŸ³
+# å¼•æ•°ï¼– ç™ºå…‰
+# å¼•æ•°ï¼— ä¿æŒ
+# å¼•æ•°ï¼˜ æ–¹å‘åˆ¤å®š
+# å¼•æ•°ï¼™ ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 #
-# ˆø” Šp“x=(®”) (Žw’è‚µ‚½Šp“x‚É‰EŽü‚è‚Å‰æ‘œ‚ð‰ñ“]‚³‚¹‚éBu”­ŽËv‚Æ‘g‚Ý‡‚í‚¹‰Â”\)
-# ˆø” ƒ‰ƒ“ƒ_ƒ€ (ƒ‰ƒ“ƒ_ƒ€Šp“x‚Å‰æ‘œ‚ð‰ñ“]) or ”­ŽË(”­ŽË‰æ‘œ‚ð‘ŠŽè•ûŒü‚ÉŒü‚¯‚Ä•`‰æ)
-# ˆø” ’†ŠÔ ‘ÎÛ‚Æ‘ŠŽèƒ†ƒjƒbƒg‚Ì’†ŠÔ‚ÅƒAƒjƒ‚ðÄ¶‚·‚é
+# å¼•æ•° è§’åº¦=(æ•´æ•°) (æŒ‡å®šã—ãŸè§’åº¦ã«å³å‘¨ã‚Šã§ç”»åƒã‚’å›žè»¢ã•ã›ã‚‹ã€‚ã€Œç™ºå°„ã€ã¨çµ„ã¿åˆã‚ã›å¯èƒ½)
+# å¼•æ•° ãƒ©ãƒ³ãƒ€ãƒ  (ãƒ©ãƒ³ãƒ€ãƒ è§’åº¦ã§ç”»åƒã‚’å›žè»¢) or ç™ºå°„(ç™ºå°„ç”»åƒã‚’ç›¸æ‰‹æ–¹å‘ã«å‘ã‘ã¦æç”»)
+# å¼•æ•° ä¸­é–“ å¯¾è±¡ã¨ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆã®ä¸­é–“ã§ã‚¢ãƒ‹ãƒ¡ã‚’å†ç”Ÿã™ã‚‹
 
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Local GS_STR = _GetBoxSizeFromArgs(Args(2))
-Local G_SX = _GN(32,_SelectBmpSizeType(GS_STR,"‚w"))
-Local G_SY = _GN(32,_SelectBmpSizeType(GS_STR,"‚x"))
+Local G_SX = _GN(32,_SelectBmpSizeType(GS_STR,"ï¼¸"))
+Local G_SY = _GN(32,_SelectBmpSizeType(GS_STR,"ï¼¹"))
 Local i
 Local j
 Local C_X = WX(UID)
@@ -58,7 +58,7 @@ LOcal G_Y = (WY(UID) + 16)
 Local BMP_FILE = _GetBMPName(UID)
 Local T_COL_F = _ColorTime(_IsLight())
 Local W_T
-Local B_FLG = _S_OPT_FA("”w–Ê")
+Local B_FLG = _S_OPT_FA("èƒŒé¢")
 Local DRCT = ""
 Local POS = _GetDrawPosFromArgs()
 Local T_COL = _ColorTime()
@@ -66,44 +66,44 @@ Local T_COL = _ColorTime()
 Local ANG = 0
 Local ANGP
 
-If ((X(‘ÎÛƒ†ƒjƒbƒg‚h‚c) < _Get_X(‘ŠŽèƒ†ƒjƒbƒg‚h‚c)) And (_S_OPT_FA("•ûŒü”»’è") = "•ûŒü”»’è")) Then
-  Set DRCT ¶‰E”½“]
+If ((X(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) < _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) And (_S_OPT_FA("æ–¹å‘åˆ¤å®š") = "æ–¹å‘åˆ¤å®š")) Then
+  Set DRCT å·¦å³åè»¢
 EndIf
-Local UD_OPT = _S_OPT_FA("ã‰º”½“]")
-Local LR_OPT = _S_OPT_FA("¶‰E”½“]")
+Local UD_OPT = _S_OPT_FA("ä¸Šä¸‹åè»¢")
+Local LR_OPT = _S_OPT_FA("å·¦å³åè»¢")
 If ((DRCT != "") And (LR_OPT != "")) Then
   Set DRCT ""
 ElseIf (LR_OPT != "") Then
   Set DRCT LR_OPT
 EndIf
 
-If (_SearchOptionFromArgs("’†ŠÔ") != "") Then
-  G_X = (((WX(‘ÎÛƒ†ƒjƒbƒg‚h‚c) + WX(‘ŠŽèƒ†ƒjƒbƒg‚h‚c)) * 0.5) + 16)
-  G_Y = (((WY(‘ÎÛƒ†ƒjƒbƒg‚h‚c) + WY(‘ŠŽèƒ†ƒjƒbƒg‚h‚c)) * 0.5) + 16)
+If (_SearchOptionFromArgs("ä¸­é–“") != "") Then
+  G_X = (((WX(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) + WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) * 0.5) + 16)
+  G_Y = (((WY(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) + WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) * 0.5) + 16)
 EndIf
 
 
 Incr G_X (G_SX * -0.5)
 
 Switch POS
-Case "ã•Ó"
+Case "ä¸Šè¾º"
   Incr G_Y -16
-Case "‰º•Ó"
+Case "ä¸‹è¾º"
   Incr G_Y ((G_SY * -1) + 16)
 Case Else
   Incr G_Y (G_SY * -0.5)
 EndSw
 
-# Šp“xÝ’è
+# è§’åº¦è¨­å®š
 
-If (_SearchOptionFromArgs("”­ŽË") != "") Then
-  ANG = _GetAngle(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
+If (_SearchOptionFromArgs("ç™ºå°„") != "") Then
+  ANG = _GetAngle(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 EndIf
 
-If (DRCT = "¶‰E”½“]") Then
-	ANGP = (_GetOptValueFromArgs("Šp“x") * -1)
+If (DRCT = "å·¦å³åè»¢") Then
+	ANGP = (_GetOptValueFromArgs("è§’åº¦") * -1)
 Else
-	ANGP = _GetOptValueFromArgs("Šp“x")
+	ANGP = _GetOptValueFromArgs("è§’åº¦")
 EndIf
 
 ANG = ANG + ANGP
@@ -111,14 +111,14 @@ ANG = ANG + ANGP
 
 
 
-_GBA_GetBmpPatternInfo _G_APTN_FA() _GetName(_GetWavFromArgs(),_GetOptParamsFromArgs("˜A‘±Œø‰Ê‰¹"))
+_GBA_GetBmpPatternInfo _G_APTN_FA() _GetName(_GetWavFromArgs(),_GetOptParamsFromArgs("é€£ç¶šåŠ¹æžœéŸ³"))
 Set W_T (Args(3) / _GBA_P_TTL)
 
 #_GetNumberFromArgs(Args(4))
 
 For j = 1 To _GetNumberFromArgs(Args(4))
 
-If (_SearchOptionFromArgs("ƒ‰ƒ“ƒ_ƒ€") != "") Then
+If (_SearchOptionFromArgs("ãƒ©ãƒ³ãƒ€ãƒ ") != "") Then
   ANG = random(360)
 EndIf
 
@@ -126,13 +126,13 @@ Wait Start
 	For i = 1 To _GBA_P_TTL
 	  _CheckPlaySound _GBA_P_WAV[i]
 	  ClearPicture
-	  If (B_FLG = "”w–Ê") Then
+	  If (B_FLG = "èƒŒé¢") Then
 	    PaintPicture _SetBmpNum2(_GBA_P_NAME,(_GBA_P_STR + ((i - 1) * _GBA_P_FRC)),_GBA_P_TYPE) _
-	                 G_X G_Y G_SX G_SY DRCT “§‰ß T_COL_F UD_OPT LR_OPT ‰E‰ñ“] ANG
-	    PaintPicture BMP_FILE C_X C_Y 32 32 “§‰ß T_COL
+	                 G_X G_Y G_SX G_SY DRCT é€éŽ T_COL_F UD_OPT LR_OPT å³å›žè»¢ ANG
+	    PaintPicture BMP_FILE C_X C_Y 32 32 é€éŽ T_COL
 	  Else
 	    PaintPicture _SetBmpNum2(_GBA_P_NAME,(_GBA_P_STR + ((i - 1) * _GBA_P_FRC)),_GBA_P_TYPE) _
-	                 G_X G_Y G_SX G_SY DRCT “§‰ß T_COL_F UD_OPT LR_OPT ‰E‰ñ“] ANG
+	                 G_X G_Y G_SX G_SY DRCT é€éŽ T_COL_F UD_OPT LR_OPT å³å›žè»¢ ANG
 	  EndIf
 	  Refresh
 	  Wait Until (i * W_T)
@@ -141,7 +141,7 @@ Next
 
 _GBA_UnSetBmpPattern
 
-If (_S_OPT_FA("•ÛŽ") = "•ÛŽ") Then
+If (_S_OPT_FA("ä¿æŒ") = "ä¿æŒ") Then
   Return "Keep"
 Else
   Return

@@ -1,57 +1,57 @@
-ƒKEƒL[ƒ“‚Ì’Ç‰Á•‘•‚ÉŠÖ‚µ‚Ä‚Í‚±‚ê‚ðŽQÆ‚É‚µ‚Ä‚­‚¾‚³‚¢
-‚Ü‚½A‚±‚Ìƒy[ƒW‚ÌdisableƒRƒ}ƒ“ƒh“™‚ðƒRƒsƒy‚·‚é‚Æ
-’Ç‰Á•‘•‚ªˆêŠ‡‚Å••ˆó‚Å‚«‚Ü‚·
+ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³ã®è¿½åŠ æ­¦è£…ã«é–¢ã—ã¦ã¯ã“ã‚Œã‚’å‚ç…§ã«ã—ã¦ãã ã•ã„
+ã¾ãŸã€ã“ã®ãƒšãƒ¼ã‚¸ã®disableã‚³ãƒžãƒ³ãƒ‰ç­‰ã‚’ã‚³ãƒ”ãƒšã™ã‚‹ã¨
+è¿½åŠ æ­¦è£…ãŒä¸€æ‹¬ã§å°å°ã§ãã¾ã™
 
-‚à‚Á‚Æ‚àAˆÐ—Í‡‚É•‘•’Ç‰Á‚³‚ê‚Ä‚¢‚é‚í‚¯‚Å‚Í‚È‚¢‚Ì‚Å‚ ‚­‚Ü‚ÅŽQl‚É‚·‚é’ö“x‚Å‚¨Šè‚¢‚µ‚Ü‚·
+ã‚‚ã£ã¨ã‚‚ã€å¨åŠ›é †ã«æ­¦è£…è¿½åŠ ã•ã‚Œã¦ã„ã‚‹ã‚ã‘ã§ã¯ãªã„ã®ã§ã‚ãã¾ã§å‚è€ƒã«ã™ã‚‹ç¨‹åº¦ã§ãŠé¡˜ã„ã—ã¾ã™
 
-disable ‘åŽÔ—ÖƒAƒ^ƒbƒN
-disable ƒJƒbƒ^[ƒtƒ‰ƒbƒO
-disable ƒtƒ‰ƒbƒOƒ~ƒTƒCƒ‹
-disable ‘åŽÔ—Öƒu[ƒƒ‰ƒ“
-disable ƒKEƒL[ƒ“ƒkƒ“ƒ`ƒƒƒN
-disable Ši“¬•Ší=ƒKEƒL[ƒ“ƒkƒ“ƒ`ƒƒƒN
-SetSkill ƒKEƒL[ƒ“(P) ƒKEƒL[ƒ“ƒVƒƒƒxƒ‹ƒpƒ[ 0 
-disable ƒKEƒL[ƒ“(díŽÔ)
-Disable ƒKEƒL[ƒ“(ƒ}ƒbƒnƒEƒCƒ“ƒO)
-SetSkill ƒKEƒL[ƒ“(P) ƒoƒŠƒAƒ“ƒgƒAƒ“ƒJ[ 0 
-disable@ƒjƒ…[ƒ~ƒTƒCƒ‹
+disable å¤§è»Šè¼ªã‚¢ã‚¿ãƒƒã‚¯
+disable ã‚«ãƒƒã‚¿ãƒ¼ãƒ•ãƒ©ãƒƒã‚°
+disable ãƒ•ãƒ©ãƒƒã‚°ãƒŸã‚µã‚¤ãƒ«
+disable å¤§è»Šè¼ªãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³
+disable ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³ãƒŒãƒ³ãƒãƒ£ã‚¯
+disable æ ¼é—˜æ­¦å™¨=ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³ãƒŒãƒ³ãƒãƒ£ã‚¯
+SetSkill ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³(P) ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³ã‚·ãƒ£ãƒ™ãƒ«ãƒ‘ãƒ¯ãƒ¼ 0 
+disable ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³(é‡æˆ¦è»Š)
+Disable ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³(ãƒžãƒƒãƒã‚¦ã‚¤ãƒ³ã‚°)
+SetSkill ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³(P) ãƒãƒªã‚¢ãƒ³ãƒˆã‚¢ãƒ³ã‚«ãƒ¼ 0 
+disableã€€ãƒ‹ãƒ¥ãƒ¼ãƒŸã‚µã‚¤ãƒ«
 
-‘åŽÔ—ÖƒAƒ^ƒbƒN@‚S˜b
+å¤§è»Šè¼ªã‚¢ã‚¿ãƒƒã‚¯ã€€ï¼”è©±
 
-Enable ‘åŽÔ—ÖƒAƒ^ƒbƒN
+Enable å¤§è»Šè¼ªã‚¢ã‚¿ãƒƒã‚¯
 
-ƒJƒbƒ^[ƒtƒ‰ƒbƒO@‚Q‚U˜b
+ã‚«ãƒƒã‚¿ãƒ¼ãƒ•ãƒ©ãƒƒã‚°ã€€ï¼’ï¼–è©±
 
-Enable ƒJƒbƒ^[ƒtƒ‰ƒbƒO
-Enable ƒtƒ‰ƒbƒOƒ~ƒTƒCƒ‹
+Enable ã‚«ãƒƒã‚¿ãƒ¼ãƒ•ãƒ©ãƒƒã‚°
+Enable ãƒ•ãƒ©ãƒƒã‚°ãƒŸã‚µã‚¤ãƒ«
 
-‘åŽÔ—Öƒu[ƒƒ‰ƒ“ ‚Q‚V˜b
+å¤§è»Šè¼ªãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³ ï¼’ï¼—è©±
 
-Enable ‘åŽÔ—Öƒu[ƒƒ‰ƒ“
+Enable å¤§è»Šè¼ªãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³
 
-ƒKEƒL[ƒ“ƒkƒ“ƒ`ƒƒƒN ‚Q‚W˜b
+ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³ãƒŒãƒ³ãƒãƒ£ã‚¯ ï¼’ï¼˜è©±
 
-Enable ƒKEƒL[ƒ“ƒkƒ“ƒ`ƒƒƒN
-Enable Ši“¬•Ší=ƒKEƒL[ƒ“ƒkƒ“ƒ`ƒƒƒN
+Enable ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³ãƒŒãƒ³ãƒãƒ£ã‚¯
+Enable æ ¼é—˜æ­¦å™¨=ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³ãƒŒãƒ³ãƒãƒ£ã‚¯
 
-ƒKEƒL[ƒ“ƒVƒƒƒxƒ‹ƒpƒ[@‚Q‚X˜b
-(’n’†ˆÚ“®EƒVƒ‡ƒ‹ƒ_[ƒNƒ‰ƒbƒVƒ…‰üj
+ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³ã‚·ãƒ£ãƒ™ãƒ«ãƒ‘ãƒ¯ãƒ¼ã€€ï¼’ï¼™è©±
+(åœ°ä¸­ç§»å‹•ãƒ»ã‚·ãƒ§ãƒ«ãƒ€ãƒ¼ã‚¯ãƒ©ãƒƒã‚·ãƒ¥æ”¹ï¼‰
 
-SetSkill ƒKEƒL[ƒ“(P) ƒKEƒL[ƒ“ƒVƒƒƒxƒ‹ƒpƒ[ -1 
+SetSkill ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³(P) ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³ã‚·ãƒ£ãƒ™ãƒ«ãƒ‘ãƒ¯ãƒ¼ -1 
 
-ƒKEƒL[ƒ“díŽÔ 32˜b
+ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³é‡æˆ¦è»Š 32è©±
 
-Enable ƒKEƒL[ƒ“(díŽÔ)
+Enable ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³(é‡æˆ¦è»Š)
 
-ƒ}ƒbƒnƒEƒBƒ“ƒO ‚R‚R˜b
+ãƒžãƒƒãƒã‚¦ã‚£ãƒ³ã‚° ï¼“ï¼“è©±
 
-Enable ƒKEƒL[ƒ“(ƒ}ƒbƒnƒEƒCƒ“ƒO)
+Enable ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³(ãƒžãƒƒãƒã‚¦ã‚¤ãƒ³ã‚°)
 
-ƒoƒŠƒAƒ“ƒgƒAƒ“ƒJ[†@‚R‚T˜b
-¦ƒoƒŠƒAƒ“ƒgƒAƒ“ƒJ[†‚ÍdíŽÔ‚ð‰ü—Ç‚µ‚½‚à‚Ì‚Å‚·
+ãƒãƒªã‚¢ãƒ³ãƒˆã‚¢ãƒ³ã‚«ãƒ¼å·ã€€ï¼“ï¼•è©±
+â€»ãƒãƒªã‚¢ãƒ³ãƒˆã‚¢ãƒ³ã‚«ãƒ¼å·ã¯é‡æˆ¦è»Šã‚’æ”¹è‰¯ã—ãŸã‚‚ã®ã§ã™
 
-SetSkill ƒKEƒL[ƒ“(P) ƒoƒŠƒAƒ“ƒgƒAƒ“ƒJ[ -1 
+SetSkill ã‚¬ãƒ»ã‚­ãƒ¼ãƒ³(P) ãƒãƒªã‚¢ãƒ³ãƒˆã‚¢ãƒ³ã‚«ãƒ¼ -1 
 
-ƒjƒ…[ƒ~ƒTƒCƒ‹ ‚R‚U˜b
+ãƒ‹ãƒ¥ãƒ¼ãƒŸã‚µã‚¤ãƒ« ï¼“ï¼–è©±
 
-Enable@ƒjƒ…[ƒ~ƒTƒCƒ‹
+Enableã€€ãƒ‹ãƒ¥ãƒ¼ãƒŸã‚µã‚¤ãƒ«

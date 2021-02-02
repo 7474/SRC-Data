@@ -1,519 +1,519 @@
-# ƒKƒNƒZƒCƒo[‚ÌƒpƒCƒƒbƒgŒð‘ã‚ðƒfƒtƒHƒ‹ƒg‚Ås‚¢‚½‚¢ê‡‚ÍA
-# GlobalƒRƒ}ƒ“ƒh‚ÅwƒpƒCƒƒbƒgŒð‘ãƒtƒ‰ƒOx‚ð—§‚Ä‚Ä‚­‚¾‚³‚¢B
+# ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ã®ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ã‚’ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã§è¡Œã„ãŸã„å ´åˆã¯ã€
+# Globalã‚³ãƒžãƒ³ãƒ‰ã§ã€Žãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ãƒ•ãƒ©ã‚°ã€ã‚’ç«‹ã¦ã¦ãã ã•ã„ã€‚
 
-*ƒXƒ^[ƒg:
-If Not ƒpƒCƒƒbƒgŒð‘ãƒtƒ‰ƒO Then
-ClearEvent "ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã ‹g‘ºŠw"
-ClearEvent "ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã º“‡—¢”ü(ƒƒCƒ“ƒpƒCƒƒbƒg)"
-ClearEvent "ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã ²X–ØŒ’Œá(ƒƒCƒ“ƒpƒCƒƒbƒg)"
-ClearEvent "ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã ƒWƒ‡[ƒW×ˆä(ƒƒCƒ“ƒpƒCƒƒbƒg)"
-ClearEvent "ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã ƒX[ƒUƒ“ƒEƒH[ƒJ[(ƒƒCƒ“ƒpƒCƒƒbƒg)"
-ClearEvent "ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã ™ŽR‚–¾(ƒƒCƒ“ƒpƒCƒƒbƒg)"
-ClearEvent "ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã “¡ˆä—R”ü(ƒƒCƒ“ƒpƒCƒƒbƒg)"
-ClearEvent "ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã ˆÀ“¡VØ(ƒƒCƒ“ƒpƒCƒƒbƒg)"
+*ã‚¹ã‚¿ãƒ¼ãƒˆ:
+If Not ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ãƒ•ãƒ©ã‚° Then
+ClearEvent "ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ å‰æ‘å­¦"
+ClearEvent "ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ æ˜­å³¶é‡Œç¾Ž(ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ)"
+ClearEvent "ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ ä½ã€…æœ¨å¥å¾(ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ)"
+ClearEvent "ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•(ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ)"
+ClearEvent "ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼(ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ)"
+ClearEvent "ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ æ‰å±±é«˜æ˜Ž(ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ)"
+ClearEvent "ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ è—¤äº•ç”±ç¾Ž(ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ)"
+ClearEvent "ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ å®‰è—¤æ–°èœ(ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ)"
 Endif
 Exit
 
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã ‹g‘ºŠw:
-Call ƒpƒCƒƒbƒgŒð‘ã‘I‘ðŽˆ
-Switch ‘I‘ð
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ å‰æ‘å­¦:
+Call ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£é¸æŠžè‚¢
+Switch é¸æŠž
  Case 2
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEº“‡—¢”ü
-  AutoTalk º“‡—¢”ü
-  ‚Ë‚¦‚Ë‚¦‰ï’·A‚ ‚½‚µ‚É‚â‚ç‚¹‚Ä‚æ
-  AutoTalk ‹g‘ºŠw
-  —¢”ü‚­‚ñA‘åä•v‚©‚¢H
-  AutoTalk º“‡—¢”ü
-  ‚¶‚å‚Ô‚¶‚å‚ÔA‚¾‚¢‚¶‚å`‚ÔA‚Á‚Ä‚Ë
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»æ˜­å³¶é‡Œç¾Ž
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  ã­ãˆã­ãˆä¼šé•·ã€ã‚ãŸã—ã«ã‚„ã‚‰ã›ã¦ã‚ˆ
+  AutoTalk å‰æ‘å­¦
+  é‡Œç¾Žãã‚“ã€å¤§ä¸ˆå¤«ã‹ã„ï¼Ÿ
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  ã˜ã‚‡ã¶ã˜ã‚‡ã¶ã€ã ã„ã˜ã‚‡ï½žã¶ã€ã£ã¦ã­
   End
  Case 3
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE²X–ØŒ’Œá
-  AutoTalk ²X–ØŒ’Œá
-  ‰ï’·A‰´‚É‚â‚ç‚¹‚Ä‚­‚ê‚ÁII
-  AutoTalk ‹g‘ºŠw
-  •ª‚©‚Á‚½A—Š‚ÞI
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ä½ã€…æœ¨å¥å¾
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  ä¼šé•·ã€ä¿ºã«ã‚„ã‚‰ã›ã¦ãã‚Œã£ï¼ï¼
+  AutoTalk å‰æ‘å­¦
+  åˆ†ã‹ã£ãŸã€é ¼ã‚€ï¼
   End
  Case 4
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEƒWƒ‡[ƒW×ˆä
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  ‰ï’·A–l‚É‚â‚ç‚¹‚Ä‚­‚¾ƒT`ƒC
-  AutoTalk ‹g‘ºŠw
-  –{“–‚É‘åä•v‚È‚Ì‚©H
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  ä¼šé•·ã€åƒ•ã«ã‚„ã‚‰ã›ã¦ãã ã‚µï½žã‚¤
+  AutoTalk å‰æ‘å­¦
+  æœ¬å½“ã«å¤§ä¸ˆå¤«ãªã®ã‹ï¼Ÿ
   End
  Case 5
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEƒX[ƒUƒ“ƒEƒH[ƒJ[
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  ‰ï’·AŽ„‚É‚â‚ç‚¹ƒeƒbII
-  AutoTalk ‹g‘ºŠw
-  ‚æ‚µA•ª‚©‚Á‚½I
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ä¼šé•·ã€ç§ã«ã‚„ã‚‰ã›ãƒ†ãƒƒï¼ï¼
+  AutoTalk å‰æ‘å­¦
+  ã‚ˆã—ã€åˆ†ã‹ã£ãŸï¼
   End
  Case 6
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE™ŽR‚–¾
-  AutoTalk ‹g‘ºŠw
-  ‘Š–o•”A—Š‚ÞII
-  AutoTalk ™ŽR‚–¾
-  ”C‚¹‚ëAŠwI: ‚»‚Ì‘ã‚í‚èAƒNƒ‰ƒu—\ŽZ‚Ì‚±‚Æ‚Í—Š‚ñ‚¾‚¼‚ÁI
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  ƒ`ƒ‡ƒbƒgƒbI ‚Ç‚³‚­‚³‚É•´‚ê‚Ä‰½Œ¾‚Á‚Ä‚é‚ÌƒˆI
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»æ‰å±±é«˜æ˜Ž
+  AutoTalk å‰æ‘å­¦
+  ç›¸æ’²éƒ¨ã€é ¼ã‚€ï¼ï¼
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  ä»»ã›ã‚ã€å­¦ï¼: ãã®ä»£ã‚ã‚Šã€ã‚¯ãƒ©ãƒ–äºˆç®—ã®ã“ã¨ã¯é ¼ã‚“ã ãžã£ï¼
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ãƒãƒ§ãƒƒãƒˆãƒƒï¼ ã©ã•ãã•ã«ç´›ã‚Œã¦ä½•è¨€ã£ã¦ã‚‹ã®ãƒ¨ï¼
   End
  Case 7
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE“¡ˆä—R”ü
-  AutoTalk “¡ˆä—R”ü
-  ‰ï’·A‚±‚±‚ÍŽ„‚É”C‚¹‚Ä‚à‚ç‚¦‚Ü‚·H
-  AutoTalk ‹g‘ºŠw
-  “¡ˆä‚³‚ñA–³—‚ð‚µ‚È‚¢‚Å
-  AutoTalk “¡ˆä—R”ü
-  ‚í‚©‚Á‚Ä‚¢‚Ü‚·‚í
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»è—¤äº•ç”±ç¾Ž
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  ä¼šé•·ã€ã“ã“ã¯ç§ã«ä»»ã›ã¦ã‚‚ã‚‰ãˆã¾ã™ï¼Ÿ
+  AutoTalk å‰æ‘å­¦
+  è—¤äº•ã•ã‚“ã€ç„¡ç†ã‚’ã—ãªã„ã§
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  ã‚ã‹ã£ã¦ã„ã¾ã™ã‚
   End
  Case 8
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEˆÀ“¡VØ
-  Disable ƒKƒNƒZƒCƒo[ •ª—£
-  AutoTalk ˆÀ“¡VØ
-  ‰ï’·‚³‚ñAƒj[ƒi‚à‚â‚Á‚Ä‚Ý‚½‚¢‚È
-  AutoTalk ‹g‘ºŠw
-  ‚¨‚¢‚¨‚¢A‘åä•v‚©IH
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»å®‰è—¤æ–°èœ
+  Disable ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ åˆ†é›¢
+  AutoTalk å®‰è—¤æ–°èœ
+  ä¼šé•·ã•ã‚“ã€ãƒ‹ãƒ¼ãƒŠã‚‚ã‚„ã£ã¦ã¿ãŸã„ãª
+  AutoTalk å‰æ‘å­¦
+  ãŠã„ãŠã„ã€å¤§ä¸ˆå¤«ã‹ï¼ï¼Ÿ
   End
 EndSw
 Exit
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã º“‡—¢”ü(ƒƒCƒ“ƒpƒCƒƒbƒg):
-Call ƒpƒCƒƒbƒgŒð‘ã‘I‘ðŽˆ
-Switch ‘I‘ð
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ æ˜­å³¶é‡Œç¾Ž(ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ):
+Call ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£é¸æŠžè‚¢
+Switch é¸æŠž
  Case 1
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE‹g‘ºŠw
-  AutoTalk º“‡—¢”ü
-  ‰ï’·A‚¨Šè‚¢I
-  AutoTalk ‹g‘ºŠw
-  •ª‚©‚Á‚½A‚ ‚Æ‚Í–l‚ª‚â‚éI
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»å‰æ‘å­¦
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  ä¼šé•·ã€ãŠé¡˜ã„ï¼
+  AutoTalk å‰æ‘å­¦
+  åˆ†ã‹ã£ãŸã€ã‚ã¨ã¯åƒ•ãŒã‚„ã‚‹ï¼
   End
  Case 3
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE²X–ØŒ’Œá
-  AutoTalk ²X–ØŒ’Œá
-  º“‡‘ã‚í‚ê‚ÁII
-  AutoTalk º“‡—¢”ü
-  ‚æ‚Á‚µ‚áA‚ ‚Æ‚Í‚Ü‚©‚¹‚½²X–Ø‚ÁI
-  AutoTalk ²X–ØŒ’Œá
-  –¼Žš‚ðŒÄ‚ÑŽÌ‚Ä‚É‚·‚é‚È‚Á‚ÄII
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ä½ã€…æœ¨å¥å¾
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  æ˜­å³¶ä»£ã‚ã‚Œã£ï¼ï¼
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  ã‚ˆã£ã—ã‚ƒã€ã‚ã¨ã¯ã¾ã‹ã›ãŸä½ã€…æœ¨ã£ï¼
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  åå­—ã‚’å‘¼ã³æ¨ã¦ã«ã™ã‚‹ãªã£ã¦ï¼ï¼
   End
  Case 4
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEƒWƒ‡[ƒW×ˆä
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  —¢”üA‚±‚±‚Í–l‚É”C‚¹‚Ä‚­‚¾ƒT[ƒC
-  AutoTalk º“‡—¢”ü
-  ‚n‚jA‚ ‚Æ‚Í”C‚¹‚½‚í
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  é‡Œç¾Žã€ã“ã“ã¯åƒ•ã«ä»»ã›ã¦ãã ã‚µãƒ¼ã‚¤
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  ï¼¯ï¼«ã€ã‚ã¨ã¯ä»»ã›ãŸã‚
   End
  Case 5
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEƒX[ƒUƒ“ƒEƒH[ƒJ[
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  ƒTƒgƒ~A‚±‚Á‚¿‚ÉƒRƒ“ƒgƒ[ƒ‹“n‚µ‚Ä
-  AutoTalk º“‡—¢”ü
-  ‚¢‚¢‚íA‚ ‚Æ‚Í‚¨Šè‚¢
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ã‚µãƒˆãƒŸã€ã“ã£ã¡ã«ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«æ¸¡ã—ã¦
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  ã„ã„ã‚ã€ã‚ã¨ã¯ãŠé¡˜ã„
   End
  Case 6
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE™ŽR‚–¾
-  AutoTalk º“‡—¢”ü
-  ŠÖŽæAŒð‘ã‚Å‚«‚éH
-  AutoTalk ™ŽR‚–¾
-  ‚Ü‚©‚¹‚Ä‚¨‚¯‚ÁI
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»æ‰å±±é«˜æ˜Ž
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  é–¢å–ã€äº¤ä»£ã§ãã‚‹ï¼Ÿ
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  ã¾ã‹ã›ã¦ãŠã‘ã£ï¼
   End
  Case 7
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE“¡ˆä—R”ü
-  AutoTalk “¡ˆä—R”ü
-  º“‡‚³‚ñA‚ ‚Æ‚ÍŽ„‚ªˆø‚«Žó‚¯‚Ü‚·
-  AutoTalk º“‡—¢”ü
-  •ª‚©‚è‚Ü‚µ‚½A‚ ‚Æ‚Í‚¨Šè‚¢‚µ‚Ü‚·
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»è—¤äº•ç”±ç¾Ž
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  æ˜­å³¶ã•ã‚“ã€ã‚ã¨ã¯ç§ãŒå¼•ãå—ã‘ã¾ã™
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  åˆ†ã‹ã‚Šã¾ã—ãŸã€ã‚ã¨ã¯ãŠé¡˜ã„ã—ã¾ã™
   End
  Case 8
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEˆÀ“¡VØ
-  Disable ƒKƒNƒZƒCƒo[ •ª—£
-  AutoTalk ˆÀ“¡VØ
-  ƒj[ƒi‚à‘€c‚â‚é‚Ì‚ÁI
-  AutoTalk º“‡—¢”ü
-  ‚Í‚¢‚Í‚¢A•ª‚©‚Á‚½•ª‚©‚Á‚½
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»å®‰è—¤æ–°èœ
+  Disable ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ åˆ†é›¢
+  AutoTalk å®‰è—¤æ–°èœ
+  ãƒ‹ãƒ¼ãƒŠã‚‚æ“ç¸¦ã‚„ã‚‹ã®ã£ï¼
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  ã¯ã„ã¯ã„ã€åˆ†ã‹ã£ãŸåˆ†ã‹ã£ãŸ
   End
 EndSw
 Exit
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã ²X–ØŒ’Œá(ƒƒCƒ“ƒpƒCƒƒbƒg):
-Call ƒpƒCƒƒbƒgŒð‘ã‘I‘ðŽˆ
-Switch ‘I‘ð
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ ä½ã€…æœ¨å¥å¾(ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ):
+Call ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£é¸æŠžè‚¢
+Switch é¸æŠž
  Case 1
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE‹g‘ºŠw
-  AutoTalk ²X–ØŒ’Œá
-  ‰ï’·A‚Ç‚¤‚É‚©‚µ‚Ä‚­‚êI
-  AutoTalk ‹g‘ºŠw
-  ‚¢‚«‚È‚è–l‚ÉU‚é‚È‚æI
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»å‰æ‘å­¦
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  ä¼šé•·ã€ã©ã†ã«ã‹ã—ã¦ãã‚Œï¼
+  AutoTalk å‰æ‘å­¦
+  ã„ããªã‚Šåƒ•ã«æŒ¯ã‚‹ãªã‚ˆï¼
   End
  Case 2
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEº“‡—¢”ü
-  AutoTalk º“‡—¢”ü
-  ‚±‚±‚ÍŽ„‚ªs‚­‚íA‘€cž…“n‚µ‚ÄA²X–Ø
-  AutoTalk ²X–ØŒ’Œá
-  ‚¾‚©‚ç–¼Žš‚ðŒÄ‚ÑŽÌ‚Ä‚É‚·‚é‚È‚æI
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»æ˜­å³¶é‡Œç¾Ž
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  ã“ã“ã¯ç§ãŒè¡Œãã‚ã€æ“ç¸¦æ¡¿æ¸¡ã—ã¦ã€ä½ã€…æœ¨
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  ã ã‹ã‚‰åå­—ã‚’å‘¼ã³æ¨ã¦ã«ã™ã‚‹ãªã‚ˆï¼
   End
  Case 4
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEƒWƒ‡[ƒW×ˆä
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  ƒI[ƒEA‚±‚±‚Í–l‚É‚Ü‚©‚¹‚Ä‚­‚¾ƒT`ƒC
-  AutoTalk ²X–ØŒ’Œá
-  ‚Ü‚©‚¹‚Ä‘åä•v‚È‚Ì‚©‚æcc
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  ã‚ªãƒ¼ã‚¦ã€ã“ã“ã¯åƒ•ã«ã¾ã‹ã›ã¦ãã ã‚µï½žã‚¤
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  ã¾ã‹ã›ã¦å¤§ä¸ˆå¤«ãªã®ã‹ã‚ˆâ€¦â€¦
   End
  Case 5
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEƒX[ƒUƒ“ƒEƒH[ƒJ[
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  ‚±‚Á‚¿‚ÉƒRƒ“ƒgƒ[ƒ‹‰ñ‚µƒeƒbI
-  AutoTalk ²X–ØŒ’Œá
-  ‚Í‚¢‚Í‚¢A•ª‚©‚Á‚½‚æ
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ã“ã£ã¡ã«ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«å›žã—ãƒ†ãƒƒï¼
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  ã¯ã„ã¯ã„ã€åˆ†ã‹ã£ãŸã‚ˆ
   End
  Case 6
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE™ŽR‚–¾
-  AutoTalk ²X–ØŒ’Œá
-  ŠÖŽæA‚ ‚Æ‚Í—Š‚ÞI
-  AutoTalk ™ŽR‚–¾
-  ‚¨‚Á‚µ‚áA‚Ü‚©‚¹‚Æ‚¯‚ÁI
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»æ‰å±±é«˜æ˜Ž
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  é–¢å–ã€ã‚ã¨ã¯é ¼ã‚€ï¼
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  ãŠã£ã—ã‚ƒã€ã¾ã‹ã›ã¨ã‘ã£ï¼
   End
  Case 7
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE“¡ˆä—R”ü
-  AutoTalk “¡ˆä—R”ü
-  ƒPƒ“‚¿‚á‚ñA‚±‚Ì‚Ü‚Ü‚¶‚áŠëŒ¯‚æAŽ„‚ª‚È‚ñ‚Æ‚©‚µ‚Ä‚ ‚°‚é‚©‚ç
-  AutoTalk ²X–ØŒ’Œá
-  ‚¾‚©‚çwƒPƒ“‚¿‚á‚ñx‚Á‚ÄŒÄ‚Î‚È‚¢‚Å‚­‚ê‚æA—R”ü‚Ë‚¦
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»è—¤äº•ç”±ç¾Ž
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  ã‚±ãƒ³ã¡ã‚ƒã‚“ã€ã“ã®ã¾ã¾ã˜ã‚ƒå±é™ºã‚ˆã€ç§ãŒãªã‚“ã¨ã‹ã—ã¦ã‚ã’ã‚‹ã‹ã‚‰
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  ã ã‹ã‚‰ã€Žã‚±ãƒ³ã¡ã‚ƒã‚“ã€ã£ã¦å‘¼ã°ãªã„ã§ãã‚Œã‚ˆã€ç”±ç¾Žã­ãˆ
   End
  Case 8
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEˆÀ“¡VØ
-  Disable ƒKƒNƒZƒCƒo[ •ª—£
-  AutoTalk ˆÀ“¡VØ
-  ¡“x‚Íƒj[ƒi‚Ìo”Ô‚Ë™
-  AutoTalk ²X–ØŒ’Œá
-  —Š‚Þ‚©‚ç‰ó‚·‚È‚æI
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»å®‰è—¤æ–°èœ
+  Disable ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ åˆ†é›¢
+  AutoTalk å®‰è—¤æ–°èœ
+  ä»Šåº¦ã¯ãƒ‹ãƒ¼ãƒŠã®å‡ºç•ªã­â˜†
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  é ¼ã‚€ã‹ã‚‰å£Šã™ãªã‚ˆï¼
   End
 EndSw
 Exit
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã ƒWƒ‡[ƒW×ˆä(ƒƒCƒ“ƒpƒCƒƒbƒg):
-Call ƒpƒCƒƒbƒgŒð‘ã‘I‘ðŽˆ
-Switch ‘I‘ð
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•(ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ):
+Call ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£é¸æŠžè‚¢
+Switch é¸æŠž
  Case 1
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE‹g‘ºŠw
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  ‰ï’·A‚ ‚Æ‚Í‚¨Šè‚¢‚µƒ}[ƒX
-  AutoTalk ‹g‘ºŠw
-  ‚¢‚«‚È‚è–l‚ÉU‚ç‚È‚¢‚Å‚­‚ê‚ÁII
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»å‰æ‘å­¦
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  ä¼šé•·ã€ã‚ã¨ã¯ãŠé¡˜ã„ã—ãƒžãƒ¼ã‚¹
+  AutoTalk å‰æ‘å­¦
+  ã„ããªã‚Šåƒ•ã«æŒ¯ã‚‰ãªã„ã§ãã‚Œã£ï¼ï¼
   End
  Case 2
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEº“‡—¢”ü
-  AutoTalk º“‡—¢”ü
-  ‚ ‚Æ‚ÍŽ„‚ª‚â‚é‚í
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  —¢”üA‚ ‚Ü‚è‚ð–³—‚ð‚µ‚È‚¢‚Å‚­‚¾ƒT[ƒC
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»æ˜­å³¶é‡Œç¾Ž
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  ã‚ã¨ã¯ç§ãŒã‚„ã‚‹ã‚
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  é‡Œç¾Žã€ã‚ã¾ã‚Šã‚’ç„¡ç†ã‚’ã—ãªã„ã§ãã ã‚µãƒ¼ã‚¤
   End
  Case 3
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE²X–ØŒ’Œá
-  AutoTalk ²X–ØŒ’Œá
-  ‚¦[‚¢A‚Ü‚¾‚é‚Á‚±‚¢A‚ ‚Æ‚Í‰´‚ª‚â‚é‚ÁII
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  ƒI[ƒEA‚¢‚«‚È‚è‰½‚ð‚·‚é‚ñ‚Å‚·ƒJIH
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ä½ã€…æœ¨å¥å¾
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  ãˆãƒ¼ã„ã€ã¾ã ã‚‹ã£ã“ã„ã€ã‚ã¨ã¯ä¿ºãŒã‚„ã‚‹ã£ï¼ï¼
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  ã‚ªãƒ¼ã‚¦ã€ã„ããªã‚Šä½•ã‚’ã™ã‚‹ã‚“ã§ã™ã‚«ï¼ï¼Ÿ
   End
  Case 5
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEƒX[ƒUƒ“ƒEƒH[ƒJ[
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  ƒWƒ‡[ƒWA‰½‚â‚Á‚Ä‚é‚Ì‚ÁII Ž„‚É‚â‚ç‚¹‚ÈƒTƒCƒbI
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  ƒX[ƒW[A“{‚Á‚½ŒN‚àƒ`ƒƒ[ƒ~ƒ“ƒOƒl
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  ‚¦[‚¢A‹CFˆ«‚¢II
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ã‚¸ãƒ§ãƒ¼ã‚¸ã€ä½•ã‚„ã£ã¦ã‚‹ã®ã£ï¼ï¼ ç§ã«ã‚„ã‚‰ã›ãªã‚µã‚¤ãƒƒï¼
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  ã‚¹ãƒ¼ã‚¸ãƒ¼ã€æ€’ã£ãŸå›ã‚‚ãƒãƒ£ãƒ¼ãƒŸãƒ³ã‚°ãƒ
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ãˆãƒ¼ã„ã€æ°—è‰²æ‚ªã„ï¼ï¼
   End
  Case 6
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE™ŽR‚–¾
-  AutoTalk ™ŽR‚–¾
-  ‚æ[‚µA‚ ‚Æ‚Í‰´‚É‚Ü‚©‚¹‚ë‚ÁI
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  ‚n‚jA‚Ü‚©‚¹‚Ü‚µ‚½
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»æ‰å±±é«˜æ˜Ž
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  ã‚ˆãƒ¼ã—ã€ã‚ã¨ã¯ä¿ºã«ã¾ã‹ã›ã‚ã£ï¼
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  ï¼¯ï¼«ã€ã¾ã‹ã›ã¾ã—ãŸ
   End
  Case 7
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE“¡ˆä—R”ü
-  AutoTalk “¡ˆä—R”ü
-  ‚ ‚Æ‚ÍŽ„‚É‚Ü‚©‚¹‚Ä‚¢‚½‚¾‚¯‚Ü‚·H
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  —R”ü‚³‚ñA‚ ‚Ü‚è–³—‚ð‚È‚³‚ç‚È‚¢ƒf
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»è—¤äº•ç”±ç¾Ž
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  ã‚ã¨ã¯ç§ã«ã¾ã‹ã›ã¦ã„ãŸã ã‘ã¾ã™ï¼Ÿ
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  ç”±ç¾Žã•ã‚“ã€ã‚ã¾ã‚Šç„¡ç†ã‚’ãªã•ã‚‰ãªã„ãƒ‡
   End
  Case 8
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEˆÀ“¡VØ
-  Disable ƒKƒNƒZƒCƒo[ •ª—£
-  AutoTalk ˆÀ“¡VØ
-  ƒj[ƒi‚àƒKƒNƒZƒCƒo[“®‚©‚·‚Ì‚ÁI
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  ƒI[ƒEA‚¢‚«‚È‚è‚Å‚Ñ‚Á‚­‚è‚µ‚Ü‚µ‚½ƒl
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»å®‰è—¤æ–°èœ
+  Disable ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ åˆ†é›¢
+  AutoTalk å®‰è—¤æ–°èœ
+  ãƒ‹ãƒ¼ãƒŠã‚‚ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼å‹•ã‹ã™ã®ã£ï¼
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  ã‚ªãƒ¼ã‚¦ã€ã„ããªã‚Šã§ã³ã£ãã‚Šã—ã¾ã—ãŸãƒ
   End
 EndSw
 Exit
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã ƒX[ƒUƒ“ƒEƒH[ƒJ[(ƒƒCƒ“ƒpƒCƒƒbƒg):
-Call ƒpƒCƒƒbƒgŒð‘ã‘I‘ðŽˆ
-Switch ‘I‘ð
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼(ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ):
+Call ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£é¸æŠžè‚¢
+Switch é¸æŠž
  Case 1
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE‹g‘ºŠw
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  ‰ï’·A‚ ‚Æ‚¨Šè‚¢I
-  AutoTalk ‹g‘ºŠw
-  ‚í‚©‚Á‚½‚ÁI ‚ ‚Æ‚Í‚Ü‚©‚¹‚ë‚ÁI
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»å‰æ‘å­¦
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ä¼šé•·ã€ã‚ã¨ãŠé¡˜ã„ï¼
+  AutoTalk å‰æ‘å­¦
+  ã‚ã‹ã£ãŸã£ï¼ ã‚ã¨ã¯ã¾ã‹ã›ã‚ã£ï¼
   End
  Case 2
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEº“‡—¢”ü
-  AutoTalk º“‡—¢”ü
-  ‚ ‚½‚µ‚Él‚¦‚ª‚ ‚é‚ÌAŒð‘ã‚µ‚ÄI
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  ‚n‚jAƒfƒ‚A–³—‚Í‹Ö•¨ƒˆ
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»æ˜­å³¶é‡Œç¾Ž
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  ã‚ãŸã—ã«è€ƒãˆãŒã‚ã‚‹ã®ã€äº¤ä»£ã—ã¦ï¼
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ï¼¯ï¼«ã€ãƒ‡ãƒ¢ã€ç„¡ç†ã¯ç¦ç‰©ãƒ¨
   End
  Case 3
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE²X–ØŒ’Œá
-  AutoTalk ²X–ØŒ’Œá
-  ‚±‚Ì‹——£‚È‚ç‰´‚Ì•û‚ª“¾ˆÓ‚¾A•Ï‚í‚Á‚Ä‚­‚ê‚ÁII
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  •ª‚©‚Á‚½A‚ ‚Æ‚Í‚¨Šè‚¢I
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ä½ã€…æœ¨å¥å¾
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  ã“ã®è·é›¢ãªã‚‰ä¿ºã®æ–¹ãŒå¾—æ„ã ã€å¤‰ã‚ã£ã¦ãã‚Œã£ï¼ï¼
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  åˆ†ã‹ã£ãŸã€ã‚ã¨ã¯ãŠé¡˜ã„ï¼
   End
  Case 4
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEƒWƒ‡[ƒW×ˆä
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  ƒX[ƒW[A‚±‚Ì‚Ü‚Ü‚¶‚áŠëŒ¯ƒlA–l‚É‚Ü‚©‚¹‚Ä
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  wƒX[ƒW[x‚È‚ñ‚Ä‚È‚ê‚È‚ê‚µ‚­ŒÄ‚Î‚È‚¢ƒfƒbII
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  ƒX[ƒW[A—â‚½‚¢cc
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  ã‚¹ãƒ¼ã‚¸ãƒ¼ã€ã“ã®ã¾ã¾ã˜ã‚ƒå±é™ºãƒã€åƒ•ã«ã¾ã‹ã›ã¦
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ã€Žã‚¹ãƒ¼ã‚¸ãƒ¼ã€ãªã‚“ã¦ãªã‚Œãªã‚Œã—ãå‘¼ã°ãªã„ãƒ‡ãƒƒï¼ï¼
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  ã‚¹ãƒ¼ã‚¸ãƒ¼ã€å†·ãŸã„â€¦â€¦
   End
  Case 6
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE™ŽR‚–¾
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  ƒVƒƒƒN‚¾‚¯‚ÇA‚ ‚Æ‚Í‚Ü‚©‚¹‚éƒ
-  AutoTalk ™ŽR‚–¾
-  ‚¤‚Á‚µ‚áAƒhƒXƒR[ƒCII
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»æ‰å±±é«˜æ˜Ž
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ã‚·ãƒ£ã‚¯ã ã‘ã©ã€ã‚ã¨ã¯ã¾ã‹ã›ã‚‹ãƒ¯
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  ã†ã£ã—ã‚ƒã€ãƒ‰ã‚¹ã‚³ãƒ¼ã‚¤ï¼ï¼
   End
  Case 7
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE“¡ˆä—R”ü
-  AutoTalk “¡ˆä—R”ü
-  ‚±‚±‚ÍŽ„‚ªˆø‚«Žó‚¯‚Ü‚·
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  ‚n‚jA‚Ü‚©‚¹‚é‚í
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»è—¤äº•ç”±ç¾Ž
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  ã“ã“ã¯ç§ãŒå¼•ãå—ã‘ã¾ã™
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ï¼¯ï¼«ã€ã¾ã‹ã›ã‚‹ã‚
   End
  Case 8
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEˆÀ“¡VØ
-  Disable ƒKƒNƒZƒCƒo[ •ª—£
-  AutoTalk ˆÀ“¡VØ
-  ƒj[ƒi‚à‚â‚é‚Ì‚â‚é‚Ì‚â‚é‚Ì‚ÁII
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  ƒnƒCƒnƒCA‚í‚©‚Á‚½‚í‚©‚Á‚½
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»å®‰è—¤æ–°èœ
+  Disable ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ åˆ†é›¢
+  AutoTalk å®‰è—¤æ–°èœ
+  ãƒ‹ãƒ¼ãƒŠã‚‚ã‚„ã‚‹ã®ã‚„ã‚‹ã®ã‚„ã‚‹ã®ã£ï¼ï¼
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ãƒã‚¤ãƒã‚¤ã€ã‚ã‹ã£ãŸã‚ã‹ã£ãŸ
   End
 EndSw
 Exit
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã ™ŽR‚–¾(ƒƒCƒ“ƒpƒCƒƒbƒg):
-Call ƒpƒCƒƒbƒgŒð‘ã‘I‘ðŽˆ
-Switch ‘I‘ð
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ æ‰å±±é«˜æ˜Ž(ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ):
+Call ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£é¸æŠžè‚¢
+Switch é¸æŠž
  Case 1
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE‹g‘ºŠw
-  AutoTalk ‹g‘ºŠw
-  ‚–¾A‚±‚±‚Í–l‚ª‚â‚é‚ÁI
-  AutoTalk ™ŽR‚–¾
-  •ª‚©‚Á‚½A—Š‚Þ‚ÁI
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»å‰æ‘å­¦
+  AutoTalk å‰æ‘å­¦
+  é«˜æ˜Žã€ã“ã“ã¯åƒ•ãŒã‚„ã‚‹ã£ï¼
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  åˆ†ã‹ã£ãŸã€é ¼ã‚€ã£ï¼
   End
  Case 2
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEº“‡—¢”ü
-  AutoTalk º“‡—¢”ü
-  ŠÖŽæAŒð‘ã‚µ‚ÄII
-  AutoTalk ™ŽR‚–¾
-  •ª‚©‚Á‚½cc‚Å‚àA‘åä•v‚©IH
-  AutoTalk º“‡—¢”ü
-  ‚Ü‚©‚¹‚Ä‚æ‚ÁI
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»æ˜­å³¶é‡Œç¾Ž
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  é–¢å–ã€äº¤ä»£ã—ã¦ï¼ï¼
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  åˆ†ã‹ã£ãŸâ€¦â€¦ã§ã‚‚ã€å¤§ä¸ˆå¤«ã‹ï¼ï¼Ÿ
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  ã¾ã‹ã›ã¦ã‚ˆã£ï¼
   End
  Case 3
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE²X–ØŒ’Œá
-  AutoTalk ²X–ØŒ’Œá
-  ŠÖŽæAŒð‘ã‚¾‚ÁII
-  AutoTalk ™ŽR‚–¾
-  —Š‚ñ‚¾‚º‚ÁI
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ä½ã€…æœ¨å¥å¾
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  é–¢å–ã€äº¤ä»£ã ã£ï¼ï¼
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  é ¼ã‚“ã ãœã£ï¼
   End
  Case 4
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEƒWƒ‡[ƒW×ˆä
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  ‚±‚±‚ÍA–l‚ª‚¢‚«ƒ}`ƒX
-  AutoTalk ™ŽR‚–¾
-  ‚¨‚¢‚¨‚¢A‘åä•v‚È‚Ì‚©‚æcc
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  ã“ã“ã¯ã€åƒ•ãŒã„ããƒžï½žã‚¹
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  ãŠã„ãŠã„ã€å¤§ä¸ˆå¤«ãªã®ã‹ã‚ˆâ€¦â€¦
   End
  Case 5
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEƒX[ƒUƒ“ƒEƒH[ƒJ[
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  ‚ ‚Æ‚ÍŽ„‚ª‚â‚éƒƒbI
-  AutoTalk ™ŽR‚–¾
-  cc:•ª‚©‚Á‚½
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ã‚ã¨ã¯ç§ãŒã‚„ã‚‹ãƒ¯ãƒƒï¼
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  â€¦â€¦:åˆ†ã‹ã£ãŸ
   End
  Case 7
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE“¡ˆä—R”ü
-  AutoTalk “¡ˆä—R”ü
-  ‚ ‚Æ‚ÍŽ„‚ª‚â‚è‚Ü‚·
-  AutoTalk ™ŽR‚–¾
-  –³—‚Í‚µ‚È‚¢‚Å‚­‚ê‚æ
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»è—¤äº•ç”±ç¾Ž
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  ã‚ã¨ã¯ç§ãŒã‚„ã‚Šã¾ã™
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  ç„¡ç†ã¯ã—ãªã„ã§ãã‚Œã‚ˆ
   End
  Case 8
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEˆÀ“¡VØ
-  Disable ƒKƒNƒZƒCƒo[ •ª—£
-  AutoTalk ˆÀ“¡VØ
-  ƒj[ƒiAŠæ’£‚Á‚¿‚á‚¤‚©‚ç™
-  AutoTalk ™ŽR‚–¾
-  cc:‚»‚ê‚ªˆê”ÔS”z‚È‚ñ‚¾‚æ‚È‚ cc
-  AutoTalk ˆÀ“¡VØ
-  cc‚ñH ‚È‚ñ‚©Œ¾‚Á‚½IH
-  AutoTalk ™ŽR‚–¾
-  ‚¢‚¢‚¦A‚È‚ñ‚É‚à
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»å®‰è—¤æ–°èœ
+  Disable ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ åˆ†é›¢
+  AutoTalk å®‰è—¤æ–°èœ
+  ãƒ‹ãƒ¼ãƒŠã€é ‘å¼µã£ã¡ã‚ƒã†ã‹ã‚‰â˜†
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  â€¦â€¦:ãã‚ŒãŒä¸€ç•ªå¿ƒé…ãªã‚“ã ã‚ˆãªã‚â€¦â€¦
+  AutoTalk å®‰è—¤æ–°èœ
+  â€¦â€¦ã‚“ï¼Ÿ ãªã‚“ã‹è¨€ã£ãŸï¼ï¼Ÿ
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  ã„ã„ãˆã€ãªã‚“ã«ã‚‚
   End
 EndSw
 Exit
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã “¡ˆä—R”ü(ƒƒCƒ“ƒpƒCƒƒbƒg):
-Call ƒpƒCƒƒbƒgŒð‘ã‘I‘ðŽˆ
-Switch ‘I‘ð
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ è—¤äº•ç”±ç¾Ž(ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ):
+Call ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£é¸æŠžè‚¢
+Switch é¸æŠž
  Case 1
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE‹g‘ºŠw
-  AutoTalk ‹g‘ºŠw
-  “¡ˆä‚³‚ñA‚ ‚Æ‚Í–l‚ª‚â‚è‚Ü‚·
-  AutoTalk “¡ˆä—R”ü
-  •ª‚©‚è‚Ü‚µ‚½A‰ï’·
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»å‰æ‘å­¦
+  AutoTalk å‰æ‘å­¦
+  è—¤äº•ã•ã‚“ã€ã‚ã¨ã¯åƒ•ãŒã‚„ã‚Šã¾ã™
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  åˆ†ã‹ã‚Šã¾ã—ãŸã€ä¼šé•·
   End
  Case 2
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEº“‡—¢”ü
-  AutoTalk º“‡—¢”ü
-  ‚±‚±‚ÍŽ„‚ªs‚«‚Ü‚·II
-  AutoTalk “¡ˆä—R”ü
-  –³—‚ð‚µ‚È‚¢‚Å‚Ë
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»æ˜­å³¶é‡Œç¾Ž
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  ã“ã“ã¯ç§ãŒè¡Œãã¾ã™ï¼ï¼
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  ç„¡ç†ã‚’ã—ãªã„ã§ã­
   End
  Case 3
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE²X–ØŒ’Œá
-  AutoTalk ²X–ØŒ’Œá
-  —R”ü‚Ë‚¦A‚±‚Ì‚Ü‚Ü‚¶‚áŠëŒ¯‚¾A‰´‚Æ‘ã‚í‚ê‚ÁI
-  AutoTalk “¡ˆä—R”ü
-  •ª‚©‚Á‚½AŠæ’£‚Á‚Ä‚ËAƒPƒ“‚¿‚á‚ñ
-  AutoTalk ²X–ØŒ’Œá
-  ccwƒPƒ“‚¿‚á‚ñx‚Á‚ÄŒ¾‚í‚È‚¢‚Å‚­‚ê‚æcc
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ä½ã€…æœ¨å¥å¾
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  ç”±ç¾Žã­ãˆã€ã“ã®ã¾ã¾ã˜ã‚ƒå±é™ºã ã€ä¿ºã¨ä»£ã‚ã‚Œã£ï¼
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  åˆ†ã‹ã£ãŸã€é ‘å¼µã£ã¦ã­ã€ã‚±ãƒ³ã¡ã‚ƒã‚“
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  â€¦â€¦ã€Žã‚±ãƒ³ã¡ã‚ƒã‚“ã€ã£ã¦è¨€ã‚ãªã„ã§ãã‚Œã‚ˆâ€¦â€¦
   End
  Case 4
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEƒWƒ‡[ƒW×ˆä
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  —R”ü‚³‚ñA‚±‚±‚Í–l‚ªs‚«ƒ}`ƒX
-  AutoTalk “¡ˆä—R”ü
-  ‚»‚¤‚Å‚·‚ËA‚¨Šè‚¢‚µ‚Ü‚·‚í
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  ç”±ç¾Žã•ã‚“ã€ã“ã“ã¯åƒ•ãŒè¡Œããƒžï½žã‚¹
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  ãã†ã§ã™ã­ã€ãŠé¡˜ã„ã—ã¾ã™ã‚
   End
  Case 5
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEƒX[ƒUƒ“ƒEƒH[ƒJ[
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  ‚ ‚Æ‚ÍŽ„‚ª‚â‚éƒƒbAŒð‘ã‚µ‚ÄI
-  AutoTalk “¡ˆä—R”ü
-  ‚»‚¤‚Å‚·‚ËA‚±‚±‚Í‚ ‚È‚½‚Ì•û‚ª“K”C‚Å‚·‚í‚Ë
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ã‚ã¨ã¯ç§ãŒã‚„ã‚‹ãƒ¯ãƒƒã€äº¤ä»£ã—ã¦ï¼
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  ãã†ã§ã™ã­ã€ã“ã“ã¯ã‚ãªãŸã®æ–¹ãŒé©ä»»ã§ã™ã‚ã­
   End
  Case 6
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE™ŽR‚–¾
-  AutoTalk ™ŽR‚–¾
-  ‚ ‚Æ‚Í‰´‚ªˆø‚«Žó‚¯‚½I
-  AutoTalk “¡ˆä—R”ü
-  Šæ’£‚Á‚Ä‚­‚¾‚³‚¢‚Ë
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»æ‰å±±é«˜æ˜Ž
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  ã‚ã¨ã¯ä¿ºãŒå¼•ãå—ã‘ãŸï¼
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  é ‘å¼µã£ã¦ãã ã•ã„ã­
   End
  Case 8
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEˆÀ“¡VØ
-  Disable ƒKƒNƒZƒCƒo[ •ª—£
-  AutoTalk ˆÀ“¡VØ
-  ‚æ[‚µA¡“x‚Íƒj[ƒi‚Ì”Ô‚Ë
-  AutoTalk “¡ˆä—R”ü
-  Šæ’£‚Á‚Ä‚Ë
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»å®‰è—¤æ–°èœ
+  Disable ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ åˆ†é›¢
+  AutoTalk å®‰è—¤æ–°èœ
+  ã‚ˆãƒ¼ã—ã€ä»Šåº¦ã¯ãƒ‹ãƒ¼ãƒŠã®ç•ªã­
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  é ‘å¼µã£ã¦ã­
   End
 EndSw
 Exit
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ƒpƒCƒƒbƒgŒð‘ã ˆÀ“¡VØ(ƒƒCƒ“ƒpƒCƒƒbƒg):
-Call ƒpƒCƒƒbƒgŒð‘ã‘I‘ðŽˆ
-Switch ‘I‘ð
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£ å®‰è—¤æ–°èœ(ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ):
+Call ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£é¸æŠžè‚¢
+Switch é¸æŠž
  Case 1
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE‹g‘ºŠw
-  Enable ƒKƒNƒZƒCƒo[ •ª—£
-  AutoTalk ˆÀ“¡VØ
-  ‚â‚Á‚Ï‚è‰ï’·‚¨Šè‚¢™
-  AutoTalk ‹g‘ºŠw
-  ‚¨‚¢‚¨‚¢cc
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»å‰æ‘å­¦
+  Enable ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ åˆ†é›¢
+  AutoTalk å®‰è—¤æ–°èœ
+  ã‚„ã£ã±ã‚Šä¼šé•·ãŠé¡˜ã„â˜†
+  AutoTalk å‰æ‘å­¦
+  ãŠã„ãŠã„â€¦â€¦
   End
  Case 2
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEº“‡—¢”ü
-  Enable ƒKƒNƒZƒCƒo[ •ª—£
-  AutoTalk º“‡—¢”ü
-  ‚ ‚Æ‚Í‚±‚Á‚¿‚Å‘€c‚·‚é‚í‚ÁI
-  AutoTalk ˆÀ“¡VØ
-  ‚±‚ê‚¶‚áƒj[ƒi–Ú—§‚Äƒi`ƒCII
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»æ˜­å³¶é‡Œç¾Ž
+  Enable ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ åˆ†é›¢
+  AutoTalk æ˜­å³¶é‡Œç¾Ž
+  ã‚ã¨ã¯ã“ã£ã¡ã§æ“ç¸¦ã™ã‚‹ã‚ã£ï¼
+  AutoTalk å®‰è—¤æ–°èœ
+  ã“ã‚Œã˜ã‚ƒãƒ‹ãƒ¼ãƒŠç›®ç«‹ã¦ãƒŠï½žã‚¤ï¼ï¼
   End
  Case 3
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE²X–ØŒ’Œá
-  Enable ƒKƒNƒZƒCƒo[ •ª—£
-  AutoTalk ²X–ØŒ’Œá
-  ‚±‚Ì‚Ü‚Ü‚¶‚á•‰‚¯‚¿‚Ü‚¤AŒð‘ã‚µ‚ë‚ÁII
-  AutoTalk ˆÀ“¡VØ
-  ‚¢‚â‚¢‚â‚¢‚âAƒj[ƒi‚ª‚â‚é‚Ì‚ÁI
-  AutoTalk ²X–ØŒ’Œá
-  ‚â‚©‚Ü‚µ‚¢‚ÁII
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ä½ã€…æœ¨å¥å¾
+  Enable ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ åˆ†é›¢
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  ã“ã®ã¾ã¾ã˜ã‚ƒè² ã‘ã¡ã¾ã†ã€äº¤ä»£ã—ã‚ã£ï¼ï¼
+  AutoTalk å®‰è—¤æ–°èœ
+  ã„ã‚„ã„ã‚„ã„ã‚„ã€ãƒ‹ãƒ¼ãƒŠãŒã‚„ã‚‹ã®ã£ï¼
+  AutoTalk ä½ã€…æœ¨å¥å¾
+  ã‚„ã‹ã¾ã—ã„ã£ï¼ï¼
   End
  Case 4
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEƒWƒ‡[ƒW×ˆä
-  Enable ƒKƒNƒZƒCƒo[ •ª—£
-  AutoTalk ƒWƒ‡[ƒW×ˆä
-  ƒI[ƒEA‚±‚±‚Í–l‚ª‚â‚èƒ}`ƒX
-  AutoTalk ˆÀ“¡VØ
-  ƒj[ƒiA‚à‚Á‚Æ‚â‚è‚½‚¢‚Ì‚É‚¢cc
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  Enable ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ åˆ†é›¢
+  AutoTalk ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+  ã‚ªãƒ¼ã‚¦ã€ã“ã“ã¯åƒ•ãŒã‚„ã‚Šãƒžï½žã‚¹
+  AutoTalk å®‰è—¤æ–°èœ
+  ãƒ‹ãƒ¼ãƒŠã€ã‚‚ã£ã¨ã‚„ã‚ŠãŸã„ã®ã«ã„â€¦â€¦
   End
  Case 5
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgEƒX[ƒUƒ“ƒEƒH[ƒJ[
-  Enable ƒKƒNƒZƒCƒo[ •ª—£
-  AutoTalk ƒX[ƒUƒ“ƒEƒH[ƒJ[
-  ƒ`ƒ‡ƒbƒgAŒð‘ã‚µ‚ÈƒTƒCƒbII
-  AutoTalk ˆÀ“¡VØ
-  ‚ [‚ñA‚¢‚¶‚í‚é‚¤cc
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  Enable ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ åˆ†é›¢
+  AutoTalk ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+  ãƒãƒ§ãƒƒãƒˆã€äº¤ä»£ã—ãªã‚µã‚¤ãƒƒï¼ï¼
+  AutoTalk å®‰è—¤æ–°èœ
+  ã‚ãƒ¼ã‚“ã€ã„ã˜ã‚ã‚‹ã†â€¦â€¦
   End
  Case 6
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE™ŽR‚–¾
-  Enable ƒKƒNƒZƒCƒo[ •ª—£
-  AutoTalk ™ŽR‚–¾
-  ‚¨‚Á‚µA‚±‚±‚Í‰´‚Ìo”Ô‚¾‚È
-  AutoTalk ˆÀ“¡VØ
-  ƒCƒ„ƒbAƒj[ƒi‚à‚â‚é‚Ì‚ÁI
-  AutoTalk ™ŽR‚–¾
-  ‚¨‚¢‚¨‚¢A‘€c‚ÉŠ„‚èž‚Ü‚È‚¢‚Å‚­‚ê‚æ‚ÁI
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»æ‰å±±é«˜æ˜Ž
+  Enable ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ åˆ†é›¢
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  ãŠã£ã—ã€ã“ã“ã¯ä¿ºã®å‡ºç•ªã ãª
+  AutoTalk å®‰è—¤æ–°èœ
+  ã‚¤ãƒ¤ãƒƒã€ãƒ‹ãƒ¼ãƒŠã‚‚ã‚„ã‚‹ã®ã£ï¼
+  AutoTalk æ‰å±±é«˜æ˜Ž
+  ãŠã„ãŠã„ã€æ“ç¸¦ã«å‰²ã‚Šè¾¼ã¾ãªã„ã§ãã‚Œã‚ˆã£ï¼
   End
  Case 7
-  Equip ‹g‘ºŠw ƒpƒCƒƒbƒgE“¡ˆä—R”ü
-  Enable ƒKƒNƒZƒCƒo[ •ª—£
-  AutoTalk “¡ˆä—R”ü
-  ‘€c‘ã‚í‚Á‚Ä‚¢‚½‚¾‚¯‚Ü‚·H
-  AutoTalk ˆÀ“¡VØ
-  ƒj[ƒi‚Ìo”Ô‚àŽc‚µ‚Ä‚¨‚¢‚Ä‚æ‚Ë
+  Equip å‰æ‘å­¦ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒ»è—¤äº•ç”±ç¾Ž
+  Enable ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ åˆ†é›¢
+  AutoTalk è—¤äº•ç”±ç¾Ž
+  æ“ç¸¦ä»£ã‚ã£ã¦ã„ãŸã ã‘ã¾ã™ï¼Ÿ
+  AutoTalk å®‰è—¤æ–°èœ
+  ãƒ‹ãƒ¼ãƒŠã®å‡ºç•ªã‚‚æ®‹ã—ã¦ãŠã„ã¦ã‚ˆã­
   End
 EndSw
 Exit
 
-ƒpƒCƒƒbƒgŒð‘ã‘I‘ðŽˆ:
-If Unit(‹g‘ºŠw) = ƒKƒNƒZƒCƒo[ Then
-	Ask ƒƒCƒ“ƒpƒCƒƒbƒg‚ð’N‚É‚µ‚Ü‚·‚©H
-	‹g‘ºŠw
-	º“‡—¢”ü
-	²X–ØŒ’Œá
-	ƒWƒ‡[ƒW×ˆä
-	ƒX[ƒUƒ“ƒEƒH[ƒJ[
-	™ŽR‚–¾
-	“¡ˆä—R”ü
-	ˆÀ“¡VØ
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆäº¤ä»£é¸æŠžè‚¢:
+If Unit(å‰æ‘å­¦) = ã‚¬ã‚¯ã‚»ã‚¤ãƒãƒ¼ Then
+	Ask ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆã‚’èª°ã«ã—ã¾ã™ã‹ï¼Ÿ
+	å‰æ‘å­¦
+	æ˜­å³¶é‡Œç¾Ž
+	ä½ã€…æœ¨å¥å¾
+	ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+	ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+	æ‰å±±é«˜æ˜Ž
+	è—¤äº•ç”±ç¾Ž
+	å®‰è—¤æ–°èœ
 	End
 Else
-	Ask ƒƒCƒ“ƒpƒCƒƒbƒg‚ð’N‚É‚µ‚Ü‚·‚©H
-	‹g‘ºŠw
-	º“‡—¢”ü
-	²X–ØŒ’Œá
-	ƒWƒ‡[ƒW×ˆä
-	ƒX[ƒUƒ“ƒEƒH[ƒJ[
-	™ŽR‚–¾
-	“¡ˆä—R”ü
+	Ask ãƒ¡ã‚¤ãƒ³ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆã‚’èª°ã«ã—ã¾ã™ã‹ï¼Ÿ
+	å‰æ‘å­¦
+	æ˜­å³¶é‡Œç¾Ž
+	ä½ã€…æœ¨å¥å¾
+	ã‚¸ãƒ§ãƒ¼ã‚¸ç´°äº•
+	ã‚¹ãƒ¼ã‚¶ãƒ³ï¼ã‚¦ã‚©ãƒ¼ã‚«ãƒ¼
+	æ‰å±±é«˜æ˜Ž
+	è—¤äº•ç”±ç¾Ž
 	End
 Endif
 Return

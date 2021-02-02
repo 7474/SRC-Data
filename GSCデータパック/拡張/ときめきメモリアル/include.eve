@@ -1,38 +1,38 @@
-#u–¼‘O“ü—Ív—p‚ÌƒCƒ“ƒNƒ‹[ƒhƒtƒ@ƒCƒ‹‚Å‚·B
-# Call ‚Æ‚«‚ß‚«ƒƒ‚ƒŠƒAƒ‹–¼‘O“ü—Í
-# ‚ÅŽg—p‚µ‚Ä‰º‚³‚¢B
+#ã€Œåå‰å…¥åŠ›ã€ç”¨ã®ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ãƒ•ã‚¡ã‚¤ãƒ«ã§ã™ã€‚
+# Call ã¨ãã‚ããƒ¡ãƒ¢ãƒªã‚¢ãƒ«åå‰å…¥åŠ›
+# ã§ä½¿ç”¨ã—ã¦ä¸‹ã•ã„ã€‚
 
-‚Æ‚«‚ß‚«ƒƒ‚ƒŠƒAƒ‹–¼‘O“ü—Í:
-Global ŽålŒö‚Æ‚«ƒƒ‚ˆ¤Ì
-Global ŽålŒö‚Æ‚«ƒƒ‚–¼‘O
-Global ŽålŒö‚Æ‚«ƒƒ‚‚ ‚¾–¼
+ã¨ãã‚ããƒ¡ãƒ¢ãƒªã‚¢ãƒ«åå‰å…¥åŠ›:
+Global ä¸»äººå…¬ã¨ããƒ¡ãƒ¢æ„›ç§°
+Global ä¸»äººå…¬ã¨ããƒ¡ãƒ¢åå‰
+Global ä¸»äººå…¬ã¨ããƒ¡ãƒ¢ã‚ã å
 
 #StartBGM TMEMO_NameEntry.mid
 
-‚Æ‚«‚ß‚«ƒƒ‚ƒŠƒAƒ‹–¼‘O“ü—Í‚`:
-Input ŽålŒö‚Æ‚«ƒƒ‚ˆ¤Ì u‚ ‚È‚½‚Ì–¼Žš‚ð‹³‚¦‚Ä‚­‚ê‚éHv
-If ŽålŒö‚Æ‚«ƒƒ‚ˆ¤Ì = "" GoTo ‚Æ‚«‚ß‚«ƒƒ‚ƒŠƒAƒ‹–¼‘O“ü—Í‚`
+ã¨ãã‚ããƒ¡ãƒ¢ãƒªã‚¢ãƒ«åå‰å…¥åŠ›ï¼¡:
+Input ä¸»äººå…¬ã¨ããƒ¡ãƒ¢æ„›ç§° ã€Œã‚ãªãŸã®åå­—ã‚’æ•™ãˆã¦ãã‚Œã‚‹ï¼Ÿã€
+If ä¸»äººå…¬ã¨ããƒ¡ãƒ¢æ„›ç§° = "" GoTo ã¨ãã‚ããƒ¡ãƒ¢ãƒªã‚¢ãƒ«åå‰å…¥åŠ›ï¼¡
 
-‚Æ‚«‚ß‚«ƒƒ‚ƒŠƒAƒ‹–¼‘O“ü—Í‚a:
-Input ŽålŒö‚Æ‚«ƒƒ‚–¼‘O u–¼‘O‚ÍHv
-If ŽålŒö‚Æ‚«ƒƒ‚–¼‘O = "" GoTo ‚Æ‚«‚ß‚«ƒƒ‚ƒŠƒAƒ‹–¼‘O“ü—Í‚a
+ã¨ãã‚ããƒ¡ãƒ¢ãƒªã‚¢ãƒ«åå‰å…¥åŠ›ï¼¢:
+Input ä¸»äººå…¬ã¨ããƒ¡ãƒ¢åå‰ ã€Œåå‰ã¯ï¼Ÿã€
+If ä¸»äººå…¬ã¨ããƒ¡ãƒ¢åå‰ = "" GoTo ã¨ãã‚ããƒ¡ãƒ¢ãƒªã‚¢ãƒ«åå‰å…¥åŠ›ï¼¢
 
-‚Æ‚«‚ß‚«ƒƒ‚ƒŠƒAƒ‹–¼‘O“ü—Í‚b:
-Input ŽålŒö‚Æ‚«ƒƒ‚‚ ‚¾–¼ u‚»‚ê‚¶‚áA‚ ‚¾–¼‚ÍHv
-If ŽålŒö‚Æ‚«ƒƒ‚‚ ‚¾–¼ = "" GoTo ‚Æ‚«‚ß‚«ƒƒ‚ƒŠƒAƒ‹–¼‘O“ü—Í‚b
+ã¨ãã‚ããƒ¡ãƒ¢ãƒªã‚¢ãƒ«åå‰å…¥åŠ›ï¼£:
+Input ä¸»äººå…¬ã¨ããƒ¡ãƒ¢ã‚ã å ã€Œãã‚Œã˜ã‚ƒã€ã‚ã åã¯ï¼Ÿã€
+If ä¸»äººå…¬ã¨ããƒ¡ãƒ¢ã‚ã å = "" GoTo ã¨ãã‚ããƒ¡ãƒ¢ãƒªã‚¢ãƒ«åå‰å…¥åŠ›ï¼£
 
-Talk ƒVƒXƒeƒ€
-ˆÈ‰º‚Ì‚æ‚¤‚ÉA“ü—Í‚µ‚Ü‚µ‚½B;–¼ŽšF$(ŽålŒö‚Æ‚«ƒƒ‚ˆ¤Ì);–¼‘OF$(ŽålŒö‚Æ‚«ƒƒ‚–¼‘O);‚ ‚¾–¼F$(ŽålŒö‚Æ‚«ƒƒ‚‚ ‚¾–¼)
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ä»¥ä¸‹ã®ã‚ˆã†ã«ã€å…¥åŠ›ã—ã¾ã—ãŸã€‚;åå­—ï¼š$(ä¸»äººå…¬ã¨ããƒ¡ãƒ¢æ„›ç§°);åå‰ï¼š$(ä¸»äººå…¬ã¨ããƒ¡ãƒ¢åå‰);ã‚ã åï¼š$(ä¸»äººå…¬ã¨ããƒ¡ãƒ¢ã‚ã å)
 End
 
-Ask u‚±‚ê‚Å‚¢‚¢Hv
-Œˆ’è
-‚â‚è’¼‚µ
+Ask ã€Œã“ã‚Œã§ã„ã„ï¼Ÿã€
+æ±ºå®š
+ã‚„ã‚Šç›´ã—
 End
-Switch ‘I‘ð
+Switch é¸æŠž
 	Case 1
 	Case 2
-	GoTo ‚Æ‚«‚ß‚«ƒƒ‚ƒŠƒAƒ‹–¼‘O“ü—Í‚`
+	GoTo ã¨ãã‚ããƒ¡ãƒ¢ãƒªã‚¢ãƒ«åå‰å…¥åŠ›ï¼¡
 EndSw
 
 Return

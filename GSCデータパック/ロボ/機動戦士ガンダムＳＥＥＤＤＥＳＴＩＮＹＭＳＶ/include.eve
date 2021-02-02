@@ -1,81 +1,81 @@
 
 
-##############################ƒVƒ‹ƒGƒbƒgŠÖ˜A‰ˆ—
+##############################ã‚·ãƒ«ã‚¨ãƒƒãƒˆé–¢é€£åˆå‡¦ç†
 
 
 
-Žg—p Unit(‘ÎÛƒ†ƒjƒbƒg‚h‚c) ƒVƒ‹ƒGƒbƒgŠ·‘• :
+ä½¿ç”¨ Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) ã‚·ãƒ«ã‚¨ãƒƒãƒˆæ›è£… :
 
-If Not Žg—pÏ‚ÝƒVƒ‹ƒGƒbƒgƒiƒ“ƒo[ > 0 Then
-  Žg—pÏ‚ÝƒVƒ‹ƒGƒbƒgƒiƒ“ƒo[ = 1
+If Not ä½¿ç”¨æ¸ˆã¿ã‚·ãƒ«ã‚¨ãƒƒãƒˆãƒŠãƒ³ãƒãƒ¼ > 0 Then
+  ä½¿ç”¨æ¸ˆã¿ã‚·ãƒ«ã‚¨ãƒƒãƒˆãƒŠãƒ³ãƒãƒ¼ = 1
 EndIf
 
 
-íŠÍŠ·‘•ƒVƒ‹ƒGƒbƒgƒiƒ“ƒo[ = 1
-For i = 0 To CountItem(–¢‘•”õ)
+æˆ¦è‰¦æ›è£…ã‚·ãƒ«ã‚¨ãƒƒãƒˆãƒŠãƒ³ãƒãƒ¼ = 1
+For i = 0 To CountItem(æœªè£…å‚™)
   If i = 0 Then
-    íŠÍŠ·‘•ƒVƒ‹ƒGƒbƒg[0] = ƒLƒƒƒ“ƒZƒ‹
+    æˆ¦è‰¦æ›è£…ã‚·ãƒ«ã‚¨ãƒƒãƒˆ[0] = ã‚­ãƒ£ãƒ³ã‚»ãƒ«
   EndIf
-  If Info(ƒAƒCƒeƒ€,Item(–¢‘•”õ,i),ƒAƒCƒeƒ€ƒNƒ‰ƒX) = ƒVƒ‹ƒGƒbƒg Then
+  If Info(ã‚¢ã‚¤ãƒ†ãƒ ,Item(æœªè£…å‚™,i),ã‚¢ã‚¤ãƒ†ãƒ ã‚¯ãƒ©ã‚¹) = ã‚·ãƒ«ã‚¨ãƒƒãƒˆ Then
 
-    For j = 1 To Žg—pÏ‚ÝƒVƒ‹ƒGƒbƒgƒiƒ“ƒo[
+    For j = 1 To ä½¿ç”¨æ¸ˆã¿ã‚·ãƒ«ã‚¨ãƒƒãƒˆãƒŠãƒ³ãƒãƒ¼
   
-      If Žg—pÏ‚ÝƒVƒ‹ƒGƒbƒg[j] = Item(–¢‘•”õ,i) Then
-        ‚±‚ÌƒVƒ‹ƒGƒbƒg‚ÍŽg—pÏ‚Ý = 1
+      If ä½¿ç”¨æ¸ˆã¿ã‚·ãƒ«ã‚¨ãƒƒãƒˆ[j] = Item(æœªè£…å‚™,i) Then
+        ã“ã®ã‚·ãƒ«ã‚¨ãƒƒãƒˆã¯ä½¿ç”¨æ¸ˆã¿ = 1
       EndIf
     Next
 
-      If Not ‚±‚ÌƒVƒ‹ƒGƒbƒg‚ÍŽg—pÏ‚Ý = 1 Then
-        íŠÍŠ·‘•ƒVƒ‹ƒGƒbƒg[íŠÍŠ·‘•ƒVƒ‹ƒGƒbƒgƒiƒ“ƒo[] = Item(–¢‘•”õ,i)
-        Incr íŠÍŠ·‘•ƒVƒ‹ƒGƒbƒgƒiƒ“ƒo[
+      If Not ã“ã®ã‚·ãƒ«ã‚¨ãƒƒãƒˆã¯ä½¿ç”¨æ¸ˆã¿ = 1 Then
+        æˆ¦è‰¦æ›è£…ã‚·ãƒ«ã‚¨ãƒƒãƒˆ[æˆ¦è‰¦æ›è£…ã‚·ãƒ«ã‚¨ãƒƒãƒˆãƒŠãƒ³ãƒãƒ¼] = Item(æœªè£…å‚™,i)
+        Incr æˆ¦è‰¦æ›è£…ã‚·ãƒ«ã‚¨ãƒƒãƒˆãƒŠãƒ³ãƒãƒ¼
       EndIf
 
   EndIf
 
-UnSet ‚±‚ÌƒVƒ‹ƒGƒbƒg‚ÍŽg—pÏ‚Ý
+UnSet ã“ã®ã‚·ãƒ«ã‚¨ãƒƒãƒˆã¯ä½¿ç”¨æ¸ˆã¿
 
 Next
 
 
 
 
-Ask íŠÍŠ·‘•ƒVƒ‹ƒGƒbƒg "$(Info(ƒ†ƒjƒbƒgƒf[ƒ^,‘ÎÛƒ†ƒjƒbƒg‚h‚c,ˆ¤Ì))‚É‘•”õ‚·‚éƒVƒ‹ƒGƒbƒg‚ð‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢" 
+Ask æˆ¦è‰¦æ›è£…ã‚·ãƒ«ã‚¨ãƒƒãƒˆ "$(Info(ãƒ¦ãƒ‹ãƒƒãƒˆãƒ‡ãƒ¼ã‚¿,å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,æ„›ç§°))ã«è£…å‚™ã™ã‚‹ã‚·ãƒ«ã‚¨ãƒƒãƒˆã‚’é¸æŠžã—ã¦ãã ã•ã„" 
 
-If ‘I‘ð = 0 Then
+If é¸æŠž = 0 Then
     Cancel
-    SpecialPower ‘ÎÛƒ†ƒjƒbƒg‚h‚c ŠoÁ
+    SpecialPower å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ è¦šé†’
 EndIf
 
 
 
 
 
-##ƒJƒIƒXAƒKƒCƒAAƒAƒrƒXƒVƒ‹ƒGƒbƒg‚ðAƒAƒEƒgƒtƒŒ[ƒ€‚É•t‚¯‚ê‚È‚­‚·‚é‚½‚ß‚Ìˆ—
+##ã‚«ã‚ªã‚¹ã€ã‚¬ã‚¤ã‚¢ã€ã‚¢ãƒ“ã‚¹ã‚·ãƒ«ã‚¨ãƒƒãƒˆã‚’ã€ã‚¢ã‚¦ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ ã«ä»˜ã‘ã‚Œãªãã™ã‚‹ãŸã‚ã®å‡¦ç†
 
 
-If Info(íŠÍŠ·‘•ƒVƒ‹ƒGƒbƒg[‘I‘ð],–¼Ì) = ƒJƒIƒXƒVƒ‹ƒGƒbƒg Then
-  If Not Unit(‘ÎÛƒ†ƒjƒbƒg‚h‚c) = ƒCƒ“ƒpƒ‹ƒXƒKƒ“ƒ_ƒ€(‚`‚r‚s‚q‚`‚x‘Î‰ž) Then 
+If Info(æˆ¦è‰¦æ›è£…ã‚·ãƒ«ã‚¨ãƒƒãƒˆ[é¸æŠž],åç§°) = ã‚«ã‚ªã‚¹ã‚·ãƒ«ã‚¨ãƒƒãƒˆ Then
+  If Not Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) = ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹ã‚¬ãƒ³ãƒ€ãƒ (ï¼¡ï¼³ï¼´ï¼²ï¼¡ï¼¹å¯¾å¿œ) Then 
     Talk
-    Š·‘•‰Â”\‚È‹@‘Ì‚Å‚Í‚ ‚è‚Ü‚¹‚ñ
+    æ›è£…å¯èƒ½ãªæ©Ÿä½“ã§ã¯ã‚ã‚Šã¾ã›ã‚“
     End
     Cancel
-    SpecialPower ‘ÎÛƒ†ƒjƒbƒg‚h‚c ŠoÁ
+    SpecialPower å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ è¦šé†’
   EndIf
-ElseIf Info(íŠÍŠ·‘•ƒVƒ‹ƒGƒbƒg[‘I‘ð],–¼Ì) = ƒAƒrƒXƒVƒ‹ƒGƒbƒg Then
-  If Not Unit(‘ÎÛƒ†ƒjƒbƒg‚h‚c) = ƒCƒ“ƒpƒ‹ƒXƒKƒ“ƒ_ƒ€(‚`‚r‚s‚q‚`‚x‘Î‰ž) Then 
+ElseIf Info(æˆ¦è‰¦æ›è£…ã‚·ãƒ«ã‚¨ãƒƒãƒˆ[é¸æŠž],åç§°) = ã‚¢ãƒ“ã‚¹ã‚·ãƒ«ã‚¨ãƒƒãƒˆ Then
+  If Not Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) = ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹ã‚¬ãƒ³ãƒ€ãƒ (ï¼¡ï¼³ï¼´ï¼²ï¼¡ï¼¹å¯¾å¿œ) Then 
     Talk
-    Š·‘•‰Â”\‚È‹@‘Ì‚Å‚Í‚ ‚è‚Ü‚¹‚ñ
+    æ›è£…å¯èƒ½ãªæ©Ÿä½“ã§ã¯ã‚ã‚Šã¾ã›ã‚“
     End
     Cancel
-    SpecialPower ‘ÎÛƒ†ƒjƒbƒg‚h‚c ŠoÁ
+    SpecialPower å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ è¦šé†’
   EndIf
-ElseIf Info(íŠÍŠ·‘•ƒVƒ‹ƒGƒbƒg[‘I‘ð],–¼Ì) = ƒKƒCƒAƒVƒ‹ƒGƒbƒg Then
-  If Not Unit(‘ÎÛƒ†ƒjƒbƒg‚h‚c) = ƒCƒ“ƒpƒ‹ƒXƒKƒ“ƒ_ƒ€(‚`‚r‚s‚q‚`‚x‘Î‰ž) Then 
+ElseIf Info(æˆ¦è‰¦æ›è£…ã‚·ãƒ«ã‚¨ãƒƒãƒˆ[é¸æŠž],åç§°) = ã‚¬ã‚¤ã‚¢ã‚·ãƒ«ã‚¨ãƒƒãƒˆ Then
+  If Not Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) = ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹ã‚¬ãƒ³ãƒ€ãƒ (ï¼¡ï¼³ï¼´ï¼²ï¼¡ï¼¹å¯¾å¿œ) Then 
     Talk
-    Š·‘•‰Â”\‚È‹@‘Ì‚Å‚Í‚ ‚è‚Ü‚¹‚ñ
+    æ›è£…å¯èƒ½ãªæ©Ÿä½“ã§ã¯ã‚ã‚Šã¾ã›ã‚“
     End
     Cancel
-    SpecialPower ‘ÎÛƒ†ƒjƒbƒg‚h‚c ŠoÁ
+    SpecialPower å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ è¦šé†’
   EndIf
 EndIf
 
@@ -90,19 +90,19 @@ Exit
 
 
 
-Žg—pŒã Unit(‘ÎÛƒ†ƒjƒbƒg‚h‚c) ƒVƒ‹ƒGƒbƒgŠ·‘• :
+ä½¿ç”¨å¾Œ Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) ã‚·ãƒ«ã‚¨ãƒƒãƒˆæ›è£… :
 
-Call Žg—pÏ‚ÝƒVƒ‹ƒGƒbƒgˆ—
+Call ä½¿ç”¨æ¸ˆã¿ã‚·ãƒ«ã‚¨ãƒƒãƒˆå‡¦ç†
 
 
-Equip ‘ÎÛƒ†ƒjƒbƒg‚h‚c íŠÍŠ·‘•ƒVƒ‹ƒGƒbƒg[‘I‘ð]
+Equip å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ æˆ¦è‰¦æ›è£…ã‚·ãƒ«ã‚¨ãƒƒãƒˆ[é¸æŠž]
 
 
 UnSet i
 UnSet j
-UnSet íŠÍŠ·‘•ƒVƒ‹ƒGƒbƒgƒiƒ“ƒo[
-UnSet íŠÍŠ·‘•ƒVƒ‹ƒGƒbƒg
-SpecialPower ‘ÎÛƒ†ƒjƒbƒg‚h‚c ŠoÁ
+UnSet æˆ¦è‰¦æ›è£…ã‚·ãƒ«ã‚¨ãƒƒãƒˆãƒŠãƒ³ãƒãƒ¼
+UnSet æˆ¦è‰¦æ›è£…ã‚·ãƒ«ã‚¨ãƒƒãƒˆ
+SpecialPower å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ è¦šé†’
 
 
 
@@ -112,17 +112,17 @@ Exit
 
 
 
-Žg—pÏ‚ÝƒVƒ‹ƒGƒbƒgˆ—:
+ä½¿ç”¨æ¸ˆã¿ã‚·ãƒ«ã‚¨ãƒƒãƒˆå‡¦ç†:
 
-For i = 0 To CountItem(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
+For i = 0 To CountItem(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
- If Info(ƒAƒCƒeƒ€,Item(‘ÎÛƒ†ƒjƒbƒg‚h‚c,i),ƒAƒCƒeƒ€ƒNƒ‰ƒX) = ƒVƒ‹ƒGƒbƒg Then
-   Žg—pÏ‚ÝƒVƒ‹ƒGƒbƒg[Žg—pÏ‚ÝƒVƒ‹ƒGƒbƒgƒiƒ“ƒo[] = Item(‘ÎÛƒ†ƒjƒbƒg‚h‚c,i)
+ If Info(ã‚¢ã‚¤ãƒ†ãƒ ,Item(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,i),ã‚¢ã‚¤ãƒ†ãƒ ã‚¯ãƒ©ã‚¹) = ã‚·ãƒ«ã‚¨ãƒƒãƒˆ Then
+   ä½¿ç”¨æ¸ˆã¿ã‚·ãƒ«ã‚¨ãƒƒãƒˆ[ä½¿ç”¨æ¸ˆã¿ã‚·ãƒ«ã‚¨ãƒƒãƒˆãƒŠãƒ³ãƒãƒ¼] = Item(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,i)
  EndIf
 
 Next
 
-Incr Žg—pÏ‚ÝƒVƒ‹ƒGƒbƒgƒiƒ“ƒo[
+Incr ä½¿ç”¨æ¸ˆã¿ã‚·ãƒ«ã‚¨ãƒƒãƒˆãƒŠãƒ³ãƒãƒ¼
 
 
 Return
@@ -130,34 +130,34 @@ Return
 
 
 
-##############################ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒNŠÖ˜A‰ˆ—
+##############################ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯é–¢é€£åˆå‡¦ç†
 
 
-#######ƒXƒJƒCƒOƒ‰ƒXƒp[‚©‚çŠ·‘•‚·‚éÛ‚Ìˆ—
+#######ã‚¹ã‚«ã‚¤ã‚°ãƒ©ã‚¹ãƒ‘ãƒ¼ã‹ã‚‰æ›è£…ã™ã‚‹éš›ã®å‡¦ç†
 
 
 
-Žg—p Unit(‘ÎÛƒ†ƒjƒbƒg‚h‚c) ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒNŠ·‘• :
+ä½¿ç”¨ Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯æ›è£… :
 
-If Not Žg—pÏ‚ÝSPƒiƒ“ƒo[ > 0 Then
-  Žg—pÏ‚ÝSPƒiƒ“ƒo[ = 1
+If Not ä½¿ç”¨æ¸ˆã¿SPãƒŠãƒ³ãƒãƒ¼ > 0 Then
+  ä½¿ç”¨æ¸ˆã¿SPãƒŠãƒ³ãƒãƒ¼ = 1
 EndIf
 
-#ªíŠÍ‚©‚ç‚ÌŠ·‘•‚ðŽg—p‚·‚é‚Æ‚«—p‚Ìˆ—
+#â†‘æˆ¦è‰¦ã‹ã‚‰ã®æ›è£…ã‚’ä½¿ç”¨ã™ã‚‹ã¨ãç”¨ã®å‡¦ç†
 
 
 
 
-##‚fƒtƒ‰ƒCƒg‚ðAƒAƒEƒgƒtƒŒ[ƒ€ˆÈŠO‚É•t‚¯‚ê‚È‚­‚·‚é‚½‚ß‚Ìˆ—
+##ï¼§ãƒ•ãƒ©ã‚¤ãƒˆã‚’ã€ã‚¢ã‚¦ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ ä»¥å¤–ã«ä»˜ã‘ã‚Œãªãã™ã‚‹ãŸã‚ã®å‡¦ç†
 
-If Info(ƒAƒCƒeƒ€,Item(‘ÎÛƒ†ƒjƒbƒg‚h‚c,1),–¼Ì) = ‚fƒtƒ‰ƒCƒg Then
-  If Not Unit(‘ŠŽèƒ†ƒjƒbƒg‚h‚c) = ƒAƒXƒgƒŒƒCƒAƒEƒgƒtƒŒ[ƒ€ Then 
-    If Not Unit(‘ŠŽèƒ†ƒjƒbƒg‚h‚c) = ƒAƒXƒgƒŒƒCƒAƒEƒgƒtƒŒ[ƒ€‚c Then 
+If Info(ã‚¢ã‚¤ãƒ†ãƒ ,Item(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,1),åç§°) = ï¼§ãƒ•ãƒ©ã‚¤ãƒˆ Then
+  If Not Unit(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) = ã‚¢ã‚¹ãƒˆãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ  Then 
+    If Not Unit(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) = ã‚¢ã‚¹ãƒˆãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ ï¼¤ Then 
       Talk
-      Š·‘•‰Â”\‚È‹@‘Ì‚Å‚Í‚ ‚è‚Ü‚¹‚ñ
+      æ›è£…å¯èƒ½ãªæ©Ÿä½“ã§ã¯ã‚ã‚Šã¾ã›ã‚“
       End
       Cancel
-      SpecialPower ‘ÎÛƒ†ƒjƒbƒg‚h‚c ŠoÁ
+      SpecialPower å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ è¦šé†’
     EndIf
   EndIf
 EndIf
@@ -172,23 +172,23 @@ Exit
 
 
 
-Žg—pŒã Unit(‘ÎÛƒ†ƒjƒbƒg‚h‚c) ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒNŠ·‘• :
+ä½¿ç”¨å¾Œ Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯æ›è£… :
 
 
-ƒXƒJƒOƒ‰‘•”õ’†ƒpƒbƒN = (Item(‘ÎÛƒ†ƒjƒbƒg‚h‚c,1))
+ã‚¹ã‚«ã‚°ãƒ©è£…å‚™ä¸­ãƒ‘ãƒƒã‚¯ = (Item(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,1))
 
-Call Žg—pÏ‚ÝƒXƒgƒ‰ƒCƒJ[ƒpƒbƒNˆ—
-
-
-Equip ‘ÎÛƒ†ƒjƒbƒg‚h‚c ƒ_ƒ~[ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN
-RemoveItem (‘ÎÛƒ†ƒjƒbƒg‚h‚c) ƒ_ƒ~[ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN
-Equip ‘ŠŽèƒ†ƒjƒbƒg‚h‚c ƒXƒJƒOƒ‰‘•”õ’†ƒpƒbƒN
+Call ä½¿ç”¨æ¸ˆã¿ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯å‡¦ç†
 
 
+Equip å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ãƒ€ãƒŸãƒ¼ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯
+RemoveItem (å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) ãƒ€ãƒŸãƒ¼ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯
+Equip ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ã‚¹ã‚«ã‚°ãƒ©è£…å‚™ä¸­ãƒ‘ãƒƒã‚¯
 
-UnSet ƒXƒJƒOƒ‰‘•”õ’†ƒpƒbƒN
 
-RecoverEN ‘ŠŽèƒ†ƒjƒbƒg‚h‚c 100
+
+UnSet ã‚¹ã‚«ã‚°ãƒ©è£…å‚™ä¸­ãƒ‘ãƒƒã‚¯
+
+RecoverEN ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ 100
 
 Exit
 
@@ -197,64 +197,64 @@ Exit
 
 
 
-#######íŠÍ‚©‚çŠ·‘•‚·‚éÛ‚Ìˆ—
+#######æˆ¦è‰¦ã‹ã‚‰æ›è£…ã™ã‚‹éš›ã®å‡¦ç†
 
 
-Žg—p Unit(‘ÎÛƒ†ƒjƒbƒg‚h‚c) ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒNŠ·‘•(‚r) :
+ä½¿ç”¨ Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯æ›è£…(ï¼³) :
 
-If Not Žg—pÏ‚ÝSPƒiƒ“ƒo[ > 0 Then
-  Žg—pÏ‚ÝSPƒiƒ“ƒo[ = 1
+If Not ä½¿ç”¨æ¸ˆã¿SPãƒŠãƒ³ãƒãƒ¼ > 0 Then
+  ä½¿ç”¨æ¸ˆã¿SPãƒŠãƒ³ãƒãƒ¼ = 1
 EndIf
 
 
-íŠÍŠ·‘•SPƒiƒ“ƒo[ = 1
-For i = 0 To CountItem(–¢‘•”õ)
+æˆ¦è‰¦æ›è£…SPãƒŠãƒ³ãƒãƒ¼ = 1
+For i = 0 To CountItem(æœªè£…å‚™)
   If i = 0 Then
-  íŠÍŠ·‘•ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN[0] = ƒLƒƒƒ“ƒZƒ‹
+  æˆ¦è‰¦æ›è£…ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯[0] = ã‚­ãƒ£ãƒ³ã‚»ãƒ«
   EndIf
-  If Info(ƒAƒCƒeƒ€,Item(–¢‘•”õ,i),ƒAƒCƒeƒ€ƒNƒ‰ƒX) = ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN Then
+  If Info(ã‚¢ã‚¤ãƒ†ãƒ ,Item(æœªè£…å‚™,i),ã‚¢ã‚¤ãƒ†ãƒ ã‚¯ãƒ©ã‚¹) = ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯ Then
 
-    For j = 1 To Žg—pÏ‚ÝSPƒiƒ“ƒo[
+    For j = 1 To ä½¿ç”¨æ¸ˆã¿SPãƒŠãƒ³ãƒãƒ¼
   
-      If Žg—pÏ‚ÝƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN[j] = Item(–¢‘•”õ,i) Then
-        ‚±‚Ì‚r‚o‚ÍŽg—pÏ‚Ý = 1
+      If ä½¿ç”¨æ¸ˆã¿ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯[j] = Item(æœªè£…å‚™,i) Then
+        ã“ã®ï¼³ï¼°ã¯ä½¿ç”¨æ¸ˆã¿ = 1
       EndIf
     Next
 
-      If Not ‚±‚Ì‚r‚o‚ÍŽg—pÏ‚Ý = 1 Then
-        íŠÍŠ·‘•ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN[íŠÍŠ·‘•SPƒiƒ“ƒo[] = Item(–¢‘•”õ,i)
-        Incr íŠÍŠ·‘•SPƒiƒ“ƒo[
+      If Not ã“ã®ï¼³ï¼°ã¯ä½¿ç”¨æ¸ˆã¿ = 1 Then
+        æˆ¦è‰¦æ›è£…ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯[æˆ¦è‰¦æ›è£…SPãƒŠãƒ³ãƒãƒ¼] = Item(æœªè£…å‚™,i)
+        Incr æˆ¦è‰¦æ›è£…SPãƒŠãƒ³ãƒãƒ¼
       EndIf
 
   EndIf
 
-UnSet ‚±‚Ì‚r‚o‚ÍŽg—pÏ‚Ý
+UnSet ã“ã®ï¼³ï¼°ã¯ä½¿ç”¨æ¸ˆã¿
 
 Next
 
 
 
-Ask íŠÍŠ·‘•ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN "$(Info(ƒ†ƒjƒbƒg,‘ŠŽèƒ†ƒjƒbƒg‚h‚c,ˆ¤Ì))‚É‘•”õ‚·‚éƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN‚ð‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢" 
+Ask æˆ¦è‰¦æ›è£…ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯ "$(Info(ãƒ¦ãƒ‹ãƒƒãƒˆ,ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,æ„›ç§°))ã«è£…å‚™ã™ã‚‹ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯ã‚’é¸æŠžã—ã¦ãã ã•ã„" 
 
-If ‘I‘ð = 0 Then
-  SpecialPower ‘ÎÛƒ†ƒjƒbƒg‚h‚c ŠoÁ
+If é¸æŠž = 0 Then
+  SpecialPower å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ è¦šé†’
   Cancel
 EndIf
 
 
 
 
-##‚fƒtƒ‰ƒCƒg‚ðAƒAƒEƒgƒtƒŒ[ƒ€ˆÈŠO‚É•t‚¯‚ê‚È‚­‚·‚é‚½‚ß‚Ìˆ—
+##ï¼§ãƒ•ãƒ©ã‚¤ãƒˆã‚’ã€ã‚¢ã‚¦ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ ä»¥å¤–ã«ä»˜ã‘ã‚Œãªãã™ã‚‹ãŸã‚ã®å‡¦ç†
 
 
-If Info(ƒAƒCƒeƒ€,íŠÍŠ·‘•ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN[‘I‘ð],–¼Ì) = ‚fƒtƒ‰ƒCƒg Then
-  If Not Unit(‘ŠŽèƒ†ƒjƒbƒg‚h‚c) = ƒAƒXƒgƒŒƒCƒAƒEƒgƒtƒŒ[ƒ€ Then 
-    If Not Unit(‘ŠŽèƒ†ƒjƒbƒg‚h‚c) = ƒAƒXƒgƒŒƒCƒAƒEƒgƒtƒŒ[ƒ€‚c Then 
+If Info(ã‚¢ã‚¤ãƒ†ãƒ ,æˆ¦è‰¦æ›è£…ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯[é¸æŠž],åç§°) = ï¼§ãƒ•ãƒ©ã‚¤ãƒˆ Then
+  If Not Unit(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) = ã‚¢ã‚¹ãƒˆãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ  Then 
+    If Not Unit(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) = ã‚¢ã‚¹ãƒˆãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ ï¼¤ Then 
       Talk
-      Š·‘•‰Â”\‚È‹@‘Ì‚Å‚Í‚ ‚è‚Ü‚¹‚ñ
+      æ›è£…å¯èƒ½ãªæ©Ÿä½“ã§ã¯ã‚ã‚Šã¾ã›ã‚“
       End
       Cancel
-      SpecialPower ‘ÎÛƒ†ƒjƒbƒg‚h‚c ŠoÁ
+      SpecialPower å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ è¦šé†’
     EndIf
   EndIf
 EndIf
@@ -267,77 +267,77 @@ Exit
 
 
 
-Žg—pŒã Unit(‘ÎÛƒ†ƒjƒbƒg‚h‚c) ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒNŠ·‘•(‚r) :
+ä½¿ç”¨å¾Œ Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯æ›è£…(ï¼³) :
 
 
-Call Žg—pÏ‚ÝƒXƒgƒ‰ƒCƒJ[ƒpƒbƒNˆ—
+Call ä½¿ç”¨æ¸ˆã¿ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯å‡¦ç†
 
 
-Equip ‘ÎÛƒ†ƒjƒbƒg‚h‚c ƒ_ƒ~[ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN
-Equip ‘ŠŽèƒ†ƒjƒbƒg‚h‚c íŠÍŠ·‘•ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN[‘I‘ð]
-RemoveItem (‘ÎÛƒ†ƒjƒbƒg‚h‚c) ƒ_ƒ~[ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN
+Equip å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ãƒ€ãƒŸãƒ¼ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯
+Equip ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ æˆ¦è‰¦æ›è£…ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯[é¸æŠž]
+RemoveItem (å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) ãƒ€ãƒŸãƒ¼ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯
 
 
 UnSet i
 UnSet j
-UnSet íŠÍŠ·‘•SPƒiƒ“ƒo[
-UnSet íŠÍŠ·‘•ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN
-RecoverEN ‘ŠŽèƒ†ƒjƒbƒg‚h‚c 100
+UnSet æˆ¦è‰¦æ›è£…SPãƒŠãƒ³ãƒãƒ¼
+UnSet æˆ¦è‰¦æ›è£…ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯
+RecoverEN ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ 100
 Exit
 
 
 
-Žg—pÏ‚ÝƒXƒgƒ‰ƒCƒJ[ƒpƒbƒNˆ—:
+ä½¿ç”¨æ¸ˆã¿ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯å‡¦ç†:
 
-For i = 0 To CountItem(‘ŠŽèƒ†ƒjƒbƒg‚h‚c)
+For i = 0 To CountItem(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
- If Info(ƒAƒCƒeƒ€,Item(‘ŠŽèƒ†ƒjƒbƒg‚h‚c,i),ƒAƒCƒeƒ€ƒNƒ‰ƒX) = ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN Then
-   Žg—pÏ‚ÝƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN[Žg—pÏ‚ÝSPƒiƒ“ƒo[] = Item(‘ŠŽèƒ†ƒjƒbƒg‚h‚c,i)
+ If Info(ã‚¢ã‚¤ãƒ†ãƒ ,Item(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,i),ã‚¢ã‚¤ãƒ†ãƒ ã‚¯ãƒ©ã‚¹) = ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯ Then
+   ä½¿ç”¨æ¸ˆã¿ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯[ä½¿ç”¨æ¸ˆã¿SPãƒŠãƒ³ãƒãƒ¼] = Item(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,i)
  EndIf
 
 Next
 
-Incr Žg—pÏ‚ÝSPƒiƒ“ƒo[
+Incr ä½¿ç”¨æ¸ˆã¿SPãƒŠãƒ³ãƒãƒ¼
 
 
 Return
 
 
 
-#####ˆÈ‰ºƒAƒEƒgƒtƒŒ[ƒ€ê—pˆ—
+#####ä»¥ä¸‹ã‚¢ã‚¦ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ å°‚ç”¨å‡¦ç†
 
-*Žg—pŒã ƒAƒXƒgƒŒƒCƒAƒEƒgƒtƒŒ[ƒ€ ƒVƒ‹ƒGƒbƒgŠ·‘• :
-*Žg—pŒã ƒAƒXƒgƒŒƒCƒAƒEƒgƒtƒŒ[ƒ€‚c ƒVƒ‹ƒGƒbƒgŠ·‘• :
+*ä½¿ç”¨å¾Œ ã‚¢ã‚¹ãƒˆãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ  ã‚·ãƒ«ã‚¨ãƒƒãƒˆæ›è£… :
+*ä½¿ç”¨å¾Œ ã‚¢ã‚¹ãƒˆãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ ï¼¤ ã‚·ãƒ«ã‚¨ãƒƒãƒˆæ›è£… :
 
-Equip ‘ÎÛƒ†ƒjƒbƒg ƒ_ƒ~[ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN
-RemoveItem ‘ÎÛƒ†ƒjƒbƒg ƒ_ƒ~[ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒN
-Equip ‘ÎÛƒ†ƒjƒbƒg ƒ_ƒ~[ƒEƒBƒU[ƒh
-RemoveItem ‘ÎÛƒ†ƒjƒbƒg ƒ_ƒ~[ƒEƒBƒU[ƒh
-Equip ‘ÎÛƒ†ƒjƒbƒg ƒ_ƒ~[ƒAƒXƒgƒŒƒCŠ·‘•ƒp[ƒc
-RemoveItem ‘ÎÛƒ†ƒjƒbƒg ƒ_ƒ~[ƒAƒXƒgƒŒƒCŠ·‘•ƒp[ƒc
+Equip å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ ãƒ€ãƒŸãƒ¼ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯
+RemoveItem å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ ãƒ€ãƒŸãƒ¼ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯
+Equip å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ ãƒ€ãƒŸãƒ¼ã‚¦ã‚£ã‚¶ãƒ¼ãƒ‰
+RemoveItem å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ ãƒ€ãƒŸãƒ¼ã‚¦ã‚£ã‚¶ãƒ¼ãƒ‰
+Equip å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ ãƒ€ãƒŸãƒ¼ã‚¢ã‚¹ãƒˆãƒ¬ã‚¤æ›è£…ãƒ‘ãƒ¼ãƒ„
+RemoveItem å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ ãƒ€ãƒŸãƒ¼ã‚¢ã‚¹ãƒˆãƒ¬ã‚¤æ›è£…ãƒ‘ãƒ¼ãƒ„
 
 Exit
 
 
 
-*Žg—pŒã Unit(‘ÎÛƒ†ƒjƒbƒg‚h‚c) ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒNŠ·‘• :
-*Žg—pŒã Unit(‘ÎÛƒ†ƒjƒbƒg‚h‚c) ƒXƒgƒ‰ƒCƒJ[ƒpƒbƒNŠ·‘•(‚r) :
+*ä½¿ç”¨å¾Œ Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯æ›è£… :
+*ä½¿ç”¨å¾Œ Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) ã‚¹ãƒˆãƒ©ã‚¤ã‚«ãƒ¼ãƒ‘ãƒƒã‚¯æ›è£…(ï¼³) :
 
 
-If Unit(‘ŠŽèƒ†ƒjƒbƒg‚h‚c) = ƒAƒXƒgƒŒƒCƒAƒEƒgƒtƒŒ[ƒ€ then
-  Equip ‘ŠŽèƒ†ƒjƒbƒg‚h‚c ƒ_ƒ~[ƒVƒ‹ƒGƒbƒg
-  RemoveItem ‘ŠŽèƒ†ƒjƒbƒg‚h‚c ƒ_ƒ~[ƒVƒ‹ƒGƒbƒg
-  Equip ‘ŠŽèƒ†ƒjƒbƒg‚h‚c ƒ_ƒ~[ƒEƒBƒU[ƒh
-  RemoveItem ‘ŠŽèƒ†ƒjƒbƒg‚h‚c ƒ_ƒ~[ƒEƒBƒU[ƒh
-  Equip ‘ŠŽèƒ†ƒjƒbƒg‚h‚c ƒ_ƒ~[ƒAƒXƒgƒŒƒCŠ·‘•ƒp[ƒc
-  RemoveItem ‘ŠŽèƒ†ƒjƒbƒg‚h‚c ƒ_ƒ~[ƒAƒXƒgƒŒƒCŠ·‘•ƒp[ƒc
-ElseIf Unit(‘ŠŽèƒ†ƒjƒbƒg‚h‚c) = ƒAƒXƒgƒŒƒCƒAƒEƒgƒtƒŒ[ƒ€‚c then
-  Equip ‘ŠŽèƒ†ƒjƒbƒg‚h‚c ƒ_ƒ~[ƒVƒ‹ƒGƒbƒg
-  RemoveItem ‘ŠŽèƒ†ƒjƒbƒg‚h‚c ƒ_ƒ~[ƒVƒ‹ƒGƒbƒg
-  Equip ‘ŠŽèƒ†ƒjƒbƒg‚h‚c ƒ_ƒ~[ƒEƒBƒU[ƒh
-  RemoveItem ‘ŠŽèƒ†ƒjƒbƒg‚h‚c ƒ_ƒ~[ƒEƒBƒU[ƒh
-  Equip ‘ŠŽèƒ†ƒjƒbƒg‚h‚c ƒ_ƒ~[ƒAƒXƒgƒŒƒCŠ·‘•ƒp[ƒc
-  RemoveItem ‘ŠŽèƒ†ƒjƒbƒg‚h‚c ƒ_ƒ~[ƒAƒXƒgƒŒƒCŠ·‘•ƒp[ƒc
+If Unit(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) = ã‚¢ã‚¹ãƒˆãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ  then
+  Equip ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ãƒ€ãƒŸãƒ¼ã‚·ãƒ«ã‚¨ãƒƒãƒˆ
+  RemoveItem ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ãƒ€ãƒŸãƒ¼ã‚·ãƒ«ã‚¨ãƒƒãƒˆ
+  Equip ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ãƒ€ãƒŸãƒ¼ã‚¦ã‚£ã‚¶ãƒ¼ãƒ‰
+  RemoveItem ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ãƒ€ãƒŸãƒ¼ã‚¦ã‚£ã‚¶ãƒ¼ãƒ‰
+  Equip ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ãƒ€ãƒŸãƒ¼ã‚¢ã‚¹ãƒˆãƒ¬ã‚¤æ›è£…ãƒ‘ãƒ¼ãƒ„
+  RemoveItem ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ãƒ€ãƒŸãƒ¼ã‚¢ã‚¹ãƒˆãƒ¬ã‚¤æ›è£…ãƒ‘ãƒ¼ãƒ„
+ElseIf Unit(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) = ã‚¢ã‚¹ãƒˆãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆãƒ•ãƒ¬ãƒ¼ãƒ ï¼¤ then
+  Equip ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ãƒ€ãƒŸãƒ¼ã‚·ãƒ«ã‚¨ãƒƒãƒˆ
+  RemoveItem ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ãƒ€ãƒŸãƒ¼ã‚·ãƒ«ã‚¨ãƒƒãƒˆ
+  Equip ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ãƒ€ãƒŸãƒ¼ã‚¦ã‚£ã‚¶ãƒ¼ãƒ‰
+  RemoveItem ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ãƒ€ãƒŸãƒ¼ã‚¦ã‚£ã‚¶ãƒ¼ãƒ‰
+  Equip ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ãƒ€ãƒŸãƒ¼ã‚¢ã‚¹ãƒˆãƒ¬ã‚¤æ›è£…ãƒ‘ãƒ¼ãƒ„
+  RemoveItem ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ãƒ€ãƒŸãƒ¼ã‚¢ã‚¹ãƒˆãƒ¬ã‚¤æ›è£…ãƒ‘ãƒ¼ãƒ„
 EndIf
 
 Exit

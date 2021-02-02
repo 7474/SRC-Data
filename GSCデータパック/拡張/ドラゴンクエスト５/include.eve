@@ -1,8 +1,8 @@
 
 
-í“¬ƒAƒjƒ_DQ05_ƒCƒIƒiƒYƒ“UŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_DQ05_ã‚¤ã‚ªãƒŠã‚ºãƒ³æ”»æ’ƒ:
 Local i
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 Local G_S = 16
 Local COL_W = 200
 Local COL_F = 10
@@ -10,13 +10,13 @@ local M_BMP = Common\EFFECT_Flash01.bmp
 
 _UnSetBattleAnimeValue
 
-  Center X(–Ú•W’n“_) Y(–Ú•W’n“_)
+  Center X(ç›®æ¨™åœ°ç‚¹) Y(ç›®æ¨™åœ°ç‚¹)
 
 PlaySound Explode(Nuclear).wav
 Wait Start
 For i = 1 To 10
   ClearPicture
-  PaintPicture M_BMP - - G_S G_S “§‰ß ‰E‰ñ“] Random(360)
+  PaintPicture M_BMP - - G_S G_S é€é å³å›è»¢ Random(360)
   Refresh
   Wait Until (i * 0.5)
   Set G_S (G_S * 1.5)

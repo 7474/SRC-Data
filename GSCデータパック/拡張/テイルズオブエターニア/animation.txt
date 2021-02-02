@@ -1,923 +1,923 @@
 
-#»—ìpA¢Š«pˆÈŠO‚Í”²‚«o‚µ‚â‚·‚¢‚æ‚¤‚ÉAƒLƒƒƒ‰ƒNƒ^[•Ê‚Éˆê“Z‚ßB
+#æ™¶éœŠè¡“ã€å¬å–šè¡“ä»¥å¤–ã¯æŠœãå‡ºã—ã‚„ã™ã„ã‚ˆã†ã«ã€ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼åˆ¥ã«ä¸€çºã‚ã€‚
 
-ƒŠƒbƒhƒn[ƒVƒFƒ‹
-###’Êí###
-ƒƒ“ƒOƒ\[ƒh, ƒ\[ƒh
-ƒGƒNƒXƒJƒŠƒo[, ŽaŒ‚•Ší _GetWPBN(_Œ•) 32
-ƒ‰ƒXƒgƒtƒFƒ“ƒT[, ‹âŒ•
-###“Á‹Z###
-–‚_Œ•(€”õ), -
-–‚_Œ•(UŒ‚), U‚èã‚°;ŽÀ’e”­ŽË _GetWPBN(’n•\ÕŒ‚”g(Â)) 32 Whiz.wav ’x
-–‚_Œ•(–½’†), ƒ_ƒ[ƒW Â Saber.wav
-—‹_Œ•(€”õ), -
-—‹_Œ•(UŒ‚), Ši“¬
-—‹_Œ•(–½’†), Žh“Ë;—Ž—‹ ‰©
-ŽU¹‰J(UŒ‚), ˜A“Ë
-ŽU¹‰J(–½’†), ˜A“Ë;U‚èã‚°
-ŒÕ‰å”jŽa(UŒ‚), U‚èã‚°
-ŒÕ‰å”jŽa(–½’†), U‚èã‚°;@í“¬ƒAƒjƒ_U‚è‰º‚ë‚µUŒ‚;U‚è‰º‚ë‚µ
-—ô‹óŽa, ‰ñ“]ŽaŒ‚
-‘M‹ó—ô”j(UŒ‚), @í“¬ƒAƒjƒ_•—€”õ Whiz.wav
-‘M‹ó—ô”j(–½’†), ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚
-–‚_Œ•E‘o‰å(UŒ‚), U‚èã‚°;ŽÀ’e”­ŽË _GetWPBN(’n•\ÕŒ‚”g(Â)) 32 Whiz.wav;_
-@@@@@@@@@@U‚è‰º‚ë‚µ;ŽÀ’e”­ŽË _GetWPBN(’n•\ÕŒ‚”g(Â)) 32 Whiz.wav
-–‚_Œ•E‘o‰å(–½’†), ƒ_ƒ[ƒW Â Saber.wav;ƒ_ƒ[ƒW Â Saber.wav
-•——‹_Œ•(€”õ), -
-•——‹_Œ•(UŒ‚), Ši“¬ Storm.wav
-•——‹_Œ•(–½’†), Žh“Ë —Î;—Ž—‹ ‰©
-ŒÕ‰å˜AŽa(UŒ‚), U‚èã‚°
-ŒÕ‰å˜AŽa(–½’†), U‚èã‚°;@í“¬ƒAƒjƒ_‚È‚¬•¥‚¢UŒ‚;@í“¬ƒAƒjƒ_‚È‚¬•¥‚¢UŒ‚;‚È‚¬•¥‚¢;‚È‚¬•¥‚¢
-H¹‰J(UŒ‚), —“Ë
-H¹‰J(–½’†), —“Ë;U‚èã‚°
-###‰œ‹`###
-—‹_‘o”jŽa(UŒ‚), U‚èã‚°
-—‹_‘o”jŽa(–½’†), U‚èã‚°;@í“¬ƒAƒjƒ_U‚è‰º‚ë‚µUŒ‚;U‚è‰º‚ë‚µ;@í“¬ƒAƒjƒ_Ši“¬UŒ‚;Žh“Ë;—Ž—‹ ‰©
-–‚_ç—ó”j(UŒ‚), U‚èã‚°;ŽÀ’e”­ŽË _GetWPBN(’n•\ÕŒ‚”g(Â)) Whiz.wav ’x;˜A“Ë
-–‚_ç—ó”j(–½’†), ƒ_ƒ[ƒW Â Saber.wav;˜A“Ë;U‚èã‚°
-–‚_˜A‰åŽa(UŒ‚), U‚èã‚°;ŽÀ’e”­ŽË _GetWPBN(’n•\ÕŒ‚”g(Â)) 32 Whiz.wav ‘¬;_
-@@@@@@@@@U‚è‰º‚ë‚µ;ŽÀ’e”­ŽË _GetWPBN(’n•\ÕŒ‚”g(Â)) 32 Whiz.wav ‘¬;_
-@@@@@@@@@U‚èã‚°;ŽÀ’e”­ŽË _GetWPBN(’n•\ÕŒ‚”g(Â)) 32 Whiz.wav ‘¬
-–‚_˜A‰åŽa(–½’†), ƒ_ƒ[ƒW Â Saber.wav;ƒ_ƒ[ƒW Â Saber.wav;ƒ_ƒ[ƒW Â Slash.wav
-‘M‹ó‘o”jŽa(UŒ‚), @í“¬ƒAƒjƒ_•—€”õ Whiz.wav
-‘M‹ó‘o”jŽa(–½’†), ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚;@í“¬ƒAƒjƒ_˜A‘±‚È‚¬•¥‚¢UŒ‚;˜A‘±‚È‚¬•¥‚¢
-‹ó”jâ¶Œ‚(UŒ‚), ƒX[ƒp[ƒ^ƒbƒNƒ‹ Â
-‹ó”jâ¶Œ‚(–½’†), ƒX[ƒp[ƒ^ƒbƒNƒ‹ Â;ƒfƒBƒŒƒC 5;’´ŽaŒ‚
-–ÒŒÕ˜AŒ‚”j(UŒ‚), ‰ñ“]ŽaŒ‚
-–ÒŒÕ˜AŒ‚”j(–½’†), U‚èã‚°;U‚è‰º‚ë‚µ;U‚èã‚°;U‚è‰º‚ë‚µ;U‚èã‚°;U‚è‰º‚ë‚µ
-–ÒŒÕ˜AŒ‚”j(ƒNƒŠƒeƒBƒJƒ‹)(‘Î•mŽ€), @í“¬ƒAƒjƒ_ƒI[ƒ‰ã¸€”õ ”’ Charge(High).wav;_
-@@@@@@@@@@@@@@@@@u‚Í‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚ÁIv;_
-@@@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŒõU‚èã‚°–½’† ’† ”’;_
-@@@@@@@@@@@@@@@@@u‚Í‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚ÁI ‚Æ‚Ç‚ß‚¾Iv;_
-@@@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_‹}~‰ºUŒ‚;_
-@@@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_“§–¾‰»UŒ‚ ‘ÎÛƒ†ƒjƒbƒg‚h‚c;@í“¬ƒAƒjƒ_–‚–@w–½’† ”’ Inori.wav ”w–Ê;_
-@@@@@@@@@@@@@@@@@u—³ŒÕIv;_
-@@@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_‹}~‰º–½’† ”’ Bazooka.wav;0.1;_
-@@@@@@@@@@@@@@@@@u—³ŒÕI –Å‰åŽaIIv;_
-@@@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_Œõ•¬o–½’† ”’ FastGun.wav
-–ÒŒÕ˜AŒ‚”j(ƒNƒŠƒeƒBƒJƒ‹)(‘Î•mŽ€), @í“¬ƒAƒjƒ_ƒI[ƒ‰ã¸€”õ ”’ Charge(High).wav;_
-@@@@@@@@@@@@@@@@@u‚Í‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚ÁIv;_
-@@@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŒõU‚èã‚°–½’† ’† ”’;_
-@@@@@@@@@@@@@@@@@u‚Í‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚ÁI ‰œ‹`Iv;_
-@@@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_‹}~‰ºUŒ‚;_
-@@@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_“§–¾‰»UŒ‚ ‘ÎÛƒ†ƒjƒbƒg‚h‚c;@í“¬ƒAƒjƒ_–‚–@w–½’† ”’ Inori.wav ”w–Ê;_
-@@@@@@@@@@@@@@@@@u—³ŒÕIv;@í“¬ƒAƒjƒ_‹}~‰º–½’† ”’ Bazooka.wav;0.1;_
-@@@@@@@@@@@@@@@@@u—³ŒÕI –Å‰åŽaIIv;_
-@@@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_Œõ•¬o–½’† ”’ FastGun.wav
-–ÒŒÕ˜AŒ‚”j(ƒNƒŠƒeƒBƒJƒ‹)(‘Î•mŽ€), @í“¬ƒAƒjƒ_ƒI[ƒ‰ã¸€”õ ”’ Charge(High).wav;_
-@@@@@@@@@@@@@@@@@u‚Í‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚ÁIv;_
-@@@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŒõU‚èã‚°–½’† ’† ”’;_
-@@@@@@@@@@@@@@@@@u‚Í‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚ÁI •KŽEIv;_
-@@@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_‹}~‰ºUŒ‚;_
-@@@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_“§–¾‰»UŒ‚ ‘ÎÛƒ†ƒjƒbƒg‚h‚c;@í“¬ƒAƒjƒ_–‚–@w–½’† ”’ Inori.wav ”w–Ê;_
-@@@@@@@@@@@@@@@@@u—³ŒÕIv;_
-@@@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_‹}~‰º–½’† ”’ Bazooka.wav;0.1;_
-@@@@@@@@@@@@@@@@@u—³ŒÕI –Å‰åŽaIIv;_
-@@@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_Œõ•¬o–½’† ”’ FastGun.wav
-ãÄ‰J—ô‹óŒ‚(UŒ‚), —“Ë
-ãÄ‰J—ô‹óŒ‚(–½’†), —“Ë;@í“¬ƒAƒjƒ_‰ñ“]ŽaŒ‚UŒ‚;‰ñ“]ŽaŒ‚
-^‹ó—ôŽa, ‰ñ“]ŽaŒ‚
-‘M‹óãÄ—ô”j(UŒ‚), @í“¬ƒAƒjƒ_•—€”õ Whiz.wav
-‘M‹óãÄ—ô”j(–½’†), ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚;@í“¬ƒAƒjƒ_‚È‚¬•¥‚¢UŒ‚;‚È‚¬•¥‚¢
-–P™€“V‹ì(UŒ‚), ƒX[ƒp[ƒ_ƒCƒu Ô
-–P™€“V‹ì(–½’†), ƒX[ƒp[ƒ_ƒCƒu Ô;‰Š
-–P™€“V‹ì(ƒNƒŠƒeƒBƒJƒ‹), @í“¬ƒAƒjƒ_ƒI[ƒ‰ã¸€”õ Ô Charge(High).wav;_
-@@@@@@@@@@@@u”ê™€Iv;_
-@@@@@@@@@@@@@í“¬ƒAƒjƒ_ƒX[ƒp[ƒ^ƒbƒNƒ‹–½’† Ô;0.1;_
-@@@@@@@@@@@@u”ê™€I â‰ŠÕIIv;_
-@@@@@@@@@@@@@í“¬ƒAƒjƒ_˜A‘±‘å”š”­–½’†
-•—n”›••(€”õ), —±ŽqW’† —Î
-•—n”›••(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ —Î
-•—n”›••(–½’†), ‹­•—
-•—n”›••(–½’†)(‘Î•mŽ€), ‹­•—;ƒfƒBƒŒƒC 5;@í“¬ƒAƒjƒ_ƒI[ƒ‰ã¸€”õ —Î Charge(High).wav;_
-@@@@@@@@@@@@u•—oIv;_
-@@@@@@@@@@@@@í“¬ƒAƒjƒ_Œõ•¬o€”õ —Î Storm.wav;0.1;_
-@@@@@@@@@@@@u•—oI ••”›ŽEIIv;_
-@@@@@@@@@@@@ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚;’´ŽaŒ‚ —Î -.wav
-###‹¦—Í‹Z###
-g˜@Œ•(€”õ), Œõ•¬o ”’ Whiz.wav partner(1)
-g˜@Œ•(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ô Whiz.wav partner(1);U‚èã‚°
-g˜@Œ•(–½’†), U‚èã‚°;@í“¬ƒAƒjƒ_U‚è‰º‚ë‚µUŒ‚ Ô;‘å”š”­
-’f‹óŒ•(€”õ), Œõ•¬o ”’ Whiz.wav partner(1);–‚•ûw —Î Flair.wav partner(1)
-’f‹óŒ•(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ —Î Whiz.wav partner(1);@í“¬ƒAƒjƒ_ƒXƒsƒ“ŠJŽn —Î
-’f‹óŒ•(–½’†), ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚
-###”é‰œ‹`###
-”ê™€â‰ŠÕ(€”õ), ƒI[ƒ‰ã¸ Ô Charge(High).wav
-”ê™€â‰ŠÕ(UŒ‚), ƒX[ƒp[ƒ_ƒCƒu Ô
-”ê™€â‰ŠÕ(–½’†), ƒX[ƒp[ƒ^ƒbƒNƒ‹ Ô;˜A‘±‘å”š”­
-—³ŒÕ–Å‰åŽa(€”õ), ƒI[ƒ‰ã¸ ”’ Charge(High).wav
-—³ŒÕ–Å‰åŽa(UŒ‚), U‚èã‚°
-—³ŒÕ–Å‰åŽa(–½’†), ŒõU‚èã‚° ’† ”’;_
-@@@@@@@@@u‚Æ‚Ç‚ß‚¾Iv;_
-@@@@@@@@@@í“¬ƒAƒjƒ_‹}~‰ºUŒ‚;“§–¾‰» ‘ÎÛƒ†ƒjƒbƒg‚h‚c;_
-@@@@@@@@@–‚–@w ”’ Inori.wav ”w–Ê;“§–¾‰» ‘ÎÛƒ†ƒjƒbƒg‚h‚c ‰ðœ;_
-@@@@@@@@@u—³ŒÕIv;_
-@@@@@@@@@‹}~‰º ”’ Bazooka.wav;0.1;_
-@@@@@@@@@u—³ŒÕI –Å‰åŽaIIv;_
-@@@@@@@@@Œõ•¬o ”’ FastGun.wav
-—³ŒÕ–Å‰åŽa(–½’†), ŒõU‚èã‚° ’† ”’;_
-@@@@@@@@@u‰œ‹`Iv;_
-@@@@@@@@@@í“¬ƒAƒjƒ_‹}~‰ºUŒ‚;“§–¾‰» ‘ÎÛƒ†ƒjƒbƒg‚h‚c;_
-@@@@@@@@@–‚–@w ”’ Inori.wav ”w–Ê;“§–¾‰» ‘ÎÛƒ†ƒjƒbƒg‚h‚c ‰ðœ;_
-@@@@@@@@@u—³ŒÕIv;_
-@@@@@@@@@‹}~‰º ”’ Bazooka.wav;0.1;_
-@@@@@@@@@u—³ŒÕI –Å‰åŽaIIv;_
-@@@@@@@@@Œõ•¬o ”’ FastGun.wav
-—³ŒÕ–Å‰åŽa(–½’†), ŒõU‚èã‚° ’† ”’;_
-@@@@@@@@@u•KŽEIv;_
-@@@@@@@@@@í“¬ƒAƒjƒ_‹}~‰ºUŒ‚;“§–¾‰» ‘ÎÛƒ†ƒjƒbƒg‚h‚c;_
-@@@@@@@@@–‚–@w ”’ Inori.wav ”w–Ê;“§–¾‰» ‘ÎÛƒ†ƒjƒbƒg‚h‚c ‰ðœ;_
-@@@@@@@@@u—³ŒÕIv;_
-@@@@@@@@@‹}~‰º ”’ Bazooka.wav;0.1;_
-@@@@@@@@@u—³ŒÕI –Å‰åŽaIIv;_
-@@@@@@@@@Œõ•¬o ”’ FastGun.wav
-•—o••”›ŽE(€”õ), ƒI[ƒ‰ã¸ —Î Charge(High).wav
-•—o••”›ŽE(UŒ‚), @í“¬ƒAƒjƒ_Œõ•¬o€”õ —Î Storm.wav
-•—o••”›ŽE(–½’†), ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚;’´ŽaŒ‚ —Î -.wav
-‹ÉŒõ•Ç(€”õ), ƒI[ƒ‰ã¸ ”’
-‹ÉŒõ•Ç(UŒ‚), @í“¬ƒAƒjƒ_Œõ•¬o€”õ ”’;_
-@@@@@@@u‚Í‚ ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚ÁI ‹ÉŒõ•ÇIIv;_
-@@@@@@@@í“¬ƒAƒjƒ_Œõ‘å•¬o€”õ ”’ Charge(high).wav
-‹ÉŒõ•Ç(–½’†), ”ò–— ”’ Inori.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav
-‹ÉŒõŒ•(€”õ), ƒI[ƒ‰ã¸ ”’
-‹ÉŒõŒ•(UŒ‚), @í“¬ƒAƒjƒ_Œõ•¬o€”õ ”’;@í“¬ƒAƒjƒ_Œõ‘å•¬o€”õ ”’ Charge(high).wav
-‹ÉŒõŒ•(–½’†), ”ò–— ”’ Inori.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;_
-@@@@@@@@í“¬ƒAƒjƒ_ƒI[ƒ‰ã¸€”õ ”’ Charge(High).wav;_
-@@@@@@@u‚±‚ê‚Å‚ÁIv;_
-@@@@@@@@í“¬ƒAƒjƒ_ŽaŒ‚UŒ‚;ŒõŽaŒ‚ ”’ ‘å;@í“¬ƒAƒjƒ_‚È‚¬•¥‚¢UŒ‚;‘åŽh“Ë ”’;_
-@@@@@@@@í“¬ƒAƒjƒ_ŽaŒ‚UŒ‚;ŒõŽaŒ‚ ”’ ‘å;@í“¬ƒAƒjƒ_‚È‚¬•¥‚¢UŒ‚;‘åŽh“Ë ”’;_
-@@@@@@@u‚±‚ê‚Å‚ÁI I‚í‚è‚¾‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚ÁIIIv;_
-@@@@@@@@í“¬ƒAƒjƒ_‚È‚¬•¥‚¢UŒ‚;’´ŽaŒ‚ ”’ Inori.wav
-‹ÉŒõŒ•(–½’†), ”ò–— ”’ Inori.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;_
-@@@@@@@@í“¬ƒAƒjƒ_ƒI[ƒ‰ã¸€”õ ”’ Charge(High).wav;_
-@@@@@@@u‚±‚ê‚Å‚ÁccI‚í‚è‚¾‚ÁIv;_
-@@@@@@@@í“¬ƒAƒjƒ_ŽaŒ‚UŒ‚;ŒõŽaŒ‚ ”’ ‘å;@í“¬ƒAƒjƒ_‚È‚¬•¥‚¢UŒ‚;‘åŽh“Ë ”’;_
-@@@@@@@@í“¬ƒAƒjƒ_ŽaŒ‚UŒ‚;ŒõŽaŒ‚ ”’ ‘å;@í“¬ƒAƒjƒ_‚È‚¬•¥‚¢UŒ‚;‘åŽh“Ë ”’;_
-@@@@@@@u‚±‚ê‚Å‚ÁccI‚í‚è‚¾‚ÁI ‹ÉŒõŒ•IIv;_
-@@@@@@@@í“¬ƒAƒjƒ_‚È‚¬•¥‚¢UŒ‚;’´ŽaŒ‚ ”’ Inori.wav
-‘jŽ~(‹ÉŒõ”g), ƒI[ƒ‰ã¸ ”’ Charge(High).wav ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;ŒõƒoƒŠƒA -.wav ƒGƒ^[ƒiƒ‹EƒCƒ“ƒtƒBƒjƒeƒB
-‚hEƒŠƒ”ƒ@ƒCƒ”ƒ@[(€”õ), ƒI[ƒ‰ã¸ ”’
-‚hEƒŠƒ”ƒ@ƒCƒ”ƒ@[(UŒ‚), @í“¬ƒAƒjƒ_Œõ•¬o€”õ ”’;_
-@@@@@@@@@@@@@u‚Í‚ ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚ÁIv;_
-@@@@@@@@@@@@@@í“¬ƒAƒjƒ_Œõ‘å•¬o€”õ ”’ Charge(high).wav;Œõ‹…•úo ”’ -.wav
-‚hEƒŠƒ”ƒ@ƒCƒ”ƒ@[(UŒ‚), @í“¬ƒAƒjƒ_Œõ•¬o€”õ ”’;_
-@@@@@@@@@@@@@u‚¤‚¨‚§‚§‚§‚§‚§‚§‚§‚§‚ÁIv;_
-@@@@@@@@@@@@@@í“¬ƒAƒjƒ_Œõ‘å•¬o€”õ ”’ Charge(high).wav;Œõ‹…•úo ”’ -.wav
-‚hEƒŠƒ”ƒ@ƒCƒ”ƒ@[(–½’†), Œõ‹…W’† ”’ -.wav;ƒI[ƒ‰ ”’ Explode(Nuclear).wav
+ãƒªãƒƒãƒ‰ï¼ãƒãƒ¼ã‚·ã‚§ãƒ«
+###é€šå¸¸###
+ãƒ­ãƒ³ã‚°ã‚½ãƒ¼ãƒ‰, ã‚½ãƒ¼ãƒ‰
+ã‚¨ã‚¯ã‚¹ã‚«ãƒªãƒãƒ¼, æ–¬æ’ƒæ­¦å™¨ _GetWPBN(ç¥žå‰£) 32
+ãƒ©ã‚¹ãƒˆãƒ•ã‚§ãƒ³ã‚µãƒ¼, éŠ€å‰£
+###ç‰¹æŠ€###
+é­”ç¥žå‰£(æº–å‚™), -
+é­”ç¥žå‰£(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’;å®Ÿå¼¾ç™ºå°„ _GetWPBN(åœ°è¡¨è¡æ’ƒæ³¢(é’)) 32 Whiz.wav é…
+é­”ç¥žå‰£(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ é’ Saber.wav
+é›·ç¥žå‰£(æº–å‚™), -
+é›·ç¥žå‰£(æ”»æ’ƒ), æ ¼é—˜
+é›·ç¥žå‰£(å‘½ä¸­), åˆºçª;è½é›· é»„
+æ•£æ²™é›¨(æ”»æ’ƒ), é€£çª
+æ•£æ²™é›¨(å‘½ä¸­), é€£çª;æŒ¯ã‚Šä¸Šã’
+è™Žç‰™ç ´æ–¬(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’
+è™Žç‰™ç ´æ–¬(å‘½ä¸­), æŒ¯ã‚Šä¸Šã’;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚Šä¸‹ã‚ã—æ”»æ’ƒ;æŒ¯ã‚Šä¸‹ã‚ã—
+è£‚ç©ºæ–¬, å›žè»¢æ–¬æ’ƒ
+é–ƒç©ºè£‚ç ´(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é¢¨æº–å‚™ Whiz.wav
+é–ƒç©ºè£‚ç ´(å‘½ä¸­), ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ
+é­”ç¥žå‰£ãƒ»åŒç‰™(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’;å®Ÿå¼¾ç™ºå°„ _GetWPBN(åœ°è¡¨è¡æ’ƒæ³¢(é’)) 32 Whiz.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚Šä¸‹ã‚ã—;å®Ÿå¼¾ç™ºå°„ _GetWPBN(åœ°è¡¨è¡æ’ƒæ³¢(é’)) 32 Whiz.wav
+é­”ç¥žå‰£ãƒ»åŒç‰™(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ é’ Saber.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ é’ Saber.wav
+é¢¨é›·ç¥žå‰£(æº–å‚™), -
+é¢¨é›·ç¥žå‰£(æ”»æ’ƒ), æ ¼é—˜ Storm.wav
+é¢¨é›·ç¥žå‰£(å‘½ä¸­), åˆºçª ç·‘;è½é›· é»„
+è™Žç‰™é€£æ–¬(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’
+è™Žç‰™é€£æ–¬(å‘½ä¸­), æŒ¯ã‚Šä¸Šã’;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãªãŽæ‰•ã„æ”»æ’ƒ;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãªãŽæ‰•ã„æ”»æ’ƒ;ãªãŽæ‰•ã„;ãªãŽæ‰•ã„
+ç§‹æ²™é›¨(æ”»æ’ƒ), ä¹±çª
+ç§‹æ²™é›¨(å‘½ä¸­), ä¹±çª;æŒ¯ã‚Šä¸Šã’
+###å¥¥ç¾©###
+é›·ç¥žåŒç ´æ–¬(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’
+é›·ç¥žåŒç ´æ–¬(å‘½ä¸­), æŒ¯ã‚Šä¸Šã’;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚Šä¸‹ã‚ã—æ”»æ’ƒ;æŒ¯ã‚Šä¸‹ã‚ã—;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ ¼é—˜æ”»æ’ƒ;åˆºçª;è½é›· é»„
+é­”ç¥žåƒçƒˆç ´(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’;å®Ÿå¼¾ç™ºå°„ _GetWPBN(åœ°è¡¨è¡æ’ƒæ³¢(é’)) Whiz.wav é…;é€£çª
+é­”ç¥žåƒçƒˆç ´(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ é’ Saber.wav;é€£çª;æŒ¯ã‚Šä¸Šã’
+é­”ç¥žé€£ç‰™æ–¬(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’;å®Ÿå¼¾ç™ºå°„ _GetWPBN(åœ°è¡¨è¡æ’ƒæ³¢(é’)) 32 Whiz.wav é€Ÿ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚Šä¸‹ã‚ã—;å®Ÿå¼¾ç™ºå°„ _GetWPBN(åœ°è¡¨è¡æ’ƒæ³¢(é’)) 32 Whiz.wav é€Ÿ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŒ¯ã‚Šä¸Šã’;å®Ÿå¼¾ç™ºå°„ _GetWPBN(åœ°è¡¨è¡æ’ƒæ³¢(é’)) 32 Whiz.wav é€Ÿ
+é­”ç¥žé€£ç‰™æ–¬(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ é’ Saber.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ é’ Saber.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ é’ Slash.wav
+é–ƒç©ºåŒç ´æ–¬(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é¢¨æº–å‚™ Whiz.wav
+é–ƒç©ºåŒç ´æ–¬(å‘½ä¸­), ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é€£ç¶šãªãŽæ‰•ã„æ”»æ’ƒ;é€£ç¶šãªãŽæ‰•ã„
+ç©ºç ´çµ¶æŽŒæ’ƒ(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« é’
+ç©ºç ´çµ¶æŽŒæ’ƒ(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« é’;ãƒ‡ã‚£ãƒ¬ã‚¤ 5;è¶…æ–¬æ’ƒ
+çŒ›è™Žé€£æ’ƒç ´(æ”»æ’ƒ), å›žè»¢æ–¬æ’ƒ
+çŒ›è™Žé€£æ’ƒç ´(å‘½ä¸­), æŒ¯ã‚Šä¸Šã’;æŒ¯ã‚Šä¸‹ã‚ã—;æŒ¯ã‚Šä¸Šã’;æŒ¯ã‚Šä¸‹ã‚ã—;æŒ¯ã‚Šä¸Šã’;æŒ¯ã‚Šä¸‹ã‚ã—
+çŒ›è™Žé€£æ’ƒç ´(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«)(å¯¾ç€•æ­»), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡æº–å‚™ ç™½ Charge(High).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã¯ãããããã£ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰æŒ¯ã‚Šä¸Šã’å‘½ä¸­ ä¸­ ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã¯ãããããã£ï¼ ã¨ã©ã‚ã ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ€¥é™ä¸‹æ”»æ’ƒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é€æ˜ŽåŒ–æ”»æ’ƒ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é­”æ³•é™£å‘½ä¸­ ç™½ Inori.wav èƒŒé¢;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç«œè™Žï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ€¥é™ä¸‹å‘½ä¸­ ç™½ Bazooka.wav;0.1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç«œè™Žï¼ æ»…ç‰™æ–¬ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å™´å‡ºå‘½ä¸­ ç™½ FastGun.wav
+çŒ›è™Žé€£æ’ƒç ´(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«)(å¯¾ç€•æ­»), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡æº–å‚™ ç™½ Charge(High).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã¯ãããããã£ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰æŒ¯ã‚Šä¸Šã’å‘½ä¸­ ä¸­ ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã¯ãããããã£ï¼ å¥¥ç¾©ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ€¥é™ä¸‹æ”»æ’ƒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é€æ˜ŽåŒ–æ”»æ’ƒ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é­”æ³•é™£å‘½ä¸­ ç™½ Inori.wav èƒŒé¢;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç«œè™Žï¼ã€;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ€¥é™ä¸‹å‘½ä¸­ ç™½ Bazooka.wav;0.1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç«œè™Žï¼ æ»…ç‰™æ–¬ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å™´å‡ºå‘½ä¸­ ç™½ FastGun.wav
+çŒ›è™Žé€£æ’ƒç ´(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«)(å¯¾ç€•æ­»), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡æº–å‚™ ç™½ Charge(High).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã¯ãããããã£ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰æŒ¯ã‚Šä¸Šã’å‘½ä¸­ ä¸­ ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã¯ãããããã£ï¼ å¿…æ®ºï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ€¥é™ä¸‹æ”»æ’ƒ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é€æ˜ŽåŒ–æ”»æ’ƒ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é­”æ³•é™£å‘½ä¸­ ç™½ Inori.wav èƒŒé¢;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç«œè™Žï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ€¥é™ä¸‹å‘½ä¸­ ç™½ Bazooka.wav;0.1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç«œè™Žï¼ æ»…ç‰™æ–¬ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å™´å‡ºå‘½ä¸­ ç™½ FastGun.wav
+ç¿”é›¨è£‚ç©ºæ’ƒ(æ”»æ’ƒ), ä¹±çª
+ç¿”é›¨è£‚ç©ºæ’ƒ(å‘½ä¸­), ä¹±çª;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å›žè»¢æ–¬æ’ƒæ”»æ’ƒ;å›žè»¢æ–¬æ’ƒ
+çœŸç©ºè£‚æ–¬, å›žè»¢æ–¬æ’ƒ
+é–ƒç©ºç¿”è£‚ç ´(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é¢¨æº–å‚™ Whiz.wav
+é–ƒç©ºç¿”è£‚ç ´(å‘½ä¸­), ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãªãŽæ‰•ã„æ”»æ’ƒ;ãªãŽæ‰•ã„
+é³³å‡°å¤©é§†(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ€ã‚¤ãƒ– èµ¤
+é³³å‡°å¤©é§†(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ€ã‚¤ãƒ– èµ¤;ç‚Ž
+é³³å‡°å¤©é§†(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡æº–å‚™ èµ¤ Charge(High).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç·‹å‡°ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ«å‘½ä¸­ èµ¤;0.1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç·‹å‡°ï¼ çµ¶ç‚Žè¡ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é€£ç¶šå¤§çˆ†ç™ºå‘½ä¸­
+é¢¨åˆƒç¸›å°(æº–å‚™), ç²’å­é›†ä¸­ ç·‘
+é¢¨åˆƒç¸›å°(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç·‘
+é¢¨åˆƒç¸›å°(å‘½ä¸­), å¼·é¢¨
+é¢¨åˆƒç¸›å°(å‘½ä¸­)(å¯¾ç€•æ­»), å¼·é¢¨;ãƒ‡ã‚£ãƒ¬ã‚¤ 5;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡æº–å‚™ ç·‘ Charge(High).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œé¢¨å¡µï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å™´å‡ºæº–å‚™ ç·‘ Storm.wav;0.1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œé¢¨å¡µï¼ å°ç¸›æ®ºï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ;è¶…æ–¬æ’ƒ ç·‘ -.wav
+###å”åŠ›æŠ€###
+ç´…è“®å‰£(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav partner(1)
+ç´…è“®å‰£(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ èµ¤ Whiz.wav partner(1);æŒ¯ã‚Šä¸Šã’
+ç´…è“®å‰£(å‘½ä¸­), æŒ¯ã‚Šä¸Šã’;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚Šä¸‹ã‚ã—æ”»æ’ƒ èµ¤;å¤§çˆ†ç™º
+æ–­ç©ºå‰£(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav partner(1);é­”æ–¹é™£ ç·‘ Flair.wav partner(1)
+æ–­ç©ºå‰£(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç·‘ Whiz.wav partner(1);@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¹ãƒ”ãƒ³é–‹å§‹ ç·‘
+æ–­ç©ºå‰£(å‘½ä¸­), ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ
+###ç§˜å¥¥ç¾©###
+ç·‹å‡°çµ¶ç‚Žè¡(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ èµ¤ Charge(High).wav
+ç·‹å‡°çµ¶ç‚Žè¡(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ€ã‚¤ãƒ– èµ¤
+ç·‹å‡°çµ¶ç‚Žè¡(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« èµ¤;é€£ç¶šå¤§çˆ†ç™º
+ç«œè™Žæ»…ç‰™æ–¬(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½ Charge(High).wav
+ç«œè™Žæ»…ç‰™æ–¬(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’
+ç«œè™Žæ»…ç‰™æ–¬(å‘½ä¸­), å…‰æŒ¯ã‚Šä¸Šã’ ä¸­ ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã¨ã©ã‚ã ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ€¥é™ä¸‹æ”»æ’ƒ;é€æ˜ŽåŒ– å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€é­”æ³•é™£ ç™½ Inori.wav èƒŒé¢;é€æ˜ŽåŒ– å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ è§£é™¤;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç«œè™Žï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æ€¥é™ä¸‹ ç™½ Bazooka.wav;0.1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç«œè™Žï¼ æ»…ç‰™æ–¬ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€å…‰å™´å‡º ç™½ FastGun.wav
+ç«œè™Žæ»…ç‰™æ–¬(å‘½ä¸­), å…‰æŒ¯ã‚Šä¸Šã’ ä¸­ ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œå¥¥ç¾©ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ€¥é™ä¸‹æ”»æ’ƒ;é€æ˜ŽåŒ– å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€é­”æ³•é™£ ç™½ Inori.wav èƒŒé¢;é€æ˜ŽåŒ– å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ è§£é™¤;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç«œè™Žï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æ€¥é™ä¸‹ ç™½ Bazooka.wav;0.1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç«œè™Žï¼ æ»…ç‰™æ–¬ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€å…‰å™´å‡º ç™½ FastGun.wav
+ç«œè™Žæ»…ç‰™æ–¬(å‘½ä¸­), å…‰æŒ¯ã‚Šä¸Šã’ ä¸­ ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œå¿…æ®ºï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ€¥é™ä¸‹æ”»æ’ƒ;é€æ˜ŽåŒ– å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€é­”æ³•é™£ ç™½ Inori.wav èƒŒé¢;é€æ˜ŽåŒ– å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ è§£é™¤;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç«œè™Žï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æ€¥é™ä¸‹ ç™½ Bazooka.wav;0.1;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç«œè™Žï¼ æ»…ç‰™æ–¬ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€å…‰å™´å‡º ç™½ FastGun.wav
+é¢¨å¡µå°ç¸›æ®º(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç·‘ Charge(High).wav
+é¢¨å¡µå°ç¸›æ®º(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å™´å‡ºæº–å‚™ ç·‘ Storm.wav
+é¢¨å¡µå°ç¸›æ®º(å‘½ä¸­), ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ;è¶…æ–¬æ’ƒ ç·‘ -.wav
+æ¥µå…‰å£(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+æ¥µå…‰å£(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å™´å‡ºæº–å‚™ ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã¯ã‚ããããã£ï¼ æ¥µå…‰å£ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å¤§å™´å‡ºæº–å‚™ ç™½ Charge(high).wav
+æ¥µå…‰å£(å‘½ä¸­), é£›æ²« ç™½ Inori.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav
+æ¥µå…‰å‰£(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+æ¥µå…‰å‰£(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å™´å‡ºæº–å‚™ ç™½;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å¤§å™´å‡ºæº–å‚™ ç™½ Charge(high).wav
+æ¥µå…‰å‰£(å‘½ä¸­), é£›æ²« ç™½ Inori.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡æº–å‚™ ç™½ Charge(High).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã“ã‚Œã§ã£ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬æ’ƒæ”»æ’ƒ;å…‰æ–¬æ’ƒ ç™½ å¤§;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãªãŽæ‰•ã„æ”»æ’ƒ;å¤§åˆºçª ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬æ’ƒæ”»æ’ƒ;å…‰æ–¬æ’ƒ ç™½ å¤§;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãªãŽæ‰•ã„æ”»æ’ƒ;å¤§åˆºçª ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã“ã‚Œã§ã£ï¼ çµ‚ã‚ã‚Šã ããããã£ï¼ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãªãŽæ‰•ã„æ”»æ’ƒ;è¶…æ–¬æ’ƒ ç™½ Inori.wav
+æ¥µå…‰å‰£(å‘½ä¸­), é£›æ²« ç™½ Inori.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡æº–å‚™ ç™½ Charge(High).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã“ã‚Œã§ã£â€¦â€¦çµ‚ã‚ã‚Šã ã£ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬æ’ƒæ”»æ’ƒ;å…‰æ–¬æ’ƒ ç™½ å¤§;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãªãŽæ‰•ã„æ”»æ’ƒ;å¤§åˆºçª ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬æ’ƒæ”»æ’ƒ;å…‰æ–¬æ’ƒ ç™½ å¤§;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãªãŽæ‰•ã„æ”»æ’ƒ;å¤§åˆºçª ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã“ã‚Œã§ã£â€¦â€¦çµ‚ã‚ã‚Šã ã£ï¼ æ¥µå…‰å‰£ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãªãŽæ‰•ã„æ”»æ’ƒ;è¶…æ–¬æ’ƒ ç™½ Inori.wav
+é˜»æ­¢(æ¥µå…‰æ³¢), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½ Charge(High).wav ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;å…‰ãƒãƒªã‚¢ -.wav ã‚¨ã‚¿ãƒ¼ãƒŠãƒ«ãƒ»ã‚¤ãƒ³ãƒ•ã‚£ãƒ‹ãƒ†ã‚£
+ï¼©ãƒ»ãƒªãƒ´ã‚¡ã‚¤ãƒ´ã‚¡ãƒ¼(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+ï¼©ãƒ»ãƒªãƒ´ã‚¡ã‚¤ãƒ´ã‚¡ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å™´å‡ºæº–å‚™ ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã¯ã‚ããããããããã£ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å¤§å™´å‡ºæº–å‚™ ç™½ Charge(high).wav;å…‰çƒæ”¾å‡º ç™½ -.wav
+ï¼©ãƒ»ãƒªãƒ´ã‚¡ã‚¤ãƒ´ã‚¡ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å™´å‡ºæº–å‚™ ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã†ãŠã‰ã‰ã‰ã‰ã‰ã‰ã‰ã‰ã£ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å¤§å™´å‡ºæº–å‚™ ç™½ Charge(high).wav;å…‰çƒæ”¾å‡º ç™½ -.wav
+ï¼©ãƒ»ãƒªãƒ´ã‚¡ã‚¤ãƒ´ã‚¡ãƒ¼(å‘½ä¸­), å…‰çƒé›†ä¸­ ç™½ -.wav;ã‚ªãƒ¼ãƒ© ç™½ Explode(Nuclear).wav
 
-ƒtƒ@ƒ‰ƒGƒ‹ƒXƒeƒbƒh
-###’Êí###
-ƒŒƒOƒ‹ƒX—¬Ši“¬p(UŒ‚), Ši“¬
-ƒŒƒOƒ‹ƒX—¬Ši“¬p(UŒ‚), ‘Å“Ë
-ƒŒƒOƒ‹ƒX—¬Ši“¬p(UŒ‚), ƒLƒbƒN
-ƒŒƒOƒ‹ƒX—¬Ši“¬p(–½’†), ‘ÅŒ‚
-###’nã‹Z###
-¶’ê”j(UŒ‚), @í“¬ƒAƒjƒ_—±ŽqW’†€”õ ”’;‘Å“Ë
-¶’ê”j(–½’†), ‹­‘Å
-ŽOŽU‰Ø(UŒ‚), Ši“¬
-ŽOŽU‰Ø(–½’†), ˜A‘Å
-˜A‰å’e(UŒ‚), ˜A‘Å
-˜A‰å’e(–½’†), ˜A‘Å;‹­‘Å
-###‘Î‹ó‹Z###
-”ò‰˜A‹r(UŒ‚), ƒAƒbƒp[
-”ò‰˜A‹r(–½’†), ˜A‘Å
-‰ç—´‹ó”j(UŒ‚), U‚èã‚°
-‰ç—´‹ó”j(–½’†), ƒAƒbƒp[;@í“¬ƒAƒjƒ_ƒAƒbƒp[UŒ‚;’´ƒAƒbƒp[
-”ò‰˜A“V‹r(UŒ‚), ƒAƒbƒp[
-”ò‰˜A“V‹r(–½’†), ˜A‘Å;@í“¬ƒAƒjƒ_ƒoƒbƒNƒLƒbƒNUŒ‚;ƒAƒbƒp[
-###‹ó’†‹Z###
-‘é’ÜRŒ‚(UŒ‚), ƒWƒƒƒ“ƒv
-‘é’ÜRŒ‚(–½’†), “‚’|Š„‚è
-ŽU‰Ø–ÒP‹r(UŒ‚), ƒWƒƒƒ“ƒv
-ŽU‰Ø–ÒP‹r(–½’†), “‚’|Š„‚è;@í“¬ƒAƒjƒ_Ši“¬UŒ‚;˜A‘Å
-‘é’Ü—ŽàeR(UŒ‚), ƒWƒƒƒ“ƒv
-‘é’Ü—ŽàeR(–½’†), ƒ_ƒ[ƒW ”’ Punch.wav;ƒ_ƒ[ƒW ”’ Punch.wav;ƒX[ƒp[ƒLƒbƒN ”’
-###‹­‘Å‹Z###
-“_ŒŠ”›‘Ô(€”õ), ƒI[ƒ‰ã¸ ”’
-“_ŒŠ”›‘Ô(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’;ŽÀ’e”­ŽË _GetWPBN(”g“®•úŽË(”’)) 56 Whiz.wav
-“_ŒŠ”›‘Ô(–½’†), ƒ_ƒ[ƒW ”’
-‘o“³¶’ê”j(UŒ‚), @í“¬ƒAƒjƒ_—±ŽqW’†€”õ ”’;‘Å“Ë
-‘o“³¶’ê”j(–½’†), ‹­‘Å;@í“¬ƒAƒjƒ_‹C’eUŒ‚ Â Whiz.wav;ƒ_ƒ[ƒW Â Crash.wav
-”ª—t˜A‰å(UŒ‚), ˜A‘Å
-”ª—t˜A‰å(–½’†), ˜A‘Å;@í“¬ƒAƒjƒ_“]ˆÚ;@í“¬ƒAƒjƒ_˜A‘ÅUŒ‚;˜A‘Å;ƒAƒbƒp[
-Ž‚Žqí™á(UŒ‚), ˜A‘Å
-Ž‚Žqí™á(–½’†), ˜A‘Å;@í“¬ƒAƒjƒ_ŽÀ’e”­ŽËUŒ‚ _GetWPBN(”g“®•úŽË(”’)) 56 AntiAirMissile.wav;ƒ_ƒ[ƒW ”’ Crash.wav
-ŽEŒ€•‘rŒ(UŒ‚), —‘Å
-ŽEŒ€•‘rŒ(–½’†), —‘Å;@í“¬ƒAƒjƒ_ƒAƒbƒp[UŒ‚;˜A‘Å;@í“¬ƒAƒjƒ_ƒoƒbƒNƒLƒbƒNUŒ‚;ƒAƒbƒp[;_
-@@@@@@@@@@í“¬ƒAƒjƒ_U‚èã‚°‘å‰ŠŽaŒ‚UŒ‚ Ô AntiAirMissile.wav;’´ƒAƒbƒp[
-###‰ñ•œŒn###
-Ž¡–üŒ÷(€”õ), —±ŽqW’† ”’
-Ž¡–üŒ÷(Žg—p), –‚–@•úŽË ”’ -.wav
-Ž¡–üŒ÷(”­“®), ‰ñ•œ–‚–@
-‰ð“ÅŒ÷(€”õ), —±ŽqW’† ”’
-‰ð“ÅŒ÷(Žg—p), –‚–@•úŽË ”’ -.wav
-‰ð“ÅŒ÷(”­“®), ‰ñ•œ–‚–@
-‰ñ¶Œ÷(€”õ), —±ŽqW’† ”’
-‰ñ¶Œ÷(Žg—p), –‚–@•úŽË ”’ -.wav
-‰ñ¶Œ÷(”­“®), ‰ñ•œ–‚–@;Œõ’Œ
-###‹¦—Í‹Z###
-ŠC—´Œ(€”õ), Œõ•¬o ”’ Whiz.wav partner(1)
-ŠC—´Œ(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ …F Whiz.wav partner(1);ŽÀ’e”­ŽË _GetWPBN(”g“®•úŽË(…F)) 56 Whiz.wav
-ŠC—´Œ(–½’†), ƒ_ƒ[ƒW Â Splash.wav
-—‹‘MŒ(€”õ), Œõ•¬o ”’ Whiz.wav partner(1);–‚•ûw Ž‡ Flair.wav partner(1)
-—‹‘MŒ(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ž‡ Whiz.wav partner(1);‘å•ú“d ‰©
-—‹‘MŒ(–½’†), •ú“d;@í“¬ƒAƒjƒ_‘åƒr[ƒ€UŒ‚ ‰© Thunder.wav ƒ`ƒƒ[ƒW‚È‚µ;”ò–— ‰© -.wav
-###”é‰œ‹`###
-Ž‚™á”šÓw(€”õ), ƒI[ƒ‰ã¸ ”’ Charge(High).wav
-Ž‚™á”šÓw(UŒ‚), ŽÀ’e˜AŽË _GetWPBN(”g“®•úŽË(”’)) 56 AntiAirMissile.wav ’x
-Ž‚™á”šÓw(–½’†), ƒ_ƒ[ƒW ”’ Crash.wav;ƒ_ƒ[ƒW ”’ Crash.wav;ƒ_ƒ[ƒW ”’ Crash.wav;_
-@@@@@@@@@u‚«”ò‚×IIv;_
-@@@@@@@@@@í“¬ƒAƒjƒ_ŽÀ’e”­ŽËUŒ‚ _GetWPBN(”g“®•úŽË(”’)) 84 Bazooka.wav;ƒ_ƒ[ƒW ”’ -.wav
-Ž‚™á”šÓw(–½’†), ƒ_ƒ[ƒW ”’ Crash.wav;ƒ_ƒ[ƒW ”’ Crash.wav;ƒ_ƒ[ƒW ”’ Crash.wav;_
-@@@@@@@@@u‚Æ‚Ç‚ß‚ÁIIv;_
-@@@@@@@@@@í“¬ƒAƒjƒ_ŽÀ’e”­ŽËUŒ‚ _GetWPBN(”g“®•úŽË(”’)) 84 Bazooka.wav;ƒ_ƒ[ƒW ”’ -.wav
-‰Î—´‰Š•‘(€”õ), ƒI[ƒ‰ã¸ Ô Charge(High).wav
-‰Î—´‰Š•‘(UŒ‚), ƒX[ƒp[ƒ^ƒbƒNƒ‹ Ô
-‰Î—´‰Š•‘(–½’†), ’´ƒAƒbƒp[;_
-@@@@@@@@u”R‚¦‚ë‚§‚§‚§‚ÁIv;_
-@@@@@@@@@í“¬ƒAƒjƒ_ƒoƒbƒNƒLƒbƒNUŒ‚ 2 AntiAirMissile.wav;‘å”š”­;’´”š”­
-‰Î—´‰Š•‘(–½’†), ’´ƒAƒbƒp[;_
-@@@@@@@@u”R‚¦‚ë‚ÁIv;_
-@@@@@@@@@í“¬ƒAƒjƒ_ƒoƒbƒNƒLƒbƒNUŒ‚ 2 AntiAirMissile.wav;‘å”š”­;’´”š”­
+ãƒ•ã‚¡ãƒ©ï¼ã‚¨ãƒ«ã‚¹ãƒ†ãƒƒãƒ‰
+###é€šå¸¸###
+ãƒ¬ã‚°ãƒ«ã‚¹æµæ ¼é—˜è¡“(æ”»æ’ƒ), æ ¼é—˜
+ãƒ¬ã‚°ãƒ«ã‚¹æµæ ¼é—˜è¡“(æ”»æ’ƒ), æ‰“çª
+ãƒ¬ã‚°ãƒ«ã‚¹æµæ ¼é—˜è¡“(æ”»æ’ƒ), ã‚­ãƒƒã‚¯
+ãƒ¬ã‚°ãƒ«ã‚¹æµæ ¼é—˜è¡“(å‘½ä¸­), æ‰“æ’ƒ
+###åœ°ä¸ŠæŠ€###
+æŽŒåº•ç ´(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç²’å­é›†ä¸­æº–å‚™ ç™½;æ‰“çª
+æŽŒåº•ç ´(å‘½ä¸­), å¼·æ‰“
+ä¸‰æ•£è¯(æ”»æ’ƒ), æ ¼é—˜
+ä¸‰æ•£è¯(å‘½ä¸­), é€£æ‰“
+é€£ç‰™å¼¾(æ”»æ’ƒ), é€£æ‰“
+é€£ç‰™å¼¾(å‘½ä¸­), é€£æ‰“;å¼·æ‰“
+###å¯¾ç©ºæŠ€###
+é£›ç‡•é€£è„š(æ”»æ’ƒ), ã‚¢ãƒƒãƒ‘ãƒ¼
+é£›ç‡•é€£è„š(å‘½ä¸­), é€£æ‰“
+è‡¥é¾ç©ºç ´(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’
+è‡¥é¾ç©ºç ´(å‘½ä¸­), ã‚¢ãƒƒãƒ‘ãƒ¼;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¢ãƒƒãƒ‘ãƒ¼æ”»æ’ƒ;è¶…ã‚¢ãƒƒãƒ‘ãƒ¼
+é£›ç‡•é€£å¤©è„š(æ”»æ’ƒ), ã‚¢ãƒƒãƒ‘ãƒ¼
+é£›ç‡•é€£å¤©è„š(å‘½ä¸­), é€£æ‰“;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒãƒƒã‚¯ã‚­ãƒƒã‚¯æ”»æ’ƒ;ã‚¢ãƒƒãƒ‘ãƒ¼
+###ç©ºä¸­æŠ€###
+é·¹çˆªè¹´æ’ƒ(æ”»æ’ƒ), ã‚¸ãƒ£ãƒ³ãƒ—
+é·¹çˆªè¹´æ’ƒ(å‘½ä¸­), å”ç«¹å‰²ã‚Š
+æ•£è¯çŒ›è¥²è„š(æ”»æ’ƒ), ã‚¸ãƒ£ãƒ³ãƒ—
+æ•£è¯çŒ›è¥²è„š(å‘½ä¸­), å”ç«¹å‰²ã‚Š;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ ¼é—˜æ”»æ’ƒ;é€£æ‰“
+é·¹çˆªè½ç€‘è¹´(æ”»æ’ƒ), ã‚¸ãƒ£ãƒ³ãƒ—
+é·¹çˆªè½ç€‘è¹´(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Punch.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Punch.wav;ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚­ãƒƒã‚¯ ç™½
+###å¼·æ‰“æŠ€###
+ç‚¹ç©´ç¸›æ…‹(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+ç‚¹ç©´ç¸›æ…‹(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½;å®Ÿå¼¾ç™ºå°„ _GetWPBN(æ³¢å‹•æ”¾å°„(ç™½)) 56 Whiz.wav
+ç‚¹ç©´ç¸›æ…‹(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½
+åŒæ’žæŽŒåº•ç ´(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç²’å­é›†ä¸­æº–å‚™ ç™½;æ‰“çª
+åŒæ’žæŽŒåº•ç ´(å‘½ä¸­), å¼·æ‰“;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ°—å¼¾æ”»æ’ƒ é’ Whiz.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ é’ Crash.wav
+å…«è‘‰é€£ç‰™(æ”»æ’ƒ), é€£æ‰“
+å…«è‘‰é€£ç‰™(å‘½ä¸­), é€£æ‰“;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è»¢ç§»;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é€£æ‰“æ”»æ’ƒ;é€£æ‰“;ã‚¢ãƒƒãƒ‘ãƒ¼
+ç…å­æˆ¦å¼(æ”»æ’ƒ), é€£æ‰“
+ç…å­æˆ¦å¼(å‘½ä¸­), é€£æ‰“;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å®Ÿå¼¾ç™ºå°„æ”»æ’ƒ _GetWPBN(æ³¢å‹•æ”¾å°„(ç™½)) 56 AntiAirMissile.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Crash.wav
+æ®ºåŠ‡èˆžè’æ‹³(æ”»æ’ƒ), ä¹±æ‰“
+æ®ºåŠ‡èˆžè’æ‹³(å‘½ä¸­), ä¹±æ‰“;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¢ãƒƒãƒ‘ãƒ¼æ”»æ’ƒ;é€£æ‰“;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒãƒƒã‚¯ã‚­ãƒƒã‚¯æ”»æ’ƒ;ã‚¢ãƒƒãƒ‘ãƒ¼;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚Šä¸Šã’å¤§ç‚Žæ–¬æ’ƒæ”»æ’ƒ èµ¤ AntiAirMissile.wav;è¶…ã‚¢ãƒƒãƒ‘ãƒ¼
+###å›žå¾©ç³»###
+æ²»ç™’åŠŸ(æº–å‚™), ç²’å­é›†ä¸­ ç™½
+æ²»ç™’åŠŸ(ä½¿ç”¨), é­”æ³•æ”¾å°„ ç™½ -.wav
+æ²»ç™’åŠŸ(ç™ºå‹•), å›žå¾©é­”æ³•
+è§£æ¯’åŠŸ(æº–å‚™), ç²’å­é›†ä¸­ ç™½
+è§£æ¯’åŠŸ(ä½¿ç”¨), é­”æ³•æ”¾å°„ ç™½ -.wav
+è§£æ¯’åŠŸ(ç™ºå‹•), å›žå¾©é­”æ³•
+å›žç”ŸåŠŸ(æº–å‚™), ç²’å­é›†ä¸­ ç™½
+å›žç”ŸåŠŸ(ä½¿ç”¨), é­”æ³•æ”¾å°„ ç™½ -.wav
+å›žç”ŸåŠŸ(ç™ºå‹•), å›žå¾©é­”æ³•;å…‰æŸ±
+###å”åŠ›æŠ€###
+æµ·é¾æ‹³(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav partner(1)
+æµ·é¾æ‹³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ°´è‰² Whiz.wav partner(1);å®Ÿå¼¾ç™ºå°„ _GetWPBN(æ³¢å‹•æ”¾å°„(æ°´è‰²)) 56 Whiz.wav
+æµ·é¾æ‹³(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ é’ Splash.wav
+é›·é–ƒæ‹³(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav partner(1);é­”æ–¹é™£ ç´« Flair.wav partner(1)
+é›·é–ƒæ‹³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç´« Whiz.wav partner(1);å¤§æ”¾é›» é»„
+é›·é–ƒæ‹³(å‘½ä¸­), æ”¾é›»;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¤§ãƒ“ãƒ¼ãƒ æ”»æ’ƒ é»„ Thunder.wav ãƒãƒ£ãƒ¼ã‚¸ãªã—;é£›æ²« é»„ -.wav
+###ç§˜å¥¥ç¾©###
+ç…å¼çˆ†ç •é™£(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½ Charge(High).wav
+ç…å¼çˆ†ç •é™£(æ”»æ’ƒ), å®Ÿå¼¾é€£å°„ _GetWPBN(æ³¢å‹•æ”¾å°„(ç™½)) 56 AntiAirMissile.wav é…
+ç…å¼çˆ†ç •é™£(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Crash.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Crash.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Crash.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œå¹ãé£›ã¹ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å®Ÿå¼¾ç™ºå°„æ”»æ’ƒ _GetWPBN(æ³¢å‹•æ”¾å°„(ç™½)) 84 Bazooka.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ -.wav
+ç…å¼çˆ†ç •é™£(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Crash.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Crash.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Crash.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã¨ã©ã‚ã£ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å®Ÿå¼¾ç™ºå°„æ”»æ’ƒ _GetWPBN(æ³¢å‹•æ”¾å°„(ç™½)) 84 Bazooka.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ -.wav
+ç«é¾ç‚Žèˆž(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ èµ¤ Charge(High).wav
+ç«é¾ç‚Žèˆž(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« èµ¤
+ç«é¾ç‚Žèˆž(å‘½ä¸­), è¶…ã‚¢ãƒƒãƒ‘ãƒ¼;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç‡ƒãˆã‚ã‰ã‰ã‰ã£ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒãƒƒã‚¯ã‚­ãƒƒã‚¯æ”»æ’ƒ 2 AntiAirMissile.wav;å¤§çˆ†ç™º;è¶…çˆ†ç™º
+ç«é¾ç‚Žèˆž(å‘½ä¸­), è¶…ã‚¢ãƒƒãƒ‘ãƒ¼;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç‡ƒãˆã‚ã£ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒãƒƒã‚¯ã‚­ãƒƒã‚¯æ”»æ’ƒ 2 AntiAirMissile.wav;å¤§çˆ†ç™º;è¶…çˆ†ç™º
 
-ƒL[ƒ‹ƒcƒ@ƒCƒxƒ‹
-ƒƒbƒh, ‰£‘Å•Ší _GetWPBN(•óÎñ(Ô))
-ƒ‹ƒr[ƒƒ“ƒh, ‰£‘Å•Ší _GetWPBN(•óÎñ(Ô))
-ƒz[ƒŠƒBƒXƒ^ƒbƒt, ‰£‘Å•Ší _GetWPBN(•óÎñ(Ô))
+ã‚­ãƒ¼ãƒ«ï¼ãƒ„ã‚¡ã‚¤ãƒ™ãƒ«
+ãƒ­ãƒƒãƒ‰, æ®´æ‰“æ­¦å™¨ _GetWPBN(å®çŸ³æ–(èµ¤))
+ãƒ«ãƒ“ãƒ¼ãƒ¯ãƒ³ãƒ‰, æ®´æ‰“æ­¦å™¨ _GetWPBN(å®çŸ³æ–(èµ¤))
+ãƒ›ãƒ¼ãƒªã‚£ã‚¹ã‚¿ãƒƒãƒ•, æ®´æ‰“æ­¦å™¨ _GetWPBN(å®çŸ³æ–(èµ¤))
 
-ƒƒ‹ƒfƒB
-ƒNƒBƒbƒL[ƒAƒ^ƒbƒN(UŒ‚), @í“¬ƒAƒjƒ_‚µ‚à‚×€”õ Unit\TOE_QuickieU.bmp;_
-@@@@@@@@@@@@@ŽÀ’e”­ŽË Unit\TOE_QuickieU.bmp Whiz.wav
-ƒNƒBƒbƒL[ƒAƒ^ƒbƒN(UŒ‚), @í“¬ƒAƒjƒ_‚µ‚à‚×€”õ Unit\TOE_QuickieU.bmp;_
-@@@@@@@@@@@@@‰ï˜b ƒNƒBƒbƒL[(‚s‚n‚d) ƒNƒBAƒNƒBƒbƒL[I ŒÅ’è;_
-@@@@@@@@@@@@@ŽÀ’e”­ŽË Unit\TOE_QuickieU.bmp Whiz.wav
-ƒNƒBƒbƒL[ƒAƒ^ƒbƒN(UŒ‚), @í“¬ƒAƒjƒ_‚µ‚à‚×€”õ Unit\TOE_QuickieU.bmp;_
-@@@@@@@@@@@@@‰ï˜b ƒNƒBƒbƒL[(‚s‚n‚d) ƒNƒBƒbƒL[I ŒÅ’è;_
-@@@@@@@@@@@@@ŽÀ’e”­ŽË Unit\TOE_QuickieU.bmp Whiz.wav
-ƒNƒBƒbƒL[ƒAƒ^ƒbƒN(–½’†), ‘ÅŒ‚
+ãƒ¡ãƒ«ãƒ‡ã‚£
+ã‚¯ã‚£ãƒƒã‚­ãƒ¼ã‚¢ã‚¿ãƒƒã‚¯(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã—ã‚‚ã¹æº–å‚™ Unit\TOE_QuickieU.bmp;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€å®Ÿå¼¾ç™ºå°„ Unit\TOE_QuickieU.bmp Whiz.wav
+ã‚¯ã‚£ãƒƒã‚­ãƒ¼ã‚¢ã‚¿ãƒƒã‚¯(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã—ã‚‚ã¹æº–å‚™ Unit\TOE_QuickieU.bmp;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± ã‚¯ã‚£ãƒƒã‚­ãƒ¼(ï¼´ï¼¯ï¼¥) ã‚¯ã‚£ã€ã‚¯ã‚£ãƒƒã‚­ãƒ¼ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€å®Ÿå¼¾ç™ºå°„ Unit\TOE_QuickieU.bmp Whiz.wav
+ã‚¯ã‚£ãƒƒã‚­ãƒ¼ã‚¢ã‚¿ãƒƒã‚¯(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã—ã‚‚ã¹æº–å‚™ Unit\TOE_QuickieU.bmp;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± ã‚¯ã‚£ãƒƒã‚­ãƒ¼(ï¼´ï¼¯ï¼¥) ã‚¯ã‚£ãƒƒã‚­ãƒ¼ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€å®Ÿå¼¾ç™ºå°„ Unit\TOE_QuickieU.bmp Whiz.wav
+ã‚¯ã‚£ãƒƒã‚­ãƒ¼ã‚¢ã‚¿ãƒƒã‚¯(å‘½ä¸­), æ‰“æ’ƒ
 
-ƒ`ƒƒƒbƒg
-###’Êí###
-ƒ`ƒƒƒbƒgƒoƒbƒO(UŒ‚), ŽaŒ‚
-ƒ`ƒƒƒbƒgƒoƒbƒO(–½’†), ƒ_ƒ[ƒW
-ƒƒ“ƒ_[ƒoƒbƒO(UŒ‚), ŽaŒ‚
-ƒƒ“ƒ_[ƒoƒbƒO(–½’†), ƒ_ƒ[ƒW
-ƒ{[ƒ‹(UŒ‚), “Š±•Ší _GetWPBN(“S‹…) 24 Swing.wav ‰º“Š‚°
-ƒ{[ƒ‹(–½’†), ƒ_ƒ[ƒW
-###“Á‹Z###
-ƒsƒRƒnƒ“(UŒ‚), “Š±•Ší˜A“Š _GetWPBN(ƒsƒRƒsƒRƒnƒ“ƒ}[) ‘O“] ‰º“Š‚°
-ƒsƒRƒnƒ“(–½’†), ƒ_ƒ[ƒW PiyoPiyo.wav
-ƒ|ƒCƒnƒ“(UŒ‚), “Š±•Ší˜A“Š _GetWPBN(ƒsƒRƒsƒRƒnƒ“ƒ}[) ‘O“] ‰º“Š‚°
-ƒ|ƒCƒnƒ“(–½’†), ƒ_ƒ[ƒW —Î Punch.wav
-ƒRƒ`ƒnƒ“(UŒ‚), “Š±•Ší˜A“Š _GetWPBN(ƒsƒRƒsƒRƒnƒ“ƒ}[) ‘O“] ‰º“Š‚°
-ƒRƒ`ƒnƒ“(–½’†), ƒ_ƒ[ƒW Â Glass.wav
-ƒpƒ‰ƒ‰ƒCƒ{[ƒ‹(UŒ‚), “Š±•Ší Magic\EFFECT_MCircle(Yellow)01.bmp 32 Swing.wav ‰º“Š‚°
-ƒpƒ‰ƒ‰ƒCƒ{[ƒ‹(–½’†), ƒ_ƒ[ƒW ‰©;•ú“d
-ƒGƒ^[ƒiƒ‹ƒXƒ[(€”õ), ƒI[ƒ‰ã¸ ”’
-ƒGƒ^[ƒiƒ‹ƒXƒ[(UŒ‚), @í“¬ƒAƒjƒ_’Ã”g€”õ;_
-@@@@@@@@@@@@‰ï˜b ‘åŠC‘¯‚ÌŽq‘·ƒ`ƒƒƒbƒg(ƒ€ƒL‚É‚È‚é) ƒGƒ^[ƒiƒ‹ƒXƒ[II ŒÅ’è;_
-@@@@@@@@@@@@“Š±•Ší—“Š _GetWPBN(ƒsƒRƒsƒRƒnƒ“ƒ}[) ‘O“] ‰º“Š‚° ‘¬;_
-@@@@@@@@@@@@“Š±•Ší—“Š _GetWPBN(ƒsƒRƒsƒRƒnƒ“ƒ}[) ”½“] ‰º“Š‚° ‘¬
-ƒGƒ^[ƒiƒ‹ƒXƒ[(UŒ‚), @í“¬ƒAƒjƒ_’Ã”g€”õ;_
-@@@@@@@@@@@@‰ï˜b ‘åŠC‘¯‚ÌŽq‘·ƒ`ƒƒƒbƒg(ƒ€ƒL‚É‚È‚é) "‚¢‚Á‚«‚Ü‚·‚æ`I ƒGƒ^[ƒiƒ‹ƒXƒ[II" ŒÅ’è;_
-@@@@@@@@@@@@“Š±•Ší—“Š _GetWPBN(ƒsƒRƒsƒRƒnƒ“ƒ}[) ‘O“] ‰º“Š‚° ‘¬;_
-@@@@@@@@@@@@“Š±•Ší—“Š _GetWPBN(ƒsƒRƒsƒRƒnƒ“ƒ}[) ”½“] ‰º“Š‚° ‘¬
-ƒGƒ^[ƒiƒ‹ƒXƒ[(–½’†), —‘Å Â Punch.wav
+ãƒãƒ£ãƒƒãƒˆ
+###é€šå¸¸###
+ãƒãƒ£ãƒƒãƒˆãƒãƒƒã‚°(æ”»æ’ƒ), æ–¬æ’ƒ
+ãƒãƒ£ãƒƒãƒˆãƒãƒƒã‚°(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸
+ãƒ¯ãƒ³ãƒ€ãƒ¼ãƒãƒƒã‚°(æ”»æ’ƒ), æ–¬æ’ƒ
+ãƒ¯ãƒ³ãƒ€ãƒ¼ãƒãƒƒã‚°(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸
+ãƒœãƒ¼ãƒ«(æ”»æ’ƒ), æŠ•æ“²æ­¦å™¨ _GetWPBN(é‰„çƒ) 24 Swing.wav ä¸‹æŠ•ã’
+ãƒœãƒ¼ãƒ«(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸
+###ç‰¹æŠ€###
+ãƒ”ã‚³ãƒãƒ³(æ”»æ’ƒ), æŠ•æ“²æ­¦å™¨é€£æŠ• _GetWPBN(ãƒ”ã‚³ãƒ”ã‚³ãƒãƒ³ãƒžãƒ¼) å‰è»¢ ä¸‹æŠ•ã’
+ãƒ”ã‚³ãƒãƒ³(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ PiyoPiyo.wav
+ãƒã‚¤ãƒãƒ³(æ”»æ’ƒ), æŠ•æ“²æ­¦å™¨é€£æŠ• _GetWPBN(ãƒ”ã‚³ãƒ”ã‚³ãƒãƒ³ãƒžãƒ¼) å‰è»¢ ä¸‹æŠ•ã’
+ãƒã‚¤ãƒãƒ³(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç·‘ Punch.wav
+ã‚³ãƒãƒãƒ³(æ”»æ’ƒ), æŠ•æ“²æ­¦å™¨é€£æŠ• _GetWPBN(ãƒ”ã‚³ãƒ”ã‚³ãƒãƒ³ãƒžãƒ¼) å‰è»¢ ä¸‹æŠ•ã’
+ã‚³ãƒãƒãƒ³(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ é’ Glass.wav
+ãƒ‘ãƒ©ãƒ©ã‚¤ãƒœãƒ¼ãƒ«(æ”»æ’ƒ), æŠ•æ“²æ­¦å™¨ Magic\EFFECT_MCircle(Yellow)01.bmp 32 Swing.wav ä¸‹æŠ•ã’
+ãƒ‘ãƒ©ãƒ©ã‚¤ãƒœãƒ¼ãƒ«(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ é»„;æ”¾é›»
+ã‚¨ã‚¿ãƒ¼ãƒŠãƒ«ã‚¹ãƒ­ãƒ¼(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+ã‚¨ã‚¿ãƒ¼ãƒŠãƒ«ã‚¹ãƒ­ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ´¥æ³¢æº–å‚™;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± å¤§æµ·è³Šã®å­å­«ãƒãƒ£ãƒƒãƒˆ(ãƒ ã‚­ã«ãªã‚‹) ã‚¨ã‚¿ãƒ¼ãƒŠãƒ«ã‚¹ãƒ­ãƒ¼ï¼ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŠ•æ“²æ­¦å™¨ä¹±æŠ• _GetWPBN(ãƒ”ã‚³ãƒ”ã‚³ãƒãƒ³ãƒžãƒ¼) å‰è»¢ ä¸‹æŠ•ã’ é€Ÿ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŠ•æ“²æ­¦å™¨ä¹±æŠ• _GetWPBN(ãƒ”ã‚³ãƒ”ã‚³ãƒãƒ³ãƒžãƒ¼) åè»¢ ä¸‹æŠ•ã’ é€Ÿ
+ã‚¨ã‚¿ãƒ¼ãƒŠãƒ«ã‚¹ãƒ­ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ´¥æ³¢æº–å‚™;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± å¤§æµ·è³Šã®å­å­«ãƒãƒ£ãƒƒãƒˆ(ãƒ ã‚­ã«ãªã‚‹) "ã„ã£ãã¾ã™ã‚ˆï½žï¼ ã‚¨ã‚¿ãƒ¼ãƒŠãƒ«ã‚¹ãƒ­ãƒ¼ï¼ï¼" å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŠ•æ“²æ­¦å™¨ä¹±æŠ• _GetWPBN(ãƒ”ã‚³ãƒ”ã‚³ãƒãƒ³ãƒžãƒ¼) å‰è»¢ ä¸‹æŠ•ã’ é€Ÿ;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€æŠ•æ“²æ­¦å™¨ä¹±æŠ• _GetWPBN(ãƒ”ã‚³ãƒ”ã‚³ãƒãƒ³ãƒžãƒ¼) åè»¢ ä¸‹æŠ•ã’ é€Ÿ
+ã‚¨ã‚¿ãƒ¼ãƒŠãƒ«ã‚¹ãƒ­ãƒ¼(å‘½ä¸­), ä¹±æ‰“ é’ Punch.wav
 
-ƒtƒHƒbƒO
-###’Êí###
-‹‰õ‰£Œ‚(UŒ‚), ‚È‚¬•¥‚¢
-‹‰õ‰£Œ‚(–½’†), ‹­‘Å
-###“Á‹Z###
-ƒGƒAƒuƒŒƒCƒh(UŒ‚), ƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[ —Î _GetWPBN(ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[) 64 ƒ`ƒƒ[ƒW‚È‚µ
-ƒGƒAƒuƒŒƒCƒh(–½’†), ’†ƒr[ƒ€ —Î
-ƒo[ƒjƒ“ƒOƒtƒH[ƒX(UŒ‚), —³’ee Ô _GetWPBN(ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[) 64 Bazooka.wav
-ƒo[ƒjƒ“ƒOƒtƒH[ƒX(–½’†), ‘å”š”­
-ƒAƒNƒAƒXƒpƒCƒ‰ƒ‹(UŒ‚), ŽèŽ‚¿”­ŽË _GetWPBN(ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[) 64 ‘ÎÛƒ†ƒjƒbƒg‚h‚c _GetWPBN(ŒõŒ‚(…F)) 40 Cannon.wav
-ƒAƒNƒAƒXƒpƒCƒ‰ƒ‹(–½’†), ”ò–— …F Splash.wav
-ƒŒƒCƒWƒŒ[ƒU[(UŒ‚), ƒVƒ‡ƒbƒNƒr[ƒ€ƒKƒ“ ”’ _GetWPBN(ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[) 64
-ƒŒƒCƒWƒŒ[ƒU[(–½’†), ‘å”š”­ ”’
-ƒ_[ƒNƒCƒŒƒCƒU[(UŒ‚), ‹‘åƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[ •
-ƒ_[ƒNƒCƒŒƒCƒU[(–½’†), ‘å”š”­ •
-ƒGƒŒƒƒ“ƒ^ƒ‹ƒ}ƒXƒ^[(€”õ), ƒI[ƒ‰ã¸ ”’;‹‘åƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[ -.wav
-ƒGƒŒƒƒ“ƒ^ƒ‹ƒ}ƒXƒ^[(UŒ‚), ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒCƒtƒ‹ Ô _GetWPBN(ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[) 64 ƒ`ƒƒ[ƒW‚È‚µ;_
-@@@@@@@@@@@@@@ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒCƒtƒ‹ —Î _GetWPBN(ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[) 64 ƒ`ƒƒ[ƒW‚È‚µ;_
-@@@@@@@@@@@@@@ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒCƒtƒ‹ Â _GetWPBN(ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[) 64 ƒ`ƒƒ[ƒW‚È‚µ;_
-@@@@@@@@@@@@@@ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒCƒtƒ‹ ‰© _GetWPBN(ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[) 64 ƒ`ƒƒ[ƒW‚È‚µ;_
-@@@@@@@@@@@@@@uƒOƒbƒnƒbƒnƒbƒnƒbƒnƒbIv;_
-@@@@@@@@@@@@@@‹‘åƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[ ”’
-ƒGƒŒƒƒ“ƒ^ƒ‹ƒ}ƒXƒ^[(–½’†), ‘åƒr[ƒ€ Ô;‘åƒr[ƒ€ —Î;‘åƒr[ƒ€ Â;‘åƒr[ƒ€ ‰©;‹‘åƒr[ƒ€ ”’
+ãƒ•ã‚©ãƒƒã‚°
+###é€šå¸¸###
+è±ªå¿«æ®´æ’ƒ(æ”»æ’ƒ), ãªãŽæ‰•ã„
+è±ªå¿«æ®´æ’ƒ(å‘½ä¸­), å¼·æ‰“
+###ç‰¹æŠ€###
+ã‚¨ã‚¢ãƒ–ãƒ¬ã‚¤ãƒ‰(æ”»æ’ƒ), ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼ ç·‘ _GetWPBN(ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼) 64 ãƒãƒ£ãƒ¼ã‚¸ãªã—
+ã‚¨ã‚¢ãƒ–ãƒ¬ã‚¤ãƒ‰(å‘½ä¸­), ä¸­ãƒ“ãƒ¼ãƒ  ç·‘
+ãƒãƒ¼ãƒ‹ãƒ³ã‚°ãƒ•ã‚©ãƒ¼ã‚¹(æ”»æ’ƒ), ç«œå¼¾éŠƒ èµ¤ _GetWPBN(ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼) 64 Bazooka.wav
+ãƒãƒ¼ãƒ‹ãƒ³ã‚°ãƒ•ã‚©ãƒ¼ã‚¹(å‘½ä¸­), å¤§çˆ†ç™º
+ã‚¢ã‚¯ã‚¢ã‚¹ãƒ‘ã‚¤ãƒ©ãƒ«(æ”»æ’ƒ), æ‰‹æŒã¡ç™ºå°„ _GetWPBN(ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼) 64 å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ _GetWPBN(å…‰æ’ƒ(æ°´è‰²)) 40 Cannon.wav
+ã‚¢ã‚¯ã‚¢ã‚¹ãƒ‘ã‚¤ãƒ©ãƒ«(å‘½ä¸­), é£›æ²« æ°´è‰² Splash.wav
+ãƒ¬ã‚¤ã‚¸ãƒ¬ãƒ¼ã‚¶ãƒ¼(æ”»æ’ƒ), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ ã‚¬ãƒ³ ç™½ _GetWPBN(ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼) 64
+ãƒ¬ã‚¤ã‚¸ãƒ¬ãƒ¼ã‚¶ãƒ¼(å‘½ä¸­), å¤§çˆ†ç™º ç™½
+ãƒ€ãƒ¼ã‚¯ã‚¤ãƒ¬ã‚¤ã‚¶ãƒ¼(æ”»æ’ƒ), å·¨å¤§ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼ é»’
+ãƒ€ãƒ¼ã‚¯ã‚¤ãƒ¬ã‚¤ã‚¶ãƒ¼(å‘½ä¸­), å¤§çˆ†ç™º é»’
+ã‚¨ãƒ¬ãƒ¡ãƒ³ã‚¿ãƒ«ãƒžã‚¹ã‚¿ãƒ¼(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½;å·¨å¤§ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼ -.wav
+ã‚¨ãƒ¬ãƒ¡ãƒ³ã‚¿ãƒ«ãƒžã‚¹ã‚¿ãƒ¼(æ”»æ’ƒ), ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ« èµ¤ _GetWPBN(ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼) 64 ãƒãƒ£ãƒ¼ã‚¸ãªã—;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ« ç·‘ _GetWPBN(ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼) 64 ãƒãƒ£ãƒ¼ã‚¸ãªã—;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ« é’ _GetWPBN(ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼) 64 ãƒãƒ£ãƒ¼ã‚¸ãªã—;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ« é»„ _GetWPBN(ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼) 64 ãƒãƒ£ãƒ¼ã‚¸ãªã—;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã‚°ãƒƒãƒãƒƒãƒãƒƒãƒãƒƒãƒãƒƒï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€å·¨å¤§ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼ ç™½
+ã‚¨ãƒ¬ãƒ¡ãƒ³ã‚¿ãƒ«ãƒžã‚¹ã‚¿ãƒ¼(å‘½ä¸­), å¤§ãƒ“ãƒ¼ãƒ  èµ¤;å¤§ãƒ“ãƒ¼ãƒ  ç·‘;å¤§ãƒ“ãƒ¼ãƒ  é’;å¤§ãƒ“ãƒ¼ãƒ  é»„;å·¨å¤§ãƒ“ãƒ¼ãƒ  ç™½
 
-ƒŒƒCƒVƒXƒtƒH[ƒ}ƒ‹ƒnƒEƒg
-###’Êí###
-ƒZƒCƒ“ƒgƒŒƒCƒsƒA, Œ•
-###“Á‹Z###
-•——‹_Œ•(€”õ), -
-•——‹_Œ•(UŒ‚), Ši“¬ Storm.wav
-•——‹_Œ•(–½’†), Žh“Ë —Î;—Ž—‹ ‰©
-H¹‰J(UŒ‚), —“Ë
-H¹‰J(–½’†), —“Ë;U‚èã‚°
-’Ü—³˜A‰åŽa(UŒ‚), Ši“¬
-’Ü—³˜A‰åŽa(–½’†), ŽaŒ‚—•‘;U‚èã‚°
-’Ü—³ŽaŒõŒ•(UŒ‚), @í“¬ƒAƒjƒ_“]ˆÚ
-’Ü—³ŽaŒõŒ•(–½’†), “§–¾‰» ‘ÎÛƒ†ƒjƒbƒg‚h‚c;ƒX[ƒp[ƒ^ƒbƒNƒ‹ ”’;’´ŽaŒ‚ ”’;“§–¾‰» ‘ÎÛƒ†ƒjƒbƒg‚h‚c ‰ðœ;”ò–— ”’ -.wav
-###”é‰œ‹`###
-‹ÉŒõ•Ç(€”õ), ƒI[ƒ‰ã¸ ”’
-‹ÉŒõ•Ç(UŒ‚), @í“¬ƒAƒjƒ_Œõ•¬o€”õ ”’;_
-@@@@@@@u‚Í‚ ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚ÁI ‹ÉŒõ•ÇIIv;_
-@@@@@@@@í“¬ƒAƒjƒ_Œõ‘å•¬o€”õ ”’ Charge(high).wav
-‹ÉŒõ•Ç(–½’†), ”ò–— ”’ Inori.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav
-‹ÉŒõŒ•(€”õ), ƒI[ƒ‰ã¸ ”’
-‹ÉŒõŒ•(UŒ‚), @í“¬ƒAƒjƒ_Œõ•¬o€”õ ”’;@í“¬ƒAƒjƒ_Œõ‘å•¬o€”õ ”’ Charge(high).wav
-‹ÉŒõŒ•(–½’†), ”ò–— ”’ Inori.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;”ò–— ”’ -.wav;_
-@@@@@@@@í“¬ƒAƒjƒ_ƒI[ƒ‰ã¸€”õ ”’ Charge(High).wav;_
-@@@@@@@u‚±‚ê‚ÅI‚í‚è‚É‚³‚¹‚Ä‚à‚ç‚¤‚ÁIv;_
-@@@@@@@@í“¬ƒAƒjƒ_ŽaŒ‚UŒ‚;ŒõŽaŒ‚ ”’ ‘å;@í“¬ƒAƒjƒ_‚È‚¬•¥‚¢UŒ‚;‘åŽh“Ë ”’;_
-@@@@@@@@í“¬ƒAƒjƒ_ŽaŒ‚UŒ‚;ŒõŽaŒ‚ ”’ ‘å;@í“¬ƒAƒjƒ_‚È‚¬•¥‚¢UŒ‚;‘åŽh“Ë ”’;_
-@@@@@@@u‚±‚ê‚ÅI‚í‚è‚É‚³‚¹‚Ä‚à‚ç‚¤‚ÁI ‹ÉŒõŒ•IIv;_
-@@@@@@@@í“¬ƒAƒjƒ_‚È‚¬•¥‚¢UŒ‚;’´ŽaŒ‚ ”’ Inori.wav
+ãƒ¬ã‚¤ã‚·ã‚¹ï¼ãƒ•ã‚©ãƒ¼ãƒžãƒ«ãƒã‚¦ãƒˆ
+###é€šå¸¸###
+ã‚»ã‚¤ãƒ³ãƒˆãƒ¬ã‚¤ãƒ”ã‚¢, å‰£
+###ç‰¹æŠ€###
+é¢¨é›·ç¥žå‰£(æº–å‚™), -
+é¢¨é›·ç¥žå‰£(æ”»æ’ƒ), æ ¼é—˜ Storm.wav
+é¢¨é›·ç¥žå‰£(å‘½ä¸­), åˆºçª ç·‘;è½é›· é»„
+ç§‹æ²™é›¨(æ”»æ’ƒ), ä¹±çª
+ç§‹æ²™é›¨(å‘½ä¸­), ä¹±çª;æŒ¯ã‚Šä¸Šã’
+çˆªç«œé€£ç‰™æ–¬(æ”»æ’ƒ), æ ¼é—˜
+çˆªç«œé€£ç‰™æ–¬(å‘½ä¸­), æ–¬æ’ƒä¹±èˆž;æŒ¯ã‚Šä¸Šã’
+çˆªç«œæ–¬å…‰å‰£(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è»¢ç§»
+çˆªç«œæ–¬å…‰å‰£(å‘½ä¸­), é€æ˜ŽåŒ– å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« ç™½;è¶…æ–¬æ’ƒ ç™½;é€æ˜ŽåŒ– å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ è§£é™¤;é£›æ²« ç™½ -.wav
+###ç§˜å¥¥ç¾©###
+æ¥µå…‰å£(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+æ¥µå…‰å£(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å™´å‡ºæº–å‚™ ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã¯ã‚ããããã£ï¼ æ¥µå…‰å£ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å¤§å™´å‡ºæº–å‚™ ç™½ Charge(high).wav
+æ¥µå…‰å£(å‘½ä¸­), é£›æ²« ç™½ Inori.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav
+æ¥µå…‰å‰£(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+æ¥µå…‰å‰£(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å™´å‡ºæº–å‚™ ç™½;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å¤§å™´å‡ºæº–å‚™ ç™½ Charge(high).wav
+æ¥µå…‰å‰£(å‘½ä¸­), é£›æ²« ç™½ Inori.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;é£›æ²« ç™½ -.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡æº–å‚™ ç™½ Charge(High).wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã“ã‚Œã§çµ‚ã‚ã‚Šã«ã•ã›ã¦ã‚‚ã‚‰ã†ã£ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬æ’ƒæ”»æ’ƒ;å…‰æ–¬æ’ƒ ç™½ å¤§;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãªãŽæ‰•ã„æ”»æ’ƒ;å¤§åˆºçª ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬æ’ƒæ”»æ’ƒ;å…‰æ–¬æ’ƒ ç™½ å¤§;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãªãŽæ‰•ã„æ”»æ’ƒ;å¤§åˆºçª ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã“ã‚Œã§çµ‚ã‚ã‚Šã«ã•ã›ã¦ã‚‚ã‚‰ã†ã£ï¼ æ¥µå…‰å‰£ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãªãŽæ‰•ã„æ”»æ’ƒ;è¶…æ–¬æ’ƒ ç™½ Inori.wav
 
-ƒoƒ“ƒGƒ‹ƒeƒBƒA†
-‘Ì“–‚½‚è, ƒ^ƒbƒNƒ‹
+ãƒãƒ³ã‚¨ãƒ«ãƒ†ã‚£ã‚¢å·
+ä½“å½“ãŸã‚Š, ã‚¿ãƒƒã‚¯ãƒ«
 
-…‚Ì‘å»—ìƒEƒ“ƒfƒB[ƒl
-ƒgƒ‰ƒCƒfƒ“ƒg, ƒgƒ‰ƒCƒfƒ“ƒg
-ô—ç‚Ì–µ‘„(UŒ‚), …—¬–C _GetWPBN(ƒgƒ‰ƒCƒfƒ“ƒg)
-ô—ç‚Ì–µ‘„(–½’†), …—¬
-s•Ê‚Ì•š—¬(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ …F Whiz.wav
-s•Ê‚Ì•š—¬(–½’†), ’Ã”g Splash.wav
+æ°´ã®å¤§æ™¶éœŠã‚¦ãƒ³ãƒ‡ã‚£ãƒ¼ãƒ
+ãƒˆãƒ©ã‚¤ãƒ‡ãƒ³ãƒˆ, ãƒˆãƒ©ã‚¤ãƒ‡ãƒ³ãƒˆ
+æ´—ç¤¼ã®çŸ›æ§(æ”»æ’ƒ), æ°´æµç ² _GetWPBN(ãƒˆãƒ©ã‚¤ãƒ‡ãƒ³ãƒˆ)
+æ´—ç¤¼ã®çŸ›æ§(å‘½ä¸­), æ°´æµ
+å³»åˆ¥ã®ä¼æµ(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ°´è‰² Whiz.wav
+å³»åˆ¥ã®ä¼æµ(å‘½ä¸­), æ´¥æ³¢ Splash.wav
 
-•—‚Ì‘å»—ìƒVƒ‹ƒt
-ƒVƒ‹ƒtƒAƒ[, ‹|–î
-ƒTƒWƒ^ƒŠƒEƒXƒAƒ[(UŒ‚), ƒr[ƒ€ƒ‰ƒCƒtƒ‹ —Î _GetWPBN(‹|) Storm.wav ƒ`ƒƒ[ƒW‚È‚µ
-ƒTƒWƒ^ƒŠƒEƒXƒAƒ[(–½’†), ¬ƒr[ƒ€ —Î
-ƒVƒ‹ƒtƒB[ƒhƒAƒ[(UŒ‚), ƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[ —Î _GetWPBN(‹|) Storm.wav ƒ`ƒƒ[ƒW‚È‚µ
-ƒVƒ‹ƒtƒB[ƒhƒAƒ[(–½’†), ’†ƒr[ƒ€ —Î
-ƒEƒBƒ“ƒfƒBƒAƒ[(UŒ‚), ƒ_ƒuƒ‹ƒr[ƒ€ƒ‰ƒCƒtƒ‹ —Î _GetWPBN(‹|) Storm.wav ƒ`ƒƒ[ƒW‚È‚µ;ŠgŽUƒr[ƒ€ƒ‰ƒCƒtƒ‹ —Î _GetWPBN(‹|) Storm.wav ƒ`ƒƒ[ƒW‚È‚µ
-ƒEƒBƒ“ƒfƒBƒAƒ[(–½’†), ‚Q˜A¬ƒr[ƒ€ —Î;ƒz[ƒ~ƒ“ƒOƒŒ[ƒU[ —Î
+é¢¨ã®å¤§æ™¶éœŠã‚·ãƒ«ãƒ•
+ã‚·ãƒ«ãƒ•ã‚¢ãƒ­ãƒ¼, å¼“çŸ¢
+ã‚µã‚¸ã‚¿ãƒªã‚¦ã‚¹ã‚¢ãƒ­ãƒ¼(æ”»æ’ƒ), ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ« ç·‘ _GetWPBN(å¼“) Storm.wav ãƒãƒ£ãƒ¼ã‚¸ãªã—
+ã‚µã‚¸ã‚¿ãƒªã‚¦ã‚¹ã‚¢ãƒ­ãƒ¼(å‘½ä¸­), å°ãƒ“ãƒ¼ãƒ  ç·‘
+ã‚·ãƒ«ãƒ•ã‚£ãƒ¼ãƒ‰ã‚¢ãƒ­ãƒ¼(æ”»æ’ƒ), ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼ ç·‘ _GetWPBN(å¼“) Storm.wav ãƒãƒ£ãƒ¼ã‚¸ãªã—
+ã‚·ãƒ«ãƒ•ã‚£ãƒ¼ãƒ‰ã‚¢ãƒ­ãƒ¼(å‘½ä¸­), ä¸­ãƒ“ãƒ¼ãƒ  ç·‘
+ã‚¦ã‚£ãƒ³ãƒ‡ã‚£ã‚¢ãƒ­ãƒ¼(æ”»æ’ƒ), ãƒ€ãƒ–ãƒ«ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ« ç·‘ _GetWPBN(å¼“) Storm.wav ãƒãƒ£ãƒ¼ã‚¸ãªã—;æ‹¡æ•£ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ« ç·‘ _GetWPBN(å¼“) Storm.wav ãƒãƒ£ãƒ¼ã‚¸ãªã—
+ã‚¦ã‚£ãƒ³ãƒ‡ã‚£ã‚¢ãƒ­ãƒ¼(å‘½ä¸­), ï¼’é€£å°ãƒ“ãƒ¼ãƒ  ç·‘;ãƒ›ãƒ¼ãƒŸãƒ³ã‚°ãƒ¬ãƒ¼ã‚¶ãƒ¼ ç·‘
 
-‰Î‚Ì‘å»—ìƒCƒtƒŠ[ƒg
-ƒtƒŒƒCƒ€ƒAƒbƒp[(UŒ‚), U‚èã‚°
-ƒtƒŒƒCƒ€ƒAƒbƒp[(–½’†), ƒAƒbƒp[
-ƒtƒŒƒCƒ€ƒEƒF[ƒu(UŒ‚), ’n•\ÕŒ‚”g Ô
-ƒtƒŒƒCƒ€ƒEƒF[ƒu(–½’†), ‘å”š”­
-ƒo[ƒjƒ“ƒOƒuƒŒƒCƒN(UŒ‚), ƒAƒbƒp[
-ƒo[ƒjƒ“ƒOƒuƒŒƒCƒN(–½’†), ƒAƒbƒp[;‰Š
-ƒtƒŒƒCƒ€ƒAƒbƒp[(‰ðà), $(ƒ†ƒjƒbƒg)‚Í$(•Ší)‚ÅUŒ‚‚ð‚©‚¯‚½B
-ƒo[ƒjƒ“ƒOƒuƒŒƒCƒN(‰ðà), $(ƒ†ƒjƒbƒg)‚Í$(•Ší)‚ÅUŒ‚‚ð‚©‚¯‚½B
+ç«ã®å¤§æ™¶éœŠã‚¤ãƒ•ãƒªãƒ¼ãƒˆ
+ãƒ•ãƒ¬ã‚¤ãƒ ã‚¢ãƒƒãƒ‘ãƒ¼(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’
+ãƒ•ãƒ¬ã‚¤ãƒ ã‚¢ãƒƒãƒ‘ãƒ¼(å‘½ä¸­), ã‚¢ãƒƒãƒ‘ãƒ¼
+ãƒ•ãƒ¬ã‚¤ãƒ ã‚¦ã‚§ãƒ¼ãƒ–(æ”»æ’ƒ), åœ°è¡¨è¡æ’ƒæ³¢ èµ¤
+ãƒ•ãƒ¬ã‚¤ãƒ ã‚¦ã‚§ãƒ¼ãƒ–(å‘½ä¸­), å¤§çˆ†ç™º
+ãƒãƒ¼ãƒ‹ãƒ³ã‚°ãƒ–ãƒ¬ã‚¤ã‚¯(æ”»æ’ƒ), ã‚¢ãƒƒãƒ‘ãƒ¼
+ãƒãƒ¼ãƒ‹ãƒ³ã‚°ãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), ã‚¢ãƒƒãƒ‘ãƒ¼;ç‚Ž
+ãƒ•ãƒ¬ã‚¤ãƒ ã‚¢ãƒƒãƒ‘ãƒ¼(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯$(æ­¦å™¨)ã§æ”»æ’ƒã‚’ã‹ã‘ãŸã€‚
+ãƒãƒ¼ãƒ‹ãƒ³ã‚°ãƒ–ãƒ¬ã‚¤ã‚¯(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯$(æ­¦å™¨)ã§æ”»æ’ƒã‚’ã‹ã‘ãŸã€‚
 
-’n‚Ì‘å»—ìƒm[ƒ€
-‰“ƒOƒŒƒC•@(UŒ‚), U‚è‰º‚ë‚µ;@í“¬ƒAƒjƒ_’n–ÊÕŒ‚€”õ žò
-‰“ƒOƒŒƒC•@(–½’†), Î’Œ
-•@, ƒ^ƒbƒNƒ‹
-ƒOƒŒƒC•@(UŒ‚), ƒWƒƒƒ“ƒv;@í“¬ƒAƒjƒ_’n–ÊÕŒ‚€”õ žò
-ƒOƒŒƒC•@(–½’†), Î’Œ
-ƒTƒ‚ƒ“ƒtƒŒƒ“ƒY(UŒ‚), ‚l‚`‚o’nk GunPod.wav;‚l‚`‚o‰Œ žò
-ƒTƒ‚ƒ“ƒtƒŒƒ“ƒY(–½’†), ˜A‘Å
-•@¹‰J(UŒ‚), —“Ë
-•@¹‰J(–½’†), —‘Å;‹­‘Å
-c‰¤“VãÄ—(UŒ‚), ƒX[ƒp[ƒ_ƒCƒu ‰©
-c‰¤“VãÄ—(–½’†), ƒX[ƒp[ƒ_ƒCƒu ‰©;’n–ÊÕŒ‚ žò Bazooka.wav
+åœ°ã®å¤§æ™¶éœŠãƒŽãƒ¼ãƒ 
+é ã‚°ãƒ¬ã‚¤é¼»(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åœ°é¢è¡æ’ƒæº–å‚™ æ©™
+é ã‚°ãƒ¬ã‚¤é¼»(å‘½ä¸­), çŸ³æŸ±
+é¼», ã‚¿ãƒƒã‚¯ãƒ«
+ã‚°ãƒ¬ã‚¤é¼»(æ”»æ’ƒ), ã‚¸ãƒ£ãƒ³ãƒ—;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åœ°é¢è¡æ’ƒæº–å‚™ æ©™
+ã‚°ãƒ¬ã‚¤é¼»(å‘½ä¸­), çŸ³æŸ±
+ã‚µãƒ¢ãƒ³ãƒ•ãƒ¬ãƒ³ã‚º(æ”»æ’ƒ), ï¼­ï¼¡ï¼°åœ°éœ‡ GunPod.wav;ï¼­ï¼¡ï¼°ç…™ æ©™
+ã‚µãƒ¢ãƒ³ãƒ•ãƒ¬ãƒ³ã‚º(å‘½ä¸­), é€£æ‰“
+é¼»æ²™é›¨(æ”»æ’ƒ), ä¹±çª
+é¼»æ²™é›¨(å‘½ä¸­), ä¹±æ‰“;å¼·æ‰“
+çš‡çŽ‹å¤©ç¿”æµ´(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ€ã‚¤ãƒ– é»„
+çš‡çŽ‹å¤©ç¿”æµ´(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ€ã‚¤ãƒ– é»„;åœ°é¢è¡æ’ƒ æ©™ Bazooka.wav
 
-•X‚Ì‘å»—ìƒZƒ‹ƒVƒEƒX
-Ši“¬p(UŒ‚), Ši“¬
-Ši“¬p(–½’†), ‘ÅŒ‚;@í“¬ƒAƒjƒ_‘Å“ËUŒ‚;‹­‘Å
-Ši“¬p(–½’†), ‘ÅŒ‚;@í“¬ƒAƒjƒ_ƒLƒbƒNUŒ‚;‹­‘Å
-“–‚Äg‹Z(ƒAƒCƒVƒNƒ‹ƒtƒH[ƒ‹), @í“¬ƒAƒjƒ_”­Œõ€”õ Â Whiz.wav ‘ŠŽèƒ†ƒjƒbƒg‚h‚c
-ƒAƒCƒVƒNƒ‹ƒtƒH[ƒ‹(–½’†), ‚Â‚ç‚ç
-”ò‰˜A‹r(UŒ‚), ƒAƒbƒp[
-”ò‰˜A‹r(–½’†), ˜A‘Å
-•XP˜AŒ‚(UŒ‚), U‚è‰º‚ë‚µ
-•XP˜AŒ‚(–½’†), ‘ÅŒ‚ Â;@í“¬ƒAƒjƒ_Ši“¬UŒ‚;‹­‘Å Â
-“€n\˜AŒ‚(UŒ‚), ˜A‘Å
-“€n\˜AŒ‚(–½’†), ˜A‘Å Â;@í“¬ƒAƒjƒ_ƒAƒbƒp[UŒ‚;˜A‘Å Â;_
-@í“¬ƒAƒjƒ_ŽÀ’e”­ŽËUŒ‚ _GetWPBN(”g“®•úŽË(Â)) 56 AntiAirMissile.wav;ƒ_ƒ[ƒW Â Crash.wav
-Ž‚™á”šÓw(€”õ), ƒI[ƒ‰ã¸ ”’ Charge(High).wav
-Ž‚™á”šÓw(UŒ‚), ŽÀ’e”­ŽË _GetWPBN(”g“®•úŽË(”’)) 56 AntiAirMissile.wav ’x;_
-@@@@@@@@@ŽÀ’e”­ŽË _GetWPBN(”g“®•úŽË(”’)) 56 AntiAirMissile.wav ’x;_
-@@@@@@@@@ŽÀ’e”­ŽË _GetWPBN(”g“®•úŽË(”’)) 56 AntiAirMissile.wav ’x
-Ž‚™á”šÓw(–½’†), ƒ_ƒ[ƒW ”’ Crash.wav;ƒ_ƒ[ƒW ”’ Crash.wav;ƒ_ƒ[ƒW ”’ Crash.wav;_
-@@@@@@@@@uŽ‚™á”šÓwIIv;_
-@@@@@@@@@@í“¬ƒAƒjƒ_ŽÀ’e”­ŽËUŒ‚ _GetWPBN(”g“®•úŽË(”’)) 84 Bazooka.wav;ƒ_ƒ[ƒW ”’ -.wav
-Ž‚™á”šÓw(–½’†), ƒ_ƒ[ƒW ”’ Crash.wav;ƒ_ƒ[ƒW ”’ Crash.wav;ƒ_ƒ[ƒW ”’ Crash.wav;_
-@@@@@@@@@u‹ò‚ç‚¦‚ÁI Ž‚™á”šÓwIIv;_
-@@@@@@@@@@í“¬ƒAƒjƒ_ŽÀ’e”­ŽËUŒ‚ _GetWPBN(”g“®•úŽË(”’)) 84 Bazooka.wav;ƒ_ƒ[ƒW ”’ -.wav
+æ°·ã®å¤§æ™¶éœŠã‚»ãƒ«ã‚·ã‚¦ã‚¹
+æ ¼é—˜è¡“(æ”»æ’ƒ), æ ¼é—˜
+æ ¼é—˜è¡“(å‘½ä¸­), æ‰“æ’ƒ;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ‰“çªæ”»æ’ƒ;å¼·æ‰“
+æ ¼é—˜è¡“(å‘½ä¸­), æ‰“æ’ƒ;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚­ãƒƒã‚¯æ”»æ’ƒ;å¼·æ‰“
+å½“ã¦èº«æŠ€(ã‚¢ã‚¤ã‚·ã‚¯ãƒ«ãƒ•ã‚©ãƒ¼ãƒ«), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é’ Whiz.wav ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+ã‚¢ã‚¤ã‚·ã‚¯ãƒ«ãƒ•ã‚©ãƒ¼ãƒ«(å‘½ä¸­), ã¤ã‚‰ã‚‰
+é£›ç‡•é€£è„š(æ”»æ’ƒ), ã‚¢ãƒƒãƒ‘ãƒ¼
+é£›ç‡•é€£è„š(å‘½ä¸­), é€£æ‰“
+æ°·è¥²é€£æ’ƒ(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—
+æ°·è¥²é€£æ’ƒ(å‘½ä¸­), æ‰“æ’ƒ é’;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ ¼é—˜æ”»æ’ƒ;å¼·æ‰“ é’
+å‡åˆƒåé€£æ’ƒ(æ”»æ’ƒ), é€£æ‰“
+å‡åˆƒåé€£æ’ƒ(å‘½ä¸­), é€£æ‰“ é’;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¢ãƒƒãƒ‘ãƒ¼æ”»æ’ƒ;é€£æ‰“ é’;_
+@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å®Ÿå¼¾ç™ºå°„æ”»æ’ƒ _GetWPBN(æ³¢å‹•æ”¾å°„(é’)) 56 AntiAirMissile.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ é’ Crash.wav
+ç…å¼çˆ†ç •é™£(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½ Charge(High).wav
+ç…å¼çˆ†ç •é™£(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ _GetWPBN(æ³¢å‹•æ”¾å°„(ç™½)) 56 AntiAirMissile.wav é…;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€å®Ÿå¼¾ç™ºå°„ _GetWPBN(æ³¢å‹•æ”¾å°„(ç™½)) 56 AntiAirMissile.wav é…;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€å®Ÿå¼¾ç™ºå°„ _GetWPBN(æ³¢å‹•æ”¾å°„(ç™½)) 56 AntiAirMissile.wav é…
+ç…å¼çˆ†ç •é™£(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Crash.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Crash.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Crash.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œç…å¼çˆ†ç •é™£ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å®Ÿå¼¾ç™ºå°„æ”»æ’ƒ _GetWPBN(æ³¢å‹•æ”¾å°„(ç™½)) 84 Bazooka.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ -.wav
+ç…å¼çˆ†ç •é™£(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Crash.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Crash.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ Crash.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œå–°ã‚‰ãˆã£ï¼ ç…å¼çˆ†ç •é™£ï¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å®Ÿå¼¾ç™ºå°„æ”»æ’ƒ _GetWPBN(æ³¢å‹•æ”¾å°„(ç™½)) 84 Bazooka.wav;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½ -.wav
 
-—‹‚Ì‘å»—ìƒ”ƒHƒ‹ƒg
-ˆîÈ(€”õ), •ú“d Charge.wav
-ˆîÈ(UŒ‚), —Ž—‹
-ˆîÈ(–½’†), •ú“d
-ƒTƒ“ƒ_[ƒj[ƒhƒ‹(€”õ), •ú“d Charge.wav
-ƒTƒ“ƒ_[ƒj[ƒhƒ‹(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ž‡ Whiz.wav
-ƒTƒ“ƒ_[ƒj[ƒhƒ‹(–½’†), Žh“Ë;“dŒ‚
-ƒZƒpƒŒ[ƒgƒtƒ@ƒ~ƒŠ[(€”õ), •ú“d Charge.wav
-ƒZƒpƒŒ[ƒgƒtƒ@ƒ~ƒŠ[(UŒ‚), ‚W‚v‚`‚xŽËo
-ƒZƒpƒŒ[ƒgƒtƒ@ƒ~ƒŠ[(–½’†), —‘Å Ž‡
+é›·ã®å¤§æ™¶éœŠãƒ´ã‚©ãƒ«ãƒˆ
+ç¨²å¦»(æº–å‚™), æ”¾é›» Charge.wav
+ç¨²å¦»(æ”»æ’ƒ), è½é›·
+ç¨²å¦»(å‘½ä¸­), æ”¾é›»
+ã‚µãƒ³ãƒ€ãƒ¼ãƒ‹ãƒ¼ãƒ‰ãƒ«(æº–å‚™), æ”¾é›» Charge.wav
+ã‚µãƒ³ãƒ€ãƒ¼ãƒ‹ãƒ¼ãƒ‰ãƒ«(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç´« Whiz.wav
+ã‚µãƒ³ãƒ€ãƒ¼ãƒ‹ãƒ¼ãƒ‰ãƒ«(å‘½ä¸­), åˆºçª;é›»æ’ƒ
+ã‚»ãƒ‘ãƒ¬ãƒ¼ãƒˆãƒ•ã‚¡ãƒŸãƒªãƒ¼(æº–å‚™), æ”¾é›» Charge.wav
+ã‚»ãƒ‘ãƒ¬ãƒ¼ãƒˆãƒ•ã‚¡ãƒŸãƒªãƒ¼(æ”»æ’ƒ), ï¼˜ï¼·ï¼¡ï¼¹å°„å‡º
+ã‚»ãƒ‘ãƒ¬ãƒ¼ãƒˆãƒ•ã‚¡ãƒŸãƒªãƒ¼(å‘½ä¸­), ä¹±æ‰“ ç´«
 
-Œõ‚Ì‘å»—ìƒŒƒ€
-Œõ‹…(UŒ‚), @í“¬ƒAƒjƒ_ŽüˆÍ‰ñ“]€”õ Magic\EFFECT_MCircle(Red)01.bmp 32 Whiz.wav
-Œõ‹…(–½’†), ƒ_ƒ[ƒW
-Œõ‚Ì–î, Œõ–î ”’
+å…‰ã®å¤§æ™¶éœŠãƒ¬ãƒ 
+å…‰çƒ(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å‘¨å›²å›žè»¢æº–å‚™ Magic\EFFECT_MCircle(Red)01.bmp 32 Whiz.wav
+å…‰çƒ(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸
+å…‰ã®çŸ¢, å…‰çŸ¢ ç™½
 
-ˆÅ‚Ì‘å»—ìƒVƒƒƒhƒE
-—¼nŒ•(€”õ), “Ë‚­•Ší _GetWPBN(ƒcƒCƒ“ƒuƒŒ[ƒh) 56
-—¼nŒ•(UŒ‚), U‚è‰º‚ë‚µ
-—¼nŒ•(–½’†), U‚è‰º‚ë‚µ
-“–‚Äg‹Z(ƒ_ƒbƒVƒ…ƒJƒEƒ“ƒ^[), @í“¬ƒAƒjƒ_”­Œõ€”õ • Whiz.wav ‘ŠŽèƒ†ƒjƒbƒg‚h‚c
-ƒ_ƒbƒVƒ…ƒJƒEƒ“ƒ^[(–½’†), Œõ‰ñ“]ŽaŒ‚ ’† •
-ƒVƒƒƒhƒEƒXƒ‰ƒXƒg(€”õ), “Ë‚­•Ší _GetWPBN(ƒcƒCƒ“ƒuƒŒ[ƒh) 64
-ƒVƒƒƒhƒEƒXƒ‰ƒXƒg(UŒ‚), “Ë‚­•Ší“ËŒ‚ _GetWPBN(ƒcƒCƒ“ƒuƒŒ[ƒh) 64
-ƒVƒƒƒhƒEƒXƒ‰ƒXƒg(–½’†), ’´ŽaŒ‚ •
-ƒoƒjƒVƒ…ƒƒ“ƒg(€”õ), “Ë‚­•Ší _GetWPBN(ƒcƒCƒ“ƒuƒŒ[ƒh) 64
-ƒoƒjƒVƒ…ƒƒ“ƒg(UŒ‚), “Ë‚­•Ší“ËŒ‚ _GetWPBN(ƒcƒCƒ“ƒuƒŒ[ƒh) 64
-ƒoƒjƒVƒ…ƒƒ“ƒg(–½’†), ŒõU‚èã‚° ’† •;•ïˆÍƒr[ƒ€ • Saber.wav;Œõ•¬o Ž‡
+é—‡ã®å¤§æ™¶éœŠã‚·ãƒ£ãƒ‰ã‚¦
+ä¸¡åˆƒå‰£(æº–å‚™), çªãæ­¦å™¨ _GetWPBN(ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰) 56
+ä¸¡åˆƒå‰£(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—
+ä¸¡åˆƒå‰£(å‘½ä¸­), æŒ¯ã‚Šä¸‹ã‚ã—
+å½“ã¦èº«æŠ€(ãƒ€ãƒƒã‚·ãƒ¥ã‚«ã‚¦ãƒ³ã‚¿ãƒ¼), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»’ Whiz.wav ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+ãƒ€ãƒƒã‚·ãƒ¥ã‚«ã‚¦ãƒ³ã‚¿ãƒ¼(å‘½ä¸­), å…‰å›žè»¢æ–¬æ’ƒ ä¸­ é»’
+ã‚·ãƒ£ãƒ‰ã‚¦ã‚¹ãƒ©ã‚¹ãƒˆ(æº–å‚™), çªãæ­¦å™¨ _GetWPBN(ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰) 64
+ã‚·ãƒ£ãƒ‰ã‚¦ã‚¹ãƒ©ã‚¹ãƒˆ(æ”»æ’ƒ), çªãæ­¦å™¨çªæ’ƒ _GetWPBN(ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰) 64
+ã‚·ãƒ£ãƒ‰ã‚¦ã‚¹ãƒ©ã‚¹ãƒˆ(å‘½ä¸­), è¶…æ–¬æ’ƒ é»’
+ãƒãƒ‹ã‚·ãƒ¥ãƒ¡ãƒ³ãƒˆ(æº–å‚™), çªãæ­¦å™¨ _GetWPBN(ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰) 64
+ãƒãƒ‹ã‚·ãƒ¥ãƒ¡ãƒ³ãƒˆ(æ”»æ’ƒ), çªãæ­¦å™¨çªæ’ƒ _GetWPBN(ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰) 64
+ãƒãƒ‹ã‚·ãƒ¥ãƒ¡ãƒ³ãƒˆ(å‘½ä¸­), å…‰æŒ¯ã‚Šä¸Šã’ ä¸­ é»’;åŒ…å›²ãƒ“ãƒ¼ãƒ  é»’ Saber.wav;å…‰å™´å‡º ç´«
 
-Œ³‘f‚Ì‘å»—ìƒ}ƒNƒXƒEƒFƒ‹
-ƒgƒ‰ƒNƒ^[ƒr[ƒ€(UŒ‚), –‚–@w ”’ ”w–Ê Whiz.wav
-ƒgƒ‰ƒNƒ^[ƒr[ƒ€(–½’†), Œõ•¬o Â Charge.wav;—Ž‰º
-ƒ}ƒNƒXƒEƒFƒ‹EƒƒA[(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw • Flair.wav
-ƒ}ƒNƒXƒEƒFƒ‹EƒƒA[(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ • Whiz.wav;‚l‚`‚oƒuƒ‰ƒbƒNƒz[ƒ‹ ”’
-ƒ}ƒNƒXƒEƒFƒ‹EƒƒA[(–½’†), ƒ_ƒ[ƒW ”’
+å…ƒç´ ã®å¤§æ™¶éœŠãƒžã‚¯ã‚¹ã‚¦ã‚§ãƒ«
+ãƒˆãƒ©ã‚¯ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), é­”æ³•é™£ ç™½ èƒŒé¢ Whiz.wav
+ãƒˆãƒ©ã‚¯ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ (å‘½ä¸­), å…‰å™´å‡º é’ Charge.wav;è½ä¸‹
+ãƒžã‚¯ã‚¹ã‚¦ã‚§ãƒ«ãƒ»ãƒ­ã‚¢ãƒ¼(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é»’ Flair.wav
+ãƒžã‚¯ã‚¹ã‚¦ã‚§ãƒ«ãƒ»ãƒ­ã‚¢ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»’ Whiz.wav;ï¼­ï¼¡ï¼°ãƒ–ãƒ©ãƒƒã‚¯ãƒ›ãƒ¼ãƒ« ç™½
+ãƒžã‚¯ã‚¹ã‚¦ã‚§ãƒ«ãƒ»ãƒ­ã‚¢ãƒ¼(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½
 
-Žž‚Ì‘å»—ìƒ[ƒNƒ“ƒhƒDƒX
-ƒcƒCƒ“ƒAƒTƒ‹ƒg(UŒ‚), U‚è‰º‚ë‚µ
-ƒcƒCƒ“ƒAƒTƒ‹ƒg(–½’†), ‘ÅŒ‚;@í“¬ƒAƒjƒ_ƒAƒbƒp[UŒ‚;ƒAƒbƒp[
-ƒeƒgƒ‰ƒAƒTƒ‹ƒg, ˜A‘Å
-ƒ[ƒNƒ“ƒhƒDƒXƒŒ[ƒU[(UŒ‚), ‘åƒr[ƒ€ ”’ ƒ`ƒƒ[ƒW‚È‚µ
-ƒ[ƒNƒ“ƒhƒDƒXƒŒ[ƒU[(–½’†), ‘åƒr[ƒ€ ”’
-ƒeƒgƒ‰ƒXƒyƒ‹(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw žò Flair.wav
-ƒeƒgƒ‰ƒXƒyƒ‹(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ô Whiz.wav;_
-@@@@@@@@@@@í“¬ƒAƒjƒ_U‚é•Ší€”õ Magic\EFFECT_MCircle(Red)01.bmp 64 ”­Œõ Breath.wav “ñ“—¬ ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;_
-@@@@@@@@@@@í“¬ƒAƒjƒ_”­Œõ€”õ • Whiz.wav;‚l‚`‚oƒI[ƒ‰ Â;_
-@@@@@@@@@@‚l‚`‚o”­Œõ Ô;‚l‚`‚o”­Œõ …F;‚l‚`‚o”­Œõ ‰©;‚l‚`‚o”­Œõ —Î;‚l‚`‚o”­Œõ “;‚l‚`‚o”­Œõ Ž‡;‚l‚`‚o”­Œõ ”’;_
-@@@@@@@@@@‚l‚`‚oƒr[ƒ€ ”’
-ƒeƒgƒ‰ƒXƒyƒ‹(–½’†), ‰Š
-ƒeƒgƒ‰ƒXƒyƒ‹(–½’†), ŒõŽaŒ‚—•‘ ’† Â
-ƒeƒgƒ‰ƒXƒyƒ‹(–½’†), ƒ_ƒ[ƒW Ô
-ƒeƒgƒ‰ƒXƒyƒ‹(–½’†), ƒ_ƒ[ƒW …F
-ƒeƒgƒ‰ƒXƒyƒ‹(–½’†), ƒ_ƒ[ƒW ‰©
-ƒeƒgƒ‰ƒXƒyƒ‹(–½’†), ƒ_ƒ[ƒW —Î
-ƒeƒgƒ‰ƒXƒyƒ‹(–½’†), ƒ_ƒ[ƒW “
-ƒeƒgƒ‰ƒXƒyƒ‹(–½’†), ƒ_ƒ[ƒW Ž‡
-ƒeƒgƒ‰ƒXƒyƒ‹(–½’†), ƒ_ƒ[ƒW ”’
-ƒeƒgƒ‰ƒXƒyƒ‹(–½’†), ŠgŽUƒr[ƒ€ ”’
-ƒ[ƒNƒ“ƒhƒDƒXƒRƒŒƒ_[(UŒ‚), U‚è‰º‚ë‚µ;@í“¬ƒAƒjƒ_’n–ÊÕŒ‚€”õ žò Bazooka.wav
-ƒ[ƒNƒ“ƒhƒDƒXƒRƒŒƒ_[(–½’†), ‘å”š”­
-ƒ~ƒŠƒIƒ“ƒAƒTƒ‹ƒg(UŒ‚), ˜A‘Å
-ƒ~ƒŠƒIƒ“ƒAƒTƒ‹ƒg(–½’†), ˜A‘Å;_
-@@@@@@@@@@@@@í“¬ƒAƒjƒ_U‚è‰º‚ë‚µUŒ‚;@í“¬ƒAƒjƒ_’n–ÊÕŒ‚€”õ žò Bazooka.wav;‘å”š”­;_
-@@@@@@@@@@@@@í“¬ƒAƒjƒ_‘åƒr[ƒ€UŒ‚ ”’ ƒ`ƒƒ[ƒW‚È‚µ;_
-@@@@@@@@@@@@@í“¬ƒAƒjƒ_‘åƒr[ƒ€UŒ‚ ”’ ƒ`ƒƒ[ƒW‚È‚µ;_
-@@@@@@@@@@@@@í“¬ƒAƒjƒ_‘åƒr[ƒ€UŒ‚ ”’ ƒ`ƒƒ[ƒW‚È‚µ;’´”š”­
+æ™‚ã®å¤§æ™¶éœŠã‚¼ã‚¯ãƒ³ãƒ‰ã‚¥ã‚¹
+ãƒ„ã‚¤ãƒ³ã‚¢ã‚µãƒ«ãƒˆ(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—
+ãƒ„ã‚¤ãƒ³ã‚¢ã‚µãƒ«ãƒˆ(å‘½ä¸­), æ‰“æ’ƒ;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¢ãƒƒãƒ‘ãƒ¼æ”»æ’ƒ;ã‚¢ãƒƒãƒ‘ãƒ¼
+ãƒ†ãƒˆãƒ©ã‚¢ã‚µãƒ«ãƒˆ, é€£æ‰“
+ã‚¼ã‚¯ãƒ³ãƒ‰ã‚¥ã‚¹ãƒ¬ãƒ¼ã‚¶ãƒ¼(æ”»æ’ƒ), å¤§ãƒ“ãƒ¼ãƒ  ç™½ ãƒãƒ£ãƒ¼ã‚¸ãªã—
+ã‚¼ã‚¯ãƒ³ãƒ‰ã‚¥ã‚¹ãƒ¬ãƒ¼ã‚¶ãƒ¼(å‘½ä¸­), å¤§ãƒ“ãƒ¼ãƒ  ç™½
+ãƒ†ãƒˆãƒ©ã‚¹ãƒšãƒ«(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ æ©™ Flair.wav
+ãƒ†ãƒˆãƒ©ã‚¹ãƒšãƒ«(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ èµ¤ Whiz.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚‹æ­¦å™¨æº–å‚™ Magic\EFFECT_MCircle(Red)01.bmp 64 ç™ºå…‰ Breath.wav äºŒåˆ€æµ ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»’ Whiz.wav;ï¼­ï¼¡ï¼°ã‚ªãƒ¼ãƒ© é’;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°ç™ºå…‰ èµ¤;ï¼­ï¼¡ï¼°ç™ºå…‰ æ°´è‰²;ï¼­ï¼¡ï¼°ç™ºå…‰ é»„;ï¼­ï¼¡ï¼°ç™ºå…‰ ç·‘;ï¼­ï¼¡ï¼°ç™ºå…‰ æ¡ƒ;ï¼­ï¼¡ï¼°ç™ºå…‰ ç´«;ï¼­ï¼¡ï¼°ç™ºå…‰ ç™½;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°ãƒ“ãƒ¼ãƒ  ç™½
+ãƒ†ãƒˆãƒ©ã‚¹ãƒšãƒ«(å‘½ä¸­), ç‚Ž
+ãƒ†ãƒˆãƒ©ã‚¹ãƒšãƒ«(å‘½ä¸­), å…‰æ–¬æ’ƒä¹±èˆž ä¸­ é’
+ãƒ†ãƒˆãƒ©ã‚¹ãƒšãƒ«(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ èµ¤
+ãƒ†ãƒˆãƒ©ã‚¹ãƒšãƒ«(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ æ°´è‰²
+ãƒ†ãƒˆãƒ©ã‚¹ãƒšãƒ«(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ é»„
+ãƒ†ãƒˆãƒ©ã‚¹ãƒšãƒ«(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç·‘
+ãƒ†ãƒˆãƒ©ã‚¹ãƒšãƒ«(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ æ¡ƒ
+ãƒ†ãƒˆãƒ©ã‚¹ãƒšãƒ«(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç´«
+ãƒ†ãƒˆãƒ©ã‚¹ãƒšãƒ«(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½
+ãƒ†ãƒˆãƒ©ã‚¹ãƒšãƒ«(å‘½ä¸­), æ‹¡æ•£ãƒ“ãƒ¼ãƒ  ç™½
+ã‚¼ã‚¯ãƒ³ãƒ‰ã‚¥ã‚¹ã‚³ãƒ¬ãƒ€ãƒ¼(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åœ°é¢è¡æ’ƒæº–å‚™ æ©™ Bazooka.wav
+ã‚¼ã‚¯ãƒ³ãƒ‰ã‚¥ã‚¹ã‚³ãƒ¬ãƒ€ãƒ¼(å‘½ä¸­), å¤§çˆ†ç™º
+ãƒŸãƒªã‚ªãƒ³ã‚¢ã‚µãƒ«ãƒˆ(æ”»æ’ƒ), é€£æ‰“
+ãƒŸãƒªã‚ªãƒ³ã‚¢ã‚µãƒ«ãƒˆ(å‘½ä¸­), é€£æ‰“;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚Šä¸‹ã‚ã—æ”»æ’ƒ;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åœ°é¢è¡æ’ƒæº–å‚™ æ©™ Bazooka.wav;å¤§çˆ†ç™º;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¤§ãƒ“ãƒ¼ãƒ æ”»æ’ƒ ç™½ ãƒãƒ£ãƒ¼ã‚¸ãªã—;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¤§ãƒ“ãƒ¼ãƒ æ”»æ’ƒ ç™½ ãƒãƒ£ãƒ¼ã‚¸ãªã—;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¤§ãƒ“ãƒ¼ãƒ æ”»æ’ƒ ç™½ ãƒãƒ£ãƒ¼ã‚¸ãªã—;è¶…çˆ†ç™º
 
-ƒVƒ[ƒ‹
-ñ, ‰£‘Å•Ší _GetWPBN(–‚–@ñ‚R)
-‹…‘ÌUŒ‚(UŒ‚), ŽÀ’e”­ŽË _GetWPBN(‚r‚s‚f’e‚P(Ž‡)) 8 ”­Œõ Whiz.wav
-‹…‘ÌUŒ‚(–½’†), ƒ_ƒ[ƒW Ž‡
-ƒ\ƒEƒ‹ƒVƒ‡ƒbƒg, ‹CŽa Ž‡
-ƒiƒbƒVƒ“ƒOƒiƒCƒg(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw Â Flair.wav
-ƒiƒbƒVƒ“ƒOƒiƒCƒg(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Â Whiz.wav
-ƒiƒbƒVƒ“ƒOƒiƒCƒg(–½’†), á
-‚dEƒtƒ@ƒCƒiƒŠƒeƒB(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw ”’ Flair.wav
-‚dEƒtƒ@ƒCƒiƒŠƒeƒB(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Whiz.wav;_
-@@@@@@@@@@@@@uŠJ‚¯A‹•‹ó‚Ì”àIv;_
-@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽÎ‚ß—Ž‚¿‹¤’Ê _GetEFBN(‰ŠŽaŒ‚(Ž‡)) 48 Thunder.wav
-‚dEƒtƒ@ƒCƒiƒŠƒeƒB(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Whiz.wav;_
-@@@@@@@@@@@@@uŠJ‚¯AŽž‹ó‚Ì”àIv;_
-@@@@@@@@@@@@@@í“¬ƒAƒjƒ_ŽÎ‚ß—Ž‚¿‹¤’Ê _GetEFBN(‰ŠŽaŒ‚(Ž‡)) 48 Thunder.wav
-‚dEƒtƒ@ƒCƒiƒŠƒeƒB(–½’†), ‘å•ú“d Ž‡
-‚dEƒtƒ@ƒCƒiƒŠƒeƒB(ƒNƒŠƒeƒBƒJƒ‹), @í“¬ƒAƒjƒ_Œõ•¬o–½’† Ž‡ FastGun.wav
-‚eEƒfƒbƒhƒGƒ“ƒh(€”õ), ƒI[ƒ‰ã¸ •
-‚eEƒfƒbƒhƒGƒ“ƒh(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Whiz.wav;‚l‚`‚oƒuƒ‰ƒbƒNƒz[ƒ‹ ”’
-‚eEƒfƒbƒhƒGƒ“ƒh(–½’†), ˜A‘±‘å”š”­ • 6
+ã‚·ã‚¼ãƒ«
+æ–, æ®´æ‰“æ­¦å™¨ _GetWPBN(é­”æ³•æ–ï¼“)
+çƒä½“æ”»æ’ƒ(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ _GetWPBN(ï¼³ï¼´ï¼§å¼¾ï¼‘(ç´«)) 8 ç™ºå…‰ Whiz.wav
+çƒä½“æ”»æ’ƒ(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç´«
+ã‚½ã‚¦ãƒ«ã‚·ãƒ§ãƒƒãƒˆ, æ°—æ–¬ ç´«
+ãƒŠãƒƒã‚·ãƒ³ã‚°ãƒŠã‚¤ãƒˆ(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é’ Flair.wav
+ãƒŠãƒƒã‚·ãƒ³ã‚°ãƒŠã‚¤ãƒˆ(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é’ Whiz.wav
+ãƒŠãƒƒã‚·ãƒ³ã‚°ãƒŠã‚¤ãƒˆ(å‘½ä¸­), å¹é›ª
+ï¼¥ãƒ»ãƒ•ã‚¡ã‚¤ãƒŠãƒªãƒ†ã‚£(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ ç™½ Flair.wav
+ï¼¥ãƒ»ãƒ•ã‚¡ã‚¤ãƒŠãƒªãƒ†ã‚£(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Whiz.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œé–‹ã‘ã€è™šç©ºã®æ‰‰ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–œã‚è½ã¡å…±é€š _GetEFBN(ç‚Žæ–¬æ’ƒ(ç´«)) 48 Thunder.wav
+ï¼¥ãƒ»ãƒ•ã‚¡ã‚¤ãƒŠãƒªãƒ†ã‚£(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Whiz.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œé–‹ã‘ã€æ™‚ç©ºã®æ‰‰ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–œã‚è½ã¡å…±é€š _GetEFBN(ç‚Žæ–¬æ’ƒ(ç´«)) 48 Thunder.wav
+ï¼¥ãƒ»ãƒ•ã‚¡ã‚¤ãƒŠãƒªãƒ†ã‚£(å‘½ä¸­), å¤§æ”¾é›» ç´«
+ï¼¥ãƒ»ãƒ•ã‚¡ã‚¤ãƒŠãƒªãƒ†ã‚£(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å™´å‡ºå‘½ä¸­ ç´« FastGun.wav
+ï¼¦ãƒ»ãƒ‡ãƒƒãƒ‰ã‚¨ãƒ³ãƒ‰(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ é»’
+ï¼¦ãƒ»ãƒ‡ãƒƒãƒ‰ã‚¨ãƒ³ãƒ‰(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Whiz.wav;ï¼­ï¼¡ï¼°ãƒ–ãƒ©ãƒƒã‚¯ãƒ›ãƒ¼ãƒ« ç™½
+ï¼¦ãƒ»ãƒ‡ãƒƒãƒ‰ã‚¨ãƒ³ãƒ‰(å‘½ä¸­), é€£ç¶šå¤§çˆ†ç™º é»’ 6
 
-ƒqƒAƒfƒX
-ƒOƒ‰ƒ“ƒhƒVƒFƒCƒN(UŒ‚), U‚è‰º‚ë‚µ;@í“¬ƒAƒjƒ_’n–ÊÕŒ‚€”õ žò
-ƒOƒ‰ƒ“ƒhƒVƒFƒCƒN(–½’†), ƒ_ƒ[ƒW
-ƒJ[ƒXƒhƒI[ƒ‰(UŒ‚), –‚–@•úŽË Ô Whiz.wav
-ƒJ[ƒXƒhƒI[ƒ‰(–½’†), ¬ƒr[ƒ€ Ô ƒ‰ƒ“ƒ_ƒ€•ûŒü;¬ƒr[ƒ€ Ô ƒ‰ƒ“ƒ_ƒ€•ûŒü;¬ƒr[ƒ€ Ô ƒ‰ƒ“ƒ_ƒ€•ûŒü
-ƒJ[ƒXƒhƒI[ƒ‰(ƒNƒŠƒeƒBƒJƒ‹), @í“¬ƒAƒjƒ_”­Œõ€”õ Ž‡ Whiz.wav;@í“¬ƒAƒjƒ_ƒz[ƒ~ƒ“ƒOƒŒ[ƒU[–½’† Ô
-ƒn[ƒhƒz[ƒ“, ƒ^ƒbƒNƒ‹
-ƒ`ƒƒ[ƒWƒŒ[ƒU[(UŒ‚), ‘åƒr[ƒ€ Â ƒ`ƒƒ[ƒW‚È‚µ
-ƒ`ƒƒ[ƒWƒŒ[ƒU[(–½’†), ‘åƒr[ƒ€ Â
+ãƒ’ã‚¢ãƒ‡ã‚¹
+ã‚°ãƒ©ãƒ³ãƒ‰ã‚·ã‚§ã‚¤ã‚¯(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åœ°é¢è¡æ’ƒæº–å‚™ æ©™
+ã‚°ãƒ©ãƒ³ãƒ‰ã‚·ã‚§ã‚¤ã‚¯(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸
+ã‚«ãƒ¼ã‚¹ãƒ‰ã‚ªãƒ¼ãƒ©(æ”»æ’ƒ), é­”æ³•æ”¾å°„ èµ¤ Whiz.wav
+ã‚«ãƒ¼ã‚¹ãƒ‰ã‚ªãƒ¼ãƒ©(å‘½ä¸­), å°ãƒ“ãƒ¼ãƒ  èµ¤ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘;å°ãƒ“ãƒ¼ãƒ  èµ¤ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘;å°ãƒ“ãƒ¼ãƒ  èµ¤ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘
+ã‚«ãƒ¼ã‚¹ãƒ‰ã‚ªãƒ¼ãƒ©(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç´« Whiz.wav;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ›ãƒ¼ãƒŸãƒ³ã‚°ãƒ¬ãƒ¼ã‚¶ãƒ¼å‘½ä¸­ èµ¤
+ãƒãƒ¼ãƒ‰ãƒ›ãƒ¼ãƒ³, ã‚¿ãƒƒã‚¯ãƒ«
+ãƒãƒ£ãƒ¼ã‚¸ãƒ¬ãƒ¼ã‚¶ãƒ¼(æ”»æ’ƒ), å¤§ãƒ“ãƒ¼ãƒ  é’ ãƒãƒ£ãƒ¼ã‚¸ãªã—
+ãƒãƒ£ãƒ¼ã‚¸ãƒ¬ãƒ¼ã‚¶ãƒ¼(å‘½ä¸­), å¤§ãƒ“ãƒ¼ãƒ  é’
 
-ƒZƒCƒŒ[ƒ“(‚s‚n‚d)
-“Ëi(‰ðà), ŠC–VŽå‚Í“Ëi‚ÅUŒ‚‚ð‚©‚¯‚½B
-‚¨HŽ–(‰ðà), ŠC–VŽå‚Í$(‘ŠŽèƒ†ƒjƒbƒg)‚ðˆù‚Ýž‚Ý‚É‚©‚©‚Á‚½B
+ã‚»ã‚¤ãƒ¬ãƒ¼ãƒ³(ï¼´ï¼¯ï¼¥)
+çªé€²(è§£èª¬), æµ·åŠä¸»ã¯çªé€²ã§æ”»æ’ƒã‚’ã‹ã‘ãŸã€‚
+ãŠé£Ÿäº‹(è§£èª¬), æµ·åŠä¸»ã¯$(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆ)ã‚’é£²ã¿è¾¼ã¿ã«ã‹ã‹ã£ãŸã€‚
 
-‰³—‚Ì‹RŽmƒƒ‹ƒLƒ…[ƒŒ(‚s‚n‚d)
-ƒEƒBƒ“ƒhƒJƒbƒ^[(’ÇŒ‚)(€”õ), -
-ƒEƒBƒ“ƒhƒJƒbƒ^[(’ÇŒ‚)(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ —Î Whiz.wav
-ƒEƒBƒ“ƒhƒJƒbƒ^[(’ÇŒ‚)(–½’†), •—
-ƒOƒŒƒCƒu(’ÇŒ‚)(€”õ), -
-ƒOƒŒƒCƒu(’ÇŒ‚)(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ‰© Whiz.wav
-ƒOƒŒƒCƒu(’ÇŒ‚)(–½’†), Î’Œ
-ƒtƒ@ƒCƒAƒ{[ƒ‹(’ÇŒ‚)(€”õ), -
-ƒtƒ@ƒCƒAƒ{[ƒ‹(’ÇŒ‚)(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ô Whiz.wav;‰Î‰Š’e Ô Whiz.wav
-ƒtƒ@ƒCƒAƒ{[ƒ‹(’ÇŒ‚)(–½’†), ˜A‘±”š”­ 2
-ƒ‰ƒCƒgƒjƒ“ƒO(’ÇŒ‚)(€”õ), -
-ƒ‰ƒCƒgƒjƒ“ƒO(’ÇŒ‚)(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ž‡ Whiz.wav;—Ž—‹
-ƒ‰ƒCƒgƒjƒ“ƒO(’ÇŒ‚)(–½’†), •ú“d
-ƒŒƒC(’ÇŒ‚)(€”õ), -
-ƒŒƒC(’ÇŒ‚)(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Whiz.wav
-ƒŒƒC(’ÇŒ‚)(–½’†), ƒz[ƒ~ƒ“ƒOƒŒ[ƒU[ ”’
-–‚_Œ•(€”õ), -
-–‚_Œ•(UŒ‚), U‚èã‚°;ŽÀ’e”­ŽË _GetWPBN(’n•\ÕŒ‚”g(Â)) Whiz.wav ’x
-–‚_Œ•(–½’†), ƒ_ƒ[ƒW Â Saber.wav
-Œõ‚ÌŒ•, _Œ•
-Œõ‚ÌŒ•(–½’†), ŽaŒ‚
-ƒƒ‹ƒLƒ…ƒŠƒAEƒXƒgƒ‰ƒCƒN(UŒ‚), U‚é•Ší“ËŒ‚ -.bmp
-ƒƒ‹ƒLƒ…ƒŠƒAEƒXƒgƒ‰ƒCƒN(–½’†), @í“¬ƒAƒjƒ_ŽaŒ‚—•‘UŒ‚;ŽaŒ‚—•‘
-ƒƒ‹ƒLƒ…ƒŠƒAEƒZƒCƒo[(€”õ), ”­Œõ;‰H ‘ÎÛƒ†ƒjƒbƒg‚h‚c
-ƒƒ‹ƒLƒ…ƒŠƒAEƒZƒCƒo[(UŒ‚), U‚é•Ší“ËŒ‚ -.bmp
-ƒƒ‹ƒLƒ…ƒŠƒAEƒZƒCƒo[(–½’†), @í“¬ƒAƒjƒ_ŽaŒ‚—•‘UŒ‚;ŽaŒ‚—•‘;_
-@@@@@@@@@@@@@@@u‚Í‚ÁI ‚Í‚ÁI ‚â‚Ÿ‚ÁI ƒƒ‹ƒLƒ…ƒŠƒAƒZƒCƒo[Iv;_
-@@@@@@@@@@@@@@@@í“¬ƒAƒjƒ_U‚èã‚°UŒ‚;@í“¬ƒAƒjƒ_U‚è‰º‚ë‚µUŒ‚;ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚
-ƒEƒBƒ“ƒhƒJƒbƒ^[(’ÇŒ‚)(‰ðà), $(ƒ†ƒjƒbƒg)‚Í‚³‚ç‚ÉƒEƒBƒ“ƒhƒJƒbƒ^[‚ÌŽô•¶‚Å’ÇŒ‚‚µ‚½B
-ƒOƒŒƒCƒu(’ÇŒ‚)(‰ðà), $(ƒ†ƒjƒbƒg)‚Í‚³‚ç‚ÉƒOƒŒƒCƒu‚ÌŽô•¶‚Å’ÇŒ‚‚µ‚½B
-ƒtƒ@ƒCƒAƒ{[ƒ‹(’ÇŒ‚)(‰ðà), $(ƒ†ƒjƒbƒg)‚Í‚³‚ç‚Éƒtƒ@ƒCƒAƒ{[ƒ‹‚ÌŽô•¶‚Å’ÇŒ‚‚µ‚½B
-ƒ‰ƒCƒgƒjƒ“ƒO(’ÇŒ‚)(‰ðà), $(ƒ†ƒjƒbƒg)‚Í‚³‚ç‚Éƒ‰ƒCƒgƒjƒ“ƒO‚ÌŽô•¶‚Å’ÇŒ‚‚µ‚½B
-ƒŒƒC(’ÇŒ‚)(‰ðà), $(ƒ†ƒjƒbƒg)‚Í‚³‚ç‚ÉƒŒƒC‚ÌŽô•¶‚Å’ÇŒ‚‚µ‚½B
+ä¹™å¥³ã®é¨Žå£«ãƒ¯ãƒ«ã‚­ãƒ¥ãƒ¼ãƒ¬(ï¼´ï¼¯ï¼¥)
+ã‚¦ã‚£ãƒ³ãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(è¿½æ’ƒ)(æº–å‚™), -
+ã‚¦ã‚£ãƒ³ãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(è¿½æ’ƒ)(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç·‘ Whiz.wav
+ã‚¦ã‚£ãƒ³ãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(è¿½æ’ƒ)(å‘½ä¸­), é¢¨
+ã‚°ãƒ¬ã‚¤ãƒ–(è¿½æ’ƒ)(æº–å‚™), -
+ã‚°ãƒ¬ã‚¤ãƒ–(è¿½æ’ƒ)(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»„ Whiz.wav
+ã‚°ãƒ¬ã‚¤ãƒ–(è¿½æ’ƒ)(å‘½ä¸­), çŸ³æŸ±
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«(è¿½æ’ƒ)(æº–å‚™), -
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«(è¿½æ’ƒ)(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ èµ¤ Whiz.wav;ç«ç‚Žå¼¾ èµ¤ Whiz.wav
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«(è¿½æ’ƒ)(å‘½ä¸­), é€£ç¶šçˆ†ç™º 2
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°(è¿½æ’ƒ)(æº–å‚™), -
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°(è¿½æ’ƒ)(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç´« Whiz.wav;è½é›·
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°(è¿½æ’ƒ)(å‘½ä¸­), æ”¾é›»
+ãƒ¬ã‚¤(è¿½æ’ƒ)(æº–å‚™), -
+ãƒ¬ã‚¤(è¿½æ’ƒ)(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Whiz.wav
+ãƒ¬ã‚¤(è¿½æ’ƒ)(å‘½ä¸­), ãƒ›ãƒ¼ãƒŸãƒ³ã‚°ãƒ¬ãƒ¼ã‚¶ãƒ¼ ç™½
+é­”ç¥žå‰£(æº–å‚™), -
+é­”ç¥žå‰£(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’;å®Ÿå¼¾ç™ºå°„ _GetWPBN(åœ°è¡¨è¡æ’ƒæ³¢(é’)) Whiz.wav é…
+é­”ç¥žå‰£(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ é’ Saber.wav
+å…‰ã®å‰£, ç¥žå‰£
+å…‰ã®å‰£(å‘½ä¸­), æ–¬æ’ƒ
+ãƒ¯ãƒ«ã‚­ãƒ¥ãƒªã‚¢ãƒ»ã‚¹ãƒˆãƒ©ã‚¤ã‚¯(æ”»æ’ƒ), æŒ¯ã‚‹æ­¦å™¨çªæ’ƒ -.bmp
+ãƒ¯ãƒ«ã‚­ãƒ¥ãƒªã‚¢ãƒ»ã‚¹ãƒˆãƒ©ã‚¤ã‚¯(å‘½ä¸­), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬æ’ƒä¹±èˆžæ”»æ’ƒ;æ–¬æ’ƒä¹±èˆž
+ãƒ¯ãƒ«ã‚­ãƒ¥ãƒªã‚¢ãƒ»ã‚»ã‚¤ãƒãƒ¼(æº–å‚™), ç™ºå…‰;ç¾½ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+ãƒ¯ãƒ«ã‚­ãƒ¥ãƒªã‚¢ãƒ»ã‚»ã‚¤ãƒãƒ¼(æ”»æ’ƒ), æŒ¯ã‚‹æ­¦å™¨çªæ’ƒ -.bmp
+ãƒ¯ãƒ«ã‚­ãƒ¥ãƒªã‚¢ãƒ»ã‚»ã‚¤ãƒãƒ¼(å‘½ä¸­), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬æ’ƒä¹±èˆžæ”»æ’ƒ;æ–¬æ’ƒä¹±èˆž;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€Œã¯ã£ï¼ ã¯ã£ï¼ ã‚„ãã£ï¼ ãƒ¯ãƒ«ã‚­ãƒ¥ãƒªã‚¢ã‚»ã‚¤ãƒãƒ¼ï¼ã€;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚Šä¸Šã’æ”»æ’ƒ;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚Šä¸‹ã‚ã—æ”»æ’ƒ;ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ
+ã‚¦ã‚£ãƒ³ãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(è¿½æ’ƒ)(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ã•ã‚‰ã«ã‚¦ã‚£ãƒ³ãƒ‰ã‚«ãƒƒã‚¿ãƒ¼ã®å‘ªæ–‡ã§è¿½æ’ƒã—ãŸã€‚
+ã‚°ãƒ¬ã‚¤ãƒ–(è¿½æ’ƒ)(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ã•ã‚‰ã«ã‚°ãƒ¬ã‚¤ãƒ–ã®å‘ªæ–‡ã§è¿½æ’ƒã—ãŸã€‚
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«(è¿½æ’ƒ)(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ã•ã‚‰ã«ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«ã®å‘ªæ–‡ã§è¿½æ’ƒã—ãŸã€‚
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°(è¿½æ’ƒ)(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ã•ã‚‰ã«ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ã®å‘ªæ–‡ã§è¿½æ’ƒã—ãŸã€‚
+ãƒ¬ã‚¤(è¿½æ’ƒ)(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ã•ã‚‰ã«ãƒ¬ã‚¤ã®å‘ªæ–‡ã§è¿½æ’ƒã—ãŸã€‚
 
-‰p—YƒŒƒOƒ‹ƒX
-”g“®¶(UŒ‚), ŽÀ’e”­ŽË _GetWPBN(”g“®•úŽË(—Î)) 56 Whiz.wav ’x
-”g“®¶(–½’†), ƒ_ƒ[ƒW —Î
-–P™€Œ, ’´ƒAƒbƒp[
-“]g˜AŒ‚(–½’†), @í“¬ƒAƒjƒ_˜A‘ÅUŒ‚;˜A‘Å
-Žl_—•‘(UŒ‚), ˜A‘Å
-Žl_—•‘(–½’†), ˜A‘Å;@í“¬ƒAƒjƒ_ƒLƒbƒNUŒ‚;‹­‘Å;@í“¬ƒAƒjƒ_ŽÀ’e”­ŽËUŒ‚ _GetWPBN(”g“®•úŽË(—Î)) 56 Whiz.wav ’x;ƒ_ƒ[ƒW —Î
-“V‰º–³‘oŒ•(€”õ), ‹àŒ•
-“V‰º–³‘oŒ•(UŒ‚), ‹àŒ•“ËŒ‚
-“V‰º–³‘oŒ•(–½’†), ’´ŽaŒ‚
-“–‚Äg‹Z(“]g˜AŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ô Whiz.wav ‘ŠŽèƒ†ƒjƒbƒg‚h‚c
+è‹±é›„ãƒ¬ã‚°ãƒ«ã‚¹
+æ³¢å‹•æŽŒ(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ _GetWPBN(æ³¢å‹•æ”¾å°„(ç·‘)) 56 Whiz.wav é…
+æ³¢å‹•æŽŒ(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç·‘
+é³³å‡°æ‹³, è¶…ã‚¢ãƒƒãƒ‘ãƒ¼
+è»¢èº«é€£æ’ƒ(å‘½ä¸­), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é€£æ‰“æ”»æ’ƒ;é€£æ‰“
+å››ç¥žä¹±èˆž(æ”»æ’ƒ), é€£æ‰“
+å››ç¥žä¹±èˆž(å‘½ä¸­), é€£æ‰“;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚­ãƒƒã‚¯æ”»æ’ƒ;å¼·æ‰“;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å®Ÿå¼¾ç™ºå°„æ”»æ’ƒ _GetWPBN(æ³¢å‹•æ”¾å°„(ç·‘)) 56 Whiz.wav é…;ãƒ€ãƒ¡ãƒ¼ã‚¸ ç·‘
+å¤©ä¸‹ç„¡åŒå‰£(æº–å‚™), é‡‘å‰£
+å¤©ä¸‹ç„¡åŒå‰£(æ”»æ’ƒ), é‡‘å‰£çªæ’ƒ
+å¤©ä¸‹ç„¡åŒå‰£(å‘½ä¸­), è¶…æ–¬æ’ƒ
+å½“ã¦èº«æŠ€(è»¢èº«é€£æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ èµ¤ Whiz.wav ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
-ƒvƒŠƒ€ƒ‰ƒƒbƒ\•ƒL[ƒ‹ƒcƒ@ƒCƒxƒ‹
-ƒAƒNƒAƒGƒbƒW(€”õ), Œõ•¬o ”’ Whiz.wav;“¯ŽžƒtƒFƒCƒXƒAƒbƒv ƒvƒŠƒ€ƒ‰ƒƒbƒ\ Ô - ƒL[ƒ‹ƒcƒ@ƒCƒxƒ‹ Â -
-ƒAƒNƒAƒGƒbƒW(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ …F Whiz.wav;_
-@@@@@@@@@@ŽÀ’e”­ŽË _GetWPBN(‹CŽa(Â)) Whiz.wav ’x;ŽÀ’e”­ŽË _GetWPBN(‹CŽa(Â)) Whiz.wav ’x
-ƒAƒNƒAƒGƒbƒW(–½’†), ”ò–— Â Splash.wav;”ò–— Â Splash.wav
-ƒEƒBƒ“ƒhƒJƒbƒ^[(€”õ), Œõ•¬o ”’ Whiz.wav;“¯ŽžƒtƒFƒCƒXƒAƒbƒv ƒvƒŠƒ€ƒ‰ƒƒbƒ\ Ô - ƒL[ƒ‹ƒcƒ@ƒCƒxƒ‹ Â -
-ƒEƒBƒ“ƒhƒJƒbƒ^[(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ —Î Whiz.wav
-ƒEƒBƒ“ƒhƒJƒbƒ^[(–½’†), •—;ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚
-ƒtƒ@ƒCƒAƒ{[ƒ‹(€”õ), Œõ•¬o ”’ Whiz.wav;“¯ŽžƒtƒFƒCƒXƒAƒbƒv ƒvƒŠƒ€ƒ‰ƒƒbƒ\ Ô - ƒL[ƒ‹ƒcƒ@ƒCƒxƒ‹ Â -
-ƒtƒ@ƒCƒAƒ{[ƒ‹(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ô Whiz.wav;‰Î‰Š’e Ô Whiz.wav;‰Î‰Š’e Ô Whiz.wav
-ƒtƒ@ƒCƒAƒ{[ƒ‹(–½’†), ˜A‘±‘å”š”­ 2
+ãƒ—ãƒªãƒ ãƒ©ï¼ãƒ­ãƒƒã‚½ï¼†ã‚­ãƒ¼ãƒ«ï¼ãƒ„ã‚¡ã‚¤ãƒ™ãƒ«
+ã‚¢ã‚¯ã‚¢ã‚¨ãƒƒã‚¸(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;åŒæ™‚ãƒ•ã‚§ã‚¤ã‚¹ã‚¢ãƒƒãƒ— ãƒ—ãƒªãƒ ãƒ©ï¼ãƒ­ãƒƒã‚½ èµ¤ - ã‚­ãƒ¼ãƒ«ï¼ãƒ„ã‚¡ã‚¤ãƒ™ãƒ« é’ -
+ã‚¢ã‚¯ã‚¢ã‚¨ãƒƒã‚¸(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ°´è‰² Whiz.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€å®Ÿå¼¾ç™ºå°„ _GetWPBN(æ°—æ–¬(é’)) Whiz.wav é…;å®Ÿå¼¾ç™ºå°„ _GetWPBN(æ°—æ–¬(é’)) Whiz.wav é…
+ã‚¢ã‚¯ã‚¢ã‚¨ãƒƒã‚¸(å‘½ä¸­), é£›æ²« é’ Splash.wav;é£›æ²« é’ Splash.wav
+ã‚¦ã‚£ãƒ³ãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;åŒæ™‚ãƒ•ã‚§ã‚¤ã‚¹ã‚¢ãƒƒãƒ— ãƒ—ãƒªãƒ ãƒ©ï¼ãƒ­ãƒƒã‚½ èµ¤ - ã‚­ãƒ¼ãƒ«ï¼ãƒ„ã‚¡ã‚¤ãƒ™ãƒ« é’ -
+ã‚¦ã‚£ãƒ³ãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç·‘ Whiz.wav
+ã‚¦ã‚£ãƒ³ãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(å‘½ä¸­), é¢¨;ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;åŒæ™‚ãƒ•ã‚§ã‚¤ã‚¹ã‚¢ãƒƒãƒ— ãƒ—ãƒªãƒ ãƒ©ï¼ãƒ­ãƒƒã‚½ èµ¤ - ã‚­ãƒ¼ãƒ«ï¼ãƒ„ã‚¡ã‚¤ãƒ™ãƒ« é’ -
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ èµ¤ Whiz.wav;ç«ç‚Žå¼¾ èµ¤ Whiz.wav;ç«ç‚Žå¼¾ èµ¤ Whiz.wav
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«(å‘½ä¸­), é€£ç¶šå¤§çˆ†ç™º 2
 
-ƒ}ƒ[ƒlƒuƒ‹ƒJ[ƒm
-ƒƒ“ƒOƒ\[ƒh, ƒ\[ƒh
-–‚_Œ•(€”õ), -
-–‚_Œ•(UŒ‚), U‚èã‚°;ŽÀ’e”­ŽË _GetWPBN(’n•\ÕŒ‚”g(Â)) Whiz.wav ’x
-–‚_Œ•(–½’†), ƒ_ƒ[ƒW Â Saber.wav
-—‹_Œ•(€”õ), -
-—‹_Œ•(UŒ‚), ƒ^ƒbƒNƒ‹
-—‹_Œ•(–½’†), Žh“Ë;—Ž—‹ ‰©
-ŽU‰Ø–ÒP‹r(UŒ‚), ƒWƒƒƒ“ƒv
-ŽU‰Ø–ÒP‹r(–½’†), “‚’|Š„‚è;@í“¬ƒAƒjƒ_Ši“¬UŒ‚;˜A‘Å
-˜A‰å’e(UŒ‚), ˜A‘Å
-˜A‰å’e(–½’†), ˜A‘Å;‹­‘Å
-—‹_‘o”jŽa(UŒ‚), U‚èã‚°
-—‹_‘o”jŽa(–½’†), U‚èã‚°;@í“¬ƒAƒjƒ_U‚è‰º‚ë‚µUŒ‚;U‚è‰º‚ë‚µ;@í“¬ƒAƒjƒ_Ši“¬UŒ‚;Žh“Ë;—Ž—‹ ‰©
-‰ç—´‹ó”j(UŒ‚), ƒAƒbƒp[
-‰ç—´‹ó”j(–½’†), ƒAƒbƒp[;@í“¬ƒAƒjƒ_ƒAƒbƒp[UŒ‚;’´ƒAƒbƒp[
-‰å(UŒ‚), Ši“¬
-‰å(–½’†), Šš‚Ý•t‚«
-ƒtƒ@ƒCƒAƒVƒ‡ƒbƒg(UŒ‚), ‰Î‰Š’e Ô Whiz.wav
-ƒtƒ@ƒCƒAƒVƒ‡ƒbƒg(–½’†), ˜A‘±”š”­ 4
-‰å(‰ðà), ƒoƒƒbƒT‚Í‰s‚¢‰å‚ÅUŒ‚‚ðŽdŠ|‚¯‚½B
-ƒtƒ@ƒCƒAƒVƒ‡ƒbƒg(‰ðà), ƒoƒƒbƒT‚ÍŒû‚©‚ç$(•Ší)‚ðŒ‚‚¿o‚µ‚½B
+ãƒžãƒ­ãƒ¼ãƒï¼ãƒ–ãƒ«ã‚«ãƒ¼ãƒŽ
+ãƒ­ãƒ³ã‚°ã‚½ãƒ¼ãƒ‰, ã‚½ãƒ¼ãƒ‰
+é­”ç¥žå‰£(æº–å‚™), -
+é­”ç¥žå‰£(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’;å®Ÿå¼¾ç™ºå°„ _GetWPBN(åœ°è¡¨è¡æ’ƒæ³¢(é’)) Whiz.wav é…
+é­”ç¥žå‰£(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ é’ Saber.wav
+é›·ç¥žå‰£(æº–å‚™), -
+é›·ç¥žå‰£(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ«
+é›·ç¥žå‰£(å‘½ä¸­), åˆºçª;è½é›· é»„
+æ•£è¯çŒ›è¥²è„š(æ”»æ’ƒ), ã‚¸ãƒ£ãƒ³ãƒ—
+æ•£è¯çŒ›è¥²è„š(å‘½ä¸­), å”ç«¹å‰²ã‚Š;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ ¼é—˜æ”»æ’ƒ;é€£æ‰“
+é€£ç‰™å¼¾(æ”»æ’ƒ), é€£æ‰“
+é€£ç‰™å¼¾(å‘½ä¸­), é€£æ‰“;å¼·æ‰“
+é›·ç¥žåŒç ´æ–¬(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’
+é›·ç¥žåŒç ´æ–¬(å‘½ä¸­), æŒ¯ã‚Šä¸Šã’;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚Šä¸‹ã‚ã—æ”»æ’ƒ;æŒ¯ã‚Šä¸‹ã‚ã—;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ ¼é—˜æ”»æ’ƒ;åˆºçª;è½é›· é»„
+è‡¥é¾ç©ºç ´(æ”»æ’ƒ), ã‚¢ãƒƒãƒ‘ãƒ¼
+è‡¥é¾ç©ºç ´(å‘½ä¸­), ã‚¢ãƒƒãƒ‘ãƒ¼;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¢ãƒƒãƒ‘ãƒ¼æ”»æ’ƒ;è¶…ã‚¢ãƒƒãƒ‘ãƒ¼
+ç‰™(æ”»æ’ƒ), æ ¼é—˜
+ç‰™(å‘½ä¸­), å™›ã¿ä»˜ã
+ãƒ•ã‚¡ã‚¤ã‚¢ã‚·ãƒ§ãƒƒãƒˆ(æ”»æ’ƒ), ç«ç‚Žå¼¾ èµ¤ Whiz.wav
+ãƒ•ã‚¡ã‚¤ã‚¢ã‚·ãƒ§ãƒƒãƒˆ(å‘½ä¸­), é€£ç¶šçˆ†ç™º 4
+ç‰™(è§£èª¬), ãƒãƒ­ãƒƒã‚µã¯é‹­ã„ç‰™ã§æ”»æ’ƒã‚’ä»•æŽ›ã‘ãŸã€‚
+ãƒ•ã‚¡ã‚¤ã‚¢ã‚·ãƒ§ãƒƒãƒˆ(è§£èª¬), ãƒãƒ­ãƒƒã‚µã¯å£ã‹ã‚‰$(æ­¦å™¨)ã‚’æ’ƒã¡å‡ºã—ãŸã€‚
 
-ƒGƒNƒXƒVƒA
-”g“®UŒ‚, ”g“®•úŽË ”’
-ƒo[ƒjƒ“ƒOƒuƒŒƒCƒN(UŒ‚), ƒAƒbƒp[
-ƒo[ƒjƒ“ƒOƒuƒŒƒCƒN(–½’†), ƒAƒbƒp[;‰Š
+ã‚¨ã‚¯ã‚¹ã‚·ã‚¢
+æ³¢å‹•æ”»æ’ƒ, æ³¢å‹•æ”¾å°„ ç™½
+ãƒãƒ¼ãƒ‹ãƒ³ã‚°ãƒ–ãƒ¬ã‚¤ã‚¯(æ”»æ’ƒ), ã‚¢ãƒƒãƒ‘ãƒ¼
+ãƒãƒ¼ãƒ‹ãƒ³ã‚°ãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), ã‚¢ãƒƒãƒ‘ãƒ¼;ç‚Ž
 
-‚s‚n‚d
-###»—ìp###
-ƒAƒNƒAƒGƒbƒW(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒAƒNƒAƒGƒbƒW(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ …F Whiz.wav;‰ñ“]”­ŽË _GetWPBN(ŒõŽa—Ö(Â)) Whiz.wav ’x
-ƒAƒNƒAƒGƒbƒW(–½’†), ”ò–— Â Splash.wav
-ƒAƒVƒbƒhƒŒƒCƒ“(€”õ), Œõ•¬o ”’ Whiz.wav–‚•ûw …F Flair.wav
-ƒAƒVƒbƒhƒŒƒCƒ“(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ …F Whiz.wav;á Shower.wav
-ƒAƒVƒbƒhƒŒƒCƒ“(–½’†), ”ò–— •
-ƒXƒvƒŒƒbƒh(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw …F Flair.wav
-ƒXƒvƒŒƒbƒh(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ …F Whiz.wav
-ƒXƒvƒŒƒbƒh(–½’†), –‚–@•úŽË …F Splash.wav;”ò–— …F -.wav
-ƒƒCƒ‹ƒVƒ…ƒgƒ[ƒ€(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw …F Flair.wav
-ƒƒCƒ‹ƒVƒ…ƒgƒ[ƒ€(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ …F Whiz.wav
-ƒƒCƒ‹ƒVƒ…ƒgƒ[ƒ€(–½’†), ‹­•— Storm.wav;–‚–@•úŽË …F Splash.wav;”ò–— …F -.wav
-ƒq[ƒ‹(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒq[ƒ‹(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ …F Whiz.wav
-ƒq[ƒ‹(”­“®), ‰ñ•œ–‚–@
-ƒi[ƒX(€”õ), Œõ•¬o ”’ Whiz.wav–‚•ûw …F Flair.wav
-ƒi[ƒX(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ …F Whiz.wav
-ƒi[ƒX(”­“®), ‰ñ•œ–‚–@
-ƒLƒ…ƒA(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw …F Flair.wav
-ƒLƒ…ƒA(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ …F Whiz.wav
-ƒLƒ…ƒA(”­“®), —±ŽqW’† ”’;‰ñ•œ–‚–@
-ƒŠƒUƒŒƒNƒVƒ‡ƒ“(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw …F Flair.wav
-ƒŠƒUƒŒƒNƒVƒ‡ƒ“(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ …F Whiz.wav
-ƒŠƒUƒŒƒNƒVƒ‡ƒ“(”­“®), –‚–@w Â ”w–Ê Charge(High).wav;Œõ•¬o Â -.wav
-ƒŒƒCƒYƒfƒbƒh(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw …F Flair.wav
-ƒŒƒCƒYƒfƒbƒh(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ …F Whiz.wav
-ƒŒƒCƒYƒfƒbƒh(”­“®), ‰H Sharara.wav;Œõ’Œ
-ƒEƒBƒ“ƒhƒJƒbƒ^[(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒEƒBƒ“ƒhƒJƒbƒ^[(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ —Î Whiz.wav
-ƒEƒBƒ“ƒhƒJƒbƒ^[(–½’†), •—
-ƒGƒAƒXƒ‰ƒXƒg(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw —Î Flair.wav
-ƒGƒAƒXƒ‰ƒXƒg(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ —Î Whiz.wav
-ƒGƒAƒXƒ‰ƒXƒg(–½’†), ‹­•—
-ƒTƒCƒNƒƒ“(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw —Î Flair.wav
-ƒTƒCƒNƒƒ“(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ —Î Whiz.wav
-ƒTƒCƒNƒƒ“(–½’†), —³Šª
-ƒRƒ“ƒZƒ“ƒgƒŒ[ƒg(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒRƒ“ƒZƒ“ƒgƒŒ[ƒg(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ —Î Whiz.wav
-ƒRƒ“ƒZƒ“ƒgƒŒ[ƒg(”­“®), ƒI[ƒ‰ã¸ —Î
-ƒtƒ@ƒCƒAƒ{[ƒ‹(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒtƒ@ƒCƒAƒ{[ƒ‹(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ô Whiz.wav;‰Î‰Š’e Ô Whiz.wav
-ƒtƒ@ƒCƒAƒ{[ƒ‹(–½’†), ˜A‘±”š”­ 2
-ƒCƒ‰ƒvƒVƒ‡ƒ“(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw Ô Flair.wav
-ƒCƒ‰ƒvƒVƒ‡ƒ“(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ô Whiz.wav
-ƒCƒ‰ƒvƒVƒ‡ƒ“(–½’†), ‘å”š”­
-ƒtƒŒƒCƒ€ƒEƒH[ƒ‹(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw Ô Flair.wav
-ƒtƒŒƒCƒ€ƒEƒH[ƒ‹(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ô Whiz.wav
-ƒtƒŒƒCƒ€ƒEƒH[ƒ‹(–½’†), ‰Î’Œ
-ƒGƒNƒXƒvƒ[ƒh(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw Ô Flair.wav
-ƒGƒNƒXƒvƒ[ƒh(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ô Whiz.wav
-ƒGƒNƒXƒvƒ[ƒh(–½’†), @í“¬ƒAƒjƒ_Œõ‘Å‚¿‰º‚ë‚µUŒ‚ Ô Bomb.wav ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;’´”š”­
-ƒVƒƒ[ƒvƒlƒX(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒVƒƒ[ƒvƒlƒX(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ Ô Whiz.wav
-ƒVƒƒ[ƒvƒlƒX(”­“®), ƒI[ƒ‰ã¸ Ô
-ƒOƒŒƒCƒu(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒOƒŒƒCƒu(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ‰© Whiz.wav
-ƒOƒŒƒCƒu(–½’†), Î’Œ
-ƒƒbƒNƒuƒŒƒCƒN(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw ‰© Flair.wav
-ƒƒbƒNƒuƒŒƒCƒN(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ‰© Whiz.wav
-ƒƒbƒNƒuƒŒƒCƒN(–½’†), Šâ’Œ
-ƒOƒ‰ƒ“ƒhƒ_ƒbƒVƒƒ[(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw ‰© Flair.wav
-ƒOƒ‰ƒ“ƒhƒ_ƒbƒVƒƒ[(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ‰© Whiz.wav
-ƒOƒ‰ƒ“ƒhƒ_ƒbƒVƒƒ[(–½’†), Œõ•¬o ‰© GunPod.wav;—‘Å
-ƒAƒCƒXƒj[ƒhƒ‹(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒAƒCƒXƒj[ƒhƒ‹(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Â Whiz.wav;•X’e Whiz.wav
-ƒAƒCƒXƒj[ƒhƒ‹(–½’†), ”ò–— ”’ Glass.wav
-ƒtƒŠ[ƒYƒ‰ƒ“ƒT[(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw Â Flair.wav
-ƒtƒŠ[ƒYƒ‰ƒ“ƒT[(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Â Whiz.wav
-ƒtƒŠ[ƒYƒ‰ƒ“ƒT[(–½’†), ŠgŽUƒr[ƒ€ Â Glass.wav
-ƒuƒŠƒU[ƒh(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw Â Flair.wav
-ƒuƒŠƒU[ƒh(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Â Whiz.wav
-ƒuƒŠƒU[ƒh(–½’†), á
-ƒAƒuƒ\ƒŠƒ…[ƒg(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw Â Flair.wav
-ƒAƒuƒ\ƒŠƒ…[ƒg(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Â Whiz.wav
-ƒAƒuƒ\ƒŠƒ…[ƒg(–½’†), Œˆ‚ß‰æ‘œ _GetWPBN(•X‰ò) Freeze.wav;”ò–— Â Glass.wav
-ƒŒƒWƒXƒg(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒŒƒWƒXƒg(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ Â Whiz.wav
-ƒŒƒWƒXƒg(”­“®), “€Œ‹ Whiz.wav
-ƒ‰ƒCƒgƒjƒ“ƒO(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒ‰ƒCƒgƒjƒ“ƒO(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ž‡ Whiz.wav;—Ž—‹
-ƒ‰ƒCƒgƒjƒ“ƒO(–½’†), •ú“d
-ƒTƒ“ƒ_[ƒuƒŒ[ƒh(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw Ž‡ Flair.wav
-ƒTƒ“ƒ_[ƒuƒŒ[ƒh(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ž‡ Whiz.wav;‘åŽaŒ‚ ‰© Thunder.wav
-ƒTƒ“ƒ_[ƒuƒŒ[ƒh(–½’†), “‚’|Š„‚è ‰© Explode.wav
-ƒCƒ“ƒfƒBƒOƒlƒCƒVƒ‡ƒ“(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw Ž‡ Flair.wav
-ƒCƒ“ƒfƒBƒOƒlƒCƒVƒ‡ƒ“(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ž‡ Whiz.wav
-ƒCƒ“ƒfƒBƒOƒlƒCƒVƒ‡ƒ“(–½’†), @í“¬ƒAƒjƒ_—Ž—‹UŒ‚ Ž‡;’n–ÊÕŒ‚ Ž‡ Explode(Far).wav
-ƒŠƒJƒo[(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒŠƒJƒo[(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ Ž‡ Whiz.wav
-ƒŠƒJƒo[(”­“®), ‰ñ•œ–‚–@
-ƒ`ƒƒ[ƒW(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒ`ƒƒ[ƒW(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ Ž‡ Whiz.wav;–‚–@•úŽË —Î
-ƒ`ƒƒ[ƒW(”­“®), –‚–@W’† —Î
-ƒŒƒC(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw ”’ Flair.wav
-ƒŒƒC(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Whiz.wav
-ƒŒƒC(–½’†), ƒz[ƒ~ƒ“ƒOƒŒ[ƒU[ ”’
-ƒz[ƒŠ[ƒ‰ƒ“ƒX(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw ”’ Flair.wav
-ƒz[ƒŠ[ƒ‰ƒ“ƒX(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Whiz.wav
-ƒz[ƒŠ[ƒ‰ƒ“ƒX(–½’†), Œõ•¬o ”’ Inori.wav;_
-@@@@@@@@@@@’†ƒr[ƒ€ ”’ ƒ‰ƒ“ƒ_ƒ€•ûŒü Whiz.wav;’†ƒr[ƒ€ ”’ ƒ‰ƒ“ƒ_ƒ€•ûŒü Whiz.wav;_
-@@@@@@@@@@@’†ƒr[ƒ€ ”’ ƒ‰ƒ“ƒ_ƒ€•ûŒü Whiz.wav;’†ƒr[ƒ€ ”’ ƒ‰ƒ“ƒ_ƒ€•ûŒü Whiz.wav
-ƒz[ƒŠ[ƒuƒŒƒX(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒz[ƒŠ[ƒuƒŒƒX(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Whiz.wav
-ƒz[ƒŠ[ƒuƒŒƒX(”­“®), ƒI[ƒ‰ã¸ ”’
-ƒ_[ƒNƒtƒH[ƒX(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw • Flair.wav
-ƒ_[ƒNƒtƒH[ƒX(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ • Whiz.wav
-ƒ_[ƒNƒtƒH[ƒX(–½’†), –‚–@W’† •;‘å”š”­ •
-ƒuƒ‰ƒbƒfƒBƒnƒEƒŠƒ“ƒO(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw • Flair.wav
-ƒuƒ‰ƒbƒfƒBƒnƒEƒŠƒ“ƒO(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ • Whiz.wav
-ƒuƒ‰ƒbƒfƒBƒnƒEƒŠƒ“ƒO(–½’†), d—Íˆ³k Breath.wav
-ƒoƒŠƒA[(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒoƒŠƒA[(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ • Whiz.wav
-ƒoƒŠƒA[(”­“®), ”­Œõ • BeamCoat.wav
-ƒƒeƒIƒXƒH[ƒ€(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw • Flair.wav
-ƒƒeƒIƒXƒH[ƒ€(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ • Whiz.wav;è¦Î
-ƒƒeƒIƒXƒH[ƒ€(–½’†), ‘å”š”­
-ƒVƒ…[ƒeƒBƒ“ƒOƒXƒ^[(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw • Flair.wav
-ƒVƒ…[ƒeƒBƒ“ƒOƒXƒ^[(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ • Whiz.wav
-ƒVƒ…[ƒeƒBƒ“ƒOƒXƒ^[(–½’†), ‘åŠgŽUƒr[ƒ€ ”’
-ƒfƒBƒŒƒC(€”õ), Œõ•¬o ”’ Whiz.wav
-ƒfƒBƒŒƒC(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ žò Whiz.wav
-ƒfƒBƒŒƒC(–½’†), —±ŽqW’† žò
-ƒXƒgƒ‰ƒOƒlƒCƒVƒ‡ƒ“(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw žò Flair.wav
-ƒXƒgƒ‰ƒOƒlƒCƒVƒ‡ƒ“(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ žò Whiz.wav
-ƒXƒgƒ‰ƒOƒlƒCƒVƒ‡ƒ“(–½’†), d—Íˆ³k
-ƒfƒBƒXƒg[ƒVƒ‡ƒ“(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw žò Flair.wav
-ƒfƒBƒXƒg[ƒVƒ‡ƒ“(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ žò Whiz.wav
-ƒfƒBƒXƒg[ƒVƒ‡ƒ“(–½’†), ŽžŠÔ;”ò–— ”’ Glass.wav
-###“Gê—p»—ìp###
-ƒtƒBƒAƒtƒ‹ƒtƒŒƒA(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw Ô Flair.wav
-ƒtƒBƒAƒtƒ‹ƒtƒŒƒA(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ô Whiz.wav;ƒLƒƒƒmƒ“–C 5 Whiz.wav
-ƒtƒBƒAƒtƒ‹ƒtƒŒƒA(–½’†), ˜A‘±”š”­ 5
-ƒXƒp[ƒNƒEƒF[ƒu(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw Ž‡ Flair.wav
-ƒXƒp[ƒNƒEƒF[ƒu(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ž‡ Whiz.wav
-ƒXƒp[ƒNƒEƒF[ƒu(–½’†), ‘å•ú“d ‰©
-ƒVƒƒƒCƒjƒ“ƒOƒtƒŒƒA(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw ”’ Flair.wav
-ƒVƒƒƒCƒjƒ“ƒOƒtƒŒƒA(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Whiz.wav
-ƒVƒƒƒCƒjƒ“ƒOƒtƒŒƒA(–½’†), Œõ•¬o ‰© Charge.wav;”ò–— ‰©
-ƒvƒŠƒYƒ€ƒ\[ƒh(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw ”’ Flair.wav
-ƒvƒŠƒYƒ€ƒ\[ƒh(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Whiz.wav
-ƒvƒŠƒYƒ€ƒ\[ƒh(–½’†), ’†ƒr[ƒ€ Ž‡ ƒ‰ƒ“ƒ_ƒ€•ûŒü Whiz.wav;’†ƒr[ƒ€ Ô ƒ‰ƒ“ƒ_ƒ€•ûŒü Whiz.wav;_
-@@@@@@@@@@@’†ƒr[ƒ€ ”’ ƒ‰ƒ“ƒ_ƒ€•ûŒü Whiz.wav;’†ƒr[ƒ€ ‰© ƒ‰ƒ“ƒ_ƒ€•ûŒü Whiz.wav;’†ƒr[ƒ€ “ ƒ‰ƒ“ƒ_ƒ€•ûŒü Whiz.wav;_
-@@@@@@@@@@@’†ƒr[ƒ€  —Î ƒ‰ƒ“ƒ_ƒ€•ûŒü Whiz.wav;’†ƒr[ƒ€  Â ƒ‰ƒ“ƒ_ƒ€•ûŒü Whiz.wav
-ƒTƒ‚ƒ“ƒf[ƒ‚ƒ“(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw • Flair.wav
-ƒTƒ‚ƒ“ƒf[ƒ‚ƒ“(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ • Whiz.wav
-ƒTƒ‚ƒ“ƒf[ƒ‚ƒ“(–½’†), Œõ•¬o Ž‡;‘å”š”­ Ž‡
-ƒvƒ‹[ƒg(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw • Flair.wav
-ƒvƒ‹[ƒg(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ • Whiz.wav
-ƒvƒ‹[ƒg(–½’†), ˜A‘±”š”­ Ž‡ 6
-ƒfƒ…ƒAƒ‹EƒUEƒTƒ“(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw Ô Flair.wav
-ƒfƒ…ƒAƒ‹EƒUEƒTƒ“(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ô Whiz.wav;_
-@í“¬ƒAƒjƒ_U‚é•Ší€”õ Magic\EFFECT_MCircle(Red)01.bmp 64 ”­Œõ Breath.wav “ñ“—¬
-ƒfƒ…ƒAƒ‹EƒUEƒTƒ“(–½’†), ‰Š
-ƒGƒ^ƒjƒeƒBEƒXƒH[ƒ€(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw • Flair.wav
-ƒGƒ^ƒjƒeƒBEƒXƒH[ƒ€(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ • Whiz.wav;‚l‚`‚oƒI[ƒ‰ Â
-ƒGƒ^ƒjƒeƒBEƒXƒH[ƒ€(–½’†), ŒõŽaŒ‚—•‘ ’† Â
-ƒvƒŠƒYƒ~ƒbƒNEƒXƒ^[ƒY(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw • Flair.wav
-ƒvƒŠƒYƒ~ƒbƒNEƒXƒ^[ƒY(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ • Whiz.wav;_
-@@@@@@@@@@@@@@@‚l‚`‚o”­Œõ Ô;‚l‚`‚o”­Œõ …F;‚l‚`‚o”­Œõ ‰©;‚l‚`‚o”­Œõ —Î;‚l‚`‚o”­Œõ “;‚l‚`‚o”­Œõ Ž‡;‚l‚`‚o”­Œõ ”’
-ƒvƒŠƒYƒ~ƒbƒNEƒXƒ^[ƒY(–½’†), ƒ_ƒ[ƒW Ô
-ƒvƒŠƒYƒ~ƒbƒNEƒXƒ^[ƒY(–½’†), ƒ_ƒ[ƒW …F
-ƒvƒŠƒYƒ~ƒbƒNEƒXƒ^[ƒY(–½’†), ƒ_ƒ[ƒW ‰©
-ƒvƒŠƒYƒ~ƒbƒNEƒXƒ^[ƒY(–½’†), ƒ_ƒ[ƒW —Î
-ƒvƒŠƒYƒ~ƒbƒNEƒXƒ^[ƒY(–½’†), ƒ_ƒ[ƒW “
-ƒvƒŠƒYƒ~ƒbƒNEƒXƒ^[ƒY(–½’†), ƒ_ƒ[ƒW Ž‡
-ƒvƒŠƒYƒ~ƒbƒNEƒXƒ^[ƒY(–½’†), ƒ_ƒ[ƒW ”’
-ƒvƒ‰ƒCƒeƒBƒXƒgEƒQ[ƒg(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw • Flair.wav
-ƒvƒ‰ƒCƒeƒBƒXƒgEƒQ[ƒg(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ • Whiz.wav;‚l‚`‚oƒr[ƒ€ ”’
-ƒvƒ‰ƒCƒeƒBƒXƒgEƒQ[ƒg(–½’†), ŠgŽUƒr[ƒ€ ”’
-‚dEƒmƒ”ƒ@(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw Ô Flair.wav
-‚dEƒmƒ”ƒ@(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ô Whiz.wav;‚l‚`‚oƒI[ƒ‰ Ô Explode(Far).wav
-‚dEƒmƒ”ƒ@(–½’†), ‘å”š”­
-ƒ}ƒNƒXƒEƒFƒ‹EƒƒA[(€”õ), Œõ•¬o ”’ Whiz.wav;–‚•ûw • Flair.wav
-ƒ}ƒNƒXƒEƒFƒ‹EƒƒA[(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ • Whiz.wav;‚l‚`‚o”š”­
-ƒ}ƒNƒXƒEƒFƒ‹EƒƒA[(–½’†), ˜A‘±‘å”š”­
-###¢Š«p###
-ƒEƒ“ƒfƒB[ƒl(€”õ), ƒI[ƒ‰ã¸ …F
-ƒEƒ“ƒfƒB[ƒl(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Flair.wav;_
-@@@@@@@@@@‰ï˜b …‚Ì‘å»—ìƒEƒ“ƒfƒB[ƒl ‰ä‚ª…‚Ì–ü‚µ‚É‚ÄA“ð‚ðŽç‚ç‚ñ ŒÅ’è;_
-@@@@@@@@@@ƒtƒ‰ƒbƒVƒ… …F
-ƒEƒ“ƒfƒB[ƒl(”­“®), ‰ñ•œ–‚–@;Œõ•¬o …F Sharara.wav
-ƒEƒ“ƒfƒB[ƒl(•‘•)(€”õ), ƒI[ƒ‰ã¸ …F
-ƒEƒ“ƒfƒB[ƒl(•‘•)(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Flair.wav;_
-@@@@@@@@@@@@@‰ï˜b …‚Ì‘å»—ìƒEƒ“ƒfƒB[ƒl Žó‚¯‚È‚³‚¢I ŒÅ’è;_
-@@@@@@@@@@@@@‚l‚`‚o’Ã”g
-ƒEƒ“ƒfƒB[ƒl(•‘•)(–½’†), ”ò–— …F Splash.wav
-ƒVƒ‹ƒt(€”õ), ƒI[ƒ‰ã¸ —Î
-ƒVƒ‹ƒt(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Flair.wav;_
-@@@@@@@‰ï˜b •—‚Ì‘å»—ìƒVƒ‹ƒt s‚­‚æI ŒÅ’è;_
-@@@@@@@‚l‚`‚o—³Šª —Î Storm.wav;_
-@@@@@@@‰ï˜b •—‚Ì‘å»—ìƒVƒ‹ƒt Ø‚è—ô‚¯I ŒÅ’è;_
-@@@@@@@‚l‚`‚o‹­•— Slash.wav
-ƒVƒ‹ƒt(–½’†), —Ž‰º;’n–ÊÕŒ‚
-ƒCƒtƒŠ[ƒg(€”õ), ƒI[ƒ‰ã¸ Ô
-ƒCƒtƒŠ[ƒg(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Flair.wav;_
-@@@@@@@@@‰ï˜b ‰Î‚Ì‘å»—ìƒCƒtƒŠ[ƒg ‰ä‚ªŽÜ”M‚Ì–‚Žè‚É‚ÄŠDo‚Æ‰»‚¹I ŒÅ’è;_
-@@@@@@@@@‚l‚`‚oƒI[ƒ‰ Ô Explode(Nuclear).wav
-ƒCƒtƒŠ[ƒg(–½’†), ‘å”š”­
-ƒm[ƒ€(€”õ), ƒI[ƒ‰ã¸ ‰©
-ƒm[ƒ€(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Flair.wav;_
-@@@@@@@‰ï˜b ’n‚Ì‘å»—ìƒm[ƒ€ ‘å’n‚Ì—Í‚ðŒ©‚¹‚Ä‚â‚éI ŒÅ’è;_
-@@@@@@@‚l‚`‚o’nk GunPod.wav
-ƒm[ƒ€(–½’†), Šâ’Œ;’n–ÊÕŒ‚ žò Crash.wav
-ƒZƒ‹ƒVƒEƒX(€”õ), ƒI[ƒ‰ã¸ Â
-ƒZƒ‹ƒVƒEƒX(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Flair.wav;_
-@@@@@@@@@‰ï˜b •X‚Ì‘å»—ìƒZƒ‹ƒVƒEƒX ‚Í‚ÁI ŒÅ’è;_
-@@@@@@@@@‚l‚`‚o”g“®•úŽË Â;_
-@@@@@@@@@‰ï˜b •X‚Ì‘å»—ìƒZƒ‹ƒVƒEƒX “€‚êI ŒÅ’è;_
-@@@@@@@@@‚l‚`‚oƒr[ƒ€ Â Freeze.wav
-ƒZƒ‹ƒVƒEƒX(–½’†), ‹­‘Å;‘åƒr[ƒ€ Â Glass.wav;“€Œ‹ Freeze.wav
-ƒ”ƒHƒ‹ƒg(€”õ), ƒI[ƒ‰ã¸ Ž‡
-ƒ”ƒHƒ‹ƒg(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Flair.wav;_
-@@@@@@@@‰ï˜b —‹‚Ì‘å»—ìƒ”ƒHƒ‹ƒg o—Íã¸A—ÕŠEƒgƒbƒp ŒÅ’è;_
-@@@@@@@@@í“¬ƒAƒjƒ_‘å•ú“d€”õ Ž‡;‚l‚`‚o•ú“d
-ƒ”ƒHƒ‹ƒg(–½’†), ‘å“dŒ‚ ‰©;—‘Å ‰©
-ƒŒƒ€(€”õ), ƒI[ƒ‰ã¸ ”’
-ƒŒƒ€(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Flair.wav;_
-@@@@@@‰ï˜b Œõ‚Ì‘å»—ìƒŒƒ€ ŒõA‚ ‚ê‚©‚µ ŒÅ’è;_
-@@@@@@ƒtƒ‰ƒbƒVƒ… ”’
-ƒŒƒ€(Žg—p), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Flair.wav;_
-@@@@@@‰ï˜b Œõ‚Ì‘å»—ìƒŒƒ€ ŒõA‚ ‚ê‚©‚µccÄ¶‚ð–a‚®”’‚«ß—II ŒÅ’è;_
-@@@@@@ƒtƒ‰ƒbƒVƒ… ”’
-ƒŒƒ€(”­“®), ‰ñ•œ–‚–@;Œõ•¬o ”’ Sharara.wav
-ƒVƒƒƒhƒE(€”õ), ƒI[ƒ‰ã¸ •
-ƒVƒƒƒhƒE(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Flair.wav;_
-@@@@@@@@‰ï˜b ˆÅ‚Ì‘å»—ìƒVƒƒƒhƒE ˆÅA‚ ‚ê‚©‚µI ŒÅ’è;‚l‚`‚o”g“®•úŽË Ž‡
-ƒVƒƒƒhƒE(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Flair.wav;_
-@@@@@@@@‰ï˜b ˆÅ‚Ì‘å»—ìƒVƒƒƒhƒE ˆÅA‚ ‚ê‚©‚µcc”j‰ó‚ð–a‚®•‚«ß—II ŒÅ’è;_
-@@@@@@@@‚l‚`‚o”g“®•úŽË Ž‡
-ƒVƒƒƒhƒE(–½’†), ’´ŽaŒ‚ Ž‡ Saber.wav
-ƒ}ƒNƒXƒEƒFƒ‹(€”õ), ƒI[ƒ‰ã¸ •
-ƒ}ƒNƒXƒEƒFƒ‹(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Flair.wav;_
-@@@@@@@@@@‰ï˜b Œ³‘f‚Ì‘å»—ìƒ}ƒNƒXƒEƒFƒ‹ [•£‚æ‚èÙ‚«‚Ì‰Š‚ð~‚ç‚¹‚ñ ŒÅ’è;_
-@@@@@@@@@@è¦Î;è¦Î;è¦Î
-ƒ}ƒNƒXƒEƒFƒ‹(–½’†), ˜A‘±‘å”š”­
-ƒ[ƒNƒ“ƒhƒDƒX(€”õ), ƒI[ƒ‰ã¸ žò
-ƒ[ƒNƒ“ƒhƒDƒX(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Flair.wav;_
-@@@@@@@@@@‰ï˜b Žž‚Ì‘å»—ìƒ[ƒNƒ“ƒhƒDƒX Žž‚æA“€‚è‚Â‚­‚ª‚¢‚¢I ŒÅ’è;_
-@@@@@@@@@@‚l‚`‚oƒuƒ‰ƒbƒNƒz[ƒ‹ •
-ƒ[ƒNƒ“ƒhƒDƒX(–½’†), ”ò–— •
-ƒfƒXƒeƒBƒj[(€”õ), ƒI[ƒ‰ã¸ ”’
-ƒfƒXƒeƒBƒj[(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’ Flair.wav;_
-@@@@@@@@@@@í“¬ƒAƒjƒ_¢Š«€”õ Unit\TOD_StanAileronU.bmp;_
-@@@@@@@@@@‰ï˜b ƒXƒ^ƒ“ƒGƒ‹ƒƒ“ Ž‚™á”š‰ŠwI ŒÅ’è;_
-@@@@@@@@@@‚l‚`‚o‘å”š”­;_
-@@@@@@@@@@@í“¬ƒAƒjƒ_¢Š«€”õ Unit\TOD_RuteeKartretU.bmp;_
-@@@@@@@@@@‰ï˜b ƒ‹[ƒeƒBƒJƒgƒŒƒbƒg ƒXƒiƒCƒvƒGƒAI ŒÅ’è;_
-@@@@@@@@@@‚l‚`‚o’n•\ÕŒ‚”g;_
-@@@@@@@@@@@í“¬ƒAƒjƒ_¢Š«€”õ Unit\TOD_WoodrowKelvinU.bmp;_
-@@@@@@@@@@‰ï˜b ƒEƒbƒhƒƒEƒPƒ‹ƒ”ƒBƒ“ ‚±‚±‚Í”C‚¹‚ëI ŒÅ’è;_
-@@@@@@@@@@‚l‚`‚o‹­•— —Î;_
-@@@@@@@@@@@í“¬ƒAƒjƒ_¢Š«€”õ Unit\TOD_PhiliaPhilisU.bmp;_
-@@@@@@@@@@‰ï˜b ƒtƒBƒŠƒAƒtƒBƒŠƒX s‚«‚Ü‚·‚æI ŒÅ’è;_
-@@@@@@@@@@‚l‚`‚o”­Œõ ”’ Glass.wav;_
-@@@@@@@@@@@í“¬ƒAƒjƒ_¢Š«€”õ Unit\TOD_LionMagnusU.bmp;_
-@@@@@@@@@@‰ï˜b ƒŠƒIƒ“ƒ}ƒOƒiƒX –Úá‚è‚¾I ŒÅ’è;_
-@@@@@@@@@@‚l‚`‚o”g“®•úŽË •
-ƒfƒXƒeƒBƒj[(–½’†), ‹­‘Å;‰Î’Œ
-ƒfƒXƒeƒBƒj[(–½’†), “‚’|Š„‚è
-ƒfƒXƒeƒBƒj[(–½’†), ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚
-ƒfƒXƒeƒBƒj[(–½’†), ˜A‘±”š”­ ”’ Glass.wav
-ƒfƒXƒeƒBƒj[(–½’†), ‘åŽh“Ë •
-###‚»‚Ì‘¼###
-ƒJƒM’Ü, ’ÜŒ‚
-Î“Š‚°, Î
-‹˜ó‚ÌŒ•, ƒT[ƒxƒ‹
-Ží”ò‚Î‚µ(UŒ‚), ‹@ŠÖ–C MachineCannon.wav
-Ží”ò‚Î‚µ(–½’†), ƒ_ƒ[ƒW
-“Ëi, ƒ^ƒbƒNƒ‹
-ƒA[ƒ€ƒKƒ“, ‹@ŠÖ–C
-ƒ[ƒLƒbƒN(UŒ‚), ‚È‚¬•¥‚¢
-ƒ[ƒLƒbƒN(–½’†), ‘ÅŒ‚
-•ÐnŒ•(€”õ), U‚é•Ší _GetWPBN(•Ðn‹‘åŒ•) 56
-•ÐnŒ•(UŒ‚), U‚è‰º‚ë‚µ
-•ÐnŒ•(–½’†), ‘åŽaŒ‚
-ƒAƒhƒoƒ“ƒXƒhƒXƒsƒ“(UŒ‚), @í“¬ƒAƒjƒ_ƒXƒsƒ“ŠJŽn •
-ƒAƒhƒoƒ“ƒXƒhƒXƒsƒ“(–½’†), ˜A‘Å
-ƒo[ƒ`ƒJƒ‹ƒXƒsƒ“(UŒ‚), @í“¬ƒAƒjƒ_ƒXƒsƒ“ŠJŽn •
-ƒo[ƒ`ƒJƒ‹ƒXƒsƒ“(–½’†), ˜A‘Å;”šŒ‚ Crash.wav
-ƒ`ƒ‡ƒbƒv(UŒ‚), U‚è‰º‚ë‚µ
-ƒ`ƒ‡ƒbƒv(–½’†), ‘ÅŒ‚
-ƒtƒH[ƒXƒŒ[ƒU[(UŒ‚), ’†ƒr[ƒ€ ”’ ƒ`ƒƒ[ƒW‚È‚µ
-ƒtƒH[ƒXƒŒ[ƒU[(–½’†), ’†ƒr[ƒ€ ”’
-ƒzƒŠƒf[EƒVƒ“ƒtƒHƒj[(€”õ), ƒn[ƒv
-ƒzƒŠƒf[EƒVƒ“ƒtƒHƒj[(UŒ‚), ƒn[ƒv ‰¹•„ ‰©
-ƒzƒŠƒf[EƒVƒ“ƒtƒHƒj[(–½’†), ”ò–— ‰©
-ƒgƒ‰ƒ“ƒXEƒVƒ“ƒtƒHƒj[(€”õ), ƒn[ƒv
-ƒgƒ‰ƒ“ƒXEƒVƒ“ƒtƒHƒj[(UŒ‚), ƒn[ƒv ‰¹•„ —Î
-ƒgƒ‰ƒ“ƒXEƒVƒ“ƒtƒHƒj[(–½’†), ”ò–— —Î
-ƒfƒB[ƒvEƒtƒ@ƒ“ƒgƒ€(€”õ), ‰…—ì¢Š«
-ƒfƒB[ƒvEƒtƒ@ƒ“ƒgƒ€(UŒ‚), ‰…—ì Ghost.wav
-ƒfƒB[ƒvEƒtƒ@ƒ“ƒgƒ€(–½’†), ”ò–— •
-‚¨HŽ–(UŒ‚), Ši“¬
-‚¨HŽ–(–½’†), —§‚¿ŒÅ‚ß BeamShot.wav
-ƒC[ƒrƒ‹ƒtƒ@ƒCƒA[(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ Ô Whiz.wav;‰Î‰Š’e Ô Whiz.wav
-ƒC[ƒrƒ‹ƒtƒ@ƒCƒA[(–½’†), ˜A‘±”š”­ 2
-ƒLƒbƒN(UŒ‚), U‚èã‚°
-ƒLƒbƒN(–½’†), ƒAƒbƒp[
-‘åŒ•, ‘åŒ•
-’eŠ„(UŒ‚), U‚èã‚°
-’eŠ„(–½’†), ƒAƒbƒp[;@í“¬ƒAƒjƒ_U‚è‰º‚ë‚µUŒ‚;‘åŽaŒ‚
-¬Œ^»—ì–C, ’†ƒr[ƒ€ Â
-»—ì–C, ‘åƒr[ƒ€ Â
-’·‹——£»—ì–C, ’´ƒr[ƒ€ Â
-###‰ðà###
-‚hEƒŠƒ”ƒ@ƒCƒ”ƒ@[(‰ðà), $(ƒ†ƒjƒbƒg)‚ÍƒCƒ“ƒtƒBƒjƒeƒBEƒŠƒ”ƒ@ƒCƒ”ƒ@[‚ÅUŒ‚‚ð‚©‚¯‚½B
-ƒNƒBƒbƒL[ƒAƒ^ƒbƒN(‰ðà), ƒNƒCƒbƒL[‚Í“G‚É‘Ì“–‚½‚èUŒ‚‚ðŽdŠ|‚¯‚½B
-Ž©“®”½Œ‚(ƒsƒRƒnƒ“ƒŠƒxƒ“ƒW)(‰ðà), ƒsƒRƒnƒ“ƒŠƒxƒ“ƒW‚ÌŒø‰Ê‚ÅAƒsƒRƒnƒ“‚ª”ò‚Ño‚µ‚½I
-‹‰õ‰£Œ‚(‰ðà), $(ƒ†ƒjƒbƒg)‚Í»—ìe‚Å‹‰õ‚É‰£‚Á‚½B
-ƒEƒ“ƒfƒB[ƒl(‰ðà), $(ƒ†ƒjƒbƒg)‚ÍƒEƒ“ƒfƒB[ƒl‚ð¢Š«‚µ‚½B
-ƒEƒ“ƒfƒB[ƒl(•‘•)(‰ðà), $(ƒ†ƒjƒbƒg)‚Í$(•Ší)‚ð¢Š«‚µ‚½B
-ƒVƒ‹ƒt(‰ðà), $(ƒ†ƒjƒbƒg)‚Í$(•Ší)‚ð¢Š«‚µ‚½B
-ƒCƒtƒŠ[ƒg(‰ðà), $(ƒ†ƒjƒbƒg)‚Í$(•Ší)‚ð¢Š«‚µ‚½B
-ƒm[ƒ€(‰ðà), $(ƒ†ƒjƒbƒg)‚Í$(•Ší)‚ð¢Š«‚µ‚½B
-ƒZƒ‹ƒVƒEƒX(‰ðà), $(ƒ†ƒjƒbƒg)‚Í$(•Ší)‚ð¢Š«‚µ‚½B
-ƒ”ƒHƒ‹ƒg(‰ðà), $(ƒ†ƒjƒbƒg)‚Í$(•Ší)‚ð¢Š«‚µ‚½B
-ƒŒƒ€(‰ðà), $(ƒ†ƒjƒbƒg)‚ÍƒŒƒ€‚ð¢Š«‚µ‚½B
-ƒVƒƒƒhƒE(‰ðà), $(ƒ†ƒjƒbƒg)‚Í$(•Ší)‚ð¢Š«‚µ‚½B
-ƒ}ƒNƒXƒEƒFƒ‹(‰ðà), $(ƒ†ƒjƒbƒg)‚Í$(•Ší)‚ð¢Š«‚µ‚½B
-ƒ[ƒNƒ“ƒhƒDƒX(‰ðà), $(ƒ†ƒjƒbƒg)‚Í$(•Ší)‚ð¢Š«‚µ‚½B
-ƒfƒXƒeƒBƒj[(‰ðà), ƒƒ‹ƒfƒB‚Í‚rE‚c‚Åƒ\[ƒfƒBƒAƒ“ƒ}ƒXƒ^[‚ð¢Š«‚µ‚½B
-“–‚Äg‹Z(ƒAƒCƒVƒNƒ‹ƒtƒH[ƒ‹)(‰ðà), $(ƒ†ƒjƒbƒg)‚ÍƒAƒCƒVƒNƒ‹ƒtƒH[ƒ‹‚Å”½Œ‚‚µ‚½B
-“–‚Äg‹Z(ƒ_ƒbƒVƒ…ƒJƒEƒ“ƒ^[)(‰ðà), $(ƒ†ƒjƒbƒg)‚Íƒ_ƒbƒVƒ…ƒJƒEƒ“ƒ^[‚Å”½Œ‚‚µ‚½B
-“–‚Äg‹Z(“]g˜AŒ‚)(‰ðà), $(ƒ†ƒjƒbƒg)‚Í“]g˜AŒ‚‚Å”½Œ‚‚µ‚½B
-’Ç‰ÁUŒ‚(ƒƒ‹ƒLƒ…ƒŠƒAEƒXƒgƒ‰ƒCƒN)(‰ðà), -
-‚dEƒtƒ@ƒCƒiƒŠƒeƒB(‰ðà), $(ƒ†ƒjƒbƒg)‚ÍƒGƒ^[ƒiƒ‹Eƒtƒ@ƒCƒiƒŠƒeƒB‚ÅUŒ‚‚ð‚©‚¯‚½B
-‚eEƒfƒbƒhƒGƒ“ƒh(‰ðà), $(ƒ†ƒjƒbƒg)‚Íƒtƒ@ƒCƒiƒŠƒeƒBEƒfƒbƒhƒGƒ“ƒh‚ÅUŒ‚‚ð‚©‚¯‚½B
-‚dEƒmƒ”ƒ@(‰ðà), $(ƒ†ƒjƒbƒg)‚ÍƒGƒNƒXƒvƒ[ƒWƒ‡ƒ“Eƒmƒ”ƒ@‚ÌŽô•¶‚ð¥‚¦‚½B
+ï¼´ï¼¯ï¼¥
+###æ™¶éœŠè¡“###
+ã‚¢ã‚¯ã‚¢ã‚¨ãƒƒã‚¸(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ã‚¢ã‚¯ã‚¢ã‚¨ãƒƒã‚¸(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ°´è‰² Whiz.wav;å›žè»¢ç™ºå°„ _GetWPBN(å…‰æ–¬è¼ª(é’)) Whiz.wav é…
+ã‚¢ã‚¯ã‚¢ã‚¨ãƒƒã‚¸(å‘½ä¸­), é£›æ²« é’ Splash.wav
+ã‚¢ã‚·ãƒƒãƒ‰ãƒ¬ã‚¤ãƒ³(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wavé­”æ–¹é™£ æ°´è‰² Flair.wav
+ã‚¢ã‚·ãƒƒãƒ‰ãƒ¬ã‚¤ãƒ³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ°´è‰² Whiz.wav;å¹é›ª Shower.wav
+ã‚¢ã‚·ãƒƒãƒ‰ãƒ¬ã‚¤ãƒ³(å‘½ä¸­), é£›æ²« é»’
+ã‚¹ãƒ—ãƒ¬ãƒƒãƒ‰(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ æ°´è‰² Flair.wav
+ã‚¹ãƒ—ãƒ¬ãƒƒãƒ‰(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ°´è‰² Whiz.wav
+ã‚¹ãƒ—ãƒ¬ãƒƒãƒ‰(å‘½ä¸­), é­”æ³•æ”¾å°„ æ°´è‰² Splash.wav;é£›æ²« æ°´è‰² -.wav
+ãƒ¡ã‚¤ãƒ«ã‚·ãƒ¥ãƒˆãƒ­ãƒ¼ãƒ (æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ æ°´è‰² Flair.wav
+ãƒ¡ã‚¤ãƒ«ã‚·ãƒ¥ãƒˆãƒ­ãƒ¼ãƒ (æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ°´è‰² Whiz.wav
+ãƒ¡ã‚¤ãƒ«ã‚·ãƒ¥ãƒˆãƒ­ãƒ¼ãƒ (å‘½ä¸­), å¼·é¢¨ Storm.wav;é­”æ³•æ”¾å°„ æ°´è‰² Splash.wav;é£›æ²« æ°´è‰² -.wav
+ãƒ’ãƒ¼ãƒ«(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ãƒ’ãƒ¼ãƒ«(ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ°´è‰² Whiz.wav
+ãƒ’ãƒ¼ãƒ«(ç™ºå‹•), å›žå¾©é­”æ³•
+ãƒŠãƒ¼ã‚¹(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wavé­”æ–¹é™£ æ°´è‰² Flair.wav
+ãƒŠãƒ¼ã‚¹(ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ°´è‰² Whiz.wav
+ãƒŠãƒ¼ã‚¹(ç™ºå‹•), å›žå¾©é­”æ³•
+ã‚­ãƒ¥ã‚¢(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ æ°´è‰² Flair.wav
+ã‚­ãƒ¥ã‚¢(ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ°´è‰² Whiz.wav
+ã‚­ãƒ¥ã‚¢(ç™ºå‹•), ç²’å­é›†ä¸­ ç™½;å›žå¾©é­”æ³•
+ãƒªã‚¶ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ æ°´è‰² Flair.wav
+ãƒªã‚¶ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³(ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ°´è‰² Whiz.wav
+ãƒªã‚¶ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³(ç™ºå‹•), é­”æ³•é™£ é’ èƒŒé¢ Charge(High).wav;å…‰å™´å‡º é’ -.wav
+ãƒ¬ã‚¤ã‚ºãƒ‡ãƒƒãƒ‰(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ æ°´è‰² Flair.wav
+ãƒ¬ã‚¤ã‚ºãƒ‡ãƒƒãƒ‰(ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ°´è‰² Whiz.wav
+ãƒ¬ã‚¤ã‚ºãƒ‡ãƒƒãƒ‰(ç™ºå‹•), ç¾½ Sharara.wav;å…‰æŸ±
+ã‚¦ã‚£ãƒ³ãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ã‚¦ã‚£ãƒ³ãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç·‘ Whiz.wav
+ã‚¦ã‚£ãƒ³ãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(å‘½ä¸­), é¢¨
+ã‚¨ã‚¢ã‚¹ãƒ©ã‚¹ãƒˆ(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ ç·‘ Flair.wav
+ã‚¨ã‚¢ã‚¹ãƒ©ã‚¹ãƒˆ(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç·‘ Whiz.wav
+ã‚¨ã‚¢ã‚¹ãƒ©ã‚¹ãƒˆ(å‘½ä¸­), å¼·é¢¨
+ã‚µã‚¤ã‚¯ãƒ­ãƒ³(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ ç·‘ Flair.wav
+ã‚µã‚¤ã‚¯ãƒ­ãƒ³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç·‘ Whiz.wav
+ã‚µã‚¤ã‚¯ãƒ­ãƒ³(å‘½ä¸­), ç«œå·»
+ã‚³ãƒ³ã‚»ãƒ³ãƒˆãƒ¬ãƒ¼ãƒˆ(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ã‚³ãƒ³ã‚»ãƒ³ãƒˆãƒ¬ãƒ¼ãƒˆ(ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç·‘ Whiz.wav
+ã‚³ãƒ³ã‚»ãƒ³ãƒˆãƒ¬ãƒ¼ãƒˆ(ç™ºå‹•), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç·‘
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ èµ¤ Whiz.wav;ç«ç‚Žå¼¾ èµ¤ Whiz.wav
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«(å‘½ä¸­), é€£ç¶šçˆ†ç™º 2
+ã‚¤ãƒ©ãƒ—ã‚·ãƒ§ãƒ³(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ èµ¤ Flair.wav
+ã‚¤ãƒ©ãƒ—ã‚·ãƒ§ãƒ³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ èµ¤ Whiz.wav
+ã‚¤ãƒ©ãƒ—ã‚·ãƒ§ãƒ³(å‘½ä¸­), å¤§çˆ†ç™º
+ãƒ•ãƒ¬ã‚¤ãƒ ã‚¦ã‚©ãƒ¼ãƒ«(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ èµ¤ Flair.wav
+ãƒ•ãƒ¬ã‚¤ãƒ ã‚¦ã‚©ãƒ¼ãƒ«(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ èµ¤ Whiz.wav
+ãƒ•ãƒ¬ã‚¤ãƒ ã‚¦ã‚©ãƒ¼ãƒ«(å‘½ä¸­), ç«æŸ±
+ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¼ãƒ‰(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ èµ¤ Flair.wav
+ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¼ãƒ‰(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ èµ¤ Whiz.wav
+ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¼ãƒ‰(å‘½ä¸­), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰æ‰“ã¡ä¸‹ã‚ã—æ”»æ’ƒ èµ¤ Bomb.wav ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;è¶…çˆ†ç™º
+ã‚·ãƒ£ãƒ¼ãƒ—ãƒã‚¹(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ã‚·ãƒ£ãƒ¼ãƒ—ãƒã‚¹(ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ èµ¤ Whiz.wav
+ã‚·ãƒ£ãƒ¼ãƒ—ãƒã‚¹(ç™ºå‹•), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ èµ¤
+ã‚°ãƒ¬ã‚¤ãƒ–(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ã‚°ãƒ¬ã‚¤ãƒ–(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»„ Whiz.wav
+ã‚°ãƒ¬ã‚¤ãƒ–(å‘½ä¸­), çŸ³æŸ±
+ãƒ­ãƒƒã‚¯ãƒ–ãƒ¬ã‚¤ã‚¯(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é»„ Flair.wav
+ãƒ­ãƒƒã‚¯ãƒ–ãƒ¬ã‚¤ã‚¯(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»„ Whiz.wav
+ãƒ­ãƒƒã‚¯ãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), å²©æŸ±
+ã‚°ãƒ©ãƒ³ãƒ‰ãƒ€ãƒƒã‚·ãƒ£ãƒ¼(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é»„ Flair.wav
+ã‚°ãƒ©ãƒ³ãƒ‰ãƒ€ãƒƒã‚·ãƒ£ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»„ Whiz.wav
+ã‚°ãƒ©ãƒ³ãƒ‰ãƒ€ãƒƒã‚·ãƒ£ãƒ¼(å‘½ä¸­), å…‰å™´å‡º é»„ GunPod.wav;ä¹±æ‰“
+ã‚¢ã‚¤ã‚¹ãƒ‹ãƒ¼ãƒ‰ãƒ«(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ã‚¢ã‚¤ã‚¹ãƒ‹ãƒ¼ãƒ‰ãƒ«(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é’ Whiz.wav;æ°·å¼¾ Whiz.wav
+ã‚¢ã‚¤ã‚¹ãƒ‹ãƒ¼ãƒ‰ãƒ«(å‘½ä¸­), é£›æ²« ç™½ Glass.wav
+ãƒ•ãƒªãƒ¼ã‚ºãƒ©ãƒ³ã‚µãƒ¼(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é’ Flair.wav
+ãƒ•ãƒªãƒ¼ã‚ºãƒ©ãƒ³ã‚µãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é’ Whiz.wav
+ãƒ•ãƒªãƒ¼ã‚ºãƒ©ãƒ³ã‚µãƒ¼(å‘½ä¸­), æ‹¡æ•£ãƒ“ãƒ¼ãƒ  é’ Glass.wav
+ãƒ–ãƒªã‚¶ãƒ¼ãƒ‰(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é’ Flair.wav
+ãƒ–ãƒªã‚¶ãƒ¼ãƒ‰(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é’ Whiz.wav
+ãƒ–ãƒªã‚¶ãƒ¼ãƒ‰(å‘½ä¸­), å¹é›ª
+ã‚¢ãƒ–ã‚½ãƒªãƒ¥ãƒ¼ãƒˆ(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é’ Flair.wav
+ã‚¢ãƒ–ã‚½ãƒªãƒ¥ãƒ¼ãƒˆ(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é’ Whiz.wav
+ã‚¢ãƒ–ã‚½ãƒªãƒ¥ãƒ¼ãƒˆ(å‘½ä¸­), æ±ºã‚ç”»åƒ _GetWPBN(æ°·å¡Š) Freeze.wav;é£›æ²« é’ Glass.wav
+ãƒ¬ã‚¸ã‚¹ãƒˆ(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ãƒ¬ã‚¸ã‚¹ãƒˆ(ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é’ Whiz.wav
+ãƒ¬ã‚¸ã‚¹ãƒˆ(ç™ºå‹•), å‡çµ Whiz.wav
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç´« Whiz.wav;è½é›·
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°(å‘½ä¸­), æ”¾é›»
+ã‚µãƒ³ãƒ€ãƒ¼ãƒ–ãƒ¬ãƒ¼ãƒ‰(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ ç´« Flair.wav
+ã‚µãƒ³ãƒ€ãƒ¼ãƒ–ãƒ¬ãƒ¼ãƒ‰(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç´« Whiz.wav;å¤§æ–¬æ’ƒ é»„ Thunder.wav
+ã‚µãƒ³ãƒ€ãƒ¼ãƒ–ãƒ¬ãƒ¼ãƒ‰(å‘½ä¸­), å”ç«¹å‰²ã‚Š é»„ Explode.wav
+ã‚¤ãƒ³ãƒ‡ã‚£ã‚°ãƒã‚¤ã‚·ãƒ§ãƒ³(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ ç´« Flair.wav
+ã‚¤ãƒ³ãƒ‡ã‚£ã‚°ãƒã‚¤ã‚·ãƒ§ãƒ³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç´« Whiz.wav
+ã‚¤ãƒ³ãƒ‡ã‚£ã‚°ãƒã‚¤ã‚·ãƒ§ãƒ³(å‘½ä¸­), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è½é›·æ”»æ’ƒ ç´«;åœ°é¢è¡æ’ƒ ç´« Explode(Far).wav
+ãƒªã‚«ãƒãƒ¼(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ãƒªã‚«ãƒãƒ¼(ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç´« Whiz.wav
+ãƒªã‚«ãƒãƒ¼(ç™ºå‹•), å›žå¾©é­”æ³•
+ãƒãƒ£ãƒ¼ã‚¸(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ãƒãƒ£ãƒ¼ã‚¸(ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç´« Whiz.wav;é­”æ³•æ”¾å°„ ç·‘
+ãƒãƒ£ãƒ¼ã‚¸(ç™ºå‹•), é­”æ³•é›†ä¸­ ç·‘
+ãƒ¬ã‚¤(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ ç™½ Flair.wav
+ãƒ¬ã‚¤(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Whiz.wav
+ãƒ¬ã‚¤(å‘½ä¸­), ãƒ›ãƒ¼ãƒŸãƒ³ã‚°ãƒ¬ãƒ¼ã‚¶ãƒ¼ ç™½
+ãƒ›ãƒ¼ãƒªãƒ¼ãƒ©ãƒ³ã‚¹(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ ç™½ Flair.wav
+ãƒ›ãƒ¼ãƒªãƒ¼ãƒ©ãƒ³ã‚¹(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Whiz.wav
+ãƒ›ãƒ¼ãƒªãƒ¼ãƒ©ãƒ³ã‚¹(å‘½ä¸­), å…‰å™´å‡º ç™½ Inori.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¸­ãƒ“ãƒ¼ãƒ  ç™½ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘ Whiz.wav;ä¸­ãƒ“ãƒ¼ãƒ  ç™½ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘ Whiz.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¸­ãƒ“ãƒ¼ãƒ  ç™½ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘ Whiz.wav;ä¸­ãƒ“ãƒ¼ãƒ  ç™½ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘ Whiz.wav
+ãƒ›ãƒ¼ãƒªãƒ¼ãƒ–ãƒ¬ã‚¹(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ãƒ›ãƒ¼ãƒªãƒ¼ãƒ–ãƒ¬ã‚¹(ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Whiz.wav
+ãƒ›ãƒ¼ãƒªãƒ¼ãƒ–ãƒ¬ã‚¹(ç™ºå‹•), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+ãƒ€ãƒ¼ã‚¯ãƒ•ã‚©ãƒ¼ã‚¹(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é»’ Flair.wav
+ãƒ€ãƒ¼ã‚¯ãƒ•ã‚©ãƒ¼ã‚¹(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»’ Whiz.wav
+ãƒ€ãƒ¼ã‚¯ãƒ•ã‚©ãƒ¼ã‚¹(å‘½ä¸­), é­”æ³•é›†ä¸­ é»’;å¤§çˆ†ç™º é»’
+ãƒ–ãƒ©ãƒƒãƒ‡ã‚£ãƒã‚¦ãƒªãƒ³ã‚°(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é»’ Flair.wav
+ãƒ–ãƒ©ãƒƒãƒ‡ã‚£ãƒã‚¦ãƒªãƒ³ã‚°(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»’ Whiz.wav
+ãƒ–ãƒ©ãƒƒãƒ‡ã‚£ãƒã‚¦ãƒªãƒ³ã‚°(å‘½ä¸­), é‡åŠ›åœ§ç¸® Breath.wav
+ãƒãƒªã‚¢ãƒ¼(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ãƒãƒªã‚¢ãƒ¼(ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»’ Whiz.wav
+ãƒãƒªã‚¢ãƒ¼(ç™ºå‹•), ç™ºå…‰ é»’ BeamCoat.wav
+ãƒ¡ãƒ†ã‚ªã‚¹ã‚©ãƒ¼ãƒ (æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é»’ Flair.wav
+ãƒ¡ãƒ†ã‚ªã‚¹ã‚©ãƒ¼ãƒ (æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»’ Whiz.wav;éš•çŸ³
+ãƒ¡ãƒ†ã‚ªã‚¹ã‚©ãƒ¼ãƒ (å‘½ä¸­), å¤§çˆ†ç™º
+ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ã‚¹ã‚¿ãƒ¼(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é»’ Flair.wav
+ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ã‚¹ã‚¿ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»’ Whiz.wav
+ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ã‚¹ã‚¿ãƒ¼(å‘½ä¸­), å¤§æ‹¡æ•£ãƒ“ãƒ¼ãƒ  ç™½
+ãƒ‡ã‚£ãƒ¬ã‚¤(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav
+ãƒ‡ã‚£ãƒ¬ã‚¤(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ©™ Whiz.wav
+ãƒ‡ã‚£ãƒ¬ã‚¤(å‘½ä¸­), ç²’å­é›†ä¸­ æ©™
+ã‚¹ãƒˆãƒ©ã‚°ãƒã‚¤ã‚·ãƒ§ãƒ³(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ æ©™ Flair.wav
+ã‚¹ãƒˆãƒ©ã‚°ãƒã‚¤ã‚·ãƒ§ãƒ³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ©™ Whiz.wav
+ã‚¹ãƒˆãƒ©ã‚°ãƒã‚¤ã‚·ãƒ§ãƒ³(å‘½ä¸­), é‡åŠ›åœ§ç¸®
+ãƒ‡ã‚£ã‚¹ãƒˆãƒ¼ã‚·ãƒ§ãƒ³(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ æ©™ Flair.wav
+ãƒ‡ã‚£ã‚¹ãƒˆãƒ¼ã‚·ãƒ§ãƒ³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ æ©™ Whiz.wav
+ãƒ‡ã‚£ã‚¹ãƒˆãƒ¼ã‚·ãƒ§ãƒ³(å‘½ä¸­), æ™‚é–“;é£›æ²« ç™½ Glass.wav
+###æ•µå°‚ç”¨æ™¶éœŠè¡“###
+ãƒ•ã‚£ã‚¢ãƒ•ãƒ«ãƒ•ãƒ¬ã‚¢(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ èµ¤ Flair.wav
+ãƒ•ã‚£ã‚¢ãƒ•ãƒ«ãƒ•ãƒ¬ã‚¢(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ èµ¤ Whiz.wav;ã‚­ãƒ£ãƒŽãƒ³ç ² 5 Whiz.wav
+ãƒ•ã‚£ã‚¢ãƒ•ãƒ«ãƒ•ãƒ¬ã‚¢(å‘½ä¸­), é€£ç¶šçˆ†ç™º 5
+ã‚¹ãƒ‘ãƒ¼ã‚¯ã‚¦ã‚§ãƒ¼ãƒ–(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ ç´« Flair.wav
+ã‚¹ãƒ‘ãƒ¼ã‚¯ã‚¦ã‚§ãƒ¼ãƒ–(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç´« Whiz.wav
+ã‚¹ãƒ‘ãƒ¼ã‚¯ã‚¦ã‚§ãƒ¼ãƒ–(å‘½ä¸­), å¤§æ”¾é›» é»„
+ã‚·ãƒ£ã‚¤ãƒ‹ãƒ³ã‚°ãƒ•ãƒ¬ã‚¢(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ ç™½ Flair.wav
+ã‚·ãƒ£ã‚¤ãƒ‹ãƒ³ã‚°ãƒ•ãƒ¬ã‚¢(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Whiz.wav
+ã‚·ãƒ£ã‚¤ãƒ‹ãƒ³ã‚°ãƒ•ãƒ¬ã‚¢(å‘½ä¸­), å…‰å™´å‡º é»„ Charge.wav;é£›æ²« é»„
+ãƒ—ãƒªã‚ºãƒ ã‚½ãƒ¼ãƒ‰(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ ç™½ Flair.wav
+ãƒ—ãƒªã‚ºãƒ ã‚½ãƒ¼ãƒ‰(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Whiz.wav
+ãƒ—ãƒªã‚ºãƒ ã‚½ãƒ¼ãƒ‰(å‘½ä¸­), ä¸­ãƒ“ãƒ¼ãƒ  ç´« ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘ Whiz.wav;ä¸­ãƒ“ãƒ¼ãƒ  èµ¤ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘ Whiz.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¸­ãƒ“ãƒ¼ãƒ  ç™½ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘ Whiz.wav;ä¸­ãƒ“ãƒ¼ãƒ  é»„ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘ Whiz.wav;ä¸­ãƒ“ãƒ¼ãƒ  æ¡ƒ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘ Whiz.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¸­ãƒ“ãƒ¼ãƒ   ç·‘ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘ Whiz.wav;ä¸­ãƒ“ãƒ¼ãƒ   é’ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘ Whiz.wav
+ã‚µãƒ¢ãƒ³ãƒ‡ãƒ¼ãƒ¢ãƒ³(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é»’ Flair.wav
+ã‚µãƒ¢ãƒ³ãƒ‡ãƒ¼ãƒ¢ãƒ³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»’ Whiz.wav
+ã‚µãƒ¢ãƒ³ãƒ‡ãƒ¼ãƒ¢ãƒ³(å‘½ä¸­), å…‰å™´å‡º ç´«;å¤§çˆ†ç™º ç´«
+ãƒ—ãƒ«ãƒ¼ãƒˆ(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é»’ Flair.wav
+ãƒ—ãƒ«ãƒ¼ãƒˆ(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»’ Whiz.wav
+ãƒ—ãƒ«ãƒ¼ãƒˆ(å‘½ä¸­), é€£ç¶šçˆ†ç™º ç´« 6
+ãƒ‡ãƒ¥ã‚¢ãƒ«ãƒ»ã‚¶ãƒ»ã‚µãƒ³(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ èµ¤ Flair.wav
+ãƒ‡ãƒ¥ã‚¢ãƒ«ãƒ»ã‚¶ãƒ»ã‚µãƒ³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ èµ¤ Whiz.wav;_
+@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚‹æ­¦å™¨æº–å‚™ Magic\EFFECT_MCircle(Red)01.bmp 64 ç™ºå…‰ Breath.wav äºŒåˆ€æµ
+ãƒ‡ãƒ¥ã‚¢ãƒ«ãƒ»ã‚¶ãƒ»ã‚µãƒ³(å‘½ä¸­), ç‚Ž
+ã‚¨ã‚¿ãƒ‹ãƒ†ã‚£ãƒ»ã‚¹ã‚©ãƒ¼ãƒ (æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é»’ Flair.wav
+ã‚¨ã‚¿ãƒ‹ãƒ†ã‚£ãƒ»ã‚¹ã‚©ãƒ¼ãƒ (æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»’ Whiz.wav;ï¼­ï¼¡ï¼°ã‚ªãƒ¼ãƒ© é’
+ã‚¨ã‚¿ãƒ‹ãƒ†ã‚£ãƒ»ã‚¹ã‚©ãƒ¼ãƒ (å‘½ä¸­), å…‰æ–¬æ’ƒä¹±èˆž ä¸­ é’
+ãƒ—ãƒªã‚ºãƒŸãƒƒã‚¯ãƒ»ã‚¹ã‚¿ãƒ¼ã‚º(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é»’ Flair.wav
+ãƒ—ãƒªã‚ºãƒŸãƒƒã‚¯ãƒ»ã‚¹ã‚¿ãƒ¼ã‚º(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»’ Whiz.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°ç™ºå…‰ èµ¤;ï¼­ï¼¡ï¼°ç™ºå…‰ æ°´è‰²;ï¼­ï¼¡ï¼°ç™ºå…‰ é»„;ï¼­ï¼¡ï¼°ç™ºå…‰ ç·‘;ï¼­ï¼¡ï¼°ç™ºå…‰ æ¡ƒ;ï¼­ï¼¡ï¼°ç™ºå…‰ ç´«;ï¼­ï¼¡ï¼°ç™ºå…‰ ç™½
+ãƒ—ãƒªã‚ºãƒŸãƒƒã‚¯ãƒ»ã‚¹ã‚¿ãƒ¼ã‚º(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ èµ¤
+ãƒ—ãƒªã‚ºãƒŸãƒƒã‚¯ãƒ»ã‚¹ã‚¿ãƒ¼ã‚º(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ æ°´è‰²
+ãƒ—ãƒªã‚ºãƒŸãƒƒã‚¯ãƒ»ã‚¹ã‚¿ãƒ¼ã‚º(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ é»„
+ãƒ—ãƒªã‚ºãƒŸãƒƒã‚¯ãƒ»ã‚¹ã‚¿ãƒ¼ã‚º(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç·‘
+ãƒ—ãƒªã‚ºãƒŸãƒƒã‚¯ãƒ»ã‚¹ã‚¿ãƒ¼ã‚º(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ æ¡ƒ
+ãƒ—ãƒªã‚ºãƒŸãƒƒã‚¯ãƒ»ã‚¹ã‚¿ãƒ¼ã‚º(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç´«
+ãƒ—ãƒªã‚ºãƒŸãƒƒã‚¯ãƒ»ã‚¹ã‚¿ãƒ¼ã‚º(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ç™½
+ãƒ—ãƒ©ã‚¤ãƒ†ã‚£ã‚¹ãƒˆãƒ»ã‚²ãƒ¼ãƒˆ(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é»’ Flair.wav
+ãƒ—ãƒ©ã‚¤ãƒ†ã‚£ã‚¹ãƒˆãƒ»ã‚²ãƒ¼ãƒˆ(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»’ Whiz.wav;ï¼­ï¼¡ï¼°ãƒ“ãƒ¼ãƒ  ç™½
+ãƒ—ãƒ©ã‚¤ãƒ†ã‚£ã‚¹ãƒˆãƒ»ã‚²ãƒ¼ãƒˆ(å‘½ä¸­), æ‹¡æ•£ãƒ“ãƒ¼ãƒ  ç™½
+ï¼¥ãƒ»ãƒŽãƒ´ã‚¡(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ èµ¤ Flair.wav
+ï¼¥ãƒ»ãƒŽãƒ´ã‚¡(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ èµ¤ Whiz.wav;ï¼­ï¼¡ï¼°ã‚ªãƒ¼ãƒ© èµ¤ Explode(Far).wav
+ï¼¥ãƒ»ãƒŽãƒ´ã‚¡(å‘½ä¸­), å¤§çˆ†ç™º
+ãƒžã‚¯ã‚¹ã‚¦ã‚§ãƒ«ãƒ»ãƒ­ã‚¢ãƒ¼(æº–å‚™), å…‰å™´å‡º ç™½ Whiz.wav;é­”æ–¹é™£ é»’ Flair.wav
+ãƒžã‚¯ã‚¹ã‚¦ã‚§ãƒ«ãƒ»ãƒ­ã‚¢ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ é»’ Whiz.wav;ï¼­ï¼¡ï¼°çˆ†ç™º
+ãƒžã‚¯ã‚¹ã‚¦ã‚§ãƒ«ãƒ»ãƒ­ã‚¢ãƒ¼(å‘½ä¸­), é€£ç¶šå¤§çˆ†ç™º
+###å¬å–šè¡“###
+ã‚¦ãƒ³ãƒ‡ã‚£ãƒ¼ãƒ(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ æ°´è‰²
+ã‚¦ãƒ³ãƒ‡ã‚£ãƒ¼ãƒ(ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Flair.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± æ°´ã®å¤§æ™¶éœŠã‚¦ãƒ³ãƒ‡ã‚£ãƒ¼ãƒ æˆ‘ãŒæ°´ã®ç™’ã—ã«ã¦ã€æ±ã‚’å®ˆã‚‰ã‚“ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ãƒ•ãƒ©ãƒƒã‚·ãƒ¥ æ°´è‰²
+ã‚¦ãƒ³ãƒ‡ã‚£ãƒ¼ãƒ(ç™ºå‹•), å›žå¾©é­”æ³•;å…‰å™´å‡º æ°´è‰² Sharara.wav
+ã‚¦ãƒ³ãƒ‡ã‚£ãƒ¼ãƒ(æ­¦è£…)(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ æ°´è‰²
+ã‚¦ãƒ³ãƒ‡ã‚£ãƒ¼ãƒ(æ­¦è£…)(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Flair.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± æ°´ã®å¤§æ™¶éœŠã‚¦ãƒ³ãƒ‡ã‚£ãƒ¼ãƒ å—ã‘ãªã•ã„ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°æ´¥æ³¢
+ã‚¦ãƒ³ãƒ‡ã‚£ãƒ¼ãƒ(æ­¦è£…)(å‘½ä¸­), é£›æ²« æ°´è‰² Splash.wav
+ã‚·ãƒ«ãƒ•(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç·‘
+ã‚·ãƒ«ãƒ•(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Flair.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± é¢¨ã®å¤§æ™¶éœŠã‚·ãƒ«ãƒ• è¡Œãã‚ˆï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°ç«œå·» ç·‘ Storm.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± é¢¨ã®å¤§æ™¶éœŠã‚·ãƒ«ãƒ• åˆ‡ã‚Šè£‚ã‘ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°å¼·é¢¨ Slash.wav
+ã‚·ãƒ«ãƒ•(å‘½ä¸­), è½ä¸‹;åœ°é¢è¡æ’ƒ
+ã‚¤ãƒ•ãƒªãƒ¼ãƒˆ(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ èµ¤
+ã‚¤ãƒ•ãƒªãƒ¼ãƒˆ(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Flair.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± ç«ã®å¤§æ™¶éœŠã‚¤ãƒ•ãƒªãƒ¼ãƒˆ æˆ‘ãŒç¼ç†±ã®é­”æ‰‹ã«ã¦ç°å¡µã¨åŒ–ã›ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°ã‚ªãƒ¼ãƒ© èµ¤ Explode(Nuclear).wav
+ã‚¤ãƒ•ãƒªãƒ¼ãƒˆ(å‘½ä¸­), å¤§çˆ†ç™º
+ãƒŽãƒ¼ãƒ (æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ é»„
+ãƒŽãƒ¼ãƒ (æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Flair.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± åœ°ã®å¤§æ™¶éœŠãƒŽãƒ¼ãƒ  å¤§åœ°ã®åŠ›ã‚’è¦‹ã›ã¦ã‚„ã‚‹ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°åœ°éœ‡ GunPod.wav
+ãƒŽãƒ¼ãƒ (å‘½ä¸­), å²©æŸ±;åœ°é¢è¡æ’ƒ æ©™ Crash.wav
+ã‚»ãƒ«ã‚·ã‚¦ã‚¹(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ é’
+ã‚»ãƒ«ã‚·ã‚¦ã‚¹(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Flair.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± æ°·ã®å¤§æ™¶éœŠã‚»ãƒ«ã‚·ã‚¦ã‚¹ ã¯ã£ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°æ³¢å‹•æ”¾å°„ é’;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± æ°·ã®å¤§æ™¶éœŠã‚»ãƒ«ã‚·ã‚¦ã‚¹ å‡ã‚Œï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°ãƒ“ãƒ¼ãƒ  é’ Freeze.wav
+ã‚»ãƒ«ã‚·ã‚¦ã‚¹(å‘½ä¸­), å¼·æ‰“;å¤§ãƒ“ãƒ¼ãƒ  é’ Glass.wav;å‡çµ Freeze.wav
+ãƒ´ã‚©ãƒ«ãƒˆ(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç´«
+ãƒ´ã‚©ãƒ«ãƒˆ(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Flair.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± é›·ã®å¤§æ™¶éœŠãƒ´ã‚©ãƒ«ãƒˆ å‡ºåŠ›ä¸Šæ˜‡ã€è‡¨ç•Œãƒˆãƒƒãƒ‘ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¤§æ”¾é›»æº–å‚™ ç´«;ï¼­ï¼¡ï¼°æ”¾é›»
+ãƒ´ã‚©ãƒ«ãƒˆ(å‘½ä¸­), å¤§é›»æ’ƒ é»„;ä¹±æ‰“ é»„
+ãƒ¬ãƒ (æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+ãƒ¬ãƒ (ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Flair.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± å…‰ã®å¤§æ™¶éœŠãƒ¬ãƒ  å…‰ã€ã‚ã‚Œã‹ã— å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ãƒ•ãƒ©ãƒƒã‚·ãƒ¥ ç™½
+ãƒ¬ãƒ (ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Flair.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± å…‰ã®å¤§æ™¶éœŠãƒ¬ãƒ  å…‰ã€ã‚ã‚Œã‹ã—â€¦â€¦å†ç”Ÿã‚’ç´¡ãç™½ãç¯€ç†ï¼ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ãƒ•ãƒ©ãƒƒã‚·ãƒ¥ ç™½
+ãƒ¬ãƒ (ç™ºå‹•), å›žå¾©é­”æ³•;å…‰å™´å‡º ç™½ Sharara.wav
+ã‚·ãƒ£ãƒ‰ã‚¦(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ é»’
+ã‚·ãƒ£ãƒ‰ã‚¦(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Flair.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± é—‡ã®å¤§æ™¶éœŠã‚·ãƒ£ãƒ‰ã‚¦ é—‡ã€ã‚ã‚Œã‹ã—ï¼ å›ºå®š;ï¼­ï¼¡ï¼°æ³¢å‹•æ”¾å°„ ç´«
+ã‚·ãƒ£ãƒ‰ã‚¦(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Flair.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± é—‡ã®å¤§æ™¶éœŠã‚·ãƒ£ãƒ‰ã‚¦ é—‡ã€ã‚ã‚Œã‹ã—â€¦â€¦ç ´å£Šã‚’ç´¡ãé»’ãç¯€ç†ï¼ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°æ³¢å‹•æ”¾å°„ ç´«
+ã‚·ãƒ£ãƒ‰ã‚¦(å‘½ä¸­), è¶…æ–¬æ’ƒ ç´« Saber.wav
+ãƒžã‚¯ã‚¹ã‚¦ã‚§ãƒ«(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ é»’
+ãƒžã‚¯ã‚¹ã‚¦ã‚§ãƒ«(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Flair.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± å…ƒç´ ã®å¤§æ™¶éœŠãƒžã‚¯ã‚¹ã‚¦ã‚§ãƒ« æ·±æ·µã‚ˆã‚Šè£ãã®ç‚Žã‚’é™ã‚‰ã›ã‚“ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€éš•çŸ³;éš•çŸ³;éš•çŸ³
+ãƒžã‚¯ã‚¹ã‚¦ã‚§ãƒ«(å‘½ä¸­), é€£ç¶šå¤§çˆ†ç™º
+ã‚¼ã‚¯ãƒ³ãƒ‰ã‚¥ã‚¹(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ æ©™
+ã‚¼ã‚¯ãƒ³ãƒ‰ã‚¥ã‚¹(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Flair.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± æ™‚ã®å¤§æ™¶éœŠã‚¼ã‚¯ãƒ³ãƒ‰ã‚¥ã‚¹ æ™‚ã‚ˆã€å‡ã‚Šã¤ããŒã„ã„ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°ãƒ–ãƒ©ãƒƒã‚¯ãƒ›ãƒ¼ãƒ« é»’
+ã‚¼ã‚¯ãƒ³ãƒ‰ã‚¥ã‚¹(å‘½ä¸­), é£›æ²« é»’
+ãƒ‡ã‚¹ãƒ†ã‚£ãƒ‹ãƒ¼(æº–å‚™), ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+ãƒ‡ã‚¹ãƒ†ã‚£ãƒ‹ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½ Flair.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¬å–šæº–å‚™ Unit\TOD_StanAileronU.bmp;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± ã‚¹ã‚¿ãƒ³ï¼ã‚¨ãƒ«ãƒ­ãƒ³ ç…å¼çˆ†ç‚Žé™£ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°å¤§çˆ†ç™º;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¬å–šæº–å‚™ Unit\TOD_RuteeKartretU.bmp;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± ãƒ«ãƒ¼ãƒ†ã‚£ï¼ã‚«ãƒˆãƒ¬ãƒƒãƒˆ ã‚¹ãƒŠã‚¤ãƒ—ã‚¨ã‚¢ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°åœ°è¡¨è¡æ’ƒæ³¢;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¬å–šæº–å‚™ Unit\TOD_WoodrowKelvinU.bmp;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± ã‚¦ãƒƒãƒ‰ãƒ­ã‚¦ï¼ã‚±ãƒ«ãƒ´ã‚£ãƒ³ ã“ã“ã¯ä»»ã›ã‚ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°å¼·é¢¨ ç·‘;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¬å–šæº–å‚™ Unit\TOD_PhiliaPhilisU.bmp;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± ãƒ•ã‚£ãƒªã‚¢ï¼ãƒ•ã‚£ãƒªã‚¹ è¡Œãã¾ã™ã‚ˆï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°ç™ºå…‰ ç™½ Glass.wav;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¬å–šæº–å‚™ Unit\TOD_LionMagnusU.bmp;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä¼šè©± ãƒªã‚ªãƒ³ï¼ãƒžã‚°ãƒŠã‚¹ ç›®éšœã‚Šã ï¼ å›ºå®š;_
+ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°æ³¢å‹•æ”¾å°„ é»’
+ãƒ‡ã‚¹ãƒ†ã‚£ãƒ‹ãƒ¼(å‘½ä¸­), å¼·æ‰“;ç«æŸ±
+ãƒ‡ã‚¹ãƒ†ã‚£ãƒ‹ãƒ¼(å‘½ä¸­), å”ç«¹å‰²ã‚Š
+ãƒ‡ã‚¹ãƒ†ã‚£ãƒ‹ãƒ¼(å‘½ä¸­), ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ
+ãƒ‡ã‚¹ãƒ†ã‚£ãƒ‹ãƒ¼(å‘½ä¸­), é€£ç¶šçˆ†ç™º ç™½ Glass.wav
+ãƒ‡ã‚¹ãƒ†ã‚£ãƒ‹ãƒ¼(å‘½ä¸­), å¤§åˆºçª é»’
+###ãã®ä»–###
+ã‚«ã‚®çˆª, çˆªæ’ƒ
+çŸ³æŠ•ã’, çŸ³
+é‹¸çŠ¶ã®å‰£, ã‚µãƒ¼ãƒ™ãƒ«
+ç¨®é£›ã°ã—(æ”»æ’ƒ), æ©Ÿé–¢ç ² MachineCannon.wav
+ç¨®é£›ã°ã—(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸
+çªé€², ã‚¿ãƒƒã‚¯ãƒ«
+ã‚¢ãƒ¼ãƒ ã‚¬ãƒ³, æ©Ÿé–¢ç ²
+ãƒ­ãƒ¼ã‚­ãƒƒã‚¯(æ”»æ’ƒ), ãªãŽæ‰•ã„
+ãƒ­ãƒ¼ã‚­ãƒƒã‚¯(å‘½ä¸­), æ‰“æ’ƒ
+ç‰‡åˆƒå‰£(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ _GetWPBN(ç‰‡åˆƒå·¨å¤§å‰£) 56
+ç‰‡åˆƒå‰£(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—
+ç‰‡åˆƒå‰£(å‘½ä¸­), å¤§æ–¬æ’ƒ
+ã‚¢ãƒ‰ãƒãƒ³ã‚¹ãƒ‰ã‚¹ãƒ”ãƒ³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¹ãƒ”ãƒ³é–‹å§‹ é»’
+ã‚¢ãƒ‰ãƒãƒ³ã‚¹ãƒ‰ã‚¹ãƒ”ãƒ³(å‘½ä¸­), é€£æ‰“
+ãƒãƒ¼ãƒã‚«ãƒ«ã‚¹ãƒ”ãƒ³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¹ãƒ”ãƒ³é–‹å§‹ é»’
+ãƒãƒ¼ãƒã‚«ãƒ«ã‚¹ãƒ”ãƒ³(å‘½ä¸­), é€£æ‰“;çˆ†æ’ƒ Crash.wav
+ãƒãƒ§ãƒƒãƒ—(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—
+ãƒãƒ§ãƒƒãƒ—(å‘½ä¸­), æ‰“æ’ƒ
+ãƒ•ã‚©ãƒ¼ã‚¹ãƒ¬ãƒ¼ã‚¶ãƒ¼(æ”»æ’ƒ), ä¸­ãƒ“ãƒ¼ãƒ  ç™½ ãƒãƒ£ãƒ¼ã‚¸ãªã—
+ãƒ•ã‚©ãƒ¼ã‚¹ãƒ¬ãƒ¼ã‚¶ãƒ¼(å‘½ä¸­), ä¸­ãƒ“ãƒ¼ãƒ  ç™½
+ãƒ›ãƒªãƒ‡ãƒ¼ãƒ»ã‚·ãƒ³ãƒ•ã‚©ãƒ‹ãƒ¼(æº–å‚™), ãƒãƒ¼ãƒ—
+ãƒ›ãƒªãƒ‡ãƒ¼ãƒ»ã‚·ãƒ³ãƒ•ã‚©ãƒ‹ãƒ¼(æ”»æ’ƒ), ãƒãƒ¼ãƒ— éŸ³ç¬¦ é»„
+ãƒ›ãƒªãƒ‡ãƒ¼ãƒ»ã‚·ãƒ³ãƒ•ã‚©ãƒ‹ãƒ¼(å‘½ä¸­), é£›æ²« é»„
+ãƒˆãƒ©ãƒ³ã‚¹ãƒ»ã‚·ãƒ³ãƒ•ã‚©ãƒ‹ãƒ¼(æº–å‚™), ãƒãƒ¼ãƒ—
+ãƒˆãƒ©ãƒ³ã‚¹ãƒ»ã‚·ãƒ³ãƒ•ã‚©ãƒ‹ãƒ¼(æ”»æ’ƒ), ãƒãƒ¼ãƒ— éŸ³ç¬¦ ç·‘
+ãƒˆãƒ©ãƒ³ã‚¹ãƒ»ã‚·ãƒ³ãƒ•ã‚©ãƒ‹ãƒ¼(å‘½ä¸­), é£›æ²« ç·‘
+ãƒ‡ã‚£ãƒ¼ãƒ—ãƒ»ãƒ•ã‚¡ãƒ³ãƒˆãƒ (æº–å‚™), æ€¨éœŠå¬å–š
+ãƒ‡ã‚£ãƒ¼ãƒ—ãƒ»ãƒ•ã‚¡ãƒ³ãƒˆãƒ (æ”»æ’ƒ), æ€¨éœŠ Ghost.wav
+ãƒ‡ã‚£ãƒ¼ãƒ—ãƒ»ãƒ•ã‚¡ãƒ³ãƒˆãƒ (å‘½ä¸­), é£›æ²« é»’
+ãŠé£Ÿäº‹(æ”»æ’ƒ), æ ¼é—˜
+ãŠé£Ÿäº‹(å‘½ä¸­), ç«‹ã¡å›ºã‚ BeamShot.wav
+ã‚¤ãƒ¼ãƒ“ãƒ«ãƒ•ã‚¡ã‚¤ã‚¢ãƒ¼(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ èµ¤ Whiz.wav;ç«ç‚Žå¼¾ èµ¤ Whiz.wav
+ã‚¤ãƒ¼ãƒ“ãƒ«ãƒ•ã‚¡ã‚¤ã‚¢ãƒ¼(å‘½ä¸­), é€£ç¶šçˆ†ç™º 2
+ã‚­ãƒƒã‚¯(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’
+ã‚­ãƒƒã‚¯(å‘½ä¸­), ã‚¢ãƒƒãƒ‘ãƒ¼
+å¤§å‰£, å¤§å‰£
+å¼¾å‰²(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’
+å¼¾å‰²(å‘½ä¸­), ã‚¢ãƒƒãƒ‘ãƒ¼;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚Šä¸‹ã‚ã—æ”»æ’ƒ;å¤§æ–¬æ’ƒ
+å°åž‹æ™¶éœŠç ², ä¸­ãƒ“ãƒ¼ãƒ  é’
+æ™¶éœŠç ², å¤§ãƒ“ãƒ¼ãƒ  é’
+é•·è·é›¢æ™¶éœŠç ², è¶…ãƒ“ãƒ¼ãƒ  é’
+###è§£èª¬###
+ï¼©ãƒ»ãƒªãƒ´ã‚¡ã‚¤ãƒ´ã‚¡ãƒ¼(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ã‚¤ãƒ³ãƒ•ã‚£ãƒ‹ãƒ†ã‚£ãƒ»ãƒªãƒ´ã‚¡ã‚¤ãƒ´ã‚¡ãƒ¼ã§æ”»æ’ƒã‚’ã‹ã‘ãŸã€‚
+ã‚¯ã‚£ãƒƒã‚­ãƒ¼ã‚¢ã‚¿ãƒƒã‚¯(è§£èª¬), ã‚¯ã‚¤ãƒƒã‚­ãƒ¼ã¯æ•µã«ä½“å½“ãŸã‚Šæ”»æ’ƒã‚’ä»•æŽ›ã‘ãŸã€‚
+è‡ªå‹•åæ’ƒ(ãƒ”ã‚³ãƒãƒ³ãƒªãƒ™ãƒ³ã‚¸)(è§£èª¬), ãƒ”ã‚³ãƒãƒ³ãƒªãƒ™ãƒ³ã‚¸ã®åŠ¹æžœã§ã€ãƒ”ã‚³ãƒãƒ³ãŒé£›ã³å‡ºã—ãŸï¼
+è±ªå¿«æ®´æ’ƒ(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯æ™¶éœŠéŠƒã§è±ªå¿«ã«æ®´ã£ãŸã€‚
+ã‚¦ãƒ³ãƒ‡ã‚£ãƒ¼ãƒ(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ã‚¦ãƒ³ãƒ‡ã‚£ãƒ¼ãƒã‚’å¬å–šã—ãŸã€‚
+ã‚¦ãƒ³ãƒ‡ã‚£ãƒ¼ãƒ(æ­¦è£…)(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯$(æ­¦å™¨)ã‚’å¬å–šã—ãŸã€‚
+ã‚·ãƒ«ãƒ•(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯$(æ­¦å™¨)ã‚’å¬å–šã—ãŸã€‚
+ã‚¤ãƒ•ãƒªãƒ¼ãƒˆ(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯$(æ­¦å™¨)ã‚’å¬å–šã—ãŸã€‚
+ãƒŽãƒ¼ãƒ (è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯$(æ­¦å™¨)ã‚’å¬å–šã—ãŸã€‚
+ã‚»ãƒ«ã‚·ã‚¦ã‚¹(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯$(æ­¦å™¨)ã‚’å¬å–šã—ãŸã€‚
+ãƒ´ã‚©ãƒ«ãƒˆ(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯$(æ­¦å™¨)ã‚’å¬å–šã—ãŸã€‚
+ãƒ¬ãƒ (è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒ¬ãƒ ã‚’å¬å–šã—ãŸã€‚
+ã‚·ãƒ£ãƒ‰ã‚¦(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯$(æ­¦å™¨)ã‚’å¬å–šã—ãŸã€‚
+ãƒžã‚¯ã‚¹ã‚¦ã‚§ãƒ«(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯$(æ­¦å™¨)ã‚’å¬å–šã—ãŸã€‚
+ã‚¼ã‚¯ãƒ³ãƒ‰ã‚¥ã‚¹(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯$(æ­¦å™¨)ã‚’å¬å–šã—ãŸã€‚
+ãƒ‡ã‚¹ãƒ†ã‚£ãƒ‹ãƒ¼(è§£èª¬), ãƒ¡ãƒ«ãƒ‡ã‚£ã¯ï¼³ãƒ»ï¼¤ã§ã‚½ãƒ¼ãƒ‡ã‚£ã‚¢ãƒ³ãƒžã‚¹ã‚¿ãƒ¼ã‚’å¬å–šã—ãŸã€‚
+å½“ã¦èº«æŠ€(ã‚¢ã‚¤ã‚·ã‚¯ãƒ«ãƒ•ã‚©ãƒ¼ãƒ«)(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ã‚¢ã‚¤ã‚·ã‚¯ãƒ«ãƒ•ã‚©ãƒ¼ãƒ«ã§åæ’ƒã—ãŸã€‚
+å½“ã¦èº«æŠ€(ãƒ€ãƒƒã‚·ãƒ¥ã‚«ã‚¦ãƒ³ã‚¿ãƒ¼)(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒ€ãƒƒã‚·ãƒ¥ã‚«ã‚¦ãƒ³ã‚¿ãƒ¼ã§åæ’ƒã—ãŸã€‚
+å½“ã¦èº«æŠ€(è»¢èº«é€£æ’ƒ)(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯è»¢èº«é€£æ’ƒã§åæ’ƒã—ãŸã€‚
+è¿½åŠ æ”»æ’ƒ(ãƒ¯ãƒ«ã‚­ãƒ¥ãƒªã‚¢ãƒ»ã‚¹ãƒˆãƒ©ã‚¤ã‚¯)(è§£èª¬), -
+ï¼¥ãƒ»ãƒ•ã‚¡ã‚¤ãƒŠãƒªãƒ†ã‚£(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ã‚¨ã‚¿ãƒ¼ãƒŠãƒ«ãƒ»ãƒ•ã‚¡ã‚¤ãƒŠãƒªãƒ†ã‚£ã§æ”»æ’ƒã‚’ã‹ã‘ãŸã€‚
+ï¼¦ãƒ»ãƒ‡ãƒƒãƒ‰ã‚¨ãƒ³ãƒ‰(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒ•ã‚¡ã‚¤ãƒŠãƒªãƒ†ã‚£ãƒ»ãƒ‡ãƒƒãƒ‰ã‚¨ãƒ³ãƒ‰ã§æ”»æ’ƒã‚’ã‹ã‘ãŸã€‚
+ï¼¥ãƒ»ãƒŽãƒ´ã‚¡(è§£èª¬), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¼ã‚¸ãƒ§ãƒ³ãƒ»ãƒŽãƒ´ã‚¡ã®å‘ªæ–‡ã‚’å”±ãˆãŸã€‚

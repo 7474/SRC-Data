@@ -1,7 +1,7 @@
 
-�G��p�␳
-������ʔ���������Lv3
+敵専用補正
+特殊効果発動率強化Lv3
 
-��ʃU�R���̓ǂ݉����␳
-�p�C���b�g����=$(NickName())
-�p�C���b�g�ǂ݉���=$(Info(���j�b�g,UnitID(),�ǂ݉���))
+一般ザコ愛称読み仮名補正
+パイロット愛称=$(NickName())
+パイロット読み仮名=$(Info(ユニット,UnitID(),読み仮名))

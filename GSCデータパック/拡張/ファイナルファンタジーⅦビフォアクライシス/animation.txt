@@ -1,297 +1,297 @@
 
-#@@‚±‚ÌƒAƒjƒ‚Å‚ÍA‚r‚q‚b‚g‚o”Ä—pƒR[ƒi[‚Åí“¬ƒAƒjƒ‚Æ‚µ‚Ä”z•z‚³‚ê‚Ä‚¢‚é‚à‚ÌˆÈŠO
-#@‚ÉAˆÈ‰º‚ÌƒAƒCƒRƒ“‚ðŽg—p‚µ‚Ä‚¢‚Ü‚·B
-#@@‚È‚¨A‚à‚µ‚à–³‚­‚Ä‚àAŒ©‚½–Ú‚ª‚¨‚©‚µ‚¢’ö“x‚ÅƒGƒ‰[‚Ío‚È‚¢‚æ‚¤‚Å‚·B
+#ã€€ã€€ã“ã®ã‚¢ãƒ‹ãƒ¡ã§ã¯ã€ï¼³ï¼²ï¼£ï¼¨ï¼°æ±Žç”¨ã‚³ãƒ¼ãƒŠãƒ¼ã§æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ã¨ã—ã¦é…å¸ƒã•ã‚Œã¦ã„ã‚‹ã‚‚ã®ä»¥å¤–
+#ã€€ã«ã€ä»¥ä¸‹ã®ã‚¢ã‚¤ã‚³ãƒ³ã‚’ä½¿ç”¨ã—ã¦ã„ã¾ã™ã€‚
+#ã€€ã€€ãªãŠã€ã‚‚ã—ã‚‚ç„¡ãã¦ã‚‚ã€è¦‹ãŸç›®ãŒãŠã‹ã—ã„ç¨‹åº¦ã§ã‚¨ãƒ©ãƒ¼ã¯å‡ºãªã„ã‚ˆã†ã§ã™ã€‚
 #
-#@EFFECT_Dice01.bmp
-#@EFFECT_FF07_Hiwind.bmp
-#@EFFECT_FF07_Chocobo&Moguri.bmp
-#@EFFECT_FF07_Siva.bmp
-#@EFFECT_FF07_Efreet.bmp
-#@EFFECT_FF07_Ramuh.bmp
-#@EFFECT_FF07_Titan.bmp
-#@EFFECT_FF07_Leviathan.bmp
-#@EFFECT_FF07_Odein.bmp
-#@EFFECT_FF07_Bahamut.bmp
-#@EFFECT_FF07_Kujata.bmp
-#@EFFECT_FF07_Alexander.bmp
-#@EFFECT_FF07_Phoenix.bmp
-#@EFFECT_FF07_BahamutCustom.bmp
-#@EFFECT_FF07_Hades.bmp
-#@EFFECT_FF07_BahamutZero.bmp
-#@EFFECT_FF07_Typhon.bmp
-#@EFFECT_FF07_Knight'sOfRound.bmp
+#ã€€EFFECT_Dice01.bmp
+#ã€€EFFECT_FF07_Hiwind.bmp
+#ã€€EFFECT_FF07_Chocobo&Moguri.bmp
+#ã€€EFFECT_FF07_Siva.bmp
+#ã€€EFFECT_FF07_Efreet.bmp
+#ã€€EFFECT_FF07_Ramuh.bmp
+#ã€€EFFECT_FF07_Titan.bmp
+#ã€€EFFECT_FF07_Leviathan.bmp
+#ã€€EFFECT_FF07_Odein.bmp
+#ã€€EFFECT_FF07_Bahamut.bmp
+#ã€€EFFECT_FF07_Kujata.bmp
+#ã€€EFFECT_FF07_Alexander.bmp
+#ã€€EFFECT_FF07_Phoenix.bmp
+#ã€€EFFECT_FF07_BahamutCustom.bmp
+#ã€€EFFECT_FF07_Hades.bmp
+#ã€€EFFECT_FF07_BahamutZero.bmp
+#ã€€EFFECT_FF07_Typhon.bmp
+#ã€€EFFECT_FF07_Knight'sOfRound.bmp
 #
 
-#@@’ÊíUŒ‚‚Å‚¢‚¿‚¢‚¿UŒ‚‘O‚ÉƒGƒtƒFƒNƒg‚©‚©‚Á‚Ä‚àƒEƒU‚¢‚Ì‚ÅAƒŠƒ~ƒbƒg‹Z‚Ì‘O‚Ì‘«Œ³‚©‚ç
-#@Œõ‚ª•¬o‚·‚éƒAƒjƒ‚Í‹†‹ÉƒŠƒ~ƒbƒg‹Z‚ÉŒÀ‚Á‚Ä‚¢‚Ü‚·B
+#ã€€ã€€é€šå¸¸æ”»æ’ƒã§ã„ã¡ã„ã¡æ”»æ’ƒå‰ã«ã‚¨ãƒ•ã‚§ã‚¯ãƒˆã‹ã‹ã£ã¦ã‚‚ã‚¦ã‚¶ã„ã®ã§ã€ãƒªãƒŸãƒƒãƒˆæŠ€ã®å‰ã®è¶³å…ƒã‹ã‚‰
+#ã€€å…‰ãŒå™´å‡ºã™ã‚‹ã‚¢ãƒ‹ãƒ¡ã¯ç©¶æ¥µãƒªãƒŸãƒƒãƒˆæŠ€ã«é™ã£ã¦ã„ã¾ã™ã€‚
 
-#@‚e‚e‚V
+#ã€€ï¼¦ï¼¦ï¼—
 
-Vlƒ^[ƒNƒXEƒƒbƒh
-ƒƒbƒh, Œx–_
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(€”õ), Œx–_
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(UŒ‚), —‘Å
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(–½’†), —‘Å;@í“¬ƒAƒjƒ_ƒWƒƒƒ“ƒvUŒ‚;’´‘Å
+æ–°äººã‚¿ãƒ¼ã‚¯ã‚¹ãƒ»ãƒ­ãƒƒãƒ‰
+ãƒ­ãƒƒãƒ‰, è­¦æ£’
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æº–å‚™), è­¦æ£’
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æ”»æ’ƒ), ä¹±æ‰“
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), ä¹±æ‰“;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¸ãƒ£ãƒ³ãƒ—æ”»æ’ƒ;è¶…æ‰“
 
-Vlƒ^[ƒNƒXE’Ze
-ƒŠƒ{ƒ‹ƒo[, ƒŠƒ{ƒ‹ƒo[
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(€”õ), @í“¬ƒAƒjƒ_Œõ‹…UŒ‚ ƒŒƒbƒh;@í“¬ƒAƒjƒ_Œõ‹…UŒ‚ ƒuƒ‹[;@í“¬ƒAƒjƒ_Œõ‹…UŒ‚ ƒOƒŠ[ƒ“;ƒŠƒ{ƒ‹ƒo[
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(UŒ‚), 2;Gun.wav;–‚–@•úŽË ƒŒƒbƒh ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;‰Š;2;Gun.wav;–‚–@•úŽË ƒuƒ‹[ ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;—Ž—‹;2;Gun.wav;–‚–@•úŽË ƒOƒŠ[ƒ“ ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;‰¹”g
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(–½’†), ‰Š;—Ž—‹;ƒ_ƒ[ƒW
+æ–°äººã‚¿ãƒ¼ã‚¯ã‚¹ãƒ»çŸ­éŠƒ
+ãƒªãƒœãƒ«ãƒãƒ¼, ãƒªãƒœãƒ«ãƒãƒ¼
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æº–å‚™), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰çƒæ”»æ’ƒ ãƒ¬ãƒƒãƒ‰;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰çƒæ”»æ’ƒ ãƒ–ãƒ«ãƒ¼;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰çƒæ”»æ’ƒ ã‚°ãƒªãƒ¼ãƒ³;ãƒªãƒœãƒ«ãƒãƒ¼
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æ”»æ’ƒ), 2;Gun.wav;é­”æ³•æ”¾å°„ ãƒ¬ãƒƒãƒ‰ ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;ç‚Ž;2;Gun.wav;é­”æ³•æ”¾å°„ ãƒ–ãƒ«ãƒ¼ ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;è½é›·;2;Gun.wav;é­”æ³•æ”¾å°„ ã‚°ãƒªãƒ¼ãƒ³ ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;éŸ³æ³¢
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), ç‚Ž;è½é›·;ãƒ€ãƒ¡ãƒ¼ã‚¸
 
-Vlƒ^[ƒNƒXE“ñ’šŒe
-ƒcƒCƒ“ƒŠƒ{ƒ‹ƒo[(€”õ), U‚é•Ší Weapon\EFFECT_Revolver01.bmp “ñ“—¬
-ƒcƒCƒ“ƒŠƒ{ƒ‹ƒo[(UŒ‚), ƒŠƒ{ƒ‹ƒo[;ƒŠƒ{ƒ‹ƒo[;ƒŠƒ{ƒ‹ƒo[;ƒŠƒ{ƒ‹ƒo[;ƒŠƒ{ƒ‹ƒo[;ƒŠƒ{ƒ‹ƒo[
-ƒcƒCƒ“ƒŠƒ{ƒ‹ƒo[(–½’†), e’e;e’e;e’e;e’e;e’e;e’e
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(€”õ), U‚é•Ší Weapon\EFFECT_Revolver01.bmp “ñ“—¬
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(UŒ‚), ƒTƒuƒ}ƒVƒ“ƒKƒ“ Weapon\EFFECT_Revolver01.bmp;ƒTƒuƒ}ƒVƒ“ƒKƒ“ Weapon\EFFECT_Revolver01.bmp
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(–½’†), ƒTƒuƒ}ƒVƒ“ƒKƒ“;ƒTƒuƒ}ƒVƒ“ƒKƒ“;@í“¬ƒAƒjƒ_”­ŒõUŒ‚ ‘ÎÛƒ†ƒjƒbƒg‚h‚c;@í“¬ƒAƒjƒ_U‚é•Ší€”õ Weapon\EFFECT_Revolver01.bmp “ñ“—¬ Gun.wav;”ò–— ƒŒƒbƒh
+æ–°äººã‚¿ãƒ¼ã‚¯ã‚¹ãƒ»äºŒä¸æ‹³éŠƒ
+ãƒ„ã‚¤ãƒ³ãƒªãƒœãƒ«ãƒãƒ¼(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Weapon\EFFECT_Revolver01.bmp äºŒåˆ€æµ
+ãƒ„ã‚¤ãƒ³ãƒªãƒœãƒ«ãƒãƒ¼(æ”»æ’ƒ), ãƒªãƒœãƒ«ãƒãƒ¼;ãƒªãƒœãƒ«ãƒãƒ¼;ãƒªãƒœãƒ«ãƒãƒ¼;ãƒªãƒœãƒ«ãƒãƒ¼;ãƒªãƒœãƒ«ãƒãƒ¼;ãƒªãƒœãƒ«ãƒãƒ¼
+ãƒ„ã‚¤ãƒ³ãƒªãƒœãƒ«ãƒãƒ¼(å‘½ä¸­), éŠƒå¼¾;éŠƒå¼¾;éŠƒå¼¾;éŠƒå¼¾;éŠƒå¼¾;éŠƒå¼¾
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Weapon\EFFECT_Revolver01.bmp äºŒåˆ€æµ
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æ”»æ’ƒ), ã‚µãƒ–ãƒžã‚·ãƒ³ã‚¬ãƒ³ Weapon\EFFECT_Revolver01.bmp;ã‚µãƒ–ãƒžã‚·ãƒ³ã‚¬ãƒ³ Weapon\EFFECT_Revolver01.bmp
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), ã‚µãƒ–ãƒžã‚·ãƒ³ã‚¬ãƒ³;ã‚µãƒ–ãƒžã‚·ãƒ³ã‚¬ãƒ³;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æ”»æ’ƒ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚‹æ­¦å™¨æº–å‚™ Weapon\EFFECT_Revolver01.bmp äºŒåˆ€æµ Gun.wav;é£›æ²« ãƒ¬ãƒƒãƒ‰
 
-Vlƒ^[ƒNƒXEŽU’ee
-ƒVƒ‡ƒbƒgƒKƒ“, ƒVƒ‡ƒbƒgƒKƒ“
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(€”õ), @í“¬ƒAƒjƒ_¬ƒr[ƒ€UŒ‚;@í“¬ƒAƒjƒ_¬ƒr[ƒ€UŒ‚;@í“¬ƒAƒjƒ_¬ƒr[ƒ€UŒ‚;ƒVƒ‡ƒbƒgƒKƒ“
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(UŒ‚), ƒVƒ‡ƒbƒgƒKƒ“
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(–½’†), ’´”š”­
+æ–°äººã‚¿ãƒ¼ã‚¯ã‚¹ãƒ»æ•£å¼¾éŠƒ
+ã‚·ãƒ§ãƒƒãƒˆã‚¬ãƒ³, ã‚·ãƒ§ãƒƒãƒˆã‚¬ãƒ³
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æº–å‚™), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°ãƒ“ãƒ¼ãƒ æ”»æ’ƒ;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°ãƒ“ãƒ¼ãƒ æ”»æ’ƒ;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°ãƒ“ãƒ¼ãƒ æ”»æ’ƒ;ã‚·ãƒ§ãƒƒãƒˆã‚¬ãƒ³
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æ”»æ’ƒ), ã‚·ãƒ§ãƒƒãƒˆã‚¬ãƒ³
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), è¶…çˆ†ç™º
 
-Vlƒ^[ƒNƒXEƒkƒ“ƒ`ƒƒƒN
-ƒkƒ“ƒ`ƒƒƒN, ƒkƒ“ƒ`ƒƒƒN
-ƒkƒ“ƒ`ƒƒƒNy’ÇŒ‚z, ƒkƒ“ƒ`ƒƒƒN
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(€”õ), ƒkƒ“ƒ`ƒƒƒN
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(UŒ‚), ”’•º—•‘;‰Š ‘ÎÛƒ†ƒjƒbƒg‚h‚c;‰¡‘åŽaŒ‚
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(–½’†), —‘Å;‰~ŒÊŽaŒ‚
+æ–°äººã‚¿ãƒ¼ã‚¯ã‚¹ãƒ»ãƒŒãƒ³ãƒãƒ£ã‚¯
+ãƒŒãƒ³ãƒãƒ£ã‚¯, ãƒŒãƒ³ãƒãƒ£ã‚¯
+ãƒŒãƒ³ãƒãƒ£ã‚¯ã€è¿½æ’ƒã€‘, ãƒŒãƒ³ãƒãƒ£ã‚¯
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æº–å‚™), ãƒŒãƒ³ãƒãƒ£ã‚¯
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æ”»æ’ƒ), ç™½å…µä¹±èˆž;ç‚Ž å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;æ¨ªå¤§æ–¬æ’ƒ
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), ä¹±æ‰“;å††å¼§æ–¬æ’ƒ
 
-Vlƒ^[ƒNƒXEƒkƒ“ƒ`ƒƒƒN
-ƒiƒCƒt, ƒiƒCƒt
-“Š‚°ƒiƒCƒt, “Š‚°ƒiƒCƒt
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(€”õ), ƒiƒCƒt
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(UŒ‚), “Š‚°ƒiƒCƒt;“Š‚°ƒiƒCƒt;“Š‚°ƒiƒCƒt;‚R‚v‚`‚xŽËo
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(–½’†), ƒI[ƒ‹ƒŒƒ“ƒW;‘å”š”­ ”’
+æ–°äººã‚¿ãƒ¼ã‚¯ã‚¹ãƒ»ãƒŒãƒ³ãƒãƒ£ã‚¯
+ãƒŠã‚¤ãƒ•, ãƒŠã‚¤ãƒ•
+æŠ•ã’ãƒŠã‚¤ãƒ•, æŠ•ã’ãƒŠã‚¤ãƒ•
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æº–å‚™), ãƒŠã‚¤ãƒ•
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æ”»æ’ƒ), æŠ•ã’ãƒŠã‚¤ãƒ•;æŠ•ã’ãƒŠã‚¤ãƒ•;æŠ•ã’ãƒŠã‚¤ãƒ•;ï¼“ï¼·ï¼¡ï¼¹å°„å‡º
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), ã‚ªãƒ¼ãƒ«ãƒ¬ãƒ³ã‚¸;å¤§çˆ†ç™º ç™½
 
-Vlƒ^[ƒNƒXE˜AŒ‚
-‰ñ‚µR‚è, ƒXƒsƒ“ƒLƒbƒN
-‰ñ‚µR‚èy’ÇŒ‚z, ƒXƒsƒ“ƒLƒbƒN
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(UŒ‚), ‘ÅŒ‚“ËŒ‚;—‘Å;—‘Å;ƒI[ƒ‰ ƒzƒƒCƒg
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(–½’†), Œõˆ³k ƒzƒƒCƒg
+æ–°äººã‚¿ãƒ¼ã‚¯ã‚¹ãƒ»é€£æ’ƒ
+å›žã—è¹´ã‚Š, ã‚¹ãƒ”ãƒ³ã‚­ãƒƒã‚¯
+å›žã—è¹´ã‚Šã€è¿½æ’ƒã€‘, ã‚¹ãƒ”ãƒ³ã‚­ãƒƒã‚¯
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æ”»æ’ƒ), æ‰“æ’ƒçªæ’ƒ;ä¹±æ‰“;ä¹±æ‰“;ã‚ªãƒ¼ãƒ© ãƒ›ãƒ¯ã‚¤ãƒˆ
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), å…‰åœ§ç¸® ãƒ›ãƒ¯ã‚¤ãƒˆ
 
-Vlƒ^[ƒNƒXE“SŒ
-ƒpƒ“ƒ`, ‘Å“Ë
-‚½‚ßƒpƒ“ƒ`(€”õ), ”­Œõ ƒŒƒbƒh
-‚½‚ßƒpƒ“ƒ`(UŒ‚), ‘Å“Ë
-‚½‚ßƒpƒ“ƒ`(–½’†), ‹­‘Å
-Å‘å‚½‚ßƒpƒ“ƒ`(€”õ), ”­Œõ ƒŒƒbƒh
-Å‘å‚½‚ßƒpƒ“ƒ`(UŒ‚), ‘Å“Ë
-Å‘å‚½‚ßƒpƒ“ƒ`(–½’†), ’´‘Å
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(UŒ‚), ”g“®•úŽË ƒCƒGƒ[;”g“®•úŽË ƒCƒGƒ[;”­Œõ ƒuƒ‰ƒbƒN;Œõ‹… ƒCƒGƒ[
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(–½’†), ‘ÅŒ‚;‘ÅŒ‚;’´‘Å
+æ–°äººã‚¿ãƒ¼ã‚¯ã‚¹ãƒ»é‰„æ‹³
+ãƒ‘ãƒ³ãƒ, æ‰“çª
+ãŸã‚ãƒ‘ãƒ³ãƒ(æº–å‚™), ç™ºå…‰ ãƒ¬ãƒƒãƒ‰
+ãŸã‚ãƒ‘ãƒ³ãƒ(æ”»æ’ƒ), æ‰“çª
+ãŸã‚ãƒ‘ãƒ³ãƒ(å‘½ä¸­), å¼·æ‰“
+æœ€å¤§ãŸã‚ãƒ‘ãƒ³ãƒ(æº–å‚™), ç™ºå…‰ ãƒ¬ãƒƒãƒ‰
+æœ€å¤§ãŸã‚ãƒ‘ãƒ³ãƒ(æ”»æ’ƒ), æ‰“çª
+æœ€å¤§ãŸã‚ãƒ‘ãƒ³ãƒ(å‘½ä¸­), è¶…æ‰“
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æ”»æ’ƒ), æ³¢å‹•æ”¾å°„ ã‚¤ã‚¨ãƒ­ãƒ¼;æ³¢å‹•æ”¾å°„ ã‚¤ã‚¨ãƒ­ãƒ¼;ç™ºå…‰ ãƒ–ãƒ©ãƒƒã‚¯;å…‰çƒ ã‚¤ã‚¨ãƒ­ãƒ¼
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), æ‰“æ’ƒ;æ‰“æ’ƒ;è¶…æ‰“
 
-ƒxƒeƒ‰ƒ“ƒ^[ƒNƒXE“
-“, “
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(€”õ), “
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(UŒ‚), ŽaŒ‚—•‘;ŒõW’† ‘ÎÛƒpƒCƒƒbƒg;‰¡‘åŽaŒ‚ ƒŒƒbƒh
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(–½’†), ’´ŽaŒ‚ ƒŒƒbƒh
+ãƒ™ãƒ†ãƒ©ãƒ³ã‚¿ãƒ¼ã‚¯ã‚¹ãƒ»åˆ€
+åˆ€, åˆ€
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æº–å‚™), åˆ€
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æ”»æ’ƒ), æ–¬æ’ƒä¹±èˆž;å…‰é›†ä¸­ å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ;æ¨ªå¤§æ–¬æ’ƒ ãƒ¬ãƒƒãƒ‰
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), è¶…æ–¬æ’ƒ ãƒ¬ãƒƒãƒ‰
 
-ƒxƒeƒ‰ƒ“ƒ^[ƒNƒXEŽè— Œ•
-Žè— Œ•, Žè— Œ•
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(€”õ), Žè— Œ•
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(UŒ‚), Žè— Œ•;Žè— Œ•;Žè— Œ•;Žè— Œ•;—³Šª
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(–½’†), —³Šª
+ãƒ™ãƒ†ãƒ©ãƒ³ã‚¿ãƒ¼ã‚¯ã‚¹ãƒ»æ‰‹è£å‰£
+æ‰‹è£å‰£, æ‰‹è£å‰£
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æº–å‚™), æ‰‹è£å‰£
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æ”»æ’ƒ), æ‰‹è£å‰£;æ‰‹è£å‰£;æ‰‹è£å‰£;æ‰‹è£å‰£;ç«œå·»
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), ç«œå·»
 
-ƒŒƒWƒFƒ“ƒhƒ^[ƒNƒX
-”š’e(UŒ‚), ƒfƒtƒHƒ‹ƒg
-”š’e(–½’†), ”š”­
-˜A½”š’ey‚l‚`‚oz, ‚l‚`‚o”š”­
-ƒŠƒ‚ƒRƒ“”š’e(UŒ‚), ƒfƒtƒHƒ‹ƒg
-ƒŠƒ‚ƒRƒ“”š’e(–½’†), ”š”­
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(€”õ), ”š’e
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(UŒ‚), @í“¬ƒAƒjƒ_˜A‘±”š”­–½’† ‘ŠŽèƒ†ƒjƒbƒg;”š’e;”š’e;”š’e;”š’e
-ƒŠƒ~ƒbƒgƒuƒŒƒCƒN(–½’†), ’´”š”­
+ãƒ¬ã‚¸ã‚§ãƒ³ãƒ‰ã‚¿ãƒ¼ã‚¯ã‚¹
+çˆ†å¼¾(æ”»æ’ƒ), ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ
+çˆ†å¼¾(å‘½ä¸­), çˆ†ç™º
+é€£éŽ–çˆ†å¼¾ã€ï¼­ï¼¡ï¼°ã€‘, ï¼­ï¼¡ï¼°çˆ†ç™º
+ãƒªãƒ¢ã‚³ãƒ³çˆ†å¼¾(æ”»æ’ƒ), ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆ
+ãƒªãƒ¢ã‚³ãƒ³çˆ†å¼¾(å‘½ä¸­), çˆ†ç™º
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æº–å‚™), çˆ†å¼¾
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é€£ç¶šçˆ†ç™ºå‘½ä¸­ ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆ;çˆ†å¼¾;çˆ†å¼¾;çˆ†å¼¾;çˆ†å¼¾
+ãƒªãƒŸãƒƒãƒˆãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), è¶…çˆ†ç™º
 
-ƒ”ƒFƒ‹ƒh(‚e‚e‚V‚a‚b)
-ƒ}ƒeƒŠƒAe, ƒLƒƒƒmƒ“–C
-ƒ}ƒeƒŠƒAeEW’†(UŒ‚), ‘åƒLƒƒƒmƒ“–C
-ƒ}ƒeƒŠƒAeEW’†(–½’†), ‘åƒLƒƒƒmƒ“–C;—Ž—‹
+ãƒ´ã‚§ãƒ«ãƒ‰(ï¼¦ï¼¦ï¼—ï¼¢ï¼£)
+ãƒžãƒ†ãƒªã‚¢éŠƒ, ã‚­ãƒ£ãƒŽãƒ³ç ²
+ãƒžãƒ†ãƒªã‚¢éŠƒãƒ»é›†ä¸­(æ”»æ’ƒ), å¤§ã‚­ãƒ£ãƒŽãƒ³ç ²
+ãƒžãƒ†ãƒªã‚¢éŠƒãƒ»é›†ä¸­(å‘½ä¸­), å¤§ã‚­ãƒ£ãƒŽãƒ³ç ²;è½é›·
 
-ƒWƒ‹ƒRƒjƒAƒGƒCƒh(‚e‚e‚V‚a‚b)
-~‚è’‚®Œõ’Œ, Œõ’Œ;Œõ’Œ;Œõ’Œ;Œõ’Œ;Œõ’Œ;Œõ’Œ
-”ò‚Ñ‰ñ‚é—¼˜r‚©‚ç‚ÌŒõü, ‚Q‚v‚`‚xŽËo
-‹‘åŒõü, ‚l‚`‚oŽ‘±ƒr[ƒ€ ƒzƒƒCƒg
+ã‚¸ãƒ«ã‚³ãƒ‹ã‚¢ã‚¨ã‚¤ãƒ‰(ï¼¦ï¼¦ï¼—ï¼¢ï¼£)
+é™ã‚Šæ³¨ãå…‰æŸ±, å…‰æŸ±;å…‰æŸ±;å…‰æŸ±;å…‰æŸ±;å…‰æŸ±;å…‰æŸ±
+é£›ã³å›žã‚‹ä¸¡è…•ã‹ã‚‰ã®å…‰ç·š, ï¼’ï¼·ï¼¡ï¼¹å°„å‡º
+å·¨å¤§å…‰ç·š, ï¼­ï¼¡ï¼°æŒç¶šãƒ“ãƒ¼ãƒ  ãƒ›ãƒ¯ã‚¤ãƒˆ
 
-ƒWƒ‹ƒRƒjƒAƒGƒCƒhƒK[ƒh(‚e‚e‚V‚a‚b)
-˜A‚È‚éŒõ‚Ì‹…, ‚l‚`‚oŒõ•¬o
+ã‚¸ãƒ«ã‚³ãƒ‹ã‚¢ã‚¨ã‚¤ãƒ‰ã‚¬ãƒ¼ãƒ‰(ï¼¦ï¼¦ï¼—ï¼¢ï¼£)
+é€£ãªã‚‹å…‰ã®çƒ, ï¼­ï¼¡ï¼°å…‰å™´å‡º
 
-ƒGƒ‹ƒtƒF(‚e‚e‚V‚a‚b)
-UŒ‚–³Œø‰»(ƒ}ƒeƒŠƒA‚ÌŽç‚è), ŒõƒoƒŠƒA
-“, “
+ã‚¨ãƒ«ãƒ•ã‚§(ï¼¦ï¼¦ï¼—ï¼¢ï¼£)
+æ”»æ’ƒç„¡åŠ¹åŒ–(ãƒžãƒ†ãƒªã‚¢ã®å®ˆã‚Š), å…‰ãƒãƒªã‚¢
+åˆ€, åˆ€
 
-ƒVƒA[ƒY(‚e‚e‚V‚a‚b)
-ƒpƒ“ƒ`, ‘Å“Ë
-•KŽE‚Ì“SŒ(UŒ‚), ‘Å“Ë
-•KŽE‚Ì“SŒ(–½’†), ’´‘Å
+ã‚·ã‚¢ãƒ¼ã‚º(ï¼¦ï¼¦ï¼—ï¼¢ï¼£)
+ãƒ‘ãƒ³ãƒ, æ‰“çª
+å¿…æ®ºã®é‰„æ‹³(æ”»æ’ƒ), æ‰“çª
+å¿…æ®ºã®é‰„æ‹³(å‘½ä¸­), è¶…æ‰“
 
-ƒtƒqƒg(‚e‚e‚V‚a‚b)
-ƒŠƒ{ƒ‹ƒo[, ƒŠƒ{ƒ‹ƒo[
-ƒtƒqƒgƒr[ƒ€, ’†ƒr[ƒ€ ƒOƒŠ[ƒ“
+ãƒ•ãƒ’ãƒˆ(ï¼¦ï¼¦ï¼—ï¼¢ï¼£)
+ãƒªãƒœãƒ«ãƒãƒ¼, ãƒªãƒœãƒ«ãƒãƒ¼
+ãƒ•ãƒ’ãƒˆãƒ“ãƒ¼ãƒ , ä¸­ãƒ“ãƒ¼ãƒ  ã‚°ãƒªãƒ¼ãƒ³
 
-ƒtƒqƒg(‚e‚e‚V‚a‚b)(•ÏgŒã)
-Š™‚Ì‚æ‚¤‚È—¼˜r, ˜AŽaŒ‚
-‰ñ“]‚·‚éŠ™(UŒ‚), ‚S‚v‚`‚xŽËo
-‰ñ“]‚·‚éŠ™(–½’†), ’´ŽaŒ‚
+ãƒ•ãƒ’ãƒˆ(ï¼¦ï¼¦ï¼—ï¼¢ï¼£)(å¤‰èº«å¾Œ)
+éŽŒã®ã‚ˆã†ãªä¸¡è…•, é€£æ–¬æ’ƒ
+å›žè»¢ã™ã‚‹éŽŒ(æ”»æ’ƒ), ï¼”ï¼·ï¼¡ï¼¹å°„å‡º
+å›žè»¢ã™ã‚‹éŽŒ(å‘½ä¸­), è¶…æ–¬æ’ƒ
 
-ƒtƒqƒg(‚e‚e‚V‚a‚b)(•ÏgŒã)(Š™“Š‚°)
-Š™‚Ì‚æ‚¤‚È—¼˜r, ˜AŽaŒ‚
-‰ñ“]‚·‚éŠ™(UŒ‚), ‚S‚v‚`‚xŽËo
-‰ñ“]‚·‚éŠ™(–½’†), ’´ŽaŒ‚
+ãƒ•ãƒ’ãƒˆ(ï¼¦ï¼¦ï¼—ï¼¢ï¼£)(å¤‰èº«å¾Œ)(éŽŒæŠ•ã’)
+éŽŒã®ã‚ˆã†ãªä¸¡è…•, é€£æ–¬æ’ƒ
+å›žè»¢ã™ã‚‹éŽŒ(æ”»æ’ƒ), ï¼”ï¼·ï¼¡ï¼¹å°„å‡º
+å›žè»¢ã™ã‚‹éŽŒ(å‘½ä¸­), è¶…æ–¬æ’ƒ
 
-ƒWƒFƒCƒhƒEƒFƒ|ƒ“
-—‹Œ‚, —Ž—‹ ƒCƒGƒ[
+ã‚¸ã‚§ã‚¤ãƒ‰ã‚¦ã‚§ãƒãƒ³
+é›·æ’ƒ, è½é›· ã‚¤ã‚¨ãƒ­ãƒ¼
 
-ƒWƒFƒCƒhƒEƒFƒ|ƒ“EƒRƒA
-—‹Œ‚, —Ž—‹ ƒsƒ“ƒN
+ã‚¸ã‚§ã‚¤ãƒ‰ã‚¦ã‚§ãƒãƒ³ãƒ»ã‚³ã‚¢
+é›·æ’ƒ, è½é›· ãƒ”ãƒ³ã‚¯
 
-‚e‚e‚V
-‚©‚Ü‚¢‚½‚¿, ‹CŽa
-Œ•Ø‚è(€”õ), ‘åŒ•
-Œ•Ø‚è(UŒ‚), U‚è‰º‚ë‚µ
-Œ•Ø‚è(–½’†), ‘åŽaŒ‚
-•KŽE‹Z(€”õ), ‘åŒ•
-•KŽE‹Z(UŒ‚), U‚è‰º‚ë‚µ
-•KŽE‹Z(–½’†), ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚
-ƒgƒ“ƒtƒ@[, ƒgƒ“ƒtƒ@[
-ƒ}ƒVƒ“ƒKƒ“, ƒ}ƒVƒ“ƒKƒ“
-ƒvƒƒyƒ‰(UŒ‚), ”’•º‰ñ“]
-ƒvƒƒyƒ‰(–½’†), ŽaŒ‚
-ƒ\[ƒhƒ‰ƒbƒVƒ…(UŒ‚), ŽaŒ‚
-ƒ\[ƒhƒ‰ƒbƒVƒ…(–½’†), ŽaŒ‚
-ƒ_ƒuƒ‹ƒVƒ‡ƒbƒg, d‹@ŠÖe
-ƒ[ƒ‰[ƒXƒsƒ“, ƒ^ƒbƒNƒ‹
-ƒXƒ‚[ƒN’e, ‰Œ
-ƒOƒŒƒl[ƒh, ƒOƒŒƒl[ƒh
-ŽèžÖ’e, ŽèžÖ’e
-•›–C, ƒxƒAƒŠƒ“ƒO
-•›–C“à‰B‚µ–C, “à‘ ƒKƒgƒŠƒ“ƒO
-Žå–C, ƒLƒƒƒmƒ“–C
-”g“®–C, ‚l‚`‚oƒr[ƒ€
-‚`‚a–C, ƒ~ƒTƒCƒ‹
-‚b–C, ƒ~ƒTƒCƒ‹
-‰ñ“]‘Ì“–‚½‚è, ƒ^ƒbƒNƒ‹
-ƒtƒ‰ƒCƒ“ƒOƒhƒŠƒ‹, ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹
-‘Ì“–‚½‚è, ƒ^ƒbƒNƒ‹
-ƒfƒbƒhƒŠ[ƒzƒC[ƒ‹, “¥‚Ý’×‚µ
-ƒA[ƒ€ƒAƒ^ƒbƒN(UŒ‚), ƒ^ƒbƒNƒ‹
-ƒA[ƒ€ƒAƒ^ƒbƒN(–½’†), ‹­‘Å
-ƒcƒCƒ“ƒo[ƒi[, ‰Î‰Š•úŽË
-ƒ[ƒŠƒ“ƒOƒtƒ@ƒCƒA, ‰Š
-ƒA[ƒ€, ‘Å“Ë
-ƒA[ƒ€ƒLƒƒƒbƒ`(UŒ‚), ƒ^ƒbƒNƒ‹
-ƒA[ƒ€ƒLƒƒƒbƒ`(–½’†), —§‚¿ŒÅ‚ß
-ƒ‰ƒsƒXƒŒ[ƒU[, ¬ƒr[ƒ€
-ƒ‚[ƒOƒŠƒ_ƒ“ƒX(‰ðà), ƒ‚[ƒOƒŠ‚Ì—x‚è‚ªƒPƒbƒgEƒV[‚ð‰ñ•œ‚³‚¹‚½I
+ï¼¦ï¼¦ï¼—
+ã‹ã¾ã„ãŸã¡, æ°—æ–¬
+å‰£åˆ‡ã‚Š(æº–å‚™), å¤§å‰£
+å‰£åˆ‡ã‚Š(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—
+å‰£åˆ‡ã‚Š(å‘½ä¸­), å¤§æ–¬æ’ƒ
+å¿…æ®ºæŠ€(æº–å‚™), å¤§å‰£
+å¿…æ®ºæŠ€(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—
+å¿…æ®ºæŠ€(å‘½ä¸­), ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ
+ãƒˆãƒ³ãƒ•ã‚¡ãƒ¼, ãƒˆãƒ³ãƒ•ã‚¡ãƒ¼
+ãƒžã‚·ãƒ³ã‚¬ãƒ³, ãƒžã‚·ãƒ³ã‚¬ãƒ³
+ãƒ—ãƒ­ãƒšãƒ©(æ”»æ’ƒ), ç™½å…µå›žè»¢
+ãƒ—ãƒ­ãƒšãƒ©(å‘½ä¸­), æ–¬æ’ƒ
+ã‚½ãƒ¼ãƒ‰ãƒ©ãƒƒã‚·ãƒ¥(æ”»æ’ƒ), æ–¬æ’ƒ
+ã‚½ãƒ¼ãƒ‰ãƒ©ãƒƒã‚·ãƒ¥(å‘½ä¸­), æ–¬æ’ƒ
+ãƒ€ãƒ–ãƒ«ã‚·ãƒ§ãƒƒãƒˆ, é‡æ©Ÿé–¢éŠƒ
+ãƒ­ãƒ¼ãƒ©ãƒ¼ã‚¹ãƒ”ãƒ³, ã‚¿ãƒƒã‚¯ãƒ«
+ã‚¹ãƒ¢ãƒ¼ã‚¯å¼¾, ç…™
+ã‚°ãƒ¬ãƒãƒ¼ãƒ‰, ã‚°ãƒ¬ãƒãƒ¼ãƒ‰
+æ‰‹æ¦´å¼¾, æ‰‹æ¦´å¼¾
+å‰¯ç ², ãƒ™ã‚¢ãƒªãƒ³ã‚°
+å‰¯ç ²å†…éš ã—ç ², å†…è”µã‚¬ãƒˆãƒªãƒ³ã‚°
+ä¸»ç ², ã‚­ãƒ£ãƒŽãƒ³ç ²
+æ³¢å‹•ç ², ï¼­ï¼¡ï¼°ãƒ“ãƒ¼ãƒ 
+ï¼¡ï¼¢ç ², ãƒŸã‚µã‚¤ãƒ«
+ï¼£ç ², ãƒŸã‚µã‚¤ãƒ«
+å›žè»¢ä½“å½“ãŸã‚Š, ã‚¿ãƒƒã‚¯ãƒ«
+ãƒ•ãƒ©ã‚¤ãƒ³ã‚°ãƒ‰ãƒªãƒ«, ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«
+ä½“å½“ãŸã‚Š, ã‚¿ãƒƒã‚¯ãƒ«
+ãƒ‡ãƒƒãƒ‰ãƒªãƒ¼ãƒ›ã‚¤ãƒ¼ãƒ«, è¸ã¿æ½°ã—
+ã‚¢ãƒ¼ãƒ ã‚¢ã‚¿ãƒƒã‚¯(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ«
+ã‚¢ãƒ¼ãƒ ã‚¢ã‚¿ãƒƒã‚¯(å‘½ä¸­), å¼·æ‰“
+ãƒ„ã‚¤ãƒ³ãƒãƒ¼ãƒŠãƒ¼, ç«ç‚Žæ”¾å°„
+ãƒ­ãƒ¼ãƒªãƒ³ã‚°ãƒ•ã‚¡ã‚¤ã‚¢, ç‚Ž
+ã‚¢ãƒ¼ãƒ , æ‰“çª
+ã‚¢ãƒ¼ãƒ ã‚­ãƒ£ãƒƒãƒ(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ«
+ã‚¢ãƒ¼ãƒ ã‚­ãƒ£ãƒƒãƒ(å‘½ä¸­), ç«‹ã¡å›ºã‚
+ãƒ©ãƒ”ã‚¹ãƒ¬ãƒ¼ã‚¶ãƒ¼, å°ãƒ“ãƒ¼ãƒ 
+ãƒ¢ãƒ¼ã‚°ãƒªãƒ€ãƒ³ã‚¹(è§£èª¬), ãƒ¢ãƒ¼ã‚°ãƒªã®è¸Šã‚ŠãŒã‚±ãƒƒãƒˆãƒ»ã‚·ãƒ¼ã‚’å›žå¾©ã•ã›ãŸï¼
 
-#@@ƒCƒ“ƒ^[ƒiƒVƒ‡ƒiƒ‹”ÅŽ‚Á‚Ä‚È‚¢‚Ì‚ÅAƒ‹ƒr[ƒEƒFƒ|ƒ“‚ÆƒGƒƒ‰ƒ‹ƒhƒEƒFƒ|ƒ“‚Í–¢ì¬B
+#ã€€ã€€ã‚¤ãƒ³ã‚¿ãƒ¼ãƒŠã‚·ãƒ§ãƒŠãƒ«ç‰ˆæŒã£ã¦ãªã„ã®ã§ã€ãƒ«ãƒ“ãƒ¼ã‚¦ã‚§ãƒãƒ³ã¨ã‚¨ãƒ¡ãƒ©ãƒ«ãƒ‰ã‚¦ã‚§ãƒãƒ³ã¯æœªä½œæˆã€‚
 
-”Ä—p
-ƒPƒAƒ‹, ‰ñ•œ–‚–@
-ƒPƒAƒ‹ƒ‰, ‰ñ•œ–‚–@
-ƒPƒAƒ‹ƒK, ‰ñ•œ–‚–@
-ƒŠƒWƒFƒl, ‰ñ•œ–‚–@
-ƒ|ƒCƒ]ƒi, Œõ•¬o
-ƒGƒXƒi, Œõ•¬o
-ƒŒƒWƒXƒg, Œõ•¬o
-ƒtƒ@ƒCƒA, ‰Š
-ƒtƒ@ƒCƒ‰, ‰Î’Œ
-ƒtƒ@ƒCƒK, ‰Š;”š”­
-ƒuƒŠƒUƒh, á
-ƒuƒŠƒUƒ‰, “€Œ‹
-ƒuƒŠƒUƒK, “€Œ‹
-ƒTƒ“ƒ_[, —Ž—‹
-ƒTƒ“ƒ_ƒ‰, —Ž—‹
-ƒTƒ“ƒ_ƒK, ‘å—Ž—‹
-ƒNƒGƒCƒN, ‚l‚`‚o’nk
-ƒNƒGƒCƒ‰, ”­Œõ;‚l‚`‚o’nk
-ƒNƒGƒCƒK, Î’Œ
-ƒoƒCƒI, —±ŽqW’† —Î
-ƒoƒCƒIƒ‰, —±ŽqW’† —Î
-ƒoƒCƒIƒK, —±ŽqW’† —Î
-ƒOƒ‰ƒrƒf, d—Í’e
-ƒOƒ‰ƒrƒ‰, d—Í’e
-ƒOƒ‰ƒrƒK, –‚—ÍW’† •;d—Í’e
-ƒXƒŠƒvƒ‹, ‰Œ
-ƒTƒCƒŒƒX, Œˆ‚ß•¶Žš –Ù
-ƒRƒ“ƒtƒ…, ‰H
-ƒo[ƒTƒN, —¬¯
-ƒXƒƒE, ŽžŠÔ‹ts
-ƒXƒgƒbƒv, ŽžŠÔ
-ƒwƒCƒXƒg, ”­Œõ ”’
-ƒoƒŠƒA, ƒGƒlƒ‹ƒM[ƒtƒB[ƒ‹ƒh“WŠJ
-ƒ}ƒoƒŠƒA, ƒGƒlƒ‹ƒM[ƒtƒB[ƒ‹ƒh“WŠJ
-ƒŠƒtƒŒƒN, ƒGƒlƒ‹ƒM[ƒtƒB[ƒ‹ƒh“WŠJ
-ƒEƒH[ƒ‹, ƒGƒlƒ‹ƒM[ƒtƒB[ƒ‹ƒh“WŠJ
-ƒfƒoƒŠƒA, ”­Œõ Ô
-ƒfƒXƒyƒ‹, ”­Œõ Ô
-ƒfƒX, ”­Œõ Ô
-ƒRƒƒbƒg, è¦Î
-ƒRƒƒeƒI, è¦Î
-ƒtƒŠ[ƒY, “€Œ‹
-ƒuƒŒƒCƒN, Î’Œ
-ƒgƒ‹ƒlƒh, —³Šª
-ƒtƒŒƒA, —±ŽqW’† Ô;‘å”š”­
-ƒfƒWƒ‡ƒ“, ‚l‚`‚oƒuƒ‰ƒbƒNƒz[ƒ‹
-ƒtƒ‹ƒPƒA, ‰ñ•œ–‚–@–A
-ƒV[ƒ‹ƒh, ƒGƒlƒ‹ƒM[ƒtƒB[ƒ‹ƒh“WŠJ
-ƒAƒ‹ƒeƒ}(UŒ‚), ”­Œõ ”’ ‘ŠŽèƒ†ƒjƒbƒg‚h‚c
-ƒAƒ‹ƒeƒ}(UŒ‚), –‚—Í•úŽË —Î
-“‚Þ, ƒ^ƒbƒNƒ‹
-‚Ô‚ñ‚Ç‚é, ƒ^ƒbƒNƒ‹
-Œ©”j‚é(UŒ‚), ƒƒbƒNƒIƒ“
-•Ší“Š‚°, “Š±•Ší Weapon\EFFECT_Sword01.bmp
-‘K“Š‚°, “Š±•Ší EFFECT_Coin.bmp
-•KŽE, ƒX[ƒp[ƒ^ƒbƒNƒ‹
-‘€‚é, ƒ^ƒbƒNƒ‹
-ƒŒ[ƒU[, ƒz[ƒ~ƒ“ƒOƒŒ[ƒU[
-ƒ}ƒgƒ‰ƒ}ƒWƒbƒN, ‚l‚`‚oƒ~ƒTƒCƒ‹
-ƒx[ƒ^, ”­Œõ Ô
-ƒgƒ‰ƒCƒ“(UŒ‚), ‰ñ“]”­ŽË Barrier\EFFECT_MagicShield(White)04.bmp ”­Œõ
-ƒAƒNƒAƒuƒŒƒX, –A
-‚È‚ñ‚Æ‚©HHH(UŒ‚), •¶Žšƒr[ƒ€ H
-‚È‚ñ‚Æ‚©HHH(–½’†), Œˆ‚ß•¶Žš H
-‘S‘ÌŽa‚è(UŒ‚), ‚È‚¬•¥‚¢
-‘S‘ÌŽa‚è(–½’†), ‰¡‘åŽaŒ‚
-‹‡”²‚«(UŒ‚), ‚È‚¬•¥‚¢
-‹‡”²‚«(–½’†), ‰¡‘åŽaŒ‚
-—‚êŒ‚‚¿, ŽaŒ‚—•‘
-ƒJƒEƒ“ƒ^[, ƒ^ƒbƒNƒ‹
-•KŽE‹ZII(UŒ‚), ”ò—ˆƒAƒbƒv EFFECT_FF07_Chocobo&Moguri.bmp ”wŒi‚È‚µ;”ò—ˆƒAƒbƒvI—¹ EFFECT_FF07_Chocobo&Moguri.bmp
-ƒ_ƒCƒ„ƒ‚ƒ“ƒhƒ_ƒXƒg(UŒ‚), ~‰ºƒAƒbƒv EFFECT_FF07_Siva.bmp ƒuƒ‹[;~‰ºƒAƒbƒvI—¹ EFFECT_FF07_Siva.bmp;á
-’n–‚Ì‰Î‰Š(UŒ‚), •‚ãƒAƒbƒv EFFECT_FF07_Efreet.bmp ƒŒƒbƒh;•‚ãƒAƒbƒvI—¹ EFFECT_FF07_Efreet.bmp;‰Š“ŠŽË
-Ù‚«‚Ì—‹(UŒ‚), •‚ãƒAƒbƒv EFFECT_FF07_Ramuh.bmp ƒŒƒbƒh;•‚ãƒAƒbƒvI—¹ EFFECT_FF07_Ramuh.bmp;‘å•ú“d
-‘å’n‚Ì“{‚è(UŒ‚), •‚ãƒAƒbƒv EFFECT_FF07_Titan.bmp ”wŒi‚È‚µ;•‚ãƒAƒbƒvI—¹ EFFECT_FF07_Titan.bmp;’n•\ÕŒ‚”g ƒCƒGƒ[
-‘åŠCš‚(UŒ‚), •‚ãƒAƒbƒv EFFECT_FF07_Leviathan.bmp ƒuƒ‹[;•‚ãƒAƒbƒvI—¹ EFFECT_FF07_Leviathan.bmp;‚l‚`‚o’Ã”g
-ƒOƒ“ƒOƒjƒ‹‚Ì‘„(UŒ‚), Thunder.wav;•‚ãƒAƒbƒv EFFECT_FF07_Odein.bmp ”wŒi‚È‚µ;•‚ãƒAƒbƒvI—¹ EFFECT_FF07_Odein.bmp;ŽÀ’e”­ŽË Waepon\EFFECT_Spear01.bmp
-Ža“SŒ•(UŒ‚), Thunder.wav;•‚ãƒAƒbƒv EFFECT_FF07_Odein.bmp ”wŒi‚È‚µ;•‚ãƒAƒbƒvI—¹ EFFECT_FF07_Odein.bmp
-ƒƒKƒtƒŒƒA(UŒ‚), ~‰ºƒAƒbƒv EFFECT_FF07_Bahamut.bmp ”wŒi‚È‚µ;~‰ºƒAƒbƒvI—¹ EFFECT_FF07_Bahamut.bmp;‚l‚`‚oŽ‘±ƒr[ƒ€
-ƒgƒ‰ƒCƒfƒBƒUƒXƒ^[(UŒ‚), ‹…“d ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;“€Œ‹ ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;—±ŽqW’† Ô ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;”š”­ ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;•‚ãƒAƒbƒv EFFECT_FF07_Kujata.bmp ƒCƒGƒ[;•‚ãƒAƒbƒvI—¹ EFFECT_FF07_Kujata.bmp;‚l‚`‚o’nk
-¹‚È‚éR”»(UŒ‚), ‚l‚`‚o’nk;•‚ãƒAƒbƒv EFFECT_FF07_Alexander.bmp ”wŒi‚È‚µ;•‚ãƒAƒbƒvI—¹ EFFECT_FF07_Alexander.bmp;Œð·ƒr[ƒ€ ƒzƒƒCƒg ƒzƒƒCƒg
-“]¶‚Ì‰Š(Žg—p), •‚ãƒAƒbƒv EFFECT_FF07_Phoenix.bmp ƒŒƒbƒh;•‚ãƒAƒbƒvI—¹ EFFECT_FF07_Phoenix.bmp;@í“¬ƒAƒjƒ_‚l‚`‚o‰ŠUŒ‚
-ƒMƒKƒtƒŒƒA(UŒ‚), ~‰ºƒAƒbƒv EFFECT_FF07_BahamutCustom.bmp ƒzƒƒCƒg;~‰ºƒAƒbƒvI—¹ EFFECT_FF07_BahamutCustom.bmp;‚l‚`‚o’nk;‚l‚`‚oŽ‘±ƒr[ƒ€
-ˆÃ•‚ÌŠ˜(UŒ‚), ”ò—ˆƒAƒbƒv EFFECT_FF07_Hades.bmp ƒuƒ‰ƒbƒN;”ò—ˆƒAƒbƒvI—¹ EFFECT_FF07_Hades.bmp;‰Œ•¬ŽË •
-ƒeƒ‰ƒtƒŒƒA(UŒ‚), ‚l‚`‚oƒ_[ƒNƒlƒX;”ò—ˆƒAƒbƒv EFFECT_FF07_BahamutZero.bmp ƒuƒ‰ƒbƒN;”ò—ˆƒAƒbƒvI—¹ EFFECT_FF07_BahamutZero.bmp;‰q¯ƒr[ƒ€ EFFECT_FF07_BahamutZero.bmp ƒzƒƒCƒg
-“V’n•ö‰ó(UŒ‚), —³Šª;”ò—ˆƒAƒbƒv EFFECT_FF07_Typhon.bmp ƒzƒƒCƒg;”ò—ˆƒAƒbƒvI—¹ EFFECT_FF07_Typhon.bmp;‚l‚`‚o‹­•—;‚l‚`‚o’nk
-ƒAƒ‹ƒeƒBƒƒbƒgƒGƒ“ƒh(UŒ‚), ‚l‚`‚oƒuƒ‰ƒbƒNƒz[ƒ‹;”ò—ˆƒAƒbƒv EFFECT_FF07_Knight'sOfRound.bmp ƒuƒ‰ƒbƒN;”ò—ˆƒAƒbƒvI—¹ EFFECT_FF07_Knight'sOfRound.bmp
-•KŽE‹ZII(–½’†), ¬”š”­
-ƒ_ƒCƒ„ƒ‚ƒ“ƒhƒ_ƒXƒg(–½’†), “€Œ‹
-’n–‚Ì‰Î‰Š(–½’†), ‰Š
-Ù‚«‚Ì—‹(–½’†), —Ž—‹
-‘å’n‚Ì“{‚è(–½’†), @í“¬ƒAƒjƒ_‚l‚`‚o’nkUŒ‚
-‘åŠCš‚(–½’†), ’Ã”g
-ƒOƒ“ƒOƒjƒ‹‚Ì‘„(–½’†), ‘åŽh“Ë
-Ža“SŒ•(–½’†), ‰¡‘åŽaŒ‚
-ƒƒKƒtƒŒƒA(–½’†), ”š”­
-ƒgƒ‰ƒCƒfƒBƒUƒXƒ^[(–½’†), ƒ_ƒ[ƒW
-¹‚È‚éR”»(–½’†), @í“¬ƒAƒjƒ_‚l‚`‚o’nkUŒ‚;—Ž‰º
-“]¶‚Ì‰Š(–½’†), ‰ñ•œ–‚–@–A
-ƒMƒKƒtƒŒƒA(–½’†), “§–¾‰»;@í“¬ƒAƒjƒ_‚l‚`‚oƒtƒ‰ƒbƒVƒ…UŒ‚;“§–¾‰» ‰ðœ
-ˆÃ•‚ÌŠ˜(–½’†), ‰Œ •
-ƒeƒ‰ƒtƒŒƒA(–½’†), ’´”š”­
-“V’n•ö‰ó(–½’†), ‹­•—;Î’e
-ƒAƒ‹ƒeƒBƒƒbƒgƒGƒ“ƒh(–½’†), ŽaŒ‚—•‘;ŽaŒ‚—•‘;ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚
+æ±Žç”¨
+ã‚±ã‚¢ãƒ«, å›žå¾©é­”æ³•
+ã‚±ã‚¢ãƒ«ãƒ©, å›žå¾©é­”æ³•
+ã‚±ã‚¢ãƒ«ã‚¬, å›žå¾©é­”æ³•
+ãƒªã‚¸ã‚§ãƒ, å›žå¾©é­”æ³•
+ãƒã‚¤ã‚¾ãƒŠ, å…‰å™´å‡º
+ã‚¨ã‚¹ãƒŠ, å…‰å™´å‡º
+ãƒ¬ã‚¸ã‚¹ãƒˆ, å…‰å™´å‡º
+ãƒ•ã‚¡ã‚¤ã‚¢, ç‚Ž
+ãƒ•ã‚¡ã‚¤ãƒ©, ç«æŸ±
+ãƒ•ã‚¡ã‚¤ã‚¬, ç‚Ž;çˆ†ç™º
+ãƒ–ãƒªã‚¶ãƒ‰, å¹é›ª
+ãƒ–ãƒªã‚¶ãƒ©, å‡çµ
+ãƒ–ãƒªã‚¶ã‚¬, å‡çµ
+ã‚µãƒ³ãƒ€ãƒ¼, è½é›·
+ã‚µãƒ³ãƒ€ãƒ©, è½é›·
+ã‚µãƒ³ãƒ€ã‚¬, å¤§è½é›·
+ã‚¯ã‚¨ã‚¤ã‚¯, ï¼­ï¼¡ï¼°åœ°éœ‡
+ã‚¯ã‚¨ã‚¤ãƒ©, ç™ºå…‰;ï¼­ï¼¡ï¼°åœ°éœ‡
+ã‚¯ã‚¨ã‚¤ã‚¬, çŸ³æŸ±
+ãƒã‚¤ã‚ª, ç²’å­é›†ä¸­ ç·‘
+ãƒã‚¤ã‚ªãƒ©, ç²’å­é›†ä¸­ ç·‘
+ãƒã‚¤ã‚ªã‚¬, ç²’å­é›†ä¸­ ç·‘
+ã‚°ãƒ©ãƒ“ãƒ‡, é‡åŠ›å¼¾
+ã‚°ãƒ©ãƒ“ãƒ©, é‡åŠ›å¼¾
+ã‚°ãƒ©ãƒ“ã‚¬, é­”åŠ›é›†ä¸­ é»’;é‡åŠ›å¼¾
+ã‚¹ãƒªãƒ—ãƒ«, ç…™
+ã‚µã‚¤ãƒ¬ã‚¹, æ±ºã‚æ–‡å­— é»™
+ã‚³ãƒ³ãƒ•ãƒ¥, ç¾½
+ãƒãƒ¼ã‚µã‚¯, æµæ˜Ÿ
+ã‚¹ãƒ­ã‚¦, æ™‚é–“é€†è¡Œ
+ã‚¹ãƒˆãƒƒãƒ—, æ™‚é–“
+ãƒ˜ã‚¤ã‚¹ãƒˆ, ç™ºå…‰ ç™½
+ãƒãƒªã‚¢, ã‚¨ãƒãƒ«ã‚®ãƒ¼ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰å±•é–‹
+ãƒžãƒãƒªã‚¢, ã‚¨ãƒãƒ«ã‚®ãƒ¼ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰å±•é–‹
+ãƒªãƒ•ãƒ¬ã‚¯, ã‚¨ãƒãƒ«ã‚®ãƒ¼ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰å±•é–‹
+ã‚¦ã‚©ãƒ¼ãƒ«, ã‚¨ãƒãƒ«ã‚®ãƒ¼ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰å±•é–‹
+ãƒ‡ãƒãƒªã‚¢, ç™ºå…‰ èµ¤
+ãƒ‡ã‚¹ãƒšãƒ«, ç™ºå…‰ èµ¤
+ãƒ‡ã‚¹, ç™ºå…‰ èµ¤
+ã‚³ãƒ¡ãƒƒãƒˆ, éš•çŸ³
+ã‚³ãƒ¡ãƒ†ã‚ª, éš•çŸ³
+ãƒ•ãƒªãƒ¼ã‚º, å‡çµ
+ãƒ–ãƒ¬ã‚¤ã‚¯, çŸ³æŸ±
+ãƒˆãƒ«ãƒãƒ‰, ç«œå·»
+ãƒ•ãƒ¬ã‚¢, ç²’å­é›†ä¸­ èµ¤;å¤§çˆ†ç™º
+ãƒ‡ã‚¸ãƒ§ãƒ³, ï¼­ï¼¡ï¼°ãƒ–ãƒ©ãƒƒã‚¯ãƒ›ãƒ¼ãƒ«
+ãƒ•ãƒ«ã‚±ã‚¢, å›žå¾©é­”æ³•æ³¡
+ã‚·ãƒ¼ãƒ«ãƒ‰, ã‚¨ãƒãƒ«ã‚®ãƒ¼ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰å±•é–‹
+ã‚¢ãƒ«ãƒ†ãƒž(æ”»æ’ƒ), ç™ºå…‰ ç™½ ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+ã‚¢ãƒ«ãƒ†ãƒž(æ”»æ’ƒ), é­”åŠ›æ”¾å°„ ç·‘
+ç›—ã‚€, ã‚¿ãƒƒã‚¯ãƒ«
+ã¶ã‚“ã©ã‚‹, ã‚¿ãƒƒã‚¯ãƒ«
+è¦‹ç ´ã‚‹(æ”»æ’ƒ), ãƒ­ãƒƒã‚¯ã‚ªãƒ³
+æ­¦å™¨æŠ•ã’, æŠ•æ“²æ­¦å™¨ Weapon\EFFECT_Sword01.bmp
+éŠ­æŠ•ã’, æŠ•æ“²æ­¦å™¨ EFFECT_Coin.bmp
+å¿…æ®º, ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ«
+æ“ã‚‹, ã‚¿ãƒƒã‚¯ãƒ«
+ãƒ¬ãƒ¼ã‚¶ãƒ¼, ãƒ›ãƒ¼ãƒŸãƒ³ã‚°ãƒ¬ãƒ¼ã‚¶ãƒ¼
+ãƒžãƒˆãƒ©ãƒžã‚¸ãƒƒã‚¯, ï¼­ï¼¡ï¼°ãƒŸã‚µã‚¤ãƒ«
+ãƒ™ãƒ¼ã‚¿, ç™ºå…‰ èµ¤
+ãƒˆãƒ©ã‚¤ãƒ³(æ”»æ’ƒ), å›žè»¢ç™ºå°„ Barrier\EFFECT_MagicShield(White)04.bmp ç™ºå…‰
+ã‚¢ã‚¯ã‚¢ãƒ–ãƒ¬ã‚¹, æ³¡
+ãªã‚“ã¨ã‹ï¼Ÿï¼Ÿï¼Ÿ(æ”»æ’ƒ), æ–‡å­—ãƒ“ãƒ¼ãƒ  ï¼Ÿ
+ãªã‚“ã¨ã‹ï¼Ÿï¼Ÿï¼Ÿ(å‘½ä¸­), æ±ºã‚æ–‡å­— ï¼Ÿ
+å…¨ä½“æ–¬ã‚Š(æ”»æ’ƒ), ãªãŽæ‰•ã„
+å…¨ä½“æ–¬ã‚Š(å‘½ä¸­), æ¨ªå¤§æ–¬æ’ƒ
+å±…åˆæŠœã(æ”»æ’ƒ), ãªãŽæ‰•ã„
+å±…åˆæŠœã(å‘½ä¸­), æ¨ªå¤§æ–¬æ’ƒ
+ä¹±ã‚Œæ’ƒã¡, æ–¬æ’ƒä¹±èˆž
+ã‚«ã‚¦ãƒ³ã‚¿ãƒ¼, ã‚¿ãƒƒã‚¯ãƒ«
+å¿…æ®ºæŠ€ï¼ï¼(æ”»æ’ƒ), é£›æ¥ã‚¢ãƒƒãƒ— EFFECT_FF07_Chocobo&Moguri.bmp èƒŒæ™¯ãªã—;é£›æ¥ã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Chocobo&Moguri.bmp
+ãƒ€ã‚¤ãƒ¤ãƒ¢ãƒ³ãƒ‰ãƒ€ã‚¹ãƒˆ(æ”»æ’ƒ), é™ä¸‹ã‚¢ãƒƒãƒ— EFFECT_FF07_Siva.bmp ãƒ–ãƒ«ãƒ¼;é™ä¸‹ã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Siva.bmp;å¹é›ª
+åœ°ç„ã®ç«ç‚Ž(æ”»æ’ƒ), æµ®ä¸Šã‚¢ãƒƒãƒ— EFFECT_FF07_Efreet.bmp ãƒ¬ãƒƒãƒ‰;æµ®ä¸Šã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Efreet.bmp;ç‚ŽæŠ•å°„
+è£ãã®é›·(æ”»æ’ƒ), æµ®ä¸Šã‚¢ãƒƒãƒ— EFFECT_FF07_Ramuh.bmp ãƒ¬ãƒƒãƒ‰;æµ®ä¸Šã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Ramuh.bmp;å¤§æ”¾é›»
+å¤§åœ°ã®æ€’ã‚Š(æ”»æ’ƒ), æµ®ä¸Šã‚¢ãƒƒãƒ— EFFECT_FF07_Titan.bmp èƒŒæ™¯ãªã—;æµ®ä¸Šã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Titan.bmp;åœ°è¡¨è¡æ’ƒæ³¢ ã‚¤ã‚¨ãƒ­ãƒ¼
+å¤§æµ·å˜¯(æ”»æ’ƒ), æµ®ä¸Šã‚¢ãƒƒãƒ— EFFECT_FF07_Leviathan.bmp ãƒ–ãƒ«ãƒ¼;æµ®ä¸Šã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Leviathan.bmp;ï¼­ï¼¡ï¼°æ´¥æ³¢
+ã‚°ãƒ³ã‚°ãƒ‹ãƒ«ã®æ§(æ”»æ’ƒ), Thunder.wav;æµ®ä¸Šã‚¢ãƒƒãƒ— EFFECT_FF07_Odein.bmp èƒŒæ™¯ãªã—;æµ®ä¸Šã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Odein.bmp;å®Ÿå¼¾ç™ºå°„ Waepon\EFFECT_Spear01.bmp
+æ–¬é‰„å‰£(æ”»æ’ƒ), Thunder.wav;æµ®ä¸Šã‚¢ãƒƒãƒ— EFFECT_FF07_Odein.bmp èƒŒæ™¯ãªã—;æµ®ä¸Šã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Odein.bmp
+ãƒ¡ã‚¬ãƒ•ãƒ¬ã‚¢(æ”»æ’ƒ), é™ä¸‹ã‚¢ãƒƒãƒ— EFFECT_FF07_Bahamut.bmp èƒŒæ™¯ãªã—;é™ä¸‹ã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Bahamut.bmp;ï¼­ï¼¡ï¼°æŒç¶šãƒ“ãƒ¼ãƒ 
+ãƒˆãƒ©ã‚¤ãƒ‡ã‚£ã‚¶ã‚¹ã‚¿ãƒ¼(æ”»æ’ƒ), çƒé›» ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;å‡çµ ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;ç²’å­é›†ä¸­ èµ¤ ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;çˆ†ç™º ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;æµ®ä¸Šã‚¢ãƒƒãƒ— EFFECT_FF07_Kujata.bmp ã‚¤ã‚¨ãƒ­ãƒ¼;æµ®ä¸Šã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Kujata.bmp;ï¼­ï¼¡ï¼°åœ°éœ‡
+è–ãªã‚‹å¯©åˆ¤(æ”»æ’ƒ), ï¼­ï¼¡ï¼°åœ°éœ‡;æµ®ä¸Šã‚¢ãƒƒãƒ— EFFECT_FF07_Alexander.bmp èƒŒæ™¯ãªã—;æµ®ä¸Šã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Alexander.bmp;äº¤å·®ãƒ“ãƒ¼ãƒ  ãƒ›ãƒ¯ã‚¤ãƒˆ ãƒ›ãƒ¯ã‚¤ãƒˆ
+è»¢ç”Ÿã®ç‚Ž(ä½¿ç”¨), æµ®ä¸Šã‚¢ãƒƒãƒ— EFFECT_FF07_Phoenix.bmp ãƒ¬ãƒƒãƒ‰;æµ®ä¸Šã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Phoenix.bmp;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ï¼­ï¼¡ï¼°ç‚Žæ”»æ’ƒ
+ã‚®ã‚¬ãƒ•ãƒ¬ã‚¢(æ”»æ’ƒ), é™ä¸‹ã‚¢ãƒƒãƒ— EFFECT_FF07_BahamutCustom.bmp ãƒ›ãƒ¯ã‚¤ãƒˆ;é™ä¸‹ã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_BahamutCustom.bmp;ï¼­ï¼¡ï¼°åœ°éœ‡;ï¼­ï¼¡ï¼°æŒç¶šãƒ“ãƒ¼ãƒ 
+æš—é»’ã®é‡œ(æ”»æ’ƒ), é£›æ¥ã‚¢ãƒƒãƒ— EFFECT_FF07_Hades.bmp ãƒ–ãƒ©ãƒƒã‚¯;é£›æ¥ã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Hades.bmp;ç…™å™´å°„ é»’
+ãƒ†ãƒ©ãƒ•ãƒ¬ã‚¢(æ”»æ’ƒ), ï¼­ï¼¡ï¼°ãƒ€ãƒ¼ã‚¯ãƒã‚¹;é£›æ¥ã‚¢ãƒƒãƒ— EFFECT_FF07_BahamutZero.bmp ãƒ–ãƒ©ãƒƒã‚¯;é£›æ¥ã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_BahamutZero.bmp;è¡›æ˜Ÿãƒ“ãƒ¼ãƒ  EFFECT_FF07_BahamutZero.bmp ãƒ›ãƒ¯ã‚¤ãƒˆ
+å¤©åœ°å´©å£Š(æ”»æ’ƒ), ç«œå·»;é£›æ¥ã‚¢ãƒƒãƒ— EFFECT_FF07_Typhon.bmp ãƒ›ãƒ¯ã‚¤ãƒˆ;é£›æ¥ã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Typhon.bmp;ï¼­ï¼¡ï¼°å¼·é¢¨;ï¼­ï¼¡ï¼°åœ°éœ‡
+ã‚¢ãƒ«ãƒ†ã‚£ãƒ¡ãƒƒãƒˆã‚¨ãƒ³ãƒ‰(æ”»æ’ƒ), ï¼­ï¼¡ï¼°ãƒ–ãƒ©ãƒƒã‚¯ãƒ›ãƒ¼ãƒ«;é£›æ¥ã‚¢ãƒƒãƒ— EFFECT_FF07_Knight'sOfRound.bmp ãƒ–ãƒ©ãƒƒã‚¯;é£›æ¥ã‚¢ãƒƒãƒ—çµ‚äº† EFFECT_FF07_Knight'sOfRound.bmp
+å¿…æ®ºæŠ€ï¼ï¼(å‘½ä¸­), å°çˆ†ç™º
+ãƒ€ã‚¤ãƒ¤ãƒ¢ãƒ³ãƒ‰ãƒ€ã‚¹ãƒˆ(å‘½ä¸­), å‡çµ
+åœ°ç„ã®ç«ç‚Ž(å‘½ä¸­), ç‚Ž
+è£ãã®é›·(å‘½ä¸­), è½é›·
+å¤§åœ°ã®æ€’ã‚Š(å‘½ä¸­), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ï¼­ï¼¡ï¼°åœ°éœ‡æ”»æ’ƒ
+å¤§æµ·å˜¯(å‘½ä¸­), æ´¥æ³¢
+ã‚°ãƒ³ã‚°ãƒ‹ãƒ«ã®æ§(å‘½ä¸­), å¤§åˆºçª
+æ–¬é‰„å‰£(å‘½ä¸­), æ¨ªå¤§æ–¬æ’ƒ
+ãƒ¡ã‚¬ãƒ•ãƒ¬ã‚¢(å‘½ä¸­), çˆ†ç™º
+ãƒˆãƒ©ã‚¤ãƒ‡ã‚£ã‚¶ã‚¹ã‚¿ãƒ¼(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸
+è–ãªã‚‹å¯©åˆ¤(å‘½ä¸­), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ï¼­ï¼¡ï¼°åœ°éœ‡æ”»æ’ƒ;è½ä¸‹
+è»¢ç”Ÿã®ç‚Ž(å‘½ä¸­), å›žå¾©é­”æ³•æ³¡
+ã‚®ã‚¬ãƒ•ãƒ¬ã‚¢(å‘½ä¸­), é€æ˜ŽåŒ–;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ï¼­ï¼¡ï¼°ãƒ•ãƒ©ãƒƒã‚·ãƒ¥æ”»æ’ƒ;é€æ˜ŽåŒ– è§£é™¤
+æš—é»’ã®é‡œ(å‘½ä¸­), ç…™ é»’
+ãƒ†ãƒ©ãƒ•ãƒ¬ã‚¢(å‘½ä¸­), è¶…çˆ†ç™º
+å¤©åœ°å´©å£Š(å‘½ä¸­), å¼·é¢¨;çŸ³å¼¾
+ã‚¢ãƒ«ãƒ†ã‚£ãƒ¡ãƒƒãƒˆã‚¨ãƒ³ãƒ‰(å‘½ä¸­), æ–¬æ’ƒä¹±èˆž;æ–¬æ’ƒä¹±èˆž;ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ

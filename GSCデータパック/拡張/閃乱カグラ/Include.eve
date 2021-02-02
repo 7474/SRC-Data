@@ -1,23 +1,23 @@
 
-‘M—ƒJƒOƒ‰_“ú‰e‹¶—ƒ‚[ƒhˆ—:
+é–ƒä¹±ã‚«ã‚°ãƒ©_æ—¥å½±ç‹‚ä¹±ãƒ¢ãƒ¼ãƒ‰å‡¦ç†:
 
-## “ú‰e‚ª”E“]g‚µ‚½‚Ì‹¶—ƒ‚[ƒh‚Ìˆ—‚ğs‚¤B
+## æ—¥å½±ãŒå¿è»¢èº«ã—ãŸæ™‚ã®ç‹‚ä¹±ãƒ¢ãƒ¼ãƒ‰ã®å‡¦ç†ã‚’è¡Œã†ã€‚
 
-## Šù‚É‹¶—ƒ‚[ƒh‚É‚È‚Á‚Ä‚¢‚½ê‡Aƒ‚[ƒh‚ª‰ğœ‚³‚ê‚éB
-If ‘M—ƒJƒOƒ‰_“ú‰e‹¶—ƒ‚[ƒh”­“® Then
+## æ—¢ã«ç‹‚ä¹±ãƒ¢ãƒ¼ãƒ‰ã«ãªã£ã¦ã„ãŸå ´åˆã€ãƒ¢ãƒ¼ãƒ‰ãŒè§£é™¤ã•ã‚Œã‚‹ã€‚
+If é–ƒä¹±ã‚«ã‚°ãƒ©_æ—¥å½±ç‹‚ä¹±ãƒ¢ãƒ¼ãƒ‰ç™ºå‹• Then
 
-	If Unit(ˆ«”EE“ú‰e) = ˆ«”EE“ú‰e(”E“]g)(‹¶—ƒ‚[ƒh) Then
-		Transform ˆ«”EE“ú‰e ˆ«”EE“ú‰e(”E“]g)
+	If Unit(æ‚ªå¿ãƒ»æ—¥å½±) = æ‚ªå¿ãƒ»æ—¥å½±(å¿è»¢èº«)(ç‹‚ä¹±ãƒ¢ãƒ¼ãƒ‰) Then
+		Transform æ‚ªå¿ãƒ»æ—¥å½± æ‚ªå¿ãƒ»æ—¥å½±(å¿è»¢èº«)
 	
-	ElseIf Unit(ˆ«”EE“ú‰e) = ˆ«”EE“ú‰e(‘M—)(”E“]g)(‹¶—ƒ‚[ƒh) Then
-		Transform ˆ«”EE“ú‰e ˆ«”EE“ú‰e(‘M—)(”E“]g)
+	ElseIf Unit(æ‚ªå¿ãƒ»æ—¥å½±) = æ‚ªå¿ãƒ»æ—¥å½±(é–ƒä¹±)(å¿è»¢èº«)(ç‹‚ä¹±ãƒ¢ãƒ¼ãƒ‰) Then
+		Transform æ‚ªå¿ãƒ»æ—¥å½± æ‚ªå¿ãƒ»æ—¥å½±(é–ƒä¹±)(å¿è»¢èº«)
 	
 	EndIf
 	
-	ClearStatus ˆ«”EE“ú‰e c‚èŠÔ
+	ClearStatus æ‚ªå¿ãƒ»æ—¥å½± æ®‹ã‚Šæ™‚é–“
 	
-	#Talk ƒVƒXƒeƒ€
-	#ƒ‚[ƒh‰ğœ
+	#Talk ã‚·ã‚¹ãƒ†ãƒ 
+	#ãƒ¢ãƒ¼ãƒ‰è§£é™¤
 	#End
 	
 	
@@ -26,41 +26,41 @@ EndIf
 Return
 
 
-## “ú‰e@‹¶—ƒ‚[ƒh”­“®§Œä—pƒCƒ“ƒNƒ‹[ƒh
+## æ—¥å½±ã€€ç‹‚ä¹±ãƒ¢ãƒ¼ãƒ‰ç™ºå‹•åˆ¶å¾¡ç”¨ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰
 
-*‘¹—¦ ˆ«”EE“ú‰e 75:
+*æå‚·ç‡ æ‚ªå¿ãƒ»æ—¥å½± 75:
 
-If Not ‘M—ƒJƒOƒ‰_“ú‰e‹¶—ƒ‚[ƒh”­“® Then
-	Set ‘M—ƒJƒOƒ‰_“ú‰e‹¶—ƒ‚[ƒh”­“® 100
+If Not é–ƒä¹±ã‚«ã‚°ãƒ©_æ—¥å½±ç‹‚ä¹±ãƒ¢ãƒ¼ãƒ‰ç™ºå‹• Then
+	Set é–ƒä¹±ã‚«ã‚°ãƒ©_æ—¥å½±ç‹‚ä¹±ãƒ¢ãƒ¼ãƒ‰ç™ºå‹• 100
 	
-	If Unit(ˆ«”EE“ú‰e) = ˆ«”EE“ú‰e Then
-		Transform ˆ«”EE“ú‰e ˆ«”EE“ú‰e(‹¶—ƒ‚[ƒh)
+	If Unit(æ‚ªå¿ãƒ»æ—¥å½±) = æ‚ªå¿ãƒ»æ—¥å½± Then
+		Transform æ‚ªå¿ãƒ»æ—¥å½± æ‚ªå¿ãƒ»æ—¥å½±(ç‹‚ä¹±ãƒ¢ãƒ¼ãƒ‰)
 		
-	ElseIf Unit(ˆ«”EE“ú‰e) = ˆ«”EE“ú‰e(”E“]g) Then
-		Transform ˆ«”EE“ú‰e ˆ«”EE“ú‰e(”E“]g)(‹¶—ƒ‚[ƒh)
+	ElseIf Unit(æ‚ªå¿ãƒ»æ—¥å½±) = æ‚ªå¿ãƒ»æ—¥å½±(å¿è»¢èº«) Then
+		Transform æ‚ªå¿ãƒ»æ—¥å½± æ‚ªå¿ãƒ»æ—¥å½±(å¿è»¢èº«)(ç‹‚ä¹±ãƒ¢ãƒ¼ãƒ‰)
 	
-	ElseIf Unit(ˆ«”EE“ú‰e) = ˆ«”EE“ú‰e(‘M—) Then
-		Transform ˆ«”EE“ú‰e ˆ«”EE“ú‰e(‘M—)(‹¶—ƒ‚[ƒh)
+	ElseIf Unit(æ‚ªå¿ãƒ»æ—¥å½±) = æ‚ªå¿ãƒ»æ—¥å½±(é–ƒä¹±) Then
+		Transform æ‚ªå¿ãƒ»æ—¥å½± æ‚ªå¿ãƒ»æ—¥å½±(é–ƒä¹±)(ç‹‚ä¹±ãƒ¢ãƒ¼ãƒ‰)
 	
-	ElseIf Unit(ˆ«”EE“ú‰e) = ˆ«”EE“ú‰e(‘M—)(”E“]g) Then
-		Transform ˆ«”EE“ú‰e ˆ«”EE“ú‰e(‘M—)(”E“]g)(‹¶—ƒ‚[ƒh)
+	ElseIf Unit(æ‚ªå¿ãƒ»æ—¥å½±) = æ‚ªå¿ãƒ»æ—¥å½±(é–ƒä¹±)(å¿è»¢èº«) Then
+		Transform æ‚ªå¿ãƒ»æ—¥å½± æ‚ªå¿ãƒ»æ—¥å½±(é–ƒä¹±)(å¿è»¢èº«)(ç‹‚ä¹±ãƒ¢ãƒ¼ãƒ‰)
 	
 	EndIf
 	
-	Select ˆ«”EE“ú‰e
-	í“¬ƒAƒjƒ_ƒZƒ“ƒ^ƒŠƒ“ƒO ˆ«”EE“ú‰e
-	í“¬ƒAƒjƒ_Œõ•¬o€”õ ƒp[ƒvƒ‹ -.wav
+	Select æ‚ªå¿ãƒ»æ—¥å½±
+	æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚° æ‚ªå¿ãƒ»æ—¥å½±
+	æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰å™´å‡ºæº–å‚™ ãƒ‘ãƒ¼ãƒ—ãƒ« -.wav
 
 EndIf
 	
 Exit
 
 
-í“¬ƒAƒjƒ_‘M—ƒJƒOƒ‰_“ú–{“O“—¬€”õ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é–ƒä¹±ã‚«ã‚°ãƒ©_æ—¥æœ¬åˆ€ä¸‰åˆ€æµæº–å‚™:
 
 UpVar
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Local C_X = WX(UID)
 Local C_Y = WY(UID)
@@ -78,77 +78,77 @@ _SelectSound "-.wav" _GetWavFromArgs()
 If (_IsDoubleWeapon() = 1) Then
   Wait Start
   ClearPicture
-  PaintPicture WP_FILE2 (C_X - 12 + X_P - 4) (C_Y + 4 + 2) G_S G_S “§‰ß T_COL_F
-  PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4 + 12) G_S G_S “§‰ß T_COL_F ¶‰ñ“] 90
-  PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4 - 8) G_S G_S “§‰ß T_COL_F
+  PaintPicture WP_FILE2 (C_X - 12 + X_P - 4) (C_Y + 4 + 2) G_S G_S é€é T_COL_F
+  PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4 + 12) G_S G_S é€é T_COL_F å·¦å›è»¢ 90
+  PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4 - 8) G_S G_S é€é T_COL_F
 
-  PaintPicture WP_FILE2 (C_X + 12 + X_P + 4) (C_Y + 4 - 0) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
-  PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4 + 12) G_S G_S “§‰ß ¶‰E”½“] T_COL_F ‰E‰ñ“] 90
-  PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4 - 8) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+  PaintPicture WP_FILE2 (C_X + 12 + X_P + 4) (C_Y + 4 - 0) G_S G_S é€é å·¦å³åè»¢ T_COL_F
+  PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4 + 12) G_S G_S é€é å·¦å³åè»¢ T_COL_F å³å›è»¢ 90
+  PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4 - 8) G_S G_S é€é å·¦å³åè»¢ T_COL_F
   Refresh
 	#Wait Click
   Wait Until 1
   ClearPicture
-  PaintPicture WP_FILE2 (C_X - 20 + X_P - 4) (C_Y - 4 + 2) G_S G_S “§‰ß T_COL_F
-  PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4 + 12) G_S G_S “§‰ß T_COL_F ¶‰ñ“] 90
-  PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4 - 8) G_S G_S “§‰ß T_COL_F
+  PaintPicture WP_FILE2 (C_X - 20 + X_P - 4) (C_Y - 4 + 2) G_S G_S é€é T_COL_F
+  PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4 + 12) G_S G_S é€é T_COL_F å·¦å›è»¢ 90
+  PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4 - 8) G_S G_S é€é T_COL_F
 
-  PaintPicture WP_FILE2 (C_X + 20 + X_P + 4) (C_Y - 4 + 2) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
-  PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4 + 12) G_S G_S “§‰ß ¶‰E”½“] T_COL_F ‰E‰ñ“] 90
-  PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4 - 8) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+  PaintPicture WP_FILE2 (C_X + 20 + X_P + 4) (C_Y - 4 + 2) G_S G_S é€é å·¦å³åè»¢ T_COL_F
+  PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4 + 12) G_S G_S é€é å·¦å³åè»¢ T_COL_F å³å›è»¢ 90
+  PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4 - 8) G_S G_S é€é å·¦å³åè»¢ T_COL_F
   Refresh
 	#Wait Click
   Wait Until 2
   ClearPicture
-  PaintPicture WP_FILE2 (C_X - 16 + X_P - 4) (C_Y + 2) G_S G_S “§‰ß T_COL_F
-  PaintPicture WP_FILE (C_X - 16 + X_P) (C_Y + 12) G_S G_S “§‰ß T_COL_F ¶‰ñ“] 90
-  PaintPicture WP_FILE (C_X - 16 + X_P) (C_Y - 8) G_S G_S “§‰ß T_COL_F
+  PaintPicture WP_FILE2 (C_X - 16 + X_P - 4) (C_Y + 2) G_S G_S é€é T_COL_F
+  PaintPicture WP_FILE (C_X - 16 + X_P) (C_Y + 12) G_S G_S é€é T_COL_F å·¦å›è»¢ 90
+  PaintPicture WP_FILE (C_X - 16 + X_P) (C_Y - 8) G_S G_S é€é T_COL_F
 
-  PaintPicture WP_FILE2 (C_X + 16 + X_P + 4) (C_Y + 2) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
-  PaintPicture WP_FILE (C_X + 16 + X_P) (C_Y + 12) G_S G_S “§‰ß ¶‰E”½“] T_COL_F ‰E‰ñ“] 90
-  PaintPicture WP_FILE (C_X + 16 + X_P) (C_Y - 8) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+  PaintPicture WP_FILE2 (C_X + 16 + X_P + 4) (C_Y + 2) G_S G_S é€é å·¦å³åè»¢ T_COL_F
+  PaintPicture WP_FILE (C_X + 16 + X_P) (C_Y + 12) G_S G_S é€é å·¦å³åè»¢ T_COL_F å³å›è»¢ 90
+  PaintPicture WP_FILE (C_X + 16 + X_P) (C_Y - 8) G_S G_S é€é å·¦å³åè»¢ T_COL_F
   Refresh
 	#Wait Click
   Wait Until 3.5
 Else
-  If (X(UID) >= _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
+  If (X(UID) >= _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
     Wait Start
     ClearPicture
-    PaintPicture WP_FILE2 (C_X - 12 + X_P - 4) (C_Y + 4 + 2) G_S G_S “§‰ß T_COL_F
-    PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4 + 12) G_S G_S “§‰ß T_COL_F ¶‰ñ“] 90
-    PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4 - 8) G_S G_S “§‰ß T_COL_F
+    PaintPicture WP_FILE2 (C_X - 12 + X_P - 4) (C_Y + 4 + 2) G_S G_S é€é T_COL_F
+    PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4 + 12) G_S G_S é€é T_COL_F å·¦å›è»¢ 90
+    PaintPicture WP_FILE (C_X - 12 + X_P) (C_Y + 4 - 8) G_S G_S é€é T_COL_F
     Refresh
     Wait Until 1
     ClearPicture
-    PaintPicture WP_FILE2 (C_X - 20 + X_P - 4) (C_Y - 4 + 2) G_S G_S “§‰ß T_COL_F
-    PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4 + 12) G_S G_S “§‰ß T_COL_F ¶‰ñ“] 90
-    PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4 - 8) G_S G_S “§‰ß T_COL_F
+    PaintPicture WP_FILE2 (C_X - 20 + X_P - 4) (C_Y - 4 + 2) G_S G_S é€é T_COL_F
+    PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4 + 12) G_S G_S é€é T_COL_F å·¦å›è»¢ 90
+    PaintPicture WP_FILE (C_X - 20 + X_P) (C_Y - 4 - 8) G_S G_S é€é T_COL_F
     Refresh
     Wait Until 2
     ClearPicture
-    PaintPicture WP_FILE2 (C_X - 16 + X_P - 4) (C_Y + 2) G_S G_S “§‰ß T_COL_F
-    PaintPicture WP_FILE (C_X - 16 + X_P) (C_Y + 12) G_S G_S “§‰ß T_COL_F ¶‰ñ“] 90
-    PaintPicture WP_FILE (C_X - 16 + X_P) (C_Y - 8) G_S G_S “§‰ß T_COL_F
+    PaintPicture WP_FILE2 (C_X - 16 + X_P - 4) (C_Y + 2) G_S G_S é€é T_COL_F
+    PaintPicture WP_FILE (C_X - 16 + X_P) (C_Y + 12) G_S G_S é€é T_COL_F å·¦å›è»¢ 90
+    PaintPicture WP_FILE (C_X - 16 + X_P) (C_Y - 8) G_S G_S é€é T_COL_F
     Refresh
     Wait Until 3.5
   Else
     Wait Start
     ClearPicture
-    PaintPicture WP_FILE2 (C_X + 12 + X_P + 4) (C_Y + 4 - 0) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
-    PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4 + 12) G_S G_S “§‰ß ¶‰E”½“] T_COL_F ‰E‰ñ“] 90
-    PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4 - 8) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+    PaintPicture WP_FILE2 (C_X + 12 + X_P + 4) (C_Y + 4 - 0) G_S G_S é€é å·¦å³åè»¢ T_COL_F
+    PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4 + 12) G_S G_S é€é å·¦å³åè»¢ T_COL_F å³å›è»¢ 90
+    PaintPicture WP_FILE (C_X + 12 + X_P) (C_Y + 4 - 8) G_S G_S é€é å·¦å³åè»¢ T_COL_F
     Refresh
     Wait Until 1
     ClearPicture
-    PaintPicture WP_FILE2 (C_X + 20 + X_P + 4) (C_Y - 4 + 2) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
-    PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4 + 12) G_S G_S “§‰ß ¶‰E”½“] T_COL_F ‰E‰ñ“] 90
-    PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4 - 8) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+    PaintPicture WP_FILE2 (C_X + 20 + X_P + 4) (C_Y - 4 + 2) G_S G_S é€é å·¦å³åè»¢ T_COL_F
+    PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4 + 12) G_S G_S é€é å·¦å³åè»¢ T_COL_F å³å›è»¢ 90
+    PaintPicture WP_FILE (C_X + 20 + X_P) (C_Y - 4 - 8) G_S G_S é€é å·¦å³åè»¢ T_COL_F
     Refresh
     Wait Until 2
     ClearPicture
-    PaintPicture WP_FILE2 (C_X + 16 + X_P + 4) (C_Y + 2) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
-    PaintPicture WP_FILE (C_X + 16 + X_P) (C_Y + 12) G_S G_S “§‰ß ¶‰E”½“] T_COL_F ‰E‰ñ“] 90
-    PaintPicture WP_FILE (C_X + 16 + X_P) (C_Y - 8) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+    PaintPicture WP_FILE2 (C_X + 16 + X_P + 4) (C_Y + 2) G_S G_S é€é å·¦å³åè»¢ T_COL_F
+    PaintPicture WP_FILE (C_X + 16 + X_P) (C_Y + 12) G_S G_S é€é å·¦å³åè»¢ T_COL_F å³å›è»¢ 90
+    PaintPicture WP_FILE (C_X + 16 + X_P) (C_Y - 8) G_S G_S é€é å·¦å³åè»¢ T_COL_F
     Refresh
     Wait Until 3.5
   EndIf
@@ -160,19 +160,19 @@ Return "Keep"
 
 
 
-## ˆÈ‰ºƒXƒgƒŠ[ƒgƒtƒ@ƒCƒ^[ƒtƒHƒ‹ƒ_‚Ìƒ[ƒJƒ‹í“¬ƒAƒjƒ‚ğ“]Ú‚³‚¹‚Ä‚¢‚½‚¾‚«‚Ü‚µ‚½B
-## ”í‚è–h~‚Ì‚½‚ßA¯•Êq‚Ì‚İ•ÏX‚µ‚Ä‚¢‚Ü‚·B
+## ä»¥ä¸‹ã‚¹ãƒˆãƒªãƒ¼ãƒˆãƒ•ã‚¡ã‚¤ã‚¿ãƒ¼ãƒ•ã‚©ãƒ«ãƒ€ã®ãƒ­ãƒ¼ã‚«ãƒ«æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ã‚’è»¢è¼‰ã•ã›ã¦ã„ãŸã ãã¾ã—ãŸã€‚
+## è¢«ã‚Šé˜²æ­¢ã®ãŸã‚ã€è­˜åˆ¥å­ã®ã¿å¤‰æ›´ã—ã¦ã„ã¾ã™ã€‚
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_‘M—ƒJƒOƒ‰_“ªãUŒ‚–½’†:
-# ˆø” Œø‰Ê‰¹
-# ˆø” •‚‚«
-# ˆø” ‘Šèƒ^ƒCƒ‹
-# ˆø” ‘¬ ’x
-# ˆø” Šp“x (‘ÎÛƒ†ƒjƒbƒg‚ğ‰E‰ñ“]‚³‚¹‚éŠp“x)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é–ƒä¹±ã‚«ã‚°ãƒ©_é ­ä¸Šæ”»æ’ƒå‘½ä¸­:
+# å¼•æ•° åŠ¹æœéŸ³
+# å¼•æ•° æµ®ã
+# å¼•æ•° ç›¸æ‰‹ã‚¿ã‚¤ãƒ«
+# å¼•æ•° é€Ÿ é…
+# å¼•æ•° è§’åº¦ (å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆã‚’å³å›è»¢ã•ã›ã‚‹è§’åº¦)
 
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Local C_X = WX(UID)
 Local C_Y = WY(UID)
@@ -181,37 +181,37 @@ Local C_Y2 = WY(UID)
 
 Local BMP_FILE = _GetBMPName(UID)
 Local BMP_FILE2 = _GetTileName(UID)
-Local BMP_FILE3 = _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local BMP_FILE4 = _GetTileName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local A_X = WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local A_Y = WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Local BMP_FILE3 = _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local BMP_FILE4 = _GetTileName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local A_X = WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local A_Y = WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Local HITH
 Local ANGC = _GetName(0,_GetNumberFromArgs())
 
-# ‘Šè‚Ì•‚‚«
-If (_SearchOptionFromArgs("•‚‚«") != "") Then
+# ç›¸æ‰‹ã®æµ®ã
+If (_SearchOptionFromArgs("æµ®ã") != "") Then
   Set HITH 2
 Else
   Set HITH 1
 EndIf
 
-If (_SearchOptionFromArgs("‘Šèƒ^ƒCƒ‹") != "") Then
+If (_SearchOptionFromArgs("ç›¸æ‰‹ã‚¿ã‚¤ãƒ«") != "") Then
   Set C_X A_X
   Set C_Y A_Y
 EndIf
 
 Local SPEED = 1
 
-If (_SearchOptionFromArgs("’x") != "") Then
+If (_SearchOptionFromArgs("é…") != "") Then
   Set SPEED 1.5
-ElseIf (_SearchOptionFromArgs("‘¬") != "") Then
+ElseIf (_SearchOptionFromArgs("é€Ÿ") != "") Then
   Set SPEED 0.5
 EndIf
 
 Wait Start
 
-ChangeUnitBitmap UID ”ñ•\¦
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
+ChangeUnitBitmap UID éè¡¨ç¤º
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤º
 
 
     ClearPicture
@@ -219,8 +219,8 @@ ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
     _PaintTile BMP_FILE4 A_X A_Y
 
       Wait Start
-      PaintPicture BMP_FILE C_X C_Y “§‰ß ‰E‰ñ“] ANGC _ColorTime()
-      PaintPicture BMP_FILE3 C_X (C_Y - 16) “§‰ß ‰E‰ñ“] 90 _ColorTime()
+      PaintPicture BMP_FILE C_X C_Y é€é å³å›è»¢ ANGC _ColorTime()
+      PaintPicture BMP_FILE3 C_X (C_Y - 16) é€é å³å›è»¢ 90 _ColorTime()
       Refresh
       Wait Until 0.8
      ClearPicture
@@ -228,9 +228,9 @@ ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
     _PaintTile BMP_FILE4 A_X A_Y
 
       Wait Start
-      PaintPicture BMP_FILE C_X (C_Y - 4) “§‰ß ‰E‰ñ“] ANGC _ColorTime()
-      PaintPicture BMP_FILE3 C_X (C_Y - 24) “§‰ß ‰E‰ñ“] 90 _ColorTime()
-      PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 4) (C_Y - 16) 24 24 “§‰ß _ColorTime()
+      PaintPicture BMP_FILE C_X (C_Y - 4) é€é å³å›è»¢ ANGC _ColorTime()
+      PaintPicture BMP_FILE3 C_X (C_Y - 24) é€é å³å›è»¢ 90 _ColorTime()
+      PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 4) (C_Y - 16) 24 24 é€é _ColorTime()
       _SelectSound "BreakOff.wav" _GetWavFromArgs()
       Refresh
       Wait Until SPEED
@@ -239,14 +239,14 @@ ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
     _PaintTile BMP_FILE4 A_X A_Y
       
       Wait Start
-      PaintPicture BMP_FILE C_X C_Y “§‰ß ‰E‰ñ“] ANGC _ColorTime()
-      PaintPicture BMP_FILE3 C_X (C_Y - (16 * HITH)) “§‰ß ‰E‰ñ“] 90 _ColorTime()
-      PaintPicture "Hit\EFFECT_HIT01.bmp" C_X (C_Y - 16) “§‰ß _ColorTime()
+      PaintPicture BMP_FILE C_X C_Y é€é å³å›è»¢ ANGC _ColorTime()
+      PaintPicture BMP_FILE3 C_X (C_Y - (16 * HITH)) é€é å³å›è»¢ 90 _ColorTime()
+      PaintPicture "Hit\EFFECT_HIT01.bmp" C_X (C_Y - 16) é€é _ColorTime()
       Refresh
       Wait Until SPEED
 
-ChangeUnitBitmap UID ”ñ•\¦‰ğœ
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦‰ğœ
+ChangeUnitBitmap UID éè¡¨ç¤ºè§£é™¤
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤ºè§£é™¤
 
 ClearPicture
 Refresh

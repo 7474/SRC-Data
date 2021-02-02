@@ -1,37 +1,37 @@
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-# ƒVƒXƒeƒ€–Ê(–‚–@wFo‚·‚Ì‚É•K{) #
+# ã‚·ã‚¹ãƒ†ãƒ é¢(é­”æ³•é™£è‰²å‡ºã™ã®ã«å¿…é ˆ) #
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-# w’è‚³‚ê‚½F‚Ìƒr[ƒ€—p‚ÌF‚ğ¦‚·•¶š—ñ‚ğ•Ô‹p‚·‚éB
-# ‹K’è‚³‚ê‚Ä‚¢‚È‚¢F‚ªw’è‚³‚ê‚½ê‡‚Í‹ó•¶š—ñ‚ğ•Ô‹p‚·‚éB
-# ˆø”‚P F‚Ì–¼‘O
-# •Ô‚è’l "(Red)" "(Blue)" "(Yellow)" "(Green)" "(Pink)" 
+# æŒ‡å®šã•ã‚ŒãŸè‰²ã®ãƒ“ãƒ¼ãƒ ç”¨ã®è‰²ã‚’ç¤ºã™æ–‡å­—åˆ—ã‚’è¿”å´ã™ã‚‹ã€‚
+# è¦å®šã•ã‚Œã¦ã„ãªã„è‰²ãŒæŒ‡å®šã•ã‚ŒãŸå ´åˆã¯ç©ºæ–‡å­—åˆ—ã‚’è¿”å´ã™ã‚‹ã€‚
+# å¼•æ•°ï¼‘ è‰²ã®åå‰
+# è¿”ã‚Šå€¤ "(Red)" "(Blue)" "(Yellow)" "(Green)" "(Pink)" 
 #        "(Orange)" "(Black)" "(White)" ""
-# ‚¿‚å‚¢‹@”\Šg’£BLightBlue‚ÆPurple’Ç‰Á
+# ã¡ã‚‡ã„æ©Ÿèƒ½æ‹¡å¼µã€‚LightBlueã¨Purpleè¿½åŠ 
 
 _GetBeamColor2:
 
 Switch Args(1)
-Case ƒŒƒbƒh Ô ÔF Red red RED ‚q‚…‚„ ‚’‚…‚„ ‚q‚d‚c
+Case ãƒ¬ãƒƒãƒ‰ èµ¤ èµ¤è‰² Red red RED ï¼²ï½…ï½„ ï½’ï½…ï½„ ï¼²ï¼¥ï¼¤
   Return "(Red)"
-Case ƒuƒ‹[ Â ÂF Blue blue BLUE ‚a‚Œ‚•‚… ‚‚‚Œ‚•‚… ‚a‚k‚t‚d
+Case ãƒ–ãƒ«ãƒ¼ é’ é’è‰² Blue blue BLUE ï¼¢ï½Œï½•ï½… ï½‚ï½Œï½•ï½… ï¼¢ï¼¬ï¼µï¼¥
   Return "(Blue)"
-Case ƒCƒGƒ[ ‰© ‰©F Yellow yellow YELLOW ‚x‚…‚Œ‚Œ‚‚— ‚™‚…‚Œ‚Œ‚‚— ‚x‚d‚k‚k‚n‚v
+Case ã‚¤ã‚¨ãƒ­ãƒ¼ é»„ é»„è‰² Yellow yellow YELLOW ï¼¹ï½…ï½Œï½Œï½ï½— ï½™ï½…ï½Œï½Œï½ï½— ï¼¹ï¼¥ï¼¬ï¼¬ï¼¯ï¼·
   Return "(Yellow)"
-Case ƒOƒŠ[ƒ“ —Î —ÎF Green green GREEN ‚f‚’‚…‚…‚ ‚‡‚’‚…‚…‚ ‚f‚q‚d‚d‚m
+Case ã‚°ãƒªãƒ¼ãƒ³ ç·‘ ç·‘è‰² Green green GREEN ï¼§ï½’ï½…ï½…ï½ ï½‡ï½’ï½…ï½…ï½ ï¼§ï¼²ï¼¥ï¼¥ï¼®
   Return "(Green)"
-Case ƒzƒƒCƒg ”’ ”’F White white WHITE ‚v‚ˆ‚‰‚”‚… ‚—‚ˆ‚‰‚”‚… ‚v‚g‚h‚s‚d
+Case ãƒ›ãƒ¯ã‚¤ãƒˆ ç™½ ç™½è‰² White white WHITE ï¼·ï½ˆï½‰ï½”ï½… ï½—ï½ˆï½‰ï½”ï½… ï¼·ï¼¨ï¼©ï¼´ï¼¥
   Return "(White)"
-Case ƒuƒ‰ƒbƒN • Black black BLACK ‚a‚Œ‚‚ƒ‚‹ ‚‚‚Œ‚‚ƒ‚‹ ‚a‚k‚`‚b‚j
+Case ãƒ–ãƒ©ãƒƒã‚¯ é»’ Black black BLACK ï¼¢ï½Œï½ï½ƒï½‹ ï½‚ï½Œï½ï½ƒï½‹ ï¼¢ï¼¬ï¼¡ï¼£ï¼«
   Return "(Black)"
-Case ƒIƒŒƒ“ƒW ò òF ‚¾‚¢‚¾‚¢ ‚¾‚¢‚¾‚¢F Orange orange ORANGE ‚n‚’‚‚‚‡‚… ‚‚’‚‚‚‡‚… ‚n‚q‚`‚m‚f‚d
+Case ã‚ªãƒ¬ãƒ³ã‚¸ æ©™ æ©™è‰² ã ã„ã ã„ ã ã„ã ã„è‰² Orange orange ORANGE ï¼¯ï½’ï½ï½ï½‡ï½… ï½ï½’ï½ï½ï½‡ï½… ï¼¯ï¼²ï¼¡ï¼®ï¼§ï¼¥
   Return "(Orange)"
-Case ƒsƒ“ƒN “ “F Pink pink PINK ‚o‚‰‚‚‹ ‚‚‰‚‚‹ ‚o‚h‚m‚j
+Case ãƒ”ãƒ³ã‚¯ æ¡ƒ æ¡ƒè‰² Pink pink PINK ï¼°ï½‰ï½ï½‹ ï½ï½‰ï½ï½‹ ï¼°ï¼©ï¼®ï¼«
   Return "(Pink)"
-Case ƒp[ƒvƒ‹ ‡ ‡F Purple purple PURPLE ‚o‚•‚’‚‚Œ‚…@‚‚•‚’‚‚Œ‚…@‚o‚t‚q‚o‚k‚d
+Case ãƒ‘ãƒ¼ãƒ—ãƒ« ç´« ç´«è‰² Purple purple PURPLE ï¼°ï½•ï½’ï½ï½Œï½…ã€€ï½ï½•ï½’ï½ï½Œï½…ã€€ï¼°ï¼µï¼²ï¼°ï¼¬ï¼¥
   Return "(Purple)"
-Case ƒ‰ƒCƒgƒuƒ‹[ … …F LightBlue Lightblue lightBlue lightblue LIGHTBLUE ‚k‚‰‚‡‚ˆ‚”‚a‚Œ‚•‚…@‚k‚‰‚‡‚ˆ‚”‚‚‚Œ‚•‚…@‚Œ‚‰‚‡‚ˆ‚”‚a‚Œ‚•‚…@‚Œ‚‰‚‡‚ˆ‚”‚‚‚Œ‚•‚…@‚k‚h‚f‚g‚s‚a‚k‚t‚d
+Case ãƒ©ã‚¤ãƒˆãƒ–ãƒ«ãƒ¼ æ°´ æ°´è‰² LightBlue Lightblue lightBlue lightblue LIGHTBLUE ï¼¬ï½‰ï½‡ï½ˆï½”ï¼¢ï½Œï½•ï½…ã€€ï¼¬ï½‰ï½‡ï½ˆï½”ï½‚ï½Œï½•ï½…ã€€ï½Œï½‰ï½‡ï½ˆï½”ï¼¢ï½Œï½•ï½…ã€€ï½Œï½‰ï½‡ï½ˆï½”ï½‚ï½Œï½•ï½…ã€€ï¼¬ï¼©ï¼§ï¼¨ï¼´ï¼¢ï¼¬ï¼µï¼¥
   Return "(LightBlue)"
 EndSw
 Return
@@ -39,13 +39,13 @@ Return
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-# ”Ä—p•”•ª
+# æ±ç”¨éƒ¨åˆ†
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_cù•—–½’†:
-# ˆø”‚P@F
-# ˆø”‚Q@Œø‰Ê‰¹
-# ˆø”‚R  ”­Œõ
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç¸¦æ—‹é¢¨å‘½ä¸­:
+# å¼•æ•°ï¼‘ã€€è‰²
+# å¼•æ•°ï¼’ã€€åŠ¹æœéŸ³
+# å¼•æ•°ï¼“  ç™ºå…‰
 
 Local G_S
 Local B_C
@@ -60,14 +60,14 @@ Local FL
 Local UID
 
 
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
-Set C_X (_Get_WX(‘Šèƒ†ƒjƒbƒg‚h‚c) - 16)
-Set C_Y (_Get_WY(‘Šèƒ†ƒjƒbƒg‚h‚c) - 32)
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+Set C_X (_Get_WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 16)
+Set C_Y (_Get_WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 32)
 Set ANG 90
-Set X_F _GetCircumference(ANG,‚w)
-Set Y_F _GetCircumference(ANG,‚x)
+Set X_F _GetCircumference(ANG,ï¼¸)
+Set Y_F _GetCircumference(ANG,ï¼¹)
 Set B_C _GetName("(White)",_GetBeamColor(_GetColorFromArgs()))
 
 If (_IsLight() = 1) Then
@@ -84,14 +84,14 @@ For i = 1 To 20
   ClearPicture
   Switch i
   Case 1
-    PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "06.bmp") C_X C_Y 64 64 “§‰ß ‰E‰ñ“] ANG ã‰º”½“] _ColorTime(FL) 
+    PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "06.bmp") C_X C_Y 64 64 é€é å³å›è»¢ ANG ä¸Šä¸‹åè»¢ _ColorTime(FL) 
   Case 16
-    PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (i - 15) & ".bmp") C_X C_Y 64 64 “§‰ß ‰E‰ñ“] ANG ã‰º”½“] _ColorTime(FL) 
+    PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (i - 15) & ".bmp") C_X C_Y 64 64 é€é å³å›è»¢ ANG ä¸Šä¸‹åè»¢ _ColorTime(FL) 
   Case Else
     If (Random(2) = 1) Then
-      PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (Random(3) + 1) & ".bmp") C_X C_Y 64 64 “§‰ß ‰E‰ñ“] ANG ã‰º”½“] _ColorTime(FL) 
+      PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (Random(3) + 1) & ".bmp") C_X C_Y 64 64 é€é å³å›è»¢ ANG ä¸Šä¸‹åè»¢ _ColorTime(FL) 
     Else
-      PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (Random(3) + 1) & ".bmp") C_X C_Y 64 64 “§‰ß ‰E‰ñ“] ANG ã‰º”½“] _ColorTime(FL) 
+      PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (Random(3) + 1) & ".bmp") C_X C_Y 64 64 é€é å³å›è»¢ ANG ä¸Šä¸‹åè»¢ _ColorTime(FL) 
     EndIf
   EndSw
   Refresh
@@ -103,9 +103,9 @@ Return "Keep"
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
-í“¬ƒAƒjƒ_ƒzƒƒCƒgƒCƒ“€”õ:
-í“¬ƒAƒjƒ_ƒzƒƒCƒgƒCƒ“UŒ‚:
-í“¬ƒAƒjƒ_ƒzƒƒCƒgƒCƒ“–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ›ãƒ¯ã‚¤ãƒˆã‚¤ãƒ³æº–å‚™:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ›ãƒ¯ã‚¤ãƒˆã‚¤ãƒ³æ”»æ’ƒ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ›ãƒ¯ã‚¤ãƒˆã‚¤ãƒ³å‘½ä¸­:
 
 If Args(1) = "" then
  Set WTime 10
@@ -119,42 +119,42 @@ Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_ƒ~ƒbƒh®–‚•ûw€”õ:
-í“¬ƒAƒjƒ_ƒ~ƒbƒh®–‚–@w€”õ:
-Call í“¬ƒAƒjƒ_ƒ~ƒbƒh®–‚•ûw _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs()) Args(1) Args(2) Args(3) Args(4)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸãƒƒãƒ‰å¼é­”æ–¹é™£æº–å‚™:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸãƒƒãƒ‰å¼é­”æ³•é™£æº–å‚™:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸãƒƒãƒ‰å¼é­”æ–¹é™£ _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs()) Args(1) Args(2) Args(3) Args(4)
 Return "Keep"
 
-í“¬ƒAƒjƒ_ƒ~ƒbƒh®–‚–@wUŒ‚:
-í“¬ƒAƒjƒ_ƒ~ƒbƒh®–‚•ûwUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸãƒƒãƒ‰å¼é­”æ³•é™£æ”»æ’ƒ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸãƒƒãƒ‰å¼é­”æ–¹é™£æ”»æ’ƒ:
 Set B_C _GetColorFromArgs()
-Call í“¬ƒAƒjƒ_ƒ~ƒbƒh®–‚•ûw Args(1) Args(2) Args(3) Args(4) Args(5) Args(6)
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸãƒƒãƒ‰å¼é­”æ–¹é™£ Args(1) Args(2) Args(3) Args(4) Args(5) Args(6)
 Return 
 
-í“¬ƒAƒjƒ_ƒ~ƒbƒh®–‚–@w–½’†:
-í“¬ƒAƒjƒ_ƒ~ƒbƒh®–‚•ûw–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸãƒƒãƒ‰å¼é­”æ³•é™£å‘½ä¸­:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸãƒƒãƒ‰å¼é­”æ–¹é™£å‘½ä¸­:
 Set B_C _GetColorFromArgs()
-Call í“¬ƒAƒjƒ_ƒ~ƒbƒh®–‚•ûw Args(1) Args(2) Args(3) Args(4) Args(5) Args(6)
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸãƒƒãƒ‰å¼é­”æ–¹é™£ Args(1) Args(2) Args(3) Args(4) Args(5) Args(6)
 Return
 
-í“¬ƒAƒjƒ_ƒ~ƒbƒh®–‚•ûw”­“®:
-í“¬ƒAƒjƒ_ƒ~ƒbƒh®–‚–@w”­“®:
-Call í“¬ƒAƒjƒ_ƒ~ƒbƒh®–‚•ûw Args(1) Args(2) Args(3) Args(4) _GetName(‘Šèƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸãƒƒãƒ‰å¼é­”æ–¹é™£ç™ºå‹•:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸãƒƒãƒ‰å¼é­”æ³•é™£ç™ºå‹•:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸãƒƒãƒ‰å¼é­”æ–¹é™£ Args(1) Args(2) Args(3) Args(4) _GetName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 Return "Keep"
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
-í“¬ƒAƒjƒ_ƒ~ƒbƒh®–‚•ûw:
-í“¬ƒAƒjƒ_ƒ~ƒbƒh®–‚–@w:
-# ˆø”‚P F
-# ˆø”‚Q Œø‰Ê‰¹
-# ˆø”‚R ‘O–Ê”w–Ê
-# ˆø”‚S ƒ†ƒjƒbƒg‚h‚c
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸãƒƒãƒ‰å¼é­”æ–¹é™£:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸãƒƒãƒ‰å¼é­”æ³•é™£:
+# å¼•æ•°ï¼‘ è‰²
+# å¼•æ•°ï¼’ åŠ¹æœéŸ³
+# å¼•æ•°ï¼“ å‰é¢èƒŒé¢
+# å¼•æ•°ï¼” ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 Local EFFECT_FILE = "Magic\EFFECT_NANOHA_MidChildaMagicEmblem"
-Local COL = _GetName(Ô,_GetColorFromArgs())
+Local COL = _GetName(èµ¤,_GetColorFromArgs())
 Local C_N = _GetBeamColor2(COL)
-Local UID = _GetName(‘Šèƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 Local S_F = _GetName(_GetMagicSound(COL),_GetWavFromArgs())
 Local i FRT G_S BMP_FILE
 
@@ -162,15 +162,15 @@ Set EFFECT_FILE (EFFECT_FILE & C_N & "01.bmp")
 
 _UnSetBattleAnimeValue
 
-If (Args(1) = "À•Ww’è") Then
+If (Args(1) = "åº§æ¨™æŒ‡å®š") Then
   Center Args(2) Args(3)
 Else
   Center UID
   Set BMP_FILE _GetBMPName(UID)
-  If (_SearchOptionFromArgs(”w–Ê) != "") Then
-    Set FRT ”w–Ê
+  If (_SearchOptionFromArgs(èƒŒé¢) != "") Then
+    Set FRT èƒŒé¢
   Else
-    Set FRT ‘O–Ê
+    Set FRT å‰é¢
   EndIf
 EndIf
 
@@ -179,9 +179,9 @@ Set G_S 12
 Wait Start 
 For i = 1 To 6
   ClearPicture
-  PaintPicture EFFECT_FILE - - G_S G_S “§‰ß _ColorTime()
-  If (FRT = ”w–Ê) Then
-    PaintPicture BMP_FILE - - “§‰ß _ColorTime()
+  PaintPicture EFFECT_FILE - - G_S G_S é€é _ColorTime()
+  If (FRT = èƒŒé¢) Then
+    PaintPicture BMP_FILE - - é€é _ColorTime()
   EndIf
   Refresh
   Set G_S (G_S * 1.3)
@@ -194,40 +194,40 @@ Return "Keep"
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_ƒxƒ‹ƒJ®–‚•ûw€”õ:
-í“¬ƒAƒjƒ_ƒxƒ‹ƒJ®–‚–@w€”õ:
-Call í“¬ƒAƒjƒ_ƒxƒ‹ƒJ®–‚•ûw _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs()) Args(1) Args(2) Args(3) Args(4)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ™ãƒ«ã‚«å¼é­”æ–¹é™£æº–å‚™:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ™ãƒ«ã‚«å¼é­”æ³•é™£æº–å‚™:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ™ãƒ«ã‚«å¼é­”æ–¹é™£ _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs()) Args(1) Args(2) Args(3) Args(4)
 Return "Keep"
 
-í“¬ƒAƒjƒ_ƒxƒ‹ƒJ®–‚–@wUŒ‚:
-í“¬ƒAƒjƒ_ƒxƒ‹ƒJ®–‚•ûwUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ™ãƒ«ã‚«å¼é­”æ³•é™£æ”»æ’ƒ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ™ãƒ«ã‚«å¼é­”æ–¹é™£æ”»æ’ƒ:
 Set B_C _GetColorFromArgs()
-Call í“¬ƒAƒjƒ_ƒxƒ‹ƒJ®–‚•ûw Args(1) Args(2) Args(3) Args(4) Args(5) Args(6)
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ™ãƒ«ã‚«å¼é­”æ–¹é™£ Args(1) Args(2) Args(3) Args(4) Args(5) Args(6)
 Return 
 
-í“¬ƒAƒjƒ_ƒxƒ‹ƒJ®–‚–@w–½’†:
-í“¬ƒAƒjƒ_ƒxƒ‹ƒJ®–‚•ûw–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ™ãƒ«ã‚«å¼é­”æ³•é™£å‘½ä¸­:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ™ãƒ«ã‚«å¼é­”æ–¹é™£å‘½ä¸­:
 Set B_C _GetColorFromArgs()
-Call í“¬ƒAƒjƒ_ƒxƒ‹ƒJ®–‚•ûw Args(1) Args(2) Args(3) Args(4) Args(5) Args(6)
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ™ãƒ«ã‚«å¼é­”æ–¹é™£ Args(1) Args(2) Args(3) Args(4) Args(5) Args(6)
 Return
 
-í“¬ƒAƒjƒ_ƒxƒ‹ƒJ®–‚•ûw”­“®:
-í“¬ƒAƒjƒ_ƒxƒ‹ƒJ®–‚–@w”­“®:
-Call í“¬ƒAƒjƒ_ƒxƒ‹ƒJ®–‚•ûw Args(1) Args(2) Args(3) Args(4) _GetName(‘Šèƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ™ãƒ«ã‚«å¼é­”æ–¹é™£ç™ºå‹•:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ™ãƒ«ã‚«å¼é­”æ³•é™£ç™ºå‹•:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ™ãƒ«ã‚«å¼é­”æ–¹é™£ Args(1) Args(2) Args(3) Args(4) _GetName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 Return "Keep"
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_ƒxƒ‹ƒJ®–‚•ûw:
-í“¬ƒAƒjƒ_ƒxƒ‹ƒJ®–‚–@w:
-# ˆø”‚P F
-# ˆø”‚Q Œø‰Ê‰¹
-# ˆø”‚R ‘O–Ê”w–Ê
-# ˆø”‚S ƒ†ƒjƒbƒg‚h‚c
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ™ãƒ«ã‚«å¼é­”æ–¹é™£:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ™ãƒ«ã‚«å¼é­”æ³•é™£:
+# å¼•æ•°ï¼‘ è‰²
+# å¼•æ•°ï¼’ åŠ¹æœéŸ³
+# å¼•æ•°ï¼“ å‰é¢èƒŒé¢
+# å¼•æ•°ï¼” ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 Local EFFECT_FILE = "Magic\EFFECT_NANOHA_BerkaMagicEmblem"
-Local COL = _GetName(Ô,_GetColorFromArgs())
+Local COL = _GetName(èµ¤,_GetColorFromArgs())
 Local C_N = _GetBeamColor2(COL)
-Local UID = _GetName(‘Šèƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 Local S_F = _GetName(_GetMagicSound(COL),_GetWavFromArgs())
 Local i FRT G_S BMP_FILE ANG
 
@@ -237,15 +237,15 @@ Set EFFECT_FILE (EFFECT_FILE & C_N & "01.bmp")
 
 _UnSetBattleAnimeValue
 
-If (Args(1) = "À•Ww’è") Then
+If (Args(1) = "åº§æ¨™æŒ‡å®š") Then
   Center Args(2) Args(3)
 Else
   Center UID
   Set BMP_FILE _GetBMPName(UID)
-  If (_SearchOptionFromArgs(”w–Ê) != "") Then
-    Set FRT ”w–Ê
+  If (_SearchOptionFromArgs(èƒŒé¢) != "") Then
+    Set FRT èƒŒé¢
   Else
-    Set FRT ‘O–Ê
+    Set FRT å‰é¢
   EndIf
 EndIf
 
@@ -254,9 +254,9 @@ Set G_S 12
 Wait Start 
 For i = 1 To 6
   ClearPicture
-  PaintPicture EFFECT_FILE - - G_S G_S “§‰ß ‰E‰ñ“] ANG _ColorTime()
-  If (FRT = ”w–Ê) Then
-    PaintPicture BMP_FILE - - “§‰ß _ColorTime()
+  PaintPicture EFFECT_FILE - - G_S G_S é€é å³å›è»¢ ANG _ColorTime()
+  If (FRT = èƒŒé¢) Then
+    PaintPicture BMP_FILE - - é€é _ColorTime()
   EndIf
   Refresh
   Set G_S (G_S * 1.35)
@@ -264,9 +264,9 @@ For i = 1 To 6
 Next
 
   ClearPicture
-  PaintPicture EFFECT_FILE - - 80 80 “§‰ß ‰E‰ñ“] ANG _ColorTime()
-  If (FRT = ”w–Ê) Then
-    PaintPicture BMP_FILE - - “§‰ß _ColorTime()
+  PaintPicture EFFECT_FILE - - 80 80 é€é å³å›è»¢ ANG _ColorTime()
+  If (FRT = èƒŒé¢) Then
+    PaintPicture BMP_FILE - - é€é _ColorTime()
   EndIf
   Refresh
 
@@ -277,7 +277,7 @@ Return "Keep"
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
-ƒAƒjƒ©“®‰ï˜b:
+ã‚¢ãƒ‹ãƒ¡è‡ªå‹•ä¼šè©±:
 Local time
 
 if Args(3) = "" then
@@ -286,7 +286,7 @@ else
 Set time Args(3)
 endif
 
-AutoTalk Args(1) ŒÅ’è
+AutoTalk Args(1) å›ºå®š
 $(time);$(Args(2))
 Suspend
 Return
@@ -294,29 +294,29 @@ Return
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-#“¯ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒCƒtƒ‹
+#åŒæ™‚ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ«
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
-í“¬ƒAƒjƒ_“¯ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒCƒtƒ‹UŒ‚:
-# ˆø”‚P •Ší‰æ‘œ
-# ˆø”‚Q ‰æ‘œƒTƒCƒY
-# ˆø”‚R ƒr[ƒ€‚ÌF
-# ˆø”‚S Œø‰Ê‰¹
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åŒæ™‚ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ«æ”»æ’ƒ:
+# å¼•æ•°ï¼‘ æ­¦å™¨ç”»åƒ
+# å¼•æ•°ï¼’ ç”»åƒã‚µã‚¤ã‚º
+# å¼•æ•°ï¼“ ãƒ“ãƒ¼ãƒ ã®è‰²
+# å¼•æ•°ï¼” åŠ¹æœéŸ³
 
-#ƒr[ƒ€‚ÉŠÖ‚·‚é•Ï”
+#ãƒ“ãƒ¼ãƒ ã«é–¢ã™ã‚‹å¤‰æ•°
 Local BMP_FILE
 Local G_S
 Local C_X
 Local C_Y
 
-#è‚¿•Ší‚ÉŠÖ‚·‚é•Ï”
+#æ‰‹æŒã¡æ­¦å™¨ã«é–¢ã™ã‚‹å¤‰æ•°
 Local BMP_FILE2
 Local G_S2
 Local C_X2
 Local C_Y2
 
-# •¡”ˆø‚«“n‚µŒ^ˆø”ŠÖ˜A
+# è¤‡æ•°å¼•ãæ¸¡ã—å‹å¼•æ•°é–¢é€£
 Local P_NUM
 Local WF_ALL
 Local GS_ALL
@@ -340,39 +340,39 @@ Local NUM
 Local P_NUM
 
 
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 
 _UnSetBattleAnimeValue
 _CenteringCheck UID
 
 
-Set CL_ALL _GetOptParamsFromArgs("ƒr[ƒ€F")
+Set CL_ALL _GetOptParamsFromArgs("ãƒ“ãƒ¼ãƒ è‰²")
 Set P_NUM (CountPartner() + 1)
-Set WF_ALL _GetOptParamsFromArgs("‰æ‘œƒtƒ@ƒCƒ‹")
-Set GS_ALL _GetOptParamsFromArgs("‰æ‘œƒTƒCƒY")
+Set WF_ALL _GetOptParamsFromArgs("ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«")
+Set GS_ALL _GetOptParamsFromArgs("ç”»åƒã‚µã‚¤ã‚º")
 
 For i = 1 To P_NUM
 
   Set UID[i] Partner(i - 1) 
 
-#@ƒr[ƒ€‚ÉŠÖ‚·‚é•Ï”
+#ã€€ãƒ“ãƒ¼ãƒ ã«é–¢ã™ã‚‹å¤‰æ•°
 
   Set C_X[i] WX(UID[i])
   Set C_Y[i] WY(UID[i])
 
-#@è‚¿•Ší‚ÉŠÖ‚·‚é•Ï”
+#ã€€æ‰‹æŒã¡æ­¦å™¨ã«é–¢ã™ã‚‹å¤‰æ•°
 
   Set C_X2[i] WX(UID[i])
   Set C_Y2[i] WY(UID[i])
 
-#@‘ÎÛƒ†ƒjƒbƒg‚Æ‘Šèƒ†ƒjƒbƒg‚ÌŠp“x
+#ã€€å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆã¨ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆã®è§’åº¦
 
   Set ANG[i] _GetAngle(UID[i])
-  Set X_F[i] _GetCircumference(ANG[i],‚w)
-  Set Y_F[i] _GetCircumference(ANG[i],‚x)
+  Set X_F[i] _GetCircumference(ANG[i],ï¼¸)
+  Set Y_F[i] _GetCircumference(ANG[i],ï¼¹)
   Set DRCT[i] _FlipVertical(ANG[i])
 
-#@è‚¿•Ší‰æ‘œ
+#ã€€æ‰‹æŒã¡æ­¦å™¨ç”»åƒ
 
   If (WF_ALL != "") Then
     Set BMP_FILE[i] _GetOptParamsValue(WF_ALL,i)
@@ -380,7 +380,7 @@ For i = 1 To P_NUM
     Set BMP_FILE[i] _GetBmpFromArgs()
   EndIf
 
-#@‰æ‘œƒTƒCƒY
+#ã€€ç”»åƒã‚µã‚¤ã‚º
 
   If (GS_ALL != "") Then
     Set G_S[i] _GetOptParamsValue(GS_ALL,i)
@@ -388,7 +388,7 @@ For i = 1 To P_NUM
     Set G_S[i] _GetPicSizeFromArgs()
   EndIf
 
-#@ƒr[ƒ€F
+#ã€€ãƒ“ãƒ¼ãƒ è‰²
 
   If (CL_ALL != "") Then
     Set CL[i] _GetName("(Pink)",_GetBeamColor(_GetOptParamsValue(CL_ALL,i)))
@@ -396,7 +396,7 @@ For i = 1 To P_NUM
     Set CL[i] _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs()))
   EndIf
 
-#@è‚¿•ŠíˆÊ’u
+#ã€€æ‰‹æŒã¡æ­¦å™¨ä½ç½®
 
   Set W_X[i] (C_X2[i] + 16 - (G_S[i] \ 2))
   Set W_Y[i] (C_Y2[i] + 16 - (G_S[i] \ 2))
@@ -416,14 +416,14 @@ For i = 1 To 6
   Case 5
     Set LN -4
   Case 6
-       If ((Abs(X(UID) - _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) + Abs(Y(UID) - _Get_Y(‘Šèƒ†ƒjƒbƒg‚h‚c))) < 3) Then
+       If ((Abs(X(UID) - _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) + Abs(Y(UID) - _Get_Y(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤))) < 3) Then
          Skip
        EndIf
   EndSw
     For k = 1 To P_NUM
        Set NUM (P_NUM - k + 1)
-       PaintPicture BMP_FILE[NUM] (W_X[NUM] + (X_F[NUM] * LN)) (W_Y[NUM] + (Y_F[NUM] * LN)) G_S[NUM] G_S[NUM] “§‰ß DRCT[NUM] ‰E‰ñ“] ANG[NUM] _ColorTime(1)
-       PaintPicture ("Beam\EFFECT_LBeam" & CL[NUM] & "0" & i & ".bmp") ((C_X[NUM] - 16) + (X_F[NUM] * G_S[NUM] \ 2)) ((C_Y[NUM] - 16) + (Y_F[NUM] * G_S[NUM] \ 2)) “§‰ß ‰E‰ñ“] ANG[NUM] _ColorTime(1)
+       PaintPicture BMP_FILE[NUM] (W_X[NUM] + (X_F[NUM] * LN)) (W_Y[NUM] + (Y_F[NUM] * LN)) G_S[NUM] G_S[NUM] é€é DRCT[NUM] å³å›è»¢ ANG[NUM] _ColorTime(1)
+       PaintPicture ("Beam\EFFECT_LBeam" & CL[NUM] & "0" & i & ".bmp") ((C_X[NUM] - 16) + (X_F[NUM] * G_S[NUM] \ 2)) ((C_Y[NUM] - 16) + (Y_F[NUM] * G_S[NUM] \ 2)) é€é å³å›è»¢ ANG[NUM] _ColorTime(1)
     Next
     Refresh
     Wait Until (i * 0.8)
@@ -437,17 +437,17 @@ Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_“¯‘åƒr[ƒ€–½’†:
-í“¬ƒAƒjƒ_“¯ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒCƒtƒ‹–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åŒæ™‚å¤§ãƒ“ãƒ¼ãƒ å‘½ä¸­:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åŒæ™‚ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ«å‘½ä¸­:
 
 
 
-#ƒr[ƒ€‚ÉŠÖ‚·‚é•Ï”
+#ãƒ“ãƒ¼ãƒ ã«é–¢ã™ã‚‹å¤‰æ•°
 Local BMP_FILE
 Local G_S
 
 
-# •¡”ˆø‚«“n‚µŒ^ˆø”ŠÖ˜A
+# è¤‡æ•°å¼•ãæ¸¡ã—å‹å¼•æ•°é–¢é€£
 Local P_NUM
 Local WF_ALL
 Local GS_ALL
@@ -461,18 +461,18 @@ Local CL_ALL
 Local NUM
 Local P_NUM
 
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 Local C_X
-Set C_X (WX(‘Šèƒ†ƒjƒbƒg‚h‚c) - 16)
+Set C_X (WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 16)
 Local C_Y
-Set C_Y (WY(‘Šèƒ†ƒjƒbƒg‚h‚c) - 16)
+Set C_Y (WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 16)
 
 Set P_NUM (CountPartner() + 1)
-Set CL_ALL _GetOptParamsFromArgs("ƒr[ƒ€F")
+Set CL_ALL _GetOptParamsFromArgs("ãƒ“ãƒ¼ãƒ è‰²")
 For i = 1 To P_NUM
 
-#@ƒr[ƒ€F
+#ã€€ãƒ“ãƒ¼ãƒ è‰²
 
   If (CL_ALL != "") Then
     Set CL[i] _GetName("(Pink)",_GetBeamColor(_GetOptParamsValue(CL_ALL,i)))
@@ -480,9 +480,9 @@ For i = 1 To P_NUM
     Set CL[i] _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs()))
   EndIf
 
-#@Šp“x
+#ã€€è§’åº¦
 
-  If (_SearchOptionFromArgs("ƒ‰ƒ“ƒ_ƒ€•ûŒü") = "") Then
+  If (_SearchOptionFromArgs("ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘") = "") Then
     Set ANG[i] _GetAngle(Partner((i - 1)))
   Else
     Set ANG[i] Random(360)
@@ -501,7 +501,7 @@ For i = 1 To 5
 
   For j = 1 To P_NUM
     Set NUM (P_NUM - j + 1)
-    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") (C_X + 8) (C_Y + 8) 48 48 ‰E‰ñ“] ANG[NUM] “§‰ß _ColorTime(1)
+    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") (C_X + 8) (C_Y + 8) 48 48 å³å›è»¢ ANG[NUM] é€é _ColorTime(1)
   next
 
   Case 3 4
@@ -509,7 +509,7 @@ For i = 1 To 5
 
   For j = 1 To P_NUM
     Set NUM (P_NUM - j + 1)
-    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") C_X C_Y 64 64 ‰E‰ñ“] ANG[NUM] “§‰ß _ColorTime(1)
+    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") C_X C_Y 64 64 å³å›è»¢ ANG[NUM] é€é _ColorTime(1)
   next
 
   EndSw
@@ -517,7 +517,7 @@ For i = 1 To 5
   For j = 1 To P_NUM
 
     Set NUM (P_NUM - j + 1)
-    PaintPicture ("Beam\EFFECT_LBeamHit" & CL[NUM] & "0" & i & ".bmp") C_X C_Y ‰E‰ñ“] ANG[NUM] “§‰ß _ColorTime(1)
+    PaintPicture ("Beam\EFFECT_LBeamHit" & CL[NUM] & "0" & i & ".bmp") C_X C_Y å³å›è»¢ ANG[NUM] é€é _ColorTime(1)
   next
   Refresh
   Wait Until (i * 0.9)
@@ -528,7 +528,7 @@ For i = 4 To 5
   ClearPicture
   For j = 1 To P_NUM
     Set NUM (P_NUM - j + 1)
-    PaintPicture ("Beam\EFFECT_MBeamHit" & CL[NUM] & "0" & i & ".bmp") C_X C_Y ‰E‰ñ“] ANG[NUM] “§‰ß _ColorTime(1)
+    PaintPicture ("Beam\EFFECT_MBeamHit" & CL[NUM] & "0" & i & ".bmp") C_X C_Y å³å›è»¢ ANG[NUM] é€é _ColorTime(1)
   next
   Refresh
   Wait Until ((i + 2) * 0.7 + 0.9)
@@ -539,7 +539,7 @@ For i = 4 To 6
 
   For j = 1 To P_NUM
     Set NUM (P_NUM - j + 1)
-    PaintPicture ("Beam\EFFECT_BeamHit" & CL[NUM] & "0" & i & ".bmp") C_X C_Y ‰E‰ñ“] ANG[NUM] “§‰ß _ColorTime(1)
+    PaintPicture ("Beam\EFFECT_BeamHit" & CL[NUM] & "0" & i & ".bmp") C_X C_Y å³å›è»¢ ANG[NUM] é€é _ColorTime(1)
   next
   Refresh
   Wait Until ((i + 4) * 0.7 + 1)
@@ -551,28 +551,28 @@ Return
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-#“¯‹‘åƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[
+#åŒæ™‚å·¨å¤§ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_“¯‹‘åƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[UŒ‚:
-# ˆø”‚P •Ší‰æ‘œ
-# ˆø”‚Q ‰æ‘œƒTƒCƒY
-# ˆø”‚R ƒr[ƒ€‚ÌF
-# ˆø”‚S Œø‰Ê‰¹
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åŒæ™‚å·¨å¤§ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼æ”»æ’ƒ:
+# å¼•æ•°ï¼‘ æ­¦å™¨ç”»åƒ
+# å¼•æ•°ï¼’ ç”»åƒã‚µã‚¤ã‚º
+# å¼•æ•°ï¼“ ãƒ“ãƒ¼ãƒ ã®è‰²
+# å¼•æ•°ï¼” åŠ¹æœéŸ³
 
-#ƒr[ƒ€‚ÉŠÖ‚·‚é•Ï”
+#ãƒ“ãƒ¼ãƒ ã«é–¢ã™ã‚‹å¤‰æ•°
 Local BMP_FILE
 Local G_S
 Local C_X
 Local C_Y
 
-#è‚¿•Ší‚ÉŠÖ‚·‚é•Ï”
+#æ‰‹æŒã¡æ­¦å™¨ã«é–¢ã™ã‚‹å¤‰æ•°
 Local BMP_FILE2
 Local G_S2
 Local C_X2
 Local C_Y2
 
-# •¡”ˆø‚«“n‚µŒ^ˆø”ŠÖ˜A
+# è¤‡æ•°å¼•ãæ¸¡ã—å‹å¼•æ•°é–¢é€£
 Local P_NUM
 Local WF_ALL
 Local GS_ALL
@@ -597,34 +597,34 @@ Local NUM
 Local P_NUM
 
 
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 
 _UnSetBattleAnimeValue
 _CenteringCheck UID
 
 
-Set CL_ALL _GetOptParamsFromArgs("ƒr[ƒ€F")
+Set CL_ALL _GetOptParamsFromArgs("ãƒ“ãƒ¼ãƒ è‰²")
 Set P_NUM (CountPartner() + 1)
-Set WF_ALL _GetOptParamsFromArgs("‰æ‘œƒtƒ@ƒCƒ‹")
-Set GS_ALL _GetOptParamsFromArgs("‰æ‘œƒTƒCƒY")
+Set WF_ALL _GetOptParamsFromArgs("ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«")
+Set GS_ALL _GetOptParamsFromArgs("ç”»åƒã‚µã‚¤ã‚º")
 
 For i = 1 To P_NUM
 
   Set UID[i] Partner(i - 1)
 
-#@‘ÎÛƒ†ƒjƒbƒg‚Æ‘Šèƒ†ƒjƒbƒg‚ÌŠp“x
+#ã€€å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆã¨ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆã®è§’åº¦
 
   Set ANG[i] _GetAngle(UID[i])
-  Set X_F[i] _GetCircumference(ANG[i],‚w)
-  Set Y_F[i] _GetCircumference(ANG[i],‚x)
+  Set X_F[i] _GetCircumference(ANG[i],ï¼¸)
+  Set Y_F[i] _GetCircumference(ANG[i],ï¼¹)
   Set DRCT[i] _FlipVertical(ANG[i])
 
-#@è‚¿•Ší‚ÉŠÖ‚·‚é•Ï”
+#ã€€æ‰‹æŒã¡æ­¦å™¨ã«é–¢ã™ã‚‹å¤‰æ•°
 
   Set C_X2[i] WX(UID[i])
   Set C_Y2[i] WY(UID[i])
 
-#@‰æ‘œƒTƒCƒY
+#ã€€ç”»åƒã‚µã‚¤ã‚º
 
   If (GS_ALL != "") Then
     Set G_S[i] _GetOptParamsValue(GS_ALL,i)
@@ -632,12 +632,12 @@ For i = 1 To P_NUM
     Set G_S[i] _GetPicSizeFromArgs()
   EndIf
 
-#@è‚¿•ŠíˆÊ’u
+#ã€€æ‰‹æŒã¡æ­¦å™¨ä½ç½®
 
   Set W_X[i] (C_X2[i] + 16 - (G_S[i] \ 2))
   Set W_Y[i] (C_Y2[i] + 16 - (G_S[i] \ 2))
 
-#@è‚¿•Ší‰æ‘œ
+#ã€€æ‰‹æŒã¡æ­¦å™¨ç”»åƒ
 
   If (WF_ALL != "") Then
     Set BMP_FILE[i] _GetOptParamsValue(WF_ALL,i)
@@ -645,12 +645,12 @@ For i = 1 To P_NUM
     Set BMP_FILE[i] _GetBmpFromArgs()
   EndIf
 
-#@ƒr[ƒ€‚ÉŠÖ‚·‚é•Ï”
+#ã€€ãƒ“ãƒ¼ãƒ ã«é–¢ã™ã‚‹å¤‰æ•°
 
   Set C_X[i] (WX(UID[i]) - 16 + (X_F[i] * 16) + (X_F[i] * G_S[i] * 0.4))
   Set C_Y[i] (WY(UID[i]) - 16 + (Y_F[i] * 16) + (Y_F[i] * G_S[i] * 0.4))
 
-#@ƒr[ƒ€F
+#ã€€ãƒ“ãƒ¼ãƒ è‰²
 
   If (CL_ALL != "") Then
     Set CL[i] _GetName("(Pink)",_GetBeamColor(_GetOptParamsValue(CL_ALL,i)))
@@ -674,8 +674,8 @@ For i = 1 To 4
   ClearPicture
     For k = 1 To P_NUM
     Set NUM (P_NUM - k + 1)
-       PaintPicture BMP_FILE[NUM] (W_X[NUM] + (X_F[NUM] * LN)) (W_Y[NUM] + (Y_F[NUM] * LN)) G_S[NUM] G_S[NUM] “§‰ß DRCT[NUM] ‰E‰ñ“] ANG[NUM] _ColorTime(1)
- 	     PaintPicture ("Beam\EFFECT_LBeam" & CL[NUM] & "0" & i & ".bmp") C_X[NUM] C_Y[NUM] 64 64 “§‰ß ‰E‰ñ“] ANG[NUM] _ColorTime(1)
+       PaintPicture BMP_FILE[NUM] (W_X[NUM] + (X_F[NUM] * LN)) (W_Y[NUM] + (Y_F[NUM] * LN)) G_S[NUM] G_S[NUM] é€é DRCT[NUM] å³å›è»¢ ANG[NUM] _ColorTime(1)
+ 	     PaintPicture ("Beam\EFFECT_LBeam" & CL[NUM] & "0" & i & ".bmp") C_X[NUM] C_Y[NUM] 64 64 é€é å³å›è»¢ ANG[NUM] _ColorTime(1)
     Next
     Refresh
     Wait Until (i * 0.8)
@@ -694,21 +694,21 @@ For i = 1 To 27
 
     For k = 1 To P_NUM
     Set NUM (P_NUM - k + 1)
-  PaintPicture BMP_FILE[NUM] (W_X[NUM] + (X_F[NUM] * LN)) (W_Y[NUM] + (Y_F[NUM] * LN)) G_S[NUM] G_S[NUM] “§‰ß DRCT[NUM] ‰E‰ñ“] ANG[NUM] _ColorTime(1)
-  PaintPicture ("Beam2\EFFECT_GiantBeam" & CL[NUM] & "0" & j & ".bmp") C_X[NUM] C_Y[NUM] 64 64 ‰E‰ñ“] ANG[NUM] “§‰ß _ColorTime(1)
-  PaintPicture ("Fire\EFFECT_BackFire" & CL[NUM] & "0" & ((i Mod 9) + 1) & ".bmp") (C_X[NUM] - (X_F[NUM] * 48) - 16) (C_Y[NUM] - (Y_F[NUM] * 48) - 16) 96 96 ‰E‰ñ“] ANG[NUM] “§‰ß _ColorTime(1)
-  If (_SearchOptionFromArgs(“dŒ‚) != "") Then
+  PaintPicture BMP_FILE[NUM] (W_X[NUM] + (X_F[NUM] * LN)) (W_Y[NUM] + (Y_F[NUM] * LN)) G_S[NUM] G_S[NUM] é€é DRCT[NUM] å³å›è»¢ ANG[NUM] _ColorTime(1)
+  PaintPicture ("Beam2\EFFECT_GiantBeam" & CL[NUM] & "0" & j & ".bmp") C_X[NUM] C_Y[NUM] 64 64 å³å›è»¢ ANG[NUM] é€é _ColorTime(1)
+  PaintPicture ("Fire\EFFECT_BackFire" & CL[NUM] & "0" & ((i Mod 9) + 1) & ".bmp") (C_X[NUM] - (X_F[NUM] * 48) - 16) (C_Y[NUM] - (Y_F[NUM] * 48) - 16) 96 96 å³å›è»¢ ANG[NUM] é€é _ColorTime(1)
+  If (_SearchOptionFromArgs(é›»æ’ƒ) != "") Then
     Switch i
     Case 1 2 3 4
       PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & i & ".bmp") _
-                   (C_X[NUM] + (X_F[NUM] * 8) + 8) (C_Y[NUM] + (Y_F[NUM] * 8) + 8) 48 48 “§‰ß ‰E‰ñ“] ANG[NUM] _ColorTime(1) 
+                   (C_X[NUM] + (X_F[NUM] * 8) + 8) (C_Y[NUM] + (Y_F[NUM] * 8) + 8) 48 48 é€é å³å›è»¢ ANG[NUM] _ColorTime(1) 
     Case Else
       If (Random(2) = 1) Then
         PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (Random(3) + 4) & ".bmp") _
-                     (C_X[NUM] + (X_F[NUM] * 8) + 8) (C_Y[NUM] + (Y_F[NUM] * 8) + 8) 48 48 “§‰ß ‰E‰ñ“] ANG[NUM] _ColorTime(1) 
+                     (C_X[NUM] + (X_F[NUM] * 8) + 8) (C_Y[NUM] + (Y_F[NUM] * 8) + 8) 48 48 é€é å³å›è»¢ ANG[NUM] _ColorTime(1) 
       Else
         PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (Random(3) + 4) & ".bmp") _
-                     (C_X[NUM] + (X_F[NUM] * 8) + 8) (C_Y[NUM] + (Y_F[NUM] * 8) + 8) 48 48 “§‰ß ã‰º”½“] ‰E‰ñ“] ANG[NUM] _ColorTime(1) 
+                     (C_X[NUM] + (X_F[NUM] * 8) + 8) (C_Y[NUM] + (Y_F[NUM] * 8) + 8) 48 48 é€é ä¸Šä¸‹åè»¢ å³å›è»¢ ANG[NUM] _ColorTime(1) 
       EndIf
     EndSw
   EndIf
@@ -725,23 +725,23 @@ For i = 1 To 27
 
   EndSw
 Next
-Set í“¬ƒAƒjƒ•Ï”[F] B_C
+Set æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[è‰²] B_C
 
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_“¯‹‘åƒr[ƒ€–½’†:
-í“¬ƒAƒjƒ_“¯‹‘åƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åŒæ™‚å·¨å¤§ãƒ“ãƒ¼ãƒ å‘½ä¸­:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åŒæ™‚å·¨å¤§ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼å‘½ä¸­:
 
 
 
-#ƒr[ƒ€‚ÉŠÖ‚·‚é•Ï”
+#ãƒ“ãƒ¼ãƒ ã«é–¢ã™ã‚‹å¤‰æ•°
 Local BMP_FILE
 Local G_S
 
 
-# •¡”ˆø‚«“n‚µŒ^ˆø”ŠÖ˜A
+# è¤‡æ•°å¼•ãæ¸¡ã—å‹å¼•æ•°é–¢é€£
 Local P_NUM
 Local WF_ALL
 Local GS_ALL
@@ -757,18 +757,18 @@ Local P_NUM
 Local X_F
 Local Y_F
 
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 
 Set P_NUM (CountPartner() + 1)
-Set CL_ALL _GetOptParamsFromArgs("ƒr[ƒ€F")
+Set CL_ALL _GetOptParamsFromArgs("ãƒ“ãƒ¼ãƒ è‰²")
 
 
 For i = 1 To P_NUM
 
-#@Šp“x
+#ã€€è§’åº¦
 
-  If (_SearchOptionFromArgs("ƒ‰ƒ“ƒ_ƒ€•ûŒü") = "") Then
+  If (_SearchOptionFromArgs("ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘") = "") Then
     Set ANG[i] _GetAngle(Partner((i - 1)))
   Else
     Set ANG[i] Random(360)
@@ -776,11 +776,11 @@ For i = 1 To P_NUM
 
 
 Local C_X
-Set C_X[i] (WX(‘Šèƒ†ƒjƒbƒg‚h‚c) - 48)
+Set C_X[i] (WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 48)
 Local C_Y
-Set C_Y[i] (WY(‘Šèƒ†ƒjƒbƒg‚h‚c) - 48)
+Set C_Y[i] (WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 48)
 
-#@ƒr[ƒ€F
+#ã€€ãƒ“ãƒ¼ãƒ è‰²
 
   If (CL_ALL != "") Then
     Set CL[i] _GetName("(Pink)",_GetBeamColor(_GetOptParamsValue(CL_ALL,i)))
@@ -790,8 +790,8 @@ Set C_Y[i] (WY(‘Šèƒ†ƒjƒbƒg‚h‚c) - 48)
 
  set CL2[i] _GetLightningColorInBeam(CL[i])
 
-Set X_F[i] _GetCircumference(ANG[i],‚w)
-Set Y_F[i] _GetCircumference(ANG[i],‚x)
+Set X_F[i] _GetCircumference(ANG[i],ï¼¸)
+Set Y_F[i] _GetCircumference(ANG[i],ï¼¹)
 
 Next
 
@@ -810,38 +810,38 @@ For i = 1 To 10
     _SelectSound "Explode(Small).wav" _GetWavFromArgs()
   For k = 1 To P_NUM
     Set NUM (P_NUM - k + 1)
-    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") (C_X[NUM] + 12) (C_Y[NUM] + 12) 104 104 ‰E‰ñ“] ANG[NUM] “§‰ß _ColorTime(1)
+    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") (C_X[NUM] + 12) (C_Y[NUM] + 12) 104 104 å³å›è»¢ ANG[NUM] é€é _ColorTime(1)
   Next
 
   Case 3 6 9
     _SelectSound "Explode.wav" _GetWavFromArgs()
   For k = 1 To P_NUM
     Set NUM (P_NUM - k + 1)
-    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") (C_X[NUM] + 8) (C_Y[NUM] + 8) 116 116 ‰E‰ñ“] ANG[NUM] “§‰ß _ColorTime(1)
+    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") (C_X[NUM] + 8) (C_Y[NUM] + 8) 116 116 å³å›è»¢ ANG[NUM] é€é _ColorTime(1)
   Next
 
   Case 4 7 10
     _SelectSound "Explode.wav" _GetWavFromArgs()
   For k = 1 To P_NUM
     Set NUM (P_NUM - k + 1)
-    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") C_X[NUM] C_Y[NUM] 128 128 ‰E‰ñ“] ANG[NUM] “§‰ß _ColorTime(1)
+    PaintPicture ("Beam\EFFECT_BeamDroplet" & CL[NUM] & "01.bmp") C_X[NUM] C_Y[NUM] 128 128 å³å›è»¢ ANG[NUM] é€é _ColorTime(1)
   Next
 
   EndSw
 
   For k = 1 To P_NUM
     Set NUM (P_NUM - k + 1)
-    PaintPicture ("Beam\EFFECT_LBeamHit" & CL[NUM] & "0" & j & ".bmp") C_X[NUM] C_Y[NUM] 128 128 ‰E‰ñ“] ANG[NUM] “§‰ß _ColorTime(1)
+    PaintPicture ("Beam\EFFECT_LBeamHit" & CL[NUM] & "0" & j & ".bmp") C_X[NUM] C_Y[NUM] 128 128 å³å›è»¢ ANG[NUM] é€é _ColorTime(1)
   Next
 
-  If (_SearchOptionFromArgs(“dŒ‚) != "") Then
+  If (_SearchOptionFromArgs(é›»æ’ƒ) != "") Then
     Switch i
     Case 1 
 
       For k = 1 To P_NUM
       Set NUM (P_NUM - k + 1)
       PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (Random(3) + 4) & ".bmp") _
-                   (C_X[NUM] + 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32 + (Y_F[NUM] * -32)) 64 64 “§‰ß ‰E‰ñ“] ANG[NUM] _ColorTime(1) 
+                   (C_X[NUM] + 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32 + (Y_F[NUM] * -32)) 64 64 é€é å³å›è»¢ ANG[NUM] _ColorTime(1) 
      Next
 
     Case Else
@@ -850,9 +850,9 @@ For i = 1 To 10
       For k = 1 To P_NUM
       Set NUM (P_NUM - k + 1)
         PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (Random(3) + 4) & ".bmp") _
-                     (C_X[NUM] + 32 + (X_F[NUM] * 32)) (C_Y[NUM] + 32 + (Y_F[NUM] * 32)) 64 64 “§‰ß ‰E‰ñ“] ANG[NUM] _ColorTime(1) 
+                     (C_X[NUM] + 32 + (X_F[NUM] * 32)) (C_Y[NUM] + 32 + (Y_F[NUM] * 32)) 64 64 é€é å³å›è»¢ ANG[NUM] _ColorTime(1) 
         PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (Random(3) + 4) & ".bmp") _
-                     (C_X[NUM] + 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32 + (Y_F[NUM] * -32)) 64 64 “§‰ß ‰E‰ñ“] ANG[NUM] _ColorTime(1) 
+                     (C_X[NUM] + 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32 + (Y_F[NUM] * -32)) 64 64 é€é å³å›è»¢ ANG[NUM] _ColorTime(1) 
      Next
 
       Else
@@ -860,9 +860,9 @@ For i = 1 To 10
       For k = 1 To P_NUM
       Set NUM (P_NUM - k + 1)
         PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (Random(3) + 4) & ".bmp") _
-                     (C_X[NUM] + 32 + (X_F[NUM] * 32)) (C_Y[NUM] + 32 + (Y_F[NUM] * 32)) 64 64 “§‰ß ‰E‰ñ“] ANG[NUM] ã‰º”½“] _ColorTime(1) 
+                     (C_X[NUM] + 32 + (X_F[NUM] * 32)) (C_Y[NUM] + 32 + (Y_F[NUM] * 32)) 64 64 é€é å³å›è»¢ ANG[NUM] ä¸Šä¸‹åè»¢ _ColorTime(1) 
         PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (Random(3) + 4) & ".bmp") _
-                     (C_X[NUM] + 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32 + (Y_F[NUM] * -32)) 64 64 “§‰ß ‰E‰ñ“] ANG[NUM] ã‰º”½“] _ColorTime(1) 
+                     (C_X[NUM] + 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32 + (Y_F[NUM] * -32)) 64 64 é€é å³å›è»¢ ANG[NUM] ä¸Šä¸‹åè»¢ _ColorTime(1) 
      Next
 
       EndIf
@@ -880,12 +880,12 @@ For i = 4 To 5
   ClearPicture
       For k = 1 To P_NUM
       Set NUM (P_NUM - k + 1)
- 		 PaintPicture ("Beam\EFFECT_MBeamHit" & CL[NUM] & "0" & i & ".bmp") C_X[NUM] C_Y[NUM] 128 128 ‰E‰ñ“] ANG[NUM] “§‰ß _ColorTime(1)
- 		 If (_SearchOptionFromArgs(“dŒ‚) != "") Then
+ 		 PaintPicture ("Beam\EFFECT_MBeamHit" & CL[NUM] & "0" & i & ".bmp") C_X[NUM] C_Y[NUM] 128 128 å³å›è»¢ ANG[NUM] é€é _ColorTime(1)
+ 		 If (_SearchOptionFromArgs(é›»æ’ƒ) != "") Then
  		     PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (8 - i) & ".bmp") _
- 		                  (C_X [NUM]+ 32 + (X_F[NUM] * 32)) (C_Y[NUM] + 32 + (Y_F[NUM] * 32)) 64 64 “§‰ß ‰E‰ñ“] ANG[NUM] _ColorTime(1) 
+ 		                  (C_X [NUM]+ 32 + (X_F[NUM] * 32)) (C_Y[NUM] + 32 + (Y_F[NUM] * 32)) 64 64 é€é å³å›è»¢ ANG[NUM] _ColorTime(1) 
   		     PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (8 - i) & ".bmp") _
- 		                  (C_X [NUM]+ 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32 + (Y_F[NUM] * -32)) 64 64 “§‰ß ‰E‰ñ“] ANG[NUM] _ColorTime(1) 
+ 		                  (C_X [NUM]+ 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32 + (Y_F[NUM] * -32)) 64 64 é€é å³å›è»¢ ANG[NUM] _ColorTime(1) 
   EndIf
      Next
   Refresh
@@ -897,12 +897,12 @@ For i = 4 To 6
   ClearPicture
       For k = 1 To P_NUM
       Set NUM (P_NUM - k + 1)
-  PaintPicture ("Beam\EFFECT_BeamHit" & CL[NUM] & "0" & i & ".bmp") C_X[NUM] C_Y[NUM] 128 128 ‰E‰ñ“] ANG[NUM] “§‰ß _ColorTime(1)
-  If (_SearchOptionFromArgs(“dŒ‚) != "") Then
+  PaintPicture ("Beam\EFFECT_BeamHit" & CL[NUM] & "0" & i & ".bmp") C_X[NUM] C_Y[NUM] 128 128 å³å›è»¢ ANG[NUM] é€é _ColorTime(1)
+  If (_SearchOptionFromArgs(é›»æ’ƒ) != "") Then
       PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (6 - i) & ".bmp") _
-                   (C_X[NUM] + 32 + (X_F[NUM] * 32)) (C_Y[NUM] + 32 + (Y_F[NUM] * 32)) 64 64 “§‰ß ‰E‰ñ“] ANG[NUM] _ColorTime(1) 
+                   (C_X[NUM] + 32 + (X_F[NUM] * 32)) (C_Y[NUM] + 32 + (Y_F[NUM] * 32)) 64 64 é€é å³å›è»¢ ANG[NUM] _ColorTime(1) 
       PaintPicture ("Light\EFFECT_LargeLightning" & CL2[NUM] & "0" & (6 - i) & ".bmp") _
-                   (C_X[NUM] + 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32[NUM] + (Y_F[NUM] * -32)) 64 64 “§‰ß ‰E‰ñ“] ANG[NUM] _ColorTime(1) 
+                   (C_X[NUM] + 32 + (X_F[NUM] * -32)) (C_Y[NUM] + 32[NUM] + (Y_F[NUM] * -32)) 64 64 é€é å³å›è»¢ ANG[NUM] _ColorTime(1) 
   EndIf
      Next
   Refresh
@@ -917,14 +917,14 @@ Return
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 #_/_/_/_/_/
-#‚È‚Ì‚Í##
+#ãªã®ã¯##
 #_/_/_/_/_/
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
-í“¬ƒAƒjƒ_ƒŒƒXƒgƒŠƒNƒgƒƒbƒNUŒ‚:
-Center X(–Ú•W’n“_) Y(–Ú•W’n“_)
-Call ƒŒƒXƒgƒŠƒNƒgƒƒbƒN_•\¦
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ¬ã‚¹ãƒˆãƒªã‚¯ãƒˆãƒ­ãƒƒã‚¯æ”»æ’ƒ:
+Center X(ç›®æ¨™åœ°ç‚¹) Y(ç›®æ¨™åœ°ç‚¹)
+Call ãƒ¬ã‚¹ãƒˆãƒªã‚¯ãƒˆãƒ­ãƒƒã‚¯_è¡¨ç¤º
 Redraw
 
 Return
@@ -932,12 +932,12 @@ Return
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
-ƒŒƒXƒgƒŠƒNƒgƒƒbƒN_•\¦:
+ãƒ¬ã‚¹ãƒˆãƒªã‚¯ãƒˆãƒ­ãƒƒã‚¯_è¡¨ç¤º:
 PlaySound Thunder.wav
 For i = 1 to 9
     ClearPicture 0 0 479 479
     Wait Start
-    PaintPicture ("Anime\MapBeam\EFFECT_360Beam(Pink)0" & i & ".bmp") - - 192 192 “§‰ß
+    PaintPicture ("Anime\MapBeam\EFFECT_360Beam(Pink)0" & i & ".bmp") - - 192 192 é€é
     Refresh
     Wait Until 1
 Next
@@ -947,7 +947,7 @@ For j = 1 to 3
     For i = 1 to 3
         ClearPicture 0 0 479 479
         Wait Start
-        PaintPicture ("Anime\Map\EFFECT_MapAura(Pink)0" & i & ".bmp") - - 192 192 “§‰ß
+        PaintPicture ("Anime\Map\EFFECT_MapAura(Pink)0" & i & ".bmp") - - 192 192 é€é
         Refresh
         Wait Until 1
     Next
@@ -957,7 +957,7 @@ Return
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
-í“¬ƒAƒjƒ_ƒVƒ…[ƒeƒBƒ“ƒOƒ‚[ƒh•ÏŒ`:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°ãƒ¢ãƒ¼ãƒ‰å¤‰å½¢:
 
 PaintPicture NANOHA_RaisingHeart(W).bmp - - 128 128
 Refresh
@@ -971,13 +971,13 @@ For i = 1 to 5
 Next
 
 ClearPicture 0 0 479 479
-PaintPicture NANOHA_RaisingHeart(S).bmp - - 128 128 “§‰ß
+PaintPicture NANOHA_RaisingHeart(S).bmp - - 128 128 é€é
 Refresh
 Wait 2
 
 Return
 
-í“¬ƒAƒjƒ_ƒŒƒCƒWƒ“ƒOƒn[ƒg_ƒ`ƒƒ[ƒW:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ¬ã‚¤ã‚¸ãƒ³ã‚°ãƒãƒ¼ãƒˆ_ãƒãƒ£ãƒ¼ã‚¸:
 PlaySound Charge(2).wav
 For j = 1 to 10
     For i = 1 to 2
@@ -992,26 +992,26 @@ Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-‘«Œ³‹‘å–‚–@w_‚È‚Ì‚Í:
-Call í“¬ƒAƒjƒ_‹‘å–‚•ûw _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs()) _GetName(“,_GetColorFromArgs()) _SelectSound Sharara.wav _GetWavFromArgs() ”w–Ê
+è¶³å…ƒå·¨å¤§é­”æ³•é™£_ãªã®ã¯:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å·¨å¤§é­”æ–¹é™£ _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs()) _GetName(æ¡ƒ,_GetColorFromArgs()) _SelectSound Sharara.wav _GetWavFromArgs() èƒŒé¢
 Return "Keep"
 
-‘«Œ³‹‘å–‚–@w_ƒtƒFƒCƒg:
-Call í“¬ƒAƒjƒ_‹‘å–‚•ûw _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs()) _GetName(‰©,_GetColorFromArgs()) _SelectSound Sharara.wav _GetWavFromArgs() ”w–Ê
+è¶³å…ƒå·¨å¤§é­”æ³•é™£_ãƒ•ã‚§ã‚¤ãƒˆ:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å·¨å¤§é­”æ–¹é™£ _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs()) _GetName(é»„,_GetColorFromArgs()) _SelectSound Sharara.wav _GetWavFromArgs() èƒŒé¢
 Return "Keep"
 
 
-í“¬ƒAƒjƒ_‹‘å–‚•ûw:
-í“¬ƒAƒjƒ_‹‘å–‚–@w:
-# ˆø”‚P F
-# ˆø”‚Q Œø‰Ê‰¹
-# ˆø”‚R ‘O–Ê”w–Ê
-# ˆø”‚S ƒ†ƒjƒbƒg‚h‚c
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å·¨å¤§é­”æ–¹é™£:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å·¨å¤§é­”æ³•é™£:
+# å¼•æ•°ï¼‘ è‰²
+# å¼•æ•°ï¼’ åŠ¹æœéŸ³
+# å¼•æ•°ï¼“ å‰é¢èƒŒé¢
+# å¼•æ•°ï¼” ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 Local EFFECT_FILE = "Magic\EFFECT_NANOHA_MidChildaMagicEmblem"
-Local COL = _GetName(Ô,_GetColorFromArgs())
+Local COL = _GetName(èµ¤,_GetColorFromArgs())
 Local C_N = _GetBeamColor2(COL)
-Local UID = _GetName(‘Šèƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 Local S_F = _SelectSound Sharara.wav _GetWavFromArgs()
 Local i FRT G_S BMP_FILE
 
@@ -1020,15 +1020,15 @@ Set EFFECT_FILE (EFFECT_FILE & C_N & "01.bmp")
 
 _UnSetBattleAnimeValue
 
-If (Args(1) = "À•Ww’è") Then
+If (Args(1) = "åº§æ¨™æŒ‡å®š") Then
   Center Args(2) Args(3)
 Else
   Center UID
   Set BMP_FILE _GetBMPName(UID)
-  If (_SearchOptionFromArgs(”w–Ê) != "") Then
-    Set FRT ”w–Ê
+  If (_SearchOptionFromArgs(èƒŒé¢) != "") Then
+    Set FRT èƒŒé¢
   Else
-    Set FRT ‘O–Ê
+    Set FRT å‰é¢
   EndIf
 EndIf
 
@@ -1040,9 +1040,9 @@ PlaySound S_F
 Wait Start 
 For i = 1 To 10
   ClearPicture
-  PaintPicture EFFECT_FILE - - (G_S * i) (G_S * i) “§‰ß –¾ ‰E‰ñ“] (i * 45) _ColorTime()
-  If (FRT = ”w–Ê) Then
-    PaintPicture BMP_FILE - - “§‰ß _ColorTime()
+  PaintPicture EFFECT_FILE - - (G_S * i) (G_S * i) é€é æ˜ å³å›è»¢ (i * 45) _ColorTime()
+  If (FRT = èƒŒé¢) Then
+    PaintPicture BMP_FILE - - é€é _ColorTime()
   EndIf
   Refresh
   Wait Until (i * 0.18)
@@ -1050,9 +1050,9 @@ Next
 
 For i = 1 To 30
   ClearPicture
-  PaintPicture EFFECT_FILE - - 64 64 “§‰ß –¾ ‰E‰ñ“] (i * 1.5) _ColorTime()
-  If (FRT = ”w–Ê) Then
-    PaintPicture BMP_FILE - - “§‰ß _ColorTime()
+  PaintPicture EFFECT_FILE - - 64 64 é€é æ˜ å³å›è»¢ (i * 1.5) _ColorTime()
+  If (FRT = èƒŒé¢) Then
+    PaintPicture BMP_FILE - - é€é _ColorTime()
   EndIf
   Refresh
   Wait Until (i * 0.05)
@@ -1062,26 +1062,26 @@ Return "Keep"
 
 
 #_/_/_/_/_/
-#ƒtƒFƒCƒg##
+#ãƒ•ã‚§ã‚¤ãƒˆ##
 #_/_/_/_/_/
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
 
-í“¬ƒAƒjƒ_ƒTƒ“ƒ_[ƒtƒH[ƒ‹_ƒXƒtƒBƒA:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚µãƒ³ãƒ€ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ«_ã‚¹ãƒ•ã‚£ã‚¢:
 PlaySound BeamSaber.wav
-PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 32 192 64 64 •Û “§‰ß
-PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 32 258 64 64 •Û “§‰ß
-PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 128 160 64 64 •Û “§‰ß
-PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 128 288 64 64 •Û “§‰ß
-PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 288 160 64 64 •Û “§‰ß
-PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 288 288 64 64 •Û “§‰ß
-PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 384 192 64 64 •Û “§‰ß
-PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 384 258 64 64 •Û “§‰ß
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 32 192 64 64 ä¿æŒ é€é
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 32 258 64 64 ä¿æŒ é€é
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 128 160 64 64 ä¿æŒ é€é
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 128 288 64 64 ä¿æŒ é€é
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 288 160 64 64 ä¿æŒ é€é
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 288 288 64 64 ä¿æŒ é€é
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 384 192 64 64 ä¿æŒ é€é
+PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 384 258 64 64 ä¿æŒ é€é
 Refresh
 Return
 
-í“¬ƒAƒjƒ_ƒTƒ“ƒ_[ƒtƒH[ƒ‹_”­“®:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚µãƒ³ãƒ€ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ«_ç™ºå‹•:
 PlaySound Sword.wav
 Wait 10
 
@@ -1089,9 +1089,9 @@ PlaySound Storm.wav
 WhiteOut 30
 Return
 
-í“¬ƒAƒjƒ_ƒtƒ@ƒ‰ƒ“ƒNƒXƒVƒtƒgUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ•ã‚¡ãƒ©ãƒ³ã‚¯ã‚¹ã‚·ãƒ•ãƒˆæ”»æ’ƒ:
 
-Center ‘ÎÛƒ†ƒjƒbƒg‚h‚c
+Center å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 Local ANG i
 
@@ -1103,7 +1103,7 @@ Wait Start
 for j = 1 to 4
 	ClearPicture
 	for i = 0 to 7
-		PaintPicture ("Anime\Beam\EFFECT_LBeam(Yellow)0" & j & ".bmp") (216 - 40 * Sin(i / 1.272)) (216 - 40 * Cos(i / 1.272)) 48 48 “§‰ß
+		PaintPicture ("Anime\Beam\EFFECT_LBeam(Yellow)0" & j & ".bmp") (216 - 40 * Sin(i / 1.272)) (216 - 40 * Cos(i / 1.272)) 48 48 é€é
 	next
 	Wait Until (i * 0.4)
 	Refresh
@@ -1122,18 +1122,18 @@ For i = 1 to 5
 		for k = 1 to 2
         	Set Psize Random(5)
 		    ClearPicture
-			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(0 / 1.272)) - Psize) ((219 - 40 * Cos(0 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) “§‰ß
-			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(1 / 1.272)) - Psize) ((219 - 40 * Cos(1 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) “§‰ß
-			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(2 / 1.272)) - Psize) ((219 - 40 * Cos(2 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) “§‰ß
-			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(3 / 1.272)) - Psize) ((219 - 40 * Cos(3 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) “§‰ß
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(0 / 1.272)) - Psize) ((219 - 40 * Cos(0 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) é€é
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(1 / 1.272)) - Psize) ((219 - 40 * Cos(1 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) é€é
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(2 / 1.272)) - Psize) ((219 - 40 * Cos(2 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) é€é
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(3 / 1.272)) - Psize) ((219 - 40 * Cos(3 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) é€é
 
-			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(4 / 1.272)) - Psize) ((219 - 40 * Cos(4 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) “§‰ß
-			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(5 / 1.272)) - Psize) ((219 - 40 * Cos(5 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) “§‰ß
-			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(6 / 1.272)) - Psize) ((219 - 40 * Cos(6 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) “§‰ß
-			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(7 / 1.272)) - Psize) ((219 - 40 * Cos(7 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) “§‰ß
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(4 / 1.272)) - Psize) ((219 - 40 * Cos(4 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) é€é
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(5 / 1.272)) - Psize) ((219 - 40 * Cos(5 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) é€é
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(6 / 1.272)) - Psize) ((219 - 40 * Cos(6 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) é€é
+			PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp ((219 - 40 * Sin(7 / 1.272)) - Psize) ((219 - 40 * Cos(7 / 1.272)) - Psize) (42 + (Psize * 2)) (42 + (Psize * 2)) é€é
 
-			PaintPicture ("Anime\Beam\EFFECT_Beam(Yellow)0" & (k + 3) & ".bmp") (207 - 40 * Sin((5 - j) / 1.272)) (207 - 40 * Cos((5 - j) / 1.272)) 64 64 “§‰ß ‰E‰ñ“] ANG
-			PaintPicture ("Anime\Beam\EFFECT_Beam(Yellow)0" & (k + 3) & ".bmp") (207 - 40 * Sin((9 - j) / 1.272)) (207 - 40 * Cos((9 - j) / 1.272)) 64 64 “§‰ß ‰E‰ñ“] ANG
+			PaintPicture ("Anime\Beam\EFFECT_Beam(Yellow)0" & (k + 3) & ".bmp") (207 - 40 * Sin((5 - j) / 1.272)) (207 - 40 * Cos((5 - j) / 1.272)) 64 64 é€é å³å›è»¢ ANG
+			PaintPicture ("Anime\Beam\EFFECT_Beam(Yellow)0" & (k + 3) & ".bmp") (207 - 40 * Sin((9 - j) / 1.272)) (207 - 40 * Cos((9 - j) / 1.272)) 64 64 é€é å³å›è»¢ ANG
 			Refresh
 		    Wait Until (0.4 * k)
 		Next
@@ -1146,24 +1146,24 @@ Refresh
 Return
 
 
-#í“¬ƒAƒjƒ_ƒtƒ@ƒ‰ƒ“ƒNƒXƒVƒtƒgUŒ‚:
+#æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ•ã‚¡ãƒ©ãƒ³ã‚¯ã‚¹ã‚·ãƒ•ãƒˆæ”»æ’ƒ:
 
-#Center ‘ÎÛƒ†ƒjƒbƒg‚h‚c
+#Center å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 #Local ANG i
 
 #Set ANG _GetAngle(UID)
 
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 184 48 48 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 206 48 48 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 227 48 48 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 248 48 48 “§‰ß ‰E‰ñ“] ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 184 48 48 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 206 48 48 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 227 48 48 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 248 48 48 é€é å³å›è»¢ ANG
 
 
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 184 48 48 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 206 48 48 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 227 48 48 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 248 48 48 “§‰ß ‰E‰ñ“] ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 184 48 48 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 206 48 48 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 227 48 48 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 248 48 48 é€é å³å›è»¢ ANG
 
 
 
@@ -1172,15 +1172,15 @@ Return
 
 #for i = 1 to 8
 #    ClearPicture
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (184 + 24 - (3 * i)) (184 + 24 - (3 * i)) (6 * i) (6 * i) “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (168 + 24 - (3 * i)) (206 + 24 - (3 * i)) (6 * i) (6 * i) “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (168 + 24 - (3 * i)) (227 + 24 - (3 * i)) (6 * i) (6 * i) “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (184 + 24 - (3 * i)) (248 + 24 - (3 * i)) (6 * i) (6 * i) “§‰ß ‰E‰ñ“] ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (184 + 24 - (3 * i)) (184 + 24 - (3 * i)) (6 * i) (6 * i) é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (168 + 24 - (3 * i)) (206 + 24 - (3 * i)) (6 * i) (6 * i) é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (168 + 24 - (3 * i)) (227 + 24 - (3 * i)) (6 * i) (6 * i) é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (184 + 24 - (3 * i)) (248 + 24 - (3 * i)) (6 * i) (6 * i) é€é å³å›è»¢ ANG
 
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (248 + 24 - (3 * i)) (184 + 24 - (3 * i)) (6 * i) (6 * i) “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (264 + 24 - (3 * i)) (206 + 24 - (3 * i)) (6 * i) (6 * i) “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (264 + 24 - (3 * i)) (227 + 24 - (3 * i)) (6 * i) (6 * i) “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (248 + 24 - (3 * i)) (248 + 24 - (3 * i)) (6 * i) (6 * i) “§‰ß ‰E‰ñ“] ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (248 + 24 - (3 * i)) (184 + 24 - (3 * i)) (6 * i) (6 * i) é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (264 + 24 - (3 * i)) (206 + 24 - (3 * i)) (6 * i) (6 * i) é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (264 + 24 - (3 * i)) (227 + 24 - (3 * i)) (6 * i) (6 * i) é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp (248 + 24 - (3 * i)) (248 + 24 - (3 * i)) (6 * i) (6 * i) é€é å³å›è»¢ ANG
 #Refresh
 #Wait Until (i * 0.4)
 
@@ -1188,16 +1188,16 @@ Return
 
 #next
 
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 184 48 48 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 206 48 48 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 227 48 48 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 248 48 48 “§‰ß ‰E‰ñ“] ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 184 48 48 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 206 48 48 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 227 48 48 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 248 48 48 é€é å³å›è»¢ ANG
 
 
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 184 48 48 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 206 48 48 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 227 48 48 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 248 48 48 “§‰ß ‰E‰ñ“] ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 184 48 48 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 206 48 48 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 227 48 48 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 248 48 48 é€é å³å›è»¢ ANG
 #Refresh
 
 #Wait Start
@@ -1208,110 +1208,110 @@ Return
 #For i = 1 to 5
 
 #    Wait Start
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 185 185 46 46 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 167 207 46 46 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 169 228 46 46 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 185 249 46 46 “§‰ß ‰E‰ñ“] ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 185 185 46 46 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 167 207 46 46 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 169 228 46 46 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 185 249 46 46 é€é å³å›è»¢ ANG
 
 
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 249 185 46 46 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 265 207 46 46 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 265 228 46 46 “§‰ß ‰E‰ñ“] ANG
-#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 249 249 46 46 “§‰ß ‰E‰ñ“] ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 249 185 46 46 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 265 207 46 46 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 265 228 46 46 é€é å³å›è»¢ ANG
+#PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 249 249 46 46 é€é å³å›è»¢ ANG
 
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 176 176 64 64 “§‰ß ‰E‰ñ“] ANG
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 240 240 64 64 “§‰ß ‰E‰ñ“] ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 176 176 64 64 é€é å³å›è»¢ ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 240 240 64 64 é€é å³å›è»¢ ANG
 #    Refresh
 #    Wait Until 0.5
 
 #    Wait Start
 #    ClearPicture 0 0 479 479
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 182 182 52 52 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 166 204 52 52 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 166 225 52 52 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 182 246 52 52 “§‰ß ‰E‰ñ“] ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 182 182 52 52 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 166 204 52 52 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 166 225 52 52 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 182 246 52 52 é€é å³å›è»¢ ANG
 
 
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 246 182 52 52 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 262 204 52 52 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 262 225 52 52 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 246 246 52 52 “§‰ß ‰E‰ñ“] ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 246 182 52 52 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 262 204 52 52 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 262 225 52 52 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 246 246 52 52 é€é å³å›è»¢ ANG
 
 #    PlaySound Beam.wav
 
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 176 176 64 64 “§‰ß ‰E‰ñ“] ANG
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 240 240 64 64 “§‰ß ‰E‰ñ“] ANG
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 160 198 64 64 “§‰ß ‰E‰ñ“] ANG
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 256 219 64 64 “§‰ß ‰E‰ñ“] ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 176 176 64 64 é€é å³å›è»¢ ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 240 240 64 64 é€é å³å›è»¢ ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 160 198 64 64 é€é å³å›è»¢ ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 256 219 64 64 é€é å³å›è»¢ ANG
 #    Refresh
 #    Wait Until 0.5
 
 
 
 #    ClearPicture 0 0 479 479
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 186 186 44 44 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 167 208 44 44 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 170 229 44 44 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 186 250 44 44 “§‰ß ‰E‰ñ“] ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 186 186 44 44 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 167 208 44 44 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 170 229 44 44 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 186 250 44 44 é€é å³å›è»¢ ANG
 
 
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 250 186 44 44 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 266 208 44 44 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 266 229 44 44 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 250 250 44 44 “§‰ß ‰E‰ñ“] ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 250 186 44 44 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 266 208 44 44 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 266 229 44 44 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 250 250 44 44 é€é å³å›è»¢ ANG
 
 #    Wait Start
 #    PlaySound Beam.wav
 
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 160 198 64 64 “§‰ß ‰E‰ñ“] ANG
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 256 198 64 64 “§‰ß ‰E‰ñ“] ANG
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 160 219 64 64 “§‰ß ‰E‰ñ“] ANG
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 256 198 64 64 “§‰ß ‰E‰ñ“] ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 160 198 64 64 é€é å³å›è»¢ ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 256 198 64 64 é€é å³å›è»¢ ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 160 219 64 64 é€é å³å›è»¢ ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 256 198 64 64 é€é å³å›è»¢ ANG
 #    Refresh
 #    Wait Until 0.5
 
 
 #    ClearPicture 0 0 479 479
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 184 48 48 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 206 48 48 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 227 48 48 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 248 48 48 “§‰ß ‰E‰ñ“] ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 184 48 48 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 206 48 48 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 168 227 48 48 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 184 248 48 48 é€é å³å›è»¢ ANG
 
 
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 184 48 48 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 206 48 48 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 227 48 48 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 248 48 48 “§‰ß ‰E‰ñ“] ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 184 48 48 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 206 48 48 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 264 227 48 48 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 248 248 48 48 é€é å³å›è»¢ ANG
 
 
 #    Wait Start
 #    PlaySound Beam.wav
 
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 160 219 64 64 “§‰ß ‰E‰ñ“] ANG
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 256 198 64 64 “§‰ß ‰E‰ñ“] ANG
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 176 240 64 64 “§‰ß ‰E‰ñ“] ANG
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 240 176 64 64 “§‰ß ‰E‰ñ“] ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 160 219 64 64 é€é å³å›è»¢ ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 256 198 64 64 é€é å³å›è»¢ ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 176 240 64 64 é€é å³å›è»¢ ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)04.bmp 240 176 64 64 é€é å³å›è»¢ ANG
 #    Refresh
 #    Wait Until 0.5
 
 #   ClearPicture 0 0 479 479
 
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 183 183 50 50 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 167 205 50 50 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 167 226 50 50 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 183 247 50 50 “§‰ß ‰E‰ñ“] ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 183 183 50 50 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 167 205 50 50 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 167 226 50 50 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 183 247 50 50 é€é å³å›è»¢ ANG
 
 
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 247 183 50 50 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 263 205 50 50 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 263 226 50 50 “§‰ß ‰E‰ñ“] ANG
-#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 247 247 50 50 “§‰ß ‰E‰ñ“] ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 247 183 50 50 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 263 205 50 50 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 263 226 50 50 é€é å³å›è»¢ ANG
+#	PaintPicture Anime\Beam\EFFECT_LBeam(Yellow)04.bmp 247 247 50 50 é€é å³å›è»¢ ANG
     
 #    Wait Start
 #    PlaySound Beam.wav
 
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 176 240 64 64 “§‰ß ‰E‰ñ“] ANG
-#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 240 176 64 64 “§‰ß ‰E‰ñ“] ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 176 240 64 64 é€é å³å›è»¢ ANG
+#    PaintPicture Anime\Beam\EFFECT_Beam(Yellow)05.bmp 240 176 64 64 é€é å³å›è»¢ ANG
 #    Refresh
 #    Wait Until 0.5
 
@@ -1322,20 +1322,20 @@ Return
 #Return
 
 #_/_/_/_/_/
-#ƒvƒŒƒVƒA##
+#ãƒ—ãƒ¬ã‚·ã‚¢##
 #_/_/_/_/_/
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
-í“¬ƒAƒjƒ_ƒTƒ“ƒ_[ƒŒƒCƒW‚n‚c‚iUŒ‚:
-Center X(–Ú•W’n“_) Y(–Ú•W’n“_)
-Call í“¬ƒAƒjƒ_ƒTƒ“ƒ_[ƒŒƒCƒW‚n‚c‚i_•\¦
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚µãƒ³ãƒ€ãƒ¼ãƒ¬ã‚¤ã‚¸ï¼¯ï¼¤ï¼ªæ”»æ’ƒ:
+Center X(ç›®æ¨™åœ°ç‚¹) Y(ç›®æ¨™åœ°ç‚¹)
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚µãƒ³ãƒ€ãƒ¼ãƒ¬ã‚¤ã‚¸ï¼¯ï¼¤ï¼ª_è¡¨ç¤º
 PlaySound Explode(Far).wav
 Redraw
 
 Return
 
-í“¬ƒAƒjƒ_ƒTƒ“ƒ_[ƒŒƒCƒW‚n‚c‚i_•\¦:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚µãƒ³ãƒ€ãƒ¼ãƒ¬ã‚¤ã‚¸ï¼¯ï¼¤ï¼ª_è¡¨ç¤º:
 
 For j = 1 to 5
     PlaySound Thunderbolt.wav
@@ -1355,12 +1355,12 @@ Return
 
 
 #_/_/_/_/_/
-#ƒVƒOƒiƒ€##
+#ã‚·ã‚°ãƒŠãƒ ##
 #_/_/_/_/_/
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
-í“¬ƒAƒjƒ_ƒŒƒ”ƒ@ƒ“ƒeƒBƒ“_ƒŠƒ[ƒh:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ¬ãƒ´ã‚¡ãƒ³ãƒ†ã‚£ãƒ³_ãƒªãƒ­ãƒ¼ãƒ‰:
 PlaySound TransForm.wav
 For i = 0 to 6
     If i = 6 Then
@@ -1375,13 +1375,13 @@ Wait 1
 
 Return
 
-í“¬ƒAƒjƒ_ƒVƒ…ƒcƒ‹ƒ€ƒtƒ@ƒ‹ƒPƒ“ƒJƒbƒgƒCƒ“:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚·ãƒ¥ãƒ„ãƒ«ãƒ ãƒ•ã‚¡ãƒ«ã‚±ãƒ³ã‚«ãƒƒãƒˆã‚¤ãƒ³:
 PlaySound Sword.wav
 For i = 1 to 10
     Wait Start
     ClearPicture 0 0 479 479
     PaintPicture Anime\Back\EFFECT_Back(Pink)01.bmp - - 480 480
-    PaintPicture Cutin\NANOHA_Signum(SturmFalken)(Cutin).gif (-1 * 48 * (10 - i)) 0 480 360 “§‰ß
+    PaintPicture Cutin\NANOHA_Signum(SturmFalken)(Cutin).gif (-1 * 48 * (10 - i)) 0 480 360 é€é
     Refresh
     Wait Until 0.01
 Next
@@ -1402,7 +1402,7 @@ Next
 
 Return
 
-í“¬ƒAƒjƒ_ƒVƒ…ƒcƒ‹ƒ€ƒtƒ@ƒ‹ƒPƒ“ƒ`ƒƒ[ƒW:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚·ãƒ¥ãƒ„ãƒ«ãƒ ãƒ•ã‚¡ãƒ«ã‚±ãƒ³ãƒãƒ£ãƒ¼ã‚¸:
 
 PlaySound Charge(2).wav
 For i = 1 to 19
@@ -1421,12 +1421,12 @@ Wait 1
 Return 
 
 #_/_/_/_/_/
-#‚Í‚â‚Ä##
+#ã¯ã‚„ã¦##
 #_/_/_/_/_/
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
-í“¬ƒAƒjƒ_ƒ~ƒXƒgƒ‹ƒeƒBƒ“UŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸã‚¹ãƒˆãƒ«ãƒ†ã‚£ãƒ³æ”»æ’ƒ:
 Local i
 Local j
 Local ANG
@@ -1444,7 +1444,7 @@ Local C_X
 Local C_Y
 Local DRCT
 Local UID
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 
 _CenteringCheck UID
 Set C_X WX(UID)
@@ -1458,8 +1458,8 @@ Set G_S _GetName(48,_GetNumberFromArgs())
 Set W_X (C_X + 16 - (G_S \ 2))
 Set W_Y (C_Y + 16 - (G_S \ 2))
 
-Set X_F _GetCircumference(ANG,‚w)
-Set Y_F _GetCircumference(ANG,‚x)
+Set X_F _GetCircumference(ANG,ï¼¸)
+Set Y_F _GetCircumference(ANG,ï¼¹)
 Set DRCT _FlipVertical(ANG)
 
 
@@ -1471,15 +1471,15 @@ For i = 0 to 17
     _SelectSound "Beam.wav" _GetWavFromArgs()
   endsw
 ClearPicture
-  PaintPicture BMP_FILE (W_X + X_F) (W_Y + Y_F) G_S G_S “§‰ß DRCT ‰E‰ñ“] ANG _ColorTime(1)
+  PaintPicture BMP_FILE (W_X + X_F) (W_Y + Y_F) G_S G_S é€é DRCT å³å›è»¢ ANG _ColorTime(1)
 
-PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & i & ".bmp") (208 - 20 * Sin(0 / 0.954)) (208 - 20 * Cos(0 / 0.954)) “§‰ß ‰E‰ñ“] ANG
-PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 2) & ".bmp") (208 - 20 * Sin(1 / 0.954)) (208 - 20 * Cos(1 / 0.954)) “§‰ß ‰E‰ñ“] ANG
-PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 4) & ".bmp") (208 - 20 * Sin(4 / 0.954)) (208 - 20 * Cos(4 / 0.954)) “§‰ß ‰E‰ñ“] ANG
-PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 6) & ".bmp") (208 - 20 * Sin(2 / 0.954)) (208 - 20 * Cos(2 / 0.954)) “§‰ß ‰E‰ñ“] ANG
-PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 8) & ".bmp") 208 208 “§‰ß ‰E‰ñ“] ANG
-PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 10) & ".bmp") (208 - 20 * Sin(3 / 0.954)) (208 - 20 * Cos(3 / 0.954)) “§‰ß ‰E‰ñ“] ANG
-PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 12) & ".bmp") (208 - 20 * Sin(5 / 0.954)) (208 - 20 * Cos(5 / 0.954)) “§‰ß ‰E‰ñ“] ANG
+PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & i & ".bmp") (208 - 20 * Sin(0 / 0.954)) (208 - 20 * Cos(0 / 0.954)) é€é å³å›è»¢ ANG
+PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 2) & ".bmp") (208 - 20 * Sin(1 / 0.954)) (208 - 20 * Cos(1 / 0.954)) é€é å³å›è»¢ ANG
+PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 4) & ".bmp") (208 - 20 * Sin(4 / 0.954)) (208 - 20 * Cos(4 / 0.954)) é€é å³å›è»¢ ANG
+PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 6) & ".bmp") (208 - 20 * Sin(2 / 0.954)) (208 - 20 * Cos(2 / 0.954)) é€é å³å›è»¢ ANG
+PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 8) & ".bmp") 208 208 é€é å³å›è»¢ ANG
+PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 10) & ".bmp") (208 - 20 * Sin(3 / 0.954)) (208 - 20 * Cos(3 / 0.954)) é€é å³å›è»¢ ANG
+PaintPicture ("Anime\Beam\EFFECT_Beam" & B_C & "0" & (i - 12) & ".bmp") (208 - 20 * Sin(5 / 0.954)) (208 - 20 * Cos(5 / 0.954)) é€é å³å›è»¢ ANG
 
 Refresh
 Wait Until (0.6 * i)

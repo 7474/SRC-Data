@@ -1,20 +1,20 @@
 
 
-2011�N5��21��:
-	alias�̃p�C���b�g�ǂ݉����o�O�C�� (����)
+2011年5月21日:
+	aliasのパイロット読み仮名バグ修正 (霞薙)
 
 
 
 
 
 
-�C�t���܂���ł������A���̊Ԃɂ��퓬�A�j���̉摜�ɉΓ�e�Ⓑ������������ł��˂��B
-�e�A�j���[�V�����̓��A��������ύX���܂��B
+気付きませんでしたが、いつの間にか戦闘アニメの画像に火縄銃や長筒があったんですねえ。
+銃アニメーションの内、いくつかを変更します。
 
-��q�����Џe, �Γ�e
-���U�e�e, �r�[�����C�t�� Weapon\EFFECT_MatchlockGun01.bmp
-�����Џe, �r�[�����C�t�� Weapon\EFFECT_MatchlockGun01.bmp
-�挂(����), �Γ�e
-�挂�C, �V���b�g�K��  Weapon\EFFECT_MatchlockGun01.bmp
+種子島雷威銃, 火縄銃
+炎散弾銃, ビームライフル Weapon\EFFECT_MatchlockGun01.bmp
+炎雷威銃, ビームライフル Weapon\EFFECT_MatchlockGun01.bmp
+鉞撃(準備), 火縄銃
+鉞撃砲, ショットガン  Weapon\EFFECT_MatchlockGun01.bmp
 
-��ɉ��������퍑�`�Ƒ叫�R�҂������ꓯ�l�̕ύX�̗\��ł��B
+先に改訂した戦国伝と大将軍編もいずれ同様の変更の予定です。

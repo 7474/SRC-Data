@@ -1,264 +1,264 @@
 
-���҃��A
-���A, ALUND_Laa.bmp
+守護者ラア
+ラア, ALUND_Laa.bmp
 
-# ���߂ɃA�����h���ɘb�����������ҁB
-# �����̃��r�[�̖�͂����B
+# 初めにアランドラに話しかけた賢者。
+# 鳩血のルビーの紋章を持つ。
 
-���҃���
-����, ALUND_Vul.bmp
+守護者ヴル
+ヴル, ALUND_Vul.bmp
 
-# �C�ݐ��̓��A�ŃX�P�A�t�F�C�X���]���Ă������ҁB
-# �^�g�̃I�p�[���̖�͂����B
+# 海岸線の洞窟でスケアフェイスを従えていた賢者。
+# 真紅のオパールの紋章を持つ。
 
-���҃W��
-�W��, ALUND_Jil.bmp
+守護者ジル
+ジル, ALUND_Jil.bmp
 
-# ���U�[�h�}�����]����B���p�t�ɂ��ĂV���҂̈�l�B
-# �ɂ̃��s�X�̖�͂����B
+# リザードマンを従える錬金術師にして７賢者の一人。
+# 青碧のラピスの紋章を持つ。
 
-���҃���
-����, ALUND_Nv.bmp
+守護者ンヴ
+ンヴ, ALUND_Nv.bmp
 
-# ���܂̓��A���ɂ������ҁB�����̂悤�ł���B
-# ���F�̃A�Q�[�g�̖�͂����B
+# お袋の洞窟内にいた賢者。女性のようである。
+# 褐色のアゲートの紋章を持つ。
 
-�]���X�g�̃n���@��
-�n���@��, ALUND_Havan(N).bmp
+ゾリストのハヴァン
+ハヴァン, ALUND_Havan(N).bmp
 
-���҃n���@��
-�n���@��, ALUND_Havan.bmp
+守護者ハヴァン
+ハヴァン, ALUND_Havan.bmp
 
-# 300�N�����Ă��钷���̎푰�]���X�g�B�V���҂̈�l�B
-# ����̃_�C���̖�͂����B
+# 300年生きている長命の種族ゾリスト。７賢者の一人。
+# 白銀のダイヤの紋章を持つ。
 
-���_�j���[�h(�O��)
-�j���[�h, ALUND_Nilued(Wall).bmp
+巨神ニルード(外壁)
+ニルード, ALUND_Nilued(Wall).bmp
 
-# �j���[�h�̊O�Ǖ����B
+# ニルードの外壁部分。
 
-���̏����X�e�B�[�i
-�X�e�B�[�i, ALUND_Stina.bmp
+水の女王スティーナ
+スティーナ, ALUND_Stina.bmp
 
-# ���̗����ʂ��đS�Ă�m��d���̏����B���̐����������̂悤�Ȋi�D�����Ă���B
+# 水の流れを通じて全てを知る妖精の女王。翼の生えた女性のような格好をしている。
 
-��̐��҃x���D
-�x���D, ALUND_Bell.bmp
+印の聖者ベルゥ
+ベルゥ, ALUND_Bell.bmp
 
-# �_��̒n�Ŗ���J���Ă����l�B
+# 契約の地で門を開いてくれる人。
 
 ################################################################################
-# �C�m�A�̑��l
-# ���̃Q�[���ő�̓�ւ̈�A�l���������̊F����ł��B
-# �u���C���Y���|��܂����v�u�N����H�v
+# イノアの村人
+# このゲーム最大の難関の一つ、四文字村民の皆さんです。
+# 「ワインズが倒れました」「誰それ？」
 
-### �����̉�
+### 村長の家
 
-�C�m�A�̃r�C�[��
-�r�C�[��, ALUND_Bisen.bmp
+イノアのビイゼン
+ビイゼン, ALUND_Bisen.bmp
 
-# �C�m�A�̑����B�M�d�ȃn�Q�L�����ł���B�ێ�I�ȍl�������B
+# イノアの村長。貴重なハゲキャラである。保守的な考えを持つ。
 
-�C�m�A�̃g�X�e�A
-�g�X�e�A, ALUND_Tostea.bmp
+イノアのトステア
+トステア, ALUND_Tostea.bmp
 
-# �r�C�[���̍ȁB�e�������B
+# ビイゼンの妻。影が薄い。
 
-�C�m�A�̃c�[���X
-�c�[���X, ALUND_Toolas.bmp
+イノアのツーラス
+ツーラス, ALUND_Toolas.bmp
 
-# �r�C�[���̑��q�B���߂̓A�����h���ɗ₽�������邪�A��ɃA�����h�����q���ƔF�߂�B
+# ビイゼンの息子。初めはアランドラに冷たく当たるが、後にアランドラを子分と認める。
 
-### �A���[�X�̉�
+### アンゼスの家
 
-�C�m�A�̃A���[�X
-�A���[�X, ALUND_Ansess.bmp
+イノアのアンゼス
+アンゼス, ALUND_Ansess.bmp
 
-# �C�m�A�̒b�艮�B���������ʂ��тɐV��������������悤�ɂȂ�B
-# ���ՃA�����h������邽�߂Ƀ��G�C���_���ɒ��݁A�Ԃ蓢���ɂ����Ď��S����B
+# イノアの鍛冶屋。村民が死ぬたびに新しい道具を一つ作れるようになる。
+# 中盤アランドラを守るためにロエイン神父に挑み、返り討ちにあって死亡する。
 
-### ���@�[�h�̉�(���)
+### ヤァードの家(道具屋)
 
-�C�m�A�̃��@�[�h
-���@�[�h, ALUND_Yard.bmp
+イノアのヤァード
+ヤァード, ALUND_Yard.bmp
 
-# ����̎�l�B�򑐂�|�[�V�����̍ޗ����W�߂Ă���B
+# 道具屋の主人。薬草やポーションの材料を集めてくる。
 
-�C�m�A�̃m�E����
-�m�E����, ALUND_Nolan.bmp
+イノアのノウラン
+ノウラン, ALUND_Nolan.bmp
 
-# ���@�[�h�̍ȁB����̓X�Ԃ����Ă��鉸�₩�ȏ����B
+# ヤァードの妻。道具屋の店番をしている穏やかな女性。
 
-### ���X�e���̉�(�肢��)
+### ユステルの家(占い屋)
 
-�C�m�A�̃��X�e��
-���X�e��, ALUND_Ustel.bmp
+イノアのユステル
+ユステル, ALUND_Ustel.bmp
 
-# �肢�Ŏ��̖ړI�n�������Ă����V�k�B���łɉ񕜂����Ă����B
+# 占いで次の目的地を教えてくれる老婆。ついでに回復もしてくれる。
 
-### �V�[���̉�
+### シーラの家
 
-�C�m�A�̃V�[��
-�V�[��, ALUND_Sheila.bmp
+イノアのシーラ
+シーラ, ALUND_Sheila.bmp
 
-# �V���B���̕�B���S�l�̂悤�ł���B�F�l�̏��Ȃ��V���B���̂��Ƃ��C�ɂ����Ă���B
-# �I�ՁA�Ă������ɂ������ۂɎ��S����B
+# シヴィルの母。未亡人のようである。友人の少ないシヴィルのことを気にかけている。
+# 終盤、焼き討ちにあった際に死亡する。
 
-�C�m�A�̃V���B��
-�V���B��, ALUND_Civil.bmp
+イノアのシヴィル
+シヴィル, ALUND_Civil.bmp
 
-# �\�m�������邱�Ƃ��o���鏭���B�Q�Ă���Ƃ��ɂ͖������Ȃ����A�N���Ă���Ƃ��ɗ\
-# �m���������B�ڂ�������Ă���ȂǁA�ߊ�肪������ۂ����B
-# ���ՁA���G�C���_���Ɏ�̍���܂��Ď��S�B
+# 予知夢を見ることが出来る少女。寝ているときには夢を見ないが、起きているときに予
+# 知夢が現れる。目が据わっているなど、近寄りがたい印象を持つ。
+# 中盤、ロエイン神父に首の骨を折られて死亡。
 
-### �}�[�`�X�̉�
+### マーチスの家
 
-�C�m�A�̃}�[�`�X
-�}�[�`�X, ALUND_Marches.bmp
+イノアのマーチス
+マーチス, ALUND_Marches.bmp
 
-# �o�q�̏��N�����̕��e�B�e�͔����B�Ă������Ń����[�^�ɎE�����B
+# 双子の少年たちの父親。影は薄い。焼き討ちでムルータに殺される。
 
-�C�m�A�̃C���j�B
-�C���j�B, ALUND_Ilny.bmp
+イノアのイルニィ
+イルニィ, ALUND_Ilny.bmp
 
-# ��e�B�����Z���t�͂��邪�e�͔����B
+# 母親。少しセリフはあるが影は薄い。
 
-�C�m�A�̃x�O���X
-�x�O���X, ALUND_Vegurass.bmp
+イノアのベグラス
+ベグラス, ALUND_Vegurass.bmp
 
-# �o�q�̏��N�̌Z�B�����Ȑ��i�B�o�q�̖��͂Ȃ����Ă��āA��������������ɔ�����
-# ���Ƃ��o����B����������Ƌ����������Ǝv�����B
+# 双子の少年の兄。活発な性格。双子の夢はつながっていて、一方からもう一方に抜ける
+# ことが出来る。おそ松くんと共闘したいと思った。
 
-�C�m�A�̃l�X�^�X
-�l�X�^�X, ALUND_Nesstuss.bmp
+イノアのネスタス
+ネスタス, ALUND_Nesstuss.bmp
 
-# �o�q�̒�B���ƂȂ������i�B
+# 双子の弟。おとなしい性格。
 
-�C�m�A�̃��C���Y
-���C���Y, ALUND_Wines.bmp
+イノアのワインズ
+ワインズ, ALUND_Wines.bmp
 
-# �o�q�̑c���B�}�[�`�X�ƃC���j�B�̂ǂ���̐e�ł���̂��͂킩���Ă��Ȃ��B�I�ՏĂ�
-# �����ɂ������ۂɁA���S����B
+# 双子の祖父。マーチスとイルニィのどちらの親であるのかはわかっていない。終盤焼き
+# 討ちにあった際に、死亡する。
 
-### �{�[�W�X�̉�
+### ボージスの家
 
-�C�m�A�̃{�[�W�X
-�{�[�W�X, ALUND_Borges.bmp
+イノアのボージス
+ボージス, ALUND_Borges.bmp
 
-# �����T�[�e�B�ɗU�f����A����H���悤�Ƃ��Ă����j���B�C�P�����Ȃ̂ɖϑz�Ȃ���
-# ��A���������Ȃ��B�I�Ղ̏Ă������Ŏ��S����B
+# 夢魔サーティに誘惑され、魂を食われようとしていた男性。イケメンなのに妄想癖があ
+# り、もったいない。終盤の焼き討ちで死亡する。
 
-�C�m�A�̃��C�U��
-���C�U��, ALUND_Meisan.bmp
+イノアのメイザン
+メイザン, ALUND_Meisan.bmp
 
-# �{�[�W�X�̑c���B�����̎������߂��Ǝv������ł���B�I�Ղ̏Ă������Ŏ��S�������A
-# �N�����̂��Ƃɂ��ĐG��Ȃ��������킢�����Ȑl�B
+# ボージスの祖父。自分の死期が近いと思い込んでいる。終盤の焼き討ちで死亡したが、
+# 誰もそのことについて触れなかったかわいそうな人。
 
-### �����A�X�̉�
+### モラアスの家
 
-�C�m�A�̃i�[�V�A
-�i�[�V�A, ALUND_Nacia.bmp
+イノアのナーシア
+ナーシア, ALUND_Nacia.bmp
 
-# ����Ǝ��͂̕��̂��j�󂳂�Ă��܂��\�͂��������B���̂��ߖ��邱�Ƃ�����ł����B
-# �{�[�W�X�ƃi�[�V�A�͓����Ɉ����ɓ|�ꂽ���A�i�[�V�A�����邱�Ƃ����ۂ������߈���
-# �ɓ��ꂸ�A�{�[�W�X�̈��������Â��Ă��邠�����Ɏ��S���Ă��܂��B
+# 眠ると周囲の物体が破壊されてしまう能力を持つ女性。そのため眠ることを拒んでいた。
+# ボージスとナーシアは同時に悪夢に倒れたが、ナーシアが眠ることを拒否したため悪夢
+# に入れず、ボージスの悪夢を治療しているあいだに死亡してしまう。
 
-�C�m�A�̃����A�X
-�����A�X, ALUND_Molas.bmp
+イノアのモラアス
+モラアス, ALUND_Molas.bmp
 
-# �i�[�V�A�̑c��B�i�[�V�A�����ՂŎ��S���Ă���͂����ƃA�����h���ɗ₽����������
-# �����B���f�B�A���Ƀi�[�V�A�𓊉e���A���f�B�A�������ɂ���Ă��Ă���͏Z�܂킹��
-# ����B�I�ՂɏĂ������Ŏ��S�B
+# ナーシアの祖母。ナーシアが序盤で死亡してからはずっとアランドラに冷たく当たって
+# いた。メディアムにナーシアを投影し、メディアムが村にやってきてからは住まわせて
+# いる。終盤に焼き討ちで死亡。
 
-### �S�E�Z���̉�
+### ゴウセルの家
 
-�C�m�A�̃S�E�Z��
-�S�E�Z��, ALUND_Gowsel.bmp
+イノアのゴウセル
+ゴウセル, ALUND_Gowsel.bmp
 
-# �C�m�A�̑��l�A�M�S�[���A�_���^���A�����h���ƑΗ�����B�A�����h���𖲂̒��ɏ���
-# ���ꂽ�܂܎��S���邱�ƂŃA�����h���𑒂苎�낤�Ƃ��邪���s���A�ŏI�I�ɐ��_����
-# �E�𒴂��ďb�l�Ɖ������B���̌Ăт����Ől�̎p�ɖ߂邪����Ɏ��S�B
+# イノアの村人、信心深く、神を疑うアランドラと対立する。アランドラを夢の中に招き
+# 入れたまま死亡することでアランドラを葬り去ろうとするが失敗し、最終的に精神が限
+# 界を超えて獣人と化した。妹の呼びかけで人の姿に戻るが直後に死亡。
 
-�C�m�A�̃L�[�V��
-�L�[�V��, ALUND_Keyshia.bmp
+イノアのキーシャ
+キーシャ, ALUND_Keyshia.bmp
 
-# �S�E�Z���̖��B�I�[�����̗��l�ł������B���l�ƌZ���������A�Ō�܂ŋ��������ʂ��B
+# ゴウセルの妹。オーレンの恋人であった。恋人と兄を失うも、最後まで強く生きぬく。
 
-### �E�X�g�E�̉�
+### ウストウの家
 
-�C�m�A�̃E�X�g�E
-�E�X�g�E, ALUND_Ustou.bmp
+イノアのウストウ
+ウストウ, ALUND_Ustou.bmp
 
-# �𗐂̒��N�j�B�g�Q�t���S���u�N���b�V���[�v�����B�G���[���������ɓ|��Ă����
-# ����f�B
+# 酒乱の中年男。トゲ付鎖鉄球「クラッシャー」を持つ。エリーンが悪夢に倒れてからは
+# 酒を断つ。
 
-�C�m�A�̃G���[��
-�G���[��, ALUND_Elaine.bmp
+イノアのエリーン
+エリーン, ALUND_Elaine.bmp
 
-# �l�̐l�i����̑̂̒��ɂ��鏭���B�����ɓ|�ꂽ�ہA���̍\�������܂�ɂ����G��
-# ���������߂ɁA���f�B�A���ƃA�����h���������őΏ������B�l�̂����O�̐l�i�́A
-# ���̍ۂɏ��ł���B�I�Ղ̏Ă������Ŏ��S�B
+# 四つの人格が一つの体の中にある少女。悪夢に倒れた際、その構造があまりにも複雑で
+# あったために、メディアムとアランドラが共同で対処した。四つのうち三つの人格は、
+# その際に消滅する。終盤の焼き討ちで死亡。
 
-# �n�F���邢���i
-# ���F���₩�Œ��J
-# �΁F����ƂōU���I
-# �X�F�₽������ɖR����
+# 地：明るい性格
+# 水：穏やかで丁寧
+# 火：激情家で攻撃的
+# 氷：冷たく感情に乏しい
 
-### ���[�^�X�̉�
+### ルータスの家
 
-�C�m�A�̃��[�^�X
-���[�^�X, ALUND_Rootace.bmp
+イノアのルータス
+ルータス, ALUND_Rootace.bmp
 
-# �V���̎Ⴂ�j�B�M�����u����̓��ꌔ�������Ă���B��V�������A�͋�����ۂ�^����B
-# �ނ�����̖����]���ɂ��āA�A���[�X�ɐ����G���i�[�g����点��\�肾�����̂����A
-# �A���[�X����Ɏ��S�������߂ɍŌ�܂Ő����c�����B
+# 新婚の若い男。ギャンブル場の入場券を持っている。礼儀正しく、力強い印象を与える。
+# 彼が自らの命を犠牲にして、アンゼスに聖剣エルナートを作らせる予定だったのだが、
+# アンゼスが先に死亡したために最後まで生き残った。
 
-�C�m�A�̃t�F�C��
-�t�F�C��, ALUND_Phane.bmp
+イノアのフェイン
+フェイン, ALUND_Phane.bmp
 
-# ���[�^�X�̍ȁB�e�������B
+# ルータスの妻。影が薄い。
 
-### �Y�B�v����
+### 炭坑夫たち
 
-�C�m�A�̃k�B���_
-�k�B���_, ALUND_Nuinda.bmp
+イノアのヌィンダ
+ヌィンダ, ALUND_Nuinda.bmp
 
-# ���S�����Y�B�v�B
+# 死亡した炭坑夫。
 
-�C�m�A�̃��C�b�N
-���C�b�N, ALUND_Luick.bmp
+イノアのルイック
+ルイック, ALUND_Luick.bmp
 
-# ���S�����Y�B�v�B
+# 死亡した炭坑夫。
 
-�C�m�A�̃I�[����
-�I�[����, ALUND_Olen.bmp
+イノアのオーレン
+オーレン, ALUND_Olen.bmp
 
-# ���S�����Y�B�v�B�L�[�V���̗��l�ł������B
+# 死亡した炭坑夫。キーシャの恋人であった。
 
-�C�m�A�̃Y�[����
-�Y�[����, ALUND_Zoolim.bmp
+イノアのズーリム
+ズーリム, ALUND_Zoolim.bmp
 
-# ���S�����Y�B�v�B
+# 死亡した炭坑夫。
 
-### �P�C�g�X�̉�(���)
+### ケイトスの家(墓守)
 
-�]���X�g�̃P�C�g�X
-�P�C�g�X, ALUND_Keitos.bmp
+ゾリストのケイトス
+ケイトス, ALUND_Keitos.bmp
 
-# ��̂��ނ��̕��B���͒��N�𐶂���]���X�g���ł������B
+# 謎のせむしの墓守。実は長年を生きるゾリスト族であった。
 
-### �R���̓��
+### 崖下の道具屋
 
-����̃��[�o�X
-���[�o�X, ALUND_Lavas.bmp
+道具屋のラーバス
+ラーバス, ALUND_Lavas.bmp
 
-# �R�̉��œ�����c�ޘV�l�B�E�������̂��C�����Ĕ����Ă��邪�A���̂��Ƃ͔閧�ɂ�
-# �Ă���B������݂������蓪��@������ƁA�Ȃ����L�����p�^�[���������B
+# 崖の下で道具屋を営む老人。拾ったものを修理して売っているが、そのことは秘密にし
+# ている。くしゃみをしたり頭を叩いたりと、なぜかキャラパターンが多い。
 
-### ���_���I��
+### メダリオン
 
-�h���_�X�D��
-�h���_�X, ALUND_Doldus.bmp
+ドルダス船長
+ドルダス, ALUND_Doldus.bmp
 
-# OP�œ�j����D�̑D���B�C�m�A�ߕӂɗ��ꒅ���A���W��������𔄂��Ă���B
+# OPで難破する船の船長。イノア近辺に流れ着き、収集した財宝を売っている。
 

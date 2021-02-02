@@ -1,59 +1,59 @@
-#dí‹@ƒGƒ‹ƒKƒCƒ€ƒGƒtƒFƒNƒgƒf[ƒ^Ver0.9(2000/11ì¬)
-#‚±‚ê‚Í‚¨‚©‚µ‚¢‚ÆŒ¾‚¤‚à‚Ì‚ª‚ ‚ê‚Î‚²ˆê•ñ‚­‚¾‚³‚¢(^^;)Bby‚½‚­‚Ü˜V(QYQ01077@nifty.ne.jp)
+#é‡æˆ¦æ©Ÿã‚¨ãƒ«ã‚¬ã‚¤ãƒ ã‚¨ãƒ•ã‚§ã‚¯ãƒˆãƒ‡ãƒ¼ã‚¿Ver0.9(2000/11ä½œæˆ)
+#ã“ã‚Œã¯ãŠã‹ã—ã„ã¨è¨€ã†ã‚‚ã®ãŒã‚ã‚Œã°ã”ä¸€å ±ãã ã•ã„(^^;)ã€‚byãŸãã¾è€(QYQ01077@nifty.ne.jp)
 
 
-‚g‚l
-‚Q˜A‘•ƒƒ“ƒOƒ‰ƒ“ƒ`ƒƒ[, 1;Beam.wav;1;Beam.wav
-‚rƒ}ƒCƒ“ƒ`ƒƒ[ƒWƒƒ[, 2;Type.wav;5;Swing.wav
-ƒGƒlƒ‹ƒM[ƒ{ƒ“ƒo[, GunPod.wav
-ƒGƒlƒ‹ƒM[ƒ{ƒ“ƒo[(–½’†), Thunder.wav
-ƒGƒlƒ‹ƒM[ƒTƒbƒVƒ…, GunPod.wav
-ƒGƒlƒ‹ƒM[ƒTƒbƒVƒ…(–½’†), Thunder.wav
-ƒXƒ‚[ƒNƒfƒBƒXƒ`ƒƒ[ƒWƒƒ[, 2;Type.wav;5;Swing.wav
-ƒTƒCƒY(€”õ), BeamSaber.wav
-ƒXƒƒEƒXƒsƒA, Bow.wav
-ƒXƒƒEƒ‰ƒ“ƒT[, Bow.wav
-ƒXƒƒEƒ‰ƒ“ƒT[(MAP), MultipleRocketLauncher(Light).wav
-ƒXƒƒEƒ‰ƒ“ƒT[(MAP)(–½’†), 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav
-ƒZƒCƒo[ƒA[ƒ€, BeamSaber.wav
-ƒZƒCƒo[ƒtƒƒbƒK[(€”õ), BeamSaber.wav
-ƒZƒCƒo[ƒtƒƒbƒK[, Whiz.wav
-ƒZƒCƒo[ƒtƒƒbƒK[(–½’†), Whip.wav
-ƒ\[ƒhƒZƒCƒo[(€”õ), BeamSaber.wav
-ƒcƒCƒ“ƒoƒXƒ^[ƒ‰ƒ“ƒ`ƒƒ[(€”õ), Charge(Long).wav
-ƒcƒCƒ“ƒoƒXƒ^[ƒ‰ƒ“ƒ`ƒƒ[, Explode(Nuclear).wav
-ƒgƒŠƒvƒ‹ƒtƒƒbƒK[(€”õ), BeamSaber.wav
-ƒgƒŠƒvƒ‹ƒtƒƒbƒK[, Whiz.wav
-ƒgƒŠƒvƒ‹ƒtƒƒbƒK[(–½’†), Whip.wav
-ƒoƒCƒ“ƒ_[ƒpƒ[ƒ‰ƒ“ƒ`ƒƒ[, 1;Beam.wav;1;Beam.wav
-ƒnƒ“ƒhƒ‰ƒ“ƒ`ƒƒ[, Beam.wav
-ƒnƒ“ƒhƒ‰ƒ“ƒ`ƒƒ[(MAP), 1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav
-ƒoƒXƒ^[ƒ‰ƒ“ƒ`ƒƒ[(€”õ), Charge.wav
-ƒoƒXƒ^[ƒ‰ƒ“ƒ`ƒƒ[, Explode(Nuclear).wav
-ƒoƒXƒ^[ƒ‰ƒ“ƒ`ƒƒ[(Full)(€”õ), Charge(Long).wav
-ƒoƒXƒ^[ƒ‰ƒ“ƒ`ƒƒ[(Full), Explode(Nuclear).wav
-ƒtƒŒƒCƒ‹, Swing.wav
-ƒtƒŒƒCƒ‹(–½’†), Punch.wav
-ƒuƒŒƒCƒNƒZƒCƒo[(€”õ), BeamSaber.wav
-ƒ{ƒ“ƒo[ƒ†ƒjƒbƒg, MultipleRocketLauncher.wav
-ƒtƒŒ[ƒ€ƒ‰ƒ“ƒ`ƒƒ[, Fire.wav
-ƒ~ƒTƒCƒ‹, Micromissile.wav
-ƒŠƒo[ƒXƒ{ƒ}[, GunPod.wav
-ƒŠƒo[ƒXƒ{ƒ}[(–½’†), 1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav
-ƒŠƒ‚[ƒgƒoƒCƒ“ƒ_[, 3;Beam.wav;3;Beam.wav
-ƒŒ[ƒU[, BeamShot.wav
-ƒŒ[ƒU[ƒKƒ“, BeamShot.wav
-ƒŒ[ƒU[ƒ‰ƒ“ƒ`ƒƒ[, BeamShot.wav
-‘åŒ^ƒZƒCƒo[, BeamSaber.wav
-qƒp[ƒhƒi[, 3;Beam.wav;3;Beam.wav;3;Beam.wav
-‘ÎlƒŒ[ƒU[, BeamShot.wav
-‘½’e“ªƒ~ƒTƒCƒ‹, Micromissile.wav
-‘¾“ƒZƒCƒo[, BeamSaber.wav
+ï¼¨ï¼­
+ï¼’é€£è£…ãƒ­ãƒ³ã‚°ãƒ©ãƒ³ãƒãƒ£ãƒ¼, 1;Beam.wav;1;Beam.wav
+ï¼³ãƒã‚¤ãƒ³ãƒãƒ£ãƒ¼ã‚¸ãƒ£ãƒ¼, 2;Type.wav;5;Swing.wav
+ã‚¨ãƒãƒ«ã‚®ãƒ¼ãƒœãƒ³ãƒãƒ¼, GunPod.wav
+ã‚¨ãƒãƒ«ã‚®ãƒ¼ãƒœãƒ³ãƒãƒ¼(å‘½ä¸­), Thunder.wav
+ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚µãƒƒã‚·ãƒ¥, GunPod.wav
+ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚µãƒƒã‚·ãƒ¥(å‘½ä¸­), Thunder.wav
+ã‚¹ãƒ¢ãƒ¼ã‚¯ãƒ‡ã‚£ã‚¹ãƒãƒ£ãƒ¼ã‚¸ãƒ£ãƒ¼, 2;Type.wav;5;Swing.wav
+ã‚µã‚¤ã‚º(æº–å‚™), BeamSaber.wav
+ã‚¹ãƒ­ã‚¦ã‚¹ãƒ”ã‚¢, Bow.wav
+ã‚¹ãƒ­ã‚¦ãƒ©ãƒ³ã‚µãƒ¼, Bow.wav
+ã‚¹ãƒ­ã‚¦ãƒ©ãƒ³ã‚µãƒ¼(MAP), MultipleRocketLauncher(Light).wav
+ã‚¹ãƒ­ã‚¦ãƒ©ãƒ³ã‚µãƒ¼(MAP)(å‘½ä¸­), 1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav;1;Slash.wav
+ã‚»ã‚¤ãƒãƒ¼ã‚¢ãƒ¼ãƒ , BeamSaber.wav
+ã‚»ã‚¤ãƒãƒ¼ãƒ•ãƒ­ãƒƒã‚¬ãƒ¼(æº–å‚™), BeamSaber.wav
+ã‚»ã‚¤ãƒãƒ¼ãƒ•ãƒ­ãƒƒã‚¬ãƒ¼, Whiz.wav
+ã‚»ã‚¤ãƒãƒ¼ãƒ•ãƒ­ãƒƒã‚¬ãƒ¼(å‘½ä¸­), Whip.wav
+ã‚½ãƒ¼ãƒ‰ã‚»ã‚¤ãƒãƒ¼(æº–å‚™), BeamSaber.wav
+ãƒ„ã‚¤ãƒ³ãƒã‚¹ã‚¿ãƒ¼ãƒ©ãƒ³ãƒãƒ£ãƒ¼(æº–å‚™), Charge(Long).wav
+ãƒ„ã‚¤ãƒ³ãƒã‚¹ã‚¿ãƒ¼ãƒ©ãƒ³ãƒãƒ£ãƒ¼, Explode(Nuclear).wav
+ãƒˆãƒªãƒ—ãƒ«ãƒ•ãƒ­ãƒƒã‚¬ãƒ¼(æº–å‚™), BeamSaber.wav
+ãƒˆãƒªãƒ—ãƒ«ãƒ•ãƒ­ãƒƒã‚¬ãƒ¼, Whiz.wav
+ãƒˆãƒªãƒ—ãƒ«ãƒ•ãƒ­ãƒƒã‚¬ãƒ¼(å‘½ä¸­), Whip.wav
+ãƒã‚¤ãƒ³ãƒ€ãƒ¼ãƒ‘ãƒ¯ãƒ¼ãƒ©ãƒ³ãƒãƒ£ãƒ¼, 1;Beam.wav;1;Beam.wav
+ãƒãƒ³ãƒ‰ãƒ©ãƒ³ãƒãƒ£ãƒ¼, Beam.wav
+ãƒãƒ³ãƒ‰ãƒ©ãƒ³ãƒãƒ£ãƒ¼(MAP), 1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav
+ãƒã‚¹ã‚¿ãƒ¼ãƒ©ãƒ³ãƒãƒ£ãƒ¼(æº–å‚™), Charge.wav
+ãƒã‚¹ã‚¿ãƒ¼ãƒ©ãƒ³ãƒãƒ£ãƒ¼, Explode(Nuclear).wav
+ãƒã‚¹ã‚¿ãƒ¼ãƒ©ãƒ³ãƒãƒ£ãƒ¼(Full)(æº–å‚™), Charge(Long).wav
+ãƒã‚¹ã‚¿ãƒ¼ãƒ©ãƒ³ãƒãƒ£ãƒ¼(Full), Explode(Nuclear).wav
+ãƒ•ãƒ¬ã‚¤ãƒ«, Swing.wav
+ãƒ•ãƒ¬ã‚¤ãƒ«(å‘½ä¸­), Punch.wav
+ãƒ–ãƒ¬ã‚¤ã‚¯ã‚»ã‚¤ãƒãƒ¼(æº–å‚™), BeamSaber.wav
+ãƒœãƒ³ãƒãƒ¼ãƒ¦ãƒ‹ãƒƒãƒˆ, MultipleRocketLauncher.wav
+ãƒ•ãƒ¬ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼, Fire.wav
+ãƒŸã‚µã‚¤ãƒ«, Micromissile.wav
+ãƒªãƒãƒ¼ã‚¹ãƒœãƒãƒ¼, GunPod.wav
+ãƒªãƒãƒ¼ã‚¹ãƒœãƒãƒ¼(å‘½ä¸­), 1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav;1;Beam.wav
+ãƒªãƒ¢ãƒ¼ãƒˆãƒã‚¤ãƒ³ãƒ€ãƒ¼, 3;Beam.wav;3;Beam.wav
+ãƒ¬ãƒ¼ã‚¶ãƒ¼, BeamShot.wav
+ãƒ¬ãƒ¼ã‚¶ãƒ¼ã‚¬ãƒ³, BeamShot.wav
+ãƒ¬ãƒ¼ã‚¶ãƒ¼ãƒ©ãƒ³ãƒãƒ£ãƒ¼, BeamShot.wav
+å¤§å‹ã‚»ã‚¤ãƒãƒ¼, BeamSaber.wav
+å­ãƒ‘ãƒ¼ãƒ‰ãƒŠãƒ¼, 3;Beam.wav;3;Beam.wav;3;Beam.wav
+å¯¾äººãƒ¬ãƒ¼ã‚¶ãƒ¼, BeamShot.wav
+å¤šå¼¾é ­ãƒŸã‚µã‚¤ãƒ«, Micromissile.wav
+å¤ªåˆ€ã‚»ã‚¤ãƒãƒ¼, BeamSaber.wav
 
-‚r‚r
-‘Î‹óƒŒ[ƒU[, 1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav
-ƒ~ƒTƒCƒ‹, MultipleRocketLauncher.wav
-ƒ{ƒ“ƒo[ƒ†ƒjƒbƒg(€”õ), Type.wav
-ƒ{ƒ“ƒo[ƒ†ƒjƒbƒg, MultipleRocketLauncher.wav
-ƒoƒXƒ^[ƒ‰ƒ“ƒ`ƒƒ[(€”õ), Charge(Long).wav
-ƒoƒXƒ^[ƒ‰ƒ“ƒ`ƒƒ[, Explode(Nuclear).wav
+ï¼³ï¼³
+å¯¾ç©ºãƒ¬ãƒ¼ã‚¶ãƒ¼, 1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav;1;BeamShot.wav
+ãƒŸã‚µã‚¤ãƒ«, MultipleRocketLauncher.wav
+ãƒœãƒ³ãƒãƒ¼ãƒ¦ãƒ‹ãƒƒãƒˆ(æº–å‚™), Type.wav
+ãƒœãƒ³ãƒãƒ¼ãƒ¦ãƒ‹ãƒƒãƒˆ, MultipleRocketLauncher.wav
+ãƒã‚¹ã‚¿ãƒ¼ãƒ©ãƒ³ãƒãƒ£ãƒ¼(æº–å‚™), Charge(Long).wav
+ãƒã‚¹ã‚¿ãƒ¼ãƒ©ãƒ³ãƒãƒ£ãƒ¼, Explode(Nuclear).wav

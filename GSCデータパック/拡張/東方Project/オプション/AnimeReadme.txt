@@ -1,13 +1,13 @@
-�A�j���t�@�C����ł̕ϐ��̐����ł��B
+アニメファイル上での変数の説明です。
 
-�y�w�i�ύX�����z
+【背景変更制限】
 
-JPG�t�@�C���\��t���ȂǂŃ}�b�v�̔w�i��ύX���Ă���ꍇ�A
+JPGファイル貼り付けなどでマップの背景を変更している場合、
 
-Set �w�i�ύX���� 1
+Set 背景変更制限 1
 
-�̃R�}���h��ǉ����Ă��������B�w�i�ɉe����^����G�t�F�N�g�e��𕕈󂵂܂��B
+のコマンドを追加してください。背景に影響を与えるエフェクト各種を封印します。
 
-�yEPS_OpenSpell�z
+【EPS_OpenSpell】
 
-�}�b�v�R�}���h�u�J�n�X�y���A�j���ݒ�v�Ŏg���ϐ��ł��B
+マップコマンド「開始スペルアニメ設定」で使う変数です。

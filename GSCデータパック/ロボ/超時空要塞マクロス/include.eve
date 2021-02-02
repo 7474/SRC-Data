@@ -1,67 +1,67 @@
-#ƒA[ƒ}[ƒhƒoƒ‹ƒLƒŠ[ŒnŒ`‘ÔŠÇ—ƒCƒ“ƒNƒ‹[ƒh
+#ã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ãƒãƒ«ã‚­ãƒªãƒ¼ç³»å½¢æ…‹ç®¡ç†ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰
 
 
-#‚Ü‚¸‚ÍƒVƒiƒŠƒIŠJŽn‘O‚©‚ç–¡•û‚É‚¢‚é‹@‘Ì‚Ìˆ—
+#ã¾ãšã¯ã‚·ãƒŠãƒªã‚ªé–‹å§‹å‰ã‹ã‚‰å‘³æ–¹ã«ã„ã‚‹æ©Ÿä½“ã®å‡¦ç†
 
-*ƒvƒƒ[ƒO:
-Local ‚u 
-ForEach –¡•û ‘S‚Ä
-Switch Unit(‘ÎÛƒ†ƒjƒbƒg)
-Case ‚u‚e|‚P‚`ƒA[ƒ}[ƒhƒoƒ‹ƒLƒŠ[ ‚u‚e|‚P‚iƒA[ƒ}[ƒhƒoƒ‹ƒLƒŠ[ ‚u‚e|‚P‚rƒA[ƒ}[ƒhƒoƒ‹ƒLƒŠ[ ‚u‚e|‚P‚cƒA[ƒ}[ƒhƒoƒ‹ƒLƒŠ[ ‚u‚e|‚P‚`ƒA[ƒ}[ƒhƒKƒEƒH[ƒN ‚u‚e|‚P‚iƒA[ƒ}[ƒhƒKƒEƒH[ƒN ‚u‚e|‚P‚rƒA[ƒ}[ƒhƒKƒEƒH[ƒN ‚u‚e|‚P‚cƒA[ƒ}[ƒhƒKƒEƒH[ƒN
-Set ƒA[ƒ}ƒoƒ‹[‘ÎÛƒ†ƒjƒbƒg‚h‚c] Unit(‘ÎÛƒ†ƒjƒbƒg)
-#Talk ƒVƒXƒeƒ€
-#$(‘ÎÛƒ†ƒjƒbƒg)‚Ì‹@‘Ì‚Í$(ƒA[ƒ}ƒoƒ‹[‘ÎÛƒ†ƒjƒbƒg‚h‚c])
+*ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°:
+Local ï¼¶ 
+ForEach å‘³æ–¹ å…¨ã¦
+Switch Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ)
+Case ï¼¶ï¼¦ï¼ï¼‘ï¼¡ã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ãƒãƒ«ã‚­ãƒªãƒ¼ ï¼¶ï¼¦ï¼ï¼‘ï¼ªã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ãƒãƒ«ã‚­ãƒªãƒ¼ ï¼¶ï¼¦ï¼ï¼‘ï¼³ã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ãƒãƒ«ã‚­ãƒªãƒ¼ ï¼¶ï¼¦ï¼ï¼‘ï¼¤ã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ãƒãƒ«ã‚­ãƒªãƒ¼ ï¼¶ï¼¦ï¼ï¼‘ï¼¡ã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ã‚¬ã‚¦ã‚©ãƒ¼ã‚¯ ï¼¶ï¼¦ï¼ï¼‘ï¼ªã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ã‚¬ã‚¦ã‚©ãƒ¼ã‚¯ ï¼¶ï¼¦ï¼ï¼‘ï¼³ã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ã‚¬ã‚¦ã‚©ãƒ¼ã‚¯ ï¼¶ï¼¦ï¼ï¼‘ï¼¤ã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ã‚¬ã‚¦ã‚©ãƒ¼ã‚¯
+Set ã‚¢ãƒ¼ãƒžãƒãƒ«[å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤] Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ)
+#Talk ã‚·ã‚¹ãƒ†ãƒ 
+#$(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ)ã®æ©Ÿä½“ã¯$(ã‚¢ãƒ¼ãƒžãƒãƒ«[å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤])
 #End
-Case ‚u‚e|‚P‚iƒoƒgƒƒCƒh(‚`) ‚u‚e|‚P‚iƒKƒEƒH[ƒN(‚`) ‚u‚e|‚P‚iƒtƒ@ƒCƒ^[(‚`)
-Item ARROWƒ~ƒTƒCƒ‹ƒL[
-Equip ARROWƒ~ƒTƒCƒ‹ƒL[
-Case ‚u‚e|‚P‚`ƒoƒgƒƒCƒh(‚`) ‚u‚e|‚P‚`ƒKƒEƒH[ƒN(‚`) ‚u‚e|‚P‚`ƒtƒ@ƒCƒ^[(‚`)
-Item ARROWƒ~ƒTƒCƒ‹ƒL[
-Equip ARROWƒ~ƒTƒCƒ‹ƒL[
-Case ‚u‚e|‚P‚rƒoƒgƒƒCƒh(‚`) ‚u‚e|‚P‚rƒKƒEƒH[ƒN(‚`) ‚u‚e|‚P‚rƒtƒ@ƒCƒ^[(‚`)
-Item ARROWƒ~ƒTƒCƒ‹ƒL[
-Equip ARROWƒ~ƒTƒCƒ‹ƒL[
-Case ‚u‚e|‚P‚cƒoƒgƒƒCƒh(‚`) ‚u‚e|‚P‚cƒKƒEƒH[ƒN(‚`) ‚u‚e|‚P‚cƒtƒ@ƒCƒ^[(‚`)
-Item ARROWƒ~ƒTƒCƒ‹ƒL[
-Equip ARROWƒ~ƒTƒCƒ‹ƒL[
+Case ï¼¶ï¼¦ï¼ï¼‘ï¼ªãƒãƒˆãƒ­ã‚¤ãƒ‰(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼ªã‚¬ã‚¦ã‚©ãƒ¼ã‚¯(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼ªãƒ•ã‚¡ã‚¤ã‚¿ãƒ¼(ï¼¡)
+Item ARROWãƒŸã‚µã‚¤ãƒ«ã‚­ãƒ¼
+Equip ARROWãƒŸã‚µã‚¤ãƒ«ã‚­ãƒ¼
+Case ï¼¶ï¼¦ï¼ï¼‘ï¼¡ãƒãƒˆãƒ­ã‚¤ãƒ‰(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼¡ã‚¬ã‚¦ã‚©ãƒ¼ã‚¯(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼¡ãƒ•ã‚¡ã‚¤ã‚¿ãƒ¼(ï¼¡)
+Item ARROWãƒŸã‚µã‚¤ãƒ«ã‚­ãƒ¼
+Equip ARROWãƒŸã‚µã‚¤ãƒ«ã‚­ãƒ¼
+Case ï¼¶ï¼¦ï¼ï¼‘ï¼³ãƒãƒˆãƒ­ã‚¤ãƒ‰(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼³ã‚¬ã‚¦ã‚©ãƒ¼ã‚¯(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼³ãƒ•ã‚¡ã‚¤ã‚¿ãƒ¼(ï¼¡)
+Item ARROWãƒŸã‚µã‚¤ãƒ«ã‚­ãƒ¼
+Equip ARROWãƒŸã‚µã‚¤ãƒ«ã‚­ãƒ¼
+Case ï¼¶ï¼¦ï¼ï¼‘ï¼¤ãƒãƒˆãƒ­ã‚¤ãƒ‰(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼¤ã‚¬ã‚¦ã‚©ãƒ¼ã‚¯(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼¤ãƒ•ã‚¡ã‚¤ã‚¿ãƒ¼(ï¼¡)
+Item ARROWãƒŸã‚µã‚¤ãƒ«ã‚­ãƒ¼
+Equip ARROWãƒŸã‚µã‚¤ãƒ«ã‚­ãƒ¼
 EndSw
 Next
 Exit
 
 
-#ƒVƒiƒŠƒI’†‚Å¶¬‚³‚ê‚½‹@‘Ì‚Ìˆ—
+#ã‚·ãƒŠãƒªã‚ªä¸­ã§ç”Ÿæˆã•ã‚ŒãŸæ©Ÿä½“ã®å‡¦ç†
 
-*ƒ^[ƒ“ ‘S –¡•û:
-ForEach –¡•û
-Switch Unit(‘ÎÛƒ†ƒjƒbƒg)
-Case ‚u‚e|‚P‚`ƒA[ƒ}[ƒhƒoƒ‹ƒLƒŠ[ ‚u‚e|‚P‚iƒA[ƒ}[ƒhƒoƒ‹ƒLƒŠ[ ‚u‚e|‚P‚rƒA[ƒ}[ƒhƒoƒ‹ƒLƒŠ[ ‚u‚e|‚P‚cƒA[ƒ}[ƒhƒoƒ‹ƒLƒŠ[ ‚u‚e|‚P‚`ƒA[ƒ}[ƒhƒKƒEƒH[ƒN ‚u‚e|‚P‚iƒA[ƒ}[ƒhƒKƒEƒH[ƒN ‚u‚e|‚P‚rƒA[ƒ}[ƒhƒKƒEƒH[ƒN ‚u‚e|‚P‚cƒA[ƒ}[ƒhƒKƒEƒH[ƒN
-	Set ƒA[ƒ}ƒoƒ‹[‘ÎÛƒ†ƒjƒbƒg‚h‚c] Unit(‘ÎÛƒ†ƒjƒbƒg)
-Case ‚u‚e|‚P‚iƒoƒgƒƒCƒh(‚`) ‚u‚e|‚P‚iƒKƒEƒH[ƒN(‚`) ‚u‚e|‚P‚iƒtƒ@ƒCƒ^[(‚`) ‚u‚e|‚P‚`ƒoƒgƒƒCƒh(‚`) ‚u‚e|‚P‚`ƒKƒEƒH[ƒN(‚`) ‚u‚e|‚P‚`ƒtƒ@ƒCƒ^[(‚`) ‚u‚e|‚P‚rƒoƒgƒƒCƒh(‚`) ‚u‚e|‚P‚rƒKƒEƒH[ƒN(‚`) ‚u‚e|‚P‚rƒtƒ@ƒCƒ^[(‚`) ‚u‚e|‚P‚cƒoƒgƒƒCƒh(‚`) ‚u‚e|‚P‚cƒKƒEƒH[ƒN(‚`) ‚u‚e|‚P‚cƒtƒ@ƒCƒ^[(‚`)
-	If IsEquiped(‘ÎÛƒ†ƒjƒbƒg ARROWƒ~ƒTƒCƒ‹ƒL[)  = 0 Then
-	Item ARROWƒ~ƒTƒCƒ‹ƒL[
-	Equip ARROWƒ~ƒTƒCƒ‹ƒL[
+*ã‚¿ãƒ¼ãƒ³ å…¨ å‘³æ–¹:
+ForEach å‘³æ–¹
+Switch Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ)
+Case ï¼¶ï¼¦ï¼ï¼‘ï¼¡ã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ãƒãƒ«ã‚­ãƒªãƒ¼ ï¼¶ï¼¦ï¼ï¼‘ï¼ªã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ãƒãƒ«ã‚­ãƒªãƒ¼ ï¼¶ï¼¦ï¼ï¼‘ï¼³ã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ãƒãƒ«ã‚­ãƒªãƒ¼ ï¼¶ï¼¦ï¼ï¼‘ï¼¤ã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ãƒãƒ«ã‚­ãƒªãƒ¼ ï¼¶ï¼¦ï¼ï¼‘ï¼¡ã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ã‚¬ã‚¦ã‚©ãƒ¼ã‚¯ ï¼¶ï¼¦ï¼ï¼‘ï¼ªã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ã‚¬ã‚¦ã‚©ãƒ¼ã‚¯ ï¼¶ï¼¦ï¼ï¼‘ï¼³ã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ã‚¬ã‚¦ã‚©ãƒ¼ã‚¯ ï¼¶ï¼¦ï¼ï¼‘ï¼¤ã‚¢ãƒ¼ãƒžãƒ¼ãƒ‰ã‚¬ã‚¦ã‚©ãƒ¼ã‚¯
+	Set ã‚¢ãƒ¼ãƒžãƒãƒ«[å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤] Unit(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ)
+Case ï¼¶ï¼¦ï¼ï¼‘ï¼ªãƒãƒˆãƒ­ã‚¤ãƒ‰(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼ªã‚¬ã‚¦ã‚©ãƒ¼ã‚¯(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼ªãƒ•ã‚¡ã‚¤ã‚¿ãƒ¼(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼¡ãƒãƒˆãƒ­ã‚¤ãƒ‰(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼¡ã‚¬ã‚¦ã‚©ãƒ¼ã‚¯(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼¡ãƒ•ã‚¡ã‚¤ã‚¿ãƒ¼(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼³ãƒãƒˆãƒ­ã‚¤ãƒ‰(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼³ã‚¬ã‚¦ã‚©ãƒ¼ã‚¯(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼³ãƒ•ã‚¡ã‚¤ã‚¿ãƒ¼(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼¤ãƒãƒˆãƒ­ã‚¤ãƒ‰(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼¤ã‚¬ã‚¦ã‚©ãƒ¼ã‚¯(ï¼¡) ï¼¶ï¼¦ï¼ï¼‘ï¼¤ãƒ•ã‚¡ã‚¤ã‚¿ãƒ¼(ï¼¡)
+	If IsEquiped(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ ARROWãƒŸã‚µã‚¤ãƒ«ã‚­ãƒ¼)  = 0 Then
+	Item ARROWãƒŸã‚µã‚¤ãƒ«ã‚­ãƒ¼
+	Equip ARROWãƒŸã‚µã‚¤ãƒ«ã‚­ãƒ¼
 	Endif
 EndSw
 Next
 
-ForEach ‚u In ƒA[ƒ}ƒoƒ‹
-	RemoveItem ‚u ARROWƒ~ƒTƒCƒ‹ƒL[
+ForEach ï¼¶ In ã‚¢ãƒ¼ãƒžãƒãƒ«
+	RemoveItem ï¼¶ ARROWãƒŸã‚µã‚¤ãƒ«ã‚­ãƒ¼
 Next
 Exit
 
-#ƒp[ƒc‡‘Ì•ŠÇ—ƒAƒCƒeƒ€íœ
-*ƒGƒsƒ[ƒO:
-ForEach ‚u In ƒA[ƒ}ƒoƒ‹
-Transform ‚u ƒA[ƒ}ƒoƒ‹[‚u] 
-#Talk ƒVƒXƒeƒ€
-#$(‚u)‚Ì‹@‘Ì‚ð$(ƒA[ƒ}ƒoƒ‹[‚u])‚É•ÏŒ`‚µ‚Ü‚µ‚½
+#ãƒ‘ãƒ¼ãƒ„åˆä½“ï¼†ç®¡ç†ã‚¢ã‚¤ãƒ†ãƒ å‰Šé™¤
+*ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°:
+ForEach ï¼¶ In ã‚¢ãƒ¼ãƒžãƒãƒ«
+Transform ï¼¶ ã‚¢ãƒ¼ãƒžãƒãƒ«[ï¼¶] 
+#Talk ã‚·ã‚¹ãƒ†ãƒ 
+#$(ï¼¶)ã®æ©Ÿä½“ã‚’$(ã‚¢ãƒ¼ãƒžãƒãƒ«[ï¼¶])ã«å¤‰å½¢ã—ã¾ã—ãŸ
 #End
 Next
-ForEach –¡•û ‘S‚Ä
-If ‘ÎÛƒ†ƒjƒbƒg = "" Then
+ForEach å‘³æ–¹ å…¨ã¦
+If å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ = "" Then
 Skip
 Endif 
-RemoveItem ‘ÎÛƒ†ƒjƒbƒg ARROWƒ~ƒTƒCƒ‹ƒL[
+RemoveItem å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ ARROWãƒŸã‚µã‚¤ãƒ«ã‚­ãƒ¼
 Next
 Exit
 

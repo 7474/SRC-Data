@@ -1,8 +1,8 @@
-œƒCƒ“ƒNƒ‹[ƒhƒtƒ@ƒCƒ‹’Ç‰Á
-ƒƒKƒEƒBƒ“ƒOŽó‚¯“n‚µ‚ÌƒCƒ“ƒNƒ‹[ƒhƒtƒ@ƒCƒ‹§ì
-u–¼æ‚èvƒCƒ“ƒNƒ‹[ƒhƒtƒ@ƒCƒ‹‚Ì‹­‰»
+â—ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ãƒ•ã‚¡ã‚¤ãƒ«è¿½åŠ 
+ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚°å—ã‘æ¸¡ã—ã®ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ãƒ•ã‚¡ã‚¤ãƒ«åˆ¶ä½œ
+ã€Œåä¹—ã‚Šã€ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ãƒ•ã‚¡ã‚¤ãƒ«ã®å¼·åŒ–
 
-œuƒƒKƒŒƒ“ƒWƒƒ[ƒeƒXƒgv‚Ì‘O‚É
-White.bmp‚ðsrc\bitmap\event\
-Ten.jpg‚ðSrc\bitmap\cutin\
-‚»‚ê‚¼‚êˆÈã‚ÌƒtƒHƒ‹ƒ_‚É“ü‚ê‚Ä‚¨‚¢‚Ä‚­‚¾‚³‚¢B
+â—ã€Œãƒ¡ã‚¬ãƒ¬ãƒ³ã‚¸ãƒ£ãƒ¼ãƒ†ã‚¹ãƒˆã€ã®å‰ã«
+White.bmpã‚’src\bitmap\event\
+Ten.jpgã‚’Src\bitmap\cutin\
+ãã‚Œãžã‚Œä»¥ä¸Šã®ãƒ•ã‚©ãƒ«ãƒ€ã«å…¥ã‚Œã¦ãŠã„ã¦ãã ã•ã„ã€‚

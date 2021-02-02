@@ -1,16 +1,16 @@
 
-�퓬�A�j��_SEN01_�^�[�Q�b�g�ύX�U��:
-# �����uSEN01_�^�[�Q�b�g�ύX (�U�����鑤�p�C���b�g��) (����鑤�p�C���b�g��)�v
+戦闘アニメ_SEN01_ターゲット変更攻撃:
+# 書式「SEN01_ターゲット変更 (攻撃する側パイロット名) (される側パイロット名)」
 
 Select Args(1)
 SelectTarget Args(2)
 Return
 
-# �������m�ōU�������邽�߂̃��x���B
+# 味方同士で攻撃させるためのラベル。
 
 
-�퓬�A�j��_SEN01_�^�[�Q�b�g�ۑ��U��:
-Set SEN01_�^�[�Q�b�g ���胆�j�b�g�h�c
+戦闘アニメ_SEN01_ターゲット保存攻撃:
+Set SEN01_ターゲット 相手ユニットＩＤ
 Return
 
-# �N���{���̍U���Ώۂ���������ϐ��uSEN01_�^�[�Q�b�g�v�ɕۑ����Ă������߂̃��x��
+# 誰が本来の攻撃対象だったかを変数「SEN01_ターゲット」に保存しておくためのラベル

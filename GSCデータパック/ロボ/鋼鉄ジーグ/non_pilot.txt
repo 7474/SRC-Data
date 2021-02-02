@@ -1,71 +1,71 @@
-#������������������������������������������������������������������������������������������
-# �p�C���b�g�\��W
+#─────────────────────────────────────────────
+# パイロット表情集
 
-�|�S�W�[�O(�U��)
-�|�S�W�[�O, JEEG_Jeeg(A).bmp
+鋼鉄ジーグ(攻撃)
+鋼鉄ジーグ, JEEG_Jeeg(A).bmp
 
-�|�S�W�[�O(�_���[�W)
-�|�S�W�[�O, JEEG_Jeeg(D).bmp
+鋼鉄ジーグ(ダメージ)
+鋼鉄ジーグ, JEEG_Jeeg(D).bmp
 
-�|�S�W�[�O(�w�b�h)
-�|�S�W�[�O, JEEG_Jeeg(Head).bmp
+鋼鉄ジーグ(ヘッド)
+鋼鉄ジーグ, JEEG_Jeeg(Head).bmp
 
-���㌕��
-����, JEEGG_KusanagiKenji.bmp
-# ���̋Z�_�C�A���O�p�Ɏw�肵�Ă����B�t�@�C�����͉��B
+草薙剣児
+剣児, JEEGG_KusanagiKenji.bmp
+# 合体技ダイアログ用に指定しておく。ファイル名は仮。
 
-#������������������������������������������������������������������������������������������
+#─────────────────────────────────────────────
 
-�i�n��
-��, JEEG_ShibaHiroshi.bmp
+司馬宙
+宙, JEEG_ShibaHiroshi.bmp
 
-�T�C�{�[�O��
-��, JEEG_CyborgHiroshi.bmp
+サイボーグ宙
+宙, JEEG_CyborgHiroshi.bmp
 
-�V�T�C�{�[�O��
-��, JEEG_NewCyborgHiroshi.bmp
+新サイボーグ宙
+宙, JEEG_NewCyborgHiroshi.bmp
 
-�i�n�J���Y
-�J���Y, JEEG_ShibaSenjirou(2).bmp
+司馬遷次郎
+遷次郎, JEEG_ShibaSenjirou(2).bmp
 
-�}�V���t�@�[�U�[
-�}�V���t�@�[�U�[, JEEG_MachineFather.bmp
+マシンファーザー
+マシンファーザー, JEEG_MachineFather.bmp
 
-�i�n�e�]
-�e�], JEEG_ShibaKikue.bmp
+司馬菊江
+菊江, JEEG_ShibaKikue.bmp
 
-# �v�E�J���Y�S�����Ƃ��i�n�Ƃ��x�����B
-# �����ז��剤���Ƃ̐킢�̂��ߗ��炪���Ȃ��Ƃ�A���܂Ƀ��[�X�ɏo�Ă��W�Q�ɂ���
-# ���ĂȂ����ƂȂǂ����R�Ǝv���邪�A�i�n�Ƃ̉ƌv�͉΂̎Ԃł���B
-# ��炵�̑����ɂ��ׂ����x�������ɏo�悤�Ƃ�����̂́A
-# ���������̗͂ŉƑ���{�����Ƃɂ�����邽�߁A���̂��тɘA��߂���Ă��܂��B
+# 夫・遷次郎亡きあとも司馬家を支える母。
+# 宙が邪魔大王国との戦いのため留守がちなことや、たまにレースに出ても妨害にあい
+# 勝てないことなどが理由と思われるが、司馬家の家計は火の車である。
+# 暮らしの足しにすべく何度か働きに出ようとするものの、
+# 宙が自分の力で家族を養うことにこだわるため、そのたびに連れ戻されてしまう。
 
-�i�n�܂��
-�܂��, JEEG_ShibaMayumi.bmp
+司馬まゆみ
+まゆみ, JEEG_ShibaMayumi.bmp
 
-# ���̖��ŗc�t�����B
-# �|�S�W�[�O�̐��̂��Z�ł��邱�Ƃ́A���ׂĂ��I�������Œm�邱�ƂɂȂ�B
+# 宙の妹で幼稚園児。
+# 鋼鉄ジーグの正体が兄であることは、すべてが終わった後で知ることになる。
 
-�嗘����
-�_�C������, JEEG_Dairi.bmp
+大利所長
+ダイリ所長, JEEG_Dairi.bmp
 
-# �i�n�J���Y�̎���A�r���h�x�[�X����鏊���B
-# �����ƌ����Ă��A�J���Y�̋L���Ɛl�i�����}�V���t�@�[�U�[�����邽�߉e���������A
-# �Ƃ��Ƀ}�V���t�@�[�U�[���v�������Ȃ��悤�Ȕ���������D�G�ȉȊw�ҁB
+# 司馬遷次郎の死後、ビルドベースを守る所長。
+# 所長と言っても、遷次郎の記憶と人格を持つマシンファーザーがいるため影が薄いが、
+# ときにマシンファーザーが思いもつかないような発明をする優秀な科学者。
 
-�`�r(�W�[�O)
-�`�r, JEEG_Chibi.bmp
+チビ(ジーグ)
+チビ, JEEG_Chibi.bmp
 
-# �����u��叫�v�ƌĂԁA�i�n���[�^�[�X�B��̏Z�ݍ��ݏ]�ƈ��B
-# �{���s���B��l�́u�I�C���v
+# 宙を「若大将」と呼ぶ、司馬モータース唯一の住み込み従業員。
+# 本名不明。一人称「オイラ」
 
-�Q��(�W�[�O)
-�Q��, JEEG_Gera.bmp
+ゲラ(ジーグ)
+ゲラ, JEEG_Gera.bmp
 
-# ���̕s���̓䐶���B
-# �E�T�M�ƃ��O�����������킹���悤�ȊO���ŁA�Ȃ����l���b���B
-# ���Ԃ̓��O���ɋ߂��悤�ŁA�n�ʂ���ˑR����邱�Ƃ������B
+# 正体不明の謎生物。
+# ウサギとモグラをかけあわせたような外見で、なぜか人語を話す。
+# 生態はモグラに近いようで、地面から突然現れることが多い。
 #
-# �h���ƃp���`���̎��s���΂��A��l��n���ɂ���̂���Ȗ����ŁA
-# ����ȊO�̃L�����Ƃ͂܂��������܂Ȃ��B
+# ドンとパンチョの失敗を笑い、二人を馬鹿にするのが主な役割で、
+# それ以外のキャラとはまったく絡まない。
 

@@ -1,75 +1,75 @@
 
-���A���앐�F
-���A��, PROGD_MakutudohNobuhiko.bmp
+魔窟堂野武彦
+魔窟堂, PROGD_MakutudohNobuhiko.bmp
 
-�_�l(����Ȃ��)
-�_�l, PROGD_God-IyanaYatu.bmp
+神様(いやなやつ)
+神様, PROGD_God-IyanaYatu.bmp
 
-#�ǂ�����Ƃ��Ȃ��������Ă���_�i�����H�j�̐��̎�B
-#��݂�p�̂�������[�v�������P�R�K�i�̋߂��ŉ�����������Ă���B
-
-
-�P��ؑ��
-�P��ؔ��m, PROGD_HimeyagiDaigo.bmp
-
-#�u�������́A���E�̕󂾁I�I(�G�͏���)�v�u���Ⴀ�j�́H�v
-#�u���Օi���I�v�i�S�{�p�j
-#�E�E�Ƃ܂��A���̂悤�Ȓj�炵�����i�̐l�ł��B�����̕��ł��B
+#どこからともなく聞こえてくる神（悪魔？）の声の主。
+#首吊り用のわっかロープがついた１３階段の近くで猿藤を見守っている。
 
 
-�^�g���K�N�P
-�K�N, PROGD_Rose1.bmp
+姫夜木大吾
+姫夜木博士, PROGD_HimeyagiDaigo.bmp
 
-�^�g���K�N�Q
-�K�N, PROGD_Rose2.bmp
-
-�^�g���K�N�R
-�K�N, PROGD_Rose3.bmp
-
-�^�g���K�N�S
-�K�N, PROGD_Rose4.bmp
-
-#���[�Y�E�u���U�[�h�p���K�N�O���t�B�b�N�B
+#「美少女は、世界の宝だ！！(敵は除く)」「じゃあ男は？」
+#「消耗品だ！」（４倍角）
+#・・とまあ、このような男らしい性格の人です。紫音の父です。
 
 
-�E��
-�E��, PROGD_Ukyou.bmp
+真紅の薔薇１
+薔薇, PROGD_Rose1.bmp
 
-#�P��،������ŕP��ؔ��m�ɃR�L�g����H����Z��̒�B
-#�����閈�ɉ����ɔn���ɂ���A�P��ؔ��m�ɂ͌��Ȏd�������������Ă���B
+真紅の薔薇２
+薔薇, PROGD_Rose2.bmp
 
-����
-����, PROGD_Sakyou.bmp
+真紅の薔薇３
+薔薇, PROGD_Rose3.bmp
 
-#�P��،������ŕP��ؔ��m�ɃR�L�g����H����Z��̌Z�ҁB
-#�ڍׂ͓���B
+真紅の薔薇４
+薔薇, PROGD_Rose4.bmp
 
-
-�^ꟑ��
-���, PROGD_SingyouDaisaku.bmp
-
-#���O�ɃA�b�T���ƃm���ꂽ�������D���ҁB���󗬕��p�̎g����B
-#���󗬊ْ��A�[�R����Y�̒�q���Ǝv����B
+#ローズ・ブリザード用の薔薇グラフィック。
 
 
-�[�R����Y
-�[�R, PROGD_FukayamaKojirou.bmp
+右京
+右京, PROGD_Ukyou.bmp
 
-#�^ꟑ�삪�o�Ă�̂ŁA��芸�����������o���Ă݂܂����B
-#���󗬕��p����������󗬊قْ̊��炵���ł��B
-#���O�̌Z�Ƃ��߂��������A���O�̌Z���i���Z�E����Ǖ����������ł��B
+#姫夜木研究所で姫夜木博士にコキ使われる工作員兄弟の弟。
+#事ある毎に猿藤に馬鹿にされ、姫夜木博士には嫌な仕事を押しつけられている。
 
-���ގq(�o�f)
-���ގq, PROGD_Minako.bmp
+左京
+左京, PROGD_Sakyou.bmp
 
-#�P��،������̃I�y���[�^�[�B���K�l�������Ă���B
-#�����������������m��Ȃ����E�E�E���͊o���Ă��܂���B
+#姫夜木研究所で姫夜木博士にコキ使われる工作員兄弟の兄者。
+#詳細は同上。
 
 
-�F���l(�o�f)
-�F���l, PROGD_Alien.bmp
+真堯大作
+大作, PROGD_SingyouDaisaku.bmp
 
-#���̖��̒ʂ�F���l�ł��B�P��؋��q���^�N���b�Z�C�o�[�P�̂��Ƃ���
-#���j�����Ƃ�����Ȃ��A���ł��B�i�����炭��P�������̂ł��傤���j
-#������͎����ł͐킢�܂���B�����A���b�𑀂��čU�����Ă��܂��B
+#牡丹にアッサリとノされた武道大会優勝者。光烈流武術の使い手。
+#光烈流館長、深山小二郎の弟子だと思われる。
+
+
+深山小二郎
+深山, PROGD_FukayamaKojirou.bmp
+
+#真堯大作が出てるので、取り敢えずこいつも出してみました。
+#光烈流武術を教える光烈流館の館長らしいです。
+#牡丹の兄ともめたあげく、牡丹の兄を格闘技界から追放したそうです。
+
+美奈子(ＰＧ)
+美奈子, PROGD_Minako.bmp
+
+#姫夜木研究所のオペレーター。メガネをかけている。
+#名字があったかも知れないが・・・私は覚えていません。
+
+
+宇宙人(ＰＧ)
+宇宙人, PROGD_Alien.bmp
+
+#その名の通り宇宙人です。姫夜木京子＆真クレッセイバー１体ごときに
+#撃破されるという情けない連中です。（おそらく奇襲だったのでしょうが）
+#こいつらは自分では戦いません。ただ、怪獣を操って攻撃してきます。
 

@@ -1,24 +1,24 @@
 
-######EƒGƒLƒhƒi‚ÌŽç‚èŽèÄŒ»ƒCƒ“ƒNƒ‹[ƒh
-#@@‚±‚ÌƒCƒ“ƒNƒ‹[ƒh‚ð“Ç‚Ýž‚Þ‚ÆA“úŒüˆ¨‚ÍíŽžA”ª“ª÷Žq‚É‘Î‚µ‚Ä
-#@‚Ý‚ª‚í‚è‚ð”­“®‚µ‚Ä‚¢‚éó‘Ô‚É‚È‚è‚Ü‚·B
-#@@Žg—p‚·‚éÛ‚ÍA‚Ý‚ª‚í‚è‚ªíŽž”­“®‚µ‚Ä‚¢‚é‚±‚Æ‚ðà–¾‚µ‚½‚Ù‚¤‚ª‚¢‚¢‚Å‚µ‚å‚¤B
+######ãƒ»ã‚¨ã‚­ãƒ‰ãƒŠã®å®ˆã‚Šæ‰‹å†ç¾ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰
+#ã€€ã€€ã“ã®ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã‚’èª­ã¿è¾¼ã‚€ã¨ã€æ—¥å‘è‘µã¯å¸¸æ™‚ã€å…«é ­æ¡œå­ã«å¯¾ã—ã¦
+#ã€€ã¿ãŒã‚ã‚Šã‚’ç™ºå‹•ã—ã¦ã„ã‚‹çŠ¶æ…‹ã«ãªã‚Šã¾ã™ã€‚
+#ã€€ã€€ä½¿ç”¨ã™ã‚‹éš›ã¯ã€ã¿ãŒã‚ã‚ŠãŒå¸¸æ™‚ç™ºå‹•ã—ã¦ã„ã‚‹ã“ã¨ã‚’èª¬æ˜Žã—ãŸã»ã†ãŒã„ã„ã§ã—ã‚‡ã†ã€‚
 
-*ƒ^[ƒ“ ‘S ‘S:
+*ã‚¿ãƒ¼ãƒ³ å…¨ å…¨:
 
-If (Status(”ª“ª÷Žq) != oŒ‚) Or (Unit(”ª“ª÷Žq) = “úŒüˆ¨(ƒGƒLƒhƒi—Z‡)) Exit
-If (Status(“úŒüˆ¨) != oŒ‚) Exit
+If (Status(å…«é ­æ¡œå­) != å‡ºæ’ƒ) Or (Unit(å…«é ­æ¡œå­) = æ—¥å‘è‘µ(ã‚¨ã‚­ãƒ‰ãƒŠèžåˆ)) Exit
+If (Status(æ—¥å‘è‘µ) != å‡ºæ’ƒ) Exit
 
-If SpecialPower(”ª“ª÷Žq,‚Ý‚ª‚í‚è) = 0 Then
-	SpecialPower “úŒüˆ¨ ‚Ý‚ª‚í‚è ”ª“ª÷Žq
+If SpecialPower(å…«é ­æ¡œå­,ã¿ãŒã‚ã‚Š) = 0 Then
+	SpecialPower æ—¥å‘è‘µ ã¿ãŒã‚ã‚Š å…«é ­æ¡œå­
 Endif
 
 Exit
 
-*UŒ‚Œã ”ª“ª÷Žq ‘S:
+*æ”»æ’ƒå¾Œ å…«é ­æ¡œå­ å…¨:
 
-If SpecialPower(”ª“ª÷Žq,‚Ý‚ª‚í‚è) = 0 Then
-	SpecialPower “úŒüˆ¨ ‚Ý‚ª‚í‚è ”ª“ª÷Žq
+If SpecialPower(å…«é ­æ¡œå­,ã¿ãŒã‚ã‚Š) = 0 Then
+	SpecialPower æ—¥å‘è‘µ ã¿ãŒã‚ã‚Š å…«é ­æ¡œå­
 Endif
 
 Exit

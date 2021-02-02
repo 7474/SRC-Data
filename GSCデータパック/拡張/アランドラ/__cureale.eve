@@ -1,33 +1,33 @@
 
-# ƒLƒ…ƒAƒG[ƒ‹‚ð—LŒø‚É‚·‚éƒTƒuƒ‹[ƒ`ƒ“B
-# ƒLƒ…ƒAƒG[ƒ‹‚ðƒVƒiƒŠƒI’†‚Éo‚·ê‡‚ÍA‰º‚Ì‘Ž®‚Å•K‚¸‚±‚Ìeve‚ðƒCƒ“ƒNƒ‹[ƒh‚µ‚Ä‚­‚¾‚³‚¢B
+# ã‚­ãƒ¥ã‚¢ã‚¨ãƒ¼ãƒ«ã‚’æœ‰åŠ¹ã«ã™ã‚‹ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³ã€‚
+# ã‚­ãƒ¥ã‚¢ã‚¨ãƒ¼ãƒ«ã‚’ã‚·ãƒŠãƒªã‚ªä¸­ã«å‡ºã™å ´åˆã¯ã€ä¸‹ã®æ›¸å¼ã§å¿…ãšã“ã®eveã‚’ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã—ã¦ãã ã•ã„ã€‚
 
-# ‘Ž®
+# æ›¸å¼
 # <data\aranndora\__cureale.eve>
 
-*Žg—p –¡•û ƒLƒ…ƒAƒG[ƒ‹(ƒAƒ‰ƒ“ƒhƒ‰):
-*Žg—p ‚m‚o‚b ƒLƒ…ƒAƒG[ƒ‹(ƒAƒ‰ƒ“ƒhƒ‰):
-*Žg—p “G ƒLƒ…ƒAƒG[ƒ‹(ƒAƒ‰ƒ“ƒhƒ‰):
-*Žg—p ’†—§ ƒLƒ…ƒAƒG[ƒ‹(ƒAƒ‰ƒ“ƒhƒ‰):
+*ä½¿ç”¨ å‘³æ–¹ ã‚­ãƒ¥ã‚¢ã‚¨ãƒ¼ãƒ«(ã‚¢ãƒ©ãƒ³ãƒ‰ãƒ©):
+*ä½¿ç”¨ ï¼®ï¼°ï¼£ ã‚­ãƒ¥ã‚¢ã‚¨ãƒ¼ãƒ«(ã‚¢ãƒ©ãƒ³ãƒ‰ãƒ©):
+*ä½¿ç”¨ æ•µ ã‚­ãƒ¥ã‚¢ã‚¨ãƒ¼ãƒ«(ã‚¢ãƒ©ãƒ³ãƒ‰ãƒ©):
+*ä½¿ç”¨ ä¸­ç«‹ ã‚­ãƒ¥ã‚¢ã‚¨ãƒ¼ãƒ«(ã‚¢ãƒ©ãƒ³ãƒ‰ãƒ©):
 
-If SpecialPower(‘ÎÛƒ†ƒjƒbƒg‚h‚c,•œŠˆ) = 0 Then
-@@@@SpecialPower ‘ÎÛƒ†ƒjƒbƒg‚h‚c •œŠˆ
+If SpecialPower(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,å¾©æ´») = 0 Then
+ã€€ã€€ã€€ã€€SpecialPower å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ å¾©æ´»
 Else
-@@@@AutoTalk ƒVƒXƒeƒ€
-@@@@Žg—p‚µ‚Ä‚àŒø‰Ê‚ª‚ ‚è‚Ü‚¹‚ñB
-@@@@End
-@@@@Cancel
-@@@@Action(‘ÎÛƒ†ƒjƒbƒg‚h‚c) = (Action(‘ÎÛƒ†ƒjƒbƒg‚h‚c) + 1)
+ã€€ã€€ã€€ã€€AutoTalk ã‚·ã‚¹ãƒ†ãƒ 
+ã€€ã€€ã€€ã€€ä½¿ç”¨ã—ã¦ã‚‚åŠ¹æžœãŒã‚ã‚Šã¾ã›ã‚“ã€‚
+ã€€ã€€ã€€ã€€End
+ã€€ã€€ã€€ã€€Cancel
+ã€€ã€€ã€€ã€€Action(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) = (Action(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) + 1)
 EndIf
 
 Exit
 
-*Žg—pŒã –¡•û ƒLƒ…ƒAƒG[ƒ‹(ƒAƒ‰ƒ“ƒhƒ‰):
-*Žg—pŒã ‚m‚o‚b ƒLƒ…ƒAƒG[ƒ‹(ƒAƒ‰ƒ“ƒhƒ‰):
-*Žg—pŒã “G ƒLƒ…ƒAƒG[ƒ‹(ƒAƒ‰ƒ“ƒhƒ‰):
-*Žg—pŒã ’†—§ ƒLƒ…ƒAƒG[ƒ‹(ƒAƒ‰ƒ“ƒhƒ‰):
+*ä½¿ç”¨å¾Œ å‘³æ–¹ ã‚­ãƒ¥ã‚¢ã‚¨ãƒ¼ãƒ«(ã‚¢ãƒ©ãƒ³ãƒ‰ãƒ©):
+*ä½¿ç”¨å¾Œ ï¼®ï¼°ï¼£ ã‚­ãƒ¥ã‚¢ã‚¨ãƒ¼ãƒ«(ã‚¢ãƒ©ãƒ³ãƒ‰ãƒ©):
+*ä½¿ç”¨å¾Œ æ•µ ã‚­ãƒ¥ã‚¢ã‚¨ãƒ¼ãƒ«(ã‚¢ãƒ©ãƒ³ãƒ‰ãƒ©):
+*ä½¿ç”¨å¾Œ ä¸­ç«‹ ã‚­ãƒ¥ã‚¢ã‚¨ãƒ¼ãƒ«(ã‚¢ãƒ©ãƒ³ãƒ‰ãƒ©):
 
-ClearStatus ‘ÎÛƒ†ƒjƒbƒg‚h‚c ‚r‚o•œŠˆ•t‰Á
+ClearStatus å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ ï¼³ï¼°å¾©æ´»ä»˜åŠ 
 
 Exit
 

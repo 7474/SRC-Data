@@ -1,65 +1,65 @@
-#������x�A�g��ꂻ���ȃL�����݂̂ł�#
+#ある程度、使われそうなキャラのみです#
 
-#�J���g���@#
-�J���g�m(WIZ�m�x���Y)
-�J���g�m, WIZN_CantPriest.bmp
+#カント寺院#
+カント僧(WIZノベルズ)
+カント僧, WIZN_CantPriest.bmp
 
-�J���g�i��(WIZ�m�x���Y)
-�J���g�i��, WIZN_CantBishop.bmp
+カント司祭(WIZノベルズ)
+カント司祭, WIZN_CantBishop.bmp
 
-#�{���^�b�N���X#
-�{���^�b�N�X��(WIZ�m�x���Y)
-�{���^�b�N, WIZN_Boltac.bmp
-#�ʏ́A�{�b�^�N������̎�i�΁j
+#ボルタック商店#
+ボルタック店主(WIZノベルズ)
+ボルタック, WIZN_Boltac.bmp
+#通称、ボッタクル商会の主（笑）
 
-#Wizardry�P�̂PB�ɂ����A�����I�ɏ�ɂƂ΂��l�i�΁j#
-�n�X�^�[�K��(WIZ�m�x���Y)
-�n�X�^�[�K��, WIZN_Hastergal.bmp
-#�����ł̓��[�h�i�[�̍���̈�l�ŁA
-#����������ɗ͂�݂����A�L���ȑ喂���t
-#�V���o�[�ƁA�̂���̒m�荇���B
-#�i�L�q�͖������[�X�̕�����ǂނƁA����Ȋ���������j
-
-
-#�����K�~�����҉�c#
-#�c���x�C�M�ɑ���A�����K�~���̓������s���Ă���B
-#���Ȃ݂ɁA�悭���肪���ȁu���Ƃ�̂�ɂ��č����x�z�v
-#�ƌ����������I�ȍl���͖����A�^�ʖڂɌ��l����Ă�ʁX�ł��B
-
-�q���[�}������(WIZ�m�x���Y)
-�܌���, WIZN_HumanWiseMan.bmp
-
-�G���t����(WIZ�m�x���Y)
-�܌���, WIZN_ElfWiseMan.bmp
-
-�h���[�t����(WIZ�m�x���Y)
-�܌���, WIZN_DwarfWiseMan.bmp
-
-�m�[������(WIZ�m�x���Y)
-�܌���, WIZN_GnomeWiseMan.bmp
-
-�z�r�b�g����(WIZ�m�x���Y)
-�܌���, WIZN_HobbitWiseMan.bmp
+#Wizardry１の１Bにいた、強制的に城にとばす人（笑）#
+ハスターガル(WIZノベルズ)
+ハスターガル, WIZN_Hastergal.bmp
+#小説ではワードナーの高弟の一人で、
+#魔除け制作に力を貸した、有名な大魔導師
+#シルバーと、昔からの知り合い。
+#（記述は無いが端々の文から読むと、そんな感じがする）
 
 
-#�򑐎��̈ꑰ
-�p���p(WIZ�m�x���Y)
-�p���p, WIZN_Palpa.bmp
-#���ۂȎR�x�Ŗ򑐎����c��ł���ꑰ�̈�l
-#����q�R���o���̍ہA�W���B�ɓo�R�p�i���Ō����A���b�N�N���C�~���O�j���������B
+#リルガミン賢者会議#
+#幼いベイギに代わり、リルガミンの統治を代行している。
+#ちなみに、よくありがちな「王家を蔑ろにして国を支配」
+#と言った俗世的な考えは無い、真面目に賢人やってる面々です。
 
-#�W���̎t��
-�w�����̔E�ҁx(WIZ�m�x���Y)
-�v���E�B���h, WIZN_WestWind.bmp
-#���g���{�[��E�]�E����ɋ΂߂Ă����A�z�r�b�g�̔E�҃}�X�^�[
-#�]�����c�菭�Ȃ����A�c���W�����V�A�̖K��ɍ����A
-#�Ȃ̎��E�҂̋Z�A�S�Ă�`���鎖�����S����B
-#�C�s�̏I����A�W���̑O����p�������c�����炭���S
-#�h�}�X�^�[�E�F�X�g�E�B���h�i�����̔E�ҁj�h�̏̍��������ҁB
+ヒューマン賢者(WIZノベルズ)
+五賢者, WIZN_HumanWiseMan.bmp
+
+エルフ賢者(WIZノベルズ)
+五賢者, WIZN_ElfWiseMan.bmp
+
+ドワーフ賢者(WIZノベルズ)
+五賢者, WIZN_DwarfWiseMan.bmp
+
+ノーム賢者(WIZノベルズ)
+五賢者, WIZN_GnomeWiseMan.bmp
+
+ホビット賢者(WIZノベルズ)
+五賢者, WIZN_HobbitWiseMan.bmp
 
 
-#�ύt�̎��_
-���f�P�u���X(WIZ�m�x���Y)
-���f�P�u���X, WIZN_L'Kbreth.bmp
-#��n�̉��g�Ƃ��Ă΂�间�_
-#�ύt���i��_�ł�����B
+#薬草取りの一族
+パルパ(WIZノベルズ)
+パルパ, WIZN_Palpa.bmp
+#剣呑な山岳で薬草取りを営んでいる一族の一人
+#＜梯子山＞登頂の際、ジヴ達に登山術（今で言う、ロッククライミング）を教えた。
+
+#ジヴの師匠
+『西風の忍者』(WIZノベルズ)
+Ｗ＝ウィンド, WIZN_WestWind.bmp
+#元トレボー城・転職道場に勤めていた、ホビットの忍者マスター
+#余命が残り少ない時、幼いジヴラシアの訪問に合い、
+#己の持つ忍者の技、全てを伝える事を決心する。
+#修行の終了後、ジヴの前から姿を消す…おそらく死亡
+#”マスターウェストウィンド（西風の忍者）”の称号を持つ強者。
+
+
+#均衡の守護神
+ル’ケブレス(WIZノベルズ)
+ル’ケブレス, WIZN_L'Kbreth.bmp
+#大地の化身とも呼ばれる龍神
+#均衡を司る神でもある。

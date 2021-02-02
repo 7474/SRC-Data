@@ -1,40 +1,40 @@
 
-###���̑��̓o��l��
-#�A�C�R�������҂ł������ȕ��X�̂݁B
+###その他の登場人物
+#アイコンが期待できそうな方々のみ。
 
-�֖ؐY��
-�Y��, AQUJO_ItsukiHaruna.bmp
+斎木榛名
+榛名, AQUJO_ItsukiHaruna.bmp
 
-#(�֖؉Ƃ̑��̂�������)�a�@�n���ɗH��(�H)����Ă���l���B�܂ȂƏo����ɂ��c�B
-#��{�I�ɁA���̐l�͍֖؉Ƃ̒n������͏o���Ȃ��l�q�ł����̂ŁA�^�p���ɂ͂����ӁB
-
-
-�L������q
-���q, AQU_ArisugawaTokiko.bmp
-
-#�i�n����̂�����������B�R�~�b�N�X�R���ƂT���ɓo��B
-#�u�[�X�^�[�Q�Ɏ��^����Ă܂����A�ǂݍ��݂��ʓ|�ȕ���(��)�B
+#(斎木家の息のかかった)病院地下に幽閉(？)されている人物。まなと出会う事により…。
+#基本的に、この人は斎木家の地下からは出られない様子でしたので、運用時にはご注意。
 
 
-�W�u���[��(�C���C�U�[)
-�W�u���[��, AQUJO_Jebreel.bmp
+有栖川朱鷺子
+朱鷺子, AQU_ArisugawaTokiko.bmp
 
-�W�u���[���̃}�X�^�[(�I���I���̏��N�R�~�b�N�X��)
-�}�X�^�[, AQUJO_Jebreel'sMaster.bmp
-
-#�{���s���B��҂��킭�A�u���O��t����̂�Y�ꂽ�v�������ŁB
+#司馬さんのお見合い相手。コミックス３巻と５巻に登場。
+#ブースター２に収録されてますが、読み込みが面倒な方へ(爆)。
 
 
-###�ԐD�̊e��K�{�m���p�C
+ジブリール(イレイザー)
+ジブリール, AQUJO_Jebreel.bmp
 
-�ԐD(���̕s��)(�I���I���̏��N�R�~�b�N�X��)
-�}�X�^�[, AQUJO_Kaoru.bmp
+ジブリールのマスター(オリオンの少年コミックス版)
+マスター, AQUJO_Jebreel'sMaster.bmp
 
-#�������O�ŌĂԂ܂ł́A��������g������K�{�Ƃ��܂��B(���j�b�g�T�C�h�́A�A�C�e������őΉ�)
-#�W�u���[���̃}�X�^�[�����̂̓}�X�^�[�ɂȂ��Ă��܂��̂ŁA�K�����̂Ŏw�肵�Ă��������B
+#本名不明。作者いわく、「名前を付けるのを忘れた」だそうで。
 
 
-�ԐD(�u���C�N��)(�I���I���̏��N�R�~�b�N�X��)
-�ԐD, AQUJO_Kaoru(Brake).bmp
+###花織の各種必須ノンパイ
 
-#�u���C�N��́A��������g�p���邱�ƁB(�m���p�C�I�����[�ł���)
+花織(名称不明)(オリオンの少年コミックス版)
+マスター, AQUJO_Kaoru.bmp
+
+#陸が名前で呼ぶまでは、こちらを使う事を必須とします。(ユニットサイドは、アイテム制御で対応)
+#ジブリールのマスターも愛称はマスターになっていますので、必ず名称で指定してください。
+
+
+花織(ブレイク後)(オリオンの少年コミックス版)
+花織, AQUJO_Kaoru(Brake).bmp
+
+#ブレイク後は、こちらを使用すること。(ノンパイオンリーですが)

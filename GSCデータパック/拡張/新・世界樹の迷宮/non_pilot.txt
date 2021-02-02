@@ -1,314 +1,314 @@
 
-#### �X�̐l�X 
-## �N���X�ƃ��x���͋��ł̃~�j�R�~���ł̕\�L�Ȃ̂ŁA�V�ł����̐ݒ肩�͕s���B
-## �����܂ł��Q�l�ƌ�������(���ۃA���C�Ƃ��ݒ�ς���Ă���ۂ��ł���)�B
+#### 街の人々 
+## クラスとレベルは旧版のミニコミ誌での表記なので、新でもこの設定かは不明。
+## あくまでも参考と言う事で(実際アレイとか設定変わってるっぽいですし)。
 
-���{�̏h�̃A���C
-�A���C, SQ_Arei.bmp
+長鳴鶏の宿のアレイ
+アレイ, SQ_Arei.bmp
 
-# ���{�̏h�̎�t�S���B�p���f�B��Lv1�B�i���F�{�c �K�G�j
-# �V�ł͏h��ُ̈퍂���͖����Ȃ������A�I�Ղ�5en�N�G�X�g�͌��݁B
-# ���ł̃~�j�R�~�������ł̓t���A�}�l�[�W���Ƃ���Ă������A�V�ł̍쒆�̑䎌��
-# �u�������Ղ��p���ł���`�v�ƌ��������̂�����A���͏h�̎�l�炵���B
+# 長鳴鶏の宿の受付担当。パラディンLv1。（声：宮田 幸季）
+# 新では宿代の異常高騰は無くなったが、終盤の5enクエストは健在。
+# 旧版のミニコミ誌資料ではフロアマネージャとされていたが、新での作中の台詞で
+# 「自分が跡を継いでから～」と言ったものがあり、実は宿の主人らしい。
 
 
-�P�t�g�{��@���L�^�U�L
-Dr.�L�^�U�L, SQ_DrKitazaki.bmp
+ケフト施薬院長キタザキ
+Dr.キタザキ, SQ_DrKitazaki.bmp
 
-# �P�t�g�{��@���B���f�B�b�NLv144�B�������J�h�P�D�X���̃X�^�[�V�X�e���I�o���B
-# �V�ł͎��Ê֘A���h���ɁA��̔̔��͏��X�ɓ������ꂽ���ߏo�Ԃ͂Ȃ���(�Ō��΍�H)�A
-# �A���C�̃Z���t�Łu�搶�����Ăт��ā`�v�I�Ȃ��̂�����A�V�ł����݂͂��Ă���͗l�B
+# ケフト施薬院長。メディックLv144。超執刀カドケゥスよりのスターシステム的出演。
+# 新では治療関連が宿屋に、薬の販売は商店に統合されたため出番はないが(版権対策？)、
+# アレイのセリフで「先生をお呼びして～」的なものもあり、新でも存在はしている模様。
 
 
-�V���J���X�X��V���J
-�V���J, SQ_SilicasStorekeeper.bmp
+シリカ商店店主シリカ
+シリカ, SQ_SilicasStorekeeper.bmp
 
-# �V���J���X�X��B�v�����Z�XLv17�B�i���F�֓� ��a�j
-# �V�ł�(������h���}�b�c�ł͂���������)���C�ɓ��s����N�G�X�g���ǉ����ꂽ�B
-# ���s�����V���J�ɑ΂���I�����ł́A���̓����I�ȕ����Ɋւ�����̂�I�񂾃v���[���[�������͂��B
-# �����T�C�g�ł̕\�L��"Sirka"�ł����A�Ƃ肠���������A�C�R�����킹�ŁB
+# シリカ商店店主。プリンセスLv17。（声：斎藤 千和）
+# 新では(旧作もドラマＣＤではあったけど)樹海に同行するクエストも追加された。
+# 同行したシリカに対する選択肢では、その特徴的な服装に関するものを選んだプレーヤーも多いはず。
+# 公式サイトでの表記は"Sirka"ですが、とりあえず既存アイコン合わせで。
 
 
-�����̎��ꏗ���T�N��
-�T�N��, SQ_Sakuya.bmp
+金鹿の酒場女将サクヤ
+サクヤ, SQ_Sakuya.bmp
 
-# �����̎���̏����B�f�B�e�N�e�B�JLv64�B�i���F�匴 ���₩�j
-# �v���[���[�M���h�ɗl�X�ȃN�G�X�g���������Ă����B
-# �˗��҂̎���ŏ\���ȕ�V�̏o���Ȃ��N�G�X�g�ɂ͎����Œǉ���V���o���Ă��ꂽ�������B
-# ���̗ނ����ŁA�N�G�X�g�ł����������ނ̔[�i������Ƌ�J���Ă���(�ł���؂ꂽ�l�̕Иr�͕��C)�B
+# 金鹿の酒場の女将。ディテクティカLv64。（声：大原 さやか）
+# プレーヤーギルドに様々なクエストを斡旋してくれる。
+# 依頼者の事情で十分な報酬の出せないクエストには自腹で追加報酬を出してくれたりもする。
+# 虫の類が苦手で、クエストでそう言った類の納品があると苦労している(でも千切れた人の片腕は平気)。
 
 
-�M���h���K�������[
-�K�������[, SQ_Ganryu.bmp
+ギルド長ガンリュー
+ガンリュー, SQ_Ganryu.bmp
 
-# �`���҃M���h�����������B�����W���[Lv70�B�i���F���c ����j
-# �o�����X�悭�`���҂𑵂��`�̒����͌��Ȃ̂悤�Ȃ��̂Ɩ{�l�k�B
+# 冒険者ギルド統括執務役。レンジャーLv70。（声：黒田 崇矢）
+# バランスよく冒険者を揃え～の忠告は口癖のようなものと本人談。
 
 
-�����@�����I�����X
-�I�����X, SQ_Orelus.bmp
+執政院室長オレルス
+オレルス, SQ_Orelus.bmp
 
-# �����@���[�_��񎺒��B�T�[�W�F���gLv28�B�i���F�쌴 �c�v�j
-# ���K�l�B�V�̃X�g�[���[���[�h�I�Ղł́A���̔��f�ɓ��������A���g�̔��f�Ŏ�l���B�ɐ^���̊m�F������B
+# 執政院ラーダ情報室長。サージェントLv28。（声：川原 慶久）
+# メガネ。新のストーリーモード終盤では、長の判断に同調せず、自身の判断で主人公達に真実の確認を託す。
 
 
-�����@�̒����B�Y��
-���B�Y��, SQ_Vizurr.bmp
+執政院の長ヴィズル
+ヴィズル, SQ_Vizurr.bmp
 
-���B�Y��(���E��)
-���B�Y��, SQ_Vizurr(E).bmp
+ヴィズル(世界樹)
+ヴィズル, SQ_Vizurr(E).bmp
 
-# �����@���[�_���B�i���F���c �����j
-# �V�ł̓I�[�v�j���O����v�������肻�̊��Ԃ����点�ĉ������S�J�B
-# �X�g�[���[���[�h�ł͓W�J�ύX�ɂ�聛����������~�i�������̂́A�����l���Ă������͔���₷���Ȃ����B
-# ���B�Y��(���E��)�͊��Ԃ����点�Ă���łŁB
+# 執政院ラーダ長。（声：中田 譲治）
+# 新ではオープニングから思いっきりその眼を赤く光らせて怪しさ全開。
+# ストーリーモードでは展開変更により○○○○から降格したものの、何を考えていたかは判りやすくなった。
+# ヴィズル(世界樹)は眼を赤く光らせている版で。
 
 
-���̋A���҂���
-����, SQS_Girl.bmp
+父の帰りを待つ少女
+少女, SQS_Girl.bmp
 
-# ���C�T���ɏo���������̋A���ܖڂő҂����B
-# �����T�C�g��Q�[����񎏂ł̈����̊��ɂ͍쒆�̏o�Ԃ��Z���]��ڗ����Ȃ������B
+# 樹海探索に出かけた父の帰りを涙目で待つ少女。
+# 公式サイトやゲーム情報誌での扱いの割には作中の出番が短く余り目立たなかった。
 
 
-�����r�g�̏����V����
-�����r�g�̏���, SQ_Moribito.bmp
+モリビトの少女シララ
+モリビトの少女, SQ_Moribito.bmp
 
-# ���C�̂R�w�ȍ~�ŏo������r�g�̏����B�i���F���c ��j
-# ����ł͕��򂪍��ꂽ���ʘa���Ɏ��郋�[�g�͑��݂��Ȃ��������A
-# �V�̃X�g�[���[���[�h�ł͈������啝�ɕω��A�ŗL����V�K�����G���ǉ�����A
-# ��q�̐V���Ȗ���������ȂǁA�����C�N�ōł������̕ω������m�o�b�B
+# 樹海の３層以降で出会うモリビトの少女。（声：藤田 咲）
+# 旧作では分岐が削られた結果和解に至るルートは存在しなかったが、
+# 新のストーリーモードでは扱いが大幅に変化、固有名や新規立ち絵が追加され、
+# 後述の新たな役割も得るなど、リメイクで最も扱いの変化したＮＰＣ。
 
 
-#### �M���h�n�E�X�֘A
+#### ギルドハウス関連
 
-�V�F���h���ƃ��C�h�̃��[�U
-���[�U, SQS_Rosa.bmp
+シェルドン家メイドのローザ
+ローザ, SQS_Rosa.bmp
 
-# ���N�[�i��S�z�������̕���茭�킳��Ă���Ă����V�F���h���Ƃ̃��C�h�B�i���F���� ���߁j
-# �N���V�b�N���[�h�ł͓��ʂȃN�G�X�g�̕�V�ł���M����葡����M���h�n�E�X�̊Ǘ��l�����B
-# �T�������ł͊e��̃R�[�f�B�A��(���{���s����)�ɂ��A�g�o�E�s�o�̑�����񕜌��ʂ��{���Ă����B
-# ���X�����A�C�e���͎�ɉ񕜂�⏕�Ɋւ������A�C�e���B
+# ラクーナを心配したその父より遣わされてやってきたシェルドン家のメイド。（声：茅野 愛衣）
+# クラシックモードでは特別なクエストの報酬でさる貴族より贈られるギルドハウスの管理人扱い。
+# 探索準備では各種のコーディアル(滋養強壮飲料)による、ＨＰ・ＴＰの増強や回復効果を施してくれる。
+# 時々くれるアイテムは主に回復や補助に関する消費アイテム。
 
 
-�ٍ��̒T��I�[�X�e�B��
-�I�[�X�e�B��, SQS_Austin.bmp
+異国の探偵オースティン
+オースティン, SQS_Austin.bmp
 
-# �ٍ���蓐�܂ꂽ���ǂ��Ă���Ă����T��B�i���F�߉� ���j
-# �^�V���[���b�N�Ȗ��T�オ�����ƌт̖^�T��̎p�����Ă�悤�ȃL�����B
-# ���鎖�������������Ɏ�l�������̃M���h�n�E�X��(�����)�������ƂɂȂ�B
-# �T�������ł͊e��̏�Ԉُ�E�����΍��A��_���[�W���Ɍ��ʂ̂���S���������Ă����B
-# ���X�����A�C�e���͎�ɏ�Ԉُ�╕���΍�̃A�N�Z�T���ł���B
+# 異国より盗まれた宝を追ってやってきた探偵。（声：鶴岡 聡）
+# 某シャーロックな名探偵が着物と袴の某探偵の姿をしてるようなキャラ。
+# ある事件をきっかけに主人公たちのギルドハウスに(勝手に)居つくことになる。
+# 探索準備では各種の状態異常・封じ対策や、被ダメージ等に効果のある心得を教えてくれる。
+# 時々くれるアイテムは主に状態異常や封じ対策のアクセサリである。
 
 
-�����r�g�̏����V����(�t�[�h)
-�V����, SQS_Shirara.bmp
+モリビトの少女シララ(フード)
+シララ, SQS_Shirara.bmp
 
-# �����r�g�̏������͂̉񕜂�҂ԁA�M���h�n�E�X�ɑ؍݂��A
-# �M���h�L�[�p�[�Ƃ��ė͂�݂��Ă���邱�ƂɂȂ������̎p�B
-# �T�������ł͊e��̏����U���̌Ăт��������Ă����B
-# ���X�����A�C�e���͊e��̍̎�n�f�ރA�C�e���ł���B
-# ���܂ɖ{�l���f�ގ��W�̈˗����o���Ă�A�C�e��������鎖������̂͂����g�B
+# モリビトの少女が力の回復を待つ間、ギルドハウスに滞在し、
+# ギルドキーパーとして力を貸してくれることになった時の姿。
+# 探索準備では各種の召喚攻撃の呼びかけをしてくれる。
+# 時々くれるアイテムは各種の採種系素材アイテムである。
+# たまに本人が素材収集の依頼を出してるアイテムもくれる事があるのはご愛嬌。
 
 
-#### ����̋q�֘A
+#### 酒場の客関連
 
-�Ԃ��̐O�̂˂��ꂽ�j
-�Ԃ��̐O�̂˂��ꂽ�j, SQS_-.bmp
+赤ら顔の唇のねじれた男
+赤ら顔の唇のねじれた男, SQS_-.bmp
 
-# �I�[�X�e�B�����݂̃N�G�X�g�Ȃǂœx�X�L�͂ȏ��������炵�Ă�������̋q�B
-# ���ڂ͖�������Ȃ����A���̐��̂̓I�[�X�e�B���̒ǂ��Ă���ƍߎ҂̉��o���f���[���Ǝv����B
+# オースティン絡みのクエストなどで度々有力な情報をもたらしてくれる酒場の客。
+# 直接は明言されないが、その正体はオースティンの追っている犯罪者の王バラデュールと思われる。
 
 
-#### �E�ƕʃL�������C�N�L����
-## �{���ݒ���܂߂ăv���[���[���ŗp�ӂ���^�C�v�̃L�����ł����A
-## �V�E���E���ł��Q�[���X�^�[�g���̃A�j���Ɉꕔ�L�������o�ꂵ�Ă�̂�
-## ���Ƀp�b�N�ɓ��e����Ă�A�C�R��������̂ňꉞ�S�N���X�m���p�C�o�^���Ă����܂��B
+#### 職業別キャラメイクキャラ
+## 本来設定も含めてプレーヤー側で用意するタイプのキャラですが、
+## 新・世界樹でもゲームスタート時のアニメに一部キャラが登場してるのと
+## 既にパックに投稿されてるアイコンもあるので一応全クラスノンパイ登録しておきます。
 
-�\�[�h�}�����P
-�\�[�h�}��, SQ_Swordman(Man).bmp
+ソードマン♂１
+ソードマン, SQ_Swordman(Man).bmp
 
-# �����z��B
+# 青い方想定。
 
-�\�[�h�}�����Q
-�\�[�h�}��, SQ_Swordman(Man2).bmp
+ソードマン♂２
+ソードマン, SQ_Swordman(Man2).bmp
 
-# �Ԃ����z��B
+# 赤い方想定。
 
-�\�[�h�}�����P
-�\�[�h�}��, SQ_Swordman(Woman).bmp
+ソードマン♀１
+ソードマン, SQ_Swordman(Woman).bmp
 
-# �Ԃ����z��B
+# 赤い方想定。
 
-�\�[�h�}�����Q
-�\�[�h�}��, SQ_Swordman(Woman2).bmp
+ソードマン♀２
+ソードマン, SQ_Swordman(Woman2).bmp
 
-# ���f�R���̕��z��B�V�̃��[�r�[�ŏo�ԁE�䎌����B
+# 青いデコ娘の方想定。新のムービーで出番・台詞あり。
 
 
-�����W���[���P
-�����W���[, SQ_Swordman(Man).bmp
+レンジャー♂１
+レンジャー, SQ_Swordman(Man).bmp
 
-# �����̕��z��B�V�̃��[�r�[�ňꉞ�o�Ԃ���B
+# 金髪の方想定。新のムービーで一応出番あり。
 
-�����W���[���Q
-�����W���[, SQ_Swordman(Man2).bmp
+レンジャー♂２
+レンジャー, SQ_Swordman(Man2).bmp
 
-# �΂��ۂ����̕��z��B
+# 緑っぽい髪の方想定。
 
-�����W���[���P
-�����W���[, SQ_Ranger(Woman).bmp
+レンジャー♀１
+レンジャー, SQ_Ranger(Woman).bmp
 
-# ���т����т̕��̂���ł����A�C�R��������̂ł�������P�Ɏw��B
+# 並びじゃ眼帯の方のが後ですがアイコンがあるのでこちらを１に指定。
 
-�����W���[���Q
-�����W���[, SQ_Swordman(Woman2).bmp
+レンジャー♀２
+レンジャー, SQ_Swordman(Woman2).bmp
 
-# ���F�̎Ⴛ���ȕ��z��B
+# 茶色の若そうな方想定。
 
 
-�p���f�B�����P
-�p���f�B��, SQ_Paradin(Man).bmp
+パラディン♂１
+パラディン, SQ_Paradin(Man).bmp
 
-# ���N���ۂ����z��B
+# 少年っぽい方想定。
 
-�p���f�B�����Q
-�p���f�B��, SQ_Paradin(Man2).bmp
+パラディン♂２
+パラディン, SQ_Paradin(Man2).bmp
 
-# �I�b�T�����ۂ����z��B�V�̃��[�r�[�ŏo�ԁE�䎌����B
+# オッサンっぽい方想定。新のムービーで出番・台詞あり。
 
-�p���f�B�����P
-�p���f�B��, SQ_Paradin(Woman).bmp
+パラディン♀１
+パラディン, SQ_Paradin(Woman).bmp
 
-# �����̕��B������[�B
+# 金髪の方。ししょー。
 
-�p���f�B�����Q
-�p���f�B��, SQ_Paradin(Woman2).bmp
+パラディン♀２
+パラディン, SQ_Paradin(Woman2).bmp
 
-# ���F�����̕��z��B
+# 褐色桃髪の方想定。
 
 
-�_�[�N�n���^�[���P
-�_�[�N�n���^�[, SQ_Darkhunter(Man).bmp
+ダークハンター♂１
+ダークハンター, SQ_Darkhunter(Man).bmp
 
-# ���̊�F�̈������z��B
+# 青髪の顔色の悪い方想定。
 
-�_�[�N�n���^�[���Q
-�_�[�N�n���^�[, SQ_Darkhunter(Man2).bmp
+ダークハンター♂２
+ダークハンター, SQ_Darkhunter(Man2).bmp
 
-# ���F�┯�̕��z��B
+# 褐色銀髪の方想定。
 
-�_�[�N�n���^�[���P
-�_�[�N�n���^�[, SQ_Darkhunter(Woman).bmp
+ダークハンター♀１
+ダークハンター, SQ_Darkhunter(Woman).bmp
 
-# �����̕��ł��B
+# 金髪の方です。
 
-�_�[�N�n���^�[���Q
-�_�[�N�n���^�[, SQ_Darkhunter(Woman2).bmp
+ダークハンター♀２
+ダークハンター, SQ_Darkhunter(Woman2).bmp
 
-# �s���N���h�����̕��z��B�V�̃��[�r�[�ŏo�ԁE�䎌����B
+# ピンク髪ドリルの方想定。新のムービーで出番・台詞あり。
 
 
-���f�B�b�N���P
-���f�B�b�N, SQ_Medic(Man).bmp
+メディック♂１
+メディック, SQ_Medic(Man).bmp
 
-# ���K�l�̕��z��B
+# メガネの方想定。
 
-���f�B�b�N���Q
-���f�B�b�N, SQ_Medic(Man2).bmp
+メディック♂２
+メディック, SQ_Medic(Man2).bmp
 
-# ���܂˂����ۂ����^�̕��z��B
+# たまねぎっぽい髪型の方想定。
 
-���f�B�b�N���P
-���f�B�b�N, SQ_Medic(Woman).bmp
+メディック♀１
+メディック, SQ_Medic(Woman).bmp
 
-# �A�z�т̕��ł��B
+# アホ毛の方です。
 
-���f�B�b�N���Q
-���f�B�b�N, SQ_Medic(Woman2).bmp
+メディック♀２
+メディック, SQ_Medic(Woman2).bmp
 
-# ���o������ۂ����z��B
+# お姉さんっぽい方想定。
 
 
-�A���P�~�X�g���P
-�A���P�~�X�g, SQ_Alcemist(Man).bmp
+アルケミスト♂１
+アルケミスト, SQ_Alcemist(Man).bmp
 
-# �����̕��ł��B
+# 黒髪の方です。
 
-�A���P�~�X�g���Q
-�A���P�~�X�g, SQ_Alcemist(Man2).bmp
+アルケミスト♂２
+アルケミスト, SQ_Alcemist(Man2).bmp
 
-# �����̕��z��B
+# 金髪の方想定。
 
-�A���P�~�X�g���P
-�A���P�~�X�g, SQ_Alcemist(Woman).bmp
+アルケミスト♀１
+アルケミスト, SQ_Alcemist(Woman).bmp
 
-# ���K�l�̕��z��B
+# メガネの方想定。
 
-�A���P�~�X�g���Q
-�A���P�~�X�g, SQ_Alcemist(Woman2).bmp
+アルケミスト♀２
+アルケミスト, SQ_Alcemist(Woman2).bmp
 
-# �����̕��z��B
+# 金髪の方想定。
 
 
-�o�[�h���P
-�o�[�h, SQ_Bird(Man).bmp
+バード♂１
+バード, SQ_Bird(Man).bmp
 
-# �����H�̕��ł��B�V�̃��[�r�[�ňꉞ�o�Ԃ���B
+# 金髪？の方です。新のムービーで一応出番あり。
 
-�o�[�h���Q
-�o�[�h, SQ_Bird(Man2).bmp
+バード♂２
+バード, SQ_Bird(Man2).bmp
 
-# �t���ϙ����Ă���z��B
+# 葉っぱ咥えてる方想定。
 
-�o�[�h���P
-�o�[�h, SQ_Bird(Woman).bmp
+バード♀１
+バード, SQ_Bird(Woman).bmp
 
-# �����̕��z��B
+# 桃髪の方想定。
 
-�o�[�h���Q
-�o�[�h, SQ_Bird(Woman2).bmp
+バード♀２
+バード, SQ_Bird(Woman2).bmp
 
-# ���F�̕��z��B
+# 褐色の方想定。
 
 
-�u�V�h�[���P
-�u�V�h�[, SQ_Bushido(Man).bmp
+ブシドー♂１
+ブシドー, SQ_Bushido(Man).bmp
 
-# �Ⴛ���ȕ��z��B
+# 若そうな方想定。
 
-�u�V�h�[���Q
-�u�V�h�[, SQ_Bushido(Man2).bmp
+ブシドー♂２
+ブシドー, SQ_Bushido(Man2).bmp
 
-# �ꂳ��̕��z��B
+# 爺さんの方想定。
 
-�u�V�h�[���P
-�u�V�h�[, SQ_Bushido.bmp
+ブシドー♀１
+ブシドー, SQ_Bushido.bmp
 
-# �T���V�̕��ł��B�����A�C�R�������Ńt�@�C�����w�肪���Ƃ��قȂ�܂��B
+# サラシの方です。既存アイコン併せでファイル名指定が他とやや異なります。
 
-�u�V�h�[���Q
-�u�V�h�[, SQ_Bushido(Woman2).bmp
+ブシドー♀２
+ブシドー, SQ_Bushido(Woman2).bmp
 
-# �������ς̕��z��B
+# おかっぱの方想定。
 
 
-�J�[�X���[�J�[���P
-�J�[�X���[�J�[, SQ_Cursemaker(Man).bmp
+カースメーカー♂１
+カースメーカー, SQ_Cursemaker(Man).bmp
 
-# �����̕��z��B
+# 白髪の方想定。
 
-�J�[�X���[�J�[���Q
-�J�[�X���[�J�[, SQ_Cursemaker(Man2).bmp
+カースメーカー♂２
+カースメーカー, SQ_Cursemaker(Man2).bmp
 
-# �Δ��łȂ񂩊����Ă���z��B
+# 緑髪でなんか巻いてる方想定。
 
-�J�[�X���[�J�[���P
-�J�[�X���[�J�[, SQ_Cursemaker(Woman).bmp
+カースメーカー♀１
+カースメーカー, SQ_Cursemaker(Woman).bmp
 
-# �������̕��ł��B
+# おさげの方です。
 
-�J�[�X���[�J�[���Q
-�J�[�X���[�J�[, SQ_Cursemaker(Woman2).bmp
+カースメーカー♀２
+カースメーカー, SQ_Cursemaker(Woman2).bmp
 
-# �h�̕��z��B
+# 刺青の方想定。

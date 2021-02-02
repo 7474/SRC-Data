@@ -1,22 +1,22 @@
 
 
-#### ˆÈ‰º‚Ìí“¬ƒAƒjƒƒ‰ƒxƒ‹‚ÍA—EÒ‰¤ƒKƒIƒKƒCƒK[ƒtƒHƒ‹ƒ_‚©‚ç—¬—p‚µ‚½‚à‚Ì‚Å‚· ####
-## ‘¼‚Æ‚Ì¬“¯‚ğ–h‚®‚½‚ßA¯•Êq‚ğ•ÏX‚µ‚Ä‚¢‚Ü‚·B
+#### ä»¥ä¸‹ã®æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ©ãƒ™ãƒ«ã¯ã€å‹‡è€…ç‹ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ãƒ•ã‚©ãƒ«ãƒ€ã‹ã‚‰æµç”¨ã—ãŸã‚‚ã®ã§ã™ ####
+## ä»–ã¨ã®æ··åŒã‚’é˜²ããŸã‚ã€è­˜åˆ¥å­ã‚’å¤‰æ›´ã—ã¦ã„ã¾ã™ã€‚
 
-í“¬ƒAƒjƒ_00_“ñ’šƒr[ƒ€ƒ‰ƒCƒtƒ‹€”õ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_00_äºŒä¸ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ«æº–å‚™:
 
 Local ARY Pict PictSz PrSE
 
 For i = 1 To ArgNum
   Array ARY Args(i) "="
   Switch ARY[1]
-  Case ‰æ‘œƒtƒ@ƒCƒ‹
+  Case ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«
     Set Pict[A] ARY[2]
     Set Pict[B] ARY[3]
-  Case ‰æ‘œƒTƒCƒY
+  Case ç”»åƒã‚µã‚¤ã‚º
     Set PictSz[A] ARY[2]
     Set PictSz[B] ARY[3]
-  Case F
+  Case è‰²
     Skip
   Case Else
     If InStr(ARY[1], ".wav") > 0 Then
@@ -25,25 +25,25 @@ For i = 1 To ArgNum
   EndSw
 Next
 
-Call í“¬ƒAƒjƒ_00_¶‰E•Ê•Ší‹¤’Ê€”õ _GetName("Weapon\EFFECT_BeamRifle01.bmp",Pict[A]) _GetName(32,PictSz[A]) _
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_00_å·¦å³åˆ¥æ­¦å™¨å…±é€šæº–å‚™ _GetName("Weapon\EFFECT_BeamRifle01.bmp",Pict[A]) _GetName(32,PictSz[A]) _
                             _GetName("Weapon\EFFECT_BeamRifle01.bmp",Pict[B]) _GetName(32,PictSz[B]) PrSE
 
 UnSet ARY Pict PictSz PrSE
 Return Keep
 
 
-í“¬ƒAƒjƒ_00_¶‰E•Ê•Ší‹¤’Ê€”õ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_00_å·¦å³åˆ¥æ­¦å™¨å…±é€šæº–å‚™:
 
 Local i T_X T_Y ANG DRCT W_P W_S H_C S_E S-I C-S LN
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Set T_X (WX(UID) + 16)
 Set T_Y (WY(UID) + 16)
-# +16‚µ‚Äƒ†ƒjƒbƒg‰æ‘œ‚Ì’†SÀ•W‚ğ“¾‚Ä‚¨‚­B
+# +16ã—ã¦ãƒ¦ãƒ‹ãƒƒãƒˆç”»åƒã®ä¸­å¿ƒåº§æ¨™ã‚’å¾—ã¦ãŠãã€‚
 Set ANG Call(_GetAngle)
 Set DRCT _FlipVertical(ANG)
-# –Ú•W‚Ü‚Å‚ÌŠp“x‚Æã‰º”½“]‚·‚é‚©‚Ç‚¤‚©‚Ìæ“¾B”Ä—pí“¬ƒAƒjƒ—¬—pB
+# ç›®æ¨™ã¾ã§ã®è§’åº¦ã¨ä¸Šä¸‹åè»¢ã™ã‚‹ã‹ã©ã†ã‹ã®å–å¾—ã€‚æ±ç”¨æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡æµç”¨ã€‚
 
 Set W_P[1] Args(1)
 Set W_S[1] Args(2)
@@ -58,9 +58,9 @@ Set H_C[2] (W_S[2] / 2)
 Set S-I[A] (Sin(3.141592 * (ANG + 90) / 180) * 8)
 Set C-S[A] (Cos(3.141592 * (ANG + 90) / 180) * 8)
 
-# ‰æ‘œ•\¦—pEC³’l‚ÌŒvZ‚È‚Ç
+# ç”»åƒè¡¨ç¤ºç”¨ãƒ»ä¿®æ­£å€¤ã®è¨ˆç®—ãªã©
 
-# «‚±‚±‚©‚ç‰æ‘œ‚Ì•\¦
+# â†“ã“ã“ã‹ã‚‰ç”»åƒã®è¡¨ç¤º
 
 Wait Start
 PlaySound S_E
@@ -74,8 +74,8 @@ For i = 1 To 3
   Case 3
     Set LN 0
   EndSw
-  PaintPicture W_P[1] (T_X - H_C[1] - C-S[A] - LN) (T_Y - H_C[1] - S-I[A] - LN) W_S[1] W_S[1] “§‰ß DRCT ‰E‰ñ“] ANG _ColorTime()
-  PaintPicture W_P[2] (T_X - H_C[2] + C-S[A] - LN) (T_Y - H_C[2] + S-I[A] - LN) W_S[2] W_S[2] “§‰ß DRCT ‰E‰ñ“] ANG _ColorTime()
+  PaintPicture W_P[1] (T_X - H_C[1] - C-S[A] - LN) (T_Y - H_C[1] - S-I[A] - LN) W_S[1] W_S[1] é€é DRCT å³å›è»¢ ANG _ColorTime()
+  PaintPicture W_P[2] (T_X - H_C[2] + C-S[A] - LN) (T_Y - H_C[2] + S-I[A] - LN) W_S[2] W_S[2] é€é DRCT å³å›è»¢ ANG _ColorTime()
   Refresh
   Wait Until (0.6 * i)
 Next
@@ -83,13 +83,13 @@ Wait Until 7
 
 UnSet i T_X T_Y ANG W_P W_S B_C H_C S-I C-S LN
 Return Keep
-# ƒ[ƒJƒ‹•Ï”‚ğíœ‚µ‚ÄƒŠƒ^[ƒ“
+# ãƒ­ãƒ¼ã‚«ãƒ«å¤‰æ•°ã‚’å‰Šé™¤ã—ã¦ãƒªã‚¿ãƒ¼ãƒ³
 
-#„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-í“¬ƒAƒjƒ_00_“ñ’šƒr[ƒ€ƒ‰ƒCƒtƒ‹UŒ‚:
+#â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_00_äºŒä¸ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ«æ”»æ’ƒ:
 
 Local i m T_X T_Y ANG DRCT W_P W_S B_C B_S H_C S-I C-S LN ARY
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Set T_X (WX(UID) + 16)
@@ -101,13 +101,13 @@ Set B_S Call(_GetSizeFromArgs)
 For i = 1 To ArgNum
   Array ARY Args(i) "="
   Switch ARY[1]
-  Case ‰æ‘œƒtƒ@ƒCƒ‹
+  Case ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«
     Set W_P[A] ARY[2]
     Set W_P[B] ARY[3]
-  Case ‰æ‘œƒTƒCƒY
+  Case ç”»åƒã‚µã‚¤ã‚º
     Set W_S[A] ARY[2]
     Set W_S[B] ARY[3]
-  Case F
+  Case è‰²
     Set B_C[A] ARY[2]
     Set B_C[B] ARY[3]
   Case Else
@@ -120,42 +120,42 @@ Set W_S[1] _GetName(32,W_S[A])
 Set W_P[2] _GetName("Weapon\EFFECT_BeamRifle01.bmp",W_P[B])
 Set W_S[2] _GetName(32,W_S[B])
 
-If B_S = "¬" Then
+If B_S = "å°" Then
   Set B_C[1] ("Beam\EFFECT_Beam" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
   Set B_C[2] ("Beam\EFFECT_Beam" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
-ElseIf B_S = "’†" Then
+ElseIf B_S = "ä¸­" Then
   Set B_C[1] ("Beam\EFFECT_MBeam" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
   Set B_C[2] ("Beam\EFFECT_MBeam" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
 EndIf
 
 Set H_C[1] (W_S[1] / 2)
 Set H_C[2] (W_S[2] / 2)
-# C³’l‚ÌŒvZcc‰æ‘œƒTƒCƒY‚Ì”¼•ª‰æ‘œ‰ñ“]‚Ì”¼Œa
+# ä¿®æ­£å€¤ã®è¨ˆç®—â€¦â€¦ç”»åƒã‚µã‚¤ã‚ºã®åŠåˆ†ï¼ç”»åƒå›è»¢æ™‚ã®åŠå¾„
 
 #Set S-I[A] (Sin(3.141592 * (ANG + 90) / 180) * 16)
 #Set C-S[A] (Cos(3.141592 * (ANG + 90) / 180) * 16)
 Set S-I[A] (Sin(3.141592 * (ANG + 90) / 180) * 8)
 Set C-S[A] (Cos(3.141592 * (ANG + 90) / 180) * 8)
-# •Ší‰æ‘œ‚Ì•\¦ˆÊ’uC³’l
-# ƒ†ƒjƒbƒg‰æ‘œ‚ğ”¼Œa16‚Ì‰~‚Æ‰¼’è‚µA‚»‚ê‚¼‚êƒTƒCƒ“‚ÆƒRƒTƒCƒ“‚ğ‹‚ß‚Ü‚·B
+# æ­¦å™¨ç”»åƒã®è¡¨ç¤ºä½ç½®ä¿®æ­£å€¤
+# ãƒ¦ãƒ‹ãƒƒãƒˆç”»åƒã‚’åŠå¾„16ã®å††ã¨ä»®å®šã—ã€ãã‚Œãã‚Œã‚µã‚¤ãƒ³ã¨ã‚³ã‚µã‚¤ãƒ³ã‚’æ±‚ã‚ã¾ã™ã€‚
 #
-# •Ší‚Ì‰æ‘œ‚ÍA‘ÎÛƒ†ƒjƒbƒg`‘Šèƒ†ƒjƒbƒgŠÔ‚Ì’¼ü‚É‘Î‚µ‚Ä‚’¼‚ÌˆÊ’u‚É•\¦‚³‚ê‚Ü‚·B
-# ‚µ‚½‚ª‚Á‚ÄA‚·‚Å‚É‹‚ß‚½Šp“xANG‚É90‚ğ‘«‚µ‚ÄŒvZB
+# æ­¦å™¨ã®ç”»åƒã¯ã€å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï½ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆé–“ã®ç›´ç·šã«å¯¾ã—ã¦å‚ç›´ã®ä½ç½®ã«è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
+# ã—ãŸãŒã£ã¦ã€ã™ã§ã«æ±‚ã‚ãŸè§’åº¦ANGã«90ã‚’è¶³ã—ã¦è¨ˆç®—ã€‚
 
 Set S-I[1] (Sin(3.141592 * ANG / 180) * H_C[1])
 Set S-I[2] (Sin(3.141592 * ANG / 180) * H_C[2])
 Set C-S[1] (Cos(3.141592 * ANG / 180) * H_C[1])
 Set C-S[2] (Cos(3.141592 * ANG / 180) * H_C[2])
-# ‰æ‘œ‚Ì”¼Œa‚É‚»‚ê‚¼‚ê‚ÌŠp“x‚ÌƒTƒCƒ“EƒRƒTƒCƒ“‚ğ‚©‚¯‚é
-#               ‰æ‘œ‰ñ“]‚Ì–CŒû‚ÌˆÊ’u‚ğ’m‚é‚½‚ß‚ÌC³’l
+# ç”»åƒã®åŠå¾„ã«ãã‚Œãã‚Œã®è§’åº¦ã®ã‚µã‚¤ãƒ³ãƒ»ã‚³ã‚µã‚¤ãƒ³ã‚’ã‹ã‘ã‚‹
+#               ï¼ç”»åƒå›è»¢æ™‚ã®ç ²å£ã®ä½ç½®ã‚’çŸ¥ã‚‹ãŸã‚ã®ä¿®æ­£å€¤
 
-Set LN[X] _GetCircumference(ANG,‚w)
-Set LN[Y] _GetCircumference(ANG,‚x)
-# ƒr[ƒ€”­Ë‚Ìh”½“®hƒr[ƒ€”­Ë•ûŒü‚Ì‹tƒxƒNƒgƒ‹‚ğ‹‚ß‚éB”Ä—pí“¬ƒAƒjƒ—¬—pB
+Set LN[X] _GetCircumference(ANG,ï¼¸)
+Set LN[Y] _GetCircumference(ANG,ï¼¹)
+# ãƒ“ãƒ¼ãƒ ç™ºå°„æ™‚ã®â€åå‹•â€ï¼ãƒ“ãƒ¼ãƒ ç™ºå°„æ–¹å‘ã®é€†ãƒ™ã‚¯ãƒˆãƒ«ã‚’æ±‚ã‚ã‚‹ã€‚æ±ç”¨æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡æµç”¨ã€‚
 
 _UnSetBattleAnimeValue
 
-# «‚±‚±‚©‚ç‰æ‘œ‚Ì•\¦
+# â†“ã“ã“ã‹ã‚‰ç”»åƒã®è¡¨ç¤º
 
 Wait Start
 PlaySound Charge.wav
@@ -164,24 +164,24 @@ For i = 1 To 5
   Switch i
   Case 3
     _SelectSound Beam.wav _GetWavFromArgs()
-    If B_S = "¬" Then
+    If B_S = "å°" Then
       Set m -2
-    ElseIf B_S = "’†" Then
+    ElseIf B_S = "ä¸­" Then
       Set m -4
     EndIf
   Case 4
-    If B_S = "¬" Then
+    If B_S = "å°" Then
       Set m -1
-    ElseIf B_S = "’†" Then
+    ElseIf B_S = "ä¸­" Then
       Set m -2
     EndIf
   Case Else
     Set m 0
   EndSw
-  PaintPicture W_P[1] (T_X - H_C[1] - C-S[A] + (LN[X] * m)) (T_Y - H_C[1] - S-I[A] + (LN[Y] * m)) W_S[1] W_S[1] “§‰ß DRCT ‰E‰ñ“] ANG _ColorTime()
-  PaintPicture W_P[2] (T_X - H_C[2] + C-S[A] + (LN[X] * m)) (T_Y - H_C[2] + S-I[A] + (LN[Y] * m)) W_S[2] W_S[2] “§‰ß DRCT ‰E‰ñ“] ANG _ColorTime()
-  PaintPicture (B_C[1] & i & ".bmp") (T_X - 32 - C-S[A] - C-S[1]) (T_Y - 32 - S-I[A] - S-I[1]) 64 64 “§‰ß ‰E‰ñ“] ANG _ColorTime(1)
-  PaintPicture (B_C[2] & i & ".bmp") (T_X - 32 + C-S[A] - C-S[2]) (T_Y - 32 + S-I[A] - S-I[2]) 64 64 “§‰ß ‰E‰ñ“] ANG _ColorTime(1)
+  PaintPicture W_P[1] (T_X - H_C[1] - C-S[A] + (LN[X] * m)) (T_Y - H_C[1] - S-I[A] + (LN[Y] * m)) W_S[1] W_S[1] é€é DRCT å³å›è»¢ ANG _ColorTime()
+  PaintPicture W_P[2] (T_X - H_C[2] + C-S[A] + (LN[X] * m)) (T_Y - H_C[2] + S-I[A] + (LN[Y] * m)) W_S[2] W_S[2] é€é DRCT å³å›è»¢ ANG _ColorTime()
+  PaintPicture (B_C[1] & i & ".bmp") (T_X - 32 - C-S[A] - C-S[1]) (T_Y - 32 - S-I[A] - S-I[1]) 64 64 é€é å³å›è»¢ ANG _ColorTime(1)
+  PaintPicture (B_C[2] & i & ".bmp") (T_X - 32 + C-S[A] - C-S[2]) (T_Y - 32 + S-I[A] - S-I[2]) 64 64 é€é å³å›è»¢ ANG _ColorTime(1)
   Refresh
   Wait Until (0.8 * i)
 Next
@@ -189,11 +189,11 @@ Next
 UnSet i m T_X T_Y ANG W_P W_S B_C B_S H_C S-I C-S S_E LN ARY PrSE
 Return
 
-#„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-í“¬ƒAƒjƒ_00_“ñ’šƒr[ƒ€ƒ‰ƒCƒtƒ‹–½’†:
+#â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_00_äºŒä¸ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ«å‘½ä¸­:
 
 Local i m E_X E_Y ANG B_C B_CA B_CB X_F Y_F ARY B_S P_S
-Local UID = _GetName(‘Šèƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Set E_X (WX(UID) - 16)
@@ -204,9 +204,9 @@ Set B_S Call(_GetSizeFromArgs)
 For i = 1 To ArgNum
   Array ARY Args(i) "="
   Switch ARY[1]
-  Case ‰æ‘œƒtƒ@ƒCƒ‹ ‰æ‘œƒTƒCƒY
+  Case ç”»åƒãƒ•ã‚¡ã‚¤ãƒ« ç”»åƒã‚µã‚¤ã‚º
     Skip
-  Case F
+  Case è‰²
     Set B_C[A] ARY[2]
     Set B_C[B] ARY[3]
   Case Else
@@ -217,13 +217,13 @@ Next
 Set B_CA[1] ("Beam\EFFECT_BeamDroplet" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
 Set B_CA[2] ("Beam\EFFECT_BeamDroplet" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
 
-If B_S = "¬" Then
+If B_S = "å°" Then
   Set B_CB[1] ("Beam\EFFECT_BeamHit" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
   Set B_CB[2] ("Beam\EFFECT_BeamHit" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
   Set m 1
   Set P_S[1] 26
   Set P_S[2] 24
-ElseIf B_S = "’†" Then
+ElseIf B_S = "ä¸­" Then
   Set B_CB[1] ("Beam\EFFECT_MBeamHit" & _GetName("(Pink)",_G_BC_FA(B_C[A])) & "0")
   Set B_CB[2] ("Beam\EFFECT_MBeamHit" & _GetName("(Pink)",_G_BC_FA(B_C[B])) & "0")
   Set m 2
@@ -231,8 +231,8 @@ ElseIf B_S = "’†" Then
   Set P_S[2] 16
 EndIf
 
-Set X_F _GetCircumference((ANG + 90),‚w)
-Set Y_F _GetCircumference((ANG + 90),‚x)
+Set X_F _GetCircumference((ANG + 90),ï¼¸)
+Set Y_F _GetCircumference((ANG + 90),ï¼¹)
 
 Wait Start
 For i = 1 To 6
@@ -242,48 +242,48 @@ For i = 1 To 6
   EndIf
   Switch i
   Case 2
-    PaintPicture (B_CA[1] & 1 & ".bmp") (E_X + P_S[1] + (X_F * 8)) (E_Y + P_S[1] + (Y_F * 8)) (12 * m) (12 * m) ‰E‰ñ“] ANG “§‰ß _ColorTime(1)
-    PaintPicture (B_CA[2] & 1 & ".bmp") (E_X + P_S[1] + (X_F * -8)) (E_Y + P_S[1] + (Y_F * -8)) (12 * m) (12 * m) ‰E‰ñ“] ANG “§‰ß _ColorTime(1)
+    PaintPicture (B_CA[1] & 1 & ".bmp") (E_X + P_S[1] + (X_F * 8)) (E_Y + P_S[1] + (Y_F * 8)) (12 * m) (12 * m) å³å›è»¢ ANG é€é _ColorTime(1)
+    PaintPicture (B_CA[2] & 1 & ".bmp") (E_X + P_S[1] + (X_F * -8)) (E_Y + P_S[1] + (Y_F * -8)) (12 * m) (12 * m) å³å›è»¢ ANG é€é _ColorTime(1)
   Case 3 4
-    PaintPicture (B_CA[1] & 1 & ".bmp") (E_X + P_S[2] + (X_F * 8)) (E_Y + P_S[2] + (Y_F * 8)) (16 * m) (16 * m) ‰E‰ñ“] ANG “§‰ß _ColorTime(1)
-    PaintPicture (B_CA[2] & 1 & ".bmp") (E_X + P_S[2] + (X_F * -8)) (E_Y + P_S[2] + (Y_F * -8)) (16 * m) (16 * m) ‰E‰ñ“] ANG “§‰ß _ColorTime(1)
+    PaintPicture (B_CA[1] & 1 & ".bmp") (E_X + P_S[2] + (X_F * 8)) (E_Y + P_S[2] + (Y_F * 8)) (16 * m) (16 * m) å³å›è»¢ ANG é€é _ColorTime(1)
+    PaintPicture (B_CA[2] & 1 & ".bmp") (E_X + P_S[2] + (X_F * -8)) (E_Y + P_S[2] + (Y_F * -8)) (16 * m) (16 * m) å³å›è»¢ ANG é€é _ColorTime(1)
   EndSw
-  PaintPicture (B_CB[1] & i & ".bmp") (E_X + (X_F * 8)) (E_Y + (Y_F * 8)) 64 64 “§‰ß ‰E‰ñ“] ANG _ColorTime(1)
-  PaintPicture (B_CB[2] & i & ".bmp") (E_X + (X_F * -8)) (E_Y + (Y_F * -8)) 64 64 “§‰ß ‰E‰ñ“] ANG _ColorTime(1)
+  PaintPicture (B_CB[1] & i & ".bmp") (E_X + (X_F * 8)) (E_Y + (Y_F * 8)) 64 64 é€é å³å›è»¢ ANG _ColorTime(1)
+  PaintPicture (B_CB[2] & i & ".bmp") (E_X + (X_F * -8)) (E_Y + (Y_F * -8)) 64 64 é€é å³å›è»¢ ANG _ColorTime(1)
   Refresh
   Wait Until (0.7 * i)
 Next
 
 UnSet i m E_X E_Y ANG B_C B_CA B_CB X_F Y_F ARY B_S P_S
 Return
-# ƒ[ƒJƒ‹•Ï”‚ğíœ‚µ‚ÄƒŠƒ^[ƒ“
+# ãƒ­ãƒ¼ã‚«ãƒ«å¤‰æ•°ã‚’å‰Šé™¤ã—ã¦ãƒªã‚¿ãƒ¼ãƒ³
 
 
 
-í“¬ƒAƒjƒ_00_¶‰E•Ê•Ší“ËŒ‚UŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_00_å·¦å³åˆ¥æ­¦å™¨çªæ’ƒæ”»æ’ƒ:
 
 Local i C_X C_Y W_X W_Y ANG DRCT DRCT2 W_P W_S H_C S-I C-S LN
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Set C_X WX(UID)
 Set C_Y WY(UID)
 Set ANG Call(_GetAngle)
 
-  If (X(UID) >= _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
+  If (X(UID) >= _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
     Set DRCT ""
   Else
-    Set DRCT ¶‰E”½“]
+    Set DRCT å·¦å³åè»¢
   EndIf
 Set DRCT2 _FlipVertical(ANG)
 
 For i = 1 To ArgNum
   Array ARY Args(i) "="
   Switch ARY[1]
-  Case ‰æ‘œƒtƒ@ƒCƒ‹
+  Case ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«
     Set W_P[1] ARY[2]
     Set W_P[2] ARY[3]
-  Case ‰æ‘œƒTƒCƒY
+  Case ç”»åƒã‚µã‚¤ã‚º
     Set W_S[1] ARY[2]
     Set W_S[2] ARY[3]
   Case Else
@@ -295,10 +295,10 @@ Set H_C[1] (W_S[1] / 2)
 Set H_C[2] (W_S[2] / 2)
 Set S-I[A] (Sin(3.141592 * (ANG + 90) / 180) * 16)
 Set C-S[A] (Cos(3.141592 * (ANG + 90) / 180) * 16)
-# ‰æ‘œ•\¦—pEC³’l‚ÌŒvZ‚È‚Ç
+# ç”»åƒè¡¨ç¤ºç”¨ãƒ»ä¿®æ­£å€¤ã®è¨ˆç®—ãªã©
 
-Local X_F = _GetCircumference(ANG,‚w)
-Local Y_F = _GetCircumference(ANG,‚x)
+Local X_F = _GetCircumference(ANG,ï¼¸)
+Local Y_F = _GetCircumference(ANG,ï¼¹)
 Local BMP_FILE = _GetBMPName(UID)
 Local BMP_FILE2 = _GetTileName(UID)
 
@@ -309,12 +309,12 @@ Set W_Y[1] ((C_Y + 16) - H_C[1] - S-I[A])
 Set W_X[2] ((C_X + 16) - H_C[2] + C-S[A])
 Set W_Y[2] ((C_Y + 16) - H_C[2] + S-I[A])
 
-# «‚±‚±‚©‚ç‰æ‘œ‚Ì•\¦
+# â†“ã“ã“ã‹ã‚‰ç”»åƒã®è¡¨ç¤º
 
 Wait Start
 _SelectSound Whiz.wav _GetWavFromArgs()
 
-ChangeUnitBitmap UID ”ñ•\¦
+ChangeUnitBitmap UID éè¡¨ç¤º
 
 For i = 1 To 4
   ClearPicture
@@ -329,9 +329,9 @@ For i = 1 To 4
   Case 5
   EndSw
 
-  PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 32 32 “§‰ß DRCT _ColorTime()
-  PaintPicture W_P[1] (W_X[1] + (X_F * LN)) (W_Y[1] + (Y_F * LN)) W_S[1] W_S[1] “§‰ß DRCT2 ‰E‰ñ“] ANG _ColorTime()
-  PaintPicture W_P[2] (W_X[2] + (X_F * LN)) (W_Y[2] + (Y_F * LN)) W_S[2] W_S[2] “§‰ß DRCT2 ‰E‰ñ“] ANG _ColorTime()
+  PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 32 32 é€é DRCT _ColorTime()
+  PaintPicture W_P[1] (W_X[1] + (X_F * LN)) (W_Y[1] + (Y_F * LN)) W_S[1] W_S[1] é€é DRCT2 å³å›è»¢ ANG _ColorTime()
+  PaintPicture W_P[2] (W_X[2] + (X_F * LN)) (W_Y[2] + (Y_F * LN)) W_S[2] W_S[2] é€é DRCT2 å³å›è»¢ ANG _ColorTime()
 
   Refresh
   Wait Until (i * 0.7)
@@ -339,7 +339,7 @@ Next
 
 _SetAnimeData_UnitPoint (X_F * LN) (Y_F * LN) 0 DRCT "" "" UID
 
-ChangeUnitBitmap UID ”ñ•\¦‰ğœ
+ChangeUnitBitmap UID éè¡¨ç¤ºè§£é™¤
 
 UnSet i C_X C_Y W_X W_Y ANG DRCT DRCT2 W_P W_S H_C S-I C-S X_F Y_F LN
 Return "Keep"
@@ -351,17 +351,17 @@ Return "Keep"
 
 
 
-######        ˆÈ‰º‚Ìí“¬ƒAƒjƒ‚Í“~¯‚³‚ñ‚©‚ç’ñ‹Ÿ‚µ‚Ä‚¢‚½‚¾‚«‚Ü‚µ‚½B          ######
-###### —¬—p‹–‰Â‚à’¸‚¢‚Ä‚¢‚é‚Ì‚Å•K—v‚È‚ç‘¼‚Ìƒf[ƒ^‚âƒVƒiƒŠƒI‚É—¬—p‚à‚n‚j‚Å‚·B ######
+######        ä»¥ä¸‹ã®æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ã¯å†¬æ˜Ÿã•ã‚“ã‹ã‚‰æä¾›ã—ã¦ã„ãŸã ãã¾ã—ãŸã€‚          ######
+###### æµç”¨è¨±å¯ã‚‚é ‚ã„ã¦ã„ã‚‹ã®ã§å¿…è¦ãªã‚‰ä»–ã®ãƒ‡ãƒ¼ã‚¿ã‚„ã‚·ãƒŠãƒªã‚ªã«æµç”¨ã‚‚ï¼¯ï¼«ã§ã™ã€‚ ######
  
-# ˆê‰A¬ƒr[ƒ€‚É‚à‘Î‰‚³‚¹‚Ä‚Ü‚·‚ªA‚¨‚»‚ç‚­A‚ ‚ñ‚Ü‚èˆÓ–¡‚Í‚ ‚è‚Ü‚¹‚ñB
-# “–‘R‚È‚ª‚çAƒr[ƒ€F‚Ì•ÏX‚Í‚Å‚«‚Ü‚·B
+# ä¸€å¿œã€å°ãƒ“ãƒ¼ãƒ ã«ã‚‚å¯¾å¿œã•ã›ã¦ã¾ã™ãŒã€ãŠãã‚‰ãã€ã‚ã‚“ã¾ã‚Šæ„å‘³ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚
+# å½“ç„¶ãªãŒã‚‰ã€ãƒ“ãƒ¼ãƒ è‰²ã®å¤‰æ›´ã¯ã§ãã¾ã™ã€‚
 
-#„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-í“¬ƒAƒjƒ_‚f‚mƒzƒ‹ƒXƒ^[ƒrƒbƒgUŒ‚:
+#â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ï¼§ï¼®ãƒ›ãƒ«ã‚¹ã‚¿ãƒ¼ãƒ“ãƒƒãƒˆæ”»æ’ƒ:
 
 Local i m T_X T_Y ANG DRCT W_P W_S B_F B_S B_C H_C S-I C-S X_F Y_F ARY
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Set T_X (WX(UID) + 16)
@@ -373,31 +373,31 @@ Set B_C _GetName("(Pink)",_GetBeamColorFromArgs())
 Set W_P _GetName(Weapon\EFFECT_BeamRifle01.bmp,_GetBMPFromArgs())
 Set W_S _GetName(32,_GetNumberFromArgs())
 
-If B_S = "¬" Then
+If B_S = "å°" Then
   Set B_F ("Beam\EFFECT_Beam" & B_C & "0")
-ElseIf B_S = "’†" Then
+ElseIf B_S = "ä¸­" Then
   Set B_F ("Beam\EFFECT_MBeam" & B_C & "0")
 EndIf
 
 Set H_C (W_S / 2)
-# C³’l‚ÌŒvZcc‰æ‘œƒTƒCƒY‚Ì”¼•ª‰æ‘œ‰ñ“]‚Ì”¼Œa
+# ä¿®æ­£å€¤ã®è¨ˆç®—â€¦â€¦ç”»åƒã‚µã‚¤ã‚ºã®åŠåˆ†ï¼ç”»åƒå›è»¢æ™‚ã®åŠå¾„
 
 Set S-I[A] (Sin(3.141592 * ANG / 180) * 20)
 Set C-S[A] (Cos(3.141592 * ANG / 180) * 20)
-# ƒr[ƒ€‚Ì”­ËˆÊ’uC³’l
+# ãƒ“ãƒ¼ãƒ ã®ç™ºå°„ä½ç½®ä¿®æ­£å€¤
 #
-# EFFECT_G00_GNHolsterBits(F).bmp‚ğŠJ‚¢‚½‚Æ‚±‚ëAŒŠ‚ÆŒŠ‚ÌŠÔŠu‚Í20‘OŒã‚¾‚Á‚½‚Ì‚Å”¼Œa20‚Ì‰~‚Æ‰¼’èB
-# ‚»‚ê‚¼‚êƒTƒCƒ“‚ÆƒRƒTƒCƒ“‚ğ‹‚ß‚Ä‚¢‚Ü‚·B
-# “ñ’šƒr[ƒ€ƒ‰ƒCƒtƒ‹‚Æˆá‚¢A–CŒû‚ªˆê’¼üã‚É•À‚ñ‚Å‚¢‚é‚½‚ßAŠp“x(ANG)‚ÉC³’l‚ğ‘«‚·•K—v‚ª‚ ‚è‚Ü‚¹‚ñB
-# ‚ ‚Æ‚ÍA‚±‚±‚Å“¾‚½’l‚ğƒvƒ‰ƒX‚É‚·‚é‚©ƒ}ƒCƒiƒX‚É‚·‚é‚©(^‚ñ’†‚Ì–CŒû‚Å‚Í‰½‚à‚µ‚È‚¢)‚¾‚¯‚Å‚·B
+# EFFECT_G00_GNHolsterBits(F).bmpã‚’é–‹ã„ãŸã¨ã“ã‚ã€ç©´ã¨ç©´ã®é–“éš”ã¯20å‰å¾Œã ã£ãŸã®ã§åŠå¾„20ã®å††ã¨ä»®å®šã€‚
+# ãã‚Œãã‚Œã‚µã‚¤ãƒ³ã¨ã‚³ã‚µã‚¤ãƒ³ã‚’æ±‚ã‚ã¦ã„ã¾ã™ã€‚
+# äºŒä¸ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ«ã¨é•ã„ã€ç ²å£ãŒä¸€ç›´ç·šä¸Šã«ä¸¦ã‚“ã§ã„ã‚‹ãŸã‚ã€è§’åº¦(ANG)ã«ä¿®æ­£å€¤ã‚’è¶³ã™å¿…è¦ãŒã‚ã‚Šã¾ã›ã‚“ã€‚
+# ã‚ã¨ã¯ã€ã“ã“ã§å¾—ãŸå€¤ã‚’ãƒ—ãƒ©ã‚¹ã«ã™ã‚‹ã‹ãƒã‚¤ãƒŠã‚¹ã«ã™ã‚‹ã‹(çœŸã‚“ä¸­ã®ç ²å£ã§ã¯ä½•ã‚‚ã—ãªã„)ã ã‘ã§ã™ã€‚
 
-Set X_F _GetCircumference(ANG,‚w)
-Set Y_F _GetCircumference(ANG,‚x)
-# ƒr[ƒ€”­Ë‚Ìh”½“®hƒr[ƒ€”­Ë•ûŒü‚Ì‹tƒxƒNƒgƒ‹‚ğ‹‚ß‚éB
+Set X_F _GetCircumference(ANG,ï¼¸)
+Set Y_F _GetCircumference(ANG,ï¼¹)
+# ãƒ“ãƒ¼ãƒ ç™ºå°„æ™‚ã®â€åå‹•â€ï¼ãƒ“ãƒ¼ãƒ ç™ºå°„æ–¹å‘ã®é€†ãƒ™ã‚¯ãƒˆãƒ«ã‚’æ±‚ã‚ã‚‹ã€‚
 
 _UnSetBattleAnimeValue
 
-# «‚±‚±‚©‚ç‰æ‘œ‚Ì•\¦
+# â†“ã“ã“ã‹ã‚‰ç”»åƒã®è¡¨ç¤º
 
 Wait Start
 PlaySound Charge.wav
@@ -406,37 +406,37 @@ For i = 1 To 5
   Switch i
   Case 3
     _SelectSound Beam.wav _GetWavFromArgs()
-    If B_S = "¬" Then
+    If B_S = "å°" Then
       Set m -2
-    ElseIf B_S = "’†" Then
+    ElseIf B_S = "ä¸­" Then
       Set m -4
     EndIf
   Case 4
-    If B_S = "¬" Then
+    If B_S = "å°" Then
       Set m -1
-    ElseIf B_S = "’†" Then
+    ElseIf B_S = "ä¸­" Then
       Set m -2
     EndIf
   Case Else
     Set m 0
   EndSw
-  PaintPicture W_P (T_X - H_C + (X_F * m)) (T_Y - H_C + (Y_F * m)) W_S W_S “§‰ß DRCT ‰E‰ñ“] ANG _ColorTime()
-  PaintPicture (B_F & i & ".bmp") (T_X - 32 - C-S[A]) (T_Y - 32 - S-I[A]) 64 64 “§‰ß ‰E‰ñ“] ANG _ColorTime(1)
-  PaintPicture (B_F & i & ".bmp") (T_X - 32) (T_Y - 32) 64 64 “§‰ß ‰E‰ñ“] ANG _ColorTime(1)
-  PaintPicture (B_F & i & ".bmp") (T_X - 32 + C-S[A]) (T_Y - 32 + S-I[A]) 64 64 “§‰ß ‰E‰ñ“] ANG _ColorTime(1)
+  PaintPicture W_P (T_X - H_C + (X_F * m)) (T_Y - H_C + (Y_F * m)) W_S W_S é€é DRCT å³å›è»¢ ANG _ColorTime()
+  PaintPicture (B_F & i & ".bmp") (T_X - 32 - C-S[A]) (T_Y - 32 - S-I[A]) 64 64 é€é å³å›è»¢ ANG _ColorTime(1)
+  PaintPicture (B_F & i & ".bmp") (T_X - 32) (T_Y - 32) 64 64 é€é å³å›è»¢ ANG _ColorTime(1)
+  PaintPicture (B_F & i & ".bmp") (T_X - 32 + C-S[A]) (T_Y - 32 + S-I[A]) 64 64 é€é å³å›è»¢ ANG _ColorTime(1)
   Refresh
   Wait Until (0.8 * i)
 Next
 
-Set í“¬ƒAƒjƒ•Ï”[F] B_C
+Set æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[è‰²] B_C
 
 Return
 
-#„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-í“¬ƒAƒjƒ_‚f‚mƒzƒ‹ƒXƒ^[ƒrƒbƒg–½’†:
+#â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ï¼§ï¼®ãƒ›ãƒ«ã‚¹ã‚¿ãƒ¼ãƒ“ãƒƒãƒˆå‘½ä¸­:
 
 Local i m E_X E_Y ANG B_C B_CA B_F ARY P_S
-Local UID = _GetName(‘Šèƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Set E_X (WX(UID) - 16)
@@ -446,12 +446,12 @@ Set B_S Call(_GetSizeFromArgs)
 
 Set B_CA ("Beam\EFFECT_BeamDroplet" & _GetName("(Pink)",_GetBeamColorFromArgs()) & "0")
 
-If B_S = "¬" Then
+If B_S = "å°" Then
   Set B_F ("Beam\EFFECT_BeamHit" & _GetName("(Pink)",_GetBeamColorFromArgs()) & "0")
   Set m 1
   Set P_S[1] 26
   Set P_S[2] 24
-ElseIf B_S = "’†" Then
+ElseIf B_S = "ä¸­" Then
   Set B_F ("Beam\EFFECT_MBeamHit" & _GetName("(Pink)",_GetBeamColorFromArgs()) & "0")
   Set m 2
   Set P_S[1] 20
@@ -469,17 +469,17 @@ For i = 1 To 6
   EndIf
   Switch i
   Case 2
-    PaintPicture (B_CA & 1 & ".bmp") (E_X + P_S[1] - C-S[A]) (E_Y + P_S[1] - S-I[A]) (12 * m) (12 * m) ‰E‰ñ“] ANG “§‰ß _ColorTime(1)
-    PaintPicture (B_CA & 1 & ".bmp") (E_X + P_S[1]) (E_Y + P_S[1]) (12 * m) (12 * m) ‰E‰ñ“] ANG “§‰ß _ColorTime(1)
-    PaintPicture (B_CA & 1 & ".bmp") (E_X + P_S[1] + C-S[A]) (E_Y + P_S[1] + S-I[A]) (12 * m) (12 * m) ‰E‰ñ“] ANG “§‰ß _ColorTime(1)
+    PaintPicture (B_CA & 1 & ".bmp") (E_X + P_S[1] - C-S[A]) (E_Y + P_S[1] - S-I[A]) (12 * m) (12 * m) å³å›è»¢ ANG é€é _ColorTime(1)
+    PaintPicture (B_CA & 1 & ".bmp") (E_X + P_S[1]) (E_Y + P_S[1]) (12 * m) (12 * m) å³å›è»¢ ANG é€é _ColorTime(1)
+    PaintPicture (B_CA & 1 & ".bmp") (E_X + P_S[1] + C-S[A]) (E_Y + P_S[1] + S-I[A]) (12 * m) (12 * m) å³å›è»¢ ANG é€é _ColorTime(1)
   Case 3 4
-    PaintPicture (B_CA & 1 & ".bmp") (E_X + P_S[2] - C-S[A]) (E_Y + P_S[2] - S-I[A]) (16 * m) (16 * m) ‰E‰ñ“] ANG “§‰ß _ColorTime(1)
-    PaintPicture (B_CA & 1 & ".bmp") (E_X + P_S[2]) (E_Y + P_S[2]) (16 * m) (16 * m) ‰E‰ñ“] ANG “§‰ß _ColorTime(1)
-    PaintPicture (B_CA & 1 & ".bmp") (E_X + P_S[2] + C-S[A]) (E_Y + P_S[2] + S-I[A]) (16 * m) (16 * m) ‰E‰ñ“] ANG “§‰ß _ColorTime(1)
+    PaintPicture (B_CA & 1 & ".bmp") (E_X + P_S[2] - C-S[A]) (E_Y + P_S[2] - S-I[A]) (16 * m) (16 * m) å³å›è»¢ ANG é€é _ColorTime(1)
+    PaintPicture (B_CA & 1 & ".bmp") (E_X + P_S[2]) (E_Y + P_S[2]) (16 * m) (16 * m) å³å›è»¢ ANG é€é _ColorTime(1)
+    PaintPicture (B_CA & 1 & ".bmp") (E_X + P_S[2] + C-S[A]) (E_Y + P_S[2] + S-I[A]) (16 * m) (16 * m) å³å›è»¢ ANG é€é _ColorTime(1)
   EndSw
-  PaintPicture (B_F & i & ".bmp") (E_X - C-S[A]) (E_Y - S-I[A]) 64 64 “§‰ß ‰E‰ñ“] ANG _ColorTime(1)
-  PaintPicture (B_F & i & ".bmp") E_X E_Y 64 64 “§‰ß ‰E‰ñ“] ANG _ColorTime(1)
-  PaintPicture (B_F & i & ".bmp") (E_X + C-S[A]) (E_Y + S-I[A]) 64 64 “§‰ß ‰E‰ñ“] ANG _ColorTime(1)
+  PaintPicture (B_F & i & ".bmp") (E_X - C-S[A]) (E_Y - S-I[A]) 64 64 é€é å³å›è»¢ ANG _ColorTime(1)
+  PaintPicture (B_F & i & ".bmp") E_X E_Y 64 64 é€é å³å›è»¢ ANG _ColorTime(1)
+  PaintPicture (B_F & i & ".bmp") (E_X + C-S[A]) (E_Y + S-I[A]) 64 64 é€é å³å›è»¢ ANG _ColorTime(1)
   Refresh
   Wait Until (0.7 * i)
 

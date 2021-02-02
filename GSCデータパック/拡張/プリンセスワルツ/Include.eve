@@ -1,123 +1,123 @@
 
 ##########################################################
-#  ‚o‚v‡‘Ìˆ—Žd—l
+#  ï¼°ï¼·åˆä½“å‡¦ç†ä»•æ§˜
 #  
-#  Žg—p•Ï”F	Set ‚o‚v•Ï”
-#  Žg—p”z—ñF	•P‘¶ÝƒŠƒXƒg
+#  ä½¿ç”¨å¤‰æ•°ï¼š	Set ï¼°ï¼·å¤‰æ•°
+#  ä½¿ç”¨é…åˆ—ï¼š	å§«å­˜åœ¨ãƒªã‚¹ãƒˆ
 #  
-#  Žg‚¢•ûF
-#  VAƒC[ƒŠƒX‚ªƒCƒ“ƒ^[ƒ~ƒbƒVƒ‡ƒ“Žž‚Éƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh‚Å‡‘Ì‘ŠŽè‚ð‘I‚×‚Ü‚·
+#  ä½¿ã„æ–¹ï¼š
+#  æ–°ã€ã‚¤ãƒ¼ãƒªã‚¹ãŒã‚¤ãƒ³ã‚¿ãƒ¼ãƒŸãƒƒã‚·ãƒ§ãƒ³æ™‚ã«ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ã§åˆä½“ç›¸æ‰‹ã‚’é¸ã¹ã¾ã™
 #  
-#  ƒCƒxƒ“ƒg‚Å‚ÌŠe•P‚Ì‡‘Ì‚É‚Í "H‚Ì•PƒC[ƒŠƒX(‡‘Ì)"
-#  ‰ðœ‚Í "‡‘Ì‰ðœˆ—(‚o‚v)" ‚ðŒÄ‚Ño‚µ‚Ä‚­‚¾‚³‚¢
+#  ã‚¤ãƒ™ãƒ³ãƒˆã§ã®å„å§«ã®åˆä½“ã«ã¯ "ï¼Ÿã®å§«ã‚¤ãƒ¼ãƒªã‚¹(åˆä½“)"
+#  è§£é™¤ã¯ "åˆä½“è§£é™¤å‡¦ç†(ï¼°ï¼·)" ã‚’å‘¼ã³å‡ºã—ã¦ãã ã•ã„
 #  
-#  ‘OŠúŒ^‚ðŽg—p‚·‚éê‡
-#  "Œ•‚Ì•PƒC[ƒŠƒX(‘OŠú)(‡‘Ì)" "‡‘Ì‰ðœˆ—(‘OŠú)(‚o‚v)"‚ðŒÄ‚Ño‚µ‚Ä‚­‚¾‚³‚¢
+#  å‰æœŸåž‹ã‚’ä½¿ç”¨ã™ã‚‹å ´åˆ
+#  "å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹(å‰æœŸ)(åˆä½“)" "åˆä½“è§£é™¤å‡¦ç†(å‰æœŸ)(ï¼°ï¼·)"ã‚’å‘¼ã³å‡ºã—ã¦ãã ã•ã„
 #  
-#  “®ìÚ×F
-#  ‚PDV‚Ìƒ†ƒjƒbƒg‚ð•ÏgæƒC[ƒŠƒX‚ÖUpgrade
-#  ‚QD•ÏgæƒC[ƒŠƒX‚ÖV‚Æ•P‚ðRide
-#  ‚RDŠe•P‚ðLeave or Join
+#  å‹•ä½œè©³ç´°ï¼š
+#  ï¼‘ï¼Žæ–°ã®ãƒ¦ãƒ‹ãƒƒãƒˆã‚’å¤‰èº«å…ˆã‚¤ãƒ¼ãƒªã‚¹ã¸Upgrade
+#  ï¼’ï¼Žå¤‰èº«å…ˆã‚¤ãƒ¼ãƒªã‚¹ã¸æ–°ã¨å§«ã‚’Ride
+#  ï¼“ï¼Žå„å§«ã‚’Leave or Join
 #  
 ##########################################################
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ‡g [XV (ƒ^[ƒ“” = 0 and Unit([XV) = [XV):
-•P‘¶ÝƒŠƒXƒgì¬
-‡‘Ìˆ—(‚o‚v)
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ åˆèº« æ·±æ£®æ–° (ã‚¿ãƒ¼ãƒ³æ•° = 0 and Unit(æ·±æ£®æ–°) = æ·±æ£®æ–°):
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆä½œæˆ
+åˆä½“å‡¦ç†(ï¼°ï¼·)
 Return
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ‡g Œ•‚Ì•PƒC[ƒŠƒX (ƒ^[ƒ“” = 0 and Unit(Œ•‚Ì•PƒC[ƒŠƒX) = Œ•‚Ì•PƒC[ƒŠƒX):
-•P‘¶ÝƒŠƒXƒgì¬
-‡‘Ìˆ—(‚o‚v)
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ åˆèº« å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹ (ã‚¿ãƒ¼ãƒ³æ•° = 0 and Unit(å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹) = å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹):
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆä½œæˆ
+åˆä½“å‡¦ç†(ï¼°ï¼·)
 Return
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ‡g —³‚Ì•PƒC[ƒŠƒX (ƒ^[ƒ“” = 0):
-•P‘¶ÝƒŠƒXƒgì¬
-‡‘Ìˆ—(‚o‚v)
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ åˆèº« ç«œã®å§«ã‚¤ãƒ¼ãƒªã‚¹ (ã‚¿ãƒ¼ãƒ³æ•° = 0):
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆä½œæˆ
+åˆä½“å‡¦ç†(ï¼°ï¼·)
 Return
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ‡g ‘å’n‚Ì•PƒC[ƒŠƒX (ƒ^[ƒ“” = 0):
-•P‘¶ÝƒŠƒXƒgì¬
-‡‘Ìˆ—(‚o‚v)
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ åˆèº« å¤§åœ°ã®å§«ã‚¤ãƒ¼ãƒªã‚¹ (ã‚¿ãƒ¼ãƒ³æ•° = 0):
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆä½œæˆ
+åˆä½“å‡¦ç†(ï¼°ï¼·)
 Return
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ‡g —’‚Ì•PƒC[ƒŠƒX (ƒ^[ƒ“” = 0):
-•P‘¶ÝƒŠƒXƒgì¬
-‡‘Ìˆ—(‚o‚v)
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ åˆèº« åµã®å§«ã‚¤ãƒ¼ãƒªã‚¹ (ã‚¿ãƒ¼ãƒ³æ•° = 0):
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆä½œæˆ
+åˆä½“å‡¦ç†(ï¼°ï¼·)
 Return
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ‡g |‚Ì•PƒC[ƒŠƒX (ƒ^[ƒ“” = 0):
-•P‘¶ÝƒŠƒXƒgì¬
-‡‘Ìˆ—(‚o‚v)
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ åˆèº« é‹¼ã®å§«ã‚¤ãƒ¼ãƒªã‚¹ (ã‚¿ãƒ¼ãƒ³æ•° = 0):
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆä½œæˆ
+åˆä½“å‡¦ç†(ï¼°ï¼·)
 Return
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh ‡g b‚Ì•PƒC[ƒŠƒX (ƒ^[ƒ“” = 0):
-•P‘¶ÝƒŠƒXƒgì¬
-‡‘Ìˆ—(‚o‚v)
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒžãƒ³ãƒ‰ åˆèº« ç£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹ (ã‚¿ãƒ¼ãƒ³æ•° = 0):
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆä½œæˆ
+åˆä½“å‡¦ç†(ï¼°ï¼·)
 Return
 
 ##########################################################
-‡‘Ìˆ—(‚o‚v):
-Ask •P‘¶ÝƒŠƒXƒg ’N‚Æ‡g‚µ‚Ü‚·‚©H
+åˆä½“å‡¦ç†(ï¼°ï¼·):
+Ask å§«å­˜åœ¨ãƒªã‚¹ãƒˆ èª°ã¨åˆèº«ã—ã¾ã™ã‹ï¼Ÿ
 
-Switch ‘I‘ð
+Switch é¸æŠž
 
 Case 1
-if •P‘¶ÝƒŠƒXƒg[1] = HHH Then
-Talk ƒVƒXƒeƒ€
-‘ŠŽè‚ª‘¶Ý‚µ‚Ü‚¹‚ñ
+if å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[1] = ï¼Ÿï¼Ÿï¼Ÿ Then
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ç›¸æ‰‹ãŒå­˜åœ¨ã—ã¾ã›ã‚“
 End
 else
-Œ•‚Ì•PƒC[ƒŠƒX(‡‘Ì)
+å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹(åˆä½“)
 endif
 
 Case 2
-if •P‘¶ÝƒŠƒXƒg[2] = HHH Then
-Talk ƒVƒXƒeƒ€
-‘ŠŽè‚ª‘¶Ý‚µ‚Ü‚¹‚ñ
+if å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[2] = ï¼Ÿï¼Ÿï¼Ÿ Then
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ç›¸æ‰‹ãŒå­˜åœ¨ã—ã¾ã›ã‚“
 End
 else
-—³‚Ì•PƒC[ƒŠƒX(‡‘Ì)
+ç«œã®å§«ã‚¤ãƒ¼ãƒªã‚¹(åˆä½“)
 endif
 
 Case 3
-if •P‘¶ÝƒŠƒXƒg[3] = HHH Then
-Talk ƒVƒXƒeƒ€
-‘ŠŽè‚ª‘¶Ý‚µ‚Ü‚¹‚ñ
+if å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[3] = ï¼Ÿï¼Ÿï¼Ÿ Then
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ç›¸æ‰‹ãŒå­˜åœ¨ã—ã¾ã›ã‚“
 End
 else
-‘å’n‚Ì•PƒC[ƒŠƒX(‡‘Ì)
+å¤§åœ°ã®å§«ã‚¤ãƒ¼ãƒªã‚¹(åˆä½“)
 endif
 
 Case 4
-if •P‘¶ÝƒŠƒXƒg[4] = HHH Then
-Talk ƒVƒXƒeƒ€
-‘ŠŽè‚ª‘¶Ý‚µ‚Ü‚¹‚ñ
+if å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[4] = ï¼Ÿï¼Ÿï¼Ÿ Then
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ç›¸æ‰‹ãŒå­˜åœ¨ã—ã¾ã›ã‚“
 End
 else
-—’‚Ì•PƒC[ƒŠƒX(‡‘Ì)
+åµã®å§«ã‚¤ãƒ¼ãƒªã‚¹(åˆä½“)
 endif
 
 Case 5
-if •P‘¶ÝƒŠƒXƒg[5] = HHH Then
-Talk ƒVƒXƒeƒ€
-‘ŠŽè‚ª‘¶Ý‚µ‚Ü‚¹‚ñ
+if å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[5] = ï¼Ÿï¼Ÿï¼Ÿ Then
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ç›¸æ‰‹ãŒå­˜åœ¨ã—ã¾ã›ã‚“
 End
 else
-|‚Ì•PƒC[ƒŠƒX(‡‘Ì)
+é‹¼ã®å§«ã‚¤ãƒ¼ãƒªã‚¹(åˆä½“)
 endif
 
 Case 6
-if •P‘¶ÝƒŠƒXƒg[6] = HHH Then
-Talk ƒVƒXƒeƒ€
-‘ŠŽè‚ª‘¶Ý‚µ‚Ü‚¹‚ñ
+if å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[6] = ï¼Ÿï¼Ÿï¼Ÿ Then
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ç›¸æ‰‹ãŒå­˜åœ¨ã—ã¾ã›ã‚“
 End
 else
-b‚Ì•PƒC[ƒŠƒX(‡‘Ì)
+ç£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹(åˆä½“)
 endif
 
 Case 7
-‡‘Ì‰ðœˆ—(‚o‚v)
+åˆä½“è§£é™¤å‡¦ç†(ï¼°ï¼·)
 
 EndSw
 
@@ -125,217 +125,217 @@ Exit
 
 
 ##########################################################
-Œ•‚Ì•PƒC[ƒŠƒX(‡‘Ì):
-‰Šú‰»ˆ—(‚o‚v)
-Upgrade ‚o‚v•Ï” Œ•‚Ì•PƒC[ƒŠƒX
-Ride [XV Œ•‚Ì•PƒC[ƒŠƒX
-Leave ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh
-Ride ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh Œ•‚Ì•PƒC[ƒŠƒX
-if (ƒ^[ƒ“” = 0) Then
-MakeUnitList ‚g‚o
+å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹(åˆä½“):
+åˆæœŸåŒ–å‡¦ç†(ï¼°ï¼·)
+Upgrade ï¼°ï¼·å¤‰æ•° å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+Ride æ·±æ£®æ–° å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+Leave ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰
+Ride ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+if (ã‚¿ãƒ¼ãƒ³æ•° = 0) Then
+MakeUnitList ï¼¨ï¼°
 endif
 Return
 
-—³‚Ì•PƒC[ƒŠƒX(‡‘Ì):
-‰Šú‰»ˆ—(‚o‚v)
-Upgrade ‚o‚v•Ï” —³‚Ì•PƒC[ƒŠƒX
-Ride [XV —³‚Ì•PƒC[ƒŠƒX
-Leave ƒAƒ“ƒWƒFƒ‰ƒ”ƒBƒNƒgƒ[ƒ‹ƒuƒŒƒ“ƒfƒBƒ“
-Ride ƒAƒ“ƒWƒFƒ‰ƒ”ƒBƒNƒgƒ[ƒ‹ƒuƒŒƒ“ƒfƒBƒ“ —³‚Ì•PƒC[ƒŠƒX
-if (ƒ^[ƒ“” = 0) Then
-MakeUnitList ‚g‚o
+ç«œã®å§«ã‚¤ãƒ¼ãƒªã‚¹(åˆä½“):
+åˆæœŸåŒ–å‡¦ç†(ï¼°ï¼·)
+Upgrade ï¼°ï¼·å¤‰æ•° ç«œã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+Ride æ·±æ£®æ–° ç«œã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+Leave ã‚¢ãƒ³ã‚¸ã‚§ãƒ©ï¼ãƒ´ã‚£ã‚¯ãƒˆãƒ¯ãƒ¼ãƒ«ï¼ãƒ–ãƒ¬ãƒ³ãƒ‡ã‚£ãƒ³
+Ride ã‚¢ãƒ³ã‚¸ã‚§ãƒ©ï¼ãƒ´ã‚£ã‚¯ãƒˆãƒ¯ãƒ¼ãƒ«ï¼ãƒ–ãƒ¬ãƒ³ãƒ‡ã‚£ãƒ³ ç«œã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+if (ã‚¿ãƒ¼ãƒ³æ•° = 0) Then
+MakeUnitList ï¼¨ï¼°
 endif
 Return
 
-‘å’n‚Ì•PƒC[ƒŠƒX(‡‘Ì):
-‰Šú‰»ˆ—(‚o‚v)
-Upgrade ‚o‚v•Ï” ‘å’n‚Ì•PƒC[ƒŠƒX
-Ride [XV ‘å’n‚Ì•PƒC[ƒŠƒX
-Leave Ž®_Šy´”’
-Ride Ž®_Šy´”’ ‘å’n‚Ì•PƒC[ƒŠƒX
-if (ƒ^[ƒ“” = 0) Then
-MakeUnitList ‚g‚o
+å¤§åœ°ã®å§«ã‚¤ãƒ¼ãƒªã‚¹(åˆä½“):
+åˆæœŸåŒ–å‡¦ç†(ï¼°ï¼·)
+Upgrade ï¼°ï¼·å¤‰æ•° å¤§åœ°ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+Ride æ·±æ£®æ–° å¤§åœ°ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+Leave å¼ç¥žæ¥½æ¸…ç™½
+Ride å¼ç¥žæ¥½æ¸…ç™½ å¤§åœ°ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+if (ã‚¿ãƒ¼ãƒ³æ•° = 0) Then
+MakeUnitList ï¼¨ï¼°
 endif
 Return
 
-—’‚Ì•PƒC[ƒŠƒX(‡‘Ì):
-‰Šú‰»ˆ—(‚o‚v)
-Upgrade ‚o‚v•Ï” —’‚Ì•PƒC[ƒŠƒX
-Ride [XV —’‚Ì•PƒC[ƒŠƒX
-Leave ƒŠƒŠƒA[ƒiƒ‹ƒ“ƒ‹ƒ“ƒMƒ…ƒ“ƒXƒ^[
-Ride ƒŠƒŠƒA[ƒiƒ‹ƒ“ƒ‹ƒ“ƒMƒ…ƒ“ƒXƒ^[ —’‚Ì•PƒC[ƒŠƒX
-if (ƒ^[ƒ“” = 0) Then
-MakeUnitList ‚g‚o
+åµã®å§«ã‚¤ãƒ¼ãƒªã‚¹(åˆä½“):
+åˆæœŸåŒ–å‡¦ç†(ï¼°ï¼·)
+Upgrade ï¼°ï¼·å¤‰æ•° åµã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+Ride æ·±æ£®æ–° åµã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+Leave ãƒªãƒªã‚¢ãƒ¼ãƒŠï¼ãƒ«ãƒ³ï¼ãƒ«ãƒ³ï¼ã‚®ãƒ¥ãƒ³ã‚¹ã‚¿ãƒ¼
+Ride ãƒªãƒªã‚¢ãƒ¼ãƒŠï¼ãƒ«ãƒ³ï¼ãƒ«ãƒ³ï¼ã‚®ãƒ¥ãƒ³ã‚¹ã‚¿ãƒ¼ åµã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+if (ã‚¿ãƒ¼ãƒ³æ•° = 0) Then
+MakeUnitList ï¼¨ï¼°
 endif
 Return
 
-|‚Ì•PƒC[ƒŠƒX(‡‘Ì):
-‰Šú‰»ˆ—(‚o‚v)
-Upgrade ‚o‚v•Ï” |‚Ì•PƒC[ƒŠƒX
-Ride [XV |‚Ì•PƒC[ƒŠƒX
-Leave ƒŠ[ƒ[ƒ‹ƒwƒ“ƒ[ƒ‹
-Ride ƒŠ[ƒ[ƒ‹ƒwƒ“ƒ[ƒ‹ |‚Ì•PƒC[ƒŠƒX
-if (ƒ^[ƒ“” = 0) Then
-MakeUnitList ‚g‚o
+é‹¼ã®å§«ã‚¤ãƒ¼ãƒªã‚¹(åˆä½“):
+åˆæœŸåŒ–å‡¦ç†(ï¼°ï¼·)
+Upgrade ï¼°ï¼·å¤‰æ•° é‹¼ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+Ride æ·±æ£®æ–° é‹¼ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+Leave ãƒªãƒ¼ã‚¼ãƒ«ï¼ãƒ˜ãƒ³ã‚¼ãƒ«
+Ride ãƒªãƒ¼ã‚¼ãƒ«ï¼ãƒ˜ãƒ³ã‚¼ãƒ« é‹¼ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+if (ã‚¿ãƒ¼ãƒ³æ•° = 0) Then
+MakeUnitList ï¼¨ï¼°
 endif
 Return
 
-b‚Ì•PƒC[ƒŠƒX(‡‘Ì):
-‰Šú‰»ˆ—(‚o‚v)
-Upgrade ‚o‚v•Ï” b‚Ì•PƒC[ƒŠƒX
-Ride [XV b‚Ì•PƒC[ƒŠƒX
-Leave [XÃ
-Ride [XÃ b‚Ì•PƒC[ƒŠƒX
-if (ƒ^[ƒ“” = 0) Then
-MakeUnitList ‚g‚o
-endif
-Return
-
-##########################################################
-‡‘Ì‰ðœˆ—(‚o‚v):
-‰Šú‰»ˆ—(‚o‚v)
-Upgrade ‚o‚v•Ï” [XV
-Ride [XV [XV
-if (ƒ^[ƒ“” = 0) Then
-MakeUnitList ‚g‚o
+ç£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹(åˆä½“):
+åˆæœŸåŒ–å‡¦ç†(ï¼°ï¼·)
+Upgrade ï¼°ï¼·å¤‰æ•° ç£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+Ride æ·±æ£®æ–° ç£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+Leave æ·±æ£®é™
+Ride æ·±æ£®é™ ç£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+if (ã‚¿ãƒ¼ãƒ³æ•° = 0) Then
+MakeUnitList ï¼¨ï¼°
 endif
 Return
 
 ##########################################################
-‰Šú‰»ˆ—(‚o‚v):
-if Unit([XV) = Œ•‚Ì•PƒC[ƒŠƒX Then
-if Info(ƒ†ƒjƒbƒg, ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh(ƒhƒŒƒX‘•g), –¼Ì) = ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh(ƒhƒŒƒX‘•g) Then
-Ride ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh(ƒhƒŒƒX‘•g)
-else
-Ride ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh
-endif
-Join ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh
-Set ‚o‚v•Ï” Œ•‚Ì•PƒC[ƒŠƒX
-elseif Unit([XV) = —³‚Ì•PƒC[ƒŠƒX Then
-Ride ƒAƒ“ƒWƒFƒ‰ƒ”ƒBƒNƒgƒ[ƒ‹ƒuƒŒƒ“ƒfƒBƒ“ ƒAƒ“ƒWƒFƒ‰ƒ”ƒBƒNƒgƒ[ƒ‹ƒuƒŒƒ“ƒfƒBƒ“
-Join ƒAƒ“ƒWƒFƒ‰ƒ”ƒBƒNƒgƒ[ƒ‹ƒuƒŒƒ“ƒfƒBƒ“
-Set ‚o‚v•Ï” —³‚Ì•PƒC[ƒŠƒX
-elseif Unit([XV) = ‘å’n‚Ì•PƒC[ƒŠƒX Then
-Ride Ž®_Šy´”’ Ž®_Šy´”’
-Join Ž®_Šy´”’
-Set ‚o‚v•Ï” ‘å’n‚Ì•PƒC[ƒŠƒX
-elseif Unit([XV) = —’‚Ì•PƒC[ƒŠƒX Then
-Ride ƒŠƒŠƒA[ƒiƒ‹ƒ“ƒ‹ƒ“ƒMƒ…ƒ“ƒXƒ^[ ƒŠƒŠƒA[ƒiƒ‹ƒ“ƒ‹ƒ“ƒMƒ…ƒ“ƒXƒ^[
-Join ƒŠƒŠƒA[ƒiƒ‹ƒ“ƒ‹ƒ“ƒMƒ…ƒ“ƒXƒ^[
-Set ‚o‚v•Ï” —’‚Ì•PƒC[ƒŠƒX
-elseif Unit([XV) = |‚Ì•PƒC[ƒŠƒX Then
-Ride ƒŠ[ƒ[ƒ‹ƒwƒ“ƒ[ƒ‹ ƒŠ[ƒ[ƒ‹ƒwƒ“ƒ[ƒ‹
-Join ƒŠ[ƒ[ƒ‹ƒwƒ“ƒ[ƒ‹
-Set ‚o‚v•Ï” |‚Ì•PƒC[ƒŠƒX
-elseif Unit([XV) = b‚Ì•PƒC[ƒŠƒX Then
-Ride [XÃ [XÃ
-Join [XÃ
-Set ‚o‚v•Ï” b‚Ì•PƒC[ƒŠƒX
-else
-Set ‚o‚v•Ï” [XV
+åˆä½“è§£é™¤å‡¦ç†(ï¼°ï¼·):
+åˆæœŸåŒ–å‡¦ç†(ï¼°ï¼·)
+Upgrade ï¼°ï¼·å¤‰æ•° æ·±æ£®æ–°
+Ride æ·±æ£®æ–° æ·±æ£®æ–°
+if (ã‚¿ãƒ¼ãƒ³æ•° = 0) Then
+MakeUnitList ï¼¨ï¼°
 endif
 Return
 
 ##########################################################
-Œ•‚Ì•PƒC[ƒŠƒX(‘OŠú)(‡‘Ì):
-Ride ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh
-Join ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh
-Upgrade [XV(‘OŠú) Œ•‚Ì•PƒC[ƒŠƒX(‘OŠú)
-Ride [XV Œ•‚Ì•PƒC[ƒŠƒX(‘OŠú)
-Leave ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh
-Ride ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh Œ•‚Ì•PƒC[ƒŠƒX(‘OŠú)
-if (ƒ^[ƒ“” = 0) Then
-MakeUnitList ‚g‚o
+åˆæœŸåŒ–å‡¦ç†(ï¼°ï¼·):
+if Unit(æ·±æ£®æ–°) = å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹ Then
+if Info(ãƒ¦ãƒ‹ãƒƒãƒˆ, ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰(ãƒ‰ãƒ¬ã‚¹è£…èº«), åç§°) = ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰(ãƒ‰ãƒ¬ã‚¹è£…èº«) Then
+Ride ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰(ãƒ‰ãƒ¬ã‚¹è£…èº«)
+else
+Ride ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰
 endif
-Return
-
-‡‘Ì‰ðœˆ—(‘OŠú)(‚o‚v):
-Ride ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh
-Join ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh
-Upgrade Œ•‚Ì•PƒC[ƒŠƒX(‘OŠú) [XV(‘OŠú)
-Ride [XV [XV(‘OŠú)
-if (ƒ^[ƒ“” = 0) Then
-MakeUnitList ‚g‚o
+Join ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰
+Set ï¼°ï¼·å¤‰æ•° å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+elseif Unit(æ·±æ£®æ–°) = ç«œã®å§«ã‚¤ãƒ¼ãƒªã‚¹ Then
+Ride ã‚¢ãƒ³ã‚¸ã‚§ãƒ©ï¼ãƒ´ã‚£ã‚¯ãƒˆãƒ¯ãƒ¼ãƒ«ï¼ãƒ–ãƒ¬ãƒ³ãƒ‡ã‚£ãƒ³ ã‚¢ãƒ³ã‚¸ã‚§ãƒ©ï¼ãƒ´ã‚£ã‚¯ãƒˆãƒ¯ãƒ¼ãƒ«ï¼ãƒ–ãƒ¬ãƒ³ãƒ‡ã‚£ãƒ³
+Join ã‚¢ãƒ³ã‚¸ã‚§ãƒ©ï¼ãƒ´ã‚£ã‚¯ãƒˆãƒ¯ãƒ¼ãƒ«ï¼ãƒ–ãƒ¬ãƒ³ãƒ‡ã‚£ãƒ³
+Set ï¼°ï¼·å¤‰æ•° ç«œã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+elseif Unit(æ·±æ£®æ–°) = å¤§åœ°ã®å§«ã‚¤ãƒ¼ãƒªã‚¹ Then
+Ride å¼ç¥žæ¥½æ¸…ç™½ å¼ç¥žæ¥½æ¸…ç™½
+Join å¼ç¥žæ¥½æ¸…ç™½
+Set ï¼°ï¼·å¤‰æ•° å¤§åœ°ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+elseif Unit(æ·±æ£®æ–°) = åµã®å§«ã‚¤ãƒ¼ãƒªã‚¹ Then
+Ride ãƒªãƒªã‚¢ãƒ¼ãƒŠï¼ãƒ«ãƒ³ï¼ãƒ«ãƒ³ï¼ã‚®ãƒ¥ãƒ³ã‚¹ã‚¿ãƒ¼ ãƒªãƒªã‚¢ãƒ¼ãƒŠï¼ãƒ«ãƒ³ï¼ãƒ«ãƒ³ï¼ã‚®ãƒ¥ãƒ³ã‚¹ã‚¿ãƒ¼
+Join ãƒªãƒªã‚¢ãƒ¼ãƒŠï¼ãƒ«ãƒ³ï¼ãƒ«ãƒ³ï¼ã‚®ãƒ¥ãƒ³ã‚¹ã‚¿ãƒ¼
+Set ï¼°ï¼·å¤‰æ•° åµã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+elseif Unit(æ·±æ£®æ–°) = é‹¼ã®å§«ã‚¤ãƒ¼ãƒªã‚¹ Then
+Ride ãƒªãƒ¼ã‚¼ãƒ«ï¼ãƒ˜ãƒ³ã‚¼ãƒ« ãƒªãƒ¼ã‚¼ãƒ«ï¼ãƒ˜ãƒ³ã‚¼ãƒ«
+Join ãƒªãƒ¼ã‚¼ãƒ«ï¼ãƒ˜ãƒ³ã‚¼ãƒ«
+Set ï¼°ï¼·å¤‰æ•° é‹¼ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+elseif Unit(æ·±æ£®æ–°) = ç£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹ Then
+Ride æ·±æ£®é™ æ·±æ£®é™
+Join æ·±æ£®é™
+Set ï¼°ï¼·å¤‰æ•° ç£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹
+else
+Set ï¼°ï¼·å¤‰æ•° æ·±æ£®æ–°
 endif
 Return
 
 ##########################################################
-•P‘¶ÝƒŠƒXƒgì¬:
-UnSet •P‘¶ÝƒŠƒXƒg
-if Status(ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh) = oŒ‚ Then
-•P‘¶ÝƒŠƒXƒg[1] = ƒNƒŠƒXƒm[ƒXƒtƒB[ƒ‹ƒh
+å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹(å‰æœŸ)(åˆä½“):
+Ride ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰
+Join ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰
+Upgrade æ·±æ£®æ–°(å‰æœŸ) å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹(å‰æœŸ)
+Ride æ·±æ£®æ–° å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹(å‰æœŸ)
+Leave ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰
+Ride ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹(å‰æœŸ)
+if (ã‚¿ãƒ¼ãƒ³æ•° = 0) Then
+MakeUnitList ï¼¨ï¼°
+endif
+Return
+
+åˆä½“è§£é™¤å‡¦ç†(å‰æœŸ)(ï¼°ï¼·):
+Ride ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰
+Join ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰
+Upgrade å‰£ã®å§«ã‚¤ãƒ¼ãƒªã‚¹(å‰æœŸ) æ·±æ£®æ–°(å‰æœŸ)
+Ride æ·±æ£®æ–° æ·±æ£®æ–°(å‰æœŸ)
+if (ã‚¿ãƒ¼ãƒ³æ•° = 0) Then
+MakeUnitList ï¼¨ï¼°
+endif
+Return
+
+##########################################################
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆä½œæˆ:
+UnSet å§«å­˜åœ¨ãƒªã‚¹ãƒˆ
+if Status(ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰) = å‡ºæ’ƒ Then
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[1] = ã‚¯ãƒªã‚¹ï¼ãƒŽãƒ¼ã‚¹ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰
 else
-•P‘¶ÝƒŠƒXƒg[1] = HHH
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[1] = ï¼Ÿï¼Ÿï¼Ÿ
 Endif
-if Status(ƒAƒ“ƒWƒFƒ‰ƒ”ƒBƒNƒgƒ[ƒ‹ƒuƒŒƒ“ƒfƒBƒ“) = oŒ‚ Then
-•P‘¶ÝƒŠƒXƒg[2] = ƒAƒ“ƒWƒFƒ‰ƒ”ƒBƒNƒgƒ[ƒ‹ƒuƒŒƒ“ƒfƒBƒ“
+if Status(ã‚¢ãƒ³ã‚¸ã‚§ãƒ©ï¼ãƒ´ã‚£ã‚¯ãƒˆãƒ¯ãƒ¼ãƒ«ï¼ãƒ–ãƒ¬ãƒ³ãƒ‡ã‚£ãƒ³) = å‡ºæ’ƒ Then
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[2] = ã‚¢ãƒ³ã‚¸ã‚§ãƒ©ï¼ãƒ´ã‚£ã‚¯ãƒˆãƒ¯ãƒ¼ãƒ«ï¼ãƒ–ãƒ¬ãƒ³ãƒ‡ã‚£ãƒ³
 else
-•P‘¶ÝƒŠƒXƒg[2] = HHH
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[2] = ï¼Ÿï¼Ÿï¼Ÿ
 Endif
-if Status(Ž®_Šy´”’) = oŒ‚ Then
-•P‘¶ÝƒŠƒXƒg[3] = Ž®_Šy´”’
+if Status(å¼ç¥žæ¥½æ¸…ç™½) = å‡ºæ’ƒ Then
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[3] = å¼ç¥žæ¥½æ¸…ç™½
 else
-•P‘¶ÝƒŠƒXƒg[3] = HHH
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[3] = ï¼Ÿï¼Ÿï¼Ÿ
 Endif
-if Status(ƒŠƒŠƒA[ƒiƒ‹ƒ“ƒ‹ƒ“ƒMƒ…ƒ“ƒXƒ^[) = oŒ‚ Then
-•P‘¶ÝƒŠƒXƒg[4] = ƒŠƒŠƒA[ƒiƒ‹ƒ“ƒ‹ƒ“ƒMƒ…ƒ“ƒXƒ^[
+if Status(ãƒªãƒªã‚¢ãƒ¼ãƒŠï¼ãƒ«ãƒ³ï¼ãƒ«ãƒ³ï¼ã‚®ãƒ¥ãƒ³ã‚¹ã‚¿ãƒ¼) = å‡ºæ’ƒ Then
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[4] = ãƒªãƒªã‚¢ãƒ¼ãƒŠï¼ãƒ«ãƒ³ï¼ãƒ«ãƒ³ï¼ã‚®ãƒ¥ãƒ³ã‚¹ã‚¿ãƒ¼
 else
-•P‘¶ÝƒŠƒXƒg[4] = HHH
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[4] = ï¼Ÿï¼Ÿï¼Ÿ
 Endif
-if Status(ƒŠ[ƒ[ƒ‹ƒwƒ“ƒ[ƒ‹) = oŒ‚ Then
-•P‘¶ÝƒŠƒXƒg[5] = ƒŠ[ƒ[ƒ‹ƒwƒ“ƒ[ƒ‹
+if Status(ãƒªãƒ¼ã‚¼ãƒ«ï¼ãƒ˜ãƒ³ã‚¼ãƒ«) = å‡ºæ’ƒ Then
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[5] = ãƒªãƒ¼ã‚¼ãƒ«ï¼ãƒ˜ãƒ³ã‚¼ãƒ«
 else
-•P‘¶ÝƒŠƒXƒg[5] = HHH
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[5] = ï¼Ÿï¼Ÿï¼Ÿ
 Endif
-if Status([XÃ) = oŒ‚ Then
-•P‘¶ÝƒŠƒXƒg[6] = [XÃ
+if Status(æ·±æ£®é™) = å‡ºæ’ƒ Then
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[6] = æ·±æ£®é™
 else
-•P‘¶ÝƒŠƒXƒg[6] = HHH
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[6] = ï¼Ÿï¼Ÿï¼Ÿ
 Endif
-•P‘¶ÝƒŠƒXƒg[7] = ‡g‚µ‚È‚¢ (‰ðœ)
+å§«å­˜åœ¨ãƒªã‚¹ãƒˆ[7] = åˆèº«ã—ãªã„ (è§£é™¤)
 Return
 
 
 
 ##########################################################
-í“¬ƒAƒjƒ_ƒ”ƒ@ƒ‹ƒtƒBƒbƒVƒ…(ŠJ•ú):
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ´ã‚¡ãƒ«ãƒ•ã‚£ãƒƒã‚·ãƒ¥(é–‹æ”¾):
 
 PlaySound Reload.wav
-PaintPicture \Anime\EFFECT_PW_Walfisch01.bmp - - 48 48 “§‰ß
+PaintPicture \Anime\EFFECT_PW_Walfisch01.bmp - - 48 48 é€éŽ
 Refresh
 Wait 1
 ClearPicture 0 0 479 479
-PaintPicture \Anime\EFFECT_PW_Walfisch02.bmp - - 48 48 “§‰ß
+PaintPicture \Anime\EFFECT_PW_Walfisch02.bmp - - 48 48 é€éŽ
 Refresh
 PlaySound Charge(Long).wav
 Wait 1
 ClearPicture 0 0 479 479
-PaintPicture \Anime\EFFECT_PW_Walfisch03.bmp - - 48 48 “§‰ß
+PaintPicture \Anime\EFFECT_PW_Walfisch03.bmp - - 48 48 é€éŽ
 Refresh
 Wait 1
 ClearPicture 0 0 479 479
-PaintPicture \Anime\EFFECT_PW_Walfisch04.bmp - - 48 48 “§‰ß
+PaintPicture \Anime\EFFECT_PW_Walfisch04.bmp - - 48 48 é€éŽ
 Refresh
 Wait 1
 ClearPicture 0 0 479 479
-PaintPicture \Anime\EFFECT_PW_Walfisch05.bmp - - 48 48 “§‰ß
+PaintPicture \Anime\EFFECT_PW_Walfisch05.bmp - - 48 48 é€éŽ
 Refresh
 Wait 1
 ClearPicture 0 0 479 479
-PaintPicture \Anime\EFFECT_PW_Walfisch06.bmp - - 48 48 “§‰ß
+PaintPicture \Anime\EFFECT_PW_Walfisch06.bmp - - 48 48 é€éŽ
 Refresh
 Wait 1
 ClearPicture 0 0 479 479
-PaintPicture \Anime\EFFECT_PW_Walfisch07.bmp - - 48 48 “§‰ß
+PaintPicture \Anime\EFFECT_PW_Walfisch07.bmp - - 48 48 é€éŽ
 Refresh
 Wait 1
 ClearPicture 0 0 479 479
-PaintPicture \Anime\EFFECT_PW_Walfisch08.bmp - - 48 48 “§‰ß
+PaintPicture \Anime\EFFECT_PW_Walfisch08.bmp - - 48 48 é€éŽ
 Refresh
 Wait 1
 
 ClearPicture 0 0 479 479
-PaintPicture \Anime\EFFECT_PW_Walfisch09.bmp - - 48 48 “§‰ß
+PaintPicture \Anime\EFFECT_PW_Walfisch09.bmp - - 48 48 é€éŽ
 Refresh
 
 PlaySound TransForm.wav

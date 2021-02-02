@@ -1,46 +1,46 @@
 
-*Žg—p ‘S ’ãŽ@:
+*ä½¿ç”¨ å…¨ åµå¯Ÿ:
 
-# ’ãŽ@‚ðŽg‚Á‚½‚Æ‚«A•sŠm’èó‘Ô`(WIZ)ƒAƒCƒeƒ€ŠO‚·‚½‚ß‚¾‚¯‚ÌƒCƒ“ƒNƒ‹‚Å‚·
+# åµå¯Ÿã‚’ä½¿ã£ãŸã¨ãã€ä¸ç¢ºå®šçŠ¶æ…‹ï½ž(WIZ)ã‚¢ã‚¤ãƒ†ãƒ å¤–ã™ãŸã‚ã ã‘ã®ã‚¤ãƒ³ã‚¯ãƒ«ã§ã™
 
 Local i
-Local ‘•”õƒAƒCƒeƒ€–¼
+Local è£…å‚™ã‚¢ã‚¤ãƒ†ãƒ å
 
-For i = 1 To CountItem(‘ŠŽèƒ†ƒjƒbƒg‚h‚c)
-  ‘•”õƒAƒCƒeƒ€–¼ = Item(‘ŠŽèƒ†ƒjƒbƒg‚h‚c,i)
-  If Left(‘•”õƒAƒCƒeƒ€–¼,5) = "•sŠm’èó‘Ô" and Right(‘•”õƒAƒCƒeƒ€–¼,5) = "(‚v‚h‚y)" Then
-    RemoveItem ‘ŠŽèƒ†ƒjƒbƒg‚h‚c ‘•”õƒAƒCƒeƒ€–¼
+For i = 1 To CountItem(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+  è£…å‚™ã‚¢ã‚¤ãƒ†ãƒ å = Item(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,i)
+  If Left(è£…å‚™ã‚¢ã‚¤ãƒ†ãƒ å,5) = "ä¸ç¢ºå®šçŠ¶æ…‹" and Right(è£…å‚™ã‚¢ã‚¤ãƒ†ãƒ å,5) = "(ï¼·ï¼©ï¼º)" Then
+    RemoveItem ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ è£…å‚™ã‚¢ã‚¤ãƒ†ãƒ å
   EndIf
 Next
 
 Exit
 
 
-*Žg—p –¡•û ƒXƒyƒVƒƒƒ‹ƒpƒ[‰ð•ú(Žá•Ô‚è‚ÌÎ):
+*ä½¿ç”¨ å‘³æ–¹ ã‚¹ãƒšã‚·ãƒ£ãƒ«ãƒ‘ãƒ¯ãƒ¼è§£æ”¾(è‹¥è¿”ã‚Šã®çŸ³):
 
 If Random(5) < 5 Then
 
-Talk ƒVƒXƒeƒ€
-$(Info(ƒ†ƒjƒbƒg, ‘ŠŽèƒ†ƒjƒbƒg‚h‚c, ˆ¤Ì))‚ÍŽá•Ô‚è‚ÌÎ‚ÌƒXƒyƒVƒƒƒ‹ƒpƒ[‚ð‰ð•ú‚µ‚½
-$(Info(ƒ†ƒjƒbƒg, ‘ŠŽèƒ†ƒjƒbƒg‚h‚c, ˆ¤Ì))‚ÍŽá•Ô‚è‚ÌÎ‚ÌƒXƒyƒVƒƒƒ‹ƒpƒ[‚ð‰ð•ú‚µ‚½;$(Info(ƒpƒCƒƒbƒg, PilotID(‘ÎÛƒ†ƒjƒbƒg‚h‚c), ˆ¤Ì))‚Í‚PÎŽá•Ô‚Á‚½
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+$(Info(ãƒ¦ãƒ‹ãƒƒãƒˆ, ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤, æ„›ç§°))ã¯è‹¥è¿”ã‚Šã®çŸ³ã®ã‚¹ãƒšã‚·ãƒ£ãƒ«ãƒ‘ãƒ¯ãƒ¼ã‚’è§£æ”¾ã—ãŸ
+$(Info(ãƒ¦ãƒ‹ãƒƒãƒˆ, ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤, æ„›ç§°))ã¯è‹¥è¿”ã‚Šã®çŸ³ã®ã‚¹ãƒšã‚·ãƒ£ãƒ«ãƒ‘ãƒ¯ãƒ¼ã‚’è§£æ”¾ã—ãŸ;$(Info(ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ, PilotID(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤), æ„›ç§°))ã¯ï¼‘æ­³è‹¥è¿”ã£ãŸ
 End
 
 Else
 
-Talk ƒVƒXƒeƒ€
-$(Info(ƒ†ƒjƒbƒg, ‘ŠŽèƒ†ƒjƒbƒg‚h‚c, ˆ¤Ì))‚ÍŽá•Ô‚è‚ÌÎ‚ÌƒXƒyƒVƒƒƒ‹ƒpƒ[‚ð‰ð•ú‚µ‚½
-$(Info(ƒ†ƒjƒbƒg, ‘ŠŽèƒ†ƒjƒbƒg‚h‚c, ˆ¤Ì))‚ÍŽá•Ô‚è‚ÌÎ‚ÌƒXƒyƒVƒƒƒ‹ƒpƒ[‚ð‰ð•ú‚µ‚½;‚µ‚©‚µ$(Info(ƒpƒCƒƒbƒg, PilotID(‘ÎÛƒ†ƒjƒbƒg‚h‚c), ˆ¤Ì))‚Í‚±‚êˆÈãŽá•Ô‚é‚±‚Æ‚ªo—ˆ‚È‚¢
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+$(Info(ãƒ¦ãƒ‹ãƒƒãƒˆ, ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤, æ„›ç§°))ã¯è‹¥è¿”ã‚Šã®çŸ³ã®ã‚¹ãƒšã‚·ãƒ£ãƒ«ãƒ‘ãƒ¯ãƒ¼ã‚’è§£æ”¾ã—ãŸ
+$(Info(ãƒ¦ãƒ‹ãƒƒãƒˆ, ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤, æ„›ç§°))ã¯è‹¥è¿”ã‚Šã®çŸ³ã®ã‚¹ãƒšã‚·ãƒ£ãƒ«ãƒ‘ãƒ¯ãƒ¼ã‚’è§£æ”¾ã—ãŸ;ã—ã‹ã—$(Info(ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ, PilotID(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤), æ„›ç§°))ã¯ã“ã‚Œä»¥ä¸Šè‹¥è¿”ã‚‹ã“ã¨ãŒå‡ºæ¥ãªã„
 End
 
 EndIf
 
 Exit
 
-*Žg—p –¡•û ƒXƒyƒVƒƒƒ‹ƒpƒ[‰ð•ú(_”é“I‚ÈÎ):
+*ä½¿ç”¨ å‘³æ–¹ ã‚¹ãƒšã‚·ãƒ£ãƒ«ãƒ‘ãƒ¯ãƒ¼è§£æ”¾(ç¥žç§˜çš„ãªçŸ³):
 
-Talk ƒVƒXƒeƒ€
-$(Info(ƒ†ƒjƒbƒg, ‘ŠŽèƒ†ƒjƒbƒg‚h‚c, ˆ¤Ì))‚Í_”é“I‚ÈÎ‚ÌƒXƒyƒVƒƒƒ‹ƒpƒ[‚ð‰ð•ú‚µ‚½
-$(Info(ƒ†ƒjƒbƒg, ‘ŠŽèƒ†ƒjƒbƒg‚h‚c, ˆ¤Ì))‚Í_”é“I‚ÈÎ‚ÌƒXƒyƒVƒƒƒ‹ƒpƒ[‚ð‰ð•ú‚µ‚½;$(Info(ƒ†ƒjƒbƒg, ‘ŠŽèƒ†ƒjƒbƒg‚h‚c, ˆ¤Ì))‚ÍŠD‚É‚È‚Á‚½
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+$(Info(ãƒ¦ãƒ‹ãƒƒãƒˆ, ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤, æ„›ç§°))ã¯ç¥žç§˜çš„ãªçŸ³ã®ã‚¹ãƒšã‚·ãƒ£ãƒ«ãƒ‘ãƒ¯ãƒ¼ã‚’è§£æ”¾ã—ãŸ
+$(Info(ãƒ¦ãƒ‹ãƒƒãƒˆ, ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤, æ„›ç§°))ã¯ç¥žç§˜çš„ãªçŸ³ã®ã‚¹ãƒšã‚·ãƒ£ãƒ«ãƒ‘ãƒ¯ãƒ¼ã‚’è§£æ”¾ã—ãŸ;$(Info(ãƒ¦ãƒ‹ãƒƒãƒˆ, ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤, æ„›ç§°))ã¯ç°ã«ãªã£ãŸ
 End
 
 Exit

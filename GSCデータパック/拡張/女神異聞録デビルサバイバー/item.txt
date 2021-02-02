@@ -1,38 +1,38 @@
 
-���h���M�̂����(�f�r���T�o�C�o�[)
-���h���M�̂����, �Œ�, ��\��
-����\��
-�_=��� �_�E���̕��� �_�̗͂������݂ɑ΂����ɗL���ȕ���B
+ヤドリギのお守り(デビルサバイバー)
+ヤドリギのお守り, 固定, 非表示
+特殊能力
+神=解説 神殺しの武器 神の力を持つ存在に対し特に有効な武器。
 0, 0, 0, 0, 0
-���h���M,               1600,  1,  1,  +20,   -,  10,   -, AAAA,  +30, �ː_����
+ヤドリギ,               1600,  1,  1,  +20,   -,  10,   -, AAAA,  +30, 突神限木
 
-## �x���E�f����p�̃C�x���g�A�C�e���B
-## ��l���ɑ��������Ă��������B
-## �x���E�f���̖h��\�͂�˔j�ł��܂��B
+## ベル・デル戦用のイベントアイテム。
+## 主人公に装備させてください。
+## ベル・デルの防御能力を突破できます。
 
 
-�o�E�x���摜�ύX(�W�����[�g)
-�o�E�x���摜�ύX, �Œ�, ��\��
-����\��
-�p�C���b�g�摜=DDS-DSV_Babel(Jin).bmp
-���j�b�g�摜=DDS-DSV_Babel(Jin)U.bmp
-�p�C���b�g�\�͕t��=�o�E�x���摜�ύX=��\��
-0, 0, 0, 0, 0
-
-�o�E�x���摜�ύX(�A�}�l���[�g)
-�o�E�x���摜�ύX, �Œ�, ��\��
-����\��
-�p�C���b�g�摜=DDS-DSV_Babel(Amane).bmp
-���j�b�g�摜=DDS-DSV_Babel(Amane)U.bmp
-�p�C���b�g�\�͕t��=�o�E�x���摜�ύX=��\��
+バ・ベル画像変更(ジンルート)
+バ・ベル画像変更, 固定, 非表示
+特殊能力
+パイロット画像=DDS-DSV_Babel(Jin).bmp
+ユニット画像=DDS-DSV_Babel(Jin)U.bmp
+パイロット能力付加=バ・ベル画像変更=非表示
 0, 0, 0, 0, 0
 
-�o�E�x���摜�ύX(�i�I�����[�g)
-�o�E�x���摜�ύX, �Œ�, ��\��
-����\��
-�p�C���b�g�摜=DDS-DSV_Babel(Naoya).bmp
-���j�b�g�摜=DDS-DSV_Babel(Naoya)U.bmp
-�p�C���b�g�\�͕t��=�o�E�x���摜�ύX=��\��
+バ・ベル画像変更(アマネルート)
+バ・ベル画像変更, 固定, 非表示
+特殊能力
+パイロット画像=DDS-DSV_Babel(Amane).bmp
+ユニット画像=DDS-DSV_Babel(Amane)U.bmp
+パイロット能力付加=バ・ベル画像変更=非表示
 0, 0, 0, 0, 0
 
-## �o�E�x�����`�Ԃ̉摜�ύX�p�A�C�e���B
+バ・ベル画像変更(ナオヤルート)
+バ・ベル画像変更, 固定, 非表示
+特殊能力
+パイロット画像=DDS-DSV_Babel(Naoya).bmp
+ユニット画像=DDS-DSV_Babel(Naoya)U.bmp
+パイロット能力付加=バ・ベル画像変更=非表示
+0, 0, 0, 0, 0
+
+## バ・ベル第一形態の画像変更用アイテム。

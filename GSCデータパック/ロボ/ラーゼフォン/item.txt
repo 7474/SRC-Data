@@ -1,16 +1,16 @@
 
-�s�c�c���j�b�g
-�s�c�c���j�b�g, �ėp, �s�c�c���j�b�g
-����\��
-���j�b�g�摜=RXN_Chen-XingMk2(Elvy)(TDDU).bmp (�퐯�Q�^(�G���t�B�@))
-���j�b�g�摜=RXN_Chen-XingMk2(TDDU).bmp (�퐯�Q�^)
-���j�b�g�摜=RXN_TytaniaMkIIb(TDDU).bmp (�e�B�^�[�j�AMk�Ub)
-���j�b�g�摜=RXN_WelkinMkIIIc(TDDU).bmp (�E�F���L��Mk�Vc)
+ＴＤＤユニット
+ＴＤＤユニット, 汎用, ＴＤＤユニット
+特殊能力
+ユニット画像=RXN_Chen-XingMk2(Elvy)(TDDU).bmp (晨星２型(エルフィ機))
+ユニット画像=RXN_Chen-XingMk2(TDDU).bmp (晨星２型)
+ユニット画像=RXN_TytaniaMkIIb(TDDU).bmp (ティターニアMkⅡb)
+ユニット画像=RXN_WelkinMkIIIc(TDDU).bmp (ウェルキンMkⅢc)
 0, 0, 0, 0, 0
-�s�c�c���j�b�g,           2500,  2,  4,   +0,   1,   -,   -, AAAA,   +0, �l��L1(�s�c�c�t�g�p�\)
-*�g�����X�E�f�B�����V���i���E�h���C�u�E���j�b�g
-*�����s�A���ʂŋ@�̂𕢂����Ƃɂ���Ώ�ǂ̓˔j���\�Ƃ���
+ＴＤＤユニット,           2500,  2,  4,   +0,   1,   -,   -, AAAA,   +0, Ｍ投L1(ＴＤＤＵ使用可能)
+*トランス・ディメンショナル・ドライブ・ユニット
+*次元不連続面で機体を覆うことにより絶対障壁の突破を可能とする
 
-# �������g�p����ꍇ�A�g�p������p�C���b�g��
-# "�s�c�c�t�g�p�\"���\����SetSkill���ĉ�����
-# ��FSetSkill �G���t�B���n�f�B���b�g �s�c�c�t�g�p�\ -1 ��\��
+# 武装を使用する場合、使用させるパイロットに
+# "ＴＤＤＵ使用可能"を非表示でSetSkillして下さい
+# 例：SetSkill エルフィ＝ハディヤット ＴＤＤＵ使用可能 -1 非表示

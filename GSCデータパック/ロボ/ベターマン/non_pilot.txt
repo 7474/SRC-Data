@@ -1,169 +1,169 @@
-#������������������������������������������������������������������������������������������
-# �p�C���b�g�\��W
+#─────────────────────────────────────────────
+# パイロット表情集
 #
-# �x�^�[�}���̊e�ϐg�Ԃ��ʂɕ\��w��ł�������A�V�i���I�ł̓s�����悩�낤�Ƃ������ƂŁB
-# �p�C���b�g�摜�ύX�ƈ��̎w��ɂ��A�ϐg�O�̉摜�▼�O���\������Ȃ��Ȃ邽�߁A
-# ���̑΍�����˂Ă��܂��B
+# ベターマンの各変身態を個別に表情指定できる方が、シナリオでの都合がよかろうということで。
+# パイロット画像変更と愛称指定により、変身前の画像や名前が表示されなくなるため、
+# その対策も兼ねています。
 
-�x�^�[�}���E���~�A(�ʏ�)
-���~�A, BTM_BettermanLamia.bmp
-���~�A(�ʏ�)
-���~�A, BTM_BettermanLamia.bmp
+ベターマン・ラミア(通常)
+ラミア, BTM_BettermanLamia.bmp
+ラミア(通常)
+ラミア, BTM_BettermanLamia.bmp
 
-�x�^�[�}���E���~�A(�T���O���X)
-���~�A, BTM_BettermanLamia(Glass).bmp
-���~�A(�T���O���X)
-���~�A, BTM_BettermanLamia(Glass).bmp
+ベターマン・ラミア(サングラス)
+ラミア, BTM_BettermanLamia(Glass).bmp
+ラミア(サングラス)
+ラミア, BTM_BettermanLamia(Glass).bmp
 
-�x�^�[�}���E�l�u��
-�l�u��, BTM_BettermanNebura.bmp
+ベターマン・ネブラ
+ネブラ, BTM_BettermanNebura.bmp
 
-�x�^�[�}���E�l�u��(�T�C�R���H�C�X)
-�l�u��, BTM_BettermanNebura(PsychoVoice).bmp
-�l�u��(�T�C�R���H�C�X)
-�l�u��, BTM_BettermanNebura(PsychoVoice).bmp
+ベターマン・ネブラ(サイコヴォイス)
+ネブラ, BTM_BettermanNebura(PsychoVoice).bmp
+ネブラ(サイコヴォイス)
+ネブラ, BTM_BettermanNebura(PsychoVoice).bmp
 
-�x�^�[�}���E�A�N�A
-�A�N�A, BTM_BettermanAqua.bmp
+ベターマン・アクア
+アクア, BTM_BettermanAqua.bmp
 
-�x�^�[�}���E�t�H���e
-�t�H���e, BTM_BettermanForte.bmp
+ベターマン・フォルテ
+フォルテ, BTM_BettermanForte.bmp
 
-�x�^�[�}���E�I���g�X
-�I���g�X, BTM_BettermanOrtus.bmp
+ベターマン・オルトス
+オルトス, BTM_BettermanOrtus.bmp
 
-�x�^�[�}���E���[��
-���[��, BTM_BettermanLumen.bmp
+ベターマン・ルーメ
+ルーメ, BTM_BettermanLumen.bmp
 
-�x�^�[�}���E�{�_�C�W��(�ʏ�)
-�{�_�C�W��, BTM_BettermanBodaijyu.bmp
-�{�_�C�W��(�ʏ�)
-�{�_�C�W��, BTM_BettermanBodaijyu.bmp
+ベターマン・ボダイジュ(通常)
+ボダイジュ, BTM_BettermanBodaijyu.bmp
+ボダイジュ(通常)
+ボダイジュ, BTM_BettermanBodaijyu.bmp
 
-�x�^�[�}���E�g�D���o
-�g�D���o, BTM_BettermanToruba.bmp
+ベターマン・トゥルバ
+トゥルバ, BTM_BettermanToruba.bmp
 
-�эE��(�}�j�[�W�}�V��)
-�T�N��, BTM_Sakura(G).bmp
-�T�N��(�}�j�[�W�}�V��)
-�T�N��, BTM_Sakura(G).bmp
+紗孔羅(マニージマシン)
+サクラ, BTM_Sakura(G).bmp
+サクラ(マニージマシン)
+サクラ, BTM_Sakura(G).bmp
 
-�эE��(����)
-�T�N��, BTM_Sakura(S).bmp
-�T�N��(����)
-�T�N��, BTM_Sakura(S).bmp
+紗孔羅(叫び)
+サクラ, BTM_Sakura(S).bmp
+サクラ(叫び)
+サクラ, BTM_Sakura(S).bmp
 
-#������������������������������������������������������������������������������������������
-# �m���p�C���b�g
+#─────────────────────────────────────────────
+# ノンパイロット
 
-���n���
-�ց[����, BTM_HirachiKazuho.bmp
+平地一穂
+へーちん, BTM_HirachiKazuho.bmp
 
-# �����ւ�����I�Ȑ�����ې[���A�A�J�}�c�H�Ƃ̗D�G�ȋZ�p�ҁB
+# たいへん特徴的な声が印象深い、アカマツ工業の優秀な技術者。
 #
-# �O����̃��f���͐ݒ萧��̕���������B
+# 外見上のモデルは設定制作の兵頭一歩氏。
 
-�~�蔎�m(�a�s�l)
-�~�蔎�m, BTM_DrUmezaki.bmp
+梅崎博士(ＢＴＭ)
+梅崎博士, BTM_DrUmezaki.bmp
 
-# �a�o�k�̏����B�_�C�u�C���X�y�N�V�����̎Q���ҁB
-# �����H�w�̗��ꂩ��l�ނ̐i����͍�����B
+# ＢＰＬの所長。ダイブインスペクションの参加者。
+# 生命工学の立場から人類の進化を模索する。
 #
-# �t���l�[���s���B
-# �O����̃��f���̓T�����C�Y�̋g��F�K�В��B
-# �~�B
+# フルネーム不明。
+# 外見上のモデルはサンライズの吉井孝幸社長。
+# 梅。
 
-�I�t�B�T�[(�a�s�l)
-�I�t�B�T�[, BTM_Offecer.bmp
+オフィサー(ＢＴＭ)
+オフィサー, BTM_Offecer.bmp
 
-# ���[�f�B���[�v�̑�\�ł���A�_�C�u�C���X�y�N�V�����̎Q���ҁB
-# �{���̔閧�{�݂Ŏ�����_�C�u�C���X�y�N�V�������J��Ԃ��Ă���A
-# ���̉ߒ��Ń��~�s�b�h�`�����l�����l������B
+# モーディワープの代表であり、ダイブインスペクションの参加者。
+# 本部の秘密施設で自らもダイブインスペクションを繰り返しており、
+# その過程でリミピッドチャンネルを獲得する。
 
-���唞�l
-����, BTM_MamonMugito.bmp
+魔門麦人
+魔門, BTM_MamonMugito.bmp
 
-# ������В��l�����̎В��B�_�C�u�C���X�y�N�V�����Q���ҁB
-# ���\�͂ƈ�`�q�H�w�̑g�ݍ��킹�ɂ��A�V���Ȓ��l�̑n����ڎw���B
+# 株式会社超人同盟の社長。ダイブインスペクション参加者。
+# 超能力と遺伝子工学の組み合わせにより、新たな超人の創造を目指す。
 #
-# ���B
+# 麦。
 
-�ʊ���
-�ʔ��m, BTM_SaiMikio.bmp
+彩幹生
+彩博士, BTM_SaiMikio.bmp
 
-# �q�m�L�̕��ŌÐ����w�ҁB�_�C�u�C���X�y�N�V�����̎Q���҂ł�����B
-# �Q�N�O�A�������ƂƂ��ɃA�W�����^�[�ΌA�ɂčs���s���ƂȂ�B
+# ヒノキの父で古生物学者。ダイブインスペクションの参加者でもある。
+# ２年前、調査隊とともにアジャンター石窟にて行方不明となる。
 
-�ʂ��q
-���q, BTM_SaiYuriko.bmp
+彩ゆり子
+ゆり子, BTM_SaiYuriko.bmp
 
-# �������s���s���ƂȂ����q�m�L�̕�B
-# �q�m�L�̓��[���̎p�ɂ��̖ʉe������B
+# 同じく行方不明となったヒノキの母。
+# ヒノキはルーメの姿にその面影を見る。
 
-�ʐ^����
-�}���I, BTM_SaiMario.bmp
+彩真理緒
+マリオ, BTM_SaiMario.bmp
 
-# ��͂�A�W�����^�[�ΌA�ōs���s���ƂȂ����A�q�m�L�̌Z�B
-# �L�^�Ɏc��ނ̗e�p�́A�Ȃ������~�A�ɂǂ��ƂȂ����Ă���B
+# やはりアジャンター石窟で行方不明となった、ヒノキの兄。
+# 記録に残る彼の容姿は、なぜかラミアにどことなく似ている。
 #
-# �u�o�J���Ȃ��A�q�m�L�́v
-# �u���������Ƃ�����������J�𐁂��ȁB�����ɋ삯���邺�v
+# 「バカだなぁ、ヒノキは」
+# 「困ったことがあったら口笛を吹きな。すぐに駆けつけるぜ」
 
-�J�N�^�X���v���b�N��
-�J�N�^�X, BTM_CactusPlicle.bmp
+カクタス＝プリックル
+カクタス, BTM_CactusPlicle.bmp
 
-# �P�[�^�̎Q���O�ɁA�o���l�Ńq�m�L�ƃR���r��g��ł����f���A���J�C���h�B
-# �_�C�u�C���X�y�N�V�����̎Q���ҁB
-# ��̕��͋C�𐷂�グ��A�����ւ�z�C�Ȑl���������炵�����A
-# ���ŃA���W���[�m���𔭏ǂ��A���̂܂܎��S�B
+# ケータの参入前に、覚醒人でヒノキとコンビを組んでいたデュアルカインド。
+# ダイブインスペクションの参加者。
+# 場の雰囲気を盛り上げる、たいへん陽気な人物だったらしいが、
+# 一夜でアルジャーノンを発症し、そのまま死亡。
 #
-# �T�{�e���B
+# サボテン。
 
-���R���j(�a�s�l)
-�E�b�V�[, BTM_UsiyamaTuguo.bmp
-�E�b�V�[(�a�s�l)
-�E�b�V�[, BTM_UsiyamaTuguo.bmp
+牛山次男(ＢＴＭ)
+ウッシー, BTM_UsiyamaTuguo.bmp
+ウッシー(ＢＴＭ)
+ウッシー, BTM_UsiyamaTuguo.bmp
 
-# �P�[�^�̗F�l�B�S�l�Z��̎��j�B
-# �^�閧�h�q�@�ւɏ�������Z������A�K�K�K�ƃx�^�[�}���Ƃ̃����N��
-# �e�Ŏx����l���̈�l�B
+# ケータの友人。４人兄弟の次男。
+# 某秘密防衛機関に所属する兄がおり、ガガガとベターマンとのリンクを
+# 影で支える人物の一人。
 #
-# �K�K�K�t�H���_�Ɨ����ǂݍ��񂾏ꍇ�A�P�Ɂu�E�b�V�[�v�Ǝw�肷���
-# ��̕��ƍ�������\��������܂��B
-# �ǂ��炩�폜���邩�A�t���l�[���ł̎w��𐄏��B
-# ���ʂ̂��߁A������̃E�b�V�[�ɂ�(�a�s�l)��t�L���Ă����܂��B
+# ガガガフォルダと両方読み込んだ場合、単に「ウッシー」と指定すると
+# 弟の方と混同する可能性があります。
+# どちらか削除するか、フルネームでの指定を推奨。
+# 識別のため、こちらのウッシーには(ＢＴＭ)を付記しておきます。
 
-�����؃P�C
-�P�C, BTM_YanagiKei.bmp
+八七木ケイ
+ケイ, BTM_YanagiKei.bmp
 
-# �������Ă̒�B
-# �����^�e�B�����P���@�u�v���~�G�v�̐����e�X�g���A���̂Ŏ��S�B
-# ���ꂪ���i�M�̃g���E�}�ɂȂ��Ă���B
+# 八七木翔の弟。
+# 初期型ティラン１号機「プルミエ」の水中テスト中、事故で死亡。
+# それがヤナギのトラウマになっている。
 
-�����̍������P�V��
-�������, BTM_Kaorichan17.bmp
+愛しの香ちゃん１７才
+香ちゃん, BTM_Kaorichan17.bmp
 
-# ���̃A�J�}�c�R���N�V�����̈�B
-# �����̐����𕪐͂��đ��Y�ł��邪�A�l�[�~���O�Z���X�̈�������
-# �܂���������Ȃ������炵���B���T�O�O�~�B
-# �̂��ɁA�g�їp�́u���ʂ�������P�W�ˁv���J������Ă���B
+# 幻のアカマツコレクションの一つ。
+# 匂いの成分を分析して増産できるが、ネーミングセンスの悪さから
+# まったく売れなかったらしい。一回５００円。
+# のちに、携帯用の「よりぬき香さん１８才」も開発されている。
 #
-# �u�ǂ�ǂ���̂��[�B�N���N������̂��[�v
+# 「どんどん作るのだー。クンクン香るのだー」
 
-�`�J�����(�a�s�l)
-�`�J�����, BTM_ChikaChan.bmp
+チカちゃん(ＢＴＭ)
+チカちゃん, BTM_ChikaChan.bmp
 
-# �I�P�������f���ɂ����Ǝv����A�n���V���n�{�g���E�U�E���[���h�̃}�X�R�b�g�B
-# ���܂�����Ȃ��B���Ȃ݂ɖ��̂́w�n���x�Ɓw�`�J�x�������Ă���炵���B
+# オケラをモデルにしたと思われる、地下遊園地ボトム・ザ・ワールドのマスコット。
+# あまり可愛くない。ちなみに名称は『地下』と『チカ』をかけてあるらしい。
 #
-# �u�`�J�����A�J���Q�L�[�b�I�v
+# 「チカちゃん、カンゲキーッ！」
 
-�����G���m���[��
-�����G, BTM_RorieNorl.bmp
+ロリエ＝ノワール
+ロリエ, BTM_RorieNorl.bmp
 
-# �����Ȓn���w�҂ł���A�����J�[�W�F�������̑��l�ҁB
-# �Z���V���O�}�C���h�̎�����ł�����B
-# ���{�ɂĎ��S���A���̍d���������u���ɈڐA����Ă���B
-# ���̍��܂��c��������l�����A������A�^�閧�h�q�@�ւɏ��������炵���B
+# 高名な地質学者であり、リンカージェル研究の第一人者。
+# センシングマインドの持ち主でもある。
+# 日本にて死亡し、その硬膜が蒼斧蛍汰に移植されている。
+# その頃まだ幼かった一人娘が、成長後、某秘密防衛機関に所属したらしい。
 #
-# ���j���B
+# 月桂樹。

@@ -1,527 +1,527 @@
 
-���͂��߂Ɂ�
-���e�L�X�g�̓f�[�^�Ɋւ���⑫�������s�����̂ł���A�V�i���I���ł̓Y�t�͕s�v�ł��B
-pilot.txt�Eunit.txt�Eitem.txt�̒��ߕ��Ƃ��A�ꕔ�d�����Ă��܂��B
+○はじめに○
+当テキストはデータに関する補足説明を行うものであり、シナリオ内での添付は不要です。
+pilot.txt・unit.txt・item.txtの注釈文とも、一部重複しています。
 
 
-���f�[�^�̃R���Z�v�g�ɂ���
+●データのコンセプトについて
 
-�E�{�f�[�^��PSP�ł���Ƀf�[�^���쐬�B�A�j���E����ł̗v�f���K�X�ɔ��f����`�ɁB
-�E�܂ǂ��Ƃقނ�͂r�o60�̂v��l�������B
-�E���@�����̋Z�ʂ́A�S��170�𒴂��Ȃ��悤���l��ݒ�(��񎟐������̏����ł��鎖���l��)
-�EPSP�łŎg�p�\�ȋZ�E���@�Ɋւ��ẮA����ł̕`�ʂ�o�����X�������l�����K�X�ɍ팸�B
-�E���͂̏��Ղ̕\���Ƃ��āA���͂ȕ����E���ʂ����͂ȃA�r���e�B�͂d�m����𑽂߂ɐݒ�B
-�E����𐶐����閂�@�͒��فE����O�ɏo���Ă���Ƃ������߂ŏp�����͖����B
-�E�������t���͖��͂��Ă߂Ă���Ǝv���镐���݂̂Ɍ���B
+・本データはPSP版を基準にデータを作成。アニメ・漫画版の要素も適宜に反映する形に。
+・まどかとほむらはＳＰ60のＷ主人公扱い。
+・魔法少女の技量は、全員170を超えないよう数値を設定(第二次成長期の少女である事を考慮)
+・PSP版で使用可能な技・魔法に関しては、原作での描写やバランス調整も考慮し適宜に削減。
+・魔力の消耗の表現として、強力な武装・効果が強力なアビリティはＥＮ消費を多めに設定。
+・武器を生成する魔法は沈黙・封印前に出しているという解釈で術属性は無し。
+・魔属性付加は魔力を籠めていると思われる武装のみに限定。
 
 
-���\�E���W�F���̈����ɂ���
-�\�E���W�F���֘A��include.eve������g����΂�����x�Č����邱�Ƃ��\�ł����A
-SRC�̃V�X�e���œ��������Ƃ�z�肵�A����i�Ƌ������Ղ��悤�ɃV���v���ɓZ�߂邱�Ƃ�D�悵�Ă܂��B
-���ׁ̈A�\�E���W�F���̏򉻁E����֘A�̓V�i���I����őΉ����Ă��������B
+●ソウルジェムの扱いについて
+ソウルジェム関連はinclude.eve等を駆使すればある程度再現することが可能ですが、
+SRCのシステムで動かすことを想定し、他作品と共闘し易いようにシンプルに纏めることを優先してます。
+その為、ソウルジェムの浄化・濁り関連はシナリオ制御で対応してください。
 
 
-�����b�Z�[�W�N���X�ɂ���
-���b�Z�[�W�N���X�̓p�C���b�g���Ɏw��B�܂��A���j�b�g�N���X�w��͉��L�̂悤�ɁB
-���������@�����̃��j�b�g�Ɋւ��ẮA�悹��ƃ��b�Z�[�W�N���X���I�~�b�g�����悤�ɁB
-�܂ǂ��B�Ɋւ��Ă̓f�[�^�^�p�}�j���A���ɏڂ����L�q���Ă���܂��B
+●メッセージクラスについて
+メッセージクラスはパイロット側に指定。また、ユニットクラス指定は下記のように。
+ただし魔法扱いのユニットに関しては、乗せるとメッセージクラスがオミットされるように。
+まどか達に関してはデータ運用マニュアルに詳しく記述してあります。
 
-���@�����F�\�E���W�F��
-�����@�@�F�O���[�t�V�[�h
-�g�����@�F�����̎g����
+魔法少女：ソウルジェム
+魔女　　：グリーフシード
+使い魔　：魔女の使い魔
 
 
-���f�[�^�^�p�}�j���A����
-�K�v�ȕ������R�s�[���Ďg�p���Ă��������B
+○データ運用マニュアル○
+必要な分だけコピーして使用してください。
 
 
-�����@�����S��
-���͏��L��SetSkill�R�}���h�ŕ��󂷂�ƁA�L���D�ׂ��_��ȑO�̏�Ԃ��Č����鎖���\�ł��B
-�V�i���I�̓W�J�ɉ����āAClearSkill�R�}���h�œK�X�ɉ������Ă��������B
-�܂��A�܂ǂ��Ƃقނ�Ɋւ��Ă̓����N�A�b�v�I�ȉ^�p��z�肵���ꍇ�A
-�^�p�@���傫���ς���Ă��܂��_�ɒ��ӂ��Ă��������B
+●魔法少女全般
+魔力所有をSetSkillコマンドで封印すると、キュゥべえ契約以前の状態を再現する事が可能です。
+シナリオの展開に応じて、ClearSkillコマンドで適宜に解除してください。
+また、まどかとほむらに関してはランクアップ的な運用を想定した場合、
+運用法が大きく変わってしまう点に注意してください。
 
 
-���_��O
-�@SetSkill ���ڂ܂ǂ� ���͏��L 0
-�@SetSkill ���ڂ܂ǂ�(���ԑk�s�O) ���͏��L 0
-�@SetSkill �Ŕ��قނ�(�ዾ) ���͏��L 0
-�@SetSkill �������₩ ���͏��L 0
-�@SetSkill �b�}�~ ���͏��L 0
-�@SetSkill ���q�ǎq ���͏��L 0
+◆契約前
+　SetSkill 鹿目まどか 魔力所有 0
+　SetSkill 鹿目まどか(時間遡行前) 魔力所有 0
+　SetSkill 暁美ほむら(眼鏡) 魔力所有 0
+　SetSkill 美樹さやか 魔力所有 0
+　SetSkill 巴マミ 魔力所有 0
+　SetSkill 佐倉杏子 魔力所有 0
 
 
-���_���
-�@ClearSkill ���ڂ܂ǂ� ���͏��L
-�@ClearSkill ���ڂ܂ǂ�(���ԑk�s�O) ���͏��L
-�@ClearSkill �Ŕ��قނ�(�ዾ) ���͏��L
-�@ClearSkill �������₩ ���͏��L
-�@ClearSkill �b�}�~ ���͏��L
-�@ClearSkill ���q�ǎq ���͏��L
+◆契約後
+　ClearSkill 鹿目まどか 魔力所有
+　ClearSkill 鹿目まどか(時間遡行前) 魔力所有
+　ClearSkill 暁美ほむら(眼鏡) 魔力所有
+　ClearSkill 美樹さやか 魔力所有
+　ClearSkill 巴マミ 魔力所有
+　ClearSkill 佐倉杏子 魔力所有
 
 
-�����ڂ܂ǂ�
-���ڂ܂ǂ�(���ԑk�s�O)���悹�邱�ƂŁA�{�҂P�O�b�ł̎��ԑk�s�ȑO�`���ԑk�s�R�T�ڂ܂ł̍Č����\�ł��B
-���ԑk�s�O�̂܂ǂ��͊�{�I�ɃC�x���g�E��z�V�[���݂̂̎g�p��z��B
-���ԑk�s�S�T�ڈȍ~�A�{�Ҋ�̏ꍇ�͖�����悹�ĉ^�p���Ă��������B
-�~�ς̊肢�łƃA���e�B���b�g�܂ǂ��͏I�Ղ������̓C�x���g�݂̂̎g�p�𐄏��B
-�ʏ�̌���^�Ƃ��Ẳ^�p��z�肷��ꍇ�A�~�ς̊肢(�܂ǂ����}�M�J)�𑕔������邩�A
-SetSkill�R�}���h�ŋ~�ς̊肢���\���ŕt�����Ă��������B
+●鹿目まどか
+鹿目まどか(時間遡行前)を乗せることで、本編１０話での時間遡行以前～時間遡行３週目までの再現が可能です。
+時間遡行前のまどかは基本的にイベント・回想シーンのみの使用を想定。
+時間遡行４週目以降、本編基準の場合は無印を乗せて運用してください。
+救済の願い版とアルティメットまどかは終盤もしくはイベントのみの使用を推奨。
+通常の後期型としての運用を想定する場合、救済の願い(まどか☆マギカ)を装備させるか、
+SetSkillコマンドで救済の願いを非表示で付加してください。
 
 
-���ʏ큨���@�����ւ̃A�b�v�O���[�h
-�@Upgrade ���ڂ܂ǂ�(�ʏ�) ���ڂ܂ǂ�
+◆通常→魔法少女へのアップグレード
+　Upgrade 鹿目まどか(通常) 鹿目まどか
 
-����������
-�@Disable ���ڂ܂ǂ� �X�^�[���C�g�A���[
-�@Disable ���ڂ܂ǂ� �X�v���b�g�A���[
-�@Disable ���ڂ܂ǂ� �}�W�J���X�R�[��
+※武装封印
+　Disable 鹿目まどか スターライトアロー
+　Disable 鹿目まどか スプレットアロー
+　Disable 鹿目まどか マジカルスコール
 
-���������֎�
-�@Enable ���ڂ܂ǂ� �X�^�[���C�g�A���[
-�@Enable ���ڂ܂ǂ� �X�v���b�g�A���[
-�@Enable ���ڂ܂ǂ� �}�W�J���X�R�[��
+※武装解禁時
+　Enable 鹿目まどか スターライトアロー
+　Enable 鹿目まどか スプレットアロー
+　Enable 鹿目まどか マジカルスコール
 
-�����ԑk�s�S�T�ڈȍ~
-�@ReplacePilot ���ڂ܂ǂ�(���ԑk�s�O) ���ڂ܂ǂ�
-�@Upgrade ���ڂ܂ǂ� ���ڂ܂ǂ�(�ʏ�)
+◆時間遡行４週目以降
+　ReplacePilot 鹿目まどか(時間遡行前) 鹿目まどか
+　Upgrade 鹿目まどか 鹿目まどか(通常)
 
-���ʏ큨�~�ς̊肢�ւ̃A�b�v�O���[�h
-�@ClearSkill ���ڂ܂ǂ� ���͏��L
-�@Upgrade ���ڂ܂ǂ�(�ʏ�) ���ڂ܂ǂ�(�~�ς̊肢)
+◆通常→救済の願いへのアップグレード
+　ClearSkill 鹿目まどか 魔力所有
+　Upgrade 鹿目まどか(通常) 鹿目まどか(救済の願い)
 
-��������x�[�X�ɂ���ꍇ�͉��L�̂悤��
-�@Equip ���ڂ܂ǂ� �~�ς̊肢(�܂ǂ����}�M�J)
-�@Equip ���ڂ܂ǂ�(���ԑk�s�O) �~�ς̊肢(�܂ǂ����}�M�J)
+※無印をベースにする場合は下記のように
+　Equip 鹿目まどか 救済の願い(まどか☆マギカ)
+　Equip 鹿目まどか(時間遡行前) 救済の願い(まどか☆マギカ)
 
-������Z�\�ɂ�鐧��̏ꍇ
-�@SetSkill ���ڂ܂ǂ� �~�ς̊肢 -1 ��\��
-�@SetSkill ���ڂ܂ǂ�(���ԑk�s�O) �~�ς̊肢 -1 ��\��
+※特殊技能による制御の場合
+　SetSkill 鹿目まどか 救済の願い -1 非表示
+　SetSkill 鹿目まどか(時間遡行前) 救済の願い -1 非表示
 
-���~�ς̊肢�ł�{�Ҋ�ɂ���ꍇ�͉��L�̂悤��
-�@Disable ���ڂ܂ǂ�(�~�ς̊肢) �V���[�e�B���O�X�^�[
+※救済の願い版を本編基準にする場合は下記のように
+　Disable 鹿目まどか(救済の願い) シューティングスター
 
-���~�ς̊肢���A���e�B���b�g�ւ̃A�b�v�O���[�h
-�@Upgrade ���ڂ܂ǂ�(�~�ς̊肢) �A���e�B���b�g�܂ǂ�
+◆救済の願い→アルティメットへのアップグレード
+　Upgrade 鹿目まどか(救済の願い) アルティメットまどか
 
 
-���Ŕ��قނ�
-�܂ǂ����l�ɋŔ��قނ�(�ዾ)���悹�邱�ƂŁA�{�҂P�O�b�ł̎��ԑk�s�ȑO�`���ԑk�s�R�T�ڂ܂ł̍Č����\�ł��B
-�ዾ�قނ�͊�{�I�ɃC�x���g�E��z�V�[���݂̂̎g�p��z��B
-���ԑk�s�S�T�ڈȍ~�E�{�Ҋ�̏ꍇ�͖�����悹�ĉ^�p���Ă��������B
-Fix�R�}���h��RemoveItem�R�}���h�͂��D�݂Œ������Ă�����Ă��\���܂���B
+●暁美ほむら
+まどか同様に暁美ほむら(眼鏡)を乗せることで、本編１０話での時間遡行以前～時間遡行３週目までの再現が可能です。
+眼鏡ほむらは基本的にイベント・回想シーンのみの使用を想定。
+時間遡行４週目以降・本編基準の場合は無印を乗せて運用してください。
+FixコマンドとRemoveItemコマンドはお好みで調整してもらっても構いません。
 
 
-���ʏ큨���@�����ւ̃A�b�v�O���[�h
-�@Upgrade �Ŕ��قނ�(�ʏ�) �Ŕ��قނ�
-
-�����ԑk�s�Q�T�ڂ��x�[�X�ɂ���ꍇ�͉��L�̂悤��
-�@Equip �Ŕ��قނ�(�ዾ) �S���t�N���u(�܂ǂ����}�M�J)
-�@Fix �S���t�N���u(�܂ǂ����}�M�J)
-�@Disable �Ŕ��قނ� �M����֒e
-�@Disable �Ŕ��قނ� �x���b�^M92F
-�@Disable �Ŕ��قނ� �e�e����
-�@Disable �Ŕ��قނ� �p�C�v���e
-�@Disable �Ŕ��قނ� �S�e�e����
-�@Disable �Ŕ��قނ� �����x���Ί�
-
-���p�C�v���e���֎�
-�@Enable �Ŕ��قނ� �p�C�v���e
+◆通常→魔法少女へのアップグレード
+　Upgrade 暁美ほむら(通常) 暁美ほむら
+
+※時間遡行２週目をベースにする場合は下記のように
+　Equip 暁美ほむら(眼鏡) ゴルフクラブ(まどか☆マギカ)
+　Fix ゴルフクラブ(まどか☆マギカ)
+　Disable 暁美ほむら 閃光手榴弾
+　Disable 暁美ほむら ベレッタM92F
+　Disable 暁美ほむら 銃弾乱射
+　Disable 暁美ほむら パイプ爆弾
+　Disable 暁美ほむら 全銃弾発射
+　Disable 暁美ほむら 分隊支援火器
+
+※パイプ爆弾解禁時
+　Enable 暁美ほむら パイプ爆弾
 
-�����ԑk�s�R�T�ڊJ�n���Č��̏ꍇ�͉��L�̂悤��
-�@Release �S���t�N���u(�܂ǂ����}�M�J)
-�@RemoveItem �Ŕ��قނ�(�ዾ) �S���t�N���u(�܂ǂ����}�M�J)
-�@Enable �Ŕ��قނ� �x���b�^M92F
-�@Enable �Ŕ��قނ� �e�e����
-�@Enable �Ŕ��قނ� �S�e�e����
+※時間遡行３週目開始時再現の場合は下記のように
+　Release ゴルフクラブ(まどか☆マギカ)
+　RemoveItem 暁美ほむら(眼鏡) ゴルフクラブ(まどか☆マギカ)
+　Enable 暁美ほむら ベレッタM92F
+　Enable 暁美ほむら 銃弾乱射
+　Enable 暁美ほむら 全銃弾発射
 
-���ዾ������ւ̃A�b�v�O���[�h
-�@ReplacePilot �Ŕ��قނ�(�ዾ) �Ŕ��قނ�
-�@Enable �Ŕ��قނ� �M����֒e
-�@Enable �Ŕ��قނ� �����x���Ί�
+◆眼鏡→無印へのアップグレード
+　ReplacePilot 暁美ほむら(眼鏡) 暁美ほむら
+　Enable 暁美ほむら 閃光手榴弾
+　Enable 暁美ほむら 分隊支援火器
 
-�����䑕�u�̖�������d�l�ɂ���ꍇ�͉��L�̂悤��
-�@Equip �Ŕ��قނ� �����v���M�X����p����
-�@Fix �����v���M�X����p����
-
-�����󁨃��{���ւ̃A�b�v�O���[�h
-�@Release �����v���M�X����p����
-�@RemoveItem �Ŕ��قނ� �����v���M�X����p����
-�@Upgrade �Ŕ��قނ� �Ŕ��قނ�(���{��)
-
-��������x�[�X�ɂ���ꍇ�͉��L�̂悤��
-�@Equip �Ŕ��قނ� �}�W�J���A���[(�܂ǂ����}�M�J)
-�@Fix �}�W�J���A���[(�܂ǂ����}�M�J)
-
-
-���������₩
-����Ŋ�̏ꍇ�A�A�C�e���̔������₩����Ŏd�l�𑕔������Ă��������B
-�Q�b�̂悤�ȃ}�~���s���̃V�`���G�[�V�������Č�����ꍇ�A
-�A�C�e���̃}�W�J���o�b�g(�܂ǂ����}�M�J)��K�X�ɑ��������Ă��������B
-���z�Ȕł̓C�x���g�p�B�K�X��Transform�R�}���h�œ���ւ��Ă��������B
-
-
-���ʏ큨���@�����ւ̃A�b�v�O���[�h
-�@Upgrade �������₩(�ʏ�) �������₩
-
-���Q�b�d�l�ɂ���ꍇ�͉��L�̂悤��
-�@Equip �������₩ �}�W�J���o�b�g(�܂ǂ����}�M�J)
-
-������Ŏd�l�ɂ���ꍇ�͉��L�̂悤��
-�@Equip �������₩ �������₩����Ŏd�l
-
-����������
-�@Disable �������₩ �R���e�����G�b�W
-�@Disable �������₩ �X�p�[�N�G�b�W
-�@Disable �������₩ ���z��
-
-���������֎�
-�@Enable �������₩ �R���e�����G�b�W
-�@Enable �������₩ �X�p�[�N�G�b�W
-�@Enable �������₩ ���z��
-
-�����󁨋��z�Ȃ̐���
-�@Transform ���₩ �������₩(���z��)
-
-�����z�ȉ�����
-�@Transform ���₩ �������₩
+※舞台装置の魔女決戦仕様にする場合は下記のように
+　Equip 暁美ほむら ワルプルギス決戦用装備
+　Fix ワルプルギス決戦用装備
+
+◆無印→リボンへのアップグレード
+　Release ワルプルギス決戦用装備
+　RemoveItem 暁美ほむら ワルプルギス決戦用装備
+　Upgrade 暁美ほむら 暁美ほむら(リボン)
+
+※無印をベースにする場合は下記のように
+　Equip 暁美ほむら マジカルアロー(まどか☆マギカ)
+　Fix マジカルアロー(まどか☆マギカ)
+
+
+●美樹さやか
+劇場版基準の場合、アイテムの美樹さやか劇場版仕様を装備させてください。
+２話のようなマミ同行時のシチュエーションを再現する場合、
+アイテムのマジカルバット(まどか☆マギカ)を適宜に装備させてください。
+狂想曲版はイベント用。適宜にTransformコマンドで入れ替えてください。
+
+
+◆通常→魔法少女へのアップグレード
+　Upgrade 美樹さやか(通常) 美樹さやか
+
+※２話仕様にする場合は下記のように
+　Equip 美樹さやか マジカルバット(まどか☆マギカ)
+
+※劇場版仕様にする場合は下記のように
+　Equip 美樹さやか 美樹さやか劇場版仕様
+
+※武装封印
+　Disable 美樹さやか コラテラルエッジ
+　Disable 美樹さやか スパークエッジ
+　Disable 美樹さやか 狂想曲
+
+※武装解禁時
+　Enable 美樹さやか コラテラルエッジ
+　Enable 美樹さやか スパークエッジ
+　Enable 美樹さやか 狂想曲
+
+※無印→狂想曲の制御
+　Transform さやか 美樹さやか(狂想曲)
+
+※狂想曲解除時
+　Transform さやか 美樹さやか
 
 
-���b�}�~
-�V�Ď��̍����Č�����ꍇ�A���{���ȊO�̕����E�A�r���e�B�͓K�X�ɕ��󐄏��B
-���肱���}�M�J�Ŏg�p�����y���e���g�p�\�ɂ���ꍇ�A�y��̖��e(�܂ǂ����}�M�J)��K�X�ɑ��������邩�A
-SetSkill�R�}���h���y��̖��e���\���ŕt�����Ă��������B
+●巴マミ
+新米時の頃を再現する場合、リボン以外の武装・アビリティは適宜に封印推奨。
+おりこ☆マギカで使用した炸裂弾を使用可能にする場合、炸裂の魔弾(まどか☆マギカ)を適宜に装備させるか、
+SetSkillコマンドで炸裂の魔弾を非表示で付加してください。
 
 
-���ʏ큨���@�����ւ̃A�b�v�O���[�h
-�@Upgrade �b�}�~(�ʏ�) �b�}�~
+◆通常→魔法少女へのアップグレード
+　Upgrade 巴マミ(通常) 巴マミ
 
-���V�Ċ�ɂ���ꍇ�͉��L�̂悤��
-�@Disable �b�}�~ ���K�[���E���@�X�^�A���A
-�@Disable �b�}�~ �}�X�P�b�g�e
-�@Disable �b�}�~ �e�B���E�h�b�s�G�b�^
-�@Disable �b�}�~ ���e�̕���
-�@Disable �b�}�~ �e�B���E�{���[
-�@Disable �b�}�~ �{���o���_�����g
-�@Disable �b�}�~ �����̖��e
-�@Disable �b�}�~ �e�B���E�t�B�i�[��
-�@Disable �b�}�~ ��Η̈�
+※新米基準にする場合は下記のように
+　Disable 巴マミ レガーレ・ヴァスタアリア
+　Disable 巴マミ マスケット銃
+　Disable 巴マミ ティロ・ドッピエッタ
+　Disable 巴マミ 魔弾の舞踏
+　Disable 巴マミ ティロ・ボレー
+　Disable 巴マミ ボンバルダメント
+　Disable 巴マミ 無限の魔弾
+　Disable 巴マミ ティロ・フィナーレ
+　Disable 巴マミ 絶対領域
 
-���������֎�
-�@Enable �b�}�~ ���K�[���E���@�X�^�A���A
-�@Enable �b�}�~ �}�X�P�b�g�e
-�@Enable �b�}�~ �e�B���E�h�b�s�G�b�^
-�@Enable �b�}�~ ���e�̕���
-�@Enable �b�}�~ �e�B���E�{���[
-�@Enable �b�}�~ �{���o���_�����g
-�@Enable �b�}�~ �����̖��e
-�@Enable �b�}�~ �e�B���E�t�B�i�[��
-�@Enable �b�}�~ ��Η̈�
+※武装解禁時
+　Enable 巴マミ レガーレ・ヴァスタアリア
+　Enable 巴マミ マスケット銃
+　Enable 巴マミ ティロ・ドッピエッタ
+　Enable 巴マミ 魔弾の舞踏
+　Enable 巴マミ ティロ・ボレー
+　Enable 巴マミ ボンバルダメント
+　Enable 巴マミ 無限の魔弾
+　Enable 巴マミ ティロ・フィナーレ
+　Enable 巴マミ 絶対領域
 
-���y���e���g�p�\�ɂ���ꍇ�͉��L�̂悤��
-�@Equip �b�}�~ �y��̖��e(�܂ǂ����}�M�J)
+※炸裂弾を使用可能にする場合は下記のように
+　Equip 巴マミ 炸裂の魔弾(まどか☆マギカ)
 
-������Z�\�ɂ�鐧��̏ꍇ
-�@SetSkill �b�}�~ �y��̖��e -1 ��\��
+※特殊技能による制御の場合
+　SetSkill 巴マミ 炸裂の魔弾 -1 非表示
 
 
-�����q�ǎq
-�V�Ď��̍����Č�����ꍇ�A�����E�A�r���e�B�͓K�X�ɕ��󐄏��B
-���o���@���g���Ă������̈ǎq���Č�����ꍇ�A���b�\�E�t�@���^�Y�}(�܂ǂ����}�M�J)��K�X�ɑ��������邩�A
-SetSkill�R�}���h�Ō��o���@���\���ŕt�����Ă��������B
-��������The different story�̌��o���@����������C�x���g��ӂ�ŉ��ւ���Ɨǂ��ł��傤�B
+●佐倉杏子
+新米時の頃を再現する場合、武装・アビリティは適宜に封印推奨。
+幻覚魔法を使っていた頃の杏子を再現する場合、ロッソ・ファンタズマ(まどか☆マギカ)を適宜に装備させるか、
+SetSkillコマンドで幻覚魔法を非表示で付加してください。
+もしくはThe different storyの幻覚魔法が復活するイベント後辺りで解禁すると良いでしょう。
 
 
-���ʏ큨���@�����ւ̃A�b�v�O���[�h
-�@Upgrade ���q�ǎq(�ʏ�) ���q�ǎq
+◆通常→魔法少女へのアップグレード
+　Upgrade 佐倉杏子(通常) 佐倉杏子
 
-���V�Ċ�ɂ���ꍇ�͉��L�̂悤��
-�@Disable ���q�ǎq �S�ӕ�
-�@Disable ���q�ǎq �O�i�˂�
-�@Disable ���q�ǎq �����v��
-�@Disable ���q�ǎq �����ɗ^����S��
-�@Disable ���q�ǎq �f�߂�����
-�@Disable ���q�ǎq �Ō�̐R��
-�@Disable ���q�ǎq �������E
+※新米基準にする場合は下記のように
+　Disable 佐倉杏子 鉄砕鞭
+　Disable 佐倉杏子 三段突き
+　Disable 佐倉杏子 疾風迅雷
+　Disable 佐倉杏子 魔女に与える鉄槌
+　Disable 佐倉杏子 断罪の磔柱
+　Disable 佐倉杏子 最後の審判
+　Disable 佐倉杏子 縛鎖結界
 
-���������֎�
-�@Enable ���q�ǎq �S�ӕ�
-�@Enable ���q�ǎq �O�i�˂�
-�@Enable ���q�ǎq �����v��
-�@Enable ���q�ǎq �����ɗ^����S��
-�@Enable ���q�ǎq �f�߂�����
-�@Enable ���q�ǎq �Ō�̐R��
-�@Enable ���q�ǎq �������E
+※武装解禁時
+　Enable 佐倉杏子 鉄砕鞭
+　Enable 佐倉杏子 三段突き
+　Enable 佐倉杏子 疾風迅雷
+　Enable 佐倉杏子 魔女に与える鉄槌
+　Enable 佐倉杏子 断罪の磔柱
+　Enable 佐倉杏子 最後の審判
+　Enable 佐倉杏子 縛鎖結界
 
-�����o���@�E��߂̑削���g����悤�ɂ���ꍇ�͉��L�̂悤��
-�@Equip ���q�ǎq ���b�\�E�t�@���^�Y�}(�܂ǂ����}�M�J)
-�@Equip ���q�ǎq ��߂̑削(�܂ǂ����}�M�J)
+※幻覚魔法・浄罪の大炎を使えるようにする場合は下記のように
+　Equip 佐倉杏子 ロッソ・ファンタズマ(まどか☆マギカ)
+　Equip 佐倉杏子 浄罪の大炎(まどか☆マギカ)
 
-������Z�\�ɂ�鐧��̏ꍇ
-�@SetSkill ���q�ǎq ���o���@ -1 ��\��
-�@SetSkill ���q�ǎq �Ō�̋F�� -1 ��\��
+※特殊技能による制御の場合
+　SetSkill 佐倉杏子 幻覚魔法 -1 非表示
+　SetSkill 佐倉杏子 最後の祈り -1 非表示
 
 
-�������E�g�����E���b�̐����R�}���h��
-�{�Җ��o��y�уQ�[���Ő��Ȃ�������g�����Ɋւ��ẮA
-�C�x���g�퓬�̎g�p��z�肵�āA�K���ɔ\�͐ݒ�����Ă���܂��B
-�����͊�{�I�ɉ��o��C�x���g�p�Ƃ��Ă̎g�p�����������B
-�悹��p�C���b�g�̓V�i���I�̐i�s��ɂ���āA�K�X�Ɏ�⋭�Ɠ���ւ���Ɨǂ��ł��傤�B
-�����𒝂点�����Ȃ��ꍇ�A�܂ǂ����}�M�J����(����)�̕����悹�Ă���Ă��\���܂���B
-�{�ҁE�Q�[���ł̓o�ꎞ���͂����܂ł��ڈ����x�ɁB
-�܂��A���䑕�u�̖����E�~�ς̖����E��]�̖����ȊO�͊�{�I�Ɋe�X�̖������E���ł̐퓬��z�肵�Ă���̂ŁA
-����}�b�v�ɔz�u����ۂ͂��̓_�ɂ����ӂ��������B
+●魔女・使い魔・魔獣の生成コマンド例
+本編未登場及びゲームで戦わない魔女や使い魔に関しては、
+イベント戦闘の使用を想定して、適当に能力設定をしてあります。
+これらは基本的に演出やイベント用としての使用を強く推奨。
+乗せるパイロットはシナリオの進行具合によって、適宜に弱や強と入れ替えると良いでしょう。
+魔女を喋らせたくない場合、まどか☆マギカ魔女(無言)の方を乗せてやっても構いません。
+本編・ゲームでの登場時期はあくまでも目安程度に。
+また、舞台装置の魔女・救済の魔女・絶望の魔女以外は基本的に各々の魔女結界内での戦闘を想定しているので、
+同一マップに配置する際はその点にご注意ください。
 
 
-���K�N��
-�P�b�`�Q�b
+◆薔薇園
+１話～２話
 
-��PSP�ł͂܂ǂ��E�قނ烋�[�g�E��̖������E�ɓo��B���₩�E�}�~���[�g�ł͎g�����̂ݓo��
+※PSP版はまどか・ほむらルート・謎の魔女結界に登場。さやか・マミルートでは使い魔のみ登場
 
-Create �G �K�N���̖���(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 薔薇園の魔女(まどか☆マギカ) Rank まどか☆マギカ魔女(汎用) Level x y
 
-Create �G �K�N���̖����̎艺(�����W) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G �K�N���̖����̎艺(�x���W) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G �K�N���̖����̎艺(�����W) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 薔薇園の魔女の手下(造園係) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 薔薇園の魔女の手下(警戒係) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 薔薇園の魔女の手下(見回り係) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-���È�
-�R�b
+◆暗闇
+３話
 
-�������͖{�ҁEPSP�ŋ��ɖ��o��E�C�x���g�g�p�O��
+※魔女は本編・PSP版共に未登場・イベント使用前提
 
-Create �G �Èł̖���(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 暗闇の魔女(まどか☆マギカ) Rank まどか☆マギカ魔女(汎用) Level x y
 
-Create �G �Èł̖����̎艺(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 暗闇の魔女の手下(まどか☆マギカ) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-�����َq
-�R�b
+◆お菓子
+３話
 
-��PSP�ł͈ǎq�ȊO�̑S�Ẵ��[�g�E��̖������E�ɓo��
+※PSP版は杏子以外の全てのルート・謎の魔女結界に登場
 
-Create �G ���َq�̖���(��P�`��) Rank �܂ǂ����}�M�J����(�ėp) Level x y
-Create �G ���َq�̖���(��Q�`��) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 お菓子の魔女(第１形態) Rank まどか☆マギカ魔女(汎用) Level x y
+Create 敵 お菓子の魔女(第２形態) Rank まどか☆マギカ魔女(汎用) Level x y
 
-����Q�`�Ԃւ̕ϐg���Č�����ꍇ�͉��L�̂悤��
-�@Upgrade ���َq�̖���(��P�`��) ���َq�̖���(��Q�`��)
+※第２形態への変身を再現する場合は下記のように
+　Upgrade お菓子の魔女(第１形態) お菓子の魔女(第２形態)
 
-Create �G ���َq�̖����̎艺(�X�q�̑{���W) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G ���َq�̖����̎艺(�{���W) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G ���َq�̖����̎艺(�Ō�W) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 お菓子の魔女の手下(帽子の捜索係) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 お菓子の魔女の手下(捜索係) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 お菓子の魔女の手下(看護係) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-���n�R
-�S�b
+◆ハコ
+４話
 
-��PSP�ł͂܂ǂ��E�قނ�E���₩�E�ǎq���[�g�E��̖������E�ɓo��B�}�~���[�g�ł͎g�����̂ݓo��
+※PSP版はまどか・ほむら・さやか・杏子ルート・謎の魔女結界に登場。マミルートでは使い魔のみ登場
 
-Create �G �n�R�̖���(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 ハコの魔女(まどか☆マギカ) Rank まどか☆マギカ魔女(汎用) Level x y
 
-Create �G �n�R�̖����̎艺(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G �n�R�̖����̎艺(�d�g�̎g��) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 ハコの魔女の手下(まどか☆マギカ) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 ハコの魔女の手下(電波の使い) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-��������
-�T�b
+◆落書き
+５話
 
-��PSP�ł͂قނ�E���₩�E�ǎq���[�g�E��̖������E�ɓo��B�܂ǂ����[�g�̓C�x���g�����B�����͓�̖������E�ł̂ݓo��
+※PSP版はほむら・さやか・杏子ルート・謎の魔女結界に登場。まどかルートはイベント扱い。魔女は謎の魔女結界でのみ登場
 
-Create �G �������̖���(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 落書きの魔女(まどか☆マギカ) Rank まどか☆マギカ魔女(汎用) Level x y
 
-Create �G �������̖����̎艺(��s�@) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G �������̖����̎艺(��) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G �������̖����̎艺(�D) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 落書きの魔女の手下(飛行機) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 落書きの魔女の手下(車) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 落書きの魔女の手下(船) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-����
-�V�b
+◆銀
+７話
 
-���{�҂ł͉�z�V�[���̂݁BPSP�łł̓}�~�E�ǎq���[�g�E��̖������E�œo��
+※本編では回想シーンのみ。PSP版ではマミ・杏子ルート・謎の魔女結界で登場
 
-Create �G ��̖���(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 銀の魔女(まどか☆マギカ) Rank まどか☆マギカ魔女(汎用) Level x y
 
-Create �G ��̖����̎艺(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G ��̖����̎艺(�^�C��) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 銀の魔女の手下(まどか☆マギカ) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 銀の魔女の手下(タイヤ) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-���e
-�V�b
+◆影
+７話
 
-��PSP�ł͂܂ǂ��E�قނ烋�[�g�E��̖������E�ɓo��(�����͓�̖������E�ɂ͖��o��)
+※PSP版はまどか・ほむらルート・謎の魔女結界に登場(魔女は謎の魔女結界には未登場)
 
-Create �G �e�̖���(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 影の魔女(まどか☆マギカ) Rank まどか☆マギカ魔女(汎用) Level x y
 
-Create �G �e�̖����̎艺(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G �e�̖����̖��@(�T�n�X���u�W��) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 影の魔女の手下(まどか☆マギカ) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 影の魔女の魔法(サハスラブジャ) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-����
-�W�b
+◆犬
+８話
 
-�������͖{�ҁEPSP�ŋ��ɖ��o��E�C�x���g�g�p�O��
+※魔女は本編・PSP版共に未登場・イベント使用前提
 
-Create �G ���̖���(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 犬の魔女(まどか☆マギカ) Rank まどか☆マギカ魔女(汎用) Level x y
 
-Create �G ���̖����̎艺(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 犬の魔女の手下(まどか☆マギカ) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-���l��
-�X�b�`�P�O�b
+◆人魚
+９話～１０話
 
-��PSP�ł͂قނ�E���₩�E�ǎq���[�g�E��̖������E�ɓo��
+※PSP版はほむら・さやか・杏子ルート・謎の魔女結界に登場
 
-Create �G �l���̖���(�܂ǂ����}�M�J) Rank �l���̖���(�܂ǂ����}�M�J) Level x y
+Create 敵 人魚の魔女(まどか☆マギカ) Rank 人魚の魔女(まどか☆マギカ) Level x y
 
-�������̐��̂��B���ꍇ�͉��L�̂悤�ɁB�܂ǂ����}�M�J����(�ėp)�����ɏ悹�Ă���
-�@SetSkill �l���̖���(�܂ǂ����}�M�J) ���������₩ 0
+※魔女の正体を隠す場合は下記のように。まどか☆マギカ魔女(汎用)を代わりに乗せても可
+　SetSkill 人魚の魔女(まどか☆マギカ) 魔女化さやか 0
 
-���P�O�b�̓񓁗��ōČ��̏ꍇ�͉��L�̂悤��
-�@Equip �l���̖���(�܂ǂ����}�M�J) �l���̖����񓁗�
+※１０話の二刀流版再現の場合は下記のように
+　Equip 人魚の魔女(まどか☆マギカ) 人魚の魔女二刀流
 
-Create �G �l���̖����̎艺(�w����) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G �l���̖����̎艺(�y�c��) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G �l���̖����̎艺(�o�b�N�_���T�[�Y) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G �l���̖����̖��@(�ԗւ̂�����) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 人魚の魔女の手下(指揮者) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 人魚の魔女の手下(楽団員) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 人魚の魔女の手下(バックダンサーズ) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 人魚の魔女の魔法(車輪のしずく) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-���|�p��
-�P�O�b
+◆芸術家
+１０話
 
-��PSP�ł͂��₩�E�}�~���[�g�E��̖������E�ɓo��
+※PSP版はさやか・マミルート・謎の魔女結界に登場
 
-Create �G �|�p�Ƃ̖���(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 芸術家の魔女(まどか☆マギカ) Rank まどか☆マギカ魔女(汎用) Level x y
 
-Create �G �|�p�Ƃ̖����̎艺(��\��) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G �|�p�Ƃ̖����̎艺(�ӗ~��) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 芸術家の魔女の手下(代表作) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 芸術家の魔女の手下(意欲作) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-���ψ���
-�P�O�b
+◆委員長
+１０話
 
-��PSP�ł͂��₩�E�}�~���[�g�E��̖������E�ɓo��
+※PSP版はさやか・マミルート・謎の魔女結界に登場
 
-Create �G �ψ����̖���(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 委員長の魔女(まどか☆マギカ) Rank まどか☆マギカ魔女(汎用) Level x y
 
-Create �G �ψ����̖����̎艺(�N���X���C�g) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G �ψ����̖����̎艺(�e�B�[�`���[) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 委員長の魔女の手下(クラスメイト) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 委員長の魔女の手下(ティーチャー) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-��������
-�P�O�b
+◆鳥かご
+１０話
 
-��PSP�łł͖��o��B�C�x���g�g�p�O��
+※PSP版では未登場。イベント使用前提
 
-Create �G �������̖���(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 鳥かごの魔女(まどか☆マギカ) Rank まどか☆マギカ魔女(汎用) Level x y
 
-Create �G �������̖����̎艺(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 鳥かごの魔女の手下(まどか☆マギカ) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-�����߂���
-PSP�Ń}�~���[�g�E��̖������E
+◆おめかし
+PSP版マミルート・謎の魔女結界
 
-Create �G ���߂����̖���(�܂ǂ����}�M�J) Rank ���߂����̖���(�܂ǂ����}�M�J) Level x y
+Create 敵 おめかしの魔女(まどか☆マギカ) Rank おめかしの魔女(まどか☆マギカ) Level x y
 
-�������̐��̂��B���ꍇ�͉��L�̂悤�ɁB�܂ǂ����}�M�J����(�ėp)�����ɏ悹�Ă���
-�@SetSkill ���߂����̖���(�܂ǂ����}�M�J) �������}�~ 0
+※魔女の正体を隠す場合は下記のように。まどか☆マギカ魔女(汎用)を代わりに乗せても可
+　SetSkill おめかしの魔女(まどか☆マギカ) 魔女化マミ 0
 
-Create �G ���߂����̖����̎艺(�������낳��) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G ���߂����̖����̎艺(�������낳��) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 おめかしの魔女の手下(ももいろさん) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 おめかしの魔女の手下(あかいろさん) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-�����U
-PSP�ňǎq���[�g�E��̖������E
+◆武旦
+PSP版杏子ルート・謎の魔女結界
 
-Create �G ���U�̖���(�܂ǂ����}�M�J) Rank ���U�̖���(�܂ǂ����}�M�J) Level x y
+Create 敵 武旦の魔女(まどか☆マギカ) Rank 武旦の魔女(まどか☆マギカ) Level x y
 
-�������̐��̂��B���ꍇ�͉��L�̂悤�ɁB�܂ǂ����}�M�J����(�ėp)�����ɏ悹�Ă���
-�@SetSkill ���U�̖���(�܂ǂ����}�M�J) �������ǎq 0
+※魔女の正体を隠す場合は下記のように。まどか☆マギカ魔女(汎用)を代わりに乗せても可
+　SetSkill 武旦の魔女(まどか☆マギカ) 魔女化杏子 0
 
-�����g�������Č�����ۂ͈ȉ��̂悤��
-�@Create �G ���U�̖���(���g) Rank �܂ǂ����}�M�J�g����(�ėp) Level x y
-�@Disable ���U�̖���(�܂ǂ����}�M�J) �����
+※分身召喚を再現する際は以下のように
+　Create 敵 武旦の魔女(分身) Rank まどか☆マギカ使い魔(汎用) Level x y
+　Disable 武旦の魔女(まどか☆マギカ) 超回避
 
-Create �G ���U�̖����̎艺�E�擱 Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G ���U�̖����̎艺(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 武旦の魔女の手下・先導 Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 武旦の魔女の手下(まどか☆マギカ) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-������
-PSP�łقނ烋�[�g
+◆此岸
+PSP版ほむらルート
 
-�����䑕�u�̖����s�k�G���h(�Q�[���I�[�o�[��)�݂̂ɓo��B�C�x���g�g�p�O��
+※舞台装置の魔女敗北エンド(ゲームオーバー時)のみに登場。イベント使用前提
 
-Create �G ���݂̖���(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 此岸の魔女(まどか☆マギカ) Rank まどか☆マギカ魔女(汎用) Level x y
 
 
-���j
-PSP�œ�̖������E
+◆針
+PSP版謎の魔女結界
 
-Create �G �j�̖���(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 針の魔女(まどか☆マギカ) Rank まどか☆マギカ魔女(汎用) Level x y
 
-Create �G �j�̖����̎艺(�R�R�I�R) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 針の魔女の手下(３３！３) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
 
-���Y�p
-PSP�œ�̖������E
+◆忘却
+PSP版謎の魔女結界
 
-Create �G �Y�p�̖���(�܂ǂ����}�M�J) Rank �Y�p�̖���(�܂ǂ����}�M�J) Level x y
+Create 敵 忘却の魔女(まどか☆マギカ) Rank 忘却の魔女(まどか☆マギカ) Level x y
 
 
-�����䑕�u
-�P�b�A�P�O�b�`�P�Q�b
+◆舞台装置
+１話、１０話～１２話
 
-��PSP�ł͂قނ�E�}�~���[�g�E�ԊO�ҁE��̖������E�ɓo��
+※PSP版はほむら・マミルート・番外編・謎の魔女結界に登場
 
-Create �G ���䑕�u�̖���(�܂ǂ����}�M�J) Rank ���䑕�u�̖���(�܂ǂ����}�M�J) Level x y
+Create 敵 舞台装置の魔女(まどか☆マギカ) Rank 舞台装置の魔女(まどか☆マギカ) Level x y
 
-���P�b�A�P�O�b�̖��m��ōČ��̏ꍇ�͉��L�̂悤��
-�@Equip ���䑕�u�̖���(�܂ǂ����}�M�J) ���䑕�u�̖������m��d�l
+※１話、１０話の未確定版再現の場合は下記のように
+　Equip 舞台装置の魔女(まどか☆マギカ) 舞台装置の魔女未確定仕様
 
-Create �G ���䑕�u�̖����̎艺(���c�E�V���e) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G ���䑕�u�̖����̎艺(���c�E�\�f) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G ���䑕�u�̖����̎艺(���c�E�J�~�e) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G ���䑕�u�̖����̎艺(�A�J�n�i) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
-Create �G ���䑕�u�̖����̎艺(�A�I�n�i) Rank �܂ǂ����}�M�J�g����(�U�R) Level x y
+Create 敵 舞台装置の魔女の手下(劇団・シモテ) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 舞台装置の魔女の手下(劇団・ソデ) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 舞台装置の魔女の手下(劇団・カミテ) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 舞台装置の魔女の手下(アカハナ) Rank まどか☆マギカ使い魔(ザコ) Level x y
+Create 敵 舞台装置の魔女の手下(アオハナ) Rank まどか☆マギカ使い魔(ザコ) Level x y
 
-���ȉ��͖���ł݂̂ɓo��B�U�R�Ƃ��Ă΂�T���ꍇ�͂܂ǂ����}�M�J�g����(�U�R)���悹�邱�Ƃ𐄏�
+※以下は漫画版のみに登場。ザコとしてばら撒く場合はまどか☆マギカ使い魔(ザコ)を乗せることを推奨
 
-Create �G ���䑕�u�̖����̎艺(���₩) Rank �܂ǂ����}�M�J�g����(�ėp) Level x y
-Create �G ���䑕�u�̖����̎艺(�}�~) Rank �܂ǂ����}�M�J�g����(�ėp) Level x y
-Create �G ���䑕�u�̖����̎艺(�ǎq) Rank �܂ǂ����}�M�J�g����(�ėp) Level x y
+Create 敵 舞台装置の魔女の手下(さやか) Rank まどか☆マギカ使い魔(汎用) Level x y
+Create 敵 舞台装置の魔女の手下(マミ) Rank まどか☆マギカ使い魔(汎用) Level x y
+Create 敵 舞台装置の魔女の手下(杏子) Rank まどか☆マギカ使い魔(汎用) Level x y
 
 
-���~��
-�P�O�b
+◆救済
+１０話
 
-��PSP�łł͈ǎq���[�g�̃G���f�B���O�݂̂ɓo��B�C�x���g�g�p�O��
+※PSP版では杏子ルートのエンディングのみに登場。イベント使用前提
 
-Create �G �~�ς̖���(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 救済の魔女(まどか☆マギカ) Rank まどか☆マギカ魔女(汎用) Level x y
 
 
-����]
-�P�Q�b
+◆絶望
+１２話
 
-��PSP�łł͖��o��B�C�x���g�g�p�O��
+※PSP版では未登場。イベント使用前提
 
-Create �G ��]�̖���(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J����(�ėp) Level x y
+Create 敵 絶望の魔女(まどか☆マギカ) Rank まどか☆マギカ魔女(汎用) Level x y
 
 
-�����b
-�P�Q�b
+◆魔獣
+１２話
 
-��PSP�łł͂܂ǂ��T�O���G���h�݂̂ɓo��
+※PSP版ではまどか概念化エンドのみに登場
 
-Create �G ���b(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J���b(�U�R) Level x y
-Create �G ���b�̌Q(�܂ǂ����}�M�J) Rank �܂ǂ����}�M�J���b(�U�R) Level x y
+Create 敵 魔獣(まどか☆マギカ) Rank まどか☆マギカ魔獣(ザコ) Level x y
+Create 敵 魔獣の群(まどか☆マギカ) Rank まどか☆マギカ魔獣(ザコ) Level x y
 
 
-���Q�l������
+○参考資料○
 
-�E�A�X�L�[�E���f�B�A���[�N�X�F���@�����܂ǂ����}�M�J �|�[�^�u�� �U�E�R���v���[�g�K�C�h
-�E�p�쏑�X�@�@�@�@�@�@�@�@�@�F���@�����܂ǂ����}�M�J The Beginning Story
-�E�F���Ё@�@�@�@�@�@�@�@�@�@�F���@�����܂ǂ����}�M�J �����K�C�h�u�b�N you are not alone.
-�E�F���Ё@�@�@�@�@�@�@�@�@�@�F���@�����܂ǂ����}�M�J �P�`�R��
-�E�F���Ё@�@�@�@�@�@�@�@�@�@�F���@�������肱���}�M�J �P�`�Q��
-�E�F���Ё@�@�@�@�@�@�@�@�@�@�F���� ���@�����܂ǂ����}�M�J
-�E�F���Ё@�@�@�@�@�@�@�@�@�@�F���@�����܂ǂ����}�M�J �`The different story�` ��`����
-�E�F���Ё@�@�@�@�@�@�@�@�@�@�F����� ���@�����܂ǂ����}�M�J [�O��]�n�܂�̕���^[���]�i���̕��� �����K�C�h�u�b�N with you.
+・アスキー・メディアワークス：魔法少女まどか☆マギカ ポータブル ザ・コンプリートガイド
+・角川書店　　　　　　　　　：魔法少女まどか☆マギカ The Beginning Story
+・芳文社　　　　　　　　　　：魔法少女まどか☆マギカ 公式ガイドブック you are not alone.
+・芳文社　　　　　　　　　　：魔法少女まどか☆マギカ １～３巻
+・芳文社　　　　　　　　　　：魔法少女おりこ☆マギカ １～２巻
+・芳文社　　　　　　　　　　：小説 魔法少女まどか☆マギカ
+・芳文社　　　　　　　　　　：魔法少女まどか☆マギカ ～The different story～ 上～下巻
+・芳文社　　　　　　　　　　：劇場版 魔法少女まどか☆マギカ [前編]始まりの物語／[後編]永遠の物語 公式ガイドブック with you.

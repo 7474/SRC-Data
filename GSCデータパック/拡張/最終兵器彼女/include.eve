@@ -1,82 +1,82 @@
 
-###### ‚¿‚¹–\‘–ƒCƒ“ƒNƒ‹ #####
+###### ã¡ã›æš´èµ°ã‚¤ãƒ³ã‚¯ãƒ« #####
 
-*”j‰ó ‚¿‚¹(ÅI•ºŠí”Þ—):
-If Unit(‚¿‚¹(ÅI•ºŠí”Þ—)) = ÅI•ºŠíE‚¿‚¹ or _
-Unit(‚¿‚¹(ÅI•ºŠí”Þ—)) = ÅI•ºŠíE‚¿‚¹(‹‘å) Then
+*ç ´å£Š ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³):
+If Unit(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) = æœ€çµ‚å…µå™¨ãƒ»ã¡ã› or _
+Unit(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) = æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(å·¨å¤§) Then
 
 Switch Random(3)
 Case 1
-AutoTalk ‚¿‚¹(ÅI•ºŠí”Þ—)(–\‘–) X(‚¿‚¹(ÅI•ºŠí”Þ—)) Y(‚¿‚¹(ÅI•ºŠí”Þ—))
-‚¢‚â‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚ÁII
+AutoTalk ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)(æš´èµ°) X(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) Y(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³))
+ã„ã‚„ãããããã£ï¼ï¼
 End
 Case 2
-AutoTalk ‚¿‚¹(ÅI•ºŠí”Þ—) X(‚¿‚¹(ÅI•ºŠí”Þ—)) Y(‚¿‚¹(ÅI•ºŠí”Þ—))
-‚ ‚ÁcA‚¾‚ßc‚ÁAƒVƒ…ƒE‚¿‚á‚ñcA‚ ‚ ‚ÁII
+AutoTalk ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³) X(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) Y(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³))
+ã‚ã£â€¦ã€ã ã‚â€¦ã£ã€ã‚·ãƒ¥ã‚¦ã¡ã‚ƒã‚“â€¦ã€ã‚ã‚ã£ï¼ï¼
 End
 Case 3
-AutoTalk ‚¿‚¹(ÅI•ºŠí”Þ—) X(‚¿‚¹(ÅI•ºŠí”Þ—)) Y(‚¿‚¹(ÅI•ºŠí”Þ—))
-‚ ‚êcH ‚ cA‚ ‚êH ‚ c‚êH
-AutoTalk ‚¿‚¹(ÅI•ºŠí”Þ—)(–\‘–) X(‚¿‚¹(ÅI•ºŠí”Þ—)) Y(‚¿‚¹(ÅI•ºŠí”Þ—))
-c‚ 
+AutoTalk ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³) X(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) Y(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³))
+ã‚ã‚Œâ€¦ï¼Ÿ ã‚â€¦ã€ã‚ã‚Œï¼Ÿ ã‚â€¦ã‚Œï¼Ÿ
+AutoTalk ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)(æš´èµ°) X(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) Y(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³))
+â€¦ã‚
 End
 Endsw
 
-Center ‚¿‚¹(ÅI•ºŠí”Þ—)
+Center ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)
 
-	If Unit(‚¿‚¹(ÅI•ºŠí”Þ—)) = ÅI•ºŠíE‚¿‚¹ Then
-	Upgrade ÅI•ºŠíE‚¿‚¹ ÅI•ºŠíE‚¿‚¹(–\‘–)
-	Elseif Unit(‚¿‚¹(ÅI•ºŠí”Þ—)) = ÅI•ºŠíE‚¿‚¹(‹‘å) Then
-	Upgrade ÅI•ºŠíE‚¿‚¹(‹‘å) ÅI•ºŠíE‚¿‚¹(–\‘–)(‹‘å)
+	If Unit(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) = æœ€çµ‚å…µå™¨ãƒ»ã¡ã› Then
+	Upgrade æœ€çµ‚å…µå™¨ãƒ»ã¡ã› æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(æš´èµ°)
+	Elseif Unit(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) = æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(å·¨å¤§) Then
+	Upgrade æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(å·¨å¤§) æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(æš´èµ°)(å·¨å¤§)
 	Endif
 
-PlayEffect ‘åŒõ’Œ ‚¿‚¹(ÅI•ºŠí”Þ—)
+PlayEffect å¤§å…‰æŸ± ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)
 Endif
 
 Exit
 
 
-*ƒGƒsƒ[ƒO:
-If Unit(‚¿‚¹(ÅI•ºŠí”Þ—)) = ÅI•ºŠíE‚¿‚¹(–\‘–) Then
-Upgrade ÅI•ºŠíE‚¿‚¹(–\‘–) ÅI•ºŠíE‚¿‚¹
-	If Status(‚¿‚¹(ÅI•ºŠí”Þ—)) = oŒ‚ Then
-	Escape ‚¿‚¹(ÅI•ºŠí”Þ—)
+*ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°:
+If Unit(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) = æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(æš´èµ°) Then
+Upgrade æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(æš´èµ°) æœ€çµ‚å…µå™¨ãƒ»ã¡ã›
+	If Status(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) = å‡ºæ’ƒ Then
+	Escape ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)
 	Endif
-Destroy ‚¿‚¹(ÅI•ºŠí”Þ—)
+Destroy ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)
 
-Elseif Unit(‚¿‚¹(ÅI•ºŠí”Þ—)) = ÅI•ºŠíE‚¿‚¹(–\‘–)(‹‘å) Then
-Upgrade ÅI•ºŠíE‚¿‚¹(–\‘–)(‹‘å) ÅI•ºŠíE‚¿‚¹(‹‘å)
-	If Status(‚¿‚¹(ÅI•ºŠí”Þ—)) = oŒ‚ Then
-	Escape ‚¿‚¹(ÅI•ºŠí”Þ—)
+Elseif Unit(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) = æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(æš´èµ°)(å·¨å¤§) Then
+Upgrade æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(æš´èµ°)(å·¨å¤§) æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(å·¨å¤§)
+	If Status(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) = å‡ºæ’ƒ Then
+	Escape ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)
 	Endif
 
-Destroy ‚¿‚¹(ÅI•ºŠí”Þ—)
+Destroy ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)
 Endif
 
 Exit
 
-# –\‘–ó‘Ô‚ð‰ðœB–\‘–‚µ‚½Žž“_‚ÅC—”ï‚ðŽæ‚ç‚ê‚éB
+# æš´èµ°çŠ¶æ…‹ã‚’è§£é™¤ã€‚æš´èµ°ã—ãŸæ™‚ç‚¹ã§ä¿®ç†è²»ã‚’å–ã‚‰ã‚Œã‚‹ã€‚
 
 
-*”j‰ó ‚¿‚¹(ÅI•ºŠí”Þ—)(–\‘–):
-Set –\‘–‚¿‚¹”j‰óƒtƒ‰ƒO
+*ç ´å£Š ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)(æš´èµ°):
+Set æš´èµ°ã¡ã›ç ´å£Šãƒ•ãƒ©ã‚°
 Exit
 
-*Žg—pŒã ‘ÎÛƒpƒCƒƒbƒg ‹F‚è:
-If –\‘–‚¿‚¹”j‰óƒtƒ‰ƒO Then
-	If Status(‚¿‚¹(ÅI•ºŠí”Þ—)) = oŒ‚ and _
-	Unit(‚¿‚¹(ÅI•ºŠí”Þ—)) = ÅI•ºŠíE‚¿‚¹(–\‘–) Then
-	Upgrade ÅI•ºŠíE‚¿‚¹(–\‘–) ÅI•ºŠíE‚¿‚¹
-	Unset –\‘–‚¿‚¹”j‰óƒtƒ‰ƒO
+*ä½¿ç”¨å¾Œ å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ ç¥ˆã‚Š:
+If æš´èµ°ã¡ã›ç ´å£Šãƒ•ãƒ©ã‚° Then
+	If Status(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) = å‡ºæ’ƒ and _
+	Unit(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) = æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(æš´èµ°) Then
+	Upgrade æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(æš´èµ°) æœ€çµ‚å…µå™¨ãƒ»ã¡ã›
+	Unset æš´èµ°ã¡ã›ç ´å£Šãƒ•ãƒ©ã‚°
 
-	Elseif Status(‚¿‚¹(ÅI•ºŠí”Þ—)) = oŒ‚ and _
-	Unit(‚¿‚¹(ÅI•ºŠí”Þ—)) = ÅI•ºŠíE‚¿‚¹(–\‘–)(‹‘å) Then
-	Upgrade ÅI•ºŠíE‚¿‚¹(–\‘–)(‹‘å) ÅI•ºŠíE‚¿‚¹(‹‘å)
-	Unset –\‘–‚¿‚¹”j‰óƒtƒ‰ƒO
+	Elseif Status(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) = å‡ºæ’ƒ and _
+	Unit(ã¡ã›(æœ€çµ‚å…µå™¨å½¼å¥³)) = æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(æš´èµ°)(å·¨å¤§) Then
+	Upgrade æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(æš´èµ°)(å·¨å¤§) æœ€çµ‚å…µå™¨ãƒ»ã¡ã›(å·¨å¤§)
+	Unset æš´èµ°ã¡ã›ç ´å£Šãƒ•ãƒ©ã‚°
 	Endif
 Endif
 Exit
 
-# ‹F‚è‚Å•œŠˆ‚³‚¹‚½ê‡‚ÉA–\‘–ó‘Ô‚ð‰ðœB
-# u‹F‚è‚Å•œŠˆ‚³‚¹‚½ƒpƒCƒƒbƒgv‚ÍŠÖ”‚Å’¼ÚK“¾‚Å‚«‚È‚¢‚Ì‚ÅA
-# u‚¿‚¹‚ª”j‰ó‚³‚ê‚½ó‘Ô‚ÅA‹F‚èŽg—pŒã‚É–\‘–‚¿‚¹‚ª‘¶Ý‚µ‚Ä‚¢‚é‚©‚Ç‚¤‚©v‚Å”»•Ê‚³‚¹‚éB
+# ç¥ˆã‚Šã§å¾©æ´»ã•ã›ãŸå ´åˆã«ã€æš´èµ°çŠ¶æ…‹ã‚’è§£é™¤ã€‚
+# ã€Œç¥ˆã‚Šã§å¾©æ´»ã•ã›ãŸãƒ‘ã‚¤ãƒ­ãƒƒãƒˆã€ã¯é–¢æ•°ã§ç›´æŽ¥ç¿’å¾—ã§ããªã„ã®ã§ã€
+# ã€Œã¡ã›ãŒç ´å£Šã•ã‚ŒãŸçŠ¶æ…‹ã§ã€ç¥ˆã‚Šä½¿ç”¨å¾Œã«æš´èµ°ã¡ã›ãŒå­˜åœ¨ã—ã¦ã„ã‚‹ã‹ã©ã†ã‹ã€ã§åˆ¤åˆ¥ã•ã›ã‚‹ã€‚

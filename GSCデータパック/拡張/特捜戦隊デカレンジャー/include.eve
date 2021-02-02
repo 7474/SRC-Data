@@ -1,28 +1,28 @@
 
-*•ÏŒ` Unit(ƒfƒJƒŒƒbƒh) “Á‘{í‘àƒfƒJƒŒƒ“ƒWƒƒ[E‚r‚v‚`‚sƒ‚[ƒh:
-Set ƒfƒJƒŒƒ“‚r‚v‚`‚s’†‚Å‚·‚æ 1
-ReplacePilot ƒfƒJƒŒƒbƒh ƒfƒJƒŒƒbƒhE‚r‚v‚`‚sƒ‚[ƒh
-ReplacePilot ƒfƒJƒuƒ‹[ ƒfƒJƒuƒ‹[E‚r‚v‚`‚sƒ‚[ƒh
-ReplacePilot ƒfƒJƒOƒŠ[ƒ“ ƒfƒJƒOƒŠ[ƒ“E‚r‚v‚`‚sƒ‚[ƒh
-ReplacePilot ƒfƒJƒCƒGƒ[ ƒfƒJƒCƒGƒ[E‚r‚v‚`‚sƒ‚[ƒh
-ReplacePilot ƒfƒJƒsƒ“ƒN ƒfƒJƒsƒ“ƒNE‚r‚v‚`‚sƒ‚[ƒh
+*å¤‰å½¢ Unit(ãƒ‡ã‚«ãƒ¬ãƒƒãƒ‰) ç‰¹æœæˆ¦éšŠãƒ‡ã‚«ãƒ¬ãƒ³ã‚¸ãƒ£ãƒ¼ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰:
+Set ãƒ‡ã‚«ãƒ¬ãƒ³ï¼³ï¼·ï¼¡ï¼´ä¸­ã§ã™ã‚ˆ 1
+ReplacePilot ãƒ‡ã‚«ãƒ¬ãƒƒãƒ‰ ãƒ‡ã‚«ãƒ¬ãƒƒãƒ‰ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰
+ReplacePilot ãƒ‡ã‚«ãƒ–ãƒ«ãƒ¼ ãƒ‡ã‚«ãƒ–ãƒ«ãƒ¼ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰
+ReplacePilot ãƒ‡ã‚«ã‚°ãƒªãƒ¼ãƒ³ ãƒ‡ã‚«ã‚°ãƒªãƒ¼ãƒ³ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰
+ReplacePilot ãƒ‡ã‚«ã‚¤ã‚¨ãƒ­ãƒ¼ ãƒ‡ã‚«ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰
+ReplacePilot ãƒ‡ã‚«ãƒ”ãƒ³ã‚¯ ãƒ‡ã‚«ãƒ”ãƒ³ã‚¯ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰
 Exit
 
-*•ÏŒ` Unit(ƒfƒJƒŒƒbƒhE‚r‚v‚`‚sƒ‚[ƒh) “Á‘{í‘àƒfƒJƒŒƒ“ƒWƒƒ[:
-Set ƒfƒJƒŒƒ“‚r‚v‚`‚s’†‚Å‚·‚æ 0
-ReplacePilot ƒfƒJƒŒƒbƒhE‚r‚v‚`‚sƒ‚[ƒh ƒfƒJƒŒƒbƒh
-ReplacePilot ƒfƒJƒuƒ‹[E‚r‚v‚`‚sƒ‚[ƒh ƒfƒJƒuƒ‹[
-ReplacePilot ƒfƒJƒOƒŠ[ƒ“E‚r‚v‚`‚sƒ‚[ƒh ƒfƒJƒOƒŠ[ƒ“
-ReplacePilot ƒfƒJƒCƒGƒ[E‚r‚v‚`‚sƒ‚[ƒh ƒfƒJƒCƒGƒ[
-ReplacePilot ƒfƒJƒsƒ“ƒNE‚r‚v‚`‚sƒ‚[ƒh ƒfƒJƒsƒ“ƒN
+*å¤‰å½¢ Unit(ãƒ‡ã‚«ãƒ¬ãƒƒãƒ‰ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰) ç‰¹æœæˆ¦éšŠãƒ‡ã‚«ãƒ¬ãƒ³ã‚¸ãƒ£ãƒ¼:
+Set ãƒ‡ã‚«ãƒ¬ãƒ³ï¼³ï¼·ï¼¡ï¼´ä¸­ã§ã™ã‚ˆ 0
+ReplacePilot ãƒ‡ã‚«ãƒ¬ãƒƒãƒ‰ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰ ãƒ‡ã‚«ãƒ¬ãƒƒãƒ‰
+ReplacePilot ãƒ‡ã‚«ãƒ–ãƒ«ãƒ¼ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰ ãƒ‡ã‚«ãƒ–ãƒ«ãƒ¼
+ReplacePilot ãƒ‡ã‚«ã‚°ãƒªãƒ¼ãƒ³ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰ ãƒ‡ã‚«ã‚°ãƒªãƒ¼ãƒ³
+ReplacePilot ãƒ‡ã‚«ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰ ãƒ‡ã‚«ã‚¤ã‚¨ãƒ­ãƒ¼
+ReplacePilot ãƒ‡ã‚«ãƒ”ãƒ³ã‚¯ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰ ãƒ‡ã‚«ãƒ”ãƒ³ã‚¯
 Exit
 
-*ƒGƒsƒ[ƒO:
-If ƒfƒJƒŒƒ“‚r‚v‚`‚s’†‚Å‚·‚æ = 1 Then
- ReplacePilot ƒfƒJƒŒƒbƒhE‚r‚v‚`‚sƒ‚[ƒh ƒfƒJƒŒƒbƒh
- ReplacePilot ƒfƒJƒuƒ‹[E‚r‚v‚`‚sƒ‚[ƒh ƒfƒJƒuƒ‹[
- ReplacePilot ƒfƒJƒOƒŠ[ƒ“E‚r‚v‚`‚sƒ‚[ƒh ƒfƒJƒOƒŠ[ƒ“
- ReplacePilot ƒfƒJƒCƒGƒ[E‚r‚v‚`‚sƒ‚[ƒh ƒfƒJƒCƒGƒ[
- ReplacePilot ƒfƒJƒsƒ“ƒNE‚r‚v‚`‚sƒ‚[ƒh ƒfƒJƒsƒ“ƒN
+*ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°:
+If ãƒ‡ã‚«ãƒ¬ãƒ³ï¼³ï¼·ï¼¡ï¼´ä¸­ã§ã™ã‚ˆ = 1 Then
+ ReplacePilot ãƒ‡ã‚«ãƒ¬ãƒƒãƒ‰ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰ ãƒ‡ã‚«ãƒ¬ãƒƒãƒ‰
+ ReplacePilot ãƒ‡ã‚«ãƒ–ãƒ«ãƒ¼ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰ ãƒ‡ã‚«ãƒ–ãƒ«ãƒ¼
+ ReplacePilot ãƒ‡ã‚«ã‚°ãƒªãƒ¼ãƒ³ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰ ãƒ‡ã‚«ã‚°ãƒªãƒ¼ãƒ³
+ ReplacePilot ãƒ‡ã‚«ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰ ãƒ‡ã‚«ã‚¤ã‚¨ãƒ­ãƒ¼
+ ReplacePilot ãƒ‡ã‚«ãƒ”ãƒ³ã‚¯ãƒ»ï¼³ï¼·ï¼¡ï¼´ãƒ¢ãƒ¼ãƒ‰ ãƒ‡ã‚«ãƒ”ãƒ³ã‚¯
 Endif
 Exit

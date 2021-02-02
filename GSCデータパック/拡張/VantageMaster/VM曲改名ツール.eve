@@ -1,82 +1,82 @@
-#g—p•û–@‚Ímidi‚ÉŠÖ‚µ‚Ä.txt‚ğQÆ‚µ‚Ä‚­‚¾‚³‚¢B
+#ä½¿ç”¨æ–¹æ³•ã¯midiã«é–¢ã—ã¦.txtã‚’å‚ç…§ã—ã¦ãã ã•ã„ã€‚
 
 
-ƒvƒƒ[ƒO:
+ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°:
 
 
 AutoTalk
-0.1;MIDI–¼•ÏX’†`
+0.1;MIDIåå¤‰æ›´ä¸­ï½
 Suspend
-### ‚±‚±‚©‚çíœ‚·‚éƒf[ƒ^‚ğw’è‚µ‚Ü‚· ##########
+### ã“ã“ã‹ã‚‰å‰Šé™¤ã™ã‚‹ãƒ‡ãƒ¼ã‚¿ã‚’æŒ‡å®šã—ã¾ã™ ##########
 
 Set i 0
-Set •ÏŠ·” 0
+Set å¤‰æ›æ•° 0
 
-Call ƒŠƒl[ƒ€‚Q VANMAS_Vantage.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_WorldMap.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_Win.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_Lose.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_Ending.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_NewStage.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_Charamake.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_Visual.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_Title.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_AnotherDimension.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_Highlands.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_Snowfield.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_Cave.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_Forest.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_limestoneCave.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_Sanctuary.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_Volcano.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_Maze.mid
-Call ƒŠƒl[ƒ€‚Q VANMAS_Desert.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Vantage.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_WorldMap.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Win.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Lose.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Ending.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_NewStage.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Charamake.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Visual.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Title.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_AnotherDimension.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Highlands.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Snowfield.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Cave.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Forest.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_limestoneCave.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Sanctuary.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Volcano.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Maze.mid
+Call ãƒªãƒãƒ¼ãƒ ï¼’ VANMAS_Desert.mid
 
 Quit
 
-ƒXƒ^[ƒg:
+ã‚¹ã‚¿ãƒ¼ãƒˆ:
 Quit
 
-ƒGƒsƒ[ƒO:
+ã‚¨ãƒ”ãƒ­ãƒ¼ã‚°:
 Exit
 
-ƒŠƒl[ƒ€‚Q:
+ãƒªãƒãƒ¼ãƒ ï¼’:
 IF i > 9 Then
- Set Œ³‹È–¼ ("Cr0" & i & "gm.mid")
+ Set å…ƒæ›²å ("Cr0" & i & "gm.mid")
 ElseIF i = 9 Then
 Incr i
- Set Œ³‹È–¼ ("Cr0" & i & "gm.mid")
+ Set å…ƒæ›²å ("Cr0" & i & "gm.mid")
 Else
- Set Œ³‹È–¼ ("Cr00" & i & "gm.mid")
+ Set å…ƒæ›²å ("Cr00" & i & "gm.mid")
 EndIf
-If (Dir(Œ³‹È–¼) <> "") And (Dir(Args(1)) = "") Then
-CopyFile Œ³‹È–¼ Args(1)
-Incr •ÏŠ·”
+If (Dir(å…ƒæ›²å) <> "") And (Dir(Args(1)) = "") Then
+CopyFile å…ƒæ›²å Args(1)
+Incr å¤‰æ›æ•°
 EndIf
 
 
 IF i > 10 Then
- Set Œ³‹È–¼ ("vm" & i & ".mid")
+ Set å…ƒæ›²å ("vm" & i & ".mid")
 ElseIF i = 9 Then
 Incr i
- Set Œ³‹È–¼ ("vm" & i & ".mid")
+ Set å…ƒæ›²å ("vm" & i & ".mid")
 Else
- Set Œ³‹È–¼ ("vm0" & i & ".mid")
+ Set å…ƒæ›²å ("vm0" & i & ".mid")
 EndIf
-If (Dir(Œ³‹È–¼) <> "") And (Dir(Args(1)) = "") Then
-CopyFile Œ³‹È–¼ Args(1)
-Incr •ÏŠ·”
+If (Dir(å…ƒæ›²å) <> "") And (Dir(Args(1)) = "") Then
+CopyFile å…ƒæ›²å Args(1)
+Incr å¤‰æ›æ•°
 EndIf
 
 Incr i
 
-If •ÏŠ·” > 0 Then
-AutoTalk ƒVƒXƒeƒ€
-0.1;MIDI–¼•ÏX’†` $(•ÏŠ·”)‹È•ÏX‚µ‚Ü‚µ‚½
+If å¤‰æ›æ•° > 0 Then
+AutoTalk ã‚·ã‚¹ãƒ†ãƒ 
+0.1;MIDIåå¤‰æ›´ä¸­ï½ $(å¤‰æ›æ•°)æ›²å¤‰æ›´ã—ã¾ã—ãŸ
 Suspend
 Else
-AutoTalk ƒVƒXƒeƒ€
-ŠY“–‚·‚éMIDI‚ª‚ ‚è‚Ü‚¹‚ñBƒtƒHƒ‹ƒ_\‘¢‚ğŠm”F‚µ‚Ä‚­‚¾‚³‚¢
+AutoTalk ã‚·ã‚¹ãƒ†ãƒ 
+è©²å½“ã™ã‚‹MIDIãŒã‚ã‚Šã¾ã›ã‚“ã€‚ãƒ•ã‚©ãƒ«ãƒ€æ§‹é€ ã‚’ç¢ºèªã—ã¦ãã ã•ã„
 End
 Endif
 Return

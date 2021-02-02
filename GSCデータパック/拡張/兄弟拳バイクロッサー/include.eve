@@ -1,24 +1,24 @@
 
-## �����a�ŁA�M�����P�����R�鉉�o�̂��߂̏����B
-�퓬�A�j��_�����a�U��:
-set ���胆�j�b�g�h�c UnitID(�o�C�N���b�T�[�E�P��)
+## 爆勢斬で、ギンがケンを蹴る演出のための処理。
+戦闘アニメ_爆勢斬攻撃:
+set 相手ユニットＩＤ UnitID(バイクロッサー・ケン)
 Return
 
 
 
 
-## �P�������獇�̋Z�g�p���A�������̎ː����M�����ɂ��邽�߂̏����B
-�퓬�A�j��_�Z�팝�ː��ύX�P������:
-set �Ώۃ��j�b�g�h�c UnitID(�o�C�N���b�T�[�E�M��)
+## ケン側から合体技使用時、命中時の射線をギン側にするための処理。
+戦闘アニメ_兄弟拳射線変更ケン命中:
+set 対象ユニットＩＤ UnitID(バイクロッサー・ギン)
 Return
 
-## �M�������獇�̋Z�g�p���A�������̎ː����P�����ɂ��邽�߂̏����B
-�퓬�A�j��_�Z�팝�ː��ύX�M������:
-set �Ώۃ��j�b�g�h�c UnitID(�o�C�N���b�T�[�E�P��)
+## ギン側から合体技使用時、命中時の射線をケン側にするための処理。
+戦闘アニメ_兄弟拳射線変更ギン命中:
+set 対象ユニットＩＤ UnitID(バイクロッサー・ケン)
 Return
 
-## ��Q�̏�����A�Ώۃ��j�b�g���Œ肳���̂�h�������B
-�퓬�A�j��_�Z�팝�h�c����:
-Unset �Ώۃ��j�b�g�h�c
-Unset ���胆�j�b�g�h�c
+## 上２つの処理後、対象ユニットが固定されるのを防ぐ処理。
+戦闘アニメ_兄弟拳ＩＤ処理:
+Unset 対象ユニットＩＤ
+Unset 相手ユニットＩＤ
 Return

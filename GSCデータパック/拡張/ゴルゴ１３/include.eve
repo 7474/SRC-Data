@@ -1,23 +1,23 @@
 
-í“¬ƒAƒjƒ_G13_ŠïÕ‚Ì‘_Œ‚:
-Center ‘Šèƒ†ƒjƒbƒg
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_G13_å¥‡è·¡ã®ç‹™æ’ƒ:
+Center ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆ
 Local BMP_FILE
 Local BMP_FILE2
 Local BMP_FILE3
-Set BMP_FILE Info(ƒpƒCƒƒbƒg, ‘ŠèƒpƒCƒƒbƒg, ƒOƒ‰ƒtƒBƒbƒN)
-Set BMP_FILE2 _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set BMP_FILE3 _GetTileName(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Set BMP_FILE Info(ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ, ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ, ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯)
+Set BMP_FILE2 _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set BMP_FILE3 _GetTileName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
 PaintPicture BMP_FILE - 190 128 128
 Refresh
 Wait 6
 PlaySound Explode(Small).wav
-PaintPicture BMP_FILE - 190 128 128 ”’•
-FillStyle “h‚è‚Â‚Ô‚µ
+PaintPicture BMP_FILE - 190 128 128 ç™½é»’
+FillStyle å¡—ã‚Šã¤ã¶ã—
 Color RGB(0,0,0)
 FillColor RGB(60,30,30)
 Circle 240 232 8 RGB(0,0,0)
-PaintPicture Hit\EFFECT_StrikeHit(Red)02.bmp - 220 32 32 “§‰ß
+PaintPicture Hit\EFFECT_StrikeHit(Red)02.bmp - 220 32 32 é€é
 Refresh
 Wait 1
 ClearPicture
@@ -25,15 +25,15 @@ If BMP_FILE3 = "" then
 Else
 	PaintPicture BMP_FILE3 - - - -
 Endif
-PaintPicture BMP_FILE2 219 - “§‰ß
-PaintPicture BMP_FILE 171 190 128 128 ”’•
+PaintPicture BMP_FILE2 219 - é€é
+PaintPicture BMP_FILE 171 190 128 128 ç™½é»’
 FillColor RGB(120,30,30)
 Circle 235 232 8 RGB(0,0,0)
-PaintPicture Hit\EFFECT_StrikeHit(Red)03.bmp 214 202 48 48 “§‰ß
+PaintPicture Hit\EFFECT_StrikeHit(Red)03.bmp 214 202 48 48 é€é
 Refresh
 Wait 1
 ClearPicture
-PaintPicture BMP_FILE - 190 128 128 ”’•
+PaintPicture BMP_FILE - 190 128 128 ç™½é»’
 FillColor RGB(200,30,30)
 Circle 240 232 8 RGB(0,0,0)
 Refresh

@@ -1,26 +1,26 @@
-g—p ‘ÎÛƒpƒCƒƒbƒg –³ŒÀ¶–½‚Ì‚©‚¯‚ç:
-SpecialPowerAnime •œŠˆ ‘ÎÛƒpƒCƒƒbƒg
-SpecialPower ‘ÎÛƒpƒCƒƒbƒg •œŠˆ
+ä½¿ç”¨ å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ ç„¡é™ç”Ÿå‘½ã®ã‹ã‘ã‚‰:
+SpecialPowerAnime å¾©æ´» å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ
+SpecialPower å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ å¾©æ´»
 Exit
 
-g—p ‘ÎÛƒpƒCƒƒbƒg ‰·ò¢Š«:
-Talk ƒVƒXƒeƒ€
-$(NickName(‘ÎÛƒpƒCƒƒbƒg))‚Í‚X‚Æ‰·òŠÅ”Â‚ğU‚è‚©‚´‚µ‚½B
+ä½¿ç”¨ å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ æ¸©æ³‰å¬å–š:
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+$(NickName(å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ))ã¯é«˜ã€…ã¨æ¸©æ³‰çœ‹æ¿ã‚’æŒ¯ã‚Šã‹ã–ã—ãŸã€‚
 End
 PlaySound DrumRoll(Long).wav
 Wait 10
 Switch Random(6)
 Case 1
-UseAbility –ü‚µ‚Ì“’
+UseAbility ç™’ã—ã®æ¹¯
 Case 2
-MapAbility ƒXƒJ 0 0
+MapAbility ã‚¹ã‚« 0 0
 Case 3
-UseAbility —nŠâ‚Ì“’
+UseAbility æº¶å²©ã®æ¹¯
 Case 4
-UseAbility ˆÃ•‚Ì“’
+UseAbility æš—é»’ã®æ¹¯
 Case 5
-UseAbility á‹C‚Ì“’
+UseAbility ç˜´æ°—ã®æ¹¯
 Case 6
-UseAbility ˜a‚İ‚Ì“’
+UseAbility å’Œã¿ã®æ¹¯
 Endsw
 Exit

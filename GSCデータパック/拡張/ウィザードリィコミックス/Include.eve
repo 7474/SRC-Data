@@ -1,20 +1,20 @@
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_ƒpƒ^[ƒ“Œˆ’è:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ‘ã‚¿ãƒ¼ãƒ³æ±ºå®š:
 
 Local i
 Local n
 
-If (í“¬ƒAƒjƒƒpƒ^[ƒ“ != "") Then
-  If Skill(‘ÎÛƒpƒCƒƒbƒg, í“¬ƒAƒjƒƒpƒ^[ƒ“) Then
-    ClearSkill ‘ÎÛƒpƒCƒƒbƒg í“¬ƒAƒjƒƒpƒ^[ƒ“
+If (æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³ != "") Then
+  If Skill(å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ, æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³) Then
+    ClearSkill å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³
   EndIf
-  If Skill(‘ŠèƒpƒCƒƒbƒg, í“¬ƒAƒjƒƒpƒ^[ƒ“) Then
-    ClearSkill ‘ŠèƒpƒCƒƒbƒg í“¬ƒAƒjƒƒpƒ^[ƒ“
+  If Skill(ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ, æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³) Then
+    ClearSkill ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³
   EndIf
 EndIf
 
-Set í“¬ƒAƒjƒƒpƒ^[ƒ“
+Set æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³
 
 Set n Args(1)
 
@@ -24,34 +24,34 @@ EndIf
 
 Set i Random(n)
 
-í“¬ƒAƒjƒƒpƒ^[ƒ“ =  ("ƒpƒ^[ƒ“_" & i)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³ =  ("ãƒ‘ã‚¿ãƒ¼ãƒ³_" & i)
 
-SetSkill ‘ŠèƒpƒCƒƒbƒg í“¬ƒAƒjƒƒpƒ^[ƒ“ -1
+SetSkill ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³ -1
 
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_ƒpƒ^[ƒ“‰ğœ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ‘ã‚¿ãƒ¼ãƒ³è§£é™¤:
 
-ClearSkill ‘ŠèƒpƒCƒƒbƒg í“¬ƒAƒjƒƒpƒ^[ƒ“
+ClearSkill ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³
 
-Unset í“¬ƒAƒjƒƒpƒ^[ƒ“
+Unset æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³
 
 Return
 
-*UŒ‚Œã ‘S ‘S:
-*”j‰ó ‘S:
+*æ”»æ’ƒå¾Œ å…¨ å…¨:
+*ç ´å£Š å…¨:
 
-If (í“¬ƒAƒjƒƒpƒ^[ƒ“ != "") Then
+If (æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³ != "") Then
 
-  If Skill(‘ÎÛƒpƒCƒƒbƒg, í“¬ƒAƒjƒƒpƒ^[ƒ“) Then
-    ClearSkill ‘ÎÛƒpƒCƒƒbƒg í“¬ƒAƒjƒƒpƒ^[ƒ“
+  If Skill(å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ, æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³) Then
+    ClearSkill å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³
   EndIf
-  If Skill(‘ŠèƒpƒCƒƒbƒg, í“¬ƒAƒjƒƒpƒ^[ƒ“) Then
-    ClearSkill ‘ŠèƒpƒCƒƒbƒg í“¬ƒAƒjƒƒpƒ^[ƒ“
+  If Skill(ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ, æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³) Then
+    ClearSkill ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³
   EndIf
 
-  Unset í“¬ƒAƒjƒƒpƒ^[ƒ“
+  Unset æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ‘ã‚¿ãƒ¼ãƒ³
 
 EndIf
 
@@ -59,7 +59,7 @@ Exit
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_–P—´ŠjŒ‚a€”õ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é³³é¾æ ¸æ’ƒæ–¬æº–å‚™:
 
 Local i
 Local BMP_FILE
@@ -75,20 +75,20 @@ Local DRCT
 
 _UnSetBattleAnimeValue
 
-Center ‘ÎÛƒ†ƒjƒbƒg‚h‚c
+Center å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 Set BMP_FILE "Map\EFFECT_MapAura(White)"
-Set BMP_FILE2 _GetBMPName(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
+Set BMP_FILE2 _GetBMPName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Set N_S 16
 Set N_C 1
 Set WP_FILE "Weapon\EFFECT_JapaneseBlade01.bmp"
-Set C_X WX(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
-Set C_Y WY(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
+Set C_X WX(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set C_Y WY(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Set DRCT _MapDirectionCheck()
 
-If DRCT = "ã" or DRCT = "‰E" Then
+If DRCT = "ä¸Š" or DRCT = "å³" Then
   Set X_P 16
-  Set DRCT "¶‰E”½“]"
+  Set DRCT "å·¦å³åè»¢"
 Else
   Set X_P -16
   Set DRCT ""
@@ -99,9 +99,9 @@ PlaySound Args(2)
 
 Wait Start
 For i = 1 To 99
-  PaintPicture (BMP_FILE & "0" & N_C & ".bmp") - (240 - (N_S / 2) + 16) N_S N_S “§‰ß _ColorTime(1)
-  PaintPicture BMP_FILE2 - - 32 32 “§‰ß _ColorTime(1)
-  PaintPicture WP_FILE (C_X + X_P) C_Y 32 32 “§‰ß DRCT _ColorTime(1)
+  PaintPicture (BMP_FILE & "0" & N_C & ".bmp") - (240 - (N_S / 2) + 16) N_S N_S é€é _ColorTime(1)
+  PaintPicture BMP_FILE2 - - 32 32 é€é _ColorTime(1)
+  PaintPicture WP_FILE (C_X + X_P) C_Y 32 32 é€é DRCT _ColorTime(1)
   Refresh
   If ((i Mod 2) = 0) Then
     Incr N_C 1
@@ -120,9 +120,9 @@ Next
 
 Wait Start
 For i = 1 To 12
-  PaintPicture (BMP_FILE & "0" & N_C & ".bmp") - (240 - (N_S / 2) + 16) N_S N_S “§‰ß _ColorTime(1)
-  PaintPicture BMP_FILE2 - - 32 32 “§‰ß _ColorTime(1)
-  PaintPicture WP_FILE (C_X + X_P) C_Y 32 32 “§‰ß DRCT _ColorTime(1)
+  PaintPicture (BMP_FILE & "0" & N_C & ".bmp") - (240 - (N_S / 2) + 16) N_S N_S é€é _ColorTime(1)
+  PaintPicture BMP_FILE2 - - 32 32 é€é _ColorTime(1)
+  PaintPicture WP_FILE (C_X + X_P) C_Y 32 32 é€é DRCT _ColorTime(1)
   Refresh
   If ((i Mod 2) = 0) Then
     Incr N_C 1
@@ -137,7 +137,7 @@ Return "Keep"
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_–P—´ŠjŒ‚aUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é³³é¾æ ¸æ’ƒæ–¬æ”»æ’ƒ:
 
 Local i
 Local BMP_FILE
@@ -153,20 +153,20 @@ Local DRCT
 
 _UnSetBattleAnimeValue
 
-Center ‘ÎÛƒ†ƒjƒbƒg‚h‚c
+Center å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 Set BMP_FILE "Map\EFFECT_MapAura(White)"
-Set BMP_FILE2 _GetBMPName(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
+Set BMP_FILE2 _GetBMPName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Set N_S 96
 Set N_C 1
 Set WP_FILE "Weapon\EFFECT_JapaneseBlade01.bmp"
-Set C_X WX(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
-Set C_Y WY(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
+Set C_X WX(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set C_Y WY(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Set DRCT _MapDirectionCheck()
 
-If DRCT = "ã" or DRCT = "‰E" Then
+If DRCT = "ä¸Š" or DRCT = "å³" Then
   Set X_P 16
-  Set DRCT "¶‰E”½“]"
+  Set DRCT "å·¦å³åè»¢"
 Else
   Set X_P -16
   Set DRCT ""
@@ -177,8 +177,8 @@ PlaySound Charge.wav
 Wait Start
 For i = 1 To 99
   ClearPicture
-  PaintPicture (BMP_FILE & "0" & N_C & ".bmp") - (240 - (N_S / 2) + 16) N_S N_S “§‰ß _ColorTime(1)
-  PaintPicture WP_FILE (C_X + X_P) C_Y 32 32 “§‰ß DRCT _ColorTime(1)
+  PaintPicture (BMP_FILE & "0" & N_C & ".bmp") - (240 - (N_S / 2) + 16) N_S N_S é€é _ColorTime(1)
+  PaintPicture WP_FILE (C_X + X_P) C_Y 32 32 é€é DRCT _ColorTime(1)
   Refresh
   If ((i Mod 2) = 0) Then
     Incr N_C -1
@@ -195,12 +195,12 @@ For i = 1 To 99
   Set N_S (N_S * 1.2)
 Next
 
-PaintPicture (BMP_FILE & "0" & N_C & ".bmp") - (240 - (N_S / 2) + 16) N_S N_S “§‰ß _ColorTime(1)
+PaintPicture (BMP_FILE & "0" & N_C & ".bmp") - (240 - (N_S / 2) + 16) N_S N_S é€é _ColorTime(1)
 
 Wait Start
 PlaySound Cannon.wav
 For i = 1 To 5
-  PaintPicture ("Attack\EFFECT_Swing0" & i & ".bmp") (C_X - 4) (C_Y - 4) 40 40 “§‰ß DRCT _ColorTime(1)
+  PaintPicture ("Attack\EFFECT_Swing0" & i & ".bmp") (C_X - 4) (C_Y - 4) 40 40 é€é DRCT _ColorTime(1)
   Refresh
   Wait Until (i * 0.4)
 Next
@@ -209,20 +209,20 @@ Return "Keep"
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_–P—´‹•‹óa–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é³³é¾è™šç©ºæ–¬å‘½ä¸­:
 
 Local i
 Local BMP_FILE
 Local C_X
 Local C_Y
-Local –¾“x
+Local æ˜åº¦
 
-Set BMP_FILE _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set –¾“x ""
-Set C_X WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set C_Y WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Set BMP_FILE _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set æ˜åº¦ ""
+Set C_X WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set C_Y WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤º
 
 _SelectSound "Saber.wav" _GetWavFromArgs()
 
@@ -232,12 +232,12 @@ For i = 0 To 16
   ClearPicture
 
   If (i = 6) Then
-    Set –¾“x –¾
+    Set æ˜åº¦ æ˜
   EndIf
 
   If ( i < 15) Then
-    PaintPicture BMP_FILE (C_X + 1) (C_Y - i) 32 32 “§‰ß –¾“x ‰E”¼•ª
-    PaintPicture BMP_FILE (C_X - 1) (C_Y + i) 32 32 “§‰ß –¾“x ¶”¼•ª
+    PaintPicture BMP_FILE (C_X + 1) (C_Y - i) 32 32 é€é æ˜åº¦ å³åŠåˆ†
+    PaintPicture BMP_FILE (C_X - 1) (C_Y + i) 32 32 é€é æ˜åº¦ å·¦åŠåˆ†
   EndIf
   Refresh
   Wait Until (i * 0.3)
@@ -245,7 +245,7 @@ Next
 
 WhiteOut 5
 
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦‰ğœ
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤ºè§£é™¤
 
 WhiteIn 5
 

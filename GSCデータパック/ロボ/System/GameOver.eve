@@ -1,8 +1,8 @@
-<Data\_Šî–{ƒf[ƒ^I—¹ˆ—\I—¹ˆ—.eve>
-<Data\_Šg’£ƒf[ƒ^I—¹ˆ—\I—¹ˆ—.eve>
+<Data\_åŸºæœ¬ãƒ‡ãƒ¼ã‚¿çµ‚äº†å‡¦ç†\çµ‚äº†å‡¦ç†.eve>
+<Data\_æ‹¡å¼µãƒ‡ãƒ¼ã‚¿çµ‚äº†å‡¦ç†\çµ‚äº†å‡¦ç†.eve>
 
 
-ƒvƒƒ[ƒO:
+ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°:
 PlayMIDI GameOver.mid
 
 Set i 0
@@ -13,13 +13,13 @@ For j = 1 To 4
   EndIf
   Switch j
   Case 1
-    Call GSC_GameOverS Šî–{ ScenarioPath
+    Call GSC_GameOverS åŸºæœ¬ ScenarioPath
   Case 2
-    Call GSC_GameOverS Šî–{ AppPath
+    Call GSC_GameOverS åŸºæœ¬ AppPath
   Case 3
-    Call GSC_GameOverS Šî–{ ExtDataPath
+    Call GSC_GameOverS åŸºæœ¬ ExtDataPath
   Case 4
-    Call GSC_GameOverS Šî–{ ExtDataPath2
+    Call GSC_GameOverS åŸºæœ¬ ExtDataPath2
   EndSw
 Next
 
@@ -29,43 +29,43 @@ For j = 1 To 4
   EndIf
   Switch j
   Case 1
-    Call GSC_GameOverS Šg’£ ScenarioPath
+    Call GSC_GameOverS æ‹¡å¼µ ScenarioPath
   Case 2
-    Call GSC_GameOverS Šg’£ AppPath
+    Call GSC_GameOverS æ‹¡å¼µ AppPath
   Case 3
-    Call GSC_GameOverS Šg’£ ExtDataPath
+    Call GSC_GameOverS æ‹¡å¼µ ExtDataPath
   Case 4
-    Call GSC_GameOverS Šg’£ ExtDataPath2
+    Call GSC_GameOverS æ‹¡å¼µ ExtDataPath2
   EndSw
 Next
 
 Switch i
 Case 0
-  Talk ƒVƒXƒeƒ€
-  ƒtƒHƒ‹ƒ_\‘¢‚ª‰ó‚ê‚Æ‚é‚ñ‚Æ‚¿‚á‚¢‚Ü‚·‚©H
+  Talk ã‚·ã‚¹ãƒ†ãƒ 
+  ãƒ•ã‚©ãƒ«ãƒ€æ§‹é€ ãŒå£Šã‚Œã¨ã‚‹ã‚“ã¨ã¡ã‚ƒã„ã¾ã™ã‹ï¼Ÿ
   End
   Quit
 EndSw
 
-Call GameOverƒpƒ^[ƒ“[Random(i)]
+Call GameOverãƒ‘ã‚¿ãƒ¼ãƒ³[Random(i)]
 
 Quit
 
 
 GSC_GameOverS:
 Switch Args(1)
-Case Šî–{
-  If (Dir(Args(2) & "\Data\_Šî–{ƒf[ƒ^I—¹ˆ—", ƒtƒHƒ‹ƒ_) <> "") And (Dir(Args(2) & "\Data\_Šî–{ƒf[ƒ^I—¹ˆ—\I—¹ˆ—.eve", ƒtƒ@ƒCƒ‹) <> "") Then
+Case åŸºæœ¬
+  If (Dir(Args(2) & "\Data\_åŸºæœ¬ãƒ‡ãƒ¼ã‚¿çµ‚äº†å‡¦ç†", ãƒ•ã‚©ãƒ«ãƒ€) <> "") And (Dir(Args(2) & "\Data\_åŸºæœ¬ãƒ‡ãƒ¼ã‚¿çµ‚äº†å‡¦ç†\çµ‚äº†å‡¦ç†.eve", ãƒ•ã‚¡ã‚¤ãƒ«) <> "") Then
     Incr i
-    Load "_Šî–{ƒf[ƒ^I—¹ˆ—"
-    Set GameOverƒpƒ^[ƒ“[i] Šî–{GameOver
+    Load "_åŸºæœ¬ãƒ‡ãƒ¼ã‚¿çµ‚äº†å‡¦ç†"
+    Set GameOverãƒ‘ã‚¿ãƒ¼ãƒ³[i] åŸºæœ¬GameOver
     Set GSC_GameOverA
   EndIf
-Case Šg’£
-  If (Dir(Args(2) & "\Data\_Šg’£ƒf[ƒ^I—¹ˆ—", ƒtƒHƒ‹ƒ_) <> "") And (Dir(Args(2) & "\Data\_Šg’£ƒf[ƒ^I—¹ˆ—\I—¹ˆ—.eve", ƒtƒ@ƒCƒ‹) <> "") Then
+Case æ‹¡å¼µ
+  If (Dir(Args(2) & "\Data\_æ‹¡å¼µãƒ‡ãƒ¼ã‚¿çµ‚äº†å‡¦ç†", ãƒ•ã‚©ãƒ«ãƒ€) <> "") And (Dir(Args(2) & "\Data\_æ‹¡å¼µãƒ‡ãƒ¼ã‚¿çµ‚äº†å‡¦ç†\çµ‚äº†å‡¦ç†.eve", ãƒ•ã‚¡ã‚¤ãƒ«) <> "") Then
     Incr i
-    Load "_Šg’£ƒf[ƒ^I—¹ˆ—"
-    Set GameOverƒpƒ^[ƒ“[i] Šg’£GameOver
+    Load "_æ‹¡å¼µãƒ‡ãƒ¼ã‚¿çµ‚äº†å‡¦ç†"
+    Set GameOverãƒ‘ã‚¿ãƒ¼ãƒ³[i] æ‹¡å¼µGameOver
     Set GSC_GameOverB
   EndIf
 EndSw

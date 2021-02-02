@@ -1,24 +1,24 @@
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-# •‚¢lŠpŒ`‚Ì”wŒi‚ğo‚µAŒ•‘M‚ğƒ‰ƒ“ƒ_ƒ€‚É•`‰æ‚·‚é
-# ˆø”‚P –{”(È—ª‚Í‚P)
-# ˆø”‚Q Œø‰Ê‰¹(È—ª‚ÍSwing.wav)
-í“¬ƒAƒjƒ_aQ•”wŒiŒ•‘MUŒ‚:
+# é»’ã„å››è§’å½¢ã®èƒŒæ™¯ã‚’å‡ºã—ã€å‰£é–ƒã‚’ãƒ©ãƒ³ãƒ€ãƒ ã«æç”»ã™ã‚‹
+# å¼•æ•°ï¼‘ æœ¬æ•°(çœç•¥æ™‚ã¯ï¼‘)
+# å¼•æ•°ï¼’ åŠ¹æœéŸ³(çœç•¥æ™‚ã¯Swing.wav)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬ï¼¿é»’èƒŒæ™¯å‰£é–ƒæ”»æ’ƒ:
 
-# ‘ŠèÀ•W‚ÉƒZƒ“ƒ^ƒŠƒ“ƒO
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+# ç›¸æ‰‹åº§æ¨™ã«ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚°
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
-# ƒ[ƒJƒ‹•Ï”
-Local C_X = _Get_WX(‘Šèƒ†ƒjƒbƒg‚h‚c) + 16	//‘Šèƒ†ƒjƒbƒg‚ÌƒsƒNƒZƒ‹XÀ•W
-Local C_Y = _Get_WY(‘Šèƒ†ƒjƒbƒg‚h‚c) + 16	//‘Šèƒ†ƒjƒbƒg‚ÌƒsƒNƒZƒ‹YÀ•W
-Local boxHalfSizeX = 48					//•‚¢lŠpŒ`‚Ì•‚Ì”¼•ª
-Local boxHalfSizeY = 32					//•‚¢lŠpŒ`‚Ì‚‚³‚Ì”¼•ª
-Local numLine							//ü‚Ì–{”
-Local i									//ƒJƒEƒ“ƒ^•Ï”
-Local fCol								//ƒtƒ‰ƒbƒVƒ…‚³‚¹‚éF
-Local lineSoundFile						//–Â‚ç‚·‰¹ƒtƒ@ƒCƒ‹–¼
+# ãƒ­ãƒ¼ã‚«ãƒ«å¤‰æ•°
+Local C_X = _Get_WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) + 16	//ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆã®ãƒ”ã‚¯ã‚»ãƒ«Xåº§æ¨™
+Local C_Y = _Get_WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) + 16	//ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆã®ãƒ”ã‚¯ã‚»ãƒ«Yåº§æ¨™
+Local boxHalfSizeX = 48					//é»’ã„å››è§’å½¢ã®å¹…ã®åŠåˆ†
+Local boxHalfSizeY = 32					//é»’ã„å››è§’å½¢ã®é«˜ã•ã®åŠåˆ†
+Local numLine							//ç·šã®æœ¬æ•°
+Local i									//ã‚«ã‚¦ãƒ³ã‚¿å¤‰æ•°
+Local fCol								//ãƒ•ãƒ©ãƒƒã‚·ãƒ¥ã•ã›ã‚‹è‰²
+Local lineSoundFile						//é³´ã‚‰ã™éŸ³ãƒ•ã‚¡ã‚¤ãƒ«å
 
-# –Â‚ç‚·Œø‰Ê‰¹‚ğŒˆ‚ß‚é
+# é³´ã‚‰ã™åŠ¹æœéŸ³ã‚’æ±ºã‚ã‚‹
 lineSoundFile = ""
 lineSoundFile = _GetWavFromArgs()
 
@@ -26,7 +26,7 @@ If lineSoundFile = "" Then
 	lineSoundFile = "Swing.wav"
 EndIf
 
-# ”’ü‚Ì•`‰æ–{”‚ğŒˆ‚ß‚é
+# ç™½ç·šã®æç”»æœ¬æ•°ã‚’æ±ºã‚ã‚‹
 numLine = 1
 
 If IsNumeric(Args(1)) = 1 Then
@@ -37,24 +37,24 @@ Else
 	EndIf
 EndIf
 
-# •‚¢lŠpŒ`‚ğ•`‰æ
+# é»’ã„å››è§’å½¢ã‚’æç”»
 Line (C_X - boxHalfSizeX) (C_Y - boxHalfSizeY) (C_X + boxHalfSizeX) (C_Y + boxHalfSizeY) RGB(0, 0, 0) BF
 Refresh
 Wait 0.1
 
-# ”’‚¢ü‚ğ‰½–{‚©•`‰æ
+# ç™½ã„ç·šã‚’ä½•æœ¬ã‹æç”»
 For i = 1 To numLine
-	//Œø‰Ê‰¹‚ğ–Â‚ç‚·
+	//åŠ¹æœéŸ³ã‚’é³´ã‚‰ã™
 	PlaySound lineSoundFile
 	
-	//•`‰æ‚·‚éYÀ•W‚ğİ’è
+	//æç”»ã™ã‚‹Yåº§æ¨™ã‚’è¨­å®š
 	StartY = C_Y - boxHalfSizeY + Random(boxHalfSizeY) * 2 - 1
 	EndY   = C_Y - boxHalfSizeY + Random(boxHalfSizeY) * 2 - 1
 	
-	//‰E‚©‚ça‚é‚©¶‚©‚ça‚é‚©‚ğƒ‰ƒ“ƒ_ƒ€‚Éİ’è
+	//å³ã‹ã‚‰æ–¬ã‚‹ã‹å·¦ã‹ã‚‰æ–¬ã‚‹ã‹ã‚’ãƒ©ãƒ³ãƒ€ãƒ ã«è¨­å®š
 	boxHalfSizeX = boxHalfSizeX * (1 - (Random(2) - 1) * 2)
 	
-	//Œ³‘¤‚ğ­‚µ‚¾‚¯‘¾‚­•`‰æ
+	//å…ƒå´ã‚’å°‘ã—ã ã‘å¤ªãæç”»
 	Line (C_X - boxHalfSizeX) (StartY + 1) (C_X + boxHalfSizeX) (EndY) RGB(255, 255, 255)
 	Line (C_X - boxHalfSizeX) (StartY)     (C_X + boxHalfSizeX) (EndY) RGB(255, 255, 255)
 	Line (C_X - boxHalfSizeX) (StartY - 1) (C_X + boxHalfSizeX) (EndY) RGB(255, 255, 255)
@@ -62,7 +62,7 @@ For i = 1 To numLine
 	Wait 1
 Next
 
-# lŠpŒ`‚ğƒtƒ‰ƒbƒVƒ…‚³‚¹‚é
+# å››è§’å½¢ã‚’ãƒ•ãƒ©ãƒƒã‚·ãƒ¥ã•ã›ã‚‹
 For i = 1 to 4
 	fCol = 255 - i * 60
 	Line (C_X - boxHalfSizeX) (C_Y - boxHalfSizeY) (C_X + boxHalfSizeX) (C_Y + boxHalfSizeY) RGB(fCol, fCol, fCol) BF
@@ -70,7 +70,7 @@ For i = 1 to 4
 	Wait 1
 Next
 
-# •`‰æ‚ğÁ‚µ‚ÄI—¹
+# æç”»ã‚’æ¶ˆã—ã¦çµ‚äº†
 ClearPicture
 Refresh
 
@@ -78,37 +78,37 @@ Return
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_aQ‚S‚v‚`‚xè— Œ•UŒ‚:
-Call í“¬ƒAƒjƒ_aQ‚S‚v‚`‚x‰ñ“]“Š±UŒ‚ _GetWPBN(è— Œ•) _GetWPBS(è— Œ•) Args(1) Args(2) Args(3) Args(4) Args(5) Args(6)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬ï¼¿ï¼”ï¼·ï¼¡ï¼¹æ‰‹è£å‰£æ”»æ’ƒ:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬ï¼¿ï¼”ï¼·ï¼¡ï¼¹å›è»¢æŠ•æ“²æ”»æ’ƒ _GetWPBN(æ‰‹è£å‰£) _GetWPBS(æ‰‹è£å‰£) Args(1) Args(2) Args(3) Args(4) Args(5) Args(6)
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-# ‘½—Ê‚Ì“Š±•Ší‚ğ•úË‚·‚é
-# ˆø”‚P ‰æ‘œƒtƒ@ƒCƒ‹–¼
-# ˆø”‚Q ‰æ‘œƒTƒCƒY
-# ˆø”‚R ”­Œõ
-# ˆø”‚S ”­Ë‘¬“x
-# ˆø”‚T Œø‰Ê‰¹
-# ˆø”‚U ‰º“Š‚°
-# ˆø”‚V ƒ†ƒjƒbƒg‚h‚c
-í“¬ƒAƒjƒ_aQ‚S‚v‚`‚x‰ñ“]“Š±UŒ‚:
-í“¬ƒAƒjƒ_aQ‚S‚v‚`‚x‰ñ“]“Š±•ŠíUŒ‚:
+# å¤šé‡ã®æŠ•æ“²æ­¦å™¨ã‚’æ”¾å°„ã™ã‚‹
+# å¼•æ•°ï¼‘ ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«å
+# å¼•æ•°ï¼’ ç”»åƒã‚µã‚¤ã‚º
+# å¼•æ•°ï¼“ ç™ºå…‰
+# å¼•æ•°ï¼” ç™ºå°„é€Ÿåº¦
+# å¼•æ•°ï¼• åŠ¹æœéŸ³
+# å¼•æ•°ï¼– ä¸‹æŠ•ã’
+# å¼•æ•°ï¼— ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬ï¼¿ï¼”ï¼·ï¼¡ï¼¹å›è»¢æŠ•æ“²æ”»æ’ƒ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬ï¼¿ï¼”ï¼·ï¼¡ï¼¹å›è»¢æŠ•æ“²æ­¦å™¨æ”»æ’ƒ:
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
-If (_S_OPT_FA("‰º“Š‚°") = "") Then
-  Call í“¬ƒAƒjƒ_”’•º•ŠíUŒ‚ UID
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
+If (_S_OPT_FA("ä¸‹æŠ•ã’") = "") Then
+  Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™½å…µæ­¦å™¨æ”»æ’ƒ UID
 Else
-  Call í“¬ƒAƒjƒ_U‚èã‚°UŒ‚ UID
+  Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚Šä¸Šã’æ”»æ’ƒ UID
 EndIf
-Call í“¬ƒAƒjƒ_aQ‚S‚v‚`‚x‰ñ“]”­ËUŒ‚ Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(6) Args(7) Args(8)
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬ï¼¿ï¼”ï¼·ï¼¡ï¼¹å›è»¢ç™ºå°„æ”»æ’ƒ Args(1) Args(2) Args(3) Args(4) Args(5) Args(6) Args(6) Args(7) Args(8)
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_aQ‚S‚v‚`‚x‰ñ“]”­ËUŒ‚:
-# ˆø”‚P@‰æ‘œ–¼
-# ˆø”‚Q@‰æ‘œƒTƒCƒY
-# ˆø”‚R@Œø‰Ê‰¹
-# ˆø”‚S  ”­Œõ
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬ï¼¿ï¼”ï¼·ï¼¡ï¼¹å›è»¢ç™ºå°„æ”»æ’ƒ:
+# å¼•æ•°ï¼‘ã€€ç”»åƒå
+# å¼•æ•°ï¼’ã€€ç”»åƒã‚µã‚¤ã‚º
+# å¼•æ•°ï¼“ã€€åŠ¹æœéŸ³
+# å¼•æ•°ï¼”  ç™ºå…‰
 
 Local BMP_FILE
 Local posX
@@ -124,24 +124,24 @@ Local FL
 Local W_T
 Local UID
 
-Local DST_2	//‘ÎÛ‚Æ‘Šè‚ÌƒsƒNƒZƒ‹‹——£
-Local gapX	//X•ûŒü‚Ì‚¸‚ê•
-Local gapY	//Y•ûŒü‚Ì‚¸‚ê•
-Local i		//ƒJƒEƒ“ƒ^•Ï”
+Local DST_2	//å¯¾è±¡ã¨ç›¸æ‰‹ã®ãƒ”ã‚¯ã‚»ãƒ«è·é›¢
+Local gapX	//Xæ–¹å‘ã®ãšã‚Œå¹…
+Local gapY	//Yæ–¹å‘ã®ãšã‚Œå¹…
+Local i		//ã‚«ã‚¦ãƒ³ã‚¿å¤‰æ•°
 
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 
 Set BMP_FILE _GetBmpFromArgs()
 
 Set C_X WX(UID)
 Set C_Y WY(UID)
 
-If (X(UID) >= _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
+If (X(UID) >= _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
   Set S_F -1
   Set DRCT ""
 Else
   Set S_F 1
-  Set DRCT "¶‰E”½“]"
+  Set DRCT "å·¦å³åè»¢"
 EndIf
 
 Set ANG _GetAngle(UID)
@@ -159,10 +159,10 @@ If ((IsNumeric(Args(1)) = 1) And (IsNumeric(Args(2)) = 1)) Then
 Else
   Set ANG _GetAngle(UID)
   Set G_S _GetPicSizeFromArgs()
-  Set posX ((X(UID) - _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) * 32)
-  Set posY ((Y(UID) - _Get_Y(‘Šèƒ†ƒjƒbƒg‚h‚c)) * 32)
-  Set DST (Abs(X(UID) - _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) _
-         + Abs(Y(UID) - _Get_Y(‘Šèƒ†ƒjƒbƒg‚h‚c)))
+  Set posX ((X(UID) - _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) * 32)
+  Set posY ((Y(UID) - _Get_Y(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) * 32)
+  Set DST (Abs(X(UID) - _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) _
+         + Abs(Y(UID) - _Get_Y(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)))
 EndIf
 
 If (_IsLight() = 1) Then
@@ -171,17 +171,17 @@ Else
   Set FL ""
 EndIf
 
-#À’e‚Ì‘¬“x‚ğ’x‚­‚·‚éH
-If (_SearchOptionFromArgs("’x") != "") Then
+#å®Ÿå¼¾ã®é€Ÿåº¦ã‚’é…ãã™ã‚‹ï¼Ÿ
+If (_SearchOptionFromArgs("é…") != "") Then
   Set DST Int(1.5 * DST)
   Set W_T 0.5
-ElseIf (_SearchOptionFromArgs("‘¬") != "") Then
+ElseIf (_SearchOptionFromArgs("é€Ÿ") != "") Then
   Set W_T 0.3
 Else
   Set W_T 0.5
 EndIf
 
-# ¶‰E‚Ö‚Ì‚¸‚ê‚ğZo
+# å·¦å³ã¸ã®ãšã‚Œã‚’ç®—å‡º
 DST_2 = Sqr(posX ^ 2 + posY ^ 2)
 gapX = (posY / DST_2)
 gapY = (posX / DST_2)
@@ -192,22 +192,22 @@ For i = 1 To (DST + 4)
   ClearPicture
 
   If (i != 1) Then
-    //PaintPicture BMP_FILE (C_X - (posX / (DST + 5)) * (i - 1)) (C_Y - (posY / (DST + 5)) * (i - 1)) G_S G_S “§‰ß ƒZƒsƒA ‰E‰ñ“] (ANG - 60 * S_F) DRCT _ColorTime(FL)
-    PaintPicture BMP_FILE (C_X - (posX / (DST + 5) + gapX * 0.7) * (i - 1)) (C_Y - (posY / (DST + 5) - gapY * 0.7) * (i - 1)) G_S G_S “§‰ß ƒZƒsƒA ‰E‰ñ“] (ANG - 60 * S_F) DRCT _ColorTime(FL)
-    PaintPicture BMP_FILE (C_X - (posX / (DST + 5) - gapX * 0.7) * (i - 1)) (C_Y - (posY / (DST + 5) + gapY * 0.7) * (i - 1)) G_S G_S “§‰ß ƒZƒsƒA ‰E‰ñ“] (ANG - 60 * S_F) DRCT _ColorTime(FL)
-    PaintPicture BMP_FILE (C_X - (posX / (DST + 5) + gapX * 2) * (i - 1)) (C_Y - (posY / (DST + 5) - gapY * 2) * (i - 1)) G_S G_S “§‰ß ƒZƒsƒA ‰E‰ñ“] (ANG - 60 * S_F) DRCT _ColorTime(FL)
-    PaintPicture BMP_FILE (C_X - (posX / (DST + 5) - gapX * 2) * (i - 1)) (C_Y - (posY / (DST + 5) + gapY * 2) * (i - 1)) G_S G_S “§‰ß ƒZƒsƒA ‰E‰ñ“] (ANG - 60 * S_F) DRCT _ColorTime(FL)
+    //PaintPicture BMP_FILE (C_X - (posX / (DST + 5)) * (i - 1)) (C_Y - (posY / (DST + 5)) * (i - 1)) G_S G_S é€é ã‚»ãƒ”ã‚¢ å³å›è»¢ (ANG - 60 * S_F) DRCT _ColorTime(FL)
+    PaintPicture BMP_FILE (C_X - (posX / (DST + 5) + gapX * 0.7) * (i - 1)) (C_Y - (posY / (DST + 5) - gapY * 0.7) * (i - 1)) G_S G_S é€é ã‚»ãƒ”ã‚¢ å³å›è»¢ (ANG - 60 * S_F) DRCT _ColorTime(FL)
+    PaintPicture BMP_FILE (C_X - (posX / (DST + 5) - gapX * 0.7) * (i - 1)) (C_Y - (posY / (DST + 5) + gapY * 0.7) * (i - 1)) G_S G_S é€é ã‚»ãƒ”ã‚¢ å³å›è»¢ (ANG - 60 * S_F) DRCT _ColorTime(FL)
+    PaintPicture BMP_FILE (C_X - (posX / (DST + 5) + gapX * 2) * (i - 1)) (C_Y - (posY / (DST + 5) - gapY * 2) * (i - 1)) G_S G_S é€é ã‚»ãƒ”ã‚¢ å³å›è»¢ (ANG - 60 * S_F) DRCT _ColorTime(FL)
+    PaintPicture BMP_FILE (C_X - (posX / (DST + 5) - gapX * 2) * (i - 1)) (C_Y - (posY / (DST + 5) + gapY * 2) * (i - 1)) G_S G_S é€é ã‚»ãƒ”ã‚¢ å³å›è»¢ (ANG - 60 * S_F) DRCT _ColorTime(FL)
   EndIf
 
   If ((i Mod 2) = 1) Then
     _SelectSound Swing.wav _GetWavFromArgs()
   EndIf
 
-  //PaintPicture BMP_FILE (C_X - (posX / (DST + 5)) * i) (C_Y - (posY / (DST + 5)) * i) G_S G_S “§‰ß ‰E‰ñ“] ANG DRCT _ColorTime(FL)
-  PaintPicture BMP_FILE (C_X - (posX / (DST + 5) + gapX * 0.7) * i) (C_Y - (posY / (DST + 5) - gapY * 0.7) * i) G_S G_S “§‰ß ‰E‰ñ“] ANG DRCT _ColorTime(FL)
-  PaintPicture BMP_FILE (C_X - (posX / (DST + 5) - gapX * 0.7) * i) (C_Y - (posY / (DST + 5) + gapY * 0.7) * i) G_S G_S “§‰ß ‰E‰ñ“] ANG DRCT _ColorTime(FL)
-  PaintPicture BMP_FILE (C_X - (posX / (DST + 5) + gapX * 2) * i) (C_Y - (posY / (DST + 5) - gapY * 2) * i) G_S G_S “§‰ß ‰E‰ñ“] ANG DRCT _ColorTime(FL)
-  PaintPicture BMP_FILE (C_X - (posX / (DST + 5) - gapX * 2) * i) (C_Y - (posY / (DST + 5) + gapY * 2) * i) G_S G_S “§‰ß ‰E‰ñ“] ANG DRCT _ColorTime(FL)
+  //PaintPicture BMP_FILE (C_X - (posX / (DST + 5)) * i) (C_Y - (posY / (DST + 5)) * i) G_S G_S é€é å³å›è»¢ ANG DRCT _ColorTime(FL)
+  PaintPicture BMP_FILE (C_X - (posX / (DST + 5) + gapX * 0.7) * i) (C_Y - (posY / (DST + 5) - gapY * 0.7) * i) G_S G_S é€é å³å›è»¢ ANG DRCT _ColorTime(FL)
+  PaintPicture BMP_FILE (C_X - (posX / (DST + 5) - gapX * 0.7) * i) (C_Y - (posY / (DST + 5) + gapY * 0.7) * i) G_S G_S é€é å³å›è»¢ ANG DRCT _ColorTime(FL)
+  PaintPicture BMP_FILE (C_X - (posX / (DST + 5) + gapX * 2) * i) (C_Y - (posY / (DST + 5) - gapY * 2) * i) G_S G_S é€é å³å›è»¢ ANG DRCT _ColorTime(FL)
+  PaintPicture BMP_FILE (C_X - (posX / (DST + 5) - gapX * 2) * i) (C_Y - (posY / (DST + 5) + gapY * 2) * i) G_S G_S é€é å³å›è»¢ ANG DRCT _ColorTime(FL)
   Refresh
   Wait Until (W_T * i)
   Incr ANG (60 * S_F)
@@ -219,28 +219,28 @@ Refresh
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_aQ‚S‚v‚`‚xè— Œ•–½’†:
-Call í“¬ƒAƒjƒ_aQ‚S˜A•Ší–½’† _GetWPBN(è— Œ•) _GetWPBS(è— Œ•)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬ï¼¿ï¼”ï¼·ï¼¡ï¼¹æ‰‹è£å‰£å‘½ä¸­:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬ï¼¿ï¼”é€£æ­¦å™¨å‘½ä¸­ _GetWPBN(æ‰‹è£å‰£) _GetWPBS(æ‰‹è£å‰£)
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_aQ‚S˜A•Ší–½’†:
-# ˆø”‚P@‰æ‘œ–¼
-# ˆø”‚Q@‰æ‘œƒTƒCƒY
-# ˆø”‚R@Œø‰Ê‰¹
-# ˆø”‚S  ”­Œõ
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬ï¼¿ï¼”é€£æ­¦å™¨å‘½ä¸­:
+# å¼•æ•°ï¼‘ã€€ç”»åƒå
+# å¼•æ•°ï¼’ã€€ç”»åƒã‚µã‚¤ã‚º
+# å¼•æ•°ï¼“ã€€åŠ¹æœéŸ³
+# å¼•æ•°ï¼”  ç™ºå…‰
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 Local ANG = _GetAngle(UID)
-Local C_X = (WX(‘Šèƒ†ƒjƒbƒg‚h‚c))
-Local C_Y = (WY(‘Šèƒ†ƒjƒbƒg‚h‚c))
+Local C_X = (WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤))
+Local C_Y = (WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤))
 Local B_C = _G_BC_FA()
 
-Local BMP_FILE	//‰æ‘œƒtƒ@ƒCƒ‹–¼
-Local G_S		//‰æ‘œƒTƒCƒY
-Local FL		//”­Œõƒtƒ‰ƒO
-Local i			//ƒJƒEƒ“ƒ^•Ï”
+Local BMP_FILE	//ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«å
+Local G_S		//ç”»åƒã‚µã‚¤ã‚º
+Local FL		//ç™ºå…‰ãƒ•ãƒ©ã‚°
+Local i			//ã‚«ã‚¦ãƒ³ã‚¿å¤‰æ•°
 
 Set BMP_FILE _GetBmpFromArgs()
 
@@ -257,7 +257,7 @@ EndIf
 Wait Start
 For i = 1 To 4
   _SelectSound_HR "Stab.wav" "Saber.wav" _GetWavFromArgs()
-  PaintPicture BMP_FILE (C_X + Random(30)) (C_Y + Random(30)) G_S G_S “§‰ß ‰E‰ñ“] Random(256) _ColorTime(FL)
+  PaintPicture BMP_FILE (C_X + Random(30)) (C_Y + Random(30)) G_S G_S é€é å³å›è»¢ Random(256) _ColorTime(FL)
   Refresh
   Wait Until i
 Next
@@ -267,56 +267,56 @@ Refresh
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_aQ‘ºRaØ‚è•¥‚¢”­“®:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬ï¼¿æ‘å±±æ–¬åˆ‡ã‚Šæ‰•ã„ç™ºå‹•:
 
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 Font 12pt
-Local C_X = _Get_WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local C_Y = _Get_WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Local C_X = _Get_WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local C_Y = _Get_WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Local i j DRCT
 Local k = 0
 Local BMP_FILE BMP_FILE2
 Local X_P Y_P A_X A_Y
 Local ANG = 0
 Local W_T CNT
-Local S_S = TextWidth("Ø‚è•¥‚¢")
+Local S_S = TextWidth("åˆ‡ã‚Šæ‰•ã„")
 
-Switch Status(í“¬ƒAƒjƒ•Ï”[‚h‚c])
-Case oŒ‚
+Switch Status(æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ï¼©ï¼¤])
+Case å‡ºæ’ƒ
 Case Else
   _UnSetBattleAnimeValue
 EndSw
 
-If ((í“¬ƒAƒjƒ•Ï”[g—pÒÀ•W‚w] != "") Or (í“¬ƒAƒjƒ•Ï”[g—pÒÀ•W‚w‚Q] != "")) Then
-  Set A_X WX(í“¬ƒAƒjƒ•Ï”[‚h‚c])
-  Set A_Y WY(í“¬ƒAƒjƒ•Ï”[‚h‚c])
-  Set BMP_FILE _GetBMPName(í“¬ƒAƒjƒ•Ï”[‚h‚c])
-  Set BMP_FILE2 _GetTileName(í“¬ƒAƒjƒ•Ï”[‚h‚c])
+If ((æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…åº§æ¨™ï¼¸] != "") Or (æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…åº§æ¨™ï¼¸ï¼’] != "")) Then
+  Set A_X WX(æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ï¼©ï¼¤])
+  Set A_Y WY(æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ï¼©ï¼¤])
+  Set BMP_FILE _GetBMPName(æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ï¼©ï¼¤])
+  Set BMP_FILE2 _GetTileName(æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ï¼©ï¼¤])
   If (BMP_FILE2 = "") Then
-    ChangeUnitBitmap í“¬ƒAƒjƒ•Ï”[‚h‚c] ”ñ•\¦
+    ChangeUnitBitmap æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ï¼©ï¼¤] éè¡¨ç¤º
   EndIf
 EndIf
 
 Switch _DirectionCheck()
-Case ã
+Case ä¸Š
   Set DRCT ""
   Set X_P C_X
   Set Y_P (C_Y + 20)
-Case ‰º
-  Set DRCT ¶‰E”½“]
+Case ä¸‹
+  Set DRCT å·¦å³åè»¢
   Set X_P C_X
   Set Y_P (C_Y - 20)
-Case ¶
-  Set DRCT ¶‰E”½“]
+Case å·¦
+  Set DRCT å·¦å³åè»¢
   Set X_P (C_X + 20)
   Set Y_P C_Y
-Case ‰E
+Case å³
   Set DRCT ""
   Set X_P (C_X - 20)
   Set Y_P C_Y
 EndSw
 
-Switch í“¬ƒAƒjƒ•Ï”[UŒ‚‰ñ”]
+Switch æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[æ”»æ’ƒå›æ•°]
 Case 2
   Set CNT 2
   Set W_T 0.4
@@ -335,56 +335,56 @@ EndSw
 
 ClearPicture
 
-If (í“¬ƒAƒjƒ•Ï”[g—pÒÀ•W‚w] != "") Then
+If (æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…åº§æ¨™ï¼¸] != "") Then
   If (BMP_FILE2 != "") Then
     PaintPicture BMP_FILE2 A_X A_Y _ColorTime()
   EndIf
-  PaintPicture BMP_FILE (A_X + í“¬ƒAƒjƒ•Ï”[g—pÒÀ•W‚w]) (A_Y + í“¬ƒAƒjƒ•Ï”[g—pÒÀ•W‚w]) “§‰ß ‰E‰ñ“] í“¬ƒAƒjƒ•Ï”[g—pÒŠp“x] í“¬ƒAƒjƒ•Ï”[g—pÒ‚n‚o‚s‚P] í“¬ƒAƒjƒ•Ï”[g—pÒ‚n‚o‚s‚Q] í“¬ƒAƒjƒ•Ï”[g—pÒ‚n‚o‚s‚R] _ColorTime()
-ElseIf (í“¬ƒAƒjƒ•Ï”[g—pÒÀ•W‚w‚Q] != "") Then
+  PaintPicture BMP_FILE (A_X + æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…åº§æ¨™ï¼¸]) (A_Y + æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…åº§æ¨™ï¼¸]) é€é å³å›è»¢ æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…è§’åº¦] æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…ï¼¯ï¼°ï¼´ï¼‘] æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…ï¼¯ï¼°ï¼´ï¼’] æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…ï¼¯ï¼°ï¼´ï¼“] _ColorTime()
+ElseIf (æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…åº§æ¨™ï¼¸ï¼’] != "") Then
   If (BMP_FILE2 != "") Then
     PaintPicture BMP_FILE2 A_X A_Y _ColorTime()
   EndIf
-  PaintPicture BMP_FILE (C_X + í“¬ƒAƒjƒ•Ï”[g—pÒÀ•W‚w‚Q]) (C_Y + í“¬ƒAƒjƒ•Ï”[g—pÒÀ•W‚w‚Q]) “§‰ß ‰E‰ñ“] í“¬ƒAƒjƒ•Ï”[g—pÒŠp“x] í“¬ƒAƒjƒ•Ï”[g—pÒ‚n‚o‚s‚P] í“¬ƒAƒjƒ•Ï”[g—pÒ‚n‚o‚s‚Q] í“¬ƒAƒjƒ•Ï”[g—pÒ‚n‚o‚s‚R] _ColorTime()
+  PaintPicture BMP_FILE (C_X + æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…åº§æ¨™ï¼¸ï¼’]) (C_Y + æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…åº§æ¨™ï¼¸ï¼’]) é€é å³å›è»¢ æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…è§’åº¦] æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…ï¼¯ï¼°ï¼´ï¼‘] æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…ï¼¯ï¼°ï¼´ï¼’] æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…ï¼¯ï¼°ï¼´ï¼“] _ColorTime()
 EndIf
 
 
-If (í“¬ƒAƒjƒ•Ï”[”ñ•\¦] != "") Then
+If (æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[éè¡¨ç¤º] != "") Then
   If (BMP_FILE2 != "") Then
     PaintPicture BMP_FILE2 A_X A_Y _ColorTime()
   EndIf
 EndIf
 
 
-//“ú–{“‚ğ˜A‘±•\¦
+//æ—¥æœ¬åˆ€ã‚’é€£ç¶šè¡¨ç¤º
 Wait Start
 For i = 1 To 3
   Incr k 1
 
   PlaySound Swing.wav
-  PaintPicture "Weapon\EFFECT_JapaneseBlade01.bmp" (C_X - (i + 1) * 3 * (i Mod 2)) (C_Y) 32 32 “§‰ß ‰E‰ñ“] 30
+  PaintPicture "Weapon\EFFECT_JapaneseBlade01.bmp" (C_X - (i + 1) * 3 * (i Mod 2)) (C_Y) 32 32 é€é å³å›è»¢ 30
   Refresh
   Wait Until (i * 0.5)
 
   Font RGB(k * (256 / (6 + CNT)),k * (256 / (6 + CNT)),k * (256 / (6 + CNT)))
-  PaintString (C_X + 1 + (16 - (S_S \ 2))) (C_Y + 33) "Ø‚è•¥‚¢"
+  PaintString (C_X + 1 + (16 - (S_S \ 2))) (C_Y + 33) "åˆ‡ã‚Šæ‰•ã„"
   Font #000000
-  PaintString (C_X + (16 - (S_S \ 2))) (C_Y + 32) "Ø‚è•¥‚¢"
+  PaintString (C_X + (16 - (S_S \ 2))) (C_Y + 32) "åˆ‡ã‚Šæ‰•ã„"
 
 
   Incr k 1
 
   PlaySound Swing.wav
-  PaintPicture "Weapon\EFFECT_JapaneseBlade01.bmp" (C_X + 6 * (i Mod 3)) (C_Y) 32 32 “§‰ß ¶‰E”½“] ¶‰ñ“] 30
+  PaintPicture "Weapon\EFFECT_JapaneseBlade01.bmp" (C_X + 6 * (i Mod 3)) (C_Y) 32 32 é€é å·¦å³åè»¢ å·¦å›è»¢ 30
   Refresh
   Wait Until i
 
   Font RGB(k * (256 / (6 + CNT)),k * (256 / (6 + CNT)),k * (256 / (6 + CNT)))
-  PaintString (C_X + 1 + (16 - (S_S \ 2))) (C_Y + 33) "Ø‚è•¥‚¢"
+  PaintString (C_X + 1 + (16 - (S_S \ 2))) (C_Y + 33) "åˆ‡ã‚Šæ‰•ã„"
   Font #000000
-  PaintString (C_X + (16 - (S_S \ 2))) (C_Y + 32) "Ø‚è•¥‚¢"
+  PaintString (C_X + (16 - (S_S \ 2))) (C_Y + 32) "åˆ‡ã‚Šæ‰•ã„"
 Next
 
-//–½’†ƒGƒtƒFƒNƒg‚ğ•\¦
+//å‘½ä¸­ã‚¨ãƒ•ã‚§ã‚¯ãƒˆã‚’è¡¨ç¤º
 For j = 1 To CNT
   Incr k 1
   X_P = Random(16) - 8
@@ -392,47 +392,47 @@ For j = 1 To CNT
 
   Wait Start
 
-  If (í“¬ƒAƒjƒ•Ï”[UŒ‚í•Ê] = ”š”­) Then
+  If (æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[æ”»æ’ƒç¨®åˆ¥] = çˆ†ç™º) Then
     PlaySound Explode(Small).wav
-    PaintPicture "Explode\EFFECT_MiniExplode01.bmp" (C_X + X_P) (C_Y + Y_P) 16 16 “§‰ß _ColorTime(1)
+    PaintPicture "Explode\EFFECT_MiniExplode01.bmp" (C_X + X_P) (C_Y + Y_P) 16 16 é€é _ColorTime(1)
   Else
     PlaySound Sword.wav
-    PaintPicture "Hit\EFFECT_Hit01.bmp" (C_X + X_P) (C_Y + Y_P) 24 24 “§‰ß _ColorTime()
+    PaintPicture "Hit\EFFECT_Hit01.bmp" (C_X + X_P) (C_Y + Y_P) 24 24 é€é _ColorTime()
   EndIf
   Refresh
   Wait Until W_T
 
-  If (í“¬ƒAƒjƒ•Ï”[UŒ‚í•Ê] = ”š”­) Then
-    PaintPicture "Explode\EFFECT_MiniExplode01.bmp" (C_X + X_P) (C_Y + Y_P) 24 24 “§‰ß _ColorTime(1)
+  If (æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[æ”»æ’ƒç¨®åˆ¥] = çˆ†ç™º) Then
+    PaintPicture "Explode\EFFECT_MiniExplode01.bmp" (C_X + X_P) (C_Y + Y_P) 24 24 é€é _ColorTime(1)
   Else
-    PaintPicture "Hit\EFFECT_Hit01.bmp" (C_X + X_P) (C_Y + Y_P) “§‰ß _ColorTime()
+    PaintPicture "Hit\EFFECT_Hit01.bmp" (C_X + X_P) (C_Y + Y_P) é€é _ColorTime()
   EndIf
   Refresh
   Wait Until (W_T * 2)
 
   Font RGB(k * (256 / (6 + CNT)),k * (256 / (6 + CNT)),k * (256 / (6 + CNT)))
-  PaintString (C_X + 1 + (16 - (S_S \ 2))) (C_Y + 33) "Ø‚è•¥‚¢"
+  PaintString (C_X + 1 + (16 - (S_S \ 2))) (C_Y + 33) "åˆ‡ã‚Šæ‰•ã„"
   Font #000000
-  PaintString (C_X + (16 - (S_S \ 2))) (C_Y + 32) "Ø‚è•¥‚¢"
+  PaintString (C_X + (16 - (S_S \ 2))) (C_Y + 32) "åˆ‡ã‚Šæ‰•ã„"
 
 Next
 
 ClearPicture
 
 Font #FFFFFF
-PaintString (C_X + 1 + (16 - (S_S \ 2))) (C_Y + 33) "Ø‚è•¥‚¢"
+PaintString (C_X + 1 + (16 - (S_S \ 2))) (C_Y + 33) "åˆ‡ã‚Šæ‰•ã„"
 Font #000000
-PaintString (C_X + (16 - (S_S \ 2))) (C_Y + 32) "Ø‚è•¥‚¢"
+PaintString (C_X + (16 - (S_S \ 2))) (C_Y + 32) "åˆ‡ã‚Šæ‰•ã„"
 
 Refresh
 
 Wait (10 - CNT)
 
-If ((í“¬ƒAƒjƒ•Ï”[g—pÒÀ•W‚w] != "") Or _
-    (í“¬ƒAƒjƒ•Ï”[g—pÒÀ•W‚w‚Q] != "") Or _
-    (í“¬ƒAƒjƒ•Ï”[”ñ•\¦] != "")) Then
+If ((æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…åº§æ¨™ï¼¸] != "") Or _
+    (æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ä½¿ç”¨è€…åº§æ¨™ï¼¸ï¼’] != "") Or _
+    (æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[éè¡¨ç¤º] != "")) Then
   If (BMP_FILE3 = "") Then
-    ChangeUnitBitmap í“¬ƒAƒjƒ•Ï”[‚h‚c] ”ñ•\¦‰ğœ
+    ChangeUnitBitmap æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[ï¼©ï¼¤] éè¡¨ç¤ºè§£é™¤
   EndIf
 EndIf
 

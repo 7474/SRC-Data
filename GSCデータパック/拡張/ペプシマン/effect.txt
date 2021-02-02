@@ -1,46 +1,46 @@
 
-# w“ü‚µ¨Žæ‚èo‚µ‚É•ÏXB
-# ƒR[ƒ‰‚ÆƒcƒCƒXƒg‚Å‰üsˆÊ’u‚ªˆá‚¤‚Ì‚ÍAƒcƒCƒXƒgƒE[ƒ}ƒ“‚Ì–¼‘O‚ª’·‚¢‚©‚ç‚Å‚·B
+# è³¼å…¥ã—â†’å–ã‚Šå‡ºã—ã«å¤‰æ›´ã€‚
+# ã‚³ãƒ¼ãƒ©ã¨ãƒ„ã‚¤ã‚¹ãƒˆã§æ”¹è¡Œä½ç½®ãŒé•ã†ã®ã¯ã€ãƒ„ã‚¤ã‚¹ãƒˆã‚¦ãƒ¼ãƒžãƒ³ã®åå‰ãŒé•·ã„ã‹ã‚‰ã§ã™ã€‚
 
-ƒyƒvƒVƒ}ƒ“
-Ši“¬,                         Swing.wav
-Ši“¬(–½’†),                   Breakoff.wav
-ƒyƒvƒVƒ_ƒbƒVƒ…,               Whiz.wav
-ƒyƒvƒVƒ_ƒbƒVƒ…(–½’†),         5;Explode.wav;3;Crash.wav;3;Crash.wav;3;Crash.wav;5;Whiz.wav;5;Explode.wav;3;Breakoff.wav;3;Cannon.wav
-ƒyƒvƒVƒ_ƒbƒVƒ…(‚Æ‚Ç‚ß),       Interference.wav
-ƒyƒvƒVƒR[ƒ‰,                 Interference.wav
-ƒyƒvƒVƒcƒCƒXƒg,               Interference.wav
-ƒyƒvƒVƒR[ƒ‰(‰ðà)(‘ÎŽ©•ª),   $(ƒ†ƒjƒbƒg)‚ÍŽ©”Ì‹@‚©‚çƒyƒvƒVƒR[ƒ‰‚ðŽæ‚èo‚µA.ˆê‹C‚Éˆù‚ÝŠ±‚µ‚½B
-ƒyƒvƒVƒR[ƒ‰(‰ðà),           $(ƒ†ƒjƒbƒg)‚ÍŽ©”Ì‹@‚©‚çƒyƒvƒVƒR[ƒ‰‚ðŽæ‚èo‚µA.$(‘ŠŽèƒ†ƒjƒbƒg)‚Éˆù‚Ü‚¹‚½B
-ƒyƒvƒVƒcƒCƒXƒg(‰ðà)(‘ÎŽ©•ª), $(ƒ†ƒjƒbƒg)‚Í.Ž©”Ì‹@‚©‚çƒyƒvƒVƒcƒCƒXƒg‚ðŽæ‚èo‚µAˆê‹C‚Éˆù‚ÝŠ±‚µ‚½B
-ƒyƒvƒVƒcƒCƒXƒg(‰ðà),         $(ƒ†ƒjƒbƒg)‚Í.Ž©”Ì‹@‚©‚çƒyƒvƒVƒcƒCƒXƒg‚ðŽæ‚èo‚µA$(‘ŠŽèƒ†ƒjƒbƒg)‚Éˆù‚Ü‚¹‚½B
+ãƒšãƒ—ã‚·ãƒžãƒ³
+æ ¼é—˜,                         Swing.wav
+æ ¼é—˜(å‘½ä¸­),                   Breakoff.wav
+ãƒšãƒ—ã‚·ãƒ€ãƒƒã‚·ãƒ¥,               Whiz.wav
+ãƒšãƒ—ã‚·ãƒ€ãƒƒã‚·ãƒ¥(å‘½ä¸­),         5;Explode.wav;3;Crash.wav;3;Crash.wav;3;Crash.wav;5;Whiz.wav;5;Explode.wav;3;Breakoff.wav;3;Cannon.wav
+ãƒšãƒ—ã‚·ãƒ€ãƒƒã‚·ãƒ¥(ã¨ã©ã‚),       Interference.wav
+ãƒšãƒ—ã‚·ã‚³ãƒ¼ãƒ©,                 Interference.wav
+ãƒšãƒ—ã‚·ãƒ„ã‚¤ã‚¹ãƒˆ,               Interference.wav
+ãƒšãƒ—ã‚·ã‚³ãƒ¼ãƒ©(è§£èª¬)(å¯¾è‡ªåˆ†),   $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯è‡ªè²©æ©Ÿã‹ã‚‰ãƒšãƒ—ã‚·ã‚³ãƒ¼ãƒ©ã‚’å–ã‚Šå‡ºã—ã€.ä¸€æ°—ã«é£²ã¿å¹²ã—ãŸã€‚
+ãƒšãƒ—ã‚·ã‚³ãƒ¼ãƒ©(è§£èª¬),           $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯è‡ªè²©æ©Ÿã‹ã‚‰ãƒšãƒ—ã‚·ã‚³ãƒ¼ãƒ©ã‚’å–ã‚Šå‡ºã—ã€.$(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆ)ã«é£²ã¾ã›ãŸã€‚
+ãƒšãƒ—ã‚·ãƒ„ã‚¤ã‚¹ãƒˆ(è§£èª¬)(å¯¾è‡ªåˆ†), $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯.è‡ªè²©æ©Ÿã‹ã‚‰ãƒšãƒ—ã‚·ãƒ„ã‚¤ã‚¹ãƒˆã‚’å–ã‚Šå‡ºã—ã€ä¸€æ°—ã«é£²ã¿å¹²ã—ãŸã€‚
+ãƒšãƒ—ã‚·ãƒ„ã‚¤ã‚¹ãƒˆ(è§£èª¬),         $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯.è‡ªè²©æ©Ÿã‹ã‚‰ãƒšãƒ—ã‚·ãƒ„ã‚¤ã‚¹ãƒˆã‚’å–ã‚Šå‡ºã—ã€$(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆ)ã«é£²ã¾ã›ãŸã€‚
 
-#”j‰ó(‰ðà),                   $(ƒ†ƒjƒbƒg)‚ÍA’YŽ_‚ª‘S‚Ä”²‚¯‚Ä‚µ‚Ü‚Á‚½I
+#ç ´å£Š(è§£èª¬),                   $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ã€ç‚­é…¸ãŒå…¨ã¦æŠœã‘ã¦ã—ã¾ã£ãŸï¼
 
 
-”Ä—p
-ƒyƒvƒVƒR[ƒ‰(ƒAƒCƒeƒ€),           Interference.wav
-ƒyƒvƒVƒcƒCƒXƒg(ƒAƒCƒeƒ€),         Interference.wav
-ƒ_ƒCƒGƒbƒgƒyƒvƒV,                 Interference.wav
-ƒyƒvƒVƒlƒbƒNƒX,                   Interference.wav
-ƒyƒvƒVƒuƒ‹[,                     Interference.wav
-ƒyƒvƒVƒGƒbƒNƒX,                   Interference.wav
-ƒyƒvƒVƒŒƒbƒh,                     Interference.wav
-ƒyƒvƒVƒJ[ƒjƒoƒ‹,                 Interference.wav
-ƒyƒvƒVƒS[ƒ‹ƒh,                   Interference.wav
-ƒyƒvƒVƒLƒ…[ƒJƒ“ƒo[,             Interference.wav
-ƒyƒvƒVƒuƒ‹[ƒnƒƒC,               Interference.wav
-ƒyƒvƒVƒzƒƒCƒg,                   Interference.wav
-ƒyƒvƒVƒR[ƒ‰(ƒAƒCƒeƒ€)(‰ðà),     $(ƒ†ƒjƒbƒg)‚ÍƒyƒvƒVƒR[ƒ‰‚ðˆù‚ñ‚¾B
-ƒyƒvƒVƒcƒCƒXƒg(ƒAƒCƒeƒ€)(‰ðà),   $(ƒ†ƒjƒbƒg)‚ÍƒyƒvƒVƒcƒCƒXƒg‚ðˆù‚ñ‚¾B
-ƒ_ƒCƒGƒbƒgƒyƒvƒV(‰ðà),           $(ƒ†ƒjƒbƒg)‚Íƒ_ƒCƒGƒbƒgƒyƒvƒV‚ðˆù‚ñ‚¾B
-ƒyƒvƒVƒlƒbƒNƒX(‰ðà),             $(ƒ†ƒjƒbƒg)‚ÍƒyƒvƒVƒlƒbƒNƒX‚ðˆù‚ñ‚¾B
-ƒyƒvƒVƒuƒ‹[(‰ðà),               $(ƒ†ƒjƒbƒg)‚ÍƒyƒvƒVƒuƒ‹[‚ðˆù‚ñ‚¾B
-ƒyƒvƒVƒGƒbƒNƒX(‰ðà),             $(ƒ†ƒjƒbƒg)‚ÍƒyƒvƒVƒGƒbƒNƒX‚ðˆù‚ñ‚¾B
-ƒyƒvƒVƒŒƒbƒh(‰ðà),               $(ƒ†ƒjƒbƒg)‚ÍƒyƒvƒVƒŒƒbƒh‚ðˆù‚ñ‚¾B
-ƒyƒvƒVƒJ[ƒjƒoƒ‹(‰ðà),           $(ƒ†ƒjƒbƒg)‚ÍƒyƒvƒVƒJ[ƒjƒoƒ‹‚ðˆù‚ñ‚¾B
-ƒyƒvƒVƒS[ƒ‹ƒh(‰ðà),             $(ƒ†ƒjƒbƒg)‚ÍƒyƒvƒVƒS[ƒ‹ƒh‚ðˆù‚ñ‚¾B
-ƒyƒvƒVƒLƒ…[ƒJƒ“ƒo[(‰ðà),       $(ƒ†ƒjƒbƒg)‚ÍƒyƒvƒVƒAƒCƒXƒLƒ…[ƒJƒ“ƒo[‚ðˆù‚ñ‚¾B
-ƒyƒvƒVƒuƒ‹[ƒnƒƒC(‰ðà),         $(ƒ†ƒjƒbƒg)‚ÍƒyƒvƒVƒuƒ‹[ƒnƒƒC‚ðˆù‚ñ‚¾B
-ƒyƒvƒVƒzƒƒCƒg(‰ðà),             $(ƒ†ƒjƒbƒg)‚ÍƒyƒvƒVƒzƒƒCƒg‚ðˆù‚ñ‚¾B
+æ±Žç”¨
+ãƒšãƒ—ã‚·ã‚³ãƒ¼ãƒ©(ã‚¢ã‚¤ãƒ†ãƒ ),           Interference.wav
+ãƒšãƒ—ã‚·ãƒ„ã‚¤ã‚¹ãƒˆ(ã‚¢ã‚¤ãƒ†ãƒ ),         Interference.wav
+ãƒ€ã‚¤ã‚¨ãƒƒãƒˆãƒšãƒ—ã‚·,                 Interference.wav
+ãƒšãƒ—ã‚·ãƒãƒƒã‚¯ã‚¹,                   Interference.wav
+ãƒšãƒ—ã‚·ãƒ–ãƒ«ãƒ¼,                     Interference.wav
+ãƒšãƒ—ã‚·ã‚¨ãƒƒã‚¯ã‚¹,                   Interference.wav
+ãƒšãƒ—ã‚·ãƒ¬ãƒƒãƒ‰,                     Interference.wav
+ãƒšãƒ—ã‚·ã‚«ãƒ¼ãƒ‹ãƒãƒ«,                 Interference.wav
+ãƒšãƒ—ã‚·ã‚´ãƒ¼ãƒ«ãƒ‰,                   Interference.wav
+ãƒšãƒ—ã‚·ã‚­ãƒ¥ãƒ¼ã‚«ãƒ³ãƒãƒ¼,             Interference.wav
+ãƒšãƒ—ã‚·ãƒ–ãƒ«ãƒ¼ãƒãƒ¯ã‚¤,               Interference.wav
+ãƒšãƒ—ã‚·ãƒ›ãƒ¯ã‚¤ãƒˆ,                   Interference.wav
+ãƒšãƒ—ã‚·ã‚³ãƒ¼ãƒ©(ã‚¢ã‚¤ãƒ†ãƒ )(è§£èª¬),     $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒšãƒ—ã‚·ã‚³ãƒ¼ãƒ©ã‚’é£²ã‚“ã ã€‚
+ãƒšãƒ—ã‚·ãƒ„ã‚¤ã‚¹ãƒˆ(ã‚¢ã‚¤ãƒ†ãƒ )(è§£èª¬),   $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒšãƒ—ã‚·ãƒ„ã‚¤ã‚¹ãƒˆã‚’é£²ã‚“ã ã€‚
+ãƒ€ã‚¤ã‚¨ãƒƒãƒˆãƒšãƒ—ã‚·(è§£èª¬),           $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒ€ã‚¤ã‚¨ãƒƒãƒˆãƒšãƒ—ã‚·ã‚’é£²ã‚“ã ã€‚
+ãƒšãƒ—ã‚·ãƒãƒƒã‚¯ã‚¹(è§£èª¬),             $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒšãƒ—ã‚·ãƒãƒƒã‚¯ã‚¹ã‚’é£²ã‚“ã ã€‚
+ãƒšãƒ—ã‚·ãƒ–ãƒ«ãƒ¼(è§£èª¬),               $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒšãƒ—ã‚·ãƒ–ãƒ«ãƒ¼ã‚’é£²ã‚“ã ã€‚
+ãƒšãƒ—ã‚·ã‚¨ãƒƒã‚¯ã‚¹(è§£èª¬),             $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒšãƒ—ã‚·ã‚¨ãƒƒã‚¯ã‚¹ã‚’é£²ã‚“ã ã€‚
+ãƒšãƒ—ã‚·ãƒ¬ãƒƒãƒ‰(è§£èª¬),               $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒšãƒ—ã‚·ãƒ¬ãƒƒãƒ‰ã‚’é£²ã‚“ã ã€‚
+ãƒšãƒ—ã‚·ã‚«ãƒ¼ãƒ‹ãƒãƒ«(è§£èª¬),           $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒšãƒ—ã‚·ã‚«ãƒ¼ãƒ‹ãƒãƒ«ã‚’é£²ã‚“ã ã€‚
+ãƒšãƒ—ã‚·ã‚´ãƒ¼ãƒ«ãƒ‰(è§£èª¬),             $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒšãƒ—ã‚·ã‚´ãƒ¼ãƒ«ãƒ‰ã‚’é£²ã‚“ã ã€‚
+ãƒšãƒ—ã‚·ã‚­ãƒ¥ãƒ¼ã‚«ãƒ³ãƒãƒ¼(è§£èª¬),       $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒšãƒ—ã‚·ã‚¢ã‚¤ã‚¹ã‚­ãƒ¥ãƒ¼ã‚«ãƒ³ãƒãƒ¼ã‚’é£²ã‚“ã ã€‚
+ãƒšãƒ—ã‚·ãƒ–ãƒ«ãƒ¼ãƒãƒ¯ã‚¤(è§£èª¬),         $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒšãƒ—ã‚·ãƒ–ãƒ«ãƒ¼ãƒãƒ¯ã‚¤ã‚’é£²ã‚“ã ã€‚
+ãƒšãƒ—ã‚·ãƒ›ãƒ¯ã‚¤ãƒˆ(è§£èª¬),             $(ãƒ¦ãƒ‹ãƒƒãƒˆ)ã¯ãƒšãƒ—ã‚·ãƒ›ãƒ¯ã‚¤ãƒˆã‚’é£²ã‚“ã ã€‚
 

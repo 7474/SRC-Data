@@ -1,78 +1,78 @@
-�S���ʃ��[�V�[
-�S���ʃ��[�V�[, �Œ�, ��\��
-����\��
-�p�C���b�g�摜=ELFEN_Lucy(mask).bmp
-���j�b�g�摜=ELFEN_Lucy(mask)U.bmp
+鉄仮面ルーシー
+鉄仮面ルーシー, 固定, 非表示
+特殊能力
+パイロット画像=ELFEN_Lucy(mask).bmp
+ユニット画像=ELFEN_Lucy(mask)U.bmp
 0, 0, 0, 0, 0
 
-#�������E���p�ɁB��ȊO�f����
+#研究所脱走用に。顔以外素っ裸
 
-���[�V�[�Z��
-���[�V�[�Z��, �Œ�, ��\��
-����\��
-���j�b�g�摜=ELFEN_LucyU(2).bmp
+ルーシー短髪
+ルーシー短髪, 固定, 非表示
+特殊能力
+ユニット画像=ELFEN_LucyU(2).bmp
 0, 0, 0, 0, 0
 
-���[�V�[�Z�~�����O
-���[�V�[�Z�~�����O, �Œ�, ��\��
-����\��
-���j�b�g�摜=ELFEN_LucyU(3).bmp
+ルーシーセミロング
+ルーシーセミロング, 固定, 非表示
+特殊能力
+ユニット画像=ELFEN_LucyU(3).bmp
 0, 0, 0, 0, 0
 
-�i�i�Ǘ��ԍ��ď�
-�i�i�Ǘ��ԍ��ď�, �Œ�, ��\��
-����\��
-���̕ύX=�V��
-�p�C���b�g����=�V��
+ナナ管理番号呼称
+ナナ管理番号呼称, 固定, 非表示
+特殊能力
+愛称変更=７番
+パイロット愛称=７番
 0, 0, 0, 0, 0
 
-#�������ł̌ď̂Ŏg���l�p�ɁA�i�i��
+#研究所での呼称で使う人用に、ナナ版
 
-�i�i�A�j���Ή�
-�i�i�A�j���Ή�, �Œ�, ��\��
-����\��
-�p�C���b�g�摜=ELFEN_Nana(Anime).bmp
-���j�b�g�摜=ELFEN_Nana(Anime)U.bmp
+ナナアニメ対応
+ナナアニメ対応, 固定, 非表示
+特殊能力
+パイロット画像=ELFEN_Nana(Anime).bmp
+ユニット画像=ELFEN_Nana(Anime)U.bmp
 0, 0, 0, 0, 0
 
-�}���R�Ǘ��ԍ��Ή�
-�}���R�Ǘ��ԍ��Ή�, �Œ�, ��\��
-����\��
-���̕ύX=�R�T��
-�p�C���b�g����=�R�T��
+マリコ管理番号対応
+マリコ管理番号対応, 固定, 非表示
+特殊能力
+愛称変更=３５番
+パイロット愛称=３５番
 0, 0, 0, 0, 0
 
-#�������ł̌ď̂Ŏg���l�p�ɁA�}���R��
+#研究所での呼称で使う人用に、マリコ版
 
-�}���R�A�j���Ή�
-�}���R�A�j���Ή�, �Œ�, ��\��
-����\��
-�p�C���b�g�摜=ELFEN_KuramaMariko(Anime).bmp
-���j�b�g�摜=ELFEN_KuramaMariko(Anime)U.bmp
+マリコアニメ対応
+マリコアニメ対応, 固定, 非表示
+特殊能力
+パイロット画像=ELFEN_KuramaMariko(Anime).bmp
+ユニット画像=ELFEN_KuramaMariko(Anime)U.bmp
 0, 0, 0, 0, 0
 
-�}���R�̎Ԉ֎q
-�}���R�̎Ԉ֎q, �Œ�, ��\��
-����\��
-�T�C�Y�ύX=M
-�ǉ��T�|�[�g=�镔(�G���t�F�����[�g)
-���j�b�g�摜=ELFEN_KuramaMariko(kurumaisu)U.bmp
+マリコの車椅子
+マリコの車椅子, 固定, 非表示
+特殊能力
+サイズ変更=M
+追加サポート=磯部(エルフェンリート)
+ユニット画像=ELFEN_KuramaMariko(kurumaisu)U.bmp
 0, 0, 0, -20, 0
 
-#�}���R�����߂ēo�ꂳ����Ƃ��͂�������Ă�������
+#マリコを初めて登場させるときはこれをつけてください
 
-�Ⓦ�R�[�h�l�[���Ή�
-�Ⓦ�R�[�h�l�[���Ή�, �Œ�, ��\��
-����\��
-���̕ύX=�X�J������
-�p�C���b�g����=�X�J������
+坂東コードネーム対応
+坂東コードネーム対応, 固定, 非表示
+特殊能力
+愛称変更=スカルワン
+パイロット愛称=スカルワン
 0, 0, 0, 0, 0
 
-#SAT�ɂ�郋�[�V�[�ߊl���ł̍Ⓦ�̃R�[�h�l�[���p�B
+#SATによるルーシー捕獲作戦での坂東のコードネーム用。
 
-�A�W�i�[���O��
-�A�W�i�[���O��, �Œ�, ��\��
-����\��
-�p�C���b�g�摜=ELFEN_ArtificialityeDiclonius(2).bmp
-�p�C���b�g�\�͕t��="���b�Z�[�W=�l�H�f�B�N���j�E�X(�o��)"
+アジナー取り外し
+アジナー取り外し, 固定, 非表示
+特殊能力
+パイロット画像=ELFEN_ArtificialityeDiclonius(2).bmp
+パイロット能力付加="メッセージ=人工ディクロニウス(覚醒)"
 0, 0, 0, 0, 0

@@ -1,426 +1,426 @@
 #####################################################################
-# ƒ}ƒCƒi[ƒf[ƒ^ŒfŽ¦”Â‚É“Še‚³‚ê‚Ä‚¢‚éí“¬—pƒAƒCƒRƒ“‚ðŽw’è‚µ‚Ä‚¢‚Ü‚·B
-# ‚Ü‚½AƒAƒZƒŠƒAAƒEƒ‹ƒJ‚ÉŠÖ‚µ‚Ä‚ÍŒÂ•Êƒ†ƒjƒbƒg–¼Žw’è‚Å‚ÌƒAƒjƒ‚Ì‘¼‚ÉA
-# ŠeƒXƒsƒŠƒbƒg‹¤’Ê•‘•“™‚ÌƒAƒjƒ‚à•Ê“rŽg—p‚µ‚Ä‚¢‚Ü‚·‚Ì‚Å
-# ”²‚«o‚µ‚ÄƒRƒs[‚·‚éŽž‚Í’ˆÓ‚µ‚Ä‰º‚³‚¢B
+# ãƒžã‚¤ãƒŠãƒ¼ãƒ‡ãƒ¼ã‚¿æŽ²ç¤ºæ¿ã«æŠ•ç¨¿ã•ã‚Œã¦ã„ã‚‹æˆ¦é—˜ç”¨ã‚¢ã‚¤ã‚³ãƒ³ã‚’æŒ‡å®šã—ã¦ã„ã¾ã™ã€‚
+# ã¾ãŸã€ã‚¢ã‚»ãƒªã‚¢ã€ã‚¦ãƒ«ã‚«ã«é–¢ã—ã¦ã¯å€‹åˆ¥ãƒ¦ãƒ‹ãƒƒãƒˆåæŒ‡å®šã§ã®ã‚¢ãƒ‹ãƒ¡ã®ä»–ã«ã€
+# å„ã‚¹ãƒ”ãƒªãƒƒãƒˆå…±é€šæ­¦è£…ç­‰ã®ã‚¢ãƒ‹ãƒ¡ã‚‚åˆ¥é€”ä½¿ç”¨ã—ã¦ã„ã¾ã™ã®ã§
+# æŠœãå‡ºã—ã¦ã‚³ãƒ”ãƒ¼ã™ã‚‹æ™‚ã¯æ³¨æ„ã—ã¦ä¸‹ã•ã„ã€‚
 
-‚—ä—Il
-‰i‰“_Œ•w‹‚ßx, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_TheDesire.bmp
-ƒwƒr[ƒAƒ^ƒbƒN(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_TheDesire.bmp
-ƒwƒr[ƒAƒ^ƒbƒN(UŒ‚), U‚è—Ž‚ë‚µ
-ƒwƒr[ƒAƒ^ƒbƒN(–½’†), “‚’|Š„‚è
-ƒtƒŒƒ“ƒW[(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_TheDesire.bmp
-ƒtƒŒƒ“ƒW[(UŒ‚), U‚è‰º‚ë‚µ;U‚èã‚°
-ƒtƒŒƒ“ƒW[(–½’†), U‚è‰º‚ë‚µ;U‚èã‚°
-ƒGƒNƒXƒvƒ[ƒh(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_TheDesire.bmp
-ƒGƒNƒXƒvƒ[ƒh(UŒ‚), ŽaŒ‚
-ƒGƒNƒXƒvƒ[ƒh(–½’†), ‘åŽaŒ‚;‘å”š”­
-ƒGƒNƒXƒvƒ[ƒh(–½’†), ‰ŠŽaŒ‚;”š”­
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒuƒŒ[ƒh(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_TheDesire.bmp ”­Œõ;ƒI[ƒ‰ã¸ ”’
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒuƒŒ[ƒh(UŒ‚), ŽaŒ‚;ŽaŒ‚;ŽaŒ‚
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒuƒŒ[ƒh(–½’†), U‚è‰º‚ë‚µ;U‚èã‚°;“‚’|Š„‚è;’´”š”­
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒr[ƒ€(€”õ), –‚–@w ”’ ”w–Ê;ƒI[ƒ‰ã¸ ”’
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒr[ƒ€, ‘åƒr[ƒ€ ”’
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒr[ƒ€(–½’†), ‘åƒr[ƒ€ ”’;—Ž—‹
+é«˜å¶ºæ‚ äºº
+æ°¸é ç¥žå‰£ã€Žæ±‚ã‚ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_TheDesire.bmp
+ãƒ˜ãƒ“ãƒ¼ã‚¢ã‚¿ãƒƒã‚¯(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_TheDesire.bmp
+ãƒ˜ãƒ“ãƒ¼ã‚¢ã‚¿ãƒƒã‚¯(æ”»æ’ƒ), æŒ¯ã‚Šè½ã‚ã—
+ãƒ˜ãƒ“ãƒ¼ã‚¢ã‚¿ãƒƒã‚¯(å‘½ä¸­), å”ç«¹å‰²ã‚Š
+ãƒ•ãƒ¬ãƒ³ã‚¸ãƒ¼(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_TheDesire.bmp
+ãƒ•ãƒ¬ãƒ³ã‚¸ãƒ¼(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—;æŒ¯ã‚Šä¸Šã’
+ãƒ•ãƒ¬ãƒ³ã‚¸ãƒ¼(å‘½ä¸­), æŒ¯ã‚Šä¸‹ã‚ã—;æŒ¯ã‚Šä¸Šã’
+ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¼ãƒ‰(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_TheDesire.bmp
+ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¼ãƒ‰(æ”»æ’ƒ), æ–¬æ’ƒ
+ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¼ãƒ‰(å‘½ä¸­), å¤§æ–¬æ’ƒ;å¤§çˆ†ç™º
+ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¼ãƒ‰(å‘½ä¸­), ç‚Žæ–¬æ’ƒ;çˆ†ç™º
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_TheDesire.bmp ç™ºå…‰;ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(æ”»æ’ƒ), æ–¬æ’ƒ;æ–¬æ’ƒ;æ–¬æ’ƒ
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(å‘½ä¸­), æŒ¯ã‚Šä¸‹ã‚ã—;æŒ¯ã‚Šä¸Šã’;å”ç«¹å‰²ã‚Š;è¶…çˆ†ç™º
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ“ãƒ¼ãƒ (æº–å‚™), é­”æ³•é™£ ç™½ èƒŒé¢;ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ“ãƒ¼ãƒ , å¤§ãƒ“ãƒ¼ãƒ  ç™½
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ“ãƒ¼ãƒ (å‘½ä¸­), å¤§ãƒ“ãƒ¼ãƒ  ç™½;è½é›·
 
-¹Œ«ŽÒƒ†ƒEƒg
-‰i‰“_Œ•w¹Œ«x, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_SacredKeeper.bmp
-ƒwƒr[ƒAƒ^ƒbƒN(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_SacredKeeper.bmp
-ƒwƒr[ƒAƒ^ƒbƒN(UŒ‚), U‚è—Ž‚ë‚µ
-ƒwƒr[ƒAƒ^ƒbƒN(–½’†), “‚’|Š„‚è
-ƒtƒŒƒ“ƒW[(€”õ), U‚é•Ší U‚é•Ší Anime\EFFECT_ASELIA_SacredKeeper.bmp
-ƒtƒŒƒ“ƒW[(UŒ‚), U‚è‰º‚ë‚µ;U‚èã‚°
-ƒtƒŒƒ“ƒW[(–½’†), U‚è‰º‚ë‚µ;U‚èã‚°
-ƒGƒNƒXƒvƒ[ƒh(€”õ), U‚é•Ší U‚é•Ší Anime\EFFECT_ASELIA_SacredKeeper.bmp
-ƒGƒNƒXƒvƒ[ƒh(UŒ‚), ŽaŒ‚
-ƒGƒNƒXƒvƒ[ƒh(–½’†), ‘åŽaŒ‚;‘å”š”­
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒuƒŒ[ƒh(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_SacredKeeper.bmp ”­Œõ;ƒI[ƒ‰ã¸ ”’
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒuƒŒ[ƒh(UŒ‚), ŽaŒ‚;ŽaŒ‚;ŽaŒ‚
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒuƒŒ[ƒh(–½’†), U‚è‰º‚ë‚µ;U‚èã‚°;“‚’|Š„‚è;’´”š”­
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒmƒ”ƒ@(€”õ), –‚–@w ”’ ”w–Ê;ƒI[ƒ‰ã¸ ”’
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒmƒ”ƒ@(UŒ‚), ’´ƒr[ƒ€ ”’
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒmƒ”ƒ@(–½’†), ’´ƒr[ƒ€ ”’;‘å”š”­ Â
-ƒRƒlƒNƒeƒBƒhƒEƒBƒ‹(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_SacredKeeper.bmp ”­Œõ;ƒI[ƒ‰ã¸ ”’
-ƒRƒlƒNƒeƒBƒhƒEƒBƒ‹(UŒ‚), U‚è‰º‚ë‚µ;U‚èã‚°;‚È‚¬•¥‚¢
-ƒRƒlƒNƒeƒBƒhƒEƒBƒ‹(–½’†), ’´ŽaŒ‚;’´ŽaŒ‚;’´ŽaŒ‚
-
-
-‘¶Ý‚ÌƒAƒZƒŠƒA
-‰i‰“_Œ•w‘¶Ýx, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_Existence.bmp
-ƒŠ[ƒvƒAƒ^ƒbƒN(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Existence.bmp
-ƒCƒ“ƒpƒ‹ƒXƒuƒƒE(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Existence.bmp
-ƒtƒ…[ƒŠ[(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Existence.bmp
-ƒwƒ”ƒ“ƒYƒXƒEƒH[ƒh(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Existence.bmp
-
-‰i‰“‚ÌƒAƒZƒŠƒA
-‰i‰“_Œ•w‰i‰“x, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_Eternal.bmp
-ƒŠ[ƒvƒAƒ^ƒbƒN(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Eternal.bmp
-ƒCƒ“ƒpƒ‹ƒXƒuƒƒE(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Eternal.bmp
-ƒtƒ…[ƒŠ[(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Eternal.bmp
-ƒwƒ”ƒ“ƒYƒXƒEƒH[ƒh(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Eternal.bmp
-ƒGƒ^ƒjƒeƒB[ƒŠƒ€[ƒo[(€”õ), ‰H;ƒI[ƒ‰ã¸ Â
-ƒGƒ^ƒjƒeƒB[ƒŠƒ€[ƒo[(UŒ‚), ƒtƒFƒCƒXƒAƒbƒv;U‚é•Ší“ËŒ‚ Anime\EFFECT_ASELIA_Eternal.bmp ŽaŒ‚;ŽaŒ‚;ŽaŒ‚
-ƒGƒ^ƒjƒeƒB[ƒŠƒ€[ƒo[(–½’†), U‚è‰º‚ë‚µ;U‚èã‚°;“‚’|Š„‚è;’´ŽaŒ‚
+è–è³¢è€…ãƒ¦ã‚¦ãƒˆ
+æ°¸é ç¥žå‰£ã€Žè–è³¢ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_SacredKeeper.bmp
+ãƒ˜ãƒ“ãƒ¼ã‚¢ã‚¿ãƒƒã‚¯(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_SacredKeeper.bmp
+ãƒ˜ãƒ“ãƒ¼ã‚¢ã‚¿ãƒƒã‚¯(æ”»æ’ƒ), æŒ¯ã‚Šè½ã‚ã—
+ãƒ˜ãƒ“ãƒ¼ã‚¢ã‚¿ãƒƒã‚¯(å‘½ä¸­), å”ç«¹å‰²ã‚Š
+ãƒ•ãƒ¬ãƒ³ã‚¸ãƒ¼(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_SacredKeeper.bmp
+ãƒ•ãƒ¬ãƒ³ã‚¸ãƒ¼(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—;æŒ¯ã‚Šä¸Šã’
+ãƒ•ãƒ¬ãƒ³ã‚¸ãƒ¼(å‘½ä¸­), æŒ¯ã‚Šä¸‹ã‚ã—;æŒ¯ã‚Šä¸Šã’
+ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¼ãƒ‰(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_SacredKeeper.bmp
+ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¼ãƒ‰(æ”»æ’ƒ), æ–¬æ’ƒ
+ã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¼ãƒ‰(å‘½ä¸­), å¤§æ–¬æ’ƒ;å¤§çˆ†ç™º
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_SacredKeeper.bmp ç™ºå…‰;ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(æ”»æ’ƒ), æ–¬æ’ƒ;æ–¬æ’ƒ;æ–¬æ’ƒ
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(å‘½ä¸­), æŒ¯ã‚Šä¸‹ã‚ã—;æŒ¯ã‚Šä¸Šã’;å”ç«¹å‰²ã‚Š;è¶…çˆ†ç™º
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒŽãƒ´ã‚¡(æº–å‚™), é­”æ³•é™£ ç™½ èƒŒé¢;ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒŽãƒ´ã‚¡(æ”»æ’ƒ), è¶…ãƒ“ãƒ¼ãƒ  ç™½
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒŽãƒ´ã‚¡(å‘½ä¸­), è¶…ãƒ“ãƒ¼ãƒ  ç™½;å¤§çˆ†ç™º é’
+ã‚³ãƒã‚¯ãƒ†ã‚£ãƒ‰ã‚¦ã‚£ãƒ«(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_SacredKeeper.bmp ç™ºå…‰;ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+ã‚³ãƒã‚¯ãƒ†ã‚£ãƒ‰ã‚¦ã‚£ãƒ«(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—;æŒ¯ã‚Šä¸Šã’;ãªãŽæ‰•ã„
+ã‚³ãƒã‚¯ãƒ†ã‚£ãƒ‰ã‚¦ã‚£ãƒ«(å‘½ä¸­), è¶…æ–¬æ’ƒ;è¶…æ–¬æ’ƒ;è¶…æ–¬æ’ƒ
 
 
-–»‰Á‚ÌƒEƒ‹ƒJ
-‰i‰“_Œ•w–»‰Áx, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_GreatBlessing.bmp
-ƒJƒIƒXƒCƒ“ƒpƒNƒg(€”õ), ‰H;‰Š • Charge.wav
-‹‡‚Ì‘¾“(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_GreatBlessing.bmp
-‰_ŽU–¶Á‚Ì‘¾“(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_GreatBlessing.bmp
-ŒŽ—Ö‚Ì‘¾“(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_GreatBlessing.bmp
-¯‰Îà™Œ´‚Ì‘¾“(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_GreatBlessing.bmp
+å­˜åœ¨ã®ã‚¢ã‚»ãƒªã‚¢
+æ°¸é ç¥žå‰£ã€Žå­˜åœ¨ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_Existence.bmp
+ãƒªãƒ¼ãƒ—ã‚¢ã‚¿ãƒƒã‚¯(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Existence.bmp
+ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹ãƒ–ãƒ­ã‚¦(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Existence.bmp
+ãƒ•ãƒ¥ãƒ¼ãƒªãƒ¼(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Existence.bmp
+ãƒ˜ãƒ´ãƒ³ã‚ºã‚¹ã‚¦ã‚©ãƒ¼ãƒ‰(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Existence.bmp
 
-[‰“‚Ì—ƒƒEƒ‹ƒJ
-‰i‰“_Œ•w[‰“x, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_Profound.bmp
-ƒfƒBƒoƒCƒ“ƒCƒ“ƒpƒNƒg(€”õ), ‰H;‰Š • Charge.wav
-‹‡‚Ì‘¾“(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Profound.bmp
-‰_ŽU–¶Á‚Ì‘¾“(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Profound.bmp
-ŒŽ—Ö‚Ì‘¾“(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Profound.bmp
-¯‰Îà™Œ´‚Ì‘¾“(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Profound.bmp
-“Vë–³‹‡‚Ì‘¾“(€”õ), ‰H;ƒI[ƒ‰ã¸ •
-“Vë–³‹‡‚Ì‘¾“(UŒ‚), ƒtƒFƒCƒXƒAƒbƒv ƒEƒ‹ƒJEƒuƒ‰ƒbƒNƒXƒsƒŠƒbƒg(UŒ‚); U‚é•Ší“ËŒ‚ Anime\EFFECT_ASELIA_Profound.bmp ŽaŒ‚
-“Vë–³‹‡‚Ì‘¾“(–½’†), U‚é•Ší“ËŒ‚ Anime\EFFECT_ASELIA_Profound.bmp ŽaŒ‚;ŽaŒ‚—•‘
+æ°¸é ã®ã‚¢ã‚»ãƒªã‚¢
+æ°¸é ç¥žå‰£ã€Žæ°¸é ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_Eternal.bmp
+ãƒªãƒ¼ãƒ—ã‚¢ã‚¿ãƒƒã‚¯(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Eternal.bmp
+ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹ãƒ–ãƒ­ã‚¦(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Eternal.bmp
+ãƒ•ãƒ¥ãƒ¼ãƒªãƒ¼(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Eternal.bmp
+ãƒ˜ãƒ´ãƒ³ã‚ºã‚¹ã‚¦ã‚©ãƒ¼ãƒ‰(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Eternal.bmp
+ã‚¨ã‚¿ãƒ‹ãƒ†ã‚£ãƒ¼ãƒªãƒ ãƒ¼ãƒãƒ¼(æº–å‚™), ç¾½;ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ é’
+ã‚¨ã‚¿ãƒ‹ãƒ†ã‚£ãƒ¼ãƒªãƒ ãƒ¼ãƒãƒ¼(æ”»æ’ƒ), ãƒ•ã‚§ã‚¤ã‚¹ã‚¢ãƒƒãƒ—;æŒ¯ã‚‹æ­¦å™¨çªæ’ƒ Anime\EFFECT_ASELIA_Eternal.bmp æ–¬æ’ƒ;æ–¬æ’ƒ;æ–¬æ’ƒ
+ã‚¨ã‚¿ãƒ‹ãƒ†ã‚£ãƒ¼ãƒªãƒ ãƒ¼ãƒãƒ¼(å‘½ä¸­), æŒ¯ã‚Šä¸‹ã‚ã—;æŒ¯ã‚Šä¸Šã’;å”ç«¹å‰²ã‚Š;è¶…æ–¬æ’ƒ
 
-Ž½•‚Ì—ƒƒEƒ‹ƒJ
-‰i‰“_Œ•wS‘©x, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_GreatBlessing.bmp
-ƒ_[ƒNƒCƒ“ƒpƒNƒg(€”õ), ‰H •;‰Š • Charge.wav
-‰i‰“_Œ•w–»‰Áx, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_GreatBlessing.bmp
-ƒJƒIƒXƒCƒ“ƒpƒNƒg(€”õ), ‰H;‰Š • Charge.wav
-‹‡‚Ì‘¾“(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_GreatBlessing.bmp
-‰_ŽU–¶Á‚Ì‘¾“(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_GreatBlessing.bmp
-ŒŽ—Ö‚Ì‘¾“(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_GreatBlessing.bmp
-¯‰Îà™Œ´‚Ì‘¾“(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_GreatBlessing.bmp
 
-–¦¡“úŽq
-‰i‰“_Œ•w‹ó‹•x, “Ë‚­•Ší“ËŒ‚ Anime\EFFECT_ASELIA_Emptiness(Thrust).bmp
-ƒyƒlƒgƒŒƒCƒg, Žh“Ë•Ší Anime\EFFECT_ASELIA_Emptiness(Thrust).bmp
-ƒCƒNƒV[ƒh, Žh“Ë•Ší Anime\EFFECT_ASELIA_Emptiness(Thrust).bmp ”­Œõ
-ƒ‰ƒCƒgƒjƒ“ƒOƒuƒ‰ƒXƒg(€”õ), –‚–@w Ž‡ Charge.wav ”w–Ê
-ƒ‰ƒCƒgƒjƒ“ƒOƒuƒ‰ƒXƒg(UŒ‚), ƒƒKƒVƒ‡ƒbƒNƒr[ƒ€ Ž‡
-ƒ‰ƒCƒgƒjƒ“ƒOƒuƒ‰ƒXƒg(–½’†), ƒƒKƒVƒ‡ƒbƒNƒr[ƒ€ Ž‡;“dŒ‚
-ƒ‰ƒCƒgƒjƒ“ƒOƒnƒŠƒZƒ“(€”õ), ƒnƒŠƒZƒ“
-ƒ‰ƒCƒgƒjƒ“ƒOƒnƒŠƒZƒ“(UŒ‚), ŽaŒ‚;ƒVƒ‡ƒbƒNƒr[ƒ€ Ž‡
-ƒ‰ƒCƒgƒjƒ“ƒOƒnƒŠƒZƒ“(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ Ž‡;“dŒ‚ 
-ƒTƒ“ƒ_[ƒXƒg[ƒ€(€”õ), –‚–@w Ž‡ Charge.wav
-ƒTƒ“ƒ_[ƒXƒg[ƒ€(UŒ‚), ‘å•ú“d ‘ÎÛƒ†ƒjƒbƒg‚h‚c;‘å“dŒ‚ ‘ŠŽèƒ†ƒjƒbƒg‚h‚c
-ƒTƒ“ƒ_[ƒXƒg[ƒ€(–½’†), ‘å“dŒ‚
+å†¥åŠ ã®ã‚¦ãƒ«ã‚«
+æ°¸é ç¥žå‰£ã€Žå†¥åŠ ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_GreatBlessing.bmp
+ã‚«ã‚ªã‚¹ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆ(æº–å‚™), ç¾½;ç‚Ž é»’ Charge.wav
+å±…åˆã®å¤ªåˆ€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_GreatBlessing.bmp
+é›²æ•£éœ§æ¶ˆã®å¤ªåˆ€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_GreatBlessing.bmp
+æœˆè¼ªã®å¤ªåˆ€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_GreatBlessing.bmp
+æ˜Ÿç«ç‡ŽåŽŸã®å¤ªåˆ€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_GreatBlessing.bmp
 
-Ž‡“d‚ÌƒLƒ‡ƒEƒR
-‰i‰“_Œ•wˆË‘¶x, ƒnƒŠƒZƒ“
-‰i‰“_Œ•wˆË‘¶x, Œ•
-‰i‰“_Œ•wˆË‘¶x, ‘Å“Ë
-ƒyƒlƒgƒŒƒCƒg(UŒ‚), “Ë‚­•Ší“ËŒ‚ Wind\EFFECT_WindCutter(Purple)02.bmp ”­Œõ
-ƒyƒlƒgƒŒƒCƒg(–½’†), ƒX[ƒp[ƒpƒ“ƒ` Ž‡
-ƒCƒNƒV[ƒh(UŒ‚), “Ë‚­•Ší“ËŒ‚ Wind\EFFECT_WindCutter(Purple)02.bmp ”­Œõ
-ƒCƒNƒV[ƒh(–½’†), ƒX[ƒp[ƒpƒ“ƒ` Ž‡;@í“¬ƒAƒjƒƒnƒŠƒZƒ“_UŒ‚;“dŒ‚
-ƒ‰ƒCƒgƒjƒ“ƒOƒuƒ‰ƒXƒg(€”õ), –‚–@w Ž‡ Charge.wav ”w–Ê
-ƒ‰ƒCƒgƒjƒ“ƒOƒuƒ‰ƒXƒg(UŒ‚), ƒƒKƒVƒ‡ƒbƒNƒr[ƒ€ Ž‡
-ƒ‰ƒCƒgƒjƒ“ƒOƒuƒ‰ƒXƒg(–½’†), ƒƒKƒVƒ‡ƒbƒNƒr[ƒ€ Ž‡;“dŒ‚
-ƒ‰ƒCƒgƒjƒ“ƒOƒnƒŠƒZƒ“(€”õ), ƒnƒŠƒZƒ“
-ƒ‰ƒCƒgƒjƒ“ƒOƒnƒŠƒZƒ“(UŒ‚), ŽaŒ‚;ƒVƒ‡ƒbƒNƒr[ƒ€ Ž‡
-ƒ‰ƒCƒgƒjƒ“ƒOƒnƒŠƒZƒ“(–½’†), —Ž—‹
-ƒTƒ“ƒ_[ƒXƒg[ƒ€(€”õ), –‚–@w Ž‡ Charge.wav ”w–Ê
-ƒTƒ“ƒ_[ƒXƒg[ƒ€(UŒ‚), ‘å•ú“d ‘ÎÛƒ†ƒjƒbƒg‚h‚c;‘å—Ž—‹ ‘ŠŽèƒ†ƒjƒbƒg‚h‚c
-ƒTƒ“ƒ_[ƒXƒg[ƒ€(–½’†), ‘å—Ž—‹
-ƒXƒp[ƒNƒŒƒV[ƒu, •ú“d
-ƒVƒƒƒCƒjƒ“ƒOƒuƒŒƒCƒJ[(€”õ), “Ë‚­•Ší•ÏŒ` LightWeapon\EFFECT_LightSword(Purple)01.bmp 32 LightWeapon\EFFECT_LightSword(Purple)02.bmp 48 Reload(4).wav
-ƒVƒƒƒCƒjƒ“ƒOƒuƒŒƒCƒJ[(UŒ‚), “Ë‚­•Ší“ËŒ‚ LightWeapon\EFFECT_LightSword(Purple)02.bmp
-ƒVƒƒƒCƒjƒ“ƒOƒuƒŒƒCƒJ[(–½’†), ƒX[ƒp[ƒ^ƒbƒNƒ‹ Ž‡ Slash.wav;ŽaŒ‚;ŽaŒ‚;‘åŽaŒ‚
+æ·±é ã®ç¿¼ã‚¦ãƒ«ã‚«
+æ°¸é ç¥žå‰£ã€Žæ·±é ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_Profound.bmp
+ãƒ‡ã‚£ãƒã‚¤ãƒ³ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆ(æº–å‚™), ç¾½;ç‚Ž é»’ Charge.wav
+å±…åˆã®å¤ªåˆ€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Profound.bmp
+é›²æ•£éœ§æ¶ˆã®å¤ªåˆ€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Profound.bmp
+æœˆè¼ªã®å¤ªåˆ€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Profound.bmp
+æ˜Ÿç«ç‡ŽåŽŸã®å¤ªåˆ€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Profound.bmp
+å¤©å£Œç„¡çª®ã®å¤ªåˆ€(æº–å‚™), ç¾½;ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ é»’
+å¤©å£Œç„¡çª®ã®å¤ªåˆ€(æ”»æ’ƒ), ãƒ•ã‚§ã‚¤ã‚¹ã‚¢ãƒƒãƒ— ã‚¦ãƒ«ã‚«ãƒ»ãƒ–ãƒ©ãƒƒã‚¯ã‚¹ãƒ”ãƒªãƒƒãƒˆ(æ”»æ’ƒ); æŒ¯ã‚‹æ­¦å™¨çªæ’ƒ Anime\EFFECT_ASELIA_Profound.bmp æ–¬æ’ƒ
+å¤©å£Œç„¡çª®ã®å¤ªåˆ€(å‘½ä¸­), æŒ¯ã‚‹æ­¦å™¨çªæ’ƒ Anime\EFFECT_ASELIA_Profound.bmp æ–¬æ’ƒ;æ–¬æ’ƒä¹±èˆž
+
+æ¼†é»’ã®ç¿¼ã‚¦ãƒ«ã‚«
+æ°¸é ç¥žå‰£ã€Žæ‹˜æŸã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_GreatBlessing.bmp
+ãƒ€ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆ(æº–å‚™), ç¾½ é»’;ç‚Ž é»’ Charge.wav
+æ°¸é ç¥žå‰£ã€Žå†¥åŠ ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_GreatBlessing.bmp
+ã‚«ã‚ªã‚¹ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆ(æº–å‚™), ç¾½;ç‚Ž é»’ Charge.wav
+å±…åˆã®å¤ªåˆ€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_GreatBlessing.bmp
+é›²æ•£éœ§æ¶ˆã®å¤ªåˆ€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_GreatBlessing.bmp
+æœˆè¼ªã®å¤ªåˆ€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_GreatBlessing.bmp
+æ˜Ÿç«ç‡ŽåŽŸã®å¤ªåˆ€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_GreatBlessing.bmp
+
+å²¬ä»Šæ—¥å­
+æ°¸é ç¥žå‰£ã€Žç©ºè™šã€, çªãæ­¦å™¨çªæ’ƒ Anime\EFFECT_ASELIA_Emptiness(Thrust).bmp
+ãƒšãƒãƒˆãƒ¬ã‚¤ãƒˆ, åˆºçªæ­¦å™¨ Anime\EFFECT_ASELIA_Emptiness(Thrust).bmp
+ã‚¤ã‚¯ã‚·ãƒ¼ãƒ‰, åˆºçªæ­¦å™¨ Anime\EFFECT_ASELIA_Emptiness(Thrust).bmp ç™ºå…‰
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒ–ãƒ©ã‚¹ãƒˆ(æº–å‚™), é­”æ³•é™£ ç´« Charge.wav èƒŒé¢
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒ–ãƒ©ã‚¹ãƒˆ(æ”»æ’ƒ), ãƒ¡ã‚¬ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç´«
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒ–ãƒ©ã‚¹ãƒˆ(å‘½ä¸­), ãƒ¡ã‚¬ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç´«;é›»æ’ƒ
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒãƒªã‚»ãƒ³(æº–å‚™), ãƒãƒªã‚»ãƒ³
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒãƒªã‚»ãƒ³(æ”»æ’ƒ), æ–¬æ’ƒ;ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç´«
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒãƒªã‚»ãƒ³(å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç´«;é›»æ’ƒ 
+ã‚µãƒ³ãƒ€ãƒ¼ã‚¹ãƒˆãƒ¼ãƒ (æº–å‚™), é­”æ³•é™£ ç´« Charge.wav
+ã‚µãƒ³ãƒ€ãƒ¼ã‚¹ãƒˆãƒ¼ãƒ (æ”»æ’ƒ), å¤§æ”¾é›» å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;å¤§é›»æ’ƒ ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+ã‚µãƒ³ãƒ€ãƒ¼ã‚¹ãƒˆãƒ¼ãƒ (å‘½ä¸­), å¤§é›»æ’ƒ
+
+ç´«é›»ã®ã‚­ãƒ§ã‚¦ã‚³
+æ°¸é ç¥žå‰£ã€Žä¾å­˜ã€, ãƒãƒªã‚»ãƒ³
+æ°¸é ç¥žå‰£ã€Žä¾å­˜ã€, å‰£
+æ°¸é ç¥žå‰£ã€Žä¾å­˜ã€, æ‰“çª
+ãƒšãƒãƒˆãƒ¬ã‚¤ãƒˆ(æ”»æ’ƒ), çªãæ­¦å™¨çªæ’ƒ Wind\EFFECT_WindCutter(Purple)02.bmp ç™ºå…‰
+ãƒšãƒãƒˆãƒ¬ã‚¤ãƒˆ(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ãƒ³ãƒ ç´«
+ã‚¤ã‚¯ã‚·ãƒ¼ãƒ‰(æ”»æ’ƒ), çªãæ­¦å™¨çªæ’ƒ Wind\EFFECT_WindCutter(Purple)02.bmp ç™ºå…‰
+ã‚¤ã‚¯ã‚·ãƒ¼ãƒ‰(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ãƒ³ãƒ ç´«;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒãƒªã‚»ãƒ³_æ”»æ’ƒ;é›»æ’ƒ
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒ–ãƒ©ã‚¹ãƒˆ(æº–å‚™), é­”æ³•é™£ ç´« Charge.wav èƒŒé¢
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒ–ãƒ©ã‚¹ãƒˆ(æ”»æ’ƒ), ãƒ¡ã‚¬ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç´«
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒ–ãƒ©ã‚¹ãƒˆ(å‘½ä¸­), ãƒ¡ã‚¬ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç´«;é›»æ’ƒ
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒãƒªã‚»ãƒ³(æº–å‚™), ãƒãƒªã‚»ãƒ³
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒãƒªã‚»ãƒ³(æ”»æ’ƒ), æ–¬æ’ƒ;ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç´«
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒãƒªã‚»ãƒ³(å‘½ä¸­), è½é›·
+ã‚µãƒ³ãƒ€ãƒ¼ã‚¹ãƒˆãƒ¼ãƒ (æº–å‚™), é­”æ³•é™£ ç´« Charge.wav èƒŒé¢
+ã‚µãƒ³ãƒ€ãƒ¼ã‚¹ãƒˆãƒ¼ãƒ (æ”»æ’ƒ), å¤§æ”¾é›» å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;å¤§è½é›· ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+ã‚µãƒ³ãƒ€ãƒ¼ã‚¹ãƒˆãƒ¼ãƒ (å‘½ä¸­), å¤§è½é›·
+ã‚¹ãƒ‘ãƒ¼ã‚¯ãƒ¬ã‚·ãƒ¼ãƒ–, æ”¾é›»
+ã‚·ãƒ£ã‚¤ãƒ‹ãƒ³ã‚°ãƒ–ãƒ¬ã‚¤ã‚«ãƒ¼(æº–å‚™), çªãæ­¦å™¨å¤‰å½¢ LightWeapon\EFFECT_LightSword(Purple)01.bmp 32 LightWeapon\EFFECT_LightSword(Purple)02.bmp 48 Reload(4).wav
+ã‚·ãƒ£ã‚¤ãƒ‹ãƒ³ã‚°ãƒ–ãƒ¬ã‚¤ã‚«ãƒ¼(æ”»æ’ƒ), çªãæ­¦å™¨çªæ’ƒ LightWeapon\EFFECT_LightSword(Purple)02.bmp
+ã‚·ãƒ£ã‚¤ãƒ‹ãƒ³ã‚°ãƒ–ãƒ¬ã‚¤ã‚«ãƒ¼(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« ç´« Slash.wav;æ–¬æ’ƒ;æ–¬æ’ƒ;å¤§æ–¬æ’ƒ
 
 ASELIA
-‰i‰“_Œ•wŒ£gx(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Dedication.bmp
-‰i‰“_Œ•w¹—Îx(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_HolyGreen.bmp
-‰i‰“_Œ•w—”Ox(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Idea.bmp
-‰i‰“_Œ•wÄ¶x(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Regenerate.bmp
-‰i‰“_Œ•wÃŽâx, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_BlueSpiritSword.bmp
-‰i‰“_Œ•wŒÇ“Æx, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_BlueSpiritSword.bmp
-‰i‰“_Œ•w”M•ax, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_BlueSpiritSword.bmp
-‰i‰“_Œ•wÁ’¾x(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_RedSpiritDoubleSword.bmp
-‰i‰“_Œ•wÔŒõx(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_RedSpiritDoubleSword.bmp
-‰i‰“_Œ•w‘åŽ÷x(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_GreenSpiritSpear.bmp;“Š±•Ší  Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
-‰i‰“_Œ•w‘åŽ÷x, “Š±•Ší Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
-‰i‰“_Œ•wŒŒõx(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_GreenSpiritSpear.bmp;“Š±•Ší  Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
-‰i‰“_Œ•wŒŒõx, “Š±•Ší Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
-‰i‰“_Œ•wŽ¸–]x, “ú–{““ËŒ‚
-‰i‰“_Œ•wŒŽŒõx, “ú–{““ËŒ‚
-‰i‰“_Œ•(ƒuƒ‹[ƒXƒsƒŠƒbƒg), ŽaŒ‚•Ší Anime\EFFECT_ASELIA_BlueSpiritSword.bmp
-‰i‰“_Œ•(ƒŒƒbƒhƒXƒsƒŠƒbƒg), ŽaŒ‚•Ší Anime\EFFECT_ASELIA_RedSpiritDoubleSword.bmp
-‰i‰“_Œ•(ƒOƒŠ[ƒ“ƒXƒsƒŠƒbƒg)(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_GreenSpiritSpear.bmp;“Š±•Ší Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
-‰i‰“_Œ•(ƒOƒŠ[ƒ“ƒXƒsƒŠƒbƒg), “Š±•Ší Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
-‰i‰“_Œ•(ƒuƒ‰ƒbƒNƒsƒŠƒbƒg), “ú–{““ËŒ‚
-# ƒuƒ‹[ƒXƒsƒŠƒbƒg
-‘jŽ~(ƒAƒCƒXƒoƒjƒbƒVƒƒ[), –‚–@w Â
-ƒG[ƒeƒ‹ƒVƒ“ƒN, –‚–@w Â
-ƒG[ƒeƒ‹ƒVƒ“ƒN(ƒNƒŠƒeƒBƒJƒ‹), ”ò–— Â -.wav;@í“¬ƒAƒjƒ_Œ‹ŠE”­“® Â Glass.wav
-ƒTƒCƒŒƒ“ƒgƒtƒB[ƒ‹ƒh(€”õ), –‚–@w Â
-ƒTƒCƒŒƒ“ƒgƒtƒB[ƒ‹ƒh(UŒ‚), ‚l‚`‚oŒõ•¬o Â
-ƒTƒCƒŒƒ“ƒgƒtƒB[ƒ‹ƒh(–½’†), -
-ƒTƒCƒŒƒ“ƒgƒtƒB[ƒ‹ƒh(ƒNƒŠƒeƒBƒJƒ‹), ”ò–— Â -.wav;@í“¬ƒAƒjƒ_Œ‹ŠE”­“® Â Glass.wav
-ƒŠ[ƒvƒAƒ^ƒbƒN, ŽaŒ‚
-ƒCƒ“ƒpƒ‹ƒXƒuƒƒE, ŽaŒ‚
-ƒtƒ…[ƒŠ[, ˜AŽaŒ‚
-ƒwƒ”ƒ“ƒYƒXƒEƒH[ƒh(€”õ), ‰H; ƒI[ƒ‰ã¸ Â
-ƒwƒ”ƒ“ƒYƒXƒEƒH[ƒh(UŒ‚), ŽaŒ‚
-ƒwƒ”ƒ“ƒYƒXƒEƒH[ƒh(–½’†), ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚
-‘jŽ~(ƒTƒCƒŒƒ“ƒgƒtƒB[ƒ‹ƒh‡U), –‚–@w Â
-# ƒOƒŠ[ƒ“ƒXƒsƒŠƒbƒg
-ƒXƒgƒ‰ƒCƒN, “Š‚°‘„
-ƒpƒ[ƒXƒgƒ‰ƒCƒN, Žh“Ë“ËŒ‚
-ƒpƒ[ƒXƒgƒ‰ƒCƒN(–½’†), Žh“Ë“ËŒ‚
-ƒ‰ƒCƒgƒjƒ“ƒOƒXƒgƒ‰ƒCƒN, ˜A“Ë
-ƒ‰ƒCƒgƒjƒ“ƒOƒXƒgƒ‰ƒCƒN(–½’†), ˜A“Ë
-ƒ\ƒjƒbƒNƒXƒgƒ‰ƒCƒN, —“Ë
-ƒ\ƒjƒbƒNƒXƒgƒ‰ƒCƒN(–½’†), —“Ë
-ƒGƒŒƒƒ“ƒ^ƒ‹ƒuƒ‰ƒXƒg(€”õ), –‚–@w —Î Charge.wav ”w–Ê
-ƒGƒŒƒƒ“ƒ^ƒ‹ƒuƒ‰ƒXƒg(UŒ‚), –‚–@W’† —Î ‘å
-ƒGƒŒƒƒ“ƒ^ƒ‹ƒuƒ‰ƒXƒg(–½’†), ‰Š —Î sharara.wav;”š”­
-ƒA[ƒXƒvƒ‰ƒCƒ„[, –‚–@w —Î ‘ÎÛƒ†ƒjƒbƒg‚h‚c ”w–Ê;‰ñ•œ–‚–@
-ƒn[ƒxƒXƒg, –‚–@w —Î ‘ÎÛƒ†ƒjƒbƒg‚h‚c ”w–Ê;‰ñ•œ–‚–@
-ƒLƒ…ƒA[, –‚–@w —Î ‘ÎÛƒ†ƒjƒbƒg‚h‚c ”w–Ê;‰ñ•œ–‚–@
-ƒGƒ“ƒWƒFƒ‹ƒvƒ‰ƒCƒ„[(Žg—p), @í“¬ƒAƒjƒ_ƒtƒFƒCƒXƒAƒbƒvUŒ‚;–‚–@w —Î ‘ÎÛƒ†ƒjƒbƒg‚h‚c ”w–Ê
-ƒGƒ“ƒWƒFƒ‹ƒvƒ‰ƒCƒ„[(”­“®), ‰ñ•œ–‚–@
-ƒEƒBƒ“ƒhƒEƒBƒXƒp[, –‚–@w —Î ‘ÎÛƒ†ƒjƒbƒg‚h‚c ”w–Ê;‰Š ”’;–hŒä—Í‚t‚o
-# ƒŒƒbƒhƒXƒsƒŠƒbƒg
-‚Ó‚Ÿ‚¢‚ ‚Ú‚é‚Æ(€”õ), –‚–@w Ô Charge.wav
-‚Ó‚Ÿ‚¢‚ ‚Ú‚é‚Æ, ‰Î‰Š’e Â Beam.wav
-‚Ó‚Ÿ‚¢‚ ‚Ú‚é‚Æ(–½’†), ”š”­
-‚Ó‚Ÿ‚¢‚ ‚Ú`‚é(€”õ), –‚–@w Ô Charge.wav
-‚Ó‚Ÿ‚¢‚ ‚Ú`‚é, ‰Î‰Š’e Ô Beam.wav
-‚Ó‚Ÿ‚¢‚ ‚Ú`‚é(–½’†), ”š”­
-‚Ó‚ê‚¢‚Þ‚ê`‚´`(€”õ), –‚–@w Ô Charge.wav
-‚Ó‚ê‚¢‚Þ‚ê`‚´`, ’†ƒr[ƒ€ Ô Beam.wav
-‚Ó‚ê‚¢‚Þ‚ê`‚´`(–½’†), ”š”­
-‚¢‚ñ‚Ó‚¥‚é‚Ì(€”õ), –‚–@w Ô Charge.wav
-‚¢‚ñ‚Ó‚¥‚é‚Ì, ‰Š“ŠŽË Ô Beam.wav
-‚¢‚ñ‚Ó‚¥‚é‚Ì(–½’†), ‰Š Ô
-‚ `‚­‚Ó‚ê‚ (€”õ), –‚–@w Ô Charge.wav
-‚ `‚­‚Ó‚ê‚ , ‚l‚`‚o‰Š Ô
-‚ `‚­‚Ó‚ê‚ (–½’†), ‰Š Ô
-‚¢‚ñ‚µ‚Ë‚ê`‚Æ(€”õ), –‚–@w Ô Charge.wav
-‚¢‚ñ‚µ‚Ë‚ê`‚Æ, ‰Š“ŠŽË Ô Beam.wav
-‚¢‚ñ‚µ‚Ë‚ê`‚Æ(–½’†), ‰Š Ô
-‚ç‚¢‚Æ‚É‚ñ‚®‚Ó‚Ÿ‚¢‚ (€”õ), –‚–@w Ô Charge.wav
-‚ç‚¢‚Æ‚É‚ñ‚®‚Ó‚Ÿ‚¢‚ , “dŒ‚ Beam.wav
-‚ç‚¢‚Æ‚É‚ñ‚®‚Ó‚Ÿ‚¢‚ (–½’†), ”š”­
-‚¢‚®‚É‚Á‚µ‚å‚ñ(€”õ), –‚–@w Ô Charge.wav
-‚¢‚®‚É‚Á‚µ‚å‚ñ, ‘åƒr[ƒ€ Ô Beam.wav
-‚¢‚®‚É‚Á‚µ‚å‚ñ(–½’†), ‰Î’Œ
-‚ ‚Û‚©‚è‚Õ‚·(€”õ), –‚–@w Ô Charge.wav
-‚ ‚Û‚©‚è‚Õ‚·, ”g“®•úŽË ƒŒƒbƒh Beam.wav
-‚ ‚Û‚©‚è‚Õ‚·(–½’†), ‘å—Ž—‹
-‚·‚½`‚¾‚·‚Æ(€”õ), –‚–@w Ô ‘å Charge.wav
-‚·‚½`‚¾‚·‚Æ, è¦Î Storm.wav
-‚·‚½`‚¾‚·‚Æ(–½’†), ’´”š”­
-‚Í‚¢‚Ø‚è‚¨‚ñ‚·‚½[‚¸(€”õ), –‚–@w Ô ‘å Charge.wav
-‚Í‚¢‚Ø‚è‚¨‚ñ‚·‚½[‚¸, ƒtƒFƒCƒXƒAƒbƒv;‰q¯ƒr[ƒ€ ASELIA_OruhaliruTheFlameofRegenerateU.bmp Â
-‚Í‚¢‚Ø‚è‚¨‚ñ‚·‚½[‚¸(–½’†), ’´”š”­
-ƒtƒ@ƒCƒAƒ{ƒ‹ƒg(€”õ), –‚–@w Ô Charge.wav
-ƒtƒ@ƒCƒAƒ{ƒ‹ƒg, ‰Î‰Š’e Ô Beam.wav
-ƒtƒ@ƒCƒAƒ{ƒ‹ƒg(–½’†), ”š”­
-ƒtƒ@ƒCƒAƒ{[ƒ‹(€”õ), –‚–@w Ô Charge.wav
-ƒtƒ@ƒCƒAƒ{[ƒ‹, ‰Î‰Š’e Ô Beam.wav
-ƒtƒ@ƒCƒAƒ{[ƒ‹(–½’†), ”š”­
-ƒtƒŒƒCƒ€ƒŒ[ƒU[(€”õ), –‚–@w Ô Charge.wav
-ƒtƒŒƒCƒ€ƒŒ[ƒU[, ’†ƒr[ƒ€ Ô Beam.wav
-ƒtƒŒƒCƒ€ƒŒ[ƒU[(–½’†), ’†ƒr[ƒ€ Ô;”š”­
-ƒCƒ“ƒtƒFƒ‹ƒm(€”õ), –‚–@w Ô Charge.wav
-ƒCƒ“ƒtƒFƒ‹ƒm, ‰Š“ŠŽË Ô Beam.wav
-ƒCƒ“ƒtƒFƒ‹ƒm(–½’†), ‰Š Ô
-ƒA[ƒNƒtƒŒƒA(€”õ), –‚–@w Ô Charge.wav
-ƒA[ƒNƒtƒŒƒA, ‚l‚`‚o‰Š Ô
-ƒA[ƒNƒtƒŒƒA(–½’†), ‰Š Ô
-ƒCƒ“ƒVƒlƒŒ[ƒg(€”õ), –‚–@w Ô Charge.wav
-ƒCƒ“ƒVƒlƒŒ[ƒg, ‰Š“ŠŽË Ô Beam.wav
-ƒCƒ“ƒVƒlƒŒ[ƒg(–½’†), ‰Š Ô
-ƒ‰ƒCƒgƒjƒ“ƒOƒtƒ@ƒCƒA(€”õ), –‚–@w Ô Charge.wav
-ƒ‰ƒCƒgƒjƒ“ƒOƒtƒ@ƒCƒA, “dŒ‚ Beam.wav
-ƒ‰ƒCƒgƒjƒ“ƒOƒtƒ@ƒCƒA(–½’†), ’†ƒr[ƒ€ Ô;”š”­
-ƒCƒOƒjƒbƒVƒ‡ƒ“(€”õ), –‚–@w Ô Charge.wav
-ƒCƒOƒjƒbƒVƒ‡ƒ“, ‘åƒr[ƒ€ Ô Beam.wav
-ƒCƒOƒjƒbƒVƒ‡ƒ“(–½’†), ‰Î’Œ
-ƒAƒ|ƒJƒŠƒvƒX(€”õ), –‚–@w Ô Charge.wav
-ƒAƒ|ƒJƒŠƒvƒX, ”g“®•úŽË ƒŒƒbƒh Beam.wav
-ƒAƒ|ƒJƒŠƒvƒX(–½’†), ‘å—Ž—‹
-ƒAƒ|ƒJƒŠƒvƒX‡U(€”õ), –‚–@w Ô Charge.wav
-ƒAƒ|ƒJƒŠƒvƒX‡U, ”g“®•úŽË ƒŒƒbƒh Beam.wav
-ƒAƒ|ƒJƒŠƒvƒX‡U(–½’†), ‘å—Ž—‹
-ƒXƒ^[ƒ_ƒXƒg(€”õ), –‚–@w Ô ‘å Charge.wav
-ƒXƒ^[ƒ_ƒXƒg, è¦Î Storm.wav
-ƒXƒ^[ƒ_ƒXƒg(–½’†), ’´”š”­
-ƒXƒBƒ“ƒO, ˜AŽaŒ‚
-ƒ_ƒuƒ‹ƒXƒBƒ“ƒO, ”’•º˜AŒ‚
-ƒgƒŠƒvƒ‹ƒXƒBƒ“ƒO, ”’•º˜AŒ‚
-ƒtƒ@ƒCƒAƒGƒ“ƒ`ƒƒƒ“ƒg(€”õ), –‚–@W’† Ô ¬
-ƒtƒ@ƒCƒAƒGƒ“ƒ`ƒƒƒ“ƒg, ”’•º˜AŒ‚
-# ƒuƒ‰ƒbƒNƒXƒsƒŠƒbƒg
-ƒƒEƒA[ƒŒƒWƒXƒg, ‰Œ ”’ 
-ƒAƒCƒAƒ“ƒƒCƒfƒ“, Î’Œ •
-ƒeƒ‰[, ‰Œ • 
-ƒEƒB[ƒNƒ“, ‰Œ žò
-ƒCƒjƒVƒƒƒ‰ƒCƒY(UŒ‚), ‚l‚`‚o’n•\ÕŒ‚”g ”’
-ƒCƒjƒVƒƒƒ‰ƒCƒY(ƒNƒŠƒeƒBƒJƒ‹), Œõ•¬o ”’
-ƒ}ƒCƒ“ƒhƒuƒŒƒCƒN(€”õ), ‰Š • Charge.wav
-ƒ}ƒCƒ“ƒhƒuƒŒƒCƒN, ’†ƒr[ƒ€ • Beam.wav
-ƒ}ƒCƒ“ƒhƒuƒŒƒCƒN(–½’†), Œõ‹…•úo •
-ƒ_[ƒNƒCƒ“ƒpƒNƒg(€”õ), ‰Š • Charge.wav
-ƒ_[ƒNƒCƒ“ƒpƒNƒg, ’†ƒr[ƒ€ • Beam.wav
-ƒ_[ƒNƒCƒ“ƒpƒNƒg(–½’†), ”š”­
-ƒJƒIƒXƒCƒ“ƒpƒNƒg(€”õ), ‰Š • Charge.wav
-ƒJƒIƒXƒCƒ“ƒpƒNƒg, ’†ƒr[ƒ€ • Beam.wav
-ƒJƒIƒXƒCƒ“ƒpƒNƒg(–½’†), ”š”­
-ƒfƒBƒoƒCƒ“ƒCƒ“ƒpƒNƒg(€”õ), ‰Š • Charge.wav
-ƒfƒBƒoƒCƒ“ƒCƒ“ƒpƒNƒg, ’†ƒr[ƒ€ • Beam.wav
-ƒfƒBƒoƒCƒ“ƒCƒ“ƒpƒNƒg(–½’†), ”š”­
-ƒuƒ‰ƒbƒhƒ‰ƒXƒg, ‰t‘Ì•¬ŽË • 
-ƒTƒNƒŠƒtƒ@ƒCƒX, ‰t‘Ì•¬ŽË • Fold.wav
-ƒJƒEƒ“ƒ^[ƒAƒ^ƒbƒN, “ú–{““ËŒ‚
-‹‡‚Ì‘¾“, “ú–{““ËŒ‚
-‹‡‚Ì‘¾“(–½’†), ŽaŒ‚“ËŒ‚
-‰_ŽU–¶Á‚Ì‘¾“, “ú–{““ËŒ‚
-‰_ŽU–¶Á‚Ì‘¾“(–½’†), ŽaŒ‚—•‘
-ŒŽ—Ö‚Ì‘¾“, “ú–{““ËŒ‚
-ŒŽ—Ö‚Ì‘¾“(–½’†), ŽaŒ‚—•‘
-¯‰Îà™Œ´‚Ì‘¾“, “ú–{““ËŒ‚
-¯‰Îà™Œ´‚Ì‘¾“(–½’†), ŽaŒ‚—•‘
-# ‚»‚Ì‘¼–¡•û
-‰i‰“_Œ•wŽž‰rx, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_TimeComposed.bmp
-‰i‰“_Œ•wŽž‰Êx, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_EndofTime.bmp
-ƒXƒEƒH[ƒhƒ_ƒ“ƒX(UŒ‚), “Š±•Ší Anime\EFFECT_ASELIA_Familiar.bmp 32 ‘¬ Žc‘œ
-ƒXƒEƒH[ƒhƒ_ƒ“ƒX(–½’†), U‚é•Ší“ËŒ‚ Anime\EFFECT_ASELIA_TimeComposed.bmp ŽaŒ‚;U‚èã‚°;U‚è‰º‚ë‚µ;U‚èã‚°;U‚è‰º‚ë‚µ
-ƒ^ƒCƒ€ƒAƒNƒZƒ‰ƒŒƒCƒg(€”õ), ŽžŠÔ
-ƒ^ƒCƒ€ƒAƒNƒZƒ‰ƒŒƒCƒg(UŒ‚), “Š±•Ší Anime\EFFECT_ASELIA_Familiar.bmp 32 ‘¬ Žc‘œ
-ƒ^ƒCƒ€ƒAƒNƒZƒ‰ƒŒƒCƒg(–½’†), U‚é•Ší“ËŒ‚ Anime\EFFECT_ASELIA_TimeComposed.bmp ŽaŒ‚;•ªgŽaŒ‚
-ƒNƒŠƒeƒBƒJƒ‹ƒƒ“(€”õ), ŽžŠÔ
-ƒNƒŠƒeƒBƒJƒ‹ƒƒ“(UŒ‚), “Š±•Ší Anime\EFFECT_ASELIA_Familiar.bmp 32 ‘¬ Žc‘œ
-ƒNƒŠƒeƒBƒJƒ‹ƒƒ“(–½’†), @í“¬ƒAƒjƒ_ƒtƒFƒCƒXƒAƒbƒvUŒ‚;U‚é•Ší“ËŒ‚ Anime\EFFECT_ASELIA_TimeComposed.bmp ŽaŒ‚;•ªgŽaŒ‚;’´ŽaŒ‚
-ƒrƒWƒ‡ƒ“ƒY(Žg—p), ŽžŠÔ ‘ÎÛƒ†ƒjƒbƒg‚h‚c Flair.wav
-ƒrƒWƒ‡ƒ“ƒY(”­“®), ‰ñ•œ–‚–@
-ƒ^ƒCƒ€ƒRƒ“ƒ|[ƒY(Žg—p), ŽžŠÔ ‘ÎÛƒ†ƒjƒbƒg‚h‚c Flair.wav
-ƒ^ƒCƒ€ƒRƒ“ƒ|[ƒY(”­“®), ‰ñ•œ–‚–@
-ƒ^ƒCƒ€ƒVƒtƒg, @í“¬ƒAƒjƒ_U‚é•Ší€”õ Anime\EFFECT_ASELIA_EndofTime.bmp;ŽžŠÔ‹ts;ƒI[ƒ‰ã¸ ”’;@‚r‚oƒAƒjƒ_ŠoÁ ‘ŠŽèƒ†ƒjƒbƒg‚h‚c
-ƒV[ƒ‹ƒh–hŒä(ƒ^ƒCƒ€ƒgƒŠƒbƒvƒtƒ@ƒ“), “Sî
-‰i‰“_Œ•wˆö‰Êx(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Karma.bmp
-ƒQƒCƒ‹, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_Karma.bmp
-ƒ[ƒ‹ƒEƒBƒ“ƒh, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_Karma.bmp
-ƒ[ƒ‹ƒEƒBƒ“ƒh(–½’†), U‚è‰º‚ë‚µ;U‚èã‚°;‘åŽaŒ‚
-ƒgƒ‰ƒXƒP[ƒh, –‚–@w —Î ‘ÎÛƒ†ƒjƒbƒg‚h‚c ”w–Ê;‰Š —Î Charge.wav;–hŒä—Í‚t‚o
-ƒV[ƒ‹ƒh–hŒä(ƒI[ƒ‰ƒtƒHƒgƒ“ƒoƒŠƒA), Œ‹ŠE —Î BeamCoat.wav ƒI[ƒ‰ƒtƒHƒgƒ“ƒoƒŠƒA
-‰i‰“_Œ•w—‘zx, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_Idea.bmp
-‚ÖƒCƒ‹ƒXƒgƒ‰ƒCƒN(UŒ‚), @í“¬ƒAƒjƒ_ƒeƒŒƒ|[ƒg”­“® -.wav " ";U‚èã‚°;U‚èã‚°;U‚èã‚°;‚R‚v‚`‚xŽËo
-‚ÖƒCƒ‹ƒXƒgƒ‰ƒCƒN(–½’†), ƒI[ƒ‹ƒŒƒ“ƒW;ŽaŒ‚;ŽaŒ‚;ŽaŒ‚
-ƒAƒCƒXƒNƒ‰ƒXƒ^[(€”õ), @í“¬ƒAƒjƒ_U‚é•Ší€”õ RingBeam\EFFECT_RingBeam(Green)03.bmp 48 Charge(High).wav
-ƒAƒCƒXƒNƒ‰ƒXƒ^[(UŒ‚), -
-ƒAƒCƒXƒNƒ‰ƒXƒ^[(–½’†), •X‰ò—Ž‰º
-ƒnƒ‹ƒVƒlƒCƒVƒ‡ƒ“(UŒ‚), @í“¬ƒAƒjƒ_ƒeƒŒƒ|[ƒg”­“® -.wav " ";U‚é•Ší“ËŒ‚ Anime\EFFECT_ASELIA_Idea.bmp ŽaŒ‚
-ƒnƒ‹ƒVƒlƒCƒVƒ‡ƒ“(–½’†), U‚é•Ší“ËŒ‚ Anime\EFFECT_ASELIA_Idea.bmp ŽaŒ‚
-ƒp[ƒ`ƒhƒWƒƒƒbƒWƒƒ“ƒg(€”õ), U‚é•Ší RingBeam\EFFECT_RingBeam(Green)03.bmp 48 Charge(High).wav
-ƒp[ƒ`ƒhƒWƒƒƒbƒWƒƒ“ƒg(UŒ‚), -
-ƒp[ƒ`ƒhƒWƒƒƒbƒWƒƒ“ƒg(–½’†), Œõ•¬o ”’ Explode(High).wav
-ƒsƒ…ƒŠƒtƒ@ƒC, –‚–@w ”’ ‘ÎÛƒ†ƒjƒbƒg‚h‚c ”w–Ê;ƒI[ƒ‰ã¸ ”’;‰ñ•œ–‚–@
-ƒiƒ|ƒŠ‚½‚ñƒ‰ƒbƒVƒ…, Ši“¬
-ƒiƒ|ƒŠ‚½‚ñƒ‰ƒbƒVƒ…(–½’†), —‘Å;‹­‘Å
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒr[ƒ€(€”õ), –‚–@w ”’ ”w–Ê;ƒI[ƒ‰ã¸ ”’
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒr[ƒ€, ƒr[ƒ€ ”’
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒr[ƒ€(–½’†), ”š”­
-‚cE‚jE‚a(UŒ‚), “§–¾‰»;‰ñ“]“Š±•Ší ("Unit\" & Info(ƒ†ƒjƒbƒg,‘ÎÛƒ†ƒjƒbƒg‚h‚c,ƒOƒ‰ƒtƒBƒbƒN))
-‚cE‚jE‚a(–½’†), ƒX[ƒp[ƒ^ƒbƒNƒ‹;‘å”š”­
-Œ’‚â‚©‚È‚éù—¥(Žg—p), ‰¹•„
-Œ’‚â‚©‚È‚éù—¥(”­“®), ‰ñ•œ–‚–@
-# “GƒGƒgƒ‰ƒ“ƒWƒF•ƒGƒ^[ƒiƒ‹
-‰i‰“_Œ•w¾‚¢x, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_Oath.bmp
-ƒI[ƒX, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_Oath.bmp
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒŒƒC(€”õ), –‚–@w ”’ ”w–Ê
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒŒƒC, ‘åƒr[ƒ€ ”’
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒŒƒC(–½’†), ‘å”š”­
-‰i‰“_Œ•w¢ŠEx, ƒVƒ~ƒ^[
-ƒ[ƒ‹ƒh, ŽaŒ‚—•‘
-ƒ[ƒ‹ƒh(–½’†), ‘å”š”­
-ƒeƒ“ƒ^ƒNƒ‹ƒXƒEƒH|ƒh, ‚W‚v‚`‚xŽËo
-ƒeƒ“ƒ^ƒNƒ‹ƒXƒEƒH[ƒh(–½’†), ƒI[ƒ‹ƒŒƒ“ƒW;Slash.wav;Slash.wav;Slash.wav;Slash.wav
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒuƒŒƒCƒN(‚l)(€”õ), –‚–@w ”’ ”w–Ê
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒuƒŒƒCƒN(‚l), ’´ƒr[ƒ€ ”’
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒuƒŒƒCƒN(‚l)(–½’†), Œõ•¬o ”’;‘å”š”­
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒuƒŒƒCƒN(€”õ), –‚–@w ”’ ”w–Ê
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒuƒŒƒCƒN, ’´ƒr[ƒ€ ”’
-ƒI[ƒ‰ƒtƒHƒgƒ“ƒuƒŒƒCƒN(–½’†), Œõ•¬o ”’;‘å”š”­
-‰i‰“_Œ•w’˜x(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Order.bmp
-’˜‚Ìñ(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Order.bmp
-’˜‚Ìñ(UŒ‚), ‚U‚v‚`‚xŽËo
-’˜‚Ìñ(–½’†), ƒI[ƒ‹ƒŒƒ“ƒW;Slash.wav;Slash.wav;Slash.wav;Slash.wav
-_X‚Ì“{‚è, –‚–@w —Î Charge.wav
-_X‚Ì“{‚è(–½’†), ‘å—Ž—‹
-UŒ‚–³Œø‰»(’˜), @í“¬ƒAƒjƒ_U‚é•Ší€”õ Anime\EFFECT_ASELIA_Order.bmp;Œ‹ŠE ‰©F
-‰i‰“_Œ•w–³‰äx, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_Selflessness.bmp
-‹óŠÔ’fâ(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_Selflessness.bmp
-‹óŠÔ’fâ(UŒ‚), Œõ‹… • ‘ÎÛƒ†ƒjƒbƒg‚h‚c
-‹óŠÔ’fâ(–½’†), @í“¬ƒAƒjƒ_Œ‹ŠE”­“® ”’ Flair.wav " ";‘åŽaŒ‚;‘å”š”­
-#ŒÀŠE“Ë”j(€”õ), –‚–@w • ‘å Sharara.wav
-#ŒÀŠE“Ë”j, ŽaŒ‚
-#ŒÀŠE“Ë”j(–½’†), ‘å”š”­
-‰i‰“_Œ•w•sòx, •Ú
-•sò, •Ú“ËŒ‚
-‰i‰“_Œ•w‰Š’éx, –‚–@w Ô
-‰Š’é(€”õ), –‚–@w Ô Charge.wav
-‰Š’é, ‰Š’·‹——£
-‰Š’é(–½’†), ‰Š;”š”­
-‰Š’éƒ‚l„(€”õ), –‚–@w Ô Charge.wav
-‰Š’éƒ‚l„, ‚l‚`‚o‰Š‚Ì•Ç
-‰Š’éƒ‚l„(–½’†), ‰Š;˜A‘±”š”­
-‰i‰“_Œ•w—¬“]x, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_Vicissitudes.bmp “ñ“—¬
-“–‚Äg‹Z(w—¬“]x), ƒGƒlƒ‹ƒM[ƒtƒB[ƒ‹ƒh“WŠJ • BeamCoat.wav
-—¬“], U‚é•Ší Anime\EFFECT_ASELIA_Vicissitudes.bmp “ñ“—¬
-—¬“](–½’†), ŽaŒ‚—•‘
-# ƒzƒƒCƒgƒXƒsƒŠƒbƒg
-‰i‰“_Œ•w‰Ðªx, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_RootofEvil.bmp
-ƒGƒŒƒNƒgƒƒ“ƒuƒŒ[ƒh, ŽaŒ‚•Ší Anime\EFFECT_ASELIA_RootofEvil.bmp
-ƒGƒŒƒNƒgƒƒ“ƒuƒŒ[ƒh(–½’†), ŽaŒ‚—•‘
-ƒ‰ƒCƒgƒo[ƒXƒg, ŠgŽUƒr[ƒ€ ”’
-ƒ‰ƒCƒgƒo[ƒXƒg(–½’†), ù•—
-# –å”Ô‚Ì—´
-“ã‚¬•¥‚¤, ‚È‚¬•¥‚¢
-ƒtƒ@ƒCƒAƒuƒŒƒX, ‘åƒr[ƒ€ Ô Beam.wav
-ƒtƒ@ƒCƒAƒuƒŒƒX(–½’†), ”š”­
-ƒAƒCƒXƒuƒŒƒX, ‘åƒr[ƒ€ Â Beam.wav
-ƒAƒCƒXƒuƒŒƒX(–½’†), ”š”­
-ƒ_[ƒNƒuƒŒƒX, ‘åƒr[ƒ€ • Beam.wav
-ƒ_[ƒNƒuƒŒƒX(–½’†), ”š”­
-ƒlƒCƒ`ƒƒ[ƒuƒŒƒX, ‘åƒr[ƒ€ —Î Beam.wav
-ƒlƒCƒ`ƒƒ[ƒuƒŒƒX(–½’†), ”š”­
-ƒtƒHƒgƒ“ƒuƒŒƒX, ‘åƒr[ƒ€ ”’ Beam.wav
-ƒtƒHƒgƒ“ƒuƒŒƒX(–½’†), ’´”š”­
-# ƒXƒs‚½‚ñ—R—ˆ•‘•
-ƒlƒŠ[ƒvƒAƒ^ƒbƒN, ŽaŒ‚
-ƒAƒ‹ƒeƒBƒƒbƒgƒAƒTƒ‹ƒg(UŒ‚), ‹}~‰º
-ƒAƒ‹ƒeƒBƒƒbƒgƒAƒTƒ‹ƒg(–½’†), ‹}~‰º Â Slash.wav;‘å”š”­
-ƒtƒ[ƒYƒ“ƒGƒ“ƒ`ƒƒƒ“ƒg, “€ŽaŒ‚
-ƒXƒvƒŒƒ}ƒV[ƒXƒ‰ƒXƒg(UŒ‚), ‹}~‰º
-ƒXƒvƒŒƒ}ƒV[ƒXƒ‰ƒXƒg(–½’†), ‹}~‰º Â Slash.wav;‘å”š”­
-ƒAƒuƒ\ƒŠƒ…[ƒgƒ[ƒ(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_BlueSpiritSword.bmp
-ƒAƒuƒ\ƒŠƒ…[ƒgƒ[ƒ(UŒ‚), –A‹…
-ƒuƒ‰ƒCƒ“ƒhƒtƒ…[ƒŠ[, ˜AŽaŒ‚
-ƒwƒ”ƒ“ƒYƒXƒEƒH[ƒh‰ü(€”õ), ‰H; ƒI[ƒ‰ã¸ Â
-ƒwƒ”ƒ“ƒYƒXƒEƒH[ƒh‰ü(UŒ‚), ƒtƒFƒCƒXƒAƒbƒv; ŽaŒ‚; ŽaŒ‚; ŽaŒ‚
-ƒwƒ”ƒ“ƒYƒXƒEƒH[ƒh‰ü(–½’†), U‚è‰º‚ë‚µ; U‚èã‚°; ƒNƒŠƒeƒBƒJƒ‹ŽaŒ‚
-ƒGƒNƒXƒeƒ“ƒVƒ‡ƒ“(€”õ), –‚–@w Ô Charge.wav
-ƒGƒNƒXƒeƒ“ƒVƒ‡ƒ“, ‘åƒr[ƒ€ Ô Beam.wav
-ƒGƒNƒXƒeƒ“ƒVƒ‡ƒ“(–½’†), ‰Î’Œ
-ƒtƒ‹ƒXƒBƒ“ƒO, ”’•º˜AŒ‚
-ƒtƒŒƒCƒ€ƒXƒCƒ“ƒO(€”õ), –‚–@W’† Ô ¬
-ƒtƒŒƒCƒ€ƒXƒCƒ“ƒO, ‰ŠŽaŒ‚
-ƒtƒŒƒCƒ€ƒGƒ“ƒ`ƒƒƒ“ƒg(€”õ), –‚–@W’† Ô
-ƒtƒŒƒCƒ€ƒGƒ“ƒ`ƒƒƒ“ƒg, ‚È‚¬•¥‚¢‘å‰ŠŽaŒ‚
-ƒWƒFƒ“ƒgƒ‹ƒXƒg[ƒ€, –‚–@w —Î ‘ÎÛƒ†ƒjƒbƒg‚h‚c ”w–Ê;‰ñ•œ–‚–@
-ŒŒõ(€”õ), U‚é•Ší Anime\EFFECT_ASELIA_GreenSpiritSpear.bmp;“Š±•Ší  Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
-ŒŒõ(UŒ‚), “Š±•Ší Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
-ŒŒõ(–½’†), ”š”­
-ƒI[ƒo[ƒ‰ƒ“, –‚–@w —Î ‘ÎÛƒ†ƒjƒbƒg‚h‚c ”w–Ê;‰Š ”’;UŒ‚—Í‚t‚o
-‹¾‰Ô…ŒŽ‚Ì‘¾“, “ú–{““ËŒ‚
-‹¾‰Ô…ŒŽ‚Ì‘¾“(–½’†), ŽaŒ‚—•‘
-Œõ•—ÖŒŽ‚Ì‘¾“, “ú–{““ËŒ‚
-Œõ•—ÖŒŽ‚Ì‘¾“(–½’†), Œõ‹…
-‰œ‹`EˆêŒ‚•KŽE, “ú–{““ËŒ‚
-‰œ‹`EˆêŒ‚•KŽE(–½’†), ‘åŽaŒ‚
+æ°¸é ç¥žå‰£ã€ŽçŒ®èº«ã€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Dedication.bmp
+æ°¸é ç¥žå‰£ã€Žè–ç·‘ã€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_HolyGreen.bmp
+æ°¸é ç¥žå‰£ã€Žç†å¿µã€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Idea.bmp
+æ°¸é ç¥žå‰£ã€Žå†ç”Ÿã€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Regenerate.bmp
+æ°¸é ç¥žå‰£ã€Žé™å¯‚ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_BlueSpiritSword.bmp
+æ°¸é ç¥žå‰£ã€Žå­¤ç‹¬ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_BlueSpiritSword.bmp
+æ°¸é ç¥žå‰£ã€Žç†±ç—…ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_BlueSpiritSword.bmp
+æ°¸é ç¥žå‰£ã€Žæ¶ˆæ²ˆã€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_RedSpiritDoubleSword.bmp
+æ°¸é ç¥žå‰£ã€Žèµ¤å…‰ã€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_RedSpiritDoubleSword.bmp
+æ°¸é ç¥žå‰£ã€Žå¤§æ¨¹ã€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_GreenSpiritSpear.bmp;æŠ•æ“²æ­¦å™¨  Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
+æ°¸é ç¥žå‰£ã€Žå¤§æ¨¹ã€, æŠ•æ“²æ­¦å™¨ Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
+æ°¸é ç¥žå‰£ã€Žæ›™å…‰ã€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_GreenSpiritSpear.bmp;æŠ•æ“²æ­¦å™¨  Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
+æ°¸é ç¥žå‰£ã€Žæ›™å…‰ã€, æŠ•æ“²æ­¦å™¨ Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
+æ°¸é ç¥žå‰£ã€Žå¤±æœ›ã€, æ—¥æœ¬åˆ€çªæ’ƒ
+æ°¸é ç¥žå‰£ã€Žæœˆå…‰ã€, æ—¥æœ¬åˆ€çªæ’ƒ
+æ°¸é ç¥žå‰£(ãƒ–ãƒ«ãƒ¼ã‚¹ãƒ”ãƒªãƒƒãƒˆ), æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_BlueSpiritSword.bmp
+æ°¸é ç¥žå‰£(ãƒ¬ãƒƒãƒ‰ã‚¹ãƒ”ãƒªãƒƒãƒˆ), æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_RedSpiritDoubleSword.bmp
+æ°¸é ç¥žå‰£(ã‚°ãƒªãƒ¼ãƒ³ã‚¹ãƒ”ãƒªãƒƒãƒˆ)(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_GreenSpiritSpear.bmp;æŠ•æ“²æ­¦å™¨ Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
+æ°¸é ç¥žå‰£(ã‚°ãƒªãƒ¼ãƒ³ã‚¹ãƒ”ãƒªãƒƒãƒˆ), æŠ•æ“²æ­¦å™¨ Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
+æ°¸é ç¥žå‰£(ãƒ–ãƒ©ãƒƒã‚¯ãƒ”ãƒªãƒƒãƒˆ), æ—¥æœ¬åˆ€çªæ’ƒ
+# ãƒ–ãƒ«ãƒ¼ã‚¹ãƒ”ãƒªãƒƒãƒˆ
+é˜»æ­¢(ã‚¢ã‚¤ã‚¹ãƒãƒ‹ãƒƒã‚·ãƒ£ãƒ¼), é­”æ³•é™£ é’
+ã‚¨ãƒ¼ãƒ†ãƒ«ã‚·ãƒ³ã‚¯, é­”æ³•é™£ é’
+ã‚¨ãƒ¼ãƒ†ãƒ«ã‚·ãƒ³ã‚¯(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«), é£›æ²« é’ -.wav;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_çµç•Œç™ºå‹• é’ Glass.wav
+ã‚µã‚¤ãƒ¬ãƒ³ãƒˆãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰(æº–å‚™), é­”æ³•é™£ é’
+ã‚µã‚¤ãƒ¬ãƒ³ãƒˆãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰(æ”»æ’ƒ), ï¼­ï¼¡ï¼°å…‰å™´å‡º é’
+ã‚µã‚¤ãƒ¬ãƒ³ãƒˆãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰(å‘½ä¸­), -
+ã‚µã‚¤ãƒ¬ãƒ³ãƒˆãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«), é£›æ²« é’ -.wav;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_çµç•Œç™ºå‹• é’ Glass.wav
+ãƒªãƒ¼ãƒ—ã‚¢ã‚¿ãƒƒã‚¯, æ–¬æ’ƒ
+ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹ãƒ–ãƒ­ã‚¦, æ–¬æ’ƒ
+ãƒ•ãƒ¥ãƒ¼ãƒªãƒ¼, é€£æ–¬æ’ƒ
+ãƒ˜ãƒ´ãƒ³ã‚ºã‚¹ã‚¦ã‚©ãƒ¼ãƒ‰(æº–å‚™), ç¾½; ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ é’
+ãƒ˜ãƒ´ãƒ³ã‚ºã‚¹ã‚¦ã‚©ãƒ¼ãƒ‰(æ”»æ’ƒ), æ–¬æ’ƒ
+ãƒ˜ãƒ´ãƒ³ã‚ºã‚¹ã‚¦ã‚©ãƒ¼ãƒ‰(å‘½ä¸­), ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ
+é˜»æ­¢(ã‚µã‚¤ãƒ¬ãƒ³ãƒˆãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰â…¡), é­”æ³•é™£ é’
+# ã‚°ãƒªãƒ¼ãƒ³ã‚¹ãƒ”ãƒªãƒƒãƒˆ
+ã‚¹ãƒˆãƒ©ã‚¤ã‚¯, æŠ•ã’æ§
+ãƒ‘ãƒ¯ãƒ¼ã‚¹ãƒˆãƒ©ã‚¤ã‚¯, åˆºçªçªæ’ƒ
+ãƒ‘ãƒ¯ãƒ¼ã‚¹ãƒˆãƒ©ã‚¤ã‚¯(å‘½ä¸­), åˆºçªçªæ’ƒ
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ã‚¹ãƒˆãƒ©ã‚¤ã‚¯, é€£çª
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ã‚¹ãƒˆãƒ©ã‚¤ã‚¯(å‘½ä¸­), é€£çª
+ã‚½ãƒ‹ãƒƒã‚¯ã‚¹ãƒˆãƒ©ã‚¤ã‚¯, ä¹±çª
+ã‚½ãƒ‹ãƒƒã‚¯ã‚¹ãƒˆãƒ©ã‚¤ã‚¯(å‘½ä¸­), ä¹±çª
+ã‚¨ãƒ¬ãƒ¡ãƒ³ã‚¿ãƒ«ãƒ–ãƒ©ã‚¹ãƒˆ(æº–å‚™), é­”æ³•é™£ ç·‘ Charge.wav èƒŒé¢
+ã‚¨ãƒ¬ãƒ¡ãƒ³ã‚¿ãƒ«ãƒ–ãƒ©ã‚¹ãƒˆ(æ”»æ’ƒ), é­”æ³•é›†ä¸­ ç·‘ å¤§
+ã‚¨ãƒ¬ãƒ¡ãƒ³ã‚¿ãƒ«ãƒ–ãƒ©ã‚¹ãƒˆ(å‘½ä¸­), ç‚Ž ç·‘ sharara.wav;çˆ†ç™º
+ã‚¢ãƒ¼ã‚¹ãƒ—ãƒ©ã‚¤ãƒ¤ãƒ¼, é­”æ³•é™£ ç·‘ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ èƒŒé¢;å›žå¾©é­”æ³•
+ãƒãƒ¼ãƒ™ã‚¹ãƒˆ, é­”æ³•é™£ ç·‘ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ èƒŒé¢;å›žå¾©é­”æ³•
+ã‚­ãƒ¥ã‚¢ãƒ¼, é­”æ³•é™£ ç·‘ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ èƒŒé¢;å›žå¾©é­”æ³•
+ã‚¨ãƒ³ã‚¸ã‚§ãƒ«ãƒ—ãƒ©ã‚¤ãƒ¤ãƒ¼(ä½¿ç”¨), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ•ã‚§ã‚¤ã‚¹ã‚¢ãƒƒãƒ—æ”»æ’ƒ;é­”æ³•é™£ ç·‘ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ èƒŒé¢
+ã‚¨ãƒ³ã‚¸ã‚§ãƒ«ãƒ—ãƒ©ã‚¤ãƒ¤ãƒ¼(ç™ºå‹•), å›žå¾©é­”æ³•
+ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‚£ã‚¹ãƒ‘ãƒ¼, é­”æ³•é™£ ç·‘ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ èƒŒé¢;ç‚Ž ç™½;é˜²å¾¡åŠ›ï¼µï¼°
+# ãƒ¬ãƒƒãƒ‰ã‚¹ãƒ”ãƒªãƒƒãƒˆ
+ãµãã„ã‚ã¼ã‚‹ã¨(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ãµãã„ã‚ã¼ã‚‹ã¨, ç«ç‚Žå¼¾ é’ Beam.wav
+ãµãã„ã‚ã¼ã‚‹ã¨(å‘½ä¸­), çˆ†ç™º
+ãµãã„ã‚ã¼ï½žã‚‹(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ãµãã„ã‚ã¼ï½žã‚‹, ç«ç‚Žå¼¾ èµ¤ Beam.wav
+ãµãã„ã‚ã¼ï½žã‚‹(å‘½ä¸­), çˆ†ç™º
+ãµã‚Œã„ã‚€ã‚Œï½žã–ï½ž(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ãµã‚Œã„ã‚€ã‚Œï½žã–ï½ž, ä¸­ãƒ“ãƒ¼ãƒ  èµ¤ Beam.wav
+ãµã‚Œã„ã‚€ã‚Œï½žã–ï½ž(å‘½ä¸­), çˆ†ç™º
+ã„ã‚“ãµã‡ã‚‹ã®(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ã„ã‚“ãµã‡ã‚‹ã®, ç‚ŽæŠ•å°„ èµ¤ Beam.wav
+ã„ã‚“ãµã‡ã‚‹ã®(å‘½ä¸­), ç‚Ž èµ¤
+ã‚ï½žããµã‚Œã‚(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ã‚ï½žããµã‚Œã‚, ï¼­ï¼¡ï¼°ç‚Ž èµ¤
+ã‚ï½žããµã‚Œã‚(å‘½ä¸­), ç‚Ž èµ¤
+ã„ã‚“ã—ã­ã‚Œï½žã¨(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ã„ã‚“ã—ã­ã‚Œï½žã¨, ç‚ŽæŠ•å°„ èµ¤ Beam.wav
+ã„ã‚“ã—ã­ã‚Œï½žã¨(å‘½ä¸­), ç‚Ž èµ¤
+ã‚‰ã„ã¨ã«ã‚“ããµãã„ã‚(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ã‚‰ã„ã¨ã«ã‚“ããµãã„ã‚, é›»æ’ƒ Beam.wav
+ã‚‰ã„ã¨ã«ã‚“ããµãã„ã‚(å‘½ä¸­), çˆ†ç™º
+ã„ãã«ã£ã—ã‚‡ã‚“(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ã„ãã«ã£ã—ã‚‡ã‚“, å¤§ãƒ“ãƒ¼ãƒ  èµ¤ Beam.wav
+ã„ãã«ã£ã—ã‚‡ã‚“(å‘½ä¸­), ç«æŸ±
+ã‚ã½ã‹ã‚Šã·ã™(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ã‚ã½ã‹ã‚Šã·ã™, æ³¢å‹•æ”¾å°„ ãƒ¬ãƒƒãƒ‰ Beam.wav
+ã‚ã½ã‹ã‚Šã·ã™(å‘½ä¸­), å¤§è½é›·
+ã™ãŸï½žã ã™ã¨(æº–å‚™), é­”æ³•é™£ èµ¤ å¤§ Charge.wav
+ã™ãŸï½žã ã™ã¨, éš•çŸ³ Storm.wav
+ã™ãŸï½žã ã™ã¨(å‘½ä¸­), è¶…çˆ†ç™º
+ã¯ã„ãºã‚ŠãŠã‚“ã™ãŸãƒ¼ãš(æº–å‚™), é­”æ³•é™£ èµ¤ å¤§ Charge.wav
+ã¯ã„ãºã‚ŠãŠã‚“ã™ãŸãƒ¼ãš, ãƒ•ã‚§ã‚¤ã‚¹ã‚¢ãƒƒãƒ—;è¡›æ˜Ÿãƒ“ãƒ¼ãƒ  ASELIA_OruhaliruTheFlameofRegenerateU.bmp é’
+ã¯ã„ãºã‚ŠãŠã‚“ã™ãŸãƒ¼ãš(å‘½ä¸­), è¶…çˆ†ç™º
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ«ãƒˆ(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ«ãƒˆ, ç«ç‚Žå¼¾ èµ¤ Beam.wav
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ«ãƒˆ(å‘½ä¸­), çˆ†ç™º
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«, ç«ç‚Žå¼¾ èµ¤ Beam.wav
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒœãƒ¼ãƒ«(å‘½ä¸­), çˆ†ç™º
+ãƒ•ãƒ¬ã‚¤ãƒ ãƒ¬ãƒ¼ã‚¶ãƒ¼(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ãƒ•ãƒ¬ã‚¤ãƒ ãƒ¬ãƒ¼ã‚¶ãƒ¼, ä¸­ãƒ“ãƒ¼ãƒ  èµ¤ Beam.wav
+ãƒ•ãƒ¬ã‚¤ãƒ ãƒ¬ãƒ¼ã‚¶ãƒ¼(å‘½ä¸­), ä¸­ãƒ“ãƒ¼ãƒ  èµ¤;çˆ†ç™º
+ã‚¤ãƒ³ãƒ•ã‚§ãƒ«ãƒŽ(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ã‚¤ãƒ³ãƒ•ã‚§ãƒ«ãƒŽ, ç‚ŽæŠ•å°„ èµ¤ Beam.wav
+ã‚¤ãƒ³ãƒ•ã‚§ãƒ«ãƒŽ(å‘½ä¸­), ç‚Ž èµ¤
+ã‚¢ãƒ¼ã‚¯ãƒ•ãƒ¬ã‚¢(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ã‚¢ãƒ¼ã‚¯ãƒ•ãƒ¬ã‚¢, ï¼­ï¼¡ï¼°ç‚Ž èµ¤
+ã‚¢ãƒ¼ã‚¯ãƒ•ãƒ¬ã‚¢(å‘½ä¸­), ç‚Ž èµ¤
+ã‚¤ãƒ³ã‚·ãƒãƒ¬ãƒ¼ãƒˆ(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ã‚¤ãƒ³ã‚·ãƒãƒ¬ãƒ¼ãƒˆ, ç‚ŽæŠ•å°„ èµ¤ Beam.wav
+ã‚¤ãƒ³ã‚·ãƒãƒ¬ãƒ¼ãƒˆ(å‘½ä¸­), ç‚Ž èµ¤
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒ•ã‚¡ã‚¤ã‚¢(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒ•ã‚¡ã‚¤ã‚¢, é›»æ’ƒ Beam.wav
+ãƒ©ã‚¤ãƒˆãƒ‹ãƒ³ã‚°ãƒ•ã‚¡ã‚¤ã‚¢(å‘½ä¸­), ä¸­ãƒ“ãƒ¼ãƒ  èµ¤;çˆ†ç™º
+ã‚¤ã‚°ãƒ‹ãƒƒã‚·ãƒ§ãƒ³(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ã‚¤ã‚°ãƒ‹ãƒƒã‚·ãƒ§ãƒ³, å¤§ãƒ“ãƒ¼ãƒ  èµ¤ Beam.wav
+ã‚¤ã‚°ãƒ‹ãƒƒã‚·ãƒ§ãƒ³(å‘½ä¸­), ç«æŸ±
+ã‚¢ãƒã‚«ãƒªãƒ—ã‚¹(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ã‚¢ãƒã‚«ãƒªãƒ—ã‚¹, æ³¢å‹•æ”¾å°„ ãƒ¬ãƒƒãƒ‰ Beam.wav
+ã‚¢ãƒã‚«ãƒªãƒ—ã‚¹(å‘½ä¸­), å¤§è½é›·
+ã‚¢ãƒã‚«ãƒªãƒ—ã‚¹â…¡(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ã‚¢ãƒã‚«ãƒªãƒ—ã‚¹â…¡, æ³¢å‹•æ”¾å°„ ãƒ¬ãƒƒãƒ‰ Beam.wav
+ã‚¢ãƒã‚«ãƒªãƒ—ã‚¹â…¡(å‘½ä¸­), å¤§è½é›·
+ã‚¹ã‚¿ãƒ¼ãƒ€ã‚¹ãƒˆ(æº–å‚™), é­”æ³•é™£ èµ¤ å¤§ Charge.wav
+ã‚¹ã‚¿ãƒ¼ãƒ€ã‚¹ãƒˆ, éš•çŸ³ Storm.wav
+ã‚¹ã‚¿ãƒ¼ãƒ€ã‚¹ãƒˆ(å‘½ä¸­), è¶…çˆ†ç™º
+ã‚¹ã‚£ãƒ³ã‚°, é€£æ–¬æ’ƒ
+ãƒ€ãƒ–ãƒ«ã‚¹ã‚£ãƒ³ã‚°, ç™½å…µé€£æ’ƒ
+ãƒˆãƒªãƒ—ãƒ«ã‚¹ã‚£ãƒ³ã‚°, ç™½å…µé€£æ’ƒ
+ãƒ•ã‚¡ã‚¤ã‚¢ã‚¨ãƒ³ãƒãƒ£ãƒ³ãƒˆ(æº–å‚™), é­”æ³•é›†ä¸­ èµ¤ å°
+ãƒ•ã‚¡ã‚¤ã‚¢ã‚¨ãƒ³ãƒãƒ£ãƒ³ãƒˆ, ç™½å…µé€£æ’ƒ
+# ãƒ–ãƒ©ãƒƒã‚¯ã‚¹ãƒ”ãƒªãƒƒãƒˆ
+ãƒ­ã‚¦ã‚¢ãƒ¼ãƒ¬ã‚¸ã‚¹ãƒˆ, ç…™ ç™½ 
+ã‚¢ã‚¤ã‚¢ãƒ³ãƒ¡ã‚¤ãƒ‡ãƒ³, çŸ³æŸ± é»’
+ãƒ†ãƒ©ãƒ¼, ç…™ é»’ 
+ã‚¦ã‚£ãƒ¼ã‚¯ãƒ³, ç…™ æ©™
+ã‚¤ãƒ‹ã‚·ãƒ£ãƒ©ã‚¤ã‚º(æ”»æ’ƒ), ï¼­ï¼¡ï¼°åœ°è¡¨è¡æ’ƒæ³¢ ç™½
+ã‚¤ãƒ‹ã‚·ãƒ£ãƒ©ã‚¤ã‚º(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«), å…‰å™´å‡º ç™½
+ãƒžã‚¤ãƒ³ãƒ‰ãƒ–ãƒ¬ã‚¤ã‚¯(æº–å‚™), ç‚Ž é»’ Charge.wav
+ãƒžã‚¤ãƒ³ãƒ‰ãƒ–ãƒ¬ã‚¤ã‚¯, ä¸­ãƒ“ãƒ¼ãƒ  é»’ Beam.wav
+ãƒžã‚¤ãƒ³ãƒ‰ãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), å…‰çƒæ”¾å‡º é»’
+ãƒ€ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆ(æº–å‚™), ç‚Ž é»’ Charge.wav
+ãƒ€ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆ, ä¸­ãƒ“ãƒ¼ãƒ  é»’ Beam.wav
+ãƒ€ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆ(å‘½ä¸­), çˆ†ç™º
+ã‚«ã‚ªã‚¹ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆ(æº–å‚™), ç‚Ž é»’ Charge.wav
+ã‚«ã‚ªã‚¹ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆ, ä¸­ãƒ“ãƒ¼ãƒ  é»’ Beam.wav
+ã‚«ã‚ªã‚¹ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆ(å‘½ä¸­), çˆ†ç™º
+ãƒ‡ã‚£ãƒã‚¤ãƒ³ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆ(æº–å‚™), ç‚Ž é»’ Charge.wav
+ãƒ‡ã‚£ãƒã‚¤ãƒ³ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆ, ä¸­ãƒ“ãƒ¼ãƒ  é»’ Beam.wav
+ãƒ‡ã‚£ãƒã‚¤ãƒ³ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆ(å‘½ä¸­), çˆ†ç™º
+ãƒ–ãƒ©ãƒƒãƒ‰ãƒ©ã‚¹ãƒˆ, æ¶²ä½“å™´å°„ é»’ 
+ã‚µã‚¯ãƒªãƒ•ã‚¡ã‚¤ã‚¹, æ¶²ä½“å™´å°„ é»’ Fold.wav
+ã‚«ã‚¦ãƒ³ã‚¿ãƒ¼ã‚¢ã‚¿ãƒƒã‚¯, æ—¥æœ¬åˆ€çªæ’ƒ
+å±…åˆã®å¤ªåˆ€, æ—¥æœ¬åˆ€çªæ’ƒ
+å±…åˆã®å¤ªåˆ€(å‘½ä¸­), æ–¬æ’ƒçªæ’ƒ
+é›²æ•£éœ§æ¶ˆã®å¤ªåˆ€, æ—¥æœ¬åˆ€çªæ’ƒ
+é›²æ•£éœ§æ¶ˆã®å¤ªåˆ€(å‘½ä¸­), æ–¬æ’ƒä¹±èˆž
+æœˆè¼ªã®å¤ªåˆ€, æ—¥æœ¬åˆ€çªæ’ƒ
+æœˆè¼ªã®å¤ªåˆ€(å‘½ä¸­), æ–¬æ’ƒä¹±èˆž
+æ˜Ÿç«ç‡ŽåŽŸã®å¤ªåˆ€, æ—¥æœ¬åˆ€çªæ’ƒ
+æ˜Ÿç«ç‡ŽåŽŸã®å¤ªåˆ€(å‘½ä¸­), æ–¬æ’ƒä¹±èˆž
+# ãã®ä»–å‘³æ–¹
+æ°¸é ç¥žå‰£ã€Žæ™‚è© ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_TimeComposed.bmp
+æ°¸é ç¥žå‰£ã€Žæ™‚æžœã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_EndofTime.bmp
+ã‚¹ã‚¦ã‚©ãƒ¼ãƒ‰ãƒ€ãƒ³ã‚¹(æ”»æ’ƒ), æŠ•æ“²æ­¦å™¨ Anime\EFFECT_ASELIA_Familiar.bmp 32 é€Ÿ æ®‹åƒ
+ã‚¹ã‚¦ã‚©ãƒ¼ãƒ‰ãƒ€ãƒ³ã‚¹(å‘½ä¸­), æŒ¯ã‚‹æ­¦å™¨çªæ’ƒ Anime\EFFECT_ASELIA_TimeComposed.bmp æ–¬æ’ƒ;æŒ¯ã‚Šä¸Šã’;æŒ¯ã‚Šä¸‹ã‚ã—;æŒ¯ã‚Šä¸Šã’;æŒ¯ã‚Šä¸‹ã‚ã—
+ã‚¿ã‚¤ãƒ ã‚¢ã‚¯ã‚»ãƒ©ãƒ¬ã‚¤ãƒˆ(æº–å‚™), æ™‚é–“
+ã‚¿ã‚¤ãƒ ã‚¢ã‚¯ã‚»ãƒ©ãƒ¬ã‚¤ãƒˆ(æ”»æ’ƒ), æŠ•æ“²æ­¦å™¨ Anime\EFFECT_ASELIA_Familiar.bmp 32 é€Ÿ æ®‹åƒ
+ã‚¿ã‚¤ãƒ ã‚¢ã‚¯ã‚»ãƒ©ãƒ¬ã‚¤ãƒˆ(å‘½ä¸­), æŒ¯ã‚‹æ­¦å™¨çªæ’ƒ Anime\EFFECT_ASELIA_TimeComposed.bmp æ–¬æ’ƒ;åˆ†èº«æ–¬æ’ƒ
+ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ãƒ¯ãƒ³(æº–å‚™), æ™‚é–“
+ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ãƒ¯ãƒ³(æ”»æ’ƒ), æŠ•æ“²æ­¦å™¨ Anime\EFFECT_ASELIA_Familiar.bmp 32 é€Ÿ æ®‹åƒ
+ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ãƒ¯ãƒ³(å‘½ä¸­), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ•ã‚§ã‚¤ã‚¹ã‚¢ãƒƒãƒ—æ”»æ’ƒ;æŒ¯ã‚‹æ­¦å™¨çªæ’ƒ Anime\EFFECT_ASELIA_TimeComposed.bmp æ–¬æ’ƒ;åˆ†èº«æ–¬æ’ƒ;è¶…æ–¬æ’ƒ
+ãƒ“ã‚¸ãƒ§ãƒ³ã‚º(ä½¿ç”¨), æ™‚é–“ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ Flair.wav
+ãƒ“ã‚¸ãƒ§ãƒ³ã‚º(ç™ºå‹•), å›žå¾©é­”æ³•
+ã‚¿ã‚¤ãƒ ã‚³ãƒ³ãƒãƒ¼ã‚º(ä½¿ç”¨), æ™‚é–“ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ Flair.wav
+ã‚¿ã‚¤ãƒ ã‚³ãƒ³ãƒãƒ¼ã‚º(ç™ºå‹•), å›žå¾©é­”æ³•
+ã‚¿ã‚¤ãƒ ã‚·ãƒ•ãƒˆ, @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚‹æ­¦å™¨æº–å‚™ Anime\EFFECT_ASELIA_EndofTime.bmp;æ™‚é–“é€†è¡Œ;ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½;@ï¼³ï¼°ã‚¢ãƒ‹ãƒ¡_è¦šé†’ ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡(ã‚¿ã‚¤ãƒ ãƒˆãƒªãƒƒãƒ—ãƒ•ã‚¡ãƒ³), é‰„æ‰‡
+æ°¸é ç¥žå‰£ã€Žå› æžœã€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Karma.bmp
+ã‚²ã‚¤ãƒ«, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_Karma.bmp
+ãƒ¯ãƒ¼ãƒ«ã‚¦ã‚£ãƒ³ãƒ‰, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_Karma.bmp
+ãƒ¯ãƒ¼ãƒ«ã‚¦ã‚£ãƒ³ãƒ‰(å‘½ä¸­), æŒ¯ã‚Šä¸‹ã‚ã—;æŒ¯ã‚Šä¸Šã’;å¤§æ–¬æ’ƒ
+ãƒˆãƒ©ã‚¹ã‚±ãƒ¼ãƒ‰, é­”æ³•é™£ ç·‘ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ èƒŒé¢;ç‚Ž ç·‘ Charge.wav;é˜²å¾¡åŠ›ï¼µï¼°
+ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡(ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒãƒªã‚¢), çµç•Œ ç·‘ BeamCoat.wav ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒãƒªã‚¢
+æ°¸é ç¥žå‰£ã€Žç†æƒ³ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_Idea.bmp
+ã¸ã‚¤ãƒ«ã‚¹ãƒˆãƒ©ã‚¤ã‚¯(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ†ãƒ¬ãƒãƒ¼ãƒˆç™ºå‹• -.wav " ";æŒ¯ã‚Šä¸Šã’;æŒ¯ã‚Šä¸Šã’;æŒ¯ã‚Šä¸Šã’;ï¼“ï¼·ï¼¡ï¼¹å°„å‡º
+ã¸ã‚¤ãƒ«ã‚¹ãƒˆãƒ©ã‚¤ã‚¯(å‘½ä¸­), ã‚ªãƒ¼ãƒ«ãƒ¬ãƒ³ã‚¸;æ–¬æ’ƒ;æ–¬æ’ƒ;æ–¬æ’ƒ
+ã‚¢ã‚¤ã‚¹ã‚¯ãƒ©ã‚¹ã‚¿ãƒ¼(æº–å‚™), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚‹æ­¦å™¨æº–å‚™ RingBeam\EFFECT_RingBeam(Green)03.bmp 48 Charge(High).wav
+ã‚¢ã‚¤ã‚¹ã‚¯ãƒ©ã‚¹ã‚¿ãƒ¼(æ”»æ’ƒ), -
+ã‚¢ã‚¤ã‚¹ã‚¯ãƒ©ã‚¹ã‚¿ãƒ¼(å‘½ä¸­), æ°·å¡Šè½ä¸‹
+ãƒãƒ«ã‚·ãƒã‚¤ã‚·ãƒ§ãƒ³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ†ãƒ¬ãƒãƒ¼ãƒˆç™ºå‹• -.wav " ";æŒ¯ã‚‹æ­¦å™¨çªæ’ƒ Anime\EFFECT_ASELIA_Idea.bmp æ–¬æ’ƒ
+ãƒãƒ«ã‚·ãƒã‚¤ã‚·ãƒ§ãƒ³(å‘½ä¸­), æŒ¯ã‚‹æ­¦å™¨çªæ’ƒ Anime\EFFECT_ASELIA_Idea.bmp æ–¬æ’ƒ
+ãƒ‘ãƒ¼ãƒãƒ‰ã‚¸ãƒ£ãƒƒã‚¸ãƒ¡ãƒ³ãƒˆ(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ RingBeam\EFFECT_RingBeam(Green)03.bmp 48 Charge(High).wav
+ãƒ‘ãƒ¼ãƒãƒ‰ã‚¸ãƒ£ãƒƒã‚¸ãƒ¡ãƒ³ãƒˆ(æ”»æ’ƒ), -
+ãƒ‘ãƒ¼ãƒãƒ‰ã‚¸ãƒ£ãƒƒã‚¸ãƒ¡ãƒ³ãƒˆ(å‘½ä¸­), å…‰å™´å‡º ç™½ Explode(High).wav
+ãƒ”ãƒ¥ãƒªãƒ•ã‚¡ã‚¤, é­”æ³•é™£ ç™½ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ èƒŒé¢;ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½;å›žå¾©é­”æ³•
+ãƒŠãƒãƒªãŸã‚“ãƒ©ãƒƒã‚·ãƒ¥, æ ¼é—˜
+ãƒŠãƒãƒªãŸã‚“ãƒ©ãƒƒã‚·ãƒ¥(å‘½ä¸­), ä¹±æ‰“;å¼·æ‰“
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ“ãƒ¼ãƒ (æº–å‚™), é­”æ³•é™£ ç™½ èƒŒé¢;ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ ç™½
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ“ãƒ¼ãƒ , ãƒ“ãƒ¼ãƒ  ç™½
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ“ãƒ¼ãƒ (å‘½ä¸­), çˆ†ç™º
+ï¼¤ãƒ»ï¼«ãƒ»ï¼¢(æ”»æ’ƒ), é€æ˜ŽåŒ–;å›žè»¢æŠ•æ“²æ­¦å™¨ ("Unit\" & Info(ãƒ¦ãƒ‹ãƒƒãƒˆ,å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯))
+ï¼¤ãƒ»ï¼«ãƒ»ï¼¢(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ«;å¤§çˆ†ç™º
+å¥ã‚„ã‹ãªã‚‹æ—‹å¾‹(ä½¿ç”¨), éŸ³ç¬¦
+å¥ã‚„ã‹ãªã‚‹æ—‹å¾‹(ç™ºå‹•), å›žå¾©é­”æ³•
+# æ•µã‚¨ãƒˆãƒ©ãƒ³ã‚¸ã‚§ï¼†ã‚¨ã‚¿ãƒ¼ãƒŠãƒ«
+æ°¸é ç¥žå‰£ã€Žèª“ã„ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_Oath.bmp
+ã‚ªãƒ¼ã‚¹, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_Oath.bmp
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ¬ã‚¤(æº–å‚™), é­”æ³•é™£ ç™½ èƒŒé¢
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ¬ã‚¤, å¤§ãƒ“ãƒ¼ãƒ  ç™½
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ¬ã‚¤(å‘½ä¸­), å¤§çˆ†ç™º
+æ°¸é ç¥žå‰£ã€Žä¸–ç•Œã€, ã‚·ãƒŸã‚¿ãƒ¼
+ãƒ¯ãƒ¼ãƒ«ãƒ‰, æ–¬æ’ƒä¹±èˆž
+ãƒ¯ãƒ¼ãƒ«ãƒ‰(å‘½ä¸­), å¤§çˆ†ç™º
+ãƒ†ãƒ³ã‚¿ã‚¯ãƒ«ã‚¹ã‚¦ã‚©ï¼ãƒ‰, ï¼˜ï¼·ï¼¡ï¼¹å°„å‡º
+ãƒ†ãƒ³ã‚¿ã‚¯ãƒ«ã‚¹ã‚¦ã‚©ãƒ¼ãƒ‰(å‘½ä¸­), ã‚ªãƒ¼ãƒ«ãƒ¬ãƒ³ã‚¸;Slash.wav;Slash.wav;Slash.wav;Slash.wav
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ–ãƒ¬ã‚¤ã‚¯(ï¼­)(æº–å‚™), é­”æ³•é™£ ç™½ èƒŒé¢
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ–ãƒ¬ã‚¤ã‚¯(ï¼­), è¶…ãƒ“ãƒ¼ãƒ  ç™½
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ–ãƒ¬ã‚¤ã‚¯(ï¼­)(å‘½ä¸­), å…‰å™´å‡º ç™½;å¤§çˆ†ç™º
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ–ãƒ¬ã‚¤ã‚¯(æº–å‚™), é­”æ³•é™£ ç™½ èƒŒé¢
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ–ãƒ¬ã‚¤ã‚¯, è¶…ãƒ“ãƒ¼ãƒ  ç™½
+ã‚ªãƒ¼ãƒ©ãƒ•ã‚©ãƒˆãƒ³ãƒ–ãƒ¬ã‚¤ã‚¯(å‘½ä¸­), å…‰å™´å‡º ç™½;å¤§çˆ†ç™º
+æ°¸é ç¥žå‰£ã€Žç§©åºã€(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Order.bmp
+ç§©åºã®æ–(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Order.bmp
+ç§©åºã®æ–(æ”»æ’ƒ), ï¼–ï¼·ï¼¡ï¼¹å°„å‡º
+ç§©åºã®æ–(å‘½ä¸­), ã‚ªãƒ¼ãƒ«ãƒ¬ãƒ³ã‚¸;Slash.wav;Slash.wav;Slash.wav;Slash.wav
+ç¥žã€…ã®æ€’ã‚Š, é­”æ³•é™£ ç·‘ Charge.wav
+ç¥žã€…ã®æ€’ã‚Š(å‘½ä¸­), å¤§è½é›·
+æ”»æ’ƒç„¡åŠ¹åŒ–(ç§©åº), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚‹æ­¦å™¨æº–å‚™ Anime\EFFECT_ASELIA_Order.bmp;çµç•Œ é»„è‰²
+æ°¸é ç¥žå‰£ã€Žç„¡æˆ‘ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_Selflessness.bmp
+ç©ºé–“æ–­çµ¶(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Selflessness.bmp
+ç©ºé–“æ–­çµ¶(æ”»æ’ƒ), å…‰çƒ é»’ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+ç©ºé–“æ–­çµ¶(å‘½ä¸­), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_çµç•Œç™ºå‹• ç™½ Flair.wav " ";å¤§æ–¬æ’ƒ;å¤§çˆ†ç™º
+#é™ç•Œçªç ´(æº–å‚™), é­”æ³•é™£ é»’ å¤§ Sharara.wav
+#é™ç•Œçªç ´, æ–¬æ’ƒ
+#é™ç•Œçªç ´(å‘½ä¸­), å¤§çˆ†ç™º
+æ°¸é ç¥žå‰£ã€Žä¸æµ„ã€, éž­
+ä¸æµ„, éž­çªæ’ƒ
+æ°¸é ç¥žå‰£ã€Žç‚Žå¸ã€, é­”æ³•é™£ èµ¤
+ç‚Žå¸(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ç‚Žå¸, ç‚Žé•·è·é›¢
+ç‚Žå¸(å‘½ä¸­), ç‚Ž;çˆ†ç™º
+ç‚Žå¸ï¼œï¼­ï¼ž(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ç‚Žå¸ï¼œï¼­ï¼ž, ï¼­ï¼¡ï¼°ç‚Žã®å£
+ç‚Žå¸ï¼œï¼­ï¼ž(å‘½ä¸­), ç‚Ž;é€£ç¶šçˆ†ç™º
+æ°¸é ç¥žå‰£ã€Žæµè»¢ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_Vicissitudes.bmp äºŒåˆ€æµ
+å½“ã¦èº«æŠ€(ã€Žæµè»¢ã€), ã‚¨ãƒãƒ«ã‚®ãƒ¼ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰å±•é–‹ é»’ BeamCoat.wav
+æµè»¢, æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_Vicissitudes.bmp äºŒåˆ€æµ
+æµè»¢(å‘½ä¸­), æ–¬æ’ƒä¹±èˆž
+# ãƒ›ãƒ¯ã‚¤ãƒˆã‚¹ãƒ”ãƒªãƒƒãƒˆ
+æ°¸é ç¥žå‰£ã€Žç¦æ ¹ã€, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_RootofEvil.bmp
+ã‚¨ãƒ¬ã‚¯ãƒˆãƒ­ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰, æ–¬æ’ƒæ­¦å™¨ Anime\EFFECT_ASELIA_RootofEvil.bmp
+ã‚¨ãƒ¬ã‚¯ãƒˆãƒ­ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(å‘½ä¸­), æ–¬æ’ƒä¹±èˆž
+ãƒ©ã‚¤ãƒˆãƒãƒ¼ã‚¹ãƒˆ, æ‹¡æ•£ãƒ“ãƒ¼ãƒ  ç™½
+ãƒ©ã‚¤ãƒˆãƒãƒ¼ã‚¹ãƒˆ(å‘½ä¸­), æ—‹é¢¨
+# é–€ç•ªã®é¾
+è–™ãŽæ‰•ã†, ãªãŽæ‰•ã„
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒ–ãƒ¬ã‚¹, å¤§ãƒ“ãƒ¼ãƒ  èµ¤ Beam.wav
+ãƒ•ã‚¡ã‚¤ã‚¢ãƒ–ãƒ¬ã‚¹(å‘½ä¸­), çˆ†ç™º
+ã‚¢ã‚¤ã‚¹ãƒ–ãƒ¬ã‚¹, å¤§ãƒ“ãƒ¼ãƒ  é’ Beam.wav
+ã‚¢ã‚¤ã‚¹ãƒ–ãƒ¬ã‚¹(å‘½ä¸­), çˆ†ç™º
+ãƒ€ãƒ¼ã‚¯ãƒ–ãƒ¬ã‚¹, å¤§ãƒ“ãƒ¼ãƒ  é»’ Beam.wav
+ãƒ€ãƒ¼ã‚¯ãƒ–ãƒ¬ã‚¹(å‘½ä¸­), çˆ†ç™º
+ãƒã‚¤ãƒãƒ£ãƒ¼ãƒ–ãƒ¬ã‚¹, å¤§ãƒ“ãƒ¼ãƒ  ç·‘ Beam.wav
+ãƒã‚¤ãƒãƒ£ãƒ¼ãƒ–ãƒ¬ã‚¹(å‘½ä¸­), çˆ†ç™º
+ãƒ•ã‚©ãƒˆãƒ³ãƒ–ãƒ¬ã‚¹, å¤§ãƒ“ãƒ¼ãƒ  ç™½ Beam.wav
+ãƒ•ã‚©ãƒˆãƒ³ãƒ–ãƒ¬ã‚¹(å‘½ä¸­), è¶…çˆ†ç™º
+# ã‚¹ãƒ”ãŸã‚“ç”±æ¥æ­¦è£…
+ãƒãƒªãƒ¼ãƒ—ã‚¢ã‚¿ãƒƒã‚¯, æ–¬æ’ƒ
+ã‚¢ãƒ«ãƒ†ã‚£ãƒ¡ãƒƒãƒˆã‚¢ã‚µãƒ«ãƒˆ(æ”»æ’ƒ), æ€¥é™ä¸‹
+ã‚¢ãƒ«ãƒ†ã‚£ãƒ¡ãƒƒãƒˆã‚¢ã‚µãƒ«ãƒˆ(å‘½ä¸­), æ€¥é™ä¸‹ é’ Slash.wav;å¤§çˆ†ç™º
+ãƒ•ãƒ­ãƒ¼ã‚ºãƒ³ã‚¨ãƒ³ãƒãƒ£ãƒ³ãƒˆ, å‡æ–¬æ’ƒ
+ã‚¹ãƒ—ãƒ¬ãƒžã‚·ãƒ¼ã‚¹ãƒ©ã‚¹ãƒˆ(æ”»æ’ƒ), æ€¥é™ä¸‹
+ã‚¹ãƒ—ãƒ¬ãƒžã‚·ãƒ¼ã‚¹ãƒ©ã‚¹ãƒˆ(å‘½ä¸­), æ€¥é™ä¸‹ é’ Slash.wav;å¤§çˆ†ç™º
+ã‚¢ãƒ–ã‚½ãƒªãƒ¥ãƒ¼ãƒˆã‚¼ãƒ­(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_BlueSpiritSword.bmp
+ã‚¢ãƒ–ã‚½ãƒªãƒ¥ãƒ¼ãƒˆã‚¼ãƒ­(æ”»æ’ƒ), æ³¡çƒ
+ãƒ–ãƒ©ã‚¤ãƒ³ãƒ‰ãƒ•ãƒ¥ãƒ¼ãƒªãƒ¼, é€£æ–¬æ’ƒ
+ãƒ˜ãƒ´ãƒ³ã‚ºã‚¹ã‚¦ã‚©ãƒ¼ãƒ‰æ”¹(æº–å‚™), ç¾½; ã‚ªãƒ¼ãƒ©ä¸Šæ˜‡ é’
+ãƒ˜ãƒ´ãƒ³ã‚ºã‚¹ã‚¦ã‚©ãƒ¼ãƒ‰æ”¹(æ”»æ’ƒ), ãƒ•ã‚§ã‚¤ã‚¹ã‚¢ãƒƒãƒ—; æ–¬æ’ƒ; æ–¬æ’ƒ; æ–¬æ’ƒ
+ãƒ˜ãƒ´ãƒ³ã‚ºã‚¹ã‚¦ã‚©ãƒ¼ãƒ‰æ”¹(å‘½ä¸­), æŒ¯ã‚Šä¸‹ã‚ã—; æŒ¯ã‚Šä¸Šã’; ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æ–¬æ’ƒ
+ã‚¨ã‚¯ã‚¹ãƒ†ãƒ³ã‚·ãƒ§ãƒ³(æº–å‚™), é­”æ³•é™£ èµ¤ Charge.wav
+ã‚¨ã‚¯ã‚¹ãƒ†ãƒ³ã‚·ãƒ§ãƒ³, å¤§ãƒ“ãƒ¼ãƒ  èµ¤ Beam.wav
+ã‚¨ã‚¯ã‚¹ãƒ†ãƒ³ã‚·ãƒ§ãƒ³(å‘½ä¸­), ç«æŸ±
+ãƒ•ãƒ«ã‚¹ã‚£ãƒ³ã‚°, ç™½å…µé€£æ’ƒ
+ãƒ•ãƒ¬ã‚¤ãƒ ã‚¹ã‚¤ãƒ³ã‚°(æº–å‚™), é­”æ³•é›†ä¸­ èµ¤ å°
+ãƒ•ãƒ¬ã‚¤ãƒ ã‚¹ã‚¤ãƒ³ã‚°, ç‚Žæ–¬æ’ƒ
+ãƒ•ãƒ¬ã‚¤ãƒ ã‚¨ãƒ³ãƒãƒ£ãƒ³ãƒˆ(æº–å‚™), é­”æ³•é›†ä¸­ èµ¤
+ãƒ•ãƒ¬ã‚¤ãƒ ã‚¨ãƒ³ãƒãƒ£ãƒ³ãƒˆ, ãªãŽæ‰•ã„å¤§ç‚Žæ–¬æ’ƒ
+ã‚¸ã‚§ãƒ³ãƒˆãƒ«ã‚¹ãƒˆãƒ¼ãƒ , é­”æ³•é™£ ç·‘ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ èƒŒé¢;å›žå¾©é­”æ³•
+æ›™å…‰(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Anime\EFFECT_ASELIA_GreenSpiritSpear.bmp;æŠ•æ“²æ­¦å™¨  Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
+æ›™å…‰(æ”»æ’ƒ), æŠ•æ“²æ­¦å™¨ Anime\EFFECT_ASELIA_GreenSpiritSpear(Throw).bmp
+æ›™å…‰(å‘½ä¸­), çˆ†ç™º
+ã‚ªãƒ¼ãƒãƒ¼ãƒ©ãƒ³, é­”æ³•é™£ ç·‘ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ èƒŒé¢;ç‚Ž ç™½;æ”»æ’ƒåŠ›ï¼µï¼°
+é¡èŠ±æ°´æœˆã®å¤ªåˆ€, æ—¥æœ¬åˆ€çªæ’ƒ
+é¡èŠ±æ°´æœˆã®å¤ªåˆ€(å‘½ä¸­), æ–¬æ’ƒä¹±èˆž
+å…‰é¢¨æ–Žæœˆã®å¤ªåˆ€, æ—¥æœ¬åˆ€çªæ’ƒ
+å…‰é¢¨æ–Žæœˆã®å¤ªåˆ€(å‘½ä¸­), å…‰çƒ
+å¥¥ç¾©ãƒ»ä¸€æ’ƒå¿…æ®º, æ—¥æœ¬åˆ€çªæ’ƒ
+å¥¥ç¾©ãƒ»ä¸€æ’ƒå¿…æ®º(å‘½ä¸­), å¤§æ–¬æ’ƒ
 
 
 

@@ -1,637 +1,637 @@
 
-### �I������ ###--------------------------------------------------------------------------
-# �ꕔ�̏I�������ɂ͊O���T�C�g�z�z�̌��ʉ����w�肳��Ă��܂������A
-# �R�����g�A�E�g�Ƃ����`�ňꉞ�c���Ă��܂��B
-# �܂��A�z�z���Ă����Ǝv���Ă���T�C�g�͏������Ă����̂ŃR�����g�A�E�g���ƍ폜�B
+### 終了処理 ###--------------------------------------------------------------------------
+# 一部の終了処理には外部サイト配布の効果音が指定されていましたが、
+# コメントアウトという形で一応残しています。
+# また、配布していたと思われているサイトは消失していたのでコメントアウトごと削除。
 
-��{Exit:
+基本Exit:
 
 Switch Random(44)
 
 Case 1
   StartBGM Nadesico.mid
-  Talk �~�X�}���������J
-  ����H ���f�����ł����H;����ꂳ�܂ł���
-  �ł��Ȃ�ׂ������������v���C���Ă��������ˁB�񑩂ł���I
-  ����ł͎���̃v���C�܂ŁA�����������`
+  Talk ミスマル＝ユリカ
+  あれ？ 中断するんですか？;お疲れさまでした
+  でもなるべく早く続きをプレイしてくださいね。約束ですよ！
+  それでは次回のプレイまで、ごっきげんよ～
   End
 Case 2
   StartBGM "Gekigangar3.mid Nadesico.mid"
-  Talk �R�c��Y
-  �����������������I��肩��H;�������������˂��Ȃ�
-  Talk �R�c��Y(�U��)
-  ���Ȃ�I ���`�̍��ŔM���G���R�U�炷�񂾂��I�I;�����I �N���Q�L�K�����ōĒ��킾�I�I
-  Talk �R�c��Y(���)
-  �ƁA�����������܂������͂��Ȃ��B;�����I �K���߂��Ă����I�I
-  Talk �R�c��Y
-  ���ꂶ��܂��Ă邩��Ȃ��I�I
-  Talk �R�c��Y(�U��)
-  ���[�b�c�I�I �Q�L�K�C�[���b�I�I�I�I
+  Talk 山田二郎
+  おいおい何だもう終わりかよ？;たっく根性がねえなあ
+  Talk 山田二郎(攻撃)
+  漢なら！ 正義の魂で熱く敵を蹴散らすんだっ！！;さあ！ 君もゲキガン魂で再挑戦だ！！
+  Talk 山田二郎(回避)
+  と、言いたいがまあ強制はしない。;だが！ 必ず戻ってこい！！
+  Talk 山田二郎
+  それじゃまってるからなっ！！
+  Talk 山田二郎(攻撃)
+  レーッツ！！ ゲキガイーンッ！！！！
   End
 Case 3
   StartBGM "(Elegy of Victors.mid) (Burn My Heart.mid) (G Gundam.mid)"
-  Talk �����s�s
-  �ނނ��I �I���̂��I�H;�܂�������悩�낤�B�l�ԋx���Ƃ����̂��K�v���I
-  Talk �����s�s(�U��)
-  �������������I;�x���Ƃ������̌��ł����ł͂����񂼁I�I;���̂悤�Ȕy�͂킵�����X�ɒb�������Ă�����I�I
-  ����ł́I ����̃v���C�Ɍ����āI ���h�I �����s�s�́I�I
-  Talk �h�������J�b�V��(�U��)
-  ���҂̕���I�I
-  Talk �����s�s(�U��)
-  �S�V�I
-  Talk �h�������J�b�V��(�U��)
-  �n��I
+  Talk 東方不敗
+  むむっ！ 終わるのか！？;まあそれもよかろう。人間休息というのも必要だ！
+  Talk 東方不敗(攻撃)
+  だあがしかし！;休息という名の元でたるんではいかんぞ！！;そのような輩はわしが直々に鍛え直してくれるわ！！
+  それでは！ 次回のプレイに向けて！ 流派！ 東方不敗は！！
+  Talk ドモン＝カッシュ(攻撃)
+  王者の風よ！！
+  Talk 東方不敗(攻撃)
+  全新！
+  Talk ドモン＝カッシュ(攻撃)
+  系裂！
   Suspend
   PlaySound FastGun.wav
   For i = 1 To 3
-    AutoTalk �����s�s(�U��)
-    2;�V�j�����I�I
-    AutoTalk �h�������J�b�V��(�U��)
-    2;�V�j�����I�I
+    AutoTalk 東方不敗(攻撃)
+    2;天破侠乱！！
+    AutoTalk ドモン＝カッシュ(攻撃)
+    2;天破侠乱！！
     Suspend
   Next
-  AutoTalk �����s�s(�U��)
-  2;�V�j�����I�I
-  AutoTalk �h�������J�b�V��(�U��)
-  6;�V�j�����I�I
+  AutoTalk 東方不敗(攻撃)
+  2;天破侠乱！！
+  AutoTalk ドモン＝カッシュ(攻撃)
+  6;天破侠乱！！
   Suspend
   PlaySound Fire(2).wav
   For i = 1 To 3
-    AutoTalk �����s�s(�U��)
-    2;������I �����́I �Ԃ��R���Ă���[���I�I
-    AutoTalk �h�������J�b�V��(�U��)
-    2;������I �����́I �Ԃ��R���Ă���[���I�I
+    AutoTalk 東方不敗(攻撃)
+    2;見よっ！ 東方は！ 赤く燃えているーっ！！
+    AutoTalk ドモン＝カッシュ(攻撃)
+    2;見よっ！ 東方は！ 赤く燃えているーっ！！
     Suspend
   Next
-  AutoTalk �����s�s(�U��)
-  2;������I �����́I �Ԃ��R���Ă���[���I�I
-  AutoTalk �h�������J�b�V��(�U��)
-  6;������I �����́I �Ԃ��R���Ă���[���I�I
+  AutoTalk 東方不敗(攻撃)
+  2;見よっ！ 東方は！ 赤く燃えているーっ！！
+  AutoTalk ドモン＝カッシュ(攻撃)
+  6;見よっ！ 東方は！ 赤く燃えているーっ！！
   Suspend
-  Talk �����s�s(����)
-  �܂�������I�I
-  Talk �h�������J�b�V��(�����Q)
-  �t�����������[���I�I�I
+  Talk 東方不敗(微笑)
+  また会おうっ！！
+  Talk ドモン＝カッシュ(号泣２)
+  師匠ぉぉぉぉーっ！！！
   End
 Case 4
   StartBGM "(Wings of Lonely Boy.mid) (Gundam W.mid)"
-  Talk �q�C�������C
-  �c��H �C�����c
-  Talk ��̒j(�I������)
-  ���΂��̋x���̌�ASRC�̍ĊJ��v������
-  Talk �q�C�������C
-  �C���c�����c
+  Talk ヒイロ＝ユイ
+  …ん？ 任務だ…
+  Talk 謎の男(終了処理)
+  しばしの休息の後、SRCの再開を要請する
+  Talk ヒイロ＝ユイ
+  任務…了解…
   End
 Case 5
   StartBGM "GunBuster_Preview.mid GunBuster.mid"
-  Talk �^�J�����m���R
-  ����ꂳ�܁I ����������J�l�ł����B;�Ƃ肠�������͂������x��ł���������
-  �����ǁI;������킢�͂܂��܂��������Ȃ�ɈႢ�Ȃ���I;�C���������߂ēw�͂ƍ����Ŋ撣���ĂˁI
-  ���ꂶ�Ⴀ����̃v���C�Ɍ����āI;�X�D�D�D�D�D�p�@�@�@�@�@�C�i�Y�};�L�B�B�B�B�B�B�b�N�D�b�I�I�I�I
+  Talk タカヤ＝ノリコ
+  お疲れさま！ 今日もご苦労様でした。;とりあえず今はゆっくり休んでくださいね
+  だけど！;次から戦いはますます激しくなるに違いないわ！;気を引き締めて努力と根性で頑張ってね！
+  それじゃあ次回のプレイに向けて！;スゥゥゥゥゥパァァァァァイナズマ;キィィィィィィックゥッ！！！！
   End
 Case 6
   StartBGM "GunBuster_Preview.mid GunBuster.mid"
-  Talk �^�J�����m���R
-  �����H �����I������Ⴄ�́I�H;�����I ��x���n�߂���C���ƍ����I;�����ēw�͂ƔM���ł��ʂ��Ă�ˁI
-  Talk �A�}�m���J�Y�~
-  �m���R������������������������Ȃ���B;����ɂ����Ď���Ƃ�����������ł��傤�H
-  Talk �^�J�����m���R
-  �����A���o���܁I �����ł���ˁB;������Ă�����������܂����
-  Talk �A�}�m���J�Y�~
-  ������B;�ł��{���͎������ĊF����ɑ����Ă��炢�������B;�ł��A���܂肵�����̂��l�����ł���
-  Talk �^�J�����m���R
-  ���̒ʂ�ł��˂��o���܁I
-  Talk �A�}�m���J�Y�~
-  �킩��΂�낵��
-  ����ł͎���̃v���C�Ɍ����āI
-  Talk �^�J�����m���R
-  �C�E�i�E�Y�E�}�E�L�B�B�B�B�B�b�N�I�I�I
+  Talk タカヤ＝ノリコ
+  ええ？ もう終わっちゃうの！？;もう！ 一度やり始めたら気合と根性！;そして努力と熱血でやり通してよね！
+  Talk アマノ＝カズミ
+  ノリコそういう無茶を言う物じゃないわ。;相手にだって事情という物があるでしょう？
+  Talk タカヤ＝ノリコ
+  あっ、お姉さま！ そうですよね。;事情っていう物がありますよね
+  Talk アマノ＝カズミ
+  そうよ。;でも本当は私だって皆さんに続けてもらいたいわよ。;でも、あまりしつこいのも考え物でしょ
+  Talk タカヤ＝ノリコ
+  その通りですねお姉さま！
+  Talk アマノ＝カズミ
+  わかればよろしい
+  それでは次回のプレイに向けて！
+  Talk タカヤ＝ノリコ
+  イ・ナ・ズ・マ・キィィィィィック！！！
   End
 Case 7
   StartBGM 0083.mid
-  Talk �G�M�[�����f���[�Y
-  �ނ��I �I���Ƃ����̂��I;�܂��悩�낤�A��m�ɂ͋x�����K�v��
-  �����ĂыM�������֖߂��Ă���̂��A���͐M���đ҂��Ă��邼�I
-  �ł́I ����̃v���C�Ɍ����Ă��ꏏ�ɁI
+  Talk エギーユ＝デラーズ
+  むう！ 終わるというのか！;まあよかろう、戦士には休息も必要だ
+  だが再び貴公が戦場へ戻ってくるのを、私は信じて待っているぞ！
+  では！ 次回のプレイに向けてご一緒に！
   Suspend
   #PlaySound SiegZeon.wav
-  Talk �G�M�[�����f���[�Y
-  �W�[�N�W�I���b�I�I�I
+  Talk エギーユ＝デラーズ
+  ジークジオンッ！！！
   End
 Case 8
   StartBGM "EVA_AsukaStrikes!.mid EVA.mid"
-  Talk �y�����A�X�J�������O���[
-  ���扽������I���I�H ������������ˁ`;�j���������x�������Ō�܂ł��ʂ����炢�̋C����;�撣��Ȃ�����ˁI
-  �܂��`�������ē|�ꂽ��ł������炱���������邵�A;���񂾂��͌������Ă����悤����Ȃ���
-  Talk �y�����A�X�J�������O���[(�{)
-  ���E���E�ǁA���͖������A�o���Ă�����Ⴂ
-  Talk �y�����A�X�J�������O���[
-  ���ꂶ�᎟��̃v���C�ł܂���܂���B���̐킢�𑶕��Ɍ����Ă������
-  Talk �y�����A�X�J�������O���[(�{)
-  �o�������Ȃ��Ȃ�Ď�������ǂ��Ȃ邩�c;�������Ă���ˁH
+  Talk 惣流＝アスカ＝ラングレー
+  何よ何よもう終わり！？ 根性が無いわね～;男だったら一度やったら最後までやり通すくらいの気迫で;頑張りなさいよね！
+  まあ～無理して倒れたりでもしたらこっちも困るし、;今回だけは見逃してあげようじゃないの
+  Talk 惣流＝アスカ＝ラングレー(怒)
+  だ・け・ど、次は無いわよ、覚えてらっしゃい
+  Talk 惣流＝アスカ＝ラングレー
+  それじゃ次回のプレイでまた会いましょ。私の戦いを存分に見せてあげるわ
+  Talk 惣流＝アスカ＝ラングレー(怒)
+  出撃させないなんて事したらどうなるか…;分かってるわよね？
   End
 Case 9
   StartBGM MazingerZ.mid
-  Talk �{�X(�}�W���K�[�y)
-  ����񂶂Ⴖ��`��I
-  ���H ���H ���������̏I����ʂȂ񂾂���A���O�Ȃ񂩏o�Ȃ��Ă���낵�������āH;���`��ȗ₽��������Ȃ��ł����ꂾ�`�킳
-  ���������r�V�b���ƍŌ�����߂Ă�낤���Ă̂ɁA�����͂���܂���Ă��񂾂����I
-  �����ĊO��̐��͖������āA;���l���J�b�R�悭�Ō����߂����Ă��炤���킳
-  ���H ���H �������ԁI�H;���A����Ⴀ�`����܂肾���`
-  �ƁA�Ƃɂ����܂��v���C���Ă����ȁI;������������Ԃ��`
+  Talk ボス(マジンガーＺ)
+  じゃんじゃじゃ～ん！
+  え？ 何？ せっかくの終了画面なんだから、お前なんか出なくてもよろしいだって？;そ～んな冷たい事言わないでおくれだ～わさ
+  せっかくビシッっと最後を決めてやろうってのに、そいつはあんまりってもんだぜい！
+  さあて外野の声は無視して、;俺様がカッコよく最後を締めさせてもらうだわさ
+  え？ 何？ もう時間！？;そ、そりゃあ～あんまりだわよ～
+  と、とにかくまたプレイしてくれよな！;うわっもう時間が～
   End
 Case 10
   StartBGM G Gundam.mid
-  Talk �V���o���c���u���[�_�[
-  �ނ��I �����̃v���C�͂����܂łɂ���̂��ȁI�H;�悩�낤�I �ł͏I�����鎖�ɂ���Ƃ��悤�I�I
-  ����̃v���C�܂łɉp�C��{���Ă����������I�I;���̎������I �^�̃o�g�����W�J�����Ƃ������I�I
-  �ł́A�܂�SRC�̐킢�̕���ŉ���I�I ����΂����I�I�I
+  Talk シュバルツ＝ブルーダー
+  むう！ 今日のプレイはここまでにするのだな！？;よかろう！ では終了する事にするとしよう！！
+  次回のプレイまでに英気を養っておくがいい！！;その時こそ！ 真のバトルが展開されるという物！！
+  では、またSRCの戦いの舞台で会おう！！ さらばだっ！！！
   End
 Case 11
   StartBGM Char's Strikeback.mid
-  Talk �u���C�g���m�A
-  �������A�I���̂��B�܂������͋֕��������
-  �����A�㉹��f���ē�����ƌ����Ȃ�΁A;�M�l�͏��F�����܂ł̒j��
-  �������͂����łȂ�����M���đ҂��Ă��邼�B������K���߂��ė����I
-  ����ł͎���̃v���C��;�Ăя����鎖��M���Ă��邼
+  Talk ブライト＝ノア
+  そうか、終わるのか。まあ無理は禁物だからな
+  だが、弱音を吐いて逃げると言うならば、;貴様は所詮そこまでの男だ
+  だが私はそうでない事を信じて待っているぞ。だから必ず戻って来い！
+  それでは次回のプレイで;再び巡り会える事を信じているぞ
   End
 Case 12
   StartBGM "(I wanna be your No.1.mid) Nadesico.mid"
-  Talk �z�V�m������
-  �����ł����A���f�����ł��ˁH �����ł����H
-  �{���ɂ�����ł��ˁH ������܂���ˁH
-  �c�ƌ����Ă��V�X�e����;���̉�ʂɗ�����߂�Ȃ���ł��B;�c�O�ł���
-  �ł��܂��v���C���Ă���鎖��M���Ă��܂�
-  ����܂ł��΂��̂��ʂ�ł��B;����A����`�Ȃ�`
+  Talk ホシノ＝ルリ
+  そうですか、中断するんですね？ いいですか？
+  本当にいいんですね？ 後悔しませんね？
+  …と言ってもシステム上;この画面に来たら戻れないんです。;残念でした
+  でもまたプレイしてくれる事を信じています
+  それまでしばしのお別れです。;じゃ、さよ～なら～
   End
 Case 13
   StartBGM SRWOG_Battle.mid
-  Talk ���m(�I������)
-  ���H ���A�����͉������H
-  �������āI�H �I����ʁI�H;�܂������Ȃ��` ���̂悤�ȓz���o�Ă������̂��Ȃ��`�H
-  ���H;�������玟��̃v���C�Ɍ����Ẵ��b�Z�[�W���������āH;����A�}�Ɍ����Ă��c���ƁA���́c
-  ���A������܂�SRC���v���C���Ă�������
-  ����Ȃ�Łc�����̂��ȁH
+  Talk 兵士(終了処理)
+  え？ こ、ここは何処だ？
+  何だって！？ 終了画面！？;まいったなあ～ 俺のような奴が出てもいいのかなあ～？
+  何？;いいから次回のプレイに向けてのメッセージを言えって？;きゅ、急に言われても…えと、その…
+  じ、次回もまたSRCをプレイしてください
+  こんなんで…いいのかな？
   End
 Case 14
   StartBGM G Gundam.mid
-  Talk �h�������J�b�V��
-  �Ȃ񂾁H �I���̂��I�H;�܂��܂��]�͂�����񂶂�Ȃ��̂��H
-  �܂������B�I���Ƃ����Ȃ�Ζ��������͂��Ȃ��B;�����A������ɂ͑S�͂Ő킦�I
-  ��������Ή����L���O�I�u�n�[�g�̖��ɂ�����;�S�͂Ő킨���I
-  Talk �h�������J�b�V��(�U��)
-  ����ł͎���̃v���C�Ɍ����āI;�K���_���t�@�C�g�H�H�H�b�I;���f�B�B�B�B�B�S�H�H�H�H�H�b�I�I�I�I
+  Talk ドモン＝カッシュ
+  なんだ？ 終わるのか！？;まだまだ余力があるんじゃないのか？
+  まあいい。終わるというならば無理強いはしない。;だが、次会う時には全力で戦え！
+  そうすれば俺もキングオブハートの名にかけて;全力で戦おう！
+  Talk ドモン＝カッシュ(攻撃)
+  それでは次回のプレイに向けて！;ガンダムファイトォォォッ！;レディィィィィゴォォォォォッ！！！！
   End
 Case 15
   StartBGM GaoGaiGar.mid
-  Talk ���q���M(�f��)
-  �����ƏI���̂��H �悭�撣�����ȁB;���̎������̒��q�Ńv���C���Ă�����
-  �܂������͂�������̂��x�߂Ă���B;������̐킢�͂܂��܂��������Ȃ邩���
-  �����A�E�҂Ȃ�㉹��f������;���̐�ΓI���n�����؂��Ă���I
-  ���ꂶ�Ⴀ����̃v���C�ł܂�������I�I
+  Talk 獅子王凱(素顔)
+  おっと終わるのか？ よく頑張ったな。;この次もこの調子でプレイしてくれよな
+  まあ今日はじっくり体を休めてくれ。;次からの戦いはますます激しくなるからな
+  だが、勇者なら弱音を吐かずに;その絶対的窮地を乗り切ってくれ！
+  それじゃあ次回のプレイでまた会おうっ！！
   End
 Case 16
   StartBGM G Gundam.mid
-  Talk �E�H���������t�@
-  �I���̂ł��ˁH �܂������ł��傤�B;���������ē|��Ă�����Ă͍���܂�����Ȃ�
-  �c�����Ƃ�����̘b�ł��B;�܂����������������x��Ŏ��̐킢�ɔ����Ă�������
-  �ł͎���̃v���C�ł܂���܂��傤�B;���������y���܂��Ă��������B�N�N�N�c
+  Talk ウォン＝ユンファ
+  終わるのですね？ まあいいでしょう。;無理をして倒れてもらっては困りますからなあ
+  …おっとこちらの話です。;まあせいぜいゆっくり休んで次の戦いに備えてください
+  では次回のプレイでまた会いましょう。;せいぜい楽しませてください。ククク…
   End
 Case 17
   StartBGM Nadesico.mid
-  Talk �G���i���L���W���E���E�H��
-  �����I���̂ˁB����������B;���ꂶ�Ⴀ�I�����鎖�ɂ��܂��傤
-  �ł��ˁA�x��ł΂���ł͎��Ԃ͍D�]���Ȃ���B;����������Ǝ��o���Ă��傤����
-  �ł��܂����ɂ͋x�����K�v�ˁB;���͂������x��ł��傤����
-  ���ꂶ�Ⴀ�܂����̃v���C�ŉ�܂��傤�B�o�[�C
+  Talk エリナ＝キンジョウ＝ウォン
+  そう終わるのね。分かったわ。;それじゃあ終了する事にしましょう
+  でもね、休んでばかりでは事態は好転しないわ。;それをちゃんと自覚してちょうだい
+  でもまあ時には休息も必要ね。;今はゆっくり休んでちょうだい
+  それじゃあまた次のプレイで会いましょう。バーイ
   End
 Case 18
   StartBGM SRX.mid
-  Talk �����E�Z�C���_�e(�ʏ�)(��)
-  �Ȃ񂾂Ȃ񂾏I������܂��̂����H;���������C������ăo�[�b�Ƃ�����܂���I
-  Talk �����E�Z�C���_�e(�ʏ�)
-  �j�͋C���ƔM���Ŗڂ̑O�̖���;���ӂ��Ă����̂������Ă��񂾂��I�I
-  Talk �����E�Z�C���_�e(�ʏ�)(�U��)
-  ���͂Ă����񔲂��Ńr�V�b�ƋC������Ă���I;��������Ȃ��Ɖ���������I
-  Talk �����E�Z�C���_�e(�ʏ�)(��)
-  ������Ƃ��̂ɖ����Ă�����I;���ꂶ��܂�������I�I
+  Talk リュウセイ＝ダテ(通常)(落)
+  なんだなんだ終わっちまうのかあ？;もう少し気合入れてバーッとやっちまえよ！
+  Talk リュウセイ＝ダテ(通常)
+  男は気合と熱血で目の前の問題を;粉砕していくのが粋ってもんだぜ！！
+  Talk リュウセイ＝ダテ(通常)(攻撃)
+  次はてかげん抜きでビシッと気合入れてけよ！;そうじゃないと俺が許さん！
+  Talk リュウセイ＝ダテ(通常)(笑)
+  そこんとこ肝に命じておけよ！;それじゃまた会おうぜ！！
   End
 Case 19
   StartBGM "EVA_Kaworu.mid EVA.mid"
-  Talk ���J����(�U��)
-  �������c�I���񂾂ˁc�����₵���Ȃ��
-  Talk ���J����
-  �ł��l�͂܂��N�������֖߂��ė������;�M���Ă����B����܂Ŗl�͂����Ƒ҂��Ă���
-  �l��͂܂��Ăяo��^���ɂ���̂��B;���ꂶ�Ⴀ�܂�����c
+  Talk 渚カヲル(攻撃)
+  そうか…終わるんだね…少し寂しくなるな
+  Talk 渚カヲル
+  でも僕はまた君がここへ戻って来るって;信じているよ。それまで僕はずっと待っている
+  僕らはまた再び出会う運命にあるのさ。;それじゃあまた会おう…
   End
 Case 20
   StartBGM G Gundam.mid
-  Talk �A�����r�[���r�A�Y���[
-  �������I�H �����I������Ⴄ�́I�H;�����ƗV��ł���Ă������񂶂�Ȃ��H;��Ȃ��ȁ`
-  �܂�������B�ł���΂܂��v���C���Ă�ˁI;��������Ȃ��Ƌ����Ȃ�������I
-  Talk �A�����r�[���r�A�Y���[(�U��)
-  ����A�����SRC�̃v���C�Ɍ����āI;�K���_���t�@�C�g�I ���f�B�[�S�[�[�[�b�I�I�I
+  Talk アレンビー＝ビアズリー
+  ええっ！？ もう終わっちゃうの！？;もっと遊んでくれてもいいんじゃない？;つれないな～
+  まあいいや。でも絶対またプレイしてよね！;そうじゃないと許さないからっ！
+  Talk アレンビー＝ビアズリー(攻撃)
+  じゃ、次回のSRCのプレイに向けて！;ガンダムファイト！ レディーゴーーーッ！！！
   End
 Case 21
   StartBGM "Gekigangar3.mid Nadesico.mid"
-  Talk �R�c��Y
-  �����������������I��肩��H;�������������˂��Ȃ�
-  Talk �R�c��Y(�U��)
-  ���Ȃ�I ���`�̍��ŔM���G���R�U�炷�񂾂��I�I;�����I �N���Q�L�K�����ōĒ��킾�I�I
-  Talk �z�V�m������
-  ����A�R�c����H �Ȃ�Ő����Ă����ł����H
-  Talk �R�c��Y
-  �R�c��Y�H �N�������́H
-  Talk �R�c��Y(�U��)
-  ���̓K�C�I;�^�̃_�C�S�E�W���K�C�Ƃ��Đ��܂�ς�����̂��I�I
-  Talk �z�V�m������
-  ����ς�R�c���񂶂�Ȃ��ł����`
-  Talk �R�c��Y(�_���[�W)
-  ���`���`��`�c
+  Talk 山田二郎
+  おいおい何だもう終わりかよ？;たっく根性がねえなあ
+  Talk 山田二郎(攻撃)
+  漢なら！ 正義の魂で熱く敵を蹴散らすんだっ！！;さあ！ 君もゲキガン魂で再挑戦だ！！
+  Talk ホシノ＝ルリ
+  あれ、山田さん？ なんで生きているんですか？
+  Talk 山田二郎
+  山田二郎？ 誰だそいつは？
+  Talk 山田二郎(攻撃)
+  俺はガイ！;真のダイゴウジ＝ガイとして生まれ変わったのさ！！
+  Talk ホシノ＝ルリ
+  やっぱり山田さんじゃないですか～
+  Talk 山田二郎(ダメージ)
+  だ～か～ら～…
   End
 Case 22
   StartBGM Dancougar.mid
-  Talk �����E
-  ���������A�����I���̂���H �܂��������炵���˂��c
-  Talk �����E(�U��)
-  �j�Ȃ�ꔭ�����I;�΁[���ƍŌ�܂Ńm�[�Z�[�u�ň�C�ɂ���Ă݂ȁI
-  Talk ���鍹��(�U��)
-  �E�I �ȂɃo�J�����Ă񂾂�I;����Ȃ̖����Ɍ��܂��Ă�ł���I�H
-  Talk �����E(���₪������)
-  ����I �����A�т����肷�邶��˂����I;���͒j�̐S�\�����Ă��̂������������łȁc
-  Talk ���鍹��(�U��)
-  �ȂɂԂԂ����Ă񂾂�I;���񂽂̂��̂��������񂳂ŁA;�������͂����`�����f���Ă񂾂���ˁI
-  Talk �����E
-  �c�Ƃɂ����A�����v���C���Ă����ȁI
-  Talk �����E(�U��)
-  �������t�́cSRC�A�₠���Ă�邺�I
+  Talk 藤原忍
+  おいおい、もう終わるのかよ？ まったくだらしがねえ…
+  Talk 藤原忍(攻撃)
+  男なら一発勝負！;ばーっと最後までノーセーブで一気にやってみな！
+  Talk 結城沙羅(攻撃)
+  忍！ なにバカ言ってんだよ！;そんなの無理に決まってるでしょ！？
+  Talk 藤原忍(やりやがったな)
+  わっ！ 沙羅、びっくりするじゃねえか！;俺は男の心構えってものを言っただけでな…
+  Talk 結城沙羅(攻撃)
+  なにぶつぶつ言ってんだよ！;あんたのそのいいかげんさで、;こっちはいっ～つも迷惑してんだからね！
+  Talk 藤原忍
+  …とにかく、次もプレイしてくれよな！
+  Talk 藤原忍(攻撃)
+  合い言葉は…SRC、やあってやるぜ！
   End
 Case 23
   StartBGM GiantRobo.mid
-  Talk ���������E�搐
-  �E���I �E���͂��邩�I
-  Talk �������E��
-  ���₨��A�ǂ��������܂����A���������E�搐�ǂ́H;�\���W�Ƃ����낤���̂���l���Ȃ��c
-  Talk ���������E�搐
-  �������A���邳���I;�E���A�����Ńv���C�I���Ƃ́A�ǂ��������Ƃ��I�H
-  Talk �������E��
-  ���̂��Ƃł����c��낵���A;���̖₢�ɂ͎����������������܂��傤�I
-  �����c;�S�ẮA�r�b�O�E�t�@�C�A�̂��ӎu�ł���I
-  ����ł����A�����₤���Ƃ͂���܂��I
-  Talk ���������E�搐
-  ���A�����I�@���A����Ȃ͂��́c
-  �����ށA�킩���c;�܂��܂������Ă킩��Ȃ��Ȃ��Ă��܂�����
-  Talk �������E��
-  �ӂӂӂӂӂӂӂӁA���āA����ŉ��������A���̎v�����܂�
-  ���������A������肨�x�݂Ȃ����B�ӂӂӂӂӂӁc
+  Talk 混世魔王・樊瑞
+  孔明！ 孔明はおるか！
+  Talk 諸葛亮孔明
+  おやおや、どういたしました、混世魔王・樊瑞どの？;十傑集ともあろうものが大人げない…
+  Talk 混世魔王・樊瑞
+  ええい、うるさい！;孔明、ここでプレイ終了とは、どういうことだ！？
+  Talk 諸葛亮孔明
+  そのことですか…よろしい、;その問いには私がお答えいたしましょう！
+  そう…;全ては、ビッグ・ファイアのご意志である！
+  これでもう、何も問うことはあるまい！
+  Talk 混世魔王・樊瑞
+  お、おお！　そ、そんなはずは…
+  ううむ、わからん…;ますますもってわからなくなってしまったぞ
+  Talk 諸葛亮孔明
+  ふふふふふふふふ、さて、これで何もかも、私の思うがまま
+  せいぜい、ゆっくりお休みなさい。ふふふふふふ…
   End
 Case 24
   StartBGM GiantRobo.mid
-  Talk �Ռ��̃A���x���g
-  �΁A�n���ȁI�@�����ŏI��肾�Ƃ����̂��I�H
-  Talk �_�s���ہE�Տ@
-  �ǂ��������A�Ռ��́c�B�����ƍQ�ĂĂ邶��˂���
-  Talk �Ռ��̃A���x���g
-  �Տ@�A���V�͔[��������̂��I;����̃v���C�̌������A����Ȃ��̂ł悢�͂�������܂��I�I
-  Talk �_�s���ہE�Տ@
-  ���������c
+  Talk 衝撃のアルベルト
+  ば、馬鹿な！　ここで終わりだというのか！？
+  Talk 神行太保・戴宗
+  どうしたい、衝撃の…。随分と慌ててるじゃねえか
+  Talk 衝撃のアルベルト
+  戴宗、ワシは納得いかんのだ！;今回のプレイの決着が、こんなものでよいはずがあるまい！！
+  Talk 神行太保・戴宗
+  未練だぜ…
   End
 Case 25
   StartBGM "Gundam_TheCrossOfSand.mid Gundam.mid"
-  Talk �M�������U�r(����)
-  ���̃t���[�E�F�A�A;���N��̈����Ă��ꂽSRC�͏I�������I
+  Talk ギレン＝ザビ(叫び)
+  私のフリーウェア、;諸君らの愛してくれたSRCは終了した！
   Suspend
   #PlaySound why.wav
-  Talk �M�������U�r(����)
-  �Ȃ����I�H
-  Talk �V���A���A�Y�i�u��(�T���O���X)
-  �c�Z�[�u�������炳�c
+  Talk ギレン＝ザビ(叫び)
+  なぜだ！？
+  Talk シャア＝アズナブル(サングラス)
+  …セーブしたからさ…
   End
 Case 26
   StartBGM Gundam.mid
-  Talk �W���h�[���A�[�V�^(�ʏ�)
-  �����A�����~�߂����܂��̂���B�������������Ƃ��낾�������Ă̂Ɂc
-  Talk �A���������C(�ʏ�)
-  �d���Ȃ���
-  Talk �J�~�[�����r�_��(�ʏ�)
-  ��������A;�ŋ߉��B���������ďo�Ԃ����Ȃ��Ȃ��ł����H
-  Talk �A���������C(�ʏ�)
-  �c�c
-  Talk �u���C�g���m�A
-  �c����������A�����܂Ńv���C�����Ă��ꂽ;�v���C���[�Ɍh�ӂ�\����
-  SRC�v���C���[�Ɍh��I�I
+  Talk ジュドー＝アーシタ(通常)
+  おっ、もう止めっちまうのかよ。せっかくいいところだったってのに…
+  Talk アムロ＝レイ(通常)
+  仕方ないさ
+  Talk カミーユ＝ビダン(通常)
+  それよりも、;最近俺達が強すぎて出番が少なくないですか？
+  Talk アムロ＝レイ(通常)
+  ……
+  Talk ブライト＝ノア
+  …それよりもだ、ここまでプレイをしてくれた;プレイヤーに敬意を表する
+  SRCプレイヤーに敬礼！！
   End
 Case 27
   StartBGM "EVA_SpendingTimeInPreparation.mid EVA.mid"
-  Talk �ɐ��}��(�I�y���[�g)
-  �i�߁I �����ւ�ł��I�I
-  Talk �~���R�E�]�E
-  �ǂ������Ƃ����̂�
-  Talk �ɐ��}��(�I�y���[�g)
-  SRC���r���Œ��f������ꂻ���ł��I
-  Talk ��Q���h�E(�A�b�v)
-  ���Ȃ�
-  Talk �~���R�E�]�E
-  �������V�l�B���ق��Ă͂��Ȃ���
-  Talk ����~�T�g
-  �i�߁I ���̕���������肢���܂��B�ꌾ�v���C���[�Ƀ��b�Z�[�W��
-  Talk ��Q���h�E(�A�b�v)
-  �c�c
-  Talk ��Q���h�E
-  �c�c�N�ɂ͎��]�����B������Ȃ瑁������A�łȂ���΋A��I
-  Talk �錴�g�E�W
-  �S�R�t�H���[�ɂȂ��Ƃ���Ȃ����I
-  Talk ���c�P���X�P
-  �����܂����炵�܂�����
+  Talk 伊吹マヤ(オペレート)
+  司令！ たいへんです！！
+  Talk 冬月コウゾウ
+  どうしたというのだ
+  Talk 伊吹マヤ(オペレート)
+  SRCが途中で中断させられそうです！
+  Talk 碇ゲンドウ(アップ)
+  問題ない
+  Talk 冬月コウゾウ
+  しかし老人達が黙ってはいないぞ
+  Talk 葛城ミサト
+  司令！ 私の方からもお願いします。一言プレイヤーにメッセージを
+  Talk 碇ゲンドウ(アップ)
+  ……
+  Talk 碇ゲンドウ
+  ……君には失望した。続けるなら早くしろ、でなければ帰れ！
+  Talk 鈴原トウジ
+  全然フォローになっとらんやないか！
+  Talk 相田ケンスケ
+  こりゃまた失礼しましたぁ
   End
 Case 28
   StartBGM "EVA_Rei1.mid EVA.mid"
-  Talk ���g���C
-  �c�c
-  �c�~�߂�̂ˁc
-  ����Ȃ�
+  Talk 綾波レイ
+  ……
+  …止めるのね…
+  さよなら
   End
 Case 29
   StartBGM Armageddon.mid
-  Talk �V���E���V���J��
-  ������H �������~�߂ɂȂ�̂ł����H
-  �܂��A�܂�SRC�����̂ł��傤����A;��߂�ȂƂ͌����܂����
-  �ł͍ĂсA����SRC�ł���ł������;���҂����Ă���܂�
-  Talk �V���E���V���J��(�s�G)
-  �N�b�N�b�N�b�c�c
+  Talk シュウ＝シラカワ
+  おやっ？ もうお止めになるのですか？
+  まぁ、またSRCをやるのでしょうから、;やめるなとは言いませんよ
+  では再び、このSRCでお会いできる日を;お待ちしております
+  Talk シュウ＝シラカワ(不敵)
+  クックックッ……
   End
 Case 30
   StartBGM Patlabor.mid
-  Talk ���V�n(�ʏ�)
-  �����H ����ȂƂ��Ŏ~�߂�̂���
-  �얾�I ���O�������ꌾ�����Ă��
-  Talk ��얾(�ʏ�)
-  �o�C�o�[�C
-  Talk ���V�n(�ʏ�)
-  ����I ���O���~�߂�łǁ[����I�I
-  Talk ��얾(�ʏ�)
-  �����񂶂�Ȃ��́H �p��������񂾂��āA������
-  Talk ���V�n(�ʏ�)
-  �c�܂������������Ƃɂ��Ƃ���
-  Talk ��얾(�ʏ�)
-  �܂��V�ڂ���
+  Talk 篠原遊馬(通常)
+  ありゃ？ こんなとこで止めんのかよ
+  野明！ お前も何か一言言ってやれ
+  Talk 泉野明(通常)
+  バイバーイ
+  Talk 篠原遊馬(通常)
+  こら！ お前が止めんでどーする！！
+  Talk 泉野明(通常)
+  いいんじゃないの？ 用事があるんだって、きっと
+  Talk 篠原遊馬(通常)
+  …まぁそういうことにしとくか
+  Talk 泉野明(通常)
+  また遊ぼうね
   End
 Case 31
   StartBGM Cybaster.mid
-  Talk �}�T�L���A���h�[
-  ���~�߂ɂȂ�Ƃ��́A;���Z�b�g�{�^���������Ȃ���d�������؂艺����
-  Talk �~�I���T�X�K
-  �����I SRC���Ă���Ȃ��Ƃ��Ȃ��Ƃ��߂Ȃ́H;����ĂȂ�������I�I
-  Talk �}�T�L���A���h�[(�U��)
-  ��Ȃ킯�˂�����I
-  Talk �~�I���T�X�K
-  �݂�ȁI �g�c�c�̎c��ɂ͋C�����悤��
-  Talk �}�T�L���A���h�[(�_���[�W)
-  ����A�}�W�Ő؎������c
+  Talk マサキ＝アンドー
+  お止めになるときは、;リセットボタンを押しながら電源をお切り下さい
+  Talk ミオ＝サスガ
+  えっ！ SRCってそんなことしないとだめなの？;やってなかったよ！！
+  Talk マサキ＝アンドー(攻撃)
+  んなわけねぇだろ！
+  Talk ミオ＝サスガ
+  みんな！ ＨＤＤの残りには気をつけようね
+  Talk マサキ＝アンドー(ダメージ)
+  それ、マジで切実かも…
   End
 Case 32
   StartBGM "(Human Touch.mid) (Gundam X.mid)"
-  Talk �e�B�t�@���A�f�B�[��
-  �c�c�����ł����A�I���̂ł���
-  ����ł͎��̃v���C�܂�;��������肨�x�݂��������B;����SRC�𗧂��グ�鎞�܂ł��΂��̂��ʂ�ł�
-  �M���Ɂc �͂��c
+  Talk ティファ＝アディール
+  ……そうですか、終わるのですね
+  それでは次のプレイまで;ごゆっくりお休みください。;次にSRCを立ち上げる時までしばしのお別れです
+  貴方に… 力を…
   End
 Case 33
   StartBGM TIME TO COME.mid
-  Talk ���i���W�F�X���X�^�[���[�h
-  �悤�A����ꂳ��B;����̃v���C�͂ǂ�ȕ����������ȁH
-  Talk �C�����K���g���J�U�n��
-  �����Ă������Ă��[���Ɋy����ł��炦���;����ł悵�����I
-  Talk �A�[�E�B�����h�[�X�e�B��
-  �Â��ȁB�킢�ɂ͏�ɏ����˂΂Ȃ��B;�틵�͌������Ă����΂��肾�B���������C�y�Ȏ��������܂�
-  Talk �O���[�X���E���W��(�Ƃ�)
-  ����Ȍ��ꂵ���l���Ȃ��ł���������`
-  Talk �w�N�g�[�����}�f�B�\��(�U��)
-  ���������B���C�y����ԁI
-  Talk �������}�I
-  ���ɂ͌��x�Ƃ����������邪�ȁc�c
-  Talk �p�g���V�A���n�b�N�}��
-  �܂��Ȃɂ͂Ƃ����ꂨ��ꂳ�܂ł����B���̃v���C�܂ł������x��ł�
-  Talk �~�[�i�����C�N�����O
-  ���ꂶ�Ⴀ�܂�SRC�ŉ����
+  Talk レナンジェス＝スターロード
+  よう、お疲れさん。;今回のプレイはどんな物だったかな？
+  Talk イルムガルト＝カザハラ
+  勝っても負けても充分に楽しんでもらえれば;それでよしだぜ！
+  Talk アーウィン＝ドースティン
+  甘いな。戦いには常に勝たねばならん。;戦況は激化していくばかりだ。そうそう気楽な事も言えまい
+  Talk グレース＝ウリジン(照れ)
+  そんな堅苦しく考えないでくださいよ～
+  Talk ヘクトール＝マディソン(攻撃)
+  そうだぜ。お気楽が一番！
+  Talk リン＝マオ
+  物には限度という物もあるがな……
+  Talk パトリシア＝ハックマン
+  まあなにはともあれお疲れさまでした。次のプレイまでゆっくり休んでね
+  Talk ミーナ＝ライクリング
+  それじゃあまたSRCで会おうね
   End
 Case 34
   StartBGM Lumune&40.mid
-  Talk �n�ꃉ���l
-  ���[�I���̂��B����ꂳ��B;�܂�������v���C���Ă�����
-  Talk �_�E�T�C�_�[
-  �܂�SRC�ɃJ���X�I
-  Talk �n�ꃉ���l
-  �ȁA�����悻��́H
-  Talk �_�E�T�C�_�[
-  �X�͂Ђ�������B;�܂�A�J���Ђ�[�������A;�J���Ђ�[�������A�J���Ђ��[������
-  �J���q�A�[�b�R�C�I �J���q�A�[�b�A�������I�I
-  Talk �n�ꃉ���l
-  �c�c�c�c�c�c�c�c
-  Talk �_�E�T�C�_�[
-  �ȁA�Ȃ񂾂��̔����́I ���l�̃_�W�������܂��ƌ����̂��I�H
+  Talk 馬場ラムネ
+  おー終わるのか。お疲れさん。;また次回もプレイしてくれよな
+  Talk ダ・サイダー
+  またSRCにカム氷！
+  Talk 馬場ラムネ
+  な、何だよそれは？
+  Talk ダ・サイダー
+  氷はひやっこい。;つまり、カムひやーっこい、;カムひゃーっこい、カムひあーっこい
+  カムヒアーッコイ！ カムヒアーッ、来いっ！！
+  Talk 馬場ラムネ
+  ……………………
+  Talk ダ・サイダー
+  な、なんだその反応は！ 俺様のダジャレがつまらんと言うのか！？
   Suspend
   PlaySound MachineGun.wav
-  Talk �_�E�T�C�_�[
-  �����[���I;�݂�ȏ΂��A�΂��A�΂��[�[�[�[�����I�I�I�I
-  Talk �n�ꃉ���l
-  ���A���킠���������I�I�I;��߂�_�E�T�C�_�[�b�I�I
-  Talk �_�E�T�C�_�[
-  �݂�ȏ΂����������������I�I�I�I
+  Talk ダ・サイダー
+  くそーっ！;みんな笑え、笑え、笑えーーーーっっ！！！！
+  Talk 馬場ラムネ
+  う、うわああああっ！！！;やめろダ・サイダーッ！！
+  Talk ダ・サイダー
+  みんな笑えぇぇぇぇぇっっ！！！！
   End
 Case 35
   StartBGM Varusion.mid
-  Talk �r�A�����]���_�[�N
-  �������A�I���̂��B;�Ⴓ�̐����ɔC����̂��悢���A;���ɂ͋x�����l����ׂ��������
-  �����A�Ăт���SRC�Ƃ������̐���;�߂��ė��邪����
-  �V�i���I�̏I�������͂���̂�;���O�B�Ⴋ�ҒB�̖�ڂ�����ȁc
+  Talk ビアン＝ゾルダーク
+  そうか、終わるのか。;若さの勢いに任せるのもよいが、;時には休息を考えるべきだからな
+  だが、再びこのSRCという名の戦場に;戻って来るがいい
+  シナリオの終結を見届けるのは;お前達若き者達の役目だからな…
   End
 Case 36
   StartBGM FSS.mid
-  Talk �A�}�e���X���f�B�X���O�����h���G�C�_�X���O���G�X�W
-  ��H
-  �Ȃ񂾂��H ����́c�H
-  Talk �~�V�������n������
-  �����I�I
-  Talk �A�}�e���X���f�B�X���O�����h���G�C�_�X���O���G�X�W
-  �c�c�wSRC�I���x�c�H
-  ���āH�H�c���̎����c
-  Talk �~�V�������n������
-  ����́c;������L�V�X�l���X�y�N�^�[�ƂȂɂ��K���K���Ɓc
-  �܂��I;���ɂ���ă~���[�W���}�[�N�̉��ɁI�I;�����ɏ������܂��I�I
-  Talk �A�}�e���X���f�B�X���O�����h���G�C�_�X���O���G�X�W
-  �������A�����B�ʔ�������c���Ă�������
-  �c���̂������邾�낤
+  Talk アマテラス＝ディス＝グランド＝エイダス＝グリエスⅣ
+  ん？
+  なんだい？ これは…？
+  Talk ミシャル＝ハ＝ルン
+  あっ！！
+  Talk アマテラス＝ディス＝グランド＝エイダス＝グリエスⅣ
+  ……『SRC終了』…？
+  さて？？…何の事やら…
+  Talk ミシャル＝ハ＝ルン
+  これは…;先程ラキシス様がスペクターとなにやらガリガリと…
+  まぁ！;よりによってミラージュマークの下に！！;すぐに消させます！！
+  Talk アマテラス＝ディス＝グランド＝エイダス＝グリエスⅣ
+  いいさ、ルン。面白いから残しておこうよ
+  …そのうち判るだろう
   End
 Case 37
   StartBGM FSS.mid
-  Talk �X�y�N�^�[(�t�@�C�u�X�^�[����)
-  �����`�`�`�H �I���Ń����X���H
-  ���ꂩ��Ƃ��Ă����̂��b��;�����������悤�Ǝv���Ă��̂�
-  �c�܂�������ǂ����񂵂�A;�������͋����茈�ߍ��ނł��
-  �y�������c�c�c
-  Talk �|�[�^�[(�t�@�C�u�X�^�[����)
-  ���I �����A�}�X�^�[������`
-  �������������̏������o�����̂Ɂ`�`
-  Talk �X�y�N�^�[(�t�@�C�u�X�^�[����)
-  �y�������c�c�c
+  Talk スペクター(ファイブスター物語)
+  ありゃ～～～？ 終わりでヤンスか？
+  これからとっておきのお話を;お聞かせしようと思ってたのに
+  …まぁそれも良ござんしょ、;あっしは居眠り決め込むでやんす
+  Ｚｚｚｚ………
+  Talk ポーター(ファイブスター物語)
+  あ！ もう、マスターったら～
+  せっかくお茶の準備が出来たのに～～
+  Talk スペクター(ファイブスター物語)
+  Ｚｚｚｚ………
   End
 Case 38
   StartBGM FSS.mid
-  Talk �f�B���o���[
-  �c�I������̂��H
-  Talk ���C�����X�J
-  �́A���̕ӂ肪��������
-  Talk �f�B���o���[
-  �܂��ǂ��낤�c
-  �܂��ǂ��낤�c�����A���ԂƂĖ����ł͂Ȃ��̂�
-  �܂��ǂ��낤�c�����A���ԂƂĖ����ł͂Ȃ��̂��B;�����̂��Ȃ��̓����c���҂��Ă��邼
-  Talk ���C�����X�J
-  ���C���������A�o���[�l�B;�������͂����҂ɂ��������܂��傤��
+  Talk ディ＝バロー
+  …終了するのか？
+  Talk メイユ＝スカ
+  は、この辺りが潮時かと
+  Talk ディ＝バロー
+  まぁ良かろう…
+  まぁ良かろう…だが、時間とて無限ではないのだ
+  まぁ良かろう…だが、時間とて無限ではないのだ。;次よりのそなたの働き…期待しているぞ
+  Talk メイユ＝スカ
+  お任せ下さい、バロー様。;次こそはご期待にお応えしましょうぞ
   End
 Case 39
   StartBGM "Macross_OP.mid Macross.mid"
-  Talk ��������
-  �͒��I SRC���I������悤�Ƃ��Ă��܂�
-  Talk �u���[�m���i���O���[�o��
-  ���I�H
-  Talk �L�����L���r���t
-  �r���Ŏ~�߂��Ⴄ�Ȃ�ď�Ȃ����
-  Talk �V���~�[���~���I��
-  �{����˂�
-  Talk ���@�l�b�T�����C�A�[�h
-  ��Δގ��ɂ͂������Ȃ��^�C�v�ˁI
-  Talk �N���[�f�B�A�����T�[��
-  �܂����낢��Ɠs���������ł��傤�B���ق��Ă����Ȃ�����
-  Talk �V���~�[���~���I��
-  �͂���
-  Talk �L�����L���r���t
-  �d���Ȃ���ˁI
-  Talk ���@�l�b�T�����C�A�[�h
-  �ł��Ȃ�ׂ������ĊJ���Ă�
+  Talk 早瀬未沙
+  艦長！ SRCが終了されようとしています
+  Talk ブルーノ＝Ｊ＝グローバル
+  何！？
+  Talk キム＝キャビロフ
+  途中で止めちゃうなんて情けないわね
+  Talk シャミー＝ミリオム
+  本当よねぇ
+  Talk ヴァネッサ＝レイアード
+  絶対彼氏にはしたくないタイプね！
+  Talk クローディア＝ラサール
+  まあいろいろと都合があるんでしょう。勘弁してあげなさいな
+  Talk シャミー＝ミリオム
+  はぁい
+  Talk キム＝キャビロフ
+  仕方ないわね！
+  Talk ヴァネッサ＝レイアード
+  でもなるべく早く再開してね
   End
 Case 40
   StartBGM Macross.mid
-  Talk �~���A���t�@���[�i(�ʏ�)
-  �}�b�N�X�I SRC���I������悤�Ƃ��Ă��邼�I�I
-  Talk �}�N�V�~���A�����W�[�i�X(�ʏ�)
-  �~���A�A��̉��������񂾁H
-  Talk �~���A���t�@���[�i(�ʏ�)
-  �f�[�^�̃Z�[�u��I�񂾂̂����c�c
-  Talk �}�N�V�~���A�����W�[�i�X(�ʏ�)
-  �����SRC�̏I���I;�f�[�^�Z�[�u�͂������Ȃ́I�I
-  Talk �~���A���t�@���[�i(�ʏ�)
-  �����Ȃ̂��H;�c�c��������ǂ�������ǂ��̂��H
-  Talk �}�N�V�~���A�����W�[�i�X(�ʏ�)
-  �����I��邵���Ȃ��ˁc�c;�v���C���ĊJ���Ă����̂�҂Ƃ�
-  Talk �~���A���t�@���[�i(�ʏ�)
-  �킩�����A�撣���Ă���
+  Talk ミリア＝ファリーナ(通常)
+  マックス！ SRCが終了されようとしているぞ！！
+  Talk マクシミリアン＝ジーナス(通常)
+  ミリア、一体何をしたんだ？
+  Talk ミリア＝ファリーナ(通常)
+  データのセーブを選んだのだが……
+  Talk マクシミリアン＝ジーナス(通常)
+  それはSRCの終了！;データセーブはこっちなの！！
+  Talk ミリア＝ファリーナ(通常)
+  そうなのか？;……ここからどうしたら良いのだ？
+  Talk マクシミリアン＝ジーナス(通常)
+  もう終わるしかないね……;プレイを再開してくれるのを待とう
+  Talk ミリア＝ファリーナ(通常)
+  わかった、頑張ってくれ
   End
 Case 41
   StartBGM Macross.mid
-  Talk �J���W�����N�����V�F�� 
-  �c�cSRC�𒆎~����I�H:;�c�c�����A��Y���I �����グ���I
-  Talk �I�C�O��(�}�N���X)
-  ���`�e���A�����I����ŁH
-  Talk �J���W�����N�����V�F�� 
-  �d���ˁ[����I �v���C���[���X�̖��߂��c�c:;�����̏��͌������Ă�邪�A���͂����͂����Ȃ����c�c
-  Talk �I�C�O��(�}�N���X)
-  �e���ɂ���肪��������ł������H
-  Talk �J���W�����N�����V�F�� 
-  ���邹���I �P�ނ��I�I
+  Talk カムジン＝クラヴシェラ 
+  ……SRCを中止せよ！？:;……くそ、野郎共！ 引き上げだ！
+  Talk オイグル(マクロス)
+  え～親分、もう終わるんで？
+  Talk カムジン＝クラヴシェラ 
+  仕方ねーだろ！ プレイヤー直々の命令だ……:;今日の所は見逃してやるが、次はこうはいかないぜ……
+  Talk オイグル(マクロス)
+  親分にも苦手があったんですかい？
+  Talk カムジン＝クラヴシェラ 
+  うるせえ！ 撤退だ！！
   End
 Case 42
   StartBGM Boyfriend is Pilot.mid
-  Talk �������~�����C
-  �F���񂱂�ɂ���A�������~�����C�ł�
-  �c�c����H
-  Talk �������~�����C(����)
-  SRC�~�߂��Ⴄ��ł����I�H
-  Talk �������~�����C(�߂���)
-  �����c���������ĂȂ��̂ˁc�c
-  Talk �������~�����C(������)
-  �c�c�c�c�c�c
-  Talk �������~�����C(���ӊ�)
-  �Ȃ�ĂˁI
-  Talk �������~�����C(�Ί�)
-  �Ȃ�ĂˁI ��k�ł�
-  Talk �������~�����C
-  ����ł́A���̃v���C�܂ł������x��ŉ�����
-  Talk �������~�����C(�Ί�)
-  ���ꂶ���
+  Talk リン＝ミンメイ
+  皆さんこんにちわ、リン＝ミンメイです
+  ……あら？
+  Talk リン＝ミンメイ(驚き)
+  SRC止めちゃうんですか！？
+  Talk リン＝ミンメイ(悲しみ)
+  そう…私を愛してないのね……
+  Talk リン＝ミンメイ(流し目)
+  ………………
+  Talk リン＝ミンメイ(得意顔)
+  なんてね！
+  Talk リン＝ミンメイ(笑顔)
+  なんてね！ 冗談です
+  Talk リン＝ミンメイ
+  それでは、次のプレイまでゆっくり休んで下さい
+  Talk リン＝ミンメイ(笑顔)
+  それじゃね
   End
 Case 43
   StartBGM Twinbee.mid
-  Talk �}�h�J(�c�C���r�[)
-  �Q�[�����I����Ă����ł��傤�H;�悩�����玄�̂��X�ɗ��ĉ�����
-  ���������g���ƏĂ����ẴN�b�L�[��p�ӂ��Ă��҂����Ă��܂�
-  Talk �p�X�e��(�c�C���r�[)
-  �c�c
-  �~�߂������������c
+  Talk マドカ(ツインビー)
+  ゲームが終わってお疲れでしょう？;よかったら私のお店に来て下さい
+  おいしい紅茶と焼きたてのクッキーを用意してお待ちしています
+  Talk パステル(ツインビー)
+  ……
+  止めた方がいいわよ…
   End
 Case 44
   StartBGM SRWOGS_HeroWars.mid
-  Talk �M���A�����C�F�[�K�[
-  ��c�c�����́H
-  SRC���I������v���C���[�ɉ����ꌾ�H;���������̂͂��܂蓾�ӂł͂Ȃ��Ă��ȁc�c
-  �c�c�c�c�c�c
-  �{�Ƃ�SRW�V���[�Y����낵���I
-  �������A����ł͂����̐�`���ȁc�c
+  Talk ギリアム＝イェーガー
+  ん……ここは？
+  SRCを終了するプレイヤーに何か一言？;こういうのはあまり得意ではなくてだな……
+  ………………
+  本家のSRWシリーズもよろしく！
+  しかし、これではただの宣伝だな……
   End
 EndSw
 Return
 
 
-### �Q�[���I�[�o�[���� ###----------------------------------------------------------------
+### ゲームオーバー処理 ###----------------------------------------------------------------
 
-��{GameOver:
+基本GameOver:
 
 Switch Random(8)
 
 Case 1
-  Talk �}�T�L���A���h�[(�U��)
-  �Ȃ�ł��A����Ȃ��񂩂��B�������肵�ȁI
-  Talk �}�T�L���A���h�[
-  �f�`�l�d �n�u�d�q����
+  Talk マサキ＝アンドー(攻撃)
+  なんでえ、そんなもんかい。しっかりしな！
+  Talk マサキ＝アンドー
+  ＧＡＭＥ ＯＶＥＲだぜ
   End
 Case 2
-  Talk �z��������������
-  �����A�C�s������Ȃ���
-  �f�`�l�d �n�u�d�q��
+  Talk ホワン＝ヤンロン
+  やれやれ、修行が足りないな
+  ＧＡＭＥ ＯＶＥＲだ
   End
 Case 3
-  Talk �e���b�e�B���m�[���o�b�N
-  �܂�������ˁA����ŏI���Ȃ́H
-  �f�`�l�d �n�u�d�q�ł�
+  Talk テュッティ＝ノールバック
+  まいったわね、それで終わりなの？
+  ＧＡＭＥ ＯＶＥＲです
   End
 Case 4
 #  PlaySound suchie_08.wav
-  Talk �~�I���T�X�K(�ق��H)
-  ������Ƃ��A�����Ȃ��񂶂�Ȃ��H
-  Talk �~�I���T�X�K
-  �f�`�l�d �n�u�d�q����
+  Talk ミオ＝サスガ(ほえ？)
+  ちょっとぉ、そりゃないんじゃない？
+  Talk ミオ＝サスガ
+  ＧＡＭＥ ＯＶＥＲだよ
   End
 Case 5
-  Talk �����[�l���]���_�[�N
-  ������Ă񂾂�
-  �f�`�l�d �n�u�d�q����
+  Talk リューネ＝ゾルダーク
+  何やってんだか
+  ＧＡＭＥ ＯＶＥＲだよ
   End
 Case 6
-  Talk �V���E���V���J��
-  ���قǂɂ�����܂���ˁc�c
-  �f�`�l�d �n�u�d�q�ł�
+  Talk シュウ＝シラカワ
+  口ほどにもありませんね……
+  ＧＡＭＥ ＯＶＥＲです
   End
 Case 7
-  Talk �C�c�L���J�U�}
-  ����Ȏ��ɂȂ��Ă��܂��Ďc�O�ł�����ǁA���͂����Ɛ������܂��B�撣���ĉ�����
-  ���̍��̌�A;�Ί�ł���ł��邱�Ƃ�M���Ă��܂�
+  Talk イツキ＝カザマ
+  こんな事になってしまって残念ですけれど、次はきっと成功します。頑張って下さい
+  次の作戦の後、;笑顔でお会いできることを信じています
   End
 Case 8
-  Talk �X�y�N�^�[(�t�@�C�u�X�^�[����)
-  ���`�`�`���I;���ꂵ���̎��ŉ�������������Ă�ł₵��I
-  ���`�`�`���I;���ꂵ���̎��ŉ�������������Ă�ł₵��I;��Ȃ��ł�񂷁I�I
-  Talk �|�[�^�[(�t�@�C�u�X�^�[����)
-  �f�`�l�d�n�u�d�q�f�X�`
+  Talk スペクター(ファイブスター物語)
+  た～～～っ！;これしきの事で何がたがたやってんでやしょ！
+  た～～～っ！;これしきの事で何がたがたやってんでやしょ！;情けないでやんす！！
+  Talk ポーター(ファイブスター物語)
+  ＧＡＭＥＯＶＥＲデス～
   End
 EndSw
 
@@ -641,127 +641,127 @@ StartBGM Continue.mid
 Switch Random(10)
 
 Case 1 2 3
-  Talk �v���V�A���[�m�T�L�X(����)
-  ���`���A���炵�Ȃ��Ȃ����Z�����
-  Talk �v���V�A���[�m�T�L�X(����P�W)
-  �悵�A�����͂�݂��Ă����邩��������;�`�������W���悤��I �ˁH
+  Talk プレシア＝ゼノサキス(困り)
+  あ～あ、だらしないなあお兄ちゃん
+  Talk プレシア＝ゼノサキス(困り１８)
+  よし、私が力を貸してあげるからもう一回;チャレンジしようよ！ ね？
   End
 
   Ask
-  �悤���I ���x���W���I�I
-  ����A���������c
+  ようし！ リベンジだ！！
+  いや、もういい…
   End
  
   PlaySound Type.wav
 
-  If �I�� = 1 Then
-    Talk �v���V�A���[�m�T�L�X(�Ί�)
-    �������Ȃ�������I ���ꂶ�Ⴂ����I
+  If 選択 = 1 Then
+    Talk プレシア＝ゼノサキス(笑顔)
+    そうこなくっちゃ！ それじゃいくよ！
     End
     QuickLoad
   Endif
 
-  Talk �v���V�A���[�m�T�L�X(�Ղ񂷂�)
-  ���`���I ��߂��Ⴄ�́I�H
-  Talk �v���V�A���[�m�T�L�X(�v��)
-  �ł��܂����傤���Ȃ����B;���Z�����ɂ��������񂾂낤����
-  Talk �v���V�A���[�m�T�L�X(�Ί�)
-  ���ꂶ��A���̃v���C�ŉ����
+  Talk プレシア＝ゼノサキス(ぷんすか)
+  え～っ！ やめちゃうの！？
+  Talk プレシア＝ゼノサキス(思案)
+  でもまあしょうがないか。;お兄ちゃんにも事情があるんだろうしね
+  Talk プレシア＝ゼノサキス(笑顔)
+  それじゃ、次のプレイで会おうね
   End
 Case 4 5 6
-  Talk �~�I���T�X�K(�ɂ₯)
-  ����`�������������B;�����܂Ŕh��ɎU���Ă����ƌ��Ă邱�������y������
-  Talk �~�I���T�X�K
-  �c�Ȃ�ď�k�͂Ƃ������A�R���e�B�j���[����H
-  Talk �t�@�~���A�E�V���[�W
-  ���I�H �t���A�}�W����Ȃ�������ł������H
+  Talk ミオ＝サスガ(にやけ)
+  いや～お見事お見事。;こうまで派手に散ってくれると見てるこっちも楽しいわ
+  Talk ミオ＝サスガ
+  …なんて冗談はともかく、コンティニューする？
+  Talk ファミリア・ショージ
+  え！？ 師匠、マジじゃなかったんですかい？
   Suspend
   PlaySound Punch.wav
-  Talk �V�X�e��
-  �o�L�b�I
-  Talk �~�I���T�X�K
-  �n���̌������Ƃ͂��Ă����A�ǂ�����H
+  Talk システム
+  バキッ！
+  Talk ミオ＝サスガ
+  馬鹿の言うことはさておき、どうする？
   End
 
   Ask
-  ���_�R���e�B�j���[
-  ���C�����Ȃ�����c
+  無論コンティニュー
+  やる気無くなったよ…
   End
 
   PlaySound Type.wav
  
-  If �I�� = 1 Then
-    Talk �~�I���T�X�K(�����ւ�)
-    ���`�A����ς����łȂ�������ˁI ���ꂶ��撣���Ăˁ`
+  If 選択 = 1 Then
+    Talk ミオ＝サスガ(えっへん)
+    お～、やっぱそうでなくっちゃね！ それじゃ頑張ってね～
     End
     QuickLoad
   Endif
 
   #PlaySound suhcie_14.wav
-  Talk �~�I���T�X�K(�ق��H)
-  ���H �����Q���Ⴄ�킯�H ������Ƒ����񂶂�Ȃ��H
-  �܂���肷���͑̂ɂ悭�Ȃ������
-  Talk �t�@�~���A�E�V���[�W
-  �t�������Ȃ��Ȏ���`�Ă��������܂ւ�Ł`
+  Talk ミオ＝サスガ(ほえ？)
+  え？ もう寝ちゃうわけ？ ちょっと早いんじゃない？
+  まあやりすぎは体によくないからね
+  Talk ファミリア・ショージ
+  師匠がそないな事ゆ～ても似合いまへんで～
   Suspend
   PlaySound Punch(2).wav
-  Talk �V�X�e��
-  �h�J�b�I �o�L�b�I�I
+  Talk システム
+  ドカッ！ バキッ！！
   Suspend
 
   #PlaySound suhcie_13.wav
-  Talk �~�I���T�X�K(�Ί�)
-  �͂��A�����l�I ����������΂��Ă�ˁI
-  Talk �t�@�~���A�E�V���[�W
-  �L���E�c�c�c
+  Talk ミオ＝サスガ(笑顔)
+  はい、お疲れ様！ 明日もがんばってよね！
+  Talk ファミリア・ショージ
+  キュウ………
   End
 Case 7 8 9
-  Talk �����[�l���]���_�[�N
-  ������`�c�O�������ˁB;�ł��A���̋C�ɂȂ�΂�����x���Ȃ��������o�����B�ǂ�����H
+  Talk リューネ＝ゾルダーク
+  あちゃ～残念だったね。;でも、その気になればもう一度やりなおす事が出来るよ。どうする？
   End
 
   Ask
-  �n�j�I ����Ă�邺�I
-  ����A��߂Ƃ�
+  ＯＫ！ やってやるぜ！
+  いや、やめとく
   End
 
   PlaySound Type.wav
 
-  If �I�� = 1 Then
-    Talk �����[�l���]���_�[�N(�Ί�)
-    �������Ȃ�������I ���ꂶ��撣���ĂˁI
+  If 選択 = 1 Then
+    Talk リューネ＝ゾルダーク(笑顔)
+    そうこなくっちゃ！ それじゃ頑張ってね！
     End
     QuickLoad
   Endif
 
-  Talk �����[�l���]���_�[�N
-  ���H ��߂Ƃ��́H;�܂���݂����ɂ����͂���������
-  Talk �����[�l���]���_�[�N(�Ί�)
-  ���Ⴀ���x�̓x�X�g�R���f�B�V�����Ŋ撣��Ȃ�I;���ꂶ��܂���
+  Talk リューネ＝ゾルダーク
+  え？ やめとくの？;まあやみくもにやるよりはいいかもね
+  Talk リューネ＝ゾルダーク(笑顔)
+  じゃあ今度はベストコンディションで頑張りなよ！;それじゃまたね
   End
 Case 10
   StartBGM T_Memorial_Saki.mid
-  Talk ���썹��
-  ������߂Ȃ��ŁI;����΂�ΐ�΂ɃN���A�ł����I;���ƈꏏ�ɃG���f�B���O��ڎw���܂��傤�I�I
+  Talk 虹野沙希
+  あきらめないで！;がんばれば絶対にクリアできるわ！;私と一緒にエンディングを目指しましょう！！
   End
 
   Ask
-  ���삳��I �I���͂�邺�I�I
-  �R���s���������c�c
+  虹野さん！ オレはやるぜ！！
+  燃え尽きたっす……
   End
  
   PlaySound Type.wav
 
-  If �I�� = 1 Then
-    Talk ���썹��
-    ������A�����ł���΂��ĂˁI
+  If 選択 = 1 Then
+    Talk 虹野沙希
+    そうよ、根性でがんばってね！
     End
     QuickLoad
   Endif
 
-  Talk ���썹��
-  �񑩂�������Ȃ��I;�ꏏ�ɃG���f�B���O�����悤���Ă���������Ȃ��I�I
-  �c�c���߂�Ȃ����A�����߂���������ˁB�ł��A�M���Ă邩��ˁI
+  Talk 虹野沙希
+  約束したじゃない！;一緒にエンディングを見ようっていったじゃない！！
+  ……ごめんなさい、言い過ぎちゃったね。でも、信じてるからね！
   End
 EndSw
 Return

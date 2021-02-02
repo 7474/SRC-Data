@@ -1,36 +1,36 @@
 
 
-# �ϐg���@�h���h���œG��|�����Ƃ��ɑ���Ƀ��b�Z�[�W�𒝂点�Ȃ����߂̏����ł��B
+# 変身魔法ドルドルで敵を倒したときに相手にメッセージを喋らせないための処理です。
 
-�퓬�A�j��_RSA_�h���h������:
-SetMessage ����p�C���b�g �j�� "-"
-SetMessage ����p�C���b�g �E�o "-"
+戦闘アニメ_RSA_ドルドル処理:
+SetMessage 相手パイロット 破壊 "-"
+SetMessage 相手パイロット 脱出 "-"
 Return
 
 
-# �ȉ��̓��j�t�B���̍��̋Z�u�����`�v�̃A�j���Ŗ�������U�����Ă��炤���߂̏����ł��B
+# 以下はレニフィルの合体技「増幅～」のアニメで味方から攻撃してもらうための処理です。
 
-�퓬�A�j��_RSA_�����t���������P:
-Set RSA_�^�[�Q�b�g�ۑ� ���胆�j�b�g�h�c
-SelectTarget �Ώۃ��j�b�g�h�c
-Select ���̐X�̃V���J
+戦闘アニメ_RSA_増幅フラム処理１:
+Set RSA_ターゲット保存 相手ユニットＩＤ
+SelectTarget 対象ユニットＩＤ
+Select 黒の森のシルカ
 Return
 
-�퓬�A�j��_RSA_�����t���������Q:
-Select ���胆�j�b�g�h�c
-SelectTarget RSA_�^�[�Q�b�g�ۑ�
-UnSet RSA_�^�[�Q�b�g�ۑ�
+戦闘アニメ_RSA_増幅フラム処理２:
+Select 相手ユニットＩＤ
+SelectTarget RSA_ターゲット保存
+UnSet RSA_ターゲット保存
 Return
 
-�퓬�A�j��_RSA_�����A���E�n�E���������P:
-Set RSA_�^�[�Q�b�g�ۑ� ���胆�j�b�g�h�c
-SelectTarget �Ώۃ��j�b�g�h�c
-Select �����̐X�̃|�[����
+戦闘アニメ_RSA_増幅アム・ハ・ロワ処理１:
+Set RSA_ターゲット保存 相手ユニットＩＤ
+SelectTarget 対象ユニットＩＤ
+Select 西風の森のポーリン
 Return
 
-�퓬�A�j��_RSA_�����A���E�n�E���������Q:
-Select ���胆�j�b�g�h�c
-SelectTarget RSA_�^�[�Q�b�g�ۑ�
-UnSet RSA_�^�[�Q�b�g�ۑ�
+戦闘アニメ_RSA_増幅アム・ハ・ロワ処理２:
+Select 相手ユニットＩＤ
+SelectTarget RSA_ターゲット保存
+UnSet RSA_ターゲット保存
 Return
 

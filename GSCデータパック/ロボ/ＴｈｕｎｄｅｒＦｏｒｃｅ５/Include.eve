@@ -1,25 +1,25 @@
 
-TF5_Reffi‰ñ”ğ:
+TF5_Reffiå›é¿:
 	Local i
 
-	AutoTalk Reffi(‚s‚e‚T) ŒÅ’è
-	0.1;@
+	AutoTalk Reffi(ï¼´ï¼¦ï¼•) å›ºå®š
+	0.1;ã€€
 	Suspend
 	Playsound Cannon.wav
 	For i = 17 to 33
 	
 		AutoTalk
-		0.1;Speed 0$(i * 3)“
+		0.1;Speed 0$(i * 3)ï¼…
 		Suspend
 	
 	Next
 	AutoTalk
-	0.1;Speed 100“
+	0.1;Speed 100ï¼…
 	Suspend
 	
-	Call í“¬ƒAƒjƒ_‰ñ”ğ”­“®
+	Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å›é¿ç™ºå‹•
 	AutoTalk
-	0.2;Speed 100“
+	0.2;Speed 100ï¼…
 	Suspend
 	
 
@@ -27,10 +27,10 @@ Return
 
 
 
-TF5_ReffiË’öŠO:
+TF5_Reffiå°„ç¨‹å¤–:
 
-	AutoTalk Reffi(‚s‚e‚T) ŒÅ’è
-	0.1;@
+	AutoTalk Reffi(ï¼´ï¼¦ï¼•) å›ºå®š
+	0.1;ã€€
 	Suspend
 	Playsound Type(Digital)(4).wav
 	AutoTalk
@@ -42,19 +42,19 @@ TF5_ReffiË’öŠO:
 	Suspend
 	Playsound Type(Digital)(4).wav
 	AutoTalk
-	0.2;<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!.Code@@@ F$(Args(1))
+	0.2;<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!.Codeã€€ã€€ã€€ ï¼š$(Args(1))
 	Suspend
 	Playsound Type(Digital)(4).wav
 	AutoTalk
-	0.4;<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!.Code@@@ F$(Args(1)).Weapon@@F$(Args(2))
+	0.4;<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!.Codeã€€ã€€ã€€ ï¼š$(Args(1)).Weaponã€€ã€€ï¼š$(Args(2))
 	Suspend
 
 Return
 
-TF5_ReffiUŒ‚:
+TF5_Reffiæ”»æ’ƒ:
 
-	AutoTalk Reffi(‚s‚e‚T) ŒÅ’è
-	0.1;@
+	AutoTalk Reffi(ï¼´ï¼¦ï¼•) å›ºå®š
+	0.1;ã€€
 	Suspend
 	Playsound Type(Digital)(4).wav
 	AutoTalk
@@ -87,10 +87,10 @@ TF5_ReffiUŒ‚:
 
 Return
 
-TF5_ReffiƒV[ƒ‹ƒh–hŒä:
-TF5_ReffiUŒ‚–³Œø‰»:
-	AutoTalk Reffi(‚s‚e‚T) ŒÅ’è
-	0.1;@
+TF5_Reffiã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡:
+TF5_Reffiæ”»æ’ƒç„¡åŠ¹åŒ–:
+	AutoTalk Reffi(ï¼´ï¼¦ï¼•) å›ºå®š
+	0.1;ã€€
 	Suspend
 	Playsound Type(Digital)(4).wav
 	AutoTalk
@@ -107,9 +107,9 @@ TF5_ReffiUŒ‚–³Œø‰»:
 Return
 
 
-TF5_Reffi”j‰ó:
-	AutoTalk Reffi(‚s‚e‚T) ŒÅ’è
-	0.1;@
+TF5_Reffiç ´å£Š:
+	AutoTalk Reffi(ï¼´ï¼¦ï¼•) å›ºå®š
+	0.1;ã€€
 	Suspend
 	Playsound Type(Digital)(4).wav
 	AutoTalk
@@ -127,13 +127,13 @@ Return
 
 
 
-TF5_Reffiƒ_ƒ[ƒW¬:
+TF5_Reffiãƒ€ãƒ¡ãƒ¼ã‚¸å°:
 
 	Local i
 	Local j
 
-	AutoTalk Reffi(‚s‚e‚T) ŒÅ’è
-	0.1;@
+	AutoTalk Reffi(ï¼´ï¼¦ï¼•) å›ºå®š
+	0.1;ã€€
 	AutoTalk
 	<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!
 	Suspend
@@ -141,12 +141,12 @@ TF5_Reffiƒ_ƒ[ƒW¬:
 
 Return
 
-TF5_Reffiƒ_ƒ[ƒW’†:
+TF5_Reffiãƒ€ãƒ¡ãƒ¼ã‚¸ä¸­:
 	Local i
 	Local j
 
-	AutoTalk Reffi(‚s‚e‚T) ŒÅ’è
-	0.1;@
+	AutoTalk Reffi(ï¼´ï¼¦ï¼•) å›ºå®š
+	0.1;ã€€
 	Suspend
 	Playsound Alarm.wav
 	For i = 1 to 10
@@ -154,13 +154,13 @@ TF5_Reffiƒ_ƒ[ƒW’†:
 		Set j (Random(Args(1)) + 10)
 	
 		AutoTalk
-		0.1;<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!.Damage Rate 0$(j)“
+		0.1;<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!.Damage Rate 0$(j)ï¼…
 		Suspend
 	
 	Next
 	
 	AutoTalk
-	0.1;<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!.Damage Rate 0$(Args(1))“
+	0.1;<COLOR=RGB(255,0,0)>===ALERT!===<COLOR=RGB(0,0,0)>.The enemy is approaching fast!.Damage Rate 0$(Args(1))ï¼…
 	Suspend
 	
 
@@ -168,24 +168,24 @@ Return
 
 
 
-TF5_Reffiƒ_ƒ[ƒW‘å:
+TF5_Reffiãƒ€ãƒ¡ãƒ¼ã‚¸å¤§:
 	Local i
 
-	AutoTalk Reffi(‚s‚e‚T) ŒÅ’è
-	0.1;@
+	AutoTalk Reffi(ï¼´ï¼¦ï¼•) å›ºå®š
+	0.1;ã€€
 	Suspend
 	Playsound Alarm.wav
 	For i = 1 to 10
 	
 		AutoTalk
-		0.1;<COLOR=RGB(255,0,0)>ALERT!@ALERT!@ALERT!@ALERT!@ALERT!.@.ALERT!@ALERT!@ALERT!@ALERT!@ALERT!<COLOR=RGB(0,0,0)>
-		0.1;<COLOR=RGB(255,0,0)>@.ALERT!@ALERT!@ALERT!@ALERT!@ALERT!.@.ALERT!@ALERT!@ALERT!@ALERT!@ALERT!<COLOR=RGB(0,0,0)>
+		0.1;<COLOR=RGB(255,0,0)>ALERT!ã€€ALERT!ã€€ALERT!ã€€ALERT!ã€€ALERT!.ã€€.ALERT!ã€€ALERT!ã€€ALERT!ã€€ALERT!ã€€ALERT!<COLOR=RGB(0,0,0)>
+		0.1;<COLOR=RGB(255,0,0)>ã€€.ALERT!ã€€ALERT!ã€€ALERT!ã€€ALERT!ã€€ALERT!.ã€€.ALERT!ã€€ALERT!ã€€ALERT!ã€€ALERT!ã€€ALERT!<COLOR=RGB(0,0,0)>
 		Suspend
 	
 	Next
 	
 	AutoTalk
-	0.1;<COLOR=RGB(255,0,0)>ALERT!@ALERT!@ALERT!@ALERT!@ALERT!.@.ALERT!@ALERT!@ALERT!@ALERT!@ALERT!<COLOR=RGB(0,0,0)>
+	0.1;<COLOR=RGB(255,0,0)>ALERT!ã€€ALERT!ã€€ALERT!ã€€ALERT!ã€€ALERT!.ã€€.ALERT!ã€€ALERT!ã€€ALERT!ã€€ALERT!ã€€ALERT!<COLOR=RGB(0,0,0)>
 	Suspend
 
 Return

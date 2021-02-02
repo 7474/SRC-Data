@@ -1,24 +1,24 @@
 
 ############
-VANMAS_ƒgƒbƒvƒXƒsƒ“ƒAƒjƒ:
+VANMAS_ãƒˆãƒƒãƒ—ã‚¹ãƒ”ãƒ³ã‚¢ãƒ‹ãƒ¡:
 Local C_X
 Local C_Y
 local i
 local j
 Local ANG
 
-Set C_X WX(‘ÎÛƒ†ƒjƒbƒg)
-Set C_Y WY(‘ÎÛƒ†ƒjƒbƒg)
+Set C_X WX(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ)
+Set C_Y WY(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ)
 
 
- #Center ‘ÎÛƒpƒCƒƒbƒg
+ #Center å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ
  For j = 1 to 3
  PlaySOund Swing.wav
  FOr i = 1 to 8
  ClearPicture
  Set ANG (3.141592 * (i * 45) / 180)
- PaintPicture Anime\Common\EFFECT_StonePiller04.bmp (C_X + (cos(ANG) * -32)) (C_Y + (sin(ANG) * -32)) 32 32 “§‰ß ¶‰ñ“] (i * -45 + 90) _ColorTime()
- PaintPicture Anime\Common\EFFECT_StonePiller04.bmp (C_X + (cos(ANG) * 32)) (C_Y + (sin(ANG) * 32)) 32 32 “§‰ß ‰E‰ñ“] (i * 45 + 90) _ColorTime()
+ PaintPicture Anime\Common\EFFECT_StonePiller04.bmp (C_X + (cos(ANG) * -32)) (C_Y + (sin(ANG) * -32)) 32 32 é€é å·¦å›è»¢ (i * -45 + 90) _ColorTime()
+ PaintPicture Anime\Common\EFFECT_StonePiller04.bmp (C_X + (cos(ANG) * 32)) (C_Y + (sin(ANG) * 32)) 32 32 é€é å³å›è»¢ (i * 45 + 90) _ColorTime()
  Refresh
  Wait 0.2
  Next

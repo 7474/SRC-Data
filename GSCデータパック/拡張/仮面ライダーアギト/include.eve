@@ -1,16 +1,16 @@
-# �l�Ԍ`�Ԃ���ϐg�A�r���e�B��p�����ꍇ�̃X���C�_�[���[�h�^�[������p�ł��B
-# �l�Ԍ`�Ԃ��o�����ڃA�M�g�𐶐������ꍇ��A
-# �G�����ɓ����ɃX���C�_�[���[�h�g�p�\�ȃA�M�g�����݂���ꍇ�͌듮��������N�������ߎg�p���Ȃ��ŉ������B
+# 人間形態から変身アビリティを用いた場合のスライダーモードターン制御用です。
+# 人間形態を経ず直接アギトを生成した場合や、
+# 敵味方に同時にスライダーモード使用可能なアギトが存在する場合は誤動作を引き起こすため使用しないで下さい。
 
-*�g�p PilotID(���ʃ��C�_�[�A�M�g�E�}�V���g���l�C�_�[) �X���C�_�[���[�h:
-set �X���C�_�[���[�h�ό`�� 1
-set �ϐg���A�M�g�w�c Party(�Ώۃ��j�b�g�h�c)
+*使用 PilotID(仮面ライダーアギト・マシントルネイダー) スライダーモード:
+set スライダーモード変形中 1
+set 変身時アギト陣営 Party(対象ユニットＩＤ)
 Exit
 
-*�^�[�� �S �ϐg���A�M�g�w�c:
-If �X���C�_�[���[�h�ό`�� = 1 Then
-	Transform PilotID(�}�V���g���l�C�_�[�E�X���C�_�[���[�h) ���ʃ��C�_�[�A�M�g�E�}�V���g���l�C�_�[
-	set �X���C�_�[���[�h�ό`�� 0
+*ターン 全 変身時アギト陣営:
+If スライダーモード変形中 = 1 Then
+	Transform PilotID(マシントルネイダー・スライダーモード) 仮面ライダーアギト・マシントルネイダー
+	set スライダーモード変形中 0
 EndIf
 Exit
 

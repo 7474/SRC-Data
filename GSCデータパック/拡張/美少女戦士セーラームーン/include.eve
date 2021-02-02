@@ -1,9 +1,9 @@
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_SM_ƒXƒpƒCƒ‰ƒ‹€”õ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_SM_ã‚¹ãƒ‘ã‚¤ãƒ©ãƒ«æº–å‚™:
 
-#ˆø”‚P  ‘ÎÛƒ†ƒjƒbƒg‚h‚c
-#ˆø”‚Q  ‰æ‘œ–¼
+#å¼•æ•°ï¼‘  å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+#å¼•æ•°ï¼’  ç”»åƒå
 Local UID
 Local BMP_FILE
 Local BMP_FILE2
@@ -18,7 +18,7 @@ Local RAD
 
 _UnSetBattleAnimeValue
 
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 Set BMP_FILE "Weapon\EFFECT_FancyMagicRod01.bmp"
 Set TILE_FILE _GetTileName(UID)
 _CenteringCheck UID
@@ -36,7 +36,7 @@ Set R 24
 	  Set I_X (R * Cos(RAD * (i * 10)))
 	  Set I_Y (R * Sin(RAD * (i * 10)) * 0.8)
 	  ClearPicture
-	   PaintPicture BMP_FILE (C_X + I_X) (C_Y + I_Y) ‰E‰ñ“] (i * 45) “§‰ß _ColorTime()
+	   PaintPicture BMP_FILE (C_X + I_X) (C_Y + I_Y) å³å›è»¢ (i * 45) é€é _ColorTime()
 	  Refresh
 	  Wait Until (i * 0.3)
 	  Incr R -0.5
@@ -46,10 +46,10 @@ Set R 24
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_SM_ƒXƒpƒCƒ‰ƒ‹UŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_SM_ã‚¹ãƒ‘ã‚¤ãƒ©ãƒ«æ”»æ’ƒ:
 
-#ˆø”‚P  ‘ÎÛƒ†ƒjƒbƒg‚h‚c
-#ˆø”‚Q  ‰æ‘œ–¼
+#å¼•æ•°ï¼‘  å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+#å¼•æ•°ï¼’  ç”»åƒå
 
 Local UID
 Local BMP_FILE
@@ -62,7 +62,7 @@ Local T_COL1 = _ColorTime(1)
 
 _UnSetBattleAnimeValue
 
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 Set BMP_FILE _GetBMPName(UID)
 Set TILE_FILE _GetTileName(UID)
 _CenteringCheck UID
@@ -81,18 +81,18 @@ For j = 1 To 3
 	  Switch i
 	  Case 1
 		Playsound Swing.wav
-	    PaintPicture BMP_FILE C_X C_Y “§‰ß _ColorTime()
+	    PaintPicture BMP_FILE C_X C_Y é€é _ColorTime()
 	  Case 2 10
-	    PaintPicture BMP_FILE (C_X + 4) C_Y 24 32 “§‰ß _ColorTime()
+	    PaintPicture BMP_FILE (C_X + 4) C_Y 24 32 é€é _ColorTime()
 	  Case 3 9
-	    PaintPicture BMP_FILE (C_X + 8) C_Y 16 32 “§‰ß _ColorTime()
+	    PaintPicture BMP_FILE (C_X + 8) C_Y 16 32 é€é _ColorTime()
 	  Case 4 8
-	    PaintPicture BMP_FILE (C_X + 8) C_Y 16 32 “§‰ß ¶‰E”½“] ƒVƒ‹ƒGƒbƒg _ColorTime()
+	    PaintPicture BMP_FILE (C_X + 8) C_Y 16 32 é€é å·¦å³åè»¢ ã‚·ãƒ«ã‚¨ãƒƒãƒˆ _ColorTime()
 	  Case 5 7
-	    PaintPicture BMP_FILE (C_X + 4) C_Y 24 32 “§‰ß _ColorTime() ¶‰E”½“] ƒVƒ‹ƒGƒbƒg _ColorTime()
+	    PaintPicture BMP_FILE (C_X + 4) C_Y 24 32 é€é _ColorTime() å·¦å³åè»¢ ã‚·ãƒ«ã‚¨ãƒƒãƒˆ _ColorTime()
 	  Case 6
 		Playsound Swing.wav
-	    PaintPicture BMP_FILE C_X C_Y “§‰ß ¶‰E”½“] ƒVƒ‹ƒGƒbƒg _ColorTime()
+	    PaintPicture BMP_FILE C_X C_Y é€é å·¦å³åè»¢ ã‚·ãƒ«ã‚¨ãƒƒãƒˆ _ColorTime()
 	  Endsw
 	  Refresh
 	  Wait Until (i * 0.3)
@@ -102,23 +102,23 @@ Next
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_SM_ƒXƒpƒCƒ‰ƒ‹–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_SM_ã‚¹ãƒ‘ã‚¤ãƒ©ãƒ«å‘½ä¸­:
 
-#ˆø”‚P  ‘ÎÛƒ†ƒjƒbƒg‚h‚c
-#ˆø”‚Q  ‰æ‘œ–¼
-#ˆø”‚R  Œø‰Ê‰¹
+#å¼•æ•°ï¼‘  å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+#å¼•æ•°ï¼’  ç”»åƒå
+#å¼•æ•°ï¼“  åŠ¹æœéŸ³
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_SM_ƒXƒpƒCƒ‰ƒ‹‚Æ‚Ç‚ß:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_SM_ã‚¹ãƒ‘ã‚¤ãƒ©ãƒ«ã¨ã©ã‚:
 
 UpVar
 
-# ˆø”‚P ƒTƒCƒY
-# ˆø”‚Q F
-# ˆø”‚R Œø‰Ê‰¹
-# ˆø”‚S Ú‹ß
-Local UID = _GetName(‘Šèƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+# å¼•æ•°ï¼‘ ã‚µã‚¤ã‚º
+# å¼•æ•°ï¼’ è‰²
+# å¼•æ•°ï¼“ åŠ¹æœéŸ³
+# å¼•æ•°ï¼” æ¥è¿‘
+Local UID = _GetName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 Local A_SIZE A_Y
 Local ImpTime = 16
 Local Hsize
@@ -127,13 +127,13 @@ Set BMP_FILE _GetBMPName(UID)
 Set BMP_FILE2 "Anime\Ice\EFFECT_CU_Blizzard(Pink)01.bmp"
 
 	Line 0 0 480 480 BF #000000
-	PaintPicture BMP_FILE - - 64 64 “§‰ß
+	PaintPicture BMP_FILE - - 64 64 é€é
 	
 	Wait 2
 	Wait Start
 	For i = 1 To ImpTime
-		PaintPicture Anime\Common\EFFECT_Heart01.bmp - - (i * 8) (i * 8) “§‰ß
-		PaintPicture BMP_FILE - - 64 64 “§‰ß
+		PaintPicture Anime\Common\EFFECT_Heart01.bmp - - (i * 8) (i * 8) é€é
+		PaintPicture BMP_FILE - - 64 64 é€é
 	  Refresh
 	  Wait Until (i * 0.3)
 	Next
@@ -142,10 +142,10 @@ Set BMP_FILE2 "Anime\Ice\EFFECT_CU_Blizzard(Pink)01.bmp"
 	Wait Start
 	For i = 1 To 48
 		Set Hsize (i * 10 + (8 * ImpTime))
-		PaintPicture Anime\Common\EFFECT_Heart01.bmp - - Hsize Hsize “§‰ß
-		PaintPicture BMP_FILE - - (Hsize * 0.5) (Hsize * 0.5) ƒVƒ‹ƒGƒbƒg “§‰ß
-		PaintPicture BMP_FILE2 (208 - (i \ 2)) (208 + (i \ 2)) (64 - i) (64 - i) “§‰ß ‰E‰ñ“] (i * 140)
-		PaintPicture BMP_FILE (216 - (i \ 2)) (216 + (i \ 2)) (48 - i) (48 - i) –¾ “§‰ß ‰E‰ñ“] (i * -4)
+		PaintPicture Anime\Common\EFFECT_Heart01.bmp - - Hsize Hsize é€é
+		PaintPicture BMP_FILE - - (Hsize * 0.5) (Hsize * 0.5) ã‚·ãƒ«ã‚¨ãƒƒãƒˆ é€é
+		PaintPicture BMP_FILE2 (208 - (i \ 2)) (208 + (i \ 2)) (64 - i) (64 - i) é€é å³å›è»¢ (i * 140)
+		PaintPicture BMP_FILE (216 - (i \ 2)) (216 + (i \ 2)) (48 - i) (48 - i) æ˜ é€é å³å›è»¢ (i * -4)
 	  Refresh
 	  Wait Until (i * 0.3)
 	Next
@@ -154,12 +154,12 @@ Set BMP_FILE2 "Anime\Ice\EFFECT_CU_Blizzard(Pink)01.bmp"
 Return "Keep"
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_SM_ƒTƒCƒŒƒ“ƒXƒOƒŒƒCƒu‚rUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_SM_ã‚µã‚¤ãƒ¬ãƒ³ã‚¹ã‚°ãƒ¬ã‚¤ãƒ–ï¼³æ”»æ’ƒ:
 
-	#Local KP_FLG = _S_OPT_FA("•Û")
+	#Local KP_FLG = _S_OPT_FA("ä¿æŒ")
 	Local FILENAME
-	If X(‘ÎÛƒ†ƒjƒbƒg‚h‚c) < X(‘Šèƒ†ƒjƒbƒg‚h‚c) Then
-		Local LR = ¶‰E”½“]
+	If X(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) < X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) Then
+		Local LR = å·¦å³åè»¢
 	Else
 		Local LR = ""
 	EndIf
@@ -183,12 +183,12 @@ Return "Keep"
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_SM_‚l‚fƒƒfƒBƒeƒCƒVƒ‡ƒ“–½’†:
-//í“¬ƒAƒjƒ_ƒI[ƒ‰‚Ì‰ü•Ï
-# ˆø”‚P@‰æ‘œ–¼
-# ˆø”‚P@Œø‰Ê‰¹
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_SM_ï¼­ï¼§ãƒ¡ãƒ‡ã‚£ãƒ†ã‚¤ã‚·ãƒ§ãƒ³å‘½ä¸­:
+//æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚ªãƒ¼ãƒ©ã®æ”¹å¤‰
+# å¼•æ•°ï¼‘ã€€ç”»åƒå
+# å¼•æ•°ï¼‘ã€€åŠ¹æœéŸ³
 
-Local UID = _GetName(‘Šèƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 Local i
 Local B_C BMP_FILE BMP_FILE1 BMP_FILE2 SOUND
 Local N_C N_S
@@ -216,8 +216,8 @@ For i = 1 To 32
   #(BMP_FILE1 & _GetRainbowColor(k) & "0" & N_C & ".bmp")
   
   
-  PaintPicture (BMP_FILE1 & _GetRainbowColor(i) & "0" & N_C & ".bmp") - (240 - (N_S / 2)) N_S N_S “§‰ß T_COL1
-  PaintPicture BMP_FILE - - “§‰ß T_COL1 ƒVƒ‹ƒGƒbƒg
+  PaintPicture (BMP_FILE1 & _GetRainbowColor(i) & "0" & N_C & ".bmp") - (240 - (N_S / 2)) N_S N_S é€é T_COL1
+  PaintPicture BMP_FILE - - é€é T_COL1 ã‚·ãƒ«ã‚¨ãƒƒãƒˆ
   Refresh
   If ((i Mod 2) = 0) Then
     Incr N_C 1
@@ -240,14 +240,14 @@ Return
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_SM_‰æ‘œ‰ñ“]:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_SM_ç”»åƒå›è»¢:
 
-_CenteringCheck ‘ÎÛƒ†ƒjƒbƒg‚h‚c
+_CenteringCheck å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 Local G_S = _GetPicSizeFromArgs()
-Local C_X = (_Get_WX(‘ÎÛƒ†ƒjƒbƒg‚h‚c) + (32 - G_S) \ 2)
-Local C_Y = (_Get_WY(‘ÎÛƒ†ƒjƒbƒg‚h‚c) + (32 - G_S) \ 2)
-Local C_X2 = (_Get_WX(‘ÎÛƒ†ƒjƒbƒg‚h‚c))
-Local C_Y2 = (_Get_WY(‘ÎÛƒ†ƒjƒbƒg‚h‚c))
+Local C_X = (_Get_WX(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) + (32 - G_S) \ 2)
+Local C_Y = (_Get_WY(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) + (32 - G_S) \ 2)
+Local C_X2 = (_Get_WX(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤))
+Local C_Y2 = (_Get_WY(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤))
 Local WP_FILE =  _GetBmpFromArgs()
 Local FL ANG1 ANG2 DRCT
 Local i
@@ -265,7 +265,7 @@ Set ANG1 45
 For i = 1 To 24
   Incr ANG1 60
   ClearPicture
-  PaintPicture WP_FILE (C_X + X_P) C_Y G_S G_S “§‰ß ‰E‰ñ“] ANG1 _ColorTime(FL)
+  PaintPicture WP_FILE (C_X + X_P) C_Y G_S G_S é€é å³å›è»¢ ANG1 _ColorTime(FL)
 
 #  Font RGB(i * 8,i * 8,i * 8)
 #  PaintString (C_X2 + 1 + (16 - (S_S \ 2))) (C_Y2 + 33) STR

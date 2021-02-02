@@ -1,334 +1,334 @@
-###############RVR-01ƒVƒŠ[ƒY###############
-# Œ´ì‘O”¼‚ÌƒvƒŒƒCƒ„[‹@‚Å‚·B
-# —ÊŽY‚³‚ê‚Ä‚¨‚èA‚©‚È‚è‚Ì”‚ªìí‚ÉŽQ‰Á‚µ‚Ü‚µ‚½B
-# ’Êí‚ÍuRVR-01Gauntretv‚ðŽg—p‚µ‚Ä‚­‚¾‚³‚¢B
-# ŸƒAƒCƒRƒ“Fƒ}ƒCƒi[ƒpƒbƒN
+###############RVR-01ã‚·ãƒªãƒ¼ã‚º###############
+# åŽŸä½œå‰åŠã®ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼æ©Ÿã§ã™ã€‚
+# é‡ç”£ã•ã‚Œã¦ãŠã‚Šã€ã‹ãªã‚Šã®æ•°ãŒä½œæˆ¦ã«å‚åŠ ã—ã¾ã—ãŸã€‚
+# é€šå¸¸ã¯ã€ŒRVR-01Gauntretã€ã‚’ä½¿ç”¨ã—ã¦ãã ã•ã„ã€‚
+# â—†ã‚¢ã‚¤ã‚³ãƒ³ï¼šãƒžã‚¤ãƒŠãƒ¼ãƒ‘ãƒƒã‚¯
 
-# ƒn[ƒhƒ|ƒCƒ“ƒg‚É‘•”õ‚·‚é
-# uCrow(‚s‚e‚T)v(Ši“¬ŽËŒ‚+5A‚r–hŒä+2AEN+30)‚Ì”‚Å
-# ’iŠK“Iƒpƒ[ƒAƒbƒv‚ðs‚¤ÝŒv‚Å‚·B
-# Ú‚µ‚­‚Íitem.txt‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢B
+# ãƒãƒ¼ãƒ‰ãƒã‚¤ãƒ³ãƒˆã«è£…å‚™ã™ã‚‹
+# ã€ŒCrow(ï¼´ï¼¦ï¼•)ã€(æ ¼é—˜å°„æ’ƒ+5ã€ï¼³é˜²å¾¡+2ã€EN+30)ã®æ•°ã§
+# æ®µéšŽçš„ãƒ‘ãƒ¯ãƒ¼ã‚¢ãƒƒãƒ—ã‚’è¡Œã†è¨­è¨ˆã§ã™ã€‚
+# è©³ã—ãã¯item.txtã‚’å‚ç…§ã—ã¦ãã ã•ã„ã€‚
 
 
 RVR-01Gauntret
 RVR-01Gauntret, VasteelTechnology, 1, 2
-‹ó—¤, 4, M, 6000, 180
-“ÁŽê”\—Í
-’á‹ó”òs(‚s‚e‚T)
-ƒV[ƒ‹ƒh=Crow
-Œ}Œ‚•Ší=TwinShot
-ƒn[ƒhƒ|ƒCƒ“ƒgLv3=CrowSystem
-í“¬ƒAƒjƒ=VasteelTechnologyOW (‚n‚v)
+ç©ºé™¸, 4, M, 6000, 180
+ç‰¹æ®Šèƒ½åŠ›
+ä½Žç©ºé£›è¡Œ(ï¼´ï¼¦ï¼•)
+ã‚·ãƒ¼ãƒ«ãƒ‰=Crow
+è¿Žæ’ƒæ­¦å™¨=TwinShot
+ãƒãƒ¼ãƒ‰ãƒã‚¤ãƒ³ãƒˆLv3=CrowSystem
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡=VasteelTechnologyOW (ï¼¯ï¼·)
 3300, 140, 1000, 80
 ABBA, TF5_RVR-01Gauntret.bmp
-Wave,                      900,  1,  5,  +10,   -,   5,   -, AAAA,  -10, Z
-BackShot,                 1100,  1,  1,  -20,   -,   -,   -, ABBA,   +0, ŽÀæ
-Hunter,                   1300,  1,  3,  +30,   -,   5,   -, ABBA,   +0, ŽÀ‚g
-TwinShot,                 1500,  1,  1,   +0,   -,   -,   -, ABBA,  +10, ŽÀ
-FreeRange,                1800,  1,  4,  -10,   -,  15,   -, ACCA,  -10, ŽU‚g
-OverWeapon,               2100,  1,  1,  -10,   -,  30, 130, AAAA,  +20, ŽË(CrowLv1)
+Wave,                      900,  1,  5,  +10,   -,   5,   -, AAAA,  -10, æµ¸
+BackShot,                 1100,  1,  1,  -20,   -,   -,   -, ABBA,   +0, å®Ÿå…ˆ
+Hunter,                   1300,  1,  3,  +30,   -,   5,   -, ABBA,   +0, å®Ÿï¼¨
+TwinShot,                 1500,  1,  1,   +0,   -,   -,   -, ABBA,  +10, å®Ÿ
+FreeRange,                1800,  1,  4,  -10,   -,  15,   -, ACCA,  -10, æ•£ï¼¨
+OverWeapon,               2100,  1,  1,  -10,   -,  30, 130, AAAA,  +20, å°„(CrowLv1)
 ===
-ƒI[ƒo[ƒEƒFƒ|ƒ“Lv1,      •t‰ÁLv1=•Ší‹­‰»Lv2 •t‰ÁLv1=‚n‚v Äs“® ‰ðà=1À°ÝUŒ‚—Í+200Bs“®”ñÁ”ïB,                  0,  -,  30,   -, ‹¤‚`L1(CrowLv1)
-ƒI[ƒo[ƒEƒFƒ|ƒ“Lv2,      •t‰ÁLv1=•Ší‹­‰»Lv4 •t‰ÁLv1=‚n‚v Äs“® ‰ðà=1À°ÝUŒ‚—Í+400Bs“®”ñÁ”ïB,                  0,  -,  30,   -, ‹¤‚`L3(CrowLv2)
-ƒI[ƒo[ƒEƒFƒ|ƒ“Lv3,      •t‰ÁLv1=•Ší‹­‰»Lv6 •t‰ÁLv1=‚n‚v Äs“® ‰ðà=1À°ÝUŒ‚—Í+600Bs“®”ñÁ”ïB,                  0,  -,  30,   -, ‹¤‚`L5(CrowLv3)
+ã‚ªãƒ¼ãƒãƒ¼ã‚¦ã‚§ãƒãƒ³Lv1,      ä»˜åŠ Lv1=æ­¦å™¨å¼·åŒ–Lv2 ä»˜åŠ Lv1=ï¼¯ï¼· å†è¡Œå‹• è§£èª¬=1ï¾€ï½°ï¾æ”»æ’ƒåŠ›+200ã€‚è¡Œå‹•éžæ¶ˆè²»ã€‚,                  0,  -,  30,   -, å…±ï¼¡L1(CrowLv1)
+ã‚ªãƒ¼ãƒãƒ¼ã‚¦ã‚§ãƒãƒ³Lv2,      ä»˜åŠ Lv1=æ­¦å™¨å¼·åŒ–Lv4 ä»˜åŠ Lv1=ï¼¯ï¼· å†è¡Œå‹• è§£èª¬=1ï¾€ï½°ï¾æ”»æ’ƒåŠ›+400ã€‚è¡Œå‹•éžæ¶ˆè²»ã€‚,                  0,  -,  30,   -, å…±ï¼¡L3(CrowLv2)
+ã‚ªãƒ¼ãƒãƒ¼ã‚¦ã‚§ãƒãƒ³Lv3,      ä»˜åŠ Lv1=æ­¦å™¨å¼·åŒ–Lv6 ä»˜åŠ Lv1=ï¼¯ï¼· å†è¡Œå‹• è§£èª¬=1ï¾€ï½°ï¾æ”»æ’ƒåŠ›+600ã€‚è¡Œå‹•éžæ¶ˆè²»ã€‚,                  0,  -,  30,   -, å…±ï¼¡L5(CrowLv3)
 
-# ˆÐ—Í‚ÍŽã‚¢‚à‚Ì‚Ì”R”ï—ÇD‚È‚TŽí—Þ‚Ì•‘•‚ðŽg‚¢•ª‚¯A
-# ó‹µ‚É‰ž‚¶‚ÄƒAƒrƒŠƒeƒB‚ÅŽ©ŒÈ‹­‰»‚ðs‚¢‚Ü‚·B
+# å¨åŠ›ã¯å¼±ã„ã‚‚ã®ã®ç‡ƒè²»è‰¯å¥½ãªï¼•ç¨®é¡žã®æ­¦è£…ã‚’ä½¿ã„åˆ†ã‘ã€
+# çŠ¶æ³ã«å¿œã˜ã¦ã‚¢ãƒ“ãƒªãƒ†ã‚£ã§è‡ªå·±å¼·åŒ–ã‚’è¡Œã„ã¾ã™ã€‚
 
 
 RVR-01Economy
 RVR-01Economy, VasteelTechnology, 1, 3
-‹ó—¤, 4, M, 3000, 130
-“ÁŽê”\—Í
-’á‹ó”òs(‚s‚e‚T)
-ƒV[ƒ‹ƒh=Crow
-Œ}Œ‚•Ší=TwinShot
-ƒn[ƒhƒ|ƒCƒ“ƒgLv3=CrowSystem
-í“¬ƒAƒjƒ=VasteelTechnologyOW (‚n‚v)
-ƒpƒCƒƒbƒg”\—Í•t‰Á=‘fŽ¿
+ç©ºé™¸, 4, M, 3000, 130
+ç‰¹æ®Šèƒ½åŠ›
+ä½Žç©ºé£›è¡Œ(ï¼´ï¼¦ï¼•)
+ã‚·ãƒ¼ãƒ«ãƒ‰=Crow
+è¿Žæ’ƒæ­¦å™¨=TwinShot
+ãƒãƒ¼ãƒ‰ãƒã‚¤ãƒ³ãƒˆLv3=CrowSystem
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡=VasteelTechnologyOW (ï¼¯ï¼·)
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆèƒ½åŠ›ä»˜åŠ =ç´ è³ª
 2900, 120, 800, 70
 ABBA, TF5_RVR-01Economy.bmp
-Wave,                      700,  1,  5,  +10,   -,   5,   -, AAAA,  -10, Z
-BackShot,                  900,  1,  1,  -20,   -,   -,   -, ABBA,   +0, ŽÀæ
-Hunter,                   1100,  1,  3,  +30,   -,   5,   -, ABBA,   +0, ŽÀ‚g
-TwinShot,                 1300,  1,  1,   +0,   -,   -,   -, ABBA,  +10, ŽÀ
-FreeRange,                1600,  1,  4,  -10,   -,  15,   -, ACCA,  -10, ŽU‚g
-OverWeapon,               1900,  1,  1,  +20,   -,  30, 130, AAAA,  +20, ŽË(CrowLv1)
+Wave,                      700,  1,  5,  +10,   -,   5,   -, AAAA,  -10, æµ¸
+BackShot,                  900,  1,  1,  -20,   -,   -,   -, ABBA,   +0, å®Ÿå…ˆ
+Hunter,                   1100,  1,  3,  +30,   -,   5,   -, ABBA,   +0, å®Ÿï¼¨
+TwinShot,                 1300,  1,  1,   +0,   -,   -,   -, ABBA,  +10, å®Ÿ
+FreeRange,                1600,  1,  4,  -10,   -,  15,   -, ACCA,  -10, æ•£ï¼¨
+OverWeapon,               1900,  1,  1,  +20,   -,  30, 130, AAAA,  +20, å°„(CrowLv1)
 ===
-ƒI[ƒo[ƒEƒFƒ|ƒ“Lv1,      •t‰ÁLv1=•Ší‹­‰»Lv2 •t‰ÁLv1=‚n‚v Äs“® ‰ðà=1À°ÝUŒ‚—Í+200Bs“®”ñÁ”ïB,                  0,  -,  30,   -, ‹¤‚`L1(CrowLv1)
-ƒI[ƒo[ƒEƒFƒ|ƒ“Lv2,      •t‰ÁLv1=•Ší‹­‰»Lv4 •t‰ÁLv1=‚n‚v Äs“® ‰ðà=1À°ÝUŒ‚—Í+400Bs“®”ñÁ”ïB,                  0,  -,  30,   -, ‹¤‚`L3(CrowLv2)
-ƒI[ƒo[ƒEƒFƒ|ƒ“Lv3,      •t‰ÁLv1=•Ší‹­‰»Lv6 •t‰ÁLv1=‚n‚v Äs“® ‰ðà=1À°ÝUŒ‚—Í+600Bs“®”ñÁ”ïB,                  0,  -,  30,   -, ‹¤‚`L5(CrowLv3)
+ã‚ªãƒ¼ãƒãƒ¼ã‚¦ã‚§ãƒãƒ³Lv1,      ä»˜åŠ Lv1=æ­¦å™¨å¼·åŒ–Lv2 ä»˜åŠ Lv1=ï¼¯ï¼· å†è¡Œå‹• è§£èª¬=1ï¾€ï½°ï¾æ”»æ’ƒåŠ›+200ã€‚è¡Œå‹•éžæ¶ˆè²»ã€‚,                  0,  -,  30,   -, å…±ï¼¡L1(CrowLv1)
+ã‚ªãƒ¼ãƒãƒ¼ã‚¦ã‚§ãƒãƒ³Lv2,      ä»˜åŠ Lv1=æ­¦å™¨å¼·åŒ–Lv4 ä»˜åŠ Lv1=ï¼¯ï¼· å†è¡Œå‹• è§£èª¬=1ï¾€ï½°ï¾æ”»æ’ƒåŠ›+400ã€‚è¡Œå‹•éžæ¶ˆè²»ã€‚,                  0,  -,  30,   -, å…±ï¼¡L3(CrowLv2)
+ã‚ªãƒ¼ãƒãƒ¼ã‚¦ã‚§ãƒãƒ³Lv3,      ä»˜åŠ Lv1=æ­¦å™¨å¼·åŒ–Lv6 ä»˜åŠ Lv1=ï¼¯ï¼· å†è¡Œå‹• è§£èª¬=1ï¾€ï½°ï¾æ”»æ’ƒåŠ›+600ã€‚è¡Œå‹•éžæ¶ˆè²»ã€‚,                  0,  -,  30,   -, å…±ï¼¡L5(CrowLv3)
 
-# —ÊŽY«dŽ‹‚Å’²®‚³‚ê‚½RVR-01B
-# «”\‚ª‚Qƒ‰ƒ“ƒN•ª’á‚¢‚Å‚·‚ªAƒAƒCƒeƒ€”‚R‚Å’²®‚µ‚Ä‚ ‚è‚Ü‚·B
-# ‚Ü‚½Œ´ì‚Å‚ÍŠl“¾ƒXƒRƒA‚ªŠ„‚è‘‚µ‚É‚È‚é‚±‚Æ‚ð”½‰f‚µA‘fŽ¿‚ð•t‰Á‚µ‚Ä‚¢‚Ü‚·B
+# é‡ç”£æ€§é‡è¦–ã§èª¿æ•´ã•ã‚ŒãŸRVR-01ã€‚
+# æ€§èƒ½ãŒï¼’ãƒ©ãƒ³ã‚¯åˆ†ä½Žã„ã§ã™ãŒã€ã‚¢ã‚¤ãƒ†ãƒ æ•°ï¼“ã§èª¿æ•´ã—ã¦ã‚ã‚Šã¾ã™ã€‚
+# ã¾ãŸåŽŸä½œã§ã¯ç²å¾—ã‚¹ã‚³ã‚¢ãŒå‰²ã‚Šå¢—ã—ã«ãªã‚‹ã“ã¨ã‚’åæ˜ ã—ã€ç´ è³ªã‚’ä»˜åŠ ã—ã¦ã„ã¾ã™ã€‚
 
 RVR-01Hispeed
 RVR-01Hispeed, VasteelTechnology, 1, 2
-‹ó—¤, 5, M, 6000, 180
-“ÁŽê”\—Í
-’á‹ó”òs(‚s‚e‚T)
-ƒV[ƒ‹ƒh=Crow
-Œ}Œ‚•Ší=TwinShot
-ƒn[ƒhƒ|ƒCƒ“ƒgLv3=CrowSystem
-í“¬ƒAƒjƒ=VasteelTechnologyOW (‚n‚v)
+ç©ºé™¸, 5, M, 6000, 180
+ç‰¹æ®Šèƒ½åŠ›
+ä½Žç©ºé£›è¡Œ(ï¼´ï¼¦ï¼•)
+ã‚·ãƒ¼ãƒ«ãƒ‰=Crow
+è¿Žæ’ƒæ­¦å™¨=TwinShot
+ãƒãƒ¼ãƒ‰ãƒã‚¤ãƒ³ãƒˆLv3=CrowSystem
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡=VasteelTechnologyOW (ï¼¯ï¼·)
 2000, 80, 600, 100
 ABBA, TF5_RVR-01Hispeed.bmp
-Wave,                      900,  1,  5,  +10,   -,   5,   -, AAAA,  -10, Z
-BackShot,                 1100,  1,  1,  -20,   -,   -,   -, ABBA,   +0, ŽÀæ
-Hunter,                   1300,  1,  3,  +30,   -,   5,   -, ABBA,   +0, ŽÀ‚g
-TwinShot,                 1500,  1,  1,   +0,   -,   -,   -, ABBA,  +10, ŽÀ
-FreeRange,                1800,  1,  4,  -10,   -,  15,   -, ACCA,  -10, ŽU‚g
-OverWeapon,               2100,  1,  1,  +20,   -,  30, 130, AAAA,  +20, ŽË(CrowLv1)
+Wave,                      900,  1,  5,  +10,   -,   5,   -, AAAA,  -10, æµ¸
+BackShot,                 1100,  1,  1,  -20,   -,   -,   -, ABBA,   +0, å®Ÿå…ˆ
+Hunter,                   1300,  1,  3,  +30,   -,   5,   -, ABBA,   +0, å®Ÿï¼¨
+TwinShot,                 1500,  1,  1,   +0,   -,   -,   -, ABBA,  +10, å®Ÿ
+FreeRange,                1800,  1,  4,  -10,   -,  15,   -, ACCA,  -10, æ•£ï¼¨
+OverWeapon,               2100,  1,  1,  +20,   -,  30, 130, AAAA,  +20, å°„(CrowLv1)
 ===
-ƒI[ƒo[ƒEƒFƒ|ƒ“Lv1,      •t‰ÁLv1=•Ší‹­‰»Lv2 •t‰ÁLv1=‚n‚v Äs“® ‰ðà=1À°ÝUŒ‚—Í+200Bs“®”ñÁ”ïB,                  0,  -,  30,   -, ‹¤‚`L1(CrowLv1)
-ƒI[ƒo[ƒEƒFƒ|ƒ“Lv2,      •t‰ÁLv1=•Ší‹­‰»Lv4 •t‰ÁLv1=‚n‚v Äs“® ‰ðà=1À°ÝUŒ‚—Í+400Bs“®”ñÁ”ïB,                  0,  -,  30,   -, ‹¤‚`L3(CrowLv2)
-ƒI[ƒo[ƒEƒFƒ|ƒ“Lv3,      •t‰ÁLv1=•Ší‹­‰»Lv6 •t‰ÁLv1=‚n‚v Äs“® ‰ðà=1À°ÝUŒ‚—Í+600Bs“®”ñÁ”ïB,                  0,  -,  30,   -, ‹¤‚`L5(CrowLv3)
+ã‚ªãƒ¼ãƒãƒ¼ã‚¦ã‚§ãƒãƒ³Lv1,      ä»˜åŠ Lv1=æ­¦å™¨å¼·åŒ–Lv2 ä»˜åŠ Lv1=ï¼¯ï¼· å†è¡Œå‹• è§£èª¬=1ï¾€ï½°ï¾æ”»æ’ƒåŠ›+200ã€‚è¡Œå‹•éžæ¶ˆè²»ã€‚,                  0,  -,  30,   -, å…±ï¼¡L1(CrowLv1)
+ã‚ªãƒ¼ãƒãƒ¼ã‚¦ã‚§ãƒãƒ³Lv2,      ä»˜åŠ Lv1=æ­¦å™¨å¼·åŒ–Lv4 ä»˜åŠ Lv1=ï¼¯ï¼· å†è¡Œå‹• è§£èª¬=1ï¾€ï½°ï¾æ”»æ’ƒåŠ›+400ã€‚è¡Œå‹•éžæ¶ˆè²»ã€‚,                  0,  -,  30,   -, å…±ï¼¡L3(CrowLv2)
+ã‚ªãƒ¼ãƒãƒ¼ã‚¦ã‚§ãƒãƒ³Lv3,      ä»˜åŠ Lv1=æ­¦å™¨å¼·åŒ–Lv6 ä»˜åŠ Lv1=ï¼¯ï¼· å†è¡Œå‹• è§£èª¬=1ï¾€ï½°ï¾æ”»æ’ƒåŠ›+600ã€‚è¡Œå‹•éžæ¶ˆè²»ã€‚,                  0,  -,  30,   -, å…±ï¼¡L5(CrowLv3)
 
-# ‘¬“xdŽ‹‚Å’²®‚³‚ê‚½RVR-01B
+# é€Ÿåº¦é‡è¦–ã§èª¿æ•´ã•ã‚ŒãŸRVR-01ã€‚
 
 
 RVR-01Extend
 RVR-01Extend, VasteelTechnology, 1, 1
-‹ó—¤, 4, M, 9000, 180
-“ÁŽê”\—Í
-’á‹ó”òs(‚s‚e‚T)
-ƒV[ƒ‹ƒh=Crow
-Œ}Œ‚•Ší=TwinShot
-ƒn[ƒhƒ|ƒCƒ“ƒgLv2=CrowSystem
-í“¬ƒAƒjƒ=VasteelTechnologyOW (‚n‚v)
+ç©ºé™¸, 4, M, 9000, 180
+ç‰¹æ®Šèƒ½åŠ›
+ä½Žç©ºé£›è¡Œ(ï¼´ï¼¦ï¼•)
+ã‚·ãƒ¼ãƒ«ãƒ‰=Crow
+è¿Žæ’ƒæ­¦å™¨=TwinShot
+ãƒãƒ¼ãƒ‰ãƒã‚¤ãƒ³ãƒˆLv2=CrowSystem
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡=VasteelTechnologyOW (ï¼¯ï¼·)
 4000, 190, 1200, 60
 ABBA, TF5_RVR-01Extend.bmp
-Wave,                     1100,  1,  5,  +10,   -,   5,   -, AAAA,  -10, Z
-BackShot,                 1300,  1,  1,  -20,   -,   -,   -, ABBA,   +0, ŽÀæ
-Hunter,                   1500,  1,  3,  +30,   -,   5,   -, ABBA,   +0, ŽÀ‚g
-TwinShot,                 1700,  1,  1,   +0,   -,   -,   -, ABBA,  +10, ŽÀ
-FreeRange,                2000,  1,  4,  -10,   -,  15,   -, ACCA,  -10, ŽU‚g
-OverWeapon,               2300,  1,  1,  +20,   -,  30, 130, AAAA,  +20, ŽË(CrowLv1)
+Wave,                     1100,  1,  5,  +10,   -,   5,   -, AAAA,  -10, æµ¸
+BackShot,                 1300,  1,  1,  -20,   -,   -,   -, ABBA,   +0, å®Ÿå…ˆ
+Hunter,                   1500,  1,  3,  +30,   -,   5,   -, ABBA,   +0, å®Ÿï¼¨
+TwinShot,                 1700,  1,  1,   +0,   -,   -,   -, ABBA,  +10, å®Ÿ
+FreeRange,                2000,  1,  4,  -10,   -,  15,   -, ACCA,  -10, æ•£ï¼¨
+OverWeapon,               2300,  1,  1,  +20,   -,  30, 130, AAAA,  +20, å°„(CrowLv1)
 ===
-ƒI[ƒo[ƒEƒFƒ|ƒ“Lv1,      •t‰ÁLv1=•Ší‹­‰»Lv2 •t‰ÁLv1=‚n‚v Äs“® ‰ðà=1À°ÝUŒ‚—Í+200Bs“®”ñÁ”ïB,                  0,  -,  30,   -, ‹¤‚`L1(CrowLv1)
-ƒI[ƒo[ƒEƒFƒ|ƒ“Lv2,      •t‰ÁLv1=•Ší‹­‰»Lv4 •t‰ÁLv1=‚n‚v Äs“® ‰ðà=1À°ÝUŒ‚—Í+400Bs“®”ñÁ”ïB,                  0,  -,  30,   -, ‹¤‚`L3(CrowLv2)
+ã‚ªãƒ¼ãƒãƒ¼ã‚¦ã‚§ãƒãƒ³Lv1,      ä»˜åŠ Lv1=æ­¦å™¨å¼·åŒ–Lv2 ä»˜åŠ Lv1=ï¼¯ï¼· å†è¡Œå‹• è§£èª¬=1ï¾€ï½°ï¾æ”»æ’ƒåŠ›+200ã€‚è¡Œå‹•éžæ¶ˆè²»ã€‚,                  0,  -,  30,   -, å…±ï¼¡L1(CrowLv1)
+ã‚ªãƒ¼ãƒãƒ¼ã‚¦ã‚§ãƒãƒ³Lv2,      ä»˜åŠ Lv1=æ­¦å™¨å¼·åŒ–Lv4 ä»˜åŠ Lv1=ï¼¯ï¼· å†è¡Œå‹• è§£èª¬=1ï¾€ï½°ï¾æ”»æ’ƒåŠ›+400ã€‚è¡Œå‹•éžæ¶ˆè²»ã€‚,                  0,  -,  30,   -, å…±ï¼¡L3(CrowLv2)
 
-# d•‘•’²®‚³‚ê‚½RVR-01B
-# ‰^“®«ˆÈŠO‚Ì•”•ª‚ª–ñ‚Qƒ‰ƒ“ƒN•ªA‚g‚o‚Æ‚d‚m‚Í‚³‚ç‚Éˆê‰ñ‚èã¸‚µ‚Ä‚¢‚Ü‚·B
-# ‚µ‚©‚µCrow‚ð‚Q‚Â‚µ‚©‘•”õ‚Å‚«‚¸AƒAƒCƒeƒ€”‚à‚PB‰^“®«‚Í’á‰º‚µ‚Ä‚¢‚Ü‚·B
-# ŒãŠúŒ^ƒ†ƒjƒbƒg‚Æ‚¢‚¤‚í‚¯‚Å‚È‚­A
-# RVR-01‚ÌƒoƒŠƒG[ƒVƒ‡ƒ“‚Ì‚P‚Â‚Å‚ ‚é‚±‚Æ‚É’ˆÓ‚µ‚Ä‚­‚¾‚³‚¢B
+# é‡æ­¦è£…èª¿æ•´ã•ã‚ŒãŸRVR-01ã€‚
+# é‹å‹•æ€§ä»¥å¤–ã®éƒ¨åˆ†ãŒç´„ï¼’ãƒ©ãƒ³ã‚¯åˆ†ã€ï¼¨ï¼°ã¨ï¼¥ï¼®ã¯ã•ã‚‰ã«ä¸€å›žã‚Šä¸Šæ˜‡ã—ã¦ã„ã¾ã™ã€‚
+# ã—ã‹ã—Crowã‚’ï¼’ã¤ã—ã‹è£…å‚™ã§ããšã€ã‚¢ã‚¤ãƒ†ãƒ æ•°ã‚‚ï¼‘ã€‚é‹å‹•æ€§ã¯ä½Žä¸‹ã—ã¦ã„ã¾ã™ã€‚
+# å¾ŒæœŸåž‹ãƒ¦ãƒ‹ãƒƒãƒˆã¨ã„ã†ã‚ã‘ã§ãªãã€
+# RVR-01ã®ãƒãƒªã‚¨ãƒ¼ã‚·ãƒ§ãƒ³ã®ï¼‘ã¤ã§ã‚ã‚‹ã“ã¨ã«æ³¨æ„ã—ã¦ãã ã•ã„ã€‚
 
 
 
-###############RVR-02ƒVƒŠ[ƒY###############
-# Œ´ìŒã”¼‚ÌƒvƒŒƒCƒ„[‹@B‚P•i‚à‚Ì‚Å‚·B
-# ƒf[ƒ^–Ê‚Å‚ÍRVR-01Gauntret‚ÌŠ®‘SãˆÊŒÝŠ·B
-# –³Á”ï•‘•‚Ì‹­‰»Aƒpƒ‰ƒ[ƒ^ã¸‚È‚Çˆê‰ñ‚è‹­‰»‚³‚ê‚Ä‚¢‚Ü‚·B
-# Å‘å‚Ì’·Š‚Íƒp[ƒc•ª—£”\—Í‚Å‚·‚ªA‚±‚ê‚Í‚ ‚Ü‚è‚É‹­—Í‚È‚Ì‚ÅA
-# “K‹X••ˆó‚µ‚Ä‚­‚¾‚³‚¢B
-# ŸƒAƒCƒRƒ“Fƒ}ƒCƒi[ƒpƒbƒN
+###############RVR-02ã‚·ãƒªãƒ¼ã‚º###############
+# åŽŸä½œå¾ŒåŠã®ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼æ©Ÿã€‚ï¼‘å“ã‚‚ã®ã§ã™ã€‚
+# ãƒ‡ãƒ¼ã‚¿é¢ã§ã¯RVR-01Gauntretã®å®Œå…¨ä¸Šä½äº’æ›ã€‚
+# ç„¡æ¶ˆè²»æ­¦è£…ã®å¼·åŒ–ã€ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ä¸Šæ˜‡ãªã©ä¸€å›žã‚Šå¼·åŒ–ã•ã‚Œã¦ã„ã¾ã™ã€‚
+# æœ€å¤§ã®é•·æ‰€ã¯ãƒ‘ãƒ¼ãƒ„åˆ†é›¢èƒ½åŠ›ã§ã™ãŒã€ã“ã‚Œã¯ã‚ã¾ã‚Šã«å¼·åŠ›ãªã®ã§ã€
+# é©å®œå°å°ã—ã¦ãã ã•ã„ã€‚
+# â—†ã‚¢ã‚¤ã‚³ãƒ³ï¼šãƒžã‚¤ãƒŠãƒ¼ãƒ‘ãƒƒã‚¯
 
 RVR-02Vanbrace
 RVR-02Vanbrace, VasteelTechnology, 1, 2
-‹ó—¤, 4, M, 7000, 180
-“ÁŽê”\—Í
-’á‹ó”òs(‚s‚e‚T)
-ƒV[ƒ‹ƒh=Crow
-Œ}Œ‚•Ší=Blade
-ƒn[ƒhƒ|ƒCƒ“ƒgLv3=CrowSystem
-ƒ†ƒjƒbƒg‰æ‘œ=TF5_RVR-02Vanbrace(OWM).bmp (‚n‚v)
-ƒp[ƒc‡‘Ì=RVR-02Brigandine
-‚a‚f‚l="TF5_Steel Of destiny.mid"
+ç©ºé™¸, 4, M, 7000, 180
+ç‰¹æ®Šèƒ½åŠ›
+ä½Žç©ºé£›è¡Œ(ï¼´ï¼¦ï¼•)
+ã‚·ãƒ¼ãƒ«ãƒ‰=Crow
+è¿Žæ’ƒæ­¦å™¨=Blade
+ãƒãƒ¼ãƒ‰ãƒã‚¤ãƒ³ãƒˆLv3=CrowSystem
+ãƒ¦ãƒ‹ãƒƒãƒˆç”»åƒ=TF5_RVR-02Vanbrace(OWM).bmp (ï¼¯ï¼·)
+ãƒ‘ãƒ¼ãƒ„åˆä½“=RVR-02Brigandine
+ï¼¢ï¼§ï¼­="TF5_Steel Of destiny.mid"
 3300, 160, 1200, 90
 ABBA, TF5_RVR-02Vanbrace.bmp
-Wave,                      900,  1,  5,  +10,   -,   5,   -, AAAA,  -10, Z
-RailGun,                  1100,  1,  1,  -20,   -,   -,   -, AABA,  +10, ‚aæ
-Hunter,                   1300,  1,  3,  +30,   -,   5,   -, ABBA,   +0, ŽÀ‚g
-Blade,                    1600,  1,  1,   +0,   -,   -,   -, ABBA,  +20, ‚a
-FreeRange,                1800,  1,  4,  -10,   -,  15,   -, ACCA,  -10, ŽU‚g
-OverWeapon,               2200,  1,  1,  +20,   -,  30, 130, AAAA,  +20, ŽË(CrowLv1)
+Wave,                      900,  1,  5,  +10,   -,   5,   -, AAAA,  -10, æµ¸
+RailGun,                  1100,  1,  1,  -20,   -,   -,   -, AABA,  +10, ï¼¢å…ˆ
+Hunter,                   1300,  1,  3,  +30,   -,   5,   -, ABBA,   +0, å®Ÿï¼¨
+Blade,                    1600,  1,  1,   +0,   -,   -,   -, ABBA,  +20, ï¼¢
+FreeRange,                1800,  1,  4,  -10,   -,  15,   -, ACCA,  -10, æ•£ï¼¨
+OverWeapon,               2200,  1,  1,  +20,   -,  30, 130, AAAA,  +20, å°„(CrowLv1)
 ===
-ƒI[ƒo[ƒEƒFƒ|ƒ“Lv1,      •t‰ÁLv1=•Ší‹­‰»Lv2 •t‰ÁLv1=‚n‚v Äs“® ‰ðà=1À°ÝUŒ‚—Í+200Bs“®”ñÁ”ïB,                  0,  -,  30,   -, ‹¤‚`L1(CrowLv1)
-ƒI[ƒo[ƒEƒFƒ|ƒ“Lv2,      •t‰ÁLv1=•Ší‹­‰»Lv4 •t‰ÁLv1=‚n‚v Äs“® ‰ðà=1À°ÝUŒ‚—Í+400Bs“®”ñÁ”ïB,                  0,  -,  30,   -, ‹¤‚`L3(CrowLv2)
-ƒI[ƒo[ƒEƒFƒ|ƒ“Lv3(RVR-02),      •t‰ÁLv1=•Ší‹­‰»Lv6 •t‰ÁLv1=‚n‚v Äs“® ‰ðà=1À°ÝUŒ‚—Í+600Bs“®”ñÁ”ïB,                  0,  -,  30,   -, ‹¤‚`L5(CrowLv3)
+ã‚ªãƒ¼ãƒãƒ¼ã‚¦ã‚§ãƒãƒ³Lv1,      ä»˜åŠ Lv1=æ­¦å™¨å¼·åŒ–Lv2 ä»˜åŠ Lv1=ï¼¯ï¼· å†è¡Œå‹• è§£èª¬=1ï¾€ï½°ï¾æ”»æ’ƒåŠ›+200ã€‚è¡Œå‹•éžæ¶ˆè²»ã€‚,                  0,  -,  30,   -, å…±ï¼¡L1(CrowLv1)
+ã‚ªãƒ¼ãƒãƒ¼ã‚¦ã‚§ãƒãƒ³Lv2,      ä»˜åŠ Lv1=æ­¦å™¨å¼·åŒ–Lv4 ä»˜åŠ Lv1=ï¼¯ï¼· å†è¡Œå‹• è§£èª¬=1ï¾€ï½°ï¾æ”»æ’ƒåŠ›+400ã€‚è¡Œå‹•éžæ¶ˆè²»ã€‚,                  0,  -,  30,   -, å…±ï¼¡L3(CrowLv2)
+ã‚ªãƒ¼ãƒãƒ¼ã‚¦ã‚§ãƒãƒ³Lv3(RVR-02),      ä»˜åŠ Lv1=æ­¦å™¨å¼·åŒ–Lv6 ä»˜åŠ Lv1=ï¼¯ï¼· å†è¡Œå‹• è§£èª¬=1ï¾€ï½°ï¾æ”»æ’ƒåŠ›+600ã€‚è¡Œå‹•éžæ¶ˆè²»ã€‚,                  0,  -,  30,   -, å…±ï¼¡L5(CrowLv3)
 
 
 
 RVR-02Brigandine
 RVR-02Brigandine, VasteelTechnology, 1, 2
-‹ó, 4, L, 7000, 180
-“ÁŽê”\—Í
-ƒn[ƒhƒ|ƒCƒ“ƒgLv3=CrowSystem
-ƒp[ƒc•ª—£=Brigandine•ª—£ RVR-02Vanbrace
-Œ}Œ‚•Ší=‚n‚vRailgun
-ƒn[ƒhƒ|ƒCƒ“ƒgLv3=Crow
+ç©º, 4, L, 7000, 180
+ç‰¹æ®Šèƒ½åŠ›
+ãƒãƒ¼ãƒ‰ãƒã‚¤ãƒ³ãƒˆLv3=CrowSystem
+ãƒ‘ãƒ¼ãƒ„åˆ†é›¢=Brigandineåˆ†é›¢ RVR-02Vanbrace
+è¿Žæ’ƒæ­¦å™¨=ï¼¯ï¼·Railgun
+ãƒãƒ¼ãƒ‰ãƒã‚¤ãƒ³ãƒˆLv3=Crow
 6000, 160, 1200, 60
 AABA, TF5_RVR-02Brigandine.bmp
-‚n‚vRailGun,              1200,  1,  2,  -20,   -,   -,   -, AABA,  +10, ‚a‚oæŠi
-‚n‚vBlade,                1800,  1,  4,   +0,   -,   5,   -, ABBA,  +20, ‚a
+ï¼¯ï¼·RailGun,              1200,  1,  2,  -20,   -,   -,   -, AABA,  +10, ï¼¢ï¼°å…ˆæ ¼
+ï¼¯ï¼·Blade,                1800,  1,  4,   +0,   -,   5,   -, ABBA,  +20, ï¼¢
 
-# ‹­‰»ƒp[ƒc‘•”õŒ`‘ÔB
-# Œ´ì‚Å‚Í‹­‰»ƒp[ƒc‚Íˆê‚Â‚¾‚¯“oê‚µAˆê“x”j‰ó‚³‚ê‚é‚ÆˆÈŒã‡‘Ìó‘Ô‚É‚Í–ß‚ê‚Ü‚¹‚ñB
-# ‚r‚q‚b‚ÌƒVƒXƒeƒ€‚Å‚Íƒ}ƒbƒv‚²‚Æ‚ÉÄŽg—p‚Å‚«‚Ä‚µ‚Ü‚¤‚Ì‚ÅA
-# o‚·Û‚Í’ˆÓ‚µ‚Ä‚­‚¾‚³‚¢B
+# å¼·åŒ–ãƒ‘ãƒ¼ãƒ„è£…å‚™å½¢æ…‹ã€‚
+# åŽŸä½œã§ã¯å¼·åŒ–ãƒ‘ãƒ¼ãƒ„ã¯ä¸€ã¤ã ã‘ç™»å ´ã—ã€ä¸€åº¦ç ´å£Šã•ã‚Œã‚‹ã¨ä»¥å¾Œåˆä½“çŠ¶æ…‹ã«ã¯æˆ»ã‚Œã¾ã›ã‚“ã€‚
+# ï¼³ï¼²ï¼£ã®ã‚·ã‚¹ãƒ†ãƒ ã§ã¯ãƒžãƒƒãƒ—ã”ã¨ã«å†ä½¿ç”¨ã§ãã¦ã—ã¾ã†ã®ã§ã€
+# å‡ºã™éš›ã¯æ³¨æ„ã—ã¦ãã ã•ã„ã€‚
 
-# ‘Ï‹vEUŒ‚—¼–Ê‚É‚¨‚¢‚Ä‚·‚Î‚ç‚µ‚¢«”\‚ð”­Šö‚µ‚Ü‚·‚ªA
-# ‚d‚m‚ð•ª—£Œã‚Æ‹¤—p‚µ‚Ä‚¢‚é‚Ì‚ÅA
-# Œ´ì‚Ù‚Ç–³§ŒÀ‚Èƒ†ƒjƒbƒg‚Æ‚Í‚È‚Á‚Ä‚¢‚Ü‚¹‚ñB
+# è€ä¹…ãƒ»æ”»æ’ƒä¸¡é¢ã«ãŠã„ã¦ã™ã°ã‚‰ã—ã„æ€§èƒ½ã‚’ç™ºæ®ã—ã¾ã™ãŒã€
+# ï¼¥ï¼®ã‚’åˆ†é›¢å¾Œã¨å…±ç”¨ã—ã¦ã„ã‚‹ã®ã§ã€
+# åŽŸä½œã»ã©ç„¡åˆ¶é™ãªãƒ¦ãƒ‹ãƒƒãƒˆã¨ã¯ãªã£ã¦ã„ã¾ã›ã‚“ã€‚
 
-###############ŽG‹›###############
-#ƒf[ƒ^‰»‚µ‚Ä‚¢‚Ü‚¹‚ñB
+###############é›‘é­š###############
+#ãƒ‡ãƒ¼ã‚¿åŒ–ã—ã¦ã„ã¾ã›ã‚“ã€‚
 
 
 
 ########################################################
-###############           ƒ{ƒX           ###############
+###############           ãƒœã‚¹           ###############
 ########################################################
-# ˆê•”‚Ì‚Ý‚ðƒf[ƒ^‰»‚µ‚Ü‚·B
-# Ž‘—¿•s‘«‚Ì‚½‚ßA•‘•–¼Ì‚ÆŽÀÛ‚ÌUŒ‚“à—e‚ª‚¸‚ê‚Ä‚¢‚é‚©‚à‚µ‚ê‚Ü‚¹‚ñB
+# ä¸€éƒ¨ã®ã¿ã‚’ãƒ‡ãƒ¼ã‚¿åŒ–ã—ã¾ã™ã€‚
+# è³‡æ–™ä¸è¶³ã®ãŸã‚ã€æ­¦è£…åç§°ã¨å®Ÿéš›ã®æ”»æ’ƒå†…å®¹ãŒãšã‚Œã¦ã„ã‚‹ã‹ã‚‚ã—ã‚Œã¾ã›ã‚“ã€‚
 
 
 ###############DeepPurple###############
-# Œ´ì‚P–Ê‚Ìƒ{ƒXB
-# ŠCã‚ÉoŒ»‚µA”òsŒ`‘Ô‚©‚ç…’†Œ`‘Ô‚Ö‚Æ•Ï‚í‚è‚Ü‚·B
-# ŸƒAƒCƒRƒ“Fƒ}ƒCƒi[ƒpƒbƒN•”ñ“o˜^Ž®ƒpƒbƒN
+# åŽŸä½œï¼‘é¢ã®ãƒœã‚¹ã€‚
+# æµ·ä¸Šã«å‡ºç¾ã—ã€é£›è¡Œå½¢æ…‹ã‹ã‚‰æ°´ä¸­å½¢æ…‹ã¸ã¨å¤‰ã‚ã‚Šã¾ã™ã€‚
+# â—†ã‚¢ã‚¤ã‚³ãƒ³ï¼šãƒžã‚¤ãƒŠãƒ¼ãƒ‘ãƒƒã‚¯ï¼†éžç™»éŒ²å¼ãƒ‘ãƒƒã‚¯
 
 E1_F036_55DeepPurple
 DeepPurple, AreaGuard, 1, 2
-‹ó…, 4, L, 7000, 180
-“ÁŽê”\—Í
-ƒpƒCƒƒbƒgˆ¤Ì=DeepPurple
-ƒp[ƒc•ª—£=WingArm”j‰ó E1_F036_55DeepPurple(Wingless)
-Ši“¬•Ší=WingArm
-í“¬ƒAƒjƒ=E1_F036_55DeepPurple
+ç©ºæ°´, 4, L, 7000, 180
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆæ„›ç§°=DeepPurple
+ãƒ‘ãƒ¼ãƒ„åˆ†é›¢=WingArmç ´å£Š E1_F036_55DeepPurple(Wingless)
+æ ¼é—˜æ­¦å™¨=WingArm
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡=E1_F036_55DeepPurple
 8000, 160, 1000, 90
 A-AB, TF5_DeepPurple.bmp
-LaserTrackingCanon,       1500,  1,  3,  +20,   -,   -,   -, ABBA,  +20, ‚a‚g˜AL4
-ActiveLaserCanon,         1700,  4,  5,  +30,   -,  20,   -, AA-A,  +10, ‚a‚g
-LPC-Canon,                2000,  1,  5,  -20,   -,  50,   -, ABBA,  +10, ‚a‚lŠg‚`L2
+LaserTrackingCanon,       1500,  1,  3,  +20,   -,   -,   -, ABBA,  +20, ï¼¢ï¼¨é€£L4
+ActiveLaserCanon,         1700,  4,  5,  +30,   -,  20,   -, AA-A,  +10, ï¼¢ï¼¨
+LPC-Canon,                2000,  1,  5,  -20,   -,  50,   -, ABBA,  +10, ï¼¢ï¼­æ‹¡ï¼¡L2
 ===
-GuidedTorpedoFiringTube,  ¢Š«Lv4=DeepPurple‚Ì—U“±”š—‹ Äs“® ‰ðà=‚QŠî‚Ì—U“±”š—‹‚ð”­ŽË, 0, 3, -, -, ‚`L3
+GuidedTorpedoFiringTube,  å¬å–šLv4=DeepPurpleã®èª˜å°Žçˆ†é›· å†è¡Œå‹• è§£èª¬=ï¼’åŸºã®èª˜å°Žçˆ†é›·ã‚’ç™ºå°„, 0, 3, -, -, ï¼¡L3
 
-# LPC-CanonFLarge particle charger canonF“ü‚è‚«‚ç‚È‚¢‚Ì‚Å’Zk–¼‚É‚µ‚Ä‚ ‚è‚Ü‚·B
+# LPC-Canonï¼šLarge particle charger canonï¼šå…¥ã‚Šãã‚‰ãªã„ã®ã§çŸ­ç¸®åã«ã—ã¦ã‚ã‚Šã¾ã™ã€‚
 
 E1_F036_55DeepPurple(Wingless)
 DeepPurple, AreaGuard, 1, 2
-…, 4, L, 7000, 180
-“ÁŽê”\—Í
-ƒpƒCƒƒbƒgˆ¤Ì=DeepPurple
-ƒp[ƒc‡‘Ì=E1_F036_55DeepPurple
-í“¬ƒAƒjƒ=E1_F036_55DeepPurple
+æ°´, 4, L, 7000, 180
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆæ„›ç§°=DeepPurple
+ãƒ‘ãƒ¼ãƒ„åˆä½“=E1_F036_55DeepPurple
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡=E1_F036_55DeepPurple
 8000, 160, 1000, 80
 --AB, TF5_DeepPurple(WL).bmp
-LaserValcan,              1300,  1,  2,  +20,   -,   -,   -, AAAA,  -10, ‚a˜AL20
-WingArmCanon,             1600,  2,  4,   +0,   -,  10,   -, ABBA,  +20, ‚a˜AL3
-LPC-Canon,                2000,  1,  5,  -20,   -,  50,   -, BAAA,  +10, ‚a‚lü
+LaserValcan,              1300,  1,  2,  +20,   -,   -,   -, AAAA,  -10, ï¼¢é€£L20
+WingArmCanon,             1600,  2,  4,   +0,   -,  10,   -, ABBA,  +20, ï¼¢é€£L3
+LPC-Canon,                2000,  1,  5,  -20,   -,  50,   -, BAAA,  +10, ï¼¢ï¼­ç·š
 ===
-GuidedTorpedoFiringTube,  ¢Š«Lv3=DeepPurple‚Ì—U“±‹@—‹ Äs“® ‰ðà=‚RŠî‚Ì—U“±‹@—‹‚ð”­ŽË, 0, 3, -, -, ‚`L3
+GuidedTorpedoFiringTube,  å¬å–šLv3=DeepPurpleã®èª˜å°Žæ©Ÿé›· å†è¡Œå‹• è§£èª¬=ï¼“åŸºã®èª˜å°Žæ©Ÿé›·ã‚’ç™ºå°„, 0, 3, -, -, ï¼¡L3
 
 
-# WingArmCanonFWingArm‚¾‚Á‚½•”ˆÊ‚ðU‚é‚Æ“¯Žž‚ÉAŽO˜A’e‚ðŠe•ûŒü‚É‚Î‚çŽT‚­UŒ‚B–{—ˆ‚Ì‹Z–¼•s–¾B
+# WingArmCanonï¼šWingArmã ã£ãŸéƒ¨ä½ã‚’æŒ¯ã‚‹ã¨åŒæ™‚ã«ã€ä¸‰é€£å¼¾ã‚’å„æ–¹å‘ã«ã°ã‚‰æ’’ãæ”»æ’ƒã€‚æœ¬æ¥ã®æŠ€åä¸æ˜Žã€‚
 
 
-DeepPurple‚Ì—U“±”š—‹
+DeepPurpleã®èª˜å°Žçˆ†é›·
 GuidedTorpedo, AreaGuard, 1, 2
-‹ó, 3, S, 1000, 80
-“ÁŽê”\—Í
-§ŒÀŽžŠÔ=3
-¢Š«ƒ†ƒjƒbƒg
-’Ç‰ÁƒpƒCƒƒbƒg=lH’m”\(‚s‚e‚T)(ƒUƒR)
-í“¬ƒAƒjƒ=E1_F036_55DeepPurple
+ç©º, 3, S, 1000, 80
+ç‰¹æ®Šèƒ½åŠ›
+åˆ¶é™æ™‚é–“=3
+å¬å–šãƒ¦ãƒ‹ãƒƒãƒˆ
+è¿½åŠ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ=äººå·¥çŸ¥èƒ½(ï¼´ï¼¦ï¼•)(ã‚¶ã‚³)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡=E1_F036_55DeepPurple
 2000, 30, 1500, 70
 A--B, TF5_DeepPurpleGuidedTorpedo(S).bmp
-‘Ì“–‚è,                   1200,  1,  1,  +30,   -,   -,   -, AAAA,  -10, “Ë’ÇŒã
-ŠgŽU’e–‹,                 1500,  1,  3,  -10,   -,   -,   -, AABA,  -10, ‚aŽÀ‚l‘SŽ©Ž¯
+ä½“å½“ã‚Š,                   1200,  1,  1,  +30,   -,   -,   -, AAAA,  -10, çªè¿½å¾Œ
+æ‹¡æ•£å¼¾å¹•,                 1500,  1,  3,  -10,   -,   -,   -, AABA,  -10, ï¼¢å®Ÿï¼­å…¨è‡ªè­˜
 
 
-DeepPurple‚Ì—U“±‹@—‹
+DeepPurpleã®èª˜å°Žæ©Ÿé›·
 GuidedTorpedo, AreaGuard, 1, 2
-…, 5, S, 1000, 80
-“ÁŽê”\—Í
-§ŒÀŽžŠÔ=3
-¢Š«ƒ†ƒjƒbƒg
-’Ç‰ÁƒpƒCƒƒbƒg=lH’m”\(‚s‚e‚T)(ƒUƒR)
-í“¬ƒAƒjƒ=E1_F036_55DeepPurple
+æ°´, 5, S, 1000, 80
+ç‰¹æ®Šèƒ½åŠ›
+åˆ¶é™æ™‚é–“=3
+å¬å–šãƒ¦ãƒ‹ãƒƒãƒˆ
+è¿½åŠ ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ=äººå·¥çŸ¥èƒ½(ï¼´ï¼¦ï¼•)(ã‚¶ã‚³)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡=E1_F036_55DeepPurple
 2000, 30, 1700, 70
 --AB, TF5_DeepPurpleGuidedTorpedo(M).bmp
-‘Ì“–‚è,                   1500,  1,  1,  +30,   -,   -,   -, AAAA,  -10, “Ë’ÇŒã
+ä½“å½“ã‚Š,                   1500,  1,  1,  +30,   -,   -,   -, AAAA,  -10, çªè¿½å¾Œ
 
 
 ###############IronMaiden###############
-# Œ´ì‚Q–Ê‚Ìƒ{ƒXB
-# ’n‰º“´ŒA‚ÉoŒ»‚µ‚Ü‚·B
-# ŸƒAƒCƒRƒ“F”ñ“o˜^Ž®ƒpƒbƒN
+# åŽŸä½œï¼’é¢ã®ãƒœã‚¹ã€‚
+# åœ°ä¸‹æ´žçªŸã«å‡ºç¾ã—ã¾ã™ã€‚
+# â—†ã‚¢ã‚¤ã‚³ãƒ³ï¼šéžç™»éŒ²å¼ãƒ‘ãƒƒã‚¯
 
 E2_R056_55IronMaiden
 IronMaiden, AreaGuard, 1, 2
-—¤, 4, L, 7000, 180
-“ÁŽê”\—Í
-ƒpƒCƒƒbƒgˆ¤Ì=IronMaiden
-‚Lv4=“ª•”‘•b^‚
-ƒpƒCƒƒbƒg”\—Í•t‰Á=‚r–hŒäLv6
-–½=‰ðà ‚g‚oðŒ•‘• "‚g‚o‚ª$(Int(Info(‘ÎÛƒ†ƒjƒbƒg‚h‚c,•Ší,‘ÎÛƒ†ƒjƒbƒgŽg—p•Ší”Ô†,‘®«ƒŒƒxƒ‹,–½) * 10))%($(Int(Info(‘ÎÛƒ†ƒjƒbƒg‚h‚c, Å‘å‚g‚o) * (Info(‘ÎÛƒ†ƒjƒbƒg‚h‚c,•Ší,‘ÎÛƒ†ƒjƒbƒgŽg—p•Ší”Ô†,‘®«ƒŒƒxƒ‹,–½) / 10))))ˆÈã‚Ìê‡‚ÉŽg—p‰Â”\‚É‚È‚éB"
-í“¬ƒAƒjƒ=E2_R056_55IronMaiden
+é™¸, 4, L, 7000, 180
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆæ„›ç§°=IronMaiden
+ç›¾Lv4=é ­éƒ¨è£…ç”²ï¼ç›¾
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆèƒ½åŠ›ä»˜åŠ =ï¼³é˜²å¾¡Lv6
+å‘½=è§£èª¬ ï¼¨ï¼°æ¡ä»¶æ­¦è£… "ï¼¨ï¼°ãŒ$(Int(Info(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,æ­¦å™¨,å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆä½¿ç”¨æ­¦å™¨ç•ªå·,å±žæ€§ãƒ¬ãƒ™ãƒ«,å‘½) * 10))%($(Int(Info(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤, æœ€å¤§ï¼¨ï¼°) * (Info(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,æ­¦å™¨,å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆä½¿ç”¨æ­¦å™¨ç•ªå·,å±žæ€§ãƒ¬ãƒ™ãƒ«,å‘½) / 10))))ä»¥ä¸Šã®å ´åˆã«ä½¿ç”¨å¯èƒ½ã«ãªã‚‹ã€‚"
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡=E2_R056_55IronMaiden
 5000, 220, 1800, 70
 -A-B, TF5_IronMaiden.bmp
-Bomb-DILD,                1300,  1,  4,  +20,   -,  10,   -, AAAA,   +0, ‚a
-EggChamber,               1500,  1,  3,  +30,   4,   -,   -, AC-A,  -20, ‚a’Ç˜AL20
-ŠâÎ,                     1600,  1,  2,  -10,   -,  15,   -, AAAA,   +0, ŽÀ˜AL10
-îó’e–‹,                 1700,  2,  3,   +0,   -,  20,   -, AABA,  -10, ‚a•m
-LTMC-Canon,               1700,  1,  4,  -20,   -,  25,   -, AABA,  +10, ‚aŽU–½L2.5<‚g‚oLv2.5>
-’µ–ô,                     1800,  1,  1,  +20,   -,   -,   -, AAAA,   +0, “Ë‚iL2‚`L1
+Bomb-DILD,                1300,  1,  4,  +20,   -,  10,   -, AAAA,   +0, ï¼¢
+EggChamber,               1500,  1,  3,  +30,   4,   -,   -, AC-A,  -20, ï¼¢è¿½é€£L20
+å²©çŸ³,                     1600,  1,  2,  -10,   -,  15,   -, AAAA,   +0, å®Ÿé€£L10
+æ‰‡çŠ¶å¼¾å¹•,                 1700,  2,  3,   +0,   -,  20,   -, AABA,  -10, ï¼¢ç€•
+LTMC-Canon,               1700,  1,  4,  -20,   -,  25,   -, AABA,  +10, ï¼¢æ•£å‘½L2.5<ï¼¨ï¼°Lv2.5>
+è·³èº,                     1800,  1,  1,  +20,   -,   -,   -, AAAA,   +0, çªï¼ªL2ï¼¡L1
 
-# LTMC-CanonFLiving tissue microwave convergence canon
-# Bomb-DILDFBomb developed inside living bodyF“ü‚è‚«‚ç‚È‚¢‚Ì‚Å’Zk–¼‚É‚µ‚Ä‚ ‚è‚Ü‚·B
+# LTMC-Canonï¼šLiving tissue microwave convergence canon
+# Bomb-DILDï¼šBomb developed inside living bodyï¼šå…¥ã‚Šãã‚‰ãªã„ã®ã§çŸ­ç¸®åã«ã—ã¦ã‚ã‚Šã¾ã™ã€‚
 
 
 ###############Unknown###############
-# Œ´ì‚V–Ê(ÅI–Ê)‚Ìƒ{ƒXB
-# ‚RŒ`‘Ô‚É•Ï‰»‚µ‚Ü‚·B
-# •‘•–¼‚ÍThunderSwordˆÈŠOA‘S‚ÄŒ©‚½–Ú‚©‚ç‚Ì‘nì‚Å‚·B
-# ŸƒAƒCƒRƒ“F”ñ“o˜^Ž®ƒpƒbƒN
+# åŽŸä½œï¼—é¢(æœ€çµ‚é¢)ã®ãƒœã‚¹ã€‚
+# ï¼“å½¢æ…‹ã«å¤‰åŒ–ã—ã¾ã™ã€‚
+# æ­¦è£…åã¯ThunderSwordä»¥å¤–ã€å…¨ã¦è¦‹ãŸç›®ã‹ã‚‰ã®å‰µä½œã§ã™ã€‚
+# â—†ã‚¢ã‚¤ã‚³ãƒ³ï¼šéžç™»éŒ²å¼ãƒ‘ãƒƒã‚¯
 
 Area7Gurdian-Unknown
 Unknown, AreaGuard, 1, 2
-‹ó, 3, L, 10000, 200
-“ÁŽê”\—Í
-ƒpƒCƒƒbƒgˆ¤Ì=Unknown
-ƒp[ƒc•ª—£=i‰» Area7Gurdian-Unknown(—ƒ)
-í“¬ƒAƒjƒ=Area7Gurdian-Unknown
-i‰»=‰ðà ŒÃ‚¢‹@‘Ì‚ÉŽüˆÍ‚Ì‹@Þ‚ðŠñ‚¹W‚ßA;—ƒ‚ðŽ‚Á‚½Žp‚É¶‚Ü‚ê•Ï‚í‚éB
+ç©º, 3, L, 10000, 200
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆæ„›ç§°=Unknown
+ãƒ‘ãƒ¼ãƒ„åˆ†é›¢=é€²åŒ– Area7Gurdian-Unknown(ç¿¼)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡=Area7Gurdian-Unknown
+é€²åŒ–=è§£èª¬ å¤ã„æ©Ÿä½“ã«å‘¨å›²ã®æ©Ÿæã‚’å¯„ã›é›†ã‚ã€;ç¿¼ã‚’æŒã£ãŸå§¿ã«ç”Ÿã¾ã‚Œå¤‰ã‚ã‚‹ã€‚
 7000, 200, 1500, 60
 A--A, TF5_Stage7Gurdian.bmp
-BrokenPiece,              1200,  2,  4,  +10,   -,   -,   -, -AAB,  -20, ŽÀ˜AL20
-HomingThing,              1300,  2,  4,  +30,  10,   -,   -, AC-A,  -20, Œã‚g
-BeamCanon,                1500,  1,  3,  -10,   -,  15,   -, AC-A,  -20, ‚a˜AL5
-ThrowingBullet,           1700,  1,  2,  +10,  10,   -,   -, AC-A,  +10, ‚o˜AL2
+BrokenPiece,              1200,  2,  4,  +10,   -,   -,   -, -AAB,  -20, å®Ÿé€£L20
+HomingThing,              1300,  2,  4,  +30,  10,   -,   -, AC-A,  -20, å¾Œï¼¨
+BeamCanon,                1500,  1,  3,  -10,   -,  15,   -, AC-A,  -20, ï¼¢é€£L5
+ThrowingBullet,           1700,  1,  2,  +10,  10,   -,   -, AC-A,  +10, ï¼°é€£L2
 
 
-Area7Gurdian-Unknown(—ƒ)
+Area7Gurdian-Unknown(ç¿¼)
 Unknown, AreaGuard, 1, 2
-‹ó, 4, L, 10000, 200
-“ÁŽê”\—Í
-ƒpƒCƒƒbƒgˆ¤Ì=Unknown
-ƒp[ƒc•ª—£=i‰» Area7Gurdian-Unknown(Œ•)
-í“¬ƒAƒjƒ=Area7Gurdian-Unknown
-i‰»=‰ðà ŒÃ‚¢‹@‘Ì‚ÉŽüˆÍ‚Ì‹@Þ‚ðŠñ‚¹W‚ßA;Œ•‚ðŽ‚Á‚½Žp‚É¶‚Ü‚ê•Ï‚í‚éB
+ç©º, 4, L, 10000, 200
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆæ„›ç§°=Unknown
+ãƒ‘ãƒ¼ãƒ„åˆ†é›¢=é€²åŒ– Area7Gurdian-Unknown(å‰£)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡=Area7Gurdian-Unknown
+é€²åŒ–=è§£èª¬ å¤ã„æ©Ÿä½“ã«å‘¨å›²ã®æ©Ÿæã‚’å¯„ã›é›†ã‚ã€;å‰£ã‚’æŒã£ãŸå§¿ã«ç”Ÿã¾ã‚Œå¤‰ã‚ã‚‹ã€‚
 7000, 200, 2000, 90
 A--A, TF5_Stage7Gurdian(W).bmp
-polygon(Red),             1100,  1,  3,  +30,  10,   -,   -, AC-A,  -20, ŽÀŠÔ‚g
-LaserTrackingCanon,       1300,  2,  5,  +30,   -,  10,   -, AC-A,  -20, Œã‚gÄL8
-BeamCanon,                1500,  1,  3,  -10,   -,  15,   -, AC-A,  -20, ‚a˜AL5
-ThrowingBullet,           1700,  1,  2,  +10,  10,   -,   -, AC-A,  +10, ‚o˜AL2
-Biting,                   2500,  1,  1,  -20,   -,   -,   -, AC-A,  +30, U“ËŽE
+polygon(Red),             1100,  1,  3,  +30,  10,   -,   -, AC-A,  -20, å®Ÿé–“ï¼¨
+LaserTrackingCanon,       1300,  2,  5,  +30,   -,  10,   -, AC-A,  -20, å¾Œï¼¨å†L8
+BeamCanon,                1500,  1,  3,  -10,   -,  15,   -, AC-A,  -20, ï¼¢é€£L5
+ThrowingBullet,           1700,  1,  2,  +10,  10,   -,   -, AC-A,  +10, ï¼°é€£L2
+Biting,                   2500,  1,  1,  -20,   -,   -,   -, AC-A,  +30, æ”»çªæ®º
 
-Area7Gurdian-Unknown(Œ•)
+Area7Gurdian-Unknown(å‰£)
 Unknown, AreaGuard, 1, 2
-‹ó, 4, L, 10000, 200
-“ÁŽê”\—Í
-ƒpƒCƒƒbƒgˆ¤Ì=Unknown
-í“¬ƒAƒjƒ=Area7Gurdian-Unknown
+ç©º, 4, L, 10000, 200
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆæ„›ç§°=Unknown
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡=Area7Gurdian-Unknown
 7000, 200, 2000, 90
 A--A, TF5_Stage7Gurdian(S).bmp
-polygon(Green),           1100,  1,  4,  +30,  10,   -,   -, AC-A,  +20, ŽÀŠÔ‚g
-LaserTrackingCanon,       1300,  2,  5,  +30,   -,  10,   -, AC-A,  -20, Œã‚gÄL8
-SwordEdge,                1400,  1,  3,  -10,   -,   -,   -, AAAA,  +10, •
-Sword,                    2000,  1,  1,  +30,   -,   -,   -, AAAA,  +10, •U
-ThunderSword,             2500,  1,  4,  +20,   -,   -,   -, AAAA,  +10, ‚l’¼‚`L2
+polygon(Green),           1100,  1,  4,  +30,  10,   -,   -, AC-A,  +20, å®Ÿé–“ï¼¨
+LaserTrackingCanon,       1300,  2,  5,  +30,   -,  10,   -, AC-A,  -20, å¾Œï¼¨å†L8
+SwordEdge,                1400,  1,  3,  -10,   -,   -,   -, AAAA,  +10, æ­¦
+Sword,                    2000,  1,  1,  +30,   -,   -,   -, AAAA,  +10, æ­¦æ”»
+ThunderSword,             2500,  1,  4,  +20,   -,   -,   -, AAAA,  +10, ï¼­ç›´ï¼¡L2

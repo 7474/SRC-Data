@@ -1,293 +1,293 @@
 
-# ЃEЋg—p‚µ‚Д‚ў‚й”с”Д—pѓOѓ‰ѓtѓBѓbѓN‰ж‘њ
-# ѓ}ѓVѓ…Ѓ[ЃЃѓpѓeѓ‹ЃcЃcM_Vampire(S)U.bmp(”с“o^‰ж‘њѓpѓbѓNЃuЏг‹‰‹zЊЊ‹SЃvЃBUnitѓtѓHѓ‹ѓ_‚ЙЉi”[‚µ‚Д‚­‚ѕ‚і‚ў)
+# гѓ»дЅїз”ЁгЃ—гЃ¦гЃ„г‚‹йќћж±Ћз”Ёг‚°гѓ©гѓ•г‚Јгѓѓг‚Їз”»еѓЏ
+# гѓћг‚·гѓҐгѓјпјќгѓ‘гѓ†гѓ«вЂ¦вЂ¦M_Vampire(S)U.bmp(йќћз™»йЊІз”»еѓЏгѓ‘гѓѓг‚ЇгЂЊдёЉзґљеђёиЎЂй¬јгЂЌгЂ‚Unitгѓ•г‚©гѓ«гѓЂгЃ«ж јзґЌгЃ—гЃ¦гЃЏгЃ гЃ•гЃ„)
 
 
-# ѓAѓCѓeѓЂ
-”Д—p
-The Power of LOVE, ђU‚й•ђЉн Weapon\EFFECT_Youtou03.bmp
-The Power of LOVE(ЌUЊ‚), ”­ЋЛA‘±•`‰ж Attack\EFFECT_Swing(Pink)[01-04].bmp 48 1.5 3 Swing(2).wav
-The Power of LOVE(–Ѕ’†), “‚’|Љ„‚и ѓsѓ“ѓN Slash(3).wav;“‚’|Љ„‚и ѓsѓ“ѓN Slash(3).wav;“‚’|Љ„‚и ѓsѓ“ѓN Slash(3).wav
-The Power of Understanding, ђU‚й•ђЉн Weapon\EFFECT_GiantSword02.bmp 64
-The Power of Understanding(ЌUЊ‚), ”­ЋЛA‘±•`‰ж Slash\EFFECT_SlashLine[01-04].bmp 120 3 1 Swing(3).wav
-The Power of Understanding(–Ѕ’†), ’ґЋaЊ‚ Ќ• Transform.wav
+# г‚ўг‚¤гѓ†гѓ 
+ж±Ћз”Ё
+The Power of LOVE, жЊЇг‚‹ж­¦е™Ё Weapon\EFFECT_Youtou03.bmp
+The Power of LOVE(ж”»ж’ѓ), з™єе°„йЂЈз¶љжЏЏз”» Attack\EFFECT_Swing(Pink)[01-04].bmp 48 1.5 3 Swing(2).wav
+The Power of LOVE(е‘Ѕдё­), е”ђз«№е‰Іг‚Љ гѓ”гѓіг‚Ї Slash(3).wav;е”ђз«№е‰Іг‚Љ гѓ”гѓіг‚Ї Slash(3).wav;е”ђз«№е‰Іг‚Љ гѓ”гѓіг‚Ї Slash(3).wav
+The Power of Understanding, жЊЇг‚‹ж­¦е™Ё Weapon\EFFECT_GiantSword02.bmp 64
+The Power of Understanding(ж”»ж’ѓ), з™єе°„йЂЈз¶љжЏЏз”» Slash\EFFECT_SlashLine[01-04].bmp 120 3 1 Swing(3).wav
+The Power of Understanding(е‘Ѕдё­), и¶…ж–¬ж’ѓ й»’ Transform.wav
 
 
-ѓXѓRѓbѓgЃЃѓsѓ‹ѓOѓЉѓЂ
-ѓJѓEѓ“ѓ^Ѓ[ѓpѓ“ѓ`(–Ѕ’†), @ђн“¬ѓAѓjѓЃ_‘Е“ЛЌUЊ‚;’ґ‘Е FightHit(4).wav
-Fight, Љi“¬
-Headbutt(ЌUЊ‚), ѓwѓbѓhѓoѓbѓg
-Headbutt(–Ѕ’†), ‹­‘Е
-Hayate(ЌUЊ‚), ѓXЃ[ѓpЃ[ѓpѓ“ѓ` ѓIѓЊѓ“ѓW AntiAirMissile.wav
-Hayate(–Ѕ’†), ѓXЃ[ѓpЃ[ѓpѓ“ѓ` ѓIѓЊѓ“ѓW
-Fukiage(ЌUЊ‚), ѓfѓtѓHѓ‹ѓg;_
-	SCOTT_“сЏdA‘±•`‰ж Fire\EFFECT_FlameThrowerHit(Red)[01-05].bmp 60 _
-	Impact\EFFECT_GrandEffect(Orange)[01-05].bmp 120 2 1 ”w–К Љp“x=90 Swing(3).wav ‰є•У ‰є•У‚Q •ЫЋќ
-Fukiage(–Ѕ’†), ‹­‘Е
-Bakuma-Ryujin W Kick(ЌUЊ‚), SCOTT_ѓoѓbѓNѓWѓѓѓ“ѓv ђі ‘¬ BeamGun.wav
-Bakuma-Ryujin W Kick(–Ѕ’†), ‘ЕЊ‚;‹­‘Е
-Awesome COMBOЃI(ЌUЊ‚), ѓAѓbѓpЃ[
-Awesome COMBOЃI(–Ѕ’†), ’ґѓAѓbѓpЃ[;“§–ѕ‰» ‘ЉЋиѓ†ѓjѓbѓg‚h‚c;SCOTT_ѓoѓbѓNѓWѓѓѓ“ѓv ђі ‘¬ Ќ‚ ѓAѓbѓpЃ[;_
-	“§–ѕ‰» ‘ЉЋиѓ†ѓjѓbѓg‚h‚c ‰рЏњ;SCOTT_ѓRѓ“ѓ{
-Awesome COMBOЃI(‰рђа), $(ѓ†ѓjѓbѓg)‚Н‹у’†ѓRѓ“ѓ{‚р‚µ‚©‚Ї‚ЅЃB
-“–‚Дђg‹Z(ReversalЃI), ”­Њх ѓsѓ“ѓN Flair.wav
+г‚№г‚ігѓѓгѓ€пјќгѓ”гѓ«г‚°гѓЄгѓ 
+г‚«г‚¦гѓіг‚їгѓјгѓ‘гѓігѓЃ(е‘Ѕдё­), @ж€¦й—г‚ўгѓ‹гѓЎ_ж‰“зЄЃж”»ж’ѓ;и¶…ж‰“ FightHit(4).wav
+Fight, ж јй—
+Headbutt(ж”»ж’ѓ), гѓгѓѓгѓ‰гѓђгѓѓгѓ€
+Headbutt(е‘Ѕдё­), еј·ж‰“
+Hayate(ж”»ж’ѓ), г‚№гѓјгѓ‘гѓјгѓ‘гѓігѓЃ г‚Єгѓ¬гѓіг‚ё AntiAirMissile.wav
+Hayate(е‘Ѕдё­), г‚№гѓјгѓ‘гѓјгѓ‘гѓігѓЃ г‚Єгѓ¬гѓіг‚ё
+Fukiage(ж”»ж’ѓ), гѓ‡гѓ•г‚©гѓ«гѓ€;_
+	SCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”» Fire\EFFECT_FlameThrowerHit(Red)[01-05].bmp 60 _
+	Impact\EFFECT_GrandEffect(Orange)[01-05].bmp 120 2 1 иѓЊйќў и§’еє¦=90 Swing(3).wav дё‹иѕє дё‹иѕєпј’ дїќжЊЃ
+Fukiage(е‘Ѕдё­), еј·ж‰“
+Bakuma-Ryujin W Kick(ж”»ж’ѓ), SCOTT_гѓђгѓѓг‚Їг‚ёгѓЈгѓігѓ— ж­Ј йЂџ BeamGun.wav
+Bakuma-Ryujin W Kick(е‘Ѕдё­), ж‰“ж’ѓ;еј·ж‰“
+Awesome COMBOпјЃ(ж”»ж’ѓ), г‚ўгѓѓгѓ‘гѓј
+Awesome COMBOпјЃ(е‘Ѕдё­), и¶…г‚ўгѓѓгѓ‘гѓј;йЂЏжЋеЊ– з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤;SCOTT_гѓђгѓѓг‚Їг‚ёгѓЈгѓігѓ— ж­Ј йЂџ й« г‚ўгѓѓгѓ‘гѓј;_
+	йЂЏжЋеЊ– з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤ и§Јй™¤;SCOTT_г‚ігѓігѓњ
+Awesome COMBOпјЃ(и§ЈиЄ¬), $(гѓ¦гѓ‹гѓѓгѓ€)гЃЇз©єдё­г‚ігѓігѓњг‚’гЃ—гЃ‹гЃ‘гЃџгЂ‚
+еЅ“гЃ¦иє«жЉЂ(ReversalпјЃ), з™єе…‰ гѓ”гѓіг‚Ї Flair.wav
 
-# SCOTT_ѓRѓ“ѓ{ЃASCOTT_ѓoѓbѓNѓWѓѓѓ“ѓvЃASCOTT_“сЏdA‘±•`‰ж
-
-
-ѓ‰ѓ‚Ѓ[ѓiЃЃѓtѓ‰ѓЏЃ[ѓY
-ѓ`ѓ^ѓjѓEѓЂѓoѓbѓg, ‰Ј‘Е•ђЉн DGoods\EFFECT_MetalButt01.bmp
-ѓ‰Ѓ[ѓWѓnѓ“ѓ}Ѓ[, ‘е‹а’Ж
-ђщ‰~ЏR, —Ѓ‚С‚№ЏR‚и
-‹CЊчЏ¶‘Е(ЌUЊ‚), ѓfѓtѓHѓ‹ѓg;ЋА’e”­ЋЛ Common\EFFECT_SonicBoom(Orange)01.bmp 48 Bazooka.wav
-‹CЊчЏ¶‘Е(–Ѕ’†), ‹­‘Е
-ѓeѓЊѓ|Ѓ[ѓg(ѓTѓuѓXѓyЃ[ѓXЃEѓnѓCѓEѓFѓC), •ПЊ` Map\Gate\gate2001.bmp Door(Close).wav;ЏuЉФ•ПЊ`
+# SCOTT_г‚ігѓігѓњгЂЃSCOTT_гѓђгѓѓг‚Їг‚ёгѓЈгѓігѓ—гЂЃSCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”»
 
 
-ѓiѓCѓuѓXЃЃѓ`ѓѓѓE
-‚k‚n‚u‚d‰Њ(ЌUЊ‚), ѓfѓtѓHѓ‹ѓg;•¶Ћљ”­ЋЛ ‚k‚n‚u‚d ”’ Jump.wav ’x
-‚k‚n‚u‚d‰Њ(–Ѕ’†), ‰Њ
-ѓiѓCѓt, ЋaЊ‚•ђЉн Weapon\EFFECT_Chinquedea01.bmp “с“Ѓ—¬
-“ЉЊ•(ЏЂ”х), -
-“ЉЊ•(ЌUЊ‚), “Љќ±•ђЉн Weapon\EFFECT_Chinquedea(T)01.bmp
-“ЉЊ•(–Ѕ’†), Ћh“Л
-ђщ•—‹r(ЌUЊ‚), ѓXѓsѓ“ѓLѓbѓN
-ђщ•—‹r(–Ѕ’†), ‹­‘Е
-”љ—фѓiѓCѓt(ЏЂ”х), -
-”љ—фѓiѓCѓt(ЌUЊ‚), SCOTT_Ќ‚‘¬ЏЂ”х Weapon\EFFECT_Chinquedea01.bmp “с“Ѓ—¬;ЋaЊ‚ “с“Ѓ—¬;_
-	ЋА’e”­ЋЛ Weapon\EFFECT_MulchThrowingSword02.bmp 48 -.wav
-”љ—фѓiѓCѓt(–Ѕ’†), Џ¬”љ”­;”љ”­
-ѓXЃ[ѓpЃ[ѓ`ѓѓѓCѓjЃ[ѓYѓLѓbѓN(ЌUЊ‚), ѓWѓѓѓ“ѓv;“§–ѕ‰» ‘ОЏЫѓ†ѓjѓbѓg‚h‚c ”Ѕ‰f
-ѓXЃ[ѓpЃ[ѓ`ѓѓѓCѓjЃ[ѓYѓLѓbѓN(–Ѕ’†), ѓXЃ[ѓpЃ[ѓ^ѓbѓNѓ‹ ѓsѓ“ѓN FightHit(1).wav
-
-# SCOTT_Ќ‚‘¬ЏЂ”х
+гѓ©гѓўгѓјгѓЉпјќгѓ•гѓ©гѓЇгѓјг‚є
+гѓЃг‚їгѓ‹г‚¦гѓ гѓђгѓѓгѓ€, ж®ґж‰“ж­¦е™Ё DGoods\EFFECT_MetalButt01.bmp
+гѓ©гѓјг‚ёгѓЏгѓігѓћгѓј, е¤§й‡‘ж§Њ
+ж—‹е††и№ґ, жµґгЃігЃ›и№ґг‚Љ
+ж°—еЉџжЋЊж‰“(ж”»ж’ѓ), гѓ‡гѓ•г‚©гѓ«гѓ€;е®џејѕз™єе°„ Common\EFFECT_SonicBoom(Orange)01.bmp 48 Bazooka.wav
+ж°—еЉџжЋЊж‰“(е‘Ѕдё­), еј·ж‰“
+гѓ†гѓ¬гѓќгѓјгѓ€(г‚µгѓ–г‚№гѓљгѓјг‚№гѓ»гѓЏг‚¤г‚¦г‚§г‚¤), е¤‰еЅў Map\Gate\gate2001.bmp Door(Close).wav;зћ¬й–“е¤‰еЅў
 
 
-ѓ}ѓVѓ…Ѓ[ЃЃѓpѓeѓ‹
-Љi“¬, Љi“¬
-ѓAѓOѓjѓtѓBѓXѓg(ЌUЊ‚), ђU‚й•ђЉн“ЛЊ‚ Fire\EFFECT_Fire(Red)01.bmp “с“Ѓ—¬ Fire.wav;‘Е“Л;‘Е“Л
-ѓAѓOѓjѓtѓBѓXѓg(–Ѕ’†), ‘ЕЊ‚;‘ЕЊ‚;”љ”­
-ѓ`ѓѓЃ[ѓWѓtѓ@ѓCѓA(ЌUЊ‚), ”g“®•ъЋЛ ђФ
-ѓ`ѓѓЃ[ѓWѓtѓ@ѓCѓA(–Ѕ’†), ”љ”­
-ѓfЃ[ѓ‚ѓ“ѓKЃ[ѓ‹ѓY(ЌUЊ‚), A‘±•`‰ж Light\EFFECT_LightScreen(Yellow)[01-01].bmp 48 5 1 BeamCoat.wav ”w–К;_
-	Ћь€Н‰с“] M_Vampire(S)U.bmp 3 Explode(Small).wav ‘ОЏЫѓ†ѓjѓbѓg‚h‚c
-ѓKЃ[ѓ‹ѓYѓtѓ@ѓCѓ„Ѓ[ѓ{Ѓ[ѓ‹(ЌUЊ‚), ‘ОђнЋФѓ‰ѓCѓtѓ‹ M_Vampire(S)U.bmp 32 4;‘ОђнЋФѓ‰ѓCѓtѓ‹ M_Vampire(S)U.bmp 32 4
-ѓKЃ[ѓ‹ѓYѓtѓ@ѓCѓ„Ѓ[ѓ{Ѓ[ѓ‹(–Ѕ’†), ‘е”љ”­
-’EЏo, @ђн“¬ѓAѓjѓЃ_SCOTT_“сЏdA‘±•`‰жЌUЊ‚ Beam\EFFECT_DBeam(White)[01-05].bmp 64 Beam\EFFECT_DBeam(White)[05-01].bmp _
-	64 10 1 Charge(long).wav Љp“x=90 Љp“x‚Q=-90 Џг‰є”Ѕ“] ”w–К ”w–К‚Q ‘ЉЋиѓ†ѓjѓbѓg‚h‚c;_
-	“§–ѕ‰» ‘ЉЋиѓ†ѓjѓbѓg‚h‚c ”Ѕ‰f;@ђн“¬ѓAѓjѓЃ_Њх‹…•ъЏoЌUЊ‚ Explode(Far).wav ‘ЉЋиѓ†ѓjѓbѓg‚h‚c
+гѓЉг‚¤гѓ–г‚№пјќгѓЃгѓЈг‚¦
+пј¬пјЇпј¶пјҐз…™(ж”»ж’ѓ), гѓ‡гѓ•г‚©гѓ«гѓ€;ж–‡е­—з™єе°„ пј¬пјЇпј¶пјҐ з™Ѕ Jump.wav йЃ…
+пј¬пјЇпј¶пјҐз…™(е‘Ѕдё­), з…™
+гѓЉг‚¤гѓ•, ж–¬ж’ѓж­¦е™Ё Weapon\EFFECT_Chinquedea01.bmp дєЊе€ЂжµЃ
+жЉ•е‰Ј(жє–е‚™), -
+жЉ•е‰Ј(ж”»ж’ѓ), жЉ•ж“Іж­¦е™Ё Weapon\EFFECT_Chinquedea(T)01.bmp
+жЉ•е‰Ј(е‘Ѕдё­), е€єзЄЃ
+ж—‹йўЁи„љ(ж”»ж’ѓ), г‚№гѓ”гѓіг‚­гѓѓг‚Ї
+ж—‹йўЁи„љ(е‘Ѕдё­), еј·ж‰“
+з€†иЈ‚гѓЉг‚¤гѓ•(жє–е‚™), -
+з€†иЈ‚гѓЉг‚¤гѓ•(ж”»ж’ѓ), SCOTT_й«йЂџжє–е‚™ Weapon\EFFECT_Chinquedea01.bmp дєЊе€ЂжµЃ;ж–¬ж’ѓ дєЊе€ЂжµЃ;_
+	е®џејѕз™єе°„ Weapon\EFFECT_MulchThrowingSword02.bmp 48 -.wav
+з€†иЈ‚гѓЉг‚¤гѓ•(е‘Ѕдё­), е°Џз€†з™є;з€†з™є
+г‚№гѓјгѓ‘гѓјгѓЃгѓЈг‚¤гѓ‹гѓјг‚єг‚­гѓѓг‚Ї(ж”»ж’ѓ), г‚ёгѓЈгѓігѓ—;йЂЏжЋеЊ– еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤ еЏЌж 
+г‚№гѓјгѓ‘гѓјгѓЃгѓЈг‚¤гѓ‹гѓјг‚єг‚­гѓѓг‚Ї(е‘Ѕдё­), г‚№гѓјгѓ‘гѓјг‚їгѓѓг‚Їгѓ« гѓ”гѓіг‚Ї FightHit(1).wav
 
-# SCOTT_“сЏdA‘±•`‰ж
-
-
-ѓ‹Ѓ[ѓJѓXЃЃѓЉЃ[
-‘Е‚ї‰є‚л‚µѓpѓ“ѓ`(ЌUЊ‚), ‘Е“Л
-‘Е‚ї‰є‚л‚µѓpѓ“ѓ`(–Ѕ’†), ‘ЕЊ‚ FightHit(3).wav
-ѓ{Ѓ[ѓhѓNѓ‰ѓbѓVѓ…(ЌUЊ‚), ‘еЋaЊ‚ Ќ•
-ѓ{Ѓ[ѓhѓNѓ‰ѓbѓVѓ…(–Ѕ’†), ‹­‘Е
-ѓWѓѓѓCѓAѓ“ѓgѓXѓCѓ“ѓO, ѓWѓѓѓCѓAѓ“ѓgѓXѓCѓ“ѓO
-ѓvѓЌ‚МѓeѓN(ЌUЊ‚), ѓXЃ[ѓpЃ[ѓ^ѓbѓNѓ‹ Ќ•
-ѓvѓЌ‚МѓeѓN(–Ѕ’†), ѓXЃ[ѓpЃ[ѓ^ѓbѓNѓ‹ Ќ• Explode.wav;ѓXЃ[ѓpЃ[ѓLѓbѓN Ќ• Explode.wav
-’EЏo, ЏБ–Е’EЏo BeamCannon.wav
+# SCOTT_й«йЂџжє–е‚™
 
 
-ѓgѓbѓhЃЃѓCѓ“ѓOѓ‰ѓЂ
-•ъ“d(ЌUЊ‚), ‘е•ъ“d ђВ ‘ОЏЫѓ†ѓjѓbѓg‚h‚c
-•ъ“d(–Ѕ’†), ‘е“dЊ‚ ђВ
-ѓeѓЊѓLѓlѓVѓX(ЌUЊ‚), ”­Њх ”’ ‘ОЏЫѓ†ѓjѓbѓg‚h‚c Flair.wav
-ѓeѓЊѓLѓlѓVѓX(–Ѕ’†), ‘ЕЊ‚ BreakOff.wav;_
-	SCOTT_ѓoѓbѓNѓWѓѓѓ“ѓv Ќ‚ ђ‚’ј ’x ‘ЉЋиѓ†ѓjѓbѓg‚h‚c -.wav
-‚Ж‚Б‚З‚М‚¶‚г‚В(ЌUЊ‚), A‘±•`‰ж Common\EFFECT_RosePetal(Orange)[01-01].bmp 44 1 1 Џг•У ”w–К •ЫЋќ BeamSaber(4).wav;_
-	A‘±•`‰ж Common\EFFECT_RosePetal(Orange)[01-01].bmp 44 1 1 ”w–К •ЫЋќ;_
-	A‘±•`‰ж Common\EFFECT_RosePetal(Orange)[01-01].bmp 44 4 1 ‰є•У ”w–К •ЫЋќ;_
-	ЋА’e”­ЋЛ Common\EFFECT_RosePetal(Orange)01.bmp 44 -.wav
-‚Ж‚Б‚З‚М‚¶‚г‚В(–Ѕ’†), A‘Е
-‚s‚X‚X‚X‚X(ЏЂ”х), ѓKѓCѓhѓЃѓbѓZЃ[ѓW ‚v‚`‚q‚m‚h‚m‚f —О Warning.wav
-‚s‚X‚X‚X‚X(ЌUЊ‚), •ПЊ` Anime\Creature\EFFECT_Demon01.bmp Fold.wav;_
-	SCOTT_“сЏdA‘±•`‰ж Attack\EFFECT_Tentacle(Blue)[01-06].bmp 80 Attack\EFFECT_Tentacle(Purple)[01-06].bmp 80 _
-	3 1 MultipleRocketLauncher(Light).wav ”­ЋЛ Џг‰є”Ѕ“];_
-	SCOTT_“сЏdA‘±•`‰ж Attack\EFFECT_Tentacle(Blue)[01-06].bmp 120 Attack\EFFECT_Tentacle(Purple)[01-06].bmp 120 _
-	2 1 -.wav ”­ЋЛ Џг‰є”Ѕ“];_
-	SCOTT_“сЏdA‘±•`‰ж Attack\EFFECT_Tentacle(Blue)[01-06].bmp 120 Attack\EFFECT_Tentacle(Purple)[01-06].bmp 160 _
-	2 2 -.wav ”­ЋЛ Џг‰є”Ѕ“]
-‚s‚X‚X‚X‚X(–Ѕ’†), ‹­‘Е
-ѓCѓ“ѓNѓЊѓfѓBѓuѓ‹ѓxЃ[ѓXѓ\ѓЌ(ЌUЊ‚), ‚l‚`‚oѓtѓ‰ѓbѓVѓ… ђ…ђF Guitar.wav
-ѓCѓ“ѓNѓЊѓfѓBѓuѓ‹ѓxЃ[ѓXѓ\ѓЌ(–Ѕ’†), ‹­‘Е
-ЌUЊ‚–іЊш‰»(‚`‚sѓtѓBЃ[ѓ‹ѓh), –Ф–ЪѓoѓЉѓA Sword.wav •К–ј=‚`‚sѓtѓBЃ[ѓ‹ѓh ђВ
-ЌUЊ‚–іЊш‰»(’ґѓxЃ[ѓXѓpѓЏЃ[), ѓoѓЉѓA •К–ј=’ґѓxЃ[ѓXѓpѓЏЃ[ Guitar.wav
-’EЏo, Fold.wav;@ђн“¬ѓAѓjѓЃ_A‘±•`‰жЌUЊ‚ Common\EFFECT_Particle(Blue)[03-01].bmp 40 6 1 _
-	”w–К •ЫЋќ -.wav ‘ЉЋиѓ†ѓjѓbѓg‚h‚c;_
-	@ђн“¬ѓAѓjѓЃ_A‘±•`‰жЌUЊ‚ Common\EFFECT_Particle(Blue)[03-01].bmp 40 6 1 Џг•У ”w–К -.wav ‘ЉЋиѓ†ѓjѓbѓg‚h‚c;_
-	“§–ѕ‰» ‘ЉЋиѓ†ѓjѓbѓg‚h‚c;@ђн“¬ѓAѓjѓЃ_SCOTT_“сЏdA‘±•`‰жЌUЊ‚ Light\EFFECT_BurnOff(Blue)[01-09].gif 120 _
-	Light\EFFECT_BurnOff(Green)[01-09].gif 80 6 1 Љp“x=90 Explode.wav ‘ЉЋиѓ†ѓjѓbѓg‚h‚c
+гѓћг‚·гѓҐгѓјпјќгѓ‘гѓ†гѓ«
+ж јй—, ж јй—
+г‚ўг‚°гѓ‹гѓ•г‚Јг‚№гѓ€(ж”»ж’ѓ), жЊЇг‚‹ж­¦е™ЁзЄЃж’ѓ Fire\EFFECT_Fire(Red)01.bmp дєЊе€ЂжµЃ Fire.wav;ж‰“зЄЃ;ж‰“зЄЃ
+г‚ўг‚°гѓ‹гѓ•г‚Јг‚№гѓ€(е‘Ѕдё­), ж‰“ж’ѓ;ж‰“ж’ѓ;з€†з™є
+гѓЃгѓЈгѓјг‚ёгѓ•г‚Ўг‚¤г‚ў(ж”»ж’ѓ), жіўе‹•ж”ѕе°„ иµ¤
+гѓЃгѓЈгѓјг‚ёгѓ•г‚Ўг‚¤г‚ў(е‘Ѕдё­), з€†з™є
+гѓ‡гѓјгѓўгѓіг‚¬гѓјгѓ«г‚є(ж”»ж’ѓ), йЂЈз¶љжЏЏз”» Light\EFFECT_LightScreen(Yellow)[01-01].bmp 48 5 1 BeamCoat.wav иѓЊйќў;_
+	е‘Ёе›Іе›ћи»ў M_Vampire(S)U.bmp 3 Explode(Small).wav еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤
+г‚¬гѓјгѓ«г‚єгѓ•г‚Ўг‚¤гѓ¤гѓјгѓњгѓјгѓ«(ж”»ж’ѓ), еЇѕж€¦и»Љгѓ©г‚¤гѓ•гѓ« M_Vampire(S)U.bmp 32 4;еЇѕж€¦и»Љгѓ©г‚¤гѓ•гѓ« M_Vampire(S)U.bmp 32 4
+г‚¬гѓјгѓ«г‚єгѓ•г‚Ўг‚¤гѓ¤гѓјгѓњгѓјгѓ«(е‘Ѕдё­), е¤§з€†з™є
+и„±е‡є, @ж€¦й—г‚ўгѓ‹гѓЎ_SCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”»ж”»ж’ѓ Beam\EFFECT_DBeam(White)[01-05].bmp 64 Beam\EFFECT_DBeam(White)[05-01].bmp _
+	64 10 1 Charge(long).wav и§’еє¦=90 и§’еє¦пј’=-90 дёЉдё‹еЏЌи»ў иѓЊйќў иѓЊйќўпј’ з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤;_
+	йЂЏжЋеЊ– з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤ еЏЌж ;@ж€¦й—г‚ўгѓ‹гѓЎ_е…‰зђѓж”ѕе‡єж”»ж’ѓ Explode(Far).wav з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤
+
+# SCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”»
+
+
+гѓ«гѓјг‚«г‚№пјќгѓЄгѓј
+ж‰“гЃЎдё‹г‚ЌгЃ—гѓ‘гѓігѓЃ(ж”»ж’ѓ), ж‰“зЄЃ
+ж‰“гЃЎдё‹г‚ЌгЃ—гѓ‘гѓігѓЃ(е‘Ѕдё­), ж‰“ж’ѓ FightHit(3).wav
+гѓњгѓјгѓ‰г‚Їгѓ©гѓѓг‚·гѓҐ(ж”»ж’ѓ), е¤§ж–¬ж’ѓ й»’
+гѓњгѓјгѓ‰г‚Їгѓ©гѓѓг‚·гѓҐ(е‘Ѕдё­), еј·ж‰“
+г‚ёгѓЈг‚¤г‚ўгѓігѓ€г‚№г‚¤гѓіг‚°, г‚ёгѓЈг‚¤г‚ўгѓігѓ€г‚№г‚¤гѓіг‚°
+гѓ—гѓ­гЃ®гѓ†г‚Ї(ж”»ж’ѓ), г‚№гѓјгѓ‘гѓјг‚їгѓѓг‚Їгѓ« й»’
+гѓ—гѓ­гЃ®гѓ†г‚Ї(е‘Ѕдё­), г‚№гѓјгѓ‘гѓјг‚їгѓѓг‚Їгѓ« й»’ Explode.wav;г‚№гѓјгѓ‘гѓјг‚­гѓѓг‚Ї й»’ Explode.wav
+и„±е‡є, ж¶€ж»…и„±е‡є BeamCannon.wav
+
+
+гѓ€гѓѓгѓ‰пјќг‚¤гѓіг‚°гѓ©гѓ 
+ж”ѕй›»(ж”»ж’ѓ), е¤§ж”ѕй›» йќ’ еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤
+ж”ѕй›»(е‘Ѕдё­), е¤§й›»ж’ѓ йќ’
+гѓ†гѓ¬г‚­гѓЌг‚·г‚№(ж”»ж’ѓ), з™єе…‰ з™Ѕ еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤ Flair.wav
+гѓ†гѓ¬г‚­гѓЌг‚·г‚№(е‘Ѕдё­), ж‰“ж’ѓ BreakOff.wav;_
+	SCOTT_гѓђгѓѓг‚Їг‚ёгѓЈгѓігѓ— й« ећ‚з›ґ йЃ… з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤ -.wav
+гЃЁгЃЈгЃ©гЃ®гЃг‚…гЃ¤(ж”»ж’ѓ), йЂЈз¶љжЏЏз”» Common\EFFECT_RosePetal(Orange)[01-01].bmp 44 1 1 дёЉиѕє иѓЊйќў дїќжЊЃ BeamSaber(4).wav;_
+	йЂЈз¶љжЏЏз”» Common\EFFECT_RosePetal(Orange)[01-01].bmp 44 1 1 иѓЊйќў дїќжЊЃ;_
+	йЂЈз¶љжЏЏз”» Common\EFFECT_RosePetal(Orange)[01-01].bmp 44 4 1 дё‹иѕє иѓЊйќў дїќжЊЃ;_
+	е®џејѕз™єе°„ Common\EFFECT_RosePetal(Orange)01.bmp 44 -.wav
+гЃЁгЃЈгЃ©гЃ®гЃг‚…гЃ¤(е‘Ѕдё­), йЂЈж‰“
+пјґпј™пј™пј™пј™(жє–е‚™), г‚¬г‚¤гѓ‰гѓЎгѓѓг‚»гѓјг‚ё пј·пјЎпјІпј®пј©пј®пј§ з·‘ Warning.wav
+пјґпј™пј™пј™пј™(ж”»ж’ѓ), е¤‰еЅў Anime\Creature\EFFECT_Demon01.bmp Fold.wav;_
+	SCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”» Attack\EFFECT_Tentacle(Blue)[01-06].bmp 80 Attack\EFFECT_Tentacle(Purple)[01-06].bmp 80 _
+	3 1 MultipleRocketLauncher(Light).wav з™єе°„ дёЉдё‹еЏЌи»ў;_
+	SCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”» Attack\EFFECT_Tentacle(Blue)[01-06].bmp 120 Attack\EFFECT_Tentacle(Purple)[01-06].bmp 120 _
+	2 1 -.wav з™єе°„ дёЉдё‹еЏЌи»ў;_
+	SCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”» Attack\EFFECT_Tentacle(Blue)[01-06].bmp 120 Attack\EFFECT_Tentacle(Purple)[01-06].bmp 160 _
+	2 2 -.wav з™єе°„ дёЉдё‹еЏЌи»ў
+пјґпј™пј™пј™пј™(е‘Ѕдё­), еј·ж‰“
+г‚¤гѓіг‚Їгѓ¬гѓ‡г‚Јгѓ–гѓ«гѓ™гѓјг‚№г‚Ѕгѓ­(ж”»ж’ѓ), пј­пјЎпј°гѓ•гѓ©гѓѓг‚·гѓҐ ж°ґи‰І Guitar.wav
+г‚¤гѓіг‚Їгѓ¬гѓ‡г‚Јгѓ–гѓ«гѓ™гѓјг‚№г‚Ѕгѓ­(е‘Ѕдё­), еј·ж‰“
+ж”»ж’ѓз„ЎеЉ№еЊ–(пјЎпјґгѓ•г‚Јгѓјгѓ«гѓ‰), з¶Із›®гѓђгѓЄг‚ў Sword.wav е€ҐеђЌ=пјЎпјґгѓ•г‚Јгѓјгѓ«гѓ‰ йќ’
+ж”»ж’ѓз„ЎеЉ№еЊ–(и¶…гѓ™гѓјг‚№гѓ‘гѓЇгѓј), гѓђгѓЄг‚ў е€ҐеђЌ=и¶…гѓ™гѓјг‚№гѓ‘гѓЇгѓј Guitar.wav
+и„±е‡є, Fold.wav;@ж€¦й—г‚ўгѓ‹гѓЎ_йЂЈз¶љжЏЏз”»ж”»ж’ѓ Common\EFFECT_Particle(Blue)[03-01].bmp 40 6 1 _
+	иѓЊйќў дїќжЊЃ -.wav з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤;_
+	@ж€¦й—г‚ўгѓ‹гѓЎ_йЂЈз¶љжЏЏз”»ж”»ж’ѓ Common\EFFECT_Particle(Blue)[03-01].bmp 40 6 1 дёЉиѕє иѓЊйќў -.wav з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤;_
+	йЂЏжЋеЊ– з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤;@ж€¦й—г‚ўгѓ‹гѓЎ_SCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”»ж”»ж’ѓ Light\EFFECT_BurnOff(Blue)[01-09].gif 120 _
+	Light\EFFECT_BurnOff(Green)[01-09].gif 80 6 1 и§’еє¦=90 Explode.wav з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤
  
 
-# SCOTT_ѓoѓbѓNѓWѓѓѓ“ѓvЃASCOTT_“сЏdA‘±•`‰ж
+# SCOTT_гѓђгѓѓг‚Їг‚ёгѓЈгѓігѓ—гЂЃSCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”»
 
 
-ѓGѓ“ѓ”ѓBЃЃѓAѓ_ѓЂѓX
-ѓWѓѓѓKЃ[ѓgѓDЃ[ѓX(ЌUЊ‚), SCOTT_ѓXЃ[ѓpЃ[ѓLѓbѓN‰ь
-ѓWѓѓѓKЃ[ѓgѓDЃ[ѓX(–Ѕ’†), ѓXЃ[ѓpЃ[ѓLѓbѓN
-ѓwѓrЃ[ѓLѓbѓN(ЌUЊ‚), ‚И‚¬•Ґ‚ў
-ѓwѓrЃ[ѓLѓbѓN(–Ѕ’†), ‹­‘Е
-“V‹у‹r(ЌUЊ‚), ѓLѓbѓN
-“V‹у‹r(–Ѕ’†), ’ґѓAѓbѓpЃ[ Crash.wav
+г‚Ёгѓігѓґг‚Јпјќг‚ўгѓЂгѓ г‚№
+г‚ёгѓЈг‚¬гѓјгѓ€г‚Ґгѓјг‚№(ж”»ж’ѓ), SCOTT_г‚№гѓјгѓ‘гѓјг‚­гѓѓг‚Їж”№
+г‚ёгѓЈг‚¬гѓјгѓ€г‚Ґгѓјг‚№(е‘Ѕдё­), г‚№гѓјгѓ‘гѓјг‚­гѓѓг‚Ї
+гѓгѓ“гѓјг‚­гѓѓг‚Ї(ж”»ж’ѓ), гЃЄгЃЋж‰•гЃ„
+гѓгѓ“гѓјг‚­гѓѓг‚Ї(е‘Ѕдё­), еј·ж‰“
+е¤©з©єи„љ(ж”»ж’ѓ), г‚­гѓѓг‚Ї
+е¤©з©єи„љ(е‘Ѕдё­), и¶…г‚ўгѓѓгѓ‘гѓј Crash.wav
 
-# SCOTT_ѓXЃ[ѓpЃ[ѓLѓbѓN‰ь
-
-
-ѓЉѓlѓbѓgЃЃѓKѓCѓRѓbѓg
-ѓoѓCѓIѓjѓbѓNѓAЃ[ѓЂ(ЌUЊ‚), @ђн“¬ѓAѓjѓЃ_”т–—–Ѕ’† ‘ОЏЫѓ†ѓjѓbѓg‚h‚c ”’ -.wav;A‘Е
-ѓoѓCѓIѓjѓbѓNѓAЃ[ѓЂ(–Ѕ’†), A‘Е
-ѓЌѓ“ѓOѓAЃ[ѓЂ(ЌUЊ‚), ѓfѓtѓHѓ‹ѓg;SCOTT_‰с“]A‘±•`‰ж Beam\EFFECT_Beam(White)[04-05].bmp 60 1 1 ”­ЋЛ •ЫЋќ Swing.wav
-ѓЌѓ“ѓOѓAЃ[ѓЂ(–Ѕ’†), Џ¬ѓrЃ[ѓЂ ”’ Punch.wav
-ѓOѓ‰ѓ“ѓhѓAЃ[ѓЂ(ЌUЊ‚), ѓfѓtѓHѓ‹ѓg;SCOTT_“сЏdA‘±•`‰ж Beam\EFFECT_Beam(White)[04-05].bmp 48 _
-	Impact\EFFECT_GrandEffect(Orange)[01-02].bmp 64 1 1 Љp“x=270 •ЫЋќ Bazooka.wav
-ѓOѓ‰ѓ“ѓhѓAЃ[ѓЂ(–Ѕ’†), SCOTT_“сЏdA‘±•`‰ж Beam\EFFECT_BeamHit(White)[01-06].bmp 48 _
-	Impact\EFFECT_GrandEffect(Orange)[01-01].bmp 64 3 1 Љp“x=90 ‘ЉЋиѓ†ѓjѓbѓg‚h‚c Bazooka.wav;‹­‘Е -.wav
-
-# SCOTT_“сЏdA‘±•`‰ж
+# SCOTT_г‚№гѓјгѓ‘гѓјг‚­гѓѓг‚Їж”№
 
 
-ѓЌѓNѓTЃ[ѓkЃЃѓЉѓqѓ^Ѓ[
-ѓЊѓvѓЉѓJѓAѓ^ѓbѓN(ЌUЊ‚), ‰Њ ‘ОЏЫѓ†ѓjѓbѓg‚h‚c Explode(Small).wav;ЏuЉФ•ПЊ` Anime\DGoods\EFFECT_NailButt01.bmp ”Ѕ‰f
-ѓЊѓvѓЉѓJѓAѓ^ѓbѓN(–Ѕ’†), ЏuЉФ•ПЊ` ‘ОЏЫѓ†ѓjѓbѓg‚h‚c;‹}Ќ~‰є Slash.wav
-ѓXѓ‰ѓbѓVѓ…ѓRѓ“ѓ{(ЌUЊ‚), ЋaЊ‚;ђU‚иЏг‚°;“‚’|Љ„‚и;Ћh“Л
-ѓXѓ‰ѓbѓVѓ…ѓRѓ“ѓ{(–Ѕ’†), ЋaЊ‚;ђU‚иЏг‚°;“‚’|Љ„‚и;Ћh“Л;SCOTT_”wЊь‚Ї 1 Џг‰є”Ѕ“];‹­‘Е
-ѓtѓ‰ѓbѓVѓ…ѓ\Ѓ[ѓh(ЌUЊ‚), SCOTT_Ќ‚‘¬ЏЂ”х Weapon\EFFECT_SnakeBlade01.bmp Reload(5).wav;_
-	”­ЋЛA‘±•`‰ж Slash\EFFECT_SlashLine(White)[01-04].bmp 200 3 1 Swing(2).wav
-ѓtѓ‰ѓbѓVѓ…ѓ\Ѓ[ѓh(–Ѕ’†), ђU‚иЏг‚°‘еЋaЊ‚
-•Єђg‚МЏp(ЌUЊ‚), ‰Њ ‘ОЏЫѓ†ѓjѓbѓg‚h‚c Explode(Small).wav;“§–ѕ‰» ‘ОЏЫѓ†ѓjѓbѓg‚h‚c;_
-	‚l‚`‚oЋА’e”­ЋЛ ("Unit\" & Info("ѓ†ѓjѓbѓg",‘ОЏЫѓ†ѓjѓbѓg‚h‚c,"ѓOѓ‰ѓtѓBѓbѓN")) Whiz.wav
-•Єђg‚МЏp(–Ѕ’†), ѓXЃ[ѓpЃ[ѓ^ѓbѓNѓ‹—ђ•‘ Slash.wav
-“–‚Дђg‹Z(ѓCѓ~ѓeѓCѓgѓЊѓvѓЉѓJ), ‰Њ ‘ЉЋиѓ†ѓjѓbѓg‚h‚c Explode(Small).wav;_
-	ЏuЉФ•ПЊ` Anime\DGoods\EFFECT_NailButt01.bmp ‘ЉЋиѓ†ѓjѓbѓg‚h‚c ”Ѕ‰f
-ѓeѓЊѓ|Ѓ[ѓg(ѓTѓuѓXѓyЃ[ѓXЃEѓnѓCѓEѓFѓC), •ПЊ` Map\Gate\gate2001.bmp Door(Close).wav;ЏuЉФ•ПЊ`
-’EЏo, @ђн“¬ѓAѓjѓЃ_Џc•ЄЉ„‚Ж‚З‚Я;@ђн“¬ѓAѓjѓЃ_”т–—–Ѕ’† ”’ UnitOn.wav;UnitOn.wav
+гѓЄгѓЌгѓѓгѓ€пјќг‚¬г‚¤г‚ігѓѓгѓ€
+гѓђг‚¤г‚Єгѓ‹гѓѓг‚Їг‚ўгѓјгѓ (ж”»ж’ѓ), @ж€¦й—г‚ўгѓ‹гѓЎ_йЈ›жІ«е‘Ѕдё­ еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤ з™Ѕ -.wav;йЂЈж‰“
+гѓђг‚¤г‚Єгѓ‹гѓѓг‚Їг‚ўгѓјгѓ (е‘Ѕдё­), йЂЈж‰“
+гѓ­гѓіг‚°г‚ўгѓјгѓ (ж”»ж’ѓ), гѓ‡гѓ•г‚©гѓ«гѓ€;SCOTT_е›ћи»ўйЂЈз¶љжЏЏз”» Beam\EFFECT_Beam(White)[04-05].bmp 60 1 1 з™єе°„ дїќжЊЃ Swing.wav
+гѓ­гѓіг‚°г‚ўгѓјгѓ (е‘Ѕдё­), е°Џгѓ“гѓјгѓ  з™Ѕ Punch.wav
+г‚°гѓ©гѓігѓ‰г‚ўгѓјгѓ (ж”»ж’ѓ), гѓ‡гѓ•г‚©гѓ«гѓ€;SCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”» Beam\EFFECT_Beam(White)[04-05].bmp 48 _
+	Impact\EFFECT_GrandEffect(Orange)[01-02].bmp 64 1 1 и§’еє¦=270 дїќжЊЃ Bazooka.wav
+г‚°гѓ©гѓігѓ‰г‚ўгѓјгѓ (е‘Ѕдё­), SCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”» Beam\EFFECT_BeamHit(White)[01-06].bmp 48 _
+	Impact\EFFECT_GrandEffect(Orange)[01-01].bmp 64 3 1 и§’еє¦=90 з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤ Bazooka.wav;еј·ж‰“ -.wav
 
-# SCOTT_Ќ‚‘¬ЏЂ”хЃASCOTT_”wЊь‚Ї
+# SCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”»
 
 
-‚l‚’ЃDѓ`ѓѓѓE
-ѓTѓЂѓ‰ѓCѓ\Ѓ[ѓh, “ъ–{“Ѓ
-‹ЏЌ‡(ЌUЊ‚), SCOTT_‰с“]A‘±•`‰ж Attack\EFFECT_Swing[01-04].bmp 80 1.5 1 ”­ЋЛ Љp“x=45 Swing(2).wav
-‹ЏЌ‡(–Ѕ’†), ’ґЋaЊ‚ ђ…ђF Slash.wav
-€к“Ѓ—ј’f(ЌUЊ‚), @ђн“¬ѓAѓjѓЃ_ѓeѓЊѓ|Ѓ[ѓg”­“® Saber.wav "Ѓ@";“§–ѕ‰» ‘ОЏЫѓ†ѓjѓbѓg‚h‚c ”Ѕ‰f;_
-	Њ€‚Я•¶Ћљ ЃbЃbЃb ѓOѓЊѓC -.wav ‘ЉЋиѓ†ѓjѓbѓg‚h‚c;_
-	A‘±•`‰ж Hit\EFFECT_StrongSlashHit(Blue)[01-03].bmp 96 1 1 Slash(4).wav ‘ЉЋиѓ†ѓjѓbѓg‚h‚c
-€к“Ѓ—ј’f(–Ѕ’†), SCOTT_‰с“]A‘±•`‰ж Hit\EFFECT_SuperSlashHit(LightBlue)[01-03].bmp 60 2 1 _
-	Љp“x=90 Slash.wav ‘ЉЋиѓ†ѓjѓbѓg‚h‚c
-Џ\•¶Ћљ‘M(ЌUЊ‚), @ђн“¬ѓAѓjѓЃ_ѓeѓЊѓ|Ѓ[ѓg”­“® Saber.wav "Ѓ@";“§–ѕ‰» ‘ОЏЫѓ†ѓjѓbѓg‚h‚c ”Ѕ‰f;_
-	Њ€‚Я•¶Ћљ "„©„©„©" ѓOѓЊѓC -.wav ‘ЉЋиѓ†ѓjѓbѓg‚h‚c;_
-	A‘±•`‰ж Hit\EFFECT_StrongSlashHit(Blue)[01-03].bmp 96 1 1 Slash(4).wav ‘ЉЋиѓ†ѓjѓbѓg‚h‚c;_
-	SCOTT_‰с“]A‘±•`‰ж Hit\EFFECT_StrongSlashHit(Blue)[01-03].bmp 96 1 1 Slash(4).wav Љp“x=270 ‘ЉЋиѓ†ѓjѓbѓg‚h‚c
-Џ\•¶Ћљ‘M(–Ѕ’†), SCOTT_‰с“]A‘±•`‰ж Hit\EFFECT_SuperSlashHit(LightBlue)[01-03].bmp 60 2 1 _
-	Љp“x=90 Slash.wav ‘ЉЋиѓ†ѓjѓbѓg‚h‚c;_
-	A‘±•`‰ж Hit\EFFECT_SuperSlashHit(LightBlue)[01-03].bmp 60 2 1 Љp“x=90 Slash.wav ‘ЉЋиѓ†ѓjѓbѓg‚h‚c
+гѓ­г‚Їг‚µгѓјгѓЊпјќгѓЄгѓ’г‚їгѓј
+гѓ¬гѓ—гѓЄг‚«г‚ўг‚їгѓѓг‚Ї(ж”»ж’ѓ), з…™ еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤ Explode(Small).wav;зћ¬й–“е¤‰еЅў Anime\DGoods\EFFECT_NailButt01.bmp еЏЌж 
+гѓ¬гѓ—гѓЄг‚«г‚ўг‚їгѓѓг‚Ї(е‘Ѕдё­), зћ¬й–“е¤‰еЅў еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤;жЂҐй™Ќдё‹ Slash.wav
+г‚№гѓ©гѓѓг‚·гѓҐг‚ігѓігѓњ(ж”»ж’ѓ), ж–¬ж’ѓ;жЊЇг‚ЉдёЉгЃ’;е”ђз«№е‰Іг‚Љ;е€єзЄЃ
+г‚№гѓ©гѓѓг‚·гѓҐг‚ігѓігѓњ(е‘Ѕдё­), ж–¬ж’ѓ;жЊЇг‚ЉдёЉгЃ’;е”ђз«№е‰Іг‚Љ;е€єзЄЃ;SCOTT_иѓЊеђ‘гЃ‘ 1 дёЉдё‹еЏЌи»ў;еј·ж‰“
+гѓ•гѓ©гѓѓг‚·гѓҐг‚Ѕгѓјгѓ‰(ж”»ж’ѓ), SCOTT_й«йЂџжє–е‚™ Weapon\EFFECT_SnakeBlade01.bmp Reload(5).wav;_
+	з™єе°„йЂЈз¶љжЏЏз”» Slash\EFFECT_SlashLine(White)[01-04].bmp 200 3 1 Swing(2).wav
+гѓ•гѓ©гѓѓг‚·гѓҐг‚Ѕгѓјгѓ‰(е‘Ѕдё­), жЊЇг‚ЉдёЉгЃ’е¤§ж–¬ж’ѓ
+е€†иє«гЃ®иЎ“(ж”»ж’ѓ), з…™ еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤ Explode(Small).wav;йЂЏжЋеЊ– еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤;_
+	пј­пјЎпј°е®џејѕз™єе°„ ("Unit\" & Info("гѓ¦гѓ‹гѓѓгѓ€",еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤,"г‚°гѓ©гѓ•г‚Јгѓѓг‚Ї")) Whiz.wav
+е€†иє«гЃ®иЎ“(е‘Ѕдё­), г‚№гѓјгѓ‘гѓјг‚їгѓѓг‚Їгѓ«д№±и€ћ Slash.wav
+еЅ“гЃ¦иє«жЉЂ(г‚¤гѓџгѓ†г‚¤гѓ€гѓ¬гѓ—гѓЄг‚«), з…™ з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤ Explode(Small).wav;_
+	зћ¬й–“е¤‰еЅў Anime\DGoods\EFFECT_NailButt01.bmp з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤ еЏЌж 
+гѓ†гѓ¬гѓќгѓјгѓ€(г‚µгѓ–г‚№гѓљгѓјг‚№гѓ»гѓЏг‚¤г‚¦г‚§г‚¤), е¤‰еЅў Map\Gate\gate2001.bmp Door(Close).wav;зћ¬й–“е¤‰еЅў
+и„±е‡є, @ж€¦й—г‚ўгѓ‹гѓЎ_зё¦е€†е‰ІгЃЁгЃ©г‚Ѓ;@ж€¦й—г‚ўгѓ‹гѓЎ_йЈ›жІ«е‘Ѕдё­ з™Ѕ UnitOn.wav;UnitOn.wav
 
-# SCOTT_‰с“]A‘±•`‰ж
-
-
-ѓJѓCѓ‹Ѓ•ѓPѓ“
-ѓVѓ“ѓNѓЌѓAѓ^ѓbѓN(ЌUЊ‚), ѓfѓtѓHѓ‹ѓg;ЋА’e”­ЋЛ Attack\EFFECT_Stick(H)06.bmp Swing.wav
-ѓVѓ“ѓNѓЌѓAѓ^ѓbѓN(–Ѕ’†), ‘ЕЊ‚
-ѓcѓCѓ“ѓRѓ“ѓrѓlЃ[ѓVѓ‡ѓ“(ЌUЊ‚), “§–ѕ‰» ‘ОЏЫѓ†ѓjѓbѓg‚h‚c ”Ѕ‰f;_
-	SCOTT_“сЏdA‘±•`‰ж Beam\EFFECT_MBeam(White)[04-05].bmp 60 Beam\EFFECT_MBeam(Black)[04-05].bmp 60 1 1 _
-	”­ЋЛ Љp“x‚Q=30 Whiz.wav
-ѓcѓCѓ“ѓRѓ“ѓrѓlЃ[ѓVѓ‡ѓ“(–Ѕ’†), ’†ѓrЃ[ѓЂ ”’ ѓ‰ѓ“ѓ_ѓЂ•ыЊь FightHit(1).wav;’†ѓrЃ[ѓЂ Ќ• ѓ‰ѓ“ѓ_ѓЂ•ыЊь FightHit(1).wav
-ѓVѓ~ѓ…ѓ‹ѓpѓ“ѓ`(ЌUЊ‚), A‘±•`‰ж Hit\EFFECT_Hit(White)[01-01].bmp 24 1 1 Transform.wav;_
-	Њ€‚Я•¶Ћљ TWIN-LINK -.wav ‘ОЏЫѓ†ѓjѓbѓg‚h‚c;ѓfѓtѓHѓ‹ѓg;_
-	ЋА’e”­ЋЛ Common\EFFECT_SonicBoom(LightBlue)02.bmp 60 ’x AntiShipMissile.wav
-ѓVѓ~ѓ…ѓ‹ѓpѓ“ѓ`(–Ѕ’†), ’ґ‘Е Explode(Nuclear).wav
-ѓ_ѓuѓ‹ѓnѓЉѓPЃ[ѓ“ѓLѓbѓN(ЌUЊ‚), A‘±•`‰ж Hit\EFFECT_Hit(White)[01-01].bmp 24 1 1 Transform.wav;_
-	Њ€‚Я•¶Ћљ TWIN-LINK -.wav ‘ОЏЫѓ†ѓjѓbѓg‚h‚c;_
-	’n–КЏХЊ‚ ”’ ‘ОЏЫѓ†ѓjѓbѓg‚h‚c -.wav;SCOTT_ѓoѓbѓNѓWѓѓѓ“ѓv ђ‚’ј ‰с“] ђщ‰с‰№ Swing(3).wav
-ѓ_ѓuѓ‹ѓnѓЉѓPЃ[ѓ“ѓLѓbѓN(–Ѕ’†), ’ґ‘Е Crash.wav
-’EЏo, @ђн“¬ѓAѓjѓЃ_SCOTT_“сЏdA‘±•`‰жЌUЊ‚ Beam\EFFECT_HBeamHit(black)[01-06].bmp 120 _
-	Beam\EFFECT_HBeamHit(White)[01-06].bmp 120 10 1 Џг‰є”Ѕ“] ‰є•У ‰є•У‚Q Љp“x=90 Љp“x‚Q=90 AntiShipMissile.wav
-
-# SCOTT_“сЏdA‘±•`‰жЃASCOTT_ѓoѓbѓNѓWѓѓѓ“ѓv
+# SCOTT_й«йЂџжє–е‚™гЂЃSCOTT_иѓЊеђ‘гЃ‘
 
 
-‘oЋq‚МѓXЃ[ѓpЃ[ѓtѓ@ѓCѓeѓBѓ“ѓOѓЌѓ{ѓbѓg
-‰О‰Љ•ъЋЛ(ЌUЊ‚), ‰О‰Љ’e;‰О‰Љ’e;‰О‰Љ’e
-‰О‰Љ•ъЋЛ(–Ѕ’†), ‰Љ
-ѓЉѓ‚ѓRѓ“ѓnѓ“ѓh(ЌUЊ‚), ѓЌѓPѓbѓgѓpѓ“ѓ` Hand\EFFECT_Punch(White)02.bmp 48
-ѓЉѓ‚ѓRѓ“ѓnѓ“ѓh(–Ѕ’†), ‘ЕЊ‚ BreakOff.wav;A‘±•`‰ж CT\EFFECT_Shock[01-01].bmp 40 4 1
-ѓ~ѓTѓCѓ‹ѓVѓѓѓЏЃ[(ЌUЊ‚), ‘Е‚їЏг‚° Bullet\EFFECT_Missile05.bmp 64 Missile.wav;_
-	‘Е‚їЏг‚° Bullet\EFFECT_Missile04.bmp 64 Missile.wav;‘Е‚їЏг‚° Bullet\EFFECT_Missile05.bmp 64 Missile.wav
-ѓ~ѓTѓCѓ‹ѓVѓѓѓЏЃ[(–Ѕ’†), A‘±”љ”­
-•KЋEѓrЃ[ѓЂ(ЌUЊ‚), ”­ЋЛA‘±•`‰ж Beam\EFFECT_LBeam(LightBlue)[01-03].bmp 120 5 1 Charge(high).wav;_
-	Laser.wav;”­ЋЛA‘±•`‰ж Beam\EFFECT_Beam(LightBlue)[05-06].bmp 360 0.6 10
-•KЋEѓrЃ[ѓЂ(–Ѕ’†), ѓ_ѓЃЃ[ѓW ђ…ђF Explode.wav
+пј­пЅ’пјЋгѓЃгѓЈг‚¦
+г‚µгѓ гѓ©г‚¤г‚Ѕгѓјгѓ‰, ж—Ґжњ¬е€Ђ
+е±…еђ€(ж”»ж’ѓ), SCOTT_е›ћи»ўйЂЈз¶љжЏЏз”» Attack\EFFECT_Swing[01-04].bmp 80 1.5 1 з™єе°„ и§’еє¦=45 Swing(2).wav
+е±…еђ€(е‘Ѕдё­), и¶…ж–¬ж’ѓ ж°ґи‰І Slash.wav
+дёЂе€ЂдёЎж–­(ж”»ж’ѓ), @ж€¦й—г‚ўгѓ‹гѓЎ_гѓ†гѓ¬гѓќгѓјгѓ€з™єе‹• Saber.wav "гЂЂ";йЂЏжЋеЊ– еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤ еЏЌж ;_
+	ж±єг‚Ѓж–‡е­— пЅњпЅњпЅњ г‚°гѓ¬г‚¤ -.wav з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤;_
+	йЂЈз¶љжЏЏз”» Hit\EFFECT_StrongSlashHit(Blue)[01-03].bmp 96 1 1 Slash(4).wav з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤
+дёЂе€ЂдёЎж–­(е‘Ѕдё­), SCOTT_е›ћи»ўйЂЈз¶љжЏЏз”» Hit\EFFECT_SuperSlashHit(LightBlue)[01-03].bmp 60 2 1 _
+	и§’еє¦=90 Slash.wav з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤
+еЌЃж–‡е­—й–ѓ(ж”»ж’ѓ), @ж€¦й—г‚ўгѓ‹гѓЎ_гѓ†гѓ¬гѓќгѓјгѓ€з™єе‹• Saber.wav "гЂЂ";йЂЏжЋеЊ– еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤ еЏЌж ;_
+	ж±єг‚Ѓж–‡е­— "в”јв”јв”ј" г‚°гѓ¬г‚¤ -.wav з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤;_
+	йЂЈз¶љжЏЏз”» Hit\EFFECT_StrongSlashHit(Blue)[01-03].bmp 96 1 1 Slash(4).wav з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤;_
+	SCOTT_е›ћи»ўйЂЈз¶љжЏЏз”» Hit\EFFECT_StrongSlashHit(Blue)[01-03].bmp 96 1 1 Slash(4).wav и§’еє¦=270 з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤
+еЌЃж–‡е­—й–ѓ(е‘Ѕдё­), SCOTT_е›ћи»ўйЂЈз¶љжЏЏз”» Hit\EFFECT_SuperSlashHit(LightBlue)[01-03].bmp 60 2 1 _
+	и§’еє¦=90 Slash.wav з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤;_
+	йЂЈз¶љжЏЏз”» Hit\EFFECT_SuperSlashHit(LightBlue)[01-03].bmp 60 2 1 и§’еє¦=90 Slash.wav з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤
+
+# SCOTT_е›ћи»ўйЂЈз¶љжЏЏз”»
 
 
-ѓЌѓ{ѓbѓg‚O‚P
-Љi“¬, Љi“¬
-ѓrЃ[ѓЂ, ѓrЃ[ѓЂѓ‰ѓ“ѓ`ѓѓЃ[ Hand\EFFECT_ShiningHand(White)01.bmp 40
+г‚«г‚¤гѓ«пј†г‚±гѓі
+г‚·гѓіг‚Їгѓ­г‚ўг‚їгѓѓг‚Ї(ж”»ж’ѓ), гѓ‡гѓ•г‚©гѓ«гѓ€;е®џејѕз™єе°„ Attack\EFFECT_Stick(H)06.bmp Swing.wav
+г‚·гѓіг‚Їгѓ­г‚ўг‚їгѓѓг‚Ї(е‘Ѕдё­), ж‰“ж’ѓ
+гѓ„г‚¤гѓіг‚ігѓігѓ“гѓЌгѓјг‚·гѓ§гѓі(ж”»ж’ѓ), йЂЏжЋеЊ– еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤ еЏЌж ;_
+	SCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”» Beam\EFFECT_MBeam(White)[04-05].bmp 60 Beam\EFFECT_MBeam(Black)[04-05].bmp 60 1 1 _
+	з™єе°„ и§’еє¦пј’=30 Whiz.wav
+гѓ„г‚¤гѓіг‚ігѓігѓ“гѓЌгѓјг‚·гѓ§гѓі(е‘Ѕдё­), дё­гѓ“гѓјгѓ  з™Ѕ гѓ©гѓігѓЂгѓ ж–№еђ‘ FightHit(1).wav;дё­гѓ“гѓјгѓ  й»’ гѓ©гѓігѓЂгѓ ж–№еђ‘ FightHit(1).wav
+г‚·гѓџгѓҐгѓ«гѓ‘гѓігѓЃ(ж”»ж’ѓ), йЂЈз¶љжЏЏз”» Hit\EFFECT_Hit(White)[01-01].bmp 24 1 1 Transform.wav;_
+	ж±єг‚Ѓж–‡е­— TWIN-LINK -.wav еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤;гѓ‡гѓ•г‚©гѓ«гѓ€;_
+	е®џејѕз™єе°„ Common\EFFECT_SonicBoom(LightBlue)02.bmp 60 йЃ… AntiShipMissile.wav
+г‚·гѓџгѓҐгѓ«гѓ‘гѓігѓЃ(е‘Ѕдё­), и¶…ж‰“ Explode(Nuclear).wav
+гѓЂгѓ–гѓ«гѓЏгѓЄг‚±гѓјгѓіг‚­гѓѓг‚Ї(ж”»ж’ѓ), йЂЈз¶љжЏЏз”» Hit\EFFECT_Hit(White)[01-01].bmp 24 1 1 Transform.wav;_
+	ж±єг‚Ѓж–‡е­— TWIN-LINK -.wav еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤;_
+	ењ°йќўиЎќж’ѓ з™Ѕ еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤ -.wav;SCOTT_гѓђгѓѓг‚Їг‚ёгѓЈгѓігѓ— ећ‚з›ґ е›ћи»ў ж—‹е›ћйџі Swing(3).wav
+гѓЂгѓ–гѓ«гѓЏгѓЄг‚±гѓјгѓіг‚­гѓѓг‚Ї(е‘Ѕдё­), и¶…ж‰“ Crash.wav
+и„±е‡є, @ж€¦й—г‚ўгѓ‹гѓЎ_SCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”»ж”»ж’ѓ Beam\EFFECT_HBeamHit(black)[01-06].bmp 120 _
+	Beam\EFFECT_HBeamHit(White)[01-06].bmp 120 10 1 дёЉдё‹еЏЌи»ў дё‹иѕє дё‹иѕєпј’ и§’еє¦=90 и§’еє¦пј’=90 AntiShipMissile.wav
+
+# SCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”»гЂЃSCOTT_гѓђгѓѓг‚Їг‚ёгѓЈгѓігѓ—
 
 
-ѓlѓKѓXѓRѓbѓg
-Fight, Љi“¬
-Headbutt(ЌUЊ‚), ѓwѓbѓhѓoѓbѓg
-Headbutt(–Ѕ’†), ‹­‘Е
-Nega Hado-Ken(ЌUЊ‚), ѓfѓtѓHѓ‹ѓg;й‘йђ’e Ћ‡ AntiAirMissile.wav
-Nega Hado-Ken(–Ѕ’†), ‰Љ Ћ‡ Fire(2).wav
-Bakuma-Ryujin W Kick(ЌUЊ‚), SCOTT_ѓoѓbѓNѓWѓѓѓ“ѓv ђі ‘¬ BeamGun.wav
-Bakuma-Ryujin W Kick(–Ѕ’†), ‘ЕЊ‚;‹­‘Е
-Terrible COMBOЃI(ЌUЊ‚), ѓAѓbѓpЃ[
-Terrible COMBOЃI(–Ѕ’†), ’ґѓAѓbѓpЃ[;“§–ѕ‰» ‘ЉЋиѓ†ѓjѓbѓg‚h‚c;SCOTT_ѓoѓbѓNѓWѓѓѓ“ѓv ђі ‘¬ Ќ‚ ѓAѓbѓpЃ[;_
-	“§–ѕ‰» ‘ЉЋиѓ†ѓjѓbѓg‚h‚c ‰рЏњ;SCOTT_ѓRѓ“ѓ{
-Terrible COMBOЃI(‰рђа), $(ѓ†ѓjѓbѓg)‚Н‹у’†ѓRѓ“ѓ{‚р‚µ‚©‚Ї‚ЅЃB
-
-# SCOTT_ѓoѓbѓNѓWѓѓѓ“ѓvЃASCOTT_ѓRѓ“ѓ{
+еЏЊе­ђгЃ®г‚№гѓјгѓ‘гѓјгѓ•г‚Ўг‚¤гѓ†г‚Јгѓіг‚°гѓ­гѓњгѓѓгѓ€
+зЃ«з‚Ћж”ѕе°„(ж”»ж’ѓ), зЃ«з‚Ћејѕ;зЃ«з‚Ћејѕ;зЃ«з‚Ћејѕ
+зЃ«з‚Ћж”ѕе°„(е‘Ѕдё­), з‚Ћ
+гѓЄгѓўг‚ігѓігѓЏгѓігѓ‰(ж”»ж’ѓ), гѓ­г‚±гѓѓгѓ€гѓ‘гѓігѓЃ Hand\EFFECT_Punch(White)02.bmp 48
+гѓЄгѓўг‚ігѓігѓЏгѓігѓ‰(е‘Ѕдё­), ж‰“ж’ѓ BreakOff.wav;йЂЈз¶љжЏЏз”» CT\EFFECT_Shock[01-01].bmp 40 4 1
+гѓџг‚µг‚¤гѓ«г‚·гѓЈгѓЇгѓј(ж”»ж’ѓ), ж‰“гЃЎдёЉгЃ’ Bullet\EFFECT_Missile05.bmp 64 Missile.wav;_
+	ж‰“гЃЎдёЉгЃ’ Bullet\EFFECT_Missile04.bmp 64 Missile.wav;ж‰“гЃЎдёЉгЃ’ Bullet\EFFECT_Missile05.bmp 64 Missile.wav
+гѓџг‚µг‚¤гѓ«г‚·гѓЈгѓЇгѓј(е‘Ѕдё­), йЂЈз¶љз€†з™є
+еї…ж®єгѓ“гѓјгѓ (ж”»ж’ѓ), з™єе°„йЂЈз¶љжЏЏз”» Beam\EFFECT_LBeam(LightBlue)[01-03].bmp 120 5 1 Charge(high).wav;_
+	Laser.wav;з™єе°„йЂЈз¶љжЏЏз”» Beam\EFFECT_Beam(LightBlue)[05-06].bmp 360 0.6 10
+еї…ж®єгѓ“гѓјгѓ (е‘Ѕдё­), гѓЂгѓЎгѓјг‚ё ж°ґи‰І Explode.wav
 
 
-ѓMѓfѓIѓ“ЃЃѓOѓЊѓCѓuѓX
-ѓGѓ‚Ѓ[ѓVѓ‡ѓiѓ‹ѓEѓHЃ[ѓtѓFѓA(ЌUЊ‚), ‚l‚`‚oѓrЃ[ѓЂ ”’
-ѓGѓ‚Ѓ[ѓVѓ‡ѓiѓ‹ѓEѓHЃ[ѓtѓFѓA(–Ѕ’†), ѓ†ѓjѓbѓg•ПђF ”’
-ѓtѓ@ѓXѓgѓJѓbѓg, ‚И‚¬•Ґ‚ў
-ѓXѓ‰ѓbѓVѓ…ѓEѓFѓCѓu(ЌUЊ‚), ђU‚иЏг‚° Swing(2).wav;ЋА’e”­ЋЛ Bullet\EFFECT_BigGroundWave(Blue)01.gif 32 -.wav
-ѓXѓ‰ѓbѓVѓ…ѓEѓFѓCѓu(–Ѕ’†), ЋaЊ‚ ђВ
-ѓNѓЌѓXѓXѓ‰ѓbѓVѓ…(ЌUЊ‚), SCOTT_“сЏdA‘±•`‰ж Attack\EFFECT_Swing(Yellow)[01-05].bmp 40 _
-	Attack\EFFECT_Swing(Yellow)[01-05].bmp 40 2 1 Ќ¶‰E”Ѕ“] Љp“x=180 ”­ЋЛ Swing(2).wav
-ѓNѓЌѓXѓXѓ‰ѓbѓVѓ…(–Ѕ’†), ѓNѓЉѓeѓBѓJѓ‹ЋaЊ‚
-ѓoѓbѓNѓXѓ^ѓu(ЌUЊ‚), @ђн“¬ѓAѓjѓЃ_ѓeѓЊѓ|Ѓ[ѓg”­“® Whiz.wav "Ѓ@";“§–ѕ‰» ‘ОЏЫѓ†ѓjѓbѓg‚h‚c ”Ѕ‰f
-ѓoѓbѓNѓXѓ^ѓu(–Ѕ’†), SCOTT_ѓoѓbѓNѓXѓ^ѓu
-“–‚Дђg‹Z(CounterЃI), ”­Њх ‰© Flair.wav
-’EЏo, ЏБ–Е’EЏo Mist.wav;@ђн“¬ѓAѓjѓЃ_SCOTT_‰с“]A‘±•`‰жЌUЊ‚ Beam\EFFECT_LBeam(Yellow)[03-01].bmp 96 3 1 _
-	Љp“x=90 Callsign.wav ‘ЉЋиѓ†ѓjѓbѓg‚h‚c
-
-# SCOTT_ѓoѓbѓNѓXѓ^ѓuЃASCOTT_‰с“]A‘±•`‰жЃASCOTT_“сЏdA‘±•`‰ж
+гѓ­гѓњгѓѓгѓ€пјђпј‘
+ж јй—, ж јй—
+гѓ“гѓјгѓ , гѓ“гѓјгѓ гѓ©гѓігѓЃгѓЈгѓј Hand\EFFECT_ShiningHand(White)01.bmp 40
 
 
-ѓXЃ[ѓpЃ[ѓMѓfѓIѓ“
-ѓqЃ[ѓ‹ѓ\Ѓ[ѓh(ЌUЊ‚), ђU‚иЏг‚°;ЋaЊ‚ -.wav
-ѓqЃ[ѓ‹ѓ\Ѓ[ѓh(–Ѕ’†), ‘ЕЊ‚
-ѓGѓ“ѓWѓFѓЉѓbѓNѓ`ѓѓЃ[ѓW(ЌUЊ‚), —ѓ“ЛЊ‚ “с“Ѓ—¬ Swing.wav
-ѓGѓ“ѓWѓFѓЉѓbѓNѓ`ѓѓЃ[ѓW(–Ѕ’†), ‹­‘Е
-ѓЃѓeѓIѓ‰ѓbѓVѓ…(ЌUЊ‚), ‹}Ќ~‰є;“§–ѕ‰» ‘ОЏЫѓ†ѓjѓbѓg‚h‚c ”Ѕ‰f
-ѓЃѓeѓIѓ‰ѓbѓVѓ…(–Ѕ’†), @ђн“¬ѓAѓjѓЃ_и¦ђОЌUЊ‚;”љ”­
-ѓMѓKѓgѓ“ѓtѓHЃ[ѓ‹(ЌUЊ‚), ‹}Ќ~‰є;“§–ѕ‰» ‘ОЏЫѓ†ѓjѓbѓg‚h‚c ”Ѕ‰f;‘Е‚ї‰є‚л‚µ Rock\EFFECT_LargeRock01.bmp 120
-ѓMѓKѓgѓ“ѓtѓHЃ[ѓ‹(–Ѕ’†), ‘е”љ”­
-ѓCѓ“ѓrѓ“ѓVѓuѓ‹, ѓ†ѓjѓbѓg•ПђF ”’ Roar.wav
-ѓCѓ“ѓrѓ“ѓVѓuѓ‹(‰рђа), $(ѓ†ѓjѓbѓg)‚Н–і“G‚Й‚И‚Б‚ЅЃB
-ЌUЊ‚–іЊш‰», -
+гѓЌг‚¬г‚№г‚ігѓѓгѓ€
+Fight, ж јй—
+Headbutt(ж”»ж’ѓ), гѓгѓѓгѓ‰гѓђгѓѓгѓ€
+Headbutt(е‘Ѕдё­), еј·ж‰“
+Nega Hado-Ken(ж”»ж’ѓ), гѓ‡гѓ•г‚©гѓ«гѓ€;й«‘й«Џејѕ зґ« AntiAirMissile.wav
+Nega Hado-Ken(е‘Ѕдё­), з‚Ћ зґ« Fire(2).wav
+Bakuma-Ryujin W Kick(ж”»ж’ѓ), SCOTT_гѓђгѓѓг‚Їг‚ёгѓЈгѓігѓ— ж­Ј йЂџ BeamGun.wav
+Bakuma-Ryujin W Kick(е‘Ѕдё­), ж‰“ж’ѓ;еј·ж‰“
+Terrible COMBOпјЃ(ж”»ж’ѓ), г‚ўгѓѓгѓ‘гѓј
+Terrible COMBOпјЃ(е‘Ѕдё­), и¶…г‚ўгѓѓгѓ‘гѓј;йЂЏжЋеЊ– з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤;SCOTT_гѓђгѓѓг‚Їг‚ёгѓЈгѓігѓ— ж­Ј йЂџ й« г‚ўгѓѓгѓ‘гѓј;_
+	йЂЏжЋеЊ– з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤ и§Јй™¤;SCOTT_г‚ігѓігѓњ
+Terrible COMBOпјЃ(и§ЈиЄ¬), $(гѓ¦гѓ‹гѓѓгѓ€)гЃЇз©єдё­г‚ігѓігѓњг‚’гЃ—гЃ‹гЃ‘гЃџгЂ‚
+
+# SCOTT_гѓђгѓѓг‚Їг‚ёгѓЈгѓігѓ—гЂЃSCOTT_г‚ігѓігѓњ
 
 
-ѓMѓKѓfѓIѓ“
-‹…—‹(ЌUЊ‚), ЋА’e”­ЋЛ Common\EFFECT_LargeElectric(LightBlue)01.bmp BeamSaber(5).wav ’x
-‹…—‹(–Ѕ’†), “dЊ‚
-•ъ“d(ЌUЊ‚), ‘е•ъ“d ђ…ђF ‘ОЏЫѓ†ѓjѓbѓg‚h‚c
-•ъ“d(–Ѕ’†), ‘е“dЊ‚ ђ…ђF
-’nЉ„‚к(ЌUЊ‚), ЋaЊ‚;’n–КЏХЊ‚ ѓIѓЊѓ“ѓW Bazooka.wav;ђU“® Earthquake.wav
-’nЉ„‚к(–Ѕ’†), A‘±•`‰ж Common\EFFECT_Thunder(Black)[01-05].bmp 80 3 1 ”w–К Earthquake.wav
-й‘йђ(ЌUЊ‚), й‘йђ’e ђФ Bearing.wav
-й‘йђ(–Ѕ’†), ”т–— ђФ Crash.wav
-—Ћ—‹(ЌUЊ‚), ѓfѓtѓHѓ‹ѓg
-—Ћ—‹(–Ѕ’†), —Ћ—‹ ђ…ђF
-‹ђ‘еЊќ(ЌUЊ‚), ЋА’e”­ЋЛ Attack\EFFECT_Stick(R)01.bmp 64 Swing(3).wav
-‹ђ‘еЊќ(–Ѕ’†), ’ґ‘Е
-‘ей‘йђ(ЌUЊ‚), •ЅЌs’e–‹ Bullet\EFFECT_EnergySkull(Red)01.bmp 96 ЊВђ”=1 ‰сђ”=3 ‘¬ Missile.wav
-‘ей‘йђ(–Ѕ’†), A‘Е;”т–— ђФ Crash.wav
+г‚®гѓ‡г‚Єгѓіпјќг‚°гѓ¬г‚¤гѓ–г‚№
+г‚Ёгѓўгѓјг‚·гѓ§гѓЉгѓ«г‚¦г‚©гѓјгѓ•г‚§г‚ў(ж”»ж’ѓ), пј­пјЎпј°гѓ“гѓјгѓ  з™Ѕ
+г‚Ёгѓўгѓјг‚·гѓ§гѓЉгѓ«г‚¦г‚©гѓјгѓ•г‚§г‚ў(е‘Ѕдё­), гѓ¦гѓ‹гѓѓгѓ€е¤‰и‰І з™Ѕ
+гѓ•г‚Ўг‚№гѓ€г‚«гѓѓгѓ€, гЃЄгЃЋж‰•гЃ„
+г‚№гѓ©гѓѓг‚·гѓҐг‚¦г‚§г‚¤гѓ–(ж”»ж’ѓ), жЊЇг‚ЉдёЉгЃ’ Swing(2).wav;е®џејѕз™єе°„ Bullet\EFFECT_BigGroundWave(Blue)01.gif 32 -.wav
+г‚№гѓ©гѓѓг‚·гѓҐг‚¦г‚§г‚¤гѓ–(е‘Ѕдё­), ж–¬ж’ѓ йќ’
+г‚Їгѓ­г‚№г‚№гѓ©гѓѓг‚·гѓҐ(ж”»ж’ѓ), SCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”» Attack\EFFECT_Swing(Yellow)[01-05].bmp 40 _
+	Attack\EFFECT_Swing(Yellow)[01-05].bmp 40 2 1 е·¦еЏіеЏЌи»ў и§’еє¦=180 з™єе°„ Swing(2).wav
+г‚Їгѓ­г‚№г‚№гѓ©гѓѓг‚·гѓҐ(е‘Ѕдё­), г‚ЇгѓЄгѓ†г‚Јг‚«гѓ«ж–¬ж’ѓ
+гѓђгѓѓг‚Їг‚№г‚їгѓ–(ж”»ж’ѓ), @ж€¦й—г‚ўгѓ‹гѓЎ_гѓ†гѓ¬гѓќгѓјгѓ€з™єе‹• Whiz.wav "гЂЂ";йЂЏжЋеЊ– еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤ еЏЌж 
+гѓђгѓѓг‚Їг‚№г‚їгѓ–(е‘Ѕдё­), SCOTT_гѓђгѓѓг‚Їг‚№г‚їгѓ–
+еЅ“гЃ¦иє«жЉЂ(CounterпјЃ), з™єе…‰ й»„ Flair.wav
+и„±е‡є, ж¶€ж»…и„±е‡є Mist.wav;@ж€¦й—г‚ўгѓ‹гѓЎ_SCOTT_е›ћи»ўйЂЈз¶љжЏЏз”»ж”»ж’ѓ Beam\EFFECT_LBeam(Yellow)[03-01].bmp 96 3 1 _
+	и§’еє¦=90 Callsign.wav з›ёж‰‹гѓ¦гѓ‹гѓѓгѓ€пј©пј¤
+
+# SCOTT_гѓђгѓѓг‚Їг‚№г‚їгѓ–гЂЃSCOTT_е›ћи»ўйЂЈз¶љжЏЏз”»гЂЃSCOTT_дєЊй‡ЌйЂЈз¶љжЏЏз”»
+
+
+г‚№гѓјгѓ‘гѓјг‚®гѓ‡г‚Єгѓі
+гѓ’гѓјгѓ«г‚Ѕгѓјгѓ‰(ж”»ж’ѓ), жЊЇг‚ЉдёЉгЃ’;ж–¬ж’ѓ -.wav
+гѓ’гѓјгѓ«г‚Ѕгѓјгѓ‰(е‘Ѕдё­), ж‰“ж’ѓ
+г‚Ёгѓіг‚ёг‚§гѓЄгѓѓг‚ЇгѓЃгѓЈгѓјг‚ё(ж”»ж’ѓ), зїјзЄЃж’ѓ дєЊе€ЂжµЃ Swing.wav
+г‚Ёгѓіг‚ёг‚§гѓЄгѓѓг‚ЇгѓЃгѓЈгѓјг‚ё(е‘Ѕдё­), еј·ж‰“
+гѓЎгѓ†г‚Єгѓ©гѓѓг‚·гѓҐ(ж”»ж’ѓ), жЂҐй™Ќдё‹;йЂЏжЋеЊ– еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤ еЏЌж 
+гѓЎгѓ†г‚Єгѓ©гѓѓг‚·гѓҐ(е‘Ѕдё­), @ж€¦й—г‚ўгѓ‹гѓЎ_йљ•зџіж”»ж’ѓ;з€†з™є
+г‚®г‚¬гѓ€гѓігѓ•г‚©гѓјгѓ«(ж”»ж’ѓ), жЂҐй™Ќдё‹;йЂЏжЋеЊ– еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤ еЏЌж ;ж‰“гЃЎдё‹г‚ЌгЃ— Rock\EFFECT_LargeRock01.bmp 120
+г‚®г‚¬гѓ€гѓігѓ•г‚©гѓјгѓ«(е‘Ѕдё­), е¤§з€†з™є
+г‚¤гѓігѓ“гѓіг‚·гѓ–гѓ«, гѓ¦гѓ‹гѓѓгѓ€е¤‰и‰І з™Ѕ Roar.wav
+г‚¤гѓігѓ“гѓіг‚·гѓ–гѓ«(и§ЈиЄ¬), $(гѓ¦гѓ‹гѓѓгѓ€)гЃЇз„Ўж•µгЃ«гЃЄгЃЈгЃџгЂ‚
+ж”»ж’ѓз„ЎеЉ№еЊ–, -
+
+
+г‚®г‚¬гѓ‡г‚Єгѓі
+зђѓй›·(ж”»ж’ѓ), е®џејѕз™єе°„ Common\EFFECT_LargeElectric(LightBlue)01.bmp BeamSaber(5).wav йЃ…
+зђѓй›·(е‘Ѕдё­), й›»ж’ѓ
+ж”ѕй›»(ж”»ж’ѓ), е¤§ж”ѕй›» ж°ґи‰І еЇѕи±Ўгѓ¦гѓ‹гѓѓгѓ€пј©пј¤
+ж”ѕй›»(е‘Ѕдё­), е¤§й›»ж’ѓ ж°ґи‰І
+ењ°е‰Іг‚Њ(ж”»ж’ѓ), ж–¬ж’ѓ;ењ°йќўиЎќж’ѓ г‚Єгѓ¬гѓіг‚ё Bazooka.wav;жЊЇе‹• Earthquake.wav
+ењ°е‰Іг‚Њ(е‘Ѕдё­), йЂЈз¶љжЏЏз”» Common\EFFECT_Thunder(Black)[01-05].bmp 80 3 1 иѓЊйќў Earthquake.wav
+й«‘й«Џ(ж”»ж’ѓ), й«‘й«Џејѕ иµ¤ Bearing.wav
+й«‘й«Џ(е‘Ѕдё­), йЈ›жІ« иµ¤ Crash.wav
+иђЅй›·(ж”»ж’ѓ), гѓ‡гѓ•г‚©гѓ«гѓ€
+иђЅй›·(е‘Ѕдё­), иђЅй›· ж°ґи‰І
+е·Ёе¤§ж‹і(ж”»ж’ѓ), е®џејѕз™єе°„ Attack\EFFECT_Stick(R)01.bmp 64 Swing(3).wav
+е·Ёе¤§ж‹і(е‘Ѕдё­), и¶…ж‰“
+е¤§й«‘й«Џ(ж”»ж’ѓ), е№іиЎЊејѕе№• Bullet\EFFECT_EnergySkull(Red)01.bmp 96 еЂ‹ж•°=1 е›ћж•°=3 йЂџ Missile.wav
+е¤§й«‘й«Џ(е‘Ѕдё­), йЂЈж‰“;йЈ›жІ« иµ¤ Crash.wav
 

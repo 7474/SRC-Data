@@ -1,17 +1,17 @@
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_MUDMEN_“G‰e“Ë‚«h‚µUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_MUDMEN_æ•µå½±çªãåˆºã—æ”»æ’ƒ:
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 Local ANG = _GetAngle(UID)
-Local C_X = (WX(‘ÎÛƒ†ƒjƒbƒg‚h‚c) - 4)
-Local C_Y = (WY(‘ÎÛƒ†ƒjƒbƒg‚h‚c) - 4)
+Local C_X = (WX(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 4)
+Local C_Y = (WY(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 4)
 Local B_C = _G_BC_FA()
-Local Ebitmap = Info(ƒ†ƒjƒbƒg, Unit(‘Šèƒ†ƒjƒbƒg‚h‚c), ƒOƒ‰ƒtƒBƒbƒN)
+Local Ebitmap = Info(ãƒ¦ãƒ‹ãƒƒãƒˆ, Unit(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤), ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯)
 
-#‰æ‘œ‚ª‘¶İ‚µ‚Ä‚¢‚È‚¯‚ê‚ÎA‚È‚É‚©ƒ_ƒ~[‚ğo‚¹‚È‚¢‚©cc
+#ç”»åƒãŒå­˜åœ¨ã—ã¦ã„ãªã‘ã‚Œã°ã€ãªã«ã‹ãƒ€ãƒŸãƒ¼ã‚’å‡ºã›ãªã„ã‹â€¦â€¦
 #If Ebitmap =  Then
 #	Set Ebitmap unit\MUDMEN_MudmenU.bmp
 #Endif
@@ -22,7 +22,7 @@ ClearPicture
 Wait Start
 For i = 1 to 8
 ClearPicture
-PaintPicture Ebitmap (C_X + 4) (C_Y + 32) 32 (4 * i) ƒVƒ‹ƒGƒbƒg ã‰º”½“] “§‰ß
+PaintPicture Ebitmap (C_X + 4) (C_Y + 32) 32 (4 * i) ã‚·ãƒ«ã‚¨ãƒƒãƒˆ ä¸Šä¸‹åè»¢ é€é
 Refresh
 Wait Until (i * 0.3)
 Next
@@ -31,13 +31,13 @@ Playsound Stab.wav
 
 Wait Start
 ClearPicture
-PaintPicture Ebitmap (C_X + 4) (C_Y + 32) 32 32 ƒVƒ‹ƒGƒbƒg ã‰º”½“] “§‰ß
-PaintPicture ("Hit\EFFECT_StabHit" & B_C & "01.bmp") C_X (C_Y + 16) 40 32 “§‰ß ‰E‰ñ“] 270 _ColorTime()
+PaintPicture Ebitmap (C_X + 4) (C_Y + 32) 32 32 ã‚·ãƒ«ã‚¨ãƒƒãƒˆ ä¸Šä¸‹åè»¢ é€é
+PaintPicture ("Hit\EFFECT_StabHit" & B_C & "01.bmp") C_X (C_Y + 16) 40 32 é€é å³å›è»¢ 270 _ColorTime()
 Refresh
 Wait Until 0.7
 ClearPicture
-PaintPicture Ebitmap (C_X + 4) (C_Y + 32) 32 32 ƒVƒ‹ƒGƒbƒg ã‰º”½“] “§‰ß
-PaintPicture ("Hit\EFFECT_StabHit" & B_C & "00.bmp") C_X (C_Y + 16) 40 32 “§‰ß ‰E‰ñ“] 270 _ColorTime()
+PaintPicture Ebitmap (C_X + 4) (C_Y + 32) 32 32 ã‚·ãƒ«ã‚¨ãƒƒãƒˆ ä¸Šä¸‹åè»¢ é€é
+PaintPicture ("Hit\EFFECT_StabHit" & B_C & "00.bmp") C_X (C_Y + 16) 40 32 é€é å³å›è»¢ 270 _ColorTime()
 Refresh
 Wait Until 1.5
 
@@ -49,17 +49,17 @@ Return
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_MUDMEN_“G‰e”j‰ó–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_MUDMEN_æ•µå½±ç ´å£Šå‘½ä¸­:
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 Local ANG = _GetAngle(UID)
-Local C_X = (WX(‘ÎÛƒ†ƒjƒbƒg‚h‚c) - 4)
-Local C_Y = (WY(‘ÎÛƒ†ƒjƒbƒg‚h‚c) - 4)
+Local C_X = (WX(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 4)
+Local C_Y = (WY(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 4)
 Local B_C = _G_BC_FA()
-Local Ebitmap = Info(ƒ†ƒjƒbƒg, Unit(‘Šèƒ†ƒjƒbƒg‚h‚c), ƒOƒ‰ƒtƒBƒbƒN)
+Local Ebitmap = Info(ãƒ¦ãƒ‹ãƒƒãƒˆ, Unit(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤), ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯)
 
-#‰æ‘œ‚ª‘¶İ‚µ‚Ä‚¢‚È‚¯‚ê‚ÎA‚È‚É‚©ƒ_ƒ~[‚ğo‚¹‚È‚¢‚©cc
+#ç”»åƒãŒå­˜åœ¨ã—ã¦ã„ãªã‘ã‚Œã°ã€ãªã«ã‹ãƒ€ãƒŸãƒ¼ã‚’å‡ºã›ãªã„ã‹â€¦â€¦
 #If Ebitmap =  Then
 #	Set Ebitmap unit\MUDMEN_MudmenU.bmp
 #Endif
@@ -70,7 +70,7 @@ ClearPicture
 Wait Start
 For i = 1 to 5
 ClearPicture
-PaintPicture Ebitmap (C_X + 4) (C_Y + 32 - (i * 4)) 32 16 ƒVƒ‹ƒGƒbƒg “§‰ß
+PaintPicture Ebitmap (C_X + 4) (C_Y + 32 - (i * 4)) 32 16 ã‚·ãƒ«ã‚¨ãƒƒãƒˆ é€é
 Refresh
 Wait Until (i * 0.5)
 Next
@@ -80,8 +80,8 @@ Playsound Crash.wav
 Wait Start
 For i = 1 to 8
 ClearPicture
-PaintPicture Ebitmap (C_X - (i * 2)) (C_Y + 12 + (i * 1)) 32 16 ƒVƒ‹ƒGƒbƒg ¶”¼•ª “§‰ß
-PaintPicture Ebitmap (C_X + 8 + (i * 2)) (C_Y + 12 + (i * 1)) 32 16 ƒVƒ‹ƒGƒbƒg ‰E”¼•ª “§‰ß
+PaintPicture Ebitmap (C_X - (i * 2)) (C_Y + 12 + (i * 1)) 32 16 ã‚·ãƒ«ã‚¨ãƒƒãƒˆ å·¦åŠåˆ† é€é
+PaintPicture Ebitmap (C_X + 8 + (i * 2)) (C_Y + 12 + (i * 1)) 32 16 ã‚·ãƒ«ã‚¨ãƒƒãƒˆ å³åŠåˆ† é€é
 Refresh
 Wait Until (i * 0.5)
 Next

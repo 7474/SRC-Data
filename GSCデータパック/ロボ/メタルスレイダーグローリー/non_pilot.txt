@@ -1,101 +1,101 @@
-���B���@�[�`�F
-���B���@�[�`�F, MS_Vivace.bmp
+ヴィヴァーチェ
+ヴィヴァーチェ, MS_Vivace.bmp
 
-#�O���[���[�̐݌v�ҁB�܂����@�C�A�X�̃��^���X���C�_�[�̐݌v�҂ł�����
-#�ِ������̎�_��T���Ă���Œ��ނ�̎�ɂ������Ď��S����
-#���������ĉ�z�V�[���ȊO�œo�ꂳ����̂͂��܂肨���ߏo���܂���
-#����������ꍇ�͐����ȊO�̃L�����͂قƂ�Ǐo���Ȃ��ł�
+#グローリーの設計者。またヴァイアスのメタルスレイダーの設計者でもある
+#異星生物の弱点を探している最中彼らの手にかかって死亡する
+#したがって回想シーン以外で登場させるのはあまりお勧め出来ません
+#もしさせる場合は政忠以外のキャラはほとんど出せないです
 
-�G�i���[
-�G�i���[, MS_Enary.bmp
+エナリー
+エナリー, MS_Enary.bmp
 
-�G���i���t�@�[�t�@(�ʏ�)
-�G���i, MS_ElinaFurfa(N).bmp
-�G���i(�ʏ�)
-�G���i, MS_ElinaFurfa(N).bmp
+エリナ＝ファーファ(通常)
+エリナ, MS_ElinaFurfa(N).bmp
+エリナ(通常)
+エリナ, MS_ElinaFurfa(N).bmp
 
-�Z����(�ʏ�)
-�G���J�C, MS_GiEnkai(N).bmp
-�G���J�C(�ʏ�)
-�G���J�C, MS_GiEnkai(N).bmp
+技燕改(通常)
+エンカイ, MS_GiEnkai(N).bmp
+エンカイ(通常)
+エンカイ, MS_GiEnkai(N).bmp
 
-�@����悢
-��悢, MS_KisaragiYayoi.bmp
+如月やよい
+やよい, MS_KisaragiYayoi.bmp
 
-�L���e�B�����B�g���C(�ʏ�)
-�L���e�B, MS_CattyVitlay(N).bmp
-�L���e�B(�ʏ�)
-�L���e�B, MS_CattyVitlay(N).bmp
+キャティ＝ヴィトレイ(通常)
+キャティ, MS_CattyVitlay(N).bmp
+キャティ(通常)
+キャティ, MS_CattyVitlay(N).bmp
 
-# �ʏ펞�̊�ł��B���ʂ͂�����Œ��点�Ă�������
+# 通常時の顔です。普通はこちらで喋らせてください
 
-�L���e�B�����B�g���C(�l�g)
-�L���e�B, MS_CattyVitlay(MH).bmp 
+キャティ＝ヴィトレイ(ＭＨ)
+キャティ, MS_CattyVitlay(MH).bmp 
 
-#�}�b�N�x���[�Y�n���o�[�K�[(McBERRy's Hamburger)�� 
-#�X���Ƃ��Ċ������Ă��鎞�̃L���e�B����ł��B 
-#���̎��͊ዾ�������Ă���̂ŁAbmp���ł̓��K�l�ƃ}�b�N�x���[�Y�� 
-#������(M)�Ƃ��܂����B 
-
-
-
-�Q���������N��
-�Q��, MS_GenLuncle.bmp
-
-���W�i���h���S�g�[
-�S�g�[, MS_ReginaldoGoto.bmp
-
-# �s�D�X�g�[�N�͒�
+#マックベリーズハンバーガー(McBERRy's Hamburger)の 
+#店員として活動している時のキャティさんです。 
+#この時は眼鏡をかけているので、bmp名ではメガネとマックベリーズを 
+#かけて(M)としました。 
 
 
 
-�T�E���h�I�����[ 
-�T�E���h�I�����[, MS_Soundonly.bmp 
+ゲン＝ランクル
+ゲン, MS_GenLuncle.bmp
 
-#�퓬���Ɏ�M�󋵂�����������A�p�C���b�g���s�݂̂Ƃ��Ƀ��j�^�[�� 
-#�p�C���b�g����ɕ\���������̂ł��B
+レジナルド＝ゴトー
+ゴトー, MS_ReginaldoGoto.bmp
 
-�W�t���N���C���X
-�W�t, MS_JiffCrayms.bmp
-
-�`���[�~�[���O�����g
-�`���[�~�[, MS_CharmyGrint.bmp
-
-�s�D�X�g�[�N����
-����, MS_T_stokeno1.bmp
-
-�s�D�X�g�[�N�N���[
-�N���[, MS_T_stokecrew.bmp
-
-����������
-������, MS_HimukaiAzusa.bmp
-
-# ���̖��B�P�Q�΁B�N������X�ɗc����������
-# �u�́[���I �������Ł[���I ���Z������D����v
+# Ｔ．ストーク艦長
 
 
 
-�����G�C�~�A
-�G�C�~�A, MS_HimukaiAmia.bmp
+サウンドオンリー 
+サウンドオンリー, MS_Soundonly.bmp 
 
-# ���A�������̕�B�����Ԃ�O�ɑ��E���Ă���
+#戦闘時に受信状況が悪かったり、パイロットが不在のときにモニターに 
+#パイロット代わりに表示されるものです。
+
+ジフ＝クレイムス
+ジフ, MS_JiffCrayms.bmp
+
+チャーミー＝グリント
+チャーミー, MS_CharmyGrint.bmp
+
+Ｔ．ストーク副長
+副長, MS_T_stokeno1.bmp
+
+Ｔ．ストーククルー
+クルー, MS_T_stokecrew.bmp
+
+日向あずさ
+あずさ, MS_HimukaiAzusa.bmp
+
+# 忠の妹。１２歳。年齢よりも更に幼く感じられる
+# 「はーい！ あずさでーす！ お兄ちゃん大好き♪」
 
 
-���앙
-�ӂ�, MS_FujinoFuki.bmp
 
-�y�g���[�V���J���R���T�R�t
-�y�g���[�V���J, MS_PetrouchkaKorsakov.bmp
+日向エイミア
+エイミア, MS_HimukaiAmia.bmp
 
-�R������q
-����q, MS_YamaguchiSayoko.bmp
+# 忠、あずさの母。ずいぶん前に他界している
 
-# �{�҂ł͎R���Ƃ������͏o�ĂȂ��̂ł�����ҁ��悵�݂邪�����
-# �`���Ă���d�D�f�D�R���o�b�g�Ƃ�����i�ɓ����̃L�������o�Ă܂��̂�
-# ���ꂩ��Ƃ��Ă܂��B���̍�ғ��L������ʍ�i�ɏo�����悭����̂�
-# ���Ȃ����Ԉ���Ă��Ȃ��ł��傤
 
-���ԌO
-�O, MS_YuibanaKaoru.bmp
+藤野蕗
+ふき, MS_FujinoFuki.bmp
 
-# ���� �q�h�n
+ペトルーシュカ＝コルサコフ
+ペトルーシュカ, MS_PetrouchkaKorsakov.bmp
+
+山口小夜子
+小夜子, MS_YamaguchiSayoko.bmp
+
+# 本編では山口という姓は出てないのですが作者☆よしみるが原作を
+# 描いているＥ．Ｇ．コンバットという作品に同名のキャラが出てますので
+# それからとってます。この作者同キャラを別作品に出す事よくあるので
+# あながち間違っていないでしょう
+
+結花薫
+薫, MS_YuibanaKaoru.bmp
+
+# 文責 ＲＩＯ

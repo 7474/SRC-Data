@@ -1,67 +1,67 @@
-##### ƒ‹[ƒ`ƒ“ƒXƒ^[ƒg ##### 
+##### ãƒ«ãƒ¼ãƒãƒ³ã‚¹ã‚¿ãƒ¼ãƒˆ ##### 
 
-ƒ†ƒjƒbƒgƒRƒ}ƒ“ƒh HHH “¡“c_”V (Unit() = "“¡“c_”V" And –¡•û” > 1):
+ãƒ¦ãƒ‹ãƒƒãƒˆã‚³ãƒãƒ³ãƒ‰ ï¼Ÿï¼Ÿï¼Ÿ è—¤ç”°æµ©ä¹‹ (Unit() = "è—¤ç”°æµ©ä¹‹" And å‘³æ–¹æ•° > 1):
 
-©•ª = ‘ÎÛƒ†ƒjƒbƒg
+è‡ªåˆ† = å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ
 
-If Call(HHHƒƒCƒ“ƒ‹[ƒ`ƒ“) Then
-  Talk ƒVƒXƒeƒ€ 
-  $(©•ª)‚ÍA;$(NickName(target))‚Ì;w$(HQ•Ší–¼)x:;c‚ğ^—‚µ‚½I
+If Call(ï¼Ÿï¼Ÿï¼Ÿãƒ¡ã‚¤ãƒ³ãƒ«ãƒ¼ãƒãƒ³) Then
+  Talk ã‚·ã‚¹ãƒ†ãƒ  
+  $(è‡ªåˆ†)ã¯ã€;$(NickName(target))ã®;ã€$(ï¼Ÿï¼¿æ­¦å™¨å)ã€:;â€¦ã‚’çœŸä¼¼ã—ãŸï¼
   End
 Else
-  Talk ƒVƒXƒeƒ€
-  ^—‚Å‚«‚È‚©‚Á‚½I
+  Talk ã‚·ã‚¹ãƒ†ãƒ 
+  çœŸä¼¼ã§ããªã‹ã£ãŸï¼
   End 
 EndIf
 
 Exit
 
-##### HHHƒƒCƒ“ƒ‹[ƒ`ƒ“ ##### 
+##### ï¼Ÿï¼Ÿï¼Ÿãƒ¡ã‚¤ãƒ³ãƒ«ãƒ¼ãƒãƒ³ ##### 
 
-HHHƒƒCƒ“ƒ‹[ƒ`ƒ“:
+ï¼Ÿï¼Ÿï¼Ÿãƒ¡ã‚¤ãƒ³ãƒ«ãƒ¼ãƒãƒ³:
 
-Unset ƒpƒCƒƒbƒgƒl[ƒ€
+Unset ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒãƒ¼ãƒ 
 X = 0
-ForEach –¡•û oŒ‚
-  If ‘ÎÛƒ†ƒjƒbƒg = ©•ª Then
+ForEach å‘³æ–¹ å‡ºæ’ƒ
+  If å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆ = è‡ªåˆ† Then
     Skip
   EndIf
   Incr X
-  ƒpƒCƒƒbƒgƒl[ƒ€[X] = ‘ÎÛƒ†ƒjƒbƒg‚h‚c
+  ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒãƒ¼ãƒ [X] = å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 Next 
 
 Do While (X)
 
-  —”‚P = Random(X)
-  target = ƒpƒCƒƒbƒgƒl[ƒ€[—”‚P]
-  ƒpƒCƒƒbƒgƒl[ƒ€[—”‚P] = ƒpƒCƒƒbƒgƒl[ƒ€[X]
-  Unset ƒpƒCƒƒbƒgƒl[ƒ€[X]
+  ä¹±æ•°ï¼‘ = Random(X)
+  target = ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒãƒ¼ãƒ [ä¹±æ•°ï¼‘]
+  ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒãƒ¼ãƒ [ä¹±æ•°ï¼‘] = ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒãƒ¼ãƒ [X]
+  Unset ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆãƒãƒ¼ãƒ [X]
   Incr X -1
   
-  Cnt = Info(target,•Ší”)
+  Cnt = Info(target,æ­¦å™¨æ•°)
   Y = 0
-  Unset •¨^—Œó•â
+  Unset ç‰©çœŸä¼¼å€™è£œ
   For i = 1 to Cnt
     Incr Y
-    •¨^—Œó•â[Y] = Info(ƒ†ƒjƒbƒg,target,•Ší,i)
+    ç‰©çœŸä¼¼å€™è£œ[Y] = Info(ãƒ¦ãƒ‹ãƒƒãƒˆ,target,æ­¦å™¨,i)
   Next
 
   Do While (Y)
 
-    —”‚Q = Random(Y)
-    weapon = •¨^—Œó•â[—”‚Q]
-    •¨^—Œó•â[—”‚Q] = •¨^—Œó•â[Y]
-    Unset •¨^—Œó•â[Y]
+    ä¹±æ•°ï¼’ = Random(Y)
+    weapon = ç‰©çœŸä¼¼å€™è£œ[ä¹±æ•°ï¼’]
+    ç‰©çœŸä¼¼å€™è£œ[ä¹±æ•°ï¼’] = ç‰©çœŸä¼¼å€™è£œ[Y]
+    Unset ç‰©çœŸä¼¼å€™è£œ[Y]
     Incr Y -1
 
-    If Info(target,•Ší,weapon,Á”ï‚d‚m) > EN(©•ª) _
+    If Info(target,æ­¦å™¨,weapon,æ¶ˆè²»ï¼¥ï¼®) > EN(è‡ªåˆ†) _
       Or IsDisable(Unit(target),weapon) _
-      Or ‘®«Šm”F(”½‚p‡‚bÄ•Ï©s) _
+      Or å±æ€§ç¢ºèª(åï¼±åˆï¼£æ–‰å¤‰è‡ªå°½) _
     Then
       Skip
     EndIf
 
-    •Šíƒ}ƒlƒ‹[ƒ`ƒ“
+    æ­¦å™¨ãƒãƒãƒ«ãƒ¼ãƒãƒ³
 
     Return 1
 
@@ -71,33 +71,33 @@ Loop
 
 Return 0
 
-##### ƒƒCƒ“ƒ‹[ƒ`ƒ“I—¹ #####
+##### ãƒ¡ã‚¤ãƒ³ãƒ«ãƒ¼ãƒãƒ³çµ‚äº† #####
 
-##### •Šíƒ}ƒlƒ‹[ƒ`ƒ“   #####
+##### æ­¦å™¨ãƒãƒãƒ«ãƒ¼ãƒãƒ³   #####
 
-•Šíƒ}ƒlƒ‹[ƒ`ƒ“:
+æ­¦å™¨ãƒãƒãƒ«ãƒ¼ãƒãƒ³:
 
-HQ•Ší–¼ = weapon
-HQUŒ‚—Í = Info(target,•Ší,weapon,UŒ‚—Í) - Info(UnitID(©•ª),ƒ‰ƒ“ƒN) * 100
-HQÅ¬Ë’ö = Info(target,•Ší,weapon,Å¬Ë’ö)
-HQÅ‘åË’ö = Info(target,•Ší,weapon,Å‘åË’ö)
-HQ–½’†—¦ = Info(target,•Ší,weapon,–½’†—¦)
-HQÁ”ï‚d‚m = Info(target,•Ší,weapon,Á”ï‚d‚m)
-HQ’nŒ`“K‰ = Info(target,•Ší,weapon,’nŒ`“K‰)
-HQƒNƒŠƒeƒBƒJƒ‹—¦ = Info(target,•Ší,weapon,ƒNƒŠƒeƒBƒJƒ‹—¦)
-HQ•Ší‘®« = Info(target,•Ší,weapon,‘®«)
-HQ’Ç‰Á•¶Í = "•Ï"
+ï¼Ÿï¼¿æ­¦å™¨å = weapon
+ï¼Ÿï¼¿æ”»æ’ƒåŠ› = Info(target,æ­¦å™¨,weapon,æ”»æ’ƒåŠ›) - Info(UnitID(è‡ªåˆ†),ãƒ©ãƒ³ã‚¯) * 100
+ï¼Ÿï¼¿æœ€å°å°„ç¨‹ = Info(target,æ­¦å™¨,weapon,æœ€å°å°„ç¨‹)
+ï¼Ÿï¼¿æœ€å¤§å°„ç¨‹ = Info(target,æ­¦å™¨,weapon,æœ€å¤§å°„ç¨‹)
+ï¼Ÿï¼¿å‘½ä¸­ç‡ = Info(target,æ­¦å™¨,weapon,å‘½ä¸­ç‡)
+ï¼Ÿï¼¿æ¶ˆè²»ï¼¥ï¼® = Info(target,æ­¦å™¨,weapon,æ¶ˆè²»ï¼¥ï¼®)
+ï¼Ÿï¼¿åœ°å½¢é©å¿œ = Info(target,æ­¦å™¨,weapon,åœ°å½¢é©å¿œ)
+ï¼Ÿï¼¿ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ç‡ = Info(target,æ­¦å™¨,weapon,ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ç‡)
+ï¼Ÿï¼¿æ­¦å™¨å±æ€§ = Info(target,æ­¦å™¨,weapon,å±æ€§)
+ï¼Ÿï¼¿è¿½åŠ æ–‡ç«  = "å¤‰"
 
-‚l‚h‚c‚hH = Info(ƒpƒCƒƒbƒg,Pilot(target),‚l‚h‚c‚h)
-If IsAvailable(target,‚a‚f‚l) Then
-  ‚l‚h‚c‚hH = Info(target,“Áê”\—Íƒf[ƒ^,‚a‚f‚l)
+ï¼­ï¼©ï¼¤ï¼©ï¼Ÿ = Info(ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ,Pilot(target),ï¼­ï¼©ï¼¤ï¼©)
+If IsAvailable(target,ï¼¢ï¼§ï¼­) Then
+  ï¼­ï¼©ï¼¤ï¼©ï¼Ÿ = Info(target,ç‰¹æ®Šèƒ½åŠ›ãƒ‡ãƒ¼ã‚¿,ï¼¢ï¼§ï¼­)
 EndIf
-If IsAvailable(target,•Ší‚a‚f‚l) Then
-  Cnt = Info(target,“Áê”\—Í”)
+If IsAvailable(target,æ­¦å™¨ï¼¢ï¼§ï¼­) Then
+  Cnt = Info(target,ç‰¹æ®Šèƒ½åŠ›æ•°)
   For i = 1 to Cnt
-    If Info(target,“Áê”\—Í,i) = "•Ší‚a‚f‚l" Then
-      If LIndex(Info(target,“Áê”\—Íƒf[ƒ^,i),1) = weapon Then
-        ‚l‚h‚c‚hH = LIndex(Info(target,“Áê”\—Íƒf[ƒ^,i),2)
+    If Info(target,ç‰¹æ®Šèƒ½åŠ›,i) = "æ­¦å™¨ï¼¢ï¼§ï¼­" Then
+      If LIndex(Info(target,ç‰¹æ®Šèƒ½åŠ›ãƒ‡ãƒ¼ã‚¿,i),1) = weapon Then
+        ï¼­ï¼©ï¼¤ï¼©ï¼Ÿ = LIndex(Info(target,ç‰¹æ®Šèƒ½åŠ›ãƒ‡ãƒ¼ã‚¿,i),2)
         Break
       EndIf
     EndIf
@@ -105,84 +105,84 @@ If IsAvailable(target,•Ší‚a‚f‚l) Then
 EndIf
 
 
-# ƒNƒCƒbƒNƒ[ƒh‘Îô
+# ã‚¯ã‚¤ãƒƒã‚¯ãƒ­ãƒ¼ãƒ‰å¯¾ç­–
 Number = 0
 Do
   Incr Number
-  Name = “¡“c_”V(H) & "(" & Number & ")"
-Loop While (Info(ƒ†ƒjƒbƒg,Name,ˆ¤Ì) != "")
+  Name = è—¤ç”°æµ©ä¹‹(ï¼Ÿ) & "(" & Number & ")"
+Loop While (Info(ãƒ¦ãƒ‹ãƒƒãƒˆ,Name,æ„›ç§°) != "")
 
 
-Open Data\ƒŠ[ƒtƒtƒ@ƒCƒg‚X‚V\HHH\Item.txt For o—Í As F
-Print F "HHH(AB)"
-Print F "HHH,ŒÅ’è,HHH"
-Print F "“Áê”\—Í"
+Open Data\ãƒªãƒ¼ãƒ•ãƒ•ã‚¡ã‚¤ãƒˆï¼™ï¼—\ï¼Ÿï¼Ÿï¼Ÿ\Item.txt For å‡ºåŠ› As F
+Print F "ï¼Ÿï¼Ÿï¼Ÿ(AB)"
+Print F "ï¼Ÿï¼Ÿï¼Ÿ,å›ºå®š,ï¼Ÿï¼Ÿï¼Ÿ"
+Print F "ç‰¹æ®Šèƒ½åŠ›"
 Print F "0,0,0,0,0"
 Print F "==="
-Print F "HHH”­“®,•ÏgLv1=$(Name),0,1,-,-,(ƒAƒCƒeƒ€)"
+Print F "ï¼Ÿï¼Ÿï¼Ÿç™ºå‹•,å¤‰èº«Lv1=$(Name),0,1,-,-,(ã‚¢ã‚¤ãƒ†ãƒ )"
 
 Close F
 
-Open Data\ƒŠ[ƒtƒtƒ@ƒCƒg‚X‚V\HHH\Unit.txt For o—Í As F
+Open Data\ãƒªãƒ¼ãƒ•ãƒ•ã‚¡ã‚¤ãƒˆï¼™ï¼—\ï¼Ÿï¼Ÿï¼Ÿ\Unit.txt For å‡ºåŠ› As F
 
 Print F "$(Name)"
-Print F "“¡“c_”V,$(Info(target,‹@‘ÌƒNƒ‰ƒX)),1,3"
-Print F "—¤,4,M,3500,170"
-Print F "“Áê”\—Í"
-Print F "Ši“¬•Ší=Œ"
-Print F "«•Ê=’j«"
-Print F "‰ğà=HHH ‘¼l‚Ì‹Z‚ğŒ©—lŒ©^—‚·‚é‚Æ‚¢‚¤_”V‚Ì‹Z;‚Pƒ^[ƒ“‰ß‚¬‚é‚©A^—‚µ‚½‹Z‚ğŒ‚‚Â‚ÆŒ³‚Ìó‘Ô‚É–ß‚é"
-Print F "•Ší‚a‚f‚l=$(HQ•Ší–¼) $(‚l‚h‚c‚hH)"
-Print F "ƒpƒCƒƒbƒg”\—Í•t‰Á=ƒvƒ‰[ƒiLv100=”ñ•\¦"
+Print F "è—¤ç”°æµ©ä¹‹,$(Info(target,æ©Ÿä½“ã‚¯ãƒ©ã‚¹)),1,3"
+Print F "é™¸,4,M,3500,170"
+Print F "ç‰¹æ®Šèƒ½åŠ›"
+Print F "æ ¼é—˜æ­¦å™¨=æ‹³"
+Print F "æ€§åˆ¥=ç”·æ€§"
+Print F "è§£èª¬=ï¼Ÿï¼Ÿï¼Ÿ ä»–äººã®æŠ€ã‚’è¦‹æ§˜è¦‹çœŸä¼¼ã™ã‚‹ã¨ã„ã†æµ©ä¹‹ã®æŠ€;ï¼‘ã‚¿ãƒ¼ãƒ³éãã‚‹ã‹ã€çœŸä¼¼ã—ãŸæŠ€ã‚’æ’ƒã¤ã¨å…ƒã®çŠ¶æ…‹ã«æˆ»ã‚‹"
+Print F "æ­¦å™¨ï¼¢ï¼§ï¼­=$(ï¼Ÿï¼¿æ­¦å™¨å) $(ï¼­ï¼©ï¼¤ï¼©ï¼Ÿ)"
+Print F "ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆèƒ½åŠ›ä»˜åŠ =ãƒ—ãƒ©ãƒ¼ãƒŠLv100=éè¡¨ç¤º"
 Print F "3600,140,800,80"
 Print F "BACB,LF_HujitaHiroyukiU.bmp"
-Print F "©ŒÈ—¬ƒpƒ“ƒ`,900,1,1,+20,-,-,-,AAAA,+0,“Ë"
-Print F "^Eå–ğ‚ÌˆÓ’n,2500,1,1,+20,1,-,120,AAAA,+0,‡"
-Print F "^Eå–ğ‚ÌˆÓ’n(‹S),2500,1,1,+20,1,-,120,AAAA,+0,‡"
-Print F "$(HQ•Ší–¼),$(HQUŒ‚—Í),$(HQÅ¬Ë’ö),$(HQÅ‘åË’ö),$(HQ–½’†—¦),-,$(HQÁ”ï‚d‚m),-,$(HQ’nŒ`“K‰),$(HQƒNƒŠƒeƒBƒJƒ‹—¦),$(HQ•Ší‘®«)$(HQ’Ç‰Á•¶Í)"
+Print F "è‡ªå·±æµãƒ‘ãƒ³ãƒ,900,1,1,+20,-,-,-,AAAA,+0,çª"
+Print F "çœŸãƒ»ä¸»å½¹ã®æ„åœ°,2500,1,1,+20,1,-,120,AAAA,+0,åˆ"
+Print F "çœŸãƒ»ä¸»å½¹ã®æ„åœ°(é¬¼),2500,1,1,+20,1,-,120,AAAA,+0,åˆ"
+Print F "$(ï¼Ÿï¼¿æ­¦å™¨å),$(ï¼Ÿï¼¿æ”»æ’ƒåŠ›),$(ï¼Ÿï¼¿æœ€å°å°„ç¨‹),$(ï¼Ÿï¼¿æœ€å¤§å°„ç¨‹),$(ï¼Ÿï¼¿å‘½ä¸­ç‡),-,$(ï¼Ÿï¼¿æ¶ˆè²»ï¼¥ï¼®),-,$(ï¼Ÿï¼¿åœ°å½¢é©å¿œ),$(ï¼Ÿï¼¿ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ç‡),$(ï¼Ÿï¼¿æ­¦å™¨å±æ€§)$(ï¼Ÿï¼¿è¿½åŠ æ–‡ç« )"
 
 Close F
 
-Load ƒŠ[ƒtƒtƒ@ƒCƒg‚X‚V\HHH
+Load ãƒªãƒ¼ãƒ•ãƒ•ã‚¡ã‚¤ãƒˆï¼™ï¼—\ï¼Ÿï¼Ÿï¼Ÿ
 
-Select ©•ª
+Select è‡ªåˆ†
 
-Equip HHH(AB)
+Equip ï¼Ÿï¼Ÿï¼Ÿ(AB)
 
-Œõ‚ê‚ÁI
+å…‰ã‚Œã£ï¼
 
-UseAbility HHH”­“®
+UseAbility ï¼Ÿï¼Ÿï¼Ÿç™ºå‹•
 
-RecoverPlana ©•ª 100
+RecoverPlana è‡ªåˆ† 100
 
-Forget ƒŠ[ƒtƒtƒ@ƒCƒg‚X‚V\HHH 
+Forget ãƒªãƒ¼ãƒ•ãƒ•ã‚¡ã‚¤ãƒˆï¼™ï¼—\ï¼Ÿï¼Ÿï¼Ÿ 
 
-RemoveFile Data\ƒŠ[ƒtƒtƒ@ƒCƒg‚X‚V\HHH\Item.txt 
-RemoveFile Data\ƒŠ[ƒtƒtƒ@ƒCƒg‚X‚V\HHH\Unit.txt 
+RemoveFile Data\ãƒªãƒ¼ãƒ•ãƒ•ã‚¡ã‚¤ãƒˆï¼™ï¼—\ï¼Ÿï¼Ÿï¼Ÿ\Item.txt 
+RemoveFile Data\ãƒªãƒ¼ãƒ•ãƒ•ã‚¡ã‚¤ãƒˆï¼™ï¼—\ï¼Ÿï¼Ÿï¼Ÿ\Unit.txt 
 
 Return 
 
-##### •Šíƒ‹[ƒ`ƒ“I—¹ ##### 
+##### æ­¦å™¨ãƒ«ãƒ¼ãƒãƒ³çµ‚äº† ##### 
 
-##### ƒTƒuƒ‹[ƒ`ƒ“ ####
+##### ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³ ####
 
 IsDisable:
 Return (Eval("Disable($(Args(1)),$(Args(2)))") Or Eval("Disable($(Args(2)))"))
 
-‘®«Šm”F:
+å±æ€§ç¢ºèª:
 Cnt = Len(Args(1))
 For i = 1 to Cnt
-  If Info(target,•Ší,weapon,‘®«Š—L,Mid(Args(1),i,1)) Then
+  If Info(target,æ­¦å™¨,weapon,å±æ€§æ‰€æœ‰,Mid(Args(1),i,1)) Then
     Return 1
   EndIf
 Next
 Return 0
 
-Œõ‚ê‚ÁI:
-Center ©•ª
+å…‰ã‚Œã£ï¼:
+Center è‡ªåˆ†
 PlaySound Glass.wav
 For i = -3 to 3
-  PaintPicture "AUnitOn0$(4 - Abs(i)).bmp" - - 32 32 “§‰ß
+  PaintPicture "AUnitOn0$(4 - Abs(i)).bmp" - - 32 32 é€é
   Refresh
   Wait 0.5
   If i = 0 Then

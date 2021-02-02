@@ -1,41 +1,41 @@
-ÚG ƒƒKƒŒƒbƒh ƒƒKƒVƒ‹ƒo[:
-If (Unit(ƒƒKƒŒƒbƒh) = ƒƒKƒ{ƒCƒWƒƒ[) And (Unit(ƒƒKƒVƒ‹ƒo[) = ƒƒKƒEƒBƒ“ƒK[) Then
-Goto ƒƒKƒEƒBƒ“ƒOŽó‚¯“n‚µ
+æŽ¥è§¦ ãƒ¡ã‚¬ãƒ¬ãƒƒãƒ‰ ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼:
+If (Unit(ãƒ¡ã‚¬ãƒ¬ãƒƒãƒ‰) = ãƒ¡ã‚¬ãƒœã‚¤ã‚¸ãƒ£ãƒ¼) And (Unit(ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼) = ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚¬ãƒ¼) Then
+Goto ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚°å—ã‘æ¸¡ã—
 Else
-If (Unit(ƒƒKƒŒƒbƒh) = ƒƒKƒ{ƒCƒWƒƒ[) And (Unit(ƒƒKƒVƒ‹ƒo[) = ƒƒKƒEƒBƒ“ƒK[(‚e)) Then
-Goto ƒƒKƒEƒBƒ“ƒOŽó‚¯“n‚µ
+If (Unit(ãƒ¡ã‚¬ãƒ¬ãƒƒãƒ‰) = ãƒ¡ã‚¬ãƒœã‚¤ã‚¸ãƒ£ãƒ¼) And (Unit(ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼) = ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚¬ãƒ¼(ï¼¦)) Then
+Goto ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚°å—ã‘æ¸¡ã—
 Else
-If (Unit(ƒƒKƒŒƒbƒh) = ƒEƒBƒ“ƒOƒƒKƒ{ƒCƒWƒƒ[) And (Unit(ƒƒKƒVƒ‹ƒo[) = ƒƒKƒEƒBƒ“ƒK[(—ƒ‚È‚µ)) Then
-Goto ƒƒKƒEƒBƒ“ƒO•Ô‹p
+If (Unit(ãƒ¡ã‚¬ãƒ¬ãƒƒãƒ‰) = ã‚¦ã‚£ãƒ³ã‚°ãƒ¡ã‚¬ãƒœã‚¤ã‚¸ãƒ£ãƒ¼) And (Unit(ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼) = ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚¬ãƒ¼(ç¿¼ãªã—)) Then
+Goto ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚°è¿”å´
 Endif
 Exit
 
-ƒƒKƒEƒBƒ“ƒOŽó‚¯“n‚µ:
-Ask ƒƒKƒEƒBƒ“ƒO‚ðƒƒKƒ{ƒCƒWƒƒ[‚É‘•”õ‚³‚¹‚Ü‚·‚©H ƒLƒƒƒ“ƒZƒ‹‰Â
-‚x‚…‚“
-‚m‚
+ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚°å—ã‘æ¸¡ã—:
+Ask ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚°ã‚’ãƒ¡ã‚¬ãƒœã‚¤ã‚¸ãƒ£ãƒ¼ã«è£…å‚™ã•ã›ã¾ã™ã‹ï¼Ÿ ã‚­ãƒ£ãƒ³ã‚»ãƒ«å¯
+ï¼¹ï½…ï½“
+ï¼®ï½
 End
-@If ‘I‘ð = 1 Then
-@AutoTalk ƒƒKƒVƒ‹ƒo[
-@‚æ‚Á‚µ‚áIƒƒKƒEƒBƒ“ƒOA‚µ‚Á‚©‚èŽó‚¯Žæ‚ê‚æI
-@End
-@Transform ƒƒKƒŒƒbƒh ƒEƒBƒ“ƒOƒƒKƒ{ƒCƒWƒƒ[
-@Transform ƒƒKƒVƒ‹ƒo[ ƒƒKƒEƒBƒ“ƒK[(—ƒ‚È‚µ)
+ã€€If é¸æŠž = 1 Then
+ã€€AutoTalk ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼
+ã€€ã‚ˆã£ã—ã‚ƒï¼ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚°ã€ã—ã£ã‹ã‚Šå—ã‘å–ã‚Œã‚ˆï¼
+ã€€End
+ã€€Transform ãƒ¡ã‚¬ãƒ¬ãƒƒãƒ‰ ã‚¦ã‚£ãƒ³ã‚°ãƒ¡ã‚¬ãƒœã‚¤ã‚¸ãƒ£ãƒ¼
+ã€€Transform ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼ ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚¬ãƒ¼(ç¿¼ãªã—)
 Endif
 Exit
 
-ƒƒKƒEƒBƒ“ƒO•Ô‹p:
-Ask ƒƒKƒEƒBƒ“ƒO‚ðƒƒKƒEƒBƒ“ƒK[‚É‘•”õ‚³‚¹‚Ü‚·‚©H ƒLƒƒƒ“ƒZƒ‹‰Â
-‚x‚…‚“
-‚m‚
+ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚°è¿”å´:
+Ask ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚°ã‚’ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚¬ãƒ¼ã«è£…å‚™ã•ã›ã¾ã™ã‹ï¼Ÿ ã‚­ãƒ£ãƒ³ã‚»ãƒ«å¯
+ï¼¹ï½…ï½“
+ï¼®ï½
 End
-@If ‘I‘ð = 1 Then
-@AutoTalk ƒƒKƒŒƒbƒh
-@ƒƒKƒVƒ‹ƒo[IƒƒKƒEƒBƒ“ƒO‚ðƒƒKƒEƒBƒ“ƒK[‚É‘•”õ‚³‚¹‚é‚ñ‚¾I
-@AutoTalk ƒƒKƒVƒ‹ƒo[
-@‚n‚j‚ÁI
-@End
-@Transform ƒƒKƒŒƒbƒh ƒƒKƒ{ƒCƒWƒƒ[
-@Transform ƒƒKƒVƒ‹ƒo[ ƒƒKƒEƒBƒ“ƒK[
+ã€€If é¸æŠž = 1 Then
+ã€€AutoTalk ãƒ¡ã‚¬ãƒ¬ãƒƒãƒ‰
+ã€€ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼ï¼ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚°ã‚’ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚¬ãƒ¼ã«è£…å‚™ã•ã›ã‚‹ã‚“ã ï¼
+ã€€AutoTalk ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼
+ã€€ï¼¯ï¼«ã£ï¼
+ã€€End
+ã€€Transform ãƒ¡ã‚¬ãƒ¬ãƒƒãƒ‰ ãƒ¡ã‚¬ãƒœã‚¤ã‚¸ãƒ£ãƒ¼
+ã€€Transform ãƒ¡ã‚¬ã‚·ãƒ«ãƒãƒ¼ ãƒ¡ã‚¬ã‚¦ã‚£ãƒ³ã‚¬ãƒ¼
 Endif
 Exit

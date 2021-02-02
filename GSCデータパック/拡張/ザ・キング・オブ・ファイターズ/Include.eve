@@ -1,15 +1,15 @@
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_KOF_‰æ–ÊŠO“Š‚°”ò‚Î‚µ–½’†:
-## ƒLƒƒƒmƒ“–C’·‹——£UŒ‚‰ü•Ï
-#ˆø”‚P Œø‰Ê‰¹
-#ˆø”‚Q ó‚¯~‚ß(—‰ºæ‚ª“Š‚°”ò‚Î‚µ‚½ƒ†ƒjƒbƒg‚ÌÀ•W‚É‚È‚é)
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
-Set BMP_FILE _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Call í“¬ƒAƒjƒ_KOF_‘Å‚¿ã‚°‰º‚ë‚µ‹¤’Ê ‘Å‚¿ã‚° BMP_FILE 32 _GetName("Whiz.wav",_GetWavFromArgs()) UID
-If (_SearchOptionFromArgs("ó‚¯~‚ß") != "") Then
-	Call í“¬ƒAƒjƒ_KOF_‘Å‚¿ã‚°‰º‚ë‚µ‹¤’Ê ‘Å‚¿‰º‚ë‚µ BMP_FILE 32 _GetName("Whiz.wav",_GetWavFromArgs()) UID
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_ç”»é¢å¤–æŠ•ã’é£›ã°ã—å‘½ä¸­:
+## ã‚­ãƒ£ãƒãƒ³ç ²é•·è·é›¢æ”»æ’ƒæ”¹å¤‰
+#å¼•æ•°ï¼‘ åŠ¹æœéŸ³
+#å¼•æ•°ï¼’ å—ã‘æ­¢ã‚(è½ä¸‹å…ˆãŒæŠ•ã’é£›ã°ã—ãŸãƒ¦ãƒ‹ãƒƒãƒˆã®åº§æ¨™ã«ãªã‚‹)
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
+Set BMP_FILE _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_æ‰“ã¡ä¸Šã’ä¸‹ã‚ã—å…±é€š æ‰“ã¡ä¸Šã’ BMP_FILE 32 _GetName("Whiz.wav",_GetWavFromArgs()) UID
+If (_SearchOptionFromArgs("å—ã‘æ­¢ã‚") != "") Then
+	Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_æ‰“ã¡ä¸Šã’ä¸‹ã‚ã—å…±é€š æ‰“ã¡ä¸‹ã‚ã— BMP_FILE 32 _GetName("Whiz.wav",_GetWavFromArgs()) UID
 Else
-	Call í“¬ƒAƒjƒ_KOF_‘Å‚¿ã‚°‰º‚ë‚µ‹¤’Ê ‘Å‚¿‰º‚ë‚µ BMP_FILE 32 _GetName("Whiz.wav",_GetWavFromArgs()) ‘Šèƒ†ƒjƒbƒg‚h‚c
+	Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_æ‰“ã¡ä¸Šã’ä¸‹ã‚ã—å…±é€š æ‰“ã¡ä¸‹ã‚ã— BMP_FILE 32 _GetName("Whiz.wav",_GetWavFromArgs()) ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 EndIf
 _SetAnimeData_AttackCount 1
 Return
@@ -17,14 +17,14 @@ Return
 
 #/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_KOF_‘Å‚¿ã‚°‰º‚ë‚µ‹¤’Ê:
-## ‘Å‚¿ã‚°‰º‚ë‚µ‹¤’Ê‰ü•Ï
-#ˆø”‚P ‘Å‚¿ã‚°‚©‘Å‚¿‰º‚ë‚µ‚©(È—ª‘Å‚¿‰º‚ë‚µ)
-#ˆø”‚Q ‰æ‘œ–¼
-#ˆø”‚R ‰æ‘œƒTƒCƒY
-#ˆø”‚S Œø‰Ê‰¹
-#ˆø”‚T —‚Æ‚·‘ÎÛ
-#ˆø”‚U ”­Œõ
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_æ‰“ã¡ä¸Šã’ä¸‹ã‚ã—å…±é€š:
+## æ‰“ã¡ä¸Šã’ä¸‹ã‚ã—å…±é€šæ”¹å¤‰
+#å¼•æ•°ï¼‘ æ‰“ã¡ä¸Šã’ã‹æ‰“ã¡ä¸‹ã‚ã—ã‹(çœç•¥æ™‚æ‰“ã¡ä¸‹ã‚ã—)
+#å¼•æ•°ï¼’ ç”»åƒå
+#å¼•æ•°ï¼“ ç”»åƒã‚µã‚¤ã‚º
+#å¼•æ•°ï¼” åŠ¹æœéŸ³
+#å¼•æ•°ï¼• è½ã¨ã™å¯¾è±¡
+#å¼•æ•°ï¼– ç™ºå…‰
 
 Local i
 Local A2
@@ -38,7 +38,7 @@ Set G_S Args(3)
 _UnSetBattleAnimeValue
 Center _Get_X(Args(5)) _Get_Y(Args(5))
 
-If (Args(1) != ‘Å‚¿‰º‚ë‚µ) Then
+If (Args(1) != æ‰“ã¡ä¸‹ã‚ã—) Then
   Set ST_P (192 - G_S)
   Set Y_F -20
   Set ANG 270
@@ -56,7 +56,7 @@ Wait Start
 For i = 0 To 11
   ClearPicture
 
-  PaintPicture A2 - (ST_P + (Y_F * i)) G_S G_S “§‰ß ‰E‰ñ“] B_ANG _ColorTime(Args(6))
+  PaintPicture A2 - (ST_P + (Y_F * i)) G_S G_S é€é å³å›è»¢ B_ANG _ColorTime(Args(6))
 
   Refresh
   Wait Until (i * 0.5)
@@ -68,33 +68,33 @@ Return
 
 
 #/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_KOF_ƒtƒH[ƒ‹‰ü–½’†:
-## ‘Šèƒ†ƒjƒbƒg‚ğ’†S‚É•`‰æ‚·‚éB
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_ãƒ•ã‚©ãƒ¼ãƒ«æ”¹å‘½ä¸­:
+## ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆã‚’ä¸­å¿ƒã«æç”»ã™ã‚‹ã€‚
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Local C_X = WX(UID)
 Local C_Y = WY(UID)
 Local BMP_FILE = _GetBMPName(UID)
 Local BMP_FILE2 = _GetTileName(UID)
-Local BMP_FILE3 = _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local BMP_FILE4 = _GetTileName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local A_X = WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local A_Y = WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Local BMP_FILE3 = _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local BMP_FILE4 = _GetTileName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local A_X = WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local A_Y = WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Local i j
 
 Local CNT = _GetName(3,_GetNumberFromArgs())
 Local SPEED = 0.5
 Local T_COL = _ColorTime()
 
-If (_SearchOptionFromArgs("’x") != "") Then
+If (_SearchOptionFromArgs("é…") != "") Then
   Set SPEED 0.7
-ElseIf (_SearchOptionFromArgs("‘¬") != "") Then
+ElseIf (_SearchOptionFromArgs("é€Ÿ") != "") Then
   Set SPEED 0.3
 EndIf
 
 Wait Start
-ChangeUnitBitmap UID ”ñ•\¦
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
+ChangeUnitBitmap UID éè¡¨ç¤º
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤º
 For j = 1 To CNT
 
   PlaySound "Swing.wav"
@@ -106,38 +106,38 @@ For j = 1 To CNT
     Switch i
     Case 1
       Wait Start
-      PaintPicture BMP_FILE A_X (A_Y - 10) “§‰ß ‰E‰ñ“] -90 T_COL
-      PaintPicture BMP_FILE3 A_X (A_Y + 4) “§‰ß ‰E‰ñ“] -90 ¶‰E”½“] T_COL
+      PaintPicture BMP_FILE A_X (A_Y - 10) é€é å³å›è»¢ -90 T_COL
+      PaintPicture BMP_FILE3 A_X (A_Y + 4) é€é å³å›è»¢ -90 å·¦å³åè»¢ T_COL
       Refresh
       Wait Until (SPEED * 8)
     Case 2
       Wait Start
-      PaintPicture BMP_FILE A_X (A_Y - 11) “§‰ß ‰E‰ñ“] -90 T_COL
-      PaintPicture BMP_FILE3 A_X (A_Y + 5) “§‰ß ‰E‰ñ“] -90 ¶‰E”½“] T_COL
-      PaintPicture "Hit\EFFECT_HIT01.bmp" (A_X + 4) (A_Y + 16) 24 24 “§‰ß T_COL
+      PaintPicture BMP_FILE A_X (A_Y - 11) é€é å³å›è»¢ -90 T_COL
+      PaintPicture BMP_FILE3 A_X (A_Y + 5) é€é å³å›è»¢ -90 å·¦å³åè»¢ T_COL
+      PaintPicture "Hit\EFFECT_HIT01.bmp" (A_X + 4) (A_Y + 16) 24 24 é€é T_COL
       _SelectSound "BreakOff.wav" _GetWavFromArgs(Args(1),Args(2),Args(3),Args(4))
       Refresh
       Wait Until SPEED
     Case 3
       Wait Start
-      PaintPicture BMP_FILE A_X (A_Y - 8) “§‰ß ‰E‰ñ“] -90 T_COL
-      PaintPicture BMP_FILE3 A_X (A_Y + 3) “§‰ß ‰E‰ñ“] -90 ¶‰E”½“] T_COL
-      PaintPicture "Hit\EFFECT_HIT01.bmp" A_X (A_Y + 12) “§‰ß T_COL
+      PaintPicture BMP_FILE A_X (A_Y - 8) é€é å³å›è»¢ -90 T_COL
+      PaintPicture BMP_FILE3 A_X (A_Y + 3) é€é å³å›è»¢ -90 å·¦å³åè»¢ T_COL
+      PaintPicture "Hit\EFFECT_HIT01.bmp" A_X (A_Y + 12) é€é T_COL
       Refresh
       Wait Until SPEED
     EndSw
   Next
 Next
-ChangeUnitBitmap UID ”ñ•\¦‰ğœ
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦‰ğœ
+ChangeUnitBitmap UID éè¡¨ç¤ºè§£é™¤
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤ºè§£é™¤
 ClearPicture
 Refresh
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_KOF_‹­‘Å‰ü–½’†:
-## ‘Šè‚ÌŒã‚ë‚©‚ç‰£‚éB
-If (‘Šèƒ†ƒjƒbƒg‚h‚c = "") Then
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_å¼·æ‰“æ”¹å‘½ä¸­:
+## ç›¸æ‰‹ã®å¾Œã‚ã‹ã‚‰æ®´ã‚‹ã€‚
+If (ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ = "") Then
   Return
 EndIf
 
@@ -152,56 +152,56 @@ Local C_Y
 Local UID
 Local T_COL = _ColorTime()
 
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
-Set C_X WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set C_Y WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+Set C_X WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set C_Y WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
-Set BMP_FILE _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set BMP_FILE2 _GetTileName(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Set BMP_FILE _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set BMP_FILE2 _GetTileName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Set ANG _GetAngle(UID)
 Set ANG (ANG + 180)
-Set X_F _GetCircumference(ANG,‚w)
-Set Y_F _GetCircumference(ANG,‚x)
+Set X_F _GetCircumference(ANG,ï¼¸)
+Set Y_F _GetCircumference(ANG,ï¼¹)
 
 Wait Start
 _SelectSound_HR "BreakOff.wav" "Explode.wav" _GetWavFromArgs()
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤º
 
 For i = 1 To 4
   ClearPicture
   _PaintTile BMP_FILE2 C_X C_Y 
   Switch i
   Case 1
-    PaintPicture BMP_FILE C_X C_Y “§‰ß T_COL
-    PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 4) (C_Y + 4) 24 24 “§‰ß T_COL
+    PaintPicture BMP_FILE C_X C_Y é€é T_COL
+    PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 4) (C_Y + 4) 24 24 é€é T_COL
   Case 2
-    PaintPicture BMP_FILE (C_X + (X_F * 10)) (C_Y + (Y_F * 10)) “§‰ß T_COL
-    PaintPicture "Hit\EFFECT_HIT01.bmp" C_X C_Y “§‰ß T_COL
+    PaintPicture BMP_FILE (C_X + (X_F * 10)) (C_Y + (Y_F * 10)) é€é T_COL
+    PaintPicture "Hit\EFFECT_HIT01.bmp" C_X C_Y é€é T_COL
   Case 3
-    PaintPicture BMP_FILE (C_X + (X_F * 15)) (C_Y + (Y_F * 15)) “§‰ß T_COL
+    PaintPicture BMP_FILE (C_X + (X_F * 15)) (C_Y + (Y_F * 15)) é€é T_COL
   Case 4
-    PaintPicture BMP_FILE (C_X + (X_F * 18)) (C_Y + (Y_F * 18)) “§‰ß T_COL
+    PaintPicture BMP_FILE (C_X + (X_F * 18)) (C_Y + (Y_F * 18)) é€é T_COL
   EndSw
   Refresh
   Wait Until (i * 0.7)
 Next
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦‰ğœ
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤ºè§£é™¤
 ClearPicture
 Refresh
 Return
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_KOF_‘å‰ñ“]UŒ‚:
-í“¬ƒAƒjƒ_KOF_‘å‰ñ“]–½’†:
-# ‰ì˜T‚l‚n‚vƒtƒHƒ‹ƒ_‚©‚ç“]ÚA‰ü•ÏB
-#@wí“¬ƒAƒjƒ_ù•—–½’†x‰ü•Ï
-# ˆø”‚P@F
-# ˆø”‚Q@Œø‰Ê‰¹
-# ˆø”‚R  ”­Œõ
-# ˆø”‚S@c or ‹t‚³
-# ˆø”‚T@ƒ†ƒjƒbƒg‚h‚c
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_å¤§å›è»¢æ”»æ’ƒ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_å¤§å›è»¢å‘½ä¸­:
+# é¤“ç‹¼ï¼­ï¼¯ï¼·ãƒ•ã‚©ãƒ«ãƒ€ã‹ã‚‰è»¢è¼‰ã€æ”¹å¤‰ã€‚
+#ã€€ã€æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ—‹é¢¨å‘½ä¸­ã€æ”¹å¤‰
+# å¼•æ•°ï¼‘ã€€è‰²
+# å¼•æ•°ï¼’ã€€åŠ¹æœéŸ³
+# å¼•æ•°ï¼“  ç™ºå…‰
+# å¼•æ•°ï¼”ã€€ç¸¦ or é€†ã•
+# å¼•æ•°ï¼•ã€€ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 Local G_S
 Local B_C
@@ -217,18 +217,18 @@ Local UID
 
 
 
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Set C_X (_Get_WX(UID) - 16)
 Set C_Y (_Get_WY(UID) - 16)
-Set X_F _GetCircumference(ANG,‚w)
-Set Y_F _GetCircumference(ANG,‚x)
+Set X_F _GetCircumference(ANG,ï¼¸)
+Set Y_F _GetCircumference(ANG,ï¼¹)
 Set B_C _GetName("(White)",_GetBeamColor(_GetColorFromArgs()))
 
 
-If (_SearchOptionFromArgs("c") != "") Then
+If (_SearchOptionFromArgs("ç¸¦") != "") Then
   Set ANG 90
-ElseIf (_SearchOptionFromArgs("‹t") != "") Then
+ElseIf (_SearchOptionFromArgs("é€†") != "") Then
   Set ANG 270
 Else
   Set ANG 0
@@ -248,14 +248,14 @@ For i = 1 To 16
   ClearPicture
   Switch i
   Case 1
-    PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "01.bmp") C_X C_Y 64 64 “§‰ß ‰E‰ñ“] ANG _ColorTime(FL) 
+    PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "01.bmp") C_X C_Y 64 64 é€é å³å›è»¢ ANG _ColorTime(FL) 
   Case 15 16
-    PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (i - 10) & ".bmp") C_X C_Y 64 64 “§‰ß ‰E‰ñ“] ANG _ColorTime(FL) 
+    PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (i - 10) & ".bmp") C_X C_Y 64 64 é€é å³å›è»¢ ANG _ColorTime(FL) 
   Case Else
     If (Random(2) = 1) Then
-      PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (Random(3) + 1) & ".bmp") C_X C_Y 64 64 “§‰ß ‰E‰ñ“] ANG _ColorTime(FL) 
+      PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (Random(3) + 1) & ".bmp") C_X C_Y 64 64 é€é å³å›è»¢ ANG _ColorTime(FL) 
     Else
-      PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (Random(3) + 1) & ".bmp") C_X C_Y 64 64 “§‰ß ‰E‰ñ“] ANG ã‰º”½“] _ColorTime(FL) 
+      PaintPicture ("Spin\EFFECT_WhirlWind" & B_C & "0" & (Random(3) + 1) & ".bmp") C_X C_Y 64 64 é€é å³å›è»¢ ANG ä¸Šä¸‹åè»¢ _ColorTime(FL) 
     EndIf
   EndSw
   Refresh
@@ -266,19 +266,19 @@ Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_KOF_ƒoƒbƒNƒWƒƒƒ“ƒv€”õ:
-í“¬ƒAƒjƒ_KOF_ƒoƒbƒNƒWƒƒƒ“ƒvUŒ‚:
-í“¬ƒAƒjƒ_KOF_ƒoƒbƒNƒWƒƒƒ“ƒv–½’†:
-# ƒXƒgƒŠ[ƒgƒtƒ@ƒCƒ^[ƒtƒHƒ‹ƒ_‚©‚ç“]ÚB”í‚è–h~‚Ì‚½‚ßA¯•Êq‚Ì‚İ•ÏX‚µ‚Ä‚¢‚Ü‚·
-# ‘¼ˆø”‚ÍuƒWƒƒƒ“ƒvv‚É€‚¶‚é
-# ˆø” ‚’¼ ‚Å‚’¼ƒWƒƒƒ“ƒv ³ ‚Å‘O•ûƒWƒƒƒ“ƒv
-# ˆø” ‘¬ ’x
-# ˆø” ã‰º”½“]
-# ˆø” ‰ñ“] or ¸—´
-# ˆø” ù‰ñ‰¹
-# ˆø” ƒAƒbƒp[ or U‚è‰º‚ë‚µ
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_ãƒãƒƒã‚¯ã‚¸ãƒ£ãƒ³ãƒ—æº–å‚™:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_ãƒãƒƒã‚¯ã‚¸ãƒ£ãƒ³ãƒ—æ”»æ’ƒ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_ãƒãƒƒã‚¯ã‚¸ãƒ£ãƒ³ãƒ—å‘½ä¸­:
+# ã‚¹ãƒˆãƒªãƒ¼ãƒˆãƒ•ã‚¡ã‚¤ã‚¿ãƒ¼ãƒ•ã‚©ãƒ«ãƒ€ã‹ã‚‰è»¢è¼‰ã€‚è¢«ã‚Šé˜²æ­¢ã®ãŸã‚ã€è­˜åˆ¥å­ã®ã¿å¤‰æ›´ã—ã¦ã„ã¾ã™
+# ä»–å¼•æ•°ã¯ã€Œã‚¸ãƒ£ãƒ³ãƒ—ã€ã«æº–ã˜ã‚‹
+# å¼•æ•° å‚ç›´ ã§å‚ç›´ã‚¸ãƒ£ãƒ³ãƒ— æ­£ ã§å‰æ–¹ã‚¸ãƒ£ãƒ³ãƒ—
+# å¼•æ•° é€Ÿ é…
+# å¼•æ•° ä¸Šä¸‹åè»¢
+# å¼•æ•° å›è»¢ or æ˜‡é¾
+# å¼•æ•° æ—‹å›éŸ³
+# å¼•æ•° ã‚¢ãƒƒãƒ‘ãƒ¼ or æŒ¯ã‚Šä¸‹ã‚ã—
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Local C_X = WX(UID)
 Local C_Y = WY(UID)
@@ -302,13 +302,13 @@ Local UPE
 _UnSetBattleAnimeValue
 
   Set L_NUM 5
-  Set X_F _GetCircumference(ANG,‚w)
+  Set X_F _GetCircumference(ANG,ï¼¸)
   Set Y_F 1
 
-If (X(UID) < _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
-  Set DRCT ¶‰E”½“]
-  Set DRCT2 ¶‰E”½“]
-  Set DRCT3 ¶‰E”½“]
+If (X(UID) < _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
+  Set DRCT å·¦å³åè»¢
+  Set DRCT2 å·¦å³åè»¢
+  Set DRCT3 å·¦å³åè»¢
   Set ANG 270
 Else
   Set DRCT ""
@@ -317,58 +317,58 @@ Else
   Set ANG 90
 EndIf
 
-If (_SearchOptionFromArgs("‚’¼") != "") Then
+If (_SearchOptionFromArgs("å‚ç›´") != "") Then
   Set X_F 0
 EndIf
 
 Set W_T 1
-If (_SearchOptionFromArgs("‘¬") != "") Then
+If (_SearchOptionFromArgs("é€Ÿ") != "") Then
   Set W_T 0.5
-ElseIf (_SearchOptionFromArgs("’x") != "") Then
+ElseIf (_SearchOptionFromArgs("é…") != "") Then
   Set W_T 1.5
 EndIf
 
 Set UDR ""
-If (_SearchOptionFromArgs("ã‰º”½“]") != "") Then
-  Set UDR ã‰º”½“]
+If (_SearchOptionFromArgs("ä¸Šä¸‹åè»¢") != "") Then
+  Set UDR ä¸Šä¸‹åè»¢
 EndIf
 
 Set FJ 1
-If (_SearchOptionFromArgs("³") != "") Then
+If (_SearchOptionFromArgs("æ­£") != "") Then
   Set FJ -1
 EndIf
 
-If (_SearchOptionFromArgs("‰ñ“]") != "") Then
-  If DRCT2 = ¶‰E”½“] Then
+If (_SearchOptionFromArgs("å›è»¢") != "") Then
+  If DRCT2 = å·¦å³åè»¢ Then
   	  Set DRCT2 ""
   	  Set DRCT3 ""
   Else
-  	  Set DRCT2 ¶‰E”½“]
-  	  Set DRCT3 ¶‰E”½“]
+  	  Set DRCT2 å·¦å³åè»¢
+  	  Set DRCT3 å·¦å³åè»¢
   EndIf
 EndIf
 
-If (_SearchOptionFromArgs("¸—´") != "") Then
-  If DRCT3 = ¶‰E”½“] Then
+If (_SearchOptionFromArgs("æ˜‡é¾") != "") Then
+  If DRCT3 = å·¦å³åè»¢ Then
   	  Set DRCT3 ""
   Else
-  	  Set DRCT3 ¶‰E”½“]
+  	  Set DRCT3 å·¦å³åè»¢
   EndIf
 EndIf
 
-# ƒAƒbƒp[EU‚è‰º‚ë‚µƒGƒtƒFƒNƒgw’è
+# ã‚¢ãƒƒãƒ‘ãƒ¼ãƒ»æŒ¯ã‚Šä¸‹ã‚ã—ã‚¨ãƒ•ã‚§ã‚¯ãƒˆæŒ‡å®š
 Set BMP_FILE3 "-"
 Set UPE ""
-If (_SearchOptionFromArgs("ƒAƒbƒp[") != "") Then
+If (_SearchOptionFromArgs("ã‚¢ãƒƒãƒ‘ãƒ¼") != "") Then
   Set BMP_FILE3 "Attack\EFFECT_Swing0"
-  Set UPE ã‰º”½“]
-ElseIf (_SearchOptionFromArgs("U‚è‰º‚ë‚µ") != "") Then
+  Set UPE ä¸Šä¸‹åè»¢
+ElseIf (_SearchOptionFromArgs("æŒ¯ã‚Šä¸‹ã‚ã—") != "") Then
   Set BMP_FILE3 "Attack\EFFECT_Swing0"
 EndIf
 
 Wait Start
 
-ChangeUnitBitmap UID ”ñ•\¦
+ChangeUnitBitmap UID éè¡¨ç¤º
 
 For i = 1 To L_NUM
   ClearPicture
@@ -376,28 +376,28 @@ For i = 1 To L_NUM
 
   Switch i
   Case 1
-      PaintPicture BMP_FILE (C_X + (X_F * 12 * FJ)) C_Y “§‰ß DRCT2 UDR _ColorTime()
-      PaintPicture (BMP_FILE3 & "1.bmp") (C_X + (X_F * 12 * FJ)) C_Y “§‰ß DRCT UPE _ColorTime()
+      PaintPicture BMP_FILE (C_X + (X_F * 12 * FJ)) C_Y é€é DRCT2 UDR _ColorTime()
+      PaintPicture (BMP_FILE3 & "1.bmp") (C_X + (X_F * 12 * FJ)) C_Y é€é DRCT UPE _ColorTime()
   Case 2
-      PaintPicture BMP_FILE (C_X + (X_F * 8 * FJ)) (C_Y + (Y_F * -4))  “§‰ß DRCT UDR _ColorTime()
-      PaintPicture (BMP_FILE3 & "2.bmp") (C_X + (X_F * 8 * FJ)) (C_Y + (Y_F * -4)) “§‰ß DRCT UPE _ColorTime()
+      PaintPicture BMP_FILE (C_X + (X_F * 8 * FJ)) (C_Y + (Y_F * -4))  é€é DRCT UDR _ColorTime()
+      PaintPicture (BMP_FILE3 & "2.bmp") (C_X + (X_F * 8 * FJ)) (C_Y + (Y_F * -4)) é€é DRCT UPE _ColorTime()
   Case 3
     _SelectSound "Swing.wav" _GetWavFromArgs()
-      PaintPicture BMP_FILE (C_X + (X_F * 4 * FJ)) (C_Y + (Y_F * -12)) “§‰ß DRCT2 UDR _ColorTime()
-      PaintPicture (BMP_FILE3 & "3.bmp") (C_X + (X_F * 4 * FJ)) (C_Y + (Y_F * -12)) “§‰ß DRCT UPE _ColorTime()
+      PaintPicture BMP_FILE (C_X + (X_F * 4 * FJ)) (C_Y + (Y_F * -12)) é€é DRCT2 UDR _ColorTime()
+      PaintPicture (BMP_FILE3 & "3.bmp") (C_X + (X_F * 4 * FJ)) (C_Y + (Y_F * -12)) é€é DRCT UPE _ColorTime()
   Case 4
-      PaintPicture BMP_FILE C_X (C_Y + (Y_F * -16)) “§‰ß DRCT UDR _ColorTime()
-      PaintPicture (BMP_FILE3 & "4.bmp") C_X (C_Y + (Y_F * -16)) “§‰ß DRCT UPE _ColorTime()
+      PaintPicture BMP_FILE C_X (C_Y + (Y_F * -16)) é€é DRCT UDR _ColorTime()
+      PaintPicture (BMP_FILE3 & "4.bmp") C_X (C_Y + (Y_F * -16)) é€é DRCT UPE _ColorTime()
   Case 5
-      PaintPicture BMP_FILE (C_X + (X_F * -8 * FJ)) (C_Y + (Y_F * -8)) “§‰ß DRCT3 UDR _ColorTime()
-      PaintPicture (BMP_FILE3 & "4.bmp") (C_X + (X_F * -8 * FJ)) (C_Y + (Y_F * -8)) “§‰ß DRCT UPE _ColorTime()
+      PaintPicture BMP_FILE (C_X + (X_F * -8 * FJ)) (C_Y + (Y_F * -8)) é€é DRCT3 UDR _ColorTime()
+      PaintPicture (BMP_FILE3 & "4.bmp") (C_X + (X_F * -8 * FJ)) (C_Y + (Y_F * -8)) é€é DRCT UPE _ColorTime()
   EndSw
   Refresh
   
 	Incr R_S 1
   
 	If R_S = 1 Then
-  		If (_SearchOptionFromArgs("ù‰ñ‰¹") != "") Then
+  		If (_SearchOptionFromArgs("æ—‹å›éŸ³") != "") Then
   			_SelectSound "Swing.wav" _GetWavFromArgs()
   			Set R_S -1
   		EndIf
@@ -409,24 +409,24 @@ Wait Until (((L_NUM * 0.9) + 0.4) * W_T)
 
   _SetAnimeData_UnitPoint (X_F * 8) (Y_F * 8) 0 DRCT "" "" UID
 
-ChangeUnitBitmap UID ”ñ•\¦‰ğœ
+ChangeUnitBitmap UID éè¡¨ç¤ºè§£é™¤
 
 Return "Keep"
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_KOF_”wŒü‚¯€”õ:
-í“¬ƒAƒjƒ_KOF_”wŒü‚¯UŒ‚:
-í“¬ƒAƒjƒ_KOF_”wŒü‚¯–½’†:
-# ƒXƒgƒŠ[ƒgƒtƒ@ƒCƒ^[ƒtƒHƒ‹ƒ_‚©‚ç“]ÚB”í‚è–h~‚Ì‚½‚ßA¯•Êq‚Ì‚İ•ÏX‚µ‚Ä‚¢‚Ü‚·
-# ˆø” ”w‚ğŒü‚¯‚Ä‚¢‚éŠÔ(•K{)
-# ˆø” Œø‰Ê‰¹
-# ˆø” ƒ†ƒjƒbƒg‚h‚c
-# ˆø” “|‚ê
-# ˆø” ã‰º”½“]
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_èƒŒå‘ã‘æº–å‚™:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_èƒŒå‘ã‘æ”»æ’ƒ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_èƒŒå‘ã‘å‘½ä¸­:
+# ã‚¹ãƒˆãƒªãƒ¼ãƒˆãƒ•ã‚¡ã‚¤ã‚¿ãƒ¼ãƒ•ã‚©ãƒ«ãƒ€ã‹ã‚‰è»¢è¼‰ã€‚è¢«ã‚Šé˜²æ­¢ã®ãŸã‚ã€è­˜åˆ¥å­ã®ã¿å¤‰æ›´ã—ã¦ã„ã¾ã™
+# å¼•æ•° èƒŒã‚’å‘ã‘ã¦ã„ã‚‹æ™‚é–“(å¿…é ˆ)
+# å¼•æ•° åŠ¹æœéŸ³
+# å¼•æ•° ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+# å¼•æ•° å€’ã‚Œ
+# å¼•æ•° ä¸Šä¸‹åè»¢
 
 Local UID
-UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 
 _CenteringCheck UID
 Local C_X = _Get_WX(UID)
@@ -439,13 +439,13 @@ Local UDR
 
 
 Local ANGL = 0
-If (_SearchOptionFromArgs("“|‚ê") != "") Then
+If (_SearchOptionFromArgs("å€’ã‚Œ") != "") Then
   Set ANGL 90
 EndIf
 
 Set UDR ""
-If (_SearchOptionFromArgs("ã‰º”½“]") != "") Then
-  Set UDR ã‰º”½“]
+If (_SearchOptionFromArgs("ä¸Šä¸‹åè»¢") != "") Then
+  Set UDR ä¸Šä¸‹åè»¢
 EndIf
 
 Set W_T _GetNumberFromArgs()
@@ -454,7 +454,7 @@ _SelectSound "Swing.wav" _GetWavFromArgs()
 
 ClearPicture
   _PaintTile BMP_FILE2 C_X C_Y
-  PaintPicture BMP_FILE C_X C_Y “§‰ß ¶‰ñ“] ANGL ¶‰E”½“] UDR
+  PaintPicture BMP_FILE C_X C_Y é€é å·¦å›è»¢ ANGL å·¦å³åè»¢ UDR
 Refresh
 Wait W_T
 ClearPicture
@@ -463,10 +463,10 @@ Refresh
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_KOF_ƒX[ƒvƒŒƒbƒNƒX–½’†:
-# ‰ì˜T“`àƒtƒHƒ‹ƒ_‚©‚ç“]ÚB”í‚è–h~‚Ì‚½‚ßA¯•Êq‚Ì‚İ•ÏX‚µ‚Ä‚¢‚Ü‚·B
-#@wí“¬ƒAƒjƒ_ƒuƒŒ[ƒ“ƒoƒXƒ^[x‰ü•Ï
-#@ˆø”FŒø‰Ê‰¹
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_ã‚¹ãƒ¼ãƒ—ãƒ¬ãƒƒã‚¯ã‚¹å‘½ä¸­:
+# é¤“ç‹¼ä¼èª¬ãƒ•ã‚©ãƒ«ãƒ€ã‹ã‚‰è»¢è¼‰ã€‚è¢«ã‚Šé˜²æ­¢ã®ãŸã‚ã€è­˜åˆ¥å­ã®ã¿å¤‰æ›´ã—ã¦ã„ã¾ã™ã€‚
+#ã€€ã€æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ–ãƒ¬ãƒ¼ãƒ³ãƒã‚¹ã‚¿ãƒ¼ã€æ”¹å¤‰
+#ã€€å¼•æ•°ï¼šåŠ¹æœéŸ³
 
 Local i
 Local BMP_FILE
@@ -478,27 +478,27 @@ Local A_Y
 Local C_X
 Local C_Y
 Local UID
-Set UID ‘ÎÛƒ†ƒjƒbƒg‚h‚c
+Set UID å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 Center UID
 Set C_X WX(UID)
 Set C_Y WY(UID)
 
 Set BMP_FILE _GetBMPName(UID)
 Set BMP_FILE2 _GetTileName(UID)
-Set BMP_FILE3 _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set BMP_FILE4 _GetTileName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set A_X WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set A_Y WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Set BMP_FILE3 _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set BMP_FILE4 _GetTileName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set A_X WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set A_Y WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
 Wait Start
 
 PlaySound "Swing.wav"
 
 If (BMP_FILE2 = "") Then
-  ChangeUnitBitmap UID ”ñ•\¦
+  ChangeUnitBitmap UID éè¡¨ç¤º
 EndIf
 If (BMP_FILE4 = "") Then
-  ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
+  ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤º
 EndIf
 For i = 1 To 7
   ClearPicture
@@ -510,51 +510,51 @@ For i = 1 To 7
   EndIf
   Switch i
   Case 1
-    PaintPicture BMP_FILE C_X C_Y “§‰ß _ColorTime()
-    PaintPicture BMP_FILE3 C_X (C_Y - 16) “§‰ß _ColorTime()
+    PaintPicture BMP_FILE C_X C_Y é€é _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 16) é€é _ColorTime()
   Case 2
-    PaintPicture BMP_FILE C_X C_Y “§‰ß _ColorTime()
-    PaintPicture BMP_FILE3 C_X (C_Y - 16) “§‰ß ‰E‰ñ“] 90 _ColorTime()
+    PaintPicture BMP_FILE C_X C_Y é€é _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 16) é€é å³å›è»¢ 90 _ColorTime()
   Case 3
-    PaintPicture BMP_FILE C_X C_Y “§‰ß ‰E‰ñ“] 90 _ColorTime()
-    PaintPicture BMP_FILE3 C_X (C_Y - 32) “§‰ß ‰E‰ñ“] 90 _ColorTime()
+    PaintPicture BMP_FILE C_X C_Y é€é å³å›è»¢ 90 _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 32) é€é å³å›è»¢ 90 _ColorTime()
   Case 4
-    PaintPicture BMP_FILE C_X C_Y “§‰ß ã‰º”½“] ¶‰ñ“] 45 _ColorTime()
-    PaintPicture BMP_FILE3 (C_X + 18) (C_Y - 18) “§‰ß ã‰º”½“] ¶‰ñ“] 45 _ColorTime()
+    PaintPicture BMP_FILE C_X C_Y é€é ä¸Šä¸‹åè»¢ å·¦å›è»¢ 45 _ColorTime()
+    PaintPicture BMP_FILE3 (C_X + 18) (C_Y - 18) é€é ä¸Šä¸‹åè»¢ å·¦å›è»¢ 45 _ColorTime()
   Case 5
-    PaintPicture BMP_FILE C_X C_Y “§‰ß ã‰º”½“] _ColorTime()
-    PaintPicture BMP_FILE3 (C_X + 22) C_Y “§‰ß ã‰º”½“] _ColorTime()
-    PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 26) (C_Y + 4) 24 24 “§‰ß ã‰º”½“] _ColorTime()
+    PaintPicture BMP_FILE C_X C_Y é€é ä¸Šä¸‹åè»¢ _ColorTime()
+    PaintPicture BMP_FILE3 (C_X + 22) C_Y é€é ä¸Šä¸‹åè»¢ _ColorTime()
+    PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 26) (C_Y + 4) 24 24 é€é ä¸Šä¸‹åè»¢ _ColorTime()
     _SelectSound_HR "FallDown.wav" "Shock(Low).wav" _GetWavFromArgs()
   Case 6
-    PaintPicture BMP_FILE C_X C_Y “§‰ß ã‰º”½“] _ColorTime()
-    PaintPicture BMP_FILE3 (C_X + 22) (C_Y - 8) “§‰ß ã‰º”½“] _ColorTime()
-    PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 22) C_Y “§‰ß ã‰º”½“] _ColorTime()
+    PaintPicture BMP_FILE C_X C_Y é€é ä¸Šä¸‹åè»¢ _ColorTime()
+    PaintPicture BMP_FILE3 (C_X + 22) (C_Y - 8) é€é ä¸Šä¸‹åè»¢ _ColorTime()
+    PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 22) C_Y é€é ä¸Šä¸‹åè»¢ _ColorTime()
   Case 7
-    PaintPicture BMP_FILE C_X C_Y “§‰ß ã‰º”½“] _ColorTime()
-    PaintPicture BMP_FILE3 (C_X + 22) (C_Y - 4) “§‰ß ã‰º”½“] _ColorTime()
+    PaintPicture BMP_FILE C_X C_Y é€é ä¸Šä¸‹åè»¢ _ColorTime()
+    PaintPicture BMP_FILE3 (C_X + 22) (C_Y - 4) é€é ä¸Šä¸‹åè»¢ _ColorTime()
   Case 8
-    PaintPicture BMP_FILE C_X C_Y “§‰ß ã‰º”½“] _ColorTime()
-    PaintPicture BMP_FILE3 (C_X + 22) C_Y “§‰ß ã‰º”½“] _ColorTime()
+    PaintPicture BMP_FILE C_X C_Y é€é ä¸Šä¸‹åè»¢ _ColorTime()
+    PaintPicture BMP_FILE3 (C_X + 22) C_Y é€é ä¸Šä¸‹åè»¢ _ColorTime()
   EndSw
   Refresh
   Wait Until (i * 0.7)
 Next
 
 If (BMP_FILE2 = "") Then
-  ChangeUnitBitmap UID ”ñ•\¦‰ğœ
+  ChangeUnitBitmap UID éè¡¨ç¤ºè§£é™¤
 EndIf
 If (BMP_FILE4 = "") Then
-  ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦‰ğœ
+  ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤ºè§£é™¤
 EndIf
 ClearPicture
 Refresh
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_KOF_ƒX[ƒvƒŒƒbƒNƒX‰ü–½’†:
-# ‘Šèƒ†ƒjƒbƒg‚ÌÀ•W‚ğ’†S‚É•`‰æ‚·‚é‚æ‚¤‚É‰ü•Ï
-#@ˆø”FŒø‰Ê‰¹
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_ã‚¹ãƒ¼ãƒ—ãƒ¬ãƒƒã‚¯ã‚¹æ”¹å‘½ä¸­:
+# ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆã®åº§æ¨™ã‚’ä¸­å¿ƒã«æç”»ã™ã‚‹ã‚ˆã†ã«æ”¹å¤‰
+#ã€€å¼•æ•°ï¼šåŠ¹æœéŸ³
 
 Local i
 Local BMP_FILE
@@ -566,27 +566,27 @@ Local A_Y
 Local C_X
 Local C_Y
 Local UID
-Set UID ‘ÎÛƒ†ƒjƒbƒg‚h‚c
+Set UID å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 Center UID
 Set C_X WX(UID)
 Set C_Y WY(UID)
 
 Set BMP_FILE _GetBMPName(UID)
 Set BMP_FILE2 _GetTileName(UID)
-Set BMP_FILE3 _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set BMP_FILE4 _GetTileName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set A_X WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set A_Y WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Set BMP_FILE3 _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set BMP_FILE4 _GetTileName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set A_X WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set A_Y WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
 Wait Start
 
 PlaySound "Swing.wav"
 
 If (BMP_FILE2 = "") Then
-  ChangeUnitBitmap UID ”ñ•\¦
+  ChangeUnitBitmap UID éè¡¨ç¤º
 EndIf
 If (BMP_FILE4 = "") Then
-  ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
+  ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤º
 EndIf
 For i = 1 To 7
   ClearPicture
@@ -598,42 +598,42 @@ For i = 1 To 7
   EndIf
   Switch i
   Case 1
-    PaintPicture BMP_FILE A_X A_Y “§‰ß _ColorTime()
-    PaintPicture BMP_FILE3 A_X (A_Y - 16) “§‰ß _ColorTime()
+    PaintPicture BMP_FILE A_X A_Y é€é _ColorTime()
+    PaintPicture BMP_FILE3 A_X (A_Y - 16) é€é _ColorTime()
   Case 2
-    PaintPicture BMP_FILE A_X A_Y “§‰ß _ColorTime()
-    PaintPicture BMP_FILE3 A_X (A_Y - 16) “§‰ß ‰E‰ñ“] 90 _ColorTime()
+    PaintPicture BMP_FILE A_X A_Y é€é _ColorTime()
+    PaintPicture BMP_FILE3 A_X (A_Y - 16) é€é å³å›è»¢ 90 _ColorTime()
   Case 3
-    PaintPicture BMP_FILE A_X A_Y “§‰ß ‰E‰ñ“] 90 _ColorTime()
-    PaintPicture BMP_FILE3 A_X (A_Y - 32) “§‰ß ‰E‰ñ“] 90 _ColorTime()
+    PaintPicture BMP_FILE A_X A_Y é€é å³å›è»¢ 90 _ColorTime()
+    PaintPicture BMP_FILE3 A_X (A_Y - 32) é€é å³å›è»¢ 90 _ColorTime()
   Case 4
-    PaintPicture BMP_FILE A_X A_Y “§‰ß ã‰º”½“] ¶‰ñ“] 45 _ColorTime()
-    PaintPicture BMP_FILE3 (A_X + 18) (A_Y - 18) “§‰ß ã‰º”½“] ¶‰ñ“] 45 _ColorTime()
+    PaintPicture BMP_FILE A_X A_Y é€é ä¸Šä¸‹åè»¢ å·¦å›è»¢ 45 _ColorTime()
+    PaintPicture BMP_FILE3 (A_X + 18) (A_Y - 18) é€é ä¸Šä¸‹åè»¢ å·¦å›è»¢ 45 _ColorTime()
   Case 5
-    PaintPicture BMP_FILE A_X A_Y “§‰ß ã‰º”½“] _ColorTime()
-    PaintPicture BMP_FILE3 (A_X + 22) A_Y “§‰ß ã‰º”½“] _ColorTime()
-    PaintPicture "Hit\EFFECT_HIT01.bmp" (A_X + 26) (A_Y + 4) 24 24 “§‰ß ã‰º”½“] _ColorTime()
+    PaintPicture BMP_FILE A_X A_Y é€é ä¸Šä¸‹åè»¢ _ColorTime()
+    PaintPicture BMP_FILE3 (A_X + 22) A_Y é€é ä¸Šä¸‹åè»¢ _ColorTime()
+    PaintPicture "Hit\EFFECT_HIT01.bmp" (A_X + 26) (A_Y + 4) 24 24 é€é ä¸Šä¸‹åè»¢ _ColorTime()
     _SelectSound_HR "FallDown.wav" "Shock(Low).wav" _GetWavFromArgs()
   Case 6
-    PaintPicture BMP_FILE A_X A_Y “§‰ß ã‰º”½“] _ColorTime()
-    PaintPicture BMP_FILE3 (A_X + 22) (A_Y - 8) “§‰ß ã‰º”½“] _ColorTime()
-    PaintPicture "Hit\EFFECT_HIT01.bmp" (A_X + 22) A_Y “§‰ß ã‰º”½“] _ColorTime()
+    PaintPicture BMP_FILE A_X A_Y é€é ä¸Šä¸‹åè»¢ _ColorTime()
+    PaintPicture BMP_FILE3 (A_X + 22) (A_Y - 8) é€é ä¸Šä¸‹åè»¢ _ColorTime()
+    PaintPicture "Hit\EFFECT_HIT01.bmp" (A_X + 22) A_Y é€é ä¸Šä¸‹åè»¢ _ColorTime()
   Case 7
-    PaintPicture BMP_FILE A_X A_Y “§‰ß ã‰º”½“] _ColorTime()
-    PaintPicture BMP_FILE3 (A_X + 22) (A_Y - 4) “§‰ß ã‰º”½“] _ColorTime()
+    PaintPicture BMP_FILE A_X A_Y é€é ä¸Šä¸‹åè»¢ _ColorTime()
+    PaintPicture BMP_FILE3 (A_X + 22) (A_Y - 4) é€é ä¸Šä¸‹åè»¢ _ColorTime()
   Case 8
-    PaintPicture BMP_FILE A_X A_Y “§‰ß ã‰º”½“] _ColorTime()
-    PaintPicture BMP_FILE3 (A_X + 22) A_Y “§‰ß ã‰º”½“] _ColorTime()
+    PaintPicture BMP_FILE A_X A_Y é€é ä¸Šä¸‹åè»¢ _ColorTime()
+    PaintPicture BMP_FILE3 (A_X + 22) A_Y é€é ä¸Šä¸‹åè»¢ _ColorTime()
   EndSw
   Refresh
   Wait Until (i * 0.7)
 Next
 
 If (BMP_FILE2 = "") Then
-  ChangeUnitBitmap UID ”ñ•\¦‰ğœ
+  ChangeUnitBitmap UID éè¡¨ç¤ºè§£é™¤
 EndIf
 If (BMP_FILE4 = "") Then
-  ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦‰ğœ
+  ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤ºè§£é™¤
 EndIf
 ClearPicture
 Refresh
@@ -641,19 +641,19 @@ Return
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_KOF_ƒuƒŒ[ƒ“ƒoƒXƒ^[‰ü–½’†:
-# ‘Šèƒ†ƒjƒbƒg‚ÌÀ•W‚ğ’†S‚É•`‰æ‚·‚é‚æ‚¤‚É‰ü•Ï
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_ãƒ–ãƒ¬ãƒ¼ãƒ³ãƒã‚¹ã‚¿ãƒ¼æ”¹å‘½ä¸­:
+# ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆã®åº§æ¨™ã‚’ä¸­å¿ƒã«æç”»ã™ã‚‹ã‚ˆã†ã«æ”¹å¤‰
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 Center UID
 Local C_X = WX(UID)
 Local C_Y = WY(UID)
 Local BMP_FILE = _GetBMPName(UID)
 Local BMP_FILE2 = _GetTileName(UID)
-Local BMP_FILE3 = _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local BMP_FILE4 = _GetTileName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local A_X = WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local A_Y = WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Local BMP_FILE3 = _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local BMP_FILE4 = _GetTileName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local A_X = WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local A_Y = WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Local i
 Local T_COL = _ColorTime()
 
@@ -661,8 +661,8 @@ Wait Start
 
 PlaySound "Swing.wav"
 
-ChangeUnitBitmap UID ”ñ•\¦
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
+ChangeUnitBitmap UID éè¡¨ç¤º
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤º
 
 For i = 1 To 7
   ClearPicture
@@ -670,39 +670,39 @@ For i = 1 To 7
   _PaintTile BMP_FILE4 A_X A_Y
   Switch i
   Case 1
-    PaintPicture BMP_FILE A_X A_Y “§‰ß T_COL
-    PaintPicture BMP_FILE3 A_X (A_Y - 16) “§‰ß T_COL
+    PaintPicture BMP_FILE A_X A_Y é€é T_COL
+    PaintPicture BMP_FILE3 A_X (A_Y - 16) é€é T_COL
   Case 2
-    PaintPicture BMP_FILE A_X A_Y “§‰ß T_COL
-    PaintPicture BMP_FILE3 A_X (A_Y - 16) “§‰ß ã‰º”½“] T_COL
+    PaintPicture BMP_FILE A_X A_Y é€é T_COL
+    PaintPicture BMP_FILE3 A_X (A_Y - 16) é€é ä¸Šä¸‹åè»¢ T_COL
   Case 3
-    PaintPicture BMP_FILE A_X A_Y “§‰ß T_COL
-    PaintPicture BMP_FILE3 A_X (A_Y - 32) “§‰ß ã‰º”½“] T_COL
+    PaintPicture BMP_FILE A_X A_Y é€é T_COL
+    PaintPicture BMP_FILE3 A_X (A_Y - 32) é€é ä¸Šä¸‹åè»¢ T_COL
   Case 4
-    PaintPicture BMP_FILE A_X A_Y “§‰ß ‰E‰ñ“] 45 T_COL
-    PaintPicture BMP_FILE3 (A_X + 22) (A_Y - 22) “§‰ß ã‰º”½“] ‰E‰ñ“] 45 T_COL
+    PaintPicture BMP_FILE A_X A_Y é€é å³å›è»¢ 45 T_COL
+    PaintPicture BMP_FILE3 (A_X + 22) (A_Y - 22) é€é ä¸Šä¸‹åè»¢ å³å›è»¢ 45 T_COL
   Case 5
-    PaintPicture BMP_FILE A_X A_Y “§‰ß ‰E‰ñ“] 90 T_COL
-    PaintPicture BMP_FILE3 (A_X + 32) A_Y “§‰ß ã‰º”½“] ‰E‰ñ“] 90 T_COL
-    PaintPicture "Hit\EFFECT_HIT01.bmp" (A_X + 36) (A_Y + 4) 24 24 “§‰ß ã‰º”½“] ‰E‰ñ“] 90 T_COL
+    PaintPicture BMP_FILE A_X A_Y é€é å³å›è»¢ 90 T_COL
+    PaintPicture BMP_FILE3 (A_X + 32) A_Y é€é ä¸Šä¸‹åè»¢ å³å›è»¢ 90 T_COL
+    PaintPicture "Hit\EFFECT_HIT01.bmp" (A_X + 36) (A_Y + 4) 24 24 é€é ä¸Šä¸‹åè»¢ å³å›è»¢ 90 T_COL
     _SelectSound_HR "FallDown.wav" "Shock(Low).wav" _GetWavFromArgs()
   Case 6
-    PaintPicture BMP_FILE A_X A_Y “§‰ß ‰E‰ñ“] 90 T_COL
-    PaintPicture BMP_FILE3 (A_X + 32) (A_Y - 8) “§‰ß ã‰º”½“] ‰E‰ñ“] 90 T_COL
-    PaintPicture "Hit\EFFECT_HIT01.bmp" (A_X + 32) A_Y “§‰ß ã‰º”½“] ‰E‰ñ“] 90 T_COL
+    PaintPicture BMP_FILE A_X A_Y é€é å³å›è»¢ 90 T_COL
+    PaintPicture BMP_FILE3 (A_X + 32) (A_Y - 8) é€é ä¸Šä¸‹åè»¢ å³å›è»¢ 90 T_COL
+    PaintPicture "Hit\EFFECT_HIT01.bmp" (A_X + 32) A_Y é€é ä¸Šä¸‹åè»¢ å³å›è»¢ 90 T_COL
   Case 7
-    PaintPicture BMP_FILE A_X A_Y “§‰ß ‰E‰ñ“] 90 T_COL
-    PaintPicture BMP_FILE3 (A_X + 32) (A_Y - 4) “§‰ß ã‰º”½“] ‰E‰ñ“] 90 T_COL
+    PaintPicture BMP_FILE A_X A_Y é€é å³å›è»¢ 90 T_COL
+    PaintPicture BMP_FILE3 (A_X + 32) (A_Y - 4) é€é ä¸Šä¸‹åè»¢ å³å›è»¢ 90 T_COL
   Case 8
-    PaintPicture BMP_FILE A_X A_Y “§‰ß ‰E‰ñ“] 90 T_COL
-    PaintPicture BMP_FILE3 (A_X + 32) A_Y “§‰ß ã‰º”½“] ‰E‰ñ“] 90 T_COL
+    PaintPicture BMP_FILE A_X A_Y é€é å³å›è»¢ 90 T_COL
+    PaintPicture BMP_FILE3 (A_X + 32) A_Y é€é ä¸Šä¸‹åè»¢ å³å›è»¢ 90 T_COL
   EndSw
   Refresh
   Wait Until (i * 0.7)
 Next
 
-ChangeUnitBitmap UID ”ñ•\¦‰ğœ
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦‰ğœ
+ChangeUnitBitmap UID éè¡¨ç¤ºè§£é™¤
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤ºè§£é™¤
 
 ClearPicture
 Refresh
@@ -710,8 +710,8 @@ Return
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_KOF_ƒWƒƒƒ“ƒvƒoƒXƒ^[‰ü–½’†:
-# ‘Šèƒ†ƒjƒbƒg‚ÌÀ•W‚ğ’†S‚É•`‰æ‚·‚é‚æ‚¤‚É‰ü•Ï
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KOF_ã‚¸ãƒ£ãƒ³ãƒ—ãƒã‚¹ã‚¿ãƒ¼æ”¹å‘½ä¸­:
+# ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆã®åº§æ¨™ã‚’ä¸­å¿ƒã«æç”»ã™ã‚‹ã‚ˆã†ã«æ”¹å¤‰
 
 Local i
 Local BMP_FILE
@@ -726,24 +726,24 @@ Local UID
 Local T_COL1 = _ColorTime(1)
 Local T_COL = _ColorTime()
 
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 Center UID
 Set C_X WX(UID)
 Set C_Y WY(UID)
 
 Set BMP_FILE _GetBMPName(UID)
 Set BMP_FILE2 _GetTileName(UID)
-Set BMP_FILE3 _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set BMP_FILE4 _GetTileName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set A_X WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set A_Y WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Set BMP_FILE3 _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set BMP_FILE4 _GetTileName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set A_X WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set A_Y WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
 Wait Start
 
 PlaySound "Swing.wav"
 
-ChangeUnitBitmap UID ”ñ•\¦
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
+ChangeUnitBitmap UID éè¡¨ç¤º
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤º
 
 For i = 1 To 12
   ClearPicture
@@ -751,42 +751,42 @@ For i = 1 To 12
   _PaintTile BMP_FILE4 A_X A_Y
   Switch i
   Case 1
-    PaintPicture BMP_FILE A_X A_Y “§‰ß T_COL
-    PaintPicture BMP_FILE3 A_X (A_Y - 4) “§‰ß ‰E‰ñ“] 180 T_COL
+    PaintPicture BMP_FILE A_X A_Y é€é T_COL
+    PaintPicture BMP_FILE3 A_X (A_Y - 4) é€é å³å›è»¢ 180 T_COL
   Case 2 13
-    PaintPicture BMP_FILE A_X A_Y “§‰ß T_COL
-    PaintPicture BMP_FILE3 A_X (A_Y - 20) “§‰ß ‰E‰ñ“] 180 T_COL
+    PaintPicture BMP_FILE A_X A_Y é€é T_COL
+    PaintPicture BMP_FILE3 A_X (A_Y - 20) é€é å³å›è»¢ 180 T_COL
   Case 3 7
-    PaintPicture BMP_FILE A_X (A_Y - 24) “§‰ß T_COL
-    PaintPicture BMP_FILE3 A_X (A_Y - 42) “§‰ß ‰E‰ñ“] 180 T_COL
+    PaintPicture BMP_FILE A_X (A_Y - 24) é€é T_COL
+    PaintPicture BMP_FILE3 A_X (A_Y - 42) é€é å³å›è»¢ 180 T_COL
   Case 4 6
-    PaintPicture BMP_FILE A_X (A_Y - 36) “§‰ß T_COL
-    PaintPicture BMP_FILE3 A_X (A_Y - 56) “§‰ß ‰E‰ñ“] 180 T_COL
+    PaintPicture BMP_FILE A_X (A_Y - 36) é€é T_COL
+    PaintPicture BMP_FILE3 A_X (A_Y - 56) é€é å³å›è»¢ 180 T_COL
   Case 5
-    PaintPicture BMP_FILE A_X (A_Y - 42) “§‰ß T_COL
-    PaintPicture BMP_FILE3 A_X (A_Y - 62) “§‰ß ‰E‰ñ“] 180 T_COL
+    PaintPicture BMP_FILE A_X (A_Y - 42) é€é T_COL
+    PaintPicture BMP_FILE3 A_X (A_Y - 62) é€é å³å›è»¢ 180 T_COL
   Case 8
-    PaintPicture BMP_FILE3 A_X (A_Y - 20) “§‰ß ‰E‰ñ“] 180 T_COL
-    PaintPicture BMP_FILE A_X A_Y “§‰ß T_COL
+    PaintPicture BMP_FILE3 A_X (A_Y - 20) é€é å³å›è»¢ 180 T_COL
+    PaintPicture BMP_FILE A_X A_Y é€é T_COL
   Case 9
-    PaintPicture BMP_FILE3 A_X (A_Y - 12) “§‰ß ‰E‰ñ“] 180 T_COL
-    PaintPicture BMP_FILE A_X A_Y “§‰ß T_COL
-    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" (A_X + 4) (A_Y - 20) 24 24 “§‰ß ‰E‰ñ“] 270 T_COL1
+    PaintPicture BMP_FILE3 A_X (A_Y - 12) é€é å³å›è»¢ 180 T_COL
+    PaintPicture BMP_FILE A_X A_Y é€é T_COL
+    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" (A_X + 4) (A_Y - 20) 24 24 é€é å³å›è»¢ 270 T_COL1
     _SelectSound "Explode.wav" _GetWavFromArgs()
   Case 10 12
-    PaintPicture BMP_FILE3 A_X (A_Y - 28) “§‰ß ‰E‰ñ“] 180 T_COL
-    PaintPicture BMP_FILE A_X A_Y “§‰ß T_COL
-    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" A_X (A_Y - 40) “§‰ß ‰E‰ñ“] 270 T_COL1
+    PaintPicture BMP_FILE3 A_X (A_Y - 28) é€é å³å›è»¢ 180 T_COL
+    PaintPicture BMP_FILE A_X A_Y é€é T_COL
+    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" A_X (A_Y - 40) é€é å³å›è»¢ 270 T_COL1
   Case 11
-    PaintPicture BMP_FILE3 A_X (A_Y - 30) “§‰ß ‰E‰ñ“] 180 T_COL
-    PaintPicture BMP_FILE A_X A_Y “§‰ß T_COL
+    PaintPicture BMP_FILE3 A_X (A_Y - 30) é€é å³å›è»¢ 180 T_COL
+    PaintPicture BMP_FILE A_X A_Y é€é T_COL
   EndSw
   Refresh
   Wait Until (i * 0.7)
 Next
 
-ChangeUnitBitmap UID ”ñ•\¦‰ğœ
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦‰ğœ
+ChangeUnitBitmap UID éè¡¨ç¤ºè§£é™¤
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤ºè§£é™¤
 
 ClearPicture
 Refresh

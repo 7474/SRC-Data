@@ -1,167 +1,167 @@
-#‹­§‡‘Ì‰ðœƒCƒ“ƒNƒ‹[ƒh
-#@‚±‚ÌƒCƒ“ƒNƒ‹[ƒh‚ÍAbŽmƒiƒ}ƒYƒ“ƒSAƒiƒ}ƒYƒ“ƒS‚rAƒJƒjƒKƒ“‚ª‘•”õ‚µ‚Ä‚¢‚éƒAƒ“ƒ`’´“dŽ¥”g‚ª
-#‡‘Ìƒƒ{‚É‘Î‚µ‚ÄƒNƒŠƒeƒBƒJƒ‹‚µ‚½‚Æ‚«‹­§“I‚É•ª—£‚³‚¹‚éiƒnƒCƒp[ƒ‚[ƒh‚Å‡‘Ì‚ð‘ã—p‚·‚é
-#—EŽÒƒƒ{‚Ìê‡‚ÍƒnƒCƒp[ƒ‚[ƒh‚ð‹­§‰ðœ‚·‚éj‚à‚Ì‚Å‚·B
-#‹­‘å‚Èƒpƒ[‚ðŒÖ‚é‡‘Ìƒƒ{‚½‚¿‚Ì“V“G‚ª—~‚µ‚¢‚Æ‚«‚È‚Ç‚É‚²—˜—p‰º‚³‚¢
+#å¼·åˆ¶åˆä½“è§£é™¤ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰
+#ã€€ã“ã®ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã¯ã€ç£å£«ãƒŠãƒžã‚ºãƒ³ã‚´ã€ãƒŠãƒžã‚ºãƒ³ã‚´ï¼³ã€ã‚«ãƒ‹ã‚¬ãƒ³ãŒè£…å‚™ã—ã¦ã„ã‚‹ã‚¢ãƒ³ãƒè¶…é›»ç£æ³¢ãŒ
+#åˆä½“ãƒ­ãƒœã«å¯¾ã—ã¦ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ã—ãŸã¨ãå¼·åˆ¶çš„ã«åˆ†é›¢ã•ã›ã‚‹ï¼ˆãƒã‚¤ãƒ‘ãƒ¼ãƒ¢ãƒ¼ãƒ‰ã§åˆä½“ã‚’ä»£ç”¨ã™ã‚‹
+#å‹‡è€…ãƒ­ãƒœã®å ´åˆã¯ãƒã‚¤ãƒ‘ãƒ¼ãƒ¢ãƒ¼ãƒ‰ã‚’å¼·åˆ¶è§£é™¤ã™ã‚‹ï¼‰ã‚‚ã®ã§ã™ã€‚
+#å¼·å¤§ãªãƒ‘ãƒ¯ãƒ¼ã‚’èª‡ã‚‹åˆä½“ãƒ­ãƒœãŸã¡ã®å¤©æ•µãŒæ¬²ã—ã„ã¨ããªã©ã«ã”åˆ©ç”¨ä¸‹ã•ã„
 
 
-#Žg‚¢•û
-#ƒVƒiƒŠƒI’†‚ÉˆÈ‰º‚Ì‚æ‚¤‚É‘g‚Ýž‚Ý‚Ü‚·BiŽ©“®ƒCƒ“ƒNƒ‹[ƒh‚Å‚Í‚È‚¢‚Ì‚ÅƒVƒiƒŠƒI‘¤‚ÅŽw’è‚µ‚È‚¢‚Æ
-#“®ì‚µ‚Ü‚¹‚ñ
-#SRC1.6.37ˆÈ~ê—p‚Å‚·B‚»‚êˆÈ‘O‚Ìƒo[ƒWƒ‡ƒ“‚Å‚Í³‚µ‚­“®ì‚µ‚Ü‚¹‚ñB
+#ä½¿ã„æ–¹
+#ã‚·ãƒŠãƒªã‚ªä¸­ã«ä»¥ä¸‹ã®ã‚ˆã†ã«çµ„ã¿è¾¼ã¿ã¾ã™ã€‚ï¼ˆè‡ªå‹•ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã§ã¯ãªã„ã®ã§ã‚·ãƒŠãƒªã‚ªå´ã§æŒ‡å®šã—ãªã„ã¨
+#å‹•ä½œã—ã¾ã›ã‚“
+#SRC1.6.37ä»¥é™å°‚ç”¨ã§ã™ã€‚ãã‚Œä»¥å‰ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã§ã¯æ­£ã—ãå‹•ä½œã—ã¾ã›ã‚“ã€‚
 
-#<Data\’´“dŽ¥ƒ}ƒV[ƒ“ƒ{ƒ‹ƒeƒX‡X\‡‘Ì•ö‚µ.eve>
-#Set •ª—£‘ÎÛ 0
+#<Data\è¶…é›»ç£ãƒžã‚·ãƒ¼ãƒ³ãƒœãƒ«ãƒ†ã‚¹â…¤\åˆä½“å´©ã—.eve>
+#Set åˆ†é›¢å¯¾è±¡ 0
 
-#@•Ï”u•ª—£‘ÎÛv‚ª0ƒ{ƒ‹ƒeƒX‚u‚Ì‚Ý‚ª‹­§•ª—£‚Ì‘ÎÛ‚É‚È‚è‚Ü‚·B1‚¾‚Æƒ{ƒ‹ƒeƒX‡X‚Æ
-#ƒRƒ“Eƒoƒgƒ‰[‚uA2‚¾‚Æ‘S‚Ä‚Ìƒƒ{(‘å‹ó–‚—³Aƒ_ƒ“ƒN[ƒK‚`‚ðœ‚­j‹­§•ª—£‚Ì‘ÎÛ‚É‚È‚è‚Ü‚·B
-#@‚Ü‚½‡‘Ì‚ð‰ðœ‚·‚é•Ší‚ðƒAƒ“ƒ`’´“dŽ¥”gˆÈŠO‚Ì•Šíi‘ŠŽè‚ðs“®•s”\‚É‚·‚é‚à‚Ì‚ÉŒÀ‚éj‚É
-#•ÏX‚·‚é‚±‚Æ‚àƒVƒiƒŠƒI‘¤‚©‚ç‚Ì‘€ì‚Åˆê‰ž‰Â”\‚Å‚·B—á‚¦‚Îƒiƒ‹ƒ}ƒOƒlŒõü‚ð‡‘Ì‰ðœ•Ší‚É
-#‚µ‚½‚¢ê‡‚ÍAƒvƒƒ[ƒOƒCƒxƒ“ƒgA‚Ü‚½‚ÍƒXƒ^[ƒgƒCƒxƒ“ƒg‚Å
+#ã€€å¤‰æ•°ã€Œåˆ†é›¢å¯¾è±¡ã€ãŒ0ãƒœãƒ«ãƒ†ã‚¹ï¼¶ã®ã¿ãŒå¼·åˆ¶åˆ†é›¢ã®å¯¾è±¡ã«ãªã‚Šã¾ã™ã€‚1ã ã¨ãƒœãƒ«ãƒ†ã‚¹â…¤ã¨
+#ã‚³ãƒ³ãƒ»ãƒãƒˆãƒ©ãƒ¼ï¼¶ã€2ã ã¨å…¨ã¦ã®ãƒ­ãƒœ(å¤§ç©ºé­”ç«œã€ãƒ€ãƒ³ã‚¯ãƒ¼ã‚¬ï¼¡ã‚’é™¤ãï¼‰å¼·åˆ¶åˆ†é›¢ã®å¯¾è±¡ã«ãªã‚Šã¾ã™ã€‚
+#ã€€ã¾ãŸåˆä½“ã‚’è§£é™¤ã™ã‚‹æ­¦å™¨ã‚’ã‚¢ãƒ³ãƒè¶…é›»ç£æ³¢ä»¥å¤–ã®æ­¦å™¨ï¼ˆç›¸æ‰‹ã‚’è¡Œå‹•ä¸èƒ½ã«ã™ã‚‹ã‚‚ã®ã«é™ã‚‹ï¼‰ã«
+#å¤‰æ›´ã™ã‚‹ã“ã¨ã‚‚ã‚·ãƒŠãƒªã‚ªå´ã‹ã‚‰ã®æ“ä½œã§ä¸€å¿œå¯èƒ½ã§ã™ã€‚ä¾‹ãˆã°ãƒŠãƒ«ãƒžã‚°ãƒå…‰ç·šã‚’åˆä½“è§£é™¤æ­¦å™¨ã«
+#ã—ãŸã„å ´åˆã¯ã€ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°ã‚¤ãƒ™ãƒ³ãƒˆã€ã¾ãŸã¯ã‚¹ã‚¿ãƒ¼ãƒˆã‚¤ãƒ™ãƒ³ãƒˆã§
 
-#Set ƒAƒ“ƒ`’´“dŽ¥”g ƒiƒ‹ƒ}ƒOƒlŒõü
+#Set ã‚¢ãƒ³ãƒè¶…é›»ç£æ³¢ ãƒŠãƒ«ãƒžã‚°ãƒå…‰ç·š
 
-#‚ÆŽw’è‚µ‚Ä‰º‚³‚¢B
+#ã¨æŒ‡å®šã—ã¦ä¸‹ã•ã„ã€‚
 
-#’ˆÓŽ–€
-#Šg’£ƒf[ƒ^‚É‚Í‘Î‰ž‚µ‚Ä‚¢‚Ü‚¹‚ñB
-#AttackƒRƒ}ƒ“ƒh‚É‚æ‚éUŒ‚‚Å‚Í‡‘Ì‰ðœ‚Í”­¶‚µ‚Ü‚¹‚ñB
-#ƒp[ƒc‡‘Ìƒ†ƒjƒbƒg‚É‘Î‚µ‚Ä‚Í‹­§•ª—£‚Í‹N‚«‚Ü‚¹‚ñiƒQ[ƒ€ã‚Ì‘[’u‚Æ‚µ‚ÄˆÓ}“I‚É‘ÎÛ‚©‚ç
-#ŠO‚µ‚Ä‚ ‚è‚Ü‚·j
-#‘å‹ó–‚—³‚Í‹­§•ª—£‚µ‚Ü‚¹‚ñBiƒr[ƒ€‚ð‹ò‚ç‚Á‚½‚çƒKƒCƒLƒ“ƒO‚ª”­i‚·‚é‚Æ‚¢‚¤‚Ì‚à•Ï‚È˜b‚È‚Ì‚Åj
-#Ž©”­“I‚È•ª—£‚ªo—ˆ‚È‚¢ó‘Ôi•ª—£Œ`‘Ô‚ª¶¬‚³‚ê‚Ä‚¢‚È‚¢‚È‚Çj‚Ìê‡‚Í‹­§•ª—£‚ª‹N‚«‚Ü‚¹‚ñB
-
-
+#æ³¨æ„äº‹é …
+#æ‹¡å¼µãƒ‡ãƒ¼ã‚¿ã«ã¯å¯¾å¿œã—ã¦ã„ã¾ã›ã‚“ã€‚
+#Attackã‚³ãƒžãƒ³ãƒ‰ã«ã‚ˆã‚‹æ”»æ’ƒã§ã¯åˆä½“è§£é™¤ã¯ç™ºç”Ÿã—ã¾ã›ã‚“ã€‚
+#ãƒ‘ãƒ¼ãƒ„åˆä½“ãƒ¦ãƒ‹ãƒƒãƒˆã«å¯¾ã—ã¦ã¯å¼·åˆ¶åˆ†é›¢ã¯èµ·ãã¾ã›ã‚“ï¼ˆã‚²ãƒ¼ãƒ ä¸Šã®æŽªç½®ã¨ã—ã¦æ„å›³çš„ã«å¯¾è±¡ã‹ã‚‰
+#å¤–ã—ã¦ã‚ã‚Šã¾ã™ï¼‰
+#å¤§ç©ºé­”ç«œã¯å¼·åˆ¶åˆ†é›¢ã—ã¾ã›ã‚“ã€‚ï¼ˆãƒ“ãƒ¼ãƒ ã‚’å–°ã‚‰ã£ãŸã‚‰ã‚¬ã‚¤ã‚­ãƒ³ã‚°ãŒç™ºé€²ã™ã‚‹ã¨ã„ã†ã®ã‚‚å¤‰ãªè©±ãªã®ã§ï¼‰
+#è‡ªç™ºçš„ãªåˆ†é›¢ãŒå‡ºæ¥ãªã„çŠ¶æ…‹ï¼ˆåˆ†é›¢å½¢æ…‹ãŒç”Ÿæˆã•ã‚Œã¦ã„ãªã„ãªã©ï¼‰ã®å ´åˆã¯å¼·åˆ¶åˆ†é›¢ãŒèµ·ãã¾ã›ã‚“ã€‚
 
 
-#•Ï”‚ðƒ[ƒJƒ‹‚É
-Local “dŽ¥•W“I ŒŸõ‘ÎÛ ”»•Ê’l •ÏŒ`Žæ“¾
 
-#Žg—pŽÒA•W“I‚ÌŽ¯•Ê
-Žg—p “G ƒAƒ“ƒ`’´“dŽ¥”g:
-Žg—p –¡•û ƒAƒ“ƒ`’´“dŽ¥”g:
-Žg—p ’†—§ ƒAƒ“ƒ`’´“dŽ¥”g:
-Žg—p ‚m‚o‚b ƒAƒ“ƒ`’´“dŽ¥”g:
-Set “dŽ¥•W“I ‘ŠŽèƒ†ƒjƒbƒg
- If IsEquiped(“dŽ¥•W“I,ƒEƒ‹ƒgƒ‰ƒ}ƒOƒRƒ“) = 1 Then
- SetStatus “dŽ¥•W“I –³“G 1
+
+#å¤‰æ•°ã‚’ãƒ­ãƒ¼ã‚«ãƒ«ã«
+Local é›»ç£æ¨™çš„ æ¤œç´¢å¯¾è±¡ åˆ¤åˆ¥å€¤ å¤‰å½¢å–å¾—
+
+#ä½¿ç”¨è€…ã€æ¨™çš„ã®è­˜åˆ¥
+ä½¿ç”¨ æ•µ ã‚¢ãƒ³ãƒè¶…é›»ç£æ³¢:
+ä½¿ç”¨ å‘³æ–¹ ã‚¢ãƒ³ãƒè¶…é›»ç£æ³¢:
+ä½¿ç”¨ ä¸­ç«‹ ã‚¢ãƒ³ãƒè¶…é›»ç£æ³¢:
+ä½¿ç”¨ ï¼®ï¼°ï¼£ ã‚¢ãƒ³ãƒè¶…é›»ç£æ³¢:
+Set é›»ç£æ¨™çš„ ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆ
+ If IsEquiped(é›»ç£æ¨™çš„,ã‚¦ãƒ«ãƒˆãƒ©ãƒžã‚°ã‚³ãƒ³) = 1 Then
+ SetStatus é›»ç£æ¨™çš„ ç„¡æ•µ 1
  Endif
- If IsEquiped(“dŽ¥•W“I,ŒÅ’èŒ^ƒEƒ‹ƒgƒ‰ƒ}ƒOƒRƒ“) = 1 Then
- SetStatus “dŽ¥•W“I –³“G 1
+ If IsEquiped(é›»ç£æ¨™çš„,å›ºå®šåž‹ã‚¦ãƒ«ãƒˆãƒ©ãƒžã‚°ã‚³ãƒ³) = 1 Then
+ SetStatus é›»ç£æ¨™çš„ ç„¡æ•µ 1
  Endif
 Exit
 
 ##########
-#•ª—£”»’è‚Ö‚Ì—U“±
-Žg—pŒã “G ƒAƒ“ƒ`’´“dŽ¥”g:
-Žg—pŒã –¡•û ƒAƒ“ƒ`’´“dŽ¥”g:
-Žg—pŒã ’†—§ ƒAƒ“ƒ`’´“dŽ¥”g:
-Žg—pŒã ‚m‚o‚b ƒAƒ“ƒ`’´“dŽ¥”g:
-ClearStatus “dŽ¥•W“I –³“G
-If Condition(“dŽ¥•W“I,s“®•s”\) Then
-Call "’´“dŽ¥”j‰ó”»’è"
+#åˆ†é›¢åˆ¤å®šã¸ã®èª˜å°Ž
+ä½¿ç”¨å¾Œ æ•µ ã‚¢ãƒ³ãƒè¶…é›»ç£æ³¢:
+ä½¿ç”¨å¾Œ å‘³æ–¹ ã‚¢ãƒ³ãƒè¶…é›»ç£æ³¢:
+ä½¿ç”¨å¾Œ ä¸­ç«‹ ã‚¢ãƒ³ãƒè¶…é›»ç£æ³¢:
+ä½¿ç”¨å¾Œ ï¼®ï¼°ï¼£ ã‚¢ãƒ³ãƒè¶…é›»ç£æ³¢:
+ClearStatus é›»ç£æ¨™çš„ ç„¡æ•µ
+If Condition(é›»ç£æ¨™çš„,è¡Œå‹•ä¸èƒ½) Then
+Call "è¶…é›»ç£ç ´å£Šåˆ¤å®š"
 Endif
 Exit
 
 ########
-#•ª—£”»’è••Ï”ƒŠƒZƒbƒg
-’´“dŽ¥”j‰ó”»’è:
+#åˆ†é›¢åˆ¤å®šï¼†å¤‰æ•°ãƒªã‚»ãƒƒãƒˆ
+è¶…é›»ç£ç ´å£Šåˆ¤å®š:
 
-#•ª—£‘ÎÛƒ`ƒFƒbƒN
+#åˆ†é›¢å¯¾è±¡ãƒã‚§ãƒƒã‚¯
 
-If Info(“dŽ¥•W“I, ‹@‘ÌƒNƒ‰ƒX) = "‘å‹ó–‚—³" Then
+If Info(é›»ç£æ¨™çš„, æ©Ÿä½“ã‚¯ãƒ©ã‚¹) = "å¤§ç©ºé­”ç«œ" Then
 Return
 Endif
-If Unit(“dŽ¥•W“I) = ƒ{ƒ‹ƒeƒX‡X Then 
-Goto "•ª—£ƒ`ƒFƒbƒN"
+If Unit(é›»ç£æ¨™çš„) = ãƒœãƒ«ãƒ†ã‚¹â…¤ Then 
+Goto "åˆ†é›¢ãƒã‚§ãƒƒã‚¯"
 Endif
-Switch •ª—£‘ÎÛ
+Switch åˆ†é›¢å¯¾è±¡
 Case 1
- If Unit(“dŽ¥•W“I) = ƒRƒ“Eƒoƒgƒ‰[‚u Then
-Goto "•ª—£ƒ`ƒFƒbƒN"
+ If Unit(é›»ç£æ¨™çš„) = ã‚³ãƒ³ãƒ»ãƒãƒˆãƒ©ãƒ¼ï¼¶ Then
+Goto "åˆ†é›¢ãƒã‚§ãƒƒã‚¯"
 Endif
-If Unit(“dŽ¥•W“I) = ƒRƒ“Eƒoƒgƒ‰[‚u(‘OŠúŒ^)  Then
-Goto "•ª—£ƒ`ƒFƒbƒN"
+If Unit(é›»ç£æ¨™çš„) = ã‚³ãƒ³ãƒ»ãƒãƒˆãƒ©ãƒ¼ï¼¶(å‰æœŸåž‹)  Then
+Goto "åˆ†é›¢ãƒã‚§ãƒƒã‚¯"
 Else
 Return
 Endif
 Case 2
-If IsAvailable(“dŽ¥•W“I,•ª—£) = 1 Then
-Call "•ª—£ƒ`ƒFƒbƒN"
+If IsAvailable(é›»ç£æ¨™çš„,åˆ†é›¢) = 1 Then
+Call "åˆ†é›¢ãƒã‚§ãƒƒã‚¯"
 Endif
-If IsAvailable(“dŽ¥•W“I,ƒm[ƒ}ƒ‹ƒ‚[ƒh) = 1 Then
-Goto "—EŽÒ•ª—£"
+If IsAvailable(é›»ç£æ¨™çš„,ãƒŽãƒ¼ãƒžãƒ«ãƒ¢ãƒ¼ãƒ‰) = 1 Then
+Goto "å‹‡è€…åˆ†é›¢"
 Else
 Return
 Endif
 EndSw
 Return
 
-•ª—£ƒ`ƒFƒbƒN:
+åˆ†é›¢ãƒã‚§ãƒƒã‚¯:
 
-ClearStatus “dŽ¥•W“I s“®•s”\
-Split “dŽ¥•W“I
-Unset “dŽ¥•W“I 
+ClearStatus é›»ç£æ¨™çš„ è¡Œå‹•ä¸èƒ½
+Split é›»ç£æ¨™çš„
+Unset é›»ç£æ¨™çš„ 
 Return
 
-—EŽÒ•ª—£:
-UnSet ”»•Ê’l
-Set ŒŸõ‘ÎÛ UnitID(“dŽ¥•W“I)
-Set ‹@‘ÌƒNƒ‰ƒX Info(ŒŸõ‘ÎÛ,‹@‘ÌƒNƒ‰ƒX)
-#For I = 1 To Len(‹@‘ÌƒNƒ‰ƒX)
-#If Mid(‹@‘ÌƒNƒ‰ƒX,I,1) = "(" Then
+å‹‡è€…åˆ†é›¢:
+UnSet åˆ¤åˆ¥å€¤
+Set æ¤œç´¢å¯¾è±¡ UnitID(é›»ç£æ¨™çš„)
+Set æ©Ÿä½“ã‚¯ãƒ©ã‚¹ Info(æ¤œç´¢å¯¾è±¡,æ©Ÿä½“ã‚¯ãƒ©ã‚¹)
+#For I = 1 To Len(æ©Ÿä½“ã‚¯ãƒ©ã‚¹)
+#If Mid(æ©Ÿä½“ã‚¯ãƒ©ã‚¹,I,1) = "(" Then
 #Break
 #Else
-#Set ”»•Ê’l ( ”»•Ê’l & Mid(‹@‘ÌƒNƒ‰ƒX,I,1) )
+#Set åˆ¤åˆ¥å€¤ ( åˆ¤åˆ¥å€¤ & Mid(æ©Ÿä½“ã‚¯ãƒ©ã‚¹,I,1) )
 #Endif
 #Next I
-If Instr(‹@‘ÌƒNƒ‰ƒX,"(") <  Then
-Set ”»•Ê’l ‹@‘ÌƒNƒ‰ƒX
+If Instr(æ©Ÿä½“ã‚¯ãƒ©ã‚¹,"(") <  Then
+Set åˆ¤åˆ¥å€¤ æ©Ÿä½“ã‚¯ãƒ©ã‚¹
 Else
-Set ”»•Ê’l Left(‹@‘ÌƒNƒ‰ƒX,(InStr(‹@‘ÌƒNƒ‰ƒX,"(")) - 1)
+Set åˆ¤åˆ¥å€¤ Left(æ©Ÿä½“ã‚¯ãƒ©ã‚¹,(InStr(æ©Ÿä½“ã‚¯ãƒ©ã‚¹,"(")) - 1)
 Endif
-Switch ”»•Ê’l
-Case ƒŒƒWƒFƒ“ƒhƒ‰‚Ì—EŽÒ “`à‚Ì—EŽÒ ‰F’ˆŒxŽ@ƒJƒCƒU[ƒY ƒX[ƒp[ƒƒJƒmƒCƒh 
-Goto "’Êí—EŽÒˆ—"
-Case ƒr[ƒNƒ‹ƒƒ{ ƒuƒŒƒCƒuƒ|ƒŠƒX ‰F’ˆŒxŽ@‹@\ƒƒ{ ¹—EŽÒ ƒuƒ‰ƒbƒNƒKƒCƒ“
-Goto "’Êí—EŽÒˆ—"
-Case ‰F’ˆŒx”õ‘àƒƒJ
-Goto "“ÁŽê—EŽÒˆ—"
+Switch åˆ¤åˆ¥å€¤
+Case ãƒ¬ã‚¸ã‚§ãƒ³ãƒ‰ãƒ©ã®å‹‡è€… ä¼èª¬ã®å‹‡è€… å®‡å®™è­¦å¯Ÿã‚«ã‚¤ã‚¶ãƒ¼ã‚º ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ¡ã‚«ãƒŽã‚¤ãƒ‰ 
+Goto "é€šå¸¸å‹‡è€…å‡¦ç†"
+Case ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ ãƒ–ãƒ¬ã‚¤ãƒ–ãƒãƒªã‚¹ å®‡å®™è­¦å¯Ÿæ©Ÿæ§‹ãƒ­ãƒœ è–å‹‡è€… ãƒ–ãƒ©ãƒƒã‚¯ã‚¬ã‚¤ãƒ³
+Goto "é€šå¸¸å‹‡è€…å‡¦ç†"
+Case å®‡å®™è­¦å‚™éšŠãƒ¡ã‚«
+Goto "ç‰¹æ®Šå‹‡è€…å‡¦ç†"
 EndSw
 return
 
-’Êí—EŽÒˆ—:
-UnSet ”»•Ê’l
-UnSet ‹@‘ÌƒNƒ‰ƒX
-Set •ÏŒ`Žæ“¾ Info(ŒŸõ‘ÎÛ,“ÁŽê”\—Íƒf[ƒ^,ƒm[ƒ}ƒ‹ƒ‚[ƒh)
-Transform “dŽ¥•W“I •ÏŒ`Žæ“¾
-Set “dŽ¥•W“I (pilot(•ÏŒ`Žæ“¾))
-ClearStatus “dŽ¥•W“I s“®•s”\
-ClearStatus “dŽ¥•W“I Á–Õ
-Unset “dŽ¥•W“I 
+é€šå¸¸å‹‡è€…å‡¦ç†:
+UnSet åˆ¤åˆ¥å€¤
+UnSet æ©Ÿä½“ã‚¯ãƒ©ã‚¹
+Set å¤‰å½¢å–å¾— Info(æ¤œç´¢å¯¾è±¡,ç‰¹æ®Šèƒ½åŠ›ãƒ‡ãƒ¼ã‚¿,ãƒŽãƒ¼ãƒžãƒ«ãƒ¢ãƒ¼ãƒ‰)
+Transform é›»ç£æ¨™çš„ å¤‰å½¢å–å¾—
+Set é›»ç£æ¨™çš„ (pilot(å¤‰å½¢å–å¾—))
+ClearStatus é›»ç£æ¨™çš„ è¡Œå‹•ä¸èƒ½
+ClearStatus é›»ç£æ¨™çš„ æ¶ˆè€—
+Unset é›»ç£æ¨™çš„ 
 Return
 
-“ÁŽê—EŽÒˆ—:
-UnSet ”»•Ê’l
-UnSet ‹@‘ÌƒNƒ‰ƒX
-Switch Unit(ŒŸõ‘ÎÛ)
-Case ƒOƒŒ[ƒgƒtƒ@ƒCƒo[ƒh •‘•‡‘Ìƒtƒ@ƒCƒo[ƒh
-Transform ŒŸõ‘ÎÛ ƒtƒ@ƒCƒo[ƒh
-Set “dŽ¥•W“I (pilot(ƒtƒ@ƒCƒo[ƒh))
-ClearStatus “dŽ¥•W“I s“®•s”\
-Case ƒWƒFƒbƒg‡‘ÌƒOƒ‰ƒ“ƒo[ƒh 
-Transform ŒŸõ‘ÎÛ ƒOƒ‰ƒ“ƒo[ƒh
-Set “dŽ¥•W“I (pilot(ƒOƒ‰ƒ“ƒo[ƒh))
-ClearStatus “dŽ¥•W“I s“®•s”\
-ClearStatus “dŽ¥•W“I Á–Õ
-Case ƒK[ƒhƒXƒ^[(ƒƒbƒgƒIƒ“) ƒK[ƒhƒtƒ@ƒCƒA[(ƒƒbƒgƒIƒ“) ƒK[ƒhƒŒƒXƒLƒ…[(ƒƒbƒgƒIƒ“) 
+ç‰¹æ®Šå‹‡è€…å‡¦ç†:
+UnSet åˆ¤åˆ¥å€¤
+UnSet æ©Ÿä½“ã‚¯ãƒ©ã‚¹
+Switch Unit(æ¤œç´¢å¯¾è±¡)
+Case ã‚°ãƒ¬ãƒ¼ãƒˆãƒ•ã‚¡ã‚¤ãƒãƒ¼ãƒ‰ æ­¦è£…åˆä½“ãƒ•ã‚¡ã‚¤ãƒãƒ¼ãƒ‰
+Transform æ¤œç´¢å¯¾è±¡ ãƒ•ã‚¡ã‚¤ãƒãƒ¼ãƒ‰
+Set é›»ç£æ¨™çš„ (pilot(ãƒ•ã‚¡ã‚¤ãƒãƒ¼ãƒ‰))
+ClearStatus é›»ç£æ¨™çš„ è¡Œå‹•ä¸èƒ½
+Case ã‚¸ã‚§ãƒƒãƒˆåˆä½“ã‚°ãƒ©ãƒ³ãƒãƒ¼ãƒ‰ 
+Transform æ¤œç´¢å¯¾è±¡ ã‚°ãƒ©ãƒ³ãƒãƒ¼ãƒ‰
+Set é›»ç£æ¨™çš„ (pilot(ã‚°ãƒ©ãƒ³ãƒãƒ¼ãƒ‰))
+ClearStatus é›»ç£æ¨™çš„ è¡Œå‹•ä¸èƒ½
+ClearStatus é›»ç£æ¨™çš„ æ¶ˆè€—
+Case ã‚¬ãƒ¼ãƒ‰ã‚¹ã‚¿ãƒ¼(ãƒ¡ãƒƒãƒˆã‚ªãƒ³) ã‚¬ãƒ¼ãƒ‰ãƒ•ã‚¡ã‚¤ã‚¢ãƒ¼(ãƒ¡ãƒƒãƒˆã‚ªãƒ³) ã‚¬ãƒ¼ãƒ‰ãƒ¬ã‚¹ã‚­ãƒ¥ãƒ¼(ãƒ¡ãƒƒãƒˆã‚ªãƒ³) 
 Return
 EndSw
 Return
 
-#ƒtƒ@ƒCƒo[ƒh‚ÌƒƒJ‚Í’Êí—EŽÒˆ—‚¾‚ÆAƒOƒŒ[ƒgƒtƒ@ƒCƒo[ƒh‚ªˆê‹C‚É‰Î’¹‚É‚È‚Á‚Ä‚µ‚Ü‚¤A
-#ƒK[ƒhƒ`[ƒ€‚Ìƒƒbƒg‚ð’E‚ª‚µ‚Ä‚µ‚Ü‚¤“™‚Ì–â‘è‚ª‘½‚¢‚Ì‚ÅŒÂ•Ê‚Éˆ—‚µ‚Ä‚¢‚Ü‚·B
+#ãƒ•ã‚¡ã‚¤ãƒãƒ¼ãƒ‰ã®ãƒ¡ã‚«ã¯é€šå¸¸å‹‡è€…å‡¦ç†ã ã¨ã€ã‚°ãƒ¬ãƒ¼ãƒˆãƒ•ã‚¡ã‚¤ãƒãƒ¼ãƒ‰ãŒä¸€æ°—ã«ç«é³¥ã«ãªã£ã¦ã—ã¾ã†ã€
+#ã‚¬ãƒ¼ãƒ‰ãƒãƒ¼ãƒ ã®ãƒ¡ãƒƒãƒˆã‚’è„±ãŒã—ã¦ã—ã¾ã†ç­‰ã®å•é¡ŒãŒå¤šã„ã®ã§å€‹åˆ¥ã«å‡¦ç†ã—ã¦ã„ã¾ã™ã€‚
 
-#XV—š—ð
+#æ›´æ–°å±¥æ­´
 #2001.11.19
-#SRC–{‘ÌŽd—l•ÏX‚É”º‚¢‘ÎÛƒ†ƒjƒbƒgA‘ŠŽèƒ†ƒjƒbƒg‚Ìˆµ‚¢‚ª•Ï‰»‚µ‚½‚½‚ß‰ü’ù
+#SRCæœ¬ä½“ä»•æ§˜å¤‰æ›´ã«ä¼´ã„å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆã€ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆã®æ‰±ã„ãŒå¤‰åŒ–ã—ãŸãŸã‚æ”¹è¨‚

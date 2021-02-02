@@ -1,113 +1,113 @@
-########## �E����Ƃ��̐��_�̌��Ђ̊� ##########
+########## 孔瑞麗とその精神の欠片の器 ##########
 
-�E����
-����, KIKOKU_KongRuili.bmp
-#�y�R���E���C���[�z
-# �����̎��̖��ɂ��āA���R�̍���ҁB
-# �����ɂƂ��Ă������P�l�̉������ł���A�B��̐S�̋��菊�ł������B
+孔瑞麗
+瑞麗, KIKOKU_KongRuili.bmp
+#【コン・ルイリー】
+# 濤羅の実の妹にして、豪軍の婚約者。
+# 濤羅にとってたった１人の可愛い妹であり、唯一の心の拠り所であった。
 
-�K�C�m�C�h�E����
-����, KIKOKU_Ruili.bmp
+ガイノイド・瑞麗
+瑞麗, KIKOKU_Ruili.bmp
 
-�K�C�m�C�h�E����(����)
-����, KIKOKU_Ruili(laugh).bmp
+ガイノイド・瑞麗(微笑)
+瑞麗, KIKOKU_Ruili(laugh).bmp
 
-�K�C�m�C�h�E����(�Ί�)
-����, KIKOKU_Ruili(smile).bmp
+ガイノイド・瑞麗(笑顔)
+瑞麗, KIKOKU_Ruili(smile).bmp
 
-�K�C�m�C�h�E����(�Ί�Q)
-����, KIKOKU_Ruili(smile2).bmp
+ガイノイド・瑞麗(笑顔２)
+瑞麗, KIKOKU_Ruili(smile2).bmp
 
-�K�C�m�C�h�E����(�{��)
-����, KIKOKU_Ruili(angry).bmp
+ガイノイド・瑞麗(怒り)
+瑞麗, KIKOKU_Ruili(angry).bmp
 
-�K�C�m�C�h�E����(�s��)
-����, KIKOKU_Ruili(anxiety).bmp
+ガイノイド・瑞麗(不安)
+瑞麗, KIKOKU_Ruili(anxiety).bmp
 
-# �ӈ�B�ɂ���ğ����ɓn���ꂽ�c�N�^�K�C�m�C�h�B
-# ��{�I�ȃv���O�����������ڂ��Ă��Ȃ����A
-# �T�ɕ������ꂽ����̐��_�𓝍�����v���O�����𓋍ڂ��Ă���B
-
-
-�K�C�m�C�h�E�_�c
-�_�c, KIKOKU_Mazho.bmp
-#�y�}�[�`�F�z�����ҁF���ɛ� 
-# �g�̂̊e�p�[�c�ɍō����i���ӂ񂾂�Ɏg�p���Ă���B
+# 謝逸達によって濤羅に渡された幼年型ガイノイド。
+# 基本的なプログラムしか搭載していないが、
+# ５つに分かたれた瑞麗の精神を統合するプログラムを搭載している。
 
 
-�K�C�m�C�h�E�x�l�g�i�V��
-�x�l�g�i�V��, KIKOKU_Benetnasch.bmp
-# �����ҁF��Λ`
-# ���\�Ɉ����Ă��邽�߁A�p�ɂɃp�[�c�������s���Ă���B
+ガイノイド・媽祖
+媽祖, KIKOKU_Mazho.bmp
+#【マーチェ】所持者：樟賈寶 
+# 身体の各パーツに最高級品をふんだんに使用している。
 
 
-�K�C�m�C�h�E�y�g���[�V���J
-�y�g���[�V���J, KIKOKU_Petrouchka.bmp
-
-�K�C�m�C�h�E�y�g���[�V���J(����)
-�y�g���[�V���J, KIKOKU_Petrouchka(damage).bmp
-# �����ҁF���Đ�
-# �h�[���t���[�N�ł�����̎�ɂ���ăt�����X�l�`�̂悤�ȃC���[�W�������A
-# �L���̍ۂɂ͐퓬�p�K�C�m�C�h�Ƃ��ċN������B
+ガイノイド・ベネトナシュ
+ベネトナシュ, KIKOKU_Benetnasch.bmp
+# 所持者：朱笑嫣
+# 乱暴に扱われているため、頻繁にパーツ交換が行われている。
 
 
-�K�C�m�C�h�E���[�X��
-���[�X��, KIKOKU_Lasya.bmp
-#�����ҁF�k�̐M
+ガイノイド・ペトルーシュカ
+ペトルーシュカ, KIKOKU_Petrouchka.bmp
+
+ガイノイド・ペトルーシュカ(叫び)
+ペトルーシュカ, KIKOKU_Petrouchka(damage).bmp
+# 所持者：呉榮成
+# ドールフリークである呉の趣味によってフランス人形のようなイメージを持つが、
+# 有事の際には戦闘用ガイノイドとして起動する。
 
 
-�K�C�m�C�h�E���R�̐���
-����, KIKOKU_Houjun'sRuili.bmp
-# �����ҁF�����R
-# �{���̍E����ƉZ��̊O�������Ă���A���R�̐S�̋��菊�Ƃ����鑶�݁B
+ガイノイド・ラースヤ
+ラースヤ, KIKOKU_Lasya.bmp
+#所持者：斌偉信
 
 
-########## ���̑� ##########
-
-�ӈ�B
-��, KIKOKU_TseYida.bmp 
-#�y�c�F�E�C�[�^�[�z �l�Ă�Łw������q�x
-# ���݂͔񍇖@�̃T�C�o�l��t�ɐg�𗎂Ƃ��Ă��邪�A
-# ���Ă͓d�]�_�o�w�̌��Ђł��荰鮓]�ʂ̑��l�҂ł������B
+ガイノイド・豪軍の瑞麗
+瑞麗, KIKOKU_Houjun'sRuili.bmp
+# 所持者：劉豪軍
+# 本来の孔瑞麗と瓜二つの外見をしており、豪軍の心の拠り所といえる存在。
 
 
-���V��
-��, KIKOKU_LiTianyuan.bmp
-#�y���C�E�e�F�����F���z
-# ��C�͍]������_�Ɋ�������閧���ЁE�_���̓�����B
-# ���R�ɂ���ĈÎE�����B
+########## その他 ##########
+
+謝逸達
+謝, KIKOKU_TseYida.bmp 
+#【ツェ・イーター】 人呼んで『左道鉗子』
+# 現在は非合法のサイバネ医師に身を落としているが、
+# かつては電脳神経学の権威であり魂魄転写の第一人者であった。
 
 
-�~�n�C�����X�`���O���t
-�X�`���O���t, KIKOKU_MitchellSchgref.bmp 
-# �S�N�ȏ�������l�ɂȂ肷�܂��Ă��郍�V�A���}�t�B�A�̍H����B
-# �������͐`���y�`���E�V�F���z
+李天遠
+李, KIKOKU_LiTianyuan.bmp
+#【レイ・テェンユェン】
+# 上海は江南を拠点に活動する秘密結社・青雲幣の当寒主。
+# 豪軍によって暗殺される。
 
 
-���͈�
-��, KIKOKU_LiangLikwei.bmp 
-#�y�������E���N�E�@�C�z
-# �_���̖��[�\�����B
-# ���i�͏�񉮂̐^���������Ă��邪�A�A�����Ƃ��ē������Ƃ�����B
+ミハイル＝スチュグレフ
+スチュグレフ, KIKOKU_MitchellSchgref.bmp 
+# ４年以上も中国人になりすましているロシアンマフィアの工作員。
+# 中国名は秦賢【チン・シェン】
 
 
-���i��
-��, KIKOKU_WongJingdong.bmp
-#�y�E�H���E�`���g���z �l�Ă�Łw�{�������x
-# �W�O�����͂�����V����Ў�ň����ҎҁB
+梁力為
+梁, KIKOKU_LiangLikwei.bmp 
+#【リャン・リクウァイ】
+# 青雲幣の末端構成員。
+# 普段は情報屋の真似事をしているが、連絡員として動くこともある。
 
-�Ï���
-��, KIKOKU_GuZhongping.bmp
-#�y�N�[�E�`�����s���z �l�Ă�Łw�l����V�x
-# �ڍוs���B
 
-���V�@
-��, KIKOKU_SiaoZeru.bmp
-#�y�V���I�E�c�D���[�z �l�Ă�Łw��m����x
-# �ڍוs���B
+黄景東
+黄, KIKOKU_WongJingdong.bmp
+#【ウォン・チントン】 人呼んで『怒濤戟刀』
+# ８０ｋｇはある方天戟を片手で扱う猛者。
 
-���G��
-��, KIKOKU_ShuHongwei.bmp
-#�y�X�[�E�z���E�F�C�z �l�Ă�Łw�L�����q�x
-# �ڍוs���B
+古鐘萍
+古, KIKOKU_GuZhongping.bmp
+#【クー・チョンピン】 人呼んで『四悪趣坊』
+# 詳細不明。
+
+小澤如
+小, KIKOKU_SiaoZeru.bmp
+#【シャオ・ツゥルー】 人呼んで『烈士呉鉤』
+# 詳細不明。
+
+舒宏偉
+舒, KIKOKU_ShuHongwei.bmp
+#【スー・ホンウェイ】 人呼んで『鮫歯童子』
+# 詳細不明。
 

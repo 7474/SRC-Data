@@ -1,108 +1,108 @@
-# Eƒl[ƒ€ƒh
-# E‰Ô“l^–‚b
+# ãƒ»ãƒãƒ¼ãƒ ãƒ‰
+# ãƒ»èŠ±ç›—äººï¼é­”ç£
 
-# “G‚ð–¡•û‚Æ‚µ‚ÄŽg—p‚·‚éê‡A–¡•ûŽg—p‚ðSetSkill‚Å•t‰Á‚µ‚Ä‚­‚¾‚³‚¢B
-# SetSkill ‘ÎÛƒpƒCƒƒbƒg –¡•ûŽg—p -1 ”ñ•\Ž¦
+# æ•µã‚’å‘³æ–¹ã¨ã—ã¦ä½¿ç”¨ã™ã‚‹å ´åˆã€å‘³æ–¹ä½¿ç”¨ã‚’SetSkillã§ä»˜åŠ ã—ã¦ãã ã•ã„ã€‚
+# SetSkill å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ å‘³æ–¹ä½¿ç”¨ -1 éžè¡¨ç¤º
 
-# –¡•û‚ð“G‚Æ‚µ‚ÄŽg—p‚·‚éê‡‚ÍA“GŽg—p‚ðSetSkill‚Å•t‰Á‚µ‚Ä‚­‚¾‚³‚¢B
-# SetSkill ‘ÎÛƒpƒCƒƒbƒg “GŽg—p -1 ”ñ•\Ž¦
+# å‘³æ–¹ã‚’æ•µã¨ã—ã¦ä½¿ç”¨ã™ã‚‹å ´åˆã¯ã€æ•µä½¿ç”¨ã‚’SetSkillã§ä»˜åŠ ã—ã¦ãã ã•ã„ã€‚
+# SetSkill å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ æ•µä½¿ç”¨ -1 éžè¡¨ç¤º
 
-### ƒl[ƒ€ƒh #############################################################################
+### ãƒãƒ¼ãƒ ãƒ‰ #############################################################################
 
-ƒ}ƒLƒVƒŒƒ~ƒ“ƒgƒ“
-ƒ}ƒLƒV, ’j«, ‚v‚`‰Ô“l, AAAA, 180
-“ÁŽê”\—Í
-’ê—Í, 1, •s‹ü, 1
-‚r‚oÁ”ïŒ¸­Lv5=ƒKƒbƒc “w—Í ª« ƒhª«, 1
-136, 142, 123, 146, 157, 163, •’Ê
-‚r‚o, 60, “w—Í, 1, ”MŒŒ, 3, ª«, 7, Œ˜˜S, 12, SŠá, 23, ŒˆˆÓ, 34
+ãƒžã‚­ã‚·ï¼ãƒ¬ãƒŸãƒ³ãƒˆãƒ³
+ãƒžã‚­ã‚·, ç”·æ€§, ï¼·ï¼¡èŠ±ç›—äºº, AAAA, 180
+ç‰¹æ®Šèƒ½åŠ›
+åº•åŠ›, 1, ä¸å±ˆ, 1
+ï¼³ï¼°æ¶ˆè²»æ¸›å°‘Lv5=ã‚¬ãƒƒãƒ„ åŠªåŠ› æ ¹æ€§ ãƒ‰æ ¹æ€§, 1
+136, 142, 123, 146, 157, 163, æ™®é€š
+ï¼³ï¼°, 60, åŠªåŠ›, 1, ç†±è¡€, 3, æ ¹æ€§, 7, å …ç‰¢, 12, å¿ƒçœ¼, 23, æ±ºæ„, 34
 WAH_MaxiRemington.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle.mid WA3_GunmetalAction.mid WA_Battle.mid WA_CriticalHit!.mid
 
-#356/379+’ê—Í
+#356/379+åº•åŠ›
 
-‰Ô‚ÌŽçŒìbƒGƒXƒƒ‰ƒ‹ƒ_
-‚¨‰Ô‚¿‚á‚ñ, ‚¨‚Í‚È‚¿‚á‚ñ, -, ‚v‚`‰Ô“l(ƒ}ƒLƒVƒŒƒ~ƒ“ƒgƒ“ê‘®ƒTƒ|[ƒg), DDDD, 0
-“ÁŽê”\—Í‚È‚µ
-1, 1, 1, 1, 1, 1, ‹­‹C
-‚r‚o, 20, ‚Ð‚ç‚ß‚«, 1, •K’†, 6, K‰^, 13, ‹C‡, 18, ‘_Œ‚, 21, ŠoÁ, 40
+èŠ±ã®å®ˆè­·ç£ã‚¨ã‚¹ãƒ¡ãƒ©ãƒ«ãƒ€
+ãŠèŠ±ã¡ã‚ƒã‚“, ãŠã¯ãªã¡ã‚ƒã‚“, -, ï¼·ï¼¡èŠ±ç›—äºº(ãƒžã‚­ã‚·ï¼ãƒ¬ãƒŸãƒ³ãƒˆãƒ³å°‚å±žã‚µãƒãƒ¼ãƒˆ), DDDD, 0
+ç‰¹æ®Šèƒ½åŠ›ãªã—
+1, 1, 1, 1, 1, 1, å¼·æ°—
+ï¼³ï¼°, 20, ã²ã‚‰ã‚ã, 1, å¿…ä¸­, 6, å¹¸é‹, 13, æ°—åˆ, 18, ç‹™æ’ƒ, 21, è¦šé†’, 40
 WAH_GurdianOfFlower.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle.mid WA3_GunmetalAction.mid WA_Battle.mid WA_CriticalHit!.mid
 
-‰Ô“lƒMƒB
-ƒMƒB, ’j«, ‚v‚`‰Ô“l, AAAA, 170
-“ÁŽê”\—Í
-Ø‚è•¥‚¢Lv2, 1, Lv3, 20, Lv4, 36, Lv5, 48
-135, 151, 154, 157, 176, 159, •’Ê
-‚r‚o, 55, ‚Ä‚©‚°‚ñ, 1, W’†, 2, ‘_Œ‚, 5, •Œ¾, 9, M—Š, 14, ”MŒŒ, 21
+èŠ±ç›—äººã‚®ã‚£
+ã‚®ã‚£, ç”·æ€§, ï¼·ï¼¡èŠ±ç›—äºº, AAAA, 170
+ç‰¹æ®Šèƒ½åŠ›
+åˆ‡ã‚Šæ‰•ã„Lv2, 1, Lv3, 20, Lv4, 36, Lv5, 48
+135, 151, 154, 157, 176, 159, æ™®é€š
+ï¼³ï¼°, 55, ã¦ã‹ã’ã‚“, 1, é›†ä¸­, 2, ç‹™æ’ƒ, 5, åŠ©è¨€, 9, ä¿¡é ¼, 14, ç†±è¡€, 21
 WAH_Gyi.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle.mid WA3_GunmetalAction.mid WA_Battle.mid WA_CriticalHit!.mid
 
-#393/396+W’†
+#393/396+é›†ä¸­
 
-‰Ô“lƒWƒFƒ`ƒJ
-ƒWƒFƒ`ƒJ, —«, ‚v‚`‰Ô“l, AAAA, 170
-“ÁŽê”\—Í
-–‚—ÍŠ—L, 1
-143, 138, 146, 151, 167, 161, ‹­‹C
-‚r‚o, 55, ‰Á‘¬, 1, ‰B‚êg, 4, W’†, 7, ‚Ð‚ç‚ß‚«, 16, ‚©‚­—, 19, ’§”­, 22
+èŠ±ç›—äººã‚¸ã‚§ãƒã‚«
+ã‚¸ã‚§ãƒã‚«, å¥³æ€§, ï¼·ï¼¡èŠ±ç›—äºº, AAAA, 170
+ç‰¹æ®Šèƒ½åŠ›
+é­”åŠ›æ‰€æœ‰, 1
+143, 138, 146, 151, 167, 161, å¼·æ°—
+ï¼³ï¼°, 55, åŠ é€Ÿ, 1, éš ã‚Œèº«, 4, é›†ä¸­, 7, ã²ã‚‰ã‚ã, 16, ã‹ãä¹±, 19, æŒ‘ç™º, 22
 WAH_Jechica.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle.mid WA3_GunmetalAction.mid WA_Battle.mid WA_CriticalHit!.mid
 ===
-“ÁŽêŒø‰Ê”­“®—¦‹­‰»Lv4=‘S (“GŽg—p)
+ç‰¹æ®ŠåŠ¹æžœç™ºå‹•çŽ‡å¼·åŒ–Lv4=å…¨ (æ•µä½¿ç”¨)
 
-#392/397S+W’†
+#392/397S+é›†ä¸­
 
-ƒGƒCƒWƒGƒŠƒbƒNƒXƒ“
-ƒGƒCƒW, ’j«, ‚v‚`‰Ô“l, AAAA, 160
-“ÁŽê”\—Í
-Œ}Œ‚Lv1, 1, Lv2, 14, Lv3, 25, Lv4, 36, Lv5, 49, Lv6, 64
-140, 148, 145, 155, 170, 162, ’´‹­‹C
-‚r‚o, 50, ’§”­, 1, ‹@æ, 3, ‚Ä‚©‚°‚ñ, 8, ”MŒŒ, 11, ‰Á‘¬, 15, •K’†, 26
+ã‚¨ã‚¤ã‚¸ï¼ã‚¨ãƒªãƒƒã‚¯ã‚¹ãƒ³
+ã‚¨ã‚¤ã‚¸, ç”·æ€§, ï¼·ï¼¡èŠ±ç›—äºº, AAAA, 160
+ç‰¹æ®Šèƒ½åŠ›
+è¿Žæ’ƒLv1, 1, Lv2, 14, Lv3, 25, Lv4, 36, Lv5, 49, Lv6, 64
+140, 148, 145, 155, 170, 162, è¶…å¼·æ°—
+ï¼³ï¼°, 50, æŒ‘ç™º, 1, æ©Ÿå…ˆ, 3, ã¦ã‹ã’ã‚“, 8, ç†±è¡€, 11, åŠ é€Ÿ, 15, å¿…ä¸­, 26
 WAH_EijiEricsun.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle2.mid WA3_WhirlwindOfDeathBlowing.mid WA_Battle.mid WA_CriticalHit!.mid
 ===
-“ÁŽêŒø‰Ê”­“®—¦‹­‰»Lv4=‘S (“GŽg—p)
+ç‰¹æ®ŠåŠ¹æžœç™ºå‹•çŽ‡å¼·åŒ–Lv4=å…¨ (æ•µä½¿ç”¨)
 
 #397/407
 
-ƒ‚ƒjƒJƒAƒ‹ƒOƒŒ[
-ƒ‚ƒjƒJ, —«, ‚v‚`‰Ô“l, AAAA, 150
-“ÁŽê”\—Í
-Œ}Œ‚Lv1, 1, Lv2, 16, Lv3, 27, Lv4, 39
-131, 138, 143, 145, 166, 158, ‹­‹C
-‚r‚o, 50, M—Š, 1, ‚Ä‚©‚°‚ñ, 4, –£˜f, 10, ‚Ð‚ç‚ß‚«, 15, Œƒ“{, 17, ’ÉŒ‚, 20
+ãƒ¢ãƒ‹ã‚«ï¼ã‚¢ãƒ«ã‚°ãƒ¬ãƒ¼
+ãƒ¢ãƒ‹ã‚«, å¥³æ€§, ï¼·ï¼¡èŠ±ç›—äºº, AAAA, 150
+ç‰¹æ®Šèƒ½åŠ›
+è¿Žæ’ƒLv1, 1, Lv2, 16, Lv3, 27, Lv4, 39
+131, 138, 143, 145, 166, 158, å¼·æ°—
+ï¼³ï¼°, 50, ä¿¡é ¼, 1, ã¦ã‹ã’ã‚“, 4, é­…æƒ‘, 10, ã²ã‚‰ã‚ã, 15, æ¿€æ€’, 17, ç—›æ’ƒ, 20
 WAH_MonicaArugure.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle2.mid WA3_WhirlwindOfDeathBlowing.mid WA_Battle.mid WA_CriticalHit!.mid
 ===
-“ÁŽêŒø‰Ê”­“®—¦‹­‰»Lv4=‘S (“GŽg—p)
+ç‰¹æ®ŠåŠ¹æžœç™ºå‹•çŽ‡å¼·åŒ–Lv4=å…¨ (æ•µä½¿ç”¨)
 
 #381/383
 
-### ‰Ô“l^–‚b #########################################################################
+### èŠ±ç›—äººï¼é­”ç£ #########################################################################
 
-‚v‚`‰Ô“l–‚b(ƒUƒR)
-–‚b, ƒ‚ƒ“ƒXƒ^[, ‚v‚`‰Ô“l, AAAA, 70
-“ÁŽê”\—Í‚È‚µ
-135, 135, 135, 130, 140, 150, •’Ê
-‚r‚o‚È‚µ
+ï¼·ï¼¡èŠ±ç›—äººé­”ç£(ã‚¶ã‚³)
+é­”ç£, ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼, ï¼·ï¼¡èŠ±ç›—äºº, AAAA, 70
+ç‰¹æ®Šèƒ½åŠ›ãªã—
+135, 135, 135, 130, 140, 150, æ™®é€š
+ï¼³ï¼°ãªã—
 WA2_monster.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle2.mid WA3_WhirlwindOfDeathBlowing.mid WA_Battle.mid WA_CriticalHit!.mid
 ===
-ˆ¤ÌˆË‘¶Ý’è
-“ÁŽêŒø‰Ê”­“®—¦‹­‰»Lv4=‘S (!–¡•ûŽg—p)
+æ„›ç§°ä¾å­˜è¨­å®š
+ç‰¹æ®ŠåŠ¹æžœç™ºå‹•çŽ‡å¼·åŒ–Lv4=å…¨ (!å‘³æ–¹ä½¿ç”¨)
 
-‚v‚`‰Ô“l–‚b(”Ä—p)
-–‚b, ƒ‚ƒ“ƒXƒ^[, ‚v‚`‰Ô“l, AAAA, 100
-“ÁŽê”\—Í
-ƒƒbƒZ[ƒW=‚v‚`‰Ô“l–‚b(ƒUƒR), 1
-140, 140, 140, 135, 150, 150, •’Ê
-‚r‚o‚È‚µ
+ï¼·ï¼¡èŠ±ç›—äººé­”ç£(æ±Žç”¨)
+é­”ç£, ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼, ï¼·ï¼¡èŠ±ç›—äºº, AAAA, 100
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸=ï¼·ï¼¡èŠ±ç›—äººé­”ç£(ã‚¶ã‚³), 1
+140, 140, 140, 135, 150, 150, æ™®é€š
+ï¼³ï¼°ãªã—
 WA2_monster.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle2.mid WA3_WhirlwindOfDeathBlowing.mid WA_Battle.mid WA_CriticalHit!.mid
 ===
-ˆ¤ÌˆË‘¶Ý’è
-“ÁŽêŒø‰Ê”­“®—¦‹­‰»Lv4=‘S (!–¡•ûŽg—p)
+æ„›ç§°ä¾å­˜è¨­å®š
+ç‰¹æ®ŠåŠ¹æžœç™ºå‹•çŽ‡å¼·åŒ–Lv4=å…¨ (!å‘³æ–¹ä½¿ç”¨)
 
-‚v‚`‰Ô“l‹­‹–‚b(”Ä—p)
-–‚b, ƒ‚ƒ“ƒXƒ^[, ‚v‚`‰Ô“l, AAAA, 130
-“ÁŽê”\—Í
-ƒƒbƒZ[ƒW=‚v‚`‰Ô“l–‚b(ƒUƒR), 1
-145, 145, 145, 140, 160, 155, ‹­‹C
-‚r‚o‚È‚µ
+ï¼·ï¼¡èŠ±ç›—äººå¼·è±ªé­”ç£(æ±Žç”¨)
+é­”ç£, ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼, ï¼·ï¼¡èŠ±ç›—äºº, AAAA, 130
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸=ï¼·ï¼¡èŠ±ç›—äººé­”ç£(ã‚¶ã‚³), 1
+145, 145, 145, 140, 160, 155, å¼·æ°—
+ï¼³ï¼°ãªã—
 WA2_monster.bmp, WildArmsLesVoleursDeFleurs.mid WA3_Battle2.mid WA3_WhirlwindOfDeathBlowing.mid WA_Battle.mid WA_CriticalHit!.mid
 ===
-ˆ¤ÌˆË‘¶Ý’è
-“ÁŽêŒø‰Ê”­“®—¦‹­‰»Lv4=‘S (!–¡•ûŽg—p)
+æ„›ç§°ä¾å­˜è¨­å®š
+ç‰¹æ®ŠåŠ¹æžœç™ºå‹•çŽ‡å¼·åŒ–Lv4=å…¨ (!å‘³æ–¹ä½¿ç”¨)

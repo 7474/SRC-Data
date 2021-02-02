@@ -1,34 +1,34 @@
 
-## �摜�ύX�A�C�e��
+## 画像変更アイテム
 
-�ԃW���[�W�ЂƂ�
-�ԃW���[�W�ЂƂ�, �Œ�, ��\��
-����\��
-���j�b�g�摜=GNS_RokujoHitoma(Red)U.bmp
+赤ジャージひとま
+赤ジャージひとま, 固定, 非表示
+特殊能力
+ユニット画像=GNS_RokujoHitoma(Red)U.bmp
 0, 0, 0, 0, 0
 
 
-���W���[�W�ЂƂ�
-���W���[�W�ЂƂ�, �Œ�, ��\��
-����\��
-���j�b�g�摜=GNS_RokujoHitoma(Gold)U.bmp
+金ジャージひとま
+金ジャージひとま, 固定, 非表示
+特殊能力
+ユニット画像=GNS_RokujoHitoma(Gold)U.bmp
 0, 0, 0, 0, 0
 
 
-�W���[�W�c�[�o�C
-�W���[�W�c�[�o�C, �Œ�, ��\��
-����\��
-���j�b�g�摜=GNS_TwobyFour(Blur)U.bmp
+青ジャージツーバイ
+青ジャージツーバイ, 固定, 非表示
+特殊能力
+ユニット画像=GNS_TwobyFour(Blur)U.bmp
 0, 0, 0, 0, 0
 
 
-���{���I�}�X�N
-���{���I, �Œ�, ��\��
-����\��
-���̕ύX=���{���I
-�ǂ݉����ύX=������Ƃꂨ
-�p�C���b�g�摜=GNS_Moromoto(M).bmp
-���j�b�g�摜=GNS_Moromoto(M)U.bmp
+諸本レオマスク
+諸本レオ, 固定, 非表示
+特殊能力
+愛称変更=諸本レオ
+読み仮名変更=もろもとれお
+パイロット画像=GNS_Moromoto(M).bmp
+ユニット画像=GNS_Moromoto(M)U.bmp
 0, 0, 0, 0, 0
 
-# �A�h�j�I�����{�����{���I�̃}�X�N�����Ă�����
+# アドニオン諸本が諸本レオのマスクを被っている状態

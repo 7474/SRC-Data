@@ -1,303 +1,303 @@
 
-### I—¹ˆ— ###--------------------------------------------------------------------------
+### çµ‚äº†å‡¦ç† ###--------------------------------------------------------------------------
 
-Šg’£Exit:
+æ‹¡å¼µExit:
 
 Switch Random(19)
 
 Case 1
   StartBGM TRIGUN.mid
-  Talk ƒ”ƒ@ƒbƒVƒ…ƒUƒXƒ^ƒ“ƒs[ƒh(‘OŠú)
-  ‚¨A‚È‚ñ‚¾‚¢‚à‚¤I‚í‚è‚©‚¢B;ƒ‚[ƒ`ƒ‡ƒbƒg‚â‚Á‚Ä‚Ý‚é‹C‚Í‚È‚¢‚©‚¢H
-  ‚Å‚à”æ‚ê‚½‚Ì‚È‚çŽd•û‚È‚¢‚ËBŽŸ‰ñ‚ÅŠæ’£‚ë‚¤I
-  ‚»‚ê‚¶‚áŠF‚³‚ñ‚²ˆê‚ÉI
-  ƒ‰ƒ@ƒuƒAƒ@[ƒ“ƒhƒsƒB[ƒXII
+  Talk ãƒ´ã‚¡ãƒƒã‚·ãƒ¥ï¼ã‚¶ï¼ã‚¹ã‚¿ãƒ³ãƒ”ãƒ¼ãƒ‰(å‰æœŸ)
+  ãŠã€ãªã‚“ã ã„ã‚‚ã†çµ‚ã‚ã‚Šã‹ã„ã€‚;ãƒ¢ãƒ¼ãƒãƒ§ãƒƒãƒˆã‚„ã£ã¦ã¿ã‚‹æ°—ã¯ãªã„ã‹ã„ï¼Ÿ
+  ã§ã‚‚ç–²ã‚ŒãŸã®ãªã‚‰ä»•æ–¹ãªã„ã­ã€‚æ¬¡å›žã§é ‘å¼µã‚ã†ï¼
+  ãã‚Œã˜ã‚ƒçš†ã•ã‚“ã”ä¸€ç·’ã«ï¼
+  ãƒ©ã‚¡ãƒ–ã‚¢ã‚¡ãƒ¼ãƒ³ãƒ‰ãƒ”ã‚£ãƒ¼ã‚¹ï¼ï¼
   End
 Case 2
   StartBGM TRIGUN.mid
-  Talk ƒ~ƒŠƒBƒgƒ“ƒvƒ\ƒ“
-  ‚¦[‚à‚¤‚¨‚í‚Á‚¿‚á‚ñ‚Å‚·‚©‚ŸB;‚à‚¤‚¿‚å‚Á‚Æ‚â‚è‚Ü‚µ‚å‚¤‚æ
-  Talk ƒƒŠƒ‹ƒXƒgƒ‰ƒCƒt
-  ƒ~ƒŠƒB‚ ‚ñ‚Ü‚è–³’ƒ‚¢‚í‚È‚¢‚ÌB;‚ ‚¿‚ç‚É‚¾‚Á‚Ä“s‡‚ÆŒ¾‚¤‚à‚Ì‚ª‚ ‚é‚Å‚µ‚å‚¤H
-  ‚»‚ê‚Å‚ÍŠF‚³‚ñA‚Ü‚½‚ÌƒvƒŒƒC‚ð‚¨‘Ò‚¿‚µ‚Ä‚Ü‚·‚í
+  Talk ãƒŸãƒªã‚£ï¼ãƒˆãƒ³ãƒ—ã‚½ãƒ³
+  ãˆãƒ¼ã‚‚ã†ãŠã‚ã£ã¡ã‚ƒã‚“ã§ã™ã‹ãã€‚;ã‚‚ã†ã¡ã‚‡ã£ã¨ã‚„ã‚Šã¾ã—ã‚‡ã†ã‚ˆ
+  Talk ãƒ¡ãƒªãƒ«ï¼ã‚¹ãƒˆãƒ©ã‚¤ãƒ•
+  ãƒŸãƒªã‚£ã‚ã‚“ã¾ã‚Šç„¡èŒ¶ã„ã‚ãªã„ã®ã€‚;ã‚ã¡ã‚‰ã«ã ã£ã¦éƒ½åˆã¨è¨€ã†ã‚‚ã®ãŒã‚ã‚‹ã§ã—ã‚‡ã†ï¼Ÿ
+  ãã‚Œã§ã¯çš†ã•ã‚“ã€ã¾ãŸã®ãƒ—ãƒ¬ã‚¤ã‚’ãŠå¾…ã¡ã—ã¦ã¾ã™ã‚
   End
 Case 3
   StartBGM Bioman.mid
-  Talk ƒŒƒbƒhƒƒ“E‹½Žj˜N
-  ‚»‚¤‚©AI‚í‚é‚Ì‚©B¡“ú‚Í‚ä‚Á‚­‚è‹x‚Þ‚Æ‚¢‚¢
-  ‚¾‚¯‚ÇA’n‹…‚Ì•½˜a‚Æ;‚Ý‚ñ‚È‚ÌÎŠç‚ðŽç‚é‚½‚ß‚É‚ÍAŒN‚Ì—Í‚ª•K—v‚È‚ñ‚¾B‚í‚©‚Á‚Ä‚­‚ê‚é‚ËH
-  ‚¾‚©‚çc•K‚¸‚Ü‚½–ß‚Á‚Ä‚«‚Ä—~‚µ‚¢BƒŒƒbƒhƒƒ“‚Æ‚Ì–ñ‘©‚¾‚ºI
-  ‚»‚ê‚¶‚áŽŸ‰ñ‚àASRC‚Å–l‚Æˆ¬ŽèII
+  Talk ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ãƒ»éƒ·å²æœ—
+  ãã†ã‹ã€çµ‚ã‚ã‚‹ã®ã‹ã€‚ä»Šæ—¥ã¯ã‚†ã£ãã‚Šä¼‘ã‚€ã¨ã„ã„
+  ã ã‘ã©ã€åœ°çƒã®å¹³å’Œã¨;ã¿ã‚“ãªã®ç¬‘é¡”ã‚’å®ˆã‚‹ãŸã‚ã«ã¯ã€å›ã®åŠ›ãŒå¿…è¦ãªã‚“ã ã€‚ã‚ã‹ã£ã¦ãã‚Œã‚‹ã­ï¼Ÿ
+  ã ã‹ã‚‰â€¦å¿…ãšã¾ãŸæˆ»ã£ã¦ãã¦æ¬²ã—ã„ã€‚ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ã¨ã®ç´„æŸã ãœï¼
+  ãã‚Œã˜ã‚ƒæ¬¡å›žã‚‚ã€SRCã§åƒ•ã¨æ¡æ‰‹ï¼ï¼
   End
 Case 4
   StartBGM MaskedRider.mid
-  Talk –{‹½–Ò
-  ‚Ç‚¤‚µ‚½‚ñ‚¾H ‚à‚¤I‚í‚è‚É‚µ‚Ä‚µ‚Ü‚¤‚Ì‚©H
-  ‚»‚¤‚©A‚¾‚ªŒN‚É³‹`‚ÌS‚ª‚ ‚éŒÀ‚èA;‚Ü‚½SRC‚Æ‚¢‚¤íê‚Åí‚Á‚Ä‚­‚ê‚é‚ÆM‚¶‚Ä‚é‚¼‚ÁI
+  Talk æœ¬éƒ·çŒ›
+  ã©ã†ã—ãŸã‚“ã ï¼Ÿ ã‚‚ã†çµ‚ã‚ã‚Šã«ã—ã¦ã—ã¾ã†ã®ã‹ï¼Ÿ
+  ãã†ã‹ã€ã ãŒå›ã«æ­£ç¾©ã®å¿ƒãŒã‚ã‚‹é™ã‚Šã€;ã¾ãŸSRCã¨ã„ã†æˆ¦å ´ã§æˆ¦ã£ã¦ãã‚Œã‚‹ã¨ä¿¡ã˜ã¦ã‚‹ãžã£ï¼
   Suspend
   PlaySound Explode(Far).wav
-  Talk ƒVƒXƒeƒ€
-  ‚Ç‚§‚§‚§‚§‚§‚§‚ñII
-  Talk –{‹½–Ò
-  ‚È‚ÉI ƒVƒ‡ƒbƒJ[‚©IH
-  ƒ€ƒ“ƒbI
-  ƒ‰EƒCEƒ_ƒ@ƒ@ƒ@ƒ@ƒ@cc
-  ƒ‰EƒCEƒ_ƒ@ƒ@ƒ@ƒ@ƒ@cc•ÏƒbƒbI
-  ƒ‰EƒCEƒ_ƒ@ƒ@ƒ@ƒ@ƒ@cc•ÏƒbƒbI gƒbƒbII
+  Talk ã‚·ã‚¹ãƒ†ãƒ 
+  ã©ã‰ã‰ã‰ã‰ã‰ã‰ã‚“ï¼ï¼
+  Talk æœ¬éƒ·çŒ›
+  ãªã«ï¼ ã‚·ãƒ§ãƒƒã‚«ãƒ¼ã‹ï¼ï¼Ÿ
+  ãƒ ãƒ³ãƒƒï¼
+  ãƒ©ãƒ»ã‚¤ãƒ»ãƒ€ã‚¡ã‚¡ã‚¡ã‚¡ã‚¡â€¦â€¦
+  ãƒ©ãƒ»ã‚¤ãƒ»ãƒ€ã‚¡ã‚¡ã‚¡ã‚¡ã‚¡â€¦â€¦å¤‰ãƒƒãƒƒï¼
+  ãƒ©ãƒ»ã‚¤ãƒ»ãƒ€ã‚¡ã‚¡ã‚¡ã‚¡ã‚¡â€¦â€¦å¤‰ãƒƒãƒƒï¼ èº«ãƒƒãƒƒï¼ï¼
   Suspend
   PlaySound Whiz.wav
   Wait 6
-  Talk ‰¼–Êƒ‰ƒCƒ_[‚P†
-  ‚Æ‚§‚§‚§‚§‚§‚§‚ÁIIII;—ˆ‚¢‚ÁI ƒTƒCƒNƒƒ“‚ÁI
-  ‚Å‚Í‚³‚ç‚Î‚¾‚ÁA‚Ü‚½‰ï‚¨‚¤II
+  Talk ä»®é¢ãƒ©ã‚¤ãƒ€ãƒ¼ï¼‘å·
+  ã¨ã‰ã‰ã‰ã‰ã‰ã‰ã£ï¼ï¼ï¼ï¼;æ¥ã„ã£ï¼ ã‚µã‚¤ã‚¯ãƒ­ãƒ³ã£ï¼
+  ã§ã¯ã•ã‚‰ã°ã ã£ã€ã¾ãŸä¼šãŠã†ï¼ï¼
   End
 Case 5
   StartBGM Slayers.mid
-  Talk ƒŠƒiƒCƒ“ƒo[ƒX(ƒVƒŠƒAƒX)
-  ‚¿‚å‚Á‚Æ‚¿‚å‚Á‚Æ‚È‚É‚æI;‚Ü‚¾‚ ‚½‚µ‚ÌŠˆ–ô‚Í‘±‚­‚Ì‚æI;‚±‚±‚ÅI‚í‚Á‚Ä‚Ç‚¤‚·‚ñ‚Ì‚æI
-  Talk ƒŠƒiƒCƒ“ƒo[ƒX
-  c‚Å‚à‚Ü‚Ÿ”æ‚ê‚½‚ÆŒ¾‚¤‚È‚çŽd•û‚È‚¢‚í‚Ë
-  Talk ƒŠƒiƒCƒ“ƒo[ƒX(UŒ‚)
-  ‚½‚¾‚µI;‚Ü‚½‚·‚®–ß‚Á‚Ä‚«‚Ä‚­‚ñ‚È‚¢‚Æ–\‚ê‚¿‚á‚¤‚¼II
+  Talk ãƒªãƒŠï¼ã‚¤ãƒ³ãƒãƒ¼ã‚¹(ã‚·ãƒªã‚¢ã‚¹)
+  ã¡ã‚‡ã£ã¨ã¡ã‚‡ã£ã¨ãªã«ã‚ˆï¼;ã¾ã ã‚ãŸã—ã®æ´»èºã¯ç¶šãã®ã‚ˆï¼;ã“ã“ã§çµ‚ã‚ã£ã¦ã©ã†ã™ã‚“ã®ã‚ˆï¼
+  Talk ãƒªãƒŠï¼ã‚¤ãƒ³ãƒãƒ¼ã‚¹
+  â€¦ã§ã‚‚ã¾ãç–²ã‚ŒãŸã¨è¨€ã†ãªã‚‰ä»•æ–¹ãªã„ã‚ã­
+  Talk ãƒªãƒŠï¼ã‚¤ãƒ³ãƒãƒ¼ã‚¹(æ”»æ’ƒ)
+  ãŸã ã—ï¼;ã¾ãŸã™ãæˆ»ã£ã¦ãã¦ãã‚“ãªã„ã¨æš´ã‚Œã¡ã‚ƒã†ãžï¼ï¼
   End
-  # ‚©‚È‚ç‚¸‚à‚¤‚P‰ñƒvƒŒƒC‚µ‚Ä‚ ‚½‚µ‚ÌŠˆ–ô‚ð‚µ‚Á‚©‚è‚ÆŒ©‚Ä‚¨‚«‚È‚³‚¢I
+  # ã‹ãªã‚‰ãšã‚‚ã†ï¼‘å›žãƒ—ãƒ¬ã‚¤ã—ã¦ã‚ãŸã—ã®æ´»èºã‚’ã—ã£ã‹ã‚Šã¨è¦‹ã¦ãŠããªã•ã„ï¼
 Case 6
   StartBGM Metamorv.mid
-  Talk VðçŒd
-  RPG Construction ƒc[ƒ‹ASRCB‚»‚Ì‰Â”\«‚Í–³ŒÀ‚ÉL‚ª‚éc
-  ‚È`‚ñ‚ÄŠiD‚Â‚¯‚Ä‚à‚¢‚ç‚ñ‚È‚¢‚à‚ñ‚ËI
-  –¾“ú‚Ì‚±‚ÌŽžŠÔ‚àSRC‚Éc:;ƒƒ^ƒ‚ƒ‹Eƒ`ƒF``ƒ“ƒWƒbI
+  Talk æ–°æ¡å’²æ…§
+  RPG Construction ãƒ„ãƒ¼ãƒ«ã€SRCã€‚ãã®å¯èƒ½æ€§ã¯ç„¡é™ã«åºƒãŒã‚‹â€¦
+  ãªï½žã‚“ã¦æ ¼å¥½ã¤ã‘ã¦ã‚‚ã„ã‚‰ã‚“ãªã„ã‚‚ã‚“ã­ï¼
+  æ˜Žæ—¥ã®ã“ã®æ™‚é–“ã‚‚SRCã«â€¦:;ãƒ¡ã‚¿ãƒ¢ãƒ«ãƒ»ãƒã‚§ï½žï½žãƒ³ã‚¸ãƒƒï¼
   End
 Case 7
   StartBGM StF_Dan.mid
-  Talk ‰Îˆø’e
-  ‚Ö‚ÁA‚È‚ñ‚¾‚È‚ñ‚¾A‚à‚¤I‚í‚è‚É‚µ‚¿‚Ü‚¤‚©H;î‚¯‚Ë‚È‚ŸA‚¿‚Á‚½‚Ÿ‚±‚ÌƒTƒCƒLƒ‡[—¬‚ÌƒIƒŒ—l‚ð;Œ©K‚Á‚Äª«Œ©‚¹‚Ä‚Ý‚ë‚æI
-  ‚±‚ÌƒIƒŒ—l‚É‚©‚©‚è‚á‚ A“G‚È‚ñ‚´uŽE‚¾‚ª‚ÈI
-  Talk ‹‹S(‚r‚s‚e)
-  cc
-  Talk ‰Îˆø’e
-  ‚Ü‚ÁA‚»‚±‚ª“ñ—¬‚Ì‚¨‚Ü‚¦‚ç‚Æ‚Ìˆá‚¢‚È‚ñ‚¾‚ª‚æ
-  Talk ‹‹S(‚r‚s‚e)
-  ccc
-  Talk ‰Îˆø’e
-  ‚ ‚ñH ‚¤‚µ‚ë‚É’N‚©‚¢‚é‚¾‚ŸH
-  ƒIƒŒ—l•À‚Ý‚Ì’Bl‚É‚È‚é‚Æ‚¾‚È‚ŸA;‹C”z‚ðŽ@’m‚·‚é‚È‚ñ‚´’©”Ñ‚Üc‚¦H
-  cc
-  Talk ‹‹S(‚r‚s‚e)
-  cccc
-  Talk ‰Îˆø’e
-  ‚ÓA‚Ó‚ñA¡“ú‚Ì‚Æ‚±‚ë‚ÍƒTƒCƒLƒ‡[—¬‚Ì;ƒIƒŒ—l‚É–Æ‚¶‚Ä‹–‚µ‚Ä‚â‚é‚ºB‚¶‚á‚ ‚ÈI
-  ‚Á‚ÄA‚¦A‚ A‚â‚Á‚Ï‚èƒ_ƒH
-  Talk ‹‹S(‚r‚s‚e)
-  ƒtƒ“ƒbII
+  Talk ç«å¼•å¼¾
+  ã¸ã£ã€ãªã‚“ã ãªã‚“ã ã€ã‚‚ã†çµ‚ã‚ã‚Šã«ã—ã¡ã¾ã†ã‹ï¼Ÿ;æƒ…ã‘ã­ãªãã€ã¡ã£ãŸãã“ã®ã‚µã‚¤ã‚­ãƒ§ãƒ¼æµã®ã‚ªãƒ¬æ§˜ã‚’;è¦‹ç¿’ã£ã¦æ ¹æ€§è¦‹ã›ã¦ã¿ã‚ã‚ˆï¼
+  ã“ã®ã‚ªãƒ¬æ§˜ã«ã‹ã‹ã‚Šã‚ƒã‚ã€æ•µãªã‚“ã–çž¬æ®ºã ãŒãªï¼
+  Talk è±ªé¬¼(ï¼³ï¼´ï¼¦)
+  â€¦â€¦
+  Talk ç«å¼•å¼¾
+  ã¾ã£ã€ãã“ãŒäºŒæµã®ãŠã¾ãˆã‚‰ã¨ã®é•ã„ãªã‚“ã ãŒã‚ˆ
+  Talk è±ªé¬¼(ï¼³ï¼´ï¼¦)
+  â€¦â€¦â€¦
+  Talk ç«å¼•å¼¾
+  ã‚ã‚“ï¼Ÿ ã†ã—ã‚ã«èª°ã‹ã„ã‚‹ã ãï¼Ÿ
+  ã‚ªãƒ¬æ§˜ä¸¦ã¿ã®é”äººã«ãªã‚‹ã¨ã ãªãã€;æ°—é…ã‚’å¯ŸçŸ¥ã™ã‚‹ãªã‚“ã–æœé£¯ã¾â€¦ãˆï¼Ÿ
+  â€¦â€¦
+  Talk è±ªé¬¼(ï¼³ï¼´ï¼¦)
+  â€¦â€¦â€¦â€¦
+  Talk ç«å¼•å¼¾
+  ãµã€ãµã‚“ã€ä»Šæ—¥ã®ã¨ã“ã‚ã¯ã‚µã‚¤ã‚­ãƒ§ãƒ¼æµã®;ã‚ªãƒ¬æ§˜ã«å…ã˜ã¦è¨±ã—ã¦ã‚„ã‚‹ãœã€‚ã˜ã‚ƒã‚ãªï¼
+  ã£ã¦ã€ãˆã€ã‚ã€ã‚„ã£ã±ã‚Šãƒ€ãƒ¡ï¼Ÿ
+  Talk è±ªé¬¼(ï¼³ï¼´ï¼¦)
+  ãƒ•ãƒ³ãƒƒï¼ï¼
   Suspend
   PlaySound Combo.wav
-  Talk ƒVƒXƒeƒ€
-  ƒ{ƒRƒ{ƒRƒhƒJƒoƒLƒ{ƒOƒD
+  Talk ã‚·ã‚¹ãƒ†ãƒ 
+  ãƒœã‚³ãƒœã‚³ãƒ‰ã‚«ãƒã‚­ãƒœã‚°ã‚¥
   End
   Wait 10
-  Talk ‰Îˆø’e
-  c‚ª‚Ð‚å[[[[‚ñI
+  Talk ç«å¼•å¼¾
+  â€¦ãŒã²ã‚‡ãƒ¼ãƒ¼ãƒ¼ãƒ¼ã‚“ï¼
   End
 Case 8
   StartBGM "LFS_Opening.mid (Leaf Fight.mid)"
-  Talk ŒŽ“‡—Ú—žŽq
-  cc
-  Talk ƒVƒXƒeƒ€
-  (ƒ`ƒŠƒ`ƒŠƒ`ƒŠƒ`ƒŠƒ`ƒŠƒ`ƒŠƒ`ƒŠƒ`ƒŠc)
-  Talk Vé¹D
-  ‚ [‚ÁA‚é‚è‚é‚èA‚Ü‚½“d”g‚È‚ñ‚©”ò‚Î‚µ‚Ä‚¥
-  —SƒNƒ“‚¶‚á‚È‚¢‚ñ‚¾‚©‚çA;•’Ê‚Ìl‚É‚Í–³—‚¾‚Á‚Ä‚Î
-  Talk ŒŽ“‡—Ú—žŽq
-  ƒpƒ\ƒRƒ“‚Ì‘O‚Í‚æ‚­“Í‚­‚©‚çc
-  Talk Vé¹D
-  ‚ [‚à‚¤‚ÁA‚Ü‚½–ó‚í‚©‚ñ‚È‚¢‚±‚Æ‚ðB;‚Ù‚ç‚ÁA‚Ý‚¸‚Ò[‚à‚È‚ñ‚©Œ¾‚Á‚Ä‚ ‚°‚ÄI
-  Talk —•Œ´•ä
-  ‚¦‚ÁA‚íA‚í‚½‚µH
-  ‚ A‚ ‚ÌA‚í‚½‚µ‚¸‚Á‚Æ‘Ò‚Á‚Ä‚Ü‚·AM‚¶‚Ä‚Ü‚·‚©‚çc
-  Talk Vé¹D
-  ‚»‚¤‚æA‚ ‚ñ‚Ü‚èŽ„‚½‚¿‚ð‘Ò‚½‚¹‚½‚ç;³’m‚µ‚È‚¢‚ñ‚¾‚©‚ç‚Ë
-  Talk ŒŽ“‡—Ú—žŽq
-  (ƒ`ƒŠƒ`ƒŠƒ`ƒŠƒ`ƒŠƒ`ƒŠc)
+  Talk æœˆå³¶ç‘ ç’ƒå­
+  â€¦â€¦
+  Talk ã‚·ã‚¹ãƒ†ãƒ 
+  (ãƒãƒªãƒãƒªãƒãƒªãƒãƒªãƒãƒªãƒãƒªãƒãƒªãƒãƒªâ€¦)
+  Talk æ–°åŸŽæ²™ç¹”
+  ã‚ãƒ¼ã£ã€ã‚‹ã‚Šã‚‹ã‚Šã€ã¾ãŸé›»æ³¢ãªã‚“ã‹é£›ã°ã—ã¦ã‡
+  ç¥ã‚¯ãƒ³ã˜ã‚ƒãªã„ã‚“ã ã‹ã‚‰ã€;æ™®é€šã®äººã«ã¯ç„¡ç†ã ã£ã¦ã°
+  Talk æœˆå³¶ç‘ ç’ƒå­
+  ãƒ‘ã‚½ã‚³ãƒ³ã®å‰ã¯ã‚ˆãå±Šãã‹ã‚‰â€¦
+  Talk æ–°åŸŽæ²™ç¹”
+  ã‚ãƒ¼ã‚‚ã†ã£ã€ã¾ãŸè¨³ã‚ã‹ã‚“ãªã„ã“ã¨ã‚’ã€‚;ã»ã‚‰ã£ã€ã¿ãšã´ãƒ¼ã‚‚ãªã‚“ã‹è¨€ã£ã¦ã‚ã’ã¦ï¼
+  Talk è—åŽŸç‘žç©‚
+  ãˆã£ã€ã‚ã€ã‚ãŸã—ï¼Ÿ
+  ã‚ã€ã‚ã®ã€ã‚ãŸã—ãšã£ã¨å¾…ã£ã¦ã¾ã™ã€ä¿¡ã˜ã¦ã¾ã™ã‹ã‚‰â€¦
+  Talk æ–°åŸŽæ²™ç¹”
+  ãã†ã‚ˆã€ã‚ã‚“ã¾ã‚Šç§ãŸã¡ã‚’å¾…ãŸã›ãŸã‚‰;æ‰¿çŸ¥ã—ãªã„ã‚“ã ã‹ã‚‰ã­
+  Talk æœˆå³¶ç‘ ç’ƒå­
+  (ãƒãƒªãƒãƒªãƒãƒªãƒãƒªãƒãƒªâ€¦)
   End
 Case 9
   StartBGM Leaf Fight.mid
-  Talk ”–Ø‰‰¹(”½“])
-  ‚¤‚ç‚Ÿ‚Ÿ‚Ÿ‚Ÿ`````````‚ÁII
+  Talk æŸæœ¨åˆéŸ³(åè»¢)
+  ã†ã‚‰ããããï½žï½žï½žï½žï½žï½žï½žï½žï½žã£ï¼ï¼
   Suspend
   PlaySound Punch.wav
-  Talk ”–Ø‰‰¹(”½“])
-  ’j‚¾‚Á‚½‚çˆê‹C‚É‚¢‚©‚Ë‚¦‚©‚ÁII
-  Talk ”–Øç’ß
-  ‚ÍA‰‰¹A–³—Œ¾‚í‚È‚¢‚Ì
-  Talk ”–Ø‰‰¹(”½“])
-  ‚¤‚Á‚¹‚¥‚¥‚¥``````‚ÁII
-  cc
-  i‚¶‚ë‚Áj
-  ˆ¤‚µ‚Ä‚é‚ºƒxƒCƒx`I
+  Talk æŸæœ¨åˆéŸ³(åè»¢)
+  ç”·ã ã£ãŸã‚‰ä¸€æ°—ã«ã„ã‹ã­ãˆã‹ã£ï¼ï¼
+  Talk æŸæœ¨åƒé¶´
+  ã¯ã€åˆéŸ³ã€ç„¡ç†è¨€ã‚ãªã„ã®
+  Talk æŸæœ¨åˆéŸ³(åè»¢)
+  ã†ã£ã›ã‡ã‡ã‡ï½žï½žï½žï½žï½žï½žã£ï¼ï¼
+  â€¦â€¦
+  ï¼ˆã˜ã‚ã£ï¼‰
+  æ„›ã—ã¦ã‚‹ãœãƒ™ã‚¤ãƒ™ï½žï¼
   End
 Case 10
   StartBGM Hokutonoken.mid
-  AutoTalk –k“l_Œ‚ÌƒPƒ“ƒVƒƒE
-  1;‚ ‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½.‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½.‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½.‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½.‚½‚½‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½.‚½‚½‚½‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½.‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½.‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½.‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½.‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½.‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½
-  1;‚ ‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½.‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½‚½
-  ‚ ‚½‚ ‚Ÿ‚Ÿ‚Ÿ‚ÁI
+  AutoTalk åŒ—æ–—ç¥žæ‹³ã®ã‚±ãƒ³ã‚·ãƒ­ã‚¦
+  1;ã‚ãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ.ãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ.ãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ.ãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ.ãŸãŸãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ.ãŸãŸãŸãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ.ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ.ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ.ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ.ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ.ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ
+  1;ã‚ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ.ãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸãŸ
+  ã‚ãŸã‚ãããã£ï¼
   Suspend
-  Talk –k“l_Œ‚ÌƒPƒ“ƒVƒƒE
-  SRC‚Í‚à‚¤I‚í‚Á‚Ä‚¢‚éc
+  Talk åŒ—æ–—ç¥žæ‹³ã®ã‚±ãƒ³ã‚·ãƒ­ã‚¦
+  SRCã¯ã‚‚ã†çµ‚ã‚ã£ã¦ã„ã‚‹â€¦
   End
 Case 11
   StartBGM Berserk.mid
-  Talk ‘é‚Ì’c‚ÌƒLƒƒƒXƒJ
-  ‚»‚¤As‚Á‚¿‚á‚¤‚ñ‚¾‚ËcB;‚¨‘O‚ÍŽ©•ª‚Ìí‚ð‚·‚é‚ñ‚¾‚Á‚½‚æ‚È
-  ’N‚É‚à‹­‚¢‚ç‚ê‚é‚±‚Æ‚È‚­AŽ©‚ç‚·‚·‚ñ‚Ås‚­
-  ‚¾‚©‚çcA‚¾‚©‚ç–ß‚Á‚Ä‚­‚é‚Á‚ÄAM‚¶‚Ä‚é‚æB‚¨‘O‚Ì‹A‚éêŠ‚ÍSRC‚É‚ ‚é‚ñ‚¾‚©‚ç
+  Talk é·¹ã®å›£ã®ã‚­ãƒ£ã‚¹ã‚«
+  ãã†ã€è¡Œã£ã¡ã‚ƒã†ã‚“ã ã­â€¦ã€‚;ãŠå‰ã¯è‡ªåˆ†ã®æˆ¦ã‚’ã™ã‚‹ã‚“ã ã£ãŸã‚ˆãª
+  èª°ã«ã‚‚å¼·ã„ã‚‰ã‚Œã‚‹ã“ã¨ãªãã€è‡ªã‚‰ã™ã™ã‚“ã§è¡Œã
+  ã ã‹ã‚‰â€¦ã€ã ã‹ã‚‰æˆ»ã£ã¦ãã‚‹ã£ã¦ã€ä¿¡ã˜ã¦ã‚‹ã‚ˆã€‚ãŠå‰ã®å¸°ã‚‹å ´æ‰€ã¯SRCã«ã‚ã‚‹ã‚“ã ã‹ã‚‰
   End
 Case 12
   StartBGM Wingman.mid
-  Talk L–ìŒ’‘¾
-  ‚¨‚Á‚ÆA‚à‚¤‚â‚ß‚é‚Ì‚©B;‚Ü‚ A³‹`‚Ìƒq[ƒ[‚É‚à‹x‘§‚Í•K—v‚¾‚à‚ñ‚È
-  ‚Å‚àAˆ«‚ª‚±‚Ì¢‚É‚ ‚éŒÀ‚èA;‚Ü‚½ˆê‚Éí‚Á‚Ä‚­‚ê‚é‚æ‚ÈI
-  ‚æ‚µI ‚»‚ê‚¶‚á‚ A‚¢‚Á‚¿‚åŒˆ‚ß‚é‚ºII
-  ƒ`ƒFƒCƒ“ƒOI
-  Talk ƒEƒCƒ“ƒOƒ}ƒ“
-  ˆ«I
-  ˆ«I —óI
-  ˆ«I —óI ƒEƒCƒ“ƒOƒ}ƒ“II
+  Talk åºƒé‡Žå¥å¤ª
+  ãŠã£ã¨ã€ã‚‚ã†ã‚„ã‚ã‚‹ã®ã‹ã€‚;ã¾ã‚ã€æ­£ç¾©ã®ãƒ’ãƒ¼ãƒ­ãƒ¼ã«ã‚‚ä¼‘æ¯ã¯å¿…è¦ã ã‚‚ã‚“ãª
+  ã§ã‚‚ã€æ‚ªãŒã“ã®ä¸–ã«ã‚ã‚‹é™ã‚Šã€;ã¾ãŸä¸€ç·’ã«æˆ¦ã£ã¦ãã‚Œã‚‹ã‚ˆãªï¼
+  ã‚ˆã—ï¼ ãã‚Œã˜ã‚ƒã‚ã€ã„ã£ã¡ã‚‡æ±ºã‚ã‚‹ãœï¼ï¼
+  ãƒã‚§ã‚¤ãƒ³ã‚°ï¼
+  Talk ã‚¦ã‚¤ãƒ³ã‚°ãƒžãƒ³
+  æ‚ªï¼
+  æ‚ªï¼ çƒˆï¼
+  æ‚ªï¼ çƒˆï¼ ã‚¦ã‚¤ãƒ³ã‚°ãƒžãƒ³ï¼ï¼
   End
 Case 13
   StartBGM StF_Ryu.mid
-  Talk —²(‚r‚s‚e)
-  ‚»‚¤‚©cAI‚í‚è‚É‚·‚é‚Ì‚©c
-  ‚¾‚ªAŒ‚ðŒð‚í‚µ‚ÄŒê‚è‡‚Á‚½Ž–‚ðA‰´‚Í–Y‚ê‚È‚¢
-  Ä‚ÑSRC‚ÅŒN‚Æ‹¤‚Éí‚¤‚±‚Æ‚ðM‚¶‚ÄA;‚±‚ÌŒ‚Æ°‚ð–‚­‚Ü‚Å‚¾II
+  Talk éš†(ï¼³ï¼´ï¼¦)
+  ãã†ã‹â€¦ã€çµ‚ã‚ã‚Šã«ã™ã‚‹ã®ã‹â€¦
+  ã ãŒã€æ‹³ã‚’äº¤ã‚ã—ã¦èªžã‚Šåˆã£ãŸäº‹ã‚’ã€ä¿ºã¯å¿˜ã‚Œãªã„
+  å†ã³SRCã§å›ã¨å…±ã«æˆ¦ã†ã“ã¨ã‚’ä¿¡ã˜ã¦ã€;ã“ã®æ‹³ã¨é­‚ã‚’ç£¨ãã¾ã§ã ï¼ï¼
   End
 Case 14
   StartBGM "LFK_Nezameduki.mid (LEAF FIGHT.mid)"
-  Talk ”–Øˆ²
-  ‚¦‚ÁA‚à‚¤‚â‚ß‚¿‚á‚¤‚Ì‚©H ‘S‚­‚¾‚ç‚µ‚È‚¢‚È‚Ÿc
-  Talk ”–Øç’ß
-  ˆ²A‚µ‚å‚¤‚ª‚È‚¢‚Å‚µ‚åB;l‚É‚Í“s‡‚Á‚Ä‚à‚Ì‚ª‚ ‚é‚ñ‚¾‚©‚ç
-  Talk ”–Øˆ²
-  (Ž©•ª‚¾‚Á‚Ä‚Ü‚¾—V‚ñ‚Å—~‚µ‚¢‚­‚¹‚Éc)
-  ‚Á‚½‚­A‚±‚Ì‹U‘PŽÒ‚ª
+  Talk æŸæœ¨æ¢“
+  ãˆã£ã€ã‚‚ã†ã‚„ã‚ã¡ã‚ƒã†ã®ã‹ï¼Ÿ å…¨ãã ã‚‰ã—ãªã„ãªãâ€¦
+  Talk æŸæœ¨åƒé¶´
+  æ¢“ã€ã—ã‚‡ã†ãŒãªã„ã§ã—ã‚‡ã€‚;äººã«ã¯éƒ½åˆã£ã¦ã‚‚ã®ãŒã‚ã‚‹ã‚“ã ã‹ã‚‰
+  Talk æŸæœ¨æ¢“
+  (è‡ªåˆ†ã ã£ã¦ã¾ã éŠã‚“ã§æ¬²ã—ã„ãã›ã«â€¦)
+  ã£ãŸãã€ã“ã®å½å–„è€…ãŒ
   Suspend
   PlaySound Wind.wav
-  Talk ”–Øç’ß(‹S)
-  ‚ E‚¸E‚³E‚¿‚á‚ñH
-  ¡‚¿‚å‚Á‚Æ•·‚«ŽÌ‚Ä‚È‚ç‚È‚¢‚±‚ÆAŒ¾‚í‚È‚©‚Á‚½H
-  Talk ”–Øˆ²
-  ‚Ð‚ÁA‚Ð‚¡c;‚©A‚©‚¦‚Å‚ÁA•‚¯‚Ä‚­‚ê‚ÁI
-  Talk ”–Ø•–
-  ccŽ©‹ÆŽ©“¾
-  Talk ”–Ø‰‰¹
-  ‚ A‚¨Žo‚¿‚á‚ñ’B‚¿‚å‚Á‚Æ—§‚Äž‚ñ‚Å‚é‚©‚çA‚í‚½‚µ‚ª‘ã‚í‚é‚Ë
-  ‚í‚½‚µA‚¨‚É‚¢‚¿‚á‚ñ‚ª–ß‚Á‚Ä‚­‚é‚Á‚ÄM‚¶‚Ä‚é‚æB;‚¾‚©‚çA‚Ü‚½‚¢‚Á‚µ‚å‚ÉSRC‚Å—V‚Ú‚¤‚Ë‚ÁI
+  Talk æŸæœ¨åƒé¶´(é¬¼)
+  ã‚ãƒ»ãšãƒ»ã•ãƒ»ã¡ã‚ƒã‚“ï¼Ÿ
+  ä»Šã¡ã‚‡ã£ã¨èžãæ¨ã¦ãªã‚‰ãªã„ã“ã¨ã€è¨€ã‚ãªã‹ã£ãŸï¼Ÿ
+  Talk æŸæœ¨æ¢“
+  ã²ã£ã€ã²ãƒâ€¦;ã‹ã€ã‹ãˆã§ã£ã€åŠ©ã‘ã¦ãã‚Œã£ï¼
+  Talk æŸæœ¨æ¥“
+  â€¦â€¦è‡ªæ¥­è‡ªå¾—
+  Talk æŸæœ¨åˆéŸ³
+  ã‚ã€ãŠå§‰ã¡ã‚ƒã‚“é”ã¡ã‚‡ã£ã¨ç«‹ã¦è¾¼ã‚“ã§ã‚‹ã‹ã‚‰ã€ã‚ãŸã—ãŒä»£ã‚ã‚‹ã­
+  ã‚ãŸã—ã€ãŠã«ã„ã¡ã‚ƒã‚“ãŒæˆ»ã£ã¦ãã‚‹ã£ã¦ä¿¡ã˜ã¦ã‚‹ã‚ˆã€‚;ã ã‹ã‚‰ã€ã¾ãŸã„ã£ã—ã‚‡ã«SRCã§éŠã¼ã†ã­ã£ï¼
   End
 Case 15
   StartBGM Gegege.mid
-  Talk ƒQƒQƒQ‚Ì‹S‘¾˜Y
-  ‚à‚¤I‚í‚Á‚¿‚á‚¤‚Ì‚©‚¢H ‚¿‚å‚Á‚ÆŽc”O‚¾‚È
-  Talk –Ú‹Ê‚Ì‚¨‚â‚¶
-  ‚»‚¤–³—‚ð‚¢‚¤‚Å‚È‚¢B;ƒQ[ƒ€‚ð‚µ‚½Œã‚Ì“K“x‚È‹xŒe‚Íd—v‚È‚ñ‚¶‚á‚æ
-  Talk ƒQƒQƒQ‚Ì‹S‘¾˜Y
-  ‚»‚¤‚Å‚·‚Ë•ƒ‚³‚ñB;‚»‚ê‚¶‚á‚Ü‚½ƒvƒŒƒC‚µ‚Ä‚­‚ê‚é‚Ì‚ð‘Ò‚Á‚Ä‚é‚æI
+  Talk ã‚²ã‚²ã‚²ã®é¬¼å¤ªéƒŽ
+  ã‚‚ã†çµ‚ã‚ã£ã¡ã‚ƒã†ã®ã‹ã„ï¼Ÿ ã¡ã‚‡ã£ã¨æ®‹å¿µã ãª
+  Talk ç›®çŽ‰ã®ãŠã‚„ã˜
+  ãã†ç„¡ç†ã‚’ã„ã†ã§ãªã„ã€‚;ã‚²ãƒ¼ãƒ ã‚’ã—ãŸå¾Œã®é©åº¦ãªä¼‘æ†©ã¯é‡è¦ãªã‚“ã˜ã‚ƒã‚ˆ
+  Talk ã‚²ã‚²ã‚²ã®é¬¼å¤ªéƒŽ
+  ãã†ã§ã™ã­çˆ¶ã•ã‚“ã€‚;ãã‚Œã˜ã‚ƒã¾ãŸãƒ—ãƒ¬ã‚¤ã—ã¦ãã‚Œã‚‹ã®ã‚’å¾…ã£ã¦ã‚‹ã‚ˆï¼
   End
 Case 16
   StartBGM SuperRealMahjong.mid
-  Talk ‹Ú‘òŸ
-  ‚¦‚¥`IH ‚à‚¤‚â‚ß‚¿‚á‚¤‚Ì‚§H
-  Talk —ˆ‹{‚ä‚©‚è
-  ‚±‚±‚Å‚¨•Ê‚ê‚µ‚È‚­‚¿‚á‚¢‚¯‚È‚¢‚Ì‚ÍŽc”O‚¾‚¯‚Çc
-  ‚Ü‚½¡“xAƒvƒŒƒC‚µ‚Ä‚­‚ê‚Ü‚·‚æ‚ËH:;Ž„A‘Ò‚Á‚Ä‚Ü‚·‚©‚çc
-  Talk –ƒ”ä“Þ•S‡“Þ
-  ‚»‚ê‚¶‚á‚ A‚Ü‚½SRC‚Å‰ï‚¢‚Ü‚µ‚å‚¤‚ËA;‚¨ŒZ‚¿‚á‚ñI
+  Talk èŠ¹æ²¢é¦™æ¾„
+  ãˆã‡ï½žï¼ï¼Ÿ ã‚‚ã†ã‚„ã‚ã¡ã‚ƒã†ã®ã‰ï¼Ÿ
+  Talk æ¥å®®ã‚†ã‹ã‚Š
+  ã“ã“ã§ãŠåˆ¥ã‚Œã—ãªãã¡ã‚ƒã„ã‘ãªã„ã®ã¯æ®‹å¿µã ã‘ã©â€¦
+  ã¾ãŸä»Šåº¦ã€ãƒ—ãƒ¬ã‚¤ã—ã¦ãã‚Œã¾ã™ã‚ˆã­ï¼Ÿ:;ç§ã€å¾…ã£ã¦ã¾ã™ã‹ã‚‰â€¦
+  Talk éº»æ¯”å¥ˆç™¾åˆå¥ˆ
+  ãã‚Œã˜ã‚ƒã‚ã€ã¾ãŸSRCã§ä¼šã„ã¾ã—ã‚‡ã†ã­ã€;ãŠå…„ã¡ã‚ƒã‚“ï¼
   End
 Case 17
   StartBGM HoushinEngi.mid
-  Talk ‘¾Œö–]
-  ‚Ó‚ÞAˆêŽžI—¹‚©B;“K“x‚È‹xŒe‚ð‚Í‚³‚Þ‚Ì‚àŒø—¦‚ª‚æ‚¢‚©‚ç‚Ì‚¤
-  Talk Žl•sÛ
-  ‚»‚ñ‚ÈŽ–Œ¾‚Á‚Ä–{‰¹‚Í;Ž©•ª‚ªƒiƒ}ƒP‚½‚¢‚¾‚¯‚ÁƒX‚æ‚Ëcc
-  Talk ‘¾Œö–](Žè”²‚«)
-  ‚±A‚±‚çƒX[ƒv[I;Šé‹Æ”é–§‚ðƒvƒŒƒCƒ„[‚Éƒoƒ‰‚·‚Å‚È‚¢`
-  Talk Žl•sÛ
-  ‚â‚Á‚ÏƒAƒz“¹Žmcc
+  Talk å¤ªå…¬æœ›
+  ãµã‚€ã€ä¸€æ™‚çµ‚äº†ã‹ã€‚;é©åº¦ãªä¼‘æ†©ã‚’ã¯ã•ã‚€ã®ã‚‚åŠ¹çŽ‡ãŒã‚ˆã„ã‹ã‚‰ã®ã†
+  Talk å››ä¸è±¡
+  ãã‚“ãªäº‹è¨€ã£ã¦æœ¬éŸ³ã¯;è‡ªåˆ†ãŒãƒŠãƒžã‚±ãŸã„ã ã‘ã£ã‚¹ã‚ˆã­â€¦â€¦
+  Talk å¤ªå…¬æœ›(æ‰‹æŠœã)
+  ã“ã€ã“ã‚‰ã‚¹ãƒ¼ãƒ—ãƒ¼ï¼;ä¼æ¥­ç§˜å¯†ã‚’ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã«ãƒãƒ©ã™ã§ãªã„ï½ž
+  Talk å››ä¸è±¡
+  ã‚„ã£ã±ã‚¢ãƒ›é“å£«â€¦â€¦
   End
 Case 18
   StartBGM SteelAngel.mid
-  Talk |“S“VŽg‚­‚é‚Ý
-  ‚¨”æ‚ê‚³‚Ü‚Å‚·‚£A‚²Žål—l
-  —V‚ñ‚¾Œã‚Í‚ä‚Á‚­‚è‚Æ‚¨‹x‚Ý‚ðŽæ‚ç‚È‚¢‚ÆA‘Ì‚Éˆ«‚¢‚Å‚·‚©‚ç‚Ë
-  ‚Å‚à‚Å‚àA‚­‚é‚Ý‚Æ‚Ü‚½ˆê‚É—V‚ñ‚Å‚­‚¾‚³‚¢‚Å‚·‚£
-  ‚­‚é‚Ý‚Æ‚²Žål—l‚¾‚¯‚Ì–ñ‘©A‚Å‚·‚£ô
+  Talk é‹¼é‰„å¤©ä½¿ãã‚‹ã¿
+  ãŠç–²ã‚Œã•ã¾ã§ã™ã…ã€ã”ä¸»äººæ§˜
+  éŠã‚“ã å¾Œã¯ã‚†ã£ãã‚Šã¨ãŠä¼‘ã¿ã‚’å–ã‚‰ãªã„ã¨ã€ä½“ã«æ‚ªã„ã§ã™ã‹ã‚‰ã­
+  ã§ã‚‚ã§ã‚‚ã€ãã‚‹ã¿ã¨ã¾ãŸä¸€ç·’ã«éŠã‚“ã§ãã ã•ã„ã§ã™ã…
+  ãã‚‹ã¿ã¨ã”ä¸»äººæ§˜ã ã‘ã®ç´„æŸã€ã§ã™ã…â™ª
   End
 Case 19
   StartBGM SegataSanshiro.mid
-  Talk ‚¹‚ª‚½ŽOŽl˜Y
-  ‚Ó‚ñI ‚Ç‚¤‚è‚á‚ ‚ ‚ ‚ ƒbIII
+  Talk ã›ãŒãŸä¸‰å››éƒŽ
+  ãµã‚“ï¼ ã©ã†ã‚Šã‚ƒã‚ã‚ã‚ã‚ãƒƒï¼ï¼ï¼
   Suspend
   PlaySound Explode(Far).wav
-  Talk ‚¹‚ª‚½ŽOŽl˜Y
-  ƒZƒKƒTƒ^[ƒ“A:ƒVƒII
-  ƒQ[ƒ€‚Íˆê“úˆêŽžŠÔI ‚Ü‚½‰ï‚¨‚¤II
+  Talk ã›ãŒãŸä¸‰å››éƒŽ
+  ã‚»ã‚¬ã‚µã‚¿ãƒ¼ãƒ³ã€:ã‚·ãƒ­ï¼ï¼
+  ã‚²ãƒ¼ãƒ ã¯ä¸€æ—¥ä¸€æ™‚é–“ï¼ ã¾ãŸä¼šãŠã†ï¼ï¼
   End
 EndSw
 Return
 
 
-### ƒQ[ƒ€ƒI[ƒo[ˆ— ###----------------------------------------------------------------
+### ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼å‡¦ç† ###----------------------------------------------------------------
 
-Šg’£GameOver:
+æ‹¡å¼µGameOver:
 
 Switch Random(6)
 Case 1
-  Talk ‚“m‚­‚é‚Ý
-  ‚È‚É‚æ‚È‚É‚æI î‚¯‚È‚¢‚í‚Ë‚¥‚ÁII
-  ‚f‚`‚l‚d ‚n‚u‚d‚q‚¶‚á‚È‚¢‚Ì‚æ‚Á
+  Talk é«˜æœãã‚‹ã¿
+  ãªã«ã‚ˆãªã«ã‚ˆï¼ æƒ…ã‘ãªã„ã‚ã­ã‡ã£ï¼ï¼
+  ï¼§ï¼¡ï¼­ï¼¥ ï¼¯ï¼¶ï¼¥ï¼²ã˜ã‚ƒãªã„ã®ã‚ˆã£
   End
 Case 2
-  Talk VðçŒd
-  ‚ ‚¿‚á‚Ÿ`A‚â‚ç‚ê‚¿‚á‚Á‚½c
-  ‚f‚`‚l‚d ‚n‚u‚d‚q‚¾‚æ
+  Talk æ–°æ¡å’²æ…§
+  ã‚ã¡ã‚ƒãï½žã€ã‚„ã‚‰ã‚Œã¡ã‚ƒã£ãŸâ€¦
+  ï¼§ï¼¡ï¼­ï¼¥ ï¼¯ï¼¶ï¼¥ï¼²ã ã‚ˆ
   End
 Case 3
-  Talk ²ŽR“æ‹I
-  ƒ{ƒN‚Ì”»’fƒ~ƒX‚¾A‚·‚Ü‚È‚¢c
-  ‚f‚`‚l‚d ‚n‚u‚d‚q‚¾
+  Talk ä½å±±æºç´€
+  ãƒœã‚¯ã®åˆ¤æ–­ãƒŸã‚¹ã ã€ã™ã¾ãªã„â€¦
+  ï¼§ï¼¡ï¼­ï¼¥ ï¼¯ï¼¶ï¼¥ï¼²ã 
   End
 Case 4
-  Talk —FŒb‚à‚¦Žq
-  ‚¦‚Á‚ÆcA‚ ‚ÌcA‚»‚Ìc
-  ‚f‚`‚l‚d ‚n‚u‚d‚qc‚Ý‚½‚¢‚¾‚æc
+  Talk å‹æµã‚‚ãˆå­
+  ãˆã£ã¨â€¦ã€ã‚ã®â€¦ã€ãã®â€¦
+  ï¼§ï¼¡ï¼­ï¼¥ ï¼¯ï¼¶ï¼¥ï¼²â€¦ã¿ãŸã„ã ã‚ˆâ€¦
   End
 Case 5
-  Talk “ì•S‡—íŽq
-  ‚â‚ç‚ê‚Ä‚µ‚Ü‚¢‚Ü‚µ‚½‚Ì‚Ë
-  ‚f‚`‚l‚d ‚n‚u‚d‚q‚Å‚·‚í
+  Talk å—ç™¾åˆéº—å­
+  ã‚„ã‚‰ã‚Œã¦ã—ã¾ã„ã¾ã—ãŸã®ã­
+  ï¼§ï¼¡ï¼­ï¼¥ ï¼¯ï¼¶ï¼¥ï¼²ã§ã™ã‚
   End
 Case 6
-  Talk ‰“–ì‚Ý‚Ã‚«(X‚Ë)
-  ‚ `‚ A•‰‚¯‚¿‚á‚Á‚½‚Ë
-  ‚f‚`‚l‚d ‚n‚u‚d‚q‚¾‚æ
+  Talk é é‡Žã¿ã¥ã(æ‹—ã­)
+  ã‚ï½žã‚ã€è² ã‘ã¡ã‚ƒã£ãŸã­
+  ï¼§ï¼¡ï¼­ï¼¥ ï¼¯ï¼¶ï¼¥ï¼²ã ã‚ˆ
   End
 EndSw
 
@@ -307,109 +307,109 @@ StartBGM Continue.mid
 Switch Random(10)
 
 Case 1 2 3
-  Talk –²‚ ‚¨‚¢
-  ‚ñ‚à‚¤Aî‚¯‚È‚¢‚í‚Ë‚¦
-  ‚ ‚½‚µ‚ÌƒfƒBƒƒ“ƒVƒ‡ƒ“ƒpƒ[‚Å;‰½‚Æ‚©‚µ‚Ä‚ ‚°‚ç‚ê‚È‚­‚à‚È‚¢‚¯‚ÇA‚Ç‚¤‚·‚éH
+  Talk å¤¢ã‚ãŠã„
+  ã‚“ã‚‚ã†ã€æƒ…ã‘ãªã„ã‚ã­ãˆ
+  ã‚ãŸã—ã®ãƒ‡ã‚£ãƒ¡ãƒ³ã‚·ãƒ§ãƒ³ãƒ‘ãƒ¯ãƒ¼ã§;ä½•ã¨ã‹ã—ã¦ã‚ã’ã‚‰ã‚Œãªãã‚‚ãªã„ã‘ã©ã€ã©ã†ã™ã‚‹ï¼Ÿ
   End
 
   Ask
-  ³‹`‚ÌS‚Í•s–Å‚¾II
-  ‚Æ‚«‚É‚Í‹xŒe‚à•K—v‚©‚àcc
+  æ­£ç¾©ã®å¿ƒã¯ä¸æ»…ã ï¼ï¼
+  ã¨ãã«ã¯ä¼‘æ†©ã‚‚å¿…è¦ã‹ã‚‚â€¦â€¦
   End
 
   PlaySound Type.wav
 
-  If ‘I‘ð = 1 Then
-    Talk –²‚ ‚¨‚¢
-    ‚æ‚µI ‚»‚ê‚Å‚±‚»ƒq[ƒ[‚¾I
+  If é¸æŠž = 1 Then
+    Talk å¤¢ã‚ãŠã„
+    ã‚ˆã—ï¼ ãã‚Œã§ã“ããƒ’ãƒ¼ãƒ­ãƒ¼ã ï¼
     End
     QuickLoad
   Endif
 
-  Talk –²‚ ‚¨‚¢
-  ‚»‚Á‚©cB‚Å‚à–ß‚Á‚Ä‚«‚Ä‚­‚ê‚é‚±‚ÆAM‚¶‚Ä‚é‚í‚æ
+  Talk å¤¢ã‚ãŠã„
+  ãã£ã‹â€¦ã€‚ã§ã‚‚æˆ»ã£ã¦ãã¦ãã‚Œã‚‹ã“ã¨ã€ä¿¡ã˜ã¦ã‚‹ã‚ã‚ˆ
   End
 Case 4 5 6
-  Talk ƒWƒ€ƒz[ƒLƒ“ƒO
-  ƒUƒ}‚Ÿ‚Ë‚¦‚ºB;‚¾‚©‚çƒAƒjƒL‚Íƒ`ƒFƒŠ[‚Á‚ÄŒ¾‚í‚ê‚ñ‚Ì‚³I
-  Talk ƒW[ƒ“ƒXƒ^[ƒEƒCƒ“ƒh
-  ‚ñE‚¾E‚Æ‚ÁII
-  Talk ƒƒ‹ƒtƒBƒi
-  ’‡ŠÔŠ„‚ê‚ÍŽ~‚ß‚ÄƒW[ƒ“B;Ž„‚ª‚ ‚È‚½‚É‚à‚¤ˆê“xƒ`ƒƒƒ“ƒX‚ð‚ ‚°‚Ü‚·c
+  Talk ã‚¸ãƒ ï¼ãƒ›ãƒ¼ã‚­ãƒ³ã‚°
+  ã‚¶ãƒžãã­ãˆãœã€‚;ã ã‹ã‚‰ã‚¢ãƒ‹ã‚­ã¯ãƒã‚§ãƒªãƒ¼ã£ã¦è¨€ã‚ã‚Œã‚“ã®ã•ï¼
+  Talk ã‚¸ãƒ¼ãƒ³ï¼ã‚¹ã‚¿ãƒ¼ã‚¦ã‚¤ãƒ³ãƒ‰
+  ã‚“ãƒ»ã ãƒ»ã¨ã£ï¼ï¼
+  Talk ãƒ¡ãƒ«ãƒ•ã‚£ãƒŠ
+  ä»²é–“å‰²ã‚Œã¯æ­¢ã‚ã¦ã‚¸ãƒ¼ãƒ³ã€‚;ç§ãŒã‚ãªãŸã«ã‚‚ã†ä¸€åº¦ãƒãƒ£ãƒ³ã‚¹ã‚’ã‚ã’ã¾ã™â€¦
   End
 
   Ask
-  ‚ ‚ A—Š‚Þ‚º
-  lŒ`‚ÌŒ¾‚¤‚±‚Æ‚ªM‚¶‚ç‚ê‚Á‚©
+  ã‚ã‚ã€é ¼ã‚€ãœ
+  äººå½¢ã®è¨€ã†ã“ã¨ãŒä¿¡ã˜ã‚‰ã‚Œã£ã‹
   End
 
   PlaySound Type.wav
 
-  If ‘I‘ð = 1 Then
-    Talk ƒƒ‹ƒtƒBƒi
-    ‚Å‚Í–Ú‚ð•Â‚¶‚ÄA—´–¬‚Ì—Í‚ðŠ´‚¶‚Ä‰º‚³‚¢c
+  If é¸æŠž = 1 Then
+    Talk ãƒ¡ãƒ«ãƒ•ã‚£ãƒŠ
+    ã§ã¯ç›®ã‚’é–‰ã˜ã¦ã€é¾è„ˆã®åŠ›ã‚’æ„Ÿã˜ã¦ä¸‹ã•ã„â€¦
     End
     QuickLoad
   Endif
 
-  Talk ƒƒ‹ƒtƒBƒi
-  ‚ ‚È‚½‚Í•K‚¸–ß‚Á‚Ä‚­‚é‚íB‚»‚ê‚Ü‚Å‚Í‚ä‚Á‚­‚è‚¨‚â‚·‚Ýcc
+  Talk ãƒ¡ãƒ«ãƒ•ã‚£ãƒŠ
+  ã‚ãªãŸã¯å¿…ãšæˆ»ã£ã¦ãã‚‹ã‚ã€‚ãã‚Œã¾ã§ã¯ã‚†ã£ãã‚ŠãŠã‚„ã™ã¿â€¦â€¦
   End
 Case 7 8 9
-  Talk ‰“–ì‚Ý‚Ã‚«
-  ‚È‚Ÿ‚ÉA‚à‚¤ƒMƒuƒAƒbƒvH ‚¾‚ç‚µ‚È‚¢‚í‚Ë‚¥
-  Talk ‘â»(”¯‰º‚ë‚µ)
-  ‚»‚ñ‚È‚±‚ÆŒ¾‚í‚È‚¢‚Å‚³A‚à‚¤‚P‰ñ‚â‚ë‚¤‚æH ‚Ë‚¥c
+  Talk é é‡Žã¿ã¥ã
+  ãªãã«ã€ã‚‚ã†ã‚®ãƒ–ã‚¢ãƒƒãƒ—ï¼Ÿ ã ã‚‰ã—ãªã„ã‚ã­ã‡
+  Talk æ—©å‚æ™¶(é«ªä¸‹ã‚ã—)
+  ãã‚“ãªã“ã¨è¨€ã‚ãªã„ã§ã•ã€ã‚‚ã†ï¼‘å›žã‚„ã‚ã†ã‚ˆï¼Ÿ ã­ã‡â€¦
   End
 
   Ask
-  ‚æ‚µA‚à‚¤100‰~“Š“ü(ˆá)‚¾I
-  ¡“ú‚Í‚±‚Ì•Ó‚Å‹A‚é‚æc
+  ã‚ˆã—ã€ã‚‚ã†100å††æŠ•å…¥(é•)ã ï¼
+  ä»Šæ—¥ã¯ã“ã®è¾ºã§å¸°ã‚‹ã‚ˆâ€¦
   End
 
   PlaySound Type.wav
 
-  If ‘I‘ð = 1 Then
-    Talk “¡Œ´ˆ»
-    ‚Ç‚¤‚àc‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·I
-    Talk ‘â»
-    ‚»‚ê‚¶‚áAŠæ’£‚Á‚Ä‚ËI
-    Talk ‰“–ì‚Ý‚Ã‚«(ƒEƒBƒ“ƒN2)
-    ¡“x‚±‚»•‰‚¯‚é‚ñ‚¶‚á‚È‚¢‚æI
+  If é¸æŠž = 1 Then
+    Talk è—¤åŽŸç¶¾
+    ã©ã†ã‚‚â€¦ã‚ã‚ŠãŒã¨ã†ã”ã–ã„ã¾ã™ï¼
+    Talk æ—©å‚æ™¶
+    ãã‚Œã˜ã‚ƒã€é ‘å¼µã£ã¦ã­ï¼
+    Talk é é‡Žã¿ã¥ã(ã‚¦ã‚£ãƒ³ã‚¯2)
+    ä»Šåº¦ã“ãè² ã‘ã‚‹ã‚“ã˜ã‚ƒãªã„ã‚ˆï¼
     End
     QuickLoad
   Endif
 
-  Talk “¡Œ´ˆ»(—‹)
-  cˆÓ‹C’n‚È‚µcI
-  Talk ‰“–ì‚Ý‚Ã‚«(‚¤‚È‚¾‚ê)
-  ‚ÜA‚µ‚å‚¤‚ª‚È‚¢‚©c
-  Talk ‘â»(‹©‚Ñ)
-  ‚½E‚¾E‚µI ‚¢‚Â‚©•K‚¸ƒŠƒxƒ“ƒWŒˆ‚ß‚é‚±‚ÆI;‚¢[‚í‚ËH
+  Talk è—¤åŽŸç¶¾(é›·)
+  â€¦æ„æ°—åœ°ãªã—â€¦ï¼
+  Talk é é‡Žã¿ã¥ã(ã†ãªã ã‚Œ)
+  ã¾ã€ã—ã‚‡ã†ãŒãªã„ã‹â€¦
+  Talk æ—©å‚æ™¶(å«ã³)
+  ãŸãƒ»ã ãƒ»ã—ï¼ ã„ã¤ã‹å¿…ãšãƒªãƒ™ãƒ³ã‚¸æ±ºã‚ã‚‹ã“ã¨ï¼;ã„ãƒ¼ã‚ã­ï¼Ÿ
   End
 Case 10
   StartBGM T_Memorial_Saki.mid
-  Talk “ø–ì¹Šó
-  ‚ ‚«‚ç‚ß‚È‚¢‚ÅI;‚ª‚ñ‚Î‚ê‚Îâ‘Î‚ÉƒNƒŠƒA‚Å‚«‚é‚íI;Ž„‚Æˆê‚ÉƒGƒ“ƒfƒBƒ“ƒO‚ð–ÚŽw‚µ‚Ü‚µ‚å‚¤II
+  Talk è™¹é‡Žæ²™å¸Œ
+  ã‚ãã‚‰ã‚ãªã„ã§ï¼;ãŒã‚“ã°ã‚Œã°çµ¶å¯¾ã«ã‚¯ãƒªã‚¢ã§ãã‚‹ã‚ï¼;ç§ã¨ä¸€ç·’ã«ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ã‚’ç›®æŒ‡ã—ã¾ã—ã‚‡ã†ï¼ï¼
   End
 
   Ask
-  “ø–ì‚³‚ñI ƒIƒŒ‚Í‚â‚é‚ºII
-  ”R‚¦s‚«‚½‚Á‚·cc
+  è™¹é‡Žã•ã‚“ï¼ ã‚ªãƒ¬ã¯ã‚„ã‚‹ãœï¼ï¼
+  ç‡ƒãˆå°½ããŸã£ã™â€¦â€¦
   End
  
   PlaySound Type.wav
 
-  If ‘I‘ð = 1 Then
-    Talk “ø–ì¹Šó
-    ‚»‚¤‚æAª«‚Å‚ª‚ñ‚Î‚Á‚Ä‚ËI
+  If é¸æŠž = 1 Then
+    Talk è™¹é‡Žæ²™å¸Œ
+    ãã†ã‚ˆã€æ ¹æ€§ã§ãŒã‚“ã°ã£ã¦ã­ï¼
     End
     QuickLoad
   Endif
 
-  Talk “ø–ì¹Šó
-  –ñ‘©‚µ‚½‚¶‚á‚È‚¢I;ˆê‚ÉƒGƒ“ƒfƒBƒ“ƒO‚ðŒ©‚æ‚¤‚Á‚Ä‚¢‚Á‚½‚¶‚á‚È‚¢II
-  cc‚²‚ß‚ñ‚È‚³‚¢AŒ¾‚¢‰ß‚¬‚¿‚á‚Á‚½‚ËB‚Å‚àAM‚¶‚Ä‚é‚©‚ç‚ËI
+  Talk è™¹é‡Žæ²™å¸Œ
+  ç´„æŸã—ãŸã˜ã‚ƒãªã„ï¼;ä¸€ç·’ã«ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ã‚’è¦‹ã‚ˆã†ã£ã¦ã„ã£ãŸã˜ã‚ƒãªã„ï¼ï¼
+  â€¦â€¦ã”ã‚ã‚“ãªã•ã„ã€è¨€ã„éŽãŽã¡ã‚ƒã£ãŸã­ã€‚ã§ã‚‚ã€ä¿¡ã˜ã¦ã‚‹ã‹ã‚‰ã­ï¼
   End
 EndSw
 Return

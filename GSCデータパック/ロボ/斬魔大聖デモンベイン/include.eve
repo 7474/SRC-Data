@@ -1,134 +1,134 @@
 
-### ‚c~‚c‡‘Ì‹ZƒƒbƒZ[ƒW ------------------------------------------------------
+### ï¼¤Ã—ï¼¤åˆä½“æŠ€ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ ------------------------------------------------------
 
-í“¬ƒAƒjƒ_‚c~‚cƒƒbƒZ[ƒW_‚©‚¯º:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ï¼¤Ã—ï¼¤ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸_ã‹ã‘å£°:
 Local UID
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
-	If Pilot(UID) = ‘å\š‹ã˜Y or Pilot(UID) = ‘å\š‹ã˜Y(‹Œ_) or Pilot(UID) = ‘å\š‹ãñ Then
-#	”O‚Ìˆ×‚É‹ã˜Yor‹ãñ‚¶‚á‚È‚¢‚Æ“®‚©‚È‚¢‚æ‚¤‚É
-### ‰ï˜bƒpƒCƒƒbƒg‘I’èŠJn
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+	If Pilot(UID) = å¤§åå­—ä¹éƒ or Pilot(UID) = å¤§åå­—ä¹éƒ(æ—§ç¥) or Pilot(UID) = å¤§åå­—ä¹æœ” Then
+#	å¿µã®ç‚ºã«ä¹éƒorä¹æœ”ã˜ã‚ƒãªã„ã¨å‹•ã‹ãªã„ã‚ˆã†ã«
+### ä¼šè©±ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆé¸å®šé–‹å§‹
 Local Krou Krou_1
 Local Al Al_1
 Local Kuzaku
 Local Benibara
 Local KrouAndAl WKuzaku TwoSword
-Set Kuzaku ‘å\š‹ãñ
-If Pilot(UID,2) = gåKåN‚Ì‹ãñ or Pilot(Partner(1),2) = gåKåN‚Ì‹ãñ Then
-Set Benibara gåKåN‚Ì‹ãñ
-ElseIf Pilot(UID,2) = ƒlƒNƒƒmƒ~ƒRƒ“ŒŒ‰tŒ¾Œê”Å or Pilot(Partner(1),2) = ƒlƒNƒƒmƒ~ƒRƒ“ŒŒ‰tŒ¾Œê”Å Then
-Set Benibara ƒlƒNƒƒmƒ~ƒRƒ“ŒŒ‰tŒ¾Œê”Å
+Set Kuzaku å¤§åå­—ä¹æœ”
+If Pilot(UID,2) = ç´…è–”è–‡ã®ä¹æœ” or Pilot(Partner(1),2) = ç´…è–”è–‡ã®ä¹æœ” Then
+Set Benibara ç´…è–”è–‡ã®ä¹æœ”
+ElseIf Pilot(UID,2) = ãƒã‚¯ãƒ­ãƒãƒŸã‚³ãƒ³è¡€æ¶²è¨€èªç‰ˆ or Pilot(Partner(1),2) = ãƒã‚¯ãƒ­ãƒãƒŸã‚³ãƒ³è¡€æ¶²è¨€èªç‰ˆ Then
+Set Benibara ãƒã‚¯ãƒ­ãƒãƒŸã‚³ãƒ³è¡€æ¶²è¨€èªç‰ˆ
 EndIf
-If Pilot(UID) = ‘å\š‹ã˜Y or Pilot(Partner(1)) = ‘å\š‹ã˜Y Then
-Set Krou ‘å\š‹ã˜Y
-Set Krou_1 (Krou & "(vl)")
-Set Al ƒAƒ‹ƒAƒWƒt
-Set Al_1 (Al & "(“{‚è)")
-Set TwoSword –‚‚ğ’f‚Â‘oŒ•(‚c‚l‚c)
-ElseIf Pilot(UID) = ‘å\š‹ã˜Y(‹Œ_) or Pilot(Partner(1)) = ‘å\š‹ã˜Y(‹Œ_) Then
-Set Krou ‘å\š‹ã˜Y(‹Œ_)
+If Pilot(UID) = å¤§åå­—ä¹éƒ or Pilot(Partner(1)) = å¤§åå­—ä¹éƒ Then
+Set Krou å¤§åå­—ä¹éƒ
+Set Krou_1 (Krou & "(æ€è€ƒ)")
+Set Al ã‚¢ãƒ«ï¼ã‚¢ã‚¸ãƒ•
+Set Al_1 (Al & "(æ€’ã‚Š)")
+Set TwoSword é­”ã‚’æ–­ã¤åŒå‰£(ï¼¤ï¼­ï¼¤)
+ElseIf Pilot(UID) = å¤§åå­—ä¹éƒ(æ—§ç¥) or Pilot(Partner(1)) = å¤§åå­—ä¹éƒ(æ—§ç¥) Then
+Set Krou å¤§åå­—ä¹éƒ(æ—§ç¥)
 Set Krou_1 Krou
-Set Al ƒAƒ‹ƒAƒWƒt(‹Œ_)
+Set Al ã‚¢ãƒ«ï¼ã‚¢ã‚¸ãƒ•(æ—§ç¥)
 Set Al_1 Al
-Set TwoSword –‚‚ğ’f‚Â‘oŒ•(‚c‚l‚c)(‹Œ_)
+Set TwoSword é­”ã‚’æ–­ã¤åŒå‰£(ï¼¤ï¼­ï¼¤)(æ—§ç¥)
 EndIf
-Set KrouAndAl (Krou & "•" & Al)
-Set WKuzaku (Kuzaku & "•" & Benibara)
-### ‰ï˜bƒpƒCƒƒbƒg‘I’èI—¹
+Set KrouAndAl (Krou & "ï¼†" & Al)
+Set WKuzaku (Kuzaku & "ï¼†" & Benibara)
+### ä¼šè©±ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆé¸å®šçµ‚äº†
 
 Switch Random(6)
 Case 1
-AutoTalk Kuzaku ŒÅ’è
-e•ƒ“aI
-AutoTalk Benibara ŒÅ’è
-‚¨•ê—lI
-AutoTalk Krou_1 ŒÅ’è
-ccƒbIH ‚»‚¤‚©I
-AutoTalk Al_1 ŒÅ’è
-ˆÏ×³’mI
+AutoTalk Kuzaku å›ºå®š
+è¦ªçˆ¶æ®¿ï¼
+AutoTalk Benibara å›ºå®š
+ãŠæ¯æ§˜ï¼
+AutoTalk Krou_1 å›ºå®š
+â€¦â€¦ãƒƒï¼ï¼Ÿ ãã†ã‹ï¼
+AutoTalk Al_1 å›ºå®š
+å§”ç´°æ‰¿çŸ¥ï¼
 Suspend
 
 Case 2
-AutoTalk KrouAndAl ŒÅ’è
-‚Ç‚¤‚¾ƒ@ƒ@ƒ@ƒ@I
-AutoTalk WKuzaku ŒÅ’è
-‚±‚ê‚ª³^³–Á‚ÌƒHƒHƒHƒHccI
+AutoTalk KrouAndAl å›ºå®š
+ã©ã†ã ã‚¡ã‚¡ã‚¡ã‚¡ï¼
+AutoTalk WKuzaku å›ºå®š
+ã“ã‚ŒãŒæ­£çœŸæ­£éŠ˜ã®ã‚©ã‚©ã‚©ã‚©â€¦â€¦ï¼
 AutoTalk TwoSword
-<SIZE=8>ƒfƒ‚ƒ“ƒxƒCƒ“EƒgƒD[ƒ\[ƒh</SIZE>.–‚‚ğ’f‚Â‘oŒ•‚¾ƒbƒbƒbƒbI
+<SIZE=8>ãƒ‡ãƒ¢ãƒ³ãƒ™ã‚¤ãƒ³ãƒ»ãƒˆã‚¥ãƒ¼ã‚½ãƒ¼ãƒ‰</SIZE>.é­”ã‚’æ–­ã¤åŒå‰£ã ãƒƒãƒƒãƒƒãƒƒï¼
 Suspend
 
 Case 3
-AutoTalk KrouAndAl ŒÅ’è
-—ˆ‚¢I ‹ãñI
-AutoTalk WKuzaku ŒÅ’è
-—¹‰ğI
+AutoTalk KrouAndAl å›ºå®š
+æ¥ã„ï¼ ä¹æœ”ï¼
+AutoTalk WKuzaku å›ºå®š
+äº†è§£ï¼
 Suspend
 
 Case 4
-AutoTalk WKuzaku ŒÅ’è
-ƒfƒ‚ƒ“ƒxƒCƒ“I
-AutoTalk KrouAndAl ŒÅ’è
-‰‚Æ‚à‚æƒbI
+AutoTalk WKuzaku å›ºå®š
+ãƒ‡ãƒ¢ãƒ³ãƒ™ã‚¤ãƒ³ï¼
+AutoTalk KrouAndAl å›ºå®š
+å¿œã¨ã‚‚ã‚ˆãƒƒï¼
 Suspend
 
 Case 5
-#¦–³Œ¾˜g
+#â€»ç„¡è¨€æ 
 Case 6
-#¦–³Œ¾˜g
+#â€»ç„¡è¨€æ 
 EndSw
 	EndIf
 Return
 
 
-í“¬ƒAƒjƒ_‚c~‚cƒƒbƒZ[ƒW_‚`‚v‚rUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ï¼¤Ã—ï¼¤ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸_ï¼¡ï¼·ï¼³æ”»æ’ƒ:
 Local UID
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
-	If Pilot(UID) = ‘å\š‹ã˜Y or Pilot(UID) = ‘å\š‹ã˜Y(‹Œ_) or Pilot(UID) = ‘å\š‹ãñ Then
-#	”O‚Ìˆ×‚É‹ã˜Yor‹ãñ‚¶‚á‚È‚¢‚Æ“®‚©‚È‚¢‚æ‚¤‚É
-### ‰ï˜bƒpƒCƒƒbƒg‘I’èŠJn
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+	If Pilot(UID) = å¤§åå­—ä¹éƒ or Pilot(UID) = å¤§åå­—ä¹éƒ(æ—§ç¥) or Pilot(UID) = å¤§åå­—ä¹æœ” Then
+#	å¿µã®ç‚ºã«ä¹éƒorä¹æœ”ã˜ã‚ƒãªã„ã¨å‹•ã‹ãªã„ã‚ˆã†ã«
+### ä¼šè©±ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆé¸å®šé–‹å§‹
 Local Krou Krou_1
 Local Al Al_1
 Local Kuzaku
 Local Benibara
 Local KrouAndKuzaku TwoSword
-Set Kuzaku ‘å\š‹ãñ
-If Pilot(UID,2) = gåKåN‚Ì‹ãñ or Pilot(Partner(1),2) = gåKåN‚Ì‹ãñ Then
-Set Benibara gåKåN‚Ì‹ãñ
-ElseIf Pilot(UID,2) = ƒlƒNƒƒmƒ~ƒRƒ“ŒŒ‰tŒ¾Œê”Å or Pilot(Partner(1),2) = ƒlƒNƒƒmƒ~ƒRƒ“ŒŒ‰tŒ¾Œê”Å Then
-Set Benibara ƒlƒNƒƒmƒ~ƒRƒ“ŒŒ‰tŒ¾Œê”Å
+Set Kuzaku å¤§åå­—ä¹æœ”
+If Pilot(UID,2) = ç´…è–”è–‡ã®ä¹æœ” or Pilot(Partner(1),2) = ç´…è–”è–‡ã®ä¹æœ” Then
+Set Benibara ç´…è–”è–‡ã®ä¹æœ”
+ElseIf Pilot(UID,2) = ãƒã‚¯ãƒ­ãƒãƒŸã‚³ãƒ³è¡€æ¶²è¨€èªç‰ˆ or Pilot(Partner(1),2) = ãƒã‚¯ãƒ­ãƒãƒŸã‚³ãƒ³è¡€æ¶²è¨€èªç‰ˆ Then
+Set Benibara ãƒã‚¯ãƒ­ãƒãƒŸã‚³ãƒ³è¡€æ¶²è¨€èªç‰ˆ
 EndIf
-If Pilot(UID) = ‘å\š‹ã˜Y or Pilot(Partner(1)) = ‘å\š‹ã˜Y Then
-Set Krou ‘å\š‹ã˜Y
-Set Krou_1 (Krou & "(“{‚è)")
-Set Al ƒAƒ‹ƒAƒWƒt
-Set Al_1 (Al & "(“{‚è)")
-Set TwoSword –‚‚ğ’f‚Â‘oŒ•(‚c‚l‚c)
-ElseIf Pilot(UID) = ‘å\š‹ã˜Y(‹Œ_) or Pilot(Partner(1)) = ‘å\š‹ã˜Y(‹Œ_) Then
-Set Krou ‘å\š‹ã˜Y(‹Œ_)
+If Pilot(UID) = å¤§åå­—ä¹éƒ or Pilot(Partner(1)) = å¤§åå­—ä¹éƒ Then
+Set Krou å¤§åå­—ä¹éƒ
+Set Krou_1 (Krou & "(æ€’ã‚Š)")
+Set Al ã‚¢ãƒ«ï¼ã‚¢ã‚¸ãƒ•
+Set Al_1 (Al & "(æ€’ã‚Š)")
+Set TwoSword é­”ã‚’æ–­ã¤åŒå‰£(ï¼¤ï¼­ï¼¤)
+ElseIf Pilot(UID) = å¤§åå­—ä¹éƒ(æ—§ç¥) or Pilot(Partner(1)) = å¤§åå­—ä¹éƒ(æ—§ç¥) Then
+Set Krou å¤§åå­—ä¹éƒ(æ—§ç¥)
 Set Krou_1 Krou
-Set Al ƒAƒ‹ƒAƒWƒt(‹Œ_)
+Set Al ã‚¢ãƒ«ï¼ã‚¢ã‚¸ãƒ•(æ—§ç¥)
 Set Al_1 Al
-Set TwoSword –‚‚ğ’f‚Â‘oŒ•(‚c‚l‚c)(‹Œ_)
+Set TwoSword é­”ã‚’æ–­ã¤åŒå‰£(ï¼¤ï¼­ï¼¤)(æ—§ç¥)
 EndIf
-Set KrouAndKuzaku (Krou & "•" & Kuzaku)
-### ‰ï˜bƒpƒCƒƒbƒg‘I’èI—¹
+Set KrouAndKuzaku (Krou & "ï¼†" & Kuzaku)
+### ä¼šè©±ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆé¸å®šçµ‚äº†
 
 Switch Random(2)
 Case 1
-AutoTalk Al_1 ŒÅ’è
-’f½p®ƒeƒBƒ}ƒCƒIƒXAƒNƒŠƒeƒBƒAƒX‰ğ•úI
-AutoTalk Benibara ŒÅ’è
-‹óŠÔ˜c‹ÈI
-AutoTalk Krou_1 ŒÅ’è
-ƒAƒgƒ‰ƒ“ƒeƒBƒXI
-AutoTalk Kuzaku ŒÅ’è
-ƒ_ƒuƒ‹I
-AutoTalk KrouAndKuzaku ŒÅ’è
-ƒXƒgƒ‰ƒ@ƒ@ƒ@ƒCƒNƒbƒbƒbƒbI
+AutoTalk Al_1 å›ºå®š
+æ–­é–è¡“å¼ãƒ†ã‚£ãƒã‚¤ã‚ªã‚¹ã€ã‚¯ãƒªãƒ†ã‚£ã‚¢ã‚¹è§£æ”¾ï¼
+AutoTalk Benibara å›ºå®š
+æ™‚ç©ºé–“æ­ªæ›²ï¼
+AutoTalk Krou_1 å›ºå®š
+ã‚¢ãƒˆãƒ©ãƒ³ãƒ†ã‚£ã‚¹ï¼
+AutoTalk Kuzaku å›ºå®š
+ãƒ€ãƒ–ãƒ«ï¼
+AutoTalk KrouAndKuzaku å›ºå®š
+ã‚¹ãƒˆãƒ©ã‚¡ã‚¡ã‚¡ã‚¤ã‚¯ãƒƒãƒƒãƒƒãƒƒï¼
 Suspend
 
 Case 2
-AutoTalk TwoSword ŒÅ’è
-‚Í‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ \\\\ƒbƒbI
+AutoTalk TwoSword å›ºå®š
+ã¯ã‚ã‚ã‚ã‚ã‚ã‚ã‚ã‚â€•â€•â€•â€•ãƒƒãƒƒï¼
 Suspend
 
 EndSw
@@ -136,116 +136,116 @@ EndSw
 Return 
 
 
-í“¬ƒAƒjƒ_‚c~‚cƒƒbƒZ[ƒW_‚k‚v‚hUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ï¼¤Ã—ï¼¤ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸_ï¼¬ï¼·ï¼©æ”»æ’ƒ:
 Local UID
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
-	If Pilot(UID) = ‘å\š‹ã˜Y or Pilot(UID) = ‘å\š‹ã˜Y(‹Œ_) or Pilot(UID) = ‘å\š‹ãñ Then
-#	”O‚Ìˆ×‚É‹ã˜Yor‹ãñ‚¶‚á‚È‚¢‚Æ“®‚©‚È‚¢‚æ‚¤‚É
-### ‰ï˜bƒpƒCƒƒbƒg‘I’èŠJn
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+	If Pilot(UID) = å¤§åå­—ä¹éƒ or Pilot(UID) = å¤§åå­—ä¹éƒ(æ—§ç¥) or Pilot(UID) = å¤§åå­—ä¹æœ” Then
+#	å¿µã®ç‚ºã«ä¹éƒorä¹æœ”ã˜ã‚ƒãªã„ã¨å‹•ã‹ãªã„ã‚ˆã†ã«
+### ä¼šè©±ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆé¸å®šé–‹å§‹
 Local Krou Krou_1
 Local Al
 Local Kuzaku
 Local Benibara
 Local KrouAndKuzaku AlAndBenibara TwoSword
-Set Kuzaku ‘å\š‹ãñ
-If Pilot(UID,2) = gåKåN‚Ì‹ãñ or Pilot(Partner(1),2) = gåKåN‚Ì‹ãñ Then
-Set Benibara gåKåN‚Ì‹ãñ
-ElseIf Pilot(UID,2) = ƒlƒNƒƒmƒ~ƒRƒ“ŒŒ‰tŒ¾Œê”Å or Pilot(Partner(1),2) = ƒlƒNƒƒmƒ~ƒRƒ“ŒŒ‰tŒ¾Œê”Å Then
-Set Benibara ƒlƒNƒƒmƒ~ƒRƒ“ŒŒ‰tŒ¾Œê”Å
+Set Kuzaku å¤§åå­—ä¹æœ”
+If Pilot(UID,2) = ç´…è–”è–‡ã®ä¹æœ” or Pilot(Partner(1),2) = ç´…è–”è–‡ã®ä¹æœ” Then
+Set Benibara ç´…è–”è–‡ã®ä¹æœ”
+ElseIf Pilot(UID,2) = ãƒã‚¯ãƒ­ãƒãƒŸã‚³ãƒ³è¡€æ¶²è¨€èªç‰ˆ or Pilot(Partner(1),2) = ãƒã‚¯ãƒ­ãƒãƒŸã‚³ãƒ³è¡€æ¶²è¨€èªç‰ˆ Then
+Set Benibara ãƒã‚¯ãƒ­ãƒãƒŸã‚³ãƒ³è¡€æ¶²è¨€èªç‰ˆ
 EndIf
-If Pilot(UID) = ‘å\š‹ã˜Y or Pilot(Partner(1)) = ‘å\š‹ã˜Y Then
-Set Krou ‘å\š‹ã˜Y
-Set Krou_1 (Krou & "(“{‚è)")
-Set Al ƒAƒ‹ƒAƒWƒt
-Set TwoSword –‚‚ğ’f‚Â‘oŒ•(‚c‚l‚c)
-ElseIf Pilot(UID) = ‘å\š‹ã˜Y(‹Œ_) or Pilot(Partner(1)) = ‘å\š‹ã˜Y(‹Œ_) Then
-Set Krou ‘å\š‹ã˜Y(‹Œ_)
+If Pilot(UID) = å¤§åå­—ä¹éƒ or Pilot(Partner(1)) = å¤§åå­—ä¹éƒ Then
+Set Krou å¤§åå­—ä¹éƒ
+Set Krou_1 (Krou & "(æ€’ã‚Š)")
+Set Al ã‚¢ãƒ«ï¼ã‚¢ã‚¸ãƒ•
+Set TwoSword é­”ã‚’æ–­ã¤åŒå‰£(ï¼¤ï¼­ï¼¤)
+ElseIf Pilot(UID) = å¤§åå­—ä¹éƒ(æ—§ç¥) or Pilot(Partner(1)) = å¤§åå­—ä¹éƒ(æ—§ç¥) Then
+Set Krou å¤§åå­—ä¹éƒ(æ—§ç¥)
 Set Krou_1 Krou
-Set Al ƒAƒ‹ƒAƒWƒt(‹Œ_)
-Set TwoSword –‚‚ğ’f‚Â‘oŒ•(‚c‚l‚c)(‹Œ_)
+Set Al ã‚¢ãƒ«ï¼ã‚¢ã‚¸ãƒ•(æ—§ç¥)
+Set TwoSword é­”ã‚’æ–­ã¤åŒå‰£(ï¼¤ï¼­ï¼¤)(æ—§ç¥)
 EndIf
-Set KrouAndKuzaku (Krou & "•" & Kuzaku)
-Set AlAndBenibara (Al & "•" & Benibara)
-### ‰ï˜bƒpƒCƒƒbƒg‘I’èI—¹
+Set KrouAndKuzaku (Krou & "ï¼†" & Kuzaku)
+Set AlAndBenibara (Al & "ï¼†" & Benibara)
+### ä¼šè©±ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆé¸å®šçµ‚äº†
 
-AutoTalk AlAndBenibara ŒÅ’è
-‰ä“™–‚‚ğ’f‚Â“ñ“—¬I
+AutoTalk AlAndBenibara å›ºå®š
+æˆ‘ç­‰é­”ã‚’æ–­ã¤äºŒåˆ€æµï¼
 Suspend
   Switch Random(2)
   Case 1
-  AutoTalk KrouAndKuzaku ŒÅ’è
-  a–‚‚Ì—ÍA‚±‚±‚ÉŒ©‚¹‚éI
+  AutoTalk KrouAndKuzaku å›ºå®š
+  æ–¬é­”ã®åŠ›ã€ã“ã“ã«è¦‹ã›ã‚‹ï¼
   Suspend
   Case 2
-  AutoTalk KrouAndKuzaku ŒÅ’è
-  ‹@_‚Ì™ôšKA•·‚¢‚ÄœÉ‚¯I
+  AutoTalk KrouAndKuzaku å›ºå®š
+  æ©Ÿç¥ã®å’†å“®ã€èã„ã¦æ…„ã‘ï¼
   Suspend
   EndSw
-AutoTalk TwoSword ŒÅ’è
-‘oŒ‚¸‰Øô–@I
-AutoTalk Krou_1 ŒÅ’è
-ŒõË‚·¢ŠE‚ÉA“ğ‚çˆÅ•A±‚Ü‚¤êŠ–³‚µI
-AutoTalk Kuzaku ŒÅ’è
-Š‰‚©‚¸‹Q‚¦‚¸A–³‚ÉŠÒ‚ê\\I
-AutoTalk TwoSword ŒÅ’è
-‚Í‚ ‚ ‚ \\I
-AutoTalk Krou_1 ŒÅ’è
-ƒŒƒ€ƒŠƒAI
-AutoTalk Kuzaku ŒÅ’è
-ƒ_ƒuƒ‹I
-AutoTalk KrouAndKuzaku ŒÅ’è
-ƒCƒ“ƒpƒNƒgƒHƒHƒH\\\\\\\ƒbƒbƒbI
+AutoTalk TwoSword å›ºå®š
+åŒæ’ƒæ˜‡è¯å‘ªæ³•ï¼
+AutoTalk Krou_1 å›ºå®š
+å…‰å°„ã™ä¸–ç•Œã«ã€æ±ã‚‰é—‡é»’ã€æ£²ã¾ã†å ´æ‰€ç„¡ã—ï¼
+AutoTalk Kuzaku å›ºå®š
+æ¸‡ã‹ãšé£¢ãˆãšã€ç„¡ã«é‚„ã‚Œâ€•â€•ï¼
+AutoTalk TwoSword å›ºå®š
+ã¯ã‚ã‚ã‚â€•â€•ï¼
+AutoTalk Krou_1 å›ºå®š
+ãƒ¬ãƒ ãƒªã‚¢ï¼
+AutoTalk Kuzaku å›ºå®š
+ãƒ€ãƒ–ãƒ«ï¼
+AutoTalk KrouAndKuzaku å›ºå®š
+ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆã‚©ã‚©ã‚©â€•â€•â€•â€•â€•â€•â€•ãƒƒãƒƒãƒƒï¼
 Suspend
 	EndIf
 Return 
 
 
-í“¬ƒAƒjƒ_‚c~‚cƒƒbƒZ[ƒW_‚k‚v‚h‚Æ‚Ç‚ß:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ï¼¤Ã—ï¼¤ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸_ï¼¬ï¼·ï¼©ã¨ã©ã‚:
 Local UID
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
-	If Pilot(UID) = ‘å\š‹ã˜Y or Pilot(UID) = ‘å\š‹ã˜Y(‹Œ_) or Pilot(UID) = ‘å\š‹ãñ Then
-#	”O‚Ìˆ×‚É‹ã˜Yor‹ãñ‚¶‚á‚È‚¢‚Æ“®‚©‚È‚¢‚æ‚¤‚É
-### ‰ï˜bƒpƒCƒƒbƒg‘I’èŠJn
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+	If Pilot(UID) = å¤§åå­—ä¹éƒ or Pilot(UID) = å¤§åå­—ä¹éƒ(æ—§ç¥) or Pilot(UID) = å¤§åå­—ä¹æœ” Then
+#	å¿µã®ç‚ºã«ä¹éƒorä¹æœ”ã˜ã‚ƒãªã„ã¨å‹•ã‹ãªã„ã‚ˆã†ã«
+### ä¼šè©±ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆé¸å®šé–‹å§‹
 Local Krou
 Local Al
 Local Kuzaku
 Local Benibara
 Local KrouAndKuzaku AlAndBenibara
-Set Kuzaku ‘å\š‹ãñ
-If Pilot(UID,2) = gåKåN‚Ì‹ãñ or Pilot(Partner(1),2) = gåKåN‚Ì‹ãñ Then
-Set Benibara gåKåN‚Ì‹ãñ
-ElseIf Pilot(UID,2) = ƒlƒNƒƒmƒ~ƒRƒ“ŒŒ‰tŒ¾Œê”Å or Pilot(Partner(1),2) = ƒlƒNƒƒmƒ~ƒRƒ“ŒŒ‰tŒ¾Œê”Å Then
-Set Benibara ƒlƒNƒƒmƒ~ƒRƒ“ŒŒ‰tŒ¾Œê”Å
+Set Kuzaku å¤§åå­—ä¹æœ”
+If Pilot(UID,2) = ç´…è–”è–‡ã®ä¹æœ” or Pilot(Partner(1),2) = ç´…è–”è–‡ã®ä¹æœ” Then
+Set Benibara ç´…è–”è–‡ã®ä¹æœ”
+ElseIf Pilot(UID,2) = ãƒã‚¯ãƒ­ãƒãƒŸã‚³ãƒ³è¡€æ¶²è¨€èªç‰ˆ or Pilot(Partner(1),2) = ãƒã‚¯ãƒ­ãƒãƒŸã‚³ãƒ³è¡€æ¶²è¨€èªç‰ˆ Then
+Set Benibara ãƒã‚¯ãƒ­ãƒãƒŸã‚³ãƒ³è¡€æ¶²è¨€èªç‰ˆ
 EndIf
-If Pilot(UID) = ‘å\š‹ã˜Y or Pilot(Partner(1)) = ‘å\š‹ã˜Y Then
-Set Krou ‘å\š‹ã˜Y
-Set Al ƒAƒ‹ƒAƒWƒt
-ElseIf Pilot(UID) = ‘å\š‹ã˜Y(‹Œ_) or Pilot(Partner(1)) = ‘å\š‹ã˜Y(‹Œ_) Then
-Set Krou ‘å\š‹ã˜Y(‹Œ_)
-Set Al ƒAƒ‹ƒAƒWƒt(‹Œ_)
+If Pilot(UID) = å¤§åå­—ä¹éƒ or Pilot(Partner(1)) = å¤§åå­—ä¹éƒ Then
+Set Krou å¤§åå­—ä¹éƒ
+Set Al ã‚¢ãƒ«ï¼ã‚¢ã‚¸ãƒ•
+ElseIf Pilot(UID) = å¤§åå­—ä¹éƒ(æ—§ç¥) or Pilot(Partner(1)) = å¤§åå­—ä¹éƒ(æ—§ç¥) Then
+Set Krou å¤§åå­—ä¹éƒ(æ—§ç¥)
+Set Al ã‚¢ãƒ«ï¼ã‚¢ã‚¸ãƒ•(æ—§ç¥)
 EndIf
-Set KrouAndKuzaku (Krou & "•" & Kuzaku)
-Set AlAndBenibara (Al & "•" & Benibara)
-### ‰ï˜bƒpƒCƒƒbƒg‘I’èI—¹
+Set KrouAndKuzaku (Krou & "ï¼†" & Kuzaku)
+Set AlAndBenibara (Al & "ï¼†" & Benibara)
+### ä¼šè©±ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆé¸å®šçµ‚äº†
 
-AutoTalk KrouAndKuzaku ŒÅ’è
-‚Í‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚Ÿ‚ŸccccƒbI
-AutoTalk AlAndBenibara ŒÅ’è
-\\¸‰ØI
+AutoTalk KrouAndKuzaku å›ºå®š
+ã¯ããããããâ€¦â€¦â€¦â€¦ãƒƒï¼
+AutoTalk AlAndBenibara å›ºå®š
+â€•â€•æ˜‡è¯ï¼
 Suspend
 	EndIf
 Return 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_¶‰E•Ê•Ší“ËŒ‚UŒ‚:
-#ˆø”‚P •Ší‰æ‘œƒtƒ@ƒCƒ‹
-#ˆø”‚Q ‰æ‘œƒTƒCƒY
-#ˆø”‚R •Ší‰æ‘œƒtƒ@ƒCƒ‹‚Q
-#ˆø”‚S ‰æ‘œƒTƒCƒY‚Q
-#ˆø”‚T Œø‰Ê‰¹
-#ˆø”‚U ”­Œõ
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å·¦å³åˆ¥æ­¦å™¨çªæ’ƒæ”»æ’ƒ:
+#å¼•æ•°ï¼‘ æ­¦å™¨ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«
+#å¼•æ•°ï¼’ ç”»åƒã‚µã‚¤ã‚º
+#å¼•æ•°ï¼“ æ­¦å™¨ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«ï¼’
+#å¼•æ•°ï¼” ç”»åƒã‚µã‚¤ã‚ºï¼’
+#å¼•æ•°ï¼• åŠ¹æœéŸ³
+#å¼•æ•°ï¼– ç™ºå…‰
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Local C_X = WX(UID)
@@ -256,8 +256,8 @@ Local W_BMP2 = _GetBmpFromArgs2()
 Local G_S2 = _GNUM_FA2()
 Local i
 Local ANG = _GetAngle(UID)
-Local X_F = _GetCircumference(ANG,‚w)
-Local Y_F = _GetCircumference(ANG,‚x)
+Local X_F = _GetCircumference(ANG,ï¼¸)
+Local Y_F = _GetCircumference(ANG,ï¼¹)
 Local W_X W_Y X_P LN
 Local BMP_FILE = _GetBMPName(UID)
 Local BMP_FILE2 = _GetTileName(UID)
@@ -271,18 +271,18 @@ _UnSetBattleAnimeValue
 Set ANG 0
 Set X_P (16 - (G_S \ 2))
 Set W_Y (C_Y + 32 - G_S)
-If (X(UID) >= _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
+If (X(UID) >= _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
   Set W_X (C_X - G_S + 16)
   Set DRCT ""
 Else
   Set W_X (C_X + 16)
-  Set DRCT ¶‰E”½“]
+  Set DRCT å·¦å³åè»¢
 EndIf
 
 Wait Start
 _SelectSound Whiz.wav _GetWavFromArgs()
 
-ChangeUnitBitmap UID ”ñ•\¦
+ChangeUnitBitmap UID éè¡¨ç¤º
 
 For i = 1 To 4
   ClearPicture
@@ -297,25 +297,25 @@ For i = 1 To 4
   Case 5
   EndSw
 
-  PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 32 32 “§‰ß DRCT T_COL
-  PaintPicture W_BMP ((C_X + X_P - 16) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S G_S “§‰ß T_COL_F
-  PaintPicture W_BMP2 ((C_X + 16) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S2 G_S2 “§‰ß ¶‰E”½“] T_COL_F
+  PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 32 32 é€é DRCT T_COL
+  PaintPicture W_BMP ((C_X + X_P - 16) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S G_S é€é T_COL_F
+  PaintPicture W_BMP2 ((C_X + 16) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S2 G_S2 é€é å·¦å³åè»¢ T_COL_F
   Refresh
   Wait Until (i * 0.7)
 Next
 
 _SetAnimeData_UnitPoint (X_F * LN) (Y_F * LN) 0 DRCT "" "" UID
 
-ChangeUnitBitmap UID ”ñ•\¦‰ğœ
+ChangeUnitBitmap UID éè¡¨ç¤ºè§£é™¤
 
 Return "Keep"
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_•Ê•Ší“ñ’šŒe€”õ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åˆ¥æ­¦å™¨äºŒä¸æ‹³éŠƒæº–å‚™:
 
 Local i j
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Local U_X = WX(UID)
@@ -326,16 +326,16 @@ Local G_S = _GetPicSizeFromArgs()
 Local WP_FILE2 = _GBMP_FA2()
 Local G_S2 = _GNUM_FA2()
 Local ANG = _GetAngle(UID)
-Local X_F = _GetCircumference(ANG,‚w)
-Local Y_F = _GetCircumference(ANG,‚x)
-Local X_F2 = _GetCircumference((ANG + 90),‚w)
-Local Y_F2 = _GetCircumference((ANG + 90),‚x)
+Local X_F = _GetCircumference(ANG,ï¼¸)
+Local Y_F = _GetCircumference(ANG,ï¼¹)
+Local X_F2 = _GetCircumference((ANG + 90),ï¼¸)
+Local Y_F2 = _GetCircumference((ANG + 90),ï¼¹)
 Local DRCT = _FlipVertical(ANG)
 Local T_COL_F = _ColorTime(_IsLight())
 Local L_N
 Local W_FLG = _IsDoubleWeapon()
 
-  If (DRCT = "ã‰º”½“]")  Then
+  If (DRCT = "ä¸Šä¸‹åè»¢")  Then
     Set C_X (U_X + 16 + (6 * X_F) - (6 * X_F2) - (G_S \ 2))
     Set C_Y (U_Y + 16 + (6 * Y_F) - (6 * Y_F2) - (G_S \ 2))
     Set C_X2 (U_X + 16 - (6 * X_F) + (6 * X_F2) - (G_S2 \ 2))
@@ -362,8 +362,8 @@ For i = 1 To 3
     Set L_N 0
   EndSw
   ClearPicture
-  PaintPicture WP_FILE (C_X + (X_F * L_N)) (C_Y + (Y_F * L_N)) G_S G_S “§‰ß DRCT ‰E‰ñ“] ANG T_COL_F
-  PaintPicture WP_FILE2 (C_X2 + (X_F * L_N)) (C_Y2 + (Y_F * L_N)) G_S2 G_S2 “§‰ß DRCT ‰E‰ñ“] ANG T_COL_F
+  PaintPicture WP_FILE (C_X + (X_F * L_N)) (C_Y + (Y_F * L_N)) G_S G_S é€é DRCT å³å›è»¢ ANG T_COL_F
+  PaintPicture WP_FILE2 (C_X2 + (X_F * L_N)) (C_Y2 + (Y_F * L_N)) G_S2 G_S2 é€é DRCT å³å›è»¢ ANG T_COL_F
   Refresh
   Wait Until (i * 0.6)
 Next
@@ -373,47 +373,47 @@ Wait Until 7
 Return "Keep"
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_•Ê•Ší“ñ’šŒeUŒ‚:
-Call í“¬ƒAƒjƒ_•Ê•Ší“ñ’šŒeUŒ‚‹¤’Ê ’P”­
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åˆ¥æ­¦å™¨äºŒä¸æ‹³éŠƒæ”»æ’ƒ:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åˆ¥æ­¦å™¨äºŒä¸æ‹³éŠƒæ”»æ’ƒå…±é€š å˜ç™º
 Return
-í“¬ƒAƒjƒ_•Ê•Ší“ñ’šŒe˜AËUŒ‚:
-Call í“¬ƒAƒjƒ_•Ê•Ší“ñ’šŒeUŒ‚‹¤’Ê ˜AË
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åˆ¥æ­¦å™¨äºŒä¸æ‹³éŠƒé€£å°„æ”»æ’ƒ:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åˆ¥æ­¦å™¨äºŒä¸æ‹³éŠƒæ”»æ’ƒå…±é€š é€£å°„
 Return
-í“¬ƒAƒjƒ_•Ê•Ší“ñ’šŒe—ËUŒ‚:
-Call í“¬ƒAƒjƒ_•Ê•Ší“ñ’šŒeUŒ‚‹¤’Ê —Ë
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åˆ¥æ­¦å™¨äºŒä¸æ‹³éŠƒä¹±å°„æ”»æ’ƒ:
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åˆ¥æ­¦å™¨äºŒä¸æ‹³éŠƒæ”»æ’ƒå…±é€š ä¹±å°„
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_•Ê•Ší“ñ’šŒeUŒ‚‹¤’Ê:
-#ˆø”‚P@‰æ‘œƒtƒ@ƒCƒ‹=è‚¿•Ší‚P‚Ìƒtƒ@ƒCƒ‹–¼=è‚¿•Ší‚Q‚Ìƒtƒ@ƒCƒ‹–¼=è‚¿•Ší‚P‚Ì”­Ë‰Š‚Ìƒtƒ@ƒCƒ‹–¼=è‚¿•Ší‚Q‚Ì”­Ë‰Š‚Ìƒtƒ@ƒCƒ‹–¼
-#ˆø”‚Q@‰æ‘œƒTƒCƒY=è‚¿•Ší‚P‚ÌƒTƒCƒY=è‚¿•Ší‚Q‚ÌƒTƒCƒY=è‚¿•Ší‚P‚Ì”­Ë‰Š‚ÌƒTƒCƒY=è‚¿•Ší‚Q‚Ì”­Ë‰Š‚ÌƒTƒCƒY
-#ˆø”‚R Œø‰Ê‰¹‚P
-#ˆø”‚S ”½“®‚Ì•(ƒTƒCƒYŒ`®)
-#ˆø”‚T@‘Å‚¿‰º‚ë‚µ
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_åˆ¥æ­¦å™¨äºŒä¸æ‹³éŠƒæ”»æ’ƒå…±é€š:
+#å¼•æ•°ï¼‘ã€€ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«=æ‰‹æŒã¡æ­¦å™¨ï¼‘ã®ãƒ•ã‚¡ã‚¤ãƒ«å=æ‰‹æŒã¡æ­¦å™¨ï¼’ã®ãƒ•ã‚¡ã‚¤ãƒ«å=æ‰‹æŒã¡æ­¦å™¨ï¼‘ã®ç™ºå°„ç‚ã®ãƒ•ã‚¡ã‚¤ãƒ«å=æ‰‹æŒã¡æ­¦å™¨ï¼’ã®ç™ºå°„ç‚ã®ãƒ•ã‚¡ã‚¤ãƒ«å
+#å¼•æ•°ï¼’ã€€ç”»åƒã‚µã‚¤ã‚º=æ‰‹æŒã¡æ­¦å™¨ï¼‘ã®ã‚µã‚¤ã‚º=æ‰‹æŒã¡æ­¦å™¨ï¼’ã®ã‚µã‚¤ã‚º=æ‰‹æŒã¡æ­¦å™¨ï¼‘ã®ç™ºå°„ç‚ã®ã‚µã‚¤ã‚º=æ‰‹æŒã¡æ­¦å™¨ï¼’ã®ç™ºå°„ç‚ã®ã‚µã‚¤ã‚º
+#å¼•æ•°ï¼“ åŠ¹æœéŸ³ï¼‘
+#å¼•æ•°ï¼” åå‹•ã®å¹…(ã‚µã‚¤ã‚ºå½¢å¼)
+#å¼•æ•°ï¼•ã€€æ‰“ã¡ä¸‹ã‚ã—
 UpVar
 
 _GBA_GetSomeBmpFromArgs
 
 Local TYPE = Args(1)
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Local U_X = WX(UID)
 Local U_Y = WY(UID)
 Local i
 Local ANG = _GetAngle(UID)
 Local ANG2
-Local X_F = _GetCircumference(ANG,‚w)
-Local Y_F = _GetCircumference(ANG,‚x)
-Local X_F2 = _GetCircumference((ANG + 90),‚w)
-Local Y_F2 = _GetCircumference((ANG + 90),‚x)
+Local X_F = _GetCircumference(ANG,ï¼¸)
+Local Y_F = _GetCircumference(ANG,ï¼¹)
+Local X_F2 = _GetCircumference((ANG + 90),ï¼¸)
+Local Y_F2 = _GetCircumference((ANG + 90),ï¼¹)
 Local DRCT = _FlipVertical(ANG)
 Local U_DRCT
 Local LN1 LN2 LN_P
 Local BMP_FILE BMP_FILE2
-Local W_BMP = _GN(_SelectWPBN(ƒŠƒ{ƒ‹ƒo[),_GBA_SB_NAME[1])
-Local G_S = _GN(_SelectWPBS(ƒŠƒ{ƒ‹ƒo[),_GBA_SB_SIZE[1])
-Local W_BMP2 = _GN(_SelectWPBN(ƒsƒXƒgƒ‹),_GBA_SB_NAME[2])
-Local G_S2 = _GN(_SelectWPBS(ƒsƒXƒgƒ‹),_GBA_SB_SIZE[2])
+Local W_BMP = _GN(_SelectWPBN(ãƒªãƒœãƒ«ãƒãƒ¼),_GBA_SB_NAME[1])
+Local G_S = _GN(_SelectWPBS(ãƒªãƒœãƒ«ãƒãƒ¼),_GBA_SB_SIZE[1])
+Local W_BMP2 = _GN(_SelectWPBN(ãƒ”ã‚¹ãƒˆãƒ«),_GBA_SB_NAME[2])
+Local G_S2 = _GN(_SelectWPBS(ãƒ”ã‚¹ãƒˆãƒ«),_GBA_SB_SIZE[2])
 Local F_BMP = _GN("Fire\EFFECT_MuzzleFlash01.bmp",_GBA_SB_NAME[3])
 Local F_S = _GN(24,_GBA_SB_SIZE[3])
 Local F_BMP2 = _GN("Fire\EFFECT_MuzzleFlash01.bmp",_GBA_SB_NAME[4])
@@ -429,21 +429,21 @@ Local W_F = _GN("Gun.wav",_GetWavFromArgs())
 Local L_NUM
 Local S_FLG1 = 0
 Local S_FLG2 = 0
-Local DWN_F = _S_OPT_FA("‘Å‚¿‰º‚ë‚µ")
+Local DWN_F = _S_OPT_FA("æ‰“ã¡ä¸‹ã‚ã—")
 
 _UnSetBattleAnimeValue
 
-If (DWN_F = "‘Å‚¿‰º‚ë‚µ") Then
-  Call í“¬ƒAƒjƒ_‹}~‰ºUŒ‚‹¤’Ê
-  _CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
-  If (X(UID) < _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
-    Set U_X (WX(‘Šèƒ†ƒjƒbƒg‚h‚c) - 96)
-    Set U_DRCT ¶‰E”½“]
-    Set DRCT "ã‰º”½“]"
+If (DWN_F = "æ‰“ã¡ä¸‹ã‚ã—") Then
+  Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ€¥é™ä¸‹æ”»æ’ƒå…±é€š
+  _CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+  If (X(UID) < _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
+    Set U_X (WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 96)
+    Set U_DRCT å·¦å³åè»¢
+    Set DRCT "ä¸Šä¸‹åè»¢"
     Set ANG 225
     Set ANG2 45
   Else
-    Set U_X (WX(‘Šèƒ†ƒjƒbƒg‚h‚c) + 96)
+    Set U_X (WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) + 96)
     Set U_DRCT ""
     Set ANG 315
     Set ANG2 315
@@ -453,21 +453,21 @@ If (DWN_F = "‘Å‚¿‰º‚ë‚µ") Then
   Set BMP_FILE2 _GetTileName(UID)
   Set A_X WX(UID)
   Set A_Y WY(UID)
-  Set U_Y (WY(‘Šèƒ†ƒjƒbƒg‚h‚c) - 96)
-  Set X_F _GetCircumference(ANG,‚w)
-  Set Y_F _GetCircumference(ANG,‚x)
-  Set X_F2 _GetCircumference((ANG + 90),‚w)
-  Set Y_F2 _GetCircumference((ANG + 90),‚x)
+  Set U_Y (WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 96)
+  Set X_F _GetCircumference(ANG,ï¼¸)
+  Set Y_F _GetCircumference(ANG,ï¼¹)
+  Set X_F2 _GetCircumference((ANG + 90),ï¼¸)
+  Set Y_F2 _GetCircumference((ANG + 90),ï¼¹)
   Set C_X (U_X - 16 + (X_F * 16))
   Set C_Y (U_Y - 16 + (Y_F * 16))
 
-  ChangeUnitBitmap UID ”ñ•\¦
-  _PaintTile BMP_FILE2 A_X A_Y •Û
-  PaintPicture BMP_FILE U_X U_Y “§‰ß U_DRCT ‰E‰ñ“] ANG2 T_COL •Û
+  ChangeUnitBitmap UID éè¡¨ç¤º
+  _PaintTile BMP_FILE2 A_X A_Y ä¿æŒ
+  PaintPicture BMP_FILE U_X U_Y é€é U_DRCT å³å›è»¢ ANG2 T_COL ä¿æŒ
 
 EndIf
 
-  If (DRCT = "ã‰º”½“]")  Then
+  If (DRCT = "ä¸Šä¸‹åè»¢")  Then
     Set W_X (U_X + 16 + (6 * X_F) - (6 * X_F2) - (G_S \ 2))
     Set W_Y (U_Y + 16 + (6 * Y_F) - (6 * Y_F2) - (G_S \ 2))
     Set W_X2 (U_X + 16 - (6 * X_F) + (6 * X_F2) - (G_S2 \ 2))
@@ -485,18 +485,18 @@ EndIf
   Set F_Y2 (W_Y2 + (G_S2 \ 2) + (Y_F * G_S2 \ 2.5) - (F_S2 \ 2))
 
 Switch _GetSizeFromArgs()
-Case "‘å"
+Case "å¤§"
   Set LN_P 2
-Case "¬"
+Case "å°"
   Set LN_P 0.5
 EndSw
 
 Switch TYPE
-Case "’P”­"
+Case "å˜ç™º"
   Set L_NUM 3
-Case "˜AË"
+Case "é€£å°„"
   Set L_NUM 11
-Case "—Ë"
+Case "ä¹±å°„"
   Set L_NUM 24
 EndSw
 
@@ -505,7 +505,7 @@ For i = 1 To (L_NUM + 3)
   ClearPicture
 
   Switch TYPE 
-  Case "’P”­"
+  Case "å˜ç™º"
     Switch i
     Case 1
       PlaySound W_F
@@ -519,7 +519,7 @@ For i = 1 To (L_NUM + 3)
       Set LN1 0
       Set FL1 ""
     EndSw
-  Case "˜AË"
+  Case "é€£å°„"
     Switch i
     Case 1 5 9
       PlaySound W_F
@@ -533,7 +533,7 @@ For i = 1 To (L_NUM + 3)
       Set LN1 0
       Set FL1 ""
     EndSw
-  Case "—Ë"
+  Case "ä¹±å°„"
     Switch i
     Case 1 4 7 10 13 16 19 22
       PlaySound W_F
@@ -549,13 +549,13 @@ For i = 1 To (L_NUM + 3)
     EndSw
   EndSw
 
-  PaintPicture W_BMP (W_X + (X_F * LN1)) (W_Y + (Y_F * LN1)) G_S G_S “§‰ß DRCT ‰E‰ñ“] ANG _ColorTime(FL1)
+  PaintPicture W_BMP (W_X + (X_F * LN1)) (W_Y + (Y_F * LN1)) G_S G_S é€é DRCT å³å›è»¢ ANG _ColorTime(FL1)
   If (S_FLG1 = 1) Then
-    PaintPicture F_BMP F_X F_Y F_S F_S “§‰ß ‰E‰ñ“] ANG T_COL1
+    PaintPicture F_BMP F_X F_Y F_S F_S é€é å³å›è»¢ ANG T_COL1
   EndIf
 
     Switch TYPE 
-    Case "’P”­"
+    Case "å˜ç™º"
       Switch i
       Case 4
         PlaySound W_F
@@ -569,7 +569,7 @@ For i = 1 To (L_NUM + 3)
         Set LN2 0
         Set FL2 ""
       EndSw
-    Case "˜AË"
+    Case "é€£å°„"
       Switch i
       Case 3 7 11
         PlaySound W_F
@@ -583,7 +583,7 @@ For i = 1 To (L_NUM + 3)
         Set LN2 0
         Set FL2 ""
       EndSw
-    Case "—Ë"
+    Case "ä¹±å°„"
       Switch i
       Case 2 5 8 11 14 17 20 23
         PlaySound W_F
@@ -599,9 +599,9 @@ For i = 1 To (L_NUM + 3)
       EndSw
     EndSw
 
-    PaintPicture W_BMP2 (W_X2 + (X_F * LN2)) (W_Y2 + (Y_F * LN2)) G_S2 G_S2 “§‰ß DRCT ‰E‰ñ“] ANG _ColorTime(FL2)
+    PaintPicture W_BMP2 (W_X2 + (X_F * LN2)) (W_Y2 + (Y_F * LN2)) G_S2 G_S2 é€é DRCT å³å›è»¢ ANG _ColorTime(FL2)
     If (S_FLG2 = 1) Then
-      PaintPicture F_BMP2 F_X2 F_Y2 F_S2 F_S2 “§‰ß ‰E‰ñ“] ANG T_COL1
+      PaintPicture F_BMP2 F_X2 F_Y2 F_S2 F_S2 é€é å³å›è»¢ ANG T_COL1
     EndIf
 
   Refresh
@@ -611,31 +611,31 @@ Next
 
 Wait 1.5
 
-If (DWN_F = "‘Å‚¿‰º‚ë‚µ") Then
-  UnSet í“¬ƒAƒjƒ•Ï”[”ñ•\¦] 0
+If (DWN_F = "æ‰“ã¡ä¸‹ã‚ã—") Then
+  UnSet æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡å¤‰æ•°[éè¡¨ç¤º] 0
   _SetAnimeData_UnitPoint "" "" "" "" "" "" ""
-  ChangeUnitBitmap UID ”ñ•\¦‰ğœ
+  ChangeUnitBitmap UID éè¡¨ç¤ºè§£é™¤
 EndIf
 
-Redraw ”ñ“¯Šú
+Redraw éåŒæœŸ
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_l“—¬€”õ:
-#ˆø”‚P •Ší‰æ‘œƒtƒ@ƒCƒ‹
-#ˆø”‚Q ‰æ‘œƒTƒCƒY
-#ˆø”‚R Œø‰Ê‰¹
-#ˆø”‚S ”­Œõ
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å››åˆ€æµæº–å‚™:
+#å¼•æ•°ï¼‘ æ­¦å™¨ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«
+#å¼•æ•°ï¼’ ç”»åƒã‚µã‚¤ã‚º
+#å¼•æ•°ï¼“ åŠ¹æœéŸ³
+#å¼•æ•°ï¼” ç™ºå…‰
 
 UpVar
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Local C_X = WX(UID)
 Local C_Y = WY(UID)
-Local WP_FILE = _SelectWPBN(–ì‘¾“)
-Local G_S = _SelectWPBS(–ì‘¾“)
+Local WP_FILE = _SelectWPBN(é‡å¤ªåˆ€)
+Local G_S = _SelectWPBS(é‡å¤ªåˆ€)
 Local X_P
 Local T_COL_F = _ColorTime(_IsLight())
 
@@ -646,24 +646,24 @@ _SelectSound "-.wav" _GetWavFromArgs()
 
   Wait Start
   ClearPicture
-  PaintPicture WP_FILE (C_X - 18 + X_P) (C_Y + 4) G_S G_S “§‰ß T_COL_F
-  PaintPicture WP_FILE (C_X - 6 + X_P) (C_Y - 6) G_S G_S “§‰ß T_COL_F ‰E‰ñ“] 30
-  PaintPicture WP_FILE (C_X + 18 + X_P) (C_Y + 4) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
-  PaintPicture WP_FILE (C_X + 6 + X_P) (C_Y - 6) G_S G_S “§‰ß ¶‰E”½“] T_COL_F ¶‰ñ“] 30
+  PaintPicture WP_FILE (C_X - 18 + X_P) (C_Y + 4) G_S G_S é€é T_COL_F
+  PaintPicture WP_FILE (C_X - 6 + X_P) (C_Y - 6) G_S G_S é€é T_COL_F å³å›è»¢ 30
+  PaintPicture WP_FILE (C_X + 18 + X_P) (C_Y + 4) G_S G_S é€é å·¦å³åè»¢ T_COL_F
+  PaintPicture WP_FILE (C_X + 6 + X_P) (C_Y - 6) G_S G_S é€é å·¦å³åè»¢ T_COL_F å·¦å›è»¢ 30
   Refresh
   Wait Until 1
   ClearPicture
-  PaintPicture WP_FILE (C_X - 26 + X_P) (C_Y - 4) G_S G_S “§‰ß T_COL_F
-  PaintPicture WP_FILE (C_X - 14 + X_P) (C_Y - 14) G_S G_S “§‰ß T_COL_F ‰E‰ñ“] 30
-  PaintPicture WP_FILE (C_X + 26 + X_P) (C_Y - 4) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
-  PaintPicture WP_FILE (C_X + 14 + X_P) (C_Y - 14) G_S G_S “§‰ß ¶‰E”½“] T_COL_F ¶‰ñ“] 30
+  PaintPicture WP_FILE (C_X - 26 + X_P) (C_Y - 4) G_S G_S é€é T_COL_F
+  PaintPicture WP_FILE (C_X - 14 + X_P) (C_Y - 14) G_S G_S é€é T_COL_F å³å›è»¢ 30
+  PaintPicture WP_FILE (C_X + 26 + X_P) (C_Y - 4) G_S G_S é€é å·¦å³åè»¢ T_COL_F
+  PaintPicture WP_FILE (C_X + 14 + X_P) (C_Y - 14) G_S G_S é€é å·¦å³åè»¢ T_COL_F å·¦å›è»¢ 30
   Refresh
   Wait Until 2
   ClearPicture
-  PaintPicture WP_FILE (C_X - 22 + X_P) C_Y G_S G_S “§‰ß T_COL_F
-  PaintPicture WP_FILE (C_X - 10 + X_P) (C_Y - 10) G_S G_S “§‰ß T_COL_F ‰E‰ñ“] 30
-  PaintPicture WP_FILE (C_X + 22 + X_P) C_Y G_S G_S “§‰ß ¶‰E”½“] T_COL_F
-  PaintPicture WP_FILE (C_X + 10 + X_P) (C_Y - 10) G_S G_S “§‰ß ¶‰E”½“] T_COL_F ¶‰ñ“] 30
+  PaintPicture WP_FILE (C_X - 22 + X_P) C_Y G_S G_S é€é T_COL_F
+  PaintPicture WP_FILE (C_X - 10 + X_P) (C_Y - 10) G_S G_S é€é T_COL_F å³å›è»¢ 30
+  PaintPicture WP_FILE (C_X + 22 + X_P) C_Y G_S G_S é€é å·¦å³åè»¢ T_COL_F
+  PaintPicture WP_FILE (C_X + 10 + X_P) (C_Y - 10) G_S G_S é€é å·¦å³åè»¢ T_COL_F å·¦å›è»¢ 30
   Refresh
   Wait Until 3.5
 
@@ -672,23 +672,23 @@ Wait Until 8
 Return "Keep"
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_l“—¬“ËŒ‚UŒ‚:
-#ˆø”‚P •Ší‰æ‘œƒtƒ@ƒCƒ‹
-#ˆø”‚Q ‰æ‘œƒTƒCƒY
-#ˆø”‚R Œø‰Ê‰¹
-#ˆø”‚S ”­Œõ
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å››åˆ€æµçªæ’ƒæ”»æ’ƒ:
+#å¼•æ•°ï¼‘ æ­¦å™¨ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«
+#å¼•æ•°ï¼’ ç”»åƒã‚µã‚¤ã‚º
+#å¼•æ•°ï¼“ åŠ¹æœéŸ³
+#å¼•æ•°ï¼” ç™ºå…‰
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Local C_X = WX(UID)
 Local C_Y = WY(UID)
-Local EFFECT_FILE = _SelectWPBN(–ì‘¾“)
-Local G_S = _SelectWPBS(–ì‘¾“)
+Local EFFECT_FILE = _SelectWPBN(é‡å¤ªåˆ€)
+Local G_S = _SelectWPBS(é‡å¤ªåˆ€)
 Local i
 Local ANG = _GetAngle(UID)
-Local X_F = _GetCircumference(ANG,‚w)
-Local Y_F = _GetCircumference(ANG,‚x)
+Local X_F = _GetCircumference(ANG,ï¼¸)
+Local Y_F = _GetCircumference(ANG,ï¼¹)
 Local W_X W_Y X_P LN
 Local BMP_FILE = _GetBMPName(UID)
 Local BMP_FILE2 = _GetTileName(UID)
@@ -702,18 +702,18 @@ _UnSetBattleAnimeValue
   Set ANG 0
   Set X_P (16 - (G_S \ 2))
   Set W_Y (C_Y + 32 - G_S)
-  If (X(UID) >= _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
+  If (X(UID) >= _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
     Set W_X (C_X - G_S + 16)
     Set DRCT ""
   Else
     Set W_X (C_X + 16)
-    Set DRCT ¶‰E”½“]
+    Set DRCT å·¦å³åè»¢
   EndIf
 
 Wait Start
 _SelectSound Whiz.wav _GetWavFromArgs()
 
-ChangeUnitBitmap UID ”ñ•\¦
+ChangeUnitBitmap UID éè¡¨ç¤º
 
 For i = 1 To 4
   ClearPicture
@@ -728,11 +728,11 @@ For i = 1 To 4
   Case 5
   EndSw
 
-  PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 32 32 “§‰ß DRCT T_COL
-  PaintPicture EFFECT_FILE ((C_X + X_P - 22) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S G_S “§‰ß T_COL_F
-  PaintPicture EFFECT_FILE ((C_X + X_P - 10) + (X_F * LN)) (W_Y - 10 + (Y_F * LN)) G_S G_S “§‰ß T_COL_F ‰E‰ñ“] 30
-  PaintPicture EFFECT_FILE ((C_X + 22) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
-  PaintPicture EFFECT_FILE ((C_X + 10) + (X_F * LN)) (W_Y - 10 + (Y_F * LN)) G_S G_S “§‰ß ¶‰E”½“] T_COL_F ¶‰ñ“] 30
+  PaintPicture BMP_FILE (C_X + (X_F * LN)) (C_Y + (Y_F * LN)) 32 32 é€é DRCT T_COL
+  PaintPicture EFFECT_FILE ((C_X + X_P - 22) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S G_S é€é T_COL_F
+  PaintPicture EFFECT_FILE ((C_X + X_P - 10) + (X_F * LN)) (W_Y - 10 + (Y_F * LN)) G_S G_S é€é T_COL_F å³å›è»¢ 30
+  PaintPicture EFFECT_FILE ((C_X + 22) + (X_F * LN)) (W_Y  + (Y_F * LN)) G_S G_S é€é å·¦å³åè»¢ T_COL_F
+  PaintPicture EFFECT_FILE ((C_X + 10) + (X_F * LN)) (W_Y - 10 + (Y_F * LN)) G_S G_S é€é å·¦å³åè»¢ T_COL_F å·¦å›è»¢ 30
 
   Refresh
   Wait Until (i * 0.7)
@@ -740,29 +740,29 @@ Next
 
 _SetAnimeData_UnitPoint (X_F * LN) (Y_F * LN) 0 DRCT "" "" UID
 
-ChangeUnitBitmap UID ”ñ•\¦‰ğœ
+ChangeUnitBitmap UID éè¡¨ç¤ºè§£é™¤
 
 Return "Keep"
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_ƒr[ƒ€ƒŒƒCƒ“–½’†:
-# ˆø”1 F
-# ˆø”2 Œø‰Ê‰¹
-# ã•ûŒü‚©‚ç~‚è’‚®‘åŠgUƒr[ƒ€
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ“ãƒ¼ãƒ ãƒ¬ã‚¤ãƒ³å‘½ä¸­:
+# å¼•æ•°1 è‰²
+# å¼•æ•°2 åŠ¹æœéŸ³
+# ä¸Šæ–¹å‘ã‹ã‚‰é™ã‚Šæ³¨ãå¤§æ‹¡æ•£ãƒ“ãƒ¼ãƒ 
 
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 Local i j
 Local B_C = _GetName("(Pink)",_G_BC_FA())
-Local C_X = (WX(‘Šèƒ†ƒjƒbƒg‚h‚c) - 16)
-Local C_Y = (WY(‘Šèƒ†ƒjƒbƒg‚h‚c) - 16)
+Local C_X = (WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 16)
+Local C_Y = (WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 16)
 Local ANG = 270
-Local X_F = _GetCircumference(ANG,‚w)
-Local Y_F = _GetCircumference(ANG,‚x)
-Local BMP_FILE = _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local T_X = WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local T_Y = WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Local X_F = _GetCircumference(ANG,ï¼¸)
+Local Y_F = _GetCircumference(ANG,ï¼¹)
+Local BMP_FILE = _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local T_X = WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local T_Y = WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Local T_COL1 = _ColorTime(1)
 Local T_COL = _ColorTime()
 
@@ -772,18 +772,18 @@ For j = 0 To 2
     ClearPicture
     Switch i
     Case 1 4 7 10
-      PaintPicture BMP_FILE T_X T_Y “§‰ß T_COL
+      PaintPicture BMP_FILE T_X T_Y é€é T_COL
     Case 2 5 8
       _SelectSound "Explode(Small).wav" _GetWavFromArgs()
-      PaintPicture BMP_FILE (T_X + (X_F * 2)) (T_Y + (Y_F * 2)) “§‰ß –¾ T_COL
+      PaintPicture BMP_FILE (T_X + (X_F * 2)) (T_Y + (Y_F * 2)) é€é æ˜ T_COL
     Case 3 6 9
-      PaintPicture BMP_FILE (T_X + (X_F * 4)) (T_Y + (Y_F * 4)) “§‰ß –¾ –¾ T_COL
+      PaintPicture BMP_FILE (T_X + (X_F * 4)) (T_Y + (Y_F * 4)) é€é æ˜ æ˜ T_COL
     EndSw
     If (i < 9) Then
-      PaintPicture ("Beam\EFFECT_DBeamHit" & B_C & "0" & i & ".bmp") C_X C_Y ‰E‰ñ“] ANG “§‰ß T_COL1
+      PaintPicture ("Beam\EFFECT_DBeamHit" & B_C & "0" & i & ".bmp") C_X C_Y å³å›è»¢ ANG é€é T_COL1
     EndIf
     If (i > 2) Then
-      PaintPicture ("Beam\EFFECT_DBeamHit" & B_C & "0" & (i - 2) & ".bmp") C_X C_Y ‰E‰ñ“] ANG ã‰º”½“] “§‰ß T_COL1
+      PaintPicture ("Beam\EFFECT_DBeamHit" & B_C & "0" & (i - 2) & ".bmp") C_X C_Y å³å›è»¢ ANG ä¸Šä¸‹åè»¢ é€é T_COL1
     EndIf
     Refresh
     Wait Until (i * 0.7)
@@ -795,42 +795,42 @@ Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_ƒVƒ…[ƒgƒJƒbƒ^[‰ü–½’†:
-#ˆø”‚P •Ší‰æ‘œƒtƒ@ƒCƒ‹
-#ˆø”‚Q ‰æ‘œƒTƒCƒY
-#ˆø”‚R Œø‰Ê‰¹
-#ˆø”‚S ƒ‰ƒ“ƒ_ƒ€•ûŒü
-#ˆø”‚T F(¦‰æ‘œw’è‚µ‚È‚¢ê‡)
-#ˆø”‚U ”­Œõ
-# ƒVƒ…[ƒgƒJƒbƒ^[‚É‰æ‘œ•ÏX‚Æƒ‰ƒ“ƒ_ƒ€•ûŒü‚ğ’Ç‰Á
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚·ãƒ¥ãƒ¼ãƒˆã‚«ãƒƒã‚¿ãƒ¼æ”¹å‘½ä¸­:
+#å¼•æ•°ï¼‘ æ­¦å™¨ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«
+#å¼•æ•°ï¼’ ç”»åƒã‚µã‚¤ã‚º
+#å¼•æ•°ï¼“ åŠ¹æœéŸ³
+#å¼•æ•°ï¼” ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘
+#å¼•æ•°ï¼• è‰²(â€»ç”»åƒæŒ‡å®šã—ãªã„å ´åˆ)
+#å¼•æ•°ï¼– ç™ºå…‰
+# ã‚·ãƒ¥ãƒ¼ãƒˆã‚«ãƒƒã‚¿ãƒ¼ã«ç”»åƒå¤‰æ›´ã¨ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘ã‚’è¿½åŠ 
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
-Local EFFECT_FILE = _SelectWPBN(_STC(ƒVƒ…[ƒgƒJƒbƒ^[))
-Local G_S = _SelectWPBS(ƒVƒ…[ƒgƒJƒbƒ^[)
-Local C_X = WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local C_Y = WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+Local EFFECT_FILE = _SelectWPBN(_STC(ã‚·ãƒ¥ãƒ¼ãƒˆã‚«ãƒƒã‚¿ãƒ¼))
+Local G_S = _SelectWPBS(ã‚·ãƒ¥ãƒ¼ãƒˆã‚«ãƒƒã‚¿ãƒ¼)
+Local C_X = WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local C_Y = WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Local ANG
-Local BMP_FILE = _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local BMP_FILE2 = _GetTileName(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Local BMP_FILE = _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local BMP_FILE2 = _GetTileName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Local i
 Local LN
 Local T_COL_F = _ColorTime(_IsLight())
 Local T_COL = _ColorTime()
 
-If (_SearchOptionFromArgs("ƒ‰ƒ“ƒ_ƒ€•ûŒü") = "") Then
+If (_SearchOptionFromArgs("ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘") = "") Then
   Set ANG _GetAngle(UID)
 Else
   Set ANG Random(360)
 EndIf
 
-Local X_F = _GetCircumference(ANG,‚w)
-Local Y_F = _GetCircumference(ANG,‚x)
+Local X_F = _GetCircumference(ANG,ï¼¸)
+Local Y_F = _GetCircumference(ANG,ï¼¹)
 Local DRCT = _FlipVertical(ANG)
 
 
 Wait Start
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤º
 
 For i = 1 To 7
   ClearPicture
@@ -839,46 +839,46 @@ For i = 1 To 7
   Switch i
   Case 1
     Set LN -24
-    PaintPicture BMP_FILE C_X C_Y “§‰ß T_COL
+    PaintPicture BMP_FILE C_X C_Y é€é T_COL
   Case 2
     Set LN -12
-    PaintPicture BMP_FILE C_X C_Y “§‰ß T_COL
+    PaintPicture BMP_FILE C_X C_Y é€é T_COL
   Case 3
     Set LN 0
-    PaintPicture BMP_FILE C_X C_Y “§‰ß T_COL
+    PaintPicture BMP_FILE C_X C_Y é€é T_COL
     _SelectSound "Saber.wav" _GetWavFromArgs()
   Case 4
     Set LN 4
-    PaintPicture BMP_FILE (C_X + (X_F * 2)) (C_Y + (Y_F * 2)) “§‰ß T_COL
+    PaintPicture BMP_FILE (C_X + (X_F * 2)) (C_Y + (Y_F * 2)) é€é T_COL
   Case 5
     Set LN 8
-    PaintPicture BMP_FILE (C_X + (X_F * 4)) (C_Y + (Y_F * 4)) “§‰ß T_COL
+    PaintPicture BMP_FILE (C_X + (X_F * 4)) (C_Y + (Y_F * 4)) é€é T_COL
   Case 6
     Set LN 24
-    PaintPicture BMP_FILE (C_X + (X_F * 12)) (C_Y + (Y_F * 12)) “§‰ß T_COL
+    PaintPicture BMP_FILE (C_X + (X_F * 12)) (C_Y + (Y_F * 12)) é€é T_COL
   Case 7
     Set LN 40
-    PaintPicture BMP_FILE (C_X + (X_F * 16)) (C_Y + (Y_F * 16)) “§‰ß T_COL
+    PaintPicture BMP_FILE (C_X + (X_F * 16)) (C_Y + (Y_F * 16)) é€é T_COL
   EndSw
 
-  PaintPicture EFFECT_FILE (C_X + (X_F * (LN + 8))) (C_Y + (Y_F * (LN + 8))) “§‰ß DRCT ‰E‰ñ“] ANG T_COL_F
+  PaintPicture EFFECT_FILE (C_X + (X_F * (LN + 8))) (C_Y + (Y_F * (LN + 8))) é€é DRCT å³å›è»¢ ANG T_COL_F
   Refresh
   Wait Until (i * 0.6)
 Next
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦‰ğœ
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤ºè§£é™¤
 ClearPicture
 Refresh
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_©‹@˜A‘±”š”­€”õ:
-# ˆø”‚P@”š”­‰ñ”
-# ˆø”‚Q@Œø‰Ê‰¹
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è‡ªæ©Ÿé€£ç¶šçˆ†ç™ºæº–å‚™:
+# å¼•æ•°ï¼‘ã€€çˆ†ç™ºå›æ•°
+# å¼•æ•°ï¼’ã€€åŠ¹æœéŸ³
 
-_CenteringCheck ‘ÎÛƒ†ƒjƒbƒg‚h‚c
+_CenteringCheck å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 Local i j X_P Y_P CNT
-Local C_X = WX(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
-Local C_Y = WY(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
+Local C_X = WX(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local C_Y = WY(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Local B_C = _G_BC_FA()
 
 Set CNT _GetName(3,_GetNumberFromArgs())
@@ -895,7 +895,7 @@ For j = 1 To CNT
 
   Wait Start
   For i = 1 To 3
-    _PaintCutin_ZSL ("Explode\EFFECT_MiniExplode" & B_C & "01.bmp") ”½“]‚È‚µ (X_P + 16 - (i * 4)) (Y_P + 16 - (i * 4)) (i * 8) (i * 8)
+    _PaintCutin_ZSL ("Explode\EFFECT_MiniExplode" & B_C & "01.bmp") åè»¢ãªã— (X_P + 16 - (i * 4)) (Y_P + 16 - (i * 4)) (i * 8) (i * 8)
     Wait Until (i * 0.7)
   Next
 Next
@@ -907,24 +907,24 @@ Return
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_U‚é•Ší—±qW’†¢Š«€”õ:
-#ˆø”‚P@è‚¿•Ší‚Ìƒtƒ@ƒCƒ‹–¼
-#ˆø”‚Q@è‚¿•Ší‚Ì‰æ‘œƒTƒCƒY
-#ˆø”‚R@(“ñ“—¬ê—p)è‚¿•Ší‚Q‚Ìƒtƒ@ƒCƒ‹–¼(¦w’è‚µ‚È‚¢ê‡‚Íˆø”‚P‚ª•Ô‹p‚³‚ê‚Ü‚·)
-#ˆø”‚S@(“ñ“—¬ê—p)è‚¿•Ší‚Q‚Ì‰æ‘œƒTƒCƒY(¦w’è‚µ‚È‚¢ê‡‚Íˆø”‚Q‚ª•Ô‹p‚³‚ê‚Ü‚·)
-#ˆø”‚T@F(¦–¢w’è‚Íƒsƒ“ƒN)
-#ˆø”‚U@(“ñ“—¬ê—p)F(¦w’è‚µ‚È‚¢ê‡‚Íˆø”‚T‚ª•Ô‹p‚³‚ê‚Ü‚·)
-#ˆø”‚V@Œø‰Ê‰¹
-#ˆø”‚W@“ñ“—¬
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚‹æ­¦å™¨ç²’å­é›†ä¸­å¬å–šæº–å‚™:
+#å¼•æ•°ï¼‘ã€€æ‰‹æŒã¡æ­¦å™¨ã®ãƒ•ã‚¡ã‚¤ãƒ«å
+#å¼•æ•°ï¼’ã€€æ‰‹æŒã¡æ­¦å™¨ã®ç”»åƒã‚µã‚¤ã‚º
+#å¼•æ•°ï¼“ã€€(äºŒåˆ€æµå°‚ç”¨)æ‰‹æŒã¡æ­¦å™¨ï¼’ã®ãƒ•ã‚¡ã‚¤ãƒ«å(â€»æŒ‡å®šã—ãªã„å ´åˆã¯å¼•æ•°ï¼‘ãŒè¿”å´ã•ã‚Œã¾ã™)
+#å¼•æ•°ï¼”ã€€(äºŒåˆ€æµå°‚ç”¨)æ‰‹æŒã¡æ­¦å™¨ï¼’ã®ç”»åƒã‚µã‚¤ã‚º(â€»æŒ‡å®šã—ãªã„å ´åˆã¯å¼•æ•°ï¼’ãŒè¿”å´ã•ã‚Œã¾ã™)
+#å¼•æ•°ï¼•ã€€è‰²(â€»æœªæŒ‡å®šæ™‚ã¯ãƒ”ãƒ³ã‚¯)
+#å¼•æ•°ï¼–ã€€(äºŒåˆ€æµå°‚ç”¨)è‰²(â€»æŒ‡å®šã—ãªã„å ´åˆã¯å¼•æ•°ï¼•ãŒè¿”å´ã•ã‚Œã¾ã™)
+#å¼•æ•°ï¼—ã€€åŠ¹æœéŸ³
+#å¼•æ•°ï¼˜ã€€äºŒåˆ€æµ
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Local i j
 Local SIZE
 Local W_BMP = _GetBmpFromArgs()
 Local G_S = _GetPicSizeFromArgs()
-Local C_N = _GN(”’,_GetColorFromArgs())
+Local C_N = _GN(ç™½,_GetColorFromArgs())
 Local RGB = _GetColorRGBFromArgs(C_N)
 Local B_C = _G_BC_FA(C_N)
 Local W_BMP2 = _GN(W_BMP,_GetBmpFromArgs2())
@@ -951,44 +951,44 @@ For i = 1 To 11
 If (_IsDoubleWeapon() = 1) Then
   Switch i
   Case 1
-     PaintPicture ("Common\EFFECT_Particle" & B_C & "03.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE “§‰ß T_COL1
-     PaintPicture ("Common\EFFECT_Particle" & B_C2 & "03.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE ¶‰E”½“] “§‰ß T_COL1
+     PaintPicture ("Common\EFFECT_Particle" & B_C & "03.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE é€é T_COL1
+     PaintPicture ("Common\EFFECT_Particle" & B_C2 & "03.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE å·¦å³åè»¢ é€é T_COL1
   Case 2 3
-     PaintPicture ("Common\EFFECT_Particle" & B_C & "02.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE “§‰ß T_COL1
-     PaintPicture ("Common\EFFECT_Particle" & B_C2 & "02.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE ¶‰E”½“] “§‰ß T_COL1
+     PaintPicture ("Common\EFFECT_Particle" & B_C & "02.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE é€é T_COL1
+     PaintPicture ("Common\EFFECT_Particle" & B_C2 & "02.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE å·¦å³åè»¢ é€é T_COL1
   Case 4 5
-     PaintPicture ("Common\EFFECT_Particle" & B_C & "01.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE “§‰ß T_COL1
-     PaintPicture ("Common\EFFECT_Particle" & B_C2 & "01.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE ¶‰E”½“] “§‰ß T_COL1
-     PaintPicture W_BMP (C_X2 - 24) C_Y2 G_S G_S ƒtƒBƒ‹ƒ^ RGB 100% “§‰ß T_COL1
-     PaintPicture W_BMP2 (C_X2 + 24) C_Y2 G_S2 G_S2 ¶‰E”½“] ƒtƒBƒ‹ƒ^ RGB2 100% “§‰ß T_COL1
+     PaintPicture ("Common\EFFECT_Particle" & B_C & "01.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE é€é T_COL1
+     PaintPicture ("Common\EFFECT_Particle" & B_C2 & "01.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE å·¦å³åè»¢ é€é T_COL1
+     PaintPicture W_BMP (C_X2 - 24) C_Y2 G_S G_S ãƒ•ã‚£ãƒ«ã‚¿ RGB 100% é€é T_COL1
+     PaintPicture W_BMP2 (C_X2 + 24) C_Y2 G_S2 G_S2 å·¦å³åè»¢ ãƒ•ã‚£ãƒ«ã‚¿ RGB2 100% é€é T_COL1
   Case 6 7 8 9 10 11
-     PaintPicture W_BMP (C_X2 - 24) C_Y2 G_S G_S ƒtƒBƒ‹ƒ^ RGB ((100 - (j * 20)) & "%") “§‰ß T_COL1
-     PaintPicture W_BMP2 (C_X2 + 24) C_Y2 G_S2 G_S2 ¶‰E”½“] ƒtƒBƒ‹ƒ^ RGB2 ((100 - (j * 20)) & "%") “§‰ß T_COL1
+     PaintPicture W_BMP (C_X2 - 24) C_Y2 G_S G_S ãƒ•ã‚£ãƒ«ã‚¿ RGB ((100 - (j * 20)) & "%") é€é T_COL1
+     PaintPicture W_BMP2 (C_X2 + 24) C_Y2 G_S2 G_S2 å·¦å³åè»¢ ãƒ•ã‚£ãƒ«ã‚¿ RGB2 ((100 - (j * 20)) & "%") é€é T_COL1
   EndSw
 Else
-  If (X(UID) >= _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
+  If (X(UID) >= _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
    Switch i
    Case 1
-      PaintPicture ("Common\EFFECT_Particle" & B_C & "03.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE “§‰ß T_COL1
+      PaintPicture ("Common\EFFECT_Particle" & B_C & "03.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE é€é T_COL1
    Case 2 3
-      PaintPicture ("Common\EFFECT_Particle" & B_C & "02.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE “§‰ß T_COL1
+      PaintPicture ("Common\EFFECT_Particle" & B_C & "02.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE é€é T_COL1
    Case 4 5
-      PaintPicture ("Common\EFFECT_Particle" & B_C & "01.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE “§‰ß T_COL1
-      PaintPicture W_BMP (C_X2 - 24) C_Y2 G_S G_S ƒtƒBƒ‹ƒ^ RGB 100% “§‰ß T_COL1
+      PaintPicture ("Common\EFFECT_Particle" & B_C & "01.bmp") (C_X - 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE é€é T_COL1
+      PaintPicture W_BMP (C_X2 - 24) C_Y2 G_S G_S ãƒ•ã‚£ãƒ«ã‚¿ RGB 100% é€é T_COL1
    Case 6 7 8 9 10 11
-      PaintPicture W_BMP (C_X2 - 24) C_Y2 G_S G_S ƒtƒBƒ‹ƒ^ RGB ((100 - (j * 20)) & "%") “§‰ß T_COL1
+      PaintPicture W_BMP (C_X2 - 24) C_Y2 G_S G_S ãƒ•ã‚£ãƒ«ã‚¿ RGB ((100 - (j * 20)) & "%") é€é T_COL1
    EndSw
   Else
    Switch i
    Case 1
-      PaintPicture ("Common\EFFECT_Particle" & B_C2 & "03.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE ¶‰E”½“] “§‰ß T_COL1
+      PaintPicture ("Common\EFFECT_Particle" & B_C2 & "03.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE å·¦å³åè»¢ é€é T_COL1
    Case 2 3
-      PaintPicture ("Common\EFFECT_Particle" & B_C2 & "02.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE ¶‰E”½“] “§‰ß T_COL1
+      PaintPicture ("Common\EFFECT_Particle" & B_C2 & "02.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE å·¦å³åè»¢ é€é T_COL1
    Case 4 5
-      PaintPicture ("Common\EFFECT_Particle" & B_C2 & "01.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE ¶‰E”½“] “§‰ß T_COL1
-      PaintPicture W_BMP2 (C_X2 + 24) C_Y2 G_S2 G_S2 ¶‰E”½“] ƒtƒBƒ‹ƒ^ RGB2 100% “§‰ß T_COL1
+      PaintPicture ("Common\EFFECT_Particle" & B_C2 & "01.bmp") (C_X + 24 - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE å·¦å³åè»¢ é€é T_COL1
+      PaintPicture W_BMP2 (C_X2 + 24) C_Y2 G_S2 G_S2 å·¦å³åè»¢ ãƒ•ã‚£ãƒ«ã‚¿ RGB2 100% é€é T_COL1
    Case 6 7 8 9 10 11
-      PaintPicture W_BMP2 (C_X2 + 24) C_Y2 G_S2 G_S2 ¶‰E”½“] ƒtƒBƒ‹ƒ^ RGB2 ((100 - (j * 20)) & "%") “§‰ß T_COL1
+      PaintPicture W_BMP2 (C_X2 + 24) C_Y2 G_S2 G_S2 å·¦å³åè»¢ ãƒ•ã‚£ãƒ«ã‚¿ RGB2 ((100 - (j * 20)) & "%") é€é T_COL1
    EndSw
   EndIf
 EndIf
@@ -1000,15 +1000,15 @@ Wait 2
 Return "Keep"
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_ËŒ‚•Ší—±qW’†¢Š«€”õ:
-#ˆø”‚P@è‚¿•Ší‚Ìƒtƒ@ƒCƒ‹–¼
-#ˆø”‚Q@è‚¿•Ší‚Ì‰æ‘œƒTƒCƒY
-#ˆø”‚R@F(¦–¢w’è‚Íƒsƒ“ƒN)
-#ˆø”‚S@Œø‰Ê‰¹
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å°„æ’ƒæ­¦å™¨ç²’å­é›†ä¸­å¬å–šæº–å‚™:
+#å¼•æ•°ï¼‘ã€€æ‰‹æŒã¡æ­¦å™¨ã®ãƒ•ã‚¡ã‚¤ãƒ«å
+#å¼•æ•°ï¼’ã€€æ‰‹æŒã¡æ­¦å™¨ã®ç”»åƒã‚µã‚¤ã‚º
+#å¼•æ•°ï¼“ã€€è‰²(â€»æœªæŒ‡å®šæ™‚ã¯ãƒ”ãƒ³ã‚¯)
+#å¼•æ•°ï¼”ã€€åŠ¹æœéŸ³
 
 
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Local i j
@@ -1017,7 +1017,7 @@ Local ANG = _GetAngle(UID)
 Local DRCT = _FlipVertical(ANG)
 Local W_BMP = _GetBmpFromArgs()
 Local G_S = _GetPicSizeFromArgs()
-Local C_N = _GN(”’,_GetColorFromArgs())
+Local C_N = _GN(ç™½,_GetColorFromArgs())
 Local RGB = _GetColorRGBFromArgs(C_N)
 Local B_C = _G_BC_FA(C_N)
 Local C_X = (_Get_WX(UID) + 16)
@@ -1038,14 +1038,14 @@ For i = 1 To 11
 
   Switch i
   Case 1
-     PaintPicture ("Common\EFFECT_Particle" & B_C & "03.bmp") (C_X - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE “§‰ß T_COL1
+     PaintPicture ("Common\EFFECT_Particle" & B_C & "03.bmp") (C_X - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE é€é T_COL1
   Case 2 3
-     PaintPicture ("Common\EFFECT_Particle" & B_C & "02.bmp") (C_X - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE “§‰ß T_COL1
+     PaintPicture ("Common\EFFECT_Particle" & B_C & "02.bmp") (C_X - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE é€é T_COL1
   Case 4 5
-     PaintPicture ("Common\EFFECT_Particle" & B_C & "01.bmp") (C_X - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE “§‰ß T_COL1
-     PaintPicture W_BMP C_X2 C_Y2 G_S G_S ƒtƒBƒ‹ƒ^ RGB 100% “§‰ß DRCT ‰E‰ñ“] ANG T_COL1
+     PaintPicture ("Common\EFFECT_Particle" & B_C & "01.bmp") (C_X - (SIZE \ 2)) (C_Y - (SIZE \ 2)) SIZE SIZE é€é T_COL1
+     PaintPicture W_BMP C_X2 C_Y2 G_S G_S ãƒ•ã‚£ãƒ«ã‚¿ RGB 100% é€é DRCT å³å›è»¢ ANG T_COL1
   Case 6 7 8 9 10 11
-     PaintPicture W_BMP C_X2 C_Y2 G_S G_S ƒtƒBƒ‹ƒ^ RGB ((100 - (j * 20)) & "%") “§‰ß DRCT ‰E‰ñ“] ANG T_COL1
+     PaintPicture W_BMP C_X2 C_Y2 G_S G_S ãƒ•ã‚£ãƒ«ã‚¿ RGB ((100 - (j * 20)) & "%") é€é DRCT å³å›è»¢ ANG T_COL1
   EndSw
   Refresh
   Wait Until (i * 0.7)
@@ -1057,11 +1057,11 @@ Return "Keep"
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_ƒŒƒ€ƒŠƒAEƒCƒ“ƒpƒNƒg–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ¬ãƒ ãƒªã‚¢ãƒ»ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆå‘½ä¸­:
 
-Center ‘Šèƒ†ƒjƒbƒg
+Center ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆ
 
-Local UID = _GetName(‘Šèƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Local i
 Local BMP_FILE = _GetBMPName(UID)
@@ -1073,7 +1073,7 @@ Playsound Charge(High).wav
 Wait Start
 For i = 1 To 60
 ClearPicture
-FillStyle “h‚è‚Â‚Ô‚µ
+FillStyle å¡—ã‚Šã¤ã¶ã—
 Color #99FFCC
 FillColor #99FFCC
 Circle (C_X + 16) (C_Y + 16) (20 + (Random(4)))
@@ -1081,19 +1081,19 @@ DrawWidth 2
 Color #00FF66
 FillColor #212222
 Circle (C_X + 16) (C_Y + 16) (16 + (Random(4)))
-PaintPicture BMP_FILE (C_X + (Random(5))) (C_Y + (Random(5))) 32 32 “§‰ß ƒtƒBƒ‹ƒ^ #212222 50% T_COL
-PaintPicture ("Anime\Common\EFFECT_ElectricDischarge0" & Random(6) & ".bmp") (C_X - 8) (C_Y - 8) 48 48 ‰E‰ñ“] Random(360) “§‰ß
+PaintPicture BMP_FILE (C_X + (Random(5))) (C_Y + (Random(5))) 32 32 é€é ãƒ•ã‚£ãƒ«ã‚¿ #212222 50% T_COL
+PaintPicture ("Anime\Common\EFFECT_ElectricDischarge0" & Random(6) & ".bmp") (C_X - 8) (C_Y - 8) 48 48 å³å›è»¢ Random(360) é€é
 Refresh
 Wait Until (0.2 * i)
 Next
 Return "Keep"
 
-í“¬ƒAƒjƒ_ƒŒƒ€ƒŠƒAEƒCƒ“ƒpƒNƒg‚Æ‚Ç‚ß:
-#ˆø”‚P@Œ‹ŠE‚È‚µ (”š”­Œã‚ÌŒ‹ŠE•`Ê‚ğ‚È‚­‚·)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ¬ãƒ ãƒªã‚¢ãƒ»ã‚¤ãƒ³ãƒ‘ã‚¯ãƒˆã¨ã©ã‚:
+#å¼•æ•°ï¼‘ã€€çµç•Œãªã— (çˆ†ç™ºå¾Œã®çµç•Œæå†™ã‚’ãªãã™)
 
-Center ‘Šèƒ†ƒjƒbƒg
+Center ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆ
 
-Local UID = _GetName(‘Šèƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Local TYPE = Args(1)
 Local i
@@ -1104,13 +1104,13 @@ Local T_COL = _ColorTime()
 Local T_COL1 = _ColorTime(1)
 Local N_C N_S
 
-í“¬ƒAƒjƒ_“§–¾‰»–½’†
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é€æ˜åŒ–å‘½ä¸­
 
 Playsound BeamShot.wav
 Wait Start
 For i = 1 To 10
 ClearPicture
-FillStyle “h‚è‚Â‚Ô‚µ
+FillStyle å¡—ã‚Šã¤ã¶ã—
 Color #99FFCC
 FillColor #99FFCC
 Circle (C_X + 16) (C_Y + 16) (20 - (2 * i))
@@ -1118,21 +1118,21 @@ DrawWidth 2
 Color #00FF66
 FillColor #212222
 Circle (C_X + 16) (C_Y + 16) (16 - (1.6 * i))
-PaintPicture BMP_FILE (C_X + (1.6 * i)) (C_Y + (1.6 * i)) (32 - (3.2 * i)) (32 - (3.2 * i)) “§‰ß ƒtƒBƒ‹ƒ^ #212222 50% T_COL
-PaintPicture ("Anime\Common\EFFECT_ElectricDischarge0" & Random(6) & ".bmp") (C_X - 8 + (2.4 * i)) (C_Y - 8 + (2.4 * i)) (48 - (4.8 * i)) (48 - (4.8 * i)) ‰E‰ñ“] Random(360) “§‰ß
+PaintPicture BMP_FILE (C_X + (1.6 * i)) (C_Y + (1.6 * i)) (32 - (3.2 * i)) (32 - (3.2 * i)) é€é ãƒ•ã‚£ãƒ«ã‚¿ #212222 50% T_COL
+PaintPicture ("Anime\Common\EFFECT_ElectricDischarge0" & Random(6) & ".bmp") (C_X - 8 + (2.4 * i)) (C_Y - 8 + (2.4 * i)) (48 - (4.8 * i)) (48 - (4.8 * i)) å³å›è»¢ Random(360) é€é
 Refresh
 Wait Until (0.2 * i)
 Next
 ClearPicture
 Refresh
-í“¬ƒAƒjƒ_”­Œõ–½’† —Î -.wav
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰å‘½ä¸­ ç·‘ -.wav
 Wait 3
 
 
 Playsound Explode(Nuclear).wav
 Wait Start
 For i = 1 To 30
-FillStyle “h‚è‚Â‚Ô‚µ
+FillStyle å¡—ã‚Šã¤ã¶ã—
 DrawWidth (6 * i)
 Color #00FF66
 FillColor #99FFCC
@@ -1141,7 +1141,7 @@ Refresh
 Wait Until (0.4 * i)
 Next
 
-If TYPE = Œ‹ŠE‚È‚µ Then
+If TYPE = çµç•Œãªã— Then
 
 WhiteOut 20
 Wait 5
@@ -1160,12 +1160,12 @@ ClearPicture
 PlaySound "Explode(Long).wav"
 Set N_S 96
 Set N_C 1
-PaintPicture ("Map\EFFECT_MapAura(Black)03.bmp") - (240 - (N_S / 2)) N_S N_S ƒtƒBƒ‹ƒ^ #FFFFFF 70% “§‰ß T_COL1
+PaintPicture ("Map\EFFECT_MapAura(Black)03.bmp") - (240 - (N_S / 2)) N_S N_S ãƒ•ã‚£ãƒ«ã‚¿ #FFFFFF 70% é€é T_COL1
 WhiteIn 13
 
 Wait Start
 For i = 1 To 15
-  PaintPicture ("Map\EFFECT_MapAura(Black)" & "0" & N_C & ".bmp") - (240 - (N_S / 2)) N_S N_S ƒtƒBƒ‹ƒ^ #FFFFFF ((60 + Random(20)) & "%") “§‰ß T_COL1
+  PaintPicture ("Map\EFFECT_MapAura(Black)" & "0" & N_C & ".bmp") - (240 - (N_S / 2)) N_S N_S ãƒ•ã‚£ãƒ«ã‚¿ #FFFFFF ((60 + Random(20)) & "%") é€é T_COL1
   Refresh
   If ((i Mod 2) = 0) Then
     Incr N_C 1
@@ -1179,7 +1179,7 @@ Next
 Wait Start
 For i = 1 To 99
   ClearPicture
-  PaintPicture ("Map\EFFECT_MapAura(Black)" & "0" & N_C & ".bmp") - (240 - (N_S / 2)) N_S N_S ƒtƒBƒ‹ƒ^ #FFFFFF ((60 - (i * 10)) & "%") “§‰ß T_COL1
+  PaintPicture ("Map\EFFECT_MapAura(Black)" & "0" & N_C & ".bmp") - (240 - (N_S / 2)) N_S N_S ãƒ•ã‚£ãƒ«ã‚¿ #FFFFFF ((60 - (i * 10)) & "%") é€é T_COL1
   Refresh
   If ((i Mod 2) = 0) Then
     Incr N_C 1

@@ -1,383 +1,383 @@
-@ƒŠ[ƒtƒtƒ@ƒCƒg‚X‚V
-@ƒŠ[ƒtƒtƒ@ƒCƒgƒu[ƒXƒ^[
+@ãƒªãƒ¼ãƒ•ãƒ•ã‚¡ã‚¤ãƒˆï¼™ï¼—
+@ãƒªãƒ¼ãƒ•ãƒ•ã‚¡ã‚¤ãƒˆãƒ–ãƒ¼ã‚¹ã‚¿ãƒ¼
 
-ƒvƒƒ[ƒO:
+ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°:
 
-Option ƒfƒoƒbƒO
+Option ãƒ‡ãƒãƒƒã‚°
 
 Exit
 
-ƒXƒ^[ƒg:
+ã‚¹ã‚¿ãƒ¼ãƒˆ:
 
 
-#----------ƒŒƒxƒ‹Ý’èƒp[ƒg----------
+#----------ãƒ¬ãƒ™ãƒ«è¨­å®šãƒ‘ãƒ¼ãƒˆ----------
 
-–¡•ûƒŒƒxƒ‹Ý’è:
-Ask "–¡•û‚ÌƒŒƒxƒ‹‚ðŽw’è‚µ‚Ä‚­‚¾‚³‚¢" ˜A‘±•\Ž¦
-ƒŒƒxƒ‹10
-ƒŒƒxƒ‹20
-ƒŒƒxƒ‹30
-ƒŒƒxƒ‹40
-ƒŒƒxƒ‹50
-ƒŒƒxƒ‹60
-ƒŒƒxƒ‹70
-ƒŒƒxƒ‹80
-ƒŒƒxƒ‹90
+å‘³æ–¹ãƒ¬ãƒ™ãƒ«è¨­å®š:
+Ask "å‘³æ–¹ã®ãƒ¬ãƒ™ãƒ«ã‚’æŒ‡å®šã—ã¦ãã ã•ã„" é€£ç¶šè¡¨ç¤º
+ãƒ¬ãƒ™ãƒ«10
+ãƒ¬ãƒ™ãƒ«20
+ãƒ¬ãƒ™ãƒ«30
+ãƒ¬ãƒ™ãƒ«40
+ãƒ¬ãƒ™ãƒ«50
+ãƒ¬ãƒ™ãƒ«60
+ãƒ¬ãƒ™ãƒ«70
+ãƒ¬ãƒ™ãƒ«80
+ãƒ¬ãƒ™ãƒ«90
 End
 
-Set –¡•ûƒŒƒxƒ‹ (‘I‘ð * 10)
+Set å‘³æ–¹ãƒ¬ãƒ™ãƒ« (é¸æŠž * 10)
 
-“GƒŒƒxƒ‹Ý’è:
-Ask "“G‚ÌƒŒƒxƒ‹‚ðŽw’è‚µ‚Ä‚­‚¾‚³‚¢"
-ƒŒƒxƒ‹10
-ƒŒƒxƒ‹20
-ƒŒƒxƒ‹30
-ƒŒƒxƒ‹40
-ƒŒƒxƒ‹50
-ƒŒƒxƒ‹60
-ƒŒƒxƒ‹70
-ƒŒƒxƒ‹80
-ƒŒƒxƒ‹90
+æ•µãƒ¬ãƒ™ãƒ«è¨­å®š:
+Ask "æ•µã®ãƒ¬ãƒ™ãƒ«ã‚’æŒ‡å®šã—ã¦ãã ã•ã„"
+ãƒ¬ãƒ™ãƒ«10
+ãƒ¬ãƒ™ãƒ«20
+ãƒ¬ãƒ™ãƒ«30
+ãƒ¬ãƒ™ãƒ«40
+ãƒ¬ãƒ™ãƒ«50
+ãƒ¬ãƒ™ãƒ«60
+ãƒ¬ãƒ™ãƒ«70
+ãƒ¬ãƒ™ãƒ«80
+ãƒ¬ãƒ™ãƒ«90
 End
 
-Set “GƒŒƒxƒ‹ (‘I‘ð * 10)
+Set æ•µãƒ¬ãƒ™ãƒ« (é¸æŠž * 10)
 
-Ask I—¹
+Ask çµ‚äº†
 
-# uŽ´vƒLƒƒƒ‰ƒNƒ^[
+# ã€Œé›«ã€ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼
 
- Unit —•Œ´•ä 0
- Pilot —•Œ´•ä (–¡•ûƒŒƒxƒ‹)
- Ride —•Œ´•ä
+ Unit è—åŽŸç‘žç©‚ 0
+ Pilot è—åŽŸç‘žç©‚ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride è—åŽŸç‘žç©‚
 
- Unit ‘¾“c“ÞŽq 0
- Pilot ‘¾“c“ÞŽq (–¡•ûƒŒƒxƒ‹)
- Ride ‘¾“c“ÞŽq
+ Unit å¤ªç”°é¦™å¥ˆå­ 0
+ Pilot å¤ªç”°é¦™å¥ˆå­ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride å¤ªç”°é¦™å¥ˆå­
 
- Unit Vé¹D 0
- Pilot Vé¹D (–¡•ûƒŒƒxƒ‹)
- Ride Vé¹D
+ Unit æ–°åŸŽæ²™ç¹” 0
+ Pilot æ–°åŸŽæ²™ç¹” (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride æ–°åŸŽæ²™ç¹”
 
- Unit ŒŽ“‡‘ñ–ç 0
- Pilot ŒŽ“‡‘ñ–ç (–¡•ûƒŒƒxƒ‹)
- Ride ŒŽ“‡‘ñ–ç
+ Unit æœˆå³¶æ‹“ä¹Ÿ 0
+ Pilot æœˆå³¶æ‹“ä¹Ÿ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride æœˆå³¶æ‹“ä¹Ÿ
 
- Unit ŒŽ“‡—Ú—žŽq 0
- Pilot ŒŽ“‡—Ú—žŽq (–¡•ûƒŒƒxƒ‹)
- Ride ŒŽ“‡—Ú—žŽq
+ Unit æœˆå³¶ç‘ ç’ƒå­ 0
+ Pilot æœˆå³¶ç‘ ç’ƒå­ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride æœˆå³¶ç‘ ç’ƒå­
 
- Unit ’·£—S‰î 0
- Pilot ’·£—S‰î (–¡•ûƒŒƒxƒ‹)
- Ride ’·£—S‰î
+ Unit é•·ç€¬ç¥ä»‹ 0
+ Pilot é•·ç€¬ç¥ä»‹ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride é•·ç€¬ç¥ä»‹
 
 
-# u­vƒLƒƒƒ‰ƒNƒ^[
+# ã€Œç—•ã€ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼
 
- Unit ”–Øˆ² 0
- Pilot ”–Øˆ² (–¡•ûƒŒƒxƒ‹)
- Ride ”–Øˆ²
+ Unit æŸæœ¨æ¢“ 0
+ Pilot æŸæœ¨æ¢“ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride æŸæœ¨æ¢“
 
- Unit ”–Ø•– 0
- Pilot ”–Ø•– (–¡•ûƒŒƒxƒ‹)
- Ride ”–Ø•–
+ Unit æŸæœ¨æ¥“ 0
+ Pilot æŸæœ¨æ¥“ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride æŸæœ¨æ¥“
 
- Unit ”–Økˆê 0
- Pilot ”–Økˆê (–¡•ûƒŒƒxƒ‹)
- Ride ”–Økˆê
+ Unit æŸæœ¨è€•ä¸€ 0
+ Pilot æŸæœ¨è€•ä¸€ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride æŸæœ¨è€•ä¸€
 
- Unit ”–Øç’ß 0
- Pilot ”–Øç’ß (–¡•ûƒŒƒxƒ‹)
- Ride ”–Øç’ß
+ Unit æŸæœ¨åƒé¶´ 0
+ Pilot æŸæœ¨åƒé¶´ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride æŸæœ¨åƒé¶´
 
- Unit ”–Ø‰‰¹ 0
- Pilot ”–Ø‰‰¹ (–¡•ûƒŒƒxƒ‹)
- Ride ”–Ø‰‰¹
+ Unit æŸæœ¨åˆéŸ³ 0
+ Pilot æŸæœ¨åˆéŸ³ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride æŸæœ¨åˆéŸ³
 
- Unit “ú‹g‚©‚¨‚è 0
- Pilot “ú‹g‚©‚¨‚è (–¡•ûƒŒƒxƒ‹)
- Ride “ú‹g‚©‚¨‚è
+ Unit æ—¥å‰ã‹ãŠã‚Š 0
+ Pilot æ—¥å‰ã‹ãŠã‚Š (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride æ—¥å‰ã‹ãŠã‚Š
 
- Unit –öì—S–ç 0
- Pilot –öì—S–ç (–¡•ûƒŒƒxƒ‹)
- Ride –öì—S–ç
+ Unit æŸ³å·ç¥ä¹Ÿ 0
+ Pilot æŸ³å·ç¥ä¹Ÿ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride æŸ³å·ç¥ä¹Ÿ
 
 
-# u‚s‚@‚g‚…‚‚’‚”vƒLƒƒƒ‰ƒNƒ^[
+# ã€Œï¼´ï½ã€€ï¼¨ï½…ï½ï½’ï½”ã€ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼
 
- Unit _ŠÝ‚ ‚©‚è 0
- Pilot _ŠÝ‚ ‚©‚è (–¡•ûƒŒƒxƒ‹)
- Ride _ŠÝ‚ ‚©‚è
+ Unit ç¥žå²¸ã‚ã‹ã‚Š 0
+ Pilot ç¥žå²¸ã‚ã‹ã‚Š (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ç¥žå²¸ã‚ã‹ã‚Š
 
- Unit —ˆ²ìˆ» 0
- Pilot —ˆ²ìˆ» (–¡•ûƒŒƒxƒ‹)
- Ride —ˆ²ìˆ»
+ Unit æ¥æ –å·ç¶¾é¦™ 0
+ Pilot æ¥æ –å·ç¶¾é¦™ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride æ¥æ –å·ç¶¾é¦™
 
- Unit —ˆ²ì‹Ú 0
- Pilot —ˆ²ì‹Ú (–¡•ûƒŒƒxƒ‹)
- Ride —ˆ²ì‹Ú
+ Unit æ¥æ –å·èŠ¹é¦™ 0
+ Pilot æ¥æ –å·èŠ¹é¦™ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride æ¥æ –å·èŠ¹é¦™
 
- Unit â‰ºDŒb 0
- Pilot â‰ºDŒb (–¡•ûƒŒƒxƒ‹)
- Ride â‰ºDŒb
+ Unit å‚ä¸‹å¥½æµ 0
+ Pilot å‚ä¸‹å¥½æµ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride å‚ä¸‹å¥½æµ
 
- Unit ²“¡‰ëŽj 0
- Pilot ²“¡‰ëŽj (–¡•ûƒŒƒxƒ‹)
- Ride ²“¡‰ëŽj
+ Unit ä½è—¤é›…å² 0
+ Pilot ä½è—¤é›…å² (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ä½è—¤é›…å²
 
- Unit ’·‰ªŽu•Û 0
- Pilot ’·‰ªŽu•Û (–¡•ûƒŒƒxƒ‹)
- Ride ’·‰ªŽu•Û
+ Unit é•·å²¡å¿—ä¿ 0
+ Pilot é•·å²¡å¿—ä¿ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride é•·å²¡å¿—ä¿
 
- Unit ’·£Œ¹Žl˜Y 0
- Pilot ’·£Œ¹Žl˜Y (–¡•ûƒŒƒxƒ‹)
- Ride ’·£Œ¹Žl˜Y
+ Unit é•·ç€¬æºå››éƒŽ 0
+ Pilot é•·ç€¬æºå››éƒŽ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride é•·ç€¬æºå››éƒŽ
 
- Unit —ŽR— 0
- Pilot —ŽR— (–¡•ûƒŒƒxƒ‹)
- Ride —ŽR—
+ Unit é››å±±ç†ç·’ 0
+ Pilot é››å±±ç†ç·’ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride é››å±±ç†ç·’
 
- Unit •Pì‹Õ‰¹ 0
- Pilot •Pì‹Õ‰¹ (–¡•ûƒŒƒxƒ‹)
- Ride •Pì‹Õ‰¹
+ Unit å§«å·ç´éŸ³ 0
+ Pilot å§«å·ç´éŸ³ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride å§«å·ç´éŸ³
 
- Unit “¡“c_”V 0
- Pilot “¡“c_”V (–¡•ûƒŒƒxƒ‹)
- Ride “¡“c_”V
+ Unit è—¤ç”°æµ©ä¹‹ 0
+ Pilot è—¤ç”°æµ©ä¹‹ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride è—¤ç”°æµ©ä¹‹
 
- Unit •Û‰È’qŽq 0
- Pilot •Û‰È’qŽq (–¡•ûƒŒƒxƒ‹)
- Ride •Û‰È’qŽq
+ Unit ä¿ç§‘æ™ºå­ 0
+ Pilot ä¿ç§‘æ™ºå­ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ä¿ç§‘æ™ºå­
 
- Unit ¼Œ´ˆ¨ 0
- Pilot ¼Œ´ˆ¨ (–¡•ûƒŒƒxƒ‹)
- Ride ¼Œ´ˆ¨
+ Unit æ¾åŽŸè‘µ 0
+ Pilot æ¾åŽŸè‘µ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride æ¾åŽŸè‘µ
 
- Unit ‹{“àƒŒƒ~ƒB 0
- Pilot ‹{“àƒŒƒ~ƒB (–¡•ûƒŒƒxƒ‹)
- Ride ‹{“àƒŒƒ~ƒB
+ Unit å®®å†…ãƒ¬ãƒŸã‚£ 0
+ Pilot å®®å†…ãƒ¬ãƒŸã‚£ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride å®®å†…ãƒ¬ãƒŸã‚£
 
- Unit ‚g‚l‚w|‚P‚Q 0
- Pilot ‚g‚l‚w|‚P‚Q (–¡•ûƒŒƒxƒ‹)
- Ride ‚g‚l‚w|‚P‚Q
+ Unit ï¼¨ï¼­ï¼¸ï¼ï¼‘ï¼’ 0
+ Pilot ï¼¨ï¼­ï¼¸ï¼ï¼‘ï¼’ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ï¼¨ï¼­ï¼¸ï¼ï¼‘ï¼’
 
- Unit ‚g‚l|‚P‚Q 0
- Pilot ‚g‚l|‚P‚Q (–¡•ûƒŒƒxƒ‹)
- Ride ‚g‚l|‚P‚Q
+ Unit ï¼¨ï¼­ï¼ï¼‘ï¼’ 0
+ Pilot ï¼¨ï¼­ï¼ï¼‘ï¼’ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ï¼¨ï¼­ï¼ï¼‘ï¼’
 
- Unit ‚g‚l‚w|‚P‚R 0
- Pilot ‚g‚l‚w|‚P‚R (–¡•ûƒŒƒxƒ‹)
- Ride ‚g‚l‚w|‚P‚R
+ Unit ï¼¨ï¼­ï¼¸ï¼ï¼‘ï¼“ 0
+ Pilot ï¼¨ï¼­ï¼¸ï¼ï¼‘ï¼“ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ï¼¨ï¼­ï¼¸ï¼ï¼‘ï¼“
 
-# uƒtƒBƒ‹ƒXƒm[ƒ“vƒLƒƒƒ‰ƒNƒ^[
+# ã€Œãƒ•ã‚£ãƒ«ã‚¹ãƒŽãƒ¼ãƒ³ã€ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼
 
- Unit ƒeƒBƒŠƒAƒtƒŒƒC 0
- Pilot ƒeƒBƒŠƒAƒtƒŒƒC (–¡•ûƒŒƒxƒ‹)
- Ride ƒeƒBƒŠƒAƒtƒŒƒC
+ Unit ãƒ†ã‚£ãƒªã‚¢ï¼ãƒ•ãƒ¬ã‚¤ 0
+ Pilot ãƒ†ã‚£ãƒªã‚¢ï¼ãƒ•ãƒ¬ã‚¤ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ãƒ†ã‚£ãƒªã‚¢ï¼ãƒ•ãƒ¬ã‚¤
 
- Unit ƒGƒŠƒAƒm[ƒX 0
- Pilot ƒGƒŠƒAƒm[ƒX (–¡•ûƒŒƒxƒ‹)
- Ride ƒGƒŠƒAƒm[ƒX
-
- Unit ƒTƒ‰ƒtƒŠ[ƒg 0
- Pilot ƒTƒ‰ƒtƒŠ[ƒg (–¡•ûƒŒƒxƒ‹)
- Ride ƒTƒ‰ƒtƒŠ[ƒg
-# u‚c‚q‚QƒiƒCƒg‹SvƒLƒƒƒ‰ƒNƒ^[
-
- Unit ƒ‹ƒ~ƒ‰ƒfƒBƒfƒ…ƒ‰ƒ‹ 0
- Pilot ƒ‹ƒ~ƒ‰ƒfƒBƒfƒ…ƒ‰ƒ‹ (–¡•ûƒŒƒxƒ‹)
- Ride ƒ‹ƒ~ƒ‰ƒfƒBƒfƒ…ƒ‰ƒ‹
-
- Unit ƒAƒŒƒC(‚c‚q‚Q) 0
- Pilot ƒAƒŒƒC(‚c‚q‚Q) (–¡•ûƒŒƒxƒ‹)
- Ride ƒAƒŒƒC(‚c‚q‚Q)
-
- Unit ƒCƒrƒ‹(‚c‚q‚Q) 0
- Pilot ƒCƒrƒ‹(‚c‚q‚Q) (–¡•ûƒŒƒxƒ‹)
- Ride ƒCƒrƒ‹(‚c‚q‚Q)
-
- Unit ƒGƒrƒ‹(‚c‚q‚Q) 0
- Pilot ƒGƒrƒ‹(‚c‚q‚Q) (–¡•ûƒŒƒxƒ‹)
- Ride ƒGƒrƒ‹(‚c‚q‚Q)
-
- Unit ‚½‚Ü(‚c‚q‚Q) 0
- Pilot ‚½‚Ü(‚c‚q‚Q) (–¡•ûƒŒƒxƒ‹)
- Ride ‚½‚Ü(‚c‚q‚Q)
-
- Unit ƒƒCƒtƒBƒAƒsƒNƒ`ƒƒ[ 0
- Pilot ƒƒCƒtƒBƒAƒsƒNƒ`ƒƒ[ (–¡•ûƒŒƒxƒ‹)
- Ride ƒƒCƒtƒBƒAƒsƒNƒ`ƒƒ[
-
-# uƒzƒƒCƒgƒAƒ‹ƒoƒ€vƒLƒƒƒ‰ƒNƒ^[
-
- Unit •û—“Þ 0
- Pilot •û—“Þ (–¡•ûƒŒƒxƒ‹)
- Ride •û—“Þ
-
- Unit Xì—RãY 0
- Pilot Xì—RãY (–¡•ûƒŒƒxƒ‹)
- Ride Xì—RãY
-
-# u‚±‚Ý‚Á‚­ƒp`ƒeƒB`vƒLƒƒƒ‰ƒNƒ^[
-
- Unit ç“°˜aŽ÷ 0
- Pilot ç“°˜aŽ÷ (–¡•ûƒŒƒxƒ‹)
- Ride ç“°˜aŽ÷
-
- Unit ‹ã•i•§‘åŽu 0
- Pilot ‹ã•i•§‘åŽu (–¡•ûƒŒƒxƒ‹)
- Ride ‹ã•i•§‘åŽu
-
- Unit ‚£Šó 0
- Pilot ‚£Šó (–¡•ûƒŒƒxƒ‹)
- Ride ‚£Šó
-
- Unit –q‘º“ì 0
- Pilot –q‘º“ì (–¡•ûƒŒƒxƒ‹)
- Ride –q‘º“ì
-
- Unit ‘å’ë‰r”ü 0
- Pilot ‘å’ë‰r”ü (–¡•ûƒŒƒxƒ‹)
- Ride ‘å’ë‰r”ü
-
- Unit ’––¼ì—R‰F 0
- Pilot ’––¼ì—R‰F (–¡•ûƒŒƒxƒ‹)
- Ride ’––¼ì—R‰F
-
- Unit ’Ë–{çŽÑ 0
- Pilot ’Ë–{çŽÑ (–¡•ûƒŒƒxƒ‹)
- Ride ’Ë–{çŽÑ
-
- Unit –F‰ê—æŽq 0
- Pilot –F‰ê—æŽq (–¡•ûƒŒƒxƒ‹)
- Ride –F‰ê—æŽq
-
-# uƒiƒCƒgƒ‰ƒCƒ^[vƒLƒƒƒ‰ƒNƒ^[
-
- Unit éŒË–F° 0
- Pilot éŒË–F° (–¡•ûƒŒƒxƒ‹)
- Ride éŒË–F°
-
- Unit ƒRƒŠƒ“(‚m‚v) 0
- Pilot ƒRƒŠƒ“(‚m‚v) (–¡•ûƒŒƒxƒ‹)
- Ride ƒRƒŠƒ“(‚m‚v)
-
- Unit ƒ†ƒ“ƒi(‚m‚v) 0
- Pilot ƒ†ƒ“ƒi(‚m‚v) (–¡•ûƒŒƒxƒ‹)
- Ride ƒ†ƒ“ƒi(‚m‚v)
-
-
-Create “G ƒ‰ƒ‹ƒ”ƒ@(ƒ{ƒX) 0 ƒ‰ƒ‹ƒ”ƒ@(ƒ{ƒX) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒ{ƒX)) + “GƒŒƒxƒ‹) 17 18 a
-Create “G ƒƒJƒZƒoƒXƒ`ƒƒƒ“ 0 ƒƒJƒZƒoƒXƒ`ƒƒƒ“ (Level(ƒƒJƒZƒoƒXƒ`ƒƒƒ“) + “GƒŒƒxƒ‹) 18 18
-Create “G ’·£—S‰î 0 —S‰îƒRƒs[ (Level(’·£—S‰îƒRƒs[) + “GƒŒƒxƒ‹) 17 17 a
-Create “G ”–Økˆê(–\‘–) 0 kˆêƒRƒs[ (Level(”–ØkˆêƒRƒs[) + “GƒŒƒxƒ‹) 17 17 a
-Create “G “¡“c_”V 0 _”VƒRƒs[ (Level(“¡“c_”VƒRƒs[) + “GƒŒƒxƒ‹) 17 17 a
-Create “G ƒeƒBƒŠƒAƒtƒŒƒC 0 ƒeƒBƒŠƒAƒRƒs[ (Level(ƒeƒBƒŠƒAƒtƒŒƒCƒRƒs[) + “GƒŒƒxƒ‹) 17 17 a
-Create “G ƒ‹ƒ~ƒ‰ƒfƒBƒfƒ…ƒ‰ƒ‹ 0 ƒ‹ƒ~ƒ‰ƒRƒs[ (Level(ƒ‹ƒ~ƒ‰ƒfƒBƒfƒ…ƒ‰ƒ‹ƒRƒs[) + “GƒŒƒxƒ‹) 17 17 a
-Create “G ‘¾“c“ÞŽq(“Å“d”g) 0 ‘¾“c“ÞŽq(“Å“d”g) (Level(‘¾“c“ÞŽq(“Å“d”g)) + “GƒŒƒxƒ‹) 16 16 a
-Create “G Œj–Ø”ü˜aŽq 0 Œj–Ø”ü˜aŽq (Level(Œj–Ø”ü˜aŽq) + “GƒŒƒxƒ‹) 16 16 a
-Create “G ‹g“c—R‹I 0 ‹g“c—R‹I (Level(‹g“c—R‹I) + “GƒŒƒxƒ‹) 16 16 a
-Create “G ”–Ø‰‰¹(«Ši”½“]) 0 ”–Ø‰‰¹(«Ši”½“]) (Level(”–Ø‰‰¹(«Ši”½“])) + “GƒŒƒxƒ‹) 16 16 a
-Create “G ‹´–{(‚s‚g) 0 ‹´–{(‚s‚g) (Level(‹´–{) + “GƒŒƒxƒ‹) 16 16 a
-Create “G –î“‡(‚s‚g) 0 –î“‡(‚s‚g) (Level(–î“‡) + “GƒŒƒxƒ‹) 16 16 a
-Create “G ƒ‰ƒ‹ƒ”ƒ@(…) 0 ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR)) + “GƒŒƒxƒ‹ - 5) 15 15
-Create “G _ŠÝ‚ ‚©‚è 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ¼Œ´ˆ¨ 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G —•Œ´•ä 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ‚g‚l‚w|‚P‚R 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ”–Øç’ß(‹S) 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G –öì—S–ç(–\‘–) 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G •Û‰È’qŽq 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ŒŽ“‡—Ú—žŽq 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ‹{“àƒŒƒ~ƒB 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ƒƒCƒtƒBƒAƒsƒNƒ`ƒƒ[ 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G —ˆ²ìˆ» 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ‚g‚l‚w|‚P‚Q 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ”–Øˆ²(‹S) 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ²“¡‰ëŽj 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ”–Ø•–(‹S) 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G —ˆ²ì‹Ú 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ƒCƒrƒ‹(‚c‚q‚Q) 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ‚½‚Ü(‚c‚q‚Q) 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G “ú‹g‚©‚¨‚è 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ‹{“àƒŒƒ~ƒB 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ƒGƒrƒ‹(‚c‚q‚Q) 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ‚g‚l|‚P‚Q 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G Vé¹D 0 ƒRƒs[ƒLƒƒƒ‰(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ƒ‰ƒ‹ƒ”ƒ@(…) 0 ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ƒ‰ƒ‹ƒ”ƒ@(‰Î) 0 ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ƒ‰ƒ‹ƒ”ƒ@(•—) 0 ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ƒ‰ƒ‹ƒ”ƒ@(…) 0 ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ƒ‰ƒ‹ƒ”ƒ@(‰Î) 0 ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-Create “G ƒ‰ƒ‹ƒ”ƒ@(•—) 0 ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR) (Level(ƒ‰ƒ‹ƒ”ƒ@(ƒUƒR))) 15 15
-ChangeMode a ‘Ò‹@
-
-BossRank ƒ‰ƒ‹ƒ”ƒ@(ƒ{ƒX) 3
-BossRank ’·£—S‰îƒRƒs[ 1
-BossRank ”–ØkˆêƒRƒs[ 1
-BossRank “¡“c_”VƒRƒs[ 1
-BossRank ƒeƒBƒŠƒAƒtƒŒƒCƒRƒs[ 1
-BossRank ƒ‹ƒ~ƒ‰ƒfƒBƒfƒ…ƒ‰ƒ‹ƒRƒs[ 1
-BossRank ‘¾“c“ÞŽq(“Å“d”g) 1
-BossRank Œj–Ø”ü˜aŽq 1
-BossRank ‹g“c—R‹I 1
-BossRank ”–Ø‰‰¹(«Ši”½“]) 1
-BossRank ‹´–{ 1
-BossRank –î“‡ 1
-
-
-
-
-Talk ƒVƒXƒeƒ€
-‘æ‚P•”‘à‚ð•Ò¬‚µ‚Ä‰º‚³‚¢
+ Unit ã‚¨ãƒªã‚¢ï¼ãƒŽãƒ¼ã‚¹ 0
+ Pilot ã‚¨ãƒªã‚¢ï¼ãƒŽãƒ¼ã‚¹ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ã‚¨ãƒªã‚¢ï¼ãƒŽãƒ¼ã‚¹
+
+ Unit ã‚µãƒ©ï¼ãƒ•ãƒªãƒ¼ãƒˆ 0
+ Pilot ã‚µãƒ©ï¼ãƒ•ãƒªãƒ¼ãƒˆ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ã‚µãƒ©ï¼ãƒ•ãƒªãƒ¼ãƒˆ
+# ã€Œï¼¤ï¼²ï¼’ãƒŠã‚¤ãƒˆé›€é¬¼ã€ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼
+
+ Unit ãƒ«ãƒŸãƒ©ï¼ãƒ‡ã‚£ï¼ãƒ‡ãƒ¥ãƒ©ãƒ« 0
+ Pilot ãƒ«ãƒŸãƒ©ï¼ãƒ‡ã‚£ï¼ãƒ‡ãƒ¥ãƒ©ãƒ« (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ãƒ«ãƒŸãƒ©ï¼ãƒ‡ã‚£ï¼ãƒ‡ãƒ¥ãƒ©ãƒ«
+
+ Unit ã‚¢ãƒ¬ã‚¤(ï¼¤ï¼²ï¼’) 0
+ Pilot ã‚¢ãƒ¬ã‚¤(ï¼¤ï¼²ï¼’) (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ã‚¢ãƒ¬ã‚¤(ï¼¤ï¼²ï¼’)
+
+ Unit ã‚¤ãƒ“ãƒ«(ï¼¤ï¼²ï¼’) 0
+ Pilot ã‚¤ãƒ“ãƒ«(ï¼¤ï¼²ï¼’) (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ã‚¤ãƒ“ãƒ«(ï¼¤ï¼²ï¼’)
+
+ Unit ã‚¨ãƒ“ãƒ«(ï¼¤ï¼²ï¼’) 0
+ Pilot ã‚¨ãƒ“ãƒ«(ï¼¤ï¼²ï¼’) (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ã‚¨ãƒ“ãƒ«(ï¼¤ï¼²ï¼’)
+
+ Unit ãŸã¾(ï¼¤ï¼²ï¼’) 0
+ Pilot ãŸã¾(ï¼¤ï¼²ï¼’) (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ãŸã¾(ï¼¤ï¼²ï¼’)
+
+ Unit ãƒ¡ã‚¤ãƒ•ã‚£ã‚¢ï¼ãƒ”ã‚¯ãƒãƒ£ãƒ¼ 0
+ Pilot ãƒ¡ã‚¤ãƒ•ã‚£ã‚¢ï¼ãƒ”ã‚¯ãƒãƒ£ãƒ¼ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ãƒ¡ã‚¤ãƒ•ã‚£ã‚¢ï¼ãƒ”ã‚¯ãƒãƒ£ãƒ¼
+
+# ã€Œãƒ›ãƒ¯ã‚¤ãƒˆã‚¢ãƒ«ãƒãƒ ã€ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼
+
+ Unit ç·’æ–¹ç†å¥ˆ 0
+ Pilot ç·’æ–¹ç†å¥ˆ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ç·’æ–¹ç†å¥ˆ
+
+ Unit æ£®å·ç”±ç¶º 0
+ Pilot æ£®å·ç”±ç¶º (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride æ£®å·ç”±ç¶º
+
+# ã€Œã“ã¿ã£ããƒ‘ï½žãƒ†ã‚£ï½žã€ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼
+
+ Unit åƒå ‚å’Œæ¨¹ 0
+ Pilot åƒå ‚å’Œæ¨¹ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride åƒå ‚å’Œæ¨¹
+
+ Unit ä¹å“ä»å¤§å¿— 0
+ Pilot ä¹å“ä»å¤§å¿— (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ä¹å“ä»å¤§å¿—
+
+ Unit é«˜ç€¬ç‘žå¸Œ 0
+ Pilot é«˜ç€¬ç‘žå¸Œ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride é«˜ç€¬ç‘žå¸Œ
+
+ Unit ç‰§æ‘å— 0
+ Pilot ç‰§æ‘å— (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ç‰§æ‘å—
+
+ Unit å¤§åº­è© ç¾Ž 0
+ Pilot å¤§åº­è© ç¾Ž (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride å¤§åº­è© ç¾Ž
+
+ Unit çŒªåå·ç”±å®‡ 0
+ Pilot çŒªåå·ç”±å®‡ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride çŒªåå·ç”±å®‡
+
+ Unit å¡šæœ¬åƒç´— 0
+ Pilot å¡šæœ¬åƒç´— (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride å¡šæœ¬åƒç´—
+
+ Unit èŠ³è³€çŽ²å­ 0
+ Pilot èŠ³è³€çŽ²å­ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride èŠ³è³€çŽ²å­
+
+# ã€ŒãƒŠã‚¤ãƒˆãƒ©ã‚¤ã‚¿ãƒ¼ã€ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼
+
+ Unit åŸŽæˆ¸èŠ³æ™´ 0
+ Pilot åŸŽæˆ¸èŠ³æ™´ (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride åŸŽæˆ¸èŠ³æ™´
+
+ Unit ã‚³ãƒªãƒ³(ï¼®ï¼·) 0
+ Pilot ã‚³ãƒªãƒ³(ï¼®ï¼·) (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ã‚³ãƒªãƒ³(ï¼®ï¼·)
+
+ Unit ãƒ¦ãƒ³ãƒŠ(ï¼®ï¼·) 0
+ Pilot ãƒ¦ãƒ³ãƒŠ(ï¼®ï¼·) (å‘³æ–¹ãƒ¬ãƒ™ãƒ«)
+ Ride ãƒ¦ãƒ³ãƒŠ(ï¼®ï¼·)
+
+
+Create æ•µ ãƒ©ãƒ«ãƒ´ã‚¡(ãƒœã‚¹) 0 ãƒ©ãƒ«ãƒ´ã‚¡(ãƒœã‚¹) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ãƒœã‚¹)) + æ•µãƒ¬ãƒ™ãƒ«) 17 18 a
+Create æ•µ ãƒ¡ã‚«ã‚»ãƒã‚¹ãƒãƒ£ãƒ³ 0 ãƒ¡ã‚«ã‚»ãƒã‚¹ãƒãƒ£ãƒ³ (Level(ãƒ¡ã‚«ã‚»ãƒã‚¹ãƒãƒ£ãƒ³) + æ•µãƒ¬ãƒ™ãƒ«) 18 18
+Create æ•µ é•·ç€¬ç¥ä»‹ 0 ç¥ä»‹ã‚³ãƒ”ãƒ¼ (Level(é•·ç€¬ç¥ä»‹ã‚³ãƒ”ãƒ¼) + æ•µãƒ¬ãƒ™ãƒ«) 17 17 a
+Create æ•µ æŸæœ¨è€•ä¸€(æš´èµ°) 0 è€•ä¸€ã‚³ãƒ”ãƒ¼ (Level(æŸæœ¨è€•ä¸€ã‚³ãƒ”ãƒ¼) + æ•µãƒ¬ãƒ™ãƒ«) 17 17 a
+Create æ•µ è—¤ç”°æµ©ä¹‹ 0 æµ©ä¹‹ã‚³ãƒ”ãƒ¼ (Level(è—¤ç”°æµ©ä¹‹ã‚³ãƒ”ãƒ¼) + æ•µãƒ¬ãƒ™ãƒ«) 17 17 a
+Create æ•µ ãƒ†ã‚£ãƒªã‚¢ï¼ãƒ•ãƒ¬ã‚¤ 0 ãƒ†ã‚£ãƒªã‚¢ã‚³ãƒ”ãƒ¼ (Level(ãƒ†ã‚£ãƒªã‚¢ï¼ãƒ•ãƒ¬ã‚¤ã‚³ãƒ”ãƒ¼) + æ•µãƒ¬ãƒ™ãƒ«) 17 17 a
+Create æ•µ ãƒ«ãƒŸãƒ©ï¼ãƒ‡ã‚£ï¼ãƒ‡ãƒ¥ãƒ©ãƒ« 0 ãƒ«ãƒŸãƒ©ã‚³ãƒ”ãƒ¼ (Level(ãƒ«ãƒŸãƒ©ï¼ãƒ‡ã‚£ï¼ãƒ‡ãƒ¥ãƒ©ãƒ«ã‚³ãƒ”ãƒ¼) + æ•µãƒ¬ãƒ™ãƒ«) 17 17 a
+Create æ•µ å¤ªç”°é¦™å¥ˆå­(æ¯’é›»æ³¢) 0 å¤ªç”°é¦™å¥ˆå­(æ¯’é›»æ³¢) (Level(å¤ªç”°é¦™å¥ˆå­(æ¯’é›»æ³¢)) + æ•µãƒ¬ãƒ™ãƒ«) 16 16 a
+Create æ•µ æ¡‚æœ¨ç¾Žå’Œå­ 0 æ¡‚æœ¨ç¾Žå’Œå­ (Level(æ¡‚æœ¨ç¾Žå’Œå­) + æ•µãƒ¬ãƒ™ãƒ«) 16 16 a
+Create æ•µ å‰ç”°ç”±ç´€ 0 å‰ç”°ç”±ç´€ (Level(å‰ç”°ç”±ç´€) + æ•µãƒ¬ãƒ™ãƒ«) 16 16 a
+Create æ•µ æŸæœ¨åˆéŸ³(æ€§æ ¼åè»¢) 0 æŸæœ¨åˆéŸ³(æ€§æ ¼åè»¢) (Level(æŸæœ¨åˆéŸ³(æ€§æ ¼åè»¢)) + æ•µãƒ¬ãƒ™ãƒ«) 16 16 a
+Create æ•µ æ©‹æœ¬(ï¼´ï¼¨) 0 æ©‹æœ¬(ï¼´ï¼¨) (Level(æ©‹æœ¬) + æ•µãƒ¬ãƒ™ãƒ«) 16 16 a
+Create æ•µ çŸ¢å³¶(ï¼´ï¼¨) 0 çŸ¢å³¶(ï¼´ï¼¨) (Level(çŸ¢å³¶) + æ•µãƒ¬ãƒ™ãƒ«) 16 16 a
+Create æ•µ ãƒ©ãƒ«ãƒ´ã‚¡(æ°´) 0 ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³)) + æ•µãƒ¬ãƒ™ãƒ« - 5) 15 15
+Create æ•µ ç¥žå²¸ã‚ã‹ã‚Š 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ æ¾åŽŸè‘µ 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ è—åŽŸç‘žç©‚ 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ï¼¨ï¼­ï¼¸ï¼ï¼‘ï¼“ 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ æŸæœ¨åƒé¶´(é¬¼) 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ æŸ³å·ç¥ä¹Ÿ(æš´èµ°) 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ä¿ç§‘æ™ºå­ 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ æœˆå³¶ç‘ ç’ƒå­ 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ å®®å†…ãƒ¬ãƒŸã‚£ 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ãƒ¡ã‚¤ãƒ•ã‚£ã‚¢ï¼ãƒ”ã‚¯ãƒãƒ£ãƒ¼ 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ æ¥æ –å·ç¶¾é¦™ 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ï¼¨ï¼­ï¼¸ï¼ï¼‘ï¼’ 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ æŸæœ¨æ¢“(é¬¼) 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ä½è—¤é›…å² 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ æŸæœ¨æ¥“(é¬¼) 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ æ¥æ –å·èŠ¹é¦™ 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ã‚¤ãƒ“ãƒ«(ï¼¤ï¼²ï¼’) 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ãŸã¾(ï¼¤ï¼²ï¼’) 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ æ—¥å‰ã‹ãŠã‚Š 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ å®®å†…ãƒ¬ãƒŸã‚£ 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ã‚¨ãƒ“ãƒ«(ï¼¤ï¼²ï¼’) 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ï¼¨ï¼­ï¼ï¼‘ï¼’ 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ æ–°åŸŽæ²™ç¹” 0 ã‚³ãƒ”ãƒ¼ã‚­ãƒ£ãƒ©(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ãƒ©ãƒ«ãƒ´ã‚¡(æ°´) 0 ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ãƒ©ãƒ«ãƒ´ã‚¡(ç«) 0 ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ãƒ©ãƒ«ãƒ´ã‚¡(é¢¨) 0 ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ãƒ©ãƒ«ãƒ´ã‚¡(æ°´) 0 ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ãƒ©ãƒ«ãƒ´ã‚¡(ç«) 0 ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+Create æ•µ ãƒ©ãƒ«ãƒ´ã‚¡(é¢¨) 0 ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³) (Level(ãƒ©ãƒ«ãƒ´ã‚¡(ã‚¶ã‚³))) 15 15
+ChangeMode a å¾…æ©Ÿ
+
+BossRank ãƒ©ãƒ«ãƒ´ã‚¡(ãƒœã‚¹) 3
+BossRank é•·ç€¬ç¥ä»‹ã‚³ãƒ”ãƒ¼ 1
+BossRank æŸæœ¨è€•ä¸€ã‚³ãƒ”ãƒ¼ 1
+BossRank è—¤ç”°æµ©ä¹‹ã‚³ãƒ”ãƒ¼ 1
+BossRank ãƒ†ã‚£ãƒªã‚¢ï¼ãƒ•ãƒ¬ã‚¤ã‚³ãƒ”ãƒ¼ 1
+BossRank ãƒ«ãƒŸãƒ©ï¼ãƒ‡ã‚£ï¼ãƒ‡ãƒ¥ãƒ©ãƒ«ã‚³ãƒ”ãƒ¼ 1
+BossRank å¤ªç”°é¦™å¥ˆå­(æ¯’é›»æ³¢) 1
+BossRank æ¡‚æœ¨ç¾Žå’Œå­ 1
+BossRank å‰ç”°ç”±ç´€ 1
+BossRank æŸæœ¨åˆéŸ³(æ€§æ ¼åè»¢) 1
+BossRank æ©‹æœ¬ 1
+BossRank çŸ¢å³¶ 1
+
+
+
+
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ç¬¬ï¼‘éƒ¨éšŠã‚’ç·¨æˆã—ã¦ä¸‹ã•ã„
 End
 Organize 18 7 7
 
-Talk ƒVƒXƒeƒ€
-‘æ‚Q•”‘à‚ð•Ò¬‚µ‚Ä‰º‚³‚¢
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ç¬¬ï¼’éƒ¨éšŠã‚’ç·¨æˆã—ã¦ä¸‹ã•ã„
 End
 Organize 18 20 3
 
-Talk ƒVƒXƒeƒ€
-‘æ‚R•”‘à‚ð•Ò¬‚µ‚Ä‰º‚³‚¢
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ç¬¬ï¼“éƒ¨éšŠã‚’ç·¨æˆã—ã¦ä¸‹ã•ã„
 End
 Organize 18 3 20
 
 Exit
 
 
-ƒ^[ƒ“ 5 “G:
-ChangeMode a ‘Ò‹@
+ã‚¿ãƒ¼ãƒ³ 5 æ•µ:
+ChangeMode a å¾…æ©Ÿ
 
 Exit
 
-‘S–Å –¡•û:
+å…¨æ»… å‘³æ–¹:
 GameOver
 
 
-‘S–Å “G:
+å…¨æ»… æ•µ:
 
 PlayMIDI Enemy Appears.mid
 Wait 20
-Create “G ƒKƒfƒBƒ€‘æˆêŒ`‘Ô 0 ƒKƒfƒBƒ€(‚k‚e‚X‚V) (Level(ƒKƒfƒBƒ€) + “GƒŒƒxƒ‹) 17 18
+Create æ•µ ã‚¬ãƒ‡ã‚£ãƒ ç¬¬ä¸€å½¢æ…‹ 0 ã‚¬ãƒ‡ã‚£ãƒ (ï¼¬ï¼¦ï¼™ï¼—) (Level(ã‚¬ãƒ‡ã‚£ãƒ ) + æ•µãƒ¬ãƒ™ãƒ«) 17 18
 BossRank 2
 
-SetStatus ƒKƒfƒBƒ€ ¸_ƒRƒ}ƒ“ƒh–³Œø‰» -1
+SetStatus ã‚¬ãƒ‡ã‚£ãƒ  ç²¾ç¥žã‚³ãƒžãƒ³ãƒ‰ç„¡åŠ¹åŒ– -1
 
 ClearEvent
 Exit
 
-”j‰ó ƒKƒfƒBƒ€:
+ç ´å£Š ã‚¬ãƒ‡ã‚£ãƒ :
 
-If Unit(ƒKƒfƒBƒ€) = ƒKƒfƒBƒ€‘æˆêŒ`‘Ô Then
-@Upgrade ƒKƒfƒBƒ€‘æ“ñŒ`‘Ô
+If Unit(ã‚¬ãƒ‡ã‚£ãƒ ) = ã‚¬ãƒ‡ã‚£ãƒ ç¬¬ä¸€å½¢æ…‹ Then
+ã€€Upgrade ã‚¬ãƒ‡ã‚£ãƒ ç¬¬äºŒå½¢æ…‹
 
-@Elseif Unit(ƒKƒfƒBƒ€) = ƒKƒfƒBƒ€‘æ“ñŒ`‘Ô Then
-@@Upgrade ƒKƒfƒBƒ€‘æŽOŒ`‘Ô
-@
-@@Elseif Unit(ƒKƒfƒBƒ€) = ƒKƒfƒBƒ€‘æŽOŒ`‘Ô Then
-@@Upgrade ƒKƒfƒBƒ€ÅIŒ`‘Ô
+ã€€Elseif Unit(ã‚¬ãƒ‡ã‚£ãƒ ) = ã‚¬ãƒ‡ã‚£ãƒ ç¬¬äºŒå½¢æ…‹ Then
+ã€€ã€€Upgrade ã‚¬ãƒ‡ã‚£ãƒ ç¬¬ä¸‰å½¢æ…‹
+ã€€
+ã€€ã€€Elseif Unit(ã‚¬ãƒ‡ã‚£ãƒ ) = ã‚¬ãƒ‡ã‚£ãƒ ç¬¬ä¸‰å½¢æ…‹ Then
+ã€€ã€€Upgrade ã‚¬ãƒ‡ã‚£ãƒ æœ€çµ‚å½¢æ…‹
 
-@Else
-@GameClear
-@
+ã€€Else
+ã€€GameClear
+ã€€
 Endif

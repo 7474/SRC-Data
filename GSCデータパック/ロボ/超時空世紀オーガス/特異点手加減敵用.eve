@@ -1,47 +1,47 @@
-# �I�[�K�X�ƌ����Γ��ٓ_�I �c�c���ĂȂ킯�œ��ٓ_�̓������l���Ă݂܂����B
-# ����͊ȒP�Ɍ����΁u�p�C���b�g���E���Ȃ��悤�Ɏ�������čU�����Ă��炦��v�ł��B
-# �쒆�ł��u�ŏ��`�����R�͌j�𐶂��߂�ɂ���ׂɁA�З͂̎ア ���e����݂̂ŁA������
-# ��������Ȃ���U�������Ă����v�Ƃ����̂�����܂��̂ŁB 
-# �����猳�X�r�̗ǂ��j�N�ɂ͒��X�U���������炸�A�������Ă��債���_���[�W��^����ꂸ��
-# ���x���g�B�͋�킵����ł��B 
+# オーガスと言えば特異点！ ……ってなわけで特異点の特徴を考えてみました。
+# それは簡単に言えば「パイロットを殺さないように手加減して攻撃してもらえる」です。
+# 作中でも「最初チラム軍は桂を生け捕りにする為に、威力の弱い 実弾兵器のみで、しかも
+# 手加減しながら攻撃をしていた」というのがありますので。 
+# だから元々腕の良い桂君には中々攻撃が当たらず、当たっても大したダメージを与えられずに
+# ロベルト達は苦戦したんです。 
 #
-# �����ł��̃C���N���[�h�t�@�C����p�ӂ����Ē����܂����B
+# そこでこのインクルードファイルを用意させて頂きました。
 
 
-# �G(���̏ꍇ�`�����R)���jor�I���\���ɍU�����d�|������
-# SetStatus�ɂ�薽����-20% �U����-25%
+# 敵(この場合チラム軍)が桂orオルソンに攻撃を仕掛けた時
+# SetStatusにより命中率-20% 攻撃力-25%
 
-*�U�� �G ����:
-If �Ώۃ��j�b�g = �j�،j Then
-	SetStatus ���胆�j�b�g �������c�n�v�m -1
-	SetStatus ���胆�j�b�g �U���͂c�n�v�m -1
-ElseIf ���胆�j�b�g  = �j�،j Then
-	SetStatus �Ώۃ��j�b�g �������c�n�v�m -1
-	SetStatus �Ώۃ��j�b�g �U���͂c�n�v�m -1
-ElseIf �Ώۃ��j�b�g  = �I���\�� Then
-	SetStatus ���胆�j�b�g �������c�n�v�m -1
-	SetStatus ���胆�j�b�g �U���͂c�n�v�m -1
-ElseIf ���胆�j�b�g  = �I���\�� Then
-	SetStatus �Ώۃ��j�b�g �������c�n�v�m -1
-	SetStatus �Ώۃ��j�b�g �U���͂c�n�v�m -1
+*攻撃 敵 味方:
+If 対象ユニット = 桂木桂 Then
+	SetStatus 相手ユニット 命中率ＤＯＷＮ -1
+	SetStatus 相手ユニット 攻撃力ＤＯＷＮ -1
+ElseIf 相手ユニット  = 桂木桂 Then
+	SetStatus 対象ユニット 命中率ＤＯＷＮ -1
+	SetStatus 対象ユニット 攻撃力ＤＯＷＮ -1
+ElseIf 対象ユニット  = オルソン Then
+	SetStatus 相手ユニット 命中率ＤＯＷＮ -1
+	SetStatus 相手ユニット 攻撃力ＤＯＷＮ -1
+ElseIf 相手ユニット  = オルソン Then
+	SetStatus 対象ユニット 命中率ＤＯＷＮ -1
+	SetStatus 対象ユニット 攻撃力ＤＯＷＮ -1
 Endif
 Exit
 
 
-# �U���I����ASetStatus�ɂ�閽�������U���͒ቺ������
+# 攻撃終了後、SetStatusによる命中率＆攻撃力低下を解除
 
-*�U���� �G ����:
-If �Ώۃ��j�b�g = �j�،j Then
-	ClearStatus ���胆�j�b�g �������c�n�v�m
-	ClearStatus ���胆�j�b�g �U���͂c�n�v�m
-ElseIf ���胆�j�b�g  = �j�،j Then
-	ClearStatus �Ώۃ��j�b�g �������c�n�v�m
-	ClearStatus �Ώۃ��j�b�g �U���͂c�n�v�m
-ElseIf �Ώۃ��j�b�g  = �I���\�� Then
-	ClearStatus ���胆�j�b�g �������c�n�v�m
-	ClearStatus ���胆�j�b�g �U���͂c�n�v�m
-ElseIf ���胆�j�b�g  = �I���\�� Then
-	ClearStatus �Ώۃ��j�b�g �������c�n�v�m
-	ClearStatus �Ώۃ��j�b�g �U���͂c�n�v�m
+*攻撃後 敵 味方:
+If 対象ユニット = 桂木桂 Then
+	ClearStatus 相手ユニット 命中率ＤＯＷＮ
+	ClearStatus 相手ユニット 攻撃力ＤＯＷＮ
+ElseIf 相手ユニット  = 桂木桂 Then
+	ClearStatus 対象ユニット 命中率ＤＯＷＮ
+	ClearStatus 対象ユニット 攻撃力ＤＯＷＮ
+ElseIf 対象ユニット  = オルソン Then
+	ClearStatus 相手ユニット 命中率ＤＯＷＮ
+	ClearStatus 相手ユニット 攻撃力ＤＯＷＮ
+ElseIf 相手ユニット  = オルソン Then
+	ClearStatus 対象ユニット 命中率ＤＯＷＮ
+	ClearStatus 対象ユニット 攻撃力ＤＯＷＮ
 Endif
 Exit

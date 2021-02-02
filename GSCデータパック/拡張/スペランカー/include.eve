@@ -1,19 +1,19 @@
-# ƒ[ƒJƒ‹í“¬ƒAƒjƒ‚Å‚·B
+# ãƒ­ãƒ¼ã‚«ãƒ«æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ã§ã™ã€‚
 #
-# SPLK_“_–Å
-# SPLK_ƒtƒ‰ƒbƒVƒ…
-# SPLK_ƒKƒ“
-# SPLK_”š’e
+# SPLK_ç‚¹æ»…
+# SPLK_ãƒ•ãƒ©ãƒƒã‚·ãƒ¥
+# SPLK_ã‚¬ãƒ³
+# SPLK_çˆ†å¼¾
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_SPLK_“_–Å–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_SPLK_ç‚¹æ»…å‘½ä¸­:
 Local i
-Local C_X = WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-LOcal C_Y = WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local BMP_FILE = _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local BMP_FILE2 = _GetTileName(‘Šèƒ†ƒjƒbƒg‚h‚c,1)
+Local C_X = WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+LOcal C_Y = WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local BMP_FILE = _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local BMP_FILE2 = _GetTileName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,1)
 
 PlaySound SPLK_Miss.wav
 
@@ -21,7 +21,7 @@ For i = 1 to 5
 	PaintPicture BMP_FILE2 C_X C_Y 32 32
 	Refresh
 	Wait 2
-	PaintPicture BMP_FILE C_X C_Y 32 32 “§‰ß
+	PaintPicture BMP_FILE C_X C_Y 32 32 é€é
 	Refresh
 	Wait 2
 Next
@@ -34,7 +34,7 @@ Return
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
-í“¬ƒAƒjƒ_SPLK_ƒtƒ‰ƒbƒVƒ…UŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_SPLK_ãƒ•ãƒ©ãƒƒã‚·ãƒ¥æ”»æ’ƒ:
 
 Local i j
 Local A2
@@ -52,7 +52,7 @@ set j 1
 Wait Start
 For i = 0 To 19
   ClearPicture
-  PaintPicture ("Hit\EFFECT_StrikeHit(Red)0" & j & ".bmp") - (ST_P + (Y_F * i)) G_S G_S “§‰ß
+  PaintPicture ("Hit\EFFECT_StrikeHit(Red)0" & j & ".bmp") - (ST_P + (Y_F * i)) G_S G_S é€é
   Incr j 1
 	  If j > 3 Then
 		  set j 1
@@ -66,12 +66,12 @@ Return "Keep"
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
-í“¬ƒAƒjƒ_SPLK_ƒKƒ“UŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_SPLK_ã‚¬ãƒ³æ”»æ’ƒ:
 Local i j
-Local C_X = WX(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
-LOcal C_Y = WY(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
-Local BMP_FILE = _GetBMPName(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
-Local BMP_FILE2 = _GetTileName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,1)
+Local C_X = WX(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+LOcal C_Y = WY(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local BMP_FILE = _GetBMPName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local BMP_FILE2 = _GetTileName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,1)
 
 
 
@@ -82,8 +82,8 @@ Wait Reset
 	For i = 1 to 4
 		ClearPicture
 	    PaintPicture ("ShootAnime\EFFECT_ChainGunShot(Orange)0" & i & ".bmp") _
-	                 (C_X - 16) (C_Y - 16) 64 64 “§‰ß
-	    PaintPicture Weapon\EFFECT_LaserMachineGun01.bmp (C_X + Random(4) - 2) C_Y 32 32 “§‰ß
+	                 (C_X - 16) (C_Y - 16) 64 64 é€é
+	    PaintPicture Weapon\EFFECT_LaserMachineGun01.bmp (C_X + Random(4) - 2) C_Y 32 32 é€é
 		Refresh
 		Wait Until (0.8 * i)
 	Next
@@ -95,10 +95,10 @@ Wait Reset
 	For i = 1 to 4
 		ClearPicture
 		PaintPicture BMP_FILE2 C_X C_Y 32 32
-	    PaintPicture BMP_FILE C_X C_Y 32 32 ¶‰E”½“] “§‰ß
+	    PaintPicture BMP_FILE C_X C_Y 32 32 å·¦å³åè»¢ é€é
 	    PaintPicture ("ShootAnime\EFFECT_ChainGunShot(Orange)0" & i & ".bmp") _
-	                 (C_X - 16) (C_Y - 16) 64 64 ¶‰E”½“] “§‰ß
-	    PaintPicture Weapon\EFFECT_LaserMachineGun01.bmp (C_X + Random(4) - 2) C_Y 32 32 “§‰ß ¶‰E”½“]
+	                 (C_X - 16) (C_Y - 16) 64 64 å·¦å³åè»¢ é€é
+	    PaintPicture Weapon\EFFECT_LaserMachineGun01.bmp (C_X + Random(4) - 2) C_Y 32 32 é€é å·¦å³åè»¢
 		Refresh
 		Wait Until (0.8 * i)
 	Next
@@ -110,9 +110,9 @@ Return "Keep"
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 
-í“¬ƒAƒjƒ_SPLK_”š’eUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_SPLK_çˆ†å¼¾æ”»æ’ƒ:
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 _CenteringCheck UID
 
 Local posX posY
@@ -120,11 +120,11 @@ Local ANG B_ANG
 Local DST
 Local i
 
-Local UID2 = _GetName(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Local UID2 = _GetName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
 
-Local BMP_FILE = _GetBMPName(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
-Local BMP_FILE2 = _GetTileName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,1)
+Local BMP_FILE = _GetBMPName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local BMP_FILE2 = _GetTileName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,1)
 Local C_X = WX(UID)
 Local C_Y = WY(UID)
 
@@ -137,11 +137,11 @@ Local W_T WC_X WC_Y
          + Abs(Y(UID) - _Get_Y(UID2)))
 
 If (X(UID) < _Get_X(UID2)) Then
-	Set DRCT ¶‰E”½“]
+	Set DRCT å·¦å³åè»¢
 	Set DRCT2 ""
 Else
 	Set DRCT ""
-	Set DRCT2 ¶‰E”½“]
+	Set DRCT2 å·¦å³åè»¢
 Endif
 
 Set DST (3 * DST)
@@ -157,7 +157,7 @@ For i = 1 To (DST + 1)
     PaintPicture BMP_FILE2 C_X C_Y 32 32
       PaintPicture BMP_FILE _
     (C_X - (posX / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
-    32 32 “§‰ß DRCT
+    32 32 é€é DRCT
     Refresh
   Wait Until (W_T * i)
 Next
@@ -165,8 +165,8 @@ Next
 Wait Reset
 PlaySound Hide.wav
     PaintPicture BMP_FILE2 C_X C_Y 32 32
-    PaintPicture BMP_FILE (C_X - posX) (C_Y - posY) 32 32 “§‰ß DRCT
-    PaintPicture Weapon\EFFECT_Bomb01.bmp (C_X - posX) (C_Y - posY) 32 32 “§‰ß
+    PaintPicture BMP_FILE (C_X - posX) (C_Y - posY) 32 32 é€é DRCT
+    PaintPicture Weapon\EFFECT_Bomb01.bmp (C_X - posX) (C_Y - posY) 32 32 é€é
 Refresh
 Wait 5
 Wait Reset
@@ -176,8 +176,8 @@ For i = 1 To (DST + 1)
     PaintPicture BMP_FILE2 C_X C_Y 32 32
     PaintPicture BMP_FILE _
     (C_X - (posX / (DST + 2)) * (DST - i)) (C_Y - (posY / (DST + 2)) * (DST - i)) _
-    32 32 “§‰ß DRCT2
-    PaintPicture Weapon\EFFECT_Bomb01.bmp (C_X - posX) (C_Y - posY) 32 32 “§‰ß
+    32 32 é€é DRCT2
+    PaintPicture Weapon\EFFECT_Bomb01.bmp (C_X - posX) (C_Y - posY) 32 32 é€é
     Refresh
   Wait Until (W_T * i)
 Next

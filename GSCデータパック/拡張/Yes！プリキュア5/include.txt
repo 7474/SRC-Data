@@ -1,9 +1,9 @@
-# •ß”›ƒNƒŠƒeƒBƒJƒ‹ƒAƒjƒ‚©‚çu•ß”›v•\¦”²‚«
-í“¬ƒAƒjƒ_½”›:
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+# æ•ç¸›ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ã‚¢ãƒ‹ãƒ¡ã‹ã‚‰ã€Œæ•ç¸›ã€è¡¨ç¤ºæŠœã
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é–ç¸›:
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 Font 12pt
-Local C_X = _Get_WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local C_Y = _Get_WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Local C_X = _Get_WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local C_Y = _Get_WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Local i
 
 Wait Start
@@ -16,13 +16,13 @@ For i = 1 To 16
 
 Switch i
 Case 1
-PaintPicture "CT\EFFECT_Bind01.bmp" (C_X - 8) (C_Y - 8) “§‰ß ‰E‰ñ“] 0 _ColorTime()
+PaintPicture "CT\EFFECT_Bind01.bmp" (C_X - 8) (C_Y - 8) é€é å³å›è»¢ 0 _ColorTime()
 Case 5
-PaintPicture "CT\EFFECT_Bind01.bmp" (C_X - 8) (C_Y - 8) “§‰ß ‰E‰ñ“] 135 _ColorTime()
+PaintPicture "CT\EFFECT_Bind01.bmp" (C_X - 8) (C_Y - 8) é€é å³å›è»¢ 135 _ColorTime()
 Case 9
-PaintPicture "CT\EFFECT_Bind01.bmp" (C_X - 8) (C_Y - 8) “§‰ß ‰E‰ñ“] 45 _ColorTime()
+PaintPicture "CT\EFFECT_Bind01.bmp" (C_X - 8) (C_Y - 8) é€é å³å›è»¢ 45 _ColorTime()
 Case 13
-PaintPicture "CT\EFFECT_Bind01.bmp" (C_X - 8) (C_Y - 8) “§‰ß ‰E‰ñ“] 90 _ColorTime()
+PaintPicture "CT\EFFECT_Bind01.bmp" (C_X - 8) (C_Y - 8) é€é å³å›è»¢ 90 _ColorTime()
 EndSw
 
   Refresh

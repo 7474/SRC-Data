@@ -1,45 +1,45 @@
 
-# –{ƒCƒ“ƒNƒ‹[ƒhƒtƒ@ƒCƒ‹‚ÍˆÈ‰º‚Ì•Ï”‚ğg—p‚µ‚Ä‚¢‚Ü‚·B
-# ƒVƒiƒŠƒI“à‚Å“¯–¼‚Ì•Ï”‚ğ’è‹`‚µ‚½ê‡A—\Šú‚¹‚Ê“®ì‚ğ‚·‚éê‡‚ª‚ ‚è‚Ü‚·B
+# æœ¬ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ãƒ•ã‚¡ã‚¤ãƒ«ã¯ä»¥ä¸‹ã®å¤‰æ•°ã‚’ä½¿ç”¨ã—ã¦ã„ã¾ã™ã€‚
+# ã‚·ãƒŠãƒªã‚ªå†…ã§åŒåã®å¤‰æ•°ã‚’å®šç¾©ã—ãŸå ´åˆã€äºˆæœŸã›ã¬å‹•ä½œã‚’ã™ã‚‹å ´åˆãŒã‚ã‚Šã¾ã™ã€‚
 
 # KTM_VAR_Ohji_X
 # KTM_VAR_Ohji_Y
 # KTM_VAR_Dash
 
 ################################################################################
-### íƒCƒxƒ“ƒgƒ‰ƒxƒ‹ #########################################################
+### å¸¸æ™‚ã‚¤ãƒ™ãƒ³ãƒˆãƒ©ãƒ™ãƒ« #########################################################
 ################################################################################
 
-*ƒ^[ƒ“ ‘S –¡•û:
-	Call ‰ò°ƒTƒuƒ‹[ƒ`ƒ“_‰¤qˆÊ’uXV
+*ã‚¿ãƒ¼ãƒ³ å…¨ å‘³æ–¹:
+	Call å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_ç‹å­ä½ç½®æ›´æ–°
 Exit
 
-*g—pŒã ‘åƒRƒXƒ‚‚Ì‰¤q ‰¤qƒ_ƒbƒVƒ…:
-	Call ‰ò°ƒTƒuƒ‹[ƒ`ƒ“_‰¤qƒ_ƒbƒVƒ…ƒtƒ‰ƒOXV
+*ä½¿ç”¨å¾Œ å¤§ã‚³ã‚¹ãƒ¢ã®ç‹å­ ç‹å­ãƒ€ãƒƒã‚·ãƒ¥:
+	Call å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_ç‹å­ãƒ€ãƒƒã‚·ãƒ¥ãƒ•ãƒ©ã‚°æ›´æ–°
 Exit
 
-*s“®I—¹ ‘åƒRƒXƒ‚‚Ì‰¤q:
-	Call ‰ò°ƒTƒuƒ‹[ƒ`ƒ“_‰¤q‹C—Íã¸”»’è
+*è¡Œå‹•çµ‚äº† å¤§ã‚³ã‚¹ãƒ¢ã®ç‹å­:
+	Call å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_ç‹å­æ°—åŠ›ä¸Šæ˜‡åˆ¤å®š
 Exit
 
 ################################################################################
-### ˆÚ“®Œã‹C—Íã¸ˆ— #########################################################
+### ç§»å‹•å¾Œæ°—åŠ›ä¸Šæ˜‡å‡¦ç† #########################################################
 ################################################################################
 
-‰ò°ƒTƒuƒ‹[ƒ`ƒ“_‰¤qˆÊ’uXV:
-	KTM_VAR_Ohji_X = X(‘åƒRƒXƒ‚‚Ì‰¤q)
-	KTM_VAR_Ohji_Y = Y(‘åƒRƒXƒ‚‚Ì‰¤q)
+å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_ç‹å­ä½ç½®æ›´æ–°:
+	KTM_VAR_Ohji_X = X(å¤§ã‚³ã‚¹ãƒ¢ã®ç‹å­)
+	KTM_VAR_Ohji_Y = Y(å¤§ã‚³ã‚¹ãƒ¢ã®ç‹å­)
 Return
 
-‰ò°ƒTƒuƒ‹[ƒ`ƒ“_‰¤qƒ_ƒbƒVƒ…ƒtƒ‰ƒOXV:
+å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_ç‹å­ãƒ€ãƒƒã‚·ãƒ¥ãƒ•ãƒ©ã‚°æ›´æ–°:
 	KTM_VAR_Dash = 1
 Return
 
-‰ò°ƒTƒuƒ‹[ƒ`ƒ“_‰¤q‹C—Íã¸”»’è:
+å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_ç‹å­æ°—åŠ›ä¸Šæ˜‡åˆ¤å®š:
 	Local UID l_distance l_num l_morale l_monoList l_monoName
 	Local l_i l_wx1 l_wy1 l_wx2 l_wy2 l_wxd1 l_wyd1 l_wxd2 l_wyd2
 	
-	UID = ‘ÎÛƒ†ƒjƒbƒg‚h‚c
+	UID = å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 	
 	l_distance = Abs(X(UID) - KTM_VAR_Ohji_X) + Abs(Y(UID) - KTM_VAR_Ohji_Y)
 	l_wx1 = WX(KTM_VAR_Ohji_X) + 16
@@ -47,17 +47,17 @@ Return
 	l_wx2 = WX(UID)            + 16
 	l_wy2 = WY(UID)            + 16
 	
-	Call ‰ò°ƒTƒuƒ‹[ƒ`ƒ“_‰¤qˆÊ’uXV
+	Call å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_ç‹å­ä½ç½®æ›´æ–°
 	
-	If Unit(UID) = ‘åƒRƒXƒ‚‚Ì‰¤q(‰ò‚È‚µ) Then
+	If Unit(UID) = å¤§ã‚³ã‚¹ãƒ¢ã®ç‹å­(å¡Šãªã—) Then
 		Return
 	EndIf
 	
-	If Unit(UID) = ‘åƒRƒXƒ‚‚Ì‰¤q(’P) Then
+	If Unit(UID) = å¤§ã‚³ã‚¹ãƒ¢ã®ç‹å­(å˜) Then
 		Return
 	EndIf
 
-	//Šª‚«‚İŒÂ”‚ÌŒˆ’è
+	//å·»ãè¾¼ã¿å€‹æ•°ã®æ±ºå®š
 	l_num = Random(l_distance)
 	If (KTM_VAR_Dash = 1) Then
 		KTM_VAR_Dash = 0
@@ -73,23 +73,23 @@ Return
 	If l_morale > 0 Then
 		IncreaseMorale UID l_morale
 		Line (l_wx2 - 16) (l_wy2 - 36) (l_wx2 + 16) (l_wy2 - 20) #333333 BF
-		Font 9pt #EE6633 ‚oƒSƒVƒbƒN
-		PaintString (l_wx2 - 14) (l_wy2 - 34) ‹C+$(l_morale)
+		Font 9pt #EE6633 ï¼°ã‚´ã‚·ãƒƒã‚¯
+		PaintString (l_wx2 - 14) (l_wy2 - 34) æ°—+$(l_morale)
 	EndIf
 	
-	l_monoList = Call(‰ò°ƒTƒuƒ‹[ƒ`ƒ“_Šª‚«‚İ‘ÎÛ•¨ƒŠƒXƒgæ“¾, Info(ƒ†ƒjƒbƒgƒf[ƒ^, Unit(UID), ƒTƒCƒY))
+	l_monoList = Call(å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_å·»ãè¾¼ã¿å¯¾è±¡ç‰©ãƒªã‚¹ãƒˆå–å¾—, Info(ãƒ¦ãƒ‹ãƒƒãƒˆãƒ‡ãƒ¼ã‚¿, Unit(UID), ã‚µã‚¤ã‚º))
 	
 	For l_i = 1 To l_num
 		l_monoName = LIndex(l_monoList, Random(LLength(l_monoList)))
 		
-		//•\¦ˆÊ’u‚ÌŒvZ
+		//è¡¨ç¤ºä½ç½®ã®è¨ˆç®—
 		l_wxd1 = Int(((l_wx1 * (1 + l_num - l_i)) + (l_wx2 * l_i)) / (l_num + 1))
 		l_wyd1 = Int(((l_wy1 * (1 + l_num - l_i)) + (l_wy2 * l_i)) / (l_num + 1))
 		l_wxd2 = 100 * (Int((l_i - 1) / 5) + 1) - 40
 		l_wyd2 = 96 * (((l_i - 1) mod 5) + 1) - 64
 		
-		Call í“¬ƒAƒjƒ_‰ò°_Šª‚«‚İ•¨•\¦ ‰ò°ƒTƒuƒ‹[ƒ`ƒ“_–¼Ìæ“¾(l_monoName) ‰ò°ƒTƒuƒ‹[ƒ`ƒ“_‰æ‘œƒtƒ@ƒCƒ‹–¼æ“¾(l_monoName) _
-		                                    ‰ò°ƒTƒuƒ‹[ƒ`ƒ“_‰æ‘œƒTƒCƒYæ“¾(l_monoName) l_wxd1 l_wyd1 l_wxd2 l_wyd2
+		Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å·»ãè¾¼ã¿ç‰©è¡¨ç¤º å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_åç§°å–å¾—(l_monoName) å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«åå–å¾—(l_monoName) _
+		                                    å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_ç”»åƒã‚µã‚¤ã‚ºå–å¾—(l_monoName) l_wxd1 l_wyd1 l_wxd2 l_wyd2
 		
 		Wait 1
 	Next
@@ -97,7 +97,7 @@ Return
 	Wait 5
 Return
 
-‰ò°ƒTƒuƒ‹[ƒ`ƒ“_Šª‚«‚İ‘ÎÛ•¨ƒŠƒXƒgæ“¾:
+å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_å·»ãè¾¼ã¿å¯¾è±¡ç‰©ãƒªã‚¹ãƒˆå–å¾—:
 	Local l_Size l_ResultList
 	l_Size = Args(1)
 
@@ -105,22 +105,22 @@ Return
 
 	Switch l_Size
 		Case "SS" // ~45cm
-			l_ResultList = List("ƒ_ƒCƒX‚T", "Á‚µƒSƒ€", "‰”•M", "‚TƒCƒ“ƒ`ƒtƒƒbƒs[", "ƒCƒ`ƒS", "¬”»", "ƒoƒ‰", "ƒtƒH[ƒN", "ƒEƒj", "—d¸")
+			l_ResultList = List("ãƒ€ã‚¤ã‚¹ï¼•", "æ¶ˆã—ã‚´ãƒ ", "é‰›ç­†", "ï¼•ã‚¤ãƒ³ãƒãƒ•ãƒ­ãƒƒãƒ”ãƒ¼", "ã‚¤ãƒã‚´", "å°åˆ¤", "ãƒãƒ©", "ãƒ•ã‚©ãƒ¼ã‚¯", "ã‚¦ãƒ‹", "å¦–ç²¾")
 		Case "S"  // ~1m
-			l_ResultList = List("ƒn[ƒv", "ƒgƒ‰ƒ“ƒyƒbƒg", "ƒyƒbƒgƒ{ƒgƒ‹", "‘åª", "ƒR[ƒ“", "ƒsƒ‰ƒjƒA", "’†‰Ø•ï’š", "”µ", "Á‰ÎŠí", "á‚¾‚é‚Ü")
+			l_ResultList = List("ãƒãƒ¼ãƒ—", "ãƒˆãƒ©ãƒ³ãƒšãƒƒãƒˆ", "ãƒšãƒƒãƒˆãƒœãƒˆãƒ«", "å¤§æ ¹", "ã‚³ãƒ¼ãƒ³", "ãƒ”ãƒ©ãƒ‹ã‚¢", "ä¸­è¯åŒ…ä¸", "é³©", "æ¶ˆç«å™¨", "é›ªã ã‚‹ã¾")
 		Case "M"  // ~2m
-			l_ResultList = List("”’‚¢ƒMƒ^[", "“º‘œ", "ƒ}ƒOƒ", "‘ÎíÔƒ‰ƒCƒtƒ‹", "ƒ‚ƒbƒv", "ƒqƒ}ƒƒŠ", "—d“", "“Ø")
+			l_ResultList = List("ç™½ã„ã‚®ã‚¿ãƒ¼", "éŠ…åƒ", "ãƒã‚°ãƒ­", "å¯¾æˆ¦è»Šãƒ©ã‚¤ãƒ•ãƒ«", "ãƒ¢ãƒƒãƒ—", "ãƒ’ãƒãƒ¯ãƒª", "å¦–åˆ€", "è±š")
 		Case "L"  // ~10m
-			l_ResultList = List("ƒsƒAƒm", "ƒhƒ‰ƒ€ƒZƒbƒg", "“dM’Œ", "ƒƒj", "”n", "ŒÕ", "ƒhƒ‰ƒ€ŠÊ", "ƒpƒ[ƒVƒ‡ƒxƒ‹")
+			l_ResultList = List("ãƒ”ã‚¢ãƒ", "ãƒ‰ãƒ©ãƒ ã‚»ãƒƒãƒˆ", "é›»ä¿¡æŸ±", "ãƒ¯ãƒ‹", "é¦¬", "è™", "ãƒ‰ãƒ©ãƒ ç¼¶", "ãƒ‘ãƒ¯ãƒ¼ã‚·ãƒ§ãƒ™ãƒ«")
 		Case "LL" // ~100m
-			l_ResultList = List("Û", "‰öƒƒ{ƒbƒg", "Šâ", "ƒhƒŠƒ‹", "‚h‚b‚a‚l", "‚P‚O‚O‚”•ª“º", "ƒƒPƒbƒgƒpƒ“ƒ`", "ƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒCƒtƒ‹")
+			l_ResultList = List("è±¡", "æ€ªãƒ­ãƒœãƒƒãƒˆ", "å²©", "ãƒ‰ãƒªãƒ«", "ï¼©ï¼£ï¼¢ï¼­", "ï¼‘ï¼ï¼ï½”åˆ†éŠ…", "ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ", "ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ«")
 		Case "XL" // 100m~
-			l_ResultList = List("—´", "“Vg(Ôq)", "‹Šâ", "•X‰ò", "—³Šª", "è¦Î", "—¬¯")
+			l_ResultList = List("é¾", "å¤©ä½¿(èµ¤å­)", "å·¨å²©", "æ°·å¡Š", "ç«œå·»", "éš•çŸ³", "æµæ˜Ÿ")
 	EndSw
 
 Return l_ResultList
 
-‰ò°ƒTƒuƒ‹[ƒ`ƒ“_‰æ‘œƒtƒ@ƒCƒ‹–¼æ“¾:
+å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«åå–å¾—:
 	Local l_Name
 	l_Name = _GetWeaponBitmapName(Args(1))
 	If l_Name = "-.bmp" Then
@@ -128,7 +128,7 @@ Return l_ResultList
 	EndIf
 Return l_Name
 
-‰ò°ƒTƒuƒ‹[ƒ`ƒ“_‰æ‘œƒTƒCƒYæ“¾:
+å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_ç”»åƒã‚µã‚¤ã‚ºå–å¾—:
 	Local l_Name l_Size
 	l_Name = _GetWeaponBitmapName(Args(1))
 	If l_Name = "-.bmp" Then
@@ -138,14 +138,14 @@ Return l_Name
 	EndIf
 Return l_Size
 
-‰ò°ƒTƒuƒ‹[ƒ`ƒ“_–¼Ìæ“¾:
+å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_åç§°å–å¾—:
 	Local l_Name l_BracketIdx
 
 	l_Name = Args(1)
 
-	//“Á•Ê‚É–¼Ì‚ğ•ÏX‚·‚éê‡‚±‚±‚É‹Lq
+	//ç‰¹åˆ¥ã«åç§°ã‚’å¤‰æ›´ã™ã‚‹å ´åˆã“ã“ã«è¨˜è¿°
 
-	//Šî–{“I‚ÉŠ‡ŒÊ‚ğœ‚¢‚½–¼Ì‚ğ•Ô‚·
+	//åŸºæœ¬çš„ã«æ‹¬å¼§ã‚’é™¤ã„ãŸåç§°ã‚’è¿”ã™
 	l_BracketIdx = InStr(l_Name, "(")
 
 	If (l_BracketIdx > 1) Then
@@ -154,39 +154,39 @@ Return l_Size
 Return l_Name
 
 ################################################################################
-### í“¬ƒAƒjƒƒ‰ƒxƒ‹ ###########################################################
+### æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ãƒ©ãƒ™ãƒ« ###########################################################
 ################################################################################
 
-í“¬ƒAƒjƒ_‰ò°_Šª‚«‚İ‚Æ‚Ç‚ß:
-	Call í“¬ƒAƒjƒ_‰ò°_Šª‚«‚İ•¨•\¦ NickName(Unit(‘Šèƒ†ƒjƒbƒg‚h‚c)) _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c) 32 _
-	                                    WX(‘Šèƒ†ƒjƒbƒg‚h‚c) WY(‘Šèƒ†ƒjƒbƒg‚h‚c) 120 120 ‰ñ“]
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å·»ãè¾¼ã¿ã¨ã©ã‚:
+	Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å·»ãè¾¼ã¿ç‰©è¡¨ç¤º NickName(Unit(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) 32 _
+	                                    WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) 120 120 å›è»¢
 Return
 
-í“¬ƒAƒjƒ_‰ò°_¯‚Æ‚Ç‚ß:
-	Call í“¬ƒAƒjƒ_‰ò°_Šª‚«‚İ•¨•\¦ NickName(Unit(‘Šèƒ†ƒjƒbƒg‚h‚c)) _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c) 32 _
-	                                    WX(‘Šèƒ†ƒjƒbƒg‚h‚c) WY(‘Šèƒ†ƒjƒbƒg‚h‚c) 120 120 ‰ñ“] _
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_æ˜Ÿã¨ã©ã‚:
+	Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å·»ãè¾¼ã¿ç‰©è¡¨ç¤º NickName(Unit(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) 32 _
+	                                    WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) 120 120 å›è»¢ _
 	                                    -.wav
-	Call í“¬ƒAƒjƒ_‰ò°_‰òŠ®¬ƒŒƒCƒ“ƒ{[‹¤’Ê
-	Call í“¬ƒAƒjƒ_‰ò°_‰ò‘Å‚¿ã‚°‹¤’Ê
-	Call í“¬ƒAƒjƒ_‰ò°_‰ò¯Š®¬ Call(í“¬ƒAƒjƒ_‰ò°_ƒ‰ƒ“ƒ_ƒ€Fæ“¾)
+	Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å¡Šå®Œæˆãƒ¬ã‚¤ãƒ³ãƒœãƒ¼å…±é€š
+	Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å¡Šæ‰“ã¡ä¸Šã’å…±é€š
+	Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å¡Šæ˜Ÿå®Œæˆ Call(æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_ãƒ©ãƒ³ãƒ€ãƒ è‰²å–å¾—)
 	
 	ClearPicture
 	Refresh
 Return
 
-í“¬ƒAƒjƒ_‰ò°_ƒrƒbƒOƒoƒ“‚Æ‚Ç‚ß:
-	Call í“¬ƒAƒjƒ_‰ò°_Šª‚«‚İ•¨•\¦ NickName(Unit(‘Šèƒ†ƒjƒbƒg‚h‚c)) _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c) 32 _
-	                                    WX(‘Šèƒ†ƒjƒbƒg‚h‚c) WY(‘Šèƒ†ƒjƒbƒg‚h‚c) 120 120 ‰ñ“] _
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_ãƒ“ãƒƒã‚°ãƒãƒ³ã¨ã©ã‚:
+	Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å·»ãè¾¼ã¿ç‰©è¡¨ç¤º NickName(Unit(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) 32 _
+	                                    WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) 120 120 å›è»¢ _
 	                                    -.wav
-	Call í“¬ƒAƒjƒ_‰ò°_‰òŠ®¬ƒŒƒCƒ“ƒ{[‹¤’Ê
-	Call í“¬ƒAƒjƒ_‰ò°_‰ò‘Å‚¿ã‚°‹¤’Ê
-	Call í“¬ƒAƒjƒ_‰ò°_‰òƒrƒbƒOƒoƒ“Š®¬ Random(8)
+	Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å¡Šå®Œæˆãƒ¬ã‚¤ãƒ³ãƒœãƒ¼å…±é€š
+	Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å¡Šæ‰“ã¡ä¸Šã’å…±é€š
+	Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å¡Šãƒ“ãƒƒã‚°ãƒãƒ³å®Œæˆ Random(8)
 	
 	ClearPicture
 	Refresh
 Return
 
-í“¬ƒAƒjƒ_‰ò°_Šª‚«‚İ•¨•\¦:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å·»ãè¾¼ã¿ç‰©è¡¨ç¤º:
 	Local l_i l_text l_bmpName l_bmpSizeHalf l_x1 l_y1 l_x2 l_y2 l_roll l_angleStart l_boxWidthHalf
 	
 	l_text        = Args(1)
@@ -201,14 +201,14 @@ Return
 
 	_SelectSound "Type(Digital)(" & (Random(3) + 1) & ").wav" _GetWavFromArgs()
 
-	FillStyle “h‚è‚Â‚Ô‚µ
+	FillStyle å¡—ã‚Šã¤ã¶ã—
 	FillColor #EEEEEE
 
 	For l_i = 1 to 6
 		Circle (((l_x1 * l_i) + (l_x2 * (7 - l_i))) / 7) (((l_y1 * l_i) + (l_y2 * (7 - l_i))) / 7) 2 #EEEEEE
 	Next
 
-	Font 9pt #EEEEEE ‚oƒSƒVƒbƒN
+	Font 9pt #EEEEEE ï¼°ã‚´ã‚·ãƒƒã‚¯
 	l_boxWidthHalf = Max(48, TextWidth(l_text) \ 2 + 2)
 	Line (l_x2 - l_boxWidthHalf) (l_y2 + 32) (l_x2 + l_boxWidthHalf) (l_y2 + 48) #333333 BF
 	
@@ -216,23 +216,23 @@ Return
 
 	FillColor #333333
 
-	If l_roll = "‰ñ“]" Then
+	If l_roll = "å›è»¢" Then
 		l_angleStart = Random(180)
 		For l_i = 1 to 20
 			Circle l_x2 l_y2 24 #333333
-			PaintPicture l_bmpName (l_x2 - l_bmpSizeHalf) (l_y2 - l_bmpSizeHalf) l_bmpSize l_bmpSize “§‰ß ‰E‰ñ“] (l_angleStart + l_i * 24)
+			PaintPicture l_bmpName (l_x2 - l_bmpSizeHalf) (l_y2 - l_bmpSizeHalf) l_bmpSize l_bmpSize é€é å³å›è»¢ (l_angleStart + l_i * 24)
 			Refresh
 			Wait 1
 		Next
 	Else
 		Circle l_x2 l_y2 24 #333333
-		PaintPicture l_bmpName (l_x2 - l_bmpSizeHalf) (l_y2 - l_bmpSizeHalf) l_bmpSize l_bmpSize “§‰ß ‰E‰ñ“] l_angle
+		PaintPicture l_bmpName (l_x2 - l_bmpSizeHalf) (l_y2 - l_bmpSizeHalf) l_bmpSize l_bmpSize é€é å³å›è»¢ l_angle
 	EndIf
 	
 	Refresh
 Return
 
-í“¬ƒAƒjƒ_‰ò°_‰òŠ®¬ƒŒƒCƒ“ƒ{[‹¤’Ê:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å¡Šå®Œæˆãƒ¬ã‚¤ãƒ³ãƒœãƒ¼å…±é€š:
 
 	Local l_i l_j l_colorsList l_colors l_yStart
 	
@@ -259,7 +259,7 @@ Return
 
 	For l_i = 1 to 6
 		For l_j = 1 to 7
-			Line ((l_j - 1) * 69 + 1) (0) ((l_j - 1) * 69 + 69) (480) Call(í“¬ƒAƒjƒ_‰ò°_ƒŒƒCƒ“ƒ{[Fæ“¾, l_colorsList[l_j], l_i) BF
+			Line ((l_j - 1) * 69 + 1) (0) ((l_j - 1) * 69 + 69) (480) Call(æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_ãƒ¬ã‚¤ãƒ³ãƒœãƒ¼è‰²å–å¾—, l_colorsList[l_j], l_i) BF
 		Next
 		Refresh
 		Wait 1
@@ -270,38 +270,38 @@ Return
 
 Return
 
-í“¬ƒAƒjƒ_‰ò°_ƒŒƒCƒ“ƒ{[Fæ“¾:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_ãƒ¬ã‚¤ãƒ³ãƒœãƒ¼è‰²å–å¾—:
 Return RGB(Int(LIndex(Args(1), 1) * (7 - Args(2)) / 7), _
            Int(LIndex(Args(1), 2) * (7 - Args(2)) / 7), _
            Int(LIndex(Args(1), 3) * (7 - Args(2)) / 7))
 
-í“¬ƒAƒjƒ_‰ò°_‰ò‘Å‚¿ã‚°‹¤’Ê:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å¡Šæ‰“ã¡ä¸Šã’å…±é€š:
 
 	Local UID l_i l_j l_rad l_x l_y l_bmpName l_bmpX l_bmpY l_monoList l_monoName l_drawList
 	
-	UID = ‘ÎÛƒ†ƒjƒbƒg‚h‚c
+	UID = å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 	
-	//•`‰æ‘ÎÛ‚Ì‰æ‘œî•ñ‚ğƒŠƒXƒg‚É’è‹`
+	//æç”»å¯¾è±¡ã®ç”»åƒæƒ…å ±ã‚’ãƒªã‚¹ãƒˆã«å®šç¾©
 	
-	l_monoList = Call(‰ò°ƒTƒuƒ‹[ƒ`ƒ“_Šª‚«‚İ‘ÎÛ•¨ƒŠƒXƒgæ“¾, Info(ƒ†ƒjƒbƒgƒf[ƒ^, Unit(UID), ƒTƒCƒY))
+	l_monoList = Call(å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_å·»ãè¾¼ã¿å¯¾è±¡ç‰©ãƒªã‚¹ãƒˆå–å¾—, Info(ãƒ¦ãƒ‹ãƒƒãƒˆãƒ‡ãƒ¼ã‚¿, Unit(UID), ã‚µã‚¤ã‚º))
 	
 	For l_i = 1 to 24
 		l_monoName = LIndex(l_monoList, Random(LLength(l_monoList)))
 		
-		l_drawList[l_i] = List(‰ò°ƒTƒuƒ‹[ƒ`ƒ“_‰æ‘œƒtƒ@ƒCƒ‹–¼æ“¾(l_monoName), _
+		l_drawList[l_i] = List(å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«åå–å¾—(l_monoName), _
 		                       l_i + Random(8), _
-		                       ‰ò°ƒTƒuƒ‹[ƒ`ƒ“_‰æ‘œƒTƒCƒYæ“¾(l_monoName) \ 2)
+		                       å¡Šé­‚ã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³_ç”»åƒã‚µã‚¤ã‚ºå–å¾—(l_monoName) \ 2)
 	Next
 	
 	l_i = Count(l_drawList) + 1
 	
-	l_drawList[l_i] = List(Info(ƒ†ƒjƒbƒgƒf[ƒ^, Unit(‘Šèƒ†ƒjƒbƒg‚h‚c), ƒOƒ‰ƒtƒBƒbƒN), 16 + Random(8), 32 \ 2)
+	l_drawList[l_i] = List(Info(ãƒ¦ãƒ‹ãƒƒãƒˆãƒ‡ãƒ¼ã‚¿, Unit(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤), ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯), 16 + Random(8), 32 \ 2)
 	
-	//•`‰æ‚µ‚È‚ª‚ç•‚‚©‚×‚é
+	//æç”»ã—ãªãŒã‚‰æµ®ã‹ã¹ã‚‹
 	
 	PlaySound Charge.wav
 	
-	FillStyle “h‚è‚Â‚Ô‚µ
+	FillStyle å¡—ã‚Šã¤ã¶ã—
 	For l_i = 1 to 16
 		Line 0 0 480 480 #112233 BF
 		l_x = 240
@@ -318,7 +318,7 @@ Return RGB(Int(LIndex(Args(1), 1) * (7 - Args(2)) / 7), _
 			
 			l_bmpX = (l_x + LIndex(l_drawList[l_j], 2) * Cos(l_rad) - LIndex(l_drawList[l_j], 3))
 			l_bmpY = (l_y + LIndex(l_drawList[l_j], 2) * Sin(l_rad) - LIndex(l_drawList[l_j], 3))
- 			PaintPicture l_bmpName l_bmpX l_bmpY “§‰ß ‰E‰ñ“] (l_i * 30 + l_j * 30)
+ 			PaintPicture l_bmpName l_bmpX l_bmpY é€é å³å›è»¢ (l_i * 30 + l_j * 30)
 		Next
 	
 		Refresh
@@ -327,31 +327,31 @@ Return RGB(Int(LIndex(Args(1), 1) * (7 - Args(2)) / 7), _
 
 Return
 
-í“¬ƒAƒjƒ_‰ò°_ƒ‰ƒ“ƒ_ƒ€Fæ“¾:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_ãƒ©ãƒ³ãƒ€ãƒ è‰²å–å¾—:
 	Local l_colorNames
-	l_colorNames = "ÔÂ‰©—Î“ò‡"
+	l_colorNames = "èµ¤é’é»„ç·‘æ¡ƒæ©™ç´«"
 Return Mid(l_colorNames, Random(Len(l_colorNames)), 1)
 
-í“¬ƒAƒjƒ_‰ò°_’²®Fæ“¾:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_èª¿æ•´è‰²å–å¾—:
 	Local l_rgb l_modifier
-	l_rgb = í“¬ƒAƒjƒ_‰ò°_RGBƒŠƒXƒgæ“¾(Args(1))
+	l_rgb = æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_RGBãƒªã‚¹ãƒˆå–å¾—(Args(1))
 	l_modifier = Args(2)
-Return RGB(í“¬ƒAƒjƒ_‰ò°_’²®F¬•ªæ“¾(LIndex(l_rgb, 1), l_modifier), _
-           í“¬ƒAƒjƒ_‰ò°_’²®F¬•ªæ“¾(LIndex(l_rgb, 2), l_modifier), _
-           í“¬ƒAƒjƒ_‰ò°_’²®F¬•ªæ“¾(LIndex(l_rgb, 3), l_modifier))
+Return RGB(æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_èª¿æ•´è‰²æˆåˆ†å–å¾—(LIndex(l_rgb, 1), l_modifier), _
+           æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_èª¿æ•´è‰²æˆåˆ†å–å¾—(LIndex(l_rgb, 2), l_modifier), _
+           æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_èª¿æ•´è‰²æˆåˆ†å–å¾—(LIndex(l_rgb, 3), l_modifier))
 
-í“¬ƒAƒjƒ_‰ò°_’²®F¬•ªæ“¾:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_èª¿æ•´è‰²æˆåˆ†å–å¾—:
 	Local l_value l_modifier
 	l_value    = Args(1)
 	l_modifier = Args(2)
 Return Min(255, Int(l_value * l_modifier))
  
-í“¬ƒAƒjƒ_‰ò°_RGBƒŠƒXƒgæ“¾:
-Return List(í“¬ƒAƒjƒ_‰ò°_10i”æ“¾(Mid(Args(1), 2, 2)), _
-            í“¬ƒAƒjƒ_‰ò°_10i”æ“¾(Mid(Args(1), 4, 2)), _
-            í“¬ƒAƒjƒ_‰ò°_10i”æ“¾(Mid(Args(1), 6, 2)))
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_RGBãƒªã‚¹ãƒˆå–å¾—:
+Return List(æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_10é€²æ•°å–å¾—(Mid(Args(1), 2, 2)), _
+            æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_10é€²æ•°å–å¾—(Mid(Args(1), 4, 2)), _
+            æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_10é€²æ•°å–å¾—(Mid(Args(1), 6, 2)))
 
-í“¬ƒAƒjƒ_‰ò°_10i”æ“¾:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_10é€²æ•°å–å¾—:
 	Local l_hex l_dec l_hexBase l_decBase l_i
 	l_hex = Args(1)
 	
@@ -365,19 +365,19 @@ Return List(í“¬ƒAƒjƒ_‰ò°_10i”æ“¾(Mid(Args(1), 2, 2)), _
 	Next
 Return l_dec
 
-í“¬ƒAƒjƒ_‰ò°_‰ò¯Š®¬:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å¡Šæ˜Ÿå®Œæˆ:
 	Local UID l_nickName l_beamColor l_backColor l_lightColor l_lightColor1 l_lightColor2
 
-	UID = ‘Šèƒ†ƒjƒbƒg‚h‚c
+	UID = ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 	
 	l_nickName = NickName(Unit(UID))
 	
 	l_beamColor = _GetBeamColor(Args(1))
-	l_lightColor1 = í“¬ƒAƒjƒ_‰ò°_’²®Fæ“¾(_GetColor(Args(1)), 0.36)
-	l_lightColor2 = í“¬ƒAƒjƒ_‰ò°_’²®Fæ“¾(_GetColor(Args(1)), 0.25)
+	l_lightColor1 = æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_èª¿æ•´è‰²å–å¾—(_GetColor(Args(1)), 0.36)
+	l_lightColor2 = æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_èª¿æ•´è‰²å–å¾—(_GetColor(Args(1)), 0.25)
 	
-	FillStyle “h‚è‚Â‚Ô‚µ
-	Font 9pt ‚oƒSƒVƒbƒN Bold #eeeeee
+	FillStyle å¡—ã‚Šã¤ã¶ã—
+	Font 9pt ï¼°ã‚´ã‚·ãƒƒã‚¯ Bold #eeeeee
 	
 	PlaySound Glass(2).wav
 	
@@ -389,9 +389,9 @@ Return l_dec
 		Line 0 0 480 480 l_backColor BF
 		FillColor l_lightColor
 		Circle 240 128 24 l_lightColor
-		PaintPicture ("Impact\EFFECT_ImpactBallHit" & l_beamColor & "02.gif") (240 - 128) (128 - 128) “§‰ß
+		PaintPicture ("Impact\EFFECT_ImpactBallHit" & l_beamColor & "02.gif") (240 - 128) (128 - 128) é€é
 	
-		PaintString - (240 - 48) $(l_nickName)¯
+		PaintString - (240 - 48) $(l_nickName)æ˜Ÿ
 	
 		Refresh
 		Wait 1
@@ -402,24 +402,24 @@ Return l_dec
 		Line 0 0 480 480 #112233 BF
 		FillColor IIF((l_i Mod 2) = 1, l_lightColor1, l_lightColor2)
 		Circle 240 128 24 #112233
-		PaintPicture ("Impact\EFFECT_ImpactBallHit" & l_beamColor & "02.gif") (240 - 128) (128 - 128) “§‰ß
+		PaintPicture ("Impact\EFFECT_ImpactBallHit" & l_beamColor & "02.gif") (240 - 128) (128 - 128) é€é
 	
-		PaintString - (240 - 48) $(l_nickName)¯
+		PaintString - (240 - 48) $(l_nickName)æ˜Ÿ
 		
 		Refresh
 		Wait 1
 	Next
 Return
 
-í“¬ƒAƒjƒ_‰ò°_‰òƒrƒbƒOƒoƒ“Š®¬:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å¡Šãƒ“ãƒƒã‚°ãƒãƒ³å®Œæˆ:
 	Local UID l_i l_fr l_fg l_fb l_br l_bg l_bb l_nickName
 
-	UID = ‘Šèƒ†ƒjƒbƒg‚h‚c
+	UID = ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 	
 	l_nickName = NickName(Unit(UID))
 	
-	FillStyle “h‚è‚Â‚Ô‚µ
-	Font 9pt ‚oƒSƒVƒbƒN Bold #eeeeee
+	FillStyle å¡—ã‚Šã¤ã¶ã—
+	Font 9pt ï¼°ã‚´ã‚·ãƒƒã‚¯ Bold #eeeeee
 	
 	PlaySound Flash.wav
 	
@@ -432,9 +432,9 @@ Return
 		l_bg = 34 + (8 - l_i) * 24
 		l_bb = 51 + (8 - l_i) * 24
 		
-		Call í“¬ƒAƒjƒ_‰ò°_‰òƒrƒbƒOƒoƒ“•`‰æ l_i l_fr l_fg l_fb l_br l_bg l_bb
+		Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å¡Šãƒ“ãƒƒã‚°ãƒãƒ³æç”» l_i l_fr l_fg l_fb l_br l_bg l_bb
 		
-		PaintString - (240 - 48) $(l_nickName)ƒrƒbƒOƒoƒ“
+		PaintString - (240 - 48) $(l_nickName)ãƒ“ãƒƒã‚°ãƒãƒ³
 		
 		Refresh
 		Wait 1
@@ -445,16 +445,16 @@ Return
 		l_bg = 34
 		l_bb = 51
 		
-		Call í“¬ƒAƒjƒ_‰ò°_‰òƒrƒbƒOƒoƒ“•`‰æ l_i l_fr l_fg l_fb l_br l_bg l_bb
+		Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å¡Šãƒ“ãƒƒã‚°ãƒãƒ³æç”» l_i l_fr l_fg l_fb l_br l_bg l_bb
 		
-		PaintString - (240 - 48) $(l_nickName)ƒrƒbƒOƒoƒ“
+		PaintString - (240 - 48) $(l_nickName)ãƒ“ãƒƒã‚°ãƒãƒ³
 		
 		Refresh
 		Wait 1
 	Next
 Return
 
-í“¬ƒAƒjƒ_‰ò°_‰òƒrƒbƒOƒoƒ“•`‰æ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¡Šé­‚_å¡Šãƒ“ãƒƒã‚°ãƒãƒ³æç”»:
 	Local l_i l_m l_fr l_fg l_fb l_br l_bg l_bb l_backColor l_foreColor
 	
 	l_m = Args(1)
@@ -474,7 +474,7 @@ Return
 	
 	l_backColor = RGB(l_br, l_bg, l_bb)
 	
-	FillStyle “h‚è‚Â‚Ô‚µ
+	FillStyle å¡—ã‚Šã¤ã¶ã—
 	Line 0 0 480 480 l_backColor BF
 	
 	For l_i = 1 to 6

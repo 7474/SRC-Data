@@ -1,13 +1,13 @@
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_BWING_‰ñ“]‚ä‚ç‚¬“ŠËUŒ‚:
-# ˆø”‚P@‰æ‘œ–¼
-# ˆø”‚Q@‰æ‘œƒTƒCƒY
-# ˆø”‚R@Œø‰Ê‰¹
-# ˆø”‚S  ”­Œõ
-# ˆø”‚T  ‘¬“x
-# ˆø”‚U@UID
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_BWING_å›è»¢ã‚†ã‚‰ãæŠ•å°„æ”»æ’ƒ:
+# å¼•æ•°ï¼‘ã€€ç”»åƒå
+# å¼•æ•°ï¼’ã€€ç”»åƒã‚µã‚¤ã‚º
+# å¼•æ•°ï¼“ã€€åŠ¹æœéŸ³
+# å¼•æ•°ï¼”  ç™ºå…‰
+# å¼•æ•°ï¼•  é€Ÿåº¦
+# å¼•æ•°ï¼–ã€€UID
 Local ANG = _GetAngle(UID)
 Local i
 Local posX
@@ -24,7 +24,7 @@ Local SPD
 
 _UnSetBattleAnimeValue
 
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Set C_X WX(UID)
 Set C_Y WY(UID)
@@ -37,8 +37,8 @@ If (G_S != 32) Then
   Incr C_Y (16 - (G_S \ 2))
 EndIf
 
-If (X(UID) < _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
-  Set DRCT ¶‰E”½“]
+If (X(UID) < _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
+  Set DRCT å·¦å³åè»¢
 Else
   Set DRCT ""
 EndIf
@@ -49,9 +49,9 @@ Else
   Set FL ""
 EndIf
 
-If (_SearchOptionFromArgs("‘¬") != "") Then
+If (_SearchOptionFromArgs("é€Ÿ") != "") Then
   Set SPD 0.4
-ElseIf (_SearchOptionFromArgs("’x") != "") Then
+ElseIf (_SearchOptionFromArgs("é…") != "") Then
   Set SPD 1.2
 Else
   Set SPD 0.8
@@ -60,22 +60,22 @@ EndIf
 #Wait Start
 #For i = 1 To 4
 #  ClearPicture
-#  PaintPicture (A1 & Random(4) & ".bmp") C_X C_Y G_S G_S “§‰ß DRCT _ColorTime(FL) ‰E‰ñ“] ANG
+#  PaintPicture (A1 & Random(4) & ".bmp") C_X C_Y G_S G_S é€é DRCT _ColorTime(FL) å³å›è»¢ ANG
 #  Refresh
 #  Wait Until (i * 0.5)
 #Next
 
-Set posX ((X(UID) - _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) * 32)
-Set posY ((Y(UID) - _Get_Y(‘Šèƒ†ƒjƒbƒg‚h‚c)) * 32)
+Set posX ((X(UID) - _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) * 32)
+Set posY ((Y(UID) - _Get_Y(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) * 32)
 
-Set DST (Abs(X(UID) - _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) + Abs(Y(UID) - _Get_Y(‘Šèƒ†ƒjƒbƒg‚h‚c)))
+Set DST (Abs(X(UID) - _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) + Abs(Y(UID) - _Get_Y(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)))
 
 PlaySound _GetName("-.wav",_GetWavFromArgs())
 
 Wait Start
 For i = 1 To (DST + 3)
   ClearPicture
-  PaintPicture (A1 & Random(4) & ".bmp") (C_X - (posX / (DST + 4)) * i) (C_Y - (posY / (DST + 4)) * i) G_S G_S “§‰ß DRCT _ColorTime(FL) ‰E‰ñ“] ANG
+  PaintPicture (A1 & Random(4) & ".bmp") (C_X - (posX / (DST + 4)) * i) (C_Y - (posY / (DST + 4)) * i) G_S G_S é€é DRCT _ColorTime(FL) å³å›è»¢ ANG
   Refresh
   Wait Until (SPD * i)
 Next
@@ -88,14 +88,14 @@ Return
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_BWING_À’e”­Ë˜A‘±•`‰æUŒ‚:
-# ˆø”‚P@‰æ‘œ–¼
-# ˆø”‚Q@‰æ‘œƒTƒCƒY
-# ˆø”‚R@Œø‰Ê‰¹
-# ˆø”‚S  ”­Œõ
-# ˆø”‚T  ‘¬“x
-# ˆø”‚U@UID
-# ˆø”‚V@ƒRƒ}”
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_BWING_å®Ÿå¼¾ç™ºå°„é€£ç¶šæç”»æ”»æ’ƒ:
+# å¼•æ•°ï¼‘ã€€ç”»åƒå
+# å¼•æ•°ï¼’ã€€ç”»åƒã‚µã‚¤ã‚º
+# å¼•æ•°ï¼“ã€€åŠ¹æœéŸ³
+# å¼•æ•°ï¼”  ç™ºå…‰
+# å¼•æ•°ï¼•  é€Ÿåº¦
+# å¼•æ•°ï¼–ã€€UID
+# å¼•æ•°ï¼—ã€€ã‚³ãƒæ•°
 Local ANG = _GetAngle(UID)
 Local i
 Local posX
@@ -112,7 +112,7 @@ Local SPD
 
 _UnSetBattleAnimeValue
 
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Set C_X WX(UID)
 Set C_Y WY(UID)
@@ -126,8 +126,8 @@ If (G_S != 32) Then
   Incr C_Y (16 - (G_S \ 2))
 EndIf
 
-If (X(UID) < _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
-  Set DRCT ¶‰E”½“]
+If (X(UID) < _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
+  Set DRCT å·¦å³åè»¢
 Else
   Set DRCT ""
 EndIf
@@ -142,22 +142,22 @@ EndIf
 #Wait Start
 #For i = 1 To 4
 #  ClearPicture
-#  PaintPicture (A1 & Random(4) & ".bmp") C_X C_Y G_S G_S “§‰ß DRCT _ColorTime(FL) ‰E‰ñ“] ANG
+#  PaintPicture (A1 & Random(4) & ".bmp") C_X C_Y G_S G_S é€é DRCT _ColorTime(FL) å³å›è»¢ ANG
 #  Refresh
 #  Wait Until (i * 0.5)
 #Next
 
-Set posX ((X(UID) - _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) * 32)
-Set posY ((Y(UID) - _Get_Y(‘Šèƒ†ƒjƒbƒg‚h‚c)) * 32)
+Set posX ((X(UID) - _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) * 32)
+Set posY ((Y(UID) - _Get_Y(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) * 32)
 
-Set DST (Abs(X(UID) - _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) + Abs(Y(UID) - _Get_Y(‘Šèƒ†ƒjƒbƒg‚h‚c)))
+Set DST (Abs(X(UID) - _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) + Abs(Y(UID) - _Get_Y(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)))
 
-If (_SearchOptionFromArgs("‘¬") != "") Then
+If (_SearchOptionFromArgs("é€Ÿ") != "") Then
   Set SPD (0.25 + 0.05 * DST)
   If SPD > 0.4 Then
   	Set SPD 0.4
   EndIf
-ElseIf (_SearchOptionFromArgs("’x") != "") Then
+ElseIf (_SearchOptionFromArgs("é…") != "") Then
   Set SPD (0.2 + 0.2 * DST)
   If SPD > 1 Then
   	Set SPD 1
@@ -175,9 +175,9 @@ Wait Start
 For i = 1 To A7
   ClearPicture
   If i > 1 Then
-    PaintPicture (A1 & (i - 1) & ".bmp") (C_X - (posX / (A7 + 1)) * (i - 1)) (C_Y - (posY / (A7 + 1)) * (i - 1)) G_S G_S “§‰ß ƒZƒsƒA ‰E‰ñ“] ANG
+    PaintPicture (A1 & (i - 1) & ".bmp") (C_X - (posX / (A7 + 1)) * (i - 1)) (C_Y - (posY / (A7 + 1)) * (i - 1)) G_S G_S é€é ã‚»ãƒ”ã‚¢ å³å›è»¢ ANG
   EndIf
-  PaintPicture (A1 & i & ".bmp") (C_X - (posX / (A7 + 1)) * i) (C_Y - (posY / (A7 + 1)) * i) G_S G_S “§‰ß DRCT _ColorTime(FL) ‰E‰ñ“] ANG
+  PaintPicture (A1 & i & ".bmp") (C_X - (posX / (A7 + 1)) * i) (C_Y - (posY / (A7 + 1)) * i) G_S G_S é€é DRCT _ColorTime(FL) å³å›è»¢ ANG
   Refresh
   Wait Until (SPD * i)
 Next
@@ -188,19 +188,19 @@ Return
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_BWING_©ŒÈ’†S‰ñ“]•Ší–hŒä”­“®:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_BWING_è‡ªå·±ä¸­å¿ƒå›è»¢æ­¦å™¨é˜²å¾¡ç™ºå‹•:
 
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 Font 12pt
 Local G_S = _GetPicSizeFromArgs()
-Local C_X = (_Get_WX(‘Šèƒ†ƒjƒbƒg‚h‚c) + (32 - G_S) \ 2)
-Local C_Y = (_Get_WY(‘Šèƒ†ƒjƒbƒg‚h‚c) + (32 - G_S) \ 2)
-Local C_X2 = (_Get_WX(‘Šèƒ†ƒjƒbƒg‚h‚c))
-Local C_Y2 = (_Get_WY(‘Šèƒ†ƒjƒbƒg‚h‚c))
+Local C_X = (_Get_WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) + (32 - G_S) \ 2)
+Local C_Y = (_Get_WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) + (32 - G_S) \ 2)
+Local C_X2 = (_Get_WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤))
+Local C_Y2 = (_Get_WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤))
 Local WP_FILE =  _GetBmpFromArgs()
 Local FL ANG1 ANG2 DRCT
 Local i
-Local STR = _GN("",_GN(Args(1),_GetOptValueFromArgs("•Ê–¼")))
+Local STR = _GN("",_GN(Args(1),_GetOptValueFromArgs("åˆ¥å")))
 Local S_S = TextWidth(STR)
 
 If (_IsLight() = 1) Then
@@ -216,7 +216,7 @@ Set ANG1 45
 For i = 1 To 36
   Incr ANG1 60
   ClearPicture
-  PaintPicture WP_FILE (C_X + X_P) C_Y G_S G_S “§‰ß ‰E‰ñ“] ANG1 _ColorTime(FL)
+  PaintPicture WP_FILE (C_X + X_P) C_Y G_S G_S é€é å³å›è»¢ ANG1 _ColorTime(FL)
 
   Font RGB(i * 8,i * 8,i * 8)
   PaintString (C_X2 + 1 + (16 - (S_S \ 2))) (C_Y2 + 33) STR

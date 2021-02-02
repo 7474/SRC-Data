@@ -1,17 +1,17 @@
-í“¬ƒAƒjƒ_ŠgUƒr[ƒ€ã‹ó–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ‹¡æ•£ãƒ“ãƒ¼ãƒ ä¸Šç©ºå‘½ä¸­:
 
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 Local i
 Local j
 Local 270
 Local B_C = _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs()))
-Local C_X = (WX(‘Šèƒ†ƒjƒbƒg‚h‚c) - 16)
-Local C_Y = (WY(‘Šèƒ†ƒjƒbƒg‚h‚c) - 16)
+Local C_X = (WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 16)
+Local C_Y = (WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 16)
 Local X_F Y_F
 
-Set X_F _GetCircumference((270 + 90),‚w)
-Set Y_F _GetCircumference((270 + 90),‚x)
+Set X_F _GetCircumference((270 + 90),ï¼¸)
+Set Y_F _GetCircumference((270 + 90),ï¼¹)
 
 For j = 0 To 1
   Wait Start
@@ -22,25 +22,25 @@ For j = 0 To 1
     EndIf
     Switch i
     Case 2
-      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * -9)) (C_Y + 26 + (Y_F * -9)) 12 12 ‰E‰ñ“] 270 “§‰ß _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * -9)) (C_Y + 26 + (Y_F * -9)) 12 12 å³å›è»¢ 270 é€é _ColorTime(1)
     Case 3
-      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -9)) (C_Y + 24 + (Y_F * -9)) 16 16 ‰E‰ñ“] 270 “§‰ß _ColorTime(1)
-      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * 8)) (C_Y + 26 + (Y_F * 8)) 12 12 ‰E‰ñ“] 270 “§‰ß _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -9)) (C_Y + 24 + (Y_F * -9)) 16 16 å³å›è»¢ 270 é€é _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * 8)) (C_Y + 26 + (Y_F * 8)) 12 12 å³å›è»¢ 270 é€é _ColorTime(1)
     Case 4
-      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -9)) (C_Y + 24 + (Y_F * -9)) 16 16 ‰E‰ñ“] 270 “§‰ß _ColorTime(1)
-      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 8)) (C_Y + 24 + (Y_F * 8)) 16 16 ‰E‰ñ“] 270 “§‰ß _ColorTime(1)
-      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * -3)) (C_Y + 26 + (Y_F * -3)) 12 12 ‰E‰ñ“] 270 “§‰ß _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -9)) (C_Y + 24 + (Y_F * -9)) 16 16 å³å›è»¢ 270 é€é _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 8)) (C_Y + 24 + (Y_F * 8)) 16 16 å³å›è»¢ 270 é€é _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * -3)) (C_Y + 26 + (Y_F * -3)) 12 12 å³å›è»¢ 270 é€é _ColorTime(1)
     Case 5
-      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 8)) (C_Y + 24 + (Y_F * 8)) 16 16 ‰E‰ñ“] 270 “§‰ß _ColorTime(1)
-      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -3)) (C_Y + 24 + (Y_F * -3)) 16 16 ‰E‰ñ“] 270 “§‰ß _ColorTime(1)
-      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * 5)) (C_Y + 26 + (Y_F * 5)) 12 12 ‰E‰ñ“] 270 “§‰ß _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 8)) (C_Y + 24 + (Y_F * 8)) 16 16 å³å›è»¢ 270 é€é _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -3)) (C_Y + 24 + (Y_F * -3)) 16 16 å³å›è»¢ 270 é€é _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 26 + (X_F * 5)) (C_Y + 26 + (Y_F * 5)) 12 12 å³å›è»¢ 270 é€é _ColorTime(1)
     Case 6
-      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -3)) (C_Y + 24 + (Y_F * -3)) 16 16 ‰E‰ñ“] 270 “§‰ß _ColorTime(1)
-      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 5)) (C_Y + 24 + (Y_F * 5)) 16 16 ‰E‰ñ“] 270 “§‰ß _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * -3)) (C_Y + 24 + (Y_F * -3)) 16 16 å³å›è»¢ 270 é€é _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 5)) (C_Y + 24 + (Y_F * 5)) 16 16 å³å›è»¢ 270 é€é _ColorTime(1)
     Case 7
-      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 5)) (C_Y + 24 + (Y_F * 5)) 16 16 ‰E‰ñ“] 270 “§‰ß _ColorTime(1)
+      PaintPicture ("Beam\EFFECT_BeamDroplet" & B_C & "01.bmp") (C_X + 24 + (X_F * 5)) (C_Y + 24 + (Y_F * 5)) 16 16 å³å›è»¢ 270 é€é _ColorTime(1)
     EndSw
-    PaintPicture ("Beam\EFFECT_DBeamHit" & B_C & "0" & i & ".bmp") C_X C_Y ‰E‰ñ“] 270 “§‰ß _ColorTime(1)
+    PaintPicture ("Beam\EFFECT_DBeamHit" & B_C & "0" & i & ".bmp") C_X C_Y å³å›è»¢ 270 é€é _ColorTime(1)
     Refresh
     Wait Until (i * 0.7)
   Next

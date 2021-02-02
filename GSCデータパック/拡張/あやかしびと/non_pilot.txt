@@ -1,132 +1,132 @@
 
-##### �E�\��
-##### �E����
-##### �E�G
+##### ・表情
+##### ・味方
+##### ・敵
 
-########## �\�� =====================================================================
+########## 表情 =====================================================================
 
-��T�J���q(���])
-���q, AYBT_IchinotaniTouko(U).bmp
+一乃谷刀子(動転)
+刀子, AYBT_IchinotaniTouko(U).bmp
 
-�g�[�j�����A���g�[�m���i���j�L�[�`�i(�ӂ�ӂ탂�[�h)
-�g�[�j��, AYBT_Tornya(F).bmp
+トーニャ＝アントーノヴナ＝ニキーチナ(ふわふわモード)
+トーニャ, AYBT_Tornya(F).bmp
 
-��S�s�|(�΂�)
-��S, AYBT_KukiYoukou(2).bmp
-��S�s�|(�s�G)
-��S, AYBT_KukiYoukou(3).bmp
-��S�s�|(�^��)
-��S, AYBT_KukiYoukou(4).bmp
+九鬼耀鋼(笑い)
+九鬼, AYBT_KukiYoukou(2).bmp
+九鬼耀鋼(不敵)
+九鬼, AYBT_KukiYoukou(3).bmp
+九鬼耀鋼(真剣)
+九鬼, AYBT_KukiYoukou(4).bmp
 
-���O�P�`(�U��)
-�P�`, AYBT_KounenTeruyoshi(A).bmp
-
-
-########## ���� =====================================================================
-
-��������
-����, AYBT_KisaragiSouhichi.bmp
-# ���O��ς���O�̑o���B
-
-�@���o��(�q��)
-�o��, AYBT_KisaragiSouhichi(Child).bmp
-# ��S�搶�₷���Ƃ̉�z�ȂǁB
-
-�@������(��)
-����, AYBT_KisaragiSuzu(Fox).bmp
-# �ώp�̂����B
-
-��T�J�D��(�q��)
-�D��, AYBT_IchinotaniSyugen(Child).bmp
-# ���q���[�g���X�g�œo��B
-
-��T�J���q(����)
-���q, AYBT_IchinotaniTouko(Hounan).bmp
-# ����ɏ�����ꂽ���q�B
+光念輝義(攻撃)
+輝義, AYBT_KounenTeruyoshi(A).bmp
 
 
-���������(���₩���т�)
-���������, AYBT_Satou.bmp
-# �����^�B�o�������ɐ_��s�ɓ����悤�֋X���Ă��ꂽ�ň��
+########## 味方 =====================================================================
 
-���C�ɏ�
-�ɏ�, AYBT_NanamiIo.bmp
-# �l�d�\�͎͂��l�~�T�L
-# ���̒��ɕ����̎v�l�����݂��A���񏈗����s�����ŕ��G�Ȍv�Z�����ȒP�ɂ��Ȃ������ł���
+武部涼一
+涼一, AYBT_KisaragiSouhichi.bmp
+# 名前を変える前の双七。
 
-�o�삳����
-������, AYBT_AnekawaSakura.bmp
-# �l�d�\�͍͂��V��
-# �_��������𑊎�ɕ������鍁������L�Ƃ��ĕ������o����
+如月双七(子供)
+双七, AYBT_KisaragiSouhichi(Child).bmp
+# 九鬼先生やすずとの回想など。
 
-�V����H
-���H, AYBT_AraiMiu.bmp
-# �l�d�\�͂͐�Ԏq
-# ����ʂ��Ď����̌��t��b�������o����
+如月すず(狐)
+すず, AYBT_KisaragiSuzu(Fox).bmp
+# 狐姿のすず。
 
-�����l
-��l, AYBT_AinoKarito.bmp
-# �l�d�\�͂͂ʂ��؂ӂق�
-# ���S��Ԃ��玩���I�ɑh������B����𕉂��Ƒ����ɂ��̂ŁA��U������ԂɂȂ�
+一乃谷愁厳(子供)
+愁厳, AYBT_IchinotaniSyugen(Child).bmp
+# 刀子ルートラストで登場。
 
-���}���₩
-���₩, AYBT_HujiedaAyaka.bmp
-# �l�d�\�͕͂��ԗd��
-# ����(���ȓ�)����Ă̑��҂̐��_�w���ւ̉���E���삪�\
+一乃谷刀子(逢難)
+刀子, AYBT_IchinotaniTouko(Hounan).bmp
+# 逢難に乗っ取られた刀子。
 
 
-���@��(���₩���т�)
-���@��, AYBT_Yatagarasu.bmp
-# �d�������̒��B
-# �́A�����Ɛ�������ƂłقƂ�Ǘ͂������Ă���B
+おっちゃん(あやかしびと)
+おっちゃん, AYBT_Satou.bmp
+# 佐藤某。双七たちに神沢市に入れるよう便宜してくれた闇医者
 
-�Î�(���₩���т�)
-�Î�, AYBT_Shizu.bmp
-# �����̕�e�B����̉ߋ��Ɏ��S�B
+七海伊緒
+伊緒, AYBT_NanamiIo.bmp
+# 人妖能力は七人ミサキ
+# 頭の中に複数の思考が存在し、並列処理を行う事で複雑な計算等を簡単にこなす事ができる
 
+姉川さくら
+さくら, AYBT_AnekawaSakura.bmp
+# 人妖能力は香天女
+# 狙った感情を相手に抱かせる香りを口臭として放つ事が出来る
 
-########## �G =====================================================================
+新井美羽
+美羽, AYBT_AraiMiu.bmp
+# 人妖能力は川赤子
+# 物を通じて自分の言葉を話す事が出来る
 
-��S�s�|(�ߋ�)
-��S, AYBT_KukiYoukou(Before).bmp
-# �����ŗ��ڂ����鍠�̋�S�搶�B
+愛野狩人
+狩人, AYBT_AinoKarito.bmp
+# 人妖能力はぬっぺふほふ
+# 死亡状態から自動的に蘇生する。怪我を負うと相当痛いので、一旦仮死状態になる
 
-
-���ǉ��
-��, AYBT_HiragaWataru.bmp
-���ǉ��(�ʏ�)
-��, AYBT_HiragaWataru(2).bmp
-# �l�d�\�͔͂��n��
-# �����爫�L����_��f��
-
-
-���e(���₩���т�)
-���e, AYBT_Acheartu.bmp
-# �g�[�j���̃{�X�B
-
-
-�V(���₩���т�)
-�V, AYBT_Ten.bmp
-# ���������̈���B
-
-����o��v
-����, AYBT_Ten.bmp
-# �V�̉��̖��B
-
-��(���₩���т�)
-��, AYBT_Cyu.bmp
-# ���������̈���B
-
-�_��C��
-�_��, AYBT_Cyu.bmp
-# ���̉��̖��B
-
-����(���₩���т�)
-����, AYBT_Hounan.bmp
-
-����(�l��)(���₩���т�)
-����, AYBT_Hounan(Human).bmp
-# ���������̈���B
+藤枝あやか
+あやか, AYBT_HujiedaAyaka.bmp
+# 人妖能力は文車妖妃
+# 書類(書簡等)を介しての他者の精神指向への介入・操作が可能
 
 
-# �����̔��̎c��͒n�A�E�g�A�̍��A���߁A��A�I�̔��B
+八咫鴉(あやかしびと)
+八咫鴉, AYBT_Yatagarasu.bmp
+# 妖怪たちの長。
+# 昔、幻咬と戦ったことでほとんど力を失っている。
+
+静珠(あやかしびと)
+静珠, AYBT_Shizu.bmp
+# すずの母親。物語の過去に死亡。
+
+
+########## 敵 =====================================================================
+
+九鬼耀鋼(過去)
+九鬼, AYBT_KukiYoukou(Before).bmp
+# 黒髪で両目がある頃の九鬼先生。
+
+
+平良賀渉
+渉, AYBT_HiragaWataru.bmp
+平良賀渉(通常)
+渉, AYBT_HiragaWataru(2).bmp
+# 人妖能力は白溶裔
+# 口から悪臭を放つ酸を吐く
+
+
+父親(あやかしびと)
+父親, AYBT_Acheartu.bmp
+# トーニャのボス。
+
+
+天(あやかしびと)
+天, AYBT_Ten.bmp
+# 幻咬が尾の一尾。
+
+押野登喜夫
+押野, AYBT_Ten.bmp
+# 天の仮の名。
+
+中(あやかしびと)
+中, AYBT_Cyu.bmp
+# 幻咬が尾の一尾。
+
+雲野修介
+雲野, AYBT_Cyu.bmp
+# 中の仮の名。
+
+逢難(あやかしびと)
+逢難, AYBT_Hounan.bmp
+
+逢難(人間)(あやかしびと)
+逢難, AYBT_Hounan(Human).bmp
+# 幻咬が尾の一尾。
+
+
+# 幻咬の尾の残りは地、胞身、肝魂、魂珀、霊、終の尾。

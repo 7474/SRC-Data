@@ -1,948 +1,948 @@
-## ‚f‚r‚b“o˜^Ž®‰æ‘œƒpƒbƒN‚Ì•ŠíEí“¬ƒAƒjƒƒAƒCƒRƒ“‚ðŽw’è‚µ‚Ä‚¢‚Ü‚·B
+## ï¼§ï¼³ï¼£ç™»éŒ²å¼ç”»åƒãƒ‘ãƒƒã‚¯ã®æ­¦å™¨ãƒ»æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ã‚¢ã‚¤ã‚³ãƒ³ã‚’æŒ‡å®šã—ã¦ã„ã¾ã™ã€‚
 
-### ƒXƒsƒ‹ƒoƒ“ --------------------------------------------------------
+### ã‚¹ãƒ”ãƒ«ãƒãƒ³ --------------------------------------------------------
 
-é—m‰î
-Ši“¬, Ši“¬
-Œ‹»(”­“®), _
-	Œõ’Œ ”’ Charge(high).wav;—±ŽqW’† ”’ Glass(3).wav;4;•ÏŒ` Unit\SPL_SpielbanU(1).bmp -.wav;_
+åŸŽæ´‹ä»‹
+æ ¼é—˜, æ ¼é—˜
+çµæ™¶(ç™ºå‹•), _
+	å…‰æŸ± ç™½ Charge(high).wav;ç²’å­é›†ä¸­ ç™½ Glass(3).wav;4;å¤‰å½¢ Unit\SPL_SpielbanU(1).bmp -.wav;_
 	pilot\SPL_Spielban(1).bmp 160 160;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“EŒ‹» "Žž‹óíŽmI ƒXƒsƒ‹ƒoƒ“II" ŒÅ’è;10
-#### ŽQlƒAƒjƒ
-### ‰Šú‚Ì”‰ñ‚Ì‚ÝŽg—p‚³‚ê‚½A‰ðà‚Â‚«‚Ìƒƒ“ƒOƒo[ƒWƒ‡ƒ“B
-Œ‹»(’·)(”­“®), _
-	‰ï˜b é—m‰î "Œ‹»II" ŒÅ’è;_
-	@í“¬ƒAƒjƒ_”ò—ˆƒAƒbƒv€”õ "unit\SPL_GrandNascaU.bmp" Â ’x -.wav;_
-	‰ï˜b ‰ðà "ƒOƒ‰ƒ“ƒiƒXƒJ‚Ìƒ}ƒU[ƒRƒ“ƒsƒ…[ƒ^‚ªA.“d‘—Žw—ß‚ðƒLƒƒƒbƒ`‚·‚é" ŒÅ’è;_
-	‰q¯ƒr[ƒ€ ”’ Unit\SPL_GrandNascaU.bmp Charge(high).wav;_
-	‰ï˜b ‰ðà "Œ‹»ƒVƒXƒeƒ€‚ªì“®‚µAƒNƒŠƒ“ƒƒ^ƒ‹‚ðA.’´”÷—±Žq‚É•ª‰ð“d‘—‚·‚é" ŒÅ’è;_
-	‘åŒõ’Œ ”’ -.wav;—±ŽqW’† ”’ Glass(3).wav;5;•ÏŒ` Unit\SPL_SpielbanU(1).bmp -.wav;4;_
-	‰ï˜b ‰ðà "“d‘—‚³‚ê‚½ƒNƒŠƒ“ƒƒ^ƒ‹‚ÍAé—m‰î‚Ì‘Ì‚Å.Œ‹»‚µAƒnƒCƒeƒNƒNƒŠƒXƒ^ƒ‹ƒX[ƒc‚ªŠ®¬‚·‚é" ŒÅ’è;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ãƒ»çµæ™¶ "æ™‚ç©ºæˆ¦å£«ï¼ ã‚¹ãƒ”ãƒ«ãƒãƒ³ï¼ï¼" å›ºå®š;10
+#### å‚è€ƒã‚¢ãƒ‹ãƒ¡
+### åˆæœŸã®æ•°å›žã®ã¿ä½¿ç”¨ã•ã‚ŒãŸã€è§£èª¬ã¤ãã®ãƒ­ãƒ³ã‚°ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã€‚
+çµæ™¶(é•·)(ç™ºå‹•), _
+	ä¼šè©± åŸŽæ´‹ä»‹ "çµæ™¶ï¼ï¼" å›ºå®š;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é£›æ¥ã‚¢ãƒƒãƒ—æº–å‚™ "unit\SPL_GrandNascaU.bmp" é’ é… -.wav;_
+	ä¼šè©± è§£èª¬ "ã‚°ãƒ©ãƒ³ãƒŠã‚¹ã‚«ã®ãƒžã‚¶ãƒ¼ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ãŒã€.é›»é€æŒ‡ä»¤ã‚’ã‚­ãƒ£ãƒƒãƒã™ã‚‹" å›ºå®š;_
+	è¡›æ˜Ÿãƒ“ãƒ¼ãƒ  ç™½ Unit\SPL_GrandNascaU.bmp Charge(high).wav;_
+	ä¼šè©± è§£èª¬ "çµæ™¶ã‚·ã‚¹ãƒ†ãƒ ãŒä½œå‹•ã—ã€ã‚¯ãƒªãƒ³ãƒ¡ã‚¿ãƒ«ã‚’ã€.è¶…å¾®ç²’å­ã«åˆ†è§£é›»é€ã™ã‚‹" å›ºå®š;_
+	å¤§å…‰æŸ± ç™½ -.wav;ç²’å­é›†ä¸­ ç™½ Glass(3).wav;5;å¤‰å½¢ Unit\SPL_SpielbanU(1).bmp -.wav;4;_
+	ä¼šè©± è§£èª¬ "é›»é€ã•ã‚ŒãŸã‚¯ãƒªãƒ³ãƒ¡ã‚¿ãƒ«ã¯ã€åŸŽæ´‹ä»‹ã®ä½“ã§.çµæ™¶ã—ã€ãƒã‚¤ãƒ†ã‚¯ã‚¯ãƒªã‚¹ã‚¿ãƒ«ã‚¹ãƒ¼ãƒ„ãŒå®Œæˆã™ã‚‹" å›ºå®š;_
 	pilot\SPL_Spielban(1).bmp 160 160;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“EŒ‹» "Žž‹óíŽmI" ŒÅ’è;4;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“EŒ‹» "Žž‹óíŽmI ƒXƒsƒ‹ƒoƒ“II" ŒÅ’è;10
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ãƒ»çµæ™¶ "æ™‚ç©ºæˆ¦å£«ï¼" å›ºå®š;4;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ãƒ»çµæ™¶ "æ™‚ç©ºæˆ¦å£«ï¼ ã‚¹ãƒ”ãƒ«ãƒãƒ³ï¼ï¼" å›ºå®š;10
 
 
-Žž‹óíŽmƒXƒsƒ‹ƒoƒ“
-##########@@’Êí•Ší@@##########
-ƒXƒsƒ‹ƒoƒ“ƒpƒ“ƒ`, ‘Å“Ë
-ƒXƒsƒ‹ƒoƒ“ƒLƒbƒN, ƒLƒbƒN
-ƒŒ[ƒU[ƒXƒiƒCƒp[(€”õ), ƒŒ[ƒU[ƒKƒ“(‚Q)
-ƒŒ[ƒU[ƒXƒiƒCƒp[(UŒ‚), ƒr[ƒ€ƒ‰ƒCƒtƒ‹ Â "Weapon\EFFECT_LaserGun01.bmp"
-ƒŒ[ƒU[ƒXƒiƒCƒp[(–½’†), ¬ƒr[ƒ€ Â
-ƒcƒCƒ“ƒuƒŒ[ƒh(‚P)(€”õ), ”­Œõ Â -.wav ‘ÎÛƒ†ƒjƒbƒg‚h‚c;ƒ\[ƒh
-ƒcƒCƒ“ƒuƒŒ[ƒh(‚P)(UŒ‚), ŽaŒ‚
-ƒcƒCƒ“ƒuƒŒ[ƒh(‚P)(–½’†), ŽaŒ‚
-ƒcƒCƒ“ƒuƒŒ[ƒh(‚Q)(€”õ), _
-	uŠÔ•ÏŒ` "SPL_SpielbanU(1).bmp";_
-	’†S‰ñ“]•Ší "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ”­Œõ BeamSaber.wav;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒcƒCƒ“I ƒuƒŒ[ƒhƒbII" ŒÅ’è;uŠÔ•ÏŒ`
-ƒcƒCƒ“ƒuƒŒ[ƒh(‚Q)(UŒ‚), _
-	ŽaŒ‚ Â
-ƒcƒCƒ“ƒuƒŒ[ƒh(‚Q)(–½’†), _
-	ŽaŒ‚ Â
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(€”õ), _
+æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³
+##########ã€€ã€€é€šå¸¸æ­¦å™¨ã€€ã€€##########
+ã‚¹ãƒ”ãƒ«ãƒãƒ³ãƒ‘ãƒ³ãƒ, æ‰“çª
+ã‚¹ãƒ”ãƒ«ãƒãƒ³ã‚­ãƒƒã‚¯, ã‚­ãƒƒã‚¯
+ãƒ¬ãƒ¼ã‚¶ãƒ¼ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼(æº–å‚™), ãƒ¬ãƒ¼ã‚¶ãƒ¼ã‚¬ãƒ³(ï¼’)
+ãƒ¬ãƒ¼ã‚¶ãƒ¼ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼(æ”»æ’ƒ), ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ« é’ "Weapon\EFFECT_LaserGun01.bmp"
+ãƒ¬ãƒ¼ã‚¶ãƒ¼ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼(å‘½ä¸­), å°ãƒ“ãƒ¼ãƒ  é’
+ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(ï¼‘)(æº–å‚™), ç™ºå…‰ é’ -.wav å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;ã‚½ãƒ¼ãƒ‰
+ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(ï¼‘)(æ”»æ’ƒ), æ–¬æ’ƒ
+ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(ï¼‘)(å‘½ä¸­), æ–¬æ’ƒ
+ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(ï¼’)(æº–å‚™), _
+	çž¬é–“å¤‰å½¢ "SPL_SpielbanU(1).bmp";_
+	ä¸­å¿ƒå›žè»¢æ­¦å™¨ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ç™ºå…‰ BeamSaber.wav;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ãƒ„ã‚¤ãƒ³ï¼ ãƒ–ãƒ¬ãƒ¼ãƒ‰ãƒƒï¼ï¼" å›ºå®š;çž¬é–“å¤‰å½¢
+ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(ï¼’)(æ”»æ’ƒ), _
+	æ–¬æ’ƒ é’
+ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(ï¼’)(å‘½ä¸­), _
+	æ–¬æ’ƒ é’
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(æº–å‚™), _
 	pilot\SPL_Spielban(1).bmp 160 160;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "‰´‚Ì“{‚è‚Ícc" ŒÅ’è;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "‰´‚Ì“{‚è‚Ícc”š”­¡‘OII" ŒÅ’è;_
-	uŠÔ•ÏŒ` "SPL_SpielbanU(1).bmp";_
-	’†S‰ñ“]•Ší "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ”­Œõ -.wav;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒcƒCƒ“I ƒuƒŒ[ƒhƒbII" ŒÅ’è;•ú“d ‘ÎÛƒ†ƒjƒbƒg‚h‚c
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(€”õ)(‘Îƒpƒ“ƒhƒ‰¶–½‹@ŠBl), _
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ä¿ºã®æ€’ã‚Šã¯â€¦â€¦" å›ºå®š;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ä¿ºã®æ€’ã‚Šã¯â€¦â€¦çˆ†ç™ºå¯¸å‰ï¼ï¼" å›ºå®š;_
+	çž¬é–“å¤‰å½¢ "SPL_SpielbanU(1).bmp";_
+	ä¸­å¿ƒå›žè»¢æ­¦å™¨ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ç™ºå…‰ -.wav;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ãƒ„ã‚¤ãƒ³ï¼ ãƒ–ãƒ¬ãƒ¼ãƒ‰ãƒƒï¼ï¼" å›ºå®š;æ”¾é›» å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(æº–å‚™)(å¯¾ãƒ‘ãƒ³ãƒ‰ãƒ©ç”Ÿå‘½æ©Ÿæ¢°äºº), _
 	pilot\SPL_Spielban(1).bmp 160 160;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "‰´‚Ì“{‚è‚Ícc" ŒÅ’è;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "‰´‚Ì“{‚è‚Ícc¡A”š”­II" ŒÅ’è;_
-	’†S‰ñ“]•Ší "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ”­Œõ -.wav;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒcƒCƒ“II ƒuƒŒ[ƒhƒbII" ŒÅ’è;•ú“d ‘ÎÛƒ†ƒjƒbƒg‚h‚c
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(UŒ‚), _
-	uŠÔ•ÏŒ`;Lk•Ší "SlideWeapon\EFFECT_BeamWhip(Blue)[01-03].bmp" 32 BeamSaber(4).wav ”­Œõ
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(–½’†), _
-	‘åŽh“Ë Â Slash.wav;4;ƒZƒ“ƒ^ƒŠƒ“ƒO;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒA[ƒNƒCƒ“ƒpƒ‹ƒXII" ŒÅ’è;_
-	@í“¬ƒAƒjƒ_ŒõŽaŒ‚UŒ‚ Â Slash(2).wav ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;5;@í“¬ƒAƒjƒ_‰~ŒŽŽE–@UŒ‚ Â ŽÎ‚ß ‘ÎÛƒ†ƒjƒbƒg‚h‚c;U‚èã‚°‘åŽaŒ‚ Â Slash(4).wav
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(–½’†), _
-	‘åŽh“Ë Â Slash.wav;4;ƒZƒ“ƒ^ƒŠƒ“ƒO;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒA[ƒNƒCƒ“Eƒpƒ‹ƒXII" ŒÅ’è;_
-	@í“¬ƒAƒjƒ_ŒõŽaŒ‚UŒ‚ Â Slash(2).wav ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;5;@í“¬ƒAƒjƒ_‰~ŒŽŽE–@UŒ‚ Â ŽÎ‚ß ‘ÎÛƒ†ƒjƒbƒg‚h‚c;U‚èã‚°‘åŽaŒ‚ Â Slash(4).wav
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(–½’†), _
-	‘åŽh“Ë Â Slash.wav;4;ƒZƒ“ƒ^ƒŠƒ“ƒO;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒA[ƒNƒCƒ“I ƒpƒ‹ƒXƒbII" ŒÅ’è;_
-	@í“¬ƒAƒjƒ_ŒõŽaŒ‚UŒ‚ Â Slash(2).wav ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;5;@í“¬ƒAƒjƒ_‰~ŒŽŽE–@UŒ‚ Â ŽÎ‚ß ‘ÎÛƒ†ƒjƒbƒg‚h‚c;U‚èã‚°‘åŽaŒ‚ Â Slash(4).wav
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(–½’†), _
-	‘åŽh“Ë Â Slash.wav;4;ƒZƒ“ƒ^ƒŠƒ“ƒO;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒA[ƒNEƒCƒ“I ƒpƒ‹ƒXƒbII" ŒÅ’è;_
-	@í“¬ƒAƒjƒ_ŒõŽaŒ‚UŒ‚ Â Slash(2).wav ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;5;@í“¬ƒAƒjƒ_‰~ŒŽŽE–@UŒ‚ Â ŽÎ‚ß ‘ÎÛƒ†ƒjƒbƒg‚h‚c;U‚èã‚°‘åŽaŒ‚ Â Slash(4).wav
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(‚Æ‚Ç‚ß), _
-	@í“¬ƒAƒjƒ_•ú“d–½’†;5;@í“¬ƒAƒjƒ_’´‘å”š”­–½’† Ô
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(‚Æ‚Ç‚ß)(‘Îƒpƒ“ƒhƒ‰¶–½‹@ŠBl), _
-	@í“¬ƒAƒjƒ_ŒõŽaŒ‚UŒ‚ Â Slash(2).wav ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;5;@í“¬ƒAƒjƒ_‰~ŒŽŽE–@UŒ‚ Â ŽÎ‚ß ‘ÎÛƒ†ƒjƒbƒg‚h‚c;_
-	@í“¬ƒAƒjƒ_U‚èã‚°‘åŽaŒ‚–½’† Â Slash(4).wav;5;@í“¬ƒAƒjƒ_•ú“d–½’†;@í“¬ƒAƒjƒ_’´‘å”š”­–½’† Ô
-##########@@‡‘Ì‹Z@@##########
-ƒ_ƒuƒ‹ƒXƒiƒCƒp[(€”õ), _
-	“¯ŽžŽËŒ‚•Ší ‰æ‘œƒtƒ@ƒCƒ‹="Weapon\EFFECT_LaserGun01.bmp"="Weapon\EFFECT_LaserGun01.bmp"
-ƒ_ƒuƒ‹ƒXƒiƒCƒp[(UŒ‚), _
-	“¯ŽžŽèŽ‚¿”­ŽË ‰æ‘œƒtƒ@ƒCƒ‹="Weapon\EFFECT_LaserGun01.bmp"="Weapon\EFFECT_LaserGun01.bmp" -.wav;_
-	“¯ŽžŽÀ’e”­ŽË ‰æ‘œƒtƒ@ƒCƒ‹="Beam\EFFECT_Beam(Blue)05.bmp"="Beam\EFFECT_Beam(Pink)05.bmp" Beam.wav ”­Œõ
-ƒ_ƒuƒ‹ƒXƒiƒCƒp[(–½’†), _
-	Œð·ƒr[ƒ€ Â ƒsƒ“ƒN;‘å”š”­
-ƒgƒŠƒvƒ‹ƒ{ƒ“ƒo[(€”õ), -
-ƒgƒŠƒvƒ‹ƒ{ƒ“ƒo[(UŒ‚), _
-	ƒZƒ“ƒ^ƒŠƒ“ƒO partner(1);‰ï˜b ƒ_ƒCƒAƒiƒŒƒfƒB "‚Æ‚¨‚ÁII" ŒÅ’è;ƒX[ƒp[ƒpƒ“ƒ` ”’ partner(1);3;_
-	ƒZƒ“ƒ^ƒŠƒ“ƒO partner(2);‰ï˜b ƒwƒŒƒ“ƒŒƒfƒB "‚â‚ ‚ÁII" ŒÅ’è;ƒX[ƒp[ƒpƒ“ƒ` ”’ partner(2)
-ƒgƒŠƒvƒ‹ƒ{ƒ“ƒo[(–½’†), _
-	ƒX[ƒp[ƒpƒ“ƒ` ”’ partner(1);3;ƒX[ƒp[ƒpƒ“ƒ` ”’ partner(2);_
-	ƒZƒ“ƒ^ƒŠƒ“ƒO;‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "‚Æ‚¤‚ÁII" ŒÅ’è;_
-	@í“¬ƒAƒjƒ_ƒX[ƒp[ƒLƒbƒNUŒ‚ ”’ ‘ÎÛƒ†ƒjƒbƒg‚h‚c;ƒX[ƒp[ƒLƒbƒN ”’
-##########@@ƒIƒ~ƒbƒg‹Z@@##########
-ƒƒfƒBƒJƒ‹ƒr[ƒ€, ¬ƒr[ƒ€ Â BeamShot.wav
-ƒVƒ‡ƒbƒNƒr[ƒ€(UŒ‚), ¬ƒr[ƒ€ Â BeamGun.wav
-ƒVƒ‡ƒbƒNƒr[ƒ€(–½’†), •ÏF Â
-ƒoƒCƒpƒXƒXƒŠƒbƒv(”­“®), ‘å‹C•úo -.wav
-##########@@ƒAƒrƒŠƒeƒB@@##########
-ƒOƒ‰ƒ“ƒiƒXƒJ(Žg—p), ”ò—ˆƒAƒbƒv "SPL_GrandNascaU.bmp" …F ’x;‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "‚Æ‚¤‚ÁII" ŒÅ’è
-ƒKƒCƒIƒX(Žg—p), ”ò—ˆƒAƒbƒv "SPL_Gaios.bmp" …F ’x;‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒKƒCƒIƒXAƒeƒCƒNƒIƒtII" ŒÅ’è
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ä¿ºã®æ€’ã‚Šã¯â€¦â€¦" å›ºå®š;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ä¿ºã®æ€’ã‚Šã¯â€¦â€¦ä»Šã€çˆ†ç™ºï¼ï¼" å›ºå®š;_
+	ä¸­å¿ƒå›žè»¢æ­¦å™¨ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ç™ºå…‰ -.wav;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ãƒ„ã‚¤ãƒ³ï¼ï¼ ãƒ–ãƒ¬ãƒ¼ãƒ‰ãƒƒï¼ï¼" å›ºå®š;æ”¾é›» å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(æ”»æ’ƒ), _
+	çž¬é–“å¤‰å½¢;ä¼¸ç¸®æ­¦å™¨ "SlideWeapon\EFFECT_BeamWhip(Blue)[01-03].bmp" 32 BeamSaber(4).wav ç™ºå…‰
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(å‘½ä¸­), _
+	å¤§åˆºçª é’ Slash.wav;4;ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚°;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹ï¼ï¼" å›ºå®š;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰æ–¬æ’ƒæ”»æ’ƒ é’ Slash(2).wav ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;5;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å††æœˆæ®ºæ³•æ”»æ’ƒ é’ æ–œã‚ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;æŒ¯ã‚Šä¸Šã’å¤§æ–¬æ’ƒ é’ Slash(4).wav
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(å‘½ä¸­), _
+	å¤§åˆºçª é’ Slash.wav;4;ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚°;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ»ãƒ‘ãƒ«ã‚¹ï¼ï¼" å›ºå®š;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰æ–¬æ’ƒæ”»æ’ƒ é’ Slash(2).wav ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;5;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å††æœˆæ®ºæ³•æ”»æ’ƒ é’ æ–œã‚ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;æŒ¯ã‚Šä¸Šã’å¤§æ–¬æ’ƒ é’ Slash(4).wav
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(å‘½ä¸­), _
+	å¤§åˆºçª é’ Slash.wav;4;ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚°;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ï¼ ãƒ‘ãƒ«ã‚¹ãƒƒï¼ï¼" å›ºå®š;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰æ–¬æ’ƒæ”»æ’ƒ é’ Slash(2).wav ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;5;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å††æœˆæ®ºæ³•æ”»æ’ƒ é’ æ–œã‚ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;æŒ¯ã‚Šä¸Šã’å¤§æ–¬æ’ƒ é’ Slash(4).wav
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(å‘½ä¸­), _
+	å¤§åˆºçª é’ Slash.wav;4;ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚°;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã‚¢ãƒ¼ã‚¯ãƒ»ã‚¤ãƒ³ï¼ ãƒ‘ãƒ«ã‚¹ãƒƒï¼ï¼" å›ºå®š;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰æ–¬æ’ƒæ”»æ’ƒ é’ Slash(2).wav ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;5;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å††æœˆæ®ºæ³•æ”»æ’ƒ é’ æ–œã‚ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;æŒ¯ã‚Šä¸Šã’å¤§æ–¬æ’ƒ é’ Slash(4).wav
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(ã¨ã©ã‚), _
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ”¾é›»å‘½ä¸­;5;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è¶…å¤§çˆ†ç™ºå‘½ä¸­ èµ¤
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(ã¨ã©ã‚)(å¯¾ãƒ‘ãƒ³ãƒ‰ãƒ©ç”Ÿå‘½æ©Ÿæ¢°äºº), _
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å…‰æ–¬æ’ƒæ”»æ’ƒ é’ Slash(2).wav ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;5;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å††æœˆæ®ºæ³•æ”»æ’ƒ é’ æ–œã‚ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚Šä¸Šã’å¤§æ–¬æ’ƒå‘½ä¸­ é’ Slash(4).wav;5;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ”¾é›»å‘½ä¸­;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è¶…å¤§çˆ†ç™ºå‘½ä¸­ èµ¤
+##########ã€€ã€€åˆä½“æŠ€ã€€ã€€##########
+ãƒ€ãƒ–ãƒ«ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼(æº–å‚™), _
+	åŒæ™‚å°„æ’ƒæ­¦å™¨ ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«="Weapon\EFFECT_LaserGun01.bmp"="Weapon\EFFECT_LaserGun01.bmp"
+ãƒ€ãƒ–ãƒ«ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼(æ”»æ’ƒ), _
+	åŒæ™‚æ‰‹æŒã¡ç™ºå°„ ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«="Weapon\EFFECT_LaserGun01.bmp"="Weapon\EFFECT_LaserGun01.bmp" -.wav;_
+	åŒæ™‚å®Ÿå¼¾ç™ºå°„ ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«="Beam\EFFECT_Beam(Blue)05.bmp"="Beam\EFFECT_Beam(Pink)05.bmp" Beam.wav ç™ºå…‰
+ãƒ€ãƒ–ãƒ«ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼(å‘½ä¸­), _
+	äº¤å·®ãƒ“ãƒ¼ãƒ  é’ ãƒ”ãƒ³ã‚¯;å¤§çˆ†ç™º
+ãƒˆãƒªãƒ—ãƒ«ãƒœãƒ³ãƒãƒ¼(æº–å‚™), -
+ãƒˆãƒªãƒ—ãƒ«ãƒœãƒ³ãƒãƒ¼(æ”»æ’ƒ), _
+	ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚° partner(1);ä¼šè©± ãƒ€ã‚¤ã‚¢ãƒŠãƒ¬ãƒ‡ã‚£ "ã¨ãŠã£ï¼ï¼" å›ºå®š;ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ãƒ³ãƒ ç™½ partner(1);3;_
+	ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚° partner(2);ä¼šè©± ãƒ˜ãƒ¬ãƒ³ãƒ¬ãƒ‡ã‚£ "ã‚„ã‚ã£ï¼ï¼" å›ºå®š;ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ãƒ³ãƒ ç™½ partner(2)
+ãƒˆãƒªãƒ—ãƒ«ãƒœãƒ³ãƒãƒ¼(å‘½ä¸­), _
+	ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ãƒ³ãƒ ç™½ partner(1);3;ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ãƒ³ãƒ ç™½ partner(2);_
+	ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚°;ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã¨ã†ã£ï¼ï¼" å›ºå®š;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚­ãƒƒã‚¯æ”»æ’ƒ ç™½ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚­ãƒƒã‚¯ ç™½
+##########ã€€ã€€ã‚ªãƒŸãƒƒãƒˆæŠ€ã€€ã€€##########
+ãƒ¡ãƒ‡ã‚£ã‚«ãƒ«ãƒ“ãƒ¼ãƒ , å°ãƒ“ãƒ¼ãƒ  é’ BeamShot.wav
+ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), å°ãƒ“ãƒ¼ãƒ  é’ BeamGun.wav
+ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ (å‘½ä¸­), å¤‰è‰² é’
+ãƒã‚¤ãƒ‘ã‚¹ã‚¹ãƒªãƒƒãƒ—(ç™ºå‹•), å¤§æ°—æ”¾å‡º -.wav
+##########ã€€ã€€ã‚¢ãƒ“ãƒªãƒ†ã‚£ã€€ã€€##########
+ã‚°ãƒ©ãƒ³ãƒŠã‚¹ã‚«(ä½¿ç”¨), é£›æ¥ã‚¢ãƒƒãƒ— "SPL_GrandNascaU.bmp" æ°´è‰² é…;ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã¨ã†ã£ï¼ï¼" å›ºå®š
+ã‚¬ã‚¤ã‚ªã‚¹(ä½¿ç”¨), é£›æ¥ã‚¢ãƒƒãƒ— "SPL_Gaios.bmp" æ°´è‰² é…;ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã‚¬ã‚¤ã‚ªã‚¹ã€ãƒ†ã‚¤ã‚¯ã‚ªãƒ•ï¼ï¼" å›ºå®š
 
 
 
 
-Žž‹óíŽmƒXƒsƒ‹ƒoƒ“(ƒzƒoƒŠƒAƒ“)
-ƒzƒoƒŠƒAƒ“ƒŒ[ƒU[(UŒ‚), ƒj[ƒhƒ‹ƒŒ[ƒU[˜AŽË Â LaserGun.wav
-ƒzƒoƒŠƒAƒ“ƒŒ[ƒU[(–½’†), ƒj[ƒhƒ‹ƒŒ[ƒU[˜AŽË Â LaserGun.wav;”š”­
-ƒzƒoƒŠƒAƒ“ƒ‰ƒbƒVƒ…(€”õ), Engine.wav
-ƒzƒoƒŠƒAƒ“ƒ‰ƒbƒVƒ…(UŒ‚), —±ŽqW’† Â ‘ÎÛƒ†ƒjƒbƒg‚h‚c;ƒX[ƒp[ƒ^ƒbƒNƒ‹ Â Bike.wav
-ƒzƒoƒŠƒAƒ“ƒ‰ƒbƒVƒ…(–½’†), ƒX[ƒp[ƒ^ƒbƒNƒ‹ Â;‹­‘Å
-ƒcƒCƒ“ƒuƒŒ[ƒh(‚P)(€”õ), ”­Œõ Â -.wav ‘ÎÛƒ†ƒjƒbƒg‚h‚c;ƒ\[ƒh
-ƒcƒCƒ“ƒuƒŒ[ƒh(‚P)(UŒ‚), ŽaŒ‚
-ƒcƒCƒ“ƒuƒŒ[ƒh(‚P)(–½’†), ŽaŒ‚
-ƒcƒCƒ“ƒuƒŒ[ƒh(‚Q)(€”õ), _
-	’†S‰ñ“]•Ší "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ”­Œõ BeamSaber.wav;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒcƒCƒ“I ƒuƒŒ[ƒhƒbII" ŒÅ’è
-ƒcƒCƒ“ƒuƒŒ[ƒh(‚Q)(UŒ‚), _
-	ŽaŒ‚ Â
-ƒcƒCƒ“ƒuƒŒ[ƒh(‚Q)(–½’†), _
-	ŽaŒ‚ Â
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(€”õ), _
+æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³(ãƒ›ãƒãƒªã‚¢ãƒ³)
+ãƒ›ãƒãƒªã‚¢ãƒ³ãƒ¬ãƒ¼ã‚¶ãƒ¼(æ”»æ’ƒ), ãƒ‹ãƒ¼ãƒ‰ãƒ«ãƒ¬ãƒ¼ã‚¶ãƒ¼é€£å°„ é’ LaserGun.wav
+ãƒ›ãƒãƒªã‚¢ãƒ³ãƒ¬ãƒ¼ã‚¶ãƒ¼(å‘½ä¸­), ãƒ‹ãƒ¼ãƒ‰ãƒ«ãƒ¬ãƒ¼ã‚¶ãƒ¼é€£å°„ é’ LaserGun.wav;çˆ†ç™º
+ãƒ›ãƒãƒªã‚¢ãƒ³ãƒ©ãƒƒã‚·ãƒ¥(æº–å‚™), Engine.wav
+ãƒ›ãƒãƒªã‚¢ãƒ³ãƒ©ãƒƒã‚·ãƒ¥(æ”»æ’ƒ), ç²’å­é›†ä¸­ é’ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« é’ Bike.wav
+ãƒ›ãƒãƒªã‚¢ãƒ³ãƒ©ãƒƒã‚·ãƒ¥(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« é’;å¼·æ‰“
+ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(ï¼‘)(æº–å‚™), ç™ºå…‰ é’ -.wav å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;ã‚½ãƒ¼ãƒ‰
+ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(ï¼‘)(æ”»æ’ƒ), æ–¬æ’ƒ
+ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(ï¼‘)(å‘½ä¸­), æ–¬æ’ƒ
+ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(ï¼’)(æº–å‚™), _
+	ä¸­å¿ƒå›žè»¢æ­¦å™¨ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ç™ºå…‰ BeamSaber.wav;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ãƒ„ã‚¤ãƒ³ï¼ ãƒ–ãƒ¬ãƒ¼ãƒ‰ãƒƒï¼ï¼" å›ºå®š
+ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(ï¼’)(æ”»æ’ƒ), _
+	æ–¬æ’ƒ é’
+ãƒ„ã‚¤ãƒ³ãƒ–ãƒ¬ãƒ¼ãƒ‰(ï¼’)(å‘½ä¸­), _
+	æ–¬æ’ƒ é’
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(æº–å‚™), _
 	pilot\SPL_Spielban(1).bmp 160 160;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "‰´‚Ì“{‚è‚Ícc" ŒÅ’è;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "‰´‚Ì“{‚è‚Ícc”š”­¡‘OII" ŒÅ’è;_
-	’†S‰ñ“]•Ší "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ”­Œõ -.wav;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒcƒCƒ“I ƒuƒŒ[ƒhƒbII" ŒÅ’è;•ú“d ‘ÎÛƒ†ƒjƒbƒg‚h‚c
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(€”õ)(‘Îƒpƒ“ƒhƒ‰¶–½‹@ŠBl), _
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ä¿ºã®æ€’ã‚Šã¯â€¦â€¦" å›ºå®š;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ä¿ºã®æ€’ã‚Šã¯â€¦â€¦çˆ†ç™ºå¯¸å‰ï¼ï¼" å›ºå®š;_
+	ä¸­å¿ƒå›žè»¢æ­¦å™¨ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ç™ºå…‰ -.wav;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ãƒ„ã‚¤ãƒ³ï¼ ãƒ–ãƒ¬ãƒ¼ãƒ‰ãƒƒï¼ï¼" å›ºå®š;æ”¾é›» å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(æº–å‚™)(å¯¾ãƒ‘ãƒ³ãƒ‰ãƒ©ç”Ÿå‘½æ©Ÿæ¢°äºº), _
 	pilot\SPL_Spielban(1).bmp 160 160;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "‰´‚Ì“{‚è‚Ícc" ŒÅ’è;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "‰´‚Ì“{‚è‚Ícc¡A”š”­II" ŒÅ’è;_
-	’†S‰ñ“]•Ší "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ”­Œõ -.wav;_
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒcƒCƒ“II ƒuƒŒ[ƒhƒbII" ŒÅ’è;_
-	@í“¬ƒAƒjƒ_‘å“dŒ‚UŒ‚ Zapper.wav ‘ÎÛƒ†ƒjƒbƒg‚h‚c;5;Bike.wav
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(UŒ‚), _
-	“Ë‚­•Ší“ËŒ‚ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ”­Œõ ŽaŒ‚
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(–½’†), _
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒA[ƒNƒCƒ“ƒpƒ‹ƒXII" ŒÅ’è;_
-	@í“¬ƒAƒjƒ_ŽaŒ‚UŒ‚ Â Slash(2).wav ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;5;@í“¬ƒAƒjƒ_‰~ŒŽŽE–@UŒ‚ Â ŽÎ‚ß ‘ÎÛƒ†ƒjƒbƒg‚h‚c;_
-	U‚èã‚°‘åŽaŒ‚ Â Slash(4).wav;“Ë‚­•Ší“ËŒ‚ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ”­Œõ ŽaŒ‚;4;ƒZƒ“ƒ^ƒŠƒ“ƒO
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(–½’†), _
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒA[ƒNƒCƒ“Eƒpƒ‹ƒXII" ŒÅ’è;_
-	@í“¬ƒAƒjƒ_ŽaŒ‚UŒ‚ Â Slash(2).wav ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;5;@í“¬ƒAƒjƒ_‰~ŒŽŽE–@UŒ‚ Â ŽÎ‚ß ‘ÎÛƒ†ƒjƒbƒg‚h‚c;_
-	U‚èã‚°‘åŽaŒ‚ Â Slash(4).wav;“Ë‚­•Ší“ËŒ‚ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ”­Œõ ŽaŒ‚;4;ƒZƒ“ƒ^ƒŠƒ“ƒO
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(–½’†), _
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒA[ƒNƒCƒ“I ƒpƒ‹ƒXƒbII" ŒÅ’è;_
-	@í“¬ƒAƒjƒ_ŽaŒ‚UŒ‚ Â Slash(2).wav ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;5;@í“¬ƒAƒjƒ_‰~ŒŽŽE–@UŒ‚ Â ŽÎ‚ß ‘ÎÛƒ†ƒjƒbƒg‚h‚c;_
-	U‚èã‚°‘åŽaŒ‚ Â Slash(4).wav;“Ë‚­•Ší“ËŒ‚ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ”­Œõ ŽaŒ‚;4;ƒZƒ“ƒ^ƒŠƒ“ƒO
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(–½’†), _
-	‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒA[ƒNEƒCƒ“I ƒpƒ‹ƒXƒbII" ŒÅ’è;_
-	@í“¬ƒAƒjƒ_ŽaŒ‚UŒ‚ Â Slash(2).wav ‘ŠŽèƒ†ƒjƒbƒg‚h‚c;5;@í“¬ƒAƒjƒ_‰~ŒŽŽE–@UŒ‚ Â ŽÎ‚ß ‘ÎÛƒ†ƒjƒbƒg‚h‚c;_
-	U‚èã‚°‘åŽaŒ‚ Â Slash(4).wav;“Ë‚­•Ší“ËŒ‚ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ”­Œõ ŽaŒ‚;4;ƒZƒ“ƒ^ƒŠƒ“ƒO
-ƒA[ƒNƒCƒ“ƒpƒ‹ƒX(‚Æ‚Ç‚ß), _
-	@í“¬ƒAƒjƒ_•ú“d–½’†;5;;@í“¬ƒAƒjƒ_’´‘å”š”­–½’† Ô
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ä¿ºã®æ€’ã‚Šã¯â€¦â€¦" å›ºå®š;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ä¿ºã®æ€’ã‚Šã¯â€¦â€¦ä»Šã€çˆ†ç™ºï¼ï¼" å›ºå®š;_
+	ä¸­å¿ƒå›žè»¢æ­¦å™¨ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ç™ºå…‰ -.wav;_
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ãƒ„ã‚¤ãƒ³ï¼ï¼ ãƒ–ãƒ¬ãƒ¼ãƒ‰ãƒƒï¼ï¼" å›ºå®š;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¤§é›»æ’ƒæ”»æ’ƒ Zapper.wav å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;5;Bike.wav
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(æ”»æ’ƒ), _
+	çªãæ­¦å™¨çªæ’ƒ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ç™ºå…‰ æ–¬æ’ƒ
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(å‘½ä¸­), _
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹ï¼ï¼" å›ºå®š;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬æ’ƒæ”»æ’ƒ é’ Slash(2).wav ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;5;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å††æœˆæ®ºæ³•æ”»æ’ƒ é’ æ–œã‚ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;_
+	æŒ¯ã‚Šä¸Šã’å¤§æ–¬æ’ƒ é’ Slash(4).wav;çªãæ­¦å™¨çªæ’ƒ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ç™ºå…‰ æ–¬æ’ƒ;4;ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚°
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(å‘½ä¸­), _
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ»ãƒ‘ãƒ«ã‚¹ï¼ï¼" å›ºå®š;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬æ’ƒæ”»æ’ƒ é’ Slash(2).wav ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;5;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å††æœˆæ®ºæ³•æ”»æ’ƒ é’ æ–œã‚ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;_
+	æŒ¯ã‚Šä¸Šã’å¤§æ–¬æ’ƒ é’ Slash(4).wav;çªãæ­¦å™¨çªæ’ƒ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ç™ºå…‰ æ–¬æ’ƒ;4;ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚°
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(å‘½ä¸­), _
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ï¼ ãƒ‘ãƒ«ã‚¹ãƒƒï¼ï¼" å›ºå®š;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬æ’ƒæ”»æ’ƒ é’ Slash(2).wav ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;5;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å††æœˆæ®ºæ³•æ”»æ’ƒ é’ æ–œã‚ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;_
+	æŒ¯ã‚Šä¸Šã’å¤§æ–¬æ’ƒ é’ Slash(4).wav;çªãæ­¦å™¨çªæ’ƒ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ç™ºå…‰ æ–¬æ’ƒ;4;ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚°
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(å‘½ä¸­), _
+	ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã‚¢ãƒ¼ã‚¯ãƒ»ã‚¤ãƒ³ï¼ ãƒ‘ãƒ«ã‚¹ãƒƒï¼ï¼" å›ºå®š;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ–¬æ’ƒæ”»æ’ƒ é’ Slash(2).wav ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;5;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å††æœˆæ®ºæ³•æ”»æ’ƒ é’ æ–œã‚ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;_
+	æŒ¯ã‚Šä¸Šã’å¤§æ–¬æ’ƒ é’ Slash(4).wav;çªãæ­¦å™¨çªæ’ƒ "BeamWeapon\EFFECT_TwinBeamSaber(Blue)02.bmp" 112 ç™ºå…‰ æ–¬æ’ƒ;4;ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚°
+ã‚¢ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ‘ãƒ«ã‚¹(ã¨ã©ã‚), _
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ”¾é›»å‘½ä¸­;5;;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è¶…å¤§çˆ†ç™ºå‘½ä¸­ èµ¤
 
 
 
-’´Žž‹óƒ}ƒVƒ“ƒzƒoƒŠƒAƒ“
-‘Ì“–‚½‚è, ƒ^ƒbƒNƒ‹ Bike.wav
-ƒzƒoƒŠƒAƒ“ƒŒ[ƒU[(UŒ‚), ƒj[ƒhƒ‹ƒŒ[ƒU[˜AŽË Â LaserGun.wav
-ƒzƒoƒŠƒAƒ“ƒŒ[ƒU[(–½’†), ƒj[ƒhƒ‹ƒŒ[ƒU[˜AŽË Â LaserGun.wav;”š”­
+è¶…æ™‚ç©ºãƒžã‚·ãƒ³ãƒ›ãƒãƒªã‚¢ãƒ³
+ä½“å½“ãŸã‚Š, ã‚¿ãƒƒã‚¯ãƒ« Bike.wav
+ãƒ›ãƒãƒªã‚¢ãƒ³ãƒ¬ãƒ¼ã‚¶ãƒ¼(æ”»æ’ƒ), ãƒ‹ãƒ¼ãƒ‰ãƒ«ãƒ¬ãƒ¼ã‚¶ãƒ¼é€£å°„ é’ LaserGun.wav
+ãƒ›ãƒãƒªã‚¢ãƒ³ãƒ¬ãƒ¼ã‚¶ãƒ¼(å‘½ä¸­), ãƒ‹ãƒ¼ãƒ‰ãƒ«ãƒ¬ãƒ¼ã‚¶ãƒ¼é€£å°„ é’ LaserGun.wav;çˆ†ç™º
 
 
 
 
-’´Žž‹óí“¬•êŠÍƒOƒ‰ƒ“ƒiƒXƒJ
-ƒiƒXƒJƒƒPƒbƒ^[, ƒ~ƒTƒCƒ‹ 2 ’x
-ƒrƒbƒOƒoƒ“ƒJƒmƒ“(€”õ), _
-@@@@‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒJƒmƒ“EƒtƒH[ƒ[ƒVƒ‡ƒ“I" ŒÅ’è;_
-@@@@unit\SPL_GrandNascaU.bmp 128 128 •ÛŽ;12;_
-@@@@Charge.wav;unit\SPL_GrandNascaC.bmp 128 128 •ÛŽ;12;_
-@@@@uŠÔ•ÏŒ` "unit\SPL_SpielbanU(1).bmp" ”½‰f;_
-@@@@ŽËŒ‚•Ší "unit\SPL_GrandNascaC.bmp" 32 ”­Œõ -.wav
-ƒrƒbƒOƒoƒ“ƒJƒmƒ“(UŒ‚), _
-@@@@‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒrƒbƒOƒoƒ“EƒJƒmƒ“II" ŒÅ’è;_
-@@@@‚l‚`‚oƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒCƒtƒ‹ ”’ "Unit\SPL_GrandNascaU.bmp" 32 ”­Œõ BeamCannon(2).wav ƒ`ƒƒ[ƒW‚È‚µ
-ƒrƒbƒOƒoƒ“ƒJƒmƒ“(–½’†), ‚Q˜A’†ƒr[ƒ€ ”’;’´”š”­
+è¶…æ™‚ç©ºæˆ¦é—˜æ¯è‰¦ã‚°ãƒ©ãƒ³ãƒŠã‚¹ã‚«
+ãƒŠã‚¹ã‚«ãƒ­ã‚±ãƒƒã‚¿ãƒ¼, ãƒŸã‚µã‚¤ãƒ« 2 é…
+ãƒ“ãƒƒã‚°ãƒãƒ³ã‚«ãƒŽãƒ³(æº–å‚™), _
+ã€€ã€€ã€€ã€€ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã‚«ãƒŽãƒ³ãƒ»ãƒ•ã‚©ãƒ¼ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ï¼" å›ºå®š;_
+ã€€ã€€ã€€ã€€unit\SPL_GrandNascaU.bmp 128 128 ä¿æŒ;12;_
+ã€€ã€€ã€€ã€€Charge.wav;unit\SPL_GrandNascaC.bmp 128 128 ä¿æŒ;12;_
+ã€€ã€€ã€€ã€€çž¬é–“å¤‰å½¢ "unit\SPL_SpielbanU(1).bmp" åæ˜ ;_
+ã€€ã€€ã€€ã€€å°„æ’ƒæ­¦å™¨ "unit\SPL_GrandNascaC.bmp" 32 ç™ºå…‰ -.wav
+ãƒ“ãƒƒã‚°ãƒãƒ³ã‚«ãƒŽãƒ³(æ”»æ’ƒ), _
+ã€€ã€€ã€€ã€€ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ãƒ“ãƒƒã‚°ãƒãƒ³ãƒ»ã‚«ãƒŽãƒ³ï¼ï¼" å›ºå®š;_
+ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ« ç™½ "Unit\SPL_GrandNascaU.bmp" 32 ç™ºå…‰ BeamCannon(2).wav ãƒãƒ£ãƒ¼ã‚¸ãªã—
+ãƒ“ãƒƒã‚°ãƒãƒ³ã‚«ãƒŽãƒ³(å‘½ä¸­), ï¼’é€£ä¸­ãƒ“ãƒ¼ãƒ  ç™½;è¶…çˆ†ç™º
 
-## ƒJƒmƒ“ƒtƒH[ƒ[ƒVƒ‡ƒ“‚Ìƒ†ƒjƒbƒgƒAƒCƒRƒ“‚ª‘¶Ý‚µ‚È‚¢‚Ì‚ÅAŽb’è“I‚É
-## íŠÍŽž‚ÌƒAƒCƒRƒ“‚ð•ŠíƒAƒCƒRƒ“‚Æ‚µ‚ÄŽg—p‚µ‚Ä‚¢‚Ü‚·B
-## ƒAƒCƒRƒ“‚ª‘¶Ý‚·‚éê‡‚ÍA(UŒ‚)‚Ì‚Qs–Ú‚ðˆÈ‰º‚Ì‚à‚Ì‚É·‚µ‘Ö‚¦‚Ä‚­‚¾‚³‚¢B
-## ‚l‚`‚oƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒCƒtƒ‹ ”’ "Unit\SPL_GrandNascaC.bmp" 32 ”­Œõ BeamCannon(2).wav ƒ`ƒƒ[ƒW‚È‚µ
-
-
-’´Žž‹óí“¬•êŠÍƒOƒ‰ƒ“ƒiƒXƒJ(ƒRƒ“ƒoƒbƒgƒtƒH[ƒ[ƒVƒ‡ƒ“)
-ƒGƒNƒZƒ‹ƒr[ƒ€(UŒ‚), ‚Q˜A¬ƒr[ƒ€ ‰© BeamCannon.wav
-ƒGƒNƒZƒ‹ƒr[ƒ€(–½’†), ‚Q˜A¬ƒr[ƒ€ ‰© BeamCannon.wav;”š”­
-ƒiƒbƒNƒ‹ƒ{ƒ“ƒo[(UŒ‚), ‘Å“Ë ”’
-ƒiƒbƒNƒ‹ƒ{ƒ“ƒo[(–½’†), ‹­‘Å ”’
-ƒiƒXƒJƒnƒCƒp[ƒNƒ‰ƒbƒVƒ…(UŒ‚), ƒLƒbƒN
-ƒiƒXƒJƒnƒCƒp[ƒNƒ‰ƒbƒVƒ…(–½’†), ‹­‘Å
-ƒiƒXƒJƒnƒCƒp[ƒNƒ‰ƒbƒVƒ…(‚Æ‚Ç‚ß), ŠÑ’ÊŒŠ
-ƒrƒbƒOƒoƒ“ƒJƒmƒ“(€”õ), _
-@@@@‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒJƒmƒ“EƒtƒH[ƒ[ƒVƒ‡ƒ“I" ŒÅ’è;_
-@@@@unit\SPL_GrandNascaU.bmp 128 128 •ÛŽ;12;_
-@@@@Charge.wav;unit\SPL_GrandNascaC.bmp 128 128 •ÛŽ;12;_
-@@@@uŠÔ•ÏŒ` "unit\SPL_SpielbanU(1).bmp" ”½‰f;_
-@@@@ŽËŒ‚•Ší "unit\SPL_GrandNascaC.bmp" 32 ”­Œõ -.wav
-ƒrƒbƒOƒoƒ“ƒJƒmƒ“(UŒ‚), _
-@@@@‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒrƒbƒOƒoƒ“EƒJƒmƒ“II" ŒÅ’è;_
-@@@@‚l‚`‚oƒoƒXƒ^[ƒr[ƒ€ƒ‰ƒCƒtƒ‹ ”’ "Unit\SPL_GrandNascaU.bmp" 32 ”­Œõ BeamCannon(2).wav ƒ`ƒƒ[ƒW‚È‚µ
-ƒrƒbƒOƒoƒ“ƒJƒmƒ“(–½’†), ‚Q˜A’†ƒr[ƒ€ ”’;’´”š”­
-##########@@ƒIƒ~ƒbƒg‹Z@@##########
-ƒPƒ~ƒJƒ‹ƒVƒƒƒ[(UŒ‚), “ÁŽêŒõü Â BeamCoat.wav
-ƒPƒ~ƒJƒ‹ƒVƒƒƒ[(–½’†), “ÁŽêŒõü Â Charge(High).wav
-“€Œ‹ƒVƒƒƒ[(UŒ‚), “ÁŽêŒõü Â BeamCoat.wav
-“€Œ‹ƒVƒƒƒ[(–½’†), “ÁŽêŒõü Â Charge(High).wav
+## ã‚«ãƒŽãƒ³ãƒ•ã‚©ãƒ¼ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã®ãƒ¦ãƒ‹ãƒƒãƒˆã‚¢ã‚¤ã‚³ãƒ³ãŒå­˜åœ¨ã—ãªã„ã®ã§ã€æš«å®šçš„ã«
+## æˆ¦è‰¦æ™‚ã®ã‚¢ã‚¤ã‚³ãƒ³ã‚’æ­¦å™¨ã‚¢ã‚¤ã‚³ãƒ³ã¨ã—ã¦ä½¿ç”¨ã—ã¦ã„ã¾ã™ã€‚
+## ã‚¢ã‚¤ã‚³ãƒ³ãŒå­˜åœ¨ã™ã‚‹å ´åˆã¯ã€(æ”»æ’ƒ)ã®ï¼’è¡Œç›®ã‚’ä»¥ä¸‹ã®ã‚‚ã®ã«å·®ã—æ›¿ãˆã¦ãã ã•ã„ã€‚
+## ï¼­ï¼¡ï¼°ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ« ç™½ "Unit\SPL_GrandNascaC.bmp" 32 ç™ºå…‰ BeamCannon(2).wav ãƒãƒ£ãƒ¼ã‚¸ãªã—
 
 
-
-’´Žž‹ó‘åíŽÔƒKƒCƒIƒX
-ƒKƒCƒIƒXƒƒPƒbƒg(UŒ‚), ƒLƒƒƒmƒ“–C Gun(3).wav
-ƒKƒCƒIƒXƒƒPƒbƒg(–½’†), ”š”­
-ƒKƒCƒIƒXƒr[ƒ€(UŒ‚), ‚Q˜A¬ƒr[ƒ€ Â BeamSaber(2).wav
-ƒKƒCƒIƒXƒr[ƒ€(–½’†), ‚Q˜A¬ƒr[ƒ€ Â BeamSaber(2).wav;”š”­
-ƒKƒCƒIƒXƒNƒ‰ƒbƒVƒ…(€”õ), ‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒhƒŠƒ‹ƒKƒCƒIƒXAƒeƒCƒNƒIƒtI" ŒÅ’è;_
-	•ÏŒ` "unit\SPL_DrillGaios.bmp" Transform.wav
-ƒKƒCƒIƒXƒNƒ‰ƒbƒVƒ…(UŒ‚), ƒhƒŠƒ‹
-ƒKƒCƒIƒXƒNƒ‰ƒbƒVƒ…(–½’†), ƒhƒŠƒ‹
-ƒKƒCƒIƒXƒŒ[ƒU[(€”õ), ‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "ƒWƒFƒbƒgƒKƒCƒIƒXAƒeƒCƒNƒIƒtI" ŒÅ’è;_
-	•ÏŒ` "unit\SPL_JetGaios.bmp" Transform.wav;3;Jet.wav
-ƒKƒCƒIƒXƒŒ[ƒU[(UŒ‚), ¬ƒr[ƒ€ Â LaserGun(80s).wav;¬ƒr[ƒ€ Â LaserGun(80s).wav
-ƒKƒCƒIƒXƒŒ[ƒU[(–½’†), ¬ƒr[ƒ€ Â LaserGun(80s).wav;¬ƒr[ƒ€ Â LaserGun(80s).wav
+è¶…æ™‚ç©ºæˆ¦é—˜æ¯è‰¦ã‚°ãƒ©ãƒ³ãƒŠã‚¹ã‚«(ã‚³ãƒ³ãƒãƒƒãƒˆãƒ•ã‚©ãƒ¼ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³)
+ã‚¨ã‚¯ã‚»ãƒ«ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), ï¼’é€£å°ãƒ“ãƒ¼ãƒ  é»„ BeamCannon.wav
+ã‚¨ã‚¯ã‚»ãƒ«ãƒ“ãƒ¼ãƒ (å‘½ä¸­), ï¼’é€£å°ãƒ“ãƒ¼ãƒ  é»„ BeamCannon.wav;çˆ†ç™º
+ãƒŠãƒƒã‚¯ãƒ«ãƒœãƒ³ãƒãƒ¼(æ”»æ’ƒ), æ‰“çª ç™½
+ãƒŠãƒƒã‚¯ãƒ«ãƒœãƒ³ãƒãƒ¼(å‘½ä¸­), å¼·æ‰“ ç™½
+ãƒŠã‚¹ã‚«ãƒã‚¤ãƒ‘ãƒ¼ã‚¯ãƒ©ãƒƒã‚·ãƒ¥(æ”»æ’ƒ), ã‚­ãƒƒã‚¯
+ãƒŠã‚¹ã‚«ãƒã‚¤ãƒ‘ãƒ¼ã‚¯ãƒ©ãƒƒã‚·ãƒ¥(å‘½ä¸­), å¼·æ‰“
+ãƒŠã‚¹ã‚«ãƒã‚¤ãƒ‘ãƒ¼ã‚¯ãƒ©ãƒƒã‚·ãƒ¥(ã¨ã©ã‚), è²«é€šç©´
+ãƒ“ãƒƒã‚°ãƒãƒ³ã‚«ãƒŽãƒ³(æº–å‚™), _
+ã€€ã€€ã€€ã€€ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã‚«ãƒŽãƒ³ãƒ»ãƒ•ã‚©ãƒ¼ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ï¼" å›ºå®š;_
+ã€€ã€€ã€€ã€€unit\SPL_GrandNascaU.bmp 128 128 ä¿æŒ;12;_
+ã€€ã€€ã€€ã€€Charge.wav;unit\SPL_GrandNascaC.bmp 128 128 ä¿æŒ;12;_
+ã€€ã€€ã€€ã€€çž¬é–“å¤‰å½¢ "unit\SPL_SpielbanU(1).bmp" åæ˜ ;_
+ã€€ã€€ã€€ã€€å°„æ’ƒæ­¦å™¨ "unit\SPL_GrandNascaC.bmp" 32 ç™ºå…‰ -.wav
+ãƒ“ãƒƒã‚°ãƒãƒ³ã‚«ãƒŽãƒ³(æ”»æ’ƒ), _
+ã€€ã€€ã€€ã€€ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ãƒ“ãƒƒã‚°ãƒãƒ³ãƒ»ã‚«ãƒŽãƒ³ï¼ï¼" å›ºå®š;_
+ã€€ã€€ã€€ã€€ï¼­ï¼¡ï¼°ãƒã‚¹ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ« ç™½ "Unit\SPL_GrandNascaU.bmp" 32 ç™ºå…‰ BeamCannon(2).wav ãƒãƒ£ãƒ¼ã‚¸ãªã—
+ãƒ“ãƒƒã‚°ãƒãƒ³ã‚«ãƒŽãƒ³(å‘½ä¸­), ï¼’é€£ä¸­ãƒ“ãƒ¼ãƒ  ç™½;è¶…çˆ†ç™º
+##########ã€€ã€€ã‚ªãƒŸãƒƒãƒˆæŠ€ã€€ã€€##########
+ã‚±ãƒŸã‚«ãƒ«ã‚·ãƒ£ãƒ¯ãƒ¼(æ”»æ’ƒ), ç‰¹æ®Šå…‰ç·š é’ BeamCoat.wav
+ã‚±ãƒŸã‚«ãƒ«ã‚·ãƒ£ãƒ¯ãƒ¼(å‘½ä¸­), ç‰¹æ®Šå…‰ç·š é’ Charge(High).wav
+å‡çµã‚·ãƒ£ãƒ¯ãƒ¼(æ”»æ’ƒ), ç‰¹æ®Šå…‰ç·š é’ BeamCoat.wav
+å‡çµã‚·ãƒ£ãƒ¯ãƒ¼(å‘½ä¸­), ç‰¹æ®Šå…‰ç·š é’ Charge(High).wav
 
 
 
-ƒWƒFƒbƒgƒKƒCƒIƒX
-ƒKƒCƒIƒXƒŒ[ƒU[, ¬ƒr[ƒ€ Â LaserGun(80s).wav;¬ƒr[ƒ€ Â LaserGun(80s).wav
-
-ƒhƒŠƒ‹ƒKƒCƒIƒX
-ƒKƒCƒIƒXƒNƒ‰ƒbƒVƒ…, ƒhƒŠƒ‹
-ƒKƒCƒIƒXƒr[ƒ€(UŒ‚), ‚Q˜A¬ƒr[ƒ€ Â BeamSaber(2).wav
-ƒKƒCƒIƒXƒr[ƒ€(–½’†), ‚Q˜A¬ƒr[ƒ€ Â BeamSaber(2).wav;”š”­
-ƒKƒCƒIƒXƒƒPƒbƒg(UŒ‚), ƒLƒƒƒmƒ“–C 2 ‘¬ BeamCannon(2).wav
-ƒKƒCƒIƒXƒƒPƒbƒg(–½’†), ”š”­
-
-
-
-ƒ_ƒCƒAƒiƒŒƒfƒB
-ƒ_ƒCƒAƒiƒAƒNƒVƒ‡ƒ“, Ši“¬
-ƒŒƒfƒBƒXƒiƒCƒp[(€”õ), ƒŒ[ƒU[ƒKƒ“(‚Q)
-ƒŒƒfƒBƒXƒiƒCƒp[(UŒ‚), ƒr[ƒ€ƒ‰ƒCƒtƒ‹ ƒsƒ“ƒN "Weapon\EFFECT_LaserGun01.bmp"
-ƒŒƒfƒBƒXƒiƒCƒp[(–½’†), ¬ƒr[ƒ€ ƒsƒ“ƒN;”š”­ ƒsƒ“ƒN
-ƒ_ƒCƒAƒiƒqƒbƒvƒvƒŒƒX(€”õ), -
-ƒ_ƒCƒAƒiƒqƒbƒvƒvƒŒƒX(UŒ‚), ƒWƒƒƒ“ƒv
-ƒ_ƒCƒAƒiƒqƒbƒvƒvƒŒƒX(–½’†), “¥‚Ý’×‚µ
-ƒ_ƒCƒAƒiƒqƒbƒvƒvƒŒƒX(‚Æ‚Ç‚ß), Œˆ‚ß‰æ‘œ "Common\EFFECT_Heart01.bmp" PiyoPiyo.wav ‘O–Ê ‘ŠŽèƒ†ƒjƒbƒg‚h‚c
-############@@‡‘Ì‹Z@@############
-ƒ_ƒuƒ‹ƒXƒiƒCƒp[(€”õ), _
-	“¯ŽžŽËŒ‚•Ší ‰æ‘œƒtƒ@ƒCƒ‹="Weapon\EFFECT_LaserGun01.bmp"="Weapon\EFFECT_LaserGun01.bmp"
-ƒ_ƒuƒ‹ƒXƒiƒCƒp[(UŒ‚), _
-	“¯ŽžŽèŽ‚¿”­ŽË ‰æ‘œƒtƒ@ƒCƒ‹="Weapon\EFFECT_LaserGun01.bmp"="Weapon\EFFECT_LaserGun01.bmp" -.wav;_
-	“¯ŽžŽÀ’e”­ŽË ‰æ‘œƒtƒ@ƒCƒ‹="Beam\EFFECT_Beam(Pink)05.bmp"="Beam\EFFECT_Beam(Blue)05.bmp" Beam.wav ”­Œõ
-ƒ_ƒuƒ‹ƒXƒiƒCƒp[(–½’†), _
-	Œð·ƒr[ƒ€ ƒsƒ“ƒN Â;‘å”š”­
-ƒgƒŠƒvƒ‹ƒ{ƒ“ƒo[(€”õ), -
-ƒgƒŠƒvƒ‹ƒ{ƒ“ƒo[(UŒ‚), _
-	‰ï˜b ƒ_ƒCƒAƒiƒŒƒfƒB "‚Æ‚¨‚ÁII" ŒÅ’è;ƒX[ƒp[ƒpƒ“ƒ` ”’;3;_
-	ƒZƒ“ƒ^ƒŠƒ“ƒO partner(2);‰ï˜b ƒwƒŒƒ“ƒŒƒfƒB "‚â‚ ‚ÁII" ŒÅ’è;ƒX[ƒp[ƒpƒ“ƒ` ”’ partner(2)
-ƒgƒŠƒvƒ‹ƒ{ƒ“ƒo[(–½’†), _
-	ƒX[ƒp[ƒpƒ“ƒ` ”’;3;ƒX[ƒp[ƒpƒ“ƒ` ”’ partner(2);_
-	ƒZƒ“ƒ^ƒŠƒ“ƒO partner(1);‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "‚Æ‚¤‚ÁII" ŒÅ’è;_
-	@í“¬ƒAƒjƒ_ƒX[ƒp[ƒLƒbƒNUŒ‚ ”’ partner(1);ƒX[ƒp[ƒLƒbƒN ”’ partner(1)
-##########@@ƒAƒrƒŠƒeƒB@@##########
-ƒ`ƒƒ[ƒW(Žg—p), _
-	ƒtƒ‰ƒbƒVƒ… ”’ Charge(High).wav;”­Œõ ‰© EvilEye.wav;@í“¬ƒAƒjƒ_‘å“dŒ‚UŒ‚ ‰© Search.wav;_
-	@í“¬ƒAƒjƒ_“øFŒõüUŒ‚ Ô Beam.wav
-ƒKƒCƒIƒX(Žg—p), ”ò—ˆƒAƒbƒv "SPL_Gaios.bmp" …F ’x;‰ï˜b ƒ_ƒCƒAƒiƒŒƒfƒB "ƒKƒCƒIƒXAƒeƒCƒNƒIƒtI" ŒÅ’è
+è¶…æ™‚ç©ºå¤§æˆ¦è»Šã‚¬ã‚¤ã‚ªã‚¹
+ã‚¬ã‚¤ã‚ªã‚¹ãƒ­ã‚±ãƒƒãƒˆ(æ”»æ’ƒ), ã‚­ãƒ£ãƒŽãƒ³ç ² Gun(3).wav
+ã‚¬ã‚¤ã‚ªã‚¹ãƒ­ã‚±ãƒƒãƒˆ(å‘½ä¸­), çˆ†ç™º
+ã‚¬ã‚¤ã‚ªã‚¹ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), ï¼’é€£å°ãƒ“ãƒ¼ãƒ  é’ BeamSaber(2).wav
+ã‚¬ã‚¤ã‚ªã‚¹ãƒ“ãƒ¼ãƒ (å‘½ä¸­), ï¼’é€£å°ãƒ“ãƒ¼ãƒ  é’ BeamSaber(2).wav;çˆ†ç™º
+ã‚¬ã‚¤ã‚ªã‚¹ã‚¯ãƒ©ãƒƒã‚·ãƒ¥(æº–å‚™), ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ãƒ‰ãƒªãƒ«ã‚¬ã‚¤ã‚ªã‚¹ã€ãƒ†ã‚¤ã‚¯ã‚ªãƒ•ï¼" å›ºå®š;_
+	å¤‰å½¢ "unit\SPL_DrillGaios.bmp" Transform.wav
+ã‚¬ã‚¤ã‚ªã‚¹ã‚¯ãƒ©ãƒƒã‚·ãƒ¥(æ”»æ’ƒ), ãƒ‰ãƒªãƒ«
+ã‚¬ã‚¤ã‚ªã‚¹ã‚¯ãƒ©ãƒƒã‚·ãƒ¥(å‘½ä¸­), ãƒ‰ãƒªãƒ«
+ã‚¬ã‚¤ã‚ªã‚¹ãƒ¬ãƒ¼ã‚¶ãƒ¼(æº–å‚™), ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã‚¸ã‚§ãƒƒãƒˆã‚¬ã‚¤ã‚ªã‚¹ã€ãƒ†ã‚¤ã‚¯ã‚ªãƒ•ï¼" å›ºå®š;_
+	å¤‰å½¢ "unit\SPL_JetGaios.bmp" Transform.wav;3;Jet.wav
+ã‚¬ã‚¤ã‚ªã‚¹ãƒ¬ãƒ¼ã‚¶ãƒ¼(æ”»æ’ƒ), å°ãƒ“ãƒ¼ãƒ  é’ LaserGun(80s).wav;å°ãƒ“ãƒ¼ãƒ  é’ LaserGun(80s).wav
+ã‚¬ã‚¤ã‚ªã‚¹ãƒ¬ãƒ¼ã‚¶ãƒ¼(å‘½ä¸­), å°ãƒ“ãƒ¼ãƒ  é’ LaserGun(80s).wav;å°ãƒ“ãƒ¼ãƒ  é’ LaserGun(80s).wav
 
 
-ƒ_ƒCƒAƒi(ƒXƒsƒ‹ƒoƒ“)(’Êí)
-Ši“¬, Ši“¬
-Œ‹»(”­“®), _
-	Œõ’Œ ”’ Charge(high).wav;—±ŽqW’† ”’ Glass(3).wav;4;•ÏŒ` Unit\SPL_DianaLadyU.bmp -.wav;_
-	‰ï˜b ƒ_ƒCƒAƒiƒŒƒfƒBEŒ‹» "ƒ_ƒCƒAƒiEƒŒƒfƒBII" ŒÅ’è
+
+ã‚¸ã‚§ãƒƒãƒˆã‚¬ã‚¤ã‚ªã‚¹
+ã‚¬ã‚¤ã‚ªã‚¹ãƒ¬ãƒ¼ã‚¶ãƒ¼, å°ãƒ“ãƒ¼ãƒ  é’ LaserGun(80s).wav;å°ãƒ“ãƒ¼ãƒ  é’ LaserGun(80s).wav
+
+ãƒ‰ãƒªãƒ«ã‚¬ã‚¤ã‚ªã‚¹
+ã‚¬ã‚¤ã‚ªã‚¹ã‚¯ãƒ©ãƒƒã‚·ãƒ¥, ãƒ‰ãƒªãƒ«
+ã‚¬ã‚¤ã‚ªã‚¹ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), ï¼’é€£å°ãƒ“ãƒ¼ãƒ  é’ BeamSaber(2).wav
+ã‚¬ã‚¤ã‚ªã‚¹ãƒ“ãƒ¼ãƒ (å‘½ä¸­), ï¼’é€£å°ãƒ“ãƒ¼ãƒ  é’ BeamSaber(2).wav;çˆ†ç™º
+ã‚¬ã‚¤ã‚ªã‚¹ãƒ­ã‚±ãƒƒãƒˆ(æ”»æ’ƒ), ã‚­ãƒ£ãƒŽãƒ³ç ² 2 é€Ÿ BeamCannon(2).wav
+ã‚¬ã‚¤ã‚ªã‚¹ãƒ­ã‚±ãƒƒãƒˆ(å‘½ä¸­), çˆ†ç™º
 
 
-ƒwƒŒƒ“ƒŒƒfƒB
-Ši“¬, Ši“¬
-ƒwƒŒƒ“ƒJƒbƒ^[(€”õ), ŽaŒ‚•Ší "Bullet\EFFECT_ShootingCutter(White)01.bmp"
-ƒwƒŒƒ“ƒJƒbƒ^[(UŒ‚), ŽaŒ‚
-ƒwƒŒƒ“ƒJƒbƒ^[(–½’†), ŽaŒ‚
-ƒwƒŒƒ“ƒJƒbƒ^[<“Š±>(€”õ), ƒX[ƒp[ƒu[ƒƒ‰ƒ“ ”’
-ƒwƒŒƒ“ƒJƒbƒ^[<“Š±>(UŒ‚), ƒX[ƒp[ƒu[ƒƒ‰ƒ“ ”’
-ƒwƒŒƒ“ƒJƒbƒ^[<“Š±>(–½’†), ”š”­ “
-ƒgƒŠƒvƒ‹ƒ{ƒ“ƒo[(€”õ), -
-ƒgƒŠƒvƒ‹ƒ{ƒ“ƒo[(UŒ‚), _
-	ƒZƒ“ƒ^ƒŠƒ“ƒO partner(2);‰ï˜b ƒ_ƒCƒAƒiƒŒƒfƒB "‚Æ‚¨‚ÁII" ŒÅ’è;ƒX[ƒp[ƒpƒ“ƒ` ”’ partner(2);3;_
-	‰ï˜b ƒwƒŒƒ“ƒŒƒfƒB "‚â‚ ‚ÁII" ŒÅ’è;ƒX[ƒp[ƒpƒ“ƒ` ”’
-ƒgƒŠƒvƒ‹ƒ{ƒ“ƒo[(–½’†), _
-	ƒX[ƒp[ƒpƒ“ƒ` ”’;3;ƒX[ƒp[ƒpƒ“ƒ` ”’ partner(2);_
-	ƒZƒ“ƒ^ƒŠƒ“ƒO partner(1);‰ï˜b Žž‹óíŽmƒXƒsƒ‹ƒoƒ“ "‚Æ‚¤‚ÁII" ŒÅ’è;_
-	@í“¬ƒAƒjƒ_ƒX[ƒp[ƒLƒbƒNUŒ‚ ”’ partner(1);ƒX[ƒp[ƒLƒbƒN ”’ partner(1)
+
+ãƒ€ã‚¤ã‚¢ãƒŠãƒ¬ãƒ‡ã‚£
+ãƒ€ã‚¤ã‚¢ãƒŠã‚¢ã‚¯ã‚·ãƒ§ãƒ³, æ ¼é—˜
+ãƒ¬ãƒ‡ã‚£ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼(æº–å‚™), ãƒ¬ãƒ¼ã‚¶ãƒ¼ã‚¬ãƒ³(ï¼’)
+ãƒ¬ãƒ‡ã‚£ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼(æ”»æ’ƒ), ãƒ“ãƒ¼ãƒ ãƒ©ã‚¤ãƒ•ãƒ« ãƒ”ãƒ³ã‚¯ "Weapon\EFFECT_LaserGun01.bmp"
+ãƒ¬ãƒ‡ã‚£ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼(å‘½ä¸­), å°ãƒ“ãƒ¼ãƒ  ãƒ”ãƒ³ã‚¯;çˆ†ç™º ãƒ”ãƒ³ã‚¯
+ãƒ€ã‚¤ã‚¢ãƒŠãƒ’ãƒƒãƒ—ãƒ—ãƒ¬ã‚¹(æº–å‚™), -
+ãƒ€ã‚¤ã‚¢ãƒŠãƒ’ãƒƒãƒ—ãƒ—ãƒ¬ã‚¹(æ”»æ’ƒ), ã‚¸ãƒ£ãƒ³ãƒ—
+ãƒ€ã‚¤ã‚¢ãƒŠãƒ’ãƒƒãƒ—ãƒ—ãƒ¬ã‚¹(å‘½ä¸­), è¸ã¿æ½°ã—
+ãƒ€ã‚¤ã‚¢ãƒŠãƒ’ãƒƒãƒ—ãƒ—ãƒ¬ã‚¹(ã¨ã©ã‚), æ±ºã‚ç”»åƒ "Common\EFFECT_Heart01.bmp" PiyoPiyo.wav å‰é¢ ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+############ã€€ã€€åˆä½“æŠ€ã€€ã€€############
+ãƒ€ãƒ–ãƒ«ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼(æº–å‚™), _
+	åŒæ™‚å°„æ’ƒæ­¦å™¨ ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«="Weapon\EFFECT_LaserGun01.bmp"="Weapon\EFFECT_LaserGun01.bmp"
+ãƒ€ãƒ–ãƒ«ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼(æ”»æ’ƒ), _
+	åŒæ™‚æ‰‹æŒã¡ç™ºå°„ ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«="Weapon\EFFECT_LaserGun01.bmp"="Weapon\EFFECT_LaserGun01.bmp" -.wav;_
+	åŒæ™‚å®Ÿå¼¾ç™ºå°„ ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«="Beam\EFFECT_Beam(Pink)05.bmp"="Beam\EFFECT_Beam(Blue)05.bmp" Beam.wav ç™ºå…‰
+ãƒ€ãƒ–ãƒ«ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼(å‘½ä¸­), _
+	äº¤å·®ãƒ“ãƒ¼ãƒ  ãƒ”ãƒ³ã‚¯ é’;å¤§çˆ†ç™º
+ãƒˆãƒªãƒ—ãƒ«ãƒœãƒ³ãƒãƒ¼(æº–å‚™), -
+ãƒˆãƒªãƒ—ãƒ«ãƒœãƒ³ãƒãƒ¼(æ”»æ’ƒ), _
+	ä¼šè©± ãƒ€ã‚¤ã‚¢ãƒŠãƒ¬ãƒ‡ã‚£ "ã¨ãŠã£ï¼ï¼" å›ºå®š;ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ãƒ³ãƒ ç™½;3;_
+	ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚° partner(2);ä¼šè©± ãƒ˜ãƒ¬ãƒ³ãƒ¬ãƒ‡ã‚£ "ã‚„ã‚ã£ï¼ï¼" å›ºå®š;ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ãƒ³ãƒ ç™½ partner(2)
+ãƒˆãƒªãƒ—ãƒ«ãƒœãƒ³ãƒãƒ¼(å‘½ä¸­), _
+	ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ãƒ³ãƒ ç™½;3;ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ãƒ³ãƒ ç™½ partner(2);_
+	ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚° partner(1);ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã¨ã†ã£ï¼ï¼" å›ºå®š;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚­ãƒƒã‚¯æ”»æ’ƒ ç™½ partner(1);ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚­ãƒƒã‚¯ ç™½ partner(1)
+##########ã€€ã€€ã‚¢ãƒ“ãƒªãƒ†ã‚£ã€€ã€€##########
+ãƒãƒ£ãƒ¼ã‚¸(ä½¿ç”¨), _
+	ãƒ•ãƒ©ãƒƒã‚·ãƒ¥ ç™½ Charge(High).wav;ç™ºå…‰ é»„ EvilEye.wav;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¤§é›»æ’ƒæ”»æ’ƒ é»„ Search.wav;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_è™¹è‰²å…‰ç·šæ”»æ’ƒ èµ¤ Beam.wav
+ã‚¬ã‚¤ã‚ªã‚¹(ä½¿ç”¨), é£›æ¥ã‚¢ãƒƒãƒ— "SPL_Gaios.bmp" æ°´è‰² é…;ä¼šè©± ãƒ€ã‚¤ã‚¢ãƒŠãƒ¬ãƒ‡ã‚£ "ã‚¬ã‚¤ã‚ªã‚¹ã€ãƒ†ã‚¤ã‚¯ã‚ªãƒ•ï¼" å›ºå®š
 
 
-ƒwƒŒƒ“(ƒXƒsƒ‹ƒoƒ“)(’Êí)
-Ši“¬, Ši“¬
-Žw—ßƒpƒ‹ƒX(”­“®), ”­Œõ —Î Charge(2).wav ‘ÎÛƒ†ƒjƒbƒg‚h‚c
-Œ‹»(”­“®), _
-	Œõ’Œ ”’ Charge(high).wav;—±ŽqW’† ”’ Glass(3).wav;4;•ÏŒ` Unit\SPL_HelenLadyU.bmp -.wav;_
+ãƒ€ã‚¤ã‚¢ãƒŠ(ã‚¹ãƒ”ãƒ«ãƒãƒ³)(é€šå¸¸)
+æ ¼é—˜, æ ¼é—˜
+çµæ™¶(ç™ºå‹•), _
+	å…‰æŸ± ç™½ Charge(high).wav;ç²’å­é›†ä¸­ ç™½ Glass(3).wav;4;å¤‰å½¢ Unit\SPL_DianaLadyU.bmp -.wav;_
+	ä¼šè©± ãƒ€ã‚¤ã‚¢ãƒŠãƒ¬ãƒ‡ã‚£ãƒ»çµæ™¶ "ãƒ€ã‚¤ã‚¢ãƒŠãƒ»ãƒ¬ãƒ‡ã‚£ï¼ï¼" å›ºå®š
+
+
+ãƒ˜ãƒ¬ãƒ³ãƒ¬ãƒ‡ã‚£
+æ ¼é—˜, æ ¼é—˜
+ãƒ˜ãƒ¬ãƒ³ã‚«ãƒƒã‚¿ãƒ¼(æº–å‚™), æ–¬æ’ƒæ­¦å™¨ "Bullet\EFFECT_ShootingCutter(White)01.bmp"
+ãƒ˜ãƒ¬ãƒ³ã‚«ãƒƒã‚¿ãƒ¼(æ”»æ’ƒ), æ–¬æ’ƒ
+ãƒ˜ãƒ¬ãƒ³ã‚«ãƒƒã‚¿ãƒ¼(å‘½ä¸­), æ–¬æ’ƒ
+ãƒ˜ãƒ¬ãƒ³ã‚«ãƒƒã‚¿ãƒ¼<æŠ•æ“²>(æº–å‚™), ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³ ç™½
+ãƒ˜ãƒ¬ãƒ³ã‚«ãƒƒã‚¿ãƒ¼<æŠ•æ“²>(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³ ç™½
+ãƒ˜ãƒ¬ãƒ³ã‚«ãƒƒã‚¿ãƒ¼<æŠ•æ“²>(å‘½ä¸­), çˆ†ç™º æ¡ƒ
+ãƒˆãƒªãƒ—ãƒ«ãƒœãƒ³ãƒãƒ¼(æº–å‚™), -
+ãƒˆãƒªãƒ—ãƒ«ãƒœãƒ³ãƒãƒ¼(æ”»æ’ƒ), _
+	ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚° partner(2);ä¼šè©± ãƒ€ã‚¤ã‚¢ãƒŠãƒ¬ãƒ‡ã‚£ "ã¨ãŠã£ï¼ï¼" å›ºå®š;ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ãƒ³ãƒ ç™½ partner(2);3;_
+	ä¼šè©± ãƒ˜ãƒ¬ãƒ³ãƒ¬ãƒ‡ã‚£ "ã‚„ã‚ã£ï¼ï¼" å›ºå®š;ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ãƒ³ãƒ ç™½
+ãƒˆãƒªãƒ—ãƒ«ãƒœãƒ³ãƒãƒ¼(å‘½ä¸­), _
+	ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ãƒ³ãƒ ç™½;3;ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‘ãƒ³ãƒ ç™½ partner(2);_
+	ã‚»ãƒ³ã‚¿ãƒªãƒ³ã‚° partner(1);ä¼šè©± æ™‚ç©ºæˆ¦å£«ã‚¹ãƒ”ãƒ«ãƒãƒ³ "ã¨ã†ã£ï¼ï¼" å›ºå®š;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚­ãƒƒã‚¯æ”»æ’ƒ ç™½ partner(1);ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚­ãƒƒã‚¯ ç™½ partner(1)
+
+
+ãƒ˜ãƒ¬ãƒ³(ã‚¹ãƒ”ãƒ«ãƒãƒ³)(é€šå¸¸)
+æ ¼é—˜, æ ¼é—˜
+æŒ‡ä»¤ãƒ‘ãƒ«ã‚¹(ç™ºå‹•), ç™ºå…‰ ç·‘ Charge(2).wav å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+çµæ™¶(ç™ºå‹•), _
+	å…‰æŸ± ç™½ Charge(high).wav;ç²’å­é›†ä¸­ ç™½ Glass(3).wav;4;å¤‰å½¢ Unit\SPL_HelenLadyU.bmp -.wav;_
 	pilot\SPL_HelenLady.bmp 160 160;_
-	‰ï˜b ƒwƒŒƒ“ƒŒƒfƒBEŒ‹» "ƒwƒŒƒ“EƒŒƒfƒBII" ŒÅ’è
+	ä¼šè©± ãƒ˜ãƒ¬ãƒ³ãƒ¬ãƒ‡ã‚£ãƒ»çµæ™¶ "ãƒ˜ãƒ¬ãƒ³ãƒ»ãƒ¬ãƒ‡ã‚£ï¼ï¼" å›ºå®š
 
 
-#### ƒ[ƒ‰[’é‘ ------------------------------------------------------
-### —‰¤ƒpƒ“ƒhƒ‰ ----------------------------------
+#### ãƒ¯ãƒ¼ãƒ©ãƒ¼å¸å›½ ------------------------------------------------------
+### å¥³çŽ‹ãƒ‘ãƒ³ãƒ‰ãƒ© ----------------------------------
 
-—‰¤ƒpƒ“ƒhƒ‰
-ñ, ‰£‘Å•Ší "Weapon\EFFECT_JewelRod(Green)01.bmp" 32
-ƒr[ƒ€(€”õ), ŽËŒ‚•Ší "Weapon\EFFECT_JewelRod(Green)01.bmp" 32
-ƒr[ƒ€(UŒ‚), ƒVƒ‡ƒbƒNƒr[ƒ€ƒKƒ“ "Weapon\EFFECT_JewelRod(Green)01.bmp" 32 ”­Œõ —Î BeamSaber(4).wav
-ƒr[ƒ€(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ —Î BeamSaber(4).wav;”š”­
-
-
-ƒpƒ“ƒhƒ‰í“¬‹@ŠBl
-ñ, ‰£‘Å•Ší "Weapon\EFFECT_JewelRod(Green)01.bmp" 32
-ƒr[ƒ€(€”õ), ŽËŒ‚•Ší "Weapon\EFFECT_JewelRod(Green)01.bmp" 32
-ƒr[ƒ€(UŒ‚), ƒVƒ‡ƒbƒNƒr[ƒ€ƒKƒ“ "Weapon\EFFECT_JewelRod(Green)01.bmp" 32 ”­Œõ —Î BeamSaber(4).wav
-ƒr[ƒ€(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ —Î BeamSaber(4).wav;”š”­
+å¥³çŽ‹ãƒ‘ãƒ³ãƒ‰ãƒ©
+æ–, æ®´æ‰“æ­¦å™¨ "Weapon\EFFECT_JewelRod(Green)01.bmp" 32
+ãƒ“ãƒ¼ãƒ (æº–å‚™), å°„æ’ƒæ­¦å™¨ "Weapon\EFFECT_JewelRod(Green)01.bmp" 32
+ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ ã‚¬ãƒ³ "Weapon\EFFECT_JewelRod(Green)01.bmp" 32 ç™ºå…‰ ç·‘ BeamSaber(4).wav
+ãƒ“ãƒ¼ãƒ (å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç·‘ BeamSaber(4).wav;çˆ†ç™º
 
 
-ƒpƒ“ƒhƒ‰¶–½‘Ì
-GŽè(UŒ‚), GŽè—•‘ Ô Swing(3).wav
-GŽè(–½’†), GŽè—•‘ Ô Whip.wav
-‰tó‰», ƒX[ƒp[ƒ^ƒbƒNƒ‹—•‘ ‰©
+ãƒ‘ãƒ³ãƒ‰ãƒ©æˆ¦é—˜æ©Ÿæ¢°äºº
+æ–, æ®´æ‰“æ­¦å™¨ "Weapon\EFFECT_JewelRod(Green)01.bmp" 32
+ãƒ“ãƒ¼ãƒ (æº–å‚™), å°„æ’ƒæ­¦å™¨ "Weapon\EFFECT_JewelRod(Green)01.bmp" 32
+ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ ã‚¬ãƒ³ "Weapon\EFFECT_JewelRod(Green)01.bmp" 32 ç™ºå…‰ ç·‘ BeamSaber(4).wav
+ãƒ“ãƒ¼ãƒ (å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç·‘ BeamSaber(4).wav;çˆ†ç™º
 
 
-ƒpƒ“ƒhƒ‰¶–½‹@ŠBl
-ƒGƒlƒ‹ƒM[GŽè(UŒ‚), GŽè—•‘ Ô Swing(3).wav
-ƒGƒlƒ‹ƒM[GŽè(–½’†), GŽè—•‘ Ô Whip.wav;‘å“dŒ‚;’n•\ÕŒ‚”g;”š”­
-ƒr[ƒ€(UŒ‚), •KŽEŒõü —Î -.wav
-ƒr[ƒ€(–½’†), •KŽEŒõü —Î;ƒ†ƒjƒbƒg•ÏF —Î
+ãƒ‘ãƒ³ãƒ‰ãƒ©ç”Ÿå‘½ä½“
+è§¦æ‰‹(æ”»æ’ƒ), è§¦æ‰‹ä¹±èˆž èµ¤ Swing(3).wav
+è§¦æ‰‹(å‘½ä¸­), è§¦æ‰‹ä¹±èˆž èµ¤ Whip.wav
+æ¶²çŠ¶åŒ–, ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ«ä¹±èˆž é»„
 
 
-### ƒfƒXƒ[ƒƒE«ŒR ----------------------------------
+ãƒ‘ãƒ³ãƒ‰ãƒ©ç”Ÿå‘½æ©Ÿæ¢°äºº
+ã‚¨ãƒãƒ«ã‚®ãƒ¼è§¦æ‰‹(æ”»æ’ƒ), è§¦æ‰‹ä¹±èˆž èµ¤ Swing(3).wav
+ã‚¨ãƒãƒ«ã‚®ãƒ¼è§¦æ‰‹(å‘½ä¸­), è§¦æ‰‹ä¹±èˆž èµ¤ Whip.wav;å¤§é›»æ’ƒ;åœ°è¡¨è¡æ’ƒæ³¢;çˆ†ç™º
+ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), å¿…æ®ºå…‰ç·š ç·‘ -.wav
+ãƒ“ãƒ¼ãƒ (å‘½ä¸­), å¿…æ®ºå…‰ç·š ç·‘;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² ç·‘
 
-ƒfƒXƒ[ƒƒE«ŒR
-‹@ŠÖ–C, “à‘ ƒKƒgƒŠƒ“ƒO
-Ši“¬, Ši“¬
-Œ•, Œ•
-ƒfƒXƒ[ƒƒE‹›—‹(€”õ), _
-	4;˜A‘±•`‰æ "Shield\EFFECT_Mant(Red)[01-04].bmp" 32 2 1 ‘O–Ê;_
-	@í“¬ƒAƒjƒ_“Š±•ŠíUŒ‚ "Shield\EFFECT_Mant(Red)04.bmp" 32 Swing.wav ƒ‰ƒ“ƒ_ƒ€•ûŒü
-ƒfƒXƒ[ƒƒE‹›—‹(UŒ‚), _
+
+### ãƒ‡ã‚¹ã‚¼ãƒ­ã‚¦å°†è» ----------------------------------
+
+ãƒ‡ã‚¹ã‚¼ãƒ­ã‚¦å°†è»
+æ©Ÿé–¢ç ², å†…è”µã‚¬ãƒˆãƒªãƒ³ã‚°
+æ ¼é—˜, æ ¼é—˜
+å‰£, å‰£
+ãƒ‡ã‚¹ã‚¼ãƒ­ã‚¦é­šé›·(æº–å‚™), _
+	4;é€£ç¶šæç”» "Shield\EFFECT_Mant(Red)[01-04].bmp" 32 2 1 å‰é¢;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŠ•æ“²æ­¦å™¨æ”»æ’ƒ "Shield\EFFECT_Mant(Red)04.bmp" 32 Swing.wav ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘
+ãƒ‡ã‚¹ã‚¼ãƒ­ã‚¦é­šé›·(æ”»æ’ƒ), _
 	6;Walk(Robot).wav;6;Walk(Robot).wav;_
-	‰ï˜b ƒfƒXƒ[ƒƒE«ŒR "”­ŽËII" ŒÅ’è;”­Œõ —Î ‘ÎÛƒ†ƒjƒbƒg‚h‚c;•ÏŒ` "unit\SPL_DeathzelowTorpedo.bmp" Transform.wav;_
-	6;Walk(Robot).wav;20;‰Œ Storm.wav ‘ÎÛƒ†ƒjƒbƒg‚h‚c;ƒX[ƒp[ƒ^ƒbƒNƒ‹ —Î Jet.wav
-ƒfƒXƒ[ƒƒE‹›—‹(–½’†), _
-	5;ƒX[ƒp[ƒ^ƒbƒNƒ‹—•‘ —Î Crash.wav;‘å”š”­
+	ä¼šè©± ãƒ‡ã‚¹ã‚¼ãƒ­ã‚¦å°†è» "ç™ºå°„ï¼ï¼" å›ºå®š;ç™ºå…‰ ç·‘ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;å¤‰å½¢ "unit\SPL_DeathzelowTorpedo.bmp" Transform.wav;_
+	6;Walk(Robot).wav;20;ç…™ Storm.wav å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« ç·‘ Jet.wav
+ãƒ‡ã‚¹ã‚¼ãƒ­ã‚¦é­šé›·(å‘½ä¸­), _
+	5;ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ«ä¹±èˆž ç·‘ Crash.wav;å¤§çˆ†ç™º
 
 
 
-díŽÔƒXƒJƒ‹ƒhƒ“
-‘Ì“–‚½‚è(€”õ), Engine.wav
-‘Ì“–‚½‚è(UŒ‚), ƒ^ƒbƒNƒ‹
-‘Ì“–‚½‚è(–½’†), ‹­‘Å
-íŽÔ–C, ƒLƒƒƒmƒ“–C
-ƒr[ƒ€–C(UŒ‚), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô LaserGun.wav
-ƒr[ƒ€–C(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô;”š”­
-ƒmƒRƒMƒŠ(€”õ), “Ë‚­•Ší "Bullet\EFFECT_BeamRingCutter(Black)01.bmp" 32
-ƒmƒRƒMƒŠ(UŒ‚), ’†S‰ñ“]•Ší "Bullet\EFFECT_BeamRingCutter(Black)01.bmp" 32 Drill.wav
-ƒmƒRƒMƒŠ(–½’†), ˜AŽaŒ‚
+é‡æˆ¦è»Šã‚¹ã‚«ãƒ«ãƒ‰ãƒ³
+ä½“å½“ãŸã‚Š(æº–å‚™), Engine.wav
+ä½“å½“ãŸã‚Š(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ«
+ä½“å½“ãŸã‚Š(å‘½ä¸­), å¼·æ‰“
+æˆ¦è»Šç ², ã‚­ãƒ£ãƒŽãƒ³ç ²
+ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ LaserGun.wav
+ãƒ“ãƒ¼ãƒ ç ²(å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤;çˆ†ç™º
+ãƒŽã‚³ã‚®ãƒª(æº–å‚™), çªãæ­¦å™¨ "Bullet\EFFECT_BeamRingCutter(Black)01.bmp" 32
+ãƒŽã‚³ã‚®ãƒª(æ”»æ’ƒ), ä¸­å¿ƒå›žè»¢æ­¦å™¨ "Bullet\EFFECT_BeamRingCutter(Black)01.bmp" 32 Drill.wav
+ãƒŽã‚³ã‚®ãƒª(å‘½ä¸­), é€£æ–¬æ’ƒ
 
 
-ƒXƒJƒ‹ƒXƒ^ƒbƒK[
-ƒr[ƒ€–C(UŒ‚), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô LaserGun.wav
-ƒr[ƒ€–C(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô;”š”­
+ã‚¹ã‚«ãƒ«ã‚¹ã‚¿ãƒƒã‚¬ãƒ¼
+ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ LaserGun.wav
+ãƒ“ãƒ¼ãƒ ç ²(å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤;çˆ†ç™º
 
 
-ƒXƒJƒ‹ƒ[ƒ_[
-‘Ì“–‚½‚è(€”õ), Engine.wav
-‘Ì“–‚½‚è(UŒ‚), ƒ^ƒbƒNƒ‹
-‘Ì“–‚½‚è(–½’†), ‹­‘Å
-íŽÔ–C, ƒLƒƒƒmƒ“–C
-ƒmƒRƒMƒŠ(€”õ), “Ë‚­•Ší "Bullet\EFFECT_BeamRingCutter(Black)01.bmp" 32
-ƒmƒRƒMƒŠ(UŒ‚), ’†S‰ñ“]•Ší "Bullet\EFFECT_BeamRingCutter(Black)01.bmp" 32 Drill.wav
-ƒmƒRƒMƒŠ(–½’†), ˜AŽaŒ‚
+ã‚¹ã‚«ãƒ«ãƒ­ãƒ¼ãƒ€ãƒ¼
+ä½“å½“ãŸã‚Š(æº–å‚™), Engine.wav
+ä½“å½“ãŸã‚Š(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ«
+ä½“å½“ãŸã‚Š(å‘½ä¸­), å¼·æ‰“
+æˆ¦è»Šç ², ã‚­ãƒ£ãƒŽãƒ³ç ²
+ãƒŽã‚³ã‚®ãƒª(æº–å‚™), çªãæ­¦å™¨ "Bullet\EFFECT_BeamRingCutter(Black)01.bmp" 32
+ãƒŽã‚³ã‚®ãƒª(æ”»æ’ƒ), ä¸­å¿ƒå›žè»¢æ­¦å™¨ "Bullet\EFFECT_BeamRingCutter(Black)01.bmp" 32 Drill.wav
+ãƒŽã‚³ã‚®ãƒª(å‘½ä¸­), é€£æ–¬æ’ƒ
 
 
-### ƒhƒNƒ^[ƒoƒCƒI ----------------------------------
+### ãƒ‰ã‚¯ã‚¿ãƒ¼ãƒã‚¤ã‚ª ----------------------------------
 
-ƒhƒNƒ^[ƒoƒCƒI
-Œ•, ƒVƒ~ƒ^[
-’Ó, GŽè —Î
+ãƒ‰ã‚¯ã‚¿ãƒ¼ãƒã‚¤ã‚ª
+å‰£, ã‚·ãƒŸã‚¿ãƒ¼
+è”¦, è§¦æ‰‹ ç·‘
 
 
-ƒoƒCƒIƒƒCƒhEƒoƒCƒI
-ƒoƒCƒI‰H’Ž(€”õ), Ž×Šá‰ð•ú —Î Â ¬ BeamSaber(2).wav;–I BeamSaber.wav
-ƒoƒCƒI‰H’Ž(UŒ‚), –I BeamSaber.wav
-ƒoƒCƒI‰H’Ž(–½’†), ƒ_ƒ[ƒW Chaff.wav
-GŽè(UŒ‚), GŽè—•‘ Ô Swing(3).wav
-GŽè(–½’†), GŽè—•‘ Ô Whip.wav
-Œõ’e(€”õ), -
-Œõ’e(UŒ‚), ‚Q˜AŒõ’e Â ’x BeamShot(2).wav
-Œõ’e(–½’†), ”š”­
-‹‘å‰Ô•Ï‰»(€”õ), ƒ†ƒjƒbƒg•ÏF —Î -.wav;•ÏŒ` "DGoods\EFFECT_Rose(Green)01.bmp" -.wav
-‹‘å‰Ô•Ï‰»(UŒ‚), ‰Œ•¬ŽË ”’ Mist.wav
-‹‘å‰Ô•Ï‰»(–½’†), ‰Œ•¬ŽË ”’ Mist.wav;”š”­ ”’
-ƒAƒ[ƒo•Ï‰»(€”õ), ƒ†ƒjƒbƒg•ÏF —Î -.wav;•ÏŒ` "EFFECT_FlameThrowerHit(Green)06" -.wav
-ƒAƒ[ƒo•Ï‰»(UŒ‚), ƒX[ƒp[ƒ^ƒbƒNƒ‹—•‘ —Î
-ƒAƒ[ƒo•Ï‰»(–½’†), ƒX[ƒp[ƒ^ƒbƒNƒ‹—•‘ —Î;”š”­ ”’
+ãƒã‚¤ã‚ªãƒ­ã‚¤ãƒ‰ãƒ»ãƒã‚¤ã‚ª
+ãƒã‚¤ã‚ªç¾½è™«(æº–å‚™), é‚ªçœ¼è§£æ”¾ ç·‘ é’ å° BeamSaber(2).wav;èœ‚ BeamSaber.wav
+ãƒã‚¤ã‚ªç¾½è™«(æ”»æ’ƒ), èœ‚ BeamSaber.wav
+ãƒã‚¤ã‚ªç¾½è™«(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ Chaff.wav
+è§¦æ‰‹(æ”»æ’ƒ), è§¦æ‰‹ä¹±èˆž èµ¤ Swing(3).wav
+è§¦æ‰‹(å‘½ä¸­), è§¦æ‰‹ä¹±èˆž èµ¤ Whip.wav
+å…‰å¼¾(æº–å‚™), -
+å…‰å¼¾(æ”»æ’ƒ), ï¼’é€£å…‰å¼¾ é’ é… BeamShot(2).wav
+å…‰å¼¾(å‘½ä¸­), çˆ†ç™º
+å·¨å¤§èŠ±å¤‰åŒ–(æº–å‚™), ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² ç·‘ -.wav;å¤‰å½¢ "DGoods\EFFECT_Rose(Green)01.bmp" -.wav
+å·¨å¤§èŠ±å¤‰åŒ–(æ”»æ’ƒ), ç…™å™´å°„ ç™½ Mist.wav
+å·¨å¤§èŠ±å¤‰åŒ–(å‘½ä¸­), ç…™å™´å°„ ç™½ Mist.wav;çˆ†ç™º ç™½
+ã‚¢ãƒ¡ãƒ¼ãƒå¤‰åŒ–(æº–å‚™), ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² ç·‘ -.wav;å¤‰å½¢ "EFFECT_FlameThrowerHit(Green)06" -.wav
+ã‚¢ãƒ¡ãƒ¼ãƒå¤‰åŒ–(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ«ä¹±èˆž ç·‘
+ã‚¢ãƒ¡ãƒ¼ãƒå¤‰åŒ–(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ«ä¹±èˆž ç·‘;çˆ†ç™º ç™½
 
 
-ƒhƒNƒ^[ƒoƒCƒI(”]‘)
-ƒr[ƒ€, ƒVƒ‡ƒbƒNƒr[ƒ€ —Î BeamSaber(4).wav
+ãƒ‰ã‚¯ã‚¿ãƒ¼ãƒã‚¤ã‚ª(è„³é«„)
+ãƒ“ãƒ¼ãƒ , ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç·‘ BeamSaber(4).wav
 
 
-### ­—‰¼–Êƒwƒ‹ƒoƒCƒ‰ ----------------------------------
+### å°‘å¥³ä»®é¢ãƒ˜ãƒ«ãƒã‚¤ãƒ© ----------------------------------
 
-­—‰¼–Êƒwƒ‹ƒoƒCƒ‰
-‹Ù‹}ƒeƒŒƒ|[ƒg(Œ´Žq•ª‰ð), ƒeƒŒƒ|[ƒg‚Q BeamSaber(4).wav ”’
-’ZŒ•, ƒ`ƒ“ƒNƒGƒfƒA
-ƒr[ƒ€(€”õ), ƒ`ƒ“ƒNƒGƒfƒA;—±ŽqW’† Ô Charge(high).wav ‘ÎÛƒ†ƒjƒbƒg‚h‚c
-ƒr[ƒ€(UŒ‚), U‚è‰º‚ë‚µ;Œõ’e Ô ‘¬ Beam.wav
-ƒr[ƒ€(–½’†), ”š”­ ƒsƒ“ƒN
+å°‘å¥³ä»®é¢ãƒ˜ãƒ«ãƒã‚¤ãƒ©
+ç·Šæ€¥ãƒ†ãƒ¬ãƒãƒ¼ãƒˆ(åŽŸå­åˆ†è§£), ãƒ†ãƒ¬ãƒãƒ¼ãƒˆï¼’ BeamSaber(4).wav ç™½
+çŸ­å‰£, ãƒãƒ³ã‚¯ã‚¨ãƒ‡ã‚¢
+ãƒ“ãƒ¼ãƒ (æº–å‚™), ãƒãƒ³ã‚¯ã‚¨ãƒ‡ã‚¢;ç²’å­é›†ä¸­ èµ¤ Charge(high).wav å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—;å…‰å¼¾ èµ¤ é€Ÿ Beam.wav
+ãƒ“ãƒ¼ãƒ (å‘½ä¸­), çˆ†ç™º ãƒ”ãƒ³ã‚¯
 
 
 
-### ƒMƒ[ƒ`ƒ“c’é ----------------------------------
+### ã‚®ãƒ­ãƒ¼ãƒãƒ³çš‡å¸ ----------------------------------
 
-ƒMƒ[ƒ`ƒ“c’é
-ƒr[ƒ€ƒKƒ“(€”õ), ƒŠƒ{ƒ‹ƒo[
-ƒr[ƒ€ƒKƒ“(UŒ‚), ƒVƒ‡ƒbƒNƒr[ƒ€ƒKƒ“ "Weapon\EFFECT_Revolver01.bmp" 32 ‰© BeamGun.wav
-ƒr[ƒ€ƒKƒ“(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ ‰© BeamGun.wav
-ƒr[ƒ€(UŒ‚), ”­Œõ —Î -.wav ‘ÎÛƒ†ƒjƒbƒg‚h‚c;ƒVƒ‡ƒbƒNƒr[ƒ€ —Î BeamGun.wav
-ƒr[ƒ€(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ —Î BeamGun.wav
-ƒGƒNƒgƒvƒ‰ƒYƒ€(UŒ‚), ‰Œ•¬ŽË Â Zapper.wav
-ƒGƒNƒgƒvƒ‰ƒYƒ€(–½’†), ‰Œ•¬ŽË Â Zapper.wav
+ã‚®ãƒ­ãƒ¼ãƒãƒ³çš‡å¸
+ãƒ“ãƒ¼ãƒ ã‚¬ãƒ³(æº–å‚™), ãƒªãƒœãƒ«ãƒãƒ¼
+ãƒ“ãƒ¼ãƒ ã‚¬ãƒ³(æ”»æ’ƒ), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ ã‚¬ãƒ³ "Weapon\EFFECT_Revolver01.bmp" 32 é»„ BeamGun.wav
+ãƒ“ãƒ¼ãƒ ã‚¬ãƒ³(å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  é»„ BeamGun.wav
+ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), ç™ºå…‰ ç·‘ -.wav å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç·‘ BeamGun.wav
+ãƒ“ãƒ¼ãƒ (å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç·‘ BeamGun.wav
+ã‚¨ã‚¯ãƒˆãƒ—ãƒ©ã‚ºãƒ (æ”»æ’ƒ), ç…™å™´å°„ é’ Zapper.wav
+ã‚¨ã‚¯ãƒˆãƒ—ãƒ©ã‚ºãƒ (å‘½ä¸­), ç…™å™´å°„ é’ Zapper.wav
 
 
-ƒMƒ[ƒ`ƒ“c’é(ƒoƒCƒJ[)
-‘Ì“–‚½‚è, ƒ^ƒbƒNƒ‹ Bike.wav
-ƒ~ƒTƒCƒ‹–C(UŒ‚), “à‘ ƒKƒgƒŠƒ“ƒO
-ƒ~ƒTƒCƒ‹–C(–½’†), “à‘ ƒKƒgƒŠƒ“ƒO;”š”­
+ã‚®ãƒ­ãƒ¼ãƒãƒ³çš‡å¸(ãƒã‚¤ã‚«ãƒ¼)
+ä½“å½“ãŸã‚Š, ã‚¿ãƒƒã‚¯ãƒ« Bike.wav
+ãƒŸã‚µã‚¤ãƒ«ç ²(æ”»æ’ƒ), å†…è”µã‚¬ãƒˆãƒªãƒ³ã‚°
+ãƒŸã‚µã‚¤ãƒ«ç ²(å‘½ä¸­), å†…è”µã‚¬ãƒˆãƒªãƒ³ã‚°;çˆ†ç™º
 
 
-ƒMƒ[ƒ`ƒ“c’éE—H‹S‘Ì
-ƒvƒƒeƒNƒVƒ‡ƒ“”­“®(—H‹S), -
-’ZŒ•, ƒ_ƒK[
-‰ö¶•¨(€”õ), ŽÖ
-‰ö¶•¨(UŒ‚), ŽÖ
-‰ö¶•¨(–½’†), Šš‚Ý•t‚«
+ã‚®ãƒ­ãƒ¼ãƒãƒ³çš‡å¸ãƒ»å¹½é¬¼ä½“
+ãƒ—ãƒ­ãƒ†ã‚¯ã‚·ãƒ§ãƒ³ç™ºå‹•(å¹½é¬¼), -
+çŸ­å‰£, ãƒ€ã‚¬ãƒ¼
+æ€ªç”Ÿç‰©(æº–å‚™), è›‡
+æ€ªç”Ÿç‰©(æ”»æ’ƒ), è›‡
+æ€ªç”Ÿç‰©(å‘½ä¸­), å™›ã¿ä»˜ã
 
 
-### ƒˆƒEƒL ----------------------------------
+### ãƒ¨ã‚¦ã‚­ ----------------------------------
 
-ƒˆƒEƒL(ƒXƒsƒ‹ƒoƒ“)
-ƒvƒƒeƒNƒVƒ‡ƒ“”­“®(—H‹S), -
-ƒr[ƒ€(UŒ‚), ’†ƒr[ƒ€ ƒsƒ“ƒN BeamCannon.wav
-ƒr[ƒ€(–½’†), ’†ƒr[ƒ€ ƒsƒ“ƒN BeamCannon.wav;”š”­
-ƒGƒNƒgƒvƒ‰ƒYƒ€(UŒ‚), ƒVƒ‡ƒbƒNƒr[ƒ€ Â Zapper.wav
-ƒGƒNƒgƒvƒ‰ƒYƒ€(–½’†), ù‰ñŒõ’e Â Zapper.wav;ƒ†ƒjƒbƒg•ÏF Â Charge(High).wav
+ãƒ¨ã‚¦ã‚­(ã‚¹ãƒ”ãƒ«ãƒãƒ³)
+ãƒ—ãƒ­ãƒ†ã‚¯ã‚·ãƒ§ãƒ³ç™ºå‹•(å¹½é¬¼), -
+ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), ä¸­ãƒ“ãƒ¼ãƒ  ãƒ”ãƒ³ã‚¯ BeamCannon.wav
+ãƒ“ãƒ¼ãƒ (å‘½ä¸­), ä¸­ãƒ“ãƒ¼ãƒ  ãƒ”ãƒ³ã‚¯ BeamCannon.wav;çˆ†ç™º
+ã‚¨ã‚¯ãƒˆãƒ—ãƒ©ã‚ºãƒ (æ”»æ’ƒ), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  é’ Zapper.wav
+ã‚¨ã‚¯ãƒˆãƒ—ãƒ©ã‚ºãƒ (å‘½ä¸­), æ—‹å›žå…‰å¼¾ é’ Zapper.wav;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² é’ Charge(High).wav
 
 
 
-#### ƒXƒpƒCŒR’c ----------------------------------
+#### ã‚¹ãƒ‘ã‚¤è»å›£ ----------------------------------
 
-ƒŠƒbƒL[(ƒXƒsƒ‹ƒoƒ“)
-’ZŒ•, ƒiƒCƒt
+ãƒªãƒƒã‚­ãƒ¼(ã‚¹ãƒ”ãƒ«ãƒãƒ³)
+çŸ­å‰£, ãƒŠã‚¤ãƒ•
 
 
-ƒVƒƒƒh[(ƒXƒsƒ‹ƒoƒ“)
-’ZŒ•, ƒiƒCƒt
-ƒMƒ[ƒ`ƒ“‚ÌŒ•, ƒ`ƒ“ƒNƒGƒfƒA
+ã‚·ãƒ£ãƒ‰ãƒ¼(ã‚¹ãƒ”ãƒ«ãƒãƒ³)
+çŸ­å‰£, ãƒŠã‚¤ãƒ•
+ã‚®ãƒ­ãƒ¼ãƒãƒ³ã®å‰£, ãƒãƒ³ã‚¯ã‚¨ãƒ‡ã‚¢
 
 
-ƒKƒVƒƒ[(ƒXƒsƒ‹ƒoƒ“)
-’ZŒ•, ƒiƒCƒt
-ƒMƒ[ƒ`ƒ“‚ÌŒ•, ƒ`ƒ“ƒNƒGƒfƒA
+ã‚¬ã‚·ãƒ£ãƒ¼(ã‚¹ãƒ”ãƒ«ãƒãƒ³)
+çŸ­å‰£, ãƒŠã‚¤ãƒ•
+ã‚®ãƒ­ãƒ¼ãƒãƒ³ã®å‰£, ãƒãƒ³ã‚¯ã‚¨ãƒ‡ã‚¢
 
 
-### í“¬ˆõEí“¬•ºŠí ------------------------------
+### æˆ¦é—˜å“¡ãƒ»æˆ¦é—˜å…µå™¨ ------------------------------
 
-‹@ŠB•ºƒLƒ“ƒNƒƒ“
-’ZŒ•, ŽaŒ‚•Ší "Weapon\EFFECT_Bardiche01.bmp"
-’ZŒ•“Š‚°(€”õ), ŽaŒ‚•Ší "Weapon\EFFECT_Bardiche01.bmp" 32
-’ZŒ•“Š‚°(UŒ‚), ‰ñ“]“Š±•Ší "Weapon\EFFECT_Bardiche01.bmp" 32
-’ZŒ•“Š‚°(–½’†), ƒƒPƒbƒgƒpƒ“ƒ` "Weapon\EFFECT_Bardiche01.bmp" 32 Slash.wav
-ƒr[ƒ€ƒKƒ“, ƒVƒ‡ƒbƒNƒr[ƒ€ƒKƒ“ Beam2.wav —Î
-ƒr[ƒ€ƒKƒ“, ƒVƒ‡ƒbƒNƒr[ƒ€ƒKƒ“ Beam2.wav ‰©
-ƒ}ƒVƒ“ƒKƒ“, ƒ}ƒVƒ“ƒKƒ“ MachineGun.wav
-ƒ~ƒTƒCƒ‹(€”õ), Reload(4).wav
-ƒ~ƒTƒCƒ‹(UŒ‚), “à‘ ƒKƒgƒŠƒ“ƒO MachineGun.wav
-ƒ~ƒTƒCƒ‹(–½’†), ”š”­
+æ©Ÿæ¢°å…µã‚­ãƒ³ã‚¯ãƒ­ãƒ³
+çŸ­å‰£, æ–¬æ’ƒæ­¦å™¨ "Weapon\EFFECT_Bardiche01.bmp"
+çŸ­å‰£æŠ•ã’(æº–å‚™), æ–¬æ’ƒæ­¦å™¨ "Weapon\EFFECT_Bardiche01.bmp" 32
+çŸ­å‰£æŠ•ã’(æ”»æ’ƒ), å›žè»¢æŠ•æ“²æ­¦å™¨ "Weapon\EFFECT_Bardiche01.bmp" 32
+çŸ­å‰£æŠ•ã’(å‘½ä¸­), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "Weapon\EFFECT_Bardiche01.bmp" 32 Slash.wav
+ãƒ“ãƒ¼ãƒ ã‚¬ãƒ³, ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ ã‚¬ãƒ³ Beam2.wav ç·‘
+ãƒ“ãƒ¼ãƒ ã‚¬ãƒ³, ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ ã‚¬ãƒ³ Beam2.wav é»„
+ãƒžã‚·ãƒ³ã‚¬ãƒ³, ãƒžã‚·ãƒ³ã‚¬ãƒ³ MachineGun.wav
+ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), Reload(4).wav
+ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), å†…è”µã‚¬ãƒˆãƒªãƒ³ã‚° MachineGun.wav
+ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), çˆ†ç™º
 
 
 
-‹@ŠB•ºƒLƒ“ƒNƒƒ“(‹­)
-Žwƒ~ƒTƒCƒ‹(€”õ), Reload(4).wav
-Žwƒ~ƒTƒCƒ‹(UŒ‚), “à‘ ƒKƒgƒŠƒ“ƒO MachineGun.wav
-Žwƒ~ƒTƒCƒ‹(–½’†), ”š”­
-## ‚S˜bE‹­‰»Œ^
-ƒ}ƒ“ƒg(€”õ), ˜A‘±•`‰æ "Shield\EFFECT_Mant(Yellow)[01-04].bmp" 32 2 1 ‘O–Ê •ÛŽ -.wav
-ƒ}ƒ“ƒg(UŒ‚), “§–¾‰» ”½‰f;“Š±•Ší "Shield\EFFECT_Mant(Yellow)04.bmp" 32 Whiz.wav
-ƒ}ƒ“ƒg(–½’†), ƒƒPƒbƒgƒpƒ“ƒ` "Shield\EFFECT_Mant(Yellow)04.bmp" 32 -.wav;ƒ†ƒjƒbƒg•ÏF ‰© BeamSaber.wav;•ú“d
-“ª•”ƒ~ƒTƒCƒ‹(UŒ‚), “à‘ ƒKƒgƒŠƒ“ƒO Missile(4Shot).wav
-“ª•”ƒ~ƒTƒCƒ‹(–½’†), ”š”­
-## ‚W˜bEƒS[ƒ‹ƒfƒ“ƒtƒ@ƒCƒu
-’ZŒ•, ŽaŒ‚•Ší "Weapon\EFFECT_Bardiche01.bmp" “ñ“—¬
-’ZŒ•“Š‚°(€”õ), ŽaŒ‚•Ší "Weapon\EFFECT_Bardiche01.bmp" 32
-’ZŒ•“Š‚°(UŒ‚), ‰ñ“]“Š±•Ší "Weapon\EFFECT_Bardiche01.bmp" 32
-’ZŒ•“Š‚°(–½’†), ƒƒPƒbƒgƒpƒ“ƒ` "Weapon\EFFECT_Bardiche01.bmp" 32 Slash.wav
-Žè“‰Î‰Ô, ŒõŽaŒ‚ Ô
+æ©Ÿæ¢°å…µã‚­ãƒ³ã‚¯ãƒ­ãƒ³(å¼·)
+æŒ‡ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), Reload(4).wav
+æŒ‡ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), å†…è”µã‚¬ãƒˆãƒªãƒ³ã‚° MachineGun.wav
+æŒ‡ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), çˆ†ç™º
+## ï¼”è©±ãƒ»å¼·åŒ–åž‹
+ãƒžãƒ³ãƒˆ(æº–å‚™), é€£ç¶šæç”» "Shield\EFFECT_Mant(Yellow)[01-04].bmp" 32 2 1 å‰é¢ ä¿æŒ -.wav
+ãƒžãƒ³ãƒˆ(æ”»æ’ƒ), é€æ˜ŽåŒ– åæ˜ ;æŠ•æ“²æ­¦å™¨ "Shield\EFFECT_Mant(Yellow)04.bmp" 32 Whiz.wav
+ãƒžãƒ³ãƒˆ(å‘½ä¸­), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "Shield\EFFECT_Mant(Yellow)04.bmp" 32 -.wav;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² é»„ BeamSaber.wav;æ”¾é›»
+é ­éƒ¨ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), å†…è”µã‚¬ãƒˆãƒªãƒ³ã‚° Missile(4Shot).wav
+é ­éƒ¨ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), çˆ†ç™º
+## ï¼˜è©±ãƒ»ã‚´ãƒ¼ãƒ«ãƒ‡ãƒ³ãƒ•ã‚¡ã‚¤ãƒ–
+çŸ­å‰£, æ–¬æ’ƒæ­¦å™¨ "Weapon\EFFECT_Bardiche01.bmp" äºŒåˆ€æµ
+çŸ­å‰£æŠ•ã’(æº–å‚™), æ–¬æ’ƒæ­¦å™¨ "Weapon\EFFECT_Bardiche01.bmp" 32
+çŸ­å‰£æŠ•ã’(æ”»æ’ƒ), å›žè»¢æŠ•æ“²æ­¦å™¨ "Weapon\EFFECT_Bardiche01.bmp" 32
+çŸ­å‰£æŠ•ã’(å‘½ä¸­), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "Weapon\EFFECT_Bardiche01.bmp" 32 Slash.wav
+æ‰‹åˆ€ç«èŠ±, å…‰æ–¬æ’ƒ èµ¤
 
 
 
-–³–³–³\¬ˆõ
-•€, •Ðn•€
-ƒiƒCƒt, ƒiƒCƒt
-—Âe, ’·“›
-ƒ{ƒEƒKƒ“, ƒNƒƒXƒ{ƒE
+ç„¡ç„¡ç„¡æ§‹æˆå“¡
+æ–§, ç‰‡åˆƒæ–§
+ãƒŠã‚¤ãƒ•, ãƒŠã‚¤ãƒ•
+çŒŸéŠƒ, é•·ç­’
+ãƒœã‚¦ã‚¬ãƒ³, ã‚¯ãƒ­ã‚¹ãƒœã‚¦
 
 
-ƒ[ƒ‰[í“¬‹@
-ƒr[ƒ€–C(UŒ‚), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô LaserGun.wav
-ƒr[ƒ€–C(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô LaserGun.wav;”š”­
+ãƒ¯ãƒ¼ãƒ©ãƒ¼æˆ¦é—˜æ©Ÿ
+ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ LaserGun.wav
+ãƒ“ãƒ¼ãƒ ç ²(å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ LaserGun.wav;çˆ†ç™º
 
 
-ƒ[ƒ‰[íŽÔ
-íŽÔ–C, ƒLƒƒƒmƒ“–C
+ãƒ¯ãƒ¼ãƒ©ãƒ¼æˆ¦è»Š
+æˆ¦è»Šç ², ã‚­ãƒ£ãƒŽãƒ³ç ²
 
 
-ƒ[ƒ‰[í“¬•êŠÍƒXƒJƒ‹ƒWƒ‡[ƒY
-ƒr[ƒ€–C(UŒ‚), ‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ Ô LaserGun.wav;‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ Ô LaserGun.wav
-ƒr[ƒ€–C(–½’†), ‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ Ô LaserGun.wav;‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ Ô LaserGun.wav;”š”­
-VŒ^”š’e, “Š‰º”š’e
+ãƒ¯ãƒ¼ãƒ©ãƒ¼æˆ¦é—˜æ¯è‰¦ã‚¹ã‚«ãƒ«ã‚¸ãƒ§ãƒ¼ã‚º
+ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ LaserGun.wav;ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ LaserGun.wav
+ãƒ“ãƒ¼ãƒ ç ²(å‘½ä¸­), ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ LaserGun.wav;ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ LaserGun.wav;çˆ†ç™º
+æ–°åž‹çˆ†å¼¾, æŠ•ä¸‹çˆ†å¼¾
 
 
-ƒ[ƒ‰[ƒƒKƒgƒ“–C
-ƒƒKƒgƒ“–C, ‘åƒLƒƒƒmƒ“–C’·‹——£
+ãƒ¯ãƒ¼ãƒ©ãƒ¼ãƒ¡ã‚¬ãƒˆãƒ³ç ²
+ãƒ¡ã‚¬ãƒˆãƒ³ç ², å¤§ã‚­ãƒ£ãƒŽãƒ³ç ²é•·è·é›¢
 
 
-#### í“¬‹@ŠBl ---------------------------------
+#### æˆ¦é—˜æ©Ÿæ¢°äºº ---------------------------------
 
-í“¬‹@ŠBlƒƒJƒVƒ‡ƒ‹ƒ_[
-Ši“¬, ‘Å“Ë
-‹¹•”ƒ~ƒTƒCƒ‹–C(€”õ), Reload(5).wav;5;Reload(5).wav;5;Reload(5).wav
-‹¹•”ƒ~ƒTƒCƒ‹–C(UŒ‚), ‘Å‚¿‰º‚ë‚µŽÀ’e˜AŽË EFFECT_LightBullet(Pink)02.bmp BeamCannon.wav ‘¬
-‹¹•”ƒ~ƒTƒCƒ‹–C(–½’†), 1;”š”­;1;”š”­
-”Mü(UŒ‚), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô LaserGun.wav;ƒVƒ‡ƒbƒNƒr[ƒ€ Ô LaserGun.wav
-”Mü(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô LaserGun.wav;ƒVƒ‡ƒbƒNƒr[ƒ€ Ô LaserGun.wav;”š”­
-ƒŠƒ“ƒO(€”õ), “Š±•Ší•ÏŒ` "Bullet\EFFECT_BeamRingCutter(White)01.bmp" 32 "Bullet\EFFECT_BeamRingCutter(Pink)01.bmp" 32 ”­Œõ BeamSaber(4).wav
-ƒŠƒ“ƒO(UŒ‚), ‰ñ“]”­ŽË "Bullet\EFFECT_BeamRingCutter(Pink)01.bmp" 32 ”­Œõ Machine.wav
-ƒŠƒ“ƒO(–½’†), ƒ_ƒ[ƒW ƒsƒ“ƒN Shock(Low).wav
+æˆ¦é—˜æ©Ÿæ¢°äººãƒ¡ã‚«ã‚·ãƒ§ãƒ«ãƒ€ãƒ¼
+æ ¼é—˜, æ‰“çª
+èƒ¸éƒ¨ãƒŸã‚µã‚¤ãƒ«ç ²(æº–å‚™), Reload(5).wav;5;Reload(5).wav;5;Reload(5).wav
+èƒ¸éƒ¨ãƒŸã‚µã‚¤ãƒ«ç ²(æ”»æ’ƒ), æ‰“ã¡ä¸‹ã‚ã—å®Ÿå¼¾é€£å°„ EFFECT_LightBullet(Pink)02.bmp BeamCannon.wav é€Ÿ
+èƒ¸éƒ¨ãƒŸã‚µã‚¤ãƒ«ç ²(å‘½ä¸­), 1;çˆ†ç™º;1;çˆ†ç™º
+ç†±ç·š(æ”»æ’ƒ), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ LaserGun.wav;ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ LaserGun.wav
+ç†±ç·š(å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ LaserGun.wav;ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ LaserGun.wav;çˆ†ç™º
+ãƒªãƒ³ã‚°(æº–å‚™), æŠ•æ“²æ­¦å™¨å¤‰å½¢ "Bullet\EFFECT_BeamRingCutter(White)01.bmp" 32 "Bullet\EFFECT_BeamRingCutter(Pink)01.bmp" 32 ç™ºå…‰ BeamSaber(4).wav
+ãƒªãƒ³ã‚°(æ”»æ’ƒ), å›žè»¢ç™ºå°„ "Bullet\EFFECT_BeamRingCutter(Pink)01.bmp" 32 ç™ºå…‰ Machine.wav
+ãƒªãƒ³ã‚°(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸ ãƒ”ãƒ³ã‚¯ Shock(Low).wav
 
 
-í“¬‹@ŠBlƒƒJƒoƒ“ƒ_[
-•€, ‹â‚Ì•€
-‚S–{˜r(UŒ‚), “Š‚°”ò‚Î‚µ
-‚S–{˜r(–½’†), —Ž‰º
-Œ¨•”ƒ~ƒTƒCƒ‹(€”õ), Reload(5).wav
-Œ¨•”ƒ~ƒTƒCƒ‹(UŒ‚), ”­Œõ ”’ BeamShot.wav ‘ÎÛƒ†ƒjƒbƒg‚h‚c;3;‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ Ô Laser.wav
-Œ¨•”ƒ~ƒTƒCƒ‹(–½’†), ‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ Ô Laser.wav;”š”­
+æˆ¦é—˜æ©Ÿæ¢°äººãƒ¡ã‚«ãƒãƒ³ãƒ€ãƒ¼
+æ–§, éŠ€ã®æ–§
+ï¼”æœ¬è…•(æ”»æ’ƒ), æŠ•ã’é£›ã°ã—
+ï¼”æœ¬è…•(å‘½ä¸­), è½ä¸‹
+è‚©éƒ¨ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), Reload(5).wav
+è‚©éƒ¨ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ç™ºå…‰ ç™½ BeamShot.wav å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;3;ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ Laser.wav
+è‚©éƒ¨ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ Laser.wav;çˆ†ç™º
 
 
-í“¬‹@ŠBlƒƒJƒWƒ‡[ƒJ[
-”Mü(€”õ), •ú…e BeamSaber(3).wav
-”Mü(UŒ‚), ‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ƒKƒ“ "Weapon\EFFECT_FlashingGun01.bmp" 32 ƒsƒ“ƒN Laser.wav
-”Mü(–½’†), ‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ Laser.wav;”š”­
-‰EŒ¨•”ƒr[ƒ€–C(€”õ), Drill(2).wav;4;ƒoƒY[ƒJ
-‰EŒ¨•”ƒr[ƒ€–C(UŒ‚), ‘ÎíŽÔƒ‰ƒCƒtƒ‹ "Weapon\EFFECT_Bazooka01.bmp" 40 BeamShot.wav
-‰EŒ¨•”ƒr[ƒ€–C(–½’†), ‘å”š”­
+æˆ¦é—˜æ©Ÿæ¢°äººãƒ¡ã‚«ã‚¸ãƒ§ãƒ¼ã‚«ãƒ¼
+ç†±ç·š(æº–å‚™), æ”¾æ°´éŠƒ BeamSaber(3).wav
+ç†±ç·š(æ”»æ’ƒ), ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ ã‚¬ãƒ³ "Weapon\EFFECT_FlashingGun01.bmp" 32 ãƒ”ãƒ³ã‚¯ Laser.wav
+ç†±ç·š(å‘½ä¸­), ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  Laser.wav;çˆ†ç™º
+å³è‚©éƒ¨ãƒ“ãƒ¼ãƒ ç ²(æº–å‚™), Drill(2).wav;4;ãƒã‚ºãƒ¼ã‚«
+å³è‚©éƒ¨ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), å¯¾æˆ¦è»Šãƒ©ã‚¤ãƒ•ãƒ« "Weapon\EFFECT_Bazooka01.bmp" 40 BeamShot.wav
+å³è‚©éƒ¨ãƒ“ãƒ¼ãƒ ç ²(å‘½ä¸­), å¤§çˆ†ç™º
 
 
-í“¬‹@ŠBlƒƒJƒsƒ…[ƒ^[
-Ši“¬, Ši“¬
-ƒr[ƒ€(€”õ), Machine.wav
-ƒr[ƒ€(UŒ‚), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô BeamShot(2).wav
-ƒr[ƒ€(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô BeamShot(2).wav;”š”­
-—U“±ƒr[ƒ€(€”õ), ”­Œõ Ô BeamSaber(3).wav;4;Computer.wav
-—U“±ƒr[ƒ€(UŒ‚), Œõ’e Ô Charge.wav
-—U“±ƒr[ƒ€(–½’†), Œõ’e Ô ƒ‰ƒ“ƒ_ƒ€•ûŒü;‘å”š”­
+æˆ¦é—˜æ©Ÿæ¢°äººãƒ¡ã‚«ãƒ”ãƒ¥ãƒ¼ã‚¿ãƒ¼
+æ ¼é—˜, æ ¼é—˜
+ãƒ“ãƒ¼ãƒ (æº–å‚™), Machine.wav
+ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ BeamShot(2).wav
+ãƒ“ãƒ¼ãƒ (å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ BeamShot(2).wav;çˆ†ç™º
+èª˜å°Žãƒ“ãƒ¼ãƒ (æº–å‚™), ç™ºå…‰ èµ¤ BeamSaber(3).wav;4;Computer.wav
+èª˜å°Žãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), å…‰å¼¾ èµ¤ Charge.wav
+èª˜å°Žãƒ“ãƒ¼ãƒ (å‘½ä¸­), å…‰å¼¾ èµ¤ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘;å¤§çˆ†ç™º
 
 
-í“¬‹@ŠBlƒƒJƒm[ƒ`ƒ‰
-‘Ì“–‚½‚è, ƒ^ƒbƒNƒ‹
-ƒr[ƒ€–C(UŒ‚), Œõ‹… Ô AntiShipMissile.wav
-ƒr[ƒ€–C(–½’†), ‘å”š”­ Ô
-ƒpƒ“ƒ`, ‘Å“Ë
+æˆ¦é—˜æ©Ÿæ¢°äººãƒ¡ã‚«ãƒŽãƒ¼ãƒãƒ©
+ä½“å½“ãŸã‚Š, ã‚¿ãƒƒã‚¯ãƒ«
+ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), å…‰çƒ èµ¤ AntiShipMissile.wav
+ãƒ“ãƒ¼ãƒ ç ²(å‘½ä¸­), å¤§çˆ†ç™º èµ¤
+ãƒ‘ãƒ³ãƒ, æ‰“çª
 
 
-í“¬‹@ŠBlƒƒJƒ}ƒWƒ“
-‰EŒ¨•”ƒr[ƒ€–C(UŒ‚), Reload.wav;ƒVƒ‡ƒbƒNƒr[ƒ€ —Î BeamGun.wav
-‰EŒ¨•”ƒr[ƒ€–C(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ —Î BeamGun.wav;”š”­
-¶Œ¨•”ƒ~ƒTƒCƒ‹–C(UŒ‚), Reload.wav;“à‘ ƒKƒgƒŠƒ“ƒO MachineGun.wav
-¶Œ¨•”ƒ~ƒTƒCƒ‹–C(–½’†), ƒKƒgƒŠƒ“ƒO MachineGun.wav;”š”­
-“ª•”ƒr[ƒ€–C(UŒ‚), ’´ƒr[ƒ€ ƒsƒ“ƒN BeamCannon.wav
-“ª•”ƒr[ƒ€–C(–½’†), ’´ƒr[ƒ€ ƒsƒ“ƒN BeamCannon.wav;”š”­
+æˆ¦é—˜æ©Ÿæ¢°äººãƒ¡ã‚«ãƒžã‚¸ãƒ³
+å³è‚©éƒ¨ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), Reload.wav;ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç·‘ BeamGun.wav
+å³è‚©éƒ¨ãƒ“ãƒ¼ãƒ ç ²(å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç·‘ BeamGun.wav;çˆ†ç™º
+å·¦è‚©éƒ¨ãƒŸã‚µã‚¤ãƒ«ç ²(æ”»æ’ƒ), Reload.wav;å†…è”µã‚¬ãƒˆãƒªãƒ³ã‚° MachineGun.wav
+å·¦è‚©éƒ¨ãƒŸã‚µã‚¤ãƒ«ç ²(å‘½ä¸­), ã‚¬ãƒˆãƒªãƒ³ã‚° MachineGun.wav;çˆ†ç™º
+é ­éƒ¨ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), è¶…ãƒ“ãƒ¼ãƒ  ãƒ”ãƒ³ã‚¯ BeamCannon.wav
+é ­éƒ¨ãƒ“ãƒ¼ãƒ ç ²(å‘½ä¸­), è¶…ãƒ“ãƒ¼ãƒ  ãƒ”ãƒ³ã‚¯ BeamCannon.wav;çˆ†ç™º
 
 
-í“¬‹@ŠBlƒƒJƒƒ{ƒ^[
-–Ò“Åj(€”õ), “Ë‚­•Ší "DGoods\EFFECT_Syringe(White)01.bmp" 32 LaserGun(80s).wav
-–Ò“Åj(UŒ‚), Žh“Ë -.wav
-–Ò“Åj(–½’†), Žh“Ë Stab.wav
-Ši“¬, ƒLƒbƒN
-Ši“¬, “Š‚°”ò‚Î‚µ
-‹¹•”ƒ~ƒTƒCƒ‹–C(UŒ‚), “à‘ ƒKƒgƒŠƒ“ƒO MachineGun.wav
-‹¹•”ƒ~ƒTƒCƒ‹–C(–½’†), ƒKƒgƒŠƒ“ƒO MachineGun.wav;”š”­
+æˆ¦é—˜æ©Ÿæ¢°äººãƒ¡ã‚«ãƒ­ãƒœã‚¿ãƒ¼
+çŒ›æ¯’é‡(æº–å‚™), çªãæ­¦å™¨ "DGoods\EFFECT_Syringe(White)01.bmp" 32 LaserGun(80s).wav
+çŒ›æ¯’é‡(æ”»æ’ƒ), åˆºçª -.wav
+çŒ›æ¯’é‡(å‘½ä¸­), åˆºçª Stab.wav
+æ ¼é—˜, ã‚­ãƒƒã‚¯
+æ ¼é—˜, æŠ•ã’é£›ã°ã—
+èƒ¸éƒ¨ãƒŸã‚µã‚¤ãƒ«ç ²(æ”»æ’ƒ), å†…è”µã‚¬ãƒˆãƒªãƒ³ã‚° MachineGun.wav
+èƒ¸éƒ¨ãƒŸã‚µã‚¤ãƒ«ç ²(å‘½ä¸­), ã‚¬ãƒˆãƒªãƒ³ã‚° MachineGun.wav;çˆ†ç™º
 
 
-í“¬‹@ŠBlƒƒJƒKƒ“ƒ}ƒ“
-UŒ‚–³Œø‰»(ƒI[ƒgƒoƒŠƒA), ƒr[ƒ€ƒV[ƒ‹ƒh “ Ice.wav ƒI[ƒgƒoƒŠƒA
-Ši“¬, Ši“¬
-Â—³“, Â—´“
-ƒeƒ“ƒKƒƒ“ƒnƒbƒg(€”õ), ‰ñ“]“Š±•Ší "DGoods\EFFECT_SilkHat01.bmp" 32
-ƒeƒ“ƒKƒƒ“ƒnƒbƒg(UŒ‚), ‰ñ“]“Š±•Ší "DGoods\EFFECT_SilkHat01.bmp" 32
-ƒeƒ“ƒKƒƒ“ƒnƒbƒg(–½’†), ƒƒPƒbƒgƒpƒ“ƒ` "DGoods\EFFECT_SilkHat01.bmp" 32 -.wav;”š”­
-ƒXƒiƒCƒp[ƒ‰ƒCƒtƒ‹(€”õ), ŽËŒ‚•Ší "Weapon\EFFECT_SniperRifle02.bmp" 40
-ƒXƒiƒCƒp[ƒ‰ƒCƒtƒ‹(UŒ‚), ƒ{ƒ‹ƒgƒAƒNƒVƒ‡ƒ“ƒ‰ƒCƒtƒ‹ "Weapon\EFFECT_SniperRifle02.bmp" 40
-ƒXƒiƒCƒp[ƒ‰ƒCƒtƒ‹(–½’†), ”š”­
-¶˜r•”ƒ}ƒVƒ“ƒKƒ“(€”õ), ŽËŒ‚•Ší "Weapon\EFFECT_SubMachineGun01.bmp" 32
-¶˜r•”ƒ}ƒVƒ“ƒKƒ“(UŒ‚), ƒ}ƒVƒ“ƒKƒ“ "Weapon\EFFECT_SubMachineGun01.bmp" 32
-¶˜r•”ƒ}ƒVƒ“ƒKƒ“(–½’†), ƒ}ƒVƒ“ƒKƒ“;”š”­
+æˆ¦é—˜æ©Ÿæ¢°äººãƒ¡ã‚«ã‚¬ãƒ³ãƒžãƒ³
+æ”»æ’ƒç„¡åŠ¹åŒ–(ã‚ªãƒ¼ãƒˆãƒãƒªã‚¢), ãƒ“ãƒ¼ãƒ ã‚·ãƒ¼ãƒ«ãƒ‰ æ¡ƒ Ice.wav ã‚ªãƒ¼ãƒˆãƒãƒªã‚¢
+æ ¼é—˜, æ ¼é—˜
+é’ç«œåˆ€, é’é¾åˆ€
+ãƒ†ãƒ³ã‚¬ãƒ­ãƒ³ãƒãƒƒãƒˆ(æº–å‚™), å›žè»¢æŠ•æ“²æ­¦å™¨ "DGoods\EFFECT_SilkHat01.bmp" 32
+ãƒ†ãƒ³ã‚¬ãƒ­ãƒ³ãƒãƒƒãƒˆ(æ”»æ’ƒ), å›žè»¢æŠ•æ“²æ­¦å™¨ "DGoods\EFFECT_SilkHat01.bmp" 32
+ãƒ†ãƒ³ã‚¬ãƒ­ãƒ³ãƒãƒƒãƒˆ(å‘½ä¸­), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "DGoods\EFFECT_SilkHat01.bmp" 32 -.wav;çˆ†ç™º
+ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼ãƒ©ã‚¤ãƒ•ãƒ«(æº–å‚™), å°„æ’ƒæ­¦å™¨ "Weapon\EFFECT_SniperRifle02.bmp" 40
+ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼ãƒ©ã‚¤ãƒ•ãƒ«(æ”»æ’ƒ), ãƒœãƒ«ãƒˆã‚¢ã‚¯ã‚·ãƒ§ãƒ³ãƒ©ã‚¤ãƒ•ãƒ« "Weapon\EFFECT_SniperRifle02.bmp" 40
+ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼ãƒ©ã‚¤ãƒ•ãƒ«(å‘½ä¸­), çˆ†ç™º
+å·¦è…•éƒ¨ãƒžã‚·ãƒ³ã‚¬ãƒ³(æº–å‚™), å°„æ’ƒæ­¦å™¨ "Weapon\EFFECT_SubMachineGun01.bmp" 32
+å·¦è…•éƒ¨ãƒžã‚·ãƒ³ã‚¬ãƒ³(æ”»æ’ƒ), ãƒžã‚·ãƒ³ã‚¬ãƒ³ "Weapon\EFFECT_SubMachineGun01.bmp" 32
+å·¦è…•éƒ¨ãƒžã‚·ãƒ³ã‚¬ãƒ³(å‘½ä¸­), ãƒžã‚·ãƒ³ã‚¬ãƒ³;çˆ†ç™º
 
-## ƒeƒ“ƒKƒƒ“‚Ì‰æ‘œ‚ª‚È‚¢‚Ì‚ÅƒVƒ‹ƒNƒnƒbƒg‚Å‘ã—pB
-## ƒr[ƒ€ƒoƒŠƒA‚Í³•ûŒ`B
+## ãƒ†ãƒ³ã‚¬ãƒ­ãƒ³ã®ç”»åƒãŒãªã„ã®ã§ã‚·ãƒ«ã‚¯ãƒãƒƒãƒˆã§ä»£ç”¨ã€‚
+## ãƒ“ãƒ¼ãƒ ãƒãƒªã‚¢ã¯æ­£æ–¹å½¢ã€‚
 
 
 
-í“¬‹@ŠBlƒƒJƒtƒŠ[ƒU[
-‘|œ‹@, ƒtƒbƒNƒ[ƒv
-—â“€ƒKƒX(UŒ‚), 5;Reload(5).wav;‰Œ•¬ŽË ”’ Mist.wav
-—â“€ƒKƒX(–½’†), ‰Œ•¬ŽË ”’ Mist.wav
-“ª•”ƒr[ƒ€(€”õ), -
-“ª•”ƒr[ƒ€(UŒ‚), ƒXƒ‰ƒbƒVƒ…ƒr[ƒ€ Ô LaserGun.wav
-“ª•”ƒr[ƒ€(–½’†), ƒXƒ‰ƒbƒVƒ…ƒr[ƒ€ Ô LaserGun.wav;”š”­
+æˆ¦é—˜æ©Ÿæ¢°äººãƒ¡ã‚«ãƒ•ãƒªãƒ¼ã‚¶ãƒ¼
+æŽƒé™¤æ©Ÿ, ãƒ•ãƒƒã‚¯ãƒ­ãƒ¼ãƒ—
+å†·å‡ã‚¬ã‚¹(æ”»æ’ƒ), 5;Reload(5).wav;ç…™å™´å°„ ç™½ Mist.wav
+å†·å‡ã‚¬ã‚¹(å‘½ä¸­), ç…™å™´å°„ ç™½ Mist.wav
+é ­éƒ¨ãƒ“ãƒ¼ãƒ (æº–å‚™), -
+é ­éƒ¨ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), ã‚¹ãƒ©ãƒƒã‚·ãƒ¥ãƒ“ãƒ¼ãƒ  èµ¤ LaserGun.wav
+é ­éƒ¨ãƒ“ãƒ¼ãƒ (å‘½ä¸­), ã‚¹ãƒ©ãƒƒã‚·ãƒ¥ãƒ“ãƒ¼ãƒ  èµ¤ LaserGun.wav;çˆ†ç™º
 
 
 
-í“¬‹@ŠBlƒhƒŠƒ‹ƒnƒ“ƒ_[
-Œ¨•”ƒhƒŠƒ‹(€”õ), 6;Drill.wav;6;Drill.wav
-Œ¨•”ƒhƒŠƒ‹(UŒ‚), ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹ ’x;ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹ ’x
-Œ¨•”ƒhƒŠƒ‹(–½’†), ƒƒPƒbƒgƒpƒ“ƒ` "Bullet\EFFECT_DrillMissile01.bmp" 32 Drill.wav
-˜r•”ƒhƒŠƒ‹”­ŽË(€”õ), ƒhƒŠƒ‹ Reload.wav
-˜r•”ƒhƒŠƒ‹”­ŽË(UŒ‚), ƒƒPƒbƒgƒpƒ“ƒ` "Bullet\EFFECT_DrillMissile01.bmp" 32 Drill.wav
-˜r•”ƒhƒŠƒ‹”­ŽË(–½’†), ƒƒPƒbƒgƒpƒ“ƒ` "Bullet\EFFECT_DrillMissile01.bmp" 32 Drill.wav
-˜r•”ƒhƒŠƒ‹, ƒhƒŠƒ‹
+æˆ¦é—˜æ©Ÿæ¢°äººãƒ‰ãƒªãƒ«ãƒãƒ³ãƒ€ãƒ¼
+è‚©éƒ¨ãƒ‰ãƒªãƒ«(æº–å‚™), 6;Drill.wav;6;Drill.wav
+è‚©éƒ¨ãƒ‰ãƒªãƒ«(æ”»æ’ƒ), ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ« é…;ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ« é…
+è‚©éƒ¨ãƒ‰ãƒªãƒ«(å‘½ä¸­), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "Bullet\EFFECT_DrillMissile01.bmp" 32 Drill.wav
+è…•éƒ¨ãƒ‰ãƒªãƒ«ç™ºå°„(æº–å‚™), ãƒ‰ãƒªãƒ« Reload.wav
+è…•éƒ¨ãƒ‰ãƒªãƒ«ç™ºå°„(æ”»æ’ƒ), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "Bullet\EFFECT_DrillMissile01.bmp" 32 Drill.wav
+è…•éƒ¨ãƒ‰ãƒªãƒ«ç™ºå°„(å‘½ä¸­), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "Bullet\EFFECT_DrillMissile01.bmp" 32 Drill.wav
+è…•éƒ¨ãƒ‰ãƒªãƒ«, ãƒ‰ãƒªãƒ«
 
 
 
-í“¬‹@ŠBlƒ{ƒXƒRƒ“ƒO
-‘jŽ~(Šš‚Ý•t‚«), @í“¬ƒAƒjƒ_Šš‚Ý•t‚«–½’†;Sword.wav
-ƒpƒ“ƒ`, ‘Å“Ë Walk(Robot).wav
-ƒƒPƒbƒgƒpƒ“ƒ`(€”õ), ƒƒPƒbƒgƒpƒ“ƒ` "Hand\EFFECT_Punch(White)03.bmp" 32 -.wav
-ƒƒPƒbƒgƒpƒ“ƒ`(UŒ‚), ƒƒPƒbƒgƒpƒ“ƒ` "Hand\EFFECT_Punch(White)03.bmp" 32 Cannon(4Shot).wav
-ƒƒPƒbƒgƒpƒ“ƒ`(–½’†), ƒƒPƒbƒgƒpƒ“ƒ` "Hand\EFFECT_Punch(White)03.bmp" 32;”š”­
+æˆ¦é—˜æ©Ÿæ¢°äººãƒœã‚¹ã‚³ãƒ³ã‚°
+é˜»æ­¢(å™›ã¿ä»˜ã), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å™›ã¿ä»˜ãå‘½ä¸­;Sword.wav
+ãƒ‘ãƒ³ãƒ, æ‰“çª Walk(Robot).wav
+ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ(æº–å‚™), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "Hand\EFFECT_Punch(White)03.bmp" 32 -.wav
+ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ(æ”»æ’ƒ), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "Hand\EFFECT_Punch(White)03.bmp" 32 Cannon(4Shot).wav
+ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ(å‘½ä¸­), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "Hand\EFFECT_Punch(White)03.bmp" 32;çˆ†ç™º
 
 
 
-í“¬‹@ŠBlƒuƒƒbƒJ[
-‰E˜r•”ƒNƒ[, ƒVƒ~ƒ^[
-‰E˜r•”ƒNƒ[”­ŽË(€”õ), “Ë‚­•Ší "Weapon\EFFECT_Scimitar(T)01.bmp"
-‰E˜r•”ƒNƒ[”­ŽË(UŒ‚), ŽÀ’e”­ŽË "Weapon\EFFECT_Scimitar(T)01.bmp"
-‰E˜r•”ƒNƒ[”­ŽË(–½’†), Žh“Ë
-¶˜r•”ƒƒPƒbƒgƒpƒ“ƒ`(€”õ), ŽËŒ‚•Ší "Hand\EFFECT_Punch(White)03.bmp" -.wav
-¶˜r•”ƒƒPƒbƒgƒpƒ“ƒ`(UŒ‚), ŽÀ’e”­ŽË "Hand\EFFECT_Punch(White)03.bmp" Zapper.wav
-¶˜r•”ƒƒPƒbƒgƒpƒ“ƒ`(–½’†), ƒƒPƒbƒgƒpƒ“ƒ` "Hand\EFFECT_Punch(White)03.bmp";”š”­
-‰EŒ¨•”‚Q˜Aƒ~ƒTƒCƒ‹–C(€”õ), Reload(3).wav
-‰EŒ¨•”‚Q˜Aƒ~ƒTƒCƒ‹–C(UŒ‚), “à‘ ƒ`ƒF[ƒ“ƒKƒ“ MachineGun.wav Ô
-‰EŒ¨•”‚Q˜Aƒ~ƒTƒCƒ‹–C(–½’†), “à‘ ƒ`ƒF[ƒ“ƒKƒ“ MachineGun.wav Ô;˜A‘±”š”­
-//‰E˜r•”ƒ~ƒTƒCƒ‹–C, ƒ}ƒVƒ“ƒLƒƒƒmƒ“ MachineGun.wav Ô
-//ŠO‘•‚ª‘•’…‚³‚ê‚é‘O‚ÉŽg—pB
+æˆ¦é—˜æ©Ÿæ¢°äººãƒ–ãƒ­ãƒƒã‚«ãƒ¼
+å³è…•éƒ¨ã‚¯ãƒ­ãƒ¼, ã‚·ãƒŸã‚¿ãƒ¼
+å³è…•éƒ¨ã‚¯ãƒ­ãƒ¼ç™ºå°„(æº–å‚™), çªãæ­¦å™¨ "Weapon\EFFECT_Scimitar(T)01.bmp"
+å³è…•éƒ¨ã‚¯ãƒ­ãƒ¼ç™ºå°„(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ "Weapon\EFFECT_Scimitar(T)01.bmp"
+å³è…•éƒ¨ã‚¯ãƒ­ãƒ¼ç™ºå°„(å‘½ä¸­), åˆºçª
+å·¦è…•éƒ¨ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ(æº–å‚™), å°„æ’ƒæ­¦å™¨ "Hand\EFFECT_Punch(White)03.bmp" -.wav
+å·¦è…•éƒ¨ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ "Hand\EFFECT_Punch(White)03.bmp" Zapper.wav
+å·¦è…•éƒ¨ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ(å‘½ä¸­), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "Hand\EFFECT_Punch(White)03.bmp";çˆ†ç™º
+å³è‚©éƒ¨ï¼’é€£ãƒŸã‚µã‚¤ãƒ«ç ²(æº–å‚™), Reload(3).wav
+å³è‚©éƒ¨ï¼’é€£ãƒŸã‚µã‚¤ãƒ«ç ²(æ”»æ’ƒ), å†…è”µãƒã‚§ãƒ¼ãƒ³ã‚¬ãƒ³ MachineGun.wav èµ¤
+å³è‚©éƒ¨ï¼’é€£ãƒŸã‚µã‚¤ãƒ«ç ²(å‘½ä¸­), å†…è”µãƒã‚§ãƒ¼ãƒ³ã‚¬ãƒ³ MachineGun.wav èµ¤;é€£ç¶šçˆ†ç™º
+//å³è…•éƒ¨ãƒŸã‚µã‚¤ãƒ«ç ², ãƒžã‚·ãƒ³ã‚­ãƒ£ãƒŽãƒ³ MachineGun.wav èµ¤
+//å¤–è£…ãŒè£…ç€ã•ã‚Œã‚‹å‰ã«ä½¿ç”¨ã€‚
 
 
 
-í“¬‹@ŠBlƒh[ƒxƒ‰[
-“Š‚°”ò‚Î‚µ, “Š‚°”ò‚Î‚µ
-• •”’ãŽ@ƒƒJƒr[ƒ€–C(€”õ), ‚µ‚à‚× "Animal\EFFECT_Bird01.bmp"
-• •”’ãŽ@ƒƒJƒr[ƒ€–C(UŒ‚), ŽÀ’e”­ŽË "Animal\EFFECT_Bird01.bmp" 32 Whiz(2).wav
-• •”’ãŽ@ƒƒJƒr[ƒ€–C(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô;”š”­
-Œõ’e(€”õ), -
-Œõ’e(UŒ‚), Œõ’e Ô BeamGun.wav;Œõ’e Ô BeamGun.wav
-Œõ’e(–½’†), ”š”­
+æˆ¦é—˜æ©Ÿæ¢°äººãƒ‰ãƒ¼ãƒ™ãƒ©ãƒ¼
+æŠ•ã’é£›ã°ã—, æŠ•ã’é£›ã°ã—
+è…¹éƒ¨åµå¯Ÿãƒ¡ã‚«ãƒ“ãƒ¼ãƒ ç ²(æº–å‚™), ã—ã‚‚ã¹ "Animal\EFFECT_Bird01.bmp"
+è…¹éƒ¨åµå¯Ÿãƒ¡ã‚«ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ "Animal\EFFECT_Bird01.bmp" 32 Whiz(2).wav
+è…¹éƒ¨åµå¯Ÿãƒ¡ã‚«ãƒ“ãƒ¼ãƒ ç ²(å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤;çˆ†ç™º
+å…‰å¼¾(æº–å‚™), -
+å…‰å¼¾(æ”»æ’ƒ), å…‰å¼¾ èµ¤ BeamGun.wav;å…‰å¼¾ èµ¤ BeamGun.wav
+å…‰å¼¾(å‘½ä¸­), çˆ†ç™º
 
 
 
-í“¬‹@ŠBlƒfƒ“ƒWƒ‰[
-ƒfƒ“ƒW‚µ‚Î‚èƒr[ƒ€(UŒ‚), ‘å“dŒ‚ —Î BeamSaber(4).wav
-ƒfƒ“ƒW‚µ‚Î‚èƒr[ƒ€(–½’†), ‘å“dŒ‚ —Î BeamSaber(4).wav;•ú“d
-ƒƒCƒ„[ƒNƒ[ƒA[ƒ€(€”õ), ŽËŒ‚•Ší "Hand\EFFECT_Punch(White)10.bmp" 64 -.wav
-ƒƒCƒ„[ƒNƒ[ƒA[ƒ€(UŒ‚), ŽÀ’e”­ŽË "Hand\EFFECT_Punch(White)10.bmp" 64 Whiz.wav ’x —Lü;_
-							ŽÀ’e”­ŽË "Hand\EFFECT_Punch(White)10.bmp" 64 Whiz.wav ’x —Lü
-ƒƒCƒ„[ƒNƒ[ƒA[ƒ€(–½’†), Šš‚Ý•t‚« Chaff.wav;Šš‚Ý•t‚« Chaff.wav
-
-
+æˆ¦é—˜æ©Ÿæ¢°äººãƒ‡ãƒ³ã‚¸ãƒ©ãƒ¼
+ãƒ‡ãƒ³ã‚¸ã—ã°ã‚Šãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), å¤§é›»æ’ƒ ç·‘ BeamSaber(4).wav
+ãƒ‡ãƒ³ã‚¸ã—ã°ã‚Šãƒ“ãƒ¼ãƒ (å‘½ä¸­), å¤§é›»æ’ƒ ç·‘ BeamSaber(4).wav;æ”¾é›»
+ãƒ¯ã‚¤ãƒ¤ãƒ¼ã‚¯ãƒ­ãƒ¼ã‚¢ãƒ¼ãƒ (æº–å‚™), å°„æ’ƒæ­¦å™¨ "Hand\EFFECT_Punch(White)10.bmp" 64 -.wav
+ãƒ¯ã‚¤ãƒ¤ãƒ¼ã‚¯ãƒ­ãƒ¼ã‚¢ãƒ¼ãƒ (æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ "Hand\EFFECT_Punch(White)10.bmp" 64 Whiz.wav é… æœ‰ç·š;_
+							å®Ÿå¼¾ç™ºå°„ "Hand\EFFECT_Punch(White)10.bmp" 64 Whiz.wav é… æœ‰ç·š
+ãƒ¯ã‚¤ãƒ¤ãƒ¼ã‚¯ãƒ­ãƒ¼ã‚¢ãƒ¼ãƒ (å‘½ä¸­), å™›ã¿ä»˜ã Chaff.wav;å™›ã¿ä»˜ã Chaff.wav
+
+
 
-í“¬‹@ŠBlƒVƒƒƒŠƒ“ƒ_[
-ƒV[ƒ‹ƒh–hŒä, ƒV[ƒ‹ƒh–hŒä "DGoods\EFFECT_Wheel01.bmp" 32
-ƒpƒ“ƒ`, ‘Å“Ë ”’
-˜r•”ŽÔ—Ö(€”õ), “Š±•Ší "DGoods\EFFECT_Wheel01.bmp" 32 -.wav “ñ“—¬
-˜r•”ŽÔ—Ö(UŒ‚), ‰ñ“]“Š±•Ší "DGoods\EFFECT_Wheel01.bmp" 32 Drill(2).wav;_
-				‰ñ“]“Š±•Ší "DGoods\EFFECT_Wheel01.bmp" 32 Drill(2).wav ‰º“Š‚°
-˜r•”ŽÔ—Ö(–½’†), ”š”­;”š”­
-“ª•”ƒr[ƒ€(UŒ‚), ‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ Ô BeamSaber(4).wav
-“ª•”ƒr[ƒ€(–½’†), ‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ Ô BeamSaber(4).wav;”š”­
-
+æˆ¦é—˜æ©Ÿæ¢°äººã‚·ãƒ£ãƒªãƒ³ãƒ€ãƒ¼
+ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡, ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡ "DGoods\EFFECT_Wheel01.bmp" 32
+ãƒ‘ãƒ³ãƒ, æ‰“çª ç™½
+è…•éƒ¨è»Šè¼ª(æº–å‚™), æŠ•æ“²æ­¦å™¨ "DGoods\EFFECT_Wheel01.bmp" 32 -.wav äºŒåˆ€æµ
+è…•éƒ¨è»Šè¼ª(æ”»æ’ƒ), å›žè»¢æŠ•æ“²æ­¦å™¨ "DGoods\EFFECT_Wheel01.bmp" 32 Drill(2).wav;_
+				å›žè»¢æŠ•æ“²æ­¦å™¨ "DGoods\EFFECT_Wheel01.bmp" 32 Drill(2).wav ä¸‹æŠ•ã’
+è…•éƒ¨è»Šè¼ª(å‘½ä¸­), çˆ†ç™º;çˆ†ç™º
+é ­éƒ¨ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ BeamSaber(4).wav
+é ­éƒ¨ãƒ“ãƒ¼ãƒ (å‘½ä¸­), ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ BeamSaber(4).wav;çˆ†ç™º
+
 
 
-í“¬‹@ŠBlƒT[ƒ^ƒ“
-Žw•”ƒr[ƒ€–C(UŒ‚), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô BeamSaber(4).wav
-Žw•”ƒr[ƒ€–C(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô BeamSaber(4).wav;”š”­
-”Ø“, ŽaŒ‚•Ší "Weapon\EFFECT_SeiryuTou01.bmp"
-“ª•”ƒJƒbƒ^[(€”õ), Swing.wav
-“ª•”ƒJƒbƒ^[(UŒ‚), ‰ñ“]”­ŽË "Bullet\EFFECT_ShootingCutter(Black)01.bmp" Machine.wav
-“ª•”ƒJƒbƒ^[(–½’†), ƒƒPƒbƒgƒpƒ“ƒ` "Bullet\EFFECT_ShootingCutter(Black)01.bmp" Slash.wav;”š”­
+æˆ¦é—˜æ©Ÿæ¢°äººã‚µãƒ¼ã‚¿ãƒ³
+æŒ‡éƒ¨ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ BeamSaber(4).wav
+æŒ‡éƒ¨ãƒ“ãƒ¼ãƒ ç ²(å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ BeamSaber(4).wav;çˆ†ç™º
+è›®åˆ€, æ–¬æ’ƒæ­¦å™¨ "Weapon\EFFECT_SeiryuTou01.bmp"
+é ­éƒ¨ã‚«ãƒƒã‚¿ãƒ¼(æº–å‚™), Swing.wav
+é ­éƒ¨ã‚«ãƒƒã‚¿ãƒ¼(æ”»æ’ƒ), å›žè»¢ç™ºå°„ "Bullet\EFFECT_ShootingCutter(Black)01.bmp" Machine.wav
+é ­éƒ¨ã‚«ãƒƒã‚¿ãƒ¼(å‘½ä¸­), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "Bullet\EFFECT_ShootingCutter(Black)01.bmp" Slash.wav;çˆ†ç™º
 
 
 
-í“¬‹@ŠBlƒSƒhƒ‰[
-ƒpƒ“ƒ`, ‘Å“Ë
-“ª•”ƒr[ƒ€(€”õ), -
-“ª•”ƒr[ƒ€(UŒ‚), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô BeamSaber(2).wav
-“ª•”ƒr[ƒ€(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ Ô BeamSaber(2).wav;”š”­
-‹¹•”ƒ~ƒTƒCƒ‹(€”õ), ”­Œõ ƒIƒŒƒ“ƒW BeamSaber(5).wav;”­Œõ ƒIƒŒƒ“ƒW BeamSaber(5).wav;”­Œõ ƒIƒŒƒ“ƒW BeamSaber(5).wav
-‹¹•”ƒ~ƒTƒCƒ‹(UŒ‚), ’†ƒr[ƒ€ ”’ BeamCoat.wav
-‹¹•”ƒ~ƒTƒCƒ‹(–½’†), 4;ƒ†ƒjƒbƒg•ÏF ‰© -.wav;@í“¬ƒAƒjƒ_ƒ~ƒTƒCƒ‹UŒ‚;”š”­
-‹¹•”ƒ~ƒTƒCƒ‹—ŽË(€”õ), Walk(Robot).wav
-‹¹•”ƒ~ƒTƒCƒ‹—ŽË(UŒ‚), ƒ~ƒTƒCƒ‹ 3 ‘¬ Missile.wav
-‹¹•”ƒ~ƒTƒCƒ‹—ŽË(–½’†), ‚l‚`‚o˜A‹C’e ‰© ‘¬;‚l‚`‚o˜A‹C’e ‰© ‘¬;‚l‚`‚o˜A‹C’e ‰© ‘¬;‘å”š”­
-ƒ[ƒŠƒ“ƒOƒAƒ^ƒbƒN(UŒ‚), •ÏŒ` "Anime\BodyParts\EFFECT_CellWall(Green)01.bmp";ƒ^ƒbƒNƒ‹
-ƒ[ƒŠƒ“ƒOƒAƒ^ƒbƒN(–½’†), ‹­‘Å
+æˆ¦é—˜æ©Ÿæ¢°äººã‚´ãƒ‰ãƒ©ãƒ¼
+ãƒ‘ãƒ³ãƒ, æ‰“çª
+é ­éƒ¨ãƒ“ãƒ¼ãƒ (æº–å‚™), -
+é ­éƒ¨ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ BeamSaber(2).wav
+é ­éƒ¨ãƒ“ãƒ¼ãƒ (å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  èµ¤ BeamSaber(2).wav;çˆ†ç™º
+èƒ¸éƒ¨ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), ç™ºå…‰ ã‚ªãƒ¬ãƒ³ã‚¸ BeamSaber(5).wav;ç™ºå…‰ ã‚ªãƒ¬ãƒ³ã‚¸ BeamSaber(5).wav;ç™ºå…‰ ã‚ªãƒ¬ãƒ³ã‚¸ BeamSaber(5).wav
+èƒ¸éƒ¨ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ä¸­ãƒ“ãƒ¼ãƒ  ç™½ BeamCoat.wav
+èƒ¸éƒ¨ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), 4;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² é»„ -.wav;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒŸã‚µã‚¤ãƒ«æ”»æ’ƒ;çˆ†ç™º
+èƒ¸éƒ¨ãƒŸã‚µã‚¤ãƒ«ä¹±å°„(æº–å‚™), Walk(Robot).wav
+èƒ¸éƒ¨ãƒŸã‚µã‚¤ãƒ«ä¹±å°„(æ”»æ’ƒ), ãƒŸã‚µã‚¤ãƒ« 3 é€Ÿ Missile.wav
+èƒ¸éƒ¨ãƒŸã‚µã‚¤ãƒ«ä¹±å°„(å‘½ä¸­), ï¼­ï¼¡ï¼°é€£æ°—å¼¾ é»„ é€Ÿ;ï¼­ï¼¡ï¼°é€£æ°—å¼¾ é»„ é€Ÿ;ï¼­ï¼¡ï¼°é€£æ°—å¼¾ é»„ é€Ÿ;å¤§çˆ†ç™º
+ãƒ­ãƒ¼ãƒªãƒ³ã‚°ã‚¢ã‚¿ãƒƒã‚¯(æ”»æ’ƒ), å¤‰å½¢ "Anime\BodyParts\EFFECT_CellWall(Green)01.bmp";ã‚¿ãƒƒã‚¯ãƒ«
+ãƒ­ãƒ¼ãƒªãƒ³ã‚°ã‚¢ã‚¿ãƒƒã‚¯(å‘½ä¸­), å¼·æ‰“
 
-#### ƒjƒ…[í“¬‹@ŠBl ---------------------------
+#### ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äºº ---------------------------
 
-ƒjƒ…[í“¬‹@ŠBlƒpƒ“ƒ`ƒƒ[
-Ši“¬, Ši“¬
-‰E˜rƒA[ƒ€, ƒƒPƒbƒgƒpƒ“ƒ` "Hand\EFFECT_Punch(Red)09.bmp" 32
-
-
-ƒjƒ…[í“¬‹@ŠBlƒƒh[
-‘«•¥‚¢(UŒ‚), ‚È‚¬•¥‚¢
-‘«•¥‚¢(–½’†), ƒAƒbƒp[
-ƒ{ƒEƒKƒ“(€”õ), ƒA[ƒ`ƒFƒŠ[ƒ{ƒE
-ƒ{ƒEƒKƒ“(UŒ‚), ƒA[ƒ`ƒFƒŠ[ƒ{ƒE Sword(2).wav;ƒA[ƒ`ƒFƒŠ[ƒ{ƒE Sword(2).wav
-ƒ{ƒEƒKƒ“(–½’†), –î Sword(2).wav;–î Sword(2).wav;”š”­
-
-
-ƒjƒ…[í“¬‹@ŠBlƒJ[ƒ~ƒ‰[
-Ši“¬, ’Ü
-‹zŒŒŠÇ(UŒ‚), ã
-‹zŒŒŠÇ(–½’†), ‘ÅŒ‚ Whip.wav
-Šš‚Ý•t‚«, Šš‚Ý•t‚«
-
-
-ƒjƒ…[í“¬‹@ŠBlƒfƒBƒXƒN
-”½ŽË(ƒr[ƒ€”½ŽË), ƒV[ƒ‹ƒh–hŒä "DGoods\EFFECT_CompactDisk01.bmp" 32 BeamCoat.wav ”­Œõ ƒr[ƒ€”½ŽË
-‰E˜r•”ƒfƒBƒXƒN, ŽaŒ‚•Ší "DGoods\EFFECT_CompactDisk01.bmp" 32
-‰E˜r•”ƒfƒBƒXƒNŽËo(€”õ), “Š±•Ší "DGoods\EFFECT_CompactDisk01.bmp" 32
-‰E˜r•”ƒfƒBƒXƒNŽËo(UŒ‚), ŽÀ’e”­ŽË "DGoods\EFFECT_CompactDisk01.bmp" 32 Sword(2).wav
-‰E˜r•”ƒfƒBƒXƒNŽËo(–½’†), ƒƒPƒbƒgƒpƒ“ƒ` "DGoods\EFFECT_CompactDisk01.bmp" 32 -.wav;”š”­
-‰E˜r•”ƒfƒBƒXƒNƒr[ƒ€(€”õ), ŽËŒ‚•Ší "DGoods\EFFECT_CompactDisk01.bmp" 32 ”­Œõ -.wav
-‰E˜r•”ƒfƒBƒXƒNƒr[ƒ€(UŒ‚), ƒŒƒCƒ“ƒ{[ƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[ "DGoods\EFFECT_CompactDisk01.bmp" 32 ”­Œõ LaserGun.wav ƒ`ƒƒ[ƒW‚È‚µ
-‰E˜r•”ƒfƒBƒXƒNƒr[ƒ€(–½’†), ƒŒƒCƒ“ƒ{[ƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[ LaserGun.wav
-“ª•”ƒfƒBƒXƒN(UŒ‚), _
-	ŽÀ’e”­ŽË "DGoods\EFFECT_CompactDisk01.bmp" 32 BeamShot.wav ”­Œõ ‘¬;_
-	ŽÀ’e”­ŽË "DGoods\EFFECT_CompactDisk01.bmp" 32 BeamShot.wav ”­Œõ ‘¬;_
-	ŽÀ’e”­ŽË "DGoods\EFFECT_CompactDisk01.bmp" 32 BeamShot.wav ”­Œõ ‘¬;_
-	ŽÀ’e”­ŽË "DGoods\EFFECT_CompactDisk01.bmp" 32 BeamShot.wav ”­Œõ ‘¬;_
-	ŽÀ’e”­ŽË "DGoods\EFFECT_CompactDisk01.bmp" 32 BeamShot.wav ”­Œõ ‘¬
-“ª•”ƒfƒBƒXƒN(–½’†), ˜A‘±”š”­
-
-
-ƒjƒ…[í“¬‹@ŠBlƒIƒtƒTƒCƒh
-Ši“¬, ‘Å“Ë
-ƒ^ƒbƒNƒ‹, ƒ^ƒbƒNƒ‹
-“ª•”ƒtƒbƒgƒ{[ƒ‹(€”õ), ŽËŒ‚•Ší "Bullet\EFFECT_STG_Bullet(Orange)05.bmp" 32 Walk(Snow).wav;4;UnitOn.wav
-“ª•”ƒtƒbƒgƒ{[ƒ‹(UŒ‚), ‰ñ“]“Š±•Ší "Bullet\EFFECT_STG_Bullet(Orange)05.bmp" 32 ’x Drill.wav
-“ª•”ƒtƒbƒgƒ{[ƒ‹(UŒ‚), R‚è”ò‚Î‚µ•Ší "Bullet\EFFECT_STG_Bullet(Orange)05.bmp" 32 Jet.wav
-“ª•”ƒtƒbƒgƒ{[ƒ‹(–½’†), ‘å”š”­ ”’
-
-
-ƒjƒ…[í“¬‹@ŠBlƒNƒ‹ƒ}ƒ“(ŽÔ)
-UŒ‚–³Œø‰»(ƒr[ƒ€ƒoƒŠƒA), ƒoƒŠƒA BeamCoat.wav ƒr[ƒ€ƒoƒŠƒA ‰©
-ƒr[ƒ€(UŒ‚), ‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ ‰© Beam.wav
-ƒr[ƒ€(–½’†), ‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ ‰© Beam.wav
-‘Ì“–‚½‚è(€”õ), Engine.wav
-‘Ì“–‚½‚è(UŒ‚), ƒX[ƒp[ƒ^ƒbƒNƒ‹ • Bike.wav
-‘Ì“–‚½‚è(UŒ‚), ƒX[ƒp[ƒ^ƒbƒNƒ‹ • Crash.wav
-
-ƒjƒ…[í“¬‹@ŠBlƒNƒ‹ƒ}ƒ“
-Ši“¬, ‘Å“Ë •
-‘Ì“–‚½‚è<MAP>(€”õ), Engine.wav
-‘Ì“–‚½‚è<MAP>(UŒ‚), ‚l‚`‚o•ÏŒ`ˆÚ“®ƒ^ƒbƒNƒ‹ "SPL_Kuruman(C)U.bmp" • Bike.wav
-‘Ì“–‚½‚è<MAP>(–½’†), ‹­‘Å Crash.wav
-
-
-ƒjƒ…[í“¬‹@ŠBlƒAƒ“ƒgƒ€
-Ši“¬, ‘Å“Ë
-Ši“¬, ƒXƒsƒ“ƒLƒbƒN
-‹aŽ_(UŒ‚), …—¬ Mist.wav —Î
-‹aŽ_(–½’†), …—¬ Mist.wav —Î
-ƒƒJ‰H‹a(€”õ), –I UnitOn(2).wav
-ƒƒJ‰H‹a(UŒ‚), –I
-ƒƒJ‰H‹a(–½’†), Žh“Ë ”’;•ú“d
-
-
-ƒjƒ…[í“¬‹@ŠBlƒcƒ^[ƒ‰
-’Ó, GŽè—•‘ —Î
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººãƒ‘ãƒ³ãƒãƒ£ãƒ¼
+æ ¼é—˜, æ ¼é—˜
+å³è…•ã‚¢ãƒ¼ãƒ , ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "Hand\EFFECT_Punch(Red)09.bmp" 32
+
+
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººãƒ¡ãƒ‰ãƒ¼
+è¶³æ‰•ã„(æ”»æ’ƒ), ãªãŽæ‰•ã„
+è¶³æ‰•ã„(å‘½ä¸­), ã‚¢ãƒƒãƒ‘ãƒ¼
+ãƒœã‚¦ã‚¬ãƒ³(æº–å‚™), ã‚¢ãƒ¼ãƒã‚§ãƒªãƒ¼ãƒœã‚¦
+ãƒœã‚¦ã‚¬ãƒ³(æ”»æ’ƒ), ã‚¢ãƒ¼ãƒã‚§ãƒªãƒ¼ãƒœã‚¦ Sword(2).wav;ã‚¢ãƒ¼ãƒã‚§ãƒªãƒ¼ãƒœã‚¦ Sword(2).wav
+ãƒœã‚¦ã‚¬ãƒ³(å‘½ä¸­), çŸ¢ Sword(2).wav;çŸ¢ Sword(2).wav;çˆ†ç™º
+
+
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººã‚«ãƒ¼ãƒŸãƒ©ãƒ¼
+æ ¼é—˜, çˆª
+å¸è¡€ç®¡(æ”»æ’ƒ), èˆŒ
+å¸è¡€ç®¡(å‘½ä¸­), æ‰“æ’ƒ Whip.wav
+å™›ã¿ä»˜ã, å™›ã¿ä»˜ã
+
+
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººãƒ‡ã‚£ã‚¹ã‚¯
+åå°„(ãƒ“ãƒ¼ãƒ åå°„), ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡ "DGoods\EFFECT_CompactDisk01.bmp" 32 BeamCoat.wav ç™ºå…‰ ãƒ“ãƒ¼ãƒ åå°„
+å³è…•éƒ¨ãƒ‡ã‚£ã‚¹ã‚¯, æ–¬æ’ƒæ­¦å™¨ "DGoods\EFFECT_CompactDisk01.bmp" 32
+å³è…•éƒ¨ãƒ‡ã‚£ã‚¹ã‚¯å°„å‡º(æº–å‚™), æŠ•æ“²æ­¦å™¨ "DGoods\EFFECT_CompactDisk01.bmp" 32
+å³è…•éƒ¨ãƒ‡ã‚£ã‚¹ã‚¯å°„å‡º(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ "DGoods\EFFECT_CompactDisk01.bmp" 32 Sword(2).wav
+å³è…•éƒ¨ãƒ‡ã‚£ã‚¹ã‚¯å°„å‡º(å‘½ä¸­), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "DGoods\EFFECT_CompactDisk01.bmp" 32 -.wav;çˆ†ç™º
+å³è…•éƒ¨ãƒ‡ã‚£ã‚¹ã‚¯ãƒ“ãƒ¼ãƒ (æº–å‚™), å°„æ’ƒæ­¦å™¨ "DGoods\EFFECT_CompactDisk01.bmp" 32 ç™ºå…‰ -.wav
+å³è…•éƒ¨ãƒ‡ã‚£ã‚¹ã‚¯ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), ãƒ¬ã‚¤ãƒ³ãƒœãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼ "DGoods\EFFECT_CompactDisk01.bmp" 32 ç™ºå…‰ LaserGun.wav ãƒãƒ£ãƒ¼ã‚¸ãªã—
+å³è…•éƒ¨ãƒ‡ã‚£ã‚¹ã‚¯ãƒ“ãƒ¼ãƒ (å‘½ä¸­), ãƒ¬ã‚¤ãƒ³ãƒœãƒ¼ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼ LaserGun.wav
+é ­éƒ¨ãƒ‡ã‚£ã‚¹ã‚¯(æ”»æ’ƒ), _
+	å®Ÿå¼¾ç™ºå°„ "DGoods\EFFECT_CompactDisk01.bmp" 32 BeamShot.wav ç™ºå…‰ é€Ÿ;_
+	å®Ÿå¼¾ç™ºå°„ "DGoods\EFFECT_CompactDisk01.bmp" 32 BeamShot.wav ç™ºå…‰ é€Ÿ;_
+	å®Ÿå¼¾ç™ºå°„ "DGoods\EFFECT_CompactDisk01.bmp" 32 BeamShot.wav ç™ºå…‰ é€Ÿ;_
+	å®Ÿå¼¾ç™ºå°„ "DGoods\EFFECT_CompactDisk01.bmp" 32 BeamShot.wav ç™ºå…‰ é€Ÿ;_
+	å®Ÿå¼¾ç™ºå°„ "DGoods\EFFECT_CompactDisk01.bmp" 32 BeamShot.wav ç™ºå…‰ é€Ÿ
+é ­éƒ¨ãƒ‡ã‚£ã‚¹ã‚¯(å‘½ä¸­), é€£ç¶šçˆ†ç™º
+
+
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººã‚ªãƒ•ã‚µã‚¤ãƒ‰
+æ ¼é—˜, æ‰“çª
+ã‚¿ãƒƒã‚¯ãƒ«, ã‚¿ãƒƒã‚¯ãƒ«
+é ­éƒ¨ãƒ•ãƒƒãƒˆãƒœãƒ¼ãƒ«(æº–å‚™), å°„æ’ƒæ­¦å™¨ "Bullet\EFFECT_STG_Bullet(Orange)05.bmp" 32 Walk(Snow).wav;4;UnitOn.wav
+é ­éƒ¨ãƒ•ãƒƒãƒˆãƒœãƒ¼ãƒ«(æ”»æ’ƒ), å›žè»¢æŠ•æ“²æ­¦å™¨ "Bullet\EFFECT_STG_Bullet(Orange)05.bmp" 32 é… Drill.wav
+é ­éƒ¨ãƒ•ãƒƒãƒˆãƒœãƒ¼ãƒ«(æ”»æ’ƒ), è¹´ã‚Šé£›ã°ã—æ­¦å™¨ "Bullet\EFFECT_STG_Bullet(Orange)05.bmp" 32 Jet.wav
+é ­éƒ¨ãƒ•ãƒƒãƒˆãƒœãƒ¼ãƒ«(å‘½ä¸­), å¤§çˆ†ç™º ç™½
+
+
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººã‚¯ãƒ«ãƒžãƒ³(è»Š)
+æ”»æ’ƒç„¡åŠ¹åŒ–(ãƒ“ãƒ¼ãƒ ãƒãƒªã‚¢), ãƒãƒªã‚¢ BeamCoat.wav ãƒ“ãƒ¼ãƒ ãƒãƒªã‚¢ é»„
+ãƒ“ãƒ¼ãƒ (æ”»æ’ƒ), ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  é»„ Beam.wav
+ãƒ“ãƒ¼ãƒ (å‘½ä¸­), ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  é»„ Beam.wav
+ä½“å½“ãŸã‚Š(æº–å‚™), Engine.wav
+ä½“å½“ãŸã‚Š(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« é»’ Bike.wav
+ä½“å½“ãŸã‚Š(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« é»’ Crash.wav
+
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººã‚¯ãƒ«ãƒžãƒ³
+æ ¼é—˜, æ‰“çª é»’
+ä½“å½“ãŸã‚Š<MAP>(æº–å‚™), Engine.wav
+ä½“å½“ãŸã‚Š<MAP>(æ”»æ’ƒ), ï¼­ï¼¡ï¼°å¤‰å½¢ç§»å‹•ã‚¿ãƒƒã‚¯ãƒ« "SPL_Kuruman(C)U.bmp" é»’ Bike.wav
+ä½“å½“ãŸã‚Š<MAP>(å‘½ä¸­), å¼·æ‰“ Crash.wav
+
+
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººã‚¢ãƒ³ãƒˆãƒ 
+æ ¼é—˜, æ‰“çª
+æ ¼é—˜, ã‚¹ãƒ”ãƒ³ã‚­ãƒƒã‚¯
+èŸ»é…¸(æ”»æ’ƒ), æ°´æµ Mist.wav ç·‘
+èŸ»é…¸(å‘½ä¸­), æ°´æµ Mist.wav ç·‘
+ãƒ¡ã‚«ç¾½èŸ»(æº–å‚™), èœ‚ UnitOn(2).wav
+ãƒ¡ã‚«ç¾½èŸ»(æ”»æ’ƒ), èœ‚
+ãƒ¡ã‚«ç¾½èŸ»(å‘½ä¸­), åˆºçª ç™½;æ”¾é›»
+
+
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººãƒ„ã‚¿ãƒ¼ãƒ©
+è”¦, è§¦æ‰‹ä¹±èˆž ç·‘
 
 
-ƒjƒ…[í“¬‹@ŠBlƒoƒCƒJ[
-“Ëi, ƒ^ƒbƒNƒ‹
-ƒ`ƒF[ƒ“, •ª“º
-¶˜r•”ƒr[ƒ€–C(UŒ‚), ƒj[ƒhƒ‹ƒŒ[ƒU[˜AŽË ƒsƒ“ƒN LaserGun.wav
-¶˜r•”ƒr[ƒ€–C(–½’†), ƒj[ƒhƒ‹ƒŒ[ƒU[˜AŽË ƒsƒ“ƒN LaserGun.wav;”š”­
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººãƒã‚¤ã‚«ãƒ¼
+çªé€², ã‚¿ãƒƒã‚¯ãƒ«
+ãƒã‚§ãƒ¼ãƒ³, åˆ†éŠ…
+å·¦è…•éƒ¨ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), ãƒ‹ãƒ¼ãƒ‰ãƒ«ãƒ¬ãƒ¼ã‚¶ãƒ¼é€£å°„ ãƒ”ãƒ³ã‚¯ LaserGun.wav
+å·¦è…•éƒ¨ãƒ“ãƒ¼ãƒ ç ²(å‘½ä¸­), ãƒ‹ãƒ¼ãƒ‰ãƒ«ãƒ¬ãƒ¼ã‚¶ãƒ¼é€£å°„ ãƒ”ãƒ³ã‚¯ LaserGun.wav;çˆ†ç™º
 
 
-ƒjƒ…[í“¬‹@ŠBlƒ†ƒƒpƒbƒNƒ“
-‘Ì“–‚½‚è, ”ò‚Ñ‚©‚©‚è
-ƒ†ƒƒpƒbƒNƒ“(€”õ), Machine.wav
-ƒ†ƒƒpƒbƒNƒ“(UŒ‚), –A‹… Wind.wav Â
-ƒ†ƒƒpƒbƒNƒ“(UŒ‚), –A‹… Wind.wav —Î
-ƒ†ƒƒpƒbƒNƒ“(–½’†), •ÏŒ` "Common\EFFECT_BubbleSphere(Blue)01.bmp" Zapper.wav
-ƒ†ƒƒpƒbƒNƒ“(–½’†), •ÏŒ` "Common\EFFECT_BubbleSphere(Green)01.bmp" Zapper.wav
-Œû•”ƒr[ƒ€–C(€”õ), Machine.wav
-Œû•”ƒr[ƒ€–C(UŒ‚), Œõ’e —Î ’x -.wav
-Œû•”ƒr[ƒ€–C(UŒ‚), Œõ’e —Î -.wav
-Œû•”ƒr[ƒ€–C(UŒ‚), Œõ’e —Î ‘¬ -.wav
-Œû•”ƒr[ƒ€–C(–½’†), ”š”­ ”’
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººãƒ¦ãƒ¡ãƒ‘ãƒƒã‚¯ãƒ³
+ä½“å½“ãŸã‚Š, é£›ã³ã‹ã‹ã‚Š
+ãƒ¦ãƒ¡ãƒ‘ãƒƒã‚¯ãƒ³(æº–å‚™), Machine.wav
+ãƒ¦ãƒ¡ãƒ‘ãƒƒã‚¯ãƒ³(æ”»æ’ƒ), æ³¡çƒ Wind.wav é’
+ãƒ¦ãƒ¡ãƒ‘ãƒƒã‚¯ãƒ³(æ”»æ’ƒ), æ³¡çƒ Wind.wav ç·‘
+ãƒ¦ãƒ¡ãƒ‘ãƒƒã‚¯ãƒ³(å‘½ä¸­), å¤‰å½¢ "Common\EFFECT_BubbleSphere(Blue)01.bmp" Zapper.wav
+ãƒ¦ãƒ¡ãƒ‘ãƒƒã‚¯ãƒ³(å‘½ä¸­), å¤‰å½¢ "Common\EFFECT_BubbleSphere(Green)01.bmp" Zapper.wav
+å£éƒ¨ãƒ“ãƒ¼ãƒ ç ²(æº–å‚™), Machine.wav
+å£éƒ¨ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), å…‰å¼¾ ç·‘ é… -.wav
+å£éƒ¨ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), å…‰å¼¾ ç·‘ -.wav
+å£éƒ¨ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), å…‰å¼¾ ç·‘ é€Ÿ -.wav
+å£éƒ¨ãƒ“ãƒ¼ãƒ ç ²(å‘½ä¸­), çˆ†ç™º ç™½
 
 
 
-ƒjƒ…[í“¬‹@ŠBlƒVƒVƒhƒ“
-“Ëi, ƒ^ƒbƒNƒ‹
-–î(UŒ‚), –î
-–î(–½’†), ”š”­
-‘úƒJƒbƒ^[(€”õ), “Š±•Ší "Bullet\EFFECT_ShootingCutter(White)01.bmp"
-‘úƒJƒbƒ^[(UŒ‚), ‰ñ“]“Š±•Ší "Bullet\EFFECT_ShootingCutter(White)01.bmp" Swing.wav
-‘úƒJƒbƒ^[(–½’†), ”š”­
-“ÆŠy”š’e(UŒ‚), _
-	ŽÀ’e”­ŽË "DGoods\EFFECT_Koma01.bmp" 32 Tub.wav;_
-	ŽÀ’e”­ŽË "DGoods\EFFECT_Koma01.bmp" 32 Tub.wav;_
-	ŽÀ’e”­ŽË "DGoods\EFFECT_Koma01.bmp" 32 Tub.wav
-“ÆŠy”š’e(–½’†), ”š”­
-‰HŽq”Â”š’e(UŒ‚), _
-	ŽÀ’e”­ŽË "Bullet\EFFECT_SlashBullet(White)01.bmp" Swing(2).wav;_
-	ŽÀ’e”­ŽË "Bullet\EFFECT_SlashBullet(White)01.bmp" Swing(2).wav
-‰HŽq”Â”š’e(–½’†), ”š”­
-ƒJƒ‹ƒ^á(UŒ‚), ƒj[ƒhƒ‹˜AŽË Swing(2).wav
-ƒJƒ‹ƒ^á(–½’†), ‰Ô‚Ñ‚ç ”’ BeamSaber(4).wav
-Ž‚Žq‰ñ‚µ(€”õ), -
-Ž‚Žq‰ñ‚µ(UŒ‚), ŽÀ’e”­ŽË "Hand\EFFECT_Punch(Red)06.bmp" Missile.wav —Lü
-Ž‚Žq‰ñ‚µ(–½’†), _
-	‘ÅŒ‚ Ô;‘ÅŒ‚ Ô;3;_
-	@í“¬ƒAƒjƒ_ŽÀ’e”­ŽËUŒ‚ "Animal\EFFECT_Tiger(Red)01.bmp" Missile.wav —Lü;Šš‚Ý•t‚«
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººã‚·ã‚·ãƒ‰ãƒ³
+çªé€², ã‚¿ãƒƒã‚¯ãƒ«
+çŸ¢(æ”»æ’ƒ), çŸ¢
+çŸ¢(å‘½ä¸­), çˆ†ç™º
+å‡§ã‚«ãƒƒã‚¿ãƒ¼(æº–å‚™), æŠ•æ“²æ­¦å™¨ "Bullet\EFFECT_ShootingCutter(White)01.bmp"
+å‡§ã‚«ãƒƒã‚¿ãƒ¼(æ”»æ’ƒ), å›žè»¢æŠ•æ“²æ­¦å™¨ "Bullet\EFFECT_ShootingCutter(White)01.bmp" Swing.wav
+å‡§ã‚«ãƒƒã‚¿ãƒ¼(å‘½ä¸­), çˆ†ç™º
+ç‹¬æ¥½çˆ†å¼¾(æ”»æ’ƒ), _
+	å®Ÿå¼¾ç™ºå°„ "DGoods\EFFECT_Koma01.bmp" 32 Tub.wav;_
+	å®Ÿå¼¾ç™ºå°„ "DGoods\EFFECT_Koma01.bmp" 32 Tub.wav;_
+	å®Ÿå¼¾ç™ºå°„ "DGoods\EFFECT_Koma01.bmp" 32 Tub.wav
+ç‹¬æ¥½çˆ†å¼¾(å‘½ä¸­), çˆ†ç™º
+ç¾½å­æ¿çˆ†å¼¾(æ”»æ’ƒ), _
+	å®Ÿå¼¾ç™ºå°„ "Bullet\EFFECT_SlashBullet(White)01.bmp" Swing(2).wav;_
+	å®Ÿå¼¾ç™ºå°„ "Bullet\EFFECT_SlashBullet(White)01.bmp" Swing(2).wav
+ç¾½å­æ¿çˆ†å¼¾(å‘½ä¸­), çˆ†ç™º
+ã‚«ãƒ«ã‚¿å¹é›ª(æ”»æ’ƒ), ãƒ‹ãƒ¼ãƒ‰ãƒ«é€£å°„ Swing(2).wav
+ã‚«ãƒ«ã‚¿å¹é›ª(å‘½ä¸­), èŠ±ã³ã‚‰ ç™½ BeamSaber(4).wav
+ç…å­å›žã—(æº–å‚™), -
+ç…å­å›žã—(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ "Hand\EFFECT_Punch(Red)06.bmp" Missile.wav æœ‰ç·š
+ç…å­å›žã—(å‘½ä¸­), _
+	æ‰“æ’ƒ èµ¤;æ‰“æ’ƒ èµ¤;3;_
+	@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å®Ÿå¼¾ç™ºå°„æ”»æ’ƒ "Animal\EFFECT_Tiger(Red)01.bmp" Missile.wav æœ‰ç·š;å™›ã¿ä»˜ã
 
-## ‘ú‚â‰HŽq”Â‚Ì‰æ‘œ‚Í‘ã—pB
+## å‡§ã‚„ç¾½å­æ¿ã®ç”»åƒã¯ä»£ç”¨ã€‚
 
 
 
-ƒjƒ…[í“¬‹@ŠBlƒƒ‹ƒT[
-Ši“¬, Ši“¬
-‰EŒ¨•”ƒoƒY[ƒJ–C(UŒ‚), ‹C’e ƒsƒ“ƒN ‘¬ BeamCannon(2).wav
-‰EŒ¨•”ƒoƒY[ƒJ–C(–½’†), ”š”­
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººãƒ¯ãƒ«ã‚µãƒ¼
+æ ¼é—˜, æ ¼é—˜
+å³è‚©éƒ¨ãƒã‚ºãƒ¼ã‚«ç ²(æ”»æ’ƒ), æ°—å¼¾ ãƒ”ãƒ³ã‚¯ é€Ÿ BeamCannon(2).wav
+å³è‚©éƒ¨ãƒã‚ºãƒ¼ã‚«ç ²(å‘½ä¸­), çˆ†ç™º
 
 
 
-ƒjƒ…[í“¬‹@ŠBlƒuƒŒƒ“ƒ_[
-Ši“¬, Ši“¬
-Žw•”ƒ~ƒTƒCƒ‹–C(UŒ‚), “à‘ ƒKƒgƒŠƒ“ƒO
-Žw•”ƒ~ƒTƒCƒ‹–C(–½’†), “à‘ ƒKƒgƒŠƒ“ƒO;”š”­
-Žw•”ƒr[ƒ€–C(UŒ‚), ƒVƒ‡ƒbƒNƒr[ƒ€ ‰© BeamGun.wav
-Žw•”ƒr[ƒ€–C(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ ‰© BeamGun.wav
-“dŒ‚(€”õ), ŽËŒ‚•Ší "Weapon\EFFECT_FlashingGun01.bmp" 32 ”­Œõ BeamSaber.wav
-“dŒ‚(UŒ‚), ‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ƒKƒ“ "Weapon\EFFECT_FlashingGun01.bmp" 32 ”­Œõ ƒsƒ“ƒN BeamGun.wav
-“dŒ‚(–½’†), ‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ ƒsƒ“ƒN BeamGun.wav;”š”­
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººãƒ–ãƒ¬ãƒ³ãƒ€ãƒ¼
+æ ¼é—˜, æ ¼é—˜
+æŒ‡éƒ¨ãƒŸã‚µã‚¤ãƒ«ç ²(æ”»æ’ƒ), å†…è”µã‚¬ãƒˆãƒªãƒ³ã‚°
+æŒ‡éƒ¨ãƒŸã‚µã‚¤ãƒ«ç ²(å‘½ä¸­), å†…è”µã‚¬ãƒˆãƒªãƒ³ã‚°;çˆ†ç™º
+æŒ‡éƒ¨ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  é»„ BeamGun.wav
+æŒ‡éƒ¨ãƒ“ãƒ¼ãƒ ç ²(å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  é»„ BeamGun.wav
+é›»æ’ƒ(æº–å‚™), å°„æ’ƒæ­¦å™¨ "Weapon\EFFECT_FlashingGun01.bmp" 32 ç™ºå…‰ BeamSaber.wav
+é›»æ’ƒ(æ”»æ’ƒ), ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ ã‚¬ãƒ³ "Weapon\EFFECT_FlashingGun01.bmp" 32 ç™ºå…‰ ãƒ”ãƒ³ã‚¯ BeamGun.wav
+é›»æ’ƒ(å‘½ä¸­), ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ãƒ”ãƒ³ã‚¯ BeamGun.wav;çˆ†ç™º
 
 
 
-ƒˆƒEƒLí“¬‹@ŠBl
-¶˜rƒA[ƒ€, ƒƒPƒbƒgƒpƒ“ƒ` "Hand\EFFECT_Punch(Red)09.bmp" 32
-‰E˜r•”ŽÔ—Ö(€”õ), “Š±•Ší "DGoods\EFFECT_Wheel01.bmp" 32 -.wav “ñ“—¬
-‰E˜r•”ŽÔ—Ö(UŒ‚), ‰ñ“]“Š±•Ší "DGoods\EFFECT_Wheel01.bmp" 32 Drill(2).wav;_
-			‰ñ“]“Š±•Ší "DGoods\EFFECT_Wheel01.bmp" 32 Drill(2).wav ‰º“Š‚°
-‰E˜r•”ŽÔ—Ö(–½’†), ”š”­;”š”­
+ãƒ¨ã‚¦ã‚­æˆ¦é—˜æ©Ÿæ¢°äºº
+å·¦è…•ã‚¢ãƒ¼ãƒ , ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "Hand\EFFECT_Punch(Red)09.bmp" 32
+å³è…•éƒ¨è»Šè¼ª(æº–å‚™), æŠ•æ“²æ­¦å™¨ "DGoods\EFFECT_Wheel01.bmp" 32 -.wav äºŒåˆ€æµ
+å³è…•éƒ¨è»Šè¼ª(æ”»æ’ƒ), å›žè»¢æŠ•æ“²æ­¦å™¨ "DGoods\EFFECT_Wheel01.bmp" 32 Drill(2).wav;_
+			å›žè»¢æŠ•æ“²æ­¦å™¨ "DGoods\EFFECT_Wheel01.bmp" 32 Drill(2).wav ä¸‹æŠ•ã’
+å³è…•éƒ¨è»Šè¼ª(å‘½ä¸­), çˆ†ç™º;çˆ†ç™º
 
 
 
-ƒjƒ…[í“¬‹@ŠBlƒoƒLƒ…[ƒ}[
-UŒ‚–³Œø‰»(ƒoƒLƒ…[ƒ€), @í“¬ƒAƒjƒ_‹­•— Beamvalcan.wav
-Ši“¬, Ši“¬
-• •”‹zˆøƒtƒ@ƒ“(UŒ‚), ‹­•— Beamvalcan.wav ‘ÎÛƒ†ƒjƒbƒg‚h‚c
-• •”‹zˆøƒtƒ@ƒ“(–½’†), ‹­•— Wind(2).wav
-• •”‹zˆøƒtƒ@ƒ“(ƒNƒŠƒeƒBƒJƒ‹), ˜AŽaŒ‚;˜AŽaŒ‚
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººãƒã‚­ãƒ¥ãƒ¼ãƒžãƒ¼
+æ”»æ’ƒç„¡åŠ¹åŒ–(ãƒã‚­ãƒ¥ãƒ¼ãƒ ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å¼·é¢¨ Beamvalcan.wav
+æ ¼é—˜, æ ¼é—˜
+è…¹éƒ¨å¸å¼•ãƒ•ã‚¡ãƒ³(æ”»æ’ƒ), å¼·é¢¨ Beamvalcan.wav å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+è…¹éƒ¨å¸å¼•ãƒ•ã‚¡ãƒ³(å‘½ä¸­), å¼·é¢¨ Wind(2).wav
+è…¹éƒ¨å¸å¼•ãƒ•ã‚¡ãƒ³(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«), é€£æ–¬æ’ƒ;é€£æ–¬æ’ƒ
 
 
 
-ƒjƒ…[í“¬‹@ŠBlƒNƒ}ƒ\ƒ“
-”½ŽË(ƒr[ƒ€”½ŽË), @í“¬ƒAƒjƒ_‹âŒ•€”õ ‘ÎÛƒ†ƒjƒbƒg‚h‚c;”½ŽË
-Ši“¬, Ši“¬
-“`à–‚Œ•ƒCƒJƒYƒ`(€”õ), U‚é•Ší "Weapon\EFFECT_SilverSword01.bmp" ”­Œõ
-“`à–‚Œ•ƒCƒJƒYƒ`(UŒ‚), ŽaŒ‚
-“`à–‚Œ•ƒCƒJƒYƒ`(UŒ‚), U‚èã‚°
-“`à–‚Œ•ƒCƒJƒYƒ`(–½’†), ŽaŒ‚ Slash(4).wav
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººã‚¯ãƒžã‚½ãƒ³
+åå°„(ãƒ“ãƒ¼ãƒ åå°„), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_éŠ€å‰£æº–å‚™ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;åå°„
+æ ¼é—˜, æ ¼é—˜
+ä¼èª¬é­”å‰£ã‚¤ã‚«ã‚ºãƒ(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ "Weapon\EFFECT_SilverSword01.bmp" ç™ºå…‰
+ä¼èª¬é­”å‰£ã‚¤ã‚«ã‚ºãƒ(æ”»æ’ƒ), æ–¬æ’ƒ
+ä¼èª¬é­”å‰£ã‚¤ã‚«ã‚ºãƒ(æ”»æ’ƒ), æŒ¯ã‚Šä¸Šã’
+ä¼èª¬é­”å‰£ã‚¤ã‚«ã‚ºãƒ(å‘½ä¸­), æ–¬æ’ƒ Slash(4).wav
 
 
 
-ƒjƒ…[í“¬‹@ŠBlƒ€[ƒuƒ}ƒ“
-Ši“¬, Ši“¬
-ƒtƒBƒ‹ƒ€(UŒ‚), ‘½GŽè • -.wav
-ƒtƒBƒ‹ƒ€(–½’†), ‘½GŽè • -.wav
-“ª•”ƒJƒƒ‰ƒr[ƒ€–C(UŒ‚), ƒVƒ‡ƒbƒNƒr[ƒ€ ƒsƒ“ƒN BeamGun.wav
-“ª•”ƒJƒƒ‰ƒr[ƒ€–C(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ ƒsƒ“ƒN BeamGun.wav;”š”­
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººãƒ ãƒ¼ãƒ–ãƒžãƒ³
+æ ¼é—˜, æ ¼é—˜
+ãƒ•ã‚£ãƒ«ãƒ (æ”»æ’ƒ), å¤šè§¦æ‰‹ é»’ -.wav
+ãƒ•ã‚£ãƒ«ãƒ (å‘½ä¸­), å¤šè§¦æ‰‹ é»’ -.wav
+é ­éƒ¨ã‚«ãƒ¡ãƒ©ãƒ“ãƒ¼ãƒ ç ²(æ”»æ’ƒ), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ãƒ”ãƒ³ã‚¯ BeamGun.wav
+é ­éƒ¨ã‚«ãƒ¡ãƒ©ãƒ“ãƒ¼ãƒ ç ²(å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ãƒ”ãƒ³ã‚¯ BeamGun.wav;çˆ†ç™º
 
 
 
-ƒjƒ…[í“¬‹@ŠBlƒuƒŠƒU[
-Ši“¬(UŒ‚), U‚è‰º‚ë‚µ
-Ši“¬(–½’†), ‘Å“Ë ”’
-—â“€ƒKƒX(UŒ‚), ‰Œ•¬ŽË ”’ Wind(2).wav
-—â“€ƒKƒX(–½’†), ‰Œ•¬ŽË ”’ Wind(2).wav
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË Ô
-—â“€ƒKƒX•‰Î‰Š“¯Žž”­ŽË(UŒ‚), ‰Œ•¬ŽË ”’ Wind(2).wav;‰Î‰Š•úŽË
-—â“€ƒKƒX•‰Î‰Š“¯Žž”­ŽË(–½’†), ‰Œ•¬ŽË ”’ Wind(2).wav;‰Î‰Š•úŽË
+ãƒ‹ãƒ¥ãƒ¼æˆ¦é—˜æ©Ÿæ¢°äººãƒ–ãƒªã‚¶ãƒ¼
+æ ¼é—˜(æ”»æ’ƒ), æŒ¯ã‚Šä¸‹ã‚ã—
+æ ¼é—˜(å‘½ä¸­), æ‰“çª ç™½
+å†·å‡ã‚¬ã‚¹(æ”»æ’ƒ), ç…™å™´å°„ ç™½ Wind(2).wav
+å†·å‡ã‚¬ã‚¹(å‘½ä¸­), ç…™å™´å°„ ç™½ Wind(2).wav
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„ èµ¤
+å†·å‡ã‚¬ã‚¹ï¼†ç«ç‚ŽåŒæ™‚ç™ºå°„(æ”»æ’ƒ), ç…™å™´å°„ ç™½ Wind(2).wav;ç«ç‚Žæ”¾å°„
+å†·å‡ã‚¬ã‚¹ï¼†ç«ç‚ŽåŒæ™‚ç™ºå°„(å‘½ä¸­), ç…™å™´å°„ ç™½ Wind(2).wav;ç«ç‚Žæ”¾å°„
 
 
-#### í“¬¶•¨ -----------------------------------
+#### æˆ¦é—˜ç”Ÿç‰© -----------------------------------
 
-í“¬¶•¨ƒOƒWƒƒ
-•ªg(×–E•ª—ô‰ñ”ð), _
-	•ÏŒ` "Anime\Barrier\EFFECT_Barrier(Green)04.bmp" Charge.wav;Žl•û•ª—£‰ñ”ð;uŠÔ•ÏŒ` ”½‰f
-“ÅƒKƒX, ‰Œ•¬ŽË ”’ Mist.wav
-‘Ì“–‚½‚è(UŒ‚), ƒ^ƒbƒNƒ‹ Jet.wav
-‘Ì“–‚½‚è(–½’†), ‹­‘Å
-‹zŽû(€”õ), ”­Œõ —Î
-‹zŽû(UŒ‚), ƒX[ƒp[ƒ^ƒbƒNƒ‹ —Î Charge(Silent).wav
-‹zŽû(–½’†), ƒX[ƒp[ƒ^ƒbƒNƒ‹ —Î;•ú“d
+æˆ¦é—˜ç”Ÿç‰©ã‚°ã‚¸ãƒ£
+åˆ†èº«(ç´°èƒžåˆ†è£‚å›žé¿), _
+	å¤‰å½¢ "Anime\Barrier\EFFECT_Barrier(Green)04.bmp" Charge.wav;å››æ–¹åˆ†é›¢å›žé¿;çž¬é–“å¤‰å½¢ åæ˜ 
+æ¯’ã‚¬ã‚¹, ç…™å™´å°„ ç™½ Mist.wav
+ä½“å½“ãŸã‚Š(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ« Jet.wav
+ä½“å½“ãŸã‚Š(å‘½ä¸­), å¼·æ‰“
+å¸åŽ(æº–å‚™), ç™ºå…‰ ç·‘
+å¸åŽ(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« ç·‘ Charge(Silent).wav
+å¸åŽ(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« ç·‘;æ”¾é›»
 
 
 
-í“¬¶•¨ƒƒ^ƒWƒƒ
-Šñ¶(€”õ), -
-Šñ¶(UŒ‚), ƒX[ƒp[ƒ^ƒbƒNƒ‹ ‰© Charge(Silent).wav
-Šñ¶(–½’†), ù‰ñŒõ’e ‰© Hide.wav;ƒX[ƒp[ƒ^ƒbƒNƒ‹—•‘ ‰© -.wav
+æˆ¦é—˜ç”Ÿç‰©ãƒ¯ã‚¿ã‚¸ãƒ£
+å¯„ç”Ÿ(æº–å‚™), -
+å¯„ç”Ÿ(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« é»„ Charge(Silent).wav
+å¯„ç”Ÿ(å‘½ä¸­), æ—‹å›žå…‰å¼¾ é»„ Hide.wav;ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ«ä¹±èˆž é»„ -.wav
 
 
-í“¬¶•¨ƒEƒ~ƒWƒƒ
-Ši“¬, ‘Å“Ë Â
-¬ƒEƒ~ƒWƒƒ(€”õ), -
-¬ƒEƒ~ƒWƒƒ(UŒ‚), ŽÀ’e”­ŽË "Common\EFFECT_RosePetal(Orange)01.bmp" Beam(4Shot).wav
-¬ƒEƒ~ƒWƒƒ(–½’†), Žh“Ë
-ƒtƒWƒcƒ{Œ^¬ƒEƒ~ƒWƒƒ(€”õ), -
-ƒtƒWƒcƒ{Œ^¬ƒEƒ~ƒWƒƒ(UŒ‚), ŽÀ’e”­ŽË "Rock\EFFECT_LargeBoulder(Black)01.bmp" Missile.wav
-ƒtƒWƒcƒ{Œ^¬ƒEƒ~ƒWƒƒ(–½’†), ƒƒPƒbƒgƒpƒ“ƒ` "Rock\EFFECT_LargeBoulder(Black)01.bmp" Missile.wav
+æˆ¦é—˜ç”Ÿç‰©ã‚¦ãƒŸã‚¸ãƒ£
+æ ¼é—˜, æ‰“çª é’
+å°ã‚¦ãƒŸã‚¸ãƒ£(æº–å‚™), -
+å°ã‚¦ãƒŸã‚¸ãƒ£(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ "Common\EFFECT_RosePetal(Orange)01.bmp" Beam(4Shot).wav
+å°ã‚¦ãƒŸã‚¸ãƒ£(å‘½ä¸­), åˆºçª
+ãƒ•ã‚¸ãƒ„ãƒœåž‹å°ã‚¦ãƒŸã‚¸ãƒ£(æº–å‚™), -
+ãƒ•ã‚¸ãƒ„ãƒœåž‹å°ã‚¦ãƒŸã‚¸ãƒ£(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ "Rock\EFFECT_LargeBoulder(Black)01.bmp" Missile.wav
+ãƒ•ã‚¸ãƒ„ãƒœåž‹å°ã‚¦ãƒŸã‚¸ãƒ£(å‘½ä¸­), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ "Rock\EFFECT_LargeBoulder(Black)01.bmp" Missile.wav
 
 

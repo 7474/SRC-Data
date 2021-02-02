@@ -1,12 +1,12 @@
 
 
-# ƒ[ƒJƒ‹í“¬ƒAƒjƒ‚Å‚·B
+# ãƒ­ãƒ¼ã‚«ãƒ«æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡ã§ã™ã€‚
 
 
-í“¬ƒAƒjƒ_WMDLA_ƒoƒEƒ“ƒhƒ{[ƒ‹UŒ‚:
-# ˆø” ƒTƒCƒY
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_WMDLA_ãƒã‚¦ãƒ³ãƒ‰ãƒœãƒ¼ãƒ«æ”»æ’ƒ:
+# å¼•æ•° ã‚µã‚¤ã‚º
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Local posX posY
@@ -15,7 +15,7 @@ Local DST
 Local i
 Local SHOTA
 
-#”­ŽË•¨‚ÉŠÖ‚·‚é•Ï”
+#ç™ºå°„ç‰©ã«é–¢ã™ã‚‹å¤‰æ•°
 Local G_S = Args(1)
 Local C_X = WX(UID)
 Local C_Y = WY(UID)
@@ -25,10 +25,10 @@ Local DRCT
 Local W_T
 
   Set ANG _GetAngle(UID)
-  Set posX ((X(UID) - _Get_X(‘ŠŽèƒ†ƒjƒbƒg‚h‚c)) * 32)
-  Set posY ((Y(UID) - _Get_Y(‘ŠŽèƒ†ƒjƒbƒg‚h‚c)) * 32)
-  Set DST (Abs(X(UID) - _Get_X(‘ŠŽèƒ†ƒjƒbƒg‚h‚c)) _
-         + Abs(Y(UID) - _Get_Y(‘ŠŽèƒ†ƒjƒbƒg‚h‚c)))
+  Set posX ((X(UID) - _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) * 32)
+  Set posY ((Y(UID) - _Get_Y(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) * 32)
+  Set DST (Abs(X(UID) - _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) _
+         + Abs(Y(UID) - _Get_Y(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)))
          
 Set B_ANG _CheckAngleFix(ANG)
 Set DRCT _FlipVertical(ANG)
@@ -53,11 +53,11 @@ ClearPicture
        If SHOTA < 2 Then
        PaintPicture Bullet\EFFECT_AuraBall(Red)02.bmp _
         (C_X - (posX / (DST + 2)) * (i - 2)) (C_Y - (posY / (DST + 2)) * (i - 2) ) _
-        G_S G_S “§‰ß ƒZƒsƒA ‰E‰ñ“] B_ANG DRCT
+        G_S G_S é€éŽ ã‚»ãƒ”ã‚¢ å³å›žè»¢ B_ANG DRCT
        Else
        PaintPicture Bullet\EFFECT_AuraBall(Yellow)02.bmp _
         (C_X - (posX / (DST + 2)) * (i - 2)) (C_Y - (posY / (DST + 2)) * (i - 2) ) _
-        G_S G_S “§‰ß ƒZƒsƒA ‰E‰ñ“] B_ANG DRCT
+        G_S G_S é€éŽ ã‚»ãƒ”ã‚¢ å³å›žè»¢ B_ANG DRCT
 	   Endif
 	   Incr SHOTA 1
   EndIf
@@ -65,11 +65,11 @@ ClearPicture
   If SHOTA < 2 Then
   PaintPicture Bullet\EFFECT_AuraBall(Orange)02.bmp _
     (C_X - (posX / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
-    G_S G_S “§‰ß ‰E‰ñ“] B_ANG DRCT
+    G_S G_S é€éŽ å³å›žè»¢ B_ANG DRCT
   Else
   PaintPicture Bullet\EFFECT_AuraBall(Purple)02.bmp _
     (C_X - (posX / (DST + 2)) * i) (C_Y - (posY / (DST + 2)) * i) _
-    G_S G_S “§‰ß ‰E‰ñ“] B_ANG DRCT
+    G_S G_S é€éŽ å³å›žè»¢ B_ANG DRCT
   Endif
   Refresh
   Wait Until (W_T * i)
@@ -81,39 +81,39 @@ Refresh
 Return
 
 
-í“¬ƒAƒjƒ_WMDLA_“ñd˜A‘±•`‰æ€”õ:
-í“¬ƒAƒjƒ_WMDLA_“ñd˜A‘±•`‰æUŒ‚:
-í“¬ƒAƒjƒ_WMDLA_“ñd˜A‘±•`‰æ–½’†:
-í“¬ƒAƒjƒ_WMDLA_“ñd˜A‘±•`‰æŽg—p:
-í“¬ƒAƒjƒ_WMDLA_“ñd˜A‘±•`‰æƒNƒŠƒeƒBƒJƒ‹:
-# ˜A”ÔŒ`Ž®‰æ‘œ‚P ƒTƒCƒY ˜A”ÔŒ`Ž®‰æ‘œ‚Q ƒTƒCƒY Ä¶ŽžŠÔ ‰ñ”
-# ƒtƒ@ƒCƒ‹‚P‚Æ‚Q‚Í“¯ƒy[ƒX‚ÅÄ¶‚³‚ê‚éB‘¬“x‚Æ–‡”‚Í‚P–‡–Ú‚©‚ç“¾‚ç‚ê‚éî•ñ‚É•í‚¤
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_WMDLA_äºŒé‡é€£ç¶šæç”»æº–å‚™:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_WMDLA_äºŒé‡é€£ç¶šæç”»æ”»æ’ƒ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_WMDLA_äºŒé‡é€£ç¶šæç”»å‘½ä¸­:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_WMDLA_äºŒé‡é€£ç¶šæç”»ä½¿ç”¨:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_WMDLA_äºŒé‡é€£ç¶šæç”»ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«:
+# é€£ç•ªå½¢å¼ç”»åƒï¼‘ ã‚µã‚¤ã‚º é€£ç•ªå½¢å¼ç”»åƒï¼’ ã‚µã‚¤ã‚º å†ç”Ÿæ™‚é–“ å›žæ•°
+# ãƒ•ã‚¡ã‚¤ãƒ«ï¼‘ã¨ï¼’ã¯åŒãƒšãƒ¼ã‚¹ã§å†ç”Ÿã•ã‚Œã‚‹ã€‚é€Ÿåº¦ã¨æžšæ•°ã¯ï¼‘æžšç›®ã‹ã‚‰å¾—ã‚‰ã‚Œã‚‹æƒ…å ±ã«å€£ã†
 #
-# ˆø”‚P ‰æ‘œƒtƒ@ƒCƒ‹(˜A‘±•\Ž¦)
-# ˆø”‚Q ‰æ‘œƒTƒCƒY
-# ˆø”‚R •\Ž¦ŽžŠÔ
-# ˆø”‚S •\Ž¦ˆÊ’u
-# ˆø”‚T Œø‰Ê‰¹
-# ˆø”‚U ”­Œõ
-# ˆø”‚V •ÛŽ
-# ˆø”‚W •ûŒü”»’è
-# ˆø”‚X ƒ†ƒjƒbƒg‚h‚c
+# å¼•æ•°ï¼‘ ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«(é€£ç¶šè¡¨ç¤º)
+# å¼•æ•°ï¼’ ç”»åƒã‚µã‚¤ã‚º
+# å¼•æ•°ï¼“ è¡¨ç¤ºæ™‚é–“
+# å¼•æ•°ï¼” è¡¨ç¤ºä½ç½®
+# å¼•æ•°ï¼• åŠ¹æžœéŸ³
+# å¼•æ•°ï¼– ç™ºå…‰
+# å¼•æ•°ï¼— ä¿æŒ
+# å¼•æ•°ï¼˜ æ–¹å‘åˆ¤å®š
+# å¼•æ•°ï¼™ ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 #
-# ˆø” Šp“x=(®”) Šp“x‚Q(Žw’è‚µ‚½Šp“x‚É‰EŽü‚è‚Å‰æ‘œ‚ð‰ñ“]‚³‚¹‚éBu”­ŽËv‚Æ‘g‚Ý‡‚í‚¹‰Â”\)
-# ˆø” ƒ‰ƒ“ƒ_ƒ€Aƒ‰ƒ“ƒ_ƒ€‚Q (ƒ‰ƒ“ƒ_ƒ€Šp“x‚Å‰æ‘œ‚ð‰ñ“]) or ”­ŽË(”­ŽË‰æ‘œ‚ð‘ŠŽè•ûŒü‚ÉŒü‚¯‚Ä•`‰æ)
-# ˆø” ’†ŠÔ ‘ÎÛ‚Æ‘ŠŽèƒ†ƒjƒbƒg‚Ì’†ŠÔ‚ÅƒAƒjƒ‚ðÄ¶‚·‚é
-# ˆø” ã•ÓAã•Ó‚QA‰º•ÓA‰º•Ó‚Q
-# ˆø” ã‰º”½“] ã‰º”½“]‚Q ¶‰E”½“] ¶‰E”½“]‚Q
+# å¼•æ•° è§’åº¦=(æ•´æ•°) è§’åº¦ï¼’(æŒ‡å®šã—ãŸè§’åº¦ã«å³å‘¨ã‚Šã§ç”»åƒã‚’å›žè»¢ã•ã›ã‚‹ã€‚ã€Œç™ºå°„ã€ã¨çµ„ã¿åˆã‚ã›å¯èƒ½)
+# å¼•æ•° ãƒ©ãƒ³ãƒ€ãƒ ã€ãƒ©ãƒ³ãƒ€ãƒ ï¼’ (ãƒ©ãƒ³ãƒ€ãƒ è§’åº¦ã§ç”»åƒã‚’å›žè»¢) or ç™ºå°„(ç™ºå°„ç”»åƒã‚’ç›¸æ‰‹æ–¹å‘ã«å‘ã‘ã¦æç”»)
+# å¼•æ•° ä¸­é–“ å¯¾è±¡ã¨ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆã®ä¸­é–“ã§ã‚¢ãƒ‹ãƒ¡ã‚’å†ç”Ÿã™ã‚‹
+# å¼•æ•° ä¸Šè¾ºã€ä¸Šè¾ºï¼’ã€ä¸‹è¾ºã€ä¸‹è¾ºï¼’
+# å¼•æ•° ä¸Šä¸‹åè»¢ ä¸Šä¸‹åè»¢ï¼’ å·¦å³åè»¢ å·¦å³åè»¢ï¼’
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Local GS_STR = _GetBoxSizeFromArgs(Args(2))
 Local GS_STR2 = _GetBoxSizeFromArgs(Args(4))
-Local G_SX = _GN(32,_SelectBmpSizeType(GS_STR,"‚w"))
-Local G_SY = _GN(32,_SelectBmpSizeType(GS_STR,"‚x"))
-Local G_SX2 = _GN(32,_SelectBmpSizeType(GS_STR2,"‚w"))
-Local G_SY2 = _GN(32,_SelectBmpSizeType(GS_STR2,"‚x"))
+Local G_SX = _GN(32,_SelectBmpSizeType(GS_STR,"ï¼¸"))
+Local G_SY = _GN(32,_SelectBmpSizeType(GS_STR,"ï¼¹"))
+Local G_SX2 = _GN(32,_SelectBmpSizeType(GS_STR2,"ï¼¸"))
+Local G_SY2 = _GN(32,_SelectBmpSizeType(GS_STR2,"ï¼¹"))
 Local i j k
 Local C_X = WX(UID)
 LOcal C_Y = WY(UID)
@@ -122,7 +122,7 @@ LOcal G_Y = (WY(UID) + 16)
 Local BMP_FILE = _GetBMPName(UID)
 Local T_COL_F = _ColorTime(_IsLight())
 Local W_T
-Local B_FLG = _S_OPT_FA("”w–Ê")
+Local B_FLG = _S_OPT_FA("èƒŒé¢")
 Local DRCT = ""
 Local DRCT2 = ""
 Local POS = _GetDrawPosFromArgs()
@@ -130,26 +130,26 @@ Local T_COL = _ColorTime()
 
 Local ANG = 0
 
-# ‰æ‘œ”½“]”»’è
+# ç”»åƒåè»¢åˆ¤å®š
 
-If ((X(‘ÎÛƒ†ƒjƒbƒg‚h‚c) < _Get_X(‘ŠŽèƒ†ƒjƒbƒg‚h‚c)) And (_S_OPT_FA("•ûŒü”»’è") = "•ûŒü”»’è")) Then
-  Set DRCT ¶‰E”½“]
-  Set DRCT2 ¶‰E”½“]
+If ((X(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) < _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) And (_S_OPT_FA("æ–¹å‘åˆ¤å®š") = "æ–¹å‘åˆ¤å®š")) Then
+  Set DRCT å·¦å³åè»¢
+  Set DRCT2 å·¦å³åè»¢
 EndIf
-Local UD_OPT = _S_OPT_FA("ã‰º”½“]")
-Local LR_OPT = _S_OPT_FA("¶‰E”½“]")
+Local UD_OPT = _S_OPT_FA("ä¸Šä¸‹åè»¢")
+Local LR_OPT = _S_OPT_FA("å·¦å³åè»¢")
 If ((DRCT != "") And (LR_OPT != "")) Then
   Set DRCT ""
 ElseIf (LR_OPT != "") Then
   Set DRCT LR_OPT
 EndIf
 Local UD_OPT2 = ""
-If (_SearchOptionFromArgs("ã‰º”½“]‚Q") != "") Then
-	UD_OPT2 = "ã‰º”½“]"
+If (_SearchOptionFromArgs("ä¸Šä¸‹åè»¢ï¼’") != "") Then
+	UD_OPT2 = "ä¸Šä¸‹åè»¢"
 EndIf
 Local LR_OPT2 = ""
-If (_SearchOptionFromArgs("¶‰E”½“]‚Q") != "") Then
-	LR_OPT2 = "¶‰E”½“]"
+If (_SearchOptionFromArgs("å·¦å³åè»¢ï¼’") != "") Then
+	LR_OPT2 = "å·¦å³åè»¢"
 Endif
 If ((DRCT2 != "") And (LR_OPT2 != "")) Then
   Set DRCT2 ""
@@ -158,9 +158,9 @@ ElseIf (LR_OPT != "") Then
 EndIf
 
 
-If (_SearchOptionFromArgs("’†ŠÔ") != "") Then
-  G_X = (((WX(‘ÎÛƒ†ƒjƒbƒg‚h‚c) + WX(‘ŠŽèƒ†ƒjƒbƒg‚h‚c)) * 0.5) + 16)
-  G_Y = (((WY(‘ÎÛƒ†ƒjƒbƒg‚h‚c) + WY(‘ŠŽèƒ†ƒjƒbƒg‚h‚c)) * 0.5) + 16)
+If (_SearchOptionFromArgs("ä¸­é–“") != "") Then
+  G_X = (((WX(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) + WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) * 0.5) + 16)
+  G_Y = (((WY(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) + WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) * 0.5) + 16)
 EndIf
 
 Local G_X2 = G_X
@@ -170,43 +170,43 @@ Incr G_X (G_SX * -0.5)
 Incr G_X2 (G_SX2 * -0.5)
 
 Switch POS
-Case "ã•Ó"
+Case "ä¸Šè¾º"
   Incr G_Y -16
-Case "‰º•Ó"
+Case "ä¸‹è¾º"
   Incr G_Y ((G_SY * -1) + 16)
 Case Else
   Incr G_Y (G_SY * -0.5)
 EndSw
 
-If (_SearchOptionFromArgs("ã•Ó‚Q") != "") Then
+If (_SearchOptionFromArgs("ä¸Šè¾ºï¼’") != "") Then
   Incr G_Y2 -16
-elseIf (_SearchOptionFromArgs("‰º•Ó‚Q") != "") Then
+elseIf (_SearchOptionFromArgs("ä¸‹è¾ºï¼’") != "") Then
   Incr G_Y2 ((G_SY2 * -1) + 16)
 Else
   Incr G_Y2 (G_SY2 * -0.5)
 EndIf
 
-# Šp“xÝ’è
+# è§’åº¦è¨­å®š
 
-If (_SearchOptionFromArgs("”­ŽË") != "") Then
-  ANG = _GetAngle(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
+If (_SearchOptionFromArgs("ç™ºå°„") != "") Then
+  ANG = _GetAngle(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 EndIf
 
 Local ANG2 = ANG
 
-ANG = ANG + _GetOptValueFromArgs("Šp“x")
-ANG2 = ANG2 + _GetOptValueFromArgs("Šp“x‚Q")
+ANG = ANG + _GetOptValueFromArgs("è§’åº¦")
+ANG2 = ANG2 + _GetOptValueFromArgs("è§’åº¦ï¼’")
 
-If (DRCT = "¶‰E”½“]") Then
+If (DRCT = "å·¦å³åè»¢") Then
 	ANG = ANG * -1
 	ANG2 = ANG2 * -1
 EndIf
 
 
 
-# æ‚É“ñ–‡–Úƒtƒ@ƒCƒ‹‰æ‘œî•ñŽæ“¾
-_GBA_GetBmpPatternInfo _G_APTN_FA(Args(3)) _GetName(_GetWavFromArgs(),_GetOptParamsFromArgs("˜A‘±Œø‰Ê‰¹"))
-# ‚Q–‡–Ú‚Ìî•ñ‚ð•Û‘¶
+# å…ˆã«äºŒæžšç›®ãƒ•ã‚¡ã‚¤ãƒ«ç”»åƒæƒ…å ±å–å¾—
+_GBA_GetBmpPatternInfo _G_APTN_FA(Args(3)) _GetName(_GetWavFromArgs(),_GetOptParamsFromArgs("é€£ç¶šåŠ¹æžœéŸ³"))
+# ï¼’æžšç›®ã®æƒ…å ±ã‚’ä¿å­˜
 Local _GBA_P_NAME2 = _GBA_P_NAME
 Local _GBA_P_STR2 = _GBA_P_STR
 Local _GBA_P_END2 = _GBA_P_END
@@ -214,8 +214,8 @@ Local _GBA_P_TYPE2 = _GBA_P_TYPE
 Local _GBA_P_FRC2 = _GBA_P_FRC
 Local _GBA_P_TTL2 = _GBA_P_TTL
 
-# ˆê–‡–Úî•ñŽæ“¾
-_GBA_GetBmpPatternInfo _G_APTN_FA(Args(1)) _GetName(_GetWavFromArgs(),_GetOptParamsFromArgs("˜A‘±Œø‰Ê‰¹"))
+# ä¸€æžšç›®æƒ…å ±å–å¾—
+_GBA_GetBmpPatternInfo _G_APTN_FA(Args(1)) _GetName(_GetWavFromArgs(),_GetOptParamsFromArgs("é€£ç¶šåŠ¹æžœéŸ³"))
 
 Set W_T (Args(5) / _GBA_P_TTL)
 
@@ -223,10 +223,10 @@ Set W_T (Args(5) / _GBA_P_TTL)
 
 For j = 1 To _GetNumberFromArgs(Args(6))
 
-If (_SearchOptionFromArgs("ƒ‰ƒ“ƒ_ƒ€") != "") Then
+If (_SearchOptionFromArgs("ãƒ©ãƒ³ãƒ€ãƒ ") != "") Then
   ANG = random(360)
 EndIf
-If (_SearchOptionFromArgs("ƒ‰ƒ“ƒ_ƒ€‚Q") != "") Then
+If (_SearchOptionFromArgs("ãƒ©ãƒ³ãƒ€ãƒ ï¼’") != "") Then
   ANG2 = random(360)
 EndIf
 
@@ -242,17 +242,17 @@ Wait Start
 	
 	  _CheckPlaySound _GBA_P_WAV[i]
 	  ClearPicture
-	  If (B_FLG = "”w–Ê") Then
+	  If (B_FLG = "èƒŒé¢") Then
 	    PaintPicture _SetBmpNum2(_GBA_P_NAME2,(_GBA_P_STR2 + ((k - 1) * _GBA_P_FRC2)),_GBA_P_TYPE2) _
-	                 G_X2 G_Y2 G_SX2 G_SY2 DRCT2 “§‰ß T_COL_F UD_OPT2 LR_OPT2 ‰E‰ñ“] ANG2
+	                 G_X2 G_Y2 G_SX2 G_SY2 DRCT2 é€éŽ T_COL_F UD_OPT2 LR_OPT2 å³å›žè»¢ ANG2
 	    PaintPicture _SetBmpNum2(_GBA_P_NAME,(_GBA_P_STR + ((i - 1) * _GBA_P_FRC)),_GBA_P_TYPE) _
-	                 G_X G_Y G_SX G_SY DRCT “§‰ß T_COL_F UD_OPT LR_OPT ‰E‰ñ“] ANG
-	    PaintPicture BMP_FILE C_X C_Y 32 32 “§‰ß T_COL
+	                 G_X G_Y G_SX G_SY DRCT é€éŽ T_COL_F UD_OPT LR_OPT å³å›žè»¢ ANG
+	    PaintPicture BMP_FILE C_X C_Y 32 32 é€éŽ T_COL
 	  Else
 	    PaintPicture _SetBmpNum2(_GBA_P_NAME2,(_GBA_P_STR2 + ((k - 1) * _GBA_P_FRC2)),_GBA_P_TYPE2) _
-	                 G_X2 G_Y2 G_SX2 G_SY2 DRCT2 “§‰ß T_COL_F UD_OPT2 LR_OPT2 ‰E‰ñ“] ANG2
+	                 G_X2 G_Y2 G_SX2 G_SY2 DRCT2 é€éŽ T_COL_F UD_OPT2 LR_OPT2 å³å›žè»¢ ANG2
 	    PaintPicture _SetBmpNum2(_GBA_P_NAME,(_GBA_P_STR + ((i - 1) * _GBA_P_FRC)),_GBA_P_TYPE) _
-	                 G_X G_Y G_SX G_SY DRCT “§‰ß T_COL_F UD_OPT LR_OPT ‰E‰ñ“] ANG
+	                 G_X G_Y G_SX G_SY DRCT é€éŽ T_COL_F UD_OPT LR_OPT å³å›žè»¢ ANG
 	  EndIf
 	  Refresh
 	  Wait Until (i * W_T)
@@ -262,7 +262,7 @@ Next
 _GBA_UnSetBmpPattern
 
 
-If (_S_OPT_FA("•ÛŽ") = "•ÛŽ") Then
+If (_S_OPT_FA("ä¿æŒ") = "ä¿æŒ") Then
   Return "Keep"
 Else
   Return

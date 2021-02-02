@@ -1,65 +1,65 @@
-*Žg—pŒã –Ø”V–{÷ ƒNƒƒEƒJ[ƒhŒðŠ·:
-If –Ø”V–{÷ƒJ[ƒhŒðŠ·Œã Then
-    AutoTalk ƒVƒXƒeƒ€
-    ƒJ[ƒh‚ÍŒðŠ·Ï‚Ý‚Å‚·
+*ä½¿ç”¨å¾Œ æœ¨ä¹‹æœ¬æ¡œ ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰äº¤æ›:
+If æœ¨ä¹‹æœ¬æ¡œã‚«ãƒ¼ãƒ‰äº¤æ›å¾Œ Then
+    AutoTalk ã‚·ã‚¹ãƒ†ãƒ 
+    ã‚«ãƒ¼ãƒ‰ã¯äº¤æ›æ¸ˆã¿ã§ã™
     End
     Exit
 Endif
-Call ƒJ[ƒhŒðŠ·ì‹Æ –Ø”V–{÷ ƒNƒƒEƒJ[ƒh
-Set –Ø”V–{÷ƒJ[ƒhŒðŠ·Œã
+Call ã‚«ãƒ¼ãƒ‰äº¤æ›ä½œæ¥­ æœ¨ä¹‹æœ¬æ¡œ ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰
+Set æœ¨ä¹‹æœ¬æ¡œã‚«ãƒ¼ãƒ‰äº¤æ›å¾Œ
 Exit
 
-*Žg—pŒã –Ø”V–{÷‚r ‚³‚­‚çƒJ[ƒhŒðŠ·:
-If –Ø”V–{÷‚rƒJ[ƒhŒðŠ·Œã Then
-    AutoTalk ƒVƒXƒeƒ€
-    ƒJ[ƒh‚ÍŒðŠ·Ï‚Ý‚Å‚·
+*ä½¿ç”¨å¾Œ æœ¨ä¹‹æœ¬æ¡œï¼³ ã•ãã‚‰ã‚«ãƒ¼ãƒ‰äº¤æ›:
+If æœ¨ä¹‹æœ¬æ¡œï¼³ã‚«ãƒ¼ãƒ‰äº¤æ›å¾Œ Then
+    AutoTalk ã‚·ã‚¹ãƒ†ãƒ 
+    ã‚«ãƒ¼ãƒ‰ã¯äº¤æ›æ¸ˆã¿ã§ã™
     End
     Exit
 Endif
-Call ƒJ[ƒhŒðŠ·ì‹Æ –Ø”V–{÷‚r ‚³‚­‚çƒJ[ƒh
-Set –Ø”V–{÷‚rƒJ[ƒhŒðŠ·Œã
+Call ã‚«ãƒ¼ãƒ‰äº¤æ›ä½œæ¥­ æœ¨ä¹‹æœ¬æ¡œï¼³ ã•ãã‚‰ã‚«ãƒ¼ãƒ‰
+Set æœ¨ä¹‹æœ¬æ¡œï¼³ã‚«ãƒ¼ãƒ‰äº¤æ›å¾Œ
 Exit
 
-*Žg—pŒã —›¬˜T ƒNƒƒEƒJ[ƒhŒðŠ·:
-If —›¬˜TƒJ[ƒhŒðŠ·Œã Then
-    AutoTalk ƒVƒXƒeƒ€
-    ƒJ[ƒh‚ÍŒðŠ·Ï‚Ý‚Å‚·
+*ä½¿ç”¨å¾Œ æŽå°ç‹¼ ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰äº¤æ›:
+If æŽå°ç‹¼ã‚«ãƒ¼ãƒ‰äº¤æ›å¾Œ Then
+    AutoTalk ã‚·ã‚¹ãƒ†ãƒ 
+    ã‚«ãƒ¼ãƒ‰ã¯äº¤æ›æ¸ˆã¿ã§ã™
     End
     Exit
 Endif
-Call ƒJ[ƒhŒðŠ·ì‹Æ —›¬˜T ¬˜T‚ÌƒNƒƒE
-Set —›¬˜TƒJ[ƒhŒðŠ·Œã
+Call ã‚«ãƒ¼ãƒ‰äº¤æ›ä½œæ¥­ æŽå°ç‹¼ å°ç‹¼ã®ã‚¯ãƒ­ã‚¦
+Set æŽå°ç‹¼ã‚«ãƒ¼ãƒ‰äº¤æ›å¾Œ
 Exit
 
-ƒJ[ƒhŒðŠ·ì‹Æ•Ï”‰Šú‰»:
-Unset ‘•”õƒJ[ƒh
-Unset –¢‘•”õƒJ[ƒh
-Unset ‘¼ƒAƒCƒeƒ€
-Unset ‘•”õˆ¤Ì
-Unset –¢‘•”õˆ¤Ì
-Unset ŽG—p
+ã‚«ãƒ¼ãƒ‰äº¤æ›ä½œæ¥­å¤‰æ•°åˆæœŸåŒ–:
+Unset è£…å‚™ã‚«ãƒ¼ãƒ‰
+Unset æœªè£…å‚™ã‚«ãƒ¼ãƒ‰
+Unset ä»–ã‚¢ã‚¤ãƒ†ãƒ 
+Unset è£…å‚™æ„›ç§°
+Unset æœªè£…å‚™æ„›ç§°
+Unset é›‘ç”¨
 Return
 
-ƒJ[ƒhŒðŠ·ì‹Æ:
-Confirm ƒJ[ƒh‚Í‚PƒVƒiƒŠƒI‚É‚P‰ñ‚µ‚©ŒðŠ·‚Å‚«‚Ü‚¹‚ñ‚ªŽÀs‚µ‚Ü‚·‚©H
-If ‘I‘ð = 0 Exit
-AutoTalk ƒVƒXƒeƒ€
-0.1;Ž‚Á‚Ä‚¢‚éƒJ[ƒh‚ðƒ`ƒFƒbƒN’†c
+ã‚«ãƒ¼ãƒ‰äº¤æ›ä½œæ¥­:
+Confirm ã‚«ãƒ¼ãƒ‰ã¯ï¼‘ã‚·ãƒŠãƒªã‚ªã«ï¼‘å›žã—ã‹äº¤æ›ã§ãã¾ã›ã‚“ãŒå®Ÿè¡Œã—ã¾ã™ã‹ï¼Ÿ
+If é¸æŠž = 0 Exit
+AutoTalk ã‚·ã‚¹ãƒ†ãƒ 
+0.1;æŒã£ã¦ã„ã‚‹ã‚«ãƒ¼ãƒ‰ã‚’ãƒã‚§ãƒƒã‚¯ä¸­â€¦
 Suspend
-Local ŽG—p ‘•”õƒJ[ƒh –¢‘•”õƒJ[ƒh ‘•”õˆ¤Ì –¢‘•”õˆ¤Ì ‘¼ƒAƒCƒeƒ€
+Local é›‘ç”¨ è£…å‚™ã‚«ãƒ¼ãƒ‰ æœªè£…å‚™ã‚«ãƒ¼ãƒ‰ è£…å‚™æ„›ç§° æœªè£…å‚™æ„›ç§° ä»–ã‚¢ã‚¤ãƒ†ãƒ 
 
 Set j 0
-For i = 1 To CountItem(–¢‘•”õ)
-    Switch Left(Item(–¢‘•”õ, i), 6)
+For i = 1 To CountItem(æœªè£…å‚™)
+    Switch Left(Item(æœªè£…å‚™, i), 6)
     Case Args(2)
         Incr j
-        Set –¢‘•”õƒJ[ƒh[j] Item(–¢‘•”õ, i)
+        Set æœªè£…å‚™ã‚«ãƒ¼ãƒ‰[j] Item(æœªè£…å‚™, i)
     EndSw
 Next
 Switch j
     Case 0
-    AutoTalk ƒVƒXƒeƒ€
-    ŒðŠ·‚Å‚«‚éƒJ[ƒh‚ª‚ ‚è‚Ü‚¹‚ñ.ƒJ[ƒhŒðŠ·‚ð‚µ‚½‚Æ‚Í‚Ý‚È‚³‚¸‚ÉI—¹‚µ‚Ü‚·
+    AutoTalk ã‚·ã‚¹ãƒ†ãƒ 
+    äº¤æ›ã§ãã‚‹ã‚«ãƒ¼ãƒ‰ãŒã‚ã‚Šã¾ã›ã‚“.ã‚«ãƒ¼ãƒ‰äº¤æ›ã‚’ã—ãŸã¨ã¯ã¿ãªã•ãšã«çµ‚äº†ã—ã¾ã™
     End
     Exit
 EndSw
@@ -69,66 +69,66 @@ For i = 1 To CountItem(Args(1))
     Switch Left(Item(Args(1), i), 6)
     Case Args(2)
         Incr j
-        Set ‘•”õƒJ[ƒh[j] Item(Args(1), i)
+        Set è£…å‚™ã‚«ãƒ¼ãƒ‰[j] Item(Args(1), i)
     Case else
-        Set ‘¼ƒAƒCƒeƒ€[i] Item(Args(1), i)
+        Set ä»–ã‚¢ã‚¤ãƒ†ãƒ [i] Item(Args(1), i)
     EndSw
 Next
 
-For i = 1 To (Info(ƒ†ƒjƒbƒgƒf[ƒ^, Unit(Args(1)), “ÁŽê”\—ÍƒŒƒxƒ‹, ƒn[ƒhƒ|ƒCƒ“ƒg) - Count(‘•”õƒJ[ƒh))
-    Equip Args(1) –¢‘•”õƒJ[ƒh[i]
-    Set ‘•”õƒJ[ƒh[i] –¢‘•”õƒJ[ƒh[i]
-    Unset –¢‘•”õƒJ[ƒh[i]
+For i = 1 To (Info(ãƒ¦ãƒ‹ãƒƒãƒˆãƒ‡ãƒ¼ã‚¿, Unit(Args(1)), ç‰¹æ®Šèƒ½åŠ›ãƒ¬ãƒ™ãƒ«, ãƒãƒ¼ãƒ‰ãƒã‚¤ãƒ³ãƒˆ) - Count(è£…å‚™ã‚«ãƒ¼ãƒ‰))
+    Equip Args(1) æœªè£…å‚™ã‚«ãƒ¼ãƒ‰[i]
+    Set è£…å‚™ã‚«ãƒ¼ãƒ‰[i] æœªè£…å‚™ã‚«ãƒ¼ãƒ‰[i]
+    Unset æœªè£…å‚™ã‚«ãƒ¼ãƒ‰[i]
 Next
 
-If Count(–¢‘•”õƒJ[ƒh) = 0 Then
-    Call ƒJ[ƒhŒðŠ·ì‹Æ•Ï”‰Šú‰»
-    AutoTalk ƒVƒXƒeƒ€
-    Ž‚Á‚Ä‚¢‚½ƒJ[ƒh‚ð‘S•”‘•”õ‚µ‚Ü‚µ‚½.ƒJ[ƒhŒðŠ·‚ð‚µ‚½‚Æ‚Í‚Ý‚È‚³‚¸‚ÉI—¹‚µ‚Ü‚·
+If Count(æœªè£…å‚™ã‚«ãƒ¼ãƒ‰) = 0 Then
+    Call ã‚«ãƒ¼ãƒ‰äº¤æ›ä½œæ¥­å¤‰æ•°åˆæœŸåŒ–
+    AutoTalk ã‚·ã‚¹ãƒ†ãƒ 
+    æŒã£ã¦ã„ãŸã‚«ãƒ¼ãƒ‰ã‚’å…¨éƒ¨è£…å‚™ã—ã¾ã—ãŸ.ã‚«ãƒ¼ãƒ‰äº¤æ›ã‚’ã—ãŸã¨ã¯ã¿ãªã•ãšã«çµ‚äº†ã—ã¾ã™
     End
     Exit
 Else
-    AutoTalk ƒVƒXƒeƒ€
-    ‘•”õ‰Â”\‚ÈƒJ[ƒh‚ð‘S•”‘•”õ‚µ‚Ü‚µ‚½
+    AutoTalk ã‚·ã‚¹ãƒ†ãƒ 
+    è£…å‚™å¯èƒ½ãªã‚«ãƒ¼ãƒ‰ã‚’å…¨éƒ¨è£…å‚™ã—ã¾ã—ãŸ
     End
 Endif
 
 UnSet j
-ForEach i IN –¢‘•”õƒJ[ƒh
-Set –¢‘•”õˆ¤Ì[i] (Info(ƒAƒCƒeƒ€, –¢‘•”õƒJ[ƒh[i], ˆ¤Ì) & "F" & Info(ƒAƒCƒeƒ€, –¢‘•”õƒJ[ƒh[i], ƒRƒƒ“ƒg))
+ForEach i IN æœªè£…å‚™ã‚«ãƒ¼ãƒ‰
+Set æœªè£…å‚™æ„›ç§°[i] (Info(ã‚¢ã‚¤ãƒ†ãƒ , æœªè£…å‚™ã‚«ãƒ¼ãƒ‰[i], æ„›ç§°) & "ï¼š" & Info(ã‚¢ã‚¤ãƒ†ãƒ , æœªè£…å‚™ã‚«ãƒ¼ãƒ‰[i], ã‚³ãƒ¡ãƒ³ãƒˆ))
 Next
 
-ForEach i IN ‘•”õƒJ[ƒh
-    Switch ‘•”õƒJ[ƒh[i]
-        Case ƒNƒƒEƒJ[ƒhuãÄv ‚³‚­‚çƒJ[ƒhuãÄv
+ForEach i IN è£…å‚™ã‚«ãƒ¼ãƒ‰
+    Switch è£…å‚™ã‚«ãƒ¼ãƒ‰[i]
+        Case ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Œç¿”ã€ ã•ãã‚‰ã‚«ãƒ¼ãƒ‰ã€Œç¿”ã€
         Switch Right(Unit(Args(1)), 3)
-            Case uãÄv
-            Set ‘•”õˆ¤Ì[i] (Info(ƒAƒCƒeƒ€, ‘•”õƒJ[ƒh[i], ˆ¤Ì) & "FŽg—p’†‚Ì‚½‚ßŒðŠ·•s‰Â")
+            Case ã€Œç¿”ã€
+            Set è£…å‚™æ„›ç§°[i] (Info(ã‚¢ã‚¤ãƒ†ãƒ , è£…å‚™ã‚«ãƒ¼ãƒ‰[i], æ„›ç§°) & "ï¼šä½¿ç”¨ä¸­ã®ãŸã‚äº¤æ›ä¸å¯")
             Set j i
             Skip
         EndSw
     EndSw
-    Set ‘•”õˆ¤Ì[i] (Info(ƒAƒCƒeƒ€, ‘•”õƒJ[ƒh[i], ˆ¤Ì) & "F" & Info(ƒAƒCƒeƒ€, ‘•”õƒJ[ƒh[i], ƒRƒƒ“ƒg))
+    Set è£…å‚™æ„›ç§°[i] (Info(ã‚¢ã‚¤ãƒ†ãƒ , è£…å‚™ã‚«ãƒ¼ãƒ‰[i], æ„›ç§°) & "ï¼š" & Info(ã‚¢ã‚¤ãƒ†ãƒ , è£…å‚™ã‚«ãƒ¼ãƒ‰[i], ã‚³ãƒ¡ãƒ³ãƒˆ))
 Next
 Do
-  Ask –¢‘•”õˆ¤Ì ‚Ç‚ÌƒJ[ƒh‚ð‘•”õ‚µ‚Ü‚·‚©H Šg‘å ˜A‘±•\Ž¦ ƒLƒƒƒ“ƒZƒ‹‰Â
-    Set ŽG—p[1] ‘I‘ð
-    Switch ŽG—p[1]
+  Ask æœªè£…å‚™æ„›ç§° ã©ã®ã‚«ãƒ¼ãƒ‰ã‚’è£…å‚™ã—ã¾ã™ã‹ï¼Ÿ æ‹¡å¤§ é€£ç¶šè¡¨ç¤º ã‚­ãƒ£ãƒ³ã‚»ãƒ«å¯
+    Set é›‘ç”¨[1] é¸æŠž
+    Switch é›‘ç”¨[1]
     Case ""
-        Switch ŽG—p[3]
+        Switch é›‘ç”¨[3]
             Case ""
-            Confirm "ƒJ[ƒhŒðŠ·‚ðI—¹‚µ‚Ü‚·‚©H ¡‚È‚ç‚ÎƒJ[ƒh‚ÍŒðŠ·‚µ‚½‚Æ‚Ý‚È‚³‚ê‚Ü‚¹‚ñ"
-            Switch ‘I‘ð
+            Confirm "ã‚«ãƒ¼ãƒ‰äº¤æ›ã‚’çµ‚äº†ã—ã¾ã™ã‹ï¼Ÿ ä»Šãªã‚‰ã°ã‚«ãƒ¼ãƒ‰ã¯äº¤æ›ã—ãŸã¨ã¿ãªã•ã‚Œã¾ã›ã‚“"
+            Switch é¸æŠž
                 Case 1
-                Call ƒJ[ƒhŒðŠ·ì‹Æ•Ï”‰Šú‰»
-                Ask I—¹
+                Call ã‚«ãƒ¼ãƒ‰äº¤æ›ä½œæ¥­å¤‰æ•°åˆæœŸåŒ–
+                Ask çµ‚äº†
                 Exit
                 Case else
                 Skip
             EndSw
             Case else
-            Confirm ƒJ[ƒhŒðŠ·‚ðI—¹‚µ‚Ü‚·‚©H
-            Switch ‘I‘ð
+            Confirm ã‚«ãƒ¼ãƒ‰äº¤æ›ã‚’çµ‚äº†ã—ã¾ã™ã‹ï¼Ÿ
+            Switch é¸æŠž
                 Case 1
                 Break
                 Case else
@@ -139,82 +139,82 @@ Do
 
 PlaySound Type.wav
 Do
-  Ask ‘•”õˆ¤Ì "$(–¢‘•”õˆ¤Ì[ŽG—p[1]])‚ð‘•”õ‚·‚é‚½‚ßA‚Ç‚ÌƒJ[ƒh‚ðŠO‚µ‚Ü‚·‚©H" Šg‘å ˜A‘±•\Ž¦ ƒLƒƒƒ“ƒZƒ‹‰Â
+  Ask è£…å‚™æ„›ç§° "$(æœªè£…å‚™æ„›ç§°[é›‘ç”¨[1]])ã‚’è£…å‚™ã™ã‚‹ãŸã‚ã€ã©ã®ã‚«ãƒ¼ãƒ‰ã‚’å¤–ã—ã¾ã™ã‹ï¼Ÿ" æ‹¡å¤§ é€£ç¶šè¡¨ç¤º ã‚­ãƒ£ãƒ³ã‚»ãƒ«å¯
     PlaySound Type.wav
-    Set ŽG—p[2] ‘I‘ð
-    Switch ŽG—p[2]
+    Set é›‘ç”¨[2] é¸æŠž
+    Switch é›‘ç”¨[2]
     Case j
         Skip
     Case ""
         Break
     Case Else
     PlaySound Type.wav
-    Set ŽG—p[3] ‘•”õƒJ[ƒh[ŽG—p[2]]
-    Set ŽG—p[4] ‘•”õˆ¤Ì[ŽG—p[2]]
-    Set ‘•”õƒJ[ƒh[ŽG—p[2]] –¢‘•”õƒJ[ƒh[ŽG—p[1]]
-    Set ‘•”õˆ¤Ì[ŽG—p[2]] –¢‘•”õˆ¤Ì[ŽG—p[1]]
-    Set –¢‘•”õƒJ[ƒh[ŽG—p[1]] ŽG—p[3]
-    Set –¢‘•”õˆ¤Ì[ŽG—p[1]] ŽG—p[4]
+    Set é›‘ç”¨[3] è£…å‚™ã‚«ãƒ¼ãƒ‰[é›‘ç”¨[2]]
+    Set é›‘ç”¨[4] è£…å‚™æ„›ç§°[é›‘ç”¨[2]]
+    Set è£…å‚™ã‚«ãƒ¼ãƒ‰[é›‘ç”¨[2]] æœªè£…å‚™ã‚«ãƒ¼ãƒ‰[é›‘ç”¨[1]]
+    Set è£…å‚™æ„›ç§°[é›‘ç”¨[2]] æœªè£…å‚™æ„›ç§°[é›‘ç”¨[1]]
+    Set æœªè£…å‚™ã‚«ãƒ¼ãƒ‰[é›‘ç”¨[1]] é›‘ç”¨[3]
+    Set æœªè£…å‚™æ„›ç§°[é›‘ç”¨[1]] é›‘ç”¨[4]
         Break
     EndSw
 Loop
 Loop
-Ask I—¹
-AutoTalk ƒVƒXƒeƒ€
-0.1;ƒJ[ƒh‘•”õ’†c
+Ask çµ‚äº†
+AutoTalk ã‚·ã‚¹ãƒ†ãƒ 
+0.1;ã‚«ãƒ¼ãƒ‰è£…å‚™ä¸­â€¦
 Suspend
 Select Args(1)
 RemoveItem
-ForEach i In ‘•”õƒJ[ƒh
-    Equip ‘•”õƒJ[ƒh[i]
+ForEach i In è£…å‚™ã‚«ãƒ¼ãƒ‰
+    Equip è£…å‚™ã‚«ãƒ¼ãƒ‰[i]
 Next
-ForEach i In ‘¼ƒAƒCƒeƒ€
-    Equip ‘¼ƒAƒCƒeƒ€[i]
+ForEach i In ä»–ã‚¢ã‚¤ãƒ†ãƒ 
+    Equip ä»–ã‚¢ã‚¤ãƒ†ãƒ [i]
 Next
-Call ƒJ[ƒhŒðŠ·ì‹Æ•Ï”‰Šú‰»
-AutoTalk ƒVƒXƒeƒ€
-ƒJ[ƒh‘•”õ’†c I—¹‚µ‚Ü‚µ‚½
+Call ã‚«ãƒ¼ãƒ‰äº¤æ›ä½œæ¥­å¤‰æ•°åˆæœŸåŒ–
+AutoTalk ã‚·ã‚¹ãƒ†ãƒ 
+ã‚«ãƒ¼ãƒ‰è£…å‚™ä¸­â€¦ çµ‚äº†ã—ã¾ã—ãŸ
 End
 Return
 
-## --ƒNƒƒEƒJ[ƒhu‘ÖvƒCƒ“ƒNƒ‹--
-## ƒNƒƒEƒJ[ƒhu‘Övƒ–„‚ÍA‡‘Ì‹Z‚¾‚ÆƒGƒ‰[‚ªo‚é‚½‚ßA‚±‚Ì‚æ‚¤‚Èˆ—‚ð‚µ‚Ä‚¢‚Ü‚·B
+## --ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Œæ›¿ã€ã‚¤ãƒ³ã‚¯ãƒ«--
+## ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Œæ›¿ã€ï¼œï¼Šï¼žã¯ã€åˆä½“æŠ€ã ã¨ã‚¨ãƒ©ãƒ¼ãŒå‡ºã‚‹ãŸã‚ã€ã“ã®ã‚ˆã†ãªå‡¦ç†ã‚’ã—ã¦ã„ã¾ã™ã€‚
 
-*Žg—p –Ø”V–{÷ ƒNƒƒEƒJ[ƒhw‘Öxƒ¬˜T„:
-*Žg—p —›¬˜T ƒNƒƒEƒJ[ƒhw‘Öxƒ‚³‚­‚ç„:
-UnSet ‹——£[‚³‚­‚çE¬˜T]
-Set ‹——£[‚³‚­‚çE¬˜T] ((X(–Ø”V–{÷) + Y(–Ø”V–{÷)) - (X(—›¬˜T) + Y(—›¬˜T)))
-Switch ‹——£[‚³‚­‚çE¬˜T]
+*ä½¿ç”¨ æœ¨ä¹‹æœ¬æ¡œ ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Žæ›¿ã€ï¼œå°ç‹¼ï¼ž:
+*ä½¿ç”¨ æŽå°ç‹¼ ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Žæ›¿ã€ï¼œã•ãã‚‰ï¼ž:
+UnSet è·é›¢[ã•ãã‚‰ãƒ»å°ç‹¼]
+Set è·é›¢[ã•ãã‚‰ãƒ»å°ç‹¼] ((X(æœ¨ä¹‹æœ¬æ¡œ) + Y(æœ¨ä¹‹æœ¬æ¡œ)) - (X(æŽå°ç‹¼) + Y(æŽå°ç‹¼)))
+Switch è·é›¢[ã•ãã‚‰ãƒ»å°ç‹¼]
 Case -1 1
-@Exit
+ã€€Exit
 Case Else
-@Talk ƒVƒXƒeƒ€
-@‚³‚­‚ç‚Æ¬˜T‚ª—×Ú‚µ‚Ä‚¢‚È‚¢‚ÆŽg—p‚Å‚«‚Ü‚¹‚ñ
-@End
-@Mind ŠoÁ
-@Cancel
+ã€€Talk ã‚·ã‚¹ãƒ†ãƒ 
+ã€€ã•ãã‚‰ã¨å°ç‹¼ãŒéš£æŽ¥ã—ã¦ã„ãªã„ã¨ä½¿ç”¨ã§ãã¾ã›ã‚“
+ã€€End
+ã€€Mind è¦šé†’
+ã€€Cancel
 EndSw
 Exit
 
 
 
-*Žg—pŒã –Ø”V–{÷(ƒ`ƒFƒ“ƒW¬˜T) ƒNƒƒEƒJ[ƒhw‘Öxƒ¬˜T„:
-Item ƒNƒƒEƒJ[ƒhu‘Öv(ƒCƒ“ƒNƒ‹—p)
-Equip —›¬˜T ƒNƒƒEƒJ[ƒhu‘Öv(ƒCƒ“ƒNƒ‹—p)
+*ä½¿ç”¨å¾Œ æœ¨ä¹‹æœ¬æ¡œ(ãƒã‚§ãƒ³ã‚¸å°ç‹¼) ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Žæ›¿ã€ï¼œå°ç‹¼ï¼ž:
+Item ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Œæ›¿ã€(ã‚¤ãƒ³ã‚¯ãƒ«ç”¨)
+Equip æŽå°ç‹¼ ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Œæ›¿ã€(ã‚¤ãƒ³ã‚¯ãƒ«ç”¨)
 
-UseAbility —›¬˜T ƒNƒƒEƒJ[ƒhw‘Öxƒ‚³‚­‚ç„(ƒCƒ“ƒNƒ‹—p)
+UseAbility æŽå°ç‹¼ ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Žæ›¿ã€ï¼œã•ãã‚‰ï¼ž(ã‚¤ãƒ³ã‚¯ãƒ«ç”¨)
 
-RemoveItem —›¬˜T ƒNƒƒEƒJ[ƒhu‘Öv(ƒCƒ“ƒNƒ‹—p)
+RemoveItem æŽå°ç‹¼ ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Œæ›¿ã€(ã‚¤ãƒ³ã‚¯ãƒ«ç”¨)
 Exit
 
-*Žg—pŒã —›¬˜T(ƒ`ƒFƒ“ƒW‚³‚­‚ç) ƒNƒƒEƒJ[ƒhw‘Öxƒ‚³‚­‚ç„:
-Item ƒNƒƒEƒJ[ƒhu‘Öv(ƒCƒ“ƒNƒ‹—p)
-Equip –Ø”V–{÷ ƒNƒƒEƒJ[ƒhu‘Öv(ƒCƒ“ƒNƒ‹—p)
+*ä½¿ç”¨å¾Œ æŽå°ç‹¼(ãƒã‚§ãƒ³ã‚¸ã•ãã‚‰) ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Žæ›¿ã€ï¼œã•ãã‚‰ï¼ž:
+Item ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Œæ›¿ã€(ã‚¤ãƒ³ã‚¯ãƒ«ç”¨)
+Equip æœ¨ä¹‹æœ¬æ¡œ ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Œæ›¿ã€(ã‚¤ãƒ³ã‚¯ãƒ«ç”¨)
 
-UseAbility –Ø”V–{÷ ƒNƒƒEƒJ[ƒhw‘Öxƒ¬˜T„(ƒCƒ“ƒNƒ‹—p)
+UseAbility æœ¨ä¹‹æœ¬æ¡œ ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Žæ›¿ã€ï¼œå°ç‹¼ï¼ž(ã‚¤ãƒ³ã‚¯ãƒ«ç”¨)
 
-RemoveItem –Ø”V–{÷ ƒNƒƒEƒJ[ƒhu‘Öv(ƒCƒ“ƒNƒ‹—p)
+RemoveItem æœ¨ä¹‹æœ¬æ¡œ ã‚¯ãƒ­ã‚¦ã‚«ãƒ¼ãƒ‰ã€Œæ›¿ã€(ã‚¤ãƒ³ã‚¯ãƒ«ç”¨)
 Exit
 
-# ‚·‚×‚Ä‚Éu`(ƒCƒ“ƒNƒ‹—p)v‚Æ•t‚¯‚Ä‚¢‚é‚Ì‚ÍAŒ³‚Ìu‘Öv‚Æ‚ÌŒëì“®–hŽ~‚ÆA
-# ƒƒbƒZ‚ð•\Ž¦‚³‚¹‚È‚¢‚½‚ß‚Å‚·B
+# ã™ã¹ã¦ã«ã€Œï½ž(ã‚¤ãƒ³ã‚¯ãƒ«ç”¨)ã€ã¨ä»˜ã‘ã¦ã„ã‚‹ã®ã¯ã€å…ƒã®ã€Œæ›¿ã€ã¨ã®èª¤ä½œå‹•é˜²æ­¢ã¨ã€
+# ãƒ¡ãƒƒã‚»ã‚’è¡¨ç¤ºã•ã›ãªã„ãŸã‚ã§ã™ã€‚

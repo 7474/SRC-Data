@@ -1,107 +1,107 @@
-���߂̌���
-���߂̌���, �Œ�, ��\��
-����\��
+求めの欠片
+求めの欠片, 固定, 非表示
+特殊能力
 600, 30, 300, 15, 0
-�i�|�����񃉃b�V��,             1100,  1,  1,  +25,   -,   -,   -, AAAA,   +0, ��
-�I�[���t�H�g���r�[��,           1600,  1,  3,  -10,   -,  25,   -, AABA,   +0, ���p
-�c�E�j�E�a,                     2700,  1,  1,  +20,   1,   -, 120, AAAA,  +10, ��
+ナポリたんラッシュ,             1100,  1,  1,  +25,   -,   -,   -, AAAA,   +0, 突
+オーラフォトンビーム,           1600,  1,  3,  -10,   -,  25,   -, AABA,   +0, 魔術
+Ｄ・Ｋ・Ｂ,                     2700,  1,  1,  +20,   1,   -, 120, AAAA,  +10, 突
 
-# PS2�ňȍ~�̒ǉ��v�f�A���[���[�g�ł̉��D�Q�펞�Č��p�B
-# ���j�b�g�\�͂�3�����N�������A�����ǉ��B
+# PS2版以降の追加要素、時深ルートでの佳織参戦時再現用。
+# ユニット能力が3ランク分増加、武装追加。
 
 
-���̓��W�F�l
-���̓��W�F�l, �Œ�, ��\��
-����\��
-�p�C���b�g����=���W�F�l
-�p�C���b�g�摜=ASELIA_Regene.bmp
-���̕ύX=���W�F�l
-���j�b�g�摜=ASELIA_RegeneU.bmp
+私はリジェネ
+私はリジェネ, 固定, 非表示
+特殊能力
+パイロット愛称=リジェネ
+パイロット画像=ASELIA_Regene.bmp
+愛称変更=リジェネ
+ユニット画像=ASELIA_RegeneU.bmp
 0, 0, 0, 0, 0 
 
-# ��̏������W�F�l�Č��p
+# 謎の少女リジェネ再現用
 
 
-## �ȉ���Ԃ̗����̕ύX�A�C�e��
+## 以下門番の龍名称変更アイテム
 
-��ԃK���I�[��
-��ԃK���I�[��, �Œ�, ��\��
-����\��
-�p�C���b�g����=�K���I�[��
-�p�C���b�g�摜=ASELIA_Reddragon.bmp
-���̕ύX=��ԃK���I�[��
-���j�b�g�摜=ASELIA_ReddragonU.bmp
+門番ガリオーン
+門番ガリオーン, 固定, 非表示
+特殊能力
+パイロット愛称=ガリオーン
+パイロット画像=ASELIA_Reddragon.bmp
+愛称変更=門番ガリオーン
+ユニット画像=ASELIA_ReddragonU.bmp
 0, 0, 0, 0, 0 
-*�ԗ�
+*赤龍
 
-��ԃl�X�g�Z���X
-��ԃl�X�g�Z���X, �Œ�, ��\��
-����\��
-�p�C���b�g����=�l�X�g�Z���X
-�p�C���b�g�摜=ASELIA_Greendragon.bmp
-���̕ύX=��ԃl�X�g�Z���X
-���j�b�g�摜=ASELIA_GreendragonU.bmp
+門番ネストセラス
+門番ネストセラス, 固定, 非表示
+特殊能力
+パイロット愛称=ネストセラス
+パイロット画像=ASELIA_Greendragon.bmp
+愛称変更=門番ネストセラス
+ユニット画像=ASELIA_GreendragonU.bmp
 0, 0, 0, 0, 0 
-*�Η�
+*緑龍
 
-��ԃN���E�Y�V�I��
-��ԃN���E�Y�V�I��, �Œ�, ��\��
-����\��
-�p�C���b�g����=�N���E�Y�V�I��
-�p�C���b�g�摜=ASELIA_Blackdragon.bmp
-���̕ύX=��ԃN���E�Y�V�I��
-���j�b�g�摜=ASELIA_BlackdragonU.bmp
+門番クロウズシオン
+門番クロウズシオン, 固定, 非表示
+特殊能力
+パイロット愛称=クロウズシオン
+パイロット画像=ASELIA_Blackdragon.bmp
+愛称変更=門番クロウズシオン
+ユニット画像=ASELIA_BlackdragonU.bmp
 0, 0, 0, 0, 0 
-*����
+*黒龍
 
-��ԃZ�[���B�Z�C�g
-��ԃZ�[���B�Z�C�g, �Œ�, ��\��
-����\��
-�p�C���b�g����=�Z�[���B�Z�C�g
-�p�C���b�g�摜=ASELIA_Blackdragon.bmp
-���̕ύX=��ԃZ�[���B�Z�C�g
-���j�b�g�摜=ASELIA_BlackdragonU.bmp
+門番セーリィセイト
+門番セーリィセイト, 固定, 非表示
+特殊能力
+パイロット愛称=セーリィセイト
+パイロット画像=ASELIA_Blackdragon.bmp
+愛称変更=門番セーリィセイト
+ユニット画像=ASELIA_BlackdragonU.bmp
 0, 0, 0, 0, 0 
-*����
+*黒龍
 
-��ԃ��[�Y
-��ԃ��[�Y, �Œ�, ��\��
-����\��
-�p�C���b�g����=���[�Y
-�p�C���b�g�摜=ASELIA_Bluedragon.bmp
-���̕ύX=��ԃ��[�Y
-���j�b�g�摜=ASELIA_Bluedragon.bmp
+門番レーズ
+門番レーズ, 固定, 非表示
+特殊能力
+パイロット愛称=レーズ
+パイロット画像=ASELIA_Bluedragon.bmp
+愛称変更=門番レーズ
+ユニット画像=ASELIA_Bluedragon.bmp
 0, 0, 0, 0, 0 
-*��
+*青龍
 
-���҃��o�C��
-���҃��o�C��, �Œ�, ��\��
-����\��
-�p�C���b�g����=���o�C��
-�p�C���b�g�摜=ASELIA_Greendragon.bmp
-���̕ύX=���҃��o�C��
-���j�b�g�摜=ASELIA_GreendragonU.bmp
+守護者リバイル
+守護者リバイル, 固定, 非表示
+特殊能力
+パイロット愛称=リバイル
+パイロット画像=ASELIA_Greendragon.bmp
+愛称変更=守護者リバイル
+ユニット画像=ASELIA_GreendragonU.bmp
 0, 0, 0, 0, 0 
-*�Η�
+*緑龍
 
-���҃A���^�X
-���҃A���^�X, �Œ�, ��\��
-����\��
-�p�C���b�g����=�K���I�[��
-�p�C���b�g�摜=ASELIA_Bluedragon.bmp
-���̕ύX=���҃A���^�X
-���j�b�g�摜=ASELIA_BluedragonU.bmp
+守護者アレタス
+守護者アレタス, 固定, 非表示
+特殊能力
+パイロット愛称=ガリオーン
+パイロット画像=ASELIA_Bluedragon.bmp
+愛称変更=守護者アレタス
+ユニット画像=ASELIA_BluedragonU.bmp
 0, 0, 0, 0, 0 
-*��
+*青龍
 
-���҃A�V���M�X
-���҃A�V���M�X, �Œ�, ��\��
-����\��
-�p�C���b�g����=�A�V���M�X
-�p�C���b�g�摜=ASELIA_Whitedragon.bmp
-���̕ύX=���҃A�V���M�X
-���j�b�g�摜=ASELIA_WhitedragonU.bmp
+守護者アシュギス
+守護者アシュギス, 固定, 非表示
+特殊能力
+パイロット愛称=アシュギス
+パイロット画像=ASELIA_Whitedragon.bmp
+愛称変更=守護者アシュギス
+ユニット画像=ASELIA_WhitedragonU.bmp
 0, 0, 0, 0, 0 
-*����
+*白龍
 
 

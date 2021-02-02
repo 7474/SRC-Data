@@ -1,12 +1,12 @@
 
-í“¬ƒAƒjƒ_GUILTY_ˆÃ“]‰‰o:
-# ˆø” ‰‰oŠÔ@ƒ†ƒjƒbƒg‚h‚c@Œø‰Ê‰¹
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_GUILTY_æš—è»¢æ¼”å‡º:
+# å¼•æ•° æ¼”å‡ºæ™‚é–“ã€€ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ã€€åŠ¹æœéŸ³
 Local TIME
 _CenteringCheck UID
 _SelectSound "-.wav" _GetWavFromArgs()
 
-If (_SearchOptionFromArgs("‰‰oŠÔ") != "") Then
-  Set TIME ‰‰oŠÔ
+If (_SearchOptionFromArgs("æ¼”å‡ºæ™‚é–“") != "") Then
+  Set TIME æ¼”å‡ºæ™‚é–“
 Else
   Set TIME ""
 EndIf
@@ -22,11 +22,11 @@ Unset TIME
 Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_GUILTY_ƒEƒBƒ“ƒK[€”õ:
-## í“¬ƒAƒjƒ_U‚é•ŠíŒn€”õ‹¤’Ê@‚ğ‰ü•Ï‚µ‚Äì¬
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_GUILTY_ã‚¦ã‚£ãƒ³ã‚¬ãƒ¼æº–å‚™:
+## æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æŒ¯ã‚‹æ­¦å™¨ç³»æº–å‚™å…±é€šã€€ã‚’æ”¹å¤‰ã—ã¦ä½œæˆ
 UpVar
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Local C_X = WX(UID)
 Local C_Y = WY(UID)
@@ -41,18 +41,18 @@ _SelectSound "Swing(3).wav" _GetWavFromArgs()
 
 Wait Start
 ClearPicture
-PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X - 16 + X_P) (C_Y - 8) G_S G_S “§‰ß T_COL_F
-PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X + 16 + X_P) (C_Y - 8) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X - 16 + X_P) (C_Y - 8) G_S G_S é€é T_COL_F
+PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X + 16 + X_P) (C_Y - 8) G_S G_S é€é å·¦å³åè»¢ T_COL_F
 Refresh
 Wait Until 1
 ClearPicture
-PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X - 24 + X_P) (C_Y - 12) G_S G_S “§‰ß T_COL_F
-PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X + 24 + X_P) (C_Y - 12) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X - 24 + X_P) (C_Y - 12) G_S G_S é€é T_COL_F
+PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X + 24 + X_P) (C_Y - 12) G_S G_S é€é å·¦å³åè»¢ T_COL_F
 Refresh
 Wait Until 2
 ClearPicture
-PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X - 20 + X_P) (C_Y - 8) G_S G_S “§‰ß T_COL_F
-PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X + 20 + X_P) (C_Y - 8) G_S G_S “§‰ß ¶‰E”½“] T_COL_F
+PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X - 20 + X_P) (C_Y - 8) G_S G_S é€é T_COL_F
+PaintPicture Anime\Wing\EFFECT_BirdWing(Yellow)01.bmp (C_X + 20 + X_P) (C_Y - 8) G_S G_S é€é å·¦å³åè»¢ T_COL_F
 Refresh
 Wait Until 3.5
 
@@ -62,300 +62,300 @@ Return "Keep"
 
 
 
-í“¬ƒAƒjƒ_GUILTY_ƒI[ƒ‹ƒfƒbƒh–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_GUILTY_ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰å‘½ä¸­:
 
-Local ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å
-Local ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å
-Local ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å
+Local ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥
+Local ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥
+Local ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥
 
-# ã‚Ì‹å
+# ä¸Šã®å¥
 
 Switch Random(41)
 Case 1
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å l¶‚Í
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ äººç”Ÿã¯
 Case 2
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å l‚Ì¢‚É
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ äººã®ä¸–ã«
 Case 3
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ’©‹N‚«‚Ä
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æœèµ·ãã¦
 Case 4
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ‚³‚·‚ç‚¢‚Ì
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ ã•ã™ã‚‰ã„ã®
 Case 5
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ¶ˆÓ‹C‚É
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ ç”Ÿæ„æ°—ã«
 Case 6
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ¡”N‚±‚»
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ ä»Šå¹´ã“ã
 Case 7
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ‰w‘O‚Ì
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ é§…å‰ã®
 Case 8
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å –ØŒÍ‚ç‚µ‚Ì
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æœ¨æ¯ã‚‰ã—ã®
 Case 9
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å “‰€‚Ì
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æ¡ƒåœ’ã®
 Case 10
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ‘ŠŸ‚¢‚Å
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ ç›¸æ¬¡ã„ã§
 Case 11
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å –ì—ÇŒ¢‚à
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ é‡è‰¯çŠ¬ã‚‚
 Case 12
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å „‚È‚ç
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ ç§ãªã‚‰
 Case 13
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å –÷ˆãÒ‚ª
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ è–®åŒ»è€…ãŒ
 Case 14
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å —¬‚ê¯
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æµã‚Œæ˜Ÿ
 Case 15
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ˆÃˆÅ‚Å
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æš—é—‡ã§
 Case 16
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å l‚Æ‚µ‚ÄA
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ äººã¨ã—ã¦ã€
 Case 17
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ‚¤‚½‚½Q‚É
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ ã†ãŸãŸå¯ã«
 Case 18
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å —·æ‚Å
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æ—…å…ˆã§
 Case 19
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ‚»‚±‚»‚±‚Ì
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ ãã“ãã“ã®
 Case 20
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ‚Í‚è‚«‚Á‚Ä
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ ã¯ã‚Šãã£ã¦
 Case 21
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å Š»‚¨‚¯‚Å
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æ£ºãŠã‘ã§
 Case 22
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ‹ƒ‚«‹©‚Ñ
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æ³£ãå«ã³
 Case 23
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ¯‹ó‚É
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æ˜Ÿç©ºã«
 Case 24
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å •KE‚Ì
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ å¿…æ®ºã®
 Case 25
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å °‚ª
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ é­‚ãŒ
 Case 26
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å |‚Ì‚¤‚¿
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æ—¨ã®ã†ã¡
 Case 27
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ƒVƒ‡ƒbƒLƒ“ƒOI
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ ã‚·ãƒ§ãƒƒã‚­ãƒ³ã‚°ï¼
 Case 28
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ”YE‚©H
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æ‚©æ®ºã‹ï¼Ÿ
 Case 29
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ×–‚‚·‚é‚È
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ é‚ªé­”ã™ã‚‹ãª
 Case 30
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å •——§‚¿‚Ê
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ é¢¨ç«‹ã¡ã¬
 Case 31
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å “S•Ç‚Ì
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ é‰„å£ã®
 Case 32
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ‚¿‚å‚Á‚Æ‘Ò‚Ä
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ ã¡ã‚‡ã£ã¨å¾…ã¦
 Case 33
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ‚â‚é‚ª‚¢‚¢
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ ã‚„ã‚‹ãŒã„ã„
 Case 34
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å è— Œ•‚Å
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æ‰‹è£å‰£ã§
 Case 35
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å —¬Î‚¾‚Ë
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æµçŸ³ã ã­
 Case 36
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å Š””ƒ‚Á‚Ä
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æ ªè²·ã£ã¦
 Case 37
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ‚¨‚Æ‚Á‚Â‚Ÿ‚ñ
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ ãŠã¨ã£ã¤ãã‚“
 Case 38
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å •’E‚¢‚Å
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æœè„±ã„ã§
 Case 39
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å U‚èŒü‚¯‚Î
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æŒ¯ã‚Šå‘ã‘ã°
 Case 40
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ­”NŠú
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ å°‘å¹´æœŸ
 Case 41
-	Set ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å ‰É‚È‚Ì‚É
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥ æš‡ãªã®ã«
 EndSw
 
-# ’†‚Ì‹å
+# ä¸­ã®å¥
 Switch Random(41)
 Case 1
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å “ú‚ª‚Èˆê“ú
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ æ—¥ãŒãªä¸€æ—¥
 Case 2
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ‹CŒ­‚¢–³—p‚Ì
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ æ°—é£ã„ç„¡ç”¨ã®
 Case 3
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ‰E‚à¶‚à
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ å³ã‚‚å·¦ã‚‚
 Case 4
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å UX‘—‚Á‚Ä
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ æ•£ã€…é€ã£ã¦
 Case 5
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å Œã¶‘å–‚É
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ å¾Œç”Ÿå¤§äº‹ã«
 Case 6
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ‰˜E‹cˆõ‚Æ
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ æ±šè·è­°å“¡ã¨
 Case 7
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ”M‚¢ŒŒ’ª‚Ì
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ç†±ã„è¡€æ½®ã®
 Case 8
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ƒvƒ‰ƒXvl‚Ì
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ãƒ—ãƒ©ã‚¹æ€è€ƒã®
 Case 9
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å Q‚Ä‚àŠo‚ß‚Ä‚à
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ å¯ã¦ã‚‚è¦šã‚ã¦ã‚‚
 Case 10
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å S‚ä‚­‚Ü‚Å
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ å¿ƒã‚†ãã¾ã§
 Case 11
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å —Ü‚±‚ç‚¦‚Ä
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ æ¶™ã“ã‚‰ãˆã¦
 Case 12
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ˆê‘«ˆá‚¢‚Å
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ä¸€è¶³é•ã„ã§
 Case 13
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å •@‚È‚ç‚È‚¢
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ é¼»æŒãªã‚‰ãªã„
 Case 14
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ’y‚¹‚év‚¢‚Å
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ é¦³ã›ã‚‹æ€ã„ã§
 Case 15
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ‹P‚­ƒAƒCƒc‚à
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ è¼ãã‚¢ã‚¤ãƒ„ã‚‚
 Case 16
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å g‚Ì–Ñ‚à‚æ‚¾‚Â
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ èº«ã®æ¯›ã‚‚ã‚ˆã ã¤
 Case 17
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ‚Ç‚Ì‚İ‚¿Œ‹‹Ç
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ã©ã®ã¿ã¡çµå±€
 Case 18
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ¡‚©¡‚©‚Æ
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ä»Šã‹ä»Šã‹ã¨
 Case 19
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å „D‚İ‚Ì
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ç§å¥½ã¿ã®
 Case 20
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å –é‚Ì’é‰¤
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ å¤œã®å¸ç‹
 Case 21
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ˆêlâ‚µ‚­
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ä¸€äººå¯‚ã—ã
 Case 22
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å –”G‚ç‚µ‚Ä
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ æ•æ¿¡ã‚‰ã—ã¦
 Case 23
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ˆêq‘Š“`
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ä¸€å­ç›¸ä¼
 Case 24
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å —‘z‚Ì‹·ŠÔ‚É
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ç†æƒ³ã®ç‹­é–“ã«
 Case 25
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ³’¼•‚ª‚ä‚¢
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ æ­£ç›´æ­¯ãŒã‚†ã„
 Case 26
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ‘‹«‰z‚¦‚Ä
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ å›½å¢ƒè¶Šãˆã¦
 Case 27
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ŒŒ‚ÅŒŒ‚ğô‚¤
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ è¡€ã§è¡€ã‚’æ´—ã†
 Case 28
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ’p‚¶‚ç‚¢‚È‚ª‚ç
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ æ¥ã˜ã‚‰ã„ãªãŒã‚‰
 Case 29
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å „‚ğÌ‚¦‚é
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ç§ã‚’ç§°ãˆã‚‹
 Case 30
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ˆê‚©”ª‚©‚Ì
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ä¸€ã‹å…«ã‹ã®
 Case 31
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å “ª‚Ì’†‚¾‚¯
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ é ­ã®ä¸­ã ã‘
 Case 32
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ƒtƒ‰ƒ“ƒXd‚İ‚Ì
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ãƒ•ãƒ©ãƒ³ã‚¹ä»•è¾¼ã¿ã®
 Case 33
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å Œõ‚Ì‘¬‚³‚Å
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ å…‰ã®é€Ÿã•ã§
 Case 34
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ‚ ‚ê‚¾‚¯Œ¾‚Á‚Ä‚à
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ã‚ã‚Œã ã‘è¨€ã£ã¦ã‚‚
 Case 35
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å e—F‚È‚Ì‚É
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ è¦ªå‹ãªã®ã«
 Case 36
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å •‚‹CŒ»ê‚Å
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ æµ®æ°—ç¾å ´ã§
 Case 37
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ‚”ò‚Ñ‚µ‚Ä‚Å‚à
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ é«˜é£›ã³ã—ã¦ã§ã‚‚
 Case 38
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ‚à‚¤”N‚È‚Ì‚É
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ã‚‚ã†å¹´ãªã®ã«
 Case 39
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ƒ`ƒƒƒbƒN‘SŠJ
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ãƒãƒ£ãƒƒã‚¯å…¨é–‹
 Case 40
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ƒ}ƒbƒXƒ‹ƒ{ƒfƒB‚Å
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ãƒãƒƒã‚¹ãƒ«ãƒœãƒ‡ã‚£ã§
 Case 41
-	Set ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å ‘¼l‚Ì‹à‚Å
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥ ä»–äººã®é‡‘ã§
 EndSw
 
 
 
-# ‰º‚Ì‹å
+# ä¸‹ã®å¥
 Switch Random(41)
 Case 1
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ‚tƒ^[ƒ“
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ï¼µã‚¿ãƒ¼ãƒ³
 Case 2
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ‘S•Ä‚m‚D‚P
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ å…¨ç±³ï¼®ï½ï¼ï¼‘
 Case 3
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å Š¾‚Ü‚İ‚ê
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ æ±—ã¾ã¿ã‚Œ
 Case 4
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ŠR‚Á‚Õ‚¿
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ å´–ã£ã·ã¡
 Case 5
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ˜AƒRƒCƒ“
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ é€£ã‚³ã‚¤ãƒ³
 Case 6
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ˆêl—·
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ä¸€äººæ—…
 Case 7
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ‚ ‚ •çî
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ã‚ã‚æ…•æƒ…
 Case 8
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ƒgƒ‰ƒ“ƒNƒX
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ãƒˆãƒ©ãƒ³ã‚¯ã‚¹
 Case 9
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å €Œê˜A”­
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ æ­»èªé€£ç™º
 Case 10
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å –²Œ©‚ª‚¿
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ å¤¢è¦‹ãŒã¡
 Case 11
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å “‡—¬‚µ
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ å³¶æµã—
 Case 12
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ‘S—‡‚Å‚f‚n
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ å…¨è£¸ã§ï¼§ï¼¯
 Case 13
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å Œ€‰æƒ^ƒbƒ`
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ åŠ‡ç”»ã‚¿ãƒƒãƒ
 Case 14
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ƒvƒ`—·s
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ãƒ—ãƒæ—…è¡Œ
 Case 15
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ‰¡—ö•ç
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ æ¨ªæ‹æ…•
 Case 16
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ’c’nÈ
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ å›£åœ°å¦»
 Case 17
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å †ˆêd
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ç´™ä¸€é‡
 Case 18
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ˆêlğ
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ä¸€äººé…’
 Case 19
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å –J‚ßE‚µ
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ è¤’ã‚æ®ºã—
 Case 20
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å —¬‚ê’e
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ æµã‚Œå¼¾
 Case 21
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å lŠÔ¸Ši
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ äººé–“å¤±æ ¼
 Case 22
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ‚È‚×•òs
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ãªã¹å¥‰è¡Œ
 Case 23
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å •Ô‚è“¢‚¿
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ è¿”ã‚Šè¨ã¡
 Case 24
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ƒ`ƒ‰ƒŠƒYƒ€
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ãƒãƒ©ãƒªã‚ºãƒ 
 Case 25
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ‘T–â“š
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ç¦…å•ç­”
 Case 26
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å “¤’m¯
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ è±†çŸ¥è­˜
 Case 27
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ‰F’ˆl
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ å®‡å®™äºº
 Case 28
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ‹â‰Í‚©‚È
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ éŠ€æ²³ã‹ãª
 Case 29
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ‚æ‚ÁĞ’·
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ã‚ˆã£ç¤¾é•·
 Case 30
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å •sK©–
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ä¸å¹¸è‡ªæ…¢
 Case 31
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å •—‚Ü‚©‚¹
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ é¢¨ã¾ã‹ã›
 Case 32
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å Œ´nl
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ åŸå§‹äºº
 Case 33
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ©ŒÈ”jY
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ è‡ªå·±ç ´ç”£
 Case 34
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å •ú’uƒvƒŒƒC
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ æ”¾ç½®ãƒ—ãƒ¬ã‚¤
 Case 35
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ©”š‚µ‚½
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ è‡ªçˆ†ã—ãŸ
 Case 36
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ’…M‹‘”Û
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ç€ä¿¡æ‹’å¦
 Case 37
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ˆø‚«‚±‚à‚è
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ å¼•ãã“ã‚‚ã‚Š
 Case 38
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ‹êÎ‚¢
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ è‹¦ç¬‘ã„
 Case 39
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ”ñí¯
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ éå¸¸è­˜
 Case 40
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ‚¤‚¿‚ÌƒIƒJƒ“
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ã†ã¡ã®ã‚ªã‚«ãƒ³
 Case 41
-	Set ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å ƒ‰ƒŠƒAƒbƒg
+	Set ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥ ãƒ©ãƒªã‚¢ãƒƒãƒˆ
 EndSw
 
 
 PlaySound Sword.wav
-AutoTalk ƒXƒŒƒCƒ„[(‚f‚t‚h‚k‚s‚x) ŒÅ’è
-8;<BIG><COLOR=Red>$(ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å)</COLOR></BIG>
+AutoTalk ã‚¹ãƒ¬ã‚¤ãƒ¤ãƒ¼(ï¼§ï¼µï¼©ï¼¬ï¼´ï¼¹) å›ºå®š
+8;<BIG><COLOR=Red>$(ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥)</COLOR></BIG>
 Suspend
 
 PlaySound Sword.wav
-AutoTalk ƒXƒŒƒCƒ„[(‚f‚t‚h‚k‚s‚x) ŒÅ’è
-8;<BIG><COLOR=Red>$(ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å)@$(ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å)</COLOR></BIG>
+AutoTalk ã‚¹ãƒ¬ã‚¤ãƒ¤ãƒ¼(ï¼§ï¼µï¼©ï¼¬ï¼´ï¼¹) å›ºå®š
+8;<BIG><COLOR=Red>$(ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥)ã€€$(ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥)</COLOR></BIG>
 Suspend
 
 PlaySound Sword.wav
-AutoTalk ƒXƒŒƒCƒ„[(‚f‚t‚h‚k‚s‚x) ŒÅ’è
-8;<BIG><COLOR=Red>$(ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å)@$(ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å)@$(ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å)</COLOR></BIG>
+AutoTalk ã‚¹ãƒ¬ã‚¤ãƒ¤ãƒ¼(ï¼§ï¼µï¼©ï¼¬ï¼´ï¼¹) å›ºå®š
+8;<BIG><COLOR=Red>$(ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥)ã€€$(ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥)ã€€$(ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥)</COLOR></BIG>
 Suspend
 
-Unset ƒI[ƒ‹ƒfƒbƒhã‚Ì‹å
-Unset ƒI[ƒ‹ƒfƒbƒh’†‚Ì‹å
-Unset ƒI[ƒ‹ƒfƒbƒh‰º‚Ì‹å
+Unset ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸Šã®å¥
+Unset ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸­ã®å¥
+Unset ã‚ªãƒ¼ãƒ«ãƒ‡ãƒƒãƒ‰ä¸‹ã®å¥
 
 
 Return
 
 
 
-í“¬ƒAƒjƒ_GUILTY_ƒVƒ…[ƒgƒUƒ€[ƒ“‚Æ‚Ç‚ß:
-If (‘Šèƒ†ƒjƒbƒg‚h‚c = "") Then
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_GUILTY_ã‚·ãƒ¥ãƒ¼ãƒˆã‚¶ãƒ ãƒ¼ãƒ³ã¨ã©ã‚:
+If (ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ = "") Then
   Return
 EndIf
 
@@ -369,62 +369,62 @@ Local C_Y
 Local UID
 Local T_COL = _ColorTime()
 
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
-Set C_X WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set C_Y WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+Set C_X WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set C_Y WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
-Set BMP_FILE _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Set BMP_FILE _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Set ANG _GetAngle(UID)
 Set ANG (ANG + 180)
-Set X_F _GetCircumference(ANG,‚w)
-Set Y_F _GetCircumference(ANG,‚x)
+Set X_F _GetCircumference(ANG,ï¼¸)
+Set Y_F _GetCircumference(ANG,ï¼¹)
 
 Wait Start
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤º
 
 PlaySound Bomb.wav
 
 For i = 1 To 40
   ClearPicture
   
-  ## ”wŒi•`‰æ•”•ª
-  PaintPicture Black.bmp 0 0 480 480 “§‰ß T_COL
+  ## èƒŒæ™¯æç”»éƒ¨åˆ†
+  PaintPicture Black.bmp 0 0 480 480 é€é T_COL
   
   For j = 0 To 7
     For k = 0 To 7
-      PaintPicture Map\space\space0001.bmp (64 * j) (64 * k) 64 64 “§‰ß T_COL
+      PaintPicture Map\space\space0001.bmp (64 * j) (64 * k) 64 64 é€é T_COL
     Next
   Next
   
-  PaintPicture Map\earth\earth0000.bmp 192 160 64 64 “§‰ß T_COL
-  PaintPicture Map\earth\earth0001.bmp 256 160 64 64 “§‰ß T_COL
-  PaintPicture Map\earth\earth0002.bmp 192 224 64 64 “§‰ß T_COL
-  PaintPicture Map\earth\earth0003.bmp 256 224 64 64 “§‰ß T_COL
+  PaintPicture Map\earth\earth0000.bmp 192 160 64 64 é€é T_COL
+  PaintPicture Map\earth\earth0001.bmp 256 160 64 64 é€é T_COL
+  PaintPicture Map\earth\earth0002.bmp 192 224 64 64 é€é T_COL
+  PaintPicture Map\earth\earth0003.bmp 256 224 64 64 é€é T_COL
   
   For j = 0 To 14
     For k = 9 To 14
-      PaintPicture Map\moon_ground\moon_ground0000.bmp (32 * j) (32 * k) 32 32 “§‰ß T_COL
+      PaintPicture Map\moon_ground\moon_ground0000.bmp (32 * j) (32 * k) 32 32 é€é T_COL
     Next
   Next
-  ## ƒ†ƒjƒbƒg•`‰æ•”•ª
+  ## ãƒ¦ãƒ‹ãƒƒãƒˆæç”»éƒ¨åˆ†
   If i = 23 Then
     PlaySound FightHit(1).wav
   EndIf
   
   If (i < 23) Then
-    PaintPicture BMP_FILE 224 (-32 - 24 + (16 * i)) 64 64 “§‰ß ã‰º”½“] T_COL
+    PaintPicture BMP_FILE 224 (-32 - 24 + (16 * i)) 64 64 é€é ä¸Šä¸‹åè»¢ T_COL
   ElseIf (i > 32) Then
-    PaintPicture BMP_FILE 224 296 64 64 “§‰ß ã‰º”½“] T_COL
+    PaintPicture BMP_FILE 224 296 64 64 é€é ä¸Šä¸‹åè»¢ T_COL
   Else
-    PaintPicture BMP_FILE (224 + Random(5)) (296 + Random(5)) 64 64 “§‰ß ã‰º”½“] T_COL
+    PaintPicture BMP_FILE (224 + Random(5)) (296 + Random(5)) 64 64 é€é ä¸Šä¸‹åè»¢ T_COL
   EndIf
   
-  # ‘O–Ê‰æ‘œ•`‰æ•”•ª
+  # å‰é¢ç”»åƒæç”»éƒ¨åˆ†
   For j = 0 To 14
     For k = 11 To 14
-      PaintPicture Map\moon_ground\moon_ground0000.bmp (32 * j) (32 * k) 32 32 “§‰ß T_COL
-      # y = 352‚©‚ç
+      PaintPicture Map\moon_ground\moon_ground0000.bmp (32 * j) (32 * k) 32 32 é€é T_COL
+      # y = 352ã‹ã‚‰
     Next
   Next
   
@@ -433,7 +433,7 @@ For i = 1 To 40
   Wait Until (i * 0.5)
 Next
 
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦‰ğœ
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤ºè§£é™¤
 ClearPicture
 Refresh
 
@@ -442,16 +442,16 @@ Return
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
-í“¬ƒAƒjƒ_GUILTY_‰Î’Œ‰ü”­“®:
-# wí“¬ƒAƒjƒ_‰Î’Œx‰ü•ÏBã‰º”½“]ƒIƒvƒVƒ‡ƒ“‚ğ’Ç‰Á
-#@ˆø”Fƒ†ƒjƒbƒg‚h‚cAŒø‰Ê‰¹Aã‰º”½“]
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_GUILTY_ç«æŸ±æ”¹ç™ºå‹•:
+# ã€æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç«æŸ±ã€æ”¹å¤‰ã€‚ä¸Šä¸‹åè»¢ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã‚’è¿½åŠ 
+#ã€€å¼•æ•°ï¼šãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ã€åŠ¹æœéŸ³ã€ä¸Šä¸‹åè»¢
 
 Local i j C_X C_Y
-Local UID = _GetName(‘Šèƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 Local B_C = _G_BC_FA()
 Local T_COL1 = _ColorTime(1)
 
-If (Args(1) = "À•Ww’è") Then
+If (Args(1) = "åº§æ¨™æŒ‡å®š") Then
   Center Args(2) Args(3)
   Set C_X 220
   Set C_Y 220
@@ -471,10 +471,10 @@ For i = 1 To 11
     Set j ("0" & i)
   EndIf
   ClearPicture
-  If (_SearchOptionFromArgs("ã‰º”½“]") != "") Then
-    PaintPicture ("Action\EFFECT_Burn" & B_C & j & ".bmp") C_X C_Y 40 40 “§‰ß ã‰º”½“] T_COL1
+  If (_SearchOptionFromArgs("ä¸Šä¸‹åè»¢") != "") Then
+    PaintPicture ("Action\EFFECT_Burn" & B_C & j & ".bmp") C_X C_Y 40 40 é€é ä¸Šä¸‹åè»¢ T_COL1
   Else
-    PaintPicture ("Action\EFFECT_Burn" & B_C & j & ".bmp") C_X C_Y 40 40 “§‰ß T_COL1
+    PaintPicture ("Action\EFFECT_Burn" & B_C & j & ".bmp") C_X C_Y 40 40 é€é T_COL1
   EndIf
   Refresh
   Wait Until (i * 0.4)
@@ -485,9 +485,9 @@ Return
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_GUILTY_‹­‘Å‰ü–½’†:
-## ‘Šè‚ÌŒã‚ë‚©‚ç‰£‚éBƒtƒ@ƒEƒXƒg—pB
-If (‘Šèƒ†ƒjƒbƒg‚h‚c = "") Then
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_GUILTY_å¼·æ‰“æ”¹å‘½ä¸­:
+## ç›¸æ‰‹ã®å¾Œã‚ã‹ã‚‰æ®´ã‚‹ã€‚ãƒ•ã‚¡ã‚¦ã‚¹ãƒˆç”¨ã€‚
+If (ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ = "") Then
   Return
 EndIf
 
@@ -502,41 +502,41 @@ Local C_Y
 Local UID
 Local T_COL = _ColorTime()
 
-Set UID _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
-Set C_X WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set C_Y WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Set UID _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+Set C_X WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set C_Y WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
-Set BMP_FILE _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set BMP_FILE2 _GetTileName(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Set BMP_FILE _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set BMP_FILE2 _GetTileName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Set ANG _GetAngle(UID)
 Set ANG (ANG + 180)
-Set X_F _GetCircumference(ANG,‚w)
-Set Y_F _GetCircumference(ANG,‚x)
+Set X_F _GetCircumference(ANG,ï¼¸)
+Set Y_F _GetCircumference(ANG,ï¼¹)
 
 Wait Start
 _SelectSound_HR "BreakOff.wav" "Explode.wav" _GetWavFromArgs()
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤º
 
 For i = 1 To 4
   ClearPicture
   _PaintTile BMP_FILE2 C_X C_Y 
   Switch i
   Case 1
-    PaintPicture BMP_FILE C_X C_Y “§‰ß T_COL
-    PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 4) (C_Y + 4) 24 24 “§‰ß T_COL
+    PaintPicture BMP_FILE C_X C_Y é€é T_COL
+    PaintPicture "Hit\EFFECT_HIT01.bmp" (C_X + 4) (C_Y + 4) 24 24 é€é T_COL
   Case 2
-    PaintPicture BMP_FILE (C_X + (X_F * 10)) (C_Y + (Y_F * 10)) “§‰ß T_COL
-    PaintPicture "Hit\EFFECT_HIT01.bmp" C_X C_Y “§‰ß T_COL
+    PaintPicture BMP_FILE (C_X + (X_F * 10)) (C_Y + (Y_F * 10)) é€é T_COL
+    PaintPicture "Hit\EFFECT_HIT01.bmp" C_X C_Y é€é T_COL
   Case 3
-    PaintPicture BMP_FILE (C_X + (X_F * 15)) (C_Y + (Y_F * 15)) “§‰ß T_COL
+    PaintPicture BMP_FILE (C_X + (X_F * 15)) (C_Y + (Y_F * 15)) é€é T_COL
   Case 4
-    PaintPicture BMP_FILE (C_X + (X_F * 18)) (C_Y + (Y_F * 18)) “§‰ß T_COL
+    PaintPicture BMP_FILE (C_X + (X_F * 18)) (C_Y + (Y_F * 18)) é€é T_COL
   EndSw
   Refresh
   Wait Until (i * 0.7)
 Next
-ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦‰ğœ
+ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤ºè§£é™¤
 ClearPicture
 Refresh
 Return
@@ -544,10 +544,10 @@ Return
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_GUILTY_‚“x’@‚«‚Â‚¯–½’†:
-#@uƒXƒgƒŠ[ƒgƒtƒ@ƒCƒ^[v‚Ìu‚“x’@‚«‚Â‚¯v‚ğ“]—p‚³‚¹‚Ä‚¢‚½‚¾‚«‚Ü‚µ‚½B
-#@”í‚è–h~‚Ì‚½‚ßA¯•Êq‚Ì‚İ•ÏX‚µ‚Ä‚¢‚Ü‚·B
-#@ˆø”FŒø‰Ê‰¹Aã‰º”½“]AƒXƒ[ã¸
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_GUILTY_é«˜åº¦å©ãã¤ã‘å‘½ä¸­:
+#ã€€ã€Œã‚¹ãƒˆãƒªãƒ¼ãƒˆãƒ•ã‚¡ã‚¤ã‚¿ãƒ¼ã€ã®ã€Œé«˜åº¦å©ãã¤ã‘ã€ã‚’è»¢ç”¨ã•ã›ã¦ã„ãŸã ãã¾ã—ãŸã€‚
+#ã€€è¢«ã‚Šé˜²æ­¢ã®ãŸã‚ã€è­˜åˆ¥å­ã®ã¿å¤‰æ›´ã—ã¦ã„ã¾ã™ã€‚
+#ã€€å¼•æ•°ï¼šåŠ¹æœéŸ³ã€ä¸Šä¸‹åè»¢ã€ã‚¹ãƒ­ãƒ¼ä¸Šæ˜‡
 
 Local i
 Local j
@@ -562,18 +562,18 @@ Local C_X
 Local C_Y
 Local UID
 Local SLOWJ
-Set UID ‘ÎÛƒ†ƒjƒbƒg‚h‚c
+Set UID å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 Center UID
 Set C_X WX(UID)
 Set C_Y WY(UID)
 
-If (_SearchOptionFromArgs("ã‰º”½“]") != "") Then
-  Set UDCH "ã‰º”½“]"
+If (_SearchOptionFromArgs("ä¸Šä¸‹åè»¢") != "") Then
+  Set UDCH "ä¸Šä¸‹åè»¢"
 Else
   Set UDCH ""
 EndIf
 
-If (_SearchOptionFromArgs("ƒXƒ[ã¸") != "") Then
+If (_SearchOptionFromArgs("ã‚¹ãƒ­ãƒ¼ä¸Šæ˜‡") != "") Then
   Set SLOWJ 3
 Else
   Set SLOWJ 1
@@ -581,19 +581,19 @@ EndIf
 
 Set BMP_FILE _GetBMPName(UID)
 Set BMP_FILE2 _GetTileName(UID)
-Set BMP_FILE3 _GetBMPName(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set BMP_FILE4 _GetTileName(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Set BMP_FILE3 _GetBMPName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set BMP_FILE4 _GetTileName(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
-Set A_X WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Set A_Y WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Set A_X WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Set A_Y WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
 Wait Start
 
 If (BMP_FILE2 = "") Then
-  ChangeUnitBitmap UID ”ñ•\¦
+  ChangeUnitBitmap UID éè¡¨ç¤º
 EndIf
 If (BMP_FILE4 = "") Then
-  ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦
+  ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤º
 EndIf
 
 For i = 1 To 6
@@ -620,8 +620,8 @@ For i = 1 To 6
     Set LN -84
   EndSw
 
-  PaintPicture BMP_FILE (C_X + 16) (C_Y + LN) “§‰ß _ColorTime()
-  PaintPicture BMP_FILE3 C_X (C_Y + LN) “§‰ß ‰E‰ñ“] 180 _ColorTime()
+  PaintPicture BMP_FILE (C_X + 16) (C_Y + LN) é€é _ColorTime()
+  PaintPicture BMP_FILE3 C_X (C_Y + LN) é€é å³å›è»¢ 180 _ColorTime()
 
   Refresh
   Wait Until (i * 0.5 * SLOWJ)
@@ -635,7 +635,7 @@ If (BMP_FILE4 != "") Then
   PaintPicture BMP_FILE4 A_X A_Y _ColorTime()
 EndIf
 
-PaintPicture "Common\EFFECT_AccidentalImage01.bmp" W_X (W_Y - 110) “§‰ß ‰E‰ñ“] 90 _ColorTime()
+PaintPicture "Common\EFFECT_AccidentalImage01.bmp" W_X (W_Y - 110) é€é å³å›è»¢ 90 _ColorTime()
 Refresh
 Wait Until 4.2
 
@@ -650,56 +650,56 @@ For i = 1 To 8
   EndIf
   Switch i
   Case 1
-    PaintPicture BMP_FILE (C_X + 16) (C_Y - 140) “§‰ß UDCH _ColorTime()
-    PaintPicture BMP_FILE3 C_X (C_Y - 140) “§‰ß ‰E‰ñ“] 180 _ColorTime()
+    PaintPicture BMP_FILE (C_X + 16) (C_Y - 140) é€é UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 140) é€é å³å›è»¢ 180 _ColorTime()
   Case 2
-    PaintPicture BMP_FILE (C_X + 16) (C_Y - 100) “§‰ß UDCH _ColorTime()
-    PaintPicture BMP_FILE3 C_X (C_Y - 100) “§‰ß ‰E‰ñ“] 180 _ColorTime()
+    PaintPicture BMP_FILE (C_X + 16) (C_Y - 100) é€é UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 100) é€é å³å›è»¢ 180 _ColorTime()
   Case 3
-    PaintPicture BMP_FILE (C_X + 16) (C_Y - 60) “§‰ß UDCH _ColorTime()
-    PaintPicture BMP_FILE3 C_Y (C_Y - 60) “§‰ß ‰E‰ñ“] 180 _ColorTime()
+    PaintPicture BMP_FILE (C_X + 16) (C_Y - 60) é€é UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_Y (C_Y - 60) é€é å³å›è»¢ 180 _ColorTime()
   Case 4
-    PaintPicture BMP_FILE (C_X + 16) (C_Y - 24) “§‰ß UDCH _ColorTime()
-    PaintPicture BMP_FILE3 C_X (C_Y - 24) “§‰ß ‰E‰ñ“] 180 _ColorTime()
+    PaintPicture BMP_FILE (C_X + 16) (C_Y - 24) é€é UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 24) é€é å³å›è»¢ 180 _ColorTime()
   Case 5
-    PaintPicture BMP_FILE (C_X + 16) (C_Y - 8) “§‰ß UDCH _ColorTime()
-    PaintPicture BMP_FILE3 C_X (C_Y - 8) “§‰ß ‰E‰ñ“] 180 _ColorTime()
+    PaintPicture BMP_FILE (C_X + 16) (C_Y - 8) é€é UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 8) é€é å³å›è»¢ 180 _ColorTime()
   Case 6
-    PaintPicture BMP_FILE (C_X + 16) C_Y “§‰ß UDCH _ColorTime()
-    PaintPicture BMP_FILE3 C_X C_Y “§‰ß ‰E‰ñ“] 180 _ColorTime()
+    PaintPicture BMP_FILE (C_X + 16) C_Y é€é UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X C_Y é€é å³å›è»¢ 180 _ColorTime()
   Case 7
-    PaintPicture BMP_FILE (C_X + 16) (C_Y + 4) “§‰ß UDCH _ColorTime()
-    PaintPicture BMP_FILE3 C_X (C_Y + 4) “§‰ß ‰E‰ñ“] 180 _ColorTime()
+    PaintPicture BMP_FILE (C_X + 16) (C_Y + 4) é€é UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y + 4) é€é å³å›è»¢ 180 _ColorTime()
   Case 8
     _SelectSound_HR "BreakOff.wav" "Explode.wav" _GetWavFromArgs()
-    PaintPicture BMP_FILE (C_X + 16) (C_Y - 1) “§‰ß UDCH _ColorTime()
-    PaintPicture BMP_FILE3 C_X (C_Y + 2) “§‰ß ‰E‰ñ“] 180 _ColorTime()
-    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" (C_X + 4) (C_Y + 4) 24 24 “§‰ß ‰E‰ñ“] 270 _ColorTime(1)
+    PaintPicture BMP_FILE (C_X + 16) (C_Y - 1) é€é UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y + 2) é€é å³å›è»¢ 180 _ColorTime()
+    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" (C_X + 4) (C_Y + 4) 24 24 é€é å³å›è»¢ 270 _ColorTime(1)
   Case 10
     _SelectSound "Explode.wav" _GetWavFromArgs()
-    PaintPicture BMP_FILE (C_X + 16) (C_Y - 1) “§‰ß UDCH _ColorTime()
-    PaintPicture BMP_FILE3 C_X (C_Y + 2) “§‰ß ‰E‰ñ“] 180 _ColorTime()
-    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" C_X C_Y 32 32 “§‰ß ‰E‰ñ“] 270 _ColorTime(1)
+    PaintPicture BMP_FILE (C_X + 16) (C_Y - 1) é€é UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y + 2) é€é å³å›è»¢ 180 _ColorTime()
+    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" C_X C_Y 32 32 é€é å³å›è»¢ 270 _ColorTime(1)
   Case 11
-    PaintPicture BMP_FILE (C_X + 16) C_Y “§‰ß UDCH _ColorTime()
-    PaintPicture BMP_FILE3 C_X (C_Y - 7) “§‰ß ‰E‰ñ“] 180 _ColorTime()
-    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" (C_X - 8) (C_Y - 8) 48 48 “§‰ß ‰E‰ñ“] 270 _ColorTime(1)
+    PaintPicture BMP_FILE (C_X + 16) C_Y é€é UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 7) é€é å³å›è»¢ 180 _ColorTime()
+    PaintPicture "Explode\EFFECT_Explode(Shock)01.bmp" (C_X - 8) (C_Y - 8) 48 48 é€é å³å›è»¢ 270 _ColorTime(1)
   Case 12
-    PaintPicture BMP_FILE (C_X + 16) C_Y “§‰ß UDCH _ColorTime()
-    PaintPicture BMP_FILE3 C_X (C_Y - 4) “§‰ß ‰E‰ñ“] 180 _ColorTime()
+    PaintPicture BMP_FILE (C_X + 16) C_Y é€é UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X (C_Y - 4) é€é å³å›è»¢ 180 _ColorTime()
   Case 13
-    PaintPicture BMP_FILE (C_X + 16) C_Y “§‰ß UDCH _ColorTime()
-    PaintPicture BMP_FILE3 C_X C_Y “§‰ß ‰E‰ñ“] 180 _ColorTime()
+    PaintPicture BMP_FILE (C_X + 16) C_Y é€é UDCH _ColorTime()
+    PaintPicture BMP_FILE3 C_X C_Y é€é å³å›è»¢ 180 _ColorTime()
   EndSw
   Refresh
   Wait Until (i * 0.5)
 Next
 
 If (BMP_FILE2 = "") Then
-  ChangeUnitBitmap UID ”ñ•\¦‰ğœ
+  ChangeUnitBitmap UID éè¡¨ç¤ºè§£é™¤
 EndIf
 If (BMP_FILE4 = "") Then
-  ChangeUnitBitmap ‘Šèƒ†ƒjƒbƒg‚h‚c ”ñ•\¦‰ğœ
+  ChangeUnitBitmap ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ éè¡¨ç¤ºè§£é™¤
 EndIf
 
 ClearPicture

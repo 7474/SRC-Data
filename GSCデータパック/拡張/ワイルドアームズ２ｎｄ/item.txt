@@ -1,44 +1,44 @@
-# �S�Ăa�f�l�ύX�l�̃A�C�e���ł�
+# 全てＢＧＭ変更様のアイテムです
 
 
-�J�m���a�f�l
-�J�m���a�f�l, �Œ�, �a�f�l
-����\��
-�a�f�l=WA2_BattleVSKanon.mid, ��\��
+カノンＢＧＭ
+カノンＢＧＭ, 固定, ＢＧＭ
+特殊能力
+ＢＧＭ=WA2_BattleVSKanon.mid, 非表示
 0, 0, 0, 0, 0
 
-# �J�m�����G�Ƃ��ēo�ꂷ��ۂɂa�f�l��ύX���邽�߂̃A�C�e��
-# ���Ȃ݂ɋȖ��̓o�g���u�r�\���b�h�Ȃ̂ł��ԈႦ�̂Ȃ��l�c
+# カノンが敵として登場する際にＢＧＭを変更するためのアイテム
+# ちなみに曲名はバトルＶＳソリッドなのでお間違えのない様…
 
-�g�J�ƃQ�[�a�f�l
-�g�J�ƃQ�[�a�f�l, �Œ�, �a�f�l
-����\��
-�a�f�l=WA2_BattleVSTokaAndGer.mid, ��\��
+トカとゲーＢＧＭ
+トカとゲーＢＧＭ, 固定, ＢＧＭ
+特殊能力
+ＢＧＭ=WA2_BattleVSTokaAndGer.mid, 非表示
 0, 0, 0, 0, 0
 
-# �g�J�ƃQ�[�̂a�f�l��ύX���邽�߂̃A�C�e��
+# トカとゲーのＢＧＭを変更するためのアイテム
 
-�R�L���[�g�X�a�f�l
-�R�L���[�g�X�a�f�l, �Œ�, �a�f�l
-����\��
-�a�f�l=WA2_BattleVSCocutos.mid, ��\��
+コキュートスＢＧＭ
+コキュートスＢＧＭ, 固定, ＢＧＭ
+特殊能力
+ＢＧＭ=WA2_BattleVSCocutos.mid, 非表示
 0, 0, 0, 0, 0
 
-# �R�L���[�g�X�̂a�f�l��ύX���邽�߂̃A�C�e��
+# コキュートスのＢＧＭを変更するためのアイテム
 
-���B���X�t�F���g�a�f�l
-���B���X�t�F���g�a�f�l, �Œ�, �a�f�l
-����\��
-�a�f�l=WA2_BattleVSVinsfeld.mid, ��\��
+ヴィンスフェルトＢＧＭ
+ヴィンスフェルトＢＧＭ, 固定, ＢＧＭ
+特殊能力
+ＢＧＭ=WA2_BattleVSVinsfeld.mid, 非表示
 0, 0, 0, 0, 0
 
-# ���B���X�t�F���g�̂a�f�l��ύX���邽�߂̃A�C�e��
+# ヴィンスフェルトのＢＧＭを変更するためのアイテム
 
-���X�g�o�g���a�f�l
-���X�g�o�g���a�f�l, �Œ�, �a�f�l
-����\��
-�a�f�l=WA2_LastBattle.mid, ��\��
+ラストバトルＢＧＭ
+ラストバトルＢＧＭ, 固定, ＢＧＭ
+特殊能力
+ＢＧＭ=WA2_LastBattle.mid, 非表示
 0, 0, 0, 0, 0
 
-# ���X�g�o�g���p�A�������͌��̉p�Y�o�[�W�����̃A�V�����[�̂a�f�l�ύX�p�A�C�e��
-# ���Ȃ݂ɋȖ��̓o�g���u�r���[�h�u���C�U�[�Ȃ̂ł��ԈႦ�̂Ȃ��l�c
+# ラストバトル用、もしくは剣の英雄バージョンのアシュレーのＢＧＭ変更用アイテム
+# ちなみに曲名はバトルＶＳロードブレイザーなのでお間違えのない様…

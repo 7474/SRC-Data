@@ -1,862 +1,862 @@
-¡ÝŒvƒRƒ“ƒZƒvƒg^‰^—pã‚Ì’ˆÓ“_
-¡ƒnƒCƒp[ƒc[ƒ‹ƒtƒH[ƒ}ƒbƒg
-¡“Gƒ†ƒjƒbƒg¶¬ƒRƒ}ƒ“ƒhƒŠƒXƒg
-¡MIDIƒŠƒXƒg
-¡—ªŒê
-¡SPEC DATA
-¡–Ø¯E‰q¯—Z‡‚P‚UŒ´Žíˆê——
-¡ŽQlŽ‘—¿
+â– è¨­è¨ˆã‚³ãƒ³ã‚»ãƒ—ãƒˆï¼é‹ç”¨ä¸Šã®æ³¨æ„ç‚¹
+â– ãƒã‚¤ãƒ‘ãƒ¼ãƒ„ãƒ¼ãƒ«ãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆ
+â– æ•µãƒ¦ãƒ‹ãƒƒãƒˆç”Ÿæˆã‚³ãƒžãƒ³ãƒ‰ãƒªã‚¹ãƒˆ
+â– MIDIãƒªã‚¹ãƒˆ
+â– ç•¥èªž
+â– SPEC DATA
+â– æœ¨æ˜Ÿãƒ»è¡›æ˜Ÿèžåˆï¼‘ï¼–åŽŸç¨®ä¸€è¦§
+â– å‚è€ƒè³‡æ–™
 
-“–ƒeƒLƒXƒg‚Íƒf[ƒ^‚ÉŠÖ‚·‚é•â‘«à–¾‚ðs‚¤‚à‚Ì‚Å‚ ‚èAƒVƒiƒŠƒI‚É“Y•t‚·‚é•K—v‚Í‚ ‚è‚Ü‚¹‚ñB
+å½“ãƒ†ã‚­ã‚¹ãƒˆã¯ãƒ‡ãƒ¼ã‚¿ã«é–¢ã™ã‚‹è£œè¶³èª¬æ˜Žã‚’è¡Œã†ã‚‚ã®ã§ã‚ã‚Šã€ã‚·ãƒŠãƒªã‚ªã«æ·»ä»˜ã™ã‚‹å¿…è¦ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚
 
 =============================================================================================================
-¡ÝŒvƒRƒ“ƒZƒvƒg^‰^—pã‚Ì’ˆÓ“_
-  pilot.txt‚ârobot.txt‚Ì’Žß•¶‚Æ‚àAˆê•”d•¡‚µ‚Ä‚¢‚Ü‚·B
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-ŸÅ‹­—EŽÒƒƒ{ŒR’cE‘S”Ê
-EƒKƒIƒKƒCƒK[ ` •X—³^‰Š—³^’´—³_ ` ƒ{ƒ‹ƒtƒHƒbƒO ` ƒSƒ‹ƒfƒB[ƒ}[ƒO‚Ü‚Å‚ÍA
-  ƒEƒ‹ƒeƒNƒGƒ“ƒWƒ““‹Ú‘O‚ð(‘OŠúŒ^)‚Æ‚µ‚ÄÝŒvBƒo[ƒWƒ‡ƒ“ƒAƒbƒv‚É‚æ‚éŒø‰Ê‚ÍˆÈ‰º‚Ì’Ê‚èB
-    ¬ƒƒ{  HP+200 EN+20          ‰^“®«+10 UŒ‚—Í+100 ¦ƒKƒCƒK[‚ÍƒhƒŠƒ‹ƒA[ƒ€‚Ì‚Ý+100
-    ‘åƒƒ{  HP+400 EN+40 ‘•b+100 ‰^“®«+5  UŒ‚—Í+200
-    •X—³E‰Š—³ˆÈ~Aƒƒ{Œ`‘Ô‚Í“K‰ž‚a‚Å”òs‰Â”\B‚à‚Æ‚©‚ç”ò‚×‚éƒKƒIƒKƒCƒK[‚ÍˆÚ“®—Í+1
-
-E‡‘Ì‘OŒã‚Å“¯–¼‚Ì•Ší‚ÍA‡‘Ì‚É‚æ‚éo—ÍƒAƒbƒv‚ÅUŒ‚—Í+200‚Æ‚µ‚Ä‚¢‚Ü‚·B
-  (ƒEƒ‹ƒeƒNƒGƒ“ƒWƒ““‹ÚŒãB‘OŠúŒ^‚Í+100B‚Ü‚½A‹KŠiŠO‚ÌŒ¶—³_E‹­—´_‚Í+300)
-  ’´—³_‚Ìƒ_ƒuƒ‹`Œn•Ší‚ÍA‚±‚ÌŠî€‚É+200ãæ‚¹‚µA˜AL2‚ð•t‰ÁB
-
-EŒì‚â‰ú“¹‚ðƒTƒ|[ƒgƒpƒCƒƒbƒg‚Æ‚µ‚Äæ‚¹‚éê‡‚Ì‚Ù‚©A
-  ƒAƒCƒeƒ€wƒJƒCƒ“‚ÌŽqƒ‰ƒeƒBƒIxw¶‘Ì•ºŠíƒAƒ‹ƒ}x‚ð‘•”õ‚³‚¹‚é‚±‚Æ‚Å‚àò‰ð‰Â”\‚É‚È‚è‚Ü‚·B
-  ƒTƒ|[ƒgƒpƒCƒƒbƒg‚ðæ‚¹‚¸‚É‚r‚o‘—Ê‚ð’á‚­—}‚¦‚½‚¢‚Æ‚«‚âA
-  ƒKƒIƒKƒCƒK[‚âƒLƒ“ƒOƒWƒFƒCƒ_[ˆÈŠO‚Ì—EŽÒƒƒ{‚Åò‰ð‚³‚¹‚½‚¢‚Æ‚«‚É‚¨Žg‚¢‚­‚¾‚³‚¢B
-
-E•X—³`—‹—´‚Ü‚Å‚Ì—³ŒZ’í‚Æƒ{ƒ‹ƒtƒHƒbƒO‚ÉwÅ‹­—EŽÒƒƒ{ŒR’c(ƒKƒCê‘®ƒTƒ|[ƒg)x‚ª‚ ‚é‚Ì‚ÍA
-  ‚s‚uÅI˜b‚ÌwÅ‹­ÅŒã‚Ìƒtƒ@ƒCƒiƒ‹ƒtƒ…[ƒWƒ‡ƒ“xÄŒ»—p‚Å‚·B
-  ’Êí‚ÍFix‚µ‚Äæ‚èŠ·‚¦‚Å‚«‚È‚¢‚æ‚¤‚É‚µ‚Ä‚­‚¾‚³‚¢B
-
-EFINAL‘O”¼‚Ì‚æ‚¤‚ÈŒì•sÝŽž‚ÌÄŒ»—p‚Æ‚µ‚ÄA‰ú“¹‚à—EŽÒƒƒ{‚½‚¿‚ÉƒTƒ|[ƒg‚Æ‚µ‚Äæ‚ê‚é‚æ‚¤‚É‚µ‚Ä‚ ‚è‚Ü‚·B
-  “¯—l‚ÉAŒì‚àƒWƒFƒCƒA[ƒN‚ÉƒTƒ|[ƒg‚Æ‚µ‚Äæ‚é‚±‚Æ‚ª‰Â”\‚Å‚·B
-  ‚±‚ê‚ç‚ÍƒVƒiƒŠƒI‚Å‚ÌŽg—p‚Ì•‚ðL‚°‚éA‚ ‚­‚Ü‚Å‚àIF—v‘f‚Ì‚½‚ßA’Êí‚ÍFix‚µ‚Ä‚µ‚Ü‚¤•û‚ª‚¢‚¢‚Å‚µ‚å‚¤B
-
-Eƒgƒ‰ƒ“ƒXƒtƒH[ƒ}[‚ÌƒtƒH[ƒ}ƒbƒg‚É‚È‚ç‚¢Aƒr[ƒNƒ‹ƒ‚[ƒh‚ªŽÔ—¼‚Ì‚à‚Ì‚Í‰F’ˆ‚a‚Å“ˆê‚µ‚Ä‚¢‚Ü‚·B
-
-œ•K—v‚È•”•ª‚¾‚¯ƒRƒs[‚µ‚Ä‚¨Žg‚¢‚­‚¾‚³‚¢
-Fix Ž‚Žq‰¤ŠM
-# Fix Ž‚Žq‰¤ŠM(ƒGƒ”ƒHƒŠƒ…ƒ_[)
-Fix “VŠCŒì
-Fix •X—³
-Fix ‰Š—³
-Fix ƒ{ƒ‹ƒtƒHƒbƒO
-Fix ƒSƒ‹ƒfƒB[ƒ}[ƒO
-Fix ƒ}ƒCƒNƒTƒEƒ“ƒ_[ƒX‚P‚R¢
-Fix •——´
-Fix —‹—´
-Fix ƒ‹ƒlƒJ[ƒfƒBƒtŽ‚Žq‰¤
-Fix Œõ—³
-Fix ˆÅ—³
-# Fix ˆÅ—³(Ž‚Žq‚Ì—‰¤)
-Fix ƒ|ƒ‹ƒR[ƒg
-Fix ƒ\ƒ‹ƒ_[ƒg‚i-002
-Fix ƒgƒ‚ƒ0117
-Fix ‰ú“¹Šô–¤
-
-œ‘OŠúŒ^¨ƒEƒ‹ƒeƒNƒGƒ“ƒWƒ“‚Ö‚ÌŠ·‘•
-Upgrade ƒKƒCƒK[(‘OŠúŒ^) ƒKƒCƒK[
-Upgrade ƒKƒIƒKƒCƒK[(‚f)(‘OŠúŒ^) ƒKƒIƒKƒCƒK[(‚f)
-Upgrade ƒSƒ‹ƒfƒB[ƒ}[ƒO(‘OŠúŒ^) ƒSƒ‹ƒfƒB[ƒ}[ƒO
-Upgrade ’´—³_(‘OŠúŒ^) ’´—³_
-Upgrade •X—³(‘OŠúŒ^) •X—³
-Upgrade ‰Š—³(‘OŠúŒ^) ‰Š—³
-Upgrade ƒ{ƒ‹ƒtƒHƒbƒO(‘OŠúŒ^) ƒ{ƒ‹ƒtƒHƒbƒO
-
-
-Ÿ—EŽÒ‰¤
-EƒKƒIƒKƒCƒK[‚ÆƒXƒ^[ƒKƒIƒKƒCƒK[‚Íƒf[ƒ^“‡B
-  SetSkillA‚Ü‚½ƒAƒCƒeƒ€‚ÅAƒpƒCƒƒbƒg‚Éw‰F’ˆ—p‘•”õx‚ð•t‰Á‚·‚é‚±‚Æ‚É‚æ‚è
-  ˆ¤Ì‚â•‘•‚ðŽ©“®“I‚É•ÏX‚µ‚Ü‚·B
-  ‚±‚Ì‚½‚ßwƒf[ƒ^ã‚ÍƒXƒ^[ƒKƒIƒKƒCƒK[‚Æ‚¢‚¤ƒ†ƒjƒbƒg‚Í‘¶Ý‚µ‚È‚¢x‚±‚Æ‚É’ˆÓ‚ª•K—v‚Å‚·B
-
- ¦ ‰F’ˆ—p‘•”õ‚Å‚Í‹ó‚a‚É‚µ‚ÄA’n‹…ã‚Å‚Í’Êí‚ÌƒKƒIƒKƒCƒK[‚Ì•û‚ª‚¢‚¢A‚Æ‚¢‚¤
-    Œ´ìÄŒ»‚É‚·‚é‚±‚Æ‚àŒŸ“¢‚µ‚Ü‚µ‚½‚ªA’P‚ÉŽg‚¢‚É‚­‚¢‚¾‚¯‚Ì‚æ‚¤‚È‹C‚ª‚µ‚ÄŒ»Ý•Û—¯’†B
-    ‚±‚¾‚í‚é•û‚¾‚¯ƒ[ƒJƒ‹‚Å’²®‚µ‚Ä‚¢‚½‚¾‚¯‚Î‚¢‚¢‚©‚ÈA‚ÆB
-    ‚È‚¨AŒŽ–Ê‚É~‚è‚é‚Æ•’Ê‚ÌƒKƒIƒKƒCƒK[‚É–ß‚Á‚Ä‚µ‚Ü‚¤‚½‚ßA‰F’ˆƒ}ƒbƒv‚Å‚ÌŽ©“®•ÏX‚Í”pˆÄB
-    ‘½­–Ê“|‚Å‚àAƒVƒiƒŠƒI‘¤‚Å§Œä‚µ‚Ä‚¢‚½‚¾‚­‚Ì‚ªˆê”Ô‚¢‚¢‚Æ”»’f‚µ‚Ü‚·B
-
-EƒKƒIƒtƒ@ƒCƒK[‚Ö‚ÌƒAƒbƒvƒOƒŒ[ƒh‚ÍŠî‘b”\—Í‚ÌŒüã‚É‚Æ‚Ç‚ßAUŒ‚—Í‚Í˜‚¦’u‚«B
-  ƒGƒ”ƒHƒŠƒ…ƒAƒ‹ƒEƒ‹ƒeƒNƒpƒ[‚Í”\—Í’l‚ÉŠÜ‚Þ‚Æ‚¢‚¤‚±‚Æ‚ÅAƒf[ƒ^“I‚ÈÄŒ»‚Í‚µ‚Ä‚¢‚Ü‚¹‚ñB
-
-EŠeŽíƒnƒCƒp[ƒc[ƒ‹‚É‚Í•K—v‹C—Í‚ðÝ’èBoŒ‚’¼Œã‚ÉŽg—p‰Â”\‚Èƒc[ƒ‹‚Í‚È‚¢‚à‚Ì‚Æ‚µ‚Ü‚·B
-EƒfƒBƒoƒCƒfƒBƒ“ƒOƒhƒ‰ƒCƒo[AƒKƒgƒŠƒ“ƒOƒhƒ‰ƒCƒo[A‚¨‚æ‚ÑƒfƒBƒƒ“ƒWƒ‡ƒ“ƒvƒ‰ƒCƒ„[‚ð•W€‘•”õB
-  ‚±‚¾‚í‚éê‡‚Í“K‹XDisable‚µ‚Ä‚­‚¾‚³‚¢B
-E”ñ•\Ž¦‚Ìƒ_ƒ~[”\—Íuƒc[ƒ‹ƒRƒlƒNƒgv‚ÍAƒAƒCƒeƒ€‰»‚µ‚½ƒnƒCƒp[ƒc[ƒ‹‚ÌŽg—p§ŒäƒL[B
-  ‚±‚ê‚ç‚ÍƒSƒ‹ƒfƒB[ƒ}[ƒO‚Æ‚Ì‡‘ÌŒ`‘Ô‚Å‚ÍŽg—p•s”\‚Å‚·B
-
-EƒSƒ‹ƒfƒBƒIƒ“ƒnƒ“ƒ}[‚ÍƒSƒ‹ƒfƒB[ƒ}[ƒO3ƒ}ƒXˆÈ“à‚à‚µ‚­‚Í‡‘Ì‚ÅŽg—p‰Â”\‚ÉB
-  3ƒ}ƒXˆÈ“à‚Ìê‡‚Í’·Š¯‚Ì³”F‚©‚çƒƒbƒZ[ƒW‚ªŠJŽn‚³‚êAƒCƒ“ƒNƒ‹[ƒh‚Å‹­§‡‘Ì‚µ‚Ü‚·B
-  ‚±‚Ìê‡A‚P”­–Ú‚ÍƒSƒ‹ƒfƒB[ƒ}[ƒO‚Ì‚r‚o‚ð—˜—p‚Å‚«‚È‚¢‚Æ‚¢‚¤ŽáŠ±‚ÌƒfƒƒŠƒbƒg‚ ‚èB
-E‰^—p‚ÌŠÈ•Ö‚³‚â‰ü‘¢“x‚Ì˜A“®‚ðl—¶‚µA‡‘Ìó‘Ô‚ðŽåŒ`‘Ô‚Æ‚µ‚Ä‚¢‚Ü‚·B
-  ‚½‚¾‚µAƒWƒFƒlƒVƒbƒN‚Í—áŠO‚Å‚·B
-  •ª—£oŒ‚‚ðŠî–{‚É‚È‚³‚è‚½‚¢ê‡‚ÍAŽåŒ`‘Ô‚ð••ˆó‚µ‚Ä‚­‚¾‚³‚¢B
-
- ¦ ƒKƒCƒK[^ƒKƒIƒKƒCƒK[“™‚ÆƒSƒ‹ƒfƒB[ƒ}[ƒO‚Ì‰ü‘¢ƒ‰ƒ“ƒN‚ð˜A“®‚³‚¹‚é‚½‚ßA
-    w˜A“®‚·‚éƒ†ƒjƒbƒg‚·‚×‚Ä‚ª‡‘Ì‚·‚éƒ_ƒ~[ƒ†ƒjƒbƒgx‚ª‘¶Ý‚µ‚Ü‚·B
-    ‚±‚ê‚Íâ‘Î‚É¶¬‚µ‚È‚¢‚Å‚­‚¾‚³‚¢B
-
-    ‚Ü‚½A‚±‚Ìƒ‰ƒ“ƒN˜A“®‚ª—LŒø‚É‚È‚é‚Ì‚ÍƒCƒ“ƒ^[ƒ~ƒbƒVƒ‡ƒ“‚É‚¨‚¢‚Ä‚Ì‚Ý‚Å‚·B
-    ‚µ‚½‚ª‚Á‚ÄAƒVƒiƒŠƒI’†ARankUpƒRƒ}ƒ“ƒh‚ÅwƒKƒCƒK[‚âƒKƒIƒtƒ@[‚Ìƒ‰ƒ“ƒN‚¾‚¯x‚ð
-    ã‚°‚½ê‡‚É‚ÍAƒSƒ‹ƒfƒB[ƒ}[ƒO‚Í˜A“®‚µ‚Ü‚¹‚ñB
-    RankUpƒRƒ}ƒ“ƒh‚ðŽg‚¤‚Æ‚«‚ÍAƒKƒCƒK[‚âƒKƒIƒtƒ@[‚Å‚Í‚È‚­A
-    ƒKƒIƒKƒCƒK[‚âƒKƒIƒtƒ@ƒCƒK[‚ð‘ÎÛ‚É‚µ‚Ä‚­‚¾‚³‚¢B
-
-E‡‘Ì”Å‚Å‚ÍƒuƒƒEƒNƒ“ƒ}ƒOƒiƒ€^ƒtƒ@ƒ“ƒgƒ€A‚¨‚æ‚Ñ—¼˜r‚ª•K—v‚ÈƒfƒBƒƒ“ƒWƒ‡ƒ“ƒvƒ‰ƒCƒ„[‚ÍŽg‚¦‚Ü‚¹‚ñB
-  ‰F’ˆ—p‘•”õ“¯—lA‚±‚ê‚àSetSkill‚Ü‚½ƒAƒCƒeƒ€‚Åw–Å‚Ô‚×‚«‰E˜rx‚ð•t‰Á‚·‚é‚ÆŽg—p‰Â”\‚É‚È‚è‚Ü‚·B
-  ƒVƒiƒŠƒIìŽÒ‚ÌÙ—Ê‚É‚æ‚é‘I‘ð‚Ì•‚ðÝ‚¯‚Ä‚ ‚è‚Ü‚·B‚¨D‚Ý‚ÅB
-EƒSƒ‹ƒfƒBƒIƒ“ƒ}ƒOƒiƒ€‚Í–ß‚Á‚Ä‚«‚Ü‚¹‚ñB’e”1B
-      cc‚±‚ê‚ðŽå—Í‚Éí‚í‚ê‚é‚ÆA•ª—£‚·‚é•K—v‚ª‚Ü‚Á‚½‚­‚È‚¢‚í‚¯‚ÅB
-      ‚»‚ê‚Í‚â‚Á‚Ï‚è‰½‚©‚ªˆá‚¤‚¾‚ë‚¤‚ÆB
-  ‚È‚¨AƒSƒ‹ƒfƒBƒIƒ“ƒ}ƒOƒiƒ€‚É‚g‘®«‚ª‚Â‚©‚È‚¢‚Ì‚ÍŽd—l‚Å‚·B
+â– è¨­è¨ˆã‚³ãƒ³ã‚»ãƒ—ãƒˆï¼é‹ç”¨ä¸Šã®æ³¨æ„ç‚¹
+  pilot.txtã‚„robot.txtã®æ³¨é‡ˆæ–‡ã¨ã‚‚ã€ä¸€éƒ¨é‡è¤‡ã—ã¦ã„ã¾ã™ã€‚
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+â—†æœ€å¼·å‹‡è€…ãƒ­ãƒœè»å›£ãƒ»å…¨èˆ¬
+ãƒ»ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ ï½ž æ°·ç«œï¼ç‚Žç«œï¼è¶…ç«œç¥ž ï½ž ãƒœãƒ«ãƒ•ã‚©ãƒƒã‚° ï½ž ã‚´ãƒ«ãƒ‡ã‚£ãƒ¼ãƒžãƒ¼ã‚°ã¾ã§ã¯ã€
+  ã‚¦ãƒ«ãƒ†ã‚¯ã‚¨ãƒ³ã‚¸ãƒ³æ­è¼‰å‰ã‚’(å‰æœŸåž‹)ã¨ã—ã¦è¨­è¨ˆã€‚ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚¢ãƒƒãƒ—ã«ã‚ˆã‚‹åŠ¹æžœã¯ä»¥ä¸‹ã®é€šã‚Šã€‚
+    å°ãƒ­ãƒœ  HP+200 EN+20          é‹å‹•æ€§+10 æ”»æ’ƒåŠ›+100 â€»ã‚¬ã‚¤ã‚¬ãƒ¼ã¯ãƒ‰ãƒªãƒ«ã‚¢ãƒ¼ãƒ ã®ã¿+100
+    å¤§ãƒ­ãƒœ  HP+400 EN+40 è£…ç”²+100 é‹å‹•æ€§+5  æ”»æ’ƒåŠ›+200
+    æ°·ç«œãƒ»ç‚Žç«œä»¥é™ã€ãƒ­ãƒœå½¢æ…‹ã¯é©å¿œï¼¢ã§é£›è¡Œå¯èƒ½ã€‚ã‚‚ã¨ã‹ã‚‰é£›ã¹ã‚‹ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ã¯ç§»å‹•åŠ›+1
+
+ãƒ»åˆä½“å‰å¾Œã§åŒåã®æ­¦å™¨ã¯ã€åˆä½“ã«ã‚ˆã‚‹å‡ºåŠ›ã‚¢ãƒƒãƒ—ã§æ”»æ’ƒåŠ›+200ã¨ã—ã¦ã„ã¾ã™ã€‚
+  (ã‚¦ãƒ«ãƒ†ã‚¯ã‚¨ãƒ³ã‚¸ãƒ³æ­è¼‰å¾Œã€‚å‰æœŸåž‹ã¯+100ã€‚ã¾ãŸã€è¦æ ¼å¤–ã®å¹»ç«œç¥žãƒ»å¼·é¾ç¥žã¯+300)
+  è¶…ç«œç¥žã®ãƒ€ãƒ–ãƒ«ï½žç³»æ­¦å™¨ã¯ã€ã“ã®åŸºæº–ã«+200ä¸Šä¹—ã›ã—ã€é€£L2ã‚’ä»˜åŠ ã€‚
+
+ãƒ»è­·ã‚„æˆ’é“ã‚’ã‚µãƒãƒ¼ãƒˆãƒ‘ã‚¤ãƒ­ãƒƒãƒˆã¨ã—ã¦ä¹—ã›ã‚‹å ´åˆã®ã»ã‹ã€
+  ã‚¢ã‚¤ãƒ†ãƒ ã€Žã‚«ã‚¤ãƒ³ã®å­ãƒ©ãƒ†ã‚£ã‚ªã€ã€Žç”Ÿä½“å…µå™¨ã‚¢ãƒ«ãƒžã€ã‚’è£…å‚™ã•ã›ã‚‹ã“ã¨ã§ã‚‚æµ„è§£å¯èƒ½ã«ãªã‚Šã¾ã™ã€‚
+  ã‚µãƒãƒ¼ãƒˆãƒ‘ã‚¤ãƒ­ãƒƒãƒˆã‚’ä¹—ã›ãšã«ï¼³ï¼°ç·é‡ã‚’ä½ŽãæŠ‘ãˆãŸã„ã¨ãã‚„ã€
+  ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ã‚„ã‚­ãƒ³ã‚°ã‚¸ã‚§ã‚¤ãƒ€ãƒ¼ä»¥å¤–ã®å‹‡è€…ãƒ­ãƒœã§æµ„è§£ã•ã›ãŸã„ã¨ãã«ãŠä½¿ã„ãã ã•ã„ã€‚
+
+ãƒ»æ°·ç«œï½žé›·é¾ã¾ã§ã®ç«œå…„å¼Ÿã¨ãƒœãƒ«ãƒ•ã‚©ãƒƒã‚°ã«ã€Žæœ€å¼·å‹‡è€…ãƒ­ãƒœè»å›£(ã‚¬ã‚¤å°‚å±žã‚µãƒãƒ¼ãƒˆ)ã€ãŒã‚ã‚‹ã®ã¯ã€
+  ï¼´ï¼¶æœ€çµ‚è©±ã®ã€Žæœ€å¼·æœ€å¾Œã®ãƒ•ã‚¡ã‚¤ãƒŠãƒ«ãƒ•ãƒ¥ãƒ¼ã‚¸ãƒ§ãƒ³ã€å†ç¾ç”¨ã§ã™ã€‚
+  é€šå¸¸ã¯Fixã—ã¦ä¹—ã‚Šæ›ãˆã§ããªã„ã‚ˆã†ã«ã—ã¦ãã ã•ã„ã€‚
+
+ãƒ»FINALå‰åŠã®ã‚ˆã†ãªè­·ä¸åœ¨æ™‚ã®å†ç¾ç”¨ã¨ã—ã¦ã€æˆ’é“ã‚‚å‹‡è€…ãƒ­ãƒœãŸã¡ã«ã‚µãƒãƒ¼ãƒˆã¨ã—ã¦ä¹—ã‚Œã‚‹ã‚ˆã†ã«ã—ã¦ã‚ã‚Šã¾ã™ã€‚
+  åŒæ§˜ã«ã€è­·ã‚‚ã‚¸ã‚§ã‚¤ã‚¢ãƒ¼ã‚¯ã«ã‚µãƒãƒ¼ãƒˆã¨ã—ã¦ä¹—ã‚‹ã“ã¨ãŒå¯èƒ½ã§ã™ã€‚
+  ã“ã‚Œã‚‰ã¯ã‚·ãƒŠãƒªã‚ªã§ã®ä½¿ç”¨ã®å¹…ã‚’åºƒã’ã‚‹ã€ã‚ãã¾ã§ã‚‚IFè¦ç´ ã®ãŸã‚ã€é€šå¸¸ã¯Fixã—ã¦ã—ã¾ã†æ–¹ãŒã„ã„ã§ã—ã‚‡ã†ã€‚
+
+ãƒ»ãƒˆãƒ©ãƒ³ã‚¹ãƒ•ã‚©ãƒ¼ãƒžãƒ¼ã®ãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆã«ãªã‚‰ã„ã€ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ¢ãƒ¼ãƒ‰ãŒè»Šä¸¡ã®ã‚‚ã®ã¯å®‡å®™ï¼¢ã§çµ±ä¸€ã—ã¦ã„ã¾ã™ã€‚
+
+â—å¿…è¦ãªéƒ¨åˆ†ã ã‘ã‚³ãƒ”ãƒ¼ã—ã¦ãŠä½¿ã„ãã ã•ã„
+Fix ç…å­çŽ‹å‡±
+# Fix ç…å­çŽ‹å‡±(ã‚¨ãƒ´ã‚©ãƒªãƒ¥ãƒ€ãƒ¼)
+Fix å¤©æµ·è­·
+Fix æ°·ç«œ
+Fix ç‚Žç«œ
+Fix ãƒœãƒ«ãƒ•ã‚©ãƒƒã‚°
+Fix ã‚´ãƒ«ãƒ‡ã‚£ãƒ¼ãƒžãƒ¼ã‚°
+Fix ãƒžã‚¤ã‚¯ã‚µã‚¦ãƒ³ãƒ€ãƒ¼ã‚¹ï¼‘ï¼“ä¸–
+Fix é¢¨é¾
+Fix é›·é¾
+Fix ãƒ«ãƒï¼ã‚«ãƒ¼ãƒ‡ã‚£ãƒ•ï¼ç…å­çŽ‹
+Fix å…‰ç«œ
+Fix é—‡ç«œ
+# Fix é—‡ç«œ(ç…å­ã®å¥³çŽ‹)
+Fix ãƒãƒ«ã‚³ãƒ¼ãƒˆ
+Fix ã‚½ãƒ«ãƒ€ãƒ¼ãƒˆï¼ª-002
+Fix ãƒˆãƒ¢ãƒ­0117
+Fix æˆ’é“å¹¾å·³
+
+â—å‰æœŸåž‹â†’ã‚¦ãƒ«ãƒ†ã‚¯ã‚¨ãƒ³ã‚¸ãƒ³ã¸ã®æ›è£…
+Upgrade ã‚¬ã‚¤ã‚¬ãƒ¼(å‰æœŸåž‹) ã‚¬ã‚¤ã‚¬ãƒ¼
+Upgrade ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼(ï¼§)(å‰æœŸåž‹) ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼(ï¼§)
+Upgrade ã‚´ãƒ«ãƒ‡ã‚£ãƒ¼ãƒžãƒ¼ã‚°(å‰æœŸåž‹) ã‚´ãƒ«ãƒ‡ã‚£ãƒ¼ãƒžãƒ¼ã‚°
+Upgrade è¶…ç«œç¥ž(å‰æœŸåž‹) è¶…ç«œç¥ž
+Upgrade æ°·ç«œ(å‰æœŸåž‹) æ°·ç«œ
+Upgrade ç‚Žç«œ(å‰æœŸåž‹) ç‚Žç«œ
+Upgrade ãƒœãƒ«ãƒ•ã‚©ãƒƒã‚°(å‰æœŸåž‹) ãƒœãƒ«ãƒ•ã‚©ãƒƒã‚°
+
+
+â—†å‹‡è€…çŽ‹
+ãƒ»ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ã¨ã‚¹ã‚¿ãƒ¼ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ã¯ãƒ‡ãƒ¼ã‚¿çµ±åˆã€‚
+  SetSkillã€ã¾ãŸã‚¢ã‚¤ãƒ†ãƒ ã§ã€ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆã«ã€Žå®‡å®™ç”¨è£…å‚™ã€ã‚’ä»˜åŠ ã™ã‚‹ã“ã¨ã«ã‚ˆã‚Š
+  æ„›ç§°ã‚„æ­¦è£…ã‚’è‡ªå‹•çš„ã«å¤‰æ›´ã—ã¾ã™ã€‚
+  ã“ã®ãŸã‚ã€Žãƒ‡ãƒ¼ã‚¿ä¸Šã¯ã‚¹ã‚¿ãƒ¼ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ã¨ã„ã†ãƒ¦ãƒ‹ãƒƒãƒˆã¯å­˜åœ¨ã—ãªã„ã€ã“ã¨ã«æ³¨æ„ãŒå¿…è¦ã§ã™ã€‚
+
+ â€» å®‡å®™ç”¨è£…å‚™ã§ã¯ç©ºï¼¢ã«ã—ã¦ã€åœ°çƒä¸Šã§ã¯é€šå¸¸ã®ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ã®æ–¹ãŒã„ã„ã€ã¨ã„ã†
+    åŽŸä½œå†ç¾ã«ã™ã‚‹ã“ã¨ã‚‚æ¤œè¨Žã—ã¾ã—ãŸãŒã€å˜ã«ä½¿ã„ã«ãã„ã ã‘ã®ã‚ˆã†ãªæ°—ãŒã—ã¦ç¾åœ¨ä¿ç•™ä¸­ã€‚
+    ã“ã ã‚ã‚‹æ–¹ã ã‘ãƒ­ãƒ¼ã‚«ãƒ«ã§èª¿æ•´ã—ã¦ã„ãŸã ã‘ã°ã„ã„ã‹ãªã€ã¨ã€‚
+    ãªãŠã€æœˆé¢ã«é™ã‚Šã‚‹ã¨æ™®é€šã®ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ã«æˆ»ã£ã¦ã—ã¾ã†ãŸã‚ã€å®‡å®™ãƒžãƒƒãƒ—ã§ã®è‡ªå‹•å¤‰æ›´ã¯å»ƒæ¡ˆã€‚
+    å¤šå°‘é¢å€’ã§ã‚‚ã€ã‚·ãƒŠãƒªã‚ªå´ã§åˆ¶å¾¡ã—ã¦ã„ãŸã ãã®ãŒä¸€ç•ªã„ã„ã¨åˆ¤æ–­ã—ã¾ã™ã€‚
+
+ãƒ»ã‚¬ã‚ªãƒ•ã‚¡ã‚¤ã‚¬ãƒ¼ã¸ã®ã‚¢ãƒƒãƒ—ã‚°ãƒ¬ãƒ¼ãƒ‰ã¯åŸºç¤Žèƒ½åŠ›ã®å‘ä¸Šã«ã¨ã©ã‚ã€æ”»æ’ƒåŠ›ã¯æ®ãˆç½®ãã€‚
+  ã‚¨ãƒ´ã‚©ãƒªãƒ¥ã‚¢ãƒ«ã‚¦ãƒ«ãƒ†ã‚¯ãƒ‘ãƒ¯ãƒ¼ã¯èƒ½åŠ›å€¤ã«å«ã‚€ã¨ã„ã†ã“ã¨ã§ã€ãƒ‡ãƒ¼ã‚¿çš„ãªå†ç¾ã¯ã—ã¦ã„ã¾ã›ã‚“ã€‚
+
+ãƒ»å„ç¨®ãƒã‚¤ãƒ‘ãƒ¼ãƒ„ãƒ¼ãƒ«ã«ã¯å¿…è¦æ°—åŠ›ã‚’è¨­å®šã€‚å‡ºæ’ƒç›´å¾Œã«ä½¿ç”¨å¯èƒ½ãªãƒ„ãƒ¼ãƒ«ã¯ãªã„ã‚‚ã®ã¨ã—ã¾ã™ã€‚
+ãƒ»ãƒ‡ã‚£ãƒã‚¤ãƒ‡ã‚£ãƒ³ã‚°ãƒ‰ãƒ©ã‚¤ãƒãƒ¼ã€ã‚¬ãƒˆãƒªãƒ³ã‚°ãƒ‰ãƒ©ã‚¤ãƒãƒ¼ã€ãŠã‚ˆã³ãƒ‡ã‚£ãƒ¡ãƒ³ã‚¸ãƒ§ãƒ³ãƒ—ãƒ©ã‚¤ãƒ¤ãƒ¼ã‚’æ¨™æº–è£…å‚™ã€‚
+  ã“ã ã‚ã‚‹å ´åˆã¯é©å®œDisableã—ã¦ãã ã•ã„ã€‚
+ãƒ»éžè¡¨ç¤ºã®ãƒ€ãƒŸãƒ¼èƒ½åŠ›ã€Œãƒ„ãƒ¼ãƒ«ã‚³ãƒã‚¯ãƒˆã€ã¯ã€ã‚¢ã‚¤ãƒ†ãƒ åŒ–ã—ãŸãƒã‚¤ãƒ‘ãƒ¼ãƒ„ãƒ¼ãƒ«ã®ä½¿ç”¨åˆ¶å¾¡ã‚­ãƒ¼ã€‚
+  ã“ã‚Œã‚‰ã¯ã‚´ãƒ«ãƒ‡ã‚£ãƒ¼ãƒžãƒ¼ã‚°ã¨ã®åˆä½“å½¢æ…‹ã§ã¯ä½¿ç”¨ä¸èƒ½ã§ã™ã€‚
+
+ãƒ»ã‚´ãƒ«ãƒ‡ã‚£ã‚ªãƒ³ãƒãƒ³ãƒžãƒ¼ã¯ã‚´ãƒ«ãƒ‡ã‚£ãƒ¼ãƒžãƒ¼ã‚°3ãƒžã‚¹ä»¥å†…ã‚‚ã—ãã¯åˆä½“ã§ä½¿ç”¨å¯èƒ½ã«ã€‚
+  3ãƒžã‚¹ä»¥å†…ã®å ´åˆã¯é•·å®˜ã®æ‰¿èªã‹ã‚‰ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ãŒé–‹å§‹ã•ã‚Œã€ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã§å¼·åˆ¶åˆä½“ã—ã¾ã™ã€‚
+  ã“ã®å ´åˆã€ï¼‘ç™ºç›®ã¯ã‚´ãƒ«ãƒ‡ã‚£ãƒ¼ãƒžãƒ¼ã‚°ã®ï¼³ï¼°ã‚’åˆ©ç”¨ã§ããªã„ã¨ã„ã†è‹¥å¹²ã®ãƒ‡ãƒ¡ãƒªãƒƒãƒˆã‚ã‚Šã€‚
+ãƒ»é‹ç”¨ã®ç°¡ä¾¿ã•ã‚„æ”¹é€ åº¦ã®é€£å‹•ã‚’è€ƒæ…®ã—ã€åˆä½“çŠ¶æ…‹ã‚’ä¸»å½¢æ…‹ã¨ã—ã¦ã„ã¾ã™ã€‚
+  ãŸã ã—ã€ã‚¸ã‚§ãƒã‚·ãƒƒã‚¯ã¯ä¾‹å¤–ã§ã™ã€‚
+  åˆ†é›¢å‡ºæ’ƒã‚’åŸºæœ¬ã«ãªã•ã‚ŠãŸã„å ´åˆã¯ã€ä¸»å½¢æ…‹ã‚’å°å°ã—ã¦ãã ã•ã„ã€‚
+
+ â€» ã‚¬ã‚¤ã‚¬ãƒ¼ï¼ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ç­‰ã¨ã‚´ãƒ«ãƒ‡ã‚£ãƒ¼ãƒžãƒ¼ã‚°ã®æ”¹é€ ãƒ©ãƒ³ã‚¯ã‚’é€£å‹•ã•ã›ã‚‹ãŸã‚ã€
+    ã€Žé€£å‹•ã™ã‚‹ãƒ¦ãƒ‹ãƒƒãƒˆã™ã¹ã¦ãŒåˆä½“ã™ã‚‹ãƒ€ãƒŸãƒ¼ãƒ¦ãƒ‹ãƒƒãƒˆã€ãŒå­˜åœ¨ã—ã¾ã™ã€‚
+    ã“ã‚Œã¯çµ¶å¯¾ã«ç”Ÿæˆã—ãªã„ã§ãã ã•ã„ã€‚
+
+    ã¾ãŸã€ã“ã®ãƒ©ãƒ³ã‚¯é€£å‹•ãŒæœ‰åŠ¹ã«ãªã‚‹ã®ã¯ã‚¤ãƒ³ã‚¿ãƒ¼ãƒŸãƒƒã‚·ãƒ§ãƒ³ã«ãŠã„ã¦ã®ã¿ã§ã™ã€‚
+    ã—ãŸãŒã£ã¦ã€ã‚·ãƒŠãƒªã‚ªä¸­ã€RankUpã‚³ãƒžãƒ³ãƒ‰ã§ã€Žã‚¬ã‚¤ã‚¬ãƒ¼ã‚„ã‚¬ã‚ªãƒ•ã‚¡ãƒ¼ã®ãƒ©ãƒ³ã‚¯ã ã‘ã€ã‚’
+    ä¸Šã’ãŸå ´åˆã«ã¯ã€ã‚´ãƒ«ãƒ‡ã‚£ãƒ¼ãƒžãƒ¼ã‚°ã¯é€£å‹•ã—ã¾ã›ã‚“ã€‚
+    RankUpã‚³ãƒžãƒ³ãƒ‰ã‚’ä½¿ã†ã¨ãã¯ã€ã‚¬ã‚¤ã‚¬ãƒ¼ã‚„ã‚¬ã‚ªãƒ•ã‚¡ãƒ¼ã§ã¯ãªãã€
+    ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ã‚„ã‚¬ã‚ªãƒ•ã‚¡ã‚¤ã‚¬ãƒ¼ã‚’å¯¾è±¡ã«ã—ã¦ãã ã•ã„ã€‚
+
+ãƒ»åˆä½“ç‰ˆã§ã¯ãƒ–ãƒ­ã‚¦ã‚¯ãƒ³ãƒžã‚°ãƒŠãƒ ï¼ãƒ•ã‚¡ãƒ³ãƒˆãƒ ã€ãŠã‚ˆã³ä¸¡è…•ãŒå¿…è¦ãªãƒ‡ã‚£ãƒ¡ãƒ³ã‚¸ãƒ§ãƒ³ãƒ—ãƒ©ã‚¤ãƒ¤ãƒ¼ã¯ä½¿ãˆã¾ã›ã‚“ã€‚
+  å®‡å®™ç”¨è£…å‚™åŒæ§˜ã€ã“ã‚Œã‚‚SetSkillã¾ãŸã‚¢ã‚¤ãƒ†ãƒ ã§ã€Žæ»…ã¶ã¹ãå³è…•ã€ã‚’ä»˜åŠ ã™ã‚‹ã¨ä½¿ç”¨å¯èƒ½ã«ãªã‚Šã¾ã™ã€‚
+  ã‚·ãƒŠãƒªã‚ªä½œè€…ã®è£é‡ã«ã‚ˆã‚‹é¸æŠžã®å¹…ã‚’è¨­ã‘ã¦ã‚ã‚Šã¾ã™ã€‚ãŠå¥½ã¿ã§ã€‚
+ãƒ»ã‚´ãƒ«ãƒ‡ã‚£ã‚ªãƒ³ãƒžã‚°ãƒŠãƒ ã¯æˆ»ã£ã¦ãã¾ã›ã‚“ã€‚å¼¾æ•°1ã€‚
+      â€¦â€¦ã“ã‚Œã‚’ä¸»åŠ›ã«æˆ¦ã‚ã‚Œã‚‹ã¨ã€åˆ†é›¢ã™ã‚‹å¿…è¦ãŒã¾ã£ãŸããªã„ã‚ã‘ã§ã€‚
+      ãã‚Œã¯ã‚„ã£ã±ã‚Šä½•ã‹ãŒé•ã†ã ã‚ã†ã¨ã€‚
+  ãªãŠã€ã‚´ãƒ«ãƒ‡ã‚£ã‚ªãƒ³ãƒžã‚°ãƒŠãƒ ã«ï¼¨å±žæ€§ãŒã¤ã‹ãªã„ã®ã¯ä»•æ§˜ã§ã™ã€‚
 
-E’ÊíA³”F‚Í‘å‰Í’·Š¯‚ªs‚¢‚Ü‚·‚ªAƒKƒC‚Éw”ª–ØÀ³”Fx‚Ü‚½‚Íwƒƒ[³”Fx‚ð•t‰Á‚·‚é‚±‚Æ‚ÅA
-  Œ´ì‚É‚¨‚¯‚é“ÁŽê‚Èó‹µ‚ÌÄŒ»‚ª‚Å‚«‚Ü‚·B
-  ƒCƒ“ƒNƒ‹[ƒh‚ÌŽd—lãA—Dæ“x‚Í”ª–ØÀ’·Š¯„ƒƒ[‘’·„‘å‰Í’·Š¯‚Ì‡‚Å‚·B
-E“¯—l‚ÉwƒXƒƒ“ƒhƒ‰ƒCƒuxwƒpƒsƒˆƒ“ƒhƒ‰ƒCƒux‚Ì•t‰Á‚É‚æ‚èAƒvƒƒOƒ‰ƒ€ƒhƒ‰ƒCƒu–ð‚Ì•ÏX‚à‰Â”\‚Å‚·B
-  TVƒVƒŠ[ƒY‘æ18˜b‚âAŠO“`ƒRƒ~ƒbƒNEƒGƒ”ƒHƒŠƒ…ƒ_[GUY‚Ì‚æ‚¤‚Èƒ~ƒRƒg•sÝŽž‚ÌÄŒ»‚É—˜—p‚µ‚Ä‚­‚¾‚³‚¢B
-  —Dæ“x‚ÍƒXƒƒ“„ƒpƒsƒˆƒ“„ƒ~ƒRƒg‚Å‚·B
-  ¦ ƒŒƒvƒŠEƒpƒsƒˆƒ“‚ÍŒ»Ý–¢‘Î‰žB
+ãƒ»é€šå¸¸ã€æ‰¿èªã¯å¤§æ²³é•·å®˜ãŒè¡Œã„ã¾ã™ãŒã€ã‚¬ã‚¤ã«ã€Žå…«æœ¨æ²¼æ‰¿èªã€ã¾ãŸã¯ã€Žãƒ­ã‚¼æ‰¿èªã€ã‚’ä»˜åŠ ã™ã‚‹ã“ã¨ã§ã€
+  åŽŸä½œã«ãŠã‘ã‚‹ç‰¹æ®ŠãªçŠ¶æ³ã®å†ç¾ãŒã§ãã¾ã™ã€‚
+  ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰ã®ä»•æ§˜ä¸Šã€å„ªå…ˆåº¦ã¯å…«æœ¨æ²¼é•·å®˜ï¼žãƒ­ã‚¼ç·é•·ï¼žå¤§æ²³é•·å®˜ã®é †ã§ã™ã€‚
+ãƒ»åŒæ§˜ã«ã€Žã‚¹ãƒ¯ãƒ³ãƒ‰ãƒ©ã‚¤ãƒ–ã€ã€Žãƒ‘ãƒ”ãƒ¨ãƒ³ãƒ‰ãƒ©ã‚¤ãƒ–ã€ã®ä»˜åŠ ã«ã‚ˆã‚Šã€ãƒ—ãƒ­ã‚°ãƒ©ãƒ ãƒ‰ãƒ©ã‚¤ãƒ–å½¹ã®å¤‰æ›´ã‚‚å¯èƒ½ã§ã™ã€‚
+  TVã‚·ãƒªãƒ¼ã‚ºç¬¬18è©±ã‚„ã€å¤–ä¼ã‚³ãƒŸãƒƒã‚¯ãƒ»ã‚¨ãƒ´ã‚©ãƒªãƒ¥ãƒ€ãƒ¼GUYã®ã‚ˆã†ãªãƒŸã‚³ãƒˆä¸åœ¨æ™‚ã®å†ç¾ã«åˆ©ç”¨ã—ã¦ãã ã•ã„ã€‚
+  å„ªå…ˆåº¦ã¯ã‚¹ãƒ¯ãƒ³ï¼žãƒ‘ãƒ”ãƒ¨ãƒ³ï¼žãƒŸã‚³ãƒˆã§ã™ã€‚
+  â€» ãƒ¬ãƒ—ãƒªãƒ»ãƒ‘ãƒ”ãƒ¨ãƒ³ã¯ç¾åœ¨æœªå¯¾å¿œã€‚
 
-œ‰F’ˆ—p‘•”õ
-Ý’èŽžFSetSkill Ž‚Žq‰¤ŠM ‰F’ˆ—p‘•”õ -1 ”ñ•\Ž¦
-‰ðœŽžFClearSkill Ž‚Žq‰¤ŠM ‰F’ˆ—p‘•”õ
+â—å®‡å®™ç”¨è£…å‚™
+è¨­å®šæ™‚ï¼šSetSkill ç…å­çŽ‹å‡± å®‡å®™ç”¨è£…å‚™ -1 éžè¡¨ç¤º
+è§£é™¤æ™‚ï¼šClearSkill ç…å­çŽ‹å‡± å®‡å®™ç”¨è£…å‚™
 
-œƒSƒ‹ƒfƒB‡‘ÌŒ`‘ÔEƒuƒƒEƒNƒ“ƒ}ƒOƒiƒ€‰ðœƒL[
-Ý’èŽžFSetSkill Ž‚Žq‰¤ŠM –Å‚Ô‚×‚«‰E˜r -1 ”ñ•\Ž¦
-‰ðœŽžFClearSkill Ž‚Žq‰¤ŠM –Å‚Ô‚×‚«‰E˜r 
+â—ã‚´ãƒ«ãƒ‡ã‚£åˆä½“å½¢æ…‹ãƒ»ãƒ–ãƒ­ã‚¦ã‚¯ãƒ³ãƒžã‚°ãƒŠãƒ è§£é™¤ã‚­ãƒ¼
+è¨­å®šæ™‚ï¼šSetSkill ç…å­çŽ‹å‡± æ»…ã¶ã¹ãå³è…• -1 éžè¡¨ç¤º
+è§£é™¤æ™‚ï¼šClearSkill ç…å­çŽ‹å‡± æ»…ã¶ã¹ãå³è…• 
 
-œ³”F–ð‚Ì•ÏX
-Ý’èŽžFSetSkill Ž‚Žq‰¤ŠM ”ª–ØÀ³”F -1 ”ñ•\Ž¦
-‰ðœŽžFClearSkill Ž‚Žq‰¤ŠM ”ª–ØÀ³”F
+â—æ‰¿èªå½¹ã®å¤‰æ›´
+è¨­å®šæ™‚ï¼šSetSkill ç…å­çŽ‹å‡± å…«æœ¨æ²¼æ‰¿èª -1 éžè¡¨ç¤º
+è§£é™¤æ™‚ï¼šClearSkill ç…å­çŽ‹å‡± å…«æœ¨æ²¼æ‰¿èª
 
-Ý’èŽžFSetSkill Ž‚Žq‰¤ŠM ƒƒ[³”F -1 ”ñ•\Ž¦
-‰ðœŽžFClearSkill Ž‚Žq‰¤ŠM ƒƒ[³”F
+è¨­å®šæ™‚ï¼šSetSkill ç…å­çŽ‹å‡± ãƒ­ã‚¼æ‰¿èª -1 éžè¡¨ç¤º
+è§£é™¤æ™‚ï¼šClearSkill ç…å­çŽ‹å‡± ãƒ­ã‚¼æ‰¿èª
 
-œƒhƒ‰ƒCƒu–ð‚Ì•ÏX
-Ý’èŽžFSetSkill Ž‚Žq‰¤ŠM ƒXƒƒ“ƒhƒ‰ƒCƒu -1 ”ñ•\Ž¦
-‰ðœŽžFClearSkill Ž‚Žq‰¤ŠM ƒXƒƒ“ƒhƒ‰ƒCƒu
+â—ãƒ‰ãƒ©ã‚¤ãƒ–å½¹ã®å¤‰æ›´
+è¨­å®šæ™‚ï¼šSetSkill ç…å­çŽ‹å‡± ã‚¹ãƒ¯ãƒ³ãƒ‰ãƒ©ã‚¤ãƒ– -1 éžè¡¨ç¤º
+è§£é™¤æ™‚ï¼šClearSkill ç…å­çŽ‹å‡± ã‚¹ãƒ¯ãƒ³ãƒ‰ãƒ©ã‚¤ãƒ–
 
-Ý’èŽžFSetSkill Ž‚Žq‰¤ŠM ƒpƒsƒˆƒ“ƒhƒ‰ƒCƒu -1 ”ñ•\Ž¦
-‰ðœŽžFClearSkill Ž‚Žq‰¤ŠM ƒpƒsƒˆƒ“ƒhƒ‰ƒCƒu
+è¨­å®šæ™‚ï¼šSetSkill ç…å­çŽ‹å‡± ãƒ‘ãƒ”ãƒ¨ãƒ³ãƒ‰ãƒ©ã‚¤ãƒ– -1 éžè¡¨ç¤º
+è§£é™¤æ™‚ï¼šClearSkill ç…å­çŽ‹å‡± ãƒ‘ãƒ”ãƒ¨ãƒ³ãƒ‰ãƒ©ã‚¤ãƒ–
 
-¦ ‚¢‚¸‚ê‚àAƒGƒ”ƒHƒŠƒ…ƒ_[”Å‚É‚Â‚¯‚éê‡‚Í“K‹XC³‚µ‚ÄŽg‚Á‚Ä‚­‚¾‚³‚¢B
+â€» ã„ãšã‚Œã‚‚ã€ã‚¨ãƒ´ã‚©ãƒªãƒ¥ãƒ€ãƒ¼ç‰ˆã«ã¤ã‘ã‚‹å ´åˆã¯é©å®œä¿®æ­£ã—ã¦ä½¿ã£ã¦ãã ã•ã„ã€‚
 
 
-ŸƒSƒ‹ƒfƒB[ƒ}[ƒO^ƒSƒ‹ƒfƒBƒIƒ“ƒNƒ‰ƒbƒVƒƒ[
-EƒVƒiƒŠƒI‚Å‚ÌŽžŠú‚ª—ˆ‚é‚Ü‚ÅAŸ—˜‚ÌŒ®‚Í•K‚¸Disable‚µ‚Ä‚­‚¾‚³‚¢B
+â—†ã‚´ãƒ«ãƒ‡ã‚£ãƒ¼ãƒžãƒ¼ã‚°ï¼ã‚´ãƒ«ãƒ‡ã‚£ã‚ªãƒ³ã‚¯ãƒ©ãƒƒã‚·ãƒ£ãƒ¼
+ãƒ»ã‚·ãƒŠãƒªã‚ªã§ã®æ™‚æœŸãŒæ¥ã‚‹ã¾ã§ã€å‹åˆ©ã®éµã¯å¿…ãšDisableã—ã¦ãã ã•ã„ã€‚
 
-Disable Ÿ—˜‚ÌŒ®
+Disable å‹åˆ©ã®éµ
 
-Enable Ÿ—˜‚ÌŒ®
+Enable å‹åˆ©ã®éµ
 
 
-Ÿ—³ŒZ’í
-EƒZƒ~ƒr[ƒNƒ‹ƒ‚[ƒh‚ÍƒŒƒXƒLƒ…[—p“ÁŽêŒ`‘Ô‚Æ”»’f‚µA•X—³E‰Š—³‚Ì‚Ý‚Æ‚µ‚Ä‚¢‚Ü‚·B
-  ‚s‚uÅ‰Šú‚ÌÄŒ»ƒVƒiƒŠƒI‚Å‚ÍDisable‚ð„§B­‚µi‚ñ‚¾‚Æ‚±‚ë‚Å‰ðœ‚·‚é‚Ì‚ªŒ´ìƒ‰ƒCƒN‚Å‚·B
-E•——´ˆÈ~‚ÌƒZƒ~ƒr[ƒNƒ‹ƒ‚[ƒh‘Î‰žƒf[ƒ^‚ÍAŽQlƒf[ƒ^.txt“à‚É‹LqB
-  ‚¨Žg‚¢‚É‚È‚éê‡‚Íƒf[ƒ^‚Ì·‚µ‘Ö‚¦‚ð‚¨Šè‚¢‚µ‚Ü‚·B
-E”òs—p‚Ìê—p‘•”õ‚ðŽ‚Â•——´E—‹—´‚Ì‚Ý‚ÍA‹ó“K‰ž‚`‚Å‚·B
-Eƒf[ƒ^ãA‰F’ˆ‚Å‚ÍŽ©“®“I‚É‚r‚oƒpƒbƒN‚ð‘•”õ‚·‚é‚à‚Ì‚Æ‚Ý‚È‚µ‚Ä‚¢‚Ü‚·B
+â—†ç«œå…„å¼Ÿ
+ãƒ»ã‚»ãƒŸãƒ“ãƒ¼ã‚¯ãƒ«ãƒ¢ãƒ¼ãƒ‰ã¯ãƒ¬ã‚¹ã‚­ãƒ¥ãƒ¼ç”¨ç‰¹æ®Šå½¢æ…‹ã¨åˆ¤æ–­ã—ã€æ°·ç«œãƒ»ç‚Žç«œã®ã¿ã¨ã—ã¦ã„ã¾ã™ã€‚
+  ï¼´ï¼¶æœ€åˆæœŸã®å†ç¾ã‚·ãƒŠãƒªã‚ªã§ã¯Disableã‚’æŽ¨å¥¨ã€‚å°‘ã—é€²ã‚“ã ã¨ã“ã‚ã§è§£é™¤ã™ã‚‹ã®ãŒåŽŸä½œãƒ©ã‚¤ã‚¯ã§ã™ã€‚
+ãƒ»é¢¨é¾ä»¥é™ã®ã‚»ãƒŸãƒ“ãƒ¼ã‚¯ãƒ«ãƒ¢ãƒ¼ãƒ‰å¯¾å¿œãƒ‡ãƒ¼ã‚¿ã¯ã€å‚è€ƒãƒ‡ãƒ¼ã‚¿.txtå†…ã«è¨˜è¿°ã€‚
+  ãŠä½¿ã„ã«ãªã‚‹å ´åˆã¯ãƒ‡ãƒ¼ã‚¿ã®å·®ã—æ›¿ãˆã‚’ãŠé¡˜ã„ã—ã¾ã™ã€‚
+ãƒ»é£›è¡Œç”¨ã®å°‚ç”¨è£…å‚™ã‚’æŒã¤é¢¨é¾ãƒ»é›·é¾ã®ã¿ã¯ã€ç©ºé©å¿œï¼¡ã§ã™ã€‚
+ãƒ»ãƒ‡ãƒ¼ã‚¿ä¸Šã€å®‡å®™ã§ã¯è‡ªå‹•çš„ã«ï¼³ï¼°ãƒ‘ãƒƒã‚¯ã‚’è£…å‚™ã™ã‚‹ã‚‚ã®ã¨ã¿ãªã—ã¦ã„ã¾ã™ã€‚
 
-E‡‘Ì‚Å‹@‘Ì‚ª‘åŒ^‰»‚·‚é‚±‚Æ‚É‚æ‚èAƒV[ƒ‹ƒh‚ÌŽç”õ”ÍˆÍ‚ª‹·‚­‚È‚é
-                                          ¨Œø‰Ê‚ª‚Pƒ‰ƒ“ƒN‰º‚ª‚é‚æ‚¤‚É‚µ‚Ä‚ ‚è‚Ü‚·B
-  ‡‘Ì‘OŒã‚Å‚ÍA“¯–¼‚Å‚à”\—Í‚ªˆÙ‚È‚é‚±‚Æ‚É’ˆÓ‚µ‚Ä‚­‚¾‚³‚¢B
-      ƒ~ƒ‰[ƒV[ƒ‹ƒh^ƒNƒŠƒXƒ^ƒ‹ƒV[ƒ‹ƒh  ¬ƒƒ{ccƒV[ƒ‹ƒh      ‘åƒƒ{cc¬Œ^ƒV[ƒ‹ƒh
-      ƒfƒ“ƒWƒƒƒ“ƒz[                      ¬ƒƒ{cc‘åŒ^ƒV[ƒ‹ƒh  ‘åƒƒ{ccƒV[ƒ‹ƒh
+ãƒ»åˆä½“ã§æ©Ÿä½“ãŒå¤§åž‹åŒ–ã™ã‚‹ã“ã¨ã«ã‚ˆã‚Šã€ã‚·ãƒ¼ãƒ«ãƒ‰ã®å®ˆå‚™ç¯„å›²ãŒç‹­ããªã‚‹
+                                          â†’åŠ¹æžœãŒï¼‘ãƒ©ãƒ³ã‚¯ä¸‹ãŒã‚‹ã‚ˆã†ã«ã—ã¦ã‚ã‚Šã¾ã™ã€‚
+  åˆä½“å‰å¾Œã§ã¯ã€åŒåã§ã‚‚èƒ½åŠ›ãŒç•°ãªã‚‹ã“ã¨ã«æ³¨æ„ã—ã¦ãã ã•ã„ã€‚
+      ãƒŸãƒ©ãƒ¼ã‚·ãƒ¼ãƒ«ãƒ‰ï¼ã‚¯ãƒªã‚¹ã‚¿ãƒ«ã‚·ãƒ¼ãƒ«ãƒ‰  å°ãƒ­ãƒœâ€¦â€¦ã‚·ãƒ¼ãƒ«ãƒ‰      å¤§ãƒ­ãƒœâ€¦â€¦å°åž‹ã‚·ãƒ¼ãƒ«ãƒ‰
+      ãƒ‡ãƒ³ã‚¸ãƒ£ãƒ³ãƒ›ãƒ¼                      å°ãƒ­ãƒœâ€¦â€¦å¤§åž‹ã‚·ãƒ¼ãƒ«ãƒ‰  å¤§ãƒ­ãƒœâ€¦â€¦ã‚·ãƒ¼ãƒ«ãƒ‰
 
-EƒX[ƒp[ƒmƒ”ƒ@‚Í’´—³_’P‘Ì”Å‚Æ•X—³E‰Š—³‚Ì‡‘Ì‹Z”ÅA—¼•û‚ð—pˆÓBŒø‰Ê‚ÍŽáŠ±ˆÙ‚È‚è‚Ü‚·B
-  ‰Šú‚Í•K‚¸DisableB
-      ’P‘Ì”Å¨Ž¸L3  ‡‘Ì‹Z”Å¨Á
-      ¬à‚Ì‹Lq‚É‚æ‚é‚ÆA–{—ˆ‚Í’´—³_‚ÅŽg‚¤‹Z‚¾‚Á‚½‚æ‚¤‚Å‚·‚ªA
-      ‚Ü‚Á‚½‚­ƒŠƒXƒN‚ª‚È‚¢‹Z‚¾‚Á‚½‚çAÅ‰‚©‚ç‚½‚ß‚ç‚í‚¸‚ÉŽg‚Á‚Ä‚¢‚Ä‚¢‚¢‚Ì‚Å‚Í‚È‚¢‚©‚ÆB
-      •ª—£Žž‚Ù‚Ç‚Å‚Í‚È‚¢‚É‚µ‚Ä‚àA‚»‚Ì«Ž¿ãA’´—³_‚É‚Æ‚Á‚ÄŽÌ‚Äg‚ÌUŒ‚‚Å‚ ‚ë‚¤‚Æ‚¢‚¤‰ðŽß‚©‚ç
-      Ž¸‘®«‚ª‚Â‚¢‚Ä‚¢‚Ü‚·B
-      ‚s‚uƒVƒŠ[ƒY‚Å‚àAƒCƒŒƒCƒU[ƒwƒbƒh‚Ì˜A‘±Žg—p‚ªƒ_ƒ[ƒW‚É‚È‚Á‚½‚±‚Æ‚ª‚ ‚è‚Ü‚·‚ªA
-      ­‚È‚­‚Æ‚àA‚ ‚ê‚­‚ç‚¢‚Ì”½“®‚Í‚ ‚é‚Ì‚Å‚Í‚È‚©‚ë‚¤‚©‚ÆB
+ãƒ»ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒŽãƒ´ã‚¡ã¯è¶…ç«œç¥žå˜ä½“ç‰ˆã¨æ°·ç«œãƒ»ç‚Žç«œã®åˆä½“æŠ€ç‰ˆã€ä¸¡æ–¹ã‚’ç”¨æ„ã€‚åŠ¹æžœã¯è‹¥å¹²ç•°ãªã‚Šã¾ã™ã€‚
+  åˆæœŸã¯å¿…ãšDisableã€‚
+      å˜ä½“ç‰ˆâ†’å¤±L3  åˆä½“æŠ€ç‰ˆâ†’æ¶ˆ
+      å°èª¬ã®è¨˜è¿°ã«ã‚ˆã‚‹ã¨ã€æœ¬æ¥ã¯è¶…ç«œç¥žã§ä½¿ã†æŠ€ã ã£ãŸã‚ˆã†ã§ã™ãŒã€
+      ã¾ã£ãŸããƒªã‚¹ã‚¯ãŒãªã„æŠ€ã ã£ãŸã‚‰ã€æœ€åˆã‹ã‚‰ãŸã‚ã‚‰ã‚ãšã«ä½¿ã£ã¦ã„ã¦ã„ã„ã®ã§ã¯ãªã„ã‹ã¨ã€‚
+      åˆ†é›¢æ™‚ã»ã©ã§ã¯ãªã„ã«ã—ã¦ã‚‚ã€ãã®æ€§è³ªä¸Šã€è¶…ç«œç¥žã«ã¨ã£ã¦æ¨ã¦èº«ã®æ”»æ’ƒã§ã‚ã‚ã†ã¨ã„ã†è§£é‡ˆã‹ã‚‰
+      å¤±å±žæ€§ãŒã¤ã„ã¦ã„ã¾ã™ã€‚
+      ï¼´ï¼¶ã‚·ãƒªãƒ¼ã‚ºã§ã‚‚ã€ã‚¤ãƒ¬ã‚¤ã‚¶ãƒ¼ãƒ˜ãƒƒãƒ‰ã®é€£ç¶šä½¿ç”¨ãŒãƒ€ãƒ¡ãƒ¼ã‚¸ã«ãªã£ãŸã“ã¨ãŒã‚ã‚Šã¾ã™ãŒã€
+      å°‘ãªãã¨ã‚‚ã€ã‚ã‚Œãã‚‰ã„ã®åå‹•ã¯ã‚ã‚‹ã®ã§ã¯ãªã‹ã‚ã†ã‹ã¨ã€‚
 
-EŒ¶—³_E‹­—´_‚ÍƒCƒxƒ“ƒgŽg—p‚ª–]‚Ü‚µ‚¢‚Å‚·B’Êí‚Í‚È‚é‚×‚­¶¬‚µ‚È‚¢‚Å‚­‚¾‚³‚¢B
+ãƒ»å¹»ç«œç¥žãƒ»å¼·é¾ç¥žã¯ã‚¤ãƒ™ãƒ³ãƒˆä½¿ç”¨ãŒæœ›ã¾ã—ã„ã§ã™ã€‚é€šå¸¸ã¯ãªã‚‹ã¹ãç”Ÿæˆã—ãªã„ã§ãã ã•ã„ã€‚
 
-Disable ƒX[ƒp[ƒmƒ”ƒ@
+Disable ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒŽãƒ´ã‚¡
 
-Enable ƒX[ƒp[ƒmƒ”ƒ@
+Enable ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒŽãƒ´ã‚¡
 
 
-Ÿƒ{ƒ‹ƒtƒHƒbƒO•ƒKƒ“ƒ}ƒVƒ“
-EƒƒPƒbƒgƒƒbƒp[‚ÍFINAL‚Å‰Žg—p‚ÌƒWƒFƒbƒgƒƒbƒp[‚ÌãˆÊ•‘•‚Å‚·B
-  ‰Šú‚ÍDisableB‰ðœ‚ÌÛ‚ÍƒWƒFƒbƒgƒƒbƒp[‚ðDisable‚µ‚Ä‚­‚¾‚³‚¢B
-EƒEƒ‹ƒeƒNƒGƒ“ƒWƒ““‹ÚŒã‚Éƒr[ƒNƒ‹ƒ‚[ƒh‚Å…ãˆÚ“®‰Â”\‚Å‚·B
+â—†ãƒœãƒ«ãƒ•ã‚©ãƒƒã‚°ï¼†ã‚¬ãƒ³ãƒžã‚·ãƒ³
+ãƒ»ãƒ­ã‚±ãƒƒãƒˆãƒ¯ãƒƒãƒ‘ãƒ¼ã¯FINALã§åˆä½¿ç”¨ã®ã‚¸ã‚§ãƒƒãƒˆãƒ¯ãƒƒãƒ‘ãƒ¼ã®ä¸Šä½æ­¦è£…ã§ã™ã€‚
+  åˆæœŸã¯Disableã€‚è§£é™¤ã®éš›ã¯ã‚¸ã‚§ãƒƒãƒˆãƒ¯ãƒƒãƒ‘ãƒ¼ã‚’Disableã—ã¦ãã ã•ã„ã€‚
+ãƒ»ã‚¦ãƒ«ãƒ†ã‚¯ã‚¨ãƒ³ã‚¸ãƒ³æ­è¼‰å¾Œã«ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ¢ãƒ¼ãƒ‰ã§æ°´ä¸Šç§»å‹•å¯èƒ½ã§ã™ã€‚
 
-EƒKƒ“ƒh[ƒxƒ‹‚¨‚æ‚ÑƒKƒ“ƒOƒ‹[‚ÍAƒKƒC‚âƒ‹ƒlA‰Î–ƒŽQ–d‚È‚Ç‚Æ‚¢‚Á‚½‚f‚f‚fƒXƒ^ƒbƒt‚à“‹æ‰Â”\‚Å‚·B
-  ‚½‚¾‚µA‚»‚ê‚¼‚ê‚Ìê—pƒpƒCƒƒbƒg‚ðæ‚¹‚È‚¯‚ê‚ÎƒKƒ“ƒƒ{Œ`‘Ô‚É‚Í‚È‚ê‚Ü‚¹‚ñB
-  ‚»‚Ì«Ž¿ãAƒCƒ“ƒ^[ƒ~ƒbƒVƒ‡ƒ“‚Å‚ÍƒKƒ“ƒ}ƒVƒ“Œ`‘Ô‚ªƒƒCƒ“‚É‚È‚é‚æ‚¤‚É‘g‚ñ‚Å‚ ‚è‚Ü‚·B
-      ¦ ƒf[ƒ^‚Ì•À‚Ñ‚ªAƒƒ{Œ`‘Ô‚ªŒã‚É‚È‚Á‚Ä‚¢‚é‚Ì‚ÍŠÔˆá‚¢‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
+ãƒ»ã‚¬ãƒ³ãƒ‰ãƒ¼ãƒ™ãƒ«ãŠã‚ˆã³ã‚¬ãƒ³ã‚°ãƒ«ãƒ¼ã¯ã€ã‚¬ã‚¤ã‚„ãƒ«ãƒã€ç«éº»å‚è¬€ãªã©ã¨ã„ã£ãŸï¼§ï¼§ï¼§ã‚¹ã‚¿ãƒƒãƒ•ã‚‚æ­ä¹—å¯èƒ½ã§ã™ã€‚
+  ãŸã ã—ã€ãã‚Œãžã‚Œã®å°‚ç”¨ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆã‚’ä¹—ã›ãªã‘ã‚Œã°ã‚¬ãƒ³ãƒ­ãƒœå½¢æ…‹ã«ã¯ãªã‚Œã¾ã›ã‚“ã€‚
+  ãã®æ€§è³ªä¸Šã€ã‚¤ãƒ³ã‚¿ãƒ¼ãƒŸãƒƒã‚·ãƒ§ãƒ³ã§ã¯ã‚¬ãƒ³ãƒžã‚·ãƒ³å½¢æ…‹ãŒãƒ¡ã‚¤ãƒ³ã«ãªã‚‹ã‚ˆã†ã«çµ„ã‚“ã§ã‚ã‚Šã¾ã™ã€‚
+      â€» ãƒ‡ãƒ¼ã‚¿ã®ä¸¦ã³ãŒã€ãƒ­ãƒœå½¢æ…‹ãŒå¾Œã«ãªã£ã¦ã„ã‚‹ã®ã¯é–“é•ã„ã§ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚
 
-Disable ƒƒPƒbƒgƒƒbƒp[
+Disable ãƒ­ã‚±ãƒƒãƒˆãƒ¯ãƒƒãƒ‘ãƒ¼
 
-Enable ƒƒPƒbƒgƒƒbƒp[
-Disable ƒWƒFƒbƒgƒƒbƒp[
+Enable ãƒ­ã‚±ãƒƒãƒˆãƒ¯ãƒƒãƒ‘ãƒ¼
+Disable ã‚¸ã‚§ãƒƒãƒˆãƒ¯ãƒƒãƒ‘ãƒ¼
 
 
-Ÿƒ}ƒCƒNEƒTƒEƒ“ƒ_[ƒX
-EƒfƒBƒXƒN‚e‚ÍFINAL‚ÅŽg—p‚µ‚½VƒfƒBƒXƒNBŒ´Ží•ÒI—¹‚Ü‚ÅDisable‚ð„§B
-EƒfƒBƒXƒN‚w‚àŽæ‚èˆµ‚¢Œµd’ˆÓB‚±‚¿‚ç‚ÍƒvƒƒeƒNƒg‰ðœƒCƒxƒ“ƒg‚Ü‚ÅDisable‚ª•K{‚Å‚·B
+â—†ãƒžã‚¤ã‚¯ãƒ»ã‚µã‚¦ãƒ³ãƒ€ãƒ¼ã‚¹
+ãƒ»ãƒ‡ã‚£ã‚¹ã‚¯ï¼¦ã¯FINALã§ä½¿ç”¨ã—ãŸæ–°ãƒ‡ã‚£ã‚¹ã‚¯ã€‚åŽŸç¨®ç·¨çµ‚äº†ã¾ã§Disableã‚’æŽ¨å¥¨ã€‚
+ãƒ»ãƒ‡ã‚£ã‚¹ã‚¯ï¼¸ã‚‚å–ã‚Šæ‰±ã„åŽ³é‡æ³¨æ„ã€‚ã“ã¡ã‚‰ã¯ãƒ—ãƒ­ãƒ†ã‚¯ãƒˆè§£é™¤ã‚¤ãƒ™ãƒ³ãƒˆã¾ã§DisableãŒå¿…é ˆã§ã™ã€‚
 
-Ed—ÍƒŒƒ“ƒY‚É‚æ‚éŽû‘©ƒ\ƒŠƒ^ƒŠ[ƒEƒF[ƒu‚ÍAƒ}ƒCƒN•”‘à‚ÆƒKƒIƒKƒCƒK[‚Æ‚Ì‡‘Ì‹Z‚Æ‚µ‚Ä‘Î‰žB
-  •”‘àƒ†ƒjƒbƒg‚Å‚Í‚È‚¢ƒKƒIƒKƒCƒK[‘¤‚©‚ç‚Å‚Í‚g‚o‚É‚æ‚éUŒ‚—Í•Ï“®‚ª‚¨‚±‚ç‚È‚¢‚½‚ßA
-  ƒ}ƒCƒN•”‘à‚©‚ç‚Ì‚Ý”­“®‰Â”\‚Å‚·B
+ãƒ»é‡åŠ›ãƒ¬ãƒ³ã‚ºã«ã‚ˆã‚‹åŽæŸã‚½ãƒªã‚¿ãƒªãƒ¼ã‚¦ã‚§ãƒ¼ãƒ–ã¯ã€ãƒžã‚¤ã‚¯éƒ¨éšŠã¨ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ã¨ã®åˆä½“æŠ€ã¨ã—ã¦å¯¾å¿œã€‚
+  éƒ¨éšŠãƒ¦ãƒ‹ãƒƒãƒˆã§ã¯ãªã„ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼å´ã‹ã‚‰ã§ã¯ï¼¨ï¼°ã«ã‚ˆã‚‹æ”»æ’ƒåŠ›å¤‰å‹•ãŒãŠã“ã‚‰ãªã„ãŸã‚ã€
+  ãƒžã‚¤ã‚¯éƒ¨éšŠã‹ã‚‰ã®ã¿ç™ºå‹•å¯èƒ½ã§ã™ã€‚
 
-Disable ƒfƒBƒXƒN‚w
-Disable ƒfƒBƒXƒN‚e
-Disable Žû‘©ƒ\ƒŠƒ^ƒŠ[ƒEƒF[ƒu
+Disable ãƒ‡ã‚£ã‚¹ã‚¯ï¼¸
+Disable ãƒ‡ã‚£ã‚¹ã‚¯ï¼¦
+Disable åŽæŸã‚½ãƒªã‚¿ãƒªãƒ¼ã‚¦ã‚§ãƒ¼ãƒ–
 
-Enable ƒfƒBƒXƒN‚w
-Enable ƒfƒBƒXƒN‚e
-Enable Žû‘©ƒ\ƒŠƒ^ƒŠ[ƒEƒF[ƒu
+Enable ãƒ‡ã‚£ã‚¹ã‚¯ï¼¸
+Enable ãƒ‡ã‚£ã‚¹ã‚¯ï¼¦
+Enable åŽæŸã‚½ãƒªã‚¿ãƒªãƒ¼ã‚¦ã‚§ãƒ¼ãƒ–
 
-EŽQlF•‘•ƒf[ƒ^
-ƒfƒBƒXƒN‚l    “ÁŽê‚È”g’·‚Ìƒ}ƒCƒNƒ”g‚É‚æ‚èA“Á’è‚ÌƒƒJ‚Ì‹@”\‚ð–ƒáƒ‚³‚¹‚é
-ƒfƒBƒXƒN‚w    ‘ÎÛ•¨‚ÌŒÅ—LU“®Žü”g”‚É‚ ‚í‚¹‚½ƒ\ƒŠƒ^ƒŠ[ƒEƒF[ƒu‚ðÆŽËAŠ®•†‚È‚«‚Ü‚Å”j‰ó‚·‚é
-ƒfƒBƒXƒN‚e    ƒ\ƒŠƒ^ƒŠ[ƒEƒF[ƒu‚ÆƒOƒ‰ƒrƒeƒBƒVƒ‡ƒbƒNƒEƒF[ƒu‚É‚æ‚é“ñ’iUŒ‚
-ƒfƒBƒXƒN‚o    ‚f‚rƒ‰ƒCƒh‚ðŠˆ«‰»‚·‚éƒGƒlƒ‹ƒM[ƒEƒF[ƒu‚ð•úŽË
+ãƒ»å‚è€ƒï¼šæ­¦è£…ãƒ‡ãƒ¼ã‚¿
+ãƒ‡ã‚£ã‚¹ã‚¯ï¼­    ç‰¹æ®Šãªæ³¢é•·ã®ãƒžã‚¤ã‚¯ãƒ­æ³¢ã«ã‚ˆã‚Šã€ç‰¹å®šã®ãƒ¡ã‚«ã®æ©Ÿèƒ½ã‚’éº»ç—ºã•ã›ã‚‹
+ãƒ‡ã‚£ã‚¹ã‚¯ï¼¸    å¯¾è±¡ç‰©ã®å›ºæœ‰æŒ¯å‹•å‘¨æ³¢æ•°ã«ã‚ã‚ã›ãŸã‚½ãƒªã‚¿ãƒªãƒ¼ã‚¦ã‚§ãƒ¼ãƒ–ã‚’ç…§å°„ã€å®Œè†šãªãã¾ã§ç ´å£Šã™ã‚‹
+ãƒ‡ã‚£ã‚¹ã‚¯ï¼¦    ã‚½ãƒªã‚¿ãƒªãƒ¼ã‚¦ã‚§ãƒ¼ãƒ–ã¨ã‚°ãƒ©ãƒ“ãƒ†ã‚£ã‚·ãƒ§ãƒƒã‚¯ã‚¦ã‚§ãƒ¼ãƒ–ã«ã‚ˆã‚‹äºŒæ®µæ”»æ’ƒ
+ãƒ‡ã‚£ã‚¹ã‚¯ï¼°    ï¼§ï¼³ãƒ©ã‚¤ãƒ‰ã‚’æ´»æ€§åŒ–ã™ã‚‹ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚¦ã‚§ãƒ¼ãƒ–ã‚’æ”¾å°„
 
 
-Ÿ—³Žo–…
-E¬àwŽ‚Žq‚Ì—‰¤x‚©‚çFINALŠJŽn‚Ü‚Å‚ÌŠÔ‚ÉAˆê•”‚Ì•‘•‚ª‰ü–¼‚³‚ê‚Ä‚¢‚Ü‚·B
-  Œõ—³‚¨‚æ‚Ñ“V—³_‚ÉwŽ‚Žq‚Ì—‰¤x‚ð•t‰Á‚·‚é‚±‚Æ‚ÅA¬à”Å‚ÌÄŒ»‚ª‰Â”\‚Å‚·B
-  Ú×‚Ípilot.txt‚Ì’Žß‚àŽQÆ‚µ‚Ä‚­‚¾‚³‚¢B
-EƒtƒcƒkƒVŽ–ŒŒãA‚`‚h‚Ì‰üC‚É‚æ‚è¬l—«‚ÌlŠi‚É‚Ü‚Å¬’·‚µ‚½ˆÅ—³‚É‚Â‚¢‚Ä‚ÍA
-  ƒƒbƒZ[ƒW‚âƒpƒ‰ƒ[ƒ^‚É‚àŽáŠ±‚Ì•ÏX‚ª‚ ‚é‚½‚ßAƒpƒCƒƒbƒg‚Ìæ‚¹Š·‚¦‚Å‘Î‰ž‚µ‚Ä‚¢‚Ü‚·B
-  ¬à€‹’ƒVƒiƒŠƒI‚Å‚ÍˆÅ—³(Ž‚Žq‚Ì—‰¤)‚ðAFINAL€‹’ƒVƒiƒŠƒI‚Å‚ÍˆÅ—³‚ðŽg—p‚µ‚Ä‚­‚¾‚³‚¢B
-
-E“V—³_‚Ì•‘•uƒ_ƒuƒ‹ƒŠƒ€ƒIƒ“ƒOƒ‹v‚àFINAL‚Ì’Ç‰Á—v‘f‚Ì‚½‚ßA‰Šú‚ÍDisable‚ð„§B
-EŒZ‚½‚¿‚É‚­‚ç‚×ŽáŠ±‚Ì¬Œ^EŒy—Ê‰» ¨ HP-100 ‰^“®«+5
-
-Disable ƒ_ƒuƒ‹ƒŠƒ€ƒIƒ“ƒOƒ‹
-Disable “à‘ ’eŠÛ‚w
-
-Enable ƒ_ƒuƒ‹ƒŠƒ€ƒIƒ“ƒOƒ‹
-Enable “à‘ ’eŠÛ‚w
-
-œ¬àwŽ‚Žq‚Ì—‰¤x”Å
-Ý’èŽžFSetSkill Œõ—³ Ž‚Žq‚Ì—‰¤ -1 ”ñ•\Ž¦
-        SetSkill “V—³_ Ž‚Žq‚Ì—‰¤ -1 ”ñ•\Ž¦
-‰ðœŽžFClearSkill Œõ—³ Ž‚Žq‚Ì—‰¤
-        ClearSkill “V—³_ Ž‚Žq‚Ì—‰¤
-
-¦ wŽ‚Žq‚Ì—‰¤x‚ÅŒõ—³EˆÅ—³‚É‚ ‚Á‚½‚ÆŒ¾‚í‚ê‚éƒ[ƒU[ƒKƒ“Eƒ~ƒTƒCƒ‹ƒKƒ“‚É‚Â‚¢‚Ä‚ÍA
-   ¬à”­•\“–Žž‚ÌŽ‘—¿‚ð’²‚×‚Ä‚àA‚Ç‚¤‚µ‚Ä‚à‘¶Ý‚ÌŠm”F‚ªŽæ‚ê‚Ü‚¹‚ñ‚Å‚µ‚½B
-   ‘Î‰žƒf[ƒ^‚ÍŽQlƒf[ƒ^.txt“à‚ÉŽû˜^‚µA³Ž®•‘•‚Æ‚µ‚Ä‚ÌÌ—p‚ðŒ©‘—‚Á‚Ä‚¢‚Ü‚·B
-
-
-ŸƒAƒxƒ‹‚Ìˆâ‚¹‚µÐ‚¢
-EŒ´Ží‘åíŽž‚ÌƒVƒiƒŠƒI‚Å‚ÍƒWƒFƒCƒtƒFƒjƒbƒNƒX‚ÍDisableB
-EƒSƒ‹ƒfƒB‚Æ‚Ì‡‘Ì‹ZƒVƒ‹ƒoƒŠƒIƒ“ƒnƒ“ƒ}[‚ÍAM—Š“xÝ’è‚ð‚·‚é‚±‚Æ‚ÅŽg—p‰Â”\‚Å‚·B
-  ’Êí‚ÍDisable‚ð„§B
-
-Eƒ‹ƒl‚Æ‰ú“¹‚Í‚Ç‚¿‚ç‚ðæ‚Éæ‚¹‚Ä‚à‚©‚Ü‚¢‚Ü‚¹‚ñB
-  ‡”Ô‚ÉŠÖŒW‚È‚­ƒ_ƒCƒAƒƒO‚ª“®ì‚·‚é‚æ‚¤‚É‚È‚Á‚Ä‚¢‚Ü‚·B
-
-Disable ƒVƒ‹ƒoƒŠƒIƒ“ƒnƒ“ƒ}[
-Disable ƒWƒFƒCƒtƒFƒjƒbƒNƒX
-
-Enable ƒVƒ‹ƒoƒŠƒIƒ“ƒnƒ“ƒ}[
-Enable ƒWƒFƒCƒtƒFƒjƒbƒNƒX
-
-œƒVƒ‹ƒoƒŠƒIƒ“ƒnƒ“ƒ}[EM—Š“xÝ’è
-SetRelation ƒ\ƒ‹ƒ_[ƒg‚i-002 ƒSƒ‹ƒfƒB[ƒ}[ƒO 1
-SetRelation ƒSƒ‹ƒfƒB[ƒ}[ƒO ƒ\ƒ‹ƒ_[ƒg‚i-002 1
-
-EŽQlF•‘•ƒf[ƒ^(ˆê•”)
-‘Î‹óƒŒ[ƒU[–C               ”½’†ŠÔŽq–C‚Ì‘O•ûAƒWƒFƒCƒ_[Žž‚Ì’Üæ•”•ª‚É‘•”õB‚Q–åBì’†–¢Žg—pB¦
-“ñ˜A‘•‘Î’nƒŒ[ƒU[–C         ƒLƒ“ƒOƒWƒFƒCƒ_[‚Ì’Üæ•”•ª‚É‘Š“–B“ñ˜A‘•‚Ì–C–å‚ª•Ð‘«‚É‚Q‚Â‚¸‚ÂBì’†–¢Žg—pB
-ŽO˜A‘•–³ŒÀƒ~ƒTƒCƒ‹ƒ‰ƒ“ƒ`ƒƒ[ ƒWƒFƒCƒA[ƒN—¼Œ½ƒLƒ“ƒOƒWƒFƒCƒ_[Žž‚Ì‹r•”Bƒ[ƒU[ƒ~ƒTƒCƒ‹‚Ì”­ŽËŠÇB
-‚d‚rƒ~ƒTƒCƒ‹”­ŽËŠÇ           ƒXƒyƒbƒNã‚ÍƒWƒFƒCƒ_[‘¤‚É‚S–åBì’†‚Å‚ÍƒWƒFƒCƒLƒƒƒŠƒA[‚©‚ç‚à”­ŽËB
-“ñ˜A‘•”½’†ŠÔŽq–C             Žå–CB“ñ˜A‘•‚ª‚S–åB
-ŒÜ˜Aƒ[ƒU[–C               ƒLƒ“ƒOƒWƒFƒCƒ_[‚Ì—¼ŽèŽwæBŒv10–åB
-Œ¡ˆøƒr[ƒ€                   ƒWƒFƒCƒA[ƒNŠÍŽñ‚É‘•”õBŠO“`uŒõ‚ÆˆÅ‚Ì—ƒv‚Å‚Ì‚ÝŽg—pB–¢ƒf[ƒ^‰»B
-
-¦ –CŒû‚ª‚ ‚é‚±‚Æ‚¾‚¯‚ÍŠÔˆá‚¢‚È‚¢‚Ì‚Å•‘•‰»‚µ‚Ä‚¢‚Ü‚·‚ªA’P‚Éwƒ‰ƒ“ƒ`ƒƒ[x‚Æ‚Ì‚Ý‹LÚ‚µ‚Ä‚¢‚éŽ‘—¿‚à‚ ‚è‚Ü‚·B
-   ì’†‚ÅŽg—p‚³‚ê‚È‚©‚Á‚½‚±‚Æ‚à‚ ‚Á‚ÄA‚Í‚Á‚«‚è‚Æ‚µ‚½–¼Ì‚ÌŠm”F‚ª‚Æ‚ê‚Ä‚¢‚Ü‚¹‚ñB‰¼Ì‚É‹ß‚¢‚Å‚·B
-   ‚È‚¨Aƒf[ƒ^ãA‡‘ÌŒ`‘Ô‚Å‚Í‘Î‹óƒŒ[ƒU[–C‚Æ‘Î’nƒŒ[ƒU[–C‚ÍA‚Ü‚Æ‚ß‚ÄuƒŒ[ƒU[–Cv‚Æ‚µ‚Ä“‡‚µ‚Ä‚¢‚Ü‚·B
-
-
-Ÿ‚»‚Ì‘¼
-E¬à‚Ì•`ŽÊ‚âFINAL‚Å‚Ìí“¬‚ðŒ©‚Ä‚àAƒ‹ƒl‚ÌƒnƒCƒp[ƒ‚[ƒh‚Í”CˆÓ‚Å”­“®‚Å‚«‚é‚à‚Ì‚Å‚Í
-  ‚È‚¢‚ç‚µ‚­A‚Ù‚Ú‹ô‘R‚ÌŽY•¨‚Å‚·BÏ‹É“I‚ÉDisable‚ð„§‚µ‚Ü‚·B
-  ‚Å‚«‚ê‚ÎƒCƒxƒ“ƒgŽg—p‚ª–]‚Ü‚µ‚¢‚Å‚·B
-
-Disable ƒ‹ƒlƒJ[ƒfƒBƒt ƒnƒCƒp[ƒ‚[ƒh
-
-Enable ƒ‹ƒlƒJ[ƒfƒBƒt ƒnƒCƒp[ƒ‚[ƒh
-
-
-¦ ŽQlFƒ‹ƒl‚ÌŽg—peŠí
-             ì’†‚ÅŠm”F‚Å‚«‚é‚à‚Ì‚ð—ñ‹LB‚Æ‚Ä‚à‚·‚×‚Ä‚Íƒf[ƒ^‰»‚µ‚«‚ê‚Ü‚¹‚ñB
-@    –¼Ì                   ‰o               ”õl
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-ƒXƒ}ƒCƒ\ƒ“                Ž‚Žq‚Ì—‰¤   ƒXƒ~ƒX&ƒEƒFƒbƒ\ƒ“‚ÉƒpƒCƒ\ƒ“‚ÌƒoƒŒƒ‹‚ð‘g‚Ý‚ ‚í‚¹‚½‰ü‘¢e
-357ƒ}ƒOƒiƒ€EƒXƒyƒVƒƒƒ‹   Ž‚Žq‚Ì—‰¤   —ò‰»ƒEƒ‰ƒjƒEƒ€’e‚ðŽg—p
-10mmƒI[ƒgƒ}ƒVƒ“ƒKƒ“      Ž‚Žq‚Ì—‰¤
-ƒnƒ“ƒfƒBTOW               Ž‚Žq‚Ì—‰¤   ‘ÎíŽÔƒ~ƒTƒCƒ‹
-ƒŒƒ~ƒ“ƒgƒ“M40A1           Ž‚Žq‚Ì—‰¤   ƒAƒƒŠƒJŠC•º‘àŽd—l‚ÌƒXƒiƒCƒp[ƒ‰ƒCƒtƒ‹
-Œg‘Ñƒ‰ƒ“ƒ`ƒƒ[            Ž‚Žq‚Ì—‰¤   ƒoƒCƒIƒlƒbƒgEƒgƒD[ƒ‹[ƒYŽx•”‚ð‰ó–ÅŽž‚É‰ŸŽûE‰B“½‚µ‚½¬Œ^ípŠj
-                                       í“¬’†‚É‘g‚Ý—§‚Ä‚½‚à‚Ì‚ÌA–¢Žg—p‚ÉI‚í‚é
-FNƒtƒ@ƒCƒuƒZƒuƒ“‰ü        FINAL ‚PŠª   ƒnƒ“ƒhƒKƒ“ ‚Q’šŽg—p
-MINIMIŒy‹@ŠÖe            FINAL ‚PŠª
-ƒOƒŒƒl[ƒhƒ‰ƒ“ƒ`ƒƒ[      FINAL ‚PŠª
-’†Œ^ƒ~ƒTƒCƒ‹ƒ‰ƒ“ƒ`ƒƒ[    FINAL ‚PŠª   115mm
-‘åŒ^ƒƒPƒbƒgƒ‰ƒ“ƒ`ƒƒ[    FINAL ‚PŠª   155mm‘ÎíŽÔ–C Žg‚¢ŽÌ‚Ä
-—±Žqƒr[ƒ€ƒ‰ƒ“ƒ`ƒƒ[      FINAL ‚QŠª
-ƒXƒpƒX12‰ü                FINAL ‚UŠª   ƒVƒ‡ƒbƒgƒKƒ“  ƒVƒ‡[ƒgƒoƒŒƒ‹AƒXƒgƒbƒN‚È‚µB
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-
-
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-Ÿ“Gƒ†ƒjƒbƒg‘S”Ê
-E–¾‚ç‚©‚É‹ó‚ð”ò‚Î‚È‚¢ƒ†ƒjƒbƒg‚Å‚à‹ó“K‰ž‚ª‚Â‚¢‚Ä‚¢‚éê‡‚ª‚ ‚è‚Ü‚·‚ªA“K‰ž-‚¾‚Æ
-  ƒKƒIƒKƒCƒK[‚ÉŠi“¬UŒ‚‚ª‚µ‚©‚¯‚ç‚ê‚È‚¢‚½‚ß‚Å‚·B
-
-E–Ø¯‚Ì‰q¯‚É—Z‡‚µ‚½Œ´Ží‚â‚yƒ}ƒXƒ^[‚È‚ÇA‚ ‚Ü‚è‚É‹‘å‚·‚¬‚Ä‰F’ˆ‚Å‚µ‚©‘¶Ý‚Å‚«‚È‚¢‚æ‚¤‚È‚à‚Ì‚àA
-  ƒQ[ƒ€“Iˆ—‚Æ‚µ‚ÄˆÚ“®ƒ^ƒCƒv‚ðu‹óv‚É‚µ‚Ä‚¢‚Ü‚·B
-  ‚±‚¾‚í‚é•û‚Íu‰F’ˆv‚É•ÏX‚µ‚Ä‚­‚¾‚³‚¢B
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-Ÿ‹@ŠE¶–½‘Ì
-@@‘f‘Ì      ƒ]ƒ“ƒ_[ccLv1  Œ´ŽíccLv2  ‹@ŠEŽl“V‰¤EÅ‹­‚VŒ´Ží‚È‚ÇccLv3  ‚yƒ}ƒXƒ^[^ƒ]ƒk[ƒ_ccLv4
-    ƒoƒŠƒA    ƒ]ƒ“ƒ_[ƒƒ{ccLv2   Œ´ŽíccLv3   ‚yƒ}ƒXƒ^[^ƒ]ƒk[ƒ_ccLv4
-    ‚g‚o‰ñ•œ  ƒ]ƒ“ƒ_[ƒƒ{ccLv1   Œ´ŽíccLv2   ‚yƒ}ƒXƒ^[^ƒ]ƒk[ƒ_ccLv3
-    ƒr[ƒ€    ƒ]ƒ“ƒ_[ƒƒ{ccUŒ‚—Í1400(Žl“V‰¤1500) ŽË’ö3  Œ´ŽíccUŒ‚—Í1700 ŽË’ö4
-
-EƒoƒŠƒA‚ÅÁ”ï‚µ‚Ä‚µ‚Ü‚¤‚±‚Æ‚ðl—¶‚µA‘S‘Ì“I‚É‚d‚m‚Í‚â‚â‚‚ßB
-  ƒ]ƒ“ƒ_[ƒƒ{‚ÍŠî–{170B
-  ‚Ì‚¿‚É‚f‚f‚f‚ÉŽQ‰Á‚µ‚½ŽO”ŽŽm‚Ìƒ]ƒ“ƒ_[(‚d‚h|‚P‚QA‚d‚h|‚P‚TA‚d‚h|‚Q‚O)‚âA
-  ‡‘Ìƒ]ƒ“ƒ_[A‹@ŠEŽl“V‰¤‚È‚Ç‚ª200B‚d‚h|‚O‚P‚ª250B
-  ‰½‚Æ‚à—Z‡‚µ‚Ä‚¢‚È‚¢Œ´Ží(ƒIƒuƒWƒFŒ`‘Ô‚¨‚æ‚Ñ‚O‚P`‚O‚R)‚Í200B—Z‡‚µ‚Ä250B
-  Œ´Ží—Z‡‚Ü‚½‚Í‰q¯ƒNƒ‰ƒX‚Å300BÅ‹­‚UŒ´Ží‚Ì‡‘Ì‚Å350B
-  ‚yƒ}ƒXƒ^[‚Í400B
-
-EŒ´Ží‚ÌƒoƒŠƒA‚ÍA‘o•û‚Æ‚à–³‰ü‘¢E‹C—Í100‚Ì‚Æ‚«AƒŒƒxƒ‹30‘OŒã‚ÌƒKƒC‚ª
-  UŒ‚—Í1900‚ÌƒuƒƒEƒNƒ“ƒ}ƒOƒiƒ€‚ÅƒMƒŠƒMƒŠ”j‚ê‚é‚­‚ç‚¢‚ÉÝ’è‚µ‚Ä‚¢‚Ü‚·B
-  (‘OŠúŒ^)‚ÌUŒ‚—Í1700‚ÌƒuƒƒEƒNƒ“ƒ}ƒOƒiƒ€‚Å‚ÍAƒNƒŠƒeƒBƒJƒ‹‚µ‚È‚¯‚ê‚Î–³—‚¾‚ÆŽv‚Á‚Ä‚­‚¾‚³‚¢B
-
-Eƒ_ƒ~[”\—Íu‘f—±Žq‚y‚Ov‚ÍƒƒbƒZ[ƒW§Œä—pB
-  (‘Îƒ]ƒ“ƒ_[ƒƒ{)‚ÅŽw’è‚µ‚½ê‡A‹@ŠEŽl“V‰¤‚âƒpƒXƒ_[‚Ü‚Åuƒ]ƒ“ƒ_[v‚ÆŒÄ‚ñ‚Å‚µ‚Ü‚¤‚½‚ßA
-  ‚±‚ê‚ð”ð‚¯‚é‚½‚ß‚Ìˆ’u‚Å‚·B
-
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-Ÿƒ\[ƒ‹‚P‚P—V¯Žå
-
-EƒVƒiƒŠƒI‚Ì“WŠJ‚É‚æ‚Á‚Ä‚ÍA–¡•û‚É‰ú“¹‚ª‚¢‚éó‘Ô‚ÅƒsƒAEƒfƒPƒ€‚Æí‚¤ê‡‚ª‚È‚¢‚Æ‚àŒÀ‚è‚Ü‚¹‚ñB
-  ‚»‚±‚ÅA’Êí‚Í‰ú“¹‚Éƒ_ƒ[ƒW‚ª‚¢‚­‚æ‚¤‚Èƒ_ƒCƒAƒƒO‚Í‘I‘ð‚³‚ê‚È‚¢‚æ‚¤‚É‚È‚Á‚Ä‚¢‚Ü‚·B
-  FINALI”Õ‚ðÄŒ»‚È‚³‚è‚½‚¢ê‡‚ÍAƒsƒAEƒfƒPƒ€‚ÉSetSkill‚ÅwƒƒbƒZ[ƒWƒNƒ‰ƒX=¶‘Ì•ºŠíƒAƒ‹ƒ}x‚ð
-  •t‰Á‚µ‚Ä‚­‚¾‚³‚¢B
-  ƒAƒCƒeƒ€w¶‘Ì•ºŠíƒAƒ‹ƒ}x‚ð‘•”õ‚³‚¹‚é‚±‚Æ‚Å‚à“¯—l‚ÌŒø‰Ê‚ª“¾‚ç‚ê‚Ü‚·B
-
-Ý’èŽžFSetSkill ƒ\[ƒ‹‚P‚P—V¯ŽåƒsƒAEƒfƒPƒ€(”Ä—p) ƒƒbƒZ[ƒWƒNƒ‰ƒX=¶‘Ì•ºŠíƒAƒ‹ƒ} -1 ”ñ•\Ž¦
-‰ðœŽžFClearSkill ƒ\[ƒ‹‚P‚P—V¯ŽåƒsƒAEƒfƒPƒ€(”Ä—p) ƒƒbƒZ[ƒWƒNƒ‰ƒX=¶‘Ì•ºŠíƒAƒ‹ƒ} -1 ”ñ•\Ž¦
-
-
-=============================================================================================================
-¡ƒnƒCƒp[ƒc[ƒ‹ƒtƒH[ƒ}ƒbƒg               ¦ •KŽEƒc[ƒ‹‚ÍƒEƒ‹ƒeƒNƒGƒ“ƒWƒ““‹ÚŒã‚Ì”’l
-
-ƒfƒBƒoƒCƒfƒBƒ“ƒOƒhƒ‰ƒCƒo[,  0,  1,  1,  +0,  -,  15, 105, AAAA, +25, –³“ËŽ~
-ƒKƒgƒŠƒ“ƒOƒhƒ‰ƒCƒo[,        0,  1,  1,  +0,  -,  20, 110, AAAA, +20, –³“Ë”›
-ƒfƒBƒƒ“ƒWƒ‡ƒ“ƒvƒ‰ƒCƒ„[,    0,  1,  1, +10,  -,  30, 110, AAAA, +30, –³“Ë’†
-ƒ‚ƒŒƒLƒ…ƒ‹ƒvƒ‰[ƒl,       2500,  1,  1, +15,  8,   -, 120, AAAA, -10, ÚÄL8
-ƒSƒ‹ƒfƒBƒIƒ“ƒnƒ“ƒ}[,     3500,  1,  1, +15,  -,  60, 130, AAAA, -10, Úòd
-ƒOƒ‰ƒ“ƒhƒvƒŒƒbƒVƒƒ[,     3600,  1,  1, +20,  1,   -, 130, AAAA,  +0, òŽE‚p
-ƒSƒ‹ƒfƒBƒIƒ“ƒNƒ‰ƒbƒVƒƒ[, 4600,  1,  1, +15,  -, 200, 140, AAAA, -10, ÚòdÁ
-
-ƒ{ƒ‹ƒeƒBƒ“ƒOƒhƒ‰ƒCƒo[.P,    0,  1,  1,  +0,  -,  20, 110, AAAA, +30, –³“Ë”›’†
-ƒ{ƒ‹ƒeƒBƒ“ƒOƒhƒ‰ƒCƒo[.G, 1600,  1,  3,  +0,  -,  50, 110, AAAA,  +0, Ši‚l‘S
-ƒ{ƒ‹ƒeƒBƒ“ƒOƒhƒ‰ƒCƒo[.B, 2100,  1,  1,  +0,  -,  30, 110, AAAA, +20, “ËŠÑ
-ƒEƒBƒ‹ƒiƒCƒt,             2500,  1,  1, +10,  -,  20, 110, AAAA, +10, •
-
-E‚Q–{‚Ìƒhƒ‰ƒCƒo[‚Æƒvƒ‰ƒCƒ„[‚É‚ÍAƒvƒƒeƒNƒgƒ{ƒ‹ƒg‚ÌŒø‰Ê‚ð•ªŽU‚µ‚ÄŽ‚½‚¹‚Ä‚¢‚Ü‚·B
-  cc‚Ç‚¿‚ç‚©‚Æ‚¢‚¤‚ÆƒvƒƒeƒNƒgƒ{ƒ‹ƒg‚É‘Sæ‚¹‚µ‚Ä‚¢‚é‚Æ‚¢‚¤‚Ì‚ª³‰ðB
-EƒfƒBƒoƒCƒfƒBƒ“ƒOƒhƒ‰ƒCƒo[‚ÆƒKƒgƒŠƒ“ƒOƒhƒ‰ƒCƒo[‚É«”\·‚ð‚Â‚¯‚Ä‚¢‚Ü‚·B
-  ‚Ù‚ñ‚Ì­‚µƒNƒŠƒeƒBƒJƒ‹‚µ‚â‚·‚­A‚d‚mÁ”ï‚ª­‚È‚¢‚ªAŒø‰Ê‚ª¬‚³‚¢ƒfƒBƒoƒCƒfƒBƒ“ƒOB
-  Œø‰Ê‚Í‘å‚«‚¢‚ªƒNƒŠƒeƒBƒJƒ‹‚µ‚É‚­‚­A‚d‚mÁ”ï‚à‘½‚¢ƒKƒgƒŠƒ“ƒO‚Æ‚¢‚¤‹æ•ÊB
-EƒfƒBƒƒ“ƒWƒ‡ƒ“ƒvƒ‰ƒCƒ„[‚ÍA–{—ˆAˆÙí‚È‹óŠÔ‚ðC•œ‚µ‚½‚èA‚±‚¶ŠJ‚¯‚½‚è‚·‚éƒc[ƒ‹‚Å‚·‚ªA
-  ‘Î‚d‚h|‚O‚Pí‚É‚¨‚¢‚Ä‚ÍA‚±‚Ì‰ž—p‚ÅƒoƒŠƒA‚ðˆø‚«‚Í‚ª‚»‚¤‚Æ‚µ‚Ü‚µ‚½B
-  ‘ŠŽè‚ÌƒGƒlƒ‹ƒM[‚ª‚‚·‚¬‚½‚½‚ßŽ¸”s‚ÉI‚í‚è‚Ü‚µ‚½‚ªA•’Ê‚Ìƒ]ƒ“ƒ_[‚É‚Í—LŒø‚¾‚ë‚¤‚Æ‚¢‚¤‰ðŽß‚©‚ç
-  ƒoƒŠƒA’†˜a•Ší‚Æ‚µ‚Äƒf[ƒ^‰»‚µ‚Ä‚¢‚Ü‚·B
-EƒOƒ‰ƒ“ƒhƒvƒŒƒbƒVƒƒ[‚ÍˆÚ“®ŒãUŒ‚•s‰ÂB
-  ƒSƒ‹ƒfƒBƒIƒ“ƒnƒ“ƒ}[‚âƒ‚ƒŒƒLƒ…ƒ‹ƒvƒ‰[ƒlˆÈã‚É‹‘å‚Èƒc[ƒ‹‚Å‚ ‚é‚±‚Æ‚âA
-  —Bˆê‚ÌŽg—p—á‚ªw“G‚ª”ò‚Ñž‚ñ‚Å‚­‚é‚Ì‚ð‘Ò‚¿\‚¦‚Ä•Â‚¶ž‚ß‚éx‚à‚Ì‚Å‚ ‚Á‚½‚½‚ßA‚»‚ÌÄŒ»‚Å‚·B
+â—†ç«œå§‰å¦¹
+ãƒ»å°èª¬ã€Žç…å­ã®å¥³çŽ‹ã€ã‹ã‚‰FINALé–‹å§‹ã¾ã§ã®é–“ã«ã€ä¸€éƒ¨ã®æ­¦è£…ãŒæ”¹åã•ã‚Œã¦ã„ã¾ã™ã€‚
+  å…‰ç«œãŠã‚ˆã³å¤©ç«œç¥žã«ã€Žç…å­ã®å¥³çŽ‹ã€ã‚’ä»˜åŠ ã™ã‚‹ã“ã¨ã§ã€å°èª¬ç‰ˆã®å†ç¾ãŒå¯èƒ½ã§ã™ã€‚
+  è©³ç´°ã¯pilot.txtã®æ³¨é‡ˆã‚‚å‚ç…§ã—ã¦ãã ã•ã„ã€‚
+ãƒ»ãƒ•ãƒ„ãƒŒã‚·äº‹ä»¶å¾Œã€ï¼¡ï¼©ã®æ”¹ä¿®ã«ã‚ˆã‚Šæˆäººå¥³æ€§ã®äººæ ¼ã«ã¾ã§æˆé•·ã—ãŸé—‡ç«œã«ã¤ã„ã¦ã¯ã€
+  ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚„ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã«ã‚‚è‹¥å¹²ã®å¤‰æ›´ãŒã‚ã‚‹ãŸã‚ã€ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆã®ä¹—ã›æ›ãˆã§å¯¾å¿œã—ã¦ã„ã¾ã™ã€‚
+  å°èª¬æº–æ‹ ã‚·ãƒŠãƒªã‚ªã§ã¯é—‡ç«œ(ç…å­ã®å¥³çŽ‹)ã‚’ã€FINALæº–æ‹ ã‚·ãƒŠãƒªã‚ªã§ã¯é—‡ç«œã‚’ä½¿ç”¨ã—ã¦ãã ã•ã„ã€‚
+
+ãƒ»å¤©ç«œç¥žã®æ­¦è£…ã€Œãƒ€ãƒ–ãƒ«ãƒªãƒ ã‚ªãƒ³ã‚°ãƒ«ã€ã‚‚FINALã®è¿½åŠ è¦ç´ ã®ãŸã‚ã€åˆæœŸã¯Disableã‚’æŽ¨å¥¨ã€‚
+ãƒ»å…„ãŸã¡ã«ãã‚‰ã¹è‹¥å¹²ã®å°åž‹ãƒ»è»½é‡åŒ– â†’ HP-100 é‹å‹•æ€§+5
+
+Disable ãƒ€ãƒ–ãƒ«ãƒªãƒ ã‚ªãƒ³ã‚°ãƒ«
+Disable å†…è”µå¼¾ä¸¸ï¼¸
+
+Enable ãƒ€ãƒ–ãƒ«ãƒªãƒ ã‚ªãƒ³ã‚°ãƒ«
+Enable å†…è”µå¼¾ä¸¸ï¼¸
+
+â—å°èª¬ã€Žç…å­ã®å¥³çŽ‹ã€ç‰ˆ
+è¨­å®šæ™‚ï¼šSetSkill å…‰ç«œ ç…å­ã®å¥³çŽ‹ -1 éžè¡¨ç¤º
+        SetSkill å¤©ç«œç¥ž ç…å­ã®å¥³çŽ‹ -1 éžè¡¨ç¤º
+è§£é™¤æ™‚ï¼šClearSkill å…‰ç«œ ç…å­ã®å¥³çŽ‹
+        ClearSkill å¤©ç«œç¥ž ç…å­ã®å¥³çŽ‹
+
+â€» ã€Žç…å­ã®å¥³çŽ‹ã€ã§å…‰ç«œãƒ»é—‡ç«œã«ã‚ã£ãŸã¨è¨€ã‚ã‚Œã‚‹ãƒ¡ãƒ¼ã‚¶ãƒ¼ã‚¬ãƒ³ãƒ»ãƒŸã‚µã‚¤ãƒ«ã‚¬ãƒ³ã«ã¤ã„ã¦ã¯ã€
+   å°èª¬ç™ºè¡¨å½“æ™‚ã®è³‡æ–™ã‚’èª¿ã¹ã¦ã‚‚ã€ã©ã†ã—ã¦ã‚‚å­˜åœ¨ã®ç¢ºèªãŒå–ã‚Œã¾ã›ã‚“ã§ã—ãŸã€‚
+   å¯¾å¿œãƒ‡ãƒ¼ã‚¿ã¯å‚è€ƒãƒ‡ãƒ¼ã‚¿.txtå†…ã«åŽéŒ²ã—ã€æ­£å¼æ­¦è£…ã¨ã—ã¦ã®æŽ¡ç”¨ã‚’è¦‹é€ã£ã¦ã„ã¾ã™ã€‚
+
+
+â—†ã‚¢ãƒ™ãƒ«ã®éºã›ã—ç½ã„
+ãƒ»åŽŸç¨®å¤§æˆ¦æ™‚ã®ã‚·ãƒŠãƒªã‚ªã§ã¯ã‚¸ã‚§ã‚¤ãƒ•ã‚§ãƒ‹ãƒƒã‚¯ã‚¹ã¯Disableã€‚
+ãƒ»ã‚´ãƒ«ãƒ‡ã‚£ã¨ã®åˆä½“æŠ€ã‚·ãƒ«ãƒãƒªã‚ªãƒ³ãƒãƒ³ãƒžãƒ¼ã¯ã€ä¿¡é ¼åº¦è¨­å®šã‚’ã™ã‚‹ã“ã¨ã§ä½¿ç”¨å¯èƒ½ã§ã™ã€‚
+  é€šå¸¸ã¯Disableã‚’æŽ¨å¥¨ã€‚
+
+ãƒ»ãƒ«ãƒã¨æˆ’é“ã¯ã©ã¡ã‚‰ã‚’å…ˆã«ä¹—ã›ã¦ã‚‚ã‹ã¾ã„ã¾ã›ã‚“ã€‚
+  é †ç•ªã«é–¢ä¿‚ãªããƒ€ã‚¤ã‚¢ãƒ­ã‚°ãŒå‹•ä½œã™ã‚‹ã‚ˆã†ã«ãªã£ã¦ã„ã¾ã™ã€‚
+
+Disable ã‚·ãƒ«ãƒãƒªã‚ªãƒ³ãƒãƒ³ãƒžãƒ¼
+Disable ã‚¸ã‚§ã‚¤ãƒ•ã‚§ãƒ‹ãƒƒã‚¯ã‚¹
+
+Enable ã‚·ãƒ«ãƒãƒªã‚ªãƒ³ãƒãƒ³ãƒžãƒ¼
+Enable ã‚¸ã‚§ã‚¤ãƒ•ã‚§ãƒ‹ãƒƒã‚¯ã‚¹
+
+â—ã‚·ãƒ«ãƒãƒªã‚ªãƒ³ãƒãƒ³ãƒžãƒ¼ãƒ»ä¿¡é ¼åº¦è¨­å®š
+SetRelation ã‚½ãƒ«ãƒ€ãƒ¼ãƒˆï¼ª-002 ã‚´ãƒ«ãƒ‡ã‚£ãƒ¼ãƒžãƒ¼ã‚° 1
+SetRelation ã‚´ãƒ«ãƒ‡ã‚£ãƒ¼ãƒžãƒ¼ã‚° ã‚½ãƒ«ãƒ€ãƒ¼ãƒˆï¼ª-002 1
+
+ãƒ»å‚è€ƒï¼šæ­¦è£…ãƒ‡ãƒ¼ã‚¿(ä¸€éƒ¨)
+å¯¾ç©ºãƒ¬ãƒ¼ã‚¶ãƒ¼ç ²               åä¸­é–“å­ç ²ã®å‰æ–¹ã€ã‚¸ã‚§ã‚¤ãƒ€ãƒ¼æ™‚ã®çˆªå…ˆéƒ¨åˆ†ã«è£…å‚™ã€‚ï¼’é–€ã€‚ä½œä¸­æœªä½¿ç”¨ã€‚â€»
+äºŒé€£è£…å¯¾åœ°ãƒ¬ãƒ¼ã‚¶ãƒ¼ç ²         ã‚­ãƒ³ã‚°ã‚¸ã‚§ã‚¤ãƒ€ãƒ¼ã®çˆªå…ˆéƒ¨åˆ†ã«ç›¸å½“ã€‚äºŒé€£è£…ã®ç ²é–€ãŒç‰‡è¶³ã«ï¼’ã¤ãšã¤ã€‚ä½œä¸­æœªä½¿ç”¨ã€‚
+ä¸‰é€£è£…ç„¡é™ãƒŸã‚µã‚¤ãƒ«ãƒ©ãƒ³ãƒãƒ£ãƒ¼ ã‚¸ã‚§ã‚¤ã‚¢ãƒ¼ã‚¯ä¸¡èˆ·ï¼ã‚­ãƒ³ã‚°ã‚¸ã‚§ã‚¤ãƒ€ãƒ¼æ™‚ã®è„šéƒ¨ã€‚ãƒ¡ãƒ¼ã‚¶ãƒ¼ãƒŸã‚µã‚¤ãƒ«ã®ç™ºå°„ç®¡ã€‚
+ï¼¥ï¼³ãƒŸã‚µã‚¤ãƒ«ç™ºå°„ç®¡           ã‚¹ãƒšãƒƒã‚¯ä¸Šã¯ã‚¸ã‚§ã‚¤ãƒ€ãƒ¼å´ã«ï¼”é–€ã€‚ä½œä¸­ã§ã¯ã‚¸ã‚§ã‚¤ã‚­ãƒ£ãƒªã‚¢ãƒ¼ã‹ã‚‰ã‚‚ç™ºå°„ã€‚
+äºŒé€£è£…åä¸­é–“å­ç ²             ä¸»ç ²ã€‚äºŒé€£è£…ãŒï¼”é–€ã€‚
+äº”é€£ãƒ¡ãƒ¼ã‚¶ãƒ¼ç ²               ã‚­ãƒ³ã‚°ã‚¸ã‚§ã‚¤ãƒ€ãƒ¼ã®ä¸¡æ‰‹æŒ‡å…ˆã€‚è¨ˆ10é–€ã€‚
+ç‰½å¼•ãƒ“ãƒ¼ãƒ                    ã‚¸ã‚§ã‚¤ã‚¢ãƒ¼ã‚¯è‰¦é¦–ã«è£…å‚™ã€‚å¤–ä¼ã€Œå…‰ã¨é—‡ã®ç¿¼ã€ã§ã®ã¿ä½¿ç”¨ã€‚æœªãƒ‡ãƒ¼ã‚¿åŒ–ã€‚
+
+â€» ç ²å£ãŒã‚ã‚‹ã“ã¨ã ã‘ã¯é–“é•ã„ãªã„ã®ã§æ­¦è£…åŒ–ã—ã¦ã„ã¾ã™ãŒã€å˜ã«ã€Žãƒ©ãƒ³ãƒãƒ£ãƒ¼ã€ã¨ã®ã¿è¨˜è¼‰ã—ã¦ã„ã‚‹è³‡æ–™ã‚‚ã‚ã‚Šã¾ã™ã€‚
+   ä½œä¸­ã§ä½¿ç”¨ã•ã‚Œãªã‹ã£ãŸã“ã¨ã‚‚ã‚ã£ã¦ã€ã¯ã£ãã‚Šã¨ã—ãŸåç§°ã®ç¢ºèªãŒã¨ã‚Œã¦ã„ã¾ã›ã‚“ã€‚ä»®ç§°ã«è¿‘ã„ã§ã™ã€‚
+   ãªãŠã€ãƒ‡ãƒ¼ã‚¿ä¸Šã€åˆä½“å½¢æ…‹ã§ã¯å¯¾ç©ºãƒ¬ãƒ¼ã‚¶ãƒ¼ç ²ã¨å¯¾åœ°ãƒ¬ãƒ¼ã‚¶ãƒ¼ç ²ã¯ã€ã¾ã¨ã‚ã¦ã€Œãƒ¬ãƒ¼ã‚¶ãƒ¼ç ²ã€ã¨ã—ã¦çµ±åˆã—ã¦ã„ã¾ã™ã€‚
+
+
+â—†ãã®ä»–
+ãƒ»å°èª¬ã®æå†™ã‚„FINALã§ã®æˆ¦é—˜ã‚’è¦‹ã¦ã‚‚ã€ãƒ«ãƒã®ãƒã‚¤ãƒ‘ãƒ¼ãƒ¢ãƒ¼ãƒ‰ã¯ä»»æ„ã§ç™ºå‹•ã§ãã‚‹ã‚‚ã®ã§ã¯
+  ãªã„ã‚‰ã—ãã€ã»ã¼å¶ç„¶ã®ç”£ç‰©ã§ã™ã€‚ç©æ¥µçš„ã«Disableã‚’æŽ¨å¥¨ã—ã¾ã™ã€‚
+  ã§ãã‚Œã°ã‚¤ãƒ™ãƒ³ãƒˆä½¿ç”¨ãŒæœ›ã¾ã—ã„ã§ã™ã€‚
+
+Disable ãƒ«ãƒï¼ã‚«ãƒ¼ãƒ‡ã‚£ãƒ• ãƒã‚¤ãƒ‘ãƒ¼ãƒ¢ãƒ¼ãƒ‰
+
+Enable ãƒ«ãƒï¼ã‚«ãƒ¼ãƒ‡ã‚£ãƒ• ãƒã‚¤ãƒ‘ãƒ¼ãƒ¢ãƒ¼ãƒ‰
+
+
+â€» å‚è€ƒï¼šãƒ«ãƒã®ä½¿ç”¨éŠƒå™¨
+             ä½œä¸­ã§ç¢ºèªã§ãã‚‹ã‚‚ã®ã‚’åˆ—è¨˜ã€‚ã¨ã¦ã‚‚ã™ã¹ã¦ã¯ãƒ‡ãƒ¼ã‚¿åŒ–ã—ãã‚Œã¾ã›ã‚“ã€‚
+ã€€    åç§°                   åˆå‡º               å‚™è€ƒ
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ã‚¹ãƒžã‚¤ã‚½ãƒ³                ç…å­ã®å¥³çŽ‹   ã‚¹ãƒŸã‚¹&ã‚¦ã‚§ãƒƒã‚½ãƒ³ã«ãƒ‘ã‚¤ã‚½ãƒ³ã®ãƒãƒ¬ãƒ«ã‚’çµ„ã¿ã‚ã‚ã›ãŸæ”¹é€ éŠƒ
+357ãƒžã‚°ãƒŠãƒ ãƒ»ã‚¹ãƒšã‚·ãƒ£ãƒ«   ç…å­ã®å¥³çŽ‹   åŠ£åŒ–ã‚¦ãƒ©ãƒ‹ã‚¦ãƒ å¼¾ã‚’ä½¿ç”¨
+10mmã‚ªãƒ¼ãƒˆãƒžã‚·ãƒ³ã‚¬ãƒ³      ç…å­ã®å¥³çŽ‹
+ãƒãƒ³ãƒ‡ã‚£TOW               ç…å­ã®å¥³çŽ‹   å¯¾æˆ¦è»ŠãƒŸã‚µã‚¤ãƒ«
+ãƒ¬ãƒŸãƒ³ãƒˆãƒ³M40A1           ç…å­ã®å¥³çŽ‹   ã‚¢ãƒ¡ãƒªã‚«æµ·å…µéšŠä»•æ§˜ã®ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼ãƒ©ã‚¤ãƒ•ãƒ«
+æºå¸¯ãƒ©ãƒ³ãƒãƒ£ãƒ¼            ç…å­ã®å¥³çŽ‹   ãƒã‚¤ã‚ªãƒãƒƒãƒˆãƒ»ãƒˆã‚¥ãƒ¼ãƒ«ãƒ¼ã‚ºæ”¯éƒ¨ã‚’å£Šæ»…æ™‚ã«æŠ¼åŽãƒ»éš åŒ¿ã—ãŸå°åž‹æˆ¦è¡“æ ¸
+                                       æˆ¦é—˜ä¸­ã«çµ„ã¿ç«‹ã¦ãŸã‚‚ã®ã®ã€æœªä½¿ç”¨ã«çµ‚ã‚ã‚‹
+FNãƒ•ã‚¡ã‚¤ãƒ–ã‚»ãƒ–ãƒ³æ”¹        FINAL ï¼‘å·»   ãƒãƒ³ãƒ‰ã‚¬ãƒ³ ï¼’ä¸ä½¿ç”¨
+MINIMIè»½æ©Ÿé–¢éŠƒ            FINAL ï¼‘å·»
+ã‚°ãƒ¬ãƒãƒ¼ãƒ‰ãƒ©ãƒ³ãƒãƒ£ãƒ¼      FINAL ï¼‘å·»
+ä¸­åž‹ãƒŸã‚µã‚¤ãƒ«ãƒ©ãƒ³ãƒãƒ£ãƒ¼    FINAL ï¼‘å·»   115mm
+å¤§åž‹ãƒ­ã‚±ãƒƒãƒˆãƒ©ãƒ³ãƒãƒ£ãƒ¼    FINAL ï¼‘å·»   155mmå¯¾æˆ¦è»Šç ² ä½¿ã„æ¨ã¦
+ç²’å­ãƒ“ãƒ¼ãƒ ãƒ©ãƒ³ãƒãƒ£ãƒ¼      FINAL ï¼’å·»
+ã‚¹ãƒ‘ã‚¹12æ”¹                FINAL ï¼–å·»   ã‚·ãƒ§ãƒƒãƒˆã‚¬ãƒ³  ã‚·ãƒ§ãƒ¼ãƒˆãƒãƒ¬ãƒ«ã€ã‚¹ãƒˆãƒƒã‚¯ãªã—ã€‚
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+
+
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+â—†æ•µãƒ¦ãƒ‹ãƒƒãƒˆå…¨èˆ¬
+ãƒ»æ˜Žã‚‰ã‹ã«ç©ºã‚’é£›ã°ãªã„ãƒ¦ãƒ‹ãƒƒãƒˆã§ã‚‚ç©ºé©å¿œãŒã¤ã„ã¦ã„ã‚‹å ´åˆãŒã‚ã‚Šã¾ã™ãŒã€é©å¿œ-ã ã¨
+  ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ã«æ ¼é—˜æ”»æ’ƒãŒã—ã‹ã‘ã‚‰ã‚Œãªã„ãŸã‚ã§ã™ã€‚
+
+ãƒ»æœ¨æ˜Ÿã®è¡›æ˜Ÿã«èžåˆã—ãŸåŽŸç¨®ã‚„ï¼ºãƒžã‚¹ã‚¿ãƒ¼ãªã©ã€ã‚ã¾ã‚Šã«å·¨å¤§ã™ãŽã¦å®‡å®™ã§ã—ã‹å­˜åœ¨ã§ããªã„ã‚ˆã†ãªã‚‚ã®ã‚‚ã€
+  ã‚²ãƒ¼ãƒ çš„å‡¦ç†ã¨ã—ã¦ç§»å‹•ã‚¿ã‚¤ãƒ—ã‚’ã€Œç©ºã€ã«ã—ã¦ã„ã¾ã™ã€‚
+  ã“ã ã‚ã‚‹æ–¹ã¯ã€Œå®‡å®™ã€ã«å¤‰æ›´ã—ã¦ãã ã•ã„ã€‚
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+â—†æ©Ÿç•Œç”Ÿå‘½ä½“
+ã€€ã€€ç´ ä½“      ã‚¾ãƒ³ãƒ€ãƒ¼â€¦â€¦Lv1  åŽŸç¨®â€¦â€¦Lv2  æ©Ÿç•Œå››å¤©çŽ‹ãƒ»æœ€å¼·ï¼—åŽŸç¨®ãªã©â€¦â€¦Lv3  ï¼ºãƒžã‚¹ã‚¿ãƒ¼ï¼ã‚¾ãƒŒãƒ¼ãƒ€â€¦â€¦Lv4
+    ãƒãƒªã‚¢    ã‚¾ãƒ³ãƒ€ãƒ¼ãƒ­ãƒœâ€¦â€¦Lv2   åŽŸç¨®â€¦â€¦Lv3   ï¼ºãƒžã‚¹ã‚¿ãƒ¼ï¼ã‚¾ãƒŒãƒ¼ãƒ€â€¦â€¦Lv4
+    ï¼¨ï¼°å›žå¾©  ã‚¾ãƒ³ãƒ€ãƒ¼ãƒ­ãƒœâ€¦â€¦Lv1   åŽŸç¨®â€¦â€¦Lv2   ï¼ºãƒžã‚¹ã‚¿ãƒ¼ï¼ã‚¾ãƒŒãƒ¼ãƒ€â€¦â€¦Lv3
+    ãƒ“ãƒ¼ãƒ     ã‚¾ãƒ³ãƒ€ãƒ¼ãƒ­ãƒœâ€¦â€¦æ”»æ’ƒåŠ›1400(å››å¤©çŽ‹1500) å°„ç¨‹3  åŽŸç¨®â€¦â€¦æ”»æ’ƒåŠ›1700 å°„ç¨‹4
+
+ãƒ»ãƒãƒªã‚¢ã§æ¶ˆè²»ã—ã¦ã—ã¾ã†ã“ã¨ã‚’è€ƒæ…®ã—ã€å…¨ä½“çš„ã«ï¼¥ï¼®ã¯ã‚„ã‚„é«˜ã‚ã€‚
+  ã‚¾ãƒ³ãƒ€ãƒ¼ãƒ­ãƒœã¯åŸºæœ¬170ã€‚
+  ã®ã¡ã«ï¼§ï¼§ï¼§ã«å‚åŠ ã—ãŸä¸‰åšå£«ã®ã‚¾ãƒ³ãƒ€ãƒ¼(ï¼¥ï¼©ï¼ï¼‘ï¼’ã€ï¼¥ï¼©ï¼ï¼‘ï¼•ã€ï¼¥ï¼©ï¼ï¼’ï¼)ã‚„ã€
+  åˆä½“ã‚¾ãƒ³ãƒ€ãƒ¼ã€æ©Ÿç•Œå››å¤©çŽ‹ãªã©ãŒ200ã€‚ï¼¥ï¼©ï¼ï¼ï¼‘ãŒ250ã€‚
+  ä½•ã¨ã‚‚èžåˆã—ã¦ã„ãªã„åŽŸç¨®(ã‚ªãƒ–ã‚¸ã‚§å½¢æ…‹ãŠã‚ˆã³ï¼ï¼‘ï½žï¼ï¼“)ã¯200ã€‚èžåˆã—ã¦250ã€‚
+  åŽŸç¨®èžåˆã¾ãŸã¯è¡›æ˜Ÿã‚¯ãƒ©ã‚¹ã§300ã€‚æœ€å¼·ï¼–åŽŸç¨®ã®åˆä½“ã§350ã€‚
+  ï¼ºãƒžã‚¹ã‚¿ãƒ¼ã¯400ã€‚
+
+ãƒ»åŽŸç¨®ã®ãƒãƒªã‚¢ã¯ã€åŒæ–¹ã¨ã‚‚ç„¡æ”¹é€ ãƒ»æ°—åŠ›100ã®ã¨ãã€ãƒ¬ãƒ™ãƒ«30å‰å¾Œã®ã‚¬ã‚¤ãŒ
+  æ”»æ’ƒåŠ›1900ã®ãƒ–ãƒ­ã‚¦ã‚¯ãƒ³ãƒžã‚°ãƒŠãƒ ã§ã‚®ãƒªã‚®ãƒªç ´ã‚Œã‚‹ãã‚‰ã„ã«è¨­å®šã—ã¦ã„ã¾ã™ã€‚
+  (å‰æœŸåž‹)ã®æ”»æ’ƒåŠ›1700ã®ãƒ–ãƒ­ã‚¦ã‚¯ãƒ³ãƒžã‚°ãƒŠãƒ ã§ã¯ã€ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ã—ãªã‘ã‚Œã°ç„¡ç†ã ã¨æ€ã£ã¦ãã ã•ã„ã€‚
+
+ãƒ»ãƒ€ãƒŸãƒ¼èƒ½åŠ›ã€Œç´ ç²’å­ï¼ºï¼ã€ã¯ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸åˆ¶å¾¡ç”¨ã€‚
+  (å¯¾ã‚¾ãƒ³ãƒ€ãƒ¼ãƒ­ãƒœ)ã§æŒ‡å®šã—ãŸå ´åˆã€æ©Ÿç•Œå››å¤©çŽ‹ã‚„ãƒ‘ã‚¹ãƒ€ãƒ¼ã¾ã§ã€Œã‚¾ãƒ³ãƒ€ãƒ¼ã€ã¨å‘¼ã‚“ã§ã—ã¾ã†ãŸã‚ã€
+  ã“ã‚Œã‚’é¿ã‘ã‚‹ãŸã‚ã®å‡¦ç½®ã§ã™ã€‚
+
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+â—†ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»
+
+ãƒ»ã‚·ãƒŠãƒªã‚ªã®å±•é–‹ã«ã‚ˆã£ã¦ã¯ã€å‘³æ–¹ã«æˆ’é“ãŒã„ã‚‹çŠ¶æ…‹ã§ãƒ”ã‚¢ãƒ»ãƒ‡ã‚±ãƒ ã¨æˆ¦ã†å ´åˆãŒãªã„ã¨ã‚‚é™ã‚Šã¾ã›ã‚“ã€‚
+  ãã“ã§ã€é€šå¸¸ã¯æˆ’é“ã«ãƒ€ãƒ¡ãƒ¼ã‚¸ãŒã„ãã‚ˆã†ãªãƒ€ã‚¤ã‚¢ãƒ­ã‚°ã¯é¸æŠžã•ã‚Œãªã„ã‚ˆã†ã«ãªã£ã¦ã„ã¾ã™ã€‚
+  FINALçµ‚ç›¤ã‚’å†ç¾ãªã•ã‚ŠãŸã„å ´åˆã¯ã€ãƒ”ã‚¢ãƒ»ãƒ‡ã‚±ãƒ ã«SetSkillã§ã€Žãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚¯ãƒ©ã‚¹=ç”Ÿä½“å…µå™¨ã‚¢ãƒ«ãƒžã€ã‚’
+  ä»˜åŠ ã—ã¦ãã ã•ã„ã€‚
+  ã‚¢ã‚¤ãƒ†ãƒ ã€Žç”Ÿä½“å…µå™¨ã‚¢ãƒ«ãƒžã€ã‚’è£…å‚™ã•ã›ã‚‹ã“ã¨ã§ã‚‚åŒæ§˜ã®åŠ¹æžœãŒå¾—ã‚‰ã‚Œã¾ã™ã€‚
+
+è¨­å®šæ™‚ï¼šSetSkill ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ”ã‚¢ãƒ»ãƒ‡ã‚±ãƒ (æ±Žç”¨) ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚¯ãƒ©ã‚¹=ç”Ÿä½“å…µå™¨ã‚¢ãƒ«ãƒž -1 éžè¡¨ç¤º
+è§£é™¤æ™‚ï¼šClearSkill ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ”ã‚¢ãƒ»ãƒ‡ã‚±ãƒ (æ±Žç”¨) ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚¯ãƒ©ã‚¹=ç”Ÿä½“å…µå™¨ã‚¢ãƒ«ãƒž -1 éžè¡¨ç¤º
 
 
 =============================================================================================================
-¡“Gƒ†ƒjƒbƒg¶¬ƒRƒ}ƒ“ƒhƒŠƒXƒg
+â– ãƒã‚¤ãƒ‘ãƒ¼ãƒ„ãƒ¼ãƒ«ãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆ               â€» å¿…æ®ºãƒ„ãƒ¼ãƒ«ã¯ã‚¦ãƒ«ãƒ†ã‚¯ã‚¨ãƒ³ã‚¸ãƒ³æ­è¼‰å¾Œã®æ•°å€¤
 
-‘f‘ÌLv1‚Å‚àƒ]ƒ“ƒ_[‚ª•œŠˆ‚µ‚Ä‚¤‚Á‚Æ‚¤‚µ‚¢I ‚Æ‚¢‚¤•û‚Í
-ƒ]ƒ“ƒ_[(ƒUƒR)‚Ì‘ã‚í‚è‚Éƒ]ƒ“ƒ_[ƒƒ^ƒ‹(ƒUƒR)‚ðæ‚¹‚Ä‚­‚¾‚³‚¢B
+ãƒ‡ã‚£ãƒã‚¤ãƒ‡ã‚£ãƒ³ã‚°ãƒ‰ãƒ©ã‚¤ãƒãƒ¼,  0,  1,  1,  +0,  -,  15, 105, AAAA, +25, ç„¡çªæ­¢
+ã‚¬ãƒˆãƒªãƒ³ã‚°ãƒ‰ãƒ©ã‚¤ãƒãƒ¼,        0,  1,  1,  +0,  -,  20, 110, AAAA, +20, ç„¡çªç¸›
+ãƒ‡ã‚£ãƒ¡ãƒ³ã‚¸ãƒ§ãƒ³ãƒ—ãƒ©ã‚¤ãƒ¤ãƒ¼,    0,  1,  1, +10,  -,  30, 110, AAAA, +30, ç„¡çªä¸­
+ãƒ¢ãƒ¬ã‚­ãƒ¥ãƒ«ãƒ—ãƒ©ãƒ¼ãƒ,       2500,  1,  1, +15,  8,   -, 120, AAAA, -10, æŽ¥å†L8
+ã‚´ãƒ«ãƒ‡ã‚£ã‚ªãƒ³ãƒãƒ³ãƒžãƒ¼,     3500,  1,  1, +15,  -,  60, 130, AAAA, -10, æŽ¥æµ„é‡
+ã‚°ãƒ©ãƒ³ãƒ‰ãƒ—ãƒ¬ãƒƒã‚·ãƒ£ãƒ¼,     3600,  1,  1, +20,  1,   -, 130, AAAA,  +0, æµ„æ®ºï¼±
+ã‚´ãƒ«ãƒ‡ã‚£ã‚ªãƒ³ã‚¯ãƒ©ãƒƒã‚·ãƒ£ãƒ¼, 4600,  1,  1, +15,  -, 200, 140, AAAA, -10, æŽ¥æµ„é‡æ¶ˆ
 
+ãƒœãƒ«ãƒ†ã‚£ãƒ³ã‚°ãƒ‰ãƒ©ã‚¤ãƒãƒ¼.P,    0,  1,  1,  +0,  -,  20, 110, AAAA, +30, ç„¡çªç¸›ä¸­
+ãƒœãƒ«ãƒ†ã‚£ãƒ³ã‚°ãƒ‰ãƒ©ã‚¤ãƒãƒ¼.G, 1600,  1,  3,  +0,  -,  50, 110, AAAA,  +0, æ ¼ï¼­å…¨
+ãƒœãƒ«ãƒ†ã‚£ãƒ³ã‚°ãƒ‰ãƒ©ã‚¤ãƒãƒ¼.B, 2100,  1,  1,  +0,  -,  30, 110, AAAA, +20, çªè²«
+ã‚¦ã‚£ãƒ«ãƒŠã‚¤ãƒ•,             2500,  1,  1, +10,  -,  20, 110, AAAA, +10, æ­¦
 
-Ÿ‘æ‚P˜b ìí’S“–•s–¾
-Create “G ‚d‚h|‚O‚Q Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-
-
-Ÿ—±Žq‰Á‘¬ŠíƒCƒ]ƒ‹ƒf ƒpƒXƒ_[—§ˆÄ
-Create “G ‚d‚h|‚P‚Q Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-
-
-Ÿƒsƒbƒcƒ@Žg—pƒ]ƒ“ƒ_[
-Šî–{“I‚Éu‹ó‚ð”ò‚Ô‚à‚Ìv‚¾‚ªAŒ‹‰Ê“I‚É—¤íŒ^‚É‚È‚Á‚½‚P‚S‚âA‚P‚W‚Ì‚æ‚¤‚È“ÁŽê‚È—á‚à‚ ‚è
-
-Create “G ‚d‚h|‚O‚T Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚O‚X Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚P‚S Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚P‚W Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚Q‚P Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚Q‚T Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-
-¦ ‚d‚h|‚P‚W‚¨‚æ‚Ñ‚Q‚T‚Íƒyƒ“ƒ`ƒmƒ“‚àŽQ‰Á
-
-
-Ÿƒyƒ“ƒ`ƒmƒ“Žg—pƒ]ƒ“ƒ_[
-ŠC‚ÉŠÖ˜A‚·‚é‚à‚Ì‚ª‘½‚¢‚ªA‘¼‚ÌŽl“V‰¤‚É•ª—Þ‚Å‚«‚È‚¢ìí‚ðŠÜ‚Þƒoƒ‰ƒGƒeƒBŒ^‚Æ‚¢‚¦‚é
-
-Create “G ‚d‚h|‚O‚R Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚O‚V Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚P‚P Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚P‚T Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚P‚X Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚Q‚Q Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-
-EuBLOCKADED NUMBERSv‘æ14.5˜buŠC‚Ìƒ”ƒ@ƒ‹ƒi[v
-Create “G ‚d‚h|‚P‚T(“o˜^–•Á) Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
+ãƒ»ï¼’æœ¬ã®ãƒ‰ãƒ©ã‚¤ãƒãƒ¼ã¨ãƒ—ãƒ©ã‚¤ãƒ¤ãƒ¼ã«ã¯ã€ãƒ—ãƒ­ãƒ†ã‚¯ãƒˆãƒœãƒ«ãƒˆã®åŠ¹æžœã‚’åˆ†æ•£ã—ã¦æŒãŸã›ã¦ã„ã¾ã™ã€‚
+  â€¦â€¦ã©ã¡ã‚‰ã‹ã¨ã„ã†ã¨ãƒ—ãƒ­ãƒ†ã‚¯ãƒˆãƒœãƒ«ãƒˆã«å…¨ä¹—ã›ã—ã¦ã„ã‚‹ã¨ã„ã†ã®ãŒæ­£è§£ã€‚
+ãƒ»ãƒ‡ã‚£ãƒã‚¤ãƒ‡ã‚£ãƒ³ã‚°ãƒ‰ãƒ©ã‚¤ãƒãƒ¼ã¨ã‚¬ãƒˆãƒªãƒ³ã‚°ãƒ‰ãƒ©ã‚¤ãƒãƒ¼ã«æ€§èƒ½å·®ã‚’ã¤ã‘ã¦ã„ã¾ã™ã€‚
+  ã»ã‚“ã®å°‘ã—ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ã—ã‚„ã™ãã€ï¼¥ï¼®æ¶ˆè²»ãŒå°‘ãªã„ãŒã€åŠ¹æžœãŒå°ã•ã„ãƒ‡ã‚£ãƒã‚¤ãƒ‡ã‚£ãƒ³ã‚°ã€‚
+  åŠ¹æžœã¯å¤§ãã„ãŒã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«ã—ã«ããã€ï¼¥ï¼®æ¶ˆè²»ã‚‚å¤šã„ã‚¬ãƒˆãƒªãƒ³ã‚°ã¨ã„ã†åŒºåˆ¥ã€‚
+ãƒ»ãƒ‡ã‚£ãƒ¡ãƒ³ã‚¸ãƒ§ãƒ³ãƒ—ãƒ©ã‚¤ãƒ¤ãƒ¼ã¯ã€æœ¬æ¥ã€ç•°å¸¸ãªç©ºé–“ã‚’ä¿®å¾©ã—ãŸã‚Šã€ã“ã˜é–‹ã‘ãŸã‚Šã™ã‚‹ãƒ„ãƒ¼ãƒ«ã§ã™ãŒã€
+  å¯¾ï¼¥ï¼©ï¼ï¼ï¼‘æˆ¦ã«ãŠã„ã¦ã¯ã€ã“ã®å¿œç”¨ã§ãƒãƒªã‚¢ã‚’å¼•ãã¯ãŒãã†ã¨ã—ã¾ã—ãŸã€‚
+  ç›¸æ‰‹ã®ã‚¨ãƒãƒ«ã‚®ãƒ¼ãŒé«˜ã™ãŽãŸãŸã‚å¤±æ•—ã«çµ‚ã‚ã‚Šã¾ã—ãŸãŒã€æ™®é€šã®ã‚¾ãƒ³ãƒ€ãƒ¼ã«ã¯æœ‰åŠ¹ã ã‚ã†ã¨ã„ã†è§£é‡ˆã‹ã‚‰
+  ãƒãƒªã‚¢ä¸­å’Œæ­¦å™¨ã¨ã—ã¦ãƒ‡ãƒ¼ã‚¿åŒ–ã—ã¦ã„ã¾ã™ã€‚
+ãƒ»ã‚°ãƒ©ãƒ³ãƒ‰ãƒ—ãƒ¬ãƒƒã‚·ãƒ£ãƒ¼ã¯ç§»å‹•å¾Œæ”»æ’ƒä¸å¯ã€‚
+  ã‚´ãƒ«ãƒ‡ã‚£ã‚ªãƒ³ãƒãƒ³ãƒžãƒ¼ã‚„ãƒ¢ãƒ¬ã‚­ãƒ¥ãƒ«ãƒ—ãƒ©ãƒ¼ãƒä»¥ä¸Šã«å·¨å¤§ãªãƒ„ãƒ¼ãƒ«ã§ã‚ã‚‹ã“ã¨ã‚„ã€
+  å”¯ä¸€ã®ä½¿ç”¨ä¾‹ãŒã€Žæ•µãŒé£›ã³è¾¼ã‚“ã§ãã‚‹ã®ã‚’å¾…ã¡æ§‹ãˆã¦é–‰ã˜è¾¼ã‚ã‚‹ã€ã‚‚ã®ã§ã‚ã£ãŸãŸã‚ã€ãã®å†ç¾ã§ã™ã€‚
 
 
-ŸƒvƒŠƒ}[ƒ_Žg—pƒ]ƒ“ƒ_[
-ŽÔ—¼               ¦ ‚d‚h|‚P‚O‚Íìí’S“–•s–¾‚Å‚·‚ªA•Ö‹XãƒvƒŠƒ}[ƒ_‚Æ‚µ‚Ä•ª—Þ
+=============================================================================================================
+â– æ•µãƒ¦ãƒ‹ãƒƒãƒˆç”Ÿæˆã‚³ãƒžãƒ³ãƒ‰ãƒªã‚¹ãƒˆ
 
-Create “G ‚d‚h|‚O‚U Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚P‚O Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚P‚V Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-
-
-Ÿƒ|ƒƒlƒYŽg—pƒ]ƒ“ƒ_[
-—ñŽÔ ƒŒ[ƒ‹‚Ì‚ ‚é‚à‚Ì‚È‚çƒWƒFƒbƒgƒR[ƒXƒ^[‚Å‚à‚©‚Ü‚í‚È‚¢
-
-Create “G ‚d‚h|‚O‚S Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚O‚W Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚P‚R Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚P‚U Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
+ç´ ä½“Lv1ã§ã‚‚ã‚¾ãƒ³ãƒ€ãƒ¼ãŒå¾©æ´»ã—ã¦ã†ã£ã¨ã†ã—ã„ï¼ ã¨ã„ã†æ–¹ã¯
+ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³)ã®ä»£ã‚ã‚Šã«ã‚¾ãƒ³ãƒ€ãƒ¼ãƒ¡ã‚¿ãƒ«(ã‚¶ã‚³)ã‚’ä¹—ã›ã¦ãã ã•ã„ã€‚
 
 
-Ÿƒ|ƒƒlƒYEƒvƒŠƒ}[ƒ_‹¤“¯ìí
-d—Í§Œä‘•’uƒ]ƒ“ƒ_[‚Æ’´‰¹”gƒ]ƒ“ƒ_[
-
-Create “G ‚d‚h|‚Q‚O Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚Q‚R Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚Q‚S Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚Q‚R{‚Q‚S Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-# ‚Ü‚½‚Í Upgrade ‚d‚h|‚Q‚R ‚d‚h|‚Q‚R{‚Q‚S
+â—†ç¬¬ï¼‘è©± ä½œæˆ¦æ‹…å½“ä¸æ˜Ž
+Create æ•µ ï¼¥ï¼©ï¼ï¼ï¼’ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
 
 
-Ÿ‹@ŠEŽl“V‰¤•ƒpƒXƒ_[       „§BossRank  Žl“V‰¤F1`3’ö“x  ƒpƒXƒ_[F4`5
-Create “G ‚d‚h|‚Q‚U Rank ‹@ŠEŽl“V‰¤Eƒsƒbƒcƒ@ Level x y
-Create “G ‚d‚h|‚Q‚V Rank ‹@ŠEŽl“V‰¤Eƒyƒ“ƒ`ƒmƒ“ Level x y
-Create “G ‚d‚h|‚Q‚W Rank ‹@ŠEŽl“V‰¤Eƒ|ƒƒlƒY Level x y
-Create “G ‚d‚h|‚Q‚X Rank ‹@ŠEŽl“V‰¤EƒvƒŠƒ}[ƒ_ Level x y
-Create “G ‚d‚h|‚O‚P Rank ‹@ŠEŽi—ßEƒpƒXƒ_[ Level x y
+â—†ç²’å­åŠ é€Ÿå™¨ã‚¤ã‚¾ãƒ«ãƒ‡ ãƒ‘ã‚¹ãƒ€ãƒ¼ç«‹æ¡ˆ
+Create æ•µ ï¼¥ï¼©ï¼ï¼‘ï¼’ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
 
-¦ ŽQlF‚d‚h|‚O‚P BossRank•t‰ÁŽž‚Ì”\—Í‹­‰»‘Œ©•\
+
+â—†ãƒ”ãƒƒãƒ„ã‚¡ä½¿ç”¨ã‚¾ãƒ³ãƒ€ãƒ¼
+åŸºæœ¬çš„ã«ã€Œç©ºã‚’é£›ã¶ã‚‚ã®ã€ã ãŒã€çµæžœçš„ã«é™¸æˆ¦åž‹ã«ãªã£ãŸï¼‘ï¼”ã‚„ã€ï¼‘ï¼˜ã®ã‚ˆã†ãªç‰¹æ®Šãªä¾‹ã‚‚ã‚ã‚Š
+
+Create æ•µ ï¼¥ï¼©ï¼ï¼ï¼• Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼ï¼™ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼‘ï¼” Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼‘ï¼˜ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼’ï¼‘ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼’ï¼• Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+
+â€» ï¼¥ï¼©ï¼ï¼‘ï¼˜ãŠã‚ˆã³ï¼’ï¼•ã¯ãƒšãƒ³ãƒãƒŽãƒ³ã‚‚å‚åŠ 
+
+
+â—†ãƒšãƒ³ãƒãƒŽãƒ³ä½¿ç”¨ã‚¾ãƒ³ãƒ€ãƒ¼
+æµ·ã«é–¢é€£ã™ã‚‹ã‚‚ã®ãŒå¤šã„ãŒã€ä»–ã®å››å¤©çŽ‹ã«åˆ†é¡žã§ããªã„ä½œæˆ¦ã‚’å«ã‚€ãƒãƒ©ã‚¨ãƒ†ã‚£åž‹ã¨ã„ãˆã‚‹
+
+Create æ•µ ï¼¥ï¼©ï¼ï¼ï¼“ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼ï¼— Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼‘ï¼‘ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼‘ï¼• Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼‘ï¼™ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼’ï¼’ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+
+ãƒ»ã€ŒBLOCKADED NUMBERSã€ç¬¬14.5è©±ã€Œæµ·ã®ãƒ´ã‚¡ãƒ«ãƒŠãƒ¼ã€
+Create æ•µ ï¼¥ï¼©ï¼ï¼‘ï¼•(ç™»éŒ²æŠ¹æ¶ˆ) Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+
+
+â—†ãƒ—ãƒªãƒžãƒ¼ãƒ€ä½¿ç”¨ã‚¾ãƒ³ãƒ€ãƒ¼
+è»Šä¸¡               â€» ï¼¥ï¼©ï¼ï¼‘ï¼ã¯ä½œæˆ¦æ‹…å½“ä¸æ˜Žã§ã™ãŒã€ä¾¿å®œä¸Šãƒ—ãƒªãƒžãƒ¼ãƒ€ã¨ã—ã¦åˆ†é¡ž
+
+Create æ•µ ï¼¥ï¼©ï¼ï¼ï¼– Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼‘ï¼ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼‘ï¼— Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+
+
+â—†ãƒãƒ­ãƒã‚ºä½¿ç”¨ã‚¾ãƒ³ãƒ€ãƒ¼
+åˆ—è»Š ãƒ¬ãƒ¼ãƒ«ã®ã‚ã‚‹ã‚‚ã®ãªã‚‰ã‚¸ã‚§ãƒƒãƒˆã‚³ãƒ¼ã‚¹ã‚¿ãƒ¼ã§ã‚‚ã‹ã¾ã‚ãªã„
+
+Create æ•µ ï¼¥ï¼©ï¼ï¼ï¼” Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼ï¼˜ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼‘ï¼“ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼‘ï¼– Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+
+
+â—†ãƒãƒ­ãƒã‚ºãƒ»ãƒ—ãƒªãƒžãƒ¼ãƒ€å…±åŒä½œæˆ¦
+é‡åŠ›åˆ¶å¾¡è£…ç½®ã‚¾ãƒ³ãƒ€ãƒ¼ã¨è¶…éŸ³æ³¢ã‚¾ãƒ³ãƒ€ãƒ¼
+
+Create æ•µ ï¼¥ï¼©ï¼ï¼’ï¼ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼’ï¼“ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼’ï¼” Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼’ï¼“ï¼‹ï¼’ï¼” Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+# ã¾ãŸã¯ Upgrade ï¼¥ï¼©ï¼ï¼’ï¼“ ï¼¥ï¼©ï¼ï¼’ï¼“ï¼‹ï¼’ï¼”
+
+
+â—†æ©Ÿç•Œå››å¤©çŽ‹ï¼†ãƒ‘ã‚¹ãƒ€ãƒ¼       æŽ¨å¥¨BossRank  å››å¤©çŽ‹ï¼š1ï½ž3ç¨‹åº¦  ãƒ‘ã‚¹ãƒ€ãƒ¼ï¼š4ï½ž5
+Create æ•µ ï¼¥ï¼©ï¼ï¼’ï¼– Rank æ©Ÿç•Œå››å¤©çŽ‹ãƒ»ãƒ”ãƒƒãƒ„ã‚¡ Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼’ï¼— Rank æ©Ÿç•Œå››å¤©çŽ‹ãƒ»ãƒšãƒ³ãƒãƒŽãƒ³ Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼’ï¼˜ Rank æ©Ÿç•Œå››å¤©çŽ‹ãƒ»ãƒãƒ­ãƒã‚º Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼’ï¼™ Rank æ©Ÿç•Œå››å¤©çŽ‹ãƒ»ãƒ—ãƒªãƒžãƒ¼ãƒ€ Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼ï¼‘ Rank æ©Ÿç•Œå¸ä»¤ãƒ»ãƒ‘ã‚¹ãƒ€ãƒ¼ Level x y
+
+â€» å‚è€ƒï¼šï¼¥ï¼©ï¼ï¼ï¼‘ BossRankä»˜åŠ æ™‚ã®èƒ½åŠ›å¼·åŒ–æ—©è¦‹è¡¨
 BossRank     0      1      2      3      4      5
-‚g‚o       20000  30000  40000  50000  60000  80000
-‚d‚m         250    270    290    310    330    350
-‘•b        1400   1700   2000   2400   2900   3900
-‰^“®«        50     55     60     65     70     75
-Å‘åUŒ‚—Í  2400   2500   2600   2700   2700   2700
+ï¼¨ï¼°       20000  30000  40000  50000  60000  80000
+ï¼¥ï¼®         250    270    290    310    330    350
+è£…ç”²        1400   1700   2000   2400   2900   3900
+é‹å‹•æ€§        50     55     60     65     70     75
+æœ€å¤§æ”»æ’ƒåŠ›  2400   2500   2600   2700   2700   2700
 
 
-ElŠÔ‘åƒCƒxƒ“ƒgƒ†ƒjƒbƒg
-Create “G ‹@ŠEŽl“V‰¤Eƒsƒbƒcƒ@ Rank ‹@ŠEŽl“V‰¤Eƒsƒbƒcƒ@ Level x y
-Create “G ‹@ŠEŽl“V‰¤Eƒyƒ“ƒ`ƒmƒ“ Rank ‹@ŠEŽl“V‰¤Eƒyƒ“ƒ`ƒmƒ“ Level x y
-Create “G ‹@ŠEŽl“V‰¤Eƒ|ƒƒlƒY Rank ‹@ŠEŽl“V‰¤Eƒ|ƒƒlƒY Level x y
-Create “G ‹@ŠEŽl“V‰¤EƒvƒŠƒ}[ƒ_ Rank ‹@ŠEŽl“V‰¤EƒvƒŠƒ}[ƒ_ Level x y
+ãƒ»äººé–“å¤§ã‚¤ãƒ™ãƒ³ãƒˆãƒ¦ãƒ‹ãƒƒãƒˆ
+Create æ•µ æ©Ÿç•Œå››å¤©çŽ‹ãƒ»ãƒ”ãƒƒãƒ„ã‚¡ Rank æ©Ÿç•Œå››å¤©çŽ‹ãƒ»ãƒ”ãƒƒãƒ„ã‚¡ Level x y
+Create æ•µ æ©Ÿç•Œå››å¤©çŽ‹ãƒ»ãƒšãƒ³ãƒãƒŽãƒ³ Rank æ©Ÿç•Œå››å¤©çŽ‹ãƒ»ãƒšãƒ³ãƒãƒŽãƒ³ Level x y
+Create æ•µ æ©Ÿç•Œå››å¤©çŽ‹ãƒ»ãƒãƒ­ãƒã‚º Rank æ©Ÿç•Œå››å¤©çŽ‹ãƒ»ãƒãƒ­ãƒã‚º Level x y
+Create æ•µ æ©Ÿç•Œå››å¤©çŽ‹ãƒ»ãƒ—ãƒªãƒžãƒ¼ãƒ€ Rank æ©Ÿç•Œå››å¤©çŽ‹ãƒ»ãƒ—ãƒªãƒžãƒ¼ãƒ€ Level x y
 
 
-ŸŒ´Ží•Ò“oêƒ]ƒ“ƒ_[
-Create “G ƒ]ƒ“ƒ_[ƒƒ{(¤) Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ƒ]ƒ“ƒ_[ƒƒ{(›) Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ƒ]ƒ“ƒ_[ƒƒ{( ) Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‡‘Ìƒ]ƒ“ƒ_[ƒƒ{ Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
-Create “G ‚d‚h|‚V‚S Rank ƒ]ƒ“ƒ_[(ƒUƒR) Level x y
+â—†åŽŸç¨®ç·¨ç™»å ´ã‚¾ãƒ³ãƒ€ãƒ¼
+Create æ•µ ã‚¾ãƒ³ãƒ€ãƒ¼ãƒ­ãƒœ(â–½) Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ã‚¾ãƒ³ãƒ€ãƒ¼ãƒ­ãƒœ(â—‹) Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ã‚¾ãƒ³ãƒ€ãƒ¼ãƒ­ãƒœ(â–¡) Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ åˆä½“ã‚¾ãƒ³ãƒ€ãƒ¼ãƒ­ãƒœ Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼—ï¼” Rank ã‚¾ãƒ³ãƒ€ãƒ¼(ã‚¶ã‚³) Level x y
 
 
-ŸŒÅ—LƒpƒCƒƒbƒg‚ ‚è
-EuBLOCKADED NUMBERSv‘æ43.2˜bu‹à‚Ì‰åA‹â‚Ì’Üv
-Create “G ‚d‚h|‚V‚Q Rank ‘å‰ÍK‘¾˜Y Level x y
-Create “G ‚d‚h|‚V‚R Rank ‰Î–ƒŒƒ Level x y
-Create “G ‚d‚h|‚V‚Q{‚V‚R Rank ‘å‰ÍK‘¾˜Y Level x y
-# ‚Ü‚½‚Í Upgrade ‚d‚h|‚V‚Q ‚d‚h|‚V‚Q{‚V‚R
+â—†å›ºæœ‰ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆã‚ã‚Š
+ãƒ»ã€ŒBLOCKADED NUMBERSã€ç¬¬43.2è©±ã€Œé‡‘ã®ç‰™ã€éŠ€ã®çˆªã€
+Create æ•µ ï¼¥ï¼©ï¼ï¼—ï¼’ Rank å¤§æ²³å¹¸å¤ªéƒŽ Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼—ï¼“ Rank ç«éº»æ¿€ Level x y
+Create æ•µ ï¼¥ï¼©ï¼ï¼—ï¼’ï¼‹ï¼—ï¼“ Rank å¤§æ²³å¹¸å¤ªéƒŽ Level x y
+# ã¾ãŸã¯ Upgrade ï¼¥ï¼©ï¼ï¼—ï¼’ ï¼¥ï¼©ï¼ï¼—ï¼’ï¼‹ï¼—ï¼“
 
 
-E‘æ43.5˜bu’´œW‹‰íŠÍƒWƒFƒCƒA[ƒN  Œõ‚ÆˆÅ‚Ì—ƒv
-Create “G ƒWƒFƒCƒoƒgƒ‰[ Rank ƒ\ƒ‹ƒ_[ƒg‚i-019 Level x y
+ãƒ»ç¬¬43.5è©±ã€Œè¶…å¼©ç´šæˆ¦è‰¦ã‚¸ã‚§ã‚¤ã‚¢ãƒ¼ã‚¯  å…‰ã¨é—‡ã®ç¿¼ã€
+Create æ•µ ã‚¸ã‚§ã‚¤ãƒãƒˆãƒ©ãƒ¼ Rank ã‚½ãƒ«ãƒ€ãƒ¼ãƒˆï¼ª-019 Level x y
 
-ƒWƒFƒCƒA[ƒN“¯—l‚Ì‚Qlæ‚èƒ†ƒjƒbƒg‚Å‚·‚ªAŠî–{“I‚É‚i|019‚Ì‚Plæ‚è‚Å‚·B
-•ª—£‚µ‚ÄƒWƒFƒCƒ_[‚Åí‚í‚¹‚é‚æ‚¤‚Èê–ÊˆÈŠO‚ÍAƒTƒuƒpƒCƒƒbƒg‚ðæ‚¹‚é•K—v‚Í‚ ‚è‚Ü‚¹‚ñB
-Ý’è‚âì’†•`ŽÊ‚ðl—¶‚·‚é‚ÆAƒTƒuƒpƒCƒƒbƒg‚É‚Íƒ]ƒ“ƒ_[ƒƒ^ƒ‹(ƒUƒR)‚ª‚¢‚¢‚Å‚µ‚å‚¤B
-ˆÈ‰º‚Íˆê—áB
+ã‚¸ã‚§ã‚¤ã‚¢ãƒ¼ã‚¯åŒæ§˜ã®ï¼’äººä¹—ã‚Šãƒ¦ãƒ‹ãƒƒãƒˆã§ã™ãŒã€åŸºæœ¬çš„ã«ï¼ªï¼019ã®ï¼‘äººä¹—ã‚Šã§ã™ã€‚
+åˆ†é›¢ã—ã¦ã‚¸ã‚§ã‚¤ãƒ€ãƒ¼ã§æˆ¦ã‚ã›ã‚‹ã‚ˆã†ãªå ´é¢ä»¥å¤–ã¯ã€ã‚µãƒ–ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆã‚’ä¹—ã›ã‚‹å¿…è¦ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚
+è¨­å®šã‚„ä½œä¸­æå†™ã‚’è€ƒæ…®ã™ã‚‹ã¨ã€ã‚µãƒ–ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆã«ã¯ã‚¾ãƒ³ãƒ€ãƒ¼ãƒ¡ã‚¿ãƒ«(ã‚¶ã‚³)ãŒã„ã„ã§ã—ã‚‡ã†ã€‚
+ä»¥ä¸‹ã¯ä¸€ä¾‹ã€‚
 
-Pilot ƒ]ƒ“ƒ_[ƒƒ^ƒ‹(ƒUƒR) Level J-019ark
+Pilot ã‚¾ãƒ³ãƒ€ãƒ¼ãƒ¡ã‚¿ãƒ«(ã‚¶ã‚³) Level J-019ark
 Ride J-019ark
-Unit ƒWƒFƒCƒ_[(ƒWƒFƒCƒoƒgƒ‰[) Rank
-Unit ƒWƒFƒCƒLƒƒƒŠƒA[(ƒWƒFƒCƒoƒgƒ‰[) Rank
+Unit ã‚¸ã‚§ã‚¤ãƒ€ãƒ¼(ã‚¸ã‚§ã‚¤ãƒãƒˆãƒ©ãƒ¼) Rank
+Unit ã‚¸ã‚§ã‚¤ã‚­ãƒ£ãƒªã‚¢ãƒ¼(ã‚¸ã‚§ã‚¤ãƒãƒˆãƒ©ãƒ¼) Rank
 
-¦ PilotƒRƒ}ƒ“ƒh‚Å‚Ì¶¬Žž‚É‚h‚c‚ð‚Â‚¯A‚»‚ê‚ÅŽw’è‚·‚é•û‚ªŒë“®ì‚Ì–hŽ~‚É‚È‚è‚Ü‚·B
+â€» Pilotã‚³ãƒžãƒ³ãƒ‰ã§ã®ç”Ÿæˆæ™‚ã«ï¼©ï¼¤ã‚’ã¤ã‘ã€ãã‚Œã§æŒ‡å®šã™ã‚‹æ–¹ãŒèª¤å‹•ä½œã®é˜²æ­¢ã«ãªã‚Šã¾ã™ã€‚
 
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-Ÿ‹@ŠE‚R‚PŒ´Ží               „§BossRank 1`2  Å‹­‚VŒ´ŽíF1`3  ‚yƒ}ƒXƒ^[F5
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+â—†æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®               æŽ¨å¥¨BossRank 1ï½ž2  æœ€å¼·ï¼—åŽŸç¨®ï¼š1ï½ž3  ï¼ºãƒžã‚¹ã‚¿ãƒ¼ï¼š5
 
-Create “G ‹@ŠE‚R‚PŒ´ŽíƒIƒuƒWƒFŒ`‘Ô Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
+Create æ•µ æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®ã‚ªãƒ–ã‚¸ã‚§å½¢æ…‹ Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
 
-Create “G ‚y‚w|‚O‚P Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚O‚Q Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚O‚R Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚O‚S Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚O‚T Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚O‚U Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼‘ Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼’ Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼“ Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼” Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼• Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼– Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
 
-Create “G ‚y‚w|‚P‚S Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚P‚T Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼” Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼• Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
 
-E‘æ31`32˜bÄŒ»—p
-Create “G ‚y‚w|‚O‚R(“ª•”) Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
+ãƒ»ç¬¬31ï½ž32è©±å†ç¾ç”¨
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼“(é ­éƒ¨) Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
 
 
-Ÿ‹@ŠEÅ‹­‚VŒ´Ží
-Create “G ‚y‚w|‚O‚V Rank ‚y‚w|‚O‚VE˜rŒ´Ží Level x y
-Create “G ‚y‚w|‚O‚W Rank ‚y‚w|‚O‚WE’ÜŒ´Ží Level x y
-Create “G ‚y‚w|‚O‚X Rank ‚y‚w|‚O‚XEŽ¨Œ´Ží Level x y
-Create “G ‚y‚w|‚P‚O Rank ‚y‚w|‚P‚OE–ÚŒ´Ží Level x y
-Create “G ‚y‚w|‚P‚P Rank ‚y‚w|‚P‚PE’°Œ´Ží Level x y
-Create “G ‚y‚w|‚P‚Q Rank ‚y‚w|‚P‚QE˜]œŒ´Ží Level x y
-Create “G ‚y‚w|‚P‚R Rank ‚y‚w|‚P‚REŠÌ‘ŸŒ´Ží Level x y
+â—†æ©Ÿç•Œæœ€å¼·ï¼—åŽŸç¨®
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼— Rank ï¼ºï¼¸ï¼ï¼ï¼—ãƒ»è…•åŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼˜ Rank ï¼ºï¼¸ï¼ï¼ï¼˜ãƒ»çˆªåŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼™ Rank ï¼ºï¼¸ï¼ï¼ï¼™ãƒ»è€³åŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼ Rank ï¼ºï¼¸ï¼ï¼‘ï¼ãƒ»ç›®åŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼‘ Rank ï¼ºï¼¸ï¼ï¼‘ï¼‘ãƒ»è…¸åŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼’ Rank ï¼ºï¼¸ï¼ï¼‘ï¼’ãƒ»è‚‹éª¨åŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼“ Rank ï¼ºï¼¸ï¼ï¼‘ï¼“ãƒ»è‚è‡“åŽŸç¨® Level x y
 
-EŠelŠÔ‘Ô
-Create “G ‚y‚w|‚O‚V(lŠÔ‘Ô) Rank ‚y‚w|‚O‚VE˜rŒ´Ží Level x y
-Create “G ‚y‚w|‚O‚W(lŠÔ‘Ô) Rank ‚y‚w|‚O‚WE’ÜŒ´Ží Level x y
-Create “G ‚y‚w|‚O‚X(lŠÔ‘Ô) Rank ‚y‚w|‚O‚XEŽ¨Œ´Ží Level x y
-Create “G ‚y‚w|‚P‚O(lŠÔ‘Ô) Rank ‚y‚w|‚P‚OE–ÚŒ´Ží Level x y
-Create “G ‚y‚w|‚P‚P(lŠÔ‘Ô) Rank ‚y‚w|‚P‚PE’°Œ´Ží Level x y
-Create “G ‚y‚w|‚P‚Q(lŠÔ‘Ô) Rank ‚y‚w|‚P‚QE˜]œŒ´Ží Level x y
-Create “G ‚y‚w|‚P‚R(lŠÔ‘Ô) Rank ‚y‚w|‚P‚REŠÌ‘ŸŒ´Ží Level x y
+ãƒ»å„äººé–“æ…‹
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼—(äººé–“æ…‹) Rank ï¼ºï¼¸ï¼ï¼ï¼—ãƒ»è…•åŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼˜(äººé–“æ…‹) Rank ï¼ºï¼¸ï¼ï¼ï¼˜ãƒ»çˆªåŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼™(äººé–“æ…‹) Rank ï¼ºï¼¸ï¼ï¼ï¼™ãƒ»è€³åŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼(äººé–“æ…‹) Rank ï¼ºï¼¸ï¼ï¼‘ï¼ãƒ»ç›®åŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼‘(äººé–“æ…‹) Rank ï¼ºï¼¸ï¼ï¼‘ï¼‘ãƒ»è…¸åŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼’(äººé–“æ…‹) Rank ï¼ºï¼¸ï¼ï¼‘ï¼’ãƒ»è‚‹éª¨åŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼“(äººé–“æ…‹) Rank ï¼ºï¼¸ï¼ï¼‘ï¼“ãƒ»è‚è‡“åŽŸç¨® Level x y
 
-Create “G ‡‘ÌŒ´Ží Rank ‡‘ÌŒ´Ží Level x y
+Create æ•µ åˆä½“åŽŸç¨® Rank åˆä½“åŽŸç¨® Level x y
 
-¦ ŽQlF‡‘ÌŒ´ŽíEBossRank•t‰ÁŽž‚Ì”\—Í‹­‰»‘Œ©•\
+â€» å‚è€ƒï¼šåˆä½“åŽŸç¨®ãƒ»BossRankä»˜åŠ æ™‚ã®èƒ½åŠ›å¼·åŒ–æ—©è¦‹è¡¨
 BossRank     0      1      2      3      4      5
-‚g‚o       25000  37500  50000  60000  70000  90000
-‚d‚m         350    370    390    410    430    450
-‘•b        1500   1800   2100   2500   3000   4000
-‰^“®«        55     60     65     70     75     80
-Å‘åUŒ‚—Í  2500   2600   2700   2800   2800   2800
+ï¼¨ï¼°       25000  37500  50000  60000  70000  90000
+ï¼¥ï¼®         350    370    390    410    430    450
+è£…ç”²        1500   1800   2100   2500   3000   4000
+é‹å‹•æ€§        55     60     65     70     75     80
+æœ€å¤§æ”»æ’ƒåŠ›  2500   2600   2700   2800   2800   2800
 
 
-E˜rŒ´ŽíƒoƒŠƒG[ƒVƒ‡ƒ“
-Create “G ‚y‚w|‚O‚V(ƒsƒ‰ƒ~ƒbƒh—Z‡) Rank ‚y‚w|‚O‚VE˜rŒ´Ží Level x y
-Create “G ‚y‚w|‚O‚V{‚P‚S Rank ‚y‚w|‚O‚VE˜rŒ´Ží Level x y
-# ‚Ü‚½‚Í Upgrade ‚y‚w|‚O‚V(ƒsƒ‰ƒ~ƒbƒh—Z‡) ‚y‚w|‚O‚V{‚P‚S
+ãƒ»è…•åŽŸç¨®ãƒãƒªã‚¨ãƒ¼ã‚·ãƒ§ãƒ³
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼—(ãƒ”ãƒ©ãƒŸãƒƒãƒ‰èžåˆ) Rank ï¼ºï¼¸ï¼ï¼ï¼—ãƒ»è…•åŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼—ï¼‹ï¼‘ï¼” Rank ï¼ºï¼¸ï¼ï¼ï¼—ãƒ»è…•åŽŸç¨® Level x y
+# ã¾ãŸã¯ Upgrade ï¼ºï¼¸ï¼ï¼ï¼—(ãƒ”ãƒ©ãƒŸãƒƒãƒ‰èžåˆ) ï¼ºï¼¸ï¼ï¼ï¼—ï¼‹ï¼‘ï¼”
 
-Create “G ‚y‚w|‚O‚V(‘¾—zŠÏ‘ª‰q¯—Z‡) Rank ‚y‚w|‚O‚VE˜rŒ´Ží Level x y
-Create “G ‚y‚w|‚O‚V(ƒGƒEƒƒp—Z‡) Rank ‚y‚w|‚O‚VE˜rŒ´Ží Level x y
-
-
-E’°Œ´ŽíƒoƒŠƒG[ƒVƒ‡ƒ“
-Create “G ‚y‚w|‚P‚P(ƒsƒ‰ƒ~ƒbƒh—Z‡) Rank ‚y‚w|‚P‚PE’°Œ´Ží Level x y
-Create “G ‚y‚w|‚P‚P{‚P‚T Rank ‚y‚w|‚P‚PE’°Œ´Ží Level x y
-# ‚Ü‚½‚Í Upgrade ‚y‚w|‚P‚P(ƒsƒ‰ƒ~ƒbƒh—Z‡) ‚y‚w|‚P‚P{‚P‚T
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼—(å¤ªé™½è¦³æ¸¬è¡›æ˜Ÿèžåˆ) Rank ï¼ºï¼¸ï¼ï¼ï¼—ãƒ»è…•åŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼—(ã‚¨ã‚¦ãƒ­ãƒ‘èžåˆ) Rank ï¼ºï¼¸ï¼ï¼ï¼—ãƒ»è…•åŽŸç¨® Level x y
 
 
-Ÿ–Ø¯E‰q¯—Z‡‚P‚TŒ´Ží
-Create “G ‚y‚w|‚P‚U Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚P‚V Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚P‚W Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚P‚X Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚Q‚O Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚Q‚P Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚Q‚Q Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚Q‚R Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚Q‚S Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚Q‚T Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚Q‚U Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚Q‚V Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚Q‚W Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚Q‚X Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚R‚O Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
+ãƒ»è…¸åŽŸç¨®ãƒãƒªã‚¨ãƒ¼ã‚·ãƒ§ãƒ³
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼‘(ãƒ”ãƒ©ãƒŸãƒƒãƒ‰èžåˆ) Rank ï¼ºï¼¸ï¼ï¼‘ï¼‘ãƒ»è…¸åŽŸç¨® Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼‘ï¼‹ï¼‘ï¼• Rank ï¼ºï¼¸ï¼ï¼‘ï¼‘ãƒ»è…¸åŽŸç¨® Level x y
+# ã¾ãŸã¯ Upgrade ï¼ºï¼¸ï¼ï¼‘ï¼‘(ãƒ”ãƒ©ãƒŸãƒƒãƒ‰èžåˆ) ï¼ºï¼¸ï¼ï¼‘ï¼‘ï¼‹ï¼‘ï¼•
 
 
-Ÿ‚yƒ}ƒXƒ^[
-Create “G ‚yƒ}ƒXƒ^[ Rank ‚yƒ}ƒXƒ^[ Level x y
+â—†æœ¨æ˜Ÿãƒ»è¡›æ˜Ÿèžåˆï¼‘ï¼•åŽŸç¨®
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼– Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼— Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼˜ Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼™ Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼’ï¼ Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼’ï¼‘ Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼’ï¼’ Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼’ï¼“ Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼’ï¼” Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼’ï¼• Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼’ï¼– Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼’ï¼— Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼’ï¼˜ Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼’ï¼™ Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼“ï¼ Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
 
-Create “G ‚y‚w|‚R‚P Rank ‚y‚w|‚R‚PES‘ŸŒ´Ží Level x y
 
-¦ ŽQlF‚yƒ}ƒXƒ^[EBossRank•t‰ÁŽž‚Ì”\—Í‹­‰»‘Œ©•\
+â—†ï¼ºãƒžã‚¹ã‚¿ãƒ¼
+Create æ•µ ï¼ºãƒžã‚¹ã‚¿ãƒ¼ Rank ï¼ºãƒžã‚¹ã‚¿ãƒ¼ Level x y
+
+Create æ•µ ï¼ºï¼¸ï¼ï¼“ï¼‘ Rank ï¼ºï¼¸ï¼ï¼“ï¼‘ãƒ»å¿ƒè‡“åŽŸç¨® Level x y
+
+â€» å‚è€ƒï¼šï¼ºãƒžã‚¹ã‚¿ãƒ¼ãƒ»BossRankä»˜åŠ æ™‚ã®èƒ½åŠ›å¼·åŒ–æ—©è¦‹è¡¨
 BossRank     0      1      2      3      4       5
-‚g‚o       48000  72000  96000 106000 116000  136000
-‚d‚m         400    420    440    460    480     500
-‘•b        1600   1900   2200   2600   3100    4100
-‰^“®«        60     65     70     75     80      85
-Å‘åUŒ‚—Í  2800   2900   3000   3100   3100    3100
+ï¼¨ï¼°       48000  72000  96000 106000 116000  136000
+ï¼¥ï¼®         400    420    440    460    480     500
+è£…ç”²        1600   1900   2200   2600   3100    4100
+é‹å‹•æ€§        60     65     70     75     80      85
+æœ€å¤§æ”»æ’ƒåŠ›  2800   2900   3000   3100   3100    3100
 
 
-E‚yƒ}ƒXƒ^[‚Ì‘Ì“à‚ÅoŒ»‚µ‚½Œ´Ží
-Create “G ‚y‚w|‚O‚U(‚yƒ}ƒXƒ^[) Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚O‚X(‚yƒ}ƒXƒ^[) Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚P‚T(‚yƒ}ƒXƒ^[) Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚P‚Q(‚yƒ}ƒXƒ^[) Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚O‚T(‚yƒ}ƒXƒ^[) Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚P‚V(‚yƒ}ƒXƒ^[) Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
-Create “G ‚y‚w|‚P‚S(‚yƒ}ƒXƒ^[) Rank ‹@ŠE‚R‚PŒ´Ží(ƒUƒR) Level x y
+ãƒ»ï¼ºãƒžã‚¹ã‚¿ãƒ¼ã®ä½“å†…ã§å‡ºç¾ã—ãŸåŽŸç¨®
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼–(ï¼ºãƒžã‚¹ã‚¿ãƒ¼) Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼™(ï¼ºãƒžã‚¹ã‚¿ãƒ¼) Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼•(ï¼ºãƒžã‚¹ã‚¿ãƒ¼) Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼’(ï¼ºãƒžã‚¹ã‚¿ãƒ¼) Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼ï¼•(ï¼ºãƒžã‚¹ã‚¿ãƒ¼) Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼—(ï¼ºãƒžã‚¹ã‚¿ãƒ¼) Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
+Create æ•µ ï¼ºï¼¸ï¼ï¼‘ï¼”(ï¼ºãƒžã‚¹ã‚¿ãƒ¼) Rank æ©Ÿç•Œï¼“ï¼‘åŽŸç¨®(ã‚¶ã‚³) Level x y
 
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-Ÿ‹@ŠEVŽíƒ]ƒk[ƒ_
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+â—†æ©Ÿç•Œæ–°ç¨®ã‚¾ãƒŒãƒ¼ãƒ€
 
-Create “G ƒ]ƒk[ƒ_ƒƒ{ Rank ‹@ŠEVŽíƒ]ƒk[ƒ_ Level x y
+Create æ•µ ã‚¾ãƒŒãƒ¼ãƒ€ãƒ­ãƒœ Rank æ©Ÿç•Œæ–°ç¨®ã‚¾ãƒŒãƒ¼ãƒ€ Level x y
 
-¦ ŽQlFƒ]ƒk[ƒ_ƒƒ{EBossRank•t‰ÁŽž‚Ì”\—Í‹­‰»‘Œ©•\
+â€» å‚è€ƒï¼šã‚¾ãƒŒãƒ¼ãƒ€ãƒ­ãƒœãƒ»BossRankä»˜åŠ æ™‚ã®èƒ½åŠ›å¼·åŒ–æ—©è¦‹è¡¨
 BossRank     0       1       2       3       4       5
-‚g‚o       15000   22500   30000   40000   50000   70000
-‚d‚m         300     320     340     360     380     400
-‘•b        1500    1800    2100    2500    3000    4000
-‰^“®«        70      75      80      85      90      95
-Å‘åUŒ‚—Í  1800    1900    2000    2100    2100    2100
-•¨Ž¿¸‰Ø    1300ŠÑ  1400ŠÑ  1500ŠÑ  1600ŠÑ  1600ŠÑ  1600ŠÑ
+ï¼¨ï¼°       15000   22500   30000   40000   50000   70000
+ï¼¥ï¼®         300     320     340     360     380     400
+è£…ç”²        1500    1800    2100    2500    3000    4000
+é‹å‹•æ€§        70      75      80      85      90      95
+æœ€å¤§æ”»æ’ƒåŠ›  1800    1900    2000    2100    2100    2100
+ç‰©è³ªæ˜‡è¯    1300è²«  1400è²«  1500è²«  1600è²«  1600è²«  1600è²«
 
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-Ÿƒ\[ƒ‹‚P‚P—V¯Žå           „§BossRank 1`2 ƒvƒ‰ƒWƒ…ƒi[‚Å3’ö“x
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+â—†ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»           æŽ¨å¥¨BossRank 1ï½ž2 ãƒ—ãƒ©ã‚¸ãƒ¥ãƒŠãƒ¼ã§3ç¨‹åº¦
 
-Create “G ƒp[ƒcƒLƒ…[ƒu Rank ƒ\[ƒ‹‚P‚P—V¯Žå(ƒUƒR) Level x y
+Create æ•µ ãƒ‘ãƒ¼ãƒ„ã‚­ãƒ¥ãƒ¼ãƒ– Rank ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»(ã‚¶ã‚³) Level x y
 
-Create “G ƒpƒ‹ƒpƒŒ[ƒpEƒvƒ‰ƒX Rank ƒ\[ƒ‹‚P‚P—V¯Žåƒpƒ‹ƒpƒŒ[ƒp(”Ä—p) Level x y
-# Upgrade ƒpƒ‹ƒpƒŒ[ƒpEƒvƒ‰ƒX ƒpƒ‹ƒpƒŒ[ƒpEƒvƒ‰ƒWƒ…ƒi[
+Create æ•µ ãƒ‘ãƒ«ãƒ‘ãƒ¬ãƒ¼ãƒ‘ãƒ»ãƒ—ãƒ©ã‚¹ Rank ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ‘ãƒ«ãƒ‘ãƒ¬ãƒ¼ãƒ‘(æ±Žç”¨) Level x y
+# Upgrade ãƒ‘ãƒ«ãƒ‘ãƒ¬ãƒ¼ãƒ‘ãƒ»ãƒ—ãƒ©ã‚¹ ãƒ‘ãƒ«ãƒ‘ãƒ¬ãƒ¼ãƒ‘ãƒ»ãƒ—ãƒ©ã‚¸ãƒ¥ãƒŠãƒ¼
 
-Create “G ƒsƒAEƒfƒPƒ€Eƒsƒbƒg Rank ƒ\[ƒ‹‚P‚P—V¯ŽåƒsƒAEƒfƒPƒ€(”Ä—p) Level x y
-Pilot ƒ\[ƒ‹‚P‚P—V¯Žåƒpƒ‹ƒXEƒAƒxƒ‹ Level
-Ride ƒ\[ƒ‹‚P‚P—V¯Žåƒpƒ‹ƒXEƒAƒxƒ‹
-Pilot ƒ\[ƒ‹‚P‚P—V¯Žåƒsƒ‹ƒiƒX(”Ä—p) Level
-Ride ƒ\[ƒ‹‚P‚P—V¯Žåƒsƒ‹ƒiƒX(”Ä—p)
+Create æ•µ ãƒ”ã‚¢ãƒ»ãƒ‡ã‚±ãƒ ãƒ»ãƒ”ãƒƒãƒˆ Rank ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ”ã‚¢ãƒ»ãƒ‡ã‚±ãƒ (æ±Žç”¨) Level x y
+Pilot ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ‘ãƒ«ã‚¹ãƒ»ã‚¢ãƒ™ãƒ« Level
+Ride ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ‘ãƒ«ã‚¹ãƒ»ã‚¢ãƒ™ãƒ«
+Pilot ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ”ãƒ«ãƒŠã‚¹(æ±Žç”¨) Level
+Ride ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ”ãƒ«ãƒŠã‚¹(æ±Žç”¨)
 
-Create “G ƒvƒ‰ƒkƒX Rank ƒ\[ƒ‹‚P‚P—V¯Žå(ƒUƒR) Level x y
-Create “G ƒs[ƒ”ƒ@[ƒ^ Rank ƒ\[ƒ‹‚P‚P—V¯Žå(ƒUƒR) Level x y
-Create “G ƒyƒ`ƒ…ƒ‹ƒIƒ“ Rank ƒ\[ƒ‹‚P‚P—V¯Žå(ƒUƒR) Level x y
-Create “G ƒyƒ‹ƒNƒŠƒI Rank ƒ\[ƒ‹‚P‚P—V¯Žå(ƒUƒR) Level x y
-Create “G ƒ|ƒ‹ƒ^ƒ“ Rank ƒ\[ƒ‹‚P‚P—V¯Žå(ƒUƒR) Level x y
+Create æ•µ ãƒ—ãƒ©ãƒŒã‚¹ Rank ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»(ã‚¶ã‚³) Level x y
+Create æ•µ ãƒ”ãƒ¼ãƒ´ã‚¡ãƒ¼ã‚¿ Rank ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»(ã‚¶ã‚³) Level x y
+Create æ•µ ãƒšãƒãƒ¥ãƒ«ã‚ªãƒ³ Rank ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»(ã‚¶ã‚³) Level x y
+Create æ•µ ãƒšãƒ«ã‚¯ãƒªã‚ª Rank ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»(ã‚¶ã‚³) Level x y
+Create æ•µ ãƒãƒ«ã‚¿ãƒ³ Rank ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»(ã‚¶ã‚³) Level x y
 
-Create “G ƒsƒTEƒ\[ƒ‹ Rank ƒ\[ƒ‹‚P‚P—V¯ŽåƒsƒTEƒ\[ƒ‹ Level x y
-¦ ‚Ù‚ÚƒCƒxƒ“ƒg—p
+Create æ•µ ãƒ”ã‚µãƒ»ã‚½ãƒ¼ãƒ« Rank ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ”ã‚µãƒ»ã‚½ãƒ¼ãƒ« Level x y
+â€» ã»ã¼ã‚¤ãƒ™ãƒ³ãƒˆç”¨
 
-¦ ŽQlFƒsƒTEƒ\[ƒ‹EBossRank•t‰ÁŽž‚Ì”\—Í‹­‰»‘Œ©•\
+â€» å‚è€ƒï¼šãƒ”ã‚µãƒ»ã‚½ãƒ¼ãƒ«ãƒ»BossRankä»˜åŠ æ™‚ã®èƒ½åŠ›å¼·åŒ–æ—©è¦‹è¡¨
 BossRank    0      1      2      3      4       5
 HP        30000  45000  60000  70000  80000  100000
 EN          300    320    340    360    380     400
-‘•b       1000   1300   1600   2000   2500    3500
-‰^“®«       30     35     40     45     50      55
-Å‘åUŒ‚—Í 2000   2100   2200   2300   2300    2300
+è£…ç”²       1000   1300   1600   2000   2500    3500
+é‹å‹•æ€§       30     35     40     45     50      55
+æœ€å¤§æ”»æ’ƒåŠ› 2000   2100   2200   2300   2300    2300
 
 
-EŠelŠÔ‘Ô
-Create “G ƒ\[ƒ‹‚P‚P—V¯Žåƒpƒ‹ƒpƒŒ[ƒp Rank ƒ\[ƒ‹‚P‚P—V¯Žåƒpƒ‹ƒpƒŒ[ƒp(”Ä—p) Level x y
-Create “G ƒ\[ƒ‹‚P‚P—V¯ŽåƒsƒAEƒfƒPƒ€ Rank ƒ\[ƒ‹‚P‚P—V¯ŽåƒsƒAEƒfƒPƒ€(”Ä—p) Level x y
-Create “G ƒ\[ƒ‹‚P‚P—V¯Žåƒsƒ‹ƒiƒX Rank ƒ\[ƒ‹‚P‚P—V¯Žåƒsƒ‹ƒiƒX(”Ä—p) Level x y
-Create “G ƒ\[ƒ‹‚P‚P—V¯Žåƒpƒ‹ƒXEƒAƒxƒ‹ Rank ƒ\[ƒ‹‚P‚P—V¯Žåƒpƒ‹ƒXEƒAƒxƒ‹ Level x y
-Create “G ƒ\[ƒ‹‚P‚P—V¯ŽåƒyƒCEƒ‰EƒJƒCƒ“ Rank ƒ\[ƒ‹‚P‚P—V¯ŽåƒyƒCEƒ‰EƒJƒCƒ“(”Ä—p) Level x y
+ãƒ»å„äººé–“æ…‹
+Create æ•µ ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ‘ãƒ«ãƒ‘ãƒ¬ãƒ¼ãƒ‘ Rank ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ‘ãƒ«ãƒ‘ãƒ¬ãƒ¼ãƒ‘(æ±Žç”¨) Level x y
+Create æ•µ ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ”ã‚¢ãƒ»ãƒ‡ã‚±ãƒ  Rank ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ”ã‚¢ãƒ»ãƒ‡ã‚±ãƒ (æ±Žç”¨) Level x y
+Create æ•µ ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ”ãƒ«ãƒŠã‚¹ Rank ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ”ãƒ«ãƒŠã‚¹(æ±Žç”¨) Level x y
+Create æ•µ ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ‘ãƒ«ã‚¹ãƒ»ã‚¢ãƒ™ãƒ« Rank ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒ‘ãƒ«ã‚¹ãƒ»ã‚¢ãƒ™ãƒ« Level x y
+Create æ•µ ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒšã‚¤ãƒ»ãƒ©ãƒ»ã‚«ã‚¤ãƒ³ Rank ã‚½ãƒ¼ãƒ«ï¼‘ï¼‘éŠæ˜Ÿä¸»ãƒšã‚¤ãƒ»ãƒ©ãƒ»ã‚«ã‚¤ãƒ³(æ±Žç”¨) Level x y
 
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-ŸƒoƒCƒIƒlƒbƒg               „§BossRank 1`2
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+â—†ãƒã‚¤ã‚ªãƒãƒƒãƒˆ               æŽ¨å¥¨BossRank 1ï½ž2
 
-Create “G ‚f|ƒMƒKƒeƒXƒN Rank ƒoƒCƒIƒlƒbƒg‚`‚h(ƒUƒR) Level x y
-Create “G ƒMƒKƒeƒXƒNEƒhƒD Rank ƒoƒCƒIƒlƒbƒg‚`‚h(ƒUƒR) Level x y
+Create æ•µ ï¼§ï¼ã‚®ã‚¬ãƒ†ã‚¹ã‚¯ Rank ãƒã‚¤ã‚ªãƒãƒƒãƒˆï¼¡ï¼©(ã‚¶ã‚³) Level x y
+Create æ•µ ã‚®ã‚¬ãƒ†ã‚¹ã‚¯ãƒ»ãƒ‰ã‚¥ Rank ãƒã‚¤ã‚ªãƒãƒƒãƒˆï¼¡ï¼©(ã‚¶ã‚³) Level x y
 
-Create “G ƒƒrƒEƒX‹³Žö Rank ƒƒrƒEƒX‹³Žö Level x y
-Create “G ƒ‰ƒvƒ‰ƒX”ŽŽm Rank ƒ‰ƒvƒ‰ƒX”ŽŽm Level x y
+Create æ•µ ãƒ¡ãƒ“ã‚¦ã‚¹æ•™æŽˆ Rank ãƒ¡ãƒ“ã‚¦ã‚¹æ•™æŽˆ Level x y
+Create æ•µ ãƒ©ãƒ—ãƒ©ã‚¹åšå£« Rank ãƒ©ãƒ—ãƒ©ã‚¹åšå£« Level x y
 
-Create “G ƒVƒFƒ“ƒhƒKƒ‹ƒf Rank ƒoƒCƒIƒlƒbƒg‚`‚h(ƒUƒR) Level x y
+Create æ•µ ã‚·ã‚§ãƒ³ãƒ‰ã‚¬ãƒ«ãƒ‡ Rank ãƒã‚¤ã‚ªãƒãƒƒãƒˆï¼¡ï¼©(ã‚¶ã‚³) Level x y
 
-Create “G ƒMƒ€ƒŒƒbƒgEƒAƒ“ƒvƒ‹[ƒŒ Rank ƒMƒ€ƒŒƒbƒg(‚a‚j‚f) Level x y
-
-
-=============================================================================================================
-¡MIDIƒŠƒXƒg (2010/12Œ»Ý)
-
-cccc•~“‡‚ÌMIDIƒpƒbƒN‚ÉŽû˜^‚³‚ê‚Ä‚¢‚é‚à‚Ì
-›cccc‚ ‚ê‚Î–Â‚é‚à‚Ì •KŽE‹ZBGM“™
-‚»‚Ì‘¼ccŠù‘¶ƒVƒiƒŠƒI‚ÅŽw’è‚³‚ê‚Ä‚¢‚½‚èA‰ß‹Ž‚Éƒlƒbƒgã‚É‘¶Ý‚µ‚Ä‚¢‚½‚è‚µ‚½‚½‚ßA
-          MIDI–¼‚ª’è‚Ü‚Á‚Ä‚¢‚é‚à‚Ì
-
-BKG_BraveRoboTroops.mid              Å‹­—EŽÒƒƒ{ŒR’c
-BKG_DividingDriver.mid               ƒfƒBƒoƒCƒfƒBƒ“ƒOEƒhƒ‰ƒCƒo[
-EBrave Fight.mid                      —E‹C‚ ‚éí‚¢
-Final Fusion.mid                     ƒtƒ@ƒCƒiƒ‹Eƒtƒ…[ƒWƒ‡ƒ“
-GaoGaiGar.mid                        —EŽÒ‰¤’a¶I
-›GaoGaiGarFinal.mid                   —EŽÒ‰¤’a¶I -_˜b(ƒ}ƒCƒ\ƒƒW[)ƒ”ƒ@[ƒWƒ‡ƒ“
-EGaoGaiGar_ED.mid                     ‚¢‚Â‚©¯‚ÌŠC‚Å
-EGaoGaiGar_LikeAFlowerInTheWind.mid   •—‚Ì’†‚Ì‰Ô‚Ì‚æ‚¤‚É
-›GoldionHammer.mid                    ƒSƒ‹ƒfƒBƒIƒ“ƒnƒ“ƒ}[
-Hell&Heaven.mid                      ƒwƒ‹•ƒwƒuƒ“
-
-¦ ‹È–¼‚ÍƒTƒEƒ“ƒhƒgƒ‰ƒbƒN‚Ì‹LÚ‚É]‚Á‚Ä‚¢‚Ü‚·B
+Create æ•µ ã‚®ãƒ ãƒ¬ãƒƒãƒˆãƒ»ã‚¢ãƒ³ãƒ—ãƒ«ãƒ¼ãƒ¬ Rank ã‚®ãƒ ãƒ¬ãƒƒãƒˆ(ï¼¢ï¼«ï¼§) Level x y
 
 
 =============================================================================================================
-¡—ªŒê
+â– MIDIãƒªã‚¹ãƒˆ (2010/12ç¾åœ¨)
 
-‚d‚h            Extra Intelligence = ’n‹…ŠO’m«‘Ì
-‚d‚rƒEƒCƒ“ƒhƒE  Escape Window
-‚e‚eƒ~ƒ‰[      Free Fly Miller
-‚f‚a‚q@@@    G-Stone Driven Brave Robot          ¦ ‰Šú‚ÌŽ‘—¿‚ÍDrived•\‹L Œã‚ÉDriven‚Å“ˆê‚µ‚½–Í—l
-‚f‚f‚f          Gutsy Geoid Guard  ¨  Gutsy Galaxy Guard
-‚h‚c‚T          Indomitable Defender Five
-‚r‚oƒpƒbƒN      Self Propellant Pack
-‚y‚w            Zonder Exception = w—áŠO“Iƒ]ƒ“ƒ_[x= Œ´Ží
+â—Žâ€¦â€¦â€¦â€¦æ•·å³¶ã®MIDIãƒ‘ãƒƒã‚¯ã«åŽéŒ²ã•ã‚Œã¦ã„ã‚‹ã‚‚ã®
+â—‹â€¦â€¦â€¦â€¦ã‚ã‚Œã°é³´ã‚‹ã‚‚ã® å¿…æ®ºæŠ€BGMç­‰
+ãã®ä»–â€¦â€¦æ—¢å­˜ã‚·ãƒŠãƒªã‚ªã§æŒ‡å®šã•ã‚Œã¦ã„ãŸã‚Šã€éŽåŽ»ã«ãƒãƒƒãƒˆä¸Šã«å­˜åœ¨ã—ã¦ã„ãŸã‚Šã—ãŸãŸã‚ã€
+          MIDIåãŒå®šã¾ã£ã¦ã„ã‚‹ã‚‚ã®
 
+â—ŽBKG_BraveRoboTroops.mid              æœ€å¼·å‹‡è€…ãƒ­ãƒœè»å›£
+â—ŽBKG_DividingDriver.mid               ãƒ‡ã‚£ãƒã‚¤ãƒ‡ã‚£ãƒ³ã‚°ãƒ»ãƒ‰ãƒ©ã‚¤ãƒãƒ¼
+ãƒ»Brave Fight.mid                      å‹‡æ°—ã‚ã‚‹æˆ¦ã„
+â—ŽFinal Fusion.mid                     ãƒ•ã‚¡ã‚¤ãƒŠãƒ«ãƒ»ãƒ•ãƒ¥ãƒ¼ã‚¸ãƒ§ãƒ³
+â—ŽGaoGaiGar.mid                        å‹‡è€…çŽ‹èª•ç”Ÿï¼
+â—‹GaoGaiGarFinal.mid                   å‹‡è€…çŽ‹èª•ç”Ÿï¼ -ç¥žè©±(ãƒžã‚¤ã‚½ãƒ­ã‚¸ãƒ¼)ãƒ´ã‚¡ãƒ¼ã‚¸ãƒ§ãƒ³
+ãƒ»GaoGaiGar_ED.mid                     ã„ã¤ã‹æ˜Ÿã®æµ·ã§
+ãƒ»GaoGaiGar_LikeAFlowerInTheWind.mid   é¢¨ã®ä¸­ã®èŠ±ã®ã‚ˆã†ã«
+â—‹GoldionHammer.mid                    ã‚´ãƒ«ãƒ‡ã‚£ã‚ªãƒ³ãƒãƒ³ãƒžãƒ¼
+â—ŽHell&Heaven.mid                      ãƒ˜ãƒ«ï¼†ãƒ˜ãƒ–ãƒ³
 
-=============================================================================================================
-¡SPEC DATA
-   ƒVƒiƒŠƒI‚É}ŠÓ‚ð‚Â‚¯‚é‚æ‚¤‚È•û‚Ìˆê•‚É‚È‚ê‚ÎA‚Æ‚¢‚¤’ö“x‚Ì‚à‚ÌB
-   ˆê‰ž‚ÍŒöŽ®ƒf[ƒ^‚É‘¥‚Á‚Ä‚¢‚é‚Í‚¸‚Å‚·‚ªA‘½­ŠÔˆá‚Á‚Ä‚¢‚Ä‚à‘å–Ú‚ÉŒ©‚Ä‚¢‚½‚¾‚¯‚é‚Æ‚ ‚è‚ª‚½‚¢‚Å‚·B
-
-   GBR-5‚ÍŒ‡”Ô  ’´—³_‚ð”òs‰Â”\‚É‚·‚éuŒZ‹Mv‚Ì—\’è‚¾‚Á‚½‚ª
-   ƒSƒ‹ƒfƒB[ƒ}[ƒOŠJ”­‚É”º‚¢(Žå‚ÉŠß‹ï‚ÌŽ–î‚Å)Œv‰æ‚ª“ÚÁ‚µ‚½–Í—l
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-GBR-1  ƒKƒIƒKƒCƒK[                 ƒX[ƒp[ƒƒJƒmƒCƒh            ‘S‚:31.5m                d—Ê:630.0t
-GBR-1  ƒXƒ^[ƒKƒIƒKƒCƒK[(Œ€’†–¢ŒÄÌ)                                          ‘S•:38.5m   d—Ê:716.0t
-GBR-11 ƒKƒIƒtƒ@ƒCƒK[               ƒtƒ@ƒCƒeƒBƒ“ƒOƒƒJƒmƒCƒh      ‘S‚:32.0m                d—Ê:660.0t
-ƒWƒFƒlƒVƒbƒNƒKƒIƒKƒCƒK[            ƒWƒFƒlƒVƒbƒNƒƒJƒmƒCƒh        ‘S‚:34.7m(“ª•”‚Ü‚Å31.5m) d—Ê:684.7t
-GBR-21 ƒKƒIƒKƒCƒS[                 ƒX[ƒp[ƒjƒ…[ƒƒƒJƒmƒCƒh
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-ƒKƒCƒK[                            ƒƒJƒmƒCƒh                    ‘S‚:23.5m                d—Ê:112.6t
-ƒKƒIƒtƒ@[                          ƒƒJƒmƒCƒh                    ‘S‚:22.3m                d—Ê:39.5t(Š£‘‡d—Ê)
-ƒtƒ@ƒ“ƒgƒ€ƒKƒI[                    ƒKƒI[ƒ}ƒVƒ“                  ‘S’·:21.2m   ‘S•:20.1m   d—Ê:39.5t(‘S”õd—Ê82.1t)
-ƒWƒFƒlƒVƒbƒNƒKƒCƒK[                ƒƒJƒmƒCƒh                    ‘S‚:23.5m                d—Ê:118.2t
-ŠoÁlŠM†                          ƒjƒ…[ƒƒƒJƒmƒCƒh
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-ƒMƒƒƒŒƒIƒ“                          ‰F’ˆƒƒJƒ‰ƒCƒIƒ“              ‘S‚:9.8m                 d—Ê:112.5t
-ƒWƒFƒlƒVƒbƒNƒMƒƒƒŒƒIƒ“              ‰F’ˆƒƒJƒ‰ƒCƒIƒ“              ‘S‚:9.8m                 d—Ê:118.1t
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-ƒ‰ƒCƒi[ƒKƒI[                      ƒKƒI[ƒ}ƒVƒ“                  ‘S’·:24.6m                d—Ê: 55.4t
-ƒhƒŠƒ‹ƒKƒI[                        ƒKƒI[ƒ}ƒVƒ“                  ‘S’·:18.2m                d—Ê:298.0t
-ƒXƒeƒ‹ƒXƒKƒI[                      ƒKƒI[ƒ}ƒVƒ“                               ‘S•:34.7m   d—Ê:164.0t
-ƒXƒeƒ‹ƒXƒKƒI[‡U                    ƒKƒI[ƒ}ƒVƒ“                               ‘S•:38.5m   d—Ê:250.0t
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-ƒ‰ƒCƒi[ƒKƒI[‡U                    ƒKƒI[ƒ}ƒVƒ“                  ‘S’·:13.1m(“WŠJŽž24.6m)   d—Ê:133.3t
-ƒhƒŠƒ‹ƒKƒI[‡U                      ƒKƒI[ƒ}ƒVƒ“                  ‘S’·:18.2m                d—Ê:299.0t
-ƒXƒeƒ‹ƒXƒKƒI[‡V                    ƒKƒI[ƒ}ƒVƒ“                               ‘S•:35.0m   d—Ê:122.7t
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-ƒuƒƒEƒNƒ“ƒKƒI[                    ƒWƒFƒlƒVƒbƒNƒ}ƒVƒ“            ‘S’·:15.1m                d—Ê: 26.8t
-ƒvƒƒeƒNƒgƒKƒI[                    ƒWƒFƒlƒVƒbƒNƒ}ƒVƒ“            ‘S’·:15.1m                d—Ê: 31.4t
-ƒXƒpƒCƒ‰ƒ‹ƒKƒI[                    ƒWƒFƒlƒVƒbƒNƒ}ƒVƒ“            ‘S’·:20.3m                d—Ê:156.5t
-ƒXƒgƒŒƒCƒgƒKƒI[                    ƒWƒFƒlƒVƒbƒNƒ}ƒVƒ“            ‘S’·:20.3m                d—Ê:156.5t
-ƒKƒWƒFƒbƒgƒKƒI[                    ƒWƒFƒlƒVƒbƒNƒ}ƒVƒ“            ‘S’·:36.0m   ‘S•37.5m    d—Ê:195.3t
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-GMX-GH101 ƒSƒ‹ƒfƒB[ƒ}[ƒO          ƒ}ƒ‹ƒ`ƒƒ{                    ‘S‚:25.5m                d—Ê:625.0t
-ƒSƒ‹ƒfƒBƒIƒ“ƒnƒ“ƒ}[                ‚fƒc[ƒ‹                      ‘S’·:37.0m                d—Ê:300.0t
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-GBR-2 •X—³                          ƒr[ƒNƒ‹ƒƒ{                  ‘S‚:20.5m                d—Ê:240.0t
-GBR-3 ‰Š—³                          ƒr[ƒNƒ‹ƒƒ{                  ‘S‚:20.5m                d—Ê:255.0t/235.0t+25.0t
-’´—³_                              ƒhƒbƒLƒ“ƒOƒr[ƒNƒ‹ƒƒ{        ‘S‚:28.0m                d—Ê:495.0t
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-GBR-6 •——´                          ƒr[ƒNƒ‹ƒƒ{                  ‘S‚:20.5m                d—Ê:235.0t
-GBR-7 —‹—´                          ƒr[ƒNƒ‹ƒƒ{                  ‘S‚:20.5m                d—Ê:230.0t
-Œ‚—´_                              ƒhƒbƒLƒ“ƒOƒr[ƒNƒ‹ƒƒ{        ‘S‚:28.0m                d—Ê:465.0t
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-Œ¶—³_                              ‹KŠiŠOƒhƒbƒLƒ“ƒOƒr[ƒNƒ‹ƒƒ{  ‘S‚:28.0m                d—Ê:470.0t
-‹­—´_                              ‹KŠiŠOƒhƒbƒLƒ“ƒOƒr[ƒNƒ‹ƒƒ{  ‘S‚:28.0m                d—Ê:490.0t
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-GBR-8 Œõ—³                          ƒr[ƒNƒ‹ƒƒ{                  ‘S‚:17.5m                d—Ê:210.0t
-GBR-9 ˆÅ—³                          ƒr[ƒNƒ‹ƒƒ{                  ‘S‚:17.5m                d—Ê:220.0t/200.0t+20.0t
-“V—³_                              ƒhƒbƒLƒ“ƒOƒr[ƒNƒ‹ƒƒ{        ‘S‚:24.0m                d—Ê:430.0t
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-GBR-4 ƒ{ƒ‹ƒtƒHƒbƒO                  ƒr[ƒNƒ‹ƒƒ{                  ‘S‚:10.7m                d—Ê: 9.5t(‘S”õd—Ê13.5t)
-ƒrƒbƒOƒ{ƒ‹ƒtƒHƒbƒO                  ƒhƒbƒLƒ“ƒOƒr[ƒNƒ‹ƒƒ{        ‘S‚:21.8m                d—Ê:12.3t(‘S”õd—Ê18.0t)
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-ƒKƒ“ƒh[ƒxƒ‹                        ƒKƒ“ƒ}ƒVƒ“                    ‘S‚:8.9m                 d—Ê:0.75t(‘S”õd—Ê1.0t)
-ƒKƒ“ƒOƒ‹[                          ƒKƒ“ƒ}ƒVƒ“                    ‘S‚:9.0m                 d—Ê:2.55t(‘S”õd—Ê3.5t)
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-GBR-10 ƒ|ƒ‹ƒR[ƒg                   ƒr[ƒNƒ‹ƒƒ{                  ‘S‚:•s–¾(„’è3`5m’ö“x)  d—Ê:1.4t(‘S”õd—Ê1.5t)
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-XCR-13 ƒ}ƒCƒNEƒTƒEƒ“ƒ_[ƒX‚P‚R¢   ƒRƒXƒ‚ƒƒ{/ƒu[ƒ€ƒƒ{         ‘S‚:10.2m/20.3m          d—Ê:42.5t
-XCR-1`12 ƒ}ƒCƒNEƒTƒEƒ“ƒ_[ƒX      ƒRƒXƒ‚ƒƒ{/ƒu[ƒ€ƒƒ{         ‘S‚:10.2m/20.3m          d—Ê:42.5t
-XCV-1 ƒoƒŠƒoƒŠ[ƒ“/XCV-7 ƒXƒ^ƒWƒI‚V ƒRƒXƒ‚ƒr[ƒNƒ‹                ‘S’·:23.9m   ‘S•:21.5m   d—Ê:56.7t
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-ƒLƒ“ƒOƒWƒFƒCƒ_[                    ƒWƒƒƒCƒAƒ“ƒgƒƒJƒmƒCƒh        ‘S‚:101.0m               d—Ê:32,720t
-ƒWƒFƒCƒA[ƒN                        ƒWƒFƒCƒA[ƒN‹‰’´œW‹‰íŠÍ      ‘S’·:107.0m               d—Ê:32,720t
-ƒWƒFƒCƒ_[                          ƒƒJƒmƒCƒh                    ‘S‚: 25.3m               d—Ê:   204t
-ƒWƒFƒCƒo[ƒh                                                      ‘S’·: 41.5m               d—Ê:   204t
-ƒWƒFƒCƒLƒƒƒŠƒA[                    ƒWƒFƒCƒA[ƒN‹‰’´œW‹‰íŠÍ      ‘S’·:107.0m               d—Ê:32,516t
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-ƒGƒŠƒA‡T        ŽO’i”òsb”Â‹ó•ê               ‘S’·:200m           ‘S‚:100m                       –žÚ”r…—Ê: 79,000t
-ƒGƒŠƒA‡U        ‹­P—g—¤•â‹‹‘D                 ‘S’·:208m(”ñ“WŠJŽž) ‘S‚:112m(”ñ“WŠJŽž) ‘S•:128m   –žÚ”r…—Ê: 82,000t
-ƒGƒŠƒA‡V        ’eŠÛ‚w                         ‘S’·:200m(”ñL’·Žž)                                 –žÚ”r…—Ê:‹@–§
-ƒGƒŠƒA‡W        …—¤—¼—p®”õ‘•bŽÔ             ‘S’·:205m           ‘S‚:51m                        –žÚ”r…—Ê:200,000t
-ƒGƒŠƒA‡X        ‘½ŽŸŒ³’³•ñö…ŠÍ               ‘S’·:230m(”ñ“WŠJŽž) ‘S‚:110m(”ñ“WŠJŽž)             –žÚ”r…—Ê: 78,000t
-ƒGƒŠƒA‡Y        ŽOŽ®‹ó’†Œ¤‹†Š                 ‘S’·:205m           ‘S‚:87.0m          ‘S•:84.0m  –žÚ”r…—Ê: 65,000t
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-ƒfƒBƒrƒWƒ‡ƒ“‡T  ‚‘¬“]‘…ŽËo•êŠÍƒCƒUƒiƒM       ‘S’·:405m                \‘¢d—Ê:79,500t         Šˆ“®Žž‚Ìd—Ê:103,400t
-ƒfƒBƒrƒWƒ‡ƒ“‡U  –œ”\—Íì‹Áœ±ŠÍƒJƒiƒ„ƒS         ‘S’·:310m                \‘¢d—Ê:65,000t         Šˆ“®Žž‚Ìd—Ê:130,000t
-ƒfƒBƒrƒWƒ‡ƒ“‡V  ‚P‚O‚OŽ®Ži—ß•”‘½ŽŸŒ³ŠÍƒXƒTƒmƒI ‘S’·:350m(Šˆ“®Žž445m)    \‘¢d—Ê:76,000t         Šˆ“®Žž‚Ìd—Ê: 98,800t
-ƒfƒBƒrƒWƒ‡ƒ“‡W  ‘Sˆæ‘o“·•âCŠÍƒAƒ}ƒeƒ‰ƒX       ‘S’·:380m(‘o“·Žž190m)    \‘¢d—Ê:80,000t         Šˆ“®Žž‚Ìd—Ê:104,000t
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-ƒfƒBƒrƒWƒ‡ƒ“‡X  •¨Ž¿uŠÔ‘n¢ŠÍƒtƒcƒkƒV
-ƒfƒBƒrƒWƒ‡ƒ“‡Y  –³ŒÀ˜AŒ‹—A‘…ŠÍƒ~ƒYƒn
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-ƒfƒBƒrƒWƒ‡ƒ“‡Z  ’´—ƒŽËoŽi—ßŠÍƒcƒNƒˆƒ~         ‘S’·:340m           ‘S‚:120m           ‘S•:1,000m       d—Ê:124,000t
-ƒfƒBƒrƒWƒ‡ƒ“‡[  ÅŒ‚‘½Œ³”R“±ŠÍƒ^ƒPƒnƒ„         ‘S’·:571m           ‘S‚:350m           ‘S•:  350m       d—Ê: 96,000t
-ƒfƒBƒrƒWƒ‡ƒ“‡\  ‹É‹PŠoÁ•¡“·ŠÍƒqƒ‹ƒ           ‘S’·:338m           ‘S‚:255m           ‘S•:  368m       d—Ê:106,000t
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-¦ ƒXƒyƒbƒNãA‰Š—³‚Ìd—Ê‚Í235t+25t‚ÅŒv260t‚Å‚·‚ªA’´—³_‚Ìd—Ê495t‚©‚ç•X—³‚Ìd—Ê240t‚ð
-   ˆø‚­‚Æ255t‚É‚µ‚©‚È‚è‚Ü‚¹‚ñB‚Ç‚¤‚à5t‚Ç‚±‚©‚ÉÁ‚¦‚é‚ç‚µ‚¢‚Å‚·(Î)
+â€» æ›²åã¯ã‚µã‚¦ãƒ³ãƒ‰ãƒˆãƒ©ãƒƒã‚¯ã®è¨˜è¼‰ã«å¾“ã£ã¦ã„ã¾ã™ã€‚
 
 
 =============================================================================================================
-¡–Ø¯E‰q¯—Z‡‚P‚UŒ´Žíˆê——
+â– ç•¥èªž
 
-  ZX-No.     –¼Ì           —Z‡‘ÎÛ         ‰q¯‚Ì”¼Œa       ”j‰ó‚µ‚½•Ší
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-‚y‚w|‚O‚V  ˜rŒ´Ží      ‘æ‚Q‰q¯ ƒGƒEƒƒp      1,565Km   \˜Aƒ[ƒU[–CEƒWƒFƒCƒNƒH[ƒX
-‚y‚w|‚P‚U  —ƒŒ´Ží      ‘æ‚P‰q¯ ƒCƒI          1,821Km   ƒSƒ‹ƒfƒBƒIƒ“ƒnƒ“ƒ}[
-‚y‚w|‚P‚V  ”xŒ´Ží      ‘æ‚R‰q¯ ƒKƒjƒƒf      2,634Km   ƒWƒFƒCƒNƒH[ƒX
-‚y‚w|‚P‚W  •IŒ´Ží      ‘æ‚S‰q¯ ƒJƒŠƒXƒg      2,403Km   ƒŠƒtƒŒƒNƒ^[ƒr[ƒ€
-‚y‚w|‚P‚X  •GŒ´Ží      ‘æ‚T‰q¯ ƒAƒ}ƒ‹ƒeƒA      131Km   ƒuƒƒEƒNƒ“ƒtƒ@ƒ“ƒgƒ€
-‚y‚w|‚Q‚O  ‘«Œ´Ží      ‘æ‚U‰q¯ ƒqƒ}ƒŠƒA         85Km   ƒSƒ‹ƒfƒBƒIƒ“ƒnƒ“ƒ}[
-‚y‚w|‚Q‚P  ŽñŒ´Ží      ‘æ‚V‰q¯ ƒGƒŒ[ƒ‰         40Km   ƒSƒ‹ƒfƒBƒIƒ“ƒnƒ“ƒ}[
-‚y‚w|‚Q‚Q  ‹¹Œ´Ží      ‘æ‚W‰q¯ ƒpƒVƒtƒ@ƒG       18Km   ƒ}ƒLƒVƒ}ƒ€ƒgƒEƒƒ“
-‚y‚w|‚Q‚R  ä`Œ´Ží      ‘æ‚X‰q¯ ƒVƒm[ƒy         14Km   ƒ}ƒLƒVƒ}ƒ€ƒgƒEƒƒ“
-‚y‚w|‚Q‚S  KŒ´Ží      ‘æ10‰q¯ ƒŠƒVƒeƒA         12Km   ƒSƒ‹ƒfƒBƒIƒ“ƒnƒ“ƒ}[
-‚y‚w|‚Q‚T  ¶BŠíŒ´Ží  ‘æ11‰q¯ ƒJƒ‹ƒ           15Km   Œ¶—³_E‹­—´_(Žg—p•Ší•s–¾)
-‚y‚w|‚Q‚U  t‘ŸŒ´Ží    ‘æ12‰q¯ ƒAƒiƒ“ƒP         10Km   ƒWƒFƒCƒNƒH[ƒX
-‚y‚w|‚Q‚V  Œ¨Œ´Ží      ‘æ13‰q¯ ƒŒƒ_              5Km   ƒŠƒtƒŒƒNƒ^[ƒr[ƒ€
-‚y‚w|‚Q‚W  äNã÷Œ´Ží    ‘æ14‰q¯ ƒe[ƒx           50Km   ƒWƒFƒCƒNƒH[ƒX
-‚y‚w|‚Q‚X  _ŒoŒ´Ží    ‘æ15‰q¯ ƒAƒhƒ‰ƒXƒeƒA     10Km   ƒSƒ‹ƒfƒBƒIƒ“ƒnƒ“ƒ}[
-‚y‚w|‚R‚O  ‹Ø“÷Œ´Ží    ‘æ16‰q¯ ƒƒeƒBƒX         20Km   ƒŠƒtƒŒƒNƒ^[ƒr[ƒ€
-„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-‚È‚¨A1997”N“–Žž‚ÉŠm”F‚³‚ê‚Ä‚¢‚½–Ø¯‚Ì‰q¯‚Í16ŒÂ‚Å‚µ‚½‚ªA
-‚»‚ÌŒã‚ÌŠÏ‘ª‚É‚æ‚è2003”N‚Ü‚Å‚É47ŒÂ‚ªV‚½‚É”­Œ©‚³‚êAŒ»Ý‚Í63ŒÂ‚¾‚»‚¤‚Å‚·B
+ï¼¥ï¼©            Extra Intelligence = åœ°çƒå¤–çŸ¥æ€§ä½“
+ï¼¥ï¼³ã‚¦ã‚¤ãƒ³ãƒ‰ã‚¦  Escape Window
+ï¼¦ï¼¦ãƒŸãƒ©ãƒ¼      Free Fly Miller
+ï¼§ï¼¢ï¼²ã€€ã€€ã€€    G-Stone Driven Brave Robot          â€» åˆæœŸã®è³‡æ–™ã¯Drivedè¡¨è¨˜ å¾Œã«Drivenã§çµ±ä¸€ã—ãŸæ¨¡æ§˜
+ï¼§ï¼§ï¼§          Gutsy Geoid Guard  â†’  Gutsy Galaxy Guard
+ï¼©ï¼¤ï¼•          Indomitable Defender Five
+ï¼³ï¼°ãƒ‘ãƒƒã‚¯      Self Propellant Pack
+ï¼ºï¼¸            Zonder Exception = ã€Žä¾‹å¤–çš„ã‚¾ãƒ³ãƒ€ãƒ¼ã€= åŽŸç¨®
 
 
 =============================================================================================================
-¡ŽQlŽ‘—¿
-ƒ‰ƒ|[ƒg            F—EŽÒ‰¤ƒKƒIƒKƒCƒK[ ƒtƒ…[ƒWƒ‡ƒ“ƒKƒCƒh
-Špì‘“X            F—EŽÒ‰¤ƒKƒIƒKƒCƒK[ ƒtƒBƒ‹ƒ€ƒuƒbƒN‚P`‚R
-ƒeƒB[ƒc[o”Å      F—EŽÒ‰¤ƒKƒIƒKƒCƒK[ ƒtƒ@[ƒXƒgƒKƒCƒh
-ƒeƒB[ƒc[o”Å      F—EŽÒ‰¤ƒKƒIƒKƒCƒK[ ƒtƒFƒCƒY‚Q
-ƒƒfƒBƒAƒ[ƒNƒX    FŠ®‘SŽû˜^ —EŽÒ‰¤ƒKƒIƒKƒCƒK[
-ƒƒfƒBƒAƒ[ƒNƒX    F“dŒ‚ƒKƒIƒKƒCƒK[
-ƒƒfƒBƒAƒ[ƒNƒX    F—EŽÒ‰¤ƒKƒIƒKƒCƒK[FINAL the COMIC
-ƒƒfƒBƒAƒ[ƒNƒX    FƒI[ƒ‹ ƒUƒbƒg ƒKƒIƒKƒCƒK[ -—EŽÒ‰¤‘å‘S-
-KSSo”Å             FASTOUNDING ANIME ABSTRACT —EŽÒ‰¤ƒKƒIƒKƒCƒK[
-ƒPƒCƒuƒ“ƒVƒƒ        F—EŽÒ‰¤ƒKƒIƒKƒCƒK[ BLOCKADED NUMBERS ƒKƒCƒhƒuƒbƒN
-HOBBY JAPAN         FHOBBY JAPAN 1998”N‚SŒŽ†`10ŒŽ†
-HOBBY JAPAN         F—EŽÒ‰¤ƒKƒIƒKƒCƒK[FINAL ƒrƒWƒ…ƒAƒ‹ƒuƒbƒN
-ƒƒfƒBƒAƒtƒ@ƒNƒgƒŠ[FMF•¶ŒÉ —EŽÒ‰¤ƒKƒIƒKƒCƒK[FINAL 1`2
-ƒƒfƒBƒAƒtƒ@ƒNƒgƒŠ[FMF•¶ŒÉ —EŽÒ‰¤ƒKƒIƒKƒCƒK[2005 Ž‚Žq‚Ì—‰¤
+â– SPEC DATA
+   ã‚·ãƒŠãƒªã‚ªã«å›³é‘‘ã‚’ã¤ã‘ã‚‹ã‚ˆã†ãªæ–¹ã®ä¸€åŠ©ã«ãªã‚Œã°ã€ã¨ã„ã†ç¨‹åº¦ã®ã‚‚ã®ã€‚
+   ä¸€å¿œã¯å…¬å¼ãƒ‡ãƒ¼ã‚¿ã«å‰‡ã£ã¦ã„ã‚‹ã¯ãšã§ã™ãŒã€å¤šå°‘é–“é•ã£ã¦ã„ã¦ã‚‚å¤§ç›®ã«è¦‹ã¦ã„ãŸã ã‘ã‚‹ã¨ã‚ã‚ŠãŒãŸã„ã§ã™ã€‚
+
+   GBR-5ã¯æ¬ ç•ª  è¶…ç«œç¥žã‚’é£›è¡Œå¯èƒ½ã«ã™ã‚‹ã€Œå…„è²´ã€ã®äºˆå®šã ã£ãŸãŒ
+   ã‚´ãƒ«ãƒ‡ã‚£ãƒ¼ãƒžãƒ¼ã‚°é–‹ç™ºã«ä¼´ã„(ä¸»ã«çŽ©å…·ã®äº‹æƒ…ã§)è¨ˆç”»ãŒé “æŒ«ã—ãŸæ¨¡æ§˜
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+GBR-1  ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼                 ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ¡ã‚«ãƒŽã‚¤ãƒ‰            å…¨é«˜:31.5m                é‡é‡:630.0t
+GBR-1  ã‚¹ã‚¿ãƒ¼ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼(åŠ‡ä¸­æœªå‘¼ç§°)                                          å…¨å¹…:38.5m   é‡é‡:716.0t
+GBR-11 ã‚¬ã‚ªãƒ•ã‚¡ã‚¤ã‚¬ãƒ¼               ãƒ•ã‚¡ã‚¤ãƒ†ã‚£ãƒ³ã‚°ãƒ¡ã‚«ãƒŽã‚¤ãƒ‰      å…¨é«˜:32.0m                é‡é‡:660.0t
+ã‚¸ã‚§ãƒã‚·ãƒƒã‚¯ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼            ã‚¸ã‚§ãƒã‚·ãƒƒã‚¯ãƒ¡ã‚«ãƒŽã‚¤ãƒ‰        å…¨é«˜:34.7m(é ­éƒ¨ã¾ã§31.5m) é‡é‡:684.7t
+GBR-21 ã‚¬ã‚ªã‚¬ã‚¤ã‚´ãƒ¼                 ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ‹ãƒ¥ãƒ¼ãƒ­ãƒ¡ã‚«ãƒŽã‚¤ãƒ‰
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ã‚¬ã‚¤ã‚¬ãƒ¼                            ãƒ¡ã‚«ãƒŽã‚¤ãƒ‰                    å…¨é«˜:23.5m                é‡é‡:112.6t
+ã‚¬ã‚ªãƒ•ã‚¡ãƒ¼                          ãƒ¡ã‚«ãƒŽã‚¤ãƒ‰                    å…¨é«˜:22.3m                é‡é‡:39.5t(ä¹¾ç‡¥é‡é‡)
+ãƒ•ã‚¡ãƒ³ãƒˆãƒ ã‚¬ã‚ªãƒ¼                    ã‚¬ã‚ªãƒ¼ãƒžã‚·ãƒ³                  å…¨é•·:21.2m   å…¨å¹…:20.1m   é‡é‡:39.5t(å…¨å‚™é‡é‡82.1t)
+ã‚¸ã‚§ãƒã‚·ãƒƒã‚¯ã‚¬ã‚¤ã‚¬ãƒ¼                ãƒ¡ã‚«ãƒŽã‚¤ãƒ‰                    å…¨é«˜:23.5m                é‡é‡:118.2t
+è¦šé†’äººå‡±å·                          ãƒ‹ãƒ¥ãƒ¼ãƒ­ãƒ¡ã‚«ãƒŽã‚¤ãƒ‰
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ã‚®ãƒ£ãƒ¬ã‚ªãƒ³                          å®‡å®™ãƒ¡ã‚«ãƒ©ã‚¤ã‚ªãƒ³              å…¨é«˜:9.8m                 é‡é‡:112.5t
+ã‚¸ã‚§ãƒã‚·ãƒƒã‚¯ã‚®ãƒ£ãƒ¬ã‚ªãƒ³              å®‡å®™ãƒ¡ã‚«ãƒ©ã‚¤ã‚ªãƒ³              å…¨é«˜:9.8m                 é‡é‡:118.1t
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ãƒ©ã‚¤ãƒŠãƒ¼ã‚¬ã‚ªãƒ¼                      ã‚¬ã‚ªãƒ¼ãƒžã‚·ãƒ³                  å…¨é•·:24.6m                é‡é‡: 55.4t
+ãƒ‰ãƒªãƒ«ã‚¬ã‚ªãƒ¼                        ã‚¬ã‚ªãƒ¼ãƒžã‚·ãƒ³                  å…¨é•·:18.2m                é‡é‡:298.0t
+ã‚¹ãƒ†ãƒ«ã‚¹ã‚¬ã‚ªãƒ¼                      ã‚¬ã‚ªãƒ¼ãƒžã‚·ãƒ³                               å…¨å¹…:34.7m   é‡é‡:164.0t
+ã‚¹ãƒ†ãƒ«ã‚¹ã‚¬ã‚ªãƒ¼â…¡                    ã‚¬ã‚ªãƒ¼ãƒžã‚·ãƒ³                               å…¨å¹…:38.5m   é‡é‡:250.0t
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ãƒ©ã‚¤ãƒŠãƒ¼ã‚¬ã‚ªãƒ¼â…¡                    ã‚¬ã‚ªãƒ¼ãƒžã‚·ãƒ³                  å…¨é•·:13.1m(å±•é–‹æ™‚24.6m)   é‡é‡:133.3t
+ãƒ‰ãƒªãƒ«ã‚¬ã‚ªãƒ¼â…¡                      ã‚¬ã‚ªãƒ¼ãƒžã‚·ãƒ³                  å…¨é•·:18.2m                é‡é‡:299.0t
+ã‚¹ãƒ†ãƒ«ã‚¹ã‚¬ã‚ªãƒ¼â…¢                    ã‚¬ã‚ªãƒ¼ãƒžã‚·ãƒ³                               å…¨å¹…:35.0m   é‡é‡:122.7t
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ãƒ–ãƒ­ã‚¦ã‚¯ãƒ³ã‚¬ã‚ªãƒ¼                    ã‚¸ã‚§ãƒã‚·ãƒƒã‚¯ãƒžã‚·ãƒ³            å…¨é•·:15.1m                é‡é‡: 26.8t
+ãƒ—ãƒ­ãƒ†ã‚¯ãƒˆã‚¬ã‚ªãƒ¼                    ã‚¸ã‚§ãƒã‚·ãƒƒã‚¯ãƒžã‚·ãƒ³            å…¨é•·:15.1m                é‡é‡: 31.4t
+ã‚¹ãƒ‘ã‚¤ãƒ©ãƒ«ã‚¬ã‚ªãƒ¼                    ã‚¸ã‚§ãƒã‚·ãƒƒã‚¯ãƒžã‚·ãƒ³            å…¨é•·:20.3m                é‡é‡:156.5t
+ã‚¹ãƒˆãƒ¬ã‚¤ãƒˆã‚¬ã‚ªãƒ¼                    ã‚¸ã‚§ãƒã‚·ãƒƒã‚¯ãƒžã‚·ãƒ³            å…¨é•·:20.3m                é‡é‡:156.5t
+ã‚¬ã‚¸ã‚§ãƒƒãƒˆã‚¬ã‚ªãƒ¼                    ã‚¸ã‚§ãƒã‚·ãƒƒã‚¯ãƒžã‚·ãƒ³            å…¨é•·:36.0m   å…¨å¹…37.5m    é‡é‡:195.3t
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+GMX-GH101 ã‚´ãƒ«ãƒ‡ã‚£ãƒ¼ãƒžãƒ¼ã‚°          ãƒžãƒ«ãƒãƒ­ãƒœ                    å…¨é«˜:25.5m                é‡é‡:625.0t
+ã‚´ãƒ«ãƒ‡ã‚£ã‚ªãƒ³ãƒãƒ³ãƒžãƒ¼                ï¼§ãƒ„ãƒ¼ãƒ«                      å…¨é•·:37.0m                é‡é‡:300.0t
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+GBR-2 æ°·ç«œ                          ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ                  å…¨é«˜:20.5m                é‡é‡:240.0t
+GBR-3 ç‚Žç«œ                          ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ                  å…¨é«˜:20.5m                é‡é‡:255.0t/235.0t+25.0t
+è¶…ç«œç¥ž                              ãƒ‰ãƒƒã‚­ãƒ³ã‚°ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ        å…¨é«˜:28.0m                é‡é‡:495.0t
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+GBR-6 é¢¨é¾                          ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ                  å…¨é«˜:20.5m                é‡é‡:235.0t
+GBR-7 é›·é¾                          ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ                  å…¨é«˜:20.5m                é‡é‡:230.0t
+æ’ƒé¾ç¥ž                              ãƒ‰ãƒƒã‚­ãƒ³ã‚°ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ        å…¨é«˜:28.0m                é‡é‡:465.0t
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+å¹»ç«œç¥ž                              è¦æ ¼å¤–ãƒ‰ãƒƒã‚­ãƒ³ã‚°ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ  å…¨é«˜:28.0m                é‡é‡:470.0t
+å¼·é¾ç¥ž                              è¦æ ¼å¤–ãƒ‰ãƒƒã‚­ãƒ³ã‚°ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ  å…¨é«˜:28.0m                é‡é‡:490.0t
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+GBR-8 å…‰ç«œ                          ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ                  å…¨é«˜:17.5m                é‡é‡:210.0t
+GBR-9 é—‡ç«œ                          ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ                  å…¨é«˜:17.5m                é‡é‡:220.0t/200.0t+20.0t
+å¤©ç«œç¥ž                              ãƒ‰ãƒƒã‚­ãƒ³ã‚°ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ        å…¨é«˜:24.0m                é‡é‡:430.0t
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+GBR-4 ãƒœãƒ«ãƒ•ã‚©ãƒƒã‚°                  ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ                  å…¨é«˜:10.7m                é‡é‡: 9.5t(å…¨å‚™é‡é‡13.5t)
+ãƒ“ãƒƒã‚°ãƒœãƒ«ãƒ•ã‚©ãƒƒã‚°                  ãƒ‰ãƒƒã‚­ãƒ³ã‚°ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ        å…¨é«˜:21.8m                é‡é‡:12.3t(å…¨å‚™é‡é‡18.0t)
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ã‚¬ãƒ³ãƒ‰ãƒ¼ãƒ™ãƒ«                        ã‚¬ãƒ³ãƒžã‚·ãƒ³                    å…¨é«˜:8.9m                 é‡é‡:0.75t(å…¨å‚™é‡é‡1.0t)
+ã‚¬ãƒ³ã‚°ãƒ«ãƒ¼                          ã‚¬ãƒ³ãƒžã‚·ãƒ³                    å…¨é«˜:9.0m                 é‡é‡:2.55t(å…¨å‚™é‡é‡3.5t)
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+GBR-10 ãƒãƒ«ã‚³ãƒ¼ãƒˆ                   ãƒ“ãƒ¼ã‚¯ãƒ«ãƒ­ãƒœ                  å…¨é«˜:ä¸æ˜Ž(æŽ¨å®š3ï½ž5mç¨‹åº¦)  é‡é‡:1.4t(å…¨å‚™é‡é‡1.5t)
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+XCR-13 ãƒžã‚¤ã‚¯ãƒ»ã‚µã‚¦ãƒ³ãƒ€ãƒ¼ã‚¹ï¼‘ï¼“ä¸–   ã‚³ã‚¹ãƒ¢ãƒ­ãƒœ/ãƒ–ãƒ¼ãƒ ãƒ­ãƒœ         å…¨é«˜:10.2m/20.3m          é‡é‡:42.5t
+XCR-1ï½ž12 ãƒžã‚¤ã‚¯ãƒ»ã‚µã‚¦ãƒ³ãƒ€ãƒ¼ã‚¹      ã‚³ã‚¹ãƒ¢ãƒ­ãƒœ/ãƒ–ãƒ¼ãƒ ãƒ­ãƒœ         å…¨é«˜:10.2m/20.3m          é‡é‡:42.5t
+XCV-1 ãƒãƒªãƒãƒªãƒ¼ãƒ³/XCV-7 ã‚¹ã‚¿ã‚¸ã‚ªï¼— ã‚³ã‚¹ãƒ¢ãƒ“ãƒ¼ã‚¯ãƒ«                å…¨é•·:23.9m   å…¨å¹…:21.5m   é‡é‡:56.7t
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ã‚­ãƒ³ã‚°ã‚¸ã‚§ã‚¤ãƒ€ãƒ¼                    ã‚¸ãƒ£ã‚¤ã‚¢ãƒ³ãƒˆãƒ¡ã‚«ãƒŽã‚¤ãƒ‰        å…¨é«˜:101.0m               é‡é‡:32,720t
+ã‚¸ã‚§ã‚¤ã‚¢ãƒ¼ã‚¯                        ã‚¸ã‚§ã‚¤ã‚¢ãƒ¼ã‚¯ç´šè¶…å¼©ç´šæˆ¦è‰¦      å…¨é•·:107.0m               é‡é‡:32,720t
+ã‚¸ã‚§ã‚¤ãƒ€ãƒ¼                          ãƒ¡ã‚«ãƒŽã‚¤ãƒ‰                    å…¨é«˜: 25.3m               é‡é‡:   204t
+ã‚¸ã‚§ã‚¤ãƒãƒ¼ãƒ‰                                                      å…¨é•·: 41.5m               é‡é‡:   204t
+ã‚¸ã‚§ã‚¤ã‚­ãƒ£ãƒªã‚¢ãƒ¼                    ã‚¸ã‚§ã‚¤ã‚¢ãƒ¼ã‚¯ç´šè¶…å¼©ç´šæˆ¦è‰¦      å…¨é•·:107.0m               é‡é‡:32,516t
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ã‚¨ãƒªã‚¢â…         ä¸‰æ®µé£›è¡Œç”²æ¿ç©ºæ¯               å…¨é•·:200m           å…¨é«˜:100m                       æº€è¼‰æŽ’æ°´é‡: 79,000t
+ã‚¨ãƒªã‚¢â…¡        å¼·è¥²æšé™¸è£œçµ¦èˆ¹                 å…¨é•·:208m(éžå±•é–‹æ™‚) å…¨é«˜:112m(éžå±•é–‹æ™‚) å…¨å¹…:128m   æº€è¼‰æŽ’æ°´é‡: 82,000t
+ã‚¨ãƒªã‚¢â…¢        å¼¾ä¸¸ï¼¸                         å…¨é•·:200m(éžä¼¸é•·æ™‚)                                 æº€è¼‰æŽ’æ°´é‡:æ©Ÿå¯†
+ã‚¨ãƒªã‚¢â…£        æ°´é™¸ä¸¡ç”¨æ•´å‚™è£…ç”²è»Š             å…¨é•·:205m           å…¨é«˜:51m                        æº€è¼‰æŽ’æ°´é‡:200,000t
+ã‚¨ãƒªã‚¢â…¤        å¤šæ¬¡å…ƒè«œå ±æ½œæ°´è‰¦               å…¨é•·:230m(éžå±•é–‹æ™‚) å…¨é«˜:110m(éžå±•é–‹æ™‚)             æº€è¼‰æŽ’æ°´é‡: 78,000t
+ã‚¨ãƒªã‚¢â…¥        ä¸‰å¼ç©ºä¸­ç ”ç©¶æ‰€                 å…¨é•·:205m           å…¨é«˜:87.0m          å…¨å¹…:84.0m  æº€è¼‰æŽ’æ°´é‡: 65,000t
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ãƒ‡ã‚£ãƒ“ã‚¸ãƒ§ãƒ³â…   é«˜é€Ÿè»¢æ§½å°„å‡ºæ¯è‰¦ã‚¤ã‚¶ãƒŠã‚®       å…¨é•·:405m                æ§‹é€ é‡é‡:79,500t         æ´»å‹•æ™‚ã®é‡é‡:103,400t
+ãƒ‡ã‚£ãƒ“ã‚¸ãƒ§ãƒ³â…¡  ä¸‡èƒ½åŠ›ä½œé©šæ„•è‰¦ã‚«ãƒŠãƒ¤ã‚´         å…¨é•·:310m                æ§‹é€ é‡é‡:65,000t         æ´»å‹•æ™‚ã®é‡é‡:130,000t
+ãƒ‡ã‚£ãƒ“ã‚¸ãƒ§ãƒ³â…¢  ï¼‘ï¼ï¼å¼å¸ä»¤éƒ¨å¤šæ¬¡å…ƒè‰¦ã‚¹ã‚µãƒŽã‚ª å…¨é•·:350m(æ´»å‹•æ™‚445m)    æ§‹é€ é‡é‡:76,000t         æ´»å‹•æ™‚ã®é‡é‡: 98,800t
+ãƒ‡ã‚£ãƒ“ã‚¸ãƒ§ãƒ³â…£  å…¨åŸŸåŒèƒ´è£œä¿®è‰¦ã‚¢ãƒžãƒ†ãƒ©ã‚¹       å…¨é•·:380m(åŒèƒ´æ™‚190m)    æ§‹é€ é‡é‡:80,000t         æ´»å‹•æ™‚ã®é‡é‡:104,000t
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ãƒ‡ã‚£ãƒ“ã‚¸ãƒ§ãƒ³â…¤  ç‰©è³ªçž¬é–“å‰µä¸–è‰¦ãƒ•ãƒ„ãƒŒã‚·
+ãƒ‡ã‚£ãƒ“ã‚¸ãƒ§ãƒ³â…¥  ç„¡é™é€£çµè¼¸æ§½è‰¦ãƒŸã‚ºãƒ
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ãƒ‡ã‚£ãƒ“ã‚¸ãƒ§ãƒ³â…¦  è¶…ç¿¼å°„å‡ºå¸ä»¤è‰¦ãƒ„ã‚¯ãƒ¨ãƒŸ         å…¨é•·:340m           å…¨é«˜:120m           å…¨å¹…:1,000m       é‡é‡:124,000t
+ãƒ‡ã‚£ãƒ“ã‚¸ãƒ§ãƒ³â…§  æœ€æ’ƒå¤šå…ƒç‡ƒå°Žè‰¦ã‚¿ã‚±ãƒãƒ¤         å…¨é•·:571m           å…¨é«˜:350m           å…¨å¹…:  350m       é‡é‡: 96,000t
+ãƒ‡ã‚£ãƒ“ã‚¸ãƒ§ãƒ³â…¨  æ¥µè¼è¦šé†’è¤‡èƒ´è‰¦ãƒ’ãƒ«ãƒ¡           å…¨é•·:338m           å…¨é«˜:255m           å…¨å¹…:  368m       é‡é‡:106,000t
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+â€» ã‚¹ãƒšãƒƒã‚¯ä¸Šã€ç‚Žç«œã®é‡é‡ã¯235t+25tã§è¨ˆ260tã§ã™ãŒã€è¶…ç«œç¥žã®é‡é‡495tã‹ã‚‰æ°·ç«œã®é‡é‡240tã‚’
+   å¼•ãã¨255tã«ã—ã‹ãªã‚Šã¾ã›ã‚“ã€‚ã©ã†ã‚‚5tã©ã“ã‹ã«æ¶ˆãˆã‚‹ã‚‰ã—ã„ã§ã™(ç¬‘)
+
+
+=============================================================================================================
+â– æœ¨æ˜Ÿãƒ»è¡›æ˜Ÿèžåˆï¼‘ï¼–åŽŸç¨®ä¸€è¦§
+
+  ZX-No.     åç§°           èžåˆå¯¾è±¡         è¡›æ˜Ÿã®åŠå¾„       ç ´å£Šã—ãŸæ­¦å™¨
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ï¼ºï¼¸ï¼ï¼ï¼—  è…•åŽŸç¨®      ç¬¬ï¼’è¡›æ˜Ÿ ã‚¨ã‚¦ãƒ­ãƒ‘      1,565Km   åé€£ãƒ¡ãƒ¼ã‚¶ãƒ¼ç ²ãƒ»ã‚¸ã‚§ã‚¤ã‚¯ã‚©ãƒ¼ã‚¹
+ï¼ºï¼¸ï¼ï¼‘ï¼–  ç¿¼åŽŸç¨®      ç¬¬ï¼‘è¡›æ˜Ÿ ã‚¤ã‚ª          1,821Km   ã‚´ãƒ«ãƒ‡ã‚£ã‚ªãƒ³ãƒãƒ³ãƒžãƒ¼
+ï¼ºï¼¸ï¼ï¼‘ï¼—  è‚ºåŽŸç¨®      ç¬¬ï¼“è¡›æ˜Ÿ ã‚¬ãƒ‹ãƒ¡ãƒ‡      2,634Km   ã‚¸ã‚§ã‚¤ã‚¯ã‚©ãƒ¼ã‚¹
+ï¼ºï¼¸ï¼ï¼‘ï¼˜  è‚˜åŽŸç¨®      ç¬¬ï¼”è¡›æ˜Ÿ ã‚«ãƒªã‚¹ãƒˆ      2,403Km   ãƒªãƒ•ãƒ¬ã‚¯ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ 
+ï¼ºï¼¸ï¼ï¼‘ï¼™  è†åŽŸç¨®      ç¬¬ï¼•è¡›æ˜Ÿ ã‚¢ãƒžãƒ«ãƒ†ã‚¢      131Km   ãƒ–ãƒ­ã‚¦ã‚¯ãƒ³ãƒ•ã‚¡ãƒ³ãƒˆãƒ 
+ï¼ºï¼¸ï¼ï¼’ï¼  è¶³åŽŸç¨®      ç¬¬ï¼–è¡›æ˜Ÿ ãƒ’ãƒžãƒªã‚¢         85Km   ã‚´ãƒ«ãƒ‡ã‚£ã‚ªãƒ³ãƒãƒ³ãƒžãƒ¼
+ï¼ºï¼¸ï¼ï¼’ï¼‘  é¦–åŽŸç¨®      ç¬¬ï¼—è¡›æ˜Ÿ ã‚¨ãƒ¬ãƒ¼ãƒ©         40Km   ã‚´ãƒ«ãƒ‡ã‚£ã‚ªãƒ³ãƒãƒ³ãƒžãƒ¼
+ï¼ºï¼¸ï¼ï¼’ï¼’  èƒ¸åŽŸç¨®      ç¬¬ï¼˜è¡›æ˜Ÿ ãƒ‘ã‚·ãƒ•ã‚¡ã‚¨       18Km   ãƒžã‚­ã‚·ãƒžãƒ ãƒˆã‚¦ãƒ­ãƒ³
+ï¼ºï¼¸ï¼ï¼’ï¼“  è‡åŽŸç¨®      ç¬¬ï¼™è¡›æ˜Ÿ ã‚·ãƒŽãƒ¼ãƒš         14Km   ãƒžã‚­ã‚·ãƒžãƒ ãƒˆã‚¦ãƒ­ãƒ³
+ï¼ºï¼¸ï¼ï¼’ï¼”  å°»åŽŸç¨®      ç¬¬10è¡›æ˜Ÿ ãƒªã‚·ãƒ†ã‚¢         12Km   ã‚´ãƒ«ãƒ‡ã‚£ã‚ªãƒ³ãƒãƒ³ãƒžãƒ¼
+ï¼ºï¼¸ï¼ï¼’ï¼•  ç”Ÿæ®–å™¨åŽŸç¨®  ç¬¬11è¡›æ˜Ÿ ã‚«ãƒ«ãƒ¡           15Km   å¹»ç«œç¥žãƒ»å¼·é¾ç¥ž(ä½¿ç”¨æ­¦å™¨ä¸æ˜Ž)
+ï¼ºï¼¸ï¼ï¼’ï¼–  è…Žè‡“åŽŸç¨®    ç¬¬12è¡›æ˜Ÿ ã‚¢ãƒŠãƒ³ã‚±         10Km   ã‚¸ã‚§ã‚¤ã‚¯ã‚©ãƒ¼ã‚¹
+ï¼ºï¼¸ï¼ï¼’ï¼—  è‚©åŽŸç¨®      ç¬¬13è¡›æ˜Ÿ ãƒ¬ãƒ€              5Km   ãƒªãƒ•ãƒ¬ã‚¯ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ 
+ï¼ºï¼¸ï¼ï¼’ï¼˜  è†€èƒ±åŽŸç¨®    ç¬¬14è¡›æ˜Ÿ ãƒ†ãƒ¼ãƒ™           50Km   ã‚¸ã‚§ã‚¤ã‚¯ã‚©ãƒ¼ã‚¹
+ï¼ºï¼¸ï¼ï¼’ï¼™  ç¥žçµŒåŽŸç¨®    ç¬¬15è¡›æ˜Ÿ ã‚¢ãƒ‰ãƒ©ã‚¹ãƒ†ã‚¢     10Km   ã‚´ãƒ«ãƒ‡ã‚£ã‚ªãƒ³ãƒãƒ³ãƒžãƒ¼
+ï¼ºï¼¸ï¼ï¼“ï¼  ç­‹è‚‰åŽŸç¨®    ç¬¬16è¡›æ˜Ÿ ãƒ¡ãƒ†ã‚£ã‚¹         20Km   ãƒªãƒ•ãƒ¬ã‚¯ã‚¿ãƒ¼ãƒ“ãƒ¼ãƒ 
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ãªãŠã€1997å¹´å½“æ™‚ã«ç¢ºèªã•ã‚Œã¦ã„ãŸæœ¨æ˜Ÿã®è¡›æ˜Ÿã¯16å€‹ã§ã—ãŸãŒã€
+ãã®å¾Œã®è¦³æ¸¬ã«ã‚ˆã‚Š2003å¹´ã¾ã§ã«47å€‹ãŒæ–°ãŸã«ç™ºè¦‹ã•ã‚Œã€ç¾åœ¨ã¯63å€‹ã ãã†ã§ã™ã€‚
+
+
+=============================================================================================================
+â– å‚è€ƒè³‡æ–™
+ãƒ©ãƒãƒ¼ãƒˆ            ï¼šå‹‡è€…çŽ‹ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ ãƒ•ãƒ¥ãƒ¼ã‚¸ãƒ§ãƒ³ã‚¬ã‚¤ãƒ‰
+è§’å·æ›¸åº—            ï¼šå‹‡è€…çŽ‹ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ ãƒ•ã‚£ãƒ«ãƒ ãƒ–ãƒƒã‚¯ï¼‘ï½žï¼“
+ãƒ†ã‚£ãƒ¼ãƒ„ãƒ¼å‡ºç‰ˆ      ï¼šå‹‡è€…çŽ‹ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆã‚¬ã‚¤ãƒ‰
+ãƒ†ã‚£ãƒ¼ãƒ„ãƒ¼å‡ºç‰ˆ      ï¼šå‹‡è€…çŽ‹ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ ãƒ•ã‚§ã‚¤ã‚ºï¼’
+ãƒ¡ãƒ‡ã‚£ã‚¢ãƒ¯ãƒ¼ã‚¯ã‚¹    ï¼šå®Œå…¨åŽéŒ² å‹‡è€…çŽ‹ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼
+ãƒ¡ãƒ‡ã‚£ã‚¢ãƒ¯ãƒ¼ã‚¯ã‚¹    ï¼šé›»æ’ƒã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼
+ãƒ¡ãƒ‡ã‚£ã‚¢ãƒ¯ãƒ¼ã‚¯ã‚¹    ï¼šå‹‡è€…çŽ‹ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼FINAL the COMIC
+ãƒ¡ãƒ‡ã‚£ã‚¢ãƒ¯ãƒ¼ã‚¯ã‚¹    ï¼šã‚ªãƒ¼ãƒ« ã‚¶ãƒƒãƒˆ ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ -å‹‡è€…çŽ‹å¤§å…¨-
+KSSå‡ºç‰ˆ             ï¼šASTOUNDING ANIME ABSTRACT å‹‡è€…çŽ‹ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼
+ã‚±ã‚¤ãƒ–ãƒ³ã‚·ãƒ£        ï¼šå‹‡è€…çŽ‹ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼ BLOCKADED NUMBERS ã‚¬ã‚¤ãƒ‰ãƒ–ãƒƒã‚¯
+HOBBY JAPAN         ï¼šHOBBY JAPAN 1998å¹´ï¼”æœˆå·ï½ž10æœˆå·
+HOBBY JAPAN         ï¼šå‹‡è€…çŽ‹ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼FINAL ãƒ“ã‚¸ãƒ¥ã‚¢ãƒ«ãƒ–ãƒƒã‚¯
+ãƒ¡ãƒ‡ã‚£ã‚¢ãƒ•ã‚¡ã‚¯ãƒˆãƒªãƒ¼ï¼šMFæ–‡åº« å‹‡è€…çŽ‹ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼FINAL 1ï½ž2
+ãƒ¡ãƒ‡ã‚£ã‚¢ãƒ•ã‚¡ã‚¯ãƒˆãƒªãƒ¼ï¼šMFæ–‡åº« å‹‡è€…çŽ‹ã‚¬ã‚ªã‚¬ã‚¤ã‚¬ãƒ¼2005 ç…å­ã®å¥³çŽ‹

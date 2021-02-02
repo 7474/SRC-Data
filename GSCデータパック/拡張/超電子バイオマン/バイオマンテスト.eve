@@ -1,542 +1,542 @@
-@’´“dŽqƒoƒCƒIƒ}ƒ“
-@”Ä—p
+@è¶…é›»å­ãƒã‚¤ã‚ªãƒžãƒ³
+@æ±Žç”¨
 
-ƒvƒƒ[ƒO:
-If ƒNƒŠƒA = 1 Then
-Talk ƒs[ƒ{
-‚Ý‚ñ‚ÈA€”õ‚Í‚¢‚¢‚©‚¢H
-Talk ‹½Žj˜N
-OK‚¾I
-Talk Œj–Ø‚Ð‚©‚é
-‚¢‚Â‚Å‚à‚¢‚¢‚í‚æI
-Talk ƒs[ƒ{
-‚æ‚¤‚µA‚»‚ê‚¶‚á‚¢‚­‚¼I
-ƒVƒ~ƒ…ƒŒ[ƒ^AƒXƒCƒbƒ`EƒIƒ“I
+ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°:
+If ã‚¯ãƒªã‚¢ = 1 Then
+Talk ãƒ”ãƒ¼ãƒœ
+ã¿ã‚“ãªã€æº–å‚™ã¯ã„ã„ã‹ã„ï¼Ÿ
+Talk éƒ·å²æœ—
+OKã ï¼
+Talk æ¡‚æœ¨ã²ã‹ã‚‹
+ã„ã¤ã§ã‚‚ã„ã„ã‚ã‚ˆï¼
+Talk ãƒ”ãƒ¼ãƒœ
+ã‚ˆã†ã—ã€ãã‚Œã˜ã‚ƒã„ããžï¼
+ã‚·ãƒŸãƒ¥ãƒ¬ãƒ¼ã‚¿ã€ã‚¹ã‚¤ãƒƒãƒãƒ»ã‚ªãƒ³ï¼
 End
 Else
-Talk ƒs[ƒ{
-‚Ý‚ñ‚ÈIƒMƒA‚ªŒ»‚ê‚½‚¼I
-Talk ‹½Žj˜N
-‚æ‚¤‚µI‚Ý‚ñ‚Ès‚­‚¼‚ÁII
-Talk ‚™^Œá
-‰ž‚ÁII
-Talk –îƒWƒ…ƒ“
-‚n‚jI
+Talk ãƒ”ãƒ¼ãƒœ
+ã¿ã‚“ãªï¼ã‚®ã‚¢ãŒç¾ã‚ŒãŸãžï¼
+Talk éƒ·å²æœ—
+ã‚ˆã†ã—ï¼ã¿ã‚“ãªè¡Œããžã£ï¼ï¼
+Talk é«˜æ‰çœŸå¾
+å¿œã£ï¼ï¼
+Talk çŸ¢å¹ã‚¸ãƒ¥ãƒ³
+ï¼¯ï¼«ï¼
 End
-Unit ‹½Žj˜N 0
-Unit ‚™^Œá 0
-Unit “ìŒ´—³‘¾ 0
-Unit –îƒWƒ…ƒ“ 0
-Unit Œj–Ø‚Ð‚©‚é 0
-Unit ƒoƒCƒIƒWƒFƒbƒg‚P† 0
-Unit ƒoƒCƒIƒWƒFƒbƒg‚Q† 0
-Unit ƒoƒCƒIƒƒ{ 0
-Unit ƒoƒCƒIƒhƒ‰ƒSƒ“ 0
-Pilot ƒŒƒbƒhƒƒ“ 30
-Pilot ƒOƒŠ[ƒ“ƒc[ 30
-Pilot ƒuƒ‹[ƒXƒŠ[ 30
-Pilot ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ 30
-Pilot ƒsƒ“ƒNƒtƒ@ƒCƒu 30
-Pilot ƒs[ƒ{ 30
-SetRelation ƒŒƒbƒhƒƒ“ ƒOƒŠ[ƒ“ƒc[ 3
-SetRelation ƒŒƒbƒhƒƒ“ ƒuƒ‹[ƒXƒŠ[ 3
-SetRelation ƒŒƒbƒhƒƒ“ ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ 3
-SetRelation ƒŒƒbƒhƒƒ“ ƒsƒ“ƒNƒtƒ@ƒCƒu 3
-SetRelation ƒOƒŠ[ƒ“ƒc[ ƒŒƒbƒhƒƒ“ 3
-SetRelation ƒOƒŠ[ƒ“ƒc[ ƒuƒ‹[ƒXƒŠ[ 3
-SetRelation ƒOƒŠ[ƒ“ƒc[ ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ 3
-SetRelation ƒOƒŠ[ƒ“ƒc[ ƒsƒ“ƒNƒtƒ@ƒCƒu 3
-SetRelation ƒuƒ‹[ƒXƒŠ[ ƒŒƒbƒhƒƒ“ 3
-SetRelation ƒuƒ‹[ƒXƒŠ[ ƒOƒŠ[ƒ“ƒc[ 3
-SetRelation ƒuƒ‹[ƒXƒŠ[ ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ 3
-SetRelation ƒuƒ‹[ƒXƒŠ[ ƒsƒ“ƒNƒtƒ@ƒCƒu 3
-SetRelation ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ ƒŒƒbƒhƒƒ“ 3
-SetRelation ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ ƒOƒŠ[ƒ“ƒc[ 3 
-SetRelation ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ ƒuƒ‹[ƒXƒŠ[ 3
-SetRelation ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ ƒsƒ“ƒNƒtƒ@ƒCƒu 3
-SetRelation –îƒWƒ…ƒ“ ŽRŽç³‘¾ 3
-SetRelation ƒsƒ“ƒNƒtƒ@ƒCƒu ƒŒƒbƒhƒƒ“ 3
-SetRelation ƒsƒ“ƒNƒtƒ@ƒCƒu ƒOƒŠ[ƒ“ƒc[ 3
-SetRelation ƒsƒ“ƒNƒtƒ@ƒCƒu ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ 3
-SetRelation ƒsƒ“ƒNƒtƒ@ƒCƒu ƒuƒ‹[ƒXƒŠ[ 3
-SetRelation ŽRŽç³‘¾ –îƒWƒ…ƒ“ 5 
-Global ƒNƒŠƒA
-#¢ƒNƒŠƒA£•Ï”F0=–¢ƒNƒŠƒAA 1=ƒNƒŠƒAŒoŒ±‚ ‚è
-Global ³‚¿‚á‚ñƒ\[ƒh
-#¢³‚¿‚á‚ñƒ\[ƒh£•Ï”F0=ƒCƒxƒ“ƒg–¢”­¶A 1=ƒCƒxƒ“ƒg”­¶EŽ–Œãˆ—–¢A 2=Ž–Œãˆ—Ï
+Unit éƒ·å²æœ— 0
+Unit é«˜æ‰çœŸå¾ 0
+Unit å—åŽŸç«œå¤ª 0
+Unit çŸ¢å¹ã‚¸ãƒ¥ãƒ³ 0
+Unit æ¡‚æœ¨ã²ã‹ã‚‹ 0
+Unit ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼‘å· 0
+Unit ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼’å· 0
+Unit ãƒã‚¤ã‚ªãƒ­ãƒœ 0
+Unit ãƒã‚¤ã‚ªãƒ‰ãƒ©ã‚´ãƒ³ 0
+Pilot ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ 30
+Pilot ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ 30
+Pilot ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ 30
+Pilot ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ 30
+Pilot ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– 30
+Pilot ãƒ”ãƒ¼ãƒœ 30
+SetRelation ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ 3
+SetRelation ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ 3
+SetRelation ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ 3
+SetRelation ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– 3
+SetRelation ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ 3
+SetRelation ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ 3
+SetRelation ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ 3
+SetRelation ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– 3
+SetRelation ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ 3
+SetRelation ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ 3
+SetRelation ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ 3
+SetRelation ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– 3
+SetRelation ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ 3
+SetRelation ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ 3 
+SetRelation ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ 3
+SetRelation ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– 3
+SetRelation çŸ¢å¹ã‚¸ãƒ¥ãƒ³ å±±å®ˆæ­£å¤ª 3
+SetRelation ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ 3
+SetRelation ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ 3
+SetRelation ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ 3
+SetRelation ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ 3
+SetRelation å±±å®ˆæ­£å¤ª çŸ¢å¹ã‚¸ãƒ¥ãƒ³ 5 
+Global ã‚¯ãƒªã‚¢
+#ï½¢ã‚¯ãƒªã‚¢ï½£å¤‰æ•°ï¼š0=æœªã‚¯ãƒªã‚¢ã€ 1=ã‚¯ãƒªã‚¢çµŒé¨“ã‚ã‚Š
+Global æ­£ã¡ã‚ƒã‚“ã‚½ãƒ¼ãƒ‰
+#ï½¢æ­£ã¡ã‚ƒã‚“ã‚½ãƒ¼ãƒ‰ï½£å¤‰æ•°ï¼š0=ã‚¤ãƒ™ãƒ³ãƒˆæœªç™ºç”Ÿã€ 1=ã‚¤ãƒ™ãƒ³ãƒˆç™ºç”Ÿãƒ»äº‹å¾Œå‡¦ç†æœªã€ 2=äº‹å¾Œå‡¦ç†æ¸ˆ
 Endif
 Exit
 
-ƒXƒ^[ƒg:
-Telop Œ©‚æ!ƒoƒCƒI‚Ì—Í
-Option ƒfƒoƒbƒO
-Talk ƒ‚ƒ“ƒXƒ^[
-ƒŒƒXƒ‰[ƒƒKƒX‚ÅA’@‚«’×‚µ‚Ä‚â‚éIIs‚­‚¼ƒWƒ…ƒEƒIƒEI
-Talk ƒWƒ…ƒEƒIƒE
-‚Í‚¢‚ÈI
-Talk Œj–Ø‚Ð‚©‚é
-—¼•û‚©‚ç—ˆ‚½‚í‚æI
-Talk ‹½Žj˜N
-‚Þ‚¤A‚Ç‚Á‚¿‚©‚çs‚­‚©H
+ã‚¹ã‚¿ãƒ¼ãƒˆ:
+Telop è¦‹ã‚ˆ!ãƒã‚¤ã‚ªã®åŠ›
+Option ãƒ‡ãƒãƒƒã‚°
+Talk ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼
+ãƒ¬ã‚¹ãƒ©ãƒ¼ãƒ¡ã‚¬ã‚¹ã§ã€å©ãæ½°ã—ã¦ã‚„ã‚‹ï¼ï¼è¡Œããžã‚¸ãƒ¥ã‚¦ã‚ªã‚¦ï¼
+Talk ã‚¸ãƒ¥ã‚¦ã‚ªã‚¦
+ã¯ã„ãªï¼
+Talk æ¡‚æœ¨ã²ã‹ã‚‹
+ä¸¡æ–¹ã‹ã‚‰æ¥ãŸã‚ã‚ˆï¼
+Talk éƒ·å²æœ—
+ã‚€ã†ã€ã©ã£ã¡ã‹ã‚‰è¡Œãã‹ï¼Ÿ
 End
-Ask ‚Ç‚ê‚Æ“¬‚¤H
-ƒWƒ…ƒEƒIƒE
-ƒ‚ƒ“ƒXƒ^[
-HHHHH
-HHH
+Ask ã©ã‚Œã¨é—˜ã†ï¼Ÿ
+ã‚¸ãƒ¥ã‚¦ã‚ªã‚¦
+ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼
+ï¼Ÿï¼Ÿï¼Ÿï¼Ÿï¼Ÿ
+ï¼Ÿï¼Ÿï¼Ÿ
 End
 
-#“™g‘å
-If ‘I‘ð = 1 Then
-Create “G ƒWƒ…ƒEƒIƒE‰ü 0 ƒWƒ…ƒEƒIƒE 35 10 17
-Create “G ƒ‚ƒ“ƒXƒ^[‰ü 0 ƒ‚ƒ“ƒXƒ^[ 40 1 20
-BossRank ƒ‚ƒ“ƒXƒ^[ 5
-ChangeMode ƒ‚ƒ“ƒXƒ^[ ‘Ò‹@
-Talk ‹½Žj˜N
-‚æ‚¤‚µI‚Ý‚ñ‚Ès‚­‚¼I
+#ç­‰èº«å¤§
+If é¸æŠž = 1 Then
+Create æ•µ ã‚¸ãƒ¥ã‚¦ã‚ªã‚¦æ”¹ 0 ã‚¸ãƒ¥ã‚¦ã‚ªã‚¦ 35 10 17
+Create æ•µ ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼æ”¹ 0 ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ 40 1 20
+BossRank ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ 5
+ChangeMode ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ å¾…æ©Ÿ
+Talk éƒ·å²æœ—
+ã‚ˆã†ã—ï¼ã¿ã‚“ãªè¡Œããžï¼
 End
-Ride ƒŒƒbƒhƒƒ“ ‹½Žj˜N
-Ride ƒOƒŠ[ƒ“ƒc[ ‚™^Œá
-Ride ƒuƒ‹[ƒXƒŠ[ “ìŒ´—³‘¾
-Ride ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ –îƒWƒ…ƒ“
-Ride ƒsƒ“ƒNƒtƒ@ƒCƒu Œj–Ø‚Ð‚©‚é
-Launch ƒŒƒbƒhƒƒ“ 10 2
-Launch ƒOƒŠ[ƒ“ƒc[ 8 2
-Launch ƒuƒ‹[ƒXƒŠ[ 12 2
-Launch ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ 9 2
-Launch ƒsƒ“ƒNƒtƒ@ƒCƒu 11 2
-Talk ³‘¾
-ƒWƒ…`ƒ“‚³`‚ñI
+Ride ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ éƒ·å²æœ—
+Ride ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ é«˜æ‰çœŸå¾
+Ride ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ å—åŽŸç«œå¤ª
+Ride ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ çŸ¢å¹ã‚¸ãƒ¥ãƒ³
+Ride ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– æ¡‚æœ¨ã²ã‹ã‚‹
+Launch ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ 10 2
+Launch ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ 8 2
+Launch ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ 12 2
+Launch ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ 9 2
+Launch ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– 11 2
+Talk æ­£å¤ª
+ã‚¸ãƒ¥ï½žãƒ³ã•ï½žã‚“ï¼
 End
-Create –¡•û ŽRŽç³‘¾ 0 ³‘¾ 30 9 5
-Talk “ìŒ´—³‘¾
-‚°‚ÁIŽR‰ŽIH
-Talk ‚™^Œá
-‚Ü‚½‚¤‚é‚³‚¢‚Ì‚ª—ˆ‚½‚Èc
-Talk ³‘¾
-‚¨‚¢‚¨‚¢‚»‚è‚á‚È‚¢‚¾‚ëAƒoƒCƒIƒ}ƒ“6l–Ú‚ÌíŽm‚ÉŒü‚©‚Á‚ÄI
-Talk ƒ‚ƒ“ƒXƒ^[
-‚ÈA‰½‚¾‚ÆIH
-Talk ³‘¾
-‹Á‚¢‚½‚©A‰´‚±‚»ƒoƒCƒIƒ}ƒ“6l–Ú‚ÌíŽmAŽRŽç³‘¾I
-Talk ƒ‚ƒ“ƒXƒ^[
-‚¤‚Ê‚£A¬á›‚ÈI‚â‚êƒWƒ…ƒEƒIƒEII
-Talk ƒWƒ…ƒEƒIƒE
-‚Í‚¢‚ÈI
-ƒƒJƒNƒ|ƒ“II
+Create å‘³æ–¹ å±±å®ˆæ­£å¤ª 0 æ­£å¤ª 30 9 5
+Talk å—åŽŸç«œå¤ª
+ã’ã£ï¼å±±çŒ¿ï¼ï¼Ÿ
+Talk é«˜æ‰çœŸå¾
+ã¾ãŸã†ã‚‹ã•ã„ã®ãŒæ¥ãŸãªâ€¦
+Talk æ­£å¤ª
+ãŠã„ãŠã„ãã‚Šã‚ƒãªã„ã ã‚ã€ãƒã‚¤ã‚ªãƒžãƒ³6äººç›®ã®æˆ¦å£«ã«å‘ã‹ã£ã¦ï¼
+Talk ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼
+ãªã€ä½•ã ã¨ï¼ï¼Ÿ
+Talk æ­£å¤ª
+é©šã„ãŸã‹ã€ä¿ºã“ããƒã‚¤ã‚ªãƒžãƒ³6äººç›®ã®æˆ¦å£«ã€å±±å®ˆæ­£å¤ªï¼
+Talk ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼
+ã†ã¬ã…ã€å°ç™ªãªï¼ã‚„ã‚Œã‚¸ãƒ¥ã‚¦ã‚ªã‚¦ï¼ï¼
+Talk ã‚¸ãƒ¥ã‚¦ã‚ªã‚¦
+ã¯ã„ãªï¼
+ãƒ¡ã‚«ã‚¯ãƒ­ï¼ãƒ³ï¼ï¼
 End
 For i = 1 to 20
-Create “G ƒƒJƒNƒ[ƒ“ 0 lH’m”\ 35 10 15
+Create æ•µ ãƒ¡ã‚«ã‚¯ãƒ­ãƒ¼ãƒ³ 0 äººå·¥çŸ¥èƒ½ 35 10 15
 Next
-Talk –îƒWƒ…ƒ“
-‚Æ‚É‚©‚­A³‘¾‚³‚ñ‚ÍŠë‚È‚¢‚©‚ç‰º‚ª‚Á‚Ä‚ÄI
+Talk çŸ¢å¹ã‚¸ãƒ¥ãƒ³
+ã¨ã«ã‹ãã€æ­£å¤ªã•ã‚“ã¯å±ãªã„ã‹ã‚‰ä¸‹ãŒã£ã¦ã¦ï¼
 End
-Set ƒWƒ…ƒEƒIƒE
+Set ã‚¸ãƒ¥ã‚¦ã‚ªã‚¦
 Endif
 
-#ƒƒ{
-If ‘I‘ð = 2 Then
-Create “G ƒŒƒXƒ‰[ƒƒKƒX 0 ƒ‚ƒ“ƒXƒ^[ 40 10 17
-BossRank ƒ‚ƒ“ƒXƒ^[ 1
-Create “G ƒƒ‰[ƒWƒ…í“¬‹@ 0 lH’m”\ 35 9 9
-Create “G ƒƒ‰[ƒWƒ…í“¬‹@ 0 lH’m”\ 35 11 9
-Create “G ƒƒ‰[ƒWƒ…í“¬‹@ 0 lH’m”\ 35 7 8
-Create “G ƒƒ‰[ƒWƒ…í“¬‹@ 0 lH’m”\ 35 13 8
-Create “G ƒƒ‰[ƒWƒ…í“¬‹@ 0 lH’m”\ 35 5 7
-Create “G ƒƒ‰[ƒWƒ…í“¬‹@ 0 lH’m”\ 35 15 7
-Ride ƒs[ƒ{ ƒoƒCƒIƒhƒ‰ƒSƒ“
-Ride ƒŒƒbƒhƒƒ“ ƒoƒCƒIƒWƒFƒbƒg‚P†
-Ride ƒsƒ“ƒNƒtƒ@ƒCƒu ƒoƒCƒIƒWƒFƒbƒg‚P†
-Ride ƒOƒŠ[ƒ“ƒc[ ƒoƒCƒIƒWƒFƒbƒg‚Q†
-Ride ƒuƒ‹[ƒXƒŠ[ ƒoƒCƒIƒWƒFƒbƒg‚Q†
-Ride ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ ƒoƒCƒIƒWƒFƒbƒg‚Q†
-Launch ƒs[ƒ{ 2 5
-Move ƒs[ƒ{ 7 5
-Talk ƒŒƒbƒhƒƒ“
-ƒoƒCƒIƒWƒFƒbƒg‚P†A”­iII
+#ãƒ­ãƒœ
+If é¸æŠž = 2 Then
+Create æ•µ ãƒ¬ã‚¹ãƒ©ãƒ¼ãƒ¡ã‚¬ã‚¹ 0 ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ 40 10 17
+BossRank ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ 1
+Create æ•µ ãƒ¡ãƒ©ãƒ¼ã‚¸ãƒ¥æˆ¦é—˜æ©Ÿ 0 äººå·¥çŸ¥èƒ½ 35 9 9
+Create æ•µ ãƒ¡ãƒ©ãƒ¼ã‚¸ãƒ¥æˆ¦é—˜æ©Ÿ 0 äººå·¥çŸ¥èƒ½ 35 11 9
+Create æ•µ ãƒ¡ãƒ©ãƒ¼ã‚¸ãƒ¥æˆ¦é—˜æ©Ÿ 0 äººå·¥çŸ¥èƒ½ 35 7 8
+Create æ•µ ãƒ¡ãƒ©ãƒ¼ã‚¸ãƒ¥æˆ¦é—˜æ©Ÿ 0 äººå·¥çŸ¥èƒ½ 35 13 8
+Create æ•µ ãƒ¡ãƒ©ãƒ¼ã‚¸ãƒ¥æˆ¦é—˜æ©Ÿ 0 äººå·¥çŸ¥èƒ½ 35 5 7
+Create æ•µ ãƒ¡ãƒ©ãƒ¼ã‚¸ãƒ¥æˆ¦é—˜æ©Ÿ 0 äººå·¥çŸ¥èƒ½ 35 15 7
+Ride ãƒ”ãƒ¼ãƒœ ãƒã‚¤ã‚ªãƒ‰ãƒ©ã‚´ãƒ³
+Ride ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼‘å·
+Ride ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼‘å·
+Ride ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼’å·
+Ride ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼’å·
+Ride ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼’å·
+Launch ãƒ”ãƒ¼ãƒœ 2 5
+Move ãƒ”ãƒ¼ãƒœ 7 5
+Talk ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼‘å·ã€ç™ºé€²ï¼ï¼
 End
-Launch ƒŒƒbƒhƒƒ“ 10 5
-Talk ƒOƒŠ[ƒ“ƒc[
-ƒoƒCƒIƒWƒFƒbƒg‚Q†I
-Talk ƒOƒŠ[ƒ“ƒc[Eƒuƒ‹[ƒXƒŠ[EƒCƒGƒ[ƒtƒH[
-”­iII
+Launch ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ 10 5
+Talk ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼
+ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼’å·ï¼
+Talk ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ãƒ»ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ãƒ»ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼
+ç™ºé€²ï¼ï¼
 End
-Launch ƒOƒŠ[ƒ“ƒc[ 9 5
-Talk ƒ‚ƒ“ƒXƒ^[
-s‚­‚¼ƒoƒCƒIƒƒ{II
+Launch ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ 9 5
+Talk ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼
+è¡Œããžãƒã‚¤ã‚ªãƒ­ãƒœï¼ï¼
 End
 Endif
 
-#à“¾ƒCƒxƒ“ƒgƒ`ƒFƒbƒN—p
-If ‘I‘ð = 3 Then
-Talk ‹½Žj˜N
-‚æ‚¤‚µI‚Ý‚ñ‚Ès‚­‚¼I
+#èª¬å¾—ã‚¤ãƒ™ãƒ³ãƒˆãƒã‚§ãƒƒã‚¯ç”¨
+If é¸æŠž = 3 Then
+Talk éƒ·å²æœ—
+ã‚ˆã†ã—ï¼ã¿ã‚“ãªè¡Œããžï¼
 End
-Ride ƒŒƒbƒhƒƒ“ ‹½Žj˜N
-Ride ƒOƒŠ[ƒ“ƒc[ ‚™^Œá
-Ride ƒuƒ‹[ƒXƒŠ[ “ìŒ´—³‘¾
-Ride ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ –îƒWƒ…ƒ“
-Ride ƒsƒ“ƒNƒtƒ@ƒCƒu Œj–Ø‚Ð‚©‚é
-Launch ƒŒƒbƒhƒƒ“ 10 2
-Launch ƒOƒŠ[ƒ“ƒc[ 8 2
-Launch ƒuƒ‹[ƒXƒŠ[ 12 2
-Launch ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ 9 2
-Launch ƒsƒ“ƒNƒtƒ@ƒCƒu 11 2
-Talk ƒVƒXƒeƒ€
-ƒKƒTƒb
-Talk ‹½Žj˜N
-‚ÞcH‚»‚±‚É‚¢‚é‚Ì‚Í’N‚¾I
+Ride ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ éƒ·å²æœ—
+Ride ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ é«˜æ‰çœŸå¾
+Ride ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ å—åŽŸç«œå¤ª
+Ride ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ çŸ¢å¹ã‚¸ãƒ¥ãƒ³
+Ride ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– æ¡‚æœ¨ã²ã‹ã‚‹
+Launch ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ 10 2
+Launch ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ 8 2
+Launch ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ 12 2
+Launch ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ 9 2
+Launch ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– 11 2
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ã‚¬ã‚µãƒƒ
+Talk éƒ·å²æœ—
+ã‚€â€¦ï¼Ÿãã“ã«ã„ã‚‹ã®ã¯èª°ã ï¼
 End
-Create “G ƒ}ƒOƒlíŽm 0 ³‘¾ 30 9 5
-BossRank ³‘¾ 1
-Talk ƒ}ƒOƒlíŽm
-ƒLƒF[ƒbII
-Talk “ìŒ´—³‘¾
-H‰½‚¾‚±‚¢‚Â‚ÍcH
-Talk ƒtƒ@ƒ‰(ƒrƒbƒOƒXƒŠ[)
-‚Í‚Í‚Í‚Í‚ÍIŽRŽç³‘¾‚ðíŽm‚É‚µ‚½‚Ì‚æIƒ}ƒOƒlíŽm‚Ì‘æ‚P†‚Æ‚µ‚Ä‚ËI
-Talk ‚™^Œá
-‰½‚Ä‚Ð‚Ç‚¢Ž–‚ðI
-Talk –îƒWƒ…ƒ“
-³‘¾‚³‚ñIH
-Talk ³‘¾
-ƒLƒLƒF[ƒbII
+Create æ•µ ãƒžã‚°ãƒæˆ¦å£« 0 æ­£å¤ª 30 9 5
+BossRank æ­£å¤ª 1
+Talk ãƒžã‚°ãƒæˆ¦å£«
+ã‚­ã‚§ãƒ¼ãƒƒï¼ï¼
+Talk å—åŽŸç«œå¤ª
+ï¼Ÿä½•ã ã“ã„ã¤ã¯â€¦ï¼Ÿ
+Talk ãƒ•ã‚¡ãƒ©(ãƒ“ãƒƒã‚°ã‚¹ãƒªãƒ¼)
+ã¯ã¯ã¯ã¯ã¯ï¼å±±å®ˆæ­£å¤ªã‚’æˆ¦å£«ã«ã—ãŸã®ã‚ˆï¼ãƒžã‚°ãƒæˆ¦å£«ã®ç¬¬ï¼‘å·ã¨ã—ã¦ã­ï¼
+Talk é«˜æ‰çœŸå¾
+ä½•ã¦ã²ã©ã„äº‹ã‚’ï¼
+Talk çŸ¢å¹ã‚¸ãƒ¥ãƒ³
+æ­£å¤ªã•ã‚“ï¼ï¼Ÿ
+Talk æ­£å¤ª
+ã‚­ã‚­ã‚§ãƒ¼ãƒƒï¼ï¼
 End
-Set ƒ}ƒOƒlíŽm
+Set ãƒžã‚°ãƒæˆ¦å£«
 Endif
 
-#ƒVƒ‹ƒo(ŽÀ‚Íˆê”ÔŽè‚ÁŽæ‚è‘‚­I‚í‚éA‡‘Ì‹Z‚ÌƒeƒXƒg—p)
-If ‘I‘ð = 4 Then
-Ride ƒŒƒbƒhƒƒ“ ‹½Žj˜N
-Ride ƒOƒŠ[ƒ“ƒc[ ‚™^Œá
-Ride ƒuƒ‹[ƒXƒŠ[ “ìŒ´—³‘¾
-Ride ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ –îƒWƒ…ƒ“
-Ride ƒsƒ“ƒNƒtƒ@ƒCƒu Œj–Ø‚Ð‚©‚é
-Launch ƒŒƒbƒhƒƒ“ 10 2
-Launch ƒOƒŠ[ƒ“ƒc[ 8 2
-Launch ƒuƒ‹[ƒXƒŠ[ 12 2
-Launch ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ 9 2
-Launch ƒsƒ“ƒNƒtƒ@ƒCƒu 11 2
-Talk ƒVƒXƒeƒ€
-ƒLƒ‰ƒŠ
-Talk “ìŒ´—³‘¾
-H‰½‚¾‚ ‚ê‚ÍH
-Talk “ä‚Ì’j
-ƒoƒCƒI—±Žq”½‰ž‚ ‚ècI
+#ã‚·ãƒ«ãƒ(å®Ÿã¯ä¸€ç•ªæ‰‹ã£å–ã‚Šæ—©ãçµ‚ã‚ã‚‹ã€åˆä½“æŠ€ã®ãƒ†ã‚¹ãƒˆç”¨)
+If é¸æŠž = 4 Then
+Ride ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ éƒ·å²æœ—
+Ride ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ é«˜æ‰çœŸå¾
+Ride ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ å—åŽŸç«œå¤ª
+Ride ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ çŸ¢å¹ã‚¸ãƒ¥ãƒ³
+Ride ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– æ¡‚æœ¨ã²ã‹ã‚‹
+Launch ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ 10 2
+Launch ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ 8 2
+Launch ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ 12 2
+Launch ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ 9 2
+Launch ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– 11 2
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ã‚­ãƒ©ãƒª
+Talk å—åŽŸç«œå¤ª
+ï¼Ÿä½•ã ã‚ã‚Œã¯ï¼Ÿ
+Talk è¬Žã®ç”·
+ãƒã‚¤ã‚ªç²’å­åå¿œã‚ã‚Šâ€¦ï¼
 End
-Create “G ƒoƒCƒIƒnƒ“ƒ^[EƒVƒ‹ƒo 0 ƒoƒCƒIƒnƒ“ƒ^[EƒVƒ‹ƒo 35 10 10
-Talk ƒVƒ‹ƒo
-‚Ó‚Í‚Í‚Í‚Í‚Í‚Í‚Í‚Í‚Í‚Í‚ÍccII
-Talk ‹½Žj˜N
-ˆê‘Ì‚¨‘O‚Í‰½ŽÒ‚¾IH
-Talk ƒVƒ‹ƒo
-‚Ó‚Í‚Í‚Í‚Í‚Í‚Í‚ÍcII
-ƒoƒCƒIƒnƒ“ƒ^[EƒVƒ‹ƒoII
-Talk ‹½Žj˜N
-ƒoƒCƒIƒnƒ“ƒ^[EƒVƒ‹ƒoIH
-Talk ƒ‚ƒ“ƒXƒ^[
-‰½‚¾‚ ‚¢‚Â‚ÍcH
-Talk ƒVƒ‹ƒo
-ƒoƒCƒI—±Žq”½‰ž‚ðŽ¦‚·‚à‚Ì‚ÍA¶–½‘ÌE”ñ¶–½‘Ì‚Ì”@‰½‚ð–â‚í‚¸A‘S‚Ä”j‰ó‚·‚éII
-Talk ‹½Žj˜N
-‚Ý‚ñ‚ÈIs‚­‚¼II
-Talk ’´“dŽqƒoƒCƒIƒ}ƒ“
-ƒoƒCƒIƒ}ƒ“II
+Create æ•µ ãƒã‚¤ã‚ªãƒãƒ³ã‚¿ãƒ¼ãƒ»ã‚·ãƒ«ãƒ 0 ãƒã‚¤ã‚ªãƒãƒ³ã‚¿ãƒ¼ãƒ»ã‚·ãƒ«ãƒ 35 10 10
+Talk ã‚·ãƒ«ãƒ
+ãµã¯ã¯ã¯ã¯ã¯ã¯ã¯ã¯ã¯ã¯ã¯â€¦â€¦ï¼ï¼
+Talk éƒ·å²æœ—
+ä¸€ä½“ãŠå‰ã¯ä½•è€…ã ï¼ï¼Ÿ
+Talk ã‚·ãƒ«ãƒ
+ãµã¯ã¯ã¯ã¯ã¯ã¯ã¯â€¦ï¼ï¼
+ãƒã‚¤ã‚ªãƒãƒ³ã‚¿ãƒ¼ãƒ»ã‚·ãƒ«ãƒï¼ï¼
+Talk éƒ·å²æœ—
+ãƒã‚¤ã‚ªãƒãƒ³ã‚¿ãƒ¼ãƒ»ã‚·ãƒ«ãƒï¼ï¼Ÿ
+Talk ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼
+ä½•ã ã‚ã„ã¤ã¯â€¦ï¼Ÿ
+Talk ã‚·ãƒ«ãƒ
+ãƒã‚¤ã‚ªç²’å­åå¿œã‚’ç¤ºã™ã‚‚ã®ã¯ã€ç”Ÿå‘½ä½“ãƒ»éžç”Ÿå‘½ä½“ã®å¦‚ä½•ã‚’å•ã‚ãšã€å…¨ã¦ç ´å£Šã™ã‚‹ï¼ï¼
+Talk éƒ·å²æœ—
+ã¿ã‚“ãªï¼è¡Œããžï¼ï¼
+Talk è¶…é›»å­ãƒã‚¤ã‚ªãƒžãƒ³
+ãƒã‚¤ã‚ªãƒžãƒ³ï¼ï¼
 End
-Transform ƒŒƒbƒhƒƒ“ ƒŒƒbƒhƒƒ“
-Transform ƒOƒŠ[ƒ“ƒc[ ƒOƒŠ[ƒ“ƒc[
-Transform ƒuƒ‹[ƒXƒŠ[ ƒuƒ‹[ƒXƒŠ[
-Transform ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ ƒCƒGƒ[ƒtƒH[(ƒWƒ…ƒ“)
-Transform ƒsƒ“ƒNƒtƒ@ƒCƒu ƒsƒ“ƒNƒtƒ@ƒCƒu
-Talk ƒŒƒbƒhƒƒ“
-ƒƒ“II
-Talk ƒOƒŠ[ƒ“ƒc[
-ƒc[II
-Talk ƒuƒ‹[ƒXƒŠ[
-ƒXƒŠ[II
-Talk ƒCƒGƒ[ƒtƒH[
-ƒtƒH[II
-Talk ƒsƒ“ƒNƒtƒ@ƒCƒu
-ƒtƒ@ƒCƒuII
-Talk ƒŒƒbƒhƒƒ“
-’´I“dŽqII
+Transform ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+Transform ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼
+Transform ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼
+Transform ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼(ã‚¸ãƒ¥ãƒ³)
+Transform ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ–
+Talk ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+ãƒ¯ãƒ³ï¼ï¼
+Talk ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼
+ãƒ„ãƒ¼ï¼ï¼
+Talk ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼
+ã‚¹ãƒªãƒ¼ï¼ï¼
+Talk ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼
+ãƒ•ã‚©ãƒ¼ï¼ï¼
+Talk ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ–
+ãƒ•ã‚¡ã‚¤ãƒ–ï¼ï¼
+Talk ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+è¶…ï¼é›»å­ï¼ï¼
 End
 ShowImage Bioman.jpg
-Talk ’´“dŽqƒoƒCƒIƒ}ƒ“
-ƒoƒCƒIƒ}ƒ“II
+Talk è¶…é›»å­ãƒã‚¤ã‚ªãƒžãƒ³
+ãƒã‚¤ã‚ªãƒžãƒ³ï¼ï¼
 End
 ClearImage
-Talk ƒVƒ‹ƒo
-ƒoƒCƒIƒ}ƒ“‚¾‚ÆIH¦‚¢ƒoƒCƒI—±ŽqƒGƒlƒ‹ƒM[‚¾cII‰½ŒÌ‚±‚Ì¯‚ÉƒoƒCƒI—±ŽqƒGƒlƒ‹ƒM[‚ðŽ‚ÂŽÒ‚ª‚¢‚é‚Ì‚¾IH
-‚ÓA‚Ó‚Ó‚Ó‚Í‚Í‚Í‚Í‚Í‚Í‚ÍccII
-”j‰óI”j‰óI”j‰óII
+Talk ã‚·ãƒ«ãƒ
+ãƒã‚¤ã‚ªãƒžãƒ³ã ã¨ï¼ï¼Ÿå‡„ã„ãƒã‚¤ã‚ªç²’å­ã‚¨ãƒãƒ«ã‚®ãƒ¼ã â€¦ï¼ï¼ä½•æ•…ã“ã®æ˜Ÿã«ãƒã‚¤ã‚ªç²’å­ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚’æŒã¤è€…ãŒã„ã‚‹ã®ã ï¼ï¼Ÿ
+ãµã€ãµãµãµã¯ã¯ã¯ã¯ã¯ã¯ã¯â€¦â€¦ï¼ï¼
+ç ´å£Šï¼ç ´å£Šï¼ç ´å£Šï¼ï¼
 End
-IncreaseMorale ƒŒƒbƒhƒƒ“ 30
-IncreaseMorale ƒOƒŠ[ƒ“ƒc[ 30
-IncreaseMorale ƒuƒ‹[ƒXƒŠ[ 30
-IncreaseMorale ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ 30
-IncreaseMorale ƒsƒ“ƒNƒtƒ@ƒCƒu 30
+IncreaseMorale ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ 30
+IncreaseMorale ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ 30
+IncreaseMorale ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ 30
+IncreaseMorale ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ 30
+IncreaseMorale ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– 30
 Endif
 Exit
 
 
-‰ï˜b –îƒWƒ…ƒ“ ³‘¾:
-If ƒ}ƒOƒlíŽm Then
-Talk –îƒWƒ…ƒ“
-³‘¾‚³‚ñI–Ú‚ðŠo‚Ü‚µ‚ÄII
-Talk ³‘¾
-ƒLƒF[ƒbII
-Talk ƒVƒXƒeƒ€
-ƒrƒrƒrƒrƒrc
-Talk –îƒWƒ…ƒ“
-H‚ ‚Ì˜r—Öc‚ ‚ê‚Å‘€‚Á‚Ä‚é‚Ì‚ËI
+ä¼šè©± çŸ¢å¹ã‚¸ãƒ¥ãƒ³ æ­£å¤ª:
+If ãƒžã‚°ãƒæˆ¦å£« Then
+Talk çŸ¢å¹ã‚¸ãƒ¥ãƒ³
+æ­£å¤ªã•ã‚“ï¼ç›®ã‚’è¦šã¾ã—ã¦ï¼ï¼
+Talk æ­£å¤ª
+ã‚­ã‚§ãƒ¼ãƒƒï¼ï¼
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ãƒ“ãƒ“ãƒ“ãƒ“ãƒ“â€¦
+Talk çŸ¢å¹ã‚¸ãƒ¥ãƒ³
+ï¼Ÿã‚ã®è…•è¼ªâ€¦ã‚ã‚Œã§æ“ã£ã¦ã‚‹ã®ã­ï¼
 End
-Set ³‘¾à“¾Ï
+Set æ­£å¤ªèª¬å¾—æ¸ˆ
 Endif
 ClearEvent
 Exit
 
-UŒ‚Œã –îƒWƒ…ƒ“ ³‘¾:
-If ³‘¾à“¾Ï Then
-Talk ƒVƒXƒeƒ€
-ƒpƒLƒ“I
-Talk ³‘¾
-ƒLAƒLƒLc
-Talk –îƒWƒ…ƒ“
-³‘¾‚³‚ñI
+æ”»æ’ƒå¾Œ çŸ¢å¹ã‚¸ãƒ¥ãƒ³ æ­£å¤ª:
+If æ­£å¤ªèª¬å¾—æ¸ˆ Then
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ãƒ‘ã‚­ãƒ³ï¼
+Talk æ­£å¤ª
+ã‚­ã€ã‚­ã‚­â€¦
+Talk çŸ¢å¹ã‚¸ãƒ¥ãƒ³
+æ­£å¤ªã•ã‚“ï¼
 End
-RemovePilot ŽRŽç³‘¾
-Create –¡•û ŽRŽç³‘¾ 5 ŽRŽç³‘¾ 30 X(–îƒWƒ…ƒ“) Y(–îƒWƒ…ƒ“)
-Talk ³‘¾
-‚¤A‚¤‚¤c
-Talk –îƒWƒ…ƒ“ 
-³‘¾‚³‚ñIŽ„‚æAƒWƒ…ƒ“‚æII³‘¾‚³‚ñA‚µ‚Á‚©‚è‚µ‚ÄII
-Talk ƒVƒXƒeƒ€
-ƒpƒVƒ“I
-Talk ³‘¾
-‚¤A‚¤`‚ñc‚ ‚ê‚ÁAƒWƒ…ƒ“‚³‚ñH
-Talk –îƒWƒ…ƒ“
-³‘¾‚³‚ñI
-Talk ƒtƒ@ƒ‰(ƒrƒbƒOƒXƒŠ[)
-‚¤‚¤c‚¨‚Ì‚ê‚¥I
-ƒƒbƒcƒ‰[A‚â‚ê‚¢I
+RemovePilot å±±å®ˆæ­£å¤ª
+Create å‘³æ–¹ å±±å®ˆæ­£å¤ª 5 å±±å®ˆæ­£å¤ª 30 X(çŸ¢å¹ã‚¸ãƒ¥ãƒ³) Y(çŸ¢å¹ã‚¸ãƒ¥ãƒ³)
+Talk æ­£å¤ª
+ã†ã€ã†ã†â€¦
+Talk çŸ¢å¹ã‚¸ãƒ¥ãƒ³ 
+æ­£å¤ªã•ã‚“ï¼ç§ã‚ˆã€ã‚¸ãƒ¥ãƒ³ã‚ˆï¼ï¼æ­£å¤ªã•ã‚“ã€ã—ã£ã‹ã‚Šã—ã¦ï¼ï¼
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ãƒ‘ã‚·ãƒ³ï¼
+Talk æ­£å¤ª
+ã†ã€ã†ï½žã‚“â€¦ã‚ã‚Œã£ã€ã‚¸ãƒ¥ãƒ³ã•ã‚“ï¼Ÿ
+Talk çŸ¢å¹ã‚¸ãƒ¥ãƒ³
+æ­£å¤ªã•ã‚“ï¼
+Talk ãƒ•ã‚¡ãƒ©(ãƒ“ãƒƒã‚°ã‚¹ãƒªãƒ¼)
+ã†ã†â€¦ãŠã®ã‚Œã‡ï¼
+ãƒ¡ãƒƒãƒ„ãƒ©ãƒ¼ã€ã‚„ã‚Œã„ï¼
 End
-SetRelation –îƒWƒ…ƒ“ ŽRŽç³‘¾ 3
-Create “G ƒƒbƒcƒ‰[‰ü 0 ƒƒbƒcƒ‰[ 35 10 17
-BossRank ƒƒbƒcƒ‰[ 1
-Move ƒŒƒbƒhƒƒ“ X(ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“) Y(ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“)
-Move ƒOƒŠ[ƒ“ƒc[ X(ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“) Y(ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“)
-Move ƒuƒ‹[ƒXƒŠ[ X(ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“) Y(ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“)
-Move ƒsƒ“ƒNƒtƒ@ƒCƒu X(ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“) Y(ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“)
-Talk ‹½Žj˜N
-‚æ‚¤‚µA‚Ý‚ñ‚Ès‚­‚¼‚ÁII
-Talk ’´“dŽqƒoƒCƒIƒ}ƒ“
-ƒoƒCƒIƒ}ƒ“II
+SetRelation çŸ¢å¹ã‚¸ãƒ¥ãƒ³ å±±å®ˆæ­£å¤ª 3
+Create æ•µ ãƒ¡ãƒƒãƒ„ãƒ©ãƒ¼æ”¹ 0 ãƒ¡ãƒƒãƒ„ãƒ©ãƒ¼ 35 10 17
+BossRank ãƒ¡ãƒƒãƒ„ãƒ©ãƒ¼ 1
+Move ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ X(ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³) Y(ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³)
+Move ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ X(ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³) Y(ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³)
+Move ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ X(ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³) Y(ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³)
+Move ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– X(ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³) Y(ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³)
+Talk éƒ·å²æœ—
+ã‚ˆã†ã—ã€ã¿ã‚“ãªè¡Œããžã£ï¼ï¼
+Talk è¶…é›»å­ãƒã‚¤ã‚ªãƒžãƒ³
+ãƒã‚¤ã‚ªãƒžãƒ³ï¼ï¼
 End
-Transform ‹½Žj˜N ƒŒƒbƒhƒƒ“
-Transform ‚™^Œá ƒOƒŠ[ƒ“ƒc[
-Transform “ìŒ´—³‘¾ ƒuƒ‹[ƒXƒŠ[
-Transform –îƒWƒ…ƒ“ ƒCƒGƒ[ƒtƒH[(ƒWƒ…ƒ“)
-Transform Œj–Ø‚Ð‚©‚é ƒsƒ“ƒNƒtƒ@ƒCƒu
-Talk ƒŒƒbƒhƒƒ“
-‚æ‚¤‚µA‚Ý‚ñ‚Ès‚­‚¼Iƒƒ“II
-Talk ƒOƒŠ[ƒ“ƒc[
-ƒc[II
-Talk ƒuƒ‹[ƒXƒŠ[
-ƒXƒŠ[II
-Talk ƒCƒGƒ[ƒtƒH[
-ƒtƒH[II
-Talk ƒsƒ“ƒNƒtƒ@ƒCƒu
-ƒtƒ@ƒCƒuII
-Talk ƒŒƒbƒhƒƒ“
-’´I“dŽqII
+Transform éƒ·å²æœ— ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+Transform é«˜æ‰çœŸå¾ ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼
+Transform å—åŽŸç«œå¤ª ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼
+Transform çŸ¢å¹ã‚¸ãƒ¥ãƒ³ ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼(ã‚¸ãƒ¥ãƒ³)
+Transform æ¡‚æœ¨ã²ã‹ã‚‹ ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ–
+Talk ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+ã‚ˆã†ã—ã€ã¿ã‚“ãªè¡Œããžï¼ãƒ¯ãƒ³ï¼ï¼
+Talk ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼
+ãƒ„ãƒ¼ï¼ï¼
+Talk ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼
+ã‚¹ãƒªãƒ¼ï¼ï¼
+Talk ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼
+ãƒ•ã‚©ãƒ¼ï¼ï¼
+Talk ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ–
+ãƒ•ã‚¡ã‚¤ãƒ–ï¼ï¼
+Talk ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+è¶…ï¼é›»å­ï¼ï¼
 End
 ShowImage Bioman.jpg
-Talk ’´“dŽqƒoƒCƒIƒ}ƒ“
-ƒoƒCƒIƒ}ƒ“II
+Talk è¶…é›»å­ãƒã‚¤ã‚ªãƒžãƒ³
+ãƒã‚¤ã‚ªãƒžãƒ³ï¼ï¼
 End
 ClearImage
-Talk ³‘¾
-‚æ[‚µA‰´‚àI
-ƒVƒbƒNƒXI
-ŽRŽç³‘¾I
-ƒsƒRƒ“AƒsƒRƒ“AƒsƒRƒ“I
-‚æ[‚µAs‚­‚¼‚¨`I
-Talk ƒƒbƒcƒ‰[
-‚»‚ê‚¡II
+Talk æ­£å¤ª
+ã‚ˆãƒ¼ã—ã€ä¿ºã‚‚ï¼
+ã‚·ãƒƒã‚¯ã‚¹ï¼
+å±±å®ˆæ­£å¤ªï¼
+ãƒ”ã‚³ãƒ³ã€ãƒ”ã‚³ãƒ³ã€ãƒ”ã‚³ãƒ³ï¼
+ã‚ˆãƒ¼ã—ã€è¡ŒããžãŠï½žï¼
+Talk ãƒ¡ãƒƒãƒ„ãƒ©ãƒ¼
+ãã‚Œãƒï¼ï¼
 End
-IncreaseMorale ƒŒƒbƒhƒƒ“ 20
-IncreaseMorale ƒOƒŠ[ƒ“ƒc[ 20
-IncreaseMorale ƒuƒ‹[ƒXƒŠ[ 20
-IncreaseMorale ƒCƒGƒ[ƒtƒH[E–îƒWƒ…ƒ“ 20
-IncreaseMorale ƒsƒ“ƒNƒtƒ@ƒCƒu 20
-IncreaseMorale ŽRŽç³‘¾ 20
+IncreaseMorale ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ 20
+IncreaseMorale ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ 20
+IncreaseMorale ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ 20
+IncreaseMorale ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼ãƒ»çŸ¢å¹ã‚¸ãƒ¥ãƒ³ 20
+IncreaseMorale ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ– 20
+IncreaseMorale å±±å®ˆæ­£å¤ª 20
 Endif
 Exit
 
-ÚG ŽRŽç³‘¾ ƒWƒ…ƒEƒIƒE:
-If ³‚¿‚á‚ñƒ\[ƒh = 0 Then
-Talk ŽRŽç³‘¾
-Œ©‚Ä‚ë‚æAƒWƒ…ƒ“‚³‚ñI‰´‚¾‚Á‚ÄƒoƒCƒIƒ}ƒ“‚Éˆø‚¯‚ÍŽæ‚ç‚È‚¢‚ºI
-Talk –îƒWƒ…ƒ“
-Šë‚È‚¢II
+æŽ¥è§¦ å±±å®ˆæ­£å¤ª ã‚¸ãƒ¥ã‚¦ã‚ªã‚¦:
+If æ­£ã¡ã‚ƒã‚“ã‚½ãƒ¼ãƒ‰ = 0 Then
+Talk å±±å®ˆæ­£å¤ª
+è¦‹ã¦ã‚ã‚ˆã€ã‚¸ãƒ¥ãƒ³ã•ã‚“ï¼ä¿ºã ã£ã¦ãƒã‚¤ã‚ªãƒžãƒ³ã«å¼•ã‘ã¯å–ã‚‰ãªã„ãœï¼
+Talk çŸ¢å¹ã‚¸ãƒ¥ãƒ³
+å±ãªã„ï¼ï¼
 End
-Attack ŽRŽç³‘¾ ƒiƒCƒt ƒWƒ…ƒEƒIƒE –³’ïR
-Disable ƒiƒCƒt
-Talk ƒVƒXƒeƒ€
-ƒiƒCƒt‚ÍÜ‚ê‚Ä‚µ‚Ü‚Á‚½I
-Talk ŽRŽç³‘¾
-‚¨I–³‚¢IH
+Attack å±±å®ˆæ­£å¤ª ãƒŠã‚¤ãƒ• ã‚¸ãƒ¥ã‚¦ã‚ªã‚¦ ç„¡æŠµæŠ—
+Disable ãƒŠã‚¤ãƒ•
+Talk ã‚·ã‚¹ãƒ†ãƒ 
+ãƒŠã‚¤ãƒ•ã¯æŠ˜ã‚Œã¦ã—ã¾ã£ãŸï¼
+Talk å±±å®ˆæ­£å¤ª
+ãŠï¼ç„¡ã„ï¼ï¼Ÿ
 End
-Set ³‚¿‚á‚ñƒ\[ƒh 1
+Set æ­£ã¡ã‚ƒã‚“ã‚½ãƒ¼ãƒ‰ 1
 Endif
 ClearEvent
 Exit
 
 
-”j‰ó ƒWƒ…ƒEƒIƒE:
-If ƒWƒ…ƒEƒIƒE Then
-Talk ƒ‚ƒ“ƒXƒ^[
-ƒWƒ…ƒEƒIƒEII‚¨‚Ì‚êƒoƒCƒIƒ}ƒ“‚ßII
-ƒlƒIƒƒJƒWƒƒƒCƒKƒ“EƒŒƒXƒ‰[ƒƒKƒXII
+ç ´å£Š ã‚¸ãƒ¥ã‚¦ã‚ªã‚¦:
+If ã‚¸ãƒ¥ã‚¦ã‚ªã‚¦ Then
+Talk ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼
+ã‚¸ãƒ¥ã‚¦ã‚ªã‚¦ï¼ï¼ãŠã®ã‚Œãƒã‚¤ã‚ªãƒžãƒ³ã‚ï¼ï¼
+ãƒã‚ªãƒ¡ã‚«ã‚¸ãƒ£ã‚¤ã‚¬ãƒ³ãƒ»ãƒ¬ã‚¹ãƒ©ãƒ¼ãƒ¡ã‚¬ã‚¹ï¼ï¼
 End
-RemoveUnit ƒ‚ƒ“ƒXƒ^[‰ü
-Unit ƒŒƒXƒ‰[ƒƒKƒX 0
-Ride ƒ‚ƒ“ƒXƒ^[
-Launch ƒ‚ƒ“ƒXƒ^[ 5 15
-BossRank ƒ‚ƒ“ƒXƒ^[ 2
-ChangeParty ƒ‚ƒ“ƒXƒ^[ “G
-Talk ƒŒƒbƒhƒƒ“
-ƒoƒCƒIƒhƒ‰ƒSƒ“A”­iII
-Talk ƒs[ƒ{
-‚n‚jIƒoƒCƒIƒhƒ‰ƒSƒ“A”­iI
+RemoveUnit ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼æ”¹
+Unit ãƒ¬ã‚¹ãƒ©ãƒ¼ãƒ¡ã‚¬ã‚¹ 0
+Ride ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼
+Launch ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ 5 15
+BossRank ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ 2
+ChangeParty ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ æ•µ
+Talk ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+ãƒã‚¤ã‚ªãƒ‰ãƒ©ã‚´ãƒ³ã€ç™ºé€²ï¼ï¼
+Talk ãƒ”ãƒ¼ãƒœ
+ï¼¯ï¼«ï¼ãƒã‚¤ã‚ªãƒ‰ãƒ©ã‚´ãƒ³ã€ç™ºé€²ï¼
 End
-Unit ƒoƒCƒIƒhƒ‰ƒSƒ“ 0
-Ride ƒs[ƒ{
-Launch ƒs[ƒ{ 2 5
-Move ƒs[ƒ{ 12 10
-Talk 5l
-ƒWƒFƒbƒgEƒIƒ“II
+Unit ãƒã‚¤ã‚ªãƒ‰ãƒ©ã‚´ãƒ³ 0
+Ride ãƒ”ãƒ¼ãƒœ
+Launch ãƒ”ãƒ¼ãƒœ 2 5
+Move ãƒ”ãƒ¼ãƒœ 12 10
+Talk 5äºº
+ã‚¸ã‚§ãƒƒãƒˆãƒ»ã‚ªãƒ³ï¼ï¼
 End
-RemoveUnit ƒŒƒbƒhƒƒ“
-RemoveUnit ƒOƒŠ[ƒ“ƒc[
-RemoveUnit ƒuƒ‹[ƒXƒŠ[
-RemoveUnit ƒCƒGƒ[ƒtƒH[(ƒWƒ…ƒ“)
-RemoveUnit ƒsƒ“ƒNƒtƒ@ƒCƒu
-Talk ƒŒƒbƒhƒƒ“
-ƒoƒCƒIƒWƒFƒbƒg‚P†A”­iII
+RemoveUnit ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+RemoveUnit ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼
+RemoveUnit ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼
+RemoveUnit ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼(ã‚¸ãƒ¥ãƒ³)
+RemoveUnit ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ–
+Talk ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼‘å·ã€ç™ºé€²ï¼ï¼
 End
-Unit ƒoƒCƒIƒWƒFƒbƒg‚P† 0
-Ride ƒŒƒbƒhƒƒ“
-Ride ƒsƒ“ƒNƒtƒ@ƒCƒu
-Launch ƒŒƒbƒhƒƒ“ 10 10
-Talk ƒOƒŠ[ƒ“ƒc[
-ƒoƒCƒIƒWƒFƒbƒg‚Q†I
-Talk ƒOƒŠ[ƒ“ƒc[Eƒuƒ‹[ƒXƒŠ[EƒCƒGƒ[ƒtƒH[
-”­iII
+Unit ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼‘å· 0
+Ride ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+Ride ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ–
+Launch ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ 10 10
+Talk ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼
+ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼’å·ï¼
+Talk ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ãƒ»ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ãƒ»ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼
+ç™ºé€²ï¼ï¼
 End
-Unit ƒoƒCƒIƒWƒFƒbƒg‚Q† 0
-Ride ƒOƒŠ[ƒ“ƒc[
-Ride ƒuƒ‹[ƒXƒŠ[
-Ride ƒCƒGƒ[ƒtƒH[
-Launch ƒOƒŠ[ƒ“ƒc[ 11 10
-Unit ƒoƒCƒIƒƒ{ 0
-Talk ³‘¾
-‚Ð‚ã`AŠiD‚¢‚¢II
+Unit ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼’å· 0
+Ride ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼
+Ride ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼
+Ride ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼
+Launch ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ 11 10
+Unit ãƒã‚¤ã‚ªãƒ­ãƒœ 0
+Talk æ­£å¤ª
+ã²ã‚…ï½žã€æ ¼å¥½ã„ã„ï¼ï¼
 End
-RemoveUnit ŽRŽç³‘¾
-Talk ƒ‚ƒ“ƒXƒ^[
-s‚­‚¼ƒoƒCƒIƒƒ{II
+RemoveUnit å±±å®ˆæ­£å¤ª
+Talk ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼
+è¡Œããžãƒã‚¤ã‚ªãƒ­ãƒœï¼ï¼
 End
 Endif
 Exit
 
-”j‰ó ƒƒbƒcƒ‰[:
-Talk ƒ‚ƒ“ƒXƒ^[
-‚¨‚Ì‚êƒoƒCƒIƒ}ƒ“‚ßII
-ƒlƒIƒƒJƒWƒƒƒCƒKƒ“EƒŒƒXƒ‰[ƒƒKƒXII
+ç ´å£Š ãƒ¡ãƒƒãƒ„ãƒ©ãƒ¼:
+Talk ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼
+ãŠã®ã‚Œãƒã‚¤ã‚ªãƒžãƒ³ã‚ï¼ï¼
+ãƒã‚ªãƒ¡ã‚«ã‚¸ãƒ£ã‚¤ã‚¬ãƒ³ãƒ»ãƒ¬ã‚¹ãƒ©ãƒ¼ãƒ¡ã‚¬ã‚¹ï¼ï¼
 End
-Unit ƒŒƒXƒ‰[ƒƒKƒX 0
-Pilot ƒ‚ƒ“ƒXƒ^[ 40
-Ride ƒ‚ƒ“ƒXƒ^[
-Launch ƒ‚ƒ“ƒXƒ^[ 5 15
-BossRank ƒ‚ƒ“ƒXƒ^[ 2
-ChangeParty ƒ‚ƒ“ƒXƒ^[ “G
-Talk ƒŒƒbƒhƒƒ“
-ƒoƒCƒIƒhƒ‰ƒSƒ“A”­iII
-Talk ƒs[ƒ{
-‚n‚jIƒoƒCƒIƒhƒ‰ƒSƒ“A”­iI
+Unit ãƒ¬ã‚¹ãƒ©ãƒ¼ãƒ¡ã‚¬ã‚¹ 0
+Pilot ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ 40
+Ride ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼
+Launch ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ 5 15
+BossRank ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ 2
+ChangeParty ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ æ•µ
+Talk ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+ãƒã‚¤ã‚ªãƒ‰ãƒ©ã‚´ãƒ³ã€ç™ºé€²ï¼ï¼
+Talk ãƒ”ãƒ¼ãƒœ
+ï¼¯ï¼«ï¼ãƒã‚¤ã‚ªãƒ‰ãƒ©ã‚´ãƒ³ã€ç™ºé€²ï¼
 End
-Unit ƒoƒCƒIƒhƒ‰ƒSƒ“ 0
-Ride ƒs[ƒ{
-Launch ƒs[ƒ{ 2 5
-Move ƒs[ƒ{ 12 10
-Talk 5l
-ƒWƒFƒbƒgEƒIƒ“II
+Unit ãƒã‚¤ã‚ªãƒ‰ãƒ©ã‚´ãƒ³ 0
+Ride ãƒ”ãƒ¼ãƒœ
+Launch ãƒ”ãƒ¼ãƒœ 2 5
+Move ãƒ”ãƒ¼ãƒœ 12 10
+Talk 5äºº
+ã‚¸ã‚§ãƒƒãƒˆãƒ»ã‚ªãƒ³ï¼ï¼
 End
-RemoveUnit ƒŒƒbƒhƒƒ“
-RemoveUnit ƒOƒŠ[ƒ“ƒc[
-RemoveUnit ƒuƒ‹[ƒXƒŠ[
-RemoveUnit ƒCƒGƒ[ƒtƒH[(ƒWƒ…ƒ“)
-RemoveUnit ƒsƒ“ƒNƒtƒ@ƒCƒu
-Talk ƒŒƒbƒhƒƒ“
-ƒoƒCƒIƒWƒFƒbƒg‚P†A”­iII
+RemoveUnit ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+RemoveUnit ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼
+RemoveUnit ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼
+RemoveUnit ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼(ã‚¸ãƒ¥ãƒ³)
+RemoveUnit ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ–
+Talk ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼‘å·ã€ç™ºé€²ï¼ï¼
 End
-Unit ƒoƒCƒIƒWƒFƒbƒg‚P† 0
-Ride ƒŒƒbƒhƒƒ“
-Ride ƒsƒ“ƒNƒtƒ@ƒCƒu
-Launch ƒŒƒbƒhƒƒ“ 10 10
-Talk ƒOƒŠ[ƒ“ƒc[
-ƒoƒCƒIƒWƒFƒbƒg‚Q†I
-Talk ƒOƒŠ[ƒ“ƒc[Eƒuƒ‹[ƒXƒŠ[EƒCƒGƒ[ƒtƒH[
-”­iII
+Unit ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼‘å· 0
+Ride ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+Ride ãƒ”ãƒ³ã‚¯ãƒ•ã‚¡ã‚¤ãƒ–
+Launch ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³ 10 10
+Talk ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼
+ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼’å·ï¼
+Talk ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ãƒ»ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼ãƒ»ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼
+ç™ºé€²ï¼ï¼
 End
-Unit ƒoƒCƒIƒWƒFƒbƒg‚Q† 0
-Ride ƒOƒŠ[ƒ“ƒc[
-Ride ƒuƒ‹[ƒXƒŠ[
-Ride ƒCƒGƒ[ƒtƒH[
-Launch ƒOƒŠ[ƒ“ƒc[ 11 10
-Unit ƒoƒCƒIƒƒ{ 0
-Talk ³‘¾
-‚Ð‚ã`AŠiD‚¢‚¢II
+Unit ãƒã‚¤ã‚ªã‚¸ã‚§ãƒƒãƒˆï¼’å· 0
+Ride ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼
+Ride ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼
+Ride ã‚¤ã‚¨ãƒ­ãƒ¼ãƒ•ã‚©ãƒ¼
+Launch ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼ 11 10
+Unit ãƒã‚¤ã‚ªãƒ­ãƒœ 0
+Talk æ­£å¤ª
+ã²ã‚…ï½žã€æ ¼å¥½ã„ã„ï¼ï¼
 End
-RemoveUnit ŽRŽç³‘¾
-Talk ƒ‚ƒ“ƒXƒ^[
-s‚­‚¼ƒoƒCƒIƒƒ{II
+RemoveUnit å±±å®ˆæ­£å¤ª
+Talk ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼
+è¡Œããžãƒã‚¤ã‚ªãƒ­ãƒœï¼ï¼
 End
 Exit
 
-‘S–Å –¡•û:
-Talk ƒs[ƒ{
-‘åä•v‚©A‚Ý‚ñ‚ÈIH
-Talk ƒŒƒbƒhƒƒ“
-‚ ‚ A‰½‚Æ‚©‚Èc‚µ‚©‚µA‰´’B‚à‚à‚Á‚ÆŠæ’£‚ç‚È‚«‚á‚Èc
-Talk ƒs[ƒ{
-‚Ü‚ A¡“ú‚Ì‚Æ‚±‚ë‚Í‚à‚¤‹x‚ñ‚¾•û‚ª‚¢‚¢‚æB
-‚»‚ê‚¶‚áAƒVƒ~ƒ…ƒŒ[ƒ^AƒXƒCƒbƒ`EƒIƒtI
+å…¨æ»… å‘³æ–¹:
+Talk ãƒ”ãƒ¼ãƒœ
+å¤§ä¸ˆå¤«ã‹ã€ã¿ã‚“ãªï¼ï¼Ÿ
+Talk ãƒ¬ãƒƒãƒ‰ãƒ¯ãƒ³
+ã‚ã‚ã€ä½•ã¨ã‹ãªâ€¦ã—ã‹ã—ã€ä¿ºé”ã‚‚ã‚‚ã£ã¨é ‘å¼µã‚‰ãªãã‚ƒãªâ€¦
+Talk ãƒ”ãƒ¼ãƒœ
+ã¾ã‚ã€ä»Šæ—¥ã®ã¨ã“ã‚ã¯ã‚‚ã†ä¼‘ã‚“ã æ–¹ãŒã„ã„ã‚ˆã€‚
+ãã‚Œã˜ã‚ƒã€ã‚·ãƒŸãƒ¥ãƒ¬ãƒ¼ã‚¿ã€ã‚¹ã‚¤ãƒƒãƒãƒ»ã‚ªãƒ•ï¼
 End
 GameOver
 
-‘S–Å “G:
-Talk ƒs[ƒ{
-‚â‚Á‚½‚¼A‚Ý‚ñ‚ÈI
-Talk ƒOƒŠ[ƒ“ƒc[
-‚´‚Á‚Æ‚±‚ñ‚È‚à‚ñ‚¾‚ºI
-Talk ƒuƒ‹[ƒXƒŠ[
-Œy‚¢Œy‚¢A‚±‚ê‚È‚ç‚à‚¤1‰ñ‚¾‚Á‚Äs‚¯‚é‚¼I
-Talk ƒs[ƒ{
-‚Ü‚ A¡“ú‚Ì‚Æ‚±‚ë‚Í‚à‚¤‹x‚ñ‚¾•û‚ª‚¢‚¢‚æB
-‚»‚ê‚¶‚áAƒVƒ~ƒ…ƒŒ[ƒ^AƒXƒCƒbƒ`EƒIƒtI
+å…¨æ»… æ•µ:
+Talk ãƒ”ãƒ¼ãƒœ
+ã‚„ã£ãŸãžã€ã¿ã‚“ãªï¼
+Talk ã‚°ãƒªãƒ¼ãƒ³ãƒ„ãƒ¼
+ã–ã£ã¨ã“ã‚“ãªã‚‚ã‚“ã ãœï¼
+Talk ãƒ–ãƒ«ãƒ¼ã‚¹ãƒªãƒ¼
+è»½ã„è»½ã„ã€ã“ã‚Œãªã‚‰ã‚‚ã†1å›žã ã£ã¦è¡Œã‘ã‚‹ãžï¼
+Talk ãƒ”ãƒ¼ãƒœ
+ã¾ã‚ã€ä»Šæ—¥ã®ã¨ã“ã‚ã¯ã‚‚ã†ä¼‘ã‚“ã æ–¹ãŒã„ã„ã‚ˆã€‚
+ãã‚Œã˜ã‚ƒã€ã‚·ãƒŸãƒ¥ãƒ¬ãƒ¼ã‚¿ã€ã‚¹ã‚¤ãƒƒãƒãƒ»ã‚ªãƒ•ï¼
 End
-If ƒNƒŠƒA = 0 Then
-Set ƒNƒŠƒA 1
+If ã‚¯ãƒªã‚¢ = 0 Then
+Set ã‚¯ãƒªã‚¢ 1
 Endif
-If ³‚¿‚á‚ñƒ\[ƒh = 1 Then
-Enable ƒiƒCƒt
-Set ³‚¿‚á‚ñƒ\[ƒh 2
+If æ­£ã¡ã‚ƒã‚“ã‚½ãƒ¼ãƒ‰ = 1 Then
+Enable ãƒŠã‚¤ãƒ•
+Set æ­£ã¡ã‚ƒã‚“ã‚½ãƒ¼ãƒ‰ 2
 Endif
 GameClear
-#Continue ƒoƒCƒIƒ}ƒ“ƒeƒXƒg.eve
+#Continue ãƒã‚¤ã‚ªãƒžãƒ³ãƒ†ã‚¹ãƒˆ.eve
 
 
 

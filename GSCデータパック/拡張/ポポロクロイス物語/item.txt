@@ -1,119 +1,119 @@
 
-##### �E��p�A�C�e��
-##### �E�摜�ύX
+##### ・専用アイテム
+##### ・画像変更
 
-########## ��p�A�C�e�� =====================================================================
+########## 専用アイテム =====================================================================
 
-���̋�
-���̋�, ��イ�̂���, �ėp(�s�G�g����p), �A�C�e��
-����\��
-���틭��Lv2=���̌�
+竜の玉
+竜の玉, りゅうのたま, 汎用(ピエトロ専用), アイテム
+特殊能力
+武器強化Lv2=竜の剣
 0, 0, 0, 0, 0
-*���̗͂��������߂�ꂽ�Ƃ�����`���̋ʁB
-*���̌��̈З�+200
-# �R�����ł��Ȃ��̂͂ǂ����邩�c�B�K�{�A�C�e���ł��Ȃ������Ɏg�p�����ł��Ȃ��ł��B
+*竜の力が封じ込められたといわれる伝説の玉。
+*竜の剣の威力+200
+# ３つ装備できないのはどうするか…。必須アイテムでもないし特に使用推奨でもないです。
 
 
-�G���i�̂����
-�G���i�̂����, ����Ȃ̂��܂���, �ėp(�s�G�g����p), �A�C�e��
-����\�͂Ȃ�
+エレナのお守り
+エレナのお守り, えれなのおまもり, 汎用(ピエトロ専用), アイテム
+特殊能力なし
 200, 10, 100, 5, 0
-*�G���i�̎���̂����B
-*HP+200 EN+10 ���b+100 �^��+5
-# ����ł͑S�\�͂̏㏸�ƈ�x�������������̌��ʂ�����B
+*エレナの手作りのお守り。
+*HP+200 EN+10 装甲+100 運動+5
+# 原作では全能力の上昇と一度だけ自動復活の効果がある。
 
 
-�i�O���X�R�b�v
-�i�O���X�R�b�v, �ėp(�s�G�g����p), �A�C�e��
-����\�͂Ȃ�
+ナグロスコップ
+ナグロスコップ, 汎用(ピエトロ専用), アイテム
+特殊能力なし
 0, 0, 0, 0, 0
-���Ƃ���,	   0,  2,  3,  -15,   -,  20,   -, -A-A,  +0, ����r�`L1
-*�i�O�����p�̃X�R�b�v�B
-*�u���Ƃ����v���g�p�\�ɂȂ�
-# �i�O�������蕐���̃X�y�b�N��������͎̂d�l�ł��B
+落とし穴,	   0,  2,  3,  -15,   -,  20,   -, -A-A,  +0, 反先ＳＡL1
+*ナグロ愛用のスコップ。
+*「落とし穴」を使用可能になる
+# ナグロさんより武装のスペックが落ちるのは仕様です。
 
 
-���@�̃n���J�`
-���@�̃n���J�`, �܂ق��̂͂񂩂�, �ėp(�s�G�g����p), �A�C�e��
-����\�͂Ȃ�
+魔法のハンカチ
+魔法のハンカチ, まほうのはんかち, 汎用(ピエトロ専用), アイテム
+特殊能力なし
 0, 0, 0, 0, 0
-���@�̃n���J�`,	   0,  1,  1,  -10,   1,   -,   -, -A-A, +20, ����
-*�T�{�[����ɂ�������s�v�c�ȃn���J�`�B
-*�u���@�̃n���J�`�v���g�p�\�ɂȂ�
+魔法のハンカチ,	   0,  1,  1,  -10,   1,   -,   -, -A-A, +20, 反即
+*サボーさんにもらった不思議なハンカチ。
+*「魔法のハンカチ」を使用可能になる
 
 
-########## �摜�ύX =====================================================================
+########## 画像変更 =====================================================================
 
-�s�G�g��(�|�|���P)
-�s�G�g��(�|�|���P), �Œ�, ��\��
-����\��
-�p�C���b�g�摜=PCS_Pietro(PCS1).bmp
-���j�b�g�摜=PCS_Pietro(PCS1)U.bmp
-0, 0, 0, 0, 0
-
-�s�G�g��(�|�|���Q)
-�s�G�g��(�|�|���Q), �Œ�, ��\��
-����\��
-�p�C���b�g�摜=PCS_Pietro(PCS2).bmp
-���j�b�g�摜=PCS_Pietro(PCS2)U.bmp
+ピエトロ(ポポロ１)
+ピエトロ(ポポロ１), 固定, 非表示
+特殊能力
+パイロット画像=PCS_Pietro(PCS1).bmp
+ユニット画像=PCS_Pietro(PCS1)U.bmp
 0, 0, 0, 0, 0
 
-
-�i���V�A(�|�|���P)
-�i���V�A(�|�|���P), �Œ�, ��\��
-����\��
-�p�C���b�g�摜=PCS_Cai(PCS1).bmp (�J�C)
-���j�b�g�摜=PCS_Cai(PCS1)U.bmp (�J�C)
-�p�C���b�g�摜=PCS_Nalshia(PCS1).bmp
-���j�b�g�摜=PCS_Nalshia(PCS1)U.bmp
-0, 0, 0, 0, 0
-
-�i���V�A(�|�|���Q)
-�i���V�A(�|�|���Q), �Œ�, ��\��
-����\��
-�p�C���b�g�摜=PCS_Cai(PCS2).bmp (�J�C)
-���j�b�g�摜=PCS_Cai(PCS2)U.bmp (�J�C)
-�p�C���b�g�摜=PCS_Nalshia(PCS2).bmp
-���j�b�g�摜=PCS_Nalshia(PCS2)U.bmp
+ピエトロ(ポポロ２)
+ピエトロ(ポポロ２), 固定, 非表示
+特殊能力
+パイロット画像=PCS_Pietro(PCS2).bmp
+ユニット画像=PCS_Pietro(PCS2)U.bmp
 0, 0, 0, 0, 0
 
 
-���R�m(�|�|���P)
-���R�m(�|�|���P), �Œ�, ��\��
-����\��
-�p�C���b�g�摜=PCS_WhiteKnight(PCS1).bmp
-���j�b�g�摜=PCS_WhiteKnight(PCS1)U.bmp
+ナルシア(ポポロ１)
+ナルシア(ポポロ１), 固定, 非表示
+特殊能力
+パイロット画像=PCS_Cai(PCS1).bmp (カイ)
+ユニット画像=PCS_Cai(PCS1)U.bmp (カイ)
+パイロット画像=PCS_Nalshia(PCS1).bmp
+ユニット画像=PCS_Nalshia(PCS1)U.bmp
 0, 0, 0, 0, 0
 
-���R�m(�|�|���Q)
-���R�m(�|�|���Q), �Œ�, ��\��
-����\��
-�p�C���b�g�摜=PCS_WhiteKnight(PCS2).bmp
-���j�b�g�摜=PCS_WhiteKnight(PCS2)U.bmp
-0, 0, 0, 0, 0
-# ���̏���ƃ}���g���Ԃ����̔��R�m
-
-
-�K�~�K�~����(�|�|���P)
-�K�~�K�~����(�|�|���P), �Œ�, ��\��
-����\��
-�p�C���b�g�摜=PCS_Gamigami(PCS1).bmp
-���j�b�g�摜=PCS_Gamigami(PCS1)U.bmp
-0, 0, 0, 0, 0
-
-�K�~�K�~����(�|�|���Q)
-�K�~�K�~����(�|�|���Q), �Œ�, ��\��
-����\��
-�p�C���b�g�摜=PCS_Gamigami(PCS2).bmp
-���j�b�g�摜=PCS_Gamigami(PCS2)U.bmp
+ナルシア(ポポロ２)
+ナルシア(ポポロ２), 固定, 非表示
+特殊能力
+パイロット画像=PCS_Cai(PCS2).bmp (カイ)
+ユニット画像=PCS_Cai(PCS2)U.bmp (カイ)
+パイロット画像=PCS_Nalshia(PCS2).bmp
+ユニット画像=PCS_Nalshia(PCS2)U.bmp
 0, 0, 0, 0, 0
 
 
-�q���K�{(�}���g)
-�q���K�{(�}���g), �Œ�, ��\��
-����\��
-���j�b�g�摜=PCS_GaboU(Mantle).bmp
+白騎士(ポポロ１)
+白騎士(ポポロ１), 固定, 非表示
+特殊能力
+パイロット画像=PCS_WhiteKnight(PCS1).bmp
+ユニット画像=PCS_WhiteKnight(PCS1)U.bmp
 0, 0, 0, 0, 0
-# �d�c�Ŕ��R�m�Ƃ������̃}���g�������K�{
+
+白騎士(ポポロ２)
+白騎士(ポポロ２), 固定, 非表示
+特殊能力
+パイロット画像=PCS_WhiteKnight(PCS2).bmp
+ユニット画像=PCS_WhiteKnight(PCS2)U.bmp
+0, 0, 0, 0, 0
+# 兜の飾りとマントが赤い頃の白騎士
+
+
+ガミガミ魔王(ポポロ１)
+ガミガミ魔王(ポポロ１), 固定, 非表示
+特殊能力
+パイロット画像=PCS_Gamigami(PCS1).bmp
+ユニット画像=PCS_Gamigami(PCS1)U.bmp
+0, 0, 0, 0, 0
+
+ガミガミ魔王(ポポロ２)
+ガミガミ魔王(ポポロ２), 固定, 非表示
+特殊能力
+パイロット画像=PCS_Gamigami(PCS2).bmp
+ユニット画像=PCS_Gamigami(PCS2)U.bmp
+0, 0, 0, 0, 0
+
+
+子竜ガボ(マント)
+子竜ガボ(マント), 固定, 非表示
+特殊能力
+ユニット画像=PCS_GaboU(Mantle).bmp
+0, 0, 0, 0, 0
+# ＥＤで白騎士とお揃いのマントをつけたガボ
 
 

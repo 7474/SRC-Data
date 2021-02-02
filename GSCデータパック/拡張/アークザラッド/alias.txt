@@ -1,5 +1,5 @@
 
-���̓ǂ݉����␳(�A�[�N�U���b�h)
-�p�C���b�g����=$(NickName())
-�p�C���b�g�ǂ݉���=$(Info(���j�b�g,UnitID(),�ǂ݉���))
+愛称読み仮名補正(アークザラッド)
+パイロット愛称=$(NickName())
+パイロット読み仮名=$(Info(ユニット,UnitID(),読み仮名))
 

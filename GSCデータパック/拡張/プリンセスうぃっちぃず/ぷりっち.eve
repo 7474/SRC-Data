@@ -1,9 +1,9 @@
-@ƒvƒŠƒ“ƒZƒX‚¤‚¡‚Á‚¿‚¡‚¸
+@ãƒ—ãƒªãƒ³ã‚»ã‚¹ã†ãƒã£ã¡ãƒãš
 
-ƒ^[ƒ“ 1 –¡•û:
+ã‚¿ãƒ¼ãƒ³ 1 å‘³æ–¹:
 
 
-If ˆÏˆõ’·(–‚—‚ÁŽq) Then
+If å§”å“¡é•·(é­”å¥³ã£å­) Then
  
 Switch Random(3)
 
@@ -11,18 +11,18 @@ Switch Random(3)
 
 Case 1
 Wait 5
-Transform ˆÏˆõ’·(–‚—‚ÁŽq) ˆÏˆõ’·•ƒnƒ€ƒ`ƒ…ƒE(–‚—‚ÁŽqE‰Î)
+Transform å§”å“¡é•·(é­”å¥³ã£å­) å§”å“¡é•·ï¼†ãƒãƒ ãƒãƒ¥ã‚¦(é­”å¥³ã£å­ãƒ»ç«)
 
 
 
 Case 2
 Wait 5
-Transform ˆÏˆõ’·(–‚—‚ÁŽq) ˆÏˆõ’·•ƒnƒ€ƒ`ƒ…ƒE(–‚—‚ÁŽqE…)
+Transform å§”å“¡é•·(é­”å¥³ã£å­) å§”å“¡é•·ï¼†ãƒãƒ ãƒãƒ¥ã‚¦(é­”å¥³ã£å­ãƒ»æ°´)
 
 
 Case 3
 Wait 5
-Transform ˆÏˆõ’·(–‚—‚ÁŽq) ˆÏˆõ’·•ƒnƒ€ƒ`ƒ…ƒE(–‚—‚ÁŽqE—‹)
+Transform å§”å“¡é•·(é­”å¥³ã£å­) å§”å“¡é•·ï¼†ãƒãƒ ãƒãƒ¥ã‚¦(é­”å¥³ã£å­ãƒ»é›·)
 
 Case Else
 	
@@ -35,10 +35,10 @@ ClearEvent
 exit
 ClearEvent
 
-ƒ^[ƒ“ ‘S –¡•û:
+ã‚¿ãƒ¼ãƒ³ å…¨ å‘³æ–¹:
 
 
-If ˆÏˆõ’·(–‚—‚ÁŽq) Then
+If å§”å“¡é•·(é­”å¥³ã£å­) Then
  
 Switch Random(3)
 
@@ -46,18 +46,18 @@ Switch Random(3)
 
 Case 1
 Wait 5
-Transform ˆÏˆõ’·(–‚—‚ÁŽq) ˆÏˆõ’·•ƒnƒ€ƒ`ƒ…ƒE(–‚—‚ÁŽqE‰Î)
+Transform å§”å“¡é•·(é­”å¥³ã£å­) å§”å“¡é•·ï¼†ãƒãƒ ãƒãƒ¥ã‚¦(é­”å¥³ã£å­ãƒ»ç«)
 
 
 
 Case 2
 Wait 5
-Transform ˆÏˆõ’·(–‚—‚ÁŽq) ˆÏˆõ’·•ƒnƒ€ƒ`ƒ…ƒE(–‚—‚ÁŽqE…)
+Transform å§”å“¡é•·(é­”å¥³ã£å­) å§”å“¡é•·ï¼†ãƒãƒ ãƒãƒ¥ã‚¦(é­”å¥³ã£å­ãƒ»æ°´)
 
 
 Case 3
 Wait 5
-Transform ˆÏˆõ’·(–‚—‚ÁŽq) ˆÏˆõ’·•ƒnƒ€ƒ`ƒ…ƒE(–‚—‚ÁŽqE—‹)
+Transform å§”å“¡é•·(é­”å¥³ã£å­) å§”å“¡é•·ï¼†ãƒãƒ ãƒãƒ¥ã‚¦(é­”å¥³ã£å­ãƒ»é›·)
 
 Case Else
 	

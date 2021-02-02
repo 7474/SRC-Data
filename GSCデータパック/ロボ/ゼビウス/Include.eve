@@ -1,19 +1,19 @@
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_XEVIOUS_Æ€€”õ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_XEVIOUS_ç…§æº–æº–å‚™:
 Local i
 
 PlaySound Hittyuu.wav
 
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 Font 12pt
-Local C_X = _Get_WX(‘Šèƒ†ƒjƒbƒg‚h‚c)
-Local C_Y = _Get_WY(‘Šèƒ†ƒjƒbƒg‚h‚c)
+Local C_X = _Get_WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local C_Y = _Get_WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 Local i CNT
 Wait Start
 For i = 1 To 4
-	PaintPicture SpecialPowerBmp("hittyuu",i) (C_X - 16) (C_Y) 64 32 “§‰ß
+	PaintPicture SpecialPowerBmp("hittyuu",i) (C_X - 16) (C_Y) 64 32 é€é
 	Refresh
 	Wait Until (0.5 * i)
 	ClearPicture
@@ -21,7 +21,7 @@ Next
 
 Wait Start
 For i = 1 To 3
-	PaintPicture SpecialPowerBmp("hittyuu",i + 1) (C_X - 8) (C_Y) 48 32 “§‰ß
+	PaintPicture SpecialPowerBmp("hittyuu",i + 1) (C_X - 8) (C_Y) 48 32 é€é
 	Refresh
 	Wait Until (0.5 * i)
 	ClearPicture
@@ -29,7 +29,7 @@ Next
 
 Wait Start
 For i = 1 To 4
-	PaintPicture SpecialPowerBmp("hittyuu",i + 4) (C_X) (C_Y) 32 32 “§‰ß
+	PaintPicture SpecialPowerBmp("hittyuu",i + 4) (C_X) (C_Y) 32 32 é€é
 	Refresh
 	Wait Until (0.5 * i)
 	ClearPicture

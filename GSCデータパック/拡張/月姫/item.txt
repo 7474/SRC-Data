@@ -1,89 +1,89 @@
 
-###### ê—pƒAƒCƒeƒ€ ######
+###### å°‚ç”¨ã‚¢ã‚¤ãƒ†ãƒ  ######
 
-‘æŽµ¹“T
-‘æŽµ¹“T, ‚¾‚¢‚È‚È‚¹‚¢‚Ä‚ñ, ”Ä—p(‹|‚ÌƒVƒGƒ‹ê—p), ƒAƒCƒeƒ€
-“ÁŽê”\—Í
-ƒ†ƒjƒbƒg‰æ‘œ=TKHM_Ciel(F)U.bmp
+ç¬¬ä¸ƒè–å…¸
+ç¬¬ä¸ƒè–å…¸, ã ã„ãªãªã›ã„ã¦ã‚“, æ±Žç”¨(å¼“ã®ã‚·ã‚¨ãƒ«å°‚ç”¨), ã‚¢ã‚¤ãƒ†ãƒ 
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ¦ãƒ‹ãƒƒãƒˆç”»åƒ=TKHM_Ciel(F)U.bmp
 0, 0, 0, 0, 0
-‘æŽµ¹“T,              2100,  1,  1,  -20,   -,  60, 120, AAAA,  +20, “Ë–‚ŽË¹ò
+ç¬¬ä¸ƒè–å…¸,              2100,  1,  1,  -20,   -,  60, 120, AAAA,  +20, çªé­”å°„è–æµ„
 
-‘„Œ®‚Ì’eŠÛ
-‘„Œ®‚Ì’eŠÛ, ”Ä—p(ƒVƒIƒ“ƒGƒ‹ƒgƒiƒ€ƒAƒgƒ‰ƒVƒAê—p), ƒAƒCƒeƒ€
-“ÁŽê”\—Í‚È‚µ
+æ§éµã®å¼¾ä¸¸
+æ§éµã®å¼¾ä¸¸, æ±Žç”¨(ã‚·ã‚ªãƒ³ï¼ã‚¨ãƒ«ãƒˆãƒŠãƒ ï¼ã‚¢ãƒˆãƒ©ã‚·ã‚¢å°‚ç”¨), ã‚¢ã‚¤ãƒ†ãƒ 
+ç‰¹æ®Šèƒ½åŠ›ãªã—
 0, 0, 0, 0, 0
-‘„Œ®‚Ì’eŠÛ,            2100,  1,  3,  -10,@ 1,@ -, 125, AABA,  +30, e¹
+æ§éµã®å¼¾ä¸¸,            2100,  1,  3,  -10,ã€€ 1,ã€€ -, 125, AABA,  +30, éŠƒè–
 
-###### ”Ä—pƒAƒCƒeƒ€ ######
+###### æ±Žç”¨ã‚¢ã‚¤ãƒ†ãƒ  ######
 
-‚Ü‚«‚«‚ã[‚w
-‚Ü‚«‚«‚ã[‚w, ‚Ü‚«‚«‚ã[‚¦‚Á‚­‚·, ”Ä—p, ƒAƒCƒeƒ€
-“ÁŽê”\—Í
-Žô‚¢
-ƒTƒCƒY•ÏX=LL
-ˆ¤Ì•ÏX=‚f$(ƒpƒCƒƒbƒgˆ¤Ì)
+ã¾ããã‚…ãƒ¼ï¼¸
+ã¾ããã‚…ãƒ¼ï¼¸, ã¾ããã‚…ãƒ¼ãˆã£ãã™, æ±Žç”¨, ã‚¢ã‚¤ãƒ†ãƒ 
+ç‰¹æ®Šèƒ½åŠ›
+å‘ªã„
+ã‚µã‚¤ã‚ºå¤‰æ›´=LL
+æ„›ç§°å¤‰æ›´=ï¼§$(ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆæ„›ç§°)
 4000, 0, 0, 0, 0
-*‚g‚o{4000EƒTƒCƒYLL•ÏX
-*ˆê“x•t‚¯‚é‚ÆŠO‚·Ž–‚ªo—ˆ‚È‚¢
+*ï¼¨ï¼°ï¼‹4000ãƒ»ã‚µã‚¤ã‚ºLLå¤‰æ›´
+*ä¸€åº¦ä»˜ã‘ã‚‹ã¨å¤–ã™äº‹ãŒå‡ºæ¥ãªã„
 
-###### Žu‹M•ÏX ######
+###### å¿—è²´å¤‰æ›´ ######
 
 
-Žµ–éŠoÁ
-Žµ–éŠoÁ, ŒÅ’è(‰“–ìŽu‹Mê—p), ”ñ•\Ž¦
-“ÁŽê”\—Í
-ƒpƒCƒƒbƒg”\—Í•t‰Á="ƒƒbƒZ[ƒW=‰“–ìŽu‹M(Žµ–é)"
-ƒpƒCƒƒbƒg‰æ‘œ=TKHM_TohnoShiki(NonGlass)(Nanaya).bmp (!–‚ŠáŽE‚µ‚ÌŠá‹¾‘•”õ)
-ƒpƒCƒƒbƒg‰æ‘œ=TKHM_TohnoShiki(Nanaya).bmp (–‚ŠáŽE‚µ‚ÌŠá‹¾‘•”õ)
+ä¸ƒå¤œè¦šé†’
+ä¸ƒå¤œè¦šé†’, å›ºå®š(é é‡Žå¿—è²´å°‚ç”¨), éžè¡¨ç¤º
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆèƒ½åŠ›ä»˜åŠ ="ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸=é é‡Žå¿—è²´(ä¸ƒå¤œ)"
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆç”»åƒ=TKHM_TohnoShiki(NonGlass)(Nanaya).bmp (!é­”çœ¼æ®ºã—ã®çœ¼é¡è£…å‚™)
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆç”»åƒ=TKHM_TohnoShiki(Nanaya).bmp (é­”çœ¼æ®ºã—ã®çœ¼é¡è£…å‚™)
 0, 0, 0, 0, 0
 
-###### ƒAƒ‹ƒNƒFƒCƒh•ÏX ######
+###### ã‚¢ãƒ«ã‚¯ã‚§ã‚¤ãƒ‰å¤‰æ›´ ######
 
-”LƒNƒFƒCƒh
-”LƒNƒFƒCƒh, ŒÅ’è, ”ñ•\Ž¦
-“ÁŽê”\—Í
-ƒ†ƒjƒbƒg‰æ‘œ=TKHM_ArcueidBrunestud(Cat)U.bmp
-ƒpƒCƒƒbƒg‰æ‘œ=TKHM_ArcueidBrunestud(Cat).bmp
-ƒpƒCƒƒbƒg”\—Í•t‰Á="ƒƒbƒZ[ƒW=”LƒAƒ‹ƒN"
+çŒ«ã‚¯ã‚§ã‚¤ãƒ‰
+çŒ«ã‚¯ã‚§ã‚¤ãƒ‰, å›ºå®š, éžè¡¨ç¤º
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ¦ãƒ‹ãƒƒãƒˆç”»åƒ=TKHM_ArcueidBrunestud(Cat)U.bmp
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆç”»åƒ=TKHM_ArcueidBrunestud(Cat).bmp
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆèƒ½åŠ›ä»˜åŠ ="ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸=çŒ«ã‚¢ãƒ«ã‚¯"
 0, 0, 0, 0, 0
 
-###### ƒVƒGƒ‹•ÏX ######
+###### ã‚·ã‚¨ãƒ«å¤‰æ›´ ######
 
-§•žƒVƒGƒ‹
-§•žƒVƒGƒ‹, ˆß‘•(ƒVƒGƒ‹ê—p), ”ñ•\Ž¦
-“ÁŽê”\—Í
-ƒ†ƒjƒbƒg‰æ‘œ=TKHM_CielU(2).bmp
-ƒpƒCƒƒbƒg‰æ‘œ=TKHM_Ciel(2).bmp
+åˆ¶æœã‚·ã‚¨ãƒ«
+åˆ¶æœã‚·ã‚¨ãƒ«, è¡£è£…(ã‚·ã‚¨ãƒ«å°‚ç”¨), éžè¡¨ç¤º
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ¦ãƒ‹ãƒƒãƒˆç”»åƒ=TKHM_CielU(2).bmp
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆç”»åƒ=TKHM_Ciel(2).bmp
 0, 0, 0, 0, 0
 
-ƒVƒGƒ‹Š®‘S•‘•
-ƒVƒGƒ‹Š®‘S•‘•, ˆß‘•(ƒVƒGƒ‹ê—p), ”ñ•\Ž¦
-“ÁŽê”\—Í
-ƒ†ƒjƒbƒg‰æ‘œ=TKHM_Ciel(F)U.bmp
+ã‚·ã‚¨ãƒ«å®Œå…¨æ­¦è£…
+ã‚·ã‚¨ãƒ«å®Œå…¨æ­¦è£…, è¡£è£…(ã‚·ã‚¨ãƒ«å°‚ç”¨), éžè¡¨ç¤º
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ¦ãƒ‹ãƒƒãƒˆç”»åƒ=TKHM_Ciel(F)U.bmp
 0, 0, 0, 0, 0
 
-’m“¾—¯æ¶
-’m“¾—¯æ¶, ˆß‘•(ƒVƒGƒ‹ê—p), ”ñ•\Ž¦
-“ÁŽê”\—Í
-ƒ†ƒjƒbƒg‰æ‘œ=TKHM_Ciel(T)U.bmp
-ƒpƒCƒƒbƒg‰æ‘œ=TKHM_Ciel(T).bmp
-ˆ¤Ì•ÏX=’m“¾—¯æ¶
-ƒpƒCƒƒbƒgˆ¤Ì=’m“¾—¯
-ƒpƒCƒƒbƒg”\—Í•t‰Á="ƒƒbƒZ[ƒW=’m“¾—¯"
+çŸ¥å¾—ç•™å…ˆç”Ÿ
+çŸ¥å¾—ç•™å…ˆç”Ÿ, è¡£è£…(ã‚·ã‚¨ãƒ«å°‚ç”¨), éžè¡¨ç¤º
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ¦ãƒ‹ãƒƒãƒˆç”»åƒ=TKHM_Ciel(T)U.bmp
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆç”»åƒ=TKHM_Ciel(T).bmp
+æ„›ç§°å¤‰æ›´=çŸ¥å¾—ç•™å…ˆç”Ÿ
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆæ„›ç§°=çŸ¥å¾—ç•™
+ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆèƒ½åŠ›ä»˜åŠ ="ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸=çŸ¥å¾—ç•™"
 0, 0, 0, 0, 0
 
-###### H—t•ÏX ######
+###### ç§‹è‘‰å¤‰æ›´ ######
 
-§•žH—t
-§•žH—t, ˆß‘•(‰“–ìH—tê—p), ”ñ•\Ž¦
-“ÁŽê”\—Í
-ƒ†ƒjƒbƒg‰æ‘œ=TKHM_TohnoAkihaU(2).bmp
+åˆ¶æœç§‹è‘‰
+åˆ¶æœç§‹è‘‰, è¡£è£…(é é‡Žç§‹è‘‰å°‚ç”¨), éžè¡¨ç¤º
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ¦ãƒ‹ãƒƒãƒˆç”»åƒ=TKHM_TohnoAkihaU(2).bmp
 0, 0, 0, 0, 0
 
-###### ‚³‚Â‚«•ÏX ######
+###### ã•ã¤ãå¤‰æ›´ ######
 
-“|‚ê‚³‚Â‚«
-“|‚ê‚³‚Â‚«, ˆß‘•(‹|’Ë‚³‚Â‚«ê—p), ”ñ•\Ž¦
-“ÁŽê”\—Í
-ƒ†ƒjƒbƒg‰æ‘œ=TKHM_YumidukaSatuki(MB)U.bmp
+å€’ã‚Œã•ã¤ã
+å€’ã‚Œã•ã¤ã, è¡£è£…(å¼“å¡šã•ã¤ãå°‚ç”¨), éžè¡¨ç¤º
+ç‰¹æ®Šèƒ½åŠ›
+ãƒ¦ãƒ‹ãƒƒãƒˆç”»åƒ=TKHM_YumidukaSatuki(MB)U.bmp
 0, 0, 0, 0, 0

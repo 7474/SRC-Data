@@ -1,19 +1,19 @@
 
-# �E��{�̌��̐���
-# ���L�V�[��	�c�c�X�R�b�g�����x���A�b�v�ɂ��Power of LOVE�ɖڊo�߂Ďg�p�B
-# �M�f�I����	�c�c�M�f�I�����X�R�b�g����Power of LOVE��D���đ����B
-# �M�f�I����I�ǁc�c�����[�i���M�f�I������Power of LOVE��D���Ԃ��đ����B
-#					�X�R�b�g�͐V����Power of Understanding�ɖڊo�߂�B�M�f�I���͎��O�̌��Ɏ����ւ���B
+# ・二本の剣の推移
+# ロキシー戦	……スコットがレベルアップによりPower of LOVEに目覚めて使用。
+# ギデオン戦	……ギデオンがスコットからPower of LOVEを奪って装備。
+# ギデオン戦終局……ラモーナがギデオンからPower of LOVEを奪い返して装備。
+#					スコットは新たにPower of Understandingに目覚める。ギデオンは自前の剣に持ち替える。
 
 
 ThePowerofLOVE
-The Power of LOVE, �Œ�, ��\��
-����\�͂Ȃ�
+The Power of LOVE, 固定, 非表示
+特殊能力なし
 0, 0, 0, 0, 0
-The Power of LOVE,            2000,  1,  1,  +10,  -,  40, 120, AAAA,   +20, ��
+The Power of LOVE,            2000,  1,  1,  +10,  -,  40, 120, AAAA,   +20, 武
 
 ThePowerofUnderstanding
-The Power of Understanding, �Œ�, ��\��
-����\�͂Ȃ�
+The Power of Understanding, 固定, 非表示
+特殊能力なし
 0, 0, 0, 0, 0
-The Power of Understanding,   2100,  1,  1,  +10,  -,  40, 120, AAAA,   +20, ��
+The Power of Understanding,   2100,  1,  1,  +10,  -,  40, 120, AAAA,   +20, 武

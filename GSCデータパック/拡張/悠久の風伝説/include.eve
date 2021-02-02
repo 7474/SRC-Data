@@ -1,11 +1,11 @@
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-í“¬ƒAƒjƒ_–‚–@w¢Š«”­“®:
-#ˆø”‚PD‰æ‘œƒtƒ@ƒCƒ‹–¼(“ñ‚Âw’è‚Ìê‡‚Í"()"‚Æ" "‚ğg‚¤)
-#@@‚QD–‚•ûw‚ÌF(È—ªA‰©B“ñ‚Âw’è‚Ìê‡‚Í"()"‚Æ" "‚ğg‚¤)
-#@@‚RD‰æ‘œƒTƒCƒY(È—ªA32)
-#@@‚SD•\¦Šp“x(È—ªA0)
-#@@‚TD‰æ‘œ‚ğã¸‚³‚¹‚é‹——£(È—ªAˆø”‚R‚Ì”¼•ª)
-#@@‚UD’N‚ğ’†‰›‚É•\¦‚·‚é‚©H(UŒ‚‚Ìê‡‚Íu‘ÎÛƒpƒCƒƒbƒgvw’è‚ğ„§)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é­”æ³•é™£å¬å–šç™ºå‹•:
+#å¼•æ•°ï¼‘ï¼ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«å(äºŒã¤æŒ‡å®šã®å ´åˆã¯"()"ã¨" "ã‚’ä½¿ã†)
+#ã€€ã€€ï¼’ï¼é­”æ–¹é™£ã®è‰²(çœç•¥æ™‚ã€é»„ã€‚äºŒã¤æŒ‡å®šã®å ´åˆã¯"()"ã¨" "ã‚’ä½¿ã†)
+#ã€€ã€€ï¼“ï¼ç”»åƒã‚µã‚¤ã‚º(çœç•¥æ™‚ã€32)
+#ã€€ã€€ï¼”ï¼è¡¨ç¤ºè§’åº¦(çœç•¥æ™‚ã€0)
+#ã€€ã€€ï¼•ï¼ç”»åƒã‚’ä¸Šæ˜‡ã•ã›ã‚‹è·é›¢(çœç•¥æ™‚ã€å¼•æ•°ï¼“ã®åŠåˆ†)
+#ã€€ã€€ï¼–ï¼èª°ã‚’ä¸­å¤®ã«è¡¨ç¤ºã™ã‚‹ã‹ï¼Ÿ(æ”»æ’ƒã®å ´åˆã¯ã€Œå¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆã€æŒ‡å®šã‚’æ¨å¥¨)
 
 Local i j BMP_FILE x y ANG COL COL2
 
@@ -31,21 +31,21 @@ Endif
 
 If LLength(Args(1)) = 2 Then
 
- Set COL ("Anime\Magic\EFFECT_MagicEmblem" & _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs(LIndex(Args(2),1),‰©))) & "01.bmp")
- Set COL2 ("Anime\Magic\EFFECT_MagicEmblem" & _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs(LIndex(Args(2),2),‰©))) & "01.bmp")
+ Set COL ("Anime\Magic\EFFECT_MagicEmblem" & _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs(LIndex(Args(2),1),é»„))) & "01.bmp")
+ Set COL2 ("Anime\Magic\EFFECT_MagicEmblem" & _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs(LIndex(Args(2),2),é»„))) & "01.bmp")
 
  Wait Start
  For i = 1 To 8
-  PaintPicture COL 184 (i * 4 + 212) 48 ((16 - i) * 3) ‰E‰ñ“] ((i Mod 18) * 20) “§‰ß
-  PaintPicture COL2 248 (i * 4 + 212) 48 ((16 - i) * 3) ‰E‰ñ“] ((i Mod 18) * 20) “§‰ß
+  PaintPicture COL 184 (i * 4 + 212) 48 ((16 - i) * 3) å³å›è»¢ ((i Mod 18) * 20) é€é
+  PaintPicture COL2 248 (i * 4 + 212) 48 ((16 - i) * 3) å³å›è»¢ ((i Mod 18) * 20) é€é
   Refresh
   Wait Until (i * 0.6)
   ClearPicture
  Next
  PlaySound Jet.wav
  For i = 1 To 54
-  PaintPicture COL 184 244 48 24 ‰E‰ñ“] ((i Mod 18) * 20) “§‰ß
-  PaintPicture COL2 248 244 48 24 ¶‰ñ“] ((i Mod 18) * 20) “§‰ß
+  PaintPicture COL 184 244 48 24 å³å›è»¢ ((i Mod 18) * 20) é€é
+  PaintPicture COL2 248 244 48 24 å·¦å›è»¢ ((i Mod 18) * 20) é€é
   Line 190 (261 - i * 5) 226 256 BF #32C8FF
   Line 254 (261 - i * 5) 290 256 BF #32C8FF
   Line 192 (263 - i * 5) 224 258 BF #82D7FF
@@ -58,36 +58,36 @@ If LLength(Args(1)) = 2 Then
  Next
  For i = 1 To j
   ClearPicture
-  PaintPicture COL 184 244 48 24 ‰E‰ñ“] ((i Mod 18) * 20) “§‰ß
-  PaintPicture COL2 248 244 48 24 ¶‰ñ“] ((i Mod 18) * 20) “§‰ß
+  PaintPicture COL 184 244 48 24 å³å›è»¢ ((i Mod 18) * 20) é€é
+  PaintPicture COL2 248 244 48 24 å·¦å›è»¢ ((i Mod 18) * 20) é€é
   Line 190 1 226 256 BF #32C8FF
   Line 254 1 290 256 BF #32C8FF
   Line 192 1 224 258 BF #82D7FF
   Line 256 1 288 258 BF #82D7FF
   Line 194 1 222 260 BF #B4E6FF
   Line 258 1 286 260 BF #B4E6FF
-  PaintPicture LIndex(Args(1),1) (209 - y) (241 - i - y) x x ‰E‰ñ“] ANG ƒVƒ‹ƒGƒbƒg “§‰ß
-  PaintPicture LIndex(Args(1),1) (208 - y) (240 - i - y) x x ‰E‰ñ“] ANG “§‰ß
-  PaintPicture LIndex(Args(1),2) (273 - y) (241 - i - y) x x ‰E‰ñ“] ANG ƒVƒ‹ƒGƒbƒg “§‰ß
-  PaintPicture LIndex(Args(1),2) (272 - y) (240 - i - y) x x ‰E‰ñ“] ANG “§‰ß
+  PaintPicture LIndex(Args(1),1) (209 - y) (241 - i - y) x x å³å›è»¢ ANG ã‚·ãƒ«ã‚¨ãƒƒãƒˆ é€é
+  PaintPicture LIndex(Args(1),1) (208 - y) (240 - i - y) x x å³å›è»¢ ANG é€é
+  PaintPicture LIndex(Args(1),2) (273 - y) (241 - i - y) x x å³å›è»¢ ANG ã‚·ãƒ«ã‚¨ãƒƒãƒˆ é€é
+  PaintPicture LIndex(Args(1),2) (272 - y) (240 - i - y) x x å³å›è»¢ ANG é€é
   Refresh
   Wait Until (i * 0.3 + 14.8)
  Next
 
 Else
 
- Set COL ("Anime\Magic\EFFECT_MagicEmblem" & _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs(Args(2),‰©))) & "01.bmp")
+ Set COL ("Anime\Magic\EFFECT_MagicEmblem" & _GetName("(Pink)",_GetBeamColor(_GetColorFromArgs(Args(2),é»„))) & "01.bmp")
 
  Wait Start
  For i = 1 To 8
-  PaintPicture COL - (i * 4 + 212) 48 ((16 - i) * 3) ‰E‰ñ“] ((i Mod 18) * 20) “§‰ß
+  PaintPicture COL - (i * 4 + 212) 48 ((16 - i) * 3) å³å›è»¢ ((i Mod 18) * 20) é€é
   Refresh
   Wait Until (i * 0.6)
   ClearPicture
  Next
  PlaySound Jet.wav
  For i = 1 To 54
-  PaintPicture COL - 244 48 24 ‰E‰ñ“] ((i Mod 18) * 20) “§‰ß
+  PaintPicture COL - 244 48 24 å³å›è»¢ ((i Mod 18) * 20) é€é
   Line 222 (261 - i * 5) 258 256 BF #32C8FF
   Line 224 (263 - i * 5) 256 258 BF #82D7FF
   Line 226 (265 - i * 5) 254 260 BF #B4E6FF
@@ -97,12 +97,12 @@ Else
  Next
  For i = 1 To j
   ClearPicture
-  PaintPicture COL - 244 48 24 ‰E‰ñ“] ((i Mod 18) * 20) “§‰ß
+  PaintPicture COL - 244 48 24 å³å›è»¢ ((i Mod 18) * 20) é€é
   Line 222 1 258 256 BF #32C8FF
   Line 224 1 256 258 BF #82D7FF
   Line 226 1 254 260 BF #B4E6FF
-  PaintPicture Args(1) (241 - y) (241 - i - y) x x ‰E‰ñ“] ANG ƒVƒ‹ƒGƒbƒg “§‰ß
-  PaintPicture Args(1) (240 - y) (240 - i - y) x x ‰E‰ñ“] ANG “§‰ß
+  PaintPicture Args(1) (241 - y) (241 - i - y) x x å³å›è»¢ ANG ã‚·ãƒ«ã‚¨ãƒƒãƒˆ é€é
+  PaintPicture Args(1) (240 - y) (240 - i - y) x x å³å›è»¢ ANG é€é
   Refresh
   Wait Until (i * 0.3 + 14.8)
  Next

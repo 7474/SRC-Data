@@ -1,17 +1,17 @@
-*ƒvƒƒ[ƒO:
-If Level(Š•bŽ™) <> 0 Then
-    Switch Unit(Š•bŽ™)
-    Case ƒ_ƒuƒ‹ƒXƒyƒCƒU[ ƒhƒŠƒ‹ƒXƒyƒCƒU[ ƒ}ƒŠƒ“ƒXƒyƒCƒU[ ‚s‚e‚n
-    ReplacePilot Š•bŽ™ Š•bŽ™(‚s‚e‚n)
+*ãƒ—ãƒ­ãƒ­ãƒ¼ã‚°:
+If Level(å…œç”²å…) <> 0 Then
+    Switch Unit(å…œç”²å…)
+    Case ãƒ€ãƒ–ãƒ«ã‚¹ãƒšã‚¤ã‚¶ãƒ¼ ãƒ‰ãƒªãƒ«ã‚¹ãƒšã‚¤ã‚¶ãƒ¼ ãƒžãƒªãƒ³ã‚¹ãƒšã‚¤ã‚¶ãƒ¼ ï¼´ï¼¦ï¼¯
+    ReplacePilot å…œç”²å… å…œç”²å…(ï¼´ï¼¦ï¼¯)
     Exit
     EndSw
 Endif
-If Level(Š•bŽ™(‚s‚e‚n)) <> 0 Then
-    Switch Unit(Š•bŽ™(‚s‚e‚n))
-    Case ƒ_ƒuƒ‹ƒXƒyƒCƒU[ ƒhƒŠƒ‹ƒXƒyƒCƒU[ ƒ}ƒŠƒ“ƒXƒyƒCƒU[ ‚s‚e‚n
+If Level(å…œç”²å…(ï¼´ï¼¦ï¼¯)) <> 0 Then
+    Switch Unit(å…œç”²å…(ï¼´ï¼¦ï¼¯))
+    Case ãƒ€ãƒ–ãƒ«ã‚¹ãƒšã‚¤ã‚¶ãƒ¼ ãƒ‰ãƒªãƒ«ã‚¹ãƒšã‚¤ã‚¶ãƒ¼ ãƒžãƒªãƒ³ã‚¹ãƒšã‚¤ã‚¶ãƒ¼ ï¼´ï¼¦ï¼¯
     Exit
     Case else
-    ReplacePilot Š•bŽ™(‚s‚e‚n) Š•bŽ™
+    ReplacePilot å…œç”²å…(ï¼´ï¼¦ï¼¯) å…œç”²å…
     EndSw
 Endif
 Exit

@@ -1,5 +1,5 @@
 
-í“¬ƒAƒjƒ_KARATE_ƒ‰ƒ“ƒ_ƒ€R‚èUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KARATE_ãƒ©ãƒ³ãƒ€ãƒ è¹´ã‚Šæ”»æ’ƒ:
 
 Switch Random(3)
 Case 1
@@ -10,32 +10,32 @@ Case 3
  Set KARATE_Kick KARATE_Karateka(MiddleKick).bmp
 EndSw
 
-Call í“¬ƒAƒjƒ_uŠÔ•ÏŒ`UŒ‚ KARATE_Kick ‘ÎÛƒ†ƒjƒbƒg‚h‚c ”½‰f
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_çž¬é–“å¤‰å½¢æ”»æ’ƒ KARATE_Kick å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤ åæ˜ 
 
 Return
 
 
 
-í“¬ƒAƒjƒ_KARATE_ƒ^[ƒQƒbƒg•ÏX–½’†:
-# ‘Ž®uKARATE_ƒ^[ƒQƒbƒg•ÏX (UŒ‚‚·‚é‘¤ƒpƒCƒƒbƒg–¼) (‚³‚ê‚é‘¤ƒpƒCƒƒbƒg–¼)v
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KARATE_ã‚¿ãƒ¼ã‚²ãƒƒãƒˆå¤‰æ›´å‘½ä¸­:
+# æ›¸å¼ã€ŒKARATE_ã‚¿ãƒ¼ã‚²ãƒƒãƒˆå¤‰æ›´ (æ”»æ’ƒã™ã‚‹å´ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆå) (ã•ã‚Œã‚‹å´ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆå)ã€
 
 Select Args(1)
 SelectTarget Args(2)
 Return
 
 
-í“¬ƒAƒjƒ_KARATE_—çˆ—–½’†:
-SetMessage ‘ŠŽèƒpƒCƒƒbƒg ƒ_ƒ[ƒW¬ "-"
-SetMessage ‘ŠŽèƒpƒCƒƒbƒg ŽË’öŠO "-"
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KARATE_ç¤¼å‡¦ç†å‘½ä¸­:
+SetMessage ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ ãƒ€ãƒ¡ãƒ¼ã‚¸å° "-"
+SetMessage ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ å°„ç¨‹å¤– "-"
 Return
 
 
-í“¬ƒAƒjƒ_KARATE_‹Z”\•¶Žš”­“®:
-# ˆø”‚P •\Ž¦•¶Žš
-# ˆø”‚Q Œø‰Ê‰¹
-_CenteringCheck ‘ŠŽèƒ†ƒjƒbƒg‚h‚c
-Local C_X = _Get_WX(‘ŠŽèƒ†ƒjƒbƒg‚h‚c)
-Local C_Y = _Get_WY(‘ŠŽèƒ†ƒjƒbƒg‚h‚c)
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KARATE_æŠ€èƒ½æ–‡å­—ç™ºå‹•:
+# å¼•æ•°ï¼‘ è¡¨ç¤ºæ–‡å­—
+# å¼•æ•°ï¼’ åŠ¹æžœéŸ³
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
+Local C_X = _Get_WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+Local C_Y = _Get_WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
 Font 12pt
 

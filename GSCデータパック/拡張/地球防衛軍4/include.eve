@@ -1,29 +1,29 @@
 
 ################################################################################
-### ƒŒ[ƒU[ƒ‰ƒ“ƒX‚ÌUŒ‚ƒAƒjƒ[ƒVƒ‡ƒ“B
-í“¬ƒAƒjƒ_EDF4_ƒŒ[ƒU[ƒ‰ƒ“ƒXUŒ‚:
+### ãƒ¬ãƒ¼ã‚¶ãƒ¼ãƒ©ãƒ³ã‚¹ã®æ”»æ’ƒã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã€‚
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ãƒ¬ãƒ¼ã‚¶ãƒ¼ãƒ©ãƒ³ã‚¹æ”»æ’ƒ:
 
-Center ‘Šèƒ†ƒjƒbƒg‚h‚c
+Center ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
-Local L_UnitBmp = _GetBMPName(_GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs()))
-Local L_Color   = _GetBC(_GetName("—Î",_GetColorFromArgs()))
+Local L_UnitBmp = _GetBMPName(_GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs()))
+Local L_Color   = _GetBC(_GetName("ç·‘",_GetColorFromArgs()))
 
 Local  L_i L_BmpNo L_SoundPlayed L_TimeColor
 
 L_SoundPlayed = 0
-L_TimeColor = _ColorTime() //ŠÔ‘Ñ‚É‰‚¶‚½PaintPictureƒIƒvƒVƒ‡ƒ“
+L_TimeColor = _ColorTime() //æ™‚é–“å¸¯ã«å¿œã˜ãŸPaintPictureã‚ªãƒ—ã‚·ãƒ§ãƒ³
 
 For L_i = 1 To 10
 	ClearPicture
 	
 	If (L_i > 1) Then
-		PaintPicture L_UnitBmp L_X L_Y ¶‰E”½“] ‰E‰ñ“] 30 “§‰ß ƒZƒsƒA L_TimeColor
+		PaintPicture L_UnitBmp L_X L_Y å·¦å³åè»¢ å³å›è»¢ 30 é€é ã‚»ãƒ”ã‚¢ L_TimeColor
 	EndIf
 	
 	L_X = (240 - 16) + (32 * (L_i - 5))
 	L_Y = (240 - 16) + 16 - Int(2 * ((10 - L_i) ^ 2))
 	
-	PaintPicture L_UnitBmp L_X L_Y ¶‰E”½“] ‰E‰ñ“] 30 “§‰ß L_TimeColor
+	PaintPicture L_UnitBmp L_X L_Y å·¦å³åè»¢ å³å›è»¢ 30 é€é L_TimeColor
 	
 	L_BmpNo = Min(3, Min(L_i - 1, 9 - L_i))
 	If (L_BmpNo > 0) Then
@@ -31,7 +31,7 @@ For L_i = 1 To 10
 			PlaySound _GetName("Beam.wav",_GetWavFromArgs())
 			L_SoundPlayed = 1
 		EndIf
-		PaintPicture ("Laser\EFFECT_EnergyBlade" & L_Color & "0" & L_BmpNo & ".bmp") (L_X + 16) (L_Y + 16) “§‰ß ¶‰E”½“] ã‰º”½“]
+		PaintPicture ("Laser\EFFECT_EnergyBlade" & L_Color & "0" & L_BmpNo & ".bmp") (L_X + 16) (L_Y + 16) é€é å·¦å³åè»¢ ä¸Šä¸‹åè»¢
 	EndIf
 	
 	Refresh
@@ -41,33 +41,33 @@ Next
 Return
 
 ################################################################################
-### ƒŒƒCƒsƒA‚ÌUŒ‚ƒAƒjƒ[ƒVƒ‡ƒ“B
-í“¬ƒAƒjƒ_EDF4_ƒŒƒCƒsƒAUŒ‚:
+### ãƒ¬ã‚¤ãƒ”ã‚¢ã®æ”»æ’ƒã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã€‚
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ãƒ¬ã‚¤ãƒ”ã‚¢æ”»æ’ƒ:
 
-Center ‘Šèƒ†ƒjƒbƒg‚h‚c
+Center ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
-Local L_UnitBmp = _GetBMPName(_GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs()))
-Local L_Color   = _GetBC(_GetName("Ô",_GetColorFromArgs()))
+Local L_UnitBmp = _GetBMPName(_GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs()))
+Local L_Color   = _GetBC(_GetName("èµ¤",_GetColorFromArgs()))
 
 Local  L_i L_j L_TimeColor
 
-L_TimeColor = _ColorTime() //ŠÔ‘Ñ‚É‰‚¶‚½PaintPictureƒIƒvƒVƒ‡ƒ“
+L_TimeColor = _ColorTime() //æ™‚é–“å¸¯ã«å¿œã˜ãŸPaintPictureã‚ªãƒ—ã‚·ãƒ§ãƒ³
 
 PlaySound _GetName("Search.wav",_GetWavFromArgs())
 For L_i = 1 To 10
 	ClearPicture
 	
 	If (L_i > 1) Then
-		PaintPicture L_UnitBmp L_X L_Y ¶‰E”½“] ‰E‰ñ“] 30 “§‰ß ƒZƒsƒA L_TimeColor
+		PaintPicture L_UnitBmp L_X L_Y å·¦å³åè»¢ å³å›è»¢ 30 é€é ã‚»ãƒ”ã‚¢ L_TimeColor
 	EndIf
 	
 	L_X = (240 - 16) + (32 * (L_i - 5))
 	L_Y = (240 - 16) + 16 - Int(2 * ((10 - L_i) ^ 2))
 	
-	PaintPicture L_UnitBmp L_X L_Y ¶‰E”½“] ‰E‰ñ“] 30 “§‰ß L_TimeColor
+	PaintPicture L_UnitBmp L_X L_Y å·¦å³åè»¢ å³å›è»¢ 30 é€é L_TimeColor
 	
 	For L_j = 1 To 5
-		PaintPicture ("Laser\EFFECT_EnergyBlade" & L_Color & "0" & (1 + Random(2)) & ".bmp") (L_X + 24 - (5 * L_j)) (L_Y - 8 + (5 * L_j)) “§‰ß ‰E‰ñ“] (120 + L_j * 20)
+		PaintPicture ("Laser\EFFECT_EnergyBlade" & L_Color & "0" & (1 + Random(2)) & ".bmp") (L_X + 24 - (5 * L_j)) (L_Y - 8 + (5 * L_j)) é€é å³å›è»¢ (120 + L_j * 20)
 	Next
 	
 	Refresh
@@ -77,9 +77,9 @@ Next
 Return
 
 ################################################################################
-### ‚l‚`‚o•ºŠí—p‚Ì‰Œ•`‰æƒAƒjƒ[ƒVƒ‡ƒ“B
+### ï¼­ï¼¡ï¼°å…µå™¨ç”¨ã®ç…™æç”»ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã€‚
 
-í“¬ƒAƒjƒ_EDF4_‚l‚`‚o‰Œ•`‰æ€”õ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ï¼­ï¼¡ï¼°ç…™æç”»æº–å‚™:
 
 Local ANG G_S EXPAN
 Local i j C_X C_Y W_X W_Y W_X2 W_Y2 X_F Y_F
@@ -87,8 +87,8 @@ Local B_C = _GetName("(White)",_G_BC_FA())
 Local BMP_FILE
 Local T_COL = _ColorTime()
 
-C_X = WX(–Ú•W’n“_)
-C_Y = WY(–Ú•W’n“_)
+C_X = WX(ç›®æ¨™åœ°ç‚¹)
+C_Y = WY(ç›®æ¨™åœ°ç‚¹)
 
 For i = 1 To 3
   Set ANG (45 + Random(90))
@@ -96,8 +96,8 @@ For i = 1 To 3
   Set W_Y[i] (C_Y + 8)
   Set EXPAN[i] (1.2 - (i * 0.03))
   Set G_S[i] 28
-  Set X_F[i] (_GetCircumference(ANG,‚w) * (i + 1))
-  Set Y_F[i] (_GetCircumference(ANG,‚x) * (i + 1))
+  Set X_F[i] (_GetCircumference(ANG,ï¼¸) * (i + 1))
+  Set Y_F[i] (_GetCircumference(ANG,ï¼¹) * (i + 1))
   Switch Random(3)
   Case 1
     Set BMP_FILE[i] ("Smoke\EFFECT_SmokeA" & B_C & "0")
@@ -122,13 +122,13 @@ For i = 1 To 7
     Set W_Y2 (W_Y[j] + (16 - (G_S[j] \ 2)))
     Switch i
     Case 1 2 3 4
-      PaintPicture (BMP_FILE[j] & "1.bmp") W_X2 W_Y2 G_S[j] G_S[j] “§‰ß T_COL
+      PaintPicture (BMP_FILE[j] & "1.bmp") W_X2 W_Y2 G_S[j] G_S[j] é€é T_COL
     Case 5
-      PaintPicture (BMP_FILE[j] & "2.bmp") W_X2 W_Y2 G_S[j] G_S[j] “§‰ß T_COL
+      PaintPicture (BMP_FILE[j] & "2.bmp") W_X2 W_Y2 G_S[j] G_S[j] é€é T_COL
     Case 6
-      PaintPicture (BMP_FILE[j] & "3.bmp") W_X2 W_Y2 G_S[j] G_S[j] “§‰ß T_COL
+      PaintPicture (BMP_FILE[j] & "3.bmp") W_X2 W_Y2 G_S[j] G_S[j] é€é T_COL
     Case 7
-      PaintPicture (BMP_FILE[j] & "4.bmp") W_X2 W_Y2 G_S[j] G_S[j] “§‰ß T_COL
+      PaintPicture (BMP_FILE[j] & "4.bmp") W_X2 W_Y2 G_S[j] G_S[j] é€é T_COL
     EndSw
   Next
   Refresh
@@ -138,22 +138,22 @@ Next
 Return
 
 ################################################################################
-### ‰æ–ÊŠO‚©‚ç–C’e‚ª”ò‚ÔUŒ‚ƒAƒjƒ[ƒVƒ‡ƒ“B
+### ç”»é¢å¤–ã‹ã‚‰ç ²å¼¾ãŒé£›ã¶æ”»æ’ƒã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã€‚
 
-í“¬ƒAƒjƒ_EDF4_‰æ–ÊŠO–C’eUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ç”»é¢å¤–ç ²å¼¾æ”»æ’ƒ:
 
-Call í“¬ƒAƒjƒ_EDF4_‰æ–ÊŠO–C’eUŒ‚‹¤’Ê WX(‘Šèƒ†ƒjƒbƒg‚h‚c) WY(‘Šèƒ†ƒjƒbƒg‚h‚c) _GetWavFromArgs()
-
-Return
-
-í“¬ƒAƒjƒ_EDF4_‚l‚`‚o‰æ–ÊŠO–C’eUŒ‚:
-
-Center X(–Ú•W’n“_) Y(–Ú•W’n“_)
-Call í“¬ƒAƒjƒ_EDF4_‰æ–ÊŠO–C’eUŒ‚‹¤’Ê WX(–Ú•W’n“_) WY(–Ú•W’n“_) _GetWavFromArgs()
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ç”»é¢å¤–ç ²å¼¾æ”»æ’ƒå…±é€š WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) _GetWavFromArgs()
 
 Return
 
-í“¬ƒAƒjƒ_EDF4_‰æ–ÊŠO–C’eUŒ‚‹¤’Ê:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ï¼­ï¼¡ï¼°ç”»é¢å¤–ç ²å¼¾æ”»æ’ƒ:
+
+Center X(ç›®æ¨™åœ°ç‚¹) Y(ç›®æ¨™åœ°ç‚¹)
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ç”»é¢å¤–ç ²å¼¾æ”»æ’ƒå…±é€š WX(ç›®æ¨™åœ°ç‚¹) WY(ç›®æ¨™åœ°ç‚¹) _GetWavFromArgs()
+
+Return
+
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ç”»é¢å¤–ç ²å¼¾æ”»æ’ƒå…±é€š:
 
 Local L_TargetPosX = Args(1) + 16
 Local L_TargetPosY = Args(2) + 16
@@ -180,8 +180,8 @@ For L_i = 1 To L_MaxDelay
 	
 	For L_j = 1 To 18
 		If (L_i >= L_DelayTable[L_j] And (11 - L_i + L_DelayTable[L_j]) >= 0) Then
-			Call í“¬ƒAƒjƒ_EDF4_‹ÉÀ•W–C’e•`‰æ (20 * L_j + L_AngleTable[L_j]) (L_VecTable[L_j] * (11 - L_i + L_DelayTable[L_j]) ^ 2 + 16) L_TargetPosX L_TargetPosY ƒZƒsƒA
-			Call í“¬ƒAƒjƒ_EDF4_‹ÉÀ•W–C’e•`‰æ (20 * L_j + L_AngleTable[L_j]) (L_VecTable[L_j] * (11 - L_i + L_DelayTable[L_j]) ^ 2)      L_TargetPosX L_TargetPosY
+			Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_æ¥µåº§æ¨™ç ²å¼¾æç”» (20 * L_j + L_AngleTable[L_j]) (L_VecTable[L_j] * (11 - L_i + L_DelayTable[L_j]) ^ 2 + 16) L_TargetPosX L_TargetPosY ã‚»ãƒ”ã‚¢
+			Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_æ¥µåº§æ¨™ç ²å¼¾æç”» (20 * L_j + L_AngleTable[L_j]) (L_VecTable[L_j] * (11 - L_i + L_DelayTable[L_j]) ^ 2)      L_TargetPosX L_TargetPosY
 		EndIf
 	Next
 	
@@ -191,7 +191,7 @@ Next
 
 Return
 
-í“¬ƒAƒjƒ_EDF4_‹ÉÀ•W–C’e•`‰æ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_æ¥µåº§æ¨™ç ²å¼¾æç”»:
 
 If Args(2) < 30 Then
 	Return
@@ -206,21 +206,21 @@ Local L_CenterY  = Args(4)
 PaintPicture "Bullet\EFFECT_SmallCannon01.bmp" _
              (L_CenterX + (L_Distance * Cos(L_AngleR)) - 16) _
              (L_CenterY + (L_Distance * Sin(L_AngleR)) - 16) _
-             “§‰ß ‰E‰ñ“] L_Angle _S_OPT_FA("ƒZƒsƒA")
+             é€é å³å›è»¢ L_Angle _S_OPT_FA("ã‚»ãƒ”ã‚¢")
 
 Return
 
 ################################################################################
-### ã‹ó‚©‚ç–½’†‚·‚éƒAƒjƒ[ƒVƒ‡ƒ“B
+### ä¸Šç©ºã‹ã‚‰å‘½ä¸­ã™ã‚‹ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã€‚
 
-í“¬ƒAƒjƒ_EDF4_ã‹óƒ`ƒF[ƒ“ƒKƒ“–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ä¸Šç©ºãƒã‚§ãƒ¼ãƒ³ã‚¬ãƒ³å‘½ä¸­:
 
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 Local i j
 Local ANG = _GetAngle(Random(5), 0, 3, 5)
-Local C_X = (WX(‘Šèƒ†ƒjƒbƒg‚h‚c) - 16)
-Local C_Y = (WY(‘Šèƒ†ƒjƒbƒg‚h‚c) - 16)
+Local C_X = (WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 16)
+Local C_Y = (WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 16)
 Local B_C = _GN("(Blue)",_G_BC_FA())
 
 
@@ -238,14 +238,14 @@ Refresh
 
 Return
 
-í“¬ƒAƒjƒ_EDF4_ã‹óƒŒ[ƒ‹ƒKƒ“–½’†:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ä¸Šç©ºãƒ¬ãƒ¼ãƒ«ã‚¬ãƒ³å‘½ä¸­:
 
-_CenteringCheck ‘Šèƒ†ƒjƒbƒg‚h‚c
+_CenteringCheck ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 Local i j
 Local ANG = _GetAngle(Random(5), 0, 3, 5)
-Local C_X = (WX(‘Šèƒ†ƒjƒbƒg‚h‚c) - 16)
-Local C_Y = (WY(‘Šèƒ†ƒjƒbƒg‚h‚c) - 16)
+Local C_X = (WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 16)
+Local C_Y = (WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 16)
 Local B_C = _GN("(Blue)",_G_BC_FA())
 
 Wait Start
@@ -263,62 +263,62 @@ Refresh
 Return
 
 ################################################################################
-### ”šŒ‚‹@‚ª’Ê‰ß‚·‚éƒAƒjƒ[ƒVƒ‡ƒ“(‚l’¼A‚lŠg‚Ì‚İ)B
+### çˆ†æ’ƒæ©ŸãŒé€šéã™ã‚‹ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³(ï¼­ç›´ã€ï¼­æ‹¡ã®ã¿)ã€‚
 
-í“¬ƒAƒjƒ_EDF4_‚l‚`‚o”šŒ‚‹@’Ê‰ßUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ï¼­ï¼¡ï¼°çˆ†æ’ƒæ©Ÿé€šéæ”»æ’ƒ:
 
 Local UID L_i L_angle L_distanceX L_distanceY L_startX L_startY L_deltaX L_deltaY L_TimeColor
 
 Local L_ImgSize   = 64
 Local L_DrawCount = 20
 
-UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 
-L_distanceX = X(–Ú•W’n“_) - X(UID)
-L_distanceY = Y(–Ú•W’n“_) - Y(UID)
+L_distanceX = X(ç›®æ¨™åœ°ç‚¹) - X(UID)
+L_distanceY = Y(ç›®æ¨™åœ°ç‚¹) - Y(UID)
 
 If (Abs(L_distanceX) < Abs(L_distanceY)) Then
-#   c
+#   ç¸¦
 	L_startX = 240 - (L_ImgSize / 2)
 	L_deltaX = 0
 	
 	If (L_distanceY < 0) Then
-	// ãŒü‚«
+	// ä¸Šå‘ã
 		L_angle  = 90
 		L_startY = 480
 		L_deltaY = (480 / L_DrawCount) * -1
 	Else
-	// ‰ºŒü‚«
+	// ä¸‹å‘ã
 		L_angle  = 270
 		L_startY = 0
 		L_deltaY = (480 / L_DrawCount)
 	EndIf
 Else
-#   ‰¡
+#   æ¨ª
 	L_startY = 240 - L_ImgSize
 	L_deltaY = 0
 	
 	If (L_distanceX < 0) Then
-	// ¶Œü‚«
+	// å·¦å‘ã
 		L_angle  = 0
 		L_startX = 480
 		L_deltaX = (480 / L_DrawCount) * -1
 	Else
-	// ‰EŒü‚«
+	// å³å‘ã
 		L_angle  = 180
 		L_startX = 0
 		L_deltaX = (480 / L_DrawCount)
 	EndIf
 EndIf
 
-L_TimeColor = _ColorTime() //ŠÔ‘Ñ‚É‰‚¶‚½PaintPictureƒIƒvƒVƒ‡ƒ“
+L_TimeColor = _ColorTime() //æ™‚é–“å¸¯ã«å¿œã˜ãŸPaintPictureã‚ªãƒ—ã‚·ãƒ§ãƒ³
 
 Center UID
 
 PlaySound "FlyBy.wav"
 For L_i = 1 To L_DrawCount
 	ClearPicture
-	PaintPicture "EFFECT_EDF4_Charon.bmp" (L_startX + (L_deltaX * (L_i - 1))) (L_startY + (L_deltaY * (L_i - 1))) L_ImgSize L_ImgSize “§‰ß ‰E‰ñ“] L_angle L_TimeColor
+	PaintPicture "EFFECT_EDF4_Charon.bmp" (L_startX + (L_deltaX * (L_i - 1))) (L_startY + (L_deltaY * (L_i - 1))) L_ImgSize L_ImgSize é€é å³å›è»¢ L_angle L_TimeColor
 	
 	Refresh
 	
@@ -332,25 +332,25 @@ Next
 Return
 
 ################################################################################
-### Œõü‚ª‚Ó‚è‚»‚»‚®ƒAƒjƒ[ƒVƒ‡ƒ“(‚lü‚Ì‚İ)B
+### å…‰ç·šãŒãµã‚Šãããã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³(ï¼­ç·šã®ã¿)ã€‚
 
-í“¬ƒAƒjƒ_EDF4_‚l‚`‚oŒõü~‚è’‚¬UŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ï¼­ï¼¡ï¼°å…‰ç·šé™ã‚Šæ³¨ãæ”»æ’ƒ:
 
 Local UID L_ColorName L_i L_Colors L_X1 L_Y1 L_X2 L_Y2 L_X L_Y L_LineColor
 
 L_ColorName = _GetName("(Blue)",_GetBeamColorFromArgs())
 L_Colors[1] = _GetBeamLineColor(L_ColorName)
-L_Colors[2] = _GetBeamLineColor(L_ColorName, "–¾")
+L_Colors[2] = _GetBeamLineColor(L_ColorName, "æ˜")
 
-UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 
 Center UID
 
 L_X1 = WX(UID) + 16
 L_Y1 = WY(UID) + 8
 
-L_X2 = WX(–Ú•W’n“_) + 16
-L_Y2 = WY(–Ú•W’n“_) + 8
+L_X2 = WX(ç›®æ¨™åœ°ç‚¹) + 16
+L_Y2 = WY(ç›®æ¨™åœ°ç‚¹) + 8
 
 Local L_DrawCount = 40
 
@@ -367,7 +367,7 @@ For L_i = (L_DrawCount \ 5) To L_DrawCount
 	DrawWidth IIF(L_i Mod 4 = 1, 5, 4)
 	Line  (L_X + 8) 0 L_X L_Y #FFFFFF
 	
-	PaintPicture ("Light\EFFECT_LightGeyser" & L_ColorName & "0" & ((L_i Mod 2) + 1) & ".bmp") (L_X - 68) (L_Y - 120) “§‰ß
+	PaintPicture ("Light\EFFECT_LightGeyser" & L_ColorName & "0" & ((L_i Mod 2) + 1) & ".bmp") (L_X - 68) (L_Y - 120) é€é
 	
 	Refresh
 	
@@ -380,33 +380,33 @@ Refresh
 Return
 
 ################################################################################
-### ƒ~ƒTƒCƒ‹‚ª—‚¿‚Ä‚­‚éƒAƒjƒ[ƒVƒ‡ƒ“B
+### ãƒŸã‚µã‚¤ãƒ«ãŒè½ã¡ã¦ãã‚‹ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã€‚
 
-í“¬ƒAƒjƒ_EDF4_‚h‚b‚a‚l‚Q—‰ºUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ï¼©ï¼£ï¼¢ï¼­ï¼’è½ä¸‹æ”»æ’ƒ:
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
-Call í“¬ƒAƒjƒ_‘Å‚¿ã‚°‰º‚ë‚µ‹¤’Ê ‘Å‚¿‰º‚ë‚µ _GetWPBN(‚h‚b‚a‚l(‚Q)) _GetWPBS(‚h‚b‚a‚l(‚Q)) _GetName("Missile.wav",_GetWavFromArgs()) ‘Šèƒ†ƒjƒbƒg‚h‚c
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ‰“ã¡ä¸Šã’ä¸‹ã‚ã—å…±é€š æ‰“ã¡ä¸‹ã‚ã— _GetWPBN(ï¼©ï¼£ï¼¢ï¼­(ï¼’)) _GetWPBS(ï¼©ï¼£ï¼¢ï¼­(ï¼’)) _GetName("Missile.wav",_GetWavFromArgs()) ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 Return
 
 ################################################################################
-### ƒŒ[ƒU[—U“±‚ÌƒAƒjƒ[ƒVƒ‡ƒ“B
+### ãƒ¬ãƒ¼ã‚¶ãƒ¼èª˜å°ã®ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã€‚
 
-í“¬ƒAƒjƒ_EDF4_ƒŒ[ƒU[—U“±‘•’uUŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ãƒ¬ãƒ¼ã‚¶ãƒ¼èª˜å°è£…ç½®æ”»æ’ƒ:
 
-Call í“¬ƒAƒjƒ_EDF4_ƒŒ[ƒU[—U“±‘•’u‹¤’Ê WX(‘Šèƒ†ƒjƒbƒg‚h‚c) WY(‘Šèƒ†ƒjƒbƒg‚h‚c) _GetIDFromArgs() _GetBeamColorFromArgs() _GetWavFromArgs()
-
-Return
-
-í“¬ƒAƒjƒ_EDF4_‚l‚`‚oƒŒ[ƒU[—U“±‘•’uUŒ‚:
-
-Call í“¬ƒAƒjƒ_EDF4_ƒŒ[ƒU[—U“±‘•’u‹¤’Ê WX(–Ú•W’n“_) WY(–Ú•W’n“_) _GetIDFromArgs() _GetBeamColorFromArgs() _GetWavFromArgs()
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ãƒ¬ãƒ¼ã‚¶ãƒ¼èª˜å°è£…ç½®å…±é€š WX(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) WY(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) _GetIDFromArgs() _GetBeamColorFromArgs() _GetWavFromArgs()
 
 Return
 
-í“¬ƒAƒjƒ_EDF4_ƒŒ[ƒU[—U“±‘•’u‹¤’Ê:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ï¼­ï¼¡ï¼°ãƒ¬ãƒ¼ã‚¶ãƒ¼èª˜å°è£…ç½®æ”»æ’ƒ:
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ãƒ¬ãƒ¼ã‚¶ãƒ¼èª˜å°è£…ç½®å…±é€š WX(ç›®æ¨™åœ°ç‚¹) WY(ç›®æ¨™åœ°ç‚¹) _GetIDFromArgs() _GetBeamColorFromArgs() _GetWavFromArgs()
+
+Return
+
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ãƒ¬ãƒ¼ã‚¶ãƒ¼èª˜å°è£…ç½®å…±é€š:
+
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 Local C_X = WX(UID)
 Local C_Y = WY(UID)
@@ -415,15 +415,15 @@ Local W_X = (C_X + 16 - (G_S \ 2))
 Local W_Y = (C_Y + 16 - (G_S \ 2))
 Local LN = 2
 Local ANG = _GetAngle(UID)
-Local X_F = _GetCircumference(ANG,‚w)
-Local Y_F = _GetCircumference(ANG,‚x)
+Local X_F = _GetCircumference(ANG,ï¼¸)
+Local Y_F = _GetCircumference(ANG,ï¼¹)
 Local DRCT = _FlipVertical(ANG)
 Local T_COL1 = _ColorTime(1)
 
 Local L_i L_Colors L_X1 L_Y1 L_X2 L_Y2 L_LineColor
 
 L_Colors[1] = _GetBeamLineColor(_GetName("(Red)",_GetBeamColorFromArgs()))
-L_Colors[2] = _GetBeamLineColor(_GetName("(Red)",_GetBeamColorFromArgs()), "–¾")
+L_Colors[2] = _GetBeamLineColor(_GetName("(Red)",_GetBeamColorFromArgs()), "æ˜")
 
 L_X1 = WX(UID) + 16
 L_Y1 = WY(UID) + 16
@@ -440,15 +440,15 @@ For L_i = 1 To 16
 	L_LineColor = IIF(Random(3) = 1, L_Colors[1], L_Colors[2])
 	
 	Line  L_X1 L_Y1 L_X2 L_Y2 L_LineColor
-	FillStyle “h‚è‚Â‚Ô‚µ
+	FillStyle å¡—ã‚Šã¤ã¶ã—
 	FillColor L_Colors[2]
 	Circle L_X2 L_Y2 4 L_LineColor
-	FillStyle “§–¾
+	FillStyle é€æ˜
 	
 	DrawWidth 2
 	Circle L_X2 L_Y2 (24 - L_i) L_Colors[1]
 
-	PaintPicture "Weapon\EFFECT_LaserGun01.bmp" (W_X + (X_F * LN)) (W_Y + (Y_F * LN)) G_S G_S “§‰ß DRCT ‰E‰ñ“] ANG T_COL1
+	PaintPicture "Weapon\EFFECT_LaserGun01.bmp" (W_X + (X_F * LN)) (W_Y + (Y_F * LN)) G_S G_S é€é DRCT å³å›è»¢ ANG T_COL1
 	
 	Refresh
 	Wait 1
@@ -457,77 +457,77 @@ Next
 Return
 
 ################################################################################
-### —A‘—‹@‚ª—ˆ‚éƒAƒjƒ[ƒVƒ‡ƒ“B
+### è¼¸é€æ©ŸãŒæ¥ã‚‹ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã€‚
 
-í“¬ƒAƒjƒ_EDF4_—A‘—‹@g—p:
-
-Local L_MsgA L_MsgB L_MsgC
-
-L_MsgA = List("‚±‚¿‚çƒ|[ƒ^[ƒYBƒr[ƒNƒ‹“Š‰º’n“_‚ÉŒü‚©‚¢‚Ü‚·", _
-              "—A‘—•”‘à‚æ‚èƒGƒAƒŒƒCƒ_[A—v¿‚ğó‘øB.–Ú•W’n“_‚ÉŒü‚©‚¢‚Ü‚·", _
-              "“Š‰º’n“_‚ğŠm”FB–Ú•W’n“_ã‹ó‚É“’…B.ƒr[ƒNƒ‹“Š‰º—pˆÓI")
-
-L_MsgB = List("ƒr[ƒNƒ‹A“Š‰ºI", _
-              "ƒRƒ“ƒeƒiA“Š‰ºI", _
-              "ƒRƒ“ƒeƒi•ª—£A“Š‰ºI")
-
-L_MsgC = List("K‰^‚ğ", _
-              "”C–±Š®—¹Bíê‚ğ—£’E‚µ‚Ü‚·", _
-              "‚±‚Ìƒr[ƒNƒ‹‚ªŸ—˜‚ÉvŒ£‚·‚é‚±‚Æ‚ğ‹F‚è‚Ü‚·", _
-              "‚»‚Ìq‚Í„‚Ì‚¨‹C‚É“ü‚è‚Å‚·B‰ó‚³‚È‚¢‚æ‚¤‚É", _
-              "–º‚ğ‰Å‚Éo‚·‹C•ª‚Å‚·B‘åØ‚Éˆµ‚Á‚Ä‚­‚¾‚³‚¢", _
-              "ŒR‚Ì”õ•i‚Å‚·B‘å–‚Ég‚Á‚Ä‚­‚¾‚³‚¢", _
-              "Šm‚©‚É‚¨“n‚µ‚µ‚Ü‚µ‚½BŒã‚Å‘—Ş‚É–¼‚ğ")
-
-Call í“¬ƒAƒjƒ_EDF4_—A‘—‹@‹¤’Ê L_MsgA L_MsgB L_MsgC "ƒ|[ƒ^[ƒY(EDF4)" 1
-
-Return
-
-í“¬ƒAƒjƒ_EDF4_ƒfƒvƒXƒNƒƒEƒ‰[—A‘—‹@g—p:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_è¼¸é€æ©Ÿä½¿ç”¨:
 
 Local L_MsgA L_MsgB L_MsgC
 
-L_MsgA = List("‚±‚¿‚ç—A‘—ƒ`[ƒ€BƒfƒvƒXƒNƒƒEƒ‰[‚ğ—A‘—’†", _
-              "ƒfƒvƒXƒNƒƒEƒ‰[‚ğ—A‘—‚µ‚Ä‚¢‚éB.‚à‚¤‚·‚®ìíƒGƒŠƒA‚É’…‚­")
+L_MsgA = List("ã“ã¡ã‚‰ãƒãƒ¼ã‚¿ãƒ¼ã‚ºã€‚ãƒ“ãƒ¼ã‚¯ãƒ«æŠ•ä¸‹åœ°ç‚¹ã«å‘ã‹ã„ã¾ã™", _
+              "è¼¸é€éƒ¨éšŠã‚ˆã‚Šã‚¨ã‚¢ãƒ¬ã‚¤ãƒ€ãƒ¼ã€è¦è«‹ã‚’å—è«¾ã€‚.ç›®æ¨™åœ°ç‚¹ã«å‘ã‹ã„ã¾ã™", _
+              "æŠ•ä¸‹åœ°ç‚¹ã‚’ç¢ºèªã€‚ç›®æ¨™åœ°ç‚¹ä¸Šç©ºã«åˆ°ç€ã€‚.ãƒ“ãƒ¼ã‚¯ãƒ«æŠ•ä¸‹ç”¨æ„ï¼")
 
-L_MsgB = List("ƒfƒvƒXƒNƒƒEƒ‰[A“Š‰ºI")
+L_MsgB = List("ãƒ“ãƒ¼ã‚¯ãƒ«ã€æŠ•ä¸‹ï¼", _
+              "ã‚³ãƒ³ãƒ†ãƒŠã€æŠ•ä¸‹ï¼", _
+              "ã‚³ãƒ³ãƒ†ãƒŠåˆ†é›¢ã€æŠ•ä¸‹ï¼")
 
-L_MsgC = List("VŒ^‚Ìƒ^ƒ“ƒN‚¾Bg‚¢•û‚Íc‚Á‚Ä—Ç‚­‚í‚©‚ç‚È‚¢", _
-              "’wå‚İ‚½‚¢‚È‚â‚Â‚¾Bˆ«˜H‚Ç‚±‚ë‚©•Ç‚¾‚Á‚Ä“o‚ê‚éB.–ğ‚É—§‚Â‚¼", _
-              "’n’ê‚Å‚Ìí“¬‚ğ‘z’è‚µ‚Äì‚ç‚ê‚½‚«”\ƒ^ƒ“ƒN‚¾B.Œ’“¬‚ğ‹F‚é")
+L_MsgC = List("å¹¸é‹ã‚’", _
+              "ä»»å‹™å®Œäº†ã€‚æˆ¦å ´ã‚’é›¢è„±ã—ã¾ã™", _
+              "ã“ã®ãƒ“ãƒ¼ã‚¯ãƒ«ãŒå‹åˆ©ã«è²¢çŒ®ã™ã‚‹ã“ã¨ã‚’ç¥ˆã‚Šã¾ã™", _
+              "ãã®å­ã¯ç§ã®ãŠæ°—ã«å…¥ã‚Šã§ã™ã€‚å£Šã•ãªã„ã‚ˆã†ã«", _
+              "å¨˜ã‚’å«ã«å‡ºã™æ°—åˆ†ã§ã™ã€‚å¤§åˆ‡ã«æ‰±ã£ã¦ãã ã•ã„", _
+              "è»ã®å‚™å“ã§ã™ã€‚å¤§äº‹ã«ä½¿ã£ã¦ãã ã•ã„", _
+              "ç¢ºã‹ã«ãŠæ¸¡ã—ã—ã¾ã—ãŸã€‚å¾Œã§æ›¸é¡ã«ç½²åã‚’")
 
-Call í“¬ƒAƒjƒ_EDF4_—A‘—‹@‹¤’Ê L_MsgA L_MsgB L_MsgC "ƒqƒhƒ‰‚P(EDF4)" 1
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_è¼¸é€æ©Ÿå…±é€š L_MsgA L_MsgB L_MsgC "ãƒãƒ¼ã‚¿ãƒ¼ã‚º(EDF4)" 1
 
 Return
 
-í“¬ƒAƒjƒ_EDF4_ƒoƒ‰ƒ€—A‘—‹@g—p:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ãƒ‡ãƒ—ã‚¹ã‚¯ãƒ­ã‚¦ãƒ©ãƒ¼è¼¸é€æ©Ÿä½¿ç”¨:
 
 Local L_MsgA L_MsgB L_MsgC
 
-L_MsgA = List("‚±‚¿‚ç—A‘—ƒ`[ƒ€B•às—vÇƒoƒ‰ƒ€‚ğ—A‘—’†‚¾", _
-              "Œ»İA•às—vÇƒoƒ‰ƒ€‚ğ—A‘—’†B.‚Ü‚à‚È‚­AìíƒGƒŠƒA‚É“ü‚é")
+L_MsgA = List("ã“ã¡ã‚‰è¼¸é€ãƒãƒ¼ãƒ ã€‚ãƒ‡ãƒ—ã‚¹ã‚¯ãƒ­ã‚¦ãƒ©ãƒ¼ã‚’è¼¸é€ä¸­", _
+              "ãƒ‡ãƒ—ã‚¹ã‚¯ãƒ­ã‚¦ãƒ©ãƒ¼ã‚’è¼¸é€ã—ã¦ã„ã‚‹ã€‚.ã‚‚ã†ã™ãä½œæˆ¦ã‚¨ãƒªã‚¢ã«ç€ã")
 
-L_MsgB = List("•às—vÇƒoƒ‰ƒ€A“Š‰ºI")
+L_MsgB = List("ãƒ‡ãƒ—ã‚¹ã‚¯ãƒ­ã‚¦ãƒ©ãƒ¼ã€æŠ•ä¸‹ï¼")
 
-L_MsgC = List("ˆê’U‚ÍŠJ”­’†~‚É‚È‚Á‚½•ºŠí‚¾B–{“–‚É–ğ‚É—§‚Â‚Ì‚©cH", _
-              "‚±‚ñ‚È•¨‚ğ–{“–‚Ég‚¤‚±‚Æ‚É‚È‚é‚Æ‚Í‚Ëc", _
-              "‚»‚¢‚Â‚ğ‰^‚Ô‚Ì‚É‚Ç‚ê‚¾‚¯‹ê˜J‚µ‚½‚Æv‚Á‚Ä‚éc.‘å–‚Ég‚¦‚æc", _
-              "ƒoƒ‰ƒ€‚Íl—Ş‚ÌØ‚èD‚¾BŒ’“¬‚ğ‹F‚é")
+L_MsgC = List("æ–°å‹ã®ã‚¿ãƒ³ã‚¯ã ã€‚ä½¿ã„æ–¹ã¯â€¦ã£ã¦è‰¯ãã‚ã‹ã‚‰ãªã„", _
+              "èœ˜è››ã¿ãŸã„ãªã‚„ã¤ã ã€‚æ‚ªè·¯ã©ã“ã‚ã‹å£ã ã£ã¦ç™»ã‚Œã‚‹ã€‚.å½¹ã«ç«‹ã¤ã", _
+              "åœ°åº•ã§ã®æˆ¦é—˜ã‚’æƒ³å®šã—ã¦ä½œã‚‰ã‚ŒãŸé«˜æ€§èƒ½ã‚¿ãƒ³ã‚¯ã ã€‚.å¥é—˜ã‚’ç¥ˆã‚‹")
 
-Call í“¬ƒAƒjƒ_EDF4_—A‘—‹@‹¤’Ê L_MsgA L_MsgB L_MsgC "ƒqƒhƒ‰‚P(EDF4)" 4
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_è¼¸é€æ©Ÿå…±é€š L_MsgA L_MsgB L_MsgC "ãƒ’ãƒ‰ãƒ©ï¼‘(EDF4)" 1
 
 Return
 
-í“¬ƒAƒjƒ_EDF4_—A‘—‹@‹¤’Ê:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_ãƒãƒ©ãƒ è¼¸é€æ©Ÿä½¿ç”¨:
 
-# ’nã—v¿‚ª‚È‚¢ê‡‰½‚à‹N‚±‚ç‚È‚¢‚æ‚¤‚É‚·‚é
-If Skill(ƒXƒg[ƒ€ƒGƒAƒŒƒCƒ_[(EDF4), ’nã—v¿) = 0 Then
+Local L_MsgA L_MsgB L_MsgC
+
+L_MsgA = List("ã“ã¡ã‚‰è¼¸é€ãƒãƒ¼ãƒ ã€‚æ­©è¡Œè¦å¡ãƒãƒ©ãƒ ã‚’è¼¸é€ä¸­ã ", _
+              "ç¾åœ¨ã€æ­©è¡Œè¦å¡ãƒãƒ©ãƒ ã‚’è¼¸é€ä¸­ã€‚.ã¾ã‚‚ãªãã€ä½œæˆ¦ã‚¨ãƒªã‚¢ã«å…¥ã‚‹")
+
+L_MsgB = List("æ­©è¡Œè¦å¡ãƒãƒ©ãƒ ã€æŠ•ä¸‹ï¼")
+
+L_MsgC = List("ä¸€æ—¦ã¯é–‹ç™ºä¸­æ­¢ã«ãªã£ãŸå…µå™¨ã ã€‚æœ¬å½“ã«å½¹ã«ç«‹ã¤ã®ã‹â€¦ï¼Ÿ", _
+              "ã“ã‚“ãªç‰©ã‚’æœ¬å½“ã«ä½¿ã†ã“ã¨ã«ãªã‚‹ã¨ã¯ã­â€¦", _
+              "ãã„ã¤ã‚’é‹ã¶ã®ã«ã©ã‚Œã ã‘è‹¦åŠ´ã—ãŸã¨æ€ã£ã¦ã‚‹â€¦.å¤§äº‹ã«ä½¿ãˆã‚ˆâ€¦", _
+              "ãƒãƒ©ãƒ ã¯äººé¡ã®åˆ‡ã‚Šæœ­ã ã€‚å¥é—˜ã‚’ç¥ˆã‚‹")
+
+Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_è¼¸é€æ©Ÿå…±é€š L_MsgA L_MsgB L_MsgC "ãƒ’ãƒ‰ãƒ©ï¼‘(EDF4)" 4
+
+Return
+
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_è¼¸é€æ©Ÿå…±é€š:
+
+# åœ°ä¸Šè¦è«‹ãŒãªã„å ´åˆä½•ã‚‚èµ·ã“ã‚‰ãªã„ã‚ˆã†ã«ã™ã‚‹
+If Skill(ã‚¹ãƒˆãƒ¼ãƒ ã‚¨ã‚¢ãƒ¬ã‚¤ãƒ€ãƒ¼(EDF4), åœ°ä¸Šè¦è«‹) = 0 Then
 	Return
 EndIf
 
 Local UID L_MsgA L_MsgB L_MsgC L_i L_X1 L_Y1 L_X2 L_Y2 L_X L_Y L_TimeColor
 
-UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 Center UID
 
 L_MsgA = LIndex(Args(1), Random(LLength(Args(1))))
@@ -537,7 +537,7 @@ L_MsgC = LIndex(Args(3), Random(LLength(Args(3))))
 L_Y1 = 120 + Random(60)
 L_Y2 = 240 + Random(120)
 
-L_TimeColor = _ColorTime() //ŠÔ‘Ñ‚É‰‚¶‚½PaintPictureƒIƒvƒVƒ‡ƒ“
+L_TimeColor = _ColorTime() //æ™‚é–“å¸¯ã«å¿œã˜ãŸPaintPictureã‚ªãƒ—ã‚·ãƒ§ãƒ³
 
 _SelectSound "Helicopter.wav" _GetWavFromArgs()
 
@@ -551,7 +551,7 @@ For L_i = 1 To 24
 	L_X = (240 / (23 ^ 2) * (24 - L_i) ^ 2) + 240 - 16
 	L_Y = ((L_Y1 * (24 - L_i)) + (240 * L_i)) \ 24 - 16
 
-	Call í“¬ƒAƒjƒ_EDF4_—A‘—‹@•`‰æ  L_X L_Y L_TimeColor Args(5)
+	Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_è¼¸é€æ©Ÿæç”»  L_X L_Y L_TimeColor Args(5)
 	
 	Refresh
 	Wait 1
@@ -569,7 +569,7 @@ For L_i = 1 To 24
 	L_X = 240 - (240 / (23 ^ 2) * L_i ^ 2) - 16
 	L_Y = ((L_Y2 * L_i) + (240 * (24 - L_i))) \ 24 - 16
 
-	Call í“¬ƒAƒjƒ_EDF4_—A‘—‹@•`‰æ  L_X L_Y L_TimeColor Args(5)
+	Call æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_è¼¸é€æ©Ÿæç”»  L_X L_Y L_TimeColor Args(5)
 	
 	Refresh
 	Wait 1
@@ -579,36 +579,36 @@ ClearPicture
 
 Return
 
-í“¬ƒAƒjƒ_EDF4_—A‘—‹@•`‰æ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_è¼¸é€æ©Ÿæç”»:
 If Args(4) = 4 Then
-	PaintPicture "EFFECT_EDF4_Hydra.bmp" (Args(1) - 24) (Args(2) - 24) “§‰ß Args(3)
-	PaintPicture "EFFECT_EDF4_Hydra.bmp" (Args(1) + 24) (Args(2) - 24) “§‰ß Args(3)
-	PaintPicture "EFFECT_EDF4_Hydra.bmp" Args(1) (Args(2) - 48) “§‰ß Args(3)
-	PaintPicture "EFFECT_EDF4_Hydra.bmp" Args(1) Args(2) “§‰ß Args(3)
+	PaintPicture "EFFECT_EDF4_Hydra.bmp" (Args(1) - 24) (Args(2) - 24) é€é Args(3)
+	PaintPicture "EFFECT_EDF4_Hydra.bmp" (Args(1) + 24) (Args(2) - 24) é€é Args(3)
+	PaintPicture "EFFECT_EDF4_Hydra.bmp" Args(1) (Args(2) - 48) é€é Args(3)
+	PaintPicture "EFFECT_EDF4_Hydra.bmp" Args(1) Args(2) é€é Args(3)
 Else
-	PaintPicture "EFFECT_EDF4_Hydra.bmp" Args(1) (Args(2) - 48) “§‰ß Args(3)
+	PaintPicture "EFFECT_EDF4_Hydra.bmp" Args(1) (Args(2) - 48) é€é Args(3)
 EndIf
 
 Return
 
 ################################################################################
-### EDF]‰Ì‚Ìg—pƒAƒjƒ[ƒVƒ‡ƒ“B
-### ‰ÌŒ‚ğƒJƒXƒ^ƒ}ƒCƒY‚·‚éê‡AEDF4•Ï”_]‰Ì‰ÌŒ‚ğ”z—ñ•Ï”‚Æ‚µ‚ÄA’·‚³4‚ÌƒŠƒXƒg‚ğİ’è‚µ‚Ä‚­‚¾‚³‚¢B
-### İ’è—áF
-### EDF4•Ï”_]‰Ì‰ÌŒ[1] = List("‚ ","‚¢","‚¤","‚¦")
-í“¬ƒAƒjƒ_EDF4_]‰Ìg—p:
+### EDFè®ƒæ­Œã®ä½¿ç”¨ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³ã€‚
+### æ­Œè©ã‚’ã‚«ã‚¹ã‚¿ãƒã‚¤ã‚ºã™ã‚‹å ´åˆã€EDF4å¤‰æ•°_è®ƒæ­Œæ­Œè©ã‚’é…åˆ—å¤‰æ•°ã¨ã—ã¦ã€é•·ã•4ã®ãƒªã‚¹ãƒˆã‚’è¨­å®šã—ã¦ãã ã•ã„ã€‚
+### è¨­å®šä¾‹ï¼š
+### EDF4å¤‰æ•°_è®ƒæ­Œæ­Œè©[1] = List("ã‚","ã„","ã†","ãˆ")
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_EDF4_è®ƒæ­Œä½¿ç”¨:
 
 Local L_MainID L_CenterX L_CenterY L_Party L_Distance L_TargetPilots L_i L_Lyrics L_lrc L_LyricCount
 
-L_MainID  = ‘ÎÛƒpƒCƒƒbƒg
-L_CenterX = X(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
-L_CenterY = Y(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
-L_Party   = Party(‘ÎÛƒ†ƒjƒbƒg‚h‚c)
+L_MainID  = å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ
+L_CenterX = X(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+L_CenterY = Y(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
+L_Party   = Party(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)
 
 L_i = 0
 
-# Œø‰Ê”ÍˆÍ“à(M‘S2ƒ}ƒX)‚É‚¢‚é–¡•ûƒ†ƒjƒbƒg‚©‚ç3‘Ì‘I‚Ô
-ForEach L_Party oŒ‚
+# åŠ¹æœç¯„å›²å†…(Må…¨2ãƒã‚¹)ã«ã„ã‚‹å‘³æ–¹ãƒ¦ãƒ‹ãƒƒãƒˆã‹ã‚‰3ä½“é¸ã¶
+ForEach L_Party å‡ºæ’ƒ
 	L_Distance = Abs(X() - L_CenterX) + Abs(Y() - L_CenterY)
 	
 	If ((L_Distance > 0) And (L_Distance < 3)) Then
@@ -620,31 +620,31 @@ ForEach L_Party oŒ‚
 	EndIf
 Next
 
-# ÅŒã‚Ì’÷‚ß‚Íg—pÒ
+# æœ€å¾Œã®ç· ã‚ã¯ä½¿ç”¨è€…
 L_TargetPilots[L_i + 1] = L_MainID
 
-# ƒJƒXƒ^ƒ€‰ÌŒ‚ª‚ ‚éê‡
-If Count(EDF4•Ï”_]‰Ì‰ÌŒ) > 0 Then
+# ã‚«ã‚¹ã‚¿ãƒ æ­Œè©ãŒã‚ã‚‹å ´åˆ
+If Count(EDF4å¤‰æ•°_è®ƒæ­Œæ­Œè©) > 0 Then
 	L_i = 0
-	ForEach L_lrc In EDF4•Ï”_]‰Ì‰ÌŒ
-		If LLength(EDF4•Ï”_]‰Ì‰ÌŒ[L_lrc]) = 4 Then
+	ForEach L_lrc In EDF4å¤‰æ•°_è®ƒæ­Œæ­Œè©
+		If LLength(EDF4å¤‰æ•°_è®ƒæ­Œæ­Œè©[L_lrc]) = 4 Then
 			Incr L_i
-			L_Lyrics[L_i] = EDF4•Ï”_]‰Ì‰ÌŒ[L_lrc]
+			L_Lyrics[L_i] = EDF4å¤‰æ•°_è®ƒæ­Œæ­Œè©[L_lrc]
 		EndIf
 	Next
 	L_LyricCount = L_i
 EndIf
 
-# ƒJƒXƒ^ƒ€‰ÌŒ‚ª‚È‚¢‚©A‚Ü‚½‚Í“à—e‚ª–³Œø‚Ìê‡
+# ã‚«ã‚¹ã‚¿ãƒ æ­Œè©ãŒãªã„ã‹ã€ã¾ãŸã¯å†…å®¹ãŒç„¡åŠ¹ã®å ´åˆ
 If L_LyricCount = 0 Then
 	L_LyricCount = 2
-	L_Lyrics[1] = List("Â‚¢’n‹…‚ğç‚é‚½‚ß","EDF‚Ìo“®‚¾","àŠ‚ß‚­Ÿ—˜‚ÌˆîŒõ","‰F’ˆl‚Ç‚àŒ‚–Å‚¾")
-	L_Lyrics[2] = List("—Î‚Ì’n‹…‚ªŠë‚È‚¢‚¼","EDF‚Ìo“®‚¾","’n‹…‚ğçŒì‚·‚éím’B","‰F’ˆl‚Ç‚à‚â‚Á‚Â‚¯‚ë")
+	L_Lyrics[1] = List("é’ã„åœ°çƒã‚’å®ˆã‚‹ãŸã‚","EDFã®å‡ºå‹•ã ","ç…Œã‚ãå‹åˆ©ã®ç¨²å…‰","å®‡å®™äººã©ã‚‚æ’ƒæ»…ã ")
+	L_Lyrics[2] = List("ç·‘ã®åœ°çƒãŒå±ãªã„ã","EDFã®å‡ºå‹•ã ","åœ°çƒã‚’å®ˆè­·ã™ã‚‹æˆ¦å£«é”","å®‡å®™äººã©ã‚‚ã‚„ã£ã¤ã‘ã‚")
 EndIf
 
 L_Lrc = L_Lyrics[Random(L_LyricCount)]
 
-# ƒƒbƒZ[ƒW•\¦‚ÌÀs
+# ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸è¡¨ç¤ºã®å®Ÿè¡Œ
 For L_i = 1 To 4
 	AutoTalk L_TargetPilots[(L_i - 1) Mod 4 + 1]
 		20;$(LIndex(L_Lrc, L_i))

@@ -1,750 +1,750 @@
 
-ƒ‰ƒCƒfƒB[ƒ“
-ƒV[ƒ‹ƒh–hŒä(ƒSƒbƒhƒuƒƒbƒN), ƒV[ƒ‹ƒh–hŒä Shield\EFFECT_ThrowingShield(Red)01.bmp
-”½ŽË(ƒSƒbƒhƒuƒƒbƒNƒrƒbƒOƒXƒsƒ“), ’†S‰ñ“]•Ší–hŒä ƒSƒbƒhƒuƒƒbƒNƒrƒbƒOƒXƒsƒ“ Shield\EFFECT_BeamShield(Red)01.bmp 64 Drill,wav
-ƒSƒbƒhƒuƒŒƒCƒJ[, Ždž‚Ýn
-ƒSƒbƒhƒ~ƒTƒCƒ‹(€”õ), ”­Œõ ‰©
-ƒSƒbƒhƒ~ƒTƒCƒ‹(€”õ), -
-ƒSƒbƒhƒ~ƒTƒCƒ‹(UŒ‚), ŽÀ’e”­ŽË Common\EFFECT_SonicBoom(White)02.bmp
-ƒSƒbƒhƒ~ƒTƒCƒ‹(–½’†), ”š”­
-ƒSƒbƒhƒ~ƒTƒCƒ‹(–½’†), ŽaŒ‚
-ƒSƒbƒhƒu[ƒƒ‰ƒ“, ƒX[ƒp[ƒu[ƒƒ‰ƒ“ Ô
-ƒWƒFƒbƒgƒu[ƒƒ‰ƒ“, ƒVƒ…[ƒgƒJƒbƒ^[ Ô
-ƒXƒsƒ“ƒuƒŒƒCƒJ[(€”õ), ’†S‰ñ“]•Ší Shield\EFFECT_ThrowingShield(Red)01.bmp Drill,wav
-ƒXƒsƒ“ƒuƒŒƒCƒJ[(UŒ‚), ’†S‰ñ“]•Ší Shield\EFFECT_ThrowingShield(Red)01.bmp Drill,wav
-ƒXƒsƒ“ƒuƒŒƒCƒJ[(–½’†), ‚È‚¬•¥‚¢ Drill,wav
-ƒSƒbƒhƒAƒ[(UŒ‚), ŽÀ’e”­ŽË Bullet\EFFECT_Arrow01.bmp
-ƒSƒbƒhƒAƒ[(–½’†), –îŽh
-ƒ‰ƒCƒfƒB[ƒ“ƒAƒ^ƒbƒN(€”õ), -
-ƒ‰ƒCƒfƒB[ƒ“ƒAƒ^ƒbƒN(UŒ‚), ‘ÅŒ‚“ËŒ‚
-ƒ‰ƒCƒfƒB[ƒ“ƒAƒ^ƒbƒN(UŒ‚), ‚Q˜A¬ƒr[ƒ€ Â Fire.wav;‘ÅŒ‚“ËŒ‚
-ƒ‰ƒCƒfƒB[ƒ“ƒAƒ^ƒbƒN(–½’†), ƒ_ƒ[ƒW
-ƒS[ƒKƒ“ƒ\[ƒh, ‘åŽaŒ‚ ‰© “ñ“—¬
-ƒGƒlƒ‹ƒM[ƒJƒbƒ^[(€”õ), Ždž‚Ýn
-ƒGƒlƒ‹ƒM[ƒJƒbƒ^[(UŒ‚), —Ž—‹ ‰© ‘ÎÛƒ†ƒjƒbƒg‚h‚c;‘åŽaŒ‚ ‰©
-ƒGƒlƒ‹ƒM[ƒJƒbƒ^[(–½’†), ‘åŽaŒ‚ ‰©
-ƒSƒbƒhƒvƒŒƒbƒVƒƒ[(€”õ), •ú“d
-ƒSƒbƒhƒvƒŒƒbƒVƒƒ[(UŒ‚), ƒ†ƒjƒbƒg•ÏF —Î;ƒVƒ‡ƒbƒNƒr[ƒ€ —Î
-ƒSƒbƒhƒvƒŒƒbƒVƒƒ[(–½’†), ƒVƒ‡ƒbƒNƒr[ƒ€ —Î;ƒ†ƒjƒbƒg•ÏF —Î
-ƒSƒbƒhƒS[ƒKƒ“(€”õ), ”­Œõ ‰©;‹|–î
-ƒSƒbƒhƒS[ƒKƒ“(UŒ‚), @í“¬ƒAƒjƒ_”­Œõ€”õ ”’;‹|–î
-ƒSƒbƒhƒS[ƒKƒ“(–½’†), –îŽh;”š”­
-ƒSƒbƒhƒS[ƒKƒ“”c‚ËŒ‚‚¿(€”õ), ”­Œõ ‰©;‹|–î
-ƒSƒbƒhƒS[ƒKƒ“”c‚ËŒ‚‚¿(UŒ‚), ‹|–î˜AŽË
-ƒSƒbƒhƒS[ƒKƒ“”c‚ËŒ‚‚¿(–½’†), –î˜AŽh;‘å”š”­
-ƒSƒbƒhƒAƒ‹ƒtƒ@(€”õ), -
-ƒSƒbƒhƒAƒ‹ƒtƒ@(UŒ‚), Œõ•¬o —Î ‘ÎÛƒ†ƒjƒbƒg‚h‚c;ƒ†ƒjƒbƒg•ÏF “;“ÁŽêŒõü —Î
-ƒSƒbƒhƒAƒ‹ƒtƒ@(–½’†), “ÁŽêŒõü —Î
-ƒSƒbƒhƒo[ƒh(€”õ), -
-ƒSƒbƒhƒo[ƒh(UŒ‚), uŠÔ•ÏŒ` ("Unit\" & Info("ƒ†ƒjƒbƒgƒf[ƒ^",ƒSƒbƒhƒo[ƒh,"ƒOƒ‰ƒtƒBƒbƒN"));ƒƒbƒNƒIƒ“
-ƒSƒbƒhƒo[ƒh(–½’†), Žh“Ë“ËŒ‚
-ƒSƒbƒhƒ{ƒCƒX(€”õ), -
-ƒSƒbƒhƒ{ƒCƒX(UŒ‚), ‘åƒŠƒ“ƒOƒr[ƒ€ “
-ƒSƒbƒhƒ{ƒCƒX(–½’†), ‘åƒŠƒ“ƒOƒr[ƒ€ “
-ƒSƒbƒhƒo[ƒhƒNƒ[(€”õ), -
-ƒSƒbƒhƒo[ƒhƒNƒ[(UŒ‚), ŽÀ’e”­ŽË Hand\EFFECT_Punch(Black)09.bmp
-ƒSƒbƒhƒo[ƒhƒNƒ[(UŒ‚), ‘ÅŒ‚“ËŒ‚
-ƒSƒbƒhƒo[ƒhƒNƒ[(–½’†), Žh“Ë Drill,wav
-ƒSƒbƒhƒTƒ“ƒ_[(€”õ), -
-ƒSƒbƒhƒTƒ“ƒ_[(UŒ‚), —Ž—‹ ‰© ‘ÎÛƒ†ƒjƒbƒg‚h‚c;‰öŒõü
-ƒSƒbƒhƒTƒ“ƒ_[(–½’†), ‰öŒõü
-ƒGƒXƒp[ƒo[ƒ“, ‚Q˜A¬ƒr[ƒ€ ‰©
-ƒSƒbƒhƒo[ƒhƒwƒbƒhƒJƒbƒ^[(€”õ), -
-ƒSƒbƒhƒo[ƒhƒwƒbƒhƒJƒbƒ^[(UŒ‚), ŽÀ’e”­ŽË Common\EFFECT_SonicBoom(Red)02.bmp
-ƒSƒbƒhƒo[ƒhƒwƒbƒhƒJƒbƒ^[(–½’†), ƒƒPƒbƒgƒpƒ“ƒ` Common\EFFECT_SonicBoom(Red)02.bmp;ƒX[ƒp[ƒ^ƒbƒNƒ‹ ”’
-ƒSƒbƒhƒo[ƒhƒAƒ^ƒbƒN(€”õ), -
-ƒSƒbƒhƒo[ƒhƒAƒ^ƒbƒN(UŒ‚), ƒƒbƒNƒIƒ“
-ƒSƒbƒhƒo[ƒhƒAƒ^ƒbƒN(–½’†), ‘ÅŒ‚“ËŒ‚
-
-ƒuƒ‹[ƒK[
-20mmƒoƒ‹ƒJƒ“, ƒoƒ‹ƒJƒ“
-ƒAƒCƒAƒ“ƒNƒ[, bŠkçõ Ô
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 2
-”š—‹, “Š‰º”š’e
-
-ƒXƒsƒbƒgƒtƒ@ƒCƒ^[
-12mm‹@ŠÖ–C, ƒoƒ‹ƒJƒ“
-
-ƒ{ƒCƒ“ƒ_[
-‰Œ–‹, ‚l‚`‚o‰Œ •
-ƒpƒ`ƒ“ƒR, ƒpƒ`ƒ“ƒR
-ƒ{ƒCƒ“ƒ_[ƒpƒ“ƒ`, ‘Å“Ë
-•—‘D”š’e, –A Ô
-ƒ{ƒCƒ“ƒ^ƒbƒ`(UŒ‚), ‚Q˜A¬ƒr[ƒ€ Ô
-ƒ{ƒCƒ“ƒ^ƒbƒ`(–½’†), ‹­‘Å
-
-# —d–‚’é‘ #
-‹‘åƒVƒƒ[ƒLƒ“
-ƒV[ƒ‹ƒh(‹‘åƒV[ƒ‹ƒh), ƒV[ƒ‹ƒh–hŒä Shield\EFFECT_BeamShield(Yellow)01.bmp
-ƒwƒAƒ~ƒTƒCƒ‹(UŒ‚), ƒj[ƒhƒ‹ƒŒ[ƒU[˜AŽË ‰©
-ƒwƒAƒ~ƒTƒCƒ‹(–½’†), ˜A‘±”š”­
-ƒV[ƒ‹ƒhƒJƒbƒ^[(€”õ), U‚é•Ší Shield\EFFECT_BeamShield(Yellow)01.bmp
-ƒV[ƒ‹ƒhƒJƒbƒ^[(UŒ‚), ’†S‰ñ“]•Ší Shield\EFFECT_BeamShield(Yellow)01.bmp
-ƒV[ƒ‹ƒhƒJƒbƒ^[(–½’†), Œõ‰ñ“]ŽaŒ‚ ‰©
-—d–‚ƒT[ƒxƒ‹, –ì‘¾“
-
-ƒhƒ[ƒ
-ƒ}ƒOƒ}’e, ‰Î‰Š’e
-GŽè, GŽè Ž‡
-“, Â—´“
-ƒ~ƒTƒCƒ‹, “Š±•Ší Bullet\EFFECT_Missile01.bmp
-
-ƒKƒ“ƒe
-ƒ~ƒTƒCƒ‹, ¬Œ^ƒ~ƒTƒCƒ‹ 5
-‰Î‰Š(UŒ‚), ‚S‚v‚`‚xŽËo
-‰Î‰Š(–½’†), ‰Î‰Š•úŽË —Î
-ƒKƒ“ƒeƒ~ƒTƒCƒ‹, ƒX[ƒp[ƒ~ƒTƒCƒ‹
-ƒoƒ‰ƒIƒŒ[ƒU[, ‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ ‰©
-ˆ«–‚‘•’u(€”õ), bŠkçõ •
-ˆ«–‚‘•’u(UŒ‚), bŠkçõ •
-ˆ«–‚‘•’u(–½’†), bŠkçõ • Drill,wav;“¥‚Ý’×‚µ Drill,wav
-•‚¢ˆîÈ, ƒVƒ‡ƒbƒNƒr[ƒ€ •
-
-ƒƒJƒKƒ“ƒe
-‰Î‰Š, ‰Î‰Š•úŽË
-ƒoƒ‰ƒIƒŒ[ƒU[, ‚Q˜A¬ƒr[ƒ€ Ô
-ƒKƒ“ƒeƒ~ƒTƒCƒ‹, ƒX[ƒp[ƒ~ƒTƒCƒ‹
-
-‰»ÎbƒoƒXƒgƒhƒ“
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË
-ƒZƒ‰ƒ~ƒbƒNƒ\[ƒh, ŽaŒ‚
-ƒ_ƒuƒ‹ƒZƒ‰ƒ~ƒbƒNƒ\[ƒh, ˜AŽaŒ‚
-
-‰»ÎbƒK[ƒ_
-ƒXƒpƒCƒNƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 6
-ƒƒPƒbƒgƒNƒ[, bŠkçõ “
-‰ñ“]‘Ì“–‚½‚è, ƒX[ƒp[ƒ^ƒbƒNƒ‹ “
-ƒwƒbƒhƒVƒU[ƒX(€”õ), bŠkçõ ‰©
-ƒwƒbƒhƒVƒU[ƒX(UŒ‚), bŠkçõ ‰©
-ƒwƒbƒhƒVƒU[ƒX(–½’†), bŠkçõ ‰©;@í“¬ƒAƒjƒ_ƒhƒŠƒ‹€”õ;@í“¬ƒAƒjƒ_ƒhƒŠƒ‹UŒ‚;ƒhƒŠƒ‹
-
-‰»Îbƒ}ƒhƒ“
-GŽè, GŽè “
-GŽè(ƒNƒŠƒeƒBƒJƒ‹), ƒ†ƒjƒbƒg•ÏF “;‘å•ú“d “
-
-‰»ÎbƒrƒCƒ‰
-GŽè, GŽè “
-‰¹”gUŒ‚, ƒŠƒ“ƒOƒr[ƒ€ “
-Š™, ˜AŽaŒ‚
-‘o–Ê‰¹”gUŒ‚(UŒ‚), “¯Žž‘Å“Ë
-‘o–Ê‰¹”gUŒ‚(–½’†), ‘åƒŠƒ“ƒOƒr[ƒ€ “
-
-‰»Îbƒg[ƒ^ƒX
-b—…(UŒ‚), ‰ñ“]”­ŽË Shield\EFFECT_ThrowingShield(Red)01.bmp
-b—…(–½’†), ‹­‘Å
-‘O‹r(UŒ‚), ”’•º˜AŒ‚
-‘O‹r(–½’†), “¥‚Ý’×‚µ
-
-‰»ÎbƒXƒJ[ƒ‹
-•ªg(ƒuƒƒbƒN•ª—£), Žl•û•ª—£‰ñ”ð
-ƒhƒŠƒ‹ƒuƒƒbƒN, ƒlƒW˜AŽË
-•ª—£‘Ì“–‚½‚è(UŒ‚), ƒxƒAƒŠƒ“ƒO
-•ª—£‘Ì“–‚½‚è(UŒ‚), GŽè —Î
-•ª—£‘Ì“–‚½‚è(–½’†), ƒxƒAƒŠƒ“ƒO
-
-‰»ÎbƒVƒo
-“ñ‘Î‚Ì˜r(€”õ), U‚é•Ší Hand\EFFECT_Punch(Purple)01.bmp “ñ“—¬
-“ñ‘Î‚Ì˜r(UŒ‚), ˜A‘Å Ž‡
-“ñ‘Î‚Ì˜r(–½’†), ˜A‘Å Ž‡
-‘o–Ê‰ñ“]UŒ‚(€”õ), ‘å•ú“d Ž‡
-‘o–Ê‰ñ“]UŒ‚(UŒ‚), ƒXƒsƒ“ƒAƒ^ƒbƒN Ž‡
-‘o–Ê‰ñ“]UŒ‚(–½’†), ƒXƒsƒ“ƒAƒ^ƒbƒN Ž‡;ƒXƒsƒ“ƒWƒƒƒ“ƒvƒAƒ^ƒbƒN Ž‡;ƒXƒsƒ“ƒAƒ^ƒbƒN Ž‡
-
-‰»Îbƒ}ƒ“ƒ‚[
-•@, GŽè Ž‡
-‰åƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 2
-‘Ì“–‚½‚è, ‹}~‰º
-—â“€ù•—(UŒ‚), ù•— ”’
-—â“€ù•—(–½’†), ù•— ”’;“€Œ‹
-
-‰»ÎbƒWƒƒƒK[
-ƒXƒpƒCƒNƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 10
-ã, ã
-ƒ`ƒF[ƒ“ƒpƒ“ƒ`, ƒˆ[ƒˆ[ “ñ“—¬
-Šš‚Ý•t‚«, Šš‚Ý•t‚«
-
-‰»ÎbƒMƒ‹ƒfƒB[ƒ“
-ƒV[ƒ‹ƒh–hŒä(ƒMƒ‹ƒV[ƒ‹ƒh), ƒV[ƒ‹ƒh–hŒä Shield\EFFECT_BeamShield(Red)01.bmp
-ƒMƒ‹ƒ\[ƒh, Ždž‚Ýn
-ƒMƒ‹ƒu[ƒƒ‰ƒ“, ƒX[ƒp[ƒu[ƒƒ‰ƒ“ Ô
-ƒMƒ‹ƒAƒ[(UŒ‚), ŽÀ’e”­ŽË Bullet\EFFECT_Arrow01.bmp
-ƒMƒ‹ƒAƒ[(–½’†), –îŽh
-
-‰»ÎbƒAƒ‹ƒKƒ“ƒhƒX
-ƒ~ƒTƒCƒ‹, ƒX[ƒp[ƒ~ƒTƒCƒ‹ 2
-”j‰óŒõü, ‚Q˜A¬ƒr[ƒ€ —Î;‚Q˜A¬ƒr[ƒ€ —Î
-K”ö, bŠkçõ —Î
-‰Î‰Š‘Ì“–‚½‚è(€”õ), ‰Š
-‰Î‰Š‘Ì“–‚½‚è(UŒ‚), ƒX[ƒp[ƒ^ƒbƒNƒ‹ Ô
-
-‰»ÎbƒVƒ…ƒ‰ƒK
-‘¬ŽË–C, ¬Œ^ƒ~ƒTƒCƒ‹ 10
-ŽÖ‚Ì”¯, ‘½GŽè ‰©
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 2
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË
-“ã“, ŽaŒ‚•Ší Weapon\EFFECT_Shotel01.bmp
-
-‰»Îbƒ_ƒAƒNƒ‹
-‘¬ŽËƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 2
-Žè— Œ•(€”õ), ƒr[ƒ€ƒ\[ƒh —Î;˜A“ŠŒ•
-Žè— Œ•(UŒ‚), ˜A“ŠŒ•
-Žè— Œ•(–½’†), ˜A“Ë
-çó(UŒ‚), ŽÀ’e”­ŽË Bullet\EFFECT_Arrow01.bmp
-çó(–½’†), –îŽh
-—ƒ, ƒr[ƒ€ƒ\[ƒh —Î “ñ“—¬
-ˆÃ•‰öŒõü(UŒ‚), “ÁŽêŒõü —Î
-ˆÃ•‰öŒõü(–½’†), “ÁŽêŒõü —Î;ƒ†ƒjƒbƒg•ÏF •
-ˆÃ•‰öŒõü(–½’†), “ÁŽêŒõü —Î;ƒ†ƒjƒbƒg•ÏF Ô
-
-‰»Îbƒ_ƒCƒ„ƒ“
-ƒuƒŠƒU[ƒh, á
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË ‰©
-ƒkƒ“ƒ`ƒƒƒN, ƒkƒ“ƒ`ƒƒƒN
-ƒtƒ@ƒCƒ„[ƒuƒŠƒU[ƒh, ‰Î‰Š•úŽË ‰©;á
-—n‰ð‰t, …—¬ —Î
-
-‰»Îbƒ_ƒCƒ„ƒ“‡U¢
-ƒuƒŠƒU[ƒh, á
-ƒcƒmƒJƒbƒ^[, ƒu[ƒƒ‰ƒ“
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË ‰©
-ƒtƒ@ƒCƒ„[ƒuƒŠƒU[ƒh, ‰Î‰Š•úŽË ‰©;á
-ƒ_ƒCƒ„ƒ‚ƒ“ƒhƒNƒ[, ˜A“Ë —Î
-ƒ_ƒCƒ„ƒ‚ƒ“ƒhƒz[ƒ“(UŒ‚), GŽè •
-ƒ_ƒCƒ„ƒ‚ƒ“ƒhƒz[ƒ“(–½’†), ’ÜŒ‚ —Î
-
-‰»Îbƒhƒ[ƒYƒfƒ“
-ƒnƒ“ƒhƒ~ƒTƒCƒ‹, ¬Œ^ƒ~ƒTƒCƒ‹ 5
-ƒ~ƒTƒCƒ‹, bŠkçõ žò
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË
-• •”ƒJƒbƒ^[, bŠkçõ •
-‰QŠª‚«(UŒ‚), ”’•º‰ñ“] —Î;ù•—
-‰QŠª‚«(–½’†), ù•—
-
-‰»ÎbƒS[ƒŒƒ‚ƒ“
-K”ö(UŒ‚), ”’•º•Ší —Î
-K”ö(–½’†), —³Šª —Î
-”j‰óŒõü, ‚Q˜A¬ƒr[ƒ€ …F
-ƒXƒNƒŠƒ…[ƒ~ƒTƒCƒ‹, ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹
-ƒgƒ}ƒz[ƒNƒu[ƒƒ‰ƒ“, ‰ñ“]“Š±•Ší Weapon\EFFECT_DoubleAx01.bmp
-ƒgƒ}ƒz[ƒN, —¼n•€ “ñ“—¬
-
-‰»Îbƒ^ƒ‰ƒ“ƒ`ƒ…
-ƒ^ƒ‰ƒ“ƒ`ƒ…ƒ[ƒv, ƒVƒ‡ƒbƒNƒr[ƒ€ žò
-ƒ^ƒ‰ƒ“ƒ`ƒ…ƒ[ƒv(ƒNƒŠƒeƒBƒJƒ‹), @í“¬ƒAƒjƒ_“§–¾‰»–½’†;@í“¬ƒAƒjƒ_ŽüˆÍ‰ñ“]–½’† ("Unit\" & Info("ƒ†ƒjƒbƒgƒf[ƒ^",‰»Îbƒ^ƒ‰ƒ“ƒ`ƒ…,"ƒOƒ‰ƒtƒBƒbƒN"));—³Šª žò
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 3
-ƒVƒ‡ƒ‹ƒ_[ƒNƒ[(UŒ‚), ‰ñ“]”­ŽË Bullet\EFFECT_ShootingCutter(Purple)01.bmp;‰ñ“]”­ŽË Bullet\EFFECT_ShootingCutter(Purple)01.bmp
-ƒ^ƒ‰ƒ“ƒ`ƒ…ƒNƒ[, ˜AŽaŒ‚
-ƒ^ƒ‰ƒ“ƒ`ƒ…Œõü, “ÁŽêŒõü “
-“dŒ‚(UŒ‚), ‘½GŽè ”’
-“dŒ‚(–½’†), ‘å•ú“d ”’
-
-‰»ÎbƒSƒ“ƒK[
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 2
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË
-‰ö—Í(UŒ‚), ƒ^ƒbƒNƒ‹
-‰ö—Í(–½’†), ƒxƒAƒnƒbƒO
-‰ö—Í(–½’†), ”w•‰‚¢ŒÅ‚ß
-
-‰»ÎbƒhƒOƒLƒƒƒbƒg
-—n‰ð‰t, ‚Q˜A…—¬ —Î
-—n‰ð‰t(ƒNƒŠƒeƒBƒJƒ‹), ƒ†ƒjƒbƒg•ÏF •
-”j‰óŒõü, “øFŒõü
-˜r•”‰ñ“]ƒJƒbƒ^[, ƒr[ƒ€ƒ[ƒ^[ ”’
-—d–‚‹e(UŒ‚), ƒ}ƒVƒ“ƒKƒ“
-—d–‚‹e(–½’†), ƒ}ƒVƒ“ƒKƒ“;‘å•ú“d ”’
-
-‰»Îbƒ€ƒ`[ƒ‹
-“Ë•—(€”õ), —ƒ(ƒRƒEƒ‚ƒŠ) Ž‡ “ñ“—¬
-“Ë•—(UŒ‚), ”’•º˜AŒ‚;ù•—
-“Ë•—(–½’†), ù•—
-‘½’e“ªƒ~ƒTƒCƒ‹(UŒ‚), ƒ~ƒTƒCƒ‹
-‘½’e“ªƒ~ƒTƒCƒ‹(–½’†), ˜A‘±”š”­
-ƒƒPƒbƒgƒpƒ“ƒ`, ƒƒPƒbƒgƒpƒ“ƒ` Hand\EFFECT_Punch(Orange)02.bmp
-žž–_, ‰£‘Å•Ší DGoods\EFFECT_NailButt01.bmp “ñ“—¬
-ƒpƒ‰ƒ‰ƒCƒU[(UŒ‚), …—¬ —Î
-ƒpƒ‰ƒ‰ƒCƒU[(–½’†), —³Šª —Î;@í“¬ƒAƒjƒ_ƒŠƒ“ƒOƒr[ƒ€UŒ‚ “;ƒŠƒ“ƒOƒr[ƒ€ “
-
-‰»ÎbƒRƒ“ƒhƒ‹ƒ“
-“Ë•—(€”õ), —ƒ —Î “ñ“—¬
-“Ë•—(UŒ‚), ”’•º˜AŒ‚;ù•—
-“Ë•—(–½’†), ù•—
-ƒJƒbƒ^[ƒ~ƒTƒCƒ‹(€”õ), -
-ƒJƒbƒ^[ƒ~ƒTƒCƒ‹(UŒ‚), ŽÀ’e”­ŽË Weapon\EFFECT_BrokenGrass01.bmp
-ƒJƒbƒ^[ƒ~ƒTƒCƒ‹(–½’†), ‚È‚¬•¥‚¢
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 2
-Ši“¬(€”õ), ƒƒPƒbƒgƒpƒ“ƒ` BodyParts\EFFECT_Claw(Pink)01.bmp
-Ši“¬(UŒ‚), ŽÀ’e”­ŽË BodyParts\EFFECT_Claw(Pink)01.bmp
-Ši“¬(–½’†), ’ÜŒ‚ “
-‰öŒõü(UŒ‚), “ÁŽêŒõü …F
-‰öŒõü(–½’†), “ÁŽêŒõü …F;‰Š …F
-”j‰óŒõü, ‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ …F
-
-‰»ÎbƒS[ƒK[
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 2
-ŠZ”›‚è, bŠkçõ Ô
-Ši“¬, ƒ^ƒbƒNƒ‹
-
-ƒ_ƒ‹ƒ_ƒ“íŽÔ
-‰ñ“]ƒJƒbƒ^[(€”õ), ’†S‰ñ“]•Ší Bullet\EFFECT_BeamRingCutter(White)01.bmp Drill.wav
-‰ñ“]ƒJƒbƒ^[(UŒ‚), ‰ñ“]”­ŽË Bullet\EFFECT_BeamRingCutter(White)01.bmp Drill.wav
-‰ñ“]ƒJƒbƒ^[(–½’†), ‚È‚¬•¥‚¢;@í“¬ƒAƒjƒ_’†S‰ñ“]•Ší€”õ Bullet\EFFECT_BeamRingCutter(White)01.bmp Drill.wav
-–CŒ‚, ƒ}ƒVƒ“ƒLƒƒƒmƒ“ Ô
-
-‰»ÎbŠ™ƒMƒ‰[
-ƒ~ƒTƒCƒ‹, ƒX[ƒp[ƒ~ƒTƒCƒ‹
-ƒeƒCƒ‹ƒJƒbƒ^[(€”õ), -
-ƒeƒCƒ‹ƒJƒbƒ^[(UŒ‚), ŽÀ’e”­ŽË Bullet\EFFECT_ShootingCutter(White)01.bmp
-ƒeƒCƒ‹ƒJƒbƒ^[(–½’†), ‰¡‘åŽaŒ‚
-½Š™(€”õ), -
-½Š™(UŒ‚), ‚È‚¬•¥‚¢;ŽÀ’e”­ŽË Weapon\EFFECT_SeiryuTou01.bmp —Lü
-½Š™(–½’†), —³Šª •
-—d“, ˜AŽaŒ‚
-
-‰»Îbƒ‚ƒOƒƒ“
-ƒ~ƒTƒCƒ‹, ¬Œ^ƒ~ƒTƒCƒ‹ 3
-ƒhƒŠƒ‹, ƒhƒŠƒ‹
-
-‰»ÎbƒLƒoƒ“ƒS
-ƒLƒoƒ~ƒTƒCƒ‹(€”õ), -     
-ƒLƒoƒ~ƒTƒCƒ‹(UŒ‚), ‚Q‚v‚`‚xŽËo;ƒj[ƒhƒ‹˜AŽË     
-ƒLƒoƒ~ƒTƒCƒ‹(–½’†), ˜A‘±”š”­     
-ƒNƒ[, ƒr[ƒ€ƒ\[ƒh …F “ñ“—¬
-ƒuƒŠƒU[ƒh(€”õ), -
-ƒuƒŠƒU[ƒh(UŒ‚), ù•—
-ƒuƒŠƒU[ƒh(–½’†), á;“€Œ‹
-‘å–C, ƒ~ƒTƒCƒ‹
-Žè— Œ•, ƒVƒ…[ƒgƒJƒbƒ^[ ‰©
-
-‰»Îbƒ‚ƒhƒƒX
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 10
-ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹, ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË
-“Ëi(€”õ), ‰Š
-“Ëi(UŒ‚), ƒX[ƒp[ƒ^ƒbƒNƒ‹ Ô
-“Ëi(–½’†), ƒX[ƒp[ƒ^ƒbƒNƒ‹ Ô
-ƒq[ƒgƒz[ƒ“(€”õ), -
-ƒq[ƒgƒz[ƒ“(UŒ‚), ƒ^ƒbƒNƒ‹
-ƒq[ƒgƒz[ƒ“(–½’†), Žh“Ë;ƒ†ƒjƒbƒg•ÏF Ô ‘ÎÛƒ†ƒjƒbƒg‚h‚c;;ƒ†ƒjƒbƒg•ÏF Ô
-
-‰»ÎbƒKƒƒŒ[ƒ“
-ã, ã
-ƒ~ƒTƒCƒ‹(UŒ‚), ƒj[ƒhƒ‹
-ƒ~ƒTƒCƒ‹(–½’†), ˜A“Ë
-ƒT[ƒxƒ‹, Â—´“
-
-‰»ÎbƒAƒŠ[ƒWƒS
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 4
-Ši“¬(UŒ‚), GŽè ”’
-Ši“¬(–½’†), GŽè ”’;@í“¬ƒAƒjƒ_ƒ^ƒbƒNƒ‹UŒ‚;bŠkçõ Ô;‘å•ú“d ‰©
-
-‹—óbƒR[ƒJƒc
-•ªg(Žc‘œ), –hŒäƒeƒŒƒ|[ƒg‚Q Žc‘œ —Î
-ƒV[ƒ‹ƒh–hŒä(ƒV[ƒ‹ƒh), ‰Š‚
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 2
-ƒV[ƒ‹ƒhƒr[ƒ€, ƒX[ƒp[ƒLƒƒƒmƒ“ Shield\EFFECT_FireShield01.bmp ”­Œõ
-½Š™, •d
-ƒXƒsƒ“ƒNƒ‰ƒbƒVƒƒ[, ƒr[ƒ€ƒ[ƒ^[ •
-ƒcƒCƒ“ƒoƒCƒ“ƒh(€”õ), -
-ƒcƒCƒ“ƒoƒCƒ“ƒh(UŒ‚), ‚Q‚v‚`‚xŽËo
-ƒcƒCƒ“ƒoƒCƒ“ƒh(–½’†), —“Ë;—“Ë
-ƒ_ƒ€ƒ_ƒ€–C, ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹
-
-‹—óbƒOƒŒ[ƒgƒUƒtƒ“ƒk
-‘¬ŽË–C, ‹@ŠÖ–C
-Ši“¬, —§‚¿ŒÅ‚ß
-Žå–C, ƒLƒƒƒmƒ“–C
-
-‹—óbƒŒ[ƒUƒ‹
-ƒŒ[ƒUƒ‹ƒOƒ‰ƒbƒv(€”õ), -
-ƒŒ[ƒUƒ‹ƒOƒ‰ƒbƒv(UŒ‚), ƒ~ƒTƒCƒ‹ 4
-ƒŒ[ƒUƒ‹ƒOƒ‰ƒbƒv(–½’†), ‹­‘Å
-ƒnƒ“ƒhƒŒ[ƒU[(€”õ), ‘oŽ×Šá‰ð•ú Ž‡ ‰©
-ƒnƒ“ƒhƒŒ[ƒU[(UŒ‚), ‚Q˜A¬ƒr[ƒ€ …F
-ƒnƒ“ƒhƒŒ[ƒU[(–½’†), ‚Q˜A¬ƒr[ƒ€ …F
-ƒŒ[ƒU[ƒNƒ[(€”õ), Œõ•¬o “;ƒ†ƒjƒbƒg•ÏF “
-ƒŒ[ƒU[ƒNƒ[(UŒ‚), ƒ^ƒbƒNƒ‹
-ƒŒ[ƒU[ƒNƒ[(–½’†), —§‚¿ŒÅ‚ß;ƒ†ƒjƒbƒg•ÏF “
-ƒAƒCƒŒ[ƒU[, “ÁŽêŒõü “
-ƒŒƒCƒ“ƒ{[ƒŒ[ƒU[(€”õ), ‘oŽ×Šá‰ð•ú Ž‡ ‰©
-ƒŒƒCƒ“ƒ{[ƒŒ[ƒU[(UŒ‚), ƒ†ƒjƒbƒg•ÏF “;“øFŒõü
-ƒŒƒCƒ“ƒ{[ƒŒ[ƒU[(–½’†), “øFŒõü;ƒ†ƒjƒbƒg•ÏF “
-
-‹—óbƒhƒŠƒ“ƒQƒ“
-ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹(€”õ), -
-ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹(UŒ‚), ƒlƒW˜AŽË Drill,wav
-ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹(–½’†), —“Ë Drill,wav
-ƒhƒŠƒ‹ƒpƒ“ƒ`, ƒhƒŠƒ‹ƒXƒsƒA
-‘Ì“àƒhƒŠƒ‹ƒ~ƒTƒCƒ‹(€”õ), “§–¾‰»
-‘Ì“àƒhƒŠƒ‹ƒ~ƒTƒCƒ‹(UŒ‚), ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹
-‘Ì“àƒhƒŠƒ‹ƒ~ƒTƒCƒ‹(–½’†), ‘å”š”­
-
-‹—óbƒKƒ“ƒ}[
-”j‰óŒõü, ƒŠƒ“ƒOƒr[ƒ€ “
-ƒKƒ“ƒ}[ƒLƒbƒN, ƒX[ƒp[ƒLƒbƒN
-ƒfƒrƒ‹ƒJƒbƒ^[(€”õ), -
-ƒfƒrƒ‹ƒJƒbƒ^[(UŒ‚), ƒVƒ…[ƒgƒJƒbƒ^[ ‰©
-ƒfƒrƒ‹ƒJƒbƒ^[(–½’†), Žh“Ë ‰©;‘å•ú“d
-ƒfƒrƒ‹ƒn[ƒPƒ“, ‚Q˜A¬ƒr[ƒ€ •
-ƒfƒrƒ‹ƒNƒ[, ˜A“Ë
-ƒfƒrƒ‹ƒNƒ[(‚Æ‚Ç‚ß), ‰¡•ªŠ„
-
-‹—óbƒQƒ‹ƒg
-ƒV[ƒ‹ƒh–hŒä(ƒV[ƒ‹ƒh), ƒV[ƒ‹ƒh–hŒä Shield\EFFECT_ThrowingShield(Red)01.bmp
-½“S‹…, ž™“S‹…
-
-‹—óbƒeƒcƒ_ƒ“
-ƒ~ƒTƒCƒ‹(€”õ), -
-ƒ~ƒTƒCƒ‹(UŒ‚), ƒ~ƒTƒCƒ‹;¬Œ^ƒ~ƒTƒCƒ‹ 3
-ƒ~ƒTƒCƒ‹(–½’†), Žh“Ë;˜A“Ë;”š”­
-K”öƒ~ƒTƒCƒ‹(€”õ), ƒ`ƒFƒ“ƒ\[
-K”öƒ~ƒTƒCƒ‹(UŒ‚), ƒ`ƒFƒ“ƒ\[;ŽÀ’e˜AŽË Weapon\EFFECT_ChainSaw01.bmp Drill,wav
-K”öƒ~ƒTƒCƒ‹(–½’†), ƒ`ƒFƒ“ƒ\[
-”j‰óŒõü, ‚Q˜A¬ƒr[ƒ€ “
-”j‰óŒõü(ƒNƒŠƒeƒBƒJƒ‹), @í“¬ƒAƒjƒ_‚Q˜A¬ƒr[ƒ€–½’† …F
-½“S‹…, ƒ‚[ƒjƒ“ƒOƒXƒ^[
-Šj“ü” ‹l‚ß‹t‚³—Ž‚Æ‚µ(€”õ), -
-Šj“ü” ‹l‚ß‹t‚³—Ž‚Æ‚µ(UŒ‚), ‚P‚v‚`‚xŽËo;‚S‚v‚`‚xŽËo
-Šj“ü” ‹l‚ß‹t‚³—Ž‚Æ‚µ(–½’†), “_—‘Å —Î;Šâ’Œ •;ƒXƒNƒŠƒ…[ƒoƒbƒNƒhƒ‰ƒCƒo[ Jet.wav;‘å”š”­
-Šj“ü” ‹l‚ß‹t‚³—Ž‚Æ‚µ(–½’†), “_—‘Å —Î;‘å•ú“d;Šâ’Œ •;ƒXƒNƒŠƒ…[ƒoƒbƒNƒhƒ‰ƒCƒo[ Jet.wav;‘å”š”­
-
-‹—óbƒhƒnƒc
-ƒhƒŠƒ‹ƒLƒbƒN(€”õ), -
-ƒhƒŠƒ‹ƒLƒbƒN(UŒ‚), ƒX[ƒp[ƒLƒbƒN
-ƒhƒŠƒ‹ƒLƒbƒN(–½’†), ƒX[ƒp[ƒLƒbƒN;ƒhƒŠƒ‹
-ƒgƒ}ƒz[ƒNƒu[ƒƒ‰ƒ“(€”õ), -
-ƒgƒ}ƒz[ƒNƒu[ƒƒ‰ƒ“(UŒ‚), “Š±•Ší˜A“Š Weapon\EFFECT_SingleAx01.bmp
-ƒgƒ}ƒz[ƒNƒu[ƒƒ‰ƒ“(–½’†), ˜AŽaŒ‚
-ƒgƒ}ƒz[ƒN, ƒgƒ}ƒz[ƒN “ñ“—¬
-
-‹—óbƒhƒ‰ƒCƒK[
-Ši“¬, ƒWƒƒƒCƒAƒ“ƒgƒXƒCƒ“ƒO
-ƒXƒpƒCƒNƒVƒ‡ƒbƒg(€”õ), -
-ƒXƒpƒCƒNƒVƒ‡ƒbƒg(UŒ‚), ƒj[ƒhƒ‹˜AŽË
-ƒXƒpƒCƒNƒVƒ‡ƒbƒg(–½’†), ˜A“Ë;”š”­
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 2
-S‘Ÿ”j‚èƒ~ƒTƒCƒ‹(€”õ), -
-S‘Ÿ”j‚èƒ~ƒTƒCƒ‹(UŒ‚), ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹
-S‘Ÿ”j‚èƒ~ƒTƒCƒ‹(–½’†), ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹;@í“¬ƒAƒjƒ_‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€UŒ‚ ‰©;ƒ†ƒjƒbƒg•ÏF ‰©;‘å”š”­
-
-‹—óbƒAƒ“ƒ^ƒŒƒX
-ƒXƒpƒCƒNƒVƒ‡ƒbƒg(€”õ), -
-ƒXƒpƒCƒNƒVƒ‡ƒbƒg(UŒ‚), ƒj[ƒhƒ‹˜AŽË
-ƒXƒpƒCƒNƒVƒ‡ƒbƒg(–½’†), ”š”­
-ƒ~ƒTƒCƒ‹, ƒX[ƒp[ƒ~ƒTƒCƒ‹
-Ši“¬(€”õ), -
-Ši“¬(UŒ‚), ”’•º•Ší
-Ši“¬(–½’†), ‘ÅŒ‚
-
-‹—óbƒNƒ‰ƒbƒVƒ…
-•ªg(•ª—ô), Žl•û•ª—£‰ñ”ð
-•ßŠlƒ~ƒTƒCƒ‹(€”õ), ƒƒPƒbƒgƒpƒ“ƒ` Hand\EFFECT_Punch(Red)02.bmp;ƒƒPƒbƒgƒpƒ“ƒ` Hand\EFFECT_Punch(Red)02.bmp
-•ßŠlƒ~ƒTƒCƒ‹(UŒ‚), ƒƒPƒbƒgƒpƒ“ƒ` Hand\EFFECT_Punch(Red)02.bmp;ƒƒPƒbƒgƒpƒ“ƒ` Hand\EFFECT_Punch(Red)02.bmp
-•ßŠlƒ~ƒTƒCƒ‹(–½’†), —‘Å Ô
-ƒXƒpƒCƒNƒVƒ‡ƒbƒg(€”õ), -
-ƒXƒpƒCƒNƒVƒ‡ƒbƒg(UŒ‚), ƒj[ƒhƒ‹˜AŽË
-ƒXƒpƒCƒNƒVƒ‡ƒbƒg(–½’†), ˜A“Ë;”š”­
-ƒuƒŒƒXƒŒƒbƒgƒ~ƒTƒCƒ‹, ¬Œ^ƒ~ƒTƒCƒ‹ 6
-‹¹•”ƒhƒŠƒ‹(€”õ), -
-‹¹•”ƒhƒŠƒ‹(UŒ‚), ‚Q˜A¬ƒr[ƒ€ •
-‹¹•”ƒhƒŠƒ‹(–½’†), ƒhƒŠƒ‹
-ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹, ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹
-ž™‚Ì•Ú, •Ú “ñ“—¬
-˜r•”ƒhƒŠƒ‹, ƒhƒŠƒ‹
-• •”ƒhƒŠƒ‹(€”õ), ƒhƒŠƒ‹
-• •”ƒhƒŠƒ‹(UŒ‚), ƒhƒŠƒ‹
-• •”ƒhƒŠƒ‹(–½’†), ƒhƒŠƒ‹
-• •”ƒhƒŠƒ‹(–½’†), ƒhƒŠƒ‹;’n–ŽÔ;‘å•ú“d;ƒ†ƒjƒbƒg•ÏF “
-
-‹—óbƒ[ƒ“ƒ_
-K”ö, ƒLƒbƒN
-’÷‚ß•t‚¯(€”õ), -
-’÷‚ß•t‚¯(UŒ‚), “§–¾‰»;Œð·ƒr[ƒ€ Ô Â
-’÷‚ß•t‚¯(–½’†), “Š‚°”ò‚Î‚µ;‘å•ú“d
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË;‰Î‰Š•úŽË
-
-‹—óbƒKƒ‹ƒWƒƒ[
-ƒXƒpƒCƒNƒ~ƒTƒCƒ‹(€”õ), ƒ‚[ƒjƒ“ƒOƒXƒ^[
-ƒXƒpƒCƒNƒ~ƒTƒCƒ‹(UŒ‚), ƒj[ƒhƒ‹˜AŽË
-ƒXƒpƒCƒNƒ~ƒTƒCƒ‹(–½’†), ˜A“Ë;”š”­
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 3
-ƒƒPƒbƒgƒpƒ“ƒ`, ƒƒPƒbƒgƒpƒ“ƒ` Hand\EFFECT_Punch(Black)01.bmp
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË
-½“S‹…(€”õ), ƒ‚[ƒjƒ“ƒOƒXƒ^[
-½“S‹…(UŒ‚), ƒ‚[ƒjƒ“ƒOƒXƒ^[
-½“S‹…(UŒ‚), ŽÀ’e”­ŽË Weapon\EFFECT_MorningStar02.bmp
-½“S‹…(–½’†), ‹­‘Å
-½“S‹…(–½’†), ‘å•ú“d
-ƒ_ƒ€ƒ_ƒ€ŽžŒÀ”š’e, ƒhƒŠƒ‹ƒ~ƒTƒCƒ‹
-
-‹—óbƒMƒ‰ƒ“
-ƒA[ƒ€ƒJƒbƒ^[, ˜A‘Å
-ƒJƒbƒ^[ƒXƒsƒ“(€”õ), ˜A“ŠŒ• “ñ“—¬
-ƒJƒbƒ^[ƒXƒsƒ“(UŒ‚), ƒXƒsƒ“ƒWƒƒƒ“ƒvƒAƒ^ƒbƒN Ô
-ƒJƒbƒ^[ƒXƒsƒ“(–½’†), ŽaŒ‚—•‘
-
-‹—óbƒTƒ‰ƒ}ƒ“ƒ_[
-ƒcƒƒ~ƒTƒCƒ‹(€”õ), eŒ‚•Ší BodyParts\EFFECT_Claw(Yellow)02.bmp
-ƒcƒƒ~ƒTƒCƒ‹(UŒ‚), ƒj[ƒhƒ‹ƒŒ[ƒU[˜AŽË ‰©
-ƒcƒƒ~ƒTƒCƒ‹(–½’†), —“Ë ‰©
-”MŒõü(€”õ), ‰Š
-”MŒõü(UŒ‚), “ÁŽêŒõü Ô
-”MŒõü(–½’†), “ÁŽêŒõü Ô
-Ši“¬, ƒhƒŠƒ‹
-‰Î‰Š•úŽË(€”õ), -
-‰Î‰Š•úŽË(€”õ), —³Šª Ô Fire.wav
-‰Î‰Š•úŽË(UŒ‚), ƒ†ƒjƒbƒg•ÏF Ô;ù•— Ô Fire.wav
-‰Î‰Š•úŽË(UŒ‚), ‰Î‰Š•úŽË
-‰Î‰Š•úŽË(–½’†), ‰Î‰Š•úŽË
-‰Î‰Š•úŽË(–½’†), —³Šª Ô Fire.wav
-—Øƒ~ƒTƒCƒ‹(€”õ), -
-—Øƒ~ƒTƒCƒ‹(€”õ), —³Šª Ô Fire.wav
-—Øƒ~ƒTƒCƒ‹(UŒ‚), ƒxƒAƒŠƒ“ƒO
-—Øƒ~ƒTƒCƒ‹(–½’†), ƒxƒAƒŠƒ“ƒO
-”M‰Î—³‚ÌŒŒ, ‰t‘Ì•¬ŽË
-
-‹—óbƒqƒ…ƒhƒ‰
-GŽè, GŽè “
-Žh–”ƒ~ƒTƒCƒ‹(€”õ), ŒŽ‰å
-Žh–”ƒ~ƒTƒCƒ‹(UŒ‚), ŽÀ’e”­ŽË Weapon\EFFECT_Getsuga_thrust01.bmp
-Žh–”ƒ~ƒTƒCƒ‹(–½’†), ˜A‘Å
-Œƒ…, ’Ã”g
-“, “ú–{“
-
-‹—óbƒ}ƒ_ƒ“ƒK[
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË
-ƒhƒŠƒ‹ƒ{ƒE, ƒhƒŠƒ‹‹}~‰º
-ƒ}ƒ_ƒ“ƒK[ƒAƒ[(€”õ), ƒNƒƒXƒ{ƒE
-ƒ}ƒ_ƒ“ƒK[ƒAƒ[(UŒ‚), ƒNƒƒXƒ{ƒE
-ƒ}ƒ_ƒ“ƒK[ƒAƒ[(–½’†), –îŽh;”š”­
-
-‹—óbƒKƒ“ƒhƒX
-Š™, ˜AŽaŒ‚
-
-#‹—óbƒ†ƒŠƒJ
-
-
-‹—óbƒUƒCƒNƒƒ“
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 2
-ƒLƒƒƒ^ƒsƒ‰, GŽè •
-Ši“¬(–½’†), —§‚¿ŒÅ‚ß;ƒ†ƒjƒbƒg•ÏF “
-
-‹—óbƒ_ƒ“ƒOƒX
-|Ž…(€”õ), -
-|Ž…(UŒ‚), ƒr[ƒ€ƒVƒ‡ƒbƒgƒLƒƒƒmƒ“ ”’
-|Ž…(–½’†), ƒr[ƒ€ƒVƒ‡ƒbƒgƒLƒƒƒmƒ“ ”’
-|Ž…(–½’†), ƒr[ƒ€ƒVƒ‡ƒbƒgƒLƒƒƒmƒ“ ”’;•ú“d
-‘¬ŽË–C, d‹@ŠÖ–C
-”šŒ‚‹@, “Š±•Ší Bullet\EFFECT_ShootingCutter(White)01.bmp
-ƒAƒCƒAƒ“ƒ{[ƒ‹(€”õ), ½“S‹…
-ƒAƒCƒAƒ“ƒ{[ƒ‹(UŒ‚), ½“S‹…
-ƒAƒCƒAƒ“ƒ{[ƒ‹(UŒ‚), ŽÀ’e”­ŽË Weapon\EFFECT_MorningStar02.bmp
-ƒAƒCƒAƒ“ƒ{[ƒ‹(–½’†), ‹­‘Å
-“dŒ‚, ƒVƒ‡ƒbƒNƒr[ƒ€ “
-çê’Ü, bŠkçõ •
-Žå–C, ƒLƒƒƒmƒ“–C
-‹›—‹, ƒX[ƒp[ƒ~ƒTƒCƒ‹ 2
-
-‹—óbƒoƒWƒƒ[
-ƒ`ƒF[ƒ“ƒwƒbƒh(€”õ), -
-ƒ`ƒF[ƒ“ƒwƒbƒh(UŒ‚), ŽÀ’e”­ŽË Weapon\EFFECT_Drill01.bmp —Lü
-ƒ`ƒF[ƒ“ƒwƒbƒh(–½’†), ƒ_ƒ[ƒW
-
-‹—óbƒMƒK[ƒ‹
-•ªg, •ªg
-ƒj[ƒhƒ‹, ƒj[ƒhƒ‹˜AŽË
-’Ü(€”õ), ’Ü ‰© “ñ“—¬
-’Ü(UŒ‚), ”’•º˜AŒ‚ ‰©
-’Ü(–½’†), ˜A‘Å ‰©;—§‚¿ŒÅ‚ß
-K”ö, ‰£‘Å•Ší Weapon\EFFECT_SpinHummer01.bmp
-
-‹—óbƒKƒ“ƒ^ƒŒƒX
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË
-‘„, ƒgƒ‰ƒCƒfƒ“ƒg
-
-‹—óbƒWƒFƒbƒgƒNƒƒX
-‘jŽ~(ƒvƒ‰ƒXƒ`ƒbƒN”š’e), Œõ‹…•úo Ô
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 2
-ƒvƒ‰ƒXƒ`ƒbƒN”š’e(€”õ), -
-ƒvƒ‰ƒXƒ`ƒbƒN”š’e(UŒ‚), Œõ‹…•úo Ô
-ƒvƒ‰ƒXƒ`ƒbƒN”š’e(–½’†), ˜A‘±”š”­
-Ši“¬, Ši“¬
-Ø‚è•¥‚¢(‘å‰ñ“]), “§–¾‰»;’†S‰ñ“]•Ší–hŒä ("Unit\" & Info("ƒ†ƒjƒbƒgƒf[ƒ^",‹—óbƒWƒFƒbƒgƒNƒƒX,"ƒOƒ‰ƒtƒBƒbƒN"))
-‘å‰ñ“]ƒoƒbƒNƒuƒŠ[ƒJ[(€”õ), -
-‘å‰ñ“]ƒoƒbƒNƒuƒŠ[ƒJ[(UŒ‚), ƒ^ƒbƒNƒ‹
-‘å‰ñ“]ƒoƒbƒNƒuƒŠ[ƒJ[(–½’†), ƒuƒŒ[ƒ“ƒoƒXƒ^[;ƒuƒŒ[ƒ“ƒoƒXƒ^[;ƒuƒŒ[ƒ“ƒoƒXƒ^[
-
-‹—óbƒKƒ“ƒ_[ƒ‰
-•ªg(•ª—£), ã‰º•ª—£‰ñ”ð
-Ši“¬, “¥‚Ý’×‚µ
-•ª—£UŒ‚(€”õ), -
-•ª—£UŒ‚(UŒ‚), ƒX[ƒp[ƒ^ƒbƒNƒ‹—•‘ Ô
-•ª—£UŒ‚(–½’†), ƒX[ƒp[ƒ^ƒbƒNƒ‹—•‘ Ô;ƒ†ƒjƒbƒg•ÏF Ô
-
-‡‘Ì‹—óbƒK[ƒhƒ“
-ƒV[ƒ‹ƒh–hŒä(ƒ\[ƒT[), ƒV[ƒ‹ƒh–hŒä Shield\EFFECT_ThrowingShield(White)01.bmp
-‘¬ŽË–C, d‹@ŠÖ–C
-‰Î‰Š•úŽË, ’´‰Î‰Š•úŽË
-ƒ\[ƒT[, ‰ñ“]“Š±•Ší Shield\EFFECT_ThrowingShield(White)01.bmp
-ƒ\[ƒT[ƒŒƒC(€”õ), “Š±•Ší Shield\EFFECT_ThrowingShield(White)01.bmp
-ƒ\[ƒT[ƒŒƒC(UŒ‚), ‰ñ“]“Š±•Ší Shield\EFFECT_ThrowingShield(White)01.bmp
-ƒ\[ƒT[ƒŒƒC(–½’†), “ÁŽêŒõü —Î ƒ‰ƒ“ƒ_ƒ€•ûŒü
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 1
-Â—´“, Â—´“
-½“S‹…, ½“S‹…
-
-‡‘Ì‹—óbƒTƒ“ƒhƒLƒ‰[
-‘jŽ~(“Ë•—), ƒ†ƒjƒbƒg•ÏF Â;‹­•—
-”S’…ƒ~ƒTƒCƒ‹(€”õ), -
-”S’…ƒ~ƒTƒCƒ‹(UŒ‚), ƒLƒƒƒmƒ“–C
-”S’…ƒ~ƒTƒCƒ‹(–½’†), ‰t‘Ì•¬ŽË “
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 4
-»—’(€”õ), -
-»—’(UŒ‚), ƒ†ƒjƒbƒg•ÏF Â;ù•— žò
-»—’(–½’†), ù•— žò
-
-‹—óbƒTƒ“ƒ_[ƒX
-»o, Œõ‹…•úo žò
-
-‹—óbƒXƒg[ƒ€ƒLƒ‰[
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 4
-“Ë•—, ‹­•—
-
-‡‘Ì‹—óbƒVƒƒ[ƒSƒ“
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË
-Šš‚Ý•t‚«(UŒ‚), ƒ^ƒbƒNƒ‹
-Šš‚Ý•t‚«(–½’†), Šš‚Ý•t‚« Drill.wav
-Šš‚Ý•t‚«(ƒNƒŠƒeƒBƒJƒ‹), @í“¬ƒAƒjƒ_‰t‘Ì•¬ŽË–½’† —Î
-ƒ~ƒTƒCƒ‹, ¬Œ^ƒ~ƒTƒCƒ‹ 2
-Ši“¬(UŒ‚), ƒ^ƒbƒNƒ‹
-Ši“¬(–½’†), ’ÜŒ‚ Drill.wav ‰©
-
-‡‘Ì‹—óbƒLƒoƒK[ƒ_
-’´’á‰·ö”­ƒ~ƒTƒCƒ‹(€”õ), -
-’´’á‰·ö”­ƒ~ƒTƒCƒ‹(UŒ‚), ‰Î‰Š•úŽË;‚h‚b‚a‚l 2
-’´’á‰·ö”­ƒ~ƒTƒCƒ‹(–½’†), ƒtƒ‰ƒbƒVƒ… ‘å•X’Œ
-ƒwƒA[ƒj[ƒhƒ‹(UŒ‚), ‘Å‚¿‰º‚ë‚µŽÀ’e—ŽË Bullet\EFFECT_Bullet(White)02.bmp
-ƒwƒA[ƒj[ƒhƒ‹(–½’†), —“Ë
-é¡, ‰t‘Ì•¬ŽË …F
-á, á
-‘„, Â—´˜îŒŽ“
-—â“€Œõü, ‚Q˜A¬ƒr[ƒ€ ”’
-ƒ~ƒTƒCƒ‹, ƒOƒŒƒl[ƒh 10
-‰å(€”õ), -
-‰å(UŒ‚), ƒ^ƒbƒNƒ‹
-‰å(–½’†), Žh“Ë ‰©
-ƒrƒbƒOƒ~ƒTƒCƒ‹, ƒX[ƒp[ƒ~ƒTƒCƒ‹ 2
-’´‚”M‰Î‰Š•úŽË, ‰Î‰Š•úŽË
-
-‡‘Ì‹—óbƒMƒ‹ƒ‚ƒ‰[
-’´“dˆ³, ƒX[ƒp[ƒKƒ“ Weapon\EFFECT_SeiryuTou01.bmp
-\•¶ŽšŽè— Œ•(€”õ), ‰ñ“]“Š±•Ší Weapon\EFFECT_JuujiShuriken01.bmp “ñ“—¬ ”­Œõ
-\•¶ŽšŽè— Œ•(UŒ‚), ‰ñ“]“Š±•Ší Weapon\EFFECT_JuujiShuriken01.bmp;‰ñ“]“Š±•Ší Weapon\EFFECT_JuujiShuriken01.bmp ”­Œõ
-\•¶ŽšŽè— Œ•(–½’†), ˜A“Ë
-“, Â—´“
-‘Ì“–‚½‚è, ƒ^ƒbƒNƒ‹
-’´“dˆ³ˆ«–‚‹²‚Ý(€”õ), -
-’´“dˆ³ˆ«–‚‹²‚Ý(UŒ‚), •ªg‘ÅŒ‚
-’´“dˆ³ˆ«–‚‹²‚Ý(–½’†), •ªg‘ÅŒ‚;‘å•ú“d “
-
-‡‘Ì‹—óbƒKƒrƒ[ƒ“
-ƒcƒƒ~ƒTƒCƒ‹, ¬Œ^ƒ~ƒTƒCƒ‹ 5
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 3
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË
-ƒcƒmƒ~ƒTƒCƒ‹(€”õ), “Ë‚­•Ší BodyParts\EFFECT_Pincers(White)01.bmp
-ƒcƒmƒ~ƒTƒCƒ‹(UŒ‚), ŽÀ’e”­ŽË BodyParts\EFFECT_Pincers(White)01.bmp
-ƒcƒmƒ~ƒTƒCƒ‹(–½’†), Žh“Ë;‰Š
-ƒn[ƒPƒ“(€”õ), ŽaŒ‚•Ší Weapon\EFFECT_ArcBlade02.bmp
-ƒn[ƒPƒ“(UŒ‚), U‚è‰ñ‚µ Weapon\EFFECT_ArcBlade02.bmp
-ƒn[ƒPƒ“(–½’†), ŽaŒ‚
-ƒEƒCƒ“ƒOƒJƒbƒ^[, ƒVƒ…[ƒgƒJƒbƒ^[ Ž‡
-‘Ì“–‚½‚è, ƒX[ƒp[ƒ^ƒbƒNƒ‹ •
-ƒKƒrƒ[ƒ“–C, ƒoƒY[ƒJ
-
-‹—óbƒXƒŒƒCƒh
-ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 5
-Šš‚Ý•t‚«(€”õ), -
-Šš‚Ý•t‚«(UŒ‚), GŽè žò
-Šš‚Ý•t‚«(–½’†), Šš‚Ý•t‚«
-‘Ì“–‚½‚è, ƒ^ƒbƒNƒ‹
-
-‹—óbƒS[ƒXƒ^ƒ“
-ƒgƒ‰ƒbƒvƒ~ƒTƒCƒ‹(€”õ), -
-ƒgƒ‰ƒbƒvƒ~ƒTƒCƒ‹(UŒ‚), ƒ~ƒTƒCƒ‹ 6
-ƒgƒ‰ƒbƒvƒ~ƒTƒCƒ‹(–½’†), ƒI[ƒ‹ƒŒƒ“ƒW;•ú“d
-ƒ`ƒF[ƒ“ƒ\[(€”õ), ’†S‰ñ“]•Ší Bullet\EFFECT_BeamRingCutter(White)01.bmp Drill.wav
-ƒ`ƒF[ƒ“ƒ\[(UŒ‚), ŽÀ’e”­ŽË Bullet\EFFECT_BeamRingCutter(White)01.bmp Drill.wav Drill.wav —Lü
-ƒ`ƒF[ƒ“ƒ\[(–½’†), ‘åŽaŒ‚ Drill.wav ”’
-Œƒ“{Œõü, ‚Q˜A’†ƒr[ƒ€ ‰©
-
-‹—óbƒoƒCƒfƒ“
-“d—¬, “dŒ‚
-‰~”Õ(€”õ), ’†S‰ñ“]•Ší Bullet\EFFECT_BeamRingCutter(Purple)01.bmp Drill.wav
-‰~”Õ(UŒ‚), ŽÀ’e”­ŽË Bullet\EFFECT_BeamRingCutter(Purple)01.bmp Drill.wav Drill.wav —Lü
-‰~”Õ(–½’†), ‘åŽaŒ‚ Drill.wav Ž‡
-•Ú, •Ú
-
-‹—óbƒXƒl[ƒJ[
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË
-’÷‚ß•t‚¯(UŒ‚), ƒ^ƒbƒNƒ‹
-’÷‚ß•t‚¯(–½’†), —§‚¿ŒÅ‚ß
-
-‹—óbƒ‚ƒ“ƒM[
-ƒj[ƒhƒ‹(€”õ), -
-ƒj[ƒhƒ‹(UŒ‚), ‘½GŽè ”’
-ƒj[ƒhƒ‹(–½’†), —“Ë Drill.wav
-ƒj[ƒhƒ‹ƒ~ƒTƒCƒ‹(€”õ), -
-ƒj[ƒhƒ‹ƒ~ƒTƒCƒ‹(UŒ‚), ƒj[ƒhƒ‹˜AŽË
-ƒj[ƒhƒ‹ƒ~ƒTƒCƒ‹(–½’†), ˜A‘±”š”­
-ƒhƒŠƒ‹ƒxƒAƒnƒbƒO(€”õ), -
-ƒhƒŠƒ‹ƒxƒAƒnƒbƒO(UŒ‚), “¥‚Ý’×‚µ
-ƒhƒŠƒ‹ƒxƒAƒnƒbƒO(–½’†), “¥‚Ý’×‚µ;—§‚¿ŒÅ‚ß Drill.wav
-
-‹—óbƒoƒ“ƒK[
-ƒoƒ“ƒK[ƒ~ƒTƒCƒ‹, ƒ~ƒTƒCƒ‹ 4
-ƒXƒl[ƒNƒLƒƒƒ^ƒsƒ‰(€”õ), -
-ƒXƒl[ƒNƒLƒƒƒ^ƒsƒ‰(UŒ‚), “ÁŽêŒõü •
-ƒXƒl[ƒNƒLƒƒƒ^ƒsƒ‰(–½’†), —³Šª •
-‹—‹ƒhƒŠƒ‹, ‘½GŽè • Drill.wav
-‹—‹ƒT[ƒxƒ‹, ƒT[ƒxƒ‹
-
-—d–‚‹—óbƒoƒ‰ƒS[ƒ“
-ƒj[ƒhƒ‹ƒ~ƒTƒCƒ‹, ƒj[ƒhƒ‹˜AŽË
-‰Î‰Š•úŽË, ‰Î‰Š•úŽË
-ƒT[ƒxƒ‹•ƒ‰ƒ“ƒT[(€”õ), ¶‰E•Ê•Ší Weapon\EFFECT_Flamberge01.bmp 32 - Weapon\EFFECT_Houtengeki01.bmp 32
-ƒT[ƒxƒ‹•ƒ‰ƒ“ƒT[(UŒ‚), ‘åŽaŒ‚
-ƒT[ƒxƒ‹•ƒ‰ƒ“ƒT[(–½’†), ‘åŽaŒ‚
-’´”j–ÅŒõü, ‚Q˜A’†ƒr[ƒ€ ‰©
-‘Ì“–‚½‚è(UŒ‚), ƒ^ƒbƒNƒ‹
-‘Ì“–‚½‚è(–½’†), Šš‚Ý•t‚«;@í“¬ƒAƒjƒ_’†ƒr[ƒ€UŒ‚ Â;’†ƒr[ƒ€ Â
-‘Ì“–‚½‚è(–½’†), ‹­‘Å
-ƒoƒ‰ƒI‚Ì”¯(€”õ), -
-ƒoƒ‰ƒI‚Ì”¯(UŒ‚), ‘½GŽè ”’
-ƒoƒ‰ƒI‚Ì”¯(UŒ‚), @í“¬ƒAƒjƒ_“Ë‚­•Ší“]‘—€”õ Weapon\EFFECT_Sasumata01.bmp;ŽÀ’e”­ŽË Weapon\EFFECT_Sasumata01.bmp
-ƒoƒ‰ƒI‚Ì”¯(–½’†), ƒ_ƒ[ƒW
-
-—d–‚‘å’éƒoƒ‰ƒI
-‘å—³Šª, —³Šª
-‘å‰Î‹…, ‰Î‰Š•úŽË
-•‚¢ˆîÈ, ‘åƒVƒ‡ƒbƒNƒr[ƒ€ •
-ƒoƒ‰ƒIƒu[ƒƒ‰ƒ“, ‰ñ“]“Š±•Ší Weapon\EFFECT_Femur01.bmp
-—d–‚Ž€‹|(€”õ), ŽËŒ‚•Ší“]‘— Weapon\EFFECT_Bow00.bmp
-—d–‚Ž€‹|(UŒ‚), ‹|–î
-—d–‚Ž€‹|(–½’†), –îŽh
-—d–‚Œõü(€”õ), ‘å•ú“d Ž‡
-—d–‚Œõü(UŒ‚), •KŽEŒõü Ž‡
-—d–‚Œõü(–½’†), •KŽEŒõü Ž‡
-—d–‚Ž€Š™, ‹‘åŠ™
-—d–‚–ÅŽE‰»Î‹…(€”õ), Œõ•¬o Ô
-—d–‚–ÅŽE‰»Î‹…(UŒ‚), Œõ‹… Ô;‚Q˜A’†ƒr[ƒ€ Ô
-—d–‚–ÅŽE‰»Î‹…(–½’†), Œõ‹… Ô;‚Q˜A’†ƒr[ƒ€ Ô
-•ªg(—d–‚p), 
-ƒoƒ‰ƒI‚ÌŽôæf(€”õ), Œõ•¬o ‰©
-ƒoƒ‰ƒI‚ÌŽôæf(UŒ‚), ‚Q˜AƒVƒ‡ƒbƒNƒr[ƒ€ ‰©
-ƒoƒ‰ƒI‚ÌŽôæf(–½’†), d—Íˆ³k
-GŽè, ‘½GŽè “
-—d–‚‘åŒ•(€”õ), U‚é•Ší“]‘— Weapon\EFFECT_GreatSword01.bmp “ñ“—¬
-—d–‚‘åŒ•(UŒ‚), ”’•º˜AŒ‚
-—d–‚‘åŒ•(–½’†), ‘å•ú“d
-—d–‚Ž€ŽE‹—ó‹…(€”õ), Œõ•¬o Ô
-—d–‚Ž€ŽE‹—ó‹…(UŒ‚), Œõ‹… Ô;‚Q˜A’†ƒr[ƒ€ Ô
-—d–‚Ž€ŽE‹—ó‹…(–½’†), Œõ‹… Ô;‚Q˜A’†ƒr[ƒ€ Ô
+ãƒ©ã‚¤ãƒ‡ã‚£ãƒ¼ãƒ³
+ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡(ã‚´ãƒƒãƒ‰ãƒ–ãƒ­ãƒƒã‚¯), ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡ Shield\EFFECT_ThrowingShield(Red)01.bmp
+åå°„(ã‚´ãƒƒãƒ‰ãƒ–ãƒ­ãƒƒã‚¯ãƒ“ãƒƒã‚°ã‚¹ãƒ”ãƒ³), ä¸­å¿ƒå›žè»¢æ­¦å™¨é˜²å¾¡ ã‚´ãƒƒãƒ‰ãƒ–ãƒ­ãƒƒã‚¯ãƒ“ãƒƒã‚°ã‚¹ãƒ”ãƒ³ Shield\EFFECT_BeamShield(Red)01.bmp 64 Drill,wav
+ã‚´ãƒƒãƒ‰ãƒ–ãƒ¬ã‚¤ã‚«ãƒ¼, ä»•è¾¼ã¿åˆƒ
+ã‚´ãƒƒãƒ‰ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), ç™ºå…‰ é»„
+ã‚´ãƒƒãƒ‰ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), -
+ã‚´ãƒƒãƒ‰ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Common\EFFECT_SonicBoom(White)02.bmp
+ã‚´ãƒƒãƒ‰ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), çˆ†ç™º
+ã‚´ãƒƒãƒ‰ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), æ–¬æ’ƒ
+ã‚´ãƒƒãƒ‰ãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³, ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³ èµ¤
+ã‚¸ã‚§ãƒƒãƒˆãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³, ã‚·ãƒ¥ãƒ¼ãƒˆã‚«ãƒƒã‚¿ãƒ¼ èµ¤
+ã‚¹ãƒ”ãƒ³ãƒ–ãƒ¬ã‚¤ã‚«ãƒ¼(æº–å‚™), ä¸­å¿ƒå›žè»¢æ­¦å™¨ Shield\EFFECT_ThrowingShield(Red)01.bmp Drill,wav
+ã‚¹ãƒ”ãƒ³ãƒ–ãƒ¬ã‚¤ã‚«ãƒ¼(æ”»æ’ƒ), ä¸­å¿ƒå›žè»¢æ­¦å™¨ Shield\EFFECT_ThrowingShield(Red)01.bmp Drill,wav
+ã‚¹ãƒ”ãƒ³ãƒ–ãƒ¬ã‚¤ã‚«ãƒ¼(å‘½ä¸­), ãªãŽæ‰•ã„ Drill,wav
+ã‚´ãƒƒãƒ‰ã‚¢ãƒ­ãƒ¼(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Bullet\EFFECT_Arrow01.bmp
+ã‚´ãƒƒãƒ‰ã‚¢ãƒ­ãƒ¼(å‘½ä¸­), çŸ¢åˆº
+ãƒ©ã‚¤ãƒ‡ã‚£ãƒ¼ãƒ³ã‚¢ã‚¿ãƒƒã‚¯(æº–å‚™), -
+ãƒ©ã‚¤ãƒ‡ã‚£ãƒ¼ãƒ³ã‚¢ã‚¿ãƒƒã‚¯(æ”»æ’ƒ), æ‰“æ’ƒçªæ’ƒ
+ãƒ©ã‚¤ãƒ‡ã‚£ãƒ¼ãƒ³ã‚¢ã‚¿ãƒƒã‚¯(æ”»æ’ƒ), ï¼’é€£å°ãƒ“ãƒ¼ãƒ  é’ Fire.wav;æ‰“æ’ƒçªæ’ƒ
+ãƒ©ã‚¤ãƒ‡ã‚£ãƒ¼ãƒ³ã‚¢ã‚¿ãƒƒã‚¯(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸
+ã‚´ãƒ¼ã‚¬ãƒ³ã‚½ãƒ¼ãƒ‰, å¤§æ–¬æ’ƒ é»„ äºŒåˆ€æµ
+ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚«ãƒƒã‚¿ãƒ¼(æº–å‚™), ä»•è¾¼ã¿åˆƒ
+ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚«ãƒƒã‚¿ãƒ¼(æ”»æ’ƒ), è½é›· é»„ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;å¤§æ–¬æ’ƒ é»„
+ã‚¨ãƒãƒ«ã‚®ãƒ¼ã‚«ãƒƒã‚¿ãƒ¼(å‘½ä¸­), å¤§æ–¬æ’ƒ é»„
+ã‚´ãƒƒãƒ‰ãƒ—ãƒ¬ãƒƒã‚·ãƒ£ãƒ¼(æº–å‚™), æ”¾é›»
+ã‚´ãƒƒãƒ‰ãƒ—ãƒ¬ãƒƒã‚·ãƒ£ãƒ¼(æ”»æ’ƒ), ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² ç·‘;ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç·‘
+ã‚´ãƒƒãƒ‰ãƒ—ãƒ¬ãƒƒã‚·ãƒ£ãƒ¼(å‘½ä¸­), ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  ç·‘;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² ç·‘
+ã‚´ãƒƒãƒ‰ã‚´ãƒ¼ã‚¬ãƒ³(æº–å‚™), ç™ºå…‰ é»„;å¼“çŸ¢
+ã‚´ãƒƒãƒ‰ã‚´ãƒ¼ã‚¬ãƒ³(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ç™ºå…‰æº–å‚™ ç™½;å¼“çŸ¢
+ã‚´ãƒƒãƒ‰ã‚´ãƒ¼ã‚¬ãƒ³(å‘½ä¸­), çŸ¢åˆº;çˆ†ç™º
+ã‚´ãƒƒãƒ‰ã‚´ãƒ¼ã‚¬ãƒ³æŠŠã­æ’ƒã¡(æº–å‚™), ç™ºå…‰ é»„;å¼“çŸ¢
+ã‚´ãƒƒãƒ‰ã‚´ãƒ¼ã‚¬ãƒ³æŠŠã­æ’ƒã¡(æ”»æ’ƒ), å¼“çŸ¢é€£å°„
+ã‚´ãƒƒãƒ‰ã‚´ãƒ¼ã‚¬ãƒ³æŠŠã­æ’ƒã¡(å‘½ä¸­), çŸ¢é€£åˆº;å¤§çˆ†ç™º
+ã‚´ãƒƒãƒ‰ã‚¢ãƒ«ãƒ•ã‚¡(æº–å‚™), -
+ã‚´ãƒƒãƒ‰ã‚¢ãƒ«ãƒ•ã‚¡(æ”»æ’ƒ), å…‰å™´å‡º ç·‘ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² æ¡ƒ;ç‰¹æ®Šå…‰ç·š ç·‘
+ã‚´ãƒƒãƒ‰ã‚¢ãƒ«ãƒ•ã‚¡(å‘½ä¸­), ç‰¹æ®Šå…‰ç·š ç·‘
+ã‚´ãƒƒãƒ‰ãƒãƒ¼ãƒ‰(æº–å‚™), -
+ã‚´ãƒƒãƒ‰ãƒãƒ¼ãƒ‰(æ”»æ’ƒ), çž¬é–“å¤‰å½¢ ("Unit\" & Info("ãƒ¦ãƒ‹ãƒƒãƒˆãƒ‡ãƒ¼ã‚¿",ã‚´ãƒƒãƒ‰ãƒãƒ¼ãƒ‰,"ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯"));ãƒ­ãƒƒã‚¯ã‚ªãƒ³
+ã‚´ãƒƒãƒ‰ãƒãƒ¼ãƒ‰(å‘½ä¸­), åˆºçªçªæ’ƒ
+ã‚´ãƒƒãƒ‰ãƒœã‚¤ã‚¹(æº–å‚™), -
+ã‚´ãƒƒãƒ‰ãƒœã‚¤ã‚¹(æ”»æ’ƒ), å¤§ãƒªãƒ³ã‚°ãƒ“ãƒ¼ãƒ  æ¡ƒ
+ã‚´ãƒƒãƒ‰ãƒœã‚¤ã‚¹(å‘½ä¸­), å¤§ãƒªãƒ³ã‚°ãƒ“ãƒ¼ãƒ  æ¡ƒ
+ã‚´ãƒƒãƒ‰ãƒãƒ¼ãƒ‰ã‚¯ãƒ­ãƒ¼(æº–å‚™), -
+ã‚´ãƒƒãƒ‰ãƒãƒ¼ãƒ‰ã‚¯ãƒ­ãƒ¼(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Hand\EFFECT_Punch(Black)09.bmp
+ã‚´ãƒƒãƒ‰ãƒãƒ¼ãƒ‰ã‚¯ãƒ­ãƒ¼(æ”»æ’ƒ), æ‰“æ’ƒçªæ’ƒ
+ã‚´ãƒƒãƒ‰ãƒãƒ¼ãƒ‰ã‚¯ãƒ­ãƒ¼(å‘½ä¸­), åˆºçª Drill,wav
+ã‚´ãƒƒãƒ‰ã‚µãƒ³ãƒ€ãƒ¼(æº–å‚™), -
+ã‚´ãƒƒãƒ‰ã‚µãƒ³ãƒ€ãƒ¼(æ”»æ’ƒ), è½é›· é»„ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;æ€ªå…‰ç·š
+ã‚´ãƒƒãƒ‰ã‚µãƒ³ãƒ€ãƒ¼(å‘½ä¸­), æ€ªå…‰ç·š
+ã‚¨ã‚¹ãƒ‘ãƒ¼ãƒãƒ¼ãƒ³, ï¼’é€£å°ãƒ“ãƒ¼ãƒ  é»„
+ã‚´ãƒƒãƒ‰ãƒãƒ¼ãƒ‰ãƒ˜ãƒƒãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(æº–å‚™), -
+ã‚´ãƒƒãƒ‰ãƒãƒ¼ãƒ‰ãƒ˜ãƒƒãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Common\EFFECT_SonicBoom(Red)02.bmp
+ã‚´ãƒƒãƒ‰ãƒãƒ¼ãƒ‰ãƒ˜ãƒƒãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(å‘½ä¸­), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ Common\EFFECT_SonicBoom(Red)02.bmp;ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« ç™½
+ã‚´ãƒƒãƒ‰ãƒãƒ¼ãƒ‰ã‚¢ã‚¿ãƒƒã‚¯(æº–å‚™), -
+ã‚´ãƒƒãƒ‰ãƒãƒ¼ãƒ‰ã‚¢ã‚¿ãƒƒã‚¯(æ”»æ’ƒ), ãƒ­ãƒƒã‚¯ã‚ªãƒ³
+ã‚´ãƒƒãƒ‰ãƒãƒ¼ãƒ‰ã‚¢ã‚¿ãƒƒã‚¯(å‘½ä¸­), æ‰“æ’ƒçªæ’ƒ
+
+ãƒ–ãƒ«ãƒ¼ã‚¬ãƒ¼
+20mmãƒãƒ«ã‚«ãƒ³, ãƒãƒ«ã‚«ãƒ³
+ã‚¢ã‚¤ã‚¢ãƒ³ã‚¯ãƒ­ãƒ¼, ç”²æ®»é‹ èµ¤
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 2
+çˆ†é›·, æŠ•ä¸‹çˆ†å¼¾
+
+ã‚¹ãƒ”ãƒƒãƒˆãƒ•ã‚¡ã‚¤ã‚¿ãƒ¼
+12mmæ©Ÿé–¢ç ², ãƒãƒ«ã‚«ãƒ³
+
+ãƒœã‚¤ãƒ³ãƒ€ãƒ¼
+ç…™å¹•, ï¼­ï¼¡ï¼°ç…™ é»’
+ãƒ‘ãƒãƒ³ã‚³, ãƒ‘ãƒãƒ³ã‚³
+ãƒœã‚¤ãƒ³ãƒ€ãƒ¼ãƒ‘ãƒ³ãƒ, æ‰“çª
+é¢¨èˆ¹çˆ†å¼¾, æ³¡ èµ¤
+ãƒœã‚¤ãƒ³ã‚¿ãƒƒãƒ(æ”»æ’ƒ), ï¼’é€£å°ãƒ“ãƒ¼ãƒ  èµ¤
+ãƒœã‚¤ãƒ³ã‚¿ãƒƒãƒ(å‘½ä¸­), å¼·æ‰“
+
+# å¦–é­”å¸å›½ #
+å·¨å¤§ã‚·ãƒ£ãƒ¼ã‚­ãƒ³
+ã‚·ãƒ¼ãƒ«ãƒ‰(å·¨å¤§ã‚·ãƒ¼ãƒ«ãƒ‰), ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡ Shield\EFFECT_BeamShield(Yellow)01.bmp
+ãƒ˜ã‚¢ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ãƒ‹ãƒ¼ãƒ‰ãƒ«ãƒ¬ãƒ¼ã‚¶ãƒ¼é€£å°„ é»„
+ãƒ˜ã‚¢ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), é€£ç¶šçˆ†ç™º
+ã‚·ãƒ¼ãƒ«ãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Shield\EFFECT_BeamShield(Yellow)01.bmp
+ã‚·ãƒ¼ãƒ«ãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(æ”»æ’ƒ), ä¸­å¿ƒå›žè»¢æ­¦å™¨ Shield\EFFECT_BeamShield(Yellow)01.bmp
+ã‚·ãƒ¼ãƒ«ãƒ‰ã‚«ãƒƒã‚¿ãƒ¼(å‘½ä¸­), å…‰å›žè»¢æ–¬æ’ƒ é»„
+å¦–é­”ã‚µãƒ¼ãƒ™ãƒ«, é‡Žå¤ªåˆ€
+
+ãƒ‰ãƒ­ãƒ¼ãƒ¡
+ãƒžã‚°ãƒžå¼¾, ç«ç‚Žå¼¾
+è§¦æ‰‹, è§¦æ‰‹ ç´«
+åˆ€, é’é¾åˆ€
+ãƒŸã‚µã‚¤ãƒ«, æŠ•æ“²æ­¦å™¨ Bullet\EFFECT_Missile01.bmp
+
+ã‚¬ãƒ³ãƒ†
+ãƒŸã‚µã‚¤ãƒ«, å°åž‹ãƒŸã‚µã‚¤ãƒ« 5
+ç«ç‚Ž(æ”»æ’ƒ), ï¼”ï¼·ï¼¡ï¼¹å°„å‡º
+ç«ç‚Ž(å‘½ä¸­), ç«ç‚Žæ”¾å°„ ç·‘
+ã‚¬ãƒ³ãƒ†ãƒŸã‚µã‚¤ãƒ«, ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒŸã‚µã‚¤ãƒ«
+ãƒãƒ©ã‚ªãƒ¬ãƒ¼ã‚¶ãƒ¼, ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  é»„
+æ‚ªé­”è£…ç½®(æº–å‚™), ç”²æ®»é‹ é»’
+æ‚ªé­”è£…ç½®(æ”»æ’ƒ), ç”²æ®»é‹ é»’
+æ‚ªé­”è£…ç½®(å‘½ä¸­), ç”²æ®»é‹ é»’ Drill,wav;è¸ã¿æ½°ã— Drill,wav
+é»’ã„ç¨²å¦», ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  é»’
+
+ãƒ¡ã‚«ã‚¬ãƒ³ãƒ†
+ç«ç‚Ž, ç«ç‚Žæ”¾å°„
+ãƒãƒ©ã‚ªãƒ¬ãƒ¼ã‚¶ãƒ¼, ï¼’é€£å°ãƒ“ãƒ¼ãƒ  èµ¤
+ã‚¬ãƒ³ãƒ†ãƒŸã‚µã‚¤ãƒ«, ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒŸã‚µã‚¤ãƒ«
+
+åŒ–çŸ³ç£ãƒã‚¹ãƒˆãƒ‰ãƒ³
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„
+ã‚»ãƒ©ãƒŸãƒƒã‚¯ã‚½ãƒ¼ãƒ‰, æ–¬æ’ƒ
+ãƒ€ãƒ–ãƒ«ã‚»ãƒ©ãƒŸãƒƒã‚¯ã‚½ãƒ¼ãƒ‰, é€£æ–¬æ’ƒ
+
+åŒ–çŸ³ç£ã‚¬ãƒ¼ãƒ€
+ã‚¹ãƒ‘ã‚¤ã‚¯ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 6
+ãƒ­ã‚±ãƒƒãƒˆã‚¯ãƒ­ãƒ¼, ç”²æ®»é‹ æ¡ƒ
+å›žè»¢ä½“å½“ãŸã‚Š, ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« æ¡ƒ
+ãƒ˜ãƒƒãƒ‰ã‚·ã‚¶ãƒ¼ã‚¹(æº–å‚™), ç”²æ®»é‹ é»„
+ãƒ˜ãƒƒãƒ‰ã‚·ã‚¶ãƒ¼ã‚¹(æ”»æ’ƒ), ç”²æ®»é‹ é»„
+ãƒ˜ãƒƒãƒ‰ã‚·ã‚¶ãƒ¼ã‚¹(å‘½ä¸­), ç”²æ®»é‹ é»„;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ‰ãƒªãƒ«æº–å‚™;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ‰ãƒªãƒ«æ”»æ’ƒ;ãƒ‰ãƒªãƒ«
+
+åŒ–çŸ³ç£ãƒžãƒ‰ãƒ³
+è§¦æ‰‹, è§¦æ‰‹ æ¡ƒ
+è§¦æ‰‹(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«), ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² æ¡ƒ;å¤§æ”¾é›» æ¡ƒ
+
+åŒ–çŸ³ç£ãƒ“ã‚¤ãƒ©
+è§¦æ‰‹, è§¦æ‰‹ æ¡ƒ
+éŸ³æ³¢æ”»æ’ƒ, ãƒªãƒ³ã‚°ãƒ“ãƒ¼ãƒ  æ¡ƒ
+éŽŒ, é€£æ–¬æ’ƒ
+åŒé¢éŸ³æ³¢æ”»æ’ƒ(æ”»æ’ƒ), åŒæ™‚æ‰“çª
+åŒé¢éŸ³æ³¢æ”»æ’ƒ(å‘½ä¸­), å¤§ãƒªãƒ³ã‚°ãƒ“ãƒ¼ãƒ  æ¡ƒ
+
+åŒ–çŸ³ç£ãƒˆãƒ¼ã‚¿ã‚¹
+ç”²ç¾…(æ”»æ’ƒ), å›žè»¢ç™ºå°„ Shield\EFFECT_ThrowingShield(Red)01.bmp
+ç”²ç¾…(å‘½ä¸­), å¼·æ‰“
+å‰è„š(æ”»æ’ƒ), ç™½å…µé€£æ’ƒ
+å‰è„š(å‘½ä¸­), è¸ã¿æ½°ã—
+
+åŒ–çŸ³ç£ã‚¹ã‚«ãƒ¼ãƒ«
+åˆ†èº«(ãƒ–ãƒ­ãƒƒã‚¯åˆ†é›¢), å››æ–¹åˆ†é›¢å›žé¿
+ãƒ‰ãƒªãƒ«ãƒ–ãƒ­ãƒƒã‚¯, ãƒã‚¸é€£å°„
+åˆ†é›¢ä½“å½“ãŸã‚Š(æ”»æ’ƒ), ãƒ™ã‚¢ãƒªãƒ³ã‚°
+åˆ†é›¢ä½“å½“ãŸã‚Š(æ”»æ’ƒ), è§¦æ‰‹ ç·‘
+åˆ†é›¢ä½“å½“ãŸã‚Š(å‘½ä¸­), ãƒ™ã‚¢ãƒªãƒ³ã‚°
+
+åŒ–çŸ³ç£ã‚·ãƒ
+äºŒå¯¾ã®è…•(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨ Hand\EFFECT_Punch(Purple)01.bmp äºŒåˆ€æµ
+äºŒå¯¾ã®è…•(æ”»æ’ƒ), é€£æ‰“ ç´«
+äºŒå¯¾ã®è…•(å‘½ä¸­), é€£æ‰“ ç´«
+åŒé¢å›žè»¢æ”»æ’ƒ(æº–å‚™), å¤§æ”¾é›» ç´«
+åŒé¢å›žè»¢æ”»æ’ƒ(æ”»æ’ƒ), ã‚¹ãƒ”ãƒ³ã‚¢ã‚¿ãƒƒã‚¯ ç´«
+åŒé¢å›žè»¢æ”»æ’ƒ(å‘½ä¸­), ã‚¹ãƒ”ãƒ³ã‚¢ã‚¿ãƒƒã‚¯ ç´«;ã‚¹ãƒ”ãƒ³ã‚¸ãƒ£ãƒ³ãƒ—ã‚¢ã‚¿ãƒƒã‚¯ ç´«;ã‚¹ãƒ”ãƒ³ã‚¢ã‚¿ãƒƒã‚¯ ç´«
+
+åŒ–çŸ³ç£ãƒžãƒ³ãƒ¢ãƒ¼
+é¼», è§¦æ‰‹ ç´«
+ç‰™ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 2
+ä½“å½“ãŸã‚Š, æ€¥é™ä¸‹
+å†·å‡æ—‹é¢¨(æ”»æ’ƒ), æ—‹é¢¨ ç™½
+å†·å‡æ—‹é¢¨(å‘½ä¸­), æ—‹é¢¨ ç™½;å‡çµ
+
+åŒ–çŸ³ç£ã‚¸ãƒ£ã‚¬ãƒ¼
+ã‚¹ãƒ‘ã‚¤ã‚¯ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 10
+èˆŒ, èˆŒ
+ãƒã‚§ãƒ¼ãƒ³ãƒ‘ãƒ³ãƒ, ãƒ¨ãƒ¼ãƒ¨ãƒ¼ äºŒåˆ€æµ
+å™›ã¿ä»˜ã, å™›ã¿ä»˜ã
+
+åŒ–çŸ³ç£ã‚®ãƒ«ãƒ‡ã‚£ãƒ¼ãƒ³
+ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡(ã‚®ãƒ«ã‚·ãƒ¼ãƒ«ãƒ‰), ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡ Shield\EFFECT_BeamShield(Red)01.bmp
+ã‚®ãƒ«ã‚½ãƒ¼ãƒ‰, ä»•è¾¼ã¿åˆƒ
+ã‚®ãƒ«ãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³, ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³ èµ¤
+ã‚®ãƒ«ã‚¢ãƒ­ãƒ¼(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Bullet\EFFECT_Arrow01.bmp
+ã‚®ãƒ«ã‚¢ãƒ­ãƒ¼(å‘½ä¸­), çŸ¢åˆº
+
+åŒ–çŸ³ç£ã‚¢ãƒ«ã‚¬ãƒ³ãƒ‰ã‚¹
+ãƒŸã‚µã‚¤ãƒ«, ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒŸã‚µã‚¤ãƒ« 2
+ç ´å£Šå…‰ç·š, ï¼’é€£å°ãƒ“ãƒ¼ãƒ  ç·‘;ï¼’é€£å°ãƒ“ãƒ¼ãƒ  ç·‘
+å°»å°¾, ç”²æ®»é‹ ç·‘
+ç«ç‚Žä½“å½“ãŸã‚Š(æº–å‚™), ç‚Ž
+ç«ç‚Žä½“å½“ãŸã‚Š(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« èµ¤
+
+åŒ–çŸ³ç£ã‚·ãƒ¥ãƒ©ã‚¬
+é€Ÿå°„ç ², å°åž‹ãƒŸã‚µã‚¤ãƒ« 10
+è›‡ã®é«ª, å¤šè§¦æ‰‹ é»„
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 2
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„
+è–™åˆ€, æ–¬æ’ƒæ­¦å™¨ Weapon\EFFECT_Shotel01.bmp
+
+åŒ–çŸ³ç£ãƒ€ã‚¢ã‚¯ãƒ«
+é€Ÿå°„ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 2
+æ‰‹è£å‰£(æº–å‚™), ãƒ“ãƒ¼ãƒ ã‚½ãƒ¼ãƒ‰ ç·‘;é€£æŠ•å‰£
+æ‰‹è£å‰£(æ”»æ’ƒ), é€£æŠ•å‰£
+æ‰‹è£å‰£(å‘½ä¸­), é€£çª
+éŠ›(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Bullet\EFFECT_Arrow01.bmp
+éŠ›(å‘½ä¸­), çŸ¢åˆº
+ç¿¼, ãƒ“ãƒ¼ãƒ ã‚½ãƒ¼ãƒ‰ ç·‘ äºŒåˆ€æµ
+æš—é»’æ€ªå…‰ç·š(æ”»æ’ƒ), ç‰¹æ®Šå…‰ç·š ç·‘
+æš—é»’æ€ªå…‰ç·š(å‘½ä¸­), ç‰¹æ®Šå…‰ç·š ç·‘;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² é»’
+æš—é»’æ€ªå…‰ç·š(å‘½ä¸­), ç‰¹æ®Šå…‰ç·š ç·‘;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² èµ¤
+
+åŒ–çŸ³ç£ãƒ€ã‚¤ãƒ¤ãƒ³
+ãƒ–ãƒªã‚¶ãƒ¼ãƒ‰, å¹é›ª
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„ é»„
+ãƒŒãƒ³ãƒãƒ£ã‚¯, ãƒŒãƒ³ãƒãƒ£ã‚¯
+ãƒ•ã‚¡ã‚¤ãƒ¤ãƒ¼ãƒ–ãƒªã‚¶ãƒ¼ãƒ‰, ç«ç‚Žæ”¾å°„ é»„;å¹é›ª
+æº¶è§£æ¶², æ°´æµ ç·‘
+
+åŒ–çŸ³ç£ãƒ€ã‚¤ãƒ¤ãƒ³â…¡ä¸–
+ãƒ–ãƒªã‚¶ãƒ¼ãƒ‰, å¹é›ª
+ãƒ„ãƒŽã‚«ãƒƒã‚¿ãƒ¼, ãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„ é»„
+ãƒ•ã‚¡ã‚¤ãƒ¤ãƒ¼ãƒ–ãƒªã‚¶ãƒ¼ãƒ‰, ç«ç‚Žæ”¾å°„ é»„;å¹é›ª
+ãƒ€ã‚¤ãƒ¤ãƒ¢ãƒ³ãƒ‰ã‚¯ãƒ­ãƒ¼, é€£çª ç·‘
+ãƒ€ã‚¤ãƒ¤ãƒ¢ãƒ³ãƒ‰ãƒ›ãƒ¼ãƒ³(æ”»æ’ƒ), è§¦æ‰‹ é»’
+ãƒ€ã‚¤ãƒ¤ãƒ¢ãƒ³ãƒ‰ãƒ›ãƒ¼ãƒ³(å‘½ä¸­), çˆªæ’ƒ ç·‘
+
+åŒ–çŸ³ç£ãƒ‰ãƒ­ãƒ¼ã‚ºãƒ‡ãƒ³
+ãƒãƒ³ãƒ‰ãƒŸã‚µã‚¤ãƒ«, å°åž‹ãƒŸã‚µã‚¤ãƒ« 5
+ãƒŸã‚µã‚¤ãƒ«, ç”²æ®»é‹ æ©™
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„
+è…¹éƒ¨ã‚«ãƒƒã‚¿ãƒ¼, ç”²æ®»é‹ é»’
+æ¸¦å·»ã(æ”»æ’ƒ), ç™½å…µå›žè»¢ ç·‘;æ—‹é¢¨
+æ¸¦å·»ã(å‘½ä¸­), æ—‹é¢¨
+
+åŒ–çŸ³ç£ã‚´ãƒ¼ãƒ¬ãƒ¢ãƒ³
+å°»å°¾(æ”»æ’ƒ), ç™½å…µæ­¦å™¨ ç·‘
+å°»å°¾(å‘½ä¸­), ç«œå·» ç·‘
+ç ´å£Šå…‰ç·š, ï¼’é€£å°ãƒ“ãƒ¼ãƒ  æ°´è‰²
+ã‚¹ã‚¯ãƒªãƒ¥ãƒ¼ãƒŸã‚µã‚¤ãƒ«, ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«
+ãƒˆãƒžãƒ›ãƒ¼ã‚¯ãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³, å›žè»¢æŠ•æ“²æ­¦å™¨ Weapon\EFFECT_DoubleAx01.bmp
+ãƒˆãƒžãƒ›ãƒ¼ã‚¯, ä¸¡åˆƒæ–§ äºŒåˆ€æµ
+
+åŒ–çŸ³ç£ã‚¿ãƒ©ãƒ³ãƒãƒ¥
+ã‚¿ãƒ©ãƒ³ãƒãƒ¥ãƒ­ãƒ¼ãƒ—, ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  æ©™
+ã‚¿ãƒ©ãƒ³ãƒãƒ¥ãƒ­ãƒ¼ãƒ—(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_é€æ˜ŽåŒ–å‘½ä¸­;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_å‘¨å›²å›žè»¢å‘½ä¸­ ("Unit\" & Info("ãƒ¦ãƒ‹ãƒƒãƒˆãƒ‡ãƒ¼ã‚¿",åŒ–çŸ³ç£ã‚¿ãƒ©ãƒ³ãƒãƒ¥,"ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯"));ç«œå·» æ©™
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 3
+ã‚·ãƒ§ãƒ«ãƒ€ãƒ¼ã‚¯ãƒ­ãƒ¼(æ”»æ’ƒ), å›žè»¢ç™ºå°„ Bullet\EFFECT_ShootingCutter(Purple)01.bmp;å›žè»¢ç™ºå°„ Bullet\EFFECT_ShootingCutter(Purple)01.bmp
+ã‚¿ãƒ©ãƒ³ãƒãƒ¥ã‚¯ãƒ­ãƒ¼, é€£æ–¬æ’ƒ
+ã‚¿ãƒ©ãƒ³ãƒãƒ¥å…‰ç·š, ç‰¹æ®Šå…‰ç·š æ¡ƒ
+é›»æ’ƒ(æ”»æ’ƒ), å¤šè§¦æ‰‹ ç™½
+é›»æ’ƒ(å‘½ä¸­), å¤§æ”¾é›» ç™½
+
+åŒ–çŸ³ç£ã‚´ãƒ³ã‚¬ãƒ¼
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 2
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„
+æ€ªåŠ›(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ«
+æ€ªåŠ›(å‘½ä¸­), ãƒ™ã‚¢ãƒãƒƒã‚°
+æ€ªåŠ›(å‘½ä¸­), èƒŒè² ã„å›ºã‚
+
+åŒ–çŸ³ç£ãƒ‰ã‚°ã‚­ãƒ£ãƒƒãƒˆ
+æº¶è§£æ¶², ï¼’é€£æ°´æµ ç·‘
+æº¶è§£æ¶²(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«), ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² é»’
+ç ´å£Šå…‰ç·š, è™¹è‰²å…‰ç·š
+è…•éƒ¨å›žè»¢ã‚«ãƒƒã‚¿ãƒ¼, ãƒ“ãƒ¼ãƒ ãƒ­ãƒ¼ã‚¿ãƒ¼ ç™½
+å¦–é­”å·¨éŠƒ(æ”»æ’ƒ), ãƒžã‚·ãƒ³ã‚¬ãƒ³
+å¦–é­”å·¨éŠƒ(å‘½ä¸­), ãƒžã‚·ãƒ³ã‚¬ãƒ³;å¤§æ”¾é›» ç™½
+
+åŒ–çŸ³ç£ãƒ ãƒãƒ¼ãƒ«
+çªé¢¨(æº–å‚™), ç¿¼(ã‚³ã‚¦ãƒ¢ãƒª) ç´« äºŒåˆ€æµ
+çªé¢¨(æ”»æ’ƒ), ç™½å…µé€£æ’ƒ;æ—‹é¢¨
+çªé¢¨(å‘½ä¸­), æ—‹é¢¨
+å¤šå¼¾é ­ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ãƒŸã‚µã‚¤ãƒ«
+å¤šå¼¾é ­ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), é€£ç¶šçˆ†ç™º
+ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ, ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ Hand\EFFECT_Punch(Orange)02.bmp
+æ£æ£’, æ®´æ‰“æ­¦å™¨ DGoods\EFFECT_NailButt01.bmp äºŒåˆ€æµ
+ãƒ‘ãƒ©ãƒ©ã‚¤ã‚¶ãƒ¼(æ”»æ’ƒ), æ°´æµ ç·‘
+ãƒ‘ãƒ©ãƒ©ã‚¤ã‚¶ãƒ¼(å‘½ä¸­), ç«œå·» ç·‘;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒªãƒ³ã‚°ãƒ“ãƒ¼ãƒ æ”»æ’ƒ æ¡ƒ;ãƒªãƒ³ã‚°ãƒ“ãƒ¼ãƒ  æ¡ƒ
+
+åŒ–çŸ³ç£ã‚³ãƒ³ãƒ‰ãƒ«ãƒ³
+çªé¢¨(æº–å‚™), ç¿¼ ç·‘ äºŒåˆ€æµ
+çªé¢¨(æ”»æ’ƒ), ç™½å…µé€£æ’ƒ;æ—‹é¢¨
+çªé¢¨(å‘½ä¸­), æ—‹é¢¨
+ã‚«ãƒƒã‚¿ãƒ¼ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), -
+ã‚«ãƒƒã‚¿ãƒ¼ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Weapon\EFFECT_BrokenGrass01.bmp
+ã‚«ãƒƒã‚¿ãƒ¼ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), ãªãŽæ‰•ã„
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 2
+æ ¼é—˜(æº–å‚™), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ BodyParts\EFFECT_Claw(Pink)01.bmp
+æ ¼é—˜(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ BodyParts\EFFECT_Claw(Pink)01.bmp
+æ ¼é—˜(å‘½ä¸­), çˆªæ’ƒ æ¡ƒ
+æ€ªå…‰ç·š(æ”»æ’ƒ), ç‰¹æ®Šå…‰ç·š æ°´è‰²
+æ€ªå…‰ç·š(å‘½ä¸­), ç‰¹æ®Šå…‰ç·š æ°´è‰²;ç‚Ž æ°´è‰²
+ç ´å£Šå…‰ç·š, ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  æ°´è‰²
+
+åŒ–çŸ³ç£ã‚´ãƒ¼ã‚¬ãƒ¼
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 2
+éŽ§ç¸›ã‚Š, ç”²æ®»é‹ èµ¤
+æ ¼é—˜, ã‚¿ãƒƒã‚¯ãƒ«
+
+ãƒ€ãƒ«ãƒ€ãƒ³æˆ¦è»Š
+å›žè»¢ã‚«ãƒƒã‚¿ãƒ¼(æº–å‚™), ä¸­å¿ƒå›žè»¢æ­¦å™¨ Bullet\EFFECT_BeamRingCutter(White)01.bmp Drill.wav
+å›žè»¢ã‚«ãƒƒã‚¿ãƒ¼(æ”»æ’ƒ), å›žè»¢ç™ºå°„ Bullet\EFFECT_BeamRingCutter(White)01.bmp Drill.wav
+å›žè»¢ã‚«ãƒƒã‚¿ãƒ¼(å‘½ä¸­), ãªãŽæ‰•ã„;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ä¸­å¿ƒå›žè»¢æ­¦å™¨æº–å‚™ Bullet\EFFECT_BeamRingCutter(White)01.bmp Drill.wav
+ç ²æ’ƒ, ãƒžã‚·ãƒ³ã‚­ãƒ£ãƒŽãƒ³ èµ¤
+
+åŒ–çŸ³ç£éŽŒã‚®ãƒ©ãƒ¼
+ãƒŸã‚µã‚¤ãƒ«, ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒŸã‚µã‚¤ãƒ«
+ãƒ†ã‚¤ãƒ«ã‚«ãƒƒã‚¿ãƒ¼(æº–å‚™), -
+ãƒ†ã‚¤ãƒ«ã‚«ãƒƒã‚¿ãƒ¼(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Bullet\EFFECT_ShootingCutter(White)01.bmp
+ãƒ†ã‚¤ãƒ«ã‚«ãƒƒã‚¿ãƒ¼(å‘½ä¸­), æ¨ªå¤§æ–¬æ’ƒ
+éŽ–éŽŒ(æº–å‚™), -
+éŽ–éŽŒ(æ”»æ’ƒ), ãªãŽæ‰•ã„;å®Ÿå¼¾ç™ºå°„ Weapon\EFFECT_SeiryuTou01.bmp æœ‰ç·š
+éŽ–éŽŒ(å‘½ä¸­), ç«œå·» é»’
+å¦–åˆ€, é€£æ–¬æ’ƒ
+
+åŒ–çŸ³ç£ãƒ¢ã‚°ãƒ­ãƒ³
+ãƒŸã‚µã‚¤ãƒ«, å°åž‹ãƒŸã‚µã‚¤ãƒ« 3
+ãƒ‰ãƒªãƒ«, ãƒ‰ãƒªãƒ«
+
+åŒ–çŸ³ç£ã‚­ãƒãƒ³ã‚´
+ã‚­ãƒãƒŸã‚µã‚¤ãƒ«(æº–å‚™), -     
+ã‚­ãƒãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ï¼’ï¼·ï¼¡ï¼¹å°„å‡º;ãƒ‹ãƒ¼ãƒ‰ãƒ«é€£å°„     
+ã‚­ãƒãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), é€£ç¶šçˆ†ç™º     
+ã‚¯ãƒ­ãƒ¼, ãƒ“ãƒ¼ãƒ ã‚½ãƒ¼ãƒ‰ æ°´è‰² äºŒåˆ€æµ
+ãƒ–ãƒªã‚¶ãƒ¼ãƒ‰(æº–å‚™), -
+ãƒ–ãƒªã‚¶ãƒ¼ãƒ‰(æ”»æ’ƒ), æ—‹é¢¨
+ãƒ–ãƒªã‚¶ãƒ¼ãƒ‰(å‘½ä¸­), å¹é›ª;å‡çµ
+å¤§ç ², ãƒŸã‚µã‚¤ãƒ«
+æ‰‹è£å‰£, ã‚·ãƒ¥ãƒ¼ãƒˆã‚«ãƒƒã‚¿ãƒ¼ é»„
+
+åŒ–çŸ³ç£ãƒ¢ãƒ‰ãƒ­ã‚¹
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 10
+ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«, ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„
+çªé€²(æº–å‚™), ç‚Ž
+çªé€²(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« èµ¤
+çªé€²(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« èµ¤
+ãƒ’ãƒ¼ãƒˆãƒ›ãƒ¼ãƒ³(æº–å‚™), -
+ãƒ’ãƒ¼ãƒˆãƒ›ãƒ¼ãƒ³(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ«
+ãƒ’ãƒ¼ãƒˆãƒ›ãƒ¼ãƒ³(å‘½ä¸­), åˆºçª;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² èµ¤ å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤;;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² èµ¤
+
+åŒ–çŸ³ç£ã‚¬ãƒ¡ãƒ¬ãƒ¼ãƒ³
+èˆŒ, èˆŒ
+ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ãƒ‹ãƒ¼ãƒ‰ãƒ«
+ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), é€£çª
+ã‚µãƒ¼ãƒ™ãƒ«, é’é¾åˆ€
+
+åŒ–çŸ³ç£ã‚¢ãƒªãƒ¼ã‚¸ã‚´
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 4
+æ ¼é—˜(æ”»æ’ƒ), è§¦æ‰‹ ç™½
+æ ¼é—˜(å‘½ä¸­), è§¦æ‰‹ ç™½;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚¿ãƒƒã‚¯ãƒ«æ”»æ’ƒ;ç”²æ®»é‹ èµ¤;å¤§æ”¾é›» é»„
+
+å·¨çƒˆç£ã‚³ãƒ¼ã‚«ãƒ„
+åˆ†èº«(æ®‹åƒ), é˜²å¾¡ãƒ†ãƒ¬ãƒãƒ¼ãƒˆï¼’ æ®‹åƒ ç·‘
+ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡(ã‚·ãƒ¼ãƒ«ãƒ‰), ç‚Žç›¾
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 2
+ã‚·ãƒ¼ãƒ«ãƒ‰ãƒ“ãƒ¼ãƒ , ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚­ãƒ£ãƒŽãƒ³ Shield\EFFECT_FireShield01.bmp ç™ºå…‰
+éŽ–éŽŒ, éŒ¨
+ã‚¹ãƒ”ãƒ³ã‚¯ãƒ©ãƒƒã‚·ãƒ£ãƒ¼, ãƒ“ãƒ¼ãƒ ãƒ­ãƒ¼ã‚¿ãƒ¼ é»’
+ãƒ„ã‚¤ãƒ³ãƒã‚¤ãƒ³ãƒ‰(æº–å‚™), -
+ãƒ„ã‚¤ãƒ³ãƒã‚¤ãƒ³ãƒ‰(æ”»æ’ƒ), ï¼’ï¼·ï¼¡ï¼¹å°„å‡º
+ãƒ„ã‚¤ãƒ³ãƒã‚¤ãƒ³ãƒ‰(å‘½ä¸­), ä¹±çª;ä¹±çª
+ãƒ€ãƒ ãƒ€ãƒ ç ², ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«
+
+å·¨çƒˆç£ã‚°ãƒ¬ãƒ¼ãƒˆï¼ã‚¶ï¼ãƒ•ãƒ³ãƒŒ
+é€Ÿå°„ç ², æ©Ÿé–¢ç ²
+æ ¼é—˜, ç«‹ã¡å›ºã‚
+ä¸»ç ², ã‚­ãƒ£ãƒŽãƒ³ç ²
+
+å·¨çƒˆç£ãƒ¬ãƒ¼ã‚¶ãƒ«
+ãƒ¬ãƒ¼ã‚¶ãƒ«ã‚°ãƒ©ãƒƒãƒ—(æº–å‚™), -
+ãƒ¬ãƒ¼ã‚¶ãƒ«ã‚°ãƒ©ãƒƒãƒ—(æ”»æ’ƒ), ãƒŸã‚µã‚¤ãƒ« 4
+ãƒ¬ãƒ¼ã‚¶ãƒ«ã‚°ãƒ©ãƒƒãƒ—(å‘½ä¸­), å¼·æ‰“
+ãƒãƒ³ãƒ‰ãƒ¬ãƒ¼ã‚¶ãƒ¼(æº–å‚™), åŒé‚ªçœ¼è§£æ”¾ ç´« é»„
+ãƒãƒ³ãƒ‰ãƒ¬ãƒ¼ã‚¶ãƒ¼(æ”»æ’ƒ), ï¼’é€£å°ãƒ“ãƒ¼ãƒ  æ°´è‰²
+ãƒãƒ³ãƒ‰ãƒ¬ãƒ¼ã‚¶ãƒ¼(å‘½ä¸­), ï¼’é€£å°ãƒ“ãƒ¼ãƒ  æ°´è‰²
+ãƒ¬ãƒ¼ã‚¶ãƒ¼ã‚¯ãƒ­ãƒ¼(æº–å‚™), å…‰å™´å‡º æ¡ƒ;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² æ¡ƒ
+ãƒ¬ãƒ¼ã‚¶ãƒ¼ã‚¯ãƒ­ãƒ¼(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ«
+ãƒ¬ãƒ¼ã‚¶ãƒ¼ã‚¯ãƒ­ãƒ¼(å‘½ä¸­), ç«‹ã¡å›ºã‚;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² æ¡ƒ
+ã‚¢ã‚¤ãƒ¬ãƒ¼ã‚¶ãƒ¼, ç‰¹æ®Šå…‰ç·š æ¡ƒ
+ãƒ¬ã‚¤ãƒ³ãƒœãƒ¼ãƒ¬ãƒ¼ã‚¶ãƒ¼(æº–å‚™), åŒé‚ªçœ¼è§£æ”¾ ç´« é»„
+ãƒ¬ã‚¤ãƒ³ãƒœãƒ¼ãƒ¬ãƒ¼ã‚¶ãƒ¼(æ”»æ’ƒ), ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² æ¡ƒ;è™¹è‰²å…‰ç·š
+ãƒ¬ã‚¤ãƒ³ãƒœãƒ¼ãƒ¬ãƒ¼ã‚¶ãƒ¼(å‘½ä¸­), è™¹è‰²å…‰ç·š;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² æ¡ƒ
+
+å·¨çƒˆç£ãƒ‰ãƒªãƒ³ã‚²ãƒ³
+ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), -
+ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ãƒã‚¸é€£å°„ Drill,wav
+ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), ä¹±çª Drill,wav
+ãƒ‰ãƒªãƒ«ãƒ‘ãƒ³ãƒ, ãƒ‰ãƒªãƒ«ã‚¹ãƒ”ã‚¢
+ä½“å†…ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), é€æ˜ŽåŒ–
+ä½“å†…ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«
+ä½“å†…ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), å¤§çˆ†ç™º
+
+å·¨çƒˆç£ã‚¬ãƒ³ãƒžãƒ¼
+ç ´å£Šå…‰ç·š, ãƒªãƒ³ã‚°ãƒ“ãƒ¼ãƒ  æ¡ƒ
+ã‚¬ãƒ³ãƒžãƒ¼ã‚­ãƒƒã‚¯, ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚­ãƒƒã‚¯
+ãƒ‡ãƒ“ãƒ«ã‚«ãƒƒã‚¿ãƒ¼(æº–å‚™), -
+ãƒ‡ãƒ“ãƒ«ã‚«ãƒƒã‚¿ãƒ¼(æ”»æ’ƒ), ã‚·ãƒ¥ãƒ¼ãƒˆã‚«ãƒƒã‚¿ãƒ¼ é»„
+ãƒ‡ãƒ“ãƒ«ã‚«ãƒƒã‚¿ãƒ¼(å‘½ä¸­), åˆºçª é»„;å¤§æ”¾é›»
+ãƒ‡ãƒ“ãƒ«ãƒãƒ¼ã‚±ãƒ³, ï¼’é€£å°ãƒ“ãƒ¼ãƒ  é»’
+ãƒ‡ãƒ“ãƒ«ã‚¯ãƒ­ãƒ¼, é€£çª
+ãƒ‡ãƒ“ãƒ«ã‚¯ãƒ­ãƒ¼(ã¨ã©ã‚), æ¨ªåˆ†å‰²
+
+å·¨çƒˆç£ã‚²ãƒ«ãƒˆ
+ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡(ã‚·ãƒ¼ãƒ«ãƒ‰), ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡ Shield\EFFECT_ThrowingShield(Red)01.bmp
+éŽ–é‰„çƒ, æ£˜é‰„çƒ
+
+å·¨çƒˆç£ãƒ†ãƒ„ãƒ€ãƒ³
+ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), -
+ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ãƒŸã‚µã‚¤ãƒ«;å°åž‹ãƒŸã‚µã‚¤ãƒ« 3
+ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), åˆºçª;é€£çª;çˆ†ç™º
+å°»å°¾ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), ãƒã‚§ãƒ³ã‚½ãƒ¼
+å°»å°¾ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ãƒã‚§ãƒ³ã‚½ãƒ¼;å®Ÿå¼¾é€£å°„ Weapon\EFFECT_ChainSaw01.bmp Drill,wav
+å°»å°¾ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), ãƒã‚§ãƒ³ã‚½ãƒ¼
+ç ´å£Šå…‰ç·š, ï¼’é€£å°ãƒ“ãƒ¼ãƒ  æ¡ƒ
+ç ´å£Šå…‰ç·š(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ï¼’é€£å°ãƒ“ãƒ¼ãƒ å‘½ä¸­ æ°´è‰²
+éŽ–é‰„çƒ, ãƒ¢ãƒ¼ãƒ‹ãƒ³ã‚°ã‚¹ã‚¿ãƒ¼
+æ ¸å…¥ç®±è©°ã‚é€†ã•è½ã¨ã—(æº–å‚™), -
+æ ¸å…¥ç®±è©°ã‚é€†ã•è½ã¨ã—(æ”»æ’ƒ), ï¼‘ï¼·ï¼¡ï¼¹å°„å‡º;ï¼”ï¼·ï¼¡ï¼¹å°„å‡º
+æ ¸å…¥ç®±è©°ã‚é€†ã•è½ã¨ã—(å‘½ä¸­), ç‚¹ä¹±æ‰“ ç·‘;å²©æŸ± é»’;ã‚¹ã‚¯ãƒªãƒ¥ãƒ¼ãƒãƒƒã‚¯ãƒ‰ãƒ©ã‚¤ãƒãƒ¼ Jet.wav;å¤§çˆ†ç™º
+æ ¸å…¥ç®±è©°ã‚é€†ã•è½ã¨ã—(å‘½ä¸­), ç‚¹ä¹±æ‰“ ç·‘;å¤§æ”¾é›»;å²©æŸ± é»’;ã‚¹ã‚¯ãƒªãƒ¥ãƒ¼ãƒãƒƒã‚¯ãƒ‰ãƒ©ã‚¤ãƒãƒ¼ Jet.wav;å¤§çˆ†ç™º
+
+å·¨çƒˆç£ãƒ‰ãƒãƒ„
+ãƒ‰ãƒªãƒ«ã‚­ãƒƒã‚¯(æº–å‚™), -
+ãƒ‰ãƒªãƒ«ã‚­ãƒƒã‚¯(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚­ãƒƒã‚¯
+ãƒ‰ãƒªãƒ«ã‚­ãƒƒã‚¯(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚­ãƒƒã‚¯;ãƒ‰ãƒªãƒ«
+ãƒˆãƒžãƒ›ãƒ¼ã‚¯ãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³(æº–å‚™), -
+ãƒˆãƒžãƒ›ãƒ¼ã‚¯ãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³(æ”»æ’ƒ), æŠ•æ“²æ­¦å™¨é€£æŠ• Weapon\EFFECT_SingleAx01.bmp
+ãƒˆãƒžãƒ›ãƒ¼ã‚¯ãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³(å‘½ä¸­), é€£æ–¬æ’ƒ
+ãƒˆãƒžãƒ›ãƒ¼ã‚¯, ãƒˆãƒžãƒ›ãƒ¼ã‚¯ äºŒåˆ€æµ
+
+å·¨çƒˆç£ãƒ‰ãƒ©ã‚¤ã‚¬ãƒ¼
+æ ¼é—˜, ã‚¸ãƒ£ã‚¤ã‚¢ãƒ³ãƒˆã‚¹ã‚¤ãƒ³ã‚°
+ã‚¹ãƒ‘ã‚¤ã‚¯ã‚·ãƒ§ãƒƒãƒˆ(æº–å‚™), -
+ã‚¹ãƒ‘ã‚¤ã‚¯ã‚·ãƒ§ãƒƒãƒˆ(æ”»æ’ƒ), ãƒ‹ãƒ¼ãƒ‰ãƒ«é€£å°„
+ã‚¹ãƒ‘ã‚¤ã‚¯ã‚·ãƒ§ãƒƒãƒˆ(å‘½ä¸­), é€£çª;çˆ†ç™º
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 2
+å¿ƒè‡“ç ´ã‚ŠãƒŸã‚µã‚¤ãƒ«(æº–å‚™), -
+å¿ƒè‡“ç ´ã‚ŠãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«
+å¿ƒè‡“ç ´ã‚ŠãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ æ”»æ’ƒ é»„;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² é»„;å¤§çˆ†ç™º
+
+å·¨çƒˆç£ã‚¢ãƒ³ã‚¿ãƒ¬ã‚¹
+ã‚¹ãƒ‘ã‚¤ã‚¯ã‚·ãƒ§ãƒƒãƒˆ(æº–å‚™), -
+ã‚¹ãƒ‘ã‚¤ã‚¯ã‚·ãƒ§ãƒƒãƒˆ(æ”»æ’ƒ), ãƒ‹ãƒ¼ãƒ‰ãƒ«é€£å°„
+ã‚¹ãƒ‘ã‚¤ã‚¯ã‚·ãƒ§ãƒƒãƒˆ(å‘½ä¸­), çˆ†ç™º
+ãƒŸã‚µã‚¤ãƒ«, ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒŸã‚µã‚¤ãƒ«
+æ ¼é—˜(æº–å‚™), -
+æ ¼é—˜(æ”»æ’ƒ), ç™½å…µæ­¦å™¨
+æ ¼é—˜(å‘½ä¸­), æ‰“æ’ƒ
+
+å·¨çƒˆç£ã‚¯ãƒ©ãƒƒã‚·ãƒ¥
+åˆ†èº«(åˆ†è£‚), å››æ–¹åˆ†é›¢å›žé¿
+æ•ç²ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ Hand\EFFECT_Punch(Red)02.bmp;ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ Hand\EFFECT_Punch(Red)02.bmp
+æ•ç²ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ Hand\EFFECT_Punch(Red)02.bmp;ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ Hand\EFFECT_Punch(Red)02.bmp
+æ•ç²ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), ä¹±æ‰“ èµ¤
+ã‚¹ãƒ‘ã‚¤ã‚¯ã‚·ãƒ§ãƒƒãƒˆ(æº–å‚™), -
+ã‚¹ãƒ‘ã‚¤ã‚¯ã‚·ãƒ§ãƒƒãƒˆ(æ”»æ’ƒ), ãƒ‹ãƒ¼ãƒ‰ãƒ«é€£å°„
+ã‚¹ãƒ‘ã‚¤ã‚¯ã‚·ãƒ§ãƒƒãƒˆ(å‘½ä¸­), é€£çª;çˆ†ç™º
+ãƒ–ãƒ¬ã‚¹ãƒ¬ãƒƒãƒˆãƒŸã‚µã‚¤ãƒ«, å°åž‹ãƒŸã‚µã‚¤ãƒ« 6
+èƒ¸éƒ¨ãƒ‰ãƒªãƒ«(æº–å‚™), -
+èƒ¸éƒ¨ãƒ‰ãƒªãƒ«(æ”»æ’ƒ), ï¼’é€£å°ãƒ“ãƒ¼ãƒ  é»’
+èƒ¸éƒ¨ãƒ‰ãƒªãƒ«(å‘½ä¸­), ãƒ‰ãƒªãƒ«
+ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«, ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«
+æ£˜ã®éž­, éž­ äºŒåˆ€æµ
+è…•éƒ¨ãƒ‰ãƒªãƒ«, ãƒ‰ãƒªãƒ«
+è…¹éƒ¨ãƒ‰ãƒªãƒ«(æº–å‚™), ãƒ‰ãƒªãƒ«
+è…¹éƒ¨ãƒ‰ãƒªãƒ«(æ”»æ’ƒ), ãƒ‰ãƒªãƒ«
+è…¹éƒ¨ãƒ‰ãƒªãƒ«(å‘½ä¸­), ãƒ‰ãƒªãƒ«
+è…¹éƒ¨ãƒ‰ãƒªãƒ«(å‘½ä¸­), ãƒ‰ãƒªãƒ«;åœ°ç„è»Š;å¤§æ”¾é›»;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² æ¡ƒ
+
+å·¨çƒˆç£ã‚¼ãƒ³ãƒ€
+å°»å°¾, ã‚­ãƒƒã‚¯
+ç· ã‚ä»˜ã‘(æº–å‚™), -
+ç· ã‚ä»˜ã‘(æ”»æ’ƒ), é€æ˜ŽåŒ–;äº¤å·®ãƒ“ãƒ¼ãƒ  èµ¤ é’
+ç· ã‚ä»˜ã‘(å‘½ä¸­), æŠ•ã’é£›ã°ã—;å¤§æ”¾é›»
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„;ç«ç‚Žæ”¾å°„
+
+å·¨çƒˆç£ã‚¬ãƒ«ã‚¸ãƒ£ãƒ¼
+ã‚¹ãƒ‘ã‚¤ã‚¯ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), ãƒ¢ãƒ¼ãƒ‹ãƒ³ã‚°ã‚¹ã‚¿ãƒ¼
+ã‚¹ãƒ‘ã‚¤ã‚¯ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ãƒ‹ãƒ¼ãƒ‰ãƒ«é€£å°„
+ã‚¹ãƒ‘ã‚¤ã‚¯ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), é€£çª;çˆ†ç™º
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 3
+ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ, ãƒ­ã‚±ãƒƒãƒˆãƒ‘ãƒ³ãƒ Hand\EFFECT_Punch(Black)01.bmp
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„
+éŽ–é‰„çƒ(æº–å‚™), ãƒ¢ãƒ¼ãƒ‹ãƒ³ã‚°ã‚¹ã‚¿ãƒ¼
+éŽ–é‰„çƒ(æ”»æ’ƒ), ãƒ¢ãƒ¼ãƒ‹ãƒ³ã‚°ã‚¹ã‚¿ãƒ¼
+éŽ–é‰„çƒ(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Weapon\EFFECT_MorningStar02.bmp
+éŽ–é‰„çƒ(å‘½ä¸­), å¼·æ‰“
+éŽ–é‰„çƒ(å‘½ä¸­), å¤§æ”¾é›»
+ãƒ€ãƒ ãƒ€ãƒ æ™‚é™çˆ†å¼¾, ãƒ‰ãƒªãƒ«ãƒŸã‚µã‚¤ãƒ«
+
+å·¨çƒˆç£ã‚®ãƒ©ãƒ³
+ã‚¢ãƒ¼ãƒ ã‚«ãƒƒã‚¿ãƒ¼, é€£æ‰“
+ã‚«ãƒƒã‚¿ãƒ¼ã‚¹ãƒ”ãƒ³(æº–å‚™), é€£æŠ•å‰£ äºŒåˆ€æµ
+ã‚«ãƒƒã‚¿ãƒ¼ã‚¹ãƒ”ãƒ³(æ”»æ’ƒ), ã‚¹ãƒ”ãƒ³ã‚¸ãƒ£ãƒ³ãƒ—ã‚¢ã‚¿ãƒƒã‚¯ èµ¤
+ã‚«ãƒƒã‚¿ãƒ¼ã‚¹ãƒ”ãƒ³(å‘½ä¸­), æ–¬æ’ƒä¹±èˆž
+
+å·¨çƒˆç£ã‚µãƒ©ãƒžãƒ³ãƒ€ãƒ¼
+ãƒ„ãƒ¡ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), éŠƒæ’ƒæ­¦å™¨ BodyParts\EFFECT_Claw(Yellow)02.bmp
+ãƒ„ãƒ¡ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ãƒ‹ãƒ¼ãƒ‰ãƒ«ãƒ¬ãƒ¼ã‚¶ãƒ¼é€£å°„ é»„
+ãƒ„ãƒ¡ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), ä¹±çª é»„
+ç†±å…‰ç·š(æº–å‚™), ç‚Ž
+ç†±å…‰ç·š(æ”»æ’ƒ), ç‰¹æ®Šå…‰ç·š èµ¤
+ç†±å…‰ç·š(å‘½ä¸­), ç‰¹æ®Šå…‰ç·š èµ¤
+æ ¼é—˜, ãƒ‰ãƒªãƒ«
+ç«ç‚Žæ”¾å°„(æº–å‚™), -
+ç«ç‚Žæ”¾å°„(æº–å‚™), ç«œå·» èµ¤ Fire.wav
+ç«ç‚Žæ”¾å°„(æ”»æ’ƒ), ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² èµ¤;æ—‹é¢¨ èµ¤ Fire.wav
+ç«ç‚Žæ”¾å°„(æ”»æ’ƒ), ç«ç‚Žæ”¾å°„
+ç«ç‚Žæ”¾å°„(å‘½ä¸­), ç«ç‚Žæ”¾å°„
+ç«ç‚Žæ”¾å°„(å‘½ä¸­), ç«œå·» èµ¤ Fire.wav
+é±—ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), -
+é±—ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), ç«œå·» èµ¤ Fire.wav
+é±—ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ãƒ™ã‚¢ãƒªãƒ³ã‚°
+é±—ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), ãƒ™ã‚¢ãƒªãƒ³ã‚°
+ç†±ç«ç«œã®è¡€, æ¶²ä½“å™´å°„
+
+å·¨çƒˆç£ãƒ’ãƒ¥ãƒ‰ãƒ©
+è§¦æ‰‹, è§¦æ‰‹ æ¡ƒ
+åˆºåˆãƒŸã‚µã‚¤ãƒ«(æº–å‚™), æœˆç‰™
+åˆºåˆãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Weapon\EFFECT_Getsuga_thrust01.bmp
+åˆºåˆãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), é€£æ‰“
+æ¿€æ°´, æ´¥æ³¢
+åˆ€, æ—¥æœ¬åˆ€
+
+å·¨çƒˆç£ãƒžãƒ€ãƒ³ã‚¬ãƒ¼
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„
+ãƒ‰ãƒªãƒ«ãƒœã‚¦, ãƒ‰ãƒªãƒ«æ€¥é™ä¸‹
+ãƒžãƒ€ãƒ³ã‚¬ãƒ¼ã‚¢ãƒ­ãƒ¼(æº–å‚™), ã‚¯ãƒ­ã‚¹ãƒœã‚¦
+ãƒžãƒ€ãƒ³ã‚¬ãƒ¼ã‚¢ãƒ­ãƒ¼(æ”»æ’ƒ), ã‚¯ãƒ­ã‚¹ãƒœã‚¦
+ãƒžãƒ€ãƒ³ã‚¬ãƒ¼ã‚¢ãƒ­ãƒ¼(å‘½ä¸­), çŸ¢åˆº;çˆ†ç™º
+
+å·¨çƒˆç£ã‚¬ãƒ³ãƒ‰ã‚¹
+éŽŒ, é€£æ–¬æ’ƒ
+
+#å·¨çƒˆç£ãƒ¦ãƒªã‚«
+
+
+å·¨çƒˆç£ã‚¶ã‚¤ã‚¯ãƒ­ãƒ³
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 2
+ã‚­ãƒ£ã‚¿ãƒ”ãƒ©, è§¦æ‰‹ é»’
+æ ¼é—˜(å‘½ä¸­), ç«‹ã¡å›ºã‚;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² æ¡ƒ
+
+å·¨çƒˆç£ãƒ€ãƒ³ã‚°ã‚¹
+é‹¼ç³¸(æº–å‚™), -
+é‹¼ç³¸(æ”»æ’ƒ), ãƒ“ãƒ¼ãƒ ã‚·ãƒ§ãƒƒãƒˆã‚­ãƒ£ãƒŽãƒ³ ç™½
+é‹¼ç³¸(å‘½ä¸­), ãƒ“ãƒ¼ãƒ ã‚·ãƒ§ãƒƒãƒˆã‚­ãƒ£ãƒŽãƒ³ ç™½
+é‹¼ç³¸(å‘½ä¸­), ãƒ“ãƒ¼ãƒ ã‚·ãƒ§ãƒƒãƒˆã‚­ãƒ£ãƒŽãƒ³ ç™½;æ”¾é›»
+é€Ÿå°„ç ², é‡æ©Ÿé–¢ç ²
+çˆ†æ’ƒæ©Ÿ, æŠ•æ“²æ­¦å™¨ Bullet\EFFECT_ShootingCutter(White)01.bmp
+ã‚¢ã‚¤ã‚¢ãƒ³ãƒœãƒ¼ãƒ«(æº–å‚™), éŽ–é‰„çƒ
+ã‚¢ã‚¤ã‚¢ãƒ³ãƒœãƒ¼ãƒ«(æ”»æ’ƒ), éŽ–é‰„çƒ
+ã‚¢ã‚¤ã‚¢ãƒ³ãƒœãƒ¼ãƒ«(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Weapon\EFFECT_MorningStar02.bmp
+ã‚¢ã‚¤ã‚¢ãƒ³ãƒœãƒ¼ãƒ«(å‘½ä¸­), å¼·æ‰“
+é›»æ’ƒ, ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  æ¡ƒ
+é‰¤çˆª, ç”²æ®»é‹ é»’
+ä¸»ç ², ã‚­ãƒ£ãƒŽãƒ³ç ²
+é­šé›·, ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒŸã‚µã‚¤ãƒ« 2
+
+å·¨çƒˆç£ãƒã‚¸ãƒ£ãƒ¼
+ãƒã‚§ãƒ¼ãƒ³ãƒ˜ãƒƒãƒ‰(æº–å‚™), -
+ãƒã‚§ãƒ¼ãƒ³ãƒ˜ãƒƒãƒ‰(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Weapon\EFFECT_Drill01.bmp æœ‰ç·š
+ãƒã‚§ãƒ¼ãƒ³ãƒ˜ãƒƒãƒ‰(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸
+
+å·¨çƒˆç£ã‚®ã‚¬ãƒ¼ãƒ«
+åˆ†èº«, åˆ†èº«
+ãƒ‹ãƒ¼ãƒ‰ãƒ«, ãƒ‹ãƒ¼ãƒ‰ãƒ«é€£å°„
+çˆª(æº–å‚™), çˆª é»„ äºŒåˆ€æµ
+çˆª(æ”»æ’ƒ), ç™½å…µé€£æ’ƒ é»„
+çˆª(å‘½ä¸­), é€£æ‰“ é»„;ç«‹ã¡å›ºã‚
+å°»å°¾, æ®´æ‰“æ­¦å™¨ Weapon\EFFECT_SpinHummer01.bmp
+
+å·¨çƒˆç£ã‚¬ãƒ³ã‚¿ãƒ¬ã‚¹
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„
+æ§, ãƒˆãƒ©ã‚¤ãƒ‡ãƒ³ãƒˆ
+
+å·¨çƒˆç£ã‚¸ã‚§ãƒƒãƒˆã‚¯ãƒ­ã‚¹
+é˜»æ­¢(ãƒ—ãƒ©ã‚¹ãƒãƒƒã‚¯çˆ†å¼¾), å…‰çƒæ”¾å‡º èµ¤
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 2
+ãƒ—ãƒ©ã‚¹ãƒãƒƒã‚¯çˆ†å¼¾(æº–å‚™), -
+ãƒ—ãƒ©ã‚¹ãƒãƒƒã‚¯çˆ†å¼¾(æ”»æ’ƒ), å…‰çƒæ”¾å‡º èµ¤
+ãƒ—ãƒ©ã‚¹ãƒãƒƒã‚¯çˆ†å¼¾(å‘½ä¸­), é€£ç¶šçˆ†ç™º
+æ ¼é—˜, æ ¼é—˜
+åˆ‡ã‚Šæ‰•ã„(å¤§å›žè»¢), é€æ˜ŽåŒ–;ä¸­å¿ƒå›žè»¢æ­¦å™¨é˜²å¾¡ ("Unit\" & Info("ãƒ¦ãƒ‹ãƒƒãƒˆãƒ‡ãƒ¼ã‚¿",å·¨çƒˆç£ã‚¸ã‚§ãƒƒãƒˆã‚¯ãƒ­ã‚¹,"ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯"))
+å¤§å›žè»¢ãƒãƒƒã‚¯ãƒ–ãƒªãƒ¼ã‚«ãƒ¼(æº–å‚™), -
+å¤§å›žè»¢ãƒãƒƒã‚¯ãƒ–ãƒªãƒ¼ã‚«ãƒ¼(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ«
+å¤§å›žè»¢ãƒãƒƒã‚¯ãƒ–ãƒªãƒ¼ã‚«ãƒ¼(å‘½ä¸­), ãƒ–ãƒ¬ãƒ¼ãƒ³ãƒã‚¹ã‚¿ãƒ¼;ãƒ–ãƒ¬ãƒ¼ãƒ³ãƒã‚¹ã‚¿ãƒ¼;ãƒ–ãƒ¬ãƒ¼ãƒ³ãƒã‚¹ã‚¿ãƒ¼
+
+å·¨çƒˆç£ã‚¬ãƒ³ãƒ€ãƒ¼ãƒ©
+åˆ†èº«(åˆ†é›¢), ä¸Šä¸‹åˆ†é›¢å›žé¿
+æ ¼é—˜, è¸ã¿æ½°ã—
+åˆ†é›¢æ”»æ’ƒ(æº–å‚™), -
+åˆ†é›¢æ”»æ’ƒ(æ”»æ’ƒ), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ«ä¹±èˆž èµ¤
+åˆ†é›¢æ”»æ’ƒ(å‘½ä¸­), ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ«ä¹±èˆž èµ¤;ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² èµ¤
+
+åˆä½“å·¨çƒˆç£ã‚¬ãƒ¼ãƒ‰ãƒ³
+ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡(ã‚½ãƒ¼ã‚µãƒ¼), ã‚·ãƒ¼ãƒ«ãƒ‰é˜²å¾¡ Shield\EFFECT_ThrowingShield(White)01.bmp
+é€Ÿå°„ç ², é‡æ©Ÿé–¢ç ²
+ç«ç‚Žæ”¾å°„, è¶…ç«ç‚Žæ”¾å°„
+ã‚½ãƒ¼ã‚µãƒ¼, å›žè»¢æŠ•æ“²æ­¦å™¨ Shield\EFFECT_ThrowingShield(White)01.bmp
+ã‚½ãƒ¼ã‚µãƒ¼ãƒ¬ã‚¤(æº–å‚™), æŠ•æ“²æ­¦å™¨ Shield\EFFECT_ThrowingShield(White)01.bmp
+ã‚½ãƒ¼ã‚µãƒ¼ãƒ¬ã‚¤(æ”»æ’ƒ), å›žè»¢æŠ•æ“²æ­¦å™¨ Shield\EFFECT_ThrowingShield(White)01.bmp
+ã‚½ãƒ¼ã‚µãƒ¼ãƒ¬ã‚¤(å‘½ä¸­), ç‰¹æ®Šå…‰ç·š ç·‘ ãƒ©ãƒ³ãƒ€ãƒ æ–¹å‘
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 1
+é’é¾åˆ€, é’é¾åˆ€
+éŽ–é‰„çƒ, éŽ–é‰„çƒ
+
+åˆä½“å·¨çƒˆç£ã‚µãƒ³ãƒ‰ã‚­ãƒ©ãƒ¼
+é˜»æ­¢(çªé¢¨), ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² é’;å¼·é¢¨
+ç²˜ç€ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), -
+ç²˜ç€ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ã‚­ãƒ£ãƒŽãƒ³ç ²
+ç²˜ç€ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), æ¶²ä½“å™´å°„ æ¡ƒ
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 4
+ç ‚åµ(æº–å‚™), -
+ç ‚åµ(æ”»æ’ƒ), ãƒ¦ãƒ‹ãƒƒãƒˆå¤‰è‰² é’;æ—‹é¢¨ æ©™
+ç ‚åµ(å‘½ä¸­), æ—‹é¢¨ æ©™
+
+å·¨çƒˆç£ã‚µãƒ³ãƒ€ãƒ¼ã‚¹
+ç ‚å¡µ, å…‰çƒæ”¾å‡º æ©™
+
+å·¨çƒˆç£ã‚¹ãƒˆãƒ¼ãƒ ã‚­ãƒ©ãƒ¼
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 4
+çªé¢¨, å¼·é¢¨
+
+åˆä½“å·¨çƒˆç£ã‚·ãƒ£ãƒ¼ã‚´ãƒ³
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„
+å™›ã¿ä»˜ã(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ«
+å™›ã¿ä»˜ã(å‘½ä¸­), å™›ã¿ä»˜ã Drill.wav
+å™›ã¿ä»˜ã(ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_æ¶²ä½“å™´å°„å‘½ä¸­ ç·‘
+ãƒŸã‚µã‚¤ãƒ«, å°åž‹ãƒŸã‚µã‚¤ãƒ« 2
+æ ¼é—˜(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ«
+æ ¼é—˜(å‘½ä¸­), çˆªæ’ƒ Drill.wav é»„
+
+åˆä½“å·¨çƒˆç£ã‚­ãƒã‚¬ãƒ¼ãƒ€
+è¶…ä½Žæ¸©è’¸ç™ºãƒŸã‚µã‚¤ãƒ«(æº–å‚™), -
+è¶…ä½Žæ¸©è’¸ç™ºãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ç«ç‚Žæ”¾å°„;ï¼©ï¼£ï¼¢ï¼­ 2
+è¶…ä½Žæ¸©è’¸ç™ºãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), ãƒ•ãƒ©ãƒƒã‚·ãƒ¥ å¤§æ°·æŸ±
+ãƒ˜ã‚¢ãƒ¼ãƒ‹ãƒ¼ãƒ‰ãƒ«(æ”»æ’ƒ), æ‰“ã¡ä¸‹ã‚ã—å®Ÿå¼¾ä¹±å°„ Bullet\EFFECT_Bullet(White)02.bmp
+ãƒ˜ã‚¢ãƒ¼ãƒ‹ãƒ¼ãƒ‰ãƒ«(å‘½ä¸­), ä¹±çª
+é¬˜, æ¶²ä½“å™´å°„ æ°´è‰²
+å¹é›ª, å¹é›ª
+æ§, é’é¾åƒæœˆåˆ€
+å†·å‡å…‰ç·š, ï¼’é€£å°ãƒ“ãƒ¼ãƒ  ç™½
+ãƒŸã‚µã‚¤ãƒ«, ã‚°ãƒ¬ãƒãƒ¼ãƒ‰ 10
+ç‰™(æº–å‚™), -
+ç‰™(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ«
+ç‰™(å‘½ä¸­), åˆºçª é»„
+ãƒ“ãƒƒã‚°ãƒŸã‚µã‚¤ãƒ«, ã‚¹ãƒ¼ãƒ‘ãƒ¼ãƒŸã‚µã‚¤ãƒ« 2
+è¶…é«˜ç†±ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„
+
+åˆä½“å·¨çƒˆç£ã‚®ãƒ«ãƒ¢ãƒ©ãƒ¼
+è¶…é›»åœ§, ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¬ãƒ³ Weapon\EFFECT_SeiryuTou01.bmp
+åæ–‡å­—æ‰‹è£å‰£(æº–å‚™), å›žè»¢æŠ•æ“²æ­¦å™¨ Weapon\EFFECT_JuujiShuriken01.bmp äºŒåˆ€æµ ç™ºå…‰
+åæ–‡å­—æ‰‹è£å‰£(æ”»æ’ƒ), å›žè»¢æŠ•æ“²æ­¦å™¨ Weapon\EFFECT_JuujiShuriken01.bmp;å›žè»¢æŠ•æ“²æ­¦å™¨ Weapon\EFFECT_JuujiShuriken01.bmp ç™ºå…‰
+åæ–‡å­—æ‰‹è£å‰£(å‘½ä¸­), é€£çª
+åˆ€, é’é¾åˆ€
+ä½“å½“ãŸã‚Š, ã‚¿ãƒƒã‚¯ãƒ«
+è¶…é›»åœ§æ‚ªé­”æŒŸã¿(æº–å‚™), -
+è¶…é›»åœ§æ‚ªé­”æŒŸã¿(æ”»æ’ƒ), åˆ†èº«æ‰“æ’ƒ
+è¶…é›»åœ§æ‚ªé­”æŒŸã¿(å‘½ä¸­), åˆ†èº«æ‰“æ’ƒ;å¤§æ”¾é›» æ¡ƒ
+
+åˆä½“å·¨çƒˆç£ã‚¬ãƒ“ãƒ­ãƒ¼ãƒ³
+ãƒ„ãƒ¡ãƒŸã‚µã‚¤ãƒ«, å°åž‹ãƒŸã‚µã‚¤ãƒ« 5
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 3
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„
+ãƒ„ãƒŽãƒŸã‚µã‚¤ãƒ«(æº–å‚™), çªãæ­¦å™¨ BodyParts\EFFECT_Pincers(White)01.bmp
+ãƒ„ãƒŽãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ BodyParts\EFFECT_Pincers(White)01.bmp
+ãƒ„ãƒŽãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), åˆºçª;ç‚Ž
+ãƒãƒ¼ã‚±ãƒ³(æº–å‚™), æ–¬æ’ƒæ­¦å™¨ Weapon\EFFECT_ArcBlade02.bmp
+ãƒãƒ¼ã‚±ãƒ³(æ”»æ’ƒ), æŒ¯ã‚Šå›žã— Weapon\EFFECT_ArcBlade02.bmp
+ãƒãƒ¼ã‚±ãƒ³(å‘½ä¸­), æ–¬æ’ƒ
+ã‚¦ã‚¤ãƒ³ã‚°ã‚«ãƒƒã‚¿ãƒ¼, ã‚·ãƒ¥ãƒ¼ãƒˆã‚«ãƒƒã‚¿ãƒ¼ ç´«
+ä½“å½“ãŸã‚Š, ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¿ãƒƒã‚¯ãƒ« é»’
+ã‚¬ãƒ“ãƒ­ãƒ¼ãƒ³ç ², ãƒã‚ºãƒ¼ã‚«
+
+å·¨çƒˆç£ã‚¹ãƒ¬ã‚¤ãƒ‰
+ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 5
+å™›ã¿ä»˜ã(æº–å‚™), -
+å™›ã¿ä»˜ã(æ”»æ’ƒ), è§¦æ‰‹ æ©™
+å™›ã¿ä»˜ã(å‘½ä¸­), å™›ã¿ä»˜ã
+ä½“å½“ãŸã‚Š, ã‚¿ãƒƒã‚¯ãƒ«
+
+å·¨çƒˆç£ã‚´ãƒ¼ã‚¹ã‚¿ãƒ³
+ãƒˆãƒ©ãƒƒãƒ—ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), -
+ãƒˆãƒ©ãƒƒãƒ—ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ãƒŸã‚µã‚¤ãƒ« 6
+ãƒˆãƒ©ãƒƒãƒ—ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), ã‚ªãƒ¼ãƒ«ãƒ¬ãƒ³ã‚¸;æ”¾é›»
+ãƒã‚§ãƒ¼ãƒ³ã‚½ãƒ¼(æº–å‚™), ä¸­å¿ƒå›žè»¢æ­¦å™¨ Bullet\EFFECT_BeamRingCutter(White)01.bmp Drill.wav
+ãƒã‚§ãƒ¼ãƒ³ã‚½ãƒ¼(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Bullet\EFFECT_BeamRingCutter(White)01.bmp Drill.wav Drill.wav æœ‰ç·š
+ãƒã‚§ãƒ¼ãƒ³ã‚½ãƒ¼(å‘½ä¸­), å¤§æ–¬æ’ƒ Drill.wav ç™½
+æ¿€æ€’å…‰ç·š, ï¼’é€£ä¸­ãƒ“ãƒ¼ãƒ  é»„
+
+å·¨çƒˆç£ãƒã‚¤ãƒ‡ãƒ³
+é›»æµ, é›»æ’ƒ
+å††ç›¤(æº–å‚™), ä¸­å¿ƒå›žè»¢æ­¦å™¨ Bullet\EFFECT_BeamRingCutter(Purple)01.bmp Drill.wav
+å††ç›¤(æ”»æ’ƒ), å®Ÿå¼¾ç™ºå°„ Bullet\EFFECT_BeamRingCutter(Purple)01.bmp Drill.wav Drill.wav æœ‰ç·š
+å††ç›¤(å‘½ä¸­), å¤§æ–¬æ’ƒ Drill.wav ç´«
+éž­, éž­
+
+å·¨çƒˆç£ã‚¹ãƒãƒ¼ã‚«ãƒ¼
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„
+ç· ã‚ä»˜ã‘(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ«
+ç· ã‚ä»˜ã‘(å‘½ä¸­), ç«‹ã¡å›ºã‚
+
+å·¨çƒˆç£ãƒ¢ãƒ³ã‚®ãƒ¼
+ãƒ‹ãƒ¼ãƒ‰ãƒ«(æº–å‚™), -
+ãƒ‹ãƒ¼ãƒ‰ãƒ«(æ”»æ’ƒ), å¤šè§¦æ‰‹ ç™½
+ãƒ‹ãƒ¼ãƒ‰ãƒ«(å‘½ä¸­), ä¹±çª Drill.wav
+ãƒ‹ãƒ¼ãƒ‰ãƒ«ãƒŸã‚µã‚¤ãƒ«(æº–å‚™), -
+ãƒ‹ãƒ¼ãƒ‰ãƒ«ãƒŸã‚µã‚¤ãƒ«(æ”»æ’ƒ), ãƒ‹ãƒ¼ãƒ‰ãƒ«é€£å°„
+ãƒ‹ãƒ¼ãƒ‰ãƒ«ãƒŸã‚µã‚¤ãƒ«(å‘½ä¸­), é€£ç¶šçˆ†ç™º
+ãƒ‰ãƒªãƒ«ãƒ™ã‚¢ãƒãƒƒã‚°(æº–å‚™), -
+ãƒ‰ãƒªãƒ«ãƒ™ã‚¢ãƒãƒƒã‚°(æ”»æ’ƒ), è¸ã¿æ½°ã—
+ãƒ‰ãƒªãƒ«ãƒ™ã‚¢ãƒãƒƒã‚°(å‘½ä¸­), è¸ã¿æ½°ã—;ç«‹ã¡å›ºã‚ Drill.wav
+
+å·¨çƒˆç£ãƒãƒ³ã‚¬ãƒ¼
+ãƒãƒ³ã‚¬ãƒ¼ãƒŸã‚µã‚¤ãƒ«, ãƒŸã‚µã‚¤ãƒ« 4
+ã‚¹ãƒãƒ¼ã‚¯ã‚­ãƒ£ã‚¿ãƒ”ãƒ©(æº–å‚™), -
+ã‚¹ãƒãƒ¼ã‚¯ã‚­ãƒ£ã‚¿ãƒ”ãƒ©(æ”»æ’ƒ), ç‰¹æ®Šå…‰ç·š é»’
+ã‚¹ãƒãƒ¼ã‚¯ã‚­ãƒ£ã‚¿ãƒ”ãƒ©(å‘½ä¸­), ç«œå·» é»’
+è±ªé›·ãƒ‰ãƒªãƒ«, å¤šè§¦æ‰‹ é»’ Drill.wav
+è±ªé›·ã‚µãƒ¼ãƒ™ãƒ«, ã‚µãƒ¼ãƒ™ãƒ«
+
+å¦–é­”å·¨çƒˆç£ãƒãƒ©ã‚´ãƒ¼ãƒ³
+ãƒ‹ãƒ¼ãƒ‰ãƒ«ãƒŸã‚µã‚¤ãƒ«, ãƒ‹ãƒ¼ãƒ‰ãƒ«é€£å°„
+ç«ç‚Žæ”¾å°„, ç«ç‚Žæ”¾å°„
+ã‚µãƒ¼ãƒ™ãƒ«ï¼†ãƒ©ãƒ³ã‚µãƒ¼(æº–å‚™), å·¦å³åˆ¥æ­¦å™¨ Weapon\EFFECT_Flamberge01.bmp 32 - Weapon\EFFECT_Houtengeki01.bmp 32
+ã‚µãƒ¼ãƒ™ãƒ«ï¼†ãƒ©ãƒ³ã‚µãƒ¼(æ”»æ’ƒ), å¤§æ–¬æ’ƒ
+ã‚µãƒ¼ãƒ™ãƒ«ï¼†ãƒ©ãƒ³ã‚µãƒ¼(å‘½ä¸­), å¤§æ–¬æ’ƒ
+è¶…ç ´æ»…å…‰ç·š, ï¼’é€£ä¸­ãƒ“ãƒ¼ãƒ  é»„
+ä½“å½“ãŸã‚Š(æ”»æ’ƒ), ã‚¿ãƒƒã‚¯ãƒ«
+ä½“å½“ãŸã‚Š(å‘½ä¸­), å™›ã¿ä»˜ã;@æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ä¸­ãƒ“ãƒ¼ãƒ æ”»æ’ƒ é’;ä¸­ãƒ“ãƒ¼ãƒ  é’
+ä½“å½“ãŸã‚Š(å‘½ä¸­), å¼·æ‰“
+ãƒãƒ©ã‚ªã®é«ª(æº–å‚™), -
+ãƒãƒ©ã‚ªã®é«ª(æ”»æ’ƒ), å¤šè§¦æ‰‹ ç™½
+ãƒãƒ©ã‚ªã®é«ª(æ”»æ’ƒ), @æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_çªãæ­¦å™¨è»¢é€æº–å‚™ Weapon\EFFECT_Sasumata01.bmp;å®Ÿå¼¾ç™ºå°„ Weapon\EFFECT_Sasumata01.bmp
+ãƒãƒ©ã‚ªã®é«ª(å‘½ä¸­), ãƒ€ãƒ¡ãƒ¼ã‚¸
+
+å¦–é­”å¤§å¸ãƒãƒ©ã‚ª
+å¤§ç«œå·», ç«œå·»
+å¤§ç«çƒ, ç«ç‚Žæ”¾å°„
+é»’ã„ç¨²å¦», å¤§ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  é»’
+ãƒãƒ©ã‚ªãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³, å›žè»¢æŠ•æ“²æ­¦å™¨ Weapon\EFFECT_Femur01.bmp
+å¦–é­”æ­»å¼“(æº–å‚™), å°„æ’ƒæ­¦å™¨è»¢é€ Weapon\EFFECT_Bow00.bmp
+å¦–é­”æ­»å¼“(æ”»æ’ƒ), å¼“çŸ¢
+å¦–é­”æ­»å¼“(å‘½ä¸­), çŸ¢åˆº
+å¦–é­”å…‰ç·š(æº–å‚™), å¤§æ”¾é›» ç´«
+å¦–é­”å…‰ç·š(æ”»æ’ƒ), å¿…æ®ºå…‰ç·š ç´«
+å¦–é­”å…‰ç·š(å‘½ä¸­), å¿…æ®ºå…‰ç·š ç´«
+å¦–é­”æ­»éŽŒ, å·¨å¤§éŽŒ
+å¦–é­”æ»…æ®ºåŒ–çŸ³çƒ(æº–å‚™), å…‰å™´å‡º èµ¤
+å¦–é­”æ»…æ®ºåŒ–çŸ³çƒ(æ”»æ’ƒ), å…‰çƒ èµ¤;ï¼’é€£ä¸­ãƒ“ãƒ¼ãƒ  èµ¤
+å¦–é­”æ»…æ®ºåŒ–çŸ³çƒ(å‘½ä¸­), å…‰çƒ èµ¤;ï¼’é€£ä¸­ãƒ“ãƒ¼ãƒ  èµ¤
+åˆ†èº«(å¦–é­”è¡“), 
+ãƒãƒ©ã‚ªã®å‘ªè©›(æº–å‚™), å…‰å™´å‡º é»„
+ãƒãƒ©ã‚ªã®å‘ªè©›(æ”»æ’ƒ), ï¼’é€£ã‚·ãƒ§ãƒƒã‚¯ãƒ“ãƒ¼ãƒ  é»„
+ãƒãƒ©ã‚ªã®å‘ªè©›(å‘½ä¸­), é‡åŠ›åœ§ç¸®
+è§¦æ‰‹, å¤šè§¦æ‰‹ æ¡ƒ
+å¦–é­”å¤§å‰£(æº–å‚™), æŒ¯ã‚‹æ­¦å™¨è»¢é€ Weapon\EFFECT_GreatSword01.bmp äºŒåˆ€æµ
+å¦–é­”å¤§å‰£(æ”»æ’ƒ), ç™½å…µé€£æ’ƒ
+å¦–é­”å¤§å‰£(å‘½ä¸­), å¤§æ”¾é›»
+å¦–é­”æ­»æ®ºå·¨çƒˆçƒ(æº–å‚™), å…‰å™´å‡º èµ¤
+å¦–é­”æ­»æ®ºå·¨çƒˆçƒ(æ”»æ’ƒ), å…‰çƒ èµ¤;ï¼’é€£ä¸­ãƒ“ãƒ¼ãƒ  èµ¤
+å¦–é­”æ­»æ®ºå·¨çƒˆçƒ(å‘½ä¸­), å…‰çƒ èµ¤;ï¼’é€£ä¸­ãƒ“ãƒ¼ãƒ  èµ¤

@@ -1,7 +1,7 @@
-## •sv‹c‹ó‚Å‹‘å‰»‚·‚é•sv‹cb‚ÌƒAƒjƒB
-## ~‰ºƒAƒbƒv‚Ì‰ü•ÏB
+## ä¸æ€è­°æ™‚ç©ºã§å·¨å¤§åŒ–ã™ã‚‹ä¸æ€è­°ç£ã®ã‚¢ãƒ‹ãƒ¡ã€‚
+## é™ä¸‹ã‚¢ãƒƒãƒ—ã®æ”¹å¤‰ã€‚
 
-í“¬ƒAƒjƒ_•sv‹cb‘Sg‹‘å‰»UŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ä¸æ€è­°ç£å…¨èº«å·¨å¤§åŒ–æ”»æ’ƒ:
 Local i
 Local BMP_FILE
 
@@ -10,13 +10,13 @@ Set G_S _GetName(192,_GetNumberFromArgs())
 Set N_Y (48 - G_S)
 Set Y_F (((192 - (G_S \ 2)) - N_Y) \ 6)
 
-Center x(‘Šèƒ†ƒjƒbƒg‚h‚c) (y(‘Šèƒ†ƒjƒbƒg‚h‚c) - 3)
+Center x(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) (y(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤) - 3)
 wait 4
 PlaySound Roar.wav
 
 Wait Start
 For i = 1 To 7
-  PaintPicture BMP_FILE - N_Y 192 192 “§‰ß
+  PaintPicture BMP_FILE - N_Y 192 192 é€é
   Refresh
   Wait Until (0.8 * i)
   If ((A_F != 1) And (i < 7) And (S_FLG != 1)) Then
@@ -32,23 +32,23 @@ Next
 
 ClearPicture
 
-PaintPicture BMP_FILE (240 - (192 \ 2)) (192 - (192 \ 2)) 192 192 “§‰ß •Û
+PaintPicture BMP_FILE (240 - (192 \ 2)) (192 - (192 \ 2)) 192 192 é€é ä¿æŒ
 Refresh
 
 Return
 
 
 
-## ¢Š«‚ÅA‘Šèƒ†ƒjƒbƒg‚Ì‰æ‘œ‚ğŒÄ‚Ño‚·‚½‚ß‚Ìƒ‰ƒxƒ‹B
-## •sv‹cbƒRƒ“ƒRƒ“‚Ìƒ†ƒƒRƒ“UŒ‚—pB
+## å¬å–šã§ã€ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆã®ç”»åƒã‚’å‘¼ã³å‡ºã™ãŸã‚ã®ãƒ©ãƒ™ãƒ«ã€‚
+## ä¸æ€è­°ç£ã‚³ãƒ³ã‚³ãƒ³ã®ãƒ¦ãƒ¡ã‚³ãƒ³æ”»æ’ƒç”¨ã€‚
 
-í“¬ƒAƒjƒ_ƒ†ƒƒRƒ“¢Š«€”õ:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ãƒ¦ãƒ¡ã‚³ãƒ³å¬å–šæº–å‚™:
 
-Local UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+Local UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 _CenteringCheck UID
 
 Local i
-Local BMP_FILE = Info(‘Šèƒ†ƒjƒbƒg‚h‚c,ƒOƒ‰ƒtƒBƒbƒN)
+Local BMP_FILE = Info(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯)
 Local UNIT_FILE = _GetBMPName(UID)
 Local G_S = _GetPicSizeFromArgs()
 Local C_X = (_Get_WX(UID) + 16 - (G_S \ 2))
@@ -59,10 +59,10 @@ Local X_F
 Local T_COL1 = _ColorTime(1)
 
 
-If (_Get_X(UID) > _Get_X(‘Šèƒ†ƒjƒbƒg‚h‚c)) Then
+If (_Get_X(UID) > _Get_X(ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤)) Then
   Set DRCT ""
 Else
-  Set DRCT "¶‰E”½“]"
+  Set DRCT "å·¦å³åè»¢"
 EndIf
 Wait Start
 _SelectSound "-.wav" _GetWavFromArgs()
@@ -73,29 +73,29 @@ For i = 1 To 12
   Switch i
   Case 1
     PaintPicture BMP_FILE (C_X - G_S) (C_Y + (G_S * 0.666)) (G_S * 3) (G_S \ 3) _
-                 “§‰ß DRCT ˆÃ ˆÃ ˆÃ ˆÃ ˆÃ T_COL1
+                 é€é DRCT æš— æš— æš— æš— æš— T_COL1
   Case 2
     PaintPicture BMP_FILE (C_X - (G_S \ 2)) (C_Y + (G_S \ 2)) (G_S * 2) (G_S \ 2) _
-                 “§‰ß DRCT ˆÃ ˆÃ ˆÃ ˆÃ T_COL1
+                 é€é DRCT æš— æš— æš— æš— T_COL1
   Case 3
     PaintPicture BMP_FILE (C_X - (G_S \ 4)) (C_Y + (G_S * 0.33)) (G_S * 1.5) (G_S \ 1.5) _
-                 “§‰ß DRCT ˆÃ ˆÃ ˆÃ T_COL1
+                 é€é DRCT æš— æš— æš— T_COL1
   Case 4
-    PaintPicture BMP_FILE C_X C_Y G_S G_S “§‰ß DRCT ˆÃ ˆÃ T_COL1
+    PaintPicture BMP_FILE C_X C_Y G_S G_S é€é DRCT æš— æš— T_COL1
   Case 5
-    PaintPicture BMP_FILE C_X C_Y G_S G_S “§‰ß DRCT ˆÃ T_COL1
+    PaintPicture BMP_FILE C_X C_Y G_S G_S é€é DRCT æš— T_COL1
   Case 6
-    PaintPicture BMP_FILE C_X C_Y G_S G_S “§‰ß DRCT –¾ T_COL1
+    PaintPicture BMP_FILE C_X C_Y G_S G_S é€é DRCT æ˜ T_COL1
   Case 7
-    PaintPicture BMP_FILE C_X C_Y G_S G_S “§‰ß DRCT –¾ –¾ –¾ T_COL1
+    PaintPicture BMP_FILE C_X C_Y G_S G_S é€é DRCT æ˜ æ˜ æ˜ T_COL1
   Case 8 9
-    PaintPicture BMP_FILE C_X C_Y G_S G_S “§‰ß DRCT –¾ –¾ –¾ –¾ –¾ T_COL1
+    PaintPicture BMP_FILE C_X C_Y G_S G_S é€é DRCT æ˜ æ˜ æ˜ æ˜ æ˜ T_COL1
   Case 10
-    PaintPicture BMP_FILE C_X C_Y G_S G_S “§‰ß DRCT –¾ –¾ –¾ T_COL1
+    PaintPicture BMP_FILE C_X C_Y G_S G_S é€é DRCT æ˜ æ˜ æ˜ T_COL1
   Case 11
-    PaintPicture BMP_FILE C_X C_Y G_S G_S “§‰ß DRCT –¾ T_COL1
+    PaintPicture BMP_FILE C_X C_Y G_S G_S é€é DRCT æ˜ T_COL1
   Case 12
-    PaintPicture BMP_FILE C_X C_Y G_S G_S “§‰ß DRCT T_COL1
+    PaintPicture BMP_FILE C_X C_Y G_S G_S é€é DRCT T_COL1
   EndSw
   Refresh
   Wait Until (i * 0.5)

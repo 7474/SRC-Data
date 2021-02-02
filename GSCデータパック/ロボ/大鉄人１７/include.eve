@@ -1,23 +1,23 @@
-# ƒƒ“ƒZƒuƒ“EƒŒƒbƒhƒ}ƒtƒ‰[‘à ###################################################
+# ãƒ¯ãƒ³ã‚»ãƒ–ãƒ³ãƒ»ãƒ¬ãƒƒãƒ‰ãƒãƒ•ãƒ©ãƒ¼éšŠ ###################################################
 
-í“¬ƒAƒjƒ_ƒOƒ‰ƒrƒgƒ“(ƒƒ“ƒZƒuƒ“)‚Æ‚Ç‚ß:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_ã‚°ãƒ©ãƒ“ãƒˆãƒ³(ãƒ¯ãƒ³ã‚»ãƒ–ãƒ³)ã¨ã©ã‚:
 
 	Local i
 
-	Center ‘Šèƒ†ƒjƒbƒg‚h‚c
+	Center ç›¸æ‰‹ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤
 
 	For j = 1 To 2
 		_SelectSound "Explode(Far).wav" _GetWavFromArgs()
 		Wait Start
 		For i = 1 To 2
-			_PaintCutinL ("Explode\EFFECT_BigExplode0" & i & ".bmp") ”½“]‚È‚µ
+			_PaintCutinL ("Explode\EFFECT_BigExplode0" & i & ".bmp") åè»¢ãªã—
 			Wait Until (i * 0.7)
 		Next
 		Wait 3
 
 		Wait Start
 		For i = 1 To 1
-			_PaintCutinL ("Explode\EFFECT_BigExplode0" & i & ".bmp") ”½“]‚È‚µ
+			_PaintCutinL ("Explode\EFFECT_BigExplode0" & i & ".bmp") åè»¢ãªã—
 			Wait Until (i * 0.7)
 		Next
 		ClearPicture
@@ -28,13 +28,13 @@
 	_SelectSound "Explode(Far).wav" _GetWavFromArgs()
 	Wait Start
 	For i = 1 To 6
-		_PaintCutinL ("Explode\EFFECT_BigExplode0" & i & ".bmp") ”½“]‚È‚µ
+		_PaintCutinL ("Explode\EFFECT_BigExplode0" & i & ".bmp") åè»¢ãªã—
 		Wait Until (i * 0.7)
 	Next
 
-	_PaintCutin_SL "Explode\EFFECT_BigExplode06.bmp" ”½“]‚È‚µ 120 64
+	_PaintCutin_SL "Explode\EFFECT_BigExplode06.bmp" åè»¢ãªã— 120 64
 	Wait Until 4.8
-	_PaintCutin_SL "Explode\EFFECT_BigExplode06.bmp" ”½“]‚È‚µ 160 48
+	_PaintCutin_SL "Explode\EFFECT_BigExplode06.bmp" åè»¢ãªã— 160 48
 	Wait Until 5.4
 
 	ClearPicture
@@ -43,41 +43,41 @@ Return
 
 
 #-----------------------------------------------------------#
-#   g—p•û–@                                                #
-#   Call ƒƒ“ƒZƒuƒ“_ƒOƒ‰ƒrƒgƒ“UŒ‚ ƒƒbƒZ[ƒW ‚wÀ•W ‚xÀ•W #
+#   ä½¿ç”¨æ–¹æ³•                                                #
+#   Call ãƒ¯ãƒ³ã‚»ãƒ–ãƒ³_ã‚°ãƒ©ãƒ“ãƒˆãƒ³æ”»æ’ƒ ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ ï¼¸åº§æ¨™ ï¼¹åº§æ¨™ #
 #-----------------------------------------------------------#
-ƒƒ“ƒZƒuƒ“_ƒOƒ‰ƒrƒgƒ“UŒ‚:
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“01) Args(2) Args(3)
+ãƒ¯ãƒ³ã‚»ãƒ–ãƒ³_ã‚°ãƒ©ãƒ“ãƒˆãƒ³æ”»æ’ƒ:
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³01) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“02) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³02) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“03) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³03) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“04) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³04) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“05) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³05) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“06) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³06) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“07) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³07) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“08) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³08) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“09) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³09) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“10) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³10) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“11) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³11) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“12) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³12) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“13) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³13) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“14) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³14) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“10) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³10) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(ƒOƒ‰ƒrƒgƒ“09) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(ã‚°ãƒ©ãƒ“ãƒˆãƒ³09) Args(2) Args(3)
 	1;$(Args(1))
 	End
 Return
@@ -85,41 +85,41 @@ Return
 
 
 #-----------------------------------------------------------#
-#   g—p•û–@                                                #
-#   Call ƒƒ“ƒZƒuƒ“_‚x‚…‚“ ƒƒbƒZ[ƒW ‚wÀ•W ‚xÀ•W         #
+#   ä½¿ç”¨æ–¹æ³•                                                #
+#   Call ãƒ¯ãƒ³ã‚»ãƒ–ãƒ³_ï¼¹ï½…ï½“ ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ ï¼¸åº§æ¨™ ï¼¹åº§æ¨™         #
 #-----------------------------------------------------------#
-ƒƒ“ƒZƒuƒ“_‚x‚…‚“:
-	AutoTalk ‘å“Sl‚P‚V(Yes01) Args(2) Args(3)
+ãƒ¯ãƒ³ã‚»ãƒ–ãƒ³_ï¼¹ï½…ï½“:
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes01) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes02) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes02) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes03) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes03) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes04) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes04) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes05) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes05) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes06) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes06) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes07) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes07) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes08) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes08) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes09) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes09) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes07) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes07) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes08) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes08) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes09) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes09) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes07) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes07) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes08) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes08) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes09) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes09) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(Yes06) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(Yes06) Args(2) Args(3)
 	1;$(Args(1))
 	End
 Return
@@ -127,47 +127,47 @@ Return
 
 
 #-----------------------------------------------------------#
-#   g—p•û–@                                                #
-#   Call ƒƒ“ƒZƒuƒ“_‚m‚ ƒƒbƒZ[ƒW ‚wÀ•W ‚xÀ•W           #
+#   ä½¿ç”¨æ–¹æ³•                                                #
+#   Call ãƒ¯ãƒ³ã‚»ãƒ–ãƒ³_ï¼®ï½ ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ ï¼¸åº§æ¨™ ï¼¹åº§æ¨™           #
 #-----------------------------------------------------------#
-ƒƒ“ƒZƒuƒ“_‚m‚:
-	AutoTalk ‘å“Sl‚P‚V(No01) Args(2) Args(3)
+ãƒ¯ãƒ³ã‚»ãƒ–ãƒ³_ï¼®ï½:
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No01) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No02) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No02) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No03) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No03) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No04) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No04) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No05) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No05) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No06) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No06) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No07) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No07) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No08) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No08) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No09) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No09) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No10) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No10) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No11) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No11) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No12) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No12) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No10) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No10) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No11) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No11) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No12) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No12) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No10) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No10) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No11) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No11) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No12) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No12) Args(2) Args(3)
 	1;$(Args(1))
-	AutoTalk ‘å“Sl‚P‚V(No09) Args(2) Args(3)
+	AutoTalk å¤§é‰„äººï¼‘ï¼—(No09) Args(2) Args(3)
 	1;$(Args(1))
 	End
 Return

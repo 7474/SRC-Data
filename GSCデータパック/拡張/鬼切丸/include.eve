@@ -1,12 +1,12 @@
 
 
 #_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
-�퓬�A�j��_ONK_�n�ʓ˂��h������:
+戦闘アニメ_ONK_地面突き刺し準備:
 
-Local UID = _GetName(�Ώۃ��j�b�g�h�c,_GetIDFromArgs())
+Local UID = _GetName(対象ユニットＩＤ,_GetIDFromArgs())
 Local ANG = _GetAngle(UID)
-Local C_X = (WX(�Ώۃ��j�b�g�h�c) - 4)
-Local C_Y = (WY(�Ώۃ��j�b�g�h�c) - 4)
+Local C_X = (WX(対象ユニットＩＤ) - 4)
+Local C_Y = (WY(対象ユニットＩＤ) - 4)
 Local B_C = _G_BC_FA()
 
 Playsound Slash(2).wav

@@ -1,31 +1,31 @@
-�t�@���R�������g�o�AMidi�_�E�����[�h�R�[�i�[�ɂāA
-�u�l��Midi�����������\�ł��B
+ファルコム公式ＨＰ、Midiダウンロードコーナーにて、
+ＶＭのMidiが多数試聴可能です。
 (http://www.falcom.co.jp/download/midi/down_vm.html)
 
-Midi���_�E�����[�h��ЂƂ̃t�H���_�ɂ܂Ƃ߁A
-���̃t�H���_�ɁA�uVM�ȉ����c�[��.eve�v�����Ď��s����ƁA
-�Ȃ��r�q�b�p�Ƀ��l�[������܂��B
+Midiをダウンロード後ひとつのフォルダにまとめ、
+そのフォルダに、「VM曲改名ツール.eve」を入れて実行すると、
+曲がＳＲＣ用にリネームされます。
 
 
-�Q�[����Midi�t�H���_�ԍ��F�t�@���R���g�o�z�z�Ȗ��F�r�q�b�w��Ȗ�
+ゲームのMidiフォルダ番号：ファルコムＨＰ配布曲名：ＳＲＣ指定曲名
 
-00�Fvantage		�Fvantage 		�FVANMAS_Vantage.mid
-01�FWorldMap		�F�����Ȃ�ҒB 		�FVANMAS_WorldMap.mid
-02�F�퓬�ɏ�����	�F�e�҂̊M�� 		�FVANMAS_Win.mid
-03�F�퓬�ɕ�����	�F�����Ȋ�]�̓� 	�FVANMAS_Lose.mid
-04�F�G���f�B���O1	�F�ǉ��̖���		�FVANMAS_Ending.mid
-05�F�����ĐV���Ȃ铹��	�F�����ĐV���Ȃ铹��	�FVANMAS_NewStage.mid
-06�F�L�����쐬		�F�����Ȃ� 		�FVANMAS_Charamake.mid
-07�F���n/�r�W���A��	�F(�Ȃ�)		�FVANMAS_Visual.mid
-08�Ftitle		�F�J蓂̎� 		�FVANMAS_Title.mid
-10�F�َ���		�F�����̋��Ԃ� 		�FVANMAS_AnotherDimension.mid
-11�F���n		�F�u�������グ�� 	�FVANMAS_Highlands.mid
-12�F�ጴ		�F�Â��Ȃ鏃��		�FVANMAS_Snowfield.mid
-13�F��A		�F�ǓƂƂ̐킢 		�FVANMAS_Cave.mid
-14�F�X			�F�A�����߂��̌Q�� 	�FVANMAS_Forest.mid
-15�F�ߓ���		�F�n�̒�̍s�R 		�FVANMAS_limestoneCave.mid
-16�F�C��s�s		�F���ɂ����̐_�̓s 	�FVANMAS_Sanctuary.mid
-17�F�ΎR		�F�댯�ȗ\�� 		�FVANMAS_Volcano.mid
-18�F����		�F���̖��{ 		�FVANMAS_Maze.mid
-19�F����		�F���_�𖲌��� 		�FVANMAS_Desert.mid
+00：vantage		：vantage 		：VANMAS_Vantage.mid
+01：WorldMap		：純粋なる者達 		：VANMAS_WorldMap.mid
+02：戦闘に勝った	：覇者の凱旋 		：VANMAS_Win.mid
+03：戦闘に負けた	：仄かな希望の灯 	：VANMAS_Lose.mid
+04：エンディング1	：追憶の脈動		：VANMAS_Ending.mid
+05：そして新たなる道へ	：そして新たなる道へ	：VANMAS_NewStage.mid
+06：キャラ作成		：いざない 		：VANMAS_Charamake.mid
+07：高地/ビジュアル	：(なし)		：VANMAS_Visual.mid
+08：title		：開闢の時 		：VANMAS_Title.mid
+10：異次元		：次元の狭間で 		：VANMAS_AnotherDimension.mid
+11：高地		：瞬きを見上げて 	：VANMAS_Highlands.mid
+12：雪原		：静かなる純白		：VANMAS_Snowfield.mid
+13：岩窟		：孤独との戦い 		：VANMAS_Cave.mid
+14：森			：陰と煌めきの群舞 	：VANMAS_Forest.mid
+15：鍾乳洞		：地の底の行軍 		：VANMAS_limestoneCave.mid
+16：海上都市		：いにしえの神の都 	：VANMAS_Sanctuary.mid
+17：火山		：危険な予感 		：VANMAS_Volcano.mid
+18：道場		：時の迷宮 		：VANMAS_Maze.mid
+19：砂漠		：頂点を夢見て 		：VANMAS_Desert.mid
 

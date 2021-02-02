@@ -1,86 +1,86 @@
 
-í“¬ƒAƒjƒ_KKMN_‚¨‚Á‚Ò‚ë‚°ˆ—:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KKMN_ãŠã£ã´ã‚ã’å‡¦ç†:
 Switch Random(3)
 Case 1
-	SetMessage ‘ŠŽèƒpƒCƒƒbƒg ƒ_ƒ[ƒW’† "<B><BIG>‚¤‚í``‚ÁI ‚¯‚Á‚±‚¤II</B></BIG>"
+	SetMessage ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ ãƒ€ãƒ¡ãƒ¼ã‚¸ä¸­ "<B><BIG>ã†ã‚ï½žï½žã£ï¼ ã‘ã£ã“ã†ï¼ï¼</B></BIG>"
 Case 2
-	SetMessage ‘ŠŽèƒpƒCƒƒbƒg ƒ_ƒ[ƒW’† "<B><BIG>ƒEƒƒb ƒX ƒXƒQƒGƒbII</B></BIG>"
+	SetMessage ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ ãƒ€ãƒ¡ãƒ¼ã‚¸ä¸­ "<B><BIG>ã‚¦ãƒ¯ãƒƒ ã‚¹ ã‚¹ã‚²ã‚¨ãƒƒï¼ï¼</B></BIG>"
 Case 3
-	SetMessage ‘ŠŽèƒpƒCƒƒbƒg ƒ_ƒ[ƒW’† "<B><BIG>‚Ð‚¦`‚Á ‚¯‚Á‚±‚¤`II</B></BIG>"
+	SetMessage ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ ãƒ€ãƒ¡ãƒ¼ã‚¸ä¸­ "<B><BIG>ã²ãˆï½žã£ ã‘ã£ã“ã†ï½žï¼ï¼</B></BIG>"
 EndSw
 Return
 
-í“¬ƒAƒjƒ_KKMN_‚à‚ë‚¾‚µˆ—:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KKMN_ã‚‚ã‚ã ã—å‡¦ç†:
 Switch Random(3)
 Case 1
-	SetMessage ‘ŠŽèƒpƒCƒƒbƒg ƒ_ƒ[ƒW’† "<B><BIG>‚«‚á‚ ‚ ‚ ‚ÁIH</B></BIG>"
+	SetMessage ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ ãƒ€ãƒ¡ãƒ¼ã‚¸ä¸­ "<B><BIG>ãã‚ƒã‚ã‚ã‚ã£ï¼ï¼Ÿ</B></BIG>"
 Case 2
-	SetMessage ‘ŠŽèƒpƒCƒƒbƒg ƒ_ƒ[ƒW’† "<B><BIG>‚¢‚â‚ ‚ ‚ ``‚ÁII</B></BIG>"
+	SetMessage ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ ãƒ€ãƒ¡ãƒ¼ã‚¸ä¸­ "<B><BIG>ã„ã‚„ã‚ã‚ã‚ï½žï½žã£ï¼ï¼</B></BIG>"
 Case 3
-	SetMessage ‘ŠŽèƒpƒCƒƒbƒg ƒ_ƒ[ƒW’† "<B><BIG>ƒLƒƒ``ƒbII ‚¢‚â‚ ``II</B></BIG>"
+	SetMessage ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ ãƒ€ãƒ¡ãƒ¼ã‚¸ä¸­ "<B><BIG>ã‚­ãƒ£ï½žï½žãƒƒï¼ï¼ ã„ã‚„ã‚ï½žï½žï¼ï¼</B></BIG>"
 EndSw
 Return
 
-í“¬ƒAƒjƒ_KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe1:
-Set KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe
-KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe = KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe1
-SetSkill ‘ŠŽèƒpƒCƒƒbƒg KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe -1
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†1:
+Set KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†
+KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ† = KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†1
+SetSkill ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ† -1
 Return
 
-í“¬ƒAƒjƒ_KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe2:
-Set KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe
-KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe = KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe2
-SetSkill ‘ŠŽèƒpƒCƒƒbƒg KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe -1
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†2:
+Set KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†
+KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ† = KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†2
+SetSkill ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ† -1
 Return
 
-í“¬ƒAƒjƒ_KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe3:
-Set KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe
-KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe = KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe3
-SetSkill ‘ŠŽèƒpƒCƒƒbƒg KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe -1
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†3:
+Set KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†
+KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ† = KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†3
+SetSkill ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ† -1
 Return
 
-í“¬ƒAƒjƒ_KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe4:
-Set KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe
-KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe = KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe4
-SetSkill ‘ŠŽèƒpƒCƒƒbƒg KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe -1
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†4:
+Set KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†
+KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ† = KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†4
+SetSkill ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ† -1
 Return
 
-í“¬ƒAƒjƒ_KKMN_ƒZƒNƒnƒ‰_“¹1:
-Set KKMN_ƒZƒNƒnƒ‰_“¹
-KKMN_ƒZƒNƒnƒ‰_“¹ = KKMN_ƒZƒNƒnƒ‰_“¹1
-SetSkill ‘ŠŽèƒpƒCƒƒbƒg KKMN_ƒZƒNƒnƒ‰_“¹ -1
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“1:
+Set KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“
+KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“ = KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“1
+SetSkill ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“ -1
 Return
 
-í“¬ƒAƒjƒ_KKMN_ƒZƒNƒnƒ‰_“¹2:
-Set KKMN_ƒZƒNƒnƒ‰_“¹
-KKMN_ƒZƒNƒnƒ‰_“¹ = KKMN_ƒZƒNƒnƒ‰_“¹2
-SetSkill ‘ŠŽèƒpƒCƒƒbƒg KKMN_ƒZƒNƒnƒ‰_“¹ -1
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“2:
+Set KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“
+KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“ = KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“2
+SetSkill ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“ -1
 Return
 
-í“¬ƒAƒjƒ_KKMN_ƒZƒNƒnƒ‰_“¹3:
-Set KKMN_ƒZƒNƒnƒ‰_“¹
-KKMN_ƒZƒNƒnƒ‰_“¹ = KKMN_ƒZƒNƒnƒ‰_“¹3
-SetSkill ‘ŠŽèƒpƒCƒƒbƒg KKMN_ƒZƒNƒnƒ‰_“¹ -1
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“3:
+Set KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“
+KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“ = KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“3
+SetSkill ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“ -1
 Return
 
-*UŒ‚Œã ‘S ‘S:
-*”j‰ó ‘S:
-If (KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe != "") Then
-  If Skill(‘ÎÛƒpƒCƒƒbƒg, KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe) Then
-    ClearSkill ‘ÎÛƒpƒCƒƒbƒg KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe
+*æ”»æ’ƒå¾Œ å…¨ å…¨:
+*ç ´å£Š å…¨:
+If (KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ† != "") Then
+  If Skill(å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ, KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†) Then
+    ClearSkill å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†
   EndIf
-  If Skill(‘ŠŽèƒpƒCƒƒbƒg, KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe) Then
-    ClearSkill ‘ŠŽèƒpƒCƒƒbƒg KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe
+  If Skill(ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ, KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†) Then
+    ClearSkill ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†
   EndIf
-	UnSet KKMN_‚¯‚Á‚±‚¤ƒJƒ‰ƒe
+	UnSet KKMN_ã‘ã£ã“ã†ã‚«ãƒ©ãƒ†
 Endif
-If (KKMN_ƒZƒNƒnƒ‰_“¹ != "") Then
-  If Skill(‘ÎÛƒpƒCƒƒbƒg, KKMN_ƒZƒNƒnƒ‰_“¹) Then
-    ClearSkill ‘ÎÛƒpƒCƒƒbƒg KKMN_ƒZƒNƒnƒ‰_“¹
+If (KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“ != "") Then
+  If Skill(å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ, KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“) Then
+    ClearSkill å¯¾è±¡ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“
   EndIf
-  If Skill(‘ŠŽèƒpƒCƒƒbƒg, KKMN_ƒZƒNƒnƒ‰_“¹) Then
-    ClearSkill ‘ŠŽèƒpƒCƒƒbƒg KKMN_ƒZƒNƒnƒ‰_“¹
+  If Skill(ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ, KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“) Then
+    ClearSkill ç›¸æ‰‹ãƒ‘ã‚¤ãƒ­ãƒƒãƒˆ KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“
   EndIf
-	UnSet KKMN_ƒZƒNƒnƒ‰_“¹
+	UnSet KKMN_ã‚»ã‚¯ãƒãƒ©æŸ”é“
 Endif
 Exit
