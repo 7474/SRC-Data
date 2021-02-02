@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Unicode;
+using System.Text;
 
 namespace CreateIndex
 {
@@ -51,12 +52,16 @@ namespace CreateIndex
                 {
                     Titles = titles,
                 };
-                Console.WriteLine(JsonSerializer.Serialize(data, new JsonSerializerOptions()
+                var dataJson = JsonSerializer.Serialize(data, new JsonSerializerOptions()
                 {
                     Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
                     PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
                     WriteIndented = true,
-                }));
+                });
+                //File.WriteAllText("index.json", dataJson, Encoding.UTF8);
+                // UTF-8 BOMなし
+                File.WriteAllText("index.json", dataJson);
+                Console.WriteLine(dataJson);
             }
             catch (Exception e)
             {
