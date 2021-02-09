@@ -15,6 +15,7 @@ namespace CreateIndex
         public string Base { get; set; }
         public string Path { get; set; }
         public ICollection<string> Tags { get; set; }
+        public ICollection<string> Files { get; set; }
     }
     class SrcData
     {
@@ -44,6 +45,8 @@ namespace CreateIndex
                             Base = directory,
                             Path = string.Join("/", directory, Path.GetFileName(titleDirectory)),
                             Tags = directory.Split('/', '\\').ToList(),
+                            Files = Directory.EnumerateFiles(titleDirectory, "*.txt", SearchOption.TopDirectoryOnly)
+                                .Select(x => Path.GetFileName(x)).ToList(),
                         };
                         titles.Add(title);
                     }
@@ -56,12 +59,12 @@ namespace CreateIndex
                 {
                     Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
                     PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-                    WriteIndented = true,
+                    //WriteIndented = true,
                 });
                 //File.WriteAllText("index.json", dataJson, Encoding.UTF8);
                 // UTF-8 BOMなし
                 File.WriteAllText("index.json", dataJson);
-                Console.WriteLine(dataJson);
+                //Console.WriteLine(dataJson);
             }
             catch (Exception e)
             {
