@@ -1,4 +1,4 @@
 
 ```
-dotnet run ./tools/CreateIndex.cs --project ./tools
+dotnet run --project ./tools
 ```

@@ -9,49 +9,48 @@ using System.Text;
 
 namespace SrcDataTools
 {
-    class TitleData
+    class BitmapFolder
     {
-        public string Title { get; set; }
+        public string Name { get; set; }
         public string Base { get; set; }
         public string Path { get; set; }
         public ICollection<string> Tags { get; set; }
         public ICollection<string> Files { get; set; }
     }
-    class SrcData
+    class SrcBitmapData
     {
-        public ICollection<TitleData> Titles { get; set; }
+        public ICollection<BitmapFolder> Titles { get; set; }
     }
-    class CreateIndex
+    class CreateBitmapIndex
     {
-      internal  static void Execute(string[] args)
+        internal static void Execute(string[] args)
         {
             var directories = new string[]{
-                "GSCデータパック/ロボ",
-                "GSCデータパック/拡張",
+                "Sharp/Bitmap",
                 };
 
-            var titles = new List<TitleData>();
+            var titles = new List<BitmapFolder>();
             try
             {
                 foreach (var directory in directories)
                 {
-                    var titleDirectories = Directory.EnumerateDirectories(directory);
+                    var bitmapDirectories = Directory.EnumerateDirectories(directory);
 
-                    foreach (string titleDirectory in titleDirectories)
+                    foreach (string bitmapDirectory in bitmapDirectories)
                     {
-                        var title = new TitleData
+                        var title = new BitmapFolder
                         {
-                            Title = Path.GetFileName(titleDirectory),
+                            Name = Path.GetFileName(bitmapDirectory),
                             Base = directory,
-                            Path = string.Join("/", directory, Path.GetFileName(titleDirectory)),
-                            Tags = directory.Split('/', '\\').ToList(),
-                            Files = Directory.EnumerateFiles(titleDirectory, "*.txt", SearchOption.TopDirectoryOnly)
+                            Path = string.Join("/", directory, Path.GetFileName(bitmapDirectory)),
+                            Tags = directory.Split('/', '\\').Append(Path.GetFileName(bitmapDirectory)).ToList(),
+                            Files = Directory.EnumerateFiles(bitmapDirectory, "*.png", SearchOption.TopDirectoryOnly)
                                 .Select(x => Path.GetFileName(x)).ToList(),
                         };
                         titles.Add(title);
                     }
                 }
-                var data = new SrcData
+                var data = new SrcBitmapData
                 {
                     Titles = titles,
                 };
@@ -63,7 +62,7 @@ namespace SrcDataTools
                 });
                 //File.WriteAllText("index.json", dataJson, Encoding.UTF8);
                 // UTF-8 BOMなし
-                File.WriteAllText("index.json", dataJson);
+                File.WriteAllText("index-bitmap.json", dataJson);
                 //Console.WriteLine(dataJson);
             }
             catch (Exception e)
