@@ -19,7 +19,7 @@ namespace SrcDataTools
     }
     class SrcBitmapData
     {
-        public ICollection<BitmapFolder> Titles { get; set; }
+        public ICollection<BitmapFolder> Folders { get; set; }
     }
     class CreateBitmapIndex
     {
@@ -29,7 +29,7 @@ namespace SrcDataTools
                 "Sharp/Bitmap",
                 };
 
-            var titles = new List<BitmapFolder>();
+            var folders = new List<BitmapFolder>();
             try
             {
                 foreach (var directory in directories)
@@ -47,12 +47,12 @@ namespace SrcDataTools
                             Files = Directory.EnumerateFiles(bitmapDirectory, "*.png", SearchOption.TopDirectoryOnly)
                                 .Select(x => Path.GetFileName(x)).ToList(),
                         };
-                        titles.Add(title);
+                        folders.Add(title);
                     }
                 }
                 var data = new SrcBitmapData
                 {
-                    Titles = titles,
+                    Folders = folders,
                 };
                 var dataJson = JsonSerializer.Serialize(data, new JsonSerializerOptions()
                 {
