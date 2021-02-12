@@ -1,21 +1,21 @@
 
 ################################################################################
-### –Ú•W’n“_‚ÉŒõü‚ª‚Ó‚è‚»‚»‚®ƒAƒjƒ[ƒVƒ‡ƒ“(‚l‚`‚o‚Ì‚İ)B
+### ç›®æ¨™åœ°ç‚¹ã«å…‰ç·šãŒãµã‚Šãããã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³(ï¼­ï¼¡ï¼°ã®ã¿)ã€‚
 
-í“¬ƒAƒjƒ_FF9_‚l‚`‚oŒõü‚’¼~‚è’‚¬UŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_FF9_ï¼­ï¼¡ï¼°å…‰ç·šå‚ç›´é™ã‚Šæ³¨ãæ”»æ’ƒ:
 
 Local UID L_ColorName L_i L_Colors L_X L_Y L_LineColor
 
 L_ColorName = _GetName("(Blue)",_GetBeamColorFromArgs())
 L_Colors[1] = _GetBeamLineColor(L_ColorName)
-L_Colors[2] = _GetBeamLineColor(L_ColorName, "–¾")
+L_Colors[2] = _GetBeamLineColor(L_ColorName, "æ˜")
 
-UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 
 Center UID
 
-L_X = WX(–Ú•W’n“_) + 16
-L_Y = WY(–Ú•W’n“_) + 8
+L_X = WX(ç›®æ¨™åœ°ç‚¹) + 16
+L_Y = WY(ç›®æ¨™åœ°ç‚¹) + 8
 
 Local L_DrawCount = 40
 
@@ -30,7 +30,7 @@ For L_i = (L_DrawCount \ 5) To L_DrawCount
 	DrawWidth IIF(L_i Mod 4 = 1, 10, 8)
 	Line  L_X 0 L_X L_Y #FFFFFF
 	
-	PaintPicture ("Light\EFFECT_LightGeyser" & L_ColorName & "0" & ((L_i Mod 2) + 1) & ".bmp") (L_X - 68) (L_Y - 120) “§‰ß
+	PaintPicture ("Light\EFFECT_LightGeyser" & L_ColorName & "0" & ((L_i Mod 2) + 1) & ".bmp") (L_X - 68) (L_Y - 120) é€é
 	
 	Refresh
 	
@@ -42,20 +42,20 @@ Refresh
 
 Return
 
-í“¬ƒAƒjƒ_FF9_‚l‚`‚oŒõüÎ‚ß~‚è’‚¬UŒ‚:
+æˆ¦é—˜ã‚¢ãƒ‹ãƒ¡_FF9_ï¼­ï¼¡ï¼°å…‰ç·šæ–œã‚é™ã‚Šæ³¨ãæ”»æ’ƒ:
 
 Local UID L_ColorName L_i L_Colors L_X L_Y L_XD L_LineColor
 
 L_ColorName = _GetName("(Yellow)",_GetBeamColorFromArgs())
 L_Colors[1] = _GetBeamLineColor(L_ColorName)
-L_Colors[2] = _GetBeamLineColor(L_ColorName, "–¾")
+L_Colors[2] = _GetBeamLineColor(L_ColorName, "æ˜")
 
-UID = _GetName(‘ÎÛƒ†ƒjƒbƒg‚h‚c,_GetIDFromArgs())
+UID = _GetName(å¯¾è±¡ãƒ¦ãƒ‹ãƒƒãƒˆï¼©ï¼¤,_GetIDFromArgs())
 
 Center UID
 
-L_X = WX(–Ú•W’n“_) + 16
-L_Y = WY(–Ú•W’n“_) + 4 + Random(7)
+L_X = WX(ç›®æ¨™åœ°ç‚¹) + 16
+L_Y = WY(ç›®æ¨™åœ°ç‚¹) + 4 + Random(7)
 
 L_XD = Random(31) - 16
 
