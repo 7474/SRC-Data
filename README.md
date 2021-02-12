@@ -2,6 +2,8 @@
 
 SRC向けのデータを眺めたり弄ってみたりするためのリポジトリ。
 
+https://7474.github.io/SRC/ で参照しています。
+
 ## GSCデータパック
 
 [GSCデータパック](./GSCデータパック) 配下のデータは[ＳＲＣ総合支援センター](http://www.gsc.ne.jp/)の[データパック](http://www.gsc.ne.jp/materials_data.php)の文字コードを閲覧の便宜上UTF-8に変換したものです。
