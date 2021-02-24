@@ -1,0 +1,22 @@
+name: Validate Sharp Data
+
+on: 
+  push:
+    paths:
+      - 'Sharp/Data/*'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+    
+    - name: Validate Data
+      uses: 7474/SRC-DataLinter@v1
+      with:
+        files: 'Sharp/Data/幼女戦記/pilot.txt Sharp/Data/幼女戦記/unit.txt'
