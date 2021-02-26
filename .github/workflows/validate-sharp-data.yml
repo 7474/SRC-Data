@@ -3,7 +3,8 @@ name: Validate Sharp Data
 on: 
   push:
     paths:
-      - 'Sharp/Data/*'
+      - 'Sharp/Data/**'
+      - .github/workflows/validate-sharp-data.yml
 
 jobs:
   validate:
@@ -17,6 +18,6 @@ jobs:
         dotnet-version: 5.0.x
     
     - name: Validate Data
-      uses: 7474/SRC-DataLinter@v1
+      uses: 7474/SRC-DataLinter@master
       with:
-        files: 'Sharp/Data/幼女戦記/pilot.txt Sharp/Data/幼女戦記/unit.txt'
+        files: 'Sharp/Data/'
