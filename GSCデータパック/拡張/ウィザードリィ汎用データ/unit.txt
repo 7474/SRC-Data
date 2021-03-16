@@ -34,7 +34,7 @@ BACB, WIZ_FighterU.bmp
 装備個所=腕
 武器クラス=短剣 弓
 3000, 80, 700, 75
-BACB, WIZ_TheafU.bmp
+BACB, WIZ_ThiefU.bmp
 盗む,                      0,  1,  1,  -15,   -,  20, 100, AAAA,  +15, 突盗
 ショートソード,          900,  1,  1,  +15,   -,   -,   -, AAAA,  +10, 武
 弓,                     1000,  2,  3,  -10,  12,   -,   -, AAAA,  +10, 格実
@@ -173,7 +173,7 @@ CACB, WIZ_CardinalfangU.bmp
 特殊能力
 小型シールド=スモールシールド
 装備個所=腕
-武器クラス=槌 杖
+武器クラス=鎚 杖
 性別=女性
 3000, 140, 800, 70
 CACB, WIZ_PriestessU.bmp
@@ -700,7 +700,7 @@ BACB, WIZ_VorpalBunnyU.bmp
 特殊能力
 弱点=冷虫
 2400, 90, 1000, 50
-BACB, WIZBoringBeetleU.bmp
+BACB, WIZ_BoringBeetleU.bmp
 噛み付き,               1200,  1,  1,  +25,   -,   -,   -, AAAA,   +0, 突
 
 # プレートメイル並の固さを持つ甲殻の大型甲虫。
@@ -773,7 +773,7 @@ BACB, WIZ_FireGiantU.bmp
 特殊効果無効化=毒
 弱点=死
 5200, 120, 1000, 60
-BABB, WIZ_PisonGiantU.bmp
+BABB, WIZ_PoisonGiantU.bmp
 格闘,                   1400,  1,  1,  +20,   -,   -,   -, AAAA,   +0, 突
 ポイズンブレス,          800,  1,  4,   +0,   -,  30,   -, AACA,  +50, 毒体L10
 
@@ -1315,7 +1315,7 @@ AACA, WIZ_FlackU.bmp
 阻止Lv6=呪文無効化Lv6：50% 魔 50 0 100
 弱点=光
 5000, 200, 1000, 75
-AACA, WIZ_MaelficU.bmp
+AACA, WIZ_MaelificU.bmp
 エナジードレイン,       1000,  1,  1,   +0,   -,  30, 100, AAAA,   +0, 奪貫Ｒ射
 鉤爪,                   1200,  1,  1,  +15,   -,   -,   -, AAAA,  +10, 突毒痺
 マハリト,               1300,  1,  4,   +5,   9,   -,   -, AACA,   +5, 魔術火
