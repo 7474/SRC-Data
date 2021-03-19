@@ -47,7 +47,7 @@ namespace SrcDataTools
                         {
                             Title = Path.GetFileName(titleDirectory),
                             Base = directory.Path,
-                            Path = string.Join("/", directory, Path.GetFileName(titleDirectory)),
+                            Path = string.Join("/", directory.Path, Path.GetFileName(titleDirectory)),
                             Tags = directory.Tags,
                             Files = Directory.EnumerateFiles(titleDirectory, "*.txt", SearchOption.TopDirectoryOnly)
                                 .Select(x => Path.GetFileName(x)).ToList(),
