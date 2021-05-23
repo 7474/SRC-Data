@@ -11,7 +11,7 @@ dotnet run --project ./tools
 ## データを検証する
 
 ```sh
-docker run -it -v ${PWD}:/data koudenpa/srcdatalinter:latest /data/Sharp
+docker run -it -rm -v ${PWD}:/data koudenpa/srcdatalinter:latest /data/Sharp
 ```
 
 - 要 Docker 環境
