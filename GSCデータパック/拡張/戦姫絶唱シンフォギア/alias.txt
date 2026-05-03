@@ -1,3 +1,13 @@
+
+ユニゾン(シンフォギア)
+運動性強化Lv1=ユニゾン <暁切歌2マス以内 or 月読調2マス以内 !暁切歌(通常)2マス以内 !月読調(通常)2マス以内 !沈黙状態>
+装甲強化Lv1=非表示 (暁切歌2マス以内 or 月読調2マス以内 !暁切歌(通常)2マス以内 !月読調(通常)2マス以内 !沈黙状態)
+武器強化Lv1=!合 (暁切歌2マス以内 or 月読調2マス以内 !暁切歌(通常)2マス以内 !月読調(通常)2マス以内 !沈黙状態)
+ユニゾン=解説 暁切歌が2マス以内にいる時、お互いに装甲+100、運動性+5。攻撃力+100される。沈黙状態では発動しない。 (月読調)
+ユニゾン=解説 月読調が2マス以内にいる時、お互いに装甲+100、運動性+5。攻撃力+100される。沈黙状態では発動しない。 (暁切歌)
+
+
+
 位相差障壁
 すり抜け移動
 プロテクションLv4=位相差障壁 !魔 - -
@@ -8,3 +18,135 @@
 すり抜け移動
 プロテクションLv2=位相差障壁 !魔 - -
 位相差障壁=解説 「魔」属性を持たない攻撃のダメージを20%減少させる。
+
+
+神の力(シンフォギア)
+プロテクションLv8=神の力 !神 相殺
+神の力=解説 「神」属性を持たない攻撃のダメージを80%減少させる。同じ特殊能力を持つ相手の攻撃には発動しない。
+
+## シナリオ側でプレイヤーに突破手段を用意させる、もしくはイベントで無効化させること前提の性能です。
+
+
+### 以下シンフォギア装者のＢＧＭ設定用能力
+
+立花響ＢＧＭ指定(シンフォギア)
+## 1期
+ＢＧＭ=SZS_GekisouGungnir.mid (立花響(無印) !シンフォギア楽曲変更装備 !沈黙状態)
+## 2期
+ＢＧＭ=SZSG_SeigiWoShinjiteNigirishimete.mid SymphogearG_OP.mid (立花響(Ｇ) !シンフォギア楽曲変更装備 !沈黙状態)
+ＢＧＭ=SymphogearG_OP.mid (立花響(Ｇ) 沈黙状態)
+## 3期
+ＢＧＭ=SZSGX_GenkaitoppaG-beat.mid SymphogearGX_OP.mid (立花響(ＧＸ) !シンフォギア楽曲変更装備 !沈黙状態 !4期仕様)
+ＢＧＭ=SZSGX_GenkaitoppaG-beat(IGNITED).mid SZSGX_GenkaitoppaG-beat.mid SymphogearGX_OP.mid (立花響(イグナイト) !シンフォギア楽曲変更装備 !沈黙状態 !4期仕様)
+ＢＧＭ=SymphogearGX_OP.mid (立花響(ＧＸ) or 立花響(イグナイト) 沈黙状態 !4期仕様)
+## 4期
+ＢＧＭ=SZSAXZ_MakenaiAiGaKokoniaru.mid SymphogearAXZ_OP.mid (立花響(ＧＸ) or 立花響(イグナイト) or 立花響(イグナイト)(TRINITY　RESONANCE) !シンフォギア楽曲変更装備 !沈黙状態 4期仕様)
+ＢＧＭ=SymphogearAXZ_OP.mid (立花響(ＧＸ) or 立花響(イグナイト) 沈黙状態 4期仕様)
+## 5期
+ＢＧＭ=SZSXV_ALL LOVES BLAZING.mid SymphogearXV_OP.mid (立花響(ＸＶ)!シンフォギア楽曲変更装備 !沈黙状態 !最終抜剣(シンフォギア)装備)
+ＢＧＭ=SZSXV_HanasakuYuuki(VerAmalgam).mid SZSAXZ_HanasakuYuuki.mid SZSXV_ALL LOVES BLAZING.mid SymphogearXV_OP.mid (立花響(アマルガム) !シンフォギア楽曲変更装備 !沈黙状態)
+ＢＧＭ=SymphogearXV_OP.mid (立花響(ＸＶ) or 立花響(アマルガム) 沈黙状態 !最終抜剣(シンフォギア)装備)
+
+
+風鳴翼ＢＧＭ指定(シンフォギア)
+## 1期
+ＢＧＭ=SZS_ZettouAmenohabakiri.mid (風鳴翼(無印) !シンフォギア楽曲変更装備 !沈黙状態)
+## 2期
+ＢＧＭ=SZSG_GekkouNoTsurugi.mid SymphogearG_OP.mid (風鳴翼(Ｇ) or 風鳴翼(Ｇ)(バイク) !シンフォギア楽曲変更装備 !沈黙状態)
+ＢＧＭ=SymphogearG_OP.mid (風鳴翼(Ｇ) 沈黙状態)
+## 3期
+ＢＧＭ=SZSGX_BeyondTheBLADE.mid SymphogearGX_OP.mid (風鳴翼(ＧＸ) or 風鳴翼(ＧＸ)(バイク) !シンフォギア楽曲変更装備 !沈黙状態 !4期仕様)
+ＢＧＭ=SZSGX_BeyondTheBLADE(IGNITED).mid SZSGX_BeyondTheBLADE.mid SymphogearGX_OP.mid (風鳴翼(イグナイト) or 風鳴翼(イグナイト)(バイク) !シンフォギア楽曲変更装備 !沈黙状態 !4期仕様)
+ＢＧＭ=SymphogearGX_OP.mid (風鳴翼(ＧＸ) or 風鳴翼(イグナイト) or 風鳴翼(ＧＸ)(バイク) or 風鳴翼(イグナイト)(バイク) 沈黙状態 !4期仕様)
+## 4期
+ＢＧＭ=SZSAXZ_Gekkabijin.mid SymphogearAXZ_OP.mid (風鳴翼(ＧＸ) or 風鳴翼(イグナイト) or 風鳴翼(ＧＸ)(バイク) or 風鳴翼(イグナイト)(バイク) !シンフォギア楽曲変更装備 !沈黙状態 4期仕様)
+ＢＧＭ=SymphogearAXZ_OP.mid (風鳴翼(ＧＸ) or 風鳴翼(イグナイト) or 風鳴翼(ＧＸ)(バイク) or 風鳴翼(イグナイト)(バイク) 沈黙状態 4期仕様)
+## 5期
+ＢＧＭ=SZSXV_Defender'Z Brand!.mid SymphogearXV_OP.mid (風鳴翼(ＸＶ) or 風鳴翼(アマルガム) !シンフォギア楽曲変更装備 !沈黙状態 !最終抜剣(シンフォギア)装備)
+ＢＧＭ=SymphogearXV_OP.mid (風鳴翼(ＸＶ) or 風鳴翼(アマルガム) 沈黙状態 !最終抜剣(シンフォギア)装備)
+
+
+雪音クリスＢＧＭ指定(シンフォギア)
+## 1期
+ＢＧＭ=SZS_MakyuIchii-Bal.mid (雪音クリス(無印) !シンフォギア楽曲変更装備 !沈黙状態)
+## 2期
+ＢＧＭ=SZSG_Bye-ByeLullaby.mid SymphogearG_OP.mid (雪音クリス(Ｇ) !シンフォギア楽曲変更装備 !沈黙状態)
+ＢＧＭ=SymphogearG_OP.mid (雪音クリス(Ｇ) 沈黙状態)
+## 3期
+ＢＧＭ=SZSGX_TRUST HEART.mid SymphogearGX_OP.mid (雪音クリス(ＧＸ) !シンフォギア楽曲変更装備 !沈黙状態 !4期仕様)
+ＢＧＭ=SZSGX_TRUST HEART(IGNITED).mid SZSGX_TRUST HEART.mid SymphogearGX_OP.mid (雪音クリス(イグナイト) !シンフォギア楽曲変更装備 !沈黙状態 !4期仕様)
+ＢＧＭ=SymphogearGX_OP.mid (雪音クリス(ＧＸ) or 雪音クリス(イグナイト) 沈黙状態 !4期仕様)
+## 4期
+ＢＧＭ=SZSAXZ_GUN BULLET XXX.mid SymphogearAXZ_OP.mid (雪音クリス(ＧＸ) or 雪音クリス(イグナイト) !シンフォギア楽曲変更装備 !沈黙状態 4期仕様)
+ＢＧＭ=SymphogearAXZ_OP.mid (雪音クリス(ＧＸ) or 雪音クリス(イグナイト) 沈黙状態 4期仕様)
+## 5期
+ＢＧＭ=SZSXV_Take this!.mid SymphogearXV_OP.mid (雪音クリス(ＸＶ) or 雪音クリス(アマルガム) !シンフォギア楽曲変更装備 !沈黙状態 !最終抜剣(シンフォギア)装備)
+ＢＧＭ=SymphogearXV_OP.mid (雪音クリス(ＸＶ) or 雪音クリス(アマルガム) 沈黙状態 !最終抜剣(シンフォギア)装備)
+
+
+マリア＝カデンツァヴナ＝イヴＢＧＭ指定(シンフォギア)
+## 2期
+ＢＧＭ=SZSG_RetsusouGungnir.mid (マリア＝カデンツァヴナ＝イヴ(ガングニール) or マリア＝カデンツァヴナ＝イヴ(ガングニール)(ＧＸ) !沈黙状態)
+## 3期
+ＢＧＭ=SZSGX_GinwanAirget-lamh.mid SymphogearGX_OP.mid (マリア＝カデンツァヴナ＝イヴ(ＧＸ) !シンフォギア楽曲変更装備 !沈黙状態 !4期仕様)
+ＢＧＭ=SZSGX_GinwanAirget-lamh(IGNITED).mid SZSGX_GinwanAirget-lamh.mid SymphogearGX_OP.mid (マリア＝カデンツァヴナ＝イヴ(イグナイト) !シンフォギア楽曲変更装備 !沈黙状態 !4期仕様)
+ＢＧＭ=SymphogearGX_OP.mid (マリア＝カデンツァヴナ＝イヴ(ＧＸ) or マリア＝カデンツァヴナ＝イヴ(イグナイト) or マリア＝カデンツァヴナ＝イヴ(ガングニール)(ＧＸ) 沈黙状態 !4期仕様)
+## 4期
+ＢＧＭ=SZSAXZ_Stand up! Ready!!.mid SymphogearAXZ_OP.mid (マリア＝カデンツァヴナ＝イヴ(ＧＸ) or マリア＝カデンツァヴナ＝イヴ(イグナイト) !シンフォギア楽曲変更装備 !沈黙状態 4期仕様)
+ＢＧＭ=SymphogearAXZ_OP.mid (マリア＝カデンツァヴナ＝イヴ(ＧＸ) or マリア＝カデンツァヴナ＝イヴ(イグナイト) 沈黙状態 4期仕様)
+## 5期
+ＢＧＭ=SZSXV_ShiroganeNoHonoo.mid SymphogearXV_OP.mid (マリア＝カデンツァヴナ＝イヴ(ＸＶ) or マリア＝カデンツァヴナ＝イヴ(アマルガム) !シンフォギア楽曲変更装備 !沈黙状態 !最終抜剣(シンフォギア)装備)
+ＢＧＭ=SymphogearXV_OP.mid (マリア＝カデンツァヴナ＝イヴ(ＸＶ) or マリア＝カデンツァヴナ＝イヴ(アマルガム) 沈黙状態 !最終抜剣(シンフォギア)装備)
+
+
+月読調ＢＧＭ指定(シンフォギア)
+## 2期
+ＢＧＭ=SZSG_Edge Works of Godness ZABABA.mid SZSG_OukyoShulshagana.mid (月読調(Ｇ) !シンフォギア楽曲変更装備 暁切歌(Ｇ)2マス以内 !沈黙状態)
+ＢＧＭ=SZSG_OukyoShulshagana.mid (月読調(Ｇ) !シンフォギア楽曲変更装備 !暁切歌(Ｇ)2マス以内 !沈黙状態)
+## 3期
+ＢＧＭ=SZSGX_JustLovingX-Edge.mid SZSGX_GenocideSawHeaven.mid SymphogearGX_OP.mid (月読調(ＧＸ) !シンフォギア楽曲変更装備 暁切歌(ＧＸ)2マス以内 !沈黙状態 !4期仕様)
+ＢＧＭ=SZSGX_JustLovingX-Edge(IGNITED).mid SZSGX_GenocideSawHeaven.mid SymphogearGX_OP.mid (月読調(イグナイト) !シンフォギア楽曲変更装備 暁切歌(イグナイト)2マス以内 !沈黙状態 !4期仕様)
+ＢＧＭ=SZSGX_GenocideSawHeaven.mid SymphogearGX_OP.mid (月読調(ＧＸ) or 月読調(イグナイト) !シンフォギア楽曲変更装備 !暁切歌(ＧＸ)2マス以内 !暁切歌(イグナイト)2マス以内 !沈黙状態 !4期仕様)
+ＢＧＭ=SymphogearGX_OP.mid (月読調(ＧＸ) or 月読調(イグナイト) 沈黙状態 !4期仕様)
+## 4期
+ＢＧＭ=SZSAXZ_GizagizaGirariFullThrottle.mid SZSAXZ_MelodiousMoonlight.mid SymphogearAXZ_OP.mid (月読調(ＧＸ) or 月読調(イグナイト) !シンフォギア楽曲変更装備 暁切歌(ＧＸ)2マス以内 or 暁切歌(イグナイト)2マス以内 !沈黙状態 4期仕様)
+ＢＧＭ=SZSAXZ_MelodiousMoonlight.mid SymphogearAXZ_OP.mid (月読調(ＧＸ) or 月読調(イグナイト) !シンフォギア楽曲変更装備 !暁切歌(ＧＸ)2マス以内 !暁切歌(イグナイト)2マス以内 !沈黙状態 4期仕様)
+ＢＧＭ=SymphogearAXZ_OP.mid (月読調(ＧＸ) or 月読調(イグナイト) 沈黙状態 4期仕様)
+## 5期
+ＢＧＭ=SZSXV_Cutting EdgeX2 Ready go!.mid SZSXV_MijukuSyoujoButtagiri!.mid SymphogearXV_OP.mid (月読調(ＸＶ) !シンフォギア楽曲変更装備 暁切歌(ＸＶ)2マス以内 or 暁切歌(アマルガム)2マス以内 !沈黙状態 !最終抜剣(シンフォギア)装備)
+ＢＧＭ=SZSXV_MijukuSyoujoButtagiri!.mid SymphogearXV_OP.mid (月読調(ＸＶ) or 月読調(アマルガム) !シンフォギア楽曲変更装備 !暁切歌(ＸＶ)2マス以内  !暁切歌(アマルガム)2マス以内 !沈黙状態 !最終抜剣(シンフォギア)装備)
+ＢＧＭ=SymphogearXV_OP.mid (月読調(ＸＶ) or 月読調(アマルガム) 沈黙状態 !最終抜剣(シンフォギア)装備)
+
+
+
+暁切歌ＢＧＭ指定(シンフォギア)
+## 2期
+ＢＧＭ=SZSG_Edge Works of Godness ZABABA.mid SZSG_GokurenIgalima.mid (暁切歌(Ｇ) !シンフォギア楽曲変更装備 月読調(Ｇ)2マス以内 !沈黙状態)
+ＢＧＭ=SZSG_GokurenIgalima.mid (暁切歌(Ｇ) !シンフォギア楽曲変更装備 !月読調(Ｇ)2マス以内 !沈黙状態)
+## 3期
+ＢＧＭ=SZSGX_JustLovingX-Edge.mid SZSGX_OverKillScytheHell.mid SymphogearGX_OP.mid (暁切歌(ＧＸ) !シンフォギア楽曲変更装備 月読調(ＧＸ)2マス以内 !沈黙状態 !4期仕様)
+ＢＧＭ=SZSGX_JustLovingX-Edge(IGNITED).mid SZSGX_OverKillScytheHell.mid SymphogearGX_OP.mid (暁切歌(イグナイト) !シンフォギア楽曲変更装備 月読調(イグナイト)2マス以内 !沈黙状態 !4期仕様)
+ＢＧＭ=SZSGX_OverKillScytheHell.mid SymphogearGX_OP.mid (暁切歌(ＧＸ) or 暁切歌(イグナイト) !シンフォギア楽曲変更装備 !月読調(ＧＸ)2マス以内 !月読調(イグナイト)2マス以内 !沈黙状態 !4期仕様)
+ＢＧＭ=SymphogearGX_OP.mid (暁切歌(ＧＸ) or 暁切歌(イグナイト) 沈黙状態 !4期仕様)
+## 4期
+ＢＧＭ=SZSAXZ_GizagizaGirariFullThrottle.mid SZSAXZ_DangerousSunshine.mid SymphogearAXZ_OP.mid (暁切歌(ＧＸ) or 暁切歌(イグナイト) !シンフォギア楽曲変更装備 月読調(ＧＸ)2マス以内 or 月読調(イグナイト)2マス以内 !沈黙状態 4期仕様)
+ＢＧＭ=SZSAXZ_DangerousSunshine.mid SymphogearAXZ_OP.mid (暁切歌(ＧＸ) or 暁切歌(イグナイト) !シンフォギア楽曲変更装備 !月読調(ＧＸ)2マス以内 !月読調(イグナイト)2マス以内 !沈黙状態 4期仕様)
+ＢＧＭ=SymphogearAXZ_OP.mid (暁切歌(ＧＸ) or 暁切歌(イグナイト) 沈黙状態 4期仕様)
+## 5期
+ＢＧＭ=SZSXV_Cutting EdgeX2 Ready go!.mid SZSXV_MikanseiLoveMapputatsu!.mid SymphogearXV_OP.mid (暁切歌(ＸＶ) !シンフォギア楽曲変更装備 月読調(ＸＶ)2マス以内 or 月読調(アマルガム)2マス以内 !沈黙状態 !最終抜剣(シンフォギア)装備)
+ＢＧＭ=SZSXV_MikanseiLoveMapputatsu!.mid SymphogearXV_OP.mid (暁切歌(ＸＶ) or 暁切歌(アマルガム) !シンフォギア楽曲変更装備 !月読調(ＸＶ)2マス以内 !月読調(アマルガム)2マス以内  !沈黙状態 !最終抜剣(シンフォギア)装備)
+ＢＧＭ=SymphogearXV_OP.mid (暁切歌(ＸＶ) or 暁切歌(アマルガム) 沈黙状態 !最終抜剣(シンフォギア)装備)
+
+
+ＸＤモードＢＧＭ指定(シンフォギア)
+ＢＧＭ=SZS_FIRST LOVE SONG.mid Symphogear_OP.mid (ＸＤギア画像変更(無印)装備 !シンフォギア楽曲変更装備 !沈黙状態)
+ＢＧＭ=Symphogear_OP.mid (ＸＤギア画像変更(無印)装備 沈黙状態)
+ＢＧＭ=SZSG_HajimariNoBabel.mid SymphogearG_OP.mid (!ＸＤギア画像変更(無印)装備 !シンフォギア楽曲変更装備 !沈黙状態)
+ＢＧＭ=SymphogearG_OP.mid (!ＸＤギア画像変更(無印)装備 ＸＤギア画像変更(Ｇ)装備 沈黙状態)
+ＢＧＭ=SymphogearGX_OP.mid (!ＸＤギア画像変更(無印)装備 !ＸＤギア画像変更(Ｇ)装備 沈黙状態)
+
+
+ＢＸＤモードＢＧＭ指定(シンフォギア)
+ＢＧＭ=SZSXV_PERFECT SYMFONY.mid SymphogearXV_OP.mid (!シンフォギア楽曲変更装備 !沈黙状態)
+ＢＧＭ=SymphogearXV_OP.mid (沈黙状態)
+

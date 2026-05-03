@@ -3,12 +3,6 @@
 ヒイロ(暴走)
 ヒイロ, GW_HeeroYuy(B).bmp
 
-ヒイロ(エピオン)
-ヒイロ, GW_HeeroYuy(Epyon).bmp
-
-ヒイロ(エピオン暴走)
-ヒイロ, GW_HeeroYuy(EpyonB).bmp
-
 カトル(壊)
 カトル, GW_QuatreRaberbaWinner(B).bmp
 
@@ -88,6 +82,11 @@
 ヒイロ(暴走)(ダメージ)
 ヒイロ, GW_HeeroYuy(BD).bmp
 
+ヒイロ＝ユイ(エピオン)
+ヒイロ, GW_HeeroYuy(Epyon).bmp
+ヒイロ(エピオン)
+ヒイロ, GW_HeeroYuy(Epyon).bmp
+
 ヒイロ＝ユイ(エピオン)(攻撃)
 ヒイロ, GW_HeeroYuy(EpyonA).bmp
 ヒイロ(エピオン)(攻撃)
@@ -107,6 +106,12 @@
 ヒイロ, GW_HeeroYuy(Destruction).bmp
 ヒイロ(エピオン)(自爆)
 ヒイロ, GW_HeeroYuy(Destruction).bmp
+
+ヒイロ＝ユイ(エピオン暴走)
+ヒイロ, GW_HeeroYuy(EpyonB).bmp
+ヒイロ(エピオン暴走)
+ヒイロ, GW_HeeroYuy(EpyonB).bmp
+
 
 デュオ＝マックスウェル(攻撃)
 デュオ, GW_DuoMaxwell(A)(2).bmp
@@ -132,6 +137,7 @@
 デュオ, GW_DuoMaxwell(Smile)(2).bmp
 デュオ(笑顔)
 デュオ, GW_DuoMaxwell(Smile)(2).bmp
+
 
 トロワ＝バートン(攻撃)
 トロワ, GW_TrowaBarton(A).bmp
@@ -178,6 +184,7 @@
 トロワ(笑い)
 トロワ, GW_TrowaBarton(Smile).bmp
 
+
 カトル＝ラバーバ＝ウィナー(攻撃)
 カトル, GW_QuatreRaberbaWinner(A)(2).bmp
 カトル(攻撃)
@@ -192,6 +199,7 @@
 カトル, GW_QuatreRaberbaWinner(Smile)(2).bmp
 カトル(笑顔)
 カトル, GW_QuatreRaberbaWinner(Smile)(2).bmp
+
 
 張五飛(攻撃)
 五飛, GW_ChangWufei(A).bmp
@@ -211,6 +219,26 @@
 張五飛(怒り)
 五飛, GW_ChangWufei(Angry).bmp
 五飛(怒り)
+五飛, GW_ChangWufei(Angry).bmp
+
+張五飛(マリーメイア軍)(攻撃)
+五飛, GW_ChangWufei(A).bmp
+五飛(マリーメイア軍)(攻撃)
+五飛, GW_ChangWufei(A).bmp
+
+張五飛(マリーメイア軍)(ダメージ)
+五飛, GW_ChangWufei(D).bmp
+五飛(マリーメイア軍)(ダメージ)
+五飛, GW_ChangWufei(D).bmp
+
+張五飛(マリーメイア軍)(回避)
+五飛, GW_ChangWufei(E).bmp
+五飛(マリーメイア軍)(回避)
+五飛, GW_ChangWufei(E).bmp
+
+張五飛(マリーメイア軍)(怒り)
+五飛, GW_ChangWufei(Angry).bmp
+五飛(マリーメイア軍)(怒り)
 五飛, GW_ChangWufei(Angry).bmp
 
 # ノンパイロット -------------------------------------------------------------------------
@@ -233,7 +261,7 @@
 #サンクキングダムの後継者であり、王国の完全平和主義を実現させようとした。
 #トレーズやゼクスらは彼女に自分らが戦争の愚かさを見せ付けた後の平和を託そうとした。
 
-クイーン＝リリーナ
+クイーン・リリーナ
 リリーナ, GW_QueenRelena.bmp
 #リリーナ、ロームフェラ財団代表時。
 
@@ -357,11 +385,11 @@
 #ウイングガンダムの爆破に立ち会った調査官。
 #ゼクスがガンダムを密かに修理していることを掴み、追跡を行ったが、トロワの手にかかり死亡。
 
-デルマイユ侯
+デルマイユ＝カタロニア
 デルマイユ, GW_Dermail.bmp
 #ロームフェラ財団のトップ。本編中盤でＯＺはデルマイユ派とトレーズ派に分かれた。
 
-ツバロフ技師長
+ツバロフ＝ビルモン
 ツバロフ, GW_Tubarov.bmp
 #ＯＺ上級特佐。デルマイユ派でモビルドールの開発者。リーブラも開発したがＷＦに奪取される。
 

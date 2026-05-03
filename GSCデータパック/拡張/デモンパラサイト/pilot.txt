@@ -18,7 +18,7 @@ DPARA_IbukiAkira.bmp, DemonParasite.mid
 ＨＰ強化Lv-12.5=非表示 (変身前)
 装甲強化Lv-3=非表示 (変身前)
 運動性強化Lv-5=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_IbukiAkiraU.bmp (変身前)
 ユニット画像=DPARA_IbukiAkira(Jersey))U.bmp (変身前 セラフィムジャージ装備)
 
@@ -44,7 +44,7 @@ DPARA_YatsukaKanade.bmp, DemonParasite.mid
 ＨＰ強化Lv-15=非表示 (変身前)
 装甲強化Lv-3=非表示 (変身前)
 運動性強化Lv-5=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_YatsukaKanadeU.bmp (変身前)
 ユニット画像=DPARA_YatsukaKanade(Jersey))U.bmp (変身前 セラフィムジャージ装備)
 
@@ -66,7 +66,7 @@ DPARA_NinomaeHirofumi.bmp, DemonParasite.mid
 ＨＰ強化Lv-5=非表示 (変身前)
 装甲強化Lv-3=非表示 (変身前)
 運動性強化Lv-8=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_NinomaeHirofumiU.bmp (変身前)
 
 #　共生生物：稲妻の魔術師カラドボルグ／瞬閃の雷獣バルディッシュ
@@ -89,7 +89,7 @@ DPARA_HayamiJuzou(A).bmp, DemonParasite.mid
 ＨＰ強化Lv-10=非表示 (変身前)
 装甲強化Lv-7=非表示 (変身前)
 運動性強化Lv-5=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_HayamiJuzou(A)U.bmp (変身前)
 
 #　共生生物：氷壁の騎士ブリガンダイン／神速の暗殺者ファランクス
@@ -110,7 +110,7 @@ DPARA_Tasche.bmp, DemonParasite.mid
 ＨＰ強化Lv-10=非表示 (変身前)
 装甲強化Lv-3=非表示 (変身前)
 運動性強化Lv-6=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_TascheU.bmp (変身前)
 
 #　共生生物：魔獣の幻術師ショーテル／輝く天使モリオン
@@ -146,7 +146,7 @@ DPARA_SamejimaTsutomu.bmp, DemonParasite.mid
 ＳＰ, 50, 偵察, 1, 挑発, 3, ひらめき, 8, 根性, 11, 集中, 17, 鉄壁, 22
 DPARA_KurokiOtsuha.bmp, DemonParasite.mid
 ===
-特殊効果発動率強化Lv4=非表示
+特殊効果発動率強化Lv4=全
 
 #　共生生物：氷壁の騎士ブリガンダイン
 #　　共生生物の力で世界征服をしようとしていたマッドサイエンティスト。
@@ -179,7 +179,7 @@ DPARA_HibinoKiriko.bmp, DemonParasite.mid
 ＨＰ強化Lv-12.5=非表示 (変身前)
 装甲強化Lv-2=非表示 (変身前)
 運動性強化Lv-6=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_HibinoKirikoU.bmp (変身前)
 
 #　共生生物：輝く天使モリオン
@@ -233,7 +233,7 @@ DPARA_ArakawaSho.bmp, DemonParasite.mid
 ＳＰ, 40, 魅惑, 1, 隠れ身, 5, 集中, 10, かく乱, 13, 痛撃, 20, 策謀, 24
 DPARA_HattoriHonoka.bmp, DemonParasite.mid
 ===
-特殊効果発動率強化Lv4=非表示
+特殊効果発動率強化Lv4=全
 
 #　共生生物：稲妻の魔術師カラドボルグ／魔獣の幻術師ショーテル
 #　　悪魔憑きの犯罪組織『デビルズ・ネスト』の構成員。
@@ -273,7 +273,7 @@ DPARA_MitsurugiNagi.bmp, DemonParasite.mid
 ＨＰ強化Lv-10=非表示 (変身前)
 装甲強化Lv-2=非表示 (変身前)
 運動性強化Lv-9=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_MitsurugiNagiU.bmp (変身前)
 
 #　共生生物：神速の暗殺者ファランクス
@@ -300,7 +300,7 @@ DPARA_MitsurugiKaede.bmp, DemonParasite.mid
 ＨＰ強化Lv-12.5=非表示 (変身前)
 装甲強化Lv-3=非表示 (変身前)
 運動性強化Lv-6=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_MitsurugiKaedeU.bmp (変身前)
 
 #　共生生物：輝きの天使モリオン
@@ -324,7 +324,7 @@ DPARA_MitsurugiOroshi.bmp, DemonParasite.mid
 ＨＰ強化Lv-10=非表示 (変身前)
 装甲強化Lv-3=非表示 (変身前)
 運動性強化Lv-5=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_MitsurugiOroshiU.bmp (変身前)
 
 #　共生生物：悪夢の人形使いウォーコイト
@@ -347,7 +347,7 @@ DPARA_MitsurugiArashi.bmp, DemonParasite.mid
 ＨＰ強化Lv-10=非表示 (変身前)
 装甲強化Lv-4=非表示 (変身前)
 運動性強化Lv-6=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_MitsurugiArashiU.bmp (変身前)
 ===
 大型拳銃,				1300,  2,  3,  -10,   9,   -,   -, AABA,   +0, 銃(変身前)
@@ -376,7 +376,7 @@ DPARA_YamamotoRyusei.bmp, DemonParasite.mid
 ＨＰ強化Lv-15=非表示 (変身前)
 装甲強化Lv-4=非表示 (変身前)
 運動性強化Lv-5=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_YamamotoRyuseiU.bmp (変身前)
 
 #　共生生物：無双の獣人ヴォージェ
@@ -402,7 +402,7 @@ DPARA_MaeguchiMaya.bmp, DemonParasite.mid
 ＨＰ強化Lv-16=非表示 (変身前)
 装甲強化Lv-2=非表示 (変身前)
 運動性強化Lv-7=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_MaeguchiMayaU.bmp (変身前)
 
 #　共生生物：（前期）炎の魔神クレイモア
@@ -441,7 +441,7 @@ DPARA_TsukishimaSaori.bmp, DemonParasite.mid
 ＨＰ強化Lv-12.5=非表示 (変身前)
 装甲強化Lv-3=非表示 (変身前)
 運動性強化Lv-6=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_TsukishimaSaoriU.bmp (変身前)
 
 #　共生生物：カグツチ
@@ -486,7 +486,7 @@ DPARA_ElenaChernenko.bmp, DemonParasite.mid
 ＨＰ強化Lv-7.5=非表示 (変身前)
 装甲強化Lv-2=非表示 (変身前)
 運動性強化Lv-3=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_ElenaChernenkoU.bmp (変身前)
 
 #　共生生物：（前期）背徳の使徒アネラス
@@ -569,7 +569,7 @@ DPARA_TamakiAsuka.bmp, DemonParasite.mid
 ＨＰ強化Lv-2.5=非表示 (変身前)
 装甲強化Lv-3=非表示 (変身前)
 運動性強化Lv-5=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_TamakiAsukaU.bmp (変身前)
 
 #　　味方時は敵仕様という能力を封印してください。
@@ -595,7 +595,7 @@ DPARA_HyugaAoi.bmp, DemonParasite.mid
 ＨＰ強化Lv-10=非表示 (変身前)
 装甲強化Lv-2=非表示 (変身前)
 運動性強化Lv-5=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_HyugaAoiU.bmp (変身前)
 
 #　共生生物：炎の魔神クレイモア
@@ -639,7 +639,7 @@ DPARA_MakinoRyosuke.bmp, DemonParasite.mid
 ＨＰ強化Lv-5=非表示 (変身前)
 装甲強化Lv-6=非表示 (変身前)
 運動性強化Lv-5=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_MakinoRyosukeU.bmp (変身前)
 
 #　共生生物：氷壁の騎士ブリガンダイン／神速の暗殺者ファランクス
@@ -663,7 +663,7 @@ DPARA_Yamato.bmp, DemonParasite.mid
 ＨＰ強化Lv-10=非表示 (変身前)
 装甲強化Lv-3=非表示 (変身前)
 運動性強化Lv-6=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_YamatoU.bmp (変身前)
 
 #　共生生物：魔獣の幻術士ショーテル／稲妻の魔術師カラドボルグ
@@ -680,7 +680,7 @@ DPARA_KanouMizuki(A).bmp, DMNP_SecretAngel.mid
 ＨＰ強化Lv-12.5=非表示 (変身前)
 装甲強化Lv-3=非表示 (変身前)
 運動性強化Lv-6=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_KanouMizuki(A)U.bmp (変身前)
 
 #　共生生物：輝く天使モリオン／モリオン
@@ -703,7 +703,7 @@ DPARA_AobaKanako.bmp, DemonParasite.mid
 ＨＰ強化Lv-12.5=非表示 (変身前)
 装甲強化Lv-4=非表示 (変身前)
 運動性強化Lv-6=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_AobaKanakoU.bmp (変身前)
 
 #　ＡＡＳ　：ＡＡＳ‐ＡＧ０７Ｐ剛龍
@@ -886,7 +886,7 @@ DPARA_HayamiJuzou.bmp, DMNP_SecretAngel.mid
 ＨＰ強化Lv-10=非表示 (変身前)
 装甲強化Lv-2=非表示 (変身前)
 運動性強化Lv-9=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_HayamiJuzouU.bmp (変身前)
 
 #　共生生物：神速の暗殺者ファランクス
@@ -907,7 +907,7 @@ DPARA_KanouMizuki.bmp, DMNP_SecretAngel.mid
 ＨＰ強化Lv-12.5=非表示 (変身前)
 装甲強化Lv-3=非表示 (変身前)
 運動性強化Lv-6=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_KanouMizukiU.bmp (変身前)
 
 #　共生生物：輝く天使モリオン
@@ -929,7 +929,7 @@ DPARA_SaotomeRin.bmp, DMNP_SecretAngel.mid
 ===
 ＨＰ強化Lv-15=非表示 (変身前)
 装甲強化Lv-4=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_SaotomeRinU.bmp (変身前)
 
 #　共生生物：無双の獣人ヴォージェ
@@ -951,7 +951,7 @@ DPARA_Atsuki.bmp, DMNP_SecretAngel.mid
 ＨＰ強化Lv-10=非表示 (変身前)
 装甲強化Lv-3=非表示 (変身前)
 運動性強化Lv-6=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_AtsukiU.bmp (変身前)
 
 #　共生生物：魔獣の幻術士ショーテル
@@ -973,7 +973,7 @@ DPARA_LyudmilaTBorisovnaGlushenkova.bmp, DMNP_SecretAngel.mid
 ＨＰ強化Lv-10=非表示 (変身前)
 装甲強化Lv-7=非表示 (変身前)
 運動性強化Lv-5=非表示 (変身前)
-武器強化Lv-2=非表示 (変身前)
+武器強化Lv-2=全 (変身前)
 ユニット画像=DPARA_LyudmilaTBorisovnaGlushenkovaU.bmp (変身前)
 
 #　共生生物：氷壁の騎士ブリガンダイン
@@ -1060,7 +1060,7 @@ DPARA_KamikawaKiriya.bmp, DMNP_SecretAngel.mid
 ＳＰ, 30, 根性, 1, ド根性, 20
 DPARA_Vicious.bmp, DemonParasite.mid
 ===
-特殊効果発動率強化Lv4=非表示
+特殊効果発動率強化Lv4=全
 
 ヴィシャス(デモンパ)(強)(ザコ)
 ヴィシャス, -, 悪魔憑き, AAAA, 70
@@ -1070,7 +1070,7 @@ DPARA_Vicious.bmp, DemonParasite.mid
 ＳＰ, 30, 根性, 1, ド根性, 20
 DPARA_Vicious.bmp, DemonParasite.mid
 ===
-特殊効果発動率強化Lv3=非表示
+特殊効果発動率強化Lv3=全
 
 ヴィシャス(デモンパ)(ザコ)
 ヴィシャス, -, 悪魔憑き, AAAA, 50
@@ -1080,7 +1080,7 @@ DPARA_Vicious.bmp, DemonParasite.mid
 ＳＰ, 30, 根性, 1, ド根性, 20
 DPARA_Vicious.bmp, DemonParasite.mid
 ===
-特殊効果発動率強化Lv3=非表示
+特殊効果発動率強化Lv3=全
 
 マイト(デモンパ)(汎用)
 マイト, -, 悪魔憑き, AAAA, 100
@@ -1091,7 +1091,7 @@ DPARA_Vicious.bmp, DemonParasite.mid
 ＳＰ, 30, 根性, 1, ド根性, 20
 DPARA_Might.bmp, DemonParasite.mid
 ===
-特殊効果発動率強化Lv4=非表示
+特殊効果発動率強化Lv4=全
 
 ＡＡＳドライバー(デモンパ)(汎用)
 ＡＡＳドライバー, -, 悪魔憑き, AAAA, 100
@@ -1101,7 +1101,7 @@ DPARA_Might.bmp, DemonParasite.mid
 ＳＰ, 30, 根性, 1, ド根性, 20
 DPARA_AASDriver.bmp, DemonParasite.mid
 ===
-特殊効果発動率強化Lv4=非表示
+特殊効果発動率強化Lv4=全
 
 #・ウォーコイトの人形
 

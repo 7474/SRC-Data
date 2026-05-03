@@ -1,0 +1,112 @@
+
+## ヒイロ、カトルの暴走時パイロット変更処理
+## 対応範囲：ウイングゼロ(ＴＶ、ＥＷ)、プロトゼロ、エピオン(ＴＶ、ＥＷ)、
+## ウイングガンダムセラフィム、ガンダムルシフェル(『サイドストーリーティエルの衝動』より)
+
+*ターン 全 全:
+*行動終了 全:
+*攻撃後 全 全:
+*破壊 全:
+*使用後 全 全:
+
+If Status(ヒイロ＝ユイ) = "出撃" Then
+	If Condition(ヒイロ＝ユイ, "暴走") Then
+		Switch Unit(ヒイロ＝ユイ)
+			Case ウイングガンダムゼロ ウイングガンダムゼロ(ネオバード) _
+			ウイングガンダムゼロ(ＥＷ) ウイングガンダムゼロ(ＥＷ)(ネオバード) _
+			ウイングガンダムプロトゼロ ウイングガンダムプロトゼロ(ネオバード) _
+			ガンダムエピオン ガンダムエピオン(ＭＡ) _
+			ガンダムエピオン(ＥＷ) ガンダムエピオン(ＥＷ)(ワイバーン) _
+			ウイングガンダムセラフィム ガンダムルシフェル
+				Call GW_ヒイロ暴走
+			
+			Case Else
+			
+		EndSw
+	EndIf
+EndIf
+
+If Status(カトル＝ラバーバ＝ウィナー) = "出撃" Then
+	If Condition(カトル＝ラバーバ＝ウィナー, "暴走") Then
+		Switch Unit(カトル＝ラバーバ＝ウィナー)
+			Case ウイングガンダムゼロ ウイングガンダムゼロ(ネオバード) _
+			ウイングガンダムゼロ(ＥＷ) ウイングガンダムゼロ(ＥＷ)(ネオバード) _
+			ウイングガンダムプロトゼロ ウイングガンダムプロトゼロ(ネオバード) _
+			ガンダムエピオン ガンダムエピオン(ＭＡ) _
+			ガンダムエピオン(ＥＷ) ガンダムエピオン(ＥＷ)(ワイバーン) _
+			ウイングガンダムセラフィム ガンダムルシフェル
+				Call GW_カトル暴走
+			
+			Case Else
+			
+		EndSw
+	EndIf
+EndIf
+
+Exit
+
+*破壊 ヒイロ＝ユイ(暴走):
+*エピローグ:
+
+If IsVarDefined(GW_ヒイロ暴走) Then
+	Call GW_ヒイロ暴走終了
+EndIf
+
+Exit
+
+*破壊 カトル＝ラバーバ＝ウィナー(壊):
+*エピローグ:
+
+If IsVarDefined(GW_カトル暴走) Then
+	Call GW_カトル暴走終了
+EndIf
+
+Exit
+
+
+
+GW_ヒイロ暴走:
+If IsDefined(ヒイロ＝ユイ,パイロット) > 0 And IsVarDefined(GW_ヒイロ暴走) = 0 Then
+	##ReplacePilot ヒイロ＝ユイ ヒイロ＝ユイ(暴走)
+	Equip ヒイロ＝ユイ ヒイロ暴走(ＧＷ)
+	
+	Set GW_ヒイロ暴走 100
+EndIf
+
+Return
+
+
+Return
+
+GW_カトル暴走:
+If IsDefined(カトル＝ラバーバ＝ウィナー,パイロット) > 0 And IsVarDefined(GW_カトル暴走) = 0 Then
+	##ReplacePilot カトル＝ラバーバ＝ウィナー カトル＝ラバーバ＝ウィナー(壊)
+	Equip カトル＝ラバーバ＝ウィナー カトル暴走(ＧＷ)
+	
+	Set GW_カトル暴走 100
+EndIf
+
+Return
+
+
+GW_ヒイロ暴走終了:
+##If IsDefined(ヒイロ＝ユイ(暴走),パイロット) > 0 Then
+If IsVarDefined(GW_ヒイロ暴走) > 0 Then
+	##ReplacePilot ヒイロ＝ユイ(暴走) ヒイロ＝ユイ
+	RemoveItem Unit(ヒイロ＝ユイ) ヒイロ暴走(ＧＷ)
+	Unset GW_ヒイロ暴走
+EndIf
+
+Return
+
+
+GW_カトル暴走終了:
+##If IsDefined(カトル＝ラバーバ＝ウィナー(壊),パイロット) > 0 Then
+If IsVarDefined(GW_カトル暴走) > 0 Then
+	##ReplacePilot カトル＝ラバーバ＝ウィナー(壊) カトル＝ラバーバ＝ウィナー
+	RemoveItem Unit(カトル＝ラバーバ＝ウィナー) カトル暴走(ＧＷ)
+	Unset GW_カトル暴走
+EndIf
+Return
+
+
