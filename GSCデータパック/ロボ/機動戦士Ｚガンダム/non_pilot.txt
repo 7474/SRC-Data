@@ -88,6 +88,21 @@
 エマ, G0087_EmmaSheen(N)(S).bmp
 
 #クワトロ#
+クワトロ＝バジーナ(攻撃)
+クワトロ, G0087_QuattroBajina(A)(2).bmp
+クワトロ(攻撃)
+クワトロ, G0087_QuattroBajina(A)(2).bmp
+
+クワトロ＝バジーナ(ダメージ)
+クワトロ, G0087_QuattroBajina(D)(2).bmp
+クワトロ(ダメージ)
+クワトロ, G0087_QuattroBajina(D)(2).bmp
+
+クワトロ＝バジーナ(データ)
+クワトロ, G0087_QuattroBajina(Data).bmp
+クワトロ(データ)
+クワトロ, G0087_QuattroBajina(Data).bmp
+
 クワトロ＝バジーナ(通常)
 クワトロ, G0087_QuattroBajina(G).bmp
 クワトロ(通常)
@@ -109,6 +124,21 @@
 クワトロ, G0087_QuattroBajina(N)(D).bmp
 
 #シャア#
+シャア＝アズナブル(Ｚ)(攻撃)
+シャア, G0087_QuattroBajina(D)(2).bmp
+シャア(Ｚ)(攻撃)
+シャア, G0087_QuattroBajina(D)(2).bmp
+
+シャア＝アズナブル(Ｚ)(ダメージ)
+シャア, G0087_QuattroBajina(D)(2).bmp
+シャア(Ｚ)(ダメージ)
+シャア, G0087_QuattroBajina(D)(2).bmp
+
+シャア＝アズナブル(Ｚ)(データ)
+シャア, G0087_QuattroBajina(Data).bmp
+シャア(Ｚ)(データ)
+シャア, G0087_QuattroBajina(Data).bmp
+
 シャア＝アズナブル(Ｚ)(通常)
 シャア, G0087_QuattroBajina(G).bmp
 シャア(Ｚ)(通常)
@@ -129,12 +159,6 @@
 シャア(Ｚ素顔)(ダメージ)
 シャア, G0087_QuattroBajina(N)(D).bmp
 
-#アムロ#
-アムロ＝レイ(Ｚ)(攻撃)
-アムロ, G0087_AmuroRay(A).bmp
-アムロ(Ｚ)(攻撃)
-アムロ, G0087_AmuroRay(A).bmp
-
 #ブライト#
 ブライト＝ノア(Ｚ)(攻撃)
 ブライト,G0093_BrightNoah(A).bmp
@@ -146,17 +170,29 @@
 ブライト(Ｚ)(ダメージ)
 ブライト,G0093_BrightNoah(D).bmp
 
+#アムロ#
+アムロ＝レイ(Ｚ)(攻撃)
+アムロ, G0087_AmuroRay(A).bmp
+アムロ(Ｚ)(攻撃)
+アムロ, G0087_AmuroRay(A).bmp
+
 #エゥーゴ#
-ファ＝ユイリィ(通常)
-ファ, G0087_FaYuiri(N)(2).bmp
-ファ(通常)
-ファ, G0087_FaYuiri(N)(2).bmp
 
 アポリー(通常)
 アポリー, G0087_Apolli(N).bmp
 
 ロベルト(通常)
 ロベルト, G0087_Roberto(N).bmp
+
+ファ＝ユイリィ(通常)
+ファ, G0087_FaYuiri(N)(2).bmp
+ファ(通常)
+ファ, G0087_FaYuiri(N)(2).bmp
+
+カツ＝コバヤシ(最後)
+カツ, G0087_KatsuKobayashi(Dead).bmp
+カツ(最後)
+カツ, G0087_KatsuKobayashi(Dead).bmp
 
 #ジェリド#
 ジェリド＝メサ(攻撃)
@@ -195,17 +231,22 @@
 ジェリド, G0087_JeridMessa(N)(E).bmp
 
 #シロッコ#
-パプティマス＝シロッコ(攻撃)
+パプテマス＝シロッコ(攻撃)
 シロッコ, G0087_PaptimusScirocco(A).bmp
 シロッコ(攻撃)
 シロッコ, G0087_PaptimusScirocco(A).bmp
 
-パプティマス＝シロッコ(ダメージ)
+パプテマス＝シロッコ(ダメージ)
 シロッコ, G0087_PaptimusScirocco(D).bmp
 シロッコ(ダメージ)
 シロッコ, G0087_PaptimusScirocco(D).bmp
 
 #ティターンズ#
+フォウ＝ムラサメ(遠隔操作)
+フォウ, G0087_FourMurasame(RemoteControl).bmp
+フォウ(遠隔操作)
+フォウ, G0087_FourMurasame(RemoteControl).bmp
+
 ヤザン＝ゲーブル(通常)
 ヤザン, G0087_YazzanGable(N).bmp
 ヤザン(通常)
@@ -220,6 +261,11 @@
 ラムサス, G0087_RamsasHasa(N).bmp
 ラムサス(通常)
 ラムサス, G0087_RamsasHasa(N).bmp
+
+レコア＝ロンド(ティターンズ)
+レコア, G0087_ReccoaLondo(T).bmp
+レコア(ティターンズ)
+レコア, G0087_ReccoaLondo(T).bmp
 
 #ノンパイロット-------------------------------------------------------------------------
 
@@ -299,32 +345,16 @@
 エゥーゴ兵
 エゥーゴ兵, G0087_AEUG-Soldier.bmp
 
-アムロ＝レイ(回避)
-アムロ, G0087_AmuroRay(E).bmp
-
-フォウ＝ムラサメ(遠隔操作)
-フォウ, G0087_FourMurasame(RemoteControl).bmp
-
-ハマーン＝カーン(Ｚ)
-ハマーン, G0087_HamaanKhan.bmp
-
-カツ＝コバヤシ(最後)
-カツ, G0087_KatsuKobayashi(Dead).bmp
-
-クワトロ＝バジーナ(攻撃)
-クワトロ, G0087_QuattroBajina(A)(2).bmp
-
-クワトロ＝バジーナ(ダメージ)
-クワトロ, G0087_QuattroBajina(D)(2).bmp
-
-クワトロ＝バジーナ(データ)
-クワトロ, G0087_QuattroBajina(Data).bmp
 
 ラーディッシュブリッジクルー
 クルー, G0087_RadishBridgeCrew.bmp
 
-レコア＝ロンド(ティターンズ)
-レコア, G0087_ReccoaLondo(T).bmp
+
+ハマーン＝カーン(Ｚ)
+ハマーン, G0087_HamaanKhan.bmp
+ハマーン(Ｚ)
+ハマーン, G0087_HamaanKhan.bmp
+
 
 ステファニー＝ルオ
 ステファニー, G0087_StephanieLuo.bmp

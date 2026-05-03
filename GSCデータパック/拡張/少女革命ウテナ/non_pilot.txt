@@ -1,32 +1,48 @@
-#データ作成　乾　哲雄樹　tetsuyuki_inui@geocities.co.jp
-
 ウテナ攻撃
 ウテナ, SKU_TenjouUtena(A2).bmp
 
 ウテナ(男装)
 ウテナ, SKU_TenjouUtena(M).bmp
 
-ディオス
+ディオス(ウテナ)
 ディオス, SKU_Dios.bmp
 
-#空に浮かぶ城にいる少年、ウテナの王子様ととてもよく似ている
+#空に浮かぶ城から降ってくる青年姿のディオス
 
-チュチュ
-チュチュ, SKU_Chuchu(UTENA).bmp
+ディオス(ウテナ攻撃用)
+ウテナ, SKU_Dios(A).bmp
 
-#アンシーの友達のサル？（ネズミかもしれない）
+#ウテナのダイアログで名前がチカチカしないために設定
+
+
+チュチュ(ウテナ)
+チュチュ, SKU_Chuchu.bmp
+
+#アンシーの友達のサル
 
 アンシー制服
 アンシー, SKU_HimemiyaAnthy(S).bmp
-
 
 アンシー魔女
 アンシー, SKU_HimemiyaAnthy(M).bmp
 
 #眼鏡を外したときの姿
 
-アンシー薔薇の花嫁
-アンシー, SKU_HimemiyaAnthy(R).bmp
+
+
+ウテナ幼少期
+ウテナ, SKU_TenjouUtena(C).bmp
+
+#回想シーンの「棺に入った少女」
+
+ディオス幼少期
+ディオス, SKU_Dios(C).bmp
+
+アンシー幼少期
+アンシー, SKU_HimemiyaAnthy(C).bmp
+
+#同じく回想シーンのディオスとアンシー
+
 
 
 篠原若葉
@@ -37,7 +53,7 @@
 風見達也
 達也, SKU_KazamiTatsuya.bmp
 
-#若葉の幼なじみ。昔の若葉の王子様だった。
+#若葉の幼なじみ。昔の若葉の王子様だった
 
 薫梢
 梢, SKU_KaoruKozue.bmp
@@ -47,7 +63,7 @@
 高槻枝織
 枝織, SKU_TakatsukiShiori.bmp
 
-#樹璃の中等部時代の友人、樹璃は彼女に親友以上の思いを寄せていた
+#樹璃の中等部時代の友人、樹璃は彼女に単なる友人以上の思いを寄せていた
 
 石蕗美蔓
 石蕗, SKU_TuwabukiMitsuru.bmp
@@ -68,7 +84,7 @@
 暁生カー, SKU_AkioCar.bmp
 
 #暁生がデュエリストをそれぞれの望む世界へと導くときに現れる車。
-#後期の決闘広場でも走り回っている。
+#後期の決闘広場でも走り回っている
 
 根室教授
 根室教授, SKU_ProfesserNemuro.bmp
@@ -78,19 +94,18 @@
 千唾馬宮
 馬宮, SKU_TidaMamiya(B).bmp
 
-#御影草時と共にある少年。暗い地下質黒薔薇を育て、この薔薇の力で、黒薔薇のデュエリストを操る。
-#薔薇の花嫁の資格があるらしい。
+#御影草時と共にある少年。暗い地下室で黒薔薇を育て、この薔薇の力で、黒薔薇のデュエリストを操る。
 
 千唾馬宮(真の姿)
 馬宮, SKU_TidaMamiya(T).bmp
 
-#昔、御影草時が根室教授だった頃の本当の馬宮。
-#黒薔薇の馬宮は薔薇の花嫁のもう一つの姿であった。
+#昔、御影草時が根室教授だった頃の本当の馬宮
+#黒薔薇の馬宮は薔薇の花嫁のもう一つの姿であった
 
-千田時子
+千唾時子
 時子, SKU_TidaTokiko.bmp
 
-#馬宮の姉で理事長から根室教授の補佐に送り込まれた。
+#馬宮の姉で理事長から根室教授の補佐に送り込まれた
 
 鳳香苗
 香苗, SKU_OotoriKanae.bmp
@@ -98,16 +113,17 @@
 #鳳学園の理事長の娘で暁生の婚約者
 
 影絵少女Ａ子
-Ａ子, SKU_KageeSyoujoAko.bmp
+影絵少女, SKU_SilhouettoGirlAko.bmp
 
 影絵少女Ｂ子
-Ｂ子, SKU_KageeSyoujoBko.bmp
+影絵少女, SKU_SilhouettoGirlBko.bmp
 
 影絵少女Ｃ子
-Ｃ子, SKU_KageeSyoujoCko.bmp
+影絵少女, SKU_SilhouettoGirlCko.bmp
 
-#鳳学園の一角で影絵芝居を演じる少女達。
-#彼女が実在の人物であるのかは不明
+#鳳学園の一角で影絵芝居を演じる少女達
+#ナレーターみたいなものですし愛称は影絵少女としました
+
 
 苑田茎子
 茎子, SKU_SonodaKeiko.bmp
@@ -125,13 +141,13 @@
 
 #七実様のとりまき、その３
 
-鈴木
+鈴木(ウテナ)
 鈴木, SKU_Suzuki.bmp
 
-山田
+山田(ウテナ)
 山田, SKU_Yamada.bmp
 
-田中
+田中(ウテナ)
 田中, SKU_Tanaka.bmp
 
 #七実のおっかけ
@@ -149,63 +165,10 @@
 薔薇４
 薔薇, SKU_Rose4.bmp
 
-冬芽の薔薇１
-薔薇, SKU_RedRose1.bmp
+影絵少女Ｅ子
+影絵少女, SKU_SilhouettoGirlEko.bmp
 
-冬芽の薔薇２
-薔薇, SKU_RedRose2.bmp
+影絵少女Ｆ子
+影絵少女, SKU_SilhouettoGirlFko.bmp
 
-冬芽の薔薇３
-薔薇, SKU_RedRose3.bmp
-
-冬芽の薔薇４
-薔薇, SKU_RedRose4.bmp
-
-西園寺の薔薇１
-薔薇, SKU_GreenRose1.bmp
-
-西園寺の薔薇２
-薔薇, SKU_GreenRose2.bmp
-
-西園寺の薔薇３
-薔薇, SKU_GreenRose3.bmp
-
-西園寺の薔薇４
-薔薇, SKU_GreenRose4.bmp
-
-幹の薔薇１
-薔薇, SKU_BlueRose1.bmp
-
-幹の薔薇２
-薔薇, SKU_BlueRose2.bmp
-
-幹の薔薇３
-薔薇, SKU_BlueRose3.bmp
-
-幹の薔薇４
-薔薇, SKU_BlueRose4.bmp
-
-樹璃の薔薇１
-薔薇, SKU_OrangeRose1.bmp
-
-樹璃の薔薇２
-薔薇, SKU_OrangeRose2.bmp
-
-樹璃の薔薇３
-薔薇, SKU_OrangeRose3.bmp
-
-樹璃の薔薇４
-薔薇, SKU_OrangeRose4.bmp
-
-七実の薔薇１
-薔薇, SKU_YellowRose1.bmp
-
-七実の薔薇２
-薔薇, SKU_YellowRose2.bmp
-
-七実の薔薇３
-薔薇, SKU_YellowRose3.bmp
-
-七実の薔薇４
-薔薇, SKU_YellowRose4.bmp
-
+#劇場版の放送部

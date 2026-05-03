@@ -11,9 +11,9 @@
 二刀自在剣(とどめ), @戦闘アニメ_四方分離回避発動 Inori.wav " "
 ライフル, ライフル Weapon\EFFECT_ShotGun02.bmp 48
 アームガン, キャノン砲 2
-阻止(不可視の刃), 発光 水色 BeamGun.wav
-不可視の刃, 旋回光弾 水色
-不可視の刃(命中), 包囲ビーム 水色 Saber.wav;包囲ビーム 水色 Saber.wav
+阻止(不可視の刃), 発光 黒 BeamGun.wav
+不可視の刃, 旋回光弾 黒
+不可視の刃(命中), 包囲ビーム 黒 Saber.wav;包囲ビーム 黒 Saber.wav
 不可視の刃(とどめ), @戦闘アニメ_四方分離回避発動 Inori.wav " "
 血の刃(準備), ビームソード 白 BeamSaber.wav
 血の刃(攻撃), 多節武器 "SlideWeapon\EFFECT_BeamWhip(white)[01-03].bmp" 32 Swing.wav
@@ -32,6 +32,12 @@
 吸血, 格闘
 吸血(命中), 噛み付き;吸収 赤
 作業用フック, 実弾発射 Hand\EFFECT_Punch(Black)10.bmp 有線
+
+グール戦士メロウス
+阻止(自在剣), 発光 黒 BeamGun.wav
+自在剣, 旋回光弾 黒
+自在剣(命中), 包囲ビーム 黒 Saber.wav;包囲ビーム 黒 Saber.wav
+自在剣(とどめ), @戦闘アニメ_四方分離回避発動 Inori.wav " "
 
 バルカル種族(惑星をつぐ者)
 ライフル, ライフル Weapon\EFFECT_BullpupRifle01.bmp 40
