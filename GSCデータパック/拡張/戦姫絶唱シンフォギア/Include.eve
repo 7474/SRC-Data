@@ -1,3 +1,165 @@
+
+#### ローカル戦闘アニメ指定 ####
+戦闘アニメ_SZS_合体アームドギア(ＸＶ)準備:
+Local 調側動作 切歌側動作
+Switch Unit(対象ユニットＩＤ)
+	Case 月読調(ＸＶ)
+		Set 調側動作 Partner(0)
+		Set 切歌側動作 Partner(1)
+	Case 暁切歌(ＸＶ)
+		Set 調側動作 Partner(1)
+		Set 切歌側動作 Partner(0)
+	Case Else
+EndSw
+
+Switch Area(相手ユニットＩＤ)
+	Case 地上 水上
+		Call 戦闘アニメ_投擲武器準備 Weapon\EFFECT_YoYo04.bmp 32 調側動作
+		Call 戦闘アニメ_大鎌準備 切歌側動作
+		
+	Case 空中 水中 宇宙
+		
+		Switch Unit(対象ユニットＩＤ)
+			Case 月読調(ＸＶ)
+				Call 戦闘アニメ_同時振る武器準備 武器画像=Weapon\EFFECT_YoYo04.bmp=Weapon\EFFECT_Scithe01.bmp 画像サイズ=32=32 二刀流
+			Case 暁切歌(ＸＶ)
+				Call 戦闘アニメ_同時振る武器準備 武器画像=Weapon\EFFECT_Scithe01.bmp=Weapon\EFFECT_YoYo04.bmp 画像サイズ=32=32 二刀流
+			Case Else
+		EndSw
+				
+	Case Else
+EndSw
+
+Wait 2
+
+Unset 調側動作 切歌側動作
+Return
+
+
+戦闘アニメ_SZS_合体アームドギア(ＸＶ)攻撃:
+Local 調側動作 切歌側動作
+Switch Unit(対象ユニットＩＤ)
+	Case 月読調(ＸＶ)
+		Set 調側動作 Partner(0)
+		Set 切歌側動作 Partner(1)
+	Case 暁切歌(ＸＶ)
+		Set 調側動作 Partner(1)
+		Set 切歌側動作 Partner(0)
+	Case Else
+EndSw
+
+Switch Area(相手ユニットＩＤ)
+	Case 地上 水上
+		Call 戦闘アニメ_なぎ払い攻撃 調側動作
+		Wait 1
+		Call 戦闘アニメ_対象指定回転発射準備 調側動作 切歌側動作 Bullet\EFFECT_BeamRingCutter(Pink)01.bmp 32 Whiz.wav 速
+		Wait 2
+		Call 戦闘アニメ_振る武器変形準備 32 Weapon\EFFECT_Scithe01.bmp LightWeapon\EFFECT_LightGiantAx(Green)01.bmp 48 Chaff.wav 切歌側動作
+		Wait 1
+		PlaySound Engine.wav
+		Wait 2
+		Call 戦闘アニメ_手持ち発射攻撃 LightWeapon\EFFECT_LightGiantAx(Green)01.bmp 48 切歌側動作 Bullet\EFFECT_STG_Bullet(Pink)03.bmp 32 BeamCannon.wav
+		Wait 2
+		Call 戦闘アニメ_周囲回転攻撃 Bullet\EFFECT_STG_Bullet(Pink)05.bmp Swing.wav 2
+		
+		
+	Case 空中 水中 宇宙
+		Call 戦闘アニメ_斬撃攻撃 二刀流 切歌側動作 -.wav
+		PlaySound Slash(4).wav
+		Wait 4
+		
+		Call 戦闘アニメ_射撃武器変形準備 Weapon\EFFECT_YoYo02.bmp 32 Bullet\EFFECT_ShootingCutter(Pink)01.bmp 32 調側動作
+		Wait 2
+		Call 戦闘アニメ_透明化準備 切歌側動作 反映
+		Call 戦闘アニメ_射撃武器準備 ("Unit\" & Info("ユニットデータ", 暁切歌(ＸＶ),"グラフィック")) 調側動作
+		PlaySound Transform.wav
+		Wait 2
+		PlaySound Reload(2).wav
+		Wait 2
+		PlaySound Reload(2).wav
+		Wait 2
+		PlaySound Reload(2).wav
+		Wait 2
+		PlaySound Reload(2).wav
+		Wait 2
+		Call 戦闘アニメ_手持ち発射攻撃 ("Unit\" & Info("ユニットデータ", 暁切歌(ＸＶ),"グラフィック")) 32 調側動作 Bullet\EFFECT_ShootingCutter(Pink)01.bmp 32 AntiAirMissile.wav
+	Case Else
+EndSw
+
+Unset 調側動作 切歌側動作
+Return
+
+
+戦闘アニメ_SZS_合体アームドギア(ＸＶ)命中:
+Local 調側動作
+Switch Unit(対象ユニットＩＤ)
+	Case 月読調(ＸＶ)
+		Set 調側動作 Partner(0)
+	Case 暁切歌(ＸＶ)
+		Set 調側動作 Partner(1)
+	Case Else
+EndSw
+
+Switch Area(相手ユニットＩＤ)
+	Case 地上 水上
+		Call 戦闘アニメ_センタリング命中 調側動作 Swing(2).wav 3
+		PlaySound Swing(2).wav
+		Wait 3
+		PlaySound Swing(2).wav
+		Wait 3
+		Call 戦闘アニメ_周囲回転命中 Bullet\EFFECT_STG_Bullet(Pink)05.bmp Swing.wav 2
+		Call 戦闘アニメ_大爆発命中
+		
+	Case 空中 水中 宇宙
+		Call 戦闘アニメ_飛来アップ準備 Bullet\EFFECT_ShootingCutter(Pink)01.bmp Jet.wav
+		Wait 2
+		Call 戦闘アニメ_大爆発命中
+	Case Else
+EndSw
+
+Unset 調側動作
+Return
+
+
+## 汎用戦闘アニメのＭＡＰ大爆発攻撃を引用・改変。
+戦闘アニメ_SZS_ＭＡＰ結界攻撃:
+
+
+Local i RNG
+Local B_C = _G_BC_FA()
+
+_UnSetBattleAnimeValue
+
+Switch _MapWeaponTypeCheck(投)
+Case 全
+  Center 対象ユニットＩＤ
+  Set RNG _MapRangeCheck(3)
+Case Else
+  Center X(目標地点) Y(目標地点)
+  Set RNG _MapLevelCheck(0)
+EndSw
+
+Set RNG (((RNG * 2) + 1) * 32 + 32)
+
+If (RNG > 288) Then
+  Set RNG 288
+EndIf
+
+_SelectSound "Flair.wav" _GetWavFromArgs()
+
+Wait Start
+## For i = 1 To 4
+##   _PaintCutin_SL ("Barrier\EFFECT_MagicShield" & B_C & "0" & i & ".bmp") - RNG RNG
+##   Wait Until (i * 3)
+## Next
+## アニメの描写に近づけるため、結界が最初から完成状態で表示されるように。
+_PaintCutin_SL ("Barrier\EFFECT_MagicShield" & B_C & "04" & ".bmp") - RNG RNG
+Wait Until 20
+
+ClearPicture
+Return
+
+
 #### 以下の戦闘アニメラベルは、勇者王ガオガイガーフォルダから流用したものです ####
 ## 他との混同を防ぐため、識別子を変更しています。
 
