@@ -1,0 +1,24 @@
+name: Validate GSC Data
+
+on: 
+  push:
+    paths:
+      - 'GSCデータパック/ロボ/**'
+      - 'GSCデータパック/拡張/**'
+      - .github/workflows/validate-gsc-data.yml
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+    
+    - name: Validate Data
+      uses: 7474/SRC-DataLinter@master
+      with:
+        files: 'GSCデータパック/ロボ/ GSCデータパック/拡張/'
