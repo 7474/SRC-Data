@@ -12,18 +12,10 @@ lang: ja
 exclude:
   - build.sh
 
-# サイト内検索。日本語は語を空白で区切らないので、検索用の語句は作品ごとのページの front matter（search_terms）に、
-# 名前と、＝・括弧などで区切った部分を空白で区切って入れている（assets/js/zzzz-search-data.json・_includes/lunr/custom-index.js）
-search_enabled: true
-search:
-  heading_level: 1
-  previews: 2
-  preview_words_before: 2
-  preview_words_after: 4
-  tokenizer_separator: /[\s]+/
-  rel_url: false
-  button: false
-  focus_shortcut_key: "k"
+# サイト内検索は _includes/header_custom.html の部分一致の検索を使う（テーマの lunr の検索は、日本語の語を区切れず、
+# 全作品の索引作りでページを開くたびに数秒止まるので使わない）。検索データは assets/js/zzzz-search-data.json で、
+# 作品ごとのページの front matter の search_terms（作品・パイロット・ユニット・武器の名前）から作る
+search_enabled: false
 
 # レーダーチャート（radar-beta は Mermaid 11.6 以降）。設定は _includes/mermaid_config.js
 mermaid:

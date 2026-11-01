@@ -3,21 +3,15 @@ layout: null
 permalink: /assets/js/search-data.json
 ---
 {%- comment -%}
-Just the Docs の検索データを置き換える。作品ごとのページは本文（大きな表）ではなく、front matter の search_terms（作品・パイロット・ユニット・武器の名前）を検索する
+サイト内検索（_includes/header_custom.html）のデータ。テーマの検索データ（同じパス）を置き換え、本文の大きな表は入れない
 {%- endcomment -%}
-{
-{%- assign i = 0 -%}
+[
+{%- assign first = true -%}
 {%- for page in site.html_pages -%}
   {%- if page.title and page.search_exclude != true -%}
-  {%- unless i == 0 -%},{%- endunless -%}
-  "{{ i }}": {
-    "doc": {{ page.title | jsonify }},
-    "title": {{ page.title | jsonify }},
-    "content": {{ page.search_terms | default: "" | jsonify }},
-    "url": "{{ page.url | relative_url }}",
-    "relUrl": "{{ page.url }}"
-  }
-  {%- assign i = i | plus: 1 -%}
+  {%- unless first -%},{%- endunless -%}
+  {%- assign first = false %}
+{"t":{{ page.title | jsonify }},"u":"{{ page.url | relative_url }}","s":{{ page.search_terms | default: "" | jsonify }}}
   {%- endif -%}
 {%- endfor %}
-}
+]

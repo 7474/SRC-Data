@@ -7,3 +7,38 @@
   td:last-child { white-space: normal; min-width: 8rem; }
   pre.mermaid, .language-mermaid { max-width: 640px; }
 }
+
+// サイト内検索（_includes/header_custom.html）
+.site-search {
+  position: relative;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  input {
+    width: 100%;
+    max-width: 32rem;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.9rem;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+  }
+  ul {
+    position: absolute;
+    top: 100%;
+    left: 1rem;
+    z-index: 100;
+    width: min(40rem, 90vw);
+    max-height: 70vh;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0.25rem 0;
+    list-style: none;
+    background: $body-background-color;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    li { padding: 0.35rem 0.75rem; font-size: 0.85rem; }
+    li div { color: $grey-dk-000; font-size: 0.75rem; }
+  }
+}
