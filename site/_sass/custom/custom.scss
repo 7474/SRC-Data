@@ -1,0 +1,9 @@
+// 表を詰めて、横に長い表はスクロールさせる
+.main-content {
+  .table-wrapper { overflow-x: auto; }
+  table { font-size: 0.8rem; }
+  th, td { min-width: 0; padding: 0.3rem 0.5rem; white-space: nowrap; }
+  // 総評などの長い文は折り返す
+  td:last-child { white-space: normal; min-width: 8rem; }
+  pre.mermaid, .language-mermaid { max-width: 640px; }
+}

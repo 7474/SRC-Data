@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /assets/js/search-data.json
+---
+{%- comment -%}
+Just the Docs の検索データを置き換える。作品ごとのページは本文（大きな表）ではなく、front matter の search_terms（作品・パイロット・ユニット・武器の名前）を検索する
+{%- endcomment -%}
+{
+{%- assign i = 0 -%}
+{%- for page in site.html_pages -%}
+  {%- if page.title and page.search_exclude != true -%}
+  {%- unless i == 0 -%},{%- endunless -%}
+  "{{ i }}": {
+    "doc": {{ page.title | jsonify }},
+    "title": {{ page.title | jsonify }},
+    "content": {{ page.search_terms | default: "" | jsonify }},
+    "url": "{{ page.url | relative_url }}",
+    "relUrl": "{{ page.url }}"
+  }
+  {%- assign i = i | plus: 1 -%}
+  {%- endif -%}
+{%- endfor %}
+}
