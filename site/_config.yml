@@ -1,0 +1,15 @@
+# GitHub Pages（actions/jekyll-build-pages）の設定。ページは site/build.sh で作る
+title: SRC Data
+description: SRC 向けのデータの閲覧と、GSC データパックの実態と比べた評価
+theme: jekyll-theme-primer
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+exclude:
+  - build.sh
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
