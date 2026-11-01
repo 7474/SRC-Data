@@ -1,0 +1,67 @@
+name: Pages
+
+# SRC-Data のデータと、SRC の tools/pack-stats・tools/pack-analysis による評価を GitHub Pages に出す。
+# データが変わったとき、手動、毎週（SRC の評価の更新を取り込む）に作り直す。
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'GSCデータパック/**'
+      - 'Sharp/Data/**'
+      - 'docs/**'
+      - 'site/**'
+      - .github/workflows/pages.yml
+  schedule:
+    - cron: '23 18 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+    - uses: actions/checkout@v7
+      with:
+        path: data
+
+    - uses: actions/checkout@v7
+      with:
+        repository: 7474/SRC
+        path: src
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v6
+      with:
+        dotnet-version: 10.0.x
+
+    - name: Build pages
+      run: data/site/build.sh data src out
+
+    - uses: actions/configure-pages@v5
+
+    - uses: actions/jekyll-build-pages@v1
+      with:
+        source: ./out
+        destination: ./_site
+
+    - uses: actions/upload-pages-artifact@v4
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+    - id: deployment
+      uses: actions/deploy-pages@v4

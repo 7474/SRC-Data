@@ -1,0 +1,19 @@
+<!-- Mermaid（レーダーチャートなど）を描く。radar-beta は Mermaid 11.6 以降 -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@12.2.0/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: false, radar: { curveTension: 0 } });
+  window.addEventListener('DOMContentLoaded', async () => {
+    document.querySelectorAll('div.language-mermaid, pre > code.language-mermaid').forEach((el) => {
+      const box = el.tagName === 'CODE' ? el.parentElement : el;
+      const pre = document.createElement('pre');
+      pre.className = 'mermaid';
+      pre.textContent = el.textContent;
+      box.replaceWith(pre);
+    });
+    await mermaid.run({ querySelector: 'pre.mermaid' });
+  });
+</script>
+<style>
+  .markdown-body table { display: block; overflow-x: auto; }
+  .container-lg { max-width: 1280px; }
+</style>
