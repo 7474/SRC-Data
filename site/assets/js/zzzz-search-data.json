@@ -1,0 +1,17 @@
+---
+layout: null
+permalink: /assets/js/search-data.json
+---
+{%- comment -%}
+サイト内検索（_includes/header_custom.html）のデータ。テーマの検索データ（同じパス）を置き換え、本文の大きな表は入れない
+{%- endcomment -%}
+[
+{%- assign first = true -%}
+{%- for page in site.html_pages -%}
+  {%- if page.title and page.search_exclude != true -%}
+  {%- unless first -%},{%- endunless -%}
+  {%- assign first = false %}
+{"t":{{ page.title | jsonify }},"u":"{{ page.url | relative_url }}","s":{{ page.search_terms | default: "" | jsonify }}}
+  {%- endif -%}
+{%- endfor %}
+]

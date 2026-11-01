@@ -1,13 +1,33 @@
 # GitHub Pages（actions/jekyll-build-pages）の設定。ページは site/build.sh で作る
 title: SRC Data
 description: SRC 向けのデータの閲覧と、GSC データパックの実態と比べた評価
-theme: jekyll-theme-primer
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+plugins:
+  - jekyll-remote-theme
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+lang: ja
 exclude:
   - build.sh
+
+# サイト内検索は _includes/header_custom.html の部分一致の検索を使う（テーマの lunr の検索は、日本語の語を区切れず、
+# 全作品の索引作りでページを開くたびに数秒止まるので使わない）。検索データは assets/js/zzzz-search-data.json で、
+# 作品ごとのページの front matter の search_terms（作品・パイロット・ユニット・武器の名前）から作る
+search_enabled: false
+
+# レーダーチャート（radar-beta は Mermaid 11.6 以降）。設定は _includes/mermaid_config.js
+mermaid:
+  version: "12.2.0"
+
+aux_links:
+  "SRC-Data（GitHub）": "https://github.com/7474/SRC-Data"
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "先頭へ"
+footer_content: "データは <a href=\"https://github.com/7474/SRC-Data\">7474/SRC-Data</a>、評価は <a href=\"https://github.com/7474/SRC/tree/master/tools\">7474/SRC の tools</a>。"
+
 defaults:
   - scope:
       path: ""

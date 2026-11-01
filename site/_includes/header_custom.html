@@ -1,0 +1,61 @@
+<div class="site-search">
+  <input id="site-search-input" type="search" placeholder="作品・パイロット・ユニット・武器の名前で検索（部分一致）" autocomplete="off" aria-label="サイト内検索">
+  <ul id="site-search-results" hidden></ul>
+</div>
+<script>
+  /* 部分一致のサイト内検索。検索データは最初に入力欄を使うときに読む（テーマが HTML を 1 行に詰めるので、行コメントは使わない） */
+  (function () {
+    var input = document.getElementById('site-search-input');
+    var list = document.getElementById('site-search-results');
+    var data = null, loading = null;
+    function load() {
+      if (!loading) {
+        loading = fetch('{{ "/assets/js/search-data.json" | relative_url }}')
+          .then(function (r) { return r.json(); })
+          .then(function (d) {
+            data = d.map(function (x) {
+              return { t: x.t, u: x.u, terms: x.s ? x.s.split(' ') : [], l: (x.t + ' ' + x.s).toLowerCase() };
+            });
+          });
+      }
+      return loading;
+    }
+    function el(tag, text) { var e = document.createElement(tag); if (text) e.textContent = text; return e; }
+    function render() {
+      var q = input.value.trim().toLowerCase();
+      list.innerHTML = '';
+      if (!q || !data) { list.hidden = true; return; }
+      var words = q.split(/\s+/);
+      var hits = data.filter(function (e) { return words.every(function (w) { return e.l.indexOf(w) >= 0; }); });
+      /* 作品名に当たるものを先に */
+      hits.sort(function (a, b) {
+        var at = words.every(function (w) { return a.t.toLowerCase().indexOf(w) >= 0; }) ? 0 : 1;
+        var bt = words.every(function (w) { return b.t.toLowerCase().indexOf(w) >= 0; }) ? 0 : 1;
+        return at - bt;
+      });
+      if (hits.length === 0) {
+        list.appendChild(el('li', '見つからない'));
+      }
+      hits.slice(0, 50).forEach(function (e) {
+        var li = el('li');
+        var a = el('a', e.t);
+        a.href = e.u;
+        li.appendChild(a);
+        var names = e.terms.filter(function (n) {
+          var ln = n.toLowerCase();
+          return words.some(function (w) { return ln.indexOf(w) >= 0; });
+        }).slice(0, 6);
+        if (names.length) li.appendChild(el('div', names.join('・')));
+        list.appendChild(li);
+      });
+      if (hits.length > 50) list.appendChild(el('li', '…ほか ' + (hits.length - 50) + ' 件'));
+      list.hidden = false;
+    }
+    function update() { load().then(render); }
+    input.addEventListener('focus', function () { load(); if (input.value) update(); });
+    input.addEventListener('input', update);
+    input.addEventListener('compositionend', update);
+    input.addEventListener('keydown', function (e) { if (e.key === 'Escape') { input.value = ''; list.hidden = true; } });
+    document.addEventListener('click', function (e) { if (!e.target.closest('.site-search')) list.hidden = true; });
+  })();
+</script>
