@@ -13,12 +13,13 @@ jobs:
     steps:
     - uses: actions/checkout@v7
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v6
-      with:
-        dotnet-version: 10.0.x
-    
+    # lint の出力（ファイル(行): error|warning: 内容）を、PR・コミットの注釈にする
+    - name: Add problem matcher
+      run: echo "::add-matcher::.github/matchers/src-lint.json"
+
+    # 7474/SRC の開発版のイメージ（master にマージされるたびに入れ替わる。7474/SRC の docs/versioning.md の「開発版」）。
+    # SRCDataLinter で GSC データパックのロボ・拡張を検査する
     - name: Validate Data
-      uses: 7474/SRC-DataLinter@master
+      uses: docker://koudenpa/srcdatalinter:dev
       with:
-        files: 'GSCデータパック/ロボ/ GSCデータパック/拡張/'
+        args: GSCデータパック/ロボ/ GSCデータパック/拡張/
