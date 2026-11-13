@@ -1,0 +1,49 @@
+name: Validate Analysis
+
+# 役割表・格の一覧（analysis/）の名前（パイロット・ユニット）が、GSC データパックのデータにあるかを確かめる。
+# 確かめるのは SRC の tools/pack-analysis の --check-roles（評価はしない）。無い名前は注釈に出す
+on:
+  push:
+    paths:
+      - 'analysis/**'
+      - 'GSCデータパック/ロボ/**'
+      - 'GSCデータパック/拡張/**'
+      - .github/workflows/validate-analysis.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v7
+      with:
+        path: data
+
+    - uses: actions/checkout@v7
+      with:
+        repository: 7474/SRC
+        path: src
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v6
+      with:
+        dotnet-version: 10.0.x
+
+    - name: Build pack-analysis
+      run: dotnet build src/tools/pack-analysis -c Release -v q
+
+    # 注釈のパスをリポジトリからの相対にするため、data で動かす
+    - name: Add problem matcher
+      run: echo "::add-matcher::data/.github/matchers/src-lint.json"
+
+    - name: Check roles
+      working-directory: data
+      run: |
+        PA=../src/tools/pack-analysis/bin/Release/net10.0/PackAnalysis.dll
+        status=0
+        dotnet "$PA" GSCデータパック/ロボ ロボ analysis/roles-robo.csv - --tiers analysis/tiers-robo.tsv --check-roles 1 || status=1
+        dotnet "$PA" GSCデータパック/拡張 拡張 analysis/roles-ext.csv - --tiers analysis/tiers-ext.tsv --check-roles 1 || status=1
+        exit $status
