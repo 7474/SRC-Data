@@ -16,6 +16,6 @@ docker run -it --rm -v ${PWD}:/data koudenpa/srcdatalinter:dev /data/Sharp
 
 - 要 Docker 環境
 - `dev` は 7474/SRC の開発版（master にマージされるたびに入れ替わる）。正式版は `latest`
-- `srcsharp` で検査するときは `docker run --rm -v ${PWD}:/s koudenpa/srcdatalinter:dev lint /s/Sharp/Data`
+- `srcsharp` で検査するときは `docker run --rm -v ${PWD}:/s koudenpa/srcdatalinter:dev lint /s/Sharp/Data --rules src,gsc-ext`（`--rules` は規則のグループ。GSC のロボは `gsc-robo`。`--list-rules` で一覧）
 - `${PWD}` の部分は環境に合わせて適当に変更してください
 

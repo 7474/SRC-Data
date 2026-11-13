@@ -18,8 +18,20 @@ jobs:
       run: echo "::add-matcher::.github/matchers/src-lint.json"
 
     # 7474/SRC の開発版のイメージ（master にマージされるたびに入れ替わる。7474/SRC の docs/versioning.md の「開発版」）。
-    # SRCDataLinter で GSC データパックのロボ・拡張を検査する
-    - name: Validate Data
+    # srcsharp lint で GSC データパックのロボ・拡張を、それぞれの基準の規則（gsc-robo・gsc-ext）と SRC の仕様の規則（src）で検査する。
+    # 拡張も止めずに調べるため、ロボの結果は最後にまとめて判定する
+    - name: Validate robo
+      id: robo
+      continue-on-error: true
       uses: docker://koudenpa/srcdatalinter:dev
       with:
-        args: GSCデータパック/ロボ/ GSCデータパック/拡張/
+        args: lint GSCデータパック/ロボ/ --rules src,gsc-robo
+
+    - name: Validate ext
+      uses: docker://koudenpa/srcdatalinter:dev
+      with:
+        args: lint GSCデータパック/拡張/ --rules src,gsc-ext
+
+    - name: Check robo result
+      if: steps.robo.outcome == 'failure'
+      run: exit 1

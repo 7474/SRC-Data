@@ -17,8 +17,9 @@ jobs:
       run: echo "::add-matcher::.github/matchers/src-lint.json"
 
     # 7474/SRC の開発版のイメージ（master にマージされるたびに入れ替わる。7474/SRC の docs/versioning.md の「開発版」）。
-    # SRCDataLinter で Sharp のデータを検査する
+    # srcsharp lint で Sharp のデータを検査する。規則は SRC の仕様（src）と、GSC データパックの拡張基準の決まり（gsc-ext）。
+    # 規則の「情報」は注釈にせず（matcher は error・warning だけ）、ログに出す。終了コードは error・warning で 1
     - name: Validate Data
       uses: docker://koudenpa/srcdatalinter:dev
       with:
-        args: Sharp/Data/
+        args: lint Sharp/Data/ --rules src,gsc-ext
