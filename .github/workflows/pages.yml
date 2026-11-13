@@ -10,6 +10,7 @@ on:
       - 'Sharp/Data/**'
       - 'docs/**'
       - 'site/**'
+      - 'analysis/**'
       - .github/workflows/pages.yml
   schedule:
     - cron: '23 18 * * 0'
