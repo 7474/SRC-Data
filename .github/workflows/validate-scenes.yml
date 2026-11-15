@@ -1,0 +1,22 @@
+name: Validate Scenes
+
+# かんたん作成（7474/SRC の SRC#Studio）の場面のカタログ（scenes/）を確かめる（scenes/check.py）
+on:
+  push:
+    paths:
+      - 'scenes/**'
+      - 'index.json'
+      - .github/workflows/validate-scenes.yml
+  pull_request:
+    paths:
+      - 'scenes/**'
+      - 'index.json'
+      - .github/workflows/validate-scenes.yml
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v7
+    - name: Validate scenes
+      run: python3 scenes/check.py
