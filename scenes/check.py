@@ -13,7 +13,9 @@ import subprocess
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASIC_TERRAINS = {0, 2, 10, 11, 15, 17, 19, 21, 22, 25, 29, 31, 32, 33, 42, 47, 48, 49}
+# 7474/SRC の SRC.Sharp/Content/basic-data/Data/System/terrain.txt の番号（宇宙・月面を含む）
+BASIC_TERRAINS = {0, 2, 10, 11, 15, 17, 19, 21, 22, 25, 29, 31, 32, 33, 42, 47, 48, 49, 83,
+                  5, 12, 13, 28, 35, 36, 6, 7, 8, 14, 24, 62}
 errors = []
 
 
