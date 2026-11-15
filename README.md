@@ -12,6 +12,10 @@ https://7474.github.io/SRC/ で参照しています。
 
 このリポジトリ管理のデータ・画像。
 
+## scenes
+
+7474/SRC の SRC#Studio の「かんたん作成」が読む場面のサンプル（マップ・置く位置・作品の場面）。[scenes/README.md](scenes/README.md)。
+
 ## tools
 
 リポジトリ内のデータを処理するツール。
