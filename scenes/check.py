@@ -4,6 +4,7 @@
 - make.py で作り直しても変わらない（カタログとマップは make.py から作る）
 - マップの大きさと行の数が合い、地形は SRC# の最小の汎用データ（basic-data）にあるもの。置く位置はマップの中
 - titles は index.json の作品の path。units のユニット・パイロットはその作品（と同じデータパックの System）のデータにある。
+- units の rank は 0〜20、bossRank は -1〜5（どちらも任意）。
   セリフの話す人は置いたユニットのパイロットかナレーション（空）
 使い方: python3 scenes/check.py   （リポジトリのルートで）
 """
@@ -87,6 +88,11 @@ for scene in json.load(open(os.path.join(ROOT, 'scenes', 'index.json'), encoding
             if u['pilot'] not in pilot_names:
                 errors.append(f'{sid}: パイロット「{u["pilot"]}」が作品のデータにありません')
             placed.add(u['pilot'])
+            # ランクは 0〜20（既定 0）、ボスランクは -1（ボスにしない。既定）か 0〜5（SRC の BossRank）
+            if not (isinstance(u.get('rank', 0), int) and 0 <= u.get('rank', 0) <= 20):
+                errors.append(f'{sid}: 「{u["unit"]}」のランク {u.get("rank")} は 0〜20 にしてください')
+            if not (isinstance(u.get('bossRank', -1), int) and -1 <= u.get('bossRank', -1) <= 5):
+                errors.append(f'{sid}: 「{u["unit"]}」のボスランク {u.get("bossRank")} は -1〜5 にしてください')
     for key, talk in scene.get('talk', {}).items():
         for line in talk:
             if line['speaker'] and line['speaker'] not in placed:
