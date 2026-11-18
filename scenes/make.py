@@ -18,10 +18,214 @@ SPACE, ASTEROIDS, WRECKS, COLONY, FORTRESS, DOCK, EARTH, MOON = 5, 12, 13, 28, 3
 MOON_GROUND, CRATER, MOON_CITY, MOON_BASE = 8, 14, 24, 62
 
 
+# basic-data が生成するマップチップ番号（docs/assets/map-chips/*.json・MapAutoConnect と一致）
+BASIC_TILE_NUMBERS = {
+    PLAIN: {0, 1, 2, 3, 4, 5, 10, 11, 12, 13},
+    WOODS: set(range(0, 16)),
+    SEA: {0, 1, 2, 3, 4, 5, 6, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44},
+    RIVER: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 82, 145, 146, 147, 150},
+    ROAD: set(range(0, 11)),
+    BRIDGE: {0, 1, 2, 500, 501},
+    MOUNTAIN: {0, 1, 2, 3, 4, 5, 49},
+    WASTE: {0, 17, 18, 19, 20, 21, 22, 23, 24},
+    LAVA: set(range(0, 9)),
+    SPACE: set(range(0, 14)),
+    ASTEROIDS: {0, 1, 2, 3},
+    TOWN: {0, 1, 2},
+    MOON_GROUND: {0, 1, 2},
+    CRATER: {0, 6, 7},
+}
+
+
+def _auto_connect_candidates(terrain, x, y, at):
+    hv = ((x * 73856093) ^ (y * 19349663)) & 0x7fffffff
+    n, e, s, w = at(x, y - 1), at(x + 1, y), at(x, y + 1), at(x - 1, y)
+    is_water = lambda t: t in (SEA, RIVER, BRIDGE)
+    is_road = lambda t: t in (ROAD, BRIDGE)
+
+    if terrain == PLAIN:
+        return [1 + (hv // 5) % 5, 0] if hv % 5 == 0 else [0]
+
+    if terrain == ROAD:
+        mask = (1 if is_road(n) else 0) | (2 if is_road(e) else 0) | (4 if is_road(s) else 0) | (8 if is_road(w) else 0)
+        chip = {
+            0: 0, 1: 1, 4: 1, 5: 1, 2: 0, 8: 0, 10: 0,
+            12: 2, 9: 3, 3: 4, 6: 5, 14: 6, 13: 7, 11: 8, 7: 9, 15: 10,
+        }[mask]
+        return [0] if chip == 0 else [chip, 0]
+
+    if terrain == BRIDGE:
+        if (n == ROAD or s == ROAD) and not (e == ROAD or w == ROAD):
+            return [0, 2]
+        if e == ROAD or w == ROAD:
+            return [501, 1, 0]
+        if is_road(n) or is_road(s):
+            return [0, 2]
+        if not is_water(n) and not is_water(s):
+            return [0, 2]
+        return [501, 1, 0]
+
+    if terrain == SEA:
+        ln, le, ls, lw = not is_water(n), not is_water(e), not is_water(s), not is_water(w)
+        if ln and le and ls:
+            return [44, 4, 0]
+        if ln and lw:
+            return [35, 3, 2, 0]
+        if ln and le:
+            return [40, 3, 4, 0]
+        if ls and lw:
+            return [38, 1, 2, 0]
+        if le and ls:
+            return [43, 1, 4, 0]
+        if ls:
+            return [1, 0]
+        if lw:
+            return [2, 0]
+        if ln:
+            return [3, 0]
+        if le:
+            return [4, 0]
+        if not is_water(at(x - 1, y - 1)):
+            return [28, 0]
+        if not is_water(at(x + 1, y - 1)):
+            return [29, 0]
+        if not is_water(at(x - 1, y + 1)):
+            return [31, 0]
+        if not is_water(at(x + 1, y + 1)):
+            return [32, 0]
+        all_water_5x5 = all(is_water(at(x + dx, y + dy)) for dy in range(-2, 3) for dx in range(-2, 3))
+        return [6, 0] if all_water_5x5 else [0]
+
+    if terrain == RIVER:
+        mask = (1 if is_water(n) else 0) | (2 if is_water(e) else 0) | (4 if is_water(s) else 0) | (8 if is_water(w) else 0)
+        if mask == 15:
+            diag_land = any(not is_water(at(x + dx, y + dy)) for dx, dy in ((1, -1), (1, 1), (-1, 1), (-1, -1)))
+            return [4, 82, 0] if diag_land else [82, 4, 0]
+        if mask == 10:
+            return [9 + (hv % 2), 9, 0]
+        return {
+            0: [4, 82, 0], 1: [150, 11, 0], 2: [145, 9, 0], 3: [6, 0],
+            4: [147, 11, 0], 5: [11, 0], 6: [0], 7: [3, 0],
+            8: [146, 9, 0], 9: [8, 0], 11: [7, 0], 12: [2, 0],
+            13: [5, 0], 14: [1, 0],
+        }.get(mask, [0])
+
+    if terrain == WOODS:
+        ln, le, ls, lw = n != WOODS, e != WOODS, s != WOODS, w != WOODS
+        non = ln + le + ls + lw
+        if non == 4:
+            return [8, 0]
+        if non == 3 and not ln:
+            return [7, 0]
+        if ls and lw:
+            return [4, 12, 13, 0]
+        if ln:
+            return [10, 0]
+        if le:
+            return [11, 0]
+        if ls:
+            return [12, 0]
+        if lw:
+            return [13, 0]
+        if at(x + 1, y - 1) != WOODS:
+            return [2, 0]
+        if at(x - 1, y - 1) != WOODS:
+            return [9, 0]
+        r = hv % 10
+        if r == 0:
+            return [14, 1, 0]
+        if r == 1:
+            return [15, 1, 0]
+        return [1, 0] if r < 6 else [0]
+
+    if terrain == MOUNTAIN:
+        ln, le, ls, lw = n != MOUNTAIN, e != MOUNTAIN, s != MOUNTAIN, w != MOUNTAIN
+        if ln and le and ls and lw:
+            return [49, 0]
+        if ln and lw:
+            return [0]
+        if ls and lw:
+            return [3, 0]
+        if ln:
+            return [1, 0]
+        if ls:
+            return [4, 0]
+        if at(x - 1, y + 1) != MOUNTAIN:
+            return [2, 5, 0]
+        if at(x + 1, y + 1) != MOUNTAIN:
+            return [5, 2, 0]
+        return [2, 0] if hv % 2 == 0 else [5, 0]
+
+    if terrain == WASTE:
+        ln, le, ls, lw = n != WASTE, e != WASTE, s != WASTE, w != WASTE
+        if ln and lw:
+            return [17, 0]
+        if ln and le:
+            return [19, 0]
+        if ls and lw:
+            return [22, 0]
+        if ls and le:
+            return [24, 0]
+        if ln:
+            return [18, 0]
+        if ls:
+            return [23, 0]
+        if lw:
+            return [20, 0]
+        if le:
+            return [21, 0]
+        return [0]
+
+    if terrain == LAVA:
+        ln, le, ls, lw = n != LAVA, e != LAVA, s != LAVA, w != LAVA
+        if ln and lw:
+            return [0, 4]
+        if ln and le:
+            return [2, 4, 0]
+        if ls and lw:
+            return [6, 4, 0]
+        if ls and le:
+            return [8, 4, 0]
+        if ln:
+            return [1, 4, 0]
+        if ls:
+            return [7, 4, 0]
+        if lw:
+            return [3, 4, 0]
+        if le:
+            return [5, 4, 0]
+        return [4, 0]
+
+    if terrain == SPACE:
+        return [7 + (hv % 7), hv % 7, 0] if hv % 5 == 0 else [hv % 7, 0]
+
+    if terrain == ASTEROIDS:
+        cnt = (n == ASTEROIDS) + (e == ASTEROIDS) + (s == ASTEROIDS) + (w == ASTEROIDS)
+        if cnt >= 3:
+            return [3, 2, 1, 0]
+        if cnt == 2:
+            return [2, 1, 0]
+        if cnt == 1:
+            return [1, 0]
+        return [0]
+
+    if terrain == TOWN:
+        return [hv % 3, 0]
+
+    if terrain == MOON_GROUND:
+        return [1 + (hv // 7) % 2, 0] if hv % 7 == 0 else [0]
+
+    if terrain == CRATER:
+        return {1: [6, 0], 2: [7, 0]}.get(hv % 3, [0])
+
+    return None
+
+
 class Map:
     def __init__(self, w, h, fill=PLAIN):
         self.w, self.h = w, h
         self.t = [[fill] * w for _ in range(h)]
+        self.b = [[0] * w for _ in range(h)]
 
     def set(self, x, y, terrain):
         if 1 <= x <= self.w and 1 <= y <= self.h:
@@ -52,12 +256,34 @@ class Map:
                 else:
                     y += 1 if y2 > y else -1
 
+    def auto_connect(self):
+        """basic-data のマップチップ番号（変種・境目）を地形の並びから自動で選ぶ"""
+        def at(nx, ny):
+            cx = 0 if nx < 0 else (self.w - 1 if nx >= self.w else nx)
+            cy = 0 if ny < 0 else (self.h - 1 if ny >= self.h else ny)
+            return self.t[cy][cx]
+
+        for y in range(self.h):
+            for x in range(self.w):
+                terrain = self.t[y][x]
+                candidates = _auto_connect_candidates(terrain, x, y, at)
+                if not candidates:
+                    continue
+                available = BASIC_TILE_NUMBERS.get(terrain)
+                if not available:
+                    self.b[y][x] = candidates[0]
+                    continue
+                for c in candidates:
+                    if c in available:
+                        self.b[y][x] = c
+                        break
+
     def text(self):
         # SRCAuthoring の MapDocument と同じ書き方: 1 行目 MapData、空行、幅,高さ、列（x）ごとに上から地形,画像
         lines = ['MapData', '', f'{self.w},{self.h}']
         for x in range(self.w):
             for y in range(self.h):
-                lines.append(f'{self.t[y][x]},0')
+                lines.append(f'{self.t[y][x]},{self.b[y][x]}')
         return '\r\n'.join(lines) + '\r\n'
 
 
@@ -910,6 +1136,7 @@ def main():
     scenes = []
     for make in SCENES:
         m, scene = make()
+        m.auto_connect()
         name = f"maps/{scene['id']}.map"
         with open(os.path.join(HERE, name), 'w', encoding='utf-8', newline='') as f:
             f.write(m.text())
