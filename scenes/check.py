@@ -6,6 +6,7 @@
 - titles は index.json の作品の path。units のユニット・パイロットはその作品（と同じデータパックの System）のデータにある。
 - units の rank は 0〜20、bossRank は -1〜5（どちらも任意）。
   セリフの話す人は置いたユニットのパイロットかナレーション（空）
+- 出来事（7474/SRC#1689。goal・loss・events）: 条件と、きっかけ・援軍・会話の名前が置いたユニット（援軍も含む）のもの
 使い方: python3 scenes/check.py   （リポジトリのルートで）
 """
 import json
@@ -81,8 +82,11 @@ for scene in json.load(open(os.path.join(ROOT, 'scenes', 'index.json'), encoding
                 elif f.lower() in ('pilot.txt', 'non_pilot.txt'):
                     pilot_names |= names(full)
     placed = set()
+    events = scene.get('events', [])
+    enemy_pilots = {u['pilot'] for u in units.get('enemies', [])} | {u['pilot'] for e in events for u in e.get('enemies', [])}
+    ally_pilots = {u['pilot'] for u in units.get('allies', [])} | {u['pilot'] for e in events for u in e.get('allies', [])}
     for side in ('allies', 'enemies'):
-        for u in units.get(side, []):
+        for u in units.get(side, []) + [x for e in events for x in e.get(side, [])]:
             if u['unit'] not in unit_names:
                 errors.append(f'{sid}: ユニット「{u["unit"]}」が作品のデータにありません')
             if u['pilot'] not in pilot_names:
@@ -93,10 +97,27 @@ for scene in json.load(open(os.path.join(ROOT, 'scenes', 'index.json'), encoding
                 errors.append(f'{sid}: 「{u["unit"]}」のランク {u.get("rank")} は 0〜20 にしてください')
             if not (isinstance(u.get('bossRank', -1), int) and -1 <= u.get('bossRank', -1) <= 5):
                 errors.append(f'{sid}: 「{u["unit"]}」のボスランク {u.get("bossRank")} は -1〜5 にしてください')
-    for key, talk in scene.get('talk', {}).items():
+    talks = list(scene.get('talk', {}).items()) + [(f'出来事 {i + 1}', e.get('talk', [])) for i, e in enumerate(events)]
+    for key, talk in talks:
         for line in talk:
             if line['speaker'] and line['speaker'] not in placed:
                 errors.append(f'{sid}: {key} の話す人「{line["speaker"]}」は置いたユニットのパイロットではありません')
+    goal = scene.get('goal', {'kind': 'annihilate'})
+    if goal['kind'] not in ('annihilate', 'boss', 'survive', 'reach'):
+        errors.append(f'{sid}: 勝利の条件「{goal["kind"]}」は分かりません')
+    if goal['kind'] == 'boss' and goal.get('target') not in enemy_pilots:
+        errors.append(f'{sid}: 勝利の条件で倒す相手「{goal.get("target")}」は置いた敵のパイロットではありません')
+    loss = scene.get('loss', {'kind': 'annihilate'})
+    if loss['kind'] not in ('annihilate', 'unit', 'turns'):
+        errors.append(f'{sid}: 敗北の条件「{loss["kind"]}」は分かりません')
+    if loss['kind'] == 'unit' and loss.get('target') not in ally_pilots:
+        errors.append(f'{sid}: 敗北の条件の「{loss.get("target")}」は置いた味方のパイロットではありません')
+    for i, e in enumerate(events):
+        if e.get('trigger') not in ('turn', 'attack', 'damaged', 'destroyed'):
+            errors.append(f'{sid}: 出来事 {i + 1} のきっかけ「{e.get("trigger")}」は分かりません')
+        for key in ('unit', 'target'):
+            if key in e and e[key] not in placed:
+                errors.append(f'{sid}: 出来事 {i + 1} の「{e[key]}」は置いたユニットのパイロットではありません')
 
 for e in errors:
     print(f'::error::{e}')
