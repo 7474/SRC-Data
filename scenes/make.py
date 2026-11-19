@@ -307,19 +307,39 @@ def L(speaker, text):
     return {'speaker': speaker, 'text': text}
 
 
+def E(trigger, talk=(), unit=None, target=None, turn=None, phase=None, ratio=None, enemies=(), allies=(), retreat=False):
+    """出来事（7474/SRC#1689）。trigger は turn・attack・damaged・destroyed。1 回だけ起き、かんたん作成が普通のイベントラベルにする"""
+    e = {'trigger': trigger, 'talk': list(talk)}
+    for key, value in (('unit', unit), ('target', target), ('turn', turn), ('phase', phase), ('ratio', ratio)):
+        if value is not None:
+            e[key] = value
+    if enemies:
+        e['enemies'] = list(enemies)
+    if allies:
+        e['allies'] = list(allies)
+    if retreat:
+        e['retreat'] = True
+    return e
+
+
 def spots(units):
     return [{'x': u['x'], 'y': u['y']} for u in units]
 
 
-def scene(id, title, description, tags, titles, allies, enemies, opening, victory, defeat, extra_allies=(), extra_enemies=()):
-    """作品の場面。おすすめの置く位置は、置くユニットの位置と、足すときの予備の位置（extra_*）"""
-    return {
+def scene(id, title, description, tags, titles, allies, enemies, opening, victory, defeat, extra_allies=(), extra_enemies=(), events=(), goal=None):
+    """作品の場面。おすすめの置く位置は、置くユニットの位置と、足すときの予備の位置（extra_*）。events・goal は出来事（7474/SRC#1689）"""
+    result = {
         'id': id, 'title': title, 'description': description, 'tags': tags,
         'allies': spots(allies) + list(extra_allies), 'enemies': spots(enemies) + list(extra_enemies),
         'titles': titles,
         'units': {'allies': allies, 'enemies': enemies},
         'talk': {'opening': opening, 'victory': victory, 'defeat': defeat},
     }
+    if goal:
+        result['goal'] = goal
+    if events:
+        result['events'] = list(events)
+    return result
 
 
 GUNDAM = 'GSCデータパック/ロボ/機動戦士ガンダム'
@@ -353,7 +373,13 @@ def scene_jaburo():
                      L('アムロ＝レイ(0079)', '赤い機体……やっぱりあの人か。ここは通さない！')],
                     [L('アムロ＝レイ(0079)', '基地は守りきった。……でも、あの人はまた来る。')],
                     [L('シャア＝アズナブル', '連邦の本部、いただいたぞ。')],
-                    extra_enemies=[{'x': 5, 'y': 1}, {'x': 15, 'y': 1}])
+                    extra_enemies=[{'x': 5, 'y': 1}, {'x': 15, 'y': 1}],
+                    # 出来事: アムロとシャアが刃を交え、手傷を負ったシャアは引き上げる（ジャブローでシャアは退いた）
+                    events=[E('attack', unit='アムロ＝レイ(0079)', target='シャア＝アズナブル',
+                              talk=[L('シャア＝アズナブル', 'ガンダムか。地上でもしぶといな。'),
+                                    L('アムロ＝レイ(0079)', 'シャア！ ここから先へは行かせない！')]),
+                            E('damaged', unit='シャア＝アズナブル', ratio=60, retreat=True,
+                              talk=[L('シャア＝アズナブル', '深追いは無用か……。各機、潮時だ。後は任せる。')])])
 
 
 def scene_photon():
@@ -559,7 +585,15 @@ def scene_abaoaqu():
                      L('アムロ＝レイ(0079)', '見える……あの人の動きが。行きます！')],
                     [L('アムロ＝レイ(0079)', 'まだ帰れるところがあるんだ……。')],
                     [],
-                    extra_enemies=[{'x': 12, 'y': 3}, {'x': 12, 'y': 11}])
+                    extra_enemies=[{'x': 12, 'y': 3}, {'x': 12, 'y': 11}],
+                    # 出来事: アムロとシャアの最後の対決と、ジオングが落ちたとき。
+                    # ジオングヘッドの援軍（破壊のあとに乗り換えて出る）は、自動で遊ぶと 5 回中 3 回の勝ちが 0 回になったので入れない
+                    events=[E('attack', unit='アムロ＝レイ(0079)', target='シャア＝アズナブル',
+                              talk=[L('シャア＝アズナブル', 'ニュータイプの力、このジオングで試させてもらうぞ、アムロ！'),
+                                    L('アムロ＝レイ(0079)', 'あなたの好きにはさせない、シャア！')]),
+                            E('destroyed', unit='シャア＝アズナブル',
+                              talk=[L('シャア＝アズナブル', 'ジオングがここまでやられるとは……。アムロ、決着は預けておく。'),
+                                    L('アムロ＝レイ(0079)', 'シャア……！ 戦いはもう終わりなんだ！')])])
 
 
 def scene_solomon():
@@ -591,7 +625,13 @@ def scene_solomon():
                      L('アムロ＝レイ(0079)', 'スレッガーさん、無茶はしないでください！'),
                      L('ロイ＝フォッカー', '格好つけるのは俺の役目だと思ってたがな。付き合うぜ、スレッガー！')],
                     [L('アムロ＝レイ(0079)', 'ソロモンが落ちる……。')],
-                    [])
+                    [],
+                    # 出来事: スレッガーがビグ・ザムへ挑み、落ちればアムロが受け継ぐ
+                    events=[E('attack', unit='スレッガー＝ロウ', target='ドズル＝ザビ',
+                              talk=[L('スレッガー＝ロウ', 'デカブツさんよ、懐の中までバリアは張れないだろ！'),
+                                    L('ドズル＝ザビ', '小賢しい戦闘機が！ ビグ・ザムは落ちんぞ！')]),
+                            E('destroyed', unit='スレッガー＝ロウ',
+                              talk=[L('アムロ＝レイ(0079)', 'スレッガーさん！ ……あなたの開いた道、無駄にはしない！')])])
 
 
 def scene_von_braun():
