@@ -221,6 +221,10 @@ def _auto_connect_candidates(terrain, x, y, at):
     return None
 
 
+# 遊ぶときにマップをドラッグでスクロールできる大きさ（7474/SRC の SRC#Studio のかんたん作成と同じ）
+MIN_MAP_SIZE = 15
+
+
 class Map:
     def __init__(self, w, h, fill=PLAIN):
         self.w, self.h = w, h
@@ -255,6 +259,19 @@ class Map:
                     x += 1 if x2 > x else -1
                 else:
                     y += 1 if y2 > y else -1
+
+    def pad(self, size):
+        """幅・高さを size マス以上にする。足す列・行は右端・下端の地形を写す（置く位置は変わらない）"""
+        while self.w < size:
+            for row in self.t:
+                row.append(row[-1])
+            for row in self.b:
+                row.append(0)
+            self.w += 1
+        while self.h < size:
+            self.t.append(list(self.t[-1]))
+            self.b.append([0] * self.w)
+            self.h += 1
 
     def auto_connect(self):
         """basic-data のマップチップ番号（変種・境目）を地形の並びから自動で選ぶ"""
@@ -1176,6 +1193,8 @@ def main():
     scenes = []
     for make in SCENES:
         m, scene = make()
+        # SRC（Main.frm の picMain_MouseMove）は幅か高さが 15 マス未満のマップをドラッグでスクロールしない（SRC# も同じ）
+        m.pad(MIN_MAP_SIZE)
         m.auto_connect()
         name = f"maps/{scene['id']}.map"
         with open(os.path.join(HERE, name), 'w', encoding='utf-8', newline='') as f:
