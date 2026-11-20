@@ -53,6 +53,9 @@ for scene in json.load(open(os.path.join(ROOT, 'scenes', 'index.json'), encoding
     lines = open(os.path.join(ROOT, 'scenes', scene['map']), encoding='utf-8', newline='').read().split('\r\n')
     w, h = map(int, lines[2].split(','))
     tiles = [l for l in lines[3:] if l]
+    # SRC は幅か高さが 15 マス未満のマップをドラッグでスクロールしない（Main.frm の picMain_MouseMove）
+    if w < 15 or h < 15:
+        errors.append(f'{sid}: マップが {w}×{h} です。遊ぶときにドラッグでスクロールできるよう、幅・高さとも 15 マス以上にしてください')
     if len(tiles) != w * h:
         errors.append(f'{sid}: マップのマスの数が {w}×{h} と合いません')
     for t in tiles:
